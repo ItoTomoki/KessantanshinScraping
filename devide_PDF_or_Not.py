@@ -126,7 +126,6 @@ def save_pdf_files(company_url, data_x, data_y, directory_path_set):
 		if len(set(URL.split("/")) & set(directory_path_set)) != 0:
 			add_URL_List_with_dir.append(URL)
 	url_select_list = [URL for URL in list(set(add_URL_List_with_dir + list(url_select_svm_list)))]
-	URL = url_select_list[2]
 	for URL in url_select_list:
 		os.system("wget  -P " + str(company_url) + " -r -l 1 -e robots=off -A .pdf -nd --no-check-certificate " + str(URL))
 
