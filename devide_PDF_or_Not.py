@@ -19,11 +19,6 @@ import argparse
 positive_directory = os.listdir('positive_URL_set')
 negative_directory = os.listdir('negative_data')
 
-for text in positive_directory:
-	fname = 'positive_URL_set' + "/" + text
-	html_text = open(fname).read()
-
-mt = MeCab.Tagger("-Owakati")
 #ユーザー辞書を使う場合
 #mecab = MeCab.Tagger('-Owakati -u ../userdictionary/hatena-keyword.dic, ../userdictionary/ruiter-keyword.dic, ../userdictionary/wikipedia-keyword.dic')
 #ユーザー辞書を使わない場合
@@ -97,8 +92,6 @@ for path in directory_list:
 
 directory_path_set = set(directory_path_set)
 
-#directory = "../company_list/www.nissin-sugar.co.jp/"
-
 def fild_all_files(directory):
     for root, dirs, files in os.walk(directory):
         yield root
@@ -107,7 +100,6 @@ def fild_all_files(directory):
 
 #分類器により該当ページかどうかを分類
 
-company_url = "www.bergearth.co.jp"
 def save_pdf_files(company_url, data_x, data_y, directory_path_set):
 	os.system("wget -r -l 0 -e robots=off -A .php, .htm  --no-check-certificate " + company_url) 
 	text_information_dict_new = {}
@@ -139,6 +131,7 @@ def save_pdf_files(company_url, data_x, data_y, directory_path_set):
 		os.system("wget  -P " + str(company_url) + " -r -l 1 -e robots=off -A .pdf -nd --no-check-certificate " + str(URL))
 
 def main():
+	#ex: python devide_PDF_or_Not.py -URL www.bergearth.co.jp
 	parser = argparse.ArgumentParser()
 	parser.add_argument('-URL', type=str)
 	args = parser.parse_args()
