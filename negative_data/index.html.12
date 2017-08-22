@@ -1,0 +1,555 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<title>マルハニチロ株式会社</title>
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta name="keywords" content="マルハニチロ株式会社,マルハニチロ,マルハ,ニチロ,あけぼの,食品事業,冷凍食品,レトルト食品,チルド食品,缶詰,練り製品,乾燥食品,化粧品,栄養補助食品,DHA,飲料品,加工食品,販売,業務用食品,介護食,レシピ" />
+<meta name="author" content="マルハニチロ株式会社" />
+<meta name="description" content="ようこそ！マルハニチロ株式会社のホームページへ。マルハニチロ株式会社のホームページでは、商品情報、楽しく学べる充実コンテンツ、“簡単”しあわせレシピ、お得なキャンペーンなど情報が満載です。" />
+<meta name="ROBOTS" content="INDEX,FOLLOW" />
+<meta http-equiv="pragma" content="no-cache" />
+<meta http-equiv="cache-control" content="no-cache" />
+<meta property="og:title" content="マルハニチロ株式会社">
+<meta property="og:type" content="article">
+<meta property="og:url" content="http://www.maruha-nichiro.co.jp/">
+<meta property="og:image" content=" http://www.maruha-nichiro.co.jp/common/img/icon_fb.png">
+<meta property="og:description" content="マルハニチロ株式会社は、「世界においしいしあわせを」をスローガンに、新しい価値の創造へ。世界の食へ貢献する企業を目指します。">
+<meta property="og:site_name" content="マルハニチロ株式会社">
+<meta property="fb:app_id" content=" 104275956393303">
+<link rel="canonical" href="http://www.food.maruha-nichiro.co.jp/" />
+
+<!-- CSS -->
+<link rel="stylesheet" type="text/css" media="all" href="./common_food/css/reset.css"  />
+<link rel="stylesheet" type="text/css" media="all" href="./common/css/base.css"  />
+<link rel="stylesheet" type="text/css" media="all" href="./food/css/top_style.css"  />
+<link rel="stylesheet" type="text/css" media="all" href="./common_food/css/flexslider.css"  />
+<link rel="stylesheet" type="text/css" media="all" href="./common_food/inc/footer.html"  />
+<script type="text/javascript" src="/common/js/jquery.js"></script>
+<script type="text/javascript" src="/common/js/pngfix.js"></script>
+<script type="text/javascript" src="/common/js/redirectSP.js"></script>
+<link rel="stylesheet" type="text/css" media="all" href="/common_food/css/import.css" />
+<!--[if IE 6]><script src="/common/js/DD_belatedPNG.js"></script><![endif]-->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript" src="/common/js/jquery.cookie.js"></script>
+<script type="text/javascript" src="/common/js/fontsize.js"></script>
+<script type="text/javascript" src="/common_food/js/common.js" charset="utf-8"></script> 
+<script type="text/javascript" src="/common/js/ga.js"></script>
+
+<!-- js -->
+<script type="text/javascript" src="./common_food/js/lib/jquery.js"></script>
+<script type="text/javascript" src="./common_food/js/lib/jquery.cookie.js"></script>
+<script type="text/javascript" src="./common_food/js/fontsize.js"></script>
+<script type="text/javascript" src="./common_food/js/common.js"></script>
+<script type="text/javascript" src="./common_food/js/jquery.flexslider.js" ></script><!--
+<script type="text/javascript" src="js/boxslide.js" ></script>-->
+<script type="text/javascript">
+      $(function(){
+        $("#image-navigation").imageNavigation({
+          time:8000,
+          animationTime:1000,
+          rolloverTime: 0,
+          rolloutTime: 1000
+        });
+      });
+</script>
+<script type="text/javascript" charset="utf-8">
+  $(window).load(function() {
+    $('.flexslider').flexslider();
+  });
+</script>
+<script type="text/javascript">
+// iPhone または、Android の場合は振り分けを判断
+if (document.referrer.indexOf('maruha-nichiro.co.jp') == -1 &&
+    ((navigator.userAgent.indexOf('iPhone') > 0 &&
+    navigator.userAgent.indexOf('iPad') == -1) ||
+    navigator.userAgent.indexOf('iPod') > 0 ||
+    navigator.userAgent.indexOf('Android') > 0)) {
+        if(confirm('スマートフォン向けサイトに移動しますか？')) {
+            location.href = 'http://www.maruha-nichiro.co.jp/sp/';
+        }
+}
+</script>
+</head>
+
+<body id="changeArea">
+<div id="wrapper"> 
+  
+  <!-- header Start -->
+
+<div id="header">
+<h1><a href="http://www.maruha-nichiro.co.jp/index.html"><img src="/common/img/logo.gif" alt="マルハニチロ" class="mt16" /></a></h1>
+ 		<div class="header_contents mb15 clearfix">
+        <a href="http://www.maruha-nichiro.co.jp/corporate.html" class="rollover"><img src="/common_food/img/header01.gif" class="busi" /></a>
+			<form name="SS_searchForm" id="SS_searchForm" action="http://search.maruha-nichiro.co.jp/search" method="get" enctype="application/x-www-form-urlencoded">
+			<input type="hidden" name="site" value="ZKG3P3IE" />
+			<input type="hidden" name="charset" value="UTF-8" />
+			<input type="hidden" value="8" name="category">
+			<input type="hidden" name="group" value="6" />
+			<input type="hidden" name="design" value="5" />
+			<input type="text" name="query" value="" id="SS_searchQuery" maxlength="100" autocomplete="off" />
+			<input type="image" src="/common_food/img/search02.gif" alt="検索" name="searchBtn" id="searchBtn" class="imgrollover" />
+			</form>
+			<ul id="fontSize" class="btn">
+			<li class="f_size_title">文字サイズ</li>
+			<li><img class="changeBtn" src="/common_food/img/fsize_btn_s.gif" alt="小" width="26" height="25" /></li>
+			<li><img class="changeBtn" src="/common_food/img/fsize_btn_m.gif" alt="中" width="26" height="25" /></li>
+			<li><img class="changeBtn" src="/common_food/img/fsize_btn_l.gif" alt="大" width="26" height="25" /></li>
+			</ul>
+		</div>
+		<img id="slideout-menu_sp_open" src="/inquiry/img/slideout-button_open.png" onclick="openNav()" alt="MENU">
+		<img id="slideout-menu_sp_close" src="/inquiry/img/slideout-button_close.png" onclick="closeNav()" alt="MENU">
+
+
+
+	<ul id="gnavi" class="mb15">
+		<li><a href="http://www.maruha-nichiro.co.jp/products/" class="nav001">商品情報</a></li>
+		<li><a href="http://www.maruha-nichiro.co.jp/recipe/" class="nav002">簡単！しあわせレシピ</a></li>
+		<li><a href="http://www.maruha-nichiro.co.jp/contents/" class="nav003">知る・楽しむ</a></li>
+		<li><a href="http://www.maruha-nichiro.co.jp/inquiry/" class="nav004">お問い合わせ</a></li>
+		<li><a href="http://www.maruha-nichiro.co.jp/shop/" class="nav005">オンラインショップ</a></li>
+	</ul>
+</div>
+<!-- header End -->
+<div class="wrapper_slidenav">
+	<ul id="mySlideNav" class="slidenav">
+		<li class="product-info"><a href="/sp/products/index.html">商品情報</a></li>
+		<li class="easy-recipe"><a href="/sp/recipe/">簡単！しあわせレシピ</a></li>
+		<li class="know-enjoy"><a href="/contents/">知る・楽しむ</a></li>
+		<li class="faq accordion-sp"><a href="#">お客様相談室</a></li>
+		<li class="panel">
+			<ul>
+  <li><a href="https://www.maruha-nichiro.co.jp/inquiry/agree.html">メールでのご質問・お問い合わせ</a></li>
+
+</ul>
+
+<a class="headline" href="/inquiry/#qa1">商品別Q&#38;A</a>
+
+<ul class="items">
+  <li><a href="/inquiry/faq_ll.php">ロングライフチルド</a></li>
+  <li><a href="/inquiry/faq_frozen.php">冷凍食品</a></li>
+  <li><a href="/inquiry/faq_can.php">缶詰</a></li>
+  <li><a href="/inquiry/faq_chikuwa.php">ちくわ・練り製品</a></li>
+  <li><a href="/inquiry/faq_sausage.php">フィッシュソーセージ</a></li>
+  <li><a href="/inquiry/faq_retort.php">レトルト</a></li>
+  <li><a href="/inquiry/faq_jelly.php">カップゼリー</a></li>  
+  <li><a href="/inquiry/faq_desert.php">デザートの素</a></li>
+  <li><a href="/inquiry/faq_medicare.php">介護食品</a></li>
+  <li><a href="/inquiry/faq_otherprod.php">その他</a></li>
+</ul>
+
+<a class="headline" href="/inquiry/#qa2">目的別Q&#38;A</a>
+
+<ul class="items">
+  <li><a href="/inquiry/faq_exp.php">賞味期限・保存方法</a></li>
+  <li><a href="/inquiry/faq_rawmaterial.php">原材料・原産地・製造</a></li>
+  <li><a href="/inquiry/faq_use.php">使用方法</a></li>
+  <li><a href="/inquiry/faq_nutrition.php">栄養成分</a></li>
+  <li><a href="/inquiry/faq_allergies.php">アレルギー</a></li>
+  <li><a href="/inquiry/faq_package.php">パッケージ表示</a></li>
+  <li><a href="/inquiry/faq_feature.php">商品特長</a></li>  
+  <li><a href="/inquiry/faq_other.php">その他</a></li>
+</ul>
+
+
+
+<ul>
+  <li><a href="/inquiry/improvements.html">改善事例</a></li>
+  <li><a href="/safe/index.html">安全・安心への取り組み</a></li>
+</ul>
+		</li>
+		<li class="online-shop"><a href="/shop/">オンラインショップ</a></li>
+	</ul>
+</div>
+
+<script>
+
+	/* Set the width of the side navigation to 250px and the left margin of the page content to 250px and add a black background color to body */
+	function openNav() {
+			document.querySelector("#mySlideNav").style.opacity = "1.0";
+			document.querySelector("#mySlideNav").style.maxHeight = "none";
+			document.querySelector("#mySlideNav").style.marginTop = "20px";
+			document.querySelector("#slideout-menu_sp_open").style.display = "none";
+			document.querySelector("#slideout-menu_sp_close").style.display = "inline";
+			document.querySelector(".slidenav").style.opacity = "1";
+			document.querySelector(".contents-area").style.display = "none";
+			document.querySelector("#footerLinks").style.display = "none";
+			document.querySelector("#footer").style.display = "none";
+	}
+
+	/* Set the width of the side navigation to 0 and the left margin of the page content to 0, and the background color of body to white */
+	function closeNav() {
+			document.querySelector("#mySlideNav").style.marginTop = "20px";
+			document.querySelector("#mySlideNav").style.maxHeight = "0";
+			document.querySelector("#slideout-menu_sp_close").style.display = "none";
+			document.querySelector("#slideout-menu_sp_open").style.display = "inline";
+			document.querySelector(".slidenav").style.opacity = "0";
+			document.querySelector(".contents-area").style.display = "block";
+			document.querySelector("#footerLinks").style.display = "block";
+			document.querySelector("#footer").style.display = "block";
+	}
+
+	var width = window.innerWidth;
+	window.onresize = function(){
+		if(this.window.innerWidth != width){
+			if(window.innerWidth >= "769"){
+				document.querySelector("#slideout-menu_sp_open").style.display = "none";
+				document.querySelector("#slideout-menu_sp_close").style.display = "none";
+				document.querySelector("#mySlideNav").style.maxHeight = "0";
+				document.querySelector("#mySlideNav").style.marginTop = "0";
+			} else if(window.innerWidth <= "769"){
+				document.querySelector(".inquiry #slideout-menu_sp_open").style.display = "inline";
+				document.querySelector("#slideout-menu_sp_close").style.display = "none";
+				document.querySelector("#mySlideNav").style.maxHeight = "0";
+				document.querySelector(".slidenav").style.opacity = "1";
+				document.querySelector(".contents-area").style.display = "block";
+			}
+		}
+	};
+
+	var acc = document.getElementsByClassName("accordion-sp");
+	for(var i = 0; i < acc.length; i++){
+		acc[i].onclick = function(){
+			this.classList.toggle("active");
+			this.nextElementSibling.classList.toggle("show");
+		}
+	}
+</script>
+
+  
+  <div id="contents" class="clearfix" style="width:1020px;">
+    <div id="image-navigation">
+      <div class="navi">
+        <ul>
+          <li><a href="#&main_visual_1" onclick="return false;"><img src="./food/img/index/mainthumb22.jpg" width="106" height="46" alt="新中華街シリーズ" class="mainthumb01" /></a></li>
+          <li><a href="#&main_visual_1" onclick="return false;"><img src="./food/img/index/mainthumb23.jpg" width="106" height="46" alt="至福の一皿" class="mainthumb01" /></a></li>
+          <li><a href="#&main_visual_3" onclick="return false;"><img src="./food/img/index/mainthumb19.jpg" width="106" height="46" alt="DHAのチカラ　フィッシュソーセージ" class="mainthumb01" /></a></li>
+        </ul>
+      </div>
+      <div class="navi-image">
+        <div><a href="/chuuka/"><img src="./food/img/index/mainimg022.jpg" alt="新中華街シリーズ"></a></div>
+        <div><a href="/shifuku/"><img src="./food/img/index/mainimg023.jpg" alt="至福の一皿"></a></div>
+        <div><a href="/dha_fish/"><img src="./food/img/index/mainimg019.jpg" alt="DHAのチカラ　フィッシュソーセージ"></a></div>
+      </div>
+    </div>
+    <div id="main_contents" class="clearfix">
+      <div class="important mb20 mt20">
+        <p><!--2016年4月19日<br /><a href="./pdf/20160419_kumamoto_earthquake.pdf" target="_blank"><--><a href="/news_center/info.html">>> 熊本地震により被災されたみなさまに、謹んでお見舞い申し上げます。一日も早い被災地の復旧、復興を心よりお祈り申し上げます。<br />
+          （熊本地震に対する支援について）</a></p>
+      </div>
+      <div class="mb20 mt20">
+            <img src="./food/img/index/main_img01.gif" alt="重要なお知らせ"  />
+<ul class="important">
+
+<li>
+<span class="day">2016.11.04</span>
+
+
+
+
+<span class="icon_pdf">PDF</span>
+
+
+
+
+<a href="http://www.maruha-nichiro.co.jp/important/files/20161104_sanma_kabayaki_owabi.pdf" target="_blank">お詫びと商品回収のお知らせ（「さんま蒲焼」缶詰） (PDF:219.9KB)</a>
+
+
+
+</li>
+
+</ul>
+
+
+      </div>
+      
+      <!--<div class="merger mb20 mt20"><img src="./img/logo.gif" alt="マルハニチロ株式会社"  />
+        <p>2014年4月1日、マルハニチロホールディングス、マルハニチロ水産、マルハニチロ食品、マルハニチロ畜産、マルハニチロマネジメント、アクリフーズの6社は合併し、マルハニチロ株式会社として新たに誕生いたしました。</p>
+      </div>-->
+      <br />
+      <div class="aqlitop"> <a href="/safe/aqli/"  class="rollover"><img src="food/img/index/bnr_aqlitop.gif" alt="アクリフーズ農薬混入事件についてのお知らせ" class="rollover"/></a> </div>
+      <div class="news mb20"> </div>
+      <div class="maincon_pro clearfix">
+        <h2 class="heading2 clearfix"><a href="/products/" class="rollover"><img src="./food/img/index/top_title02.gif" alt="商品情報" /></a><span><a href="/products/" class="rollover"><img src="./food/img/index/top_ic_li2.gif" alt="一覧"  /></a></span></h2>
+        <ul>
+          <li class="h81"><a href="/products/new2017_spring.html" class="pro01_hov">新商品・リニューアル品</a></li>
+          <li class="h81"><a href="/products/prodlist.php?c=1" class="pro03_hov">冷凍食品</a></li>
+          <li class="h81"><a href="/products/prodlist.php?c=2" class="pro04_hov">缶詰</a></li>
+          <li class="h80"><a href="/products/prodlist.php?c=3" class="pro05_hov">びん詰め</a></li>
+          <li class="h80"><a href="/products/prodlist.php?c=14" class="pro06_hov">トレー・パウチ</a></li>
+          <li class="h80"><a href="/products/prodlist.php?c=5" class="pro07_hov">ちくわ・練り製品</a></li>
+          <li class="h80"><a href="/products/prodlist.php?c=6" class="pro08_hov">フィッシュソーセージ</a></li>
+          <li class="h80"><a href="/products/prodlist.php?c=7" class="pro09_hov">レトルト</a></li>
+          <!--<li class="h80"><a href="/products/prodlist.php?c=8" class="pro10_hov">フリーズドライ</a></li>-->
+          <li class="h80"><a href="/products/prodlist.php?c=9" class="pro11_hov">カップゼリー</a></li>
+          <li class="h81"><a href="/products/prodlist.php?c=10" class="pro12_hov">デザートの素</a></li>
+           <li class="h81"><a href="/products/prodlist.php?c=16" class="pro02_hov">ロングライフチルド</a></li>
+          <li class="h81"><a href="/products/healthlist.php" class="pro13_hov">健康食品</a></li>
+          <li class="h81"><a href="/products/new_medicare.html" class="pro14_hov">介護食品</a></li>
+          <li class="h81"><a href="/products/giftlist.php" class="pro15_hov">ギフト商品</a></li>
+          <li class="h81"><a href="/products/" class="pro16_hov">商品一覧</a></li>
+        </ul>
+      </div>
+      
+      <div class="maincon_rec"><h2><img src="./food/img/index/top_title03.gif" alt="しあわせレシピ" /></h2><img src="./food/img/index/ossm_reci.gif" alt="おすすめレシピ" class="rec_ossm" /><div class="recom clearfix"><a href="/recipe/recipe.php?c=2244" class="rollover""><img src="/recipe/img/cooking/撮影かに冷製ﾊﾟｽﾀ.JPG" alt="かに「缶たし」冷製パスタサラダ" class="rec_pho" /></a><div class="recipe_tx"><dl><dt class="lin_bot"><a href="/recipe/recipe.php?c=2244">かに「缶たし」冷製パスタサラダ</a></dt><dd class="clock lin_bot"><span class="icon_rec"><img src="./food/img/index/icon_clo.gif" alt="" /></span><span class="tex01">調理時間</span><span class="tex02">18分</span></dd><dd class="ene"><span class="icon_rec"><img src="./food/img/index/icon_ene.gif" alt="" /></span><span class="tex01">エネルギ ー</span><span class="tex02">334</span></dd><a href="/recipe/recipe.php?c=2244" class="rollover"><img src="./food/img/index/ossm_deta.gif" alt="詳細 情報" class="deta"  /></a></dl>
+            </div>
+                </div>
+            <a href="/recipe/" class="rollover"><img class="rec_intro" src="./food/img/index/rec_tumb.jpg" alt="マルハニチロ製品を使ったカンタ ン幸せレシピをご紹介！" /></a>
+                </div>
+      
+      <div class="maincon_con clearfix">
+        <dl>
+          <dt><img src="./food/img/index/top_title04.gif" alt="ピックアップコンテンツ" /></dt>
+          <dd>
+            <div class="flexslider clearfix">
+              <ul class="slides">
+                <li> <a href="/chuuka/" class="rollover"><img src="./food/img/index/main_con01_11.jpg" alt="新中華街" /></a> </li>
+                <li> <a href="/shifuku/" class="rollover"><img src="./food/img/index/main_con01_12.jpg" alt="至福の一皿" /></a> </li>
+              </ul>
+            </div>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="/news_center/channel/index.html" class="rollover"><img src="./food/img/index/top_title05.gif" alt="マルハニチロチャンネル" /></a><span class="con_li"><a href="/news_center/channel/" class="rollover"><img src="./food/img/index/top_ic_li.gif" alt="一覧"  /></a></span></dt>
+          <dd>
+            <div class="flex-container">
+            <div class="flexslider clearfix">
+              <ul class="slides">
+                <li> <a href="/news_center/channel/index.html#movie01" class="rollover"><img src="./food/img/index/main_con02_10.jpg" alt="炒飯の極み [えび×○醤] 「感極まる」篇" /></a></li>
+                <li> <a href="/news_center/channel/index.html#movie02" class="rollover"><img src="./food/img/index/main_con02_09.jpg" alt="おいしいおさかなソーセージ「いろんな料理に」篇" /></a></li>
+                <li> <a href="/news_center/channel/index.html#movie04" class="rollover"><img src="./food/img/index/main_con02_08.jpg" alt="マルハニチロ×ぐでたま　1秒OPEN！お魚ソーセージ編" /></a></li>
+              </ul>
+            </div>
+            </div>
+          </dd>
+        </dl>
+        <dl>
+          <dt><a href="/contents/" class="rollover"><img src="./food/img/index/top_title06.gif" alt="プレゼント・キャンペーン" /></a><span class="con_li"><a href="/contents/" class="rollover"><img src="./food/img/index/top_ic_li.gif" alt="一覧"  /></a></span> </dt>
+          <dd>
+            <div class="flexslider clearfix">
+              <ul class="slides">
+                <li><a href="/campaign/2017_05_01/" class="rollover"><img src="./food/img/index/main_con03_36.gif" alt="オーシャンブルー プレゼントキャンペーン" /></a></li>
+                <li><a href="https://www.gudetamacp.maruha-nichiro.co.jp/" target="_blank" class="rollover"><img src="./food/img/index/main_con03_39.png" alt="ぐでたまオリジナルクオカードプレゼントキャンペーン" /></a></li>
+                <li><a href="/campaign/2017_06_01/" class="rollover"><img src="./food/img/index/main_con03_38.jpg" alt="フルティシエ　わたしのちょっと贅沢キャンペーン" /></a></li>
+              </ul>
+            </div>
+          </dd>
+        </dl>
+      </div>
+      <div class="maincon_seri clearfix">
+        <h2><img src="./food/img/index/top_title01.gif" alt="コンテンツ" width="940" height="40" /></h2>
+        <ul>
+          <li><a href="https://www.shu-mai.maruha-nichiro.co.jp" class="rollover"><img src="./food/img/index/series04.jpg" alt="シュウシュウマイリンのはおちー！冷凍食品" /></a></li>
+          <li><a href="/products/pro31100.html" class="rollover"><img src="./food/img/index/series07.jpg" alt="新中華街" /></a></li>
+         <li><a href="http://aqli.maruha-nichiro.co.jp/" target="_blank" class="rollover"><img src="./food/img/index/series14.jpg" alt="アクリフーズ" /></a></li> 
+          <li><a href="/tsukihana/" class="rollover"><img src="./food/img/index/series10.jpg" alt="月花" /></a></li>
+          <li><a href="/tinned/" class="rollover"><img src="./food/img/index/series16.gif" alt="The TINNED" /></a></li>
+          <li><a href="/casa_de_bar/" class="rollover"><img src="./food/img/index/series17.gif" alt="CASA de BAR" /></a></li>
+          <li><a href="/asian_asi/html/" class="rollover"><img src="./food/img/index/series18.gif" alt="ASIAN ASI" /></a></li>
+          <li><a href="/la_cantine/" class="rollover"><img src="./food/img/index/series11.jpg" alt="ラ・カンティーヌ" /></a></li>
+          
+          <li><a href="/resara/index.html" class="rollover"><img src="./food/img/index/series01.jpg" alt="DHA入りリサーラソーセージ" /></a></li>
+          <li><a href="/fish-sausage/" class="rollover"><img src="./food/img/index/series02.jpg" alt="フィッシュソーセージ" /></a></li>
+          <li><a href="/products/pro30400.html" class="rollover"><img src="./food/img/index/series06.jpg" alt="金のどんぶり" /></a></li>
+          <li><a href="/shifuku/" class="rollover"><img src="./food/img/index/series19.jpg" alt="至福の一皿" /></a></li>
+          
+          <li><a href="http://www.medicare.maruha-nichiro.co.jp/" class="rollover"><img src="./food/img/index/series09.jpg" alt="やわらか食　メディケア食品"/></a></li>
+          <li><a href="/yokatoto/index.html" class="rollover"><img src="./food/img/index/series13.jpg" alt="よかととシリーズ" /></a></li>
+          <li><a href="/squina/index.php" class="rollover"><img src="./food/img/index/series08.jpg" alt="SQUINA" /></a></li>
+          
+        </ul>
+      </div>
+      <!--<div class="maincon_bann mb40"><a href="http://club.maruha-nichiro.co.jp/" class="rollover"><img src="./food/img/index/wid_bann001.jpg" alt="アクリフーズ　大事な人に食べさせたい"  /></a></div>-->
+      <div class="maincon_list clearfix mb40">
+        <div class="list_ichi"><a href="/news_center/information/?category=products" class="rollover"><img src="./food/img/index/icon_li_b.gif" alt="" />一覧へ</a></div>
+        <img src="./food/img/index/top_title07.gif" alt="新着情報" width="940" height="41" />
+        <div class="list_rss"><a href="/rss/" class="rollover"><img src="./food/img/index/icon_rss.gif" alt="RSS" width="40" height="18" /></a></div>
+        <ul class="clearfix">
+<li class="clearfix lin_bot">
+<span class="day" style="width:122px;">2017年03月30日</span>
+<span class="icon_web">WEB</span>
+  
+<a href="http://www.maruha-nichiro.co.jp/inquiry/">お客様相談室・お問合せページ　リニューアルいたしました。</a>
+  
+</li>
+</ul>
+ 
+      </div>
+      <div class="maincon_list clearfix mb40">
+        <div class="list_ichi"><a href="/news_center/release/?category=products" class="rollover" style="color:#373737;"><img src="./food/img/index/icon_li_g.gif" alt="" />一覧へ</a></div>
+        <img src="./food/img/index/top_title08.gif" alt="新着情報" width="940" height="41" />
+        <div class="list_rss"><a href="/rss/" class="rollover"><img src="./food/img/index/icon_rss.gif" alt="RSS" width="40" height="18" /></a></div>
+        <ul class="clearfix">
+<li class="clearfix lin_bot">
+<span class="day" style="width:122px;">2017年08月17日</span>
+<span class="icon_pdf">PDF</span>
+<a href="http://www.maruha-nichiro.co.jp/news_center/release/files/20170821_kinouseihyoujishokuhinn_hokkaidou_sanma_kabayaki.pdf" target="_blank">「北海道産　さんま蒲焼」新発売のお知らせ (PDF:608.3KB)</a>
+</li>
+<li class="clearfix lin_bot">
+<span class="day" style="width:122px;">2017年06月30日</span>
+<span class="icon_pdf">PDF</span>
+<a href="http://www.maruha-nichiro.co.jp/news_center/release/files/20170630_aqli_oishiinippon_campaign.pdf" target="_blank">~10月1日（日）スタート~ マルハニチロ 冷凍食品アクリブランド「高菜ピラフ」 発売30周年記念『おいしいにっぽんありがとう！佐賀県の"おいしい"が当たる！』キャンペーンのお知らせ (PDF:768.3KB)</a>
+</li>
+<li class="clearfix lin_bot">
+<span class="day" style="width:122px;">2017年06月30日</span>
+<span class="icon_pdf">PDF</span>
+<a href="http://www.maruha-nichiro.co.jp/news_center/release/files/20170630_autumn_new_products.pdf" target="_blank">2017年秋季新商品のご案内 (PDF:2.4MB)</a>
+</li>
+<li class="clearfix lin_bot">
+<span class="day" style="width:122px;">2017年05月09日</span>
+<span class="icon_web">WEB</span>
+  
+    
+    <a href="http://www.maruha-nichiro.co.jp/news_center/release/2017/002116.html">簡単レンジ調理のロングライフチルド惣菜 「至福の一皿」シリーズ夏季限定メニュー３品 新発売のお知らせ</a>
+    
+  
+</li>
+<li class="clearfix lin_bot">
+<span class="day" style="width:122px;">2017年04月05日</span>
+<span class="icon_web">WEB</span>
+  
+    
+    <a href="http://www.maruha-nichiro.co.jp/news_center/release/2017/002095.html">『「Ocean Blue」誕生プレゼントキャンペーン』のお知らせ</a>
+    
+  
+</li>
+</ul>
+ 
+      </div>
+      <div class="maincon_maruha clearfix">
+        <ul>
+          <li><a href="/safe/index.html" class="rollover"><img src="./food/img/index/main_maru01.jpg" alt="" /></a></li>
+          <li><a href="/csr/index.html" class="rollover"><img src="./food/img/index/main_maru02.jpg" alt="" /></a></li>
+          <li><a href="/inquiry/" class="rollover"><img src="./food/img/index/main_maru03.jpg" alt="" /></a></li>
+        </ul>
+      </div>
+    </div>
+    <hr />
+<!--<ul class="ft_aq">
+	<li><a href="/safe/aqli/aqli05.html"><span>≫&nbsp;</span>アクリフーズ群馬工場商品回収ご協力のお願い</a>
+	<a href="/safe/aqli/aqli_info.html"><span>≫&nbsp;</span>商品返送方法についてのご案内</a></li>
+  <li style="margin:0;">
+  	<a href="http://www.maruha-nichiro.co.jp/news_center/aqli/files/20140102_aqli_gunma_shihan_list_gazou_ari.pdf" target="_blank"><span>≫&nbsp;</span>市販用回収商品一覧（PDF）</a>
+	<a href="http://www.maruha-nichiro.co.jp/news_center/aqli/files/news_20140107_1.pdf" target="_blank"><span>≫&nbsp;</span>業務用回収商品一覧（PDF）</a></li>
+</ul>-->
+
+<!--ul class="ft_aq">
+	<li><a href="/"><span>≫&nbsp;</span>アクリフーズ群馬工場商品回収ご協力のお願い</a>
+	<a href="/info.html"><span>≫&nbsp;</span>商品返送方法についてのご案内</a></li>
+  <li style="margin:0;">
+  	<a href="http://file.tdx.co.jp/news/20140102_aqli_gunma_shihan_list_gazou_ari.pdf" target="_blank"><span>≫&nbsp;</span>市販用回収商品一覧（PDF）</a>
+	<a href="http://file.tdx.co.jp/news/news_20140107_1.pdf" target="_blank"><span>≫&nbsp;</span>業務用回収商品一覧（PDF）</a></li>
+</ul-->
+
+
+<div id="footerLinks">
+		<ul>
+        	<li><a href="http://www.maruha-nichiro.co.jp/index2.html"><img src="/common/img/footer_title01.gif" alt="商品情報サイト"  /></a></li>
+        	<li><a href="http://www.maruha-nichiro.co.jp/corporate.html"><img src="/common/img/footer_title02.gif" alt="企業サイト"  /></a></li>
+        </ul>
+		<dl>
+			<dt><a href="http://www.maruha-nichiro.co.jp/products/">商品情報</a></dt>
+			<dd><a href="http://www.maruha-nichiro.co.jp/products/new2016_spring.html"><span>≫&nbsp;</span>新商品・リニューアル商品</a></dd>
+			<dd><a href="http://www.maruha-nichiro.co.jp/products/prodlist.php?c=1"><span>≫&nbsp;</span>冷凍食品</a></dd>
+			<dd><a href="http://www.maruha-nichiro.co.jp/products/prodlist.php?c=2"><span>≫&nbsp;</span>缶詰</a></dd>
+			<dd><a href="http://www.maruha-nichiro.co.jp/products/prodlist.php?c=3"><span>≫&nbsp;</span>びん詰</a></dd>
+			<dd><a href="http://www.maruha-nichiro.co.jp/products/prodlist.php?c=14"><span>≫&nbsp;</span>トレー・パウチ</a></dd>
+			<dd><a href="http://www.maruha-nichiro.co.jp/products/prodlist.php?c=5"><span>≫&nbsp;</span>ちくわ・練り製品</a></dd>
+			<dd><a href="http://www.maruha-nichiro.co.jp/products/prodlist.php?c=6"><span>≫&nbsp;</span>フィッシュソーセージ</a></dd>
+			<dd><a href="http://www.maruha-nichiro.co.jp/products/prodlist.php?c=7"><span>≫&nbsp;</span>レトルト</a></dd>
+			<!--<dd><a href="http://www.maruha-nichiro.co.jp/products/prodlist.php?c=8"><span>≫&nbsp;</span>フリーズドライ</a></dd>-->
+			<dd><a href="http://www.maruha-nichiro.co.jp/products/prodlist.php?c=9"><span>≫&nbsp;</span>カップゼリー</a></dd>
+			<dd><a href="http://www.maruha-nichiro.co.jp/products/prodlist.php?c=10"><span>≫&nbsp;</span>デザートの素</a></dd>
+			<dd><a href="http://www.maruha-nichiro.co.jp/products/healthlist.php"><span>≫&nbsp;</span>健康食品</a></dd>
+			<dd><a href="/products/new_medicare.html"><span>≫&nbsp;</span>介護食品</a></dd>
+			<dd><a href="http://www.maruha-nichiro.co.jp/products/giftlist.php"><span>≫&nbsp;</span>ギフト</a></dd>
+			<dd><a href="http://www.maruha-nichiro.co.jp/products/deli.php"><span>≫&nbsp;</span>宅配向け冷凍食品(生協含む)</a></dd>
+			<dd><a href="http://www.maruha-nichiro.co.jp/products/business.html"><span>≫&nbsp;</span>業務用商品</a></dd>
+		</dl>
+		<dl>
+			<dt><a href="http://www.maruha-nichiro.co.jp/recipe/">簡単！しあわせレシピ</a></dt>
+			<dd><a href="http://www.maruha-nichiro.co.jp/recipe/eco/"><span>≫&nbsp;</span>安井レイコのECO楽レシピ</a></dd>
+			<dd><a href="http://www.maruha-nichiro.co.jp/recipe/search.php?sp1=&fw=La+Cantine&searchBtn.x=11&searchBtn.y=28"><span>≫&nbsp;</span>おしゃれなフレンチレシピ</a></dd>
+			<dd><a href="/recipe/cantasi/"><span>≫&nbsp;</span>“缶たし”オススメレシピ</a></dd>
+      <!--dd><a href="/recipe/cantasi/"><span>≫&nbsp;</span>“缶たし”部オススメレシピ</a></dd-->
+			<dd><a href="http://www.maruha-nichiro.co.jp/recipe/can.html"><span>≫&nbsp;</span>リッチな缶詰レシピ</a></dd>
+			<dd><a href="http://www.maruha-nichiro.co.jp/recipe/search.php?ck_5=お弁当"><span>≫&nbsp;</span>お弁当レシピ</a></dd>
+			<dd><a href="http://www.maruha-nichiro.co.jp/recipe/easy_index.html"><span>≫&nbsp;</span>海の素材レシピ</a></dd>
+			<dd><a href="http://www.maruha-nichiro.co.jp/recipe/health.html"><span>≫&nbsp;</span>健康おうえんレシピ</a></dd>
+			<dd><a href="http://www.maruha-nichiro.co.jp/recipe/search.php?ck_6=デザート"><span>≫&nbsp;</span>スイーツレシピ</a></dd>
+			<dd><a href="http://www.maruha-nichiro.co.jp/recipe/search.php?gr_7=男子レシピ"><span>≫&nbsp;</span>男子のレシピ</a></dd>
+			<dd><a href="http://www.maruha-nichiro.co.jp/recipe/search.php?sp1=フィッシュハム・ソーセージ&x=64&y=22"><span>≫&nbsp;</span>フィッシュソーセージレシピ</a></dd>
+			<dd><a href="http://www.maruha-nichiro.co.jp/recipe/zerais.html"><span>≫&nbsp;</span>ゼライスNAVI</a></dd>
+			<dd><a href="/cantashi/"><span>≫&nbsp;</span>くらしに缶たし</a></dd>
+			<dd class="end"><a href="http://www.maruha-nichiro.co.jp/recipe/kawaii_index.html"><span>≫&nbsp;</span>かわいいおべんとうレシピ</a></dd>
+			<dd class="footer_title"><a href="http://www.maruha-nichiro.co.jp/contents/">知る・楽しむ</a></dd>
+			<dd class="footer_title"><a href="http://www.maruha-nichiro.co.jp/inquiry/agree.html">商品に関するお問い合わせ</a></dd>
+			<dd class="footer_title"><a href="http://www.maruha-nichiro.co.jp/shop/">オンラインショップ</a></dd>
+		</dl>
+		<dl>
+			<dt><a href="http://www.maruha-nichiro.co.jp/corporate/index.html" class="blue">会社情報</a></dt>
+<!--			<dd><a href="/corporate/message/index.html"><span>≫&nbsp;</span>トップメッセージ</a></dd>-->
+			<dd><a href="http://www.maruha-nichiro.co.jp/corporate/brand/index.html"><span>≫&nbsp;</span>コーポレートブランド</a></dd>
+			<dd><a href="http://www.maruha-nichiro.co.jp/corporate/vision/index.html"><span>≫&nbsp;</span>理念・ビジョン</a></dd>
+			<dd><a href="http://www.maruha-nichiro.co.jp/corporate/about/index.html"><span>≫&nbsp;</span>会社概要</a></dd>
+			<dd><a href="http://www.maruha-nichiro.co.jp/corporate/overview/index.html"><span>≫&nbsp;</span>役員一覧</a></dd>
+			<dd><a href="http://www.maruha-nichiro.co.jp/corporate/labo/index.html"><span>≫&nbsp;</span>事業所・工場・研究所</a></dd>
+			<dd><a href="http://www.maruha-nichiro.co.jp/corporate/group/index.html"><span>≫&nbsp;</span>グループ関係会社</a></dd>
+			<dd><a href="http://www.maruha-nichiro.co.jp/corporate/business/index.html"><span>≫&nbsp;</span>グループ事業紹介</a></dd>
+			<dd><a href="http://www.maruha-nichiro.co.jp/corporate/rd/index.html"><span>≫&nbsp;</span>研究開発</a></dd>
+			<dd class="end"><a href="http://www.maruha-nichiro.co.jp/corporate/history/index.html"><span>≫&nbsp;</span>沿革</a></dd>
+			<dd class="footer_title"><a href="http://www.maruha-nichiro.co.jp/news_center/index.html" class="blue">ニュースセンター</a></dd>
+			<dd><a href="http://www.maruha-nichiro.co.jp/news_center/information/"><span>≫&nbsp;</span>お知らせ・更新情報</a></dd>
+			<dd><a href="http://www.maruha-nichiro.co.jp/news_center/release/"><span>≫&nbsp;</span>ニュースリリース</a></dd>
+			<dd><a href="http://www.maruha-nichiro.co.jp/news_center/release_group/index.html"><span>≫&nbsp;</span>ニュースリリース グループ会社</a></dd>
+			<dd><a href="http://www.maruha-nichiro.co.jp/news_center/channel/index.html"><span>≫&nbsp;</span>マルハニチロチャンネル</a></dd>
+			<dd><a href="http://www.maruha-nichiro.co.jp/news_center/research/index.html"><span>≫&nbsp;</span>リサーチ</a></dd>
+			<dd><a href="http://www.maruha-nichiro.co.jp/news_center/library/index.html"><span>≫&nbsp;</span>ライブラリ</a></dd>
+		</dl>
+		<dl>
+			<dt><a href="http://www.maruha-nichiro.co.jp/ir/index.html" class="blue">株主・投資家情報</a></dt>
+			<dd><a href="http://www.maruha-nichiro.co.jp/ir/management/index.html"><span>≫&nbsp;</span>経営方針</a></dd>
+			<dd><a href="http://www.maruha-nichiro.co.jp/ir/investors/index.html"><span>≫&nbsp;</span>個人投資家の皆さまへ</a></dd>
+			<dd><a href="http://www.maruha-nichiro.co.jp/ir/highlight/index.html"><span>≫&nbsp;</span>財務・業績情報</a></dd>
+			<dd><a href="http://www.maruha-nichiro.co.jp/ir/calender/index.html"><span>≫&nbsp;</span>IRカレンダー</a></dd>
+			<dd><a href="http://www.maruha-nichiro.co.jp/ir/library/index.html"><span>≫&nbsp;</span>IR資料室</a></dd>
+			<dd><a href="http://www.maruha-nichiro.co.jp/ir/stock/index.html"><span>≫&nbsp;</span>株式情報</a></dd>
+			<dd><a href="http://www.maruha-nichiro.co.jp/ir/stockprice/index.html"><span>≫&nbsp;</span>株価情報</a></dd>
+			<dd><a href="http://www.maruha-nichiro.co.jp/ir/faq/index.html"><span>≫&nbsp;</span>よくあるご質問</a></dd>
+			<dd class="end"><a href="http://www.maruha-nichiro.co.jp/ir/e_publicnotice/index.html"><span>≫&nbsp;</span>電子公告</a></dd>
+			<dd class="footer_title"><a href="http://www.maruha-nichiro.co.jp/csr/index.html" class="blue">社会・環境</a></dd>
+			<dd class="footer_title"><a href="http://www.maruha-nichiro.co.jp/safe/index.html" class="blue">安全・安心</a></dd>
+			<dd class="footer_title"><a href="http://www.maruha-nichiro.co.jp/recruit/index.html" class="blue">採用情報</a></dd>
+			<dd class="footer_title"><a href="http://www.maruha-nichiro.co.jp/contact/index.html" class="blue">企業に関するお問い合わせ</a></dd>
+		</dl>
+
+
+<!--//#footerLinks--></div>
+ 
+    <hr />
+<div id="footer">
+<ul>
+<li class="left"><a href="http://www.maruha-nichiro.co.jp/policy/index.html">ソーシャルメディアポリシー</a></li>
+<li><a href="http://www.maruha-nichiro.co.jp/privacy/index.html">個人情報保護方針</a></li>
+<li><a href="http://www.maruha-nichiro.co.jp/terms_of_use/index.html">ご利用にあたって</a></li>
+</ul>
+<address>
+Copyright (C) 2017 Maruha Nichiro Corporation
+</address>
+<!--//#footer--></div>
+<script type="text/javascript">jQuery(function() {
+    jQuery("a").click(function(e) {
+        var ahref = jQuery(this).attr('href');
+        if (ahref.indexOf("www.maruha-nichiro.co.jp") != -1 || ahref.indexOf("http") == -1 ) {
+            ga('send', 'event', '内部リンク', 'クリック', ahref);}
+        else {
+            ga('send', 'event', '外部リンク', 'クリック', ahref);}
+        });
+    });
+</script>
+ 
+  </div>
+</div>
+</body>
+</html>

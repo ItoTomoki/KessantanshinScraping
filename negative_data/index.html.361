@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="ja" id="sixapart-standard">
+<head>
+    <meta charset="UTF-8" />
+<meta name="description" content="東京都千代田区。通販向け各種電子決済サービスの提供。企業・IR情報、商品・事業紹介 。" />
+<meta name="keywords" content="" />
+<meta name="copyright" content="" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta name="generator" content="Movable Type Pro 6.3.3" />
+<link rel="start" href="http://www.well-net.jp/" title="Home" />
+<link rel="alternate" type="application/atom+xml" title="Recent Entries" href="http://www.well-net.jp/atom.xml" />
+
+<link type="text/css" href="/common/css/base.css" rel="stylesheet" />
+<link type="text/css" href="/common/css/reset.css" rel="stylesheet" />
+<link type="text/css" href="/common/css/top.css" rel="stylesheet" />
+<link type="text/css" href="/common/css/style-medium.css" rel="stylesheet" />
+<link rel="alternate stylesheet" type="text/css" href="/common/css/style-small.css" title="small" />
+<link rel="alternate stylesheet" type="text/css" href="/common/css/style-medium.css" title="medium" />
+<link rel="alternate stylesheet" type="text/css" href="/common/css/style-large.css" title="large" />
+<script type="text/javascript" src="/common/js/jquery.js"></script>
+<script type="text/javascript" src="/common/js/styleswitcher.js"></script>
+<script type="text/javascript">
+
+ var _gaq = _gaq || [];
+ _gaq.push(['_setAccount', 'UA-18313476-2']);
+ _gaq.push(['_trackPageview']);
+
+ (function() {
+   var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+   ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+ })();
+
+</script>
+<!--カルーセル確認-->
+<link rel="stylesheet" href="css/flickity.css">
+<script src="js/flickity.pkgd.min.js"></script>
+
+<script type ="text/javascript">
+var elem = document.querySelector('#flickity');
+var flicky = new Flickity( elem, {
+contain: true
+});
+</script>
+<!--カルーセル確認-->
+
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.well-net.jp/rsd.xml" />
+    <title>高速バス コンビニ決済 電子決済 / ウェルネット</title>
+</head>
+<body class="top">
+    <div id="container">
+
+ <div class="infobox">
+            
+            
+        </div>
+
+        <div id="container-inner" class="container-inner-reheight">
+            <div id="header">
+<h1><a href="http://www.well-net.jp/">WELLNET</a></h1>
+<div id="gnavi">
+<ul class="clearfix">
+<li id="m01"><a href="http://www.well-net.jp/service/">サービス・製品</a></li>
+<li id="m02"><a href="http://www.well-net.jp/company/">会社概要</a></li>
+<li id="m03"><a href="http://www.well-net.jp/ir/">IR情報</a></li>
+<li id="m04"><a href="http://www.well-net.jp/case/">導入事例</a></li>
+<li id="m05"><a href="http://www.well-net.jp/contact/">お問合せ</a></li>
+<li id="m06"><a href="http://www.well-net.jp/info/">リクルート</a></li>
+</ul>
+</div>
+
+<div id="charsize">
+<dl>
+<dt><img src="/common/images/tl_fontsize.gif" alt="文字サイズ" /></dt>
+<dd id="txt_s"><a href="javascript:void(0);" onclick="setActiveStyleSheet('small'); return false;">小</a></dd>
+<dd id="txt_m"><a href="javascript:void(0);" onclick="setActiveStyleSheet('medium'); return false;">中</a></dd>
+<dd id="txt_l"><a href="javascript:void(0);" onclick="setActiveStyleSheet('large'); return false;">大</a></dd>
+</dl>
+</div>
+
+<div id="search"><form method="get" action="http://www.well-net.jp/mt/mt-search.cgi"><input type="text" class="search" name="search" value="" />
+<input type="hidden" name="IncludeBlogs" value="5,13,8,11,17" />
+<input type="hidden" name="limit" value="20" /><input type="image"  src="/common/images/bt_search.gif" accesskey="4" value="検索" />
+</form></div>
+</div>
+
+<!--
+<div>
+<ul class="js-flickity">
+<a href="https://www.well-net.jp/"><img class="gallery-cell" src="images/keybus.png"></a>
+</ul>
+</div>
+-->
+
+
+<div id="keyvisual" onclick="window.open('http://www.busmori.jp/Concierge/lp/')">
+
+<p>いつでも、どこでもの実現を目指して。 Departure to the Future. - ウェルネットは「世の中の便利」をITで推進します</p>
+</div>
+
+<div id="topcontact" class="reheight">
+<ul>
+<li><h2><img src="/images/tl_pc.gif" alt="パソコンからのお問合せ" /></h2><a href="/contact/"><img src="/images/bt_contact.gif" /></a></li>
+<li><h2><img src="/images/tl_tel.gif" alt="営業に関するお問合せ 03-3580-0166" /></h2></li>
+</ul>
+</div>
+
+            <div id="feature">
+                <h2><img src="images/tl_service.jpg" alt="ウェルネットの提供サービス - 提供店舗" /></h2>
+            <br>
+            <h2><a href="https://www.well-net.jp/school/"><img src="school/schoolbanner.png" alt="school" /></a></h2>
+            <br>
+            <br>
+            <h2><a href="http://www.busmori.jp/Concierge/lp/#bustalgia"><img src="concierge/images/bustalgiaTop.png" alt="BUSTALGIA" /></a></h2>
+                <ul class="clearfix">
+                    <li>
+                    <div id="service01" class="servicebox">
+                        <h3><a href="/multi/">マルチペイメントサービス - 決済サービス</a></h3>
+                        <p>ペーパーレス電子決済を含む決済全てを1ストップで提供。クレジット、コンビニ、銀行ATM、ネットバンク、電子マネーなどウェルネット一社との接続で実現します。</p>
+                        <p class="ar"><a href="/multi/">続きを読む</a></p>
+                    </div>
+                    </li>
+                    <li>
+                    <div id="service02" class="servicebox">
+                        <h3><a href="/conveni/">コンビニ収納代行サービス - バーコードによる決済サービス</a></h3>
+                        <p>払込票を印刷、お客様に郵送、現金で郵便局とほとんど全てのコンビニで支払うことができる、後払いの通販代金回収などのサービス。</p>
+                        <p class="ar"><a href="/conveni/">続きを読む</a></p>
+                    </div>
+                    </li>
+                    <li>
+                    <div id="service03" class="servicebox">
+                        <h3><a href="https://www.well-net.jp/cashout/cashout.html">ネットDE受取サービス - 返金サービス</a></h3>
+                        <p>キャッシュバックや返金等、多数の方への資金送金の効率化を可能にします。<br>お近くのローソンで受け取れる！便利なコンビニ現金受取サービス始めました！</font></p>
+                        <p class="ar"><a href="https://www.well-net.jp/cashout/cashout.html">続きを読む</a></p>
+                    </div>
+                    </li>
+                    <li>
+                    <div id="service06b" class="servicebox">
+                        <h3><a href="/busmori/">バスIT化ソリューション</a></h3>
+                        <p>「高速バスは、スマホで買える」
+高速バスの検索、予約、購入、乗車　全てを１つにしたバスもり！コンシェルジュ。
+タブレット端末で座席管理をリアルタイムに行う バスもり！MONTA（バス事業者様向け）のご案内
+
+</p>
+                        <p class="ar"><a href="/busmori/">続きを読む</a></p>
+                    </div>
+                    </li>
+                    <li class="nomg">
+                    <div id="service07" class="servicebox">
+                        <h3><a href="/hisho/">銀行口座との直接接続による支払アプリ。</a></h3>
+                        <p>いつでもどこでも沿払いできるスマホアプリがデビュー。</p>
+                        <p class="ar"><a href="/hisho/">続きを読む</a></p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+            <div id="content">
+
+<div id="side">
+<h3 class="type02">新規プロジェクト情報</h3>
+<p class="lead">支払秘書の無料ダウンロードはこちら! </p>
+<ul class="store">
+<li class="android">
+<a href="https://play.google.com/store/apps/details?id=jp.wellnet.kouzakanri.secretary">
+<img src="/images/store_android.jpg" alt="ANDROIDアプリ Google Play" class="bt" >
+</a>
+<a href="https://itunes.apple.com/jp/app/%E6%94%AF%E6%89%95%E7%A7%98%E6%9B%B8/id1112797961?mt=8">
+<img src="/images/store_apple.jpg" alt="iPhoneアプリ App Store" class="bt" >
+</a>
+<img src="http://www.well-net.jp/hisho/images/QR_hisho.png" width="150px" hight="150px" alt="StoreQR">
+</ul>
+
+
+<p class="lead">バスもり! コンシェルジュの無料ダウンロードはこちら! </p>
+
+<ul class="store">
+<li class="android">
+<a href="https://play.google.com/store/apps/details?id=jp.wellnet.busmori.concierge">
+<img src="/images/store_android.jpg" alt="ANDROIDアプリ Google Play" class="bt" >
+</a>
+<a href="https://itunes.apple.com/jp/app/basumori!konsheruju-basuno/id1093365461?l=ja&ls=1&mt=8">
+<img src="/images/store_apple.jpg" alt="iPhoneアプリ App Store" class="bt" >
+</a>
+<img src="http://www.well-net.jp/concierge/images/QR_concierge.png" width="150px" hight="150px" alt="StoreQR">
+</ul>
+
+<!--<li><a href="http://www.bus-con.info/pc/AreaSelectAction.do" target="blank"><img src="/common/images/buscon.jpg" /></a></li>-->
+<li><a href="http://bus.norimono.jp/" target="blank"><img src="/common/images/bnr01.gif" /></a></li>
+<li><a href="/contact/"><img src="/common/images/bnr03.gif" /></a></li>
+<!--<li><img src="/common/images/pci_icon.jpg" /></li>-->
+<li><img src="/common/images/pcidss.gif" /></li>
+<li><a href="http://dairisyuno.org" target="blank"><img src="/news/jcaa.jpg"></a></li>
+<li><a href="http://privacymark.jp" target="blank"><img src="/common/images/pmark.gif" /></a></li>
+<li><a href="/isms/"><img src="/common/images/mark.gif" /></a><br />札幌事業所　JUSE-IR-091</li></ul>
+</div>
+
+        <div id="nr" class="infobox">
+            <h2><span>ニュースリリース</span></h2>
+            <ul><li><span><abbr class="published" title="2017-08-03T09:40:00+09:00">2017年8月 3日</abbr></span> <a href="http://www.well-net.jp/news/2017/08/03/post_83/">スマートフォンアプリを活用した電子マ...</a></li><li><span><abbr class="published" title="2017-06-30T17:00:00+09:00">2017年6月30日</abbr></span> <a href="http://www.well-net.jp/news/2017/06/30/post_82/">奨学金制度「道新みらい君・ウェルネッ...</a></li><li><span><abbr class="published" title="2017-06-07T15:30:00+09:00">2017年6月 7日</abbr></span> <a href="http://www.well-net.jp/news/2017/06/07/web/">ウェルネットが、「WEB入学手続ソリ...</a></li><li><span><abbr class="published" title="2017-03-31T11:00:00+09:00">2017年3月31日</abbr></span> <a href="http://www.well-net.jp/news/2017/03/31/post_80/">ふるさと納税総合サイト『ふるさとチョ...</a></li><li><span><abbr class="published" title="2017-03-22T14:00:00+09:00">2017年3月22日</abbr></span> <a href="http://www.well-net.jp/news/2017/03/22/24/">~24時間、いつでもどこでも~　日本...</a></li></ul>
+        </div>
+
+        <div id="ir" class="infobox">
+            <h2><span>IRプレスリリース(PDF)</span></h2>
+            <ul><li><span><abbr class="published" title="2017-08-17T16:30:00+09:00">2017年8月17日</abbr></span> <a href="http://www.well-net.jp/ir/press/975a94601f8eba2a0dffdca994dc0b12604d0329.pdf" target="_blank">株式報酬型ストック・オプション（新株...</a><li><span><abbr class="published" title="2017-08-10T13:00:00+09:00">2017年8月10日</abbr></span> <a href="http://www.well-net.jp/ir/press/29a0f4ee43f9ac4fa927252288eaa979bcbbeb7e.pdf" target="_blank">平成29年6月期 決算短信〔日本基準...</a><li><span><abbr class="published" title="2017-08-07T16:30:00+09:00">2017年8月 7日</abbr></span> <a href="http://www.well-net.jp/ir/press/059d29c73f099b22a57154eda6424dd475458e2b.pdf" target="_blank">監査等委員会設置会社移行に関するお知...</a><li><span><abbr class="published" title="2017-08-07T16:30:00+09:00">2017年8月 7日</abbr></span> <a href="http://www.well-net.jp/ir/press/52f73039a08b4770927ac2dfa07bd53c9a8f3087.pdf" target="_blank">役員の異動に関するお知らせ</a><li><span><abbr class="published" title="2017-08-07T16:30:00+09:00">2017年8月 7日</abbr></span> <a href="http://www.well-net.jp/ir/press/112c4d827019880fe260526cb262cc35ca9b76f6.pdf" target="_blank">業績予想と実績値の差異に関するお知ら...</a></ul>
+        </div>
+
+        <div id="topics" class="infobox">
+            <h2><span>トピックス</span></h2>
+            <ul><li><span><abbr class="published" title="2017-04-27T11:39:46+09:00">2017年4月27日</abbr></span> <a href="http://www.well-net.jp/topics/2017/04/27/post_16/">「ウェルネットもりの保育園」が開園されました。</a></li><li><span><abbr class="published" title="2016-09-27T14:00:00+09:00">2016年9月27日</abbr></span> <a href="http://www.well-net.jp/topics/2016/09/27/bustalgia/">バスもり！コンシェルジュのプロモーションを目的としたＦＭ番組"BUSTALGIA"放送開始</a></li><li><span><abbr class="published" title="2016-08-10T10:00:00+09:00">2016年8月10日</abbr></span> <a href="http://www.well-net.jp/topics/2016/08/10/post_15/">トップメッセージを更新いたしました。～新たなる挑戦～</a></li><li><span><abbr class="published" title="2016-03-29T10:29:00+09:00">2016年3月29日</abbr></span> <a href="http://www.well-net.jp/topics/2016/03/29/post_14/">花王株式会社 様の導入事例を掲載いたしました。</a></li><li><span><abbr class="published" title="2015-07-17T11:58:14+09:00">2015年7月17日</abbr></span> <a href="http://www.well-net.jp/topics/2015/07/17/post_13/">飛躍している企業として　経済産業省　ミエル☆ヒント　に掲載されました！</a></li></ul>
+        </div>
+
+        
+    </div>
+    <div class="clear"></div>
+</div>
+<div id="ftwrap">
+<div id="footer">
+<div class="ftbox clearfix">
+<div style="float:left; margin-left:20px;">
+<h4><a href="/service/">ウェルネットの提供サービス</a></h4>
+<ul>
+<li><a href="/multi/">マルチペイメントサービス</a></li>
+<li><a href="/conveni/">コンビニ収納代行サービス</a></li>
+<li><a href="/net/">ネットDE受取サービス</a></li>
+<li><a href="/busmori/">バスITソリューション</a></li>
+</ul>
+<ul>
+<li><a href="/entry/">各種申込サービス</a></li>
+<li><a href="/business_service/">請求書発行代行サービス</a></li>
+<li><a href="/supersub/">SUPER SUB</a></li>
+<li><a href="/mobile/">電子チケット、電子認証サービス</a></li>
+</ul>
+
+
+
+<ul>
+<li><!--<a href="http://www.bus-con.info/pc/AreaSelectAction.do" target="blank">高速バスチケット発券サービス</a>--></li>
+</ul>
+</div>
+<div style="float:left; margin-left:20px;">
+<h4><a href="/company/">会社概要</a></h4>
+<ul>
+<li><a href="/ir/">IR情報</a></li>
+<li><a href="/ir/press/">IRプレスリリース</a></li>
+<li><a href="/ir/library/">IRライブラリー</a></li>
+<li><a href="/info/">リクルート</a></li>
+<li><a href="/contact/">お問い合わせ</a></li>
+</ul>
+</div>
+
+
+
+<div style="float:left; margin-left:20px;">
+<!--<h4>高速バスサービス</h4>
+<ul>
+<li><a href="http://www.well-net.jp/buscancell.html " target="blank">高速バスキャンセル</a></li>-->
+</ul>
+</div>
+
+
+
+
+</div>
+<div id="ft">
+<ul class="clearfix">
+<!--<li><a href="terms.html">サイト利用規約</a></li>-->
+<li><a href="/personal/">個人情報保護方針</a></li>
+<li><a href="/contact/">お問合せ</a></li>
+<li>　<a href="/bushenkin/buscancell.html">高速バス キャンセル済みのお客様へ</a></li>
+<li>　<a href="mailto:buscon@well-net.jp?subject=高速バス払戻に関する問い合わせ&body=%e3%81%8a%e5%95%8f%e3%81%84%e5%90%88%e3%82%8f%e3%81%9b%e5%86%85%e5%ae%b9%e3%82%92%e3%81%94%e8%a8%98%e5%85%a5%e3%81%8f%e3%81%a0%e3%81%95%e3%81%84%e3%80%82%0d%0a%e3%81%aa%e3%81%8a%e3%82%ad%e3%83%a3%e3%83%b3%e3%82%bb%e3%83%ab%e3%81%ae%e3%81%8a%e7%94%b3%e8%be%bc%e3%81%bf%e3%81%af%e4%b8%8b%e8%a8%98%e3%81%94%e8%a8%98%e5%85%a5%e3%81%8f%e3%81%a0%e3%81%95%e3%81%84%e3%80%82%0d%0a1%29%e4%b9%97%e8%bb%8a%e6%97%a5%e5%8f%8a%e3%81%b3%e4%b9%97%e8%bb%8a%e6%99%82%e9%96%93%3a%0d%0a2%29%e6%b1%ba%e6%b8%88%e7%95%aa%e5%8f%b7%28%e4%ba%88%e7%b4%84%e7%95%aa%e5%8f%b7%29%3a%0d%0a3%29%e3%81%8a%e5%90%8d%e5%89%8d%3a%0d%0a4%29%e3%81%94%e9%80%a3%e7%b5%a1%e5%85%88%3a%0d%0a5%29%e9%ab%98%e9%80%9f%e3%83%90%e3%82%b9%e3%81%8c%e9%81%8b%e4%bc%91%e3%81%97%e3%81%9f%e5%a0%b4%e5%90%88%e3%81%ab%e3%81%af%e9%81%8b%e4%bc%91%e3%81%a8%e3%81%94%e8%a8%98%e8%bc%89%e3%81%8f%e3%81%a0%e3%81%95%e3%81%84%e3%80%82%0d%0a%0d%0a%e2%80%bb%e3%82%ad%e3%83%a3%e3%83%b3%e3%82%bb%e3%83%ab%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6%e3%81%ae%e3%81%94%e6%b3%a8%e6%84%8f%e2%80%bb%0d%0a%e5%bc%8a%e7%a4%be%e3%81%ab%e3%81%a6%e5%86%85%e5%ae%b9%e7%a2%ba%e8%aa%8d%e5%be%8c%e3%80%81%e3%83%a1%e3%83%bc%e3%83%ab%28%e9%9b%bb%e8%a9%b1%29%e3%81%a7%e3%81%94%e9%80%a3%e7%b5%a1%e3%81%84%e3%81%9f%e3%81%97%e3%81%be%e3%81%99%e3%80%82%0d%0a%e3%82%ad%e3%83%a3%e3%83%b3%e3%82%bb%e3%83%ab%e3%82%92%e5%8f%97%e4%bb%98%e3%81%a7%e3%81%8d%e3%81%aa%e3%81%84%e5%a0%b4%e5%90%88%e3%81%8c%e3%81%94%e3%81%96%e3%81%84%e3%81%be%e3%81%99%e3%81%ae%e3%81%a7%e3%80%81%e3%82%ad%e3%83%a3%e3%83%b3%e3%82%bb%e3%83%ab%e3%81%ae%e5%8f%97%e4%bb%98%e5%8f%af%e5%90%a6%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6%e3%81%af%e3%80%81%e5%bc%8a%e7%a4%be%e3%81%8b%e3%82%89%e3%81%ae%e9%80%a3%e7%b5%a1%e3%82%92%e3%81%8a%e5%be%85%e3%81%a1%e3%81%8f%e3%81%a0%e3%81%95%e3%81%84%e3%80%82" >高速バス払戻に関するお問い合わせ（buscon@well-net.jp）</a></li>
+<!--<li>　<a href="mailto:buscon@well-net.jp">高速バス払戻に関するお問合せ先（buscon@well-net.jp）</a></li>-->
+</ul>
+<div id="ft">
+<p id="cr">Copyright &copy; WELLNET CORPORATION All Rights Reserved.</p></div>
+<div class="clear"></div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>

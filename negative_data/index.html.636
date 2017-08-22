@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="ja" class="no-js">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="format-detection" content="telephone=no">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="shortcut icon" type="image/vnd.microsoft.icon" href="/favicon.ico">
+<link rel="icon" type="image/vnd.microsoft.icon" href="/favicon.ico">
+<title>日清紡ホールディングスホームページ</title>
+<meta name="keywords" content="日清紡,NISSHINBO,環境・エネルギーカンパニー,エレクトロニクス,ブレーキ,精密機器,化学品,繊維">
+<meta name="description" content="日清紡グループは、エレクトロニクス、ブレーキ、精密機器、化学品、繊維を事業とする「環境・エネルギーカンパニー」グループです。">
+<link rel="stylesheet" type="text/css" href="shared/css/common.css">
+<link rel="stylesheet" type="text/css" href="shared/css/contents_module.css">
+<link rel="stylesheet" type="text/css" href="css/home.css">
+<script type="text/javascript" src="shared/js/jquery.js"></script>
+<script type="text/javascript" src="shared/js/common.js"></script>
+<script type="text/javascript" src="js/home.js"></script>
+<!--[if lt IE 9]>
+<script type="text/javascript" src="shared/js/html5shiv-printshiv.min.js"></script>
+<script type="text/javascript" src="shared/js/selectivizr-min.js"></script>
+<![endif]-->
+<!-- Google Analytics -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-68494761-1', 'auto');
+ga('send', 'pageview');
+</script>
+<!-- //Google Analytics -->
+</head>
+<body id="home">
+<!-- container -->
+<div id="container">
+	<!-- header -->
+	<header>
+	<div id="skipLinkArea" class="forReader">
+		<ul>
+			<li><a href="#contents">本文へ</a></li>
+			<li><a href="#globalNav">メインメニューへ</a></li>
+			<li><a href="#hdr-menu">ヘッダーメニューへ</a></li>
+			<li><a href="#ftr-menu">フッターメニューへ</a></li>
+		</ul>
+	</div>
+	<div id="header">
+		<div id="hdrInr">
+			<div id="hdr-menuArea" class="clearfix">
+				<h1 id="hdr-logo"><a href="/"><img src="/shared/img/hdr_logo.png" alt="日清紡ホールディングス" width="193" height="44"></a></h1>
+				<dl id="hdr-fontSize">
+					<dt><span>文字サイズ</span></dt>
+					<dd>
+						<ul>
+							<li id="fontSizeM" class="overOpc"><span>標準</span></li>
+							<li id="fontSizeL" class="overOpc"><span>拡大</span></li>
+						</ul>
+					</dd>
+				</dl>
+			</div>
+			<nav>
+				<dl id="globalNavSet">
+					<dt><span>メニュー</span></dt>
+					<dd>
+						<div id="hdr-search">
+							<form name="SS_searchForm" id="SS_searchForm" action="http://advanced-search.nisshinbo.co.jp" method="get" enctype="application/x-www-form-urlencoded">
+								<input type="hidden" name="site" value="1GAFVB4Y">
+								<input type="hidden" name="charset" value="UTF-8">
+								<input type="text" name="query" value="" id="SS_searchQuery" maxlength="100" placeholder="検索">
+								<input type="image" name="submit" id="SS_searchSubmit" src="/shared/img/btn_search.png" alt="検索" class="overOpc">
+							</form>
+						</div>
+						<ul id="globalNav" class="clearfix">
+							<li id="gb-profile"><a href="/profile/index.html" class="overOpc"><span>グループ概要</span></a>
+								<ul>
+									<li><a href="/profile/message.html">トップメッセージ</a></li>
+									<li><a href="/profile/vision.html">企業ビジョン</a></li>
+									<li><a href="/profile/portfolio.html">事業ポートフォリオの変遷</a></li>
+									<li><a href="/profile/guide.html">早わかり日清紡</a></li>
+									<li><a href="/profile/domain_top.html">戦略的事業領域</a></li>
+									<li><a href="/profile/outline.html">会社概要</a></li>
+								</ul>
+							</li>
+							<li id="gb-field"><a href="/field/index.html" class="overOpc"><span>事業概要</span></a>
+								<ul>
+									<li><a href="/field/electronics.html">エレクトロニクス事業</a></li>
+									<li><a href="/field/brake.html">ブレーキ事業</a></li>
+									<li><a href="/field/mecha.html">精密機器事業</a></li>
+									<li><a href="/field/chemical.html">化学品事業</a></li>
+									<li><a href="/field/textiles.html">繊維事業</a></li>
+									<li><a href="/field/estate.html">不動産事業</a></li>
+								</ul>
+							</li>
+							<li id="gb-ir"><a href="/ir/index.html" class="overOpc"><span>株主・投資家情報</span></a>
+								<ul>
+									<li><a href="/ir/management/index.html">経営情報</a></li>
+									<li><a href="/ir/governance/index.html">コーポレートガバナンス</a></li>
+									<li><a href="/ir/special/index.html">統合レポートハイライト</a></li>
+									<li><a href="/ir/esg/index.html">日清紡グループのESG活動</a></li>
+									<li><a href="/ir/individual/index.html">個人投資家の皆様へ</a></li>
+									<li><a href="/ir/library/index.html">IRライブラリー</a></li>
+									<li><a href="/ir/highlight/index.html">財務ハイライト</a></li>
+									<li><a href="/ir/stock/index.html">株式関連情報</a></li>
+									<li><a href="/ir/news/index.html">IRニュース</a></li>
+									<li><a href="/ir/other/policy.html">その他のIR情報</a></li>
+								</ul>
+							</li>
+							<li id="gb-csr"><a href="/csr/index.html" class="overOpc"><span>CSR</span></a>
+								<ul>
+									<li><a href="/csr/management/index.html">マテリアリティとCSR目標</a></li>
+									<li><a href="/csr/environmental/index.html">環境</a></li>
+									<li><a href="/csr/human-rights/index.html">人権・労働慣行</a></li>
+									<li><a href="/csr/fair_operation/index.html">公正な事業慣行</a></li>
+									<li><a href="/csr/customer/index.html">消費者課題</a></li>
+									<li><a href="/csr/community/index.html">コミュニティへの参画、コミュニティの発展</a></li>
+									<li><a href="/csr/basic_policy.html">CSR調達基本方針</a></li>
+									<li><a href="/csr/ethics.html	">企業倫理通報制度</a></li>
+									<li><a href="/csr/plan.html">一般事業主行動計画</a></li>
+									<li><a href="/csr/download/index.html">CSR報告書（ダウンロード）</a></li>
+									<li><a href="/csr/policy.html">編集方針</a></li>
+								</ul>
+							</li>
+							<li id="gb-r_d"><a href="/r_d/index.html" class="overOpc"><span>研究開発</span></a>
+								<ul>
+									<li><a href="/r_d/message.html">新規事業開発本部長メッセージ</a></li>
+									<li><a href="/r_d/cl.html">研究開発体制</a></li>
+									<li><a href="/r_d/activity.html">研究開発活動</a></li>
+                                    <li><a href="/r_d/public_reseach.html">公的研究費の管理体制</a></li>
+								</ul>
+							</li>
+							<li id="gb-recruit"><a href="/hr/index.html" class="overOpc"><span>採用情報</span></a></li>
+						</ul>
+						<ul id="hdr-menu">
+							<li><a href="/news/index.html">ニュースリリース</a></li>
+							<li><a href="/english/">English</a></li>
+							<li><a href="/contact/">お問い合わせ</a></li>
+						</ul>
+					</dd>
+				</dl>
+			</nav>
+		</div>
+	</div>
+</header>
+	<!-- //header -->
+	<!-- topicPath -->
+	<nav id="topicPath">
+		<dl>
+			<dt class="forReader">ページの現在地</dt>
+			<dd>ホーム</dd>
+		</dl>
+	</nav>
+	<!-- //topicPath -->
+	<!-- pageBody -->
+	<div id="pageBody" class="contentsWide">
+		<!-- contents -->
+		<div id="contents">
+			<div id="home-sliderSet">
+
+				<div id="home-sliderPanel">
+
+					<div class="panel current">
+
+						<div>
+
+							<p class="photo"><a href="http://www.dog-theater.jp" target="_blank"><img src="img/home_slider07.jpg" alt="「ドッグシアター」TVCM動画＆Web限定スペシャルムービー公開中！" width="1400" height="400"></a></p>
+
+						</div>
+
+					</div>
+
+					<div class="panel">
+
+						<div>
+
+							<p class="photo"><a href="profile/guide.html"><img src="img/home_slider02.png" alt="早わかり日清紡 「環境・エネルギーカンパニー」グループをスローガンに、4つの戦略的事業領域で企業価値のさらなる向上に取り組んでいます。" width="1400" height="400" class="overOpc"></a></p>
+
+						</div>
+
+					</div>
+
+					<div class="panel">
+
+						<div>
+
+							<p class="photo"><a href="profile/domain01.html"><img src="img/home_slider03.jpg" alt="“環境・エネルギー”を軸に多様なテーマで研究を実施　無線・エレクトロニクス" width="1400" height="400" class="overOpc"></a></p>
+
+						</div>
+
+					</div>
+
+					<div class="panel">
+
+						<div>
+
+							<p class="photo"><a href="profile/domain02.html"><img src="img/home_slider04.jpg" alt="“環境・エネルギー”を軸に多様なテーマで研究を実施　車載・機器" width="1400" height="400" class="overOpc"></a></p>
+
+						</div>
+
+					</div>
+
+					<div class="panel">
+
+						<div>
+
+							<p class="photo"><a href="profile/domain03.html"><img src="img/home_slider05.jpg" alt="“環境・エネルギー”を軸に多様なテーマで研究を実施　生活・素材" width="1400" height="400" class="overOpc"></a></p>
+
+						</div>
+
+					</div>
+
+					<div class="panel">
+
+						<div>
+
+							<p class="photo"><a href="profile/domain04.html"><img src="img/home_slider06.jpg" alt="“環境・エネルギー”を軸に多様なテーマで研究を実施　新エネルギー・スマート社会" width="1400" height="400" class="overOpc"></a></p>
+
+						</div>
+
+					</div>
+
+				</div>
+
+				<ul>
+
+					<li class="btnNext"><img src="img/home_slider_next.png" width="48" height="60" alt="Next" class="overOpc"></li>
+
+					<li class="btnPrev"><img src="img/home_slider_prev.png" width="48" height="60" alt="Prev" class="overOpc"></li>
+
+				</ul>
+
+			</div>
+
+			<div class="home-box">
+								<div id="home-menuSet" class="clearfix">
+					<p><a href="profile/index.html"><span class="photo overImgBdr"><img src="img/home_p01.jpg" width="298" height="177" alt=""></span><span class="ttl">グループ概要</span></a></p>
+					<p><a href="field/index.html"><span class="photo overImgBdr"><img src="img/home_p02.jpg" width="298" height="177" alt=""></span><span class="ttl">事業概要</span></a></p>
+					<p><a href="ir/index.html"><span class="photo overImgBdr"><img src="img/home_p03.jpg" width="298" height="177" alt=""></span><span class="ttl">株主・投資家情報</span></a></p>
+					<p><a href="csr/index.html"><span class="photo overImgBdr"><img src="img/home_p04.jpg" width="298" height="177" alt=""></span><span class="ttl">CSR</span></a></p>
+					<p><a href="r_d/index.html"><span class="photo overImgBdr"><img src="img/home_p05.jpg" width="298" height="177" alt=""></span><span class="ttl">研究開発</span></a></p>
+					<p><a href="hr/index.html"><span class="photo overImgBdr"><img src="img/home_p06.jpg" width="298" height="177" alt=""></span><span class="ttl">採用情報</span></a></p>
+				</div>							</div>
+			<div id="home-news">
+								<div class="home-box">
+<h2>最新ニュース</h2>
+<dl class="list-news">
+
+<dt>2017年8月9日</dt>
+
+<dd>
+<img src="shared/img/news_icon02.png" alt="プレス" width="80" height="16" class="newsIcon">
+
+  <a href="news/news20170809_1631.html" >
+完全制御型植物工場用イチゴ栽培設備の販売開始、ノウハウも提供　～ 栽培情報をビッグデータ化して、植物工場のスマートファクトリー化も ～</a>
+<br />
+  </dd>
+
+<dt>2017年8月8日</dt>
+
+<dd>
+<img src="shared/img/news_icon01.png" alt="IR情報" width="80" height="16" class="newsIcon">
+
+  <a href="./ir/library/financial_results.html" >
+「平成30年3月期 第1四半期決算短信〔日本基準〕（連結）」を発表しました。 </a>  
+<br />
+</dd>
+
+
+<dd>
+<img src="shared/img/news_icon01.png" alt="IR情報" width="80" height="16" class="newsIcon">
+
+  <a href="news/pdf/1629_1_ja.pdf" target="_blank">
+子会社株式の譲渡に伴う特別利益計上に関するお知らせ[<img src="shared/img/blank.gif" width="18" height="18" alt="PDF" class="icon pdf">116KB]</a> 
+<br />
+
+</dd>
+
+<dt>2017年8月7日</dt>
+
+<dd>
+<img src="shared/img/news_icon01.png" alt="IR情報" width="80" height="16" class="newsIcon">
+
+  <a href="http://www.jrc.co.jp/jp/about/news/2017/0807-1.html" target="_blank">
+日本無線株式会社　
+「平成30年3月期 第1四半期決算短信〔日本基準〕（連結）」を発表しました。</a> <img src="shared/img/blank.gif" width="18" height="18" alt="別ウィンドウ表示" class="icon blank">  
+<br />
+</dd>
+
+<dt>2017年8月3日</dt>
+
+<dd>
+<img src="shared/img/news_icon02.png" alt="プレス" width="80" height="16" class="newsIcon">
+
+  <a href="news/news20170803_1622.html" >
+全日本ジュニアテニス選手権&#039;17　特別協賛のお知らせ</a>
+<br />
+  </dd>
+</dl>
+<ul class="link">
+<li><a href="index.xml"><img src="shared/img/btn_rss.png" alt="RSS" width="24" height="24" class="overOpc"></a></li>
+<li class="arw"><a href="news/index.html">ニュース一覧</a></li>
+</ul>
+</div>			
+			</div>
+							<ul id="home-bnrSet" class="home-box clearfix">
+				<li><a href="profile/guide.html" class="overOpc"><img src="img/home_bnr01.png" alt="早わかり日清紡" width="174" height="100"></a></li>
+				<!--<li><a href="http://www.dog-theater.jp/" target="_blank" class="overOpc"><img src="img/home_bnr02.jpg" alt="ドッグシアター　Web限定ムービー 日清紡クイズ王決定戦＆TVCM動画" width="174" height="100"></a></li>-->
+				<li><a href="http://www.tokyo-shirt.co.jp/" target="_blank" class="overOpc"><img src="img/home_bnr03.png" alt="TOKYO SHIRTS" width="174" height="100"></a></li>
+				<li><a href="http://www.nisshinbo-textile.co.jp/index.html" target="_blank" class="overOpc"><img src="img/home_bnr04.jpg" alt="APOLLOCOT" width="174" height="100"></a></li>
+				<li><a href="r_d/apolloberry/index.html" target="_blank" class="overOpc"><img src="img/home_bnr06.png" alt="あぽろべりー" width="174" height="100"></a></li>
+				<li><a href="ehara/index.html" target="_blank" class="overOpc"><img src="img/home_bnr07.jpg" alt="プロテニスプレーヤー 江原弘泰 応援サイト" width="174" height="100"></a></li>
+				<li><a href="yamasaki/index.html" target="_blank" class="overOpc"><img src="img/home_bnr09.jpg" alt="プロテニスプレーヤー 山﨑純平 応援サイト" width="174" height="100"></a></li>
+				<li><a href="ama/index.html" target="_blank" class="overOpc"><img src="img/home_bnr10.jpg" alt="甘酒横丁 日清紡本社のある日本橋人形町界隈の情報です" width="174" height="100"></a></li>
+			</ul>		</div>
+					<div id="home-press">
+    	<div class="home-box">
+          <h2>日清紡グループからのお知らせ</h2>
+           <dl class="list-news">
+           <dt>2017年7月4日</dt>
+        	 <dd><a href="press/as/index.html">健康診断窓口のFAX番号を変更しました。</a></dd>
+        	</dl>
+       </div>
+    </div>		<!-- //contents -->
+	</div>
+	<!-- //pageBody -->
+	<!-- footer -->
+	<footer id="footer">
+	<p id="ftr-pagetop"><a href="#header"><img src="/shared/img/ftr_pagetop.png" alt="Page top" width="43" height="43" class="overOpc"></a></p>
+	<div id="ftr-sitemapArea">
+		<div>
+			<dl id="ftr-group">
+				<dt>日清紡グループ</dt>
+				<dd>
+					<ul class="clearfix">
+						<li><a href="http://www.jrc.co.jp/jp/index.html" target="_blank">日本無線株式会社</a></li>
+						<li><a href="http://www.njr.co.jp/index.html" target="_blank">新日本無線株式会社</a></li>
+						<li><a href="http://www.njrc.jp/index.html" target="_blank">長野日本無線株式会社</a></li>
+						<li><a href="http://www.nisshinbo-brake.co.jp/" target="_blank">日清紡ブレーキ株式会社</a></li>
+						<li><a href="http://www.tmdfriction.com/" target="_blank">TMD Friction Group S.A</a></li>
+						<li><a href="http://www.nisshinbo-mechatronics.co.jp/" target="_blank">日清紡メカトロニクス株式会社</a></li>
+						<li><a href="http://www.nisshinbo-chem.co.jp/" target="_blank">日清紡ケミカル株式会社</a></li>
+						<li><a href="http://www.nisshinbo-textile.co.jp/" target="_blank">日清紡テキスタイル株式会社</a></li>
+					</ul>
+				</dd>
+			</dl>
+			<div id="ftr-sitemap" class="clearfix">
+				<div class="box">
+					<p><a href="/news/index.html">ニュースリリース</a></p>
+					<dl>
+						<dt><a href="/profile/index.html">グループ概要</a></dt>
+						<dd>
+							<ul>
+								<li><a href="/profile/message.html">トップメッセージ</a></li>
+								<li><a href="/profile/vision.html">企業ビジョン</a></li>
+								<li><a href="/profile/portfolio.html">事業ポートフォリオの変遷</a></li>
+								<li><a href="/profile/guide.html">早わかり日清紡</a></li>
+								<li><a href="/profile/domain_top.html">戦略的事業領域</a></li>
+								<li><a href="/profile/outline.html">会社概要</a></li>
+							</ul>
+						</dd>
+					</dl>
+				</div>
+				<dl class="box">
+					<dt><a href="/field/index.html">事業概要</a></dt>
+					<dd>
+						<ul>
+							<li><a href="/field/electronics.html">エレクトロニクス事業</a></li>
+							<li><a href="/field/brake.html">ブレーキ事業</a></li>
+							<li><a href="/field/mecha.html">精密機器事業</a></li>
+							<li><a href="/field/chemical.html">化学品事業</a></li>
+							<li><a href="/field/textiles.html">繊維事業</a></li>
+							<li><a href="/field/estate.html">不動産事業</a></li>
+						</ul>
+					</dd>
+				</dl>
+				<dl class="box">
+					<dt><a href="/ir/index.html">株主・投資家情報</a></dt>
+					<dd>
+						<ul>
+							<li><a href="/ir/management/index.html">経営情報</a></li>
+							<li><a href="/ir/governance/index.html">コーポレートガバナンス</a></li>
+							<li><a href="/ir/special/index.html">統合レポートハイライト</a></li>
+							<li><a href="/ir/esg/index.html">日清紡グループのESG活動</a></li>
+							<li><a href="/ir/individual/index.html">個人投資家の皆様へ</a></li>
+							<li><a href="/ir/library/index.html">IRライブラリー</a></li>
+							<li><a href="/ir/highlight/index.html">財務ハイライト</a></li>
+							<li><a href="/ir/stock/index.html">株式関連情報</a></li>
+							<li><a href="/ir/news/index.html">IRニュース</a></li>
+							<li><a href="/ir/other/policy.html">その他のIR情報</a></li>
+						</ul>
+					</dd>
+				</dl>
+				<dl class="box">
+					<dt><a href="/csr/index.html">CSR</a></dt>
+					<dd>
+						<ul>
+							<li><a href="/csr/management/index.html">マテリアリティとCSR目標</a></li>
+							<li><a href="/csr/environmental/index.html">環境</a></li>
+							<li><a href="/csr/human-rights/index.html">人権・労働慣行</a></li>
+							<li><a href="/csr/fair_operation/index.html">公正な事業慣行</a></li>
+							<li><a href="/csr/customer/index.html">消費者課題</a></li>
+							<li><a href="/csr/community/index.html">コミュニティへの参画、コミュニティの発展</a></li>
+							<li><a href="/csr/basic_policy.html">CSR調達基本方針</a></li>
+							<li><a href="/csr/ethics.html	">企業倫理通報制度</a></li>
+							<li><a href="/csr/plan.html">一般事業主行動計画</a></li>
+							<li><a href="/csr/download/index.html">CSR報告書（ダウンロード）</a></li>
+							<li><a href="/csr/policy.html">編集方針</a></li>
+						</ul>
+					</dd>
+				</dl>
+				<div class="box">
+					<dl>
+						<dt><a href="/r_d/index.html">研究開発</a></dt>
+						<dd>
+							<ul>
+								<li><a href="/r_d/message.html">新規事業開発<br>本部長メッセージ</a></li>
+								<li><a href="/r_d/cl.html">研究開発体制</a></li>
+								<li><a href="/r_d/activity.html">研究開発活動</a></li>
+                                <li><a href="/r_d/public_reseach.html">公的研究費の管理体制</a></li>
+							</ul>
+						</dd>
+					</dl>
+					<dl>
+						<dt><a href="/hr/index.html">採用情報</a></dt>
+						<dd>
+							<ul>
+								<li><a href="/recruit/index.html" target="_blank" class="iconR blank">新卒採用情報</a></li>
+							</ul>
+						</dd>
+					</dl>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="ftr-menu">
+		<ul>
+			<li><a href="/site/sitemap.html"><span>サイトマップ</span></a></li>
+			<li><a href="/site/site_info.html"><span>サイトご利用上の注意</span></a></li>
+			<li><a href="/site/privacy.html"><span>プライバシーポリシー</span></a></li>
+		</ul>
+	</div>
+	<div id="ftr-copyrightArea">
+		<p id="ftr-copyright"><small><img src="/shared/img/ftr_logo.png" width="260" height="20" alt="日清紡ホールディングス株式会社">Copyright © 1996<script>xSetThisYear();</script> Nisshinbo Holdings Inc. All Rights Reserved.</small></p>
+	</div>
+</footer>
+	<!-- //footer -->
+</div>
+<!-- //container -->
+</body>
+</html>

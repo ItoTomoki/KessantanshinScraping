@@ -1,0 +1,266 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name=viewport content="width=device-width, initial-scale=1">
+<title>株式会社fonfun(フォンファン)</title>
+<link rel="shortcut icon" href="img/favicon.ico">
+<meta name="Keywords" content="" />
+<meta name="Description" content="" />
+<link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+<div class="relative mh100v bg_img1">
+	<div class="w100per bg_white">
+		<div class="width flexc center">
+			
+			<nav>
+				<div class="bg_custom1 corp">
+					<div class="corp_name">
+						<a href="" class="tdn"><span class="fs16 c_white">株式会社fonfun</span></a>
+					</div>
+				</div>
+				<div class="anniversary" style="height: 100%;">
+					<div class="center">
+						<img src="img/20th.svg" alt="おかげさまで20周年">
+            <p class="mt15 fs09">2017年3月3日をもちまして、<br>
+            fonfunは創立20周年を迎えました。</p>
+            <div class="btn_20message">
+              <a href="message.php">代表挨拶<br>
+              <span class="fs08">20th anniversary message</span></a>
+            </div>
+					</div>
+				</div>
+				
+				<!-- モバイル用メニュー -->
+				<div class="toggle mobile">
+					<div>
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+				</div>
+				<ul class="main_menu_mobile">
+					<li class="list">
+						<div class="menu_title">会社情報</div>
+						<ul class="sub_menu_mobile">
+							<li><a href="message.php"><div class="link">代表挨拶</div></a></li>
+							<li><a href="corp.php"><div class="link">会社概要</div></a></li>
+							<li><a href="intro.php"><div class="link">経営理念・経営方針</div></a></li>
+							<li><a href="manager.php"><div class="link">経営陣紹介</div></a></li>
+							<li><a href="change.php"><div class="link">沿革</div></a></li>
+							<li><a href="map.php"><div class="link">アクセス</div></a></li>
+						</ul>
+					</li>
+					<li class="list">
+						<a href="business.php"><div class="menu_title">事業情報</div></a>
+					</li>
+					<li class="list">
+						<div class="menu_title">プレスルーム</div>
+						<ul class="sub_menu_mobile">
+							<li><a href="info.php?obj=press"><div class="link">プレスリリース</div></a></li>
+							<li><a href="library.php"><div class="link">ロゴ等の使用について</div></a></li>
+						</ul>
+					</li>
+					<li class="list">
+						<div class="menu_title">IR情報</div>
+						<ul class="sub_menu_mobile">
+							<li><a href="info.php?obj=ir"><div class="link">IRニュース</div></a></li>
+							<li><a href="senryaku.php"><div class="link">コーポレートガバナンス</div></a></li>
+							<li><a href="zaimu.php"><div class="link">財務情報</div></a></li>
+							<li><a href="irlib.php"><div class="link">IRライブラリー</div></a></li>
+							<li><a href="kabusiki.php"><div class="link">株式情報</div></a></li>
+							<li><a href="calendar.php"><div class="link">IRカレンダー</div></a></li>
+							<li><a href="qand.php"><div class="link">よくあるご質問</div></a></li>
+							<li><a href="denshi.php"><div class="link">電子公告</div></a></li>
+						</ul>
+					</li>
+					<li class="list">
+						<div class="menu_title">採用情報</div>
+						<ul class="sub_menu_mobile">
+							<li><a href="outline_fresh.php"><div class="link">新卒採用について</div></a></li>
+							<li><a href="outline_career.php"><div class="link">中途採用について</div></a></li>
+							<li><a href="outline_ptjob.php"><div class="link">アルバイト採用について</div></a></li>
+						</ul>
+					</li>
+					<li class="list">
+						<a href="contact.php"><div class="menu_title"><div class="link">お問合せ</div></div></a>
+					</li>
+				</ul>
+				<!-- モバイル用メニュー -->
+			</nav>
+			
+			
+			
+			<div class="flex1">
+				<!--<a href="press/20170101_01.pdf" target="_blank"><div class="frame1 m10 p10 fs12">平成28年熊本地震　被災された皆様に心よりお見舞い申し上げます。</div></a>-->
+        <!--<a href="https://www.fonfun.co.jp/entry/20th.php" target="_blank"><img src="img/fonfun20_1019.png" class="mxw100per"></a>-->
+				<div class="flexc p20 relative">
+					<div class="flex1m btn">
+						<img src="img/rsol.svg" class="w100per" alt="">
+						<p class="btn1">リモートソリューションズ　≫</p>
+						<div class="menubord dspn">
+							<div class="c_white left fs13 m5 p5 bg_img2 bdb1">リモートソリューションズ</div>
+							<div class="m10">
+								<div class="flexc">
+									<div class="mbox">
+										<a href="http://rmail.jp/" class="tdn" target="_blank">
+											<img src="img/tp01.svg" alt="">
+											<p class="fw70">リモートメール</p>
+											<p class="fs09">個人向けサービス</p>
+										</a>
+									</div>
+									<div class="mbox">
+										<a href="https://biz.rmail.jp/" class="tdn" target="_blank">
+											<img src="img/tp02.svg" alt="">
+											<p class="fw70">リモートメール</p>
+											<p class="fs09">法人向けサービス</p>
+										</a>
+									</div>
+									<div class="mbox">
+										<a href="http://www.rintra.jp/" class="tdn" target="_blank">
+											<img src="img/tp03.svg" alt="">
+											<p class="fw70">リモートブラウズ</p>
+										</a>
+									</div>
+									<div class="mbox">
+										<a href="https://rcatalog.jp/" class="tdn" target="_blank">
+											<img src="img/tp04.svg" alt="">
+											<p class="fw70">リモートカタログ</p>
+										</a>
+									</div>
+									<div class="mbox">
+										<a href="http://www.ff-meishi.jp/" class="tdn" target="_blank">
+											<img src="img/tp05.svg" alt="">
+											<p class="fw70">リモート名刺</p>
+										</a>
+									</div>
+									<div class="mbox">
+										<a href="http://www.ff-rds.jp/" class="tdn" target="_blank">
+											<img src="img/tp06.svg" alt="">
+											<p class="fw70">リモート・ビュー</p>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="flex1m btn">
+						<img src="img/security.svg" class="w100per" alt="">
+						<p class="btn2">Webセキュリティサービス　≫</p>
+						<div class="menubord dspn">
+							<div class="c_white left fs13 m5 p5 bg_img2 bdb1">Webセキュリティサービス</div>
+							<div class="m10">
+								<div class="flexc">
+									<div class="mbox flex1m">
+										<a href="https://biz.rmail.jp/security/webapplication.html" class="tdn" target="_blank">
+											<img src="img/tp07.svg" alt="">
+											<p class="fw70">Webアプリケーション診断</p>
+										</a>
+									</div>
+									<div class="mbox flex1m">
+										<a href="https://biz.rmail.jp/security/network.html" class="tdn" target="_blank">
+											<img src="img/tp08.svg" alt="">
+											<p class="fw70">ネットワーク診断</p>
+										</a>
+									</div>
+									<!--
+									<div class="mbox">
+										<a href="https://biz.rmail.jp/security/ta_training.html" class="tdn" target="_blank">
+											<img src="img/tp09.svg" alt="">
+											<p class="fw70">標的型攻撃メール訓練</p>
+										</a>
+									</div>
+									-->
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			
+			
+		</div>
+	</div>
+	
+	
+	
+	
+	<div class="w100per news">
+		<!--<div class="info width center">
+			<div class="title">News  ＞</div>
+			<div>
+				<a href="press/20170406a.pdf" target="_blank"><span class="dspib mr20">2017/04/06</span>創立20周年記念講演　中止のお知らせ</a>
+			</div>
+		</div>-->
+		<div class="info width center">
+			<div class="title">IR News  ＞</div>
+			<div>
+				<a href="ir/20170810_01.pdf" target="_blank"><span class="dspib mr20">2017/08/10</span>平成30年3月期 第1四半期決算短信〔日本基準〕(連結）</a>
+			</div>
+		</div>
+	</div>
+	
+	
+	
+	
+	<div class="top_footer w100per bottom0 footer">
+		<div class="w100per c_white bg_custom1">
+			<div class="width flexcr center">
+				<div class="flex1 vam">
+					<ul>
+						<li><a href="message.php" class="tdn">会社情報</a></li>
+						<li><a href="business.php" class="tdn">事業情報</a></li>
+						<li><a href="info.php?obj=press" class="tdn">プレスルーム</a></li>
+						<li><a href="info.php?obj=ir" class="tdn">IR情報</a></li>
+						<li><a href="outline_career.php" class="tdn">採用情報</a></li>
+						<li><a href="contact.php" class="tdn">お問合せ</a></li>
+					</ul>
+				</div>
+				<div class="center p20">
+					<img src="img/corp_logo.svg" class="corp_logo" alt="株式会社fonfun">
+					<p>ともに喜び、ともに幸せ</p>
+				</div>
+			</div>
+		</div>
+		<div class="w100per c_white bg_custom2">
+			<div class="width flexcr center">
+				<div class="flex1">
+					<ul>
+						<li><a href="protect.php" class="tdn">個人情報保護方針</a></li>
+						<li><a href="attention.php" class="tdn">サイトご利用規約</a></li>
+						<li><a href="sitemap.php" class="tdn">サイトマップ</a></li>
+					</ul>
+				</div>
+				<div class="center vam p10">
+					Copyright 2016 fonfun corporation. All Rights Reserved
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	
+	
+	
+</div>
+<script type="text/javascript" src="js/jquery-3.1.1.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="js/script.js" charset="utf-8"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-1497090-35', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<noscript>
+	<div class="noscript" >
+		<p>このページを正常にご覧いただくには、JavaScriptを有効にしていただく必要があります。</p>
+	</div>
+</noscript>
+</body>
+</html>

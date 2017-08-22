@@ -1,0 +1,1311 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="Content-Script-Type" content="text/javascript" />
+		<meta http-equiv="Content-Style-Type" content="text/css" />
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+		<meta name="description" content="100円ショップのSeria（セリア）公式サイトです。店舗検索やおすすめ商品、アルバイト・パート求人情報などを掲載しています。" />
+		<meta name="keywords" content="Seria,セリア,100円ショップ,100円均一,100均,100円,商品,店舗,アルバイト,パート,手作りコンテスト" />
+		<title>100円ショップのSeria（セリア）</title>
+		<link rel="alternate" media="only screen and (max-width: 640px)" href="http://www.seria-m.jp/sp/">
+		<link rel="stylesheet" type="text/css" href="common/css/foundation.css" />
+		<link rel="stylesheet" type="text/css" href="common/css/fontsize-regular.css" title="regular" media="all" />
+		<link rel="alternate stylesheet" type="text/css" href="common/css/fontsize-large.css" title="large" media="all" />
+		<link rel="stylesheet" type="text/css" href="common/css/jquery.bxslider.css" />
+
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<link rel="stylesheet" type="text/css" href="campaign/valentine2016/css/top_valentine2016.css" />
+		<link rel="stylesheet" type="text/css" href="css/jquery.jscrollpane.css" />
+
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script type="text/javascript" src="common/js/jquery.bxslider.js"></script>
+		<script type="text/javascript" src="common/js/jquery.jscrollpane.min.js"></script>
+		<script type="text/javascript" src="js/index02.js"></script>
+		<script type="text/javascript">
+		<!--
+		jQuery.noConflict();
+		-->
+		</script>
+		<script type="text/javascript" src="common/js/mootools123.js"></script>
+		<script type="text/javascript" src="common/js/mootools1231more.js"></script>
+		<script type="text/javascript" src="common/js/rollover.js"></script>
+		<script type="text/javascript" src="common/js/fontchanger.js"></script>
+
+		<!--[if lte IE 6]>
+			<script type="text/javascript" src="common/js/DD_belatedPNG_0.0.8a-min.js"></script>
+			<script type="text/javascript">DD_belatedPNG.fix('img, .png_bg');</script>
+		<![endif]-->
+
+		<script type="text/javascript">
+			var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+			document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+			</script>
+			<script type="text/javascript">
+			try {
+			var pageTracker = _gat._getTracker("UA-12978275-1");
+			pageTracker._trackPageview();
+			} catch(err) {}
+		</script>
+	</head>
+
+	<body>
+
+	
+		<div id="font_s">
+			<div id="TOP" class="wrapper">
+				<!-- HEADER -->
+								<div id="header" class="header">
+					<div id="header-inner">
+						<div id="header-top">
+							<h1 id="header-logo"><a href="/"><img src="/common/images/header-logo.gif" width="96" height="40" alt="Seria" /></a></h1>
+							<p class="no-display"><a href="#main">[共通メニューを飛ばして本文へ]</a></p>
+							<div id="head-navi" class="nav">
+								<ul class="menu">
+									<li id="menu-sitemap"><a href="/sitemap/"></a></li>
+									<li id="menu-faq"><a href="/faq/">よくあるご質問</a></li>
+									<li id="menu-contact"><a href="https://www.seria-group.com/cgi-bin/contact/index.cgi">お問い合わせ</a></li>
+									<li id="menu-corporate"><a href="/corporate/">企業情報</a></li>
+								</ul>
+							</div>
+						</div>
+						<div id="grand-navi" class="nav">
+							<ul class="menu">
+								<li id="menu-recommendation"><a href="/recommendation/">おすすめ商品</a></li>
+								<li id="menu-interior"><a href="/interior/">今月のインテリア</a></li>
+								<li id="menu-campaign"><a href="/campaign/">手作り広場</a></li>
+								<li id="menu-about"><a href="/about/">What's Seria?</a></li>
+								<li id="menu-shop"><a href="/shop/">店舗情報</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div id="main">
+					<div id="main-inner2">
+						<div id="promotion">
+							<style type="text/css">
+.bx-pager{
+  padding:0 0 0 615px;
+  width: 285px;
+  overflow: hidden;
+  position: relative;
+}
+.bx-pager a{
+  width: 42px;
+  height: 42px;
+  display: block;
+  float: left;
+  margin:0 4px 0 0;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  color: #fff;
+  text-decoration: none;
+  outline:none;
+}
+#bx-pager{
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+}
+
+
+.pager-0{
+	text-indent:-9999px;
+	width: 42px;
+	height: 42px;
+	display: inline-block;
+	vertical-align: top;
+	padding: 0 2;
+	}
+.pager-0{
+  background-image: url(http://www.seria-group.com/mainvisual_pc/images/top_icon_1.jpg);
+}
+.pager-0:hover,
+.pager-0.active{
+  background-image: url(http://www.seria-group.com/mainvisual_pc/images/top_icon_2.jpg);
+}
+
+
+.pager-1{
+	text-indent:-9999px;
+	width: 42px;
+	height: 42px;
+	display: inline-block;
+	vertical-align: top;
+	padding: 0 2;
+	}
+.pager-1{
+  background-image: url(http://www.seria-group.com/mainvisual_pc/images/seasonal201707_off-thumb.jpg);
+}
+.pager-1:hover,
+.pager-1.active{
+  background-image: url(http://www.seria-group.com/mainvisual_pc/images/seasonal201707_on-thumb.jpg);
+}
+
+
+.pager-2{
+	text-indent:-9999px;
+	width: 42px;
+	height: 42px;
+	display: inline-block;
+	vertical-align: top;
+	padding: 0 2;
+	}
+.pager-2{
+  background-image: url(http://www.seria-group.com/mainvisual_pc/images/interior.png);
+}
+.pager-2:hover,
+.pager-2.active{
+  background-image: url(http://www.seria-group.com/mainvisual_pc/images/interior_on.png);
+}
+
+
+.pager-3{
+	text-indent:-9999px;
+	width: 42px;
+	height: 42px;
+	display: inline-block;
+	vertical-align: top;
+	padding: 0 2;
+	}
+.pager-3{
+  background-image: url(http://www.seria-group.com/mainvisual_pc/images/004.png);
+}
+.pager-3:hover,
+.pager-3.active{
+  background-image: url(http://www.seria-group.com/mainvisual_pc/images/004_on.png);
+}
+
+
+</style>
+
+<ul class="bxslider">
+
+
+<li>
+<a href="http://www.seria-group.com/natsuyasumi/" >
+    
+        
+         <img src="http://www.seria-group.com/mainvisual_pc/images/PC_top900-315.jpg" width="900" height="315" alt="7 学研イベント" />
+        
+    
+</a>
+</li>
+
+<li>
+<a href="http://www.seria-group.com/recommendation/pickup/" >
+    
+        
+         <img src="http://www.seria-group.com/mainvisual_pc/images/20170516seria_PC.jpg" width="900" height="315" alt="6 季節のおすすめ（夏）" />
+        
+    
+</a>
+</li>
+
+<li>
+<a href="http://www.seria-group.com/interior/index.html?cid_top_main=interior" >
+    
+        
+         <img src="http://www.seria-group.com/mainvisual_pc/images/interior_201708.jpg" width="900" height="315" alt="2 今月のインテリア（8月）" />
+        
+    
+</a>
+</li>
+
+<li>
+<a href="http://www.seria-group.com/arbeit/index.html?cid_top_main=arbeit" >
+    
+        
+         <img src="http://www.seria-group.com/mainvisual_pc/images/004.jpg" width="900" height="315" alt="1 スタッフ募集" />
+        
+    
+</a>
+</li>
+
+</ul>
+
+
+<div id="bx-pager">
+
+<a data-slide-index="0" href="javascript:void(0);" class="pager-0"></a>
+
+
+<a data-slide-index="1" href="javascript:void(0);" class="pager-1"></a>
+
+
+<a data-slide-index="2" href="javascript:void(0);" class="pager-2"></a>
+
+
+<a data-slide-index="3" href="javascript:void(0);" class="pager-3"></a>
+
+
+</div>						</div>
+
+
+						<div id="emergency" class="png_bg">
+							<div class="box png_bg">
+								<div class="contents png_bg clearfix">
+									<h2 class="title"><img src="/images/emergency_title.gif" alt="セリアからのお知らせ" width="121" height="22" /></h2>
+									<ul class="topics">
+
+
+
+	
+	
+	
+		
+		
+	
+										
+										<li><p><a href="http://www.seria-group.com/emergency/docs/20160323_nylon_kitchentool.pdf" target="_blank">商品自主回収のお知らせ（ナイロン製キッチンツール）</a></p></li>
+
+	
+	
+	
+		
+		
+	
+										
+										<li><p><a href="http://www.seria-group.com/info/20150924.html" target="_blank">商品自主回収のお知らせ（延長コード）</a></p></li>
+
+
+									</ul>
+								</div>
+							</div>
+						</div>
+
+
+<!--ここから追加-->
+						<div id="emergency2">
+							<div class="header"></div>
+							<div class="emergency2_inner clearfix">
+								<p>東日本大震災により被災された方々に心よりお見舞い申し上げます。一日も早い復旧復興をお祈り申し上げます。<span><a href="about/effort.html" class="link" >セリアの取り組み</a></span></p>
+							</div>
+							<div class="footer"></div>
+						</div>
+<!--ここまで追加-->
+
+
+						<div class="clearfix">
+							<div id="main-contents">
+								<!--2015/1/8#valentineここから追加 -->
+								<!-- div id="valentine" class="valentine section">
+									<div class="head">
+										<h2><a href="/campaign/valentine2016/" class="brightover"><img src="/campaign/valentine2016/images/h2_valentine.gif" width="194" height="30" alt="手作りレシピ バレンタインデー特集" /></a></h2>
+									</div>
+									<div class="body">
+										<div class="slide_section">
+											<div class="slide_box">
+												<ul id="slider3" class="clearfix">
+								
+													<li><a href="/campaign/recipe/cat30/#2321" class="brightover">
+														<span class="slide-img">
+															
+																
+																<span class="img"><img src="/campaign/valentine2016/images/top_new_okashi_01.jpg" width="153" height="101" alt="ハートのアイシングクッキー" /></span>
+																
+															
+														<span class="timestamp">2016年1月 8日</span>
+														<span class="title">ハートのアイシングクッキー</span>
+                                                                                                                </span>
+													</a></li>
+								
+							
+								
+													<li><a href="/campaign/recipe/cat30/#2322" class="brightover">
+														<span class="slide-img">
+															
+																
+																<span class="img"><img src="/campaign/valentine2016/images/top_new_okashi_02.jpg" width="153" height="101" alt="かわいいスノーボール" /></span>
+																
+															
+														<span class="timestamp">2016年1月 8日</span>
+														<span class="title">かわいいスノーボール</span>
+                                                                                                                </span>
+													</a></li>
+								
+							
+								
+													<li><a href="/campaign/recipe/cat30/#2323" class="brightover">
+														<span class="slide-img">
+															
+																
+																<span class="img"><img src="/campaign/valentine2016/images/top_new_okashi_03.jpg" width="153" height="101" alt="濃厚ガトーショコラ" /></span>
+																
+															
+														<span class="timestamp">2016年1月 8日</span>
+														<span class="title">濃厚ガトーショコラ</span>
+                                                                                                                </span>
+													</a></li>
+								
+							
+								
+													<li><a href="/campaign/recipe/cat30/#2324" class="brightover">
+														<span class="slide-img">
+															
+																
+																<span class="img"><img src="/campaign/valentine2016/images/top_new_okashi_04.jpg" width="153" height="101" alt="いろいろブラウニーバー" /></span>
+																
+															
+														<span class="timestamp">2016年1月 8日</span>
+														<span class="title">いろいろブラウニーバー</span>
+                                                                                                                </span>
+													</a></li>
+								
+							
+								
+													<li><a href="/campaign/recipe/cat24/#2325" class="brightover">
+														<span class="slide-img">
+															
+																
+																<span class="img"><img src="/campaign/valentine2016/images/top_new_rap_01.jpg" width="153" height="101" alt="ハートがポイント！プチラッピング" /></span>
+																
+															
+														<span class="timestamp">2016年1月 8日</span>
+														<span class="title">ハートがポイント！プチラッピング</span>
+                                                                                                                </span>
+													</a></li>
+								
+							
+								
+													<li><a href="/campaign/recipe/cat24/#2326" class="brightover">
+														<span class="slide-img">
+															
+																
+																<span class="img"><img src="/campaign/valentine2016/images/top_new_rap_02.jpg" width="153" height="101" alt="紙コップを使って作るおしゃれなラッピング" /></span>
+																
+															
+														<span class="timestamp">2016年1月 8日</span>
+														<span class="title">紙コップを使って作るおしゃれなラッピング</span>
+                                                                                                                </span>
+													</a></li>
+								
+												</ul>
+								
+																		</div>
+										<div id="decoration_01" class="png_bg"></div>
+										<div id="decoration_02" class="png_bg"></div>
+										<div id="decoration_03" class="png_bg"></div>
+										<div id="decoration_04" class="png_bg"></div>
+									</div>
+								</div>
+								</div -->
+								<!--/2015/1/8#valentineここまで追加-->
+								
+								<!--recommend-->
+								<div id="recommend" class="summer section">
+									<div class="head">
+										<h2><a href="/recommendation/" class="brightover"><img src="images/h2-recommend.gif" width="380" height="30" alt="おすすめ商品" /></a></h2>
+									</div>
+									<div class="body">
+										<div class="slide_section">
+											<!-- slide -->
+											<div class="slide_box">
+												<ul id="slider2" class="clearfix">
+								
+													<li><a href="http://www.seria-group.com/recommendation/pickup/2017/08/american-cafe.html" class="brightover">
+														<span class="slide-img">
+															
+																
+																<span class="img"><img src="http://www.seria-group.com/recommendation/pickup/images/bnr_pc_american-cafe.jpg" width="153" height="101" alt="アメリカン・カフェ" /></span>
+																
+															
+														<span class="timestamp">2017年8月10日</span>
+														<span class="title">アメリカン・カフェ</span>
+                                                                                                                </span>
+													</a></li>
+								
+							
+								
+													<li><a href="http://www.seria-group.com/recommendation/pickup/2017/07/enjoy-outdoor.html" class="brightover">
+														<span class="slide-img">
+															
+																
+																<span class="img"><img src="http://www.seria-group.com/recommendation/pickup/images/bnr_pc_enjoy-outdoor.jpg" width="153" height="101" alt="太陽が遊び友だち" /></span>
+																
+															
+														<span class="timestamp">2017年7月 7日</span>
+														<span class="title">太陽が遊び友だち</span>
+                                                                                                                </span>
+													</a></li>
+								
+							
+								
+													<li><a href="http://www.seria-group.com/recommendation/pickup/2017/06/beach.html" class="brightover">
+														<span class="slide-img">
+															
+																
+																<span class="img"><img src="http://www.seria-group.com/recommendation/pickup/images/bnr_pc_beach.jpg" width="153" height="101" alt="わくわくビーチライフ" /></span>
+																
+															
+														<span class="timestamp">2017年6月16日</span>
+														<span class="title">わくわくビーチライフ</span>
+                                                                                                                </span>
+													</a></li>
+								
+							
+								
+													<li><a href="http://www.seria-group.com/recommendation/pickup/2017/06/seaside-room.html" class="brightover">
+														<span class="slide-img">
+															
+																
+																<span class="img"><img src="http://www.seria-group.com/recommendation/pickup/images/bnr_pc_seaside_room.jpg" width="153" height="101" alt="シーサイド・ルーム" /></span>
+																
+															
+														<span class="timestamp">2017年6月 1日</span>
+														<span class="title">シーサイド・ルーム</span>
+                                                                                                                </span>
+													</a></li>
+								
+							
+								
+													<li><a href="http://www.seria-group.com/recommendation/pickup/2017/05/galaxy.html" class="brightover">
+														<span class="slide-img">
+															
+																
+																<span class="img"><img src="http://www.seria-group.com/recommendation/pickup/images/bnr_pc_galaxy.jpg" width="153" height="101" alt="夢見る宇宙" /></span>
+																
+															
+														<span class="timestamp">2017年5月26日</span>
+														<span class="title">夢見る宇宙</span>
+                                                                                                                </span>
+													</a></li>
+								
+							
+								
+													<li><a href="http://www.seria-group.com/recommendation/pickup/2017/04/lisagas.html" class="brightover">
+														<span class="slide-img">
+															
+																
+																<span class="img"><img src="http://www.seria-group.com/recommendation/pickup/images/bnr_pc_lisagas.jpg" width="153" height="101" alt="リサとガスパールが仲間入り!" /></span>
+																
+															
+														<span class="timestamp">2017年4月14日</span>
+														<span class="title">リサとガスパールが仲間入り!</span>
+                                                                                                                </span>
+													</a></li>
+								
+												</ul>
+								
+																		</div>
+										<!--decoration-->
+										<div id="decoration_01" class="png_bg"></div>
+										<div id="decoration_02" class="png_bg"></div>
+									</div>
+								</div>
+								<!--/#recommend--></div>
+
+								<!--campaign-->
+								<div id="campaign" class="summer section">
+									<div class="head">
+										<h2><a href="/campaign/recipe/" class="brightover"><img src="images/h2-campaign.gif" width="380" height="30" alt="Seriaで楽しむ手作りレシピ" /></a></h2>
+										<!-- div id="banner_01"><a class="png_bg" href="campaign/teducon/">手作りコンテスト</a></div -->
+									</div>
+									<div class="body">
+										<div class="slide_section">
+											<!-- slide -->
+											<div class="slide_box">
+												<ul id="slider1" class="clearfix">
+
+														<li><a href="http://www.seria-group.com/campaign/recipe/cat19/#2981" class="brightover">
+															<span class="img"><img src="http://www.seria-group.com/campaign/recipe/images/web_basket.jpg" width="153" height="101" alt="紙バンドとマステで作るバスケット" /></span>
+															<span class="timestamp">2017年8月18日</span>
+															<span class="title">紙バンドとマステで作るバスケット</span>
+														</a></li>
+
+
+
+														<li><a href="http://www.seria-group.com/campaign/recipe/cat16/#2974" class="brightover">
+															<span class="img"><img src="http://www.seria-group.com/campaign/recipe/images/web_spice_rack.jpg" width="153" height="101" alt="すのこと木箱のナチュラルスパイスラック" /></span>
+															<span class="timestamp">2017年8月11日</span>
+															<span class="title">すのこと木箱のナチュラルスパイスラック</span>
+														</a></li>
+
+
+
+														<li><a href="http://www.seria-group.com/campaign/recipe/cat20/#2954" class="brightover">
+															<span class="img"><img src="http://www.seria-group.com/campaign/recipe/images/web_%20pendant.jpg" width="153" height="101" alt="UVレジンのガラスドームペンダント" /></span>
+															<span class="timestamp">2017年7月21日</span>
+															<span class="title">UVレジンのガラスドームペンダント</span>
+														</a></li>
+
+
+
+														<li><a href="http://www.seria-group.com/campaign/recipe/cat23/#2943" class="brightover">
+															<span class="img"><img src="http://www.seria-group.com/campaign/recipe/images/web_hair_band.jpg" width="153" height="101" alt="バンダナで作るツイストヘアバンド" /></span>
+															<span class="timestamp">2017年7月 7日</span>
+															<span class="title">バンダナで作るツイストヘアバンド</span>
+														</a></li>
+
+
+
+														<li><a href="http://www.seria-group.com/campaign/recipe/cat23/#2923" class="brightover">
+															<span class="img"><img src="http://www.seria-group.com/campaign/recipe/images/web_%20apron_set.jpg" width="153" height="101" alt="手ぬぐいで作るキッズエプロンセット[リニューアル]" /></span>
+															<span class="timestamp">2017年6月23日</span>
+															<span class="title">手ぬぐいで作るキッズエプロンセット[リニューアル]</span>
+														</a></li>
+
+
+
+														<li><a href="http://www.seria-group.com/campaign/recipe/cat19/#2903" class="brightover">
+															<span class="img"><img src="http://www.seria-group.com/campaign/recipe/images/web_wet_tissue_case.jpg" width="153" height="101" alt="お出かけ用ウェットティッシュケース" /></span>
+															<span class="timestamp">2017年6月 9日</span>
+															<span class="title">お出かけ用ウェットティッシュケース</span>
+														</a></li>
+
+
+
+														<li><a href="http://www.seria-group.com/campaign/recipe/cat16/#2890" class="brightover">
+															<span class="img"><img src="http://www.seria-group.com/campaign/recipe/images/web_vegetable_stocker_02.jpg" width="153" height="101" alt="セメントバッグの野菜ストッカー" /></span>
+															<span class="timestamp">2017年5月26日</span>
+															<span class="title">セメントバッグの野菜ストッカー</span>
+														</a></li>
+
+
+
+														<li><a href="http://www.seria-group.com/campaign/recipe/cat19/#2881" class="brightover">
+															<span class="img"><img src="http://www.seria-group.com/campaign/recipe/images/web_pocket_tissue.jpg" width="153" height="101" alt="簡単ポケットティッシュケース" /></span>
+															<span class="timestamp">2017年5月19日</span>
+															<span class="title">簡単ポケットティッシュケース</span>
+														</a></li>
+
+
+
+														<li><a href="http://www.seria-group.com/campaign/recipe/cat16/#2877" class="brightover">
+															<span class="img"><img src="http://www.seria-group.com/campaign/recipe/images/web_tissue_cover.jpg" width="153" height="101" alt="セメントバッグのティッシュカバー" /></span>
+															<span class="timestamp">2017年5月12日</span>
+															<span class="title">セメントバッグのティッシュカバー</span>
+														</a></li>
+
+
+
+														<li><a href="http://www.seria-group.com/campaign/recipe/cat16/#2865" class="brightover">
+															<span class="img"><img src="http://www.seria-group.com/campaign/recipe/images/web_shell_tray.jpg" width="153" height="101" alt="UVレジンのマリンカラートレー" /></span>
+															<span class="timestamp">2017年4月28日</span>
+															<span class="title">UVレジンのマリンカラートレー</span>
+														</a></li>
+
+													</ul>
+
+											</div>
+											<!--decoration-->
+											<div id="decoration_03" class="png_bg"></div>
+											<div id="decoration_04" class="png_bg"></div>
+											<!-- div id="decoration_05" class="png_bg"></div -->											
+											<!-- div id="decoration_06" class="png_bg"></div -->
+											<!-- div id="decoration_07" class="png_bg"></div -->
+											<!-- div id="decoration_08" class="png_bg"></div -->
+											<!-- div id="decoration_09" class="png_bg"></div -->
+											<!-- div id="decoration_10" class="png_bg"></div -->
+										</div>
+									</div>
+								<!--/campaign--></div>
+							</div>
+							<div id="sidebar" class="aside">
+								<div class="shop_box">
+									<h3>お近くのお店を探す</h3>
+									<!--  -->
+									<div class="shop-search_btn">
+										<a href="shop/">店舗を検索</a>
+									</div>
+								</div>
+
+								<div class="banner_box">
+									<div><a href="/arbeit/" class="rollover"><img src="images/banner/banner-top_recruit.gif"  alt="RECRUIT スタッフ募集" /></a></div>
+									<div class="banner02"><a href="/corporate/" class="rollover"><img src="images/banner/banner-top_corporate.gif"  alt="企業情報　会社案内 リクルート情報 IR情報" /></a></div>
+								</div>
+							</div>
+						</div>
+
+						<div id="topics">
+							<div id="topics-inner" class="clearfix">
+								<div id="pickup">
+									<div class="header"></div>
+									<div class="body clearfix">
+										<h2><img src="images/h2-pickup.gif" width="145" height="15" alt="ピックアップ情報/PICK UP" /></h2>
+
+
+	
+
+
+
+
+	
+
+
+
+
+	
+										<div class="top-topic">
+											<div class="top-topic-inner clearfix">
+
+
+
+
+												<div class="topic-thumb"><a href="http://www.seria-group.com/topics/2017/best-flower-arrangement201708seria.html" class="brightover"><img src="http://www.seria-group.com/topics/images/thumbnail_pc_inred201708.jpg" width="70" height="88" alt="ベストフラワーアレンジメント（秋号）にSeriaの記事が掲載されました。" /></a></div>
+
+
+												<div class="topic-articlebox">
+													<div class="topic-timestamp">2017&#24180;8&#26376;16&#26085;</div>
+
+
+													<div class="topic-title"><a href="http://www.seria-group.com/topics/2017/best-flower-arrangement201708seria.html">ベストフラワーアレンジメント（秋号）にSeriaの記事が掲載されました。</a></div>
+
+
+												</div>
+
+											</div>
+										</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+									</div>
+									<div class="footer"></div>
+								</div>
+								<div id="whatsnew" class="clearfix">
+									<div id="whatsnew-top" class="clearfix">
+										<h2><img src="images/h2-top_whatsnew.gif" width="90" height="20" alt="新着情報/NEWS" /></h2>
+										<ul class="topics-links clearfix">
+											<li><a href="topics/" class="rollover"><img src="images/button-list.gif" width="55" height="20" alt="[一覧を見る]" /></a></li>
+											<li><a href="topics/atom.xml" class="rollover"><img src="images/button-rss.gif" width="30" height="20" alt="[RSS]" /></a></li>
+										</ul>
+									</div>
+									<div id="scroll_bar">
+										<ul class="other-topics">
+											<li class="clearfix">
+												<div class="topic-timestamp">2017&#24180;8&#26376;18&#26085;</div>
+
+
+
+												<div class="topic-title"><a href="http://www.seria-group.com/campaign/recipe/">手作りレシピ　ダウンロードページを更新いたしました。</a></div>
+
+
+											</li>
+
+
+
+
+
+
+
+
+
+
+
+											<li class="clearfix">
+												<div class="topic-timestamp">2017&#24180;8&#26376;17&#26085;</div>
+
+
+
+												<div class="topic-title"><a href="http://www.seria-group.com/recommendation/#check">今チェックしておきたいおすすめ商品ページを更新いたしました。</a></div>
+
+
+											</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+											<li class="clearfix">
+												<div class="topic-timestamp">2017&#24180;8&#26376;10&#26085;</div>
+
+
+
+												<div class="topic-title"><a href="http://www.seria-group.com/recommendation/pickup/">季節のおすすめ商品ページを更新いたしました。</a></div>
+
+
+											</li>
+
+
+
+
+
+
+
+
+
+
+
+											<li class="clearfix">
+												<div class="topic-timestamp">2017&#24180;8&#26376; 2&#26085;</div>
+
+
+
+												<div class="topic-title"><a href="http://www.seria-group.com/topics/2017/orange-page201708seria.html">オレンジページ（8月17日号）にSeriaの記事が掲載されました。</a></div>
+
+
+											</li>
+
+
+
+
+
+
+
+
+
+
+
+											<li class="clearfix">
+												<div class="topic-timestamp">2017&#24180;8&#26376; 1&#26085;</div>
+
+
+
+												<div class="topic-title"><a href="http://www.seria-group.com/interior/index.html">今月のインテリアページを更新いたしました。</a></div>
+
+
+											</li>
+
+
+
+
+
+
+
+
+
+
+
+											<li class="clearfix">
+												<div class="topic-timestamp">2017&#24180;7&#26376; 7&#26085;</div>
+
+
+
+												<div class="topic-title"><a href="http://www.seria-group.com/about/effort.html">東日本大震災に関する当社の支援活動について更新いたしました。</a></div>
+
+
+											</li>
+
+
+
+
+
+
+
+
+
+
+
+											<li class="clearfix">
+												<div class="topic-timestamp">2017&#24180;7&#26376; 7&#26085;</div>
+
+
+
+												<div class="topic-title"><a href="http://www.seria-group.com/topics/2017/esse201708seria.html">ESSE（8月号）にSeriaの記事が掲載されました。</a></div>
+
+
+											</li>
+
+
+
+
+
+
+
+
+
+
+
+											<li class="clearfix">
+												<div class="topic-timestamp">2017&#24180;7&#26376; 1&#26085;</div>
+
+
+
+												<div class="topic-title"><a href="http://www.seria-group.com/natsuyasumi/">Seria×学研kidsnet自由研究　なぜなに科学工作チャレンジを公開いたしました。</a></div>
+
+
+											</li>
+
+
+
+
+
+
+
+
+
+
+
+											<li class="clearfix">
+												<div class="topic-timestamp">2017&#24180;6&#26376; 7&#26085;</div>
+
+
+
+												<div class="topic-title"><a href="http://www.seria-group.com/topics/2017/inred201707seria.html">InRed（7月号）にSeriaの記事が掲載されました。</a></div>
+
+
+											</li>
+
+
+
+
+
+
+
+
+
+
+
+											<li class="clearfix">
+												<div class="topic-timestamp">2017&#24180;6&#26376; 6&#26085;</div>
+
+
+
+												<div class="topic-title"><a href="http://www.seria-group.com/topics/2017/shunou201706seria.html">「ズボラでも大丈夫！ざっくり収納」にSeriaの記事が掲載されました。</a></div>
+
+
+											</li>
+
+								</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- FOOTER -->
+								<div id="footer_top" class="footer">
+					<div id="footer-inner" class="clearfix">
+						<div id="to_top" class="footer">
+							<p><a href="#TOP" class="innerlink">↑ページのトップへ</a></p>
+						</div>
+						<div id="footer-navi">
+							<ul class="menu clearfix">
+								<li id="menu-usage"><a href="/about/usage.html">サイトのご利用にあたって</a></li>
+								<li id="menu-privacypolicy"><a href="/privacypolicy/">プライバシーポリシー</a></li>
+							</ul>
+						</div>
+						<div id="copyright"><p><img src="common/images/text-copyright.gif" width="166" height="10" alt="(C)Seria Co.,Ltd. All Rights Reserved." /></p></div>
+					</div>
+				</div>
+							</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,445 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>大林道路株式会社</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="format-detection" content="telephone=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<link rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" type="text/css" href="css/bigvideo.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/ban.css">
+<link rel="stylesheet" type="text/css" href="css/sp.css">
+<link href="https://fonts.googleapis.com/css?family=Anton|Allerta|Fjalla+One" rel="stylesheet">
+<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui-1.8.22.custom.min.js"></script>
+<script type="text/javascript" src="js/jquery.imagesloaded.min.js"></script>
+<script type="text/javascript" src="js/jquery.smoothScroll.js"></script>
+<script type="text/javascript" src="js/video.js"></script>
+<script type="text/javascript" src="js/bigvideo.js"></script>
+<script type="text/javascript" src="js/slick.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript">
+$(function() {
+	var BV,win,st,eventName;
+	if((navigator.userAgent.indexOf('iPhone') > 0 && navigator.userAgent.indexOf('iPad') === -1) || navigator.userAgent.indexOf('iPod') > 0 || navigator.userAgent.indexOf('Android') > 0){
+	  eventName = 'load orientationchange';
+	}else{
+	  eventName = 'load resize';
+	}
+	$(window).on(eventName,function(){
+		//Window Resize
+		win = $(window).width();
+		if(win>640 && !$("#big-video-wrap")[0]){
+		 	BV = new $.BigVideo();
+			BV.init();
+			BV.show('movie/bg_movie.mp4',{ambient:true},{doLoop:true});
+			float();
+		}else if(win<=640 && $("#big-video-wrap")[0]){
+			BV.remove();
+		}
+		//Slider		
+		if(slickSlide[0]){
+			setTimeout(function(){
+				if(slickSlide.hasClass("slick-initialized")){
+					setOpts();
+					slickSlide.slick('unslick').slick(slickOpts);
+				}else{
+					setOpts();
+					slickSlide.slick(slickOpts);
+				}
+			},500);
+		}
+		//AutoHeight
+	 	$("#closeup").removeAttr("style");
+	 	$("#information").removeAttr("style");
+	 	if(win>640){
+	 		setTimeout(function(){ autoHeight(); },1000);
+	 	}
+	 	//slickHeight
+	 	setTimeout(function(){ slickHeight(); },1000);
+		console.log(win)
+	});
+	$(window).scroll(function(){
+		float();
+	});
+	function float(){
+		st = $(window).scrollTop();
+		if(st>100 && win>640){
+			$("#float").addClass("active");
+		}else{
+			$("#float").removeClass("active");
+		}
+	}
+
+	//Slider Option
+	var slickSlide,slickOpts,mode;
+	slickSlide = $('#closeup .slides');
+	function setOpts(){
+		win = $(window).width();
+		if(win>640){ mode = false; }else{ mode = true; }
+		slickOpts = {
+			fade: mode,
+			speed:600,
+			infinite: true,
+			cssEase: 'ease',
+			autoplay: true,
+			autoplaySpeed: 5000,
+			//draggable: false,
+			swipe: true,
+			arrows:true,
+			dots: false,
+			responsive: true
+		};
+	}
+	var cheight,iHeight,pHeight;
+	function autoHeight(){
+		cHeight = $("#closeup").outerHeight();
+		iHeight = $("#information").outerHeight();
+		if(cHeight>iHeight){
+			$("#information").css({height:cHeight+"px"});
+		}else{
+			$("#closeup").css({height:iHeight+"px"});
+		}
+		
+	}
+	function slickHeight(){
+		pHeight = $("#closeup").width()*0.3183;
+		$(".slick-next").css({top:pHeight+"px"});
+		$(".slick-prev").css({top:pHeight+"px"});
+		$("#closeup .slide").css({height:"auto"});
+		cHeight = $("#closeup .slides").outerHeight();
+		//$("#closeup .slide").css({height:cHeight+"px"});
+	}
+
+});
+</script>
+</head>
+<body>
+
+<div id="float">
+
+<div id="header">
+<div class="inner">
+<div class="logo"><a href="./index.html"><img src="img/h_logo.png" class="pc" alt="大林道路株式会社"/><img src="img/h_logo_sp.png" class="sp" alt="大林道路株式会社"/></a></div>
+<div class="search"><gcse:search></gcse:search></div>
+<div class="contact"><a href="./contact/index.html"><img src="img/h_contact.png" class="pc" alt="お問い合わせ/資料請求"/><img src="img/h_contact_sp.png" class="sp" alt="お問い合わせ/資料請求"/></a></div>
+<div class="lang pc"><a href="./en/index.html"><img src="img/h_lang.png" alt="ENGLISH"/></a></div>
+<div class="menu sp"><img src="img/h_menu.png" alt="MENU"/></div>
+</div>
+</div><!--//header-->
+
+<div id="nav">
+<ul>
+<li id="nav01"><a href="./company/index.html">COMPANY<br /><em>会社情報</em></a></li>
+<li id="nav02"><a href="./technology/index.html">TECHNOLOGY<br /><em>技術情報</em></a></li>
+<li id="nav03"><a href="./technology/construction/index.html">CONSTRUCTION<br /><em>施工事例</em></a></li>
+<li id="nav04"><a href="./ir/index.html">IR INFORMATION<br /><em>投資家の皆様へ</em></a></li>
+<li id="nav05"><a href="./recruit/index.html">RECRUIT<br /><em>採用情報</em></a></li>
+</ul>
+</div><!--//nav-->
+<div id="snav">
+<div id="snav01">
+<div class="nav"><em>会社情報</em></div>
+<ul>
+<li class="sp"><a href="./company/index.html">会社情報一覧</a></li>
+<li><a href="./company/about.html">会社概要</a></li>
+<li><a href="./company/president.html">社長メッセージ</a></li>
+<li><a href="./company/history.html">沿革</a></li>
+<li><a href="./company/idea.html">企業理念</a></li>
+<li><a href="./company/environment.html">CSR</a></li>
+<li><a href="./company/organization.html">組織図</a></li>
+<li><a href="./company/compliance.html">コンプライアンス</a></li>
+<li><a href="./company/network.html">ネットワーク</a></li>
+<li><a href="./company/link.html">リンク集</a></li>
+<li><a href="./company/access.html">アクセス</a></li>
+</ul>
+</div>
+<div id="snav02">
+<div class="nav"><em>技術情報</em></div>
+<ul>
+<li class="sp"><a href="./technology/index.html">技術情報一覧</a></li>
+<li><a href="./technology/tec/search_method.html">一般名称で探す</a></li>
+<li><a href="./technology/index.html#keywords">キーワードで探す</a></li>
+<li><a href="./technology/tec/category_01.html">舗装(一般)</a></li>
+<li><a href="./technology/tec/category_02.html">舗装(景観)</a></li>
+<li><a href="./technology/tec/category_03.html">スポーツ施設</a></li>
+<li><a href="./technology/tec/category_04.html">土木・橋梁</a></li>
+<li><a href="./technology/tec/category_05.html">下水道</a></li>
+<li><a href="./technology/tec/category_06.html">情報化施工関連</a></li>
+<li><a href="./technology/tec/category_07.html">環境対策</a></li>
+<li><a href="./technology/tec/category_08.html">製品情報</a></li>
+<li><a href="./technology/tec/category_09.html">保有機械</a></li>
+<li><a href="./technology/netis.html">NETIS登録技術</a></li>
+<li><a href="./technology/research/discourse.html">技術報論文</a></li>
+</ul>
+</div>
+<div id="snav03"><a href="./technology/construction/index.html" class="nav"><em>施工事例</em></a></div>
+<div id="snav04">
+<div class="nav"><em>投資家の皆様へ</em></div>
+<ul>
+<li><a href="./ir/index.html">IR新着情報</a></li>
+<li><a href="./ir/stockprice.html">株式情報</a></li>
+<li><a href="./ir/meeting.html">株主総会</a></li>
+<li><a href="./ir/plan.html">中期経営計画</a></li>
+<li><a href="./ir/settlement.html">決算情報</a></li>
+<li><a href="./ir/kisoku.html">定款・株式取扱規程</a></li>
+<li><a href="./ir/koukoku/index.html">電子公告</a></li>
+<li><a href="./ir/stockholder.html">株式に関する諸手続き</a></li>
+<li><a href="./ir/memo.html">株主メモ</a></li>
+</ul>
+</div>
+<div id="snav05"><a href="./recruit/index.html" class="nav"><em>採用情報</em></a></div>
+<div id="snav06"><a href="./en/index.html" class="nav"><em>ENGLISH</em></a></div>
+</div><!--//snav-->
+
+</div><!--//float-->
+
+<div id="top">
+
+<div id="main">
+<h1><img src="img/main_copy.png" alt="BUILD&amp;CONNECT 人と街と未来をつなぐ" /></h1>
+</div><!--//main-->
+
+<div id="contents">
+
+<div class="inner">
+
+<div class="section cl">
+<div class="ph">
+<span class="pc"><img src="img/t_road.jpg" alt="" /><em><img src="img/t_road_copy.png" alt=" Connect the road." /></em></span>
+<span class="sp"><img src="img/t_road_sp.jpg" alt="" /><em><img src="img/t_road_copy_sp.png" alt=" Connect the road." /></em></span>
+</div>
+<div class="txt">
+<h2>道をつなぐ。</h2>
+<!--<p>道路舗装で培った<br class="sp">技術力が、<br class="sp">私たちの成長の源です。</p>-->
+<ul class="cl">
+<li><a href="domain/index.html#pickup01"><img src="img/t_road01.png" class="pc" alt="舗装工事" /><img src="img/t_road01_sp.png" class="sp" alt="舗装工事" /></a></li>
+<li><a href="domain/index.html#pickup02"><img src="img/t_road02.png" class="pc" alt="土木工事" /><img src="img/t_road02_sp.png" class="sp" alt="土木工事" /></a></li>
+<li><a href="domain/index.html#pickup03"><img src="img/t_road03.png" class="pc" alt="製品販売" /><img src="img/t_road03_sp.png" class="sp" alt="製品販売" /></a></li>
+</ul>
+<p>大林道路の舗装・土木工事・製品事業</p>
+</div>
+</div>
+
+<div class="section cl">
+<div class="ph">
+<span class="pc"><img src="img/t_city.jpg" alt="" /><em><img src="img/t_city_copy.png" alt="Create a city." /></em></span>
+<span class="sp"><img src="img/t_city_sp.jpg" alt="" /><em><img src="img/t_city_copy_sp.png" alt="Create a city." /></em></span>
+</div>
+<div class="txt">
+<h2>街をつくる。</h2>
+<!--<p>道路舗装で培った<br class="sp">技術力が、<br class="sp">私たちの成長の源です。</p>-->
+<ul class="cl">
+<li><a href="domain/index.html#pickup04"><img src="img/t_city01.png" class="pc" alt="建築工事" /><img src="img/t_city01_sp.png" class="sp" alt="建築工事" /></a></li>
+</ul>
+<p>大林道路の建築事業</p>
+</div>
+</div>
+
+<div class="section cl">
+<div class="ph">
+<span class="pc"><img src="img/t_life.jpg" alt="" /><em><img src="img/t_life_copy.png" alt="Support your life." /></em></span>
+<span class="sp"><img src="img/t_life_sp.jpg" alt="" /><em><img src="img/t_life_copy_sp.png" alt="Support your life." /></em></span>
+</div>
+<div class="txt">
+<h2>暮らしを支える。</h2>
+<!--<p>道路舗装で培った<br class="sp">技術力が、<br class="sp">私たちの成長の源です。</p>-->
+<ul class="cl">
+<li><a href="domain/index.html#pickup05"><img src="img/t_life01.png" class="pc" alt="下水・管更生工事" /><img src="img/t_life01_sp.png" class="sp" alt="下水・管更生工事" /></a></li>
+<li><a href="domain/index.html#pickup06"><img src="img/t_life02.png" class="pc" alt="再生可能エネルギー関連事業" /><img src="img/t_life02_sp.png" class="sp" alt="再生可能エネルギー関連事業" /></a></li>
+</ul>
+<p>大林道路の管更生工事・エネルギー関連事業</p>
+</div>
+</div>
+
+<div class="section cl">
+<div class="ph">
+<span class="pc"><img src="img/t_day.jpg" alt="" /><em><img src="img/t_day_copy.png" alt="Color your days." /></em></span>
+<span class="sp"><img src="img/t_day_sp.jpg" alt="" /><em><img src="img/t_day_copy_sp.png" class="sp" alt="Color your days." /></em></span>
+</div>
+<div class="txt">
+<h2>日々を彩る。</h2>
+<!--<p>道路舗装で培った<br class="sp">技術力が、<br class="sp">私たちの成長の源です。</p>-->
+<ul class="cl">
+<li><a href="domain/index.html#pickup07"><img src="img/t_day01.png" class="pc" alt="スポーツ施設" /><img src="img/t_day01_sp.png" class="sp" alt="スポーツ施設" /></a></li>
+<li><a href="domain/index.html#pickup08"><img src="img/t_day02.png" class="pc" alt="景観工事" /><img src="img/t_day02_sp.png" class="sp" alt="景観工事" /></a></li>
+</ul>
+<p>大林道路のスポーツ施設・景観工事事業</p>
+</div>
+</div>
+
+</div><!--//inner-->
+
+<div id="green">
+<div class="inner cl">
+<div id="pickup">
+<h2>おすすめ情報</h2>
+<ul>
+<li><a href="./technology/pickup.html#pickup03"><img src="img/pickup/001.jpg" alt="" /><span>アイストッパー</span></a></li>
+<li><a href="./technology/pickup.html#pickup02"><img src="img/pickup/002.jpg" alt="" /><span>IRガード</span></a></li>
+</ul>
+<a href="./technology/pickup.html" class="list">PICK UP製品一覧へ</a>
+</div><!--//pickup-->
+<div id="movie">
+<div class="ph"><a href="https://www.youtube.com/channel/UChrK8OLtNNVPl-gEn8fbN1g" title="広報大林道路" target="_blank"><img src="img/t_youtube.png" alt="MOVIE技術動画を公開中！Youtubeのチャンネルへリンクします。" /></a></div>
+<ul class="cl">
+<li><a href="./technology/news/exhibit_index.html"><span>展示会情報</span></a></li>
+<li><a href="./technology/construction/index.html"><span>施工事例</span></a></li>
+</ul>
+</div><!--//movie-->
+</div>
+</div><!--//green-->
+
+<div class="wrap">
+<div class="inner cl">
+
+<div id="closeup">
+<h2>CLOSE UP</h2>
+<!--<a href="http://www.obayashi-road.co.jp/news/close-up/" class="list">一覧へ</a>-->
+<div class="slides cl">
+
+<div class="slide">
+<div class="ph"><img src="http://www.obayashi-road.co.jp/wp-content/uploads/2017/07/東条全景.jpg" alt="" /></div>
+<dl>
+<dt><span class="date">2017.7.26</span><br />大阪支店東条アスファルト混合所　移転いたしました</dt>
+<dd>大阪支店東条アスファルト混合所が移転し、7月24日に火入れ式を執り行いました。 東条アスファルト混合所では周辺 [&hellip;]</dd>
+</dl>
+<a href="http://www.obayashi-road.co.jp/news/others/751.html" class="link">詳しく見る</a>
+</div>
+<div class="slide">
+<div class="ph"><img src="http://www.obayashi-road.co.jp/wp-content/uploads/2017/07/011.jpg" alt="" /></div>
+<dl>
+<dt><span class="date">2017.7.25</span><br />技術研究所へJICA視察団が来訪されました</dt>
+<dd>7月20日に技術研究所において、JICA（国際協力機構）視察団として、中南米各国（メキシコ・ホンジュラス・ニカ [&hellip;]</dd>
+</dl>
+<a href="http://www.obayashi-road.co.jp/news/others/743.html" class="link">詳しく見る</a>
+</div>
+<div class="slide">
+<div class="ph"><img src="http://www.obayashi-road.co.jp/wp-content/uploads/2017/07/M_P1_9364.jpg" alt="" /></div>
+<dl>
+<dt><span class="date">2017.7.18</span><br />風力発電により製造した低炭素水素を燃料電池フォークリフトへ供給する実証事業の本格運用が開始されました</dt>
+<dd>2017年7月12日、横浜市風力発電所（ハマウィング）にて、神奈川県、横浜市、川崎市、トヨタ自動車株式会社、岩 [&hellip;]</dd>
+</dl>
+<a href="http://www.obayashi-road.co.jp/news/others/695.html" class="link">詳しく見る</a>
+</div>
+<div class="slide">
+<div class="ph"><img src="http://www.obayashi-road.co.jp/wp-content/uploads/2017/07/IMG_2485.jpg" alt="" /></div>
+<dl>
+<dt><span class="date">2017.7.13</span><br />全国安全週間に現場パトロールを実施しました</dt>
+<dd>全国安全週間中の７月６日、福本社長が西日本高速道路株式会社様 発注の新名神高速道路 川西舗装工事において現場パ [&hellip;]</dd>
+</dl>
+<a href="http://www.obayashi-road.co.jp/news/others/653.html" class="link">詳しく見る</a>
+</div>
+</div>
+</div><!--//closeup-->
+
+<div id="information">
+<h2>INFORMATION</h2>
+<ul class="list">
+<li><span class="date">2017.8.8</span> <span class="ir">IR情報</span> <a href="http://www.obayashi-road.co.jp/wp-content/uploads/2017/08/1803quarter_report_1.pdf" target="_blank">第87期(平成30年3月期)第1四半期報告書を金融庁に提出しました<img alt="pdf" src="img/ico_pdf.png">[577 KB]</a></li>
+<li><span class="date">2017.8.7</span> <span class="ir">IR情報</span> <a href="http://www.obayashi-road.co.jp/wp-content/uploads/2017/08/1803quarter_1.pdf" target="_blank">平成30年3月期第1四半期決算短信を発表しました<img alt="pdf" src="img/ico_pdf.png">[222 KB]</a></li>
+<li><span class="date">2017.8.4</span> <span class="ir">IR情報</span> <a href="http://www.obayashi-road.co.jp/wp-content/uploads/2017/08/tsuchi_rinji.pdf" target="_blank">臨時株主総会招集ご通知を掲載しました<img alt="pdf" src="img/ico_pdf.png">[351 KB]</a></li>
+<li><span class="date">2017.7.26</span> <span class="others">その他</span> <a href="http://www.obayashi-road.co.jp/news/others/751.html" target="_self">大阪支店東条アスファルト混合所　移転いたしました</a></li>
+<li><span class="date">2017.7.25</span> <span class="others">その他</span> <a href="http://www.obayashi-road.co.jp/news/others/743.html" target="_self">技術研究所へJICA視察団が来訪されました</a></li>
+<li><span class="date">2017.7.18</span> <span class="ir">IR情報</span> <a href="http://www.obayashi-road.co.jp/wp-content/uploads/2017/07/etc17_09.pdf" target="_blank">株式併合並びに単元株式数の定めの廃止及び定款の一部変更に関するお知らせ<img alt="pdf" src="img/ico_pdf.png">[253 KB]</a></li>
+<li><span class="date">2017.7.18</span> <span class="ir">IR情報</span> <a href="http://www.obayashi-road.co.jp/wp-content/uploads/2017/07/etc17_08.pdf" target="_blank">自己株式の消却に関するお知らせ<img alt="pdf" src="img/ico_pdf.png">[94 KB]</a></li>
+<li><span class="date">2017.7.18</span> <span class="others">その他</span> <a href="http://www.obayashi-road.co.jp/news/others/695.html" target="_self">風力発電により製造した低炭素水素を燃料電池フォークリフトへ供給する実証事業の本格運用が開始されました</a></li>
+<li><span class="date">2017.7.13</span> <span class="others">その他</span> <a href="http://www.obayashi-road.co.jp/news/others/653.html" target="_self">全国安全週間に現場パトロールを実施しました</a></li>
+<li><span class="date">2017.6.28</span> <span class="ir">IR情報</span> <a href="http://www.obayashi-road.co.jp/wp-content/uploads/2017/06/valuable_papers86.pdf" target="_blank">第86期（平成29年3月期）有価証券報告書を金融庁に提出しました<img alt="pdf" src="img/ico_pdf.png">[1 MB]</a></li>
+</ul>
+<a href="http://www.obayashi-road.co.jp/news/index.html" class="list">一覧へ</a>
+</div><!--//information-->
+
+</div>
+</div><!--//wrap-->
+
+<div id="bnr">
+<div class="inner">
+<ul class="cl">
+<li><a href="./download/index.html"><img src="img/bnr_download.png" alt="お取引先の皆様へ 請求書ダウンロード" /></a></li>
+<li><a href="http://www.fsw.tv/" target="_blank"><img src="img/bnr_fsw.png" alt="FUJI SPEEDWAY FSW.TV" /></a></li>
+<li><a href="https://www.sportsland-sugo.co.jp/" target="_blank"><img src="img/bnr_sugo.png" alt="SUGO Beyond the Emotion" /></a></li>
+<li><a href="http://www.kenzai-navi.com/" target="_blank"><img src="img/bnr_navi.jpg" alt="建材ナビ" /></a></li>
+</ul>
+</div>
+</div><!--//bnr-->
+
+</div><!--//contents-->
+
+</div><!--//top-->
+
+<div id="footer">
+<div class="inner">
+<div class="logo"><img src="img/f_logo.png" alt="大林道路株式会社" /></div>
+<div class="fnav cl">
+<div class="column">
+<div class="nav"><a href="./company/index.html">会社情報</a></div>
+<ul>
+<li class="sp"><a href="./company/index.html">会社情報一覧</a></li>
+<li><a href="./company/about.html">会社概要</a></li>
+<li><a href="./company/president.html">社長メッセージ</a></li>
+<li><a href="./company/history.html">沿革</a></li>
+<li><a href="./company/idea.html">企業理念</a></li>
+<li><a href="./company/environment.html">CSR</a></li>
+<li><a href="./company/organization.html">組織図</a></li>
+<li><a href="./company/compliance.html">コンプライアンス</a></li>
+<li><a href="./company/network.html">ネットワーク</a></li>
+<li><a href="./company/link.html">リンク集</a></li>
+<li><a href="./company/access.html">アクセス</a></li>
+</ul>
+</div>
+<div class="column">
+<div class="nav"><a href="./technology/index.html">技術情報</a></div>
+<ul>
+<li class="sp"><a href="./technology/index.html">技術情報一覧</a></li>
+<li><a href="./technology/tec/search_method.html">一般名称で探す</a></li>
+<li><a href="./technology/index.html#keywords">キーワードで探す</a></li>
+<li><a href="./technology/tec/category_01.html">舗装(一般)</a></li>
+<li><a href="./technology/tec/category_02.html">舗装(景観)</a></li>
+<li><a href="./technology/tec/category_03.html">スポーツ施設</a></li>
+<li><a href="./technology/tec/category_04.html">土木・橋梁</a></li>
+<li><a href="./technology/tec/category_05.html">下水道</a></li>
+<li><a href="./technology/tec/category_06.html">情報化施工関連</a></li>
+<li><a href="./technology/tec/category_07.html">環境対策</a></li>
+<li><a href="./technology/tec/category_08.html">製品情報</a></li>
+<li><a href="./technology/tec/category_09.html">保有機械</a></li>
+<li><a href="./technology/netis.html">NETIS登録技術</a></li>
+<li><a href="./technology/research/discourse.html">技術報論文</a></li>
+</ul>
+<div class="nav"><a href="./technology/construction/index.html">施工事例</a></div>
+</div>
+<div class="column">
+<div class="nav"><a href="./ir/index.html">投資家の皆様へ</a></div>
+<ul>
+<li><a href="./ir/index.html">IR新着情報</a></li>
+<li><a href="./ir/stockprice.html">株式情報</a></li>
+<li><a href="./ir/meeting.html">株主総会</a></li>
+<li><a href="./ir/plan.html">中期経営計画</a></li>
+<li><a href="./ir/settlement.html">決算情報</a></li>
+<li><a href="./ir/kisoku.html">定款・株式取扱規程</a></li>
+<li><a href="./ir/koukoku/index.html">電子公告</a></li>
+<li><a href="./ir/stockholder.html">株式に関する諸手続き</a></li>
+<li><a href="./ir/memo.html">株主メモ</a></li>
+</ul>
+<div class="nav"><a href="./recruit/index.html">採用情報</a></div>
+</div>
+<div class="column">
+<ul class="flink">
+<li><a href="./news/index.html">お知らせ一覧</a></li>
+<li><a href="./download/index.html">請求書ダウンロード</a></li>
+<li><a href="./contact/index.html">お問い合わせ</a></li>
+<li><a href="./site/about.html">このサイトについて</a></li>
+<li><a href="./site/privacy.html">プライバシーポリシー</a></li>
+</ul>
+</div>
+</div><!--//fnav-->
+<p class="copy">Copyright&copy;2017 OBAYASHI ROAD CORPORATION All Rights Reserved.</p>
+</div>
+</div><!--//footer-->
+
+<div class="page-back"><a href="#header"><img src="img/btn_top.png"/></a></div>
+
+</body>
+</html>

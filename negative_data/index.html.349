@@ -1,0 +1,225 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ja">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta http-equiv="Content-Script-Type" content="text/javascript">
+	<meta http-equiv="Content-Style-Type" content="text/css">
+	<META HTTP-EQUIV="Expires" CONTENT="Mon, 04 Dec 1999 21:29:02 GMT">
+	<META HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE">
+	<meta http-equiv="Cache-Control" content="no-cache">
+	<meta http-equiv="X-UA-Compatible" content="IE=9">
+	
+	<title>株式会社アルテ サロン ホールディングス</title>
+	<meta name="description" content="株式会社アルテサロンホールディングスは、株式会社アッシュ、株式会社ニューヨーク・ニューヨークを完全子会社として傘下に置く、美容業界のリーディングカンパニーです。">
+	<meta name="keywords" content="株式会社アルテ サロン ホールディングス,株式会社アッシュ,株式会社ニューヨーク・ニューヨーク,美容室,Ash,Ａｓｈ,アッシュ,ｱｯｼｭ,Bees,Ｂｅｅｓ,ビーズ,ﾋﾞｰｽﾞ,etra,ｅｔｒａ,エトゥーラ,ｴﾄｩｰﾗ,ZOX,ＺＯＸ,ゾックス,ｿﾞｯｸｽ,ＮＹＮＹ,NYNY,ヘアスタイル,東京,千葉,神奈川,茨城,大阪,京都,関西,IR,リクルート">
+	
+	<link rel="stylesheet" href="common/css/import.css" type="text/css">
+	<link rel="stylesheet" href="common/css/print.css" type="text/css" media="print">
+	
+	<link rel="contents" href="/sitemap/index.html" title="サイトマップ">
+	<link rev="made" href="http://www.arte-hd.com/" title="株式会社 アルテ サロン ホールディングス">
+
+	<style type="text/css">
+	<!--
+		/* ニュースリリースのカテゴリ背景色 */
+		.news-topics dt span.other { background: #797979; }
+		.news-topics dt span.results { background: #FF1F00; }
+		.news-topics dt span.ir { background: #B01100; }
+		.news-topics dt span.pr { background: #ff1493; }
+		
+		/* グループ企業情報の背景色 */
+		.group-info-topics dt span.ash { background: #2256AA; }
+		.group-info-topics dt span.nyny { background: #000000; }
+		.group-info-topics dt span.style_designer { background: #F4911C; }
+	 .group-info-topics dt span.essensuals { background: #003576; }
+		.group-info-topics dt span.amg { background: #F4911C;}
+		.group-info-topics dt span.etra { background: #000000;}
+		.group-info-topics dt span.Arte_Straits { background: #deb887;}
+	-->
+	</style>
+
+<!-- E-IR Parts -->
+<script type="text/javascript" src="ir/eir/eir.js" charset="utf-8"></script> 
+<script type="text/javascript">
+<!--
+var eirUrl = ('https:' == document.location.protocol ? 'https://ssl4' : 'http://v4') + '.eir-parts.net';
+if(document.location.protocol == 'https:' || document.location.protocol == 'http:'){
+	var eirPass = eirUrl + '/Custom/public/parts/' + eirCode + '/';
+}else{
+	var eirPass = 'ir/';
+}
+document.write(unescape("%3Clink rel='stylesheet' href='" + eirPass + "ja/parts/css/main.css' type='text/css'%3E%3C/link%3E"));
+document.write(unescape("%3Clink rel='stylesheet' href='" + eirPass + "ja/parts/css/tab_change_t.css' type='text/css'%3E%3C/link%3E"));
+document.write(unescape("%3Clink rel='alternate' href='" + eirUrl + "/V4Public/EIR/" + eirCode + "/ja/announcement/announcement_2.xml' type='application/rss+xml'%3E%3C/link%3E"));
+-->
+</script>
+<!-- /E-IR Parts -->
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+<script type="text/javascript">
+$(function(){
+    var setImg = '#viewer';
+    var fadeSpeed = 1500;
+    var switchDelay = 4000;
+ 
+    $(setImg).children('img').css({opacity:'0'});
+    $(setImg + ' img:first').stop().animate({opacity:'1',zIndex:'20'},fadeSpeed);
+ 
+    setInterval(function(){
+        $(setImg + ' :first-child').animate({opacity:'0'},fadeSpeed).next('img').animate({opacity:'1'},fadeSpeed).end().appendTo(setImg);
+    },switchDelay);
+
+	viewer_r = $("#viewer_r"); 
+	viewer_r.fadeIn(1500);
+});
+</script>
+<style type="text/css">
+<!--
+#top-viewer{
+	background:#003466;
+	height:310px;
+}
+#viewer {
+	float:left;
+	width: 491px;
+	height: 310px;
+	overflow: hidden;
+	position: relative;
+}
+
+#viewer img {
+	top: 0;
+	left: 0;
+	position: absolute;
+}
+#viewer_r{
+	float:left;
+	display:none;
+}
+-->
+</style>
+</head>
+
+<body id="top">
+
+<div id="wrapper">
+	
+	<div id="header">
+		<h1><a href="http://www.arte-hd.com/"><img src="common/images/logo.gif" alt="株式会社 アルテ サロン ホールディングス" width="378" height="51"></a></h1>
+		<p id="language-switch_c"><a href="http://www.ash-global.com" target="_blank"><img src="common/images/btn_chinese.gif" alt="中文" width="47" height="11"></a></p>
+		<p id="language-switch"><a href="/english/"><img src="common/images/btn_english.gif" alt="English" width="47" height="11"></a></p>
+		<ul id="assist-navigation"><!--
+        --><li><a href="../recruitment/index.html">店舗物件情報募集</a></li><!--
+			--><li><a href="inquiry/index.php">お問い合わせ</a></li><!--
+			--><li><a href="privacy/index.html">プライバシーポリシー</a></li><!--
+			--><li><a href="sitemap/index.html">サイトマップ</a></li><!--
+		--></ul>
+		<ul id="main-navigation"><!--
+			--><li class="topics"><a href="topics/index.html">最新情報</a></li><!--
+			--><li class="company"><a href="company/index.html">会社案内</a></li><!--
+			--><li class="business"><a href="business/index.html">事業内容</a></li><!--
+			--><li class="ir"><a href="ir/index.html">IR情報</a></li><!--
+			--><li class="recruit"><a href="recruit/index.html">採用情報</a></li><!--
+			--><li class="access"><a href="access/index.html">アクセス</a></li><!--
+		--></ul>
+	</div>
+	<!-- / #header -->
+	
+	<div id="top-viewer">
+      <div id="viewer">
+	    <img src="common/images/top/top_image_l1.jpg" width="491" height="310">
+        <img src="common/images/top/top_image_l2.jpg" width="491" height="310">
+        <img src="common/images/top/top_image_l3.jpg" width="491" height="310">
+        <img src="common/images/top/top_image_l4.jpg" width="491" height="310">
+        <img src="common/images/top/top_image_l5.jpg" width="491" height="310">
+      </div>
+      <div id="viewer_r">
+        <img src="common/images/top/top_image_r.jpg" width="384" height="310">
+      </div>
+    </div>
+   
+	<div id="contents-wrapper">
+     <div class="group-link">
+    <h3><img src="common/images/h_group.gif" width="66" height="11" alt="グループ企業"></h3>
+    <ul>
+    <li><a href="http://www.nyny.co.jp/" target="_blank"><img src="common/images/top_group_nyny.gif" width="164" height="64" alt="株式会社ニューヨーク・ニューヨーク"></a></li>
+    <li><a href="http://www.styledesigner.net/" target="_blank"><img src="common/images/top_group_sd.gif" width="164" height="64" alt="株式会社スタイルデザイナー"></a></li>
+	<li><a href="http://www.ash-hair.com/" target="_blank"><img src="common/images/top_group_ash.gif" width="164" height="64" alt="株式会社アッシュ"></a></li>
+	<li><a href="http://www.diamond-eyes.net/" target="_blank"><img src="common/images/top_group_de.gif" width="164" height="64" alt="株式会社ダイヤモンドアイズ"></a></li>
+	<li><a href="http://www.coiff1rst.jp/" target="_blank"><img src="common/images/top_group_cfj.gif" width="164" height="64" alt="株式会社シーエフジェイ"></a></li>
+    </ul>	
+    </div>
+	<!-- / #top-group -->	
+	  <div id="contents">
+<h3 style="margin-top:1.5em;"><img src="topics/images/h_news2.gif" alt="ニュースリリース" width="83" height="12"></h3>
+<p class="rssfeed">
+
+<script type="text/javascript">
+<!--
+document.write(unescape("%3Ca href='" + eirUrl + "/V4Public/EIR/" + eirCode + "/ja/announcement/announcement_2.xml' target='blank'%3E%3Cimg src='common/images/icon_rss.jpg' alt='RSS' width='34' height='15'  border='0' align='absmiddle'%3E%3C/a%3E"));
+-->
+</script>
+<!-- E-IR Parts -->
+<div id="ir_library">
+<div id="yearList"></div>
+<div id="nav_001" style="border-bottom:1px solid #ccc;">
+    <ul id="tab">
+        <li id="top_nav01"><a href="javascript:void(0)" onClick="TabLink_onclick('newt',0);return false;" class="selected">ニュースリリース</a></li>
+        <li id="top_nav02"><a href="javascript:void(0)" onClick="TabLink_onclick('ir',1);return false;">IR情報</a></li>
+        <li id="top_nav03"><a href="javascript:void(0)" onClick="TabLink_onclick('pr',2);return false;">PR情報</a></li>
+        <li id="top_nav04"><a href="javascript:void(0)" onClick="TabLink_onclick('gr',3);return false;">グループ情報</a></li>
+    </ul>
+</div>
+<div id="announcement">
+<div id="divDataArea"></div>
+<script type="text/javascript">
+<!--	
+document.write(unescape("%3Cscript src='" + eirPass + "ja/parts/corptop.js' charset='utf-8' type='text/javascript'%3E%3C/script%3E"));
+-->
+</script>
+<script type="text/javascript">
+<!--	
+if(typeof org_data == 'undefined'){
+	document.write(message3)
+}
+-->
+</script>
+</div>                
+</div>
+<!-- /E-IR Parts -->
+
+	  </div>
+		<!-- / #contents -->
+</div>
+	<!-- / #contents-wrapper -->
+
+    <ul>
+    <li>
+      <div align="center">
+      	<div style="width:285px; float:left; margin-left:5px;"><a href="http://ash-hair.com/news/list/category/%E3%83%9F%E3%82%B9%E3%83%BB%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%8A%E3%82%B7%E3%83%A7%E3%83%8A%E3%83%AB-x-ash/" target="_blank"><img src="common/images/miss-arte2_s.jpg" width="285" height="170" alt="ミス・インターナショナルNEWS"></a></div>
+        <div style="width:285px; float:left; margin-left:5px;"><a href="https://www.miss-international.org/jp/" target="_blank"><img src="common/images/missJ_s.png" width="285" height="84" alt="ミス・インターナショナル日本大会" style="margin-bottom:5px;"></a><a href="https://www.miss-international.org/" target="_blank"><img src="common/images/missW_s.png" width="285" height="84" alt="ミス・インターナショナル世界大会"></a></div>
+      <div style="width:285px; float:left; margin-left:5px;"><a href="/recruitment/index.html"><img src="common/images/tenpo.jpg" width="285" height="170" alt="店舗物件情報募集"></a></div>
+      <br style="clear:both;">
+      </div>
+    </li>
+	</ul>	
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+	<p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+
+	<!-- / #top-group -->
+
+	<div id="footer">
+		<p class="credit">Copyright&copy; Arte Salon Holdings,Inc. All Rights Reserved.</p>
+		<p class="e-notify">｜<a href="http://kmasterplus.pronexus.co.jp/main/corp/2/4/2406/index.html" target="_blank"><font color="#CCCCCC">電子公告</font></a>｜</p>
+	</div>
+	<!-- / #footer -->
+
+<!-- / #wrapper -->
+</div>
+	
+</body>
+</html>

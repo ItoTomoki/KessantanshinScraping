@@ -1,0 +1,478 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja"><!-- InstanceBegin template="/Templates/common.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<meta name="google-site-verification" content="bIjc3hfJwN26pm897nIsFDbASODvI-3es-R0q1XX0hQ" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<title>株式会社 協和エクシオ</title>
+<!-- InstanceEndEditable -->
+<link href="css/common.css" rel="stylesheet" type="text/css" />
+<link href="css/styles.css" rel="stylesheet" type="text/css" />
+<link href="css/styles_print.css" rel="stylesheet" type="text/css" media="print" />
+<!-- InstanceBeginEditable name="css" -->
+<link href="css/slide.css" rel="stylesheet" type="text/css" />
+<!-- InstanceEndEditable -->
+<link href="css/font-default.css" title="Default" rel="alternate stylesheet" type="text/css" />
+<link href="css/font-small.css" title="Small" rel="alternate stylesheet" type="text/css" />
+<link href="css/font-large.css" title="Large" rel="alternate stylesheet" type="text/css" />
+<link rel="stylesheet" href="http://www.google.com/cse/style/look/default.css" type="text/css" />
+<script type="text/javascript" src="js/fontswitch.js"></script>
+<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+<script type="text/javascript">google.load("jquery", "1.6.1");</script>
+<script type="text/javascript" src="js/openwindow-kabuka.js"></script>
+<script type="text/javascript" src="js/cpanel/SpryDOMUtils.js"></script>
+<script type="text/javascript" src="js/cpanel/SpryCollapsiblePanel.js"></script>
+<!-- InstanceBeginEditable name="script" -->
+<script type="text/javascript" src="js/swfobject.js"></script>
+<script type="text/javascript" src="js/tooltip.js"></script>
+
+<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="js/slide.js"></script>
+
+<script type="text/javascript">
+<!--
+// 機種取得
+if ((navigator.userAgent.indexOf('iPhone') >= 0 && navigator.userAgent.indexOf('iPad') == -1) ||
+	 navigator.userAgent.indexOf('iPod') >= 0 ||
+	(navigator.userAgent.indexOf('Android') >= 0 && navigator.userAgent.indexOf('Mobile') >= 0 && navigator.userAgent.indexOf('SC-01C') == -1) ||
+	 navigator.userAgent.indexOf('BlackBerry') >= 0 ||
+	 navigator.userAgent.indexOf('IEMobile') >= 0
+   ) {
+	device = "SP";
+} else {
+	device = "PC";
+}
+//alert("device=[" + device + "]");
+
+// パラメータ取得
+url = document.URL;
+pos = url.indexOf("?");
+len = url.Length;
+param = "";
+// URLにパラメータあり
+if ((pos > -1) && (pos+1 != len)){
+	wk1 = url.substring(pos+1, len);
+	//alert("wk1="+wk1);
+	array = wk1.split("&");
+	// パラメータ数回繰り返し
+	for(i in array) {
+		//alert("i="+i);
+		wk2 = array[i].split("=");
+		// siteFlgパラメータ抽出
+		if (wk2[0] == "siteFlg") {
+			param = wk2[1];
+			//alert("siteFlg="+param);
+			break;
+		}
+	}
+}
+//alert("param=[" + param + "]");
+
+// cookie更新可否判定
+cookieEnabled = navigator.cookieEnabled;
+
+// cookie値取得
+theName = "siteFlg" + "=";
+cookie = "";
+if (cookieEnabled) {
+	theCookie = document.cookie + ";";
+	startPos = theCookie.indexOf(theName);
+	// cookie値あり
+	if (startPos != -1) {
+		endPos = theCookie.indexOf(";", startPos);
+		// alert("endPos="+endPos);
+		// alert("theName.length="+theName.length);
+		if (endPos != -1) {
+			cookie = theCookie.substring((startPos + theName.length), endPos);
+		}
+	}
+}
+//alert("cookie=[" + cookie + "]");
+
+// cookie有効期間算出（30分後）
+setDay = new Date();
+setDay.setTime(setDay.getTime() + 30*60*1000);
+expDay = setDay.toGMTString();
+//alert("expDay=" + expDay);
+
+// 振り分け先確定
+siteFlg = device;
+if (device != "PC") {
+	// パラメータあり
+	if (param != "") {
+		siteFlg = param;
+		// cookie更新
+		if (cookieEnabled) {
+			document.cookie = "siteFlg=" + param + ";expires=" + expDay;
+		}
+		//alert("スマホ用画面に戻るには、戻るボタン押下、または、cookieの削除を実施してください。");
+	// パラメータなし
+	} else {
+		if (cookieEnabled) {
+			// cookieあり
+			if (cookie != "") {
+				siteFlg = cookie;
+			// cookieなし
+			} else {
+				// cookie更新
+				document.cookie = "siteFlg=" + device + ";expires=" + expDay;
+			}
+		}
+	}
+}
+// スマホ用URLへ遷移
+if (siteFlg == "SP") {
+	location.replace("sp/index.html");
+}
+-->
+</script>
+<!-- Google Analytics -->
+<script type="text/javascript" src="js/analyticstracking.js"></script>
+<!-- End Google Analytics -->
+<!-- InstanceEndEditable -->
+
+<!-- InstanceParam name="id" type="text" value="home" -->
+</head>
+
+<body id="home">
+<a id="top" name="top"></a>
+
+
+		<div id="header">
+
+			<div id="headerTop" class="clearfix">
+
+				<div id="headerTopL">
+
+					<div id="logo"><a href="index.html"><img src="img/logo.png" alt="株式会社 協和エクシオ" title="株式会社 協和エクシオ" width="334" height="33" /></a>
+					</div>
+
+				</div><!--/ L -->
+
+				<div id="headerTopR">
+
+
+					<table id="ue">
+					<tr><td>
+					<div id="option">
+
+						<ul>
+							<li class="box"><a href="index.html">HOME</a></li>
+							<li class="sep"><a href="sitemap.html">サイトマップ</a></li>
+							<li class="sep"><a href="info/check.html" target="_blank">お問い合わせ</a></li>
+							<li id="end"><a href="overseas/index.html">English</a></li>
+
+						</ul>
+
+						<ul id="font_switch">
+							<li id="sizeText">文字サイズ</li><li id="font_S"><a href="#" onclick="setActiveStyleSheet('Small'); return false;" onkeypress="setActiveStyleSheet('Small'); return false;" class="small" title="文字サイズ：小"><span>小</span></a></li><li id="font_M"><a href="#" onclick="setActiveStyleSheet('Default'); return false;" onkeypress="setActiveStyleSheet('Default'); return false;" class="def" title="文字サイズ：中"><span>中</span></a></li><li id="font_L"><a href="#" onclick="setActiveStyleSheet('Large'); return false;" onkeypress="setActiveStyleSheet('Large'); return false;" class="large" title="文字サイズ：大"><span>大</span></a></li>
+
+						</ul>
+					<!-- end #option --></div>
+
+					</td></tr>
+					<tr><td>
+
+<!-- googleカスタム検索 -->
+<div id="cse-search-form">Loading</div>
+<script src="http://www.google.com/jsapi" type="text/javascript"></script>
+<script type="text/javascript"> 
+  google.load('search', '1', {language : 'ja'});
+  google.setOnLoadCallback(function() {
+    var customSearchOptions = {};
+    customSearchOptions['adoptions'] = {'layout': 'noTop'};
+    var customSearchControl = new google.search.CustomSearchControl(
+      '008341321197657498630:x-wah1hchbu', customSearchOptions);
+    customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
+    var options = new google.search.DrawOptions();
+    options.enableSearchboxOnly("http://www.exeo.co.jp/search.html");
+    customSearchControl.draw('cse-search-form', options);
+  }, true);
+</script>
+
+<!-- / googleカスタム検索 -->
+
+
+					</td></tr>
+					</table>
+
+				</div><!--/ R -->
+				
+
+			<!-- end #headerTop --></div>
+
+			<div id="gnaviBg">
+			<div id="gnavi" class="clearfix">
+
+					<ul>
+						<li><a href="news/index.html" class="gnavi1"><span>ニュースリリース</span></a></li>
+						<li><a href="company/index.html" class="gnavi2"><span>会社情報</span></a></li>
+						<li><a href="jigyou/index.html" class="gnavi3"><span>事業案内</span></a></li>
+						<li><a href="ir/index.html" class="gnavi4"><span>IR情報</span></a></li>
+						<li><a href="csr/index.html" class="gnavi5"><span>CSR活動</span></a></li>
+						<li><a href="recruit/index.html" class="gnavi6"><span>採用情報</span></a></li>
+				</ul>
+			<!-- end #gnavi --></div>
+			</div>
+
+			<div id="pan_navi">
+<!-- InstanceBeginEditable name="PanNavi" -->
+<!-- InstanceEndEditable -->
+			<!-- end #pan_navi --></div>
+
+			<!-- InstanceBeginEditable name="widthMaxContents" -->
+
+       <div id="headerFlashBg">
+
+        <!--=====  flash挿入部分 ↓  =====-->
+        <div id="headerFlash">
+            <script type="text/javascript" src="js/swfobject.js"></script>
+                <!--==flash非対応用画像挿入==-->
+								<img src="img/noflash.png" alt="" name="noflash" width="981" height="335" usemap="#flashmenu" id="noflash" />
+								<map name="flashmenu" id="flashmenu">
+									<area shape="rect" coords="740,293,979,334" href="jigyou/si-top.html" alt="システム インテグレーション" />
+									<area shape="rect" coords="492,293,732,334" href="jigyou/ni-top.html" alt="ネットワーク インテグレーション" />
+									<area shape="rect" coords="247,293,488,334" href="jigyou/ddki-top.html" alt="電気・土木・環境インフラ事業" />
+									<area shape="rect" coords="1,293,240,334" href="jigyou/ti-top.html" alt="通信インフラ事業" />
+								</map>
+						<script type="text/javascript">
+                var so = new SWFObject("swf/index.swf?1", "ssp", "981", "335", "9", "#FFFFFF");
+                so.write("headerFlash");
+            </script>
+        </div>
+        <!--=====  flash挿入部分 ↑  =====-->
+
+			<!-- end #headerFlashBg --></div>
+
+
+			<!-- InstanceEndEditable -->
+
+		<!-- end #header --></div>
+
+
+
+
+
+<div id="contents">
+
+
+
+		<div id="main" class="clearfix">
+
+<!-- InstanceBeginEditable name="Main" -->
+
+		<div id="homeMain">
+
+			<div class="grid2i clearfix">
+
+					<div class="firstGrid">
+	
+						<div class="slide">
+<!-- ▼ スライダー表示画像 -->
+
+<!-- 
+							<div><a href="jigyou/***/***.html"><img src="img-slide/***.jpg" width="226" height="140" alt="***" /></a></div>
+
+  -->
+
+							<div><a href="jigyou/ni-img/ds.html"><img src="img-slide/ds.jpg" width="226" height="140" alt="小型から大型まで目的に応じた映像や情報を表示する　デジタルサイネージ（電子看板）" /></a></div>
+							<div><a href="jigyou/ni-sense/nougyou.html"><img src="img-slide/nougyou.jpg" width="226" height="140" alt="遠隔地の作物もらくらく把握　農業の効率化・省力化を図る　農業ICTソリューション" /></a></div>
+							<div><a href="jigyou/nd/hrngimprd.html"><img src="img-slide/hrngimprd.jpg" width="226" height="140" alt="「光」と「文字」で災害発生情報を表示　聴覚障がい者向け緊急避難情報通知サービス" /></a></div>
+							<div><a href="jigyou/kobetsu/extravel.html"><img src="img-slide/extravel.jpg" width="226" height="140" alt="「観光」と「防災」がオールインワン！ 自治体向けスマートフォンアプリ　EXTravel" /></a></div>
+							<div><a href="jigyou/nd/refugepvsb.html"><img src="img-slide/refugepvsb.jpg" width="226" height="140" alt="災害による電力遮断時にも最低限の機能を維持する電源を確保　太陽光と蓄電池を活用した避難所等の防災対策" /></a></div>
+							<div><a href="jigyou/ni-office/relocation.html"><img src="img-slide/relocation.jpg" width="226" height="140" alt="現場力と技術力により、効率的なICT移転を実現します　ICT移転おまかせサービス" /></a></div>
+							<div><a href="jigyou/ni-wifi/gonet.html"><img src="img-slide/gonet.jpg" width="226" height="140" alt="電波到達距離6倍!　GoNET SYSTEMS製 GoBeamシリーズ　長距離伝送可能な無線LAN" /></a></div>
+							<div><a href="jigyou/ni-office/nwmultipleworks.html"><img src="img-slide/nwmultipleworks.jpg" width="226" height="140" alt="竏驤 全国・小規模・多拠点　複合型工事 竏秩@ネットワーク複合型工事おまかせソリューション" /></a></div>
+							<div><a href="jigyou/ni-sec/tc.html"><img src="img-slide/tc.jpg" width="226" height="140" alt="情報漏洩を徹底撲滅。明日から実現する高セキュリティーソリューション　端末仮想化で高セキュリティー対策" /></a></div>
+							<div><a href="jigyou/ni-server/dark.html"><img src="img-slide/dark.jpg" width="226" height="140" alt="安価な高速・大容量回線を導入することができます　ダークファイバ光専用サービス" /></a></div>
+							<div><a href="jigyou/ni-server/hardwarefab.html"><img src="img-slide/hardwarefab.jpg" width="226" height="140" alt="オーダーメイドで最適な金物、部材、架台等を製作いたします　システムインテグレーション向けの各種金物類の設計製作" /></a></div>
+							<div><a href="jigyou/ni-img/mlcamera.html"><img src="img-slide/mlcamera.jpg" width="226" height="140" alt="街の防犯・監視を目的としたカメラシステムです　商店街監視カメラ" /></a></div>
+							<div><a href="jigyou/ni-server/unyou.html"><img src="img-slide/unyou.jpg" width="226" height="140" alt="24時間365日ノンストップでサポートいたします。　運用・監視・保守" /></a></div>
+<!-- ▲ スライダー表示画像 -->
+						</div>
+
+<!-- ▼ スライダー 設定 -->				
+
+<script type="text/javascript">
+$('.slide').slick({
+  slidesToShow: 3, // 表示枚数
+  slidesToScroll: 1, // スライド枚数
+  autoplay: true,
+  autoplaySpeed: 5000, //停止時間
+		speed: 1000 // 移動時間
+});
+</script>
+
+<!-- ▲ スライダー 設定 -->				
+					
+					<!-- /firstGrid --></div>
+					<div class="lastGrid">
+						<a href="topics.html" target="_blank"><img src="img/link_topics.png" alt="トピックス　最新の当社情報をお伝えします。　一覧はこちら" width="244" height="140" /></a>
+				<!-- /lastGrid --></div>
+				<!-- /column --></div>
+
+			<div class="grid2 clearfix">
+
+				<div class="firstGrid">
+
+					<div id="kabukaInfo"> <a href="http://stocks.finance.yahoo.co.jp/stocks/detail/?code=1951.T" target="_blank"><img src="img/btn_kabuka.png" width="234" height="45" alt="リアルタイム株価情報"/></a>
+						東証一部：1951
+
+					<!-- end #kabukaInfo --></div>
+
+
+					<div id="update">
+
+						<div id="titleArea">
+
+							<h2>新着情報</h2>
+							<p id="rss"><a href="RSS/index.xml" target="_blank"><img src="img/btn_rss.png" alt="RSS" width="27" height="13" /></a></p>
+							<p id="ichiran">&gt; <a href="update-log.html" target="_blank">一覧</a></p>
+						<!-- /titleArea --></div>
+
+						<!-- ▼新着情報 インラインフレーム -->
+						
+						<iframe src="update.html" frameborder="0" scrolling="auto">
+						</iframe>
+
+						<!-- ▲新着情報 インラインフレーム -->
+
+
+					<!-- end #update --></div>
+
+
+					<div id="shoukai" class="clearfix">
+					
+						<dl>
+							<dt>さまざまなツールで企業活動をご紹介します。</dt>
+							<dd>協和エクシオの企業活動をより総合的にご理解いただくために、下記のツールを発行しております。</dd>
+							<dd>
+								<ul>
+									<li id="tip1Link"><a href="ir/siryou/a-report.html"><img src="img/top_shoukai01.png" alt="CORPORATE REPORT" width="110" height="180" class="tooltip" name="tip1"  /></a></li>
+
+									<li id="tip4Link"><img src="img/top_shoukai04.png" alt="Webサイト（スマートフォン対応）" width="110" height="180" class="tooltip" name="tip4" />	</li>
+
+									<li id="tip3Link"><a href="jigyou/index.html"><img src="img/top_shoukai03.png" alt="会社案内" width="110" height="180" class="tooltip" name="tip3" /></a></li>
+
+									<li id="tip2Link"><a href="jigyou/index.html"><img src="img/top_shoukai02.png" alt="CORPORATE GUIDE" width="110" height="180" class="tooltip" name="tip2" /></a></li>
+								</ul>
+								</dd>
+							</dl>
+
+					<!-- /shoukai --></div>
+
+				<!-- popup -->
+				<div id="shoukai_tip">
+
+					<div id="tip1" class="tooltipText"><!-- CORPORATE REPORT -->
+						<p>エクシオグループの事業内容、財務情報、CSR活動などをお伝えします。</p>
+					</div>
+					<div id="tip4" class="tooltipText"><!-- Webサイト -->
+						<p>スマートフォンからも当社のコーポレートサイトをご覧いただけます。</p>
+					</div>
+					<div id="tip3" class="tooltipText"><!-- 会社案内 -->
+						<p>協和エクシオの事業内容を中心に基本的な情報をわかりやすくお伝えします。</p>
+					</div>
+					<div id="tip2" class="tooltipText"><!-- CORPORATE GUIDE -->
+						<p>協和エクシオの事業内容を中心に基本的な情報をわかりやすくお伝えします。</p>
+					</div>
+
+				<!-- /shoukai_tip --></div>
+
+				<!-- /popup -->
+
+
+
+
+
+				<!-- /firstGrid --></div>
+				<div class="lastGrid">
+
+
+					<ul id="link2" class="clearfix">
+						<li><a href="info/exeo.html" ><img src="img/link_about.png" alt="早わかり！ 協和エクシオ　社会で、街で、私たちの生活の中で、協和エクシオがどのような仕事を行っているか、ご紹介いたします。" width="244" height="235" /></a></li>
+
+						<li><a href="http://www.gender.go.jp/c-challenge/"><img src="img/link_kyoudousankakukyoku.png" alt="内閣府男女共同参画局 チャレンジ・キャンペーン　女子高校生・女子学生の理工系分野への選択" width="244" height="93" /></a></li>
+						<li><a href="ir/kabu/koukoku.html"><img src="img/link_koukoku.png" alt="電子公告 当社は、定款の規定により公告方法を電子公告としております。" width="244" height="90" /></a></li>
+						<li><img src="img/kurumin_mark.jpg" alt="当社は、子育てサポート企業として「くるみんマーク」を取得しました。" width="238" height="81" /></li>
+						<li><img src="img/eruboshi.jpg" alt="当社は、女性活躍推進法に基づく「えるぼし」企業として認定されました。" width="238" height="81" /></li>
+					</ul>
+
+				<!-- /lastGrid --></div>
+
+			<!-- /column --></div>
+
+
+		<!-- end #homeMain --></div>
+
+
+
+		<div id="spSite" style="display:none" ><a href="sp/index.html?siteFlg=SP" id="toSP" style="color: white;">スマホ版サイトへ</a></div>
+		<script type="text/javascript">
+		<!--
+			// 機種取得
+			if ((navigator.userAgent.indexOf('iPhone') >= 0 && navigator.userAgent.indexOf('iPad') == -1) ||
+				 navigator.userAgent.indexOf('iPod') >= 0 ||
+				(navigator.userAgent.indexOf('Android') >= 0 && navigator.userAgent.indexOf('Mobile') >= 0 && navigator.userAgent.indexOf('SC-01C') == -1) ||
+				 navigator.userAgent.indexOf('BlackBerry') >= 0 ||
+				 navigator.userAgent.indexOf('IEMobile') >= 0
+			   ) {
+					device = "SP";
+			} else {
+					device = "PC";
+			}
+			// スマホ用URLへ遷移するブロックの可視化（スマホからのアクセス時のみ表示）
+			if (device == "SP") {
+				document.getElementById("toSP").style.display="";
+			}
+		-->
+		</script>
+
+
+
+<!-- InstanceEndEditable -->
+
+
+
+		<!-- end #main --></div>
+
+				<p class="gototop"><a href="#top">&#x25B6;ページトップへ</a></p>
+
+		<div id="footer">
+
+
+			<div class="grid3footer clearfix">
+				<div class="first">
+
+					<p id="goAdobe">
+						<a href="http://www.adobe.co.jp/products/acrobat/readstep2.html" target="_blank">PDFをご覧頂くには、Adobe Readerが必要です</a>
+					</p>
+
+				<!-- /first --></div>
+				<div class="second">
+
+					<ul id="navi">
+						<li class="sep"><a href="company/ppolicy.html">プライバシーポリシー</a></li>
+						<li><a href="info/index.html">サイト利用について</a></li>
+					</ul>
+
+					<div id="copyrights">
+						<p>&copy; 2012　Kyowa Exeo Corporation. All rights reserved.</p>
+					<!-- end #copyrights --></div>
+
+				<!-- /second --></div>
+				<div class="last">
+				&nbsp;
+				<!-- /last --></div>
+			<!-- /column --></div>
+
+
+
+		<!-- end #footer --></div>
+	
+	<!-- end #contents --></div>
+
+</body>
+<!-- InstanceEnd --></html>

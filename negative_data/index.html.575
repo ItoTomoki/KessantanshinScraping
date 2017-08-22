@@ -1,0 +1,227 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=euc-jp" />
+<title>山下医科器械株式会社</title>
+<meta name="description" content="進化する医療技術をトータルメディカルサポートで支える、山下医科器械株式会社のホームページ" />
+<meta name="keywords" content="医療機器,メディカルサービス,医療情報,医療技術,メディカルサポート,九州" />
+<link rel="stylesheet" href="css/common.css" />
+<link rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" href="css/font_size/middle.css" type="text/css" title="Middle" />
+<link rel="alternate stylesheet" href="css/font_size/small.css" type="text/css" title="Small" />
+<link rel="alternate stylesheet" href="css/font_size/large.css" type="text/css" title="Large" />
+
+<script type="text/javascript" src="js/SprySlidingPanels.js" ></script>
+<script type="text/javascript" src="js/styleswitcher.js" ></script>
+<script type="text/javascript" src="js/extra.js" ></script>
+</head>
+
+<body onLoad="setActiveStyleSheet('Middle'); return false;">
+<a name="top" id="top"></a>
+
+<!-- [header] -->
+<div id="HEAD">
+	<h1 id="Logo"><a href="./index.html">山下医科器械株式会社</a></h1>
+	<ul class="navi">
+		<li class="n1"><a href="./sitemap/index.html">サイトマップ</a></li>
+		<li class="n2"><a href="./form/index.php">お問合わせ</a></li>
+	</ul>
+	<div class="size">
+		<div id="tex">文字サイズ</div>
+		<a href="javascript:void();" onclick="javascript:setActiveStyleSheet('Small'); return false;" id="small">小</a>
+		<a href="javascript:void();" onclick="javascript:setActiveStyleSheet('Middle'); return false;" id="middle">中</a>
+		<a href="javascript:void();" onclick="javascript:setActiveStyleSheet('Large'); return false;" id="large">大</a><br clear="left" />
+	</div>
+	<div id="head_right">
+		<div id="Logo2">山下医科器械株式会社</div>
+		<form method="get" action="/cgi-bin/namazu.cgi" id="form"><input type="text" name="query" size="14" value="" id="search_text" /><input type="hidden" name="whence" value="0" /><input type="hidden" name="lang" value="ja" /><input name="submit" type="image" src="img/head_btn.gif" width="84" height="20" id="search_btn" alt="サイト内検索" /><br clear="left" /></form>
+	</div>
+	<br clear="all" />
+</div>
+<!-- /[header] -->
+
+
+<!-- [navigation] -->
+<div id="NAVI"><div id="NAVI_BODY">
+	<ul class="navi">
+	<li class="n1"><a href="./index.html">ホーム</a></li>
+	<li class="n2"><a href="./company/index.html">会社情報</a></li>
+	<li class="n3"><a href="./service/index.html">事業内容</a></li>
+	<li class="n4"><a href="./showroom/index.html">施設案内</a></li>
+	<li class="n5"><a href="./ir/index.html">IR情報</a></li>
+	<li class="n6"><a href="./recruit/index.html">採用情報</a></li>
+	</ul>
+</div></div>
+<!-- /[navigation] -->
+
+
+<!-- [document and body] -->
+<div id="DOCUMENT"><div id="BODY">
+<img src="img/index/main02.jpg" />
+<!--  	<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="888" height="240">
+	<param name="movie" value="swf/introx.swf" />
+	<param name="quality" value="high" />
+	<embed src="swf/introx.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="888" height="240"></embed>
+	</object>-->
+
+	<!-- [4 box navigation] -->
+	<div id="sub_navi">
+		<ul id="sub_navi1">
+			<li><img src="img/subnavi1.gif" alt="医療従事者の皆様へ" /><br /></li>
+			<li class="arrow"><a href="./showroom/index.html">長崎TMSセンター貸会議室</a></li>
+			<li class="arrow"><a href="./showroom/index.html#tms">プレゼン・MTGルーム</a></li>
+			<li class="arrow"><a href="./service/index.html">当社事業・サービスのご案内</a></li>
+			<li class="arrow"><a href="./showroom/openpractice/index.html">医院開業をお考えの方へ</a></li>
+		</ul>
+
+		<ul id="sub_navi2">
+			<li><img src="img/subnavi2.gif" alt="投資家の皆様へ" /><br /></li>
+			<li class="arrow"><a href="./ir/topics/index.html">最新IR情報</a></li>
+			<li class="arrow"><a href="./ir/stockinfo/index.html">株式情報</a></li>
+			<li class="arrow"><a href="./ir/financial/index.html">業績・財務情報</a></li>
+		</ul>
+
+		<ul id="sub_navi3">
+			<li><img src="img/subnavi3.gif" alt="就職をご希望の方へ" /><br /></li>
+			<li class="arrow"><a href="recruit/flesh/index.html">新卒採用</a></li>
+			<li class="arrow"><a href="recruit/midway/index.html">キャリア採用</a></li>
+		</ul>
+
+		<ul id="sub_navi4">
+			<li><img src="img/subnavi4.gif" alt="当社をお知りになりたい方へ" /><br />
+		  </li>
+			<li class="arrow"><a href="./company/message/index.html">トップメッセージ</a></li>
+			<li class="arrow"><a href="./company/aim/index.html">yamashitaが目指すもの</a></li>
+			<li class="arrow"><a href="./company/outline/index.html">会社概要</a></li>
+		</ul>
+		
+		<br clear="left" />
+	</div>
+	<!-- /[4 box navigation] -->
+
+
+
+	<!--[LEFT column]-->
+	<div id="LEFT" style="padding-top:0;"><a href="company/message/index.html"><img src="img/banner_06.jpg" alt="トップメッセージ" width="207" height="53" border="0" class="mt_18" /></a><br />
+	  <a href="company/aim/index.html"><img src="img/banner_08.jpg" alt="yamashitaが目指すもの" width="207" height="53" border="0" class="mt_8" /><br /></a>
+	  <a href="recruit/"><img src="img/banner_05.jpg" alt="採用情報はこちら" width="207" height="53" border="0" class="mt_8" /></a><br />
+	  <a href="http://keiei-michishirube.com/" target="_blank" ><img src="img/banner_09.jpg" alt="新規開業支援サービス" width="207" height="53" border="0" class="mt_8" /></a><br />
+		<a href="http://www.healthcare-mall.jp/higashiteshiro/index.html" target="_blank"><img src="img/banner_04.jpg" alt="東手城ヘルスケアモール　〜医志のある街。2009年6月、開業。〜" width="207" height="46" border="0" class="mt_8" /></a><br /><br />
+
+
+<a href="http://merecare.net/" target="_blank"><img src="./img/banner_11_02.jpg" alt="医療・介護・ヘルスケア用品専門店 メリケア" width="206" border="0" /></a>
+
+<br />
+
+		<img src="./img/banner_12.jpg" class="mt_18" alt="診療報酬改定速報サービス" width="206" height="125" border="0" usemap="#Map2" />
+	  <map name="Map2" id="Map2">
+			<area shape="rect" coords="106,86,201,120" href="http://yamashita2016.kaitei-asp.wic-net.com/" target="_blank" alt="ログイン画面(会員の方はこちら)" />
+			<area shape="rect" coords="6,86,102,120" href="http://www.yamashitaika.co.jp/topics/topics_151203_294.html" target="_blank" alt="サービスご案内" />
+		</map>
+		<a href="http://www.v-varen.com/" target="_blank"> <img src="img/banner_13.jpg" alt="山下医科器械は、Ｖ−ファーレンを応援しています" border="0" class="mt_8"/></a>
+<!--
+  		<a href="http://www.12thams.com/" target="_blank"> <img src="img/banner_200-40.png" alt="第12回アジアメディカルショー" border="0" class="mt_8"/><br /></a>
+-->
+		<div id="bnr_athlete">
+			<a href="http://athlete.ahc-net.co.jp/" target="_blank"><img src="img/banner_athlete.jpg" alt="シーズアスリート" /><br /></a>
+			<div class="t10">当社は「障がい者スポーツ選手雇用センター シーズアスリート」を応援しています。</div>
+		</div>
+
+		<img src="img/banner_06.gif" class="mt_18" alt="山下医科器械のピンクリボン活動" /><br />
+
+<!--
+<a href="/bungu"><img src="img/bn_bungu.jpg" class="mt_18" alt="共同購入" /></a><br />
+-->
+		<div id="getflash">当サイトを快適にご覧いただくには、<a href="http://www.adobe.com/jp/products/flashplayer/" target="_blank">Flashプレイヤー9</a>(無料)以上が必要です。<br />ご覧になれない場合は最新のFlashプレイヤーを<a href="http://www.adobe.com/jp/products/flashplayer/" target="_blank">ダウンロード</a>してください。</div>
+        
+        <p><a href="http://www.jcb-card.jp/nyukaicphoujin/?13259253167900&amp;ad_id=com_etc_hjn2015105925shcp" target="_blank"><img src="img/jcb_business_207x53.jpg" alt="" /></a></p>
+        <p><a href="http://www.jcb-card.jp/nyukaicpkojin/?13259253167900&amp;ad_id=com_etc_oss2015105925shcp" target="_blank"><img src="img/jcb_personal_207x53.jpg" alt="" /></a></p>
+
+		
+	</div>
+	<!--/[LEFT column]-->
+
+
+	<!-- [RIGHT column] -->
+	<div id="RIGHT" style="padding-top:0;">
+		<h2 id="index_title_02">ニュース・お知らせ</h2>
+		<h3 id="index_title_03"><a href="./topics/index.html">ニュースリリース</a></h3>
+		<dl class="news"><dt>2015.12.21 </dt>
+		<dd class="arrow_orange"><a href="./topics/topics_151214_127.html">福岡西営業所移転のお知らせ</a><img src="/img/x_pdf.gif" align="absmiddle" class="ml_3" /></dd>
+		<br clear="all" /></dl>
+		<dl class="news"><dt>2015.12.10 </dt>
+		<dd class="arrow_orange"><a href="./topics/topics_151203_294.html">28年度の「診療報酬改定」の全てがわかる！診療報酬改定速報サービス</a></dd>
+		<br clear="all" /></dl>
+		<dl class="news"><dt>2015.02.09 </dt>
+		<dd class="arrow_orange"><a href="./topics/topics_150205_213.html">大分支社移転のお知らせ</a><img src="/img/x_pdf.gif" align="absmiddle" class="ml_3" /></dd>
+		<br clear="all" /></dl>
+		
+		<h3 id="index_title_04"><a href="./showroom/topics/index.html">ショールームのお知らせ</a></h3>
+		<dl class="news"><dt>2016.10.18 </dt>
+		<dd class="arrow_green"><a href="./showroom/topics/showroom_161018_364.html">第２回 長崎TMSセンター開所記念講演会　平成３０年度医療・介護ダブル改定に備える 激動の時代を乗り越えていく医療経営とは</a><img src="/img/x_pdf.gif" align="absmiddle" class="ml_3" /></dd>
+		<br clear="all" /></dl>
+		<dl class="news"><dt>2016.01.20 </dt>
+		<dd class="arrow_green"><a href="./showroom/topics/seminar20160217.html">平成28年度診療報酬改定対応セミナー</a><img src="/img/x_pdf.gif" align="absmiddle" class="ml_3" /></dd>
+		<br clear="all" /></dl>
+		<dl class="news"><dt>2015.03.24 </dt>
+		<dd class="arrow_green"><a href="./showroom/topics/seminar20150418.html">平成28年度診療報酬改定のゆくえ〜在宅医療に対応する〜［地域中堅病院向けセミナー２０１５］</a><img src="/img/x_pdf.gif" align="absmiddle" class="ml_3" /></dd>
+		<br clear="all" /></dl>
+
+
+		<h3 id="index_title_05"><a href="./ir/topics/index.html">最新IR情報</a></h3>
+
+		<dl class="news"><dt>2017.08.07 </dt>
+		<dd class="arrow_blue"><a href="./ir/topics/IR_170803_607.html">「第６９回定時株主総会招集ご通知」早期開示のお知らせ</a><img src="/img/x_pdf.gif" align="absmiddle" class="ml_3" /></dd>
+		<br clear="all" /></dl>
+		<dl class="news"><dt>2017.07.11 </dt>
+		<dd class="arrow_blue"><a href="./ir/topics/IR_170711_859.html"> 業績予想と実績値との差異に関するお知らせ</a><img src="/img/x_pdf.gif" align="absmiddle" class="ml_3" /></dd>
+		<br clear="all" /></dl>
+		<dl class="news"><dt>2017.07.11 </dt>
+		<dd class="arrow_blue"><a href="./ir/topics/IR_170711_205.html">平成２９年５月期　決算短信について</a><img src="/img/x_pdf.gif" align="absmiddle" class="ml_3" /></dd>
+		<br clear="all" /></dl>
+
+<h2 id="index_title_06">再発防止策実施状況<a href="./topics/preventive/index.html">バックナンバー</a></h2>
+		<dl class="news"><dt>2014.12.1  </dt><dd class="arrow_gray"><a href="./topics/preventive/topics_141201_001.html">指名停止措置の期間満了と一般競争参加資格の降格について</a><img src="/img/x_pdf.gif" align="absmiddle" class="ml_3" /></dd><br clear="all" /></dl>
+		<dl class="news"><dt>2014.08.18 </dt><dd class="arrow_gray"><a href="./topics/preventive/topics_140818_001.html">今回の不正行為に対する再発防止策実施状況について(その４)</a><img src="/img/x_pdf.gif" align="absmiddle" class="ml_3" /></dd><br clear="all" /></dl>
+		<dl class="news"><dt>2014.06.13 </dt><dd class="arrow_gray"><a href="./topics/preventive/topics_140613_001.html">今回の不正行為に対する再発防止策実施状況について(その３)</a><img src="/img/x_pdf.gif" align="absmiddle" class="ml_3" /></dd><br clear="all" /></dl>
+		<!--<dl class="news"><dt>2014.05.16 </dt><dd class="arrow_gray"><a href="./topics/preventive/topics_140516_001.html">今回の不正行為に対する再発防止策実施状況について(その２)</a><img src="/img/x_pdf.gif" align="absmiddle" class="ml_3" /></dd><br clear="all" /></dl>
+		<dl class="news"><dt>2014.04.17 </dt><dd class="arrow_gray"><a href="./topics/preventive/topics_140417_925.html">今回の不正行為に対する再発防止策実施状況について</a><img src="/img/x_pdf.gif" align="absmiddle" class="ml_3" /></dd><br clear="all" /></dl>-->
+
+
+		<h2 id="index_title_01">山下だから出来る新しいサービス</h2>
+		<div id="scroll">
+			<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="628" height="69">
+			<param name="movie" value="swf/scroll.swf" />
+			<param name="quality" value="high" />
+			<embed src="swf/scroll.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="628" height="69"></embed>
+			</object>
+		</div>
+
+		
+	</div>
+	<!-- /[RIGHT column] -->
+
+	<br clear="all" />
+
+	<div id="FOOT">
+		<a href="./index.html">ホーム</a>&nbsp;|&nbsp;<a href="./company/index.html">会社情報</a>&nbsp;|&nbsp;<a href="./service/index.html">事業内容</a>&nbsp;|&nbsp;<a href="./showroom/index.html">施設案内</a>&nbsp;|&nbsp;<a href="./ir/index.html">IR情報</a>&nbsp;|&nbsp;<a href="./recruit/index.html">採用情報</a><br />
+		<div id="copyright">2009(c)yamashita total medical support all rights reserve.</div>
+	</div>
+
+</div></div>
+<!-- /[document and body] -->
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." :
+"http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost +
+"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-11821957-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+</body>
+</html>

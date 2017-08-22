@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, user-scalable=0, maximum-scale=1">
+<meta name="keywords" content="ドライケミカル,消火器,防災,火災報知" />
+<meta name="description" content="消火・防災のプロフェショナルとして人々に安全と安心を提供する" />
+<meta name="robots" content="index, follow" />
+<title>NDC 日本ドライケミカル株式会社</title>
+<link rel="stylesheet" href="css/import.css" media="all" />
+<link rel="stylesheet" href="css/print.css" media="print" />
+<script src="js/rollover.js" charset="utf-8"></script>
+<script src="js/scroll.js" charset="utf-8"></script>
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/movie.js"></script>
+<script src="js/accordion.js" charset="utf-8"></script>
+<script src="js/slidedown.js" charset="utf-8"></script>
+<script src="js/header_menu.js" charset="utf-8"></script>
+<script src="js/jquery.matchHeight.js" charset="utf-8"></script>
+<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<style>
+.topNews dl {
+	font-size:90%;
+	}
+.topInfo ul {
+	font-size:90%;
+	}
+
+</style>
+<script>
+$(function() {
+    $('.matchHeight').matchHeight(
+{
+    byRow: true,
+    property: 'height'
+}
+	);
+});
+$(document).ready(function(){
+	$("#btn_toku").on("click", function(){
+		$('#tokuyaku').submit();
+		return false;
+	});
+	
+});
+</script>
+
+</head>
+<body id="top">
+<!-- 【Google Analytics】 -->
+<script src="js/g_analytics.js" type="text/javascript"></script>
+
+<div id="allWrap2">
+
+
+  <header class="head_area">
+    <div class="siteWrap2">
+     <div class="head_col fix">
+      <p><a href="index.html"><img src="img/common/logo.png" width="342" height="25" alt="ドライケミカル" class="scale"></a></p>
+      <div class="head_right2 fix">
+        <div class="left_area2">
+          <p class="link_english"><a href="english/index.html">＞&nbsp;English</a></p>
+        </div>
+        <div class="right_area">
+        
+          <div class="googleSearch">
+
+			<!-- yahoosearch srchBox-->
+			<div id="srchBox" class="watermark">
+			<form action="http://www.ndc-group.co.jp/search.html" method="get" id="srch">
+			<p id="srchForm">
+			<input type="text" name="p" id="srchInput"><input type="submit" value="検索" id="srchBtn" onclick="document.getElementById('srchInput').focus();">
+			<input type="hidden" id="fr" name="fr" value="cse">
+			<input type="hidden" id="ei" name="ei" value="UTF-8">
+			<input type="hidden" id="csid" name="csid" value="Y8WiauhPHN88L7ItEJjMkYPe6yGsdbAAvBpn">
+			</p>
+			<input type="hidden" name="vs" value="ndc-group.co.jp" id="yjInsite">
+			</form>
+			<img src="http://custom.search.yahoo.co.jp/images/window/Y8WiauhPHN88L7ItEJjMkYPe6yGsdbAAvBpn.gif">
+			</div>
+			<script type="text/javascript">
+			(function() {
+			var sb = document.getElementById('srchBox');
+			if (sb && sb.className == 'watermark') {
+			  var si = document.getElementById('srchInput');
+			  var f = function() { si.className = 'nomark'; };
+			  var b = function() {
+			    if (si.value == '') {
+			      si.className = '';
+			    }
+			  };
+			  si.onfocus = f;
+			  si.onblur = b;
+			  if (!/[&?]p=[^&]/.test(location.search)) {
+			    b();
+			  } else {
+			    f();
+			  }
+			}
+			})();
+			</script>
+			<!-- /#srchBox -->
+
+          </div>
+          
+        </div>
+      </div><!-- / .head_right fix -->
+     </div><!-- / .head_col -->
+    </div><!-- / .site_wrapper -->
+  </header>
+
+            <!--SPメニュー-->
+  <div class="siteWrap2">
+      <div id="spMenu2" class="accordion">
+          <dl>
+              <dt><a href="javascript:void(0)" id="panel-btn"><span id="panel-btn-icon"></span></a></dt>
+              <dd>
+                  <ul>
+                      <li><a href="/index.html"><span>HOME</span></a></li>
+                      <li><a href="/info/index.html"><span>企業情報</span></a></li>
+                      <li><a href="/products/index.html"><span>製品・及びサービス</span></a></li>
+                      <li><a href="/ir/index.html"><span>投資家の皆様へ</span></a></li>
+                      <li><a href="/voice/index.php"><span>ご意見箱</span></a></li>
+                      <li><a href="/inquiry/index.php"><span>お問い合わせ</span></a></li>
+                      <li><a href="/recruit/index.html"><span>採用情報</span></a></li>
+      			      <li><a href="/sitemap.html"><span>サイトマップ</span></a></li>
+
+                  </ul>
+              </dd>
+          </dl>
+      </div><!-- / #spMenu .accordion -->
+  </div><!-- / .site_wrapper -->
+        <!--SPメニュエンドー-->
+
+<div class="g_nav_bg" id="fix_menu">
+   <div class="siteWrap2">
+    <div class="in_box">
+      <nav>
+          <ul class="g_nav">
+              <li class="slideDown2 g_menu01"><span>企業情報</span>
+                <div class="dropDownMenu2 dropDown">
+                		<div class="dropDownInner">
+                  <dl class="dropDownbox">
+                    <dt class="dropDownCategory"><a href="/info/index.html">企業情報</a></dt>
+                    <dd class="fix">
+                    <div class="drop_listbox01">
+                      <ul class="drop_list">
+                        <li><a href="/info/index.html">概要</a></li>
+                        <li><a href="/info/president/index.html">社長メッセージ</a></li>
+                        <li><a href="/info/idea/index.html">NDCグループ社是</a></li>
+                        <!--<li><a href="/info/management/index.html">経営方針</a></li>-->
+                        <li><a href="/info/history/index.html">沿革</a></li>
+                        <li><a href="/info/contact/index.html">事業所一覧</a></li>
+                        <li><a href="/info/csr/index.html">CSR基本方針</a></li>
+                        <li><a href="/info/inf_02/index.html">品質向上への取り組み</a></li>
+                        <li><a href="/info/environment/index.html">環境への取り組み</a></li>
+                        <li class="last"><a href="/info/ethics/index.html">倫理行動規範</a></li>
+                      </ul>
+                      </div>
+                    </dd>
+                  </dl>
+                  		</div>
+                </div><!-- / #dropDownMenu -->
+              </li>
+              <li class="slideDown g_menu02"><span>製品・サービス</span>
+                <div class="dropDownMenu dropDown">
+                		<div class="dropDownInner">
+                  <dl class="dropDownbox">
+                    <dt class="dropDownCategory"><a href="/products/index.html">製品・サービス</a></dt>
+                    <dd class="fix">
+                      <div class="drop_listbox02">
+                      <ul class="drop_list fix mb30">
+                        <li class="first">
+                          <dl>
+                            <dt><a href="/products/building/index.html">建築防災設備</a></dt>
+                            <dd>
+                            <p class="mb05"><a href="/products/building/index.html">概要</a></p>
+                            <p class="mb05"><a href="/products/building/index2.html">設備一覧</a></p>
+                            <p><a href="/products/building/architecture/index.html">施工実績例</a></p>
+                            </dd>
+                          </dl>
+                        </li>
+                        <li class="second">
+                          <dl>
+                            <dt><a href="/products/fire_information/index.html">自動火災報知設備</a></dt>
+                            <dd>
+                            <p class="mb05"><a href="/products/fire_information/index.html">概要</a></p>
+                            <p class="mb05"><a href="/products/fire_information/index2.html">設備一覧</a></p>
+                            </dd>
+                          </dl>
+                        </li>
+                        <li class="third">
+                          <dl>
+                            <dt><a href="/products/plant/index.html">プラント防災設備</a></dt>
+                            <dd>
+                            <p class="mb05"><a href="/products/plant/index.html">概要</a></p>
+                            <p class="mb05"><a href="/products/plant/index2.html">設備一覧</a></p>
+                            <p><a href="/products/plant/architecture/index.html">施工実績</a></p>
+                            </dd>
+                          </dl>
+                        </li>                                                                
+                    
+                        <li class="last">
+                          <dl>
+                            <dt><a href="/products/marine/index.html">船舶防災設備</a></dt>
+                            <dd>
+                            <p class="mb05"><a href="/products/marine/index.html">概要</a></p>
+                            <p><a href="/products/marine/index2.html">設備一覧</a></p>
+                            </dd>
+                          </dl>
+                        </li>
+                      </ul>
+                      <ul class="drop_list">                        
+                        <li class="first">
+                          <dl>
+                            <dt><a href="/products/maintenance/index.html">メンテナンス</a></dt>
+                            <dd>
+                            <p class="mb05"><a href="/products/maintenance/index.html">概要</a></p>
+                            <p><a href="/products/maintenance/index2.html">各種サービスのご案内</a></p>
+                            </dd>
+                          </dl>
+                        </li>
+
+                        <li class="second">
+                          <dl>
+                            <dt><a href="/products/fire_extinguisher/index.html">消火器</a></dt>
+                            <dd>
+                            <p class="mb05"><a href="/products/fire_extinguisher/index.html">概要</a></p>
+                            <p><a href="/products/fire_extinguisher/index2.html">各種消火器紹介</a></p>
+                            </dd>
+                          </dl>
+                        </li>  
+                      
+                        <li class="third">
+                          <dl>
+                            <dt><a href="/products/fire_protection/index.html">防災用品</a></dt>
+                            <dd>
+                            <p class="mb05"><a href="/products/fire_protection/index.html">概要</a></p>
+                            <p><a href="/products/fire_protection/index2.html">防災用品一覧</a></p>
+                            </dd>
+                          </dl>
+                        </li> 
+                      
+                        <li class="last">
+                          <dl>
+                            <dt><a href="/products/fire_engine/index.html">消防車</a></dt>
+                            <dd>
+                            <p class="mb05"><a href="/products/fire_engine/index.html">概要</a></p>
+                            <p><a href="/products/fire_engine/index2.html">消防自動車一覧</a></p>
+                            </dd>
+                          </dl>
+                        </li> 
+
+                      </ul>
+                     </div><!-- / .drop_listbox -->
+                     <p class="right_area"><span></span></p>
+                    </dd>
+                  </dl>
+                  	</div>
+                </div><!-- / #dropDownMenu -->
+              </li>
+
+              <li class="slideDown3 g_menu03"><span>投資家の皆様へ</span>
+                <div class="dropDownMenu3 dropDown">
+                		<div class="dropDownInner">
+                  <dl class="dropDownbox">
+                    <dt class="dropDownCategory"><a href="/ir/index.html">投資家の皆様へ</a></dt>
+                    <dd class="fix">
+                      <div class="drop_listbox03">
+                      <ul class="drop_list fix">
+                        <li>
+                          <dl>
+                            <dt class="mb20"><a href="/ir/index.html">IRニュース</a></dt>
+                            <dt><a href="/ir/vision/president/index.html">経営ビジョン</a></dt>
+                            <dd>
+                            <p class="mb05"><a href="/ir/vision/president/index.html">社長メッセージ</a></p>
+                            <!--<p class="mb05"><a href="/ir/vision/corporate_philosophy/index.html">企業理念</a></p>
+                            <p class="mb05"><a href="/ir/vision/management_policy/index.html">経営方針</a></p>-->
+                            <p class="mb05"><a href="/ir/vision/idea/index.html">NDCグループ社是</a></p>
+                            <p><a href="/ir/vision/corporate_governance/index.html">コーポレートガバナンス</a></p>
+                            </dd>
+                          </dl>
+                        </li>
+                        <li>
+                          <dl>
+                            <dt><a href="/ir/library/financial_results/index.html">IRライブラリ</a></dt>
+                            <dd>
+                            <p class="mb05"><a href="/ir/library/financial_results/index.html">決算短信</a></p>
+                            <p class="mb05"><a href="/ir/library/csr/index.html">CSR基本方針</a></p>
+                            <p class="mb05"><a href="/ir/library/disclosure/index.html">適時開示資料</a></p>
+                            <p class="mb05"><a href="/ir/library/shareholder/index.html">株主通信</a></p>
+                            <p class="mb05"><a href="/ir/library/securities_report/index.html">有価証券報告書</a></p>
+                            <p class="mb05"><a href="/ir/library/analyst_reports/index.html">アナリストレポート</a></p>
+                            <p class="mb05"><a href="/ir/library/ir_results/index.html">IR・決算説明会</a></p>
+                            <!--<p><a href="ir/library/business_overview/index.html">事業紹介動画</a></p>-->
+                            </dd>
+                          </dl>
+                        </li>
+                        <li>
+                         <p><a href="/ir/financial_performance/index.html">財務・業績データ</a></p>
+                        </li>
+                        <li>
+                          <dl>
+                            <dt><a href="/ir/stock/stock_basic_information/index.html">株式情報</a></dt>
+                            <dd>
+                            <p class="mb05"><a href="/ir/stock/stock_basic_information/index.html">銘柄基本情報</a></p>
+                            <p class="mb05"><a href="/ir/stock/status_of_stock/index.html">株式の状況</a></p>
+                            <p class="mb05"><a href="/ir/stock/dividend/index.html">配当情報</a></p>
+                            <p class="mb05"><a href="/ir/stock/stock_preferential_treatment/index.html">株主優待制度</a></p>
+                            <p><a href="/ir/stock/stock_information/index.html">株式事務のご案内</a></p>
+                            </dd>
+                          </dl>
+                        </li>
+                        <li>
+                           <p class="front_last"><a href="/ir/ir_calendar/index.html">IRカレンダー</a></p>
+                        </li>
+                        <li class="last">
+                          <p><a href="/ir/inquiry/index.php">IRお問合せ窓口</a></p>
+                        </li>
+                      </ul>
+                     </div><!-- / .drop_listbox -->
+                    </dd>
+                  </dl>
+                  		</div>
+                </div><!-- / #dropDownMenu -->
+              </li>
+              <li class="g_menu04"><a href="/voice/index.php"><span>ご意見箱</span></a></li>
+              <li class="g_menu05"><a href="/inquiry/index.php"><span>お問合せ</span></a></li>
+              <li class="g_menu06"><a href="/recruit/index.html"><span>採用情報</span></a></li>
+          </ul>
+      </nav>
+     </div>
+   </div><!-- / .site_wrapper -->
+  </div>
+
+
+<div class="main_video position">
+	<div class="cover">
+		<video id="video1" autoplay loop class="display_pc">
+			<source src="movie/movie.mp4">
+		</video>
+        <p class="bg_dotte"></p>
+        <p class="display_sp"><img src="movie/movie_sp.gif" width="450" height="253" class=" scale"></p>
+    </div> 
+</div>
+
+  <div id="contents">
+
+		<div class="siteWrap2">
+        
+			<div id="topContents">
+            
+            	<div class="top_col3 fix">
+            
+                    <div class="topNewsWrap">
+                        <h2 class="info_news"><img src="img/top3/ttl_news.png" width="143" height="18" alt="新着ニュース" class=""></h2>
+                        <div class="topNews">
+
+							<dl>
+                                <dt>2017年8月10日</dt>
+                                <dd><a href="http://v4.eir-parts.net/v4Contents/View.aspx?cat=yuho_pdf&sid=2569168" target="_blank">平成30年3月期 第1四半期報告書（PDF形式・440KB）</a></dd>
+                            </dl>
+
+							<dl>
+                                <dt>2017年8月4日</dt>
+                                <dd><a href="http://v4.eir-parts.net/v4Contents/View.aspx?cat=tdnet&sid=1503858" target="_blank">平成30年3月期 第1四半期決算短信〔日本基準〕（連結）（PDF形式・192KB）</a></dd>
+                            </dl>
+
+                            <dl>
+                                <dt>2017年8月4日</dt>
+                                <dd><a href="http://v4.eir-parts.net/v4Contents/View.aspx?cat=tdnet&sid=1503938" target="_blank">株主優待制度の内容変更に関するお知らせ（PDF形式・273KB）</a></dd>
+                            </dl>
+
+							<dl>
+                                <dt>2017年8月2日</dt>
+                                <dd><a href="/news/2017/news_20170802.html" target="_blank">「読売ブリッジサロン」に参加いたします。</a></dd>
+                            </dl>
+
+
+
+
+                            <div class="fix">
+                                <p class="linkList"><a href="news/index.html">一覧へ</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="topInfoWrap">
+                        <h2 class="info_news"><img src="img/top3/ttl_info.png" width="143" height="18" alt="重要なお知らせ" class=""></h2>
+                        <div class="topInfo">
+                            <ul>
+                                <!--<li><a href="news/new_29.html">5月1日(月）は弊社休業とさせていただきます。</a></li>-->
+                                <li><a href="news/new_27.html">ヒューセック製品のアフターフォローについて</a></li>
+                                <li><a href="images/pdf/info_20160325.pdf" target="_blank">スーパールームガード(Ⅳ)製造年月表記に関するお知らせ</a></li>
+                                <li><a href="images/pdf/info_20150219.pdf" target="_blank">ホームページの「お問い合わせ」不具合のお詫び</a></li>
+                                <li><a href="news/new_26.html">加圧式粉末消火器のホース固定キャップ無償点検・部品交換のお知らせ</a></li>
+                            </ul>
+                            <div class="fix">
+                                <p class="linkList"><a href="news/info.html">一覧へ</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="topProductWrap">
+                  <!--  <div class="border_wrap">
+                        <h2 class="info_news"><img src="img/top3/ttl_product.png" width="143" height="18" alt="新商品のお知らせ" class=""></h2>
+                        <p class="poche"><a href="neo_sprinkler/index.html"><img src="img/top2/newproduct_pg-6.jpg" width="320" height="219" alt="" class="scale"></a></p>
+                      </div>
+                      -->
+						<div class="position">
+                            <p class="xtn"><a href="neo_sprinkler/index.html#nsr-436"><img src="img/top2/nsr-rx_top-banner.gif" width="321" height="133" alt="NEOスプリンクラーRX" class="scale"></a></p>                      
+                        </div>
+
+						<div class="position">
+                            <p class="xtn"><a href="neo_sprinkler/index.html#nskii-a"><img src="img/top2/nskii-a_top-banner.gif" width="321" height="132" alt="NEOスプリンクラーTypeⅡ-All" class="scale"></a></p>                      
+                        </div>
+
+						<div class="position">
+                            <p class="xtn"><a href="http://www.rakuten.ne.jp/gold/ndc-group/"><img src="img/top2/online_store.jpg" width="321" height="51" alt="XTN会員専用サイト" class="scale"></a></p>                      
+                        </div>
+                        <div class="position">
+                            <p class="xtn"><img src="img/top2/img_xtnmember.png" width="320" height="103" alt="XTN会員専用サイト" class="scale"></p>
+                            <p class="xtnLogin"><a href="xtn/" target="_blank" class="opacity"><img src="img/top2/btn_xtnlogin_off.gif" width="288" height="37" alt="ログイン" class="scale"></a></p>
+                            <p class="xtnUpdate">2017年8月4日 更新</p>
+                        </div>
+                        <div class="position">
+                            <p class="xtn"><img src="img/top3/img_tokuyakutenmembedr.png" width="320" height="103" alt="特約店様専用サイト" class="scale"></p>
+							<form action="http://www.husec.jp/member_protect_husec/zumen.cgi" method="post" id="tokuyaku" >
+							<input name="MODE" type="hidden" value="0" />
+							<input name="GID" type="hidden" value="" />
+							<input name="PID" type="hidden" value="" />
+							<input name="ID" type="hidden" value="husec" />
+							<input name="PSW" type="hidden" value="husec" />
+                            <p class="xtnLogin"><a id="btn_toku" href="" class="opacity" target="_blank"><img src="img/top2/btn_xtnlogin_off.gif" width="288" height="37" alt="ログイン" class="scale"></a></p></form>
+                        </div>
+                        <div class="position">
+                            <p class="xtn"><a href="products/fire_extinguisher/smart_xtn/index.html" class="opacity"><img src="img/top2/smartXtn_banner.png" width="320" height="103" alt="消火器個体管理システムSmartXtnサイト" class="graybox"></a></p>
+                        </div>
+                    </div>
+                
+            	</div>
+                
+                
+                
+                
+                
+                
+                
+<div class="category_col2 fix">
+          
+<div class="left_area">      
+<!--建築防災設備 -->
+<div class="topLinkWrap_01 display_pc matchHeight fix">
+	<div class="left_area2">
+        <h2><img src="img/top3/img_link_01.gif" width="189" height="23" alt="建築防災設備" class="scale10"></h2>
+        <p class="mb05">国内最大級の防災メーカー／エンジニアリング企業である日本ドライケミカルにとって、建築防災設備部門はもっとも実績のある分野です。火災からかけがえのない人命と貴重な財産を守る、社会的使命を担っています。</p>
+        <p class="t_right"><a href="products/building/index.html"><img src="img/top2/btn_detail_off.gif" width="112" height="25" alt="さらに詳しく"></a></p>
+	</div>
+    <div class=" right_area2">
+    	<p><img src="img/top2/bui_a.jpg" width="210" height="170"></p>
+    </div>
+</div>
+<div class="topLinkWrap_01 display_sp">
+    <div class="cont">
+        <h2>建築防災設備</h2>
+        <div class="cont02">
+        <p><img src="img/top2/bui_a.jpg" width="210" height="170" class="scale"></p>
+        <p class="mb10">国内最大級の防災メーカー／エンジニアリング企業である日本ドライケミカルにとって、建築防災設備部門はもっとも実績のある分野です。火災からかけがえのない人命と貴重な財産を守る、社会的使命を担っています。</p>
+        <p class="btn_type"><a href="products/building/index.html">＞さらに詳しく</a></p>
+        </div>
+     </div>
+</div>
+<!--建築防災設備 -->
+</div>
+
+
+<div class="right_area">               
+<!--自動火災報知設備 -->     
+<div class="topLinkWrap_02 display_pc matchHeight fix">
+	<div class="left_area2">
+        <h2><img src="img/top3/img_link_02.gif" width="188" height="24" alt="自動火災報知設備" class="scale10"></h2>
+        <p class="mb05">日本ドライケミカルでは受信機、感知器、警報器等の各種機器を取り揃え、建物の規模や用途別のニーズに対応した、最適な自動火災報知システムを提供いたします。</p>
+        <p class="t_right"><a href="products/fire_information/index.html"><img src="img/top2/btn_detail_off.gif" width="112" height="25" alt="さらに詳しく"></a></p>
+    </div>
+    <div class=" right_area2">
+    	<p><img src="img/top2/husec.jpg" width="210" height="170"></p>
+    </div>
+</div>
+<div class="topLinkWrap_02 display_sp">
+    <div class="cont">
+        <h2>自動火災報知設備</h2>
+        <div class="cont02">
+        <p><img src="img/top2/husec.jpg" width="210" height="170" class="scale"></p>
+        <p class="mb10">日本ドライケミカルでは受信機、感知器、警報器等の各種機器を取り揃え、建物の規模や用途別のニーズに対応した、最適な自動火災報知システムを提供いたします。</p>
+        <p class="btn_type"><a href="products/fire_information/index.html">＞さらに詳しく</a></p>
+        </div>
+     </div>
+</div>
+<!--自動火災報知設備 -->  
+</div>
+</div>
+
+                     
+
+
+<div class="category_col2 fix">
+          
+<div class="left_area">                      
+<!--プラント防災設備 -->                   
+<div class="topLinkWrap_03 display_pc matchHeight fix">
+	<div class="left_area2">
+      <h2><img src="img/top3/img_link_03.gif" width="189" height="23" alt="プラント防災設備" class="scale10"></h2>
+      <p class="mb05">日本ドライケミカルは防災に関わる高度なエンジニアリング力を備えており、プラント防災設備はもっとも得意とする分野です。</p>
+      <p class="t_right"><a href="products/plant/index.html"><img src="img/top2/btn_detail_off.gif" width="112" height="25" alt="さらに詳しく"></a></p>
+    </div>
+	<div class=" right_area2">
+    	<p><img src="img/top2/pla_a.jpg" width="210" height="170"></p>
+    </div>
+</div>
+<div class="topLinkWrap_03 display_sp">
+  <div class="cont">
+      <h2>プラント防災設備</h2>
+      <div class="cont02">
+          <p><img src="img/top2/pla_a.jpg" width="210" height="170" class="scale"></p>
+          <p class="mb10">日本ドライケミカルは防災に関わる高度なエンジニアリング力を備えており、プラント防災設備はもっとも得意とする分野です。</p>
+          <p class="btn_type"><a href="products/plant/index.html">＞さらに詳しく</a></p>
+    </div>
+  </div>
+</div>
+<!--プラント防災設備 -->    
+</div>    
+                    
+<div class="right_area">             
+<!--船舶防災設備 -->                     
+<div class="topLinkWrap_04 display_pc matchHeight fix">
+	<div class="left_area2">
+        <h2><img src="img/top3/img_link_04.gif" width="189" height="23" alt="船舶防災設備" class="scale10"></h2>
+        <p class="mb05">日本ドライケミカルは、船舶防災設備の分野で、30年以上にわたり実績と経験を積み上げてきました。その範囲は大型タンカー・貨物船・コンテナ船・フェリー・消防艇にまでおよび、幅広い分野で培った技術をベースに独自の船舶防災システムを提案しています。</p>
+        <p class="t_right"><a href="products/marine/index.html"><img src="img/top2/btn_detail_off.gif" width="112" height="25" alt="さらに詳しく"></a></p>
+    </div>
+    <div class=" right_area2">
+    	<p><img src="img/top2/mar_a.jpg" width="210" height="170"></p>
+    </div>
+</div>
+<div class="topLinkWrap_04 display_sp">
+    <div class="cont">
+        <h2>船舶防災設備</h2>
+        <div class="cont02">
+            <p><img src="img/top2/mar_a.jpg" width="210" height="170" class="scale"></p>
+            <p class="mb10">日本ドライケミカルは、船舶防災設備の分野で、30年以上にわたり実績と経験を積み上げてきました。その範囲は大型タンカー・貨物船・コンテナ船・フェリー・消防艇にまでおよび、幅広い分野で培った技術をベースに独自の船舶防災システムを提案しています。</p>
+            <p class="btn_type"><a href="products/marine/index.html">＞さらに詳しく</a></p>
+      </div>
+    </div>
+</div>
+<!--船舶防災設備 -->    
+</div>
+</div>
+
+
+
+
+<div class="category_col2 fix">
+          
+<div class="left_area"> 
+<!--メンテナンス -->
+<div class="topLinkWrap_05 display_pc matchHeight fix">
+	<div class="left_area2">
+        <h2><img src="img/top3/img_link_05.gif" width="189" height="22" alt="メンテナンス" class="scale10"></h2>
+        <p class="mb05">小規模店舗から大型インテリジェントビル、大型プラント／危険物施設まで、幅広い建物・施設にあわせた防災設備を提供しています。こうした防災設備事業に対応するメンテナンス事業の拡大により、より一層お客様にご満足いただけるサービスをお届けします。</p>
+        <p class="t_right"><a href="products/maintenance/index.html"><img src="img/top2/btn_detail_off.gif" width="112" height="25" alt="さらに詳しく"></a></p>
+    </div>
+    <div class=" right_area2">
+    	<p><img src="img/top2/main_b.jpg" width="210" height="170"></p>
+    </div>    
+</div>
+<div class="topLinkWrap_05 display_sp">
+    <div class="cont">
+        <h2>メンテナンス</h2>
+        <div class="cont02">
+            <p><img src="img/top2/main_b.jpg" width="210" height="170" class="scale"></p>
+            <p class="mb10">小規模店舗から大型インテリジェントビル、大型プラント／危険物施設まで、幅広い建物・施設にあわせた防災設備を提供しています。こうした防災設備事業に対応するメンテナンス事業の拡大により、より一層お客様にご満足いただけるサービスをお届けします。</p>
+            <p class="btn_type"><a href="products/maintenance/index.html">＞さらに詳しく</a></p>
+      </div>
+    </div>
+</div>
+<!--メンテナンス -->
+</div>    
+                    
+<div class="right_area">  
+<!--消火器 -->
+<div class="topLinkWrap_06 display_pc matchHeight fix">
+	<div class="left_area2">
+        <h2><img src="img/top3/img_link_06.gif" width="189" height="23" alt="消火器" class="scale10"></h2>
+        <p class="mb05">わが国初の粉末消火器を開発したパイオニアです。以来、研究・開発を重ね、独自の技術で幅広いニーズに応えるさまざまな消火器や防災関連商品を企画／開発し、お客様に提供しています。</p>
+        <p class="t_right"><a href="products/fire_extinguisher/index.html"><img src="img/top2/btn_detail_off.gif" width="112" height="25" alt="さらに詳しく"></a></p>
+    </div>
+    <div class=" right_area2">
+    	<p><img src="img/top2/ext_a.jpg" width="210" height="170"></p>
+    </div>    
+</div>
+<div class="topLinkWrap_06 display_sp">
+    <div class="cont">
+        <h2>消火器</h2>
+        <div class="cont02">
+            <p><img src="img/top2/ext_a.jpg" width="210" height="170" class="scale"></p>
+            <p class="mb10">わが国初の粉末消火器を開発したパイオニアです。以来、研究・開発を重ね、独自の技術で幅広いニーズに応えるさまざまな消火器や防災関連商品を企画／開発し、お客様に提供しています。</p>
+            <p class="btn_type"><a href="products/fire_extinguisher/index.html">＞さらに詳しく</a></p>
+      </div>
+    </div>
+</div>
+<!--消火器 -->
+</div>
+</div>
+
+
+
+
+<div class="category_col2 fix">
+          
+<div class="left_area">
+<!--防災用品 -->
+<div class="topLinkWrap_07 display_pc matchHeight fix">
+	<div class="left_area2">
+        <h2><img src="img/top3/img_link_07.gif" width="189" height="22" alt="防災用品" class="scale10"></h2>
+        <p class="mb05">広域に亘る大規模災害から、限定された地域に起こる小規模災害まで、もしもの時の不安を少しでも減らせるよう、お客様の様々なニーズに合わせた防災用品を各種取り揃えています。</p>
+        <p class="t_right"><a href="products/fire_protection/index.html"><img src="img/top2/btn_detail_off.gif" width="112" height="25" alt="さらに詳しく"></a></p>
+    </div>
+    <div class="right_area2">
+    	<p><img src="img/top2/pro_a.jpg" width="210" height="170"></p>
+    </div>  
+</div>
+<div class="topLinkWrap_07 display_sp">
+    <div class="cont">
+        <h2>防災用品</h2>
+        <div class="cont02">
+            <p><img src="img/top2/pro_a.jpg" width="210" height="170" class="scale"></p>
+            <p class="mb10">広域に亘る大規模災害から、限定された地域に起こる小規模災害まで、もしもの時の不安を少しでも減らせるよう、お客様の様々なニーズに合わせた防災用品を各種取り揃えています。</p>
+            <p class="btn_type"><a href="products/fire_protection/index.html">＞さらに詳しく</a></p>
+      </div>
+    </div>
+</div>
+<!--防災用品 -->
+</div>    
+                    
+<div class="right_area">
+<!--消防自動車 -->
+<div class="topLinkWrap_08 display_pc matchHeight fix">
+	<div class="left_area2">
+        <h2><img src="img/top3/img_link_08.gif" width="189" height="23" alt="消防自動車" class="scale10"></h2>
+        <p class="mb05">消火・防災技術の最先端を結集することで、専門性の高い消防自動車のニーズに対応します。</p>
+        <p class="t_right"><a href="products/fire_engine/index.html"><img src="img/top2/btn_detail_off.gif" width="112" height="25" alt="さらに詳しく"></a></p>
+    </div>
+    <div class=" right_area2">
+    	<p><img src="img/top2/factory3.jpg" width="210" height="140"></p>
+    </div> 
+</div>
+<div class="topLinkWrap_08 display_sp">
+    <div class="cont">
+        <h2>消防自動車</h2>
+        <div class="cont02">
+            <p><img src="img/top2/factory3.jpg" width="210" height="140" class="scale"></p>
+            <p class="mb10">消火・防災技術の最先端を結集することで、専門性の高い消防自動車のニーズに対応します。</p>
+            <p class="btn_type"><a href="products/fire_engine/index.html">＞さらに詳しく</a></p>
+      </div>
+    </div>
+</div>
+<!--消防自動車 -->
+</div>
+</div>
+
+            	</div>
+                
+                
+
+				<!--<div class="topLinkWrap_08 display_pc">
+					<div class="position">
+						<h2><a href="http://www.husec.jp/" target="_blank"><img src="img/top2/husec_banner.png" width="564" height="71" alt="ヒューセック" class="scale10"></a></h2>
+				  	</div>
+				</div>
+				<div class="topLinkWrap_08 display_sp">
+					<div class="cont">
+						<h2 class="left_area"><a href="http://www.husec.jp/" target="_blank"><img src="img/top2/logo_img01.png" width="281" height="35" alt="ヒューセック" class="scale"></a></h2>
+                      <p class="right_area">株式会社ヒューセックのホームページはこちらになります。</p>
+				  	</div>
+				</div>-->
+
+				</div><!-- / #topContents -->
+
+
+			</div>
+			<!-- / siteWrap2 -->
+		</div>
+		<!-- / contents -->
+
+
+		<p id="pagetop"><a href="#top"><img src="img/top2/btn_pagetop_off.gif" width="60" height="51" alt=""></a></p>
+
+ 	<footer id="footer" class="display_pc">
+		<div id="footerNavi">
+			<div class="siteWrap2">
+				<ul class="topBnrLink">
+                    <li><a href="knowledge/kno_04/index.html"><img src="img/common/img_01.jpg" width="187" height="75" class="scale" alt="消火器の廃棄について"></a></li>
+                    <li><a href="productdata/index.html"><img src="img/common/img_02.jpg" width="187" height="75" class="scale" alt="消火器の取扱説明書"></a></li>
+                    <li><a href="products/plant/inertgas/index.html"><img src="img/common/img_03.jpg" width="187" height="75" class="scale" alt="人名と資産を守る環境に優しいIG541"></a></li>
+                    <li><a href="products/fire_extinguisher/aluminum/index.html"><img src="img/common/img_04.jpg" width="187" height="75" class="scale" alt="NDC消火器アルミシリーズ"></a></li>
+                    <li class="last"><a href="http://www.jfema.or.jp/topics/topics17.html" target="_blank"><img src="img/common/img_05.jpg" width="166" height="103" class="scale" alt="くらしにプラス住宅用消火器"></a></li>
+                    <li><a href="products/vesda/"><img src="img/common/img_06.jpg" width="187" height="84" class="scale" alt="超高感度煙検知システム"></a></li>
+                    <li><a href="products/fire_information/interphone/index.html"><img src="img/common/img_10.jpg" width="200" height="95" class="scale" alt="集合住宅マンション設備のリニューアルを行いませんか"></a></li>
+                    <li><a href="products/fire_information/renewal/index.html"><img src="img/common/img_11.jpg" width="200" height="95" class="scale" alt="防災設備のリニューアルを行いませんか？"></a></li>
+                    <li><a href="http://funtoshare.env.go.jp/" target="_blank"><img src="img/common/img_07.jpg" width="187" height="45" class="scale" alt="Fun to Share"></a></li>
+                    <!--<li><a href="http://plusyou.tse.or.jp/" target="_blank"><img src="img/common/img_08.jpg" width="187" height="35" class="scale"></a></li>-->
+                    <li class="last"><a href="http://kmasterplus.pronexus.co.jp/main/corp/m/1/m130/index.html" target="_blank"><img src="img/common/img_09.jpg" width="187" height="27" class="scale" alt="NDC電子公告"></a></li>
+				</ul>
+			</div><!-- / .siteWrap2 -->
+
+
+		<div class="footer_bg01">
+			 <div class="siteWrap2">
+				<div class="fix footer_nav">
+						<div class="fix left_areWrap">
+							<div class="fix">
+								<div class="left_area">
+									<p><a href="info/index.html">企業情報</a></p>
+									<ul class="footer_list">
+										<li><a href="info/president/index.html">ごあいさつ</a></li>
+										<!--<li><a href="../info/idea/index.html">経営理念・ビジョン</a></li>-->
+										<li><a href="info/index.html">会社概要</a></li>
+										<li><a href="info/history/index.html">沿革</a></li>
+                                        <li><a href="info/contact/index.html">事業所一覧</a></li>
+                                        <li><a href="info/csr/index.html">CSR情報</a></li>
+									</ul>
+								</div>
+								<div class="left_area">
+									<p><a href="products/index.html">製品・サービス</a></p>
+									<ul class="footer_list">
+										<li><a href="products/building/index.html">建築防災設備</a></li>
+                                        <li><a href="products/fire_information/index.html">自動火災報知設備</a></li>
+										<li><a href="products/plant/index.html">プラント防災設備</a></li>
+										<li><a href="products/marine/index.html">船舶防災設備</a></li>
+										<li><a href="products/maintenance/index.html">メンテナンス</a></li>
+										<li><a href="products/fire_extinguisher/index.html">消火器</a></li>
+										<li><a href="products/fire_protection/index.html">防災用品</a></li>
+                                        <li><a href="products/fire_engine/index.html">消防自動車</a></li>
+									</ul>
+								</div>
+								<div class="left_area">
+									<p><a href="ir/index.html">投資家の皆様へ</a></p>
+									<ul class="footer_list">
+										<li><a href="ir/vision/president/index.html">経営ビジョン</a></li>
+										<li><a href="ir/library/financial_results/index.html">IRライブラリ</a></li>
+										<li><a href="ir/financial_performance/index.html">財務・業績データ</a></li>
+										<li><a href="ir/stock/stock_basic_information/index.html">株式情報</a></li>
+										<li><a href="ir/ir_calendar/index.html">IRカレンダー</a></li>
+									</ul>
+								</div>
+								<div class="left_area">
+									<p><a href="recruit/index.html">採用情報</a></p>
+									<ul class="footer_list">
+										<li><a href="recruit/new/schedule/index.html">採用について</a></li>
+										<li><a href="recruit/new/president/index.html">社長あいさつ</a></li>
+                                        <li><a href="recruit/new/index.html">新卒採用</a></li>
+										<li><a href="recruit/career/index.html">中途採用</a></li>
+									</ul>
+								</div>
+								<div class="left_area">
+								  <p><a href="voice/index.php">ご意見箱</a></p>
+									<p><a href="inquiry/index.php">お問合せ</a></p>
+                                    <p><a href="knowledge/index.html">防災豆知識</a></p>
+								</div>
+							</div><!-- / .fix -->
+						</div><!-- / .fix left_areWrap -->
+				</div><!-- / .fix footer_nav -->
+			</div><!-- / .siteWrap2 -->
+		</div><!-- / .footer_bg01 -->
+
+
+		<p class="t_center"><img src="img/top/logo.png" width="162" height="37" alt="NDCgroup"></p>
+
+
+		</div><!-- / footerNavi -->
+
+
+		<div id="footerLink">
+			<div class="siteWrap2">
+				<ul>
+					<li class="first"><a href="privacy_policy/index.html"><span>プライバシーポリシー</span></a></li>
+					<li><a href="terms_of_service/index.html"><span>サイトご利用規約</span></a></li>
+					<li><a href="link/index.html"><span>リンク</span></a></li>
+					<li><a href="sitemap.html"><span>サイトマップ</span></a></li>
+				</ul>
+				<p id="copyright">(c) Nippon Dry-Chemical Co.,Ltd. All Rights Reserved.</p>
+			</div><!-- / siteWrap2 -->
+		</div><!-- / footerLink -->
+
+
+	</footer><!-- / footer -->
+
+
+        <section id="SP_content" class="display_sp">
+          <div class="site_wrapper">
+           <div class="bunner_area">
+            <ul>
+              <li><a href="knowledge/kno_04/index.html"><img src="img/common/img_01.jpg" width="187" height="75" class="scale" alt="消火器の廃棄について"></a></li>
+              <li><a href="productdata/index.html"><img src="img/common/img_02.jpg" width="187" height="75" class="scale" alt="消火器の取扱説明書"></a></li>
+            </ul>
+            <ul>
+              <li><a href="products/plant/inertgas/index.html"><img src="img/common/img_03.jpg" width="187" height="75" class="scale" alt="人名と資産を守る環境に優しいIG541"></a></li>
+              <li><a href="products/fire_extinguisher/aluminum/index.html"><img src="img/common/img_04.jpg" width="187" height="75" class="scale" alt="NDC消火器アルミシリーズ"></a></li>
+            </ul>
+            <ul>
+              <li><a href="http://www.jfema.or.jp/topics/topics17.html" target="_blank"><img src="img/common/img_05.jpg" width="166" height="103" class="scale" alt="くらしにプラス住宅用消火器"></a></li>
+              <li><a href="products/vesda/"><img src="img/common/img_06.jpg" width="187" height="84" class="scale" alt="超高感度煙検知システム"></a></li>
+            </ul>
+            <ul>
+              <li><a href="products/fire_information/interphone/index.html"><img src="img/common/img_10.jpg" width="200" height="95" class="scale" alt="集合住宅マンション設備のリニューアルを行いませんか"></a></li>
+              <li><a href="products/fire_information/renewal/index.html"><img src="img/common/img_11.jpg" width="200" height="95" class="scale" alt="防災設備のリニューアルを行いませんか？"></a></li>
+            </ul>
+            <ul>
+              <li><a href="http://funtoshare.env.go.jp/" target="_blank"><img src="img/common/img_07.jpg" width="187" height="45" class="scale" alt="Fun to Share"></a></li>
+              <!--<li><a href="http://plusyou.tse.or.jp/" target="_blank"><img src="img/common/img_08.jpg" width="187" height="35" class="scale"></a></li>-->
+              <li><a href="http://kmasterplus.pronexus.co.jp/main/corp/m/1/m130/index.html" target="_blank"><img src="img/common/img_09.jpg" width="187" height="27" class="scale" alt="NDC電子公告"></a></li>
+            </ul>
+           </div>
+          </div>
+        </section>
+
+
+
+         <footer class="display_sp">
+          <div class="SP_footer">
+            <ul>
+              <li><a href="info/index.html"><span>企業情報</span></a></li>
+              <li><a href="products/index.html"><span>製品及びサービス</span></a></li>
+              <li><a href="ir/index.html"><span>投資家の皆様へ</span></a></li>
+              <li><a href="voice/index.php"><span>ご意見箱</span></a></li>
+              <li><a href="inquiry/index.php"><span>お問い合わせ</span></a></li>
+              <li><a href="recruit/index.html"><span>採用情報</span></a></li>
+              <li><a href="sitemap.html"><span>サイトマップ</span></a></li>
+            </ul>
+          </div>
+         </footer><!-- / .display_sp -->
+
+
+
+
+<!-- / allWrap2 -->
+
+</body>
+</html>

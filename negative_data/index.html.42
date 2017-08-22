@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>第一カッター興業株式会社【ウォータージェット工法・ダイヤモンド工法（フラット・ウォール・ワイヤーソーイング他）】</title>
+<meta name="keywords" content="第一カッター興業,ウォータージェット工法,ダイヤモンド工法,フラット,ウォール,ワイヤーソーイング,工場,ビル,メンテナンス,土木,建築,道路,空港" />
+<meta name="description" content="ウォータージェット工法やダイヤモンド工法の技術を駆使して、様々な現場の問題を解決する「第一カッター興業株式会社」のオフィシャルサイトです。" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<link href="./css/index.css" rel="stylesheet" type="text/css" />
+<script src="./js/jquery.js" type="text/javascript"></script>
+<script src="./js/jquery.scroll.js" type="text/javascript"></script>
+<script src="./js/jquery.cookie.js" type="text/javascript"></script>
+<script src="./js/jquery.fontResizer.js" type="text/javascript"></script>
+<script src="./js/onoff.js" type="text/javascript"></script>
+<script src="./js/jquery.exinlineblock.1.0.0-min.js" type="text/javascript"></script>
+<!--[if lte IE 7 ]><script src="./js/minmax-1.0.js" type="text/javascript"></script><![endif]-->
+<script src="./js/jquery.pngFix.pack.js" type="text/javascript"></script>
+<script src="./js/heightLine.js" type="text/javascript"></script>
+<script src="./js/scripts.js" type="text/javascript"></script>
+<script type="text/javascript">
+(function($){
+  var timer;
+  var $img = [];
+  
+  $(function(){
+      $img.push($('<img/>').attr({ src: '/images/50th_anniv.jpg', width: 950, height: 350 }).css({
+        position: 'absolute',
+        top: 0,
+        left: 0
+      }).prependTo($('#main-image')));
+    for(var i = 2; i < 8; i++){
+      $img.push($('<img/>').attr({ src: './images/main_image0' + i + '.jpg', width: 950, height: 350 }).css({
+        position: 'absolute',
+        top: 0,
+        left: 0
+      }).prependTo($('#main-image')));
+    }
+    $img[0].clone().prependTo($('#main-image'));
+    
+    $('#main-image .nav a').each(function(i){
+      $(this).hover(function(){
+        if(timer)
+          clearTimeout(timer);
+        var length = $('#main-image > img').length;
+        $img[i+1].clone().insertBefore($('#main-image > .nav')).css({ opacity: 0 }).animate({
+          opacity: 1
+        }, 500, function(){
+          if($('#main-image > img').length == length + 1){
+            $('#main-image > img:lt(' + ($('#main-image > img').length - 1) + ')').remove();
+          }
+        });
+      },function(){
+        timer = setTimeout(function(){
+          var length = $('#main-image > img').length;
+          $img[0].clone().insertBefore($('#main-image > .nav')).css({ opacity: 0 }).animate({
+            opacity: 1
+          }, 500, function(){
+            if($('#main-image > img').length == length + 1){
+              $('#main-image > img:lt(' + ($('#main-image > img').length - 1) + ')').remove();
+            }
+          });
+        }, 750);
+      });
+    });
+  });
+})(jQuery);
+</script>
+<!-- xj //-->
+<link href="./css/xj.css" rel="stylesheet" type="text/css" />
+<script src="./js/xj/XjStorageLoaderTop.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(function(){
+  var xj_storage_loader = new XjStorageLoaderNews();
+  });
+</script>
+<!--// xj -->
+</head>
+
+<body>
+
+<div class="header" id="body-header">
+  <div class="section clearfix">
+    <h1>ウォータージェット工法・ダイヤモンド工法（フラット・ウォール・ワイヤーソーイング他）で都市づくりを支える第一カッター興業株式会社</h1>
+    <div class="hgroup" id="company_info">
+      <p id="company_image"><a href="http://www.daiichi-cutter.co.jp/"><img src="./images/company_image.jpg" alt="第一カッター興業株式会社" /></a></p>
+      <p><img src="./images/company_copy.jpg" alt="われわれに切れないものはない。" /></p>
+    </div>
+    <div class="nav" id="header-nav01">
+      <ul class="ilb">
+        <li class="ilb"><a href="./fmail/fmail.cgi">お問い合わせ</a></li>
+        <li class="ilb"><a href="./sitemap.html">サイトマップ</a></li>
+      </ul>
+      
+      <div class="ilb">
+        <img src="./images/font-resizer-title.jpg" alt="文字サイズ" />
+        <span class="fontResizer75"><img src="./images/font-resizer-small.jpg" alt="小" /></span>
+        <span class="fontResizer100"><img src="./images/font-resizer-medium.jpg" alt="中" /></span>
+        <span class="fontResizer125"><img src="./images/font-resizer-large.jpg" alt="大" /></span>
+      </div>
+    </div>
+  </div>
+  
+  <div class="nav clearfix" id="header-nav02">
+    <ul class="lefted">
+      <li><a href="http://www.daiichi-cutter.co.jp/"><img src="./images/header-nav02-01_on.jpg" alt="ホーム" /></a></li>
+      <li><a href="./service/"><img src="./images/header-nav02-02_off.jpg" alt="事業・サービス" /></a>
+        <ul>
+          <li><a href="./service/industrial_maintenance/">生産設備メンテナンス</a></li>
+          <li><a href="./service/building_maintenance/">ビルメンテナンス</a></li>
+          <li><a href="./service/construction/">建築関連工事</a></li>
+          <li><a href="./service/civil_engineering/">土木工事</a></li>
+          <li><a href="./service/city_engineering/">都市土木工事</a></li>
+          <li><a href="./service/road_airport_construction/">道路・空港工事</a></li>
+          <li><a href="./service/intermediate_processing_facility/">汚泥中間処理事業</a></li>
+        </ul>
+      </li>
+      <li><a href="./technology/"><img src="./images/header-nav02-03_off.jpg" alt="技術とテクノロジー" /></a>
+        <ul>
+          <li><a href="./technology/water-jet/">ウォータージェット工法</a></li>
+          <li><a href="./technology/diamond/">ダイヤモンド工法</a></li>
+          <li><a href="./technology/deck/">下地処理工法</a></li>
+          <li><a href="./technology/platina/">プラコンフロア</a></li>
+          <li><a href="./technology/supersander/">スーパーサンダー</a></li>
+        </ul>
+      </li>
+      <li><a href="./company/"><img src="./images/header-nav02-04_off.jpg" alt="企業情報" /></a>
+        <ul>
+          <li><a href="./company/about.html">会社概要</a></li>
+          <li><a href="./company/fundamental.html">理念と技術</a></li>
+          <li><a href="./company/message.html">代表挨拶</a></li>
+          <li><a href="./company/history.html">沿革</a></li>
+          <li><a href="./company/organization.html">組織案内</a></li>
+          <li><a href="./company/office.html">営業所一覧</a></li>
+          <li><a href="./wj-co2/">カーボン・オフセットの取組み</a></li>
+          <li><a href="./company/inquiry.html">各種お問い合わせ先</a></li>
+          <li><a href="./fmail/fmail.cgi">お問い合わせフォーム</a></li>
+          <li><a href="./company/links.html">関連リンク</a></li>
+        </ul>
+      </li>
+      <li><a href="./ir/"><img src="./images/header-nav02-05_off.jpg" alt="株主・投資家情報" /></a>
+        <ul>
+          <li><a href="./ir/settlement.html">決算情報</a></li>
+          <li><a href="./ir/kessankoukoku.html">業績報告</a></li>
+          <li><a href="/ir/kessan.html">決算説明会資料</a></li>
+          <li><a href="/ir/edinet.html">有価証券報告書</a></li>
+          <li><a href="http://stocks.finance.yahoo.co.jp/stocks/detail/?code=1716.T" target="_blank">株価情報（Yahoo!ファイナンス）</a></li>
+        </ul>
+      </li>
+      <li><a href="./recruit/"><img src="./images/header-nav02-06_off.jpg" alt="採用情報" /></a>
+        <ul>
+          <li><a href="./recruit/message.html">企業からのメッセージ</a></li>
+          <li><a href="./recruit/scheme.html">一般採用募集案内</a></li>
+          <li><a href="./recruit/information.html">新卒向け募集案内</a></li>
+          <li><a href="./recruit/internship.html">大学生向けインターンシップ</a></li>
+        </ul>
+      </li>
+    </ul>
+    <div class="righted">
+      <form action="./search/" method="post">
+        <input type="text" name="q" value="" id="search_text" />
+        <input type="image" src="./images/search_bt.jpg" value="検索" />
+      </form>
+    </div>
+  </div>
+</div>
+
+<div class="section clearfix fontResizerTarget" id="body-main">
+  <div id="main-image">
+    <div class="nav">
+      <ul>
+        <li><a href="./service/industrial_maintenance/"><img src="./images/main-image-nav01_off.png" alt="生産設備メンテナンス" width="190" height="54" class="disableOnOff" /></a></li>
+        <li><a href="./service/building_maintenance/"><img src="./images/main-image-nav02_off.png" alt="ビルメンテナンス" width="150" height="54" class="disableOnOff" /></a></li>
+        <li><a href="./service/construction/"><img src="./images/main-image-nav03_off.png" alt="建築関連工事" width="150" height="54" class="disableOnOff" /></a></li>
+        <li><a href="./service/civil_engineering/"><img src="./images/main-image-nav05_off.png" alt="土木工事" width="130" height="54" class="disableOnOff" /></a></li>
+        <li><a href="./service/city_engineering/"><img src="./images/main-image-nav04_off.png" alt="都市土木工事" width="140" height="54" class="disableOnOff" /></a></li>
+        <li><a href="./service/road_airport_construction/"><img src="./images/main-image-nav06_off.png" alt="道路・空港工事" width="180" height="54" class="disableOnOff" /></a></li>
+      </ul>
+    </div>
+  </div>
+  
+  <div class="section" id="main-wrapper">
+    <div class="article" id="main-content">
+      <div class="section">
+        <h2><img src="./images/index_h2-01.jpg" alt="お知らせ" /></h2>
+        <div class="information_view" id="index_information01">
+          <table>
+            <tbody>
+        
+        <tr>
+          <th valign="top">2017.08.09</th>
+          <td><a href="/news/50th_anniv.html">当社は2017年8月9日をもちまして設立50周年を迎えました。</a></td>
+        </tr>
+        <tr>
+          <th valign="top">2017.08.07</th>
+          <td>当社は2017年8月11日（金）～2017年8月20日（日）まで夏季休業とさせていただきます。</td>
+        </tr>
+        <tr>
+          <th valign="top">2017.07.18</th>
+          <td>
+           <a href="/news/sugowaza170626.html">当社出演の NHK総合テレビ「超絶 凄ワザ!」 海外向け放送決定のお知らせ</a><br />
+           この度、NHK WORLD TV「Supreme Skills！」として、<br />海外向けに全編英語版の放送が決まりました。<br />
+           放送予定日時（日本時間）：　2017年8月5日(土)　13時10分～　<br />（海外向けのため時差が考慮され、同番組が24時間中に4回放送されます。）<br />
+           NHK WORLD TVは国内からもライブストリーミングにてご視聴いただけます。<br />
+           詳しくは<a href="/news/sugowaza170626.html">こちら</a>。<br />
+          </td>
+        </tr>
+        <tr>
+          <th valign="top">2017.06.28</th>
+          <td>
+           <a href="/news/sugowaza170626.html">NHK総合テレビにて放送の「超絶 凄ワザ!」に当社が出演いたしました。</a><br />
+           再放送が予定されていますので、見逃してしまった方もぜひご視聴ください。<br />
+           再放送予定日時：　2017年6月30日(金)　午前1時～　（木曜深夜）<br />
+           詳しくは<a href="/news/sugowaza170626.html">こちら</a>。<br />
+          </td>
+        </tr>
+        <tr>
+          <th valign="top">2017.06.02</th>
+          <td>
+           <a href="/news/sugowaza170626.html">NHK総合テレビにて放送の「超絶 凄ワザ!」に当社が出演いたします。</a><br />
+           放送予定日時：　2017年6月26日(月)　22時25分～<br />
+           詳しくは<a href="/news/sugowaza170626.html">こちら</a>。<br />
+          </td>
+        </tr>
+        <tr>
+          <th valign="top">2017.03.01</th>
+          <td><a href="/recruit/information.php">2018年度の新卒募集を開始致しました。</a></td>
+        </tr>
+        <tr>
+          <th valign="top">2017.01.18</th>
+          <td><a href="/news/tamakogyo16.html">「第16回 たま工業交流展」出展のお知らせ</a><br />2017年2月23日～24日、都立多摩職業能力開発センターにて開催される「第16回 たま工業交流展」に出展いたします。是非、お立ち寄りください。詳細は<a href="/news/tamakogyo16.html">こちら</a>。</td>
+        </tr>
+        <tr>
+          <th valign="top">2016.12.26</th>
+          <td>当社は2016年12月28日（水）～2017年1月5日（木）まで冬季休業とさせていただきます。</td>
+        </tr>
+        <tr>
+          <th valign="top">2016.12.14</th>
+          <td><a href="/news/coaward6th.html">第６回カーボン・オフセット大賞「奨励賞」受賞のお知らせ</a><br />プレスリリース（PDF）は<a href="/pdf/news/2016/1214.pdf" target="_blank">こちら</a>。</td>
+        </tr>
+        <tr>
+          <th valign="top">2016.12.09</th>
+          <td><a href="/news/in_gunma2017.html">「ものづくりフェアinぐんま２０１７」出展のお知らせ</a><br />2017年1月24日～25日、群馬県高崎市・ビエント高崎にて開催される「ものづくりフェアinぐんま２０１７」に出展いたします。是非、お立ち寄りください。詳細は<a href="/news/in_gunma2017.html">こちら</a>。</td>
+        </tr>
+        <!--- tr>
+          <th valign="top">201x.xx.xx</th>
+          <td><a href="/recruit/internship.html">大学生向けインターンシップの募集を開始いたしました。</a></td>
+        </tr --->
+        
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <p class="align_r"><a href="./news/" class="ilb">お知らせ一覧はこちら</a></p>
+      
+      <div class="section">
+        <h2><img src="./images/index_h2-02.jpg" alt="IR情報" /></h2>
+        <div class="information_view" id="index_information02">
+          <!-- XJ年読み込み //--->
+          <div class="yearSelect" align="right">
+              <form action="#" method="post" name="form" id="form">
+              <select id="xj-select-year_s"></select>
+              </form>
+          </div>
+          <!--// XJ年読み込み --->
+          <table>
+            <!-- xj //-->
+            <tbody id="xj-mainlist" class="topNews"></tbody>
+            <!--// xj -->
+          </table>
+        </div>
+      </div>
+      <p class="align_r"><a href="./ir/" class="ilb">IR情報はこちら</a></p>
+    </div>
+    
+    <div class="aside" id="main-nav">
+            
+      <div class="nav">
+        <dl id="president_tv">
+          <dd><a href="http://kanagawa-president.net/daiichi-cutter" target="_blank"><img src="http://movie.japan-president.net/banner/daiichi-cutter" /></a></dd>
+        </dl>
+        <dl id="main-nav-technology">
+          <dd><a href="./technology/platina/"><img src="./images/main-image-nav04_off.jpg" alt="プラコンフロア" /></a></dd>
+        </dl>
+      </div>
+      
+      <br />
+      
+      <div class="nav">
+        <dl id="main-nav-technology">
+          <dt><img src="./images/main-nav-title01.jpg" alt="技術とテクノロジー" /></dt>
+          <dd><a href="./technology/water-jet/"><img src="./images/main-image-nav01_off.jpg" alt="ウォータージェット工法" /></a></dd>
+          <dd><a href="./technology/diamond/"><img src="./images/main-image-nav02_off.jpg" alt="ダイヤモンド工法" /></a></dd>
+          <dd>その他の工法は<a href="./technology/">技術とテクノロジー</a>を<br />ご覧ください</dd>
+        </dl>
+        <dl id="main-nav-business">
+          <dt><img src="./images/main-nav-title02.jpg" alt="事業・サービス" /></dt>
+          <dd><a href="./service/industrial_maintenance/" class="ilb">生産設備メンテナンス</a></dd>
+          <dd><a href="./service/building_maintenance/" class="ilb">ビルメンテナンス</a></dd>
+          <dd><a href="./service/construction/" class="ilb">建築関連工事</a></dd>
+          <dd><a href="./service/civil_engineering/" class="ilb">土木工事</a></dd>
+          <dd><a href="./service/city_engineering/" class="ilb">都市土木工事</a></dd>
+          <dd><a href="./service/road_airport_construction/" class="ilb">道路・空港工事</a></dd>
+          <dd><a href="./service/intermediate_processing_facility/" class="ilb">汚泥中間処理事業</a></dd>
+        </dl>
+      </div>
+      
+      <br />
+      <div class="nav">
+        <dl id="c_offset">
+          <dd><a href="./wj-co2/"><img src="./wj-co2/offset-logo.jpg" /></a></dd>
+        </dl>
+      </div>
+      
+      
+         <br />
+         <div align="right">
+            <dl align="right">
+               <dd align="right">
+               
+                <!-- Begin mynavi Navi Link -->
+                
+                <a href="https://job.mynavi.jp/18/pc/search/corp82570/outline.html" target="_blank">
+                <img src="https://job.mynavi.jp/conts/kigyo/2018/logo/banner_entry_130_130.gif" alt="マイナビ2018" border="0">
+                </a>
+                
+                <!-- End mynavi Navi Link -->
+                
+                <br /><br />
+                
+                <!--▼ここからコピーします //-->
+                <div align="center">
+                <a href="https://job.rikunabi.com/2018/company/r406400088/" target="new">
+                <img src="https://job.rikunabi.com/2018/static/common/contents/logos/rikunabi/image/rn_logo_b.gif" width="200" height="40" border="0">
+                </a><br>
+                <a href="https://job.rikunabi.com/2018/company/r406400088/" target="new">
+                リクナビの弊社画面へ
+                </a>
+                </div>
+                <!--▲ここまでコピーします //-->
+               
+               </dd>
+            </dl>
+         </div>
+                  
+    </div>
+  </div>
+</div>
+
+<div class="footer" id="body-footer">
+  <div class="section clearfix">
+    <dl>
+      <dt><a href="./service/">事業・サービス</a></dt>
+      <dd><a href="./service/industrial_maintenance/">生産設備メンテナンス</a></dd>
+      <dd><a href="./service/building_maintenance/">ビルメンテナンス</a></dd>
+      <dd><a href="./service/construction/">建築関連工事</a></dd>
+      <dd><a href="./service/civil_engineering/">土木工事</a></dd>
+      <dd><a href="./service/city_engineering/">都市土木工事</a></dd>
+      <dd><a href="./service/road_airport_construction/">道路・空港工事</a></dd>
+      <dd><a href="./service/intermediate_processing_facility/">汚泥中間処理事業</a></dd>
+    </dl>
+    <dl>
+      <dt><a href="./technology/">技術とテクノロジー</a></dt>
+      <dd><a href="./technology/water-jet/">ウォータージェット工法</a></dd>
+      <dd><a href="./technology/diamond/">ダイヤモンド工法</a></dd>
+      <dd><a href="./technology/deck/">下地処理工法</a></dd>
+      <dd><a href="./technology/platina/">プラコンフロア</a></dd>
+      <dd><a href="./technology/supersander/">スーパーサンダー</a></dd>
+    </dl>
+    <dl>
+      <dt><a href="./company/">企業情報</a></dt>
+      <dd><a href="./company/about.html">会社概要</a></dd>
+      <dd><a href="./company/fundamental.html">理念と技術</a></dd>
+      <dd><a href="./company/message.html">代表挨拶</a></dd>
+      <dd><a href="./company/history.html">沿革</a></dd>
+      <dd><a href="./company/organization.html">組織案内</a></dd>
+      <dd><a href="./company/office.html">営業所一覧</a></dd>
+      <dd><a href="./wj-co2/">カーボン・オフセットの取組み</a></dd>
+      <dd><a href="./company/inquiry.html">各種お問い合わせ先</a></dd>
+      <dd><a href="./fmail/fmail.cgi">お問い合わせフォーム</a></dd>
+      <dd><a href="./company/links.html">関連リンク</a></dd>
+    </dl>
+    <dl>
+      <dt><a href="./recruit/">採用情報</a></dt>
+      <dd><a href="./recruit/message.html">企業からのメッセージ</a></dd>
+      <dd><a href="./recruit/scheme.html">一般採用募集案内</a></dd>
+      <dd><a href="./recruit/information.html">新卒向け募集案内</a></dd>
+      <dd><a href="./recruit/internship.html">大学生向けインターンシップ</a></dd>
+    </dl>
+    <dl>
+      <dt><a href="./ir/">株主・投資家の皆様へ</a></dt>
+      <dd><a href="./ir/settlement.html">決算情報</a></dd>
+      <dd><a href="./ir/kessankoukoku.html">業績報告</a></dd>
+      <dd><a href="/ir/kessan.html">決算説明会資料</a></dd>
+      <dd><a href="/ir/edinet.html">有価証券報告書</a></dd>
+      <dd><a href="http://stocks.finance.yahoo.co.jp/stocks/detail/?code=1716.T" target="_blank">株価情報（Yahoo!ファイナンス）</a></dd>
+    </dl>
+  </div>
+  
+  <div class="section clear clearfix">
+    <div class="section lefted">
+      <p><img src="./images/footer-company.jpg" alt="第一カッター興業　株式会社" /></p>
+      <address><img src="./images/copyright.jpg" alt="COPYRIGHT &copy; DAI-ICHI CUTTER KOGYO K.K. ALL RIGHTS RESERVED" /></address>
+    </div>
+    
+    <div class="nav righted">
+      <ul>
+        <li class="ilb"><a href="./policy.html">サイトポリシー</a></li>
+        <li class="ilb"><a href="./sitemap.html">サイトマップ</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+<!-- for Debugging
+1503302662
+1385856000
+-->

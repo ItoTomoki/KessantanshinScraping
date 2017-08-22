@@ -1,0 +1,178 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="description" content="ブルドックソースのオフィシャルウェブサイトです。会社概要、社長挨拶、財務情報、沿革、事業所一覧等のブルドックソースに関する基本情報をご紹介します。">
+<meta name="keywords" content="">
+<meta name="viewport" content="initial-scale=1, minimum-scale=1, user-scalable=yes">
+<title>ブルドックソース株式会社</title>
+<link rel="shortcut icon" href="favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="http://bulldognew.minira.net/apple-touch-icon-precomposed.png">
+
+<link rel="stylesheet" type="text/css" href="common/css/reset.css" media="all">
+<link rel="stylesheet" type="text/css" href="common/css/pushy.css" media="all">
+<link rel="stylesheet" type="text/css" href="common/css/slick.css" media="all">
+<link rel="stylesheet" type="text/css" href="common/css/slick-theme.css" media="all">
+<link rel="stylesheet" type="text/css" href="common/css/cmn_layout.css" media="all">
+<link rel="stylesheet" type="text/css" href="common/css/cmn_style.css" media="all">
+<link rel="stylesheet" type="text/css" href="css/style.css" media="all">
+<script src="common/js/jquery.js"></script>
+<script src="common/js/jquery.matchHeight-min.js"></script>
+<script src="common/js/slick.min.js"></script>
+<script src="common/js/common.js"></script>
+</head>
+<body class="slidebody">
+<!-- SPMenu -->
+<nav class="pushy pushy-left">
+	<div class="pushyTtl">
+		<p class="ttl">メニュー</p>
+		<p class="closeBtn menu-btn">閉じる</p>
+	</div>
+	<ul class="nav1">
+		<li><a href="./">HOME</a></li>
+		<li><a href="recipe/">レシピ</a></li>
+		<li><a href="products/">商品情報</a></li>
+		<li><a href="company/">会社・IR情報</a></li>
+		<li><a href="special/">もっとソースを知る・楽しむ</a></li>
+		<li><a href="about/">ブルドックソースフィロソフィー</a></li>
+		<li><a href="products/catalogue/order.php">通信販売のご案内</a></li>
+	</ul>
+	<ul class="nav2">
+		<li><a href="contact/">お問い合せ</a></li>
+		<li><a href="privacy/">プライバシーポリシー</a></li>
+		<li><a href="sitemap/">サイトマップ</a></li>
+	</ul>
+	<div class="nav3">
+		<p class="ttl">グループ会社</p>
+		<ul>
+			<li><a href="http://www.ikari-s.co.jp/" target="_blank">イカリソース株式会社</a></li>
+			<li><a href="https://www.bulldog.co.jp/cn/" target="_blank">富留得客（北京）商貿有限公司（中文）</a></li>
+			<li><a href="https://www.bulldog.co.jp/fr/" target="_blank">フランス語サイト（Français）</a></li>
+			<li><a href="http://tonkatsu.bulldog.jp/" target="_blank">とんかつサイト（English）</a></li>
+		</ul>
+	</div>
+</nav>
+
+<header id="header" class="spNoBdr">
+	<div class="contentIn">
+		<div class="drwBtn menu-btn">
+			<img src="common/img/hd_drwbtn.svg" alt="メニュー">
+		</div>
+		<p class="logo"><a href="./"><img src="common/img/img_logo01_pc.png" alt="Bull-dog ブルドックソース株式会社"></a></p>
+	</div>
+</header>
+<!-- / #header -->
+
+<nav id="gNavi">
+	<div class="contentIn">
+		<ul class="nav01">
+			<li class="current"><a href="./">HOME</a></li>
+			<li><a href="recipe/">レシピ</a></li>
+			<li><a href="products/">商品情報</a></li>
+			<li><a href="about/">ブルドックソース<br class="pcOnly">フィロソフィー</a></li>
+			<li><a href="special/">もっとソースを<br class="pcOnly">知る・楽しむ</a></li>
+			<li><a href="company/">会社情報・IR</a></li>
+		</ul>
+		<ul class="nav02">
+			<li><a href="contact/">お問い合わせ</a></li>
+			<li><a href="sitemap/">サイトマップ</a></li>
+		</ul>
+	</div>
+</nav>
+<!-- / #gNavi -->
+<div id="container" class="index">
+	<ul class="slider umasauce">
+		<li><a href="special/uma-sauce/" target="_blank"><img src="img/index/img_top01.jpg" alt="うまソースで朝ラクかんたん作り置きレシピ"></a></li>
+		<li><a href="special/essence/awabi/" target="_blank"><img src="img/index/slider02.jpg" alt="食材にかける、つけるだけでも、ごちそうに早変わり！濃厚あわびの肝エッセンスソース"></a></li>
+<!--		<li><a href="http://recruit.bulldog.co.jp/" target="_blank"><img src="img/index/slider03.jpg" alt="ブルドックソース、新卒採用、採用"></a></li> -->
+		<li><a href="https://okonavi.jp/gakusai/" target="_blank"><img src="img/index/slider04.jpg" alt="模擬店デザインコンテスト 結果発表！"></a></li>
+		<li><a href="https://umasauce-battle.com/" target="_blank"><img src="img/index/slider05.jpg" alt="うまソース対決キャンペーン"></a></li>
+	</ul>
+	<ul class="linkList01">
+		<li class="recipe"><a href="recipe/"><img src="img/index/img_top02.jpg" alt="レシピ"></a></li>
+		<li class="nolink"><img src="img/index/img_top03.jpg" alt=""></li>
+	</ul>
+	<ul class="linkList02">
+		<li class="products w540"><a href="products/"><img src="img/index/img_top04.jpg" alt="商品情報"></a></li>
+		<li class="philosophy w540"><a href="about/"><img src="img/index/img_top05.jpg" alt="フィロソフィー"></a></li>
+		<li class="since w266"><a href="company/115anniversary.html"><img src="img/index/img_top06.jpg" alt="おかげさまで１１５周年"></a></li>
+		<li class="sauce w266"><a href="special/"><img src="img/index/img_top07.jpg" alt="ソース 知れば知るほど"></a></li>
+		<li class="company w540"><a href="company/"><img src="img/index/img_top08.jpg" alt="会社情報・IR"></a></li>
+		<li class="webshop w266"><a href="products/catalogue/order.php"><img src="img/index/img_top09.jpg" alt="通信販売のご案内"></a></li>
+		<li class="contact w266"><a href="contact/"><img src="img/index/img_top10.jpg" alt="お問い合わせ"></a></li>
+	</ul>
+	<section class="news">
+		<h2 class="ttlStyle16">NEWS</h2>
+		<ul class="newsList">
+                        			<li><a href="https://www.bulldog.co.jp/release/uploads/20170821.pdf" target="_blank"><span class="date">2017.08.21</span><span class="title">【訃報】弊社取締役会長（前社長）　池田　章子　逝去のお知らせ</span></a></li>
+                        			<li><a href="https://www.bulldog.co.jp/company/earnings.html"><span class="date">2017.07.28</span><span class="title">平成30年3月期 第１四半期決算短信</span></a></li>
+                        			<li><a href="https://www.bulldog.co.jp/release/uploads/20170718-01.pdf" target="_blank"><span class="date">2017.07.18</span><span class="title">とんかつソースＰＬＵＳ・お好み焼ソースＰＬＵＳ 新発売</span></a></li>
+                        			<li><a href="https://www.bulldog.co.jp/release/uploads/20170718-02.pdf" target="_blank"><span class="date">2017.07.18</span><span class="title">ブルドック塩分７０%カットウスター・中濃ソース透明小袋 新発売</span></a></li>
+                        			<li><a href="https://www.bulldog.co.jp/company/soukai.html"><span class="date">2017.06.09</span><span class="title">第92回定時株主総会招集ご通知の一部修正について</span></a></li>
+                        		</ul>
+		<p class="link"><a href="release/">NEWS TOP</a></p>
+	</section>
+</div>
+
+<footer id="footer">
+	<p id="pageTop02" class="spBigBtn"><a href="#">ページアップ ▲</a></p>
+	<div class="contentIn">
+		<div class="fR">
+			<ul class="nav01">
+				<li class="pcOnly"><a href="./">HOME</a></li>
+				<li class="col3no1"><a href="recipe/">レシピ</a></li>
+				<li class="col3no2"><a href="products/">商品情報</a></li>
+				<li class="col3no3"><a href="company/">会社・IR情報</a></li>
+				<li class="ls02 pcOnly"><a href="about/">ブルドックソースフィロソフィー</a></li>
+				<li class="col2no1"><a href="special/">もっとソースを知る・楽しむ</a></li>
+				<li class="col2no2 sp"><a href="about/">ブルドックソースフィロソフィー</a></li>
+				<li class="col2no1"><a href="products/catalogue/order.php">通信販売のご案内</a></li>
+			</ul>
+			<ul class="nav02 pcOnly">
+				<li class="linkContact"><a href="contact/">お問い合せ</a></li>
+				<li class="sp"><a href="privacy/">プライバシーポリシー</a></li>
+				<li class="linkSitemap"><a href="sitemap/">サイトマップ</a></li>
+			</ul>
+			<ul class="nav03 pcOnly">
+				<li class="linkGroupcompany">グループ会社：</li>
+				<li><a href="http://www.ikari-s.co.jp/" target="_blank">イカリソース株式会社</a>｜</li>
+				<li><a href="cn/" target="_blank">富留得客（北京）商貿有限公司（中文）</a>｜</li>
+				<li><a href="fr/" target="_blank">フランス語サイト（Français）</a>｜</li>
+				<li><a href="http://tonkatsu.bulldog.jp/" target="_blank">とんかつサイト（English）</a></li>
+			</ul>
+		</div>
+		<div class="fL">
+			<p class="logo"><img src="common/img/img_logo02_sp.jpg" alt="Bull-dog ブルドックソース株式会社"></p>
+			<ul class="nav03 clearfix spOnly">
+				<li>グループ会社</li>
+				<li><a href="http://www.ikari-s.co.jp/" target="_blank">イカリソース株式会社</a></li>
+				<li><a href="cn/" target="_blank">富留得客（北京）商貿有限公司（中文）</a></li>
+				<li><a href="fr/" target="_blank">フランス語サイト（Français）</a></li>
+				<li><a href="http://tonkatsu.bulldog.jp/" target="_blank">とんかつサイト（English）</a></li>
+			</ul>
+			<ul class="nav02 spOnly">
+				<li class="linkContact"><a href="contact/">お問い合せ</a></li>
+				<li class="sp"><a href="privacy/">プライバシーポリシー</a></li>
+				<li class="linkSitemap"><a href="sitemap/">サイトマップ</a></li>
+			</ul>
+		</div>
+		<p class="copyright text_right">Copyright(c)BULL-DOG SAUCE CO.,LTD. All rights reserved.</p>
+	</div>
+</footer>
+
+<!-- / #footer -->
+
+<script src="common/js/pushy.min.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-10704456-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</body>
+</html>

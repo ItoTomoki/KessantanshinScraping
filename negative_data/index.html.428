@@ -1,0 +1,227 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=100" > <!-- IE8 mode -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta name="keywords" content="きもの,着物,ジュエリー,ファッション,専門商社,京都,東京,上場,ウライ,ウライ株式会社" />
+<meta name="description" content="ウライ株式会社は、京都・東京に拠点を置く、きもの・ジュエリー・ファッションの専門商社です。事業案内、会社概要、IR情報、イベントなどのトピックス、新卒採用情報が充実しています。" />
+<title>きもの・ジュエリー・ファッションの専門商社 | ウライ株式会社</title>
+<link rel="shortcut icon" href="design/img/cmn/favicon.jpg" />
+<link rel="stylesheet" type="text/css" href="design/css/print.css" media="print" />
+<link rel="stylesheet" type="text/css" href="design/css/reset.css" media="all" />
+<link rel="stylesheet" type="text/css" href="design/css/top.css" media="all" />
+<script type="text/javascript" src="design/js/jquery.js"></script>
+<script type="text/javascript" src="design/js/jquery.slides.min.js"></script>
+<script type="text/javascript" src="design/js/cmn.js"></script>
+<script type="text/javascript" src="design/js/tile.js"></script>
+<script type="text/javascript">
+$(function(){
+  $("#slides").slidesjs({
+	width: 1150,
+	height: 490,
+	navigation: { active: false },
+	play: { 
+		active: false,
+		effect: 'fade',
+		interval: 3000,
+		auto: true,
+		pauseOnHover: false
+	},
+	pagination: {
+      active: true,
+      effect: "fade"
+    },
+	effect: {
+      fade: {
+        speed: 3000,
+        crossfade: true
+      }	}
+  });
+});
+$(function(){
+  $(".tile1").tile();
+  $(".tile2").tile();
+});
+</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-38811081-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+<body>
+<div id="wrap">
+	<div id="header">
+		<div id="global" class="c-fix">
+    	<h1>昭和21年創業。きもの・ジュエリー・ファッションを京都の地から。</h1>
+            <ul>
+            	<li><a href="question.html"><img src="design/img/cmn/header/tx02.png" width="65" alt="お問い合わせ" /></a></li>
+                <li class="last"><a href="sitemap.html"><img src="design/img/cmn/header/tx03.png" width="66" alt="サイトマップ" /></a></li>
+            </ul>
+	    </div>
+	</div>
+    <div id="slides">
+    	<img src="design/img/top/mv01.jpg" width="1150" alt="「美」をつむぐ。 きもの事業 ― 伝統産業を永遠に。和の美しさをお届けします。" />
+	    <img src="design/img/top/mv02.jpg" width="1150" alt="「美」をよそおう。 ジュエリー事業 ―  手に取るとわかる。ストーリー性のあるジュエリーを。" />
+	    <img src="design/img/top/mv03.jpg" width="1150" alt="「美」をまとう。 ファッション事業 ―  毛皮・レザー・高級ハンドバッグ。確かな本物だけを。" />
+    </div>
+    <div id="containtsarea">
+    	<div id="naviarea" class="c-fix">
+    		<h2><a href="index.html"><img src="design/img/cmn/navi/logo.jpg" width="184" alt="ウライ株式会社" /></a></h2>
+    	    <ul id="navi" class="c-fix">
+    	    	<li>
+    	        	<a href="business/kimono.html"><img src="design/img/cmn/navi/business.gif" width="169" alt="事業案内" /></a>
+    	            <ul class="sub">
+    	            	<li class="first"><a href="business/kimono.html"><img src="design/img/cmn/navi/business01.png" width="82" alt="きもの事業" /></a></li>
+    	                <li><a href="business/jewelry.html"><img src="design/img/cmn/navi/business02.png" width="100" alt="ジュエリー事業" /></a></li>
+    	                <li><a href="business/fashion.html"><img src="design/img/cmn/navi/business03.png" width="111" alt="ファッション事業" /></a></li>
+    	            </ul>
+    	        </li>
+    	        <li>
+    	        	<a href="company/index.html"><img src="design/img/cmn/navi/company.gif" width="169" alt="会社概要" /></a>
+    	            <ul class="sub">
+    	            	<li class="first"><a href="company/index.html"><img src="design/img/cmn/navi/company01.png" width="55" alt="ご挨拶" /></a></li>
+    	                <li><a href="company/gaiyo.html"><img src="design/img/cmn/navi/company02.png" width="69" alt="会社情報" /></a></li>
+    	                <li><a href="company/access.html"><img src="design/img/cmn/navi/company03.png" width="67" alt="アクセス" /></a></li>
+    	                <li><a href="company/yakuin.html"><img src="design/img/cmn/navi/company04.png" width="55" alt="役員" /></a></li>
+    	                <li><a href="company/soshiki.html"><img src="design/img/cmn/navi/company05.png" width="57" alt="組織" /></a></li>
+    	                <li><a href="company/enkaku.html"><img src="design/img/cmn/navi/company06.png" width="55" alt="沿革" /></a></li>
+    	            </ul>
+    	        </li>
+    	        <li>
+    	        	<a href="ir/highlight.html"><img src="design/img/cmn/navi/ir.gif" width="169" alt="IR情報" /></a>
+    	            <ul class="sub">
+    	            	<li class="first"><a href="ir/highlight.html"><img src="design/img/cmn/navi/ir02.png" width="100" alt="決算ハイライト" /></a></li>
+    	                <li><a href="ir/tanshin.html"><img src="design/img/cmn/navi/ir03.png" width="81" alt="決算短信等" /></a></li>
+    	                
+    	            </ul>
+    	        </li>
+    	        <li class="last">
+    	        	<a href="http://www.urai.jp/index.html"><img src="design/img/cmn/navi/recruit.gif" width="169" alt="採用情報" /></a>
+    	            <ul class="sub">
+    	            	<li class="first"><a href="http://www.urai.jp/index.html"><img src="design/img/cmn/navi/recruit01.png" width="68" alt="新卒採用" /></a></li>
+    	            </ul>
+    	        </li>
+    	    </ul>
+    	</div><!-- naviarea -->
+        
+        <div class="contents c-fix">
+        	<div class="left">
+        		<div class="news">
+        			<h3><img src="design/img/top/tx_irnews.gif" width="157" alt="NEWS 最新のIR情報" /><span><a href="ir/tanshin.html#01"><img src="design/img/top/btn_all.gif" width="59" alt="すべて見る" /></a></span></h3>
+                    <ul class="newslist">
+                        
+                        <li><span class="date">2017/03/09</span><a href="design/pdf/ir/tanshin/info/20170309_653.pdf" target="_blank">5月29日が「呉服の日」として記念日登録されました</a></li>
+                        <li><span class="date">2016/02/24</span><a href="design/pdf/ir/tanshin/info/20160224_ha_haishi.pdf" target="_blank">当社株式の上場廃止のお知らせを掲載しました</a></li>
+                        <li><span class="date">2016/02/10</span><a href="design/pdf/ir/tanshin/info/20160210_ta_tansin.pdf" target="_blank">平成28年3月期第3四半期決算短信に関するお知らせを掲載しました</a></li>
+                        <li><span class="date">2016/02/09</span><a href="design/pdf/ir/tanshin/info/20160209_ke_kekka.pdf" target="_blank">株式併合及び定款の一部変更等に関する承認決議に関するお知らせを掲載しました</a></li> 
+                        <li><span class="date">2016/01/14</span><a href="design/pdf/ir/tanshin/info/20160114_tei_teisei.pdf" target="_blank">「株式併合並びに単元株式数の定めの廃止及び定款の一部変更等に関するお知らせ」の一部訂正に関するお知らせを掲載しました</a></li>
+                        <li><span class="date">2016/01/08</span><a href="design/pdf/ir/tanshin/info/20160108_he_heigou.pdf" target="_blank">株式併合並びに単元株式数の定めの廃止及び定款の一部変更等に関するお知らせを掲載しました</a></li> 
+                        <li><span class="date">2015/12/26</span><a href="design/pdf/ir/tanshin/info/20151226_mo_mbo.pdf" target="_blank">株式会社モスト・ユーによる当社株券に対する公開買付けの結果並びに親会社及び主要株主である筆頭株主の異動に関するお知らせを掲載しました</a></li>
+                        <li><span class="date">2015/12/22</span><a href="design/pdf/ir/tanshin/info/20151222_ki_kijyunn.pdf" target="_blank">臨時株主総会招集及び臨時株主総会招集のための基準日設定に関するお知らせを掲載しました</a></li>
+                        <li><span class="date">2015/12/11</span><a href="design/pdf/ir/tanshin/info/20151211_ri_rinnsou.pdf" target="_blank">株主による臨時株主総会の招集請求に関するお知らせを掲載しました</a></li>
+                        <li><span class="date">2015/11/11</span><a href="design/pdf/ir/tanshin/info/20151111_mosutoyu.pdf" target="_blank">株式会社モスト・ユーによるウライ株式会社株券（証券コード：2658）に対する公開買付けの開始に関するお知らせを掲載しました</a></li>
+                        <li><span class="date">2015/11/11</span><a href="design/pdf/ir/tanshin/info/20151111_mbo.pdf" target="_blank">MBOの実施及び応募の推奨に関するお知らせを掲載しました</a></li>
+                       
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                                       
+                        
+                        
+                        
+                        
+                       
+                        
+                        
+                       
+                        
+         	        
+                    	
+                        
+                                
+                    </ul>
+        		</div>
+        		<div class="topics">
+        			<h3><img src="design/img/top/tx_topics.gif" width="146" alt="TOPICS トピックス" /><span><a href="topics/index.html"><img src="design/img/top/btn_all.gif" width="59" alt="すべて見る" /></a></span></h3>
+                    
+                    <div class="topicstop c-fix">
+
+                    <div class="topics1 c-fix tile1">
+                        	<div class="ph"><a href="topics/20170309.html"><img src="design/img/topics/20170309/thumb.PNG" width="90" alt="" /></a></div>
+                            <p class="txt">
+                            	<span class="date">
+                                <br />
+                            	5月29日 呉服の日<br />
+                                </span>
+                            	<a href="topics/20170309.html">呉服の日</a>
+                            </p>
+
+                        </div>
+
+
+                         <div class="topics2 c-fix tile1">
+                        	<div class="ph"><a href="topics/20130801.html"><img src="design/img/topics/20130801/thumb.jpg" width="90" alt="" /></a></div>
+                            <p class="txt">
+                            	<span class="date">
+                                <br />
+                            	2015新作発表<br />
+                                </span>
+                            	<a href="topics/20130801.html">ROLA FURISODE COLLECTION</a>
+                            </p>
+                        </div>
+
+                        
+
+                    </div>
+                    <div class="topicsbtm c-fix">
+
+                       <div class="topics1 c-fix tile2">
+                        	
+                        </div>
+
+                   
+                       
+                    </div>
+        		</div>
+        	</div>
+
+            <ul class="side">
+            	<li><a href="topics/index_event.html"><img src="design/img/cmn/side/bnr_event.jpg" width="210" alt="イベント情報 ウライが主催する、様々なイベント情報をご紹介いたします。" /></a></li>
+                <li><a href="ir/index.html"><img src="design/img/cmn/side/bnr_ir.jpg" width="210" alt="IR情報 投資家の皆様へ。IR/決算情報をご覧いただけます。" /></a></li>
+                <li><a href="http://www.urai.jp/index.html"><img src="design/img/cmn/side/bnr_recruit.jpg" width="210" alt="新卒採用特設サイト" /></a></li>
+<li><a href="http://u-care-hb.com/" target="_blank"><img src="design/img/cmn/side/bnr_ucare.jpg" width="210" alt="U-care 美容・健康・リビング製品なら" /></a></li>
+        	</ul>
+        </div>
+        
+        <div id="footer">
+            <div class="top c-fix">
+                <div class="left"><a href="index.html"><img src="design/img/cmn/footer/home.gif" width="46" alt="HOME" /></a></div>
+                <div id="bt-pagetop" class="right"><img src="design/img/cmn/footer/pagetop.gif" width="74" alt="ページTOPへ" /></div>
+            </div>
+            <ul>
+                <li class="first"><a href="guideline.html"><img src="design/img/cmn/footer/guideline.gif" width="139" alt="コンプライアンスガイドライン" /></a></li>
+                <li><a href="privacy_policy.html"><img src="design/img/cmn/footer/privacy.gif" width="99" alt="プライバシーポリシー" /></a></li>
+                <li class="last"><a href="riyo_annai.html"><img src="design/img/cmn/footer/riyo.gif" width="79" alt="ご利用にあたって" /></a></li>
+            </ul>
+        </div>
+        <p class="t-center mb-25"><img src="design/img/cmn/footer/tx_copyright.gif" width="267" alt="Copyright&copy; 2013　URAI CO., Ltd. All Rights Reserved." /></p>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,247 @@
+<!DOCTYPE html><!--HTML5-->
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta content="all" name="robots">
+<meta content="noydir" name="robots">
+<meta content="noodp" name="robots">
+<meta name="robots" content="index,follow,noodp,noydir">
+<meta name="keywords" content="クレアホームズ, クレアシリーズ, CLARE HOMES, 新築マンション,分譲マンション, マンション管理">
+<meta name="description" content="セントラル総合開発グループは分譲マンション事業、マンションビル管理事業、オフィスビル賃貸事業など一貫体制で取り組む、新しい価値観のデベロッパーです。">
+<title>セントラル総合開発 | ホーム</title>
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<!--[if lt IE 9]>
+<script src="js/html5shiv-printshiv.js"></script>
+<![endif]--><!--IE6,7,8にHTML5の新要素にスタイルを適用-->
+<link rel="stylesheet" type="text/css" href="css/common.css" media="all">
+<link rel="stylesheet" type="text/css" href="css/style.css" media="all">
+<link rel="stylesheet" type="text/css" href="css/ir.css" media="all">
+<link rel="stylesheet" type="text/css" href="css/jquery.jscrollpane.css" media="all" />
+<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="js/yuga.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+<script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
+<!--XJ_contents//--->
+<script type="text/javascript" src="js/xj/XjStorageLoaderTopNews.js"></script>
+<script type="text/javascript">
+$(function(){
+	var xj_storage_loader = new XjStorageLoaderIrTop();
+});
+</script>
+<!--//XJ_contents END--->
+<script type="text/javascript">
+function windowOpen(url, w, h) {
+	window.open(url, "", "width="+w+",height="+h+",menubar=no,toolbar=no,location=no,directories=no,status=no,scrollbars=yes,resizable=yes");
+}
+$(function(){$('.txtBox').jScrollPane();});
+</script>
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]--><!--IE6,8にHTML5の新要素にスタイルを適用-->
+
+
+<!--[if lte IE 6]>
+<script type="text/javascript" src="js/DD_belatedPNG_0.0.8a.js"></script>
+<script type="text/javascript">
+var oldFixPng = DD_belatedPNG.fixPng;
+DD_belatedPNG.fixPng = function (el) {
+oldFixPng(el);
+if (el.vml && el.vml.image.fill.getAttribute("src").match(/_btn\./)) {
+el.vml.image.shape.attachEvent('onmouseenter', function() {
+var image = el.vml.image.fill;
+image.setAttribute("src", image.getAttribute("src").replace("_btn.", "_btn_on."));
+});
+el.vml.image.shape.attachEvent('onmouseleave', function() {
+var image = el.vml.image.fill;
+image.setAttribute("src", image.getAttribute("src").replace("_btn_on.", "_btn."));
+});
+}
+};
+DD_belatedPNG.fix('.aPng');
+</script>
+<![endif]-->
+</head>
+
+<body onload="resizeImg();" onresize="resizeImg();">
+
+<header id="header">
+	<div class="headerLeft">
+    	<h1><a href="index.html"><img src="images/logo.png" width="187" height="25" alt="セントラル総合開発" class="aPng"></a></h1>
+        <div class="floatLeft pl20"><img src="images/s_chachi.png" width="158" height="21" alt="新しい価値観のデベロッパー" class="aPng"></div>
+    </div>    <div class="headerRight">
+    	<div class="floatLeft pr20"><a href="index.html"><img src="images/submenu_home.png" width="42" height="10" alt="ホーム" class="btn"></a></div>
+        <div class="floatLeft pr20"><a href="inquiry/form.html"><img src="images/submenu_inquiry.png" width="76" height="10" alt="お問い合わせ" class="btn"></a></div>
+        <div class="floatLeft pr20"><a href="sitemap.html"><img src="images/submenu_sitemap.png" width="70" height="10" alt="サイトマップ" class="btn"></a></div>
+        <div class="floatLeft"><a href="http://www.central-gd.co.jp/privacy/index.html"><img src="images/submenu_compliance.png" width="100" height="10" alt="個人情報保護方針" class="btn"></a></div>
+    </div>
+    <div class="clear"></div>
+</header>
+
+<section id="index_topCont">
+<img src="images/top_mainph.jpg" width="1600" height="500" id="topCont_ph">
+<div class="headerShadow aPng"></div>
+
+<div id="topCont_in" style="height:360px;">
+
+    <div class="menu">
+    	<div class="floatLeft mansion aPng"><a href="project/mansion.html"><img src="images/bnr_mansion.jpg" width="421" height="360" alt="徹底したグループ一貫体制マンション事業はこちら" class="btn"></a></div>
+    	<div class="floatLeft"><a href="project/management.html"><img src="images/bnr_management.jpg" width="190" height="360" alt="マンション・ビル管理事業についてはこちら" class="btn"></a></div>
+    	<div class="floatLeft"><a href="project/building_lease.html"><img src="images/bnr_Office.jpg" width="138" height="360" alt="オフィス賃貸事業についてはこちら" class="btn"></a></div>
+    	<div class="floatLeft insurance aPng"><a href="project/insurance.html"><img src="images/bnr_insurance.jpg" width="150" height="360" alt="保険事業についてはこちら" class="btn"></a></div>
+        <div class="clear"></div>
+    </div>
+
+	<nav class="aPng">
+    <ul>
+    <li class="pl8"><a href="philosophy.html"><img src="images/granavi_philosophy.jpg" width="158" height="36" alt="企業理念" class="btn aPng"></a></li>
+    <li><a href="project/mansion.html"><img src="images/granavi_mansion.jpg" width="159" height="36" alt="事業紹介" class="btn"></a></li>
+    <li><a href="http://www.clare.jp/list.html" target="_blank"><img src="images/granavi_list.jpg" width="159" height="36" alt="物件紹介" class="btn"></a></li>
+    <li><a href="gaiyo.html"><img src="images/granavi_company.jpg" width="159" height="36" alt="企業情報" class="btn"></a></li>
+    <li><a href="./ir/"><img src="images/granavi_ir.jpg" width="159" height="36" alt="IR情報" class="btn"></a></li>
+    <li><a href="recruit/index.html"><img src="images/granavi_recruit.jpg" width="158" height="36" alt="採用情報" class="btn"></a></li>
+    </ul>
+    </nav>
+
+</div>
+<div class="bottomShadow aPng"></div>
+</section>
+
+<div class="pt30 topWrap">
+<div class="floatLeft"><a href="http://www.clare.jp/" target="_blank"><img src="images/bnr_top01.jpg" width="640" height="80" alt="クレアホームズ" class="btn"></a></div>
+<div class="floatRight"><a href="http://www.centrallife.co.jp/" target="_blank"><img src="images/bnr_centrallife.jpg" width="300" height="80" alt="" class="btn"></a></div>
+<div class="clear pb30"></div>
+
+<article class="topics">
+<div><img src="images/topics_titel.gif" width="550" height="12" alt="topics"></div>
+<div id="result_t"><div class="txtBox">
+<p class="txt mb10"><span class="date">2017.08.01&nbsp;-&nbsp;</span> <a target="_blank" href="http://www.nomu.com/mansion_n/n/chiba-cc/">クレアホームズ千葉センタークロス</a>ホームページオープン。資料請求受付開始。</p>
+<p class="txt mb10"><span class="date">2017.06.24&nbsp;-&nbsp;</span> <a target="_blank" href="http://clare-kochiekimae.com/">クレアホームズ 高知駅前 ザ・レジデンス</a>6月24日(土)モデルルームオープン。物件説明会来場予約受付開始。</p>
+<p class="txt mb10"><span class="date">2017.04.18&nbsp;-&nbsp;</span> <a target="_blank" href="http://musashi-urawa42.clare.jp/">クレアホームズ武蔵浦和パークフィールズ</a>5月3日(水・祝)より事前案内会開催。来場予約受付中。</p>
+<p class="txt mb10"><span class="date">2017.04.18&nbsp;-&nbsp;</span> <a target="_blank" href="http://machida.clare.jp/">クレアホームズ町田</a>ホームページオープン。資料請求受付開始。</p>
+<p class="txt mb10"><span class="date">2017.04.14&nbsp;-&nbsp;</span> <a target="_blank" href="http://clare-kochiekimae.com/">クレアホームズ 高知駅前 ザ・レジデンス</a>ホームページオープン。資料請求受付開始。</p>
+<p class="txt mb10"><span class="date">2017.03.27&nbsp;-&nbsp;</span> クレアホームズ岩崎プレミアム 完売いたしました。</p>
+<p class="txt mb10"><span class="date">2017.03.24&nbsp;-&nbsp;</span> クレアホームズ成増 完売いたしました。</p>
+<p class="txt mb10"><span class="date">2017.03.14&nbsp;-&nbsp;</span> <a target="_blank" href="http://www.nomu.com/mansion_n/n/chiba-f/">クレアホームズ千葉ザ・フロント</a>第１期申込登録受付中（３月２０日（月・祝）まで）</p>
+<p class="txt mb10"><span class="date">2017.03.13&nbsp;-&nbsp;</span> クレアホームズ千葉松波 完売いたしました。</p>
+<p class="txt mb10"><span class="date">2017.03.07&nbsp;-&nbsp;</span> クレアホームズ永福町　完売いたしました</p>
+<p class="txt mb10"><span class="date">2017.02.24&nbsp;-&nbsp;</span> <a target="_blank" href="http://clare-landmark.com/">クレアホームズ 松山ランドマークタワー</a>ホームページオープン。資料請求受付開始。</p>
+<p class="txt mb10"><span class="date">2016.12.27&nbsp;-&nbsp;</span> クレアホームズ新町一丁目　完売いたしました</p>
+<p class="txt mb10"><span class="date">2016.10.31&nbsp;-&nbsp;</span> <a target="_blank" href="http://clare-mochida.com/">クレアホームズ持田ザ・レジデンス</a>11月5日(土)から事前説明会開催。来場予約受付中。</p>
+<p class="txt mb10"><span class="date">2016.10.21&nbsp;-&nbsp;</span> <a target="_blank" href="http://www.nomu.com/mansion_n/n/chiba-f/">クレアホームズ千葉ザ・フロント</a>ホームページオープン。資料請求受付開始。</p>
+<p class="txt mb10"><span class="date">2016.10.11&nbsp;-&nbsp;</span> <a target="_blank" href="http://clare-kamiyasu.com/">クレアホームズ上安駅前ザ・レジデンス</a>10月14日(金)より第１期先着順申込受付開始。来場予約受付中。</p>
+<p class="txt mb10"><span class="date">2016.10.01&nbsp;-&nbsp;</span> <a target="_blank" href="http://musashi-urawa42.clare.jp/">クレアホームズ武蔵浦和パークフィールズ</a>ホームページオープン。資料請求受付開始。</p>
+<p class="txt mb10"><span class="date">2016.09.20&nbsp;-&nbsp;</span> <a target="_blank" href="http://clare-kamiyasu.com/">クレアホームズ上安駅前ザ・レジデンス</a>9月22日(祝・木)モデルルームグランドオープン。来場予約受付中。</p>
+<p class="txt mb10"><span class="date">2016.09.13&nbsp;-&nbsp;</span> <a target="_blank" href="http://clare-kumamoto-shinmachi.com/">クレアホームズ新町レジデンス</a>ホームページオープン。資料請求受付開始。</p>
+<p class="txt mb10"><span class="date">2016.08.27&nbsp;-&nbsp;</span> <a target="_blank" href="http://kagoshima-chuo.clare.jp/">クレアホームズ鹿児島中央プレミアム</a>8月27日(土)から事前案内会開催。来場</p>
+<p class="txt mb10"><span class="date">2016.08.02&nbsp;-&nbsp;</span> <a target="_blank" href="http://www.clare-tsurumi.com">クレアホームズ鶴見町ザ・レジデンス</a>ホームページオープン。資料請求受付開始。</p>
+<p class="txt mb10"><span class="date">2016.07.29&nbsp;-&nbsp;</span> <a target="_blank" href="http://clare-kamiyasu.com/">クレアホームズ上安駅前ザ・レジデンス</a>8月27日(土)から事前案内会開催。来場予約受付中。</p>
+<p class="txt mb10"><span class="date">2016.07.28&nbsp;-&nbsp;</span> <a target="_blank" href="http://kitaurawa.clare.jp/">クレアホームズ北浦和　楓雅の邸</a>8月27日(土)から事前案内会開催。来場予約受付中。</p>
+<p class="txt mb10"><span class="date">2016.07.15&nbsp;-&nbsp;</span> クレアホームズ札幌大通東エスシート　完売いたしました</p>
+<p class="txt mb10"><span class="date">2016.07.15&nbsp;-&nbsp;</span> クレアホームズ榴ケ岡公園　完売いたしました</p>
+<p class="txt mb10"><span class="date">2016.06.07&nbsp;-&nbsp;</span> <a target="_blank" href="http://minamiyono.clare.jp//">クレアホームズ南与野駅前</a>ホームページオープン。資料請求受付開始。</p>
+<p class="txt mb10"><span class="date">2016.06.06&nbsp;-&nbsp;</span> <a target="_blank" href="http://shinmachi1.jp/">クレアホームズ新町一丁目</a>ホームページオープン。資料請求受付開始。</p>
+<p class="txt mb10"><span class="date">2016.06.03&nbsp;-&nbsp;</span> <a target="_blank" href="http://www.hiragishichuo.com/">クレアホームズ平岸中央</a>ホームページオープン。資料請求受付開始。</p>
+<p class="txt mb10"><span class="date">2016.05.20&nbsp;-&nbsp;</span> <a target="_blank" href="http://kitaurawa.clare.jp/">クレアホームズ北浦和　楓雅の邸</a>ホームページオープン。資料請求受付開始。</p>
+<p class="txt mb10"><span class="date">2016.05.02&nbsp;-&nbsp;</span> クレアホームズ北綾瀬　完売いたしました</p>
+<p class="txt mb10"><span class="date">2016.04.18&nbsp;-&nbsp;</span> クレアホームズ浦和常盤公園　完売いたしました。</p>
+<p class="txt mb10"><span class="date">2016.03.07&nbsp;-&nbsp;</span> クレアホームズ松山千舟町 ザ・クラス完売いたしました。</p>
+<p class="txt mb10"><span class="date">2016.02.19&nbsp;-&nbsp;</span> <a target="_blank" href="http://www.takasago150.jp/">（仮称）ＴＯＫＹＯグランリバープロジェクト </a>ホームページオープン。資料請求受付開始。</p>
+<p class="txt mb10"><span class="date">2016.01.15&nbsp;-&nbsp;</span> <a target="_blank" href="http://ichibancho.clare.jp/">クレアホームズ一番町プレステージ</a>ホームページオープン。資料請求受付開始。</p>
+<p class="txt mb10"><span class="date">2016.01.15&nbsp;-&nbsp;</span> <a target="_blank" href="http://www.nomu.com/mansion_n/n/chiba0273/">クレアホームズ千葉松波</a>ホームページオープン。資料請求受付開始。</p>
+<p class="txt mb10"><span class="date">2016.01.08&nbsp;-&nbsp;</span> <a target="_blank" href="http://narimasu.clare.jp/">クレアホームズ成増</a>ホームページオープン。資料請求、来場予約受付中。</p>
+<p class="txt mb10"><span class="date">2015.12.21&nbsp;-&nbsp;</span> クレアホームズ大町 ザ・レジデンス 完売いたしました。</p>
+<p class="txt mb10"><span class="date">2015.12.12&nbsp;-&nbsp;</span> <a target="_blank" href="http://www.clare-iwasaki.com/">クレアホームズ岩崎 ザ・プレミアム</a>ホームページオープン。資料請求・来場予約受付開始。</p>
+<p class="txt mb10"><span class="date">2015.11.06&nbsp;-&nbsp;</span> <a target="_blank" href="http://nara66.jp/">クレアホームズ奈良新大宮</a>ホームページオープン。資料請求受付開始。</p>
+<p class="txt mb10"><span class="date">2015.11.06&nbsp;-&nbsp;</span> <a target="_blank" href="http://www.tsutsujigaoka.clare.jp/">クレアホームズ榴ヶ岡公園</a>ホームページオープン。モデルルーム公開中。</p>
+<p class="txt mb10"><span class="date">2015.10.02&nbsp;-&nbsp;</span> <a target="_blank" href="http://www.nomu.com/mansion_n/n/w-eifuku/">クレアホームズ永福町（蒼の邸・耀の邸）</a>ホームページオープン。資料請求受付開始。</p>
+<p class="txt mb10"><span class="date">2015.08.07&nbsp;-&nbsp;</span> <a target="_blank" href="http://urawa-tokiwakoen.clare.jp/">クレアホームズ浦和常盤公園</a>ホームページオープン。資料請求受付開始。</p>
+<p class="txt mb10"><span class="date">2015.08.05&nbsp;-&nbsp;</span> <a target="_blank" href="http://clare-minamimachi.com/">クレアホームズ南町 ザ・レジデンス</a>8月8日(土)モデルルームグランドオープン　来場予約受付中。</p>
+<p class="txt mb10"><span class="date">2015.06.26&nbsp;-&nbsp;</span> <a target="_blank" href="http://clare-minamimachi.com/">クレアホームズ南町 ザ・レジデンス</a>ホームページオープン。資料請求受付開始。</p>
+<p class="txt mb10"><span class="date">2015.05.11&nbsp;-&nbsp;</span> <a target="_blank" href="http://clare-omachi.com/">クレアホームズ大町 ザ・レジデンス</a>5月15日(金)より先着順申込受付開始。来場予約受付中。</p>
+<p class="txt mb10"><span class="date">2015.04.27&nbsp;-&nbsp;</span> <a target="_blank" href="http://clare-omachi.com/">クレアホームズ大町 ザ・レジデンス</a>4月29日（祝・水）モデルルームグランドオープン。来場予約受付中。</p>
+<p class="txt mb10"><span class="date">2015.04.11&nbsp;-&nbsp;</span> <a target="_blank" href="http://clare-omachi.com/">クレアホームズ大町 ザ・レジデンス</a>4月11日（土）から優先事前案内会開催。来場予約受付中。</p>
+<p class="txt mb10"><span class="date">2015.04.03&nbsp;-&nbsp;</span> <a target="_blank" href="http://kitaayase.clare.jp/">クレアホームズ北綾瀬</a>4月29日（水・祝）より事前案内会開催。ご予約受付中。</p>
+<p class="txt mb10"><span class="date">2015.03.30&nbsp;-&nbsp;</span> クレアホームズ歩行町 ザ・レジデンス 完売いたしました。</p>
+<p class="txt mb10"><span class="date">2015.02.10&nbsp;-&nbsp;</span> <a target="_blank" href="http://kitaayase.clare.jp">クレアホームズ北綾瀬</a>ホームページオープン。資料請求受付開始。</p>
+<p class="txt mb10"><span class="date">2015.02.06&nbsp;-&nbsp;</span> <a target="_blank" href="http://clare-omachi.com/">クレアホームズ大町 ザ・レジデンス</a>ホームページオープン。資料請求受付開始。</p>
+<p class="txt mb10"><span class="date">2015.01.01&nbsp;-&nbsp;</span> <a target="_blank" href="http://www.clare-kachimachi.com/">クレアホームズ歩行町 ザ・レジデンス</a>1月1日(元旦)より最終期分譲開始。</p>
+<p class="txt mb10"><span class="date">2014.11.10&nbsp;-&nbsp;</span> クレアホームズ松山湊町パサージュ完売いたしました。</p>
+<p class="txt mb10"><span class="date">2014.10.20&nbsp;-&nbsp;</span> <a target="_blank" href="http://musashi-urawa.clare.jp/">クレアホームズ武蔵浦和</a>&#12288;10月25日(土)より第1期1次先着順申込受付開始。</p>
+<p class="txt mb10"><span class="date">2014.10.20&nbsp;-&nbsp;</span> <a target="_blank" href="http://www.clare-osaka.jp/asashiobashi/">クレアホームズ朝潮橋アリーナ</a>&#12288;優先案内会（完全予約制）開催中。</p>
+<p class="txt mb10"><span class="date">2014.10.20&nbsp;-&nbsp;</span> <a target="_blank" href="http://www.nomu.com/mansion_n/n/ch-chiba/">クレアホームズ千葉パークフィールズ</a>&#12288;第1期（全36戸）登録申込受付中（10月25日（土）まで）</p>
+<p class="txt mb10"><span class="date">2014.09.11&nbsp;-&nbsp;</span> クレアホームズ川口パークブライト&#12288;完売いたしました。</p>
+<p class="txt mb10"><span class="date">2014.09.08&nbsp;-&nbsp;</span> クレアホームズ本八幡&#12288;完売いたしました。</p>
+<p class="txt mb10"><span class="date">2014.08.18&nbsp;-&nbsp;</span> <a target="_blank" href="http://nishida.clare.jp/">クレアホームズ西田</a>&#12288;ホームページオープン。資料請求・来場予約受付開始。</p>
+<p class="txt mb10"><span class="date">2014.08.01&nbsp;-&nbsp;</span> <a target="_blank" href="http://www.clare-osaka.jp/asashiobashi/">クレアホームズ朝潮橋アリーナ</a>&#12288;ホームページオープン。資料請求受付開始。</p>
+<p class="txt mb10"><span class="date">2014.07.24&nbsp;-&nbsp;</span> <a target="_blank" href="http://tsutsujigaoka.clare.jp/">クレアホームズ榴ヶ岡公園</a>&#12288;先行モデルルームご案内会来場予約受付開始。</p>
+</div>
+</div>
+</article><!--/topics-->
+
+<article class="ir_info">
+	<div><img src="images/ir_info_title.gif" width="350" height="12" alt="IR information"></div>
+	<div id="result_ir">
+        <div class="txtBox jspScrollable">
+        </div>
+	</div>
+</article>
+<div class="clear pb30"></div>
+
+<section class="newMansion">
+<div class="pb20"><img src="images/new_mansion_title.gif" width="960" height="27" alt=""></div>
+  <div id="result">
+    <div class="category pr10">
+      <a href="http://www.clare.jp/list.html#kanto" target="_blank" class="imgLink"><img class="imgOver" src="images/area1.gif" height="24" alt="首都圏・甲信越エリアエリア"></a>
+      <a href="http://www.nomu.com/mansion_n/n/chiba-f/" target="_blank" class="imgLink"><img class="imgOver" src="http://www.central-gd.co.jp/assets_c/2016/10/ShinChiba-thumb-232x232-64.jpg" alt="クレアホームズ千葉ザ・フロント" width="232" height="232"></a>
+      <div class="box">
+        <h3><a href="http://www.nomu.com/mansion_n/n/chiba-f/" target="_blank">クレアホームズ千葉ザ・フロント</a></h3>
+          <p class="txt">総戸数：60戸</p>
+          <p class="txt">交通：ＪＲ総武線「千葉」駅徒歩5分<br>京成千葉線「新千葉」駅　徒歩1分</p>
+        </div>
+    </div>
+    <div class="category pr10">
+      <a href="http://www.clare.jp/list.html#shikoku" target="_blank" class="imgLink"><img class="imgOver" src="images/area4.gif" height="24" alt="中国・四国エリアエリア"></a>
+      <a href="http://www.clare-tsurumi.com/" target="_blank" class="imgLink"><img class="imgOver" src="http://www.central-gd.co.jp/assets_c/2016/08/tsurumicho-thumb-232x232-58.jpg" alt="クレアホームズ鶴見町 ザ・レジデンス" width="232" height="232"></a>
+      <div class="box">
+        <h3><a href="http://www.clare-tsurumi.com/" target="_blank">クレアホームズ鶴見町 ザ・レジデンス</a></h3>
+          <p class="txt">総戸数：25戸</p>
+          <p class="txt">交通：広島バス「鶴見橋」バス停 徒歩４分<br>広島電鉄「比治山橋」電停 徒歩8分</p>
+        </div>
+    </div>
+    <div class="category pr10">
+      <a href="http://www.clare.jp/list.html#hokkaido" target="_blank" class="imgLink"><img class="imgOver" src="images/area3.gif" height="24" alt="北海道エリアエリア"></a>
+      <a href="http://www.hiragishichuo.com/" target="_blank" class="imgLink"><img class="imgOver" src="http://www.central-gd.co.jp/assets_c/2016/06/hiragishichuo-thumb-232x232-55.jpg" alt="クレアホームズ平岸中央" width="232" height="232"></a>
+      <div class="box">
+        <h3><a href="http://www.hiragishichuo.com/" target="_blank">クレアホームズ平岸中央</a></h3>
+          <p class="txt">総戸数：48戸</p>
+          <p class="txt">交通：市営地下鉄南北線「平岸」駅徒歩4分</p>
+        </div>
+    </div>
+    <div class="category">
+      <a href="http://www.clare.jp/list.html#kanto" target="_blank" class="imgLink"><img class="imgOver" src="images/area1.gif" height="24" alt="首都圏・甲信越エリアエリア"></a>
+      <a href="http://www.takasago150.jp/" target="_blank" class="imgLink"><img class="imgOver" src="http://www.central-gd.co.jp/assets_c/2016/09/takasago2-thumb-232x232-60.jpg" alt="ザ・グランリバーフォート高砂" width="232" height="232"></a>
+      <div class="box">
+        <h3><a href="http://www.takasago150.jp/" target="_blank">ザ・グランリバーフォート高砂</a></h3>
+          <p class="txt">総戸数：150戸</p>
+          <p class="txt">交通：京成本線・京成金町線「京成高砂」駅徒歩12分</p>
+        </div>
+    </div>
+  <div class="clear pb10"></div>
+  </div>
+</section>
+
+<p class="goto_list"><a href="http://www.clare.jp/list.html" target="_blank">販売物件一覧へ</a></p>
+<div class="clear"></div>
+
+</div><!--Wrap END-->
+
+<div class="pagetop"><a href="#header"><img src="images/pagetop.gif" width="62" height="9" alt="page top" class="btn"></a></div>
+<div class="clear"></div>
+
+<footer><div class="copyright">Copyright(c) 2012 Central General Development Co.,Ltd. All rights reserved.</div></footer>
+
+</body>
+</html>

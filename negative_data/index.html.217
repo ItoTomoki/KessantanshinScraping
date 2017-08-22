@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<script id="flamingo-switcher" type="text/javascript" charset="utf-8">
+(function(c,a,i,b){if(!i()){return}a.write('<plaintext style="display:none">');var h=false;try{h=localStorage}catch(f){}var g=3,d=function(){var j=Object.prototype.toString.call(b.dataUrl)=="[object Array]"?b.dataUrl[0]:b.dataUrl,e=a.createElement("script"),k=a.getElementsByTagName("script")[0];e.src=j+"flamingo"+(!a.evaluate?"-compat":"")+".js";e.id="flamingo-engine";e.charset="utf-8";e.onload=function(){try{Flamingo.init(c,a,h,b)}catch(l){console.error("Unable to initialize Flamingo Engine",l)}};e.onerror=function(){g--;k.parentNode.removeChild(e);if(g){if(Object.prototype.toString.call(b.dataUrl)=="[object Array]"){b.dataUrl.splice(0,1);b.dataUrl.push(j)}d()}else{alert("Something is going wrong. Try to reload page.")}};k.parentNode.insertBefore(e,k)};setTimeout(d)})(window,document,function(){if(typeof(Flamingo)!=="undefined"){return false}if(window.name.indexOf("flamingo")===0){return true}return(navigator.userAgent.match(/iPhone|iPod/i)||navigator.userAgent.match(/Android.*Mobile/i))},{dataUrl:(function(f){var c="//",d="flamingo.gomobile.jp",e="/irep/latest/",a="stg.",b=f.hostname.toLowerCase();if(b==="www.irep.co.jp"){a=""}return c+a+d+e})(document.location)});
+</script>
+<title>株式会社アイレップ デジタルマーケティングエージェンシー/SEM/インターネット広告代理店</title>
+<meta name="description" content="デジタルマーケティングエージェンシーとしてお客様に貢献する企業、アイレップ。ベストマッチングを追求したマーケティングソリューションをご提供します。">
+<meta name="keywords" content="アイレップ,デジタルマーケティングエージェンシー,SEM,SEO,検索エンジンマーケティング,インターネット広告代理店">
+<meta property="og:title" content="株式会社アイレップ">
+<meta property="og:type" content="article">
+<meta property="og:url" content="http://www.irep.co.jp/">
+<meta property="og:image" content="http://www.irep.co.jp/common/images/ogp.jpg">
+<meta property="og:description" content="デジタルマーケティングエージェンシーとしてお客様に貢献する企業、アイレップ。ベストマッチングを追求したマーケティングソリューションをご提供します。">
+<meta property="og:site_name" content="株式会社アイレップ">
+<link rel="stylesheet" href="/common/css/import.css" media="all">
+<link rel="stylesheet" href="/common/css/top.css" media="all">
+<script src="/common/js/jquery.js"></script>
+<script src="/common/js/init.js"></script>
+<script src="/common/js/jquery.gotoupfade.js"></script>
+<script src="/common/js/jquery.page-scroller.js"></script>
+<!--<script src="/common/js/jquery.cookie.js"></script>
+<script src="/common/js/jquery.fontsize.js"></script>-->
+<script src="/common/js/jquery.rollover.js"></script>
+<script src="/common/js/jquery.carouFredSel-5.1.3.js"></script>
+<script src="/common/js/top.init.js"></script>
+<script src="/common/js/top_visual.js"></script>
+<!--[if lt IE 7]>
+<script type="text/javascript" src="/common/js/jquery.belatedPNG.js" ></script>
+<script>
+jQuery(function($) {
+$("img").fixPng();
+$("#contentsWrap aside dl").fixPng();
+$("#contentsWrap aside dl dd a").fixPng();
+});
+</script>
+<script src="/common/js/fixed.js"></script>
+<![endif]-->
+<!--[if lt IE 9]>
+<script src="/common/js/html5.js"></script>
+<![endif]-->
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-424217-2']);
+  _gaq.push(['_setDomainName', '.irep.co.jp']);
+  _gaq.push(['_setAllowHash', false]);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-39567764-1', 'irep.co.jp');
+  ga('send', 'pageview');
+
+</script>
+
+<!-- サイト・企業情報マークアップ /-->
+<script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Corporation",
+      "name": "アイレップ",
+      "url": "http://www.irep.co.jp/",
+      "logo": "http://www.irep.co.jp/common/images/irep.gif",
+      "address":{
+		"@type"             : "PostalAddress",
+		"addressCountry"    : "日本",
+		"addressRegion"     : "東京都",
+		"addressLocality"   : "千代田区",
+		"streetAddress"     : "永田町2丁目11番1号"
+		},
+      "foundingDate": "1997-11-17",
+      "contactPoint" : [
+        { "@type" : "ContactPoint",
+          "telephone" : "+81-3-3596-8700",
+          "contactType" : "customer service"
+        } ] ,
+      "sameAs" : [ "https://www.facebook.com/irep.co.jp",
+          		   "https://twitter.com/irep_pr",
+          		   "https://www.linkedin.com/company/irep"] 
+    }
+</script></head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WTPN38"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WTPN38');</script>
+<!-- End Google Tag Manager --><div id="headWrap">
+<script src="http://www.google.com/jsapi" type="text/javascript"></script>
+<script type="text/javascript">
+
+  google.load( 'search', '1', { language : 'ja' } );
+  google.setOnLoadCallback( function()
+    {
+      var customSearchControl = new google.search.CustomSearchControl( '008617395212424743618:tmdtnznmnis' );
+      customSearchControl.setResultSetSize( google.search.Search.FILTERED_CSE_RESULTSET );
+      
+      var options = new google.search.DrawOptions();
+      options.setAutoComplete( true );                             // オートコンプリートの有効化
+      options.enableSearchboxOnly( '/search/result.html' ); // 検索結果を表示するページのURL
+      
+      customSearchControl.draw( 'cse-search-form', options );
+    },
+    true );
+</script>
+<header id="pageTop">
+<a href="http://www.irep.co.jp/"><h1 id="logo"><img src="/common/images/irep.gif" alt="アイレップ公式サイト"></h1></a>
+<nav id="headUtility">
+<ul id="headUtilityLink">
+<li><a href="http://www.irep.co.jp/contact/">お問い合わせ</a></li>
+<li><a href="http://www.irep.co.jp/sitemap/">サイトマップ</a></li>
+</ul>
+<div id="cse-search-form"></div>
+<dl id="globalNav">
+<dt class="rollover"><img alt="Global" src="/common/images/global_btn.gif"></dt>
+<dd><ul>
+<li><a href="https://www.irep.co.jp/global/">English</a></li>
+<li><a href="http://www.irep.co.jp/cn/">Chinese</a></li>
+</ul>
+</dd>
+</dl>
+</nav>
+</header>
+</div>
+<div id="mainVisualBase">
+<div id="mainVisual">
+<div id="mainVisual-inner">
+<p id="kf_fstImg"><img src="images/visual_01.jpg" alt="" width="968" height="303" /></p>
+</div>
+<!-- /mainVisual --></div>
+<!-- /mainVisualBase --></div>
+
+
+<div id="wrap">
+
+<nav id="global">
+<ul>
+<li id="gNav01"><a href="http://www.irep.co.jp/" class="rollover"><img src="/common/images/nav-01.gif" alt="ホーム" width="188" height="45" /></a></li>
+<li id="gNav02"><a href="http://www.irep.co.jp/service/" class="rollover"><img src="/common/images/nav-02.gif" alt="サービス＆ソリューション" width="188" height="45" /></a></li>
+<li id="gNav03"><a href="http://www.irep.co.jp/press/" class="rollover"><img src="/common/images/nav-03.gif" alt="プレスルーム" width="188" height="45" /></a></li>
+<li id="gNav05"><a href="http://www.irep.co.jp/company/" class="rollover"><img src="/common/images/nav-05.gif" alt="会社情報" width="188" height="45" /></a></li>
+<li id="gNav06"><a href="http://www.irep.co.jp/recruit/" class="rollover"><img src="/common/images/nav-06.gif" alt="採用情報" width="188" height="45" /></a></li>
+</ul>
+<!-- /#global -->
+</nav>
+<div id="contents">
+<div class="col2-1-1">
+<div id="newsArea">
+<!--<div class="importantNewsArea">
+<h2>お知らせ</h2>
+<p style="font-weight:bold"></p>
+<p></p>
+</div>-->
+<h2><img src="/images/news-title.gif" alt="News" width="79" height="182"></h2>
+<div id="newsUtility">
+<ul id="newsTab">
+<li id="tab01" class="select">新着情報</li>
+<li id="tab02">PR</li>
+<li id="tab03">TOPICS</li>
+<li id="tab04">WHITE PAPER</li>
+<li id="tab05">コラム</li>
+</ul>
+</div>
+
+<!--新着情報-->
+<div class="tabContent">
+
+<dl>
+<dd class="date">2017/08/18<br>
+
+<span><img src="/images/news-label-08.gif" alt="WHITE PAPER 検索順位変動" width="70" height="22"></span></dd>
+
+<!--textfield-pdf PDF,alphaseo-link リンクへの入力判別-->
+<dt><a href="http://www.irep.co.jp/press/whitepaper/2017/20170818.html">検索エンジン順位変動と動向（2017年7月）</a></dt>
+<!--/PDF,リンクへの入力判別-->
+
+</dl>
+<dl>
+<dd class="date">2017/07/26<br>
+
+<span><img src="/images/news-label-01.gif" alt="PR" width="70" height="11"></span></dd>
+
+<!--textfield-pdf PDF,alphaseo-link リンクへの入力判別-->
+<dt><a href="http://www.irep.co.jp/press/release/2017/20170726.html">アイレップ、Criteo Certified Partnersにおいて最高評価代理店であるファイブスター（★★★★★）を獲得</a></dt>
+<!--/PDF,リンクへの入力判別-->
+
+</dl>
+<dl>
+<dd class="date">2017/07/19<br>
+
+<span><img src="/images/news-label-01.gif" alt="PR" width="70" height="11"></span></dd>
+
+<!--textfield-pdf PDF,alphaseo-link リンクへの入力判別-->
+<dt><a href="http://www.irep.co.jp/press/release/2017/20170711_2.html">アイレップ、Twitterのオーディエンスプランニングツール「Handle M@p（ハンドルマップ）」提供開始</a></dt>
+<!--/PDF,リンクへの入力判別-->
+
+</dl>
+<dl>
+<dd class="date">2017/07/12<br>
+
+<span><img src="/images/news-label-01.gif" alt="PR" width="70" height="11"></span></dd>
+
+<!--textfield-pdf PDF,alphaseo-link リンクへの入力判別-->
+<dt><a href="http://www.irep.co.jp/press/release/2017/20170711.html">「成果に導くTwitter広告 活用戦略セミナー」8月9日（水）アイレップ本社で開催（無料/定員制）</a></dt>
+<!--/PDF,リンクへの入力判別-->
+
+</dl>
+<dl>
+<dd class="date">2017/07/11<br>
+
+<span><img src="/images/news-label-01.gif" alt="PR" width="70" height="11"></span></dd>
+
+<!--textfield-pdf PDF,alphaseo-link リンクへの入力判別-->
+<dt><a href="http://www.irep.co.jp/press/release/2017/20170710_02.html">国内初Facebookキャンバス広告を動的に生成する 「ダイナミックキャンバス」を提供開始。～フォーマットとデザインのリッチ化により、優れたブランド体験を提供～</a></dt>
+<!--/PDF,リンクへの入力判別-->
+
+</dl>
+
+<p class="listMore"><a href="/press/">一覧を見る</a></p>
+</div>
+
+
+<!--PR-->
+<div class="tabContent noSelect">
+<dl>
+<dd class="date">2017/07/26<br>
+<span><img src="/images/news-label-01.gif" alt="PR" width="70" height="11"></span></dd>
+<!--textfield-pdf PDFへの入力判別-->
+<dt><a href="http://www.irep.co.jp/press/release/2017/20170726.html">アイレップ、Criteo Certified Partnersにおいて最高評価代理店であるファイブスター（★★★★★）を獲得</a></dt>
+<!--/PDFへの入力判別-->
+</dl>
+<dl>
+<dd class="date">2017/07/19<br>
+<span><img src="/images/news-label-01.gif" alt="PR" width="70" height="11"></span></dd>
+<!--textfield-pdf PDFへの入力判別-->
+<dt><a href="http://www.irep.co.jp/press/release/2017/20170711_2.html">アイレップ、Twitterのオーディエンスプランニングツール「Handle M@p（ハンドルマップ）」提供開始</a></dt>
+<!--/PDFへの入力判別-->
+</dl>
+<dl>
+<dd class="date">2017/07/12<br>
+<span><img src="/images/news-label-01.gif" alt="PR" width="70" height="11"></span></dd>
+<!--textfield-pdf PDFへの入力判別-->
+<dt><a href="http://www.irep.co.jp/press/release/2017/20170711.html">「成果に導くTwitter広告 活用戦略セミナー」8月9日（水）アイレップ本社で開催（無料/定員制）</a></dt>
+<!--/PDFへの入力判別-->
+</dl>
+<dl>
+<dd class="date">2017/07/11<br>
+<span><img src="/images/news-label-01.gif" alt="PR" width="70" height="11"></span></dd>
+<!--textfield-pdf PDFへの入力判別-->
+<dt><a href="http://www.irep.co.jp/press/release/2017/20170710_02.html">国内初Facebookキャンバス広告を動的に生成する 「ダイナミックキャンバス」を提供開始。～フォーマットとデザインのリッチ化により、優れたブランド体験を提供～</a></dt>
+<!--/PDFへの入力判別-->
+</dl>
+<dl>
+<dd class="date">2017/07/03<br>
+<span><img src="/images/news-label-01.gif" alt="PR" width="70" height="11"></span></dd>
+<!--textfield-pdf PDFへの入力判別-->
+<dt><a href="http://www.irep.co.jp/press/release/2017/20170703.html">「Webマーケッター必見！最新LINE広告 運用戦略セミナー」 7月27日（木）アイレップ本社で開催（無料/定員制）</a></dt>
+<!--/PDFへの入力判別-->
+</dl>
+<p class="listMore"><a href="/press/">一覧を見る</a></p>
+</div>
+
+<!--TOPICS-->
+<div class="tabContent noSelect">
+<dl>
+<dd class="date">2017/05/30<br>
+<span><img src="/images/news-label-03.gif" alt="TOPICS" width="70" height="11"></span></dd>
+<!--textfield-pdf PDFへの入力判別-->
+<dt><a href="http://www.irep.co.jp/press/topics/2017/20170530_02.html">アイレップ社員研修に伴う6月2日（金）営業時間変更のお知らせ</a></dt>
+<!--/PDFへの入力判別-->
+</dl>
+<dl>
+<dd class="date">2017/04/17<br>
+<span><img src="/images/news-label-03.gif" alt="TOPICS" width="70" height="11"></span></dd>
+<!--textfield-pdf PDFへの入力判別-->
+<dt><a href="http://www.irep.co.jp/press/topics/2017/20170417_02.html">大阪営業所移転のお知らせ</a></dt>
+<!--/PDFへの入力判別-->
+</dl>
+<dl>
+<dd class="date">2017/03/24<br>
+<span><img src="/images/news-label-03.gif" alt="TOPICS" width="70" height="11"></span></dd>
+<!--textfield-pdf PDFへの入力判別-->
+<dt><a href="http://www.irep.co.jp/press/topics/2017/20170324.html">アイレップ社内行事に伴う4月3日（月）営業時間変更のお知らせ</a></dt>
+<!--/PDFへの入力判別-->
+</dl>
+<dl>
+<dd class="date">2017/01/04<br>
+<span><img src="/images/news-label-03.gif" alt="TOPICS" width="70" height="11"></span></dd>
+<!--textfield-pdf PDFへの入力判別-->
+<dt><a href="http://www.irep.co.jp/press/topics/2017/20170104.html">年頭所感</a></dt>
+<!--/PDFへの入力判別-->
+</dl>
+<dl>
+<dd class="date">2016/12/21<br>
+<span><img src="/images/news-label-03.gif" alt="TOPICS" width="70" height="11"></span></dd>
+<!--textfield-pdf PDFへの入力判別-->
+<dt><a href="http://www.irep.co.jp/press/topics/2016/20161221.html">年末年始営業スケジュールのお知らせ</a></dt>
+<!--/PDFへの入力判別-->
+</dl>
+<p class="listMore"><a href="/press/topics/">一覧を見る</a></p>
+</div>
+
+<!--WHITE PAPER-->
+<div class="tabContent noSelect">
+<dl>
+<dd class="date">2017/08/18<br>
+<span><img src="/images/news-label-08.gif" alt="WHITE PAPER 検索順位変動" width="70" height="22"></span>
+<!--textfield-pdf PDFへの入力判別-->
+<dt><a href="http://www.irep.co.jp/press/whitepaper/2017/20170818.html">検索エンジン順位変動と動向（2017年7月）</a></dt>
+<!--/PDFへの入力判別-->
+</dl>
+<dl>
+<dd class="date">2017/07/10<br>
+<span><img src="/images/news-label-08.gif" alt="WHITE PAPER 検索順位変動" width="70" height="22"></span>
+<!--textfield-pdf PDFへの入力判別-->
+<dt><a href="http://www.irep.co.jp/press/whitepaper/2017/20170710.html">検索エンジン順位変動と動向（2017年6月）</a></dt>
+<!--/PDFへの入力判別-->
+</dl>
+<dl>
+<dd class="date">2017/07/07<br>
+<span><img src="/images/news-label-11.gif" alt="WHITE PAPER 品質評価ガイドライン" width="70" height="22"></span></dd>
+<!--textfield-pdf PDFへの入力判別-->
+<dt class="newsTitle"><a href='/press/whitepaper_sup/2017/google-general-guidelines4.html' class="pdf" target="_blank">Google General Guidelines（アイレップ私訳版）<br />第4章：評価者用システムの利用方法</a></dt>
+<!--/PDFへの入力判別-->
+</dl>
+<dl>
+<dd class="date">2017/06/21<br>
+<span><img src="/images/news-label-11.gif" alt="WHITE PAPER 品質評価ガイドライン" width="70" height="22"></span></dd>
+<!--textfield-pdf PDFへの入力判別-->
+<dt class="newsTitle"><a href='/press/whitepaper_sup/2017/google-general-guidelines3-2.html' class="pdf" target="_blank">Google General Guidelines（アイレップ私訳版）<br />第3章：Needs Met評価　2.補足説明</a></dt>
+<!--/PDFへの入力判別-->
+</dl>
+<dl>
+<dd class="date">2017/06/20<br>
+<span><img src="/images/news-label-11.gif" alt="WHITE PAPER 品質評価ガイドライン" width="70" height="22"></span></dd>
+<!--textfield-pdf PDFへの入力判別-->
+<dt class="newsTitle"><a href='/press/whitepaper_sup/2017/google-general-guidelines3-1.html' class="pdf" target="_blank">[更新版] Google General Guidelines（アイレップ私訳版）<br />第3章：Needs Met評価　1.評価基準と事例</a></dt>
+<!--/PDFへの入力判別-->
+</dl>
+<p class="listMore"><a href="/press/whitepaper/">一覧を見る</a></p>
+</div>
+
+<!--αSEOコラム-->
+<div class="tabContent noSelect">
+<dl>
+<dd class="date">2017/01/23<br>
+<span><img src="/images/news-label-10.gif" alt="αSEO" width="70" height="11"></span></dd>
+<!--textfield リンクへの入力判別-->
+<dt class="newsTitle"><a href='http://www.ecology-life.jp/service/bandainamcoent/' class="column_link" target="_blank">【ecolife】<br />株式会社バンダイナムコエンターテインメントのCSR活動インタビュー</a></dt>
+<!--/リンクへの入力判別-->
+</dl>
+<dl>
+<dd class="date">2017/01/17<br>
+<span><img src="/images/news-label-10.gif" alt="αSEO" width="70" height="11"></span></dd>
+<!--textfield リンクへの入力判別-->
+<dt class="newsTitle"><a href='http://www.alphaseo.jp/seo-column/170117_113001.html' class="column_link" target="_blank">【αSEO：SEOコラム】<br />Google 、モバイル ファースト インデックスを公式発表<br />～SEOへの影響と今後の対応について解説～<br />株式会社アイレップ SEM総合研究所 所長 渡辺隆広</a></dt>
+<!--/リンクへの入力判別-->
+</dl>
+<dl>
+<dd class="date">2016/12/20<br>
+<span><img src="/images/news-label-10.gif" alt="αSEO" width="70" height="11"></span></dd>
+<!--textfield リンクへの入力判別-->
+<dt class="newsTitle"><a href='http://www.ecology-life.jp/trading/mitsui/' class="column_link" target="_blank">【ecolife】<br />三井物産株式会社のCSR活動インタビュー</a></dt>
+<!--/リンクへの入力判別-->
+</dl>
+<dl>
+<dd class="date">2016/12/06<br>
+<span><img src="/images/news-label-10.gif" alt="αSEO" width="70" height="11"></span></dd>
+<!--textfield リンクへの入力判別-->
+<dt class="newsTitle"><a href='http://www.alphaseo.jp/seo-column/161206_113000.html' class="column_link" target="_blank">【αSEO：SEOコラム】<br />モバイルSEOなんて、ありません。情報の評価とその閲覧性の話<br />株式会社アイレップ SEM総合研究所 所長 渡辺隆広</a></dt>
+<!--/リンクへの入力判別-->
+</dl>
+<dl>
+<dd class="date">2016/10/18<br>
+<span><img src="/images/news-label-10.gif" alt="αSEO" width="70" height="11"></span></dd>
+<!--textfield リンクへの入力判別-->
+<dt class="newsTitle"><a href='http://www.alphaseo.jp/seo-column/161018_113000.html' class="column_link" target="_blank">【αSEO：SEOコラム】<br />SEOが嫌い・誤解している人に知っておいてほしいこと<br />株式会社アイレップ SEM総合研究所 所長 渡辺隆広</a></dt>
+<!--/リンクへの入力判別-->
+</dl>
+<p class="listMore"><a href="http://www.alphaseo.jp/" target="_blank">αSEOへ移動する</a></p>
+</div>
+
+<!--ecolife-->
+<div class="tabContent noSelect">
+</div>
+
+</div>
+
+
+<div id="pickupArea">
+<div id="pickupAreaInner" class="col2-2">
+<div class="col2-2-1" id="seminarArea">
+<h2><img src="/images/seminar-title.gif" alt="Seminar" width="82" height="251"></h2>
+<div class="seminarDetails">
+<dl>
+<dd class="date">2017/07/12</dd>
+<dt><a href="/press/release/2017/20170711.html"><small>アイレップ主催　Twitter社 登壇<br />コミュニケーション設計や運用戦略、クリエイティブ施策まで</small><br />「成果に導くTwitter広告 活用戦略セミナー」<br /><small>8月9日（水）アイレップ本社で開催（無料/定員制）</small></a></dt>
+</dl>
+<div class="summary02">
+<h4><span>【開催地、開催日程】</span></h4>
+<p>東京： 2017/8/9</p>
+<h4><span>【お申し込み締切日】</span></h4>
+<!--<p>東京： 2017/8/1</p>-->
+<p class="closed"><span class="redtxt">
+沢山のお申し込み、誠にありがとうございました。<br />
+締切日になりましたので、お申し込みは締め切らせて頂きました。</span>
+</p>
+</div></div>
+</div>
+<div class="col2-2-2" id="marketiaArea">
+<h2><img src="/images/marketia-title.gif" alt="Marketia" width="81" height="233"></h2>
+<p><a href="http://www.marketia.jp/" target="_blank" class="rollover"><img src="/images/marketia-btn-01.gif" alt="アイレップの次世代型プラットフォーム" width="153" height="232"></a></p>
+</div>
+</div>
+</div>
+</div>
+<div class="col2-1-2">
+<p id="dachd_btn"><a href="https://www.dac-holdings.co.jp/" target="_blank" class="rollover"><img src="/images/side-btn-08.jpg" alt="共同持株会社D.A.コンソーシアムホールディングス株式会社を設立致しました。" width="376" height="100"></a></p>
+<div id="businessArea">
+<h2><img src="/images/business-title.gif" alt="Business" width="82" height="260"></h2>
+<section class="business-1">
+<p><a href="/company/marketing/internet.html" class="rollover"><img src="/images/business-btn-01.gif" alt="Digital Marketing" width="238" height="112"></a></p>
+</section>
+<section class="business-2">
+<p><a href="/company/marketing/vertical.html" class="rollover"><img src="/images/business-btn-06.gif" alt="Digital Media" width="238" height="72"></a></p>
+<div>
+<p><a href="http://www.jutakutenjijo.com/" target="_blank" class="rollover"><img src="/images/business-btn-07.gif" alt="一戸建て注文住宅の情報が満載" width="238" height="48"></a></p>
+</div>
+</section>
+</div>
+<aside>
+<p><a href="/recruit/proper/" target="_blank" class="rollover"><img src="/images/side-btn-01.jpg" alt="IREP RECRUITING2018" width="376" height="100"></a></p>
+<p><a href="/press/whitepaper/google-general-guidelines/" target="_blank" class="rollover"><img src="/images/side-btn-06.jpg" alt="Google General Guidelines アイレップ私訳版" width="376" height="65"></a></p>
+<p><a href="/press/books/index.html" class="rollover"><img src="/images/side-btn-03.jpg" alt="出版物のご紹介" width="376" height="65"></a></p>
+<p><a href="http://www.ecology-life.jp/" target="_blank" class="rollover"><img src="/images/side-btn-05.jpg" alt="エコライフ" width="376" height="65"></a></p>
+</aside>
+
+</div>
+</div>
+
+<div class="footBannerArea">
+<a id="prevBtn" class="prev rollover" href="#"><img src="/images/footBanner-btn-01.gif" alt="" width="12" height="84"></a>
+<div class="footBannerInner">
+<ul id="footBanner">
+</ul>
+</div>
+<a id="nextBtn" class="next rollover" href="#"><img src="/images/footBanner-btn-02.gif" alt="" width="12" height="84"></a>
+</div>
+
+<p id="pageTopNav"><a href="#headWrap"><img src="/common/images/pagetop.gif" alt="" width="60" height="55"></a></p>
+
+<footer>
+<ul>
+<li><a href="/policy/">個人情報保護方針</a></li>
+<li><a href="/cookie/">クッキー利用について</a></li>
+<li><a href="/about/">このサイトについて</a></li>
+<li><a href="/contact/">お問い合わせ</a></li>
+<li><a href="/sitemap/">サイトマップ</a></li>
+</ul>
+<p id="copyright">Copyright(C) <script type="text/javascript" language="javascript">addCrtYear();</script> IREP Co., Ltd. All Rights Reserved.</p>
+</footer></div>
+
+<!-- EBiS common tag version2.00 start -->
+<script type="text/javascript">
+<!--
+(function() {
+    var host = (location.protocol == 'http:')
+             ? 'http://daikoku.ebis.ne.jp'
+             : 'https://secure2.ebis.ne.jp';
+    var argument = 'VtqC7U5E';
+    var url      = host + '/ct_tag.php?argument=' + argument;
+    document.write('<scr' + 'ipt type="text/javascript" src="' + url + '"></scr' + 'ipt>');
+})();
+//-->
+</script>
+<!-- EBiS common tag end --><!-- SiteCatalyst code version: H.21.
+Copyright 1996-2010 Adobe, Inc. All Rights Reserved
+More info available at http://www.omniture.com -->
+<script language="JavaScript" type="text/javascript" src="//www.irep.co.jp/common/inc/analytics/s_code.js"></script>
+<script language="JavaScript" type="text/javascript"><!--
+/* You may give each page an identifying name, server, and channel on
+the next lines. */
+s.pageName=""
+s.server=document.domain
+s.channel="TOP"
+s.pageType=""
+s.prop1=""
+s.prop2=""
+s.prop3=document.domain
+s.prop4=document.title
+s.prop5=document.URL
+s.prop11="TOP"
+/* Conversion Variables */
+s.campaign=""
+s.state=""
+s.zip=""
+s.events=""
+s.products=""
+s.purchaseID=""
+s.eVar1=""
+s.eVar2=""
+s.eVar3=""
+s.eVar4=""
+s.eVar5=""
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+var s_code=s.t();if(s_code)document.write(s_code)//--></script>
+<!--/DO NOT REMOVE/-->
+<!-- End SiteCatalyst code version: H.21. -->
+
+<script type="text/javascript">
+  (function () {
+    var tagjs = document.createElement("script");
+    var s = document.getElementsByTagName("script")[0];
+    tagjs.async = true;
+    tagjs.src = "//s.yjtag.jp/tag.js#site=X1eeF53";
+    s.parentNode.insertBefore(tagjs, s);
+  }());
+</script>
+<noscript>
+  <iframe src="//b.yjtag.jp/iframe?c=X1eeF53" width="1" height="1" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+</noscript>
+
+
+<!-- irep_customtag -->
+
+<script type="text/javascript">(function(d,u){var b=d.getElementsByTagName("script")[0],j=d.createElement("script");j.async=true;j.src=u;b.parentNode.insertBefore(j,b);})(document,"//img.ak.impact-ad.jp/ut/73b43a2cb343df5f_2618.js");</script><noscript><iframe src="//nspt.unitag.jp/73b43a2cb343df5f_2618.php" width="0" height="0" frameborder="0"></iframe></noscript></body>
+</html>

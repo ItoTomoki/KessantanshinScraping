@@ -1,0 +1,895 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" id="sixapart-standard">
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" href="tenpos.css" type="text/css" />
+<link rel="start" href="http://www.tenpos.co.jp/" title="Home" />
+<link rel="alternate" type="application/atom+xml" title="Recent Entries" href="http://www.tenpos.co.jp/atom.xml" />
+<link rel="shortcut icon" href="http://www.tenpos.co.jp/tenposT.png" />
+<script type="text/javascript" src="http://www.tenpos.co.jp/mt.js"></script>
+<script type="text/javascript" src="/js/base.js"></script>
+
+<style type="text/css">
+ .btn_00 {
+	width: 210px;
+	float: left;
+	margin-right:6px;
+	}
+
+</style>
+
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.tenpos.co.jp/rsd.xml" />
+    <title>飲食店向け中古厨房機器販売のテンポスバスターズ</title>
+<meta name="description" content="厨房機器販売、買い取り、出店開業、物件探し、求人、店舗デザイン、販促サービスなど飲食店のことなら何でもお任せ！株式会社テンポスバスターズ！" />
+<meta name="keywords" content="テンポス,中古厨房機器,飲食店,業務用,開業,店舗物件,飲食店求人,店舗デザイン" />
+<meta property="og:title" content="厨房機器販売のテンポスバスターズ" />
+<meta property="fb:app_id" content="" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="" />
+<meta property="og:image" content="" />
+<meta property="og:site_name" content="厨房機器販売のテンポスバスターズ" />
+<meta property="og:description" content="厨房機器販売、買い取り、開業、物件探し、求人、店舗デザイン、販促サービスなど飲食店のことなら何でもお任せ！株式会社テンポスバスターズ！" />
+<!-- スライダー関連　始 -->
+
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+		<script src="js/cufon-yui.js" type="text/javascript"></script>
+		<script src="js/ChunkFive_400.font.js" type="text/javascript"></script>
+		<script type="text/javascript">
+			Cufon.replace('h1',{ textShadow: '1px 1px #000'});
+			Cufon.replace('h2',{ textShadow: '1px 1px #000'});
+			Cufon.replace('.footer',{ textShadow: '1px 1px #000'});
+			Cufon.replace('.pxs_loading',{ textShadow: '1px 1px #000'});
+		</script>
+
+<!-- スライダー関連　終 -->
+<!-- Parallaxslider　スクリプトと制御部分　始 -->
+
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+        <script type="text/javascript">
+			(function($) {
+				$.fn.parallaxSlider = function(options) {
+					var opts = $.extend({}, $.fn.parallaxSlider.defaults, options);
+					return this.each(function() {
+						var $pxs_container 	= $(this),
+						o 				= $.meta ? $.extend({}, opts, $pxs_container.data()) : opts;
+
+						//the main slider
+						var $pxs_slider		= $('.pxs_slider',$pxs_container),
+						//the elements in the slider
+						$elems			= $pxs_slider.children(),
+						//total number of elements
+						total_elems		= $elems.length,
+						//the navigation buttons
+						$pxs_next		= $('.pxs_next',$pxs_container),
+						$pxs_prev		= $('.pxs_prev',$pxs_container),
+						//the bg images
+						$pxs_bg1		= $('.pxs_bg1',$pxs_container),
+						$pxs_bg2		= $('.pxs_bg2',$pxs_container),
+						$pxs_bg3		= $('.pxs_bg3',$pxs_container),
+						//current image
+						current			= 0,
+						//the thumbs container
+						$pxs_thumbnails = $('.pxs_thumbnails',$pxs_container),
+						//the thumbs
+						$thumbs			= $pxs_thumbnails.children(),
+						//the interval for the autoplay mode
+						slideshow,
+						//the loading image
+						$pxs_loading	= $('.pxs_loading',$pxs_container),
+						$pxs_slider_wrapper = $('.pxs_slider_wrapper',$pxs_container);
+
+						//first preload all the images
+						var loaded		= 0,
+						$images		= $pxs_slider_wrapper.find('img');
+
+						$images.each(function(){
+							var $img	= $(this);
+							$('<img/>').load(function(){
+								++loaded;
+								if(loaded	== total_elems*2){
+									$pxs_loading.hide();
+									$pxs_slider_wrapper.show();
+
+									//one images width (assuming all images have the same sizes)
+									var one_image_w		= $pxs_slider.find('img:first').width();
+
+									/*
+									need to set width of the slider,
+									of each one of its elements, and of the
+									navigation buttons
+									 */
+									setWidths($pxs_slider,
+									$elems,
+									total_elems,
+									$pxs_bg1,
+									$pxs_bg2,
+									$pxs_bg3,
+									one_image_w,
+									$pxs_next,
+									$pxs_prev);
+
+									/*
+										set the width of the thumbs
+										and spread them evenly
+									 */
+									$pxs_thumbnails.css({
+										'width'			: one_image_w + 'px',
+										'margin-left' 	: -one_image_w/2 + 'px'
+									});
+									var spaces	= one_image_w/(total_elems+1);
+									$thumbs.each(function(i){
+										var $this 	= $(this);
+										var left	= spaces*(i+1) - $this.width()/2;
+										$this.css('left',left+'px');
+
+										if(o.thumbRotation){
+											var angle 	= Math.floor(Math.random()*41)-20;
+											$this.css({
+												'-moz-transform'	: 'rotate('+ angle +'deg)',
+												'-webkit-transform'	: 'rotate('+ angle +'deg)',
+												'transform'			: 'rotate('+ angle +'deg)'
+											});
+										}
+										//hovering the thumbs animates them up and down
+										$this.bind('mouseenter',function(){
+											$(this).stop().animate({top:'-10px'},100);
+										}).bind('mouseleave',function(){
+											$(this).stop().animate({top:'0px'},100);
+										});
+									});
+
+									//make the first thumb be selected
+									highlight($thumbs.eq(0));
+
+									//slide when clicking the navigation buttons
+									$pxs_next.bind('click',function(){
+										++current;
+										if(current >= total_elems)
+											if(o.circular)
+												current = 0;
+										else{
+											--current;
+											return false;
+										}
+										highlight($thumbs.eq(current));
+										slide(current,
+										$pxs_slider,
+										$pxs_bg3,
+										$pxs_bg2,
+										$pxs_bg1,
+										o.speed,
+										o.easing,
+										o.easingBg);
+									});
+									$pxs_prev.bind('click',function(){
+										--current;
+										if(current < 0)
+											if(o.circular)
+												current = total_elems - 1;
+										else{
+											++current;
+											return false;
+										}
+										highlight($thumbs.eq(current));
+										slide(current,
+										$pxs_slider,
+										$pxs_bg3,
+										$pxs_bg2,
+										$pxs_bg1,
+										o.speed,
+										o.easing,
+										o.easingBg);
+									});
+
+									/*
+									clicking a thumb will slide to the respective image
+									 */
+									$thumbs.bind('click',function(){
+										var $thumb	= $(this);
+										highlight($thumb);
+										//if autoplay interrupt when user clicks
+										if(o.auto)
+											clearInterval(slideshow);
+										current 	= $thumb.index();
+										slide(current,
+										$pxs_slider,
+										$pxs_bg3,
+										$pxs_bg2,
+										$pxs_bg1,
+										o.speed,
+										o.easing,
+										o.easingBg);
+									});
+
+									/*
+									activate the autoplay mode if
+									that option was specified
+									 */
+									if(o.auto != 0){
+										o.circular	= true;
+										slideshow	= setInterval(function(){
+											$pxs_next.trigger('click');
+										},o.auto);
+									}
+
+									/*
+									when resizing the window,
+									we need to recalculate the widths of the
+									slider elements, based on the new windows width.
+									we need to slide again to the current one,
+									since the left of the slider is no longer correct
+									 */
+									$(window).resize(function(){
+										w_w	= $(window).width();
+										setWidths($pxs_slider,$elems,total_elems,$pxs_bg1,$pxs_bg2,$pxs_bg3,one_image_w,$pxs_next,$pxs_prev);
+										slide(current,
+										$pxs_slider,
+										$pxs_bg3,
+										$pxs_bg2,
+										$pxs_bg1,
+										1,
+										o.easing,
+										o.easingBg);
+									});
+
+								}
+							}).error(function(){
+								alert('here')
+							}).attr('src',$img.attr('src'));
+						});
+
+
+
+					});
+				};
+
+				//the current windows width
+				var w_w				= $(window).width();
+
+				var slide			= function(current,
+				$pxs_slider,
+				$pxs_bg3,
+				$pxs_bg2,
+				$pxs_bg1,
+				speed,
+				easing,
+				easingBg){
+					var slide_to	= parseInt(-w_w * current);
+					$pxs_slider.stop().animate({
+						left	: slide_to + 'px'
+					},speed, easing);
+					$pxs_bg3.stop().animate({
+						left	: slide_to/2 + 'px'
+					},speed, easingBg);
+					$pxs_bg2.stop().animate({
+						left	: slide_to/4 + 'px'
+					},speed, easingBg);
+					$pxs_bg1.stop().animate({
+						left	: slide_to/8 + 'px'
+					},speed, easingBg);
+				}
+
+				var highlight		= function($elem){
+					$elem.siblings().removeClass('selected');
+					$elem.addClass('selected');
+				}
+
+				var setWidths		= function($pxs_slider,
+				$elems,
+				total_elems,
+				$pxs_bg1,
+				$pxs_bg2,
+				$pxs_bg3,
+				one_image_w,
+				$pxs_next,
+				$pxs_prev){
+					/*
+					the width of the slider is the windows width
+					times the total number of elements in the slider
+					 */
+					var pxs_slider_w	= w_w * total_elems;
+					$pxs_slider.width(pxs_slider_w + 'px');
+					//each element will have a width = windows width
+					$elems.width(w_w + 'px');
+					/*
+					we also set the width of each bg image div.
+					The value is the same calculated for the pxs_slider
+					 */
+					$pxs_bg1.width(pxs_slider_w + 'px');
+					$pxs_bg2.width(pxs_slider_w + 'px');
+					$pxs_bg3.width(pxs_slider_w + 'px');
+
+					/*
+					both the right and left of the
+					navigation next and previous buttons will be:
+					windowWidth/2 - imgWidth/2 + some margin (not to touch the image borders)
+					 */
+					var position_nav	= w_w/2 - one_image_w/2 + 3;
+					$pxs_next.css('right', position_nav + 'px');
+					$pxs_prev.css('right', position_nav + 'px');
+				}
+
+				$.fn.parallaxSlider.defaults = {
+					auto			: 5000,	//how many seconds to periodically slide the content.
+											//If set to 0 then autoplay is turned off.
+					speed			: 2800,//speed of each slide animation
+					easing			: 'jswing',//easing effect for the slide animation
+					easingBg		: 'jswing',//easing effect for the background animation
+					circular		: true,//circular slider
+					thumbRotation	: true//the thumbs will be randomly rotated
+				};
+				//easeInOutExpo,easeInBack
+			})(jQuery);
+		</script>
+
+		<script type="text/javascript">
+			$(function() {
+				var $pxs_container	= $('#pxs_container');
+				$pxs_container.parallaxSlider();
+			});
+        </script>
+<!-- Parallaxslider　スクリプトと制御部分　終 -->
+
+<!-- User Heat Tag -->
+<script type="text/javascript">
+(function(add, cla){window['UserHeatTag']=cla;window[cla]=window[cla]||function(){(window[cla].q=window[cla].q||[]).push(arguments)},window[cla].l=1*new Date();var ul=document.createElement('script');var tag = document.getElementsByTagName('script')[0];ul.async=1;ul.src=add;tag.parentNode.insertBefore(ul,tag);})('//uh.nakanohito.jp/uhj2/uh.js', '_uhtracker');_uhtracker({id:'uh1CsvWEf6'});
+</script>
+<!-- End User Heat Tag -->
+
+</head>
+<body id="professional-website" class="mt-main-index layout-wtt">
+
+<!-- Facebook 埋め込み JavaScript SDK　始-->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.4";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<!--Facebook 埋め込み JavaScript SDK　終 -->
+
+    <div id="container-top">
+        <div id="container-inner">
+            <table width="900" border="0" cellspacing="0" cellpadding="0" style="border-top:6px solid #E10000;">
+  <tr>
+    <td><div id="header">
+      <div id="search">        </div>
+      <table border="0" cellpadding="0" cellspacing="0" style="float:right;">
+        <tr>
+          <td width="198">&nbsp;</td>
+          <td width="77"><a href="/"><img src="/image/home.gif" alt="" border="0" /></a></td>
+          <td width="80"><a href="/sitemap/"><img src="/image/sitemap.gif" alt="" border="0"></a></td>
+          <td width="82"><a href="/contact/"><img src="/image/contact.gif" alt="" border="0"></a></td>
+          <td width="75"><a href="/english/"><img src="/image/english.gif" alt="" border="0"></a></td>
+        </tr>
+        <tr align="right">
+          <td colspan="5"><div class="header-search">
+            <form method="get" action="http://www.tenpos.co.jp/cgi-bin/mt01/mt-search.cgi">
+              <input type="hidden" name="IncludeBlogs" value="1,2,3" />
+              <input type="hidden" name="limit" value="20" />
+              <input name="search" class="query" id="search2" value="" size="20" style="width:100px;"/>
+              <input class="submit" type="submit" value="検索" style="font-size:0.85em;"/>
+            </form>
+          </div></td>
+        </tr>
+      </table>
+      <a href="/"><img src="/image/logo.gif" style="float:left;"></a><img src="/image/logo_name.gif"><br style="clear:both;">
+    </div></td>
+  </tr>
+</table>
+
+            <div id="content">
+                <div id="content-inner">
+                    <div id="alpha">
+                        <div id="alpha-inner">
+
+    <!-- スライダー本体 始 -->
+    <div id="pxs_container" class="pxs_container">
+      <div class="pxs_bg">
+        <div class="pxs_bg1"></div>
+        <div class="pxs_bg2"></div>
+        <div class="pxs_bg3"></div>
+      </div>
+      <div class="pxs_loading">Loading images...</div>
+      <div class="pxs_slider_wrapper">
+        <ul class="pxs_slider">
+          <li><a href="news/info/20170809_622.html"><img src="images/slide-l-seminartokyo.gif" alt="俺流セミナー" /></a></li>
+          <li><a href="http://www.tenpos.com/kaigyo/?20170501" target="_blank"><img src="images/slide-l-kaigyo.png" alt="開業支援特集" /></a></li>
+          <li><a href="http://www.tenpos.com/kaitori/heiten/" target="_blank"><img src="images/slide-l-heiten.png" alt="得する閉店術" /></a></li>
+          <li><a href="http://www.tenpos.com/fs/tools/c/comp-machine" target="_blank"><img src="images/slide-l-hikaku.png" alt="厨房機器投票" /></a></li>
+          <li><a href="http://www.tenpos.co.jp/dojo/" target="_blank"><img src="images/slide-l-dojo.png" alt="飲食道場" /></a></li>
+          <li><a href="http://tenpos-fukumen.com/corp/" target="_blank"><img src="images/slide-l-shopper.png" alt="テンポショッパー" /></a></li>
+          <li><a href="http://tenpojin.com" target="_blank"><img src="images/slide-l-tenpojin12.png" alt="人材紹介テンポジンパーソナルエージェント" /></a></li>
+          <li><a href="http://www.tenpos.com/fs/tools/c/rental" target="_blank"><img src="images/slide-l-rental.gif" alt="厨房機器レンタルサービス" /></a></li>
+          <li><a href="http://tenposair.com" target="_blank"><img src="images/slide-l-tenposair.png" alt="飲食店専用iPadPOSテンポスエアー" /></a></li>
+          <li><a href="http://www.tenpos.co.jp/news/info/20160215_582.html" target="_blank"><img src="images/slide-l-power.png" alt="女性活躍パワーアップ大賞" /></a></li>
+          <!--li><a href="http://www.tenpos.co.jp/youtube/"><img src="images/slide-l-pv.jpg" alt="Happy Presented by Tenpos Group" /></a></li-->
+          <!--li><a href="http://www.tenpos.com/kaitori/service/jirei.html" target="_blank"><img src="images/slide-l-kaitori4.png" alt="閉店する前に業務委託" /></a></li-->
+          <!--li><a href="http://tenpos-interior.com/fs/display/c/w-chair" target="_blank"><img src="images/slide-l-interior.jpg" alt="インテリア専門店テンポスインテリア館" /></a></li-->
+          <!--<li><a href="http://www.tenpos.co.jp/movie/movie.html"><img src="images/slide-l-seishin.png" alt="テンポス精神のすべて" /></a></li>-->
+        </ul>
+        <div class="pxs_navigation">
+          <span class="pxs_next"></span>
+          <span class="pxs_prev"></span>
+        </div>
+        <ul class="pxs_thumbnails">
+          <li><img src="images/slide-s-seminartokyo.gif" alt="俺流セミナー" /></li>
+          <li><img src="images/slide-s-kaigyo.png" alt="開業支援特集" /></li>
+          <li><img src="images/slide-s-heiten.png" alt="得する閉店術" /></li>
+          <li><img src="images/slide-s-hikaku.png" alt="厨房機器投票" /></li>
+          <li><img src="images/slide-s-dojo.png" alt="飲食道場" /></li>
+          <li><img src="images/slide-s-shopper.png" alt="テンポショッパー" /></li>
+          <li><img src="images/slide-s-tenpojin.jpg" alt="人材紹介テンポジンパーソナルエージェント" /></li>
+          <li><img src="images/slide-s-rental.gif" alt="厨房機器レンタルサービス" /></li>
+          <li><img src="images/slide-s-tenposair.png" alt="飲食店専用iPadPOSテンポスエアー" /></li>
+          <li><img src="images/slide-s-power.png" alt="女性活躍パワーアップ大賞" /></li>
+          <!--li><img src="images/slide-s-pv.jpg" alt="Happy Presented by Tenpos Group" /></li-->
+          <!--li><img src="images/slide-s-kaitori.gif" alt="閉店する前に業務委託" /></li-->
+          <!--li><img src="images/slide-s-interior.png" alt="インテリア専門店テンポスインテリア館" /></li-->
+          <!--<li><img src="images/slide-s-seishin.png" alt="テンポス精神のすべて" /></li>-->
+        </ul>
+      </div>
+    </div>
+    <!-- スライダー本体 終 -->
+
+
+<!-- div style="clear:both;">&nbsp;</div -->
+
+
+<ul id="top-btn" class="clearfix" style="padding-top:30px !important;">
+	<li class="btn_l"><a href="http://www.tenpos.com/" target="_blank">
+	<img src="http://www.tenpos.co.jp/image/top/btn_r01.gif" alt="新品・中古商品をご購入の方はこちら"></a>
+	<p>中古厨房機器、飲食店用品など取扱店数 業界No.１の通販サイト（テンポスドットコム）</p></li>
+	<li class="btn_r"><a href="/profile/tenpo/">
+	<img src="http://www.tenpos.co.jp/image/top/btn_l01.gif" alt="店舗一覧"></a>
+	<p>全国59か所の店舗情報はこちらから。</p></li>
+</ul>
+
+<ul id="top-btn" class="clearfix">
+	<li><img src="http://www.tenpos.co.jp/image/top/ttl_001.gif"></li>
+	    <li>
+    	<div id="ch" class="ch06">
+			<div class="btn-box"><a href="http://www.tenpos.co.jp/profile/tenpo/001/"><img src="image/ch_btn06-1.png" width="347" height="50" alt="詳細を見る"/></a></div>
+			<div class="btn-box"><a href="http://www.tenpos.com/fs/tools/c/sapporo-shiroishi" target="_blank"><img src="image/ch_btn06-2.png" width="347" height="50" alt="詳細を見る"/></a></div>
+    	</div>
+    </li>
+
+    <li>
+    	<div id="ch" class="ch00">
+			<div class="btn-box"><a href="http://www.tenpos.co.jp/profile/tenpo/007/"><img src="image/ch_btn00-1.png" width="347" height="50" alt="詳細を見る"/></a></div>
+			<div class="btn-box"><a href="http://www.tenpos.com/fs/tools/c/kitchen-tool-list" target="_blank"><img src="image/ch_btn00-2.png" width="347" height="50" alt="詳細を見る"/></a></div>
+    	</div>
+    </li>
+    <li>
+    	<div id="ch" class="ch02">
+			<div class="btn-box"><a href="http://www.tenpos.co.jp/profile/tenpo/010/"><img src="image/ch_btn02-1.png" width="347" height="50" alt="詳細を見る"/></a></div>
+			<div class="btn-box"><a href="http://www.tenpos.com/fs/tools/c/hatogaya" target="_blank"><img src="image/ch_btn02-2.png" width="347" height="50" alt="詳細を見る"/></a></div>
+    	</div>
+    </li>
+    <li>
+    	<div id="ch" class="ch04">
+			<div class="btn-box"><a href="http://www.tenpos.co.jp/profile/tenpo/008/"><img src="image/ch_btn04-1.png" width="347" height="50" alt="詳細を見る"/></a></div>
+			<div class="btn-box"><a href="http://www.tenpos.com/fs/tools/c/kawaguchiC" target="_blank"><img src="image/ch_btn04-2.png" width="347" height="50" alt="詳細を見る"/></a></div>
+    	</div>
+    </li>
+        <li>
+    	<div id="ch" class="ch07">
+			<div class="btn-box"><a href="http://www.tenpos.co.jp/profile/tenpo/034/"><img src="image/ch_btn07-1.png" width="347" height="50" alt="詳細を見る"/></a></div>
+			<div class="btn-box"><a href="http://www.tenpos.com/fs/tools/c/higashi-osaka" target="_blank"><img src="image/ch_btn07-2.png" width="347" height="50" alt="詳細を見る"/></a></div>
+    	</div>
+    </li>
+
+    <li>
+    	<div id="ch" class="ch08">
+			<div class="btn-box"><a href="http://www.tenpos.co.jp/profile/tenpo/043/"><img src="image/ch_btn08-1.png" width="347" height="50" alt="詳細を見る"/></a></div>
+			<div class="btn-box"><a href="http://www.tenpos.com/fs/tools/c/fukuoka" target="_blank"><img src="image/ch_btn08-2.png" width="347" height="50" alt="詳細を見る"/></a></div>
+    	</div>
+    </li>
+</ul>
+<ul id="top-btn" class="clearfix">
+	<li class="btn_l"><a href="http://tenposjob.com/" target="_blank">
+	<img src="http://www.tenpos.co.jp/image/top/btn_r03.gif" alt="飲食店専門求人はこちら"></a>
+	<p>飲食業界中心のアルバイト・正社員採用情報サイト（テンポスジョブ）</p></li>
+	<li class="btn_r"><a href="http://www.tenpos.co.jp/recruiting/">
+	<img src="http://www.tenpos.co.jp/image/top/btn_l04.gif" alt="テンポスに入社したい方" border="0"></a>
+	<p>年齢問わず募集中。テンポスで一花咲かせている方を紹介しています。</p></li>
+</ul>
+<ul id="top-btn" class="clearfix">
+	<li class="btn_l"><a href="http://www.tenpos-ft.com/" target="_blank">
+	<img src="http://www.tenpos.co.jp/image/top/btn_r02.gif" alt="物件をお探しの方はこちら"></a>
+	<p>飲食店の物件情報、居抜情報の紹介サイト（テンポスフィナンシャルトラスト）</p></li>
+	<li class="btn_r"><a href="http://www.tenpos.com/kaitori/" target="_blank">
+	<img src="http://www.tenpos.co.jp/image/top/btn_r04.gif" alt="買取をご希望の方はこちら"></a>
+	<p>年間買取件数13,500件。日本全国見積り無料。</p></li>
+</ul>
+<ul id="top-btn" class="clearfix">
+	<li class="btn_l"><a href="http://www.tenpos-tenpo.com/fc/index.html" target="_blank">
+	<img src="http://www.tenpos.co.jp/image/top/btn_r05.gif" alt="飲食店FCをご検討の方はこちら"></a>
+	<p>フランチャイズ支援のテンポスが開業資金に合わせた優良FCチェーンを紹介。</p></li>
+	<li class="btn_r"><a href="http://www.tenpos.co.jp/news/info/">
+	<img src="http://www.tenpos.co.jp/image/top/btn_l02.gif" alt="ニュースをお探しの方はこちら" border="0"></a>
+	<p>テンポスバスターズグループの近況情報を配信中。</p></li>
+</ul>
+<ul id="top-btn" class="clearfix bor-btm">
+	<li class="btn_l"><a href="http://www.tenpos.co.jp/ir/" target="_blank">
+	<img src="http://www.tenpos.co.jp/image/top/btn_l03.gif" alt="投資家の方はこちら"></a>
+	<p>株価・業績・決算短信などの情報をご覧頂けます。</p></li>
+	<li class="btn_r"><a href="http://www.tenpos.com/fs/tools/c/seminar/" target="_blank">
+	<img src="http://www.tenpos.co.jp/image/top/btn_l05.gif" alt="イベントセミナー情報はこちら" border="0"></a>
+	<p> 飲食店向けイベントセミナー情報</p></li>
+</ul>
+
+
+<div style="clear:both;">&nbsp;</div>
+
+
+<ul id="top-btn-s" class="clearfix">
+  <li class="btn_00"><a href="/services/#group"><img src="http://www.tenpos.co.jp/image/top/btn_s03a.gif" alt="テンポスバスターズグループ 一覧"  width="214"/></a></li>
+  <li class="btn_00"><a href="/profile/company/"><img src="http://www.tenpos.co.jp/image/top/btn_s06a.gif" alt="テンポスバスターズ会社概要"  width="214"/></a></li>
+  <li class="btn_00"><a href="/profile/spirit_17/"><img src="http://www.tenpos.co.jp/image/top/btn_s04a.gif" alt="テンポスポリシー"  width="214"/></a></li>
+  <li class="btn_00"><a href="/contact/"><img src="http://www.tenpos.co.jp/image/top/btn_s05a.gif" alt="お問い合せ"  width="214"/></a></li>
+</ul>
+
+
+
+<!-- 最近の面白ニュース 始 -->
+<!--
+<table width="866" border="0" cellspacing="0" cellpadding="0" style="font-size:14px;line-height:18px;">
+	<tr>
+		<td width="100%" border="0" cellspacing="0" cellpadding="0" align="left" style="border-top:6px solid #E10000;padding-top:4px;padding-bottom:4px;">
+			<img src="http://www.tenpos.co.jp/image/top/top-omosirinews.jpg" width="100%">
+		</td>
+	</tr>
+	<tr>
+		<td width="100%" border="0" cellspacing="0" cellpadding="0" align="left" style="padding-top:8px;padding-bottom:4px;">
+
+			<img src="http://www.tenpos.co.jp/news/link_icon.jpg" width="15" />
+			<b>2015年12月1日 - <a href="http://www.tenpos.co.jp/news/info/20151130_572.html">
+			【 OPEN 】栃木県に「テンポス宇都宮店」オープン！</a></b><br />
+			<a href="http://www.tenpos.co.jp/news/info/20151130_572.html">
+			- お得な厨房機器がズラリ！今度は餃子の地"宇都宮"にテンポスが進出！今期７店舗目のオープン、<br />
+			全国53店舗となりました。ラーメンのスープ作りに使う、圧力寸胴鍋の展示スペースもあります。</a>
+		</td>
+	</tr>
+	<tr>
+		<td width="100%" border="0" cellspacing="0" cellpadding="0" align="left" style="padding-top:4px;padding-bottom:4px;">
+			<img src="http://www.tenpos.co.jp/news/link_icon.jpg" width="15" />
+			<b>2015年9月24日 - <a href="http://www.tenpos.co.jp/news/info/20150924_528.html">
+			【 NEWS 】テンポスバスターズ、日本全国に拡大中！</a></b><br />
+			<a href="http://www.tenpos.co.jp/news/info/20150924_528.html">
+			- ここのところ続々と新店をオープンしている「テンポスバスターズ」今期、新規５店舗をオープンし、<br />
+			日本全国51店舗まで拡大しています。各新店のオープン情報、今後の動きについてはこちらから。</a>
+		</td>
+	</tr>
+	<tr>
+		<td width="100%" border="0" cellspacing="0" cellpadding="0" align="left" style="padding-top:4px;padding-bottom:12px;">
+			<img src="http://www.tenpos.co.jp/news/link_icon.jpg" width="15" />
+			<b>2015年7月23日 - <a href="http://www.tenpos.co.jp/news/info/20150723_518.html">
+			【 NEWS 】時価総額「337億」突破！ 新高値2400円！ 年商500億円の企業を目指す！</a></b><br />
+			<a href="http://www.tenpos.co.jp/news/info/20150723_518.html">
+			- 飲食店の開業と運営を一から包括的に支援する(株)テンポスバスターズが7月23日時価総額「337億」を突破！！<br />
+			情報とサービスの提供、FBP化の加速によって、年商500億円の企業を目指してまいります。</a>
+		</td>
+	</tr>
+</table>
+ -->
+<!-- 最近の面白ニュース 終 -->
+
+<div style="clear:both;">&nbsp;</div>
+
+<div id="asset2">
+<ul id="top-news" class="clearfix">
+<li class="news-left">
+<div class="asset-header"><a href="/news/info/"><img src="http://www.tenpos.co.jp/image/top/ttl01.gif" alt="新着情報" /></a></div>
+
+<div id="entry-615" class="entry-asset asset hentry">
+<div class="asset-content entry-content">
+<span style="font-size:0.85em;">2017年7月6日</span> <span class="new">2017:07:06:16:10:05</span>
+<div><a href="http://www.tenpos.co.jp/news/info/20170706_615.html">池袋店閉店のお知らせ</a></div>
+<div class="ssttl"></div></div>
+</div>
+
+<div id="entry-621" class="entry-asset asset hentry">
+<div class="asset-content entry-content">
+<span style="font-size:0.85em;">2017年8月9日</span> <span class="new">2017:08:09:14:14:48</span>
+<div><a href="http://www.tenpos.co.jp/news/info/20170809_622.html">俺流セミナー 東京開催決定</a></div>
+<div class="ssttl"></div></div>
+</div>
+
+<div id="entry-620" class="entry-asset asset hentry">
+<div class="asset-content entry-content">
+<span style="font-size:0.85em;">2017年8月7日</span> <span class="new">2017:08:07:09:29:15</span>
+<div><a href="http://www.tenpos.co.jp/news/info/20170807_621.html">『社長名鑑』にテンポスバスターズの代表、平野忍の記事が掲載されました。</a></div>
+<div class="ssttl"></div></div>
+</div>
+
+<div id="entry-619" class="entry-asset asset hentry">
+<div class="asset-content entry-content">
+<span style="font-size:0.85em;">2017年8月1日</span> <span class="new">2017:08:01:11:31:02</span>
+<div><a href="http://www.tenpos.co.jp/news/info/20170801_620.html">中古商品　物量2倍への挑戦!!</a></div>
+<div class="ssttl"></div></div>
+</div>
+
+<div id="entry-619" class="entry-asset asset hentry">
+<div class="asset-content entry-content">
+<span style="font-size:0.85em;">2017年7月31日</span> <span class="new">2017:07:31:13:33:16</span>
+<div><a href="http://www.tenpos.co.jp/news/info/20170731_619.html">外食虎塾2017全国4都市講演ツアー　開催</a></div>
+<div class="ssttl"></div></div>
+</div>
+
+
+<!--div id="entry-587" class="entry-asset asset hentry">
+<div class="asset-content entry-content">
+<span style="font-size:0.85em;">2016年4月19日</span> <span class="new">2016:04:19:13:18:54</span>
+<div><a href="http://www.tenpos.co.jp/news/info/20160419_587.html">日本政策金融公庫様より「熊本地方の地震に係る災害に関する<br>特別相談窓口の 設置」についてのお知らせ</a></div>
+<div class="ssttl"></div></div>
+</div-->
+
+
+<div id="entry-586" class="entry-asset asset hentry">
+<div class="asset-content entry-content">
+<a href="/ir/prices"><img src="http://www.tenpos.co.jp/ir/prices/bana25.gif" style="margin:10px 0;"></a> <br>
+使用期間：平成29年8月1日～平成30年7月31日<br>
+
+</div>
+</div>
+<div id="entry-586" class="entry-asset asset hentry">
+<div class="asset-content entry-content">
+<a href="http://www.tenpos.co.jp/blog/"><img src="http://www.tenpos.co.jp/images/tenpoblog_bn.gif" style="margin:5px 0;"></a>
+</div>
+</div>
+
+</li>
+<li class="news-right">
+<div class="asset-header"><a href="/news/ir/"><img src="http://www.tenpos.co.jp/image/top/ttl02.gif" alt="IR情報・ニュースリリース" /></a></div>
+
+<div id="entry-605" class="entry-asset asset hentry">
+<div class="asset-content entry-content">
+<span style="font-size:0.85em;">2017年7月27日</span> <span class="new">2017:07:27:10:12:45</span>
+<div class="ssttl"><a href="http://www.tenpos.co.jp/news/ir/20170727_009.html">第25回定時株主総会を開催いたしました</a></div></div>
+</div>
+
+<div id="entry-604" class="entry-asset asset hentry">
+<div class="asset-content entry-content">
+<span style="font-size:0.85em;">2017年7月24日</span> <span class="new">2017:07:24:11:12:45</span>
+<div class="ssttl"><a href="http://www.tenpos.co.jp/news/ir/20170724_008.html">招集通知記載事項の一部訂正について</a></div></div>
+</div>
+
+<div id="entry-603" class="entry-asset asset hentry">
+<div class="asset-content entry-content">
+<span style="font-size:0.85em;">2017年7月5日</span> <span class="new">2017:07:05:00:00:00</span>
+<div class="ssttl"><a href="http://www.tenpos.co.jp/news/ir/20170705_001.html">平成29年4月期 決算短信〔日本基準〕（連結）」の一部訂正について</a></div></div>
+</div>
+
+<div id="entry-602" class="entry-asset asset hentry">
+<div class="asset-content entry-content">
+<span style="font-size:0.85em;">2017年7月3日</span> <span class="new">2017:07:03:00:00:00</span>
+<div class="ssttl"><a href="http://www.tenpos.co.jp/news/ir/20170703_006.html">2017年7月3日　吸収分割公告について</a></div></div>
+</div>
+
+<div id="entry-602" class="entry-asset asset hentry">
+<div class="asset-content entry-content">
+<span style="font-size:0.85em;">2017年6月21日</span> <span class="new">2017:06:21:17:21:25</span>
+<div class="ssttl"><a href="http://www.tenpos.co.jp/news/ir/20170621_005.html">平成29年7月　投資家向け会社説明会を開催いたします。</a></div></div>
+</div>
+
+<div id="entry-601" class="entry-asset asset hentry">
+<div class="asset-content entry-content">
+<span style="font-size:0.85em;">2017年6月12日</span> <span class="new">2017:06:12:10:10:13</span>
+<div class="ssttl"><a href="http://www.tenpos.co.jp/news/ir/20170612_004.html">連結子会社（キッチンテクノ株式会社）の業績に関するお知らせ</a></div></div>
+</div>
+
+<div id="entry-600" class="entry-asset asset hentry">
+<div class="asset-content entry-content">
+<span style="font-size:0.85em;">2017年6月12日</span> <span class="new">2017:06:12:10:09:30</span>
+<div class="ssttl"><a href="http://www.tenpos.co.jp/news/ir/20170612_003.html">連結子会社（株式あさくま）の業績に関するお知らせ</a></div></div>
+</div>
+
+<div id="entry-599" class="entry-asset asset hentry">
+<div class="asset-content entry-content">
+<span style="font-size:0.85em;">2017年6月12日</span> <span class="new">2017:06:12:10:09:15</span>
+<div class="ssttl"><a href="http://www.tenpos.co.jp/news/ir/20170612_002.html">平成29年4月期　決算短信〔日本基準〕(連結)</a></div></div>
+</div>
+<!--
+<div id="entry-598" class="entry-asset asset hentry">
+<div class="asset-content entry-content">
+<span style="font-size:0.85em;">2017年6月12日</span> <span class="new">2017:06:12:10:08:00</span>
+<div class="ssttl"><a href="http://www.tenpos.co.jp/news/ir/20170612_001.html">会社分割による持株会社体制への移行に伴う吸収分割契約締結及び定款の一部変更（商号及び事業目的の一部変更等）に関するお知らせ</a></div></div>
+</div>
+
+<div id="entry-597" class="entry-asset asset hentry">
+<div class="asset-content entry-content">
+<span style="font-size:0.85em;">2017年5月17日</span> <span class="new">2017:05:17:16:58:00</span>
+<div class="ssttl"><a href="http://www.tenpos.co.jp/news/ir/20170517_001.html">会社分割による持株会社体制への移行及び子会社（分割準備会社）の設立に関するお知らせ</a></div></div>
+</div>
+
+<div id="entry-596" class="entry-asset asset hentry">
+<div class="asset-content entry-content">
+<span style="font-size:0.85em;">2017年4月24日</span> <span class="new">2017:04:24:12:00:00</span>
+<div class="ssttl"><a href="http://www.tenpos.co.jp/news/ir/20170424_001.html">剰余金の配当に関するお知らせ</a></div></div>
+</div>
+
+<div id="entry-596" class="entry-asset asset hentry">
+<div class="asset-content entry-content">
+<span style="font-size:0.85em;">2017年3月10日</span> <span class="new">2017:03:10:17:08:28</span>
+<div class="ssttl"><a href="http://www.tenpos.co.jp/news/ir/20170310_001.html">平成29年4月期　第３四半期決算短信[日本基準]（連 結）</a></div></div>
+</div>
+
+<div id="entry-595" class="entry-asset asset hentry">
+<div class="asset-content entry-content">
+<span style="font-size:0.85em;">2017年1月17日</span> <span class="new">2017:01:17:17:15:31</span>
+<div class="ssttl"><a href="http://www.tenpos.co.jp/news/ir/20170117_001.html">IR TVに弊社代表 平野忍が出演する動画が掲載されました。</a></div></div>
+</div>
+
+<div id="entry-594" class="entry-asset asset hentry">
+<div class="asset-content entry-content">
+<span style="font-size:0.85em;">2016年12月12日</span> <span class="new">2016:12:12:11:03:00</span>
+<div class="ssttl"><a href="http://www.tenpos.co.jp/news/ir/20161212_001.html">平成29年4月期　第２四半期決算短信[日本基準]（連 結）</a></div></div>
+</div>
+
+<div id="entry-593" class="entry-asset asset hentry">
+<div class="asset-content entry-content">
+<span style="font-size:0.85em;">2016年9月12日</span> <span class="new">2016:09:12:10:18:19</span>
+<div class="ssttl"><a href="http://www.tenpos.co.jp/news/ir/20160912_001.html">25期第1四半期決算短信</a></div></div>
+</div>
+
+<div id="entry-592" class="entry-asset asset hentry">
+<div class="asset-content entry-content">
+<span style="font-size:0.85em;">2016年7月25日</span> <span class="new">2016:07:05:16:47:58</span>
+<div class="ssttl"><a href="http://www.tenpos.co.jp/news/ir/20160725_001.html">第24回株主総会決議ご通知</a></div></div>
+</div>
+
+<div id="entry-591" class="entry-asset asset hentry">
+<div class="asset-content entry-content">
+<span style="font-size:0.85em;">2016年6月10日</span> <span class="new">2016:06:17:10:46:08</span>
+<div class="ssttl"><a href="http://www.tenpos.co.jp/news/ir/20160610_001.html">平成28年4月期　決算短信[日本基準]（連結）</a></div></div>
+</div>
+
+<div id="entry-590" class="entry-asset asset hentry">
+<div class="asset-content entry-content">
+<span style="font-size:0.85em;">2016年5月11日</span> <span class="new">2016:05:11:10:46:08</span>
+<div class="ssttl"><a href="http://www.tenpos.co.jp/news/ir/20160511_590.html">平成28年6月　投資家向け会社説明会を開催いたします。</a></div></div>
+</div>
+
+
+<div id="entry-585" class="entry-asset asset hentry">
+<div class="asset-content entry-content">
+<span style="font-size:0.85em;">2016年4月20日</span> <span class="new">2016:04:20:00:00:00</span>
+<div class="ssttl"><a href="http://www.tenpos.co.jp/news/ir/20160420_585.html">4月20日 株式会社テンポス店舗企画および株式会社テンポスＦ＆Ｍ　合併のおしらせ</a></div></div>
+</div>
+
+
+<div id="entry-584" class="entry-asset asset hentry">
+<div class="asset-content entry-content">
+<span style="font-size:0.85em;">2016年4月12日</span> <span class="new">2016:04:12:13:18:28</span>
+<div class="ssttl"><a href="http://www.tenpos.co.jp/news/ir/20160412_584.html">平成28年4月期　第３四半期決算短信[日本基準]（連 結）</a></div></div>
+</div>
+
+<div id="entry-577" class="entry-asset asset hentry">
+<div class="asset-content entry-content">
+<span style="font-size:0.85em;">2015年12月21日</span> <span class="new">2015:12:21:14:25:17</span>
+<div class="ssttl"><a href="http://www.tenpos.co.jp/news/ir/20151221_577.html">平成28年4月期第2四半期個別累計期間の業績予想値と実差異　及び通期個別業績予想の修正に関するお知らせ</a></div></div>
+</div>
+
+<div id="entry-576" class="entry-asset asset hentry">
+<div class="asset-content entry-content">
+<span style="font-size:0.85em;">2015年12月21日</span> <span class="new">2015:12:21:14:21:49</span>
+<div class="ssttl"><a href="http://www.tenpos.co.jp/news/ir/20151221_576.html">連結子会社（株式会社テンポスドットコム）の業績に関するお知らせ</a></div></div>
+</div>
+
+<div id="entry-575" class="entry-asset asset hentry">
+<div class="asset-content entry-content">
+<span style="font-size:0.85em;">2015年12月21日</span> <span class="new">2015:12:21:14:21:09</span>
+<div class="ssttl"><a href="http://www.tenpos.co.jp/news/ir/20151221_575.html">連結子会社（キッチンテクノ株式会社）の業績に関するお知らせ</a></div></div>
+</div>
+
+<div id="entry-574" class="entry-asset asset hentry">
+<div class="asset-content entry-content">
+<span style="font-size:0.85em;">2015年12月21日</span> <span class="new">2015:12:21:14:20:16</span>
+<div class="ssttl"><a href="http://www.tenpos.co.jp/news/ir/20151221_574.html">連結子会社（株式会社あさくま）の業績に関するお知らせ</a></div></div>
+</div>
+
+<div id="entry-573" class="entry-asset asset hentry">
+<div class="asset-content entry-content">
+<span style="font-size:0.85em;">2015年12月11日</span> <span class="new">2015:12:11:10:29:00</span>
+<div class="ssttl"><a href="http://www.tenpos.co.jp/news/ir/20151211_573.html">平成28年4月期　第２四半期決算短信[日本基準]（連 結）</a></div></div>
+</div>
+-->
+
+
+
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<br style="clear:both;">
+                </div>
+            </div>
+            <br>
+<div id="footer">
+<ul class="footmain">
+<li><p>本社</p>
+〒144-0031<br/>東京都大田区東蒲田2-30-17<br/>サンユー東蒲田ビル７階<br/><br/>代表：03-3736-0319</li>
+<li><p><a href="profile">会社情報</a></p>
+<a href="services">事業概要</a><br/>
+<a href="recruiting/">採用情報</a><br/>
+<a href="profile/tenpo/">店舗一覧</a><br/>
+<a href="services/#group/">グループ企業一覧</a><br/>
+<a href="profile/spirit_17/">テンポスポリシー</a><br/>
+<a href="contact/">お問合せ</a></li>
+<li><p><a href="ir/">IR情報</a></p>
+<a href="news/ir/">ニュースリリース</a><br/>
+<a href="ir/achievement/">決算短信</a><br/>
+<a href="ir/financial/">財務情報</a><br/>
+<a href="ir/prices/">株価情報</a><br/>
+<a href="ir/service24/">株式優待制度</a><br/>
+<a href="news/ir_seminar/">決算説明書資料</a><br/>
+<a href="ir/achievement2/">業績について</a></li>
+<li><p>サービス一覧</p>
+<a href="http://studio-tenpos.com/" target="_blank">店舗デザイン</a><br/>
+<a href="http://www.tenpos.com/">厨房機器販売</a><br/>
+<a href="http://tenposjob.com/" target="_blank">求人情報</a><br/>
+<a href="http://tenpojin.com/" target="_blank">人材紹介</a><br/>
+<a href="http://www.mansekifax.com/lp/tenpos/" target="_blank">店舗販促</a><br/>
+<a href="http://tenposair.com/" target="_blank">POSレジ</a><br/>
+<a href="http://recruit.tenpos.co.jp/lp/" target="_blank">覆面調査</a><br/>
+<a href="http://www.tenpos.com/fs/tools/c/rental" target="_blank">レンタル</a><br/>
+<a href="http://www.tenpos.com/kaitori/" target="_blank">買取</a></li>
+<li><p>グループサイト</p>
+<a href="http://www.kitchen-t.co.jp/" target="_blank">キッチンテクノ</a><br/>
+<a href="http://www.tenpos.com/" target="_blank">テンポスドットコム</a><br/>
+<a href="http://www.tenpos.jp/" target="_blank">テンポス情報館</a><br/>
+<a href="http://studio-tenpos.com/" target="_blank">スタジオテンポス</a><br/>
+<a href="http://profit-labo.com/" target="_blank">プロフィットラボラトリー</a><br/>
+<a href="http://www.tenpos-ft.com/" target="_blank">テンポスフィナンシャルトラスト</a><br/>
+<a href="http://www.asakuma.co.jp/" target="_blank">ステーキのあさくま</a></li>
+</ul>
+<br style="clear:both;">
+</div>
+<div id="footer2"><a href="/sitepolicy/"><img src="/image/sitepolicy.gif"></a><a href="/privacypolicy/"><img src="/image/privacypolicy.gif"></a></div>
+<div id="copyright"><a href="http://www.tenpos.co.jp/"><img src="/image/copyright.gif" alt="株式会社テンポスバスターズ"></a></div>
+
+        </div>
+    </div>
+<!--newマーク表示スクリプト-->
+<script type="text/javascript">
+<!--
+// passage time
+var pass = 24;
+
+// display content
+var content = '<img src="/image/icon_new.gif">';
+
+var currentDate = new Date();
+var spans = document.getElementsByTagName('span');
+for (i = 0; i < spans.length; i++) {
+    if (spans[i].getAttribute('class') == 'new' ||
+        spans[i].getAttribute('className') == 'new') {
+        if (spans[i].childNodes[0]) {
+            time = spans[i].childNodes[0].nodeValue.split(":");
+            var entryDate = new Date(time[0], time[1]-1, time[2], time[3], time[4], time[5]);
+            var now = (entryDate.getTime() - currentDate.getTime())/(60*60*1000);
+            now = Math.ceil(now);
+            if(-now <= pass){
+                spans[i].innerHTML = content;
+                spans[i].style.display = 'inline';
+            }
+        }
+    }
+}
+//-->
+</script>
+<!--newマーク表示スクリプト-->
+<!-- ▽090115 -->
+<script type="text/javascript" src="/js/access.js"></script>
+<script type="text/javascript" src="/js/ga_1.js"></script>
+<script type="text/javascript" src="/js/ga_2.js"></script>
+</body>
+</html>

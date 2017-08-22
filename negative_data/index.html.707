@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>株式会社 グランディーズ</title>
+<meta name="keywords" content="グランディーズ, 大分市, 別府市, 宮崎市, 松山市, 物件, 新着物件, 不動産, 低価格, フォレクス, レスコ, ラグジン" />
+<meta name="description" content="大分、宮崎、愛媛の分譲マンション・新築建売住宅情報・戸建賃貸・投資用不動産なら不動産の株式会社グランディーズです。" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<script>
+if (/ipad/i.test(navigator.userAgent)) {
+document.write('<meta name="viewport" content="width=1200">');
+} else {
+document.write('<meta name="viewport" content="width=device-width,initial-scale=1">');
+}
+</script>
+<meta name="format-detection" content="telephone=no">
+<link rel="shortcut icon" href="favicon.ico">
+<link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+<!--[if lt IE 9]>
+<script src="/js/html5shiv.min.js"></script>
+<![endif]-->
+
+<link rel="stylesheet" type="text/css" href="/css/common2.css" />
+<link rel="stylesheet" type="text/css" href="/css/base2.css" />
+<link rel="stylesheet" type="text/css" href="/css/skin_index.css" />
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat" />
+
+
+<script type="text/javascript" src="/js/jquery-1.11.2.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="/burger_editor/css/bge_style_default.css" /><link rel="stylesheet" type="text/css" href="/css/bge_style.css" /><link rel="stylesheet" type="text/css" href="/burger_editor/css/colorbox.css" /><script type="text/javascript" src="/burger_editor/js/bge_modules/bge_functions.min.js"></script><script type="text/javascript" src="/burger_editor/js/bge_modules/jquery.colorbox-min.js"></script><script type="text/javascript" src="//maps.google.com/maps/api/js?key=AIzaSyCAq2n3o3mRSrj0RPu4fjO6QV2Bzo6okVc"></script>
+<meta property="og:type" content="website" />
+<meta property="og:locale" content="ja_JP" />
+<meta property="og:title" content="株式会社 グランディーズ" />
+<meta property="og:url" content="http://www.grandes.jp/" />
+<meta property="og:image" content="http://www.grandes.jp/img/ogp.png" />
+<meta property="og:site_name" content="株式会社 グランディーズ" />
+<meta property="og:description" content="大分、宮崎、愛媛の分譲マンション・新築建売住宅情報・戸建賃貸・投資用不動産なら不動産の株式会社グランディーズです。">
+
+
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-26656221-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+<!-- #ニュースティッカー -->
+<script>
+function ticker(){
+if($(window.outerWidth) <= 798){
+$('.news_box .news_list ul li a').animate({marginLeft: '-' + $( ".news_box .news_list ul li a" ).innerWidth()}, 45000, function(){
+$('li:first-child', this).appendTo(this);
+$(this).css({marginLeft: 0});
+});
+}
+else{
+$('.news_box .news_list ul li a').animate({marginLeft: '-' + $( ".news_box .news_list ul li a" ).innerWidth()}, 25000, function(){
+$('li:first-child', this).appendTo(this);
+$(this).css({marginLeft: 0});
+});
+}
+}
+setInterval(function(){
+ticker()
+}, 0);
+</script>
+<!--/ニュースティッカー -->
+
+</head>
+<body>
+
+<!-- #header -->
+<header id="header">
+<h1 id="logo"><a href="/"><img src="/img/common/logo.png" alt="株式会社 グランディーズ" /></a></h1>
+
+<div id="show_menu"><img src="/img/common/btn_menu.png" alt="MENU" /></div>
+<nav id="gnav">
+<ul class="clearfix">
+<li class="property"><a href="javascript:void(0)">取扱物件</a>				<div class="child">
+<ul>
+<li>
+<a href="/forlux/"><img src="/img/common/ph_gnav_property01.jpg" alt="" class="visible_pc_inline"><img src="/img/common/ph_gnav_property01_sp.jpg" alt="" class="visible_sp img"><br>
+              <img src="/img/common/img_gnav_property01.png" alt="建売住宅［フォレクス］FORLUX" class="visible_pc_inline"><img src="/img/common/img_gnav_property01_sp.png" alt="建売住宅［フォレクス］FORLUX" class="visible_sp logo"></a>            </li>
+            <li>
+              <a href="/attrese/"><img src="/img/common/ph_gnav_property02.jpg" alt="" class="visible_pc_inline"><img src="/img/common/ph_gnav_property02_sp.jpg" alt="" class="visible_sp img"><br>
+              <img src="/img/common/img_gnav_property02.png" alt="メゾネット型アパート［アテレーゼ］Attrrese" class="visible_pc_inline"><img src="/img/common/img_gnav_property02_sp.png" alt="メゾネット型アパート［アテレーゼ］Attrrese" class="visible_sp logo"></a>            </li>
+            <li>
+              <a href="/resco/"><img src="/img/common/ph_gnav_property03.jpg" alt="" class="visible_pc_inline"><img src="/img/common/ph_gnav_property03_sp.jpg" alt="" class="visible_sp img"><br>
+              <img src="/img/common/img_gnav_property03.png" alt="投資マンション［レスコ］RESCO" class="visible_pc_inline"><img src="/img/common/img_gnav_property03_sp.png" alt="投資マンション［レスコ］RESCO" class="visible_sp logo"></a>            </li>
+</ul>
+</div><!-- / .child -->
+</li>
+<li class="company"><a href="/company/">会社案内</a>				<div class="child">
+<div class="child_inner">
+<p class="img">
+              <a href="/company/"><img src="/img/common/ph_gnav_company01.jpg" alt="" class="visible_pc"><img src="/img/common/ph_gnav_company01_sp.jpg" alt="" class="visible_sp"><span>会社案内</span></a>            </p>
+<ul>
+<!-- <li><a href="/company/__URL__">経営理念</a></li> -->
+<li><a href="/company/principle/">社長からのご挨拶</a></li>
+<li class="clear"><a href="/company/summary/">会社概要</a></li>
+<li><a href="/company/history/">会社沿革</a></li>
+</ul>
+</div>
+</div><!-- / .child -->
+</li>
+<li class="ir"><a href="/ir/">IR情報</a>				<div class="child">
+<div class="child_inner">
+<p class="img">
+              <a href="/ir/"><img src="/img/common/ph_gnav_ir01.jpg" alt="" class="visible_pc"><img src="/img/common/ph_gnav_ir01_sp.jpg" alt="" class="visible_sp"><span>IR情報</span></a>            </p>
+<ul>
+<li><a href="/ir_news/">IRニュース（一覧）</a></li>
+<li><a href="/ir/#report">業績財務情報</a></li>
+<li><a href="/ir/#library">IRライブラリ</a></li>
+<li><a href="/ir/calendar">IRカレンダー</a></li>
+<li><a href="/ir/policy">IRポリシー</a></li>
+</ul>
+</div>
+</div><!-- / .child -->
+</li>
+<li class="recruit"><a href="/recruit/">求人情報</a></li>
+<li class="btn"><a href="https://www.grandes.jp/contact/">資料請<span>求・</span>お問い合わせ</a></li>
+</ul>
+<div class="visible_sp btn_close"><span>×</span> 閉じる</div>
+</nav><!-- / #gnav -->
+</header><!-- / #header -->
+
+<script>
+$(".clearfix li, .child ul li, .child .img").click(function(){
+    //alert(this);
+    $(this).parents('li').addClass('current');
+});
+</script>
+<!-- / #header -->
+
+<div class="news_block">
+<div class="news_box">
+<p class="midashi">新着情報</p>
+<div class="news_list">
+<ul>
+<li><a href="http://www.grandes.jp/files/optionallink/平成29年第12期第2四半期_短信__2.pdf?2056497983" target="_blank">平成29年12月期 第2四半期 決算発表のお知らせ</a></li>
+</ul>
+</div>
+</div>
+</div><!-- / .news_block -->
+
+<div id="mainv">
+<p class="img"><img src="/img/index/mainv.jpg" class="visible_pc_inline" alt="" /><img src="/img/index/mainv_sp.jpg" class="visible_sp" alt="" /></p>
+<p class="txt"><img src="/img/index/txt_mainv.png" alt="幸せのはじまり" /></p>
+</div><!-- / #mainv -->
+
+
+<main>
+
+<div id="contents" role="main">
+<section id="lineup">
+<h2><span>LINE UP</span>取扱物件</h2>
+<div class="lineup_block">
+<ul class="clearfix">
+<li class="forlux">
+                                            <a href="/forlux/"><p class="img"><img src="../img/index/ph_lineup01.jpg" alt="" class="visible_pc"><img src="/img/index/ph_lineup01_sp.jpg" alt="" class="visible_sp"></p>
+                                                                        <div class="txt">
+                                                                            <p><img src="/img/index/img_lineup01.png" alt="建売住宅［フォレクス］FORLUX" class="visible_pc_inline"><img src="/img/index/img_lineup01_sp.png" alt="建売住宅［フォレクス］FORLUX" class="visible_sp"><br>
+                                                                            住まい選びの新しい指標！<br class="visible_pc_inline">エネルギー消費量！</p>
+                                                                        </div></a>                                        </li>
+                                        <li class="attrrese">
+                                            <a href="/attrese/"><p class="img"><img src="/img/index/ph_lineup02.jpg" alt="" class="visible_pc"><img src="/img/index/ph_lineup02_sp.jpg" alt="" class="visible_sp"></p>
+                                                                        <div class="txt">
+                                                                            <p><img src="/img/index/img_lineup02.png" alt="メゾネット型アパート［アテレーゼ］Attrrese" class="visible_pc_inline"><img src="/img/index/img_lineup02_sp.png" alt="メゾネット型アパート［アテレーゼ］Attrrese" class="visible_sp"><br>
+                                                                            ファミリー層に人気の戸建て感覚<br>長期安定経営を実現</p>
+                                                                        </div></a>                                        </li>
+                                        <li class="resco">
+                                            <a href="/resco/"><p class="img"><img src="/img/index/ph_lineup03.jpg" alt="" class="visible_pc"><img src="/img/index/ph_lineup03_sp.jpg" alt="" class="visible_sp"></p>
+                                                                        <div class="txt">
+                                                                            <p><img src="/img/index/img_lineup03.png" alt="投資マンション［レスコ］RESCO" class="visible_pc_inline"><img src="/img/index/img_lineup03_sp.png" alt="投資マンション［レスコ］RESCO" class="visible_sp"><br>
+                                                                            地方の人気エリアで<br>高利回りの安定経営</p>
+                                                                        </div></a>                                        </li>
+</ul>
+</div><!-- / .lineup_block -->
+</section><!-- / #lineup -->
+
+                
+<section id="forlux">
+    <h2 class="info_logo"><img src="/img/index/info_logo.jpg" alt="フォレクス" /><br>フォレクス最新物件情報</h2>
+    <div class="forlux_nav">
+        <ul class="clearfix">
+<li><a href="/forlux_new/archives/category/oita">大分</a></li>
+<li><a href="/forlux_new/archives/category/miyazaki">宮崎</a></li>
+<li><a href="/forlux_new/archives/category/ehime">愛媛</a></li>
+<li><a href="/forlux_new/archives/category/kagawa">香川</a></li>
+        </ul>
+    </div><!-- / .forlux_nav -->
+
+    <!-- new -->
+    <div class="forlux_block" id="new">
+        <div class="col3_block">
+              
+
+            <div class="col_box">
+            <a href="/forlux_new/archives/124">
+                <p class="ph">
+                    <img src="/files/blog/forlux_new/blog_posts/2017/08/00000124_eye_catch__thumb.jpg?629820874" class="visible_pc" alt="" />                    <img src="/files/blog/forlux_new/blog_posts/2017/08/00000124_eye_catch__thumb.jpg?1585475441" class="visible_sp" alt="" />                </p>
+                <p class="name">宮崎<span>フォレクス下田島2</span></p>
+                <p class="price"><span>4LDK</span>1,890万円</p>
+                <p class="txt">佐土原町下田島　敷地面積50坪以上　駐車場3台以上可　広瀬北小学校区</p>
+            </a>
+        </div>
+            <div class="col_box">
+            <a href="/forlux_new/archives/123">
+                <p class="ph">
+                    <img src="/files/blog/forlux_new/blog_posts/2017/08/00000123_eye_catch.jpg?1713569366" class="visible_pc" alt="" />                    <img src="/files/blog/forlux_new/blog_posts/2017/08/00000123_eye_catch.jpg?1447606262" class="visible_sp" alt="" />                </p>
+                <p class="name">香川<span>フォレクス屋島西町2</span></p>
+                <p class="price"><span>4LDK</span>1,890万円</p>
+                <p class="txt">45坪の敷地です♪駐車場もお庭もゆったりと使えます♪</p>
+            </a>
+        </div>
+            <div class="col_box">
+            <a href="/forlux_new/archives/122">
+                <p class="ph">
+                    <img src="/files/blog/forlux_new/blog_posts/2017/08/00000122_eye_catch__thumb.jpg?1758116167" class="visible_pc" alt="" />                    <img src="/files/blog/forlux_new/blog_posts/2017/08/00000122_eye_catch__thumb.jpg?1464906737" class="visible_sp" alt="" />                </p>
+                <p class="name">愛媛<span>フォレクスレリア北久米A棟</span></p>
+                <p class="price"><span>3LDK</span>2,290万円</p>
+                <p class="txt">伊予鉄道北久米駅、北久米小学校、温浴施設そらともりも徒歩圏内で生活便良好！</p>
+            </a>
+        </div>
+            <div class="col_box">
+            <a href="/forlux_new/archives/121">
+                <p class="ph">
+                    <img src="/files/blog/forlux_new/blog_posts/2017/08/00000121_eye_catch.jpg?1676929477" class="visible_pc" alt="" />                    <img src="/files/blog/forlux_new/blog_posts/2017/08/00000121_eye_catch.jpg?819779762" class="visible_sp" alt="" />                </p>
+                <p class="name">大分<span>フォレクス坂ノ市南3　B棟</span></p>
+                <p class="price"><span>4LDK</span>1,940万円</p>
+                <p class="txt">坂ノ市南地区　4LDK　1940万円　角地</p>
+            </a>
+        </div>
+            <div class="col_box">
+            <a href="/forlux_new/archives/120">
+                <p class="ph">
+                    <img src="/files/blog/forlux_new/blog_posts/2017/08/00000120_eye_catch__thumb.jpg?57644181" class="visible_pc" alt="" />                    <img src="/files/blog/forlux_new/blog_posts/2017/08/00000120_eye_catch__thumb.jpg?775762985" class="visible_sp" alt="" />                </p>
+                <p class="name">大分<span>フォレクス坂ノ市南3　A棟</span></p>
+                <p class="price"><span>4LDK</span>1,890万円</p>
+                <p class="txt">坂ノ市南地区　4LDK　1890万円</p>
+            </a>
+        </div>
+            <div class="col_box">
+            <a href="/forlux_new/archives/119">
+                <p class="ph">
+                    <img src="/files/blog/forlux_new/blog_posts/2017/08/00000119_eye_catch__thumb.jpg?1399402827" class="visible_pc" alt="" />                    <img src="/files/blog/forlux_new/blog_posts/2017/08/00000119_eye_catch__thumb.jpg?686300299" class="visible_sp" alt="" />                </p>
+                <p class="name">愛媛<span>フォレクスレリア北久米B棟</span></p>
+                <p class="price"><span>4LDK</span>2,290万円</p>
+                <p class="txt">伊予鉄道北久米駅、北久米小学校、スーパー・ドラッグストアも徒歩圏内で生活便は良好！</p>
+            </a>
+        </div>
+        
+        </div>
+    </div>
+</section><!-- / #forlux -->
+
+</div>
+
+        <div id="property_list">
+            <ul class="clearfix">
+    <li><a href="/forlux/"><img src="/img/common/img_property01.jpg" alt="建売住宅［フォレクス］FORLUX" class="visible_pc_inline" /><img src="/img/common/img_property01_sp.jpg" alt="建売住宅［フォレクス］FORLUX" class="visible_sp" /></a></li>
+    <li><a href="/attrese/"><img src="/img/common/img_property02.jpg" alt="メゾネット型アパート［アテレーゼ］Attrrese" class="visible_pc_inline" /><img src="/img/common/img_property02_sp.jpg" alt="メゾネット型アパート［アテレーゼ］Attrrese" class="visible_sp" /></a></li>
+    <li><a href="/resco/"><img src="/img/common/img_property03.jpg" alt="投資マンション［レスコ］RESCO" class="visible_pc_inline" /><img src="/img/common/img_property03_sp.jpg" alt="投資マンション［レスコ］RESCO" class="visible_sp" /></a></li>
+</ul>        </div>
+</main>
+
+
+<div id="pagetop"><p><a href="#header"><img src="/img/common/btn_pagetop.png" alt="TOP" class="visible_pc"><span class="visible_sp_inline eng">TOP</span></a></p></div>
+
+<!-- #footer -->
+<footer id="footer">
+<div id="fnav">
+<ul class="clearfix">
+<li class="company"><a href="/company/">会社案内</a></li>
+<li class="ir"><a href="/ir/">IR情報</a></li>
+<li class="recruit"><a href="/recruit/">求人情報</a></li>
+<li class="contact"><a href="https://www.grandes.jp/contact/">資料請求・お問い合わせ</a></li>
+</ul>
+</div><!-- / #fnav -->
+
+<div class="sub_nav">
+<ul class="clearfix">
+<li><a href="/">ホーム</a></li>
+<li><a href="/sitemap/">サイトマップ</a></li>
+<li><a href="/privacy/">プライバシーポリシー</a></li>
+</ul>
+</div><!-- / .sub_nav -->
+
+<div class="bnr_block">
+<p><a href="http://www.jpx.co.jp/" target="_blank"><img src="/img/common/bnr_footer01.png" alt="東京証券取引所マザーズ" class="visible_pc_inline" /><img src="/img/common/bnr_footer01_sp.png" alt="東京証券取引所マザーズ" class="visible_sp" /></a></p>
+<p><a href="https://www.fse.or.jp/" target="_blank"><img src="/img/common/bnr_footer02.png" alt="福岡証券取引所Q-Board" class="visible_pc_inline" /><img src="/img/common/bnr_footer02_sp.png" alt="福岡証券取引所Q-Board" class="visible_sp" /></a></p>
+<p><a href="http://ameblo.jp/kamei/" target="_blank"><img src="/img/common/bnr_footer03.png" alt="株式会社 グランディーズ 社長のブログ" class="visible_pc_inline" /><img src="/img/common/bnr_footer03_sp.png" alt="株式会社 グランディーズ 社長のブログ" class="visible_sp" /></a></p>
+</div><!-- / .bnr_block -->
+
+<div class="footer_office">
+<div class="office_inner clearfix">
+<dl>
+<dt><a href="https://goo.gl/maps/5vpC3Xouhnt" target="_blank">本社<span class="eng">&gt; MAP</span></a></dt>
+<dd>〒870-0034<br>
+大分県大分市都町2丁目1番10号<br>
+<span class="txt_telno">TEL : 0120-878-600</span></dd>
+</dl>
+
+<dl>
+<dt><a href="https://goo.gl/maps/HaiP1Xmjz5k" target="_blank">宮崎営業所<span class="eng">&gt; MAP</span></a></dt>
+<dd>〒880-0801<br>
+宮崎県宮崎市老松2丁目2番9-1号J-CITYビル<br>
+<span class="txt_telno">TEL : 0120-894-322</span></dd>
+</dl>
+
+<dl>
+<dt><a href="https://goo.gl/maps/qDQ2yVUcHf62" target="_blank">松山営業所<span class="eng">&gt; MAP</span></a></dt>
+<dd>〒790-0032<br>
+愛媛県松山市土橋町16－4<br>
+<span class="txt_telno">TEL : 0120-099-954</span></dd>
+</dl>
+
+<dl>
+<dt><a href="https://goo.gl/maps/PwgabQfj14Q2" target="_blank">高松営業所<span class="eng">&gt; MAP</span></a></dt>
+<dd>〒760-0068<br>
+香川県高松市松島町三丁目10番41号<br>
+<span class="txt_telno">TEL : 0120-021-622</span></dd>
+</dl>
+</div>
+</div><!-- / .footer_office -->
+
+<p id="copyright"><small>&copy; GRANDES co.Ltd. All rights reserved.</small></p>
+</footer><!-- / #footer -->
+<!-- / #footer -->
+
+
+
+<script type="text/javascript" src="/js/baser.min.js"></script>
+<script type="text/javascript" src="/js/script_common.js"></script>
+
+<script>
+
+$(window).load(function() {
+$('#mainv').find('.img').children('img').animate({
+opacity: 1
+},{duration: '400', easing: 'swing',
+ 		complete: function(){
+$('#mainv').find('.txt').animate({
+opacity: 1,
+marginTop: 0
+}, 1000);
+ 		}
+ 		});
+});
+</script>
+</body>
+</html>

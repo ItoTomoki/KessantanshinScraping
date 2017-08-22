@@ -1,0 +1,508 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Language" content="ja" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta name="description" content="丸善CHIホールディングス株式会社のコーポレートサイト。企業情報、IR情報、事業会社一覧。グループビジョン「知の生成と流通に革新をもたらす企業集団となる」を果たすべく事業活動を推進してまいります。" />
+<meta name="keywords" content="丸善CHI,丸善CHIホールディングス,マルゼンシーエイチアイ,丸善株式会社,株式会社図書館流通センター,株式会社hontoブックサービス,株式会社雄松堂書店,丸善書店株式会社,丸善出版株式会社,CHIグループ株式会社" />
+<meta http-equiv="imagetoolbar" content="no" />
+<title>丸善CHIホールディングス株式会社</title>
+<link href="common/css/common2.css" rel="stylesheet" type="text/css" media="all" charset="UTF-8" />
+<link href="common/css/print.css" rel="stylesheet" type="text/css" media="print" charset="UTF-8" />
+<script src="common/js/jquery.js" type="text/javascript"></script>
+<script src="common/js/jquery.rollover.js" type="text/javascript"></script>
+<style>
+<!--
+span.amendment {
+padding-left: 20px;
+background-image: url(ir/img/img_amendment_01.gif);
+background-position: left top;
+background-repeat: no-repeat;
+}
+-->
+</style>
+</head>
+<body id="toppage">
+<!-- container start -->
+<div id="container">
+<!-- mainvisual start -->
+<div id="mainvisual">
+<div id="sitetitle"><img src="img/heading_top_02.gif" alt="丸善CHIホールディングス株式会社" title="丸善CHIホールディングス株式会社" width="920" height="341" /></div>
+<!-- topglobalnavi start -->
+<div id="topglobalnavi">
+<ul id="pulldown-menu">
+<li class="gnavi01"><a href="index.html" title="HOME"><img src="common/img/btn_topgnavi_01.gif" alt="HOME" title="HOME" width="200" height="35" class="btn" /></a></li>
+<li class="gnavi02"><a href="corp/message.html" title="会社案内"><img src="common/img/btn_topgnavi_02.gif" alt="会社案内" title="会社案内" width="200" height="35" class="btn" /></a>
+<ul>
+		<li class="dd02-01"><a href="corp/message.html"><img src="common/img/dd_gnavi02_01.gif" alt="ご挨拶" width="175" height="25" class="btn" /></a></li>
+		<li class="dd02-02"><a href="corp/outline.html"><img src="common/img/dd_gnavi02_02.gif" alt="会社概要／役員一覧" width="175" height="25" class="btn" /></a></li>			<li class="dd02-03"><a href="corp/philosophy.html"><img src="common/img/dd_gnavi02_03.gif" alt="経営理念" width="175" height="25" class="btn" /></a></li>
+		<li class="dd02-04"><a href="corp/cg/index.html"><img src="common/img/dd_gnavi02_04.gif" alt="コーポレートガバナンス" width="175" height="25" class="btn" /></a></li>
+		<li class="dd02-05"><a href="corp/org/index.html"><img src="common/img/dd_gnavi02_05.gif" alt="組織図" width="175" height="25" class="btn" /></a></li>
+</ul>
+</li>
+<li class="gnavi03"><a href="ir/news/index.html" title="IR情報"><img src="common/img/btn_topgnavi_03.gif" alt="IR情報" title="IR情報" width="200" height="35" class="btn" /></a>
+	<ul>
+		<li class="dd03-02"><a href="ir/news/index.html"><img src="common/img/dd_gnavi03_02.gif" alt="ニュースリリース" width="175" height="25" class="btn" /></a></li>
+		<li class="dd03-03"><a href="ir/result/index.html"><img src="common/img/dd_gnavi03_03.gif" alt="決算短信" width="175" height="25" class="btn" /></a></li>
+		<li class="dd03-04"><a href="ir/securities/index.html"><img src="common/img/dd_gnavi03_04.gif" alt="有価証券報告書／内部統制報告書" width="175" height="40" class="btn" /></a></li>
+		<li class="dd03-05"><a href="ir/report/index.html"><img src="common/img/dd_gnavi03_05.gif" alt="ビジネスレポート（株主・投資家の皆さまへ）" width="175" height="40" class="btn" /></a></li>
+		<li class="dd03-07"><a href="ir/notification/index.html"><img src="common/img/dd_gnavi03_07.gif" alt="電子公告" width="175" height="25" class="btn" /></a></li>
+		<li class="dd03-08"><a href="ir/stockholder.html"><img src="common/img/dd_gnavi03_08.gif" alt="株主総会" width="175" height="25" class="btn" /></a></li>
+		<li class="dd03-12"><a href="ir/yutai.html"><img src="common/img/dd_gnavi03_12.gif" alt="株主優待" width="175" height="25" class="btn" /></a></li>
+		<li class="dd03-09"><a href="ir/notice.html"><img src="common/img/dd_gnavi03_09.gif" alt="株式事務のご案内" width="175" height="25" class="btn" /></a></li>
+		<li class="dd03-10"><a href="ir/calendar.html"><img src="common/img/dd_gnavi03_10.gif" alt="IRカレンダー" width="175" height="25" class="btn" /></a></li>
+		<li class="dd03-11"><a href="ir/disclaimer.html"><img src="common/img/dd_gnavi03_11.gif" alt="免責事項" width="175" height="25" class="btn" /></a></li>
+					</ul>
+
+
+</li>
+<li class="gnavi04"><a href="corp/group/index.html" title="事業会社一覧"><img src="common/img/btn_topgnavi_04.gif" alt="事業会社一覧" title="事業会社一覧" width="200" height="35" class="btn" /></a></li>
+</ul>
+</div>
+<!-- topglobalnavi end -->
+</div>
+<!-- mainvisual end -->
+<!-- wrapper start -->
+<div id="wrapper" class="clearfix">
+<!-- subcontents start -->
+<div id="subcontents">
+<div id="topnavi">
+<p><img src="img/img_topnavi01_01.gif" alt="会社案内" title="会社案内" width="160" height="38" /></p>
+<ul id="topcorpNavi">
+<li class="navi01"><a href="corp/message.html" title="ご挨拶"><img src="img/btn_topnavi01_01.gif" alt="ご挨拶" title="ご挨拶" width="160" height="20" class="btn" /></a></li>
+<li class="navi02"><a href="corp/outline.html" title="会社概要／役員一覧"><img src="img/btn_topnavi01_02.gif" alt="会社概要／役員一覧" title="会社概要／役員一覧" width="160" height="20" class="btn" /></a></li>
+<li class="navi03"><a href="corp/philosophy.html" title="経営理念"><img src="img/btn_topnavi01_03.gif" alt="経営理念" title="経営理念" width="160" height="20" class="btn" /></a></li>
+<li class="navi04"><a href="corp/cg/index.html" title="コーポレートガバナンス"><img src="img/btn_topnavi01_04.gif" alt="コーポレートガバナンス" title="コーポレートガバナンス" width="160" height="20" class="btn" /></a></li>
+<li class="navi05"><a href="corp/org/index.html" title="組織図"><img src="img/btn_topnavi01_05.gif" alt="組織図" title="組織図" width="160" height="20" class="btn" /></a></li>
+</ul>
+<p><img src="img/img_topnavi02_01.gif" alt="IR情報" title="IR情報" width="160" height="43" /></p>
+<ul id="topirNavi">
+<li class="navi06"><a href="ir/plan.html" title="中期経営計画"><img src="img/btn_topnavi02_01.gif" alt="中期経営計画" title="中期経営計画" width="160" height="20" class="btn" /></a></li>
+<li class="navi07"><a href="ir/news/index.html" title="ニュースリリース"><img src="img/btn_topnavi02_02.gif" alt="ニュースリリース" title="ニュースリリース" width="160" height="20" class="btn" /></a></li>
+<li class="navi08"><a href="ir/result/index.html" title="決算短信"><img src="img/btn_topnavi02_03.gif" alt="決算短信" title="決算短信" width="160" height="20" class="btn" /></a></li>
+<li class="navi09"><a href="ir/securities/index.html" title="有価証券報告書／内部統制報告書"><img src="img/btn_topnavi02_04.gif" alt="有価証券報告書／内部統制報告書" title="有価証券報告書／内部統制報告書" width="160" height="35" class="btn" /></a></li>
+<li class="navi10"><a href="ir/report/index.html" title="ビジネスレポート（株主・投資家の皆さまへ）"><img src="img/btn_topnavi02_05.gif" alt="ビジネスレポート（株主・投資家の皆さまへ）" title="ビジネスレポート（株主・投資家の皆さまへ）" width="160" height="35" class="btn" /></a></li>
+<li class="navi11"><a href="ir/ar/index.html" title="Annual Report"><img src="img/btn_topnavi02_06.gif" alt="Annual Report" title="Annual Report" width="160" height="20" class="btn" /></a></li>
+<li class="navi12"><a href="ir/notification/index.html" title="電子公告"><img src="img/btn_topnavi02_07.gif" alt="電子公告" title="電子公告" width="160" height="20" class="btn" /></a></li>
+<li class="navi13"><a href="ir/stockholder.html" title="株主総会"><img src="img/btn_topnavi02_08.gif" alt="株主総会" title="株主総会" width="160" height="20" class="btn" /></a></li>
+<li class="navi17"><a href="ir/yutai.html" title="株主優待"><img src="img/btn_topnavi02_12.gif" alt="株主優待" title="株主優待" width="160" height="20" class="btn" /></a></li>
+<li class="navi14"><a href="ir/notice.html" title="株式事務のご案内"><img src="img/btn_topnavi02_09.gif" alt="株式事務のご案内" title="株式事務のご案内" width="160" height="20" class="btn" /></a></li>
+<li class="navi15"><a href="ir/calendar.html" title="IRカレンダー"><img src="img/btn_topnavi02_10.gif" alt="IRカレンダー" title="IRカレンダー" width="160" height="20" class="btn" /></a></li>
+<li class="navi16"><a href="ir/disclaimer.html" title="免責事項"><img src="img/btn_topnavi02_11.gif" alt="免責事項" title="免責事項" width="160" height="20" class="btn" /></a></li>
+</ul>
+<p><img src="img/img_topnavi03_01.gif" alt="事業会社一覧" title="事業会社一覧" width="160" height="38" /></p>
+<ul>
+<li class="navi17"><a href="corp/group/index.html" title="事業会社一覧"><img src="img/btn_topnavi03_01.gif" alt="事業会社一覧" title="事業会社一覧" width="160" height="20" class="btn" /></a></li>
+</ul>
+</div>
+</div>
+<!-- subcontents end -->
+<!-- maincontents start -->
+<div id="maincontents" class="clearfix">
+
+<!--<p><img src="img/img_top_03.gif" alt="2010年2月1日に2社で設立した当社は、2011年2月から5つの事業会社が加わり合計7社となりました。さらに事業内容と社名をより認知いただくことを目指し、2011年5月1日から社名を「丸善ＣＨＩホールディングス株式会社」とし、当社のグループビジョン「知の生成と流通に革新をもたらす企業集団となる」を果たすべく、事業活動を推進してまいります。" width="620" height="150" /></p>-->
+<div id="newscontents" class="clearfix">
+
+<!--<div class="mgb30" style="border:1px solid #c05353;padding:6px 20px;color:#c05353;">
+<a href="/ir/news/2014/release20141015.html" style="text-decoration:none; border-bottom:1px #c05353 solid"><font color="#c05353">〈ご注意ください〉<br />
+丸善健康組合保険証を用いた詐欺事件が発生しています。</u></a>
+<div class="mgb30" style="border:1px solid #c05353;padding:6px 20px;color:#c05353;">
+≪夏季一斉休業のお知らせ≫<br />
+弊社は8月14日（月）～16日（水）まで、夏季一斉休業とさせていただいております。<br />
+期間中は大変ご不便をおかけ致しますが、何卒ご理解くださいます様よろしくお願い申し上げます。</div>-->
+<div class="newstitle">
+<p class="newslist">［<a href="ir/news/index.html">新着情報の一覧を見る</a>］</p>
+<p><img src="img/heading02_top_01.gif" alt="新着情報" title="新着情報" width="65" height="16" /></p>
+</div>
+<dl class="newslatest" style="margin-bottom:110px;">
+
+	<dt><img src="common/img/ico_news_05.gif" alt="PR" title="PR" width="41" height="13" /><span>2017.06.14</span></dt>
+					<dd><a href="ir/news/2017/release20170614.pdf" target="_blank" title="丸善CHIグループ書店で、『まんが　スポーツで創る地域の未来』（発売：DNP）のプロモーションを展開しスポーツによる地域創生を支援">丸善CHIグループ書店で、『まんが　スポーツで創る地域の未来』（発売：DNP）のプロモーションを展開しスポーツによる地域創生を支援</a></dd>
+
+	<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2017.06.14</span></dt>
+					<dd><a href="ir/result/h30kt-1q.pdf" target="_blank" title="第1四半期決算発表（2017.6.14提出）">第1四半期決算発表（2017.6.14提出）</a></dd>
+	<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2017.04.28</span></dt>
+					<dd><a href="ir/securities/index.html" title="第7期内部統制報告書を掲載いたしました。">第7期内部統制報告書を掲載いたしました。</a></dd>
+<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2017.04.27</span></dt>
+					<dd><a href="ir/report/index.html" target="_blank" title="ビジネスレポート〔第7期〕を掲載いたしました。">ビジネスレポート〔第7期〕を掲載いたしました。</a></dd>
+<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2017.04.27</span></dt>
+					<dd><a href="ir/stockholder/ketsugi_20170427.pdf" target="_blank" title="第7期定時株主総会決議ご通知を発送いたしました。">第7期定時株主総会決議ご通知を発送いたしました。</a></dd>
+<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2017.04.27</span></dt>
+					<dd><a href="ir/news/2017/release20170427.pdf" class="pdflink" target="_blank" title="支配株主等に関する事項について">支配株主等に関する事項について</a><br />
+
+
+
+<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2017.04.06</span></dt>
+					<dd><a href="ir/stockholder/shoushu_20170407.pdf" target="_blank" title="第7期定時株主総会招集ご通知を発送いたします。">第7期定時株主総会招集ご通知を発送いたします。</a></dd>
+<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2017.03.16</span></dt>
+
+					<dd><a href="ir/result/h29kt.pdf" target="_blank" title="平成28年1月期 決算短信（2017.3.16提出）">平成29年1月期 決算短信（2017.3.16提出）</a><br />
+	<span class="amendment"><a href="ir/result/h29kt-s.pdf" class="pdflink" target="_blank" title="平成29年1月期 決算発表ご説明資料">平成29年1月期 決算発表ご説明資料</a> </span></dd>
+
+
+<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2017.03.09</span></dt>
+					<dd><a href="ir/news/2017/release20170309-2.pdf" target="_blank" title="通期連結業績予想の修正に関するお知らせ">通期連結業績予想の修正に関するお知らせ</a></dd>
+
+
+<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2017.03.09</span></dt>
+					<dd><a href="ir/news/2017/release20170309-1.pdf" target="_blank" title="連結子会社株式の減損処理による特別損失計上に関するお知らせ">連結子会社株式の減損処理による特別損失計上に関するお知らせ</a></dd>
+
+<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2017.01.23</span></dt>
+					<dd><a href="ir/news/2017/release20170123.pdf" target="_blank" title="配当予想の修正に関するお知らせ">配当予想の修正に関するお知らせ</a></dd>
+<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2016.12.13</span></dt>
+					<dd><a href="ir/result/h29kt-3q.pdf" target="_blank" title="第3四半期決算発表（2016.12.13提出）">第3四半期決算発表（2016.12.13提出）</a></dd>
+<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2016.10.27</span></dt>
+					<dd><a href="ir/news/2016/managementplan20161027.pdf" target="_blank" title="経営計画（2016.10.27）を掲載しました[PDF：985KB]">経営計画（2016.10.27）を掲載しました</a> [PDF：985KB]</dd>
+
+<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2016.10.03</span></dt>
+					<dd><a href="ir/report/index.html" title="ビジネスレポート〔第7期 第2四半期累計〕を掲載いたしました。">ビジネスレポート〔第7期 第2四半期累計〕を掲載いたしました。</a></dd>
+
+<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2016.09.30</span></dt>
+					<dd><a href="ir/news/2016/release20160930.html" title="ビジネスレポート〔第7期 第2四半期累計〕を発送いたしました。">ビジネスレポート〔第7期 第2四半期累計〕を発送いたしました。</a></dd>
+<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2016.09.12</span></dt>
+					<dd><a href="ir/news/2016/release20160912.pdf" target="_blank" title="第2四半期（累計）連結業績予想と実績値との差異に関するお知らせ[PDF：133KB]">第2四半期（累計）連結業績予想と実績値との差異に関するお知らせ</a> [PDF：133KB]</dd>
+<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2016.09.12</span></dt>
+
+					<dd><a href="ir/result/h29kt-2q.pdf" target="_blank" title="第2四半期決算発表（2016.9.12提出）[PDF：300KB]">第2四半期決算発表（2016.9.12提出）</a> [PDF：300KB]<br />
+	<span class="amendment"><a href="ir/result/h29kt-2q-s.pdf" class="pdflink" target="_blank" title="決算発表ご説明資料[PDF：625KB]">決算発表ご説明資料</a> [PDF：625KB]</span></dd>
+
+	<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2016.06.14</span></dt>
+					<dd><a href="ir/result/h29kt-1q.pdf" target="_blank" title="第1四半期決算発表（2016.6.14提出）[PDF：301KB]">第1四半期決算発表（2016.6.14提出）</a> [PDF：301KB]</dd>
+
+	<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2016.05.02</span></dt>
+					<dd><a href="corp/outline.html" title="弊社の代表電話・FAX番号が変更になりました。">弊社の代表電話・FAX番号が変更になりました。</a></dd>
+
+	<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2016.04.28</span></dt>
+					<dd><a href="ir/securities/index.html" title="第5期内部統制報告書を掲載いたしました。">第6期内部統制報告書を掲載いたしました。</a></dd>
+<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2016.04.27</span></dt>
+					<dd><a href="ir/report/index.html" target="_blank" title="ビジネスレポート〔第6期〕を掲載いたしました。">ビジネスレポート〔第6期〕を掲載いたしました。</a></dd>
+<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2016.04.27</span></dt>
+					<dd><a href="ir/stockholder/ketsugi_20160427.pdf" target="_blank" title="第6期定時株主総会決議ご通知を発送いたしました。[PDF：138KB]">第6期定時株主総会決議ご通知を発送いたしました。</a> [PDF：138KB]</dd>
+<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2016.04.27</span></dt>
+					<dd><a href="ir/news/2016/release20160427.pdf" class="pdflink" target="_blank" title="支配株主等に関する事項について[PDF：209KB]">支配株主等に関する事項について</a> [PDF：209KB]</dd><br />
+<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2016.04.13</span></dt>
+					<dd><a href="ir/stockholder/shoushu_teisei_20160413.pdf" class="pdflink" target="_blank" title="招集通知記載事項の一部修正について（2016.4.13掲載）[PDF：105KB]">招集通知記載事項の一部修正について（2016.4.13掲載）</a> [PDF：105KB]</dd>
+<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2016.04.07</span></dt>
+					<dd><a href="ir/stockholder/shoushu_20160407.pdf" target="_blank" title="第6期定時株主総会招集ご通知を発送いたします。[PDF：1,270KB]">第6期定時株主総会招集ご通知を発送いたします。</a> [PDF：1,270KB]</dd>
+<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2016.03.24</span></dt>
+					<dd><a href="ir/news/2016/release20160324-2.pdf" target="_blank" title="監査等委員会設置会社への移行及び定款一部変更に関するお知らせ[PDF：210KB]">監査等委員会設置会社への移行及び定款一部変更に関するお知らせ</a>[PDF：210KB]</dd>
+<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2016.03.24</span></dt>
+					<dd><a href="ir/news/2016/release20160324-1.pdf" target="_blank" title="監査等委員会設置会社移行後の役員人事に関するお知らせ[[PDF：132KB]">監査等委員会設置会社移行後の役員人事に関するお知らせ[</a>[PDF：132KB]</dd>
+
+
+
+<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2016.03.15</span></dt>
+
+					<dd><a href="ir/result/h28kt.pdf" target="_blank" title="平成28年1月期 決算短信（2016.3.15提出） [PDF：497KB]">平成28年1月期 決算短信（2016.3.15提出）</a> [PDF：497KB]<br />
+	<span class="amendment"><a href="ir/result/h28kt-s.pdf" class="pdflink" target="_blank" title="平成28年1月期 決算発表ご説明資料[PDF：801KB]">平成28年1月期 決算発表ご説明資料</a> [PDF：801KB]</span></dd>
+
+<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2015.12.11</span></dt>
+					<dd><a href="ir/result/h28kt-3q.pdf" target="_blank" title="第3四半期決算発表（2015.12.11提出）[PDF：307KB]">第3四半期決算発表（2015.12.11提出）</a>[PDF：307KB]</dd>
+	<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2015.11.26</span></dt>
+					<dd><a href="ir/news/2015/release20151126.pdf" target="_blank" title="完全子会社間の合併および合併に伴う商号変更に関するお知らせ[PDF：188KB]">完全子会社間の合併および合併に伴う商号変更に関するお知らせ</a> [PDF：188KB]</dd>
+
+<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2015.10.01</span></dt>
+					<dd><a href="ir/report/index.html" title="ビジネスレポート〔第6期 第2四半期累計〕を掲載いたしました。">ビジネスレポート〔第6期 第2四半期累計〕を掲載いたしました。</a></dd>
+
+<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2015.09.30</span></dt>
+					<dd><a href="ir/news/2015/release20151006.html" title="本日（2015.09.30）、ビジネスレポート〔第6期 第2四半期累計〕を発送いたしました。">本日（2015.09.30）、ビジネスレポート〔第6期 第2四半期累計〕を発送いたしました。</a></dd>
+<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2015.09.11</span></dt>
+
+					<dd><a href="ir/result/h28kt-2q.pdf" target="_blank" title="第2四半期決算発表（2015.9.11提出）[PDF：304KB]">第2四半期決算発表（2015.9.11提出）</a> [PDF：304KB]<br />
+	<span class="amendment"><a href="ir/result/h28kt-2q-s.pdf" class="pdflink" target="_blank" title="決算発表ご説明資料[PDF：337KB]">決算発表ご説明資料</a> [PDF：337KB]</span></dd>
+	<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2015.08.26</span></dt>
+					<dd><a href="ir/news/2015/release20150826.pdf" target="_blank" title="完全子会社２社の合併による経営統合および合併に伴う商号変更に関するお知らせ[PDF：188KB]">完全子会社２社の合併による経営統合および合併に伴う商号変更に関するお知らせ</a> [PDF：188KB]</dd>
+
+	<!--<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2015.06.12</span></dt>
+					<dd><a href="ir/result/h28kt-1q.pdf" target="_blank" title="第1四半期決算発表（2015.6.12提出）[PDF：292KB]">第1四半期決算発表（2015.6.12提出）</a> [PDF：292KB]</dd>
+	<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2015.04.27</span></dt>
+					<dd><a href="ir/securities/index.html" title="第5期内部統制報告書を掲載いたしました。">第5期内部統制報告書を掲載いたしました。</a></dd>
+<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2015.04.24</span></dt>
+					<dd><a href="ir/report/index.html" target="_blank" title="ビジネスレポート〔第5期〕を掲載いたしました。">ビジネスレポート〔第5期〕を掲載いたしました。</a></dd>
+<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2015.04.24</span></dt>
+					<dd><a href="ir/stockholder/ketsugi_20150424.pdf" target="_blank" title="第5期定時株主総会決議ご通知を発送いたしました。[PDF：136KB]">第5期定時株主総会決議ご通知を発送いたしました。</a> [PDF：136KB]</dd>
+<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2015.04.24</span></dt>
+					<dd><a href="ir/news/2015/release20150424.pdf" target="_blank" title="支配株主等に関する事項について[PDF：156KB]">支配株主等に関する事項について</a> [PDF：156KB]</dd>
+
+	<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2015.04.09</span></dt>
+					<dd><a href="ir/stockholder/shoushu_20150409.pdf" target="_blank" title="第5期定時株主総会招集ご通知を発送いたしました。[PDF：1,270KB]">第5期定時株主総会招集ご通知を発送いたしました。</a> [PDF：1,270KB]</dd>
+<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2015.03.26</span></dt>
+					<dd><a href="ir/news/2015/release20150326.pdf" target="_blank" title="定款一部変更に関するお知らせ[PDF：85KB]">定款一部変更に関するお知らせ</a>[PDF：85KB]</dd>
+
+<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2015.03.13</span></dt>
+					<dd><a href="ir/news/2015/release20150313.pdf" target="_blank" title="通期連結業績予想と実績値との差異に関するお知らせ[PDF：127KB]">通期連結業績予想と実績値との差異に関するお知らせ</a>[PDF：127KB]</dd>
+
+<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2015.03.13</span></dt>
+
+					<dd><a href="ir/result/h27kt.pdf" target="_blank" title="平成27年1月期 決算短信（2015.3.13提出） [PDF：496KB]">平成27年1月期 決算短信（2015.3.13提出）</a> [PDF：496KB]<br />
+	<span class="amendment"><a href="ir/result/h27kt-s.pdf" class="pdflink" target="_blank" title="平成27年1月期 決算発表ご説明資料[PDF：592KB]">平成27年1月期 決算発表ご説明資料</a> [PDF：592KB]</span></dd>					
+
+<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2014.12.24</span></dt>
+					<dd><a href="ir/news/2014/release20141224.pdf" target="_blank" title="完全子会社間の合併および合併に伴う商号変更に関するお知らせ[PDF：96KB]">完全子会社間の合併および合併に伴う商号変更に関するお知らせ</a>[PDF：96KB]</dd>
+
+<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2014.12.12</span></dt>
+					<dd><a href="ir/result/h27kt-3q.pdf" target="_blank" title="第3四半期決算発表（2014.12.12提出）[PDF：288KB]">第3四半期決算発表（2014.12.12提出）</a>[PDF：288KB]</dd>
+
+<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2014.09.30</span></dt>
+					<dd><a href="ir/report/index.html" title="ビジネスレポート〔第5期 第2四半期累計〕を掲載いたしました。">ビジネスレポート〔第5期 第2四半期累計〕を掲載いたしました。</a></dd>
+	<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2014.09.29</span></dt>
+					<dd><a href="ir/news/2014/release20140930.html" title="ビジネスレポート〔第5期 第2四半期累計〕を発送いたしました。">ビジネスレポート〔	第5期 第2四半期累計〕を発送いたしました。</a></dd>
+<dt><img src="common/img/ico_news_01.gi実績値との差異に関するお知らせ</a> [PDF：71KB]</dd>
+<dt><img src="common/img/ico_news_01.giff" alt="IR" title="IR" width="41" height="13" /><span>2014.09.12</span></dt>
+<dd><a href="ir/news/2014/release20140911.pdf" target="_blank" title="第2四半期（累計）連結業績予想と実績値との差異に関するお知らせ[PDF：71KB]">第2四半期（累計）連結業績予想と" 
+<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2014.09.12</span></dt>
+
+					<dd><a href="ir/result/h27kt-2q.pdf" target="_blank" title="第2四半期決算発表（2014.9.12提出）[PDF：302KB]">第2四半期決算発表（2014.9.12提出）</a> [PDF：302KB]<br />
+	<span class="amendment"><a href="ir/result/h27kt-2q-s.pdf" class="pdflink" target="_blank" title="決算発表ご説明資料[PDF：313KB]">決算発表ご説明資料</a> [PDF：313KB]</span></dd>
+
+
+	<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2014.06.30</span></dt>
+					<dd><a href="ir/news/2014/release20140630.pdf" target="_blank" title="代表取締役の異動に関するお知らせ[PDF：69KB]">代表取締役の異動に関するお知らせ</a> [PDF：69KB]</dd>
+	<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2014.06.13</span></dt>
+					<dd><a href="ir/result/h27kt-1q.pdf" target="_blank" title="第1四半期決算発表（2014.6.13提出）[PDF：290KB]">第1四半期決算発表（2014.6.13提出）</a> [PDF：290KB]</dd>
+	<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2014.04.30</span></dt>
+					<dd><a href="ir/securities/index.html" title="第4期内部統制報告書を掲載いたしました。">第4期内部統制報告書を掲載いたしました。</a></dd>
+	<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2014.04.25</span></dt>
+					<dd><a href="ir/report/index.html" title="ビジネスレポート〔第4期〕を掲載いたしました。">ビジネスレポート〔第4期〕を掲載いたしました。</a></dd>
+		<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2014.04.25</span></dt>
+					<dd><a href="ir/stockholder/ketsugi_20140425.pdf" class="pdflink" target="_blank" title="第4期株主総会決議通知を発送しました。[PDF：127KB]">第4期株主総会決議通知を発送しました。</a> [PDF：127KB]</dd>
+	<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2014.04.24</span></dt>
+					<dd><a href="ir/news/2014/release20140424.pdf" target="_blank" title="支配株主等に関する事項について[PDF：159KB]">支配株主等に関する事項について</a> [PDF：159KB]</dd>
+	<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2014.04.04</span></dt>
+					<dd><a href="ir/stockholder/shoushu_20140407.pdf" target="_blank" title="第4期定時株主総会招集ご通知を発送いたしました。[PDF：1,277KB]">第4期定時株主総会招集ご通知を発送いたしました。</a> [PDF：1,277KB]</dd>
+<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2014.03.14</span></dt>
+
+					<dd><a href="ir/result/h26kt.pdf" target="_blank" title="決算短信（2014.3.14提出） [PDF：528KB]">決算短信（2014.3.14提出）</a> [PDF：528KB]<br />
+	<span class="amendment"><a href="ir/result/h26kt-s.pdf" class="pdflink" target="_blank" title="決算発表ご説明資料[PDF：893KB]">決算発表ご説明資料</a> [PDF：893KB]</span></dd>					
+<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2014.03.12</span></dt>
+					<dd><a href="ir/news/2014/release20140312.pdf" target="_blank" title="通期連結業績予想の修正に関するお知らせ">通期連結業績予想の修正に関するお知らせ</a> [PDF：83KB]</dd>					
+<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2013.12.13</span></dt>
+					<dd><a href="ir/result/h26kt-3q.pdf" target="_blank" title="第3四半期決算発表（2013.12.13提出）[PDF：297KB]">第3四半期決算発表（2013.12.13提出）</a> [PDF：297KB]</dd>
+
+<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2013.09.30</span></dt>
+					<dd><a href="ir/report/index.html" title="ビジネスレポート〔第4期 第2四半期累計〕を掲載いたしました。">ビジネスレポート〔第4期 第2四半期累計〕を掲載いたしました。</a> </dd>
+					<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2013.09.13</span></dt>
+					<dd><a href="ir/result/h26kt-2q.pdf" target="_blank" title="IR　第2四半期決算発表（2013.9.13提出）[PDF：564KB]">第2四半期決算発表（2013.9.13提出）</a> [PDF：525KB]</dd>
+					<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2013.07.11</span></dt>
+					<dd><a href="ir/news/2013/release20130711-2.pdf" target="_blank" title="第3期有価証券報告書の訂正報告書を掲載いたしました。[PDF：213KB]">第3期有価証券報告書の訂正報告書を掲載いたしました。</a> [PDF：213KB]</dd>
+					<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2013.07.11</span></dt>
+					<dd><a href="ir/news/2013/release20130711.pdf" target="_blank" title="第2期有価証券報告書の訂正報告書を掲載いたしました。[PDF：214KB]">第2期有価証券報告書の訂正報告書を掲載いたしました。</a> [PDF：214KB]</dd>
+					<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2013.06.14</span></dt>
+					<dd><a href="ir/result/h26kt-1q.pdf" target="_blank" title="第1四半期決算発表（2013.6.14提出）[PDF：299KB]">第1四半期決算発表（2013.6.14提出）</a> [PDF：299KB]</dd>
+						<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2013.05.07</span></dt>
+					<dd><a href="ir/securities/index.html" title="第3期内部統制報告書を掲載いたしました。">第3期内部統制報告書を掲載いたしました。</a></dd>
+				<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2013.04.26</span></dt>
+					<dd><a href="ir/report/index.html" title="ビジネスレポート〔第3期〕を掲載いたしました。">ビジネスレポート〔第3期〕を掲載いたしました。</a></dd>
+					<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2013.04.26</span></dt>
+					<dd><a href="ir/stockholder/ketsugi_20130426.pdf" class="pdflink" target="_blank" title="第3期定時株主総会決議通知を発送いたしました。[PDF：128KB]">第3期定時株主総会決議通知を発送いたしました。</a> [PDF：128KB]</dd>
+					<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2013.04.25</span></dt>
+					<dd><a href="ir/news/2013/release20130425.pdf" target="_blank" title="支配株主等に関する事項について[PDF：152KB]">支配株主等に関する事項について</a> [PDF：152KB]</dd>
+					<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2013.04.11</span></dt>
+					<dd><a href="ir/news/2013/release20130411.pdf" target="_blank" title="株主優待制度導入に関するお知らせ[PDF：411KB]">株主優待制度導入に関するお知らせ</a> [PDF：411KB]</dd>
+				
+
+	<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2013.04.10</span></dt>
+					<dd><a href="ir/stockholder/shoushu_20130410.pdf" target="_blank" title="第3期定時株主総会招集ご通知を発送しました。[PDF：531KB]">第3期定時株主総会招集ご通知を発送しました。</a> [PDF：531KB]</dd>
+
+					<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2013.03.28</span></dt>
+					<dd><a href="ir/news/2013/release20130328.pdf" target="_blank" title="代表取締役の異動及び役員の異動に関するお知らせ[PDF：72KB]">代表取締役の異動及び役員の異動に関するお知らせ</a> [PDF：72KB]</dd>
+					<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2013.03.15</span></dt>
+					<dd><a href="ir/result/h25kt.pdf" target="_blank" title="決算短信（2013.3.15提出）[PDF：1,000KB]">決算短信（2013.3.15提出）</a> [PDF：1,000KB]<br /> 
+						<span class="amendment"><a href="ir/result/h25kt-s.pdf" class="pdflink" target="_blank" title="決算発表ご説明資料[PDF：240KB]">決算発表ご説明資料</a> [PDF：240KB]</span></dd>
+					<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2013.03.07</span></dt>
+					<dd><a href="ir/news/2013/release20130307.pdf" target="_blank" title="通期連結業績予想修正に関するお知らせ[PDF：140KB]">通期連結業績予想修正に関するお知らせ</a> [PDF：140KB]</dd>
+					<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2012.12.14</span></dt>
+					<dd><a href="ir/result/h25kt-3q.pdf" target="_blank" title="第3四半期決算発表[PDF：600KB]">第3四半期決算発表</a> [PDF：600KB]</dd>
+					<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2012.12.14</span></dt>
+					<dd><a href="ir/news/2012/release20121214.pdf" target="_blank" title="通期連結業績予想および期末配当予想の修正に関するお知らせ[PDF：102KB]">通期連結業績予想および期末配当予想の修正に関するお知らせ</a> [PDF：102KB]</dd>
+					<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2012.10.19</span></dt>
+					<dd><a href="ir/news/2012/release20121019.pdf" target="_blank" title="子会社に対する訴訟の和解による解決に関するお知らせ[PDF：82KB]">子会社に対する訴訟の和解による解決に関するお知らせ</a> [PDF：82KB]</dd>
+					<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2012.10.17</span></dt>
+					<dd><a href="ir/report/index.html" title="ビジネスレポート〔第3期 第2四半期累計〕を掲載いたしました。">ビジネスレポート〔第3期 第2四半期累計〕を掲載いたしました。</a></dd>
+					<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2012.09.14</span></dt>
+					<dd><a href="ir/result/h25kt-2q.pdf" target="_blank" title="第2四半期決算短信（2012.9.14提出）[PDF：800KB]">第2四半期決算短信（2012.9.14提出）</a> [PDF：800KB]<br /> 
+						<span class="amendment"><a href="ir/result/h25kt-2q-s.pdf" class="pdflink" target="_blank" title="第2四半期決算発表ご説明資料[PDF：196KB]">第2四半期決算発表ご説明資料</a> [PDF：196KB]</span></dd>
+					<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2012.09.12</span></dt>
+					<dd><a href="ir/news/2012/release20120912-2.pdf" target="_blank" title="第2四半期（累計）連結業績予想の修正に関するお知らせ[PDF：89KB]">第2四半期（累計）連結業績予想の修正に関するお知らせ</a> [PDF：89KB]</dd>
+					<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2012.09.12</span></dt>
+					<dd><a href="ir/news/2012/release20120912.pdf" target="_blank" title="特別利益および特別損失の計上に関するお知らせ[PDF：80KB]">特別利益および特別損失の計上に関するお知らせ</a> [PDF：80KB]</dd>
+					<dt><img src="common/img/ico_news_05.gif" alt="PR" title="PR" width="41" height="13" /><span>2012.06.29</span></dt>
+					<dd><a href="ir/news/2012/release20120629.pdf" target="_blank" title="トゥ・ディファクトの増資について[PDF:139KB]">トゥ・ディファクトの増資について</a> [PDF：139KB]</dd>
+					<dt><img src="common/img/ico_news_05.gif" alt="PR" title="PR" width="41" height="13" /><span>2012.06.20</span></dt>
+					<dd><a href="ir/news/2012/release20120620.pdf" target="_blank" title="ハイブリッド型総合書店「honto（ホント）」とDNPグループ書店が共通ポイントをはじめとするサービス連携をスタート[PDF:204KB]">ハイブリッド型総合書店「honto（ホント）」とDNPグループ書店が<br />共通ポイントをはじめとするサービス連携をスタート</a> [PDF：204KB]</dd>
+					<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2012.06.14</span></dt>
+					<dd><a href="ir/result/h25kt-1q.pdf" target="_blank" title="第1四半期決算発表（2012.6.14提出）[PDF：795KB]">第1四半期決算発表（2012.6.14提出）</a> [PDF：795KB]</dd>
+					<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2012.05.07</span></dt>
+					<dd><a href="ir/securities/index.html" title="第2期 内部統制報告書を掲載いたしました。">第2期 内部統制報告書を掲載いたしました。</a></dd>
+					<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2012.04.26</span></dt>
+					<dd><a href="ir/news/2012/release20120426.pdf" class="pdflink" target="_blank" title="支配株主等に関する事項について[PDF：154KB]">支配株主等に関する事項について</a> [PDF：154KB]<br />
+						<span class="amendment"><span style="color:#1432AA;margin-bottom:2px;">2012.05.02</span><br />　　 <a href="ir/news/2012/release20120502.pdf" class="pdflink" target="_blank" title="（訂正）「支配株主の事項に関する開示」の一部訂正について[PDF：21KB]">（訂正）「支配株主の事項に関する開示」の一部訂正について</a><br />　　 [PDF：21KB]</span></dd>
+					<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2012.04.26</span></dt>
+					<dd><a href="ir/report/index.html" title="ビジネスレポート〔第二期〕を掲載いたしました。">ビジネスレポート〔第二期〕を掲載いたしました。</a></dd>
+					<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2012.04.26</span></dt>
+					<dd><a href="ir/stockholder/ketsugi_20120426.pdf" class="pdflink" target="_blank" title="第2期定時株主総会決議通知を発送いたしました。[PDF：134KB]">第2期定時株主総会決議通知を発送いたしました。</a> [PDF：134KB]</dd>
+					<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2012.04.10</span></dt>
+					<dd><a href="ir/stockholder/shoushu_20120410.pdf" class="pdflink" target="_blank" title="株主総会招集ご通知を発送しました。">株主総会招集ご通知を発送しました。</a> [PDF：919KB]</dd>
+					<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2012.03.30</span></dt>
+					<dd><a href="ir/notification/index.html" title="電子公告を掲載いたしました。">電子公告を掲載いたしました。</a></dd>
+					<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2012.03.16</span></dt>
+					<dd><a href="ir/result/h24kt_.pdf" target="_blank" title="決算短信（2012.3.16提出）[PDF：2,130KB]">決算短信（2012.3.16提出）</a> [PDF：2,130KB]<br /> 
+						<span class="amendment"><a href="ir/result/h24kt-s_.pdf" class="pdflink" target="_blank" title="決算発表ご説明資料[PDF：244KB]">決算発表ご説明資料</a> [PDF：244KB]</span></dd>
+					<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2012.03.14</span></dt>
+					<dd><a href="ir/news/2012/release20120314-2.pdf" target="_blank" title="通期連結業績予想に関するお知らせ[PDF：88KB]">通期連結業績予想に関するお知らせ</a> [PDF：88KB]</dd>
+					<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2012.03.14</span></dt>
+					<dd><a href="ir/news/2012/release20120314.pdf" target="_blank" title="当社子会社株式の減損処理に関するお知らせ[PDF：72KB]">当社子会社株式の減損処理に関するお知らせ</a> [PDF：72KB]</dd>
+					<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2012.02.08</span></dt>
+					<dd><a href="ir/news/2012/release20120208.pdf" target="_blank" title="平成24年１月期第４四半期 有価証券評価損の戻入れに関するお知らせ[PDF：73KB]">平成24年１月期第４四半期 有価証券評価損の戻入れに関するお知らせ</a> [PDF：73KB]</dd>
+					<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2011.12.15</span></dt>
+					<dd><a href="ir/result/h24kt-3q.pdf" target="_blank" title="第3四半期決算発表[PDF：807KB]">第3四半期決算発表</a> [PDF：807KB]</dd>
+					<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2011.12.15</span></dt>
+					<dd><a href="ir/news/2011/release20111215.pdf" class="pdflink" target="_blank" title="通期連結業績予想に関するお知らせ[PDF：93KB]">通期連結業績予想に関するお知らせ</a> [PDF：93KB]</dd>
+					<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2011.11.16</span></dt>
+					<dd><a href="ir/news/2011/release20111116.pdf" class="pdflink" target="_blank" title="平成24年1月期第3四半期 有価証券評価損に関するお知らせ[PDF：74KB]">平成24年1月期第3四半期 有価証券評価損に関するお知らせ</a> [PDF：74KB]</dd>
+					<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2011.11.09</span></dt>
+					<dd><a href="ir/report/index.html" title="ビジネスレポート〔第二期第2四半期累計〕を掲載いたしました。">ビジネスレポート〔第二期第2四半期累計〕を掲載いたしました。</a></dd>
+					<dt><img src="common/img/ico_news_03.gif" alt="お知らせ" title="お知らせ" width="41" height="13" /><span>2011.10.21</span></dt>
+					<dd><a href="ir/news/2011/release20111021.html" title="システムメンテナンス実施のお知らせ（10月29日（土）22:00～／11月19日（土）19：00～）">システムメンテナンス実施のお知らせ<br />（10月29日（土）22:00～／11月19日（土）19：00～）</a></dd>
+					<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2011.09.14</span></dt>
+					<dd><a href="ir/result/h24kt-2q.pdf" target="_blank" title="第2四半期決算短信（2011.9.14提出）[PDF：845KB]">第2四半期決算短信（2011.9.14提出）</a> [PDF：845KB]<br /> 
+						<span class="amendment"><a href="ir/result/h24kt-2q-s.pdf" class="pdflink" target="_blank" title="第2四半期決算発表ご説明資料[PDF：243KB]">第2四半期決算発表ご説明資料</a> [PDF：243KB]</span></dd>
+					<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2011.09.14</span></dt>
+					<dd><a href="ir/news/2011/release20110914.pdf" class="pdflink" target="_blank" title="通期連結業績予想の修正に関するお知らせ[PDF：94KB]">通期連結業績予想の修正に関するお知らせ</a> [PDF：94KB]</dd>
+					<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2011.09.14</span></dt>
+					<dd><a href="ir/news/2011/release20110914-2.pdf" class="pdflink" target="_blank" title="当社連結子会社における希望退職者募集の結果及び特別損失の発生に関するお知らせ[PDF：81KB]">当社連結子会社における希望退職者募集の結果及び特別損失の発生に関するお知らせ</a> [PDF：81KB]</dd>
+					<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2011.09.09</span></dt>
+					<dd><a href="ir/news/2011/release20110909.pdf" class="pdflink" target="_blank" title="第2四半期（累計）連結業績予想の修正に関するお知らせ[PDF：95KB]">第2四半期（累計）連結業績予想の修正に関するお知らせ</a> [PDF：95KB]</dd>
+					<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2011.08.03</span></dt>
+					<dd><a href="ir/news/2011/release20110803.pdf" class="pdflink" target="_blank" title="平成24年1月期第2四半期 有価証券評価損の戻入れに関するお知らせ[PDF：76KB]">平成24年1月期第2四半期 有価証券評価損の戻入れに関するお知らせ</a> [PDF：76KB]</dd>
+					<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2011.07.27</span></dt>
+					<dd><a href="ir/news/2011/release20110727.pdf" class="pdflink" target="_blank" title="当社連結子会社における希望退職者募集に関するお知らせ[PDF：148KB]">当社連結子会社における希望退職者募集に関するお知らせ</a> [PDF：148KB]</dd>
+					<dt><img src="common/img/ico_news_03.gif" alt="お知らせ" title="お知らせ" width="41" height="13" /><span>2011.07.21</span></dt>
+					<dd><a href="corp/outline.html" title="入居ビルの夏季一斉休暇（節電対策）に伴う当社連絡先について">入居ビルの夏季一斉休暇（節電対策）に伴う当社連絡先について</a></dd>
+					<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2011.06.14</span></dt>
+					<dd><a href="ir/result/h24kt-1q.pdf" class="pdflink" target="_blank" title="第1四半期決算発表[PDF：829KB]">第1四半期決算発表</a> [PDF：829KB]</dd>
+					<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2011.06.14</span></dt>
+					<dd><a href="ir/news/2011/release20110614.pdf" class="pdflink" target="_blank" title="平成24年1月期業績予想及び配当予想に関するお知らせ[PDF：99KB]">平成24年1月期業績予想及び配当予想に関するお知らせ</a> [PDF：99KB]</dd>
+					<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2011.06.08</span></dt>
+					<dd><a href="ir/report/index.html" title="ビジネスレポート（第一期）を掲載しました。">ビジネスレポート（第一期）を掲載しました。</a></dd>
+					<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2011.05.18</span></dt>
+					<dd><a href="ir/news/2011/release20110518.pdf" class="pdflink" target="_blank" title="平成24年１月期第１四半期 有価証券評価損に関するお知らせ[PDF：76KB]">平成24年１月期第１四半期 有価証券評価損に関するお知らせ</a> [PDF：76KB]</dd>
+					<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2011.05.06</span></dt>
+					<dd><a href="ir/securities/index.html" title="第1期 有価証券報告書を掲載いたしました。">第1期 有価証券報告書を掲載いたしました。</a></dd>
+					<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2011.05.06</span></dt>
+					<dd><a href="ir/securities/index.html" title="第1期 内部統制報告書を掲載いたしました。">第1期 内部統制報告書を掲載いたしました。</a></dd>
+					<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2011.04.27</span></dt>
+					<dd><a href="ir/stockholder/ketsugi_20110427.pdf" class="pdflink" target="_blank" title="第1期定時株主総会決議通知を発送いたしました。[PDF：130KB]">第1期定時株主総会決議通知を発送いたしました。</a> [PDF：130KB]</dd>
+					<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2011.04.27</span></dt>
+					<dd><a href="ir/news/2011/release20110427-2.pdf" class="pdflink" target="_blank" title="商号変更並びに代表取締役及び役員の異動に関するお知らせ[PDF：32KB]">商号変更並びに代表取締役及び役員の異動に関するお知らせ</a> [PDF：32KB]</dd>
+					<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2011.04.27</span></dt>
+					<dd><a href="ir/news/2011/release20110427.pdf" class="pdflink" target="_blank" title="支配株主等に関する事項について[PDF：26KB]">支配株主等に関する事項について</a> [PDF：26KB]</dd>
+					<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2011.04.26</span></dt>
+					<dd><a href="ir/news/2011/release20110426.pdf" class="pdflink" target="_blank" title="財務報告に係る内部統制の重要な欠陥に関するお知らせ">財務報告に係る内部統制の重要な欠陥に関するお知らせ</a> [PDF：116KB]</dd>
+					<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2011.04.08</span></dt>
+					<dd><a href="ir/stockholder/shoushu_20110408.pdf" class="pdflink" target="_blank" title="株主総会招集ご通知を発送しました。">株主総会招集ご通知を発送しました。</a> [PDF：978KB]</dd>
+					<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2011.03.23</span></dt>
+					<dd><a href="ir/news/2011/release20110323.pdf" class="pdflink" target="_blank" title="商号の変更、及び定款の変更、並びに代表取締役の異動及び役員の異動に関するお知らせ[PDF：29KB]">商号の変更、及び定款の変更、並びに代表取締役の異動及び役員の異動に関するお知らせ</a> [PDF：29KB]</dd>
+					<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2011.03.17</span></dt>
+					<dd><a href="ir/result/h23kt.pdf" target="_blank" title="決算短信（2011.03.17提出）">決算短信（2011.03.17提出）</a> [PDF：2,683KB]<br /> 
+						<span class="amendment"><a href="ir/result/h23kt-s.pdf" class="pdflink" target="_blank" title="決算発表ご説明資料">決算発表ご説明資料</a> ［PDF:288KB］</span></li></dd>
+					<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2011.03.17</span></dt>
+					<dd><a href="ir/news/2011/release20110317.pdf" class="pdflink" target="_blank" title="東北地方太平洋沖地震の影響に関するお知らせ[PDF：108KB]">東北地方太平洋沖地震の影響に関するお知らせ</a> [PDF：108KB]</dd>
+					<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2011.03.11</span></dt>
+					<dd><a href="ir/news/2011/release20110311.pdf" class="pdflink" target="_blank" title="連結業績予想の修正に関するお知らせ[PDF：100KB]">連結業績予想の修正に関するお知らせ</a> [PDF：100KB]</dd>
+					<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2011.02.01</span></dt>
+					<dd><a href="ir/news/2011/release20110201.pdf" class="pdflink" target="_blank" title="新体制発足に関するお知らせ[PDF：42KB]">新体制発足に関するお知らせ</a> [PDF：42KB]</dd>
+					<dt><img src="common/img/ico_news_03.gif" alt="お知らせ" title="お知らせ" width="41" height="13" /><span>2011.01.24</span></dt>
+					<dd><a href="ir/news/2011/release20110124.pdf" class="pdflink" target="_blank" title="子会社設立に関するお知らせ[PDF：13KB]">子会社設立に関するお知らせ</a> [PDF：13KB]</dd>
+					<dt><img src="common/img/ico_news_03.gif" alt="お知らせ" title="お知らせ" width="41" height="13" /><span>2011.01.11</span></dt>
+					<dd><a href="ir/news/2011/release20110111.pdf" class="pdflink" target="_blank" title="トゥ・ディファクトによる電子書籍サービスを開始～ドコモ スマートフォン等向けに電子書籍ストア「2Dfacto（トゥ・ディファクト）」を開設し、電子書籍サービス「honto（ホント）」を本格展開～[PDF：987KB]">トゥ・ディファクトによる電子書籍サービスを開始～ドコモ スマートフォン等向けに電子書籍ストア「2Dfacto（トゥ・ディファクト）」を開設し、電子書籍サービス「honto（ホント）」を本格展開～</a> [PDF：987KB]</dd>
+					<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2010.12.15</span></dt>
+					<dd><a href="ir/result/h23kt-3q.pdf" class="pdflink" target="_blank" title="第3四半期決算発表[PDF：810KB]">第3四半期決算発表</a> [PDF：810KB]</dd>
+					<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2010.12.10</span></dt>
+					<dd><a href="ir/news/2010/release20101210_01.pdf" class="pdflink" target="_blank" title="連結子会社の会計方針の変更及び当社の連結業績予想の修正に関するお知らせ[PDF：109KB]">連結子会社の会計方針の変更及び当社の連結業績予想の修正に関するお知らせ</a> [PDF：109KB]</dd>
+					<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2010.12.10</span></dt>
+					<dd><a href="ir/news/2010/release20101210_02.pdf" class="pdflink" target="_blank" title="子会社の固定資産の譲渡並びに特別利益計上に関するお知らせ[PDF：157KB]">子会社の固定資産の譲渡並びに特別利益計上に関するお知らせ</a> [PDF：157KB]</dd>
+					<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2010.12.8</span></dt>
+					<dd><a href="ir/news/2010/release20101208.pdf" class="pdflink" target="_blank" title="当社連結子会社である丸善株式会社による会社分割（新設分割）に関するお知らせ[PDF：43KB]">当社連結子会社である丸善株式会社による会社分割（新設分割）に関するお知らせ</a> [PDF：43KB]</dd>
+					<dt><img src="common/img/ico_news_03.gif" alt="お知らせ" title="お知らせ" width="41" height="13" /><span>2010.12.7</span></dt>
+					<dd><a href="ir/news/2010/release20101207.pdf" class="pdflink" target="_blank" title="大日本印刷　NTTドコモ　CHIグループ　ハイブリッド型総合書店の共同事業会社設立で合意">大日本印刷　NTTドコモ　CHIグループ<br />ハイブリッド型総合書店の共同事業会社設立で合意</a>[PDF：25KB] </dd>
+					<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2010.11.17</span></dt>
+					<dd><a href="ir/notification/index.html" title="電子公告を掲載いたしました。">電子公告を掲載いたしました。</a></dd>
+					<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2010.11.17</span></dt>
+					<dd><a href="ir/stockholder/ketsugi_rinji_20101117.pdf" class="pdflink" target="_blank" title="臨時株主総会決議通知を発送いたしました。 [PDF：6KB]">臨時株主総会決議通知を発送いたしました。</a> [PDF：6KB]</dd>
+					<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2010.11.17</span></dt>
+					<dd><a href="ir/news/2010/release20101117.pdf" class="pdflink" target="_blank" title="ＣＨＩグループ株式会社と株式会社ジュンク堂書店との株式交換による経営統合の承認可決に関するお知らせ[PDF：73KB]">ＣＨＩグループ株式会社と株式会社ジュンク堂書店との株式交換による経営統合の承認可決に関するお知らせ</a> [PDF：73KB]</dd>
+					<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2010.11.9</span></dt>
+					<dd><a href="ir/stockholder/shoushu_teisei_20101108.pdf" class="pdflink" target="_blank" title="招集通知記載事項の一部修正について（2010.11.9掲載）[PDF：7KB]">招集通知記載事項の一部修正について（2010.11.9掲載）</a> [PDF：7KB]</dd>
+					<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2010.10.20</span></dt>
+					<dd><a href="ir/report/index.html" title="ビジネスレポート〔第2四半期累計〕を掲載いたしました。">ビジネスレポート〔第2四半期累計〕を掲載いたしました。</a></dd>
+					<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2010.10.20</span></dt>
+					<dd><a href="ir/news/2010/release20101020.pdf" target="_blank" title="CHIグループ株式会社及び株式会社雄松堂書店の経営統合（簡易株式交換）にかかる契約締結に関するお知らせ">CHIグループ株式会社及び株式会社雄松堂書店の経営統合（簡易株式交換）にかかる契約締結に関するお知らせ</a>[PDF：57KB]</dd>
+					<dt><img src="common/img/ico_news_03.gif" alt="お知らせ" title="お知らせ" width="41" height="13" /><span>2010.10.7</span></dt>
+					<dd><a href="http://www.g-mark.org/award/detail.html?id=36662" target="_blank" title="丸善・丸の内本店4階の「松丸本舗」が2010年度グッドデザイン賞　受賞（仕事領域－オフィス・店舗・生産関連施設領域）">丸善・丸の内本店4階の「松丸本舗」が2010年度グッドデザイン賞　受賞（仕事領域－オフィス・店舗・生産関連施設領域）</a></dd>
+					<dt><img src="common/img/ico_news_03.gif" alt="お知らせ" title="お知らせ" width="41" height="13" /><span>2010.10.4</span></dt>
+					<dd><a href="ir/news/2010/release20101004.pdf" target="_blank" title="大日本印刷 CHI グループ 電子図書館の構築支援サービスを開始">大日本印刷 CHI グループ 電子図書館の構築支援サービスを開始</a>[PDF：72KB] </dd>
+					<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2010.9.15</span></dt>
+					<dd><a href="ir/notification/index.html" title="電子公告を掲載いたしました。">電子公告を掲載いたしました。</a></dd>
+					<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2010.9.14</span></dt>
+					<dd><a href="ir/result/h23kt-2q.pdf" target="_blank" title="第2四半期決算短信（2010.09.14提出）">第2四半期決算短信（2010.09.14提出）</a>[PDF：727KB]<br /> 
+						<span class="amendment"><a href="ir/result/h23kt-2q-s.pdf" class="pdflink" target="_blank" title="第2四半期決算発表ご説明資料">第2四半期決算発表ご説明資料</a> ［PDF:184KB］</span></li></dd>
+					<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2010.9.8</span></dt>
+					<dd><a href="ir/news/2010/release20100908.pdf" target="_blank" title="業績予想の修正に関するお知らせ">業績予想の修正に関するお知らせ</a>[PDF：94KB] </dd>
+					<dt><img src="common/img/ico_news_03.gif" alt="お知らせ" title="お知らせ" width="41" height="13" /><span>2010.9.2</span></dt>
+					<dd><a href="ir/news/2010/release20100902.pdf" target="_blank" title="当社子会社の丸善株式会社が方正株式会社と日中電子コンテンツ流通に関する業務提携契約を締結したことに関するお知らせ">当社子会社の丸善株式会社が方正株式会社と日中電子コンテンツ流通に関する業務提携契約を締結したことに関するお知らせ</a>[PDF：32KB] </dd>
+					<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2010.8.2</span></dt>
+					<dd><a href="ir/news/2010/release20100802.pdf" target="_blank" title="丸善書店株式会社の設立に関するお知らせ">丸善書店株式会社の設立に関するお知らせ</a>[PDF：20KB] </dd>
+					<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2010.7.16</span></dt>
+					<dd><a href="ir/news/2010/release20100720.pdf" target="_blank" title="子会社に対する訴訟の提起に関するお知らせ">子会社に対する訴訟の提起に関するお知らせ</a>[PDF：132KB] </dd>
+					<dt><img src="common/img/ico_news_03.gif" alt="お知らせ" title="お知らせ" width="41" height="13" /><span>2010.7.8</span></dt>
+					<dd><a href="ir/news/2010/release20100708.pdf" target="_blank" title="大日本印刷　CHIグループ　国内最大級の電子書店を今秋開設">大日本印刷　CHIグループ　国内最大級の電子書店を今秋開設</a>[PDF：23KB] </dd>
+					<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2010.7.1</span></dt>
+					<dd><a href="ir/news/2010/release20100701.pdf" target="_blank" title="丸善株式会社、株式会社雄松堂書店、大日本印刷株式会社の業務提携に関するお知らせ">丸善株式会社、株式会社雄松堂書店、大日本印刷株式会社の業務提携に関するお知らせ</a>[PDF：18KB] </dd>
+					<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2010.6.29</span></dt>
+					<dd><a href="ir/news/2010/release20100629_02.pdf" target="_blank" title="ＣＨＩグループ株式会社と株式会社ジュンク堂書店の株式交換による経営統合及び連結子会社である丸善株式会社における会社分割による店舗事業の分社化に関するお知らせ">ＣＨＩグループ株式会社と株式会社ジュンク堂書店の株式交換による経営統合及び連結子会社である丸善株式会社における会社分割による店舗事業の分社化に関するお知らせ</a>[PDF：67KB] </dd>
+					<dt><img src="common/img/ico_news_01.gif" alt="IR" title="IR" width="41" height="13" /><span>2010.6.29</span></dt>
+					<dd><a href="ir/news/2010/release20100629_01.pdf" target="_blank" title="本日の一部報道について（2010.6.29）">本日の一部報道について（2010.6.29）</a>[PDF：15KB] </dd>
+				-->
+</dl>
+<ul class="groupnews clearfix">
+<li class="last"><a href="ir/news/integration/index.html"><img src="img/btn_keieitougou_01.gif" alt="経営統合関連のリリース一覧" title="経営統合関連のリリース一覧" width="380" height="27" /></a></li>
+</ul>
+</div>
+<div id="bannercontents" class="clearfix">
+<div id="pickupcontents">
+<p class="pickuptitle"><img src="img/heading03_hybrid_01.gif" alt="PICK UP" title="PICK UP" width="147" height="14" /></p>
+<!--<p style="margin-bottom:10px;"><a href="corp/message.html"><img src="img/btn_message_01.jpg" alt="ご挨拶" title="ご挨拶" width="200" height="52" /></a></p>-->
+<p><a href="http://honto.jp/?cid=ip_hb_hm_01" target="_blank"><img src="img/btn_honto_01.gif" alt="honto" title="honto" width="200" height="52" /></a></p>
+</div>
+<div id="groupcontents">
+<p class="grouptitle"><img src="img/heading03_group_01.gif" alt="事業会社" title="事業会社" width="53" height="14" /></p>
+<p><a href="http://yushodo.maruzen.co.jp/" target="_blank"><img src="img/btn_my_01.gif" alt="丸善雄松堂" title="丸善雄松堂" width="200" height="52" /></a></p>
+<p class="groupsecond"><a href="http://www.trc.co.jp/" target="_blank"><img src="img/btn_trc_01.gif" alt="株式会社TRC図書館流通センター" title="株式会社TRC図書館流通センター" width="200" height="52" /></a></p>
+<p class="groupsecond"><a href="http://pub.maruzen.co.jp/index/gaiyo.html" target="_blank"><img src="img/btn_mpublishing_01.gif" alt="丸善出版株式会社" title="丸善出版株式会社" width="200" height="52" /></a></p>
+<p class="groupsecond"><a href="http://www.maruzenjunkudo.co.jp/" target="_blank"><img src="img/btn_junkudo_02.gif" alt="丸善&ジュンク堂" title="丸善&ジュンク堂" width="200" height="52" /></a></p>
+<p class="groupsecond"><img src="img/btn_honto_02.gif" alt="株式会社hontoブックサービス" title="株式会社hontoブックサービス" width="200" height="52" /></p>
+</div>
+</div>
+</div>
+<!-- maincontents end -->
+</div>
+<!-- wrapper end -->
+<!-- foot start -->
+<div id="foot">
+<div id="footcontents">
+<ul id="footnavi">
+<li><a href="contact/index.html" class="link01">お問い合わせ</a></li>
+<li class="footline"><a href="privacy.html" class="link01">個人情報保護方針</a></li>
+<li class="footline"><a href="sitemap.html" class="link01">サイトマップ</a></li>
+</ul>
+<p id="copyright"><img src="common/img/img_footer_01.gif" alt="All Rights Reserved,Copyright &copy; Maruzen CHI Holdings Co.,Ltd." title="All Rights Reserved,Copyright &copy; Maruzen CHI Holdings Co.,Ltd." width="329" height="12" /></p>
+</div>
+</div>
+<!-- foot end -->
+</div>
+<!-- container end -->
+</body>
+</html>

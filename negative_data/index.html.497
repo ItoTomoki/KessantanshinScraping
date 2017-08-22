@@ -1,0 +1,236 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>ドラッグストア ゲンキ―</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link href="common/style/styles.css?201701" rel="stylesheet" type="text/css" media="all" />
+<link rel="alternate" media="only screen and (max-width: 640px)" href="http://genky.co.jp/sp/">
+<!--スマホへジャンプ-->
+<script type="text/javascript">
+    var ua = navigator.userAgent.toUpperCase();
+    if(document.referrer.indexOf(location.href.split('/')[2]) == -1 && (ua.indexOf('IPHONE') != -1 || ua.indexOf('IPAD') != -1 || ua.indexOf('ANDROID') != -1)) {
+        if(window.confirm('スマートフォンサイトに移動しますか？')) {
+            location.href = 'sp/';
+        }
+    }
+</script>
+<!--スライダー fotorama-->
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<link href="common/style/fotorama.css" rel="stylesheet">
+<script src="common/script/fotorama.js"></script>
+<base href="./">
+<!--スライダー slick-->
+<link rel="stylesheet" href="common/style/slick.css">
+<link rel="stylesheet" href="common/style/slick-theme.css">
+<script src="common/script/slick.js"></script>
+<script src="common/script/slick.min.js"></script>
+<script>
+$(function(){
+$('.multiple-items').slick({
+slidesToShow: 3,
+slidesToScroll: 1,
+autoplay:true,
+autoplaySpeed:1500,
+dots:true,
+pauseOnHover:false,
+});
+});
+</script>
+<!--ページトップへ-->
+<script type="text/javascript" src="common/script/pagetop.js"></script>
+</head>
+
+
+
+<body leftmargin="0" marginheight="0" marginwidth="0" topmargin="0">
+
+
+
+<!--Wrapper-->
+<div id="Wrapper">
+
+
+
+<!--ヘッダーHeadColumn-->
+<div id="HeadColumn">
+<div class="HeadBox">
+<div class="Logo">
+<a href="http://www.genky.co.jp/">ドラッグストア-ゲンキ―</a></div>
+<div class="SubMenuBox">
+<a href="site/index.html">サイトマップ</a>　｜　<a href="policy/index.html">プライバシーポリシー</a></div>
+<!--メニューMenuBox-->
+<div class="MenuBox">
+<li><a href="index.html">HOME</a></li>
+<li><a href="shop/index.php">店舗・チラシ検索</a></li>
+<li><a href="http://ec.genky.co.jp/shop/c/c12/" target="_blank">オリジナルブランド</a></li>
+<li><a href="corporation/president.html">会社情報</a></li>
+<li><a href="recruiter/index.html" target="_blank">採用情報</a></li>
+<li><a href="http://ec.genky.co.jp/Shop/" target="_blank">オンラインショップ</a></li>
+<li><a href="contact/index.php">お問い合わせ</a></li>
+</div>
+<!--メニューMenuBox-->
+</div>
+</div>
+<!--ヘッダーHeadColumn-->
+
+
+
+<!--スライダーformat-->
+<div id="MainIMBox">
+<div class="fotorama" data-transition="crossfade" data-autoplay="true" data-loop="true" data-fit="cover" data-width="100%" data-ratio="1900/720" data-max-width="100%">
+<div data-img="common/top_img/touka1.gif" style="display:block;height:100%;"><a href="http://ec.genky.co.jp/shop/pages/open2017_1.aspx" target="_blank" style="display:block;height:100%;background-image:url(common/top_img/main4.gif);background-repeat:no-repea;background-size:100%;background-position:center;"></a></div>
+<div data-img="common/top_img/touka1.gif" style="display:block;height:100%;"><a href="http://ec.genky.co.jp/shop/pages/pointup2017_1.aspx" target="_blank" style="display:block;height:100%;background-image:url(common/top_img/main5.gif);background-repeat:no-repea;background-size:100%;background-position:center;"></a></div>
+<a href="common/top_img/main1a.jpg"></a>
+<a href="common/top_img/main2a.jpg"></a>
+<a href="common/top_img/main3a.jpg"></a>
+</div>
+</div>
+<!--スライダーformat-->
+
+
+
+<!--スライダーslick-->
+<div id="BannerBox">
+<div class="ScrollArea">
+<div class="multiple-items">
+<li><a href="brand/cont.php?page=&cont_no=00031"><img src="common/top_img/banner1.jpg" alt="sample-01" width="303"></a></li>
+<li><a href="brand/cont.php?page=&cont_no=00024"><img src="common/top_img/banner2.jpg" alt="sample-01" width="303"></a></li>
+<li><a href="brand/cont.php?page=&cont_no=00043"><img src="common/top_img/banner3.jpg" alt="sample-01" width="303"></a></li>
+<li><a href="brand/cont.php?page=&cont_no=00039"><img src="common/top_img/banner4.jpg" alt="sample-01" width="303"></a></li>
+<li><a href="brand/cont.php?page=&cont_no=00058"><img src="common/top_img/banner5.jpg" alt="sample-01" width="303"></a></li>
+<li><a href="brand/cont.php?page=&cont_no=00044"><img src="common/top_img/banner6.jpg" alt="sample-01" width="303"></a></li>
+</div>
+</div>
+</div>
+<!--スライダーslick-->
+
+
+
+<!--TopContentsColumn-->
+<div id="TopContentsColumn">
+
+<ul class="ButonBox01">
+<li class="LeftButon"><a href="shop/index.php"><img src="common/top_img/b-top01.jpg" width="466" height="165" alt="店舗・チラシ検索" /></a></li>
+<li class="RightButon"><a href="corporation/president.html"><img src="common/top_img/b-top02.jpg" width="466" height="165" alt="会社情報" /></a></li>
+<li class="LeftButon"><a href="recruiter/index.html" target="_blank"><img src="common/top_img/b-top03-a.jpg" width="466" height="165" alt="採用情報" /></a></li>
+<li class="RightButon"><a href="http://ec.genky.co.jp/Shop/" target="_blank"><img src="common/top_img/b-top05.jpg" width="466" height="165" alt="ゲンキー公式通販サイトOPEN！" /></a></li>
+<li class="LeftButon"><a href="http://ec.genky.co.jp/shop/g/g4580124643094VDC/" target="_blank"><img src="common/top_img/b-top06.jpg" width="466" height="165" alt="高濃度EPAサプリの決定版「アレルリボーテ」はこちらで販売中です" /></a></li>
+<!-- <li class="LeftButon"><a href="jposh/"><img src="common/top_img/b-top04.jpg" width="466" height="165" alt="ゲンキーはピンクリボン運動を応援しています。" /></a></li> -->
+</ul>
+
+
+
+<!--お知らせ-->
+<div id="NewsColumn">
+<ul class="TitlesColumn">
+<li class="T-Oshirase"><h2>お知らせ</h2></li>
+</ul>
+<ul class="NewsContentsBox">
+<iframe src="topics/newstop.php" frameborder="0" width="100%" height="100%" hspace="0" vspace="0"></iframe>
+</ul>
+</div><!--お知らせ-->
+
+
+
+<ul class="ButonBox02">
+<li class="LeftButon-S"><a href="corporation/qq.html"><img src="common/top_img/b-top-s01.jpg" width="469" height="91" alt="休日・夜間・小児救急" /></a></li>
+<li class="RightButon-S"><a href="http://www.u-fukui.ac.jp/kikin/lk05/" target="_blank"><img src="common/top_img/b-top-s07.jpg" width="469" height="91" alt="福井大学生の学びを応援しています。" /></a></li>
+<li class="LeftButon-S"><a href="https://cookpad.com/bargains/offices/892/shops?from=widget_200x80&amp;office_id=892" target="_blank"><img src="common/top_img/b-top-s02.jpg" width="469" height="91" alt="cookPad" /></a></li>
+<li class="RightButon-S"><a href="corporation/kodomo110.html"><img src="common/top_img/b-top-s04.jpg" width="469" height="91" alt="GENKEYはこども110番協力賛同店です" /></a></li>
+<!-- <li class="LeftButon-S"><a href="http://www.rakuten.ne.jp/gold/genky/" target="_blank"><img src="top_img/b-top-s05.jpg" width="469" height="91" alt="楽天" /></a></li> -->
+<!-- <li class="LeftButon-S"><a href="http://www.jumbo.co.jp/order/id_975/" target="_blank"><img src="common/top_img/b-top-s06.jpg" width="469" height="91" alt="GENKEYはこども110番協力賛同店です" /></a></li> -->
+<!-- <li class="LeftButon-S"><a href="http://www.j-posh.com/" target="_blank"><img src="common/top_img/b-top-s03.jpg" width="469" height="91" alt="日本乳がんピンクリボン運動" /></a></li> -->
+</ul>
+
+</div>
+<!--TopContentsColumn-->
+
+
+
+<!--フッタFooterColumn-->
+<div id="FooterColumn">
+<div class="FooterMenuBox">
+
+<ul class="MenuAria">
+<li class="MainLink"><a href="index.html">HOME</a></li>
+<li><a href="topics/index.php">新着情報一覧</a></li>
+<li><a href="topics/index.php">お問い合わせ</a></li>
+<li><a href="corporation/kodomo110.html">こども110番の家</a></li>
+<li><a href="corporation/qq.html">休日・夜間・小児救急当番医一覧</a></li>
+<li><a href="site/index.html">サイトマップ</a></li>
+<li><a href="policy/index.html">プライバシーポリシー</a></li>
+</ul>
+
+<ul class="MenuAria">
+<li class="MainLink"><a href="shop/index.php">店舗・チラシ検索</a></li>
+<li><a href="shop/list.php?g=1">石川エリア</a></li>
+<li><a href="shop/list.php?g=2">福井エリア</a></li>
+<li><a href="shop/list.php?g=3">岐阜エリア</a></li>
+<li><a href="shop/list.php?g=4">愛知エリア</a></li>
+</ul>
+<ul class="MenuAria">
+<li class="MainLink"><a href="http://ec.genky.co.jp/shop/c/c12/" target="_blank">オリジナルブランド</a></li>
+<li><a href="http://ec.genky.co.jp/shop/c/c1201/" target="_blank">医薬品</a></li>
+<li><a href="http://ec.genky.co.jp/shop/c/c1202/" target="_blank">ヘルスケア・介護</a></li>
+<li><a href="http://ec.genky.co.jp/shop/c/c1203/" target="_blank">健康食品・サプリ</a></li>
+<li><a href="http://ec.genky.co.jp/shop/c/c1204/" target="_blank">ビューティーケア</a></li>
+<li><a href="http://ec.genky.co.jp/shop/c/c1205/" target="_blank">ベビー用品</a></li>
+<li><a href="http://ec.genky.co.jp/shop/c/c1206/" target="_blank">洗剤・日用品</a></li>
+<li><a href="http://ec.genky.co.jp/shop/c/c1207/" target="_blank">食品・飲料</a></li>
+<li><a href="http://ec.genky.co.jp/shop/c/c1208/" target="_blank">生活雑貨</a></li>
+<li><a href="http://ec.genky.co.jp/shop/c/c1209/" target="_blank">衣料品 衣料雑貨</a></li>
+</ul>
+<ul class="MenuAria">
+<li class="MainLink"><a href="corporation/president.html">会社情報</a></li>
+<li><a href="corporation/president.html">社長メッセージ</a></li>
+<li><a href="corporation/policy.html">企業理念</a></li>
+<li><a href="corporation/outline.html">会社概要</a></li>
+<li><a href="corporation/ir.php">IRニュース</a></li>
+<li><a href="corporation/document.php">開示資料等</a></li>
+<!-- <li><a href="corporation/koukoku.php">電子公告</a></li> -->
+<!-- <li><a href="corporation/kessan.php">決算概要</a></li> -->
+</ul>
+
+<ul class="MenuAria">
+<li class="MainLink"><a href="recruiter/index.html" target="_blank">採用情報</a></li>
+<li><a href="https://job.rikunabi.com/2016/company/top/r693900095/" target="_blank">新卒採用</a></li>
+<li><a href="recruiter/carrier.php" target="_blank">キャリア採用</a></li>
+<li><a href="recruiter/part.php" target="_blank">パート採用</a></li>
+<!--<li><a href="recruit/voice.html" target="_blank">先輩たちの声</a></li>-->
+</ul>
+
+<ul class="ProfileBox">
+<h3>ゲンキー株式会社</h3>
+<p>
+戦略本部：〒910-0332　福井県坂井市丸岡町下久米田38-33<br />
+tel.0776-67-5240　fax.0776-67-5241
+</p>
+</ul>
+
+</div>
+<ul class="Shaoku">社屋</ul>
+<ul class="Copyright">Copyright(c) Genky stores.Inc. All Rights Reserved.</ul>
+</div>
+<!--フッタFooterColumn-->
+
+
+
+<p id="back-top"><a href="#top"><img src="common/cmn_img/pagetop.png" alt="ページ上へ" /></a></p>
+
+
+
+</div>
+<!--Wrapper-->
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-73981603-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

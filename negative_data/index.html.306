@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>新日鉄住金ソリューションズ</title>
+<meta name="description" content="ようこそ、新日鉄住金ソリューションズのホームページへ。ソリューション・サービス情報、企業情報、投資家向け情報、採用情報、セミナーイベント情報などをご紹介します。">
+<meta name="keywords" content="新日鉄住金ソリューションズ, NS Solutions, ソリューション, Solution">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="./css/home201611/style.css">
+<meta property="og:title" content="新日鉄住金ソリューションズ">
+<meta property="og:type" content="website">
+<meta property="og:url" content="http://www.nssol.nssmc.com/">
+<script src="./js/jquery.js"></script>
+<script type="text/javascript" src="./js/common.js"></script>
+</head>
+<body class="top">
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-K5NKLK"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-K5NKLK');</script>
+<!-- End Google Tag Manager -->
+<div class="wrap">
+  <header class="header">
+    <div class="header__inner">
+      <h1 class="header__logo01"><a href="/"><img src="/img/home201611/logo.png" alt="新日鉄住金ソリューションズ"></a></h1>
+      <div class="header__contact"><a href="https://www.nssol.nssmc.com/cgi-bin/form/inquiry.pl">見積もり・提案依頼・お問い合わせ</a></div>
+
+      <div class="header__menus">
+        <div class="header__top">
+          <ul class="header__links">
+            <li class="header__link"><a href="/seminar/">セミナー・イベント</a></li>
+            <li class="header__link"><a href="/en/">English</a></li>
+          </ul>
+        </div><!-- /.header__top -->
+
+        <div class="header__bottom">
+          <div class="header__search">
+            <div class="header__searchInner">
+              <form method="GET" action="/search.html" role="search">
+                <input type="text" name="q" size="16" maxlength="200" class="header__searchInput">
+                <button type="submit" class="header__searchButton">検索</button>
+              </form>
+            </div><!-- /.header__searchInner -->
+          </div><!-- /.header__search -->
+
+          <div class="header__logo02"><a href="http://www.nssmc.com/" target="_blank"><img src="/img/home201611/logo_group.png" alt="新日鉄住金グループ"></a></div>
+        </div><!-- /.header__bottom -->
+      </div><!-- /.header__menus -->
+
+      <div class="header__sp">
+        <ul class="header__icons">
+          <li class="header__icon sp-hide"><a href="https://www.nssol.nssmc.com/cgi-bin/form/inquiry.pl"><img src="/img/home201611/icon_mail.svg" alt="お問い合わせ"></a></li>
+          <li class="header__icon js-spSearch"><img src="/img/home201611/icon_search02.svg" alt="検索"></li>
+        </ul>
+        <div class="spIcon">
+          <a href="#" class="spIcon__link js-menu">
+            <span class="spIcon__button">
+              <span class="spIcon__icon"></span>
+            </span>
+          </a>
+        </div><!-- /.spIcon -->
+      </div><!-- /.header__sp -->
+    </div><!-- /.header__inner -->
+  </header>
+
+  <div class="spSearch">
+   <div class="spSearch__inner">
+     <form method="GET" action="/search.html" role="search">
+       <div class="spSearch__main">
+         <input type="text" name="q" size="16" maxlength="200" class="spSearch__input">
+         <button type="submit" class="spSearch__button">検索</button>
+       </div><!-- /.spSearch__main -->
+     </form>
+   </div><!-- /.spSearch__inner -->
+ </div><!-- /.spSearch -->
+
+  <nav class="pcNav">
+    <div class="pcNav__inner">
+      <ul class="pcNav__list">
+        <li class="pcNav__item pcNav01 js-dropMenu" data-nav="1">
+          <a href="/value/index.html">新日鉄住金ソリューションズの強み</a>
+          <!-- 新日鉄住金ソリューションズの強みトップ -->
+          <div class="pcSubNav">
+            <div class="pcSubNav__body" data-nav-body="1">
+              <div class="pcSubNav__inner">
+                <h2 class="pcSubNav__heading01"><a href="/value/index.html">新日鉄住金ソリューションズの強みトップ</a><i class="pcSubNav__close">close</i></h2>
+                <div class="pcSubNavType01 column-3">
+                  <div class="pcSubNavType01__item">
+                    <div class="pcSubVisual">
+                      <a href="/value/technology.html" class="pcSubVisual__inner">
+                        <div class="pcSubVisual__img"><img src="/img/home201611/subNav01_01.jpg" alt=""></div>
+                        <p class="pcSubVisual__text">技術力について</p>
+                      </a>
+                    </div><!-- /.pcSubVisual -->
+                  </div><!-- /.pcSubNavType01__item -->
+
+                  <div class="pcSubNavType01__item">
+                    <div class="pcSubVisual">
+                      <a href="/value/staff.html" class="pcSubVisual__inner">
+                        <div class="pcSubVisual__img"><img src="/img/home201611/subNav01_02.jpg" alt=""></div>
+                        <p class="pcSubVisual__text">人材力について</p>
+                      </a>
+                    </div><!-- /.pcSubVisual -->
+                  </div><!-- /.pcSubNavType01__item -->
+
+                  <div class="pcSubNavType01__item">
+                    <div class="pcSubVisual">
+                      <a href="/value/system.html" class="pcSubVisual__inner">
+                        <div class="pcSubVisual__img"><img src="/img/home201611/subNav01_03.jpg" alt=""></div>
+                        <p class="pcSubVisual__text">システムライフサイクルトータルソリューション</p>
+                      </a>
+                    </div><!-- /.pcSubVisual -->
+                  </div><!-- /.pcSubNavType01__item -->
+                </div><!-- /.pcSubNavType01 -->
+              </div><!-- /.pcSubNav__inner -->
+
+              <div class="pcSubNav__links">
+                <div class="pcSubNav__linksInner">
+                  <div class="pcSubNav__linksTitle">関連情報</div>
+                  <ul class="pcSubNav__linksList">
+                    <li class="pcSubNav__linksItem"><a href="/technology/">NSSOLテック・コラム</a></li>
+                  </ul>
+                </div><!-- /.pcSubNav__linksInner -->
+              </div><!-- /.pcSubNav__links -->
+            </div><!-- /.pcSubNav__body -->
+          </div><!-- /.pcSubNav -->
+        </li>
+
+        <li class="pcNav__item pcNav02 js-dropMenu" data-nav="2">
+          <a href="/ss/index.html">ソリューション・サービス</a>
+          <!-- ソリューション・サービス -->
+          <div class="pcSubNav">
+            <div class="pcSubNav__body" data-nav-body="2">
+              <div class="pcSubNav__inner">
+                <h2 class="pcSubNav__heading01"><a href="/ss/index.html">ソリューション・サービストップ</a><i class="pcSubNav__close">close</i></h2>
+                <h3 class="pcSubNav__heading02">業種別</h3>
+                <div class="pcSubNavType01 column-6">
+                  <div class="pcSubNavType01__item">
+                    <div class="pcSubVisual">
+                      <a href="/ss/production/index.html" class="pcSubVisual__inner">
+                        <div class="pcSubVisual__img"><img src="/img/home201611/subNav02_01.jpg" alt=""></div>
+                        <p class="pcSubVisual__text">製造・消費財</p>
+                      </a>
+                    </div><!-- /.pcSubVisual -->
+                  </div><!-- /.pcSubNavType01__item -->
+
+                  <div class="pcSubNavType01__item">
+                    <div class="pcSubVisual">
+                      <a href="/ss/circulation/index.html" class="pcSubVisual__inner">
+                        <div class="pcSubVisual__img"><img src="/img/home201611/subNav02_02.jpg" alt=""></div>
+                        <p class="pcSubVisual__text">流通</p>
+                      </a>
+                    </div><!-- /.pcSubVisual -->
+                  </div><!-- /.pcSubNavType01__item -->
+
+                  <div class="pcSubNavType01__item">
+                    <div class="pcSubVisual">
+                      <a href="/ss/finance/index.html" class="pcSubVisual__inner">
+                        <div class="pcSubVisual__img"><img src="/img/home201611/subNav02_03.jpg" alt=""></div>
+                        <p class="pcSubVisual__text">金融</p>
+                      </a>
+                    </div><!-- /.pcSubVisual -->
+                  </div><!-- /.pcSubNavType01__item -->
+
+                  <div class="pcSubNavType01__item">
+                    <div class="pcSubVisual">
+                      <a href="/ss/service_industry/index.html" class="pcSubVisual__inner">
+                        <div class="pcSubVisual__img"><img src="/img/home201611/subNav02_04.jpg" alt=""></div>
+                        <p class="pcSubVisual__text">サービス業</p>
+                      </a>
+                    </div><!-- /.pcSubVisual -->
+                  </div><!-- /.pcSubNavType01__item -->
+
+                  <div class="pcSubNavType01__item">
+                    <div class="pcSubVisual">
+                      <a href="/ss/public/index.html" class="pcSubVisual__inner">
+                        <div class="pcSubVisual__img"><img src="/img/home201611/subNav02_05.jpg" alt=""></div>
+                        <p class="pcSubVisual__text">公共・公益</p>
+                      </a>
+                    </div><!-- /.pcSubVisual -->
+                  </div><!-- /.pcSubNavType01__item -->
+
+                  <div class="pcSubNavType01__item">
+                    <div class="pcSubVisual">
+                      <a href="/ss/telecom/index.html" class="pcSubVisual__inner">
+                        <div class="pcSubVisual__img"><img src="/img/home201611/subNav02_06.jpg" alt=""></div>
+                        <p class="pcSubVisual__text">通信</p>
+                      </a>
+                    </div><!-- /.pcSubVisual -->
+                  </div><!-- /.pcSubNavType01__item -->
+                </div><!-- /.pcSubNavType01 -->
+
+                <div class="pcSubNav__botom">
+                  <div class="pcSubNav__bottomItem01">
+                    <h3 class="pcSubNav__heading02">全業種共通</h3>
+                    <ul class="pcSubMenu01">
+                      <li class="pcSubMenu01__item"><a href="/ss/infrastructure/index.html">インフラソリューション/データセンター</a></li>
+                      <li class="pcSubMenu01__item"><a href="/ss/consulting/index.html">コンサルティング</a></li>
+                      <li class="pcSubMenu01__item"><a href="/ss/embedded/index.html">組込み・数理</a></li>
+                      <li class="pcSubMenu01__item"><a href="/ss/application/index.html">業務アプリ</a></li>
+                      <li class="pcSubMenu01__item"><a href="/ss/mediumsized/index.html">中堅企業向けソリューション</a></li>
+                    </ul>
+                  </div><!-- /.pcSubNav__bottomItem01 -->
+
+                  <div class="pcSubNav__bottomItem02">
+                    <h3 class="pcSubNav__heading02">ITキーワード</h3>
+                    <ul class="pcSubMenu02">
+                      <li class="pcSubMenu02__item iox"><a href="/ss/iox/">
+                        <div class="pcSubMenu02__text">IoX</div>
+                        <div class="pcSubMenu02__img"></div>
+                      </a></li>
+                      <li class="pcSubMenu02__item cloud"><a href="/cloudservice/index.html">
+                        <div class="pcSubMenu02__text">クラウド・サービス</div>
+                        <div class="pcSubMenu02__img"></div>
+                      </a></li>
+                      <li class="pcSubMenu02__item outsourcing"><a href="/ss/ito/index.html">
+                        <div class="pcSubMenu02__text">ITアウトソーシング</div>
+                        <div class="pcSubMenu02__img"></div>
+                      </a></li>
+                      <li class="pcSubMenu02__item bigdata"><a href="/ss/bigdata/index.html">
+                        <div class="pcSubMenu02__text">ビッグデータ</div>
+                        <div class="pcSubMenu02__img"></div>
+                      </a></li>
+                      <li class="pcSubMenu02__item global"><a href="/ss/global/">
+                        <div class="pcSubMenu02__text">グローバル</div>
+                        <div class="pcSubMenu02__img"></div>
+                      </a></li>
+                      <li class="pcSubMenu02__item doc"><a href="/service/e-koukokuservice/index.html">
+                        <div class="pcSubMenu02__text">法定電子公告向け「調査機関サービス」</div>
+                        <div class="pcSubMenu02__img"></div>
+                      </a></li>
+                    </ul>
+                  </div><!-- /.pcSubNav__bottomItem02 -->
+                </div><!-- /.pcSubNav__botom -->
+              </div><!-- /.pcSubNav__inner -->
+
+              <div class="pcSubNav__links">
+                <div class="pcSubNav__linksInner">
+                  <div class="pcSubNav__linksTitle">関連情報</div>
+                  <ul class="pcSubNav__linksList">
+                    <li class="pcSubNav__linksItem"><a href="/seminar/index.html">セミナー・イベント</a></li>
+                  </ul>
+                </div><!-- /.pcSubNav__linksInner -->
+              </div><!-- /.pcSubNav__links -->
+            </div><!-- /.pcSubNav__body -->
+          </div><!-- /.pcSubNav -->
+        </li>
+
+        <li class="pcNav__item pcNav03 js-dropMenu" data-nav="3">
+          <a href="/casestudy/index.html">事例・ショーケース</a>
+          <!-- 事例・ショーケース -->
+          <div class="pcSubNav">
+            <div class="pcSubNav__body" data-nav-body="3">
+              <div class="pcSubNav__inner">
+                <h2 class="pcSubNav__heading01"><a href="/casestudy/index.html">事例・ショーケーストップ</a><i class="pcSubNav__close">close</i></h2>
+                <div class="pcSubNavType01 column-3">
+                  <div class="pcSubNavType01__item">
+                    <div class="pcSubVisual">
+                      <a href="/casestudy/usercase/index.html" class="pcSubVisual__inner">
+                        <div class="pcSubVisual__img"><img src="/img/home201611/subNav03_01.jpg" alt=""></div>
+                        <p class="pcSubVisual__text">ユーザー事例</p>
+                      </a>
+                    </div><!-- /.pcSubVisual -->
+                  </div><!-- /.pcSubNavType01__item -->
+
+                  <div class="pcSubNavType01__item">
+                    <div class="pcSubVisual">
+                      <a href="/casestudy/trends.html" class="pcSubVisual__inner">
+                        <div class="pcSubVisual__img"><img src="/img/home201611/subNav03_02.jpg" alt=""></div>
+                        <p class="pcSubVisual__text">技術動向</p>
+                      </a>
+                    </div><!-- /.pcSubVisual -->
+                  </div><!-- /.pcSubNavType01__item -->
+
+                  <div class="pcSubNavType01__item">
+                    <div class="pcSubVisual">
+                      <a href="/casestudy/projectstory/index.html" class="pcSubVisual__inner">
+                        <div class="pcSubVisual__img"><img src="/img/home201611/subNav03_03.jpg" alt=""></div>
+                        <p class="pcSubVisual__text">奮闘の軌跡</p>
+                      </a>
+                    </div><!-- /.pcSubVisual -->
+                  </div><!-- /.pcSubNavType01__item -->
+                </div><!-- /.pcSubNavType01 -->
+              </div><!-- /.pcSubNav__inner -->
+
+              <!--
+              <div class="pcSubNav__links">
+                <div class="pcSubNav__linksInner">
+                  <div class="pcSubNav__linksTitle">関連情報</div>
+                  <ul class="pcSubNav__linksList">
+                    <li class="pcSubNav__linksItem"><a href="#">リンク</a></li>
+                  </ul>
+                </div>
+              </div>
+              -->
+
+            </div><!-- /.pcSubNav__body -->
+          </div><!-- /.pcSubNav -->
+        </li>
+
+        <li class="pcNav__item pcNav04 js-dropMenu" data-nav="4">
+          <a href="/corporate/index.html">企業情報</a>
+          <!-- 企業情報 -->
+          <div class="pcSubNav">
+            <div class="pcSubNav__body" data-nav-body="4">
+              <div class="pcSubNav__inner">
+                <h2 class="pcSubNav__heading01"><a href="/corporate/index.html">企業情報トップ</a><i class="pcSubNav__close">close</i></h2>
+                <div class="pcSubNavType01 column-4">
+                  <div class="pcSubNavType01__item">
+                    <div class="pcSubVisual">
+                      <div class="pcSubVisual__inner noLink">
+                        <div class="pcSubVisual__img"><img src="/img/home201611/subNav04_01.jpg" alt=""></div>
+                        <p class="pcSubVisual__text">経営方針</p>
+                      </div>
+                    </div><!-- /.pcSubVisual -->
+
+                    <ul class="pcSubMenu01">
+                      <li class="pcSubMenu01__item"><a href="/corporate/message.html">社長メッセージ</a></li>
+                      <li class="pcSubMenu01__item"><a href="/corporate/philosophy.html">企業理念</a></li>
+                      <li class="pcSubMenu01__item"><a href="/corporate/employee.html">社員行動指針</a></li>
+                      <li class="pcSubMenu01__item"><a href="/corporate/conduct.html">グローバル・ビジネス・コンダクト</a></li>
+                      <li class="pcSubMenu01__item"><a href="/corporate/corporate_message.html">コーポレートメッセージ</a></li>
+                      <li class="pcSubMenu01__item"><a href="/corporate/compliance.html">コンプライアンス</a></li>
+                      <li class="pcSubMenu01__item"><a href="/corporate/logo.html">ロゴマーク</a></li>
+                      <li class="pcSubMenu01__item"><a href="/corporate/governance.html">コーポレート・ガバナンス</a></li>
+                    </ul>
+                  </div><!-- /.pcSubNavType01__item -->
+
+                  <div class="pcSubNavType01__item">
+                    <div class="pcSubVisual">
+                      <div class="pcSubVisual__inner noLink">
+                        <div class="pcSubVisual__img"><img src="/img/home201611/subNav04_02.jpg" alt=""></div>
+                        <p class="pcSubVisual__text">企業データ</p>
+                      </div>
+                    </div><!-- /.pcSubVisual -->
+
+                    <ul class="pcSubMenu01">
+                      <li class="pcSubMenu01__item"><a href="/corporate/overview.html">会社概要</a></li>
+                      <li class="pcSubMenu01__item"><a href="/corporate/history.html">沿革</a></li>
+                      <li class="pcSubMenu01__item"><a href="/corporate/organization.html">役員・組織</a></li>
+                      <li class="pcSubMenu01__item"><a href="/corporate/relation.html">関連会社一覧</a></li>
+                      <li class="pcSubMenu01__item"><a href="/corporate/location.html">地図・アクセス</a></li>
+                    </ul>
+                  </div><!-- /.pcSubNavType01__item -->
+
+                  <div class="pcSubNavType01__item">
+                    <div class="pcSubVisual">
+                      <div class="pcSubVisual__inner noLink">
+                        <div class="pcSubVisual__img"><img src="/img/home201611/subNav04_03.jpg" alt=""></div>
+                        <p class="pcSubVisual__text">事業案内</p>
+                      </div>
+                    </div><!-- /.pcSubVisual -->
+
+                    <ul class="pcSubMenu01">
+                      <li class="pcSubMenu01__item"><a href="/corporate/business_field.html">事業領域</a></li>
+                      <li class="pcSubMenu01__item"><a href="/corporate/global.html">グローバルビジネスへの対応</a></li>
+                    </ul>
+                  </div><!-- /.pcSubNavType01__item -->
+
+                  <div class="pcSubNavType01__item">
+                    <div class="pcSubVisual">
+                      <div class="pcSubVisual__inner noLink">
+                        <div class="pcSubVisual__img"><img src="/img/home201611/subNav04_04.jpg" alt=""></div>
+                        <p class="pcSubVisual__text">CSR・環境活動</p>
+                      </div>
+                    </div><!-- /.pcSubVisual -->
+
+                    <ul class="pcSubMenu01">
+                      <li class="pcSubMenu01__item"><a href="/corporate/csr.html">CSR/環境活動トップ</a></li>
+                      <li class="pcSubMenu01__item"><a href="/corporate/environmental.html">環境保全への取り組み</a></li>
+                      <li class="pcSubMenu01__item"><a href="/corporate/contribution.html">社会・地域との関わり</a></li>
+                      <li class="pcSubMenu01__item"><a href="/corporate/employee_relations.html">社員との関わり</a></li>
+                    </ul>
+                  </div><!-- /.pcSubNavType01__item -->
+                </div><!-- /.pcSubNavType01 -->
+              </div><!-- /.pcSubNav__inner -->
+
+              <div class="pcSubNav__links">
+                <div class="pcSubNav__linksInner">
+                  <div class="pcSubNav__linksTitle">関連情報</div>
+                  <ul class="pcSubNav__linksList">
+                    <li class="pcSubNav__linksItem"><a href="/press/index.html">ニュース・プレスリリース</a></li>
+                    <li class="pcSubNav__linksItem"><a href="/corporate/map_headquarters.html">本社への地図</a></li>
+                    <li class="pcSubNav__linksItem"><a href="/technology/">NSSOLテック・コラム</a></li>
+                    <li class="pcSubNav__linksItem"><a href="/public_relations/">広報ノート</a></li>
+                  </ul>
+                </div><!-- /.pcSubNav__linksInner -->
+              </div><!-- /.pcSubNav__links -->
+            </div><!-- /.pcSubNav__body -->
+          </div><!-- /.pcSubNav -->
+        </li>
+
+        <li class="pcNav__item pcNav05 js-dropMenu" data-nav="5">
+          <a href="/ir/index.html">投資家向け情報</a>
+          <!-- 投資家向け情報 -->
+          <div class="pcSubNav">
+            <div class="pcSubNav__body" data-nav-body="5">
+              <div class="pcSubNav__inner">
+                <h2 class="pcSubNav__heading01"><a href="/ir/index.html">投資家向け情報</a><i class="pcSubNav__close">close</i></h2>
+                <div class="pcSubNavType01 column-4">
+                  <div class="pcSubNavType01__item">
+                    <div class="pcSubVisual">
+                      <a href="/ir/index.html#ir-news" class="pcSubVisual__inner">
+                        <div class="pcSubVisual__img"><img src="/img/home201611/subNav05_01.jpg" alt=""></div>
+                        <p class="pcSubVisual__text">IRニュース</p>
+                      </a>
+                    </div><!-- /.pcSubVisual -->
+                  </div><!-- /.pcSubNavType01__item -->
+
+                  <div class="pcSubNavType01__item">
+                    <div class="pcSubVisual">
+                      <div class="pcSubVisual__inner noLink">
+                        <div class="pcSubVisual__img"><img src="/img/home201611/subNav05_02.jpg" alt=""></div>
+                        <p class="pcSubVisual__text">決算情報</p>
+                      </div>
+                    </div><!-- /.pcSubVisual -->
+
+                    <ul class="pcSubMenu01">
+                      <li class="pcSubMenu01__item"><a href="/ir/policy.html">基本方針</a></li>
+                      <li class="pcSubMenu01__item"><a href="/ir/securities.html">業績推移</a></li>
+                      <li class="pcSubMenu01__item"><a href="/ir/financial_statements.html">有価証券報告書</a></li>
+                      <li class="pcSubMenu01__item"><a href="/ir/finance.html">決算短信</a></li>
+                      <li class="pcSubMenu01__item"><a href="/ir/report/index.html">説明会</a></li>
+                    </ul>
+                  </div><!-- /.pcSubNavType01__item -->
+
+                  <div class="pcSubNavType01__item">
+                    <div class="pcSubVisual">
+                      <div class="pcSubVisual__inner noLink">
+                        <div class="pcSubVisual__img"><img src="/img/home201611/subNav05_03.jpg" alt=""></div>
+                        <p class="pcSubVisual__text">株主のみなさまへ</p>
+                      </div>
+                    </div><!-- /.pcSubVisual -->
+
+                    <ul class="pcSubMenu01">
+                      <li class="pcSubMenu01__item"><a href="/ir/benefit.html">株主優待</a></li>
+                      <li class="pcSubMenu01__item"><a href="/ir/shareholders.html">株主総会</a></li>
+                      <li class="pcSubMenu01__item"><a href="/ir/stockholder.html">株式情報</a></li>
+                      <li class="pcSubMenu01__item"><a href="/ir/procedure.html">株式手続のご案内</a></li>
+                    </ul>
+                  </div><!-- /.pcSubNavType01__item -->
+
+                  <div class="pcSubNavType01__item">
+                    <div class="pcSubVisual">
+                      <a href="/ir/index.html#ir-calendar" class="pcSubVisual__inner">
+                        <div class="pcSubVisual__img"><img src="/img/home201611/subNav05_04.jpg" alt=""></div>
+                        <p class="pcSubVisual__text">IRカレンダー</p>
+                      </a>
+                    </div><!-- /.pcSubVisual -->
+                  </div><!-- /.pcSubNavType01__item -->
+
+                  <div class="pcSubNavType01__item">
+                    <div class="pcSubVisual">
+                      <a href="/ir/individual/" class="pcSubVisual__inner">
+                        <div class="pcSubVisual__img"><img src="/img/home201611/subNav05_08.jpg" alt=""></div>
+                        <p class="pcSubVisual__text">個人投資家の皆様へ</p>
+                      </a>
+                    </div><!-- /.pcSubVisual -->
+                  </div><!-- /.pcSubNavType01__item -->
+
+                  <div class="pcSubNavType01__item">
+                    <div class="pcSubVisual">
+                      <a href="/ir/analyst.html" class="pcSubVisual__inner">
+                        <div class="pcSubVisual__img"><img src="/img/home201611/subNav05_05.jpg" alt=""></div>
+                        <p class="pcSubVisual__text">アナリストカバレッジ</p>
+                      </a>
+                    </div><!-- /.pcSubVisual -->
+                  </div><!-- /.pcSubNavType01__item -->
+
+                  <div class="pcSubNavType01__item">
+                    <div class="pcSubVisual">
+                      <a href="/ir/faq.html" class="pcSubVisual__inner">
+                        <div class="pcSubVisual__img"><img src="/img/home201611/subNav05_06.jpg" alt=""></div>
+                        <p class="pcSubVisual__text">よくあるご質問</p>
+                      </a>
+                    </div><!-- /.pcSubVisual -->
+                  </div><!-- /.pcSubNavType01__item -->
+
+                  <div class="pcSubNavType01__item">
+                    <div class="pcSubVisual">
+                      <a href="/koukoku/index.html" class="pcSubVisual__inner">
+                        <div class="pcSubVisual__img"><img src="/img/home201611/subNav05_07.jpg" alt=""></div>
+                        <p class="pcSubVisual__text">電子公告</p>
+                      </a>
+                    </div><!-- /.pcSubVisual -->
+                  </div><!-- /.pcSubNavType01__item -->
+                </div><!-- /.pcSubNavType01 -->
+              </div><!-- /.pcSubNav__inner -->
+
+              <div class="pcSubNav__links">
+                <div class="pcSubNav__linksInner">
+                  <div class="pcSubNav__linksTitle">関連情報</div>
+                  <ul class="pcSubNav__linksList">
+                    <li class="pcSubNav__linksItem"><a href="/press/index.html">ニュース・プレスリリース</a></li>
+                    <li class="pcSubNav__linksItem"><a href="/corporate/map_headquarters.html">本社への地図</a></li>
+                  </ul>
+                </div><!-- /.pcSubNav__linksInner -->
+              </div><!-- /.pcSubNav__links -->
+            </div><!-- /.pcSubNav__body -->
+          </div><!-- /.pcSubNav -->
+        </li>
+
+        <li class="pcNav__item pcNav06 noDrop"><a href="/recruit/index.html">採用情報</a></li>
+      </ul>
+    </div><!-- /.pcNav__inner -->
+  </nav><!-- /.pcNav -->
+
+  <nav class="spNavWrap"></nav>
+  <nav class="spNav">
+    <div class="spNav__header">
+      <div class="spNav__close js-menu-close"></div>
+    </div><!-- /.spNav__header -->
+    <div class="spNav__inner">
+      <div class="spNavType01">
+        <ul class="spNavType01__list">
+          <li class="spNavType01__item" data-sp-nav="1"><a href="/value/index.html">新日鉄住金ソリューションズの強み</a></li>
+          <li class="spNavType01__item" data-sp-nav="2"><a href="/ss/index.html">ソリューション・サービス</a></li>
+          <li class="spNavType01__item" data-sp-nav="3"><a href="/casestudy/index.html">事例・ショーケース</a></li>
+          <li class="spNavType01__item" data-sp-nav="4"><a href="/corporate/index.html">企業情報</a></li>
+          <li class="spNavType01__item" data-sp-nav="5"><a href="/ir/index.html">投資家向け情報</a></li>
+          <li class="spNavType01__item"><a href="/recruit/index.html">採用情報</a></li>
+        </ul>
+      </div><!-- /.spNavType01 -->
+
+      <div class="spNav__menus01">
+        <div class="spNav__contact"><a href="https://www.nssol.nssmc.com/cgi-bin/form/inquiry.pl">見積もり・提案依頼・お問い合わせ</a></div>
+        <div class="spNavLink01">
+          <ul class="spNavLink01__list">
+            <li class="spNavLink01__item"><a href="/en/">English</a></li>
+            <li class="spNavLink01__item"><a href="/seminar/index.html">セミナー・イベント</a></li>
+          </ul>
+        </div>
+      </div><!-- /.spNav__menus01 -->
+
+      <div class="spNav__menus02">
+        <div class="spNavLink02">
+          <ul class="spNavLink02__list">
+            <li class="spNavLink02__item"><a href="/seminar/index.html">セミナー・イベント</a></li>
+            <li class="spNavLink02__item"><a href="/en/">English</a></li>
+          </ul>
+        </div>
+      </div><!-- /.spNav__menus02 -->
+
+      <div class="spNav__menus03">
+        <div class="spNavType02">
+          <ul class="spNavType02__list">
+            <li class="spNavType02__item"><a href="/info/use.html">サイトのご利用<br>にあたって</a></li>
+            <li class="spNavType02__item"><a href="/info/privacy.html">プライバシーポリシー </a></li>
+            <li class="spNavType02__item"><a href="/info/legal.html">商標・登録商標<br>について</a></li>
+            <li class="spNavType02__item"><a href="/koukoku/index.html">電子公告</a></li>
+            <li class="spNavType02__item"><a href="/info/sitemap.html">サイトマップ</a></li>
+            <li class="spNavType02__item"><a href="https://www.nssol.nssmc.com/cgi-bin/form/inquiry.pl">お問い合わせ</a></li>
+          </ul>
+        </div><!-- /.spNavType02 -->
+      </div><!-- /.spNav__menus03 -->
+    </div><!-- /.spNav__inner -->
+  </nav><!-- /.spNav -->
+
+
+
+  <div class="mainvisual">
+    <div class="mainvisual__inner">
+      <div class="mainvisual__slide js-slider">
+        <div class="mainvisual__slideItem">
+          <div class="mainvisual__slideImg"><a href="/technology/"><img src="./img/home201611/s_all_1.jpg" alt="NSSOLテック・コラム"></a></div>
+        </div><!-- /.mainvisual__slideItem -->
+
+        <div class="mainvisual__slideItem">
+          <div class="mainvisual__slideImg"><a href="/ss/ito/index.html"><img src="./img/home201611/s_all_2.jpg" alt="「IT組織の変革」をご支援します ITアウトソーシングのご提案"></a></div>
+        </div><!-- /.mainvisual__slideItem -->
+
+        <div class="mainvisual__slideItem">
+          <div class="mainvisual__slideImg"><a href="/casestudy/usercase/1640.html"><img src="./img/home201611/s_all_3.jpg" alt="お客様事例:気象庁様 気象衛星ひまわり8号・9号の運用事業推進へ高可用性を追求した地上システムを整備"></a></div>
+        </div><!-- /.mainvisual__slideItem -->
+
+        <div class="mainvisual__slideItem">
+          <div class="mainvisual__slideImg"><a href="/casestudy/usercase/2069.html"><img src="./img/home201611/s_all_4.jpg" alt="お客様事例:株式会社LIXIL様 グローバルな競争力強化に向け全社横断の統合生産管理システムを導入"></a></div>
+        </div><!-- /.mainvisual__slideItem -->
+
+        <div class="mainvisual__slideItem">
+          <div class="mainvisual__slideImg"><a href="/casestudy/usercase/2074.html"><img src="./img/home201611/s_all_5.jpg" alt="お客様事例:東京大学素粒子物理国際研究センター様 最先端の素粒子物理データ解析システム換装で処理性能とストレージ容量を強化"></a></div>
+        </div><!-- /.mainvisual__slideItem -->
+      </div><!-- /.mainvisual__slide -->
+    </div><!-- /.mainvisual__inner -->
+  </div><!-- /.mainvisual -->
+
+  <div class="contents">
+
+    <div class="contentType01">
+      <div class="content__inner">
+        <div class="menuListType01">
+          <div class="menuListType01__inner">
+            <ul class="menuListType01__list">
+              <li class="menuListType01__item01 iox"><a href="/ss/iox/">
+                <div class="menuListType01__img"></div>
+                <p class="menuListType01__text">IoX</p>
+              </a></li>
+              <li class="menuListType01__item01 bigdata"><a href="/ss/bigdata/">
+                <div class="menuListType01__img"></div>
+                <p class="menuListType01__text">ビッグデータ</p>
+              </a></li>
+              <li class="menuListType01__item01 outsourcing"><a href="/ss/ito/">
+                <div class="menuListType01__img"></div>
+                <p class="menuListType01__text">ITアウトソーシング</p>
+              </a></li>
+              <li class="menuListType01__item01 global"><a href="/ss/global/">
+                <div class="menuListType01__img"></div>
+                <p class="menuListType01__text">グローバル</p>
+              </a></li>
+              <li class="menuListType01__item01 cloud"><a href="/cloudservice/index.html">
+                <div class="menuListType01__img"></div>
+                <p class="menuListType01__text">クラウド・サービス</p>
+              </a></li>
+            </ul>
+          </div>
+          <ul class="menuListType01__list">
+            <li class="menuListType01__item02 news"><a href="/press/index.html">
+              <p class="menuListType01__heading">ニュース・プレスリリース</p>
+              <p class="menuListType01__description">ニュース・プレスリリースをご紹介します。</p>
+            </a></li>
+            <li class="menuListType01__item02 seminar"><a href="/seminar/index.html">
+              <p class="menuListType01__heading">セミナー・イベント</p>
+              <p class="menuListType01__description">セミナー・イベントをご紹介します。</p>
+            </a></li>
+          </ul>
+        </div><!-- /.menuListType01 -->
+      </div><!-- /.content__inner -->
+    </div><!-- /.contentType01 -->
+
+    <div class="contentType02">
+      <div class="content__inner">
+        <div class="menuListType02">
+          <ul class="menuListType02__list">
+            
+             <li class="menuListType02__item02 normal"><a href="/ir/individual/">
+              <div class="menuListType02__img"><img src="./img/home201611/pic_top_topics_ir_ind.png" alt=""></div>
+              <div class="menuListType02__category"><i>IR</i></div>
+              <h3 class="menuListType02__heading02">個人投資家の<br />皆様へ</h3>
+            </a></li>
+
+            <li class="menuListType02__item01 case"><a href="/casestudy/usercase/2132.html">
+              <div class="menuListType02__category"><i>事例</i></div>
+              <h3 class="menuListType02__heading01">Strapack（Thailand）Co., Ltd.様</h3>
+              <p class="menuListType02__description">顧客満足度と業務効率の向上へ 標準型製品のマザー工場にERPを導入</p>
+              <div class="menuListType02__date01">2016/12</div>
+            </a></li>
+
+            <li class="menuListType02__item02 normal"><a href="/technology/ai/kamonohashi.html">
+              <div class="menuListType02__img"><img src="./img/home201611/pic_top_topics_pr_170712.jpg" alt=""></div>
+              <div class="menuListType02__category"><i>テック<br>コラム</i></div>
+              <p class="menuListType02__description">「KAMONOHASHI」が世界を変える<br />――画像認識プラットフォームが導く未来――
+              </p>
+              <div class="menuListType02__date01">2017/07/12</div>
+            </a></li>
+
+            <li class="menuListType02__item02 normal"><a href="/technology/iox-solution/5g-factory-002.html">
+              <div class="menuListType02__img"><img src="./img/home201611/pic_top_topics_pr_170613.jpg" alt=""></div>
+              <div class="menuListType02__category"><i>テック<br>コラム</i></div>
+              <p class="menuListType02__description">無線通信技術の国内最大級のワイヤレス専門イベント「ワイヤレス・テクノロジー・パーク2017」に「5G　FACTORYⅡ　ウェアラブル型ロボット遠隔操作システム」を出展</p>
+              <div class="menuListType02__date01">2017/06/20</div>
+            </a></li>
+
+            <li class="menuListType02__item01 case"><a href="/press/2017/20170313_150000.html">
+              <div class="menuListType02__category"><i>ニュース</i></div>
+              <p class="menuListType02__description">新日鐵住金(株)による日新製鋼(株)の子会社化について</p>
+              <div class="menuListType02__date01">2017/03/13</div>
+            </a></li>
+
+            <li class="menuListType02__item02 normal"><a href="/recruit/index.html">
+              <div class="menuListType02__img"><img src="./img/home201611/pic_top_topics03.jpg" alt=""></div>
+              <div class="menuListType02__category"><i>採用情報</i></div>
+              <h3 class="menuListType02__heading02">採用情報</h3>
+            </a></li>
+          </ul>
+        </div><!-- /.menuListType02 -->
+      </div><!-- /.content__inner -->
+    </div><!-- /.contentType02 -->
+
+    <div class="contentType01">
+      <div class="content__inner">
+        <div class="columnType01">
+            <div class="columnType01__item">
+  <div class="newsListType01">
+    <h3 class="newsListType01__heading01"><a href="./press/index.html" class="newsListType01__link01">ニュース・プレスリリース</a><a href="./press/atom.xml" class="newsListType01__link02">RSS</a></h3>
+    <ul class="newsListType01__list">
+
+
+      <li class="newsListType01__item">
+        <i class="newsListType01__category news">ニュース</i>
+        <p class="newsListType01__date">2017年8月4日</p>
+        <p class="newsListType01__description"><a href="http://www.nssol.nssmc.com/press/2017/20170804_110000.html"> 新日鉄住金ソリューションズとJIPDEC、住宅ローン・法人融資業務向け電子契約サービスパッケージFINCHUB（フィンチューブ）＠absonne（アブソンヌ）を販売開始</a></p>
+      </li>
+
+
+
+
+
+      <li class="newsListType01__item">
+        <i class="newsListType01__category news">ニュース</i>
+        <p class="newsListType01__date">2017年7月28日</p>
+        <p class="newsListType01__description"><a href="http://www.nssol.nssmc.com/press/2017/20170728_150000.html">平成29年7月九州北部豪雨に対する支援について</a></p>
+      </li>
+
+
+
+
+
+      <li class="newsListType01__item">
+        <i class="newsListType01__category news">ニュース</i>
+        <p class="newsListType01__date">2017年7月13日</p>
+        <p class="newsListType01__description"><a href="http://www.nssol.nssmc.com/press/2017/20170713_150000.html">「Oracle Excellence Awards 2017」受賞</a></p>
+      </li>
+
+
+    </ul>
+    <div class="newsListType01__button"><a href="./press/index.html"><span>ニュース・プレスリリース一覧</span></a></div>
+  </div><!-- /.newsListType01 -->
+</div><!-- /.columnType01__item -->
+
+
+            <div class="columnType01__item">
+  <div class="newsListType01">
+    <h3 class="newsListType01__heading01"><a href="./seminar/index.html" class="newsListType01__link01">セミナー・イベント</a><a href="./seminar/atom.xml" class="newsListType01__link02">RSS</a></h3>
+    <ul class="newsListType01__list">
+
+
+
+      <li class="newsListType01__item">
+        <i class="newsListType01__category seminar">セミナー</i>
+        <p class="newsListType01__description"><a href="http://www.nssol.nssmc.com/seminar/2017/20170921_140000.html">【大阪開催】グローバル製造業セミナー ～グローバルMOM「DELMIA Apriso」による製造IT標準化と「つながる工場」の実現～<br>2017年9月21日（木）14:00～17:00（受付開始　13:30）<br>【会場：新日鉄住金ソリューションズ 関西支社】</a></p>
+      </li>
+
+
+      <li class="newsListType01__item">
+        <i class="newsListType01__category seminar">セミナー</i>
+        <p class="newsListType01__description"><a href="http://www.nssol.nssmc.com/seminar/2017/20170920_150000.html">住宅ローン・法人融資を&quot;変える&quot;FINCHUB電子契約セミナー ～金融業界でも契約は電子が当たり前の時代に～<br>2017年9月20日（水）15:00～17:00（14:40 受付開始）<br>【会場：新日鉄住金ソリューションズ株式会社】</a></p>
+      </li>
+
+
+      <li class="newsListType01__item">
+        <i class="newsListType01__category seminar">セミナー</i>
+        <p class="newsListType01__description"><a href="http://www.nssol.nssmc.com/seminar/2017/20170908_143000.html">VDI/DaaSは導入後の運用が肝心！VDI運用者が語る、VDI運用の難しさ、勘所とは ～ヴイエムウェア、新日鉄住金ソリューションズ共催セミナー～<br>2017年9月8日（金）14:30～17:00<br>【会場：ヴイエムウェア株式会社 東京オフィス】</a></p>
+      </li>
+
+
+    </ul>
+    <div class="newsListType01__button"><a href="./seminar/index.html"><span>セミナー・イベント一覧</span></a></div>
+  </div><!-- /.newsListType01 -->
+</div><!-- /.columnType01__item -->
+
+        </div><!-- /.columnType01 -->
+      </div><!-- /.content__inner -->
+    </div><!-- /.contentType01 -->
+
+    <div class="contentType03">
+      <div class="content__inner">
+        <div class="footerBanner">
+          <h3 class="footerBanner__heading">関連サイト</h3>
+          <div class="footerBanner__slider">
+            <ul class="footerBanner__list js-bannerSlider">
+              <li class="footerBanner__item"><a href="https://www.itis.nssol.nssmc.com/nsfitos/" target="_blank"><img src="./img/home201611/bnr_nssol-nsfitos.jpg" alt="攻めのITを実現する　次世代ITアウトソーシング NSFITOS"></a></li>
+              <li class="footerBanner__item"><a href="https://www.itis.nssol.nssmc.com/m3daas/" target="_blank"><img src="./img/home201611/bnr_nssol-m3daas.jpg" alt="国内DaaS市場シェアNo.1のクラウド型　仮想デスクトップサービス M³DaaS"></a></li>
+              <li class="footerBanner__item"><a href="https://www.itis.nssol.nssmc.com/contracthub/" target="_blank"><img src="./img/home201611/bnr_nssol-chub.jpg" alt="さらに進化した電子契約サービス CONTRACTHUB"></a></li>
+            </ul>
+          </div><!-- /.footerBanner__slider -->
+        </div><!-- /.footerBanner -->
+      </div><!-- /.content__inner -->
+    </div><!-- /.contentType03 -->
+
+  </div><!-- /.contents -->
+
+  <footer class="footer">
+    <div class="footer__top">
+      <div class="footer__inner">
+        <div class="footer__columns01">
+          <div class="footer__column01">
+            <div class="footer__item">
+              <ul class="fNavType01">
+                <li class="fNavType01__item"><a href="/value/index.html">新日鉄住金ソリューションズの強み</a></li>
+              </ul>
+              <ul class="fNavType02">
+                <li class="fNavType02__item"><a href="/value/technology.html">技術力について</a></li>
+                <li class="fNavType02__item"><a href="/value/staff.html">人材力について</a></li>
+                <li class="fNavType02__item"><a href="/value/system.html">システムライフサイクルトータルソリューション</a></li>
+              </ul>
+            </div><!-- /.footer__item -->
+
+            <div class="footer__item">
+              <ul class="fNavType01">
+                <li class="fNavType01__item"><a href="/ss/index.html">ソリューション・サービス</a></li>
+              </ul>
+              <div class="footer__columns02">
+                <div class="footer__column03">
+                  <p class="footer__subHeading">業種別</p>
+                  <ul class="fNavType02">
+                    <li class="fNavType02__item"><a href="/ss/production/index.html">製造・消費財</a></li>
+                    <li class="fNavType02__item"><a href="/ss/circulation/index.html">流通</a></li>
+                    <li class="fNavType02__item"><a href="/ss/finance/index.html">金融</a></li>
+                    <li class="fNavType02__item"><a href="/ss/service_industry/index.html">サービス業</a></li>
+                    <li class="fNavType02__item"><a href="/ss/public/index.html">公共・公益</a></li>
+                    <li class="fNavType02__item"><a href="/ss/telecom/index.html">通信</a></li>
+                  </ul>
+                </div><!-- /.footer__column03 -->
+
+                <div class="footer__column04">
+                  <p class="footer__subHeading">全業種共通</p>
+                  <ul class="fNavType02">
+                    <li class="fNavType02__item"><a href="/ss/infrastructure/index.html">インフラソリューション/データセンター</a></li>
+                    <li class="fNavType02__item"><a href="/ss/consulting/index.html">コンサルティング</a></li>
+                    <li class="fNavType02__item"><a href="/ss/embedded/index.html">組込み・数理</a></li>
+                    <li class="fNavType02__item"><a href="/cloudservice/index.html">クラウド・サービス</a></li>
+                    <li class="fNavType02__item"><a href="/ss/application/index.html">業務アプリケーション</a></li>
+                  </ul>
+                </div><!-- /.footer__column04 -->
+              </div><!-- /.footer__columns02 -->
+            </div><!-- /.footer__item -->
+
+            <div class="footer__item">
+              <ul class="fNavType01">
+                <li class="fNavType01__item"><a href="/casestudy/index.html">事例・ショーケース</a></li>
+              </ul>
+              <ul class="fNavType02">
+                <li class="fNavType02__item"><a href="/casestudy/usercase/index.html">ユーザー事例</a></li>
+                <li class="fNavType02__item"><a href="/casestudy/trends.html">技術動向</a></li>
+                <li class="fNavType02__item"><a href="/casestudy/projectstory/index.html">奮闘の軌跡</a></li>
+              </ul>
+            </div><!-- /.footer__item -->
+          </div><!-- /.footer__column01 -->
+
+          <div class="footer__column02">
+            <div class="footer__item">
+              <ul class="fNavType01">
+                <li class="fNavType01__item"><a href="/corporate/index.html">企業情報</a></li>
+                <li class="fNavType01__item"><a href="/ir/index.html">投資家向け情報</a></li>
+                <li class="fNavType01__item"><a href="/recruit/index.html">採用情報</a></li>
+              </ul>
+            </div><!-- /.footer__item -->
+
+            <div class="footer__item">
+              <ul class="fNavType01">
+                <li class="fNavType01__item"><a href="/seminar/index.html">セミナー・イベント</a></li>
+                <li class="fNavType01__item"><a href="/press/index.html">ニュース・プレスリリース</a></li>
+                <li class="fNavType01__item"><a href="https://www.nssol.nssmc.com/cgi-bin/form/inquiry.pl">お問い合わせ</a></li>
+                <li class="fNavType01__item"><a href="/en/">English</a></li>
+              </ul>
+            </div><!-- /.footer__item -->
+          </div><!-- /.footer__column01 -->
+        </div><!-- /.footer__columns -->
+      </div><!-- /.footer__inner -->
+    </div><!-- /.footer__top -->
+
+    <div class="footer__bottom">
+      <div class="footer__inner">
+        <ul class="fNavType03">
+          <li class="fNavType03__item"><a href="/info/use.html"><span>サイトのご利用<br class="sp-only">にあたって</span></a></li>
+          <li class="fNavType03__item"><a href="/info/privacy.html"><span>プライバシーポリシー</span></a></li>
+          <li class="fNavType03__item"><a href="/info/legal.html"><span>商標・登録商標<br class="sp-only">について</span></a></li>
+          <li class="fNavType03__item"><a href="/koukoku/index.html"><span>電子公告</span></a></li>
+          <li class="fNavType03__item"><a href="/info/sitemap.html"><span>サイトマップ</span></a></li>
+          <li class="fNavType03__item"><a href="https://www.nssol.nssmc.com/cgi-bin/form/inquiry.pl"><span>お問い合わせ</span></a></li>
+        </ul>
+        <div class="footer__copyright"><small>Copyright &copy; 2001-2017 NS Solutions Corporation. All Rights Reserved.</small></div>
+      </div><!-- /.footer__inner -->
+    </div><!-- /.footer__bottom -->
+  </footer><!-- /.footer -->
+
+
+<script src="./js/home201611/vendor/jquery.ba-throttle-debounce.min.js"></script>
+<script src="./js/home201611/vendor/jquery.bxslider.js"></script>
+<script src="./js/home201611/functions.js"></script>
+
+</div><!-- /.wrap -->
+<script src="/urchin.js" type="text/javascript"></script>
+<script type="text/javascript">
+urchinTracker();
+</script>
+
+</body>
+</html>

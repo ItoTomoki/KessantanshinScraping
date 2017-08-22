@@ -1,0 +1,129 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ja"><head>
+
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="Content-Type" content="text/html; charset=shift_jis">
+
+
+<title>倉庫精練株式会社</title>
+
+<meta name="description" content=" ">
+<meta name="keywords" content="">
+
+
+
+<!-- Common -->
+<script type="text/javascript" src="common/js/js_lib.js"></script>
+<link rel="stylesheet" type="text/css" href="common/css/ctrl.css">
+<link rel="stylesheet" type="text/css" href="common/css/category/top.css">
+
+<!-- navigation_current -->
+<script language="javascript" src="common/navi/js/current_gnavi_01.js" type="text/javascript"></script>
+
+<!-- for print -->
+<link rel="stylesheet" type="text/css" href="common/css/print.css" media="print">
+</head>
+
+<body onLoad="initRollovers();">
+
+<div id="wrap">
+
+<!--  container ======================================================================================================= -->
+	<div id="container">
+		<a name="TOP" id="TOP"></a>
+
+	<!--  header ==================================================================== -->
+
+<!-- ここから -->
+<!-- for flash -->
+		<script language="javascript" src="top_swf/swf.js" type="text/javascript"></script>
+
+
+		<!-- no flash or noscript-->
+	<div id="flashcontent"><!-- #BeginLibraryItem "/Library/noflash.lbi" -->
+<div id="noflash">
+<p>このコンテンツをご覧になるには、最新のFlash Playerが必要です。<br>
+以下のリンクから最新のFlash Playerをインストールしてください。</p>
+<p><a href="http://www.adobe.com/go/getflashplayer_jp" target="_blank">Adobe Flash Player ダウンロードセンター </a></p>
+</div>
+<!-- #EndLibraryItem -->
+
+
+			<img src="img/img_header.jpg" alt="倉庫精練株式会社" border="0" usemap="#Map"><map name="Map">
+<area shape="rect" coords="29,90,174,125" href="company/index.html" alt="企業概要">
+<area shape="rect" coords="30,135,175,170" href="vision/index.html" alt="ヴィジョン">
+<area shape="rect" coords="30,180,175,215" href="products/index.html" alt="製品案内">
+<area shape="rect" coords="30,222,175,257" href="quality/index.html" alt="品質・環境安全">
+<area shape="rect" coords="30,267,175,302" href="recruit/index.html" alt="採用情報">
+<area shape="rect" coords="30,312,175,347" href="ir/index.html" alt="投資家の皆さまへ">
+</map>
+
+</div> 
+
+<!-- /no flash or noscript-->
+		<script type="text/javascript">
+		<!-- ここからスクリプトを見えなくする
+		var so = new SWFObject("top.swf", "mymovie", "760", "416", "8", "#ffffff"); 
+		so.write("flashcontent"); 
+		 // ここまで見えなくなる -->
+		</script>
+<!-- ここまで -->
+		
+
+		<!--  /header ==================================================================== -->
+
+		<!-- ==================== begin main ============================================================ -->
+		<div id="main">
+			<div style=" text-align:right; margin-bottom:7px;">
+				<a href="http://www.soko.co.jp/english/"><img src="img/btn_english.jpg" alt="ENGLISH" class="imgover"></a><a href="site/inquiry.html"><img src="img/btn_inquiry.jpg" alt="お問い合わせはこちら" class="imgover"></a>
+			</div>
+			
+			<div id="top_news_box">
+				  <p class="h1_img"><img src="img/t_news.gif" alt="新着ニュース"></p>
+				  <iframe src="topnews.html" frameborder="0" title="" id="ifrm_topnews"></iframe>					
+			</div>
+
+	
+			<div style="float:right;margin-right:4px; width:310px;">
+				<p style="margin-bottom:3px;"><a href="vision/index.html" class="mouseOver"><img src="img/btn_vision.jpg" alt="ヴィジョン"></a></p>
+				<p><a href="recruit/index.html" class="mouseOver"><img src="img/btn_recruit.jpg" alt="採用情報"></a></p>
+			</div>
+			
+
+<br style="clear:both;">
+
+			<p style="float:right; margin:5px;">
+				<a href="#TOP" onFocus="if(this.blur)this.blur()" onClick="ScrollWin.scroll('0'); return false;" id="pagetop"><img src="common/img/footer/btn_pagetop.gif" alt="このページの先頭へ" class="imgover"></a>
+			</p>
+			
+<br style="clear:both;">
+<!--  フッターcopyright /copyright  --><!-- #BeginLibraryItem "/Library/footer.lbi" -->
+<div id="footer">
+			<!--  フッターcopyright /copyright  -->
+			<div id="copy">
+<img src="common/img/footer/img_copyright.gif" alt="(C) Sokoseiren Co., Ltd All rights reserved. " style="float:left">
+				<div style="float:right"><a href="site/policy.html"><img src="common/img/footer/btn_policy.gif" alt="プライバシーポリシー" class="imgover"></a>　<a href="site/sitemap.html"><img src="common/img/footer/btn_sitemap.gif" alt="サイトマップ" class="imgover"></a></div>
+				<br style="clear:both;">
+			</div>
+		<!--  フッターメニュー /fmenu  -->
+</div><!-- #EndLibraryItem --><!--  フッターメニュー /fmenu  -->
+
+        <!-- end footer --><!-- #EndLibraryItem -->
+		
+	</div>
+		<!-- ==================== end main ============================================================ -->
+
+
+</div>
+	<!--  /container ============================================================================================ -->
+
+
+
+	</div>
+<!-- id="wrap" -->
+
+
+</body>
+</html>

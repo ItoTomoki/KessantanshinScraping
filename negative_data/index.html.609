@@ -1,0 +1,226 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+<title>アマガサ</title>
+<meta name="description" content="「JELLY BEANS」などノンレザー素材のシューズブランドをプロデュースする株式会社アマガサのオフィシャルサイトです。">
+<meta name="keywords" content="アマガサ,amagasa,ノンレザーシューズ,レディースシューズ,ジェリービーンズ,JELLYBEANS,パンプス,ブーツ,サンダル">
+<link rel="shortcut icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="180x180" href="/icon.png">
+<link rel="apple-touch-icon-precomposed" href="/icon.png">
+<link rel="shortcut icon" href="/icon.png">
+<link rel="icon" sizes="192x192" href="/icon.png">
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+<link rel="stylesheet" type="text/css" href="css/base.css">
+<link rel="stylesheet" type="text/css" href="css/common.css">
+<link rel="stylesheet" type="text/css" href="css/sp_common.css">
+<link rel="stylesheet" type="text/css" href="css/top.css">
+<link rel="stylesheet" type="text/css" href="css/sp_top.css">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/bxslider/jquery.bxslider.js"></script>
+
+<!--[if lt IE 9]>
+<script src="https://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+<!-- ga -->
+<script src="js/ga.js"></script>
+<!-- /ga -->
+
+<!-- E-IR Parts コーポレートトップ 1/2 -->
+<script type="text/javascript" src="ir/eir/eir.js" charset="utf-8"></script> 
+<script type="text/javascript">
+<!--
+var eirUrl = ('https:' == document.location.protocol ? 'https://ssl4' : 'http://v4') + '.eir-parts.net';
+if(document.location.protocol == 'https:' || document.location.protocol == 'http:'){
+	var eirPass = eirUrl + '/Custom/public/parts/' + eirCode + '/ja/parts_1604/';
+}else{
+	var eirPass = 'ir/ja/parts_1604/';
+}
+document.write(unescape("%3Clink rel='stylesheet' href='" + eirPass + "css/main.css' type='text/css'%3E%3C/link%3E"));
+document.write(unescape("%3Clink rel='alternate' href='" + eirUrl + "/V4Public/EIR/" + eirCode + "/ja/announcement/announcement_7.xml' type='application/rss+xml'%3E%3C/link%3E"));
+-->
+</script>
+<!-- /E-IR Parts コーポレートトップ 1/2 -->
+
+<script>
+$(document).ready(function(){
+    $('#kvSlider').bxSlider({
+    	auto: true,
+    	mode: 'fade',
+    	pause: 4000,
+	    speed: 4000,
+	    pager: false,
+		controls: false
+    });
+});
+</script>
+</head>
+
+<body>
+<div id="wrapper">
+<script type="text/javascript">header("./");</script>
+
+<article id="contents">
+	<section id="kv">
+		<div class="inner">
+			<ul id="kvSlider">
+				<li><img src="images/top/kv_01.png" alt=""></li>
+				<li><img src="images/top/kv_02.png" alt=""></li>
+				<li><img src="images/top/kv_03.png" alt=""></li>
+				<li><img src="images/top/kv_04.png" alt=""></li>
+			</ul>
+		</div>
+	</section>
+
+	<!--
+	<section id="topics" class="sp_inner">
+		<div class="inner">
+			<h2>Topics</h2>
+			<ul class="clearfix">
+				<li>
+					<a href="http://www.jelly-beansshop.com/shop/e/e00000020/" target="_brank">
+						<p class="img"><img src="images/top/topics/20170612_presale.png" alt=""></p>
+						<p class="tx">PRE SALE開催中！</p>
+					</a>
+				</li>
+				<li>
+					<a href="news/2017/0612.html">
+						<p class="img"><img src="images/top/topics/20170612_fine.png" alt=""></p>
+						<p class="tx">fine＋（ファインプラス）パンプス</p>
+					</a>
+				</li>
+				<li>
+					<a href="news/2017/0510.html">
+						<p class="img"><img src="images/top/topics/20170510.png" alt=""></p>
+						<p class="tx">Fit＋（フィットプラス）パンプス</p>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</section>
+	-->
+
+	<section id="topLink" class="sp_inner">
+		<div class="inner">
+			<ul class="clearfix">
+
+				
+				<!-- 展示会情報 
+				<li>
+					<a href="" target="_brank"><img src="images/top/toplink/ex.png" alt="展示会情報"></a>
+				</li>
+				-->
+				
+				<!-- 店舗一覧
+				<li>
+					<a href="http://www.jelly-beansshop.com/shop/pages/shoplist.aspx" target="_blank"><img src="images/top/toplink/shoplist.png" alt="店舗一覧"></a>
+				</li>
+				 -->
+
+				<!-- 採用情報 -->
+				<li>
+					<a href="recruit"><img src="images/top/toplink/recruit.png" alt="採用情報"></a>
+				</li>
+				
+
+				<!-- ブランド一覧 
+				<li>
+					<a href="brand"><img src="images/top/toplink/brand.png" alt="ブランド一覧"></a>
+				</li>
+				-->
+
+				<!-- オンラインショップ
+				<li>
+					<a href="http://www.jelly-beansshop.com/shop/" target="_blank"><img src="images/top/toplink/ec.png" alt="オンラインショップ"></a>
+				</li> -->
+
+				<!-- オーダーバレエシューズ＆パンプス -->
+				<li>
+					<a href="news/2017/0811.html"><img src="images/top/toplink/orderballet.png" alt="オーダーバレエシューズ＆パンプス"></a>
+				</li>
+				
+				<!--　出店情報 -->
+				<li>
+					<a href="news/2017/0801.html"><img src="images/top/toplink/newshop.png" alt="出店情報"></a>
+				</li>
+				
+				<!-- ジネットスパ 
+				<li>
+					<a href="http://www.ginette.jp/" target="_blank"><img src="images/top/toplink/ginettespa.png" alt="ジネットスパ"></a>
+				</li>
+				-->
+			</ul>
+		</div>
+	</section>
+
+	<div class="inner clearfix">
+		<div class="sp_inner">
+			<section id="news">
+				<h2>News</h2>
+				<!--　icon				
+				<span class="newsIcn exhibition">展示会</span>
+				<span class="newsIcn familysale">FAMILY SALE</span>
+				<span class="newsIcn newshop">新店OPEN</span>
+				<span class="newsIcn other">その他</span>
+				-->
+				<a href="news/2017/0821.html">
+					<dl class="clearfix">
+						<dt>2017/08/21<span class="newsIcn exhibition">展示会</span></dt>
+						<dd>9月展示会のお知らせ</dd>
+					</dl>
+				</a>
+				<a href="news/2017/0811.html">
+					<dl class="clearfix">
+						<dt>2017/08/11<span class="newsIcn other">その他</span></dt>
+						<dd>オーダーバレエシューズ＆パンプス開催のお知らせ！</dd>
+					</dl>
+				</a>
+				<a href="news/2017/0801.html">
+					<dl class="clearfix">
+						<dt>2017/08/01<span class="newsIcn newshop">新店OPEN</span></dt>
+						<dd>新店OPENのお知らせ！</dd>
+					</dl>
+				</a>
+				<a href="news/2017/0612.html">
+					<dl class="clearfix">
+						<dt>2017/06/12<span class="newsIcn other">その他</span></dt>
+						<dd>fine＋（ファインプラス）パンプス</dd>
+					</dl>
+				</a>
+
+
+				<p class="more"><a href="news/">more</a></p>
+			</section>
+
+			<section id="ir">
+				<h2>IR</h2>
+				<!-- E-IR Parts コーポレートトップ 2/2 -->
+				<div id="corptop">
+				<div id="yearList"></div>
+				<div id="divDataArea"></div>
+				<script type="text/javascript">
+				<!--	
+				document.write(unescape("%3Cscript src='" + eirPass + "corptop.js' charset='utf-8' type='text/javascript'%3E%3C/script%3E"));
+				-->
+				</script>
+				<script type="text/javascript">
+				<!--	
+				if(typeof org_data == 'undefined'){
+					document.write(message2)
+				}
+				-->
+				</script>
+				</div>
+				<!-- /E-IR Parts コーポレートトップ 2/2 -->
+				<p class="more"><a href="ir/news/">more</a></p>
+		</section>
+		</div>
+	</div>
+</article>
+	
+<script type="text/javascript">footer("./");</script>
+</div>
+</body>
+</html>

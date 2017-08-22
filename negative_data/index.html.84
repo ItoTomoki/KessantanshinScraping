@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>松井建設株式会社</title>
+<meta name="keywords" content="">
+<meta name="Description" content="">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="http://www.matsui-ken.co.jp/module/wp-content/themes/matsui_k/img/favicon.png">
+<link rel="stylesheet" type="text/css" media="all" href="http://www.matsui-ken.co.jp/module/wp-content/themes/matsui_k/style.css">
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
+<script type="text/javascript" src="http://www.matsui-ken.co.jp/module/wp-content/themes/matsui_k/js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="http://www.matsui-ken.co.jp/module/wp-content/themes/matsui_k/js/code.js"></script>
+<script type="text/javascript" src="http://www.matsui-ken.co.jp/module/wp-content/themes/matsui_k/js/jquery.slicknav.min.js"></script>
+<!--ポップアップ-->
+<link href="http://www.matsui-ken.co.jp/module/wp-content/themes/matsui_k/css/colorbox.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="http://www.matsui-ken.co.jp/module/wp-content/themes/matsui_k/js/jquery.colorbox.js"></script>
+<script>
+$(document).ready(function(){
+	$(".iframe").colorbox({
+		iframe:true,
+		width:"70%",
+		height:"80%"
+	});
+});
+</script>
+
+ <script type="text/javascript" src="http://www.matsui-ken.co.jp/module/wp-content/themes/matsui_k/js/jquery.flexslider-min.js"></script>
+ <script type="text/javascript">
+  jQuery(document).ready(function(){
+	$('#slider').flexslider({
+		slideshowSpeed: 7000,
+		animation: "fade",
+		animationSpeed: 1500,
+		controlNav: false,
+		directionNav: false,
+		animationLoop: true,
+		pauseOnAction: false,
+		pauseOnHover: true,
+	});
+  });
+ </script>
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel='stylesheet' id='wp-pagenavi-css'  href='http://www.matsui-ken.co.jp/module/wp-content/plugins/wp-pagenavi/pagenavi-css.css?ver=2.70' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.matsui-ken.co.jp/module/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://www.matsui-ken.co.jp/module/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='https://www.matsui-ken.co.jp/wp-json/' />
+		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+		<style type="text/css" media="all">
+/* <![CDATA[ */
+@import url("http://www.matsui-ken.co.jp/module/wp-content/plugins/wp-table-reloaded/css/plugin.css?ver=1.9.4");
+@import url("http://www.matsui-ken.co.jp/module/wp-content/plugins/wp-table-reloaded/css/datatables.css?ver=1.9.4");
+/* ]]> */
+</style></head>
+
+
+
+<body id="home">
+
+<div id="header">
+  <div class="wrap">
+    <h1><a href="/"><img src="http://www.matsui-ken.co.jp/module/wp-content/themes/matsui_k/img/logo.png" width="385" alt=""></a></h1>
+<div class="hed430"><img src="http://www.matsui-ken.co.jp/module/wp-content/themes/matsui_k/img/bn_430.png" alt=""></div>
+    <!-- <ul>
+      <li><a href="/sitemaps">サイトマップ</a></li>
+      <li><a href="/call/inquiry">お問い合わせ</a></li>
+    </ul> -->
+  </div>
+</div>
+<div id="gnavi">
+  <div class="wrap">
+    <ul class="navi">
+      <li id="nAbout"><a href="/about">会社情報</a>
+        <!-- <ul>
+          <li><a href="/about/greeting">ごあいさつ</a></li>
+          <li><a href="/about/summary">会社概要</a></li>
+          <li><a href="/about/philosophy">企業理念体系</a></li>
+          <li><a href="/about/compliance">企業倫理</a></li>
+          <li><a href="/about/csr">ＣＳＲの取組み</a></li>
+          <li><a href="/about/history">あゆみ(沿革)</a></li>
+          <li><a href="/about/staff">役員一覧</a></li>
+          <li><a href="/about/office">事業所</a></li>
+          <li><a href="/about/group">グループ企業一覧</a></li>
+        </ul> -->
+      </li>
+      <li id="nResults"><a href="/results">施工実績</a>
+       <!-- <ul>
+          <li><a href="/results/temple_shrine">寺社・仏閣・文化財</a></li>
+          <li><a href="/results/govemment">官公庁舎</a></li>
+          <li><a href="/results/office_buillding">オフィスビル</a></li>
+          <li><a href="/results/culture">教育・文化・レジャー</a></li>
+          <li><a href="/results/business">流通・生産</a></li>
+          <li><a href="/results/welfare">医療・福祉・厚生</a></li>
+          <li><a href="/results/residence">住空間</a></li>
+          <li><a href="/results/stay">宿泊</a></li>
+          <li><a href="/results/renewal">リニューアル</a></li>
+          <li><a href="/results/environment">環境整備</a></li>
+        </ul> -->
+      </li>
+      <li id="nTec"><a href="/tech">技術情報</a>
+       <!-- <ul>
+          <li><a href="/tech/earthquake">免震工法</a></li>
+          <li><a href="/tech/repair">耐震補強工法</a></li>
+          <li><a href="/tech/damping">木造多重塔の制震構造</a></li>
+          <li><a href="/tech/capten_pile">キャプテンパイル工法</a></li>
+          <li><a href="/tech/haccp">HACCP</a></li>
+        </ul>
+      </li> -->
+      <li id="nIr"><a href="/investor">投資家の皆様へ</a>
+       <!-- <ul>
+          <li><a href="/category/press">ＩＲ情報</a></li>
+          <li><a href="/investor/midterm">中期経営計画</a></li>
+          <li><a href="/investor/tanshin">決算短信</a></li>
+          <li><a href="/investor/financial_report">有価証券報告書</a></li>
+          <li><a href="/investor/highlight">業績ハイライト</a></li>
+          <li><a href="/investor/factbook">ファクトブック</a></li>
+          <li><a href="/investor/ircalendar">IRカレンダー</a></li>
+          <li><a href="/investor/meeting">株主総会資料</a></li>
+          <li><a href="/investor/stock">株式情報</a></li>
+          <li><a href="/investor/prices">株価情報</a></li>
+          <li><a href="/investor/guidance">株式事務のご案内</a></li>
+          <li><a href="/investor/koukoku">電子公告</a></li>
+        </ul> -->
+      </li>
+      <li id="nCareers"><a href="/recruiting">採用情報</a>
+       <!-- <ul>
+          <li><a href="">新卒募集情報</a></li>
+          <li><a href="/recruiting/career">中途採用情報</a></li>
+        </ul> -->
+      </li>
+      <li id="nCustomer"><a href="/call">お客様相談窓口</a>
+       <!-- <ul>
+          <li><a href="/call/inquiry">お問い合わせ</a></li>
+          <li><a href="/call/afterservice">アフターサービス連絡先</a></li>
+        </ul> -->
+      </li>
+    </ul>
+<!--
+    <div><ul><li class="page_item page-item-546"><a href="https://www.matsui-ken.co.jp/maintenance">メンテナンス相談</a></li><li class="page_item page-item-516"><a href="https://www.matsui-ken.co.jp/reform_consult">リフォーム相談</a></li><li class="page_item page-item-2050"><a href="https://www.matsui-ken.co.jp/map19">中国営業所アクセスマップ</a></li><li class="page_item page-item-2054"><a href="https://www.matsui-ken.co.jp/map20">九州支店アクセスマップ</a></li><li class="page_item page-item-2046"><a href="https://www.matsui-ken.co.jp/map18">京都営業所アクセスマップ</a></li><li class="page_item page-item-2025"><a href="https://www.matsui-ken.co.jp/map13">北信越営業所アクセスマップ</a></li><li class="page_item page-item-2008"><a href="https://www.matsui-ken.co.jp/map8">北海道出張所アクセスマップ</a></li><li class="page_item page-item-2022"><a href="https://www.matsui-ken.co.jp/map12">北陸支店アクセスマップ</a></li><li class="page_item page-item-96"><a href="https://www.matsui-ken.co.jp/partner">協力会社の皆様へ</a></li><li class="page_item page-item-2033"><a href="https://www.matsui-ken.co.jp/map15">南砺出張所アクセスマップ</a></li><li class="page_item page-item-2038"><a href="https://www.matsui-ken.co.jp/map16">名古屋支店アクセスマップ</a></li><li class="page_item page-item-2042"><a href="https://www.matsui-ken.co.jp/map17">大阪支店アクセスマップ</a></li><li class="page_item page-item-2030"><a href="https://www.matsui-ken.co.jp/map14">富山営業所アクセスマップ</a></li><li class="page_item page-item-2012"><a href="https://www.matsui-ken.co.jp/map9">東北支店アクセスマップ</a></li><li class="page_item page-item-2005"><a href="https://www.matsui-ken.co.jp/map7">横浜営業所アクセスマップ</a></li><li class="page_item page-item-2061"><a href="https://www.matsui-ken.co.jp/map22">熊本営業所アクセスマップ</a></li><li class="page_item page-item-2015"><a href="https://www.matsui-ken.co.jp/map10">盛岡営業所アクセスマップ</a></li><li class="page_item page-item-2019"><a href="https://www.matsui-ken.co.jp/map11">福島営業所アクセスマップ</a></li><li class="page_item page-item-533"><a href="https://www.matsui-ken.co.jp/seismic">耐震相談</a></li><li class="page_item page-item-2057"><a href="https://www.matsui-ken.co.jp/map21">長崎営業所アクセスマップ</a></li><li class="page_item page-item-59"><a href="https://www.matsui-ken.co.jp/map2">本社アクセスマップ</a></li><li class="page_item page-item-61"><a href="https://www.matsui-ken.co.jp/map3">東京支店アクセスマップ</a></li><li class="page_item page-item-64"><a href="https://www.matsui-ken.co.jp/map4">関東営業所アクセスマップ</a></li><li class="page_item page-item-67"><a href="https://www.matsui-ken.co.jp/map5">東関東営業所アクセスマップ</a></li><li class="page_item page-item-5 page_item_has_children"><a href="https://www.matsui-ken.co.jp/about">会社情報</a><ul class='children'><li class="page_item page-item-8"><a href="https://www.matsui-ken.co.jp/about/greeting">社長挨拶</a></li><li class="page_item page-item-16"><a href="https://www.matsui-ken.co.jp/about/summary">会社概要</a></li><li class="page_item page-item-133"><a href="https://www.matsui-ken.co.jp/about/philosophy">企業理念体系</a></li><li class="page_item page-item-25"><a href="https://www.matsui-ken.co.jp/about/compliance">企業倫理</a></li><li class="page_item page-item-22 page_item_has_children"><a href="https://www.matsui-ken.co.jp/about/csr">CSRへの取組み</a><ul class='children'><li class="page_item page-item-836"><a href="https://www.matsui-ken.co.jp/about/csr/bcp">事業継続計画</a></li><li class="page_item page-item-46"><a href="https://www.matsui-ken.co.jp/about/csr/solar">太陽光発電事業の取組み</a></li><li class="page_item page-item-846"><a href="https://www.matsui-ken.co.jp/about/csr/eco">環境への取組み</a></li><li class="page_item page-item-672"><a href="https://www.matsui-ken.co.jp/about/csr/contribution">社会貢献活動</a></li><li class="page_item page-item-33"><a href="https://www.matsui-ken.co.jp/about/csr/action">一般事業主行動計画</a></li><li class="page_item page-item-42"><a href="https://www.matsui-ken.co.jp/about/csr/quality">品質への取り組み</a></li></ul></li><li class="page_item page-item-50"><a href="https://www.matsui-ken.co.jp/about/history">あゆみ（沿革）</a></li><li class="page_item page-item-54"><a href="https://www.matsui-ken.co.jp/about/staff">役員一覧</a></li><li class="page_item page-item-57"><a href="https://www.matsui-ken.co.jp/about/office">事業所一覧</a></li><li class="page_item page-item-71 page_item_has_children"><a href="https://www.matsui-ken.co.jp/about/group">グループ企業</a><ul class='children'><li class="page_item page-item-508"><a href="https://www.matsui-ken.co.jp/about/group/list">グループ企業一覧</a></li></ul></li></ul></li><li class="page_item page-item-69"><a href="https://www.matsui-ken.co.jp/map6">多摩営業所アクセスマップ</a></li><li class="page_item page-item-1106 page_item_has_children"><a href="https://www.matsui-ken.co.jp/results">施工実績</a><ul class='children'><li class="page_item page-item-87"><a href="https://www.matsui-ken.co.jp/results/temple_shrine">神社・仏閣・文化財</a></li><li class="page_item page-item-1072"><a href="https://www.matsui-ken.co.jp/results/govemment">官公庁舎</a></li><li class="page_item page-item-1074"><a href="https://www.matsui-ken.co.jp/results/office_buillding">オフィスビル</a></li><li class="page_item page-item-1076"><a href="https://www.matsui-ken.co.jp/results/culture">教育・文化</a></li><li class="page_item page-item-1078"><a href="https://www.matsui-ken.co.jp/results/business">商業・流通・生産</a></li><li class="page_item page-item-1082"><a href="https://www.matsui-ken.co.jp/results/welfare">医療・福祉・厚生</a></li><li class="page_item page-item-1086"><a href="https://www.matsui-ken.co.jp/results/residence">住空間</a></li><li class="page_item page-item-1092"><a href="https://www.matsui-ken.co.jp/results/environment">環境整備</a></li></ul></li><li class="page_item page-item-73 page_item_has_children"><a href="https://www.matsui-ken.co.jp/tech">技術情報</a><ul class='children'><li class="page_item page-item-75"><a href="https://www.matsui-ken.co.jp/tech/earthquake">免震・制振の技術</a></li><li class="page_item page-item-77"><a href="https://www.matsui-ken.co.jp/tech/repair">耐震の技術</a></li><li class="page_item page-item-80"><a href="https://www.matsui-ken.co.jp/tech/damping">多重塔の技術</a></li><li class="page_item page-item-82"><a href="https://www.matsui-ken.co.jp/tech/capten_pile">キャプテンパイル工法</a></li></ul></li><li class="page_item page-item-109 page_item_has_children"><a href="https://www.matsui-ken.co.jp/investor">投資家の皆様へ</a><ul class='children'><li class="page_item page-item-425"><a href="https://www.matsui-ken.co.jp/investor/midterm">中期経営計画</a></li><li class="page_item page-item-115"><a href="https://www.matsui-ken.co.jp/investor/tanshin">決算短信</a></li><li class="page_item page-item-1037"><a href="https://www.matsui-ken.co.jp/investor/financial_report">有価証券報告書</a></li><li class="page_item page-item-556"><a href="https://www.matsui-ken.co.jp/investor/highlight">業績ハイライト</a></li><li class="page_item page-item-559"><a href="https://www.matsui-ken.co.jp/investor/ircalendar">IRカレンダー</a></li><li class="page_item page-item-565"><a href="https://www.matsui-ken.co.jp/investor/meeting">株主総会資料</a></li><li class="page_item page-item-574"><a href="https://www.matsui-ken.co.jp/investor/stock">株式情報</a></li><li class="page_item page-item-1029"><a href="https://www.matsui-ken.co.jp/investor/prices">株価情報</a></li><li class="page_item page-item-626"><a href="https://www.matsui-ken.co.jp/investor/guidance">株式事務のご案内</a></li><li class="page_item page-item-1097"><a href="https://www.matsui-ken.co.jp/investor/factbook">ファクトブック</a></li><li class="page_item page-item-113"><a href="https://www.matsui-ken.co.jp/investor/koukoku">電子公告</a></li></ul></li><li class="page_item page-item-105 page_item_has_children"><a href="https://www.matsui-ken.co.jp/recruiting">採用情報</a><ul class='children'><li class="page_item page-item-107"><a href="https://www.matsui-ken.co.jp/recruiting/career">キャリア採用情報</a></li></ul></li><li class="page_item page-item-99 page_item_has_children"><a href="https://www.matsui-ken.co.jp/call">お客様相談窓口</a><ul class='children'><li class="page_item page-item-101"><a href="https://www.matsui-ken.co.jp/call/inquiry">お問い合わせ</a></li><li class="page_item page-item-103"><a href="https://www.matsui-ken.co.jp/call/afterservice">アフターサービス</a></li></ul></li><li class="page_item page-item-656"><a href="https://www.matsui-ken.co.jp/%e5%b0%82%e9%96%80%e5%b7%a5%e7%a8%ae%e3%81%ae%e4%bb%95%e4%ba%8b%e3%81%ab%e8%88%88%e5%91%b3%e3%81%ae%e3%81%82%e3%82%8b%e6%96%b9">専門工種の仕事に興味のある方</a></li><li class="page_item page-item-92"><a href="https://www.matsui-ken.co.jp/termsofuse">本サイトご利用について</a></li><li class="page_item page-item-1095"><a href="https://www.matsui-ken.co.jp/privacy">個人情報保護方針</a></li><li class="page_item page-item-121"><a href="https://www.matsui-ken.co.jp/link">リンク一覧</a></li><li class="page_item page-item-12"><a href="https://www.matsui-ken.co.jp/sitemaps">サイトマップ</a></li><li class="page_item page-item-20"><a href="https://www.matsui-ken.co.jp/movie">紹介動画</a></li></ul></div>
+-->
+
+  </div>
+</div>
+
+<div id="mainImg">
+  <div id="slider" class="flexslider wrap">
+    <ul class="slides">
+      <!-- <li><img src="http://www.matsui-ken.co.jp/module/wp-content/themes/matsui_k/img/slide01.png" alt=""></li>
+      <li><img src="http://www.matsui-ken.co.jp/module/wp-content/themes/matsui_k/img/slide02.png" alt=""></li> -->
+<li><img src="http://www.matsui-ken.co.jp/module/wp-content/themes/matsui_k/img/slid01.jpg" alt=""></li>
+<li><img src="http://www.matsui-ken.co.jp/module/wp-content/themes/matsui_k/img/slid02.jpg" alt=""></li>
+<li><img src="http://www.matsui-ken.co.jp/module/wp-content/themes/matsui_k/img/slid03.jpg" alt=""></li>
+<li><img src="http://www.matsui-ken.co.jp/module/wp-content/themes/matsui_k/img/slid04.jpg" alt=""></li>
+
+    </ul>
+  </div>
+</div>
+<div class="aniv">
+<div class="wrap">
+  <h2><img src="http://www.matsui-ken.co.jp/module/wp-content/themes/matsui_k/img/omimai.png" alt=""></h2>
+</div>
+</div>
+<div class="wrap">
+  <div id="content">
+
+    <h3>紹介動画</h3>
+    <ul id="movieList" class="mB40">
+      <li>
+        <div class="modal"><input id="modal-trigger" type="checkbox"><label for="modal-trigger"><img src="http://www.matsui-ken.co.jp/module/wp-content/themes/matsui_k/img/img_mvtop2.jpg" alt=""></label><div class="modal-overlay">
+<div class="modal-wrap">
+<label for="modal-trigger">✖</label><br />
+<video loop muted controls poster="/module/wp-content/themes/matsui_k/img/mb_thum01.jpg" preload="none" onclick="this.play();" width="510" height="383">
+<source src="/module/wp-content/themes/matsui_k/movie/movie03.mp4">
+<source src="/module/wp-content/themes/matsui_k/movie/movie03.webm">
+<p>動画を再生するには、videoタグをサポートしたブラウザが必要です。</p>
+</video>
+</div>
+</div>
+</div>
+<p><span>松井の伝統と誇り</span>3分15秒</p>
+      <li>
+        <div class="modal"><input id="modal-trigger2" type="checkbox"><label for="modal-trigger2"><img src="http://www.matsui-ken.co.jp/module/wp-content/themes/matsui_k/img/img_mvtop1.jpg" alt=""></label><div class="modal-overlay">
+<div class="modal-wrap">
+<label for="modal-trigger2">✖</label><br />
+<video loop muted controls poster="/module/wp-content/themes/matsui_k/img/mb_thum02.jpg" preload="none" onclick="this.play();" width="510" height="383">
+<source src="/module/wp-content/themes/matsui_k/movie/movie02.mp4">
+<p>動画を再生するには、videoタグをサポートしたブラウザが必要です。</p>
+</video>
+</div>
+</div>
+</div>
+<p><span>社寺建築の正統を今に継ぐ</span>7分38秒</p>
+      </li>
+    </ul>
+
+
+
+    <h3>新着情報<a href="/news">&rsaquo; 一覧</a></h3>
+
+<ul id="newsList" class="mB50">
+<li>
+<p class="newsDate">2017年08月08日</p>
+<p class="newsTxt">
+
+<a href="https://www.matsui-ken.co.jp/module/wp-content/uploads/2017/08/平成30年3月期　第1四半期決算短信　全文-1.pdf" target="_blank" class="pdf">平成30年3月期 第1四半期決算短信を更新しました。</a>
+
+
+
+</li>
+
+
+<li>
+<p class="newsDate">2017年07月03日</p>
+<p class="newsTxt">
+
+<a href="https://www.matsui-ken.co.jp/module/wp-content/uploads/2017/07/第88期-臨時報告書-1.pdf" target="_blank" class="pdf">第88期 臨時報告書</a>
+
+
+
+</li>
+
+
+<li>
+<p class="newsDate">2017年06月30日</p>
+<p class="newsTxt">
+
+<a href="https://www.matsui-ken.co.jp/module/wp-content/uploads/2017/07/第88期-有価証券報告書.pdf" target="_blank" class="pdf">平成29年3月期 有価証券報告書を更新いたしました。</a>
+
+
+
+</li>
+
+
+<li>
+<p class="newsDate">2017年06月29日</p>
+<p class="newsTxt">
+
+<a href="https://www.matsui-ken.co.jp/module/wp-content/uploads/2017/06/第88期-定時株主総会-決議ご通知.pdf" target="_blank" class="pdf">第88期 定時株主総会 決議ご通知</a>
+
+
+
+</li>
+
+
+<li>
+<p class="newsDate">2017年06月06日</p>
+<p class="newsTxt">
+
+<a href="https://www.matsui-ken.co.jp/module/wp-content/uploads/2017/06/第８８期定時株主総会招集ご通知に際してのインターネット開示事項-1.pdf" target="_blank" class="pdf">第88期定時株主総会招集ご通知に際してのインターネット開示事項</a>
+
+
+
+</li>
+
+
+</ul>
+
+
+   <!--     <img width="660" height="140" src="https://www.matsui-ken.co.jp/module/wp-content/uploads/2016/06/omimai-1.jpg" class="attachment-emergency_thumbnail size-emergency_thumbnail wp-post-image" alt="omimai" srcset="https://www.matsui-ken.co.jp/module/wp-content/uploads/2016/06/omimai-1.jpg 660w, https://www.matsui-ken.co.jp/module/wp-content/uploads/2016/06/omimai-1-300x64.jpg 300w" sizes="(max-width: 660px) 100vw, 660px" />         -->
+
+  </div>
+  <div id="sidebar">
+<!-- 親ページ株主の時表示 -->
+
+
+<!-- 親ページ会社概要の時表示サイドバー -->
+
+<!-- TOPの時表示サイドバー -->
+    <ul class="banList">
+      <li><a href="/about/csr">CSRへの取組み</a></li>
+      <li><a href="/press">IRニュース一覧</a></li>
+      <li><a href="/partner/">協力会社の皆様へ</a></li>
+      <li class="zaidan"><a href="https://www.matsui-ken.co.jp/zaidan/kakuhei-kinen/">公益財団法人<br>
+        松井角平記念財団</a></li>
+    </ul>
+
+
+  </div></div>
+<div id="fTxt">
+  <div class="wrap">
+    <p>1586年(天正14年)の創業以来、松井建設株式会社の使命となっているのが社寺建築です。日本の風土に根付いた伝統的な文化を新しいかたちで後世に伝えたい。そうした理念のもと、歴史と文化を支えてきた松井建設株式会社の技術は、時代のニーズにお応えしながら新しい歴史をつくりあげています。「社寺の松井」は、これからも歴史と伝統を支えてきた信頼と技術で、社寺建築界をリードしていきます。</p>
+  </div>
+</div>
+
+<div id="footer">
+  <div class="wrap">
+    <ul>
+      <li class="category">会社情報</li>
+      <li><a href="/about/greeting">社長挨拶</a></li>
+      <li><a href="/about/summary">会社概要</a></li>
+      <li><a href="/about/philosophy">企業理念体系</a></li>
+      <li><a href="/about/compliance">企業倫理</a></li>
+      <li><a href="/about/csr">CSRの取組み</a></li>
+      <li><a href="/about/history">あゆみ(沿革)</a></li>
+      <li><a href="/about/staff">役員一覧</a></li>
+      <li><a href="/about/office">事業所</a></li>
+      <li class="mB20"><a href="/about/group">グループ企業一覧</a></li>
+      <li class="mB20"><a href="/partner">協力会社の皆様へ</a></li>
+      <li><a href="/call/inquiry">お問い合わせ</a></li>
+      <li><a href="/privacy">個人情報保護方針</a></li>
+      <li><a href="http://www.matsui-ken.co.jp/module/wp-content/themes/matsui_k/pdf/security.pdf" target="_blank">情報セキュリティ基本方針</a></li>
+      <li><a href="/termsofuse">本サイトご利用について</a></li>
+      <!-- <li><a href="/sitemaps">サイトマップ</a></li> -->
+    </ul>
+    <ul>
+      <li class="category">施工実績</li>
+      <li><a href="/type/shrine">神社・仏閣・文化財</a></li>
+      <li><a href="/type/government">官公庁舎</a></li>
+      <li><a href="/type/office">オフィスビル</a></li>
+      <li><a href="/type/culture">教育・文化</a></li>
+      <li><a href="/type/distribution">商業・流通・生産</a></li>
+      <li><a href="/type/welfare">医療・福祉・厚生</a></li>
+      <li><a href="/type/space">住空間</a></li>
+      <!-- <li><a href="/results/stay">宿泊</a></li>
+      <li><a href="/results/renewal">リニューアル</a></li> -->
+      <li><a href="/type/environment">環境整備</a></li>
+    </ul>
+    <ul>
+      <li class="category">技術情報</li>
+      <li><a href="/tech/earthquake">免震・制振の技術</a></li>
+      <li><a href="/tech/repair">耐震の技術</a></li>
+      <li><a href="/tech/damping">多重塔の技術</a></li>
+      <li><a href="/tech/capten_pile">キャプテンパイル工法</a></li>
+      <!-- <li class="mB20"><a href="/tech/haccp">HACCP</a></li> -->
+    </ul>
+    <ul>
+      <li class="category">投資家の皆様へ</li>
+      <li><a href="/press">IR情報</a></li>
+      <li><a href="/investor/midterm">中期経営計画</a></li>
+      <li><a href="/investor/tanshin">決算短信</a></li>
+      <li><a href="/investor/financial_report">有価証券報告書</a></li>
+      <li><a href="/investor/highlight">業績ハイライト</a></li>
+      <!-- <li><a href="/investor/factbook">ファクトブック</a></li> -->
+      <li><a href="/investor/ircalendar">IRカレンダー</a></li>
+      <li><a href="/investor/meeting">株主総会資料</a></li>
+      <li><a href="/investor/stock">株式情報</a></li>
+      <li><a href="/investor/prices">株価情報</a></li>
+      <li><a href="/investor/guidance">株式事務のご案内</a></li>
+      <li class="mB20"><a href="/investor/koukoku">電子公告</a></li>
+      <li class="category">採用情報</li>
+      <li><a href="http://www.matsui-ken.co.jp/recruit/shinsotsu/">新卒採用情報</a></li>
+      <li><a href="/recruiting/career">キャリア採用情報</a></li>
+    </ul>
+  </div>
+</div>
+<div id="copy">
+  <div class="wrap">
+    <p>Copyright &copy; Matsui Kensetsu K.K. all rights reserved.</p>
+  </div>
+</div>
+<div id="pageTop"><a href="#header">PAGE TOP<br>
+  ▲</a></div>
+<script type='text/javascript' src='http://www.matsui-ken.co.jp/module/wp-includes/js/wp-embed.min.js?ver=4.6.1'></script>
+
+<script type="text/javascript">
+$(function(){
+    $('ul.jissekibox li:nth-child(3n),ul.jissekibox02 li:nth-child(3n)').each(function(){
+        $(this).css({marginRight: '0'});
+    })
+});
+</script>
+</body>
+</html>

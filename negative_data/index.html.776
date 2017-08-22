@@ -1,0 +1,691 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">     
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS" />
+<meta http-equiv="imagetoolbar" content="no" />
+<meta name="robots" content="index,follow" />
+<meta name="description" content="サカイオーベックス（株）のホームページ。繊維品染色機能加工、アパレル製品製造販売、日用雑貨品製造販売、会社プロフィール、新卒、中途採用情報を提供" />
+<meta name="Keywords" content="機能性繊維,繊維,染色,アパレル,炭素繊維,高視認性安全服,プリプレグ,魚礁,水産資材,消臭剤,日用雑貨,製造販売,機械機具,自動制御装置,福井県,上場企業,求人,新卒採用" />
+<title>サカイオーベックス株式会社</title>
+<link href="css/common.css" rel="stylesheet" type="text/css" />
+<link href="css/details.css" rel="stylesheet" type="text/css" />
+<link href="css/index.css" rel="stylesheet" type="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="js/jquery.cross-slide.min.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/footerFixed.js"></script>
+<script type="text/javascript" src="js/navi.js"></script>
+<script type="text/javascript" src="js/shlayers.js"></script>
+<script type="text/javascript">
+$(function() {
+$('#mainvisual').crossSlide({
+sleep: 1, //in sec
+fade: 0.5 //in sec
+},
+[
+{ src: 'index/main01.jpg'},
+{ src: 'index/main02.jpg'},
+{ src: 'index/main03.jpg'},
+{ src: 'index/main04.jpg'},
+{ src: 'index/main05.jpg'},
+{ src: 'index/main06.jpg'}
+]);
+});
+</script>
+</head>
+<body id="index">
+<div id="center">
+	<div id="contents" class="clearfix">
+		<script language="JavaScript" type="text/JavaScript"><!--
+			posiSet(0);
+			mainMenu();
+		//--></script>
+		<div id="mainvisual"></div>
+		<img src="index/shadow.gif" width="830" height="30" alt=""/>
+		<div id="btn" class="clearfix">
+			<a href="functional/index.html" target="_blank">
+				<img src="index/btn01_off.jpg" width="252" height="88" alt="機能性加工" />
+			</a>
+			<a href="square/carbon/index.html" target="_blank">
+				<img src="index/btn02_off.jpg" width="252" height="88" alt="炭素繊維" />
+			</a>
+			<a href="ss/index.html" target="_blank">
+				<img src="index/btn03_off.jpg" width="252" height="88" alt="水産増殖・環境資材" />
+			</a>
+		</div>
+		<div id="info">
+			<img src="index/info_bar.gif" width="520" height="30" alt="Information" />
+			<div id="space" class="ssn">
+				<!-- ここから -->
+				<div id="box" class="clearfix">
+					<img src="index/info_arrow.gif" id="arrow">
+					<div id="date">2017年 8月10日</div>
+					<div id="txt">
+						<a href="ir/3001_1-4achievements.pdf" target="_blank">
+							<img src="index/info_pdf.gif" width="22" height="22" id="l1" alt="" />
+							H30.3月期 第１四半期決算（連結）
+						</a>
+					</div>
+				</div>
+				<!-- ここから -->
+				<div id="box" class="clearfix">
+					<img src="index/info_arrow.gif" id="arrow">
+					<div id="date">2017年 8月 1日</div>
+					<div id="txt">
+						<a href="ir/3012_own.pdf" target="_blank">
+							<img src="index/info_pdf.gif" width="22" height="22" id="l1" alt="" />
+							自己株式の取得状況に関するお知らせ
+						</a>
+					</div>
+				</div>
+				<!-- ここから -->
+				<div id="box" class="clearfix">
+					<img src="index/info_arrow.gif" id="arrow">
+					<div id="date">2017年 7月28日</div>
+					<div id="txt">
+						<a href="ir/3011_stockoption.pdf" target="_blank">
+							<img src="index/info_pdf.gif" width="22" height="22" id="l1" alt="" />
+							ストックオプション（新株予約権）の発行内容確定に関するお知らせ
+						</a>
+					</div>
+				</div>
+				<!-- ここから -->
+				<!-- <div id="box" class="clearfix">
+					<img src="index/info_arrow.gif" id="arrow">
+					<div id="date">2017年 7月28日</div>
+					<div id="txt">
+						<a href="topics/topics170728.html" target="_blank">
+							グループ会社 イタバシニットと共同企画したODM展示会<br />開催報告
+						</a>
+					</div>
+				</div> -->
+				<!-- ここから -->
+				<div id="box" class="clearfix">
+					<img src="index/info_arrow.gif" id="arrow">
+					<div id="date">2017年 6月30日</div>
+					<div id="txt">
+						<a href="ir/junbikin.pdf" target="_blank">
+							<img src="index/info_pdf.gif" width="22" height="22" id="l1" alt="" />
+							準備金の額の減少公告
+						</a>
+					</div>
+				</div>
+				<!-- ここから -->
+				<div id="box" class="clearfix">
+					<img src="index/info_arrow.gif" id="arrow">
+					<div id="date">2017年 6月23日</div>
+					<div id="txt">
+						<div class="clearfix">
+							<a href="ir/2911_stockoption.pdf" target="_blank">
+								<img src="index/info_pdf.gif" width="22" height="22" id="l1_02" alt="" />
+								ストックオプション（新株予約権）の<br>割当に関するお知らせ
+							</a>
+						</div>
+					</div>
+				</div>
+				<!-- ここから -->
+				<div id="box" class="clearfix">
+					<img src="index/info_arrow.gif" id="arrow">
+					<div id="date">2017年 6月22日</div>
+					<div id="txt">
+						<div class="clearfix">
+							<a href="ir/2912_own.pdf" target="_blank">
+								<img src="index/info_pdf.gif" width="22" height="22" id="l1_02" alt="" />
+								自己株式取得に係る事項の決定に関するお知らせ
+							</a>
+						</div>
+					</div>
+				</div>
+				<!-- ここから -->
+				<!-- ここから -->
+				<div id="box" class="clearfix">
+					<img src="index/info_arrow.gif" id="arrow">
+					<div id="date">2017年 6月 5日</div>
+					<div id="txt">
+						<div class="clearfix">
+							<a href="ir/2908_release.pdf" target="_blank">
+								<img src="index/info_pdf.gif" width="22" height="22" id="l1_02" alt="" />
+								第124回定時株主総会招集ご通知
+							</a>
+						</div>
+						<div class="clearfix">
+							<a href="ir/2909_release.pdf" target="_blank">
+								<img src="index/info_pdf.gif" width="22" height="22" id="l1_02" alt="" />
+								第124回定時株主総会招集ご通知に際しての<br>インターネット開示事項
+							</a>
+						</div>
+					</div>
+				</div>
+				<!-- ここから -->
+				<!-- ここから -->
+				<div id="box" class="clearfix">
+					<img src="index/info_arrow.gif" id="arrow">
+					<div id="date">2017年 5月12日</div>
+					<div id="txt">
+					<div class="clearfix">
+							<a href="ir/2906_achievements.pdf" target="_blank">
+								<img src="index/info_pdf.gif" width="22" height="22" id="l1_02" alt="" />
+								H29.3月期 決算短信（連結）
+							</a>
+						</div>
+						<div class="clearfix">
+							<a href="ir/2905_capital_stock.pdf" target="_blank">
+								<img src="index/info_pdf.gif" width="22" height="22" id="l1_02" alt="" />
+								資本準備金の額の減少に関するお知らせ
+							</a>
+						</div>
+					</div>
+				</div>
+				<!-- ここから -->
+				<div id="box" class="clearfix">
+					<img src="index/info_arrow.gif" id="arrow">
+					<div id="date">2017年 3月 1日</div>
+					<div id="txt">
+						<a href="recruit/index.html" target="_blank">
+							新卒採用　情報更新のお知らせ
+						</a>
+					</div>
+				</div>
+				<!-- ここから -->
+					<div id="box" class="clearfix">
+					<img src="index/info_arrow.gif" id="arrow">
+					<div id="date">2017年 2月10日</div>
+					<div id="txt">
+						<div class="clearfix">
+							<a href="ir/2905_3-4achievements.pdf" target="_blank">
+								<img src="index/info_pdf.gif" width="22" height="22" id="l1_02" alt="" />
+								H29.3月期 第３四半期決算（連結）
+							</a>
+						</div>
+						<div class="clearfix">
+							<a href="ir/2906_modifi.pdf" target="_blank">
+								<img src="index/info_pdf.gif" width="22" height="22" id="l1_02" alt="" />
+								H29.3月期 配当予想の修正に関するお知らせ
+							</a>
+						</div>
+						<div class="clearfix">
+							<a href="ir/2907_retirement.pdf" target="_blank">
+								<img src="index/info_pdf.gif" width="22" height="22" id="l1_02" alt="" />
+								自己株式の消却に関するお知らせ
+							</a>
+						</div>
+					</div>
+				</div>
+				<!-- ここから -->
+				<div id="box" class="clearfix">
+					<img src="index/info_arrow.gif" id="arrow">
+					<div id="date">2016年12月16日</div>
+					<div id="txt">
+						<a href="ir/2904_conclusion.pdf" target="_blank">
+							<img src="index/info_pdf.gif" width="22" height="22" id="l1" alt="" />
+							自己株式の取得結果および取得終了に関するお知らせ
+						</a>
+					</div>
+				</div>
+				<!-- ここから -->
+				<div id="box" class="clearfix">
+					<img src="index/info_arrow.gif" id="arrow">
+					<div id="date">2016年11月11日</div>
+					<div id="txt">
+						<div class="clearfix">
+						<a href="ir/2902_2-4achievements.pdf" target="_blank">
+							<img src="index/info_pdf.gif" width="22" height="22" id="l1" alt="" />
+							H29.3月期 第２四半期決算（連結）
+						</a>
+						</div>
+						<div class="clearfix">
+							<a href="ir/2903_tenderoffer.pdf" target="_blank">
+								<img src="index/info_pdf.gif" width="22" height="22" id="l1_02" alt="" />
+								株式会社エイチアンドエフに対する<br>公開買付け応募に関するお知らせ
+							</a>
+						</div>
+					</div>
+				</div>
+				<!-- ここから -->
+				<div id="box" class="clearfix">
+					<img src="index/info_arrow.gif" id="arrow">
+					<div id="date">2016年10月21日</div>
+					<div id="txt">
+						<a href="ir/ownshares.pdf" target="_blank">
+							<img src="index/info_pdf.gif" width="22" height="22" id="l1" alt="" />
+							株式併合による1 株に満たない端数の処理に伴う<br>自己株式の買取りに関するお知らせ
+						</a>
+					</div>
+				</div>
+				<!-- ここから -->
+				<div id="box" class="clearfix">
+					<img src="index/info_arrow.gif" id="arrow">
+					<div id="date">2016年 9月15日</div>
+					<div id="txt">
+						<a href="ir/heigou.pdf" target="_blank">
+							<img src="index/info_pdf.gif" width="22" height="22" id="l1" alt="" />
+							株式併合に関する公告
+						</a>
+					</div>
+				</div>
+				<!-- ここから -->
+				<div id="box" class="clearfix">
+					<img src="index/info_arrow.gif" id="arrow">
+					<div id="date">2016年 8月10日</div>
+					<div id="txt">
+						<a href="ir/2901_1-4achievements.pdf" target="_blank">
+							<img src="index/info_pdf.gif" width="22" height="22" id="l1" alt="" />
+							H29.3月期 第１四半期決算（連結）
+						</a>
+					</div>
+				</div>
+				<!-- ここから -->
+				<div id="box" class="clearfix">
+					<img src="index/info_arrow.gif" id="arrow">
+					<div id="date">2016年 7月22日</div>
+					<div id="txt">
+						<div class="clearfix">
+							<a href="ir/2812_own.pdf" target="_blank">
+								<img src="index/info_pdf.gif" width="22" height="22" id="l1_02" alt="" />
+								自己株式取得に係る事項の決定に関するお知らせ
+							</a>
+						</div>
+						<div class="clearfix">
+							<a href="ir/2813_stockoption.pdf" target="_blank">
+								<img src="index/info_pdf.gif" width="22" height="22" id="l1_02" alt="" />
+								ストックオプション（新株予約権）の<br>発行内容確定に関するお知らせ
+							</a>
+						</div>
+					</div>
+				</div>
+				<!-- ここから -->
+				<div id="box" class="clearfix">
+					<img src="index/info_arrow.gif" id="arrow">
+					<div id="date">2016年 6月24日</div>
+					<div id="txt">
+						<div class="clearfix">
+							<a href="ir/2810_modifi.pdf" target="_blank">
+								<img src="index/info_pdf.gif" width="22" height="22" id="l1_02" alt="" />
+								株式併合に伴う配当予想の修正に関するお知らせ
+							</a>
+						</div>
+						<div class="clearfix">
+							<a href="ir/2811_stockoption.pdf" target="_blank">
+								<img src="index/info_pdf.gif" width="22" height="22" id="l1_02" alt="" />
+								ストックオプション（新株予約権）の<br>割当に関するお知らせ
+							</a>
+						</div>
+					</div>
+				</div>
+				<!-- ここから -->
+				<div id="box" class="clearfix">
+					<img src="index/info_arrow.gif" id="arrow">
+					<div id="date">2016年 6月 6日</div>
+					<div id="txt">
+						<div class="clearfix">
+							<a href="ir/2808_release.pdf" target="_blank">
+								<img src="index/info_pdf.gif" width="22" height="22" id="l1_02" alt="" />
+								第123回定時株主総会招集ご通知
+							</a>
+						</div>
+						<div class="clearfix">
+							<a href="ir/2809_release.pdf" target="_blank">
+								<img src="index/info_pdf.gif" width="22" height="22" id="l1_02" alt="" />
+								第123回定時株主総会招集ご通知に際しての<br>インターネット開示事項
+							</a>
+						</div>
+					</div>
+				</div>
+				<!-- ここから -->
+				<div id="box" class="clearfix">
+					<img src="index/info_arrow.gif" id="arrow">
+					<div id="date">2016年 5月13日</div>
+					<div id="txt">
+						<div class="clearfix">
+							<a href="ir/2806_achievements.pdf" target="_blank">
+								<img src="index/info_pdf.gif" width="22" height="22" id="l1_02" alt="" />
+								H28.3月期 決算短信（連結）
+							</a>
+						</div>
+						<div class="clearfix">
+							<a href="ir/2807_changing.pdf" target="_blank">
+								<img src="index/info_pdf.gif" width="22" height="22" id="l1_02" alt="" />
+								単元株式数の変更、株式併合及び定款一部変更のお知らせ
+							</a>
+						</div>
+					</div>
+				</div>
+				<!-- ここから -->
+					<div id="box" class="clearfix">
+					<img src="index/info_arrow.gif" id="arrow">
+					<div id="date">2016年 4月25日</div>
+					<div id="txt">
+						<div class="clearfix">
+							<a href="profile/support_kumamoto.html" target="_blank">
+								熊本地震で被災された方々への支援に関するお知らせ
+							</a>
+						</div>
+					</div>
+				</div>
+				<!-- ここから -->
+				<div id="box" class="clearfix">
+					<img src="index/info_arrow.gif" id="arrow">
+					<div id="date">2016年 3月 1日</div>
+					<div id="txt">
+						<a href="recruit/index.html" target="_blank">
+							新卒採用　情報更新のお知らせ
+						</a>
+					</div>
+				</div>
+				<!-- ここから -->
+					<div id="box" class="clearfix">
+					<img src="index/info_arrow.gif" id="arrow">
+					<div id="date">2016年 2月10日</div>
+					<div id="txt">
+						<div class="clearfix">
+							<a href="ir/2805_3-4achievements.pdf" target="_blank">
+								<img src="index/info_pdf.gif" width="22" height="22" id="l1_02" alt="" />
+								H28.3月期 第３四半期決算（連結）
+							</a>
+						</div>
+						<div class="clearfix">
+							<a href="ir/2806_modifi.pdf" target="_blank">
+								<img src="index/info_pdf.gif" width="22" height="22" id="l1_02" alt="" />
+								配当予想の修正に関するお知らせ
+							</a>
+						</div>
+						<div class="clearfix">
+							<a href="ir/2807_nonoperating.pdf" target="_blank">
+								<img src="index/info_pdf.gif" width="22" height="22" id="l1_02" alt="" />
+								営業外収益計上に関するお知らせ
+							</a>
+						</div>
+					</div>
+				</div>
+				<!-- ここから -->
+				<div id="box" class="clearfix">
+					<img src="index/info_arrow.gif" id="arrow">
+					<div id="date">2015年11月11日</div>
+					<div id="txt">
+						<div class="clearfix">
+							<a href="ir/2804_2-4achievements.pdf" target="_blank">
+								<img src="index/info_pdf.gif" width="22" height="22" id="l1_02" alt="" />
+								H28.3月期 第２四半期決算（連結）
+							</a>
+						</div>
+						<div class="clearfix">
+							<a href="ir/2804_nonoperating.pdf" target="_blank">
+								<img src="index/info_pdf.gif" width="22" height="22" id="l1_02" alt="" />
+								営業外収益計上に関するお知らせ
+							</a>
+						</div>
+					</div>
+				</div>
+				<!-- ここから -->
+				<div id="box" class="clearfix">
+					<img src="index/info_arrow.gif" id="arrow">
+					<div id="date">2015年10月29日</div>
+					<div id="txt">
+						<a href="news/2015/solarcar02.pdf" target="_blank">
+							<img src="index/info_pdf.gif" width="22" height="22" id="l1" alt="" />
+							工学院大学ソーラーカーがレースで準優勝
+						</a>
+					</div>
+				</div>
+				<!-- ここから -->
+				<div id="box" class="clearfix">
+					<img src="index/info_arrow.gif" id="arrow">
+					<div id="date">2015年 9月18日</div>
+					<div id="txt">
+						<a href="ir/2803_ToSTNeT.pdf" target="_blank">
+							<img src="index/info_pdf.gif" width="22" height="22" id="l2" alt="" />
+							自己株式立会外買付取引（ToSTNeT-3）による自己株式の取得結果及び自己株式取得終了に関するお知らせ
+						</a>
+					</div>
+				</div>
+				<!-- ここから -->
+				<div id="box" class="clearfix">
+					<img src="index/info_arrow.gif" id="arrow">
+					<div id="date">2015年 9月17日</div>
+					<div id="txt">
+						<a href="ir/2802_ToSTNeT.pdf" target="_blank">
+							<img src="index/info_pdf.gif" width="22" height="22" id="l2" alt="" />
+							自己株式立会外買付取引（ToSTNeT-3）による<br>自己株式の買付けに関するお知らせ
+						</a>
+					</div>
+				</div>
+				<!-- ここから -->
+				<div id="box" class="clearfix">
+					<img src="index/info_arrow.gif" id="arrow">
+					<div id="date">2015年 8月12日</div>
+					<div id="txt">
+						<a href="ir/2801_1-4achievements.pdf" target="_blank">
+							<img src="index/info_pdf.gif" width="22" height="22" id="l1" alt="" />
+							H28.3月期 第１四半期決算（連結）
+						</a>
+					</div>
+				</div>
+				<!-- ここから -->
+				<div id="box" class="clearfix">
+					<img src="index/info_arrow.gif" id="arrow">
+					<div id="date">2015年 7月24日</div>
+					<div id="txt">
+						<div class="clearfix">
+							<a href="news/2015/solarcar.pdf" target="_blank">
+								<img src="index/info_pdf.gif" width="22" height="22" id="l1_02" alt="" />
+								工学院大学ソーラーカープロジェクトへの協賛
+							</a>
+						</div>
+						<div class="clearfix">
+							<a href="ir/2712_stockoption.pdf" target="_blank">
+								<img src="index/info_pdf.gif" width="22" height="22" id="l2" alt="" />
+								ストックオプション（新株予約権）の<br>発行内容確定に関するお知らせ
+							</a>
+						</div>
+					</div>
+				</div>
+				<!-- ここから -->
+				<div id="box" class="clearfix">
+					<img src="index/info_arrow.gif" id="arrow">
+					<div id="date">2015年 6月19日</div>
+					<div id="txt">
+						<a href="ir/2711_stockoption.pdf" target="_blank">
+							<img src="index/info_pdf.gif" width="22" height="22" id="l2" alt="" />
+							ストックオプション（新株予約権）の<br />割当に関するお知らせ
+						</a>
+					</div>
+				</div>
+				<!-- ここから -->
+				<div id="box" class="clearfix">
+					<img src="index/info_arrow.gif" id="arrow">
+					<div id="date">2015年 6月 3日</div>
+					<div id="txt">
+						<div class="clearfix">
+							<a href="ir/2710_release.pdf" target="_blank">
+								<img src="index/info_pdf.gif" width="22" height="22" id="l2" alt="" />
+								第122回定時株主総会招集ご通知に際しての<br>インターネット開示事項
+							</a>
+						</div>
+					</div>
+				</div>
+				<!-- ここから -->
+				<div id="box" class="clearfix">
+					<img src="index/info_arrow.gif" id="arrow">
+					<div id="date">2015年 5月14日</div>
+					<div id="txt">
+						<div class="clearfix">
+							<a href="ir/2707_achievements.pdf" target="_blank">
+								<img src="index/info_pdf.gif" width="22" height="22" id="l1_02" alt="" />
+								H27.3月期 決算短信（連結）
+							</a>
+						</div>
+						<div class="clearfix">
+							<a href="ir/2709_dividend.pdf" target="_blank">
+								<img src="index/info_pdf.gif" width="22" height="22" id="l1_02" alt="" />
+								剰余金の配当に関するお知らせ
+							</a>
+						</div>
+						<div class="clearfix">
+							<a href="ir/2708_nonoperating.pdf" target="_blank">
+								<img src="index/info_pdf.gif" width="22" height="22" id="l1_02" alt="" />
+								営業外収益計上に関するお知らせ
+							</a>
+						</div>
+					</div>
+				</div>
+				<!-- ここから -->
+				<div id="box" class="clearfix">
+					<img src="index/info_arrow.gif" id="arrow">
+					<div id="date">2015年 3月 1日</div>
+					<div id="txt">
+						<a href="recruit/index.html" target="_blank">
+							新卒採用　情報更新のお知らせ
+						</a>
+					</div>
+				</div>
+				<!-- ここから -->
+				<div id="box" class="clearfix">
+					<img src="index/info_arrow.gif" id="arrow">
+					<div id="date">2015年 2月10日</div>
+					<div id="txt">
+						<div class="clearfix">
+							<a href="ir/2705_3-4achievements.pdf" target="_blank">
+								<img src="index/info_pdf.gif" width="22" height="22" id="l1_02" alt="" />
+								H27.3月期 第３四半期決算（連結）
+							</a>
+						</div>
+						<div class="clearfix">
+							<a href="ir/2706_nonoperating.pdf" target="_blank">
+								<img src="index/info_pdf.gif" width="22" height="22" id="l1_02" alt="" />
+								営業外収益計上に関するお知らせ
+							</a>
+						</div>
+					</div>
+				</div>
+				<!-- ここから -->
+				<div id="box" class="clearfix">
+					<img src="index/info_arrow.gif" id="arrow">
+					<div id="date">2014年11月12日</div>
+					<div id="txt">
+						<a href="ir/2704_2-4achievements.pdf" target="_blank">
+							<img src="index/info_pdf.gif" width="22" height="22" id="l1" alt="" />
+							H27.3月期 第２四半期決算（連結）
+						</a>
+					</div>
+				</div>
+				<!-- ここから -->
+				<div id="box" class="clearfix">
+					<img src="index/info_arrow.gif" id="arrow">
+					<div id="date">2014年 8月13日</div>
+					<div id="txt">
+						<a href="ir/2703_1-4achievements.pdf" target="_blank">
+							<img src="index/info_pdf.gif" width="22" height="22" id="l1" alt="" />
+							H27.3月期 第１四半期決算（連結）
+						</a>
+					</div>
+				</div>
+				<!-- ここから -->
+				<div id="box" class="clearfix">
+					<img src="index/info_arrow.gif" id="arrow">
+					<div id="date">2014年 7月25日</div>
+					<div id="txt">
+						<a href="ir/2610_stockoption.pdf" target="_blank">
+							<img src="index/info_pdf.gif" width="22" height="22" id="l2" alt="" />
+							ストックオプション（新株予約権）の<br />発行内容確定に関するお知らせ
+						</a>
+					</div>
+				</div>
+				<!-- ここから -->
+				<div id="box" class="clearfix">
+					<img src="index/info_arrow.gif" id="arrow">
+					<div id="date">2014年 6月20日</div>
+					<div id="txt">
+						<a href="ir/2609_stockoption.pdf" target="_blank">
+							<img src="index/info_pdf.gif" width="22" height="22" id="l2" alt="" />
+							ストックオプション（新株予約権）の<br />割当に関するお知らせ
+						</a>
+					</div>
+				</div>
+				<!-- ここから -->
+				<div id="box" class="clearfix">
+					<img src="index/info_arrow.gif" id="arrow">
+					<div id="date">2014年 6月 4日</div>
+					<div id="txt">
+						<a href="ir/2608_release.pdf" target="_blank">
+							<img src="index/info_pdf.gif" width="22" height="22" id="l2" alt="" />
+							第121 回定時株主総会招集ご通知に際しての<br />インターネット開示事項
+						</a>
+					</div>
+				</div>
+				<!-- ここから -->
+				<div id="box" class="clearfix">
+					<img src="index/info_arrow.gif" id="arrow">
+					<div id="date">2014年 5月14日</div>
+					<div id="txt">
+						<div class="clearfix">
+							<a href="ir/2603_achievements.pdf" target="_blank">
+								<img src="index/info_pdf.gif" width="22" height="22" id="l1_02" alt="" />
+								H26.3月期 決算短信（連結）
+							</a>
+						</div>
+						<div class="clearfix">
+							<a href="ir/2604_dividend.pdf" target="_blank">
+								<img src="index/info_pdf.gif" width="22" height="22" id="l1_02" alt="" />
+								剰余金の配当に関するお知らせ
+							</a>
+						</div>
+						<div class="clearfix">
+							<a href="ir/2605_nonoperating.pdf" target="_blank">
+								<img src="index/info_pdf.gif" width="22" height="22" id="l1_02" alt="" />
+								営業外収益計上に関するお知らせ
+							</a>
+						</div>
+						<div class="clearfix">
+							<a href="ir/2606_stockoption.pdf" target="_blank">
+								<img src="index/info_pdf.gif" width="22" height="22" id="l1_02" alt="" />
+								株式報酬型ストックオプションの導入決定について
+							</a>
+						</div>
+						<div class="clearfix">
+							<a href="ir/2607_stock_sales.pdf" target="_blank">
+								<img src="index/info_pdf.gif" width="22" height="22" id="l1_02" alt="" />
+								所在不明株主の株式買取りに関するお知らせ
+							</a>
+						</div>
+					</div>
+				</div>
+			
+		</div>
+			<div id="reader" class="sss">
+				<a href="http://get.adobe.com/jp/reader/" target="_blank">
+					<img src="index/get_adobe_reader.png" width="112" height="33" alt="" />
+				</a>
+				上記のPDFをご覧頂くには<br />Adobe Reader 8以降の日本語版が必要です。
+			</div>
+		</div>
+		<div id="banner" class="clearfix">
+			<a href="news/news2016.html" onMouseOver="timehide02(1);" onMouseOut ="timehide02(0);" target="_blank">
+				<img src="index/banner01_off.gif" width="214" height="35" alt="ニュースリリース" />
+			</a>
+			<a href="javascript:void(0);" onMouseOver="timehide02(3);" onMouseOut ="timehide02(2);">
+				<img src="index/banner02_off.gif" width="214" height="35" alt="IR情報" />
+			</a>
+			<a href="javascript:void(0);" onMouseOver="timehide02(5);" onMouseOut ="timehide02(4);">
+				<img src="index/banner03_off.gif" width="214" height="35" alt="採用情報" />
+			</a>
+			<script language="JavaScript" type="text/JavaScript"><!--
+				banner();
+			//--></script>
+		</div>
+		<div id="sungaia">
+			<a href="http://www.tuvb.jp/" target="_blank">
+				<img src="index/sungaia.gif" width="138" height="40" alt="sun GAIA" />
+			</a>
+			<div class="sssn">
+				つくばユナイテッド Sun GAIA<br />
+				オフィシャルウェブサイト
+			</div>
+		</div>
+	</div>
+</div>
+<script language="JavaScript" type="text/JavaScript"><!--
+	footer(0);
+//--></script>
+</body>
+</html>

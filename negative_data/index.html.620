@@ -1,0 +1,950 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="keywords" content="大丸,松坂屋,経営統合,共同持株会社,小売業,百貨店事業,IR情報,電子公告,株主様ご優待 ">
+<meta name="description" content="Ｊ．フロント リテイリング株式会社は、大丸と松坂屋ホールディングスの共同持株会社です。百貨店事業を核とした、質・量ともに日本を代表する小売業界のリーディングカンパニーの地位確立と発展を目指します。">
+<title>Ｊ．フロント リテイリング</title>
+
+
+<!--// include ======================== -->
+<meta name="robots" content="index,follow,noarchive">
+<meta name="author" content="J.FRONT RETAILING Co., Ltd.">
+<meta name="copyright" content="© 2013 J.FRONT RETAILING Co., Ltd.">
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="cache-control" content="no-cache">
+<meta http-equiv="expires" content="0">
+<meta name="creation_date" content="2013-04-01T00:00:00+09:00">
+<meta name="date" content="2017-08-15T00:00:00+0900">
+
+<link rel="canonical" href="http://www.j-front-retailing.com/index.php">
+<link rel="index" href="http://www.j-front-retailing.com/" title="Ｊ．フロント リテイリング">
+<link rel="shortcut icon" href="http://www.j-front-retailing.com/favicon_ie.ico" type="image/vnd.microsoft.ico">
+<link rel="apple-touch-icon" href="http://www.j-front-retailing.com/touch-icon-iphone.png">
+<link rel="icon" href="http://www.j-front-retailing.com/favicon.ico" type="image/vnd.microsoft.ico">
+
+<link rel="stylesheet" href="_bootstrap_css/bootstrap.css">
+<link rel="stylesheet" href="_bootstrap_css/bootstrap-responsive.css" media="screen">
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:800">
+<link rel="stylesheet" href="_include_css/idg_webfont_text.css">
+<link rel="stylesheet" href="_include_css/idg_navigation.css" media="screen">
+<link rel="stylesheet" href="_include_css/idg_sidenavi.css">
+<link rel="stylesheet" href="_include_css/idg_carousel.css">
+<link rel="stylesheet" href="_include_css/idg_asset.css">
+
+<script src="_bootstrap_js/jquery_1_8_2.js"></script>
+<script src="_bootstrap_js/bootstrap.min.js"></script>
+<script src="_include_js/jquery.cookie.js"></script>
+<script src="_include_js/jquery.textresizer.js"></script>
+<script src="_include_js/jquery.imageNavigation.js"></script>
+<script src="_include_js/idg_ajax_pack_v1.js"></script>
+
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<!--[if IE 6]>
+    <link rel="stylesheet" href="_bootstrap_css/ie6.css">
+	<link rel="stylesheet" href="_include_css/idg_asset_ie6.css">
+<![endif]-->
+
+<script type="text/javascript">
+jQuery(document).ready( function() {
+	setTimeout("scrollTo( 0, 1)", 0);
+	jQuery( "#textsizer a" ).textresizer({
+		target: "#Contents a , .nav li , #Contents p, th, td, li, #newsTopics_Tab li a, dt, dd a, td p a, p a",
+		type: "fontSize",
+		sizes: [ "10px", "13px", "17px" ],
+		selectedIndex: 1
+	});
+});
+</script>
+
+
+<script type="text/javascript" src="_include_js/idg_ajax_pack_v1.js"></script>
+
+<style>
+.sp320 {
+	display: none;
+}
+#cLft{
+	position: relative;
+}
+#rss {
+    background: none repeat scroll 0 0 transparent !important;
+    border: 0 solid #FFFFFF;
+    height: 30px;
+    width: 150px;
+	position: absolute;
+	top: 10px;
+	left: 350px;
+	z-index:2;
+}
+
+#newsTopics .newsHead{
+	float:left;
+	font-family: monospace;
+}
+#newsTopics .newsBody{
+	padding-left:11em;
+}
+#info .infoHead{
+	float:left;
+	font-family: monospace;
+}
+#info .infoBody{
+	padding-left:6.5em;
+}
+#Carousel_02{
+	background-size: auto;
+}
+
+.carousel-linked-nav {
+    margin-bottom: 20px;
+    width: 165px;
+}
+
+#Carousel_09 {
+	background:url(index/po06.jpg);
+	background-position:75% 50%;
+	cursor: pointer;
+}
+#Carousel_10 {
+	background:url(index/po07.jpg);
+	background-position:75% 50%;
+	cursor: pointer;
+}
+
+#Carousel_10 .cTable table,
+#Carousel_09 .cTable table {
+	width: 100%;
+}
+#Carousel_10 .mainHead,
+#Carousel_09 .mainHead,
+#Carousel_08 .mainHead {
+	color: #333333;
+	text-align: right;
+	margin: 0px;
+	width: 100% ;
+}
+
+#Carousel_10 .sabHead,
+#Carousel_09 .sabHead,
+#Carousel_08 .sabHead {
+	color: #333333;
+	border: 1px solid #333333;
+	margin: 0px 50px 0 0;
+}
+#Carousel_10 .carousel-caption,
+#Carousel_09 .carousel-caption {
+	overflow: hidden;
+}
+#Carousel_10 .cTable,
+#Carousel_09 .cTable {
+	float: right;
+	margin-bottom: 20px;
+}
+#Carousel_10 .carousel-caption,
+#Carousel_09 .carousel-caption {
+	width: 100%;
+}
+
+/*====================================================
+     Media Queries  979px 以下
+     》 Phone to Tablet
+======================================================*/
+@media (max-width: 979px) {
+	#Carousel_10 .mainHead,
+	#Carousel_09 .mainHead {
+		text-align: left;
+		padding-right: 80px;
+	}
+
+}
+/*====================================================
+     Media Queries  767px 以下
+     》 Phone to Tablet
+======================================================*/
+@media (max-width: 767px) {
+	#TopCarousel .carousel-inner .item{
+		background-size: 100% !important;
+	}
+
+#Carousel_10 .carousel-caption .sabHead,
+#Carousel_09 .carousel-caption .sabHead {
+	left: auto;
+	right: 0;
+}
+#Carousel_10 .carousel-caption .mainHead,
+#Carousel_09 .carousel-caption .mainHead {
+	text-shadow: 0 0 0 #333333;
+}
+#Carousel_10 .carousel-caption .sabHead,
+#Carousel_09 .carousel-caption .sabHead {
+	text-shadow: 0 0 0 #333333;
+	margin-right: 30px;
+}
+
+
+
+
+}
+/*====================================================
+     Media Queries  610px 以下
+     》 Phone to Tablet
+======================================================*/
+@media (max-width: 610px) {
+	#TopCarousel .carousel-inner .item{
+		background-size: 130% !important;
+	}
+}
+/*====================================================
+     Media Queries  480px
+     》 Phone to Tablet
+======================================================*/
+@media (max-width: 480px) {
+	#newsTopics .newsHead{
+		float:none;
+	}
+	#newsTopics .newsBody{
+		padding-left:0;
+		margin-bottom:20px;
+	}
+	#info .infoHead{
+		float:none;
+	}
+	#info .infoBody{
+		padding-left:0;
+		margin-bottom:20px;
+	}
+	#TopCarousel .carousel-inner .item{
+		background-size: 180% !important;
+	}
+	#Carousel_09 {
+		background: rgba(0, 0, 0, 0) url("index/po06.jpg") repeat scroll 0 50%;
+		cursor: pointer;
+	}
+	#Carousel_10 {
+		background: rgba(0, 0, 0, 0) url("index/po07.jpg") repeat scroll 0 50%;
+		cursor: pointer;
+	}
+	.sp320 {
+		display: block;
+	}
+
+	#TopCarousel .carousel-inner .item{
+		background-size: 180% !important;
+	}
+	#Carousel_10 .carousel-caption .mainHead,
+	#Carousel_09 .carousel-caption .mainHead {
+		text-shadow: 2px 2px 2px #FFFFFF;
+	}
+	#Carousel_10 .carousel-caption .sabHead,
+	#Carousel_09 .carousel-caption .sabHead {
+		background-color: rgba(255,255,255,0.6);
+	}
+	
+	#Carousel_10 .carousel-caption .mainHead {
+		padding-right: 0 30px 0 0;
+		text-align: right;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+         -o-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+            box-sizing: border-box;
+	}
+
+
+	#Carousel_10 .carousel-caption {
+		padding: 0;
+	}
+	#Carousel_10 .mainHead {
+		padding-right: 30px;
+	}
+
+
+}
+/*====================================================
+     Media Queries  320px 以下
+     》 Phone to Tablet
+======================================================*/
+@media (max-width: 320px) {
+
+
+}
+/*====================================================
+     Media Queries  319px 以下
+     》 Phone to Tablet
+======================================================*/
+@media (max-width: 319px) {
+	#TopCarousel .carousel-inner .item{
+		background-size: auto !important;
+	}
+}
+</style>
+
+<script>
+$(window).load(function(){
+	/* invoke the carousel */ 
+	$('#TopCarousel').carousel({
+		//インターバル　※ミリ秒1s=1000
+		//interval: 7000
+		interval: 7000
+	});
+
+	/* slide on click */ 
+	$('.carousel-linked-nav > li > a').click(function() {
+		var item = Number($(this).attr('href').substring(1));
+		$('#TopCarousel').carousel(item - 1);
+		$('.carousel-linked-nav .active').removeClass('active');
+		$(this).parent().addClass('active');
+		return false;
+	});
+
+	/* Autoplay nav Highlight */
+	$('#TopCarousel').bind('slid', function() {
+		$('.carousel-linked-nav .active').removeClass('active');
+		var idx = $('#TopCarousel .item.active').index();
+		$('.carousel-linked-nav li:eq(' + idx + ')').addClass('active');
+	});
+
+	/* newsTopics_Tab Control */
+	$('#newsTopics_Tab a').click(function (e) {
+		e.preventDefault();
+		$(this).tab('show');
+	});
+
+	index_xmlLoader();
+
+});
+
+//====================================================
+//　トップページのCMS処理
+//====================================================
+function index_xmlLoader(){
+	//-----------------
+	// 初期値の設定
+	//-----------------
+	var tdy = new Date();
+	yy = tdy.getYear();
+	mm = tdy.getMonth() + 1;
+	dd = tdy.getDate();
+	hh = tdy.getHours();
+
+	var lp = 0;
+	var newslp = 0;
+	var irlp = 0;
+
+	//-----------------
+	// 日付、固有値の設定
+	//-----------------
+	if (yy < 2000) { yy += 1900; }
+	if (mm < 10) { mm = "0" + mm; }
+	if (dd < 10) { dd = "0" + dd; }
+	if (hh < 10) { hh = "0" + hh; }
+	uid = tdy.getTime();
+	tdy = yy + "" + mm + "" + dd + "" + hh;
+
+	//-----------------
+	// XML読込準備
+	//-----------------
+	var ldxml = "_data/news.php?"+uid;
+	var wrHtml = '';
+	var newsHtml = '';
+	var irHtml = '';
+	var dateFlg = true;
+	var httpXML=generateXmlHttp();
+	httpXML.open("GET", ldxml , true);
+	httpXML.onreadystatechange=function(){
+		// readyState == 4で受信完了
+		if (httpXML.readyState == 4) {
+			sauceXML=httpXML.responseXML;
+			loadBlock=sauceXML.getElementsByTagName("content");
+			// 各データ処理
+			for(var i=0;i<loadBlock.length;i++){
+				// 掲載開始日時の取得
+				strYY = purseNode(loadBlock[i],'strYY');
+				strMM = purseNode(loadBlock[i],'strMM');
+				strDD = purseNode(loadBlock[i],'strDD');
+				strTT = purseNode(loadBlock[i],'strTT');
+				if (strMM < 10) { strMM = "0" + strMM; }
+				if (strDD < 10) { strDD = "0" + strDD; }
+				if (strTT < 10) { strTT = "0" + strTT; }
+				str = strYY + "" + strMM + "" + strDD + "" + strTT;
+				// 掲載終了日時の取得
+				endYY = purseNode(loadBlock[i],'endYY');
+				endMM = purseNode(loadBlock[i],'endMM');
+				endDD = purseNode(loadBlock[i],'endDD');
+				endTT = purseNode(loadBlock[i],'endTT');
+				if (endMM < 10) { endMM = "0" + endMM; }
+				if (endDD < 10) { endDD = "0" + endDD; }
+				if (endTT < 10) { endTT = "0" + endTT; }
+				end = endYY + "" + endMM + "" + endDD + "" + endTT;
+				content_title = purseNode(loadBlock[i],'content_title');
+				filePDF_box = purseNode(loadBlock[i],'filePDF').split("@");
+				filePDF = filePDF_box[0];
+				if(filePDF_box[1] != undefined){
+					fileSIZE = '　('+filePDF_box[1]+')';
+				}else{
+					fileSIZE ='';
+				}
+				linkURL = purseNode(loadBlock[i],'linkURL');
+				label = purseNode(loadBlock[i],'label');
+				topView = purseNode(loadBlock[i],'topView');
+				// フィルタ：掲載期間
+				if((str <= tdy) && (tdy < end) && (topView=="する")){
+
+					//----------------------
+					// PRESS & Topics：組み立て
+					//----------------------
+					if(lp<5){
+						wrHtml += '<div class="newsHead">'+strYY + "." + strMM + "." + strDD;
+						if(label=="PRESS"){
+							wrHtml += '<span class="label news">PRESS</span></div>';
+						}else if(label=="IR"){
+							wrHtml += '<span class="label ir">IR</span></div>';
+						}
+						if(0<filePDF.length){
+							wrHtml += '<div class="newsBody"><a href="_data/news/'+filePDF+'" target="_blank">'+content_title+fileSIZE+'</a></div>';
+						}else if(0<linkURL.length){
+							wrHtml += '<div class="newsBody"><a href="'+linkURL+'" target="_blank">'+content_title+'</a></div>';
+						}else{
+							wrHtml += '<div class="newsBody">'+content_title+'</div>';
+						}
+						lp++;
+					}
+					//----------------------
+					// IR：組み立て
+					//----------------------
+					if((label=="IR")&&(irlp<5)){
+						irHtml += '<div class="newsHead">'+strYY + "." + strMM + "." + strDD;
+						irHtml += '<span class="label ir">IR</span></div>';
+
+						if(0<filePDF.length){
+							irHtml += '<div class="newsBody"><a href="_data/news/'+filePDF+'" target="_blank">'+content_title+fileSIZE+'</a></div>';
+						}else if(0<linkURL.length){
+							irHtml += '<div class="newsBody"><a href="'+linkURL+'" target="_blank">'+content_title+'</a></div>';
+						}else{
+							irHtml += '<div class="newsBody">'+content_title+'</div>';
+						}
+						irlp++;
+					}
+					//----------------------
+					// PRESS：組み立て
+					//----------------------
+					if((label=="PRESS")&&(newslp<5)){
+						newsHtml += '<div class="newsHead">'+strYY + "." + strMM + "." + strDD;
+						newsHtml += '<span class="label news">PRESS</span></div>';
+
+						if(0<filePDF.length){
+							newsHtml += '<div class="newsBody"><a href="_data/news/'+filePDF+'" target="_blank">'+content_title+fileSIZE+'</a></div>';
+						}else if(0<linkURL.length){
+							newsHtml += '<div class="newsBody"><a href="'+linkURL+'" target="_blank">'+content_title+'</a></div>';
+						}else{
+							newsHtml += '<div class="newsBody">'+content_title+'</div>';
+						}
+						newslp++;
+					}
+				}
+			}
+			// 出力
+			document.getElementById("topics").innerHTML = wrHtml;
+			document.getElementById("newsData").innerHTML = newsHtml;
+			document.getElementById("irData").innerHTML = irHtml;
+
+			info_xmlLoader();
+		}
+	}
+	httpXML.send("");
+}
+
+//====================================================
+//　お知らせのCMS処理
+//====================================================
+function info_xmlLoader(){
+	//-----------------
+	// 初期値の設定
+	//-----------------
+	var tdy = new Date();
+	yy = tdy.getYear();
+	mm = tdy.getMonth() + 1;
+	dd = tdy.getDate();
+	hh = tdy.getHours();
+
+	//-----------------
+	// 日付、固有値の設定
+	//-----------------
+	if (yy < 2000) { yy += 1900; }
+	if (mm < 10) { mm = "0" + mm; }
+	if (dd < 10) { dd = "0" + dd; }
+	if (hh < 10) { hh = "0" + hh; }
+	uid = tdy.getTime();
+	tdy = yy + "" + mm + "" + dd + "" + hh;
+
+	//-----------------
+	// XML読込準備
+	//-----------------
+	var ldxml = "_data/info.php?"+uid;
+	var wrHtml = '';
+	var httpXML=generateXmlHttp();
+	var dateFlg_2 = true;
+	httpXML.open("GET", ldxml , true);
+	httpXML.onreadystatechange=function(){
+		// readyState == 4で受信完了
+		if (httpXML.readyState == 4) {
+			sauceXML=httpXML.responseXML;
+			loadBlock=sauceXML.getElementsByTagName("content");
+			// 表示件数
+			(5<loadBlock.length)? lp=5 : lp=loadBlock.length ;
+			// 各データ処理
+			for(var i=0;i<lp;i++){
+				// 掲載開始日時の取得
+				strYY = purseNode(loadBlock[i],'strYY');
+				strMM = purseNode(loadBlock[i],'strMM');
+				strDD = purseNode(loadBlock[i],'strDD');
+				strTT = purseNode(loadBlock[i],'strTT');
+				if (strMM < 10) { strMM = "0" + strMM; }
+				if (strDD < 10) { strDD = "0" + strDD; }
+				if (strTT < 10) { strTT = "0" + strTT; }
+				str = strYY + "" + strMM + "" + strDD + "" + strTT;
+				// 掲載終了日時の取得
+				endYY = purseNode(loadBlock[i],'endYY');
+				endMM = purseNode(loadBlock[i],'endMM');
+				endDD = purseNode(loadBlock[i],'endDD');
+				endTT = purseNode(loadBlock[i],'endTT');
+				if (endMM < 10) { endMM = "0" + endMM; }
+				if (endDD < 10) { endDD = "0" + endDD; }
+				if (endTT < 10) { endTT = "0" + endTT; }
+				end = endYY + "" + endMM + "" + endDD + "" + endTT;
+				content_title = purseNode(loadBlock[i],'content_title');
+				ID = purseNode(loadBlock[i],'ID');
+				// フィルタ：掲載期間
+				if((str <= tdy) && (tdy < end)){
+					// 組み立て
+					wrHtml += '<div class="infoHead">'+strYY + "." + strMM + "." + strDD+'</div>';
+					wrHtml += '<div class="infoBody"><a href="index_info.php?'+ID+'" target="_blank">&nbsp;'+content_title+'</a></div>';
+				}
+			}
+			wrHead = '<div id="topics" class="tab-pane active">';
+			wrFoot = '</div>';
+			// 出力
+			document.getElementById("info").innerHTML = wrHtml;
+		}
+	}
+	httpXML.send("");
+}
+</script>
+</head>
+<body>
+
+<!--// Header,Navigation ======================== -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-41189837-1']);
+  _gaq.push(['_setDomainName', 'j-front-retailing.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+
+
+
+<div id="Header-Navigation" class="navbar-wrapper">
+	<header class="hidden-phone">
+		<div class="container">
+			<div class="brand"><a href="index.php"><img class="hidden-phone" src="_common_img/jfr_logo.gif" alt="J.フロントリテイリング"></a></div>
+			<div class="brandName visible-phone">J. FRONT RETAILING</div>
+			<div class="gadget visible-desktop textresizer"><span class="headerRight">｜ <a href="/english/">English</a> ｜ <a href="ir/inquiry.php">お問い合わせ</a> ｜ 文字サイズ</span><span id="textsizer"><a href="#txs" class="fSmall small-text">小</a><a href="#txm" class="fMiddle medium-text">中</a><a href="#txl" class="fBig large-text">大</a></span>
+				<script>
+					(function() {
+						var cx = '010058390997689208376:tjxzy7hpfzc';
+						var gcse = document.createElement('script');
+						gcse.type = 'text/javascript';
+						gcse.async = true;
+						gcse.src = (document.location.protocol == 'https' ? 'https:' : 'http:') +
+							'//www.google.com/cse/cse.js?cx=' + cx;
+						var s = document.getElementsByTagName('script')[0];
+						s.parentNode.insertBefore(gcse, s);
+					})();
+				</script>
+				<gcse:search></gcse:search>
+			</div><!-- /textsizer -->
+		</div><!-- /container -->
+	</header>
+	<nav class="navWrapper">
+		<div class="cnt navbar">
+			<div class="navbar-inner"><a class="brand visible-phone" href="index.php"><img src="_common_img/jfr_logo.gif" width="185"></a><button class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span class="icon-bar"></span><span class="icon-bar"></span> <span class="icon-bar"></span></button>
+				<div class="nav-collapse collapse">
+					<ul class="nav">
+						<li class="active"><a href="index.php">ホーム</a></li>
+						<li ><a href="company/index.php">会社案内</a></li>
+						<li ><a href="ir/index.php">IR情報</a></li>
+						<li ><a href="csr/index.php">CSR</a></li>
+						<li ><a href="news/index.php">ニュース＆トピックス</a></li>
+						<li ><a href="recruit/" target="_blank">採用情報</a></li>
+						<li  class="hidden-desktop"><a href="/english/">English</a></li>
+					</ul>
+				</div><!-- /nav-collapse collapse" -->
+			</div><!-- /navbar-inner -->
+		</div><!-- /container navbar -->
+	</nav>
+</div><!-- /Header-Navigation --><p class="topMessage"></p>
+
+<!--// Carousel ========================== -->
+<div id="CarouselBox" class="container" style="margin-bottom:15px;">
+	<div id="TopCarousel" class="carousel slide">
+		<div class="carousel-inner">
+
+			<!-- ▼Carousel_03 -->
+			<div id="Carousel_03" class="active item" onclick="javascript:location.href='ir/po/po03.php';" style="background:url(index/image05.jpg);background-position:20% 50%;cursor: pointer">
+				<div class="container">
+					<div class="carousel-caption">
+						<table>
+						<tr>
+						<td width="630"><p class="mainHead">2017年4月、<br>「GINZA SIX」開業。</p></td>
+						</tr>
+						</table>
+						<table>
+						<tr>
+						<td width="630"><p class="sabHead" style="float: left;">銀座再開発</p></td>
+						</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+
+			<!-- ▼Carousel_00 -->
+			<div id="Carousel_00" class="item" onclick="javascript:var w=window.open();w.location.href='http://www.irwebcasting.com/20170411/1/index.html';" style="background:url(index/image00.jpg);background-position:75% 50%;cursor: pointer">
+				<div class="container">
+					<div class="carousel-caption">
+						<table>
+						<tr><td><p class="mainHead">小売の枠を超えた<br>“マルチサービスリテイラー”へ。</p></td></tr>
+						<tr><td><p class="sabHead_2"><span>2017年2月期 決算説明会 動画配信</span></p></td></tr>
+						</table>
+					</div>
+				</div>
+			</div>
+
+
+			<!-- ▼Carousel_02 -->
+			<div id="Carousel_02" class="item" onclick="javascript:location.href='ir/po/po01.php';" style="background:url(index/image02.jpg);background-position:75% 50%; cursor: pointer">
+				<div class="container">
+					<div class="carousel-caption">
+						<table>
+						<tr>
+						<td width="630"><p class="mainHead">新しい百貨店ビジネス<br class="visible-phone">モデル構築を加速</p></td>
+						<td width="250"><p class="sabHead">百貨店経営改革</p></td>
+						</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+
+
+			<!-- ▼Carousel_08 -->
+			<div id="Carousel_08" class="item" onclick="javascript:location.href='ir/po/po05.php';" style="background:url(index/po05.jpg);background-position:75% 50%; cursor: pointer">
+				<div class="container">
+					<div class="carousel-caption">
+						<table>
+						<tr>
+						<td><p class="mainHead">パルコも、オフィスも、<br class="sp320">シネコンも。</p></td>
+						</tr>
+						</table>
+						<table>
+						<tr>
+						<td><p class="sabHead" style="float: left;">上野店南館建替え計画</p></td>
+						</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+			<!-- ▼Carousel_09 -->
+			<div id="Carousel_09" class="item" onclick="javascript:location.href='ir/po/po06.php';">
+				<div class="container">
+					<div class="carousel-caption">
+
+						<div class="cTable">
+						<table>
+						<tr>
+						<td><p class="mainHead">心斎橋地区に、新たな賑わい</p></td>
+						</tr>
+						<tr>
+						<td><p class="sabHead">心斎橋店本館建替え計画</p></td>
+						</tr>
+						</table>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+			<!-- ▼Carousel_10 -->
+			<div id="Carousel_10" class="item" onclick="javascript:location.href='ir/po/po07.php';" >
+				<div class="container">
+					<div class="carousel-caption">
+						<div class="cTable">
+						<table>
+						<tr>
+						<td><p class="mainHead">次世代グローバル<br class="sp320">ショッピングセンターへ。</p></td>
+						</tr>
+						<tr>
+						<td><p class="sabHead">渋谷パルコ建替え計画</p></td>
+						</tr>
+						</table>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- ▼Carousel_07 -->
+			<div id="Carousel_07" class="item" onclick="javascript:location.href='ir/po/po02.php';" style="background:url(index/image04.jpg);background-position:45% 50%;cursor: pointer">
+				<div class="container">
+					<div class="carousel-caption">
+						<table>
+						<tr>
+						<td width="630"><p class="mainHead">アライアンスやM&Aを積極推進</p></td>
+						<td width="250"><p class="sabHead">アライアンス･M&A</p></td>
+						</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+
+
+			<!-- ▼Carousel_05 -->
+			<div id="Carousel_05" class="item" onclick="javascript:location.href='ir/po/po04.php';" style="background:url(index/image06.jpg);background-position:80% 50%;cursor: pointer">
+				<div class="container">
+					<div class="carousel-caption">
+						<table>
+						<tr>
+						<td width="630"><p class="mainHead">成長を求め、<br class="visible-phone">海外市場に挑戦</p></td>
+						<td width="250"><p class="sabHead">海外市場への取り組み</p></td>
+						</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+			<!-- ▼Carousel_06 -->
+			<div id="Carousel_06" class="item" onclick="javascript:var w=window.open('recruit/','_blank');" style="background:url(index/image07.jpg);background-position:0% 50%;cursor: pointer">
+				<div class="container">
+					<div class="carousel-caption">
+						<table>
+						<tr>
+						<td width="630"><p class="mainHead">求めるのは、<br class="visible-phone">「クリエイティビティと挑戦」</p></td>
+						<td width="250"><p class="sabHead">採用情報</p></td>
+						</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+            
+		</div><!-- /carousel-inner -->
+		<a class="carousel-control left hidden-phone" href="#TopCarousel" data-slide="prev">&lsaquo;</a>
+		<a class="carousel-control right hidden-phone" href="#TopCarousel" data-slide="next">&rsaquo;</a>
+	</div><!-- /TopCarousel -->
+	<ol class="carousel-linked-nav pagination">
+		<li class="active"><a href="#1">●</a></li>
+		<li><a href="#2">●</a></li>
+		<li><a href="#3">●</a></li>
+		<li><a href="#4">●</a></li>
+		<li><a href="#5">●</a></li>
+		<li><a href="#6">●</a></li>
+		<li><a href="#7">●</a></li>
+		<li><a href="#8">●</a></li>
+		<li><a href="#9">●</a></li>
+	</ol>
+
+
+
+<!--// ▼いいねボタン ========== -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ja_JP/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+	<div class="pull-right" id="fbLike">
+<div class="fb-like" style="margin-top:5px;" data-href="http://www.facebook.com/J.FrontRetailing" data-send="false" data-layout="button_count" data-width="150" data-show-faces="false"></div>
+	</div>
+</div><!-- /CarouselBox -->
+
+<!--// TopContents ========================== -->
+<div id="TopContents" class="container">
+	<div class="row">
+		<div class="span9" id="cLft">
+			<div id="rss" class="hidden-phone"><a href="/_data/news.rss" target="_blank"><img src="_common_img/rss.gif">&nbsp;<span>RSS</span></a></div>
+			<ul id="newsTopics_Tab" class="nav nav-tabs" style="margin-bottom:5px;">
+				<li class="active"><a href="#topics">ニュース＆トピックス</a></li>
+				<li><a href="#irData">IR</a></li>
+				<li><a href="#newsData">プレスリリース</a></li>
+			</ul>
+			<div id="newsTopics" class="tab-content">
+				<!-- ▼ニュース&トピックス -->
+				<div id="topics" class="tab-pane active">&nbsp;</div>
+				<!-- ▼IR -->
+				<div id="irData" class="tab-pane">&nbsp;</div>
+				<!-- ▼プレスリリース -->
+				<div id="newsData" class="tab-pane">&nbsp;</div>
+			</div>
+
+			<div id="information">
+				<!-- ▼お知らせ -->
+				<table class="visible-phone">
+					<tr><td valign="middle" class="title">お知らせ</td></tr>
+				</table>
+				<table>
+					<tr><td valign="middle" class="title hidden-phone">お知らせ</td>
+					<td id="info">&nbsp;</td></tr>
+				</table>
+			</div>
+
+
+
+
+			<div class="MenuArea">
+
+			<!--// Update ========================== -->
+
+
+				<!-- ▼会社案内 -->
+				<div class="span3 clearfix">
+					<dl>
+						<dt onclick="javascript:location.href='company/index.php';"><img src="_common_img/icon_company.png" style="width:22px;height:22px;" class="autoImg">会社案内</dt>
+						<dd><a href="company/index.php">トップメッセージ</a></dd>
+						<dd><a href="company/philosophy.php">グループ理念</a></dd>
+						<dd><a href="company/outline.php">会社概要･役員</a></dd>
+						<dd><a href="company/business.php">事業内容</a></dd>
+						<dd><a href="company/group.php">グループ企業一覧</a></dd>
+						<dd><a href="company/governance.php">コーポレートガバナンス</a></dd>
+						<dd><a style="background:none;"></a></dd>
+						<dd><a style="background:none;"></a></dd>
+					</dl>
+					<p class="pull-right"><a href="company/index.php"><img src="_common_img/moreinfo.gif" alt="MORE INFO" style="max-width:80px;width:80px;height:16px;" class="autoImg"></a></p>
+				</div>
+				<!-- ▼IR情報 -->
+				<div class="span3 clearfix">
+					<dl>
+						<dt onclick="javascript:location.href='ir/index.php';"><img src="_common_img/icon_ir.png" style="width:22px;height:22px;" class="autoImg">IR情報</dt>
+						<dd><a href="ir/policy/index.php">経営方針</a></dd>
+						<dd><a href="ir/mid_plan.php">中期経営計画</a></dd>
+						<dd><a href="ir/po/po01.php">重点施策</a></dd>
+						<dd><a href="ir/finance/index.php">財務･業績情報</a></dd>
+						<dd><a href="ir/library/index.php">IR資料室</a></dd>
+						<dd><a href="ir/stock/index.php">株式･債券</a></dd>
+						<dd><a href="ir/investors.php">個人投資家の皆様へ</a></dd>
+						<dd><a href="ir/stock/announce.php">電子公告</a></dd>
+					</dl>
+					<p class="pull-right"><a href="ir/index.php"><img src="_common_img/moreinfo.gif" alt="MORE INFO" style="max-width:80px;width:80px;height:16px;" class="autoImg"></a></p>
+				</div>
+				<!-- ▼CSR -->
+				<div class="span3 clearfix">
+					<dl>
+						<dt onclick="javascript:location.href='csr/index.php';"><img src="_common_img/icon_csr.png" style="width:22px;height:22px;" class="autoImg">CSR</dt>
+						<dd><a href="csr/index.php">トップコミットメント</a></dd>
+						<dd><a href="csr/guideline.php">ＣＳＲの基本的な考え方</a></dd>
+						<dd><a href="csr/iso.php">7つの取り組み課題</a></dd>
+						<dd><a href="csr/activity.php">活動報告ハイライト</a></dd>
+						<dd><a style="background:none;"></a></dd>
+						<dd><a style="background:none;"></a></dd>
+						<dd><a style="background:none;"></a></dd>
+						<dd><a style="background:none;"></a></dd>
+					</dl>
+					<p class="pull-right"><a href="csr/index.php"><img src="_common_img/moreinfo.gif" alt="MORE INFO" style="max-width:80px;width:80px;height:16px;" class="autoImg"></a></p>
+				</div>
+			</div><!-- /MenuArea -->
+		</div>
+		<div class="span3 pagination-centered" id="cRht">
+			<!-- ▼サイドバー ------------------------------------------------------ -->
+
+
+<div class="renewDate" style="margin: 0 0 0 0; text-align:right; font-size: 10px; height:20px;">Webサイト更新日：2017年08月15日</div>
+
+			<!-- 株価情報 -->
+			<div style="margin-bottom: 5px;" class="pagination-centered"><a href="ir/stock/price/index.php"><img src="http://asia.tools.euroland.com/tools/ticker?companycode=jp-3086&lang=ja-jp" style="width:220px;height:190px;" class="autoImg"></a></div>
+
+			<!-- IR優良企業賞 -->
+			<div style="text-align: center; margin: 5px 0;"><a href="https://www.jira.or.jp/activity/bluechip.html" target="_blank"><img src="index/dou_s_2016.jpg"></a></div>
+
+			<!-- 2016年度全上場企業ホームページ充実度ランキング調査　総合ランキング最優秀企業 -->
+			<div style="text-align: center; margin: 10px 0;"><a href="http://www.nikkoir.co.jp/" target="_blank"><img src="index/nikkoir2016.jpg" width="106" height="65" alt="弊社サイトは日興アイ･アール株式会社の「2016年度全上場企業ホームページ充実度ランキング調査　総合ランキング最優秀企業」に選ばれました。"></a></div>
+
+			<!-- 2017年2月期 決算説明会 -->
+			<div style="margin-bottom: 5px;"><a href="http://www.irwebcasting.com/20170411/1/index.html" target="_blank"><img src="index/banner_results.jpg" style="width:220px;height:45px;" class="autoImg"></a></div>
+
+			<!-- アニュアルレポート2016 -->
+			<div style="margin-bottom: 5px;"><a href="ir/library/annual.php"><img src="index/banner_annual.jpg" style="width:220px;height:45px;" class="autoImg"></a></div>
+
+			<!-- 株主ご優待情報 -->
+			<div style="margin-bottom: 5px;"><a href="ir/stock/preferential.php"><img src="index/banner_preferential.jpg" style="width:220px;height:45px;" class="autoImg"></a></div>
+
+			<!-- 未来定番研究所 -->
+			<div style="margin-bottom: 5px;"><a href="https://fin.miraiteiban.jp/" target="_blank"><img src="index/banner_mirai_teiban.jpg" style="width:220px;height:65px;" class="autoImg"></a></div>
+
+
+			<div style="margin-bottom:10px;"><a href="csr/bottlecap.php"><img src="index/banner_cap.png" style="width:220px;height:63px;" class="autoImg"></a></div>
+			<table id="sidenav" class="width220">
+				<tr class="btn" onclick="javascript:var w=window.open('recruit/','_blank');">
+				<td class="tLft"><img src="_common_img/sidenav01.png" style="width:24px;height:22px;" class="autoImg"></td>
+				<td class="tRht">採用情報</td>
+				</tr>
+				<tr class="btn" onclick="javascript:location.href='faq.php';">
+				<td class="tLft"><img src="_common_img/sidenav02.png" style="width:24px;height:22px;" class="autoImg"></td>
+				<td class="tRht">よくあるご質問</td>
+				</tr>
+				<tr class="btn" onclick="javascript:location.href='ir/inquiry.php';">
+				<td class="tLft"><img src="_common_img/sidenav03.png" style="width:24px;height:22px;" class="autoImg"></td>
+				<td class="tRht">IRお問い合わせ</td>
+				</tr>
+				<tr class="btn" onclick="javascript:location.href='ir/mail.php';">
+				<td class="tLft"><img src="_common_img/sidenav04.png" style="width:24px;height:22px;" class="autoImg"></td>
+				<td class="tRht">IRメール配信</td>
+				</tr>
+				<tr class="btn fb" onclick="javascript:var w=window.open();w.location.href='http://www.facebook.com/J.FrontRetailing';">
+				<td class="tLft"><img src="_common_img/sidenav05.png" style="width:24px;height:22px;" class="autoImg"></td>
+				<td class="tRht">Facebook<br><small>J.フロント リテイリング公式ページ</small></td>
+				</tr>
+			</table>
+		</div>
+	</div><!-- /row -->
+</div><!-- /TopContents -->
+
+<!--// FooterLogo ========================= -->
+<div class="container">
+	<ul id="footerLogo" class="clearfix">
+		<li><a href="http://www.daimaru-matsuzakaya.com/" target="_blank"><img src="_common_img/logo_daimarumatsuzakaya.gif" width="128" alt="大丸松坂屋百貨店" style="max-width:128px;width:128px;height:30px;" class="autoImg"></a></li>
+		<li class="padR0"><a href="http://www.daimaru.co.jp/" target="_blank"><img src="_common_img/logo_daimaru.gif" width="131" alt="DAIMARU" style="max-width:131px;width:131px;height:30px;" class="autoImg"></a></li>
+		<li><a href="http://www.matsuzakaya.co.jp/" target="_blank"><img src="_common_img/logo_matsuzakaya.gif" width="130" alt="Matsuzakaya" style="max-width:130px;width:130px;height:30px;" class="autoImg"></a></li>
+		<li class="padR0"><a href="http://www.parco.co.jp/" target="_blank"><img src="_common_img/logo_parco.gif" width="72" alt="PARCO" style="max-width:72px;width:72px;height:30px;" class="autoImg"></a></li>
+		<li><a href="http://www.daimaru-matsuzakaya.jp/" target="_blank"><img src="_common_img/logo_online.gif" width="99" alt="大丸松坂屋オンラインショッピング" style="max-width:131px;width:99px;height:30px;" class="autoImg"></a></li>
+		<li class="padR0"><a href="http://www.jfr-card.co.jp/" target="_blank"><img src="_common_img/logo_jfrcard.gif" width="159" alt="DAIMARU CARD マツザカヤカード" style="max-width:131px;width:159px;height:30px;" class="autoImg"></a></li>
+	</ul>
+</div>
+
+<!--// Footer ========================== -->
+
+<footer class="container footer" style="content : '';
+　display : block;
+　clear : both;">
+	<p><span class="btn btn-small" type="button"><a href="privacy.php" style="color: #333;">プライバシーポリシー</a></span><span class="btn btn-small" type="button" style="margin-left:5px;"><a href="terms.php" style="color: #333;">ご利用条件</a></span></p>
+	<span class="copy">Copyright &copy; 2017 J.FRONT RETAILING Co., Ltd. All Rights Reserved.</span>
+</footer>
+<script>
+    $(function(){if($.browser.msie&&parseInt($.browser.version,10)===6){$('.row div[class^="span"]:last-child').addClass("last-child");$('[class*="span"]').addClass("margin-left-20");$(':button[class="btn"], :reset[class="btn"], :submit[class="btn"], input[type="button"]').addClass("button-reset");$(":checkbox").addClass("input-checkbox");$('[class^="icon-"], [class*=" icon-"]').addClass("icon-sprite");$(".pagination li:first-child a").addClass("pagination-first-child")}})
+</script>
+
+
+
+
+</body>
+</html>

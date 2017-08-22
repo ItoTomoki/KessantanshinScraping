@@ -1,0 +1,540 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+
+
+<!--=========== METADATA ============-->
+<title>物語コーポレーション｜開発力と人財力で成長する飲食フランチャイズ</title>
+<meta name="Description" content="飲食フランチャイズを全国展開する愛知県豊橋市の株式会社物語コーポレーションのコーポレートサイト。業態開発力と、こだわりの採用・教育による「人財力」を原動力に成長を続け、「生業店魂の集う大企業 飲食大生業」を目指す。" />
+<meta name="Keywords" content="株式会社物語コーポレーション,飲食フランチャイズ,開発力,人財力,採用,愛知県,豊橋市,会社情報,ブランド一覧,フランチャイズ事業" />
+<!--=========== /METADATA ============-->
+
+
+<!--=========== IMPORT ============-->
+<link rel="stylesheet" type="text/css" media="all" href="/common/css/base.css" />
+<link rel="stylesheet" type="text/css" media="all" href="/common/css/layout.css" />
+<script type="text/javascript" src="/common/js/jquery.js"></script>
+<script type="text/javascript" src="/common/js/jquery.easing.js"></script>
+<script type="text/javascript" src="/common/js/scroller.js"></script>
+<script type="text/javascript" src="/common/js/rollover.js"></script>
+<script type="text/javascript" src="/common/js/top.js"></script>
+<!--[if IE]>
+<link rel="stylesheet" type="text/css" media="screen, tv, print" href="/common/css/ie.css" />
+<![endif]-->
+<script type="text/javascript">
+//<![CDATA[
+/*
+	$(document).ready(function(){
+
+    //news marquee
+    $('#slide_news'  ).load('/common/include/top_news.html');
+    $('#company_news').load('/common/include/top_company.html');
+    $('#brand_news'  ).load('/common/include/top_brand.html');
+    $('#ir_news'     ).load('/common/include/top_ir.html');
+
+	});
+*/
+//]]>
+</script>
+<link rel="stylesheet" type="text/css" media="all" href="/common/css/top.css" />
+<!--=========== /IMPORT ============-->
+
+<meta name="google-site-verification" content="tJ0X4cUKr1_uHxFH-odfrh2q-Yo2FZRL7TyFV7ppMVs" />
+
+</head>
+
+
+<body id="index" class="index">
+
+
+<!--=========== HEADER ============-->
+<div id="header_wrapper">
+<div id="header" class="clearfix">
+<p id="logo"><a href="/"><img src="/common/img/hdr_logo.gif" alt="株式会社 物語コーポレーション" width="259" height="74" /></a></p>
+
+<!-- <p id="nav_home"><a href="/"><img src="/common/img/hdr_nav_home_on.gif" alt="Home" width="53" height="12" /></a></p>
+<p id="nav_print"><a href="#"><img src="/common/img/hdr_nav_print.gif" alt="印刷" width="76" height="18" class="rollover" /></a></p>
+
+<dl id="fontsize_switch">
+<dt><img src="/common/img/hdr_h_fontsize_switch.gif" alt="文字サイズ" width="70" height="17" /></dt>
+<dd><a href="#"><img src="/common/img/hdr_nav_fontsize_switch_s.gif" alt="小" width="17" height="17" class="rollover" /></a></dd>
+<dd><a href="#"><img src="/common/img/hdr_nav_fontsize_switch_m_on.gif" alt="中" width="17" height="17" /></a></dd>
+<dd><a href="#"><img src="/common/img/hdr_nav_fontsize_switch_l.gif" alt="大" width="17" height="17" class="rollover" /></a></dd>
+</dl>
+
+<ul id="nav_lang">
+<li><a href="/"><img src="/common/img/hdr_nav_ja_on.gif" alt="日本語" width="88" height="18" /></a></li>
+<li><a href="#"><img src="/common/img/hdr_nav_en.gif" alt="English" width="95" height="18" class="rollover" /></a></li>
+<li><a href="#"><img src="/common/img/hdr_nav_ch.gif" alt="中文" width="61" height="18" class="rollover" /></a></li>
+</ul> -->
+
+<div id="gnav" class="clearfix">
+<ul class="clearfix">
+<li id="gnav_company"><a href="#company"><img src="/common/img/gnav_01.gif" alt="会社情報" width="161" height="73" /></a></li>
+<li id="gnav_shop"><a href="#shop"><img src="/common/img/gnav_02.gif" alt="ブランド一覧" width="161" height="73" /></a></li>
+<li id="gnav_recruit"><a href="#recruit"><img src="/common/img/gnav_04.gif" alt="採用情報" width="161" height="73" /></a></li>
+<li id="gnav_ir"><a href="#ir"><img src="/common/img/gnav_05.gif" alt="IR情報" width="150" height="73" /></a></li>
+<li id="gnav_fc"><a href="#fc"><img src="/common/img/gnav_03.gif" alt="フランチャイズ事業" width="171" height="73" /></a></li>
+</ul>
+</div><!-- /gnav -->
+</div>
+</div>
+<!--=========== /HEADER ============-->
+
+
+
+<!--=========== Slide ============-->
+<div id="sec_slide" class="section">
+
+<div id="slide_wrapper">
+<p class="bg_shadow"><img src="/img/bg_shadow.png" alt="自分物語・会社物語" width="100%" height="3" /></p>
+
+<div id="slide_01" class="slide">
+<div class="bg_01">
+<div class="bg_02">
+<div class="main">
+<p class="catch"><img src="/img/img_slide_01.png" alt="Smile&Sexy" width="1200" height="677" /></p>
+</div>
+</div>
+</div>
+</div><!-- /slide_01 -->
+
+<div id="slide_02" class="slide">
+<div class="bg_01">
+<div class="bg_02">
+<div class="main">
+<p class="catch"><img src="/img/img_slide_02_01.png" alt="自分物語" width="1200" height="677" /></p>
+<p class="photo"><img src="/img/img_slide_02_02.png" alt="丸源ラーメンスタッフ笑顔" width="1200" height="677" /></p>
+</div>
+</div>
+</div>
+</div><!-- /slide_02 -->
+
+<div id="slide_03" class="slide">
+<div class="bg_01">
+<div class="bg_02">
+<div class="main">
+<p class="catch"><img src="/img/img_slide_03_01.png" alt="会社物語" width="1200" height="677" /></p>
+<p class="photo"><img src="/img/img_slide_03_02.png" alt="若手社員" width="1200" height="677" /></p>
+</div>
+</div>
+</div>
+</div><!-- /slide_03 -->
+
+<div id="slide_04" class="slide">
+<div class="bg_01">
+<div class="bg_02">
+<div class="main">
+<p class="catch"><img src="/img/img_slide_04_01.png" alt="「個」へのこだわり" width="1200" height="677" /></p>
+<p class="photo"><img src="/img/img_slide_04_02.png" alt="丸源ラーメン女性スタッフ笑顔" width="1200" height="677" /></p>
+</div>
+</div>
+</div>
+</div><!-- /slide_04 -->
+
+</div><!-- /slide_wrapper -->
+
+<div class="content">
+<div class="news">
+<p class="h"><img src="/img/h_news2.png" alt="What’s New" width="111" height="39" /></p>
+<div>
+<table id="slide_news">
+</table>
+</div>
+<p class="bt"><a href="all_news.php" target="_blank"><img src="/img/bt_news_list2.png" alt="一覧へ" width="63" height="39" class="rollover" /></a></p>
+</div><!-- /news -->
+<div class="gnav clearfix">
+<ul class="clearfix">
+<li><a href="#company"><img src="/img/gnav_01.png" alt="会社情報" width="161" height="66" class="rollover" /></a></li>
+<li><a href="#shop"><img src="/img/gnav_02.png" alt="ブランド一覧" width="160" height="66" class="rollover" /></a></li>
+<li><a href="#recruit"><img src="/img/gnav_04.png" alt="採用情報" width="160" height="66" class="rollover" /></a></li>
+<li><a href="#ir"><img src="/img/gnav_05.png" alt="IR情報" width="159" height="66" class="rollover" /></a></li>
+<li><a href="#fc"><img src="/img/gnav_03.png" alt="フランチャイズ事業" width="160" height="66" class="rollover" /></a></li>
+</ul>
+</div><!-- /gnav -->
+</div><!-- /content -->
+
+<ul class="pager clearfix">
+<li class="current">1</li>
+<li>2</li>
+<li>3</li>
+<li>4</li>
+</ul><!-- /pager -->
+
+<p class="bt_prev"><img src="/img/bt_slide_prev.png" alt="スライド戻るボタン" width="50" height="100" class="rollover" /></p>
+<p class="bt_next"><img src="/img/bt_slide_next.png" alt="スライド進むボタン" width="50" height="100" class="rollover" /></p>
+</div>
+<!--=========== /Slide ============-->
+
+
+<!--=========== Company ============-->
+<div id="company" class="section section_comp">
+
+<p class="img_01"><img src="/img/img_company_01.png" alt="豊橋本社" width="345" height="143" /></p>
+<p class="img_02"><img src="/img/img_company_02.png" alt="東京フォーラム" width="630" height="613" /></p>
+
+<div class="content">
+<p class="img_03"><img src="/img/img_company_03.png" alt="Smile&Sexyの実践こそ物語コーポレーションの強みである人財力" width="394" height="197" /></p>
+<p class="img_04"><img src="/img/img_company_04.png" alt="Smile&Sexy　小林会長・加治社長" width="129" height="216" /></p>
+
+<ul class="nav clearfix">
+<li><a href="/company/greeting.html"><img src="/img/nav_company_01.png" alt="ご挨拶" width="286" height="55" class="rollover" /></a></li>
+<li><a href="/company/rinen.html"><img src="/img/nav_company_02.png" alt="経営理念" width="286" height="55" class="rollover" /></a></li>
+<li><a href="/company/"><img src="/img/nav_company_03.png" alt="会社概要" width="286" height="55" class="rollover" /></a></li>
+<li><a href="/company/history.html"><img src="/img/nav_company_04.png" alt="沿革" width="286" height="55" class="rollover" /></a></li>
+<li><a href="/company/enterprise.html"><img src="/img/nav_company_05.png" alt="事業展開" width="286" height="55" class="rollover" /></a></li>
+<li><a href="/company/csr.html"><img src="/img/nav_company_06.png" alt="社会貢献活動" width="286" height="55" class="rollover" /></a></li>
+<li><a href="/company/column_index.html"><img src="/img/nav_company_07.png" alt="物語コラム" width="286" height="55" class="rollover" /></a></li>
+<li><a href="/company/kensho.html"><img src="/img/nav_company_08.png" alt="企業論理憲章" width="286" height="55" class="rollover" /></a></li>
+<li><a href="/company/kitei.html"><img src="/img/nav_company_09.png" alt="コンプライアンス規程" width="286" height="55" class="rollover" /></a></li>
+<li><a href="/company/company_news.php"><img src="/img/nav_company_10.png" alt="会社情報ニュース" width="286" height="55" class="rollover" /></a></li>
+<li><a href="/mono/CEOSeminarAppli/disp_list/"><img src="/img/nav_company_11.png" alt="CMOセミナー" width="286" height="102" class="rollover" /></a></li>
+<li><a href="http://www.svpcloud.jp/systems/ax/monogatari/00749cew/" target="_blank"><img src="/img/nav_company_12.png" alt="CMO小林登場！「会社の選び方」「意思決定の仕方」セミナー" width="286" height="102" class="rollover" /></a></li>
+</ul><!-- /nav -->
+
+<div class="news">
+<p class="h"><img src="/img/h_news.png" alt="What’s New" width="111" height="39" /></p>
+<div>
+<table id="company_news">
+</table>
+</div>
+<p class="bt"><a href="/company/company_news.php"><img src="/img/bt_news_list.png" alt="一覧へ" width="63" height="39" class="rollover" /></a></p>
+</div><!-- /news -->
+</div><!-- /content -->
+
+<h2><img src="/img/h2_company.png" alt="会社情報" width="103" height="520" usemap="#h2_company" class="rollover" /><map name="h2_company" id="h2_company"><area shape="rect" coords="45,389,83,521" href="/company/greeting.html" alt="詳細はこちら" class="rollover_on" /></map></h2>
+</div>
+<!--=========== /Company ============-->
+
+
+<!--=========== Shop ============-->
+<div id="shop" class="section">
+<div id="shop_inner">
+
+<p class="img_01"><img src="/img/img_shop_01.png" alt="焼肉きんぐスタッフ笑顔" width="440" height="511" /></p>
+
+<div class="content">
+<div class="news">
+<p class="h"><img src="/img/h_news.png" alt="What’s New" width="111" height="39" /></p>
+<div>
+<table id="brand_news">
+</table>
+</div>
+<p class="bt"><a href="brand_news.php" target="_blank"><img src="/img/bt_news_list.png" alt="一覧へ" width="63" height="39" class="rollover" /></a></p>
+</div><!-- /news -->
+
+<div class="nav clearfix">
+
+<dl class="clearfix2">
+<dt><img src="/img/h3_shop_01.png" alt="焼き肉" width="33" height="54" /></dt>
+<dd><a href="http://www.nikugen.jp/" target="_blank"><img src="/img/nav_shop_12.png" alt="肉源" width="129" height="101" class="rollover" /></a></dd>
+<dd><a href="http://www.yakiniku-king.jp/" target="_blank"><img src="/img/nav_shop_01.png" alt="焼肉きんぐ" width="129" height="101" class="rollover" /></a></dd>
+<dd><a href="http://www.ichiban-kalbi.jp/h/" target="_blank"><img src="/img/nav_shop_02.png" alt="焼肉一番かるび" width="129" height="101" class="rollover" /></a></dd>
+<dd><a href="http://www.ichiban-kalbi.jp/k/" target="_blank"><img src="/img/nav_shop_03.png" alt="焼肉一番カルビ" width="129" height="101" class="rollover" /></a></dd>
+</dl>
+
+<dl class="clearfix2">
+<dt><img src="/img/h3_shop_02.png" alt="ラーメン" width="33" height="79" /></dt>
+<dd><a href="http://www.syodai-marugen.jp/" target="_blank"><img src="/img/nav_shop_04.png" alt="丸源ラーメン" width="129" height="101" class="rollover" /></a></dd>
+<dd><a href="http://www.nidaime-marugen.jp/" target="_blank"><img src="/img/nav_shop_05.png" alt="二代目丸源" width="129" height="101" class="rollover" /></a></dd>
+<dd><a href="http://www.cabbaton.jp/" target="_blank"><img src="/img/nav_shop_14.png" alt="ききゃべとんラーメン" width="129" height="101" class="rollover" /></a></dd>
+</dl>
+
+<dl class="clearfix2">
+<dt><img src="/img/h3_shop_03.png" alt="お好み焼き" width="33" height="97" /></dt>
+<dd><a href="http://www.okonomiyaki-honpo.jp/" target="_blank"><img src="/img/nav_shop_06.png" alt="お好み焼本舗" width="129" height="101" class="rollover" /></a></dd>
+</dl>
+
+<dl class="clearfix2">
+<dt><img src="/img/h3_shop_04.png" alt="専門店" width="33" height="85" /></dt>
+<dd><a href="http://www.genya.jp/" target="_blank"><img src="/img/nav_shop_07.png" alt="魚貝三昧げん屋" width="129" height="101" class="rollover" /></a></dd>
+<dd><a href="http://www.genji-souhonten.jp/" target="_blank"><img src="/img/nav_shop_08.png" alt="源氏総本店" width="129" height="101" class="rollover" /></a></dd>
+<dd><a href="http://www.shabu-yuzuan.jp/" target="_blank"><img src="/img/nav_shop_09.png" alt="ゆず庵" width="129" height="101" class="rollover" /></a></dd>
+<dd><a href="http://www.gennoya.jp/" target="_blank"><img src="/img/nav_shop_13.png" alt="源の屋" width="129" height="101" class="rollover" /></a></dd>
+</dl>
+
+<dl class="clearfix2">
+<dt><img src="/img/h3_shop_05.png" alt="通信販売" width="33" height="84" /></dt>
+<dd><a href="http://www.genya-shop.com/" target="_blank"><img src="/img/nav_shop_10.png" alt="げん屋はなれ" width="129" height="101" class="rollover" /></a></dd>
+<dd><a href="http://www.rakuten.co.jp/marugengyouza/" target="_blank"><img src="/img/nav_shop_11.png" alt="丸源餃子通販" width="129" height="101" class="rollover" /></a></dd>
+</dl>
+
+</div><!-- /nav -->
+</div><!-- /content -->
+
+<h2><img src="/img/h2_shop.png" alt="ブランド一覧" width="103" height="458" /></h2>
+
+</div><!-- /shop_inner -->
+</div>
+<!--=========== /Shop ============-->
+
+
+<!--=========== Recruit ============-->
+<div id="recruit" class="section">
+
+<p class="img_01"><img src="/img/img_recruit_01.png" alt="小林会長" width="225" height="718" /></p>
+<!-- <p class="img_02"><img src="/img/img_recruit_02.png" alt="丸源ラーメンスタッフ" width="115" height="115" /></p> -->
+<p class="img_03"><img src="/img/img_recruit_03.png" alt="お好み焼き本舗スタッフ" width="165" height="165" /></p>
+<p class="img_04"><img src="/img/img_recruit_04.png" alt="社員語らい・笑顔" width="385" height="290" /></p>
+
+<div class="content">
+<p class="img_05"><img src="/img/img_recruit_05.png" alt="Smile & Sexyどこにもない、我々だけの我々だから言える経営理念。難しく考える必要はない。そう、君が君であればいいのだ。代表取締役会長・CMO小林佳雄" width="469" height="189" /></p>
+
+<ul class="nav clearfix">
+<li><a href="/recruit/2018/" target="_blank"><img src="/img/bt_recruit_09.png" alt="新卒採用をご希望の方はこちら" width="476" height="85" class="rollover" /></a></li>
+<!-- <li><img src="/img/space_banner.png" width="286" height="85" /></li> -->
+<li><a href="/recruit/career/" target="_blank"><img src="/img/bt_recruit_13.png" alt="第二新卒・既卒の方はこちら" width="236" height="85" class="rollover" /></a></li>
+<li><a href="/ss/index.html" target="_blank"><img src="/img/bt_recruit_12.png" alt="社会人の方はこちら" width="236" height="85" class="rollover" /></a></li>
+<li class="second"><a href="http://www.svpcloud.jp/systems/ax/monogatari/00749cew/" target="_blank"><img src="/img/bt_recruit_10.png" alt="CMO小林登場！「会社の選び方」「意思決定の仕方」セミナー" width="236" height="102" class="rollover" /></a></li>
+<!-- <li class="second"><a href="/recruit/senior.html"><img src="/img/bt_recruit_11.png" alt="先輩社員の自分物語" width="236" height="102" class="rollover" /></a></li> -->
+<li class="second"><a href="https://www.facebook.com/monogatari.recruit/" target="_blank"><img src="/img/bt_recruit_14_on.png" alt="物語コーポレーションfacebook" width="236" height="102" /></a></li>
+</ul><!-- /nav -->
+
+</div><!-- /content -->
+
+<h2><img src="/img/h2_recruit.png" alt="採用情報" width="106" height="525" usemap="#h2_recruit" class="rollover" /><!-- <map name="h2_recruit" id="h2_recruit"><area shape="rect" coords="46,394,84,522" href="/recruit/message.html" alt="詳細はこちら" class="rollover_on" /></map> --></h2>
+</div>
+<!--=========== /Recruit ============-->
+
+
+<!--=========== Ir ============-->
+<div id="ir" class="section">
+
+<p class="img_01"><img src="/img/img_ir_01.png" alt="" width="171" height="204" /></p>
+<p class="img_02"><img src="/img/img_ir_02.png" alt="" width="620" height="566" /></p>
+
+<div class="content">
+<p class="eng"><a href="https://www.irstreet.com/en/brand.php?&content=brand_newsrelease&brand=257" target="_blank">IR English</a></p>
+<div class="newsir">
+<script language="JavaScript">
+document.write ('<' + 'script language="JavaScript" src="https://ircms.irstreet.com/contents/export.php?template=1466&brand=257&charset=4&url=' + escape(window.location.href) + '"></' + 'script>');
+</script>
+
+</div><!-- /news -->
+
+
+
+<ul class="nav clearfix">
+<li><a href="/ir/message.html"><img src="/img/nav_ir_01.png" alt="株主・投資家の皆さまへ" width="286" height="55" class="rollover" /></a></li>
+<li><a href="/ir/ir_news.php"><img src="/img/nav_ir_02.png" alt="IRニュース" width="286" height="55" class="rollover" /></a></li>
+<li><a href="/ir/individual.html"><img src="/img/nav_ir_03.png" alt="個人投資家の皆さまへ" width="286" height="55" class="rollover" /></a></li>
+<li><a href="/ir/ir_cal.html"><img src="/img/nav_ir_04.png" alt="IRカレンダー" width="286" height="55" class="rollover" /></a></li>
+<li><a href="/ir/date.html"><img src="/img/nav_ir_05.png" alt="月次データ" width="286" height="55" class="rollover" /></a></li>
+<li><a href="/ir/business.html"><img src="/img/nav_ir_06.png" alt="業績・財務情報" width="286" height="55" class="rollover" /></a></li>
+<li><a href="/ir/ir_lib.html"><img src="/img/nav_ir_07.png" alt="IRライブラリ" width="286" height="55" class="rollover" /></a></li>
+<li><a href="/ir/j_stock.html"><img src="/img/nav_ir_08.png" alt="株式・配当情報" width="286" height="55" class="rollover" /></a></li>
+<li><a href="/ir/c_g.html"><img src="/img/nav_ir_09.png" alt="コーポレート・ガバナンス" width="286" height="55" class="rollover" /></a></li>
+<li><a href="/ir/d_policy.html"><img src="/img/nav_ir_10.png" alt="ディスクロージャーポリシー" width="286" height="55" class="rollover" /></a></li>
+<li><a href="/ir/public_an.html"><img src="/img/nav_ir_11.png" alt="電子公告" width="286" height="55" class="rollover" /></a></li>
+<li><a href="/ir/s_holder.html"><img src="/img/nav_ir_12.png" alt="株主優待" width="286" height="55" class="rollover" /></a></li>
+<li><a href="/mono/InqIr"><img src="/img/nav_ir_13.png" alt="IRお問い合わせ" width="286" height="55" class="rollover" /></a></li>
+<li><a href="/ir/qa.html"><img src="/img/nav_ir_14.png" alt="よくあるご質問" width="286" height="55" class="rollover" /></a></li>
+</ul><!-- /nav -->
+</div><!-- /content -->
+
+<h2><img src="/img/h2_ir.png" alt="IR情報" width="106" height="511" usemap="#h2_ir" class="rollover" /><map name="h2_ir" id="h2_ir"><area shape="rect" coords="45,379,83,511" href="/ir/message.html" alt="詳細はこちら" class="rollover_on" /></map></h2>
+
+</div>
+<!--=========== /Ir ============-->
+
+<!--=========== Fc ============-->
+<div id="fc" class="section">
+
+<p class="img_01"><img src="/img/img_fc_01.png" alt="お好み焼き本舗店外写真" width="703" height="240" /></p>
+<p class="img_02"><img src="/img/img_fc_02.png" alt="焼肉きんぐ店外写真" width="662" height="280" /></p>
+
+<div class="content">
+<p class="img_03"><img src="/img/img_fc_03.png" alt="虚業でないフランチャイズ、FCという形式でパートナーを組む" width="427" height="203" /></p>
+<p class="img_04"><img src="/img/img_fc_04.png" alt="清く正しいフランチャイザーを目指して" width="174" height="241" /></p>
+
+<ul class="nav clearfix">
+<li><a href="/fc/index.html" target="_blank"><img src="/img/bt_fc.png" alt="フランチャイズ事業について" width="386" height="101" class="rollover" /></a></li>
+<li><a href="/fc_est/"><img src="/img/bt_fc_est.png" alt="物件情報を募集" width="186" height="101" class="rollover" /></a></li>
+<!-- <li><a href="/fc/support.html"><img src="/img/nav_fc_02.png" alt="FC支援体制" width="286" height="55" class="rollover" /></a></li>
+<li><a href="/fc/advantage.html"><img src="/img/nav_fc_03.png" alt="物語コーポレーションの人財力と開発力" width="286" height="55" class="rollover" /></a></li>
+<li><a href="/mono/SeminarAppli/disp_list/"><img src="/img/nav_fc_04.png" alt="FC事業参入セミナー" width="286" height="55" class="rollover" /></a></li>
+<li><a href="/fc/faq.html"><img src="/img/nav_fc_05.png" alt="よくあるご質問" width="286" height="55" class="rollover" /></a></li>
+<li><a href="/fc/fc_news.php"><img src="/img/nav_fc_06.png" alt="FCニュース" width="286" height="55" class="rollover" /></a></li>
+<li><a href="/mono/InqInfo"><img src="/img/bt_contact_fc.png" alt="資料請求・お問い合わせ" width="286" height="55" class="rollover" /></a></li> -->
+</ul>
+
+<!-- /nav -->
+<dl class="nav clearfix">
+<dt><img src="/img/h3_fc_01.png" alt="FC展開ブランド" width="33" height="96" /></dt>
+<dd><img src="/img/nav_fc_07.png" alt="焼肉きんぐFC" width="127" height="101" class="rollover" /></dd>
+<dd><img src="/img/nav_fc_08.png" alt="丸源ラーメンFC" width="127" height="101" class="rollover" /></dd>
+<dd><img src="/img/nav_fc_09.png" alt="お好み焼本舗FC" width="127" height="101" class="rollover" /></dd>
+<dd><img src="/img/nav_fc_10.png" alt="ゆず庵FC" width="127" height="101" /></dd>
+</dl><!-- /nav -->
+
+</div><!-- /content -->
+
+<h2><img src="/img/h2_fc.png" alt="フランチャイズ事業" width="106" height="632" usemap="#h2_fc" class="rollover" /></h2>
+</div>
+<!--=========== /Fc ============-->
+
+<!--=========== Footer ============-->
+<div id="footer" class="clearfix">
+<div id="footer_inner" class="clearfix">
+
+<h2><img src="/img/h2_all_contents.gif" alt="コンテンツ一覧" width="362" height="54" /></h2>
+
+<div class="sec_nav clearfix">
+<dl class="nav_01">
+<dt><img src="/common/img/ftr_h_01.gif" alt="会社情報" width="117" height="34" /></dt>
+<dd>
+<ul>
+<li><a href="/company/greeting.html">ご挨拶</a></li>
+<li><a href="/company/rinen.html">経営理念</a></li>
+<li><a href="/company/">会社概要</a></li>
+<li><a href="/company/history.html">沿革</a></li>
+<li><a href="/company/enterprise.html">事業展開</a></li>
+<li><a href="/company/csr.html">社会貢献活動</a></li>
+<li><a href="/company/column_index.html">物語コラム</a></li>
+<li><a href="/company/kensho.html">企業倫理憲章</a></li>
+<li><a href="/company/kitei.html">コンプライアンス規程</a></li>
+<li><a href="/company/company_news.php">会社情報ニュース</a></li>
+</ul>
+</dd>
+</dl>
+
+<dl class="nav_02">
+<dt><img src="/common/img/ftr_h_02.gif" alt="ブランド一覧" width="118" height="34" /></dt>
+<dd>
+<ul>
+<li class="blank"><a href="http://www.yakiniku-king.jp/" target="_blank">焼肉きんぐ</a></li>
+<li class="blank"><a href="http://www.ichiban-kalbi.jp/h/" target="_blank">焼肉一番かるび</a></li>
+<li class="blank"><a href="http://www.ichiban-kalbi.jp/k/" target="_blank">焼肉一番カルビ</a></li>
+<li class="blank"><a href="http://www.syodai-marugen.jp/" target="_blank">丸源ラーメン</a></li>
+<li class="blank"><a href="http://www.nidaime-marugen.jp/" target="_blank">二代目丸源</a></li>
+<li class="blank"><a href="http://www.okonomiyaki-honpo.jp/" target="_blank">お好み焼本舗</a></li>
+<li class="blank"><a href="http://www.genya.jp/" target="_blank">魚貝三昧げん屋</a></li>
+<li class="blank"><a href="http://www.genji-souhonten.jp/" target="_blank">源氏総本店</a></li>
+<li class="blank"><a href="http://www.shabu-yuzuan.jp/" target="_blank">ゆず庵</a></li>
+<li class="blank"><a href="http://www.genya-shop.com/" target="_blank">げん屋はなれ</a></li>
+<li class="blank"><a href="http://www.rakuten.co.jp/marugengyouza/" target="_blank">丸源餃子通販</a></li>
+<li><a href="brand_news.php">ブランドニュース</a></li>
+</ul>
+</dd>
+</dl>
+
+<dl class="nav_03">
+<dt><img src="/common/img/ftr_h_04.gif" alt="採用情報" width="117" height="34" /></dt>
+<dd>
+<ul>
+<li><a href="/recruit/message.html">CMOからのメッセージ</a></li>
+<li><a href="/recruit/smilesexy.html">What's Smile &amp; Sexy</a></li>
+<li><a href="/recruit/business.html">事業解説</a></li>
+<li><a href="/recruit/job.html">職務内容解説</a></li>
+<li><a href="/company/index.html">会社情報</a></li>
+<li><a href="/recruit/faq.html">よくあるご質問</a></li>
+<li class="blank"><a href="/recruit/2018/" target="_blank">2018新卒採用</a></li>
+<!-- <li class="blank"><a href="https://dwarest.disc.co.jp/2017/OEN/OpenProfile.aspx?LID=0005220200209&DID=DA0002" target="_blank">新卒エントリー</a></li>
+<li class="blank"><a href="https://dwarest.disc.co.jp/2017/OEV/OpenEventAreaSelect.aspx?LID=0005220200209&DID=DC0003&EVK=003" target="_blank">セミナー予約</a></li>
+<li class="blank"><a href="https://job.nikkei.co.jp/2014/corp/00052202/jobs/index?navi_hplink" target="_blank">採用情報</a></li>
+<li><a href="/recruit/intermediate.html">キャリア・第二新卒採用<br />エントリー</a></li> -->
+<li class="blank"><a href="http://www.svpcloud.jp/systems/ax/monogatari/00749cew/" target="_blank">CMO小林によるトップセミナー</a></li>
+<li><a href="/recruit/senior.html">先輩社員の「自分物語」</a></li>
+</ul>
+</dd>
+</dl>
+
+<dl class="nav_04">
+<dt><img src="/common/img/ftr_h_05.gif" alt="IR情報" width="85" height="34" /></dt>
+<dd>
+<ul>
+<li><a href="/ir/individual.html">個人投資家の皆さまへ</a></li>
+<li><a href="/ir/message.html">株主・投資家の皆さまへ</a></li>
+<li><a href="/ir/ir_news.php">IRニュース</a></li>
+<li><a href="/ir/ir_cal.html">IRカレンダー</a></li>
+<li><a href="/ir/date.html">月次データ</a></li>
+<li><a href="/ir/business.html">業績・財務情報</a></li>
+<li><a href="/ir/ir_lib.html">IRライブラリ</a></li>
+<li><a href="/ir/j_stock.html">株式・配当情報</a></li>
+<li><a href="/ir/c_g.html">コーポレート・ガバナンス</a></li>
+<li><a href="/ir/d_policy.html">ディスクロージャーポリシー</a></li>
+<li><a href="/ir/public_an.html">電子公告</a></li>
+<li><a href="/ir/s_holder.html">株主優待</a></li>
+<li><a href="/mono/InqIr">IRお問い合わせ</a></li>
+<li><a href="/ir/qa.html">よくあるご質問</a></li>
+</ul>
+</dd>
+</dl>
+
+<dl class="nav_05">
+<dt><img src="/common/img/ftr_h_03.gif" alt="フランチャイズ事業" width="131" height="34" /></dt>
+<dd>
+<ul>
+<li><a href="/fc/index.html">フランチャイズ事業について</a></li>
+<li><a href="/fc_estate/index.html">物件情報募集</a></li>
+<!-- <li><a href="/fc/aboutfc.html">ご挨拶</a></li>
+<li><a href="/fc/support.html">FC支援体制</a></li>
+<li><a href="/fc/advantage.html">物語コーポレーションの<br />
+人財力と開発力</a></li>
+<li><a href="/mono/SeminarAppli/disp_list/">FC事業参入セミナー</a></li>
+<li><a href="/fc/king.html">焼肉きんぐFC</a></li>
+<li><a href="/fc/ramen.html">丸源ラーメンFC</a></li>
+<li><a href="/fc/okonomi.html">お好み焼本舗FC</a></li>
+<li><a href="/fc/faq.html">よくあるご質問</a></li>
+<li><a href="/mono/InqInfo">資料請求・お問い合わせ</a></li>
+<li><a href="/fc/fc_news.php">FCニュース</a></li> -->
+</ul>
+</dd>
+</dl>
+</div><!-- /sec_nav -->
+
+<div class="sec_bnr clearfix">
+<ul>
+<li><a href="http://www.genya-shop.com/" target="_blank"><img src="/common/img/ftr_bnr_01.jpg" alt="げん屋はなれ" width="185" height="65" /></a></li>
+<li><a href="http://www.rakuten.co.jp/marugengyouza/" target="_blank"><img src="/common/img/ftr_bnr_02.jpg" alt="丸源餃子通販" width="185" height="65" /></a></li>
+<!-- <li><a href="/fc/aboutfc.html"><img src="/common/img/ftr_bnr_03.jpg" alt="FC加盟をご検討されている事業主様へ" width="185" height="65" /></a></li> -->
+<li><a href="http://www.meti.go.jp/publication/data/2013_06.html" target="_blank"><img src="/common/img/ftr_bnr_04.jpg" alt="経済産業　広報誌" width="185" height="65" /></a></li>
+<li><a href="https://www.neophoenix.jp/" target="_blank"><img src="/common/img/ftr_bnr_05.jpg" alt="三遠ネオフェニックス" width="195" height="65" /></a></li>
+<!-- <li><a href="http://www.shopbiz.jp/fc/" target="_blank"><img src="/common/img/ftr_bnr_03.jpg" alt="フランチャイズ・ショー2013" width="380" height="65" /></a></li> -->
+</ul>
+</div><!-- /sec_bnr -->
+
+<p class="link"><a href="/contact/">ご意見・お問い合わせ</a> ｜ <a href="/privacy/">プライバシーポリシー</a> ｜ <a href="/about/">サイトのご利用について</a> ｜ <a href="/sitemap/">サイトマップ</a></p>
+<p class="copyright"><img src="/common/img/ftr_copyright.gif" alt="&copy;THE MONOGATARI CORPORATION ALL RIGHTS RESERVED." width="337" height="7" /></dt>
+</div><!-- /footer_inner -->
+
+<p class="bt_up"><img src="/img/bt_up2.png" alt="上へ" width="80" height="80" class="rollover" /></p>
+</div>
+<!--=========== /Footer ============-->
+
+
+<div id="gnav_side" class="gnav_side clearfix">
+<ul class="clearfix">
+<li><a href="#company"><img src="/img/gnav_side_01.png" alt="会社情報" width="160" height="50" class="rollover" /></a></li>
+<li><a href="#shop"><img src="/img/gnav_side_02.png" alt="ブランド一覧" width="160" height="50" class="rollover" /></a></li>
+<li><a href="#recruit"><img src="/img/gnav_side_04.png" alt="採用情報" width="160" height="50" class="rollover" /></a></li>
+<li><a href="#ir"><img src="/img/gnav_side_05.png" alt="IR情報" width="160" height="50" class="rollover" /></a></li>
+<li><a href="#fc"><img src="/img/gnav_side_03.png" alt="フランチャイズ事業" width="160" height="50" class="rollover" /></a></li>
+<li class="hr"><img src="/img/nav_hr.png" alt="" width="160" height="53" /></li>
+<li class="pagetop"><a href="#index"><img src="/img/nav_pagetop.png" alt="Page Top" width="160" height="29" class="rollover" /></a></li>
+</ul>
+</div><!-- /gnav -->
+
+<p id="bt_up" class="bt_up"><img src="/img/bt_up.png" alt="ページUPボタン" width="80" height="80" class="rollover" /></p>
+<p id="bt_down" class="bt_down"><img src="/img/bt_down.png" alt="ページdownボタン" width="80" height="80" class="rollover" /></p>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-10172577-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</body>
+</html>

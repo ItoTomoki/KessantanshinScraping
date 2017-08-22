@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="format-detection" content="telephone=no">
+
+<title>富士古河E&amp;C株式会社</title>
+<meta name="description" content="プラント・電気・電力・計装・空調・建築・情報通信など幅広い設備工事を行う総合設備エンジニアリング企業、富士古河E&amp;C株式会社の公式コーポレートサイト。" />
+<meta name="keywords" content="" />
+
+<!-- OGP -->
+<meta property="og:site_name" content="富士古河E&amp;C株式会社">
+<meta property="og:title" content="富士古河E&amp;C株式会社">
+<meta property="og:description" content="">
+<meta property="og:image" content="/assets/images/base/fb.jpg">
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="富士古河E&amp;C株式会社" />
+<meta name="twitter:description" content="" />
+<meta name="twitter:image" content="/assets/images/base/twitter.png" />
+<!-- close.OGP -->
+
+<link rel="stylesheet" href="assets/css/reset.css" />
+<link rel="stylesheet" href="assets/css/print.css" />
+<link rel="stylesheet" href="assets/css/base.css" />
+<link rel="stylesheet" href="assets/css/common.css" />
+<link rel="stylesheet" href="assets/css/common_home.css" />
+<link rel="stylesheet" href="assets/css/common_sp.css" />
+
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/common.js"></script>
+<!--[if lt IE 9]><script src="assets/js/html5shiv-printshiv.min.js"></script><![endif]-->
+<script src="assets/js/ga.js"></script>
+
+</head>
+<body id="home" class="home">
+
+<header id="header__over_wrap">
+	<div id="header__wrap" class="base_wide">
+		<h1 id="header__logo"><a href=""><img src="assets/images/base/img_head_logo.png" alt="富士古河E&amp;C株式会社" width="299" height="54"></a></h1>
+
+		<div id="header__nav_btn">
+			<button type="button" class="drawer-toggle drawer-hamburger">
+				<span class="drawer-hamburger-icon"></span>
+			</button>
+		</div>
+		<div id="eraser" class="drawer-overlay drawer-toggle"></div>
+
+		<nav id="gnav__wrap">
+			<ul id="gnav" class="clearfix">
+				<li id="gnav__01"><a href="company/"><span>企業情報</span></a></li>
+				<li id="gnav__02"><a href="business/"><span>事業<i class="m_adj">・</i>実績紹介</span></a></li>
+				<li id="gnav__03"><a href="technology/"><span>技術紹介</span></a></li>
+				<li id="gnav__04"><a href="ir/"><span>IR情報</span></a></li>
+				<li id="gnav__05"><a href="csr/"><span>CSR</span></a></li>
+				<li id="gnav__06"><a href="http://www.ffec.co.jp/recruit/index.html" target="_blank"><span>採用情報</span></a></li>
+			</ul>
+		</nav>
+		<div id="gnav_sub__wrap">
+			<ul id="gnav_sub" class="clearfix">
+				<li class="etc"><a href="sitemap/">サイトマップ</a></li>
+				<li class="mail"><a href="contact/">お問い合わせ</a></li>
+			</ul>
+		</div>
+	</div>
+</header>
+
+<div class="home__top_visual">
+	<div class="home__top_visual_set base_wide">
+		<!--<img src="assets/images/home/home_top_visual.jpg" alt="背景" class="scene">-->
+		<h2><img src="assets/images/home/copy_main.png" alt="もっと最適に。もっと快適を。「つなぐ」で、人と社会と地球の未来へ" class="copy_main"></h2>
+		<img src="assets/images/home/img_element.png" alt="エレメント" class="element">
+	</div>
+
+	<img class="sp_img" src="assets/images/home/home_top_visual_sp.jpg" alt="もっと最適に。もっと快適を。「つなぐ」で、人と社会と地球の未来へ">
+</div>
+<div class="home__top_content">
+	<div class="home_business__block base_wide">
+		<h3 class="mb24"><img src="assets/images/home/ttl_home_business.png" alt="事業領域" width="247" height="27"></h3>
+		<ul class="home_business__ulist">
+			<li class="plant"><a href="business/plant/"><img src="assets/images/home/ttl_business_plant.png" alt="プラント事業"></a></li>
+			<li class="air-conditioning"><a href="business/air-conditioning/"><img src="assets/images/home/ttl_business_air-conditioning.png" alt="空調設備事業 "></a></li>
+			<li class="facilities"><a href="business/facilities/"><img src="assets/images/home/ttl_business_facilities.png" alt="電設・建築事業"></a></li>
+			<li class="distribution"><a href="business/distribution/"><img src="assets/images/home/ttl_business_distribution.png" alt="電力・情報流通 事業"></a></li>
+			<li class="overseas"><a href="business/overseas/"><img src="assets/images/home/ttl_business_overseas.png" alt="海外事業"></a></li>
+		</ul>
+	</div>
+</div>
+
+<script type="text/javascript">
+	$(function(){
+
+		
+		$('.home__top_visual_set .element').delay(600)
+			.animate({'top':'-50px','left':'-32px','opacity':1},1200);
+
+		$('.home__top_visual_set .copy_main').delay(1200)
+			.animate({'top':'113px','left':'117px','opacity':1},700,'swing');
+
+	});
+</script>
+
+<section class="content__wrap">
+	<div class="content base_wide">
+	<!--  content start  -->
+
+		<div class="content__left">
+			<div class="content__box">
+				<div class="content__block">
+
+					<div class="link__news_top mb28">
+						<h4 class="ttl"><img src="assets/images/home/ttl_home_news.png" alt="新着情報" width="240" height="26"></h4>
+						<a class="link" href="news/"><span>一覧を見る</span></a>
+					</div>
+
+					<ul class="link__news_ulist js_file_size_any_place js_tab_change_ulist js_news_set">
+					<!--記事エリア-->
+
+						<!-- ニュースカテゴリー class
+							[お知らせ category_notice
+							[決算 category_account
+							[株主総会 category_meeting
+							[報告書 category_report
+							[適時開示 category_disclosure
+							[電子公告 category_announcement
+						-->
+						
+						<!-- 記事タイトル - 報告書 -->
+							<li class="category_report"><a href="../assets/file/ir/library/certificate/h30_y_1shihanki.pdf" target="_blank" rel="noopener noreferrer" class="link__news_ulist_article">
+								<time>2017.08.09</time>
+								<p><strong>
+									平成30年3月期第1四半期報告書
+								</strong></p>
+							</a></li>
+							<!-- ここまで記事タイトル -->
+						
+						<!-- 記事タイトル - 決算 -->
+							<li class="category_account"><a href="../assets/file/ir/library/brief/h30_1sihanki.pdf" target="_blank" rel="noopener noreferrer" class="link__news_ulist_article">
+								<time>2017.07.26</time>
+								<p><strong>
+									平成30年3月期第1四半期決算短信
+								</strong></p>
+							</a></li>
+							<!-- ここまで記事タイトル -->
+						
+						<!-- 記事タイトル - 報告書 -->
+							<li class="category_report"><a href="../assets/file/ir/library/certificate/h29_y.pdf" target="_blank" rel="noopener noreferrer" class="link__news_ulist_article">
+								<time>2017.06.27</time>
+								<p><strong>
+									平成29年3月期有価証券報告書
+								</strong></p>
+							</a></li>
+							<!-- ここまで記事タイトル -->
+						
+						<!-- 記事タイトル - お知らせ -->
+						<li class="category_notice"><a href="../assets/file/news/20170623_topics.pdf" target="_blank" rel="noopener noreferrer" class="link__news_ulist_article">
+						<time>2017.06.23</time>
+						<p><strong>
+						2017年7月1日付人事異動
+						</strong></p>
+						</a></li>
+						<!-- ここまで記事タイトル -->
+						
+						<!-- 記事タイトル - 株主総会 -->
+						<li class="category_report"><a href="assets/file/ir/library/for_shareholders/h29_h.pdf" target="_blank" rel="noopener noreferrer" class="link__news_ulist_article">
+						<time>2017.06.22</time>
+						<p><strong>
+						第107期報告書
+						</strong></p>
+						</a></li>
+						<!-- ここまで記事タイトル -->
+
+						<!-- 記事タイトル - 株主総会 -->
+						<!--<li class="category_meeting"><a href="assets/file/ir/information/meeting/2017ketsugi.pdf" target="_blank" rel="noopener noreferrer" class="link__news_ulist_article">
+						<time>2017.06.22</time>
+						<p><strong>
+						第107回定時株主総会決議ご通知
+						</strong></p>
+						</a></li>-->
+						<!-- ここまで記事タイトル -->
+
+						<!-- 記事タイトル - 株主総会 -->
+						<!--<li class="category_meeting"><a href="assets/file/ir/information/meeting/2017syousyu.pdf" target="_blank" rel="noopener noreferrer" class="link__news_ulist_article">
+							<time>2017.06.01</time>
+							<p><strong>
+								第107回定時株主総会招集ご通知
+							</strong></p>
+						</a></li>-->
+						<!-- ここまで記事タイトル -->
+
+						<!-- 記事タイトル - 決算 -->
+						<!--<li class="category_account"><a href="assets/file/ir/library/explanation/2017.pdf" target="_blank" rel="noopener noreferrer" class="link__news_ulist_article">
+							<time>2017.05.29</time>
+							<p><strong>
+								2016年度決算説明会資料
+							</strong></p>
+						</a></li>-->
+						<!-- ここまで記事タイトル -->
+
+
+					<!--ここまで記事エリア-->
+					</ul>
+				</div>
+
+			</div>
+		</div>
+		<div class="content__right">
+			<aside id="aside">
+				<ul class="home_bnr__ulist">
+					<li class="mb24">
+						<a class="home_bnr__link" href="technology/catalog/">
+							<figure class="home_bnr__fig">
+								<img src="assets/images/home/bnr_catalog.png" alt="カタログダウンロード">
+								<figcaption><span class="icon">カタログダウンロード</span></figcaption>
+							</figure>
+						</a>
+					</li>
+					<li>
+						<a class="home_bnr__link" href="http://www.ffec.co.jp/sprinkler/">
+							<figure class="home_bnr__fig">
+								<img src="assets/images/home/bnr_sprinkler.png" alt="スプリンクラー製品">
+								<figcaption><span class="icon">スプリンクラー製品</span></figcaption>
+							</figure>
+						</a>
+					</li>
+				</ul>
+			</aside>
+		</div>
+		
+	</div>
+
+</section>
+
+<div id="js__topbtn" class="pagetop">
+	<a href="#header__over_wrap"><img src="assets/images/base/btn_pagetop.png" width="83" height="67" alt="TOP"></a>
+</div>
+
+<footer id="footer__over_wrap">
+	<div id="footer__nav_warp">
+		<div id="footer__nav" class="base_wide clearfix">
+			<ul class="footer__nav_ulist">
+				<li>
+					<dl class="footer__nav_link">
+						<dt class="footer__nav_link_ttl"><a href="company/">企業情報</a></dt>
+						<dd class="footer__nav_link_cell"><a href="company/message/">社長挨拶</a></dd>
+						<dd class="footer__nav_link_cell"><a href="company/philosophy/">経営理念</a></dd>
+						<dd class="footer__nav_link_cell"><a href="company/outline/">会社概要 </a></dd>
+						<dd class="footer__nav_link_cell"><a href="company/officer/">役員一覧</a></dd>
+						<dd class="footer__nav_link_cell"><a href="company/history/">沿革</a></dd>
+						<dd class="footer__nav_link_cell"><a href="company/network/">事業拠点</a></dd>
+						<dd class="footer__nav_link_cell"><a href="company/affiliated/">関係会社</a></dd>
+					</dl>
+				</li>
+				<li>
+					<dl class="footer__nav_link">
+						<dt class="footer__nav_link_ttl"><a href="business/">事業・実績紹介</a></dt>
+						<dd class="footer__nav_link_cell"><a href="business/plant/">プラント事業</a></dd>
+						<dd class="footer__nav_link_cell"><a href="business/air-conditioning/">空調設備事業 </a></dd>
+						<dd class="footer__nav_link_cell"><a href="business/facilities/">電設・建築事業</a></dd>
+						<dd class="footer__nav_link_cell"><a href="business/distribution/">電力・情報流通事業</a></dd>
+						<dd class="footer__nav_link_cell"><a href="business/overseas/">海外事業</a></dd>
+					</dl>
+				</li>
+				<li>
+					<dl class="footer__nav_link">
+						<dt class="footer__nav_link_ttl"><a href="technology/">技術紹介</a></dt>
+
+						<dd class="footer__nav_link_cell"><a href="technology/data-center/omega-aria/">データセンター関連<br><span class="nml7">（空調）</span></a></dd>
+						<dd class="footer__nav_link_cell"><a href="technology/facilities/demolition/">建築工事関連</a></dd>
+						<dd class="footer__nav_link_cell"><a href="technology/solar-power/epc/">太陽光発電関連</a></dd>
+						<dd class="footer__nav_link_cell"><a href="technology/transmit/overhead/">送電工事関連 </a></dd>
+						<dd class="footer__nav_link_cell"><a href="technology/ict/lan/">情報通信関連</a></dd>
+						<dd class="footer__nav_link_cell"><a href="technology/schneider/">シュナイダーエレクト<br>リック製品（APC）</a></dd>
+						<dd class="footer__nav_link_cell"><a href="technology/etc/snow-melting/">その他</a></dd>
+						<dd class="footer__nav_link_cell"><a href="technology/catalog/">カタログダウンロード</a></dd>
+					</dl>
+				</li>
+				<li>
+					<dl class="footer__nav_link">
+						<dt class="footer__nav_link_ttl"><a href="ir/">IR情報</a></dt>
+						<dd class="footer__nav_link_cell"><a href="ir/management/">経営方針</a></dd>
+						<dd class="footer__nav_link_cell"><a href="ir/financial/">財務・業績ハイライト</a></dd>
+						<dd class="footer__nav_link_cell"><a href="ir/library/">IRライブラリー</a></dd>
+						<dd class="footer__nav_link_cell"><a href="ir/information/">株主・株式情報</a></dd>
+						<dd class="footer__nav_link_cell"><a href="ir/calendar/">IRカレンダー</a></dd>
+						<dd class="footer__nav_link_cell"><a href="ir/announcement.html">電子公告</a></dd>
+						<dd class="footer__nav_link_cell"><a href="ir/disclosure/">ディスクロージャー<br>ポリシー</a></dd>
+					</dl>
+				</li>
+				<li>
+					<dl class="footer__nav_link">
+						<dt class="footer__nav_link_ttl"><a href="csr/">CSR</a></dt>
+						<dd class="footer__nav_link_cell"><a href="csr/policy/">CSR 関連基本方針</a></dd>
+						<dd class="footer__nav_link_cell"><a href="csr/activities/">CSR 活動実績</a></dd>
+					</dl>
+					<dl class="footer__nav_link">
+						<dt class="footer__nav_link_ttl"><a href="http://www.ffec.co.jp/recruit/" target="_blank">採用情報</a></dt>
+						<dd class="footer__nav_link_cell"><a href="http://www.ffec.co.jp/recruit/info/" target="_blank">新卒採用</a></dd>
+						<dd class="footer__nav_link_cell"><a href="http://www.ffec.co.jp/recruit/career.html" target="_blank">キャリア採用</a></dd>
+					</dl>
+					<ul class="footer__nav_link">
+						<li class="footer__nav_link_cell sp_ttl"><a href="contact/">お問い合わせ</a></li>
+						<li class="footer__nav_link_cell sp_ttl"><a href="news/">ニュースリリース</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div id="footer__address_warp">
+		<div id="footer__address" class="base_wide clearfix">
+			<div id="footer__log"><a href=""><img src="assets/images/base/img_footer_logo.png" alt="富士古河E&amp;C株式会社" width="198" height="37"></a></div>
+			<ul id="footer__subnav">
+				<li><a href="sitemap/">サイトマップ</a></li>
+				<li><a href="privacy/">個人情報保護方針</a></li>
+				<li><a href="siteuse/">ご利用にあたって</a></li>
+			</ul>
+			<small id="footer__copy"><img src="assets/images/base/img_footer_copy.png" alt="&copy; Fuji Furukawa Engineering &amp; Construction Co. Ltd." width="302" height="13"></small>
+		</div>
+	</div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,544 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>株式会社ジェイホールディングス</title>
+<meta name="title" content="株式会社ジェイホールディングス" />
+<meta name="keywords" content="2721,不動産コンサルティング,売買仲介,プロパティマネジメント,モバイル向けアプリケーション開発,Webアプリケーション開発,フットサル" />
+<meta name="description" content="株式会社ジェイホールディングスは、お客様の様々な課題の解決のために不動産に関連したファシリティのご提供やIoT技術を活用し価値のあるサービスを提供する開発・コンサルティングを行っています。また地域社会へ貢献するためスポーツ事業にも取り組んでおります。" />
+<meta property="og:title" content="株式会社ジェイホールディングス" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://jholdings.co.jp/" />
+<meta property="og:image" content="http://jholdings.co.jp/common/img/ogp2.png" />
+<meta property="og:site_name" content="株式会社ジェイホールディングス" />
+<meta property="og:description" content="株式会社ジェイホールディングスは、お客様の様々な課題の解決のために不動産に関連したファシリティのご提供やIoT技術を活用し価値のあるサービスを提供する開発・コンサルティングを行っています。また地域社会へ貢献するためスポーツ事業にも取り組んでおります。" />
+<meta property="og:locale" content="ja_JP" />
+	
+	<link href="../common/css/style.css" rel="stylesheet">
+
+	<script src="../common/js/jquery-3.2.1.min.js"></script>
+	<script src="../common/js/jquery-ui.js"></script>
+
+<!--  --▼ヘッダー共通部分ここから▼------------------------------------------------------------------- -->
+        <script>
+		
+	/* タブ */
+	$(function() {
+                // タブクリック時
+		$('.tab_controllers li').click(function() {
+
+
+			var index = $('.tab_controllers li').index(this);
+			$('.tab_content').css('display','none');
+			$('.tab_content').eq(index).css('display','block');
+			$('.tab_controllers li').removeClass('on');
+			$(this).addClass('on')
+
+                        // body高さ再計算
+                        body_height = $("header").height() + $("article").height() + $("footer").height();
+                        $("body").css("height", body_height);
+		});
+	});
+	</script>
+	<script>
+	/* スマホメニュー */
+	$(function () {
+			var $body = $('body');
+			$('#js__btn').on('click', function () {
+					$body.toggleClass('open');
+					if($(this).hasClass('active')){
+						$(this).removeClass('active');
+					}else{
+						$(this).addClass('active');
+					}
+			});
+			$('.accordion1').on('click', function () {
+					if($('.accordion1_lv2').hasClass('ac_open')){
+						$('.accordion1_lv2').removeClass('ac_open').addClass('ac_close').delay(200).queue(function() {$(this).removeClass('ac_close').dequeue();});
+						$('.accordion1').removeClass('op');
+					}else{
+						$('.accordion1_lv2').addClass('ac_open');
+						$('.accordion1').addClass('op');
+					}
+			});
+			$('.accordion2').on('click', function () {
+					if($('.accordion2_lv2').hasClass('ac_open')){
+						$('.accordion2_lv2').removeClass('ac_open').addClass('ac_close').delay(200).queue(function() {$(this).removeClass('ac_close').dequeue();});
+						$('.accordion2').removeClass('op');
+					}else{
+						$('.accordion2_lv2').addClass('ac_open');
+						$('.accordion2').addClass('op');
+					}
+			});
+	});
+	</script>
+
+        <link rel="shortcut icon" href="//jholdings.co.jp/favicon.ico?v2" />
+</head>
+	<link href="common/css/top.css" rel="stylesheet">
+	<script>
+	/* ニュースアコーディオン */
+	$(function () {
+			$('.news_accordion').on('click', function () {
+				if(window.innerWidth < 641){
+					if($('.news_accordion_inner').hasClass('ac_open')){
+						$('.news_accordion_inner').removeClass('ac_open');
+						$('.news_accordion').removeClass('op');
+					}else{
+						$('.news_accordion_inner').addClass('ac_open');
+						$('.news_accordion').addClass('op');
+					}
+				}
+			});
+	});
+	</script>
+	<script>
+	/* スクロールイベント */
+	$(function () {
+		var topCcPc = 'common/img/top/top-text.png?v2';
+		var topCcSp = 'common/img/top/SP-top-text.png?v2';
+		var visonCcPc = 'common/img/top/visiontext.png?v2';
+		var visonCcSp = 'common/img/top/SP-visiontext.png?v2';
+		var headerLogoA = 'common/img/top/header-logo.png';
+		var headerLogoB = 'common/img/menu-logoL.png';
+		var topKeyvisualBgPosV = 100;
+		var topKeyvisualBgPosVPer = topKeyvisualBgPosV + '%';
+		var topKeyvisualBgPos = 'center ' + topKeyvisualBgPosVPer;
+		$('#top_keyvisual').css('background-position',topKeyvisualBgPos);
+		if(window.innerWidth > 640){
+			var visionBgPosV = 0;
+			var visionBgPosVPer = visionBgPosV + '%';
+			var visionBgPos = 'center ' + visionBgPosVPer;
+			$('#vision').css('background-position',visionBgPos);
+		}
+		var contentPosition = $('#first_content').offset();
+		var visionPosition = $('#vision').offset();
+		if(window.innerWidth > 640){
+			$('#top_cc').attr('src',topCcPc);
+			$('#vision_cc').attr('src',visonCcPc);
+		}
+		$(window).resize(function() {
+			if(window.innerWidth > 640){
+				$('#top_cc').attr('src',topCcPc);
+				$('#vision_cc').attr('src',visonCcPc);
+			}else{
+				$('#top_cc').attr('src',topCcSp);
+				$('#vision_cc').attr('src',visonCcSp);
+			}
+			var contentPosition = $('#first_content').offset();
+			var visionPosition = $('#vision').offset();
+		});
+		$(window).scroll(function() {
+			var currentPosition = $(window).scrollTop();
+			//console.log(currentPosition);
+			var topKeyvisualBgPosV = 100 - currentPosition / 10;
+			if(topKeyvisualBgPosV < 0){
+				topKeyvisualBgPosV = 0;
+			}
+			var topKeyvisualBgPosVPer = topKeyvisualBgPosV + '%';
+			var topKeyvisualBgPos = 'center ' + topKeyvisualBgPosVPer;
+			$('#top_keyvisual').css('background-position',topKeyvisualBgPos);
+			var currentPositionBottom = currentPosition + $(window).height()
+			if(contentPosition.top - 70 <= currentPosition){
+				$('header').removeClass('header2');
+				$('header').addClass('header1');
+				$('#header_logo').attr('src',headerLogoB);
+				//console.log('Y');
+			}else{
+				//console.log('N');
+				$('header').addClass('header2');
+				$('header').removeClass('header1');
+				$('#header_logo').attr('src',headerLogoA);
+			}
+			if(window.innerWidth > 640){
+				if(visionPosition.top <= currentPositionBottom){
+			var visionBgPosV = 100 - (currentPositionBottom - visionPosition.top) / 15;
+			if(visionBgPosV < 0){
+				visionBgPosV = 0;
+			}
+			var visionBgPosVPer = visionBgPosV + '%';
+			var visionBgPos = 'center ' + visionBgPosVPer;
+			$('#vision').css('background-position',visionBgPos);
+					var eventPosition = currentPositionBottom - visionPosition.top + 250;
+					var eventPositionSet = -600 + (eventPosition / 1.5);
+					var opacitySet = (eventPosition / 500) - 1;
+					var eventPositionSetPx =  eventPositionSet + 'px';
+					if($('.copy').hasClass('eventOn')){
+						if(eventPositionSet < 0){
+							$('.copy').css('right',eventPositionSetPx);
+						}
+						if(eventPositionSet < 0){
+							$('.copy > img').css('opacity',opacitySet);
+						}
+					}else{
+					$('.copy').css('right','-500px');
+					$('.copy > img').css('opacity','0');
+					}
+					$('.copy').addClass('eventOn');
+					$('.vision_txt').addClass('eventOn');
+				}else{
+				}
+				$('.vision_txt').css('right','-500px');
+				if(visionPosition.top  <= currentPositionBottom - 0){
+					var eventPosition = currentPositionBottom - visionPosition.top + 250;
+					//console.log(eventPosition + 'px');
+					var eventPositionSet = -0 + (eventPosition / 1.5);
+					var opacitySetB = (eventPosition / 500) - 1;
+					var eventPositionSetPx =  eventPositionSet + 'px';
+					if(eventPosition > 0 ){
+						var visionTxtPos = ((eventPosition - 1000))
+						if(visionTxtPos > -50){
+							visionTxtPos = -50;
+						}
+						var visionTxtPosPx  = visionTxtPos + 'px';
+						$('.vision_txt').css('right',visionTxtPosPx);
+						$('.vision_txt').css('opacity',opacitySetB);
+					}
+				}
+			}
+		});
+	});
+	</script>
+	<script>
+	/* maap初回タップ対応 */
+	$(function () {
+		$('#map_overlay').on('click', function () {
+			$(this).css('display','none');
+		});
+	});
+	</script>
+</head>
+<body>
+	<header class="header2">
+		<p class="logo"><a href="/"><img id="header_logo" src="common/img/top/header-logo.png" alt="J-HOLDINGS" /></a></p>
+		<div class="menu-btn" id="js__btn">
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+		<nav class="menu" id="js__nav">
+			<ul>
+				<li><a href="/">HOME</a></li>
+				<li><a class="accordion1">会社概要</a></li>
+				<li class="accordion1_lv2"><a href="../company/corp.html">会社概要</a></li>
+				<li class="accordion1_lv2"><a href="../company/president.html">代表者ご挨拶</a></li>
+				<li class="accordion1_lv2"><a href="../company/policy.html">経営理念</a></li>
+				<li class="accordion1_lv2"><a href="../company/yakuin.html">役員</a></li>
+				<li class="accordion1_lv2"><a href="../company/group.html">グループ企業一覧</a></li>
+				<li class="accordion1_lv2"><a href="../company/governance.html">コーポレート・ガバナンス</a></li>
+				<li><a class="accordion2">IR・投資家情報</a></li>
+				<li class="accordion2_lv2"><a href="../ir/index.html">IR・投資家情報</a></li>
+				<li class="accordion2_lv2"><a href="../ir/stock-info.html">株式関連情報</a></li>
+				<li class="accordion2_lv2"><a href="../ir/disclosure.html">ディスクロージャー・ポリシー</a></li>
+				<li><a href="../home/contact.html">お問い合わせ</a></li>
+			</ul>
+		</nav>
+		<div id="header_menu_pc">
+			<nav>
+				<ul class="top_nav">
+					<li class="dropdown_parent">
+						<a href="../company/corp.html">会社概要<span>COMPANY</span></a>
+						<ul class="dropdown_menu1">
+							<li><a href="../company/president.html">代表者ご挨拶</a></li>
+							<li><a href="../company/policy.html">経営理念</a></li>
+							<li><a href="../company/yakuin.html">役員</a></li>
+							<li><a href="../company/group.html">グループ企業一覧</a></li>
+							<li><a href="../company/governance.html">コーポレート・ガバナンス</a></li>
+						</ul>
+					</li>
+					<li class="dropdown_parent">
+						<a href="../ir/index.html">IR・投資家情報<span>INVESTOR RELASTIONS</span></a>
+						<ul class="dropdown_menu2">
+							<li><a href="../ir/index.html?tab=0">適時開示</a></li>
+							<li><a href="../ir/index.html?tab=1">決算情報</a></li>
+							<li><a href="../ir/index.html?tab=2">IRニュース</a></li>
+							<li><a href="../ir/index.html?tab=3">プレスリリース</a></li>
+							<li><a href="../ir/stock-info.html">株式関連情報</a></li>
+							<li><a href="../ir/disclosure.html" class="dm_small">ディスクロージャー・<br />ポリシー</a></li>
+						</ul>
+					</li>
+					<li><a href="../home/contact.html">お問い合わせ<span>CONTACT</span></a></li>
+				</ul>
+
+
+			</nav>
+		</div>
+	</header>
+	<div id="skrollr-body">
+	<article>
+		<div id="top_keyvisual">
+			<h1 class="top_txt"><img id="top_cc" src="common/img/top/SP-top-text.png?v2" alt="Link to the future 未来へつなぐ新たな創造を"></h1>
+			<div class="top_scroll"><img src="common/img/top/scroll.png" alt="scroll" /></div>
+		</div>
+		<section id="first_content" class="bg_gray mobile_pad pb30">
+			<div class="pt40 pb40">
+				<h2 class="headline_lv2">NEWS<span>最新情報</span></h2>
+			</div>
+			<div class="pc_fix news_outer">
+                                <div style="display:table;">
+				    <div class="news_area">
+					<h3 class="headline_lv3">適時開示</h3>
+					<div class="more_button"><a href="ir/index.html?tab=0"><img src="common/img/more_btn.png" alt="MORE" /></a></div>
+					<ul>
+<li>
+    <time>2017.08.14</time>
+    <a class="pdf_link" href=".././data/617/「継続企業の前提に関する重要事象等」の解消に関するお知らせ.pdf" target="_blank">
+        「継続企業の前提に関する重要事象等」の解消に関するお知らせ (318KB)    </a>
+</li>
+<li>
+    <time>2017.08.14</time>
+    <a class="pdf_link" href=".././data/616/繰延税金資産計上に関するお知らせ.pdf" target="_blank">
+        繰延税金資産計上に関するお知らせ (119KB)    </a>
+</li>
+<li>
+    <time>2017.07.31</time>
+    <a class="pdf_link" href=".././data/614/子会社による販売用不動産の取得に関するお知らせ.pdf" target="_blank">
+        子会社による販売用不動産の取得に関するお知らせ (158KB)    </a>
+</li>
+<li>
+    <time>2017.07.07</time>
+    <a class="pdf_link" href=".././data/613/子会社による販売用不動産の取得及び売却に関するお知らせ.pdf" target="_blank">
+        子会社による販売用不動産の取得及び売却に関するお知らせ (158KB)    </a>
+</li>
+<li>
+    <time>2017.06.30</time>
+    <a class="pdf_link" href=".././data/612/子会社による成功報酬の受領に関するお知らせ.pdf" target="_blank">
+        子会社による成功報酬の受領に関するお知らせ (146KB)    </a>
+</li>
+					</ul>
+				    </div>
+				    <div class="news_area">
+					<h3 class="headline_lv3">IRニュース</h3>
+					<div class="more_button"><a href="ir/index.html?tab=2"><img src="common/img/more_btn.png" alt="MORE" /></a></div>
+					<ul>
+<li>
+    <time>2017.08.14</time>
+    <a class="pdf_link" href=".././data/620/決算説明資料　平成２９年１２月期　第２四半期.pdf" target="_blank">
+        平成29年12月期 第2四半期 決算説明資料 (247KB)    </a>
+</li>
+<li>
+    <time>2017.05.15</time>
+    <a class="pdf_link" href=".././data/607/平成29年12月期 第1四半期 決算説明資料.pdf" target="_blank">
+        平成29年12月期 第1四半期 決算説明資料 (2MB)    </a>
+</li>
+<li>
+    <time>2017.03.15</time>
+    <a class="pdf_link" href=".././data/595/第25期定時株主総会招集ご通知に際してのインターネット開示事項.pdf" target="_blank">
+        第25期定時株主総会招集ご通知に際してのインターネット開示事項 (250KB)    </a>
+</li>
+<li>
+    <time>2017.03.01</time>
+    <a class="pdf_link" href=".././data/593/子会社の代表取締役の異動に関するお知らせ.pdf" target="_blank">
+        子会社の代表取締役の異動に関するお知らせ (133KB)    </a>
+</li>
+<li>
+    <time>2016.11.30</time>
+    <a class="pdf_link" href=".././data/576/「臨時株主総会招集通知」の一部修正について.pdf" target="_blank">
+        「臨時株主総会招集通知」の一部修正について (147KB)    </a>
+</li>
+					</ul>
+				    </div>
+                                </div>
+				<div class="news_accordion">
+					<div class="news_area2">
+						<h3 class="headline_lv3">決算資料</h3>
+						<div class="news_accordion_inner">
+							<div class="more_button"><a href="ir/index.html?tab=1"><img src="common/img/more_btn.png" alt="MORE" /></a></div>
+							<ul>
+<li>
+    <time>2017.08.14</time>
+    <a class="pdf_link" href=".././data/619/平成29年12月期第2四半期報告書.pdf" target="_blank">
+        平成29年12月期第2四半期報告書 (706KB)    </a>
+</li>
+<li>
+    <time>2017.08.14</time>
+    <a class="pdf_link" href=".././data/618/平成29年12月期第２四半期決算短信〔日本基準〕(連結).pdf" target="_blank">
+        平成29年12月期第２四半期決算短信〔日本基準〕(連結) (263KB)    </a>
+</li>
+<li>
+    <time>2017.05.15</time>
+    <a class="pdf_link" href=".././data/610/平成29年12月期第1四半期報告書.pdf" target="_blank">
+        平成29年12月期第1四半期報告書 (269KB)    </a>
+</li>
+<li>
+    <time>2017.05.15</time>
+    <a class="pdf_link" href=".././data/609/平成29年12月期第１四半期決算短信〔日本基準〕(連結).pdf" target="_blank">
+        平成29年12月期第１四半期決算短信〔日本基準〕(連結) (268KB)    </a>
+</li>
+<li>
+    <time>2017.03.31</time>
+    <a class="pdf_link" href=".././data/600/平成28年12月期 有価証券報告書.pdf" target="_blank">
+        平成28年12月期 有価証券報告書 (826KB)    </a>
+</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="stock bg_lightblue pt20 pb20">
+				<div class="pc_fix">
+					<h3 class="headline_lv3">株価情報</h3>
+					<div class="stock_timestamp"><time>08/21 18:05</time><br class="sp_only" /><span>(20mins delayed)</span></div>
+					<div class="stock_name">JASDAQ(2721)ジェイホールディングス</div>
+					<div class="stock_price"><span>&yen;</span>874</div>
+					<div class="stock_detail">
+						<dl>
+							<dt>前日比</dt>
+							<dd>-36<span>(-3.96%)</span></dd>
+							<dt>出来高<span>(08/21 15:00)</span></dt>
+							<dd>161,200</dd>
+						</dl>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="vision" class="mobile_pad vision">
+			<div class="pt40 pb40">
+				<h2 class="headline_lv2 white">VISION<span>経営理念</span></h2>
+			</div>
+			<div class="pt30 pb30 pc_fix">
+				<div class="vision_cover"></div>
+				<div class="copy_area">
+					<div class="copy"><img id="vision_cc" src="common/img/top/SP-visiontext.png?v2" /></div>
+				</div>
+				<div class="copy_area_b">
+					<p class="vision_txt">
+                                            私たちは、自らの付加価値の向上と創造的変革に挑戦し<br>
+                                            世の中の様々な課題に対しサービス提供者として<br>
+                                            最良のソリューションを提供することにより<br>
+                                            社会に必要とされる企業となるとともに<br>
+                                            ステークホルダーに期待と満足を提供できる<br>
+                                            そのような企業となることを目指してまいります。
+                                        </p>
+				</div>
+			</div>
+		</section>
+		<section class="bg_lightblue pb40 mobile_pad">
+			<div class="pt40 pb40">
+				<h2 class="headline_lv2">ACCESS<span>アクセス</span></h2>
+			</div>
+			<div class="map">
+				<div id="map" style="width:100%;height:370px;"></div>
+				<div id="map_overlay" ></div>
+			</div>
+			<script>
+				function initMap() {
+					var mark = {lat: 35.661848, lng: 139.756000};
+					var map = new google.maps.Map(document.getElementById('map'), {
+						zoom: 17,
+						center: mark,
+						scrollwheel: false,
+						styles:[
+							{
+								"featureType": "all",
+								"stylers": [
+									{ "hue": "#0099ff" }
+								]
+							}
+						],
+						scrollwheel: false
+					});
+					var marker = new google.maps.Marker({
+						position: mark,
+						map: map,
+						icon:"common/img/top/marker.png"
+					});
+				}
+			</script>
+			<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDjJzGON4LDIP-PhSGvrHK9WBC6IvwbXkM&callback=initMap"></script>
+			<div class="pt30 pb30 access">
+				<div class="pc_fix">
+					<p class="font14 address">〒105-0004<br>東京都港区新橋五丁目 14 番 10 号<br>新橋スクエアビル 5 階</p>
+					<div class="railroads">
+						<dl class="railroad">
+							<dt>JR</dt>
+							<dd>「新橋」駅 烏森口より 徒歩5分</dd>
+						</dl>
+						<dl class="railroad">
+							<dt>都営地下鉄浅草線</dt>
+							<dd>「新橋」駅 烏森口より 徒歩5分</dd>
+						</dl>
+						<dl class="railroad">
+							<dt>東京メトロ銀座線</dt>
+							<dd>「新橋」駅 烏森口より 徒歩5分</dd>
+						</dl>
+					</div>
+				</div>
+			</div>
+			<div class="googlemap_button"><a href="https://www.google.co.jp/maps/place/%EF%BC%88%E6%A0%AA%EF%BC%89%E3%82%B8%E3%82%A7%E3%82%A4%E3%83%9B%E3%83%BC%E3%83%AB%E3%83%87%E3%82%A3%E3%83%B3%E3%82%B0%E3%82%B9/@35.666253,139.751288,15z/data=!4m5!3m4!1s0x0:0xb4ce4824b2d8bc1f!8m2!3d35.666253!4d139.751288" target="_blank">Google Mapで見る</a></div>
+		</section>
+	</article>
+        <!--  --▼共通フッターここから▼---------------------------------------------------------------------- -->		
+	<footer>
+		<div class="center pt30 pb20"><img src="../common/img/footer-logo.png" alt="J-HOLDINGS" /></div>
+					<div class="footer_jasdaq_code">
+						<img src="../common/img/footer-jasdaq.png" alt="東証jasdaq上場" />
+						<p>証券コード<br />2721</p>
+					</div>
+		<div class="pt20">
+			<aside>
+				<div class="half">
+					<p id="footer_company" class="hedline_footer">会社概要<span>COMPANY</span></p>
+					<ul>
+						<li><a href="../company/corp.html">会社概要</a></li>
+						<li><a href="../company/president.html">代表ご挨拶</a></li>
+						<li><a href="../company/policy.html">経営理念</a></li>
+						<li><a href="../company/yakuin.html">役員</a></li>
+						<li><a href="../company/group.html">グループ企業一覧</a></li>
+						<li><a href="../company/governance.html">コーポレートガバナンス</a></li>
+					</ul>
+				</div>
+				<div class="half">
+					<p id="footer_investor" class="hedline_footer">IR・投資家情報<span>INVESTOR RELATIONS</span></p>
+					<ul>
+						<li><a href="../ir/index.html">IR・投資家情報</a></li>
+						<li><a href="../ir/index.html?tab=0">適時開示</a></li>
+						<li><a href="../ir/index.html?tab=1">決算情報</a></li>
+						<li><a href="../ir/index.html?tab=2">IRニュース</a></li>
+						<li><a href="../ir/index.html?tab=3">プレスリリース</a></li>
+						<li><a href="../ir/stock-info.html">株式関連情報</a></li>
+						<li><a href="../ir/disclosure.html">ディスクロージャーポリシー</a></li>
+					</ul>
+				</div>
+				<div class="half">
+					<p id="footer_contact" class="hedline_footer">お問い合わせ<span>CONTACT</span></p>
+					<ul>
+						<li><a href="../home/contact.html">お問い合わせ</a></li>
+						<li><a href="../home/site-policy.html">当サイトご利用にあたって</a></li>
+						<li><a href="../home/privacy-policy.html">プライバシーポリシー</a></li>
+					</ul>
+				</div>
+				<div class="pc_fix">
+					<div class="footer_banner vertical_banner">
+						<a href="http://sc225.jp/" target="_blank"><img src="../common/img/footer-synergyL.png"alt="株式会社シナジー・コンサルティング" /><span class="block">株式会社シナジー・コンサルティング</span></a>
+					</div>
+					<div class="footer_banner">
+						<a href="http://2960.jp/" target="_blank"><img src="../common/img/footer-fukurouL.png" alt="株式会社フクロウ" /><span class="block">株式会社フクロウ</span></a>
+					</div>
+					<div class="footer_banner">
+						<a href="http://j-spo.co.jp/" target="_blank"><img src="../common/img/footer-jsportsL.png" alt="株式会社ジェイスポーツ" /><span class="block">株式会社ジェイスポーツ</span></a>
+					</div>
+				</div>
+			</aside>
+		</div>
+		<p class="copyright">Copyright &copy; J HOLDINGS Co., Ltd. All Rights Reserved.</p>
+	</footer>
+		</div>
+	<script src="../common/js/skrollr_mod.js"></script>
+	<script type="text/javascript">
+		var s = skrollr.init();
+	</script>
+
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        
+          ga('create', 'UA-98102164-1', 'auto');
+          ga('send', 'pageview');
+        
+        </script>
+</body>
+</html>

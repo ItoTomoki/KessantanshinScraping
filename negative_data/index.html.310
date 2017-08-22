@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="ie6" lang="ja"> <![endif]-->
+<!--[if IE 7]> <html class="ie7" lang="ja"> <![endif]-->
+<!--[if IE 8]> <html class="ie8" lang="ja"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="ja"> <!--<![endif]-->
+<head>
+<link rel="shortcut icon" href="/favicon.ico">
+<meta charset="utf-8">
+<!--[if lt IE 9]>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<![endif]-->
+
+<meta name="viewport" content="user-scalable=yes, width=1200px">
+<meta name="format-detection" content="telephone=no"><title>ITソリューションの株式会社クエスト</title>
+<meta name="description" content="株式会社クエストはシステム開発・保守、インフラサービス等の事業を通じ、先端的IT技術でより高い次元のサービスモデル・ソリューションモデルを作り、コンサルティングからシステムの構築、運用・保守までワンストップサービスの提供を展開しております。">
+<meta name="keywords" content="株式会社クエスト,システム開発,IT,ソリューション,インフラ">
+<link rel="canonical" href="http://www.quest.co.jp/">
+
+<!-- ページ共通のCSSファイル開始-->
+<link rel="stylesheet" type="text/css" href="/css/common/reset.css?v=1" media="all">
+<link rel="stylesheet" type="text/css" href="/css/common/base.css?v=1" media="all">
+<link rel="stylesheet" type="text/css" href="/css/common/common.css?v=1" media="all">
+<link rel="stylesheet" type="text/css" href="/css/common/module.css?v=1" media="all">
+<link rel="stylesheet" type="text/css" href="/css/common/print.css?v=1" media="print">
+<!-- ページ共通のCSSファイル終了-->
+
+<!-- ページ共通のJSファイル開始-->
+<script type="text/javascript" src="/js/common/jquery-1.8.3.js?v=1"></script>
+<script type="text/javascript" src="/js/common/jquery.easing.1.3.js?v=1"></script>
+<script type="text/javascript" src="/js/common/css_browser_selector.js?v=1"></script>
+<script type="text/javascript" src="/js/common/common.js?v=1"></script>
+<!--[if lt IE 9]>
+<script type="text/javascript" src="/js/common/html5shiv.js?v=1"></script>
+<![endif]-->
+<!-- ページ共通のJSファイル終了-->
+
+<!-- ページ固有のCSSファイル開始-->
+<link rel="stylesheet" href="./js/slider/jquery.bxslider.css">
+<link rel="stylesheet" href="./js/slider/slick.css">
+<link rel="stylesheet" type="text/css" href="./css/top.css?v=1" media="all">
+<!-- ページ固有のCSSファイル終了-->
+
+<!-- ページ固有のJSファイル開始-->
+<script type="text/javascript" src="./js/slider/jquery.bxslider.js"></script>
+<script type="text/javascript" src="./js/jquery.matchHeight.js"></script>
+<script type="text/javascript" src="./js/slider/slick.min.js"></script>
+<script type="text/javascript" src="./js/top.js?v=1"></script>
+<!-- ページ固有のJSファイル終了-->
+
+<!-- GoogleGoogleAnalyticsここから/************************************************************************ -->
+<script type="text/javascript" language="javascript" src="/js/analytics.js" charset="shift_jis"></script>
+<script type="text/javascript" language="javascript" src="/js/analytics_old.js" charset="shift_jis"></script>
+<script type="text/javascript" language="javascript" src="/js/analytics_47ps.js" charset="shift_jis"></script>
+<!-- /GoogleGoogleAnalyticsここまで************************************************************************ --></head>
+
+<body id="pagetop">
+<div style="height: 0px; width:1200px; position:relative;">　</div>
+<script> $(window).on("scroll", function(){ $(".l-header-wrap").css("left", -$(window).scrollLeft()); }); </script>
+<div class="l-header-wrap">
+<header class="l-header clearfix">
+	<p class="logo"><a href="/"><img src="/images/common/logo.png" alt="Quest 株式会社クエスト"></a></p>
+
+    <div class="l-header-right clearfix">
+        <div class="l-header-right-leftcon">
+            <ul class="clearfix fs11">
+                <li><a href="/company/partner/#4">パートナー募集</a></li>
+                <li><a href="/sitemap/">サイトマップ</a></li>
+                <li class="mr0"><a href="/english/index.html">English</a></li>
+            </ul>
+            <div class="search">
+                <!-- GoogleSiteSearch Box -->
+                <script type="text/javascript" language="javascript" src="/js/gs.js"></script>
+                <gcse:search></gcse:search>
+                <!-- GoogleSiteSearch Box -->
+            </div>
+        </div>
+        <p class="top-contact"><a href="https://home.quest.co.jp/contact_001/"><img src="/images/common/contact.jpg" alt="お問い合せ" class="imghover"></a></p>
+    </div>
+
+    <nav class="l-gNav fs13">
+        <ul class="clearfix">
+            <li class="l-gNav-01"><a href="/">ホーム</a></li>
+
+            <li class="l-gNav-02"><a href="/solution/">ソリューション</a>
+<!--
+                <div class="meganav-wrap">
+                    <div class="meganav clearfix">
+                        <ul class="meganav-in fs13">
+                            <li class="meganav-mh fs14 mg-icn01 mb15">設計・開発</li>
+                            <li><a href="">サーバ設計・構築</a></li>
+                            <li><a href="">ネットワーク設計・構築</a></li>
+                            <li><a href="">アプリケーション設計・開発</a></li>
+                        </ul>
+                        <ul class="meganav-in">
+                            <li class="meganav-mh fs14 mg-icn02 mb15">運用・保守</li>
+                            <li><a href="">アプリケーション運用</a></li>
+                            <li><a href="">リモート監視・運用サービス</a></li>
+                            <li><a href="">運用アウトソーシング</a></li>
+                            <li><a href="">ITサービスマネジメント<br>（ITSM）</a></li>
+                        </ul>
+                        <ul class="meganav-in">
+                            <li class="meganav-mh fs14 mg-icn03 mb15">トータルサービス</li>
+                            <li><a href="">IT Value-Upサービス</a></li>
+                            <li><a href="">IT基盤サービス</a></li>
+                            <li><a href="">スマートデバイスプロフェッショナルサービス</a></li>
+                            <li><a href="">ITトータル支援サービス</a></li>
+                            <li><a href="">Q-MSS<br>（Quest Managed Security Service）</a></li>
+                        </ul>
+                        <ul class="meganav-in">
+                            <li class="meganav-mh fs14 mg-icn04 mb15">製品</li>
+                            <li><a href="">WAPPLES</a></li>
+                            <li><a href="">次世代ファイアウォール<br>パロアルトネットワークスPAシリーズ</a></li>
+                            <li><a href="">FinalCode<br>（暗号化ソフト）</a></li>
+                            <li><a href="">Microsoft Dynamics AX</a></li>
+                            <li><a href="">マイナンバー収集と保管サービス</a></li>
+                        </ul>
+                        <ul class="meganav-in">
+                            <li class="meganav-mh fs14 mg-icn05 mb15">パッケージ</li>
+                            <li><a href="">BASQUET</a></li>
+                            <li><a href="">帳票トータルソリューション</a></li>
+                            <li><a href="">Microsoft SharePoint 開発支援</a></li>
+                        </ul>
+                    </div>
+                </div>
+-->
+            </li>
+
+            <li class="l-gNav-03"><a href="/seminar/">セミナー</a></li>
+
+            <li class="l-gNav-06"><a href="/company/" class="meganav-triangle">会社情報</a>
+                <div class="meganav-wrap">
+                    <div class="meganav clearfix mgnv-02">
+                        <ul class="meganav-in fs13 mgnv-in-02">
+                            <li class="meganav-mh fs14 mg-icn06 mb15">新着情報、セミナー</li>
+                            <li><a href="/news/">新着情報一覧</a></li>
+                            <li><a href="/seminar/">セミナーのご案内</a></li>
+                        </ul>
+                        <ul class="meganav-in mgnv-in-03 clearfix">
+                                <li class="meganav-mh fs14 mg-icn07 mb15">会社情報</li>
+                            <div class="mgnv-in-03-left">
+                                <li><a href="/company/">会社情報</a></li>
+                                <li><a href="/company/message/">代表メッセージ</a></li>
+                                <li><a href="/company/management/">経営理念</a></li>
+                                <li><a href="/company/about/">会社概要・事業所・認証等</a></li>
+                            </div>
+                            <div class="mgnv-in-03-right">
+                                <li><a href="/company/history/">沿革</a></li>
+                                <li><a href="/company/system/">組織体制</a></li>
+                                <li><a href="/company/partner/">ビジネスパートナー</a></li>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+
+            <li class="l-gNav-05"><a href="/irinfo/" class="meganav-triangle">IR情報</a>
+                <div class="meganav-wrap">
+                    <div class="meganav clearfix">
+                        <ul class="meganav-in fs13">
+                            <li class="meganav-mh fs14 mg-icn09 mb15">IR情報</li>
+                            <li><a href="/irinfo/">IR情報トップ</a></li>
+                            <li><a href="/irinfo/massage/">株主、投資家の皆様へ</a></li>
+                            <li><a href="/irinfo/governance/">コーポレート・ガバナンス</a></li>
+                            <li><a href="/irinfo/control-policy/">内部統制基本方針</a></li>
+                            <li><a href="/irinfo/policy/">ディスクロージャーポリシー</a></li>
+                        </ul>
+                        <ul class="meganav-in">
+                            <li class="meganav-mh fs14 mg-icn10 mb15">IRカレンダー</li>
+                            <li><a href="/irinfo/schedule/">IRカレンダー</a></li>
+                        </ul>
+                        <ul class="meganav-in">
+                            <li class="meganav-mh fs14 mg-icn11 mb15">IRライブラリ</li>
+                            <li><a href="/irinfo/news/">IRニュース</a></li>
+                            <li><a href="/irinfo/financial-results/">決算短信</a></li>
+                            <li><a href="/irinfo/securities/">有価証券報告書</a></li>
+                            <li><a href="/irinfo/explanation/">決算説明会資料</a></li>
+                            <li><a href="/irinfo/koukoku/">電子公告</a></li>
+                        </ul>
+                        <ul class="meganav-in">
+                            <li class="meganav-mh fs14 mg-icn12 mb15">経営の概況</li>
+                            <li><a href="/irinfo/condition/">経営の概況</a></li>
+                        </ul>
+                        <ul class="meganav-in">
+                            <li class="meganav-mh fs14 mg-icn13 mb15">株式・株主総会情報</li>
+                            <li><a href="/irinfo/stocks/">株式基本情報</a></li>
+                            <li><a href="/irinfo/zaimu/">株主総会</a></li>
+                            <li class="meganav-mh fs14 mg-icn14 mb15 mt15">お問い合わせ等</li>
+                            <li><a href="/irinfo/faq_answer/">よくあるご質問と回答</a></li>
+                            <li><a href="https://home.quest.co.jp/contact_001/">お問い合わせ</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+
+            <li class="l-gNav-04"><a href="/adoption/index.html" class="meganav-triangle">採用情報</a>
+                <div class="meganav-wrap">
+                    <div class="meganav clearfix mgnv-02">
+                        <ul class="meganav-in fs13">
+                            <li class="meganav-mh fs14 mg-icn06 mb15">採用情報</li>
+                            <li><a href="/adoption/index.html">採用情報トップページ</a></li>
+                            <li><a href="/adoption/shinsotu_top.html">新卒採用トップページ</a></li>
+                            <li><a href="/adoption/keiken_top.html">経験者採用トップページ</a></li>
+                            <li><a href="/adoption/president.html">社長からのメッセージ</a></li>
+                        </ul>
+                        <ul class="meganav-in">
+                            <li class="meganav-mh fs14 mg-icn07 mb15">新卒採用</li>
+                            <li><a href="/adoption/zinzai.html">求める人材</a></li>
+                            <li><a href="/adoption/shinsotu_interview_top.html">Questする先輩にInterview</a></li>
+                            <li><a href="/adoption/shinsotuyouko.html">募集要項</a></li>
+                            <li><a href="/adoption/corpinfo.html">事業内容</a></li>
+                            <li><a href="/adoption/education.html">教育制度</a></li>
+                        </ul>
+                        <ul class="meganav-in">
+                            <li class="meganav-mh fs14 mg-icn08 mb15">経験者採用</li>
+                            <li><a href="/adoption/keiken_interview_top.html">Questする先輩にInterview</a></li>
+                            <li><a href="/adoption/taigu.html">募集要項（全職種共通）</a></li>
+                            <li><a href="/adoption/keiken_top.html">現在募集中の職種</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <h1 class="fs10">ITソリューションの株式会社クエスト</h1>
+</header><!-- l-header -->
+</div>
+
+<div class="l-pageBody">
+<!--     メインビジュアル 2パターン     -->
+<ul class="bxslider">
+    <li class="p-slide">
+        <a href="./company/"><img src="./images/top/mainv_01.jpg" alt="技術を探求し、価値を創造し、お客様とともに成長する。　会社情報はこちら"/></a>
+    </li>
+    <li class="p-slide">
+        <a href="./solution/index.html"><img src="./images/top/mainv_02.jpg" alt="誠意・熱意あるプロフェッショナルとして情報技術を探求する。　ソリューションはこちら"/></a>
+    </li>
+    <li class="p-slide">
+         <a href="./adoption/index.html"><img src="./images/top/mainv_03.jpg" alt="夢ある未来に向けてお客様とともに成長し続ける。　採用情報はこちら"/></a>
+    </li>
+</ul>
+<!--
+<ul class="bxslider">
+    <li class="p-slide">
+        <a href="./company/"><img src="./images/top/mainv_001.jpg" alt="技術を探求し、価値を創造し、お客様とともに成長する。　会社情報はこちら"/></a>
+    </li>
+    <li class="p-slide">
+         <a href="./solution/index.html"><img src="./images/top/mainv_002.jpg" alt="誠意・熱意あるプロフェッショナルとして情報技術を探求する。　ソリューションはこちら" /></a>
+    </li>
+    <li class="p-slide">
+        <a href="./adoption/index.html"><img src="./images/top/mainv_003.jpg" alt="夢ある未来に向けてお客様とともに成長し続ける。　採用情報はこちら" /></a>
+    </li>
+</ul>
+-->
+
+<!--ソリューションエリアスタート-->
+    <div class="p-solutions-bg pb70">
+	<section class="p-solutions-wrap">
+	    <div class="clearfix pt85">
+            <h2 class="m-title-head"><img src="./images/top/top_title_02.png" alt="Solutions"><span class="m-title-text-01">ソリューション</span>
+            <span class="m-title-text-02">確かな提案力と技術力で、ITの価値を創造し、お客様の事業に貢献します。</span></h2>
+            <p class="btn-more imghover"><a href="./solution/index.html"><img src="./images/top/more.jpg" alt="MOER"></a></p>
+        </div>
+        <div class="p-solutions mt65 clearfix">
+            <figure class="p-solutions-link-01">
+                <a href="./solution/subject/governance.html" class="p-solutions-link">
+                    <div class="p-solutions-view">
+                        <img src="./images/top/top-solutions_01.jpg" alt="事業の効率化" class="p-solutions-img p-solutions-img-01">
+                        <span class="p-solutions-imghover p-solutions-imghover-01"></span>
+                    </div>
+                    <figcaption>
+                        <h3 class="p-solutions-title-01 fs22">デジタル<br>トランスフォーメーション</h3>
+                        <img src="./images/top/top-solutions-line_01.png" alt="line" class="p-solutions-line">
+                        <p class="fs14">戦略的ITで事業の効率化に貢献</p>
+                        <p class="p-solutions-more"><img src="./images/top/top-solutions_more_01.png" alt="MORE"></p>
+                    </figcaption>
+                </a>
+            </figure>
+            <figure class="p-solutions-link-02">
+                <a href="./solution/subject/optimization.html" class="p-solutions-link">
+                    <div class="p-solutions-view">
+                        <img src="./images/top/top-solutions_02.jpg" alt="インフラの最適化" class="p-solutions-img p-solutions-img-02">
+                        <span class="p-solutions-imghover p-solutions-imghover-02"></span>
+                    </div>
+                    <figcaption>
+                        <h3 class="p-solutions-title-02 fs22">インフラの最適化</h3>
+                        <img src="./images/top/top-solutions-line_02.png" alt="line" class="p-solutions-line">
+                        <p class="fs14">業務にフィットするよう<br>
+                        ITインフラの最適化を実現</p>
+                        <p class="p-solutions-more"><img src="./images/top/top-solutions_more_02.png" alt="MORE"></p>
+                    </figcaption>
+                </a>
+            </figure>
+            <figure class="p-solutions-link-03">
+                <a href="./solution/subject/security.html" class="p-solutions-link">
+                    <div class="p-solutions-view">
+                        <img src="./images/top/top-solutions_03.jpg" alt="セキュリティ強化" class="p-solutions-img p-solutions-img-03">
+                        <span class="p-solutions-imghover p-solutions-imghover-03"></span>
+                    </div>
+                    <figcaption>
+                        <h3 class="p-solutions-title-03 fs22">セキュリティ強化</h3>
+                        <img src="./images/top/top-solutions-line_03.png" alt="line" class="p-solutions-line">
+                        <p class="fs14">ネットワーク、サーバ、クライアント環境に<br>あわせセキュリティ強化を実現</p>
+                        <p class="p-solutions-more"><img src="./images/top/top-solutions_more_03.png" alt="MORE"></p>
+                    </figcaption>
+                </a>
+            </figure>
+            <figure class="p-solutions-link-04 last-child">
+                <a href="./solution/subject/cost.html" class="p-solutions-link">
+                    <div class="p-solutions-view">
+                        <img src="./images/top/top-solutions_04.jpg" alt="コスト削減" class="p-solutions-img p-solutions-img-04">
+                        <span class="p-solutions-imghover p-solutions-imghover-04"></span>
+                    </div>
+                    <figcaption>
+                        <h3 class="p-solutions-title-04 fs22">コスト削減</h3>
+                        <img src="./images/top/top-solutions-line_04.png" alt="line" class="p-solutions-line">
+                        <p class="fs14">ITによる業務見直し、改善で<br>
+                        コスト削減</p>
+                        <p class="p-solutions-more"><img src="./images/top/top-solutions_more_04.png" alt="MORE"></p>
+                    </figcaption>
+                </a>
+            </figure>
+        </div>
+	</section>
+	</div>
+<!--ソリューションエリアエンド-->
+<!--会社情報･採用情報エリアスタート-->
+	<section class="p-company_recruit-wrap">
+	    <div class="clearfix mt85">
+            <h2 class="m-title-head"><img src="./images/top/top_title_01.png" alt="Company・Recruit"><span class="m-title-text-01">会社情報･採用情報</span>
+            <span class="m-title-text-02">クエストは、常に試行を巡らし、たゆまぬ挑戦を続けています。</span></h2>
+            <p class="btn-more imghover"><a href="./company/"><img src="./images/top/more.jpg" alt="MOER"></a></p>
+        </div>
+        <ul class="p-company_recruit mt65 mb70 clearfix">
+            <li><a href="./company/" class="p-company_recruit-link">
+                <img src="./images/top/bk_company_recruit_01.jpg" alt="会社情報イメージ">
+                <img src="./images/top/company_recruit_01.png" alt="Profile　会社情報" class="p-top-company_recruit-imgtext">
+                <span class="p-imghover"></span>
+            </a></li>
+            <li><a href="./adoption/shinsotu_top.html" class="p-company_recruit-link">
+                <img src="./images/top/bk_company_recruit_02.jpg" alt="新卒採用情報イメージ">
+                <img src="./images/top/company_recruit_02.png" alt="Graduate　新卒採用情報" class="p-top-company_recruit-imgtext">
+                <span class="p-imghover"></span>
+            </a></li>
+            <li><a href="./adoption/keiken_top.html" class="p-company_recruit-link">
+                <img src="./images/top/bk_company_recruit_03.jpg" alt="中途採用情報イメージ">
+                <img src="./images/top/company_recruit_03.png" alt="Career　中途採用情報" class="p-top-company_recruit-imgtext">
+                <span class="p-imghover"></span>
+            </a></li>
+        </ul>
+	</section>
+<!--会社情報･採用情報エリアエンド-->
+<!--News・IR情報エリアスタート-->
+    <div class="p-news_IR-wrap-bg">
+    <section class="p-news_IR-wrap clearfix fs13">
+        <div class="p-news-box">
+            <div class="p-news-box-inner">
+                <div class="clearfix mt85">
+                    <h2 class="m-title-head-02"><img src="./images/top/top_title_04.png" alt="News"><span class="m-title-text-01">新着情報</span>
+                    <img src="./images/common/icn_RSS.png" alt="RSS" class="is-rss cursor imghover"></h2>
+                    <p class="btn-more imghover"><a href="./news/"><img src="./images/top/btn_top-news.jpg" alt="新着情報一覧へ"></a></p>
+                </div>
+                <table class="p-news-area">
+                    <tr>
+                        <th class="p-news-th-01">2017.7.7</th>
+                        <th class="p-news-th-02">
+                            <span class="p-icn-seminar">セミナー</span>
+                        </th>
+                        <td class="matchHeight03">
+                            <a href="/news/20170707.php">【2017.7.25緊急開催】日本IBM/デジタルアーツ/クエスト共催「IBM　QRader」セキュリティ対策セミナーを開催します。</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="p-news-th-01">2017.7.7</th>
+                        <th class="p-news-th-02">
+                            <span class="p-icn-news">NEWS</span>
+                        </th>
+                        <td class="matchHeight03">
+                            <a href="/news/20170705.php">【2017.8.7開催】クラウドITビジネスメッセin名古屋（2017年8月7日・月）に当社「Q-MSS」ブースを出展いたします。</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="p-news-th-01">2017.7.5</th>
+                        <th class="p-news-th-02">
+                            <span class="p-icn-seminar">セミナー</span>
+                        </th>
+                        <td class="matchHeight03">
+                            <a href="/seminar/">【2017.7.21開催】「エンドポイントセキュリティ対策」セミナー』申込受付開始いたしました。</a>
+                        </td>
+                    </tr>
+<!--
+                    <tr>
+                        <th class="p-news-th-01">2016.10.18</th>
+                        <th class="p-news-th-02">
+                            <span class="p-icn-news">NEWS</span>
+                        </th>
+                        <td class="matchHeight01">
+                            <a href="./docs/cloudItBusiness.pdf" target="_blank">『クラウドITビジネスメッセin名古屋（2016年11月1日・火）に当社「Q-MSS」ブースを出展いたしました。』（PDF：337KB）</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="p-news-th-01">2016.6.14</th>
+                        <th class="p-news-th-02">
+                            <span class="p-icn-news">NEWS</span>
+                        </th>
+                        <td class="matchHeight02">
+                            <a href="./docs/what_new20160614.pdf" target="_blank">株式会社ユニリタ様発行の機関誌「UNIRITAマガジン」6月号にて、 当社「Q-MSS」が紹介されました。（PDF：228KB）</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="p-news-th-01">2016.5.12</th>
+                        <th class="p-news-th-02">
+                            <span class="p-icn-news">NEWS</span>
+                        </th>
+                        <td class="matchHeight03">
+                            <a href="./docs/what_new20160512.pdf" target="_blank">「株式会社クエスト、FPTジャパン株式会社とMicrosoft Dynamics AX開発領域における業務提携」を公開しました。（PDF：156KB）</a>
+                        </td>
+                    </tr>
+-->
+                </table>
+            </div>
+        </div>
+
+        <div class="p-IR-box">
+            <div class="p-IR-box-inner">
+                <div class="clearfix mt85">
+                    <h2 class="m-title-head-02"><img src="./images/top/top_title_03.png" alt="Inverstoy Relations"><span class="m-title-text-01">IRニュース</span>
+                    <img src="./images/common/icn_RSS.png" alt="RSS" class="is-rss cursor imghover"></h2>
+                    <p class="btn-more imghover"><a href="./irinfo/news/"><img src="./images/common/IR-news-btn.jpg" alt="IRニュース一覧へ"></a></p>
+                </div>
+                <table class="p-news-area">
+                    <tr>
+                        <th class="p-news-th-01">2017.8.7</th>
+                        <td class="matchHeight03"><a href="./irinfo/pdf/securities/54_2017_0807_01.pdf" target="_blank">「2018年3月期（第54期）第1四半期報告書」を公開いたしました。（PDF：257KB）</a></td>
+                    </tr>
+                    <tr>
+                        <th class="p-news-th-01">2017.7.31</th>
+                        <td class="matchHeight02"><a href="./irinfo/pdf/closing/2017_0731_01.pdf" target="_blank">「2018年3月期（第54期）第1四半期決算短信」を公開いたしました。（PDF：170KB）</a></td>
+                    </tr>
+                    <tr>
+                        <th class="p-news-th-01">2017.7.14</th>
+                        <td class="matchHeight01"><a href="./irinfo/schedule/" class="cr-normal">「IRカレンダー」を更新いたしました。</a></td>
+                    </tr>
+<!--
+                    <tr>
+                        <th class="p-news-th-01">2017.6.23</th>
+                        <td class="matchHeight02"><a href="./irinfo/pdf/stockholder/2017_0623_01.pdf" target="_blank">「臨時報告書（第53回定時株主総会決議通知にかかわる報告）」を公開いたしました。（PDF：148KB）</a></td>
+                    </tr>
+                    <tr>
+                        <th class="p-news-th-01">2017.6.22</th>
+                        <td class="matchHeight03"><a href="./irinfo/pdf/securities/53_2017_0622_01.pdf" target="_blank">「2017年3月期（第53期）有価証券報告書」を公開いたしました。（PDF：779KB）</a></td>
+                    </tr>
+                    <tr>
+                        <th class="p-news-th-01">2017.6.21</th>
+                        <td class="matchHeight02"><a href="./irinfo/pdf/news/2017_0621_01.pdf" target="_blank">「取締役の担当及び委嘱変更のお知らせ」を公開いたしました。（PDF：153KB）</a></td>
+                    </tr>
+                    <tr>
+                        <th class="p-news-th-01">2017.6.21</th>
+                        <td class="matchHeight02"><a href="./irinfo/pdf/stockholder/2017_0621_01.pdf" target="_blank">「第53回定時株主総会決議通知」を公開いたしました。（PDF：120KB）</a></td>
+                    </tr>
+                    <tr>
+                        <th class="p-news-th-01">2017.5.29</th>
+                        <td class="matchHeight02"><a href="./irinfo/pdf/stockholder/2017_0529_01.pdf" target="_blank">「第53回定時株主総会招集通知」を公開いたしました。（PDF：601KB）</a></td>
+                    </tr>
+                    <tr>
+                        <th class="p-news-th-01">2017.5.26</th>
+                        <td class="matchHeight02"><a href="./irinfo/pdf/explanation/2017_0526_01.pdf" target="_blank">「2017年3月期（第53期）決算説明会資料」を公開いたしました。（PDF：933KB）</a></td>
+                    </tr>
+                    <tr>
+                        <th class="p-news-th-01">2017.5.12</th>
+                        <td class="matchHeight02"><a href="./irinfo/pdf/closing/2017_0512_01.pdf" target="_blank">「2017年3月期（第53期）決算短信」を公開いたしました。（PDF：244KB）</a></td>
+                    </tr>
+                    <tr>
+                        <th class="p-news-th-01">2017.5.9</th>
+                        <td class="matchHeight02"><a href="./irinfo/pdf/news/2017_0509_01.pdf" target="_blank">「2017年3月期（第53期）決算説明会のご案内」を公開いたしました。（PDF：104KB）</a></td>
+                    </tr>
+                    <tr>
+                        <th class="p-news-th-01">2017.3.22</th>
+                        <td class="matchHeight02"><a href="./irinfo/pdf/news/2017_0322_01.pdf" target="_blank">「組織変更および人事異動に関するお知らせ」を公開いたしました。（PDF：86KB）</a></td>
+                    </tr>
+                    <tr>
+                        <th class="p-news-th-01">2017.3.14</th>
+                        <td class="matchHeight01"><a href="./irinfo/schedule/" class="cr-normal">「IRカレンダー」を更新いたしました。</a></td>
+                    </tr>
+                    <tr>
+                        <th class="p-news-th-01">2017.2.6</th>
+                        <td class="matchHeight03"><a href="./irinfo/pdf/securities/53_2017_0206_01.pdf" target="_blank">「2017年3月期（第53期）第3四半期報告書」を公開いたしました。（PDF：285KB）</a></td>
+                    </tr>
+                    <tr>
+                        <th class="p-news-th-01">2017.1.31</th>
+                        <td class="matchHeight02"><a href="./irinfo/pdf/closing/2017_0131_01.pdf" target="_blank">「2017年3月期（第53期）第3四半期決算短信」を公開いたしました。（PDF：478KB）</a></td>
+                    </tr>
+                    <tr>
+                        <th class="p-news-th-01">2017.1.13</th>
+                        <td class="matchHeight01"><a href="./irinfo/schedule/" class="cr-normal">「IRカレンダー」を更新いたしました。</a></td>
+                    </tr>
+                    <tr>
+                        <th class="p-news-th-01">2016.11.9</th>
+                        <td class="matchHeight02"><a href="./irinfo/pdf/explanation/2016_1109_01.pdf" target="_blank">「2017年3月期（第53期）第2四半期決算説明会資料」を公開いたしました。（PDF：421KB）</a></td>
+                    </tr>
+                    <tr>
+                        <th class="p-news-th-01">2016.11.7</th>
+                        <td class="matchHeight03"><a href="./irinfo/pdf/securities/53_2016_1107_01.pdf" target="_blank">「2017年3月期（第53期）第2四半期報告書」を公開いたしました。（PDF：632KB）</a></td>
+                    </tr>
+-->
+                </table>
+            </div>
+        </div>
+    <!--RSSポップアップスタート-->
+        <div class="RSS">
+            <h3 class="fs29 ttl-underborder tac">クエストのＲＳＳ一覧</h3>
+            <p class="tac fs16">株式会社クエストでは最新情報をＲＳＳでお届けしております。<br>
+            下記のＵＲＬをコピーしてご使用のＲＳＳリーダーに登録していただくと最新情報をチェックできるようになります。</p>
+            <table class="RSS-table fs16 mt30">
+                <tr>
+                    <th>クエスト新着情報</th>
+                    <td>http://www.quest.co.jp/rss/top.xml</td>
+                </tr>
+                <tr>
+                    <th>クエストIRニュース</th>
+                    <td>http://www.quest.co.jp/rss/ir_news.xml</td>
+                </tr>
+                <tr>
+                    <th>クエストIRカレンダー</th>
+                    <td>http://www.quest.co.jp/rss/ir_schedule.xml</td>
+                </tr>
+            </table>
+            <p class="is-rss-close mt30 tac cursor imghover"><img src="./images/common/RSS_close.jpg" alt="閉じる"></p>
+        </div>
+    <!--RSSポップアップスタート-->
+    </section>
+    </div>
+<!--News・IR情報エリアエンド-->
+
+<!--ピックアップエリアスタート-->
+<!--     <div class="p-pickup-wrap">
+        <h3 class="p-mh-pickup fs15 cr-blue"><img src="./images/top/mh_pickup.jpg" alt="Pick Up">ピックアップ</h3>
+    </div>
+    <div class="p-pickup-slide-wrap">
+    <ul class="p-pickup-slide">
+        <li class="p-pickup-content">
+            <a href="./quest_001/" class="cr-blue underline">
+                <img src="./images/top/pickup_img_01.jpg" alt="">
+                <span class="p-pickup-text fs13">第1回　日本メーカー躍進に貢献 第1回　日本メーカー躍進に貢献 半導体生産管理システム開発</span>
+            </a>
+        </li>
+        <li class="p-pickup-content">
+            <a href="./quest_001/" class="cr-blue underline">
+                <img src="./images/top/pickup_img_01.jpg" alt="">
+                <span class="p-pickup-text fs13">第2回　日本メーカー躍進に貢献 半導体生産管理システム開発</span>
+            </a>
+        </li>
+        <li class="p-pickup-content">
+            <a href="./quest_001/" class="cr-blue underline">
+                <img src="./images/top/pickup_img_01.jpg" alt="">
+                <span class="p-pickup-text fs13">第3回　日本メーカー躍進に貢献 半導体生産管理システム開発</span>
+            </a>
+        </li>
+        <li class="p-pickup-content">
+            <a href="./quest_001/" class="cr-blue underline">
+                <img src="./images/top/pickup_img_01.jpg" alt="">
+                <span class="p-pickup-text fs13">第4回　日本メーカー躍進に貢献 半導体生産管理システム開発</span>
+            </a>
+        </li>
+        <li class="p-pickup-content">
+            <a href="./quest_001/" class="cr-blue underline">
+                <img src="./images/top/pickup_img_01.jpg" alt="">
+                <span class="p-pickup-text fs13">第5回　日本メーカー躍進に貢献 第5回　日本メーカー躍進に貢献 半導体生産管理システム開発</span>
+            </a>
+        </li>
+        <li class="p-pickup-content">
+            <a href="./quest_001/" class="cr-blue underline">
+                <img src="./images/top/pickup_img_01.jpg" alt="">
+                <span class="p-pickup-text fs13">6回　日本メーカー第6回　日本メーカー躍進に貢献 半導体生産管理システム開発</span>
+            </a>
+        </li>
+    </ul>
+    </div>
+</div> -->
+<!--ピックアップエリアエンド-->
+
+</div><!-- l-pageBody -->
+
+<div class="l-pagetop imghover">
+	<a href="#pagetop" class="pagelink"><img src="/images/common/icn_topback.png" alt="TOP"></a>
+</div><!--l-pagetop-->
+
+<footer class="l-footer">
+    <div class="l-footerinner clearfix">
+	    <div class="l-footerleft clearfix">
+	        <h2 class="flL"><img src="/images/common/footer_logo.png" alt="株式会社クエスト"></h2>
+	        <div class="l-footerleft-text fs14">
+                <p class="l-footerleft-text-text">〒105-0023<br>
+                東京都港区芝浦1-12-3　Daiwa芝浦ビル</p>
+                <p class="l-footerleft-text-text mt10">TEL：03-3453-1181  FAX：03-3453-1184</p>
+	        </div>
+	    </div>
+	    <div class="l-footerright">
+	        <ul class="footer-navi-01 fs13">
+	            <li class="fn01-type-01"><a href="/" class="underline">サイトトップ</a></li>
+	            <li class="fn01-type-02"><a href="/company/" class="underline">会社情報</a></li>
+	            <li class="fn01-type-03"><a href="/solution/index.html" class="underline">ソリューション</a></li>
+	            <li class="fn01-type-04"><a href="/seminar/" class="underline">セミナー</a></li>
+	            <li class="fn01-type-05"><a href="/irinfo/" class="underline">IR情報</a></li>
+	            <li class="fn01-type-06"><a href="/adoption/index.html" class="underline">採用情報</a></li>
+	        </ul>
+	    </div>
+	</div>
+
+    <p class="footer-navi-02 fs13"><a href="https://home.quest.co.jp/contact_001/" class="underline">お問い合わせ</a>　 |　 <a href="/sitemap/" class="underline">サイトマップ</a>　  |　 <a href="/policy/security/" class="underline">情報セキュリティ基本方針</a>　 |　 <a href="/policy/" class="underline">個人情報保護の取り組み</a></p>
+    <p class="l-copy"><small>Copyright © Quest Co., Ltd. All Rights Reserved.</small></p>
+
+</footer><!-- l-footer -->
+
+
+<div class="is-overlay"></div>
+<div class="is-overlay2"></div>
+</body>
+
+</html>

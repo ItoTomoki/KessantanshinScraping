@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="ja" class="no-js">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+<meta charset="UTF-8">
+
+<title>森永製菓株式会社 - おいしく、たのしく、すこやかに</title>
+
+<link rel="canonical" href="http://www.morinaga.co.jp/">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta name="keywords" content="森永製菓,森永,もりなが,モリナガ,morinaga,MORINAGA,お菓子,チョコレート,ビスケット,ココア,アイス">
+<meta name="description" content="「おいしく、たのしく、すこやかに」森永製菓株式会社のウェブサイトへようこそ！チョコレートやビスケット、ココア、アイスなどの商品情報、CM、キャンペーン、お菓子レシピなど、多くの情報を掲載しています。">
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png">
+<link rel="icon" sizes="192x192" href="/apple-touch-icon.png">
+<link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png">
+<link rel="shortcut icon" href="/favicon.ico">
+
+<!-- ogp -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="森永製菓株式会社">
+<meta property="og:url" content="http://www.morinaga.co.jp/">
+<meta property="og:image" content="http://www.morinaga.co.jp/assets/img/ogp01.gif">
+<meta property="mixi:image" content="http://www.morinaga.co.jp/assets/img/ogp02.gif" />
+
+
+	<link type="text/css" rel="stylesheet" href="/assets/css/common.css?1488169326" />
+	<link type="text/css" rel="stylesheet" href="/assets/css/top.css?1454570589" />
+
+<!--[if lt IE 9]>
+	<script type="text/javascript" src="/assets/libs/html5shiv.js?1427783004"></script>
+<![endif]-->
+<!-- JavaScript -->
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script type="text/javascript">window.jQuery || document.write('<script type="text/javascript" src="/assets/libs/jquery-1.11.2.min.js"><\/script>')</script>
+	<script type="text/javascript" src="/assets/libs/jquery.easing-1.3.min.js?1427783004"></script>
+	<script type="text/javascript" src="/assets/js/shared.js?1484199916"></script>
+</head>
+
+<body id="top" class="topIndex is-headerFixed">
+
+<header class="globalHeader">
+<div class="globalHeader__inner">
+<p class="globalHeader__logo"><a href="/"><img src="/assets/img/header_logo_01.svg" height="30" width="219" alt="森永製菓"></a></p>
+
+
+<nav class="globalNav">
+<div class="globalNav__inner">
+<p class="globalNav__item--logo"><a href="/"><img src="/assets/img/header_logo_s.svg" alt="森永製菓" width="46" height="28"></a></p>
+<ul class="globalNav__items">
+<li class="globalNav__item globalNav__item--01"><a href="/products/"><img src="/assets/img/header_nav/header_nav_01.png" height="20" width="84" alt="商品情報"></a>
+<div class="globalSubNav globalSubNav--products">
+<div class="globalSubNav__inner">
+<p class="globalSubNav__title"><a href="/products/">商品情報トップ</a></p>
+<div class="globalSubNav__division01">
+	<div class="globalSubNav__divisionInner01">
+		<p class="globalSubNav__sTitle">商品カテゴリーから探す</p>
+		<ul class="globalSubNav__items">
+		<li class="globalSubNav__item globalSubNav__linkBtn"><a href="/products/new.php">新商品</a></li>
+		<li class="globalSubNav__item globalSubNav__linkBtn"><a href="/products/list.php?id=0101">菓子</a></li>
+		<li class="globalSubNav__item globalSubNav__linkBtn"><a href="/products/list.php?id=0201">食品</a></li>
+		<li class="globalSubNav__item globalSubNav__linkBtn"><a href="/products/list.php?id=0301">アイス</a></li>
+		<li class="globalSubNav__item globalSubNav__linkBtn"><a href="/products/list.php?id=0401">ウイダー</a></li>
+		<li class="globalSubNav__item globalSubNav__linkBtn"><a href="/products/list.php?id=0501">ヘルスケア</a></li>
+		</ul>
+	</div>
+	<div class="globalSubNav__divisionInner02">
+		<p class="globalSubNav__sTitle">ブランドサイトから探す</p>
+    <p class="globalSubNav__linkBtn"><a onclick="javascript:_gaq.push(['_trackPageview', '/_virtual_/products/brand/global_nav']);dataLayer.push({event:'GA_TrackPageview',PreviewPage:'/_virtual_/products/brand/global_nav'});"href="/products/#brand">ブランドサイト</a></p>
+	</div>
+	<div class="globalSubNav__divisionInner03">
+		<p class="globalSubNav__sTitle">商品名から探す</p>
+		<div class="globalSubNav__search">
+		<form name="SS_searchForm2" id="SS_searchForm2" action="http://search.morinaga.co.jp/search" method="get" enctype="application/x-www-form-urlencoded">
+		<input type="hidden" name="site" value="V8ZK5B9M">
+		<input type="hidden" name="charset" value="UTF-8">
+		<input type="hidden" name="design" value="6">
+		<!-- <input type="hidden" name="group" value="0"> -->
+		<input type="hidden" name="category" value="3">
+		<input type="text" name="query" value="" id="SS_searchQuery2" class="globalSubNav__searchInput" maxlength="100" autocomplete="off" placeholder="検索ワードを入力">
+		<input type="submit" name="submit" value="Search" id="SS_searchSubmit2">
+		</form>
+		</div>
+	</div>
+</div>
+<div class="globalSubNav__division02">
+	<p class="globalSubNav__sTitle">アレルギー情報/通信販売・販売店</p>
+	<ul class="globalSubNav__items">
+		<li class="globalSubNav__item globalSubNav__linkBtn globalSubNav__linkBtn--allergy"><a href="/products/allergy/">アレルギー情報</a></li>
+		<li class="globalSubNav__item globalSubNav__linkBtn globalSubNav__linkBtn--shop"><a href="/shopping/">通信販売・販売店</a></li>
+	</ul>
+</div>
+
+</div>
+<!-- /.globalSubNav --></div>
+</li>
+<li class="globalNav__item globalNav__item--02"><a href="/cm/"><img src="/assets/img/header_nav/header_nav_02.png" height="20" width="122" alt="CMギャラリー"></a></li>
+<li class="globalNav__item globalNav__item--03"><a href="/know/"><img src="/assets/img/header_nav/header_nav_03.png" height="20" width="111" alt="知る・楽しむ"></a>
+<!-- <div class="globalSubNav globalSubNav--products">
+<div class="globalSubNav__inner">
+<p class="globalSubNav__title"><a href="/know/">知る・楽しむトップ</a></p>
+<ul class="globalSubNav__thumbItems">
+
+	<li class="globalSubNav__thumbItem"><a href="/socialmedia/">
+	<div class="globalSubNav__thumbItem__thumb"><img src="/know/img/thumb_02.png" alt="" width="196" height="109"></div>
+	<p class="globalSubNav__thumbItem__txt">ソーシャルメディア公式アカウント</p>
+	</a></li>
+	<li class="globalSubNav__thumbItem"><a href="/factory/">
+	<div class="globalSubNav__thumbItem__thumb"><img src="/know/img/thumb_04.jpg" alt="" width="196" height="109"></div>
+	<p class="globalSubNav__thumbItem__txt">工場見学</p>
+	</a></li>
+	<li class="globalSubNav__thumbItem"><a href="/food_education/">
+	<div class="globalSubNav__thumbItem__thumb"><img src="/know/img/thumb_05.jpg" alt="" width="196" height="109"></div>
+	<p class="globalSubNav__thumbItem__txt">菓子育</p>
+	</a></li>
+	<li class="globalSubNav__thumbItem"><a href="/entertainment/">
+	<div class="globalSubNav__thumbItem__thumb"><img src="/know/img/thumb_11.jpg" alt="" width="196" height="109"></div>
+	<p class="globalSubNav__thumbItem__txt">エンターテイメント</p>
+	</a></li>
+</ul>
+</div>
+</div> -->
+</li>
+<li class="globalNav__item globalNav__item--04"><a href="http://ap.morinaga.co.jp/campaign/" target="_blank"><img src="/assets/img/header_nav/header_nav_04.png" height="20" width="110" alt="キャンペーン"></a></li>
+<li class="globalNav__item globalNav__item--05"><a href="/company/csr/"><img src="/assets/img/header_nav/header_nav_05.png" height="20" width="130" alt="CSRの取り組み"></a>
+<div class="globalSubNav globalSubNav--products">
+<div class="globalSubNav__inner">
+<p class="globalSubNav__title"><a href="/company/csr/">CSRの取り組み</a></p>
+<ul class="globalSubNav__thumbItems">
+
+	<li class="globalSubNav__thumbItem"><a href="/company/csr/outline.html">
+	<div class="globalSubNav__thumbItem__thumb"><img src="/company/csr/images/index_panel01.jpg" alt="" width="196" height="119"></div>
+	<p class="globalSubNav__thumbItem__txt">森永のCSR</p>
+	</a></li>
+	<li class="globalSubNav__thumbItem"><a href="/company/csr/quality/">
+	<div class="globalSubNav__thumbItem__thumb"><img src="/company/csr/images/index_panel02.jpg" alt="" width="196" height="119"></div>
+	<p class="globalSubNav__thumbItem__txt">品質への取り組み</p>
+	</a></li>
+	<li class="globalSubNav__thumbItem"><a href="/company/csr/social/">
+	<div class="globalSubNav__thumbItem__thumb"><img src="/company/csr/images/index_panel03.jpg" alt="" width="196" height="119"></div>
+	<p class="globalSubNav__thumbItem__txt">社会への取り組み</p>
+	</a></li>
+	<li class="globalSubNav__thumbItem"><a href="/company/csr/environment/">
+	<div class="globalSubNav__thumbItem__thumb"><img src="/company/csr/images/index_panel04.jpg" alt="" width="196" height="119"></div>
+	<p class="globalSubNav__thumbItem__txt">環境への取り組み</p>
+	</a></li>
+</ul>
+</div>
+</div>
+</li>
+<li class="globalNav__item globalNav__item--06"><a href="/company/"><img src="/assets/img/header_nav/header_nav_06.png" height="20" width="108" alt="企業・IR情報"></a>
+<div class="globalSubNav globalSubNav--products">
+<div class="globalSubNav__inner">
+<p class="globalSubNav__title"><a href="/company/">企業情報</a></p>
+<ul class="globalSubNav__thumbItems">
+
+	<li class="globalSubNav__thumbItem"><a href="/company/about/">
+	<div class="globalSubNav__thumbItem__thumb"><img src="/img/company/company_thumb_01.png" alt="" width="196" height="109"></div>
+	<p class="globalSubNav__thumbItem__txt">森永製菓について</p>
+	</a></li>
+	<li class="globalSubNav__thumbItem"><a href="/company/ir/">
+	<div class="globalSubNav__thumbItem__thumb"><img src="/img/company/company_thumb_03.jpg" alt="" width="196" height="109"></div>
+	<p class="globalSubNav__thumbItem__txt">IR情報</p>
+	</a></li>
+	<li class="globalSubNav__thumbItem"><a href="/company/csr/">
+	<div class="globalSubNav__thumbItem__thumb"><img src="/img/company/company_thumb_04.jpg" alt="" width="196" height="109"></div>
+	<p class="globalSubNav__thumbItem__txt">CSRの取り組み</p>
+	</a></li>
+	<li class="globalSubNav__thumbItem"><a href="/company/rd/">
+	<div class="globalSubNav__thumbItem__thumb"><img src="/img/company/company_thumb_05.jpg" alt="" width="196" height="109"></div>
+	<p class="globalSubNav__thumbItem__txt">研究開発</p>
+	</a></li>
+</ul>
+</div>
+</div>
+</li>
+</ul>
+</div>
+<!-- /.globalNav --></nav>
+
+<div class="globalHeader__utilityNav">
+<ul class="globalHeader__utilityNav__items">
+<!-- <li class="globalHeader__utilityNav__item"><a href="/company/" class="linkTxt00">企業情報</a></li> -->
+<li class="globalHeader__utilityNav__item"><a href="/english/" class="linkTxt00">English</a></li>
+<li class="globalHeader__utilityNav__item"><a href="/contact/" class="linkTxt00">お問い合わせ窓口</a></li>
+</ul>
+
+<div class="globalHeader__search">
+<form name="SS_searchForm" id="SS_searchForm" action="http://search.morinaga.co.jp/search" method="get" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="site" value="V8ZK5B9M">
+<input type="hidden" name="charset" value="UTF-8">
+<input type="hidden" name="design" value="6">
+<!-- <input type="hidden" name="group" value="0"> -->
+<!-- <input type="hidden" name="category" value="23"> -->
+<input type="text" name="query" value="" id="SS_searchQuery" class="globalHeader__searchInput" maxlength="100" autocomplete="off" placeholder="検索ワードを入力">
+<input type="submit" name="submit" value="Search" id="SS_searchSubmit">
+</form>
+</div>
+</div>
+
+</div>
+<!-- /.globalHeader --></header>
+<div class="l-wrapper m-bgPattern--dot01">
+<div class="keyVisual js-slideBox">
+<div class="keyVisual__inner">
+
+
+<ul class="keyVisual__slide">
+<li class="keyVisual__slide__item js-slideBox-item">
+  <a   onclick="javascript:_gaq.push(['_trackPageview', '/_virtual_/top/banner/main/pc/summer2017_170712']);dataLayer.push({ event:'GA_TrackPageview', PreviewPage:'/_virtual_/top/banner/main/pc/summer2017_170712' }); " href="/summer2017/">
+
+    <img src="/public/corporate/images/top/banner/pc/fix/53bcb9d920db787356ee6874608eb511.jpg" width="100%" alt="おかしな自由研究">
+  </a>
+
+</li>
+<li class="keyVisual__slide__item js-slideBox-item">
+  <a  target='_blank'  onclick="javascript:_gaq.push(['_trackPageview', '/_virtual_/top/banner/main/pc/shaberu']);dataLayer.push({ event:'GA_TrackPageview', PreviewPage:'/_virtual_/top/banner/main/pc/shaberu' }); " href="/kyorochan/shaberu/">
+
+    <img src="/public/corporate/images/top/banner/pc/fix/48405f22b0370a10004cdf4691adc69e.jpg" width="100%" alt="金のキョロちゃん缶当たる！">
+  </a>
+
+</li>
+<li class="keyVisual__slide__item js-slideBox-item">
+  <a   onclick="javascript:_gaq.push(['_trackPageview', '/_virtual_/top/banner/main/pc/summer2017＿PC']);dataLayer.push({ event:'GA_TrackPageview', PreviewPage:'/_virtual_/top/banner/main/pc/summer2017＿PC' }); " href="http://www.morinaga.co.jp/summer2017/#sec05">
+
+    <img src="/public/corporate/images/top/banner/pc/fix/d7a3721461360b5d62d393dade9c7e0a.jpg" width="100%" alt="夏のおすすめ商品で、熱中症対策を!!">
+  </a>
+
+</li>
+</ul>
+
+<div class="keyVisual__caption">
+<ul class="keyVisual__caption__items">
+
+<li class="keyVisual__caption__item js-slideBox-txt">
+  <a    onclick="javascript:_gaq.push(['_trackPageview', '/_virtual_/top/banner/main/pc/text/summer2017_170712']);dataLayer.push({ event:'GA_TrackPageview', PreviewPage:'/_virtual_/top/banner/main/pc/text/summer2017_170712' }); " href="/summer2017/">
+
+    おかしな自由研究
+  </a>
+
+</li>
+
+<li class="keyVisual__caption__item js-slideBox-txt">
+  <a  target='_blank'   onclick="javascript:_gaq.push(['_trackPageview', '/_virtual_/top/banner/main/pc/text/shaberu']);dataLayer.push({ event:'GA_TrackPageview', PreviewPage:'/_virtual_/top/banner/main/pc/text/shaberu' }); " href="/kyorochan/shaberu/">
+
+    金のキョロちゃん缶当たる！
+  </a>
+
+</li>
+
+<li class="keyVisual__caption__item js-slideBox-txt">
+  <a    onclick="javascript:_gaq.push(['_trackPageview', '/_virtual_/top/banner/main/pc/text/summer2017＿PC']);dataLayer.push({ event:'GA_TrackPageview', PreviewPage:'/_virtual_/top/banner/main/pc/text/summer2017＿PC' }); " href="http://www.morinaga.co.jp/summer2017/#sec05">
+
+    夏のおすすめ商品で、熱中症対策を!!
+  </a>
+
+</li>
+</ul>
+</div>
+
+<ul class="keyVisual__slideNav">
+<li class="keyVisual__slideNav__item keyVisual__slideNav--prev"><a href="javascript:void(0)" class="js-slideBox-nav-prev">←</a></li>
+<li class="keyVisual__slideNav__item keyVisual__slideNav--next"><a href="javascript:void(0)" class="js-slideBox-nav-next">→</a></li>
+</ul>
+
+</div>
+
+<div class="keyVisual__slideMark js-slideBox-nav">
+<ul class="keyVisual__slideMark__items">
+<li class="keyVisual__slideMark__item js-slideBox-nav-item"><a href="javascript:void(0)"></a></li>
+<li class="keyVisual__slideMark__item js-slideBox-nav-item"><a href="javascript:void(0)"></a></li>
+<li class="keyVisual__slideMark__item js-slideBox-nav-item"><a href="javascript:void(0)"></a></li>
+</ul>
+</div>
+<!-- /.keyVisual --></div>
+
+
+
+<div class="top-bgIllust top-bgIllust--summer">
+
+<!-- ↓↓↓↓コンテンツ↓↓↓↓ -->
+<div class="l-container">
+
+<div class="top-pageNav">
+<ul class="top-pageNav__items">
+
+<li class="top-pageNav__item"><a onclick="javascript:_gaq.push(['_trackPageview', '/_virtual_/products/brand/top_icon']);dataLayer.push({ event:'GA_TrackPageview', PreviewPage:'/_virtual_/products/brand/top_icon' }); " href="/products/#brand"><div class="top-pageNav__icon"><img src="/img/page_nav_01.png" height="64" width="65" alt="ブランドサイト"></div><p class="top-pageNav__txt">ブランドサイト</p></a></li>
+<li class="top-pageNav__item"><a href="/products/new.php"><div class="top-pageNav__icon"><img src="/img/page_nav_02.png" height="64" width="71" alt="新商品情報"></div><p class="top-pageNav__txt">新商品情報</p></a></li>
+<!--<li class="top-pageNav__item"><a href="/socialmedia/"><div class="top-pageNav__icon"><img src="img/page_nav_06.png" height="64" width="69" alt="ファンサイト（エンゼルPLUS）"></div><p class="top-pageNav__txt">SNS公式<br>アカウント</p></a></li>-->
+<li class="top-pageNav__item"><a href="/recipe/"><div class="top-pageNav__icon"><img src="/img/page_nav_03.png" height="64" width="54" alt="森永天使のお菓子レシピ"></div><p class="top-pageNav__txt">森永天使の<br>お菓子レシピ</p></a></li>
+<li class="top-pageNav__item"><a href="/shopping/"><div class="top-pageNav__icon"><img src="/img/page_nav_04.png" height="64" width="63" alt="ショッピング通信販売"></div><p class="top-pageNav__txt">ショッピング<br>通信販売</p></a></li>
+<li class="top-pageNav__item"><a href="http://ap.morinaga.co.jp/" target="_blank"><div class="top-pageNav__icon"><img src="/img/page_nav_05.png" height="64" width="69" alt="ファンサイト（エンゼルPLUS）"></div><p class="top-pageNav__txt">ファンサイト<br><span>(エンゼルPLUS)</span></p></a></li>
+<li class="top-pageNav__item"><a href="/contact/"><div class="top-pageNav__icon"><img src="img/page_nav_07.png" height="64" width="69" alt="お問い合わせ窓口"></div><p class="top-pageNav__txt">お問い合わせ<br>窓口</p></a></li>
+</ul>
+<!-- /.top-pageNav --></div>
+
+<div class="pickupContents">
+<div class="pickupContents__inner">
+<div class="headingType01">
+<h2 class="headingType01__txt">ピックアップ</h2>
+</div>
+<ul class="pickup__items">
+<li class="pickup__item"><a   class="u-protectCover" onclick="javascript:_gaq.push(['_trackPageview', '/_virtual_/pickup/pc/cm122']);dataLayer.push({ event:'GA_TrackPageview', PreviewPage:'/_virtual_/pickup/pc/cm122' }); " href="/cm/detail/122">
+<div class="pickup__img"><img src="/public/corporate/images/pickup/fix/4d75f6eab3b1e030d4920f6f8a051648.jpg" height="160" width="230" alt=""></div>
+<div class="pickup__category">
+<p class="pickup__category__item">CM・動画</p>
+
+</div>
+<p class="pickup__txt">チョコボール 「なでるとしゃべる」篇</p>
+</a></li>
+
+<li class="pickup__item"><a   class="u-protectCover" onclick="javascript:_gaq.push(['_trackPageview', '/_virtual_/pickup/pc/weider_cm_170510']);dataLayer.push({ event:'GA_TrackPageview', PreviewPage:'/_virtual_/pickup/pc/weider_cm_170510' }); " href="/cm/detail/120">
+<div class="pickup__img"><img src="/public/corporate/images/pickup/fix/05a773a72c70c33f399bae295e1d0f5a.jpg" height="160" width="230" alt=""></div>
+<div class="pickup__category">
+<p class="pickup__category__item">CM・動画</p>
+
+</div>
+<p class="pickup__txt">ウイダーinゼリー「inゼリー 前を向く」篇</p>
+</a></li>
+
+<li class="pickup__item"><a   class="u-protectCover" onclick="javascript:_gaq.push(['_trackPageview', '/_virtual_/pickup/pc/jumbo_cm']);dataLayer.push({ event:'GA_TrackPageview', PreviewPage:'/_virtual_/pickup/pc/jumbo_cm' }); " href="/cm/detail/119">
+<div class="pickup__img"><img src="/public/corporate/images/pickup/fix/014bec21251018ae949cb98e2e399ebe.jpg" height="160" width="230" alt=""></div>
+<div class="pickup__category">
+<p class="pickup__category__item">CM・動画</p>
+
+</div>
+<p class="pickup__txt">チョコモナカジャンボCM「ポケットからジャンボ」篇</p>
+</a></li>
+
+<li class="pickup__item"><a   class="u-protectCover" onclick="javascript:_gaq.push(['_trackPageview', '/_virtual_/pickup/pc/macrobiha_cm']);dataLayer.push({ event:'GA_TrackPageview', PreviewPage:'/_virtual_/pickup/pc/macrobiha_cm' }); " href="/cm/detail/115">
+<div class="pickup__img"><img src="/public/corporate/images/pickup/fix/8d056ad1a7f902e3b90b142148e1c27f.jpg" height="160" width="230" alt=""></div>
+<div class="pickup__category">
+<p class="pickup__category__item">CM・動画</p>
+
+</div>
+<p class="pickup__txt">マクロビ派CM「マクロビちゃん出没」篇</p>
+</a></li>
+
+<li class="pickup__item"><a   class="u-protectCover" onclick="javascript:_gaq.push(['_trackPageview', '/_virtual_/pickup/pc/anniversary_0810']);dataLayer.push({ event:'GA_TrackPageview', PreviewPage:'/_virtual_/pickup/pc/anniversary_0810' }); " href="/kyorochan/anniversary/">
+<div class="pickup__img"><img src="/public/corporate/images/pickup/fix/af8af4bc3dac08d976216193fd2ca098.jpg" height="160" width="230" alt=""></div>
+<div class="pickup__category">
+<p class="pickup__category__item">スペシャルサイト</p>
+
+</div>
+<p class="pickup__txt">9月6日に向けて、キョロちゃんのコラボ企画や楽しいイベントがいっぱいクエッ！</p>
+</a></li>
+
+<li class="pickup__item"><a  target='_blank'  class="u-protectCover" onclick="javascript:_gaq.push(['_trackPageview', '/_virtual_/pickup/pc/dance_20170809']);dataLayer.push({ event:'GA_TrackPageview', PreviewPage:'/_virtual_/pickup/pc/dance_20170809' }); " href="/kyorochan/dance/">
+<div class="pickup__img"><img src="/public/corporate/images/pickup/fix/2413f4a6ccbd3f9c66fe5868fb76e037.jpg" height="160" width="230" alt=""></div>
+<div class="pickup__category">
+<p class="pickup__category__item">スペシャルサイト</p>
+
+</div>
+<p class="pickup__txt">みんなで作った！チョコボールのうたついに完成！</p>
+</a></li>
+
+<li class="pickup__item"><a  target='_blank'  class="u-protectCover" onclick="javascript:_gaq.push(['_trackPageview', '/_virtual_/pickup/pc/premiumfriday_170221']);dataLayer.push({ event:'GA_TrackPageview', PreviewPage:'/_virtual_/pickup/pc/premiumfriday_170221' }); " href="/premiumfriday/">
+<div class="pickup__img"><img src="/public/corporate/images/pickup/fix/0f3e63551a7d635cda85a6a1abd29540.jpg" height="160" width="230" alt=""></div>
+<div class="pickup__category">
+<p class="pickup__category__item">スペシャルサイト</p>
+
+</div>
+<p class="pickup__txt">ステキなプレミアムフライデーをお過ごしいただく、森永製菓からのご提案です。</p>
+</a></li>
+
+<li class="pickup__item"><a  target='_blank'  class="u-protectCover" onclick="javascript:_gaq.push(['_trackPageview', '/_virtual_/pickup/pc/craft_170113']);dataLayer.push({ event:'GA_TrackPageview', PreviewPage:'/_virtual_/pickup/pc/craft_170113' }); " href="https://lohaco.jp/store/ccw170113">
+<div class="pickup__img"><img src="/public/corporate/images/pickup/fix/21669d8c8b9fddfccef7451dade54975.jpg" height="160" width="230" alt=""></div>
+<div class="pickup__category">
+<p class="pickup__category__item">スペシャルサイト</p>
+
+</div>
+<p class="pickup__txt">世界でただ一つ！あなただけのオリジナルチョコレートをつくろう！(外部サイト)</p>
+</a></li>
+
+<li class="pickup__item"><a  target='_blank'  class="u-protectCover" onclick="javascript:_gaq.push(['_trackPageview', '/_virtual_/pickup/pc/okashiprint_0120']);dataLayer.push({ event:'GA_TrackPageview', PreviewPage:'/_virtual_/pickup/pc/okashiprint_0120' }); " href="https://okashiprint.com/">
+<div class="pickup__img"><img src="/public/corporate/images/pickup/fix/89396a941ccfa00545564ee3994f0529.jpg" height="160" width="230" alt=""></div>
+<div class="pickup__category">
+<p class="pickup__category__item">スペシャルサイト</p>
+
+</div>
+<p class="pickup__txt">スマホ画像をそのまま使って&ldquo;おかしプリント&rdquo;で オリジナルのお菓子を作ろう！（外部サイト）</p>
+</a></li>
+
+<li class="pickup__item"><a  target='_blank'  class="u-protectCover" onclick="javascript:_gaq.push(['_trackPageview', '/_virtual_/pickup/pc/collagen＿20170619']);dataLayer.push({ event:'GA_TrackPageview', PreviewPage:'/_virtual_/pickup/pc/collagen＿20170619' }); " href="https://www.tenshi-kenko.com/lp_oc/index56.php?media=WSP244&amp;sci_campaign=706">
+<div class="pickup__img"><img src="/public/corporate/images/pickup/fix/e13487f2333b8257a79618f7f2d6d73b.jpg" height="160" width="230" alt=""></div>
+<div class="pickup__category">
+<p class="pickup__category__item">スペシャルサイト</p>
+
+</div>
+<p class="pickup__txt">【天使の健康ニュース】おいしさにこだわったコラーゲン配合の美容ドリンク。（外部サイト）</p>
+</a></li>
+
+<li class="pickup__item"><a  target='_blank'  class="u-protectCover" onclick="javascript:_gaq.push(['_trackPageview', '/_virtual_/pickup/pc/senobee_170821']);dataLayer.push({ event:'GA_TrackPageview', PreviewPage:'/_virtual_/pickup/pc/senobee_170821' }); " href="https://www.tenshi-kenko.com/lp_sb/index2.php?media=WSP292&amp;sci_campaign=862">
+<div class="pickup__img"><img src="/public/corporate/images/pickup/fix/9909f5a23e1837cc1a9fadab1ebc3174.jpg" height="160" width="230" alt=""></div>
+<div class="pickup__category">
+<p class="pickup__category__item">スペシャルサイト</p>
+
+</div>
+<p class="pickup__txt">【天使の健康ニュース】お子様の成長と家族の健康に！カルシウム等の栄養素配合。(外部サイト）</p>
+</a></li>
+
+</ul>
+</div>
+<!-- /.pickupContents --></div>
+
+
+
+<div class="campaignContents">
+<div class="campaignContents__inner">
+<div class="headingType01">
+<h2 class="headingType01__txt">キャンペーン</h2>
+<p class="headingType01__link"><a href="http://ap.morinaga.co.jp/campaign/" target="_blank" class="linkTxt00"> 一覧（エンゼルPLUSサイトへ）</a></p>
+</div>
+
+<ul class="campaign__items">
+<li class="campaign__item"><a onclick="javascript:_gaq.push(['_trackPageview', '/_virtual_/top/banner/campaign/pc/dance_campaign_170809']);dataLayer.push({ event:'GA_TrackPageview', PreviewPage:'/_virtual_/top/banner/campaign/pc/dance_campaign_170809' }); "  target='_blank'  href="/kyorochan/dance/#campaign" title="チョコボールのうたミュージックビデオ投稿キャンペーン"><img src="/public/corporate/images/top/banner/pc/fix/ca239bade8dc0e4d5ef117dc273e33a4.jpg" height="200" width="200" alt="チョコボールのうたミュージックビデオ投稿キャンペーン"></a></li>
+<li class="campaign__item"><a onclick="javascript:_gaq.push(['_trackPageview', '/_virtual_/top/banner/campaign/pc/hi-chew_campaign_170808']);dataLayer.push({ event:'GA_TrackPageview', PreviewPage:'/_virtual_/top/banner/campaign/pc/hi-chew_campaign_170808' }); "  target='_blank'  href="/hi-chew/campaign/" title="ハイチュウオリジナル関ジャニ&infin;QUOカードが当たる！キャンペーン"><img src="/public/corporate/images/top/banner/pc/fix/bb27b7252079b031b7c180f832e52244.jpg" height="200" width="200" alt="ハイチュウオリジナル関ジャニ&infin;QUOカードが当たる！キャンペーン"></a></li>
+<li class="campaign__item"><a onclick="javascript:_gaq.push(['_trackPageview', '/_virtual_/top/banner/campaign/pc/doraemon_170629']);dataLayer.push({ event:'GA_TrackPageview', PreviewPage:'/_virtual_/top/banner/campaign/pc/doraemon_170629' }); "  target='_blank'  href="/ototo/doraemon/" title="おっとっと「ドラえもんグッズプレゼントキャンペーン」"><img src="/public/corporate/images/top/banner/pc/fix/ca6b3fc6cc6aebd2357d4f2d8768c90e.jpg" height="200" width="200" alt="おっとっと「ドラえもんグッズプレゼントキャンペーン」"></a></li>
+<li class="campaign__item"><a onclick="javascript:_gaq.push(['_trackPageview', '/_virtual_/top/banner/campaign/pc/bakecp_170404']);dataLayer.push({ event:'GA_TrackPageview', PreviewPage:'/_virtual_/top/banner/campaign/pc/bakecp_170404' }); "  target='_blank'  href="/bake/gift-cp/" title="BAKE選べるギフトカードプレゼントキャンペーン"><img src="/public/corporate/images/top/banner/pc/fix/475d87b920dae9bd8eff19cdfa31b6cb.jpg" height="200" width="200" alt="BAKE選べるギフトカードプレゼントキャンペーン"></a></li>
+</ul>
+</div>
+<!-- /.campaignContents --></div>
+
+
+
+<div class="companyInfo">
+<div class="companyInfo__inner">
+<div class="headingType01">
+<h2 class="headingType01__txt">企業情報</h2>
+<p class="headingType01__link"><a href="/company/" class="linkTxt00">企業情報サイト</a></p>
+</div>
+<ul class="companyInfo__items">
+<li class="companyInfo__item"><a href="/company/about/">
+<div class="companyInfo__img"><img src="img/company/company_thumb_01.png" height="174" width="310" alt=""></div>
+<p class="companyInfo__name">森永製菓について</p>
+<p class="companyInfo__txt">100年を越える私たちのあゆみと現在、これからについてご紹介します。</p>
+</a></li>
+
+<li class="companyInfo__item"><a href="/company/newsrelease/">
+<div class="companyInfo__img"><img src="img/company/company_thumb_02.jpg" height="174" width="310" alt=""></div>
+<p class="companyInfo__name">ニュースリリース</p>
+<p class="companyInfo__txt">新商品やイベント情報、研究開発の成果など最新情報をお知らせします。</p>
+</a></li>
+
+<li class="companyInfo__item"><a href="/company/ir/">
+<div class="companyInfo__img"><img src="img/company/company_thumb_03.jpg" height="174" width="310" alt=""></div>
+<p class="companyInfo__name">IR情報</p>
+<p class="companyInfo__txt">投資家の皆さまに向けたIR情報を掲載しています。</p>
+</a></li>
+
+<li class="companyInfo__item"><a href="/company/csr/">
+<div class="companyInfo__img"><img src="img/company/company_thumb_04.jpg" height="174" width="310" alt=""></div>
+<p class="companyInfo__name">CSRの取り組み</p>
+<p class="companyInfo__txt">森永製菓のCSRに関する考え方やさまざまな取り組みについてご紹介します。</p>
+</a></li>
+
+<li class="companyInfo__item"><a href="/company/rd/">
+<div class="companyInfo__img"><img src="img/company/company_thumb_05.jpg" height="174" width="310" alt=""></div>
+<p class="companyInfo__name">研究開発</p>
+<p class="companyInfo__txt">新しい製法や食感など、よりお客様に喜んでいただける研究開発に取り組んでいます。</p>
+</a></li>
+
+<li class="companyInfo__item"><a href="/company/recruit/">
+<div class="companyInfo__img"><img src="img/company/company_thumb_06.jpg" height="174" width="310" alt=""></div>
+<p class="companyInfo__name">採用情報</p>
+<p class="companyInfo__txt">パイオニア精神を胸に、新しい価値を生み出す人材を求めています。</p>
+</a></li>
+
+
+</ul>
+</div>
+<!-- /.pickupContents --></div>
+
+</div>
+<!-- ↑↑↑↑コンテンツ↑↑↑↑ -->
+
+</div>
+
+<div class="infoContents__wrapper">
+<div class="infoContents">
+<div class="infoContents__inner">
+<div class="headingType01">
+<h2 class="headingType01__txt">森永からのお知らせ</h2>
+<p class="headingType01__link"><a href="/info/" class="linkTxt00">一覧</a></p>
+</div>
+
+<ul class="newsList">
+<li class="newsList__item"><a onclick=""   href="/info/detail/51">「エンゼルカントリークラブ」譲渡に関するお問い合わせ窓口開設期間延長のお知らせ</a></li>
+<li class="newsList__item"><a onclick="javascript:_gaq.push(['_trackPageview', '/public/corporate/files/pdf/information/b133460ec1d4b0ee409f97276655be2d.pdf']);dataLayer.push({ event:'GA_TrackPageview', PreviewPage:'/public/corporate/files/pdf/information/b133460ec1d4b0ee409f97276655be2d.pdf' }); "  target='_blank'  href="/public/corporate/files/pdf/information/b133460ec1d4b0ee409f97276655be2d.pdf">平成29年3月期　第3四半期決算短信を発表</a></li>
+<li class="newsList__item"><a onclick=""   href="/info/detail/41">弊社企業名及びロゴマークを無断で使用して営業を行っている事業者にご注意ください</a></li>
+</ul>
+
+
+<div class="headingType01">
+<h2 class="headingType01__txt">ニュースリリース<span class="icon-rss"><a href="/company/rss/index.rdf"><img src="/assets/img/icon_rss.png" height="19" width="19" alt=""></a></span></h2>
+<p class="headingType01__link"><a href="/company/newsrelease/" class="linkTxt00">一覧</a></p>
+</div>
+<dl class="newsList">
+<dt class="newsList__date"><time datetime="2017-08-18">2017年08月18日</time></dt>
+<dd class="newsList__txt"><a onclick=""  href="http://www.morinaga.co.jp/company/newsrelease/detail.php?no=1493">朝食にスプーン1杯習慣化　ラクチュロース(ミルクオリゴ糖)配合の健康系ココア ヨーグルトに混ぜて、牛乳に溶かして 森永ココア「ラクチュロースココア」 8月22日（火）より全国で発売</a></dd>
+
+<dt class="newsList__date"><time datetime="2017-08-18">2017年08月18日</time></dt>
+<dd class="newsList__txt"><a onclick=""  href="http://www.morinaga.co.jp/company/newsrelease/detail.php?no=1494">『五穀』＋黒ゴマ（セサミン14㎎含有）＋豆乳で カラダにイイこと雑穀おやつ 「五穀と黒ゴマの豆乳ラテ」 8月22日（火）より全国で発売</a></dd>
+
+<dt class="newsList__date"><time datetime="2017-08-15">2017年08月15日</time></dt>
+<dd class="newsList__txt"><a onclick=""  href="http://www.morinaga.co.jp/company/newsrelease/detail.php?no=1492">人気ブランドに ハロウィン限定パッケージが登場 ハロウィンを楽しく彩るデザインで 今年もパーティーを盛り上げよう！</a></dd>
+
+<dt class="newsList__date"><time datetime="2017-08-14">2017年08月14日</time></dt>
+<dd class="newsList__txt"><a onclick=""  href="http://www.morinaga.co.jp/company/newsrelease/detail.php?no=1491">NEW「エンゼルパイ＜和栗＞」！ 「和栗キャラメル」「和栗ケーキ」「和栗クッキー」 「小枝＜モンブラン＞」の全5品の栗シリーズ　 8月22日（火）期間限定発売</a></dd>
+
+
+</dl>
+<div class="headingType01">
+<h2 class="headingType01__txt">更新情報<span class="icon-rss"><a href="/rss/index.rdf"><img src="/assets/img/icon_rss.png" height="19" width="19" alt=""></a></span></h2>
+<p class="headingType01__link"><a href="/update/" class="linkTxt00">一覧</a></p>
+</div>
+
+<dl class="newsList">
+<dt class="newsList__date"><time datetime="2017-08-08">2017年08月08日</time></dt>
+<dd class="newsList__txt"><a onclick=""  target='_blank'  href="/hi-chew/chewenchi2017/">8月12日&ldquo;ハイチュウの日&rdquo;特別企画「ハイチュウ園地2017ジューシーワールド」特設ページ公開しました！</a></dd>
+
+<dt class="newsList__date"><time datetime="2017-08-08">2017年08月08日</time></dt>
+<dd class="newsList__txt"><a onclick=""  target='_blank'  href="/hi-chew/campaign/">「ハイチュウオリジナル関ジャニ&infin;QUOカードが当たる！キャンペーン」実施中！</a></dd>
+
+<dt class="newsList__date"><time datetime="2017-07-31">2017年07月31日</time></dt>
+<dd class="newsList__txt"><a onclick=""   href="/recipe/calendar/">「天使のレシピカレンダー」8月分をアップしました！</a></dd>
+
+<dt class="newsList__date"><time datetime="2017-07-25">2017年07月25日</time></dt>
+<dd class="newsList__txt"><a onclick=""   href="/premiumfriday/">プレミアムフライデー更新。7月の特集は「ビールがすすむ！大人のおつまみ特集」</a></dd>
+
+<dt class="newsList__date"><time datetime="2017-07-20">2017年07月20日</time></dt>
+<dd class="newsList__txt"><a onclick=""  target='_blank'  href="/taichiro/2017summer/">コンセプトショップ『TAICHIRO　MORINAGA』が、初の夏季限定でオープン！</a></dd>
+
+<dt class="newsList__date"><time datetime="2017-07-18">2017年07月18日</time></dt>
+<dd class="newsList__txt"><a onclick=""   href="/cm/detail/107">ウイダーinゼリーCM 「夏」篇を公開しました！</a></dd>
+
+<dt class="newsList__date"><time datetime="2017-07-12">2017年07月12日</time></dt>
+<dd class="newsList__txt"><a onclick=""   href="/summer2017/">「おかしな自由研究」公開しました！</a></dd>
+
+</dl>
+
+
+
+</div>
+<!-- /.infoContents --></div>
+</div>
+
+
+
+<div class="siteFooter__wrapper siteFooterColor--brown">
+<div class="siteFooter">
+<div class="siteFooter__inner">
+
+<div class="siteFooter__linkBox__wrapper">
+
+<p class="siteFooter__homeLink"><a href="/">森永製菓トップページ</a></p>
+<div class="siteFooter__linkBoxes01">
+<div class="siteFooter__linkBox">
+<p class="siteFooter__linkBox__title"><a href="/products/">商品情報</a></p>
+<ul class="siteFooter__linkBox__items">
+<li class="siteFooter__linkBox__item"><a href="/products/new.php">新商品情報</a></li>
+<li class="siteFooter__linkBox__item"><a href="/products/list.php?id=0101">菓子</a></li>
+<li class="siteFooter__linkBox__item"><a href="/products/list.php?id=0201">食品</a></li>
+<li class="siteFooter__linkBox__item"><a href="/products/list.php?id=0203">飲料</a></li>
+<li class="siteFooter__linkBox__item"><a href="/products/list.php?id=0301">アイス</a></li>
+<li class="siteFooter__linkBox__item"><a href="/products/list.php?id=0401">ウイダー</a></li>
+<li class="siteFooter__linkBox__item"><a href="/products/list.php?id=0501">ヘルスケア</a></li>
+<li class="siteFooter__linkBox__item"><a href="/products/allergy/">アレルギー情報</a></li>
+</ul>
+<!-- /.siteFooter__linkBox --></div>
+
+<div class="siteFooter__linkBox">
+<p class="siteFooter__linkBox__title"><a href="/cm/">CMギャラリー</a></p>
+<!-- /.siteFooter__linkBox --></div>
+
+
+<div class="siteFooter__linkBox">
+<p class="siteFooter__linkBox__title"><a href="/know/">知る・楽しむ</a></p>
+<ul class="siteFooter__linkBox__items">
+<li class="siteFooter__linkBox__item"><a href="/recipe/">森永天使のお菓子レシピ</a></li>
+<li class="siteFooter__linkBox__item"><a href="/socialmedia/">ソーシャルメディア公式アカウント</a></li>
+<li class="siteFooter__linkBox__item"><a href="/museum/">森永ミュージアム</a></li>
+<li class="siteFooter__linkBox__item"><a href="/factory/">工場見学</a></li>
+<li class="siteFooter__linkBox__item"><a href="/food_education/">菓子育</a></li>
+<li class="siteFooter__linkBox__item"><a href="/cocoareport/" target="_blank">ココアレポート</a></li>
+<li class="siteFooter__linkBox__item"><a href="/bellmark/">ベルマーク</a></li>
+<li class="siteFooter__linkBox__item"><a href="/bousai/">防災の心得</a></li>
+<li class="siteFooter__linkBox__item"><a href="/label_factory/">ラベルファクトリー</a></li>
+<li class="siteFooter__linkBox__item"><a href="/entertainment/">エンターテイメント</a></li>
+<li class="siteFooter__linkBox__item"><a href="/noobow/">ぬーぼーなこころ</a></li>
+<li class="siteFooter__linkBox__item"><a href="/1choco-1smile/">1チョコ for 1スマイル</a></li>
+</ul>
+<!-- /.siteFooter__linkBox --></div>
+
+
+<div class="siteFooter__linkBox">
+<p class="siteFooter__linkBox__title"><a href="http://ap.morinaga.co.jp/campaign/" target="_blank">キャンペーン</a></p>
+<!-- /.siteFooter__linkBox --></div>
+
+
+<div class="siteFooter__linkBox">
+<p class="siteFooter__linkBox__title"><a href="/shopping/">ショッピング</a></p>
+<!-- /.siteFooter__linkBox --></div>
+
+
+<!-- /.siteFooter__linkBoxes01 --></div>
+
+
+<div class="siteFooter__linkBoxes02">
+<div class="siteFooter__linkBox">
+<p class="siteFooter__linkBox__title"><a href="/company/">企業情報</a></p>
+<ul class="siteFooter__linkBox__items">
+<li class="siteFooter__linkBox__item"><a href="/company/about/outline.html">会社概要</a></li>
+<li class="siteFooter__linkBox__item"><a href="/company/newsrelease/">ニュースリリース</a></li>
+<li class="siteFooter__linkBox__item"><a href="/company/ir/">IR情報</a></li>
+<li class="siteFooter__linkBox__item"><a href="/company/csr/">社会貢献活動</a></li>
+<li class="siteFooter__linkBox__item"><a href="/company/csr/report/">CSR報告書</a></li>
+<li class="siteFooter__linkBox__item"><a href="/company/recruit/">採用情報</a></li>
+</ul>
+<!-- /.siteFooter__linkBox --></div>
+
+<!-- /.siteFooter__linkBoxes02 --></div>
+<!-- /.siteFooter__linkBoxe__wrapper --></div>
+
+<div class="siteFooter__bnrBox">
+<p class="siteFooter__bnrBox__title"><a href="/socialmedia/">ソーシャルメディア公式アカウント</a></p>
+<div class="siteFooter__bnr siteFooter__bnr--sns"><a href="/socialmedia/"><img src="/assets/img/footer_bnr_sns.png" height="116" width="228" alt="ソーシャルメディア公式アカウント"></a></div>
+
+<p class="siteFooter__bnrBox__title"><a href="http://ap.morinaga.co.jp/" target="_blank">森永製菓ファンサイト</a></p>
+<div class="siteFooter__bnr"><a href="http://ap.morinaga.co.jp/" target="_blank"><img src="/assets/img/footer_bnr_fan.jpg" height="70" width="228" alt="エンゼルPLUS"></a></div>
+<!-- /.siteFooter__bnrBox --></div>
+
+
+</div>
+<!-- /.siteFooter --></div>
+</div>
+
+<p class="siteFooter__pageTop" id="toPageTop"><a href="#">PAGE TOP</a></p>
+<!-- /.l-wrapper --></div>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.3";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<footer class="globalFooter">
+<div class="globalFooter__inner">
+<ul class="globalFooter__links">
+<li class="globalFooter__links__item"><a href="/sitemap/">サイトマップ</a></li>
+<li class="globalFooter__links__item"><a href="/rss/">RSSの配信について</a></li>
+<li class="globalFooter__links__item"><a href="/privacy/">プライバシーポリシー</a></li>
+<li class="globalFooter__links__item"><a href="/terms/">ご利用規約</a></li>
+<li class="globalFooter__links__item"><a href="/links/">リンク</a></li>
+</ul>
+
+<div class="globalFooter__logoBox">
+<p class="globalFooter__logo"><a href="/"><img src="/assets/img/footer_logo_01.png" height="23" width="207" alt="森永製菓株式会社"></a></p>
+<p class="globalFooter__copyright"><small>Copyright &copy; MORINAGA &amp; CO., LTD. All rights reserved.</small></p>
+</div>
+</div>
+<!-- /.globalFooter --></footer>
+<script type="text/javascript" src="/assets/js/sync_search_suggest.js"></script>
+<script type="text/javascript" src="/assets/js/ga.js"></script>
+<script type="text/javascript" src="/assets/js/https_convert_link.js"></script>
+	<script type="text/javascript" src="/assets/js/top.js?1443145035"></script>
+</body>
+</html>

@@ -1,0 +1,222 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta charset="utf-8">
+<title>PALEMO｜パレモ</title>
+<meta name="description" content="レディスアパレル、雑貨、バッグの専門店を全国で展開する株式会社パレモのオフィシャルサイト。本社愛知県稲沢市" />
+<meta name="copyright" content="(C)Palemo Co., Ltd." />
+<meta name="robots" content="INDEX,FOLLOW" />
+<link href="common/style/home01.css" rel="stylesheet" type="text/css" media="all" />
+<link href="common/style/swiper.min.css" rel="stylesheet" type="text/css" media="all" />
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="stylesheet">
+<link rel="shortcut icon" href="">
+</head>
+<body id="Home">
+
+<div id="stage">
+
+<header>
+<div id="Header">
+<div class="container">
+<div id="SiteId"><h1><a href="/">PALEMO</a></h1></div>
+<div id="HeadLink">
+<ul>
+<li class="Li01"><a href="index.html">HOME</a></li>
+<li class="Li02"><a href="site/contact.html">CONTACT</a></li>
+</ul>
+</div>
+</div>
+</div>
+</header>
+
+<div id="main-image">
+<div class="swiper-container">
+<div class="swiper-wrapper">
+<div class="image image3 swiper-slide"></div>
+<div class="image image4 swiper-slide"></div>
+<div class="image image2 swiper-slide"></div>
+<div class="image image1 swiper-slide"></div>
+<!--<div class="image image1 swiper-slide"><p>RESORT ISLAND<span>2017 SUMMER</span></p></div>-->
+</div>
+</div>
+</div>
+
+<nav>
+<div id="nav">
+<ul id="navigation">
+<li><a href="brand/index.html" title="ブランド案内">ブランド案内<span>BRAND GUIDE</span></a></li>
+<li><a href="shop/index.html" title="店舗案内">店舗案内<span>SHOP GUIDE</span></a></li>
+<li><a href="corporate/index.html" title="企業情報">企業情報<span>CORPORATE INFORMATION</span></a></li>
+<li><a href="ir/index.html" title="IR情報">IR情報<span>IR INFORMATION</span></a></li>
+<li><a href="recruit/index.html" title="採用情報">採用情報<span>RECRUIT</span></a></li>
+</ul>
+</div>
+</nav>
+
+</div>
+
+<!--
+<div id="ImageBox">
+<div id="Gallery">
+<div id="example">
+<img src="common/img/main/170714/main01.jpg" />
+<img src="common/img/main/170714/main02.jpg" />
+<img src="common/img/main/170714/main03.jpg" />
+<img src="common/img/main/170714/main04.jpg" />
+<img src="common/img/main/170714/main05.jpg" />
+<img src="common/img/main/170714/main06.jpg" />
+</div>
+<script>
+$('#example').jqFancyTransitions({ position: 'curtain' });
+</script>
+</div>
+</div>
+-->
+
+<div id="cont-body">
+
+<div id="bn-box">
+<ul>
+<li><a href="http://palemoba.com/shopping.php?large=1" target="_blank"><img src="common/img/bn_online2.jpg" alt="Palemoba ONLINE STORE"></a></li>
+<li><a href="http://mb.palemo.com/" target="_blank"><img src="common/img/bn_member2.jpg" alt="Palemoba 誕生"></a></li>
+</ul>
+</div>
+
+<div class="left">
+
+<div id="BrandList">
+<h2 class="ico">Brand List</h2>
+<div id="ListA">
+<h3>APPAREL</h3>
+<ul>
+<li><a href="http://mb.palemo.com/brand.php?brand=16&id=lilou"      title="Lilou de chouchou" target="_blank"><img src="common/img/home/lilou.gif"       /></a></li>
+<li><a href="http://mb.palemo.com/brand.php?brand=17&id=daisy"      title="Daisy Merry"       target="_blank"><img src="common/img/home/daysymerry.gif"  /></a></li>
+<li><a href="http://mb.palemo.com/brand.php?brand=19&id=ludicpark"  title="Ludic Park"        target="_blank"><img src="common/img/home/ludicpark.gif" /></a></li>
+<li><a href="http://mb.palemo.com/brand.php?brand=6&id=forestheart" title="Forest Heart"      target="_blank"><img src="common/img/home/forestheart.gif" /></a></li>
+<li><a href="http://mb.palemo.com/brand.php?brand=2&id=dosch"       title="DOSCH"             target="_blank"><img src="common/img/home/dosch.gif"       /></a></li>
+<li><a href="http://mb.palemo.com/brand.php?brand=1&id=recherie"    title="Recherie"          target="_blank"><img src="common/img/home/recherie.gif"    /></a></li>
+<li><a href="http://mb.palemo.com/brand.php?brand=8&id=suzutan"     title="SUZUTAN"           target="_blank"><img src="common/img/home/suzutan.gif"     /></a></li>
+<li><a href="http://mb.palemo.com/brand.php?brand=7&id=galfit"      title="GAL FIT"           target="_blank"><img src="common/img/home/galfit.gif"      /></a></li>
+<li><a href="http://mb.palemo.com/brand.php?brand=9&id=rej"         title="Re-J"              target="_blank"><img src="common/img/home/rej.gif"         /></a></li>
+<li><a href="http://mb.palemo.com/brand.php?brand=15&id=supure"     title="SUPURE"            target="_blank"><img src="common/img/home/supure.gif"      /></a></li>
+</ul>
+</div>
+<div id="ListZ">
+<h3>ZAKKA</h3>
+<ul>
+<li><a href="http://mb.palemo.com/brand.php?brand=10&id=mokushido"   title="木糸土"       target="_blank"><img src="common/img/home/mokushido.gif"   /></a></li>
+<li><a href="http://mb.palemo.com/brand.php?brand=10&id=harenohi"    title="ハレノヒ"     target="_blank"><img src="common/img/home/harenohi.gif"    /></a></li>
+<li><a href="http://mb.palemo.com/brand.php?brand=11&id=illusie300"  title="ILLU SIE 300" target="_blank"><img src="common/img/home/illusie300.gif"  /></a></li>
+<li><a href="http://mb.palemo.com/brand.php?brand=12&id=siebelet"    title="Siebelet"     target="_blank"><img src="common/img/home/siebelet.gif"    /></a></li>
+<li><a href="http://mb.palemo.com/brand.php?brand=13&id=incense"     title="INCENSE"      target="_blank"><img src="common/img/home/incense.gif"     /></a></li>
+</ul>
+</div>
+</div>
+
+<div id="OnlineShop">
+<h2 class="ico">OnlineShop</h2>
+<ul class="list">
+<li><img src="common/img/logo_resort.jpg" alt="Resort Island"></li>
+<li class="mr"><a href="http://www.magaseek.com/shop/top/sh_PLMRES-tr_s" target="_blank"><img src="common/img/shop_btn1.jpg"></a></li>
+<li class="mr"><a href="http://fashionwalker.com/brand/resortisland/" target="_blank"><img src="common/img/shop_btn2.jpg"></a></li>
+</ul>
+<ul class="list">
+<li><img src="common/img/logo_lilou.jpg" alt="Lilou de chouchou"></li>
+<li class="mr"><a href="http://www.magaseek.com/shop/top/sh_PLMRHE-tp_1-tr_s" target="_blank"><img src="common/img/shop_btn1.jpg"></a></li>
+<li class="mr"><a href="http://fashionwalker.com/brand/liloudechouchou/" target="_blank"><img src="common/img/shop_btn2.jpg"></a></li>
+<li class="mr"><a href="https://fashion.dmkt-sp.jp/products_search?shop_code=PLMRHE&gender_type=2" target="_blank"><img src="common/img/shop_btn3.jpg"></a></li>
+<li><a href="https://brandavenue.rakuten.co.jp/ba/shop-liloudechouchou/" target="_blank"><img src="common/img/shop_btn4.jpg"></a></li>
+</ul>
+<ul class="list">
+<li><img src="common/img/logo_daisy.jpg" alt="DAISY MERRY"></li>
+<li class="mr"><a href="http://www.magaseek.com/shop/top/sh_PLMDSC-tp_1-tr_s" target="_blank"><img src="common/img/shop_btn1.jpg"></a></li>
+<li class="mr"><a href="http://fashionwalker.com/brand/daisymerry/" target="_blank"><img src="common/img/shop_btn2.jpg"></a></li>
+<li class="mr"><a href="https://fashion.dmkt-sp.jp/products_search?shop_code=PLMDSC" target="_blank"><img src="common/img/shop_btn3.jpg"></a></li>
+<li><a href="https://brandavenue.rakuten.co.jp/ba/shop-daisymerry/" target="_blank"><img src="common/img/shop_btn4.jpg"></a></li>
+</ul>
+<ul class="list">
+<li><img src="common/img/logo_rej.jpg" alt="Re-J"></li>
+<li class="mr"><a href="http://palemoba.com/shopping.php" target="_blank"><img src="common/img/shop_btn5.jpg"></a></li>
+<li class="mr"><a href="https://www.rakuten.ne.jp/gold/jinnee/" target="_blank"><img src="common/img/shop_btn6.jpg"></a></li>
+<li class="mr"><a href="https://store.shopping.yahoo.co.jp/jinnee/" target="_blank"><img src="common/img/shop_btn7.jpg"></a></li>
+<li class="mr"><a href="https://wowma.jp/user/10269086" target="_blank"><img src="common/img/shop_btn8.jpg"></a></li>
+<li><a href="https://www.amazon.co.jp/www.amazon.co.jp/s?me=A3B4NZNO0HX7O6&rh=i%3Amerchant-items" target="_blank"><img src="common/img/shop_btn9.jpg"></a></li>
+</ul>
+</div>
+
+</div>
+
+<div class="right">
+
+<div id="Members" class="box">
+<h2>Member's Card</h2>
+<p class="text">使ってお得なPALEMOのメンバーズカード</p>
+<img src="common/img/card.jpg" class="pict">
+<p class="btn"><a href="brand/members.html">詳しく見る</a></p>
+</div>
+
+<div id="Palemoba" class="box">
+<h2><img src="common/img/logo_palemoba.jpg" alt="Palemoba"></h2>
+<p class="text">パレモモバイル会員サービス「PaleMoba」誕生! </p>
+<img src="common/img/member.jpg" class="pict">
+<p class="btn"><a href="http://mb.palemo.com/" target="_blank">無料メルマガ登録</a></p>
+</div>
+
+</div>
+
+</div>
+
+<div id="FootWrapper">
+<div id="Footer">
+<ul id="FootLeft">
+<li>
+<strong>パレモ・ホールディングス株式会社／株式会社パレモ</strong>
+<!--<span id="PalemoHdId">パレモ・ホールディングス株式会社</span><span id="PalemoId">株式会社パレモ</span>-->
+</li>
+<li>〒492-8680 愛知県稲沢市天池五反田町1番地</li>
+<li>TEL:0587-24-9771&nbsp;&nbsp;FAX:0587-24-9710</li>
+<li><address>Copyright&nbsp;&copy;Palemo&nbsp;Co.,&nbsp;Ltd.&nbsp;All&nbsp;Right Reserved.</address></li>
+</ul>
+<ul id="FootRight">
+<li>｜</li>
+<li><a href="site/contact.html">お問い合わせ</a></li>
+<li>｜</li>
+<li><a href="site/sitemap.html">サイトマップ</a></li>
+<li>｜</li>
+<li><a href="site/site.html">サイトについて</a></li>
+<li>｜</li>
+<li><a href="site/link.html">リンク</a></li>
+<li>｜</li>
+<li><a href="site/privacy.html">プライバシーポリシー</a></li>
+<li>｜</li>
+</ul>
+</div>
+</div>
+
+<script type="text/javascript" src="common/script/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="common/script/jqFancyTransitions.1.8.min02.js"></script>
+<script type="text/javascript" src="common/script/swiper.min.js"></script>
+<script>
+   $(document).ready(function(){
+	   $(window).bind('scroll', function() {
+	   var navHeight = $( window ).height() - 51;
+			 if ($(window).scrollTop() > navHeight) {
+				 $('nav').addClass('fixed');
+			 }
+			 else {
+				 $('nav').removeClass('fixed');
+			 }
+		});
+	});
+	
+	//スライダー
+    var swiper = new Swiper('.swiper-container', {
+		autoplay: 4000,
+		speed: 1500,
+        effect: 'fade',
+		crossFade: true
+    });
+</script>
+</body>
+</html>

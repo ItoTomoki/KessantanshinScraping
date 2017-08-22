@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="Description" content="東京都港区の電機技術商社、八洲電機株式会社のオフィシャルウェブサイトです。企業情報、事業内容、IR情報、環境への取組み、採用情報等を掲載しています。" />
+<meta name="Keywords" content="八洲電機株式会社,Yashima Denki,日立特約店" />
+<title>八洲電機株式会社</title>
+
+<!--// include ======================== -->
+
+<link href="_include_css/jquery.bxslider.css" rel="stylesheet">
+<script src="_include_js/jquery.fitvids.js"></script>
+<script src="_include_js/jquery.bxslider.min.js"></script>
+
+<link rel="index" href="http://www.yashimadenki.co.jp/" title="八洲電機株式会社">
+<link rel="shortcut icon" href="_common_img/favicon_ie.ico" type="image/vnd.microsoft.ico" >
+<link rel=" icon" href="_common_img/favicon.ico" type="image/vnd.microsoft.ico" >
+<link rel="apple-touch-icon" href="touch-icon-iphone.png" />
+<!--include CSS // Bootstrap -->
+<link href="_bootstrap_css/bootstrap.css" rel="stylesheet">
+<link href="_bootstrap_css/bootstrap-responsive.css" rel="stylesheet">
+<!--include WebFont // WebFontClass and Text-->
+<link href="_include_css/idg_webfont_text.css" rel="stylesheet">
+<!--include CSS // Navigation -->
+<link href="_include_css/idg_navigation.css" rel="stylesheet">
+<!--include CSS // Sidenavi -->
+<link href="_include_css/idg_sidenavi.css" rel="stylesheet">
+<!--include CSS // Carousel -->
+<link href="_include_css/idg_carousel.css" rel="stylesheet">
+<!--include CSS // Asset -->
+<link href="_include_css/idg_asset.css" rel="stylesheet">
+<!--include Js // jQuery -->
+<script src="_include_js/jquery_1_8_2.js"></script>
+<!--include Js // Bootstrap -->
+<script src="_bootstrap_js/bootstrap.min.js"></script>
+<!--include Js // textresizer - cookie -->
+<!--include Js // textresizer -->
+<script src="_include_js/jquery.textresizer.js"></script>
+<!--include Js // heitLine -->
+<script src="_include_js/heightLine.js"></script>
+<!--include Js // dateManager -->
+<script src="_include_js/idg_dateManager.js"></script>
+<!--include Js // bxslider -->
+<link href="_include_css/jquery.bxslider.css" rel="stylesheet">
+<script src="_include_js/jquery.fitvids.js"></script>
+<script src="_include_js/jquery.bxslider.min.js"></script>
+
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<!--[if IE 6]>
+    <link href="_bootstrap_css/ie6.css" rel="stylesheet">
+	<link href="_include_css/idg_asset_ie6.css" rel="stylesheet">
+<![endif]-->
+
+
+
+<script type="text/javascript">
+	jQuery(document).ready( function() {
+		if(!location.hash){
+			setTimeout("scrollTo( 0, 1)", 0);
+		}
+		jQuery( "#textsizer a" ).textresizer({
+			target: "#Contents a , #Contents p, th, td, #newsTopics_Tab li a, div.element_info, div.element_product, .line li, a, dd, td p a, p a, p, h3, h4",
+			type: "fontSize",
+			sizes: [ "12px", "13px", "14px" ],
+			selectedIndex: 1
+		});
+	});
+</script>
+
+<!-- スムーズスクロール -->
+<script>
+$(function(){
+   // #で始まるアンカーをクリックした場合に処理
+   $('a.scroll').click(function() {
+      // スクロールの速度
+      var speed = 1000; // ミリ秒
+      // アンカーの値取得
+      var href= $(this).attr("href");
+      // 移動先を取得
+      var target = $(href == "#" || href == "" ? 'html' : href);
+      // 移動先を数値で取得
+      var position = target.offset().top;
+      // スムーススクロール
+      $('body,html').animate({scrollTop:position}, speed, 'swing');
+      return false;
+   });
+});
+</script>
+
+
+
+
+<style>
+.messageKumamoto{
+	font-size:12px;
+	color:#555;
+	padding:15px;
+	margin-bottom:10px;
+	line-height:1.5em;
+	background:#fefefe;
+	border:1px solid #ccc;}
+.nav-collapse{
+	z-index:20;}
+#carouselTop{
+	background:url(index/main_logo.png);
+	background-position:50% 50%;"}
+ul.bxslider {
+	padding: 0;
+	margin: 0;
+}
+
+
+/*====================================================
+     Media Queries  480px 以下
+     》 Phone to Tablet
+======================================================*/
+@media (max-width: 767px) {
+	#carouselTop{
+	background:url(index/main_logo_mini.png);
+	background-position:50% 50%;"}
+
+</style>
+
+<script>
+$(document).ready(function(){
+  $('.bxslider').fadeIn(500);
+  $('.bxslider').bxSlider({
+	auto: true,
+	infiniteLoop: true,
+	pause: 8500,
+	mode: 'fade',
+	video: true
+	});
+});
+</script>
+
+
+<script type="text/javascript">
+jQuery(document).ready(function($){
+	var bxs = $('.bxslider').bxSlider();
+
+	$('.video').get(0).play();
+	$('.video').on('ended', function()
+	{
+		bxs.startAuto();
+	});
+});
+</script>
+
+
+<script>
+	if(navigator.userAgent.indexOf("MSIE 6") != -1){
+		alert("お使いのブラウザは古い可能性があります。本サイトを快適にご覧頂くには最新のブラウザが必要です。")
+	}
+	jQuery(document).ready( function() {
+		setTimeout("scrollTo( 0, 1)", 0);
+		jQuery( "#textsizer a" ).textresizer({
+			target: "#Contents a , #Contents p, th, td, #newsTopics_Tab li a, dt, dd a, td p a, p a, p",
+			type: "fontSize",
+			sizes: [ "10px", "13px", "17px" ],
+			selectedIndex: 1
+		});
+	});
+
+}
+</script>
+
+
+
+<script>
+$(window).load(function(){
+	/* Tab Control */
+	$('#Tab a').click(function (e) {
+		e.preventDefault();
+		$(this).tab('show');
+	});
+});
+</script>
+</head>
+<body>
+
+<!--// Header,Navigation ======================== -->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-2914170-6']);
+  _gaq.push(['_setDomainName', 'yashimadenki.co.jp']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+
+<!--// Navigation ======================== -->
+<header class="navbar navbar-fixed-top">
+	<div id="header" class="visible-desktop">
+		<div class="container">
+			<a href="http://www.yashimadenki.co.jp/index.php"><img id="logo" src="_common_img/logo.png"><div id="companyname">八洲電機株式会社</div></a>
+			<div id="headerRht">
+				<div id="fontsize" class="gadget textresizer">
+					<img src="_common_img/fontsize.png">
+					<span id="textsizer"><a href="#txs" class="fSmall small-text"><img src="_common_img/fontsize_1.png"></a><a href="#txm" class="fMiddle medium-text"><img src="_common_img/fontsize_2.png"></a><a href="#txl" class="fBig large-text"><img src="_common_img/fontsize_3.png"></a></span>
+				</div>
+				<div id="lngChg">
+				<a href="http://www.yashimadenki.co.jp/__en/index.php"><img src="_common_img/btn_en.png"></a>
+				<a href="http://www.yashimadenki.co.jp/__ch/index.php"><img src="_common_img/btn_ch.png"></a>
+				</div>
+				<div class="googlebox">
+				<form class="form-search">
+					<div class="input-append">
+
+
+
+
+
+<script>
+  (function() {
+    var cx = '010058390997689208376:r03dxw05zzi';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
+
+
+
+
+					</div>
+				</form>
+				</div>
+			</div><!-- /fontsize -->
+		</div><!-- /container -->
+	</div><!-- /header -->
+
+
+	<div class="navbar-inner">
+		<button data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar" type="button">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button>
+		<div class="pull-left hidden-desktop"><img id="logo_s" src="_common_img/logo.png" style="width:100px;"><div id="companyname">八洲電機株式会社</div></div>
+		<div class="nav-collapse collapse">
+			<ul class="nav">
+				<li class="active" id="top"><a href="index.php">トップページ</a></li>
+				<li  id="company"><a href="company_top.php">会社案内</a></li>
+				<li  id="products"><a href="solution_top.php">事業紹介</a></li>
+				<li  id="ir"><a href="ir_top.php">株主･投資家の皆さまへ</a></li>
+				<li  id="recruit"><a href="recruit_top.php">採用情報</a></li>
+				<li  id="envi"><a href="environment_top.php">環境への取り組み</a></li>
+				<li  id="inquiry"><a href="https://www.yashimadenki.co.jp/inquiry_front.php">お問い合わせ</a></li>
+				<li class="hidden-desktop"><a href="__en/index.php">English</a></li>
+				<li class="hidden-desktop"><a href="__ch/index.php">中文</a></li>
+			</ul>
+		</div>
+	</div><!-- /navbar-inner -->
+</header>
+<!--\\ Navigation ======================== --> 
+
+
+<div id="spacer-top">
+<!--// カルーセル ========================== -->
+	<!--カルーセル-->
+	<ul class="bxslider" style="width:100%;margin:0;">
+  		<li><a href="solution_top.php#plant"><img src="index/carousel01.jpg" alt=" "></a></li>
+  		<li><a href="solution_top.php#sangyo"><img src="index/carousel02.jpg" alt=" "></a></li>
+  		<li><a href="solution_top.php#syakai"><img src="index/carousel03.jpg" alt=" "></a></li>
+  		<li><a href="solution_top.php#denshi"><img src="index/carousel04.jpg" alt=" "></a></li>
+	</ul>
+
+
+
+<!--\\ カルーセル ========================== --> 
+
+<!--// 「yashimadenki.jp」からのアクセス用 ======================== 
+<script>
+if(location.hostname != "www.yashimadenki.co.jp"){
+	document.write('<div class="container">');
+	document.write('<div class="alert alert-error" style="line-height:2em;">');
+	document.write('<strong>Webサイト統合のお知らせ</strong><br>');
+	document.write('八洲電機ウェブサイトのIR関連ページは、リニューアルによりURLが変更となっております。<br>');
+	document.write('従来の同ページをブックマーク等に登録されている方は、<br>大変お手数ですが下のボタンをクリックして再度アクセスいただき、変更をお願いいたします。<br><br>');
+	document.write('<a href="http://www.yashimadenki.co.jp/" class="btn">トップページにアクセスする</a>');
+	document.write('</div>');
+	document.write('</div>');
+}
+</script>
+-->
+
+
+<!--// コンテンツ ========================== -->
+<div class="container">
+
+	<div class="row">
+		<div class="span4">
+			<!--//  会社案内------------------------------------ -->
+			<div class="TileNavi heightLine">
+				<a href="company_top.php" style="color:#000000;">
+					<img src="index/img01.jpg" alt=" "　/>
+					<div class="right">
+						<h2>会社案内</h2>
+						<p>八洲電機の会社概要や、経営理念・ネットワークをご紹介いたします。</p>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="span4">
+			<!--// 事業紹介 ------------------------------------ -->
+			<div class="TileNavi heightLine">
+				<a href="solution_top.php" style="color:#000000;">
+					<img src="index/img02.jpg" alt=" "　/>
+					<div class="right">
+						<h2>事業紹介</h2>
+						<p>時代とお客様のニーズを先取りし、価値ある製品、サービスを提供します。</p>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="span4">
+			<!--// 株主・投資家の皆様へ ------------------------------------ -->
+			<div class="TileNavi heightLine">
+				<a href="ir_top.php" style="color:#000000;">
+					<img src="index/img03.jpg">
+					<div class="right">
+						<h2>株主･投資家の皆さまへ</h2>
+						<p>八洲電機の株式情報や経営指標がご覧になれます。</p>
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="span4">
+			<!--// 採用情報 ------------------------------------ -->
+			<div class="TileNavi heightLine">
+				<a href="recruit_top.php" style="color:#000000;">
+					<img src="index/img04.jpg">
+					<div class="right">
+						<h2>採用情報</h2>
+						<p>皆さんの可能性を最大限に発揮できるステージを用意してお待ちしております。</p>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="span4">
+			<!--// 環境への取り組み ------------------------------------ -->
+			<div class="TileNavi heightLine">
+				<a href="environment_top.php" style="color:#000000;">
+					<img src="index/img05.jpg">
+					<div class="right">
+						<h2>環境への取り組み</h2>
+						<p>環境問題への更なる取組みを推進し、地球環境保全につとめます。</p>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="span4">
+			<!--// お問い合わせ ------------------------------------ -->
+			<div class="TileNavi heightLine">
+				<a href="inquiry_front.php" style="color:#000000;">
+					<img src="index/img06.jpg">
+					<div class="right">
+						<h2>お問い合わせ</h2>
+						<p>八洲電機に関するご質問は、こちらからお問い合わせ下さい。</p>
+					</div>
+				</a>
+			</div>
+		</div>
+	</div><!-- /row -->
+
+	<div class="row" style="margin-top:20px;">
+		<div class="span8">
+			<ul id="Tab" class="nav nav-tabs" style="margin-bottom:5px;">
+				<li class="active" style="padding-left:7px;"><a href="#topics_00">トピックス</a></li>
+				<li><a href="#topics_01">お知らせ</a></li>
+				<li><a href="#topics_02">IRイベント</a></li>
+				<li><a href="#topics_03">IRライブラリ</a></li>
+			</ul>
+			<div class="tab-content">
+	
+	
+					<!--// トピックス -->
+					<div id="topics_00" class="tab-pane active box">
+	
+						<!--// CMSとの連携（Type_1） ------------------------------- -->
+						<table class="topics"><tr><td class="date_min" nowrap>2017年08月09日</td><td class="category"><div class="Label_b Label_other_Media">他資料</div></td><td class="title"><a href="_data/other_Media/20170807_日本証券新聞_広告_印刷不可.pdf" target="_blank"">『2017年8月7日付／日本証券新聞／ＩＲフォーラム2017東京 特別号／広告』<span style="font-size:10px;"> ( 269.0 KB ) </span>を掲載いたしました。<span style="font-size:10px;">日本証券新聞より転載許可をいただきました。</span></a></td></tr><tr><td class="date_min" nowrap>2017年07月28日</td><td class="category"><div class="Label_b Label_library_Fin">適時開示</div></td><td class="title"><a href="_data/library_Fin/2017年第1四半期決算短信_20170728.pdf" target="_blank"">『第74期 第1四半期 決算短信』<span style="font-size:10px;"> ( 244.9 KB ) </span>を掲載いたしました。</a></td></tr><tr><td class="date_min" nowrap>2017年07月28日</td><td class="category"><div class="Label_b Label_library_Timely">適時開示</div></td><td class="title"><a href="_data/library_Timely/20170728_株主優待制度の優待の内容に関するお知らせ.pdf" target="_blank"">『株主優待制度の優待の内容に関するお知らせ』<span style="font-size:10px;"> ( 154.9 KB ) </span>を掲載いたしました。</a></td></tr><tr><td class="date_min" nowrap>2017年07月28日</td><td class="category"><div class="Label_b Label_news">お知らせ</div></td><td class="title"><a href="_data/news/創立記念日及び夏季休業のお知らせ.pdf" target="_blank"">創立記念日及び夏季休業のお知らせ<span style="font-size:10px;"> ( 155.3 KB ) </span></a></td></tr><tr><td class="date_min" nowrap>2017年07月27日</td><td class="category"><div class="Label_b Label_other_Media">他資料</div></td><td class="title"><a href="_data/other_Media/20170726_FISCO_企業調査ﾚﾎﾟｰﾄ.pdf" target="_blank"">『2017年7月26日付／フィスコ／企業調査レポート』<span style="font-size:10px;"> ( 342.3 KB ) </span>を掲載いたしました。<span style="font-size:10px;">株式会社フィスコより転載許可をいただきました。</span></a></td></tr><tr><td class="date_min" nowrap>2017年07月12日</td><td class="category"><div class="Label_b Label_other_Media">他資料</div></td><td class="title"><a href="_data/other_Media/20170707_kagakukougyounippou.pdf" target="_blank"">『2017年7月7日付／化学工業日報／プラント機器拡販』<span style="font-size:10px;"> ( 144.7 KB ) </span>を掲載いたしました。<span style="font-size:10px;">化学工業日報より転載許可をいただきました。</span></a></td></tr><tr><td class="date_min" nowrap>2017年06月29日</td><td class="category"><div class="Label_b Label_other_Media">他資料</div></td><td class="title"><a href="_data/other_Media/20170628_日本証券新聞_広告（環境特集）_印刷不可.pdf" target="_blank"">『2017年6月28日付／日本証券新聞／環境特集／広告』<span style="font-size:10px;"> ( 92.4 KB ) </span>を掲載いたしました。<span style="font-size:10px;">日本証券新聞より転載許可をいただきました。</span></a></td></tr><tr><td class="date_min" nowrap>2017年06月28日</td><td class="category"><div class="Label_b Label_other_doc">他資料</div></td><td class="title"><a href="_data/other_doc/20170627_CorporateGovernance.pdf" target="_blank"">『コーポレート･ガバナンスに関する報告書』<span style="font-size:10px;"> ( 103.7 KB ) </span>を掲載いたしました。</a></td></tr><tr><td class="date_min" nowrap>2017年06月27日</td><td class="category"><div class="Label_b Label_news">お知らせ</div></td><td class="title"><a href="_data/news/(web掲載用)2017年版CSRレポート.pdf" target="_blank"">『八洲のCSRレポート2017』を掲載いたしました。<span style="font-size:10px;"> ( 4.7 MB ) </span></a></td></tr><tr><td class="date_min" nowrap>2017年06月27日</td><td class="category"><div class="Label_b Label_Stockholder_Notice">株主様資料</div></td><td class="title"><a href="_data/Stockholder_Notice/20170627_ketugitutisyo.pdf" target="_blank"">『第73期 定時株主総会決議ご通知』<span style="font-size:10px;"> ( 130.5 KB ) </span>を掲載いたしました。</a></td></tr></table><div style="clear:both;">&nbsp;</div>						<!--// CMSとの連携（Type_1） ------------------------------- -->
+					</div>
+	
+	
+	
+					<!--// お知らせ -->
+					<div id="topics_01" class="tab-pane box">
+						<table class="topics"><tr><td class="date_min" nowrap>2017年07月28日</td><td class="category"><div class="Label_b Label_news">お知らせ</div></td><td class="title"><a href="_data/news/創立記念日及び夏季休業のお知らせ.pdf" target="_blank"">創立記念日及び夏季休業のお知らせ<span style="font-size:10px;"> ( 155.3 KB ) </span></a></td></tr><tr><td class="date_min" nowrap>2017年06月27日</td><td class="category"><div class="Label_b Label_news">お知らせ</div></td><td class="title"><a href="_data/news/(web掲載用)2017年版CSRレポート.pdf" target="_blank"">『八洲のCSRレポート2017』を掲載いたしました。<span style="font-size:10px;"> ( 4.7 MB ) </span></a></td></tr><tr><td class="date_min" nowrap>2017年04月03日</td><td class="category"><div class="Label_b Label_news">お知らせ</div></td><td class="title"><a href="http://www.yashimadenki.co.jp/yss/index.php">八洲産機システム株式会社のウェブサイトを開設いたしました。</a></td></tr><tr><td class="date_min" nowrap>2016年12月19日</td><td class="category"><div class="Label_b Label_news">お知らせ</div></td><td class="title"><a href="_data/news/年末年始休業のお知らせ.pdf" target="_blank"">年末年始休業のお知らせ。<span style="font-size:10px;"> ( 147.0 KB ) </span></a></td></tr><tr><td class="date_min" nowrap>2016年09月26日</td><td class="category"><div class="Label_b Label_news">お知らせ</div></td><td class="title"><a href="_data/news/本社移転のお知らせ.pdf" target="_blank"">本社を移転いたしました。<span style="font-size:10px;"> ( 225.7 KB ) </span></a></td></tr><tr><td class="date_min" nowrap>2016年07月26日</td><td class="category"><div class="Label_b Label_news">お知らせ</div></td><td class="title"><a href="_data/news/announce20160726.pdf" target="_blank"">創立記念日及び夏季休業のお知らせ<span style="font-size:10px;"> ( 151.0 KB ) </span></a></td></tr><tr><td class="date_min" nowrap>2016年06月22日</td><td class="category"><div class="Label_b Label_news">お知らせ</div></td><td class="title"><a href="http://www.yashimadenki.co.jp/environment/report2016.pdf">『八洲のCSRレポート2016』を掲載いたしました。</a></td></tr><tr><td class="date_min" nowrap>2016年06月20日</td><td class="category"><div class="Label_b Label_news">お知らせ</div></td><td class="title"><a href="http://www.yashimadenki.co.jp/company_network.php?link_6">当社の連結子会社である株式会社ヤシマ･エコ･システムが、本社を移転いたしました。</a></td></tr><tr><td class="date_min" nowrap>2016年04月01日</td><td class="category"><div class="Label_b Label_news">お知らせ</div></td><td class="title"><a href="http://www.yashimadenki.co.jp/yds/index.php">八洲電子ソリューションズ株式会社のウェブサイトを開設いたしました。</a></td></tr><tr><td class="date_min" nowrap>2016年04月01日</td><td class="category"><div class="Label_b Label_news">お知らせ</div></td><td class="title"><a href="javascript:void(0);" class="noneLink"">ウェブサイトをリニューアルいたしました。</a></td></tr></table><div style="clear:both;">&nbsp;</div>						<!--// CMSとの連携（Type_1） ------------------------------- -->
+					</div>
+	
+	
+	
+					<!--// IRイベント -->
+					<div id="topics_02" class="tab-pane box">
+						<table class="topics"><tr><td class="date_min" nowrap>2017年06月05日</td><td class="category"><div class="Label_b Label_event_shareholders">株主総会</div></td><td class="title"><a href="ir_event_03.php">『第73期 定時株主総会』のお知らせ</a></td></tr><tr><td class="date_min" nowrap>2017年05月30日</td><td class="category"><div class="Label_b Label_event_Results">決算説明会</div></td><td class="title"><a href="ir_event_01.php">『第73期 決算説明会』のお知らせ</a></td></tr><tr><td class="date_min" nowrap>2017年01月17日</td><td class="category"><div class="Label_b Label_event_Individual">個人投資家</div></td><td class="title"><a href="ir_event_02.php">『東証ＩＲフェスタ2017』のお知らせ</a></td></tr><tr><td class="date_min" nowrap>2016年12月07日</td><td class="category"><div class="Label_b Label_event_Results">決算説明会</div></td><td class="title"><a href="ir_event_01.php">『第73期 上半期 決算説明会』のお知らせ</a></td></tr><tr><td class="date_min" nowrap>2016年06月03日</td><td class="category"><div class="Label_b Label_event_shareholders">株主総会</div></td><td class="title"><a href="ir_event_03.php">『第72期 定時株主総会』のお知らせ</a></td></tr><tr><td class="date_min" nowrap>2016年05月26日</td><td class="category"><div class="Label_b Label_event_Results">決算説明会</div></td><td class="title"><a href="ir_event_01.php">『第72期 決算及び新中期経営計画説明会』のお知らせ</a></td></tr><tr><td class="date_min" nowrap>2015年11月20日</td><td class="category"><div class="Label_b Label_event_Results">決算説明会</div></td><td class="title"><a href="ir_event_01.php">『第72期 上半期 決算説明会』のお知らせ</a></td></tr><tr><td class="date_min" nowrap>2015年09月24日</td><td class="category"><div class="Label_b Label_event_Individual">個人投資家</div></td><td class="title"><a href="ir_event_02.php">『野村ＩＲ・合同個人投資家セミナー』のお知らせ</a></td></tr><tr><td class="date_min" nowrap>2015年08月18日</td><td class="category"><div class="Label_b Label_event_Individual">個人投資家</div></td><td class="title"><a href="ir_event_02.php">『日経ＩＲ・投資フェア2015』のお知らせ</a></td></tr><tr><td class="date_min" nowrap>2015年06月03日</td><td class="category"><div class="Label_b Label_event_shareholders">株主総会</div></td><td class="title"><a href="ir_event_03.php">『第71期 定時株主総会』のお知らせ</a></td></tr></table><div style="clear:both;">&nbsp;</div>						<!--// CMSとの連携（Type_1） ------------------------------- -->
+					</div>
+	
+	
+	
+					<!--// IRライブラリ -->
+					<div id="topics_03" class="tab-pane box">
+						<table class="topics"><tr><td class="date_min" nowrap>2017年08月09日</td><td class="category"><div class="Label_b Label_other_Media">他資料</div></td><td class="title"><a href="_data/other_Media/20170807_日本証券新聞_広告_印刷不可.pdf" target="_blank"">『2017年8月7日付／日本証券新聞／ＩＲフォーラム2017東京 特別号／広告』<span style="font-size:10px;"> ( 269.0 KB ) </span>を掲載いたしました。<span style="font-size:10px;">日本証券新聞より転載許可をいただきました。</span></a></td></tr><tr><td class="date_min" nowrap>2017年07月28日</td><td class="category"><div class="Label_b Label_library_Fin">適時開示</div></td><td class="title"><a href="_data/library_Fin/2017年第1四半期決算短信_20170728.pdf" target="_blank"">『第74期 第1四半期 決算短信』<span style="font-size:10px;"> ( 244.9 KB ) </span>を掲載いたしました。</a></td></tr><tr><td class="date_min" nowrap>2017年07月28日</td><td class="category"><div class="Label_b Label_library_Timely">適時開示</div></td><td class="title"><a href="_data/library_Timely/20170728_株主優待制度の優待の内容に関するお知らせ.pdf" target="_blank"">『株主優待制度の優待の内容に関するお知らせ』<span style="font-size:10px;"> ( 154.9 KB ) </span>を掲載いたしました。</a></td></tr><tr><td class="date_min" nowrap>2017年07月27日</td><td class="category"><div class="Label_b Label_other_Media">他資料</div></td><td class="title"><a href="_data/other_Media/20170726_FISCO_企業調査ﾚﾎﾟｰﾄ.pdf" target="_blank"">『2017年7月26日付／フィスコ／企業調査レポート』<span style="font-size:10px;"> ( 342.3 KB ) </span>を掲載いたしました。<span style="font-size:10px;">株式会社フィスコより転載許可をいただきました。</span></a></td></tr><tr><td class="date_min" nowrap>2017年07月12日</td><td class="category"><div class="Label_b Label_other_Media">他資料</div></td><td class="title"><a href="_data/other_Media/20170707_kagakukougyounippou.pdf" target="_blank"">『2017年7月7日付／化学工業日報／プラント機器拡販』<span style="font-size:10px;"> ( 144.7 KB ) </span>を掲載いたしました。<span style="font-size:10px;">化学工業日報より転載許可をいただきました。</span></a></td></tr><tr><td class="date_min" nowrap>2017年06月29日</td><td class="category"><div class="Label_b Label_other_Media">他資料</div></td><td class="title"><a href="_data/other_Media/20170628_日本証券新聞_広告（環境特集）_印刷不可.pdf" target="_blank"">『2017年6月28日付／日本証券新聞／環境特集／広告』<span style="font-size:10px;"> ( 92.4 KB ) </span>を掲載いたしました。<span style="font-size:10px;">日本証券新聞より転載許可をいただきました。</span></a></td></tr><tr><td class="date_min" nowrap>2017年06月28日</td><td class="category"><div class="Label_b Label_other_doc">他資料</div></td><td class="title"><a href="_data/other_doc/20170627_CorporateGovernance.pdf" target="_blank"">『コーポレート･ガバナンスに関する報告書』<span style="font-size:10px;"> ( 103.7 KB ) </span>を掲載いたしました。</a></td></tr><tr><td class="date_min" nowrap>2017年06月27日</td><td class="category"><div class="Label_b Label_Stockholder_Notice">株主様資料</div></td><td class="title"><a href="_data/Stockholder_Notice/20170627_ketugitutisyo.pdf" target="_blank"">『第73期 定時株主総会決議ご通知』<span style="font-size:10px;"> ( 130.5 KB ) </span>を掲載いたしました。</a></td></tr><tr><td class="date_min" nowrap>2017年06月09日</td><td class="category"><div class="Label_b Label_other_Media">他資料</div></td><td class="title"><a href="_data/other_Media/20170531_化学工業日報_働き方改革を推進_印刷不可.pdf" target="_blank"">『2017年5月31日付／化学工業日報／働き方改革を推進』<span style="font-size:10px;"> ( 96.1 KB ) </span>を掲載いたしました。<span style="font-size:10px;">化学工業日報より転載許可をいただきました。</span></a></td></tr><tr><td class="date_min" nowrap>2017年06月09日</td><td class="category"><div class="Label_b Label_other_Results">イベント資料</div></td><td class="title"><a href="http://www1.daiwair.jp/qlviewer/e-cast/1705293153/index.html" target="_blank"">『第73期 決算説明会動画と資料』へのリンクを掲載いたしました。<br><span style="font-size:10px;">( 別サイトへリンクします )</span></a></td></tr></table><div style="clear:both;">&nbsp;</div>						<!--// CMSとの連携（Type_1） ------------------------------- -->
+					</div>
+
+
+
+
+			</div><!-- //Tab -->
+		</div><!-- //span8 -->
+
+		<div class="span4">
+			<div class="row" style="clear:both;">
+				<div class="span4">
+					<a href="http://www.stockweather.co.jp/SwLinkService/Info.asp?MARKET=T&MCODE=3153&BGCOLOR=ffffff&FONTCOLOR=000000&FONTSIZE=2&CHART=01" tagert="_blank"><div class="TileNavi_s" style="float:left;">
+					<img src="index/point.png">&nbsp;株価情報
+					</div></a>
+
+					<a href="other_enotice.php"><div class="TileNavi_s" style="float:right;">
+					<img src="index/point.png">&nbsp;電子公告
+					</div></a>
+				</div>
+			</div>
+			<!-- banner -->
+			<a class="banner" href="yds/index.php" alt="八洲電子ソリューションズ株式会社" target="_blank"><img src="index/bnr_denshi.jpg" style="margin-top:5px;"></a>
+			<a class="banner" href="yss/index.php" alt="八洲産機システム株式会社" target="_blank"><img src="index/bnr_sanki.jpg" style="margin-top:5px;"></a>
+			<a class="banner" href="http://www.yashima-eco-s.co.jp/index.html" alt="ヤシマ・エコ・システム" target="_blank"><img src="index/bnr_ecosystems.jpg" style="margin-top:5px;" target="_blank"></a>
+			<a class="banner" href="http://www.yashima-cs.co.jp/" alt="ヤシマコントロールシステムズ" target="_blank"><img src="index/bnr_controlsystems.jpg" style="margin-top:5px;" target="_blank"></a>
+			<a class="banner" href="zaidan/index.php" alt="八洲環境技術振興財団" target="_blank"><img src="index/bnr_zaidan.jpg" style="margin-top:5px;"></a>
+			<a class="banner" href="http://www.yashimadenki.co.jp/syayukai/" alt="八洲社友会" target="_blank"><img src="index/bnr_syayukai.jpg" style="margin-top:5px;"></a>
+			<!-- banner -->
+
+			<div class="span4" style="margin-left:0;">
+			</div>
+		</div>
+	</div><!-- /row -->
+</div>
+</div>
+<!--\\ コンテンツ ========================== --> 
+
+
+<!--// Footer ========================== -->
+<!--// Footer ========================= -->
+<div id="footerCover">
+	<div class="container">
+		<span><a id="moveTop" href="#" class="scroll">ページの先頭へ</a></span>
+	</div>
+</div>
+<div class="siteMapWrapper  hidden-phone">
+	<div class="container">
+		<div class="row">
+			<div class="span2">
+				<dl>
+					<dt><a href="company_top.php">会社案内</a></dt>
+					<dd><a href="company_message.php">社長メッセージ</a></dd>
+					<dd><a href="company_principles.php">経営理念</a></dd>
+					<dd><a href="company_logostatement.php">ロゴ・ステートメント</a></dd>
+					<dd><a href="company_profile.php">会社概要</a></dd>
+					<dd><a href="company_name.php">社名の由来</a></dd>
+					<dd><a href="company_midterm.php">中期経営計画</a></dd>
+					<dd><a href="company_history.php">沿革</a></dd>
+					<dd><a href="company_organization.php">組織図</a></dd>
+					<dd><a href="company_governance.php">コーポレート・ガバナンス</a></dd>
+					<dd><a href="company_female.php">女性活躍推進の取り組み</a></dd>
+					<dd><a href="company_network.php">営業所・関連会社</a></dd>
+					<dd><a href="company_library.php">ライブラリ</a></dd>
+				</dl>
+			</div>
+			<div class="span2">
+				<dl>
+					<dt><a href="solution_top.php">事業紹介</a></dt>
+					<dd>プラント事業</dd>
+					<dd>　<a href="solution_plant.php">プラントシステム</a></dd>
+					<dd>　<a href="solution_tekko.php">鉄鋼システム</a></dd>
+					<dd class="spacer"></dd>
+					<dd>産業システム事業</dd>
+					<dd>　<a href="solution_sangyo.php">産業機器・省エネ</a></dd>
+					<dd>　<a href="solution_air.php">空調・冷凍・冷蔵 </a></dd>
+					<dd>　<a href="solution_light.php">照明</a></dd>
+					<dd>　<a href="solution_it.php">ITソリューション</a></dd>
+					<dd class="spacer"></dd>
+					<dd>社会インフラ事業</dd>
+					<dd>　<a href="solution_syakai.php">社会・公共システム</a></dd>
+					<dd>　<a href="solution_koutsu.php">交通システム</a></dd>
+					<dd class="spacer"></dd>
+					<dd>電子ﾃﾞﾊﾞｲｽ・ｺﾝﾎﾟｰﾈﾝﾄ事業</dd>
+					<dd>　<a href="solution_denshi.php">電子ﾃﾞﾊﾞｲｽ・ｺﾝﾎﾟｰﾈﾝﾄ</a></dd>
+					<dd class="spacer"></dd>
+					<dd><a href="solution_nbusiness.php">新事業展開</a></dd>
+
+				</dl>
+			</div>
+			<div class="span4">
+				<dl>
+					<dt><a href="ir_top.php">株主･投資家の皆さまへ</a></dt>
+				</dl>
+				<div class="row-fluid">
+					<dl class="span6">
+						<dd>活動方針</dd>
+						<dd>　<a href="ir_action_message.php">社長メッセージ</a></dd>
+						<dd>　<a href="ir_action_policy.php">情報開示指針</a></dd>
+						<dd>　<a href="ir_action_midterm.php">中期経営計画</a></dd>
+						<dd>　<a href="ir_action_governance.php">ｺｰﾎﾟﾚｰﾄ･ｶﾞﾊﾞﾅﾝｽ</a></dd>
+						<dd class="spacer"></dd>
+
+						<dd><a href="ir_action_calender.php">IRカレンダー</a></dd>
+						<dd class="spacer"></dd>
+
+						<dd>業績・財務情報</dd>
+						<dd>　<a href="ir_finance_01.php">業績ハイライト</a></dd>
+						<dd>　<a href="ir_finance_02.php">主な経営指標</a></dd>
+						<dd>　<a href="ir_finance_03.php">セグメント情報</a></dd>
+						<dd>　<a href="ir_finance_04.php">連結貸借対照表</a></dd>
+						<dd>　<a href="ir_finance_05.php">連結損益計算書</a></dd>
+						<dd>　<a href="ir_finance_06.php">連結ｷｬｯｼｭ・ﾌﾛｰ計算書</a></dd>
+						<dd>　<a href="ir_finance_07.php">連結株主資本等 変動計算書</a></dd>
+						<dd>　<a href="ir_finance_08.php">事業等のリスク</a></dd>
+						<dd class="spacer"></dd>
+						<dd><a href="ir_other_shareholders.php">個人投資家の皆さまへ</a></dd>
+						<dd><a href="ir_other_faq.php">よくあるご質問</a></dd>
+						<dd class="spacer"></dd>
+					</dl>
+					<dl class="span6">
+						<dd>株式・社債情報</dd>
+						<dd>　<a href="ir_stock_bond_01.php">株式基本情報</a></dd>
+						<dd>　<a href="ir_stock_bond_04.php">株主の状況</a></dd>
+						<dd>　<a href="ir_stock_bond_02.php">配当政策</a></dd>
+						<dd>　<a href="ir_stock_bond_03.php">株主優待情報</a></dd>
+						<dd>　<a href="ir_stock_bond_05.php">株式事務手続きのご案内</a></dd>
+						<dd>　<a href="ir_stock_bond_06.php">社債情報</a></dd>
+						<dd class="spacer"></dd>
+						<dd><a href="ir_event_05.php">IR イベント</a></dd>
+						<dd>　<a href="ir_event_03.php">株主総会</a></dd>
+						<dd>　<a href="ir_event_01.php">決算説明会</a></dd>
+						<dd>　<a href="ir_event_02.php">個人投資家向けイベント</a></dd>
+						<dd>　<a href="ir_event_04.php">その他イベント</a></dd>
+						<dd class="spacer"></dd>
+						<dd><a href="ir_library_01.php">IR ライブラリ</a></dd>
+						<dd>　<a href="ir_library_06.php">適時開示資料</a></dd>
+						<dd>　<a href="ir_library_03.php">有価証券報告書</a></dd>
+						<dd>　<a href="ir_library_04.php">株主さま向け資料</a></dd>
+						<dd>　<a href="ir_library_14.php">イベント資料</a></dd>
+						<dd>　<a href="ir_library_05.php">その他資料</a></dd>
+					</dl>
+				</div>
+			</div>
+			<div class="span2">
+				<dl>
+					<dt><a href="recruit_top.php">採用情報</a></dt>
+					<dd>採用情報</dd>
+					<dd>　<a href="recruit_bosyu.php">募集要項</a></dd>
+					<dd>　<a href="recruit_jisseki.php">採用実績</a></dd>
+					<dd>　<a href="recruit_senkou.php">選考プロセス</a></dd>
+					<dd>　<a href="recruit_faq.php">採用 FAQ</a></dd>
+					<dd>　<a href="recruit_message.php">人事メッセージ</a></dd>
+					<dd>　<a href="recruit_entry.php">エントリー</a></dd>
+					<dd class="spacer"></dd>
+					<dd>仕事・社員の紹介など</dd>
+					<dd>　<a href="recruit_works.php">仕事紹介</a></dd>
+					<dd>　<a href="recruit_interview.php">先輩社員インタビュー</a></dd>
+					<dd>　<a href="recruit_voice.php">新入社員の声</a></dd>
+					<dd>　<a href="recruit_training.php">人財育成</a></dd>
+				</dl>
+			</div>
+			<div class="span2">
+				<dl>
+					<dt><a href="environment_top.php">環境への取り組み</a></dt>
+					<dd>　<a href="environment_01.php">メッセージ</a></dd>
+					<dd>　<a href="environment_02.php">環境方針</a></dd>
+					<dd>　<a href="environment_03.php">ISO14001 認証取得状況</a></dd>
+					<dd>　<a href="environment_04.php">活動報告</a></dd>
+					<dd class="spacer"></dd>
+					<dt><a href="inquiry_front.php">お問い合わせ</a></dt>
+					<dt><a href="other_topics.php">トピックス</a></dt>
+					<dt><a href="http://stock.dir.co.jp/Dir.asp?MARKET=T&MCODE=3153&BGCOLOR=ffffff&FONTCOLOR=000000&FONTSIZE=3&CHART=05" target="_blank">株価情報</a></dt>
+					<dt><a href="other_enotice.php">電子公告</a></dt>
+					<dt><a href="other_exemption.php">免責事項</a></dt>
+					<dt><a href="other_declaration.php">個人情報保護宣言</a></dt>
+					<dt><a href="other_personal.php">特定個人情報の適正な取扱いに関する基本方針</a></dt>
+					<dt><a href="other_privacy.php">プライバシーポリシー</a></dt>
+					<dt><a href="other_security.php">情報セキュリティポリシー</a></dt>
+					<dt><a href="other_standard.php">八洲グループ行動規範</a></dt>
+				</dl>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-header">
+		<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+		<h3 id="myModalLabel></h3>
+	</div>
+	<div class="modal-body">
+		<p>（株）大和総研ビジネス・イノベーションのWebサイトに移動します。</p>
+	</div>
+	<div class="modal-footer">
+		<button class="btn" data-dismiss="modal" aria-hidden="true">キャンセル</button>
+		<a href="http://stock.dir.co.jp/Dir.asp?MARKET=T&MCODE=3153&BGCOLOR=ffffff&FONTCOLOR=000000&FONTSIZE=3&CHART=05" target="_blank" class="btn btn-primary">株価情報を表示する</a>
+	</div>
+</div>
+
+
+
+
+<div id="footer">
+	<div class="container">
+		<span>Copyright (c) 2016, Yashima denki Co.,LTD. All Rights Reserved</span>
+	</div>
+</div>
+<!--\\ Footer ========================== --> 
+
+</body>
+</html>

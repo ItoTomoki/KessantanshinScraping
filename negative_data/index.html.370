@@ -1,0 +1,421 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="content-script-type" content="text/javascript" />
+<meta http-equiv="content-language" content="ja" />
+<meta name="Keywords" content="PR,会社,広報,戦略,メディア,トレーニング,パブリシティ,危機,管理,プラップジャパン" />
+<meta name="Description" content="プラップジャパンは戦略的コミュニケーションをリードする総合PR会社です。各業界、専門分野に精通した数多くのPRスペシャリストを有し、豊富な知識・経験を生かしたコンサルティングと実務支援をご提供します。" />
+<meta name="google-site-verification" content="C4BMeHWg4UPPLfw37pJ3DN2hetMNdaOQFSBaa28qUX0" />
+<title>PR会社/広報戦略のプラップジャパン</title>
+<link type="text/css" rel="stylesheet" href="/common/14css/import.css" />
+<link type="text/css" rel="stylesheet" href="/common/2014css/common.css" />
+<link type="text/css" rel="stylesheet" href="/common/2014css/style.css" />
+<link href="/common/14css/jquery.bxslider.css" rel="stylesheet" />
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="/common/14js/jquery.bxslider.js"></script>
+<script src="/common/14js/jquery.easing.1.3.js"></script>
+
+<script type="text/javascript">
+$(function(){
+$('.bxslider').bxSlider({
+auto:true,
+speed:1000,
+mode:'fade',
+pause: 8000,
+buildPager: function(slideIndex){
+switch(slideIndex){
+case 0:return '<div class="thmb-item"><p>コミュニケーションの<br>戦略的パートナー</p></div>';
+case 1:return '<div class="bgimg-item3"><img src="/images/top/s_thum_2.jpg" alt="Digital PR Platform"></div>';
+case 2:return '<div class="thmb-item"><p class="txt-blue"><span class="txt-norm">ソーシャルリスク</span><br>対策支援プログラム</p></div>';
+case 3:return '<div class="thmb-item"><p><span class="txt-sp2">&nbsp;</span>メディアトレーニング</p></div>';
+case 4:return '<div class="thmb-item bgimg-item-right"><p>中国ソーシャル<br>メディアマーケティング</p></div>';
+}
+}
+});
+});
+</script>
+<script>
+$(function () {
+    $(window).scroll(function () {
+        //100pxスクロールしたら
+        if ($(this).scrollTop() > 100) {
+            //フェードインで表示
+            $('#back-top').fadeIn();
+        } else {
+            $('#back-top').fadeOut();
+        }
+    });
+    //ここからクリックイベント
+    $('#back-top a').click(function () {
+        $('body,html').animate({
+            scrollTop: 0
+        }, 500);
+        return false;
+    });
+});
+</script>
+
+<script src="/tmpl/ga.js"></script>
+</head>
+
+<body>
+<div class="bar"></div>
+<p id="back-top">
+<a href="#top"><img src="images/common/page_top.jpg" alt="Page TOP"></a>
+</p>
+<div id="wrap">
+<div class="guide">
+<ul class="clearfix">
+<li><a href="http://www.prap.com.cn/" target="_blank"><img src="images/common/g_1.jpg" alt="中文" width="90" height="30"></a></li>
+<li><a href="/en/"><img src="images/common/g_2.jpg" alt="English" width="90" height="30"></a></li>
+<li><a href="/faq/"><img src="images/common/g_3.jpg" alt="よくある質問" width="90" height="30"></a></li>
+<li><a href="/inquiry/"><img src="images/common/g_4.jpg" alt="お問い合わせ" width="90" height="30"></a></li>
+<li><a href="/sitemap/"><img src="images/common/g_5.jpg" alt="サイトマップ" width="90" height="30"></a></li>
+</ul>
+</div>
+
+<!-- box -->
+<div class="box_1">
+<header>
+<p><a href="/"><img src="images/common/logo.jpg" alt="PRAP JAPAN" width="220" height="44"></a></p>
+<ul class="clearfix">
+<li class="n_1"><a href="/"><img src="images/common/n_1.jpg" alt="ホーム" width="69" height="50"></a></li>
+<li class="n_2"><a href="/about/">プラップジャパンの特長</a></li>
+<li class="n_3"><a href="/company/">企業情報</a></li>
+<li class="n_4"><a href="/service/">サービス</a></li>
+<li class="n_5"><a href="/case/">事例紹介</a></li>
+<li class="n_6"><a href="/ir/">IR 情報</a></li>
+<li class="n_7"><a href="/recruit/">採用情報</a></li>
+</ul>
+</header>
+
+<div id="slider">
+<ul class="bxslider">
+<li><a href="/about/"><img src="images/top/slider_1.jpg" alt="コミュニケーションの戦略的パートナー"></a></li>
+<li><a href="/service/pr_method/method12.html"><img src="images/top/slider_2.jpg" alt="Digital PR Platform"></a></li>
+<li><a href="/service/pr_method/method15.html"><img src="images/top/slider_3.jpg" alt="ソーシャルリスク対策支援プログラム"></a></li>
+<li><a href="/service/pr_method/method04.html"><img src="images/top/slider_4.jpg" alt="メディアトレーニング"></a></li>
+<li><a href="/service/pr_service/service07.html"><img src="images/top/slider_5.png" alt="中国ソーシャルメディアマーケティング"></a></li>
+</ul>
+</div>
+</div>
+<!-- box -->
+</div>
+
+<!-- service -->
+<div id="service">
+<div class="service_inner clearfix">
+<div class="service_banner">
+<h1>PR会社プラップジャパンのサービスとソリューションの紹介</h1>
+</div>
+<ul>
+<li class="n">
+<a href="/service/pr_purpose/"><img src="images/top/service_1.png" alt="課題から探す"></a>
+</li>
+<li class="n">
+<a href="/service/pr_service/"><img src="images/top/service_2.png" alt="サービスカテゴリーから探す"></a>
+</li>
+<li class="l">
+<a href="/service/pr_method/"><img src="images/top/service_3.png" alt="手法から探す"></a>
+</li>
+</ul>
+</div>
+</div>
+<!-- service -->
+
+<div id="wrap">
+<!-- box -->
+
+<div class="box_2">
+<div class="main clearfix">
+<div class="topics">
+<div class="topics_banner">
+<h2>トピックス</h2>
+<p class="btn_topics_1"><a href="/topics/"><img src="images/top/btn_topics.jpg" alt="トピックス"></a></p>
+</div><!--//topics_banner-->
+<div class="topics_inner">
+<dl class="clearfix">
+<dt>2017/08/10</dt>
+<dd>
+<a href="http://www.prap.co.jp/topics/170810_SocialPRPackage.pdf" target="_blank">独自データベース・分析ツール活用で、バズを生みだす新PRソリューションサービス「ソーシャルPRパッケージ」販売開始</a>
+<!--
+<p class="link01 linkTypeD01"><a href="http://www.prap.co.jp/topics/170810_SocialPRPackage.pdf" target="_blank">詳細はこちら</a>
+-->
+</dd>
+</dl>
+<dl class="clearfix">
+<dt>2017/08/10</dt>
+<dd>
+<a href="/topics/170810_734.html">株式会社ブレインズ・カンパニーが企画協力する遠藤湖舟写真展「天空の美、地上の美。」が広島・三次へ。奥田元宋・小由女美術館で9月1日より開催</a>
+<!--
+<p class="link01"><a href="/topics/170810_734.html">詳細はこちら</a>
+-->
+</dd>
+</dl>
+<dl class="clearfix">
+<dt>2017/08/01</dt>
+<dd>
+<a href="/topics/170801_732.html">広報会議9月号にて、当社「デジタルPR研究所」の記事が掲載されました</a>
+<!--
+<p class="link01"><a href="/topics/170801_732.html">詳細はこちら</a>
+-->
+</dd>
+</dl>
+<dl class="clearfix">
+<dt>2017/07/31</dt>
+<dd>
+<a href="http://www.prap.co.jp/topics/170731_SNS_Bunseki.pdf" target="_blank">エキスパートレベルのソーシャル分析報告書を安価に、スピーディに届ける 「ソーシャル分析パッケージ」提供開始</a>
+<!--
+<p class="link01 linkTypeD01"><a href="http://www.prap.co.jp/topics/170731_SNS_Bunseki.pdf" target="_blank">詳細はこちら</a>
+-->
+</dd>
+</dl>
+<dl class="clearfix">
+<dt>2017/07/03</dt>
+<dd>
+<a href="http://www.prap.co.jp/topics/170703_idpr.pdf" target="_blank">プラップジャパン 「デジタルPR研究所」を設立</a>
+<!--
+<p class="link01 linkTypeD01"><a href="http://www.prap.co.jp/topics/170703_idpr.pdf" target="_blank">詳細はこちら</a>
+-->
+</dd>
+</dl>
+<dl class="clearfix">
+<dt>2017/06/27</dt>
+<dd>
+<a href="http://www.prap.co.jp/topics/170627_niigatateikei.pdf" target="_blank">Digital PR Platformが有力地方紙・新潟日報の オンラインニュース「新潟日報モア」と提携開始</a>
+<!--
+<p class="link01 linkTypeD01"><a href="http://www.prap.co.jp/topics/170627_niigatateikei.pdf" target="_blank">詳細はこちら</a>
+-->
+</dd>
+</dl>
+<dl class="clearfix">
+<dt>2017/06/20</dt>
+<dd>
+<a href="/topics/170620_722.html">プラップジャパン メディアトレーニング部部長の井口明彦とブレインズ・カンパニー（プラップジャパングループ）社長の菅井利雄が農研機構で講演しました</a>
+<!--
+<p class="link01"><a href="/topics/170620_722.html">詳細はこちら</a>
+-->
+</dd>
+</dl>
+<dl class="clearfix">
+<dt>2017/05/31</dt>
+<dd>
+<a href="/topics/170531_721.html">プラップジャパン デジタルプラットフォーム事業部の雨宮寛二が東洋経済新報社の勉強会で講演しました</a>
+<!--
+<p class="link01"><a href="/topics/170531_721.html">詳細はこちら</a>
+-->
+</dd>
+</dl>
+</div><!--//topics_inner-->
+</div><!--//topics-->
+<div class="banner">
+<p style="margin-bottom:15px;"><a href="/recruitment/"><img src="images/top/banner_recruit.jpg" alt="採用特設サイト" width="300" height="96"></a></p>
+<a href="/book/"><img src="images/top/banner_book.jpg" alt="プラップジャパンの書籍" width="300" height="96"></a>
+</div>
+</div>
+<div class="main clearfix">
+<div class="ir">
+<div class="notice_banner">
+<h3><img src="images/top/ir.jpg" alt="IRニュース"></h3>
+<p class="btn_notice_1"><a href="/ir/newsrelease.html"><img src="images/top/btn_notice.jpg" alt="一覧はこちら"></a></p>
+</div><!--//notice_banner-->
+<div class="notice_inner">
+<dl class="clearfix">
+<dt>2017/07/14</dt>
+<dd><a href="http://www.prap.co.jp/ir/170714_Singapore.pdf" target="_blank">シンガポール駐在員事務所開設のお知らせ</a></dd>
+</dl>
+<dl class="clearfix">
+<dt>2017/07/14</dt>
+<dd><a href="http://www.prap.co.jp/ir/houkokusho_170714%20.pdf" target="_blank">第47期　第3四半期報告書 </a></dd>
+</dl>
+<dl class="clearfix">
+<dt>2017/07/14</dt>
+<dd><a href="http://www.prap.co.jp/ir/tanshin_170714.pdf" target="_blank">平成29年8月期　第3四半期決算短信</a></dd>
+</dl>
+<dl class="clearfix">
+<dt>2017/04/27</dt>
+<dd><a href="http://www.prap.co.jp/ir/setsumeikai_170427.pdf" target="_blank">平成29年8月期　第2四半期決算説明会資料</a></dd>
+</dl>
+<dl class="clearfix">
+<dt>2017/04/17</dt>
+<dd><a href="http://www.prap.co.jp/ir/ir_170417.pdf" target="_blank">（開示事項の経過）株主代表訴訟に関するお知らせ</a></dd>
+</dl>
+<dl class="clearfix">
+<dt>2017/04/14</dt>
+<dd><a href="http://www.prap.co.jp/ir/houkokusho_170414.pdf" target="_blank">第47期　第2四半期報告書 </a></dd>
+</dl>
+<dl class="clearfix">
+<dt>2017/04/14</dt>
+<dd><a href="http://www.prap.co.jp/ir/tanshin_170414.pdf" target="_blank">平成29年8月期　第2四半期決算短信</a></dd>
+</dl>
+<dl class="clearfix">
+<dt>2017/01/13</dt>
+<dd><a href="http://www.prap.co.jp/ir/houkokusho_170113.pdf" target="_blank">第47期　第1四半期報告書 </a></dd>
+</dl>
+<dl class="clearfix">
+<dt>2017/01/13</dt>
+<dd><a href="http://www.prap.co.jp/ir/tanshin_170113.pdf" target="_blank">平成29年8月期　第１四半期決算短信 </a></dd>
+</dl>
+<dl class="clearfix">
+<dt>2016/11/30</dt>
+<dd><a href="http://www.prap.co.jp/ir/kessan_setsumei_161130.pdf" target="_blank">平成28年8月期　決算説明会要旨</a></dd>
+</dl>
+</div><!--//notice_inner-->
+</div><!--//ir-->
+<div class="news">
+<div class="notice_banner">
+<h3><img src="images/top/pr.jpg" alt="Digital Platformからのお知らせ"></h3>
+<p class="btn_notice_2"><a href="/digitalpr/"><img src="images/top/btn_notice.jpg" alt="一覧はこちら"></a></p>
+</div><!--//notice_banner-->
+<div class="notice_inner">
+<dl class="clearfix">
+<dt>2017/06/27 </dt>
+<dd><a href="/digitalpr/170627_723.html">プレスリリース掲載サイト変更についてのお知らせ<br>Digital PR Platformが有力地方紙・新潟日報の オンラインニュース「新潟日報モア」と提携開始</a></dd>
+</dl>
+<dl class="clearfix">
+<dt>2017/04/03 </dt>
+<dd><a href="/digitalpr/170403_710.html">Digital PR Platformが100年以上続く和歌山の名門紙「紀伊民報」の ニュースサイトと提携開始</a></dd>
+</dl>
+<dl class="clearfix">
+<dt>2017/01/24 </dt>
+<dd><a href="/digitalpr/170124_698.html">プレスリリース掲載サイト変更についてのお知らせ<br>Digital PR Platformが東北最多発行部数の地方紙・河北新報のオンラインニュースと提携開始</a></dd>
+</dl>
+<dl class="clearfix">
+<dt>2016/11/15 </dt>
+<dd><a href="/digitalpr/161115_682.html">事例とキーワードから見るPR×広告の最新トレンド</a></dd>
+</dl>
+<dl class="clearfix">
+<dt>2016/08/12 </dt>
+<dd><a href="/digitalpr/160812_664.html">【セミナー8.26】パーソナライズ時代のデジタルPRで成功する秘密とは？</a></dd>
+</dl>
+<dl class="clearfix">
+<dt>2016/08/04 </dt>
+<dd><a href="/digitalpr/160804_662.html">Digital PR Platformの検索エンジンアプローチ力 強化バージョンアップを実施</a></dd>
+</dl>
+<dl class="clearfix">
+<dt>2016/03/28 </dt>
+<dd><a href="/digitalpr/160328_640.html">4/15セミナー開催「コンテンツマーケティングの成功・失敗の法則 -成功事例から学ぶ 制作・拡散のノウハウ-」</a></dd>
+</dl>
+<dl class="clearfix">
+<dt>2016/01/19 <span class="news_red">※終了しました</span></dt>
+<dd>【セミナー】事例とキーワードでわかる2016年のデジタルPR最前線
+</dd>
+</dl>
+<dl class="clearfix">
+<dt>2016/01/07 </dt>
+<dd><a href="/digitalpr/160107_626.html">Digital PR PlatformがAERA/週刊朝日などのニュースサイト、朝日新聞出版「dot.（ドット）」との提携を開始</a></dd>
+</dl>
+<dl class="clearfix">
+<dt>2015/10/20 </dt>
+<dd><a href="/digitalpr/151020_614.html">Digital PR Platformがデザインリニューアル</a></dd>
+</dl>
+<dl class="clearfix">
+<dt>2015/02/09 <span class="news_red">※終了しました</span></dt>
+<dd>3/6セミナー開催「2015年最速版！数字で検証するデジタルメディアの影響力と最新デジタルＰＲ事例」
+</dd>
+</dl>
+<dl class="clearfix">
+<dt>2014/07/31 <span class="news_red">※終了しました</span></dt>
+<dd>8/27セミナー開催「最新版：成果の出るデジタルPR事例とソーシャルメディアキャンペーンの活用事例」
+</dd>
+</dl>
+<dl class="clearfix">
+<dt>2014/04/01 </dt>
+<dd><a href="/digitalpr/140401_524.html">朝日新聞デジタル・毎日新聞・ AFPBB Newsとの提携を開始</a></dd>
+</dl>
+<dl class="clearfix">
+<dt>2014/03/17 </dt>
+<dd><a href="/digitalpr/140317_522.html">リリース配信サービスのDigital PR Platformが拡散力強化のためのサイト改修</a></dd>
+</dl>
+<dl class="clearfix">
+<dt>2014/02/06 <span class="news_red">※終了しました</span></dt>
+<dd>2月26日（水）セミナー開催！120分でわかる2014年のデジタルPR
+</dd>
+</dl>
+<dl class="clearfix">
+<dt>2014/02/05 </dt>
+<dd><a href="/digitalpr/140205_517.html">Digital PR Platformが「ジョルダンニュース!」との連携を開始</a></dd>
+</dl>
+<dl class="clearfix">
+<dt>2013/11/26 </dt>
+<dd><a href="/digitalpr/131126_504.html">経済広報センター主催「広報実務担当者向け実践フォーラム・交流会」にて講演しました</a></dd>
+</dl>
+<dl class="clearfix">
+<dt>2013/10/09 </dt>
+<dd><a href="/digitalpr/131009_492.html">提携媒体に関するお知らせ　LINE NEWS／マイナビニュース </a></dd>
+</dl>
+<dl class="clearfix">
+<dt>2013/08/08 <span class="news_red">※終了しました</span></dt>
+<dd>8月27日（火）セミナー開催！「ビッグデータを分析して、効果を最大化する企業情報発信のコツ」
+</dd>
+</dl>
+<dl class="clearfix">
+<dt>2013/07/12 <span class="news_red">※終了しました</span></dt>
+<dd>7月26日（金）開催！60分でわかる!デジタル向けリリースのすべて 【Digital PR Platformマスター講座】
+</dd>
+</dl>
+<dl class="clearfix">
+<dt>2013/06/13 </dt>
+<dd><a href="/digitalpr/130613_465.html">大盛況のうちに終了、『宣伝会議インターネットフォーラム2013』講演会</a></dd>
+</dl>
+<dl class="clearfix">
+<dt>2013/05/31 <span class="news_red">※終了しました</span></dt>
+<dd><a href="http://digitalpr.jp/r/4363" target="_blank">6/19（水）セミナー開催 「事例からみるトリプルメディア時代のコミュニケーション戦略」</a>
+</dd>
+</dl>
+<dl class="clearfix">
+<dt>2013/05/29 </dt>
+<dd><a href="/digitalpr/130529_461.html">『宣伝会議インターネットフォーラム2013』に協賛</a></dd>
+</dl>
+<dl class="clearfix">
+<dt>2013/04/22 </dt>
+<dd><a href="/digitalpr/130422_456.html"><a href="http://digitalpr.jp/r/4087" target="_blank">ニュースリーダーアプリ「Release Board（リリースボード）が大バージョンアップ</a></a></dd>
+</dl>
+<dl class="clearfix">
+<dt>2013/03/19 <span class="news_red">※終了しました</span></dt>
+<dd>デジタルPRのゴールデンスタンダード
+</dd>
+</dl>
+<dl class="clearfix">
+<dt>2012/12/05 </dt>
+<dd><a href="/digitalpr/121205_459.html"><a href="http://digitalpr.jp/r/2945"target="_blank">「Release Board（リリースボード）」が12 月6 日より配信開始</a></dd>
+</dl>
+<dl class="clearfix">
+<dt>2012/11/09 <span class="news_red">※終了しました</span></dt>
+<dd>SUUMOの事例でブランド戦略とソーシャルメディア活用の成功例を学ぶ
+</dd>
+</dl>
+<dl class="clearfix">
+<dt>2012/06/15 <span class="news_red">※終了しました</span></dt>
+<dd>最新デジタルPR事情を事例で解説する
+</dd>
+</dl>
+<dl class="clearfix">
+<dt>2012/05/17 <span class="news_red">※終了しました</span></dt>
+<dd>戦略的サイト集客とデジタルPR
+</dd>
+</dl>
+<dl class="clearfix">
+<dt>2012/04/17 <span class="news_red">※終了しました</span></dt>
+<dd>Facebookのビジネス最適化とデジタルPR
+</dd>
+</dl>
+<dl class="clearfix">
+<dt>2012/02/17 <span class="news_red">※終了しました</span></dt>
+<dd>2012年の検索エンジン潮流とデジタルPR
+</dd>
+</dl>
+</div><!--//notice_inner-->
+</div><!--//news-->
+</div>
+</div>
+
+<!-- box -->
+</div>
+
+<script src="/tmpl/footer.js"></script>
+
+</body>
+</html>

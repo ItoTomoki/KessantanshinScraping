@@ -1,0 +1,574 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	
+	<!-- レスポンシブ無効化 -->
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=1" /> -->
+	<meta name="format-detection" content="telephone=no" />
+<title>株式会社カイカ</title><meta name="keywords" itemprop="keywords" content="株式会社カイカ,CAICA Inc.,JASDAQ,2315,システム構築,オフショア開発,高品質なサービス提供,フィンテック,Fintech,人工知能,AI,旧社名SJI"><meta name="description" itemprop="description" content="株式会社カイカは、40年以上にわたり、銀行・証券・保険・物流・情報サービスなど多くの業種において、システムを構築してきました。また、フィンテックを戦略的注力領域として位置付け、関連するあらゆるビジネスにおいて新たなチャンスに挑戦しています。"><link rel="shortcut icon" href="http://www.caica.jp/wp-content/uploads/image/caica_favicon.png" /><link rel="alternate" type="application/rss+xml" title="株式会社カイカ &raquo; フィード" href="http://www.caica.jp/feed/" />
+<link rel="alternate" type="application/rss+xml" title="株式会社カイカ &raquo; コメントフィード" href="http://www.caica.jp/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.caica.jp\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.5.9"}};
+			!function(a,b,c){function d(a){var c,d,e,f=b.createElement("canvas"),g=f.getContext&&f.getContext("2d"),h=String.fromCharCode;if(!g||!g.fillText)return!1;switch(g.textBaseline="top",g.font="600 32px Arial",a){case"flag":return g.fillText(h(55356,56806,55356,56826),0,0),f.toDataURL().length>3e3;case"diversity":return g.fillText(h(55356,57221),0,0),c=g.getImageData(16,16,1,1).data,d=c[0]+","+c[1]+","+c[2]+","+c[3],g.fillText(h(55356,57221,55356,57343),0,0),c=g.getImageData(16,16,1,1).data,e=c[0]+","+c[1]+","+c[2]+","+c[3],d!==e;case"simple":return g.fillText(h(55357,56835),0,0),0!==g.getImageData(16,16,1,1).data[0];case"unicode8":return g.fillText(h(55356,57135),0,0),0!==g.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='fancybox-css'  href='//www.caica.jp/wp-content/plugins/weluka/assets/js/fancybox/jquery.fancybox.css?ver=2.1.5' type='text/css' media='all' />
+<link rel='stylesheet' id='mediaelement-css'  href='http://www.caica.jp/wp-includes/js/mediaelement/mediaelementplayer.min.css?ver=2.18.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-mediaelement-css'  href='http://www.caica.jp/wp-includes/js/mediaelement/wp-mediaelement.min.css?ver=4.5.9' type='text/css' media='all' />
+<link rel='stylesheet' id='weluka-flex-slider-css'  href='//www.caica.jp/wp-content/plugins/weluka/assets/js/flexslider/flexslider.css?ver=2.5.0' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap-weluka-css'  href='//www.caica.jp/wp-content/plugins/weluka/assets/css/bootstrap-weluka.min.css?ver=1.0.7' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='//www.caica.jp/wp-content/plugins/weluka/assets/css/font-awesome.min.css?ver=4.6.3' type='text/css' media='all' />
+<link rel='stylesheet' id='weluka-webfont-css'  href='http://www.caica.jp/wp-content/plugins/weluka/assets/css/webfont1.css?ver=1.0.7' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='http://www.caica.jp/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-confirm-css'  href='http://www.caica.jp/wp-content/plugins/contact-form-7-add-confirm/includes/css/styles.css?ver=4.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='welukatheme00-style-css'  href='//www.caica.jp/wp-content/themes/weluka-theme-00/style.css?ver=4.5.9' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.caica.jp/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://www.caica.jp/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='http://www.caica.jp/wp-content/plugins/anything-popup/anything-popup.js?ver=4.5.9'></script>
+<link rel='https://api.w.org/' href='http://www.caica.jp/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.caica.jp/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.caica.jp/wp-includes/wlwmanifest.xml" /> 
+<link rel="canonical" href="http://www.caica.jp/" />
+<link rel='shortlink' href='http://www.caica.jp/' />
+<link rel="alternate" type="application/json+oembed" href="http://www.caica.jp/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.caica.jp%2F" />
+
+<style>
+.scroll-back-to-top-wrapper {
+    position: fixed;
+	opacity: 0;
+	visibility: hidden;
+	overflow: hidden;
+	text-align: center;
+	z-index: 99999999;
+    background-color: #f2f2f2;
+	color: #474747;
+	width: 50px;
+	height: 48px;
+	line-height: 48px;
+	right: 30px;
+	bottom: 30px;
+	padding-top: 2px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+.scroll-back-to-top-wrapper:hover {
+	background-color: #888888;
+  color: #eeeeee;
+}
+.scroll-back-to-top-wrapper.show {
+    visibility:visible;
+    cursor:pointer;
+	opacity: 1.0;
+}
+.scroll-back-to-top-wrapper i.fa {
+	line-height: inherit;
+}
+.scroll-back-to-top-wrapper .fa-lg {
+	vertical-align: 0;
+}
+</style><!--[if lt IE 9]><script src="http://www.caica.jp/wp-content/plugins/weluka/assets/js/html5shiv.min.js"></script><script src="http://www.caica.jp/wp-content/plugins/weluka/assets/js/respond.min.js"></script><![endif]--><style type="text/css">/*トップ画面_ボタン表示用css*/
+.button {
+  width:100%;
+  color:#ffffff !important;
+  background:#bfbcbc;
+  font-size:15px;
+  text-align:center;
+  text-decoration:none;
+  border-style: solid  #ffffff !important; 
+  border-width: 3px !important;
+  padding:12px 0 8px 0;
+  border-radius:20px;
+}
+
+/*トップ画面_画像内ボタン表示用css*/
+.toppage_button {
+  width:90%;
+  font-size:15px;
+  color:#ffffff !important;
+  text-align:right;
+  background-color:transparent
+}
+
+/*IR年度ボタン表示用css*/
+.ir_button {
+  width:70px;
+  font-size:10px;
+  text-align:center;
+  text-decoration:none;
+  border-style: solid  #ffffff !important; 
+  border-width: 1px !important;
+  padding:12px 0 8px 0;
+  border-radius:5px;
+  height:40px;
+}
+
+/*問い合わせフォーム表示用css*/
+.inquiry_grid{
+}
+.inquiry_grid table{
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  border: 1px solid #cccccc;
+}
+.inquiry_grid td{
+  border: 1px solid #cccccc;
+}
+.inquiry_grid_title{
+  background-color: #23234a;
+  color: #ffffff;
+}
+.inquiry_grid_element{
+  width: 30%;
+  background-color: #f7f7f7;
+}
+.inquiry_submit_button p{
+  text-align: center;
+}
+.required{
+  color: #ff0000;
+}
+
+/*投稿表示調整用css*/
+.wrap{
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items： flex-start;
+}
+.weluka-list-meta{
+padding-top: 20 !important;
+order: 1;
+flex-shrink: 0;
+flex-basis: 90px;
+}
+.weluka-list-title{
+order: 3;
+flex-shrink: 0;
+flex-basis: 73%;
+}
+.weluka-list-title.weluka-text-left{
+padding-top: 5px !important;
+}
+.tagcloud{
+order: 2;
+flex-shrink: 0;
+flex-basis: 80px;
+}
+.tagcloud.weluka-mgtop-s{
+  margin-top: 0 !important;
+}
+
+/*タグマーク色変更用css*/
+.tagcloud a[title="IR情報"]{
+  background: #FFFFFF;
+  color: #555;
+  font-size: 15px !important;
+  line-height: 1.1;
+  width: 80px !important;
+  text-align: center;
+  pointer-events: none;
+}
+.tagcloud a[title="適時開示"]{
+  background: #FFFFFF;
+  color: #555;
+  font-size: 15px !important;
+  line-height: 1.1;
+  width: 80px !important;
+  text-align: center;
+  pointer-events: none;
+}
+.tagcloud a[title="お知らせ"]{
+  background: #FFFFFF;
+  color: #555;
+  font-size: 15px !important;
+  line-height: 1.1;
+  width: 80px !important;
+  text-align: center;
+  pointer-events: none;
+}
+
+/*リンク表示調整用css */
+  a { text-decoration: none !important; }
+  a:hover{ text-decoration:underline !important; }
+
+/* ヘッダメニュー調整用css */
+.weluka-nav-bar-h .sub-menu-item{
+  background: rgba(0,0,0,0.4) !important;
+}
+.weluka-nav-bar-h a {
+    color: #ffffff !important;
+}
+.weluka-nav-bar-h a:hover{
+    color: #111111 !important;
+}
+.dropdown-menu, sub-menu-item a:hover {
+  background: rgba(0,0,0,0.4) !important;
+}
+
+/*リンク無し投稿リンク無効化css */
+a[title="当サイトをリニューアルしました。"], a[title="ＣＡＩＣＡのブロックチェーン実証実験の取り組みが2017年５月24日の日経産業新聞　デジタル面に掲載されました。"], a[title=""] {
+  pointer-events: none;
+}
+
+/*モバイル表示時ヘッダ画像の隙間削除css */
+.weluka-col.weluka-col-md-12{
+  margin-bottom: 0em !important;
+}
+
+/*トップ画面_採用ボタン表示用css */
+.top-recruit-button{
+  width:100%;
+  color:rgb(85, 85, 85) !important;
+  font-size:15px;
+  text-align:center;
+  text-decoration:none;
+  border-style: solid  #bfbcbc   !important; 
+  border-width: 3px !important;
+  padding:12px 0 8px 0;
+  border-radius:20px;
+}
+
+/*トップ画面_画面幅固定用css */
+body{
+  width: 100% !important;
+  overflow: auto !important;
+}
+.main-background{
+  width: 100% !important;
+  min-width: 1000px !important;
+  height: 309.25px !important;
+  background-size: 1600px !important;
+}
+.header-background{
+  witch: 100% !important;
+  min-width: 1000px !important;
+  height: 59.52 !important;
+  background-size: 1600px !important;
+}
+.weluka-container.clearfix{
+  width: 1000px !important;
+  margin: 0 auto;
+  max-width: 1000px !important;
+}
+
+/* ヘッダメニューハンバーガー化無効化用css */
+  .navbar-collapse.collapse{
+    display: block !important;
+    height: 50px !important;
+    font-size: 15px !important;
+    line-height: 18px !important;
+  }
+  .navbar-toggle{
+    display: none !Important;
+  }
+  .weluka-nav-bar-h .navbar-nav > ul {
+    height: 50px !important;
+  }
+  .weluka-nav-bar-h .navbar-nav > li {
+    float: none !important;
+    display: inline-block !important;
+    height: 50px !important;
+  }
+  .dropdown-toggle{
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+  }
+  .weluka-text.weluka-content{
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+  }
+
+/* 画面幅調整用css追加 */
+.weluka-row{
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+}
+
+/* アンドロイドフォントサイズ調整用css */
+.weluka-text{
+  max-height: 999999px;
+}
+.weluka-panel{
+  max-height: 999999px;
+}
+
+/* IRアンケートフォーム調整用css */
+.td-2column{
+  display: -webkit-flex;
+  display:flex;
+  -webkit-flex-direction:row;
+  flex-direction:row;
+  flex-wrap: wrap;
+  width:496px;
+}
+.td-2column > .wpcf7-list-item{
+  width:240px;
+  font-size: 12px;
+}
+.td-3column{
+  display: -webkit-flex;
+  display:flex;
+  -webkit-flex-direction:row;
+  flex-direction:row;
+  flex-wrap: wrap;
+  width:496px;
+}
+.td-3column > .wpcf7-list-item{
+  width:150px;
+  font-size: 12px;
+}
+.td-4column{
+  display: -webkit-flex;
+  display:flex;
+  -webkit-flex-direction:row;
+  flex-direction:row;
+  flex-wrap: wrap;
+  width:496px;
+}
+.td-4column > .wpcf7-list-item{
+  width:117px;
+  font-size: 12px;
+}
+
+/* フォーム制限調整用css */
+.ime-disabled{
+  ime-mode: disabled;
+}
+textarea.300-characters-or-less{
+  maxlength: 300 !important;
+}
+
+/* 問い合わせフォーム確認画面調整用css */
+.wpcf7-response-output.wpcf7-display-none{
+  display: none !important;
+}
+.wpcf7c-conf{
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  border:none !important;
+  background:none !important;
+  -webkit-appearance:none !important;
+  box-shadow:none !important;
+  -webkit-appearance:normal;
+  -moz-appearance:normal;
+  appearance:normal;
+}
+
+/* 問い合わせフォーム画面調整用css */
+input[type="button"], input[type="submit"], input[type="reset"] {
+    padding: 7px 10px;
+    color: #000;
+}
+input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], input[type="tel"], input[type="datetime"], input[type="date"], input[type="month"], input[type="week"], input[type="time"], input[type="datetime-local"], input[type="number"], textarea, select {
+    background-color: #fff !important;
+}
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
+    background-color: rgb(255, 255, 255) !important;
+}
+
+/* 現在ページメニュー色変更処理css */
+.current-menu-item:not(.menu-item-181) a{
+  pointer-events: none;
+  background-color:#555;
+  color:#ffffff !important;
+}
+
+/* 広告掲載ページ_ボタン調整用css */
+.adv-inq-button {
+  width:800px;
+  color:#000080 !important;
+  background:#FFD700;
+  font-size:40px;
+  text-align:center;
+  font-weight:bold;
+  height: 120px;
+  line-height: 90px;
+  border-style: solid  #DAA520 !important; 
+  border-width: 3px !important;
+  padding:12px 0 8px 0;
+}</style></head>
+<body class="home page page-id-178 page-parent page-template-default">
+<header id="weluka-main-header" class="weluka-parallax weluka-custom-header">
+<div class="weluka-builder-content"><div id="section_wl3189854805994e4cfa03ab" class="weluka-section  weluka-responsive-mp" style="" data-mdm="0,,0,,px" data-mdp="0,,0,,px" data-smm="0,,0,,px" data-smp="0,,0,,px" data-xsm="0,,0,,px" data-xsp="0,,0,,px"><div class="weluka-container clearfix"><div id="row_wl17759250935994e4cfa0429" class="weluka-row clearfix " ><div id="col_wl18708776905994e4cfa048d" class="weluka-col weluka-col-md-6  weluka-responsive-mp weluka-col-sm-6 weluka-col-xs-6"  style=" margin-top:4px; margin-bottom:0px; padding-top:0px; padding-bottom:0px;" data-mdm="4,,0,,px" data-mdp="0,,0,,px" data-smm="4,,0,,px" data-smp="0,,0,,px" data-xsm="4,,0,,px" data-xsp="0,,0,,px"><div id="weluka_text_wl16363613125994e4cfa0505" class="weluka-text weluka-content " style=""><p><a href="http://www.caica.jp/"><img class="alignnone wp-image-632 alignleft" src="http://www.caica.jp/wp-content/uploads/image/caica_logo_132x56.png" alt="caica_logo" width="132" height="56" /></a>　<a href="https://corp.fcce.jp/campaign/caica/" target="_blank"><img id="__wp-temp-img-id" class="alignnone" src="http://www.caica.jp/wp-content/uploads/image/banner_320x50.png" alt="cicc_market" width="320" height="50" /></a></p></div></div><div id="col_wl21398389525994e4cfa0563" class="weluka-col weluka-col-md-2  weluka-responsive-mp weluka-col-sm-2 weluka-col-xs-2"  style=" margin-top:18px; margin-bottom:0px; padding-top:0px; padding-bottom:0px;" data-mdm="18,,0,,px" data-mdp="0,,0,,px" data-smm="18,,0,,px" data-smp="0,,0,,px" data-xsm="18,,0,,px" data-xsp="0,,0,,px"><div id="weluka_text_wl5572794415994e4cfa05ca" class="weluka-text weluka-content " style=""><h4 style="text-align: right;"><a href="http://www.caica.jp/inquiry/ "><span style="font-size: 15px;">お問い合わせ</span></a></h4></div></div><div id="col_wl11728921475994e4cfa0624" class="weluka-col weluka-col-md-2  weluka-responsive-mp weluka-col-sm-2 weluka-col-xs-2"  style=" margin-top:18px; margin-bottom:0px; padding-top:0px; padding-bottom:0px;" data-mdm="18,,0,,px" data-mdp="0,,0,,px" data-smm="18,,0,,px" data-smp="0,,0,,px" data-xsm="18,,0,,px" data-xsp="0,,0,,px"><div id="weluka_text_wl9938601935994e4cfa0689" class="weluka-text weluka-content " style=""><h4><span style="font-size: 15px;">| <a href="http://www.caica.jp/sitemap/">サイトマップ</a></span></h4></div></div><div id="col_wl6261161695994e4cfa06ea" class="weluka-col weluka-col-md-2  weluka-responsive-mp weluka-col-sm-2 weluka-col-xs-2"  style=" margin-top:12px; margin-bottom:0px; padding-top:0px; padding-bottom:0px;" data-mdm="12,,0,,px" data-mdp="0,,0,,px" data-smm="12,,0,,px" data-smp="0,,0,,px" data-xsm="12,,0,,px" data-xsp="0,,0,,px"><div id="weluka_text_wl17096127465994e4cfa0754" class="weluka-text weluka-content " style=""><h3><a class="fancybox" href="http://www.caica.jp/e-toppage/" rel="gallery"><img class="alignnone size-full wp-image-7397" src="http://www.caica.jp/wp-content/uploads/image/btn_english.jpg" alt="btn_english" width="100" height="35" /></a></h3></div></div></div></div></div><div id="section_wl4575899205994e4cfa07de" class="weluka-section header-background  weluka-responsive-mp" style=" background-image:url(http://www.caica.jp/wp-content/uploads/image/photo_back4menu.png);background-position:50% 0;background-repeat:no-repeat;background-attachment:fixed;background-size:100% 100%; margin-top:0px; margin-bottom:0px; padding-top:0px; padding-bottom:0px;" data-mdm=",,0,,px" data-mdp=",,0,,px" data-smm=",,0,,px" data-smp=",,0,,px" data-xsm=",,0,,px" data-xsp=",,0,,px"><div class="weluka-container clearfix"><div id="row_wl8471414255994e4cfa0851" class="weluka-row clearfix  weluka-responsive-mp"  style=" margin-top:0px; margin-bottom:0px; padding-top:0px; padding-bottom:0px;" data-mdm="0,,0,,px" data-mdp="0,,0,,px" data-smm="0,,0,,px" data-smp="0,,0,,px" data-xsm="0,,0,,px" data-xsp="0,,0,,px"><div id="col_wl19310559595994e4cfa08b5" class="weluka-col weluka-col-md-12  weluka-responsive-mp weluka-col-sm-12 weluka-col-xs-12"  style=" margin-top:0px; margin-bottom:0px; padding-top:0px; padding-bottom:0px;" data-mdm="0,,0,,px" data-mdp="0,,0,,px" data-smm="0,,0,,px" data-smp="0,,0,,px" data-xsm="0,,0,,px" data-xsp="0,,0,,px"><div id="weluka_wpmenu_wl8615893865994e4cfa0971"class="weluka-wp-widget weluka-wpmenu weluka-content clearfix  weluka-responsive-mp"  style=" margin-top:0px; margin-bottom:0px; padding-top:0px; padding-bottom:0px;" data-mdm="0,,0,,px" data-mdp="0,,0,,px" data-smm="0,,0,,px" data-smp="0,,0,,px" data-xsm="0,,0,,px" data-xsp="0,,0,,px"><div class="weluka-nav weluka-nav-bar-h navbar clearfix weluka-navbar-none" style=" font-size:15px !important;border:none !important;"><div class="navbar-header clearfix"><button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#wl14085943255994e4cfa0922"><span class="sr-only">Navigation</span><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button></div><div id="wl14085943255994e4cfa0922" class="collapse navbar-collapse"><ul id="menu-%e5%85%b1%e9%80%9a%e3%83%98%e3%83%83%e3%83%80%e3%83%bc" class="nav navbar-nav navbar-center"><li id="menu-item-181" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-178 current_page_item menu-item-181"><a href="http://www.caica.jp/">トップ</a></li>
+<li id="menu-item-849" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-849"><a href="http://www.caica.jp/business/">事業内容</a>
+<ul class="sub-menu">
+	<li id="menu-item-275" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-275"><a href="http://www.caica.jp/business/info-services-business/">情報サービス事業</a></li>
+	<li id="menu-item-330" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-330"><a href="http://www.caica.jp/business/industry-solutions/">業種別ソリューション</a></li>
+	<li id="menu-item-311" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-311"><a href="http://www.caica.jp/business/service-solutions/">サービス別ソリューション</a></li>
+</ul>
+</li>
+<li id="menu-item-842" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-842"><a href="http://www.caica.jp/fintech/">フィンテック戦略室　</a>
+<ul class="sub-menu">
+	<li id="menu-item-435" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-435"><a href="http://www.caica.jp/fintech/fintech/">フィンテック戦略室</a></li>
+	<li id="menu-item-470" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-470"><a href="http://www.caica.jp/fintech/advanced-technology-research/">先端技術研究所</a></li>
+</ul>
+</li>
+<li id="menu-item-840" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-840"><a href="http://www.caica.jp/corporate/">企業情報</a>
+<ul class="sub-menu">
+	<li id="menu-item-488" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-488"><a href="http://www.caica.jp/corporate/officer-greeting/">役員挨拶</a></li>
+	<li id="menu-item-585" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-585"><a href="http://www.caica.jp/corporate/philosophy/">経営理念</a></li>
+	<li id="menu-item-503" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-503"><a href="http://www.caica.jp/corporate/officers/">役員紹介</a></li>
+	<li id="menu-item-586" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-586"><a href="http://www.caica.jp/corporate/company-profile/">会社概要</a></li>
+	<li id="menu-item-584" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-584"><a href="http://www.caica.jp/corporate/history/">沿革</a></li>
+	<li id="menu-item-665" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-665"><a href="http://www.caica.jp/corporate/csr/">CSR</a></li>
+</ul>
+</li>
+<li id="menu-item-850" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-850"><a href="http://www.caica.jp/investor-relations/">株主・投資家情報</a>
+<ul class="sub-menu">
+	<li id="menu-item-7587" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7587"><a href="http://www.caica.jp/irnews-2017/">IRニュース一覧</a></li>
+	<li id="menu-item-1210" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1210"><a href="http://www.caica.jp/investor-relations/financial-highlights/">財務ハイライト</a></li>
+	<li id="menu-item-816" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-816"><a href="http://www.caica.jp/investor-relations/financial-info/">決算情報</a></li>
+	<li id="menu-item-1772" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1772"><a href="http://www.caica.jp/investor-relations/ir-library/">IRライブラリー</a></li>
+	<li id="menu-item-7772" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7772"><a target="_blank" href="http://www.caica.jp/wp-content/uploads/pdf/2017/caica_report_2016.pdf">CAICA Report 2016(PDF)</a></li>
+	<li id="menu-item-1808" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1808"><a href="http://www.caica.jp/investor-relations/procedure/">株式の諸手続きについて</a></li>
+	<li id="menu-item-1208" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1208"><a href="http://www.caica.jp/investor-relations/shareholders/">株主の状況について</a></li>
+	<li id="menu-item-1209" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1209"><a href="http://www.caica.jp/investor-relations/general-meeting/">株主総会</a></li>
+	<li id="menu-item-1771" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1771"><a href="http://www.caica.jp/investor-relations/ir-calendar/">IRカレンダー</a></li>
+	<li id="menu-item-1205" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1205"><a href="http://www.caica.jp/investor-relations/disclosure-policy/">ディスクロージャーポリシー</a></li>
+	<li id="menu-item-1810" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1810"><a target="_blank" href="https://web.fisco.jp/FiscoPFApl/CompanyTopWeb?brndCd=0231500&#038;token=">株価情報</a></li>
+	<li id="menu-item-1211" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1211"><a href="http://www.caica.jp/investor-relations/electronic-notice/">電子公告</a></li>
+	<li id="menu-item-1206" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1206"><a href="http://www.caica.jp/investor-relations/disclaimer/">免責事項</a></li>
+</ul>
+</li>
+<li id="menu-item-1275" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1275"><a href="http://www.caica.jp/careers/">採用情報</a>
+<ul class="sub-menu">
+	<li id="menu-item-1276" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1276"><a href="http://www.caica.jp/careers/new-graduates/">新卒採用</a></li>
+	<li id="menu-item-1277" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1277"><a href="http://www.caica.jp/careers/mid-career/">中途採用</a></li>
+	<li id="menu-item-1279" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1279"><a href="http://www.caica.jp/careers/question/">よくあるご質問</a></li>
+</ul>
+</li>
+</ul></div></div></div></div></div></div></div></div>
+</header>
+
+
+<div id="main">
+
+	<div id="main-content" class="weluka-parallax">
+
+<article class="entry post-178 page type-page status-publish hentry">
+<div class="weluka-builder-content"><div id="section_wl1816864867589122e13818b" class="weluka-section main-background  weluka-responsive-mp" style=" background-image:url(http://www.caica.jp/wp-content/uploads/image/photo_back4menu.png);background-position:50% 0;background-repeat:no-repeat;background-attachment:fixed;background-size:contain; color:#ffffff; margin-top:0px; margin-bottom:0px; padding-top:0px; padding-bottom:0px;" data-mdm="0,,0,,px" data-mdp="0,,0,,px" data-smm="0,,0,,px" data-smp="0,,0,,px" data-xsm="0,,0,,px" data-xsp="0,,0,,px"><div class="weluka-container clearfix"><div id="row_wl1329351493589122e138215" class="weluka-row clearfix  weluka-responsive-mp"  data-mdm="0,,,,px" data-smm="0,,,,px" data-xsm="0,,,,px"><div id="col_wl823395587589122e13828a" class="weluka-col weluka-col-md-12  weluka-responsive-mp weluka-col-sm-12 weluka-col-xs-12"  style=" margin-top:0px; margin-bottom:0px; padding-top:0px; padding-bottom:0px;" data-mdm="0,,0,,px" data-mdp="0,,0,,px" data-smm="0,,0,,px" data-smp="0,,0,,px" data-xsm="0,,0,,px" data-xsp="0,,0,,px"><div id="row_wl840729461589122e1382fb" class="weluka-row clearfix  weluka-responsive-mp"  style=" margin-top:0px; margin-bottom:0px; padding-top:0px; padding-bottom:0px;" data-mdm="0,,0,,px" data-mdp="0,,0,,px" data-smm="0,,0,,px" data-smp="0,,0,,px" data-xsm="0,,0,,px" data-xsp="0,,0,,px"><div id="col_wl97198481589122e138363" class="weluka-col weluka-col-md-4  weluka-responsive-mp weluka-col-sm-4 weluka-col-xs-4"  style=" margin-top:0px; margin-bottom:0px; padding-top:0px; padding-bottom:0px;" data-mdm="0,,0,,px" data-mdp="0,,0,,px" data-smm="0,,0,,px" data-smp="0,,0,,px" data-xsm="0,,0,,px" data-xsp="0,,0,,px"><div id="weluka_text_wl1875546432589122e1383dc" class="weluka-text weluka-content " style=""></div></div><div id="col_wl764060390589122e13843a" class="weluka-col weluka-col-md-3  weluka-responsive-mp weluka-col-sm-3 weluka-col-xs-3"  style=" margin-top:0px; margin-bottom:0px; padding-top:0px; padding-bottom:0px;" data-mdm="0,,0,,px" data-mdp="0,,0,,px" data-smm="0,,0,,px" data-smp="0,,0,,px" data-xsm="0,,0,,px" data-xsp="0,,0,,px"><div id="weluka_text_wl327929986589122e1384a1" class="weluka-text weluka-content " style=""><h3> </h3></div></div><div id="col_wl906667347589122e1384fa" class="weluka-col weluka-col-md-4  weluka-responsive-mp weluka-col-sm-4 weluka-col-xs-4"  style=" margin-top:0px; margin-bottom:0px; padding-top:0px; padding-bottom:0px;" data-mdm="0,,0,,px" data-mdp="0,,0,,px" data-smm="0,,0,,px" data-smp="0,,0,,px" data-xsm="0,,0,,px" data-xsp="0,,0,,px"><div id="weluka_text_wl1784160671589122e138565" class="weluka-text weluka-content  weluka-responsive-mp" style="" data-mdm="0,,0,,px" data-mdp="0,,0,,px" data-smm="0,,0,,px" data-smp="0,,0,,px" data-xsm="0,,0,,px" data-xsp="0,,0,,px"><h4> </h4><p> </p><p> </p><h4><strong>フィンテックの未来を切り拓く</strong></h4><p> </p><p>数多くの金融システム構築で培った知見と</p><p>最先端のテクノロジーを融合し、</p><p>革新的な金融サービスを生み出していく。</p></div></div></div><div id="row_wl1085107641589122e1385cf" class="weluka-row clearfix  weluka-responsive-mp"  style=" margin-top:20px; margin-bottom:0px; padding-top:0px; padding-bottom:0px;" data-mdm="20,,0,,px" data-mdp="0,,0,,px" data-smm="20,,0,,px" data-smp="0,,0,,px" data-xsm="20,,0,,px" data-xsp="0,,0,,px"><div id="col_wl331379969589122e138636" class="weluka-col weluka-col-md-6  weluka-responsive-mp weluka-col-sm-6 weluka-col-xs-6"  style=" margin-top:0px; margin-bottom:0px; padding-top:0px; padding-bottom:0px;" data-mdm="0,,0,,px" data-mdp="0,,0,,px" data-smm="0,,0,,px" data-smp="0,,0,,px" data-xsm="0,,0,,px" data-xsp="0,,0,,px"><div id="weluka_btn_wl1396028474589122e1386a0" class="weluka-button weluka-content weluka-text-right " ><a href="http://www.caica.jp/fintech/fintech/" class="weluka-btn weluka-btn-default btn-lg no-rounded toppage_button">フィンテック戦略室　　　　　　　　></a></div></div><div id="col_wl1513989978589122e138706" class="weluka-col weluka-col-md-6  weluka-responsive-mp weluka-col-sm-6 weluka-col-xs-6"  style=" margin-top:0px; margin-bottom:0px; padding-top:0px; padding-bottom:0px;" data-mdm="0,,0,,px" data-mdp="0,,0,,px" data-smm="0,,0,,px" data-smp="0,,0,,px" data-xsm="0,,0,,px" data-xsp="0,,0,,px"><div id="weluka_btn_wl1943291840589122e13876b" class="weluka-button weluka-content weluka-text-left " ><a href="http://www.caica.jp/fintech/advanced-technology-research/" class="weluka-btn weluka-btn-default btn-lg no-rounded toppage_button">先端技術研究所　　　　　　　　　></a></div></div></div></div></div></div></div><div id="section_wl179248389589122e1387fe" class="weluka-section  weluka-responsive-mp" style=" margin-bottom:0px; padding-bottom:0px;" data-mdm=",,0,,px" data-mdp=",,0,,px" data-smm=",,0,,px" data-smp=",,0,,px" data-xsm=",,0,,px" data-xsp=",,0,,px"><div class="weluka-container clearfix"><div id="row_wl135840510589122e138869" class="weluka-row clearfix "  style=" margin-top:0px; margin-bottom:0px; padding-top:0px; padding-bottom:0px;"><div id="col_wl639462285589122e1388ca" class="weluka-col weluka-col-md-12  weluka-responsive-mp weluka-col-sm-12 weluka-col-xs-12"  style=" margin-top:0px; margin-bottom:0px; padding-top:0px; padding-bottom:0px; padding-left:20px;" data-mdm="0,,0,,px" data-mdp="0,,0,20,px" data-smm="0,,0,,px" data-smp="0,,0,20,px" data-xsm="0,,0,,px" data-xsp="0,,0,20,px"><div id="weluka_text_wl1496736644589122e138938" class="weluka-text weluka-content " style=" margin-bottom:0px; padding-bottom:0px;"><h4>IRニュース</h4></div></div></div><div id="row_wl924205226589122e13899b" class="weluka-row clearfix "  style=" margin-top:0px; margin-bottom:0px; padding-top:0px; padding-bottom:0px;"><div id="col_wl562302278589122e1389f9" class="weluka-col weluka-col-md-12  weluka-col-sm-12 weluka-col-xs-12" ><div id="weluka_wpposts_wl1390646313589122e138aa4" class="weluka-wp-widget weluka-wpposts weluka-content " ><div class="widget widget_recent_entries weluka-list weluka-list-mediatop"><div class="" ><div class="weluka-list-row weluka-row clearfix mediatop top-nomargin" style=""><div class="weluka-col weluka-col-md-12" style=""><div class="wrap"><h4 class="weluka-list-title weluka-text-left" style=" font-size:15px;"><a href="http://www.caica.jp/pdf-2017-20170810-1-kaiji-pdf/"target=”_blank” title="子会社および持分法適用関連会社の異動を伴う株式取得に関するお知らせ">子会社および持分法適用関連会社の異動を伴う株式取得に関するお知らせ</a></h4><div class="weluka-list-meta weluka-text-left"><span class="weluka-post-date" style=" font-size:15px;">2017.08.10</span></div><div class="tagcloud weluka-mgtop-s"><a href="http://www.caica.jp/tag/%e9%81%a9%e6%99%82%e9%96%8b%e7%a4%ba/" title="適時開示">適時開示</a></div></div></div></div><div class="weluka-list-row weluka-row clearfix mediatop" style=""><div class="weluka-col weluka-col-md-12" style=""><div class="wrap"><h4 class="weluka-list-title weluka-text-left" style=" font-size:15px;"><a href="http://www.caica.jp/pdf-2017-20170614-1-yuuka-pdf/"target=”_blank” title="第29期　第２四半期報告書を掲載いたしました。">第29期　第２四半期報告書を掲載いたしました。</a></h4><div class="weluka-list-meta weluka-text-left"><span class="weluka-post-date" style=" font-size:15px;">2017.06.14</span></div><div class="tagcloud weluka-mgtop-s"><a href="http://www.caica.jp/tag/ir-infomation/" title="IR情報">IR情報</a></div></div></div></div><div class="weluka-list-row weluka-row clearfix mediatop" style=""><div class="weluka-col weluka-col-md-12" style=""><div class="wrap"><h4 class="weluka-list-title weluka-text-left" style=" font-size:15px;"><a href="http://www.caica.jp/pdf-2017-20170607-4-tanshin-pdf/"target=”_blank” title="平成29年10月期　第２四半期決算短信[日本基準]（連結）を掲載いたしました。">平成29年10月期　第２四半期決算短信[日本基準]（連結）を掲載いたしました。</a></h4><div class="weluka-list-meta weluka-text-left"><span class="weluka-post-date" style=" font-size:15px;">2017.06.07</span></div><div class="tagcloud weluka-mgtop-s"><a href="http://www.caica.jp/tag/%e9%81%a9%e6%99%82%e9%96%8b%e7%a4%ba/" title="適時開示">適時開示</a></div></div></div></div><div class="weluka-list-row weluka-row clearfix mediatop" style=""><div class="weluka-col weluka-col-md-12" style=""><div class="wrap"><h4 class="weluka-list-title weluka-text-left" style=" font-size:15px;"><a href="http://www.caica.jp/pdf-2017-20170607-3-kaiji-pdf/"target=”_blank” title="第５回新株予約権の行使に伴う調達資金に関する資金使途および支出時期の一部変更に関するお知らせ">第５回新株予約権の行使に伴う調達資金に関する資金使途および支出時期の一部変更に関するお知らせ</a></h4><div class="weluka-list-meta weluka-text-left"><span class="weluka-post-date" style=" font-size:15px;">2017.06.07</span></div><div class="tagcloud weluka-mgtop-s"><a href="http://www.caica.jp/tag/%e9%81%a9%e6%99%82%e9%96%8b%e7%a4%ba/" title="適時開示">適時開示</a></div></div></div></div><div class="weluka-list-row weluka-row clearfix mediatop" style=""><div class="weluka-col weluka-col-md-12" style=""><div class="wrap"><h4 class="weluka-list-title weluka-text-left" style=" font-size:15px;"><a href="http://www.caica.jp/pdf-2017-20170607-2-oshirase-pdf/"target=”_blank” title="（PR）株式会社AMBITIONと株式会社カイカがブロックチェーン技術を適用した不動産賃貸管理システムの共同開発を開始">（PR）株式会社AMBITIONと株式会社カイカがブロックチェーン技術を適用した不動産賃貸管理システムの共同開発を開始</a></h4><div class="weluka-list-meta weluka-text-left"><span class="weluka-post-date" style=" font-size:15px;">2017.06.07</span></div><div class="tagcloud weluka-mgtop-s"><a href="http://www.caica.jp/tag/%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b/" title="お知らせ">お知らせ</a></div></div></div></div></div></div></div></div></div><div id="row_wl1126029037589122e138b10" class="weluka-row clearfix "  style=" margin-top:0px; margin-bottom:0px; padding-top:0px; padding-bottom:0px;"><div id="col_wl2115601845589122e138b6e" class="weluka-col weluka-col-md-12  weluka-col-sm-12 weluka-col-xs-12" ><div id="weluka_text_wl1044211135589122e138bd4" class="weluka-text weluka-content " style=" margin-right:100px;"><h5 style="text-align: right;"><a href="http://www.caica.jp/irnews-2017/"><span style="color: #3366ff;"><span style="color: #0000ff;">IRニュース一覧&gt;&gt;</span>&gt;</span></a></h5></div></div></div></div></div><div id="section_wl1079491758589122e138c5e" class="weluka-section  weluka-responsive-mp" style=" margin-top:0px; margin-bottom:0px; padding-top:0px; padding-bottom:0px;" data-mdp=",0,,0,px" data-smp=",0,,0,px" data-xsp=",0,,0,px"><div class="weluka-container clearfix"><div id="row_wl950305372589122e138cc1" class="weluka-row clearfix " ><div id="col_wl783482024589122e138d1a" class="weluka-col weluka-col-md-12  weluka-responsive-mp weluka-col-sm-12 weluka-col-xs-12"  style=" margin-top:20px; margin-bottom:0px; padding-top:0px; padding-bottom:0px; padding-left:20px;" data-mdm="20,,,,px" data-mdp=",,,20,px" data-smm="20,,,,px" data-smp=",,,20,px" data-xsm="20,,,,px" data-xsp=",,,20,px"><div id="weluka_text_wl1787248599589122e138d85" class="weluka-text weluka-content " style=" margin-bottom:0px; padding-bottom:0px;"><h4>お知らせ</h4></div></div></div><div id="row_wl1541870605589122e138de3" class="weluka-row clearfix " ><div id="col_wl1550744504589122e138e38" class="weluka-col weluka-col-md-12  weluka-col-sm-12 weluka-col-xs-12" ><div id="weluka_wpposts_wl2025283072589122e138ecb" class="weluka-wp-widget weluka-wpposts weluka-content " ><div class="widget widget_recent_entries weluka-list weluka-list-mediatop"><div class="" ><div class="weluka-list-row weluka-row clearfix mediatop top-nomargin" style=""><div class="weluka-col weluka-col-md-12" style=""><div class="wrap"><h4 class="weluka-list-title weluka-text-left" style=" font-size:15px;"><a href="http://www.caica.jp/pdf_2017_20170816_1_oshirase_pdf/"target=”_blank” title="「ＣＡＩＣＡコイン」などと商材を交換できる特設ページ開設～フィスコグループ３トークンの用途を拡充し、価値の安定・向上を図る～">「ＣＡＩＣＡコイン」などと商材を交換できる特設ページ開設～フィスコグループ３トークンの用途を拡充し、価値の安定・向上を図る～</a></h4><div class="weluka-list-meta weluka-text-left"><span class="weluka-post-date" style=" font-size:15px;">2017.08.16</span></div><div class="tagcloud weluka-mgtop-s"><a href="http://www.caica.jp/tag/%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b/" title="お知らせ">お知らせ</a></div></div></div></div><div class="weluka-list-row weluka-row clearfix mediatop" style=""><div class="weluka-col weluka-col-md-12" style=""><div class="wrap"><h4 class="weluka-list-title weluka-text-left" style=" font-size:15px;"><a href="http://www.caica.jp/pdf_2017_20170803_1_oshirase_pdf/"target=”_blank” title="ＣＡＩＣＡ、「ＣＯＭＳＡ」の開発パートナーに">ＣＡＩＣＡ、「ＣＯＭＳＡ」の開発パートナーに</a></h4><div class="weluka-list-meta weluka-text-left"><span class="weluka-post-date" style=" font-size:15px;">2017.08.03</span></div><div class="tagcloud weluka-mgtop-s"><a href="http://www.caica.jp/tag/%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b/" title="お知らせ">お知らせ</a></div></div></div></div><div class="weluka-list-row weluka-row clearfix mediatop" style=""><div class="weluka-col weluka-col-md-12" style=""><div class="wrap"><h4 class="weluka-list-title weluka-text-left" style=" font-size:15px;"><a href="http://www.caica.jp/pdf-2017-20170713-1-oshirase-pdf/"target=”_blank” title="ＣＡＩＣＡコインの追加発行をロック、フィスコ仮想通貨取引所でも取扱開始へ～ダイリューション（希薄化）を防いで、価値の安定・向上を図る～">ＣＡＩＣＡコインの追加発行をロック、フィスコ仮想通貨取引所でも取扱開始へ～ダイリューション（希薄化）を防いで、価値の安定・向上を図る～</a></h4><div class="weluka-list-meta weluka-text-left"><span class="weluka-post-date" style=" font-size:15px;">2017.07.13</span></div><div class="tagcloud weluka-mgtop-s"><a href="http://www.caica.jp/tag/%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b/" title="お知らせ">お知らせ</a></div></div></div></div><div class="weluka-list-row weluka-row clearfix mediatop" style=""><div class="weluka-col weluka-col-md-12" style=""><div class="wrap"><h4 class="weluka-list-title weluka-text-left" style=" font-size:15px;"><a href="http://www.caica.jp/pdf-2017-20170710-1-oshirase-pdf/"target=”_blank” title="企業向けブロックチェーン講義第二弾　Blockchain Conference For Enterprises　7月18日（火）開催決定">企業向けブロックチェーン講義第二弾　Blockchain Conference For Enterprises　7月18日（火）開催決定</a></h4><div class="weluka-list-meta weluka-text-left"><span class="weluka-post-date" style=" font-size:15px;">2017.07.10</span></div><div class="tagcloud weluka-mgtop-s"><a href="http://www.caica.jp/tag/%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b/" title="お知らせ">お知らせ</a></div></div></div></div></div></div></div></div></div><div id="row_wl454369582589122e138f2d" class="weluka-row clearfix " ><div id="col_wl336033415589122e138f7e" class="weluka-col weluka-col-md-12 " ><div id="weluka_text_wl91260267589122e138fdb" class="weluka-text weluka-content " style=" margin-right:100px;"><h5 style="text-align: right;"><span style="color: #0000ff;"><a style="color: #0000ff;" href="http://www.caica.jp/toppage/notice-list/">お知らせ一覧&gt;&gt;&gt;</a></span></h5></div></div></div></div></div><div id="section_wl1065249368589122e139063" class="weluka-section " style=" background-color:#bfbcbc;"><div class="weluka-container clearfix"><div id="row_wl65287519589122e1390c1" class="weluka-row clearfix " ><div id="col_wl578492302589122e139116" class="weluka-col weluka-col-md-12  weluka-col-sm-12 weluka-col-xs-12" ><div id="weluka_text_wl1668588304589122e139177" class="weluka-text weluka-content " style=""><h3><span style="color: #ffffff;">その他の株主・投資家情報</span></h3></div></div></div><div id="row_wl950498783589122e1391d2" class="weluka-row clearfix "  style=" margin-top:0px; margin-bottom:0px; padding-top:0px; padding-bottom:0px;"><div id="col_wl146592641589122e13922f" class="weluka-col weluka-col-md-1  weluka-col-sm-1 weluka-col-xs-1" ><div id="weluka_text_wl1215992757589122e13928f" class="weluka-text weluka-content " style=""><h3> </h3></div></div><div id="col_wl56381295589122e1392e6" class="weluka-col weluka-col-md-3  weluka-col-sm-3 weluka-col-xs-3" ><div id="weluka_btn_wl154204317589122e139346" class="weluka-button weluka-content weluka-text-center " ><a href="http://www.caica.jp/investor-relations/financial-highlights/" class="weluka-btn weluka-btn-grey btn-lg btn-block no-rounded button">財務ハイライト</a></div><div id="weluka_btn_wl1668568049589122e1393a7" class="weluka-button weluka-content weluka-text-center " ><a href="http://www.caica.jp/investor-relations/procedure/" class="weluka-btn weluka-btn-grey btn-lg btn-block no-rounded button">株主の諸手続きについて</a></div><div id="weluka_btn_wl1213587239589122e139406" class="weluka-button weluka-content weluka-text-center " ><a href="http://www.caica.jp/investor-relations/ir-calendar/" class="weluka-btn weluka-btn-grey btn-lg btn-block no-rounded button">IRカレンダー</a></div><div id="weluka_btn_wl338019033589122e139465" class="weluka-button weluka-content weluka-text-center " ><a href="http://www.caica.jp/investor-relations/electronic-notice/" class="weluka-btn weluka-btn-grey btn-lg btn-block no-rounded button">電子公告</a></div></div><div id="col_wl1671701545589122e1394c5" class="weluka-col weluka-col-md-3  weluka-col-sm-3 weluka-col-xs-3" ><div id="weluka_btn_wl1932209499589122e139525" class="weluka-button weluka-content weluka-text-center " ><a href="http://www.caica.jp/investor-relations/financial-info/ " class="weluka-btn weluka-btn-grey btn-lg btn-block no-rounded button">決算情報</a></div><div id="weluka_btn_wl423903696589122e139584" class="weluka-button weluka-content weluka-text-center " ><a href="http://www.caica.jp/investor-relations/shareholders/" class="weluka-btn weluka-btn-grey btn-lg btn-block no-rounded button">株主の状況</a></div><div id="weluka_btn_wl881601257589122e1395ea" class="weluka-button weluka-content weluka-text-center " ><a href="http://www.caica.jp/investor-relations/disclosure-policy/" class="weluka-btn weluka-btn-grey btn-lg btn-block no-rounded button">ディスクロージャーポリシー</a></div><div id="weluka_btn_wl1567265781589122e13964a" class="weluka-button weluka-content weluka-text-center " ><a href="http://www.caica.jp/investor-relations/disclaimer/" class="weluka-btn weluka-btn-grey btn-lg btn-block no-rounded button">免責事項</a></div></div><div id="col_wl221364823589122e1396ab" class="weluka-col weluka-col-md-3  weluka-col-sm-3 weluka-col-xs-3" ><div id="weluka_btn_wl104256585589122e13970e" class="weluka-button weluka-content weluka-text-center " ><a href="http://www.caica.jp/investor-relations/ir-library/" class="weluka-btn weluka-btn-grey btn-lg btn-block no-rounded button">IRライブラリ</a></div><div id="weluka_btn_wl1501400912589122e13976e" class="weluka-button weluka-content weluka-text-center " ><a href="http://www.caica.jp/investor-relations/general-meeting/ " class="weluka-btn weluka-btn-grey btn-lg btn-block no-rounded button">株主総会</a></div><div id="weluka_btn_wl65962751589122e1397ce" class="weluka-button weluka-content weluka-text-center " ><a href="https://web.fisco.jp/FiscoPFApl/CompanyTopWeb?brndCd=0231500&token=" target="_blank" class="weluka-btn weluka-btn-grey btn-lg btn-block no-rounded button">株価情報</a></div></div></div></div></div><div id="section_wl1115163010589122e139856" class="weluka-section " style=" background-color:#f7f7f7;"><div class="weluka-container clearfix"><div id="row_wl659387124589122e1398b5" class="weluka-row clearfix " ><div id="col_wl1511076382589122e13990b" class="weluka-col weluka-col-md-11  weluka-col-sm-11 weluka-col-xs-11" ><div id="weluka_text_wl1142011952589122e13996b" class="weluka-text weluka-content " style=""><h3>企業理念</h3></div><div id="weluka_text_wl1640296707589122e1399c8" class="weluka-text weluka-content " style=""><h4>当社は、社員一人ひとりの個性を尊重し技術・経験等あらゆる英知を結集して、お客様に満足度の高いサービスを提供することにより、人々の豊かな生活に貢献します。</h4></div></div></div></div></div><div id="section_wl1794150535589122e139a45" class="weluka-section " style=""><div class="weluka-container clearfix"><div id="row_wl139090489589122e139a99" class="weluka-row clearfix " ><div id="col_wl2138025275589122e139aef" class="weluka-col weluka-col-md-2  weluka-col-sm-2 weluka-col-xs-2" ><div id="weluka_text_wl1686807975589122e139b50" class="weluka-text weluka-content " style=""><h3 style="text-align: left;">CEO挨拶</h3><p><img class="alignnone size-full wp-image-7492" src="http://www.caica.jp/wp-content/uploads/image/directors_yagi.jpg" alt="directors_yagi" width="120" height="155" /></p></div></div><div id="col_wl693246867589122e139ba7" class="weluka-col weluka-col-md-9  weluka-col-sm-9 weluka-col-xs-9" ><div id="weluka_text_wl1935022916589122e139c0d" class="weluka-text weluka-content " style=" margin-top:50px;"><h4>私達CAICAは創業以来、オフショア開発の草分け的な存在として、お客様には安くて高品質なソリューションをご提供して参りました。オフショア開発というビジネスモデルにより国内のお客様のニーズにお応えすることは、同時に、中国の雇用創出と技術発展に寄与し、システムソリューションを通じたグローバルな経済発展に貢献することでもありました。人々の暮らしがより豊かになることで、私達自身もまた成長し、共存共栄を拡大していくことができました。</h4></div></div></div><div id="row_wl402992745589122e139c71" class="weluka-row clearfix "  style=" margin-top:0px; margin-bottom:0px; padding-top:0px; padding-bottom:0px;"><div id="col_wl1867077070589122e139ccf" class="weluka-col weluka-col-md-11  weluka-col-sm-11 weluka-col-xs-11"  style=" padding-right:20px;"><div id="weluka_text_wl713659708589122e139d2e" class="weluka-text weluka-content " style=""><h5 style="text-align: right;"><span style="color: #0000ff;"><a style="color: #0000ff;" href="http://www.caica.jp/corporate/officer-greeting/">つづきを読む　役員挨拶ページへ&gt;&gt;&gt;</a></span></h5></div></div></div></div></div><div id="section_wl1742915914589122e139da9" class="weluka-section " style=" background-color:#bfbcbc;"><div class="weluka-container clearfix"><div id="row_wl2118603015589122e139e08" class="weluka-row clearfix " ><div id="col_wl1840428418589122e139e5d" class="weluka-col weluka-col-md-12  weluka-col-sm-12 weluka-col-xs-12" ><div id="weluka_text_wl801811204589122e139ebe" class="weluka-text weluka-content " style=""><h3><span style="color: #ffffff;">企業情報</span></h3></div></div></div><div id="row_wl679817421589122e139f18" class="weluka-row clearfix "  style=" margin-top:0px; margin-bottom:0px; padding-top:0px; padding-bottom:0px;"><div id="col_wl43744345589122e139f75" class="weluka-col weluka-col-md-1  weluka-col-sm-1 weluka-col-xs-1" ><div id="weluka_text_wl752411972589122e139fd4" class="weluka-text weluka-content " style=""><h3> </h3></div></div><div id="col_wl1077691931589122e13a029" class="weluka-col weluka-col-md-3  weluka-col-sm-3 weluka-col-xs-3" ><div id="weluka_btn_wl233708601589122e13a088" class="weluka-button weluka-content weluka-text-center " ><a href="http://www.caica.jp/corporate/philosophy/ " class="weluka-btn weluka-btn-grey btn-lg btn-block no-rounded button">経営理念</a></div><div id="weluka_btn_wl1432368682589122e13a0e8" class="weluka-button weluka-content weluka-text-center " ><a href="http://www.caica.jp/corporate/company-profile/" class="weluka-btn weluka-btn-grey btn-lg btn-block no-rounded button">会社概要</a></div></div><div id="col_wl2103905552589122e13a147" class="weluka-col weluka-col-md-3  weluka-col-sm-3 weluka-col-xs-3" ><div id="weluka_btn_wl1875048035589122e13a1ad" class="weluka-button weluka-content weluka-text-center " ><a href="http://www.caica.jp/corporate/officer-greeting/" class="weluka-btn weluka-btn-grey btn-lg btn-block no-rounded button">役員挨拶</a></div><div id="weluka_btn_wl1968101481589122e13a20b" class="weluka-button weluka-content weluka-text-center " ><a href="http://www.caica.jp/corporate/history/ " class="weluka-btn weluka-btn-grey btn-lg btn-block no-rounded button">沿革</a></div></div><div id="col_wl168150633589122e13a26b" class="weluka-col weluka-col-md-3  weluka-col-sm-3 weluka-col-xs-3" ><div id="weluka_btn_wl1036029009589122e13a2c9" class="weluka-button weluka-content weluka-text-center " ><a href="http://www.caica.jp/corporate/officers/ " class="weluka-btn weluka-btn-grey btn-lg btn-block no-rounded button">役員紹介</a></div><div id="weluka_btn_wl1697438646589122e13a327" class="weluka-button weluka-content weluka-text-center " ><a href="http://www.caica.jp/corporate/csr/" class="weluka-btn weluka-btn-grey btn-lg btn-block no-rounded button">CSR</a></div></div></div></div></div><div id="section_wl1712454273589122e13a3ac" class="weluka-section " style=" background-color:#f7f7f7;"><div class="weluka-container clearfix"><div id="row_wl271696723589122e13a40a" class="weluka-row clearfix " ><div id="col_wl1433734378589122e13a460" class="weluka-col weluka-col-md-11  weluka-col-sm-11 weluka-col-xs-11" ><div id="weluka_text_wl1694650530589122e13a4c0" class="weluka-text weluka-content " style=""><h3>事業内容</h3></div><div id="weluka_text_wl1020706147589122e13a51b" class="weluka-text weluka-content " style=""><h4>当社は、システム開発事業を中心とした「情報サービス」事業を展開しています。事業を展開する日中のグループ会社がそれぞれのマーケットで技術・スピード・スケールといった強みを生かし、互いに連携することで高品質・高付加価値サービスを提供することにより、企業価値の持続的向上と株主利益の増加に努めています。</h4></div></div></div><div id="row_wl871646318589122e13a578" class="weluka-row clearfix " ><div id="col_wl1268194412589122e13a5cf" class="weluka-col weluka-col-md-1  weluka-col-sm-1 weluka-col-xs-1" ><div id="weluka_text_wl2115188534589122e13a62f" class="weluka-text weluka-content " style=""><h3> </h3></div></div><div id="col_wl535517299589122e13a685" class="weluka-col weluka-col-md-3  weluka-col-sm-3 weluka-col-xs-3" ><div id="weluka_text_wl1441690034589122e13a6eb" class="weluka-text weluka-content " style=" padding-left:10px; padding-right:10px; border:0px solid #292929;"><table class="blue_table" style="border:solid 1px;" width="240px" height="170px">
+  <tr>
+    <td style="padding: 0px 15px 0px;">
+      <br />
+      <p style="text-align: center;"><a href="http://www.caica.jp/business/info-services-business/"><span style="font-size: 14px; color: #0000ff;">情報サービス事業</span></a></p>
+      <br />
+      <p><span style="font-size: 14px;">当社グループは、金融機関・情報通信業等の企業向けシステム開発を行っております。</span></p>
+    </td>
+  </tr>
+</table></div></div><div id="col_wl181785334589122e13a74b" class="weluka-col weluka-col-md-3  weluka-col-sm-3 weluka-col-xs-3" ><div id="weluka_text_wl50498095589122e13a7b0" class="weluka-text weluka-content " style=" padding-left:10px; padding-right:10px; border:0px solid #292929;"><table class="blue_table" style="border:solid 1px;" width="240px" height="170px">
+  <tr>
+    <td style="padding: 0px 15px 0px;">
+      <br />
+      <p style="text-align: center;"><a href="http://www.caica.jp/business/industry-solutions/"><span style="font-size: 14px; color: #0000ff;">業種別ソリューション</span></a></p>
+      <br />
+      <p><span style="font-size: 14px;">当社が提供する主なサービスソリューション、実績を紹介します。</span></p>
+    </td>
+  </tr>
+</table></div></div><div id="col_wl845241889589122e13a80f" class="weluka-col weluka-col-md-3  weluka-responsive-mp weluka-col-sm-3 weluka-col-xs-3"  data-xsp=",0,,0,px"><div id="weluka_text_wl577635972589122e13a876" class="weluka-text weluka-content " style=" padding-left:10px; padding-right:10px; border:0px solid #292929;"><table class="blue_table" style="border:solid 1px;" width="240px" height="170px">
+  <tr>
+    <td style="padding: 0px 15px 0px;">
+      <br />
+      <p style="text-align: center;"><a href="http://www.caica.jp/business/service-solutions/ "><span style="font-size: 14px; color: #0000ff;">サービス別ソリューション</span></a></p>
+      <br />
+      <p><span style="font-size: 14px;">業務・ITコンサルテーション</span></p>
+    </td>
+  </tr>
+</table></div></div></div></div></div><div id="section_wl1661439509589122e13a8f5" class="weluka-section " style=""><div class="weluka-container clearfix"><div id="row_wl1491251363589122e13a950" class="weluka-row clearfix "  style=" margin-top:0px; margin-bottom:0px; padding-top:0px; padding-bottom:0px;"><div id="col_wl1599951453589122e13a9ac" class="weluka-col weluka-col-md-9  weluka-col-sm-9 weluka-col-xs-9" ><div id="weluka_text_wl1765144374589122e13aa0c" class="weluka-text weluka-content " style=""><h3>採用情報</h3></div><div id="weluka_text_wl1786181406589122e13aa62" class="weluka-text weluka-content " style=""><h4>「何事にも前向きで」「自ら考えて行動できる」人材を求めています。</h4></div></div></div><div id="row_wl1005149639589122e13aab5" class="weluka-row clearfix " ><div id="col_wl1643265727589122e13ab0a" class="weluka-col weluka-col-md-1  weluka-col-sm-1 weluka-col-xs-1" ><div id="weluka_text_wl236046902589122e13ab69" class="weluka-text weluka-content " style=""><h3> </h3></div></div><div id="col_wl1899163273589122e13abc0" class="weluka-col weluka-col-md-3  weluka-col-sm-3 weluka-col-xs-3" ><div id="weluka_btn_wl1385402893589122e13ac1e" class="weluka-button weluka-content weluka-text-center " ><a href="http://www.caica.jp/careers/new-graduates/ " class="weluka-btn weluka-btn-default btn-lg btn-block no-rounded top-recruit-button">新卒採用</a></div></div><div id="col_wl803572202589122e13ac7e" class="weluka-col weluka-col-md-3  weluka-col-sm-3 weluka-col-xs-3" ><div id="weluka_btn_wl745304284589122e13acdc" class="weluka-button weluka-content weluka-text-center " ><a href="http://www.caica.jp/careers/mid-career/" class="weluka-btn weluka-btn-default btn-lg btn-block no-rounded top-recruit-button">中途採用</a></div></div><div id="col_wl326847777589122e13ad3c" class="weluka-col weluka-col-md-3  weluka-responsive-mp weluka-col-sm-3 weluka-col-xs-3"  data-xsp=",0,,0,px"><div id="weluka_btn_wl1351906081589122e13ad9d" class="weluka-button weluka-content weluka-text-center " ><a href="http://www.caica.jp/careers/question/" class="weluka-btn weluka-btn-default btn-lg btn-block no-rounded top-recruit-button">よくあるご質問</a></div></div></div></div></div></div>
+	</article>
+	</div>
+</div>
+
+<footer id="weluka-main-footer" class="weluka-parallax weluka-custom-footer">
+<div class="weluka-builder-content"><div id="section_wl3465569175853b07d74f89" class="weluka-section " style=" background-color:#000000; margin-top:0px; margin-bottom:0px; padding-top:0px; padding-bottom:0px;"><div class="weluka-container clearfix"><div id="row_wl219543425853b07d75000" class="weluka-row clearfix " ><div id="col_wl4483986345853b07d75060" class="weluka-col weluka-col-md-12  weluka-col-sm-12 weluka-col-xs-12" ><div style="display:none;"><style>#weluka_wpmenu_wl4015237125853b07d75122 .weluka-navbar-none ,#weluka_wpmenu_wl4015237125853b07d75122 .weluka-navbar-none .dropdown-menu,#weluka_wpmenu_wl4015237125853b07d75122 .weluka-nav-bar-h.weluka-navbar-none .navbar-toggle{ background-color: #000000 !important; }
+</style></div><div id="weluka_wpmenu_wl4015237125853b07d75122" class="weluka-wp-widget weluka-wpmenu weluka-content clearfix "  style=" margin-top:0px; margin-bottom:0px; padding-top:0px; padding-bottom:0px;"><div class="weluka-nav weluka-nav-bar-h navbar clearfix weluka-navbar-none" style=" font-size:13px !important;"><div class="navbar-header clearfix"><button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#wl19590733375853b07d750d3"><span class="sr-only">Navigation</span><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button></div><div id="wl19590733375853b07d750d3" class="collapse navbar-collapse"><ul id="menu-%e5%85%b1%e9%80%9a%e3%83%95%e3%83%83%e3%82%bf%e3%83%bc" class="nav navbar-nav"><li id="menu-item-971" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-971"><a href="http://www.caica.jp/privacy-policy/">個人情報保護方針</a></li>
+<li id="menu-item-970" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-970"><a href="http://www.caica.jp/personal-info/">個人情報の取り扱い</a></li>
+<li id="menu-item-972" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-972"><a href="http://www.caica.jp/info-security/">情報セキュリティ</a></li>
+<li id="menu-item-1669" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1669"><a href="http://www.caica.jp/inquiry/">お問い合わせ</a></li>
+<li id="menu-item-1654" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1654"><a href="http://www.caica.jp/sitemap/">サイトマップ</a></li>
+</ul></div></div></div><div id="weluka_text_wl3912566505853b07d75199" class="weluka-text weluka-content " style=" color:#ffffff; margin-top:0px; margin-bottom:0px; padding-top:0px; padding-bottom:0px;"><p style="text-align: left;"><span style="font-size: 12px;">　 Copyright © 2017 CAICA Inc. All Rights Reserved.</span></p></div></div></div></div></div></div></footer>
+
+
+<div class="scroll-back-to-top-wrapper">
+	<span class="scroll-back-to-top-inner">
+					<i class="fa fa-2x fa-angle-double-up"></i>
+			</span>
+</div><script type='text/javascript'>
+/* <![CDATA[ */
+var vkLtc = {"ajaxurl":"http:\/\/www.caica.jp\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.caica.jp/wp-content/plugins/vk-link-target-controller/js/script.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var mejsL10n = {"language":"ja","strings":{"Close":"\u9589\u3058\u308b","Fullscreen":"\u30d5\u30eb\u30b9\u30af\u30ea\u30fc\u30f3","Download File":"\u30d5\u30a1\u30a4\u30eb\u3092\u30c0\u30a6\u30f3\u30ed\u30fc\u30c9","Download Video":"\u52d5\u753b\u3092\u30c0\u30a6\u30f3\u30ed\u30fc\u30c9","Play\/Pause":"\u518d\u751f\/\u4e00\u6642\u505c\u6b62","Mute Toggle":"\u30df\u30e5\u30fc\u30c8\u5207\u308a\u66ff\u3048","None":"\u306a\u3057","Turn off Fullscreen":"\u30d5\u30eb\u30b9\u30af\u30ea\u30fc\u30f3\u3092\u30aa\u30d5","Go Fullscreen":"\u30d5\u30eb\u30b9\u30af\u30ea\u30fc\u30f3","Unmute":"\u30df\u30e5\u30fc\u30c8\u89e3\u9664","Mute":"\u30df\u30e5\u30fc\u30c8","Captions\/Subtitles":"\u30ad\u30e3\u30d7\u30b7\u30e7\u30f3\/\u5b57\u5e55"}};
+var _wpmejsSettings = {"pluginPath":"\/wp-includes\/js\/mediaelement\/"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.caica.jp/wp-includes/js/mediaelement/mediaelement-and-player.min.js?ver=2.18.1-a'></script>
+<script type='text/javascript' src='http://www.caica.jp/wp-includes/js/mediaelement/wp-mediaelement.min.js?ver=4.5.9'></script>
+<script type='text/javascript' src='//www.caica.jp/wp-content/plugins/weluka/assets/js/bootstrap.min.js?ver=3.3.4'></script>
+<script type='text/javascript' src='//www.caica.jp/wp-content/plugins/weluka/assets/js/fancybox/jquery.fancybox.pack.js?ver=2.1.5'></script>
+<script type='text/javascript' src='//www.caica.jp/wp-content/plugins/weluka/assets/js/flexslider/jquery.flexslider-min.js?ver=2.5.0'></script>
+<script type='text/javascript' src='//maps.google.com/maps/api/js?sensor=false&#038;ver=215554118'></script>
+<script type='text/javascript' src='//www.caica.jp/wp-content/plugins/weluka/assets/js/gmaps.min.js?ver=0.4.18'></script>
+<script type='text/javascript' src='//www.caica.jp/wp-content/plugins/weluka/assets/js/headroom.min.js?ver=4.5.9'></script>
+<script type='text/javascript' src='//www.caica.jp/wp-content/plugins/weluka/assets/js/jQuery.headroom.min.js?ver=4.5.9'></script>
+<script type='text/javascript' src='//www.caica.jp/wp-content/plugins/weluka/assets/js/weluka-gmap.min.js?ver=1.0.7'></script>
+<script type='text/javascript' src='//www.caica.jp/wp-content/plugins/weluka/assets/js/weluka.min.js?ver=1.0.7'></script>
+<script type='text/javascript' src='http://www.caica.jp/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.51.0-2014.06.20'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/www.caica.jp\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","recaptchaEmpty":"\u3042\u306a\u305f\u304c\u30ed\u30dc\u30c3\u30c8\u3067\u306f\u306a\u3044\u3053\u3068\u3092\u8a3c\u660e\u3057\u3066\u304f\u3060\u3055\u3044\u3002","sending":"\u9001\u4fe1\u4e2d ..."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.caica.jp/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.4.2'></script>
+<script type='text/javascript' src='http://www.caica.jp/wp-content/plugins/contact-form-7-add-confirm/includes/js/scripts.js?ver=4.3.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var scrollBackToTop = {"scrollDuration":"500","fadeDuration":"0.5"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.caica.jp/wp-content/plugins/scroll-back-to-top/assets/js/scroll-back-to-top.js'></script>
+<script type='text/javascript' src='http://www.caica.jp/wp-includes/js/wp-embed.min.js?ver=4.5.9'></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','http://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-2911652-5', 'auto');
+  ga('send', 'pageview');
+
+</script></body>
+</html>

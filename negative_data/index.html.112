@@ -1,0 +1,155 @@
+<!DOCTYPE html> 
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1000" />
+<title>未来を育てる人がいる | 北野建設株式会社</title>
+<meta name="description" content="「未来を育てる人がいる。」北野建設株式会社のホームページ。会社情報、実績紹介、IR情報、CSRへの取り組み、採用情報などのご案内。人がつくる北野の仕事、建築家が語る北野の仕事、長野だよりなどのご案内。" />
+<meta name="keywords" content="北野建設,北野建設株式会社,建設会社,ゼネコン,建築,建設,建設業,設計,施工,土木,長野,建築家,建築事例,長野県労働金庫" />
+<link rel="icon" href="http://www.kitano.co.jp/images/favicon.ico" type="image/x-icon" /> 
+<link rel="shortcut icon" href="http://www.kitano.co.jp/images/favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" type="text/css" href="http://www.kitano.co.jp/css/common.css" />
+<link rel="stylesheet" type="text/css" href="styles.css" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script type="text/javascript" src="http://www.kitano.co.jp/lib/script.js"></script>
+<script type="text/javascript" src="http://www.kitano.co.jp/lib/smoothRollOver.js"></script>
+<script type="text/javascript" src="http://www.kitano.co.jp/lib/jquery.cycle.all.js"></script>
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<script type="text/javascript" src="http://www.kitano.co.jp/lib/jquery.cycle2.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="http://www.kitano.co.jp/lib/jquery.belatedPNG.min.js"></script>
+<script type="text/javascript">
+	$(window).load(function() {
+		$("#slideshow img").fixPng();
+		$('.slidePerson').cycle({
+			random: 1,
+			fx: 'fade',
+		});
+		$('.slideBuild').cycle({
+			random: 1,
+			fx: 'fade',
+			delay: -3000,
+		});
+	});
+</script>
+
+</head>
+
+<body>
+<!-- container -->
+<div id="container">
+<!-- header -->
+<header>
+<div id="header_inner">
+<h1><a href="http://www.kitano.co.jp/">未来を育てる人がいる 北野建設</a></h1>
+<nav role="navigation" aria-label="サブナビゲーション">
+<ul id="s-navi" class="clearfix">
+<li><a href="http://www.kitano.co.jp/sitepolicy/"><img src="http://www.kitano.co.jp/images/sn_sitepolicy.gif" width="79" height="13" alt="サイトポリシー" /></a></li>
+<li><a href="http://www.kitano.co.jp/privacy/"><img src="http://www.kitano.co.jp/images/sn_privacy.gif" width="116" height="13" alt="プライバシーポリシー" /></a></li>
+<li><a href="http://www.kitano.co.jp/sitemap/"><img src="http://www.kitano.co.jp/images/sn_sitemap.gif" width="68" height="13" alt="サイトマップ" /></a></li>
+<li><a href="http://www.kitano.co.jp/contact/"><img src="http://www.kitano.co.jp/images/sn_contact.gif" width="74" height="13" alt="お問い合わせ" /></a></li>
+<li><a href="http://www.kitano.co.jp/english/"><img src="http://www.kitano.co.jp/images/sn_english.gif" width="44" height="15" alt="English" /></a></li>
+</ul>
+</nav>
+<div id="search">
+<form method="GET" action="http://www.google.co.jp/search" target="_blank">
+<input type="text" class="textarea searchText" name="q" maxlength="150" value="" />
+<input type="image" class="searchbtn" src="http://www.kitano.co.jp/images/search_btn.gif" alt="検索" />
+<input type="hidden" name="sitesearch" value="www.kitano.co.jp/">
+<input type="hidden" name="hl" value="ja">
+<input type="hidden" name="num" value="20">
+<input type="hidden" name="ie" value="UTF-8">
+<input type="hidden" name="oe" value="UTF-8">
+</form>
+</div>
+<nav role="navigation" aria-label="グローバルナビゲーション">
+<ul id="g-navi">
+<li id="gn-corporate"><a href="http://www.kitano.co.jp/corporate/">会社情報</a></li>
+<li id="gn-showcase"><a href="http://www.kitano.co.jp/showcase/">実績紹介</a></li>
+<li id="gn-ir"><a href="http://www.kitano.co.jp/ir/">IR情報</a></li>
+<li id="gn-csr"><a href="http://www.kitano.co.jp/csr/">CSRへの取り組み</a></li>
+<li id="gn-recruit"><a href="http://www.kitano.co.jp/recruit/">採用情報</a></li>
+</ul>
+</nav>
+</div>
+</header>
+<!-- /header -->
+
+<!-- contents -->
+<div id="contents" class="clearfix">
+<article class="clearfix" role="main">
+<div id="slideshow">
+<div class="slideBuild">
+<img src="images/slide/build01.png" />
+<img src="images/slide/build02.png" />
+<img src="images/slide/build03.png" />
+<img src="images/slide/build04.png" />
+<img src="images/slide/build05.png" />
+<img src="images/slide/build06.png" />
+<img src="images/slide/build07.png" />
+</div>
+<div class="slidePerson">
+<img src="images/slide/person01.png" />
+<img src="images/slide/person02.png" />
+<img src="images/slide/person05.png" />
+</div>
+<div class="copy"><a href="http://www.kitano.co.jp/corporate/statement.php"><img src="images/slide/copy.png" alt="未来を育てる人がいる" /></a></div>
+</div>
+<div id="sideR" class="fr">
+<section id="news">
+<h2><img src="images/ttl_news.gif" width="477" height="40" alt="NEWS" /></h2>
+<div class="newsList">
+<dl>
+<dt><time datetime="2017-08-09">2017.08.09</time></dt>
+<dd><a href="http://www.kitano.co.jp/news/2017/08/091621.php">平成30年3月期 第1四半期決算短信について</a><script type="text/javascript">newM(2017,08,09)</script></dd>
+
+<dt><time datetime="2017-08-02">2017.08.02</time></dt>
+<dd><a href="http://www.kitano.co.jp/news/2017/08/021402.php">自己株式の取得状況に関するお知らせ</a><script type="text/javascript">newM(2017,08,02)</script></dd>
+
+<dt><time datetime="2017-07-11">2017.07.11</time></dt>
+<dd><a href="http://www.kitano.co.jp/news/2017/07/111514.php">自己株式取得に係る事項の決定に関するお知らせ</a><script type="text/javascript">newM(2017,07,11)</script></dd>
+
+<dt><time datetime="2017-06-23">2017.06.23</time></dt>
+<dd><a href="http://www.kitano.co.jp/news/2017/06/231605.php">執行役員の異動に関するお知らせ</a><script type="text/javascript">newM(2017,06,23)</script></dd>
+</dl>
+<p class="more"><a href="http://www.kitano.co.jp/news/"><img src="images/more.png" width="46" height="9" alt="more" /></a></p>
+</div>
+</section>
+<ul class="clearfix">
+<li class="fl"><a href="http://www.kitano.co.jp/naganodayori/"><img src="images/naganodayori_off.gif" width="232" height="180" alt="長野だより" /></a></li>
+<li class="fr"><a href="http://kitano-ski.com/" target="_blank"><img src="images/skiing_off.gif" width="232" height="180" alt="北野建設スキー部" /></a></li>
+</ul>
+</div>
+<div id="sideL" class="fl">
+<ul>
+<li><a href="http://www.kitano.co.jp/person/"><img src="images/person_off.gif" width="477" height="220" alt="人がつくる北野の仕事" /></a></li>
+<li><a href="http://www.kitano.co.jp/architect/"><img src="images/architect_off.gif" width="477" height="220" alt="建築家が語る北野の仕事" /></a></li>
+</ul>
+</div>
+</article>
+<aside class="cb">
+<ul class="clearfix">
+<li><a href="http://kitanobungeiza.jp/" target="_blank"><img src="images/bungeiza_off.gif" width="236" height="85" alt="北野文芸座" /></a></li>
+<li><a href="http://www.kitano-sumai.jp/" target="_blank"><img src="images/sumai_off.gif" width="236" height="85" alt="北野の住まい" /></a></li>
+<li><a href="http://www.kawanakajima-cc.com/" target="_blank"><img src="images/kawakan_off.gif" width="236" height="85" alt="川中嶋カントリークラブ" /></a></li>
+<li><a href="http://www.kitanomendana.com/ja/" target="_blank"><img src="images/solomon_off.gif" width="236" height="85" alt="Solomon Kitano Mendana Hotel" /></a></li>
+<li><a href="http://www.kitano.com/" target="_blank"><img src="images/kitanony_off.gif" width="236" height="85" alt="THE KITANO NEW YORK" /></a></li>
+<li><a href="http://www.hotelnikkohanoi.com.vn/" target="_blank"><img src="images/hanoi_off.gif" width="236" height="85" alt="hotel nikko hanoi" /></a></li>
+<li><a href="http://azabu10sr.com/" target="_blank"><img src="images/azabu_off.gif" width="484" height="85" alt="麻布十番スクエアレジデンス" /></a></li>
+</ul>
+</aside>
+</div>
+<!-- /contents -->
+
+<!-- footer -->
+<footer>
+<p><img src="http://www.kitano.co.jp/images/f_logo.png" width="165" height="21" alt="北野建設株式会社" /></p>
+<p class="address"><img src="http://www.kitano.co.jp/images/address.gif" width="410" height="11" alt="〒388-8012 長野県長野市県町524/〒104-8116 東京都中央区銀座1-9-2" /></p>
+<small><img src="http://www.kitano.co.jp/images/copyright.gif" width="235" height="11" alt="Copyright KITANO CONSTRUCTION CORP." /></small>
+</footer>
+<!-- /footer -->
+</div>
+<!-- /container -->
+</body>
+</html>

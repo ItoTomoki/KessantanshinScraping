@@ -1,0 +1,248 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<title>ラサ商事株式会社</title>
+<meta name="description" content="" />
+<meta name="keywords" content="ラサ,RASA">
+<link rel="stylesheet" href="cmn/css/common.css" media="all" type="text/css" />
+<link rel="stylesheet" href="cmn/css/contents.css" media="all" type="text/css" />
+<link rel="stylesheet" href="cmn/css/print.css" media="print" type="text/css" />
+<script type="text/javascript" src="cmn/js/jquery.js"></script>
+<script type="text/javascript" src="cmn/js/common.js"></script>
+<script type="text/javascript" src="cmn/js/switch.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-44614019-1', 'rasaco.co.jp');
+  ga('send', 'pageview');
+</script>
+</head>
+
+<body>
+<div id="header">
+<div id="header_in">
+<a href="index.html"><img src="cmn/img/logo_top.jpg" width="279" height="79" id="logo" /></a>
+
+<ul id="header_navi">
+<li id="header_link03"><a href="english/index.html"><img src="cmn/img/header_link03_off.gif" /></a></li>
+<li id="header_link02"><a href="form/index.html"><img src="cmn/img/header_link02_off.gif" /></a></li>
+<li id="header_link01"><a href="sitemap/index.html"><img src="cmn/img/header_link01_off.gif" /></a></li>
+<li id="header_print"><a href="#header" onclick="window.print();return false;" onkeypress="window.print();return false;"><img src="cmn/img/header_print.gif" width="40" height="19" alt="印刷" /></a></li>
+<!-- 文字サイズ -->
+<li id="header_textsize">
+<ul>
+<li><img src="cmn/img/header_font01.gif" width="63" height="19" alt="文字サイズ" /></li>
+<li title="文字サイズ中" id="medium" class="sizeM"><a href="#"></a></li>
+<li title="文字サイズ大" id="large" class="sizeL"><a href="#"></a></li>
+</ul>
+</li>
+<!--検索-->
+<li id="header_search">
+<form action="http://www.google.com/search">
+<input type="hidden" value="http://www.rasaco.co.jp/" name="as_sitesearch" />
+<input type="hidden" name="ie" value="UTF-8" />
+<input type="hidden" name="oe" value="UTF-8" />
+<input type="text" value="サイト内検索" name="query" accesskey="a" tabindex="1" class="space" id="search_box" onfocus="if(this.value=='サイト内検索') this.value=''" onblur="if(this.value=='') this.value='サイト内検索'"/>
+<input type="image" name="submit" src="cmn/img/header_search.gif" alt="検索" accesskey="a" tabindex="1" id="search_btn" /> 
+</form>
+</li>
+</ul><!--end header_navi-->
+</div><!--end header_in-->
+</div><!--end header-->
+
+<div id="top_image"><img src="cmn/img/image_top.jpg" width="1200" height="180" /></div>
+
+<!--<p class="fbold f14p box_products" >平成28年熊本地震の影響により被災された皆さまに、心よりお見舞い申し上げます。<br>
+被災地の一日も早い復興を心からお祈りいたします。
+</p>-->
+
+<div id="main" class="top_bg clearfix">
+<div id="top_left">
+<ul><li><a href="company/index.html"><img src="cmn/img/left_btn01_off.jpg" width="250" height="100" alt="ラサ商事について" /></a></li>
+<li><a href="products/index.html"><img src="cmn/img/left_btn02_off.jpg" width="250" height="100" alt="製品情報" /></a></li>
+<li><a href="ir/index.html"><img src="cmn/img/left_btn03_off.jpg" width="250" height="100" alt="IR情報" /></a></li>
+<li><a href="recruit/index.html"><img src="cmn/img/left_btn04_off.jpg" width="250" height="101" alt="採用情報" /></a></li>
+</ul>
+
+
+<div id="left_pickup">
+  <img src="cmn/img/left_pickup_title.gif" width="238" height="38" class="title" alt="ピックアップコンテンツ" />
+  <div class="pickup_box">
+  <ul>
+  <li><a href="ir/individual01.html">ラサ商事ってどんな会社</a></li>
+  <li><a href="ir/individual04.html">M&amp;A戦略と実績</a></li>
+  <li><a href="company/yurai.html">ラサ商事の社名の由来</a></li>
+  </ul>
+  </div><!--end pickup_box-->
+  <div class="pickup_box koukoku">
+  <ul>
+  <li><a href="ir/announce/index.html">電子公告</a></li>
+  </ul>
+  </div><!--end pickup_box koukoku-->
+</div><!--end left_pickup-->
+
+
+<div class="txt_center link_alpha mt10"><a href="http://xn--zck0cra1cf9c3c.jp/" target="_blank"><img src="cmn/img/main_sub04.jpg" width="238" height="60" alt="スラリーポンプ 製品サイト｜ラサ商事" /></a></div>
+
+<div class="txt_center link_alpha mt10"><a href="http://izumi-co.biz/" target="_blank"><img src="cmn/img/main_sub03.jpg" width="238" height="60" alt="イズミ株式会社" /></a></div>
+
+<div class="txt_center link_alpha mt10"><a href="http://www.asahitech.co.jp/index.html" target="_blank"><img src="cmn/img/main_sub05.jpg" width="238" height="60" alt="旭テック株式会社" /></a></div>
+
+<div class="txt_center link_alpha mt10"><a href="http://rasa-realestate.co.jp/" target="_blank"><img src="cmn/img/main_sub06.jpg" width="238" height="60" alt="ラサ・リアルエステート株式会社" /></a></div>
+
+</div><!--end top_left-->
+
+<div id="top_contents">
+<div class="clearfix">
+<div class="newsbox mr20">
+<div class="newsbox_head"><span class="title">ニュースリリース</span><span class="backnumber"><a href="release/index.html">一覧</a></span><span class="rss"><a href="rss/top.xml">RSS</a></span></div>
+<dl class="newsbox_in">
+<dt>2017/07/28</dt>
+<dd class="release"><a href="pdf/ir/library02/20170728.pdf" target="_blank">平成30年3月期 第1四半期決算短信〔日本基準〕（連結）<img src="cmn/img/icon_pdf.gif" class="icon_img" /></a></dd>
+<dt>2017/07/14</dt>
+<dd class="release"><a href="pdf/release/20170714.pdf" target="_blank">人事異動に関するお知らせ</a><img src="cmn/img/icon_pdf.gif" class="icon_img" /></a></dd>
+<dt>2017/06/29</dt>
+<dd class="news"><a href="pdf/ir/stock06/115rinji.pdf" target="_blank">第115期定時株主総会 議決権行使の結果（臨時報告書）<img src="cmn/img/icon_pdf.gif" class="icon_img" /></a>を掲載しました。
+<dd class="news"><a href="pdf/ir/stock06/115ketsugi.pdf" target="_blank">第115期定時株主総会 決議ご通知<img src="cmn/img/icon_pdf.gif" class="icon_img" /></a>を掲載しました。</dd>
+<dd class="news"><a href="ir/library04.html">IRライブラリーに第115期報告書を掲載しました。</a></dd>
+<dt>2017/06/20</dt>
+<dd class="release"><a href="pdf/release/20170620.pdf" target="_blank">第115期定時株主総会招集ご通知の一部修正について</a><img src="cmn/img/icon_pdf.gif" class="icon_img" /></a></dd>
+<dt>2017/06/16</dt>
+<dd class="release"><a href="pdf/release/20170616.pdf" target="_blank">人事異動に関するお知らせ</a><img src="cmn/img/icon_pdf.gif" class="icon_img" /></a></dd>
+<!--<dt>2017/06/05</dt>
+<dd class="news"><a href="pdf/ir/stock06/115shoshu.pdf" target="_blank">第115期定時株主総会招集ご通知<img src="cmn/img/icon_pdf.gif" class="icon_img" /></a>および<a href="pdf/ir/stock06/115web.pdf" target="_blank">ＷＥＢ開示事項資料<img src="cmn/img/icon_pdf.gif" class="icon_img" /></a>を掲載しました。</dd>
+<dt>2017/05/29</dt>
+<dd class="news"><a href="ir/event03.html">IRイベントに2017年3月期 決算説明会資料を掲載しました。</a></dd>
+<dt>2017/05/19</dt>
+<dd class="release"><a href="pdf/release/20170519_01.pdf" target="_blank">監査等委員会設置会社への移行および役員人事に関するお知らせ</a><img src="cmn/img/icon_pdf.gif" class="icon_img" /></a></dd>
+<dd class="release"><a href="pdf/release/20170519_02.pdf" target="_blank">定款の（一部）変更に関するお知らせ</a><img src="cmn/img/icon_pdf.gif" class="icon_img" /></a></dd>
+<dt>2017/05/11</dt>
+<dd class="release"><a href="pdf/ir/library02/20170511.pdf" target="_blank">平成29年3月期 決算短信〔日本基準〕（連結）<img src="cmn/img/icon_pdf.gif" class="icon_img" /></a></dd>
+<dt>2017/04/26</dt>
+<dd class="release"><a href="pdf/release/20170426_01.pdf" target="_blank">業績予想及び配当予想の修正（増配）に関するお知らせ</a><img src="cmn/img/icon_pdf.gif" class="icon_img" /></a></dd>
+<dd class="release"><a href="pdf/release/20170426_02.pdf" target="_blank">人事異動に関するお知らせ</a><img src="cmn/img/icon_pdf.gif" class="icon_img" /></a></dd>
+<dt>2017/04/14</dt>
+<dd class="release"><a href="pdf/release/20170414.pdf" target="_blank">自己株券買付状況報告書</a><img src="cmn/img/icon_pdf.gif" class="icon_img" /></a></dd>
+<dt>2017/03/22</dt>
+<dd class="release"><a href="pdf/release/20170322.pdf" target="_blank">自己株式立会外買付取引（ToSTNeT-3）による自己株式の取得結果に関するお知らせ</a><img src="cmn/img/icon_pdf.gif" class="icon_img" /></a></dd>
+<dt>2017/03/21</dt>
+<dd class="release"><a href="pdf/release/20170321.pdf" target="_blank">自己株式立会外買付取引（ToSTNeT-3）による自己株式の買付けに関するお知らせ</a><img src="cmn/img/icon_pdf.gif" class="icon_img" /></a></dd>
+<dt>2017/03/21</dt>
+<dd class="news"><a href="ir/event04.html">IRイベントに会社説明会資料を掲載しました。</a></dd>
+<dt>2017/03/17</dt>
+<dd class="release"><a href="pdf/release/20170317.pdf" target="_blank">自己株式取得に係る事項の決定に関するお知らせ</a><img src="cmn/img/icon_pdf.gif" class="icon_img" /></a></dd>
+<dt>2017/03/15</dt>
+<dd class="news"><a href="ir/event04.html">IRイベントに会社説明会資料を掲載しました。</a></dd>
+<dt>2017/02/24</dt>
+<dd class="release"><a href="pdf/release/20170224_01.pdf" target="_blank">組織変更および人事異動に関するお知らせ</a><img src="cmn/img/icon_pdf.gif" class="icon_img" /></a></dd>
+<dd class="release"><a href="pdf/release/20170224_02.pdf" target="_blank">シンガポール支店開設に関するお知らせ</a><img src="cmn/img/icon_pdf.gif" class="icon_img" /></a></dd>
+<dt>2017/01/31</dt>
+<dd class="release"><a href="pdf/release/20170131.pdf" target="_blank">業績予想及び配当予想の修正（増配）に関するお知らせ</a><img src="cmn/img/icon_pdf.gif" class="icon_img" /></a></dd>
+<dd class="release"><a href="pdf/ir/library02/20170131.pdf" target="_blank">平成29年3月期 第3四半期決算短信〔日本基準〕（連結）<img src="cmn/img/icon_pdf.gif" class="icon_img" /></a></dd>-->
+
+<!--<dt>2016/12/14</dt>
+<dd class="news"><a href="release/news20161214.html">年末年始休業のお知らせ</a></dd>-->
+
+<!--<dt>2016/12/07</dt>
+<dd class="news"><a href="ir/library04.html">IRライブラリーに第115期上半期報告書を掲載しました。</a></dd>
+<dt>2016/11/29</dt>
+<dd class="news"><a href="ir/event03.html">IRイベントに2017年3月期第2四半期 決算説明会資料を掲載しました。</a></dd>
+<dt>2016/10/31</dt>
+<dd class="release"><a href="pdf/release/20161031.pdf" target="_blank">業績予想の修正に関するお知らせ</a><img src="cmn/img/icon_pdf.gif" class="icon_img" /></a></dd>
+<dd class="release"><a href="pdf/ir/library02/20161031.pdf" target="_blank">平成29年3月期 第2四半期決算短信〔日本基準〕（連結）<img src="cmn/img/icon_pdf.gif" class="icon_img" /></a></dd>
+<dt>2016/10/26</dt>
+<dd class="release"><a href="pdf/release/20161026.pdf" target="_blank">業績予想の修正に関するお知らせ</a><img src="cmn/img/icon_pdf.gif" class="icon_img" /></a></dd>
+<dt>2016/08/10</dt>
+<dd class="release"><a href="pdf/release/20160810.pdf" target="_blank">連結子会社の増資に関するお知らせ</a><img src="cmn/img/icon_pdf.gif" class="icon_img" /></a></dd>
+
+<dd class="release"><a href="pdf/release/20160729_01.pdf" target="_blank">(訂正・数値データ訂正)「平成28年3月期 決算短信〔日本基準〕(連結)」の一部訂正について</a><img src="cmn/img/icon_pdf.gif" class="icon_img" /></a></dd>
+<dd class="release"><a href="pdf/release/20160729_02.pdf" target="_blank">業績連動型株式報酬制度の詳細決定に関するお知らせ</a><img src="cmn/img/icon_pdf.gif" class="icon_img" /></a></dd>-->
+
+<!--<dt>2016/05/20</dt>
+<dd class="release"><a href="pdf/release/20160520_04.pdf" target="_blank">代表取締役の異動（退任）ならびに役員人事および部店長級人事に関するお知らせ</a>
+<img src="cmn/img/icon_pdf.gif" class="icon_img" /></a></dd>
+<dd class="release"><a href="pdf/release/20160520_01.pdf" target="_blank">新中期経営計画策定のお知らせ<img src="cmn/img/icon_pdf.gif" class="icon_img" /></a></dd>
+<dd class="release"><a href="pdf/release/20160520_02.pdf" target="_blank">配当方針変更のお知らせ<img src="cmn/img/icon_pdf.gif" class="icon_img" /></a></dd>
+<dd class="release"><a href="pdf/release/20160520_03.pdf" target="_blank">当社取締役に対する業績連動型株式報酬制度の導入に関するお知らせ<img src="cmn/img/icon_pdf.gif" class="icon_img" /></a></dd>-->
+
+<!--<dt>2014/06/30</dt>
+<dd class="news"><a href="ir/stock06.html">第112期定時株主総会 議決権行使の結果（臨時報告書）を掲載しました。</a></dd>-->
+
+<!--<dt>2014/01/17</dt>
+<dd class="news"><a href="ir/announce/index.html">電子公告を掲載しました。</a></dd>-->
+
+
+</dl>
+</div><!--end newsbox-->
+
+<div class="newsbox news">
+<div class="newsbox_head">
+<span class="title">事業トピックス</span><span class="backnumber"><a href="topics/index.html">一覧</a></span><span class="rss"><a href="rss/topics.xml">RSS</a></span></div>
+<dl class="newsbox_in">
+<dt>2016/08/10</dt>
+<dd>2016年8月10日付日刊工業新聞に子会社旭テックに関する記事が掲載されました。<br>
+<a href="pdf/topics/160810.pdf" target="_blank">旭テック、プラント向け特殊配管の新工場－来春にも千葉・袖ケ浦で稼働</a><br />
+
+（記事の著作権は日刊工業新聞社に帰属します。当記事は転載承認を受けております。）
+</dd>
+<dt>2016/05/20</dt>
+<dd><a href="pdf/topics/160520.pdf" target="_blank">新型多目的モバイルポンプユニット「BETSY」の発売を開始いたします。
+</a></dd>
+<!--<dt>2014/12/15</dt>
+<dd>旭テック株式会社の子会社化に伴い、新セグメントとして同社主力事業の『プラント・設備工事関連事業』を追加いたします。<br />
+<a href="http://www.asahitech.co.jp/" target="_blank">http://www.asahitech.co.jp/</a></dd>-->
+<dt>2014/02/06</dt>
+<dd>ラサ商事　ポンプ製品サイト「スラリーポンプ.jp」を開設しました<br />
+  <a href="http://スラリーポンプ.jp" target="_blank">http://スラリーポンプ.jp</a></dd>
+<!--<dt>2013/03/01</dt>
+<dd><a href="products/pump07_solution.html?ch1">プツマイスターポンプ製品情報に産業廃棄物処理施設向け搬送ソリューション</a>、<a href="products/pump07_solution.html?ch2">バイオマス発電施設向け搬送ソリューション</a>を追加しました。</dd>
+-->
+<!--<dt>2013/02/13</dt>
+<dd>製品情報に<a href="products/construction05.html">酸素・ガソリン溶断トーチ</a>を追加しました。</dd>-->
+</dl>
+</div><!--end newsbox-->
+</div><!--end clearfix-->
+
+
+<img src="cmn/img/main_products_title.jpg" width="750" height="61" class="clear mt20" alt="製品情報" />
+<div id="main_products_box">
+<ul>
+<li class="link_alpha"><a href="products/resources01.html"><img src="cmn/img/main_products_01.jpg" width="114" height="97" alt="資源・金属素材" /></a></li>
+<li class="link_alpha"><a href="products/pump01.html"><img src="cmn/img/main_products_02.jpg" width="115" height="97" alt="ポンプ" /></a></li>
+<li class="link_alpha"><a href="products/construction01.html"><img src="cmn/img/main_products_05.jpg" width="115" height="97" alt="建設・土木機器" /></a></li>
+<li class="link_alpha"><a href="products/environment01.html"><img src="cmn/img/main_products_04.jpg" width="114" height="97" alt="環境プラント設備" /></a></li>
+<li class="link_alpha"><a href="http://www.asahitech.co.jp/index.html" target="_blank"><img src="cmn/img/main_products_07.jpg" width="114" height="97" alt="プラント・設備工事関連" /></a></li>
+<li class="link_alpha last-child"><a href="izumi.html" target="_blank"><img src="cmn/img/main_products_06.jpg" width="114" height="97" alt="合成樹脂・化成品関連" /></a></li>
+</ul>
+</div>
+
+
+<ul id="main_products_second" class="clearfix">
+<li class="link_alpha"><a href="products/resources01.html"><img src="cmn/img/main_products07.jpg" width="244" height="219" alt="ジルコンサンド" /></a></li>
+<li class="link_alpha"><a href="products/pump03.html"><img src="cmn/img/main_products08.jpg" width="244" height="219" alt="ワーマンポンプ" /></a></li>
+<li class="last-child link_alpha"><a href="products/environment02.html"><img src="cmn/img/main_products09.jpg" width="244" height="219" alt="ラサ・システム" /></a></li>
+</ul>
+
+</div><!--end top_contents-->
+</div><!--end main-->
+
+<div id="footer">
+<div id="footer_inner">
+	<ul id="footer_navi">
+	<li><a href="term/index.html">サイトのご利用について</a></li>
+	<li><a href="privacy/index.html">個人情報保護方針</a></li>
+	<li><a href="disclaimer/index.html">免責条項</a></li>
+	</ul>
+<div id="copyrights">Copyright(c) RASA CORPORATION All rights reserved. </div>
+</div><!--end footer_inner-->
+</div><!--end footer-->
+
+
+</body>
+</html>

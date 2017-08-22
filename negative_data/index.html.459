@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="format-detection" content="telephone=no">
+<title>大戸屋 ちゃんとごはん。</title>
+<meta name="viewport" content="width=1200,user-scalable=yes">
+<meta name="Description" content="素材のよさと店内調理にこだわる、定食の「大戸屋ごはん処」を展開。大戸屋のお手本は、「にっぽんの食卓ごはん」。一品一品ご注文をいただいてから、ちゃんと、お店でこしらえることを大切にしています。">
+<meta name="Keywords" content="定食,弁当,おおとや,デザート,和食,ootoya">
+
+<meta property="og:locale" content="ja_JP">
+<meta property="og:image" content="http://www.ootoya.com/common/images/fb.jpg">
+<meta property="og:description" content="素材のよさと店内調理にこだわる、定食の「大戸屋ごはん処」を展開。大戸屋のお手本は、「にっぽんの食卓ごはん」。一品一品ご注文をいただいてから、ちゃんと、お店でこしらえることを大切にしています。">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="大戸屋 ちゃんとごはん。">
+<meta property="og:url" content="http://www.ootoya.com/">
+<meta property="og:title" content="">
+
+<link rel="alternate" media="only screen and (max-width: 640px)" href="https://www.ootoya.com/sp/"/>
+<link rel="stylesheet" href="common/css/normalize.css">
+<link rel="stylesheet" href="common/css/colorbox.css">
+<link rel="stylesheet" href="common/css/common.css">
+<link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+<div id="loading">
+	<div id="line">
+		<span class="expand"></span>
+	</div>
+	<img src="common/images/loading.png" alt="大戸屋 ちゃんとごはん">
+</div>
+<div id="container">
+<div id="fb-root"></div>
+	<header>
+		<div class="wrap">
+			<div class="inner">
+				<h1><a href="/"><img src="/common/images/logo.svg" alt="大戸屋 ちゃんとごはん"></a></h1>
+				<div class="navi_area">
+					<nav>
+						<ul>
+							<li class="trigger">
+								<div class="main_nav text"><a href="/menu/"><img src="/common/images/nav_01.svg" alt="メニューのご案内"></a></div>
+								<div class="sec_navi_area food">
+									<div class="btn_close"><a href="javascript:void(0)" onclick="return false;"><img src="/common/images/btn_menu_close_off.png" alt="close"></a></div>
+									<div class="inner">
+										<table class="food_menu">
+											<tr>
+												<th class="ttl"><img src="/common/images/food_ttl.png" alt=""></th>
+												<td><a href="/menu/teisyoku/"><img src="/common/images/food_01_off.png" alt="定食"></a></td>
+												<td><a href="/menu/okosama/"><img src="/common/images/food_02_off.png" alt="お子様メニュー"></a></td>
+											</tr>
+											<tr>
+												<td><a href="/menu/dessert/"><img src="/common/images/food_03_off.png" alt="デザート"></a></td>
+												<td><a href="/menu/side/"><img src="/common/images/food_04_off.png" alt="サイドメニュー"></a></td>
+												<td><a href="/menu/drink/"><img src="/common/images/food_05_off.png" alt="ドリンク・アルコール"></a></td>
+											</tr>
+										</table>
+										<ul class="other_item">
+											<li class="btn"><a href="/menu/limited/" class="fontRyo"><img src="/common/images/food_limited.jpg" alt=""><div><span class="icon-arrow"></span><span>期間限定メニュー</span></div></a></li>
+											<li class="btn"><a href="/menu/gentei/" class="fontRyo"><img src="/common/images/food_store.jpg" alt=""><div><span class="icon-arrow"></span><span>店舗限定メニュー</span></div></a></li>
+											<li class="btn"><a href="/menu/season/" class="fontRyo"><img src="/common/images/food_dessert.jpg" alt=""><div><span class="icon-arrow"></span><span>季節のデザート</span></div></a></li>
+											<li class="btn"><a href="/menu/bento/" class="fontRyo"><img src="/common/images/food_lunchbox.jpg" alt=""><div><span class="icon-arrow"></span><span>お弁当のご案内</span></div></a></li>
+										</ul>
+										<ul class="sub_menu">
+											<li>
+												<div><a href="/allergy/pdf/allergy.pdf" target="_blank"><p class="fontRyo">アレルギー・塩分一覧</p></a></div>
+											</li>
+											<li>
+												<div><a href="/allergy/"><p class="fontRyo">アレルギーで検索</p></a></div>
+											</li>
+											<li>
+												<div><a href="/common/pdf/producing_place.pdf" target="_blank"><p class="fontRyo">主要原産地情報</p></a></div>
+											</li>
+											<li>
+												<div><a href="/vegetable/"><p class="fontRyo">野菜てちょう</p></a></div>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</li>
+							<li class="trigger">
+								<div class="main_nav text"><a href="/store/"><img src="/common/images/nav_02.svg" alt="店舗を探す"></a></div>
+								<div class="sec_navi_area search">
+									<div class="btn_close"><a href="javascript:void(0)" onclick="return false;"><img src="/common/images/btn_menu_close_off.png" alt="close"></a></div>
+									<div class="inner">
+										<div class="seach_area">
+											<form name="sf" action="/store/list/search.php">
+											<dl class="search_box">
+												<dt><img src="/common/images/map_search_ttl.png" alt="キーワードで探す"></dt>
+												<dd><input type="text" name="kw" placeholder="地名・駅名など"></dd>
+											</dl>
+											<table class="search_condition">
+												<thead>
+													<tr>
+														<th class="fontRyo" colspan="4">条件を指定</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td>
+															<input type="checkbox" id="item_01" name="parking" value="1"><label for="item_01">駐車場</label>
+														</td>
+														<td>
+															<input type="checkbox" id="item_02" name="drinkbar" value="1"><label for="item_02">ドリンクバー</label>
+														</td>
+														<td>
+															<input type="checkbox" id="item_03" name="espresso" value="1"><label for="item_03">エスプレッソ</label>
+														</td>
+														<td>
+															<input type="checkbox" id="item_04" name="morning" value="1"><label for="item_04">朝食</label>
+														</td>
+													</tr>
+													<tr>
+														<td>
+															<input type="checkbox" id="item_05" name="after22" value="1"><label for="item_05">22時以降営業</label>
+														</td>
+														<td>
+															<input type="checkbox" id="item_06" name="nosmoke" value="1"><label for="item_06">禁煙</label>
+														</td>
+														<td></td>
+														<td></td>
+													</tr>
+												</tbody>
+											</table>
+												<div class="search_btn" id="search_btn"><div class="search_btn_in"><a href="javascript:document.sf.submit();"><img src="/common/images/btn_search_dis.png" alt="検索する"></a></div></div>
+											</form>
+										</div>
+										<div class="map_area">
+											<div class="icon_map"><a href="/store/"><img src="/common/images/icon_map_off.png" alt="地図から探す"></a></div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li><div class="main_nav text"><a href="/about/"><img src="/common/images/nav_03.png" alt="あばうと大戸屋"></a></div></li>
+							<li class="trigger">
+								<div class="main_nav btn"><a href="javascript:void(0)" onclick="return false;"><img src="/common/images/btn_menu_open.png" alt=""></a></div>
+								<div class="sec_navi_area other">
+									<div class="btn_close"><a href="javascript:void(0)" onclick="return false;"><img src="/common/images/btn_menu_close_off.png" alt="close"></a></div>
+									<div class="inner">
+										<ul class="bn_area">
+											<li><a href="http://shokuiku.ootoya.com/" class="fontRyo" target="_blank"><img src="/common/images/btn_seminar.jpg" alt=""><div><span class="icon-arrow"></span><span>食育セミナー</span></div></a></li>
+											<li><a href="http://ootoya-job.jp/" class="fontRyo" target="_blank"><img src="/common/images/btn_parttime.jpg" alt=""><div><span class="icon-arrow"></span><span>パート・アルバイト募集</span></div></a></li>
+											<li><a href="https://www.ootoya.com/recruit/" class="fontRyo" target="_blank"><img src="/common/images/btn_fulltime.jpg" alt=""><div><span class="icon-arrow"></span><span>新卒・中途 社員募集</span></div></a></li>
+										</ul>
+										<table class="other_menu">
+											<tr>
+												<td class="fontRyo"><a href="/news/"><span class="icon-arrow"></span><span>キャンペーン・新着情報</span></a></td>
+												<!--td><a href="/mailmagazine/"><span class="icon-arrow"></span><span>メールマガジン登録</span></a></td-->
+												<td class="fontRyo"><a href="/contact/"><span class="icon-arrow"></span><span>お問い合わせ</span></a></td>
+												<td class="fontRyo"><a href="/fc_top.html" target="_blank"><span class="icon-arrow"></span><span>FC加盟店募集</span></a></td>
+											</tr>
+											<tr>
+												<td class="fontRyo"><a href="/fc_bukken.html" target="_blank"><span class="icon-arrow"></span><span>物件募集</span></a></td>
+												<td class="fontRyo"><a href="http://ootoya.jp/" target="_blank"><span class="icon-arrow"></span><span>会社情報</span></a></td>
+												<td class="gurunavi">
+													<dl>
+														<dt><img src="/common/images/h_gurunavi.png" alt="GURUNAVI"></dt>
+														<dd><a href="https://gurunavi.com/en/japanfoodie/2017/03/homestyle-japanese-dishes-ootoya.html" target="_blank"><span>English</span></a></dd>
+														<dd><a href="https://gurunavi.com/zh-hans/japanfoodie/2017/03/homestyle-japanese-dishes-ootoya.html" target="_blank"><span>簡体中</span></a></dd>
+														<dd><a href="https://gurunavi.com/ko/japanfoodie/2017/03/homestyle-japanese-dishes-ootoya.html" target="_blank"><span>한국어</span></a></dd>
+														<dd><a href="https://gurunavi.com/zh-hant/japanfoodie/2017/03/homestyle-japanese-dishes-ootoya.html" target="_blank"><span>繁體中</span></a></dd>
+													</dl>
+												</td>
+											</tr>
+										</table>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
+
+  <div class="main fade" id="main_area">
+    <div class="border_01"></div>
+    <ul id="bxslider">
+
+	<li class="slide_01">
+		<div class="slide_img" style="background-image:url(/top/uploads/b3865fbc3551485070d72da95a85d17d2791ba93.jpg);">&nbsp;</div>
+			<div class="caption">
+				<div class="text_area fontRyo">
+				<p class="limited">期間限定</p>
+				<p class="ttl">手作りタルタルソースの<br>広島産かきフライ定食</p>
+				<p class="text">濃厚な海のミルクが味わえる。広島産のかきを使用した揚げたてかきフライ！</p>
+			</div>
+			<a href="../menu/detail/002546.html" class="fontRyo"><span class="icon-arrow"></span><span>詳細を見る</span></a>
+		</div>
+	</li>
+
+
+	<li class="slide_02">
+		<div class="slide_img" style="background-image:url(/top/uploads/170616_osusume1_pc.jpg);">&nbsp;</div>
+			<div class="caption">
+				<div class="text_area fontRyo">
+				<p class="limited">期間限定</p>
+				<p class="ttl">長崎県産<br>さっくり鯵フライ定食</p>
+				<p class="text">揚げたて！サクッ！ボリューム満点の鯵フライ定食。</p>
+			</div>
+			<a href="../menu/detail/002530.html" class="fontRyo"><span class="icon-arrow"></span><span>詳細を見る</span></a>
+		</div>
+	</li>
+
+
+	<li class="slide_03">
+		<div class="slide_img" style="background-image:url(/top/uploads/170616_osusume2_pc.jpg);">&nbsp;</div>
+			<div class="caption">
+				<div class="text_area fontRyo">
+				<p class="limited">期間限定</p>
+				<p class="ttl">塩葱だれの醤油麹漬け<br>炭火焼きチキン定食</p>
+				<p class="text">特製の塩葱だれが食欲そそる一品！
+レモンをかけるとさっぱりした味わいに。</p>
+			</div>
+			<a href="../menu/detail/002531.html" class="fontRyo"><span class="icon-arrow"></span><span>詳細を見る</span></a>
+		</div>
+	</li>
+
+
+	<li class="slide_04">
+		<div class="slide_img" style="background-image:url(/top/uploads/170616_dessert_pc.jpg);">&nbsp;</div>
+			<div class="caption">
+				<div class="text_area fontRyo">
+				<p class="limited">季節のデザート</p>
+				<p class="ttl">いちじくのパフェ</p>
+				<p class="text">フレッシュいちじくを贅沢に使用した、旬のフルーツパフェ</p>
+			</div>
+			<a href="../menu/detail/002532.html" class="fontRyo"><span class="icon-arrow"></span><span>詳細を見る</span></a>
+		</div>
+	</li>
+
+
+	<li class="slide_05">
+		<div class="slide_img" style="background-image:url(/top/uploads/OOTOYA_0508FINAL_yoko_t3.jpg);">&nbsp;</div>
+			<div class="caption">
+				<div class="text_area fontRyo">
+				<p class="limited">大戸屋新CM</p>
+				<p class="ttl">手作りだから、生きている。</p>
+				<p class="text"></p>
+			</div>
+			<a href="https://www.ootoya.com/about/movie/" class="fontRyo"><span class="icon-arrow"></span><span>詳細を見る</span></a>
+		</div>
+	</li>
+
+
+	<li class="slide_06">
+		<div class="slide_img" style="background-image:url(/top/uploads/f9421bbaedf23f2e947cc2bb3b86377ead7d8653.jpg);">&nbsp;</div>
+			<div class="caption">
+				<div class="text_area fontRyo">
+				<p class="limited"></p>
+				<p class="ttl">ネットで注文　大戸屋のお弁当サービス Start!</p>
+				<p class="text">お弁当のご注文が簡単！便利になりました！！</p>
+			</div>
+			<a href="https://net-order.ootoya.com/" class="fontRyo"><span class="icon-arrow"></span><span>詳細を見る</span></a>
+		</div>
+	</li>
+
+
+    </ul>
+
+    <div id="bx-pager">
+
+    <a data-slide-index="0" href=""><img src="top/uploads/b3865fbc3551485070d72da95a85d17d2791ba93.jpg" alt=""></a>
+    
+
+    <a data-slide-index="1" href=""><img src="top/uploads/170616_osusume1_pc.jpg" alt=""></a>
+    
+
+    <a data-slide-index="2" href=""><img src="top/uploads/170616_osusume2_pc.jpg" alt=""></a>
+    
+
+    <a data-slide-index="3" href=""><img src="top/uploads/170616_dessert_pc.jpg" alt=""></a>
+    
+
+    <a data-slide-index="4" href=""><img src="top/uploads/OOTOYA_0508FINAL_yoko_t3.jpg" alt=""></a>
+    
+
+    <a data-slide-index="5" href=""><img src="top/uploads/f9421bbaedf23f2e947cc2bb3b86377ead7d8653.jpg" alt=""></a>
+    
+
+    </div>
+ </mt:Entries>
+
+    <div class="border_02"></div>
+  </div>
+  <div class="contents">
+    <section class="news fade">
+      <div class="ttl_area">
+        <h2 class="fontRyo">キャンペーン・新着情報</h2>
+		<div class="btn"><a href="news/index.html"><span class="icon-arrow"></span><span>一覧へ</span></a></div>
+      </div>
+      <ul>
+      
+        <li>
+          <dl>
+            <dt>新店情報</dt>
+          <dd><a href="https://www.ootoya.com/store/detail/000113.html"><span class="date">2017年07月21日</span><span>イトーヨーカドー錦町店　7月21日(金)　リニューアルオープン！</span></a></dd>
+          </dl>
+        </li>
+    
+        <li>
+          <dl>
+            <dt>新店情報</dt>
+          <dd><a href="https://www.ootoya.com/store/detail/002268.html"><span class="date">2017年07月18日</span><span>広小路柳橋店　2017年7月18日(火)　グランドオープン！</span></a></dd>
+          </dl>
+        </li>
+    
+        <li>
+          <dl>
+            <dt>その他</dt>
+          <dd><a href="http://shokuiku.ootoya.com/2017hyogo" target="_blank"><span class="date">2017年07月15日</span><span>地域特別食育セミナー開催のご案内　7/22(土)神戸国際会館 14時～</span></a></dd>
+          </dl>
+        </li>
+    
+        <li>
+          <dl>
+            <dt>新店情報</dt>
+          <dd><a href="https://www.ootoya.com/store/detail/000253.html"><span class="date">2017年06月23日</span><span>溝の口店　2017年6月23日(金)　グランドオープン！</span></a></dd>
+          </dl>
+        </li>
+    
+        <li>
+          <dl>
+            <dt>商品情報</dt>
+          <dd><a href="menu/detail/002530.html"><span class="date">2017年06月16日</span><span>【期間限定】長崎県産　さっくり鯵フライ定食　販売開始</span></a></dd>
+          </dl>
+        </li>
+    
+      </ul>
+    </section>
+	<div class="banner_area fade">
+		<ul>
+			<li class="big"><a href="https://www.youtube.com/embed/Q_F6pk-RluE?rel=0&wmode=transparent" class="movie"><img src="images/bn_cm_df.png" alt="テレビCM" class="df"><img src="images/bn_cm_ov.png" alt="テレビCM" class="ov"></a></li>
+            <li class="big"><a href="https://net-order.ootoya.com/" target="_blank"><img src="images/bn_obento_df.png" alt="大戸屋のお弁当" class="df"><img src="images/bn_obento_ov.png" alt="大戸屋のお弁当" class="ov"></a></li>
+			<!-- li class="big"><a href="news/detail/20161111.html"><img src="images/bn_obento_df.png" alt="大戸屋のお弁当" class="df"><img src="images/bn_obento_ov.png" alt="大戸屋のお弁当" class="ov"></a></li -->
+			<li class="small">
+				<div><a href="http://shokuiku.ootoya.com/" target="_blank"><img src="images/bn_seminar_df.png" alt="食育セミナー" class="df"><img src="images/bn_seminar_ov.png" alt="食育セミナー" class="ov"></a></div>
+				<div><a href="news/detail/20130902.html"><img src="images/bn_ponta_df.png" alt="Pontaカード" class="df"><img src="images/bn_ponta_ov.png" alt="Pontaカード" class="ov"></a></div>
+			</li>
+		</ul>
+	</div>
+    <section class="recruit fade">
+      <h2 class="fontRyo">大戸屋で働こう</h2>
+      <ul class="person">
+        <li><a href="http://ootoya-job.jp/" target="_blank"><img src="images/part_time_off.png" alt="パート・アルバイト募集中！"></a></li>
+        <li><a href="https://www.ootoya.com/recruit/" target="_blank"><img src="images/full_time_off.png" alt="新卒・中途社員募集"></a></li>
+      </ul>
+      <ul class="store">
+        <li>
+          <a href="http://www.ootoya.com/fc_top.html" target="_blank">
+            <div class="fc">
+              <p class="ttl fontRyo"><span class="icon-arrow"></span><span>FC加盟店募集</span></p>
+              <p>大戸屋はともに歩んでいただける「パートナー」を求めています。</p>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="http://www.ootoya.com/fc_bukken.html" target="_blank">
+            <div class="property">
+              <p class="ttl fontRyo"><span class="icon-arrow"></span><span>店舗物件募集</span></p>
+              <p>大戸屋はともに歩んでいただける「パートナー」を求めています。</p>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </section>
+    <div class="sns fade">
+      <ul>
+        <li class="other">
+          <!-- div class="mailmaga"><a href="mailmagazine/index.html"><img src="images/btn_mailmaga.png" alt="メールマガジン登録 大戸屋のメールマガジンに登録すると 役立つ食育情報を毎月「11日」にお届け！"></a></div -->
+          <div class="instagram"><a href="https://www.instagram.com/ootoya.jp/" target="_blank"><img src="images/btn_instagram.png" alt="大戸屋公式インスタグラム"></a></div>
+          <div class="line"><a href="line/index.html"><img src="images/btn_line.png" alt="ライン＠の登録方法"></a></div>
+        </li>
+        <li id="facebook">
+          <div class="fb-page" data-href="https://www.facebook.com/ootoya/" data-tabs="timeline" data-width="500" data-height="300" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/ootoya/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/ootoya/">大戸屋　Ootoya</a></blockquote></div>
+        </li>
+      </ul>
+    </div>
+  </div>
+	<footer>
+		<div class="pagetop"><a href="#container"><img src="/common/images/page_top.png" alt="page top"></a></div>
+		<div class="wrap">
+			<div class="info">
+				<div class="logo"><img src="/common/images/f_logo.png" alt="ちゃんとごはん 大戸屋"></div>
+				<div class="contact"><a href="/contact/"><img src="/common/images/f_contact.png" alt="ご意見・お問い合わせ"></a></div>
+				<div class="facebook"><div class="fb-like" data-href="http://www.ootoya.com/" data-layout="button" data-action="like" data-show-faces="false" data-share="true"></div></div>
+				<div class="smt_change"><a href="/sp/"><img src="/common/images/f_smt.png" alt="スマートフォンサイトへ"></a></div>
+			</div>
+			<div class="navi">
+				<ul>
+					<li><span class="icon-arrow"></span><span><a href="/">トップ</a></span></li>
+					<li><span class="icon-arrow"></span><span><a href="/menu/">メニューのご案内</a></span></li>
+					<li><span class="icon-arrow"></span><span><a href="/store/">地図から店舗を探す</a></span></li>
+					<li><span class="icon-arrow"></span><span><a href="/about/">あばうと大戸屋</a></span></li>
+					<li><span class="icon-arrow"></span><span><a href="/news/">キャンペーン・新着情報</a></span></li>
+					<li><span class="icon-arrow"></span><span><a href="http://shokuiku.ootoya.com/" target="_blank">食育セミナー</a></span></li>
+				</ul>
+				<ul>
+					<li><span class="icon-arrow"></span><span><a href="/fc_top.html" target="_blank">FC加盟店募集</a></span></li>
+					<li><span class="icon-arrow"></span><span><a href="/fc_bukken.html" target="_blank">物件募集</a></span></li>
+					<li><span class="icon-arrow"></span><span><a href="/allergy/pdf/allergy.pdf" target="_blank">アレルギー特定原材料情報・<br>塩分値一覧</a></span></li>
+					<li><span class="icon-arrow"></span><span><a href="/privacy/">プライバシーポリシー</a></span></li>
+					<li><span class="icon-arrow"></span><span><a href="http://ootoya.jp/" target="_blank">会社情報</a></span></li>
+				</ul>
+			</div>
+			<div class="sns">
+				<ul>
+					<li><a href="https://www.facebook.com/ootoya/" target="_blank"><img src="/common/images/f_facebook.png" alt="大戸屋公式Facebook"></a></li>
+					<li><a href="https://www.instagram.com/ootoya.jp/" target="_blank"><img src="/common/images/f_instagram.png" alt="大戸屋公式Instagram"></a></li>
+					<li class="gurunavi">
+						<dl>
+							<dt><img src="/common/images/gurunavi.png" alt="GURUNAVI"></dt>
+							<dd><a href="https://gurunavi.com/en/japanfoodie/2017/03/homestyle-japanese-dishes-ootoya.html" target="_blank"><span>English</span></a></dd>
+							<dd><a href="https://gurunavi.com/zh-hans/japanfoodie/2017/03/homestyle-japanese-dishes-ootoya.html" target="_blank"><span>簡体中</span></a></dd>
+							<dd><a href="https://gurunavi.com/ko/japanfoodie/2017/03/homestyle-japanese-dishes-ootoya.html" target="_blank"><span>한국어</span></a></dd>
+							<dd><a href="https://gurunavi.com/zh-hant/japanfoodie/2017/03/homestyle-japanese-dishes-ootoya.html" target="_blank"><span>繁體中</span></a></dd>
+						</dl>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="copy">COPYRIGHT OOTOYA CO.,LTD All Rights Reserved.</div>
+	</footer>
+</div>
+
+<script src="common/js/libs.js"></script>
+<script src="common/js/jquery.colorbox.js"></script>
+<script src="common/js/base.js"></script>
+<script src="common/js/top.js"></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-16707466-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

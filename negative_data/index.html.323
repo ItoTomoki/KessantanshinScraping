@@ -1,0 +1,333 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja">
+<head>
+
+<link rel="canonical" href="http://www.ysknet.co.jp/">
+
+<meta http-equiv="Content-Type" content="text/html; charset=shift_jis">
+
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+<title>安川情報システム株式会社</title>
+
+<link href="shared2017/style2017/common2017.css" rel="stylesheet" type="text/css" media="all">
+<link href="shared2017/style2017/top2017.css" rel="stylesheet" type="text/css" media="all">
+<link href="shared2017/style2017/search2017.css" rel="stylesheet" type="text/css" />
+
+<meta name="keywords" content="IoT,M2M,AI,機械学習,ビッグデータ,セキュリティ,クラウド,故障,予知,スマートファクトリー,監視">
+
+<meta name="description" content="IoTによるスマート化で生産性・効率性・利便性を向上。IoT、AI（人工知能）、ビッグデータ、クラウド等の技術と豊富な実績ノウハウを活用し、お客様の課題解決・ビジネスの変革を支援します。">
+
+</head>
+
+<body>
+
+
+
+
+<div class="clear"></div><!-- floatの解除 -->
+
+<div id="pagebody">
+
+<!-- ↓ヘッダ -->
+<div id="header2017">
+
+<!-- ↓コーポレートマーク -->
+<div id="logo_out">
+<!--<a href="#">--><img src="images/logo_ysk.gif" alt="安川情報システム株式会社"></a>
+</div>
+<!-- ↑コーポレートマーク -->
+
+<!-- ↓採用情報と英語、検索レイアウト -->
+<div id="ses_out_top">
+
+<!-- ↓カタログ一覧と英語 -->
+<div id="catalog_out">
+<ul id="catalog">
+<li id="cataloglist"><a href="support/index.html">カタログ一覧</a></li>
+<li id="english"><a href="en/index.html">English</a></li>
+</ul>
+</div>
+<!-- ↑カタログ一覧と英語 -->
+
+<!-- ↓検索 -->
+<div id="search_out">
+<dl>
+<dd><form name="searchform" id="searchform" method="get" action="/cgi-bin/jp/search/namazu.cgi">
+<input name="query" id="keywords" value="" type="text" />
+<input type="image" src="images/search-btn.gif" alt="検索" name="searchBtn" id="searchBtn" />
+</form></dd>
+</dl>
+</div>
+<!-- ↑検索 -->
+</div>
+<!-- ↑採用情報と英語、検索レイアウト -->
+
+<div class="clear"></div><!-- floatの解除 -->
+
+</div>
+<!-- ↑ヘッダ -->
+
+<div class="clear"></div><!-- floatの解除 -->
+
+<!-- ↓メインメニュー -->
+
+<div id="main-menu">
+
+<div id="menu2017">
+<table id="menu-tb"><tr>
+<td id="border" width="180">
+<a class="button" href="product/index.html">製品情報</a>
+</td>
+<td id="border" width="190">
+<a class="button" href="about/company/index.html">会社情報</a>
+</td>
+<td id="border" width="215">
+<a class="button" href="about/ir/financing/index.html">株主・投資家情報</a>
+</td>
+<td id="border" width="164">
+<a class="button" href="about/recruit/index.html">採用情報</a>
+</td>
+<td id="border" width="210">
+<a class="button" href="inquiry/index.html">お問い合わせ</a>
+</td>
+</tr></table>
+</div>
+
+</div>
+ 
+<!-- ↑メインメニュー -->
+
+<!-- ↓メインイメージとピックアップ -->
+
+<div id="main-bg-out">
+<div id="main-bg">
+		
+<div id="pickup2017">
+
+
+<ul>
+
+<li id="pic01">
+<!-- ↓ピックアップ01 -->
+<div class="picup-layout01">
+<a class="pickup_title" href="product/system/component/m2m/index.html" onClick="ga('send', 'event', 'top_link', 'click', 'IoT/M2Mソリューション');">IoT/M2Mソリューション</a>
+</div>
+<div class="picup-layout02">様々な情報をクラウド上に収集・蓄積・分析。新しい値を創造し、ビジネス変革を支援します。</div>	
+<!-- ↑ピックアップ01 -->
+</li>
+<li id="pic02">
+<!-- ↓ピックアップ02 -->
+<div class="picup-layout01">
+<a class="pickup_title" href="product/system/iotm2m/ai/index.html" onClick="ga('send', 'event', 'top_link', 'click', 'AI・機械学習');">AI・機械学習</a></div>
+<div class="picup-layout02">
+IoTによって収集・蓄積されたデータを認識・学習し、お客様に最適なソリューションを提供します。</div>
+<!-- ↑ピックアップ02 -->
+</li>
+<li id="pic03">
+<!-- ↓ピックアップ03 -->
+<div class="picup-layout01">
+<a class="pickup_title" href="product/type/security/index.html" onClick="ga('send', 'event', 'top_link', 'click', 'セキュリティ');">セキュリティ</a></div>
+<div class="picup-layout02">外部からの攻撃、人的ミス、内部の不適切な行動、これら情報漏洩の原因への対策を提供します。
+</div>
+<!-- ↑ピックアップ03 -->
+</li>
+<li id="pic04">
+<!-- ↓ピックアップ04 -->
+<div class="picup-layout01">
+<p class="pickup_sl" href="#">ピックアップソリューション</p></div>
+<div class="picup-layout02">
+
+<ul id="pcs">
+<li><a href="product/system/component/m2m/starterpack.html#starter" onClick="ga('send', 'event', 'top_link', 'click', 'IoTスターターパック');">IoTスターターパック</a></li>
+<li><a href="product/system/iotm2m/mmpredict/index.html" onClick="ga('send', 'event', 'top_link', 'click', '故障予知 MMPredict');">故障予知 MMPredict</a></li>
+<li><a href="product/system/business_sys/erp/index.html" onClick="ga('send', 'event', 'top_link', 'click', 'SAP ERP ソリューション');">SAP ERP ソリューション</a></li>
+</ul>
+
+
+ 
+</div>
+<div class="clear"></div><!-- floatの解除 -->
+<!-- ↑ピックアップ04 -->
+</li>
+</ul>
+
+</div>
+</div></div>
+<!-- ↑メインイメージとピックアップ -->
+
+
+<!-- ↓新着情報とバナー -->
+
+<div id="info">
+
+<!-- ↓ニュースエリア -->
+<div id="news_out">
+
+<!-- ↓タイトル -->
+<div id="news-title">
+<div id="news-tx">新着情報</div>
+
+<!-- ↓ボタン -->
+<div id="news-btn">
+<ul>
+<li id="ns-menu01">
+<div class="news-rss">
+	
+<a href="rss/rss20.xml" target="_blank"> 
+<img src="shared2017/style2017/images/btn_rss.gif" alt="RSS" width="61" height="25"> 
+</a> 
+	
+</div></li>
+
+<li id="ns-menu02"><div class="news-list"><a href="news/index.html"><img src="shared2017/style2017/images/btn_list.gif" alt="一覧" width="61" height="25"> </a></div></li>
+</ul>
+<div class="clear"></div><!-- floatの解除 -->
+</div>
+<div class="clear"></div><!-- floatの解除 -->
+<!-- ↑ボタン -->
+
+</div>
+
+<!-- ↑タイトル -->
+
+<!-- ↓新着情報 -->
+<ul id="info">
+
+<li id="ico_exhibition"><div id="info_date">2017年8月21日</div>
+<div id="info_content">
+<a href="news/17/event/index.html#20170821">9/7（木）、『SIGFOX技術セミナー』を開催します。</a>
+</div></li>
+
+<li id="ico_topix"><div id="info_date">2017年8月21日</div>
+<div id="info_content">
+<a href="news/17/news_products/20170821.html">「2017年日台ビジネスサービス交流会 AI人工知能応用検討会」に登壇しました。</a>
+</div></li>
+
+<li id="ico_article"><div id="info_date">2017年8月8日</div>
+<div id="info_content">
+西日本新聞28面の『「仮想現実」広がる未来』の記事内に、当社のARソリューションが紹介されました。
+</div></li>
+
+<li id="ico_topix"><div id="info_date">2017年7月31日</div>
+<div id="info_content">
+<a href="news/17/news_products/20170731.html">「第2回IoTユースケースセミナー」を開催しました。</a>
+</div></li>
+
+<li id="ico_news"><div id="info_date">2017年7月28日</div>
+<div id="info_content">
+<a href="news/17/news_products/20170728.html">「MMCloud Ready」製品認定で、クラウドサービスへの接続性を強化。機器ベンダーのIoT市場参入を支援</a>
+</div></li>
+
+</ul>
+<div class="clear"></div><!-- floatの解除 -->
+<!-- ↑新着情報 -->
+</div>
+<!-- ↑ニュースエリア -->
+
+
+<!-- ↓バナー -->
+<div id="banner_out">
+<ul id="banner">
+<li id="bn01"><div class="bnov01"><a href="product/system/component/m2m/results.html"><img src="images/banner_iot-m2m.gif" alt="IoT/M2Mソリューション導入事例" /></a></div></li>
+
+<li id="bn02"><div class="bnov02"><a href="product/type/networkboard/mmcloud/index.html"><img src="images/banner_mmcloud.gif" alt="MMCloud" /></a></div></li>
+
+<li id="bn02"><div class="bnov03"><a href="product/type/appliance/index.html"><img src="images/banner_nsk.gif" alt="アプライアンスサーバNetSHAKER" /></a></div></li>
+</ul>
+
+</div>
+<div class="clear"></div><!-- floatの解除 -->
+<!-- ↑バナー -->
+
+</div>
+<!-- ↑新着情報とバナー -->
+
+<!-- ↓フッター -->
+<div id="footer_out">
+<div id="footer2017">
+
+<ul id="goriyou">
+<li id="goriyou01"><a href="copylight/index.html">サイトのご利用について</a></li>
+<li id="goriyou02"><a href="about/company/contribution/index.html">情報・環境に対する取り組み</a></li>
+<li id="goriyou02"><a href="privacy/index.html">個人情報保護方針</a></li>
+<li id="goriyou02"><a href="support/index.html">カタログ一覧</a></li>
+<li id="goriyou02"><a href="sitemap/index.html">サイトマップ</a></li>
+<li id="goriyou02"><a href="news/index.html">ニュース一覧</a></li>
+<li id="goriyou02"><a href="inquiry/index.html">お問い合わせ</a></li>
+</ul>
+
+
+<div class="clear"></div><!-- floatの解除 -->
+<div id="copy">Copyright&#169; YASKAWA INFORMATION SYSTEMS CORPORATION All Rights Reserved.</div>
+
+</div>
+</div>
+<!-- ↑フッター -->
+
+</div><!-- id=pagebodyの終わり -->
+
+<!-- ↓GoogleAnalyticsユニバーサルアナリティクスコード -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-9816079-1', 'auto');
+  ga('send', 'pageview');
+</script>
+<!-- ↑GoogleAnalyticsユニバーサルアナリティクスコード -->
+
+
+<!-- ↓ヒートマップタグ設置（新規） 2017/03/21 -->
+<!-- User Heat Tag -->
+<script type="text/javascript">
+(function(add, cla){window['UserHeatTag']=cla;window[cla]=window[cla]||function(){(window[cla].q=window[cla].q||[]).push(arguments)},window[cla].l=1*new Date();var ul=document.createElement('script');var tag = document.getElementsByTagName('script')[0];ul.async=1;ul.src=add;tag.parentNode.insertBefore(ul,tag);})('//uh.nakanohito.jp/uhj2/uh.js', '_uhtracker');_uhtracker({id:'uhmO91UkZC'});
+</script>
+<!-- End User Heat Tag -->
+<!-- ↑ヒートマップタグ設置（新規） 2017/03/21 -->
+
+
+<!-- ↓CVタグ設置 2016/04/18 -->
+<!-- Google Code for &#12381;&#12398;&#20182;&#65288;30&#26085;&#38291;&#65289; Conversion Page -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 922538767;
+var google_conversion_language = "ja";
+var google_conversion_format = "3";
+var google_conversion_color = "ffffff";
+var google_conversion_label = "2IAtCJj3uGUQj6bztwM";
+var google_remarketing_only = false;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/922538767/?label=2IAtCJj3uGUQj6bztwM&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+<!-- ↑CVタグ設置 2016/04/18 -->
+
+<!-- ↓リマーケティングタグ設置 2016/04/18 -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 922538767;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/922538767/?value=0&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+<!-- ↑リマーケティングタグ設置 2016/04/18 -->
+
+</body>
+</html>

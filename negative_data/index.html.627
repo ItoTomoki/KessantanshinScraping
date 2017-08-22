@@ -1,0 +1,977 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ja" >
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=EUC-JP">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<title>トレジャーファクトリー【リサイクルショップ・リユースショップ】｜家具・家電・古着などの買取とリサイクル品の販売</title>
+<meta name="keywords" content="トレジャーファクトリー,リサイクルショップ,リユースショップ,リサイクル,買取,中古,不用品">
+<meta name="description" content="東京・埼玉・神奈川・千葉・茨城・大阪・兵庫・愛知・福岡・福島に展開するリサイクルショップ・リユースショップトレジャーファクトリー公式サイトです。中古・リサイクル 買取と販売はトレファクへ！">
+<meta name="robots" content="index,follow,noydir,noodp">
+<meta http-equiv="content-language" content="ja">
+<meta name="author" content="株式会社 トレジャーファクトリー">
+<link rel="alternate" media="only screen and (max-width: 640px)" href="https://www.treasure-f.com/smartphone/">
+<link rel="alternate" media="handheld" href="https://www.treasure-f.com/mobile/">
+<link href="https://www.treasure-f.com/css/common.css" type="text/css" rel="stylesheet" media="all">
+<link rel="shortcut icon" href="https://www.treasure-f.com/images/favicon.ico">
+<link href="https://www.treasure-f.com/css/top.css?20170429" type="text/css" rel="stylesheet" media="all">
+<link href="https://www.treasure-f.com/css/ui-lightness/jquery-ui-1.8.23.custom.css?20170429" type="text/css" rel="stylesheet" media="all">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js" type="text/javascript"></script>
+<script src="https://www.treasure-f.com/js/rollover.js" type="text/javascript"></script>
+<script src="https://www.treasure-f.com/js/script.js" type="text/javascript"></script>
+<script src="https://www.treasure-f.com/js/tooltip.js" type="text/javascript"></script>
+<script src="https://www.treasure-f.com/js/jquery.cycle.all.js" type="text/javascript"></script>
+<script src="https://www.treasure-f.com/js/jquery-ui-1.8.23.custom.min.js" type="text/javascript"></script>
+<script src="https://www.treasure-f.com/js/jquery.ajaxga.js" type="text/javascript"></script>
+<script src="https://www.treasure-f.com/js/blog_setting.js" type="text/javascript"></script>
+<script type="text/javascript" src="https://www.treasure-f.com/js/jquery.cookie.js"></script>
+<script type="text/javascript" src="https://www.treasure-f.com/js/common.js"></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-746118-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</head><body>
+
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PMQB6Q"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PMQB6Q');</script>
+<!-- End Google Tag Manager -->
+
+<div id="page">
+
+	<!-- Header -->
+	<div id="header">
+		<div class="header_wrap clearfix">
+			<div class="logo"><a href="https://www.treasure-f.com/"  ><img src="https://www.treasure-f.com/images/common/logo.gif" width="238px" height="53px" alt=""></a></div>
+			<div class="help">
+				<h1>リサイクルショップ トレジャーファクトリーです。リサイクル品の買取・販売をします。不用品リサイクルにも。</h1>
+				<ul>
+					<li><a href="https://www.treasure-f.com/mypage/">マイページ</a></li>
+					<li><a href="https://www.treasure-f.com/service/">サービスガイド</a></li>
+					<li><a href="https://www.treasure-f.com/estate/">物件募集</a></li>
+					<li><a href="http://www.treasurefactory.co.jp/" target="_blank" rel="nofollow">企業情報</a></li>
+					<li><a href="http://www.treasurefactory.co.jp/ir/" target="_blank" rel="nofollow">IR情報</a></li>
+          <li><a href="https://www.treasure-f.com/contact/">お問い合わせ</a></li>
+				</ul>
+			</div>
+			<div class="logo_old"><img src="https://www.treasure-f.com/images/common/logo_old.gif" width="112px" height="53px" alt=""></div>
+		</div>
+		<div class="global">
+			<ul>
+				<li><a href="https://www.treasure-f.com/"><img src="https://www.treasure-f.com/images/common/btn_01.gif" width="52px" height="30px" alt="" class="rollover"></a></li>
+				<li><a href="https://www.treasure-f.com/shop/"><img src="https://www.treasure-f.com/images/common/btn_02.gif" width="144px" height="30px" alt="" class="rollover"></a></li>
+				<li><a href="https://www.treasure-f.com/sell/"><img src="https://www.treasure-f.com/images/common/btn_03.gif" width="144px" height="30px" alt="" class="rollover"></a></li>
+				<li><a href="https://www.treasure-f.com/goods/"><img src="https://www.treasure-f.com/images/common/btn_04.gif" width="144px" height="30px" alt="" class="rollover"></a></li>
+				<li><a href="https://www.treasure-f.com/first/"><img src="https://www.treasure-f.com/images/common/btn_05.gif" width="144px" height="30px" alt="" class="rollover"></a></li>
+				<li><a href="https://www.treasure-f.com/shop/topics.html"><img src="https://www.treasure-f.com/images/common/btn_08.gif" width="144px" height="30px" alt="" class="rollover"></a></li>
+				<li><a href="https://www.treasure-f.com/recruit/" target="_blank"><img src="https://www.treasure-f.com/images/common/btn_07.gif" width="146px" height="30px" alt="" class="rollover"></a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- /Header -->
+
+
+
+	<div id="lay">
+
+		<!-- MAIN -->
+		<div id="main">
+			
+			<script type="text/javascript">
+
+			$.fn.cycle.updateActivePagerLink = function(pager, currSlideIndex) {
+				$(pager).find('li').removeClass('activeLI')
+					.filter('li:eq('+currSlideIndex+')').addClass('activeLI');
+			};
+
+			$(function() {
+				$('.flash').cycle({
+					fx:'fade',
+					speed:500,
+					timeout:5000,
+					next:'.b_next',
+					prev:'.b_prev',
+					pager:'.nav',
+					pagerAnchorBuilder: function(idx, slide) {
+						return '<li><a href="#"><img src="' + $('.flash img:eq('+idx+')').attr('src') + '"/></a></li>';
+					}
+				});
+				$('.flash').hover(
+					function() {
+						$(this).cycle('pause');
+					}, function() {
+						$(this).cycle('resume');
+					}
+				);
+			});
+
+			</script>
+			
+
+			<!--メインバナー-->
+			<div class="t_banner">
+				<div class="flash">
+		<a href="https://www.treasure-f.com/sp/rally2017/"  ><img src="https://www.treasure-f.com/swf/thumbnails/rally_2017.gif" alt="トレジャーラリー2017"></a>    <a href="https://www.treasure-f.com/sp/electric_purchase_201708/"  ><img src="https://www.treasure-f.com/swf/thumbnails/kaden_cp_201708.jpg" alt="電撃！家電製品買取キャンペーン 査定金額20％UP！"></a>    <a href="https://www.treasure-f.com/sp/au_2017/"  ><img src="https://www.treasure-f.com/swf/thumbnails/au_2017.png" alt="秋冬物買取中！"></a>		<a href="https://www.treasure-f.com/sp/refrigerator/"  ><img src="https://www.treasure-f.com/swf/thumbnails/refrigerator.png" alt="大型冷蔵庫買取キャンペーン"></a>
+
+
+				</div>
+				<noscript>
+					<div class="nojs">本サイトはJavaScriptを有効にしてご覧ください。</div>
+				</noscript>
+			</div>
+			<div class="under">
+				<div class="thumbs">
+					<div class="b_prev"><a href="#"><img src="https://www.treasure-f.com/images/top/btn_prev.gif"></a></div>
+					<ul class="nav"></ul>
+					<div class="b_next"><a href="#"><img src="https://www.treasure-f.com/images/top/btn_next.gif"></a></div>
+				</div>
+			</div>
+			<!--メインバナー-->
+
+
+
+			<!--メインカラム-->
+			<div class="center">
+
+
+				<script>
+					var url = "https://www.treasure-f.com/";
+					var shopsArray = new Array(11);
+					shopsArray["13"] = new Array(
+						new Array("", "すべての店舗")
+						,new Array("0", "足立西新井店")
+						,new Array("4", "練馬店")
+						,new Array("5", "三鷹店")
+						,new Array("11", "足立加平店")
+						,new Array("18", "町田店")
+						,new Array("36", "東久留米店")
+						,new Array("31", "立川日野橋店")
+						,new Array("35", "南大沢店")
+						,new Array("39", "上板橋店")
+						,new Array("42", "稲城若葉台店")
+						,new Array("43", "武蔵村山店")
+						,new Array("572", "花小金井店")
+						,new Array("488", "府中店")
+						);
+					shopsArray["14"] = new Array(
+						new Array("", "すべての店舗")
+						,new Array("8", "横浜鶴見店")
+						,new Array("13", "相模原店")
+						,new Array("14", "横浜青葉店")
+						,new Array("37", "川崎野川店")
+						,new Array("38", "中央林間店")
+						,new Array("46", "大船店")
+						,new Array("57", "横浜長津田店")
+						,new Array("64", "大和店")
+						,new Array("409", "秦野店")
+						,new Array("725", "藤沢店")
+						,new Array("410", "青葉台店")
+						);
+					shopsArray["11"] = new Array(
+						new Array("", "すべての店舗")
+						,new Array("2", "草加店")
+						,new Array("3", "春日部店")
+						,new Array("6", "所沢店")
+						,new Array("7", "浦和店")
+						,new Array("9", "越谷店")
+						,new Array("10", "吉川店")
+						,new Array("16", "大宮店")
+						,new Array("24", "東浦和店")
+						,new Array("25", "上尾店")
+						,new Array("26", "上福岡店")
+						,new Array("27", "入間店")
+						,new Array("29", "鶴ヶ島店")
+						,new Array("28", "川越店")
+						,new Array("30", "鶴瀬店")
+						,new Array("34", "北越谷店")
+						,new Array("53", "南浦和店")
+						,new Array("863", "岩槻店")
+						);
+					shopsArray["12"] = new Array(
+						new Array("", "すべての店舗")
+						,new Array("19", "千葉みつわ台店")
+						,new Array("21", "流山店")
+						,new Array("32", "南柏店")
+						,new Array("45", "幕張店")
+						,new Array("47", "松戸店")
+						,new Array("50", "習志野店")
+						,new Array("54", "市川店")
+						,new Array("606", "おゆみ野店")
+						,new Array("76", "鎌ヶ谷店")
+						,new Array("603", "柏店")
+						,new Array("700", "おゆみ野店")
+						);
+					shopsArray["8"] = new Array(
+						new Array("", "すべての店舗")
+						,new Array("59", "牛久店")
+						);
+					shopsArray["7"] = new Array(
+						new Array("", "すべての店舗")
+						,new Array("15", "いわき鹿島店")
+						,new Array("17", "郡山うねめ通り店")
+						,new Array("41", "郡山安積店")
+						,new Array("61", "いわき平店")
+						);
+					shopsArray["27"] = new Array(
+						new Array("", "すべての店舗")
+						,new Array("530", "岸和田店")
+						,new Array("626", "八尾店")
+						,new Array("753", "東大阪店")
+						,new Array("854", "松原店")
+						,new Array("723", "堺福田店")
+						);
+					shopsArray["26"] = new Array(
+						new Array("", "すべての店舗")
+						,new Array("461", "京都宇治店")
+						);
+					shopsArray["28"] = new Array(
+						new Array("", "すべての店舗")
+						,new Array("391", "神戸新長田店")
+						);
+					shopsArray["23"] = new Array(
+						new Array("", "すべての店舗")
+						,new Array("542", "名古屋徳重店")
+						);
+					shopsArray["40"] = new Array(
+						new Array("", "すべての店舗")
+						,new Array("137", "福岡春日店")
+						);
+				</script>
+
+
+				<!-- 新着ブログ -->
+				<div class="blog">
+
+					<div class="title">
+						<h2>
+							<img src="images/top/ttl_blog.jpg" alt="新着ブログ" width="465" height="32">
+							<div class="condition" id="condition"></div>
+							<input type="image" class="setting" src="images/top/btn_custom.gif" onmouseover="this.src='images/top/btn_custom_on.gif'" onmouseout="this.src='images/top/btn_custom.gif'">
+						</h2>
+					</div>
+					<div class="filter">
+						<span>地域・店舗</span>
+						<select id="pref" class="pref" onchange="changeShops(value);">
+							<option value="">すべての地域</option>
+							<option value="13">東京都</option>
+							<option value="14">神奈川県</option>
+							<option value="11">埼玉県</option>
+							<option value="12">千葉県</option>
+							<option value="8">茨城県</option>
+							<option value="7">福島県</option>
+							<option value="27">大阪府</option>
+							<option value="26">京都府</option>
+							<option value="28">兵庫県</option>
+							<option value="23">愛知県</option>
+							<option value="40">福岡県</option>
+						</select>
+						<select id="shop" class="shop" disabled>
+							<option value="">すべての店舗</option>
+						</select>
+					</div>
+
+					<div class="inner">
+						<p>リサイクルショップのトレジャーファクトリーから、買取・販売に関するおすすめ情報をご紹介。気になる情報がありましたらお早めに店舗へご来店ください！</p>
+
+						<!-- ブログ部分 -->
+						<div class="blog_list">
+							<ul class="clearfix">
+								<!-- 1Topics -->
+								<li>
+								<a href="https://www.treasure-f.com/shop/blog/194496/shop/10/"  >								<span class="img"><img src="https://www.treasure-f.com/images/blog/10/h75/201708211711581.jpg" width="100px" height="75px"></span>
+								<strong>吉川店</strong>
+								<span class="date">2017年08月21日</span>
+								<span class="lead">SHARP(シャープ)の2016年製3ドア冷蔵庫が入荷！【吉川店】</span>
+</a>								</li>
+							<!-- /1Topics -->
+								<!-- 1Topics -->
+								<li>
+								<a href="https://www.treasure-f.com/shop/blog/194491/shop/409/"  >								<span class="img"><img src="https://www.treasure-f.com/images/blog/409/h75/201708211634341.jpg" width="100px" height="75px"></span>
+								<strong>秦野店</strong>
+								<span class="date">2017年08月21日</span>
+								<span class="lead">ライトニング・マックイーンフィギュア買取入荷！！【秦野店】</span>
+</a>								</li>
+							<!-- /1Topics -->
+								<!-- 1Topics -->
+								<li>
+								<a href="https://www.treasure-f.com/shop/blog/194499/shop/5/"  >								<span class="img"><img src="https://www.treasure-f.com/images/blog/5/h75/201708211723361.jpg" width="100px" height="75px"></span>
+								<strong>三鷹店</strong>
+								<span class="date">2017年08月21日</span>
+								<span class="lead">6.0kgの洗濯機入荷しました！【三鷹店】</span>
+</a>								</li>
+							<!-- /1Topics -->
+								<!-- 1Topics -->
+								<li class="list_last">
+								<a href="https://www.treasure-f.com/shop/blog/194475/shop/35/"  >								<span class="img"><img src="https://www.treasure-f.com/images/blog/35/h75/201708201949551.jpg" width="100px" height="75px"></span>
+								<strong>南大沢店</strong>
+								<span class="date">2017年08月21日</span>
+								<span class="lead">apple 第6世代iPod touch 入荷しました！！【南大沢店】</span>
+</a>								</li>
+							<!-- /1Topics -->
+							</ul>
+							<ul class="clearfix">
+								<!-- 1Topics -->
+								<li>
+								<a href="https://www.treasure-f.com/shop/blog/194471/shop/41/"  >								<span class="img"><img src="https://www.treasure-f.com/images/blog/41/h75/201708210955231.JPG" width="100px" height="75px"></span>
+								<strong>郡山安積店</strong>
+								<span class="date">2017年08月21日</span>
+								<span class="lead">【郡山安積店】 BURBERRYのメガネを買取入荷しました！</span>
+</a>								</li>
+							<!-- /1Topics -->
+								<!-- 1Topics -->
+								<li>
+								<a href="https://www.treasure-f.com/shop/blog/194495/shop/542/"  >								<span class="img"><img src="https://www.treasure-f.com/images/blog/542/h75/201708211710411.jpg" width="100px" height="75px"></span>
+								<strong>名古屋徳重店</strong>
+								<span class="date">2017年08月21日</span>
+								<span class="lead">貞苅椅子製作所のダイニング4点セットが入荷致しました!! ...</span>
+</a>								</li>
+							<!-- /1Topics -->
+								<!-- 1Topics -->
+								<li>
+								<a href="https://www.treasure-f.com/shop/blog/194469/shop/31/"  >								<span class="img"><img src="https://www.treasure-f.com/images/blog/31/h75/201708202150001.jpg" width="100px" height="75px"></span>
+								<strong>立川日野橋店</strong>
+								<span class="date">2017年08月20日</span>
+								<span class="lead">ご自宅で焼肉を！ ZAIGLE入荷いたしました！【立川日野橋店】</span>
+</a>								</li>
+							<!-- /1Topics -->
+								<!-- 1Topics -->
+								<li class="list_last">
+								<a href="https://www.treasure-f.com/shop/blog/194463/shop/18/"  >								<span class="img"><img src="https://www.treasure-f.com/images/blog/18/h75/201708202107221.JPG" width="100px" height="75px"></span>
+								<strong>町田店</strong>
+								<span class="date">2017年08月20日</span>
+								<span class="lead">Pioneer のパワードモニタースピーカーとリミックスステー...</span>
+</a>								</li>
+							<!-- /1Topics -->
+							</ul>
+						</div>
+						<!-- /topics部分 -->
+						<div class="blog_btn">
+							<a href="http://www.treasure-f.com/shop/topics.html" class="new_blog"  ><img src="images/top/btn_blog.gif" alt="もっと見る"></a>						</div>
+					</div>
+				</div>
+				<!-- /新着トピックス -->
+
+
+				<!-- 特集・キャンペーン情報 -->
+				<div class="camp">
+					<div class="title">
+						<h2><img src="images/top/ttl_campaign.jpg" alt="特集・キャンペーン情報" width="465" height="32"></h2>
+					</div>
+					<div class="inner">
+						<div class="bnr-main-bottom">
+							<a href="http://www.treasure-f.com/sp/sell/?bnr=true"  ><img src="images/top/bnr_into.jpg" alt="使えるけど、使わないもの、トレジャーファクトリーでお得に売りませんか？" class="bnr" width="439" height="96"></a>							<a href="http://www.treasure-f.com/sp/sell/?bnr=true" class="txt"  ><img src="images/common/icon_arrow2.gif" width="12" height="12" alt="→">買取ポイントを貯めて買取金額50%UPに！お得な持込買取のご案内！</a>						</div>
+					</div>
+
+					<div class="inner">
+						<div class="bnr-main-bottom">
+							<a href="https://www.tfhikkoshi.com/report/recru_monitor.html" target="_blank"  ><img src="images/top/bnr_movi_recru_monitor.gif?up=20170807" alt="引越見積体験モニター募集！キャンペーン" class="bnr" width="439" height="96"></a>							<a href="https://www.tfhikkoshi.com/report/recru_monitor.html" target="_blank" class="txt"  ><img src="images/common/icon_arrow2.gif" width="12" height="12" alt="→">ご好評につき延長！引越体験モニター採用で3万円をキャッシュバック！</a>						</div>
+					</div>
+
+				</div>
+				<!-- /特集・キャンペーン情報 -->
+
+
+				<!-- インフォメーション -->
+				<div class="info">
+					<div class="title">
+						<div class="more">
+						<a href="info/"><img src="images/common/btn_more.jpg" alt="インフォメーション一覧"></a>
+						</div>
+						<h2><img src="images/top/ttl_info.jpg" alt="インフォメーション" width="465" height="32"></h2>
+					</div>
+					<p>キャンペーンや休業日のお知らせ、リサイクル・リユースの情報はこちら</p>
+					<div class="inner">
+
+						<div class="box">
+
+							<!-- 1topic -->
+							<div class="topic clearfix">
+							<div class="date">2017年08月02日&nbsp;<img src="https://www.treasure-f.com/images/top/icon_news.gif"></div>
+
+							<div class="tpc ">
+								<a href="https://www.treasure-f.com/info/detail/st335.html"  >youtubeチャンネル「ボンボンTV」で横浜鶴見店をご紹介いただきました</a>							</div>
+							</div>
+							<!-- /1topic -->
+							<!-- 1topic -->
+							<div class="topic clearfix">
+							<div class="date">2017年07月20日&nbsp;<img src="https://www.treasure-f.com/images/top/icon_news.gif"></div>
+
+							<div class="tpc ">
+								<a href="https://www.treasure-f.com/info/detail/st333.html"  >2017年8月 休業日のお知らせ</a>							</div>
+							</div>
+							<!-- /1topic -->
+							<!-- 1topic -->
+							<div class="topic clearfix">
+							<div class="date">2017年07月17日&nbsp;<img src="https://www.treasure-f.com/images/top/icon_news.gif"></div>
+
+							<div class="tpc ">
+								<a href="https://www.treasure-f.com/info/detail/st332.html"  >トレファクマーケット週末限定SALE</a>							</div>
+							</div>
+							<!-- /1topic -->
+							<!-- 1topic -->
+							<div class="topic clearfix">
+							<div class="date">2017年07月10日&nbsp;<img src="https://www.treasure-f.com/images/top/icon_news.gif"></div>
+
+							<div class="tpc ">
+								<a href="https://www.treasure-f.com/info/detail/st331.html"  >トレファクマーケット週末限定SALE</a>							</div>
+							</div>
+							<!-- /1topic -->
+							<!-- 1topic -->
+							<div class="topic clearfix">
+							<div class="date">2017年07月03日&nbsp;<img src="https://www.treasure-f.com/images/top/icon_news.gif"></div>
+
+							<div class="tpc ">
+								<a href="https://www.treasure-f.com/info/detail/st330.html"  >トレファクマーケット週末限定SALE</a>							</div>
+							</div>
+							<!-- /1topic -->
+							<!-- 1topic -->
+							<div class="topic clearfix">
+							<div class="date">2017年06月26日&nbsp;<img src="https://www.treasure-f.com/images/top/icon_news.gif"></div>
+
+							<div class="tpc ">
+								<a href="https://www.treasure-f.com/info/detail/st329.html"  >トレファクマーケット週末限定SALE</a>							</div>
+							</div>
+							<!-- /1topic -->
+							<!-- 1topic -->
+							<div class="topic clearfix">
+							<div class="date">2017年06月19日&nbsp;<img src="https://www.treasure-f.com/images/top/icon_news.gif"></div>
+
+							<div class="tpc ">
+								<a href="https://www.treasure-f.com/info/detail/st328.html"  >トレファクマーケット週末限定SALE</a>							</div>
+							</div>
+							<!-- /1topic -->
+							<!-- 1topic -->
+							<div class="topic clearfix">
+							<div class="date">2017年06月12日&nbsp;<img src="https://www.treasure-f.com/images/top/icon_news.gif"></div>
+
+							<div class="tpc ">
+								<a href="https://www.treasure-f.com/info/detail/st325.html"  >トレファクマーケット週末限定SALE</a>							</div>
+							</div>
+							<!-- /1topic -->
+							<!-- 1topic -->
+							<div class="topic clearfix">
+							<div class="date">2017年06月05日&nbsp;<img src="https://www.treasure-f.com/images/top/icon_news.gif"></div>
+
+							<div class="tpc ">
+								<a href="https://www.treasure-f.com/info/detail/st324.html"  >トレファクマーケット週末限定SALE</a>							</div>
+							</div>
+							<!-- /1topic -->
+							<!-- 1topic -->
+							<div class="topic clearfix">
+							<div class="date">2017年06月01日&nbsp;<img src="https://www.treasure-f.com/images/top/icon_news.gif"></div>
+
+							<div class="tpc ">
+								<a href="https://www.treasure-f.com/info/detail/st327.html"  >6月は毎週水曜日トレポ5倍！</a>							</div>
+							</div>
+							<!-- /1topic -->
+						</div>
+					</div>
+				</div>
+				<!-- /インフォメーション -->
+			</div>
+			<!-- /メインカラム -->
+
+
+
+			<!-- 左カラム -->
+			<div class="sat">
+
+				<!-- スタイルバナー -->
+				<div class="top_banner">
+					<a href="http://www.tf-style.com/"><img src="https://www.treasure-f.com/images/top/bnr_style_top.gif" width="200px" height="147px" alt=""></a>
+				</div>
+				<!-- /スタイルバナー -->
+
+				<!-- スポーツバナー -->
+				<div class="top_banner">
+					<a href="https://www.treasure-f.com/sports/"><img src="https://www.treasure-f.com/images/top/bnr_sports_top.gif" width="200px" height="147px" alt=""></a>
+				</div>
+				<!-- /スポーツバナー -->
+
+				<!-- メンバーズカード -->
+				<div class="top_banner">
+					<a href="http://www.treasure-f.com/service/apri.html"  ><img src="https://www.treasure-f.com/images/common/bnr_apri.jpg" width="200px" height="147px" alt=""></a>				</div>
+				<!-- /メンバーズカード -->
+
+				<!-- 取扱い商品 -->
+				<div class="cont">
+					<h3><img src="https://www.treasure-f.com/images/top/ttl_goods.jpg" alt=""></h3>
+					<p>リサイクルショップならではの幅広い取扱い商品でリユースをお手伝い。</p>
+					<div class="goods">
+<ul>
+<li><a href="http://www.treasure-f.com/goods/レディースファッション/">レディースファッション</a></li>
+<li><a href="http://www.treasure-f.com/goods/メンズファッション/">メンズファッション</a></li>
+<li><a href="http://www.treasure-f.com/goods/アウトドア/">アウトドア</a></li>
+<li><a href="http://www.treasure-f.com/goods/スポーツ用品/">スポーツ用品</a></li>
+<li><a href="http://www.treasure-f.com/goods/家具・インテリア/">家具・インテリア</a></li>
+<li><a href="http://www.treasure-f.com/goods/生活家電・家事家電/">生活家電・家事家電</a></li>
+<li><a href="http://www.treasure-f.com/goods/調理家電/">調理家電</a></li>
+<li><a href="http://www.treasure-f.com/goods/デジタル家電/">デジタル家電</a></li>
+<li><a href="http://www.treasure-f.com/goods/楽器・ホビー雑貨/">楽器・ホビー雑貨</a></li>
+<li><a href="http://www.treasure-f.com/goods/雑貨/">雑貨</a></li>
+<li><a href="http://www.treasure-f.com/goods/ブランド・ラグジュアリー/">ブランド・ラグジュアリー</a></li>
+</ul>					</div>
+				</div>
+				<!-- /取扱い商品 -->
+
+
+				<!-- サービスガイド -->
+				<div class="cont">
+					<h3><img src="https://www.treasure-f.com/images/top/ttl_service.jpg" alt=""></h3>
+					<p>リサイクル品の買取・購入の前に安心お得な各種サービスはこちら</p>
+					<div class="inner">
+						<ul>
+							<li class="credit"><a href="https://www.treasure-f.com/service/credit.html"  >各種クレジットカード</a></li>
+							<li class="point"><a href="https://www.treasure-f.com/service/point.html"  >メンバーズカード</a></li>
+							<li class="heart last"><a href="https://www.treasure-f.com/service/guarantee.html"  >安心保証</a></li>
+						</ul>
+					</div>
+
+				</div>
+				<!-- /サービスガイド -->
+
+				<div class="fb_aera fb_top clearfix">
+  <img class="fb" src="https://www.treasure-f.com/images/shop/icon_thailand.png" width="50">
+  <dl>
+    <dt>トレファク<br/>タイでも展開中</dt>
+    <dd>
+      <a href="https://www.facebook.com/trefac.thailand.JP/" target="_blank">Facebook（日本語版）</a><br>
+      <a href="https://www.facebook.com/trefac.thailand/" target="_blank">Facebook（タイ語版）</a>
+    </dd>
+  </dl>
+</div>
+
+<div class="caution">
+	<h4><img src="https://www.treasure-f.com/images/common/icon_caution2.gif" alt="">&nbsp;&nbsp;ご注意ください</h4>
+	<p>
+		当社では電話営業、訪問営業、お申込みなしで出張買取に伺うことなどは行っておりません。<br>
+		当社を騙った悪徳業者にご注意ください。
+	</p>
+</div>
+
+<div class="doc clearfix">
+	<img src="https://www.treasure-f.com/images/common/icon_nrjkk.gif" alt="" class="left">
+	<p>当社は、日本流通自主管理協会に加盟しております。</p>
+</div>
+
+<!--/ doc -->
+			</div>
+			<!-- /左カラム -->
+
+			<div class="clr"></div>
+
+		</div>
+		<!-- /MAIN -->
+
+
+<!-- SUB -->
+<div id="sub">
+	<div class="wrap">
+			<h2><img src="https://www.treasure-f.com/images/top/ttl_shop.gif" width="255px" height="34px" alt=""></h2>
+			<div class="inner">
+
+
+
+					<script>
+						function onMapPref (id) {
+							$("#map_pref_"+id+" img").attr('src', $("#map_pref_"+id+" img").attr('oSrc'));
+						}
+						function outMapPref (id) {
+							$("#map_pref_"+id+" img").attr('src', $("#map_pref_"+id+" img").attr('pSrc'));
+						}
+					</script>
+
+					<!-- お店を探す -->
+					<p class="desc">お近くのリサイクルショップ トレジャーファクトリーは下の地図または検索から</p>
+					<div class="map">
+
+						<!-- 地図から探す -->
+						<img src="images/top/top_map.png" alt="あなたの街のトレジャーファクトリーをチェック！" id="m_map" usemap="#m_map" >
+
+						<map name="m_map" id="m_map">
+						</map>
+						<!-- /地図から探す -->
+						<div class="map_pref" id="map_pref_tokyo"><a href="https://www.treasure-f.com/shop/13/area.html"  ><img src="https://www.treasure-f.com/images/top/btn_tokyo.gif" class="rollover"></a></div>
+						<div class="map_pref" id="map_pref_kanagawa"><a href="https://www.treasure-f.com/shop/14/area.html"  ><img src="https://www.treasure-f.com/images/top/btn_kanagawa.gif" class="rollover"></a></div>
+						<div class="map_pref" id="map_pref_saitama"><a href="https://www.treasure-f.com/shop/11/area.html"  ><img src="https://www.treasure-f.com/images/top/btn_saitama.gif" class="rollover"></a></div>
+						<div class="map_pref" id="map_pref_chiba"><a href="https://www.treasure-f.com/shop/12/area.html"  ><img src="https://www.treasure-f.com/images/top/btn_chiba.gif" class="rollover"></a></div>
+						<div class="map_pref" id="map_pref_ibaraki"><a href="https://www.treasure-f.com/shop/8/area.html"  ><img src="https://www.treasure-f.com/images/top/btn_ibaraki.gif" class="rollover"></a></div>
+						<div class="map_pref" id="map_pref_fukushima"><a href="https://www.treasure-f.com/shop/7/area.html"  ><img src="https://www.treasure-f.com/images/top/btn_fukushima.gif" class="rollover"></a></div>
+						<div class="map_pref" id="map_pref_osaka"><a href="https://www.treasure-f.com/shop/27/area.html"  ><img src="https://www.treasure-f.com/images/top/btn_osaka.gif" class="rollover"></a></div>
+						<div class="map_pref" id="map_pref_kyoto"><a href="https://www.treasure-f.com/shop/26/area.html"  ><img src="https://www.treasure-f.com/images/top/btn_kyoto.gif" class="rollover"></a></div>
+						<div class="map_pref" id="map_pref_hyogo"><a href="https://www.treasure-f.com/shop/28/area.html"  ><img src="https://www.treasure-f.com/images/top/btn_hyogo.gif" class="rollover"></a></div>
+						<div class="map_pref" id="map_pref_aichi"><a href="https://www.treasure-f.com/shop/23/area.html"  ><img src="https://www.treasure-f.com/images/top/btn_aichi.gif" class="rollover"></a></div>
+						<div class="map_pref" id="map_pref_fukuoka"><a href="https://www.treasure-f.com/shop/40/area.html"  ><img src="https://www.treasure-f.com/images/top/btn_fukuoka.gif" class="rollover"></a></div>
+						<div class="sports">
+							<a href="https://www.treasure-f.com/sports/"><img src="https://www.treasure-f.com/images/top/btn_sports.gif" alt="" class="rollover"></a>
+						</div>
+
+						<!-- 検索から探す -->
+						<div class="search">
+							<div class="search_top">
+								<div class="search_bottom">
+									<p class="search_ttl">地域名・店名を入力して探す</p>
+									<form class="clearfix" method="GET" action="shop/srch.html">
+										<input type="text" name="srchword" class="input">
+										<button type="submit" class="submit">検索</button>
+									</form>
+								</div>
+							</div>
+						</div>
+						<div class="kaitori">
+							<a href="https://www.uruhapi.com/?ref=sub_btn"  ><img src="https://www.treasure-f.com/images/top/uruhapi_bnr.png" alt=""></a>						</div>
+						<!-- /検索から探す -->
+					</div>
+
+					<!-- /お店を探す -->
+
+
+
+					<!-- 新店NEWS -->
+					<div class="newshop">
+						<h2><img src="https://www.treasure-f.com/images/top/ttl_newshop.gif" width="245px" height="29px" alt=""></h2>
+						<p class="desc">あなたの町にも続々出店中！<br>新店オープン情報ははこちらから</p>
+
+						<!-- 1shop -->
+						<div class="box clearfix">
+
+
+
+
+
+
+							<div class="ph">
+							<a href="https://www.tf-style.com/shop/190/index.html" target="_blank">
+							<img src="https://www.treasure-f.com/images/shop/190/img_sub1_small.jpg" alt=""></a></div>
+							<div class="txtbox">
+								<div class="date">
+									2017年08月26日
+								</div>
+									<a href="https://www.tf-style.com/shop/190/index.html" target="_blank" class="ttl">
+									新小岩店オープン</a>
+									<p>
+										2017年08月26日
+									&nbsp;東京都葛飾区に
+										トレファクスタイル新小岩店がオープン！
+									</p>
+								</div>
+
+
+							</div>
+						<!-- /1shop -->
+						<div class="box clearfix">
+
+
+
+
+
+
+							<div class="ph">
+							<a href="https://www.tf-style.com/shop/445/index.html" target="_blank">
+							<img src="https://www.treasure-f.com/images/shop/445/img_sub1_small.jpg" alt=""></a></div>
+							<div class="txtbox">
+								<div class="date">
+									2017年09月01日
+								</div>
+									<a href="https://www.tf-style.com/shop/445/index.html" target="_blank" class="ttl">
+									下北沢2号店オープン</a>
+									<p>
+										2017年09月01日
+									&nbsp;東京都世田谷区に
+										トレファクスタイル下北沢2号店がオープン！
+									</p>
+								</div>
+
+
+							</div>
+						<!-- /1shop -->
+						<div class="box_last clearfix">
+
+
+
+
+
+
+							<div class="ph">
+							<a href="https://www.tf-style.com/shop/234/index.html" target="_blank">
+							<img src="https://www.treasure-f.com/images/shop/234/img_sub1_small.jpg" alt=""></a></div>
+							<div class="txtbox">
+								<div class="date">
+									2017年08月11日
+								</div>
+									<a href="https://www.tf-style.com/shop/234/index.html" target="_blank" class="ttl">
+									大泉学園店オープン</a>
+									<p>
+										2017年08月11日
+									&nbsp;東京都練馬区に
+										トレファクスタイル大泉学園店がオープンしました！
+									</p>
+								</div>
+
+
+							</div>
+						<!-- /1shop -->
+					</div>
+					<!-- /新店NEWS -->
+
+
+
+					<!-- ピックアップ情報 -->
+					<div class="pickup">
+						<h2><img src="https://www.treasure-f.com/images/top/ttl_pickup.gif" width="245px" height="29px" alt=""></h2>
+						<p class="desc">リサイクルショップ トレジャーファクトリーのピックアップ情報はこちらから</p>
+						<div class="box clearfix">
+							<div class="ph">
+								<a href="https://www.treasure-f.com/event/32_201707/report.html"  ><img src="https://www.treasure-f.com/images/top/ph_32_201707.jpg" alt=""></a>							</div>
+							<div class="txtbox">
+								<a href="https://www.treasure-f.com/event/32_201707/report.html" class="ttl"  >店舗初！ワークショップイベント開催</a>								<p>トレジャーファクトリー南柏店の別館「家具・インテリア館」でワークショップを開催いたしました。</p>
+							</div>
+						</div>
+
+						<div class="box clearfix">
+							<div class="ph">
+								<a href="https://ec.treasure-f.com/" target="_blank"  ><img src="https://www.treasure-f.com/images/top/ph_ecsite.gif" alt=""></a>							</div>
+							<div class="txtbox">
+								<a href="https://ec.treasure-f.com/" target="_blank" class="ttl"  >トレファクONLINEプレオープン！</a>								<p>トレジャーファクトリーのショッピングサイト「トレファクONLINE」がプレオープンとなりました！</p>
+							</div>
+						</div>
+
+						<div class="box clearfix">
+							<div class="ph">
+								<a href="https://www.treasure-f.com/sell/trip/rapid/"  ><img src="https://www.treasure-f.com/images/sell/trip/rapid/ph_trip.gif" alt=""></a>							</div>
+							<div class="txtbox">
+								<a href="https://www.treasure-f.com/sell/trip/rapid/" class="ttl"  >出張買取最短翌日対応エリアのご案内</a>								<p>お急ぎの方、必見！出張買取　最短日対応エリアはこちら</p>
+							</div>
+						</div>
+						<div class="box clearfix">
+							<div class="ph">
+								<a href="https://www.tfhikkoshi.com/?ref=pickup_top&ccode=sougou" target="_blank"  ><img src="https://www.treasure-f.com/images/top/ph_moving.jpg" alt=""></a>							</div>
+							<div class="txtbox">
+								<a href="https://www.tfhikkoshi.com/?ref=pickup_top&ccode=sougou" target="_blank" class="ttl"  >引越・買取・処分を一括で見積もり！</a>								<p>引越・買取を一括で見積もり！<br>トレジャーファクトリーのトレファク引越</p>
+							</div>
+						</div>
+
+						<div class="box clearfix">
+							<div class="ph">
+								<a href="https://www.treasure-f.com/estate/"  ><img src="https://www.treasure-f.com/images/top/ph_estate.jpg" alt=""></a>							</div>
+							<div class="txtbox">
+								<a href="https://www.treasure-f.com/estate/" class="ttl"  >店舗物件大募集！</a>								<p>リサイクルショップトレジャーファクトリーでは、ロードサイド、駅前の居抜き物件を募集しています。</p>
+							</div>
+						</div>
+
+						<div class="box clearfix">
+							<div class="ph">
+								<a href="https://www.treasure-f.com/sp/column/"  ><img src="https://www.treasure-f.com/images/top/ph_column.jpg" alt=""></a>							</div>
+							<div class="txtbox">
+								<a href="https://www.treasure-f.com/sp/column/" class="ttl"  >リサイクルコラム</a>								<p>リサイクルやリユースに関するコラム集をお届けします。</p>
+							</div>
+						</div>
+
+						<div class="box clearfix">
+							<div class="ph">
+								<a href="http://sellinglist.auctions.yahoo.co.jp/user/trefac" target="_blank"><img src="https://www.treasure-f.com/images/top/ph_yahoo.jpg" alt=""></a>
+							</div>
+							<div class="txtbox">
+								<a class="ttl" href="http://sellinglist.auctions.yahoo.co.jp/user/trefac" target="_blank" rel="nofollow" class="ttl" >ヤフオク!店</a>
+								<p>トレジャーファクトリーヤフオク!店には、お得な価格の商品がいっぱい！</p>
+							</div>
+						</div>
+
+						<div class="box_last clearfix">
+							<div class="ph">
+								<a href="https://www.treasurekaitori.com/dealer/" target="_blank"><img src="https://www.treasure-f.com/images/top/ph_dealer.gif" alt=""></a>
+							</div>
+							<div class="txtbox">
+								<a href="https://www.treasurekaitori.com/dealer/" target="_blank" class="ttl">法人の方の買取は<br>こちらから</a>
+								<p>在庫処分などで大量に余ってしまったお品物を一括で買取します</p>
+							</div>
+						</div>
+
+					</div>
+					<!-- /ピックアップ情報 -->
+
+
+
+					<!-- 関連サイト -->
+					<div class="relation">
+						<h2><img src="https://www.treasure-f.com/images/top/ttl_relation.gif" width="245px" height="29px" alt=""></h2>
+						<p class="desc">リサイクルショップ トレジャーファクトリーが運営する関連サイトはこちらから</p>
+
+
+
+						<div class="bnr">
+							<a href="https://www.tf-style.com/" target="_blank"><img src="https://www.treasure-f.com/images/top/bnr_style.gif" width="225px" height="68px" alt=""></a>
+							<p>古着や洋服の持込買取はトレジャーファクトリースタイル</p>
+						</div>
+
+
+						<div class="bnr">
+							<a href="https://www.trefac.jp/" target="_blank"><img src="https://www.treasure-f.com/images/top/bnr_online.gif" width="225px" height="68px" alt=""></a>
+							<p>ずっと欲しかったあのブランドの古着を驚きの価格で販売中！トレジャーファクトリースタイル オンラインストア</p>
+						</div>
+
+
+						<div class="bnr">
+							<a href="https://www.tfhikkoshi.com/?ref=side_top" target="_blank"><img src="https://www.treasure-f.com/images/top/bnr_moving2.gif" width="225px" height="68px" alt=""></a>
+							<p>「引越」と「不用品の買取」を一括で見積もりいたします。トレジャーファクトリーのトレファク引越。</p>
+						</div>
+
+
+						<div class="bnr">
+							<a href="https://brandcollect.com/" target="_blank"><img src="https://www.treasure-f.com/images/top/bnr_bc.gif" width="225px" height="68px" alt=""></a>
+							<p>ブランド古着を専門に扱う、トレジャーファクトリーの新業態。</p>
+						</div>
+
+
+						<div class="bnr">
+							<a href="https://www.cariru.jp/" target="_blank"><img src="https://www.treasure-f.com/images/top/bnr_cariru.gif" width="225px" height="68px" alt="Cariru"></a>
+							<p>パーティードレスやシューズ、アクセサリー、バッグがお得にレンタルできるドレスレンタル専門サイトです。</p>
+						</div>
+
+
+						<div class="bnr">
+							<a href="https://www.uruhapi.com/?ref=sub_bnr" target="_blank"><img src="https://www.treasure-f.com/images/top/bnr_uruhapi_20170131.gif" width="225px" height="68px" alt=""></a>
+							<p>査定から入金まで自宅で完結。トレファクの安心買取をお手軽に利用できる買取サイト。</p>
+						</div>
+					</div>
+					<!-- /関連サイト -->
+
+
+
+
+				</div>
+			</div>
+		</div>
+		<!-- /SUB -->
+
+
+
+
+
+		<div class="clr"></div>
+
+	</div>
+
+	<div class="totop"><a href="#header"><img src="https://www.treasure-f.com/images/common/pagetop.jpg" alt="PageTop"></a></div>
+
+	<!-- Footer -->
+	<div id="footer">
+		<div class="wrap">
+			<div class="inner">
+
+				<div class="about">
+					<h4>総合 リサイクルショップ トレジャーファクトリーについて　</h4>
+					<p>総合 リサイクルショップ トレジャーファクトリーでは、不用品の買取や中古品（洋服・古着・ブランド品・家具・家電・スポーツ用品・雑貨など）の販売を行っております。関東を中心に東京・埼玉・神奈川・千葉・茨城・福島に続々出店中！あなたのリユース生活をお手伝いする、総合 リサイクルショップ トレジャーファクトリーをぜひご利用ください。</p>
+				</div>
+
+
+				<div class="sitemap">
+					<dl>
+						<dt class="company"><a href="http://www.treasurefactory.co.jp/" target="_blank"  ><img src="https://www.treasure-f.com/images/common/icon_company.gif">会社案内</a></dt>
+						<dd class="company"><a href="http://www.treasurefactory.co.jp/compainfo/gaiyou.html" target="_blank"  >企業情報</a></dd>
+						<dd class="company"><a href="http://www.treasurefactory.co.jp/ir/" target="_blank"  >IR情報</a></dd>
+						<dd class="company"><a href="http://www.treasurefactory.co.jp/recruit/" target="_blank"  >採用情報</a></dd>
+					</dl>
+
+					<dl>
+						<dt><a href="https://www.treasure-f.com/shop/"  >お店を探す</a></dt>
+						<dd><a href="https://www.treasure-f.com/shop/13/area.html"  >東京都</a></dd>
+						<dd><a href="https://www.treasure-f.com/shop/11/area.html"  >埼玉県</a></dd>
+						<dd><a href="https://www.treasure-f.com/shop/12/area.html"  >千葉県</a></dd>
+						<dd><a href="https://www.treasure-f.com/shop/14/area.html"  >神奈川県</a></dd>
+						<dd><a href="https://www.treasure-f.com/shop/8/area.html"  >茨城県</a></dd>
+						<dd><a href="https://www.treasure-f.com/shop/6/area.html"  >福島県</a></dd>
+						<dd><a href="https://www.treasure-f.com/shop/26/area.html"  >京都府</a></dd>
+						<dd><a href="https://www.treasure-f.com/shop/28/area.html"  >兵庫県</a></dd>
+						<dd><a href="https://www.treasure-f.com/shop/27/area.html"  >大阪府</a></dd>
+						<dd><a href="https://www.treasure-f.com/shop/23/area.html"  >愛知県</a></dd>
+						<dd><a href="https://www.treasure-f.com/shop/40/area.html"  >福岡県</a></dd>
+					</dl>
+
+					<dl>
+						<dt><a href="https://www.treasure-f.com/shop/topics.html"  >新入荷＆買取情報</a></dt>
+						<dd><a href="https://www.treasure-f.com/shop/topics.html?pref=13"  >東京都の新着情報</a></dd>
+						<dd><a href="https://www.treasure-f.com/shop/topics.html?pref=11"  >埼玉県の新着情報</a></dd>
+						<dd><a href="https://www.treasure-f.com/shop/topics.html?pref=12"  >千葉県の新着情報</a></dd>
+						<dd><a href="https://www.treasure-f.com/shop/topics.html?pref=14"  >神奈川県の新着情報</a></dd>
+						<dd><a href="https://www.treasure-f.com/shop/topics.html?pref=8"  >茨城県の新着情報</a></dd>
+						<dd><a href="https://www.treasure-f.com/shop/topics.html?pref=6"  >福島県の新着情報</a></dd>
+						<dd><a href="https://www.treasure-f.com/shop/topics.html?pref=26"  >京都府の新着情報</a></dd>
+						<dd><a href="https://www.treasure-f.com/shop/topics.html?pref=28"  >兵庫県の新着情報</a></dd>
+						<dd><a href="https://www.treasure-f.com/shop/topics.html?pref=27"  >大阪府の新着情報</a></dd>
+						<dd><a href="https://www.treasure-f.com/shop/topics.html?pref=23"  >愛知県の新着情報</a></dd>
+						<dd><a href="https://www.treasure-f.com/shop/topics.html?pref=40"  >福岡県の新着情報</a></dd>
+						<dd><a href="https://www.treasure-f.com/shop/tg/"  >注目のキーワード</a></dd>
+					</dl>
+
+					<dl>
+						<dt><a href="https://www.treasure-f.com/sell/"  >買取のご案内</a></dt>
+						<dd><a href="https://www.treasure-f.com/sell/into/"  >持込買取</a></dd>
+						<dd><a href="https://www.treasure-f.com/sell/trip/guide.html"  >出張買取</a></dd>
+						<dd><a href="https://www.treasure-f.com/sell/tfhikkoshi/"  >引越＆買取</a></dd>
+						<dd><a href="https://www.treasure-f.com/sell/post/"  >宅配買取</a></dd>
+					</dl>
+
+					<dl>
+						<dt><a href="https://www.treasure-f.com/goods/"  >取扱い商品</a></dt>
+						<dd><a href="https://www.treasure-f.com/goods/gdslist.php"  >過去の販売実績</a></dd>
+					</dl>
+
+					<dl>
+						<dt><a href="https://www.treasure-f.com/service/"  >サービスガイド</a></dt>
+						<dd><a href="https://www.treasure-f.com/service/credit.html"  >各種クレジットカード</a></dd>
+						<dd><a href="https://www.treasure-f.com/service/point.html"  >ポイントサービス</a></dd>
+						<dd><a href="https://www.treasure-f.com/service/guarantee.html"  >安心保証</a></dd>
+					</dl>
+
+					<dl>
+						<dt><a href="https://www.treasure-f.com/contact/"  >お問い合わせ</a></dt>
+						<dd><a href="https://www.treasure-f.com/contact/"  >お問い合わせフォーム</a></dd>
+						<dd><a href="https://www.treasure-f.com/estate/"  >店舗物件情報</a></dd>
+						<dd><a href="https://www.treasure-f.com/sitemap"  >サイトマップ</a></dd>
+					</dl>
+					<div class="clr"></div>
+				</div>
+
+				<div class="box">
+					<ul>
+						<li><a href="https://www.treasure-f.com/privacy/index.html"  >個人情報保護方針</a></li>
+						<li><a href="https://www.treasure-f.com/privacy/site_privacy.html"  >サイトプライバシーポリシー</a></li>
+						<li><a href="https://www.treasure-f.com/privacy/permit.html"  >古物営業法に基づく表示</a></li>
+						<li><a href="https://www.treasure-f.com/privacy/infoproc.html"  >「開示請求」の手続きに関するご案内</a></li>
+						<li><a href="https://www.treasure-f.com/privacy/permit2.html"  >特定商取引法</a></li>
+					</ul>
+					<div class="copyright">&copy; 1999-2017 Treasure Factory</div>
+					<div class="clr"></div>
+				</div>
+
+			</div>
+
+			<div class="tf clearfix">
+				<div class="boxs clearfix">
+					<p><a href="https://www.treasure-f.com/"  >リサイクルショップ トレジャーファクトリー|リサイクル品・古着の買取と販売</a>&nbsp;｜&nbsp;<a href="http://www.uruhapi.com/" target="_blank" rel="nofollow">リサイクルショップ検索</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- /Footer -->
+
+
+</div>
+
+
+</body>
+</html>

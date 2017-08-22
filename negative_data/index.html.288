@@ -1,0 +1,295 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="ja">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-type" content="text/javascript" />
+<meta name="viewport" content="target-densitydpi=device-dpi, width=device-950, maximum-scale=1.0, user-scalable=yes">
+<title>エスフーズ株式会社</title>
+<meta name="Keywords" content="エスフーズ,こてっちゃん,バラエティーミート" />
+<meta name="Description" content="日本の食卓と世界の農場を信頼でつなぐエスフーズ株式会社のホームページ" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+<script type="text/javascript" src="js/perfect-scrollbar.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-60616104-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</head>
+
+<body id="home-active">
+<div class="wrapper">
+
+<div id="header">
+<h1 class="header-logo"><a href="index.html"><img src="images/header-logo.png" width="241" height="31" alt="エスフーズ株式会社" /></a></h1>
+</div><!-- header out -->
+
+<div class="home-slogan"><img src="images/home-slogan.png" width="507" height="79" alt="私たちエスフーズは食卓に安心とおいしさをお届けします。" /></div>
+
+<div class="navi-wrapper">
+<ul class="navi">
+<li><a href="index.html" class="navi01">エスフーズ株式会社ホーム</a></li>
+<li><a href="company03.html" class="navi02">会社案内</a>
+<ul class="second-navi">
+<li><a href="company01.html">トップからのメッセージ</a></li>
+<li><a href="company02.html">経営理念</a></li>
+<li><a href="company03.html">会社概要</a></li>
+<li><a href="company04.html">沿革</a></li>
+<li><a href="company05.html">本社・支店・営業所</a></li>
+<li><a href="company06.html">役員一覧</a></li>
+<li class="last-child"><a href="company07.html">組織図</a></li>
+</ul></li>
+<li><a href="products01.html" class="navi03">製品情報</a>
+<ul class="second-navi">
+<li><a href="products01.html">製品情報</a></li>
+<li><a href="http://www.kotetchan.com" target="_blank">こてっちゃん</a></li>
+<li><a href="products02.html">定番商品</a></li>
+<li><a href="products03.html">季節製品</a></li>
+<li><a href="products04.html">業務用製品のご案内</a></li>
+<li class="last-child"><a href="products05.html">PB製品のご提案</a></li>
+</ul></li>
+<li><a href="anzen01.html" class="navi04">安全管理体制</a>
+<ul class="second-navi">
+<li><a href="anzen01.html">安心と安全</a></li>
+<li><a href="anzen02.html">工場・開発センター</a></li>
+<li><a href="anzen03.html">ミートセンター</a></li>
+<li class="last-child"><a href="anzen04.html">製品流通</a></li>
+</ul></li>
+<li><a href="ir01.html" class="navi05">IR情報</a>
+<ul class="second-navi">
+<li><a href="ir01.html">プレスリリース</a></li>
+<li><a href="investor/koukoku.html">電子公告</a></li>
+<li><a href="ir03.html">決算短信</a></li>
+<li><a href="http://stock.dir.co.jp/Dir.asp?MARKET=T&MCODE=2292&BGCOLOR=ffffff&FONTCOLOR=000000&FONTSIZE=3&CHART=01" target="_blank">株価情報</a></li>
+<li><a href="ir04.html">事業報告書</a></li>
+<li><a href="ir05.html">財務ハイライト</a></li>
+<li class="last-child"><a href="ir06.html">株式情報</a></li>
+</ul></li>
+<li><a href="http://www.sfoods.co.jp/adoption/index.html" target="_blank" class="navi06">採用情報</a></li>
+<li><a href="contact/index.html" class="navi07">お問い合わせ</a></li>
+</ul><!-- navi out -->
+</div>
+
+<ul class="contents-navi">
+<li><a href="http://www.kotetchan.com/" target="_blank"><dl>
+<dt><img src="images/home-dt01.png" width="207" height="23" alt="ブランドサイト" /></dt>
+<dd><img src="images/home-dd01.jpg" width="216" height="146" alt="こてっちゃん" /></dd>
+</dl></a></li>
+<li><a href="products03.html"><dl>
+<dt><img src="images/home-dt02.png" width="207" height="23" alt="新製品" /></dt>
+<dd><img src="images/home-dd02.jpg" width="216" height="146" alt="季節製品" /></dd>
+</dl></a></li>
+<li><a href="company03.html"><dl>
+<dt><img src="images/home-dt03.png" width="207" height="23" alt="会社案内" /></dt>
+<dd><img src="images/home-dd03.jpg" width="216" height="146" alt="会社案内" /></dd>
+</dl></a></li>
+<li class="last-child"><a href="ir01.html"><dl>
+<dt><img src="images/home-dt04.png" width="207" height="23" alt="投資家情報" /></dt>
+<dd><img src="images/home-dd04.jpg" width="216" height="146" alt="投資家情報" /></dd>
+</dl></a></li>
+</ul><!-- contents-navi out -->
+
+<div class="contents">
+<div class="contents-left">
+<h2><img src="images/heading-home01.png" width="700" height="40" alt="エスフーズからのお知らせ" /></h2>
+<div class="scrollbar-wrapper">
+<div id="scrollbar">
+<ul>
+<li>
+<div>
+<span class="post-date">2017年7月13日</span>
+<span class="post-cat cat01-wrapper">プレスリリース</span>
+</div>
+<p><a href="pdf/index/press156.pdf#view=Fit" target="_blank">当社従業員に対する譲渡制限付株式報酬としての自己株式の処分に関するお知らせ<span><img src="images/pdf-ico.png" width="16" height="16" /></span></a></p>
+</li>
+
+<li>
+<div>
+<span class="post-date">2017年7月13日</span>
+<span class="post-cat cat02-wrapper">決算短信</span>
+</div>
+<p><a href="pdf/tanshin/tanshin75.pdf#view=Fit" target="_blank">第1四半期決算短信〔日本基準〕(連結)<span><img src="images/pdf-ico.png" width="16" height="16" /></span></a>
+</p>
+</li>
+
+<li>
+<div>
+<span class="post-date">2017年5月24日</span>
+<span class="post-cat cat01-wrapper">プレスリリース</span>
+</div>
+<p><a href="pdf/index/press155.pdf#view=Fit" target="_blank">支配株主等に関する事項について<span><img src="images/pdf-ico.png" width="16" height="16" /></span></a></p>
+</li>
+
+<li>
+<div>
+<span class="post-date">2017年4月14日</span>
+<span class="post-cat cat02-wrapper">決算短信</span>
+</div>
+<p><a href="pdf/tanshin/tanshin74.pdf#view=Fit" target="_blank">決算短信〔日本基準〕（連結）<span><img src="images/pdf-ico.png" width="16" height="16" /></span></a></p>
+</li>
+
+<li>
+<div>
+<span class="post-date">2017年4月14日</span>
+<span class="post-cat cat01-wrapper">プレスリリース</span>
+</div>
+<p><a href="pdf/index/press153.pdf#view=Fit" target="_blank">個別業績の前年実績値との差異に関するお知らせ<span><img src="images/pdf-ico.png" width="16" height="16" /></span></a></p>
+</li>
+
+<li>
+<div>
+<span class="post-date">2017年4月14日</span>
+<span class="post-cat cat01-wrapper">プレスリリース</span>
+</div>
+<p><a href="pdf/index/press154.pdf#view=Fit" target="_blank">役員の異動に関するお知らせ<span><img src="images/pdf-ico.png" width="16" height="16" /></span></a></p>
+</li>
+
+<li>
+<div>
+<span class="post-date">2017年2月28日</span>
+<span class="post-cat cat03-wrapper">お知らせ</span>
+</div>
+<p><a href="products03.html">「春夏製品」</a><a href="products02.html">「定番製品」</a>のご案内
+</p>
+</li>
+
+<li>
+<div>
+<span class="post-date">2017年2月20日</span>
+<span class="post-cat cat01-wrapper">プレスリリース</span>
+</div>
+<p><a href="pdf/index/press152.pdf#view=Fit" target="_blank">組織変更及び 人事異動に関するお知らせ<span><img src="images/pdf-ico.png" width="16" height="16" /></span></a>
+</p>
+</li>
+
+<li>
+<div>
+<span class="post-date">2017年1月12日</span>
+<span class="post-cat cat02-wrapper">決算短信</span>
+</div>
+<p><a href="pdf/tanshin/tanshin73.pdf#view=Fit" target="_blank">平成29年2月期 第3四半期決算短信〔日本基準〕（連結）<span><img src="images/pdf-ico.png" width="16" height="16" /></span></a>
+</p>
+</li>
+
+<li>
+<div>
+<span class="post-date">2016年12月2日</span>
+<span class="post-cat cat03-wrapper">お知らせ</span>
+</div>
+<p><a href="pdf/index/press151.pdf#view=Fit" target="_blank">お詫びとお知らせ<span><img src="images/pdf-ico.png" width="16" height="16" /></span></a>
+</p>
+</li>
+
+</ul>
+</div><!-- scrollbar out -->
+</div>
+</div><!-- contents-left out -->
+
+<div class="contents-right">
+<ul class="banner">
+<li><a href="http://www.kotetchan.com/" target="_blank"><img src="images/banner01.jpg" width="219" height="60" alt="こてっちゃん" /></a></li>
+<li><a href="products01.html"><img src="images/banner02.jpg" width="219" height="60" alt="製品情報" /></a></li>
+<li><a href="top/yukke.pdf#view=Fit" target="_blank"><img src="images/banner03.png" width="219" height="60" alt="国産牛ユッケ・たたきのご案内" /></a></li>
+<li><a href="brand.html"><img src="images/banner04.png" width="219" height="60" alt="食肉ブランドのご案内" /></a></li>
+<li class="last-child"><a href="rireki_lot_system/index.html"><img src="images/banner05.png" width="219" height="60" alt="ロット番号から識別する個体識別番号検索システム" /></a></li>
+</ul>
+</div><!-- contents-right out -->
+</div><!-- contents out -->
+
+<div class="first-footer-wrapper">
+<div class="first-footer">
+<dl>
+<dt>会社案内</dt>
+<dd><ul>
+<li><a href="company01.html">トップからのメッセージ</a></li>
+<li><a href="company02.html">経営理念</a></li>
+<li><a href="company03.html">会社概要</a></li>
+<li><a href="company04.html">沿革</a></li>
+<li><a href="company05.html">本社・支店・営業所</a></li>
+<li><a href="company06.html">役員一覧</a></li>
+<li><a href="company07.html">組織図</a></li>
+</a></li>
+</ul></dd>
+</dl>
+
+<dl>
+<dt>製品情報</dt>
+<dd><ul>
+<li><a href="products01.html">製品情報</a></li>
+<li><a href="http://www.kotetchan.com" target="_blank">こてっちゃん</a></li>
+<li><a href="products02.html">定番商品</a></li>
+<li><a href="products03.html">季節製品</a></li>
+<li><a href="products04.html">業務用製品のご案内</a></li>
+<li><a href="products05.html">PB製品のご提案</a></li>
+</ul></dd>
+</dl>
+
+<dl>
+<dt>安全管理体制</dt>
+<dd><ul>
+<li><a href="anzen01.html">安心と安全</a></li>
+<li><a href="anzen02.html">工場・開発センター</a></li>
+<li><a href="anzen03.html">ミートセンター</a></li>
+<li><a href="anzen04.html">製品流通</a></li>
+</ul></dd>
+</dl>
+
+<dl>
+<dt>IR情報</dt>
+<dd><ul>
+<li><a href="ir01.html">プレスリリース</a></li>
+<li><a href="investor/koukoku.html">電子公告</a></li>
+<li><a href="ir03.html">決算短信</a></li>
+<li><a href="http://stock.dir.co.jp/Dir.asp?MARKET=T&MCODE=2292&BGCOLOR=ffffff&FONTCOLOR=000000&FONTSIZE=3&CHART=01" target="_blank">株価情報</a></li>
+<li><a href="ir04.html">事業報告書</a></li>
+<li><a href="ir05.html">財務ハイライト</a></li>
+<li><a href="ir06.html">株式情報</a></li>
+</ul></dd>
+</dl>
+
+<div><ul>
+<li><a href="cooking.html">クッキングギャラリー</a></li>
+<li><a href="http://www.sfoods.co.jp/top/yukke.pdf#view=Fit" target="_blank">国産牛ユッケ・たたきのご案内</a></li>
+<li><a href="brand.html">食肉ブランドのご案内</a></li>
+<li><a href="rireki_lot_system/index.html">個体識別番号検索システム</a></li>
+<li><a href="http://www.sfoods.co.jp/adoption/index.html" target="_blank">採用情報</a></li>
+<li><a href="contact/index.html">お問い合わせ</a></li>
+<li><a href="sitemap.html">サイトマップ</a></li>
+</ul></div>
+
+</div><!-- first-footer out -->
+</div><!-- first-footer-wrapper out -->
+
+<div class="second-footer-wrapper">
+<div class="second-footer">
+<div>
+<h2><a href="index.html"><img src="images/footer-logo.png" width="96" height="12" alt="エスフーズ株式会社" /></a></h2>
+<p>〒663-8172 兵庫県西宮市鳴尾浜1-22-13 TEL(0798)43-1065（代表）FAX(0798)43-1067</p>
+</div>
+<ul>
+<li><a href="riyou.html">ホームページのご利用について</a></li>
+<li><a href="privacy.html">プライバシーポリシー</a></li>
+<li class="last-child"><a href="http://www.sfoods.co.jp/english/index.html">English</a></li>
+</ul>
+</div><!-- second-footer out -->
+</div><!-- second-footer-wrapper out -->
+
+<div class="third-footer-wrapper">
+<div class="third-footer">
+<p>Copyright (C) SFOODS Inc. All Rights Reserved.</p>
+</div><!-- third-footer out -->
+
+</div><!-- third-footer-wrapper out -->
+
+</div><!-- wrapper out -->
+</body>
+</html>

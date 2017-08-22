@@ -1,0 +1,432 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja"><!-- InstanceBegin template="/Templates/temp.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>おいしさで・しあわせをつくる ダイショー</title>
+<!-- InstanceEndEditable -->
+<meta name="description" content="ダイショー公式ホームページ。味塩こしょう・鍋用スープなどの商品情報や、かんたんレシピなど。"/>
+
+<meta name="keywords" content="味塩こしょう,鍋用スープ,しゃぶしゃぶのたれ,コショー,塩,料理,レシピ,献立,朝ご飯,朝ごはん,昼ご飯,昼ごはん,夕ご飯,夕ごはん,鍋,おかず,お弁当,ダイショー,健康,食,栄養"/>
+
+<meta name="robots" content="index,follow" />
+<meta name="copyright" content="Copyright &copy; DAISHO Co., Ltd. All Rights Reserved." />
+
+<link rel="stylesheet" type="text/css" href="/css/setting.css" media="all" />
+<link rel="alternate stylesheet" href="/css/fontsmall.css" type="text/css" title="small" />
+<link rel="alternate stylesheet" href="/css/fontmedium.css" type="text/css" title="medium" />
+<link rel="alternate stylesheet" href="/css/fontlarge.css" type="text/css" title="large" />
+
+<script type="text/javascript" src="/js/styleswitcher.js"></script>
+<script type="text/javascript" src="/js/popup.js"></script>
+<script type="text/javascript" src="/js/smartRollover.js"></script>
+<script type="text/javascript" src="/js/scrollsmoothly.js"></script>
+
+
+<script type="text/javascript" src="/js/mootools-1.2-core.js"></script>
+<script type="text/javascript" src="/js/mootools-1.2-more.js"></script>
+
+
+<!-- InstanceBeginEditable name="head" -->
+
+<link rel="stylesheet" type="text/css" href="/css/top.css" media="all" />
+
+
+<script type="text/javascript" src="/js/jquery-1.9.0.min.js"></script>
+<script type="text/javascript" src="/js/jquery.bxslider.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('.bxslider').bxSlider({
+        auto: true,
+        pause:	5000,
+        speed: 1000,
+        mode: 'fade',
+        pager:true,
+        controls: false,
+        });
+
+	$('ul.bxslider li img').show();
+  });
+</script>
+
+
+<!-- InstanceEndEditable --><!-- InstanceParam name="id" type="text" value="recipeDetail" -->
+
+
+</head>
+
+<body id="top">
+
+<!-- [[ container ]] -->
+<div id="container">
+
+
+<!-- [header area] -->
+<div id="header">
+
+<p id="siteId"><a href="/"><img src="/common/logo.gif" alt="おいしさで・しあわせをつくる ダイショー" width="149" height="40" border="0" /></a></p>
+<ul class="hNavi">
+<li class="mag"><a href="/mag/index.html"><img src="/common/h_navi01_off.gif" alt="メルマガ登録" width="95" height="24" /></a></li>
+<li class="toi"><a href="/english/index.html"><img src="/common/h_navi02_off.gif" alt="English" width="75" height="24" /></a></li>
+<!-- /head-menu --></ul>
+
+<div id="fontArea">
+<ul id="fontSize">
+<li id="fontSmall"><a href="javascript:setActiveStyleSheet('small');" title="文字サイズを小へ">文字を小さく</a></li>
+<li id="fontMedium"><a href="javascript:setActiveStyleSheet('medium');" title="フォ文字サイズを中へ">文字を中に</a></li>
+
+<li id="fontLarge"><a href="javascript:setActiveStyleSheet('large');" title="文字サイズを大へ">文字を大きく</a></li>
+</ul>
+</div>
+
+
+<div id="word">
+<form method="get" action="https://www.google.co.jp/search">
+<input type="text" name="q" onfocus="if (this.value == 'サイト内検索') this.value = '';" onblur="if (this.value == '') this.value = 'サイト内検索';" value="サイト内検索" class="area" />
+<input type="hidden" name="ie" value="utf-8" />
+<input type="hidden" name="oe" value="utf-8" />
+<input type="hidden" name="hl" value="ja" />
+<input type="hidden" name="cof" value="L:https://www.daisho.co.jp/common/g_logo.gif;LH:80;LW:190;BGC:#FFFFFF;T:#333333;LC:#FF6600;VLC:#FF0000;ALC:#FF0000;GALT:#008000;GFNT:#333333;GIMP:#333333;DIV:#FF0000;LBGC:#FFFFFF;AH:left;S:https://www.daisho.co.jp" />
+<input type="hidden" name="domains" value="www.daisho.co.jp" />
+<input type="hidden" name="sitesearch" value="www.daisho.co.jp" checked="checked" />
+<input type="image" src="/common/h_src_b.gif" alt="検索" class="btn" />
+</form>
+</div>
+
+
+<!-- /header area --></div>
+<!-- /[header area] -->
+
+
+
+<!-- [ menu area ] -->
+
+
+<ul id="gNavi">
+    <li><a href="/item/"><img src="/common/g_navi01_off.jpg" alt="商品情報" width="150" height="46" border="0" /></a></li>
+    <li><a href="/recipe/"><img src="/common/g_navi02_off.jpg" alt="レシピ" width="150" height="46" border="0" /></a></li>
+    <li><a href="http://www.oec-daisho.com/" rel="external"><img src="/common/g_navi03_off.jpg" alt="ショッピング" width="150" height="46" border="0" /></a></li>
+    <li><a href="/campaign/index.html"><img src="/common/g_navi04_off.jpg" alt="キャンペーン" width="149" height="46" border="0" /></a></li>
+    <li><a href="/inquiry/index.html"><img src="/common/g_navi05_off.jpg" alt="お問い合わせ" width="150" height="46" border="0" /></a></li>
+    <li><a href="/company/index.html"><img src="/common/g_navi06_off.jpg" alt="企業情報" width="150" height="46" /></a></li>
+    <!-- /gNavi -->
+</ul>
+<!-- /[ menu area ] -->
+
+<div id="wrapper">
+    <div id="flashArea">
+
+        <ul class="bxslider">
+            <!--
+            <li class="bnr03">
+            <a href="/campaign/index.html#camp01"><img src="/img/main_bnr03.jpg" alt="キャンペーン"></a>
+            </li>
+            <li class="bnr04">
+            <a href="/campaign/index.html#camp02"><img src="/img/main_bnr04.jpg" alt="キャンペーン"></a>
+            </li>
+            <li class="bnr05">
+            <img src="/img/main_bnr05.jpg" alt="この冬、３つの鍋が新登場!!" style="display:none;">
+
+            <ul class="mlink01">
+            <li><a href="http://www.daisho.co.jp/item/detail/i/133368/"><img src="/img/sp_btn.png" alt="商品詳細を見る" width="100" height="20" border="0"></a></li>
+            <li><a href="http://www.daisho.co.jp/recipe/detail/i/793/"><img src="/img/sp_btn.png" alt="商品レシピを見る" width="110" height="20" border="0"></a></li>
+            </ul>
+
+            <ul class="mlink02">
+            <li><a href="http://www.daisho.co.jp/item/detail/i/147734/"><img src="/img/sp_btn.png" alt="商品詳細を見る" width="100" height="20" border="0"></a></li>
+            <li><a href="http://www.daisho.co.jp/recipe/detail/i/807/"><img src="/img/sp_btn.png" alt="商品レシピを見る" width="110" height="20" border="0"></a></li>
+            </ul>
+            <ul class="mlink03">
+            <li><a href="http://www.daisho.co.jp/item/detail/i/131119/"><img src="/img/sp_btn.png" alt="商品詳細を見る" width="100" height="20" border="0"></a></li>
+            <li><a href="http://www.daisho.co.jp/recipe/detail/i/798/"><img src="/img/sp_btn.png" alt="商品レシピを見る" width="110" height="20" border="0"></a></li>
+            </ul>
+            </li>
+            -->
+            <!--
+            <li class="bnr09">
+            <img src="/img/main_bnr09.jpg" alt="魚バル" style="display:none;">
+            <p class="mlink01"><a href="http://www.daisho.co.jp/item/detail/i/140178/"><img src="/img/sp_btn.png" alt="商品詳細を見る" width="100" height="20" border="0" /></a></p>
+            <p class="mlink02"><a href="http://www.daisho.co.jp/item/detail/i/140179/"><img src="/img/sp_btn.png" alt="商品詳細を見る" width="100" height="20" border="0" /></a></p>
+            <p class="mlink03"><a href="http://www.daisho.co.jp/item/detail/i/140180/"><img src="/img/sp_btn.png" alt="商品詳細を見る" width="100" height="20" border="0" /></a></p>
+            <p class="mlink04"><a href="http://www.daisho.co.jp/item/detail/i/140181/"><img src="/img/sp_btn.png" alt="商品詳細を見る" width="100" height="20" border="0" /></a></p>
+            </li>
+            -->
+            
+            <li class="bnr10">
+            <img src="/img/main_bnr10.jpg" alt="肉が主役のソース" style="display:none;">
+            <p class="mlink01"><a href="http://www.daisho.co.jp/item/detail/i/110238/"><img src="/img/sp_btn.png" alt="商品詳細を見る" width="100" height="20" border="0" /></a></p>
+            <p class="mlink02"><a href="http://www.daisho.co.jp/item/detail/i/110239/"><img src="/img/sp_btn.png" alt="商品詳細を見る" width="100" height="20" border="0" /></a></p>
+            </li>
+            
+            <li class="bnr08">
+            <img src="/img/main_bnr08.jpg" alt="ごくベジ" style="display:none;">
+            <p class="mlink01"><a href="http://www.daisho.co.jp/item/detail/i/131171/"><img src="img/sp_btn.png" alt="商品詳細を見る" width="100" height="20" border="0" /></a></p>
+            </li>
+            
+            <li class="bnr11">
+            <img src="/img/main_bnr11.jpg" alt="野菜粥" style="display:none;">
+            <p class="mlink01"><a href="http://www.daisho.co.jp/item/detail/i/152546/"><img src="/img/sp_btn.png" alt="商品詳細を見る" width="100" height="20" border="0" /></a></p>
+            <p class="mlink02"><a href="http://www.daisho.co.jp/item/detail/i/152545/"><img src="/img/sp_btn.png" alt="商品詳細を見る" width="100" height="20" border="0" /></a></p>
+            </li>
+
+        </ul>
+    </div>
+
+    <!--<div id="topInfo"><img src="/img/top_info.gif" alt="東日本大震災において被災された皆様には、心よりお見舞い申し上げます。被災地の一日も早い復旧・復興をお祈り申し上げます。" width="900" height="70"></div>-->
+    <!--<div id="topInfo"><a href="pdf/info20151105.pdf" target="_blank"><img src="/img/kaishu.gif" alt="重要なお知らせ 自主回収に係るお詫びとお知らせ" width="900" height="34"></a></div>-->
+
+<div id="contents">
+
+    <div id="side">
+        <ul>
+            <li><a href="/item/list/t/new/"><img src="/img/s_navi01_off.jpg" alt="新商品" width="155" height="67"></a></li>
+                                                <li><a href="/item/categorydetail/c/1/"><img src="/img/s_navi02_off.jpg" alt="鍋用スープ・洋風スープ"></a>
+                                        </li>
+                                                <li><a href="/item/categorydetail/c/2/"><img src="/img/s_navi03_off.jpg" alt="しゃぶしゃぶ・すきやき"></a>
+                                        </li>
+                                                <li><a href="/item/categorydetail/c/3/"><img src="/img/s_navi04_off.jpg" alt="焼肉のたれ・ｽﾃｰｷｿｰｽ"></a>
+                                        </li>
+                                                <li><a href="/item/categorydetail/c/4/"><img src="/img/s_navi05_off.jpg" alt="味・塩こしょう"></a>
+                                        </li>
+                                                <li><a href="/item/categorydetail/c/5/"><img src="/img/s_navi07_off.jpg" alt="青汁"></a>
+                                        </li>
+                                                <li><a href="/item/categorydetail/c/6/"><img src="/img/s_navi06_off.jpg" alt="ドレッシング"></a>
+                                        </li>
+                                                <li>
+                    <a href="JavaScript:void(0)"><img src="/img/s_navi08.jpg" alt="その他" width="155" height="67"></a>
+                    <ul>
+                                                    <li><a href="/item/categorydetail/c/26/">お肉がおいしい調味料</a></li>
+                                                    <li><a href="/item/categorydetail/c/27/">お魚がおいしい調味料</a></li>
+                                                    <li><a href="/item/categorydetail/c/28/">野菜がおいしい調味料</a></li>
+                                                    <li><a href="/item/categorydetail/c/7/">その他調味料</a></li>
+                        
+                    </ul>
+                                </li>
+                                                <li><a href="/item/categorydetail/c/1000/"><img src="/img/s_navi09_off.jpg" alt="業務用"></a>
+                                        </li>
+            
+        </ul>
+
+    </div>
+
+<div id="main">
+    <!-- <div class="bnrArea"><a href="/campaign/"><img src="/img/bnr_aojiru.jpg" alt="キャンペーン"></a></div> -->
+
+    <div class="block01">
+        <div class="inner">
+            <div class="boxLeft">
+                <h2>
+                    <img src="/img/recipe_tit01.jpg" alt="特選レシピ検索" width="300" height="25">
+                    <a href="/recipe/list/"><img src="/img/recipe_sum_b.jpg" alt="レシピ一覧" width="83" height="25"></a>
+                </h2>
+
+                <form id="index_form1" name="index_form1" method="get" enctype="" style="border:solid #aaaaaa 0px; padding: 0px 0px 0px 0px; margin-bottom: 0px;" action="/recipe/list/" onSubmit="if (document.getElementById(&#39;k&#39;)) if (document.getElementById(&#39;k&#39;).value == &#39;例）チーズ　ナベ&#39;) document.getElementById(&#39;k&#39;).value = &#39;&#39;;">
+                <div class="seachblk01">
+                    <div class="box">
+                        <img src="/img/srch_tit01.gif" alt="フリーワードで検索する" width="165" height="17"><br>
+                        
+<input type="text" name="k" id="k" value="例）チーズ　ナベ" maxlength="50" onfocus="if (this.value == &#39;例）チーズ　ナベ&#39;) this.value = &#39;&#39;;" onblur="if (this.value == &#39;&#39;) this.value = &#39;例）チーズ　ナベ&#39;;">
+                        <p>※カタカナで入力すると見つけやすくなります。</p>
+                    </div>
+                    <input type="image" src="/img/free_btn.jpg" class="btn">
+                </div>
+                </form>
+
+                <form id="index_form2" name="index_form2" method="get" enctype="" style="border:solid #aaaaaa 0px; padding: 0px 0px 0px 0px; margin-bottom: 0px;" action="/recipe/list/">
+                <div class="seachblk02">
+                    <p class="tit"><img src="/img/srch_tit02.gif" alt="ジャンル指定して検索する" width="208" height="17"></p>
+                    <div class="box">
+                        
+<select name="ic" id="ic">
+    <option value="0" selected="selected">商品カテゴリ</option>
+    <option value="1">鍋用スープ・洋風スープ</option>
+    <option value="2">しゃぶしゃぶ・すきやき</option>
+    <option value="3">焼肉のたれ・ｽﾃｰｷｿｰｽ</option>
+    <option value="4">味・塩こしょう</option>
+    <option value="5">青汁</option>
+    <option value="6">ドレッシング</option>
+    <option value="26">お肉がおいしい調味料</option>
+    <option value="27">お魚がおいしい調味料</option>
+    <option value="28">野菜がおいしい調味料</option>
+    <option value="7">その他調味料</option>
+    <option value="1000">業務用</option>
+</select>
+                        
+<select name="rc1" id="rc1">
+    <option value="0" selected="selected">料理ジャンル</option>
+    <option value="29">和食</option>
+    <option value="30">洋食</option>
+    <option value="31">中華</option>
+    <option value="32">韓国料理</option>
+    <option value="33">エスニック</option>
+    <option value="34">イタリアン</option>
+    <option value="35">その他</option>
+</select>
+                        
+<select name="rc2" id="rc2">
+    <option value="0" selected="selected">食材</option>
+    <option value="2">牛肉</option>
+    <option value="3">豚肉</option>
+    <option value="4">鶏肉</option>
+    <option value="5">その他の肉</option>
+    <option value="6">魚</option>
+    <option value="7">イカ・エビ・タコ・カニ</option>
+    <option value="8">貝</option>
+    <option value="9">海藻</option>
+    <option value="10">野菜</option>
+    <option value="11">いも</option>
+    <option value="12">きのこ</option>
+    <option value="13">果物</option>
+    <option value="14">卵・乳製品</option>
+    <option value="15">豆・豆腐</option>
+    <option value="16">ごはん</option>
+    <option value="17">麺・パスタ</option>
+    <option value="18">その他</option>
+</select>
+                    </div>
+                    <input type="image" src="/img/genre_btn.jpg" class="btn">
+                </div>
+                </form>
+            </div>
+
+            <div class="boxRight">
+                <h2><img src="/img/month_recipe.jpg"></h2>
+                                    <p class="photo">
+                        <a href="/recipe/detail/i/668/"><img src="/uploads/recipe/0000006239.jpg" alt="キャベツのガーリックバター炒め"></a>
+                    </p>
+                    <p><a href="/recipe/detail/i/668/">キャベツのガーリックバター炒め</a></p>
+                    <p><a href="/recipemonthly/"><img src="/img/osusume_b_off.gif" alt="季節のおすすめ一覧をみる" width="160" height="13"></a></p>
+                            </div>
+
+            <p class="foot"><img src="/img/recipe_bg03.jpg" alt=""></p>
+        </div>
+    </div>
+
+    <form id="index_form3" name="index_form3" method="get" enctype="" style="border:solid #aaaaaa 0px; padding: 0px 0px 0px 0px; margin-bottom: 0px;" action="/item/list/" onSubmit="if (document.getElementById(&#39;ik&#39;)) if (document.getElementById(&#39;ik&#39;).value == &#39;例）アジ　シオコショウ&#39;) document.getElementById(&#39;ik&#39;).value = &#39;&#39;;">
+    <div class="block01">
+        <div class="inner02">
+            <div class="boxLeft">
+                <h2><img src="/img/goods_tit01.jpg" alt="商品検索" width="143" height="41"></h2>
+                <div class="seachblk01">
+                    <div class="box">
+                        <img src="/img/srch_tit03.gif" alt="フリーワードで検索する" width="148" height="17"><br>
+                        
+<input type="text" name="ik" id="ik" value="例）アジ　シオコショウ" maxlength="50" onfocus="if (this.value == &#39;例）アジ　シオコショウ&#39;) this.value = &#39;&#39;;" onblur="if (this.value == &#39;&#39;) this.value = &#39;例）アジ　シオコショウ&#39;;">
+                        <p>※カタカナで入力すると見つけやすくなります。</p>
+                    </div>
+                    <input type="image" src="/img/goods_btn.jpg" class="btn">
+                </div>
+            </div>
+            <div class="boxRight">
+                <p class="sumb"><a href="/item/list/"><img src="/img/goods_sum_b.jpg" alt="商品一覧はこちら" width="117" height="20" border="0"></a></p>
+            </div>
+        </div>
+        <p class="foot"><img src="/img/recipe_bg03.jpg" alt="" width="711" height="8"></p>
+    </div>
+    </form>
+
+<div class="block02">
+    <div id="tabtopic" class="newsArea topics">
+        <ul class="tab">
+            <li class="topi"><img src="/img/tab01.jpg" alt="TOPICS" width="257" height="30"></li>
+            <li class="cam"><a href="/campaign/"><img src="/img/tab02.jpg" alt="キャンペーン情報" width="264" height="30"></a></li>
+            <!-- <li class="cam"><a href="javascript:adChange(true);"><img src="/img/tab02.jpg" alt="キャンペーン情報" width="264" height="30" border="0"></a></li> -->
+        </ul><!-- /tab -->
+        <p class="btn"><a href="/information/"><img src="/img/topic_sum_b_off.gif" alt=""></a></p>
+
+        <dl>
+                            <dt>2017.08.01</dt>
+                                    <dd><a href="/information/detail/i/129/">"今月のレシピ"を更新しました。</a></dd>
+                                            <dt>2017.07.03</dt>
+                                    <dd><a href="/information/detail/i/128/">"今月のレシピ"を更新しました。</a></dd>
+                                            <dt>2017.06.01</dt>
+                                    <dd><a href="/information/detail/i/127/">"今月のレシピ"を更新しました。</a></dd>
+                                            <dt>2017.05.01</dt>
+                                    <dd><a href="/information/detail/i/126/">"今月のレシピ"を更新しました。</a></dd>
+                                            <dt>2017.04.03</dt>
+                                    <dd><a href="/information/detail/i/125/">"今月のレシピ"を更新しました。</a></dd>
+                                            <dt>2017.03.01</dt>
+                                    <dd><a href="/information/detail/i/124/">"今月のレシピ"を更新しました。</a></dd>
+                                            <dt>2017.02.01</dt>
+                                    <dd><a href="/information/detail/i/123/">"今月のレシピ"を更新しました。</a></dd>
+                            
+        </dl>
+        <img src="/img/news_foot.jpg" alt="" width="527" height="7">
+    </div>
+
+    <div id="tabcampaign" class="newsArea campaign" style="display: none;">
+
+        <ul class="tab">
+            <li class="topi"><a href="javascript:adChange(false);"><img src="/img/tab01.jpg" alt="TOPICS" width="257" height="30" border="0"></a></li>
+            <li class="cam"><img src="/img/tab02.jpg" alt="キャンペーン情報" width="264" height="30"></li>
+        </ul><!-- /tab -->
+
+        <p class="btn"><a href="/campaign/sum.html"><img src="/img/cam_sum_b_off.gif" alt="キャンペーン一覧" width="115" height="15"></a></p>
+        <ul class="camSum">
+            <!-- <li class="no">現在キャンペーンは行っておりません。</li> -->
+            <li>2012.09.26<br><a href="/campaign/index.html">ダイショーサンタから、ひと足早いクリスマスプレゼント！鍋スマイルキャンペーン</a></li>
+        </ul>
+        <img src="/img/news_foot.jpg" alt="" width="527" height="7">
+
+    </div>
+
+    <div class="rNavi">
+        <ul>
+            <!-- <li><a href="/company/iso.html" rel="external"><img src="/img/bn_iso22000.jpg" alt="ISO22000認証取得" width="165" height="41" border="0"></a></li> -->
+        </ul>
+        <p><a href="/company/recruit.html"><img src="/img/rec_btn_off.jpg" alt="採用情報" width="166" height="45" border="0"></a></p>
+    </div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<script type='text/javascript'>
+    function adChange(sw) {
+        if (sw) {
+            $('tabtopic').setStyle('display', 'none');
+            $('tabcampaign').setStyle('display', '');
+    } else {
+            $('tabtopic').setStyle('display', '');
+            $('tabcampaign').setStyle('display', 'none');
+    }
+}
+</script>
+
+<!-- [ footer area ] -->
+<div id="footer">
+
+<address><img src="/common/copy.gif" alt="Copyright &copy; DAISHO Co., Ltd. All Rights Reserved." width="300" height="18" />
+</address>
+<ul class="fmenu">
+<li><a href="/sitemap.html"><img src="/common/f_navi01_off.gif" alt="サイトマップ" width="100" height="18" border="0" /></a></li>
+<li><a href="/privacy/index.html"><img src="/common/f_navi02_off.gif" alt="プライバシーポリシー" width="145" height="18" border="0" /></a></li>
+<li><a href="/ir/index.html" rel="external"><img src="/common/f_navi03_off.gif" alt="IR情報" width="70" height="18" border="0" /></a></li>
+<li><a href="/company/index.html"><img src="/common/f_navi04_off.gif" alt="企業情報" width="75" height="18" border="0" /></a></li>
+</ul>
+
+<!-- /footer --></div>
+<!-- /[ footer area ] -->
+
+
+<!-- /container --></div>
+<!-- /[[ container ]] -->
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-11837023-1");
+pageTracker._setDomainName(".daisho.co.jp");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+<!-- InstanceEnd --></html>

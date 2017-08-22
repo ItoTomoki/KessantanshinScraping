@@ -1,0 +1,270 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML LANG="ja">
+	<HEAD>
+		<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=Shift_JIS">
+		<META HTTP-EQUIV="Content-Script-Type" CONTENT="text/javascript">
+		<META HTTP-EQUIV="Content-Style-Type" CONTENT="text/css">
+		<LINK REL="stylesheet" TYPE="text/css" HREF="/common/css/top.css">
+			<SCRIPT LANGUAGE="JavaScript1.2" TYPE="text/javascript" SRC="/common/js/chk_plugin.js"></SCRIPT>
+			<SCRIPT LANGUAGE="JavaScript1.2" TYPE="text/javascript" SRC="/common/js/cssselect.js"></SCRIPT>
+			<SCRIPT LANGUAGE="JavaScript1.2" TYPE="text/javascript">
+<!--
+
+	for (i in gCssFile) {
+		document.open();
+		document.write('<LINK REL="stylesheet" TYPE="text/css" HREF="/common/css/' + gCssFile[i] + '" MEDIA="screen, tv">');
+		document.close();
+}
+
+// -->
+			</SCRIPT>
+			<TITLE>TTK</TITLE>
+	</HEAD>
+	<BODY>
+		<A NAME="top"><!-- top --></A> 
+		<!-- global -->
+		<DIV ID="global">
+			<!-- head -->
+			<DIV ID="head">
+				<TABLE WIDTH="740" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+					<TR>
+						<TD WIDTH="160"><A HREF="/"><IMG SRC="/common/images/head_logo.gif" ALT="TTK" WIDTH="107" HEIGHT="40" VSPACE="3" BORDER="0"></A></TD>
+                        <!--<TD WIDTH="600"><IMG SRC="/common/images/60shunen.jpg"  WIDTH="100" HEIGHT="40" VSPACE="3" BORDER="0"></A></TD>-->
+						<TD WIDTH="640" ALIGN="RIGHT" CLASS="menu">｜<A HREF="/info/">会社案内</A>｜<A HREF="/ir/">IR情報</A>｜<A HREF="/util/sitemap.html">サイトマップ</A>｜</TD>
+					</TR>
+				</TABLE>
+				<TABLE WIDTH="740" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+					<TR>
+						<TD BGCOLOR="#999999"><IMG SRC="/common/images/space.gif" ALT="" WIDTH="1" HEIGHT="1"></TD>
+					</TR>
+					<TR>
+						<TD BGCOLOR="#cccccc"><IMG SRC="/common/images/space.gif" ALT="" WIDTH="1" HEIGHT="2"></TD>
+					</TR>
+				</TABLE>
+			</DIV>
+			<!-- /head -->
+			<!-- title -->
+			<DIV ID="titleimg">
+				<SCRIPT TYPE="text/javascript" LANGUAGE="javascript">topDocWrite();</SCRIPT>
+				<NOSCRIPT>JavascriptをONにしてご覧ください。</NOSCRIPT>
+			</DIV>
+			<!-- /title -->
+			
+			
+			<DIV ID="commnet">
+				<img src="images/comment.gif" border="0" vspace="2">
+			</DIV>
+			
+			<!-- マラソンバナー-->
+			<!--
+			<DIV ID="marason">
+				<DIV CLASS="img">
+				<A HREF="http://www.sendaihalf.com/" target="blank"  ><IMG SRC="images/half2017_bar.jpg" ALT="仙台国際ハーフマラソン大会" border="0" width="710px" ></A>
+				</DIV>
+
+                <DIV CLASS="block">
+				<A HREF="/ir/news/h290403_news.html"><FONT size="3"><b>株式会社ＴＴＫは仙台国際ハーフマラソン大会を応援しています。</b></FONT></A>
+				</DIV>
+			</DIV>
+			-->
+			
+			<!-- body -->
+			<DIV ID="body">
+				<!-- contents -->
+				<DIV ID="contents">
+					<!-- link list -->
+					<DIV ID="link">
+						<!-- 事業内容 -->
+						<DIV ID="jigyo">
+							<!-- category -->
+							<DIV CLASS="category">
+								<DIV CLASS="block">
+									<H3>会社案内</H3>
+									<UL>
+										<LI>
+											<A HREF="/info/">トップメッセージ</A></LI>
+										<LI>
+											<A HREF="/info/policy.html">経営の基本理念</A></LI>
+										<LI>
+											<A HREF="/info/indicate.html">TTKグループ行動指針</A></LI>
+										<LI>
+											<A HREF="/info/cgovernance.html">コーポレートガバナンス</A></LI>
+										<LI>
+											<A HREF="/info/about.html">会社概要</A></LI>
+										<LI>
+											<A HREF="/info/history.html">会社沿革</A></LI>
+										<LI>
+											<A HREF="/info/officer.html">役員一覧</A></LI>
+										<LI>
+											<A HREF="/info/organization.html">組織図</A></LI>
+										<LI>
+											<A HREF="/info/network.html">営業ネットワーク</A></LI>
+										<LI>
+											<A HREF="/info/group.html">グループ会社</A></LI>
+										<LI>
+											<A HREF="/info/recruit.html">採用情報</A></LI>
+										<LI>
+											<A HREF="/info/area.html">社会貢献活動</A></LI>
+										<LI>
+											<A HREF="/info/tech.html">資格取得者数</A></LI>
+										<LI>
+											<A HREF="/info/planinfo.html">一般事業主行動計画</A></LI>
+									</UL>
+									<H5>ISO認証取得</H5>
+									<UL>
+										<LI>
+											<A HREF="/info/quality.html">品質方針</A></LI>
+										<LI>
+											<A HREF="/info/eco.html">環境方針</A></LI>
+										<LI>
+											<A HREF="/info/isecurity.html">情報セキュリティ基本方針</A></LI>
+									</UL>
+								</DIV>
+							</DIV>
+							<!-- /category -->
+						</DIV>
+						<!-- /事業内容 -->
+						<!-- IR情報 -->
+						<DIV ID="ir">
+							<!-- category -->
+							<DIV CLASS="category">
+								<DIV CLASS="block">
+									<H3 CLASS="ir">IR情報</H3>
+									<UL>
+										<LI>
+											<A HREF="/ir/calender.html">IRカレンダー</A>
+										</LI>
+									</UL>
+									<H5>株式情報</H5>
+									<UL>
+										<LI><A HREF="/ir/stock/">株主メモ</A></LI>
+										<LI><A HREF="/ir/stock/info.html">株式の状況</A></LI>
+										<LI><A HREF="/ir/stock/share.html">配当金について</A></LI>
+										<LI><A href="/ir/stock/soukai.html">株主総会</A></LI>
+										<LI><A HREF="/ir/stock/value.html">株価情報</A></LI>
+									</UL>
+									<H5>業績情報</H5>
+									<UL>
+										<LI><A HREF="/ir/financial/">決算短信</A></LI>
+										<LI><A href="/ir/financial/shouken.html">有価証券報告書</A></LI>
+										<LI><A HREF="/ir/financial/ksetsumei.html">決算説明会資料</A></LI>
+										<LI><A HREF="/ir/financial/report.html">事業報告書</A></LI>
+									</UL>
+									<H5>電子公告</H5>
+									<UL>
+										<LI><A HREF="/ir/financial/dkoukoku.html">電子公告</A></LI>
+									</UL>
+								</DIV>
+							</DIV>
+							<!-- /category -->
+						</DIV>
+						
+					</DIV>
+					<!-- /link list -->
+					<!-- ニュースリリース -->
+					<DIV ID="announce">
+						<DIV ID="news">
+							<H3>ニュースリリース</H3>
+							<TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="5">
+								<TR ALIGN="RIGHT" VALIGN="TOP">
+									<TD COLSPAN="2" CLASS="log"><A HREF="/info/news/">過去のお知らせ</A></TD>
+								</TR>
+								<TR VALIGN="TOP">
+								  <TD NOWRAP CLASS="day">平成29年8月8日</TD>
+								  <TD CLASS="text"><a href="/info/news/">第65期 第1四半期報告書</a></TD>
+							    </TR>
+								<TR VALIGN="TOP">
+								  <TD NOWRAP CLASS="day">平成29年8月7日</TD>
+								  <TD CLASS="text"><a href="/info/news/">平成30年3月期第1四半期決算短信</a></TD>
+							    </TR>
+								<TR VALIGN="TOP">
+								  <TD NOWRAP CLASS="day">平成29年6月30日</TD>
+								  <TD CLASS="text"><a href="/info/news/">投資単位の引下げに関する考え方及び方針等について</a></TD>
+							    </TR>
+								<TR VALIGN="TOP">
+								  <TD NOWRAP CLASS="day">平成29年6月29日</TD>
+								  <TD CLASS="text"><a href="/info/news/">第64期事業報告書</a></TD>
+							    </TR>
+								<TR VALIGN="TOP">
+								  <TD NOWRAP CLASS="day">平成29年6月29日</TD>
+								  <TD CLASS="text"><a href="/info/news/">第64期有価証券報告書</a></TD>
+							    </TR>
+							</TABLE>
+						</DIV>
+						<!-- topics -->
+						<DIV ID="topics">
+							<H3>トピックス</H3>
+							<BR>
+							<!--
+							<DIV CLASS="block">
+								<A HREF="/info/recruit.html"><u><b>採用情報を更新いたしました(詳細はこちら)</b></u></A>
+							</DIV>
+							-->
+							<DIV CLASS="block">
+								<A HREF="/ir/calender.html"><u><b>IRカレンダーを更新いたしました(詳細はこちら)</b></u></A>
+							</DIV>
+							<DIV CLASS="block">
+								<A HREF="/info/cgovernance.html"><u><b>コーポレートガバナンス報告書を更新いたしました(詳細はこちら)</b></u></A>
+							</DIV>
+							<DIV CLASS="block">
+								<A HREF="/info/group.html"><u><b>グループ会社の採用はこちら</b></u></A>
+							</DIV>
+							
+                            <!--<DIV CLASS="block">
+								<a href="/cm/ttkcm4.html"><u><b>新しいコマーシャルを掲載しました(詳細はこちら)</b></u></A>
+							</DIV>-->
+							<DIV CLASS="block">
+								<A HREF="/group/techno/biz/hikari.html" target="blank"><IMG SRC="images/banner_hikari.png" ALT="TTKきずな光" WIDTH="164" HEIGHT="44" BORDER="0" ></A>
+							</DIV>
+							<DIV CLASS="block">
+								<A HREF="/solar/solar.asp"><IMG SRC="images/solar.jpg" ALT="TTK太陽光発電システム発電状況" WIDTH="160" HEIGHT="50" BORDER="0"></A>
+							</DIV>
+							<DIV CLASS="block">
+								<A HREF="/cm/ttkcm4.html"><IMG SRC="images/ttkcm.jpg" ALT="TTKコマーシャル" WIDTH="200" HEIGHT="50" BORDER="0"></A>
+							</DIV>
+							<BR>
+							<!--
+							<DIV CLASS="block">
+								<A HREF="http://www.sendaihalf.com/" target="_blank"><IMG SRC="images/half2014_icon.gif" ALT="仙台国際ハーフマラソン大会" WIDTH="160" HEIGHT="91" BORDER="0"></A>
+							</DIV>
+							-->
+						</DIV>
+						<!-- /topics -->
+					</DIV>
+					<!-- /お知らせ -->
+				</DIV>
+				<!-- /contents -->
+				<!-- foot -->
+				<DIV ID="foot">
+					<TABLE WIDTH="710" BORDER="0" CELLPADDING="0" CELLSPACING="0">
+						<TR>
+							<TD COLSPAN="2"><IMG SRC="/common/images/space.gif" WIDTH="1" HEIGHT="5" ALT=""></TD>
+						</TR>
+						<TR>
+							<TD BGCOLOR="#F0F0F0"><A HREF="javascript:history.back()"><IMG SRC="/common/images/foot_back.gif" ALT="前のページへ戻る" WIDTH="120" HEIGHT="25" BORDER="0"></A></TD>
+							<TD ALIGN="RIGHT" BGCOLOR="#F0F0F0"><A HREF="#top"><IMG SRC="/common/images/foot_pagetop.gif" ALT="ページトップへ" WIDTH="120" HEIGHT="25" BORDER="0"></A></TD>
+						</TR>
+						<TR>
+							<TD COLSPAN="2"><IMG SRC="/common/images/space.gif" WIDTH="1" HEIGHT="5" ALT=""></TD>
+						</TR>
+						<TR>
+							<TD COLSPAN="2">｜<A HREF="/util/about.html">このサイトについて</A>｜<A HREF="/util/copyright.html">著作権・商標</A>｜<A HREF="/util/privacy.html">個人情報保護方針</A>｜<A HREF="https://www.ttk-g.co.jp/util/">お問い合わせ</A>｜</TD>
+						</TR>
+						<TR>
+							<TD COLSPAN="2"><IMG SRC="/common/images/space.gif" WIDTH="1" HEIGHT="5" ALT=""></TD>
+						</TR>
+						<TR>
+							<TD COLSPAN="2"><IMG SRC="/common/images/foot_copy.gif" ALT="Copyright (c) TTK Co., Ltd All Rights Reserved." WIDTH="331" HEIGHT="15"></TD>
+						</TR>
+						<TR>
+							<TD COLSPAN="2"><IMG SRC="/common/images/space.gif" WIDTH="1" HEIGHT="20" ALT=""></TD>
+						</TR>
+					</TABLE>
+				</DIV>
+				<!-- /foot -->
+			</DIV>
+			<!-- /body -->
+		</DIV>
+		<!-- global -->
+	</BODY>
+</HTML>

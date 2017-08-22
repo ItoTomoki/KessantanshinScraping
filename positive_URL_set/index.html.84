@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<!--[if lt IE 9]> <html lang="ja" class="lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="ja"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[(new Date).getTime()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var s=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit"],l="api-",p=l+"ixn-";a(s,function(e,t){f[t]=o(l+t,!0,"api")}),f.addPageAction=o(l+"addPageAction",!0),f.setCurrentRouteName=o(l+"routeName",!0),t.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(p+"tracer",[Date.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return t.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){d[t]=o(p+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,(new Date).getTime()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o){if(!p.aborted){e&&e(n,r,o);for(var i=t(o),a=v(n),u=a.length,c=0;c<u;c++)a[c].apply(i,r);var f=s[w[n]];return f&&f.push([y,n,r,i]),i}}function d(e,t){b[e]=v(e).concat(t)}function v(e){return b[e]||[]}function g(e){return l[e]=l[e]||o(n)}function m(e,t){f(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var b={},w={},y={on:d,emit:n,get:g,listeners:v,context:t,buffer:m,abort:a,aborted:!1};return y}function i(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},l={},p=t.exports=o();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!h++){var e=y.info=NREUM.info,t=l.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return f.abort();c(b,function(t,n){e[t]||(e[t]=n)}),u("mark",["onload",a()],null,"api");var n=l.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===l.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=e("handle"),c=e(2),f=e("ee"),s=window,l=s.document,p="addEventListener",d="attachEvent",v=s.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:v,REQ:s.Request,EV:s.Event,PR:s.Promise,MO:s.MutationObserver},e(1);var m=""+location,b={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-998.min.js"},w=v&&g&&g[p]&&!/CriOS/.test(navigator.userAgent),y=t.exports={offset:a(),origin:m,features:{},xhrWrappable:w};l[p]?(l[p]("DOMContentLoaded",i,!1),s[p]("load",r,!1)):(l[d]("onreadystatechange",o),s[d]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=yes">
+    
+    
+
+  
+
+
+
+<link rel="canonical" href="https://www.glico.com/jp/company/ir/library/summary/">
+
+
+<title>決算短信 | 【公式】グリコ</title>
+
+
+<meta name="description" content="ようこそ、江崎グリコ（Glico）のWebサイトへ。企業情報や商品情報、お得なキャンペーン情報、さらには便利で役立つコンテンツなどをご紹介しています。">
+
+
+<meta name="keywords" content="江崎グリコ株式会社,江崎グリコ,グリコ,ぐりこ,Ezaki Glico,Glico,IR情報,IR">
+
+
+<meta property="og:title" content="決算短信 | 【公式】グリコ">
+<meta property="twitter:title" content="決算短信 | 【公式】グリコ">
+
+
+<meta property="og:description" content="ようこそ、江崎グリコ（Glico）のWebサイトへ。企業情報や商品情報、お得なキャンペーン情報、さらには便利で役立つコンテンツなどをご紹介しています。">
+
+<meta property="twitter:description" content="ようこそ、江崎グリコ（Glico）のWebサイトへ。企業情報や商品情報、お得なキャンペーン情報、さらには便利で役立つコンテンツなどをご紹介しています。">
+
+
+<meta property="og:image" content="https://www.glico.com/assets/images/original/glicoogp__1.png">
+<meta property="twitter:image" content="https://www.glico.com/assets/images/original/glicoogp__1.png">
+<meta property="og:type" content="article">
+
+<meta property="og:url" content="https://www.glico.com/jp/company/ir/library/summary/">
+
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@glico_PR">
+
+
+<link rel="stylesheet" type="text/css" href="/assets/stylesheets/main.css" />
+
+<!--[if lt IE 9]>
+<script type="text/javascript" src="/assets/javascripts/html5shiv.min.js"></script>
+<link rel="stylesheet" type="text/css" href="/assets/stylesheets/ltie9.css" />
+<![endif]-->
+
+
+<script type="text/javascript" src="/assets/javascripts/jstream-obj.min.js"></script>
+    
+  </head>
+  <body id="ir-body">
+    
+    
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-W4FHHL" 
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-W4FHHL');</script>
+<!-- End Google Tag Manager --> 
+
+<!-- nav start　-->
+<nav class="navigation" id="js-navigation" role="navigation">
+<div data-layer="1" class="navigation__inner menu">
+<ul class="menulist menulist--layer1">
+
+<li class="menulist__item">
+<a href="/jp/" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">グリコホーム</span></p></a>
+</li>
+
+<li class="menuitem">
+<a class="menuitem__title" href="#"><div class="menuitem__title__inner navigation__trigger01 navigation--link"><p class="menuitem__txt">商品</p></div></a>
+
+<div class="menulist__container">
+<p class="menulist__header menulist__header__back navigation__trigger02 navigation--back"><span class="menulist__header__title">商品</span></p>
+<ul class="menulist menulist--layer2">
+
+<li class="menulist__item"><a href="/jp/product/chocolate" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">チョコレート</span></p></a></li>
+
+<li class="menulist__item"><a href="/jp/product/snack_biscuit" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">スナック・ビスケット</span></p></a></li>
+
+<li class="menulist__item"><a href="/jp/product/nutritional" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">バランス栄養食</span></p></a></li>
+
+<li class="menulist__item"><a href="/jp/product/gum_candy" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">ガム・キャンディー</span></p></a></li>
+
+<li class="menulist__item"><a href="/jp/product/ice" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">アイス</span></p></a></li>
+
+<li class="menulist__item"><a href="/jp/product/yogurt_pudding" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">ヨーグルト・プリン・ゼリー</span></p></a></li>
+
+<li class="menulist__item"><a href="/jp/product/drink" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">飲料</span></p></a></li>
+
+<li class="menulist__item"><a href="/jp/product/food_curry" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">加工食品・カレー</span></p></a></li>
+
+<li class="menulist__item"><a href="/jp/product/babyfood" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">ベビー・マザー</span></p></a></li>
+
+<li class="menulist__item"><a href="/jp/product/batondor" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">百貨店・地域限定</span></p></a></li>
+
+<li class="menulist__item"><a href="/jp/product/sportsupplement" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">スポーツサプリ</span></p></a></li>
+
+<li class="menulist__item"><a href="/jp/product/beauty" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">化粧品・美容サプリ</span></p></a></li>
+
+<li class="menulist__item"><a href="/jp/productbusiness" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">企業・法人様向け</span></p></a></li>
+</ul>
+</div>
+</li>
+
+<li class="menulist__item">
+<a href="/jp/campaign/" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">キャンペーン</span></p></a>
+</li>
+
+<li class="menuitem">
+<a class="menuitem__title" href="#"><div class="menuitem__title__inner navigation__trigger01 navigation--link"><p class="menuitem__txt">知る・楽しむ・工場見学</p></div></a>
+<div class="menulist__container">
+<p class="menulist__header menulist__header__back navigation__trigger02 navigation--back"><span class="menulist__header__title">知る・楽しむ・工場見学</span></p>
+<ul class="menulist menulist--layer2">
+ 
+<li class="menulist__item"><a href="/jp/enjoy/experience" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">工場見学・体験スポット</span></p></a></li>
+ 
+<li class="menulist__item"><a href="/jp/enjoy/service" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">店舗・サービス</span></p></a></li>
+ 
+<li class="menulist__item"><a href="http://gk.glico.jp/" target=”_blank” class="menulist__item__title"><p class="menulist__item__title__inner navigation__trigger01 navigation--external"><span class="menulist__item__txt">レシピ（グリコキッチン）</span></p></a></li>
+<li class="menulist__item"><a href="http://www.glico.co.jp/navi/" target=”_blank” class="menulist__item__title"><p class="menulist__item__title__inner navigation__trigger01 navigation--external"><span class="menulist__item__txt">栄養成分ナビ</span></p></a></li>
+<li class="menulist__item"><a href="/jp/enjoy/rd" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">研究開発</span></p></a></li>
+ 
+<li class="menulist__item"><a href="/jp/enjoy/contents" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">読み物一覧</span></p></a></li>
+ 
+<li class="menulist__item"><a href="http://www.glico.co.jp/corp_promotion/" target=”_blank” class="menulist__item__title"><p class="menulist__item__title__inner navigation__trigger01 navigation--external"><span class="menulist__item__txt">企業広告（smile.Glico）</span></p></a></li>
+<li class="menulist__item"><a href="/jp/enjoy/support" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">協賛・サポート</span></p></a></li>
+</ul>
+</div>
+</li>
+
+<li class="menulist__item">
+<a href="https://glico-club.net/" target=”_blank” class="menulist__item__title"><p class="menulist__item__title__inner navigation__trigger01 navigation--external"><span class="menulist__item__txt">グリコクラブ</span></p></a>
+</li>
+
+<li class="menulist__item">
+<a href="http://www.glico-direct.jp/" target=”_blank” class="menulist__item__title"><p class="menulist__item__title__inner navigation__trigger01 navigation--external"><span class="menulist__item__txt">通販(ダイレクトショップ)</span></p></a>
+</li>
+
+<li class="menulist__item">
+<a href="/jp/newscenter" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">ニュースセンター</span></p></a>
+</li>
+
+<li class="menuitem">
+<a class="menuitem__title" href="#"><div class="menuitem__title__inner navigation__trigger01 navigation--link"><p class="menuitem__txt">企業・IR情報</p></div></a>
+<div class="menulist__container">
+<p class="menulist__header menulist__header__back navigation__trigger02 navigation--back"><span class="menulist__header__title">企業・IR情報</span></p>
+<ul class="menulist menulist--layer2">
+<li class="menuitem">
+<a class="menuitem__title" href="#"><div class="menuitem__title__inner navigation__trigger01 navigation--link"><p class="menuitem__txt">企業情報</p></div></a>
+<div class="menulist__container">
+<p class="menulist__header menulist__header__back navigation__trigger02 navigation--back"><span class="menulist__header__title">企業情報</span></p>
+<ul class="menulist menulist--layer3">
+<li class="menulist__item"><a href="/jp/company/about/philosophy" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">企業理念</span></p></a></li>
+<li class="menulist__item"><a href="/jp/company/about/topmessage" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">トップメッセージ</span></p></a></li>
+<li class="menulist__item"><a href="/jp/company/about/business" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">事業紹介</span></p></a></li>
+<li class="menulist__item"><a href="/jp/company/about/outline" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">会社概要</span></p></a></li>
+<li class="menulist__item"><a href="/jp/company/about/access" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">アクセス</span></p></a></li>
+<li class="menulist__item"><a href="/jp/company/about/history" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">沿革</span></p></a></li>
+<li class="menulist__item"><a href="/jp/company/about/global" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">グローバル拠点一覧</span></p></a></li>
+<li class="menulist__item"><a href="/assets/files/company.pdf" target=”_blank” class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">会社案内（PDF）</span></p></a></li>
+</ul>
+</div>
+</li>
+<li class="menulist__item"><a href="/jp/enjoy/rd" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">研究開発</span></p></a></li>
+<li class="menuitem">
+<a class="menuitem__title" href="#"><div class="menuitem__title__inner navigation__trigger01 navigation--link"><p class="menuitem__txt">CSR情報</p></div></a>
+<div class="menulist__container">
+<p class="menulist__header menulist__header__back navigation__trigger02 navigation--back"><span class="menulist__header__title">CSR情報</span></p>
+<ul class="menulist menulist--layer3">
+<li class="menulist__item"><a href="/jp/company/csr/policy" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">CSRに関する考え方</span></p></a></li>
+<li class="menuitem">
+<a class="menuitem__title" href="#"><div class="menuitem__title__inner navigation__trigger01"><p class="menuitem__txt">品質安全の取り組み</p></div></a>
+<div class="menulist__container">
+<ul class="menulist menulist--layer4">
+<li class="menulist__item"><a href="/jp/company/csr/quality/policy" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">基本的考え方</span></p></a></li>
+<li class="menulist__item"><a href="/jp/company/csr/quality/safety" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">原料の安全について</span></p></a></li>
+<li class="menulist__item"><a href="/jp/company/csr/quality/system" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">品質保証システム</span></p></a></li>
+<li class="menulist__item"><a href="/jp/company/csr/quality/fsc" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">グリコ食品安全センター</span></p></a></li>
+<li class="menulist__item"><a href="/jp/company/csr/quality/display" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">製品への表示</span></p></a></li>
+<li class="menulist__item"><a href="/jp/company/csr/quality/structure" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">社内体制</span></p></a></li>
+</ul>
+</div>
+</li>
+<li class="menuitem">
+<a class="menuitem__title" href="#"><div class="menuitem__title__inner navigation__trigger01"><p class="menuitem__txt">社会とのかかわり</p></div></a>
+<div class="menulist__container">
+<ul class="menulist menulist--layer4">
+<li class="menulist__item"><a href="/jp/company/csr/community/governance" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">コーポレートガバナンス</span></p></a></li>
+<li class="menulist__item"><a href="/jp/company/csr/community/compliance" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">コンプライアンス</span></p></a></li>
+<li class="menulist__item"><a href="/jp/company/csr/community/conduct" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">行動規範</span></p></a></li>
+<li class="menulist__item"><a href="/jp/company/csr/community/contribution" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">社会貢献について</span></p></a></li>
+<li class="menulist__item"><a href="/jp/company/csr/community/shinsai" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">東日本大震災に関するグリコグループのお知らせ</span></p></a></li>
+<li class="menulist__item"><a href="/jp/company/csr/community/supplier" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">サプライヤーとのコミュニケーション</span></p></a></li>
+<li class="menulist__item"><a href="/jp/company/csr/community/foodloss" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">食品ロス削減にむけて</span></p></a></li>
+<li class="menulist__item"><a href="/jp/company/csr/community/satisfaction" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">お客様満足のために</span></p></a></li>
+<li class="menulist__item"><a href="/jp/company/csr/community/stockholder" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">株主・投資家の皆様とのコミュニケーション</span></p></a></li>
+<li class="menulist__item"><a href="/jp/company/csr/community/employee" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">働きやすい会社と社員とのかかわり</span></p></a></li>
+<li class="menulist__item"><a href="/jp/company/csr/community/mother" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">親子の心身健康増進への貢献</span></p></a></li>
+<li class="menulist__item"><a href="/jp/company/csr/community/data" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">データ集</span></p></a></li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li class="menuitem">
+<a class="menuitem__title" href="#"><div class="menuitem__title__inner navigation__trigger01 navigation--link"><p class="menuitem__txt">環境取り組み</p></div></a>
+<div class="menulist__container">
+<p class="menulist__header menulist__header__back navigation__trigger02 navigation--back"><span class="menulist__header__title">環境取り組み</span></p>
+<ul class="menulist menulist--layer3">
+<li class="menuitem">
+<a class="menuitem__title" href="#"><div class="menuitem__title__inner navigation__trigger01"><p class="menuitem__txt">グリコグループ 環境取り組み</p></div></a>
+<div class="menulist__container">
+<ul class="menulist menulist--layer4">
+<li class="menulist__item"><a href="/jp/company/environment/group/message" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">ごあいさつ</span></p></a></li>
+<li class="menulist__item"><div class="menulist__item__title menulist__item_title--label"><p class="menulist__item__title__inner"><span class="menulist__item__txt">主な活動</span></p></div></li>
+<li class="menulist__item"><a href="/jp/company/environment/group/action/co2" class="menulist__item__title"><p class="menulist__item__title__inner menulist__item__title__inner--layer05"><span class="menulist__item__txt">CO2削減</span></p></a></li>
+<li class="menulist__item"><a href="/jp/company/environment/group/action/product" class="menulist__item__title"><p class="menulist__item__title__inner menulist__item__title__inner--layer05"><span class="menulist__item__txt">環境に配慮した製品企画</span></p></a></li>
+<li class="menulist__item"><a href="/jp/company/environment/group/action/green" class="menulist__item__title"><p class="menulist__item__title__inner menulist__item__title__inner--layer05"><span class="menulist__item__txt">グリーン購入</span></p></a></li>
+<li class="menulist__item"><a href="/jp/company/environment/group/action/trash" class="menulist__item__title"><p class="menulist__item__title__inner menulist__item__title__inner--layer05"><span class="menulist__item__txt">ゴミ削減</span></p></a></li>
+<li class="menulist__item"><a href="/jp/company/environment/group/action/education" class="menulist__item__title"><p class="menulist__item__title__inner menulist__item__title__inner--layer05"><span class="menulist__item__txt">環境教育</span></p></a></li>
+<li class="menulist__item"><a href="/jp/company/environment/group/history" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">環境取り組みの歴史</span></p></a></li>
+<li class="menulist__item"><a href="/jp/company/environment/group/result" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">取組目標と成果</span></p></a></li>
+<li class="menulist__item"><a href="/jp/company/environment/group/status" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">環境負荷の状況</span></p></a></li>
+<li class="menulist__item"><a href="/jp/company/environment/group/communication" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">コミュニケーションの実態</span></p></a></li>
+<li class="menulist__item"><a href="/jp/company/environment/group/requirement" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">法的要求事項</span></p></a></li>
+</ul>
+</div>
+</li>
+<li class="menuitem">
+<a class="menuitem__title" href="#"><div class="menuitem__title__inner navigation__trigger01"><p class="menuitem__txt">江崎グリコ　環境取り組み/環境負荷の状況</p></div></a>
+<div class="menulist__container">
+<ul class="menulist menulist--layer4">
+<li class="menulist__item"><a href="/jp/company/environment/glico/policy" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">環境方針</span></p></a></li>
+<li class="menulist__item"><a href="/jp/company/environment/glico/iso14001" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">ISO14001認証取得状況</span></p></a></li>
+<li class="menulist__item"><a href="/jp/company/environment/glico/result2013" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">2015年度の取り組みと結果</span></p></a></li>
+<li class="menulist__item"><a href="/jp/company/environment/glico/status" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">環境負荷の状況</span></p></a></li>
+<li class="menulist__item"><a href="/jp/company/environment/glico/subsidiarystatus" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">生産子会社の環境負荷の状況</span></p></a></li>
+<li class="menulist__item"><a href="/jp/company/environment/glico/target2014" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">2016年度の目標</span></p></a></li>
+</ul>
+</div>
+</li>
+<li class="menuitem">
+<a class="menuitem__title" href="#"><div class="menuitem__title__inner navigation__trigger01"><p class="menuitem__txt">グリコ栄養食品　環境負荷の状況</p></div></a>
+<div class="menulist__container">
+<ul class="menulist menulist--layer4">
+<li class="menulist__item"><a href="/jp/company/environment/nutrition/status" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">環境負荷の状況</span></p></a></li>
+<li class="menulist__item"><a href="/jp/company/environment/nutrition/subsidiarystatus" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">生産子会社の環境負荷の状況</span></p></a></li>
+</ul>
+</div>
+</li>
+<li class="menuitem">
+<a class="menuitem__title" href="#"><div class="menuitem__title__inner navigation__trigger01"><p class="menuitem__txt">アイクレオ　環境負荷の状況</p></div></a>
+<div class="menulist__container">
+<ul class="menulist menulist--layer4">
+<li class="menulist__item"><a href="/jp/company/environment/icreo/status" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">環境負荷の状況</span></p></a></li>
+<li class="menulist__item"><a href="/jp/company/environment/icreo/subsidiarystatus" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">生産子会社の環境負荷の状況</span></p></a></li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li class="menuitem">
+<a class="menuitem__title" href="#"><div class="menuitem__title__inner navigation__trigger01 navigation--link"><p class="menuitem__txt">IR情報</p></div></a>
+<div class="menulist__container">
+<p class="menulist__header menulist__header__back navigation__trigger02 navigation--back"><span class="menulist__header__title">IR情報</span></p>
+<ul class="menulist menulist--layer3">
+<li class="menulist__item"><a href="/jp/company/ir/" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">IR情報トップ</span></p></a></li>
+<li class="menulist__item"><a href="/jp/company/ir/policy" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">IR基本方針</span></p></a></li>
+<li class="menulist__item"><a href="/jp/company/ir/governance" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">コーポレートガバナンスコード</span></p></a></li>
+<li class="menuitem">
+<a class="menuitem__title" href="#"><div class="menuitem__title__inner navigation__trigger01"><p class="menuitem__txt">業績・財務</p></div></a>
+<div class="menulist__container">
+<ul class="menulist menulist--layer4">
+<li class="menulist__item"><a href="/jp/company/ir/finance/performancehighlight" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">業績ハイライト</span></p></a></li>
+<li class="menulist__item"><a href="/jp/company/ir/finance/financehighlight" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">財務ハイライト</span></p></a></li>
+<li class="menulist__item"><a href="/jp/company/ir/finance/sale" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">セグメント別売上の概況</span></p></a></li>
+<li class="menulist__item"><a href="/jp/company/ir/finance/cashflow" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">キャッシュ・フローの推移</span></p></a></li>
+</ul>
+</div>
+</li>
+<li class="menuitem">
+<a class="menuitem__title" href="#"><div class="menuitem__title__inner navigation__trigger01"><p class="menuitem__txt">IR資料室</p></div></a>
+<div class="menulist__container">
+<ul class="menulist menulist--layer4">
+<li class="menulist__item"><a href="/jp/company/ir/library/summary" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">決算短信</span></p></a></li>
+<li class="menulist__item"><a href="/jp/company/ir/library/report" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">事業報告書</span></p></a></li>
+<li class="menulist__item"><a href="/jp/company/ir/library/presentation" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">決算説明会資料</span></p></a></li>
+<li class="menulist__item"><a href="/jp/company/ir/library/factbook" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">ファクトブック</span></p></a></li>
+<li class="menulist__item"><a href="/jp/company/ir/library/annualreport" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">アニュアルレポート</span></p></a></li>
+<li class="menulist__item"><a href="/jp/company/ir/library/security" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">有価証券報告書</span></p></a></li>
+</ul>
+</div>
+</li>
+<li class="menulist__item"><a href="/jp/company/ir/ircalendar" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">IRカレンダー</span></p></a></li>
+<li class="menuitem">
+<a class="menuitem__title" href="#"><div class="menuitem__title__inner navigation__trigger01"><p class="menuitem__txt">株式情報</p></div></a>
+<div class="menulist__container">
+<ul class="menulist menulist--layer4">
+<li class="menulist__item"><a href="/jp/company/ir/stock/status" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">株式の状況</span></p></a></li>
+<li class="menulist__item"><a href="/jp/company/ir/stock/procedure" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">株式事務のお手続き</span></p></a></li>
+<li class="menulist__item"><a href="/jp/company/ir/stock/benefit" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">株主優待のご紹介</span></p></a></li>
+<li class="menulist__item"><a href="/jp/company/ir/stock/meeting" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">株主総会</span></p></a></li>
+</ul>
+</div>
+</li>
+<li class="menulist__item"><a href="/jp/company/ir/individual" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">個人投資家の皆様へ</span></p></a></li>
+<li class="menulist__item"><a href="/jp/company/ir/release" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">取引所公開情報</span></p></a></li>
+<li class="menulist__item"><a href="http://stocks.finance.yahoo.co.jp/stocks/detail/?code=2206" target=”_blank” class="menulist__item__title"><p class="menulist__item__title__inner navigation__trigger01 navigation--external"><span class="menulist__item__txt">株価</span></p></a></li>
+</ul>
+</div>
+</li>
+<li class="menulist__item"><a href="/jp/company/socialmedia" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">ソーシャルメディアアカウント案内</span></p></a></li>
+<li class="menulist__item"><a href="/jp/company/link" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">リンク集</span></p></a></li>
+</ul>
+</div>
+</li>
+<li class="menuitem">
+<a class="menuitem__title" href="#"><div class="menuitem__title__inner navigation__trigger01 navigation--link"><p class="menuitem__txt">採用情報</p></div></a>
+<div class="menulist__container">
+<p class="menulist__header menulist__header__back navigation__trigger02 navigation--back"><span class="menulist__header__title">採用情報</span></p>
+<ul class="menulist menulist--layer2">
+<li class="menulist__item"><a href="/jp/company/recruit" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">採用情報トップ</span></p></a></li>
+<li class="menulist__item"><a href="http://saiyou.glico.jp/index.htm" target=”_blank” class="menulist__item__title"><p class="menulist__item__title__inner navigation__trigger01 navigation--external"><span class="menulist__item__txt">江崎グリコ株式会社 新卒採用</span></p></a></li>
+<li class="menulist__item"><a href="/jp/company/recruit#" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">江崎グリコ株式会社 キャリア採用</span></p></a></li>
+<li class="menuitem">
+<a class="menuitem__title" href="#"><div class="menuitem__title__inner navigation__trigger01 navigation--link"><p class="menuitem__txt">グリコグループ生産関係会社採用</p></div></a>
+<div class="menulist__container">
+<p class="menulist__header menulist__header__back navigation__trigger02 navigation--back"><span class="menulist__header__title">グリコグループ生産関係会社採用</span></p>
+<ul class="menulist menulist--layer3">
+<li class="menulist__item"><a href="/jp/company/recruit/subsidiary/" class="menulist__item__title"><p class="menulist__item__title__inner"><span class="menulist__item__txt">生産関係会社一覧</span></p></a></li>
+<li class="menuitem">
+<a class="menuitem__title" href="#"><div class="menuitem__title__inner navigation__trigger01"><p class="menuitem__txt">職種のご紹介</p></div></a>
+<div class="menulist__container">
+<ul class="menulist menulist--layer4">
+<li class="menulist__item"><a href="/jp/company/recruit/subsidiary/job/seizo" class="menulist__item__title"><p class="menulist__item__title__inner menulist__item__title__inner--layer05"><span class="menulist__item__txt">製造職</span></p></a></li>
+<li class="menulist__item"><a href="/jp/company/recruit/subsidiary/job/hozen" class="menulist__item__title"><p class="menulist__item__title__inner menulist__item__title__inner--layer05"><span class="menulist__item__txt">保全技術職</span></p></a></li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li class="menulist__item">
+<a href="/global" target=”_blank” class="menulist__item__title"><p class="menulist__item__title__inner navigation__trigger01 navigation--external"><span class="menulist__item__txt">Global</span></p></a>
+</li>
+</ul>
+</div>
+</nav>
+<!-- nav end -->
+      
+
+    <div class="container" id="js-container">
+      
+            <header class="header" id="js-header" role="banner">
+        <div class="header__main">
+          <button class="header__menu" id="js-header__menu">メニュー</button>
+                      <p class="header__logo"><a href="/"><img src="/assets/materials/logo_header_01.png" class="header__logo-image" alt="おいしさと健康　glico" /></a></p>
+                    <button class="header__search-btn" id="js-header__search-btn">検索</button>
+          <ul class="header__socials">
+            <li class="header__socials-item"><a href="https://www.facebook.com/GlicoGlobal" target="_blank"><img src="/assets/materials/btn_social_01.png" class="header__socials-image" alt="Facebook" /></a></li>
+            <li class="header__socials-item"><a href="https://twitter.com/GlicoPRJP" target="_blank"><img src="/assets/materials/btn_social_02.png" class="header__socials-image" alt="Twitter" /></a></li>
+            <li class="header__socials-item"><a href="https://www.youtube.com/user/glicowebnet" target="_blank"><img src="/assets/materials/btn_social_04.png" class="header__socials-image" alt="Youtube" /></a></li>
+          </ul>
+        </div>
+        <div class="header__search" id="js-header__search">
+          <div class="header__form">
+            <form action="/jp/search/">
+              <input name="q" type="text" class="js-suggest-search typeahead header__form-text" id="js-header__form-text">
+              <button type="submit" class="header__form-btn">検索</button>
+            </form>
+          </div>
+        </div>
+        <!-- /.header -->
+      </header>      
+      <main class="main" role="main">
+      
+      
+
+
+
+
+<h1 class="heading02">決算短信</h1>
+
+
+      <div class="section02">
+              <h2 class="heading05">最新資料</h2>
+      <table class="table05">
+        <tr>
+          <th>平成30年3月期（2017年度）</th>
+          <td>
+            <ul class="link04">
+                                                        <li class="link04__item"><a href="/assets/files/%E6%B1%BA%E7%AE%97%E7%9F%AD%E4%BF%A12018y0301.pdf" class="link04__trigger" target="_blank">第1四半期<span class="link04__size">PDF（約410KB）</span></a></li>
+              <!-- /.link04 -->
+            </ul>
+                    </td>
+        </tr>
+      <!-- /.table05 -->
+      </table>
+    
+            
+        <h2 class="heading05">バックナンバー</h2>
+    <table class="table05">
+                          <tr>
+      <th>平成29年3月期（2016年度）</th>
+      <td>
+        <ul class="link04">
+                                        <li class="link04__item"><a href="/assets/files/%E5%B9%B3%E6%88%9029%E5%B9%B43%E6%9C%88%E6%9C%9F%E6%B1%BA%E7%AE%97%E7%9F%AD%E4%BF%A1.pdf" class="link04__trigger" target="_blank">通期<span class="link04__size">PDF（約436KB）</span></a></li>
+                          
+        
+                                                              <li class="link04__item"><a href="/assets/files/2017%E5%B9%B43%E6%9C%88%E6%9C%9F%E3%80%80%E7%AC%AC3%E5%9B%9B%E5%8D%8A%E6%9C%9F%E6%B1%BA%E7%AE%97%E7%9F%AD%E4%BF%A1__1.pdf" class="link04__trigger" target="_blank">第3四半期<span class="link04__size">PDF（約635KB）</span></a></li>
+                          
+        
+                                                              <li class="link04__item"><a href="/assets/files/2017%E5%B9%B43%E6%9C%88%E6%9C%9F%E7%AC%AC2%E5%9B%9B%E5%8D%8A%E6%9C%9F%E6%B1%BA%E7%AE%97%E7%9F%AD%E4%BF%A1__1.pdf" class="link04__trigger" target="_blank">第2四半期<span class="link04__size">PDF（約707KB）</span></a></li>
+                          
+        
+                                                              <li class="link04__item"><a href="/assets/files/29%E5%B9%B43%E6%9C%88%E6%9C%9F%E7%AC%AC1%E5%9B%9B%E5%8D%8A%E6%9C%9F%E6%B1%BA%E7%AE%97%E7%9F%AD%E4%BF%A1__1.pdf" class="link04__trigger" target="_blank">第1四半期<span class="link04__size">PDF（約528KB）</span></a></li>
+                            <!-- /.link04 -->
+        </ul>
+      </td>
+    </tr>
+        
+        
+                                  <tr>
+      <th>平成28年3月期（2015年度）</th>
+      <td>
+        <ul class="link04">
+                                        <li class="link04__item"><a href="/assets/files/HP%E6%8E%B2%E8%BC%89%E7%94%A8%E3%80%902016y0513%E6%B1%BA%E7%AE%97%E7%9F%AD%E4%BF%A1__1.pdf" class="link04__trigger" target="_blank">通期<span class="link04__size">PDF（約855KB）</span></a></li>
+                          
+        
+                                                              <li class="link04__item"><a href="/assets/files/2803__1.pdf" class="link04__trigger" target="_blank">第3四半期<span class="link04__size">PDF（約250KB）</span></a></li>
+                          
+        
+                                                              <li class="link04__item"><a href="/assets/files/2015y10%E7%9F%AD%E4%BF%A1__1.pdf" class="link04__trigger" target="_blank">第２四半期<span class="link04__size">PDF（約257KB）</span></a></li>
+                          
+        
+                                                              <li class="link04__item"><a href="/assets/files/_%E5%B9%B3%E6%88%9028%E5%B9%B43%E6%9C%88%E6%9C%9F_%E7%AC%AC1%E5%9B%9B%E5%8D%8A%E6%9C%9F__2.pdf" class="link04__trigger" target="_blank">第1四半期<span class="link04__size">PDF（約248KB）</span></a></li>
+                            <!-- /.link04 -->
+        </ul>
+      </td>
+    </tr>
+        
+        
+                                  <tr>
+      <th>平成27年3月期（2014年度）</th>
+      <td>
+        <ul class="link04">
+                                        <li class="link04__item"><a href="/assets/files/_%E5%B9%B3%E6%88%9027%E5%B9%B43%E6%9C%88%E6%9C%9F_%E9%80%9A%E6%9C%9F__2.pdf" class="link04__trigger" target="_blank">通期<span class="link04__size">PDF（約349KB）</span></a></li>
+                          
+        
+                                                              <li class="link04__item"><a href="/assets/files/_%E5%B9%B3%E6%88%9027%E5%B9%B43%E6%9C%88%E6%9C%9F_%E7%AC%AC3%E5%9B%9B%E5%8D%8A%E6%9C%9F__2.pdf" class="link04__trigger" target="_blank">第3四半期<span class="link04__size">PDF（約263KB）</span></a></li>
+                          
+        
+                                                              <li class="link04__item"><a href="/assets/files/_%E5%B9%B3%E6%88%9027%E5%B9%B43%E6%9C%88%E6%9C%9F_%E7%AC%AC2%E5%9B%9B%E5%8D%8A%E6%9C%9F__2.pdf" class="link04__trigger" target="_blank">第2四半期<span class="link04__size">PDF（約259KB）</span></a></li>
+                          
+        
+                                                              <li class="link04__item"><a href="/assets/files/_%E5%B9%B3%E6%88%9027%E5%B9%B43%E6%9C%88%E6%9C%9F_%E7%AC%AC1%E5%9B%9B%E5%8D%8A%E6%9C%9F__2.pdf" class="link04__trigger" target="_blank">第1四半期<span class="link04__size">PDF（約266KB）</span></a></li>
+                            <!-- /.link04 -->
+        </ul>
+      </td>
+    </tr>
+        
+        
+                                  <tr>
+      <th>平成26年3月期（2013年度）</th>
+      <td>
+        <ul class="link04">
+                                        <li class="link04__item"><a href="/assets/files/_%E5%B9%B3%E6%88%9026%E5%B9%B43%E6%9C%88%E6%9C%9F_%E9%80%9A%E6%9C%9F__2.pdf" class="link04__trigger" target="_blank">通期<span class="link04__size">PDF（約351KB）</span></a></li>
+                          
+        
+                                                              <li class="link04__item"><a href="/assets/files/_%E5%B9%B3%E6%88%9026%E5%B9%B43%E6%9C%88%E6%9C%9F_%E7%AC%AC3%E5%9B%9B%E5%8D%8A%E6%9C%9F__2.pdf" class="link04__trigger" target="_blank">第3四半期<span class="link04__size">PDF（約252KB）</span></a></li>
+                          
+        
+                                                              <li class="link04__item"><a href="/assets/files/_%E5%B9%B3%E6%88%9026%E5%B9%B43%E6%9C%88%E6%9C%9F_%E7%AC%AC2%E5%9B%9B%E5%8D%8A%E6%9C%9F__2.pdf" class="link04__trigger" target="_blank">第2四半期<span class="link04__size">PDF（約253KB）</span></a></li>
+                          
+        
+                                                              <li class="link04__item"><a href="/assets/files/_%E5%B9%B3%E6%88%9026%E5%B9%B43%E6%9C%88%E6%9C%9F_%E7%AC%AC1%E5%9B%9B%E5%8D%8A%E6%9C%9F__2.pdf" class="link04__trigger" target="_blank">第1四半期<span class="link04__size">PDF（約251KB）</span></a></li>
+                            <!-- /.link04 -->
+        </ul>
+      </td>
+    </tr>
+        
+        
+                                  <tr>
+      <th>平成25年3月期（2012年度）</th>
+      <td>
+        <ul class="link04">
+                                        <li class="link04__item"><a href="/assets/files/_%E5%B9%B3%E6%88%9025%E5%B9%B43%E6%9C%88%E6%9C%9F_%E9%80%9A%E6%9C%9F__3.pdf" class="link04__trigger" target="_blank">通期<span class="link04__size">PDF（約337KB）</span></a></li>
+                          
+        
+                                                              <li class="link04__item"><a href="/assets/files/_%E5%B9%B3%E6%88%9025%E5%B9%B43%E6%9C%88%E6%9C%9F_%E7%AC%AC3%E5%9B%9B%E5%8D%8A%E6%9C%9F__4.pdf" class="link04__trigger" target="_blank">第3四半期<span class="link04__size">PDF（約256KB）</span></a></li>
+                          
+        
+                                                              <li class="link04__item"><a href="/assets/files/_%E5%B9%B3%E6%88%9025%E5%B9%B43%E6%9C%88%E6%9C%9F_%E7%AC%AC2%E5%9B%9B%E5%8D%8A%E6%9C%9F__3.pdf" class="link04__trigger" target="_blank">第2四半期<span class="link04__size">PDF（約257KB）</span></a></li>
+                          
+        
+                                                              <li class="link04__item"><a href="/assets/files/_%E5%B9%B3%E6%88%9025%E5%B9%B43%E6%9C%88%E6%9C%9F_%E7%AC%AC1%E5%9B%9B%E5%8D%8A%E6%9C%9F__3.pdf" class="link04__trigger" target="_blank">第1四半期<span class="link04__size">PDF（約248KB）</span></a></li>
+                            <!-- /.link04 -->
+        </ul>
+      </td>
+    </tr>
+        
+        
+                  <!-- /.table05 -->
+  </table>
+      <!-- /.section02 -->
+</div>
+
+  <div class="breadcrumb">
+  <ul class="breadcrumb__list">
+    <li class="breadcrumb__item"><a href="/jp" class="breadcrumb__trigger">ホーム</a></li>
+    <li class="breadcrumb__item"><span class="breadcrumb__trigger">会社案内</span></li>
+    <li class="breadcrumb__item"><span class="breadcrumb__trigger">IR情報</span></li>
+    <li class="breadcrumb__item"><span class="breadcrumb__trigger">IR資料室</span></li>
+     <li class="breadcrumb__item">決算短信</li>
+  </ul>
+</div><div class="section02">
+          <dl class="list03">
+            <dt class="list03__title">■沈黙期間について</dt>
+            <dd class="list03__body">当社では、決算情報の漏洩を防止し、情報開示の公平性を確保するため、<em class="list03--em">決算締日の10日前～決算発表当日</em>までを「沈黙期間」とし、この期間は決算に関するコメントや質問への回答を差し控えます。<br>ただし、この期間に業績予想が大きく変動する見込みが生じた時には、適時開示規則に従い情報開示を行います。なお、この期間であっても、すでに公表されている情報に関するご質問については対応いたします。</dd>
+            <dt class="list03__title">■免責事項</dt>
+            <dd class="list03__body">「IR・会社情報」ウェブページのいかなる情報も、当社株式の購入や売却などを勧誘するものではなく、またこれらに関する投資アドバイス目的で作成されたものではありません。 当社は、本ウェブページの情報及び本ウェブページからリンクが設定されている他のウェブページの情報に関し、いかなる保証をするものではなく、これらの情報やデータのダウンロード等によって被ったいかなる損害についても、 当社は一切責任を負うものではありませんのでご了承ください。また、投資に関する決定は利用者ご自身の判断において行われるようお願いします。</dd>
+            <!-- /.list03 -->
+          </dl>
+          <!-- /.section02 -->
+        </div>      </main>
+      
+      <footer class="footer" role="contentinfo">
+          <div class="footer__main">
+          <dl class="footer__socials">
+          <dt class="footer__socials-title">グリコからの最新情報を受け取る</dt>
+          <dd class="footer__socials-body">
+            <ul class="footer__socials-list">
+            <li class="footer__socials-item"><a class="footer__socials-trigger" href="https://www.facebook.com/GlicoGlobal" target="_blank"><img src="/assets/materials/btn_social_01.png" class="footer__socials-image" alt="Facebook" /></a></li>
+            <li class="footer__socials-item"><a class="footer__socials-trigger" href="https://twitter.com/GlicoPRJP" target="_blank"><img src="/assets/materials/btn_social_02.png" class="footer__socials-image" alt="Twitter" /></a></li>
+            <li class="footer__socials-item"><a class="footer__socials-trigger" href="https://www.youtube.com/user/glicowebnet" target="_blank"><img src="/assets/materials/btn_social_04.png" class="footer__socials-image" alt="Youtube" /></a></li>
+            </ul>
+          </dd>
+          <ul class="footer__nav">
+            <li class="footer__item"><a href="https://www.glico.com/" class="footer__link">グリコホーム</a></li>
+            <li class="footer__item"><a href="https://www.glico.com/jp/customer/" class="footer__link">お問い合わせ</a></li>
+            <li class="footer__item"><a href="https://www.glico.com/jp/termsofuse/" class="footer__link">ご利用規約</a></li>
+            <li class="footer__item"><a href="https://www.glico.com/jp/privacypolicy/" class="footer__link">プライバシーポリシー</a></li>
+            <li class="footer__item"><a href="https://www.glico.com/jp/socialmediapolicy/" class="footer__link">ソーシャルメディアポリシー</a></li>
+            <li class="footer__item"><a href="https://www.glico.com/jp/sitemap/" class="footer__link">サイトマップ</a></li>
+          </ul>
+          <p class="footer__copyright"><small><span class="footer__section">江崎グリコ株式会社 Copyright&copy;2017</span> <span class="footer__section">EZAKI GLICO CO.,LTD. All rights reserved.</span></small></p>
+        </div>
+        <!-- /.footer -->
+      </footer>      
+
+      <!-- /.container -->
+    </div>
+
+    
+    <script type="text/javascript" src="/assets/javascripts/jquery.js"></script>
+<script type="text/javascript" src="/assets/javascripts/slick.min.js"></script>
+<script type="text/javascript" src="/assets/javascripts/jquerymatchHeightmin.js"></script>
+<script type="text/javascript" src="/assets/javascripts/remodal.min.js"></script>
+
+<script type="text/javascript" src="/assets/javascripts/main.js?201509305"></script>
+<script type="text/javascript" src="/assets/javascripts/modal.js"></script>
+<script type="text/javascript" src="/assets/javascripts/masonry.pkgd.min.js"></script>
+<script type="text/javascript" src="/assets/javascripts/trimming.js"></script>
+
+<script type="text/javascript" src="/assets/javascripts/video.js?201509311"></script>
+<script type="text/javascript" src="/assets/javascripts/typeahead.bundle.min.js"></script>
+<script type="text/javascript" src="/assets/javascripts/typeahead.jquery.min.js"></script>
+<script type="text/javascript" src="/assets/javascripts/bloodhound.min.js"></script>
+<script>$(function(){
+  // サジェスト
+    var engine = new Bloodhound({
+      limit: 5,
+      name: 'q',
+      remote: {
+        url: '/jp/suggest/?q=%QUERY',
+	wildcard: '%QUERY',
+	rateLimitBy: 'debounce',
+	rateLimitWait: 1000
+      },
+      datumTokenizer: function(d) {
+        return Bloodhound.tokenizers.whitespace([d.value]);
+      },
+      queryTokenizer: Bloodhound.tokenizers.whitespace
+    });
+    engine.initialize();
+
+    $('.js-suggest-search').typeahead(
+    {
+      limit: 5,
+      minLength: 1,
+      highlight: false
+    },
+    {
+      source: engine.ttAdapter(),
+      displayKey: 'value'
+    });
+});</script>
+
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"d41249447b","applicationID":"11726800","transactionName":"blBXYUFYC0dYBRUPC1caYEdaFgxaXQMZSBRRRQ==","queueTime":0,"applicationTime":1437,"atts":"QhdUFwlCGEk=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

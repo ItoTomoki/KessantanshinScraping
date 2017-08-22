@@ -1,0 +1,1060 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>JALUX(ジャルックス)</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1,user-scalable=no">
+<meta name="description" content="JALUXは皆様に心豊かな生活をお届けする「生活提案企業」です。航空機部品や機材などの航空関連事業、保険、不動産などの顧客サービス事業、そして生鮮品や通信販売などの生活関連事業まで、幅広い事業展開を行っております。" />
+<meta name="keywords" content="JALUX,ジャルックス,JAL,双日,商社,通販,航空機,客室,ブルースカイ,リリース,商品" />
+
+<!--head -->
+<link rel="icon" href="/common/img/favicon.ico" type="image/vnd.microsoft.icon">
+<link rel="shortcut icon" href="/common/img/favicon.ico" type="image/vnd.microsoft.icon">
+<link rel="apple-touch-icon" sizes="152x152" href="/common/img/apple-touch-icon.png">
+
+<link rel="stylesheet" type="text/css" href="/common/css/default.css">
+<link rel="stylesheet" type="text/css" href="/common/css/layout.css">
+<link rel="stylesheet" type="text/css" media="print" href="/common/css/print.css" />
+<script src="/common/js/jquery-1.9.1.min.js"></script>
+<!--<script src="/common/js/pulldown.js"></script>-->
+<script src="/common/js/heightLine.js"></script>
+<script src="/common/js/jquery.cookie.js"></script>
+<script src="/common/js/default.js"></script>
+<script>
+$(document).ready(function(){
+
+});
+</script>
+
+<!--[if IE 8]><html class="ie8"><![endif]-->
+<!--[if lte IE 9]>
+<html class="ie9">
+<script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+<script src="/common/js/selectivizr-min.js"></script>
+<![endif]-->
+
+<!-- Google analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-29141289-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<!-- /Google analytics -->
+<!--/head-->
+
+<link rel="stylesheet" href="css/top.css" type="text/css">
+
+</head>
+
+<body class="preload">
+
+<div id="wrapper">
+
+<!--header -->
+<header>
+    <div class="hd_area01">
+        <div class="inner">
+        <!--
+        <div class="hd_block01">
+            <ul class="clearfix">
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+            </ul>
+        </div>
+        -->
+        <div class="hd_block02">
+            <a href="/"><h1><img src="/common/img/com_hd_logo01.png" alt="JALUX" class="w100per"></h1></a>
+        </div>
+        <div class="hd_block03" class="clearfix">
+            <div class="fsize">
+                <p>文字サイズ</p>
+                <div id="hd_fsize_def">中</div>
+                <div id="hd_fsize_lag">大</div>
+            </div>
+            <div id="hd_lang"><p><a href="/en/profile/">ENGLISH</a></p></div>
+            <div id="hd_search"><a href="/search.html"><span></span></a></div>
+        </div>
+        <div id="hd_menuBtn01" class="">
+            <div class="bdr01"></div>
+            <div class="bdr02"></div>
+            <div class="bdr03"></div>
+        </div>
+        </div><!--/inner-->
+    </div>
+    <div class="hd_area02">
+    <nav><ul id="gloNav" class="clearfix">
+        <li class="min_logo"><a href="/"><h1><img src="/common/img/com_hd_logo01.png" alt="JALUX" class="w100per"></h1></a></li>
+        <li id="pldwnTrg_home"><a href="/"><span></span></a></li>
+        <li id="pldwnTrg_pro" class="pldwnTrg"><a href="/profile/">会社案内</a></li>
+        <li id="pldwnTrg_div" class="pldwnTrg"><a href="/division/">事業紹介</a></li>
+        <li id="pldwnTrg_ser" class="pldwnTrg"><a href="/service/">商品・サービス</a></li>
+        <li id="pldwnTrg_ir" class="pldwnTrg"><a href="/ir/">株主・投資家情報</a></li>
+        <li><a href="/csr/">CSR</a></li>
+        <li><a href="/recruit/">採用情報</a></li>
+    </ul></nav>
+    </div>
+
+    <!-- pldwnList_div -->
+    <div id="pldwnList_pro" class="pldwnList">
+        <div class="inner clearfix">
+            <h3><a href="/profile/"><span class="txtXLag">会社案内</span><span class="txtWhHf txtEnMin">Corporate Profile</span></a></h3>
+            <nav><ul class="clearfix">
+                <li>
+                    <a href="/profile/greeting.html">
+                        <div class="pic"><img src="/common/img/com_hd_pld_pro01.png" alt=""></div>
+                        <div class="txt">ごあいさつ</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/profile/information.html">
+                        <div class="pic"><img src="/common/img/com_hd_pld_pro02.png" alt=""></div>
+                        <div class="txt">会社情報</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/profile/vision.html">
+                        <div class="pic"><img src="/common/img/com_hd_pld_pro03.png" alt=""></div>
+                        <div class="txt">ビジョン</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/profile/executive.html">
+                        <div class="pic"><img src="/common/img/com_hd_pld_pro04.png" alt=""></div>
+                        <div class="txt">役員一覧</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/profile/organizationcontrol.html">
+                        <div class="pic"><img src="/common/img/com_hd_pld_pro05.png" alt=""></div>
+                        <div class="txt">組織体制</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/profile/group.html">
+                        <div class="pic"><img src="/common/img/com_hd_pld_pro06.png" alt=""></div>
+                        <div class="txt">グループ企業</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/profile/access.html">
+                        <div class="pic"><img src="/common/img/com_hd_pld_pro07.png" alt=""></div>
+                        <div class="txt">アクセス</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/profile/dom.html">
+                        <div class="pic"><img src="/common/img/com_hd_pld_pro08.png" alt=""></div>
+                        <div class="txt">国内営業拠点</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/profile/world.html">
+                        <div class="pic"><img src="/common/img/com_hd_pld_pro09.png" alt=""></div>
+                        <div class="txt">海外拠点</div>
+                    </a>
+                </li>
+            </ul></nav>
+        </div>
+    </div>
+    <!-- /pldwnList_div -->    
+    <!-- pldwnList_div -->
+    <div id="pldwnList_div" class="pldwnList">
+        <div class="inner clearfix">
+            <h3><a href="/division/"><span class="txtXLag">事業紹介</span><span class="txtWhHf txtEnMin">Our Business</span></a></h3>
+            <nav><ul class="clearfix">
+                <li>
+                    <a href="/division/div_aero.html">
+                        <div class="pic"><img src="/common/img/com_hd_pld_div01.png" alt=""></div>
+                        <div class="txt">航空・空港<br />事業本部</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/division/div_life.html">
+                        <div class="pic"><img src="/common/img/com_hd_pld_div02.png" alt=""></div>
+                        <div class="txt">ライフサービス<br />事業本部</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/division/div_retail.html">
+                        <div class="pic"><img src="/common/img/com_hd_pld_div03.png" alt=""></div>
+                        <div class="txt">リテール<br />事業本部</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/division/div_food.html">
+                        <div class="pic"><img src="/common/img/com_hd_pld_div04.png" alt=""></div>
+                        <div class="txt">フーズ・ビバレッジ<br />事業本部</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/division/div_west.html">
+                        <div class="pic"><img src="/common/img/com_hd_pld_div05.png" alt=""></div>
+                        <div class="txt">西日本支社</div>
+                    </a>
+                </li>
+            </ul></nav>
+        </div>
+    </div>
+    <!-- /pldwnList_div -->
+    <!-- pldwnList_ser -->
+    <div id="pldwnList_ser" class="pldwnList">
+        <div class="inner clearfix">
+            <h3><a href="/service/"><span class="txtXLag">商品・サービス</span><span class="txtWhHf txtEnMin">Product & Service</span></a></h3>
+            <nav><ul class="clearfix">
+                <li>
+                    <a href="/rd/service/hp_catalog.html">
+                        <div class="pic"><img src="/common/img/com_hd_pld_ser01.png" alt=""></div>
+                        <div class="txt">ショッピング<br>カタログ</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/rd/service/hp_tempo.html">
+                        <div class="pic"><img src="/common/img/com_hd_pld_ser02.png" alt=""></div>
+                        <div class="txt">店舗紹介</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/rd/service/hp_homepage.html">
+                        <div class="pic"><img src="/common/img/com_hd_pld_ser03.png" alt=""></div>
+                        <div class="txt">サービス・<br>ホームページ</div>
+                    </a>
+                </li>
+            </ul></nav>
+        </div>
+    </div>
+    <!-- /pldwnList_ser -->
+    <!-- pldwnList_ir -->
+    <div id="pldwnList_ir" class="pldwnList">
+        <div class="inner clearfix">
+            <h3><a href="/ir/"><span class="txtXLag">株主・<br>投資家情報</span><span class="txtWhHf txtEnMin">Investor Relations</span></a></h3>
+            <nav><ul class="clearfix">
+                <li>
+                    <a href="/ir/calendar.html">
+                        <div class="pic"><img src="/common/img/com_hd_pld_ir01.png" alt=""></div>
+                        <div class="txt">年間スケジュール</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/ir/businessoutline.html">
+                        <div class="pic"><img src="/common/img/com_hd_pld_ir02.png" alt=""></div>
+                        <div class="txt">事業概要</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/ir/fin_summary.html">
+                        <div class="pic"><img src="/common/img/com_hd_pld_ir03.png" alt=""></div>
+                        <div class="txt">決算概要</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/ir/line.html">
+                        <div class="pic"><img src="/common/img/com_hd_pld_ir04.png" alt=""></div>
+                        <div class="txt">決算短信</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/ir/statements.html">
+                        <div class="pic"><img src="/common/img/com_hd_pld_ir05.png" alt=""></div>
+                        <div class="txt">IR<br>プレゼンテーション</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/ir/fin_report.html">
+                        <div class="pic"><img src="/common/img/com_hd_pld_ir06.png" alt=""></div>
+                        <div class="txt">有価証券報告書</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/ir/corpgv.html">
+                        <div class="pic"><img src="/common/img/com_hd_pld_ir15.png" alt=""></div>
+                        <div class="txt">コーポレート・<br>ガバナンス</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/ir/rating.html">
+                        <div class="pic"><img src="/common/img/com_hd_pld_ir07.png" alt=""></div>
+                        <div class="txt">格付情報</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/ir/shareholder.html">
+                        <div class="pic"><img src="/common/img/com_hd_pld_ir08.png" alt=""></div>
+                        <div class="txt">株主総会</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/ir/hospitality.html">
+                        <div class="pic"><img src="/common/img/com_hd_pld_ir09.png" alt=""></div>
+                        <div class="txt">株主優待</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/ir/faq.html">
+                        <div class="pic"><img src="/common/img/com_hd_pld_ir10.png" alt=""></div>
+                        <div class="txt">よくあるご質問</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/ir/mail.html">
+                        <div class="pic"><img src="/common/img/com_hd_pld_ir11.png" alt=""></div>
+                        <div class="txt">IR資料請求</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/ir/analyst.html">
+                        <div class="pic"><img src="/common/img/com_hd_pld_ir12.png" alt=""></div>
+                        <div class="txt">アナリストレポート</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://www.jalux.com/rd/ir/stock.html" target="_blank">
+                        <div class="pic"><img src="/common/img/com_hd_pld_ir13.png" alt=""></div>
+                        <div class="txt">株価情報</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/ir/notification.html">
+                        <div class="pic"><img src="/common/img/com_hd_pld_ir14.png" alt=""></div>
+                        <div class="txt">電子公告</div>
+                    </a>
+                </li>
+            </ul></nav>
+        </div>
+    </div>
+    <!-- /pldwnList_ir -->
+    <div id="gloNav_sp">
+        <nav>
+            <ul class="menu_large">
+                <li class="tit">
+                    <span>会社案内</span>
+                    <ul class="menu_sub">
+                        <li><a href="/profile/"><span>会社案内TOP</span></a></li>
+                        <li><a href="/profile/greeting.html"><span>ごあいさつ</span></a></li>
+                        <li><a href="/profile/information.html"><span>会社情報</span></a></li>
+                        <li><a href="/profile/vision.html"><span>ビジョン</span></a></li>
+                        <li><a href="/profile/executive.html"><span>役員一覧</span></a></li>
+                        <li><a href="/profile/organizationcontrol.html"><span>組織体制</span></a></li>
+                        <li><a href="/profile/group.html"><span>グループ企業</span></a></li>
+                        <li><a href="/profile/access.html"><span>アクセス</span></a></li>
+                        <li><a href="/profile/dom.html"><span>国内営業拠点</span></a></li>
+                        <li><a href="/profile/world.html"><span>海外拠点</span></a></li>
+                    </ul>
+                </li>
+                <li class="tit">
+                    <span>事業紹介</span>
+                    <ul class="menu_sub">
+                        <li><a href="/division/"><span>事業紹介TOP</span></a></li>
+                        <li><a href="/division/div_aero.html"><span>航空・空港事業本部</span></a></li>
+                        <li><a href="/division/div_life.html"><span>ライフサービス事業本部</span></a></li>
+                        <li><a href="/division/div_retail.html"><span>リテール事業本部</span></a></li>
+                        <li><a href="/division/div_food.html"><span>フーズ・ビバレッジ事業本部</span></a></li>
+                        <li><a href="/division/div_west.html"><span>西日本支社</span></a></li>
+                    </ul>
+                </li>
+                <li class="tit">
+                    <span>商品・サービス</span>
+                    <ul class="menu_sub">
+                        <li><a href="/service/"><span>商品・サービスTOP</span></a></li>
+                        <li><a href="/rd/service/hp_catalog.html"><span>ショッピングカタログ</span></a></li>
+                        <li><a href="/rd/service/hp_tempo.html"><span>店舗紹介</span></a></li>
+                        <li><a href="/rd/service/hp_homepage.html"><span>サービス・ホームページ</span></a></li>
+                    </ul>
+                </li>
+                <li class="tit">
+                    <span>株主・投資家情報</span>
+                    <ul class="menu_sub">
+                        <li><a href="/ir/"><span>株主・投資家情報TOP</span></a></li>
+                        <li><a href="/ir/calendar.html"><span>年間スケジュール</span></a></li>
+                        <li><a href="/ir/businessoutline.html"><span>事業概要</span></a></li>
+                        <li><a href="/ir/fin_summary.html"><span>決算概要</span></a></li>
+                        <li><a href="/ir/line.html"><span>決算短信</span></a></li>
+                        <li><a href="/ir/statements.html"><span>IRプレゼンテーション</span></a></li>
+                        <li><a href="/ir/fin_report.html"><span>有価証券報告書</span></a></li>
+                        <li><a href="/ir/corpgv.html"><span>コーポレート・ガバナンス</span></a></li>
+                        <li><a href="/ir/rating.html"><span>格付情報</span></a></li>
+                        <li><a href="/ir/shareholder.html"><span>株主総会</span></a></li>
+                        <li><a href="/ir/hospitality.html"><span>株主優待</span></a></li>
+                        <li><a href="/ir/faq.html"><span>よくあるご質問</span></a></li>
+                        <li><a href="/ir/mail.html"><span>IR資料請求</span></a></li>
+                        <li><a href="/ir/analyst.html"><span>アナリストレポート</span></a></li>
+                        <li><a href="http://www.jalux.com/rd/ir/stock.html" target="_blank"><span>株価情報</span></a></li>
+                        <li><a href="/ir/notification.html"><span>電子公告</span></a></li>
+                    </ul>
+                </li>
+                <li class="tit">
+                    <span>CSR</span>
+                    <ul class="menu_sub">
+                        <li><a href="/csr/"><span>CSR TOP</span></a></li>
+<!--
+                        <li><a href="#"><span>JALUXのCSR</span></a></li>
+                        <li><a href="#"><span>社会・文化・環境活動</span></a></li>
+                        <li><a href="#"><span>事業を通じての取り組み</span></a></li>
+                        <li><a href="#"><span>コンプライアンス</span></a></li>
+-->
+                    </ul>
+                </li>
+                <li class="tit">
+                    <span>採用情報</span>
+                    <ul class="menu_sub">
+                        <li><a href="/recruit/"><span>採用情報 TOP</span></a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <!--
+        <div class="snsArea">
+            <ul class="clearfix">
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+            </ul>
+        </div>
+        -->
+    </div><!--/gloNav_sp-->
+    
+</header><!--/header-->
+
+<div id="top_mainArea">
+<div class="loader"></div>
+<ul id="mainSlider">
+    <li><a href="profile/"><img src="img/top_main01@2x.jpg" alt="会社案内" class="w100per"></a></li>
+    <li><a href="http://www.jalux.com/laxe/sriracha/" target="_blank"><img src="img/top_main_sriracha1706.jpg" alt="JALUX SERVICED RESIDENCE タイ・シラチャの日系サービスアパートラグゼシラチャ" class="w100per"></a></li>
+    <li><a href="http://vacation.jalux.com/campaign/2017/?cid=jlxco" target="_blank"><img src="img/top_main_jvos170404.jpg" alt="JAL Vacation Ownership System" class="w100per"></a></li>
+    <li><a href="https://www.shop.jal.co.jp/info/CSfInfo.jsp?sm&df=sporder&ic=index&sp&pid=sporder" target="_blank"><img src="img/top_main_jshop160502.jpg" alt="JALショッピングオリジナル スペシャルオーダー JALショッピング" class="w100per"></a></li>
+    <li><a href="http://www.tabitus.com/" target="_blank"><img src="img/top_main07@2x.jpg" alt="TABITUS" class="w100per"></a></li>
+    <li><a href="http://bluesky.jalux.com/" target="_blank"><img src="img/top_main06@2x.jpg" alt="BLUE SKY" class="w100per"></a></li>
+    <li><a href="division/"><img src="img/top_main02@2x.jpg" alt="事業紹介" class="w100per"></a></li>
+    <li><a href="service/"><img src="img/top_main03@2x.jpg" alt="商品・サービス" class="w100per"></a></li>
+    <li><a href="ir/"><img src="img/top_main04@2x.jpg" alt="株主・投資家情報" class="w100per"></a></li>
+</ul>
+<div id="mainSlider_pager">
+    <a data-slide-index="0"></a>
+    <a data-slide-index="1"></a>
+    <a data-slide-index="2"></a>
+    <a data-slide-index="3"></a>
+    <a data-slide-index="4"></a>
+    <a data-slide-index="5"></a>
+    <a data-slide-index="6"></a>
+    <a data-slide-index="7"></a>
+    <a data-slide-index="8"></a>
+</div>
+</div><!--/.top_mainArea-->
+
+<div id="top" class="com_contWrapper">
+<div class="com_cont">
+
+<section id="attention">
+   <div class="inner">
+        2016年4月14日以降に発生した、熊本県をはじめとする地震により<br>
+        お亡くなりになられた方々のご冥福をお祈りするとともに、被災された皆さまに心よりお見舞いを申し上げます。
+    </div>
+</section>
+
+<section id="top_newsArea01">
+    <ul class="btnList01">
+       <li class="active">トピックス</li>
+        <li>株主・投資家</li>
+<!--        <li>JALUX ブログ</li>-->
+    </ul>
+    <!-- TOPICS -->
+<div id="newsList01" class="newsList active">
+<ul class="list">
+
+<li>
+<p class="date">［ 2017/08/16 ］</p>
+<p class="txt"><a href="http://www.jalux.com/news/2017816%E2%80%97TABITUS.pdf" target="_blank"><span class="newsNew">NEW </span>「TABITUS（タビタス）」より、コラボ商品好評販売中！(364.6 KB)</a></p>
+</li>
+
+
+
+
+<li>
+<p class="date">［ 2017/08/10 ］</p>
+<p class="txt"><a href="http://www.jalux.com/documents/ir/jalux_sihankihoukoku_201708.pdf">2018年3月期第1四半期　四半期報告書</a></p>
+</li>
+
+
+
+<li>
+<p class="date">［ 2017/08/09 ］</p>
+<p class="txt"><a href="http://www.matsuya.com/m_ginza/event/details/20170816_tabimonogatarijal_1sog.html">8/16～22、松屋銀座店にて「GINZA 旅物語×JAL SHOP」開催！</a></p>
+</li>
+
+
+
+<li>
+<p class="date">［ 2017/07/28 ］</p>
+<p class="txt"><a href="http://www.jalux.com/ir/line.html">2018年3月期　第1四半期決算短信</a></p>
+</li>
+
+
+
+<li>
+<p class="date">［ 2017/07/14 ］</p>
+<p class="txt"><a href="http://www.jalux.com/news/20170714_BS_hokkucorn.pdf" target="_blank">「北海道ほっくコーン」新発売！(324.2 KB)</a></p>
+</li>
+
+
+
+
+<li>
+<p class="date">［ 2017/07/12 ］</p>
+<p class="txt"><a href="http://www.jalux.com/news/20170712_TRL_3rd.pdf" target="_blank">&quot;三浦りさ子 Travel Resort Line&quot;第3弾を発売(288.9 KB)</a></p>
+</li>
+
+
+
+
+<li>
+<p class="date">［ 2017/06/19 ］</p>
+<p class="txt"><a href="http://www.jalux.com/news/201706_jalux_yuho_01.pdf" target="_blank">2017年3月期　有価証券報告書(783.0 KB)</a></p>
+</li>
+
+
+
+
+<li>
+<p class="date">［ 2017/06/19 ］</p>
+<p class="txt"><a href="http://www.jalux.com/news/%E6%94%AF%E9%85%8D%E6%A0%AA%E4%B8%BB%E7%AD%89%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E4%BA%8B%E9%A0%85%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6.pdf" target="_blank">支配株主等に関する事項について(196.5 KB)</a></p>
+</li>
+
+
+
+
+<li>
+<p class="date">［ 2017/05/22 ］</p>
+<p class="txt"><a href="http://www.jalux.com/news/20170522_TRL_02.pdf" target="_blank">&quot;三浦りさ子 Travel Resort Line&quot;第2弾を発売(293.2 KB)</a></p>
+</li>
+
+
+
+
+<li>
+<p class="date">［ 2017/05/19 ］</p>
+<p class="txt"><a href="http://www.jalux.com/news/20170519_JDV_Danang.pdf" target="_blank">ベトナム ダナン国際空港　新国際線ターミナルに2店舗オープン(291.7 KB)</a></p>
+</li>
+
+
+
+
+<li>
+<p class="date">［ 2017/05/17 ］</p>
+<p class="txt"><a href="http://www.jalux.com/news/20170517_jouyokin.pdf" target="_blank">剰余金の配当に関するお知らせ(152.3 KB)</a></p>
+</li>
+
+
+
+
+<li>
+<p class="date">［ 2017/04/28 ］</p>
+<p class="txt"><a href="http://www.jalux.com/ir/line.html">2017年3月期　決算短信</a></p>
+</li>
+
+
+
+<li>
+<p class="date">［ 2017/04/28 ］</p>
+<p class="txt"><a href="http://www.jalux.com/news/20170428_haitou.pdf" target="_blank">期末配当予想の修正に関するお知らせ(151.4 KB)</a></p>
+</li>
+
+
+
+
+<li>
+<p class="date">［ 2017/04/28 ］</p>
+<p class="txt"><a href="http://www.jalux.com/news/20170428_shagai.pdf" target="_blank">社外取締役候補者の選任に関するお知らせ(196.2 KB)</a></p>
+</li>
+
+
+
+
+<li>
+<p class="date">［ 2017/04/25 ］</p>
+<p class="txt"><a href="http://www.jalux.com/news/BS_SPK_20170425.pdf" target="_blank">新千歳空港BLUE SKY「中央ゲートショップ」 新規オープン(245.2 KB)</a></p>
+</li>
+
+
+
+
+<li>
+<p class="date">［ 2017/04/19 ］</p>
+<p class="txt"><a href="http://www.jalux.com/news/20170419_desky.pdf" target="_blank">JAL SELECTIONの「ですかい（カップ麺シリーズ）」が一斉リニューアル(821.2 KB)</a></p>
+</li>
+
+
+
+
+<li>
+<p class="date">［ 2017/04/14 ］</p>
+<p class="txt"><a href="http://www.jalux.com/news/20170414_billecart_salmon_spbox.pdf" target="_blank">シャンパーニュ「ビルカール サルモン」を限定スペシャルボックスで発売(298.7 KB)</a></p>
+</li>
+
+
+
+
+<li>
+<p class="date">［ 2017/03/31 ］</p>
+<p class="txt"><a href="http://www.jalux.com/news/pdf/20170331_sriracha.pdf" target="_blank">タイ王国での日本人駐在員ファミリー向けサービスアパートメント「ラグゼ・シラチ...(436.4 KB)</a></p>
+</li>
+
+
+
+
+<li>
+<p class="date">［ 2017/03/16 ］</p>
+<p class="txt"><a href="http://www.jalux.com/news/pdf/20170316_BS.pdf" target="_blank">長崎空港 BLUE SKY「ゲートショップ店」 全面リニューアルオープン(226.6 KB)</a></p>
+</li>
+
+
+
+
+<li>
+<p class="date">［ 2017/03/01 ］</p>
+<p class="txt"><a href="http://www.jalux.com/news/pdf/2017_03_01.pdf" target="_blank">役員体制の変更ならびに組織改定および執行体制に関するお知らせ(297.8 KB)</a></p>
+</li>
+
+
+
+
+</ul>
+<ul class="btnList02">
+<li class="moreBtn"><span>もっと見る</span></li>
+<li class="moreLink"><a href="/news/">一覧</a></li>
+</ul>
+</div>
+<!-- /TOPICS -->    <!-- IR -->
+<div id="newsList02" class="newsList">
+<ul class="list">
+
+<li>
+<p class="date">［ 2017/08/16 ］</p>
+<p class="txt"><a href="http://www.jalux.com/news/2017816%E2%80%97TABITUS.pdf" target="_blank"><span class="newsNew">NEW </span>「TABITUS（タビタス）」より、コラボ商品好評販売中！(364.6 KB)</a></p>
+</li>
+
+
+
+
+<li>
+<p class="date">［ 2017/08/10 ］</p>
+<p class="txt"><a href="http://www.jalux.com/documents/ir/jalux_sihankihoukoku_201708.pdf">2018年3月期第1四半期　四半期報告書</a></p>
+</li>
+
+
+
+<li>
+<p class="date">［ 2017/08/09 ］</p>
+<p class="txt"><a href="http://www.matsuya.com/m_ginza/event/details/20170816_tabimonogatarijal_1sog.html">8/16～22、松屋銀座店にて「GINZA 旅物語×JAL SHOP」開催！</a></p>
+</li>
+
+
+
+<li>
+<p class="date">［ 2017/07/28 ］</p>
+<p class="txt"><a href="http://www.jalux.com/ir/line.html">2018年3月期　第1四半期決算短信</a></p>
+</li>
+
+
+
+<li>
+<p class="date">［ 2017/07/14 ］</p>
+<p class="txt"><a href="http://www.jalux.com/news/20170714_BS_hokkucorn.pdf" target="_blank">「北海道ほっくコーン」新発売！(324.2 KB)</a></p>
+</li>
+
+
+
+
+<li>
+<p class="date">［ 2017/07/12 ］</p>
+<p class="txt"><a href="http://www.jalux.com/news/20170712_TRL_3rd.pdf" target="_blank">&quot;三浦りさ子 Travel Resort Line&quot;第3弾を発売(288.9 KB)</a></p>
+</li>
+
+
+
+
+<li>
+<p class="date">［ 2017/06/19 ］</p>
+<p class="txt"><a href="http://www.jalux.com/news/201706_jalux_yuho_01.pdf" target="_blank">2017年3月期　有価証券報告書(783.0 KB)</a></p>
+</li>
+
+
+
+
+<li>
+<p class="date">［ 2017/06/19 ］</p>
+<p class="txt"><a href="http://www.jalux.com/news/%E6%94%AF%E9%85%8D%E6%A0%AA%E4%B8%BB%E7%AD%89%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E4%BA%8B%E9%A0%85%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6.pdf" target="_blank">支配株主等に関する事項について(196.5 KB)</a></p>
+</li>
+
+
+
+
+<li>
+<p class="date">［ 2017/05/22 ］</p>
+<p class="txt"><a href="http://www.jalux.com/news/20170522_TRL_02.pdf" target="_blank">&quot;三浦りさ子 Travel Resort Line&quot;第2弾を発売(293.2 KB)</a></p>
+</li>
+
+
+
+
+<li>
+<p class="date">［ 2017/05/19 ］</p>
+<p class="txt"><a href="http://www.jalux.com/news/20170519_JDV_Danang.pdf" target="_blank">ベトナム ダナン国際空港　新国際線ターミナルに2店舗オープン(291.7 KB)</a></p>
+</li>
+
+
+
+
+<li>
+<p class="date">［ 2017/05/17 ］</p>
+<p class="txt"><a href="http://www.jalux.com/news/20170517_jouyokin.pdf" target="_blank">剰余金の配当に関するお知らせ(152.3 KB)</a></p>
+</li>
+
+
+
+
+<li>
+<p class="date">［ 2017/04/28 ］</p>
+<p class="txt"><a href="http://www.jalux.com/ir/line.html">2017年3月期　決算短信</a></p>
+</li>
+
+
+
+<li>
+<p class="date">［ 2017/04/28 ］</p>
+<p class="txt"><a href="http://www.jalux.com/news/20170428_haitou.pdf" target="_blank">期末配当予想の修正に関するお知らせ(151.4 KB)</a></p>
+</li>
+
+
+
+
+<li>
+<p class="date">［ 2017/04/28 ］</p>
+<p class="txt"><a href="http://www.jalux.com/news/20170428_shagai.pdf" target="_blank">社外取締役候補者の選任に関するお知らせ(196.2 KB)</a></p>
+</li>
+
+
+
+
+<li>
+<p class="date">［ 2017/03/01 ］</p>
+<p class="txt"><a href="http://www.jalux.com/news/pdf/2017_03_01.pdf" target="_blank">役員体制の変更ならびに組織改定および執行体制に関するお知らせ(297.8 KB)</a></p>
+</li>
+
+
+
+
+<li>
+<p class="date">［ 2017/02/13 ］</p>
+<p class="txt"><a href="http://www.jalux.com/documents/ir/jalux_sihankihoukoku_201702.pdf">2017年3月期第3四半期　四半期報告書</a></p>
+</li>
+
+
+
+<li>
+<p class="date">［ 2017/01/31 ］</p>
+<p class="txt"><a href="http://www.jalux.com/ir/line.html">2017年3月期　第3四半期決算短信</a></p>
+</li>
+
+
+
+<li>
+<p class="date">［ 2016/11/14 ］</p>
+<p class="txt"><a href="http://www.jalux.com/documents/ir/jalux_sihankihoukoku_201611.pdf">2017年3月期第2四半期　四半期報告書</a></p>
+</li>
+
+
+
+<li>
+<p class="date">［ 2016/11/02 ］</p>
+<p class="txt"><a href="http://www.jalux.com/news/2016/jalux-6.html">「JALUX株主優待商品券」のご送付について</a></p>
+</li>
+
+
+
+<li>
+<p class="date">［ 2016/10/28 ］</p>
+<p class="txt"><a href="http://www.jalux.com/ir/line.html">2017年3月期　第2四半期決算短信</a></p>
+</li>
+
+
+
+</ul>
+<ul class="btnList02">
+<li class="moreLink"><a href="/news/ir/">一覧</a></li>
+</ul>
+</div>
+<!-- /IR -->
+    
+    <!--[coolbiz add 170706] -->
+    <div id="top_coolbizBlock">
+        <div class="logo">
+            <img  src="img/top_coolbiz_logo01.png" alt="CoolBiz">
+        </div>
+        <div class="txt">
+            <p>当社では、環境への配慮及び出退勤等における暑さ緩和の観点から、10月31日まで、クールビズを実施しています。</p>
+        </div>
+    </div>
+    <!--//[coolbiz add 170706] -->
+    
+</section><!--/#top_newsArea01-->
+
+<section class="top_contArea01">
+   <h2><img src="img/top_cont_txt01.png" alt="航空分野で培われた「安心」「安全」を礎として、
+高品質で独自性のある事業・ 商品・サービスを創造する。" class="w100per"></h2>
+   <div class="defBtn02"><a href="division/"><span>事業紹介</span></a></div>
+    <ul class="top_contList01 clearfix">
+        <li><a href="division/div_aero.html#koku">
+                <div class="pic"><img src="img/top_cont_pic01.jpg" alt="" class="w100%per"></div>
+                <div class="txt">
+                    <p>航空機・航空エンジン・<br>航空機部品売買、<br>リマーケッティング事業</p>
+                </div>
+                <h3 class="txtLag"><div class="icon airplane"></div><span>航空機</span></h3>
+            </a></li>
+        <li><a href="division/div_aero.html#kaihatsu">
+                <div class="pic"><img src="img/top_cont_pic02.jpg" alt="" class="w100%per"></div>
+                <div class="txt">
+                    <p>空港ターミナル・<br>空港内施設の運営、<br>建設に関する事業</p>
+                </div>
+                <h3 class="txtLag"><div class="icon airport"></div><span>空港</span></h3>
+            </a></li>
+        <li><a href="division/div_life.html#shizai">
+                <div class="pic"><img src="img/top_cont_pic03.jpg" alt="" class="w100%per"></div>
+                <div class="txt">
+                    <p>特殊車両、印刷・用紙等の売買、<br>資材の貿易に関する事業</p>
+                </div>
+                <h3 class="txtLag"><div class="icon car"></div><span>機械・資材</span></h3>
+            </a></li>
+        <li><a href="division/div_life.html#fudosan">
+                <div class="pic"><img src="img/top_cont_pic04.jpg" alt="" class="w100%per"></div>
+                <div class="txt">
+                    <p>不動産・施設管理・<br>リゾートコンドミニアム紹介、<br>シニア事業</p>
+                </div>
+                <h3 class="txtLag"><div class="icon estate"></div><span>不動産</span></h3>
+            </a></li>
+        <li><a href="division/div_life.html#hoken">
+                <div class="pic"><img src="img/top_cont_pic05.jpg" alt="" class="w100%per"></div>
+                <div class="txt">
+                    <p>損害保険・<br>生命保険会社<br>保険代理店事業</p>
+                </div>
+                <h3 class="txtLag"><div class="icon insurance"></div><span>保険</span></h3>
+            </a></li>
+        <li class="org"><a href="division/div_retail.html#retail">
+                <div class="pic"><img src="img/top_cont_pic06.jpg" alt="" class="w100%per"></div>
+                <div class="txt">
+                    <p>エアライン・空港免税店卸販売、<br>店舗「JALプラザ TABITUS+ STATON」運営事業</p>
+                </div>
+                <h3 class="txtLag"><div class="icon duty"></div><span>免税品</span></h3>
+            </a></li>
+        <li class="org"><a href="division/div_retail.html#marketing">
+                <div class="pic"><img src="img/top_cont_pic07.jpg" alt="" class="w100%per"></div>
+                <div class="txt">
+                    <p>機内販売品の企画・<br>調達、機内通販誌・<br>カタログ通販誌企画運営、<br>EC通販事業</p>
+                </div>
+                <h3 class="txtLag"><div class="icon cart"></div><span>通信販売</span></h3>
+            </a></li>
+        <li class="grn"><a href="division/div_food.html#nousan">
+                <div class="pic"><img src="img/top_cont_pic08.jpg" alt="" class="w100%per"></div>
+                <div class="txt">
+                    <p>生鮮、<br>冷凍野菜等の<br>輸入事業</p>
+                </div>
+                <h3 class="txtLag"><div class="icon vege"></div><span>野菜</span></h3>
+            </a></li>
+        <li class="grn"><a href="division/div_food.html#suisan">
+                <div class="pic"><img src="img/top_cont_pic09.jpg" alt="" class="w100%per"></div>
+                <div class="txt">
+                    <p>生鮮、<br>冷凍の魚介類の<br>輸入事業</p>
+                </div>
+                <h3 class="txtLag"><div class="icon fish"></div><span>魚介</span></h3>
+            </a></li>
+        <li class="grn"><a href="division/div_retail.html#bluesky">
+                <div class="pic"><img src="img/top_cont_pic10.jpg" alt="" class="w100%per"></div>
+                <div class="txt">
+                    <p>全国27空港<br>エアポートショップ<br>「BLUE SKY」<br>運営事業</p>
+                </div>
+                <h3 class="txtLag"><div class="icon bag"></div><span>BLUE SKY</span></h3>
+            </a></li>
+        <li class="grn"><a href="division/div_food.html#wine">
+                <div class="pic"><img src="img/top_cont_pic11.jpg" alt="" class="w100%per"></div>
+                <div class="txt">
+                    <p>ワインの輸入・販売、<br>機内食・加工食品の<br>開発・販売事業</p>
+                </div>
+                <h3 class="txtLag"><div class="icon wine"></div><span>ワイン・フーズ</span></h3>
+            </a></li>
+        <li class="grn"><a href="division/div_retail.html#foods">
+                <div class="pic"><img src="img/top_cont_pic12.jpg" alt="" class="w100%per"></div>
+                <div class="txt">
+                    <p>大手百貨店、量販店、<br>コンビニエンスストアー等の<br>食品ギフト事業</p>
+                </div>
+                <h3 class="txtLag"><div class="icon gift"></div><span>ギフト</span></h3>
+            </a></li>
+    </ul>
+</section><!--/.top_contArea01-->
+
+<section class="top_contArea02">
+    <h2 class="txtLag">JALUXが提供する商品・サービス</h2>
+    <ul class="clearfix">
+        <li class="clearfix"><a href="http://www.tabitus.com/shop/jalplaza/" target="_blank">
+                <div class="pic"><img src="img/top_ser_pic12.jpg" alt="" class="w100per"></div>
+                <h3><img src="img/top_ser_logo12.png" alt="JAL PLAZA TABITUS+ STATION"></h3>
+            </a></li>
+        <li class="clearfix"><a href="/rd/home/jalshopping.html" target="_blank">
+                <div class="pic"><img src="img/top_ser_pic01.jpg" alt="" class="w100per"></div>
+                <h3><img src="img/top_ser_logo01.png" alt="JALショッピング"></h3>
+            </a></li>
+        <li class="clearfix"><a href="/rd/home/bluesky.html" target="_blank">
+                <div class="pic"><img src="img/top_ser_pic03.jpg" alt="" class="w100per"></div>
+                <h3><img src="img/top_ser_logo03.png" alt="BLUE SKY"></h3>
+            </a></li>
+        <li class="clearfix"><a href="/rd/home/hoken.html" target="_blank">
+                <div class="pic"><img src="img/top_ser_pic04.jpg" alt="" class="w100per"></div>
+                <h3><img src="img/top_ser_logo04.png" alt="保険マイルナビ"></h3>
+            </a></li>
+        <li class="clearfix"><a href="/rd/home/sumai.html" target="_blank">
+                <div class="pic"><img src="img/top_ser_pic05.jpg" alt="" class="w100per"></div>
+                <h3><img src="img/top_ser_logo05.png" alt="住マイルナビ"></h3>
+            </a></li>
+        <li class="clearfix"><a href="/rd/home/jvos.html" target="_blank">
+                <div class="pic"><img src="img/top_ser_pic06.jpg" alt="" class="w100per"></div>
+                <h3><img src="img/top_ser_logo06.png" alt="JAL Vacation Ownership System"></h3>
+            </a></li>
+        <li class="clearfix"><a href="/rd/home/solcias.html" target="_blank">
+                <div class="pic"><img src="img/top_ser_pic07.jpg" alt="ソルシアス佐倉" class="w100per"></div>
+                <h3><img src="img/top_ser_logo07.png" alt=""></h3>
+            </a></li>
+        <li class="clearfix"><a href="/rd/home/solcias_kamiyoga.html" target="_blank">
+                <div class="pic"><img src="img/top_ser_pic08.jpg" alt="" class="w100per"></div>
+                <h3><img src="img/top_ser_logo08.png" alt="ソルシアス上用賀"></h3>
+            </a></li>
+        <li class="clearfix"><a href="/rd/home/dfs.html" target="_blank">
+                <div class="pic"><img src="img/top_ser_pic09.jpg" alt="" class="w100per"></div>
+                <h3><img src="img/top_ser_logo09.png" alt="JAL DUTYFREE"></h3>
+            </a></li>
+        <li class="clearfix"><a href="http://www.glenfield.co.jp/" target="_blank">
+                <div class="pic"><img src="img/top_ser_pic10.jpg" alt="" class="w100per"></div>
+                <h3><img src="img/top_ser_logo10.png" alt="GLENFIELD"></h3>
+            </a></li>
+        <li class="clearfix"><a href="http://www.glencheck.net/" target="_blank">
+                <div class="pic"><img src="img/top_ser_pic11.jpg" alt="" class="w100per"></div>
+                <h3><img src="img/top_ser_logo11.png" alt="GLENCHECK"></h3>
+            </a></li>
+        <li class="clearfix"><a href="http://www.jalux.com/laxe/sriracha/" target="_blank">
+                <div class="pic"><img src="img/top_ser_pic13.jpg" alt="" class="w100per"></div>
+                <h3><img src="img/top_ser_logo13.png" alt="L'axe Siracha JALUX SERVICED RESIDENCE"></h3>
+            </a></li>
+        <li class="clearfix"><a href="http://www.jalux-trust.com/day_reha/" target="_blank">
+                <div class="pic"><img src="img/top_ser_pic14.jpg" alt="" class="w100per"></div>
+                <h3><img src="img/top_ser_logo14.png" alt="デイサービス ソルシアス佐倉 デイリハ"></h3>
+            </a></li>
+    </ul>
+</section><!--/.top_contArea02-->
+
+<!--blog -->
+<section class="top_contArea03">
+    <div class="inner">
+        <h2 class="txtLag">JALUX ブログ</h2>
+           <div class="clearfix">
+                <div class="pic"><a href="http://blog.jalux.com/2017_8/ginza_jal_shop.html" target="_blank"><img  src="img/top_blogthumb_170809.png"></a></div>
+                <div class="txt">
+                    <p class="date">2017年08月09日</p>
+                    <a href="http://blog.jalux.com/2017_8/ginza_jal_shop.html" target="_blank"><h4>松屋銀座店にて「GINZA 旅物語×JAL SHOP」開催！</h4></a>
+                    <p>みなさま、こんにちは。8月16日（水）～22日（火）、松屋銀座店の催事にJALUXが出展します…</p>
+                </div>
+            </div>
+            <div class="defBtn defBtn_type02"><a href="http://blog.jalux.com/" target="_blank"><span>JALUX ブログ</span></a></div>
+    </div>
+</section><!--/.top_contArea03--><!--/blog-->
+
+<p class="copy03 xsml">古物営業法に基づく表示　株式会社JALUX 東京都公安委員会許可　第301099503035</p>
+
+
+</div><!--/.com_cont-->
+</div><!--/.com_contWrapper-->
+
+
+<!--footer -->
+<footer>
+<div id="pageTop"><a href="#wrapper"></a></div>
+
+<div class="inner">
+
+<div class="clearfix">
+<div class="ft_block01">
+<ul>
+<li><a href="/policy.html"><span>サイト利用条件</span></a></li>
+<li><a href="/security.html"><span>情報セキュリティ</span></a></li>
+<li><a href="/privacy.html"><span>個人情報の保護</span></a></li>
+<li><a href="/socialmedia.html"><span>ソーシャルメディアポリシー</span></a></li>
+<li><a href="/browser.html"><span>推奨環境</span></a></li>
+<li><a href="/contact/"><span>お問い合わせ</span></a></li>
+</ul>
+</div>
+
+<div class="ft_block02 clearfix">
+<h4 class="lag"><span>関連サイト</span></h4>
+<div id="ft_pulldown">
+<ul class="ft_box01">
+<li><a href="https://www.shop.jal.co.jp/top/CSfTop.jsp?cid=wejx" target="_blank"><span>通信販売</span></a></li>
+<li><a href="http://bluesky.jalux.com/?cid=jlxweb" target="_blank"><span>空港店舗</span></a></li>
+<li><a href="https://www.shop.jal.co.jp/disp/CSfRankingListPage.jsp?cid=wejx" target="_blank"><span>空港土産お取り寄せ</span></a></li>
+<li><a href="http://sumai.jalux.com/?cid=wejx" target="_blank"><span>住まい</span></a></li>
+</ul>
+<ul class="ft_box02">
+<li><a href="http://www2.jalux.com/hoken/?cid=wejx" target="_blank"><span>保険</span></a></li>
+<li><a href="http://jaluxhs.com/?cid=jlx_home_foot" target="_blank"><span>保険代理店サポート</span></a></li>
+<li><a href="http://vacation.jalux.com/?cid=wejx" target="_blank"><span>タイムシェア</span></a></li>
+<li><a href="http://www.jaldfs.co.jp/" target="_blank"><span>免税品</span></a></li>
+</ul>
+</div>
+</div>
+</div><!--/clearfix-->
+
+<!--
+<div class="ft_block_sns">
+    <ul class="clearfix">
+        <li><a href="#"></a></li>
+        <li><a href="#"></a></li>
+        <li><a href="#"></a></li>
+        <li><a href="#"></a></li>
+    </ul>
+</div>
+-->
+
+</div><!--/.inner-->
+
+
+
+
+<div class="ft_block03">
+<div class="pc"><img src="/common/img/com_ft_logo.png" alt="株式会社JALUX"></div>
+<div class="sp"><img src="/common/img/com_ft_logo_sp.png" alt="株式会社JALUX"></div>
+<p class="copy01 xsml">［東証1部：2729］</p>
+<p class="copy02 xsml">Copyright © JALUX Inc. All Rights Reserved.</p>
+</div>
+
+</footer>
+<!--/footer-->
+
+
+</div><!-- //wrapper -->
+
+
+<script src="/common/js/jquery.bxslider.js"></script>
+<script src="js/top.js"></script>
+<script>
+$(window).load(function() {
+    /* loading finished */
+    $('.bx-wrapper').animate({'opacity':1},1500);
+});
+</script>
+
+
+</body>
+</html>

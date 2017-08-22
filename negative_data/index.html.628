@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+
+<title>スーパーバリュー | 埼玉・東京・千葉のホームセンター /食品スーパー</title>
+<meta name="title" content="スーパーバリュー | 埼玉・東京・千葉のホームセンター /食品スーパー">
+<meta name="keywords" content="スーパーバリュー,食品スーパー,ホームセンター,スーパーバリュー,食品スーパー,ホームセンター,最新情報,お得情報">
+<meta name="description" content="スーパーバリューは、埼玉、東京、千葉で展開する食品スーパーとホームセンターを併設した複合型小売店鋪と食品スーパー単独の小売店舗です。スーパーバリューからの最新情報、お買得な情報をお届けいたします。">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+
+
+<link rel="icon" href="/common/icon/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/common/icon/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon-precomposed" href="/common/icon/apple-touch-icon.png" sizes="144x144">
+<link rel="stylesheet" href="/common/css/reset.css" type="text/css" media="all">
+<link rel="stylesheet" href="/common/css/layout.css" type="text/css" media="all">
+<link rel="stylesheet" href="/common/css/common.css" type="text/css" media="all">
+
+<!-- お得サイト -->
+<link rel="stylesheet" href="/common/css/otoku_common.css" type="text/css" media="all">
+<!--[if gte IE 9]><!-->
+<link rel="stylesheet" href="/common/css/phone.css" media="screen and (max-width:767px)">
+<link rel="stylesheet" href="/common/css/otoku_phone.css" media="screen and (max-width:767px)">
+<!--<![endif]-->
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+<!-- 店舗詳細 -->
+
+<script type="text/javascript" src="/common/js/min/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="/common/js/min/viewport.js"></script>
+
+<!--[if lt IE 9]>
+<script src="/common/js/min/html5shiv.js"></script>
+<script src="/common/js/min/css3-mediaqueries.js"></script>
+<script src="/common/js/min/html5shiv-printshiv.js"></script>
+<![endif]-->
+<link rel="stylesheet" href="css/slider.css" type="text/css" media="all">
+
+<script src="http://maps.google.com/maps/api/js?v=3&sensor=false"
+        type="text/javascript" charset="UTF-8"></script>
+<script type="text/javascript" src="/common/js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="/common/js/min/jQueryAutoHeight.js"></script>
+
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="js/index_map.js"></script>
+
+<script type="text/javascript" src="js/slider.js"></script>
+
+
+<!-- ▼ーーーー必ず最後に設置ーーーー▼ -->
+<script type="text/javascript" src="/common/js/min/jquery.cookie.js"></script>
+<script type="text/javascript" src="/common/js/min/set_cookie.js"></script>
+</head>
+
+<body>
+
+
+<header class="header">
+	<div class="header-box">
+		<div class="header__inner">
+			<h1 class="header__logo">
+				<a class="pc" href="/"><img src="/common/img/img_header_logo.png" width="319" height="61" alt="Super Value　スーパーバリュー"></a>
+				<a class="sp" href="/"><img src="/common/img/img_logo.png" width="180" alt="Super Value　スーパーバリュー"></a>
+			</h1>
+			<div class="sp-menu js_sp-menu-btn sp"><img src="/common/img/btn_menu.png" alt="メニューを表示"></div>
+			<ul class="header__link pc">
+				<li><a href="/contact/">ご意見・お問い合わせ</a></li>
+				<li><a href="/sitemap.html">サイトマップ</a></li>
+			</ul>
+			<nav class="gnav pc">
+				<ul class="gnav__main">
+					<li class="gnav__home"><a href="/"><img src="/common/img/btn_header_home_01.png" width="106" height="59" alt="ホーム"></a></li>
+					<li class="gnav__shop"><a href="/shop/"><img src="/common/img/btn_header_shops_01.png" width="303" height="59" alt="店舗一覧"></a></li>
+					<li class="gnav__leaflet"><a href="/leaflet/"><img src="/common/img/btn_header_leaflet_a.png" width="303" height="59" alt="最新のチラシ一覧"></a></li>
+				</ul>
+				<ul class="gnav__feature">
+					<li class="gnav__topics"><a href="/topics/"><img src="/common/img/btn_header_topics_01.png" width="125" height="30" alt="特集を見る"></a></li>
+					<li class="gnav__mailmag"><a href="/mailmag/"><img src="/common/img/btn_header_mailmag_01.png" width="125" height="30" alt="メルマガ配信"></a></li>
+				</ul>
+			</nav>
+		</div><!-- /.header__inner -->
+		<nav class="toggle-menu sp">
+			<div class="toggle-menu__btn js_sp-menu-btn"><img src="/common/img/btn_delete.gif" width="12" height="12" alt="メニューを閉じる"></div>
+			<ul>
+				<li>
+					<dl>
+						<dt class="toggle-menu__cate"><a href="/">HOME</a></dt>
+						<dd>
+							<ul>
+								<li class="toggle-menu__child"><a href="/shop/">店舗一覧</a></li>
+								<li class="toggle-menu__child"><a href="/leaflet/">チラシ</a></li>
+								<li class="toggle-menu__child"><a href="/topics/">特集</a></li>
+							</ul>
+						</dd>
+					</dl>
+				</li>
+				<li>
+					<dl>
+						<dt class="toggle-menu__cate"><a href="/company/">企業情報</a></dt>
+						<dd>
+							<ul>
+								<li class="toggle-menu__child toggle-menu__long"><a href="/company/about.html">スーパーバリューとは</a></li>
+								<li class="toggle-menu__child"><a href="/company/greeting.html">会社情報</a></li>
+								<li class="toggle-menu__child"><a href="/ir/">IR情報</a></li>
+								<li class="toggle-menu__child"><a href="/recruit/">採用情報</a></li>
+							</ul>
+						</dd>
+					</dl>
+				</li>
+				<li class="toggle-menu__cate"><a href="/contact/">お問い合わせ</a></li>
+				<li class="toggle-menu__cate toggle-menu__long"><a href="/policy.html">プライバシーポリシー</a></li>
+			</ul>
+		</nav>
+	</div><!-- /.header-box -->
+</header>
+
+<div class="sp-content-cover js_sp-menu-btn"></div>
+<div class="wrap">
+
+		<div class="wideslider">
+		<ul class="wideslider__list">
+						<li class="wideslider__item">
+									<a href="https://www.ffa.ajinomoto.com/campaign/campaign_255the" onclick="ga('send', 'event', 'link', 'click', '20170810_ajinomoto_L');"><img src="/uploads/slider/20170810_264669799.jpg" width="1000" height="240" alt=""></a>
+							</li>
+						<li class="wideslider__item">
+									<a href="http://www.kagome.co.jp/campaign/pokemon/" onclick="ga('send', 'event', 'link', 'click', '201708_kagome_L');"><img src="/uploads/slider/20170801_1507941517.jpg" width="1000" height="240" alt=""></a>
+							</li>
+						<li class="wideslider__item">
+									<a href="http://www.supervalue.jp/leaflet/uploads/20170629083321VCue/"><img src="/uploads/slider/20170706_718866123.jpg" width="1000" height="240" alt=""></a>
+							</li>
+						<li class="wideslider__item">
+									<a href="http://park.ajinomoto.co.jp/recipe/corner/kachimeshi" onclick="ga('send', 'event', 'link', 'click', '201707_kachimeshi_L');"><img src="/uploads/slider/20170531_756343429.jpg" width="1000" height="240" alt=""></a>
+							</li>
+						<li class="wideslider__item">
+									<a href="http://www.supervalue.jp/leaflet/uploads/201707111627268erY/"><img src="/uploads/slider/20170702_518054667.jpg" width="1000" height="240" alt=""></a>
+							</li>
+						<li class="wideslider__item">
+									<a href="http://www.supervalue.jp/leaflet/uploads/20170803092200bZBc/"><img src="/uploads/slider/20170803_240947292.jpg" width="1000" height="240" alt=""></a>
+							</li>
+					</ul>
+	</div>
+	
+	<nav class="sp">
+		<ul class="sp-nav">
+			<li><a href="/shop/">店舗一覧</a></li>
+			<li><a href="/leaflet/">最新のチラシ一覧</a></li>
+			<li><a href="/topics/">特集を見る</a></li>
+			<li><a href="/mailmag/">メルマガ配信</a></li>
+		</ul>
+	</nav>
+
+	
+			<div class="top-banner sp" id="js_banner">
+			<ul class="top-banner__inner">
+									<li><a href="https://www.ffa.ajinomoto.com/campaign/campaign_255the" onclick="ga('send', 'event', 'link', 'click', '20170810_ajinomoto_S');"><img src="/uploads/banner/20170810_513955556.jpg" width="100%" alt=""></a></li>
+									<li><a href="http://www.kagome.co.jp/campaign/pokemon/" onclick="ga('send', 'event', 'link', 'click', '201708_kagome_S');"><img src="/uploads/banner/20170801_1457833899.jpg" width="100%" alt=""></a></li>
+									<li><a href="http://www.supervalue.jp/leaflet/uploads/20170629083321VCue/"><img src="/uploads/banner/20170706_248499172.jpg" width="100%" alt=""></a></li>
+									<li><a href="http://park.ajinomoto.co.jp/recipe/corner/kachimeshi" onclick="ga('send', 'event', 'link', 'click', '201707_kachimeshi_S');"><img src="/uploads/banner/20170531_173269179.jpg" width="100%" alt=""></a></li>
+									<li><a href="http://www.supervalue.jp/leaflet/uploads/201707111627268erY/"><img src="/uploads/banner/20170702_512526945.jpg" width="100%" alt=""></a></li>
+									<li><a href="http://www.supervalue.jp/leaflet/uploads/20170803092200bZBc/"><img src="/uploads/banner/20170803_3011326.jpg" width="100%" alt=""></a></li>
+									<li><a href="/shop/delivery.html" onclick="ga('send', 'event', 'link', 'click', '20170116delivery');"><img src="/uploads/banner/20170116_646051294.jpg" width="100%" alt="はい！お届け便 宅配サービスのご案内"></a></li>
+									<li><a href="/company/shoppingbagreduction.html"><img src="/uploads/banner/20160928_1183008992.jpg" width="100%" alt="eco値引き"></a></li>
+									<li><a href="http://www.supervalue.jp/leaflet/uploads/20170720111950a1py/"><img src="/uploads/banner/20170720_2114924370.jpg" width="100%" alt=""></a></li>
+									<li><a href="/contents/pointcard.html" onclick="ga('send', 'event', 'link', 'click', 'pointcard');"><img src="/uploads/banner/20170710_2021878257.jpg" width="100%" alt="現金ポイントカードのご案内"></a></li>
+							</ul>
+		</div>
+		<div class="top-ctrl sp">
+			<p class="top-ctrl__prev">prev</p>
+			<p class="top-ctrl__next">next</p>
+		</div>
+	
+	<div class="inner">
+		<div class="main-area">
+			<section class="infomation">
+				<h2 class="infomation__ttl"><img class="pc" src="img/ttl_index_news.png" width="322" height="22" alt="ニュース情報"><span class="sp">ニュース情報</span></h2>
+				<a class="more-detail" href="/news/" title="ニュース情報一覧を見る">一覧をみる</a>
+						
+				<div class="infomation__inner">
+					<ul>
+																					<li class="important-box">
+																			<a href="/news/detail/263">
+																			<dl class="news__list news__list--first news__list--important">
+											<dt class="news__days news__days--important">2017年8月1日</dt>
+											<dd class="news__txt news__txt--important"><span class="news__cate news__cate--important">重要</span><span class="news__ttl news__ttl--important">大宮天沼店･見沼南中野店より「9/1から営業時間変更」のお知らせ</span></dd>
+										</dl>
+																			</a>
+																	</li>
+															<li class="important-box">
+																			<a href="/news/detail/265">
+																			<dl class="news__list news__list--first news__list--important">
+											<dt class="news__days news__days--important">2017年7月21日</dt>
+											<dd class="news__txt news__txt--important"><span class="news__cate news__cate--important">重要</span><span class="news__ttl news__ttl--important">現金ポイントカードシステム変更に伴うご案内</span></dd>
+										</dl>
+																			</a>
+																	</li>
+															<li class="important-box">
+																			<a href="/news/detail/248">
+																			<dl class="news__list news__list--first news__list--important">
+											<dt class="news__days news__days--important">2017年4月22日</dt>
+											<dd class="news__txt news__txt--important"><span class="news__cate news__cate--important">重要</span><span class="news__ttl news__ttl--important">現金ポイントカード会員様へ　&ldquo;ポイントの現金換金&rdquo;終了のお知らせ</span></dd>
+										</dl>
+																			</a>
+																	</li>
+														
+															<li>
+																			<a href="/news/detail/188">
+																			<dl class="news__list news__list--first">
+											<dt class="news__days">2017年8月21日</dt>
+											<dd class="news__txt"><span class="news__cate news__cate--leaflet">チラシ配信</span><span class="news__ttl">8月21日(月)折込チラシのお知らせ</span></dd>
+										</dl>
+																			</a>
+																	</li>
+															<li>
+																			<a href="/news/detail/267">
+																			<dl class="news__list">
+											<dt class="news__days">2017年8月5日</dt>
+											<dd class="news__txt"><span class="news__cate news__cate--info">お知らせ</span><span class="news__ttl">八王子高尾店より「焼き立てパン･ベーカリーテラス」オープンのお知らせ</span></dd>
+										</dl>
+																			</a>
+																	</li>
+															<li>
+																			<a href="/news/detail/249">
+																			<dl class="news__list">
+											<dt class="news__days">2017年5月1日</dt>
+											<dd class="news__txt"><span class="news__cate news__cate--info">お知らせ</span><span class="news__ttl">「クールビズ」実施のお知らせ</span></dd>
+										</dl>
+																			</a>
+																	</li>
+							
+											</ul>
+				</div>
+			</section>
+
+			<section class="infomation">
+				<h2 class="infomation__ttl"><img class="pc" src="img/ttl_index_leaflet.png" width="304" height="19" alt="チラシを見る"><span class="sp">チラシを見る</span></h2>
+				<a class="more-detail" href="/leaflet/" title="チラシ一覧を見る">一覧をみる</a>
+				<div class="infomation__inner">
+					<dl class="myshop-list">
+						<dt class="myshop-list__ttl">マイ店舗</dt>
+						<dd class="myshop-list__name"><span class="myshop">ロード中</span></dd>
+					</dl>
+
+					<div class="registration-box">
+						<p class="registration-box__txt">ロード中</p>
+					</div>
+				</div>
+			</section>
+
+			<section class="infomation">
+				<h2 class="infomation__ttl"><img class="pc" src="img/ttl_index_shop.png" width="315" height="22" alt="店舗を調べる"><span class="sp">店舗を調べる</span></h2>
+				<a class="more-detail" href="/shop/" title="店舗一覧をみる">一覧をみる</a>
+						
+				<div class="infomation__inner">
+					<ul class="area-btn">
+						<li id="btn_saitama" class="shop-info__area prefecture shop-info__area--active"><span class="saitama">埼玉</span></li>
+						<li id="btn_tokyo" class="shop-info__area prefecture"><span class="tokyo">東京</span></li>
+						<li id="btn_chiba" class="shop-info__area prefecture"><span class="chiba">千葉</span></li>
+						<li id="btn_all" class="shop-info__area pc"><span>全店舗</span></li>
+					</ul>
+					<div class="map-area" id="map_canvas"></div>
+					<ul class="shop-list">
+						<li class="shop-list__box">
+							ロード中
+						</li>
+					</ul>
+				</div>
+			</section><!--.infomation -->
+		</div>
+
+<div class="side">
+			<p class="side__box side__box--btn"><a href="/shop/"><img src="/common/img/btn_side_shop.png" width="230" height="50" alt="店舗一覧はこちら"></a></p>
+	
+	<div class="side__box js_sidemyshop">
+		<dl>
+			<dt class="side__ttl"><img src="/common/img/ttl_side_myshop.png" width="181" height="20" alt="あなたのマイ店舗">
+				<span class="hint sweet-tooltip" data-style-tooltip="tooltip-big-grey" data-text-tooltip="ご登録頂いた店舗情報をすぐにご確認いただける便利機能です">
+					<img class="hint-btn" src="/common/img/icon_hint.png" width="19" height="14" alt="">
+				</span>
+			</dt>
+							<dd class="side__content"><a href="/myshop/regist"><img src="/common/img/btn_side_myshop2.gif" alt="マイ店舗登録はこちら"></a></dd>
+					</dl>
+	</div>
+	
+					<a class="side-banner" href="https://www.ffa.ajinomoto.com/campaign/campaign_255the" onclick="ga('send', 'event', 'link', 'click', '20170810_ajinomoto_S');"><img src="/uploads/banner/20170810_1299303980.jpg" width="230" alt=""></a>
+					<a class="side-banner" href="http://www.kagome.co.jp/campaign/pokemon/" onclick="ga('send', 'event', 'link', 'click', '201708_kagome_S');"><img src="/uploads/banner/20170730_1600176575.jpg" width="230" alt=""></a>
+					<a class="side-banner" href="http://www.supervalue.jp/leaflet/uploads/20170629083321VCue/"><img src="/uploads/banner/20170706_1619411689.jpg" width="230" alt=""></a>
+					<a class="side-banner" href="http://park.ajinomoto.co.jp/recipe/corner/kachimeshi" onclick="ga('send', 'event', 'link', 'click', '201707_kachimeshi_S');"><img src="/uploads/banner/20170531_1598200576.jpg" width="230" alt=""></a>
+	
+					<a class="side-banner" href="http://www.supervalue.jp/leaflet/uploads/201707111627268erY/"><img src="/uploads/banner/20170702_789311600.jpg" width="230" alt=""></a>
+					<a class="side-banner" href="http://www.supervalue.jp/leaflet/uploads/20170803092200bZBc/"><img src="/uploads/banner/20170803_874848081.jpg" width="230" alt=""></a>
+					<a class="side-banner" href="/shop/delivery.html" onclick="ga('send', 'event', 'link', 'click', '20170116delivery');"><img src="/uploads/banner/20170116_1521675381.jpg" width="230" alt="はい！お届け便 宅配サービスのご案内"></a>
+					<a class="side-banner" href="/company/shoppingbagreduction.html"><img src="/uploads/banner/20160928_2036889801.jpg" width="230" alt="eco値引き"></a>
+					<a class="side-banner" href="http://www.supervalue.jp/leaflet/uploads/20170720111950a1py/"><img src="/uploads/banner/20170720_1754650548.jpg" width="230" alt=""></a>
+					<a class="side-banner" href="/contents/pointcard.html" onclick="ga('send', 'event', 'link', 'click', 'pointcard');"><img src="/uploads/banner/20170710_533955357.gif" width="230" alt="現金ポイントカードのご案内"></a>
+	
+</div>
+
+<a class="link-btn link-btn--corp pc" href="/company/"><img src="/common/img/btn_link_corp.gif" width="62" height="145" alt="企業情報"></a>
+
+	</div>
+</div>
+
+
+<footer class="footer">
+	<div class="footer__pagetop">
+		<div class="footer__pagetop__btn link-btn js_pagetop"><img src="/common/img/txt_footer_pagetop.png" width="39" height="40" alt="TOP"></div>
+	</div>
+	<div class="footer__common">
+		<ul class="footer__otoku sp">
+			<li><a href="/shop/">店舗一覧</a></li>
+			<li><a href="/topics/">特集を見る</a></li>
+			<li><a href="/leaflet/">最新のチラシ一覧</a></li>
+			<li><a href="/mailmag/">メルマガ配信</a></li>
+			<li><a href="/">HOME</a></li>
+		</ul>
+		<div class="footer__common__inner footer__inner pc">
+			<nav class="footer__menu">
+				<ul class="footer__menu__item">
+					<li><a href="/topics/">特集を見る</a></li>
+					<li><a href="/leaflet/">最新のチラシ一覧</a></li>
+					<li><a href="/news/">ニュース情報</a></li>
+				</ul>
+				<ul class="footer__menu__item">
+					<li><a href="/shop/">店舗一覧</a></li>
+					<li><a href="/mailmag/">メルマガ配信</a></li>
+					<li><a href="/contents/pointcard.html">現金ポイントカードのご案内</a></li>
+
+				</ul>
+				<ul class="footer__menu__item">
+					<li><a href="/policy.html">個人情報の取り扱いに関して</a></li>
+					<li><a href="/contact/">ご意見・お問い合わせ</a></li>
+					<li class="company-link"><a href="/company/">企業情報</a></li>
+					<li><a href="/sitemap.html">サイトマップ</a></li>
+				</ul>
+			</nav>
+			<a class="footer__logo" href="/"><img src="/common/img/img_footer_logo.png" width="189" height="113" alt="Surper Value　スーパーバリュー"></a>
+		</div><!-- footer__inner -->
+		<ul class="footer__company sp">
+			<li><a href="/contents/pointcard.html">現金ポイントカードのご案内</a></li>
+			<li class="company-link"><a href="/company/">企業情報</a></li>
+			<li><a href="/company/shoppingbagreduction.html">エコ値引き</a></li>
+			<li><a href="/contact/">ご意見・お問い合わせ</a></li>
+			<li><a href="/policy.html">個人情報の取り扱いに関して</a></li>
+			<li><a href="/sitemap.html">サイトマップ</a></li>
+		</ul>
+		<div class="footer__pagetop-bottom js_pagetop sp">PAGETOP</div>
+		<p class="copyright"><span class="pc">Copyright </span>&copy; 2015 SuperValue. All rights reserved.<span class="pc">このサイトに掲載されている情報は株式会社スーパーバリューが提供しております。</span></p>
+	</div>
+</footer>
+
+<script type="text/javascript" src="/common/js/min/common.js"></script>
+
+<script type="text/javascript" src="/common/js/min/sweet-tooltip.js"></script>
+
+<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-59917452-1', 'auto');
+	ga('require', 'displayfeatures');
+	ga('send', 'pageview');
+</script>
+<div class="conversion-frame">
+	<script type="text/javascript">
+		/* <![CDATA[ */
+		var google_conversion_id = 852633410;
+		var google_custom_params = window.google_tag_params;
+		var google_remarketing_only = true;
+		/* ]]> */
+	</script>
+	<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script>
+	<noscript>
+		<div style="display:inline;"><img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/852633410/?guid=ON&amp;script=0"/></div>
+	</noscript>
+</div>
+
+
+</body>
+</html>

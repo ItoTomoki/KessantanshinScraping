@@ -1,0 +1,472 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<title>作業服・ワークウエア・カジュアルウエアの自重堂</title>
+<meta name="description" content="作業服・ワークウエアの自重堂。ユニフォームから介護服、メンズカジュアルウエアまで幅広い商品を製造販売。「衣の夢づくり 暮しづくり」の自重堂の紹介。" />
+<meta name="keywords" content="自重堂,jichodo,作業服,介護服,カジュアル,ワークウエア,ユニフォーム" />
+<link rel="stylesheet" href="css/common.css" type="text/css" media="screen,print" />
+<link rel="stylesheet" href="css/index.css" type="text/css" media="screen,print" />
+<link rel="stylesheet" href="css/jquery.mCustomScrollbar.css" type="text/css" media="screen,print" />
+<link rel="stylesheet" href="css/crossFader.css" type="text/css" media="screen,print" />
+<link rel="icon" href="favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="js/jquery.crossFader.js"></script>
+<script type="text/javascript" src="js/scrollsmoothly.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/jquery.mousewheel.min.js"></script>
+<script type="text/javascript" src="js/jquery.mCustomScrollbar.js"></script>
+<script type="text/javascript">
+<!--
+$(function(){
+	$('#fader1').crossFader();
+});
+//-->
+</script>
+<script>
+$(window).load(function() {
+    $("#mcs_container").mCustomScrollbar("vertical",420,"easeOutCirc",1.05,"auto","yes","yes",10);
+    $("#mcs2_container").mCustomScrollbar("vertical",0,"easeOutCirc",1.05,"fixed","yes","no",0);
+    $("#mcs3_container").mCustomScrollbar("vertical",900,"easeOutCirc",1.25,"auto","no","no",0);
+});
+</script>
+<!--<script type="text/javascript"> 
+    $(document).ready(function(){ 
+        $(document).pngFix(); 
+    }); 
+</script>-->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-2048497-12']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+
+<body id="pagetop">
+<!-- Google Tag Manager -->
+<noscript>
+<iframe src="//www.googletagmanager.com/ns.html?id=GTM-PMK4"
+height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PMK4');</script> 
+<!-- End Google Tag Manager -->
+
+<div id="header_area">
+  <div id="header">
+    <div id="logo2"><a href="index.html"><img src="img/new_logo.gif" width="210" height="58" alt="自重堂" /></a></div>
+    <div id="gnavi2">      <ul>
+        <li class="n01a">ホーム</li>
+        <li class="n02a"><a href="news/index.html">ニュース</a></li>
+        <li class="n03a"><a href="exhibition/index.html">展示会情報</a></li>            
+        <li class="n04a"><a href="company/index.html">会社情報</a></li> 
+        <li class="n05a"><a href="brand/index.html">取り扱いブランド</a></li>
+        <li class="n06a"><a href="ir/index.html">IR情報</a></li>
+        <li class="n07a"><a href="recruit/index.html">採用情報</a></li>
+      </ul>
+</div>
+  </div>
+</div>
+<div id="wrapper">
+<span class="crossfader"><a href="recruit/index.html"><img src="img/index/mv04.jpg" alt="採用情報" /></a></span>
+<div id="fader1" class="crossfader"> <a href="company/index.html"> <img src="img/index/mv01.jpg" class="Jichodo" alt="会社情報"/> </a> <a href="brand/index.html"> <img src="img/index/mv02.jpg" alt="取扱いブランド" border="0" /> </a><a href="ir/index.html"> <img src="img/index/mv03.jpg" alt="IR情報" /> </a></div>
+<div id="thum_box">
+
+  <ul>
+    <li><a href="company/index.html"><img src="img/index/mv_sub01_off.jpg" width="230" height="130" alt="会社情報"/></a></li>
+    <li><a href="brand/index.html"><img src="img/index/mv_sub02_off.jpg" alt="取り扱いブランド"></a></li>
+    <li><a href="ir/index.html"><img src="img/index/mv_sub03_off.jpg" alt="IR情報"></a></li>
+    <li class="last"><a href="recruit/index.html"><img src="img/index/mv_sub04_off.jpg" alt="採用情報"></a></li>
+  </ul>
+</div>
+<div class="wrap_cnt_box">
+  <div id="cnt_box">
+    <div id="news">
+      <h2><img src="img/index/ttl_news.jpg" width="91" height="13" alt="新着情報"/></h2>
+      <div id="mcs_container">
+        <div class="customScrollBox">
+          <div class="container">
+            <div class="content">
+            <p>2017.08.09<br />
+               <a href="ir/index.html">平成29年6月期　決算短信を掲載しました。</a></p>          
+			<p>2017.08.01<br />
+               <a href="news/news_20170801_2.html">企業広告を掲載しました。</a></p> 
+              <p>2017.08.01<br />
+                <a href="news/news_20170801.html">Jawin 2017年秋のWEBプレゼントキャンペーン実施中！</a></p>            
+            <p>2017.08.01<br />
+                <a href="http://www.z-dragon.jp/campaign/index.html" target="_blank">Z-DRAGON 2017年秋のWEBプレゼントキャンペーン実施中！</a></p>	           
+            <p>2017.06.16<br />
+                <a href="exhibition/index.html">2017年秋冬展示商談会のお知らせ</a></p>    
+            <p>2017.05.11<br />
+                <a href="ir/index.html">平成29年6月期　第3四半期決算短信を掲載しました。</a></p>    
+			  <p>2017.05.08<br>
+                <a href="exhibition/index.html">「国際福祉機器展 H.C.R. 2017」へのWHISeL出展のお知らせ</a></p>            
+              <p>2017.04.21<br />
+                <a href="news/news_20170421.html">Jawin 2017年春夏キャンペーン実施中！</a></p>
+              <p>2017.04.21<br />
+                <a href="http://www.z-dragon.jp/campaign/index.html" target="_blank">Z-DRAGON 2017年春夏キャンペーン実施中！</a></p>            
+              <p>2017.04.17<br />
+                <a href="exhibition/index.html">「看護フェア2017」へのWHISeL出展のお知らせ</a></p>  
+                 <p>2017.04.17<br />
+               <a href="exhibition/index.html">「国際モダンホスピタルショウ2017」へのWHISeL出展のお知らせ</a></p>  
+
+              <p>2017.02.09<br />
+                <a href="ir/index.html">平成29年6月期　第2四半期決算短信を掲載しました。</a></p>  
+              <p>2017.02.01<br />
+                <a href="news/news_20170201_2.html">企業広告を掲載しました。</a></p>
+              <p>2017.02.01<br />
+                <a href="news/news_20170201.html">Jawin 2017年春のWEBプレゼントキャンペーン実施中！</a></p>
+              <p>2017.02.01<br />
+               <a href="http://www.z-dragon.jp/campaign/index.html" target="_blank">Z-DRAGON 2017年春のWEBプレゼントキャンペーン実施中！</a></p>
+              <p>2016.11.10<br />
+                <a href="ir/index.html">平成29年6月期　第1四半期決算短信を掲載しました。</a></p>            
+              <p>2016.09.21<br />
+                <a href="news/news_20160921.html">Jawin 2016年秋冬キャンペーン実施中！</a></p>
+              <p>2016.09.21<br />
+                <a href="http://www.z-dragon.jp/campaign/index.html" target="_blank">Z-DRAGON 2016年秋冬キャンペーン実施中！</a></p>
+            <p>2016.08.09<br />
+               <a href="ir/index.html">平成28年6月期　決算短信を掲載しました。</a></p>
+               <p>2016.08.01<br />
+               <a href="news/news_20160801_2.html">企業広告を掲載しました。</a></p> 
+              <p>2016.08.01<br />
+                <a href="news/news_20160801_1.html">Jawin 2016年秋のWEBプレゼントキャンペーン実施中！</a></p>
+              <p>2016.08.01<br />
+                <a href="http://www.z-dragon.jp/campaign/index.html" target="_blank">Z-DRAGON 2016年秋のWEBプレゼントキャンペーン実施中！</a></p>	
+              <p>2016.05.12<br />
+                <a href="ir/index.html">平成28年6月期　第3四半期決算短信を掲載しました。</a></p>
+              <p>2016.04.22<br />
+                <a href="news/news_20160422.html">Jawin 2016年春夏キャンペーン実施中！</a></p>
+              <p>2016.04.22<br />
+                <a href="https://www.z-dragon.jp/#camp" target="_blank">Z-DRAGON 2016年春夏キャンペーン実施中！</a></p>
+              <p>2016.04.16<br />
+                <a href="news/news_omimai_kumamoto.html">熊本地震のお見舞い</a></p>
+              <p>2016.04.01<br />
+                <a href="company/rinen.html">企業理念を掲載しました。</a></p>
+              <p>2016.04.01<br />
+                <a href="company/index.html">会社案内を掲載しました。</a></p>
+              <p>2016.02.09<br />
+                <a href="ir/index.html">平成28年6月期　第2四半期決算短信を掲載しました。</a></p>              
+			  <p>2016.02.01<br />
+                <a href="news/news_20160201_2.html">企業広告を掲載しました。</a></p>
+              <p>2016.02.01<br />
+                <a href="news/news_20160201_1.html">Jawin 2016年春のWEBプレゼントキャンペーン実施中！</a></p>
+              <p>2016.02.01<br />
+              <p>2015.11.12<br />
+                <a href="ir/index.html">平成28年6月期　第1四半期決算短信を掲載しました。</a></p>
+              <p>2015.09.24<br />
+                <a href="news/news_20150924.html">Jawin 2015年秋冬キャンペーン実施中！</a></p>
+              <p>2015.08.28<br />
+                <a href="http://www.z-dragon.jp/" target="_blank"><span class="push">自重堂のワークウエア新ブランド【Z-DRAGON】デビュー</span></a></p>
+              <p>2015.08.13<br />
+                <a href="https://www.jcd-online.jp/" target="_blank">自重堂オンラインショップがリニューアルOPENしました。</a></p>
+              <p>2015.08.07<br />
+                <a href="ir/index.html">平成27年6月期　決算短信を掲載しました。</a></p>
+              <p>2015.08.07<br />
+                <a href="ir/index.html">剰余金の配当に関するお知らせ</a></p>
+              <p>2015.08.01<br />
+                <a href="news/news_20150801_2.html">企業広告を掲載しました。</a></p>
+              <p>2015.08.01<br />
+                <a href="news/news_20150801.html">Jawin 2015年秋のWEBプレゼントキャンペーン実施中！</a></p>
+              <p>2015.05.13<br />
+                <a href="ir/index.html">平成27年6月期　第3四半期決算短信を掲載しました。</a></p>
+              <p>2015.04.20<br />
+                <a href="news/news_20150420.html">Jawin 2015年春夏キャンペーン実施中！</a></p>
+              <p>2015.02.12<br />
+                <a href="ir/index.html">平成27年6月期　第2四半期決算短信を掲載しました。</a></p>
+              <p>2015.02.12<br />
+                <a href="ir/index.html">平成27年6月期　第2四半期(累計)の連結業績予想と実績の差異<br/>
+                及び通期の連結業績予想の修正に関するお知らせ</a></p>
+              <p>2015.02.02<br />
+                <a href="news/news_20150202_1.html">企業広告を掲載しました。</a></p>
+              <p>2015.02.02<br />
+                <a href="news/news_20150202_3.html">Jawin 2015年春のWEBプレゼントキャンペーン実施中！</a></p>
+              <p>2014.11.12<br />
+                <a href="ir/index.html">平成27年6月期　第1四半期決算短信を掲載しました。</a></p>
+              <p>2014.09.26<br />
+                <a href="company/yakuin.html">会社情報の役員紹介を更新しました。</a></p>
+              <p>2014.09.26<br />
+                <a href="company/soshiki.html">会社情報の組織図を更新しました。</a></p>
+              <p>2014.09.22<br />
+                <a href="news/news_20140922.html">Jawin 2014年秋冬キャンペーン実施中！</a></p>
+              <p>2014.08.07<br />
+                <a href="ir/index.html">平成26年6月期　決算短信を掲載しました。</a></p>
+              <p>2014.08.01<br />
+                <a href="news/news_20140801_1.html">企業広告を掲載しました。</a></p>
+              <p>2014.08.01<br />
+                <a href="news/news_20140801_2_end.html">Jawin 2014年のWEBプレゼントキャンペーン実施中！</a></p>
+              <p>2014.07.22<br />
+                <a href="ir/index.html">代表取締役の異動並びに役付役員の異動に関するお知らせ</a></p>
+              <p>2014.07.22<br />
+                <a href="ir/index.html">定款の一部変更に関するお知らせ</a></p>
+              <p>2014.06.24<br />
+                <a href="ir/index.html">組織の一部改正と人事異動に関するお知らせ</a></p>
+              <p>2014.05.13<br />
+                <a href="ir/index.html">平成26年6月期　第3四半期決算短信を掲載しました。</a></p>
+              <p>2014.05.13<br />
+                <a href="ir/index.html">平成26年6月期　配当予想の修正に関するお知らせ</a></p>
+              <p>2014.04.21<br />
+                <a href="news/news_20140421_end.html">Jawin 2014年春夏キャンペーン実施中！</a></p>
+              <p>2014.03.05<br />
+                <a href="http://www.jcd-online.jp/" target="_blank">自重堂オンラインショップをリニューアルしました。</a></p>
+              <p>2014.02.13<br />
+                <a href="ir/index.html">平成26年6月期　第2四半期決算短信を掲載しました。</a></p>
+              <p>2014.02.12<br />
+                <a href="ir/index.html">平成26年6月期　業績予想の修正に関するお知らせ</a></p>
+              <p>2014.02.01<br />
+                <a href="news/news_20140201_1.html">企業広告を掲載しました。</a></p>
+              <p>2014.02.01<br />
+                <a href="news/news_20140201_2_end.html">Jawin 2014年春のWEBキャンペーン実施中！</a></p>
+              <p>2014.01.22<br />
+                <a href="news/news_pdf/Jawin_shinjo_press_140122.pdf" target="_blank">株式会社自重堂 創業90周年記念として<br />
+                「Jawin」イメージキャラクターに「新庄剛志」を起用しました。</a></p>
+              <p>2013.11.11<br />
+                <a href="ir/index.html">平成26年6月期　第1四半期決算短信を掲載しました。</a></p>
+              <p>2013.09.20<br />
+                <a href="news/news_20130920_2_end.html">Jawin 2013年秋冬キャンペーン実施中！</a></p>
+              <p>2013.09.01<br />
+                <a href="news/news_20130901_1.html">企業広告を掲載しました。</a></p>
+              <p>2013.08.08<br />
+                <a href="ir/index.html">平成25年6月期　決算短信を掲載しました。</a></p>
+              <p>2013.08.07<br />
+                <a href="ir/index.html">平成25年6月期　業績予想の修正に関するお知らせ</a></p>
+              <p>2013.07.01<br />
+                <a href="company/yakuin.html">会社情報の役員紹介を更新しました。</a></p>
+              <p>2013.07.01<br />
+                <a href="company/soshiki.html">会社情報の組織図を更新しました。</a></p>
+              <p>2013.06.25<br />
+                <a href="ir/index.html">組織の一部改正と人事異動に関するお知らせ</a></p>
+              <p>2013.05.10<br />
+                <a href="ir/index.html">平成25年6月期　第3四半期決算短信を掲載しました。</a></p>
+              <p>2013.04.22<br />
+                <a href="news/news_20130801_1.html">Jawin 2013年春夏キャンペーン実施中！</a></p>
+              <p>2013.03.27<br />
+                <a href="news/news_20130327.html">日本経済新聞全国版に代表取締役会長「出原群三」を起用した企業広告を掲載しました。</a></p>
+              <p>2013.03.21<br />
+                <a href="news/news_20130321_1.html">企業広告を掲載しました。</a></p>
+              <p>2013.02.13<br />
+                <a href="ir/index.html">平成25年6月期　第2四半期決算短信を掲載しました。</a></p>
+              <p>2013.02.12<br />
+                <a href="ir/index.html">平成25年6月期　業績予想の修正に関するお知らせ</a></p>
+              <p>2012.11.22<br />
+                <a href="http://www.jcd-online.jp/products/list.php?category_id=138" target="_blank">自重堂オンラインショップで安全靴の取り扱いを開始しました。</a></p>
+              <p>2012.11.08<br />
+                <a href="ir/index.html">平成25年6月期　第1四半期決算短信を掲載しました。</a></p>
+              <p>2012.09.21<br />
+                <a href="news/news_20120921_1.html">Jawin 2012年秋冬キャンペーン実施中！</a></p>
+              <p>2012.09.21<br />
+                <a href="news/news_20120921_2.html">企業広告を掲載しました。</a></p>
+              <p>2012.08.09<br />
+                <a href="ir/index.html">平成24年6月期　決算短信を掲載しました。</a></p>
+              <p>2012.08.08<br />
+                <a href="ir/index.html">平成24年6月期　業績予想の修正に関するお知らせ</a></p>
+              <p>2012.05.28<br />
+                <a href="news/news_20120528.html">日本経済新聞全国版に代表取締役会長「出原群三」を起用した企業広告を掲載しました。</a></p>
+              <p>2012.05.11<br />
+                <a href="http://www.challenge25.go.jp/smartmove/" target="_blank">「スマート・ムーブ」の推進に取り組みます。</a></p>
+              <p>2012.05.10<br />
+                <a href="ir/index.html">平成24年6月期　第3四半期決算短信を掲載しました。</a></p>
+              <p>2012.04.21<br />
+                <a href="news/news_20120421_1.html">Jawin 2012年春夏キャンペーン実施中！</a></p>
+              <p>2012.04.21<br />
+                <a href="news/news_20120421_2.html">企業広告を掲載しました。</a></p>
+              <p>2012.04.16<br />
+                <a href="http://www.whisel.jp/" target="_blank">WHISeLブランドサイトを公開しました。</a></p>
+              <p>2012.04.04<br />
+                <a href="http://www.jcd-online.jp/" target="_blank">JCDオンラインショップがリニューアルOPENしました。<br />
+                既存会員様500ptプレゼント中！</a></p>
+              <p>2012.03.01<br />
+                自重堂コーポレートサイトをリニューアルしました。</p>
+              <p>2012.03.01<br />
+                <a href="http://www.jichodo.jp/" target="_blank">Jichodoブランドサイトを公開しました。</a></p>
+              <p>2012.03.01<br />
+                <a href="http://www.whisel.jp/" target="_blank">WHISeL商品を更新しました。</a></p>
+              <p>2012.02.09<br />
+                <a href="ir/index.html">平成24年6月期　第2四半期決算短信を掲載しました。</a></p>
+              <p>2012.02.08<br />
+                <a href="ir/index.html">平成24年6月期　業績予想の修正に関するお知らせ</a></p>
+              <p>2011.11.10<br />
+                <a href="ir/index.html">平成24年6月期　第1四半期決算短信を掲載しました。</a></p>
+              <p>2011.09.21<br />
+                <a href="news/news_20110921_2.html">企業広告を掲載しました。</a></p>
+              <p>2011.09.21<br />
+                <a href="news/news_20110921_1.html">Jawin 2011年秋冬キャンペーン実施中</a></p>
+              <p>2011.09.21<br />
+                <a href="news/news_20110921_4.html">びっくりストレッチパンツを更新しました。</a></p>
+              <p>2011.09.1<br />
+                <a href="http://www.jichodo.jp/" target="_blank">プロダクトページに新商品を追加しました。</a></p>
+              <p>2011.08.09<br />
+                <a href="ir/index.html">平成23年6月期　決算短信を掲載しました。</a></p>
+              <p>2011.08.08<br />
+                <a href="ir/index.html">平成23年6月期　業績予想の修正に関するお知らせ</a></p>
+              <p>2011.07.01<br />
+                <a href="company/yakuin.html">会社情報の役員紹介を更新しました。</a></p>
+              <p>2011.07.01<br />
+                <a href="company/soshiki.html">会社情報の組織図を更新しました。</a></p>
+              <p>2011.06.28<br />
+                <a href="ir/index.html">組織の一部改正と人事異動に関するお知らせ</a></p>
+              <p>2011.05.12<br />
+                <a href="ir/index.html">平成23年6月期　第3四半期決算短信を掲載しました。</a></p>
+              <p>2011.04.21<br />
+                <a href="news/news_20110421_1.html">Jawin 2011年春夏キャンペーン実施中</a></p>
+              <p>2011.04.20<br />
+                <a href="news/news_20110420.html">チャリティーイベントの義援金について</a></p>
+              <p>2011.04.08<br />
+                <a href="news/news_007.html">東日本大震災復興支援チャリティーイベント開催</a></p>
+              <p>2011.04.01<br />
+                <a href="http://www.jichodo.jp/" target="_blank">プロダクトページに新商品を追加しました。</a></p>
+              <p>2011.03.11<br />
+                <a href="news/news_omimai_tohoku.html">東北地方太平洋沖地震のお見舞い</a></p>
+              <p>2011.02.09<br />
+                <a href="ir/index.html">平成23年6月期　第2四半期決算短信を<br />
+                掲載しました。</a></p>
+              <p>2010.10.04<br />
+                <a href="http://www.jichodo.jp/" target="_blank">プロダクトページに商品を追加しました。</a></p>
+              <p>2010.10.04<br />
+                ウェブサイトをリニューアルしました。</p>
+            </div>
+          </div>
+          <div class="dragger_container">
+            <div class="dragger"></div>
+          </div>
+          <div class="scrollUpBtn"></div>
+          <div class="scrollDownBtn"></div>
+        </div>
+      </div>
+    </div>
+    <div id="bland_box">
+      <h2><img src="img/index/ttl_brands.png" width="152" height="20" alt="取り扱いブランド"/></h2>
+      <div class="wrap_bland">
+      
+
+
+<table width="359" height="360" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><img src="img/index/brand/brand-list_01.gif" width="119" height="21" alt="ワークウエアブランド"></td>
+    <td><img src="img/index/brand/brand-list_02.gif" width="120" height="21" alt=""></td>
+    <td><img src="img/index/brand/brand-list_03.gif" width="120" height="21" alt=""></td>
+  </tr>
+  <tr>
+    <td><a href="http://www.jichodo.jp/" target="_blank"><img src="img/index/brand/brand-list_04.gif" width="119" height="61" alt="Jichodo"></a></td>
+    <td><a href="https://www.jawin.jp/" target="_blank"><img src="img/index/brand/brand-list_05.gif" width="120" height="61" alt="Jawin"></a></td>
+    <td><a href="http://www.z-dragon.jp/" target="_blank"><img src="img/index/brand/brand-list_06.gif" width="120" height="61" alt="Z-DRAGON"></a></td>
+  </tr>
+  <tr>
+    <td><img src="img/index/brand/brand-list_07.gif" width="119" height="21" alt="ワークウエアブランド"></td>
+    <td><img src="img/index/brand/brand-list_08.gif" width="120" height="21" alt=""></td>
+    <td><img src="img/index/brand/brand-list_09.gif" width="120" height="21" alt=""></td>
+  </tr>
+  <tr>
+    <td><a href="https://www.jcd-online.jp/mrjic/" target="_blank"><img src="img/index/brand/brand-list_10.gif" width="119" height="60" alt=""></a></td>
+    <td><a href="https://www.jcd-online.jp/products/list.php?mode=search&amp;sBrand=3" target="_blank"><img src="img/index/brand/brand-list_11.gif" width="120" height="60" alt=""></a></td>
+    <td><a href="https://www.jcd-online.jp/jichodo/airconjkt/" target="_blank"><img src="img/index/brand/brand-list_12.gif" width="120" height="60" alt=""></a></td>
+  </tr>
+  <tr>
+    <td><img src="img/index/brand/brand-list_13.gif" width="119" height="25" alt="セーフティシューズ"></td>
+    <td><img src="img/index/brand/brand-list_14.gif" width="120" height="25" alt="ワークシューズ"></td>
+    <td><img src="img/index/brand/brand-list_15.gif" width="120" height="25" alt="ワークサポートブランド"></td>
+  </tr>
+  <tr>
+    <td><a href="https://www.jcd-online.jp/products/list.php?category_id=138" target="_blank"><img src="img/index/brand/brand-list_16.gif" width="119" height="60" alt="SAFETY SHOES"></a></td>
+    <td><a href="https://www.jcd-online.jp/work-shoes/" target="_blank"><img src="img/index/brand/brand-list_17.gif" width="120" height="60" alt=""></a></td>
+    <td><a href="https://www.jcd-online.jp/supporter/" target="_blank"><img src="img/index/brand/brand-list_18.gif" width="120" height="60" alt="はた楽サポーター"></a></td>
+  </tr>
+  <tr>
+    <td><img src="img/index/brand/brand-list_19.gif" width="119" height="24" alt="メディカルブランド"></td>
+    <td><img src="img/index/brand/brand-list_20.gif" width="120" height="24" alt="カジュアルブランド"></td>
+    <td><img src="img/index/brand/brand-list_21.gif" width="120" height="24" alt="ビジネスブランド"></td>
+  </tr>
+  <tr>
+    <td><a href="http://www.whisel.jp/" target="_blank"><img src="img/index/brand/brand-list_22.gif" width="119" height="61" alt="WHISeL"></a></td>
+    <td><a href="https://www.jcd-online.jp/products/list.php?mode=search&amp;sBrand=30" target="_blank"><img src="img/index/brand/brand-list_23.gif" width="120" height="61" alt="すっきりストレッチ"></a></td>
+    <td><a href="https://www.jcd-online.jp/products/list.php?mode=search&sBrand=14" target="_blank"><img src="img/index/brand/brand-list_24.gif" width="120" height="61" alt="すっきりスクワットストレッチ"></a></td>
+  </tr>
+  <tr>
+    <td><img src="img/index/brand/brand-list_25.gif" width="119" height="27" alt=""></td>
+    <td><img src="img/index/brand/brand-list_26.gif" width="120" height="27" alt=""></td>
+    <td><a href="http://www.jichodo.co.jp/brand/index.html"><img src="img/index/brand/brand-list_27.gif" width="120" height="27" alt="ブランド一覧を見る"></a></td>
+  </tr>
+</table>
+
+
+
+
+
+
+
+
+      </div>
+    </div>
+    <div id="ec_box">
+      <h2><img src="img/index/ttl_ec.png" width="201" height="21" alt=""/></h2>
+      <div class="wrap_shopbnr">
+        <div class="fs_001"> <a href="https://www.jcd-online.jp/" target="_blank"> <img src="img/index/jcd_banner.jpg" alt="自重堂オンラインショップ" border="0" /> </a> </div>
+        <div class="fs_001"><a href="https://www.jcd-online.jp/user_data/big_order.php" target="_blank"><img src="img/index/bnr_bigorder.jpg" alt="大口注文" border="0" /></a></div>
+      </div>
+    </div>
+    <div id="pickup_box">
+      <h2><img src="img/index/ttl_pup.png" width="161" height="21" alt=""/></h2>
+      <ul class="box_2">
+        <li><a href="https://www.jawin.jp/campaign/index.html" target="_blank"><img src="img/index/bnr_pickup_01.jpg" width="468" height="106" alt="「Jawin（ジャウィン）」プレゼントキャンペーン"/></a></li>
+        <li><a href="http://www.z-dragon.jp/campaign/index.html" target="_blank"><img src="img/index/bnr_pickup_03.jpg" width="468" height="106" alt="卜部功也 選手サイン入りウエアプレゼントキャンペーン"/></a></li>
+      </ul>
+      <ul class="box_3">
+        <li style="margin-left:100px;"><a href="https://www.jcd-online.jp/" target="_blank"><img src="img/index/bnr_pickup_02.jpg" alt="2017春夏商品販売中！！" height="70" width="750"></a></li>
+
+
+      </ul>
+    </div>
+  </div>
+</div>
+<div id="footer">
+  <div class="fnavibox">
+    <div id="fnavi">
+      <ul>
+        <li><img src="img/footer_navi_dotline.gif" width="1" height="19" /></li>
+        <li><a href="privacy.html">個人情報保護方針</a></li>
+        <li><img src="img/footer_navi_dotline.gif" width="1" height="19" /></li>
+        <li><a href="sitemap.html">サイトマップ</a></li>
+        <li><img src="img/footer_navi_dotline.gif" width="1" height="19" /></li>
+        <li><a href="sitepolicy.html">サイトポリシー</a></li>
+        <li><img src="img/footer_navi_dotline.gif" width="1" height="19" /></li>
+        <li><a href="inquiry.html">お問い合わせ</a></li>
+        <li><img src="img/footer_navi_dotline.gif" width="1" height="19" /></li>
+        <li><a href="info.pdf">生地混率の誤表示に関するお願いについて</a></li>
+        <li><img src="img/footer_navi_dotline.gif" width="1" height="19" /></li>
+      </ul>
+    </div>
+    <div id="pagetop"><a href="#pagetop"><img src="img/page_top.gif" alt="Page top" /></a></div>
+    <div class="clear"></div>
+    <div class="fnavi2">
+      <ul>
+        <li>関連サイト</li>
+        <li><img src="img/footer_navi_dotline.gif" width="1" height="19" /></li>
+        <li><a href="http://www.jichodo.co.jp/">株式会社自重堂</a></li>
+        <li><a href="https://www.jcd-online.jp/" target="_blank">自重堂の作業服通販 ＜公式＞ オンラインショップ</a></li>
+        <li><a href="http://www.jichodo.jp/" target="_blank">Jichodo</a></li>
+        <li><a href="https://www.jawin.jp" target="_blank">Jawin</a></li>
+        <li><a href="http://www.z-dragon.jp" target="_blank">Z-DRAGON</a></li>
+        <li><a href="http://www.whisel.jp/" target="_blank">WHISeL</a></li>
+      </ul>
+    </div>
+  </div>
+  <div id="copy"><img src="img/copy.gif" /></div>
+  <div class="clear"></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>日鉄住金テックスエンジ株式会社</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="authorName">
+<meta name="copyright" content="Copyright (c) NIPPON STEEL & SUMIKIN TEXENG.CO.,LTD.All Rights Reserved.">
+<link rel="index" href="/">
+<link rel="stylesheet" href="css/default.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/top_201507.css">
+<link rel="stylesheet" href="css/top_slide_digest.css">
+<link rel="stylesheet" href="css/top_selectBox.css">
+<!--[if lt IE 8]><script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE8.js"></script><![endif]-->
+<!--[if lt IE 9]><script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script><![endif]-->
+<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+<script src="js/jquery-1.11.1.min.js" charset="utf-8"></script>
+<script src="js/base.js"></script>
+<script src="js/pulldown.js"></script>
+<script src="js/jquery.bgswitcher.js"></script>
+<!-- <script type="text/javascript" src="js/jquery.backstretch.min.js"></script> -->
+<script src="js/top_201507.js"></script>
+<!-- custom scrollbar stylesheet -->
+<link rel="stylesheet" href="scroll/jquery.mCustomScrollbar.css">
+<script type="text/javascript" src="scroll/jquery.mousewheel.js"></script>
+<script type="text/javascript" src="scroll/jquery.mCustomScrollbar.concat.min.js"></script>
+<script type="text/javascript">
+//	$(function(){
+//		var fht=0;
+//		setTimeout(function(){
+//			fht=$('iframe#articleNews').contents().find('#xj-mainlist').height();
+//			//console.log("FHT"+ $('#articleNews').contents().find('#xj-mainlist').html());
+//			$('.articleBox').css('height', fht);
+//			},2000);
+//		var csObj = new Object();
+//		csObj.theme="rounded";
+//		csObj.scrollButtons = {enable:true};
+//		$("#toptopics").mCustomScrollbar(csObj);
+//	});
+</script>
+</head>
+<body id="siteIndex">
+<div id="topPageWrap">
+    <div class="mainBoxWrap">
+        <header id="globalHeader" class="innerWrapp" role="banner">
+            <h1 class="globalHead"><img src="img/base/head_logo.png" width="188" height="52" alt="日鉄住金テックスエンジ株式会社 NS-TEXENG"></h1>
+            <nav class="globalNav" role="navigation">
+                <ul class="clrf">
+                    <li class="gNav_corpre"><a href="/company/" onmouseover="mopen('m1')" onmouseout="mclosetime()">企業情報</a>
+                        <div id="m1" onmouseover="mcancelclosetime()" onmouseout="mclosetime()"> <a href="/company/index.html">トップメッセージ</a> <a href="/company/outline.html">会社概要</a> <a href="/company/history.html">沿革</a> <a href="/company/manifest.html">企業理念</a> <a href="/company/officer.html">役員一覧</a> <a href="/company/organization.html">組織体制</a> <a href="/company/branch.html">事業所一覧</a> <a href="/company/group.html">グループ会社一覧</a> </div>
+                    </li>
+                    <li class="gNav_busins"><a href="/business/" onmouseover="mopen('m2')" onmouseout="mclosetime()">事業情報</a>
+                        <div id="m2" onmouseover="mcancelclosetime()" onmouseout="mclosetime()"> <a href="/business/">事業情報TOP</a> <a href="/digest/">テックスエンジダイジェスト</a><!-- <a href="#">メンテナンス事業</a>--> <a href="/business/technology/tm1001.html">機械事業</a><!-- <a href="/business/location/gpe1001.html">プラントエンジニアリング事業</a>--> <a href="/business/technology/te1001.html">電計・システム事業</a> <a href="/business/technology/tc1001.html">土木事業</a> <a href="/business/technology/tc1002.html">建築事業</a> <a href="/business/technology/to1001.html">製鉄プラント操業事業</a> <a href="/business/technology/tp1001.html">パーティクルボード・活性炭事業</a> </div>
+                    </li>
+                    <li class="gNav_recrut"><a href="/recruit/" onmouseover="mopen('m3')" onmouseout="mclosetime()">採用情報</a>
+                        <div id="m3" onmouseover="mcancelclosetime()" onmouseout="mclosetime()"> <a href="/recruit/index.html">採用情報TOP</a> <a href="/recruit/information.html">私たちの想い</a> <a href="/recruit/info_entry.html">エントリー</a> <a href="/recruit/info_outline.html">募集内容</a> <a href="/company/highSchool_graduate.html">高卒採用お問い合わせ先</a> </div>
+                    </li>                    <li class="gNav_catlog"><a href="/catalog/" onmouseover="mopen('m4')" onmouseout="mclosetime()">技術・商品情報</a>
+                        <div id="m4" onmouseover="mcancelclosetime()" onmouseout="mclosetime()"> <a href="/catalog/index.html">技術紹介リーフレット</a> <a href="/catalog/catalog.html">商品・サービスカタログ</a>  <a href="/catalog/exhibition.html">展示会出展紹介</a> </div>
+                    </li>
+                    <li class="gNav_news"><a href="/ir/irnews_bk.html" onmouseover="mopen('m6')" onmouseout="mclosetime()">ニュース・決算情報</a>
+                    <div id="m6" onmouseover="mcancelclosetime()" onmouseout="mclosetime()"> <a href="/ir/irnews_bk.html">ニュース・決算情報</a><!-- <a href="/ir/ir_info.html">アーカイブズ</a> --> <a href="/ir/public_notice.html">電子公告</a> <a href="/ir/dividend.html">配当情報</a> <a href="/ir/stock_info.html">株式情報</a> </div>
+                    </li>
+                    <li class="gNav_inquiy"><a href="#" onmouseover="mopen('m5')" onmouseout="mclosetime()">お問い合わせ</a>
+                        <div id="m5" onmouseover="mcancelclosetime()" onmouseout="mclosetime()"> <a href="/company/contact.html">メールでのお問い合わせ</a> <a href="/company/contact_tel.html">電話でのお問い合わせ</a> </div>
+                    </li>
+                </ul>
+            </nav>
+            <!-- <p class="globalHead_newsBtn"><a href="/ir/irnews_bk.html" class="alphaWhite" title="NEWS"><img src="img/base/head_btn_news.gif" width="76" height="76" alt="NEWS"></a></p> -->
+            <!-- / #globalHeader --> 
+        </header>
+        <div id="contents" class="main_width100 pb0">
+            <div class="top_mainCon">
+                <div class="innerWrapp clrf">
+                    <section>
+                        <h2><img src="img/top/top_mainTitle_201506.png" width="609" height="61" alt="無限のテクノロジーで未来を拓く"></h2>
+                        <p class="top_mainPri_btn_digest"><a href="digest/index.html"><img src="img/top/top_digestBtn_off.png" width="398" height="25" alt="NS-TEXENGの魅力が分かるダイジェストページへ"></a></p>
+                    </section>
+                </div>
+                <!-- /.innerWrapp END --> 
+            </div>
+            <!-- /.top_mainCon END --> 
+            <!-- / #contents --> 
+            <!-- //slide Digest START//////////////////////////////////////////////////////////// -->
+            <div class="mainBoxInner">
+                <div class="slideDigestBox">
+                    <p class="slideHead_paragraph tC">社員一人ひとりに息づく、エンジニアリングを支えるDNAと確かな技術。<br>
+                        そして、常にものづくりの最前線に立つことで培われてきた現場力。<br>
+                        人材力と現場力を活かすことで、お客様のニーズに真にお応えします。</p>
+                    <div class="slideDigestView">
+                        <div class="clrf slide_digest slideDigest_1 slideDigestContLeft"><img src="img/top/slide_jinzai_mainImage.png" class="floatL" width="614" height="681" alt="お客様のニーズに確実にお応えする【人材力】">
+                            <div class="floatR floatRBox">
+                                <h2>お客様の期待に応える確かな「技術」と<br>
+                                    プロジェクトを成功に導くための「人間性」。<br>
+                                    その両輪が私たちが誇る人材力の源です。</h2>
+                                <p class="photo"><img src="img/top/slide_jinzai_figure_01.jpg" width="307" height="222" alt=""/><img src="img/top/slide_jinzai_figure_02.jpg" width="308" height="222" alt=""/></p>
+                                <p class="explanText"><span>私たちの財産は単体の設備や製品ではなく、「技術」と「人間性」を兼ね備えた人材です。一人ひとりが技術や経験値を高めながら、同時に自立性や協調性をもって仕事に取り組むことで、お客様に信頼されるものづくりの会社を目指しています。</span></p>
+                            </div>
+                        </div>
+                        <!-- /.slideDigest_1 END -->
+                        <div class="clrf slide_digest slideDigest_2 slideDigestContRight"><img src="img/top/slide_genba_mainImage.png" class="floatR" width="626" height="681" alt="ものずくり最前線で培われた【現場力】">
+                            <div class="floatL floatLBox">
+                                <h2>長年現場で磨きあげた技術とノウハウ。<br>
+                                    さらに、メンテナンス・操業の経験から<br>
+                                    蓄積した「現場力」が私たちの強みです。<br>
+                                </h2>
+                                <p class="photo"><img src="img/top/slide_genba_figure_01.jpg" width="276" height="184" alt=""/><img src="img/top/slide_genba_figure_02.jpg" width="276" height="184" alt=""/></p>
+                                <p class="promotionText"><span class="blue">メンテナンス</span><span class="corpColor">×</span><span class="yellow">操 業</span></p>
+                                <p class="explanText"><span>現場を知りぬいた「現場力」と、豊富な工事実績をトータルエンジニアリングに活かすことで、安全・品質・工期・コストのあらゆる面において、お客様にベストソリューションを提供します。</span></p>
+                            </div>
+                        </div>
+                        <!-- /.slideDigest_2 END -->
+                        <div class="slideDigest_X1 slideDigestContCenter"><img src="img/top/slide_jinzai_X.png" width="1434" height="681" alt=""/></div>
+                        <!-- /.slideDigest_X1 END --> 
+                    </div>
+                </div>
+                <div class="slideDigestBox">
+                    <p class="slideHead_paragraph tC">企画・営業、設計、調達・製作、工事まで一貫してご提案できる総合力。<br>
+                        そして、幅広い事業分野で培った技術を連携する複合力。<br>
+                        両者の相乗効果によって、お客様の期待を上まわる無限の力を生み出します。</p>
+                    <div class="slideDigestView">
+                        <div class="clrf slide_digest slideDigest_3 slideDigestContLeft"> <img src="img/top/slide_sougou_mainImage.png" class="floatL" width="615" height="681" alt="ワンストップサービスを実現する【総合力】">
+                            <div class="floatR floatRBox">
+                                <h2>お客様の課題を総合的に解決する<br>
+                                    トータルエンジニアリングをご提供します</h2>
+                                <p class="photo"><img src="img/top/slide_sougou_figure.gif" width="585" height="295" alt="日鉄住金テックスエンジ株式会社の「総合力」概要図"></p>
+                                <p class="explanText"><span>お客様の課題に対し、企画・営業、設計、調達・製作、工事と全ての工程を一貫してカバーする、トータルエンジニアリングをご提供いたします。さらに、プラントなどの日常の操業・メンテナンス（整備）業務は、現場のニーズを深く理解したご提案を可能にしています。</span></p>
+                            </div>
+                        </div>
+                        <!-- /.slideDigest_3 END -->
+                        <div class="clrf slide_digest slideDigest_4 slideDigestContRight"><img src="img/top/slide_fukugou_mainImage.png" class="floatR" width="631" height="681" alt="幅広い技術分野をカバーする【複合力】">
+                            <div class="floatL floatLBox">
+                                <h2>技術の相互連携でニーズに応える。<br>
+                                    シナジーを生み出す「複合力」</h2>
+                                <p class="photo"><img src="img/top/slide_fukugou_figure.jpg" width="721" height="317" alt="日鉄住金テックスエンジ株式会社の「複合力」概要図"></p>
+                                <p class="explanText">日鉄住金テックスエンジは鉄鋼分野での操業・メンテナンス（整備）の「現場力」を核に、機械・電計・システム・土木・建築、そして建材などの製販分野まで、幅広い事業領域・技術分野に活かすことで、ワンランク上のエンジニアリングを展開しています。</p>
+                            </div>
+                        </div>
+                        <!-- /.slideDigest_4 END -->
+                        <div class="slideDigest_X2 slideDigestContCenter"><img src="img/top/slide_sougou_X.png" width="1434" height="681" alt=""/></div>
+                        <!-- /.slideDigest_X2 END --> 
+                    </div>
+                </div>
+                <div class="slideDigestBox">
+                    <p class="slideHead_paragraph tC">「現場力」を活かし「総合力」と「複合力」によるシナジー効果で<br>
+                        安全・品質・技術・工期・コストの全てで<br>
+                        お客様に多くのメリットを提供します。</p>
+                    <div class="slide_digest slideDigest_5"><img src="img/top/slide4.png" width="1434" height="681" alt=""/></div>
+                    <!-- /.slideDigest_5 END --> 
+                </div>
+                <div class="slideDigestControler">
+                    <div class="clrf slide_digest slideDigest_button"></div>
+                    <!-- /.slideDigest_button END --> 
+                </div>
+            </div>
+            <!-- /.mainBoxInner END --> 
+            <!-- //slide END//////////////////////////////////////////////////////////// --> 
+        </div>
+        <!-- / #contents" /.main_width100 --> 
+        
+    </div>
+    <!-- /.mainBoxWrap --> 
+</div>
+<footer id="globalFooter" role="contentinfo">
+    <div class="innerWrapp clrf">
+        <ul class="footNav clrf">
+            <li class="fotNav_busins"><a href="#" class="alphaWhite"><img src="img/top/foot_nav_business.gif" width="253" height="45" alt="事業でさがす"></a></li>
+            <li class="fotNav_actual"><a href="#" class="alphaWhite"><img src="img/top/foot_nav_actualSpot.gif" width="253" height="45" alt="現場でさがす"></a></li>
+            <li class="fotNav_techno"><a href="#" class="alphaWhite"><img src="img/top/foot_nav_tech.gif" width="253" height="45" alt="技術でさがす"></a></li>
+            <li class="fotNav_search"><a href="/search.html" class="alphaWhite"><img src="img/top/foot_nav_search.gif" width="253" height="45" alt="キーワード検索"></a></li>
+        </ul>
+    </div>
+    <div class="innerWrapp clrf top_footContents">
+        <div class="foot_newsArea floatL" role="main">
+            <section>
+                <h2><a href="/ir/irnews_bk.html">インフォメーション</a></h2>
+                <iframe src="ir/table.html" title="ニュース・トピックス" frameBorder="0" allowtransparency="true" id="articleNews" class="articleBox"></iframe>
+                <ul class="add_to_info">
+                    <li><a href="/company/industrial_waste.html">産業廃棄物処理施設の維持管理計画・維持管理情報</a></li>
+                    <li><a href="/old_company/smex/info_bubheater.html">旧SMEX製業務用石油ストーブをご使用のお客様へ</a></li>
+                </ul>
+            </section>
+        </div>
+        <!-- /.foot_newsArea -->
+        <div class="foot_sideArea floatR">
+            <aside role="complementary">
+                <ul>
+                    <!--<li><a href="/recruit/" title="採用のご案内" target="_blank" class="alphaWhite"><img src="img/top/top_bnr_01.jpg" width="163" height="88" alt="採用のご案内"></a></li>-->
+										<li><a href="http://www.pacsol.jp/plant2017/" title="第41回 プラントメンテナンスショー" class="alphaWhite"><img src="img/top/plant2017.gif" alt="第41回 プラントメンテナンスショー"></a></li>
+                    <li><a href="/catalog/exhibition.html" title="展示会出展紹介" class="alphaWhite"><img src="img/top/top_bnr_03.jpg" width="163" height="88" alt=""></a></li>
+										<!--<li><a href="http://www.pacsol.jp/techArchive/index.html" title="技術アーカイブ「Pac.Sol」" target="_blank" class="alphaWhite"><img src="img/top/top_bnr_02.jpg" width="163" height="88" alt=""></a></li>-->
+										
+                    <!--<li><a href="/digest/" title="テックスエンジのXってなに？" target="_blank" class="alphaWhite"><img src="img/top/digest_top.png" width="163" height="88" alt="テックスエンジのXってなに？"></a></li>-->
+                </ul>
+            </aside>
+        </div>
+        <!-- /.foot_side --> 
+    </div>
+    <!-- /.innerWrapp clrf top_footContents -->
+    <hr>
+    <div class="innerWrapp clrf top_footBtom">
+        <p class="footLogo floatL"><a href="/"><img src="img/base/foot_logo.gif" width="329" height="25" alt="日鉄住金テックスエンジ株式会社"></a></p>
+        <div class="floatR">
+            <ul class="footSubNav clrf">
+                <li class="corpGroup"><a href="http://www.nssmc.com/" target="_blank">新日鐵住金</a></li>
+                <li><a href="/sitemap/">サイトマップ</a></li>
+								<li><a href="/privacy.html">個人情報保護方針</a></li><li><a href="/women-empowerment.html">女性活躍推進法に基づく情報公表</a></li>
+                
+                <li><a href="/terms.html">ご利用にあたって</a></li>
+            </ul>
+            <p class="copyright"><small>Copyright &copy; NIPPON STEEL &amp; SUMIKIN TEXENG.CO.,LTD.All Rights Reserved. </small></p>
+        </div>
+    </div>
+    <!-- /.innerWrapp --> 
+</footer>
+</body>
+</html>

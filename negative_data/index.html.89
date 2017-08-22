@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="鉄建建設株式会社の公式ウェブサイトです。会社案内、鉄建建設の技術や作品、お知らせ、IR情報、CSR、採用情報などをご紹介しております。ぜひ、ご覧ください。">
+    <meta name="keywords" content="鉄建建設株式会社,tekken,建設,土木,建築,鉄道" />
+    <meta content="width=1200" name="viewport" />
+    <meta property="og:title" content="鉄建建設株式会社" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://www.tekken.co.jp/" />
+    <meta property="og:image" content="http://www.tekken.co.jp/common/image/ogp.jpg" />
+    <meta property="og:site_name" content="鉄建建設株式会社" />
+    <meta property="og:description" content="鉄建建設株式会社の公式ウェブサイトです。会社案内、鉄建建設の技術や作品、お知らせ、IR情報、CSR、採用情報などをご紹介しております。ぜひ、ご覧ください。" />
+    <title>
+      鉄建建設株式会社
+    </title>
+    <!-- Common CSS -->
+    <link href="/common/css/base.css" rel="stylesheet">
+    <link href="/common/css/icon.css" rel="stylesheet">
+    <!-- Page CSS -->
+    <link href="/css/style.css" rel="stylesheet">
+    <link href="/common/css/lib/jquery.fs.boxer.css" rel="stylesheet">
+    <!-- Print CSS -->
+    <link media="print" href="/common/css/print.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lte IE 9] >
+    <script src="http://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="http://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script>
+      (function(i, s, o, g, r, a, m)
+      {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function()
+        {
+          (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+          m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+      })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+      ga('create', 'UA-72322148-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+
+  </head>
+
+  <body>
+    <div class="container">
+
+      <!-- トップページ ヘッダー //// -->
+      <header class="header header--top">
+        <h1 class="logo">鉄建建設株式会社</h1>
+        <!-- /.logo -->
+        <nav class="top-nav">
+          <ul class="menu">
+            <li class="menu__item">
+              <div class="global">
+                <i class="icon-yazirusi_right"></i><a class="link" href="/global/">Global Site</a>
+              </div>
+            </li>
+            <li class="menu__item">
+              <div class="search">
+                <form method="GET" action="http://www.google.co.jp/search" class="gsc-search-box">
+                  <table cellspacing="0" cellpadding="0" class="gsc-search-box">
+                    <tr>
+                      <td class="">
+                        <div class="gsc-input-box">
+                          <input type="text" name="q" size="31" maxlength="255" value="" class="gsc-input" id="searchtxt" placeholder="キーワードを入力" autocomplete="off">
+                        </div>
+                      </td>
+                      <!-- /.gsc-input -->
+                      <td>
+                        <div class="gsc-search-button-box">
+                          <input type="submit" class="gsc-search-button" name="btnG" value="" id="btnsearch">
+                        </div>
+                      </td>
+                    </tr>
+                  </table>
+                  <input type="hidden" name="sitesearch" value="www.tekken.co.jp">
+                  <input type="hidden" name="domains" value="www.tekken.co.jp">
+                  <input type="hidden" name="hl" value="ja">
+                  <input type="hidden" name="num" value="20">
+                  <input type="hidden" name="ie" value="UTF-8">
+                  <input type="hidden" name="oe" value="UTF-8">
+                </form>
+
+              </div>
+            </li>
+          </ul>
+          <!-- /.menu -->
+        </nav>
+        <!-- /.top-nav -->
+      </header>
+      <!-- // トップページ ヘッダー -->
+
+      <!-- トップページ ナビゲーション //// -->
+      <nav id="PrimaryNavi" class="globalnav">
+        <div class="globalnav__inner">
+          <ul class="navi" id="NaviList">
+            <li id="NaviItemInfo" class="navi__item info">会社案内</li>
+            <li id="NaviItemReport" class="navi__item report">技術・完成作品紹介</li>
+            <li id="NaviItemCenter" class="navi__item center">建設技術総合センター</li>
+            <li id="NaviItemIr" class="navi__item ir">IR情報</li>
+            <li id="NaviItemCsr" class="navi__item csr">CSR</li>
+            <li id="NaviItemEmploy" class="navi__item employ">採用情報</li>
+          </ul>
+          <!-- /.navi -->
+          <img src="/common/image/nav/nav_bg_01.png" id="MapImage" class="map-image" border="0" width="1120" height="71" usemap="#topNavi">
+          <map name="topNavi" class="map">
+            <area class="navi-area01" shape="poly" coords="70,0,165,0,235,70,0,70">
+            <area class="navi-area02" shape="poly" coords="170,0,415,0,345,70,240,70">
+            <area class="navi-area03" shape="poly" coords="420,0,525,0,595,70,350,70">
+            <area class="navi-area04" shape="poly" coords="530,0,770,0,700,70,600,70">
+            <area class="navi-area05" shape="poly" coords="775,0,875,0,945,70,705,70">
+            <area class="navi-area06" shape="poly" coords="880,0,1120,0,1055,70,950,70">
+          </map>
+          <!-- /.map -->
+
+          <div id="megaMenu">
+            <div id="NaviMenuInfo" class="navi__menu">
+              <div class="inner">
+                <div class="menu__header">
+                  <h2 class="heading"><a class="link link--blue" href="/info/"><i class="icon-yazirusi_right"></i>会社案内</a></h2>
+                </div>
+                <div class="menu__body">
+                  <div class="menu__box width02">
+                    <div class="box__row border border--bottom pb15 mb10">
+                      <a class="link link--thumb" href="/info/greeting.php">
+                        <div class="box__column pt10">
+                          <p><i class="icon-yazirusi_right"></i>社長ごあいさつ</p>
+                        </div>
+                        <div class="box__column">
+                          <figure>
+									<img src="/common/image/mega/mega_image_company_01.jpg" alt="社長ごあいさつ">
+								</figure>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="box__row pt10">
+                      <a class="link link--thumb" href="/info/business.php">
+                        <div class="box__column pt10">
+                          <p><i class="icon-yazirusi_right"></i>鉄建建設とは</p>
+                        </div>
+                        <div class="box__column">
+                          <figure>
+									<img src="/common/image/mega/mega_image_company_02.jpg" alt="鉄建建設とは">
+								</figure>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="menu__box width04 border border--left">
+                    <div class="box__row">
+                      <div class="box__row border border--bottom pb10 mb10">
+                        <div class="box__column pt10">
+                          <p><a href="/info/index4.php"><i class="icon-yazirusi_right"></i>事業所紹介</a></p>
+                        </div>
+                        <div class="box__column border border--left pl25 pt10">
+                          <p><a href="/info/index2.php"><i class="icon-yazirusi_right"></i>会社概要</a></p>
+                        </div>
+                      </div>
+                      <div class="box__row border border--bottom pb10 mb10">
+                        <div class="box__column pt10">
+                          <p><a href="/info/index3.php"><i class="icon-yazirusi_right"></i>会社のあゆみ･沿革</a></p>
+                        </div>
+                        <div class="box__column border border--left pl25 pt10">
+                          <p class="no-space"><a href="/info/index5.php"><i class="icon-yazirusi_right"></i>経営理念･企業活動指針</a></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /.navi__menu -->
+            <div id="NaviMenuReport" class="navi__menu">
+              <div class="inner">
+                <div class="menu__header">
+                  <h2 class="heading"><a class="link link--blue" href="/tech.php"><i class="icon-yazirusi_right"></i>技術・完成作品紹介</a></h2>
+                </div>
+                <div class="menu__body">
+
+                  <div class="menu__box width02">
+                    <div class="box__row border border--bottom pb15 mb10">
+                      <a class="link link--thumb" href="/tech/">
+                        <div class="box__column pt15">
+                          <p><i class="icon-yazirusi_right"></i>鉄建建設の技術</p>
+                        </div>
+                        <div class="box__column">
+                          <figure>
+									<img src="/common/image/mega/mega_image_tech_02.jpg" alt="鉄建建設の技術">
+								</figure>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="box__row pt10">
+                      <div class="box__column">
+                        <p class="mb10"><a class="sync01" href="/report/"><i class="icon-yazirusi_right"></i>完成作品紹介一覧</a></p>
+                        <p class="pl15 font12 mb5"><a href="/report/area.php"><i class="icon-yazirusi_right"></i>地域別でみる完成作品</a></p>
+                        <p class="pl15 font12 mb0"><a href="/report/year.php"><i class="icon-yazirusi_right"></i>竣工年別でみる完成作品</a></p>
+                      </div>
+                      <div class="box__column">
+                        <a href="/report/" class="link link--thumb sync01">
+                          <figure>
+								<img src="/common/image/mega/mega_image_tech_03.jpg" alt="完成作品紹介一覧">
+							</figure>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="menu__box width01 border border--left">
+                    <a class="link link--thumb" href="/project/">
+                      <p><i class="icon-yazirusi_right"></i>進行中のプロジェクト</p>
+                      <figure>
+							<img src="/common/image/mega/mega_image_tech_01.jpg" alt="進行中のプロジェクト">
+						</figure>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /.navi__menu -->
+            <div id="NaviMenuCenter" class="navi__menu">
+              <div class="inner">
+                <div class="menu__header">
+                  <h2 class="heading"><a class="link link--blue" href="/center/"><i class="icon-yazirusi_right"></i>建設技術総合センター</a></h2>
+                </div>
+                <div class="menu__body">
+                  <div class="menu__box width01">
+                    <a class="link link--thumb" href="/center/safety.php">
+                      <p><i class="icon-yazirusi_right"></i>研修センター</p>
+                      <figure>
+							<img src="/common/image/mega/mega_image_center_01.jpg" alt="研修センター">
+						</figure>
+                    </a>
+                  </div>
+                  <div class="menu__box width01 border border--left">
+                    <a class="link link--thumb" href="/center/index2.php">
+                      <p><i class="icon-yazirusi_right"></i>研究開発センター</p>
+                      <figure>
+							<img src="/common/image/mega/mega_image_center_02.jpg" alt="研究開発センター">
+						</figure>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /.navi__menu -->
+            <div id="NaviMenuIr" class="navi__menu">
+              <div class="inner">
+                <div class="menu__header">
+                  <h2 class="heading"><a class="link link--blue" href="/ir/"><i class="icon-yazirusi_right"></i>IR情報</a></h2>
+                </div>
+                <div class="menu__body">
+                  <div class="menu__box width01">
+                    <a class="link link--thumb" href="/ir/stockinfo/">
+                      <p><i class="icon-yazirusi_right"></i>株式情報</p>
+                      <figure>
+							<img src="/common/image/mega/mega_image_ir_01.jpg" alt="">
+						</figure>
+                    </a>
+                  </div>
+                  <div class="menu__box width02 border border--left">
+                    <div class="box__row border border--bottom pb10 mb10">
+                      <div class="box__column pt10">
+                        <p><a href="/ir/finance/"><i class="icon-yazirusi_right"></i>財務・業績</a></p>
+                      </div>
+                      <div class="box__column border border--left pl25 pt10">
+                        <p><a href="/topics/ir/"><i class="icon-yazirusi_right"></i>IRトピックス</a></p>
+                      </div>
+                    </div>
+                    <div class="box__row border border--bottom pb10 mb10">
+                      <div class="box__column pt10">
+                        <p><a href="/ir/financial_reports.php"><i class="icon-yazirusi_right"></i>IR資料</a></p>
+                      </div>
+                      <div class="box__column border border--left pl25 pt10">
+                        <p><a href="/ir/public_notice.php"><i class="icon-yazirusi_right"></i>電子公告</a></p>
+                      </div>
+                    </div>
+                    <div class="box__row">
+                      <div class="box__column pt10">
+                        <p><a href="/ir/calendar.php"><i class="icon-yazirusi_right"></i>IRカレンダー</a></p>
+                      </div>
+                      <div class="box__column border border--left pl25 pt10">
+                        <p><a href="/ir/disclaimer.php"><i class="icon-yazirusi_right"></i>免責事項</a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /.navi__menu -->
+            <div id="NaviMenuCsr" class="navi__menu">
+              <div class="inner">
+                <div class="menu__header">
+                  <h2 class="heading"><a class="link link--blue" href="/csr/"><i class="icon-yazirusi_right"></i>CSR</a></h2>
+                </div>
+                <div class="menu__body">
+                  <div class="menu__box width02 border border--left">
+                    <div class="box__row border border--bottom pb15 mb10">
+                      <a class="link link--thumb" href="/csr/quality.php">
+                        <div class="box__column pt10">
+                          <p><i class="icon-yazirusi_right"></i>お客さま第一主義</p>
+                        </div>
+                        <div class="box__column">
+                          <figure>
+									<img src="/common/image/mega/mega_image_csr_01.jpg" alt="お客さま第一主義">
+								</figure>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="box__row pt10">
+                      <a class="link link--thumb" href="/csr/future.php">
+                        <div class="box__column pt10">
+                          <p><i class="icon-yazirusi_right"></i>社会への貢献</p>
+                        </div>
+                        <div class="box__column">
+                          <figure>
+									<img src="/common/image/mega/mega_image_csr_02.jpg" alt="社会への貢献">
+								</figure>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="menu__box width04 border border--left">
+                    <div class="box__row border border--bottom pb10 mb10">
+                      <div class="box__column pt10">
+                        <p><a href="/csr/safety.php"><i class="icon-yazirusi_right"></i>安全の追求</a></p>
+                      </div>
+                      <div class="box__column border border--left pl25 pt10">
+                        <p class="mb0"><a href="/csr/stakeholder.php"><i class="icon-yazirusi_right"></i>ステークホルダーとの<br><span class="ml20">コミュニケーション</span></a></p>
+                      </div>
+                    </div>
+                    <div class="box__row border border--bottom pb10 mb10">
+                      <div class="box__column pt10">
+                        <p><a href="/csr/activity.php"><i class="icon-yazirusi_right"></i>公正で健全な企業活動</a></p>
+                      </div>
+                      <div class="box__column border border--left pl25 pt10">
+                        <p><a href="/csr/environment.php"><i class="icon-yazirusi_right"></i>地球環境の維持向上</a></p>
+                      </div>
+                    </div>
+                    <div class="box__row">
+                      <div class="box__column full pt10">
+                        <p><a href="/csr/employees.php"><i class="icon-yazirusi_right"></i>人材育成と活力ある職場づくり</a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /.navi__menu -->
+            <div id="NaviMenuEmploy" class="navi__menu">
+              <div class="inner">
+                <div class="menu__header">
+                  <h2 class="heading"><a class="link link--blue" href="/employ/"><i class="icon-yazirusi_right"></i>採用情報</a></h2>
+                </div>
+                <div class="menu__body">
+                  <div class="menu__box width05">
+                    <a class="link link--thumb" href="/employ/careers.php">
+                      <p><i class="icon-yazirusi_right"></i>キャリア採用</p>
+                      <figure>
+							<img src="/common/image/mega/mega_image_employ_01.jpg" alt="キャリア採用">
+						</figure>
+                    </a>
+                  </div>
+                  <div class="menu__box width05 border border--left">
+                    <a class="link link--thumb" href="http://www.tekken.co.jp/recruit/" target="_blank">
+                      <p><i class="icon-yazirusi_right"></i>新卒採用サイト</p>
+                      <figure>
+							<img src="/common/image/mega/mega_image_employ_02.jpg" alt="新卒採用サイト">
+						</figure>
+                    </a>
+                  </div>
+                  <div class="menu__box width06 border border--left">
+                    <div class="box__row border border--bottom pb5 pt5">
+                      <div class="box__column full pt10">
+                        <p><a href="/employ/challenged.php"><i class="icon-yazirusi_right"></i>障がい者採用</a></p>
+                      </div>
+                    </div>
+                    <div class="box__row border border--bottom pb5 pt5">
+                      <div class="box__column full pt10">
+                        <p><a href="/employ/work.php"><i class="icon-yazirusi_right"></i>仕事紹介</a></p>
+                      </div>
+                    </div>
+                    <!-- <div class="box__row pb5 pt5">
+						<div class="box__column full pt10">
+							<p><a href="/employ/training.php"><i class="icon-yazirusi_right"></i>人材育成制度</a></p>
+						</div>
+					</div> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /.navi__menu -->
+          </div>
+          <!-- /#megaMenu -->
+
+        </div>
+        <!-- /.globalnav__inner -->
+      </nav>
+      <!-- // トップページ ナビゲーション -->
+
+      <!-- トップページ ページスクロール //// -->
+      <div id="ScrollEvent" class="content-scroll">
+        <a href="#TopContent" id="ScrollButton">Scroll</a>
+      </div>
+      <!-- // トップページ ページスクロール -->
+
+      <!-- トップページ スライド //// -->
+      <div class="hero">
+        <div class="hero__wrap">
+          <section class="hero__item hero__item--01">
+            <div class="hero__inner">
+              <h2 class="hero__heading">
+                <img src="/image/slide/slide_heading_01.png" alt="鉄建建設の技術・完成作品">
+              </h2>
+              <div class="hero__link">
+                <a class="button" href="/tech.php">詳しくみる<i class="icon-yazirusi_right"></i></a>
+              </div>
+            </div>
+          </section>
+          <!-- /.hero__item -->
+          <section class="hero__item hero__item--02">
+            <div class="hero__inner">
+              <h2 class="hero__heading">
+                <img src="/image/slide/slide_heading_02.png" alt="進行中のプロジェクト">
+              </h2>
+              <div class="hero__link">
+                <a class="button" href="/project/">詳しくみる<i class="icon-yazirusi_right"></i></a>
+              </div>
+            </div>
+          </section>
+          <!-- /.hero__item -->
+          <section class="hero__item hero__item--03">
+            <div class="hero__inner">
+              <h2 class="hero__heading">
+                <img src="/image/slide/slide_heading_03.png" alt="鉄建建設が考えるCSR">
+              </h2>
+              <div class="hero__link">
+                <a class="button" href="/csr/">詳しくみる<i class="icon-yazirusi_right"></i></a>
+              </div>
+            </div>
+          </section>
+          <!-- /.hero__item -->
+          <section class="hero__item hero__item--04">
+            <div class="hero__inner">
+              <h2 class="hero__heading">
+                <img src="/image/slide/slide_heading_04.png" alt="建設技術総合センター">
+              </h2>
+              <div class="hero__link">
+                <a class="button" href="/center/">詳しくみる<i class="icon-yazirusi_right"></i></a>
+              </div>
+            </div>
+          </section>
+          <!-- /.hero__item -->
+        </div>
+        <!-- /.hero__wrap -->
+        <div class="hero__control">
+          <button class="hero__prev icon-yazirusi_left"></button>
+          <button class="hero__next icon-yazirusi_right"></button>
+        </div>
+        <!-- /.hero__control -->
+        <div class="hero__pagination"></div>
+        <!-- /.hero__pagination -->
+      </div>
+      <!-- // トップページ スライド -->
+
+      <!-- コンテンツ //// -->
+      <div class="content" id="TopContent">
+
+        <!-- コンテンツ トピックス・ブログ // -->
+        <div class="area area--topics">
+          <div class="area__inner">
+            <div class="column">
+              <section class="sec sec--topics">
+              <h3 class="sec__heading"><a href="/topics/">トピックス</a></h3>
+              <p class="sec__more"><a href="/topics/"><i class="icon-yazirusi_right"></i>一覧はこちら</a></p>
+                <div class="sec__content">
+                  <ul class="post post--blog">
+
+                    <li class="post__item">
+                      <div class="post__row">
+                        <div class="item__category">
+                          <p class="category topics ir">IRトピックス</p>
+                        </div>
+                        <div class="item__date">
+                          <p>2017.08.09</p>
+                        </div>
+                      </div>
+                      <div class="item__text">
+                        <p><a href="http://www.tekken.co.jp/topics/assets/5388d9e9d73bfff9b58e720025bdee7be9fa1398.pdf" target="_blank">平成30年３月期　第１四半期決算短信<i class="icon-pdf"></i></a></p>
+                      </div>
+                    </li>
+                    <!-- /.post__item -->
+                    <li class="post__item">
+                      <div class="post__row">
+                        <div class="item__category">
+                          <p class="category topics news">お知らせ</p>
+                        </div>
+                        <div class="item__date">
+                          <p>2017.08.01</p>
+                        </div>
+                      </div>
+                      <div class="item__text">
+                        <p><a href="http://www.tekken.co.jp/topics/assets/42f55ca21ae60653cd2d8da5546f5cc789d2505e.pdf" target="_blank">部長級の役職異動に関するお知らせ<i class="icon-pdf"></i></a></p>
+                      </div>
+                    </li>
+                    <!-- /.post__item -->
+                    <li class="post__item">
+                      <div class="post__row">
+                        <div class="item__category">
+                          <p class="category topics news">お知らせ</p>
+                        </div>
+                        <div class="item__date">
+                          <p>2017.07.03</p>
+                        </div>
+                      </div>
+                      <div class="item__text">
+                        <p><a href="http://www.tekken.co.jp/topics/assets/03b021642622823d3287d38dd4baa9a56dca310b.pdf" target="_blank">部長級の役職異動に関するお知らせ<i class="icon-pdf"></i></a></p>
+                      </div>
+                    </li>
+                    <!-- /.post__item -->
+
+                  </ul>
+                  <!-- /.post -->
+                </div>
+                <!-- /.sec -->
+              </section>
+              <!-- /.sec -->
+              <section class="sec sec--irtopics">
+              <h3 class="sec__heading"><a href="/topics/ir/">IRトピックス</a></h3>
+                <p class="sec__more"><a href="/topics/ir/"><i class="icon-yazirusi_right"></i>一覧はこちら</a></p>
+                <div class="sec__content">
+                  <ul class="post post--topics">
+
+                    <li class="post__item">
+                      <div class="item__date">
+                        <p>2017.08.09</p>
+                      </div>
+                      <div class="item__text">
+                        <p><a href="http://www.tekken.co.jp/topics/assets/5388d9e9d73bfff9b58e720025bdee7be9fa1398.pdf" target="_blank">平成30年３月期　第１四半期決算短信<i class="icon-pdf"></i></a></p>
+                      </div>
+                    </li>
+                    <!-- /.post__item -->
+                    <li class="post__item">
+                      <div class="item__date">
+                        <p>2017.06.02</p>
+                      </div>
+                      <div class="item__text">
+                        <p><a href="http://www.tekken.co.jp/topics/assets/9bfae6aef66e91cdcded48923cc712257db58d6a.pdf" target="_blank">第76回定時株主総会招集ご通知 <i class="icon-pdf"></i></a></p>
+                      </div>
+                    </li>
+                    <!-- /.post__item -->
+
+                  </ul>
+                  <!-- /.post -->
+                </div>
+                <!-- /.sec__content -->
+              </section>
+              <!-- /.sec -->
+            </div>
+            <!-- /.column -->
+
+            <div class="column">
+              <section class="sec">
+                <h3 class="sec__heading"><a href="/blog/" target="_blank">てっけんPLUS+</a></h3>
+                <p class="sec__more"><a href="/blog/" target="_blank"><i class="icon-yazirusi_right"></i>一覧はこちら</a></p>
+                <div class="sec__content">
+                  <ul class="post post--blog">
+                    <li class="post__item">
+                      <div class="post__row">
+                        <div class="item__category">
+                        <p class="category blog csr">CSR</p>
+                        </div>
+                        <div class="item__date">
+                        <p>2017.08.07</p>
+                        </div>
+                      </div>
+                      <div class="item__text">
+                      <p><a href="http://www.tekken.co.jp/blog/2017/08/post-174.php" target="_blank">いま注目の「リファイニング建築」見学会が開催されました</a></p>
+                      </div>
+                    </li>
+                    <!-- /.post__item -->
+                    <li class="post__item">
+                      <div class="post__row">
+                        <div class="item__category">
+                        <p class="category blog event">イベント</p>
+                        </div>
+                        <div class="item__date">
+                        <p>2017.08.03</p>
+                        </div>
+                      </div>
+                      <div class="item__text">
+                      <p><a href="http://www.tekken.co.jp/blog/2017/08/post-173.php" target="_blank">歴史を伝える事件碑を再設置（生麦事件）</a></p>
+                      </div>
+                    </li>
+                    <!-- /.post__item -->
+                    <li class="post__item">
+                      <div class="post__row">
+                        <div class="item__category">
+                        <p class="category blog center">建設技術総合センター</p>
+                        </div>
+                        <div class="item__date">
+                        <p>2017.07.31</p>
+                        </div>
+                      </div>
+                      <div class="item__text">
+                      <p><a href="http://www.tekken.co.jp/blog/2017/07/post-172.php" target="_blank">実体験から学ぶ鉄道工学</a></p>
+                      </div>
+                    </li>
+                    <!-- /.post__item -->
+                    <li class="post__item">
+                      <div class="post__row">
+                        <div class="item__category">
+                        <p class="category blog csr">CSR</p>
+                        </div>
+                        <div class="item__date">
+                        <p>2017.07.19</p>
+                        </div>
+                      </div>
+                      <div class="item__text">
+                      <p><a href="http://www.tekken.co.jp/blog/2017/07/post-171.php" target="_blank">九頭竜作業所吉住副所長、福井県広報誌「ふくい」の表紙に登場</a></p>
+                      </div>
+                    </li>
+                    <!-- /.post__item -->
+                    <li class="post__item">
+                      <div class="post__row">
+                        <div class="item__category">
+                        <p class="category blog csr">CSR</p>
+                        </div>
+                        <div class="item__date">
+                        <p>2017.07.12</p>
+                        </div>
+                      </div>
+                      <div class="item__text">
+                      <p><a href="http://www.tekken.co.jp/blog/2017/07/post-170.php" target="_blank">視覚障害者と盲導犬の鉄道体験学習会</a></p>
+                      </div>
+                    </li>
+                    <!-- /.post__item -->
+                    <li class="post__item">
+                      <div class="post__row">
+                        <div class="item__category">
+                        <p class="category blog tekken">てっけん</p>
+                        </div>
+                        <div class="item__date">
+                        <p>2017.07.11</p>
+                        </div>
+                      </div>
+                      <div class="item__text">
+                      <p><a href="http://www.tekken.co.jp/blog/2017/07/post-169.php" target="_blank">日本大学第二学園中学校舎が「近代建築」に掲載されました</a></p>
+                      </div>
+                    </li>
+                    <!-- /.post__item -->
+                  </ul>
+                  <!-- /.post -->
+                </div>
+              </section>
+              <!-- /.section -->
+            </div>
+            <!-- /.column -->
+          </div>
+          <!-- /.area__inner -->
+        </div>
+        <!-- // コンテンツ トピックス・ブログ -->
+
+        <!-- コンテンツ ファーストメニュー // -->
+        <div class="area area--cards">
+          <div class="area__inner">
+            <div class="card">
+              <div class="row">
+                <div class="column col-sm-7">
+                  <div class="card__item card__item01">
+                    <h4 class="card__heading">
+                      <img src="/image/card/card_heading_01.png" alt="技術・完成作品紹介">
+                    </h4>
+                    <figure>
+											<img src="/image/card/card_image_01.jpg" alt="技術・完成作品紹介">
+											<a href="/tech.php" class="card__link"></a>
+											<span class="action"></span>
+										</figure>
+                    <span class="card__arrow"><i class="icon-yazirusi_right"></i></span>
+                  </div>
+                  <!-- /.card__item -->
+                  <div class="card__item card__item02">
+                    <div class="card__inner">
+                      <h4 class="card__heading">
+                        <img src="/image/card/card_heading_02.png" alt="建設技術総合センター">
+                      </h4>
+                      <figure>
+												<img src="/image/card/card_image_02.jpg" alt="建設技術総合センター">
+												<a href="/center/" class="card__link"></a>
+												<span class="action"></span>
+											</figure>
+                      <span class="card__arrow"><i class="icon-yazirusi_right"></i></span>
+                    </div>
+                  </div>
+                  <!-- /.card__item -->
+                </div>
+                <!-- /.column -->
+                <div class="column col-sm-5">
+                  <div class="card__item card__item03">
+                    <div class="card__inner">
+                      <h4 class="card__heading">
+                        <img src="/image/card/card_heading_video_01.png" alt="最新動画でみる鉄建建設">
+                      </h4>
+                      <figure class="card__movie">
+												<img src="http://img.youtube.com/vi/E-AbJYcRY0I/sddefault.jpg" />
+												<a href="https://www.youtube.com/embed/E-AbJYcRY0I" class="boxer" data-gallery="videos"></a>
+												<span class="action"></span>
+											</figure>
+                    </div>
+                  </div>
+                  <!-- /.card__item -->
+                  <div class="row">
+                    <div class="column col-sm-6">
+                      <div class="card__item card__item04">
+                        <div class="card__inner">
+                          <h4 class="card__heading">
+                            <img src="/image/card/card_heading_03.png" alt="社長ごあいさつ">
+                          </h4>
+                          <figure>
+														<img src="/image/card/card_image_03.jpg" alt="社長ごあいさつ">
+														<a href="/info/greeting.php" class="card__link"></a>
+														<span class="action"></span>
+													</figure>
+                          <span class="card__arrow"><i class="icon-yazirusi_right"></i></span>
+                        </div>
+                      </div>
+                      <!-- /.card__item -->
+                    </div>
+                    <!-- /.column -->
+                    <div class="column col-sm-6">
+                      <div class="card__item card__item05">
+                        <div class="card__inner">
+                          <h4 class="card__heading">
+                            <img src="/image/card/card_heading_04.png" alt="鉄建建設が考えるCSR">
+                          </h4>
+                          <figure>
+														<img src="/image/card/card_image_04.jpg" alt="鉄建建設が考えるCSR">
+														<a href="/csr/" class="card__link"></a>
+														<span class="action"></span>
+													</figure>
+                          <span class="card__arrow"><i class="icon-yazirusi_right"></i></span>
+                        </div>
+                      </div>
+                      <!-- /.card__item -->
+                    </div>
+                    <!-- /.column -->
+                  </div>
+                  <!-- /.row -->
+                </div>
+                <!-- /.column -->
+              </div>
+              <!-- /.row -->
+            </div>
+            <!-- /.card -->
+          </div>
+          <!-- /.area__inner -->
+        </div>
+        <!-- コンテンツ ファーストメニュー // -->
+
+        <!-- コンテンツ セカンドメニュー // -->
+        <div class="area area--panels">
+          <div class="area__inner">
+            <ul class="menu">
+              <li class="menu__item menu__item01"><a class="menu__link" href="/info/index4.php">事業所紹介</a></li>
+              <li class="menu__item menu__item02"><a class="menu__link" href="/ir/">IR情報</a></li>
+              <li class="menu__item menu__item03"><a class="menu__link" href="/customer/">パートナー様へ</a></li>
+              <li class="menu__item menu__item04"><a class="menu__link" href="/employ/">採用</a></li>
+            </ul>
+          </div>
+          <!-- /.area__inner -->
+        </div>
+        <!-- // コンテンツ セカンドメニュー -->
+
+        <!-- コンテンツ バナー // -->
+        <div class="area area--banner">
+          <div class="area__inner">
+            <ul class="menu">
+              <li class="menu__item menu__item01">
+                <a class="menu__link link link--alpha" href="http://tkousan.com/" target="_blank">
+                  <img src="/image/banner/banner_image_01.jpg" alt="テッケン興産株式会社">
+                </a>
+              </li>
+              <li class="menu__item menu__item02">
+                <a class="menu__link link link--alpha" href="http://www.sagamihara-sp.jp/" target="_blank">
+                  <img src="/image/banner/banner_image_02.jpg" alt="相模原スポーツガーデン">
+                </a>
+              </li>
+              <li class="menu__item menu__item03">
+                <a class="menu__link link link--alpha" href="http://www.j-t-e-c.co.jp/" target="_blank">
+                  <img src="/image/banner/banner_image_03.jpg" alt="株式会社ジェイテック">
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!-- /.area__inner -->
+        </div>
+        <!-- // コンテンツ バナー -->
+
+      </div>
+      <!-- // コンテンツ -->
+
+      <!-- フッター // -->
+<footer class="footer">
+  <div class="footer__inner">
+    <table class="sitemap">
+      <tr class="sitemap__row">
+        <td width="280" class="sitemap__link">
+          <h4 class="sitemap__heading"><a class="link" href="/info/">会社案内</a></h4>
+          <ol class="list">
+            <li class="list__item"><i class="icon-yazirusi_right"></i><a class="link" href="/info/greeting.php">社長ごあいさつ</a></li>
+            <li class="list__item"><i class="icon-yazirusi_right"></i><a class="link" href="/info/index2.php">会社概要</a></li>
+            <li class="list__item"><i class="icon-yazirusi_right"></i><a class="link" href="/info/index3.php">会社のあゆみ・沿革</a></li>
+            <li class="list__item"><i class="icon-yazirusi_right"></i><a class="link" href="/info/index4.php">事業所紹介</a></li>
+            <li class="list__item"><i class="icon-yazirusi_right"></i><a class="link" href="/info/index5.php">経営理念・企業活動指針</a></li>
+            <li class="list__item"><i class="icon-yazirusi_right"></i><a class="link" href="/info/business.php">鉄建建設とは</a></li>
+          </ol>
+        </td>
+
+        <td width="280" class="sitemap__link">
+          <h4 class="sitemap__heading"><a class="link" href="/center/">建設技術総合センター</a></h4>
+          <ol class="list">
+            <li class="list__item"><i class="icon-yazirusi_right"></i><a class="link" href="/center/safety.php">研修センター</a></li>
+            <li class="list__item"><i class="icon-yazirusi_right"></i><a class="link" href="/center/index2.php">研究開発センター</a></li>
+          </ol>
+        </td>
+
+        <td width="280" class="sitemap__link">
+          <h4 class="sitemap__heading"><a class="link" href="/csr/">CSR</a></h4>
+          <ol class="list">
+            <li class="list__item"><i class="icon-yazirusi_right"></i><a class="link" href="/csr/quality.php">お客さま第一主義</a></li>
+            <li class="list__item"><i class="icon-yazirusi_right"></i><a class="link" href="/csr/future.php">社会への貢献</a></li>
+            <li class="list__item"><i class="icon-yazirusi_right"></i><a class="link" href="/csr/safety.php">安全の追求</a></li>
+            <li class="list__item"><i class="icon-yazirusi_right"></i><a class="link" href="/csr/stakeholder.php">ステークホルダーとの<br>コミュニケーション</a></li>
+            <li class="list__item"><i class="icon-yazirusi_right"></i><a class="link" href="/csr/activity.php">公正で健全な企業活動</a></li>
+            <li class="list__item"><i class="icon-yazirusi_right"></i><a class="link" href="/csr/environment.php">地球環境の維持向上</a></li>
+            <li class="list__item ls0"><i class="icon-yazirusi_right"></i><a class="link" href="/csr/employees.php">人材育成と活力ある職場づくり</a></li>
+            <li class="list__item ls0"><i class="icon-yazirusi_right"></i><a class="link" href="/csr/corporatereport.php">コーポレートレポート</a></li>
+          </ol>
+        </td>
+        <td width="280" class="sitemap__link">
+          <ol class="list list--large">
+            <li class="list__item"><a class="link" href="/inquiry/">お問い合わせ先一覧</a></li>
+            <li class="list__item"><a class="link" href="/customer/">お取引会社の皆さまへ</a></li>
+            <li class="list__item"><a class="link" href="/notice/">ご利用上の注意</a></li>
+            <li class="list__item"><a class="link" href="/sitemap/">サイトマップ</a></li>
+            <li class="list__item"><a class="link" href="/blog/" target="_blank">てっけんPLUS+</a></li>
+            <li class="list__item"><a class="link" href="/privacy/">個人情報保護方針</a></li>
+            <li class="list__item"><a class="link" href="/global/">Global Site</a></li>
+          </ol>
+        </td>
+      </tr>
+    </table>
+    <!-- /.sitemap -->
+
+    <table class="sitemap">
+      <tr class="sitemap__row">
+        <td width="280" class="sitemap__link">
+          <h4 class="sitemap__heading"><a class="link" href="/tech.php">技術・完成作品紹介</a></h4>
+          <ol class="list">
+            <li class="list__item"><i class="icon-yazirusi_right"></i><a class="link" href="/tech/">鉄建建設の技術</a></li>
+            <li class="list__item"><i class="icon-yazirusi_right"></i><a class="link" href="/report/">完成作品紹介　一覧</a></li>
+            <li class="list__item"><i class="icon-yazirusi_right"></i><a class="link" href="/project/">進行中のプロジェクト</a></li>
+          </ol>
+        </td>
+        <td width="280" class="sitemap__link">
+          <h4 class="sitemap__heading"><a class="link" href="/ir/">IR情報</a></h4>
+          <ol class="list">
+            <li class="list__item"><i class="icon-yazirusi_right"></i><a class="link" href="/ir/stockinfo/">株式情報</a></li>
+            <li class="list__item"><i class="icon-yazirusi_right"></i><a class="link" href="/ir/finance/">財務・業績</a></li>
+            <li class="list__item"><i class="icon-yazirusi_right"></i><a class="link" href="/ir/financial_reports.php">IR資料</a></li>
+            <li class="list__item"><i class="icon-yazirusi_right"></i><a class="link" href="/ir/calendar.php">IRカレンダー</a></li>
+            <li class="list__item"><i class="icon-yazirusi_right"></i><a class="link" href="/topics/ir/">IRトピックス</a></li>
+            <li class="list__item"><i class="icon-yazirusi_right"></i><a class="link" href="/ir/public_notice.php">電子公告</a></li>
+            <li class="list__item"><i class="icon-yazirusi_right"></i><a class="link" href="/ir/disclaimer.php">免責事項</a></li>
+          </ol>
+        </td>
+        <td width="280" class="sitemap__link">
+          <h4 class="sitemap__heading"><a class="link" href="/employ/">採用情報</a></h4>
+          <ol class="list">
+            <li class="list__item"><i class="icon-yazirusi_right"></i><a class="link" href="http://www.tekken.co.jp/recruit/" target="_blank">新卒採用</a></li>
+            <li class="list__item"><i class="icon-yazirusi_right"></i><a class="link" href="/employ/careers.php">キャリア採用</a></li>
+            <li class="list__item"><i class="icon-yazirusi_right"></i><a class="link" href="/employ/challenged.php">障がい者採用</a></li>
+            <li class="list__item"><i class="icon-yazirusi_right"></i><a class="link" href="/employ/work.php">仕事紹介</a></li>
+            <!--<li class="list__item"><i class="icon-yazirusi_right"></i><a class="link" href="/employ/training.php">人材育成制度</a></li>-->
+          </ol>
+        </td>
+
+      </tr>
+    </table>
+    <!-- /.sitemap -->
+    <a href="/inquiry/" class="contact-button link link--alpha">お問い合わせ</a>
+    <div id="PageTop" class="pagetop-button"><a class="link">ページの上部へもどる</a><i class="icon-yazirusi_up"></i></div>
+  </div>
+  <!-- /.footer__inner -->
+</footer>
+<!-- // フッター -->
+
+<!-- コピーライト // -->
+<div class="copyright">
+  <div class="copyright__inner">
+
+    <div class="social">
+      <ul class="list">
+        <li class="list__item">
+          <a href="https://www.facebook.com/tekken.co.jp/" target="_blank">
+            <img src="/common/image/facebook_icon_01.png" alt="facebook">
+          </a>
+        </li>
+        <li class="list__item">
+          <a href="https://www.youtube.com/channel/UCawQjJcAzMFr3rkplYzagIw" target="_blank">
+            <img src="/common/image/youtube_icon_01.png" alt="youtube">
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!-- /.social -->
+
+    <div class="credit">
+      <p>「PDF」のコンテンツをご覧いただくにはAdobe Readerが必要です。
+        <br>最新版のダウンロードは<a href="http://get.adobe.com/jp/reader/" target="_blank">こちら</a>よりお願い致します。</p>
+      <small>Copyright (c) TEKKEN CORPORATION</small>
+    </div>
+    <!-- /.credit -->
+
+  </div>
+  <!-- /.copyright__inner -->
+</div>
+<!-- // コピーライト -->
+
+<!-- Overlay Modal // -->
+<div id="containerOverlay"></div>
+<!-- // Overlay Modal -->
+      <!-- Overlay Top // -->
+      <div id="TopOverlay"></div>
+      <!-- // Overlay Top -->
+
+    </div>
+    <!-- /.container -->
+
+    <!-- Common JS -->
+    <script src="/common/js/lib/jquery.min.js"></script>
+    <script src="/common/js/lib/jquery.easing.js"></script>
+    <script src="/common/js/script.js"></script>
+    <script src="/common/js/lib/jquery.fs.boxer.js"></script>
+
+    <script src="/js/slide.js"></script>
+    <script>
+      // ページ内の画像などすべてが読み込まれた後にDivを消す
+      $(window).load(function()
+      {
+        $('#TopOverlay').hide();
+      });
+    </script>
+  </body>
+
+</html>

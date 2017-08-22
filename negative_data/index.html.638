@@ -1,0 +1,239 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=euc-jp" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta name="Description" content="ダイワボウホールディングスグループは、衣料品・生活資材・化合繊・機能資材・ＩＴインフラ流通など繊維とＩＴを通して新たな生活文化の提案と人に優しい地球環境へ貢献いたします。" />
+<meta name="Keywords" content="ダイワボウホールディングス株式会社,Daiwabo Holdings,衣料品・生活資材,化合繊・機能資材,ＩＴインフラ流通" />
+<title>ダイワボウホールディングス株式会社</title>
+<link href="shared/css/import.css" rel="stylesheet" type="text/css" />
+<link href="top.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="shared/js/fs_chg.js"></script>
+<script type="text/javascript" src="shared/js/openBrWindow.js"></script>
+<script language="javascript">AC_FL_RunContent = 0;</script>
+<script src="shared/js/AC_RunActiveContent.js" language="javascript"></script>
+<link href="http://www.google.com/uds/css/gsearch.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript" src="shared/js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="shared/js/top.js"></script>
+</head>
+
+<body id="default">
+<a name="top" id="top"></a>
+<div id="head">
+  <h1 title="ダイワボウホールディングス株式会社"><a href="index.php">ダイワボウホールディングス株式会社</a></h1>
+  <h2 title="daiwabo"><a href="index.php" title="ダイワボウホールディングス株式会社">daiwabo</a></h2>
+  <ol id="hd-mnu">
+    <li class="list1"><a href="index.php" title="ホーム">ホーム</a></li>
+    <li class="list2"><a href="company/" title="会社概要">会社概要</a></li>
+    <li class="list3"><a href="business/" title="事業案内">事業案内</a></li>
+    <li class="list4"><a href="ir/" title="株主・投資家の皆様へ">株主・投資家の皆様へ</a></li>
+    <li class="list5"><a href="csr/" title="CSR(社会的責任)">CSR(社会的責任)</a></li>
+    <li class="list6"><a href="recruit/" title="採用情報">採用情報</a></li>
+  </ol>
+  <ul id="hd-lnk">
+    <li class="list1"><a href="sitemap/" title="サイトマップ">サイトマップ</a></li>
+    <li class="list2"><a href="/en/" title="English">English</a></li>
+    <!--<li class="list3"><a href="#top" title="中文">中文</a></li>-->
+  </ul>
+  
+  <div id="search">
+    <!-- 検索窓を表示 -->
+    <div id="searchcontrol"><!-- SiteSearch Google -->
+					<form action="http://www.google.co.jp/search">
+					<ul id="google">
+						<li><input type=text name=q maxlength=255 value="" id="hd-input" /></li>
+						<li><input type="submit" value="検索" id="hd-submit" /></li>
+					</ul>
+					<input type=hidden name=hl value="ja" />
+					<input type=hidden name=ie value="euc-jp" />
+					<input type=hidden name=oe value="euc-jp" />
+					<input type=hidden name="as_sitesearch" value="daiwabo-holdings.com" />
+					</form>
+					<!-- SiteSearch Google -->
+				</div>
+  </div>
+  <div id="fontsize">
+    <p>文字サイズ</p>
+    <ul>
+      <li>
+        <input name="icn01" id="icn01" type="image" alt="小" onclick="cgfont('small')" onkeypress="cgfont('small')" src="shared/images/cmn_hd-icn01.gif" />
+      </li>
+      <li>
+        <input name="icn02" id="icn02" type="image" alt="中" onclick="cgfont('default')" onkeypress="cgfont('default')" src="shared/images/cmn_hd-icn02.gif" />
+      </li>
+      <li>
+        <input name="icn03" id="icn03" type="image" alt="大" onclick="cgfont('large')" onkeypress="cgfont('large')" src="shared/images/cmn_hd-icn03.gif" />
+      </li>
+    </ul>
+  </div>
+</div>
+<div id="main">
+		<div id="slideshow">
+
+	<div>
+		<div><a href="business/it/index.php"><img src="shared/images/image_main_01.jpg" width="927" height="215" alt="「FACE to FACE」IT総合ディストリビューターとして地域に 密着したサービス＆サポートを提供します" /></a></div>
+		<div><a href="business/fiber/index.php"><img src="shared/images/image_main_033.jpg" width="927" height="215" alt="夢と未来をかたちにする しなやかな発想と確かな技術力により時代をサポートします" /></a></div>
+		<div><a href="business/industry/index.php"><img src="shared/images/image_main_04.jpg" width="927" height="215" alt="「匠の技」の精鋭技術者集団 高機能の立旋盤を世界に発信します" /></a></div>
+		<div><a href="business/other/index.php"><img src="shared/images/image_main_05.jpg" width="927" height="215" alt="夢と感動の輪が広がる 豊かなライフスタイルを提案しサポートします" /></a></div>
+	</div>
+
+	<ul>
+		<li id="slidenavi01"><img src="shared/images/mainimg_navi_01.gif" alt="「Face to face」We present service and support closely related to the area as a total IT distributor." width="21" height="20" /></li>
+		<li id="slidenavi02"><img src="shared/images/mainimg_navi_02.gif" alt="To create forms of dreams and future." width="21" height="20" /></li>
+		<li id="slidenavi03"><img src="shared/images/mainimg_navi_03.gif" alt="「Craftmanship」A united group of leading engineers." width="21" height="20" /></li>
+        <li id="slidenavi04"><img src="shared/images/mainimg_navi_04.gif" alt="A spreading ring of dream and emotion." width="21" height="20" /></li>
+	</ul>
+
+</div><!-- //#slideshow -->
+  <div id="navi">
+    <div id="banner">
+      <h3 class="nv-ttl1" title="大和紡績株式会社"><a href="http://www.daiwabo.co.jp/" target="_blank">大和紡績株式会社</a></h3>
+      <ul>
+        <li><a href="http://www.allercatcher.com/" target="_blank"><img src="images/top_bnr01.jpg" alt="アレルキャッチャー" width="209" height="66" border="0" /></a></li>
+        <li><a href="http://www.daiwabo.co.jp/product.html?wid=115" target="_blank"><img src="images/top_bnr02.jpg" alt="エコフレンド" width="209" height="66" border="0" /></a></li>
+        <li><a href="http://www.daiwabo.co.jp/fukkou/index.html" target="_blank"><img src="images/top_bnr09.jpg" alt="ダイワボウ 震災復興支援チーム" width="209" height="66" border="0" /></a></li>
+      </ul>
+      <h3 class="nv-ttl2" title="ダイワボウ情報システム株式会社"><a href="http://www.pc-daiwabo.co.jp/" target="_blank">ダイワボウ情報システム株式会社</a></h3>
+      <ul>
+        <li><a href="http://www.idaten.ne.jp/" target="_blank"><img src="images/top_bnr03.jpg" alt="iDATEN（韋駄天）" width="209" height="66" border="0" /></a></li>
+        <li><a href="http://www.pc-webzine.com/" target="_blank"><img src="images/top_bnr04.jpg" alt="PC-Webzine" width="209" height="66" border="0" /></a></li>
+        <li><a href="http://www.dis-world.com/index.html" target="_blank"><img src="images/top_bnr05.jpg" alt="DISわぁるど" width="209" height="66" border="0" /></a></li>
+      </ul>
+      <h3 class="nv-ttl3" title="株式会社オーエム製作所"><a href="http://www.omltd.co.jp/" target="_blank">株式会社オーエム製作所</a></h3>
+      <ul>
+        <li><a href="http://www.omltd.co.jp/products.html?pcid=1" target="_blank"><img src="images/top_bnr07.jpg" alt="CNC立旋盤 VTLex" width="209" height="66" border="0" /></a></li>
+        <li><a href="http://www.omltd.co.jp/omm/products.html?cid=13" target="_blank"><img src="images/top_bnr08.jpg" alt="省スペース連続カートナー VCRC" width="209" height="66" border="0" /></a></li>
+      </ul>
+    </div>
+    <!-- <div id="personalweb">
+      <ul>
+        <li title="プロゴルファー岡本綾子のオフィシャルサイト"><a href="http://ayakookamoto.pgpi.jp/" target="_blank">岡本綾子 Webサイト</a></li>
+        <li title="プロゴルファー城戸富貴のオフィシャルサイト"><a href="http://www.kidofuki.jp/" target="_blank">城戸富貴 Webサイト</a></li>
+      </ul>
+    </div> -->
+  </div>
+  <div id="content">
+				
+				
+    <div id="news" class="cmn-mrgT10">
+      <h3 title="ニュースリリース"><img src="images/top_ttl01.gif" alt="ニュースリリース" width="95" height="19" />&nbsp;<a href="topnewsrss.php" title="RSS" class="rss"><img src="shared/images/cmn_lnk01.gif" alt="RSS" width="47" height="19" border="0" /></a>&nbsp;<span class="list"><a href="news/" title="一覧へ">ニュースリリース一覧へ</a></span></h3>
+
+						<table summary="WHAT'S NEW">
+  <tr>
+    <th>2017.08.04&#160;：</th>
+    <td class="pdf01">
+      <a href="cmsdesigner/km_read_pdf.php?name=news&amp;eid=00176" target="_blank">平成30年3月期第1四半期決算短信〔日本基準〕（連結）</a>&#160;
+
+
+                        <a href="cmsdesigner/km_read_pdf.php?name=news&amp;eid=00176" target="_blank"><img src="/shared/images/cmn_pdficon.gif" width="16" height="16" alt="pdficon"></a>
+    </td>
+    <td class="cmn-align3"></td>
+  </tr>
+  <tr>
+    <th>2017.06.06&#160;：</th>
+    <td class="pdf01">
+      <a href="cmsdesigner/km_read_pdf.php?name=news&amp;eid=00175" target="_blank">第107回定時株主総会招集ご通知</a>&#160;
+
+
+                        <a href="cmsdesigner/km_read_pdf.php?name=news&amp;eid=00175" target="_blank"><img src="/shared/images/cmn_pdficon.gif" width="16" height="16" alt="pdficon"></a>
+    </td>
+    <td class="cmn-align3"></td>
+  </tr>
+  <tr>
+    <th>2017.06.06&#160;：</th>
+    <td class="pdf01">
+      <a href="cmsdesigner/km_read_pdf.php?name=news&amp;eid=00174" target="_blank">第107回定時株主総会招集ご通知（インターネット開示事項）</a>&#160;
+
+
+                        <a href="cmsdesigner/km_read_pdf.php?name=news&amp;eid=00174" target="_blank"><img src="/shared/images/cmn_pdficon.gif" width="16" height="16" alt="pdficon"></a>
+    </td>
+    <td class="cmn-align3"></td>
+  </tr>
+  <tr>
+    <th>2017.05.30&#160;：</th>
+    <td class="pdf01">
+      <a href="cmsdesigner/km_read_pdf.php?name=news&amp;eid=00173" target="_blank">株式併合に伴う配当予想の修正に関するお知らせ</a>&#160;
+
+
+                        <a href="cmsdesigner/km_read_pdf.php?name=news&amp;eid=00173" target="_blank"><img src="/shared/images/cmn_pdficon.gif" width="16" height="16" alt="pdficon"></a>
+    </td>
+    <td class="cmn-align3"></td>
+  </tr>
+  <tr>
+    <th>2017.05.25&#160;：</th>
+    <td class="pdf01">
+      <a href="cmsdesigner/km_read_pdf.php?name=news&amp;eid=00172" target="_blank">単元株式数の変更、株式併合および定款の一部変更に関するお知らせ</a>&#160;
+
+
+                        <a href="cmsdesigner/km_read_pdf.php?name=news&amp;eid=00172" target="_blank"><img src="/shared/images/cmn_pdficon.gif" width="16" height="16" alt="pdficon"></a>
+    </td>
+    <td class="cmn-align3"></td>
+  </tr>
+</table>
+
+      <h3 title="トピックス"><img src="images/top_ttl02.gif" alt="トピックス" width="55" height="19" />&nbsp;<a href="toptopicsrss.php" title="RSS" class="rss"><img src="shared/images/cmn_lnk01.gif" alt="RSS" width="47" height="19" border="0" /></a>&nbsp;<span class="list"><a href="groupnews/" title="一覧へ">トピックス一覧へ</a></span></h3>
+      
+						<table summary="GROUP NEWS">
+  <tr>
+    <th>2017.07.25&#160;：</th>
+    <td>
+      <a href="/groupnews/detail.php?eid=00153">人事異動について</a>
+    </td>
+    <td class="cmn-align3"><img src="/shared/images/cmn_icn05.gif" width="45" height="14" alt="OM" class="cmn-fltR"></td>
+  </tr>
+  <tr>
+    <th>2017.07.21&#160;：</th>
+    <td>
+      <a href="/groupnews/detail.php?eid=00152">ダイワボウ情報システム株式会社　本社及び大阪地区営業部門移転のお知らせ</a>
+    </td>
+    <td class="cmn-align3"><img src="/shared/images/cmn_icn02.gif" width="45" height="14" alt="DIS" class="cmn-fltR"></td>
+  </tr>
+  <tr>
+    <th>2017.06.21&#160;：</th>
+    <td>
+      <a href="/groupnews/detail.php?eid=00151">人事異動について</a>
+    </td>
+    <td class="cmn-align3"><img src="/shared/images/cmn_icn03.gif" width="45" height="14" alt="daiwabo" class="cmn-fltR"></td>
+  </tr>
+  <tr>
+    <th>2017.05.16&#160;：</th>
+    <td>
+      <a href="/groupnews/detail.php?eid=00150">ライセンス契約管理システム「iKAZUCHI（雷）」のAPI 公開</a>
+    </td>
+    <td class="cmn-align3"><img src="/shared/images/cmn_icn02.gif" width="45" height="14" alt="DIS" class="cmn-fltR"></td>
+  </tr>
+  <tr>
+    <th>2017.04.03&#160;：</th>
+    <td>
+      <a href="/groupnews/detail.php?eid=00148">ダイワボウ情報システム と SonicWall　一次販売代理店契約 を締結</a>
+    </td>
+    <td class="cmn-align3"><img src="/shared/images/cmn_icn02.gif" width="45" height="14" alt="DIS" class="cmn-fltR"></td>
+  </tr>
+</table>
+						
+    </div>
+				
+				
+  </div>
+  <hr />
+</div>
+<div id="foot">
+  <div id="ft-mnu">
+    <p><a href="/privacy/">個人情報の取り扱い</a>　｜　<a href="/contact/">ご意見・お問い合わせ</a>　｜　<a href="/termsofuse/">ご利用条件</a></p>
+  </div>
+  <p class="cmn-clear">住所：〒541-0056　大阪市中央区久太郎町3丁目6番8号 御堂筋ダイワビル<br />
+    電話：(06)6281-2325（代表）　FAX (06)6281-2522</p>
+  <hr />
+  <p>Copyright (C) Daiwabo Holdings Co., Ltd. All Rights Reserved </p>
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-2817688-45");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>

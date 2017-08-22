@@ -1,0 +1,313 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="content-language" content="ja" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta name="keywords" content="食品,小麦粉,健康" />
+<meta name="description" content="製粉・植物油・ブドウ糖や冷凍食品、飼料の製造・販売。皆様の食卓においしさ、そして安心と安全をお届けします。" />
+<script type="text/javascript" src="/js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="/js/jquery.cookie.js"></script>
+<script type="text/javascript" src="/js/fontsize.js"></script>
+<script type="text/javascript" src="/js/swapimage.js"></script>
+<script type="text/javascript" src="/js/layer.js"></script>
+<script type="text/javascript" src="/js/jquery.bxslider.min.js"></script>
+
+<script type="text/javascript">
+$(function(){
+	$('#slider').bxSlider({
+		auto:true,
+		speed: 1500,
+		pause: 8000,
+		mode: 'fade',
+		captions: false
+	});
+});
+</script>
+
+
+<link rel="stylesheet" type="text/css" href="/css/common.css" />
+<link rel="stylesheet" type="text/css" href="/css/top.css" />
+<link rel="stylesheet" type="text/css" href="/css/jquery.bxslider.css" />
+<link rel="stylesheet" type="text/css" href="/nivo/default.css" />
+
+<title>昭和産業株式会社</title>
+<!-- analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-51706889-1', 'showa-sangyo.co.jp');
+  ga('send', 'pageview');
+
+</script>
+<!-- analytics END --></head>
+<body class="topBg" id="top" onload="MM_preloadImages('images/img_visual_hk201210.jpg','images/img_visual_cake201211.jpg','images/footer_sitemap_ov.gif','images/footer_contact_ov.gif','images/footer_privacy_ov.gif','images/footer_ir_english_ov.gif','images/fontiswitch_small_ov.gif','images/fontiswitch_middle_ov.gif','images/fontiswitch_big_ov.gif','images/menu_top_ov.gif','images/menu_domestic_ov.gif','images/menu_business_ov.gif','images/menu_wakatte_ov.gif','images/menu_company_ov.gif','images/menu_domestic.gif','images/title_whats_new2_ov.gif','images/bottom_menu_aboutus_ov.gif','images/bottom_menu_csr_ov.gif','images/bottom_menu_investor_ov.gif','images/bottom_menu_recruit_ov.gif','images/title_osusume_ov.gif')">
+<div id="wrapper">
+		<a name="top" id="top"></a>
+	<div id="header" class="clearfix">
+		<div class="logoBox clearfix">
+        	<div id="boxL">
+            	<div class="logoLeft"><a href="/"><img src="/images/showa_logo.png" alt="穀物ソリューション・カンパニー SHOWA 昭和産業" width="150" height="69" /></a></div>
+            </div>
+            <div id="boxR">
+            	<div class="logoRight">
+                	<div class="rightT"><a href="/"><img src="/images/showa_jp.png" alt="昭和産業株式会社" width="151" height="17" /></a></div>
+                    <div class="rightB clearfix">
+                    	<div id="eng"><a href="/en/"><img width="66" height="17" border="0" onmouseover="this.src='/images/head_en_ov.gif'" onmouseout="this.src='/images/head_en.gif'" alt="English" src="/images/head_en.gif"></a></div>
+                        <div id="fontswitch">
+				<div class="icon"><a href="#" id="small" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('fontswitch_small','','/images/fontiswitch_small_ov.gif',1)"><img src="/images/fontiswitch_small.gif" alt="文字サイズ【小】" name="fontswitch_small" width="20" height="20" border="0" id="fontswitch_small" /></a></div>
+				<div class="icon"><a href="#" id="mid" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('fontswitch_middle','','/images/fontiswitch_middle_ov.gif',1)"><img src="/images/fontiswitch_middle.gif" alt="文字サイズ【中】" name="fontswitch_middle" width="20" height="20" border="0" id="fontswitch_middle" /></a></div>
+				<div class="icon"><a href="#" id="big" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('fontswitch_big','','/images/fontiswitch_big_ov.gif',1)"><img src="/images/fontiswitch_big.gif" alt="文字サイズ【大】" name="fontswitch_big" width="20" height="20" border="0" id="fontswitch_big" /></a></div>
+						</div>
+            		</div>
+            	</div>
+            </div>
+        </div>
+        
+		<div id="grobalNavi" style="z-index: 900;">
+			<table border="0" cellpadding="0" cellspacing="0" class="layerPosition">
+				<tr>
+					<td>
+						<div id="mainMenu" class="clearfix">
+							<div><a href="/"><img src="/images/menu_top.gif" alt="TOP" name="menu_top" width="127" height="47" border="0" id="menu_top" /></a></div>
+							<div><a href="/home/" onMouseOver="MM_showHideLayers('domestic','','show')" onMouseOut="MM_showHideLayers('domestic','','hide')"><img src="/images/menu_domestic.gif" alt="家庭用商品" name="menu_domestic" width="127" height="47" border="0" id="menu_domestic" /></a></div>
+							<div><a href="/pro/flour/" onMouseOver="MM_showHideLayers('gyoumu','','show')" onMouseOut="MM_showHideLayers('gyoumu','','hide')"><img src="/images/menu_gyoumu.gif" alt="業務用商品" name="menu_gyoumu" width="127" height="47" border="0" id="menu_gyoumu" /></a></div>
+							<div><a href="/enjoy/recipe/" onMouseOver="MM_showHideLayers('enjoy','','show')" onMouseOut="MM_showHideLayers('enjoy','','hide')"><img src="/images/menu_enjoy.gif" alt="知る・楽しむ" name="menu_enjoy" width="127" height="47" border="0" id="menu_enjoy" /></a></div>
+							<div><a href="/corporate/message/" onMouseOver="MM_showHideLayers('corporate','','show')" onMouseOut="MM_showHideLayers('corporate','','hide')"><img src="/images/menu_company.gif" alt="企業情報" name="menu_company" width="127" height="47" border="0" id="menu_company" /></a></div>
+						</div>
+					</td>
+					<td valign="bottom">
+						<div id="srchBox" class="watermark">
+							<form action="http://custom.search.yahoo.co.jp/search" method="get" id="srch" target="yjserp">
+							<p id="srchForm">
+							<table border="0" cellspacing="0" cellpadding="0">
+								<tr>
+									<td><input type="text" name="p" id="srchInput" /></td>
+									<td><input type="image" src="/images/button_search.gif" value="検索" id="srchBtn" onclick="document.getElementById('srchInput').focus();" onMouseOver="this.src='/images/button_search_ov.gif'" onMouseOut="this.src='/images/button_search.gif'" /></td>
+								</tr>
+							</table>
+							<input type="hidden" id="fr" name="fr" value="cse" />
+							<input type="hidden" id="ei" name="ei" value="UTF-8" />
+							<input type="hidden" id="csid" name="csid" value="NQqegltvP6QPqWYAbWUZmtGQFXHLFYpb9S9bFQPewUzw2cU-" />
+							</p>
+							<input type="hidden" name="vs" value="showa-sangyo.co.jp" id="yjInsite" />
+							</form>
+						<div class="lineFont0"><img src="https://custom.search.yahoo.co.jp/images/window/NQqegltvP6QPqWYAbWUZmtGQFXHLFYpb9S9bFQPewUzw2cU-.gif" /></div>
+						</div>
+						<script type="text/javascript" src="/js/yahoo_search.js"></script>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<div id="subMenu">
+							<div id="domestic" onMouseOver="MM_showHideLayers('domestic','','show')" onMouseOut="MM_showHideLayers('domestic','','hide')">
+								<div><img src="/images/sub_menu_rhead.gif" width="117" height="8" /></div>
+								<div><a href="/home/category.html?c=37" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('sub_menu_oil','','/images/sub_menu_oil_ov.gif',0)"><img src="/images/sub_menu_oil.gif" alt="食用油" name="sub_menu_oil" width="117" height="20" border="0" id="sub_menu_oil" /></a></div>
+								<div><a href="/home/category.html?c=7" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('sub_menu_flour','','/images/sub_menu_flour_ov.gif',0)"><img src="/images/sub_menu_flour.gif" alt="小麦粉" name="sub_menu_flour" width="117" height="20" border="0" id="sub_menu_flour" /></a></div>
+								<div><a href="/home/category.html?c=8" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('sub_menu_tenpura','','/images/sub_menu_tenpura_ov.gif',0)"><img src="/images/sub_menu_tenpura.gif" alt="天ぷら粉" name="sub_menu_tenpura" width="117" height="20" border="0" id="sub_menu_tenpura" /></a></div>
+								<div><a href="/home/category.html?c=38" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('sub_menu_karaage','','/images/sub_menu_karaage_ov.gif',0)"><img src="/images/sub_menu_karaage.gif" alt="から揚げ粉・カツ揚げ粉" name="sub_menu_karaage" width="117" height="20" border="0" id="sub_menu_karaage" /></a></div>
+								<div><a href="/home/category.html?c=39" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('sub_menu_okonomi','','/images/sub_menu_okonomi_ov.gif',0)"><img src="/images/sub_menu_okonomi.gif" alt="お好み焼粉・たこ焼粉" name="sub_menu_okonoimi" width="117" height="20" border="0" id="sub_menu_okonomi" /></a></div>
+								<div><a href="/home/category.html?c=34" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('sub_menu_hotcake','','/images/sub_menu_hotcake_ov.gif',0)"><img src="/images/sub_menu_hotcake.gif" alt="ホットケーキミックス" name="sub_menu_hotcake" width="117" height="20" border="0" id="sub_menu_hotcake" /></a></div>
+								<div><a href="/home/category.html?c=41" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('sub_menu_pancake','','/images/sub_menu_pancake_ov.gif',0)"><img src="/images/sub_menu_pancake.gif" alt="パンケーキミックス" name="sub_menu_pancake" width="117" height="20" border="0" id="sub_menu_hotcake" /></a></div>
+								<div><a href="/home/category.html?c=40" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('sub_menu_mix','','/images/sub_menu_mix_ov.gif',0)"><img src="/images/sub_menu_mix.gif" alt="その他ミックス粉" name="sub_menu_mix" width="117" height="20" border="0" id="sub_menu_mix" /></a></div>
+								<div><a href="/home/category.html?c=13" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('sub_menu_pasta','','/images/sub_menu_pasta_ov.gif',0)"><img src="/images/sub_menu_pasta.gif" alt="パスタ" name="sub_menu_pasta" width="117" height="20" border="0" id="sub_menu_pasta" /></a></div>
+								<div><a href="/home/category.html?c=18" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('sub_menu_health','','/images/sub_menu_health_ov.gif',0)"><img src="/images/sub_menu_health.gif" alt="健康食品" name="sub_menu_health" width="117" height="20" border="0" id="sub_menu_health" /></a></div>
+								<div><a href="/home/pdf/gift2017summer.pdf" onclick="ga('send', 'event', 'global_menu1', 'click', 'gift');" target="_blank" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('sub_menu_gift','','/images/sub_menu_gift_ov.gif',0)"><img src="/images/sub_menu_gift.gif" alt="ギフト" name="sub_menu_gift" width="117" height="20" border="0" id="sub_menu_gift" /></a></div>
+								<div><a href="/home/category.html?c=42" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('sub_menu_renchin','','/images/sub_menu_renchin_ov.gif',0)"><img src="/images/sub_menu_renchin.gif" alt="レンジでチンシリーズ" name="sub_menu_renchin" width="117" height="20" border="0" id="sub_menu_renchin" /></a></div>
+								<div><img src="/images/sub_menu_obottom.gif" width="117" height="8" /></div>
+							</div>
+							<div id="gyoumu" onmouseover="MM_showHideLayers('gyoumu','','show')" onmouseout="MM_showHideLayers('gyoumu','','hide')">
+								<div><img src="/images/sub_menu_rhead.gif" width="117" height="8" /></div>
+								<div><a href="/pro/flour/" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('sub_menu_seifung','','/images/sub_menu_seifung_ov.gif',0)"><img src="/images/sub_menu_seifung.gif" alt="製粉事業" name="sub_menu_seifung" width="117" height="20" border="0" id="sub_menu_seifung" /></a></div>
+								<div><a href="/pro/oilsandfats/" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('sub_menu_yushig','','/images/sub_menu_yushig_ov.gif',0)"><img src="/images/sub_menu_yushig.gif" alt="油脂事業" name="sub_menu_yushig" width="117" height="20" border="0" id="sub_menu_yushig" /></a></div>
+								<div><a href="/pro/glucose/" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('sub_menu_tousitug','','/images/sub_menu_tousitug_ov.gif',0)"><img src="/images/sub_menu_tousitug.gif" alt="糖質事業" name="sub_menu_tousitug" width="117" height="20" border="0" id="sub_menu_tousitug" /></a></div>
+								<div><a href="/pro/feed/" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('sub_menu_siryoug','','/images/sub_menu_siryoug_ov.gif',0)"><img src="/images/sub_menu_siryoug.gif" alt="飼料事業" name="sub_menu_siryoug" width="117" height="20" border="0" id="sub_menu_siryoug" /></a></div>
+								<div><img src="/images/sub_menu_obottom.gif" width="117" height="8" /></div>
+							</div>
+							<div id="enjoy" onmouseover="MM_showHideLayers('enjoy','','show')" onmouseout="MM_showHideLayers('enjoy','','hide')">
+								<div><img src="/images/sub_menu_rhead.gif" width="117" height="8" /></div>
+								<div><a href="/enjoy/faq/" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('sub_menu_faq','','/images/sub_menu_faq_ov.gif',0)"><img src="/images/sub_menu_faq.gif" alt="よくあるご質問" name="sub_menu_faq" width="117" height="19" border="0" id="sub_menu_faq" /></a></div>
+								<div><a href="/kengaku/" target="_blank" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('sub_menu_koujyou','','/images/sub_menu_koujyou_ov.gif',0)"><img src="/images/sub_menu_koujyou.gif" alt="バーチャル工場見学" name="sub_menu_koujyou" width="117" height="20" border="0" id="sub_menu_koujyou" /></a></div>
+								<div><a href="/enjoy/cm/" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('sub_menu_cm','','/images/sub_menu_cm_ov.gif',0)" target="_blank"><img src="/images/sub_menu_cm.gif" alt="TV CM情報" name="sub_menu_cm" width="117" height="20" border="0" id="sub_menu_cm" /></a></div>
+								<div><a href="/enjoy/recipe/" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('sub_menu_recipe','','/images/sub_menu_recipe_ov.gif',0)"><img src="/images/sub_menu_recipe.gif" alt="レシピ" name="sub_menu_recipe" width="117" height="20" border="0" id="sub_menu_recipe" /></a></div>
+								<div><a href="http://www.himawarinet.com/" onclick="ga('send', 'event', 'global_menu1', 'click', 'himawari');" target="_blank" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('sub_menu_himawari','','/images/sub_menu_himawari_ov.gif',0)"><img src="/images/sub_menu_himawari.gif" alt="ひまわりネット" name="sub_menu_himawari" width="117" height="20" border="0" id="sub_menu_himawari" /></a></div>
+								<div><img src="/images/sub_menu_obottom.gif" width="117" height="8" /></div>
+							</div>
+							<div id="corporate" onmouseover="MM_showHideLayers('corporate','','show')" onmouseout="MM_showHideLayers('corporate','','hide')">
+								<div><img src="/images/sub_menu_ghead.gif" width="117" height="8" /></div>
+								<div><a href="/corporate/message/" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('sub_menu_message','','/images/sub_menu_message_ov.gif',0)"><img src="/images/sub_menu_message.gif" alt="社長ごあいさつ" name="sub_menu_message" width="117" height="20" border="0" id="sub_menu_message" /></a></div>
+								<div><a href="/corporate/company/" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('sub_menu_company','','/images/sub_menu_company_ov.gif',0)"><img src="/images/sub_menu_company.gif" alt="会社概要" name="sub_menu_company" width="117" height="20" border="0" id="sub_menu_company" /></a></div>
+								<div><a href="/corporate/plan/" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('sub_menu_plan','','/images/sub_menu_plan_ov.gif',0)"><img src="/images/sub_menu_plan.gif" alt="経営計画" name="sub_menu_plan" width="117" height="20" border="0" id="sub_menu_plan" /></a></div>
+								<div><a href="/corporate/governance/" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('sub_menu_governance','','/images/sub_menu_governance_ov.gif',0)"><img src="/images/sub_menu_governance.gif" alt="コーポレートガバナンス" name="sub_menu_governance" width="117" height="20" border="0" id="sub_menu_governance" /></a></div>
+								<div><a href="/corporate/brand/" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('sub_menu_brand','','/images/sub_menu_brand_ov.gif',0)"><img src="/images/sub_menu_brand.gif" alt="企業ブランド" name="sub_menu_brand" width="117" height="20" border="0" id="sub_menu_brand" /></a></div>
+								<div><a href="/corporate/business/" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('sub_menu_business','','/images/sub_menu_business_ov.gif',0)"><img src="/images/sub_menu_business.gif" alt="業務内容" name="sub_menu_business" width="117" height="20" border="0" id="sub_menu_business" /></a></div>
+								<div><a href="/corporate/office/" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('sub_menu_office','','/images/sub_menu_office_ov.gif',0)"><img src="/images/sub_menu_office.gif" alt="事業所一覧" name="sub_menu_office" width="117" height="20" border="0" id="sub_menu_office" /></a></div>
+								<div><a href="/corporate/group/" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('sub_menu_group','','/images/sub_menu_group_ov.gif',0)"><img src="/images/sub_menu_group.gif" alt="昭和産業グループ一覧" name="sub_menu_group" width="117" height="34" border="0" id="sub_menu_group" /></a></div>
+								<div><a href="/corporate/history/" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('sub_menu_history','','/images/sub_menu_history_ov.gif',0)"><img src="/images/sub_menu_history.gif" alt="昭和産業の歴史" name="sub_menu_history" width="117" height="20" border="0" id="sub_menu_history" /></a></div>
+								<div><a href="/corporate/news/" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('sub_menu_news','','/images/sub_menu_news_ov.gif',0)"><img src="/images/sub_menu_news.gif" alt="ニュースリリース" name="sub_menu_news" width="117" height="20" border="0" id="sub_menu_news" /></a></div>
+								<div><a href="/corporate/ir/" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('sub_menu_ir','','/images/sub_menu_ir_ov.gif',0)"><img src="/images/sub_menu_ir.gif" alt="投資家情報" name="sub_menu_ir" width="117" height="20" border="0" id="sub_menu_ir" /></a></div>
+								<div><a href="/corporate/csr/" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('sub_menu_csr','','/images/sub_menu_csr_ov.gif',0)"><img src="/images/sub_menu_csr.gif" alt="CSRへの取組み" name="sub_menu_csr" width="117" height="20" border="0" id="sub_menu_csr" /></a></div>
+								<div><a href="/saiyo/" onclick="ga('send', 'event', 'global_menu1', 'click', 'saiyo');" target="_blank" onmouseover="MM_swapImage('sub_menu_saiyo','','/images/sub_menu_saiyo_ov.gif',0)" onmouseout="MM_swapImgRestore()"><img src="/images/sub_menu_saiyo.gif" alt="採用情報" name="sub_menu_saiyo" width="117" height="20" border="0" id="sub_menu_saiyo" /></a></div>
+								<div><img src="/images/sub_menu_gbottom.gif" width="117" height="8" /></div>
+							</div>
+						</div>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</div>	<div id="mainArea" class="top clearfix" >
+
+	<!-- slider banner -->
+<div id="slider">
+  <div class="slide"><a href="/home/category.html?c=7#d150"><img src="images/img_visual_home201703.jpg" border="0" alt="2017年春夏おすすめ商品のご紹介" /></a></div>  
+  <div class="slide"><a href="/corporate/brand/"><img src="images/img_visual_brand20161101.gif" border="0" alt="小麦・大豆・菜種・トウモロコシから、おいしい答えを。穀物ソリューション・カンパニー　昭和産業株式会社" /></a></div>
+</div>
+		<div id="mainBox" class="clearfix">
+			<div class="clearfix">
+				<div class="leftBoxTop">
+					
+
+					<div class="osusume">
+						<div><a href="enjoy/recipe/recommend/"><img src="images/title_osusume.gif" alt="おすすめレシピ［レシピを探す］" width="400" height="49" border="0" onmouseout="this.src='/images/title_osusume.gif'" onmouseover="this.src='/images/title_osusume_ov.gif'" /></a></div>
+						<div><p class="menu"><a href="enjoy/recipe/recommend/recipe.html?article_id=72572">アメリカンドッグ</a></p>
+						</div>
+						<div><img src="images/line_osusume.gif" width="400" height="2" /></div>
+						<div class="menuBox clearfix">
+							<div class="photo"><a href="enjoy/recipe/recommend/recipe.html?article_id=72572"><img src="/enjoy/recipe/recommend/article_image.php?article_id=72572" alt="アメリカンドッグ" width="174" class="border"></a></div>
+							<div class="text">
+								<p>ふんわり、さっくり、ほんのり甘い生地がプリプリのソーセージにぴったりです。
+天ぷら粉で作れば甘さの調節もできて便利！</p>
+								<p class="marginT3"><a href="enjoy/recipe/recommend/recipe.html?article_id=72572">（レシピ詳細へ）</a></p>
+							</div>
+						</div>
+						<div class="menuFrame clearfix">							<div class="photo"><a href="enjoy/recipe/recommend/recipe.html?article_id=491"><img src="/enjoy/recipe/recommend/article_image.php?article_id=491" alt="あったか冷たいシューアイス天ぷら" width="64" class="border"></a></div>
+							<div class="photo"><a href="enjoy/recipe/recommend/recipe.html?article_id=393"><img src="/enjoy/recipe/recommend/article_image.php?article_id=393" alt="さつまおろしきな粉練り揚げ" width="64" class="border"></a></div>
+							<div class="photo"><a href="enjoy/recipe/recommend/recipe.html?article_id=514"><img src="/enjoy/recipe/recommend/article_image.php?article_id=514" alt="花巻き・揚げ花巻き（花巻・油炸花巻）" width="64" class="border"></a></div>
+							<div class="photo"><a href="enjoy/recipe/recommend/recipe.html?article_id=513"><img src="/enjoy/recipe/recommend/article_image.php?article_id=513" alt="ジャージャンめん（炸醤面）" width="64" class="border"></a></div>
+							<div class="photo"><a href="enjoy/recipe/recommend/recipe.html?article_id=91169"><img src="/enjoy/recipe/recommend/article_image.php?article_id=91169" alt="きのこのピザ" width="64" class="border"></a></div>
+						</div>
+						<div><img src="images/bottom_osusume.gif" /></div>
+
+					</div>
+
+				
+<map name="Map_osusume" id="Map_osusume">
+<area shape="rect" coords="299,20,384,40" href="enjoy/recipe/recommend/" alt="レシピを探す" onmouseover="MM_swapImage('title_osusume','','images/title_osusume_ov.gif',1)" onmouseout="MM_swapImgRestore()" />
+</map>
+				
+
+					
+<div class="bottomBox">  
+            <div class="minibannerBox clearfix">
+					<div class="floatL">
+                    	<a target="_blank" href="special/cake/index.html"><img width="185" height="174" alt="ケーキのようなホットケーキミックス 特設サイト" src="images/banner_cake201511.gif"></a></div>
+					<div class="floatR">
+                    	<a target="_blank" href="http://www.himawarinet.com/index.html?corpTopBn"><img width="185" height="174" alt="ひまわりネット　SHOWAのレシピ＆ポイントサイト" src="images/banner_himawari_201604.png"></a></div>
+			</div>
+            <div class="minibannerBox clearfix">
+                    <div class="floatL">
+            			<a target="_blank" href="special/pancake/index.html"><img width="185" height="80" alt="パンケーキミックス 特設ページ" src="images/banner_pancake2013.gif"></a></div>
+                    <div class="floatR">
+                    	<a target="_blank" href="http://www2.enekoshop.jp/shop/himawarinet/" onclick="ga('send', 'event', 'top_banner', 'click', 'shop');"><img width="185" height="80" alt="ひまわりネットショップ SHOWAの商品をまとめてショッピング" src="images/banner_shop201611.gif"></a></div>
+			</div>
+			<div class="minibannerBox clearfix">
+					<div class="floatL">
+                    	<a target="_blank" href="special/tenpurako/index.html"><img width="185" height="80" alt="昭和天ぷら粉 50周年特設サイト" src="images/banner_tenpurako2012.gif"></a></div>
+					<div class="floatR">
+                    	<a target="_blank" href="/enjoy/cm/" onclick="ga('send', 'event', 'top_banner', 'click', 'tvcm');" target="_blank"><img width="185" height="80" alt="ＴＶＣＭ情報" src="images/banner_tvcm201611.gif"></a></div>
+			</div>
+			<div class="minibannerBox clearfix">
+					<div class="floatL">
+                        <a target="_blank" href="special/futomen/index.html"><img width="185" height="80" alt="太麺スパゲティ 特設ページ" src="images/banner_futomen2012.gif"></a></div>
+					<div class="floatR">
+                    	<a href="https://twitter.com/himawarinet_twi" target="_blank" onclick="ga('send', 'event', 'top_banner', 'click', 'twitter');"><img width="185" height="80" src="/images/banner_tw201511.gif" alt="ひまわりネット×twitter"></a></div>
+			</div>
+			<div class="minibannerBox clearfix">
+					<div class="floatL">
+						<a target="_blank" href="special/oyatsu/index.html"><img width="185" height="80" alt="手作りおやつ工房 特設サイト" src="images/banner_oyatsu2012.gif"></a></div>
+					<div class="floatR"></div>
+			</div>
+            
+</div>
+				</div>
+				<div class="rightBoxTop">
+                
+					<div class="info">
+<div><img src="images/title_info.gif" alt="お知らせ" width="400" height="25" /></div>
+<div class="infoBox clearfix"><div class="date">2017/<br />07/25</div>
+<div class="text">
+<p><a href="/corporate/news/info_details.html?id=570">夏野菜を使った”洋風お好み焼”と”ガスパチョ風ペンネ”のレシピを紹介中☆</a></p>
+</div>
+</div>
+<div class="infoBox clearfix"><div class="date">2017/<br />06/13</div>
+<div class="text">
+<p><a href="/upimage/info/pdf/20170613_netshop14.pdf" target="_blank">ひまわりネットショップにて「2017年夏のおすすめセット」販売のご案内 <img src="/images/pdficon_small.gif" alt="PDFファイル" width="10" height="11" /></a></p>
+</div>
+</div>
+<div class="infoBox clearfix"><div class="date">2017/<br />04/24</div>
+<div class="text">
+<p><a href="/corporate/news/info_details.html?id=550">家族でワイワイ！<br>「おいしく焼ける魔法のお好み焼粉」を使ったレシピを紹介中☆</a></p>
+</div>
+</div>
+</div>
+<div class="whats_new">
+<div><img src="images/title_whats_new1.gif" alt="What's New" width="400" height="26" /></div>
+<div class="newsBox">
+	<div class="newsBoxInner new">
+		<p class="textS">2017/08/03　［ニュースリリース］</p>
+		<p><a href="/upimage/news/pdf/H30.3kidai1shihannkikessann.pdf" target="_blank">昭和産業株式会社　平成30年３月期第１四半期決算の発表について <img src="/images/pdficon_small.gif" alt="PDFファイル" width="10" height="11" /></a></p>
+	</div>
+	<div><img src="images/line_whats_new.gif" width="400" height="1" /></div>
+</div><div class="newsBox">
+	<div class="newsBoxInner new">
+		<p class="textS">2017/08/03　［ニュースリリース］</p>
+		<p><a href="/upimage/news/pdf/17-24_ haitouyosounoshuusei.pdf" target="_blank">株式併合に伴う配当予想の修正に関するお知らせ <img src="/images/pdficon_small.gif" alt="PDFファイル" width="10" height="11" /></a></p>
+	</div>
+	<div><img src="images/line_whats_new.gif" width="400" height="1" /></div>
+</div><div class="newsBox">
+	<div class="newsBoxInner new">
+		<p class="textS">2017/08/03　［決算短信］</p>
+		<p><a href="/upimage/ir/tanshin/pdf/H30.3_1qkessantanshin.pdf" target="_blank">平成30年３月期　第１四半期決算短信 <img src="/images/pdficon_small.gif" alt="PDFファイル" width="10" height="11" /></a></p>
+	</div>
+	<div><img src="images/line_whats_new.gif" width="400" height="1" /></div>
+</div><div class="newsBox">
+	<div class="newsBoxInner new">
+		<p class="textS">2017/08/02　［ニュースリリース］</p>
+		<p><a href="/upimage/news/pdf/17-23_ 2017年秋冬家庭用新商品および2017年歳暮期・昭和ギフトセット新商品のご案内.pdf" target="_blank">2017年秋冬家庭用新商品および2017年歳暮・昭和ギフトセット新商品のご案内 <img src="/images/pdficon_small.gif" alt="PDFファイル" width="10" height="11" /></a></p>
+	</div>
+	<div><img src="images/line_whats_new.gif" width="400" height="1" /></div>
+</div>
+</div>
+					<div class="bottomMenu">
+	<div class="clearfix">
+		<div class="floatL"><a href="corporate/company/index.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('bottom_menu_aboutus','','images/bottom_menu_aboutus_ov.gif',1)"><img src="images/bottom_menu_aboutus.gif" alt="会社概要" name="bottom_menu_aboutus" width="200" height="52" border="0" id="bottom_menu_aboutus" /></a></div>
+		<div class="floatR"><a href="corporate/csr/index.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('bottom_menu_csr','','images/bottom_menu_csr_ov.gif',1)"><img src="images/bottom_menu_csr.gif" alt="CSRへの取り組み" name="bottom_menu_csr" width="200" height="52" border="0" id="bottom_menu_csr" /></a></div>
+		</div>
+	<div class="marginT4 clearfix">
+		<div class="floatL"><a href="corporate/ir/index.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('bottom_menu_investor','','images/bottom_menu_investor_ov.gif',1)"><img src="images/bottom_menu_investor.gif" alt="投資家情報" name="bottom_menu_investor" width="200" height="52" border="0" id="bottom_menu_investor" /></a></div>
+		<div class="floatR"><a href="saiyo/index.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('bottom_menu_recruit','','images/bottom_menu_recruit_ov.gif',1)" target="_blank" onclick="ga('send', 'event', 'top_button', 'click', 'saiyo');"><img src="images/bottom_menu_recruit.gif" alt="採用情報" name="bottom_menu_recruit" width="200" height="52" border="0" id="bottom_menu_recruit" /></a></div>
+	</div>
+</div>				</div>                        
+			</div>            
+            
+		</div>
+	</div>
+</div>
+<!-- フッター -->
+<div id="footer" class="clearfix">
+	<div class="footerBox">
+		<ul class="link">
+			<li><a href="/sitemap/" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('footer_sitemap','','/images/footer_sitemap_ov.gif',1)"><img src="/images/footer_sitemap.gif" alt="サイトマップ" name="footer_sitemap" width="72" height="20" border="0" id="footer_sitemap" /></a></li>
+			<li><a href="/support/" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('footer_contact','','/images/footer_contact_ov.gif',1)"><img src="/images/footer_contact.gif" alt="お問い合わせ" name="footer_contact" width="78" height="20" border="0" id="footer_contact" /></a></li>
+			<li><a href="/privacy/" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('footer_privacy','','/images/footer_privacy_ov.gif',1)"><img src="/images/footer_privacy.gif" alt="個人情報保護方針" name="footer_privacy" width="100" height="20" border="0" id="footer_privacy" /></a></li>
+			<li><a href="/social/" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('footer_social','','/images/footer_social_ov.gif',1)"><img src="/images/footer_social.gif" alt="ソーシャルメディアポリシー" name="footer_social" width="151" height="20" border="0" id="footer_social" /></a></li>
+		</ul>
+		<div class="copyright"><img src="/images/copyright.gif" alt="Copyright 2011, Showa Sangyo Co., Ltd. All Rights Reserved." width="295" height="9" /></div>
+	</div>
+</div>
+</body>
+</html>

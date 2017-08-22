@@ -1,0 +1,359 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="Content-Script-Type" content="text/javascript" />
+	<meta http-equiv="Content-Style-Type" content="text/css" />
+	<meta name="description" content="J-オイルミルズコーポレートサイト。J-オイルミルズは植物油を中心にしてあらゆる食品のベースとなる素材を提供し、健やかで豊かな食生活に貢献するとともに、当社グループの持つユニークな技術をベースにお客様からの多様なニーズに対応した安全・安心な商品を提供しています。" />
+	<meta name="Keywords" content="J-オイルミルズ,Jオイル,J-OIL MILLS,J-OIL" />
+	<meta name="author" content="J-OIL MILLS,INC." />
+	<meta name="copyright" content="Copyright(C)J-OIL MILLS,INC. All Rights Reserved." />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0" />
+
+	<script language="JavaScript" src="./js/jquery-1.8.3.min.js" type="text/javascript"></script>
+	<script language="JavaScript" src="./js/std_function.js" type="text/javascript"></script>
+	<script language="JavaScript" src="./js/jsloader.js" type="text/javascript"></script>
+	<script language="JavaScript" src="./js/loop.js" type="text/javascript"></script>
+	<script language="JavaScript" src="./js/parts.js" type="text/javascript"></script>
+
+	<link rel="stylesheet" href="./css/common.css" type="text/css" />
+    <link rel="stylesheet" href="./css/common_r.css" type="text/css" />
+	<link rel="stylesheet" href="./css/top.css" type="text/css" />
+    <link rel="stylesheet" href="./css/top_r.css" type="text/css" />
+    <link rel="stylesheet" href="./css/print.css" type="text/css" media="print" />
+
+	<title>J-オイルミルズ</title>
+</head>
+
+<body>
+	<div id="TOP">
+
+
+		<!-- HEADER -->
+		<div id="HEADER_AREA">
+			<div id="HEADER">
+				<div id="HEADER_CONTENTS" class="clearfix">
+					<h1><a href="/"><img src="/images/common/logo_header.png" width="172" height="48" alt="おいしいは幸せのエネルギー J-オイルミルズ" /></a></h1>
+					<ul>
+						<li id="BTN_CONTACT"><a href="/contact/">お問い合わせ</a></li>
+						<li id="BTN_SITEMAP"><a href="/sitemap.html">サイトマップ</a></li>
+						<li class="search mr0">
+							<div id="srchBox" class="watermark">
+								<form action="http://www.j-oil.com/search/" method="get" id="srch" target="yjserp">
+								<p id="srchForm">
+								<input type="text" name="p" id="srchInput" class="">
+								<input type="submit" value="検索" id="srchBtn" onclick="document.getElementById('srchInput').focus();">
+								<input type="hidden" id="fr" name="fr" value="cse">
+								<input type="hidden" id="ei" name="ei" value="UTF-8">
+								<input type="hidden" id="csid" name="csid" value="hVYSaUZHYIo5bFjIxQU.CYoVxQA9M_Lu1JXT">
+								</p>
+								<!-- <input type="hidden" name="vs" value="www.j-oil.com" id="yjInsite"> -->
+								</form>
+								<img src="http://custom.search.yahoo.co.jp/images/window/hVYSaUZHYIo5bFjIxQU.CYoVxQA9M_Lu1JXT.gif" alt="">
+							</div>
+
+							<script type="text/javascript">
+							(function() {
+							var sb = document.getElementById('srchBox');
+							if (sb && sb.className == 'watermark') {
+								var si = document.getElementById('srchInput');
+								var f = function() { si.className = 'nomark'; };
+								var b = function() {
+									if (si.value == '') {
+										si.className = '';
+									}
+								};
+								si.onfocus = f;
+								si.onblur = b;
+								if (!/[&?]p=[^&]/.test(location.search)) {
+									b();
+								} else {
+									f();
+								}
+							}
+							})();
+							</script>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div id="G_NAVI_AREA">
+				<ul id="G_NAVI" class="clearfix">
+					<li id="NAVI1"><a href="http://product.j-oil.dga.jp/"><span>商品情報</span></a></li>
+					<li id="NAVI2"><a href="/recipe/"><span>レシピ</span></a></li>
+					<li id="NAVI3"><a href="/sp/"><span>おトクで<br />オイシイはなし</span></a></li>
+					<li id="NAVI4"><a href="/company/"><span>会社情報</span></a></li>
+					<li id="NAVI5"><a href="http://ir.j-oil.com/ja/Top.html"><span>IR情報</span></a></li>
+					<li id="NAVI6"><a href="http://ir.j-oil.com/csr/Top.html"><span>環境・社会活動</span></a></li>
+				</ul>
+			</div>
+		</div>
+		<!-- /HEADER -->
+
+
+		<!-- 編集領域ここから -->
+		<div id="CONTENTS_AREA">
+			<div id="CONTENTS">
+				<div class="clearfix">
+					<div id="CONTENTS_TOP_LEFT">
+	
+						<div id="MAIN_SLIDE">
+							<div id="MAIN_IMG">
+								<ul class="main_visual">
+									<li><a href="./sarara/"><img src="./images/top/main12.png" width="720" height="310" alt="健康サララ" /></a></li>
+									<li><a href="./oliveoil/"><img class="undraggable" src="./images/top/main11.png" width="720" height="310" alt="オリーブオイル" ondragstart="return false;" oncontextmenu="return false;" /></a></li>
+									<li><a href="http://oliveoillife.jp/" target="_blank"><img src="./images/top/main10.png" width="720" height="310" alt="オリーブオイルライフ" /></a></li>
+									<li><a href="./sp/mainichi/"><img src="./images/top/main09.png" width="720" height="310" alt="毎日&reg;栄養オイル" /></a></li>
+									<li><a href="./flavor/"><img src="./images/top/main07.png" width="720" height="310" alt="" /></a></li>
+									<li><a href="http://cookpad.com/pr/tieup/index/815" target="_blank"><img src="./images/top/main03.png" width="720" height="310" alt="" /></a></li>
+									<li><a href="./calpis_soft/"><img src="./images/product/top/product_main03.png" width="720" height="310" alt=""></a></li>
+									<li><a href="./sp/gotochi/"><img src="./images/top/main04.png" width="720" height="310" alt="ご当地アヒージョ" /></a></li>
+									<li><a href="./daizule_hyaku/"><img src="./images/top/main05.png" width="720" height="310" alt="" /></a></li>
+								</ul>
+							</div>
+
+							<div id="MAIN_THUMB" class="clearfix">
+								<p id="PREV" class="cp"><img src="./images/common/btn_prev.gif" width="25" height="55" alt="" /></p>
+								<div class="MAIN_THUMB_WRAP">
+									<ul id="THUMB_IMG" class="clearfix">
+										<li class="cp"><img src="./images/top/main_thumb12.png" width="105" height="55" alt="健康サララ" /></li>
+										<li class="cp"><img class="undraggable" src="./images/top/main_thumb11.png" width="105" height="55" alt="オリーブオイル" ondragstart="return false;" oncontextmenu="return false;" /></li>
+										<li class="cp"><img src="./images/top/main_thumb10.png" width="105" height="55" alt="オリーブオイルライフ" /></li>
+										<li class="cp"><img src="./images/top/main_thumb09.jpg" width="105" height="55" alt="毎日&reg;栄養オイル" /></li>
+										<li class="cp"><img src="./images/top/main_thumb07.jpg" width="105" height="55" alt="" /></li>
+										<li class="cp"><img src="./images/top/main_thumb03.jpg" width="105" height="55" alt="" /></li>
+										<li class="cp"><img src="./images/product/top/product_main_thumb03.jpg" width="105" height="55" alt="" /></li>
+										<li class="cp"><img src="./images/top/main_thumb04.jpg" width="105" height="55" alt="ご当地アヒージョ" /></li>
+										<li class="cp"><img src="./images/top/main_thumb05.jpg" width="105" height="55" alt="" /></li>
+									</ul>
+									<div class="active_thumb">
+									</div>
+								</div>
+								<p id="NEXT" class="cp"><img src="./images/common/btn_next.gif" width="25" height="55" alt="" /></p>
+							</div>
+
+						</div>
+
+						<div id="NEWS_AREA">
+							<div class="contents1_bottom">
+								<div class="contents1_inner">
+									<div class="tit_position toggleBtn">
+										<h2 class="spTit02">新着情報</h2>
+										<ul class="tit_btn clearfix">
+											<li><a href="http://press.j-oil.dga.jp/"><img src="./images/top/btn_tit_press.png" width="136" height="25" alt="プレスリリース一覧" /></a></li>
+											<li class="mr0"><a href="http://ir.j-oil.com/ja/Top.html"><img src="./images/top/btn_tit_ir.png" width="136" height="25" alt="IR情報" /></a></li>
+										</ul>
+									</div>
+
+									<!-- Press -->
+									<div class="toggleContents">
+									<p class="mt10">プレスリリース他</p>
+									<div id="NEWS_DET">
+									<div class="contents_in_bottom">
+									<div class="contents_in_inner">
+
+									<div id="qa_inq1"></div>
+									<input type="hidden" name="URL[1]" value="type=1&page=100&param=new">
+									<input type="hidden" name="postion[1]" value="qa_inq1">
+									<!-- i-ask用script -->
+									<script language="javascript" src="parts.js" charset="UTF-8"></script>
+									<!-- End i-ask用script -->
+
+									</div>
+									</div>
+									</div>
+									<!--Press -->
+
+									<!--IR -->
+									<p class="mt10">IR情報</p>
+									<div id="NEWS_DET">
+									<div class="contents_in_bottom">
+									<div class="contents_in_inner">
+									<iframe width="674" scrolling="AUTO" height="60" frameborder="0" style="background:#FFF;" src="http://ir.j-oil.com/ja/IRNewslist.html"></iframe>
+									</div>
+									</div>
+									</div>
+									<!--IR -->
+									
+									</div><!-- //toggleContents -->
+									
+								</div>
+							</div>
+						</div>
+	
+						<div id="MERCHANDISE_AREA">
+							<div class="contents2_bottom">
+								<div class="contents2_inner">
+									<div class="tit_position">
+                                    <h2 class="forPC">商品情報</h2>
+										<h2 class="spTit02 forSP"><a href="/product/" class="ttlLink">商品情報</a></h2>
+									<ul class="tit_btn clearfix forPC">
+											<li class="mr0"><a href="./product/gyoumu/"><img src="./images/top/btn_tit_professional_use.png" width="136" height="24" alt="業務用商品" /></a></li>
+										</ul>
+									</div>
+<div class="forPC">
+<ul class="mer_list clearfix">
+	<li><a href="./product/"><img src="./images/top/img_mer01.png" width="222" height="138" alt="食用油" /></a></li>
+	<li><a href="./product/margarine/"><img src="./images/top/img_mer02.png" width="222" height="138" alt="マーガリン類" /></a></li>
+	<li class="mr0"><a href="./product/supple/"><img src="./images/top/img_mer03.png" width="222" height="138" alt="栄養補助食品" /></a></li>
+</ul>
+</div>
+								</div>
+							</div>
+						</div>
+	
+						<div id="RECOMMENDED_BRAND_AREA">
+							<div class="contents1_bottom">
+								<h2 class="spTit01 orange toggleBtn">おすすめブランドサイト</h2>
+								<div class="contents1_inner pt15 toggleContents">
+									<div id="RECOMMENDED_BRAND">
+										<ul class="clearfix">
+											<li><a href="./sp/mainichi/"><img src="./images/top/rec_banner11.png" width="220" height="82" alt="毎日&reg;栄養オイル" /></a></li>
+											<li><a href="./flavor/"><img src="./images/top/rec_banner10.png" width="220" height="82" alt="バター好き ブランドページ" /></a></li>
+											<li class="mr0"><a href="./rama_buttersuki/"><img src="./images/top/rec_banner08.png" width="220" height="82" alt="バター好き ブランドページ" /></a></li>
+										</ul>
+										<div id="RECOMMENDED_BRAND_ALL">
+											<ul class="clearfix">
+											<!-- <li><a href="./biofiber/"><img src="./images/top/rec_banner09.png" width="220" height="82" alt="BIO FIBER　豊年ビオファイバー" /></a></li> -->
+											<!-- <li><a href="./chougou_goma/"><img src="./images/top/rec_banner01.png" width="220" height="82" alt="AJINOMOTO 健康 調合ごま油" /></a></li> -->
+											<li><a href="./calpis_soft/"><img src="./images/top/rec_banner03.png" width="220" height="82" alt="カルピスソフト ブランドページ" /></a></li>
+											<li><a href="./daizule_hyaku/"><img src="./images/top/rec_banner04.png" width="220" height="82" alt="百歳の朝食" /></a></li>
+											<li class="mr0"><a href="./oliveoil/"><img src="./images/top/rec_banner05.png" width="220" height="82" alt="オリーブオイル" /></a></li>
+											
+											<li><a href="./chotto/"><img src="./images/top/rec_banner06.png" width="220" height="82" alt="「ちょっとdeちょうどいい！」ブランドページ" /></a></li>
+											<li><a href="./ecopouch/"><img src="./images/top/rec_banner07.png" width="220" height="82" alt="人にも地球にも油にもやさしいエコパウチ" /></a></li>
+											<li class="mr0"><a href="./sp/amani/"><img src="./images/top/rec_banner12.png" width="220" height="82" alt="アマニブレンド油" /></a></li>
+											
+											</ul>
+										</div>
+										<p id="BTN_RECOMMENDED_BRAND"><a href="javascript:;" class="off">もっと見る</a></p>
+									</div>
+								</div>
+							</div>
+						</div>
+
+
+						<div id="RECOMMENDED_CONTENTS_AREA">
+							<div class="contents1_bottom">
+								<h2 class="spTit01 toggleBtn">おすすめコンテンツ</h2>
+								<div class="contents1_inner pt15 toggleContents">
+									<div id="RECOMMENDED_CONTENTS">
+										<ul class="clearfix">
+											<li><a href="./sp/gotochi/"><img src="./images/top/rec2_banner12.png" width="220" height="82" alt="ご当地アヒージョ" /></a></li>
+											<li><a href="./sp/mouretsu/"><img src="./images/top/rec2_banner01.png" width="220" height="82" alt="モーレツ営業日誌" /></a></li>
+											<li class="mr0"><a href="./sp/tsukutte_mills/"><img src="./images/top/rec2_banner02.png" width="220" height="82" alt="新聞" /></a></li>
+										</ul>
+										<div id="RECOMMENDED_CONTENTS_ALL">
+										<ul class="clearfix">
+											<li><a href="https://www.facebook.com/katsuyooliveoil" target="_blank"><img src="./images/top/rec2_banner11.jpg" width="220" height="82" alt="オリーブオイル活用術Facebook" /></a></li>
+											<li><a href="./sp/olive_gakuen/"><img src="./images/top/rec2_banner07.png" width="220" height="82" alt="オリーブオイル学園" /></a></li>
+											<li class="mr0"><a href="./recipe/fun/"><img src="./images/top/rec2_banner04.png" width="220" height="82" alt="マイエコルーム" /></a></li>
+											<li><a href="./sp/cm/"><img src="./images/top/rec2_banner06.png" width="220" height="82" alt="CM情報" /></a></li>
+											<li><a href="./cpn/"><img src="./images/top/rec2_banner08.png" width="220" height="82" alt="キャンペーン一覧" /></a></li>
+											<li class="mr0"><a href="dashi-to-oil/" target="_blank"><img src="./images/top/rec2_banner09.png" width="220" height="82" alt="ヤマキXJオイルコラボレーションサイト" /></a></li>
+											<li><a href="./url/recipeblog.html" target="_blank"><img src="./images/top/rec2_banner10.png" width="220" height="82" alt="コラボで旨い&#9834;レシピコンテスト" /></a></li>
+											<li><a href="./sp/olive_world/"><img src="./images/top/rec2_banner03.png" width="220" height="82" alt="オリーブオイルの世界へ" /></a></li>
+											<li class="mr0"><a href="http://oliveoillife.jp/" target="_blank"><img src="./images/top/rec2_banner13.png" width="220" height="82" alt="オリーブオイルライフ" /></a></li>
+											<li><a href="./sp/cp_ajillo/"><img src="./images/top/rec2_banner14.png" width="220" height="82" alt="イベントアヒージョ" /></a></li>
+											<li><a href="./sp/cp_dressing/"><img src="./images/top/rec2_banner15.png" width="220" height="82" alt="本格手作りドレッシング" /></a></li>
+											<li class="mr0"><a href="./sp/cp_oilonigiri/"><img src="./images/top/rec2_banner16.png" width="220" height="82" alt="ヘルシーおにぎり" /></a></li>
+											<li class="mr0"><a href="./sp/gotochi-toast/"><img src="./images/top/rec2_banner17.png" width="220" height="82" alt="ご当地トースト" /></a></li>
+										</ul>
+										</div>
+										<p id="BTN_RECOMMENDED_CONTENTS"><a href="javascript:;" class="off">もっと見る</a></p>
+									</div>
+								</div>
+							</div>
+						</div>
+	
+					</div>
+					<div id="CONTENTS_TOP_RIGHT">
+	
+						<p class="forPC"><a href="./oil/"><img src="./images/top/banner8.png" width="240" height="180" alt="からだに大切な油のこと" /></a></p>
+	
+						<ul id="BANNER_AREA">
+							<li class="forPC"><a href="https://www.j-oil.com/recipe/fun/index.html"><img src="./images/top/banner1.png" width="240" height="90" alt="マイエコルーム" /></a></li>
+							<li><a href="http://www.j-oil-onlineshop.com/shop/" target="_blank"><img src="./images/top/banner2.png" width="240" height="90" class="w50" alt="Jオイルミルズ オンラインショップ" /></a></li>
+							<li><a href="http://www.j-oil-onlineshop.com/shop/stockholder" target="_blank"><img src="./images/top/banner3.png" width="240" height="90" class="w50" alt="株主様ご優待サイト" /></a></li>
+							<li><a href="./sp/line/"><img src="./images/top/banner6.png" width="240" height="90" class="w50" alt="LINEバナー" /></a></li>
+							<li><a href="./url/joileapp.html" target="_blank"><img src="./images/top/banner4.jpg" width="240" height="140" class="w50" alt="J-オイルミルズのオリーブオイル iPhoneアプリ無料配信中！" /></a></li>
+						</ul>
+					<!-- CM -->
+						<div id="CM_AREA">
+							<div id="CM_AREA_BOTTOM">
+								<h3>TVCM</h3>
+								<p id="ETC_CM"><a href="./sp/cm/">他のCMも見る</a></p>
+								<div id="CM_AREA_INNER">
+									<div id="CM_MOVIE">
+										<img src="./images/top/img_tvcm.png" width="220" height="142" alt="AJINOMOTO オリーブオイルエクストラバージン" />
+									</div>
+									<p id="ON_AIR"><a href="/sp/cm/mv/cm_ev15y.html" onclick="window.open(this.href, 'popup', 'width=640, height=520, menubar=no, toolbar=no, scrollbars=yes, resizable=yes'); return false;">AJINOMOTO オリーブオイル<br />エクストラバージン<br />ひとかけでgood（洋食）篇</a></p>
+
+									<div id="CM_MOVIE" class="mt20">
+										<img src="./images/top/img_tvcm_sarara.png" width="220" height="142" alt="AJINOMOTO 健康サララ" />
+									</div>
+									<p id="ON_AIR"><a href="/sp/cm/mv/cm_sarara15.html" onclick="window.open(this.href, 'popup', 'width=640, height=520, menubar=no, toolbar=no, scrollbars=yes, resizable=yes'); return false;">AJINOMOTO 健康サララ&reg;<br />幸せをあげよう篇</a></p>
+								</div>
+							</div>
+						</div>
+
+						<p class="banner mt15"><a href="./contact/"><img src="./images/top/banner5.png" width="240" height="50" class="w50" alt="お問い合わせ先一覧" /></a></p>
+
+					</div>
+				</div>
+
+				<ul id="SERIES_BANNER_AREA">
+					<li><a href="./url/ajinomoto.html" target="_blank"><img src="./images/top/series_banner01.jpg" width="155" height="44" alt="おいしさ、そして、いのちへ。" /></a></li>
+					<li><a href="./url/ffaajinomoto.html" target="_blank"><img src="./images/top/series_banner02.jpg" width="155" height="44" alt="味の素冷凍食品" /></a></li>
+					<li><a href="./url/agf.html" target="_blank"><img src="./images/top/series_banner03.gif" width="155" height="44" alt="Coffee Please AGF おいしさを、やすらぎを、語らいを。" /></a></li>
+					<li class="mr0"><a href="./url/yamaki.html" target="_blank"><img src="./images/top/series_banner04.jpg" width="155" height="44" alt="ヤマキ" /></a></li>
+				</ul>
+
+			</div>
+		</div>
+		<!-- /編集領域ここまで-->
+
+
+		<div id="PAGE_TOP_AREA">
+			<div id="PAGE_TOP">
+				<p><a href="#TOP"><img src="/images/common/btn_page_top.png" width="140" height="28" alt="このページのトップへ" /></a></p>
+			</div>
+		</div>
+		<!-- FOOTER -->
+		<div id="FOOTER_AREA">
+			<div id="FOOTER" class="clearfix">
+				<p class="f_left"><img src="/images/common/logo_footer.png" width="203" height="51" alt="株式会社J-オイルミルズ" /></p>
+				<div id="FOOT_CONTENTS">
+					<ul class="clearfix forPC">
+						<li id="BTN_TERMS" class="mr20"><a href="/kiyaku.html">利用規約</a></li>
+						<li id="BTN_PRIVACY"><a href="/pp.html">プライバシーポリシー</a></li>
+					</ul>
+                    <ul class="ftNav forSP">
+                    <li><a href="/contact/">お問い合わせ</a></li>
+						<li><a href="/sitemap.html">サイトマップ</a></li>
+						<li><a href="/kiyaku.html">利用規約</a></li>
+						<li><a href="/pp.html">プライバシーポリシー</a></li>
+					</ul>
+					<p id="COPY">Copyright(C)J-OIL MILLS,INC. All Rights Reserved.</p>
+				</div>
+			</div>
+		</div>
+		<!-- /FOOTER -->
+
+
+	</div>
+
+<!--Google Analyticsタグ -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-15706289-1");
+pageTracker._trackPageview();
+} catch(err) {}
+</script>
+
+</body>
+</html>

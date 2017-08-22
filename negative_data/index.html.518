@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- WP：エンコードの種類を出力 -->
+<meta charset="UTF-8" />
+<meta content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=2.0" name="viewport">
+<!-- WP：ブログ名を出力 --><!-- WP：ページのタイトルを出力する -->
+<title>ユタカフーズ株式会社 | OEM 液体調味料 粉末スープ 顆粒 受託製造 製造販売</title>
+<!-- WP：スタイルシートでデザインを指定する -->
+<link rel="stylesheet" href="http://yutakafoods.co.jp/wp-content/themes/yutaka/style.css" type="text/css" />
+<link rel="stylesheet" href="style.css" type="text/css" />
+<script type="text/javascript" src="http://yutakafoods.co.jp/wp-content/themes/yutaka/js/jquery.smoothScroll.js"></script>
+<script type="text/javascript" src="http://yutakafoods.co.jp/wp-content/themes/yutaka/js/heightLine.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="http://yutakafoods.co.jp/wp-content/themes/yutaka/js/slide.js"></script>
+<!-- WP：プラグインごとの設定をヘッダーに出力する -->
+
+<link href="http://yutakafoods.co.jp/wp-content/themes/yutaka/js/slick.css" type="text/css" rel="stylesheet">
+ <link href="http://yutakafoods.co.jp/wp-content/themes/yutaka/js/slick-theme.css" type="text/css" rel="stylesheet">
+  <script src="http://yutakafoods.co.jp/wp-content/themes/yutaka/js/slick.min.js"></script>
+<script src="http://yutakafoods.co.jp/wp-content/themes/yutaka/js/cookie.js"></script>
+<script src="http://yutakafoods.co.jp/wp-content/themes/yutaka/js/textresizer.js"></script>
+ <link href="http://yutakafoods.co.jp/wp-content/themes/yutaka/js/styles.css" type="text/css" rel="stylesheet">
+<script type="text/javascript">
+jQuery(document).ready( function(){
+	jQuery("#textsize a").textresizer({
+		target: "#contents p",
+		type: "cssClass",
+		sizes: [ "f1","f2","f3" ]
+	});
+	
+});
+</script>
+<script>
+	$("document").ready(function(){
+		$('.multiple-items').slick({
+			dots:false,
+			autoplay:true,
+			slidesToShow: 5,
+			speed: 500
+		});
+	});
+</script>
+<script type="text/javascript">
+jQuery(function($){
+  //ボタンをクリックしたら実行
+  $('li a').click(function(){
+    
+    //activeでないボタンだった場合のみ動作
+    if(!$(this).hasClass('active')){
+      
+      //現在activeのついているclassを削除
+      $('.active').removeClass('active');
+      
+      //クリックしたボタンをactiveクラスにする
+      $(this).addClass('active');
+    }
+  });
+});
+</script>
+<script>
+	$(function(){
+		$("#acMenu dt").on("click", function() {
+			$(this).next().slideToggle();
+		});
+	});
+	
+	$(function() {
+    var topBtn = $('#page-top');    
+    topBtn.hide();
+    //スクロールが100に達したらボタン表示
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+            topBtn.fadeIn();
+        } else {
+            topBtn.fadeOut();
+        }
+    });
+    //スクロールしてトップ
+    topBtn.click(function () {
+        $('body,html').animate({
+            scrollTop: 0
+        }, 500);
+        return false;
+    });
+});
+	
+	
+</script>
+</head>
+<body class="home blog">
+
+
+
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.5";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<!-- コンテナ -->
+
+<!-- ヘッダー -->
+<div id="header" class="clearfix">
+
+<div id="pc_header">
+<h1 id="store_name"><a href="http://yutakafoods.co.jp"><img src="http://yutakafoods.co.jp/wp-content/themes/yutaka/img/01.png"></a></h1>
+ 	<ul class="clearfix" id="h_menu">
+   <li><a href="http://yutakafoods.co.jp/サイトマップ/"><img src="http://yutakafoods.co.jp/wp-content/themes/yutaka/img/02.png"></a></li>
+    <li><a href="http://yutakafoods.co.jp/contact"><img src="http://yutakafoods.co.jp/wp-content/themes/yutaka/img/03.png"></a></li>
+    </ul>
+     <ul id="textsize" class="clearfix mod_headerbox_size">
+		<li><a href="javascript:void(0)" class="f1">小</a></li>
+		<li><a href="javascript:void(0)" class="f2">中</a></li>
+		<li><a href="javascript:void(0)" class="f3">大</a></li>
+	</ul>
+   
+</div>
+
+  <div style="clear:both"></div> 
+<div class="logo-smp">
+<h1><a href=""><img src="http://yutakafoods.co.jp/wp-content/themes/yutaka/img/01.png"></a></h1>
+</div>
+
+
+    
+   <div style="clear:both"></div> 
+    
+<!-- for smart phone -->
+		<div id="headerNav-sp">
+			<div class="logo-smp">
+      <ul>
+     <li><a href="http://yutakafoods.co.jp/company/">企業情報</a></li>
+     <li><a href="http://yutakafoods.co.jp/company#j">会社概要</a></li>
+     <li><a href="http://yutakafoods.co.jp/seihin">製品情報</a></li>
+     <li><a href="http://yutakafoods.co.jp/oem">OEM</a></li>
+     <li><a href="http://yutakafoods.co.jp/ir">IR情報</a></li>
+     <li><a href="http://yutakafoods.co.jp/saiyo">採用情報</a></li>
+    </ul>
+            </div>
+		</div><!-- /headerNav-sp -->
+	</div><!-- /header -->
+<div class="breadcrumbs">
+    </div>
+
+   <div class="wideslider" style="height:540px;">
+<ul>
+<li><a href="#1"><img src="http://yutakafoods.co.jp/wp-content/themes/yutaka/img/m_01.png"></a></li>
+<li><a href="#2"><img src="http://yutakafoods.co.jp/wp-content/themes/yutaka/img/m_02.png"></a></li>
+<li><a href="#3"><img src="http://yutakafoods.co.jp/wp-content/themes/yutaka/img/m_03.png"></a></li>
+<li><a href="#4"><img src="http://yutakafoods.co.jp/wp-content/themes/yutaka/img/m_04.png"></a></li>
+<li><a href="#5"><img src="http://yutakafoods.co.jp/wp-content/themes/yutaka/img/m_05.png"></a></li>
+<li><a href="#6"><img src="http://yutakafoods.co.jp/wp-content/themes/yutaka/img/m_07.png"></a></li>
+</ul>
+</div><!--/.wideslider-->
+
+<div id="wrapper" class="clearfix">
+<div id="headerNav">
+			<div id="access" role="navigation">
+				 <ul class="clearfix">
+                 <li><a href="http://yutakafoods.co.jp"><img src="http://yutakafoods.co.jp/wp-content/themes/yutaka/img/n_01.png"></a></li>
+                  <li><a href="http://yutakafoods.co.jp/company"><img src="http://yutakafoods.co.jp/wp-content/themes/yutaka/img/n_02.png"></a></li>
+                   <li><a href="http://yutakafoods.co.jp/company#j"><img src="http://yutakafoods.co.jp/wp-content/themes/yutaka/img/n_03.png"></a></li><li><a href="http://yutakafoods.co.jp/seihin"><img src="http://yutakafoods.co.jp/wp-content/themes/yutaka/img/n_04.png"></a></li>
+                     <li><a href="http://yutakafoods.co.jp/oem"><img src="http://yutakafoods.co.jp/wp-content/themes/yutaka/img/n_05.png"></a></li>
+                     <li><a href="http://yutakafoods.co.jp/ir"><img src="http://yutakafoods.co.jp/wp-content/themes/yutaka/img/n_07.png"></a></li>
+                      <li><a href="http://yutakafoods.co.jp/saiyo"><img src="http://yutakafoods.co.jp/wp-content/themes/yutaka/img/n_06.png"></a></li>
+                      <li style="background:none;"><form action="#" name="search4" method="post">
+	<dl class="search4">
+		<dt><input type="text" name="search" value="" /></dt>
+		<dd><button><img src="http://yutakafoods.co.jp/wp-content/themes/yutaka/img/search.jpg"/></button></dd>
+	</dl>
+</form></li>
+                 </ul>
+                 
+			</div><!-- #access -->
+		</div><!-- /headerNav -->
+	<div id="contents" class="clearfix">
+		<div id="left">
+        
+        
+          <div id="news">
+<h2><img src="http://yutakafoods.co.jp/wp-content/themes/yutaka/img/r_01.png"><span>新着情報</span></h2>
+<ul class="resizeArea">
+<a href="http://yutakafoods.co.jp/2017/08/10/%ef%bd%89%ef%bd%92%e6%83%85%e5%a0%b1%e3%81%ab%e3%80%81%e7%ac%ac%ef%bc%97%ef%bc%98%e6%9c%9f%e7%ac%ac%ef%bc%91%e5%9b%9b%e5%8d%8a%e6%9c%9f%e5%a0%b1%e5%91%8a%e6%9b%b8%e3%82%92%e6%8e%b2%e8%bc%89%e3%81%97/" title="ＩＲ情報に、第７８期第１四半期報告書を掲載しました">
+<li class="clearfix">
+<p><strong>2017/08/10</strong>
+<span class="s_text">ＩＲ情報に、第７８期第１四半期報告書を掲載しました</span></p></li></a>
+<a href="http://yutakafoods.co.jp/2017/07/31/%ef%bd%89%ef%bd%92%e6%83%85%e5%a0%b1%e3%81%ab%e3%80%81%e5%b9%b3%e6%88%90%ef%bc%93%ef%bc%90%e5%b9%b4%e7%ac%ac%ef%bc%91%e5%9b%9b%e5%8d%8a%e6%9c%9f%e6%b1%ba%e7%ae%97%e7%9f%ad%e4%bf%a1%e3%82%92%e6%8e%b2/" title="ＩＲ情報に、平成３０年第１四半期決算短信を掲載しました">
+<li class="clearfix">
+<p><strong>2017/07/31</strong>
+<span class="s_text">ＩＲ情報に、平成３０年第１四半期決算短信を掲載しました</span></p></li></a>
+<a href="http://yutakafoods.co.jp/2017/06/29/%ef%bd%89%ef%bd%92%e6%83%85%e5%a0%b1%e3%81%ab%e7%ac%ac%ef%bc%97%ef%bc%97%e6%9c%9f%e6%9c%89%e4%be%a1%e8%a8%bc%e5%88%b8%e5%a0%b1%e5%91%8a%e6%9b%b8%e4%bb%96%e3%82%92%e6%8e%b2%e8%bc%89%e3%81%97%e3%81%be/" title="ＩＲ情報に、第７７期有価証券報告書他を掲載しました">
+<li class="clearfix">
+<p><strong>2017/06/29</strong>
+<span class="s_text">ＩＲ情報に、第７７期有価証券報告書他を掲載しました</span></p></li></a>
+<a href="http://yutakafoods.co.jp/2017/06/14/ir%e6%83%85%e5%a0%b1%e3%81%ab%e3%80%81%e7%ac%ac77%e5%9b%9e%e5%ae%9a%e6%99%82%e6%a0%aa%e4%b8%bb%e7%b7%8f%e4%bc%9a%e3%81%ae%e6%8b%9b%e9%9b%86%e9%80%9a%e7%9f%a5%e3%82%92%e6%8e%b2%e8%bc%89%e3%81%97/" title="ＩＲ情報に、第77回定時株主総会の招集通知を掲載しました">
+<li class="clearfix">
+<p><strong>2017/06/14</strong>
+<span class="s_text">ＩＲ情報に、第77回定時株主総会の招集通知を掲載しました</span></p></li></a>
+<a href="http://yutakafoods.co.jp/2017/05/12/ir%e6%83%85%e5%a0%b1%e3%81%ab%e3%80%81%e5%b9%b3%e6%88%9029%e5%b9%b43%e6%9c%88%e6%9c%9f%e6%b1%ba%e7%ae%97%e7%9f%ad%e4%bf%a1%e4%bb%96%e3%82%92%e6%8e%b2%e8%bc%89%e3%81%97%e3%81%be%e3%81%97%e3%81%9f/" title="ＩＲ情報に、平成29年3月期決算短信他を掲載しました">
+<li class="clearfix">
+<p><strong>2017/05/12</strong>
+<span class="s_text">ＩＲ情報に、平成29年3月期決算短信他を掲載しました</span></p></li></a>
+</ul>
+
+ </div>        
+          
+        
+   <ul id="bnr_area" class="clearfix">
+   <li><a href="http://yutakafoods.co.jp/dasi/"><img src="http://yutakafoods.co.jp/wp-content/themes/yutaka/img/08.png"></a></li>
+   <li><a href="http://yutakafoods.co.jp/umagi/"><img src="http://yutakafoods.co.jp/wp-content/themes/yutaka/img/09.png"></a></li>
+   <li style="margin:0;"><a href="http://yutakafoods.co.jp/oem"><img src="http://yutakafoods.co.jp/wp-content/themes/yutaka/img/10.png"></a></li>
+   </ul>   
+      
+  
+   
+    <h2 style="margin-top:40px;"><img src="http://yutakafoods.co.jp/wp-content/themes/yutaka/img/r_001.jpg"></h2>
+     <div class="slider multiple-items">
+    
+            <li><a href="http://yutakafoods.co.jp/shop/archives/177" target="_blank"><img src="http://yutakafoods.co.jp/wp-content/themes/yutaka/img/s_01.png"></a></li>
+           <li><a href="http://yutakafoods.co.jp/shop/archives/482" target="_blank"><img src="http://yutakafoods.co.jp/wp-content/themes/yutaka/img/s_02.png"></a></li>
+            <li><a href="http://yutakafoods.co.jp/shop/archives/327" target="_blank"><img src="http://yutakafoods.co.jp/wp-content/themes/yutaka/img/s_03.png"></a></li>
+            <li><a href="http://yutakafoods.co.jp/shop/archives/287" target="_blank"><img src="http://yutakafoods.co.jp/wp-content/themes/yutaka/img/s_04.png"></a></li>
+            <li><a href="http://yutakafoods.co.jp/shop/archives/151" target="_blank"><img src="http://yutakafoods.co.jp/wp-content/themes/yutaka/img/s_05.png"></a></li>
+            <li><a href="http://yutakafoods.co.jp/shop/archives/212" target="_blank"><img src="http://yutakafoods.co.jp/wp-content/themes/yutaka/img/s_06.png"></a></li>
+            <li><a href="http://yutakafoods.co.jp/shop/archives/266" target="_blank"><img src="http://yutakafoods.co.jp/wp-content/themes/yutaka/img/s_07.png"></a></li>
+            <li><a href="http://yutakafoods.co.jp/shop/archives/207" target="_blank"><img src="http://yutakafoods.co.jp/wp-content/themes/yutaka/img/s_08.png"></a></li>
+            <li><a href="http://yutakafoods.co.jp/shop/archives/387" target="_blank"><img src="http://yutakafoods.co.jp/wp-content/themes/yutaka/img/s_09.png"></a></li>
+            <li><a href="http://yutakafoods.co.jp/shop/archives/270" target="_blank"><img src="http://yutakafoods.co.jp/wp-content/themes/yutaka/img/s_10.png"></a></li>
+          
+        </div>
+      
+      
+
+
+      
+      
+        </div><!-- /left-->
+      
+        
+<!-- sidebar.phpを出力 -->
+<link rel="stylesheet" href="style.css" type="text/css" />
+<!-- サイドバー -->
+        <ul id="right" style="margin-bottom:20px;">
+        <li><a href="http://yutakafoods.co.jp/shop/" target="_blank"><img src="http://yutakafoods.co.jp/wp-content/themes/yutaka/img/06.png" width="260"></a></li>
+
+<li class="blog">
+<h2 style="background:#900000; color:#fff; font-size:16px; padding:2px 5px; font-weight:normal;">催事スケジュール</h2>
+<ul class="blogArea" style="margin-bottom:20px;">
+<a href="http://yutakafoods.co.jp/2017/07/07/%e5%82%ac%e4%ba%8b%e6%83%85%e5%a0%b1%e3%80%80%e3%80%80%ef%bc%98%ef%bc%8f%ef%bc%92%ef%bc%93%ef%bd%9e%ef%bc%98%ef%bc%8f%ef%bc%92%ef%bc%99/" title="催事情報　８／２３～８／２９">
+<li class="clearfix" style="border-bottom:solid 1px #ddd; padding-bottom:5px; margin:10px 0;">
+<p>
+催事情報　８／２３～８／２９</p></li></a>
+<a href="http://yutakafoods.co.jp/2017/07/07/%e5%82%ac%e4%ba%8b%e6%83%85%e5%a0%b1%ef%bc%98%ef%bc%8f%ef%bc%91%ef%bc%96%ef%bd%9e%ef%bc%98%ef%bc%8f%ef%bc%92%ef%bc%92/" title="催事情報　８／１６～８／２２">
+<li class="clearfix" style="border-bottom:solid 1px #ddd; padding-bottom:5px; margin:10px 0;">
+<p>
+催事情報　８／１６～８／２２</p></li></a>
+<a href="http://yutakafoods.co.jp/2017/07/07/%e5%82%ac%e4%ba%8b%e6%83%85%e5%a0%b1%e3%80%80%ef%bc%98%ef%bc%8f%ef%bc%99%ef%bd%9e%ef%bc%98%ef%bc%8f%ef%bc%91%ef%bc%95/" title="催事情報　８／９～８／１５">
+<li class="clearfix" style="border-bottom:solid 1px #ddd; padding-bottom:5px; margin:10px 0;">
+<p>
+催事情報　８／９～８／１５</p></li></a>
+<a href="http://yutakafoods.co.jp/2017/07/07/%e5%82%ac%e4%ba%8b%e6%83%85%e5%a0%b1%e3%80%80%ef%bc%98%ef%bc%8f%ef%bc%92%ef%bd%9e%ef%bc%98%ef%bc%8f%ef%bc%98/" title="催事情報　８／２～８／８">
+<li class="clearfix" style="border-bottom:solid 1px #ddd; padding-bottom:5px; margin:10px 0;">
+<p>
+催事情報　８／２～８／８</p></li></a>
+<a href="http://yutakafoods.co.jp/2017/07/07/%e5%82%ac%e4%ba%8b%e6%83%85%e5%a0%b1%e3%80%80%ef%bc%97%ef%bc%8f%ef%bc%92%ef%bc%96%ef%bd%9e%ef%bc%98%ef%bc%8f%ef%bc%91/" title="催事情報　７／２６～８／１">
+<li class="clearfix" style="border-bottom:solid 1px #ddd; padding-bottom:5px; margin:10px 0;">
+<p>
+催事情報　７／２６～８／１</p></li></a>
+</ul>
+    
+</li>
+
+
+
+
+
+		<li style="text-align:center;"><iframe src="//www.facebook.com/plugins/likebox.php?href=https://m.facebook.com/yutakafoods.face/width=251&amp;height=550&amp;colorscheme=light&amp;show_faces=true&amp;header=true&amp;stream=true&amp;show_border=true" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowTransparency="true"></iframe></li>
+        <li><a href="http://yutakafoods.co.jp/contact"><img src="http://yutakafoods.co.jp/wp-content/themes/yutaka/img/07.png" width="260"></a></li>
+        
+        
+ </ul><!-- /sub -->
+    <!-- WP:ガジェットを出力する -->
+    
+<!-- footer.phpを出力 -->
+ <!-- フッター -->
+<!-- /div#wrap -->
+</div></div>
+
+<div id="footer">
+<ul>
+<li><a href="http://yutakafoods.co.jp">HOME</a>　|　</li>
+<li><a href="http://yutakafoods.co.jp/company">企業情報</a>　|　</li>
+<li><a href="http://yutakafoods.co.jp/company#j">会社概要</a>　|　</li>
+<li><a href="http://yutakafoods.co.jp/seihin">製品情報</a>　|　</li>
+<li><a href="http://yutakafoods.co.jp/oem">OEM( 受託製造）</a>　|　</li>
+<li><a href="http://yutakafoods.co.jp/ir">IR情報</a>　|　</li>
+<li><a href="http://yutakafoods.co.jp/saiyo">採用情報</a>　|　</li>
+<li><a href="http://yutakafoods.co.jp/kojin">個人情報のお取扱いについて</a>　|　</li>
+<li><a href="http://yutakafoods.co.jp/tokutei">特定商取引法に基づく表記</a></li>
+</ul>
+<div class="copyright">〒470-2395　愛知県知多郡武豊町字川脇34番地の1　TEL：0569-72-1231(代表)　受付時間　9：00～17：00（土、日、祝日は除く）
+</div>
+  
+</div>
+
+<p id="page-top"><a href="#wrap">PAGE TOP</a></p>
+</div>
+
+
+
+
+<!-- WP：プラグインごとの設定をフッターに出力する -->
+
+</body></html>

@@ -1,0 +1,1894 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>パソコン・自作パソコンとPCパーツの通販 アプライドネット</title>
+<meta name="description" content="パソコンはもちろん、アプライドオリジナルのBTO、ゲームPCやビジネスPCもあります。自作用のPCパーツも低価格で数多く揃えています。アプライド激安オンラインショップ。">
+<link rel="alternate" href="http://shop.applied-net.co.jp/mobile/" media="handheld">
+<meta name="google-site-verification" content="A0MSR1rjjPzIqHCWnMWmwAOp9qwg952PjS7IDSjTCWs">
+<meta name="msvalidate.01" content="7FBBE95307CEB326629CD2EC880EAFC0" />
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" >
+
+<link rel="canonical" href="http://shop.applied-net.co.jp/">
+<link rel="alternate" media="only screen and (max-width: 640px)" href="http://shop.applied-net.co.jp/smartphone/">
+<meta http-equiv="Content-Language" content="ja">
+<meta http-equiv="Content-Type" content="text/html; charset=EUC-JP">
+<link rel="stylesheet" href="/design/applied/m_sys_common.css?1503299330" type="text/css" />
+<link rel="stylesheet" href="/css/shop/import.css" type="text/css">
+<script language=JavaScript src="/html/script.js"></script>
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-38338473-2', 'auto', {'allowLinker': true});
+ga('require', 'linker');
+ga('linker:autoLink', ['www.makeshop.jp']);
+ga('require', 'displayfeatures');
+
+ga('send', 'pageview');
+
+</script>
+<script language="JavaScript">
+function notice(temp,temp2) {
+    window.open("/html/notice.html?date="+temp+"&db="+temp2,"","width=450,height=450,scrollbars=yes");
+}
+function info(temp,temp2) {
+    window.open("/html/information.html?date="+temp+"&db="+temp2,"","width=620,height=500,scrollbars=yes");
+}
+</script>
+<meta name="Keywords" content="アプライド,アプライドネット,パソコン,自作パソコン,PCパーツ,ゲームPC,BTO,通販">
+<meta property="og:site_name" content="パソコン・自作パソコンとPCパーツの通販｜アプライドネット">
+
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+
+<link rel="alternate" type="application/rss+xml" href="http://shop.applied-net.co.jp/RSS/brand_rss.html" title="RSS2.0">
+<link rel="alternate" type="application/rss+xml" href="http://shop.applied-net.co.jp/RSS/notice_rss.html" title="RSS2.0">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script type="text/javascript" src="http://gigaplus.makeshop.jp/applied/js/border-radius.js"></script>
+
+<script type="text/javascript">
+<!--
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.7";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+-->
+</script>
+
+
+<!-- アプネットTOPページ スライドショー -->
+<script type="text/javascript" src="http://gigaplus.makeshop.jp/applied/js/jquery.bxslider.js"></script>
+<script type="text/javascript">
+<!--
+    $(function() {
+        $('.bxslider').bxSlider({
+            auto: true,
+            autoHover: true,
+            pause: 5000,
+            speed: 800,
+            controls: false,
+            captions: false,
+            mode: 'horizontal',
+            pagerCustom: '#bx-pager'
+            // buildPager: function(slideIndex){
+            //  switch(slideIndex){
+            //      case 0:
+            //      return '<img src="http://gigaplus.makeshop.jp/applied/images/common/top_img/115x60_ffxiv.png">';
+            //      case 1:
+            //      return '<img src="http://gigaplus.makeshop.jp/applied/images/common/top_img/115x60_msi_001.png">';
+            //      case 2:
+            //      return '<img src="http://gigaplus.makeshop.jp/applied/images/common/top_img/115x60_wot.png">';
+            //      case 3:
+            //      return '<img src="http://gigaplus.makeshop.jp/applied/images/common/top_img/115x60_sale_2017_06.png">';
+            //      case 4:
+            //      return '<img src="http://gigaplus.makeshop.jp/applied/images/common/top_img/115x60_sale_secret.png">';
+            //      case 5:
+            //      return '<img src="http://gigaplus.makeshop.jp/applied/images/common/top_img/115x60_gow4.png">';
+            //      }
+            //  }
+        });
+
+        // PC表示 左ナビのカテゴリの空き調整
+        var findCatname = $("#l_category td a font:contains('■ ')").closest("td");
+        findCatname.addClass("catName");
+        findCatname.children("img").addClass("disHid");
+
+    });
+-->
+</script>
+
+<!-- アプネットTOPページ スライドショー ここまで -->
+
+<!-- アプネット スムーススクロール -->
+<script type="text/javascript">
+<!--
+    //スムーズスクロール
+    jQuery(function(){
+       // #で始まるアンカーをクリックした場合に処理
+       jQuery('a[href^=#]').click(function() {
+        // スクロールの速度
+        var speed = 400; // ミリ秒
+        // アンカーの値取得
+        var href= jQuery(this).attr("href");
+        // 移動先を取得
+        var target = jQuery(href == "#" || href == "" ? 'html' : href);
+        // 移動先を数値で取得
+        var position = target.offset().top;
+        // スムーススクロール
+        jQuery('body,html').animate({scrollTop:position}, speed, 'swing');
+        return false;
+       });
+    });
+-->
+</script>
+<!-- アプネット スムーススクロール ここまで -->
+
+<!-- アプネットヘッダー 固定表示 -->
+<script type="text/javascript">
+<!--
+jQuery(function($) {
+    var nav = $('#ngNav'),
+    offset = nav.offset();
+    $(window).scroll(function () {
+      if($(window).scrollTop() > offset.top) {
+        nav.addClass('fixed');
+      } else {
+        nav.removeClass('fixed');
+      }
+    });
+});
+-->
+</script>
+<!-- アプネットヘッダー 固定表示 ここまで -->
+
+<!-- User Heat Tag -->
+<script type="text/javascript">
+<!--
+(function(add, cla){window['UserHeatTag']=cla;window[cla]=window[cla]||function(){(window[cla].q=window[cla].q||[]).push(arguments)},window[cla].l=1*new Date();var ul=document.createElement('script');var tag = document.getElementsByTagName('script')[0];ul.async=1;ul.src=add;tag.parentNode.insertBefore(ul,tag);})('//uh.nakanohito.jp/uhj2/uh.js', '_uhtracker');_uhtracker({id:'uhpiiA9GhN'});
+-->
+</script>
+<!-- End User Heat Tag -->
+
+<!-- ティッカー 閉じるボタン クッキーで制御 -->
+<script type="text/javascript" src="http://gigaplus.makeshop.jp/applied/js/jquery.cookie-1.4.1.min.js"></script>
+<script type="text/javascript">
+<!--
+$(function () {
+  //cookieの値がonじゃなかったら表示させる
+  if ($.cookie('bnrRead_sale_002') != 'on') {
+    $('#bottom_nav').append('<div class="bottom_nav__img"><div><div class="timer_img_001"><a href="http://times.applied-net.jp/premium2017"><img src="https://gigaplus.makeshop.jp/applied/images/common/sale/tenpo_premium_960.jpg" width="960" height="121"><\/a><div><a href="http://times.applied-net.jp/premium2017"><\/a><\/div><\/div><div id="bottom_button"><div id="bottom_bnr"><button id="bottom_btn"><img width="24" height="24" src="http://gigaplus.makeshop.jp/applied/images/common/sale/bottom_24x24.gif" alt="閉じるボタン"><\/button><\/div><\/div><\/div><\/div>');
+  }
+  //隠すボタンをクリックしたらバナーを隠す
+  $('#bottom_btn').click(function() {
+    $('#bottom_nav').hide();
+    $.cookie('bnrRead_sale_002', 'on', { //cookieにbnrRead_sale_002という名前でonという値をセット
+        expires: 7, //cookieの有効日数
+        path:'/' //有効にするパス
+      });
+    });
+  //cookieを削除する
+  $('#del').click(function(){
+    $.removeCookie('bnrRead_sale_002' , { //bnrRead_sale_002を削除
+      path:'/' //有効にするパス
+    });
+  });
+});
+-->
+</script>
+<!-- ティッカー 閉じるボタン クッキーで制御 ここまで -->
+
+
+<script type="text/javascript">
+<!--
+  $(function() {
+    countDown();
+  });
+  function countDown() {
+  var startDateTime = new Date();
+  var endDateTime = new Date("September 4,2017 10:00:00");
+  var left = endDateTime - startDateTime;
+  var a_day = 24 * 60 * 60 * 1000;
+
+// 期限から現在までの『残時間の日の部分』
+  var d = Math.floor(left / a_day) 
+
+// 期限から現在までの『残時間の時間の部分』
+  var h = Math.floor((left % a_day) / (60 * 60 * 1000)) 
+
+// 残時間を秒で割って残分数を出す。
+// 残分数を60で割ることで、残時間の「時」の余りとして、『残時間の分の部分』を出す
+  var m = Math.floor((left % a_day) / (60 * 1000)) % 60 
+
+// 残時間をミリ秒で割って、残秒数を出す。
+// 残秒数を60で割った余りとして、「秒」の余りとしての残「ミリ秒」を出す。
+// 更にそれを60で割った余りとして、「分」で割った余りとしての『残時間の秒の部分』を出す
+  var s = Math.floor((left % a_day) / 1000) % 60 % 60 
+
+  $(".TimeLeft").html(' <span>' + d + '<\/span>日 と <span>' + h + '<\/span>時間 <span>' + m + '<\/span>分 <span>' + s + '<\/span>秒！');
+    setTimeout('countDown()', 1000);
+  }
+-->
+</script></head>
+<body bgcolor=#999999 topmargin=0 leftmargin=0 marginheight=0 marginwidth=0>
+
+
+
+
+<form name="all_view_top" method="post" action="/shop/shopbrand.html" style="margin: 0;padding: 0;">
+<input type="hidden" name="search" value="">
+</form>
+
+<div id="wrap">
+<div id="headerWrap">
+
+<!--  新しいヘッダー 2017.05.19  -->
+<div id="nHeader">
+  <div class="nHeader_top clear">
+    <div class="nLogo clear">
+      <a href="/"><img src="http://gigaplus.makeshop.jp/applied/images/common/header/logo.png" alt="アプライドネット ロゴ" width="250" height="40"></a>
+      <img src="http://gigaplus.makeshop.jp/applied/images/common/header/jasdaq_logo.png" alt="JASDAQ 3020" width="85" height="30">
+      <p>約半世紀の伝統を誇る<br>パソコン専門店アプライド<br>激安オンラインショップ</p>
+    </div>
+    <div class="nText">
+      <div class="nText01">
+        <p>一万円以上で送料無料！</p>
+        <p>各社カードご利用いただけます。</p>
+      </div>
+      <div class="nText02">
+        <table>
+          <tbody>
+            <tr class="nText02-01">
+              <td><a href="http://shop.applied-net.co.jp/html/company.html"><img alt="このショップについてのアイコン" src="http://gigaplus.makeshop.jp/applied/images/common/header/icon_shop.png">このショップについて</a></td>
+              <td><a href="/html/info.html"><img alt="ご利用ガイドのアイコン" src="http://gigaplus.makeshop.jp/applied/images/common/header/icon_guide.png">ご利用ガイド</a></td>
+            </tr>
+            <tr class="nText02-02">
+              <td><a href="javascript:ssl_login('member')"><img alt="新規会員登録のアイコン" src="http://gigaplus.makeshop.jp/applied/images/common/header/icon_member.png">新規会員登録</a></td>
+              <td><a href="https://www.makeshop.jp/ssl/popup_mailmagazine.html?db=applied"><img alt="メルマガ登録のアイコン" src="http://gigaplus.makeshop.jp/applied/images/common/header/icon_mail.png">メルマガ登録</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="nHeader_center">
+      <div class="nLogin">
+        <table>
+          <tbody>
+            <tr>
+              <td><img alt="ログインのアイコン" src="http://gigaplus.makeshop.jp/applied/images/common/header/icon_login.png"><a href=javascript:ssl_login('login') class="M_loginBtn">ログイン</a></td>
+            </tr>
+            <tr>
+              <td><a href="javascript:ssl_login('reserve')"><img alt="ポイントのアイコン" src="http://gigaplus.makeshop.jp/applied/images/common/header/icon_member.png">会員情報確認・変更</a></td>
+            </tr>
+            
+          </tbody>
+        </table>
+      </div>
+      <div>
+        <div class="nCart">            <div class="M_headBasket" id="M_basketTemp1">
+                <div id="M_headBasketSwitch" onmouseover='javascript:MakeShop_toggleBasketBox(true)' onmouseout='javascript:MakeShop_toggleBasketBox(false)'>
+                    <div id="M_basketClosedBox">
+                        <a href="/shop/basket.html"  id="M_basket">
+                        <div class="M_basketMarginBox">買い物かご</div>
+                        </a>
+                    </div>
+                    <div id="M_basketOpenedBox">
+
+                        <div class="M_basketMarginBox">
+                        <table>
+                           <tr id="last-child"><td colspan="3">カートに商品がありません。</td></tr>
+                         </table>
+                        </div>
+
+                    </div>
+                </div>
+                <p id="M_headBasketIn">現在の中身：<em>0点</em></p>
+            </div>
+            <script>
+            function MakeShop_toggleBasketBox(type){
+                document.getElementById('M_basketOpenedBox').style.display = type ? 'block' : 'none';
+            }
+            </script></div>
+      </div>
+    </div>
+    <div class="nContact">
+      <a href="JavaScript:top_sendmail()"><span>個人のお客様の</span><span>問い合わせ</span></a>
+      <a href="javascript:void(0);" onclick="window.open('https://www.makeshop.jp/ssl/enquete/index.html?db=applied&form_code=201608180', '', 'width=720,height=800,scrollbars=1');"><span>法人のお客様の</span><span>問い合わせ</span></a>
+    </div>
+    <div class="nGroups">
+      <a href="http://www.applied-g.jp/" target="_blank"><span>アプライド</span><span>会社情報</span></a>
+      <a href="http://times.applied-net.jp/index.html#chapter-4" target="_blank"><span>アプライド</span><span>店舗情報</span></a>
+    </div>
+  </div>
+  <div id="ngNav">
+    <div>
+      <ul class="gNav_ul clear">
+        <li class="gNav_li01">
+          <p>お買い得商品</p>
+          <div>
+          <ul>
+            <!-- <li><a href="http://shop.applied-net.co.jp/shopbrand/ct1819">情熱！プレミアムウィーク！</a></li> -->
+            <li><a href="http://shop.applied-net.co.jp/shopbrand/027/O/">早い者勝ちの大特価市！</a></li>
+            <!-- <li><a href="http://shop.applied-net.co.jp/shopbrand/ct1822">超特価サマーセール！！</a></li> -->
+          </ul>
+          </div>
+        </li>
+        <li class="gNav_li02">
+          <p>特集一覧</p>
+          <div>
+          <ul>
+            <li><a href="http://shop.applied-net.co.jp/html/page157.html#campaign">キャンペーン</a></li>
+            <li><a href="http://shop.applied-net.co.jp/html/page157.html#feature">特集</a></li>
+            <li><a href="http://shop.applied-net.co.jp/html/page152.html">コラム</a></li>
+          </ul>
+          </div>
+        </li>
+        <li class="gNav_li03">
+          <p>BTOパソコン</p>
+          <div>
+            <ul>
+              <li><a href="http://shop.applied-net.co.jp/shopbrand/ct1832/">★ NEW BTOパソコン ★ カスタマイズ可能モデル</a></li>
+              <li><a href="http://shop.applied-net.co.jp/html/page147.html">BTOパソコン ビジネスモデル</a></li>
+              <li><a href="http://shop.applied-net.co.jp/html/page147.html#btoTower">タワーモデル</a></li>
+              <li><a href="http://shop.applied-net.co.jp/html/page147.html#btoSlimTower">スリムタワーモデル</a></li>
+              <li><a href="http://shop.applied-net.co.jp/html/page147.html#btoMini">ミニPCモデル</a></li>
+              <li><a href="http://shop.applied-net.co.jp/html/page147.html#btoWin7">Win7搭載スリムタワーモデル</a></li>
+              <li><a href="http://shop.applied-net.co.jp/html/page147.html#btoGaming">BTOパソコン ゲーミングモデル</a></li>
+              <li><a href="http://shop.applied-net.co.jp/html/page153.html">Final Fantasy 14 推奨モデル</a></li>
+              <li><a href="http://shop.applied-net.co.jp/html/page154.html">Gears of War 4 推奨モデル</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="gNav_li04">
+          <p>パソコン本体</p>
+          <div>
+            <ul>
+              <li><a href="http://shop.applied-net.co.jp/shopbrand/ct1263/">パソコン本体</a></li>
+              <li><a href="http://shop.applied-net.co.jp/shopbrand/ct1270/">ノートパソコン</a></li>
+              <li><a href="http://shop.applied-net.co.jp/shopbrand/ct1271/">デスクトップパソコン</a></li>
+              <li><a href="http://shop.applied-net.co.jp/shopbrand/ct1272/">タブレットPC</a></li>
+              <li><a href="http://shop.applied-net.co.jp/shopbrand/ct1763/">アプライドオリジナルパソコン</a></li>
+              <li><a href="http://shop.applied-net.co.jp/html/page149.html">MSI ゲーミングパソコン</a></li>
+              <li><a href="http://shop.applied-net.co.jp/html/page155.html">World of Tanks 推奨モデル</a></li>
+              <!--<li><a href="http://shop.applied-net.co.jp/shopbrand/ct1762/">SSDキッティングモデル</a></li>-->
+            </ul>
+          </div>
+        </li>
+        <li class="gNav_li05">
+          <p>PCパーツ</p>
+          <div>
+            <ul>
+              <li><a href="http://shop.applied-net.co.jp/shopbrand/ct1265/">PCパーツ</a></li>
+              <li><a href="http://shop.applied-net.co.jp/shopbrand/ct1408/">CPU</a></li>
+              <li><a href="http://shop.applied-net.co.jp/shopbrand/ct1694/">マザーボード</a></li>
+              <li><a href="http://shop.applied-net.co.jp/shopbrand/ct1409/">メモリ</a></li>
+              <li><a href="http://shop.applied-net.co.jp/shopbrand/ct1410/">ストレージ</a></li>
+              <li><a href="http://shop.applied-net.co.jp/shopbrand/ct1411/">グラフィックカード</a></li>
+              <li><a href="http://shop.applied-net.co.jp/shopbrand/ct1412/">インターフェース</a></li>
+              <li><a href="http://shop.applied-net.co.jp/shopbrand/ct1413/">パーツサプライ</a></li>
+              <li><a href="http://shop.applied-net.co.jp/shopbrand/ct1415/">PCケース</a></li>
+              <li><a href="http://shop.applied-net.co.jp/shopbrand/ct1548/">DSP版 Windows</a></li>
+              <li><a href="http://shop.applied-net.co.jp/shopbrand/ct1554/">光学ドライブ</a></li>
+              <li><a href="http://shop.applied-net.co.jp/shopbrand/ct1687/">電源ユニット</a></li>
+              <li><a href="http://shop.applied-net.co.jp/shopbrand/ct1729/">ベアボーン</a></li>
+              <li><a href="http://shop.applied-net.co.jp/shopbrand/ct1780/">その他</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="gNav_li06">
+          <p>周辺機器</p>
+          <div>
+            <ul>
+              <li><a href="http://shop.applied-net.co.jp/shopbrand/ct1264/">周辺機器</a></li>
+              <li><a href="http://shop.applied-net.co.jp/shopbrand/ct1748/">ネットワーク機器</a></li>
+              <li><a href="http://shop.applied-net.co.jp/shopbrand/ct1749/">モニター</a></li>
+              <li><a href="http://shop.applied-net.co.jp/shopbrand/ct1750/">外付けHDD・SSD</a></li>
+              <li><a href="http://shop.applied-net.co.jp/shopbrand/ct1751/">プリンタ・複合機</a></li>
+              <li><a href="http://shop.applied-net.co.jp/shopbrand/ct1752/">スキャナー</a></li>
+              <li><a href="http://shop.applied-net.co.jp/shopbrand/ct1761/">UPS</a></li>
+              <li><a href="http://shop.applied-net.co.jp/shopbrand/ct1779/">NAS</a></li>
+              <li><a href="http://shop.applied-net.co.jp/shopbrand/ct1795/">スマホ・モバイル用周辺機器</a></li>
+              <li><a href="http://shop.applied-net.co.jp/shopbrand/ct1753/">その他</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="gNav_li07">
+          <p>家電・家具</p>
+          <div>
+            <ul>
+              <li><a href="http://shop.applied-net.co.jp/shopbrand/ct1754/">家電</a></li>
+              <li><a href="http://shop.applied-net.co.jp/shopbrand/ct1755/">映像・音響機器</a></li>
+              <li><a href="http://shop.applied-net.co.jp/shopbrand/ct1756/">生活家電・生活雑貨</a></li>
+              <li><a href="http://shop.applied-net.co.jp/shopbrand/ct1778/">カメラ関連</a></li>
+              <li><a href="http://shop.applied-net.co.jp/shopbrand/ct1827/">インテリア・家具</a></li>
+              <li><a href="http://shop.applied-net.co.jp/shopbrand/ct1828/">オフィスチェア</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="gNav_li08">
+          <p>教育</p>
+          <div>
+            <ul>
+              <li><a href="http://shop.applied-net.co.jp/shop/shopdetail.html?brandcode=000000207290&search=block&sort=">Airblock　プログラミング可能　教育用モジュールキット</a></li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!--  新しいヘッダー 終わり  -->
+<!-- <div style="margin: 8px 0;border: solid 1px #a00000;">
+  <div style="width: 100%;text-align: center;color: #fff;background-color: #ba0000;">夏季休業のお知らせ</div>
+  <div style="width: 100%;text-align: center;">誠に勝手ながら8月11日〜15日を休業日、16日を配送のみ休業日とさせていただきます。一部商品のみ16日から出荷を開始致します。<br>何卒ご理解くださいますよう、よろしくお願い申し上げます。</div>
+</div> -->
+
+<!--//headerWrap--></div>
+
+
+<div id="wrapper">
+
+        <!--[ TOPIMAGE]--><script language="JavaScript">
+function top_check_log() {
+    alert('ログインはSSL対応のログイン画面から行う必要があります。\nログイン画面へ移動します。');
+    ssl_login('login', undefined, document.top_form_log.id.value);
+}
+
+function MakeShop_TopSearch(e, id) {
+    if(e.type == 'keydown' && e.keyCode != 13){
+        return;
+    }
+
+    if (!document.getElementById(id)) {
+        return;
+    }
+
+    document.all_view_top.search.value = document.getElementById(id).value;
+    document.all_view_top.submit();
+}
+</script>
+
+<script>
+function estimate() {
+}
+function check_log() {
+    alert('ログインはSSL対応のログイン画面から行う必要があります。\nログイン画面へ移動します。');
+    ssl_login('login', undefined, document.search.id.value);
+}
+function CheckKey_log() {
+    key=event.keyCode;
+    if (key==13) {
+        check_log()
+    }
+}
+function CheckKey_search()
+{
+    key=event.keyCode;
+    if (key==13) {
+        document.search.submit();
+    }
+}
+function Search(){
+    if (document.search.id || document.search.passwd){
+        document.search.id.value = '';
+        document.search.passwd.value = '';
+    }
+    document.search.submit();
+}
+</script>
+
+<table border=0 cellspacing=0 cellpadding=0 width=770 id=makebanner>
+<tr>
+
+<form action="/shop/shopbrand.html" method=post name=search>
+<td valign=top width=150 height=100%>
+<style type="text/css">
+	<!--
+	  .crr{clear:both;/*padding-top:5px;*/}
+	  .crr1{clear:both;margin-top:10px;}
+	  .inner{padding-left:5px;padding-top:15px;font-size:14px;}
+	  #leftContents img{margin-top:10px;margin-bottom:0;}
+	-->
+</style>
+<div id="leftContents">
+	<div class="section" id="l_search">
+		<h2><img src="/images/original_design_default/samplesource/7/l_searchTitle.png" alt="商品検索"></h2>
+		<div class="clear"> <input name="search" size="20" onkeydown="CheckKey_search()" class="search_input"> <a href="JavaScript:Search();" class="keywordSearch">検索する</a> </div>
+		<p class="detailSearch">カテゴリ、価格帯などの複数の条件で絞り込みをされたい方は<a href="http://shop.applied-net.co.jp/shop/shopbrand.html?search=&sort=price&money1=0&money2=&prize1=&company1=&content1=&originalcode1=&category=&subcategory=">こちら</a>からどうぞ。</p>
+	</div>
+	<div class="section" id="l_category">
+		<h2><img src="/images/original_design_default/samplesource/7/l_categoryTitle.png" alt="カテゴリー"></h2>
+		<div class="inner"> <table border=0 cellpadding=0 cellspacing=0 width=150>
+<tr height=8><td width=8></td><td width=134></td><td width=8></td></tr>
+<tr><td></td><td> <img src="/images/250/leftdot.gif" align=absmiddle> <a href="/shopbrand/ct1834/" onMouseOver="window.status='/shopbrand/ct1834/';return true;"><font class=leftbrand>■ 特集別</a></td>
+    <td></td></tr>
+<tr height=3><td colspan=3></td></tr>
+<tr height=3><td colspan=3></td></tr>
+<tr><td></td><td> <img src="/images/250/leftdot.gif" align=absmiddle> <a href="/shopbrand/ct1832/" onMouseOver="window.status='/shopbrand/ct1832/';return true;"><font class=leftbrand>アプライド BTOパソコン</a></td>
+    <td></td></tr>
+<tr height=3><td colspan=3></td></tr>
+<tr height=3><td colspan=3></td></tr>
+<tr><td></td><td> <img src="/images/250/leftdot.gif" align=absmiddle> <a href="/shopbrand/027/O/" onMouseOver="window.status='/shopbrand/027/O/';return true;"><font class=leftbrand>早い者勝ちの大特価市！</a></td>
+    <td></td></tr>
+<tr height=3><td colspan=3></td></tr>
+<tr height=3><td colspan=3></td></tr>
+<tr><td></td><td> <img src="/images/250/leftdot.gif" align=absmiddle> <a href="/shopbrand/ct8000/" onMouseOver="window.status='/shopbrand/ct8000/';return true;"><font class=leftbrand>今週のメルマガ商品</a></td>
+    <td></td></tr>
+<tr height=3><td colspan=3></td></tr>
+<tr height=3><td colspan=3></td></tr>
+<tr><td></td><td> <img src="/images/250/leftdot.gif" align=absmiddle> <a href="/shopbrand/ct9000/" onMouseOver="window.status='/shopbrand/ct9000/';return true;"><font class=leftbrand>レッツノート特集！</a></td>
+    <td></td></tr>
+<tr height=3><td colspan=3></td></tr>
+<tr height=3><td colspan=3></td></tr>
+<tr><td></td><td> <img src="/images/250/leftdot.gif" align=absmiddle> <a href="/shopbrand/ct1800/" onMouseOver="window.status='/shopbrand/ct1800/';return true;"><font class=leftbrand>ドローン本体・付属品</a></td>
+    <td></td></tr>
+<tr height=3><td colspan=3></td></tr>
+<tr height=3><td colspan=3></td></tr>
+<tr><td></td><td> <img src="/images/250/leftdot.gif" align=absmiddle> <a href="/shopbrand/ct1617/" onMouseOver="window.status='/shopbrand/ct1617/';return true;"><font class=leftbrand>高性能ノートパソコン</a></td>
+    <td></td></tr>
+<tr height=3><td colspan=3></td></tr>
+<tr height=3><td colspan=3></td></tr>
+<tr><td></td><td> <img src="/images/250/leftdot.gif" align=absmiddle> <a href="/shopbrand/ct1784/" onMouseOver="window.status='/shopbrand/ct1784/';return true;"><font class=leftbrand>ゲーミングデバイス</a></td>
+    <td></td></tr>
+<tr height=3><td colspan=3></td></tr>
+<tr height=3><td colspan=3></td></tr>
+<tr><td></td><td> <img src="/images/250/leftdot.gif" align=absmiddle> <a href="/shopbrand/ct1835/" onMouseOver="window.status='/shopbrand/ct1835/';return true;"><font class=leftbrand>■ 種別</a></td>
+    <td></td></tr>
+<tr height=3><td colspan=3></td></tr>
+<tr height=3><td colspan=3></td></tr>
+<tr><td></td><td> <img src="/images/250/leftdot.gif" align=absmiddle> <a href="/shopbrand/ct1263/" onMouseOver="window.status='/shopbrand/ct1263/';return true;"><font class=leftbrand>パソコン</a></td>
+    <td></td></tr>
+<tr height=3><td colspan=3></td></tr>
+<tr height=3><td colspan=3></td></tr>
+<tr><td></td><td> <img src="/images/250/leftdot.gif" align=absmiddle> <a href="/shopbrand/ct1265/" onMouseOver="window.status='/shopbrand/ct1265/';return true;"><font class=leftbrand>PCパーツ</a></td>
+    <td></td></tr>
+<tr height=3><td colspan=3></td></tr>
+<tr height=3><td colspan=3></td></tr>
+<tr><td></td><td> <img src="/images/250/leftdot.gif" align=absmiddle> <a href="/shopbrand/010/X/" onMouseOver="window.status='/shopbrand/010/X/';return true;"><font class=leftbrand>中古</a></td>
+    <td></td></tr>
+<tr height=3><td colspan=3></td></tr>
+<tr height=3><td colspan=3></td></tr>
+<tr><td></td><td> <img src="/images/250/leftdot.gif" align=absmiddle> <a href="/shopbrand/ct1754/" onMouseOver="window.status='/shopbrand/ct1754/';return true;"><font class=leftbrand>家電</a></td>
+    <td></td></tr>
+<tr height=3><td colspan=3></td></tr>
+<tr height=3><td colspan=3></td></tr>
+<tr><td></td><td> <img src="/images/250/leftdot.gif" align=absmiddle> <a href="/shopbrand/ct1264/" onMouseOver="window.status='/shopbrand/ct1264/';return true;"><font class=leftbrand>周辺機器</a></td>
+    <td></td></tr>
+<tr height=3><td colspan=3></td></tr>
+<tr height=3><td colspan=3></td></tr>
+<tr><td></td><td> <img src="/images/250/leftdot.gif" align=absmiddle> <a href="/shopbrand/ct1827/" onMouseOver="window.status='/shopbrand/ct1827/';return true;"><font class=leftbrand>インテリア・家具</a></td>
+    <td></td></tr>
+<tr height=3><td colspan=3></td></tr>
+<tr height=3><td colspan=3></td></tr>
+<tr><td></td><td> <img src="/images/250/leftdot.gif" align=absmiddle> <a href="/shopbrand/ct1369/" onMouseOver="window.status='/shopbrand/ct1369/';return true;"><font class=leftbrand>サプライ</a></td>
+    <td></td></tr>
+<tr height=3><td colspan=3></td></tr>
+<tr height=3><td colspan=3></td></tr>
+<tr><td></td><td> <img src="/images/250/leftdot.gif" align=absmiddle> <a href="/shopbrand/ct1268/" onMouseOver="window.status='/shopbrand/ct1268/';return true;"><font class=leftbrand>ソフトウエア</a></td>
+    <td></td></tr>
+<tr height=3><td colspan=3></td></tr>
+<tr height=3><td colspan=3></td></tr>
+<tr><td></td><td> <img src="/images/250/leftdot.gif" align=absmiddle> <a href="/shopbrand/ct1760/" onMouseOver="window.status='/shopbrand/ct1760/';return true;"><font class=leftbrand>雑貨</a></td>
+    <td></td></tr>
+<tr height=3><td colspan=3></td></tr>
+<tr height=3><td colspan=3></td></tr>
+<tr><td></td><td> <img src="/images/250/leftdot.gif" align=absmiddle> <a href="/shopbrand/ct1758/" onMouseOver="window.status='/shopbrand/ct1758/';return true;"><font class=leftbrand>その他</a></td>
+    <td></td></tr>
+<tr height=3><td colspan=3></td></tr>
+<tr height=3><td colspan=3></td></tr>
+<tr><td></td><td> <img src="/images/250/leftdot.gif" align=absmiddle> <a href="/shopbrand/ct1836/" onMouseOver="window.status='/shopbrand/ct1836/';return true;"><font class=leftbrand>■ メーカー別</a></td>
+    <td></td></tr>
+<tr height=3><td colspan=3></td></tr>
+<tr height=3><td colspan=3></td></tr>
+<tr><td></td><td> <img src="/images/250/leftdot.gif" align=absmiddle> <a href="/shopbrand/ct1824/" onMouseOver="window.status='/shopbrand/ct1824/';return true;"><font class=leftbrand>Apple</a></td>
+    <td></td></tr>
+<tr height=3><td colspan=3></td></tr>
+<tr height=3><td colspan=3></td></tr>
+<tr><td></td><td> <img src="/images/250/leftdot.gif" align=absmiddle> <a href="/shopbrand/ct1810/" onMouseOver="window.status='/shopbrand/ct1810/';return true;"><font class=leftbrand>APPLIED</a></td>
+    <td></td></tr>
+<tr height=3><td colspan=3></td></tr>
+<tr height=3><td colspan=3></td></tr>
+<tr><td></td><td> <img src="/images/250/leftdot.gif" align=absmiddle> <a href="/shopbrand/ct1829/" onMouseOver="window.status='/shopbrand/ct1829/';return true;"><font class=leftbrand>AKRacing</a></td>
+    <td></td></tr>
+<tr height=3><td colspan=3></td></tr>
+<tr height=3><td colspan=3></td></tr>
+<tr><td></td><td> <img src="/images/250/leftdot.gif" align=absmiddle> <a href="/shopbrand/ct1816/" onMouseOver="window.status='/shopbrand/ct1816/';return true;"><font class=leftbrand>Intel</a></td>
+    <td></td></tr>
+<tr height=3><td colspan=3></td></tr>
+<tr height=3><td colspan=3></td></tr>
+<tr><td></td><td> <img src="/images/250/leftdot.gif" align=absmiddle> <a href="/shopbrand/ct1809/" onMouseOver="window.status='/shopbrand/ct1809/';return true;"><font class=leftbrand>Lenovo</a></td>
+    <td></td></tr>
+<tr height=3><td colspan=3></td></tr>
+<tr height=3><td colspan=3></td></tr>
+<tr><td></td><td> <img src="/images/250/leftdot.gif" align=absmiddle> <a href="/shopbrand/ct1808/" onMouseOver="window.status='/shopbrand/ct1808/';return true;"><font class=leftbrand>MSI</a></td>
+    <td></td></tr>
+<tr height=3><td colspan=3></td></tr>
+<tr height=3><td colspan=3></td></tr>
+<tr><td></td><td> <img src="/images/250/leftdot.gif" align=absmiddle> <a href="/shopbrand/ct1807/" onMouseOver="window.status='/shopbrand/ct1807/';return true;"><font class=leftbrand>NEC</a></td>
+    <td></td></tr>
+<tr height=3><td colspan=3></td></tr>
+<tr height=3><td colspan=3></td></tr>
+<tr><td></td><td> <img src="/images/250/leftdot.gif" align=absmiddle> <a href="/shopbrand/ct1805/" onMouseOver="window.status='/shopbrand/ct1805/';return true;"><font class=leftbrand>Panasonic</a></td>
+    <td></td></tr>
+<tr height=3><td colspan=3></td></tr>
+<tr height=3><td colspan=3></td></tr>
+<tr><td></td><td> <img src="/images/250/leftdot.gif" align=absmiddle> <a href="/shopbrand/ct1818/" onMouseOver="window.status='/shopbrand/ct1818/';return true;"><font class=leftbrand>バッファロー</a></td>
+    <td></td></tr>
+<tr height=3><td colspan=3></td></tr>
+<tr height=3><td colspan=3></td></tr>
+<tr><td></td><td> <img src="/images/250/leftdot.gif" align=absmiddle> <a href="/shopbrand/ct1806/" onMouseOver="window.status='/shopbrand/ct1806/';return true;"><font class=leftbrand>富士通</a></td>
+    <td></td></tr>
+<tr height=3><td colspan=3></td></tr>
+<tr height=3><td colspan=3></td></tr>
+<tr><td></td><td> <img src="/images/250/leftdot.gif" align=absmiddle> <a href="/shopbrand/ct1833/" onMouseOver="window.status='/shopbrand/ct1833/';return true;"><font class=leftbrand>ロジクール</a></td>
+    <td></td></tr>
+<tr height=3><td colspan=3></td></tr>
+<tr height=3><td colspan=3></td></tr>
+<tr><td></td><td> <img src="/images/250/leftdot.gif" align=absmiddle> <a href="/shopbrand/ct1837/" onMouseOver="window.status='/shopbrand/ct1837/';return true;"><font class=leftbrand>■ 価格別</a></td>
+    <td></td></tr>
+<tr height=3><td colspan=3></td></tr>
+<tr height=3><td colspan=3></td></tr>
+<tr><td></td><td> <img src="/images/250/leftdot.gif" align=absmiddle> <a href="/shopbrand/ct1811/" onMouseOver="window.status='/shopbrand/ct1811/';return true;"><font class=leftbrand>５万円未満</a></td>
+    <td></td></tr>
+<tr height=3><td colspan=3></td></tr>
+<tr height=3><td colspan=3></td></tr>
+<tr><td></td><td> <img src="/images/250/leftdot.gif" align=absmiddle> <a href="/shopbrand/ct1812/" onMouseOver="window.status='/shopbrand/ct1812/';return true;"><font class=leftbrand>５万円〜１０万円</a></td>
+    <td></td></tr>
+<tr height=3><td colspan=3></td></tr>
+<tr height=3><td colspan=3></td></tr>
+<tr><td></td><td> <img src="/images/250/leftdot.gif" align=absmiddle> <a href="/shopbrand/ct1813/" onMouseOver="window.status='/shopbrand/ct1813/';return true;"><font class=leftbrand>１０万円〜１５万円</a></td>
+    <td></td></tr>
+<tr height=3><td colspan=3></td></tr>
+<tr height=3><td colspan=3></td></tr>
+<tr><td></td><td> <img src="/images/250/leftdot.gif" align=absmiddle> <a href="/shopbrand/ct1814/" onMouseOver="window.status='/shopbrand/ct1814/';return true;"><font class=leftbrand>１５万円〜２０万円</a></td>
+    <td></td></tr>
+<tr height=3><td colspan=3></td></tr>
+<tr height=3><td colspan=3></td></tr>
+<tr><td></td><td> <img src="/images/250/leftdot.gif" align=absmiddle> <a href="/shopbrand/ct1815/" onMouseOver="window.status='/shopbrand/ct1815/';return true;"><font class=leftbrand>２０万円以上</a></td>
+    <td></td></tr>
+</table>
+
+			<!--[CATEGORY_MENU_3        ]-->
+		</div>
+	</div>
+	<div class="crr1"></div>
+	<!-- twitter start -->
+	<h2 style="text-align: center;font-weight: bold;font-size: large;color: dodgerblue;">★★ Twitter ★★</h2>
+	<p style="margin-bottom: 3px">アプライド通販営業部アプロット君のTwitterをフォロミーアプ★</p>
+	<div style="margin-bottom: 5px"><a href="https://twitter.com/Applied_net" class="twitter-follow-button" data-show-count="false">Follow @Applied_net</a>
+		<script type="text/javascript" async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+	</div> <a class="twitter-timeline" href="https://twitter.com/Applied_net" width="180" height="500" data-chrome="noheader nofooter">アプライド通販営業部アプロット君 by Applied_net</a>
+	<script type="text/javascript" async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+	<div class="crr"></div><br>
+	<!-- twitter end -->
+	<!-- facebook -->
+	<h2><img src="http://gigaplus.makeshop.jp/applied/LFTIMG/left_facebook.jpg" alt="フェイスブック"></h2>
+	<div class="section" id="l_member">
+		<div class="fb-page" data-href="https://www.facebook.com/appliedwebshop/" data-tabs="timeline" data-width="180" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+			<div class="fb-xfbml-parse-ignore">
+				<blockquote cite="https://www.facebook.com/appliedwebshop/"><a href="https://www.facebook.com/appliedwebshop/">アプライド通販</a></blockquote>
+			</div>
+		</div>
+		<div class="crr"></div><br>
+		<!-- facebook end -->
+		<h2><img src="http://gigaplus.makeshop.jp/applied/LFTIMG/left_calender.jpg" alt="カレンダー"></h2>
+		<div class="section" id="l_calendar"> <table border=0 cellpadding=0 width=100% bgcolor=#FFFFFF>
+<tr height=25><td align=center><font color=#000000><b>2017年 08月</b></font></td></tr>
+</table>
+ <table border=0 cellpadding=0 cellspacing=1 width=100% bgcolor=#999999>
+<tr height=20 bgcolor=#FFFFFF>
+<td width=20 align=center style='font-size:8pt;color:#000000;'><b><font color=#FFCCFF>日</font></b></td>
+<td width=20 align=center style='font-size:8pt;color:#000000;'><b>月</b></td>
+<td width=20 align=center style='font-size:8pt;color:#000000;'><b>火</b></td>
+<td width=20 align=center style='font-size:8pt;color:#000000;'><b>水</b></td>
+<td width=20 align=center style='font-size:8pt;color:#000000;'><b>木</b></td>
+<td width=20 align=center style='font-size:8pt;color:#000000;'><b>金</b></td>
+<td width=20 align=center style='font-size:8pt;color:#000000;'><b>土</b></td>
+</tr>
+<tr height=20 bgcolor=#FFFFFF> <td width=20>&nbsp;</td>
+<td width=20>&nbsp;</td>
+<td width=20 align=center style='font-size:8pt;color:#000000;'>1</td>
+<td width=20 align=center style='font-size:8pt;color:#000000;'>2</td>
+<td width=20 align=center style='font-size:8pt;color:#000000;'>3</td>
+<td width=20 align=center style='font-size:8pt;color:#000000;'>4</td>
+<td width=20 align=center bgcolor="#FFCCFF"  style='font-size:8pt;color:#000000;'>5</td>
+</tr><tr height=20 bgcolor=#FFFFFF> <td width=20 align=center bgcolor="#FFCCFF" style='font-size:8pt;color:#000000;'>6</td>
+<td width=20 align=center style='font-size:8pt;color:#000000;'>7</td>
+<td width=20 align=center style='font-size:8pt;color:#000000;'>8</td>
+<td width=20 align=center style='font-size:8pt;color:#000000;'>9</td>
+<td width=20 align=center style='font-size:8pt;color:#000000;'>10</td>
+<td width=20 bgcolor=#FFCCFF align=center style='font-size:8pt;color:#000000'>11</td>
+<td width=20 align=center bgcolor="#FFCCFF"  style='font-size:8pt;color:#000000;'>12</td>
+</tr><tr height=20 bgcolor=#FFFFFF> <td width=20 align=center bgcolor="#FFCCFF" style='font-size:8pt;color:#000000;'>13</td>
+<td width=20 bgcolor=#FFCCFF align=center style='font-size:8pt;color:#000000'>14</td>
+<td width=20 bgcolor=#FFCCFF align=center style='font-size:8pt;color:#000000'>15</td>
+<td width=20 align=center style='font-size:8pt;color:#000000;'>16</td>
+<td width=20 align=center style='font-size:8pt;color:#000000;'>17</td>
+<td width=20 align=center style='font-size:8pt;color:#000000;'>18</td>
+<td width=20 align=center bgcolor="#FFCCFF"  style='font-size:8pt;color:#000000;'>19</td>
+</tr><tr height=20 bgcolor=#FFFFFF> <td width=20 align=center bgcolor="#FFCCFF" style='font-size:8pt;color:#000000;'>20</td>
+<td width=20 bgcolor="#99CCFF" align=center style='font-size:8pt;color:#00FF00'>21</td>
+<td width=20 align=center style='font-size:8pt;color:#000000;'>22</td>
+<td width=20 align=center style='font-size:8pt;color:#000000;'>23</td>
+<td width=20 align=center style='font-size:8pt;color:#000000;'>24</td>
+<td width=20 align=center style='font-size:8pt;color:#000000;'>25</td>
+<td width=20 align=center bgcolor="#FFCCFF"  style='font-size:8pt;color:#000000;'>26</td>
+</tr><tr height=20 bgcolor=#FFFFFF> <td width=20 align=center bgcolor="#FFCCFF" style='font-size:8pt;color:#000000;'>27</td>
+<td width=20 align=center style='font-size:8pt;color:#000000;'>28</td>
+<td width=20 align=center style='font-size:8pt;color:#000000;'>29</td>
+<td width=20 align=center style='font-size:8pt;color:#000000;'>30</td>
+<td width=20 align=center style='font-size:8pt;color:#000000;'>31</td>
+<td width=20>&nbsp;</td><td width=20>&nbsp;</td></tr></table>
+<table border=0 cellpadding=0 cellspacing=0 width=100% bgcolor=#FFFFFF>
+<tr height=3><td colspan=3></td></tr>
+<tr height=12><td width=20 bgcolor="#99CCFF"></td>
+    <td width=3></td>
+    <td width=125><font style="font-family:MS UI Gothic; font-size:8pt;">今日</font></td></tr>
+<tr height=3><td colspan=3></td></tr>
+<tr height=12><td width=20 bgcolor=#FFCCFF></td>
+    <td width=3></td>
+    <td width=125><font style="font-family:MS UI Gothic; font-size:8pt;">定休日</font></td></tr>
+<tr height=3><td colspan=3></td></tr>
+</table>
+   </div>
+		<div class="section" id="l_banner"><br> <img width="180" height="17" alt="関連バナー" src="http://shop.applied-net.co.jp/design/applied/bannertitle.gif" border="0">
+<a href="http://shop.applied-net.co.jp/html/page160.html"><img alt="アプライドネット 会員登録のご紹介" src="http://gigaplus.makeshop.jp/applied/images/common/top_guide/member_mail.gif" width="180" height="180"></a>
+			<!--会員管理 > メルマガの設定 > メルマガ設定--><!-- <a href="https://www.makeshop.jp/ssl/popup_mailmagazine.html?db=applied"><img src="/images/original_design_default/samplesource/7/l_mailBtn.png" alt="メルマガ登録"></a> --> <a href="http://shop.applied-net.co.jp/shopbrand/ct8000">
+	<img alt="メールマガジン登録" src="http://gigaplus.makeshop.jp/applied/LFTIMG/mailmagazine.jpg" border="0" width="180"></a>
+			<div class="crr"></div> <a href="http://shop.applied-net.co.jp/html/page136.html" target="blank">
+		<img alt="クロネコ延長保証サービス" src="http://blog.comroad.co.jp/os/outer/images/banners/side_banner_yamato_warranty.gif" border="0" width="180" height="184"></a><br>
+			<div class="crr"></div> <div style="margin-left: 4px;width: 180px;"><img alt="intel Technology Provider" src="http://gigaplus.makeshop.jp/applied/LFTIMG/intel_technology_provider_2017.gif" border="0"><p style="font-size: 9px;margin: 8px;">アプライド株式会社は、インテル テクノロジー プロバイダー プラチナム 2017に認定されています。ハイパフォーマンスを実現するPCを確かな品質でお届けします。</p></div><br>
+			<div class="crr"></div>
+		</div>
+		<div class="crr"></div><br>
+		<div class="section"> <a href="http://storeuser4.auctions.yahoo.co.jp/jp/user/com5822" target="blank"><img src="http://gigaplus.makeshop.jp/applied/images/mainContentLeft/web_yah1.jpg" alt="" border="0"><br>ＴＶゲーム・携帯専門<br>シータ オークション 1号店!</a>
+			<div class="crr"></div> <a href="http://storeuser4.auctions.yahoo.co.jp/jp/user/ap_auc2008" target="blank"><img src="http://gigaplus.makeshop.jp/applied/images/mainContentLeft/web_yah2.jpg" alt="" border="0"><br>ＴＶゲーム・携帯専門<br>シータ オークション 2号店!</a>
+			<div class="crr"></div> <a href="http://sellinglist.auctions.yahoo.co.jp/user/applied_tokuhanka2?userID=applied_tokuhanka2&u=applied_tokuhanka2" target="blank"><img src="http://gigaplus.makeshop.jp/applied/LFTIMG/apnet_auction.jpg" alt="" border="0"><br>アプライド オークション</a>
+			<div class="crr"></div>
+		</div>
+	</div>
+	<div class="section" id="l_twitter">  </div>
+	<div class="section" id="l_poll">  </div>
+	<div class="section" id="l_board"> <table border=0 cellpadding=0 cellspacing=0 width=180>
+<tr height=8><td width=8></td><td width=164></td><td width=8></td></tr>
+</table>
+ </div>
+	<div class="section" id="l_recent">
+		<!--チェック履歴レコメンド表示の表示--> </div>
+	<!--計測用タグ--><img src="//count3.makeshop.jp/?code=applied&ref=" width="0" height="0" style="width:0px; height:0px;"> </div></td></form>
+
+<form name=formlogin action="https://www.makeshop.jp/ssl/?ssltype=main&db=applied" method=post target=_top>
+<input type=hidden name=id><input type=hidden name=passwd><input type=hidden name=type value=login><input type=hidden name=form_type value="N"></form>
+ <td width=10>&nbsp;</td><td valign=top width=640 align=center><form name="all_view_menu" method="post" action="/shop/shopbrand.html" style="margin: 0;padding: 0;">
+<input type="hidden" name="search" value="">
+</form>
+ <script>
+        function bottom_privercy() {
+            window.open("/html/privercy.html","privercy","height=570,width=640,scrollbars=yes");
+        }
+        </script>
+<script type="text/javascript">
+var aqObject = aqObject || {
+    _q: [],
+    tag: function() { this._q.push(arguments); },
+    jsload: function(src) {
+        var a, s;
+        if ((a = document.createElement("script"))) {
+            a.type = "text/javascript";
+            a.async = true;
+            a.src = ("https:" == document.location.protocol ? "https://" : "http://") + src;
+            s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(a, s);
+        }
+    }
+};
+aqObject.aqid = "EM34BYVZ46DUGEQNJE6A";
+aqObject.jsload("t10.aqtracker.com/asp/aq_tag_aos.js");
+aqObject.tag('tag_cat','page_type="top"&shop_id="applied"&device_type="PC"&login_id=""')
+</script>
+
+<script type="text/javascript">
+var MakeShope7554af17d7864fadbef4bbee7b914d807a2077f;
+(function (MakeShope7554af17d7864fadbef4bbee7b914d807a2077f) {
+
+    var obj = MakeShope7554af17d7864fadbef4bbee7b914d807a2077f;
+
+    obj._q = {};
+    obj.setParams = function (objects) {
+        this._q = objects;
+        this._q['id'] = this._getCookie('aqusr');
+    }
+
+    obj.getParam = function (key) {
+        return (this._q[key] === undefined || this._q[key] == '') ? '' : this._q[key];
+    }
+
+    obj._tag = {};
+    obj.setTags = function (unsync_objects, sync_objects) {
+        this._tag.unsync = {};
+        if (unsync_objects) {
+            this._tag.unsync = unsync_objects;
+        }
+        this._tag.sync = {};
+        if (sync_objects) {
+            this._tag.sync = sync_objects;
+        }
+        return;
+    }
+
+    obj.jsload = function () {
+        var is_optout = this._getCookie('applied_optout');
+        if (is_optout == 'off') {
+            this._createTag();
+        } else {
+            var src = "//api.makedmp.jp/optout/get/?callback=MakeShope7554af17d7864fadbef4bbee7b914d807a2077f._jsonpCallback";
+            var async = true;
+            this.createScriptTag(src, async);
+        }
+    }
+
+    obj._jsonpCallback = function (optout) {
+        this._setCookie(optout);
+        if (optout == 'on') {
+            return;
+        } else {
+            this._createTag();
+        }
+    }
+
+    obj._createTag = function () {
+        if (!obj._q || !obj._tag) {
+            return;
+        }
+        for(var i in obj._tag.sync) {
+            obj._tag.sync[i]();
+        }
+
+        var _createUnsyncTag = function () {
+            for(var i in obj._tag.unsync) {
+                obj._tag.unsync[i]();
+            }
+        }
+
+        obj._getAudienceData (function(data){
+            obj._q['d'] = data;
+            if (window.addEventListener) {
+                window.addEventListener('load', _createUnsyncTag, false);
+            } else if (window.attachEvent) {
+                window.attachEvent('onload', _createUnsyncTag);
+            }
+        });
+        return;
+    }
+
+    obj._getAudienceData = function (callback) {
+        var aqusr = MakeShope7554af17d7864fadbef4bbee7b914d807a2077f._q['id'];
+        if (aqusr.length == '') {
+            return;
+        }
+        var imprements = [
+            function() {return new XMLHttpRequest()},
+            function() {return new XDomainRequest()},
+            function() {return new ActiveXObject('Microsoft.XMLHTTP')}
+        ];
+        for (var i = 0; i < imprements.length; i++) {
+            var req = imprements[i];
+            try {
+                var xmlhttp = req();
+                _ajaxRequest(xmlhttp, aqusr);
+                break;
+            } catch (e) {
+                continue;
+            }
+        }
+
+        function _ajaxRequest(xmlhttp, aqusr){
+            if (!xmlhttp) {
+                return;
+            }
+            var dmp_category_id = (obj._q['pt'] == 'shopdetail' && obj._q['bc'] != '' ? obj._q['bc'] : 'na');
+            xmlhttp.open('GET', '//api.makedmp.jp/search/' + aqusr + '/' + dmp_category_id + '/', true);
+            xmlhttp.timeout = 3000;
+            xmlhttp.ontimeout = function () {
+                callback();
+            }
+            xmlhttp.onerror = function () {
+                callback();
+            }
+            try {
+                // IE10、others
+                if(xmlhttp.readyState != null){
+                    xmlhttp.onreadystatechange = function () {
+                        if(xmlhttp.readyState == 4 && xmlhttp.status == 200){
+                            _getJsonData(xmlhttp);
+                        }
+                    }
+                // IE8、9
+                } else {
+                    xmlhttp.onload = function () {
+                        _getJsonData(xmlhttp);
+                    }
+                }
+                xmlhttp.send(null);
+            } catch (e) {
+                callback();
+            }
+            return;
+        }
+        function _getJsonData(xmlhttp){
+            if (xmlhttp === undefined || xmlhttp == '') {
+                callback();
+            }
+            try {
+                var response = {};
+                if (typeof JSON === 'object' && typeof JSON.parse === 'function') {
+                    response = JSON.parse(xmlhttp.responseText);
+                } else {
+                    response = eval('(' + xmlhttp.responseText + ')');
+                }
+                if (response.status == 'ok' && response.data != '') {
+                    callback(response.data);
+                } else {
+                    callback();
+                }
+            } catch (e) {
+                callback();
+            }
+        }
+    }
+
+    obj._getCookie = function (key) {
+        var cookies = document.cookie.split(';');
+        for( var i=0; i < cookies.length; i++ ){
+            var cookie = cookies[i].replace(/^\s+|\s+$/g, '');
+            cookie = cookie.split( '=' );
+            if( cookie[0] == key ){
+                return cookie[1];
+            }
+        }
+        return '';
+    }
+
+    obj._setCookie = function (output) {
+        var w = new Date();
+        w.setFullYear(2030, 11, 31);
+        w.setHours(0, 0, 0);
+        document.cookie = 'applied_optout=' + output + '; path=/; expires=' + w;
+    }
+
+    obj.createImgTag = function (src) {
+        if (src === undefined || src == '') {
+            return;
+        }
+        var objImg = document.createElement('img');
+        objImg.src = src;
+        objImg.width = 1;
+        objImg.height = 1;
+        var objBody = document.getElementsByTagName("body").item(0);
+        objBody.appendChild(objImg);
+    }
+
+    obj.createScriptTag = function (src, async, textnode) {
+        var a = document.createElement("script");
+        a.type = "text/javascript";
+        if (async === undefined || async == '') {
+            async = false;
+        } else if (async) {
+            a.async = async;
+        }
+        if (src !== undefined && src != '') {
+            a.src = src;
+        }
+        if (textnode !== undefined && textnode != '') {
+            if (a.canHaveChildren) {
+                a.appendChild(document.createTextNode(textnode));
+            } else {
+                a.text = textnode;
+            }
+        }
+        var s = document.getElementsByTagName("body").item(0);
+        if (!s) {
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(a, s);
+            return;
+        }
+        s.appendChild(a);
+    }
+
+})(MakeShope7554af17d7864fadbef4bbee7b914d807a2077f || (MakeShope7554af17d7864fadbef4bbee7b914d807a2077f = {}));
+MakeShope7554af17d7864fadbef4bbee7b914d807a2077f.setParams({'pt':'top', sc:'2014-08_05108', bc:''});
+MakeShope7554af17d7864fadbef4bbee7b914d807a2077f.setTags({0:function() {
+    // 1
+    var textnode = '';
+    var page_type = MakeShope7554af17d7864fadbef4bbee7b914d807a2077f.getParam('pt');
+    if (page_type == 'shopdetail') {
+        textnode = "function setACDParams(o){\n" +
+                   "    o.addParams('rs_seg1', '" + MakeShope7554af17d7864fadbef4bbee7b914d807a2077f.getParam('pt') + "');\n" +
+                   "    o.addParams('rs_seg2', '" + MakeShope7554af17d7864fadbef4bbee7b914d807a2077f.getParam('bc') + "');\n" +
+                   "    o.addParams('rs_seg3', '" + MakeShope7554af17d7864fadbef4bbee7b914d807a2077f.getParam('d') + "');\n" +
+                   "}\n";
+    } else if (page_type == 'shopsearch')  {
+        textnode = "function setACDParams(o){\n" +
+                   "    o.addParams('rs_seg1', '" + MakeShope7554af17d7864fadbef4bbee7b914d807a2077f.getParam('pt') + "');\n" +
+                   "    o.addParams('rs_seg2', '" + MakeShope7554af17d7864fadbef4bbee7b914d807a2077f.getParam('sc') + "');\n" +
+                   "    o.addParams('rs_Query', '');\n" +
+                   "}\n";
+    } else if (page_type == 'top' || page_type == 'shopbrand' || page_type == 'basket' || page_type == 'original')  {
+        textnode = "function setACDParams(o){\n" +
+                   "    o.addParams('rs_seg1', '" + MakeShope7554af17d7864fadbef4bbee7b914d807a2077f.getParam('pt') + "');\n" +
+                   "    o.addParams('rs_seg2', '" + MakeShope7554af17d7864fadbef4bbee7b914d807a2077f.getParam('sc') + "');\n" +
+                   "    o.addParams('rs_seg3', '" + MakeShope7554af17d7864fadbef4bbee7b914d807a2077f.getParam('d') + "');\n" +
+                   "}\n";
+    }
+    if (textnode.length > 0) {
+        MakeShope7554af17d7864fadbef4bbee7b914d807a2077f.createScriptTag('', false, textnode);
+
+        // 2
+        var async = true;
+        var src = "//rsts.adtdp.com/t/u.js?ci=mTnir8sJ";
+        MakeShope7554af17d7864fadbef4bbee7b914d807a2077f.createScriptTag(src, async);
+    }
+},1:function() {
+    var async = true;
+    var params = 'page_type=' + MakeShope7554af17d7864fadbef4bbee7b914d807a2077f.getParam('pt') + '&shop_cat=' + MakeShope7554af17d7864fadbef4bbee7b914d807a2077f.getParam('sc') + '&data=' + MakeShope7554af17d7864fadbef4bbee7b914d807a2077f.getParam('d');
+    var src    = "//d-track.send.microad.jp/msparam?" + params;
+    MakeShope7554af17d7864fadbef4bbee7b914d807a2077f.createScriptTag(src, async);
+}}, {0:function() {
+    var params = 'pt=' + MakeShope7554af17d7864fadbef4bbee7b914d807a2077f.getParam('pt') + '&shop_category=' + MakeShope7554af17d7864fadbef4bbee7b914d807a2077f.getParam('sc') + '&brand_category=' + MakeShope7554af17d7864fadbef4bbee7b914d807a2077f.getParam('bc') + '&cid=' + MakeShope7554af17d7864fadbef4bbee7b914d807a2077f.getParam('id');
+    var src    = "//bypass.ad-stir.com/gmsync?" + params;
+    MakeShope7554af17d7864fadbef4bbee7b914d807a2077f.createImgTag(src);
+},1:function() {
+    // 1
+    var textnode = "var _fout_queue = _fout_queue || {};\n" +
+                   "if (_fout_queue.segment === void 0) _fout_queue.segment = {};\n" +
+                   "if (_fout_queue.segment.queue === void 0) _fout_queue.segment.queue = [];\n" +
+                   "_fout_queue.segment.queue.push({\n" +
+                   "    'user_id': 5851,\n" +
+                   "    'ex_url': 'http://makeshop.jp',\n" +
+                   "    'params':\n" +
+                   "    {\n" +
+                   "        'pt':'" + MakeShope7554af17d7864fadbef4bbee7b914d807a2077f.getParam('pt') + "',\n" +
+                   "        'sc':'" + MakeShope7554af17d7864fadbef4bbee7b914d807a2077f.getParam('sc') + "',\n" +
+                   "        'bc':'" + MakeShope7554af17d7864fadbef4bbee7b914d807a2077f.getParam('bc') + "'\n" +
+                   "    }\n" +
+                   "});\n" +
+                   "(function() {\n" +
+                   "    var el = document.createElement('script'); el.type = 'text/javascript'; el.async = true;\n"  +
+                   "    el.src = (('https:' == document.location.protocol) ? 'https://' : 'http://') + 'js.fout.jp/segmentation.js';\n" +
+                   "    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(el, s);\n" +
+                   "})();\n";
+    MakeShope7554af17d7864fadbef4bbee7b914d807a2077f.createScriptTag('', false, textnode);
+
+    // 2
+    var src = "//sync.dmp.fout.jp/store/?id=5851&mt=21&uaid=" + MakeShope7554af17d7864fadbef4bbee7b914d807a2077f.getParam('id');
+    MakeShope7554af17d7864fadbef4bbee7b914d807a2077f.createImgTag(src);
+}});
+MakeShope7554af17d7864fadbef4bbee7b914d807a2077f.jsload();
+
+</script>
+<div class="rightContents" id="top">
+
+	<!-- div class="section" id="r_news">
+		[NEWSEVENT4     ]
+	</div -->
+
+	 <div class="section" id="r_shopintro">
+                <style type="text/css">
+<!--
+  .crr{clear:both;margin-top:3px;}
+-->
+</style>
+<script src="http://gigaplus.makeshop.jp/applied/js/jquery.simplyscroll.js" type="text/javascript"></script>
+<script type="text/javascript">
+<!--
+  (function($) {
+      $(function() {
+        $("#slider").simplyScroll({
+          orientation: 'vertical',
+          auto: 'true',
+          manualMode: 'loop',
+          frameRate: '10',
+          speed: '2'
+        });
+      });
+    })(jQuery);
+    
+    (function($) {
+      $(function() {
+        $("#slider2").simplyScroll({
+          orientation: 'vertical',
+          auto: 'true',
+          manualMode: 'loop',
+          frameRate: '10',
+          speed: '2'
+        });
+      });
+    })(jQuery);
+-->
+</script>
+
+<div class="mainvisualSlider">
+  <div class="bxslider">
+　　<a href="http://shop.applied-net.co.jp/html/page150.html"><img alt="RYZEN THREADRIPPER" src="http://gigaplus.makeshop.jp/applied/images/common/top_img/slide_ryzen_tr.jpg"></a>
+    <a href="http://shop.applied-net.co.jp/shopdetail/000000207304/"><img alt="iWorks" src="http://gigaplus.makeshop.jp/applied/images/common/top_img/slide_iworks.jpg"></a>
+    <a href="http://shop.applied-net.co.jp/html/page162.html"><img alt="Intel Core Xシリーズ CPU" src="http://gigaplus.makeshop.jp/applied/images/common/top_img/slide_intelx.jpg"></a>
+    <a href="http://shop.applied-net.co.jp/html/page153.html"><img alt="Final Fantasy XIV 推奨パソコン" src="http://gigaplus.makeshop.jp/applied/images/common/top_img/slide_ffxiv.jpg"></a>
+    <a href="http://shop.applied-net.co.jp/shopbrand/ct1617/page1/order/"><img alt="MSI プレゼント キャンペーン" src="http://gigaplus.makeshop.jp/applied/images/common/top_img/slide_msi_001.jpg"></a>
+    <a href="http://shop.applied-net.co.jp/html/page155.html"><img alt="World of Tanks 推奨パソコン" src="http://gigaplus.makeshop.jp/applied/images/common/top_img/slide_wot.jpg"></a>
+  </div>
+
+<div id="bx-pager">
+<a data-slide-index="0" href="http://shop.applied-net.co.jp/html/page150.html"><img src="http://gigaplus.makeshop.jp/applied/images/common/top_img/115x60_ryzen_tr.png"></a>
+<a data-slide-index="1" href="http://shop.applied-net.co.jp/shopdetail/000000207304/"><img src="http://gigaplus.makeshop.jp/applied/images/common/top_img/115x60_iworks.png"></a>
+<a data-slide-index="2" href="http://shop.applied-net.co.jp/html/page162.html"><img src="http://gigaplus.makeshop.jp/applied/images/common/top_img/115x60_intelx.png"></a>
+<a data-slide-index="3" href="http://shop.applied-net.co.jp/html/page153.html"><img src="http://gigaplus.makeshop.jp/applied/images/common/top_img/115x60_ffxiv.png"></a>
+<a data-slide-index="4" href="http://shop.applied-net.co.jp/shopbrand/ct1617/page1/order/"><img src="http://gigaplus.makeshop.jp/applied/images/common/top_img/115x60_msi_001.png"></a>
+<a data-slide-index="5" href="http://shop.applied-net.co.jp/html/page155.html"><img src="http://gigaplus.makeshop.jp/applied/images/common/top_img/115x60_wot.png"></a>
+</div>
+
+
+</div>
+
+<!-- お知らせ --><img alt="お知らせ" class="margintop32px" src="http://gigaplus.makeshop.jp/applied/CNTRIMG/news_banner.jpg" style="margin-top:10px;margin-bottom:-16px;margin-left:0px;">
+<div class="section" id="r_news"> <table border=0 cellpadding=0 cellspacing=0 width=100%>
+        <tr><td></td>
+        </tr>
+        <tr><td align=center><table border=0 width=100% cellpadding=0 cellspacing=0><tr><td width=80 class='woong' height=22 valign=top>[2017/08/21]</td><td class=woong valign=top><a href="/new/2017-08-21-104512.html">【訳アリ特価】のMacBookございます。1点限り、商品説明熟読の上、ご検討ください！</a></td></tr></table><table border=0 width=100% cellpadding=0 cellspacing=0><tr><td width=80 class='woong' height=22 valign=top>[2017/08/18]</td><td class=woong valign=top><a href="/new/2017-08-18-185618.html">カスタマイズＯＫ！　NEW BTOパソコンが登場！</a></td></tr></table><table border=0 width=100% cellpadding=0 cellspacing=0><tr><td width=80 class='woong' height=22 valign=top>[2017/08/17]</td><td class=woong valign=top><a href="/new/2017-08-17-105442.html">大好評につき急遽、サマーセール延長決定！　このチャンスをお見逃しなく！</a></td></tr></table><table border=0 width=100% cellpadding=0 cellspacing=0><tr><td width=80 class='woong' height=22 valign=top>[2017/08/10]</td><td class=woong valign=top><a href="/new/2017-08-10-160454.html">11日0時から16日23時59分まで！　超特価サマーセールを開催します！</a></td></tr></table><table border=0 width=100% cellpadding=0 cellspacing=0><tr><td width=80 class='woong' height=22 valign=top>[2017/08/09]</td><td class=woong valign=top><a href="/new/2017-08-09-181508.html">【お知らせ】8/11〜15は夏季休業期間の為、期間内のご注文・お問い合わせ等は翌営業日より順次対応させていただきます。</a></td></tr></table><table border=0 width=100% cellpadding=0 cellspacing=0><tr><td width=80 class='woong' height=22 valign=top>[2017/08/02]</td><td class=woong valign=top><a href="/new/2017-08-02-134609.html">毎週木曜日はメルマガの日！　お得情報ゲットの為に、是非登録を！</a></td></tr></table><table border=0 width=100% cellpadding=0 cellspacing=0><tr><td width=80 class='woong' height=22 valign=top>[2017/07/24]</td><td class=woong valign=top><a href="/new/2017-07-24-100412.html">「早い者勝ちの大特価市」スタートです！　あれもこれももっとお得に！</a></td></tr></table><table border=0 width=100% cellpadding=0 cellspacing=0><tr><td width=80 class='woong' height=22 valign=top>[2017/07/11]</td><td class=woong valign=top><a href="/new/2017-07-11-151556.html">【お知らせ】システム変更に伴い、アプライドメンバーズカード連携の仕様が変更となりました。</a></td></tr></table><table border=0 width=100% cellpadding=0 cellspacing=0><tr><td width=80 class='woong' height=22 valign=top>[2017/07/07]</td><td class=woong valign=top><a href="/new/2017-07-07-102011.html">今週のメルマガ商品更新！　セールが終わってもお得です！</a></td></tr></table><table border=0 width=100% cellpadding=0 cellspacing=0><tr><td width=80 class='woong' height=22 valign=top>[2017/07/05]</td><td class=woong valign=top><a href="/new/2017-07-05-182856.html">iMac SSDカスタマイズモデルが1台だけの限定特価で登場！</a></td></tr></table></td></tr><tr><td class=line height=7>&nbsp;</td></tr></table> </div>
+<!-- お知らせ ここまで --><img alt="キャンペーン" class="titleMgn margintop32px" src="http://gigaplus.makeshop.jp/applied/CNTRIMG/campaign_banner.jpg" style="margin-top:10px;margin-bottom:5px;margin-left:0px;">
+<div class="crr"></div>
+<div class="MAINLOGO"><iframe title="キャンペーン" class="feature_campaign_001 marginbottom8px" frameborder="0" src="http://shop.applied-net.co.jp/html/page159.html">インラインフレームに対応したブラウザで御覧ください。</iframe></div> <img alt="特集" class="titleMgn margintop32px" src="http://gigaplus.makeshop.jp/applied/CNTRIMG/featured_banner.jpg" style="margin-top:10px;margin-bottom:5px;margin-left:0px;">
+<div class="crr"></div>
+<div class="MAINLOGO"><iframe title="特集" class="feature_campaign_002 marginbottom8px" frameborder="0" src="http://shop.applied-net.co.jp/html/page158.html">インラインフレームに対応したブラウザで御覧ください。</iframe></div>
+<div class="crr"></div>
+        </div>
+
+<!-- 記事 -->
+
+<ul id="article_main" class="marginbottom0px">
+<li><img alt="コラム" style="margin-top:32px;margin-left:-20px;margin-bottom:21px;" src="http://gigaplus.makeshop.jp/applied/CNTRIMG/column_title.jpg"></li>
+
+<li class="article_waku">
+<img class="artcle_img" src="http://gigaplus.makeshop.jp/applied/column/asvb.png" >
+<div class="article_date">2017年8月21日</div>
+<div class="article_txt">性能十分！機能盛り沢山！コスパ抜群のノートPC！</div>
+<a href="http://www.applied.ne.jp/applied-net/170821" target="blank"></a>
+</li>
+
+<li class="article_waku">
+<img class="artcle_img" src="http://gigaplus.makeshop.jp/applied/column/nebto.png" >
+<div class="article_date">2017年8月18日</div>
+<div class="article_txt">遂に登場、カスタマイズ可能オリジナルパソコン！</div>
+<a href="http://www.applied.ne.jp/applied-net/170818" target="blank"></a>
+</li>
+
+<li class="article_waku">
+<img class="artcle_img" src="http://gigaplus.makeshop.jp/applied/column/ssaleee.png" >
+<div class="article_date">2017年8月17日</div>
+<div class="article_txt">サマーセール終了…しませんでした！　サマーセール延長戦スタート！</div>
+<a href="http://www.applied.ne.jp/applied-net/170817" target="blank"></a>
+</li>
+
+<li class="article_waku">
+<img class="artcle_img" src="http://gigaplus.makeshop.jp/applied/column/ssalee.png" >
+<div class="article_date">2017年8月16日</div>
+<div class="article_txt">急げ急げ！　サマーセールは16日まで（になるはずでした）</div>
+<a href="http://www.applied.ne.jp/applied-net/170816" target="blank"></a>
+</li>
+
+<li class="article_waku">
+<img class="artcle_img" src="http://gigaplus.makeshop.jp/applied/column/ssale.png" >
+<div class="article_date">2017年8月10日</div>
+<div class="article_txt">夏季休業期間と激熱サマーセールのお知らせ！</div>
+<a href="http://www.applied.ne.jp/applied-net/170810" target="blank"></a>
+</li>
+
+<li class="article_waku">
+<img class="artcle_img" src="http://gigaplus.makeshop.jp/applied/column/sx1.png" >
+<div class="article_date">2017年8月9日</div>
+<div class="article_txt">レッツノートがこんなに安く！？　その秘密は「MARプログラム」！</div>
+<a href="http://www.applied.ne.jp/applied-net/170809" target="blank"></a>
+</li>
+
+</ul>
+
+<div class="column_old"><a href="http://shop.applied-net.co.jp/html/page152.html">コラム一覧はこちら</a></div>
+
+<!-- 記事終わり -->	
+	
+<div class="appliedselect">
+	<img width="740" height="17" alt="アプライドセレクト" style="margin-top:32px;margin-bottom:21px;" src="http://gigaplus.makeshop.jp/applied/images/common/top_banner/select_banner.gif">
+	<ul>
+	<li><a href="http://shop.applied-net.co.jp/shopdetail/000000207170/"><img alt="intel core i7-7700K" width="140" height="140" src="http://gigaplus.makeshop.jp/applied/images/common/applied_select/i7-7700k.jpg"></a></li>
+	<li><a href="http://shop.applied-net.co.jp/shopdetail/000000198043/"><img alt="Western Digital WDS240G1G0A" width="140" height="140" src="http://gigaplus.makeshop.jp/applied/images/common/applied_select/wds240g1g0a.jpg"></a></li>
+	<li><a href="http://shop.applied-net.co.jp/shopdetail/000000198086/"><img alt="LAVIE Tab E TE508/BAW ホワイト" width="140" height="140" src="http://gigaplus.makeshop.jp/applied/images/common/applied_select/te508baw.jpg"></a></li>
+	<li><a href="http://shop.applied-net.co.jp/shopdetail/000000206747/"><img alt="LG gram 14Z970GA55J" width="140" height="140" src="http://gigaplus.makeshop.jp/applied/images/common/applied_select/14z970ga55j.jpg"></a></li>
+	<li><a href="http://shop.applied-net.co.jp/shopdetail/000000206806/"><img alt="Let's Note SX1 CF-SX1GDHYS MAR Win10搭載" width="140" height="140" src="http://gigaplus.makeshop.jp/applied/images/common/applied_select/cfsx1gdhys.jpg"></a></li>
+	</ul>
+</div>
+
+	<div class="section marginleft12px" id="r_new" style="
+    margin-top: -15px;
+">
+		<table border=0 cellpadding=0 cellspacing=0>
+                    <tr><td class='line' height=15>&nbsp;</td></tr>
+                    <tr><td><img src="/design/applied/maintitle2.gif" border=0></td></tr>
+                    <tr><td class='line' height=10>&nbsp;</td></tr>
+                    </table><table border=0 cellpadding=0 cellspacing=0 width=100%><tr><td align=center class=lims width=25% valign=top>
+                                    <table border=0 cellpadding=0 cellspacing=0 width=100% height=80><tr><td align=center height=160>
+                                    <a href="/shopdetail/000000207412/">
+<img src="/shopimages/applied/0000002074123.jpg" border=0 alt="(SSD)WESTERN DIGITAL WD Blue 3D NAND SATA WDS200T2B0A(2000GB/2.5インチ/Serial ATA 6Gb/s)" width=160 ></a></td></tr><tr class=woong><td valign=top align=center>
+                <a href="/shopdetail/000000207412/">
+                (SSD)WESTERN DIGITAL WD Blue 3D NAND SATA WDS200T2B0A(2000GB/2.5インチ/Serial ATA 6Gb/s)</a>
+                </td></tr>
+                <tr class=woong><td valign=top align=center>79,249円（税込）</td></tr>
+                </table>
+                </td><td align=center class=lims width=25% valign=top>
+                                    <table border=0 cellpadding=0 cellspacing=0 width=100% height=80><tr><td align=center height=160>
+                                    <a href="/shopdetail/000000207411/">
+<img src="/shopimages/applied/0000002074113.jpg" border=0 alt="(SSD)WESTERN DIGITAL WD Blue 3D NAND SATA WDS100T2B0A(1000GB/2.5インチ/Serial ATA 6Gb/s)" width=160 ></a></td></tr><tr class=woong><td valign=top align=center>
+                <a href="/shopdetail/000000207411/">
+                (SSD)WESTERN DIGITAL WD Blue 3D NAND SATA WDS100T2B0A(1000GB/2.5インチ/Serial ATA 6Gb/s)</a>
+                </td></tr>
+                <tr class=woong><td valign=top align=center>40,028円（税込）</td></tr>
+                </table>
+                </td><td align=center class=lims width=25% valign=top>
+                                    <table border=0 cellpadding=0 cellspacing=0 width=100% height=80><tr><td align=center height=160>
+                                    <a href="/shopdetail/000000207414/">
+<img src="/shopimages/applied/0000002074143.jpg" border=0 alt="(SSD)WESTERN DIGITAL WD Blue 3D NAND SATA WDS500G2B0B(500GB/M.2 (Type2280)/Serial ATA 6Gb/s)" width=160 ></a></td></tr><tr class=woong><td valign=top align=center>
+                <a href="/shopdetail/000000207414/">
+                (SSD)WESTERN DIGITAL WD Blue 3D NAND SATA WDS500G2B0B(500GB/M.2 (Type2280)/Serial ATA 6Gb/s)</a>
+                </td></tr>
+                <tr class=woong><td valign=top align=center>20,979円（税込）</td></tr>
+                </table>
+                </td><td align=center class=lims width=25% valign=top>
+                                    <table border=0 cellpadding=0 cellspacing=0 width=100% height=80><tr><td align=center height=160>
+                                    <a href="/shopdetail/000000207413/">
+<img src="/shopimages/applied/0000002074133.jpg" border=0 alt="(SSD)WESTERN DIGITAL WD Blue 3D NAND SATA WDS250G2B0B(250GB/M.2 (Type2280)/Serial ATA 6Gb/s)" width=160 ></a></td></tr><tr class=woong><td valign=top align=center>
+                <a href="/shopdetail/000000207413/">
+                (SSD)WESTERN DIGITAL WD Blue 3D NAND SATA WDS250G2B0B(250GB/M.2 (Type2280)/Serial ATA 6Gb/s)</a>
+                </td></tr>
+                <tr class=woong><td valign=top align=center>12,550円（税込）</td></tr>
+                </table>
+                </td></tr><tr><td colspan="7" class="line" height="5">&nbsp;</td></tr><tr>
+<td align=center class=lims width=25% valign=top>
+                                    <table border=0 cellpadding=0 cellspacing=0 width=100% height=80><tr><td align=center height=160>
+                                    <a href="/shopdetail/000000207410/">
+<img src="/shopimages/applied/0000002074103.jpg" border=0 alt="(SSD)WESTERN DIGITAL WD Blue 3D NAND SATA WDS500G2B0A(500GB/2.5インチ/Serial ATA 6Gb/s)" width=160 ></a></td></tr><tr class=woong><td valign=top align=center>
+                <a href="/shopdetail/000000207410/">
+                (SSD)WESTERN DIGITAL WD Blue 3D NAND SATA WDS500G2B0A(500GB/2.5インチ/Serial ATA 6Gb/s)</a>
+                </td></tr>
+                <tr class=woong><td valign=top align=center>21,088円（税込）</td></tr>
+                </table>
+                </td><td align=center class=lims width=25% valign=top>
+                                    <table border=0 cellpadding=0 cellspacing=0 width=100% height=80><tr><td align=center height=160>
+                                    <a href="/shopdetail/000000207409/">
+<img src="/shopimages/applied/0000002074093.jpg" border=0 alt="(SSD)WESTERN DIGITAL WD Blue 3D NAND SATA WDS250G2B0A(250GB/2.5インチ/Serial ATA 6Gb/s)" width=160 ></a></td></tr><tr class=woong><td valign=top align=center>
+                <a href="/shopdetail/000000207409/">
+                (SSD)WESTERN DIGITAL WD Blue 3D NAND SATA WDS250G2B0A(250GB/2.5インチ/Serial ATA 6Gb/s)</a>
+                </td></tr>
+                <tr class=woong><td valign=top align=center>12,550円（税込）</td></tr>
+                </table>
+                </td><td align=center class=lims width=25% valign=top>
+                                    <table border=0 cellpadding=0 cellspacing=0 width=100% height=80><tr><td align=center height=160>
+                                    <a href="/shopdetail/000000207400/">
+<img src="/shopimages/applied/0000002074003.jpg" border=0 alt="(タブレットPC)APPLE iPad Wi-Fi 32GB MPGT2J/A [ゴールド]" width=160 ></a></td></tr><tr class=woong><td valign=top align=center>
+                <a href="/shopdetail/000000207400/">
+                (タブレットPC)APPLE iPad Wi-Fi 32GB MPGT2J/A [ゴールド]</a>
+                </td></tr>
+                <tr class=woong><td valign=top align=center>36,570円（税込）</td></tr>
+                </table>
+                </td><td align=center class=lims width=25% valign=top>
+                                    <table border=0 cellpadding=0 cellspacing=0 width=100% height=80><tr><td align=center height=160>
+                                    <a href="/shopdetail/000000207385/">
+<img src="/shopimages/applied/0000002073853.jpg" border=0 alt="(タブレットPC)APPLE iPad Pro 9.7インチ Wi-Fiモデル 256GB MLN12J/A [ゴールド](Apple A9X)" width=160 ></a></td></tr><tr class=woong><td valign=top align=center>
+                <a href="/shopdetail/000000207385/">
+                (タブレットPC)APPLE iPad Pro 9.7インチ Wi-Fiモデル 256GB MLN12J/A [ゴールド](Apple A9X)</a>
+                </td></tr>
+                <tr class=woong><td valign=top align=center>60,537円（税込）</td></tr>
+                </table>
+                </td></tr><tr><td colspan="7" class="line" height="5">&nbsp;</td></tr><tr>
+</tr>
+</table>
+
+	</div>
+
+	<div class="section marginleft12px" id="r_recommend">
+    	<table border=0 cellpadding=0 cellspacing=0>
+                    <tr><td><img src="/design/applied/maintitle1.gif" border=0></td></tr>
+                    <tr><td class=line height=6>&nbsp;</td></tr>
+                    </table><table border=0 cellpadding=0 cellspacing=0 width=100%>
+                    <tr><td align=center class=lims width=25% valign=top>
+                <table border=0 cellpadding=0 cellspacing=0 width=100% height=80><tr><td align=center height=160>
+                            <a href="/shopdetail/000000207415/">
+<img src="/shopimages/applied/0000002074153.jpg" border=0 alt="【訳アリ 箱潰れ】(Mac ノート)APPLE MacBook Pro Retinaディスプレイ 2700/15.4 MLH42J/A [スペースグレイ]" width=160 ></a></td></tr><tr class=woong><td valign=top align=center>
+                    <a href="/shopdetail/000000207415/">
+                    【訳アリ 箱潰れ】(Mac ノート)APPLE MacBook Pro Retinaディスプレイ 2700/15.4 MLH42J/A [スペースグレイ]</a>
+                    </td></tr>
+                        <tr class=woong><td valign=top align=center>230,000円（税込）</td></tr><tr height=20 class=woong><td valign=top align=center><a href="/shopbrand/ct1740/">
+                    <b>[13型〜15.6型]</b></a></td></tr></table>
+                    </td><td align=center class=lims width=25% valign=top>
+                <table border=0 cellpadding=0 cellspacing=0 width=100% height=80><tr><td align=center height=160>
+                            <a href="/shopdetail/000000206806/">
+<img src="/shopimages/applied/0000002068063.jpg" border=0 alt="(中古 ノートパソコン/レッツノート)パナソニック Let&#039;s note SX1 CF-SX1GDHYS(12.1 インチ/Win10Home)" width=160 ></a></td></tr><tr class=woong><td valign=top align=center>
+                    <a href="/shopdetail/000000206806/">
+                    (中古 ノートパソコン/レッツノート)パナソニック Let's note SX1 CF-SX1GDHYS(12.1 インチ/Win10Home)</a>
+                    </td></tr>
+                        <tr class=woong><td valign=top align=center>58,200円（税込）</td></tr><tr height=20 class=woong><td valign=top align=center><a href="/shopbrand/010/002/X/">
+                    <b>[中古ノートPC]</b></a></td></tr></table>
+                    </td><td align=center class=lims width=25% valign=top>
+                <table border=0 cellpadding=0 cellspacing=0 width=100% height=80><tr><td align=center height=160>
+                            <a href="/shopdetail/000000207303/">
+<img src="/shopimages/applied/0000002073033.jpg" border=0 alt="【WEB限定】(ノートパソコン)NEC VersaPro J VJ22T/FW-S(Win10Pro 64bit) タイプVF/Core i5-5200U (2.20GHz)/15.6型ワイドTFTカラー液晶HD(1366 X 768)(Webカメラ付き)" width=160 ></a></td></tr><tr class=woong><td valign=top align=center>
+                    <a href="/shopdetail/000000207303/">
+                    【WEB限定】(ノートパソコン)NEC VersaPro J VJ22T/FW-S(Win10Pro 64bit) タイプVF/Core i5-5200U (2.20GHz)/15.6型ワイドTFTカラー液晶HD(1366 X 768)(Webカメラ付き)</a>
+                    </td></tr>
+                        <tr class=woong><td valign=top align=center>69,800円（税込）</td></tr><tr height=20 class=woong><td valign=top align=center><a href="/shopbrand/ct1740/">
+                    <b>[13型〜15.6型]</b></a></td></tr></table>
+                    </td><td align=center class=lims width=25% valign=top>
+                <table border=0 cellpadding=0 cellspacing=0 width=100% height=80><tr><td align=center height=160>
+                            <a href="/shopdetail/000000207302/">
+<img src="/shopimages/applied/0000002073023.jpg" border=0 alt="【WEB限定】(ノートパソコン)NEC VersaPro J VJ17E/FW-S(Win10Pro 64bit) タイプVF/Celeron 3215U (1.70GHz)/15.6型ワイドTFTカラー液晶HD(1366 X 768)(Webカメラ付き)" width=160 ></a></td></tr><tr class=woong><td valign=top align=center>
+                    <a href="/shopdetail/000000207302/">
+                    【WEB限定】(ノートパソコン)NEC VersaPro J VJ17E/FW-S(Win10Pro 64bit) タイプVF/Celeron 3215U (1.70GHz)/15.6型ワイドTFTカラー液晶HD(1366 X 768)(Webカメラ付き)</a>
+                    </td></tr>
+                        <tr class=woong><td valign=top align=center>49,800円（税込）</td></tr><tr height=20 class=woong><td valign=top align=center><a href="/shopbrand/ct1740/">
+                    <b>[13型〜15.6型]</b></a></td></tr></table>
+                    </td></tr><tr><td colspan="7" class="line" height="5">&nbsp;</td><tr>
+<td align=center class=lims width=25% valign=top>
+                <table border=0 cellpadding=0 cellspacing=0 width=100% height=80><tr><td align=center height=160>
+                            <a href="/shopdetail/000000207277/">
+<img src="/shopimages/applied/0000002072773.jpg" border=0 alt="(マザーボード)GIGABYTE GA-H170N-WIFI [Rev.1.0]" width=160 ></a></td></tr><tr class=woong><td valign=top align=center>
+                    <a href="/shopdetail/000000207277/">
+                    (マザーボード)GIGABYTE GA-H170N-WIFI [Rev.1.0]</a>
+                    </td></tr>
+                        <tr class=woong><td valign=top align=center>14,980円（税込）</td></tr><tr height=20 class=woong><td valign=top align=center><a href="/shopbrand/ct1698/">
+                    <b>[LGA1151]</b></a></td></tr></table>
+                    </td><td align=center class=lims width=25% valign=top>
+                <table border=0 cellpadding=0 cellspacing=0 width=100% height=80><tr><td align=center height=160>
+                            <a href="/shopdetail/000000207276/">
+<img src="/shopimages/applied/0000002072763.jpg" border=0 alt="(マザーボード)GIGABYTE GA-H170-Designare [Rev.1.0]" width=160 ></a></td></tr><tr class=woong><td valign=top align=center>
+                    <a href="/shopdetail/000000207276/">
+                    (マザーボード)GIGABYTE GA-H170-Designare [Rev.1.0]</a>
+                    </td></tr>
+                        <tr class=woong><td valign=top align=center>11,779円（税込）</td></tr><tr height=20 class=woong><td valign=top align=center><a href="/shopbrand/ct1698/">
+                    <b>[LGA1151]</b></a></td></tr></table>
+                    </td><td align=center class=lims width=25% valign=top>
+                <table border=0 cellpadding=0 cellspacing=0 width=100% height=80><tr><td align=center height=160>
+                            <a href="/shopdetail/000000207274/">
+<img src="/shopimages/applied/0000002072743.jpg" border=0 alt="(マザーボード)GIGABYTE GA-Z170X-UD3 [Rev.1.0]" width=160 ></a></td></tr><tr class=woong><td valign=top align=center>
+                    <a href="/shopdetail/000000207274/">
+                    (マザーボード)GIGABYTE GA-Z170X-UD3 [Rev.1.0]</a>
+                    </td></tr>
+                        <tr class=woong><td valign=top align=center>9,520円（税込）</td></tr><tr height=20 class=woong><td valign=top align=center><a href="/shopbrand/ct1698/">
+                    <b>[LGA1151]</b></a></td></tr></table>
+                    </td><td align=center class=lims width=25% valign=top>
+                <table border=0 cellpadding=0 cellspacing=0 width=100% height=80><tr><td align=center height=160>
+                            <a href="/shopdetail/000000207273/">
+<img src="/shopimages/applied/0000002072733.jpg" border=0 alt="(マザーボード)GIGABYTE GA-Z170-HD3P [Rev.1.0]" width=160 ></a></td></tr><tr class=woong><td valign=top align=center>
+                    <a href="/shopdetail/000000207273/">
+                    (マザーボード)GIGABYTE GA-Z170-HD3P [Rev.1.0]</a>
+                    </td></tr>
+                        <tr class=woong><td valign=top align=center>8,980円（税込）</td></tr><tr height=20 class=woong><td valign=top align=center><a href="/shopbrand/ct1698/">
+                    <b>[LGA1151]</b></a></td></tr></table>
+                    </td></tr><tr><td colspan="7" class="line" height="5">&nbsp;</td><tr>
+</tr></table>
+ 
+	</div>
+
+	
+	<div class="section marginleft12px clear" id="r_ranking">
+        <img src="/images/original_design_default/samplesource/7/rankingTitle.png" alt="ランキング" class="titleMgn marginleft0px">
+        
+        <div class="rankList" id="rank1">
+            <em>1</em>
+            <div class="rankImg"><a href="/shopdetail/000000207170"><img src="/shopimages/applied/0000002071702.jpg" border=0  alt="(CPU Kabylake カービーレイク)intel Core i7-7700K" height=100  align=center valign=absmiddle>
+</a></div>
+            <div class="rankDetail">
+            	<p class="rankName"><a href="/shopdetail/000000207170">(CPU Kabylake カービーレイク)intel Core i7-7700K</a></p>
+            	<p class="rankPrice">36,999円（税込）</p>
+            </div>
+        </div>
+        
+        <div class="rankList" id="rank2">
+            <em>2</em>
+            <div class="rankImg"><a href="/shopdetail/000000197735"><img src="/shopimages/applied/0000001977352.jpg" border=0  alt="CANON　PIXUS TS5030 [ホワイト]" width=100  align=center valign=absmiddle>
+</a></div>
+            <div class="rankDetail">
+            	<p class="rankName"><a href="/shopdetail/000000197735">CANON　PIXUS TS5030 [ホワイト]</a></p>
+            	<p class="rankPrice">10,830円（税込）</p>
+            </div>
+        </div>
+        
+        <div class="rankList" id="rank3">
+            <em>3</em>
+            <div class="rankImg"><a href="/shopdetail/000000206371"><img src="/shopimages/applied/0000002063712.jpg" border=0  alt="intel Core i7-7700" width=100  align=center valign=absmiddle>
+</a></div>
+            <div class="rankDetail">
+            	<p class="rankName"><a href="/shopdetail/000000206371">intel Core i7-7700</a></p>
+            	<p class="rankPrice">33,977円（税込）</p>
+            </div>
+        </div>
+        
+        <div class="rankList" id="rank4">
+            <em>4</em>
+            <div class="rankImg"><a href="/shopdetail/000000207274"><img src="/shopimages/applied/0000002072742.jpg" border=0  alt="(マザーボード)GIGABYTE GA-Z170X-UD3 [Rev.1.0]" width=100  align=center valign=absmiddle>
+</a></div>
+            <div class="rankDetail">
+            	<p class="rankName"><a href="/shopdetail/000000207274">(マザーボード)GIGABYTE GA-Z170X-UD3 [Rev.1.0]</a></p>
+            	<p class="rankPrice">9,520円（税込）</p>
+            </div>
+        </div>
+        
+        <div class="rankList" id="rank5">
+            <em>5</em>
+            <div class="rankImg"><a href="/shopdetail/000000207269"><img src="/shopimages/applied/0000002072692.jpg" border=0  alt="(ノートパソコン)パナソニック Let&#039;s note RZ6 CF-RZ6BFMQR SIMフリー(Office付/10.1 インチ/Win10Pro64bit)" width=100  align=center valign=absmiddle>
+</a></div>
+            <div class="rankDetail">
+            	<p class="rankName"><a href="/shopdetail/000000207269">(ノートパソコン)パナソニック Let's note RZ6 CF-RZ6BFMQR SIMフリー(Office付/10.1 インチ/Win10Pro64bit)</a></p>
+            	<p class="rankPrice">190,799円（税込）</p>
+            </div>
+        </div>
+        
+	</div>
+	
+
+	
+
+        <!-- PICK UP ITEM 注目商品 -->
+	<!-- <div class="section" id="r_special">
+		<table border=0 width=100% cellpadding=0 cellspacing=0><tr><td><img src="/design/applied/specialtitle.gif"></td></tr></table>
+	</div>-->
+	
+	<!--『中央画面に表示する』を選択している場合、内容を出力-->
+	
+
+	<!--[ INFO4N]-->
+	
+<!--ショップアドレス-->
+
+
+
+
+</div>
+<tr><td colspan=4><!--div class="clear">
+    <p class="pageTop"><a href="#header">ページトップへ</a></p>
+</div-->
+</td></tr></tbody></table>
+
+
+<style>
+
+#right_nav {
+    position: fixed;
+    z-index: 9999;
+    /* right: 0; */
+    /* top: calc(50% - 330px) */
+    bottom: 10px;
+    right: 10px;
+    z-index: 12000;
+}
+#right_nav ul li a {
+    -webkit-transition: All 0.5s ease;
+    transition: All 0.5s ease
+}
+#right_nav ul li a:hover {
+    opacity: 0.6
+}
+#right_nav .right_nav_balloon {
+    position: fixed;
+    right: 45px;
+    top: calc(50% - 350px)
+}
+#right_nav_01 {
+    height: 640px;
+     display: inherit;
+}
+.element_hidden {
+    display: none;
+}
+
+.left00{
+    position:fixed;
+    left:0;
+    top:calc(50% - 300px);
+    z-index:1000;
+}
+
+
+.left01{
+    position:fixed;
+    left:0;
+    top:calc(50% - 170px);
+    z-index:1000;
+}
+.left01:hover{
+    opacity:0.7;
+}
+
+.left02{
+    position:fixed;
+    left:0;
+    top:calc(50% - 40px);
+    z-index:1000;
+}
+.left02:hover{
+    opacity:0.7;
+}
+
+.left03{
+    position:fixed;
+    left:0;
+    top:calc(50% + 45px);
+    z-index:1000;
+}
+.left03:hover{
+    opacity:0.7;
+}
+.left04{
+    position:fixed;
+    left:0;
+    top:calc(50% + 130px);
+    z-index:1000;
+}
+.left04:hover{
+    opacity:0.7;
+}
+
+.left05{
+    position:fixed;
+    left:0;
+    top:calc(50% + 215px);
+    z-index:1000;
+}
+.left05:hover{
+    opacity:0.7;
+}
+
+#ft-guaidearia {
+    height:100px;
+}
+
+#ft a{
+color:#fff;
+}
+.ft_nav_box{
+    width:100%;
+    position:fixed;
+    left:0;
+    bottom:-8px;
+    z-index:1000;
+    background: rgba(255,255,255,0.50);
+    box-shadow:0 -8px 8px rgba(0,0,0,0.05);
+}
+.ft_nav{
+    width:960px;
+    margin:6px auto;
+    position:relative;
+}
+.ft_nav ul{
+    overflow:hidden;
+}
+.ft_nav li{
+    float:left;
+}
+.ft_nav_absolute_01{
+    z-index:1005;
+    position:absolute;
+    top:-50px;
+    left:-10px;
+}
+.ft_nav_absolute_02{
+    z-index:1006;
+    position:absolute;
+    top:-50px;
+    left:170px;
+}
+
+.ft_nav_absolute_03{
+    z-index:1007;
+    position:absolute;
+    top:-50px;
+    left:345px;
+}
+
+.ft_nav_absolute_04{
+    z-index:1008;
+    position:absolute;
+    top:-50px;
+    left:520px;
+}
+
+.ft_nav_absolute_05{
+    z-index:1009;
+    position:absolute;
+    top:-50px;
+    left:695px;
+}
+
+.left_nav_absolute_01{
+    position:fixed;
+    left:0;
+    top:calc(50% - 220px);
+    z-index:1005;
+
+}
+.left_nav_absolute_02{
+    position:fixed;
+    left:0;
+    top:calc(50% - 90px);
+    z-index:1005;
+}
+
+</style>
+
+<script type="text/javascript" language="JavaScript">
+
+var menuHeight = $( id="right_nav").height();
+var startPos = 0;
+
+$(window).scroll(function(){
+  var currentPos = $(this).scrollTop();
+  if (currentPos > startPos) {
+    if($(window).scrollTop() >= 200) {
+    console.log("in01");
+      $("#right_nav_01").children().addClass("element_hidden");
+    }
+  } else {
+    console.log("in02");
+    $("#right_nav_01").children().removeClass("element_hidden")
+  }
+  startPos = currentPos;
+});
+
+</script>
+
+
+<!-- contents end--></div>
+
+
+
+
+<!--//wrap--></div>
+
+<div id="right_nav">
+<!-- ul id="right_nav_01">
+<li><a href="http://shop.applied-net.co.jp/shopbrand/027/O/"><img src="http://gigaplus.makeshop.jp/applied/FTIMG/right_nav_01.png" alt="本日の一品"></a></li>
+<li><a href="http://aplayer.applied-net.co.jp/" target="_blank"><img src="http://gigaplus.makeshop.jp/applied/FTIMG/right_nav_02.png" alt="BTO"></a></li>
+<li><a href="http://shop.applied-net.co.jp/shopbrand/ct1263/"><img src="http://gigaplus.makeshop.jp/applied/FTIMG/right_nav_03.png" alt="激安PC"></a></li>
+<li><a href="http://shop.applied-net.co.jp/shopbrand/ct1265/"><img src="http://gigaplus.makeshop.jp/applied/FTIMG/right_nav_04.png" alt="PCパーツ"></a></li>
+<li><a href="http://times.applied-net.jp/" target="_blank"><img src="http://gigaplus.makeshop.jp/applied/FTIMG/right_nav_05.png" alt="店舗情報"></a></li>
+<img src="http://gigaplus.makeshop.jp/applied/FTIMG/right_nav_balloon.png" alt="" class="right_nav_balloon">
+</ul -->
+
+<ul id="right_nav_01">
+<li><a href="http://times.applied-net.jp/summer_tech/" target="_blank"><img src="https://gigaplus.makeshop.jp/applied/images/summer_tech.gif" alt="ページの先頭に戻る"></a></li>
+</ul>
+<ul id="right_nav_02">
+<li><a href="#wrap"><img src="http://gigaplus.makeshop.jp/applied/FTIMG/right_nav_06.png" alt="ページの先頭に戻る"></a></li>
+</ul>
+</div>
+
+<!-- ティッカー表示 -->
+<div id="bottom_nav">
+</div>
+<!-- ここまで -->
+
+<div id="footerWrap">
+
+    <div id="footer_banner">
+        <div class="footer_banner_title">
+            <img src="http://gigaplus.makeshop.jp/applied/images/common/top_banner/footer_banner_title.png">
+        </div>
+
+<!--コムロードオンライン-->
+<div id="footer_comroad" style="margin-bottom: 30px;">
+<a href="http://www.applied-g.com/" target="_blank" title="家電・キッチン・日用品ならコムロードオンライン"><img src="http://gigaplus.makeshop.jp/applied/images/common/top_banner/comroad-footer_banner.jpg" alt="家電・キッチン・日用品ならコムロードオンライン"></a>
+<!-- <iframe scrolling="yes" frameborder="0" src="http://gigaplus.makeshop.jp/comroad/com_online.html" target="_blank" width="960" height="200" name="apnet" style="border: 1px solid #CCCCCC ; " align="middle" title="コムロードオンライン">インラインフレームに対応したブラウザで御覧ください。</iframe> -->
+</div>
+<!--コムロードオンライン ここまで-->
+
+        <div class="footer_banner_01 clear">
+            <div>
+                <a href="https://twitter.com/aplayer_tw" target="_blank"><img src="http://gigaplus.makeshop.jp/applied/images/common/top_banner/a-player_tw.png" alt="A-Player"></a>
+                <a href="http://www.applied.ne.jp/edu/" target="_blank"><img src="http://gigaplus.makeshop.jp/applied/images/common/top_banner/banner_03.png" alt="大学研究所向けサイト"></a>
+                <a href="http://ride3.applied-net.co.jp/" target="_blank"><img src="http://gigaplus.makeshop.jp/applied/images/common/top_banner/banner_04.png" alt="法人様向け総合サイト"></a>
+                <a href="http://ride3.applied-net.co.jp/html/page141.html" target="_blank"><img src="http://gigaplus.makeshop.jp/applied/images/common/top_banner/banner_05.png" alt="アプライド法人様向け 導入案件事例＆支援"></a>
+                <a href="http://www.applied-g.jp/recruit/" target="_blank"><img src="http://gigaplus.makeshop.jp/applied/images/common/top_banner/saiyou2.png" alt="2018年 新卒採用スタート"></a>
+            </div>
+        </div>
+        <div class="footer_banner_02 clear">
+            <div>
+                <a href="http://times.applied-net.jp/item/tokki_staff/" target="_blank"><img src="http://gigaplus.makeshop.jp/applied/images/common/top_banner/saiyou.png" alt="アプライド法人営業部 事務所アルバイトスタッフ募集"></a>
+                <a href="http://tokki.applied-net.co.jp/index.html" target="_blank"><img src="http://gigaplus.makeshop.jp/applied/images/common/top_banner/banner_06.png" alt="BtoBパソコン調達サイト RIDE"></a>
+                <a href="http://www.preb.co.jp/" target="_blank"><img src="http://gigaplus.makeshop.jp/applied/images/common/top_banner/hows_web.png" alt="how's 株式会社ハウズ"></a>
+                <a href="http://shop.preb.co.jp/" target="_blank"><img src="http://gigaplus.makeshop.jp/applied/images/common/top_banner/hows_online.png" alt="ハウズオンラインストア"></a>
+                <a href="http://www.applied-g.jp/article_recruitment.html" target="_blank"><img src="http://gigaplus.makeshop.jp/applied/images/common/top_banner/banner_08-02.png" alt="出店物件情報 募集"></a>
+            </div>
+        </div>
+        <div class="footer_banner_03 clear">
+            <div>
+                <a href="http://www.okeikofukuoka.com/fukuoka_school/FTop" target="_blank"><img src="http://gigaplus.makeshop.jp/applied/images/common/top_banner/matikatu01.png" alt="おけいこnetふくおか"></a>
+                <a href="http://oic-fukuoka.com/contents/FTop" target="_blank"><img src="http://gigaplus.makeshop.jp/applied/images/common/top_banner/matikatu02.png" alt="おいしいnetふくおか"></a>
+                <a href="http://zakka-fukuoka.com/contents/FTop" target="_blank"><img src="http://gigaplus.makeshop.jp/applied/images/common/top_banner/matikatu03.png" alt="雑貨とインテリアnetふくおか"></a>
+                <a href="http://kirei-fukuoka.com/contents/FTop" target="_blank"><img src="http://gigaplus.makeshop.jp/applied/images/common/top_banner/matikatu05.png" alt="きれいnetふくおか"></a>
+                <a href="http://www.machijp.com/" target="_blank"><img src="http://gigaplus.makeshop.jp/applied/images/common/top_banner/machikatunavi.png" alt="街活ナビ"></a>
+            </div>
+        </div>
+        <div class="footer_banner_04 clear">
+            <div>
+                <a href="http://www.i-satu.com/" target="_blank"><img src="http://gigaplus.makeshop.jp/applied/images/common/top_banner/goisatu.png" alt="Go-isatu"></a>
+                <a href="http://emi.preb.co.jp/" target="_blank"><img src="http://gigaplus.makeshop.jp/applied/images/common/top_banner/emi.png" alt="ハンドメイド emi"></a>
+                <a href="http://blog.feeltech.jp/" target="_blank"><img src="http://gigaplus.makeshop.jp/applied/images/common/top_banner/feeltech.png" alt="パソコンオンライン学習 Feeltech"></a>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer" class="clear">
+
+        <ul id="f_nav">
+            <li><a href="JavaScript:bottom_privercy()">個人情報保護ポリシー</a></li>
+            <li><a href="/html/ordercontract.html">特定商取引法表示</a></li>
+            <li><a href="/html/info.html">ご利用ガイド</a></li>
+            <li></li>
+            <li><a href="JavaScript:bottom_sendmail()">お問い合わせ</a></li>
+        </ul>
+         
+         
+        <div id="f_info">
+            【アプライドネット】shop.applied-net.co.jp<br>
+            アプライド株式会社&nbsp; <br>
+            福岡県福岡市博多区豊2丁目3-19&nbsp;お問い合わせはメールにて<br>
+            <address>Copyright (c) アプライドネット all rights reserved.</address>
+        </div>
+    </div>
+<div id="ft-guaidearia"></div>
+</div><!--//footerWrap-->
+   
+</td></tr>
+</table>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-38338473-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+    <form name="ssl_login_form" method="post" action="https://www.makeshop.jp/ssl/slogin/" target="_top" style="margin:0;padding:0;">
+        <input type="hidden" name="db" value="applied">
+        <input type="hidden" name="type" value="">
+        <input type="hidden" name="opt" value="">
+        <input type="hidden" name="ssl_login_return_url" value="%2Findex.html">
+        <input type="hidden" name="user_id" value="">
+        
+    </form>
+
+    <script language="JavaScript">
+    function ssl_login(type, etc, user_id){
+        var etc = (typeof(etc) != "undefined") ? etc : '';
+        var user_id = (typeof(user_id) != "undefined") ? user_id : '';
+        var msg_index = {
+            "member" : "登録済みの会員情報を変更するにはログインが必要です。\nログイン画面へ移動します。\n会員登録は、ログイン画面から会員登録画面へ移動してください。",
+            "reserve" : "ポイント照会にはログインが必要です。\nログイン画面へ移動します。",
+            "confirm" : "注文履歴にはログイン、または注文番号が必要です。\nログイン画面へ移動します。"
+        };
+
+        if (type == 'no_reserve') {
+            alert('ポイント機能はご利用いただけません');
+            return;
+        }
+        if(typeof(msg_index[type]) != "undefined"){
+            alert(msg_index[type]);
+        }
+        ga('linker:decorate', document.ssl_login_form);
+
+        // 上段 + メインフレームタイプの場合return_url
+        if(typeof(parent.main) != "undefined" && typeof(parent.main.location) != "undefined"){
+            var rtn_url = 0;
+            var tmp = parent.main.location.href.split("/");
+            tmp.splice(0,3);
+
+            if(/^[main][a-z0-9]+\.html/.test(tmp[1])){
+                rtn_url = 1;
+            }else if(tmp[0] == 'shopdetail'){
+                rtn_url = 1;
+            }else if(tmp[0] == 'shopbrand'){
+                rtn_url = 1;
+            }else if(tmp[1] == 'basket.html'){
+                rtn_url = 1;
+            }
+
+            if(rtn_url == 1){
+                document.ssl_login_form.ssl_login_return_url.value = '/' + tmp.join("/");
+            }
+        }
+        
+
+        document.ssl_login_form.type.value = type;
+        document.ssl_login_form.opt.value = etc;
+        document.ssl_login_form.user_id.value = user_id;
+        document.ssl_login_form.submit();
+    }
+    </script>
+    <form name="ssl_idinfo_form" style="margin:0;padding:0;" method="post" action="https://www.makeshop.jp/ssl/ssl_idinfo/ssl_idinfo.html" target="sslMypageWindow">
+        <input type="hidden" name="db" value="applied">
+        <input type="hidden" name="login_id" value="">
+        <input type="hidden" name="login_id_key" value="">
+        
+    </form>
+    <script language="JavaScript">
+    function ssl_idinfo() {
+        window.open("about:blank", "sslMypageWindow", "width=800,height=600,scrollbars=yes,resizable=yes");
+        document.ssl_idinfo_form.submit();
+    }
+    </script>
+    <form name="ssl_confirm_form" style="margin:0;padding:0;" method="post" action="https://www.makeshop.jp/ssl/ssl_confirm/confirm.html" target="sslMypageWindow">
+        <input type="hidden" name="db" value="applied">
+        <input type="hidden" name="login_id" value="">
+        <input type="hidden" name="login_id_key" value="">
+        <input type="hidden" name="type" value="confirm">
+    </form>
+    <script language="JavaScript">
+    function ssl_confirm(){
+        window.open("about:blank", "sslMypageWindow", "width=800,height=600,scrollbars=yes,resizable=yes");
+        document.ssl_confirm_form.submit();
+    }
+    </script>
+    <form name="ssl_point_form" style="margin:0;padding:0;" method="post" action="https://www.makeshop.jp/ssl/mypage/point.html" target="sslMypageWindow">
+        <input type="hidden" name="db" value="applied">
+        <input type="hidden" name="login_id" value="">
+        <input type="hidden" name="login_id_key" value="">
+    </form>
+    <script language="JavaScript">
+    function ssl_point(){
+        window.open("about:blank", "sslMypageWindow", "width=800,height=600,scrollbars=yes,resizable=yes");
+        document.ssl_point_form.submit();
+    }
+    </script>
+<form name="ssl_contact_form" method="post" action="https://www.makeshop.jp/ssl/contact/" target="sslContactWindow">
+<input type="hidden" name="admin_id" value="applied">
+<input type="hidden" name="login_id" value="">
+<input type="hidden" name="login_id_key" value="">
+</form>
+<script>
+function ssl_contact() {
+    window.open("about:blank","sslContactWindow","width=800,height=600,scrollbars=yes,resizable=yes");
+    document.ssl_contact_form.submit();
+}
+function top_email() {
+    ssl_contact();
+}
+function top_sendmail() {
+    ssl_contact();
+}
+function sendmail() {
+    ssl_contact();
+}
+function bottom_sendmail() {
+    ssl_contact();
+}
+</script>
+<form name="formEnquete" method="post" action="https://www.makeshop.jp/ssl/enquete/" target="enqueteWindow">
+<input type="hidden" name="db" value="applied">
+<input type="hidden" name="login_id" value="">
+<input type="hidden" name="login_id_key" value="">
+<input type="hidden" name="form_code" value="">
+</form>
+<script>
+function openEnqueteWindow(code) {
+    window.open('about:blank', 'enqueteWindow', 'width=650,height=600,scrollbars=yes');
+    document.formEnquete.form_code.value = code;
+    document.formEnquete.submit();
+}
+</script>
+
+</body>
+</html>

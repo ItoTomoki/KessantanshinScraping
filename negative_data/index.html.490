@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="株式会社三光マーケティングフーズの公式サイト。三光マーケティングフーズは「人」が生きていくために必要不可欠な「食」に携わることへの誇りと感謝の気持ちを持ち、世界に必要とされる食ブランドを創ることに挑戦し続ける総合フードビジネス企業です。">
+<meta name="author" content="株式会社三光マーケティングフーズ">
+<meta name="copyright" content="Copyright&copy; SANKO MARKETING FOODS All rights Reserved.">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="format-detection" content="telephone=no">
+<title>株式会社三光マーケティングフーズ｜公式サイト</title>
+<link rel="shortcut icon" href="/shared/images/favicon.ico">
+<!-- ■■■■■■ Start : css ■■■■■ -->
+<link rel="stylesheet" type="text/css" href="/shared/css/base.css" media="screen,print">
+<link rel="stylesheet" type="text/css" href="/shared/css/frame.css" media="screen,print">
+<link rel="stylesheet" type="text/css" href="/shared/css/modules.css" media="screen,print">
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+<noscript>
+<link rel="stylesheet" type="text/css" href="/shared/css/frame_noscript.css" media="screen,print">
+</noscript>
+<link rel="stylesheet" type="text/css" href="/css/style.css" media="screen,print">
+<!-- ■■■■■■ End : css ■■■■■ -->
+<!-- ■■■■■■ Start : js ■■■■■ -->
+<script type="text/javascript" src="/shared/js/jquery.js"></script>
+<script type="text/javascript" src="/shared/js/run.js"></script>
+
+<!-- ■■■■■■ End : js ■■■■■ -->
+</head>
+
+<body id="home">
+<!-- ■■■■■■ Start : Google Analytics ■■■■■ -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-1022761-1', 'auto');
+ga('send', 'pageview');
+
+</script>
+<!-- ■■■■■■ End : Google Analytics ■■■■■ -->
+
+<!-- ■■■■■■ Start : header ■■■■■ -->
+<header>
+<div id="header" class="js-megadrop">
+<div class="inner">
+<h1 class="logo"><a href="/"><img src="/shared/images/img-logo-sanko_01.png" alt="株式会社 三光マーケティングフーズ"></a></h1>
+<div class="nav-lang js-tgl" data-tgl-click-close="true">
+<p class="btn-lang"><a href="#lang-01" class="js-tgl-trigger">Language</a></p>
+<ul class="list-lang js-tgl-content" id="lang-01">
+<li><a href="/en/">英語</a></li>
+<li><a href="/cn/">中国語</a></li>
+<li><a href="/kr/">韓国語</a></li>
+</ul><!-- /.list-lang -->
+</div><!-- /.nav-lang -->
+<a href="#hamburgermenu" class="hamburger-btn"><span><span class="btntxt">メニュー</span></span></a>
+</div><!-- /.inner -->
+
+<div class="hamburger-content" id="hamburgermenu">
+<nav>
+<div class="megadrop-container">
+<ul class="nav-header">
+<li><a href="#megadrop-company" class="megadrop-trigger">企業情報</a>
+<!-- // conmpany // -->
+<div class="megadrop-contents nav-header-content" id="megadrop-company">
+<div class="megadrop-contents-bg">
+<div class="megadrop-contents-inner" id="menu-company">
+<a href="/company/" class="magadrop-link-hdg-box roll_01 nav-header-hdg"><span>企業情報トップ</span></a>
+<div class="magadrop-link-box">
+<div class="megadrop-list-menu nav-header-list">
+<a href="/company/greeting/" class="roll_01">社長あいさつ</a>
+<a href="/company/philosophy/" class="roll_01">理念</a>
+<a href="/company/overview/" class="roll_01">会社概要</a>
+<a href="/company/growth/" class="roll_01">成長シナリオ</a>
+<a href="/company/history/" class="roll_01">歴史</a>
+<a href="/company/organization/" class="roll_01">組織図</a>
+<a href="/company/governance/" class="roll_01">コーポレート・ガバナンス</a>
+</div>
+</div><!-- /.magadrop-link-box -->
+</div><!-- /.megadrop-contents-inner -->
+<div class="megadrop-btn-close">
+</div><!-- /.megadrop-btn-close -->
+</div><!-- /.megadrop-contents-bg -->
+</div><!-- /.megadrop-contents -->
+</li>
+<li><a href="#megadrop-brands" class="megadrop-trigger">ブランド紹介</a>
+<!-- // brands // -->
+<div class="megadrop-contents nav-header-content" id="megadrop-brands">
+<div class="megadrop-contents-bg">
+<div class="megadrop-contents-inner" id="menu-brands">
+<a href="/brands/" class="magadrop-link-hdg-box roll_01 nav-header-hdg"><span>ブランド紹介トップ</span></a>
+<div class="magadrop-link-box">
+<div class="megadrop-list-menu nav-header-list">
+<a href="/brands/hope/" class="roll_01">ブランドに込めた想い</a>
+<a href="/brands/list/" class="roll_01">ブランド一覧</a>
+</div>
+<div class="megadrop-list-menu nav-header-list type_o">
+<a href="/brands/store/" class="roll_01">店舗物件情報募集</a>
+</div>
+</div><!-- /.magadrop-link-box -->
+</div><!-- /.megadrop-contents-inner -->
+<div class="megadrop-btn-close">
+</div><!-- /.megadrop-btn-close -->
+</div><!-- /.megadrop-contents-bg -->
+</div><!-- /.megadrop-contents -->
+</li>
+<li><a href="#megadrop-ir" class="megadrop-trigger">IR情報</a>
+<!-- // ir // -->
+<div class="megadrop-contents nav-header-content" id="megadrop-ir">
+<div class="megadrop-contents-bg">
+<div class="megadrop-contents-inner" id="menu-ir">
+<a href="/ir/" class="magadrop-link-hdg-box roll_01 nav-header-hdg"><span>IR情報トップ</span></a>
+<div class="magadrop-link-box">
+<div class="megadrop-list-menu nav-header-list">
+<a href="/ir/management/" class="roll_01">経営情報</a>
+<a href="/ir/financial/" class="roll_01">業績・財務</a>
+<a href="/ir/library/" class="roll_01">IRライブラリー</a>
+<a href="/ir/stock/" class="roll_01">株式情報</a>
+<a href="/ir/meeting/" class="roll_01">株主総会</a>
+</div>
+<div class="megadrop-list-submenu">
+<a href="/ir/information/">IRインフォメーション</a>
+<a href="http://kmasterplus.pronexus.co.jp/main/corp/2/7/2762/index.html" target="_blank">電子公告<span class="linkicon"><img src="/shared/images/img-icon-blank_01.png" alt="新しいウィンドウで開く" /></span></a>
+<a href="/ir/disclaimer/">免責事項</a>
+<a href="https://www.sankofoods.com/contact/index.php?type=2">IRに関するお問い合わせ</a>
+</div>
+</div><!-- /.magadrop-link-box -->
+</div><!-- /.megadrop-contents-inner -->
+<div class="megadrop-btn-close">
+</div><!-- /.megadrop-btn-close -->
+</div><!-- /.megadrop-contents-bg -->
+</div><!-- /.megadrop-contents -->
+</li>
+<li><a href="#megadrop-recruit" class="megadrop-trigger">採用情報</a>
+<!-- // recruit // -->
+<div class="megadrop-contents nav-header-content" id="megadrop-recruit">
+<div class="megadrop-contents-bg">
+<div class="megadrop-contents-inner" id="menu-recruit">
+<a href="/recruit/" class="magadrop-link-hdg-box roll_01 nav-header-hdg"><span>採用情報トップ</span></a>
+<div class="magadrop-link-box">
+<div class="megadrop-list-menu nav-header-list">
+<a href="/recruit/message/" class="roll_01">社長メッセージ</a>
+<a href="/recruit/keyword/" class="roll_01">キーワード</a>
+<a href="/recruit/person/" class="roll_01">人を知る</a>
+<a href="/recruit/employment/" class="roll_01">採用関連情報</a>
+</div>
+<div class="megadrop-list-menu nav-header-list type_o">
+<a href="https://job.mynavi.jp/18/pc/search/corp74998/outline.html" target="_blank" class="roll_01"><span>2018新卒採用<span class="linkicon"><img src="/shared/images/img-icon-blank_02.png" alt="新しいウィンドウで開く" /></span></span></a>
+<a href="http://job-gear.net/sankofoods/" class="roll_01" target="_blank"><span>中途採用<span class="linkicon"><img src="/shared/images/img-icon-blank_02.png" alt="新しいウィンドウで開く" /></span></span></a>
+<a href="http://job-gear.net/sankofoods/" class="roll_01" target="_blank"><span>アルバイト採用<span class="linkicon"><img src="/shared/images/img-icon-blank_02.png" alt="新しいウィンドウで開く" /></span></span></a>
+</div>
+<div class="megadrop-list-submenu">
+<a href="https://www.sankofoods.com/contact/index.php?type=3">採用に関するお問い合わせ</a>
+</div>
+</div><!-- /.magadrop-link-box -->
+</div><!-- /.megadrop-contents-inner -->
+<div class="megadrop-btn-close">
+</div><!-- /.megadrop-btn-close -->
+</div><!-- /.megadrop-contents-bg -->
+</div><!-- /.megadrop-contents -->
+</li>
+<li><a href="#megadrop-fc" class="megadrop-trigger">加盟店募集</a>
+<!-- //fc // -->
+<div class="megadrop-contents nav-header-content" id="megadrop-fc">
+<div class="megadrop-contents-bg">
+<div class="megadrop-contents-inner megadrop-contents-type2" id="menu-fc">
+<a href="/fc/" class="magadrop-link-hdg-box roll_01 nav-header-hdg">
+<div class="magadrop-link-hdg-box-inner">
+<span>加盟店募集トップ</span><span class="txt">店舗のしくみ、コストシュミレーション、開業までの流れなどを掲載しております。</span>
+</div>
+</a>
+<a href="https://www.sankofoods.com/contact/index.php?type=4" class="magadrop-link-hdg-box roll_01 nav-header-hdg btn_o">
+<div class="magadrop-link-hdg-box-inner">
+<span>加盟店に関するお問い合わせ</span><span class="txt">加盟店ご希望の方は、こちらよりお問い合わせください。</span>
+</div>
+</a>
+</div><!-- /.megadrop-contents-inner -->
+<div class="megadrop-btn-close">
+</div><!-- /.megadrop-btn-close -->
+</div><!-- /.megadrop-contents-bg -->
+</div><!-- /.megadrop-contents -->
+</li>
+</ul><!-- /.nav-header -->
+</div><!-- /.megadrop-container-->
+<ul class="nav-siteinfo">
+<li><a href="/news/">ニュースリリース</a></li>
+<li><a href="/contact/">お問い合わせ</a></li>
+</ul><!-- /.nav-siteinfo -->
+</nav>
+</div><!-- /.hamburger-content -->
+
+</div><!-- /#header -->
+</header>
+
+<!-- ■■■■■■ End : header ■■■■■ -->
+
+<main>
+<div id="content">
+<div id="home-vm">
+<div class="inner">
+<div class="area-video-header">
+<div class="video-headr">
+<div class="video">
+<iframe src="https://www.videog.jp/player/uDYbyf3aDY-V" scrolling="no" allowfullscreen></iframe>
+<img class="ky-visual-sp" src="/images/img-mainvisual_01_01.jpg" alt="">
+<div class="filter"></div>
+</div><!-- /.video -->
+<p class="home-hdg">すべてはお客様のために<span class="home-hdg-lead">サービス・商品・立地・空間づくり。<br>
+ひとつひとつにこだわり続け、<br>
+心からの落ち着きと納得の美味しさを提供します</span></p>
+<p class="scroll-txt"><a href="#anc-01">SCROLL</a></p>
+</div><!-- /.video-header -->
+</div><!-- /.area-video-header -->
+</div><!-- /.inner -->
+</div><!-- /#home-vm -->
+
+<div id="content-main">
+
+<section id="anc-01" class="sec_01">
+<h2 class="hdg-l2_03"><a href="/brands/">ブランド紹介</a></h2>
+<ul class="nav_01">
+<li><a href="http://www.sankofoods.com/shop/kinjr/" target="_blank"><span class="img"><img src="/images/img-top-logo_01.png" alt="" /></span><span class="txt">金の蔵<span class="linkicon"><img src="/shared/images/img-icon-blank_01.png" alt="新しいウィンドウで開く" /></span></span></a></li>
+<li><a href="http://www.sankofoods.com/shop/akamaruya/index.html" target="_blank"><span class="img"><img src="/images/img-top-logo_02.png" alt="" /></span><span class="txt">アカマル屋<span class="linkicon"><img src="/shared/images/img-icon-blank_01.png" alt="新しいウィンドウで開く" /></span></span></a></li>
+<li><a href="http://www.tsukino-shizuku.com/" target="_blank"><span class="img"><img src="/images/img-top-logo_03.png" alt="" /></span><span class="txt">月の雫<span class="linkicon"><img src="/shared/images/img-icon-blank_01.png" alt="新しいウィンドウで開く" /></span></span></a></li>
+<li><a href="http://www.sankofoods.com/shop/baribari/index.html" target="_blank"><span class="img"><img src="/images/img-top-logo_04.png" alt="" /></span><span class="txt">バリバリ鶏<span class="linkicon"><img src="/shared/images/img-icon-blank_01.png" alt="新しいウィンドウで開く" /></span></span></a></li>
+<li><a href="http://www.sankofoods.com/shop/kikkon/index.html" target="_blank"><span class="img"><img src="/images/img-top-logo_05.png" alt="" /></span><span class="txt">吉今<span class="linkicon"><img src="/shared/images/img-icon-blank_01.png" alt="新しいウィンドウで開く" /></span></span></a></li>
+<li class="btn"><a href="/brands/list/"><span class="txt">ブランド一覧</span></a></li>
+</ul>
+</section>
+
+<section class="sec_02">
+<div class="sec-bg">
+<img src="/images/img-bg-sec_02.png" alt="">
+</div><!-- /.sec-bg -->
+<div class="sec-inner">
+<h2 class="hdg-l2_04"><a href="/brands/hope/">ブランドに込めた想い</a></h2>
+<p class="lead_02">2つの異なる視点を持って、新たな価値を生み出しています。</p>
+<ul class="index_04 js-adjust-block">
+<li>
+<div class="col">
+<div class="roll_02">
+<a href="/brands/hope/#anc-01" class="roll-inner">
+<div class="head js-adjust-01">
+<div class="ttl">
+<h3 class="txt">経営者の目線</h3>
+<p class="txt-lead">時代やマーケットに基づいたブランドを生み出す</p>
+</div>
+</div>
+<div class="detail-img js-adjust-01">
+<img src="/images/img-top_01.jpg" alt="">
+</div><!-- /.detail-img -->
+</a><!-- /.roll-inner -->
+</div><!-- /.roll_02 -->
+</div><!-- /.col -->
+</li>
+<li>
+<div class="col">
+<div class="roll_02">
+<a href="/brands/hope/#anc-02" class="roll-inner">
+<div class="head js-adjust-01">
+<div class="ttl">
+<h3 class="txt">ブランド担当者の目線</h3>
+<p class="txt-lead">ブランドコンセプトに基づき、サービスや内装にこだわりぬく</p>
+</div>
+</div>
+<div class="detail-img js-adjust-01">
+<img src="/images/img-top_02.jpg" alt="">
+</div><!-- /.detail-img -->
+</a><!-- /.roll-inner -->
+</div><!-- /.roll_02 -->
+</div><!-- /.col -->
+</li>
+</ul><!-- /.index_04 -->
+</div><!-- /.sec-inner -->
+</section>
+
+<section class="sec_03">
+<div class="sec-bg">
+<img src="/images/img-bg-sec_03.png" alt="">
+</div><!-- /.sec-bg -->
+<div class="sec-inner">
+<h2 class="hdg-l2_04"><a href="/recruit/">採用情報</a></h2>
+<p class="lead_02">「人」が成長することが、当社の成長につながると考えています。</p>
+<ul class="index_05">
+<li class="roll_02">
+<a href="/recruit/keyword/" class="roll-inner">
+<div class="index_05-img"><img src="/images/img-top_03.jpg" alt=""></div>
+<h3 class="index_05-txt"><span>キーワード</span></h3>
+</a>
+</li>
+<li  class="roll_02">
+<a href="/recruit/person/" class="roll-inner">
+<div class="index_05-img"><img src="/images/img-top_04.jpg" alt=""></div>
+<h3 class="index_05-txt"><span>人を知る</span></h3>
+</a>
+</li>
+</ul>
+<div class="list-link-btn_01">
+<ul>
+<li>
+<a href="https://job.mynavi.jp/18/pc/search/corp74998/outline.html" class="roll_01" target="_blank">
+<span>2018新卒採用<span class="linkicon"><img src="/shared/images/img-icon-blank_02.png" alt="新しいウィンドウで開く" /></span></span>
+</a>
+</li>
+<li>
+<a href="http://job-gear.net/sankofoods/" class="roll_01" target="_blank">
+<span>中途採用<span class="linkicon"><img src="/shared/images/img-icon-blank_02.png" alt="新しいウィンドウで開く" /></span></span>
+</a>
+</li>
+<li>
+<a href="http://job-gear.net/sankofoods/" class="roll_01" target="_blank">
+<span>アルバイト採用<span class="linkicon"><img src="/shared/images/img-icon-blank_02.png" alt="新しいウィンドウで開く" /></span></span>
+</a>
+</li>
+</ul>
+</div>
+</div><!-- /.sec-inner -->
+</section>
+
+<section class="sec_04">
+<div class="sec-inner">
+<h2 class="hdg-l2_03">三光マーケティングフーズについて</h2>
+<ul class="index_06">
+<li class="roll_02">
+<a href="/company/" class="roll-inner">
+<div class="index_06-img"><img src="/images/img-top_05.png" alt=""></div>
+<div class="index_06-txt"><h3 class="index_06-txt-hdg"><span class="index_06-txt-hdg-inner"><span>企業情報</span></span></h3></div>
+</a>
+</li>
+<li class="roll_02">
+<a href="/ir/" class="roll-inner">
+<div class="index_06-img"><img src="/images/img-top_06.png" alt=""></div>
+<div class="index_06-txt"><h3 class="index_06-txt-hdg"><span class="index_06-txt-hdg-inner"><span>IR情報</span></span></h3></div>
+</a>
+</li>
+</ul>
+
+<div class="list-link-btn_02">
+<ul>
+<li>
+<a href="/company/greeting/" class="roll_01">
+<span>社長あいさつ</span>
+</a>
+</li>
+<li>
+<a href="/company/philosophy/" class="roll_01">
+<span>理念</span>
+</a>
+</li>
+<li>
+<a href="/ir/financial/highlight/" class="roll_01">
+<span>業績ハイライト</span>
+</a>
+</li>
+<li>
+<a href="/ir/library/" class="roll_01">
+<span>IRライブラリー</span>
+</a>
+</li>
+</ul>
+</div>
+</div><!-- /.sec-inner -->
+</section>
+
+<section class="sec_05">
+<div class="sec-inner">
+<div class="lyt-col2_01">
+<div class="lyt-col2_01-inner">
+<h2 class="hdg-l2_02"><a href="/news/">ニュースリリース</a></h2>
+<div id="eirArea_news"></div>
+</div><!-- /.lyt-col2_01-inner -->
+<div class="lyt-col2_01-inner">
+<h2 class="hdg-l2_02"><a href="/ir/information/">IRインフォメーション</a></h2>
+<div id="eirArea_info"></div>
+</div><!-- /.lyt-col2_01-inner -->
+<!-- E-IR Parts -->
+<div id="eirArea"></div>
+<script type="text/javascript" src="/eir/eir.js" charset="utf-8"></script>
+<script type="text/javascript">
+var eirUrl = ('https:' == document.location.protocol ? 'https://ssl4' : 'http://v4') + '.eir-parts.net';
+if(document.location.protocol == 'https:' || document.location.protocol == 'http:'){
+	var eirPass = eirUrl + '/Custom/public/parts/' + eirCode + '/' + uniCodeEir + '/parts/';
+}else{
+	var eirPass = '/' + eirCode + '/' + uniCodeEir + '/parts/';
+}
+document.write(unescape("%3Cscript src='" + eirPass + "junction.js' charset='utf-8' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+if(typeof eirFlg == 'undefined'){
+	document.write(message)
+}
+else{
+	setParts('cop_top');
+}
+</script>
+<!-- /E-IR Parts -->
+</div><!-- /.lyt-col2_01 -->
+</div><!-- /.sec-inner -->
+</section>
+
+
+
+
+</div><!-- /#content-main -->
+
+<p class="nav-pagetop_01"><a href="#top"><span>ページトップへ</span></a></p>
+
+</div><!-- /#content -->
+</main>
+
+<!-- ■■■■■■ Start : footer ■■■■■ -->
+<footer>
+<div id="footer">
+<div class="inner">
+<ul class="nav-footer js-adjust-block">
+<li class="js-adjust"><a href="/company/" class="ttl-cate">企業情報</a>
+<ul>
+<li><a href="/company/greeting/">社長あいさつ</a></li>
+<li><a href="/company/philosophy/">理念</a></li>
+<li><a href="/company/overview/">会社概要</a></li>
+<li><a href="/company/growth/">成長シナリオ</a></li>
+<li><a href="/company/history/">沿革</a></li>
+<li><a href="/company/organization/">組織図</a></li>
+<li><a href="/company/governance/">コーポレート・ガバナンス</a></li>
+</ul>
+</li>
+<li class="js-adjust"><a href="/brands/" class="ttl-cate">ブランド紹介</a>
+<ul>
+<li><a href="/brands/hope/">ブランドに込めた想い</a></li>
+<li><a href="/brands/list/">ブランド一覧</a></li>
+<li><a href="/brands/store/">店舗物件情報</a></li>
+</ul>
+</li>
+<li class="js-adjust"><a href="/ir/" class="ttl-cate">IR情報</a>
+<ul>
+<li><a href="/ir/management/">経営情報</a></li>
+<li><a href="/ir/financial/">業績・財務</a></li>
+<li><a href="/ir/library/">IRライブラリー</a></li>
+<li><a href="/ir/meeting/">株主総会</a></li>
+<li><a href="/ir/stock/">株式情報</a></li>
+<li><a href="/ir/information/">IRインフォメーション</a></li>
+<li><a href="http://kmasterplus.pronexus.co.jp/main/corp/2/7/2762/index.html" target="_blank">電子公告<span class="linkicon"><img src="/shared/images/img-icon-blank_02.png" alt="新しいウィンドウで開く" /></span></a></li>
+<li><a href="/ir/disclaimer/">免責事項</a></li>
+<li><a href="https://www.sankofoods.com/contact/index.php?type=2">IRに関するお問い合わせ</a></li>
+</ul>
+</li>
+<li class="js-adjust-01"><a href="/recruit/" class="ttl-cate">採用情報</a>
+<ul>
+<li><a href="/recruit/message/">社長メッセージ</a></li>
+<li><a href="/recruit/keyword/">キーワード</a></li>
+<li><a href="/recruit/person/">人を知る</a></li>
+<li><a href="/recruit/employment/">採用関連情報</a></li>
+<li><a href="https://www.sankofoods.com/contact/index.php?type=3">採用に関するお問い合わせ</a></li>
+<li><a href="https://job.mynavi.jp/18/pc/search/corp74998/outline.html" target="_blank">2018新卒採用<span class="linkicon"><img src="/shared/images/img-icon-blank_02.png" alt="新しいウィンドウで開く" /></span></a></li>
+<li><a href="http://job-gear.net/sankofoods/" target="_blank">中途採用<span class="linkicon"><img src="/shared/images/img-icon-blank_02.png" alt="新しいウィンドウで開く" /></span></a></li>
+<li><a href="http://job-gear.net/sankofoods/" target="_blank">アルバイト採用<span class="linkicon"><img src="/shared/images/img-icon-blank_02.png" alt="新しいウィンドウで開く" /></span></a></li>
+</ul>
+</li>
+<li class="js-adjust-01"><a href="/fc/" class="ttl-cate">加盟店募集</a>
+<ul>
+<li><a href="https://www.sankofoods.com/contact/index.php?type=4">加盟店に関するお問い合わせ</a></li>
+</ul>
+</li>
+<li class="js-adjust-01"><a href="/news/" class="ttl-cate">ニュースリリース</a>
+<a href="/contact/" class="ttl-cate">お問い合わせ</a></li>
+</ul><!-- /.nav-footer -->
+
+<ul class="nav-siteinfo">
+<li><a href="/privacy/">プライバシーポリシー</a></li>
+<li><a href="/sitemap/">サイトマップ</a></li>
+</ul>
+
+<p class="copyright"><small>Copyright&copy; SANKO MARKETING FOODS All rights Reserved.</small></p>
+</div><!-- /#footer -->
+<!-- /footer --></div>
+</footer>
+
+<!-- ■■■■■■ End : footer ■■■■■ -->
+
+</body>
+</html>

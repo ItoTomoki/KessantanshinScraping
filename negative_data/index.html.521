@@ -1,0 +1,708 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<title>カゴメ株式会社</title>
+<meta name="keywords" content="カゴメ,KAGOME,商品情報,キャンペーン,CM,おすすめレシピ,通販,健康直送便,新商品,Think GREEN KAGOME" />
+<meta name="description" content="ようこそ、カゴメのホームページへ。商品情報やおすすめレシピ、知って役立つトマトと野菜の話など、楽しい情報が満載です！" />
+<meta http-equiv="X-UA-Compatible" content="IE=100" />
+<link rel="stylesheet" href="/n_css/shared.css" type="text/css" media="screen,print" />
+<link rel="stylesheet" href="/n_css/index.css" type="text/css" media="screen,print" />
+<link rel="stylesheet" href="/n_css/frame_part01.css" type="text/css" media="screen,print" />
+<link rel="stylesheet" href="/n_css/top_oshirase.css" type="text/css" media="screen,print" />
+<link rel="stylesheet" href="/top/css/slick.css" type="text/css" media="screen,print" />
+<link rel="stylesheet" href="/top/css/top.css" type="text/css" media="screen,print" />
+<script src="/top/js/jquery.js" type="text/javascript"></script>
+<script src="/top/js/jquery.easing.1.3.js" type="text/javascript"></script>
+<script src="/top/js/slick.js" type="text/javascript"></script>
+<script src="/top/js/jQueryAutoHeight.js" type="text/javascript"></script>
+<script src="/top/js/products_news.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+	var news = {
+		ListNum:2,	// 表示件数
+		StrLen:50,	// タイトル表示文字数
+		xml:"/company/news/digest_all6.xml"	//xmlファイル
+	}
+	productsNews.initialize(news);
+});
+</script>
+
+<!--[if lte IE 9]>
+<script src="/top/js/pie.js" type="text/javascript"></script>
+<![endif]-->
+<script src="/top/js/function.js" type="text/javascript"></script>
+</head>
+<body>
+<link rel="stylesheet" href="/n_css/shared.css" type="text/css" media="screen,print" />
+<div id="fh01" class="fp">
+<div id="pt" class="u01">
+<p class="p01"><a href="/"><img src="/n_images/logo_share-fh01.gif" width="103" height="51" alt="自然を、おいしく、楽しく。KAGOME" /></a></p>
+<p class="p02"><a href="/company/"><img src="/n_images/btn_share-fh01-link01.gif" width="172" height="32" alt="企業情報サイト" class="n_rollover" /></a></p>
+<ul>
+<li class="first-child"><a href="/"><img src="/n_images/l-txt_share-fh01-link01.gif" width="76" height="11" alt="トップへ戻る" /></a></li>
+<li><a href="/customer/"><img src="/n_images/l-txt_share-fh01-link02.gif" width="111" height="11" alt="お客様相談センター" /></a></li>
+<li><a href="http://ac.ebis.ne.jp/tr_set.php?argument=Yv9hMnx2&ai=1206cojp001" target="_blank"><img src="/n_images/l-txt_share-fh01-link03.gif" width="66" height="11" alt="健康直送便" /></a></li>
+<li><a href="/info/sitemap.html"><img src="/n_images/l-txt_share-fh01-link04.gif" width="74" height="11" alt="サイトマップ" /></a></li>
+</ul>
+<!-- /u01 --></div>
+<script src="/n_js/jquery.dropdownPlain.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	if(location.pathname != "/") {
+		$('#gNav a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('active');
+	} //else $('#gNav a:eq(0)').addClass('active');
+});
+</script>
+<div id="gNav" class="u02">
+	<ul class="dropdown inner-u02">
+		<li class="nav01"><a href="/products/" class="nav1st" title="商品情報とブランドサイトを紹介します。">カゴメの商品</a></li>
+		<li class="nav02"><a href="/recipe/search/" class="nav1st" title="カゴメの便利なレシピ検索サイトです。">おすすめレシピ</a></li>
+		<li class="nav03"><a href="/health/" class="nav1st">もっと知りたい</a>
+			<ul class="sub_menu">
+				<li><a href="/tomato/" title="トマト・野菜に関する役立つ情報がいっぱいです。">トマトの健康効果</a></li>
+				<li><a href="/health/vegetable/lesson/" title="野菜の健康効果">野菜の健康効果</a></li>
+				<li><a href="/nyusankin/" title="植物性乳酸菌についての情報サイトです。">植物性乳酸菌</a></li>
+				<li class="last"><a href="/juice/" title="野菜ジュースの魅力、活用法を紹介します。">野菜をジュースで摂ろう！</a></li>
+			</ul>
+		</li>
+		<li class="nav04"><a onclick="return false;" class="nav1st">お楽しみBOX</a>
+			<ul class="sub_menu">
+				<li><a href="/campaign/" title="カゴメの商品を深く知るコンテンツです。">スペシャルコンテンツ</a></li>
+				<li><a href="/monozukuri/" title="ものづくりへのこだわりをお伝えします。">カゴメのものづくり</a></li>
+				<li><a href="/present/tvcm/" title="カゴメのCM映像をご紹介します。">CMギャラリー</a></li>
+				<li class="last"><a href="/present/" title="トクするキャンペーン情報をご紹介します。">キャンペーン</a></a></li>
+			</ul>
+		</li>
+		<li class="nav06"><a href="http://ac.ebis.ne.jp/tr_set.php?argument=Yv9hMnx2&ai=1206cojp002" target="_blank" class="nav1st" title="お店では買えない特別なカゴメです。">健康直送便</a></li>
+		<li class="nav07"><a href="http://and.kagome.co.jp/" target="_blank" class="nav1st" title="＆KAGOME（アンドカゴメ）">&kagome</a></li>
+		<li class="nav08"><a href="/vegeday" class="nav1st" title="vegeday">vegeday</a></li>
+	</ul>
+</div><!-- /#gNav -->
+</div><!-- /#fh01 -->
+
+
+<!--重要なお知らせ-->
+<div class="attention">
+<!-- span>20**.**.****　</span -->
+<p><a href="/oshirase/">お知らせ：不審な投資勧誘にご注意ください（2017年7月5日更新）</a></p>
+</div>
+
+<!-- div class="attention">
+<span>20**.**.****　</span>
+<a href=""></a>
+</div -->
+<!--重要なお知らせ-->
+
+<div class="main">
+<div class="mainInner">
+<div class="slide">
+
+<!-- div class="bg">
+	<p><a href="/ys100/yssmoothie/" class="slideImg"><img src="/top/img/170228_smoothie_thumb.jpg" alt="野菜生活100 smoothie" /></a></p>
+</div -->
+<div class="bg">
+	<p><a href="/campaign/asavege/" class="slideImg"><img src="/top/img/170818_asavege_thumb.jpg" alt="朝ベジ習慣をはじめよう！" /></a></p>
+</div>
+<div class="bg">
+	<p><a href="/health/vegetable/lesson/" class="slideImg"><img src="/top/img/170808_teacher_thumb.jpg" alt="野菜先生の野菜授業" /></a></p>
+</div>
+<div class="bg">
+	<p><a href="/campaign/nikoniko/" class="slideImg"><img src="/top/img/170801_kodomochallenge_thumb.jpg" alt="KAGOME×こどもちゃれんじ　親子でニコニコ朝ごはんキャンペーン" /></a></p>
+</div>
+<div class="bg">
+	<p><a href="/campaign/jojo/" class="slideImg"><img src="/top/img/170719_jojo_thumb.jpg" alt="「野菜生活100」&amp;「ジョジョの奇妙な冒険 ダイヤモンドは砕けない 第一章」キャンペーン" /></a></p>
+</div>
+<div class="bg">
+	<p><a href="/tomatojuice/vr-factory/" class="slideImg"><img src="/top/img/170808_vr_thumb.jpg" alt="カゴメジュース VRスコープで360°工場見学" /></a></p>
+</div>
+<div class="bg">
+	<p><a href="/tomatojuice/premium/" class="slideImg"><img src="/top/img/170808_tomatopremium_thumb.jpg" alt="カゴメトマトジュース PREMIUM" /></a></p>
+</div>
+<div class="bg">
+	<p><a href="/campaign/pokemon/" class="slideImg"><img src="/top/img/170616_pokemon_thumb.jpg" alt="ケチャップにムチュウ！ポケモンキャンペーン2017" /></a></p>
+</div>
+<div class="bg">
+	<p><a href="/campaign/chisan/" class="slideImg"><img src="/top/img/170417_ys100_thumb.jpg" alt="野菜生活100 季節限定シリーズ 産地の恵み 実感キャンペーン" /></a></p>
+</div>
+<div class="bg">
+	<p><a href="/ys100/peel/" class="slideImg"><img src="/top/img/170328_ys100_thumb.jpg" alt="Peel&amp;Herb おいしく、ココロ、ととのえる" /></a></p>
+</div>
+<div class="bg">
+	<p><a href="/campaign/naposta/" class="slideImg"><img src="/top/img/170514_naposta_thumb.jpg" alt="ナポリタンスタジアム2017" /></a></p>
+</div>
+<div class="bg">
+	<p><a href="/campaign/shindan/03/" class="slideImg"><img src="/top/img/170630_shindan_thumb.jpg" alt="あなたの野菜不足診断" /></a></p>
+</div>
+<div class="bg">
+	<p><a href="/greens/" class="slideImg"><img src="/top/img/170404_greens_thumb.jpg" alt="GREENS 素材そのものの栄養が活きている。" /></a></p>
+</div>
+<div class="bg">
+	<p><a href="http://shop.kagome.co.jp/lp/rd.php?aid=161005nouen011" class="slideImg" target="_blank"><img src="/top/img/161018_nouen_thumb.jpg" alt="農園応援 応援したい農園に出会いました。" /></a></p>
+</div>
+<div class="bg">
+	<p><a href="http://shop.kagome.co.jp/lp/rd.php?aid=150415cojpbn02" class="slideImg" target="_blank"><img src="/top/img/170710_sgs_thumb.png" alt="カゴメの通信販売 健康直送便 お店では手に入らない特別なカゴメ" /></a></p>
+</div>
+<div class="bg">
+	<p><a href="http://shop.kagome.co.jp/lp/rd.php?aid=1406cojptub01" class="slideImg"><img src="/top/img/160818_tsubuyori_thumb.jpg" alt="つぶより野菜" /></a></p>
+</div>
+<div class="bg">
+	<p><a href="/kagomegekijo/" class="slideImg"><img src="/top/img/170410_gekijo_thumb.jpg" alt="カゴメ劇場" /></a></p>
+</div>
+
+<!-- /slide --></div>
+<div class="slidePrev"></div>
+<div class="slideNext"></div>
+<div class="ovL"></div>
+<div class="ovR"></div>
+<!-- /mainInner --></div>
+<!-- /main --></div>
+
+<div class="products">
+<div class="wrap">
+<h2><img src="/top/img/txt_top_01.gif" alt="カゴメの商品" /></h2>
+<ul class="productsNav">
+<li class="productsboxs_01"><span class="productsIco_01"><img src="/top/img/ico_top_02.png" alt="" /></span><a href="/products/new/"><img src="/top/img/btn_top_04_ovr.gif" alt="新商品" class="ovLink" /><img src="/top/img/btn_top_04.gif" alt="新商品" /></a></li>
+<li class="productsboxs_02"><span class="productsIco_02"><img src="/top/img/ico_top_03.png" alt="" /></span><a href="/products/drink/"><img src="/top/img/btn_top_05_ovr.gif" alt="飲料" class="ovLink" /><img src="/top/img/btn_top_05.gif" alt="飲料" /></a></li>
+<li class="productsboxs_03"><span class="productsIco_03"><img src="/top/img/ico_top_04.png" alt="" /></span><a href="/products/food/"><img src="/top/img/btn_top_06_ovr.gif" alt="食品" class="ovLink" /><img src="/top/img/btn_top_06.gif" alt="食品" /></a></li>
+<li class="productsboxs_04"><span class="productsIco_04"><img src="/top/img/ico_top_05.png" alt="" /></span><a href="/products/gift.html"><img src="/top/img/btn_top_07_ovr.gif" alt="ギフト" class="ovLink" /><img src="/top/img/btn_top_07.gif" alt="ギフト" /></a></li>
+<li class="productsboxs_05"><span class="productsIco_05"><img src="/top/img/ico_top_06.png" alt="" /></span><a href="/seisen/"><img src="/top/img/btn_top_08_ovr.gif" alt="生鮮野菜" class="ovLink" /><img src="/top/img/btn_top_08.gif" alt="生鮮野菜" /></a></li>
+<li class="productsboxs_06"><span class="productsIco_06"><img src="/top/img/ico_top_08.png" alt="" /></span><a href="/foodservice/"><img src="/top/img/btn_top_24_ovr.png" alt="業務用" class="ovLink" /><img src="/top/img/btn_top_24.png" alt="業務用" /></a></li>
+<li class="productsboxs_06"><span class="productsIco_07"><img src="/top/img/ico_top_07.png" alt="" /></span><a href="http://ac.ebis.ne.jp/tr_set.php?argument=Yv9hMnx2&ai=1503cojp01" target="_blank"><img src="/top/img/btn_top_09_ovr.gif" alt="通信販売" class="ovLink" /><img src="/top/img/btn_top_09.gif" alt="通信販売" /></a></li>
+</ul>
+<!-- /wrap --></div>
+<!-- /products --></div>
+
+<div id="fc03" class="fp">
+<div class="u01">
+<div class="functions01">
+<script type="text/javascript" src="/n_js/function.js"></script>
+<!-- /functions01 --></div>
+<!-- /u01 --></div>
+<!-- /fc03 --></div>
+
+<div class="wrap">
+<div class="inner">
+
+<div class="colType01">
+
+<div class="colType01Inner brand">
+<h2 class="colType01Ttl"><img src="/top/img/txt_top_02.gif" alt="ブランドサイト" /></h2>
+<div class="brandWrap">
+<div class="brandSlide">
+<p><a href="/kaketoma/"><img src="/top/img/bnr_topcol_10.jpg" alt="かけトマ" /></a></p>
+<p><a href="/labre/"><img src="/top/img/bnr_topcol_01.jpg" alt="ラブレ" /></a></p>
+<p><a href="/tomatosauce/"><img src="/top/img/bnr_topcol_08.jpg" alt="カゴメ基本のトマトソース" /></a></p>
+<p><a href="/ketchup/"><img src="/top/img/bnr_topcol_02.jpg" alt="トマトケチャップ" /></a></p>
+<p><a href="/sauce/"><img src="/top/img/bnr_topcol_03.jpg" alt="カゴメソース" /></a></p>
+<p><a href="/koreichi/"><img src="/top/img/bnr_topcol_04.jpg" alt="野菜一日これ一本" /></a></p>
+<p><a href="/tomatojuice/"><img src="/top/img/bnr_topcol_05.jpg" alt="カゴメトマトジュース" /></a></p>
+<p><a href="/ys100/"><img src="/top/img/bnr_topcol_06.jpg" alt="野菜生活100" /></a></p>
+<p><a href="/tomato-mentsuyu/"><img src="/top/img/bnr_topcol_09.jpg" alt="トマトめんつゆ" /></a></p>
+<p><a href="/noukou-aragoshi/"><img src="/top/img/bnr_topcol_11.jpg" alt="濃厚あらごしトマト" /></a></p>
+<!-- /brandSlide --></div>
+
+<div class="brandPrevbg"></div>
+<div class="brandNextbg"></div>
+<div class="brandPrev"></div>
+<div class="brandNext"></div>
+<!-- /brandWrap --></div>
+<p class="colType01Link"><a href="/products/"><img src="/top/img/btn_top_12_ovr.gif" alt="ブランドサイト一覧" class="ovLink" /><img src="/top/img/btn_top_12.gif" alt="ブランドサイト一覧" /></a></p>
+<!-- /colType01Inner --></div>
+
+<div class="colType01Inner">
+<h2 class="colType01Ttl"><img src="/top/img/txt_top_03.gif" alt="キャンペーン" /></h2>
+<div class="campaign">
+
+<div class="campaignBox">
+<p class="campaignImg"><a href="/campaign/nikoniko/"><img src="top/img/img_topcamp_kodomochallenge.jpg" width="225" height="100" alt="KAGOME×こどもちゃれんじ　親子でニコニコ朝ごはんキャンペーン" /></a></p>
+<p class="campaignTxt"><a href="/campaign/nikoniko/">KAGOME×こどもちゃれんじ<br />親子でニコニコ朝ごはんキャンペーン</a></p>
+</div>
+
+<div class="campaignBox">
+<p class="campaignImg"><a href="/campaign/jojo/"><img src="top/img/img_topcamp_jojo.jpg" width="225" height="100" alt="「野菜生活100」&amp;「ジョジョの奇妙な冒険 ダイヤモンドは砕けない 第一章」キャンペーン" /></a></p>
+<p class="campaignTxt"><a href="/campaign/jojo/">『野菜生活100』&amp;『ジョジョの奇妙な冒険 ダイヤモンドは砕けない 第一章』キャンペーン</a></p>
+</div>
+
+<div class="campaignBox">
+<p class="campaignImg"><a href="/campaign/pokemon/"><img src="top/img/img_topcamp_pokemon8.jpg" width="225" height="100" alt="ケチャップにムチュウ！ポケモンキャンペーン2017" /></a></p>
+<p class="campaignTxt"><a href="/campaign/pokemon/">ケチャップにムチュウ！<br />ポケモンキャンペーン2017</a></p>
+</div>
+
+<div class="campaignBox">
+<p class="campaignImg"><a href="/campaign/chisan/"><img src="top/img/img_topcamp_chisan_02.jpg" width="225" height="100" alt="野菜生活100 季節限定シリーズ 産地の恵み 実感キャンペーン" /></a></p>
+<p class="campaignTxt"><a href="/campaign/chisan/">野菜生活100 季節限定シリーズ<br />産地の恵み実感キャンペーン</a></p>
+</div>
+
+<div class="campaignBox">
+<p class="campaignImg"><a href="https://c-so.net/kagomephoto/" target="_blank"><img src="top/img/img_topcamp_tomato.jpg" width="225" height="100" alt="BBQでトマト！？画像投稿キャンペーン" /></a></p>
+<p class="campaignTxt"><a href="https://c-so.net/kagomephoto/" target="_blank">BBQでトマト！？<br />画像投稿キャンペーン</a></p>
+</div>
+
+</div>
+
+<p class="colType01Link"><a href="/present/"><img src="/top/img/btn_top_13_ovr.gif" alt="キャンペーン一覧" class="ovLink" /><img src="/top/img/btn_top_13.gif" alt="キャンペーン一覧" /></a></p>
+</div><!-- /colType01Inner -->
+
+<div class="colType01Inner special">
+<h2 class="colType01Ttl"><img src="/top/img/txt_top_04.gif" alt="スペシャルコンテンツ" /></h2>
+<div class="specialWrap">
+<div class="specialSlide">
+<p><a href="/campaign/asavege/"><img src="/top/img/bnr_topsp_18.jpg" alt="朝ベジ習慣をはじめよう！" /></a></p>
+<p><a href="/campaign/shindan/03/"><img src="/top/img/bnr_topsp_15.jpg" alt="あなたの野菜不足度診断" /></a></p>
+<p><a href="http://shop.kagome.co.jp/lp/rd.php?aid=161005nouen012" target="_blank"><img src="/top/img/bnr_topsp_11.jpg" alt="農園応援 応援したい農園に出会いました。" /></a></p>
+<p><a href="/ys100/smoothie/"><img src="/top/img/bnr_topsp_01.jpg" alt="つくろう!my野菜生活" /></a></p>
+<p><a href="/campaign/oiketchup/"><img src="/top/img/bnr_topsp_02.jpg" alt="追いケチャナポリタン" /></a></p>
+<p><a href="/campaign/naposta/"><img src="/top/img/bnr_topsp_16.jpg" alt="ナポリタンスタジアム2017" /></a></p>
+<p><a href="/company/shokuiku/factory/"><img src="/top/img/bnr_topsp_04.jpg" alt="カゴメ工場たんけん隊！" /></a></p>
+<p><a href="/campaign/kyushu/"><img src="/top/img/bnr_topsp_05.jpg" alt="野菜をジュースで摂る理由" /></a></p>
+<p><a href="/campaign/honto/"><img src="/top/img/bnr_topsp_06.jpg" alt="野菜ジュースのホント！" /></a></p>
+<p><a href="/campaign/rolling-stock/"><img src="/top/img/bnr_topsp_07.jpg" alt="備蓄野菜のススメ" /></a></p>
+<p><a href="/campaign/kaketoma/"><img src="/top/img/bnr_topsp_08.jpg" alt="かけトマキャンペーン" /></a></p>
+<p><a href="/campaign/genen/"><img src="/top/img/bnr_topsp_09.jpg" alt="トマトで&quot;おいしく&quot;減塩 トマトのチカラでおいしく健康に" /></a></p>
+<!-- /brandSlide --></div>
+<div class="specialPrevbg"></div>
+<div class="specialNextbg"></div>
+<div class="specialPrev"></div>
+<div class="specialNext"></div>
+<!-- /brandWrap --></div>
+<p class="colType01Link"><a href="/campaign/"><img src="/top/img/btn_top_14_ovr.gif" alt="スペシャルコンテンツ一覧" class="ovLink" /><img src="/top/img/btn_top_14.gif" alt="スペシャルコンテンツ一覧" /></a></p>
+<!-- /colType01Inner --></div>
+
+<div class="colType01Inner">
+<h2 class="colType01Ttl"><img src="/top/img/txt_top_05.gif" alt="おすすめレシピ" /></h2>
+<div class="recipe">
+<div class="recipeBox">
+<p class="recipeImg"><a href="/recipe/event/index.html"><img src="/top/img/img_toprecipe_03.jpg" alt="" /></a></p>
+<p class="recipeLink"><a href="/recipe/event/index.html"><img src="/top/img/btn_top_17_ovr.gif" alt="イベントレシピ" class="ovLink" /><img src="/top/img/btn_top_17.gif" alt="イベントレシピ" /></a></p>
+<!-- /recipeBox --></div>
+<!-- /recipe --></div>
+<p class="colType01Link"><a href="/recipe/"><img src="/top/img/btn_top_18_ovr.gif" alt="レシピ検索一覧" class="ovLink" /><img src="/top/img/btn_top_18.gif" alt="レシピ検索一覧" /></a></p>
+<!-- /colType01Inner --></div>
+
+<div class="colType01Inner">
+<h2 class="colType01Ttl"><img src="/top/img/txt_top_06.gif" alt="企業情報サイト" /></h2>
+<ul class="info">
+<li class="infoBnr"><a href="/company/kankyo/"><img src="/top/img/bnr_indexinfo_01.jpg" alt="社会・環境（ＣＳＲ）" class="ovr" /></a></li>
+<li class="infoBnr"><a href="/company/ir/"><img src="/top/img/bnr_indexinfo_02.jpg" alt="ファン株主のみなさまへ" class="ovr" /></a></li>
+<li class="infoBnr"><a href="/company/recruit/"><img src="/top/img/bnr_indexinfo_03.jpg" alt="採用情報" class="ovr" /></a></li>
+<li class="infoBnr"><a href="/hinshitsu/"><img src="/top/img/bnr_indexinfo_04.jpg" alt="安心・安全" class="ovr" /></a></li>
+<li class="infoBnr"><a href="/customer/"><img src="/top/img/bnr_indexinfo_05.jpg" alt="お客様相談センター" class="ovr" /></a></li>
+<li class="infoBnr"><a href="/company/shokuiku/factory/index.html"><img src="/top/img/bnr_indexinfo_06.jpg" alt="カゴメ工場たんけん隊!" class="ovr" /></a></li>
+</ul>
+<p class="colType01Link"><a href="/company/index.html"><img src="/top/img/btn_top_19_ovr.gif" alt="企業サイトトップ" class="ovLink" /><img src="/top/img/btn_top_19.gif" alt="企業サイトトップ" /></a></p>
+<!-- /colType01Inner --></div>
+
+<!-- /colType01 --></div>
+
+<div class="colType02">
+
+<div class="colType02Inner">
+<h2 class="colType02Ttl"><img src="/top/img/txt_top_07.gif" alt="注目の新商品" /></h2>
+
+<div class="new">
+<div class="newBox">
+<div class="newInner">
+<p class="newIco"><img src="/products/n_images/icn_share-new-01.gif" alt="NEW" /><!-- img src="/products/n_images/icn_share-new-02.gif" alt="RENEW" / --></p>
+<p class="newImg"><a href="/products/drink/10198/"><img src="/n_images/img_index-release75.jpg" width="130" height="130" alt="カゴメトマトジュースプレミアム 食塩無添加 スマートPET" /></a></p>
+<p class="newLink"><a href="/products/drink/10198/">カゴメトマトジュースプレミアム<br />食塩無添加 スマートPET</a></p>
+</div>
+</div>
+</div>
+
+<p class="colType02Link"><a href="/products/new.html"><img src="/top/img/btn_top_20_ovr.gif" alt="新商品一覧" class="ovLink" /><img src="/top/img/btn_top_20.gif" alt="新商品一覧" /></a></p>
+</div><!-- /colType02Inner -->
+
+<div class="colType02Inner">
+<h2 class="colType02Ttl"><img src="/top/img/txt_top_08.gif" alt="カゴメの通信販売" /></h2>
+<div class="shop">
+<div class="shopBox">
+<div class="shopInner">
+<p class="shopImg"><a href="http://ac.ebis.ne.jp/tr_set.php?argument=Yv9hMnx2&ai=1309cojpall" target="_blank"><img src="/n_images/img_index-shop.jpg" alt="健康直送便" /></a></p>
+<p class="shopBtn"><a href="http://ac.ebis.ne.jp/tr_set.php?argument=Yv9hMnx2&ai=1309cojpall" target="_blank"><img src="/top/img/btn_top_22.gif" alt="オンラインショップはこちら" /></a></p>
+<!-- /shopInner --></div>
+<!-- /shopBox --></div>
+<!-- /shop --></div>
+
+<div class="shop" style="margin-top:10px;">
+<div class="shopBox">
+<div class="shopInner">
+<p class="shopImg"><a href="http://shop.kagome.co.jp/lp/rd.php?aid=161005nouen013" target="_blank"><img src="/n_images/img_index-nouen.jpg" alt="農園応援 応援したい農園に出会いました。" /></a></p>
+<!-- p class="shopBtn"><a href="http://ac.ebis.ne.jp/tr_set.php?argument=Yv9hMnx2&ai=1309cojpall" target="_blank"></a></p -->
+<!-- /shopInner --></div>
+<!-- /shopBox --></div>
+<!-- /shop --></div>
+<!-- /colType02Inner --></div>
+
+<div class="colType02Inner">
+<h2 class="colType02Ttl"><img src="/top/img/txt_top_09.gif" alt="CMギャラリー" /></h2>
+<h3 class="cmTtl"><a href="/present/tvcm/greens-201704_cm_a15.html">GREENS<br />野菜も、果実も、そのままがいい。」篇(15秒)</a></h3>
+<p class="cmImg"><a href="/present/tvcm/greens-201704_cm_a15.html"><img src="present/tvcm/n_images/pic-green-201704_a_216.jpg" width="216" height="120" alt="GREENS 「野菜も、果実も、そのままがいい。」篇(15秒)" /></a></p>
+<p class="cmBtn"><a href="/present/tvcm/greens-201704_cm_a15.html">CMを見る</a></p>
+<p class="colType02Link"><a href="/present/tvcm/"><img src="/top/img/btn_top_21_ovr.gif" alt="CM一覧" class="ovLink" /><img src="/top/img/btn_top_21.gif" alt="CM一覧" /></a></p>
+</div><!-- /colType02Inner -->
+
+<div class="colType02Inner" id="fc04">
+<h2 class="colType02Ttl"><img src="/top/img/txt_top_10.gif" alt="今日のレシピ" /></h2>
+<div class="u01">
+<dl>
+<dt><img src="/n_images/head_index-recipe02.gif" width="220" height="45" alt="今日のおすすめは？" /></dt>
+<dd class="dd01">
+
+<p class="date">8/<em>21</em><img src="n_images/txt_index-cal-mon.gif" alt="月曜日" width="69" height="15" /></p>
+<img src="/recipe/recipe_image/m/A01369.jpg" width="80" height="60" alt="" />
+<p class="link"><a href="/recipe/detail/A01369.html">さっぱりチキンライス</a></p>
+
+
+<p class="p01"><a href="/recipe/"><img src="/n_images/btn_index-recipe01.gif" width="170" height="32" alt="その他のレシピを探す" /></a></p>
+</dd>
+</dl>
+<!-- /u01 --></div>
+<!-- /colType02Inner --></div>
+
+<!-- /colType02 --></div>
+<!-- /inner --></div>
+
+<div class="colType03">
+<h2 class="colType03Ttl"><img src="/top/img/txt_top_11.gif" alt="お知らせ" /></h2>
+<ul class="topic">
+<li>
+<!-- p class="topicTxt">弊社に関する不審な投資勧誘にご注意ください。</p -->
+<p class="topicLink" style="line-height:1.6;"><a href="/oshirase/170414/">カゴメ紙容器飲料100ml各種 一時販売休止のお知らせ</a><br />（2017年4月14日更新）</p>
+</li>
+<li>
+<p class="topicTxt" style="line-height:1.2;">東日本大震災において被災された皆さまに、謹んでお見舞い申し上げます。カゴメグループは、今後も復興に向けた支援を継続して参ります。</p>
+<p class="topicLink"><a href="/company/news/info/">東日本大震災関連のお知らせ</a>（2012年3月16日更新）</p>
+</li>
+<!-- /topic --></ul>
+<!-- /colType03 --></div>
+
+<div class="colType04">
+<h2 class="colType04Ttl"><img src="/top/img/txt_top_12.gif" alt="新着情報" /></h2>
+<ul class="news js-products-news">
+</ul>
+<p class="newsLink"><a href="/company/news/index.html"><img src="/top/img/btn_top_23_ovr.gif" alt="ニュースリリース一覧" class="ovLink" /><img src="/top/img/btn_top_23.gif" alt="ニュースリリース一覧" /></a></p>
+<!-- /colType04 --></div>
+
+<!-- /wrap --></div>
+
+<div id="ff01" class="fp">
+<script type="text/javascript">
+if( typeof Unit == 'undefined' )
+{
+	document.write( '<script type="text/javascript" src="/n_js/set_action.js"><\/script>' );
+}
+</script>
+<script type="text/javascript" src="/n_js/ext_action01.js"></script>
+
+
+<div class="u01">
+<p class="p01"><a href="#pt"><img src="/n_images/btn_share-ff01-u01-01.gif" width="128" height="11" alt="このページのトップ" /></a></p>
+<!-- /u01 --></div>
+
+
+<div class="u02">
+<script type="text/javascript" src="/n_js/init_footer.js"></script>
+
+<div class="inner-u02-01">
+<div class="inner-u02-02 ff01-sitemap01">
+
+
+<div class="col01">
+<table cellspacing="0" width="448">
+<caption><a href="/"><img src="/n_images/head_share-ff01-01.gif" width="235" height="16" alt="KAGOME [ 商品・キャンペーンサイト ]" /></a></caption>
+<col width="150" />
+<col />
+
+<!-- カゴメの商品 -->
+<tr>
+	<th><span><a href="/products/">カゴメの商品</a></span></th>
+	<td>
+		<ul>
+			<li><a href="/products/new/">新商品</a></li>
+			<li><a href="/products/drink/">飲料</a></li>
+			<li><a href="/products/food/">食品</a></li>
+			<li><a href="/gift/">ギフト</a></li>
+			<li><a href="/seisen/">生鮮野菜</a></li>
+			<li><a href="/foodservice/">業務用</a></li>
+			<li><a href="http://ac.ebis.ne.jp/tr_set.php?argument=Yv9hMnx2&ai=1206cojp003" target="_blank">カゴメの通販<img src="/n_images/icn_share-window01.gif" width="9" height="9" class="icon01" /></a></li>
+			<li class="last-child"><a href="/products/#bsList">ブランドサイト一覧</a></li>
+		</ul>
+	</td>
+</tr>
+
+<!-- おすすめレシピ -->
+<tr>
+	<th><span><a href="/recipe/search/index.html">おすすめレシピ</a></span></th>
+	<td>
+		<ul>
+			<li><a href="/recipe/search/index.html">おすすめレシピ検索</a></li>
+			<li><a href="/recipe/search/products/">レシピを商品から探す</a></li>
+			<li class="last-child"><a href="/recipe/event/index.html">イベントレシピ</a></li>
+		</ul>
+	</td>
+</tr>
+
+<!-- もっと知りたい -->
+<tr>
+	<th><span><a href="/health/">もっと知りたい</a></span></th>
+	<td>
+		<ul>
+			<li><a href="/tomato/">トマトの健康効果</a></li>
+			<!-- li><a href="/health/vegetable/lesson/">野菜の健康効果</a></li -->
+			<li><a href="/nyusankin/">植物性乳酸菌</a></li>
+			<li class="last-child"><a href="/juice/">野菜をジュースで摂ろう！</a></li>
+		</ul>
+	</td>
+</tr>
+
+<!-- キャンペーン -->
+<tr>
+	<th><span><a href="/present/">キャンペーン</a></span></th>
+	<td>
+		<ul>
+			<li><a href="/present/">キャンペーン一覧</a></li>
+			<li class="last-child"><a href="https://cp.kagome.co.jp/mypage/index.html" target="_blank">会員登録のご案内<img src="/n_images/icn_share-window01.gif" width="9" height="9" class="icon01" /></a></li>
+		</ul>
+	</td>
+</tr>
+
+<!-- お楽しみBOX -->
+<tr>
+	<th><span><a onclick="return false;" class="noLink">お楽しみBOX</a></span></th>
+	<td>
+		<ul>
+			<li><a href="/campaign/">スペシャルコンテンツ</a></li>
+			<li><a href="/present/tvcm/">CMギャラリー</a></li>
+			<li class="last-child"><a href="/monozukuri/">カゴメのものづくり</a></li>
+		</ul>
+	</td>
+</tr>
+
+<!-- 健康直送便 -->
+<tr>
+	<th><span><a href="http://ac.ebis.ne.jp/tr_set.php?argument=Yv9hMnx2&ai=1206cojp004" target="_blank">健康直送便<img src="/n_images/icn_share-window01.gif" width="9" height="9" class="icon01" /></a></span></th>
+	<td><p class="p01">お店では買えない特別なカゴメです。</p></td>
+</tr>
+
+<!-- &kagome -->
+<tr>
+	<th><span><a href="http://and.kagome.co.jp/" target="_blank">&amp;KAGOME<img src="/n_images/icn_share-window01.gif" width="9" height="9" class="icon01" /></a></span></th>
+	<td><p class="p01">ファンのみなさまとカゴメをつなぐコミュニティサイトです。</p></td>
+</tr>
+
+<!-- VEGEDAY -->
+<tr>
+	<th><span><a href="/vegeday/">VEGEDAY</a></span></th>
+	<td><p class="p01">毎日の生活を、野菜で楽しく。</p></td>
+</tr>
+
+</table>
+</div><!-- /.col01 -->
+
+
+<div class="col02">
+<table cellspacing="0" width="448">
+<caption><span><a href="/company/index.html">企業情報サイトトップ</a></span></caption>
+<col width="145" />
+<col />
+
+<!-- ニュースリリース -->
+<tr>
+	<th><span><a href="/company/news/index.html">ニュースリリース</a></span></th>
+	<td><p class="p01">商品リリースやサイトの更新情報、過去のプレス情報など、カゴメの活動が一覧できます。</p></td>
+</tr>
+
+<!-- 会社案内 -->
+<tr>
+	<th><span><a href="/company/about/index.html">会社案内</a></span></th>
+	<td>
+		<ul>
+			<li><a href="/company/about/message.html">社長の挨拶</a></li>
+			<li><a href="/company/about/vision/index.html">企業方針</a></li>
+			<li><a href="/company/about/info/index.html">会社概要・事業所</a></li>
+			<li><a href="/company/about/group.html">関連会社</a></li>
+			<li><a href="/company/about/history/index.html">カゴメの歴史</a></li>
+			<li><a href="/company/about/code.html">行動規範</a></li>
+			<li class="last-child"><a href="/company/about/pdf/">会社案内「KAGOME STORY」ダウンロード</a></li>
+		</ul>
+	</td>
+</tr>
+
+<!-- ファン株主のみなさまへ -->
+<tr>
+	<th><span><a href="/company/ir/">IR情報</a></span></th>
+	<td>
+		<ul>
+			<li><a href="/company/ir/financial_highlight/">財務・業績ハイライト</a></li>
+			<li><a href="/company/ir/meeting/">株主総会</a></li>
+			<li><a href="/company/ir/fan/">ファン株主のみなさまへ</a></li>
+			<li><a href="/company/ir/stock/">株式情報</a></li>
+			<li><a href="/company/ir/data/">IRライブラリ</a></li>
+			<li><a href="/company/ir/news/">新着情報</a></li>
+			<li class="last-child"><a href="/company/ir/faq/">よくあるご質問</a></li>
+		</ul>
+	</td>
+</tr>
+
+<!-- 社会・環境（CSR） -->
+<tr>
+	<th><span><a href="/company/kankyo/index.html">社会・環境<br>（CSR）</a></span></th>
+	<td>
+		<ul>
+			<li><a href="/company/kankyo/report/">CSR活動報告</a></li>
+			<!-- li><a href="/company/kankyo/report/index.html">カゴメサステナビリティレポート</a></li -->
+			<li><a href="/company/shokuiku/">食育支援活動</a></li>
+			<li class="last-child"><a href="/company/kankyo/diversity/">ダイバーシティ推進</a></li>
+		</ul>
+	</td>
+</tr>
+
+<!-- 安心・安全 -->
+<tr>
+	<th><span><a href="/hinshitsu/">安心・安全</a></span></th>
+	<td>
+		<ul>
+			<li><a href="/hinshitsu/houshin/">品質方針</a></li>
+			<li><a href="/hinshitsu/index_2.html">カゴメのこだわり</a></li>
+			<li class="last-child"><a href="/hinshitsu/index_3.html">食品の気になる話題から</a></li>
+		</ul>
+	</td>
+</tr>
+
+<!-- 研究・開発 -->
+<tr>
+	<th><span><a href="/kenkyu/">研究・開発</a></span></th>
+	<td>
+		<ul>
+			<li class="last-child"><a href="/research/" target="_blank">研究開発だより<img src="/n_images/icn_share-window01.gif" width="9" height="9" class="icon01" /></a></li>
+		</ul>
+	</td>
+</tr>
+
+<!-- 採用情報 -->
+<tr>
+	<th><span><a href="/company/recruit/index.html">採用情報</a></span></th>
+	<td>
+		<ul>
+			<li><a href="/company/recruit/member/">カゴメの人</a></li>
+			<li><a href="/company/recruit/message/">メッセージ</a></li>
+			<li class="last-child"><a href="/company/recruit/guide/">採用情報詳細</a></li>
+		</ul>
+	</td>
+</tr>
+
+<!-- 業務用商品 -->
+<tr>
+	<th><span><a href="/foodservice/">業務用商品</a></span></th>
+	<td><p class="p01">フードサービスに携わる方々に 関連する情報を掲載しています。</p></td>
+</tr>
+
+</table>
+</div><!-- /.col02 -->
+
+
+<!-- /inner-u02-02 --></div>
+<!-- /inner-u02-01 --></div>
+<!-- /u02 --></div>
+
+
+<div class="u03">
+<div class="inner-u03">
+<form name="search_form02" action="http://search.kagome.co.jp/" onsubmit="return mysearch(this);">
+<fieldset>
+<legend>サイト内検索</legend>
+<input type="text" id="i_search_input2" name="kw" value="" />
+<input type="hidden" name="ie" value="s" />
+<input type="image" src="/n_images/btn_share-ff01-u03-01.gif" alt="検索" />
+<!--<a href="http://search.kagome.co.jp/?ie=s&kw=%8C%9F%8D%F5%83g%83b%83v&x=0&y=0"><img src="/n_images/btn_share-ff01-u03-02.gif" width="71" height="15" alt="検索トップ" /></a>-->
+</fieldset></form>
+<!-- /inner-u03 --></div>
+<!-- /u03 --></div>
+
+
+<script type="text/javascript" src="/n_js/conf_action01.js"></script>
+
+
+<div class="u04">
+<div class="inner-u04-01">
+<div class="inner-u04-02">
+
+<div class="block01">
+<ul>
+<li><a href="/customer/index.html">お客様相談センター</a>
+<ul>
+<li><a href="/customer/qa/index.html">よくお寄せいただくご質問</a></li>
+<li><a href="/customer/voice/index.html">お客様の声を活かしました</a></li>
+</ul>
+</li>
+</ul>
+<!-- /block01 --></div>
+
+<div class="block02">
+<p><img src="/n_images/img_share-ff01-01.gif" width="192" height="47" alt="お電話で フリーコール 0120-401-831 土日祝日を含む 9:00 - 17:00" /></p>
+<!-- /block02 --></div>
+
+<div class="block03">
+<p class="p01"><img src="/n_images/img_share-ff01-02.gif" width="220" height="47" alt="Eメールで こちらから、お問い合わせください。" /></p>
+<p class="p02"><a href="/customer/contact/index.html" onclick="window.open('https://pass.kagome.co.jp/cgi-bin/support/inqform.cgi', 'contact01', 'width=750, height=850, menubar=no, toolbar=no, scrollbars=yes'); return false;" target="_blank"><img src="/n_images/btn_share-ff01-inq01.gif" width="166" height="28" alt="お問い合わせフォームへ" /></a></p>
+<!-- /block03 --></div>
+
+<div class="block04">
+<p><img src="/n_images/img_share-ff01-03.gif" width="254" height="47" alt="お手紙で 〒103-8461 東京都中央区日本橋浜町3-21-1 カゴメ株式会社 お客様相談センター" /></p>
+<!-- /block04 --></div>
+
+<!-- /inner-u04-02 --></div>
+<!-- /inner-u04-01 --></div>
+<!-- /u04 --></div>
+
+
+<div class="u05">
+<div class="inner-u05">
+<ul>
+<li><a href="/info/siteguide.html"><img src="/n_images/l-txt_share-ff01-navi01.gif" width="76" height="11" alt="ご利用ガイド" /></a></li>
+<li><a href="/info/policy.html"><img src="/n_images/l-txt_share-ff01-navi02.gif" width="121" height="11" alt="プライバシーポリシー" /></a></li>
+<li><a href="/info/smp.html"><img src="/n_images/l-txt_share-ff01-navi06.gif" width="148" height="11" alt="ソーシャルメディアポリシー" /></a></li>
+<li><a href="/info/guideline.html"><img src="/n_images/l-txt_share-ff01-navi07.gif" width="143" height="11" alt="コミュニティガイドライン" /></a></li>
+<li><a href="/info/sitemap.html"><img src="/n_images/l-txt_share-ff01-navi03.gif" width="71" height="11" alt="サイトマップ" /></a></li>
+<li><a href="/english/index.html"><img src="/n_images/l-txt_share-ff01-navi05.gif" width="46" height="12" alt="English" /></a></li>
+</ul>
+
+<p><img src="/n_images/txt_share-ff01-copy01.gif" width="214" height="10" alt="Copyright (C) KAGOME CO,. Ltd. All rights reserved." /></p>
+<!-- /inner-u05 --></div>
+<!-- /u05 --></div>
+<!-- /ff --></div>
+
+<!-- rollover -->
+<script type="text/javascript" src="/n_js/uarollover.js"></script>
+
+
+<!-- ------------------------- -->
+<!-- search.kagome.co.jp only. -->
+<!-- ------------------------- -->
+
+
+
+
+<!-- for search -->
+<script  charset="UTF-8" type="text/javascript" src="http://search.kagome.co.jp/common/js/jquery.js"></script>
+<script type="text/javascript">
+<!--
+jQuery.noConflict();
+//-->
+</script>
+<script charset="UTF-8" type="text/javascript" src="http://search.kagome.co.jp/common/js/sa/i_search_assist.js"></script>
+<script charset="UTF-8" type="text/javascript" src="http://search.kagome.co.jp/common/js/search_tool.js"></script>
+
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-N3PN4D" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-N3PN4D');</script>
+<!-- End Google Tag Manager -->
+
+
+
+
+</body>
+</html>

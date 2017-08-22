@@ -1,0 +1,505 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta name="viewport" content="width=1040">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Cache-Control" content="no-cache" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta name="robots" content="INDEX,FOLLOW" />
+<title>決算短信一覧 | 日東富士製粉株式会社</title>
+<meta name="description" content="小麦粉・ふすまの製造販売や小麦粉を使用した食品類の開発・販売などを行っている日東富士製粉株式会社です。" />
+<meta name="keywords" content="製粉,小麦,小麦粉,ふすま,食品" />
+<link type="text/css" rel="stylesheet" href="../../../_templates/nitto/css/style.css" />
+<link type="text/css" rel="stylesheet" href="../../../_templates/nitto/css/jquery.jscrollpane.css">
+<link type="text/css" rel="stylesheet" href="../../../_administrator/css/square/content_parts.css" />
+<script type="text/javascript" src="../../../_administrator/js/libraries/prototype.js"></script>
+<script type="text/javascript" src="../../../_administrator/js/libraries/scriptaculous.js"></script>
+<script type="text/javascript" defer="defer" async="async" src="../../../_administrator/js/libraries/effects.js"></script>
+<script type="text/javascript" defer="defer" async="async" src="../../../_administrator/js/libraries/builder.js"></script>
+<script type="text/javascript" defer="defer" async="async" src="../../../_administrator/js/libraries/window.js"></script>
+<link href="../../../_administrator/css/lightbox.css" rel="stylesheet" type="text/css" media="screen" />
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript">jQuery.noConflict();</script>
+<script type="text/javascript" src="../../../_administrator/js/common.js"></script>
+<link href="../../../_administrator/css/square/alert.css" rel="stylesheet" type="text/css" />
+<link href="../../../_administrator/css/square/login.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" defer="defer" async="async" src="../../../_administrator/js/index.php"></script>
+
+<link rel="alternate" type="application/rss+xml" title="決算短信一覧 RSS 1.0" href="../../../ir/closing/y18/feed/rss10/" />
+<script type="text/javascript" src="../../../_templates/nitto/js/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="../../../_templates/nitto/js/jquery.cookie.js"></script>
+<script type="text/javascript" src="../../../_templates/nitto/js/jquery.mousewheel.js"></script>
+<script type="text/javascript" src="../../../_templates/nitto/js/jquery.jscrollpane.min.js"></script>
+<script type="text/javascript" src="../../../_templates/nitto/js/common.js"></script>
+<script type="text/javascript" src="../../../_templates/nitto/js/heightLine.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-51787683-1', 'nittofuji.co.jp');
+  ga('send', 'pageview');
+
+</script>
+
+<link rel="shortcut icon" href="http://www.nittofuji.co.jp/images/favicon.ico"></head>
+<body id="type2column">
+<div id="header">
+
+<div class="siteSearch">
+<form action="//www.nittofuji.co.jp/search/" method="post" class="clearfix">
+<input type="hidden" name="do" value="search" /><input type="text" class="searchText" name="w" id="search-word" /><div class="searchLink"><input type="submit" value="検索" id="search-button" class="buSearch" title="検索" /></div>
+</form>
+</div>
+<div><div id="hBox" class="clearfix">
+<div id="logo"><a href="http://www.nittofuji.co.jp/"><img width="232" height="45" alt="日東富士製粉" src="../../../images/common/logo01.gif" /></a></div>
+<div id="hInfo" class="clearfix">
+<ul class="clearfix">
+    <li><a href="http://www.nittofuji.co.jp/form/"><img width="65" height="16" alt="お問合せ" src="../../../images/common/h_contact.gif" /></a></li>
+    <li><a href="http://www.nittofuji.co.jp/sitemap/"><img width="84" height="16" alt="サイトマップ" src="../../../images/common/h_sitemap.gif" /></a></li>
+    <li class="last"><a href="http://www.nittofuji.co.jp/en/"><img width="64" height="16" src="../../../images/common/h_english.gif" alt="English" /></a></li>
+</ul>
+<dl id="fontChange" class="clearfix">
+    <dt><img width="68" height="25" src="../../../images/common/f_size.gif" alt="文字サイズ" /></dt>
+    <dd id="fontM">小</dd>
+    <dd id="fontL">大</dd>
+</dl>
+</div>
+</div></div>
+<div class="hNav">
+<ul class="clearfix"><!--
+--><li class="EDIT-navigation-266">
+<a class="menu" href="http://www.nittofuji.co.jp/" target="_self"><img src="../../../images/common/h_nav01.gif" alt="ホーム" /></a></li><li class="EDIT-navigation-8812">
+<a class="menu" href="http://www.nittofuji.co.jp/pr/" target="_self"><img src="../../../images/common/h_nav03.gif" alt="製品情報" /></a></li><li class="EDIT-navigation-8813">
+<a class="menu menu-selected" href="http://www.nittofuji.co.jp/ir/" target="_self"><img src="../../../images/common/h_nav04.gif" alt="株主・投資家情報" /></a></li><li class="EDIT-navigation-8814">
+<a class="menu" href="http://www.nittofuji.co.jp/so/" target="_self"><img src="../../../images/common/h_nav05.gif" alt="社会的責任への基本姿勢" /></a></li><li class="EDIT-navigation-8811">
+<a class="menu" href="http://www.nittofuji.co.jp/co/" target="_self"><img src="../../../images/common/h_nav02.gif" alt="会社案内" /></a></li><li class="EDIT-navigation-8815">
+<a class="menu" href="http://www.nittofuji.co.jp/re/" target="_self"><img src="../../../images/common/h_nav06.gif" alt="採用情報" /></a></li><!--
+--></ul>
+</div><!-- / header --></div>
+
+<div id="topicpath">
+<ul class="clearfix">
+<li id="topicpathFirst"><a href="http://www.nittofuji.co.jp/">ホーム</a></li><li><a href="http://www.nittofuji.co.jp/ir/">株主･投資家の皆様へ</a></li><li><a href="http://www.nittofuji.co.jp/ir/closing/">決算短信</a></li><li>決算短信一覧</li></ul>
+</div>
+
+<div id="container" class="clearfix  ">
+
+<div><div id="mainImg"><img width="960" height="115" alt="株主・投資家情報" src="../../../images/ir/ir.png" /></div></div>
+<div id="contents" class="  CMS_BLOCK_BOX CMS_BLOCK_NAME_MAIN CMS_BLOCK_BOX CMS_BLOCK_NAME_BOTTOM">
+
+<div class="topicsList mainCon">
+<h2>決算短信一覧</h2>
+
+<div class="topicsScr">
+<div class="topicsBox">
+<dl class="clearfix">
+<dt>2017年07月31日</dt>
+<dd class="icon"><img src="../../../images/common/pdficon_small.png" alt="平成３０年３月期　第１四半期決算短信〔日本基準〕 (連結)" /></dd>
+<dd>
+<a href="http://www.nittofuji.co.jp/files/ir/2017/files20170731113600.pdf" target="_blank">平成３０年３月期　第１四半期決算短信〔日本基準〕 (連結)</a>
+</dd>
+</dl><dl class="clearfix">
+<dt>2017年05月08日</dt>
+<dd class="icon"><img src="https://www.nittofuji.co.jp/images/common/pdficon_small.png" alt="平成２９年３月期　決算短信 〔日本基準〕 (連結)　" /></dd>
+<dd>
+<a href="https://www.nittofuji.co.jp/files/ir/2017/files20170508145641.pdf" target="_blank">平成２９年３月期　決算短信 〔日本基準〕 (連結)　</a>
+</dd>
+</dl><dl class="clearfix">
+<dt>2017年01月31日</dt>
+<dd class="icon"><img src="../../../images/common/pdficon_small.png" alt="平成２９年３月期　第３四半期決算短信〔日本基準〕     (連結) " /></dd>
+<dd>
+<a href="http://www.nittofuji.co.jp/files/ir/2016/files20170131105718.pdf" target="_blank">平成２９年３月期　第３四半期決算短信〔日本基準〕     (連結) </a>
+</dd>
+</dl><dl class="clearfix">
+<dt>2016年10月31日</dt>
+<dd class="icon"><img src="../../../images/common/pdficon_small.png" alt="平成２９年３月期　第２四半期決算短信〔日本基準〕 (連結) " /></dd>
+<dd>
+<a href="http://www.nittofuji.co.jp/files/ir/2016/files20161031132456.pdf" target="_blank">平成２９年３月期　第２四半期決算短信〔日本基準〕 (連結) </a>
+</dd>
+</dl><dl class="clearfix">
+<dt>2016年07月29日</dt>
+<dd class="icon"><img src="../../../images/common/pdficon_small.png" alt="平成２９年３月期　第１四半期決算短信〔日本連結〕 (連結) " /></dd>
+<dd>
+<a href="http://www.nittofuji.co.jp/files/ir/2016/files20160729130740.pdf" target="_blank">平成２９年３月期　第１四半期決算短信〔日本連結〕 (連結) </a>
+</dd>
+</dl><dl class="clearfix">
+<dt>2016年05月06日</dt>
+<dd class="icon"><img src="../../../images/common/pdficon_small.png" alt="平成２８年３月期　決算短信 〔日本基準〕（連結）" /></dd>
+<dd>
+<a href="http://www.nittofuji.co.jp/files/ir/files20160506103049.pdf" target="_blank">平成２８年３月期　決算短信 〔日本基準〕（連結）</a>
+</dd>
+</dl><dl class="clearfix">
+<dt>2016年01月29日</dt>
+<dd class="icon"><img src="../../../images/common/pdficon_small.png" alt="平成２８年３月期　第３四半期決算短信〔日本基準〕（連結）" /></dd>
+<dd>
+<a href="http://www.nittofuji.co.jp/files/ir/files20160129130517.pdf" target="_blank">平成２８年３月期　第３四半期決算短信〔日本基準〕（連結）</a>
+</dd>
+</dl><dl class="clearfix">
+<dt>2015年10月30日</dt>
+<dd class="icon"><img src="../../../images/common/i_pdf.gif" alt="平成２８年３月期　第２四半期決算短信〔日本基準〕（連結）" /></dd>
+<dd>
+<a href="http://www.nittofuji.co.jp/files/ir/2015/files20151030125951.pdf" target="_blank">平成２８年３月期　第２四半期決算短信〔日本基準〕（連結）</a>
+</dd>
+</dl><dl class="clearfix">
+<dt>2015年07月31日</dt>
+<dd class="icon"><img src="../../../images/common/i_pdf.gif" alt="平成２８年３月期　第１四半期決算短信〔日本基準〕（連結）" /></dd>
+<dd>
+<a href="http://www.nittofuji.co.jp/files/ir/2015/files20150731125901.pdf" target="_blank">平成２８年３月期　第１四半期決算短信〔日本基準〕（連結）</a>
+</dd>
+</dl><dl class="clearfix">
+<dt>2015年06月12日</dt>
+<dd class="icon"><img src="../../../images/common/i_pdf.gif" alt="(訂正・数値データ訂正)「平成27年３月期決算短信」の一部訂正について" /></dd>
+<dd>
+<a href="http://www.nittofuji.co.jp/files/ir/2015/files20150612134257.pdf" target="_blank">(訂正・数値データ訂正)「平成27年３月期決算短信」の一部訂正について</a>
+</dd>
+</dl><dl class="clearfix">
+<dt>2015年04月30日</dt>
+<dd class="icon"><img src="../../../images/common/i_pdf.gif" alt="平成２７年３月期　決算短信〔日本基準〕（連結）" /></dd>
+<dd>
+<a href="http://www.nittofuji.co.jp/files/ir/2015/files20150430125123.pdf" target="_blank">平成２７年３月期　決算短信〔日本基準〕（連結）</a>
+</dd>
+</dl><dl class="clearfix">
+<dt>2015年01月30日</dt>
+<dd class="icon"><img src="../../../images/common/i_pdf.gif" alt="平成２７年３月期　第３四半期決算短信〔日本基準〕（連結）" /></dd>
+<dd>
+<a href="http://www.nittofuji.co.jp/files/ir/files20150130125644.pdf" target="_blank">平成２７年３月期　第３四半期決算短信〔日本基準〕（連結）</a>
+</dd>
+</dl><dl class="clearfix">
+<dt>2014年10月31日</dt>
+<dd class="icon"><img src="../../../images/common/i_pdf.gif" alt="平成２７年３月期　第２四半期決算短信〔日本基準〕 （連結） [2160KB]" /></dd>
+<dd>
+<a href="http://www.nittofuji.co.jp/files/ir/files20141031111720.pdf" target="_blank">平成２７年３月期　第２四半期決算短信〔日本基準〕 （連結） [2160KB]</a>
+</dd>
+</dl><dl class="clearfix">
+<dt>2014年07月31日</dt>
+<dd class="icon"><img src="../../../images/common/i_pdf.gif" alt="平成２７年３月期　第１四半期決算短信〔日本基準〕（連結）[1500KB]" /></dd>
+<dd>
+<a href="http://www.nittofuji.co.jp/files/ir/files20140731145021.pdf" target="_blank">平成２７年３月期　第１四半期決算短信〔日本基準〕（連結）[1500KB]</a>
+</dd>
+</dl><dl class="clearfix">
+<dt>2014年04月30日</dt>
+<dd class="icon"><img src="../../../images/common/i_pdf.gif" alt="平成２６年３月期　決算短信〔日本基準〕（連結） [1920KB]" /></dd>
+<dd>
+<a href="http://www.nittofuji.co.jp/files/ir/ir13988304061.pdf" target="_blank">平成２６年３月期　決算短信〔日本基準〕（連結） [1920KB]</a>
+</dd>
+</dl><dl class="clearfix">
+<dt>2014年01月31日</dt>
+<dd class="icon"><img src="../../../images/common/i_pdf.gif" alt="平成２６年３月期　第３四半期決算短信 [303KB]" /></dd>
+<dd>
+<a href="http://www.nittofuji.co.jp/files/ir/ir13911527941.pdf" target="_self">平成２６年３月期　第３四半期決算短信 [303KB]</a>
+</dd>
+</dl><dl class="clearfix">
+<dt>2013年11月07日</dt>
+<dd class="icon"><img src="../../../images/common/i_pdf.gif" alt="（訂正・数値データ訂正あり）「平成２６年３月期　第２四半期決算短信〔日本基準〕（連結）」の一部訂正について [139KB]" /></dd>
+<dd>
+<a href="http://www.nittofuji.co.jp/files/ir/ir13837966851.pdf" target="_self">（訂正・数値データ訂正あり）「平成２６年３月期　第２四半期決算短信〔日本基準〕（連結）」の一部訂正について [139KB]</a>
+</dd>
+</dl><dl class="clearfix">
+<dt>2013年10月30日</dt>
+<dd class="icon"><img src="../../../images/common/i_pdf.gif" alt="平成２６年３月期　第２四半期決算短信〔日本基準〕（連結） [283KB]" /></dd>
+<dd>
+<a href="http://www.nittofuji.co.jp/files/ir/ir13831056111.pdf" target="_blank">平成２６年３月期　第２四半期決算短信〔日本基準〕（連結） [283KB]</a>
+</dd>
+</dl><dl class="clearfix">
+<dt>2013年07月29日</dt>
+<dd class="icon"><img src="../../../images/common/i_pdf.gif" alt="平成２６年３月期　第１四半期決算短信〔日本基準〕（連結） [307KB]" /></dd>
+<dd>
+<a href="http://www.nittofuji.co.jp/files/ir/ir13750724781.pdf" target="_self">平成２６年３月期　第１四半期決算短信〔日本基準〕（連結） [307KB]</a>
+</dd>
+</dl><dl class="clearfix">
+<dt>2013年04月30日</dt>
+<dd class="icon"><img src="../../../images/common/i_pdf.gif" alt="平成２５年３月期　決算短信〔日本基準〕(連結)　 [573KB]" /></dd>
+<dd>
+<a href="http://www.nittofuji.co.jp/files/ir/ir13672944921.pdf" target="_self">平成２５年３月期　決算短信〔日本基準〕(連結)　 [573KB]</a>
+</dd>
+</dl><dl class="clearfix">
+<dt>2013年01月31日</dt>
+<dd class="icon"><img src="../../../images/common/i_pdf.gif" alt="平成２５年３月期　第３四半期決算短信〔日本基準〕(連結) [278KB]" /></dd>
+<dd>
+<a href="http://www.nittofuji.co.jp/files/ir/files20140829103816.pdf" target="_blank">平成２５年３月期　第３四半期決算短信〔日本基準〕(連結) [278KB]</a>
+</dd>
+</dl><dl class="clearfix">
+<dt>2012年10月29日</dt>
+<dd class="icon"><img src="../../../images/common/i_pdf.gif" alt="平成２５年３月期　第２四半期決算短信〔日本基準〕（連結） [326KB]" /></dd>
+<dd>
+<a href="http://www.nittofuji.co.jp/files/ir/ir13514838601.pdf" target="_self">平成２５年３月期　第２四半期決算短信〔日本基準〕（連結） [326KB]</a>
+</dd>
+</dl><dl class="clearfix">
+<dt>2012年07月30日</dt>
+<dd class="icon"><img src="../../../images/common/i_pdf.gif" alt="平成２５年３月期　第１四半期決算短信〔日本基準〕（連結） [308KB]" /></dd>
+<dd>
+<a href="http://www.nittofuji.co.jp/files/ir/ir13436222861.pdf" target="_self">平成２５年３月期　第１四半期決算短信〔日本基準〕（連結） [308KB]</a>
+</dd>
+</dl><dl class="clearfix">
+<dt>2012年04月27日</dt>
+<dd class="icon"><img src="../../../images/common/i_pdf.gif" alt="平成２４年３月期　決算短信〔日本基準〕（連結） [632KB]" /></dd>
+<dd>
+<a href="http://www.nittofuji.co.jp/files/ir/ir13354996901.pdf" target="_self">平成２４年３月期　決算短信〔日本基準〕（連結） [632KB]</a>
+</dd>
+</dl><dl class="clearfix">
+<dt>2012年01月30日</dt>
+<dd class="icon"><img src="../../../images/common/i_pdf.gif" alt="平成２４年３月期　第３四半期決算短信〔日本基準〕（連結） [304KB]" /></dd>
+<dd>
+<a href="http://www.nittofuji.co.jp/files/ir/ir13278978631.pdf" target="_self">平成２４年３月期　第３四半期決算短信〔日本基準〕（連結） [304KB]</a>
+</dd>
+</dl><dl class="clearfix">
+<dt>2011年10月31日</dt>
+<dd class="icon"><img src="../../../images/common/i_pdf.gif" alt="平成２４年３月期　第２四半期決算短信[日本基準](連結) [379KB]" /></dd>
+<dd>
+<a href="http://www.nittofuji.co.jp/files/ir/ir13200349701.pdf" target="_self">平成２４年３月期　第２四半期決算短信[日本基準](連結) [379KB]</a>
+</dd>
+</dl><dl class="clearfix">
+<dt>2011年07月29日</dt>
+<dd class="icon"><img src="../../../images/common/i_pdf.gif" alt="平成２４年３月期　第１四半期決算短信[日本基準](連結) [299KB]" /></dd>
+<dd>
+<a href="http://www.nittofuji.co.jp/files/ir/ir13119138641.pdf" target="_self">平成２４年３月期　第１四半期決算短信[日本基準](連結) [299KB]</a>
+</dd>
+</dl><dl class="clearfix">
+<dt>2011年05月02日</dt>
+<dd class="icon"><img src="../../../images/common/i_pdf.gif" alt="平成２３年３月期　決算短信〔日本基準〕（連結） [652KB]" /></dd>
+<dd>
+<a href="http://www.nittofuji.co.jp/files/ir/ir13043124101.pdf" target="_self">平成２３年３月期　決算短信〔日本基準〕（連結） [652KB]</a>
+</dd>
+</dl><dl class="clearfix">
+<dt>2011年01月30日</dt>
+<dd class="icon"><img src="../../../images/common/i_pdf.gif" alt="平成２３年３月期　第３四半期決算短信〔日本基準〕（連結） [387KB]" /></dd>
+<dd>
+<a href="http://www.nittofuji.co.jp/files/ir/ir12964488781.pdf" target="_self">平成２３年３月期　第３四半期決算短信〔日本基準〕（連結） [387KB]</a>
+</dd>
+</dl><dl class="clearfix">
+<dt>2010年10月29日</dt>
+<dd class="icon"><img src="../../../images/common/i_pdf.gif" alt="平成２３年３月期　第２四半期決算短信〔日本基準〕（連結） [377KB]" /></dd>
+<dd>
+<a href="http://www.nittofuji.co.jp/files/ir/ir12883252161.pdf" target="_self">平成２３年３月期　第２四半期決算短信〔日本基準〕（連結） [377KB]</a>
+</dd>
+</dl><dl class="clearfix">
+<dt>2010年07月29日</dt>
+<dd class="icon"><img src="../../../images/common/i_pdf.gif" alt="平成２３年３月期　第１四半期決算短信〔日本基準〕（連結） [345KB]" /></dd>
+<dd>
+<a href="http://www.nittofuji.co.jp/files/ir/ir12803796831.pdf" target="_self">平成２３年３月期　第１四半期決算短信〔日本基準〕（連結） [345KB]</a>
+</dd>
+</dl><dl class="clearfix">
+<dt>2010年04月30日</dt>
+<dd class="icon"><img src="../../../images/common/i_pdf.gif" alt="平成２２年３月期　決算短信 [778KB]" /></dd>
+<dd>
+<a href="http://www.nittofuji.co.jp/files/ir/ir12726017311.pdf" target="_self">平成２２年３月期　決算短信 [778KB]</a>
+</dd>
+</dl><dl class="clearfix">
+<dt>2010年01月29日</dt>
+<dd class="icon"><img src="../../../images/common/i_pdf.gif" alt="平成２２年３月期　第３四半期決算短信 [363KB]" /></dd>
+<dd>
+<a href="http://www.nittofuji.co.jp/files/ir/ir12647394761.pdf" target="_self">平成２２年３月期　第３四半期決算短信 [363KB]</a>
+</dd>
+</dl><dl class="clearfix">
+<dt>2009年10月29日</dt>
+<dd class="icon"><img src="../../../images/common/i_pdf.gif" alt="平成２２年３月期　第２四半期決算短信 [224KB]" /></dd>
+<dd>
+<a href="http://www.nittofuji.co.jp/files/ir/ir12568021531.pdf" target="_self">平成２２年３月期　第２四半期決算短信 [224KB]</a>
+</dd>
+</dl><dl class="clearfix">
+<dt>2009年07月29日</dt>
+<dd class="icon"><img src="../../../images/common/i_pdf.gif" alt="平成２２年３月期　第１四半期決算短信 [236KB]" /></dd>
+<dd>
+<a href="http://www.nittofuji.co.jp/files/ir/ir12488423261.pdf" target="_self">平成２２年３月期　第１四半期決算短信 [236KB]</a>
+</dd>
+</dl><dl class="clearfix">
+<dt>2009年05月27日</dt>
+<dd class="icon"><img src="../../../images/common/i_pdf.gif" alt="（訂正）「平成２１年３月期 決算短信」の一部訂正について [110KB]" /></dd>
+<dd>
+<a href="http://www.nittofuji.co.jp/files/ir/ir12434166601.pdf" target="_self">（訂正）「平成２１年３月期 決算短信」の一部訂正について [110KB]</a>
+</dd>
+</dl><dl class="clearfix">
+<dt>2009年04月30日</dt>
+<dd class="icon"><img src="../../../images/common/i_pdf.gif" alt="平成２１年３月期　決算短信 [1124KB]" /></dd>
+<dd>
+<a href="http://www.nittofuji.co.jp/files/ir/ir12410656761.pdf" target="_self">平成２１年３月期　決算短信 [1124KB]</a>
+</dd>
+</dl><dl class="clearfix">
+<dt>2009年02月05日</dt>
+<dd class="icon"><img src="../../../images/common/i_pdf.gif" alt="（訂正）平成２１年３月期　第３四半期決算短信の一部訂正について [164KB]" /></dd>
+<dd>
+<a href="http://www.nittofuji.co.jp/files/ir/ir12338256751.pdf" target="_self">（訂正）平成２１年３月期　第３四半期決算短信の一部訂正について [164KB]</a>
+</dd>
+</dl><dl class="clearfix">
+<dt>2009年02月03日</dt>
+<dd class="icon"><img src="../../../images/common/i_pdf.gif" alt=" 平成２１年３月期　第３四半期決算短信 [391KB]" /></dd>
+<dd>
+<a href="http://www.nittofuji.co.jp/files/ir/ir12336362001.pdf" target="_self"> 平成２１年３月期　第３四半期決算短信 [391KB]</a>
+</dd>
+</dl><dl class="clearfix">
+<dt>2008年11月05日</dt>
+<dd class="icon"><img src="../../../images/common/i_pdf.gif" alt="平成２１年３月期　第２四半期決算短信 [270KB]" /></dd>
+<dd>
+<a href="http://www.nittofuji.co.jp/files/ir/ir12258585091.pdf" target="_self">平成２１年３月期　第２四半期決算短信 [270KB]</a>
+</dd>
+</dl><dl class="clearfix">
+<dt>2008年07月31日</dt>
+<dd class="icon"><img src="../../../images/common/i_pdf.gif" alt="平成２１年３月期　第１四半期決算短信 [315KB]" /></dd>
+<dd>
+<a href="http://www.nittofuji.co.jp/files/ir/ir12174924531.pdf" target="_self">平成２１年３月期　第１四半期決算短信 [315KB]</a>
+</dd>
+</dl><dl class="clearfix">
+<dt>2008年05月15日</dt>
+<dd class="icon"><img src="../../../images/common/i_pdf.gif" alt="平成２０年３月期　決算短信 [567KB]" /></dd>
+<dd>
+<a href="http://www.nittofuji.co.jp/files/ir/ir12108243781.pdf" target="_self">平成２０年３月期　決算短信 [567KB]</a>
+</dd>
+</dl><dl class="clearfix">
+<dt>2008年02月04日</dt>
+<dd class="icon"><img src="../../../images/common/i_pdf.gif" alt="平成２０年３月期　第３四半期財務・業績の概況 [221KB]" /></dd>
+<dd>
+<a href="http://www.nittofuji.co.jp/files/ir/ir12021014051.pdf" target="_self">平成２０年３月期　第３四半期財務・業績の概況 [221KB]</a>
+</dd>
+</dl><dl class="clearfix">
+<dt>2007年11月29日</dt>
+<dd class="icon"><img src="../../../images/common/i_pdf.gif" alt="（訂正）平成２０年３月期　中間決算短信の一部訂正について [76KB]" /></dd>
+<dd>
+<a href="http://www.nittofuji.co.jp/files/ir/ir11964068811.pdf" target="_self">（訂正）平成２０年３月期　中間決算短信の一部訂正について [76KB]</a>
+</dd>
+</dl><dl class="clearfix">
+<dt>2007年11月15日</dt>
+<dd class="icon"><img src="../../../images/common/i_pdf.gif" alt="平成２０年３月期　中間決算短信 [546KB]" /></dd>
+<dd>
+<a href="http://www.nittofuji.co.jp/files/ir/ir11951030511.pdf" target="_self">平成２０年３月期　中間決算短信 [546KB]</a>
+</dd>
+</dl><dl class="clearfix">
+<dt>2007年08月07日</dt>
+<dd class="icon"><img src="../../../images/common/i_pdf.gif" alt="平成２０年３月期　第１四半期財務・業績の概況 [212KB]" /></dd>
+<dd>
+<a href="http://www.nittofuji.co.jp/files/ir/ir11864757571.pdf" target="_self">平成２０年３月期　第１四半期財務・業績の概況 [212KB]</a>
+</dd>
+</dl><dl class="clearfix">
+<dt>2007年05月18日</dt>
+<dd class="icon"><img src="../../../images/common/i_pdf.gif" alt="（訂正）「平成１９年３月期　決算短信」の一部訂正に関するお知らせ [102KB]" /></dd>
+<dd>
+<a href="http://www.nittofuji.co.jp/files/ir/ir11794553671.pdf" target="_self">（訂正）「平成１９年３月期　決算短信」の一部訂正に関するお知らせ [102KB]</a>
+</dd>
+</dl><dl class="clearfix">
+<dt>2007年05月16日</dt>
+<dd class="icon"><img src="../../../images/common/i_pdf.gif" alt="平成１９年３月期決算短信 [593KB]" /></dd>
+<dd>
+<a href="http://www.nittofuji.co.jp/files/ir/ir11792827161.pdf" target="_self">平成１９年３月期決算短信 [593KB]</a>
+</dd>
+</dl><dl class="clearfix">
+<dt>2007年01月31日</dt>
+<dd class="icon"><img src="../../../images/common/i_pdf.gif" alt="平成１９年３月期　第３四半期財務・業績の概況 [229KB]" /></dd>
+<dd>
+<a href="http://www.nittofuji.co.jp/files/ir/ir11702197891.pdf" target="_self">平成１９年３月期　第３四半期財務・業績の概況 [229KB]</a>
+</dd>
+</dl><dl class="clearfix">
+<dt>2006年11月15日</dt>
+<dd class="icon"><img src="../../../images/common/i_pdf.gif" alt="平成１９年３月期中間決算短信（連結） [434KB]" /></dd>
+<dd>
+<a href="http://www.nittofuji.co.jp/files/ir/ir11636367571.pdf" target="_self">平成１９年３月期中間決算短信（連結） [434KB]</a>
+</dd>
+</dl><dl class="clearfix">
+<dt>2006年11月15日</dt>
+<dd class="icon"><img src="../../../images/common/i_pdf.gif" alt="平成１９年３月期個別中間財務諸表の概要 [237KB]" /></dd>
+<dd>
+<a href="http://www.nittofuji.co.jp/files/ir/ir11635645201.pdf" target="_self">平成１９年３月期個別中間財務諸表の概要 [237KB]</a>
+</dd>
+</dl><dl class="clearfix">
+<dt>2006年08月01日</dt>
+<dd class="icon"><img src="../../../images/common/i_pdf.gif" alt="平成１９年３月期 第１四半期財務・業績の概況 [186KB]" /></dd>
+<dd>
+<a href="http://www.nittofuji.co.jp/files/ir/ir11544089291.pdf" target="_self">平成１９年３月期 第１四半期財務・業績の概況 [186KB]</a>
+</dd>
+</dl><dl class="clearfix">
+<dt>2006年05月18日</dt>
+<dd class="icon"><img src="../../../images/common/i_pdf.gif" alt="平成１８年３月期決算短信（連結）【旧　日東製粉(株)分】 [614KB]" /></dd>
+<dd>
+<a href="http://www.nittofuji.co.jp/files/ir/ir11479340841.pdf" target="_blank">平成１８年３月期決算短信（連結）【旧　日東製粉(株)分】 [614KB]</a>
+</dd>
+</dl><dl class="clearfix">
+<dt>2006年05月18日</dt>
+<dd class="icon"><img src="../../../images/common/i_pdf.gif" alt="平成１８年３月期個別財務諸表の概要【旧　日東製粉(株)分】 [303KB]" /></dd>
+<dd>
+<a href="http://www.nittofuji.co.jp/files/ir/ir11479338641.pdf" target="_blank">平成１８年３月期個別財務諸表の概要【旧　日東製粉(株)分】 [303KB]</a>
+</dd>
+</dl><dl class="clearfix">
+<dt>2006年05月18日</dt>
+<dd class="icon"><img src="../../../images/common/i_pdf.gif" alt="平成１８年３月期決算短信（非連結）【旧　富士製粉(株)分】 [807KB]" /></dd>
+<dd>
+<a href="http://www.nittofuji.co.jp/files/ir/ir11479333851.pdf" target="_blank">平成１８年３月期決算短信（非連結）【旧　富士製粉(株)分】 [807KB]</a>
+</dd>
+</dl><dl class="clearfix">
+<dt>2006年01月31日</dt>
+<dd class="icon"><img src="../../../images/common/i_pdf.gif" alt="平成１８年３月期　第３四半期財務・業績の概況【富士製粉】 [260KB]" /></dd>
+<dd>
+<a href="http://www.nittofuji.co.jp/files/ir/ir11437214791.pdf" target="_blank">平成１８年３月期　第３四半期財務・業績の概況【富士製粉】 [260KB]</a>
+</dd>
+</dl><dl class="clearfix">
+<dt>2006年01月30日</dt>
+<dd class="icon"><img src="../../../images/common/i_pdf.gif" alt="平成１８年３月期　第３四半期財務・業績の概況(連結)【日東製粉】 [40KB]" /></dd>
+<dd>
+<a href="http://www.nittofuji.co.jp/files/ir/ir11437213581.pdf" target="_blank">平成１８年３月期　第３四半期財務・業績の概況(連結)【日東製粉】 [40KB]</a>
+</dd>
+</dl><dl class="clearfix">
+<dt>2005年11月17日</dt>
+<dd class="icon"><img src="../../../images/common/i_pdf.gif" alt="平成18年3月期　中間決算短信【日東製粉】 [106KB]" /></dd>
+<dd>
+<a href="http://www.nittofuji.co.jp/files/ir/ir11453290171.pdf" target="_blank">平成18年3月期　中間決算短信【日東製粉】 [106KB]</a>
+</dd>
+</dl><dl class="clearfix">
+<dt>2005年11月17日</dt>
+<dd class="icon"><img src="../../../images/common/i_pdf.gif" alt="平成１８年３月期　個別中間財務諸表の概要【日東製粉】 [52KB]" /></dd>
+<dd>
+<a href="http://www.nittofuji.co.jp/files/ir/ir11437216231.pdf" target="_blank">平成１８年３月期　個別中間財務諸表の概要【日東製粉】 [52KB]</a>
+</dd>
+</dl><dl class="clearfix">
+<dt>2005年11月07日</dt>
+<dd class="icon"><img src="../../../images/common/i_pdf.gif" alt="平成１８年３月期　中間決算短信【富士製粉】 [81KB]" /></dd>
+<dd>
+<a href="http://www.nittofuji.co.jp/files/ir/ir11437216641.pdf" target="_blank">平成１８年３月期　中間決算短信【富士製粉】 [81KB]</a>
+</dd>
+</dl><dl class="clearfix">
+<dt>2005年07月28日</dt>
+<dd class="icon"><img src="../../../images/common/i_pdf.gif" alt="平成１８年４月期　第１四半期財務・業績の概況【富士製粉】 [37KB]" /></dd>
+<dd>
+<a href="http://www.nittofuji.co.jp/files/ir/ir11437212961.pdf" target="_blank">平成１８年４月期　第１四半期財務・業績の概況【富士製粉】 [37KB]</a>
+</dd>
+</dl><dl class="clearfix">
+<dt>2005年07月28日</dt>
+<dd class="icon"><img src="../../../images/common/i_pdf.gif" alt="平成１８年３月期　第１四半期財務・業績の概況(連結)【日東製粉】 [38KB]" /></dd>
+<dd>
+<a href="http://www.nittofuji.co.jp/files/ir/ir11437212511.pdf" target="_blank">平成１８年３月期　第１四半期財務・業績の概況(連結)【日東製粉】 [38KB]</a>
+</dd>
+</dl></div>
+</div>
+</div>
+<div class="pageLink">
+<a href="http://www.nittofuji.co.jp/ir/closing/y18/2017/">2017年</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.nittofuji.co.jp/ir/closing/y18/">最新一覧</a>
+</div>
+</div>
+<div id="side">
+<div><h3 class="sideH"><a href="http://www.nittofuji.co.jp/ir/"><img width="230" height="51" alt="株主・投資家情報" src="../../../images/ir/h3_s_ir.png" /></a></h3></div>        
+    <div class="secNav">
+    <ul><li><a class="menu menu-selected menu_self" href="http://www.nittofuji.co.jp/ir/closing/" target="_self">決算短信</a></li><li><a class="menu menu_self" href="http://www.nittofuji.co.jp/ir/securities/" target="_self">有価証券報告書</a></li><li><a class="menu menu_self" href="http://www.nittofuji.co.jp/ir/soukaireport/" target="_self">株主総会/事業報告書</a></li><li><a class="menu menu_blank" href="http://stocks.finance.yahoo.co.jp/stocks/detail/?code=2003.T" target="_blank">株価情報</a></li><li><a class="menu menu_self" href="http://www.nittofuji.co.jp/ir/shareholder/" target="_self">株主メモ</a></li><li><a class="menu menu_self" href="http://www.nittofuji.co.jp/ir/preferential/" target="_self">株主優待</a></li><li><a class="menu menu_self" href="http://www.nittofuji.co.jp/ir/electron/" target="_self">電子公告</a></li></ul>
+    </div><div class="secNavBot"></div>    
+<div class="sNav">
+<ul><!--
+--><li class="EDIT-navigation-8817">
+<a class="menu menu-selected" href="http://www.nittofuji.co.jp/ir/" target="_self"><img src="../../../images/common/bu_s_06.gif" alt="株式・投資家の皆様へ" /></a></li><li class="EDIT-navigation-8995">
+<a class="menu" href="http://www.nittofuji.co.jp/re/" target="_self"><img src="../../../images/common/bu_s_07.gif" alt="採用情報" /></a></li><li class="EDIT-navigation-8820">
+<a class="menu" href="http://www.amazon.co.jp/gp/node/index.html?ie=UTF8&amp;marketplaceID=A1VC38T7YXB528&amp;me=A1JXG946C6E6PK&amp;merchant=A1JXG946C6E6PK&amp;redirect=true" target="_blank"><img src="../../../images/common/images20160128140744.jpg" alt="日東富士製粉オンラインショップ" /></a></li><!--
+--></ul>
+</div>
+<div class="sInfoNav">
+<ul><!--
+--><li class="EDIT-navigation-9005">
+<a class="menu" href="http://www.nittofuji.co.jp/privacy/" target="_self"><img src="../../../images/common/bu_s_09.gif" alt="プライバシーポリシー" /></a></li><li class="EDIT-navigation-9006">
+<a class="menu" href="http://www.nittofuji.co.jp/so/privacy/" target="_self"><img src="../../../images/common/bu_s_10.gif" alt="個人情報の取扱い" /></a></li><!--
+--></ul>
+</div><!-- / side --></div>
+<!-- / container --></div>
+<div id="footer">
+<div id="buPagetop"><a href="#">page top</a></div>
+<div></div>
+</div>
+<address><span>Copyright(c) Nitto Fuji Flour Milling Co.,Ltd. All rights reserved.</span></address>
+<div id="published" style="display:none">&nbsp;</div></body>
+</html>

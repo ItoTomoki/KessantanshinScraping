@@ -1,0 +1,304 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<title>ホーム | 株式会社ペッパーフードサービス</title>
+<meta name="description" content="おいしい笑顔をおつくりします。たのしい時間をおとどけします。「ペッパーランチ」「炭焼ステーキくに」「かつき亭」「炭焼き牛たん仙台なとり」「いきなりステーキ」のペッパーフードサービスです。" />
+<meta name="keywords" content="ペッパーフードサービス,独立・起業,独立支援,フランチャイズ加盟,フランチャイズチェーン,おいしいステーキ,おいしいハンバーグ,炭焼ステーキくに,炭焼ハンバーグ＆ステーキくに,炭焼き牛たん仙台なとり,こだわりとんかつのかつき亭,いきなりステーキ,レストラン,ペッパーランチ,マザーズ上場" />
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="http://www.pepper-fs.co.jp/" /><!--TOPページのみ --><br />
+<link rel="shortcut icon" href="/_img/common/pfs.ico" />
+<link href="/_css/base.css" rel="stylesheet" type="text/css" />
+<link href="/_css/common.css" rel="stylesheet" type="text/css" />
+<link href="/_css/top2.css" rel="stylesheet" type="text/css" />
+<script language="javascript" src="/_js/smoothscroll.js" type="text/javascript" ></script>
+<script language="javascript" src="/_js/jquery-1.7.1.js" type="text/javascript"></script>
+<script language="javascript" src="/_js/heightLine.js" type="text/javascript"></script>
+<script language="javascript" src="/_js/alphafilter.js" type="text/javascript" defer="defer"></script>
+<!--[if lte IE 6]>
+<script type="text/javascript" src="/_js/DD_belatedPNG_0.0.8a.js"></script>
+<script>DD_belatedPNG.fix('img, .png_bg');</script>
+<![endif]-->
+<script type="text/javascript">
+$(function (){
+	//設定
+	var active="active",interval=4000;
+	var index=0, timerId=null;
+	var tabs=$("#thumbBtn > li"), content=$("#view > p"), cap=$("#caption > li");
+	
+	//クラスの付与
+	tabs.each(function(){$(this).removeClass(active);});
+	content.hide();
+	cap.hide();
+	tabs.eq(0).addClass(active);
+	content.eq(0).fadeIn("fast");
+	cap.eq(0).fadeIn("fast");
+	
+
+	
+	//タイマー
+	setTimer();
+	function setTimer(){
+		timerId=setTimeout(timeProcess,interval);
+		return false;
+	}
+	
+	function timeProcess(){
+		change((index+1)%tabs.length);
+		timerId=setTimeout(arguments.callee,interval);
+	}
+	
+	//切り替え
+	function change(t_index){
+		tabs.eq(index).removeClass(active);
+		tabs.eq(t_index).addClass(active);
+		//fadeout
+		setTimeout(function(){
+			content.eq(index).stop(true, true).fadeOut(2000),
+			cap.eq(index).stop(true, true).hide()
+		;}, 300);
+		//fadein
+		setTimeout(function(){
+			index=t_index;
+			content.eq(index).fadeIn(2000),
+			cap.eq(index).fadeIn(2000)
+		;}, 400)
+	}
+});
+</script>
+</head>
+
+<body>
+<div id="headerArea">
+<p class="headTxt"><img src="/_img/header/logo_txt.gif" alt="おいしい笑顔をおつくりします。たのしい時間をおとどけします。" width="365" height="17" /></p>
+<p class="logo"><a href="/"><img src="/_img/header/logo.gif" alt="株式会社ペッパーフードサービス" width="365" height="44" /></a></p><br />
+<br />
+
+<ol class="nav clearfix">
+<li><img src="/_img/header/nav01_on.gif" alt="ホーム" width="134" height="37" /></li>
+<li><a href="/news/"><img src="/_img/header/nav02.gif" alt="ニュース一覧" width="134" height="37" class="btn" /></a></li>
+<li><a href="/corpinfo/"><img src="/_img/header/nav03.gif" alt="会社情報" width="134" height="37" class="btn" /></a></li>
+<li><a href="/product/"><img src="/_img/header/nav04.gif" alt="事業紹介" width="134" height="37" class="btn" /></a></li>
+<li><a href="/ir/"><img src="/_img/header/nav05.gif" alt="IR情報" width="134" height="37" class="btn" /></a></li>
+<li><a href="/sinsotsu/" target="_blank"><img src="/_img/header/nav06.gif" alt="採用情報" width="134" height="37" class="btn" /></a></li>
+<li><a href="/inquiry/"><img src="/_img/header/nav07.gif" alt="お問い合わせ" width="136" height="37" class="btn" /></a></li>
+</ol><!--nav -->
+<ul class="menu clearfix">
+<li><a href="http://www.pepper-fs.co.jp/main/business/overseas_dv/" target="_blank"><img src="/_img/header/menu_english.gif" width="78" height="14" alt="English Site" /></a></li>
+<li><a href="/inquiry/voice.php/"><img src="/_img/header/menu_voice.gif" width="75" height="14" alt="お客様の声" /></a></li>
+<li><a href="/sitemap/"><img src="/_img/header/menu_sitemap.gif" width="72" height="14" alt="サイトマップ" /></a></li>
+</ul>
+</div><!--headerArea -->
+
+<div id="visualArea" class="clearfix">
+<div id="mainVisual">
+<div class="Inner clfix">
+    <!-- メイン画像-->
+    <div id="view">
+        <p><a href="http://www.pepper-fs.co.jp/natori/" target="_blank"><img src="/_img/top/key_12.png" width="746" height="210" alt="/" /></a></p>
+        <p><a href="http://www.pepper-fs.co.jp/634/" target="_blank"><img src="/_img/top/key_11.png" width="746" height="210" alt="/" /></a></p>
+        <p><a href="http://pepperlunch-diner.com/" target="_blank"><img src="/_img/top/key_08.png" width="746" height="210" alt="/" /></a></p>
+        <p><a href="http://www.steak-kuni.com/" target="_blank"><img src="/_img/top/key_01.png" width="746" height="210" alt="/" /></a></p>
+        <p><a href="http://www.pepper-fs.co.jp/katsukitei/" target="_blank"><img src="/_img/top/key_02.png" width="746" height="210" alt="/" /></a></p>
+        <p><a href="http://www.pepper-fs.co.jp/burgkuni/" target="_blank"><img src="/_img/top/key_03.png" width="746" height="210" alt="/" /></a></p>
+        <p><a href="http://www.pepperlunch.com/" target="_blank"><img src="/_img/top/key_04.png" width="746" height="210" alt="/" /></a></p>
+       <p><a href="http://ikinaristeak.com/" target="_blank"><img src="/_img/top/ikinari_banner.png" width="746" height="210" alt="/" /></a></p>
+    <p><a href="http://www.pepper-fs.co.jp/92s/" target="_blank"><img src="/_img/top/key_09.png" width="746" height="210" alt="/" /></a></p>
+	<p><a href="http://ikinaristeak.com/" target="_blank"><img src="/_img/top/key_13.png" width="746" height="210" alt="/" /></a></p>
+    </div>
+      <!-- サムネイル画像-->
+      <ul id="thumbBtn">
+        <li><a href="http://www.steak-kuni.com/" target="_blank"><img src="/_img/top/mvic01.png" width="90" height="42" /></a></li>
+        <li><a href="http://www.pepper-fs.co.jp/katsukitei/" target="_blank"><img src="/_img/top/mvic02.png" width="70" height="42" /></a></li>
+        <li><a href="http://www.pepper-fs.co.jp/burgkuni/" target="_blank"><img src="/_img/top/mvic03.png" width="70" height="30" /></a><br />
+        <li><a href="http://www.pepperlunch.com/" target="_blank"><img src="/_img/top/mvic04.png" width="56" height="42" /></a></li>
+        <li><a href="http://ikinaristeak.com/" target="_blank"><img src="/_img/top/mvic12.png" width="80" height="36" /></a></li>
+        <li><a href="http://pepperlunch-diner.com/" target="_blank"><img src="/_img/top/mvic08.png" width="54" height="42" /></a></li>
+        <li><a href="http://www.pepper-fs.co.jp/kunis/" target="_blank"><img src="/_img/top/mvic09.png" width="54" height="42" /></a></li>
+        <li><a href="/MUSASHI/" target="_blank"><img src="/_img/top/mvic10.png" width="90" height="42" /></a></li>
+        <li><a href="http://www.pepper-fs.co.jp/natori/" target="_blank"><img src="/_img/top/mvic11.png" width="80" height="42" /></a></li>
+        <li><a href="http://www.pepperlunch.com/restaurant/aichi/7407.html" target="_blank"><img src="/_img/top/mvic14.gif" width="50" height="42" /></a></li>
+        <li><a href="http://www.pepper-fs.co.jp/dontoya/" target="_blank"><img src="/_img/top/mvic05.png" width="49" height="42" /></a></li>
+      </ul>
+</div>
+</div><!--mainVisual -->
+  <div class="hyougo"><img src="_img/top/hyougo_201708.jpg" width="150" height="216" /></div>
+</div><!--visualArea -->
+
+<div id="contentArea">
+<div class="area01 clearfix">
+<div class="box462 mr15">
+<h2 class="title">代表挨拶</h2>
+<div class="greeting clearfix">
+<p class="phpto imgR"><img src="/_img/top/photo_ceo.jpg" width="111" height="156" /></p>
+<h3>高価な料理の代名詞だった“ステーキ”を<br />より多くの人に、お腹いっぱい食べてもらう</h3>
+<p class="name">代表取締役 一瀬邦夫</p>
+<p class="txt">めまぐるしく移り変わる現代社会。<br />
+ご承知のように、フードサービス業をめぐる社会経済的環境も大きく様変わりしてきました。<br />
+</p>
+<p class="all"><a href="/corpinfo/"><img src="/_img/top/btn_allview.gif" width="130" height="23" alt="全部を見る" class="btn" /></a><br /><br /></p>
+</div><!--greeting -->
+</div><!--box462 -->
+
+<div class="box224 mr15">
+<h2 class="title">会社情報</h2>
+<ul class="inner">
+<li><a href="/corpinfo/">代表挨拶</a></li>
+<li><a href="/corpinfo/policy.php">経営理念</a></li>
+<li><a href="/corpinfo/outline.php">会社概要</a></li>
+<li><a href="/corpinfo/history.php">沿革</a></li>
+<li><a href="/corpinfo/organization.php">組織</a></li>
+<li><a href="/corpinfo/access.php">アクセスマップ</a></li>
+      <li><a href="/corpinfo/newsletter.php">社内報</a></li>
+<li><a href="/corpinfo/publicity.php">パブリシティと関連記事</a></li>
+<li><a href="/corpinfo/library.php" class="st">映像ライブラリ</a></li>
+</ul><!--inner -->
+</div><!--box224 -->
+
+<div class="box224 blkR">
+<h2 class="title">IR情報</h2>
+<ul class="inner">
+<li><a href="/ir/" class="st">投資家の皆様へ</a></li>
+<li><a href="/ir/outline.php">事業概要</a></li>
+<li><a href="/ir/library.php">IRライブラリー</a></li>
+<li><a href="/ir/koukoku.php">電子公告</a></li>
+<li><a href="/ir/session.php">説明会</a></li>
+<li><a href="/ir/stocks.php">株式情報</a>・<a href="/ir/stock-price.php">株価情報</a></li>
+<li><a href="/ir/treatment.php">株主優待制度</a></li>
+<li><a href="/ir/inq.php">IRお問い合わせ</a></li>
+<li><a href="/ir/exemption.php">免責事項</a></li>
+</ul><!--inner -->
+</div><!--box224 -->
+
+</div><!--area01 -->
+
+<div class="area02 clearfix">
+<div class="box462 blkL">
+<h3 class="midashi">新着情報<span class="view"><a href="/news/">一覧</a></span></h3>
+      <dl class="newsBox">
+	    <dt class="pp">2017.8.15</dt>
+        <dd><a href="/_img/news/pdf/2017/20170815.pdf" target="_blank" class="pdf">２０１７年１２月期７月度実績のお知らせ</a></dd>
+	    <dt class="pp">2017.7.27</dt>
+        <dd><a href="/_img/news/pdf/2017/20170727.pdf" target="_blank" class="pdf">冷凍牛肉の輸入制限措置の影響について</a></dd>
+	    <dt class="pp">2017.7.27</dt>
+        <dd><a href="/_img/news/pdf/2017/20170801.pdf" target="_blank" class="pdf">8月『いきなり！ステーキ』開店のお知らせ</a></dd>
+	    <dt class="pp">2017.7.21</dt>
+        <dd><a href="/_img/news/pdf/2017/20170721.pdf" target="_blank" class="pdf">いきなり！ステーキ曽根崎新地店開店イベントのご案内</a></dd>
+	    <dt class="pp">2017.7.18</dt>
+        <dd><a href="/_img/news/pdf/2017/20170718.pdf" target="_blank" class="pdf">いきなり！ステーキ福岡天神店　開店イベントのご案内</a></dd>
+	    <dt class="pp">2017.7.14</dt>
+        <dd><a href="/_img/news/pdf/2017/PFS20170714.pdf" target="_blank" class="pdf">２０１７年１２月期６月度実績のお知らせ</a></dd>
+	    <dt class="pp">2017.7.7</dt>
+        <dd><a href="/_img/news/pdf/2017/20170707.pdf" target="_blank" class="pdf">いきなりステーキ＆サントリーサンゴリアス　府中駅前店開店セレモニーご案内　7/14</a></dd>
+	    <dt class="pp">2017.7.4</dt>
+        <dd><a href="/_img/news/pdf/2017/20170704.pdf" target="_blank" class="pdf">いきなり！ステーキ『デリシャカス2017』に出店 映画“ジョジョの奇妙な冒険”とのタイアップ商品登場！</a></dd>
+	    <dt class="pp">2017.6.28</dt>
+        <dd><a href="/_img/news/pdf/2017/20170701.pdf" target="_blank" class="pdf">7月『いきなり！ステーキ』開店のお知らせ</a></dd>
+	    <dt class="pp">2017.6.22</dt>
+        <dd><a href="/_img/news/pdf/2017/PFS20170616.pdf" target="_blank" class="pdf">いきなりステーキ  肉マネーギフトコード開発、タイムズ オリジナルスクラッチカード販売</a></dd>
+	    <dt class="pp">2017.6.16</dt>
+        <dd><a href="/_img/news/pdf/2017/20170616.pdf" target="_blank" class="pdf">いきなり！ステーキ　価格変更のお知らせ</a></dd>
+	    <dt class="pp">2017.6.14</dt>
+        <dd><a href="/_img/news/pdf/2017/20170614.pdf" target="_blank" class="pdf">２０１７年１２月期５月度実績のお知らせ</a></dd>
+      <!--newsBox -->
+</div><!--box462 -->
+
+<div class="box462 blkR">
+<h3 class="midashi">IR情報<span class="view"><a href="/ir/">一覧</a></span></h3>
+      <dl class="newsBox">
+        <dt class="pp">2017.8.15</dt>
+        <dd><a href="/_img/ir/lib/2017/PFS20170815A.pdf" target="_blank" class="pdf">人事異動に関するお知らせ</a></dd>
+        <dt class="pp">2017.8.15</dt>
+        <dd><a href="/_img/ir/lib/2017/PFS20170815.pdf" target="_blank" class="pdf">東京証券取引所市場第一部指定に関するお知らせ</a></dd>
+        <dt class="pp">2017.8.8</dt>
+        <dd><a href="/_img/ir/lib/2017/PFS20170808.pdf" target="_blank" class="pdf">東京証券取引所市場第一部指定承認に関するお知らせ</a></dd>
+        <dt class="pp">2017.7.28</dt>
+        <dd><a href="/_img/ir/lib/2017/PFS20170728A.pdf" target="_blank" class="pdf">平成29年12月期第２四半期決算短信〔日本基準〕（連結）</a></dd>
+        <dt class="pp">2017.7.28</dt>
+        <dd><a href="/_img/ir/lib/2017/PFS20170728B.pdf" target="_blank" class="pdf">株式分割後の株主優待制度に関するお知らせ</a></dd>
+        <dt class="pp">2017.7.28</dt>
+        <dd><a href="/_img/ir/lib/2017/PFS20170728C.pdf" target="_blank" class="pdf">株式分割及び定款の一部変更に関するお知らせ</a></dd>
+        <dt class="pp">2017.7.28</dt>
+        <dd><a href="/_img/ir/lib/2017/PFS20170728D.pdf" target="_blank" class="pdf">剰余金の配当に関するお知らせ</a></dd>
+        <dt class="pp">2017.7.14</dt>
+        <dd><a href="/_img/ir/lib/2017/20170714.pdf" target="_blank" class="pdf">業績予想の修正に関するお知らせ</a></dd>
+        <dt class="pp">2017.6.14</dt>
+        <dd><a href="/_img/ir/lib/2017/PFS20170614B.pdf" target="_blank" class="pdf">配当予想の修正（東証第二部上場記念配当）に関するお知らせ</a></dd>
+        <dt class="pp">2017.6.14</dt>
+        <dd><a href="/_img/ir/lib/2017/PFS20170614A.pdf" target="_blank" class="pdf">執行役員の選任に関するお知らせ</a></dd>
+        <dt class="pp">2017.4.28</dt>
+        <dd><a href="/_img/ir/lib/2017/PFS20170428B.pdf" target="_blank" class="pdf">平成29年12月期第１四半期決算短信〔日本基準〕（連結）</a></dd>
+        <dt class="pp">2017.4.28</dt>
+        <dd><a href="/_img/ir/lib/2017/PFS20170428A.pdf" target="_blank" class="pdf">業績予想の修正に関するお知らせ</a></dd>
+        <dt class="pp">2017.4.24</dt>
+        <dd><a href="/_img/ir/lib/2017/PFS20170424.pdf" target="_blank" class="pdf">東京証券取引所　市場第二部への上場市場変更に関するお知らせ</a></dd>
+				        <dt class="pp">&nbsp;</dt>
+      </dl>
+      <!--newsBox -->
+</div><!--box462 -->
+
+</div><!--area02 -->
+
+<div class="area03 clearfix">
+    
+  <div class="box462 blkL"> 
+    <ul class="mr0">
+      <a href="https://www.amazon.co.jp/%E3%80%8C%E8%82%89%E3%81%B2%E3%81%A8%E7%AD%8B%E3%80%8D%E3%81%A7%E3%80%81%E5%8B%9D%E3%81%A4-%E3%80%8E%E3%81%84%E3%81%8D%E3%81%AA%E3%82%8A-%E3%82%B9%E3%83%86%E3%83%BC%E3%82%AD%E3%80%8F%E3%81%A8%E4%B8%80%E7%80%AC%E9%82%A6%E5%A4%AB-%E5%B0%BE%E5%B4%8E-%E5%BC%98%E4%B9%8B/dp/4087860701/ref=sr_1_2?ie=UTF8&qid=1470354966&sr=8-2&keywords=%E3%81%84%E3%81%8D%E3%81%AA%E3%82%8A%E3%82%B9%E3%83%86%E3%83%BC%E3%82%AD" target="_blank"><img src="/_img/top/1light.jpg" alt="肉ひと筋で、勝つ！　いきなり！ステーキと一瀬邦夫" width="225" height="316" /></a> 
+      <BR>
+      <BR> 
+      <a href="http://www.pfsnetshop.com/SHOP/120773/list.html" target="_blank"><img src="/_img/top/pfs_nsbanner.jpg" alt="ネットショップ" width="464" height="145" /></a> 
+    </ul>
+<br />
+<br />
+<ul class="bnrs2">
+<li><a href="/_img/top/seminer.pdf"><img src="/_img/top/bnr_seminer.gif" alt="FC説明会のご案内" width="204" height="55" /></a></li>
+<li><a href="/product/fc.php"><img src="/_img/top/bnr_fc.gif" alt="ペッパーランチFC加盟店募集" width="204" height="55" /></a></li>
+<li class="mr0"><a href="/_img/top/natori.pdf"><img src="/_img/top/bnr_nfc.gif" alt="牛たん仙台なとりFC加盟店募集" width="204" height="55" /></a></li>
+<li><a href="/_img/top/ikinari.pdf"><img src="/_img/top/bnr_ifc.gif" alt="いきなりステーキFC加盟店募集" width="204" height="55" /></a></li>
+<li class="mr0"><a href="/product/shop.php"><img src="/_img/top/bnr_shop.gif" alt="店舗物件情報募集中" width="204" height="55" /></a></li>
+<li><a href="/inquiry/voice.php/"><img src="/_img/top/bnr_voice.gif" alt="お客様の声" width="204" height="55" /></a></li>
+<li class="mr0"><a href="http://www.pepperlunch.com/restaurant/" target="_blank"><img src="/_img/top/bnr_map.gif" alt="ペッパーフードサービス店舗一覧" width="204" height="55" /></a></li>
+<li class="mr0"><a href="/_img/top//shop_infomation.pdf" target="_blank"><img src="/_img/top/bnr_shopinfo.gif" alt="店舗物件ご紹介" width="204" height="55" /></a></li>
+</ul>
+    <!--bnrs -->
+  </div>
+  <!--box462 -->
+
+<div class="box462 blkR">
+      <div align="center"><a href="/sinsotsu/" target="_blank"><img src="/_img/top/rec_banner.png" border="0" /></a></div></br>
+      <div align="center"><a href="https://pepper-fs-recruit.net/jobfind-pc/" target="_blank"><img src="/_img/top/hito_mheader.jpg" border="0" /></a></div></br>
+      <div align="center"><a href="/_img/top/recruit_ikinari.pdf?secret=cd2dca2783e6646ae6927cecd5e04ed3" target="_blank"><img src="/_img/top/kyujin.png" border="0" /></a></div></br>
+      </br>
+      </br>
+<div class="FBarea">
+<iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fpepperlunchfanclub&amp;width=428&amp;height=220&amp;colorscheme=light&amp;show_faces=true&amp;border_color&amp;stream=false&amp;header=true" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:428px; height:220px;" allowTransparency="true"></iframe>
+</div>
+<div class="FBarea">
+<iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fikinari.steak&amp;width=428&amp;height=220&amp;colorscheme=light&amp;show_faces=true&amp;border_color&amp;stream=false&amp;header=true" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:428px; height:220px;" allowTransparency="true"></iframe>
+</div><!--FBarea -->
+</div><!--box462 -->
+
+</div><!--area03 -->
+
+<div class="pageCon"><a href="#headerArea"><img src="/_img/common/btn_pagetop.gif" width="110" height="32" alt="ページの先頭へ" /></a></div>
+</div><!--contentArea -->
+
+<div id="footerArea">
+<ol class="footerNav clearfix">
+<li><a href="/">ホーム</a></li>
+<li><a href="/news/">ニュース一覧</a></li>
+<li><a href="/corpinfo/">会社情報</a></li>
+<li><a href="/product/">事業紹介</a></li>
+<li><a href="/ir/">IR情報</a></li>
+<li><a href="http://www.pepper-fs.co.jp/sinsotsu/">採用情報</a></li>
+<li><a href="/privacy/">プライバシーポリシー</a></li>
+<li class="last"><a href="/inquiry/">お問い合わせ</a></li>
+</ol><!--footerNav -->
+<address>
+<img src="/_img/footer/footer_logo.gif" alt="株式会社ペッパーフードサービス" width="226" height="17" />
+</address>
+</div><!--footerArea -->
+</body>
+
+</html>

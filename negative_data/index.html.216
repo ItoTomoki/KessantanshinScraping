@@ -1,0 +1,375 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+<head>
+<!-- meta -->
+<meta charset="utf-8">
+<meta name="description" content="日本のゴルフ場運営会社である株式会社アコーディア・ゴルフの企業情報サイトです。株式を東証1部に上場しており、株主様・投資家向けIR情報などをご覧頂けます。"/>
+<meta name="keywords" content="アコーディア・ゴルフ,ACCORDIA GOLF,IR,投資家，株主優待,株主還元，株式投資">
+<meta name="viewport" content="width=950">
+<!-- title -->
+<title>株式会社アコーディア・ゴルフ</title>
+<!-- link -->
+<link rel="start" href="/" title="ホーム">
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<!-- stylesheet -->
+<link rel="stylesheet" href="/common/css/base.css">
+<link rel="stylesheet" href="/common/css/print.css" media="print">
+<link rel="stylesheet" href="/css/accordia.css">
+<link rel="stylesheet" href="/css/istyle.css">
+<!-- javascript -->
+<script src="/common/js/jquery-1.7.2.min.js"></script>
+<script src="/common/js/jquery.cookie.js"></script>
+<script src="/common/js/fontsizechange.js"></script>
+<script src="/js/jquery.bxslider.js"></script>
+<script src="/js/jquery.bgscroll.js"></script>
+<script src="/js/jquery.marquee.js"></script>
+<script src="/common/js/base.js"></script>
+<script src="/js/home.js"></script>
+
+<!-- mainImage -->
+<script type="text/javascript">
+var scrollSpeed = 100;
+var current = 0;
+var direction = 'h';
+function bgscroll(){
+    current -= 1;
+    $('#main').css("backgroundPosition", (direction == 'h') ? current+"px 0" : "0 " + current+"px");
+}
+ setInterval("bgscroll()", scrollSpeed);
+</script>
+
+
+<!-- start Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12830956-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<!--[if lt IE 9]>
+<script src="/common/js/html5shiv.js"></script>
+<script src="/common/js/html5shiv-printshiv.js"></script>
+<![endif]-->
+</head>
+<body id="home">
+	<header>
+		<div class="headerWrapper">
+			<div class="inner cf">
+				<h1><a href="http://www.accordiagolf.co.jp/">株式会社アコーディアゴルフ</a></h1>
+				<div class="box1 cf">
+					<p><a href="javascript:window.print();">印刷</a></p>
+					<ul class="cf">
+						<li><a href="http://www.accordiagolf.co.jp/english/">English</a></li>
+						<li><a href="http://www.accordiagolf.co.jp/inquiry/">お問い合わせ</a></li>
+						<li><a href="http://www.accordiagolf.co.jp/sitemap.php">サイトマップ</a></li>
+					</ul>
+				</div><!-- .box1 -->
+				<div class="box2 cf">
+					<div class="fontSize cf">
+						<p>文字サイズ</p>
+						<ul id="fontSize" class="radius5px cf">
+							<li class="sbtn skyblue changeBtn">標準</li>
+							<li class="sbtn skyblue changeBtn">拡大</li>
+						</ul>
+					</div><!-- .fontSize -->
+					<!-- start Google Site Search -->
+					<form class="search" id="cse-search-box" action="http://www.accordiagolf.co.jp/search/result.php">
+						<input type="hidden" name="cx" value="005656903703505435767:_m4arjp_tza" />
+						<input type="hidden" name="ie" value="UTF-8" />
+						<input class="radius5px field" type="text" name="q" placeholder="キーワードを入力"><input class="btn radius5px" type="submit" name="sa" value="検索">
+					</form><!-- .search -->
+					<!-- end Google Site Search -->
+				</div><!-- .box2 -->
+			</div><!-- inner -->
+			<nav id="globalNav">
+				<ul class="global cf">
+					<li class="home"><a href="http://www.accordiagolf.co.jp/">HOME</a></li>
+					<li class="news" rel="0"><a href="http://www.accordiagolf.co.jp/news/">ニュースリリース</a></li><!-- .news -->
+					<li class="company" rel="1"><a href="http://www.accordiagolf.co.jp/company_info/">企業・グループ情報</a></li><!-- .company -->
+					<li class="csr" rel="2"><a href="http://www.accordiagolf.co.jp/csr/">CSR</a></li><!-- .csr -->
+					<li class="recruit"><a href="http://recruit.accordiagolf.com/" target="_blank">採用情報</a></li>
+				</ul><!-- #globalNav -->
+			</nav>
+		</div>
+
+		<div id="dropNav">
+			<div class="sub dropNews">
+			<div class="dropInner">
+				<div class="inner cf">
+					<div class="imageArea">
+						<p class="image"><img src="/common/img/header/img-news.png" alt="ニュースリリース"></p>
+					</div>
+					<div class="textArea">
+						<p class="title"><a href="http://www.accordiagolf.co.jp/news/">ニュースリリース TOP</a></p>
+						<ul>
+														<li><a href="http://www.accordiagolf.co.jp/news/?year=2017">2017年度</a></li>
+														<li><a href="http://www.accordiagolf.co.jp/news/?year=2016">2016年度</a></li>
+														<li><a href="http://www.accordiagolf.co.jp/news/?year=2015">2015年度</a></li>
+														<li><a href="http://www.accordiagolf.co.jp/news/?year=2014">2014年度</a></li>
+														<li><a href="http://www.accordiagolf.co.jp/news/old_list.php">一覧</a></li>
+						</ul>
+						<hr>
+						<ul>
+							<li><a href="http://www.accordiagolf.co.jp/news/press_release.php">プレスリリース</a></li>
+							<li><a href="http://www.accordiagolf.co.jp/news/newsletter.php">ニュースレター</a></li>
+							<li><a href="http://www.accordiagolf.co.jp/news/pr.php">PR</a></li>
+							<li><a href="http://www.accordiagolf.co.jp/news_image/">報道関係者様向けリリース画像</a></li>
+						</ul>
+						<hr>
+					</div>
+				</div>
+			</div>
+			</div>
+			<div class="sub dropCompany">
+			<div class="dropInner">
+				<div class="inner cf">
+					<div class="imageArea">
+						<p class="image"><img src="/common/img/header/img-company.png" alt="企業・グループ情報"></p>
+					</div>
+					<div class="textArea">
+						<p class="title"><a href="http://www.accordiagolf.co.jp/company_info/">企業・グループ情報 TOP</a></p>
+						<ul>
+							<li><a href="http://www.accordiagolf.co.jp/company_info/c_outline.php">会社概要</a></li>
+							<li><a href="http://www.accordiagolf.co.jp/company_info/message.php">社長挨拶</a></li>
+							<li><a href="http://www.accordiagolf.co.jp/company_info/rinen.php">企業理念</a></li>
+							<li><a href="http://www.accordiagolf.co.jp/company_info/history.php">沿革</a></li>
+							<li><a href="http://www.accordiagolf.co.jp/company_info/jigyo.php">事業内容</a></li>
+							<li><a href="http://www.accordiagolf.co.jp/company_info/keiei.php">経営戦略</a></li>
+							<li><a href="http://www.accordiagolf.co.jp/company_info/sosiki.php">組織体制</a></li>
+							<li><a href="http://www.accordiagolf.co.jp/company_info/group_list.php">グループ会社一覧</a></li>
+							<li><a href="http://www.accordiagolf.co.jp/company_info/publish/">電子公告</a></li>
+							<li><a href="http://www.accordiagolf.co.jp/company_info/tetuzuki.php">株式に関するご案内</a></li>
+							<li><a href="http://www.accordiagolf.co.jp/company_info/yuutai.php">株主優待情報</a></li>
+						</ul>
+						<hr>
+					</div>
+				</div>
+			</div>
+			</div>
+			<div class="sub dropCsr">
+			<div class="dropInner">
+				<div class="inner cf">
+					<div class="imageArea">
+						<p class="image"><img src="/common/img/header/img-csr.png" alt="csr"></p>
+					</div>
+					<div class="textArea">
+						<p class="title"><a href="http://www.accordiagolf.co.jp/csr/">CSR TOP</a></p>
+						<ul>
+							<li><a href="http://www.accordiagolf.co.jp/csr/message.php">トップメッセージ</a></li>
+							<li><a href="http://www.accordiagolf.co.jp/csr/policy.php">CSR活動方針</a></li>
+							<li><a href="http://www.accordiagolf.co.jp/csr/effort.php">当社の取り組み</a></li>
+							<li><a href="http://www.accordiagolf.co.jp/csr/governance.php">コーポレート・ガバナンス</a></li>
+							<li><a href="http://www.accordiagolf.co.jp/csr/compliance.php">コンプライアンス</a></li>
+						</ul>
+						<hr>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+	</header><!-- header -->	<div id="main">
+		<div class="inner">
+			<div id="loader"><img src="/common/img/loader.gif" width="24" height="24" alt="Loading..." /></div>
+			<p><img src="/img/home/img_catchcopy.png" alt="Pioneering unique services of superior quality It's a new game" width="300" height="300" ></p>
+		</div>
+	</div><!-- #main -->
+
+	<div id="content">
+		<article class="inner cf">
+			<!--<div class="centerBox">
+				<div id="marquee" class="wrap mb20 cf">
+				<ul class="marquee">
+												<li>
+				<span>2016.12.29</span>
+								お客様各位 弊社本社部門は12月30日から1月3日まで年末年始休暇とさせていただきます。期間中のお問い合わせ等につきましては、1月4日以降に順次対応させていただきます。ご理解の程お願い申し上げます。
+								</li>
+																				</ul>
+					<p><a class="sbtn blue" href="/osirase.php">MORE</a></p>
+				</div>
+			</div> .centerBox -->
+			<div class="cf">
+				<div class="leftBox">
+
+					<section class="news wrap mb20">
+						<p>株主の皆さまをはじめ、関係各位の皆さまには、長年にわたり当社の経営にご理解と温かいご支援を賜りましたことを心より感謝申し上げます。</p>
+						<p>当社の普通株式は、2017年2月28日開催の臨時株主総会において、株式併合に係る議案について原案どおりご承認いただいたことに伴い、2017年3月23日をもって東京証券取引所市場第一部において上場廃止となりました。</p>
+						<p class="mb20">今後もより一層の企業価値の向上に努めて参りますので、変わらぬご理解とご支援を賜りますよう、よろしくお願い申し上げます。</p>
+
+						<dl class="cf">
+							<dd class="article">
+								<a class="pdf" href="/file/pdf/news_201704.pdf" target="_blank">（株式併合に伴う端数株式処分代金）交付金銭のお支払いのご案内</a>
+							</dd>
+							<dd class="ico">
+								<a class="pdf" href="/file/pdf/news_201704.pdf" target="_blank">PDF(64KB）</a>
+							</dd>
+						</dl>
+						<dl class="cf">
+							<dd class="article">
+								<a href="/company_info/yuutai.php" target="_blank">株主優待制度について</a>
+							</dd>
+						</dl>
+					</section><!-- #news -->
+					
+					<section class="news wrap">
+						<div class="h2Box cf">
+							<h2>最新ニュース</h2>
+							<p><a class="sbtn blue" href="/latest_news.php">MORE</a></p>
+							<p><a class="sbtn orange" href="latestnews_xml.php">RSS</a></p>
+						</div><!-- .h2Box -->
+																					<dl class="cf">
+									<dt class="icoLetter">
+																		<span>2017.08.01</span></dt>
+									<dd class="article">
+																					<a href="http://www.accordiagolf.co.jp/file/pdf/news_20170801161554.pdf" target="_blank">アコーディア・ゴルフ ニュースレター アコナビ 2017年8月号</a>
+																			</dd>
+									<dd class="ico">
+																					<a class="pdf" href="http://www.accordiagolf.co.jp/file/pdf/news_20170801161554.pdf" target="_blank">PDF（701KB）</a>
+																			</dd>
+								</dl>
+																												<dl class="cf">
+									<dt class="icoPre">
+																		<span>2017.07.27</span></dt>
+									<dd class="article">
+																					<a href="http://www.accordiagolf.co.jp/file/pdf/news_20170727165725.pdf" target="_blank">アコーディア・ゴルフ運営ゴルフ場で最新型カートナビを導入 ３年後には100ゴルフ場でタッチパネル式の多機能なカートナビの利用が可能に</a>
+																			</dd>
+									<dd class="ico">
+																					<a class="pdf" href="http://www.accordiagolf.co.jp/file/pdf/news_20170727165725.pdf" target="_blank">PDF（455KB）</a>
+																			</dd>
+								</dl>
+																												<dl class="cf">
+									<dt class="icoPre">
+																		<span>2017.07.12</span></dt>
+									<dd class="article">
+																					<a href="http://www.accordiagolf.co.jp/file/pdf/news_20170712175149.pdf" target="_blank">平成29年九州北部の豪雨による災害への支援実施について</a>
+																			</dd>
+									<dd class="ico">
+																					<a class="pdf" href="http://www.accordiagolf.co.jp/file/pdf/news_20170712175149.pdf" target="_blank">PDF（85KB）</a>
+																			</dd>
+								</dl>
+																												<dl class="cf">
+									<dt class="icoLetter">
+																		<span>2017.07.03</span></dt>
+									<dd class="article">
+																					<a href="http://www.accordiagolf.co.jp/file/pdf/news_20170719092408.pdf" target="_blank">アコーディア・ゴルフ ニュースレター アコナビ 2017年7月号</a>
+																			</dd>
+									<dd class="ico">
+																					<a class="pdf" href="http://www.accordiagolf.co.jp/file/pdf/news_20170719092408.pdf" target="_blank">PDF（831KB）</a>
+																			</dd>
+								</dl>
+																												<dl class="cf">
+									<dt class="icoLetter">
+																		<span>2017.06.01</span></dt>
+									<dd class="article">
+																					<a href="http://www.accordiagolf.co.jp/file/pdf/news_20170601143246.pdf" target="_blank">アコーディア・ゴルフ ニュースレター アコナビ 2017年6月</a>
+																			</dd>
+									<dd class="ico">
+																					<a class="pdf" href="http://www.accordiagolf.co.jp/file/pdf/news_20170601143246.pdf" target="_blank">PDF（788KB）</a>
+																			</dd>
+								</dl>
+																															</section><!-- #news -->
+				</div><!-- .leftBox -->
+
+				<div class="rightBox">
+					<nav id="reservation" class="wrap mb20">
+						<p><a class="radius3px" href="http://www.accordiagolf.com/" target="_blank"><span>ゴルフ場のご予約</span></a></p>
+					</nav><!-- #reservation -->
+					<section id="ranking" class="wrap mb20">
+						<div class="h2Box cf">
+							<h2>アクセスランキング</h2>
+						</div><!-- .h2Box -->
+															<dl class="no1 cf"><dt class="radius2px">1</dt><dd><a href="/company_info/c_outline.php">会社概要｜企業・グループ情報｜株式会社アコーディア・ゴルフ</a></dd></dl>
+															<dl class="no2 cf"><dt class="radius2px">2</dt><dd><a href="/company_info/group_list.php">グループ会社一覧｜企業・グループ情報｜株式会社アコーディア・ゴルフ</a></dd></dl>
+															<dl class="no3 cf"><dt class="radius2px">3</dt><dd><a href="/company_info/">企業・グループ情報｜株式会社アコーディア・ゴルフ</a></dd></dl>
+													<p>(2017年08月現在)</p>
+					</section><!-- #ranking -->
+				</div><!-- .rightBox -->
+			</div><!-- .cf -->
+		</article><!-- .inner -->
+	</div><!-- #content -->
+	<footer>
+		<div class="pageTop">
+			<div class="inner">
+				<p><a href="header">ページのトップへ</a></p>
+			</div>
+		</div><!-- .pageTop -->
+		<aside class="bnrBox inner">
+			<ul class="cf">
+				<li><a class="op" href="http://www.lstyle-accordiagolf.com/pinkribbon/" target="_blank"><img src="/common/img/bnr/bnr_pinkribbon.jpg" alt="アコーディア・ゴルフはピンクリボン運動を応援しています。" width="303" height="90" ></a></li>
+				<li><a class="op" href="http://recruit.accordiagolf.com/" target="_blank"><img src="/common/img/bnr/bnr_recruit.jpg" alt="採用サイトはコチラ" width="303" height="90" ></a></li>
+			</ul>
+		</aside><!-- .bnrBox -->
+		<div class="footerSitemap">
+			<div class="inner cf">
+				<dl>
+					<dt><a href="http://www.accordiagolf.co.jp/news/">ニュースリリース</a></dt>
+										<dd><a href="http://www.accordiagolf.co.jp/news/?year=2017">2017年度</a></dd>
+										<dd><a href="http://www.accordiagolf.co.jp/news/?year=2016">2016年度</a></dd>
+										<dd><a href="http://www.accordiagolf.co.jp/news/?year=2015">2015年度</a></dd>
+										<dd><a href="http://www.accordiagolf.co.jp/news/?year=2014">2014年度</a></dd>
+										<dd><a href="http://www.accordiagolf.co.jp/news/old_list.php">一覧</a></dd>
+					<dd><a href="http://www.accordiagolf.co.jp/news/press_release.php">プレスリリース</a></dd>
+					<dd><a href="http://www.accordiagolf.co.jp/news/newsletter.php">ニュースレター</a></dd>
+					<dd><a href="http://www.accordiagolf.co.jp/news/pr.php">PR</a></dd>
+                    <dd><a href="http://www.accordiagolf.co.jp/news_image/">報道関係者様向けリリース画像</a></dd>
+				</dl>
+				<dl>
+					<dt><a href="http://www.accordiagolf.co.jp/company_info/">企業・グループ情報</a></dt>
+					<dd><a href="http://www.accordiagolf.co.jp/company_info/c_outline.php">会社概要</a></dd>
+					<dd><a href="http://www.accordiagolf.co.jp/company_info/message.php">社長挨拶</a></dd>
+					<dd><a href="http://www.accordiagolf.co.jp/company_info/rinen.php">企業理念</a></dd>
+					<dd><a href="http://www.accordiagolf.co.jp/company_info/history.php">沿革</a></dd>
+					<dd><a href="http://www.accordiagolf.co.jp/company_info/jigyo.php">事業内容</a></dd>
+					<dd><a href="http://www.accordiagolf.co.jp/company_info/keiei.php">経営戦略</a></dd>
+					<dd><a href="http://www.accordiagolf.co.jp/company_info/sosiki.php">組織体制</a></dd>
+					<dd><a href="http://www.accordiagolf.co.jp/company_info/group_list.php">グループ会社一覧</a></dd>
+					<dd><a href="http://www.accordiagolf.co.jp/company_info/publish/">電子公告</a></dd>
+					<dd><a href="http://www.accordiagolf.co.jp/company_info/tetuzuki.php">株式に関するご案内</a></dd>
+					<dd><a href="http://www.accordiagolf.co.jp/company_info/yuutai.php">株主優待情報</a></dd>
+				</dl>
+				<dl>
+					<dt><a href="http://www.accordiagolf.co.jp/csr/">CSR</a></dt>
+					<dd><a href="http://www.accordiagolf.co.jp/csr/message.php">トップメッセージ</a></dd>
+					<dd><a href="http://www.accordiagolf.co.jp/csr/policy.php">CSR活動方針</a></dd>
+					<dd><a href="http://www.accordiagolf.co.jp/csr/effort.php">当社の取り組み</a></dd>
+					<dd><a href="http://www.accordiagolf.co.jp/csr/governance.php">コーポレート・ガバナンス</a></dd>
+					<dd><a href="http://www.accordiagolf.co.jp/csr/compliance.php">コンプライアンス</a></dd>
+				</dl>
+				<dl class="last">
+					<dt>その他</dt>
+					<dd><a href="http://www.accordiagolf.co.jp/latest_news.php">最新ニュース</a></dd>
+					<dd><a href="http://www.accordiagolf.co.jp/osirase.php">お知らせ</a></dd>
+					<dd><a href="http://www.accordiagolf.co.jp/inquiry/">お問い合わせ</a></dd>
+					<dd><a href="http://recruit.accordiagolf.com/" target="_blank">採用情報</a></dd>
+					<dd><a href="http://www.accordiagolf.co.jp/privacy.php">個人情報保護方針</a></dd>
+					<dd><a href="http://www.accordiagolf.co.jp/notice.php">免責条項</a></dd>
+					<dd><a href="http://www.accordiagolf.co.jp/sitemap.php">サイトマップ</a></dd>
+				</dl>
+			</div>
+		</div><!-- .footerSitemap -->
+		<div class="footerBox">
+			<div class="inner  cf">
+				<div class="box">
+					<script src="/js/jquery.auto.height.js"></script>
+					<script src="/english/js/footer.js"></script>
+					<dl class="radius5px cf">
+						<dt><a class="op" href="http://www.adobe.com/jp/products/acrobat/readstep2.html" target="_blank"><img src="/common/img/logo_pdf.gif" alt="Get ADOBE READER" width="112" height="33" ></a></dt>
+						<dd><a href="http://www.adobe.com/jp/products/acrobat/readstep2.html" target="_blank">PDF形式の資料をご覧いただくには、Adobe Readerが必要です。<br>お持ちでない方はこちらからダウンロードしてください。</a></dd>
+					</dl>
+					<p>(c) Copyright ACCORDIA GOLF co.,Ltd. All rights reserved.</p>
+				</div><!-- .Box -->
+				<div class="box boxAgt">
+					<dl class="radius5px cf">
+						<dt><a class="op" href="http://www.accordiagolftrust.com/jp/home.html" target="_blank"><img src="/english/common/img/logo_agt.jpg" alt="アコーディア・ゴルフ・トラスト（AGトラスト）" width="70" height="60" ></a></dt>
+						<dd><a href="http://www.accordiagolftrust.com/jp/home.html" target="_blank">アコーディア・ゴルフ・トラスト（AGトラスト）は、シンガポール証券取引所上場のビジネス・トラストであり、当初は日本のゴルフ場資産にて構成されています。<br>
+						シンボル　AGT：SP</a></dd>
+					</dl>
+				</div>
+			</div>
+		</div><!-- .footerBox -->
+	</footer><!-- footer --></body>
+</html>

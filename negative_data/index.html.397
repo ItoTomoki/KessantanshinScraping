@@ -1,0 +1,357 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="ja"><!-- InstanceBegin template="/Templates/tpl.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="imagetoolbar" content="no">
+<meta name="keywords" content="ACKグループ,ACKG,ackg,株主投資家,最新決算情報,企業情報,CSR活動,社会活動,環境活動,経営理念,中長期経営戦略,ミッション・バリュー">
+<meta name="description" content="ACKグループは、「世界の人々の豊かなくらしと夢の創造」を企業理念に掲げ,「無限大へのチャレンジ精神」でグループ全役職員が一丸となって邁進します。ACKグループの株主・投資家の皆様に向けたIR情報をご紹介します。">
+<meta name="Robots" content="INDEX, FOLLOW">
+<link rel="INDEX" href="index.html">
+<link rev="MADE" href="mailto:ir-ackg@ack-g.com"> 
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>株式会社ACKグループ</title>
+<link href="css/slides.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script src="js/slides.min.jquery.js"></script>
+<script>
+		$(function(){
+			$('#slides').slides({
+				preload: true,
+				preloadImage: 'tpl/slides_img/loading.gif',
+				play: 6000,
+				pause: 6000,
+				hoverPause: true
+			});
+		});
+	</script>
+<link rel="stylesheet" href="css/jquery.jscrollpane.css">
+<script type="text/javascript" src="scroll_js/jquery.jscrollpane.min.js"></script>
+<script type="text/javascript" src="scroll_js/jquery.mousewheel.js"></script>
+<script type="text/javascript">
+$(function(){
+	$('.scroll-area1').jScrollPane();
+});
+$(function(){
+	$('.scroll-area2').jScrollPane({autoReinitialise: true});
+});
+$(function(){
+	$('.scroll-area3').jScrollPane({autoReinitialise: true});
+});
+</script>
+<script language="javascript" type="text/javascript">
+/** 
+ * 要素を表示／非表示させる
+ * @id 要素のID
+ * @visible true（表示） または false（非表示）
+ */
+function visibleElement(id,visible){
+    document.getElementById(id).style.display = visible ? "block" : "none";
+}
+
+/** 
+ * 表示／非表示の自動切換え
+ * @id 要素のID
+ * @visible true（表示） または false（非表示）
+ */
+function changeVisibility(id){
+    var ele = document.getElementById(id);
+    if (ele.style.display == 'none') {
+        //元々は'none'（非表示）の場合、表示させる
+        ele.style.display = 'block';
+    } else {
+        //非表示にする
+        ele.style.display = 'none';
+    }
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+<!-- InstanceEndEditable --><link href="css/common.css" rel="stylesheet" type="text/css">
+<script type = "text/javascript" src="js/common.js"></script>
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+</head>
+
+<body onLoad="MM_preloadImages('tpl/h_info_f2.gif','tpl/h_en_f2.gif','tpl/m2_f2.gif','tpl/m1_f2.gif','tpl/m3_f2.gif','tpl/m4_f2.gif','tpl/m5_f2.gif','tpl/b1_f2.jpg','tpl/b2_f2.jpg','tpl/b3_f2.jpg','tpl/b4_f2.jpg','tpl/b5_f2.jpg','tpl/f1_f2.gif','tpl/f2_f2.gif','tpl/f3_f2.gif','tpl/gb1_f2.gif','tpl/gb3_f2.gif','tpl/gb4_f2.gif','tpl/gb5_f2.gif','tpl/gb7_f2.gif','tpl/gb6_f2.gif','tpl/gb2_f2.gif','tpl/gb1_s2.gif','tpl/gb2_s2.gif','tpl/gb3_s2.gif','tpl/gb4_s2.gif','tpl/gb8_s2.gif','tpl/pagetop_s2.gif','tpl/b1_s2.jpg','tpl/b13_s2.jpg','tpl/b4_s2.gif','tpl/b5_s2.gif','tpl/p1_s2.jpg','tpl/p2_s2.jpg','tpl/p3_s2.jpg','tpl/p4_s2.jpg','tpl/p5_s2.jpg','tpl/p6_s2.jpg','tpl/p7_s2.jpg','tpl/p8_s2.jpg','tpl/b2_s2.jpg','tpl/b3_s2.jpg','tpl/tub1_s2.jpg','tpl/tub2_s2.jpg','tpl/tub3_s2.jpg','tpl/g1_s2.gif','tpl/g2_s2.gif','tpl/g3_s2.gif','tpl/g5_s2.gif','tpl/g4_s2.gif','tpl/g6_s2.gif')">
+
+<div id="layout">
+  <div id="mainspace">
+<!-- ヘッダー -->
+    <div id="header">
+	  <div id="logo"><a href="http://www.ackg.jp/"><img src="tpl/logo.gif" alt="株式会社ACKグループ" border="0"></a></div>
+    <div id="header-menu">
+	<h1>ACKグループは、「世界の人々の豊かなくらしと夢の創造」を企業理念に掲げ,「無限大へのチャレンジ精神」でグループ全役職員が一丸となって邁進します。</h1>
+	<ul>
+	 <li><a href="http://www.ackg.jp/english/index.html" target="_blank" onMouseOver="MM_swapImage('HM1','','tpl/h_en_s2.gif',1)" onMouseOut="MM_swapImgRestore()"><img src="tpl/h_en.gif" alt="English" name="HM1" border="0" id="HM1" ></a></li>
+	 <li><a href="https://www.ackg.jp/ssl/information/index.php" onMouseOver="MM_swapImage('HM2','','tpl/h_info_s2.gif',1)" onMouseOut="MM_swapImgRestore()"><img src="tpl/h_info.gif" alt="お問い合せ" name="HM2"  width="68" height="10" border="0" id="HM2" ></a></li>
+	</ul>
+	</div>
+<!-- ナビ -->
+    <div id="navigation">
+	<ul>
+	 <li><a href="http://www.ackg.jp/" onMouseOver="MM_swapImage('M1','','tpl/m1_s2.gif',1)" onMouseOut="MM_swapImgRestore()"><img src="tpl/m1.gif" alt="ホーム" name="M1" width="64" height="14" id="M1" border="0"></a></li>
+	 <li><a href="company/index.html" onMouseOver="MM_swapImage('M2','','tpl/m2_s2.gif',1)" onMouseOut="MM_swapImgRestore()"><img src="tpl/m2.gif" alt="企業情報" name="M2" width="77" height="14" id="M2" border="0"></a></li>
+	 <li><a href="business/index.html" onMouseOver="MM_swapImage('M3','','tpl/m3_s2.gif',1)" onMouseOut="MM_swapImgRestore()"><img src="tpl/m3.gif" alt="事業活動" name="M3" width="78" height="14" id="M3" border="0"></a></li>
+	 <li><a href="ir/index.html" onMouseOver="MM_swapImage('M4','','tpl/m4_s2.gif',1)" onMouseOut="MM_swapImgRestore()"><img src="tpl/m4.gif" alt="IR情報" name="M4" width="79" height="14" id="M4" border="0"></a></li>
+	 <li><a href="recruit/index.html" onMouseOver="MM_swapImage('M5','','tpl/m5_s2.gif',1)" onMouseOut="MM_swapImgRestore()"><img src="tpl/m5.gif" alt="採用情報" name="M5" width="78" height="14" id="M5" border="0"></a></li>
+	 <li><a href="ir/report/news_release.php" onMouseOver="MM_swapImage('M6','','tpl/m6_s2.gif',1)" onMouseOut="MM_swapImgRestore()"><img src="tpl/m6.gif" alt="インフォメーション" name="M6" width="132" height="14" id="M6" border="0"></a></li>
+	</ul>
+    </div>
+    </div>
+<!-- ページ -->
+    <div id="pagebody">
+      <!-- InstanceBeginEditable name="pagebody" -->
+	<!--object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="850" height="220">
+      <param name="movie" value="top.swf">
+      <param name="quality" value="high">
+      <embed src="top.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="850" height="220"></embed>
+	  </object-->
+    <div id="slideser">
+			<div id="slides">
+				<div class="slides_container">
+		<a href="business/topics/201509.html#s1"><img src="tpl/slides_img/img.jpg" width="850" height="262"></a>
+		<a href="business/topics/index2.html#s1"><img src="tpl/slides_img/img_s2.jpg" width="850" height="262"></a>
+		<a href="business/topics/201509.html#s2"><img src="tpl/slides_img/img_s3.jpg" width="850" height="262"></a>
+		<a href="business/topics/201509.html#s3"><img src="tpl/slides_img/img_s4.jpg" width="850" height="262"></a>
+		<a href="business/topics/201509.html#s4"><img src="tpl/slides_img/img_s5.jpg" width="850" height="262"></a>
+		<a href="business/topics/index2.html#s2"><img src="tpl/slides_img/img_s6.jpg" width="850" height="262"></a>
+		<a href="business/topics/201509.html#s5"><img src="tpl/slides_img/img_s7.jpg" width="850" height="262"></a>
+		<a href="business/topics/201309.html#s1"><img src="tpl/slides_img/img_s8.jpg" width="850" height="262"></a>
+		<a href="business/topics/201509.html#s2"><img src="tpl/slides_img/img_s9.jpg" width="850" height="262"></a>
+		<a href="business/topics/index2.html#s3"><img src="tpl/slides_img/img_s10.jpg" width="850" height="262"></a>
+		<a href="business/topics/201309.html#s2"><img src="tpl/slides_img/img_s11.jpg" width="850" height="262"></a>
+		<a href="business/topics/201209.html#s5"><img src="tpl/slides_img/img_s12.jpg" width="850" height="262"></a>
+		<img src="tpl/slides_img/img_s13.jpg" width="850" height="262">
+		<a href="business/topics/201509.html#s6"><img src="tpl/slides_img/img_s14.jpg" width="850" height="262"></a>
+		<a href="business/topics/201403.html#s2"><img src="tpl/slides_img/img_s15.jpg" width="850" height="262"></a>
+		<a href="business/topics/201403.html#s4"><img src="tpl/slides_img/img_s16.jpg" width="850" height="262"></a>
+		<a href="business/topics/201409.html#s2"><img src="tpl/slides_img/img_s17.jpg"  width="850" height="262"></a>				</div>
+				<a href="#" class="prev"><img src="tpl/slides_img/arrow-prev.png" width="18" height="18" alt="Arrow Prev"></a>
+				<a href="#" class="next"><img src="tpl/slides_img/arrow-next.png" width="18" height="18" alt="Arrow Next"></a>
+			</div>
+		</div>
+      
+        <div id="index-contents">
+        <div id="index-contents-l">
+  	 <p><a href="company/first_contact/index.html"><img src="tpl/b1.jpg" alt="初めての方はこちらへ、ACKグループのご紹介" name="B1" width="329" height="90" id="B1" onMouseOver="MM_swapImage('B1','','tpl/b1_s2.jpg',1)" onMouseOut="MM_swapImgRestore()" border="0"></a><a href="tvonair/index.html"><img src="tpl/b13.jpg" alt="プロフェッショナル～仕事の流儀～に出演しました。" name="B13" width="160" height="90" id="B13" onMouseOver="MM_swapImage('B13','','tpl/b13_s2.jpg',1)" onMouseOut="MM_swapImgRestore()" border="0"></a></p>
+     <h2><img src="tpl/ac.gif" alt="ACKグループの事業活動" width="218" height="16"></h2>
+     <div class="box">
+        <div class="top">
+       <div class="bg clearfix">
+       <ul>
+        <li class="jigyo"><a href="business/field/index.html"><img src="tpl/b4.gif" alt="事業領域" name="B4" width="227" height="60" id="B4" onMouseOver="MM_swapImage('B4','','tpl/b4_s2.gif',1)" onMouseOut="MM_swapImgRestore()"></a></li>
+        <li class="jigyo"><a href="business/topics/index.html"><img src="tpl/b5.gif" alt="事業トピックス" name="B5" width="227" height="60" id="B5" onMouseOver="MM_swapImage('B5','','tpl/b5_s2.gif',1)" onMouseOut="MM_swapImgRestore()"></a></li>
+         <li><a href="company/project/project01.php"><img src="tpl/p1.jpg" alt="インフラ保全・運営管理" name="P1" width="227" height="133" id="P1" onMouseOver="MM_swapImage('P1','','tpl/p1_s2.jpg',1)" onMouseOut="MM_swapImgRestore()"></a></li>
+         <li><a href="company/project/project02.php"><img src="tpl/p2.jpg" alt="防災" name="P2" width="227" height="133" id="P2" onMouseOver="MM_swapImage('P2','','tpl/p2_s2.jpg',1)" onMouseOut="MM_swapImgRestore()"></a></li>
+         <li><a href="company/project/project03.php"><img src="tpl/p3.jpg" alt="再生可能エネルギー／スマートコミュニティ" name="P3" width="227" height="133" id="P3" onMouseOver="MM_swapImage('P3','','tpl/p3_s2.jpg',1)" onMouseOut="MM_swapImgRestore()"></a></li>
+         <li><a href="company/project/project04.php"><img src="tpl/p4.jpg" alt="交通（高度化・総合化）" name="P4" width="227" height="133" id="P4" onMouseOver="MM_swapImage('P4','','tpl/p4_s2.jpg',1)" onMouseOut="MM_swapImgRestore()"></a></li>
+         <li><a href="company/project/project05.php"><img src="tpl/p5.jpg" alt="都市再生／民間開発" name="P5" width="227" height="133" id="P5" onMouseOver="MM_swapImage('P5','','tpl/p5_s2.jpg',1)" onMouseOut="MM_swapImgRestore()"></a></li>
+         <li><a href="company/project/project06.php"><img src="tpl/p6.jpg" alt="海外新規開拓" name="P6" width="227" height="133" id="P6" onMouseOver="MM_swapImage('P6','','tpl/p6_s2.jpg',1)" onMouseOut="MM_swapImgRestore()"></a></li>
+         <li><a href="company/project/project08.php"><img src="tpl/p7.jpg" alt="事業経営" name="P7" width="227" height="133" id="P7" onMouseOver="MM_swapImage('P7','','tpl/p7_s2.jpg',1)" onMouseOut="MM_swapImgRestore()"></a></li>
+         <li><a href="company/project/project07.php"><img src="tpl/p8.jpg" alt="地域活性化" name="P8" width="227" height="133" id="P8" onMouseOver="MM_swapImage('P8','','tpl/p8_s2.jpg',1)" onMouseOut="MM_swapImgRestore()"></a></li>
+     </ul>
+       </div>
+       </div>
+
+     </div>
+        </div>
+
+         <div id="index-contents-r">
+         <p><a href="ir/new/message/index.html" onMouseOver="MM_swapImage('B2','','tpl/b2_s2.jpg',1)" onMouseOut="MM_swapImgRestore()"><img src="tpl/b2.jpg" alt="最新決算情報" name="B2" width="168" height="90" border="0" id="B2"></a><a href="recruit/index.html" onMouseOver="MM_swapImage('B3','','tpl/b3_s2.jpg',1)" onMouseOut="MM_swapImgRestore()"><img src="tpl/b3.jpg" alt="グループ会社採用情報" name="B3" width="164" height="90" id="B3" border="0"></a></p>
+     <h2><img src="tpl/info.gif" alt="インフォメーション" width="207" height="16"></h2>
+     <div class="box">
+        <div class="top">
+       <div class="bg clearfix">
+
+     <div id="tub-box01">
+     <ul>
+      <li><img src="tpl/tub1_s2.jpg" alt="新着" name="T1" width="98" height="27" id="T1" onMouseOver="MM_swapImage('T1','','tpl/tub1_s2.jpg',1)"></li>
+       <li><img src="tpl/tub2.jpg" alt="ニュースリリース" name="T2" width="98" height="27" id="T2" onClick="visibleElement('tub-box01', false);visibleElement('tub-box02', true);visibleElement('tub-box03', false);MM_swapImage('T2','','tpl/tub2_s2.jpg',1);" onMouseOver="MM_swapImage('T2','','tpl/tub2_s2.jpg',1)" onMouseOut="MM_swapImgRestore()"></li>
+      <li><img src="tpl/tub3.jpg" alt="更新情報" name="T3" width="98" height="27" id="T3" onClick="visibleElement('tub-box01', false);visibleElement('tub-box02', false);visibleElement('tub-box03', true);" onMouseOver="MM_swapImage('T3','','tpl/tub3_s2.jpg',1)" onMouseOut="MM_swapImgRestore()"></li>
+    </ul>
+     <div class="scroll-area-all">
+           <div class="scroll-area1">
+           <dl class="nr">
+<dt><div class="icon-img"><img src="tpl/nr_icon_news.gif" alt="News" width="45" height="13"></div>2017.08.15</dt><dd><a href="./ir/report/pdf-news/news20170815_01.pdf" target="_blank">株式会社オリエンタルコンサルタンツ 経団連・内閣府・文科省主催「夏のリコチャレ2017」に参加しました</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_ir.gif" alt="IR" width="45" height="13"></div>2017.08.15</dt><dd><a href="./ir/report/pdf-news/2017_shihankihoukokusyo_3.pdf" target="_blank">平成29年９月期 第３四半期報告書</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_ir.gif" alt="IR" width="45" height="13"></div>2017.08.14</dt><dd><a href="./ir/report/pdf-news/news20170814_01.pdf" target="_blank">平成29年９月期 第３四半期決算短信</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_article.gif" alt="Article" width="45" height="13"></div>2017.08.10</dt><dd><a href="./ir/report/pdf-news/news20170810_01.pdf" target="_blank">日刊建設工業新聞【オリコンサルグローバルが設計・施工監理　ラオスの２橋架け替え】に関する記事を掲載しました</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_article.gif" alt="Article" width="45" height="13"></div>2017.08.09</dt><dd><a href="./ir/report/pdf-news/news20170809_02.pdf" target="_blank">日刊建設産業新聞【オリコンサルグローバル　ラオスの２橋梁架替で起工式　設計、施工監理を実施】に関する記事を掲載しました</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_article.gif" alt="Article" width="45" height="13"></div>2017.08.09</dt><dd><a href="./ir/report/pdf-news/news20170809_01.pdf" target="_blank">日刊建設通信新聞【オリコンサルグローバル　予備設計など担当　ラオス、2橋梁架替起工】に関する記事を掲載しました</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_news.gif" alt="News" width="45" height="13"></div>2017.08.07</dt><dd><a href="./ir/report/pdf-news/news20170807_02.pdf" target="_blank">株式会社オリエンタルコンサルタンツグローバル ラオス国　国道9号線改修計画　架け替え2橋　起工式</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_article.gif" alt="Article" width="45" height="13"></div>2017.08.07</dt><dd><a href="./ir/report/pdf-news/news20170807_01.pdf" target="_blank">日刊建設産業新聞　【ＡＣＫグループ　インドネシア国ハサヌディン大学から感謝状】に関する記事を掲載しました</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_article.gif" alt="Article" width="45" height="13"></div>2017.08.03</dt><dd><a href="./ir/report/pdf-news/news20170803_01.pdf" target="_blank">日刊建設工業新聞【オリコンサルグローバル　ラオスの交通公共事業相が本社訪問】に関する記事を掲載しました</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_article.gif" alt="Article" width="45" height="13"></div>2017.08.02</dt><dd><a href="./ir/report/pdf-news/news20170802_01.pdf" target="_blank">日刊建設産業新聞【オリコンサルグローバル　ラオス国交通公共事業大臣が本社訪問】に関する記事を掲載しました</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_article.gif" alt="Article" width="45" height="13"></div>2017.08.01</dt><dd><a href="./ir/report/pdf-news/news20170801_02.pdf" target="_blank">日刊建設工業新聞【オリコンサルグローバルの米澤社長　アフリカビジネス会議パネル討論で登壇】に関する記事を掲載しました</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_article.gif" alt="Article" width="45" height="13"></div>2017.08.01</dt><dd><a href="./ir/report/pdf-news/news20170801_01.pdf" target="_blank">日刊建設通信新聞【オリコンサル　千葉県千葉市で公園ＰＰＰ／ＰＦＩセミナー　公民連携事業を学ぶ】に関する記事を掲載しました</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_article.gif" alt="Article" width="45" height="13"></div>2017.07.31</dt><dd><a href="./ir/report/pdf-news/news20170731_01.pdf" target="_blank">日刊建設通信新聞【オリコンサルグローバル　パネル討論に米澤社長が登壇】に関する記事を掲載しました</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_news.gif" alt="News" width="45" height="13"></div>2017.07.28</dt><dd><a href="./ir/report/pdf-news/news20170728_04.pdf" target="_blank">株式会社オリエンタルコンサルタンツグローバル　 ラオス国交通公共事業大臣にご来社いただきました</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_news.gif" alt="News" width="45" height="13"></div>2017.07.28</dt><dd><a href="./ir/report/pdf-news/news20170728_03.pdf" target="_blank">株式会社オリエンタルコンサルタンツグローバル インドネシア国ハサヌディン大学から感謝状</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_article.gif" alt="Article" width="45" height="13"></div>2017.07.28</dt><dd><a href="./ir/report/pdf-news/news20170728_02.pdf" target="_blank">日刊建設産業新聞【オリコンサルグローバル　米澤社長がパネディスに登壇　ビジネスフォーラム】に関する記事を掲載しました</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_article.gif" alt="Article" width="45" height="13"></div>2017.07.28</dt><dd><a href="./ir/report/pdf-news/news20170728_01.pdf" target="_blank">日刊建設工業新聞【ＡＣＫグループらと実証事業　ハサヌディン大　スマートキャンパス化へ】に関する記事を掲載しました</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_news.gif" alt="News" width="45" height="13"></div>2017.07.27</dt><dd><a href="./ir/report/pdf-news/news20170727_02.pdf" target="_blank">株式会社オリエンタルコンサルタンツグローバル 米澤栄二社長　第２回 日本-アフリカ ビジネスフォーラムに登壇</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_article.gif" alt="Article" width="45" height="13"></div>2017.07.27</dt><dd><a href="./ir/report/pdf-news/news20170727_01.pdf" target="_blank">日刊建設通信新聞　【オリコンサルグローバル インドネシアの大学　国際シンポで講演】に関する記事を掲載しました</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_article.gif" alt="Article" width="45" height="13"></div>2017.07.26</dt><dd><a href="./ir/report/pdf-news/news20170726_01.pdf" target="_blank">日刊建設産業新聞【オリエンタルコンサルタンツグローバル　ハサヌディン大学で講演】に関する記事を掲載しました</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_news.gif" alt="News" width="45" height="13"></div>2017.07.25</dt><dd><a href="./ir/report/pdf-news/news20170725_01.pdf" target="_blank">株式会社オリエンタルコンサルタンツグローバル　インドネシア国ハサヌディン大学工学部とのMOA（合意書）締結</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_news.gif" alt="News" width="45" height="13"></div>2017.07.24</dt><dd><a href="./ir/report/pdf-news/news20170724_01.pdf" target="_blank">株式会社リサーチアンドソリューション 「第９回 インフラ検査・維持管理展」に出展しました</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_article.gif" alt="Article" width="45" height="13"></div>2017.07.20</dt><dd><a href="./ir/report/pdf-news/news20170720_01.pdf" target="_blank">橋梁と基礎２０１７年７月号【㈱オリエンタルコンサルタンツグローバル　辰巳　正明さんのインタビュー】関連記事を掲載しました</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_article.gif" alt="Article" width="45" height="13"></div>2017.07.14</dt><dd><a href="./ir/report/pdf-news/news20170714_03.pdf" target="_blank">日刊建設通信新聞【オリコンサルら統合型DB完成　公共施設保全を支援】に関する記事を掲載しました</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_article.gif" alt="Article" width="45" height="13"></div>2017.07.14</dt><dd><a href="./ir/report/pdf-news/news20170714_02.pdf" target="_blank">建通新聞【オリコンサルが効果検証　「統合型データベース」】に関する記事を掲載しました</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_article.gif" alt="Article" width="45" height="13"></div>2017.07.14</dt><dd><a href="./ir/report/pdf-news/news20170714_01.pdf" target="_blank">日刊建設工業新聞【オリコンサル　愛知県名古屋市で公園管理運営題材に自治体向けセミナー】に関する記事を掲載しました</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_article.gif" alt="Article" width="45" height="13"></div>2017.07.13</dt><dd><a href="./ir/report/pdf-news/news20170713_01.pdf" target="_blank">日刊建設産業新聞【オリコンサル　愛知県名古屋市で公園PPP／PFI公民連携セミナー開催】に関する記事を掲載しました</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_news.gif" alt="News" width="45" height="13"></div>2017.07.11</dt><dd><a href="./ir/report/pdf-news/news20170711_02.pdf" target="_blank">株式会社オリエンタルコンサルタンツ愛知県名古屋市で「公園管理運営の最前線」セミナーを開催しました</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_article.gif" alt="Article" width="45" height="13"></div>2017.07.11</dt><dd><a href="./ir/report/pdf-news/news20170711_01.pdf" target="_blank">日刊建設通信新聞【オリコンサル　公園PPP／PFIセミナー　公民連携事業を展開】に関する記事を掲載しました</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_article.gif" alt="Article" width="45" height="13"></div>2017.07.07</dt><dd><a href="./ir/report/pdf-news/news20170707_03.pdf" target="_blank">日刊建設通信新聞【地域活性化でオリコンサル　瀬戸酒造を子会社化　醸造所建替えに着手】に関する記事を掲載しました</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_news.gif" alt="News" width="45" height="13"></div>2017.07.07</dt><dd><a href="./ir/report/pdf-news/news20170707_02.pdf" target="_blank">株式会社白山瀬波 林野庁の平成28年度森林・山村多面的機能発揮対策交付金活動事例集に掲載</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_article.gif" alt="Article" width="45" height="13"></div>2017.07.07</dt><dd><a href="./ir/report/pdf-news/news20170707_01.pdf" target="_blank">日刊建設工業新聞【オリコンサル　公園管理運営テーマに自治体セミナー】に関する記事を掲載しました</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_article.gif" alt="Article" width="45" height="13"></div>2017.07.06</dt><dd><a href="./ir/report/pdf-news/news20170706_01.pdf" target="_blank">日刊建設産業新聞【オリコンサル　公園の公民連携事業展開学ぶ　自治体職員など対象にセミナー】に関する記事を掲載しました</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_article.gif" alt="Article" width="45" height="13"></div>2017.07.05</dt><dd><a href="./ir/report/pdf-news/news20170705_02.pdf" target="_blank">日刊建設産業新聞【オリコンサルら　統合型データベース完成　焼津市全庁的な施設管理推進】に関する記事を掲載しました</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_article.gif" alt="Article" width="45" height="13"></div>2017.07.05</dt><dd><a href="./ir/report/pdf-news/news20170705_01.pdf" target="_blank">日刊建設工業新聞【オリコンサル、焼津市、名古屋工大　公共施設を一元管理　統合型DB運用開始】に関する記事を掲載しました</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_news.gif" alt="News" width="45" height="13"></div>2017.07.04</dt><dd><a href="./ir/report/pdf-news/news20170704_03.pdf" target="_blank">株式会社リサーチアンドソリューション 「第９回 インフラ検査・維持管理展」に出展</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_article.gif" alt="Article" width="45" height="13"></div>2017.07.04</dt><dd><a href="./ir/report/pdf-news/news20170704_02.pdf" target="_blank">北陸工業新聞社　日刊建設工業新聞【中央設計技術研究所　創立70周年　上下水道部門で北陸トップ企業】関連記事を掲載しました</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_news.gif" alt="News" width="45" height="13"></div>2017.07.04</dt><dd><a href="./ir/report/pdf-news/news20170704_01.pdf" target="_blank">株式会社オリエンタルコンサルタンツ千葉県千葉市で「公園管理運営の最前線」セミナーを開催しました</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_news.gif" alt="News" width="45" height="13"></div>2017.07.03</dt><dd><a href="./ir/report/pdf-news/news20170703_01.pdf" target="_blank">株式会社オリエンタルコンサルタンツ 全庁的な施設管理を推進する「統合型データベース」の完成</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_article.gif" alt="Article" width="45" height="13"></div>2017.06.30</dt><dd><a href="./ir/report/pdf-news/news20170630_01.pdf" target="_blank">日刊建設工業新聞【オリコンサル　醸造所建て替え　慶応元年創業の酒蔵を子会社化】に関する記事を掲載しました</a></dd>		   </dl>
+          </div>
+            </div>
+     </div>
+  
+
+     <div id="tub-box02">
+     <ul>
+      <li><img src="tpl/tub1.jpg" alt="新着" name="T21" width="98" height="27" id="T21" onClick="visibleElement('tub-box01', true);visibleElement('tub-box02', false);visibleElement('tub-box03', false);" onMouseOver="MM_swapImage('T21','','tpl/tub1_s2.jpg',1)" onMouseOut="MM_swapImgRestore()"></li>
+       <li><img src="tpl/tub2_s2.jpg" alt="ニュースリリース" name="T22" width="98" height="27" id="T22" onMouseOver="MM_swapImage('T22','','tpl/tub2_s2.jpg',1)"onMouseOut="MM_swapImgRestore()"></li>
+      <li><img src="tpl/tub3.jpg" alt="更新情報" name="T23" width="98" height="27" id="T23" onClick="visibleElement('tub-box01', false);visibleElement('tub-box02', false);visibleElement('tub-box03', true);" onMouseOver="MM_swapImage('T23','','tpl/tub3_s2.jpg',1)" onMouseOut="MM_swapImgRestore()"></li>
+    </ul>
+      <div class="scroll-area-all">
+           <div class="scroll-area2">
+           <dl class="nr">
+<dt><div class="icon-img"><img src="tpl/nr_icon_news.gif" alt="News" width="45" height="13"></div>2017.08.15</dt><dd><a href="./ir/report/pdf-news/news20170815_01.pdf" target="_blank">株式会社オリエンタルコンサルタンツ 経団連・内閣府・文科省主催「夏のリコチャレ2017」に参加しました</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_ir.gif" alt="IR" width="45" height="13"></div>2017.08.15</dt><dd><a href="./ir/report/pdf-news/2017_shihankihoukokusyo_3.pdf" target="_blank">平成29年９月期 第３四半期報告書</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_ir.gif" alt="IR" width="45" height="13"></div>2017.08.14</dt><dd><a href="./ir/report/pdf-news/news20170814_01.pdf" target="_blank">平成29年９月期 第３四半期決算短信</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_news.gif" alt="News" width="45" height="13"></div>2017.08.07</dt><dd><a href="./ir/report/pdf-news/news20170807_02.pdf" target="_blank">株式会社オリエンタルコンサルタンツグローバル ラオス国　国道9号線改修計画　架け替え2橋　起工式</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_news.gif" alt="News" width="45" height="13"></div>2017.07.28</dt><dd><a href="./ir/report/pdf-news/news20170728_04.pdf" target="_blank">株式会社オリエンタルコンサルタンツグローバル　 ラオス国交通公共事業大臣にご来社いただきました</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_news.gif" alt="News" width="45" height="13"></div>2017.07.28</dt><dd><a href="./ir/report/pdf-news/news20170728_03.pdf" target="_blank">株式会社オリエンタルコンサルタンツグローバル インドネシア国ハサヌディン大学から感謝状</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_news.gif" alt="News" width="45" height="13"></div>2017.07.27</dt><dd><a href="./ir/report/pdf-news/news20170727_02.pdf" target="_blank">株式会社オリエンタルコンサルタンツグローバル 米澤栄二社長　第２回 日本-アフリカ ビジネスフォーラムに登壇</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_news.gif" alt="News" width="45" height="13"></div>2017.07.25</dt><dd><a href="./ir/report/pdf-news/news20170725_01.pdf" target="_blank">株式会社オリエンタルコンサルタンツグローバル　インドネシア国ハサヌディン大学工学部とのMOA（合意書）締結</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_news.gif" alt="News" width="45" height="13"></div>2017.07.24</dt><dd><a href="./ir/report/pdf-news/news20170724_01.pdf" target="_blank">株式会社リサーチアンドソリューション 「第９回 インフラ検査・維持管理展」に出展しました</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_news.gif" alt="News" width="45" height="13"></div>2017.07.11</dt><dd><a href="./ir/report/pdf-news/news20170711_02.pdf" target="_blank">株式会社オリエンタルコンサルタンツ愛知県名古屋市で「公園管理運営の最前線」セミナーを開催しました</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_news.gif" alt="News" width="45" height="13"></div>2017.07.07</dt><dd><a href="./ir/report/pdf-news/news20170707_02.pdf" target="_blank">株式会社白山瀬波 林野庁の平成28年度森林・山村多面的機能発揮対策交付金活動事例集に掲載</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_news.gif" alt="News" width="45" height="13"></div>2017.07.04</dt><dd><a href="./ir/report/pdf-news/news20170704_03.pdf" target="_blank">株式会社リサーチアンドソリューション 「第９回 インフラ検査・維持管理展」に出展</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_news.gif" alt="News" width="45" height="13"></div>2017.07.04</dt><dd><a href="./ir/report/pdf-news/news20170704_01.pdf" target="_blank">株式会社オリエンタルコンサルタンツ千葉県千葉市で「公園管理運営の最前線」セミナーを開催しました</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_news.gif" alt="News" width="45" height="13"></div>2017.07.03</dt><dd><a href="./ir/report/pdf-news/news20170703_01.pdf" target="_blank">株式会社オリエンタルコンサルタンツ 全庁的な施設管理を推進する「統合型データベース」の完成</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_news.gif" alt="News" width="45" height="13"></div>2017.06.29</dt><dd><a href="./ir/report/pdf-news/news20170629_01.pdf" target="_blank">株式会社オリエンタルコンサルタンツグローバル 平成29年度土木学会賞を受賞しました</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_news.gif" alt="News" width="45" height="13"></div>2017.06.28</dt><dd><a href="./ir/report/pdf-news/news20170628_01.pdf" target="_blank">株式会社オリエンタルコンサルタンツ株式会社瀬戸酒造店を100％子会社化　醸造所建替工事の地鎮祭を挙行</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_news.gif" alt="News" width="45" height="13"></div>2017.06.26</dt><dd><a href="./ir/report/pdf-news/news20170626_01.pdf" target="_blank">株式会社リサーチアンドソリューション「ビジネスシヨウ＆エコフェア2017NextStageinKYUSHU」に出展</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_news.gif" alt="News" width="45" height="13"></div>2017.06.23</dt><dd><a href="./ir/report/pdf-news/news20170623_01.pdf" target="_blank">株式会社オリエンタルコンサルタンツ「交通安全施策」に関する社内勉強会を開催</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_news.gif" alt="News" width="45" height="13"></div>2017.06.20</dt><dd><a href="./ir/report/pdf-news/news20170620_01.pdf" target="_blank">当社グループの事業会社４社が建設技術公開「ＥＥ東北‘１７」に出展</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_news.gif" alt="News" width="45" height="13"></div>2017.06.19</dt><dd><a href="./ir/report/pdf-news/news20170619_03.pdf" target="_blank">㈱リサーチアンドソリューション・㈱オリエンタルコンサルタンツ福岡県うきは市で「観光教育プログラム2017」をスタート</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_news.gif" alt="News" width="45" height="13"></div>2017.06.19</dt><dd><a href="./ir/report/pdf-news/news20170619_02.pdf" target="_blank">株式会社リサーチアンドソリューション 情報配信アプリサービス「ぷらり」正式リリース！</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_news.gif" alt="News" width="45" height="13"></div>2017.06.12</dt><dd><a href="./ir/report/pdf-news/news20170612_01.pdf" target="_blank">株式会社オリエンタルコンサルタンツグローバル　オーストラリアSMEC社とのMOU（合意書）締結</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_news.gif" alt="News" width="45" height="13"></div>2017.06.07</dt><dd><a href="./ir/report/pdf-news/news20170607_01.pdf" target="_blank">第21回　ＡＣＫグループ定例会を開催しました</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_news.gif" alt="News" width="45" height="13"></div>2017.06.06</dt><dd><a href="./ir/report/pdf-news/news20170606_01.pdf" target="_blank">株式会社中央設計技術研究所 日本水道協会岐阜県支部定時総会・講演会において講演を行いました</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_ir.gif" alt="IR" width="45" height="13"></div>2017.05.30</dt><dd><a href="./ir/report/pdf-news/ir20170530_01.pdf" target="_blank">株式会社ＡＣＫグループ平成29年9月期第2四半期 決算説明会開催のご報告</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_news.gif" alt="News" width="45" height="13"></div>2017.05.23</dt><dd><a href="./ir/report/pdf-news/news20170523_02.pdf" target="_blank">株式会社オリエンタルコンサルタンツ「公園管理運営の最前線」セミナーを開催</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_news.gif" alt="News" width="45" height="13"></div>2017.05.18</dt><dd><a href="./ir/report/pdf-news/news20170518_01.pdf" target="_blank">株式会社オリエンタルコンサルタンツ 「平成28年度土木学会田中賞」作品部門ダブル受賞！</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_ir.gif" alt="IR" width="45" height="13"></div>2017.05.17</dt><dd><a href="./ir/report/pdf-news/2017_shihankihoukokusyo_2.pdf" target="_blank">平成29年9月期 第2四半期報告書</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_ir.gif" alt="IR" width="45" height="13"></div>2017.05.15</dt><dd><a href="./ir/report/pdf-news/ir20170515_03.pdf" target="_blank">株主優待制度の導入に関するお知らせ</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_ir.gif" alt="IR" width="45" height="13"></div>2017.05.15</dt><dd><a href="./ir/report/pdf-news/ir20170515_02.pdf" target="_blank">第２四半期(累計)業績予想と実績との差異に関するお知らせ</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_ir.gif" alt="IR" width="45" height="13"></div>2017.05.15</dt><dd><a href="./ir/report/pdf-news/2017_dainishihankikessan.pdf" target="_blank">平成29年９月期 第2四半期決算短信</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_news.gif" alt="News" width="45" height="13"></div>2017.05.09</dt><dd><a href="./ir/report/pdf-news/news20170509_02.pdf" target="_blank">株式会社リサーチアンドソリューション 「ビジネスシヨウ＆エコフェア2017 Next Stage in KYUSHU」に</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_news.gif" alt="News" width="45" height="13"></div>2017.05.09</dt><dd><a href="./ir/report/pdf-news/news20170509_01.pdf" target="_blank">株式会社オリエンタルコンサルタンツ 平成29年度低炭素社会実現のための都市間連携事業委託業務に採択されました</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_ir.gif" alt="IR" width="45" height="13"></div>2017.04.25</dt><dd><a href="./ir/report/pdf-news/news20170425_02.pdf" target="_blank">株式会社ＡＣＫグループ 平成29年９月期 第２四半期決算説明会開催のご案内</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_news.gif" alt="News" width="45" height="13"></div>2017.04.25</dt><dd><a href="./ir/report/pdf-news/news20170425_01.pdf" target="_blank">株式会社オリエンタルコンサルタンツ 広瀬川一万人プロジェクト『第２３回広瀬川流域一斉清掃』に参加しました</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_news.gif" alt="News" width="45" height="13"></div>2017.04.12</dt><dd><a href="./ir/report/pdf-news/news20170412_05.pdf" target="_blank">株式会社エイテック　災害対策関係功労者感謝状を授与されました</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_news.gif" alt="News" width="45" height="13"></div>2017.04.10</dt><dd><a href="./ir/report/pdf-news/news20170410_06.pdf" target="_blank">ＡＣＫグループ全社で代々木公園清掃活動を実施</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_news.gif" alt="News" width="45" height="13"></div>2017.04.10</dt><dd><a href="./ir/report/pdf-news/news20170410_05.pdf" target="_blank">平成29年度 株式会社ＡＣＫグループ新入社員研修を開催</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_news.gif" alt="News" width="45" height="13"></div>2017.04.05</dt><dd><a href="./ir/report/pdf-news/news20170405_03.pdf" target="_blank">株式会社中央設計技術研究所  日本下水道新技術推進機構より新技術研究感謝状を授与されました</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_news.gif" alt="News" width="45" height="13"></div>2017.04.03</dt><dd><a href="./ir/report/pdf-news/news20170403_02.pdf" target="_blank">株式会社オリエンタルコンサルタンツ 千葉市泉自然公園での魅力発信事業を４月より開始</a></dd>		   </dl>
+          </div>
+             </div>
+   </div>
+
+      <div id="tub-box03"> 
+     <ul>
+      <li><img src="tpl/tub1.jpg" alt="新着" name="T31" width="98" height="27" id="T31" onClick="visibleElement('tub-box01', true);visibleElement('tub-box02', false);visibleElement('tub-box03', false);" onMouseOver="MM_swapImage('T31','','tpl/tub1_s2.jpg',1)" onMouseOut="MM_swapImgRestore()"></li>
+       <li><img src="tpl/tub2.jpg" alt="ニュースリリース" name="T32" width="98" height="27" id="T32" onClick="visibleElement('tub-box01', false);visibleElement('tub-box02', true);visibleElement('tub-box03', false);MM_swapImage('T2','','tpl/tub2_s2.jpg',1);" onMouseOver="MM_swapImage('T32','','tpl/tub2_s2.jpg',1)" onMouseOut="MM_swapImgRestore()"></li>
+      <li><img src="tpl/tub3_s2.jpg" alt="更新情報" name="T33" width="98" height="27" id="T33" onMouseOver="MM_swapImage('T33','','tpl/tub3_s2.jpg',1)"onMouseOut="MM_swapImgRestore()"></li>
+    </ul>
+     <div class="scroll-area-all">
+    <div class="scroll-area3">
+      <dl class="nr">
+<dt><div class="icon-img"><img src="tpl/nr_icon_article.gif" alt="Article" width="45" height="13"></div>2017.08.10</dt><dd><a href="./ir/report/pdf-news/news20170810_01.pdf" target="_blank">日刊建設工業新聞【オリコンサルグローバルが設計・施工監理　ラオスの２橋架け替え】に関する記事を掲載しました</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_article.gif" alt="Article" width="45" height="13"></div>2017.08.09</dt><dd><a href="./ir/report/pdf-news/news20170809_02.pdf" target="_blank">日刊建設産業新聞【オリコンサルグローバル　ラオスの２橋梁架替で起工式　設計、施工監理を実施】に関する記事を掲載しました</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_article.gif" alt="Article" width="45" height="13"></div>2017.08.09</dt><dd><a href="./ir/report/pdf-news/news20170809_01.pdf" target="_blank">日刊建設通信新聞【オリコンサルグローバル　予備設計など担当　ラオス、2橋梁架替起工】に関する記事を掲載しました</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_article.gif" alt="Article" width="45" height="13"></div>2017.08.07</dt><dd><a href="./ir/report/pdf-news/news20170807_01.pdf" target="_blank">日刊建設産業新聞　【ＡＣＫグループ　インドネシア国ハサヌディン大学から感謝状】に関する記事を掲載しました</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_article.gif" alt="Article" width="45" height="13"></div>2017.08.03</dt><dd><a href="./ir/report/pdf-news/news20170803_01.pdf" target="_blank">日刊建設工業新聞【オリコンサルグローバル　ラオスの交通公共事業相が本社訪問】に関する記事を掲載しました</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_article.gif" alt="Article" width="45" height="13"></div>2017.08.02</dt><dd><a href="./ir/report/pdf-news/news20170802_01.pdf" target="_blank">日刊建設産業新聞【オリコンサルグローバル　ラオス国交通公共事業大臣が本社訪問】に関する記事を掲載しました</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_article.gif" alt="Article" width="45" height="13"></div>2017.08.01</dt><dd><a href="./ir/report/pdf-news/news20170801_02.pdf" target="_blank">日刊建設工業新聞【オリコンサルグローバルの米澤社長　アフリカビジネス会議パネル討論で登壇】に関する記事を掲載しました</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_article.gif" alt="Article" width="45" height="13"></div>2017.08.01</dt><dd><a href="./ir/report/pdf-news/news20170801_01.pdf" target="_blank">日刊建設通信新聞【オリコンサル　千葉県千葉市で公園ＰＰＰ／ＰＦＩセミナー　公民連携事業を学ぶ】に関する記事を掲載しました</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_article.gif" alt="Article" width="45" height="13"></div>2017.07.31</dt><dd><a href="./ir/report/pdf-news/news20170731_01.pdf" target="_blank">日刊建設通信新聞【オリコンサルグローバル　パネル討論に米澤社長が登壇】に関する記事を掲載しました</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_article.gif" alt="Article" width="45" height="13"></div>2017.07.28</dt><dd><a href="./ir/report/pdf-news/news20170728_02.pdf" target="_blank">日刊建設産業新聞【オリコンサルグローバル　米澤社長がパネディスに登壇　ビジネスフォーラム】に関する記事を掲載しました</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_article.gif" alt="Article" width="45" height="13"></div>2017.07.28</dt><dd><a href="./ir/report/pdf-news/news20170728_01.pdf" target="_blank">日刊建設工業新聞【ＡＣＫグループらと実証事業　ハサヌディン大　スマートキャンパス化へ】に関する記事を掲載しました</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_article.gif" alt="Article" width="45" height="13"></div>2017.07.27</dt><dd><a href="./ir/report/pdf-news/news20170727_01.pdf" target="_blank">日刊建設通信新聞　【オリコンサルグローバル インドネシアの大学　国際シンポで講演】に関する記事を掲載しました</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_article.gif" alt="Article" width="45" height="13"></div>2017.07.26</dt><dd><a href="./ir/report/pdf-news/news20170726_01.pdf" target="_blank">日刊建設産業新聞【オリエンタルコンサルタンツグローバル　ハサヌディン大学で講演】に関する記事を掲載しました</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_article.gif" alt="Article" width="45" height="13"></div>2017.07.20</dt><dd><a href="./ir/report/pdf-news/news20170720_01.pdf" target="_blank">橋梁と基礎２０１７年７月号【㈱オリエンタルコンサルタンツグローバル　辰巳　正明さんのインタビュー】関連記事を掲載しました</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_article.gif" alt="Article" width="45" height="13"></div>2017.07.14</dt><dd><a href="./ir/report/pdf-news/news20170714_03.pdf" target="_blank">日刊建設通信新聞【オリコンサルら統合型DB完成　公共施設保全を支援】に関する記事を掲載しました</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_article.gif" alt="Article" width="45" height="13"></div>2017.07.14</dt><dd><a href="./ir/report/pdf-news/news20170714_02.pdf" target="_blank">建通新聞【オリコンサルが効果検証　「統合型データベース」】に関する記事を掲載しました</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_article.gif" alt="Article" width="45" height="13"></div>2017.07.14</dt><dd><a href="./ir/report/pdf-news/news20170714_01.pdf" target="_blank">日刊建設工業新聞【オリコンサル　愛知県名古屋市で公園管理運営題材に自治体向けセミナー】に関する記事を掲載しました</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_article.gif" alt="Article" width="45" height="13"></div>2017.07.13</dt><dd><a href="./ir/report/pdf-news/news20170713_01.pdf" target="_blank">日刊建設産業新聞【オリコンサル　愛知県名古屋市で公園PPP／PFI公民連携セミナー開催】に関する記事を掲載しました</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_article.gif" alt="Article" width="45" height="13"></div>2017.07.11</dt><dd><a href="./ir/report/pdf-news/news20170711_01.pdf" target="_blank">日刊建設通信新聞【オリコンサル　公園PPP／PFIセミナー　公民連携事業を展開】に関する記事を掲載しました</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_article.gif" alt="Article" width="45" height="13"></div>2017.07.07</dt><dd><a href="./ir/report/pdf-news/news20170707_03.pdf" target="_blank">日刊建設通信新聞【地域活性化でオリコンサル　瀬戸酒造を子会社化　醸造所建替えに着手】に関する記事を掲載しました</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_article.gif" alt="Article" width="45" height="13"></div>2017.07.07</dt><dd><a href="./ir/report/pdf-news/news20170707_01.pdf" target="_blank">日刊建設工業新聞【オリコンサル　公園管理運営テーマに自治体セミナー】に関する記事を掲載しました</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_article.gif" alt="Article" width="45" height="13"></div>2017.07.06</dt><dd><a href="./ir/report/pdf-news/news20170706_01.pdf" target="_blank">日刊建設産業新聞【オリコンサル　公園の公民連携事業展開学ぶ　自治体職員など対象にセミナー】に関する記事を掲載しました</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_article.gif" alt="Article" width="45" height="13"></div>2017.07.05</dt><dd><a href="./ir/report/pdf-news/news20170705_02.pdf" target="_blank">日刊建設産業新聞【オリコンサルら　統合型データベース完成　焼津市全庁的な施設管理推進】に関する記事を掲載しました</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_article.gif" alt="Article" width="45" height="13"></div>2017.07.05</dt><dd><a href="./ir/report/pdf-news/news20170705_01.pdf" target="_blank">日刊建設工業新聞【オリコンサル、焼津市、名古屋工大　公共施設を一元管理　統合型DB運用開始】に関する記事を掲載しました</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_article.gif" alt="Article" width="45" height="13"></div>2017.07.04</dt><dd><a href="./ir/report/pdf-news/news20170704_02.pdf" target="_blank">北陸工業新聞社　日刊建設工業新聞【中央設計技術研究所　創立70周年　上下水道部門で北陸トップ企業】関連記事を掲載しました</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_article.gif" alt="Article" width="45" height="13"></div>2017.06.30</dt><dd><a href="./ir/report/pdf-news/news20170630_01.pdf" target="_blank">日刊建設工業新聞【オリコンサル　醸造所建て替え　慶応元年創業の酒蔵を子会社化】に関する記事を掲載しました</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_article.gif" alt="Article" width="45" height="13"></div>2017.06.29</dt><dd><a href="./ir/report/pdf-news/news20170629_02.pdf" target="_blank">日刊建設産業新聞【オリコンサル　瀬戸酒造店を子会社化　醸造所建替　開成町の地域活性化へ】に関する記事を掲載しました</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_article.gif" alt="Article" width="45" height="13"></div>2017.06.19</dt><dd><a href="./ir/report/pdf-news/news20170619_01.pdf" target="_blank">日刊建設通信新聞【ACKグループ定例会　連携の強化へ一丸】に関する記事を掲載しました</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_article.gif" alt="Article" width="45" height="13"></div>2017.06.14</dt><dd><a href="./ir/report/pdf-news/news20170614_02.pdf" target="_blank">日刊建設通信新聞【オリコンサルグローバル　豪SMEC社とMOU締結】に関する記事を掲載しました</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_article.gif" alt="Article" width="45" height="13"></div>2017.06.14</dt><dd><a href="./ir/report/pdf-news/news20170614_01.pdf" target="_blank">日刊建設工業新聞【オリコンサルグローバル　豪SMECとの提携内容を拡大】に関する記事を掲載しました</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_article.gif" alt="Article" width="45" height="13"></div>2017.06.13</dt><dd><a href="./ir/report/pdf-news/news20170613_01.pdf" target="_blank">日刊建設産業新聞【オリコンサルグローバル　豪州SMEC社とMOU締結　パートナーシップ拡大へ】に関する記事を掲載しました</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_article.gif" alt="Article" width="45" height="13"></div>2017.06.09</dt><dd><a href="./ir/report/pdf-news/news20170609_02.pdf" target="_blank">国際開発ジャーナル　【㈱オリエンタルコンサルタンツグローバル　インドで軌道交通事業に貢献】に関する記事を掲載しました</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_article.gif" alt="Article" width="45" height="13"></div>2017.06.09</dt><dd><a href="./ir/report/pdf-news/news20170609_01.pdf" target="_blank">日刊建設工業新聞【ACKグループ定例会　重点化プロジェクト6件の成果と展開紹介】に関する記事を掲載しました</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_article.gif" alt="Article" width="45" height="13"></div>2017.06.08</dt><dd><a href="./ir/report/pdf-news/news20170608_01.pdf" target="_blank">日刊建設産業新聞【ACKグループ　第21回定例会を開催　連携強化など一丸で推進】に関する記事を掲載しました</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_article.gif" alt="Article" width="45" height="13"></div>2017.06.07</dt><dd><a href="./ir/report/pdf-news/news20170607_02.pdf" target="_blank">受験情報誌「Y-SAPIX JOURNAL」【オリコンサルグローバル　阿部玲子さんのインタビュー記事】を掲載しました。</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_article.gif" alt="Article" width="45" height="13"></div>2017.06.01</dt><dd><a href="./ir/report/pdf-news/news20170601_02.pdf" target="_blank">日刊建設通信新聞【㈱ACKグループ　6期連続増収増益へ　重点化事業78件以上】に関する記事を掲載しました</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_article.gif" alt="Article" width="45" height="13"></div>2017.06.01</dt><dd><a href="./ir/report/pdf-news/news20170601_01.pdf" target="_blank">日刊建設工業新聞【㈱ACKグループ　重点9分野受注好調　17年9月期は78件超】に関する記事を掲載しました</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_article.gif" alt="Article" width="45" height="13"></div>2017.05.29</dt><dd><a href="./ir/report/pdf-news/news20170529_02.pdf" target="_blank">日刊建設工業新聞【オリコンサル、千葉と名古屋でセミナー　公園に必要な公民連携事業展開学ぶ】に関する記事を掲載</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_article.gif" alt="Article" width="45" height="13"></div>2017.05.29</dt><dd><a href="./ir/report/pdf-news/news20170529_01.pdf" target="_blank">日刊建設産業新聞【オリエンタルコンサルタンツ　都市公園における公民連携セミナー】に関する記事を掲載しました</a></dd><dt><div class="icon-img"><img src="tpl/nr_icon_article.gif" alt="Article" width="45" height="13"></div>2017.05.23</dt><dd><a href="./ir/report/pdf-news/news20170523_01.pdf" target="_blank">読売新聞　㈱オリエンタルコンサルタンツ【開成町「瀬戸屋敷」　民間委託で入館者増　企画力で人気復活】関連記事を掲載しました</a></dd>      </dl>
+    </div>  </div>
+   </div>
+  
+       </div>
+       </div>
+         </div>
+      </div>
+ 
+      <div id="index-contents2">
+             <h2><img src="tpl/gc.gif" alt="グループ会社"></h2>
+            <div class="group-banner"><a href="http://www.oriconsul.com/" target="_blank" onMouseOver="MM_swapImage('GB1','','tpl/g1_s2.gif',1)" onMouseOut="MM_swapImgRestore()"><img src="tpl/g1.gif" alt="株式会社オリエンタルコンサルタンツ" name="GB1" width="139" height="40" id="GB1" border="0"></a>
+            <p><img src="tpl/g11.gif" alt="株式会社オリエンタルコンサルタンツ" width="118" height="25"></p>
+            <p>ACKグループの基幹会社。総合的なコンサルタントサービスを提供。</p>
+          </div>
+            
+            <div class="group-banner"><a href="http://www.oriconsulglobal.com" target="_blank" onMouseOver="MM_swapImage('GB2','','tpl/g2_s2.gif',1)" onMouseOut="MM_swapImgRestore()"><img src="tpl/g2.gif" alt="株式会社オリエンタルコンサルタンツグローバル" name="GB2" width="139" height="40" id="GB2" border="0"></a>
+           <p><img src="tpl/g12.gif" alt="株式会社オリエンタルコンサルタンツグローバル" width="118" height="25"></p>
+           <p>世界１５０カ国に対して、総合的なコンサルティングサービスを提供。 </p>
+            </div>
+            
+            <div class="group-banner"><a href="http://www.atk-eng.jp/" target="_blank" onMouseOver="MM_swapImage('GB3','','tpl/g3_s2.gif',1)" onMouseOut="MM_swapImgRestore()"><img src="tpl/g3.gif" alt="株式会社アサノ大成基礎エンジニアリング" name="GB3" border="0" id="GB3"></a>
+           <p><img src="tpl/g13.gif" alt="株式会社アサノ大成基礎エンジニアリング" width="118" height="25"></p>
+           <p>地盤・地下水・建物に関する調査、計画、設計、施工。 </p>
+            </div>
+            
+            <div class="group-banner"><a href="http://www.kk-atec.jp/" target="_blank" onMouseOver="MM_swapImage('GB5','','tpl/g5_s2.gif',1)" onMouseOut="MM_swapImgRestore()"><img src="tpl/g5.gif" alt="株式会社エイテック" name="GB5" width="139" height="40" id="GB5" border="0"></a>
+           <p><img src="tpl/g15.gif" alt="株式会社エイテック" width="118" height="25"></p>
+           <p>交通分析、空間情報、構造モニタリングなどの幅広いサービスを提供。</p>
+            </div>
+            
+            <div class="group-banner"><a href="http://www.cser.co.jp" target="_blank" onMouseOver="MM_swapImage('GB4','','tpl/g4_s2.gif',1)" onMouseOut="MM_swapImgRestore()"><img src="tpl/g4.gif" alt="株式会社中央設計技術研究所" name="GB4" width="139" height="40" id="GB4" border="0"></a>
+           <p><img src="tpl/g14.gif" alt="株式会社中央設計技術研究所" width="118" height="25"></p>
+           <p>水道、下水道、廃棄物・環境、情報処理の４分野を中心に総合的なサービスを提供。</p>
+		</div>
+            
+	    <div class="group-banner end"><a href="http://www.rands-co.com/" target="_blank" onMouseOver="MM_swapImage('GB6','','tpl/g6_s2.gif',1)" onMouseOut="MM_swapImgRestore()"> <img src="tpl/g6.gif" alt="株式会社リサーチアンドソリューション" name="GB6" width="139" height="40" id="GB6" border="0"></a>
+            <p><img src="tpl/g16.gif" alt="株式会社リサーチアンドソリューション" width="118" height="25"></p>
+            <p>ソフトウェア販売、受託開発、人材派遣・紹介、BPOなどのソリューションサービス。</p>
+        </div>
+</div>
+</div>
+    <!-- InstanceEndEditable --></div>
+  </div>
+  </div>
+  
+<!-- フッター -->
+  <div id="footer">
+<div id="footer-navi">
+<div id="footer-pagetop"> <a href="index.php"><img src="tpl/pagetop.gif" alt="トップページへ戻る" name="PT01" width="128" height="29" id="PT01" onMouseOver="MM_swapImage('PT01','','tpl/pagetop_s2.gif',1)" onMouseOut="MM_swapImgRestore()"></a></div>
+<div id="footer-navi-box01">
+  <h3><a href="company/index.html"><img src="tpl/fn1.jpg" alt="企業情報" width="96" height="36"></a></h3>
+  <ul>
+	<li><a href="company/top_message/index.html">代表のご挨拶</a></li>
+	<li><a href="company/profile/index.html">会社概要</a></li>
+	<li><a href="company/index.html">初めての方へ</a></li>
+	<li><a href="company/mission/index.html">ミッション・バリュー</a></li>
+	<li><a href="company/strategy/index.html">中期経営計画ACKG 2013</a></li>
+	<li><a href="company/history/index.html">成長の軌跡</a></li>
+	<li><a href="company/group/index.html">企業グループの構成</a></li>
+	<li><a href="company/organization/index.html">企業統治体制</a></li>
+	<li><a href="company/rule/index.html">企業行動憲章・<br>
+役職員行動規範</a></li>
+	<li><a href="company/governance/index.html">内部統制・ガバナンス</a></li>
+    <li><a href="company/csr/index.html">ＣＳＲ</a></li>
+	<li><a href="company/symbol/index.html">ロゴマーク</a></li>
+	<li><a href="company/access/index.html">アクセスマップ・連絡先</a></li>
+  </ul>
+</div>
+  <div id="footer-navi-box02">
+  <h3><a href="business/index.html"><img src="tpl/fn2.jpg" alt="事業活動" width="96" height="36"></a></h3>
+  <ul>
+	<li><a href="business/field/index.html">事業領域</a></li>
+	<li class="top2"><a href="company/project/project01.php">重点化プロジェクト</a></li>
+	<li><a href="company/project/project01.php">インフラ保全・運営管理</a></li>
+	<li><a href="company/project/project02.php">防災</a></li>
+	<li><a href="company/project/project03.php">再生可能エネルギー／<br>
+スマートコミュニティ</a></li>
+	<li><a href="company/project/project04.php">交通（高度化・総合化）</a></li>
+	<li><a href="company/project/project05.php">都市再生／民間開発</a></li>
+	<li><a href="company/project/project06.php">海外新規開拓</a></li>
+	<li><a href="company/project/project07.php">地域活性化</a></li>
+	<li><a href="company/project/project08.php">事業経営</a></li>
+    <li class="top3"><a href="business/topics/index.html">最新トピックス</a></li>
+    <li><a href="business/topics/index2.html">過去のトピックス一覧</a></li>
+ </ul>
+  </div>
+  <div id="footer-navi-box03">
+  <h3><a href="ir/index.html"><img src="tpl/fn3.jpg" alt="IR情報" width="96" height="36"></a></h3>
+  <ul>
+   <li class="top"><a href="ir/new/message/index.html">最新決算情報</a></li>
+   <li><a href="ir/new/message/index.html">社長メッセージ</a></li>
+   <li><a href="ir/new/highlights/index.html">財務ハイライト</a></li>
+   <li><a href="ir/new/financial_data/index.html">財務諸表</a></li>
+   <li><a href="ir/new/stock_info/index.html">株主・株式情報</a></li>
+	<li><a href="ir/report/financial_report.php">決算短信</a></li>
+	<li><a href="ir/securities/index.html">有価証券報告書</a></li>
+	<li><a href="ir/library/index.html">事業報告書</a></li>
+	<li><a href="ir/report/notice.php">電子公告</a></li>
+	<li><a href="ir/financial_data_4years/index.html">財務情報（過去４年間）</a></li>
+	<li><a href="ir/calendar/index.html">ＩＲカレンダー</a></li>
+	<li><a href="ir/meeting/index.html">決算説明会</a></li>
+	<li><a href="ir/shareholder_meeting/index.html">株主総会</a></li>
+	<li><a href="ir/stock_prices/index.html">株価情報</a></li>
+	<li><a href="ir/baishuboei/index.html">株式大量買付行為への対応</a></li>
+  </ul>
+  </div>
+  <div id="footer-navi-box04">
+  <h3><a href="recruit/index.html"><img src="tpl/fn4.jpg" alt="採用情報" width="96" height="36"></a></h3>
+  <ul>
+	<li><a href="recruit/training/index.html">人材育成・交流</a></li>
+  </ul>
+  </div>
+  <div id="footer-navi-box05">
+  <h3><a href="ir/report/news_release.php"><img src="tpl/fn5.jpg" alt="インフォメーション" width="112" height="36"></a></h3>
+  <ul>
+	<li><a href="ir/report/news_release.php">ニュースリリース</a></li>
+	<li><a href="ir/report/news_article.php">メディア掲載情報</a></li>
+  </ul>
+  </div>
+<div id="footer-menu">
+  <ul>
+	 <li><a href="sitemap/index.html" onMouseOver="MM_swapImage('FM1','','tpl/f1_s2.gif',1)" onMouseOut="MM_swapImgRestore()"><img src="tpl/f1.gif" alt="サイトマップ" name="FM1" width="71" height="10" border="0" id="FM1"></a></li>
+	 <li><a href="policy/index.html" onMouseOver="MM_swapImage('FM2','','tpl/f2_s2.gif',1)" onMouseOut="MM_swapImgRestore()"><img src="tpl/f2.gif" alt="プライバシーポリシー" name="FM2" width="111" height="10" border="0" id="FM2"></a></li>
+	 <li><a href="agreement/index.html" onMouseOver="MM_swapImage('FM3','','tpl/f3_s2.gif',1)" onMouseOut="MM_swapImgRestore()"><img src="tpl/f3.gif" alt="利用規約" name="FM3" width="49" height="10" border="0" id="FM3"></a></li>
+	</ul>
+	</div>
+    <div id="copy"><img src="tpl/copy.gif" alt="Copyright(C)2010 ACKG Ltd.  All Rights Reserved."></div>
+    </div>
+</div>
+</body>
+<!-- InstanceEnd --></html>

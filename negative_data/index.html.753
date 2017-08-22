@@ -1,0 +1,403 @@
+<!doctype html>
+<html lang="ja">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>株式会社ZOA - パソコン販売・パソコン修理・周辺機器販売・PCパーツ販売・バイク用品販売</title>
+	<meta name="keywords" content="パソコンショップ,PC,修理,バイク用品">
+	<meta name="description" content="パソコン/周辺機器/PCパーツ/バイク用品の販売と・パソコン修理の専門店ZOA。店舗情報・最新チラシ・特価情報・パソコン修理WEB受付・採用情報・IR情報など">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/assets/styles/styles.css">
+	<link rel="stylesheet" href="/assets/styles/top.css">
+	<script type="text/javascript" src="/assets/js/import.js"></script>
+	<!--[if lt IE 9]>
+		<script src="/assets/js/plugins/html5shiv.min.js"></script>
+		<script src="/assets/js/plugins/html5shiv-printshiv.min.js"></script>
+	<![endif]-->
+	<script>
+	
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-26292819-50', 'auto');
+	ga('send', 'pageview');
+	
+	</script>
+	
+	<!-- リマーケティング タグの Google コード -->
+	<script type="text/javascript">
+	/* <![CDATA[ */
+	var google_conversion_id = 878806447;
+	var google_custom_params = window.google_tag_params;
+	var google_remarketing_only = true;
+	/* ]]> */
+	</script>
+	<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+	</script>
+	<noscript>
+	<div style="display:inline;">
+	<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/878806447/?value=0&amp;guid=ON&amp;script=0"/>
+	</div>
+	</noscript>
+
+	
+	<script type="text/javascript">
+		var mainImage = {};
+		var bottomBnr = {};
+		$(function() {
+			//main image
+			mainImage.flag = false;
+			mainImage.init = function(){
+				var html = '';
+				$('.mainImage_view').each(function(index, el) {
+					html += '<li class="mainImage_thum"><img src="' + $(this).find('img').attr('src') + '"></li>'
+				});
+				html = '<ul class="mainImage_thums">' + html + '</ul>';
+				$('.mainImage_views').after(html);
+
+				$('.mainImage_views').slick({
+					asNavFor: '.mainImage_thums',
+					autoplay: true,
+					responsive: [
+						{
+							breakpoint: 670,
+							settings: {
+								arrows: false,
+								slidesToShow: 1,
+								slidesToScrll: 1
+							}
+						}
+					]
+				})
+				$('.mainImage_thums').slick({
+					asNavFor: '.mainImage_views',
+					arrows: false,
+					slidesToShow: 5,
+					slidesToScroll: 1,
+					focusOnSelect: true,
+					variableWidth: true
+				})
+
+				// $('.mainImage_inner').sliderPro({
+				// 	width: 876,
+				// 	height: 424,
+				// 	autoHeight: true,
+				// 	buttons: false,
+				// 	arrows: true,
+				// 	fadeArrows: false,
+				// 	slideDistance: 0,
+				// 	thumbnailWidth: 70,
+				// 	thumbnailHeight: 34,
+				// 	thumbnailsPosition: 'bottom',
+				// 	thumbnailPointer: true,
+				// 	//touchSwipe: false,
+				// 	breakpoints: {
+				// 		740: {
+				// 			forceSize: 'fullWidth',
+				// 			width: '100%',
+				// 			height: '100%',
+				// 			arrows: false,
+				// 			touchSwipe: true,
+				// 		}
+				// 	}
+				// })
+			}
+			mainImage.init();
+
+			bottomBnr.spInit = function(){
+				console.log(pcSp.mode)
+				bottomBnr.elems = $('.bottomBnrs_list').slick({
+					centerMode: false,
+					centerPadding: 0,
+					slidesToShow: 5,
+					slidesToMove: 1,
+					swipeToSlide: true,
+					responsive:[
+						{
+							breakpoint: 740,
+							settings: {
+								slidesToShow: 3,
+								centerPadding: '30px',
+								arrows: false,
+							}
+						},
+						{
+							breakpoint: 462,
+							settings: {
+								slidesToShow: 2,
+								centerPadding: '30px',
+								arrows: false,
+							}
+						},
+						{
+							breakpoint: 321,
+							settings: {
+								slidesToShow: 1,
+								centerPadding: '44px',
+								arrows: false,
+							}
+						},
+					]
+				});
+			}
+			bottomBnr.pcInit = function(){
+				console.log(pcSp.mode)
+				bottomBnr.elems = $('.bottomBnrs_list').slick({
+					centerMode: false,
+					centerPadding: 0,
+					slidesToShow: 5,
+					slidesToMove: 1,
+					swipeToSlide: true,
+				});
+			}
+			bottomBnr.destroy = function(){
+				if (bottomBnr.elems) {
+					bottomBnr.elems.slick('unslick')
+				}
+			}
+			bottomBnr.judge = function(){
+				if(pcSp.mode =='sp' && $('.bottomBnrs_item')[1]){
+					bottomBnr.destroy();
+					bottomBnr.spInit();
+				} else if(pcSp.mode =='pc' && $('.bottomBnrs_item')[5]) {
+					bottomBnr.destroy();
+					bottomBnr.pcInit();
+				} else {
+					bottomBnr.destroy();
+				}
+			}
+			bottomBnr.judge();
+			$(window).on('resizeend', function(event) {
+				bottomBnr.judge();
+			});
+
+		});
+	</script>
+
+</head>
+<body >
+	<div class="wrapper">
+
+		<header class="gHeader">
+			<div class="gHeader_inner">
+				<div class="gHeader_logo">
+					<a href="/" class="gHeader_mainLogo"><img src="/assets/images/global/logo.png" alt="ZOA"></a>
+					<p class="gHeader_logoTxt">究極の「お客様の安心」を提供する企業</p>
+					<!-- <ul class="gHeader_subLogos">
+						<li class="gHeader_subLogo"><img src="/assets/images/global/shop_logo01.png" alt="ZOA"></li>
+						<li class="gHeader_subLogo"><img src="/assets/images/global/shop_logo02.png" alt="ZOA"></li>
+						<li class="gHeader_subLogo"><img src="/assets/images/global/shop_logo03.png" alt="ZOA"></li>
+					</ul> -->
+				</div>
+				<div class="gHeader_right">
+					<ul class="gHeader_links">
+						<li class="gHeader_link"><a href="http://www.e-zoa.com/" target="blank">オンラインショップ</a></li>
+						<li class="gHeader_link"><a href="/zoa-sc/zoa_create/recruit/recruit.html">採用情報</a></li>
+						<li class="gHeader_link"><a href="/contact/">お問い合わせ</a></li>
+						<li class="gHeader_link gHeader_link-twitter"><a href="https://twitter.com/ZOanagashima" target="_blank">Twitter</a></li>
+					</ul>
+					<nav class="gNav">
+						<div class="gNav_inner">
+							<ul class="gNav_list">
+								<li class="gNav_item "><a href="/store/">店舗情報</a></li>
+								<li class="gNav_item "><a href="/ad/">チラシ情報</a></li>
+								<li class="gNav_item "><a href="/sale/">特価情報</a></li>
+								<li class="gNav_item "><a href="/service/">サービス内容</a></li>
+								<li class="gNav_item "><a href="/about/">会社案内</a></li>
+								<li class="gNav_item "><a href="/ir/">IR情報</a></li>
+								<li class="gNav_item pc-hidden"><a href="http://www.e-zoa.com/">オンラインショップ</a></li>
+								<li class="gNav_item pc-hidden"><a href="/zoa-sc/zoa_create/recruit/recruit.html">採用情報</a></li>
+								<li class="gNav_item pc-hidden"><a href="/others/privacy">プライバシーポリシー</a></li>
+								<li class="gNav_item pc-hidden"><a href="/zoa-sc/zoa_create/antique/antique.html">古物営業法の規定に基づく表示</a></li>
+								<li class="gNav_item pc-hidden"><a href="/contact/">お問い合わせ</a></li>
+							</ul>
+							<p class="gNav_twitter"><a href="https://twitter.com/ZOanagashima" target="_blank">Twitter</a></p>
+							<p class="gNav_close"><a href="javascript: void(0);">close</a></p>
+						</div>
+					</nav><!-- /.gNav -->
+				</div><!-- /.gHeader_right -->
+				<p class="gNavBtn"><a href="javascript: void(0);"><span></span></a></p>
+				<a href="javascript: void(0);" class="gNavOverlay"></a>
+			</div>
+		</header><!-- /.gHeader -->
+
+		
+
+		<article class="contents">
+			<section class="topSection">
+				<div class="mainImage">
+					<div class="mainImage_inner">
+						<div class="mainImage_views">
+																			<figure class="mainImage_view"><img src="/files/TOP banner/main2/main_image01.jpg" alt=""></figure>
+																									<figure class="mainImage_view"><a href="http://www.e-zoa.com/index.htm" target=&quot;blank&quot;><img src="/files/TOP banner/main/main_image_e-zoaRenewal2016.jpg" alt=""></a></figure>
+																									<figure class="mainImage_view"><a href="http://www.zoa.co.jp/zoa-sc/zoa_create/service/Network_Camera_moving.html" target=&quot;blank&quot;><img src="/files/TOP banner/main/main_image_camera.jpg" alt=""></a></figure>
+																									<figure class="mainImage_view"><a href="http://www.zoa.co.jp/zoa-sc/zoa_create/service/End_of_support-winVista.html" target=&quot;blank&quot;><img src="/files/TOP banner/main/main_image_WindowsVista_170412.jpg" alt=""></a></figure>
+																									<figure class="mainImage_view"><a href="http://www.zoa.co.jp/zoa-sc/zoa_create/service/Support10_moving.html" 0><img src="/files/TOP banner/main/main_image_support10A_160930.jpg" alt=""></a></figure>
+																									<figure class="mainImage_view"><a href="http://www.zoa.co.jp/service/pc" 0><img src="/files/TOP banner/main2/main_image04.jpg" alt=""></a></figure>
+																									<figure class="mainImage_view"><a href="http://www.zoa.co.jp/service/iphone" 0><img src="/files/TOP banner/main2/main_image03.jpg" alt=""></a></figure>
+																									<figure class="mainImage_view"><a href="http://www.at-s.com/e/keyscafe/" target=&quot;blank&quot;><img src="/files/TOP banner/main/event2016/keyscafe876_424.jpg" alt=""></a></figure>
+																									<figure class="mainImage_view"><img src="/files/TOP banner/main2/main_image02.jpg" alt=""></figure>
+																		</div>
+					</div>
+				</div><!-- /.mainImage -->
+				<div class="topBnr">
+					<ul class="topBnr_list">
+						<li class="topBnr_item"><a href="/store/"><img src="/assets/images/top/bnr_store.png" alt="店舗情報"></a></li>
+						<li class="topBnr_item"><a href="http://www.e-zoa.com/" target="blank"><img src="/assets/images/top/bnr_shop.png" alt="オンラインショッピング" target="blank"></a></li>
+						<li class="topBnr_item"><a href="/store/detail?id=28"><img src="/assets/images/top/bnr_cafeB.jpg" alt="KEY'S CAFE"></a></li>
+					</ul>
+				</div><!-- /.topBnr -->
+			</section><!-- /.topSection -->
+
+			<section class="section">
+				<h1 class="headLine3">チラシ情報をチェック</h1>
+				<div class="check">
+					<ul class="check_list">
+						<li class="check_item"><a href="/ad/"><img src="assets/images/top/bnr_ad.png" alt="各店舗のチラシをチェック"></a></li>
+						<li class="check_item"><a href="/sale/"><img src="assets/images/top/bnr_S-price_top.jpg" alt="特価商品をチェック"></a></li>
+						<li class="check_item"><a href="/pickup/"><img src="assets/images/top/zoablog.jpg" alt="ZOAブログ"></a></li>
+					</ul>
+					<p class="chaeck_date">2017年08月16日更新</p>
+				</div><!-- /.check -->
+			</section><!-- /.section -->
+
+			<section class="section">
+				<h1 class="headLine3">サポートサービスのご案内</h1>
+				<div class="supports">
+					<ul class="supports_list">
+						<li class="supports_item">
+							<a href="/service/support">
+								<img src="assets/images/top/support04.jpg" alt="専門店ならでは充実サポート " class="supports_img">
+								<p class="supports_title">専門店ならでは充実サポート </p>
+							</a>
+						</li>
+						<li class="supports_item">
+							<a href="/service/pc">
+								<img src="assets/images/top/support01.jpg" alt="パソコン修理受付" class="supports_img">
+								<p class="supports_title">パソコン修理受付</p>
+							</a>
+						</li>
+						<li class="supports_item">
+							<a href="/service/iphone">
+								<img src="assets/images/top/support02.jpg" alt="iPhone修理 " class="supports_img">
+								<p class="supports_title">iPhone修理 </p>
+							</a>
+						</li>
+						<li class="supports_item">
+							<a href="/service/zoa_club">
+								<img src="assets/images/top/support05.jpg" alt="ZOA倶楽部について" class="supports_img">
+								<p class="supports_title">ZOA倶楽部について</p>
+							</a>
+						</li>
+
+					</ul>
+				</div><!-- /.supports -->
+			</section><!-- /.section -->
+			
+			<section class="section">
+				<h1 class="headLine3">御社のビジネス拡大・業務効率化を、ＩＴサービスでサポートします</h1>
+				<div class="supports">
+					<ul class="supports_list">
+						<li class="supports_item">
+							<a href="http://www.zoa.co.jp/zoa-sc/zoa_create/IT-support/01NET-conference.html">
+								<img src="assets/images/top/it_support01.jpg" alt="月額540円のネット会議導入" class="supports_img">
+								<p class="supports_title">月額540円のネット会議導入</p>
+							</a>
+						</li>
+						<li class="supports_item">
+							<a href="http://www.zoa.co.jp/zoa-sc/zoa_create/IT-support/02POS-register.html">
+								<img src="assets/images/top/it_support02.jpg" alt="月額5000円の高性能レジ" class="supports_img">
+								<p class="supports_title">月額5000円の高性能レジ</p>
+							</a>
+						</li>
+					</ul>
+				</div><!-- /.supports -->
+			</section><!-- /.section -->
+
+			<section class="section">
+				<div class="newsColumns">
+					<div class="newsColumns_cel">
+						<div class="pageList" data-mh=pageList"">
+							<h1 class="pageList_title">お知らせ</h1>
+							<div class="pageList_body">
+								<div class="pageList_list">
+																	<div class="pageList_item">
+										<a href="/news/detail?id=500" >											<p class="pageList_date">2017.08.16</p>
+											<p class="pageList_name">「限定特価商品」の更新をしました！</p>
+										</a>									</div>
+																	<div class="pageList_item">
+										<a href="/news/detail?id=493" >											<p class="pageList_date">2017.08.01</p>
+											<p class="pageList_name">「ZOA倶楽部会員様限定」を更新しました！</p>
+										</a>									</div>
+																	<div class="pageList_item">
+										<a href="/news/detail?id=492" >											<p class="pageList_date">2017.07.31</p>
+											<p class="pageList_name">「チラシ情報」を更新しました！</p>
+										</a>									</div>
+																</div><!-- /.pageList_list -->
+								<p class="pageList_more"><a href="/news/">一覧を見る</a></p>
+							</div>
+						</div><!-- /.pageList -->
+					</div><!-- /.newsColumns_cel -->
+
+					<div class="newsColumns_cel">
+						<div class="pageList" data-mh=pageList"">
+							<h1 class="pageList_title">IRニュース</h1>
+							<div class="pageList_body">
+								<div class="pageList_list">
+																	<div class="pageList_item">
+										<a href="/files/ir/2017/170728ZOA_tanshin.pdf" >											<p class="pageList_date">2017.07.28</p>
+											<p class="pageList_name">平成30年3月期 第1四半期決算短信〔日本基準〕（非連結）を公開しました[PDF]</p>
+										</a>									</div>
+																	<div class="pageList_item">
+										<a href="/files/ir/2017/170623jinji.pdf" >											<p class="pageList_date">2017.06.26</p>
+											<p class="pageList_name">人事異動に関するお知らせ [PDF]</p>
+										</a>									</div>
+																	<div class="pageList_item">
+										<a href="/files/ir/2017/ir_170608shihaikabunushi.pdf" >											<p class="pageList_date">2017.06.08</p>
+											<p class="pageList_name">支配株主等に関する事項について [PDF]</p>
+										</a>									</div>
+																</div><!-- /.pageList_list -->
+								<p class="pageList_more"><a href="/ir/">一覧を見る</a></p>
+							</div>
+						</div><!-- /.pageList -->
+					</div><!-- /.newsColumns_cel -->
+				</div><!-- /.newsColumns -->
+			</section><!-- /.section -->
+		</article><!-- /.contents -->
+
+		<div class="bottomBnrs">
+			<div class="bottomBnrs_inner">
+				<ul class="bottomBnrs_list">
+															<li class="bottomBnrs_item"><a href="http://www.s-pulse.co.jp/" target=&quot;blank&quot;><img src="/files_thumbnail/TOP banner_footer_TOP-banner_footer_bnr_SPULSE2017_w219px_h147px.jpg" alt="清水エスパルス"></a></li>
+																				<li class="bottomBnrs_item"><a href="http://www.e-zoa.com/zoa_point2.html" target=&quot;blank&quot;><img src="/files_thumbnail/TOP banner_footer_bnr_point160913_w219px_h147px.png" alt="ポイント残高照会"></a></li>
+																				<li class="bottomBnrs_item"><a href="https://www.youtube.com/watch?v=ZsV7Kq5yWjY" target=&quot;blank&quot;><img src="/files_thumbnail/TOP banner_footer_bnr_cm_w219px_h147px.png" alt="CM"></a></li>
+																				<li class="bottomBnrs_item"><a href="https://mdh.fm/e?kA5037G8Jm" target=&quot;blank&quot;><img src="/files_thumbnail/TOP banner_footer_magazine_thk_w219px_h147px.png" alt="メルマガ登録"></a></li>
+																				<li class="bottomBnrs_item"><a href="https://twitter.com/ZOanagashima" target=&quot;blank&quot;><img src="/files_thumbnail/TOP banner_footer_TOP-banner_footer_bnr_Twitter_219x147_w219px_h147px.jpg" alt="twitter"></a></li>
+																				<li class="bottomBnrs_item"><a href="/others/bukken_info" 0><img src="/files_thumbnail/TOP banner_footer_bnr_newopen_w219px_h147px.png" alt="出店物件情報募集"></a></li>
+													</ul>
+			</div>
+		</div><!-- /.bottomBnrs -->
+
+
+
+		<footer class="gFooter">
+			<div class="gFooter_inner">
+				<ul class="gFooter_links">
+					<li class="gFooter_link"><a href="/others/privacy">プライバシーポリシー</a></li>
+					<li class="gFooter_link"><a href="/zoa-sc/zoa_create/antique/antique.html">古物営業法の規定に基づく表示</a></li>
+					<li class="gFooter_link"><a href="/contact/">お問い合わせ</a></li>
+				</ul>
+				<p class="gFooter_copyright">&copy; ZOA CORPORATION. All rights reserved.</p>
+			</div>
+		</footer><!-- /.gFooter -->
+		<p class="pageTop"><a href="#">pageTop</a></p>
+
+	</div><!-- /.wrapper -->
+
+
+<!--  Sitest tracking-->
+<script src="//sitest.jp/tracking/sitest_js?p=5812f4db849a7" async></script>
+</body>
+</html>

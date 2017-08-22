@@ -1,0 +1,404 @@
+
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja-JP" lang="ja-JP">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=1024" />
+
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="cache-control" content="no-cache" />
+<meta http-equiv="expires" content="0" />
+
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+
+<meta name="description" content="オーテック,企業情報,管材事業,システム事業,環境機器">
+<meta name="keywords"    content="建物の快適性・利便性を追求したライフラインの提供や環境に配慮した環境関連商品の提供に取り組んでいます。">
+
+<title>株式会社オーテック</title>
+
+
+<link href="./css/common.css" rel="stylesheet" type="text/css" media="screen,print" />
+<link href="./css/common_print.css" rel="stylesheet" type="text/css" media="print" />
+
+<!--[if IE]>
+<link href="./css/ie.css" rel="stylesheet" type="text/css" media="screen,print" />
+<![endif]-->
+<link href="./css/table.css" rel="stylesheet" type="text/css" media="screen,print" />
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ 
+  ga('create', 'UA-59003087-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+<script src="./scripts/jQuery/jquery-1.10.1.min.js"></script>
+<script src="./scripts/breadCrumb.js"></script>
+<script src="./scripts/common.js"></script>
+<link rel="stylesheet" type="text/css" href="http://v4.eir-parts.net/Custom/public/parts/1736/ja/parts/main.css">
+<script language="JavaScript"><!--
+if(navigator.userAgent.indexOf("Mac")!=-1){
+	//document.write("<link rel=stylesheet href=/css/mac.css type=text/css />");
+}
+
+$(document).ready(function(){
+	$('.mouseOverImg').each(function(){
+		var src = $(this).attr('src');
+		var src2 = $(this).attr('src2');
+		$(this).hover(
+			function(){$(this).attr('src', src2);},
+			function(){$(this).attr('src', src);}
+		);
+	});
+	
+	$('.addOver').each(function(){
+		$(this).hover(
+			function(){$(this).addClass('over');},
+			function(){$(this).removeClass('over');}
+		);
+	});
+});
+
+// --></script>
+
+</head>
+<body>
+<div id="BODY_WRAPPER">
+<div id="CMN__HEADER_WRAP">
+	<div id="CMN__HEADER">
+		<div id="headLogo">
+			<a href="./index.html">
+				<img src="./images/common/corplogo.gif">
+			</a>
+		</div>
+		<div id="headMess">
+			建物の快適性・利便性を追求したライフラインの提供や<br />
+			環境に配慮した環境関連商品の提供に取り組んでいます。
+		</div>
+		<ul id="headerNavi">
+			<li class="li1">
+				<a href="./index.html"><img src="./images/common/headerNavi_home.png" alt="HOME"></a>
+				<a href="./sitemap.html"><img src="./images/common/headerNavi_sitemap.png" alt="サイトマップ"></a>
+			</li>
+			<li><a href="./contact_form.html"><img src="./images/common/cuntactUs.png" alt="お問い合わせ"></a></li>
+		</ul>
+	</div>
+</div>
+
+<style type="text/css">
+.shadow {background:#000; margin-left:-4px; filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='5', MakeShadow='true', ShadowOpacity='0.60');}
+</style>
+
+<div id="GLOBAL_NAVI_BG"></div>
+<div id="GLOBAL_NAVI">
+	<ul>
+		<li class="line"></li>
+		<li class="addOver">
+			<a href="./company/index.html">企業情報<span>Company</span></a>
+		</li>
+		<li class="line"></li>
+		<li class="addOver">
+			<a href="./business/index.html">事業紹介<span>Bussiness</span></a>
+		</li>
+		<li class="line"></li>
+		<li class="addOver">
+			<a href="./ir/index.html">IR情報<span>IR information</span></a>
+		</li>
+		<li class="line"></li>
+		<li class="addOver">
+			<a href="./recruit/index.html">採用情報<span>Recruit</span></a>
+		</li>
+		<li class="line"></li>
+	</ul>
+	<div class="fClear"></div>
+</div>
+
+<!-- begin CONTENTS -->
+<div id="CMN__CONTENTS_WRAP">
+	<div id="CMN__CONTENTS">
+		<div id="first">
+			<ul>
+				<li style="margin-left:0;"><a href="./business/kanzai/index.html"><img class="mouseOverImg" src="./images/img01.png" src2="./images/img01-on.png" alt="管材事業"></a></li>
+				<li><a href="./business/system/index.html"><img class="mouseOverImg" src="./images/img02.png" src2="./images/img02-on.png" alt="システム事業"></a></li>
+				<li><a href="./business/env/index.html"><img class="mouseOverImg" src="./images/img03.png" src2="./images/img03-on.png" alt="環境機器"></a></li>
+			</ul>
+		</div>
+		<div class="fClear"></div>
+		<div id="second">
+		
+		
+		
+		
+			
+            <div id="ir_area">
+            	<div id="tab">
+					<div class="ir_tab ir_tabOn"  id="tab_1" no="1"><a onclick="return chTopix(1);">最新情報</a></div>
+					<div class="ir_tab ir_tabOff" id="tab_2" no="2"><a onclick="return chTopix(2);">株主・投資家情報</a></div>
+				</div>
+				<div id="showAll"><a href="./release.html" id="goList">一覧を見る</a></div>
+				<div id="irNewsWrap">
+
+					<!-- topixContent1 -->
+					<div id="ir_library">
+						<div id="yearList"></div>
+						<div id="announcement_corp">
+							<div id="divDataArea"></div>
+							<script type="text/javascript" src="http://v4.eir-parts.net/Custom/public/parts/1736/ja/parts/announcement_top_corp.js" charset="utf-8"></script>
+							<script type="text/javascript" src="ir/ja/parts/error.js" charset="utf-8"></script>
+						</div>
+					</div>
+
+				</div>
+				<div id="irNewsWrap_in"><br clear="all"></div>
+			</div>	
+			
+			
+			<img src="./images/spacer.gif" width="1" height="30" border="0" alt=""><br>
+			<ul id="rightButton">
+				<li><a href="./business/system/example.html"><img class="mouseOverImg" src="./images/img04.png" src2="./images/img04-on.png" alt="施工事例"></a></li>
+				<li><a href="./company/location.html"><img class="mouseOverImg" src="./images/img05.png" src2="./images/img05-on.png" alt="営業拠点一覧"></a></li>
+				<li><a href="./recruit/index.html"><img class="mouseOverImg" src="./images/img06.png" src2="./images/img06-on.png" alt="採用情報"></a></li>
+			</ul>
+			<div class="fClear"></div>
+		</div>
+	</div>
+</div>
+<!-- end CONTENTS -->
+
+
+<div id="CMN__FOOTER">
+	<div class="footer_top">
+		<div class="footer_top_content">
+			<img src="./images/common/pageTop.png" class="pointer" onclick="pageScroll();">
+		</div>
+	</div>
+	<div class="footer_middle">
+		<div class="footer_middle_content">
+			<ul style="margin-left:22px;">
+				<li class="b"><a href="./index.html">トップページ</a></li>
+				<li class="b"><a href="./company/index.html">企業情報</a></li>
+				<li><a href="./company/message.html">ご挨拶</a></li>
+				<li><a href="./company/summary.html">会社概要</a></li>
+				<li><a href="./company/history.html">会社沿革</a></li>
+				<li><a href="./company/system.html">会社組織図</a></li>
+				<li><a href="./company/location.html">支店営業所</a></li>
+				<li><a href="./company/env.html">品質方針</a></li>
+				<li><a href="./company/pip.html">個人情報保護方針</a></li>
+			</ul>
+			<ul>
+				<li class="b"><a href="./business/kanzai/index.html">管材事業</a></li>
+				<li><a href="./business/kanzai/kanzai01.html">管類</a></li>
+				<li><a href="./business/kanzai/kanzai02.html">継手類</a></li>
+				<li><a href="./business/kanzai/kanzai03.html">バルブ類</a></li>
+				<li><a href="./business/kanzai/kanzai04.html">住宅設備機器類</a></li>
+				<li><a href="./business/kanzai/kanzai05.html">他取扱い商品</a></li>
+			</ul>
+			<ul>
+				<li class="b"><a href="./business/system/index.html">システム事業</a></li>
+				<li><a href="./business/system/example.html">施工事例</a></li>
+				<li class="child"><a href="./business/system/example.html?tab=2">医療・介護</a></li>
+				<li class="child"><a href="./business/system/example.html?tab=3">教育・研究</a></li>
+				<li class="child"><a href="./business/system/example.html?tab=1">商業施設</a></li>
+				<li class="child"><a href="./business/system/example.html?tab=6">展示施設</a></li>
+				<li class="child"><a href="./business/system/example.html?tab=4">工場</a></li>
+				<li class="child"><a href="./business/system/example.html?tab=5">事務所・庁舎</a></li>
+			</ul>
+			<ul>
+				<li class="b"><a href="./business/env/index.html">環境機器事業</a></li>
+				<li><a href="./business/env/index.html?tab=1">ボールクリーニングシステム</a></li>
+				<li><a href="./business/env/index.html?tab=2">スケール除去システム</a></li>
+				<li><a href="./business/env/index.html?tab=3">冷えルーフ</a></li>
+				<li><a href="./business/env/index.html?tab=4">カルファバス</a></li>
+			</ul>
+			<ul>
+				<li class="b"><a href="./ir/index.html">IR情報</a></li>
+				<li><a href="./ir/greeting.html">ご挨拶</a></li>
+				<li><a href="./ir/news.html">ニュースリリース</a></li>
+				<li><a href="./ir/highlight.html">財務ハイライト（連結）</a></li>
+				<li><a href="./ir/kessan.html">決算短信</a></li>
+				<li><a href="./ir/yuho.html">有価証券報告書</a></li>
+				<li><a href="./ir/report.html">事業報告書</a></li>
+				<li><a href="./ir/report.html">決算説明会</a></li>
+			</ul>
+			<ul style="margin-left:10px;">
+				<li>　</li>
+				<li><a href="./ir/report.html">株式情報</a></li>
+				<li><a href="./ir/report.html">株主総会のご案内</a></li>
+				<li><a href="./ir/report.html">IRカレンダー</a></li>
+				<li><a href="./ir/report.html">よくあるご質問</a></li>
+				<li><a href="./contact_form.html">IRお問い合わせ</a></li>
+				<li><a href="./ir/koukoku.html">電子公告</a></li>
+				<li><a href="./ir/disclaimer.html">免責事項</a></li>
+			</ul>
+			<ul>
+				<li class="b"><a href="./recruit/index.html">採用情報</a></li>
+				<li class="b"><a href="./contact_form.html">お問い合わせ</a></li>
+				<li class="b"><a href="./terms.html">利用規約</a></li>
+				<li class="b"><a href="./release.html">プレスリリース</a></li>
+			</ul>
+			<div class="fClear"></div>
+		</div>
+	</div>
+	<div class="footer_bottom">
+		<div class="footer_bottom_content">
+			<img src="./images/common/footerLogo.gif">
+			<span>
+				〒135-0016　
+				東京都江東区東陽2-4-2 新宮ビル3階
+			</span>
+			<div id="copyright">OTEC ALL RIGHT RESERVED</div>
+		</div>
+	</div>
+</div>
+</div>
+</body>
+
+
+
+<style>
+#ir_library{
+	height:290px;
+	overflow-y:scroll;
+	overflow-x:hidden;
+}
+#ir_library{
+	#height:auto;
+}
+div#ir_library dt{
+	clear:both;
+	position:relative;
+	float:left;
+}
+#CMN__CONTENTS #second UL{
+	margin:10px 10px 0px 0px;
+	float:right;
+}
+
+#CMN__CONTENTS_WRAP{
+	background-image: url("./images/mainImg.png");
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-color: #FFF;
+}
+#CMN__CONTENTS #first LI{
+	float:left;
+	margin:200px 0px 0px 18px;
+}
+#CMN__CONTENTS #second{
+	margin:10px 0px 10px 0px;
+	padding:0px 0px 0px 0px;
+	background-image: url("./images/mainBottomImg.png");
+	background-repeat: no-repeat;
+	background-position: center top;
+	min-height: 300px;
+}
+#CMN__CONTENTS #second #ir_area{
+	margin:10px 0px 0px 14px;
+	float:left;
+}
+#CMN__CONTENTS #second #rightButton{
+	float:left;
+}
+#CMN__CONTENTS{
+	width:980px;
+	margin:0px auto;
+}
+#CMN__CONTENTS #ir_area{
+	width:710px;
+	background: url("./images/newsAreaBG.png") no-repeat center -5px;
+}
+
+#CMN__CONTENTS .ir_tab{
+	width:177px;
+	height:32px;
+	margin:0px;
+	float:left;
+	text-align:center;
+}
+#CMN__CONTENTS #tab_1{
+	margin-left:5px;
+}
+
+#CMN__CONTENTS .ir_tabOn{
+	background-image: url("./images/newsTab-on.png");
+}
+#CMN__CONTENTS .ir_tabOff{
+	background-image: url("./images/newsTab-off.png");
+}
+
+#CMN__CONTENTS .ir_tab A{
+	color:#FFF;
+	line-height:40px;
+}
+#CMN__CONTENTS #irNewsWrap{
+	clear:both;
+	padding:6px 14px 5px 23px;
+	background: url("./images/newsAreaBG_bk.png") repeat-y center bottom;
+	margin-top:40px;
+}
+#CMN__CONTENTS #irNewsWrap_in{
+	background: url("./images/newsAreaBG_bottom.png") no-repeat center bottom;
+	height: 20px;
+}
+#CMN__CONTENTS #showAll{
+	float:right;
+	background-image: url("./images/common/arrow02.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding:4px 0px 0px 20px;
+	margin-right:18px;
+}
+#CMN__CONTENTS #showAll A{
+	color:#003360;
+}
+</style>
+
+<script>
+$(function(){
+	$('.ir_tab').click(function(){
+		chTab(this);
+	});
+});
+function chTab(elm){
+	$('.ir_tab').each(function(){
+		$(this).removeClass('ir_tabOn');
+		$(this).addClass('ir_tabOff');
+	});
+	$(elm).addClass('ir_tabOn');
+	$(elm).removeClass('ir_tabOff');
+	
+	if($(elm).attr('no') == 1){
+		$('#ir_news1').removeClass('noDisp');
+		$('#ir_news2').addClass('noDisp');
+	}else{
+		$('#ir_news1').addClass('noDisp');
+		$('#ir_news2').removeClass('noDisp');
+	}
+}
+</script>
+
+<script>
+function chTopix(num){
+	if(num == 1){
+		$("#tab1").addClass('tabActive');
+		$("#tab2").removeClass('tabActive');
+		TabLink_onclick('newt',0);
+		$('#goList').attr('href', './release.html');
+		return false;	
+	}else if(num == 2){
+		$("#tab2").addClass('tabActive');
+		$("#tab1").removeClass('tabActive');
+		TabLink_onclick('ir',1);
+		$('#goList').attr('href', './ir/news.html');
+		return false;
+	}
+	return false;
+}
+
+</script>
+</script>
+

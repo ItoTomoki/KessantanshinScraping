@@ -1,0 +1,435 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>CO-COS：ユニフォームと作業用品のコーコス</title>
+    <meta http-equiv="content-style-type" content="text/css" />
+    <meta http-equiv="content-script-type" content="text/javascript" />
+    <link href="common/css/style.css" rel="stylesheet" type="text/css" />  
+    <link rel="stylesheet" href="nivo-slider/nivo-slider.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="common/css/dropdown/dropdown2.css" type="text/css" media="screen" />
+    <script type="text/javascript" src="common/css/dropdown/dropdown.js"></script>
+    <script type="text/javascript" src="common/js/swap.js"></script>
+    <link rel="stylesheet" href="css/dragdealer.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/dragdealer-main.css" type="text/css" media="screen" />
+    <script type="text/javascript" src="js/dragdealer.js"></script>
+    <script type="text/javascript" src="js/dragdealer-main.js"></script>
+	<script type="text/javascript" src="js/ccs.js"></script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-38279319-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+
+<body>
+
+<div id="header">
+    <div class="wrap">
+        <div id="logo"><a href="index.html"><img src="img/th_logo.png" alt="CO-COS" width="168" height="37" /></a></div>
+        <div id="h_navi">
+            <img src="img/h_navi_logo_jpn.png" alt="株式会社コーコス信岡WEBサイト" width="206" height="20" />
+<ul>
+                <li><a href="privacy_policy/index.html"><img src="img/hl_01_off.png" alt="個人情報について" width="95" height="12" /></a></li>
+                <li><a href="sitemap/index.html"><img src="img/hl_02_off.png" alt="サイトマップ" width="68" height="12" /></a></li>
+          </ul>
+      </div>
+
+<!--トピックスナビスタート-->
+         
+<!--グローバルナビスタート-->
+      
+    </div>
+
+</div>
+<div class="wrap">
+<div id="t_navi">
+        <dl class="dropdown">
+  <dt><a href="product/index.html"><img src="common/css/dropdown/t_navi/images/01_off.png" alt="製品情報" width="317" height="38" /></a></dt>
+</dl>
+
+        <dl class="dropdown">
+  <dt><a href="style/index.html"><img src="common/css/dropdown/t_navi/images/02_off.png" alt="コーコススタイル" width="317" height="38" /></a></dt>
+</dl>
+
+        <dl class="dropdown">
+  <dt><a href="identity/index.html"><img src="common/css/dropdown/t_navi/images/03_off.png" alt="コーコスアイデンティティ" width="316" height="38" /></a></dt>
+</dl>
+
+  </div>
+
+<div class="clear"></div>
+
+<div id="g_navi">
+        <dl class="dropdown">
+  <dt id="one-ddheader" onmouseover="ddMenu('one',1)" onmouseout="ddMenu('one',-1)"><a href="company/index.html"><img src="common/css/dropdown/gnavi/images/01_off.png" alt="企業情報" width="191" height="37" /></a></dt>
+  <dd id="one-ddcontent" onmouseover="cancelHide('one')" onmouseout="ddMenu('one',-1)">
+    <ul>
+      <li><a href="company/index.html" class="underline">ごあいさつ</a></li>
+      <li><a href="company/corporate_profile.html" class="underline">会社概要</a></li>
+      <li><a href="company/companypolicie.html" class="underline">経営方針</a></li>
+      <li><a href="company/organization.html" class="underline">組織体制</a></li>
+      <li><a href="company/officer.html" class="underline">役員・執行役員</a></li>
+      <li><a href="company/csr.html" class="underline">CSR（企業の社会的責任）</a></li>
+      <li><a href="company/action_plan.html" class="underline">一般事業主行動計画</a></li>
+      <li><a href="company/base.html" class="underline">国内・海外拠点一覧</a></li>
+      <li><a href="company/history.html" class="underline">沿革</a></li>
+      <li><a href="company/movie.html" class="underline">会社案内ムービー</a></li>
+      <li><a href="company/calendar.html">営業日カレンダー</a></li>
+    </ul>
+  </dd>
+</dl>
+
+<dl class="dropdown">
+  <dt id="two-ddheader" onmouseover="ddMenu('two',1)" onmouseout="ddMenu('two',-1)"><a href="ir/index.html"><img src="common/css/dropdown/gnavi/images/02_off.png" alt="ニュースリリース・電子公告" width="189" height="37" /></a></dt>
+  <dd id="two-ddcontent" onmouseover="cancelHide('two')" onmouseout="ddMenu('two',-1)">
+    <ul>
+      <li><a href="ir/index.html" class="underline">ニュースリリース</a></li>
+      <li><a href="ir/annual_report.html" class="underline">電子公告</a></li>
+    </ul>
+  </dd>
+</dl>
+
+<dl class="dropdown">
+  <dt id="three-ddheader" onmouseover="ddMenu('three',1)" onmouseout="ddMenu('three',-1)"><a href="eco/index.html"><img src="common/css/dropdown/gnavi/images/03_off.png" alt="環境への取組み" width="190" height="37" /></a></dt>
+  <dd id="three-ddcontent" onmouseover="cancelHide('three')" onmouseout="ddMenu('three',-1)">
+    <ul>
+      <li><a href="eco/index.html" class="underline">環境への基本姿勢</a></li>
+      <li><a href="eco/eco_product.html" class="underline">環境に配慮した製品</a></li>
+      <li><a href="eco/eco_carbon_offset.html" class="underline">PROJECT カーボンオフセット</a></li>
+      <li><a href="eco/eco_mottainai.html" class="underline">PROJECT MOTTAINAI</a></li>
+      <li><a href="eco/eco_activities.html" class="underline">環境保全活動</a></li>
+      <li><a href="eco/eco_report.html">環境報告書</a></li>
+    </ul>
+  </dd>
+</dl>
+
+<dl class="dropdown">
+  <dt id="fwo-ddheader" onmouseover="ddMenu('fwo',1)" onmouseout="ddMenu('fwo',-1)"><a href="recruit/index.html"><img src="common/css/dropdown/gnavi/images/04_off.png" alt="採用情報" width="190" height="37" /></a></dt>
+  <dd id="fwo-ddcontent" onmouseover="cancelHide('fwo')" onmouseout="ddMenu('fwo',-1)">
+    <ul>
+      <li><a href="recruit/newgrads.html" class="underline">新卒採用</a></li>
+      <li><a href="recruit/career.html" class="underline">キャリア採用</a></li>
+      <li><a href="recruit/parttimejob.html" class="underline">パート・アルバイト採用</a></li>
+      <li><a href="recruit/staff_message.html" class="underline">採用担当者からのメッセージ</a></li>
+      <li><a href="recruit/senior_message.html" class="underline">先輩社員からのメッセージ</a></li>
+      <li><a href="recruit/whatscocos.html" class="underline">「CO-COS」ってどんな会社？</a></li>
+      <li><a href="recruit/movie.html">会社案内ムービー</a></li>
+    </ul>
+  </dd>
+</dl>
+
+<dl class="dropdown">
+  <dt id="five-ddheader" onmouseover="ddMenu('five',1)" onmouseout="ddMenu('five',-1)"><a href="inquiry/index.html"><img src="common/css/dropdown/gnavi/images/05_off.png" alt="お問い合わせ" width="190" height="37" /></a></dt>
+  <dd id="five-ddcontent" onmouseover="cancelHide('five')" onmouseout="ddMenu('five',-1)">
+    <ul>
+      <li><a href="inquiry/index.html" class="underline">お問い合わせ</a></li>
+      <li><a href="inquiry/mailform.html">メールフォーム</a></li>
+    </ul>
+  </dd>
+</dl>
+<!--グルーバルナビ終了-->
+  </div>
+
+
+
+</div>
+<div id="slider" class="nivoSlider">
+  <img src="nivo-slider/img/0.jpg" alt="" data-timing="1000" />
+  <img src="nivo-slider/img/01_2.jpg" alt="" data-timing="6000" />
+  <img src="nivo-slider/img/02.jpg" alt="" data-timing="2200" />
+  <img src="nivo-slider/img/02_2.jpg" alt="" data-timing="3500" />
+  <img src="nivo-slider/img/03.jpg" alt="" data-timing="2200" />
+  <img src="nivo-slider/img/03_2.jpg" alt="" data-timing="3500" />
+  <img src="nivo-slider/img/04.jpg" alt="" data-timing="2200" />
+  <img src="nivo-slider/img/04_2.jpg" alt="" data-timing="3500" />
+  <img src="nivo-slider/img/05.jpg" alt="" data-timing="2200" />
+  <img src="nivo-slider/img/05_2.jpg" alt="" data-timing="3500" />
+  <img src="nivo-slider/img/06.jpg" alt="" data-timing="2200" />
+  <img src="nivo-slider/img/06_2.jpg" alt="" data-timing="3500" />
+</div>
+         
+
+<div id="footer_top">
+  <div class="box">
+<div class="white">
+  <a href="product/index.html"><img src="img/t_h_i_co-cos_product_off.jpg" alt="CO-COS Product" width="298" height="296" border="0" class="box_img" /></a>
+  <a href="style/index.html"><img src="img/t_h_i_co-cos_style_off.jpg" alt="CO-COS Style" width="298" height="298" border="0" class="box_img" /></a>
+  <a href="identity/index.html"><img src="img/t_h_i_co-cos_identity_off.jpg" alt="CO-COS Identity" width="300" height="296" border="0" /></a>
+<div id="pbr"><a href="ebook/index.html"><img src="img/product_ct_off.png" alt="CO-COS DIGITAL CATALOG：デジタルカタログを見る" width="120" height="193" /></a></div>
+
+</div> 
+
+<div class="center"></div>
+<!--新着情報スタート-->
+<div id="news_box">
+  <p><img src="img/t_headline_img_news_off.png" alt="新着情報：一覧" width="950" height="30" /></p>
+
+					<div class="top-spaced right-float">
+						<div id="scroll-bar" class="dragdealer rounded-cornered">
+							<div class="red-bar handle"></div>
+						</div>
+	  </div>
+<div id="scroll-mask" class="top-spaced rounded-cornered">
+						<div id="scroll-content">
+  <!--新着情報スタート-->
+  		<script language="javascript">
+			function new_disp(max_date){
+				var w_today	= new Date();
+				
+				// 日付オブジェクトより年、月、日を取得し合体 //
+				var w_year		= w_today.getFullYear();
+				var w_date		= w_today.getMonth() + 1;
+				var w_day		= w_today.getDate();
+				var now_date	= w_year * 10000 + w_date * 100 + w_day;
+
+				// 指定された日付が来るまで「new!!」を表示する。 //
+				if( now_date <= max_date){
+					document.write('<font color="#FF0000">NEW</font>');
+				}else{
+					document.write('');
+				}
+			}
+		</script>
+
+
+<div id="news">
+<table width="100%">
+  <tr>
+    <th>2017-05-22</th>
+    <td><a href="eco/eco_report.html">環境報告書2017（2016年度環境報告）を掲載しました</a>
+      <script language="JavaScript" type="text/javascript">new_disp('20170822');</script></td>
+  </tr>
+  <tr>
+    <th>2017-05-01</th>
+    <td><a href="ir/index.html#170501">2017-2018秋冬展示商談会のお知らせ</a>
+      <script language="JavaScript" type="text/javascript">new_disp('20170714');</script></td>
+  </tr>
+  <tr>
+    <th>2017-04-26</th>
+    <td><a href="company/action_plan.html">一般事業主行動計画の内容を更新しました</a>
+      <script language="JavaScript" type="text/javascript">new_disp('20170726');</script></td>
+  </tr>
+  <tr>
+    <th>2017-04-01</th>
+    <td><a href="ir/index.html#170401" onclick="newsOpen('ir/20170401-1.html');">代表取締役社長交代に関するお知らせ</a>
+      <script language="JavaScript" type="text/javascript">new_disp('20170701');</script></td>
+  </tr>
+  <tr>
+    <th>2017-03-06</th>
+    <td><a href="ebook/index.html">電子カタログ(2017春夏カタログ)を掲載しました</a>
+      <script language="JavaScript" type="text/javascript">new_disp('20170406');</script></td>
+  </tr>
+  <tr>
+    <th>2017-02-21</th>
+    <td><a href="recruit/newgrads.html">会社説明会スケジュールのお知らせ</a>
+      <script language="JavaScript" type="text/javascript">new_disp('20170228');</script></td>
+  </tr>
+  <tr>
+    <th>2017-02-14</th>
+    <td><a href="recruit/senior_message.html">採用情報（先輩社員からのメッセージ）を更新しました</a>
+      <script language="JavaScript" type="text/javascript">new_disp('20170305');</script></td>
+  </tr>
+  <tr>
+    <th>2017-01-17</th>
+    <td>福山市主催『企業研究Lab』（東京会場）へ参加します
+      <script language="JavaScript" type="text/javascript">new_disp('20170217');</script></td>
+  </tr>
+  <tr>
+    <th>2016-10-21</th>
+    <td><a href="ir/index.html">2017春夏展示商談会のお知らせ</a>
+      <script language="JavaScript" type="text/javascript">new_disp('20161121');</script></td>
+  </tr>
+  <tr>
+    <th>2016-09-09</th>
+    <td><a href="ebook/index.html">電子カタログ(2016-2017秋冬カタログ)を掲載しました</a>
+      <script language="JavaScript" type="text/javascript">new_disp('20161009');</script></td>
+  </tr>
+  <tr>
+    <th>2016-05-26</th>
+    <td><a href="eco/eco_report.html">環境報告書2016（2015年度環境報告）を掲載しました</a>
+      <script language="JavaScript" type="text/javascript">new_disp('20160726');</script></td>
+  </tr>
+  <tr>
+    <th>2016-04-25</th>
+    <td><a href="ir/index.html">2016-2017秋冬展示商談会のお知らせ</a>
+      <script language="JavaScript" type="text/javascript">new_disp('20160525');</script></td>
+  </tr>
+  <tr>
+    <th>2016-04-21</th>
+    <td><a href="ir/index.html#160421">当社新商品のご紹介</a>
+      <script language="JavaScript" type="text/javascript">new_disp('20160521');</script></td>
+  </tr>
+  <tr>
+    <th>2016-03-04</th>
+    <td><a href="ebook/index.html">電子カタログ(2016春夏カタログ)を掲載しました</a>
+      <script language="JavaScript" type="text/javascript">new_disp('20160404');</script></td>
+  </tr>
+  <tr>
+    <th width="10%">2016-03-01</th>
+    <td><a href="recruit/newgrads.html">2017年度新卒採用の応募受付を開始しました</a>
+      <script language="JavaScript" type="text/javascript">new_disp('20160401');</script></td>
+  </tr>
+  <tr>
+    <th>2015-12-03</th>
+    <td><a href="ir/index.html">2016春夏展示商談会のお知らせ</a>
+      <script language="JavaScript" type="text/javascript">new_disp('20160103');</script></td>
+  </tr>
+  <tr>
+  <th>2015-09-10</th>
+    <td><a href="ebook/index.html">電子カタログ(2015-2016秋冬カタログ)を掲載しました</a>
+    <script language="JavaScript" type="text/javascript">new_disp('20151010');</script></td>
+  </tr>
+  <tr>
+    <th>2015-08-25</th>
+    <td><a href="recruit/senior_message.html">採用情報（先輩社員からのメッセージ）を更新しました</a>
+      <script language="JavaScript" type="text/javascript">new_disp('20150925');</script></td>
+  </tr>
+  <tr>
+    <th>2015-06-25</th>
+    <td><a href="eco/eco_report.html">環境報告書2015(2014年度環境報告)を掲載しました</a>
+      <script language="JavaScript" type="text/javascript">new_disp('20150725');</script></td>
+  </tr>
+  <tr>
+    <th>2015-06-23</th>
+    <td><a href="ir/annual_report.html">電子公告（第68期決算公告）の掲載</a>
+      <script language="JavaScript" type="text/javascript">new_disp('20150723');</script></td>
+  </tr>
+  <tr>
+    <th>2015-06-10</th>
+    <td><a href="ir/index.html">2015-2016秋冬展示商談会のお知らせ</a>
+      <script language="JavaScript" type="text/javascript">new_disp('20150710');</script></td>
+  </tr>
+  <tr>
+  <th>2015-03-10</th>
+  <td><a href="ebook/index.html">電子カタログ(2015春夏カタログ)を掲載しました</a>
+    <script language="JavaScript" type="text/javascript">new_disp('20150410');</script></td>
+  </tr>
+</table>
+<p>＞<a href="news/back_number.html" target="_top">バックナンバーはこちら</a></p>
+</div>
+
+  <!--新着情報終了-->
+						</div>
+					</div>
+
+
+</div>
+
+<!--新着情報終了-->
+
+  
+<!--フッタースタート-->
+  <div class="footer">
+  <div  id="ft_navi">
+  <div class="footer_tg_navi">
+    <ul>
+      <li><a href="product/index.html"><img src="common/css/dropdown/t_navi/images/01_off.png" alt="製品情報" width="317" height="38" /></a></li>
+      <li><a href="style/index.html"><img src="common/css/dropdown/t_navi/images/02_off.png" alt="コーコススタイル" width="317" height="38" /></a></li>
+      <li><a href="identity/index.html"><img src="common/css/dropdown/t_navi/images/03_off.png" alt="コーコスアイデンティティ" width="316" height="38" /></a></li>
+      </ul>
+  </div>
+  </div>
+  <div class="clear"></div>
+  <div id="fg_navi">
+  <div class="footer_tg_navi">
+    <ul>
+      <li><a href="company/index.html"><img src="common/css/dropdown/gnavi/images/01_off.png" alt="企業情報" width="191" height="37" /></a></li>
+      <li><a href="ir/index.html"><img src="common/css/dropdown/gnavi/images/02_off.png" alt="ニュースリリース・電子公告" width="189" height="37" /></a></li>
+      <li><a href="eco/index.html"><img src="common/css/dropdown/gnavi/images/03_off.png" alt="環境への取組み" width="190" height="37" /></a></li>
+      <li><a href="recruit/index.html"><img src="common/css/dropdown/gnavi/images/04_off.png" alt="採用情報" width="190" height="37" /></a></li>
+      <li><a href="inquiry/index.html"><img src="common/css/dropdown/gnavi/images/05_off.png" alt="お問い合わせ" width="190" height="37" /></a></li>
+      </ul>
+  </div>
+  </div>
+    
+    
+  <div class="wrap">
+    <!-- footer-cols -->
+    <div class="footer_cosl_u_arrow">
+    <ul id="footer-cols">
+  <li class="col">
+    <ul>
+      <li class="page_item_bt"><a href="company/index.html">ごあいさつ</a></li>
+      <li class="page_item_bn"><a href="company/corporate_profile.html">会社概要</a></li>
+      <li class="page_item_bn"><a href="company/companypolicie.html">経営方針</a></li>
+      <li class="page_item_bn"><a href="company/organization.html">組織体制</a></li>
+      <li class="page_item_bn"><a href="company/officer.html">役員・執行役員</a></li>
+      <li class="page_item_bn"><a href="company/csr.html">CSR（企業の社会的責任）</a></li>
+      <li class="page_item_bn"><a href="company/action_plan.html">一般事業主行動計画</a></li>
+      <li class="page_item_bn"><a href="company/base.html">国内・海外拠点一覧</a></li>
+      <li class="page_item_bn"><a href="company/history.html">沿革</a></li>
+      <li class="page_item_bn"><a href="company/movie.html">会社案内ムービー</a></li>
+      <li class="page_item_bn"><a href="company/calendar.html">営業日カレンダー</a></li>
+      </ul>
+  </li>
+  <li class="col">
+    <ul>
+      <li class="page_item_bt"><a href="ir/index.html">ニュースリリース</a></li>
+      <li class="page_item_bn"><a href="ir/annual_report.html">電子公告</a></li>
+      </ul>
+  </li>
+  <li class="col">
+    <ul>
+      <li class="page_item_bt"><a href="eco/index.html">環境への基本姿勢</a></li>
+      <li class="page_item_bn"><a href="eco/eco_product.html">環境に配慮した商品</a></li>
+      <li class="page_item_bn"><a href="eco/eco_carbon_offset.html">PFOJECT<br />
+        カーボンオフセット</a></li>
+      <li class="page_item_bn"><a href="eco/eco_mottainai.html">PROJECT<br />
+        MOTTAINAI</a></li>
+      <li class="page_item_bn"><a href="eco/eco_activities.html">環境保全活動</a></li>
+      <li class="page_item_bn"><a href="eco/eco_report.html">環境報告書</a></li>
+      </ul>
+  </li>
+  <li class="col">
+    <ul>
+      <li class="page_item_bt"><a href="recruit/index.html">採用情報</a></li>
+      <li class="page_item_bn"><a href="recruit/newgrads.html">新卒採用</a></li>
+      <li class="page_item_bn"><a href="recruit/career.html">キャリア採用</a></li>
+      <li class="page_item_bn"><a href="recruit/parttimejob.html">パート・アルバイト採用</a></li>
+      <li class="page_item_bn"><a href="recruit/staff_message.html">採用担当者からのメッセージ</a></li>
+      <li class="page_item_bn"><a href="recruit/senior_message.html">先輩社員からのメッセージ</a></li>
+      <li class="page_item_bn"><a href="recruit/whatscocos.html">「CO-COS」ってどんな会社？</a></li>
+      <li class="page_item_bn"><a href="recruit/movie.html">会社案内ムービー</a></li>
+      </ul>
+  </li>
+  <li class="col">                        
+    <ul>
+      <li class="page_item_bt"><a href="inquiry/index.html">お問い合わせ</a></li>
+      <li class="page_item_bn"><a href="inquiry/mailform.html">メールフォーム</a></li>
+      </ul>
+  </li>
+      
+    </ul>
+    
+    <!-- ENDS footer-cols -->
+  </div>
+  </div>
+</div>    
+</div>
+</div>
+    <script type="text/javascript" src="nivo-slider/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="nivo-slider/jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
+
+<div id="footer_address">
+<div id="footer_copyrights"><img src="img/footer_logo.png" alt="CO-COS COPYRIGHT(C)2008 CO-COS NOBUOKA All Rights Reserved." width="407" height="38" /></div>
+  <!--フッター終了-->
+
+</div>
+
+</body>
+</html>

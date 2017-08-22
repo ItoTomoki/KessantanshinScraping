@@ -1,0 +1,365 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Style-Type" content="text/css; charset=UTF-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript; charset=UTF-8" />
+<meta name="keywords" content="イーサポートリンク,e-supportlink,生鮮,流通,EDI,JGAP" />
+<meta name="description" content="イーサポートリンクは生産者から生活者まで、思いを届ける皆さまのベストパートナーを目指します。" />
+<title>イーサポートリンク株式会社</title>
+<link rel="stylesheet" href="./common/css/common.css" media="all" />
+<link rel="stylesheet" href="./common/css/top.css" media="all" />
+<link rel="stylesheet" href="./common/css/font_medium.css" title="fontpreset01" media="all" />
+<link rel="stylesheet" href="./common/css/font_large.css" title="fontpreset02" media="all" />
+<link rel="stylesheet" href="./common/css/font_small.css" title="fontpreset03" media="all" />
+<link rel="stylesheet" href="./common/css/print.css" media="print" />
+<script language="javascript" type="text/javascript" src="./common/js/prototype/prototype.js"></script>
+<script language="javascript" type="text/javascript" src="./common/js/styleswitcher.js"></script>
+<script language="javascript" type="text/javascript" src="./common/js/action.js"></script>
+<script type="text/javascript" src="./common/js/swfobject.js"></script>
+<script type="text/javascript">
+
+var bnr01 = new Image();
+bnr01.src = "common/images/top/bnr_banana_on.jpg";
+var bnr02 = new Image();
+bnr02.src = "common/images/top/banner01_on.jpg";
+var bnr03 = new Image();
+bnr03.src = "common/images/top/banner02_on.jpg";
+var bnr04 = new Image();
+bnr04.src = "common/images/top/banner03_on.jpg";
+
+</script>
+<script type="text/javascript" src="common/js/new.js"></script>
+<link type="text/css" href="common/shadowbox/shadowbox.css" rel="stylesheet" media="all" />
+<script type="text/javascript" src="common/shadowbox/shadowbox.js"></script>
+<script type="text/javascript">  
+Shadowbox.init();
+</script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-28048032-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<style type="text/css">
+<!--
+@media screen and (device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2){
+	body{
+		background:none;
+	}
+}
+-->
+</style>
+</head>
+<body>
+<!-- #wrap -->
+<![if !IE ]>
+	  <script>
+		(function(){
+		var ua = navigator.userAgent;
+		if (localStorage
+			&& (ua.indexOf('iPhone') > 0 || ua.indexOf('iPod') > 0 || ua.indexOf('Android') > 0 )) {
+		document.write("<div align=\"center\" style=\"padding:10px;\"><a href=\"sp/index.html\"><img src=\"sp/img/btn.jpg\" alt=\"スマートフォンサイトはこちら\" ></a><br></div>");
+		}
+		})();
+	  </script>
+<![endif]>
+<div id="wrap">
+<!-- #header -->
+
+<div id="header">
+
+<div id="header-inner">
+
+<div id="header-common">
+<h1 id="logo"><a href="/"><img src="./common/images/logo.gif" alt="イーサポートリンク株式会社" width="246" height="66" /></a></h1>
+<div id="utilities">
+<ul id="tools">
+<li id="u01"><a href="/contact/">お問い合わせ</a></li>
+<li id="u02"><a href="/sitemap.html">サイトマップ</a></li>
+<li id="u03"><a href="#print" onclick="pageprint()">印刷する</a></li>
+</ul>
+<ul id="font-size">
+<li id="f01"><a href="#font-large" onclick="setActiveStyleSheet('fontpreset02'); return false;">大</a></li>
+<li id="f02"><a href="#font-medium" onclick="setActiveStyleSheet('fontpreset01'); return false;">中</a></li>
+<li id="f03"><a href="#font-small" onclick="setActiveStyleSheet('fontpreset03'); return false;">小</a></li>
+</ul>
+</div>
+</div>
+<div id="gnavi">
+<ul>
+<li id="g01"><span><img src="./common/images/global01_on.gif" width="106" height="72" alt="ホーム" /></span></li>
+<li id="g02"><a href="../service/"><img src="./common/images/global02_off.gif" width="256" height="72" alt="業種・お悩み別サービス案内" onmouseover="gshover(1 , this)" onmouseout="gsout(1 , this)" /></a></li>
+<li id="g03"><a href="../profile/"><img src="./common/images/global03_off.gif" width="136" height="72" alt="企業情報" onmouseover="gshover(2 , this)" onmouseout="gsout(2 , this)" /></a></li>
+<li id="g04"><a href="../business/"><img src="./common/images/global04_off.gif" width="137" height="72" alt="事業紹介" onmouseover="gshover(3 , this)" onmouseout="gsout(3 , this)" /></a></li>
+<li id="g05"><a href="../ir/"><img src="./common/images/global05_off.gif" width="168" height="72" alt="株主・投資家情報" onmouseover="gshover(4 , this)" onmouseout="gsout(4 , this)" /></a></li>
+<li id="g06"><a href="../recruit/"><img src="./common/images/global06_off.gif" width="137" height="72" alt="採用情報" onmouseover="gshover(5 , this)" onmouseout="gsout(5 , this)" /></a></li>
+</ul>
+</div>
+</div>
+</div>
+<!-- #header -->
+<!-- #visual -->
+<div id="visual">
+<div id="visual-inner">
+<div id="visual-inner-b">
+<h2>生産者から生活者まで、思いを届ける皆さまのベストパートナーを目指して！</h2>
+</div>
+</div>
+</div>
+<!-- #visual -->
+<div id="contents">
+<!-- #stage -->
+<div id="stage">
+<div id="stage-inner">
+<div id="contents-left">
+
+
+<div class="box">
+<div class="box-head">
+<h3 class="content-title" id="topnews01">ニュース＆トピックス<span id="topnews_rss"><a href="rss/topics.xml"><img src="common/images/icon_rss.gif" alt="RSS" width="45" height="15" /></a></span><span id="topnewslist01"><a href="./news/">ニュース＆トピックス一覧</a></span></h3>
+</div>
+<div class="box-body" id="index-list">
+
+
+<!--row-->
+<div class="row"> <span class="date"><span class="date-year">2017年</span><span class="date-month">8月</span><span class="date-day">16日</span></span>
+<script type="text/javascript"><!--
+document.write(checknewicon("20170816","<span class=\"icon-new\"><img src=\"common/images/icon_new.gif\" width=\"34\" height=\"12\" alt=\"NEW\" /></span>"));							// --></script>
+<p class="row-paragraph"> <a href="news/2017/0816.html">『国際オーガニックEXPO 2017』に出展します。</a></p>
+</div>
+<!--row-->
+
+
+<!--row-->
+<div class="row"> <span class="date"><span class="date-year">2017年</span><span class="date-month">8月</span><span class="date-day">7日</span></span>
+<script type="text/javascript"><!--
+document.write(checknewicon("20170807","<span class=\"icon-new\"><img src=\"common/images/icon_new.gif\" width=\"34\" height=\"12\" alt=\"NEW\" /></span>"));							// --></script>
+<p class="row-paragraph"> <a href="news/documents/20170807.pdf" target="_blank">農経新聞に記事が掲載されました。</a><span><img src="common/images/icon_pdf.gif" alt="PDFファイル" width="16" height="16" class="ico-pdf" /></span></p>
+</div>
+<!--row-->
+
+
+<!--row-->
+<div class="row"> <span class="date"><span class="date-year">2017年</span><span class="date-month">8月</span><span class="date-day">3日</span></span>
+<script type="text/javascript"><!--
+document.write(checknewicon("20170803","<span class=\"icon-new\"><img src=\"common/images/icon_new.gif\" width=\"34\" height=\"12\" alt=\"NEW\" /></span>"));							// --></script>
+<p class="row-paragraph"> <a href="news/2017/0803.html">「第１回 いわてスマート農業祭」に出展します。</a></p>
+</div>
+<!--row-->
+
+
+<!--row-->
+<div class="row"> <span class="date"><span class="date-year">2017年</span><span class="date-month">7月</span><span class="date-day">14日</span></span>
+<script type="text/javascript"><!--
+document.write(checknewicon("20170714","<span class=\"icon-new\"><img src=\"common/images/icon_new.gif\" width=\"34\" height=\"12\" alt=\"NEW\" /></span>"));							// --></script>
+<p class="row-paragraph"> <a href="news/2017/0714.html">『オーガニックライフスタイルEXPO』に出展します。</a></p>
+</div>
+<!--row-->
+
+
+<!--row-->
+<div class="row"> <span class="date"><span class="date-year">2017年</span><span class="date-month">4月</span><span class="date-day">27日</span></span>
+<script type="text/javascript"><!--
+document.write(checknewicon("20170427","<span class=\"icon-new\"><img src=\"common/images/icon_new.gif\" width=\"34\" height=\"12\" alt=\"NEW\" /></span>"));							// --></script>
+<p class="row-paragraph"> <a href="news/2017/0427.html">NARO農研機構生研支援センターが行う研究開発において当社が所属している共同事業体が採択されました</a></p>
+</div>
+<!--row-->
+
+
+</div>
+</div>
+<div class="box">
+<div class="box-head">
+<h3 class="content-title" id="topnews02">IRニュース<span id="topnews02_rss"><a href="rss/ir.xml"><img src="common/images/icon_rss.gif" alt="RSS" width="45" height="15" /></a></span><span id="topnewslist02"><a href="./ir/news.html">IRニュース一覧</a></span></h3>
+</div>
+<div class="box-body" id="index-list">
+
+
+<!--row-->
+<div class="row"> <span class="date"><span class="date-year">2017年</span><span class="date-month">8月</span><span class="date-day">14日</span></span>
+<script type="text/javascript"><!--
+document.write(checknewicon("20170814","<span class=\"icon-new\"><img src=\"common/images/icon_new.gif\" width=\"34\" height=\"12\" alt=\"NEW\" /></span>"));	
+// --></script>
+<p class="row-paragraph"> <a href="common/pdf/ir/report/170814.pdf" target="_blank">第20期中間株主通信（2016年12月1日～2017年5月31日まで）</a><span><img src="common/images/icon_pdf.gif" alt="PDFファイル" width="16" height="16" class="ico-pdf" /></span></p>
+</div>
+<!--//row-->
+
+
+<!--row-->
+<div class="row"> <span class="date"><span class="date-year">2017年</span><span class="date-month">7月</span><span class="date-day">26日</span></span>
+<script type="text/javascript"><!--
+document.write(checknewicon("20170726","<span class=\"icon-new\"><img src=\"common/images/icon_new.gif\" width=\"34\" height=\"12\" alt=\"NEW\" /></span>"));	
+// --></script>
+<p class="row-paragraph"> <a href="common/pdf/ir/presentation/2017_2.pdf" target="_blank">2017年11月期 第2四半期決算説明会資料</a><span><img src="common/images/icon_pdf.gif" alt="PDFファイル" width="16" height="16" class="ico-pdf" /></span></p>
+</div>
+<!--//row-->
+
+
+<!--row-->
+<div class="row"> <span class="date"><span class="date-year">2017年</span><span class="date-month">7月</span><span class="date-day">19日</span></span>
+<script type="text/javascript"><!--
+document.write(checknewicon("20170719","<span class=\"icon-new\"><img src=\"common/images/icon_new.gif\" width=\"34\" height=\"12\" alt=\"NEW\" /></span>"));	
+// --></script>
+<p class="row-paragraph"> <a href="common/pdf/ir/news/2017/0719.pdf" target="_blank">組織変更及び人事異動に関するお知らせ</a><span><img src="common/images/icon_pdf.gif" alt="PDFファイル" width="16" height="16" class="ico-pdf" /></span></p>
+</div>
+<!--//row-->
+
+
+<!--row-->
+<div class="row"> <span class="date"><span class="date-year">2017年</span><span class="date-month">7月</span><span class="date-day">14日</span></span>
+<script type="text/javascript"><!--
+document.write(checknewicon("20170714","<span class=\"icon-new\"><img src=\"common/images/icon_new.gif\" width=\"34\" height=\"12\" alt=\"NEW\" /></span>"));	
+// --></script>
+<p class="row-paragraph"> <a href="common/pdf/ir/yuho/170714.pdf" target="_blank">平成29年11月期 第2四半期報告書</a><span><img src="common/images/icon_pdf.gif" alt="PDFファイル" width="16" height="16" class="ico-pdf" /></span></p>
+</div>
+<!--//row-->
+
+
+<!--row-->
+<div class="row"> <span class="date"><span class="date-year">2017年</span><span class="date-month">7月</span><span class="date-day">5日</span></span>
+<script type="text/javascript"><!--
+document.write(checknewicon("20170705","<span class=\"icon-new\"><img src=\"common/images/icon_new.gif\" width=\"34\" height=\"12\" alt=\"NEW\" /></span>"));	
+// --></script>
+<p class="row-paragraph"> <a href="common/pdf/ir/news/2017/0705.pdf" target="_blank">平成29年11月期 第2四半期決算短信〔日本基準〕（連結）</a><span><img src="common/images/icon_pdf.gif" alt="PDFファイル" width="16" height="16" class="ico-pdf" /></span></p>
+</div>
+<!--//row-->
+
+
+</div>
+</div>
+<div class="box">
+<div class="box-head">
+<h3 class="content-title" id="topnews03">IRニュース</h3>
+</div>
+<div class="box-inner"><img src="common/images/top/sh_top_01.gif" alt="当社の事業やサービスを業種別、お悩み別でわかりやすくご紹介いたします。" /></div>
+<div class="block-cat">
+<h3 id="tit-industry">業種別</h3>
+<div class="block-icons">
+<ul>
+<li><a href="./service/gyosyu_01.html"><img src="common/images/top/ico_ind01.gif" width="144" height="129" onmouseover="bnrswap( this ,'common/images/top/ico_ind01_on.gif')" onmouseout="bnrswap( this ,'common/images/top/ico_ind01.gif')" /></a></li>
+<li><a href="./service/gyosyu_02.html"><img src="common/images/top/ico_ind02.gif" width="144" height="129" onmouseover="bnrswap( this ,'common/images/top/ico_ind02_on.gif')" onmouseout="bnrswap( this ,'common/images/top/ico_ind02.gif')" /></a></li>
+<li><a href="./service/gyosyu_03.html"><img src="common/images/top/ico_ind03.gif" width="144" height="129" onmouseover="bnrswap( this ,'common/images/top/ico_ind03_on.gif')" onmouseout="bnrswap( this ,'common/images/top/ico_ind03.gif')" /></a></li>
+<li><a href="./service/gyosyu_04.html"><img src="common/images/top/ico_ind04.gif" width="144" height="129" onmouseover="bnrswap( this ,'common/images/top/ico_ind04_on.gif')" onmouseout="bnrswap( this ,'common/images/top/ico_ind04.gif')" /></a></li>
+</ul>
+</div>
+</div>
+<div class="block-cat">
+<h3 id="tit-trouble">お悩み別</h3>
+<div class="block-icons">
+<ul>
+<li><a href="./service/onayami_01.html"><img src="common/images/top/ico_tro01.gif" width="144" height="129" onmouseover="bnrswap( this ,'common/images/top/ico_tro01_on.gif')" onmouseout="bnrswap( this ,'common/images/top/ico_tro01.gif')" /></a></li>
+<li><a href="./service/onayami_02.html"><img src="common/images/top/ico_tro02.gif" width="144" height="129" onmouseover="bnrswap( this ,'common/images/top/ico_tro02_on.gif')" onmouseout="bnrswap( this ,'common/images/top/ico_tro02.gif')" /></a></li>
+<li><a href="./service/onayami_03.html"><img src="common/images/top/ico_tro03.gif" width="144" height="129" onmouseover="bnrswap( this ,'common/images/top/ico_tro03_on.gif')" onmouseout="bnrswap( this ,'common/images/top/ico_tro03.gif')" /></a></li>
+<li><a href="./service/onayami_04.html"><img src="common/images/top/ico_tro04.gif" width="144" height="129" onmouseover="bnrswap( this ,'common/images/top/ico_tro04_on.gif')" onmouseout="bnrswap( this ,'common/images/top/ico_tro04.gif')" /></a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="contents-right">
+<div id="side-index">
+<div id="side-a-index">
+<div id="side-b-index">
+
+<div class="banner-l"><a href="https://www.youtube.com/embed/UC4NLqAuCio?autoplay=1&rel=0&showinfo=0&modestbranding=0" rel="shadowbox;width=560;height=315"><img src="common/images/service/youtube05.png" width="250" height="183" alt="農場物語" /></a></div>
+
+<div class="banner-l"><a href="https://www.youtube.com/embed/NlQKJP7vQSE?autoplay=1&rel=0&showinfo=0&modestbranding=0" rel="shadowbox;width=560;height=315"><img src="common/images/service/youtube02.png" width="250" height="183" alt="E-Bind Plus" /></a></div>
+
+
+<div class="banner-l"><a href="https://www.youtube.com/embed/T9UsEb0Lxak?autoplay=1&rel=0&showinfo=0&modestbranding=0" rel="shadowbox;width=560;height=315"><img src="common/images/service/youtube03.png" width="250" height="183" alt="動画でわかる！生鮮MDシステム" /></a></div>
+
+<div class="banner-l"><a href="https://www.youtube.com/embed/dZP2W0NasNw?autoplay=1&rel=0&showinfo=0&modestbranding=0" rel="shadowbox;width=560;height=315"><img src="common/images/service/youtube04.png" width="250" height="183" alt="SiiMDシステム" /></a></div>
+
+
+
+<div class="banner-l"><a href="/banana_story/index.html" target="_blank"><img src="common/images/top/bnr_banana.jpg" width="250" height="183" alt="バナナ物語" onmouseover="bnrswap( this ,'common/images/top/bnr_banana_on.jpg')" onmouseout="bnrswap( this ,'common/images/top/bnr_banana.jpg')" /></a></div>
+<div class="sidebox-index" id="block-banner">
+<div class="sidebox-a-index ">
+<div class="sidebox-b-index">
+<div class="block-bnr">
+<!--<div class="banner"><a href="http://www.ngsn.co.jp/" target="_blank"><img src="common/images/top/banner01.jpg" width="230" height="69" alt="株式会社農業支援" onmouseover="bnrswap( this , 'common/images/top/banner01_on.jpg')" onmouseout="bnrswap( this , 'common/images/top/banner01.jpg')" /></a></div>-->
+<div class="banner banner-l"><a href="http://www.happyhappa-shop.com/" target="_blank"><img src="common/images/top/banner04.png" width="230" height="68" alt="りんごの通販サイト HAPPY HAPPA SHOP" onmouseover="bnrswap( this , 'common/images/top/banner04_on.png')" onmouseout="bnrswap( this , 'common/images/top/banner04.png')" /></a></div>
+<div class="banner banner-bottom"><a href="/apple.html"><img src="common/images/top/banner05.jpg" width="230" height="68" alt="りんご　ミニ知識" onmouseover="bnrswap( this , 'common/images/top/banner05_on.jpg')" onmouseout="bnrswap( this , 'common/images/top/banner05.jpg')" /></a></div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="sidebox-index">
+<div class="sidebox-a-index">
+<div class="sidebox-b-index">
+<div class="block-bnr">
+<div class="banner banner-bottom"><a href="http://www.noujou.com/" target="_blank"><img src="common/images/top/banner02.jpg" width="230" height="69" alt="農場物語" onmouseover="bnrswap( this , 'common/images/top/banner02_on.jpg')" onmouseout="bnrswap( this ,'common/images/top/banner02.jpg')" /></a></div>
+<!--
+												<div class="banner banner-bottom"><a href="http://www.seisenmd.jp/seisenMD/" target="_blank"><img src="common/images/top/banner03.jpg" width="230" height="69" alt="生鮮MDシステムシステム" onmouseover="bnrswap( this ,'common/images/top/banner03_on.jpg')" onmouseout="bnrswap( this ,'common/images/top/banner03.jpg')" /></a></div>
+-->
+</div>
+</div>
+</div>
+
+</div>
+<div class="sidebox-index">
+<div class="sidebox-a-index">
+<div class="sidebox-b-index">
+<div id="side-contact">
+<div><img src="common/images/top/h_side_contact.gif" alt="ご相談・お問い合わせ" width="236" height="34" /></div>
+<div><img src="common/images/top/ph_side_tel.gif" alt="お気軽にお問い合わせください！　イーくん、サポくんは、当社のオリジナルキャラクターです。「バナナ物語」の中で紹介していますので、ご覧ください。" width="236" height="210" /></div>
+<div id="btn-sidecontact"><a href="/contact/contact.php">お問い合わせ</a></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="pagetop"><a href="#wrap"><img src="./common/images/pagetop.gif" width="100" height="26" alt="ページTOP" /></a></div>
+</div>
+</div>
+<!-- #stage -->
+<div id="push">
+<hr />
+</div>
+</div>
+<!-- #wrap -->
+<!-- #footer -->
+<div id="footer">
+<div id="footer-inner">
+<ul id="fut">
+<li id="fut01"><a href="/terms.html" rel="alphabtn">利用規約</a></li>
+<li id="fut02"><a href="/privacy.html" rel="alphabtn">個人情報保護方針</a></li>
+<li id="fut03"><a href="/security.html" rel="alphabtn">セキュリティ基本方針</a></li>
+</ul>
+<div id="copyright"><img src="./common/images/copyright.gif" width="252" height="19" alt="(C) 2010 E-supportlink, Ltd All rights reserved." /></div>
+</div>
+</div>
+<!-- #footer -->
+<script type="text/javascript"><!--
+
+var version = 9;
+var width = "100%";
+var height = "249";
+
+var setupID = 'visual';
+var alt_html = '<a href="http://www.adobe.com/shockwave/download/index.cgi?Lang=English&P1_Prod_Version=ShockwaveFlash" target="_blank">Flash Playerをダウンロード</a>';
+var so = new SWFObject("./common/swf/top.swf?" + new Date().getTime() , "externalIndex", width, height, version );//-->
+so.addParam("quality", "high");
+so.addParam("allowFullScreen","true");
+so.addParam("menu", "false");
+so.addParam("scale", "noscale");
+so.addParam("salign", "lt");
+so.addParam("wmode", "opaque");
+so.write(setupID);
+</script>
+</body>
+</html>

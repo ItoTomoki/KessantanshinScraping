@@ -1,0 +1,142 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="鉄道,電気,通信,技術,NDK,リニューアル,セキュリティ,トランスロール,LRT,LONWORKS,設備診断,有線,有線放送,無線,無線放送,簡易無線,防災,災害,地震,台風,緊急放送,連絡,公民館,情報伝達" />
+    <meta name="viewport" content="width=1440" />
+    <title>日本電設工業株式会社</title>
+    <link rel="stylesheet" href="01common/css/common.css">
+    <link rel="stylesheet" href="01common/css/topPage.css">
+    <link rel="stylesheet" href="01common/css/jquery.bxslider.css">
+    <link rel="icon" href="01common/images/img/favicon.ico">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript" src="01common/js/jquery.bxslider.min.js"></script>
+    <script type="text/javascript" src="01common/js/common.js"></script>
+    <script type="text/javascript" src="01common/js/topPage.js"></script>
+</head>
+
+<body id="topPage">
+    <div id="top"></div>
+    <!-- ヘッダーメニュー -->
+    <div class="header-area"></div>
+    <div class="contents-area">
+        <div class="bxslider">
+            <ul class="bxslider">
+                <li><img src="01common/images/main/main1.jpg" alt="設計事例　北陸新幹線東京駅丸の内駅舎" /></li>
+                <li><img src="01common/images/main/main2.jpg" alt="設計事例　北陸新幹線" /></li>
+                <li><img src="01common/images/main/main3.jpg" alt="設計事例　エネルギー" /></li>
+                <li><img src="01common/images/main/main4.jpg" alt="設計事例　情報通信" /></li>
+                <li><img src="01common/images/main/main5.jpg" alt="NDK member" /></li>
+            </ul>
+            <div class="top-link"><a href="01project/">施工実績を見る ＞</a></div>
+        </div>
+<!--        <div class="announce">
+            このたびの平成28年熊本地震によりお亡くなりになられた方々のご冥福をお祈り申し上げますとともに、<br>
+            被災された方々に心よりお見舞い申し上げます。<br>
+            被災地の一日も早い復旧、復興を心よりお祈り申し上げます。
+        </div>
+-->
+        <div class="mid-area">
+            <h1>ニュースリリース</h1>
+            <ul class="sub-menu">
+                <li id="sub-all" class="active first">ニュースリリース一覧</li>
+                <li id="sub-ir">業績等に関するお知らせ</li>
+                <li id="sub-prj">施工物件に関するお知らせ</li>
+            </ul>
+            <hr>
+            <div class="mid-first-contents">
+                <!-- ↓　ニュースALL欄　↓ -->
+                <div class="info-all"></div>
+                <!-- ↑　ニュースALL欄　↑ -->
+                <!-- ↓　業績等に関するお知らせ　↓ -->
+                <div class="info-ir">
+                    <dl>
+                        <dt>2017.08.10<span>1</span></dt>
+                        <dd><a href="01investor/library/pdf/quarter/201708_shihankireport.pdf"  target="_blank"><img src="01common/images/img/icon-info2.png">2018年3月期（第76期）四半期報告書（第１四半期）［PDF/317KB］<span>></span></a></dd>
+                    </dl>
+                    <dl>
+                        <dt>2017.07.31<span>1</span></dt>
+                        <dd><a href="01investor/library/pdf/tanshin/2018/20170731_sihanki.pdf"  target="_blank"><img src="01common/images/img/icon-info2.png">2018年（平成30年）3月期　第１四半期決算短信〔日本基準〕（連結）［PDF/207KB］<span>></span></a></dd>
+                    </dl>
+                    <dl>
+                        <dt>2017.07.05<span>1</span></dt>
+                        <dd><a href="01news/pdf/2017/20170703_information.pdf"  target="_blank"><img src="01common/images/img/icon-info1.png">「建設会社における災害時の基礎的事業継続力」の認定を取得［PDF/162KB］<span>></span></a></dd>
+                    </dl>
+                    <dl>
+                        <dt>2017.06.30<span>1</span></dt>
+                        <dd><a href="01investor/library/pdf/quarter/201707_extrareport.pdf" target="_blank"><img src="01common/images/img/icon-info2.png">臨時報告書［PDF/84KB］<span>></span></a></dd>
+                    </dl>
+                    <dl>
+                        <dt>2017.06.26<span>2</span></dt>
+                        <dd><a href="01investor/library/pdf/report/2017_kessanhoukoku.pdf" target="_blank"><img src="01common/images/img/icon-info2.png">第75期決算報告書［PDF/714KB］<span>></span></a></dd>
+                    </dl>
+                </div>
+                <!-- ↑　業績等に関するお知らせ　↑ -->
+                <!-- ↓　施工物件に関するお知らせ　↓ -->
+                <div class="info-prj">
+                    <dl>
+                        <dt>2017.08.08</dt>
+                        <dd><a href="01news/pdf/2017/trainsuite.pdf" target="_blank"><img src="01common/images/img/icon-info1.png">「TRAIN SUITE 四季島」専用ラウンジ等新設工事［PDF/109KB］<span>></span></a></dd>
+                    </dl>
+                    <dl>
+                        <dt>2017.04.20</dt>
+                        <dd><a href="01news/pdf/2017/sanyojike.pdf" target="_blank"><img src="01common/images/img/icon-info1.png">山陽本線寺家駅新設電気設備工事［PDF/181KB］<span>></span></a></dd>
+                    </dl>
+                    <dl>
+                        <dt>2017.04.04</dt>
+                        <dd><a href="01news/pdf/2017/urawaeco.pdf" target="_blank"><img src="01common/images/img/icon-info1.png">浦和駅「エコステ」モデル駅整備工事［PDF/167KB］<span>></span></a></dd>
+                    </dl>
+                    <dl>
+                        <dt>2017.03.28</dt>
+                        <dd><a href="01news/pdf/2017/sekisyoline.pdf" target="_blank"><img src="01common/images/img/icon-info1.png">石勝線・根室線災害応急復旧工事（トマム・芽室間）［PDF/232KB］<span>></span></a></dd>
+                    </dl>
+                    <dl>
+                        <dt>2017.02.23</dt>
+                        <dd><a href="01news/pdf/2017/togoshiginza.pdf" target="_blank"><img src="01common/images/img/icon-info1.png">東急電鉄池上線戸越銀座駅リニューアル工事［PDF/133KB］<span>></span></a></dd>
+                    </dl>
+                </div>
+                <!-- ↑　施工物件に関するお知らせ　↑ -->
+                <p><a href="01news/">一覧へ →</a></p>
+            </div>
+            <div class="clear"></div>
+            <div class="mid-second-contents">
+                <h2>営業のご案内</h2>
+                <ul>
+                    <li><a href="01service_tech/sales/railroad/"><img src="01common/images/img/middle1.jpg" alt="鉄道電気工事" /></a></li>
+                    <li><a href="01service_tech/sales/general/"><img class="right" src="01common/images/img/middle2.jpg" alt="一般電気工事" /></a></li>
+                    <li><a href="01service_tech/sales/info/"><img src="01common/images/img/middle3.jpg" alt="情報通信工事" /></a></li>
+                </ul>
+            </div>
+            <div class="clear"></div>
+            <div class="btn-area">
+                <div class="btn-contents">
+                    <h2>PICK UP</h2>
+                    <div class="pick-up">
+                    <ul>
+                        <li><a href="01company/overview/">会社概要<img src="01common/images/img/icon-flow.png"></a></li>
+                        <li><a href="01investor/">株主・投資家の皆様<img src="01common/images/img/icon-flow.png"></a></li>
+                        <li class="right"><a href="01company/network/">事業所一覧<img src="01common/images/img/icon-flow.png"></a></li>
+                        <li><a href="01company/overview/"><img src="01common/images/img/bottom2.jpg" alt="会社概要" /></a></li>
+                        <li><a href="01investor/"><img src="01common/images/img/bottom3.jpg" alt="株主・投資家の皆様" /></a></li>
+                        <li class="right"><a href="01company/network/"><img src="01common/images/img/bottom1.jpg" alt="事業所一覧" /></a></li>
+                    </ul>
+                    <div class="clear"></div>
+                    <ul class="second">
+                        <li><a href="01project/">施工実績<img src="01common/images/img/icon-flow.png"></a></li>
+                        <li><a href="01jobs/academy/academy.html" target="_blank">中央学園紹介<img src="01common/images/img/icon-flow.png"></a></li>
+                        <li class="right"><a href="01jobs/" target="_blank">採用情報<img src="01common/images/img/icon-flow.png"></a></li>
+                        <li><a href="01project/"><img src="01common/images/img/bottom4.jpg" alt="施工実績" /></a></li>
+                        <li><a href="01jobs/academy/academy.html" target="_blank"><img src="01common/images/img/bottom5.jpg" alt="中央学園紹介" border="0" /></a></li>
+                        <li class="right"><a href="01jobs/" target="_blank"><img src="01common/images/img/bottom6.jpg" alt="採用情報" /></a></li>
+                    </ul>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <!-- フッターメニュー -->
+        <div class="footer"></div>
+    </div>
+</body>
+</html>

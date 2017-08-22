@@ -1,0 +1,561 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>スポーツクラブ・スポーツジムなら【メガロス】</title>
+<meta name="description" content="スポーツクラブをお探しなら、野村不動産ライフ＆スポーツが運営するメガロスへ。スポーツクラブやス  ポーツジムとしてのご利⽤はもちろん、スイミングやテニス、ゴルフ、キッズスクール、ホットヨガ施設な  どをご⽤意しております。その他、気軽に運動を楽しめる効果的なプログラムが盛りだくさん。随時実施の  体験、⾒学会へ、是⾮お越しください。">
+<meta name="keywords" content="スポーツクラブ,スポーツジム,フィットネス,フィットネスクラブ,ジム,">
+<link rel="canonical" href="http://www.megalos.co.jp/">
+<link href="contents/css/default.css" rel="stylesheet" media="screen,print">
+<link href="contents/css/common.css" rel="stylesheet" media="screen,print">
+
+<link href="contents/css/layout_l.css" rel="stylesheet" media="screen and (min-width:1021px),print">
+<link href="contents/css/layout_m.css" rel="stylesheet" media="screen and (min-width:680px) and (max-width:1020px),print">
+<link href="contents/css/layout_s.css" rel="stylesheet" media="screen and (max-width:679px)">
+
+<link href="contents/css/index/style_l.css" rel="stylesheet"  media="screen and (min-width:1021px),print">
+<link href="contents/css/index/style_m.css" rel="stylesheet" media="screen and (min-width:680px) and (max-width:1020px),print">
+<link href="contents/css/index/style_s.css" rel="stylesheet" media="screen and (max-width:679px)">
+
+<link href="contents/css/jquery.bxslider.css" rel="stylesheet" media="screen,print">
+<link href="contents/css/index/ui.tabs.css" rel="stylesheet" media="screen,print">
+<link href="contents/css/ipadonly.css" rel="stylesheet" media="screen,print">
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<link href="contents/css/layout_l.css" rel="stylesheet" media="all">
+<link href="contents/css/index/style_l.css" rel="stylesheet" media="all">
+<![endif]-->
+<script src="contents/js/jquery-1.8.1.js" type="text/javascript"></script>
+<script src="contents/js/browser_select.js" type="text/javascript"></script>
+<script src="contents/js/common.js" type="text/javascript"></script>
+<script src="contents/js/jquery-1.8.1.js" type="text/javascript"></script>
+<script src="contents/js/ui.core.js" type="text/javascript"></script>
+<script src="contents/js/ui.tabs.js" type="text/javascript"></script>
+<script src="contents/js/only_index.js" type="text/javascript"></script>
+<script src="contents/js/jquery.bxslider.js" type="text/javascript"></script>
+<script src="contents/js/matchMedia.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(function() {
+
+    function setSlider() {
+        // スライド設定
+    	if ($.browser.msie && $.browser.version < 9) {
+    		$(document).ready(function(){
+    			var slideNum = $('.slide').size();
+    		  $('.slider').bxSlider({
+    			  auto: true,
+    			  slideWidth: 980,
+    			  slideHeight: 380,
+    			  minSlides: 1,
+    			  maxSlides: 3,
+    			  moveSlides: 1,
+    			  slideMargin: 0,
+    			  pagerSelector: '.pagePoint',
+    			  nextSelector: '.rSlide .rbtn',
+    			  prevSelector: '.lSlide .lbtn',
+    			  onSliderLoad:function(currentIndex){
+    					$('.slide').removeClass('active');
+    					$('.slider > div:nth-child(3n-1)').addClass('active');
+    				},
+    				onSlideBefore: function($slideElement, oldIndex, newIndex){
+    					var new_i = newIndex%3 - 1;
+    					var nth = (new_i < 0) ? '3n-1' : '3n'+new_i;
+    					$('.slide').removeClass('active');
+    					$('.slider > div:nth-child('+nth+')').addClass('active');
+    				},
+    		  });
+    	});
+    	} else if (window.matchMedia( '(min-width: 1021px)' ).matches) {
+    		$(document).ready(function(){
+    			var slideNum = $('.slide').size();
+    		  $('.slider').bxSlider({
+    			  auto: true,
+    			  slideWidth: 980,
+    			  slideHeight: 380,
+    			  minSlides: 1,
+    			  maxSlides: 3,
+    			  moveSlides: 1,
+    			  slideMargin: 0,
+    			  pagerSelector: '.pagePoint',
+    			  nextSelector: '.rSlide .rbtn',
+    			  prevSelector: '.lSlide .lbtn',
+    			  onSliderLoad:function(currentIndex){
+    					$('.slide').removeClass('active');
+    					$('.slider > div:nth-child(3n-1)').addClass('active');
+    				},
+    				onSlideBefore: function($slideElement, oldIndex, newIndex){
+    					var new_i = newIndex%3 - 1;
+    					var nth = (new_i < 0) ? '3n-1' : '3n'+new_i;
+    					$('.slide').removeClass('active');
+    					$('.slider > div:nth-child('+nth+')').addClass('active');
+    				},
+    		  });
+    	});
+    	} else {
+    		$(document).ready(function(){
+    			$('.slider').bxSlider({
+    				auto: true,
+    				minSlides: 1,
+    				maxSlides: 1,
+    				moveSlides: 1,
+    				slideMargin: 0,
+    				startSlide: 1,
+    			});
+    		});
+    	};
+    }
+
+    $.ajax({
+        type: 'GET',
+        url: '/megalos_wp/main_images',
+        cache : false,
+        dataType: 'html',
+        success: function(data) {
+            // 画像HTML読込
+            $('#sliderPlace').append(data);
+            //if(console&&console.log) console.log(data);
+
+            setSlider();
+        },
+        error: function() {
+            // when error then set default images. (2015/10 ver)
+            var html = '<div class="slide"><a href="http://www.megalos.co.jp/jr_olympic/jr_olympic.html" target="_blank"><img src="contents/images/index/top_bunner_jro.jpg" alt="第38回全国JOCジュニアオリンピックカップ優勝"></a></div>';
+            html    += '<div class="slide"><img src="contents/images/index/topbanner4.jpg" alt="まるっと磨けるスポーツクラブメガロスキャンペーン"></div>';
+            html    += '<div class="slide"><a href="http://www.megalos.co.jp/24_hachiouji/" target="_blank"><img src="contents/images/index/top_bunner3.jpg" alt="メガロス24京王八王子駅前店9/16グランドオープン"></a></div>';
+            html    += '<div class="slide"><a href="http://www.megalos.co.jp/blog/" target="_blank"><img src="contents/images/index/slide02.jpg" alt="カラダに効くティップス"></a></div>';
+            $('#sliderPlace').append(html);
+
+            setSlider();
+
+        }
+    });
+
+    $.ajax({
+        type: 'GET',
+        url: '/megalos_wp/main_informations',
+        cache : false,
+        dataType: 'html',
+        success: function(data) {
+            $('#mainInformationSpace').append(data);
+            // if(console&&console.log) console.log(data);
+        },
+        error: function() {
+            $('#mainInformationSpace').append('<ul><li>お知らせの取得に失敗しました。</li></ul>');
+        }
+    });
+
+});
+</script>
+
+
+<link rel="apple-touch-icon" href="icon/apple-touch-icon.png" />
+<link rel="apple-touch-icon" sizes="57x57" href="icon/apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="icon/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon" sizes="76x76" href="icon/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="icon/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon" sizes="120x120" href="icon/apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="icon/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon" sizes="152x152" href="icon/apple-touch-icon-152x152.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon-180x180.png" />
+
+</head>
+
+<body>
+<div class="hline"></div>
+<header id="header">
+<div class="clearFix" id="headerInner">
+<div id="headerLogo" class="clearFix">
+<p id="logo-mark"><a href="http://www.megalos.co.jp"><img src="contents/images/logo.gif" alt="スポーツクラブ・スポーツジムのメガロストップへ" width="181" height="51"></a></p>
+
+<div id="tenpoInfo" class="clearFix">
+<h1 class="hover main_copy"><a href="http://www.megalos.co.jp" class="megalos">「顧客満足を感動と喜びに変える」<span>ココロもカラダも、美しく、強く。スポーツクラブのメガロス。</span></a></h1>
+</div>
+</div><!--/#headerLogo-->
+
+<div id="headerLink" class="hover clearfix">
+	<ul>
+		<li><a href="contents/inquiry/">お問い合わせ</a></li>
+		<li><a href="http://www.megalos.co.jp/recruit/">採用情報</a></li>
+	</ul>
+</div><!--/#headerLink-->
+</div>
+</header>
+
+<div class="slideArea">
+	<div class="slideBody">
+		<div id="sliderPlace" class="slider">
+<!--
+	<div class="slide"><a href="http://www.megalos.co.jp/jr_olympic/jr_olympic.html" target="_blank"><img src="contents/images/index/top_bunner_jro.jpg" alt="第38回全国JOCジュニアオリンピックカップ優勝"></a></div>
+	<div class="slide"><img src="contents/images/index/topbanner4.jpg" alt="まるっと磨けるスポーツクラブメガロスキャンペーン"></div>
+	<div class="slide"><a href="http://www.megalos.co.jp/24_hachiouji/" target="_blank"><img src="contents/images/index/top_bunner3.jpg" alt="メガロス24京王八王子駅前店9/16グランドオープン"></a></div>
+	<div class="slide"><a href="http://www.megalos.co.jp/blog/" target="_blank"><img src="contents/images/index/slide02.jpg" alt="カラダに効くティップス"></a></div>
+-->
+		</div>
+	</div>
+	<div class="lSlide"><div class="lbtn"></div></div>
+	<div class="rSlide"><div class="rbtn"></div></div>
+	<div class="pagePoint"></div>
+</div>
+</div>
+<!--
+<div class="kumamoto">このたびの「平成28年（2016年）熊本地震」により、 被災された皆様に心よりお見舞い申し上げます。</div>
+-->
+<div id="youtubeArea">
+	<!--
+	<div id="movieInfo">
+		<p class="movieTitle"><img src="contents/images/index/img_movie01.png" alt="メガロスルフレ恵比寿 リニューアルオープン"></p>
+		<p class="movieLink"><a href="http://www.megalos.co.jp/ebisu_reflet/"><img src="contents/images/index/img_movie02.png" alt="メガロスルフレ恵比寿サイトはこちら"></a></p>
+	</div>
+	<div id="movieBox">
+		<div id="player" class="spmask"></div>
+		<div id="playerSP" class="sponly"><iframe width="290" height="163" src="https://www.youtube.com/embed/daQl7IY4ERc?loop=1&rel=0&autoplay=1&wmode=opaque" frameborder="0" allowfullscreen></iframe></div>
+	</div>
+	-->
+	<div id="movieInfo">
+		<p class="ubound">「美しく、強く。」MOVIE<br class="spbr"><!--「<a href="contents/program/hiit/">HIITプログラム</a>」導入！--></p>
+			<!--
+		<p class="movieTitle"><img src="contents/images/index/img_movie01.png" alt="メガロスルフレ恵比寿 リニューアルオープン"></p>
+		<p class="movieLink"><a href="http://www.megalos.co.jp/ebisu_reflet/"><img src="contents/images/index/img_movie02.png" alt="メガロスルフレ恵比寿サイトはこちら"></a></p>
+		-->
+	</div>
+	<div id="movieBox">
+		<div id="player" class="spmask"></div>
+		<div id="playerSP" class="sponly"><iframe src="https://www.youtube.com/embed/tvD6XxoKgbw?loop=1&rel=0&autoplay=0&wmode=opaque" frameborder="0" allowfullscreen></iframe></div>
+		<!--
+		<p class="storeLink"><span>導入店舗</span>　<a href="http://www.megalos.co.jp/machida/">町田店サイトはこちら＞＞</a><br>　　　　　<a href="http://www.megalos.co.jp/tabata/">田端店サイトはこちら＞＞</a></p>
+		-->
+	</div>
+</div>
+
+<div id="contentsArea">
+<div class="ttlWrapMap">
+<div class="area">
+	<div class="box">
+    <img src="contents/images/index/arrow_01.png" width="33" height="15" class="arrow_01" alt="お近くの店舗を探す">
+<h2><img src="contents/images/index/h2_map.png" alt="お近くの店舗を探す"></h2>
+		<div class="storeAll">
+			<a href="contents/information/store.html"><img src="contents/images/index/map_list08_off.gif" alt="お近くの店舗を探す"></a>
+		</div>
+	</div>
+</div>
+</div>
+
+
+
+<div id="storeMapArea">
+<div id="ui-tab">
+<ul>
+	<li class="tokyo"><a href="#maptokyo"><span>関東圏</span></a></li>
+	<li class="kanagawa"><a href="#mapkanagawa"><span>東海</span></a></li>
+	<!--
+	<li class="chiba"><a href="#mapchiba"><span>千葉</span></a></li>
+	<li class="saitama"><a href="#mapsaitama"><span>埼玉</span></a></li>
+	<li class="shizuoka"><a href="#mapshizuoka"><span>静岡</span></a></li>
+	<li class="aichi"><a href="#mapaichi"><span>愛知</span></a></li>
+	<li class="dayos"><a href="#mapdayos"><span>dayos</span></a></li>
+	-->
+</ul>
+<!-- マップの範囲がおかしい -->
+<div class="mapList">
+	<div id="maptokyo">
+	<img src="contents/images/index/map_kanto.png" alt="storemap_tokyo" usemap="#kanto">
+	<map name="kanto" id="kanto">
+		<area shape="rect" coords="101,67,208,93" href="http://www.megalos.co.jp/kodaira/" alt="">
+		<area shape="rect" coords="49,155,121,181" href="http://www.megalos.co.jp/hachiouji/" alt="">
+		<area shape="rect" coords="138,136,209,162" href="http://www.megalos.co.jp/tachikawa_kita/" alt="">
+		<area shape="rect" coords="51,223,156,265" href="http://www.megalos.co.jp/24_hachiouji/" alt="">
+		<area shape="rect" coords="55,344,127,371" href="http://www.megalos.co.jp/sagamiono/" alt="">
+		<area shape="rect" coords="203,218,308,260" href="http://www.megalos.co.jp/chofu/" alt="">
+		<area shape="rect" coords="244,155,324,182" href="http://www.megalos.co.jp/musashi/" alt="">
+		<area shape="rect" coords="279,102,371,144" href="http://www.megalos.co.jp/mitaka/" alt="">
+		<area shape="rect" coords="220,297,291,323" href="http://www.megalos.co.jp/machida/" alt="">
+		<area shape="rect" coords="328,226,398,254" href="http://www.megalos.co.jp/kichijoji/" alt="">
+		<area shape="rect" coords="55,457,127,486" href="http://www.megalos.co.jp/yamato/" alt="">
+		<area shape="rect" coords="150,460,250,486" href="http://www.megalos.co.jp/yokohama/" alt="">
+		<area shape="rect" coords="354,40,425,68" href="http://www.megalos.co.jp/urawa/" alt="">
+		<area shape="rect" coords="378,88,455,126" href="http://www.megalos.co.jp/24_narimasu/" alt="">
+		<area shape="rect" coords="408,252,513,295" href="http://www.megalos.co.jp/24_hamadayama/" alt="">
+		<area shape="rect" coords="533,119,639,161" href="http://www.megalos.co.jp/tabata/" alt="">
+		<area shape="rect" coords="579,2,637,29" href="http://www.megalos.co.jp/souka/" alt="">
+		<area shape="rect" coords="272,365,344,392" href="http://www.megalos.co.jp/saginuma/" alt="">
+		<area shape="rect" coords="650,237,721,263" href="http://www.megalos.co.jp/ichigaya/" alt="">
+		<area shape="rect" coords="734,25,839,68" href="http://www.megalos.co.jp/24_kitaayase/" alt="">
+		<area shape="rect" coords="264,427,337,453" href="http://www.megalos.co.jp/ichigao/" alt="">
+		<area shape="rect" coords="359,349,465,390" href="http://www.megalos.co.jp/24_sakura/" alt="">
+		<area shape="rect" coords="354,457,424,484" href="http://www.megalos.co.jp/tsunashima/" alt="">
+		<area shape="rect" coords="80,567,185,611" href="http://www.megalos.co.jp/24_idogaya/" alt="">
+		<area shape="rect" coords="173,619,245,648" href="http://www.megalos.co.jp/kaminagaya/" alt="">
+		<area shape="rect" coords="360,501,431,528" href="http://www.megalos.co.jp/kanagawa/" alt="">
+		<area shape="rect" coords="856,43,926,69" href="http://www.megalos.co.jp/kashiwa/" alt="">
+		<area shape="rect" coords="870,137,940,163" href="http://www.megalos.co.jp/katsushika/" alt="">
+		<area shape="rect" coords="740,223,842,264" href="http://www.megalos.co.jp/kinshicho/" alt="">
+		<area shape="rect" coords="897,251,984,293" href="http://www.megalos.co.jp/motoyawata/" alt="">
+		<area shape="rect" coords="565,469,637,497" href="http://www.megalos.co.jp/nakanobu/" alt="">
+		<area shape="rect" coords="487,367,597,394" href="http://www.megalos.co.jp/ebisu/" alt="">
+		<area shape="rect" coords="487,397,597,425" href="http://www.megalos.co.jp/ebisu_reflet/" alt="">
+        
+        <area shape="rect" coords="409,135,494,173" href="http://www.megalos.co.jp/24_tokiwadai/" alt="">
+		<area shape="rect" coords="642,28,730,66" href="http://www.megalos.co.jp/24_nishiarai/" alt="">
+	    <area shape="rect" coords="332,561,451,589" href="http://www.megalos.co.jp/minatomirai_reflet/" alt="">
+        <area shape="rect" coords="722,355,792,410" href="http://www.megalos.co.jp/shirokanedai/" alt="">
+        
+        <area shape="rect" coords="570,236,628,292" href="http://www.megalos.co.jp/azabujuban_reflet/" alt="">
+        <area shape="rect" coords="653,469,985,644" href="http://www.megalos.co.jp/azabujuban_reflet/" alt="">
+	</map>
+	</div>
+	<div id="mapkanagawa">
+	<img src="contents/images/index/map_tokai.png" alt="storemap_kanagawa" usemap="#tokai">
+	<map name="tokai" id="tokai">
+		<area shape="rect" coords="334,219,437,261" href="http://www.megalos.co.jp/chikusa/" alt="">
+		<area shape="rect" coords="619,178,707,206" href="http://www.megalos.co.jp/hamamatsu/" alt="">
+        <area shape="rect" coords="113,56,206,149" href="http://www.megalos.co.jp/24_nayabashi/" alt="">
+        <area shape="rect" coords="10,419,341,590" href="http://www.megalos.co.jp/24_nayabashi/" alt="">
+    </map>
+	</div>
+</div>
+</div>
+</div>
+<div class="storeMapSp">
+	<div class="ttlWrapSp">
+	<div class="area">
+		<div class="box">
+		<h2><img src="contents/images/index/h2_sp.png" alt="メガロスのお近くの店舗を探す"></h2>
+		</div>
+	</div>
+	</div>
+	<dl>
+		<dt>東京</dt>
+		<dd><ul>
+			<li><a href="http://www.megalos.co.jp/ebisu/">ゼロプラス恵比寿店</a></li>
+			<li><a href="http://www.megalos.co.jp/ebisu_reflet/">ルフレ恵比寿店（女性専用）</a></li>
+            <li><a href="http://www.megalos.co.jp/azabujuban_reflet/">ルフレ麻布十番店（女性専用）</a></li>
+			<li><a href="http://www.megalos.co.jp/shirokanedai/">白金台店 2017年10月オープン予定</a></li>
+            <li><a href="http://www.megalos.co.jp/ichigaya/">市ヶ谷店</a></li>
+			<li><a href="http://www.megalos.co.jp/tabata/">田端（メガロスクロス24）店</a></li>
+			<li><a href="http://www.megalos.co.jp/kinshicho/">錦糸町（メガロスクロス24）店</a></li>
+			<li><a href="http://www.megalos.co.jp/24_hamadayama/">浜田山（メガロス24）店</a></li>
+			<li><a href="http://www.megalos.co.jp/24_sakura/">桜新町（メガロス24）店</a></li>
+			<li><a href="http://www.megalos.co.jp/24_narimasu/">成増（メガロス24）店</a></li>
+			<li><a href="http://www.megalos.co.jp/kichijoji/">吉祥寺店</a></li>
+			<li><a href="http://www.megalos.co.jp/mitaka/">三鷹（メガロスクロス24）店</a></li>
+			<li><a href="http://www.megalos.co.jp/musashi/">武蔵小金井店</a></li>
+			<li><a href="http://www.megalos.co.jp/kodaira/">小平テニススクール</a></li>
+			<li><a href="http://www.megalos.co.jp/tachikawa_kita/">立川店</a></li>
+			<li><a href="http://www.megalos.co.jp/hachiouji/">八王子店</a></li>
+			<li><a href="http://www.megalos.co.jp/24_hachiouji/">京王八王子（メガロス24）店</a></li>
+			<li><a href="http://www.megalos.co.jp/chofu/">調布（メガロスクロス24）店</a></li>
+			<li><a href="http://www.megalos.co.jp/machida/">町田店</a></li>
+			<li><a href="http://www.megalos.co.jp/katsushika/">葛飾店</a></li>
+			<li><a href="http://www.megalos.co.jp/24_kitaayase/">北綾瀬（メガロス24）店</a></li>
+			<li><a href="http://www.megalos.co.jp/nakanobu/">中延店</a></li>
+            
+            <li><a href="http://www.megalos.co.jp/24_tokiwadai/">ときわ台（メガロス24）店</a></li>
+            <li><a href="http://www.megalos.co.jp/24_nishiarai/">西新井（メガロス24）店</a></li>
+		</ul></dd>
+		<dt>神奈川</dt>
+		<dd><ul>
+			<li><a href="http://www.megalos.co.jp/yokohama/">横浜天王町店</a></li>
+			<li><a href="http://www.megalos.co.jp/24_idogaya/">井土ヶ谷（メガロス24）店</a></li>
+			<li><a href="http://www.megalos.co.jp/kaminagaya/">上永谷店</a></li>
+			<li><a href="http://www.megalos.co.jp/kanagawa/">神奈川店</a></li>
+			<li><a href="http://www.megalos.co.jp/tsunashima/">綱島店</a></li>
+			<li><a href="http://www.megalos.co.jp/ichigao/">市ケ尾店</a></li>
+			<li><a href="http://www.megalos.co.jp/saginuma/">鷺沼店</a></li>
+			<li><a href="http://www.megalos.co.jp/sagamiono/">相模大野店</a></li>
+			<li><a href="http://www.megalos.co.jp/yamato/">大和店</a></li>
+			<li><a href="http://www.megalos.co.jp/minatomirai_reflet/">ルフレみなとみらい店（女性専用）</a></li>
+		</ul></dd>
+		<dt>千葉</dt>
+		<dd><ul>
+			<li><a href="http://www.megalos.co.jp/kashiwa/">柏店</a></li>
+			<li><a href="http://www.megalos.co.jp/motoyawata/">本八幡（メガロスクロス24）店</a></li>
+		</ul></dd>
+		<dt>埼玉</dt>
+		<dd><ul>
+			<li><a href="http://www.megalos.co.jp/souka/">草加店</a></li>
+			<li><a href="http://www.megalos.co.jp/urawa/">浦和パルコ店</a></li>
+		</ul></dd>
+		<dt>静岡</dt>
+		<dd><ul>
+			<li><a href="http://www.megalos.co.jp/hamamatsu/">浜松市野店</a></li>
+		</ul></dd>
+		<dt>愛知</dt>
+		<dd><ul>
+			<li><a href="http://www.megalos.co.jp/24_nayabashi/">メガロス24 テラッセ納屋橋 2017年10月オープン予定</a></li>
+            <li><a href="http://www.megalos.co.jp/chikusa/">千種（メガロスクロス24）店</a></li>
+		</ul></dd>
+	</dl>
+	<p class="mapAllSp"><a href="contents/information/store.html">店舗一覧</a></p>
+</div>
+
+<div id="bnrArea" class="hover">
+<div id="bnrBox" class="clearfix">
+<ul>
+
+	<li class="bnr_pc_sp"><a href="contents/program/"><img src="contents/images/index/bnr02.jpg" alt="メガロス新プログラム"></a></li>
+    <li class="bnr_pc_sp"><a href="http://www.megalos.co.jp/contents/personal/index.html"><img src="contents/images/index/bnr07.jpg" alt="パーソナルトレーニング"></a></li>
+    <li class="bnr_pc_sp Last"><a href="http://www.megalos.co.jp/school/" target="_blank"><img src="contents/images/index/bnr05.jpg" alt="キッズスクール"></a></li>
+	<li class="bnr_pc_sp"><a href="http://www.megalos.co.jp/contents/re_soda/"><img src="contents/images/index/bnr09.jpg" alt="リソーダ"></a></li>
+    <li class="bnr_pc_sp"><a href="http://www.megalos.co.jp/contents/premium_cp1708/index.html"><img src="contents/images/index/bnr10.jpg" alt="プレミアムキャンペーン"></a></li>
+<!--<li class="bnr_pc_sp"><a href="contents/Introduction_cp/"><img src="contents/images/index/bnr08.jpg" alt="紹介キャンペーン"></a></li>-->
+   	<li class="bnr_pc_sp Last"><a href="http://www.megalos.co.jp/school/tanki_school.html" target="_blank"><img src="contents/images/index/bnr06.jpg" alt="「短期教室」全店イベント"></a></li>
+    
+    
+   
+
+	<li class="bnr_tab"><a href="contents/program/"><img src="contents/images/index/bnr02_tab.jpg" alt="メガロス新プログラム"></a></li>
+    <li class="bnr_tab"><a href="http://www.megalos.co.jp/contents/personal/index.html"><img src="contents/images/index/bnr07_tab.jpg" alt="パーソナルトレーニング"></a></li>
+    <li class="bnr_tab"><a href="http://www.megalos.co.jp/school/" target="_blank"><img src="contents/images/index/bnr05_tab.jpg" alt="キッズスクール"></a></li>
+    <li class="bnr_tab"><a href="http://www.megalos.co.jp/contents/re_soda/"><img src="contents/images/index/bnr09_tab.jpg" alt="リソーダ"></a></li>
+    <li class="bnr_tab"><a href="http://www.megalos.co.jp/contents/premium_cp1708/index.html"><img src="contents/images/index/bnr10_tab.jpg" alt="プレミアムキャンペーン"></a></li>
+<!--<li class="bnr_tab"><a href="contents/Introduction_cp/"><img src="contents/images/index/bnr08_tab.jpg" alt="紹介キャンペーン"></a></li>-->
+   	<li class="bnr_tabLast"><a href="http://www.megalos.co.jp/school/tanki_school.html" target="_blank"><img src="contents/images/index/bnr06_tab.jpg" alt="「短期教室」全店イベント"></a></li>
+    
+    
+	<li class="newsInfo">
+		<h2>メガロスからのお知らせ</h2>
+		<!--
+		<div class="newsBox">
+		<ul>
+			<li><span class="date">2015.11.19</span>　<span class="new">NEW</span><br><a href="http://www.megalos.co.jp/pdf/2015-16%E5%B9%B4%E6%9C%AB%E5%B9%B4%E5%A7%8B%E4%BC%91%E9%A4%A8%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6.pdf" target="_blank">年末年始休館についてのお知らせ</a></li>
+			<li><span class="date">2015.11.06</span>　<span class="new">NEW</span><br><a href="http://www.megalos.co.jp/paraathlete/">メガロスはパラリンピック日本代表を目指すパラアスリートを応援します。詳しくはこちら</a></li>
+			<li><span class="date">2015.11.01</span>　<span class="new">NEW</span><br><a href="http://www.megalos.co.jp/contents/program/">新プログラムが始まりました！ 詳しくはこちら</a></li>
+			<li><span class="date">2015.09.30</span>　<span class="new">NEW</span><br><a href="http://www.megalos.co.jp/">メガロスサイトがリニュアルしました！</a></li>
+			<li><span class="date">2015.09.30</span>　<span class="new">NEW</span><br><a href="http://www.megalos.co.jp/jr_olympic/jr_olympic.html">メガロス町田所属「柏木澪音（かしわぎ　れおん）」選手第38回全国JOCジュニアオリンピック優勝しました!!</a></li>
+			<li><span class="date">2015.09.16</span>　<span class="new">NEW</span><br><a href="http://www.megalos.co.jp/24_hachiouji/">「デイオス24 京王八王子駅前」9月16日オープンしました。</a></li>
+		</ul>
+		</div>
+		-->
+		<div id="mainInformationSpace" class="newsBox">
+		</div>
+		</li>
+</ul>
+</div>
+</div>
+
+<div id="advertArea">
+<div id="advertBox">
+	<div class="companyService clearfix">
+	<ul>
+		<li class="red"><a href="contents/houjin/"><img src="contents/images/index/advert_1.jpg" alt="法人会員のご案内"></a></li>
+		<li class="blue"><a href="contents/business/"><img src="contents/images/index/advert_4.jpg" alt="スポーツクラブ事業のご案内"></a></li>
+		<li class="banner"><a href="http://www.megalos.co.jp/recruit/"><img src="contents/images/index/advert_2.jpg" alt="採用情報"></a></li>
+	</ul>
+	</div>
+	<div class="companyInfo clearfix">
+	<ul>
+		<li class="green"><a href="http://www.megalos.co.jp/corporate/" target="_blank"><img src="contents/images/index/advert_3.jpg" alt="企業情報"></a></li>
+		<li class="gold"><a href="contents/goldage/"><img src="contents/images/index/advert_6.jpg" alt="ゴールドエイジのために"></a></li>
+		<li class="purple"><a href="http://www.megalos.co.jp/mega/for_instructor/"><img src="contents/images/index/advert_5.jpg" alt="インストラクター向け情報"></a></li>
+	</ul>
+	</div>
+</div>
+</div>
+
+</div><!--/#contentsArea-->
+
+<div id="pageTopArea">
+	<div id="pageTopBox">
+		<div class="page-top"><a href="#header"><img src="contents/images/pagetop.gif" width="70" height="70" alt="ページトップへ"></a></div>
+	</div>
+</div>
+
+<footer id="footer">
+	<ul class="clearFix inner">
+		<li><a href=" http://www.megalos.co.jp/ ">トップ</a></li>
+		<li><a href="/contents/information/store.html">店舗一覧</a></li>
+		<li><a href="/contents/houjin/">法人会員のご案内</a></li>
+		<li><a href="http://www.megalos.co.jp/corporate/" target="_blank">企業情報</a></li>
+		<li><a href="/contents/business/">スポーツクラブ事業のご案内</a></li>
+		<li><a href="http://www.megalos.co.jp/mega/for_instructor/">インストラクター向け情報</a></li>
+		<li><a href="http://www.megalos.co.jp/recruit/">採用情報</a></li>
+		<li><a href="/contents/event/">全店イベント</a></li>
+		<li><a href="/contents/information/faq.html">よくあるご質問</a></li>
+		<li><a href="/contents/inquiry/">お問い合わせ</a></li>
+		<li><a href="/contents/information/sitepolicy.html">サイトポリシー</a></li>
+		<li><a href="/contents/information/sns_policy.html">ソーシャルメディアポリシー</a></li>
+		<li><a href="/contents/information/privacy.html">個人情報保護方針</a></li>
+		<li><a href="http://www.megalos.co.jp/corporate/specific/">特定個人情報保護方針</a></li>
+		<li><a href="http://www.megalos.co.jp/corporate/anti-bribery/">外国公務員贈賄防止基本方針</a></li>
+		<li><a href="/contents/information/kaisoku.html">クラブ会員会則</a></li>
+		<li><a href="/contents/information/qualification.html">施設利用資格のご案内</a></li>
+		<li><a href="http://www.megalos.co.jp/hotyoga/">ホットヨーガ</a></li>
+		<li><a href="http://www.megalos.co.jp/school/kids/">キッズスクール</a></li>
+<li><a href="http://www.megalos.co.jp/dayos24/">メガロス24</a></li>
+
+
+	</ul>
+	<p id="copy" class="inner">&copy; Nomura Real Estate Life & Sports Co., Ltd. All Rights Reserved.</p>	
+</footer>
+
+<script>
+var tag = document.createElement('script');
+tag.src = "https://www.youtube.com/iframe_api";
+var firstScriptTag = document.getElementsByTagName('script')[0];
+firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+ 
+var player;
+var playerSP;
+var frameW;
+var frameH;
+function onYouTubeIframeAPIReady()
+{
+
+	player = new YT.Player('player',
+	{
+//		height: '225',
+//		width: '400',
+		videoId: 'tvD6XxoKgbw',
+		wmode: 'opaque',
+		playerVars:{
+		'loop': '1',
+		'playlist': 'tvD6XxoKgbw',
+		'rel': '0',
+		'showinfo': '1',
+		'autoplay': '0',
+		'color': 'white',
+	},
+events: {
+'onReady': onPlayerReady,
+'onStateChange': onPlayerStateChange
+}
+});
+}
+function onPlayerReady(event) {
+//event.target.playVideo();
+event.target.mute();
+}
+function onPlayerStateChange(event) {
+}
+</script>
+
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-TXZFD4"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TXZFD4');</script>
+<!-- End Google Tag Manager -->
+
+
+<!-- Yahoo Tag Manager -->
+<script type="text/javascript">
+  (function () {
+    var tagjs = document.createElement("script");
+    var s = document.getElementsByTagName("script")[0];
+    tagjs.async = true;
+    tagjs.src = "//s.yjtag.jp/tag.js#site=DngnHgo";
+    s.parentNode.insertBefore(tagjs, s);
+  }());
+</script>
+<noscript>
+  <iframe src="//b.yjtag.jp/iframe?c=DngnHgo" width="1" height="1" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+</noscript>
+<!-- End Yahoo Tag Manager -->
+
+</body>
+</html>

@@ -1,0 +1,379 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+<head>
+<!-- global addsource head top -->
+<meta charset="utf-8">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<script type="text/javascript">
+if((navigator.userAgent.indexOf('iPhone') > 0) || navigator.userAgent.indexOf('iPod') > 0 || (navigator.userAgent.indexOf('Android') > 0 && navigator.userAgent.indexOf('Mobile') > 0)){
+	document.write('<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">');
+} else {
+	document.write('<meta name="viewport" content="width=991">');
+}
+</script>
+<meta name="keywords" content="パナホーム,panahome,リフォーム,住宅,土地活用,分譲,ハウスメーカー,パナソニック,スマートハウス">
+<meta name="description" content="パナホーム株式会社の総合情報サイトです。戸建住宅、分譲住宅・宅地、リフォーム、土地活用・アパート経営、医療・介護事業などに役立つ、多彩な情報をご案内しています。">
+<title>パナホーム株式会社 | 住宅・不動産・リフォーム・土地活用（ハウスメーカー）</title>
+<style type="text/css"><!--
+@import url(/home/common/css/site.css);
+ --></style>
+<link rel="stylesheet" href="/global2/css/print.css" media="print">
+<script src="/home/common/js/site.js"></script>
+
+<!-- CSS -->
+<link rel="stylesheet" type="text/css" href="/home/css/site.css" />
+<!-- Javascript -->
+<script type="text/javascript" src="/home/js/site.js"></script>
+<!-- matchHeight -->
+<script type="text/javascript" src="/home/js/jquery.matchHeight.js"></script>
+<script type="text/javascript">
+	$(function() {
+	    $('.top_news_2col').matchHeight();
+	});
+</script>
+<!-- bxslider -->
+<script type="text/javascript" src="/home/js/jquery.bxslider.js"></script>
+<link rel="stylesheet" type="text/css" href="/home/css/jquery.bxslider.css" />
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('#bt').bxSlider({
+			auto: false,
+			infiniteLoop: true,
+			pause: 5000,
+			speed: 500,
+			pager: true,
+			minSlides: 8,
+			maxSlides: 8,
+			moveSlides: 1,
+			slideWidth: 150,
+			pager: false
+		});
+	});
+</script>
+<!-- area_map -->
+<script type="text/javascript">
+	$(function() {
+		jQuery.preloadImages = function(){
+			for(var i = 0; i < arguments.length; i++){
+				jQuery("<img>").attr("src", arguments[i]);
+			}
+		};
+		$.preloadImages("/home/img/area_map_shuto.png","/home/img/area_map_kyushu.png","/home/img/area_map_kinki.png","/home/img/area_map_east.png","/home/img/area_map_chugokusikoku.png","/home/img/area_map_chubu.png");
+	});
+	function cngmap(id)	{
+		if(id) { document.getElementById('areamapImg').src = '/home/img/area_map_' + id + '.png'; }
+		else { document.getElementById('areamapImg').src = '/home/img/area_map.png'; }
+	}
+</script>
+<!-- global addsource head bottom -->
+</head>
+<body id="TOP">
+<!-- global addsource body top -->
+<!-- Google Tag Manager PHG -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-59QRXW" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-59QRXW');</script>
+<!-- End Google Tag Manager PHG -->
+<!-- global addsource body top -->
+<div id="head">
+<div id="header">
+	<div class="inner">
+		<h1><a href="/"><img src="/global2/img/panahome.png" width="170" height="25" alt="PanaHome" /></a></h1>
+		<ul>
+			<li><a href="/company/info/"><img src="/home/common/img/gn_company.png" width="53" height="12" alt="会社情報"></a></li>
+			<li><a href="/company/news/release/"><img src="/home/common/img/gn_news.png" width="93" height="12" alt="ニュースリリース"></a></li>
+			<li><a href="/company/ir/"><img src="/home/common/img/gn_ir.png" width="43" height="12" alt="IR情報"></a></li>
+			<li><a href="/company/saiyou/"><img src="/home/common/img/gn_recruit.png" width="52" height="12" alt="採用情報"></a></li>
+			<li><a href="/sitemap/"><img src="/home/common/img/gn_sitemap.png" width="98" height="12" alt="総合サイトマップ"></a></li>
+			<li><a href="/english/"><img src="/home/common/img/gn_en.png" width="60" height="12" alt="ENGLISH"></a></li>
+		</ul>
+		<div class="header_btn">
+			<a href="/cs/"><img src="/home/common/img/gn_bn_contact.png" width="44" height="34" alt="ご相談"></a>
+			<a href="/siryo/"><img src="/home/common/img/gn_bn_request.png" width="60" height="34" alt="資料請求"></a>
+		</div>
+	</div>
+	<div class="res_sp"><a href="/sitemap/"><img src="/home/common/img/icon_sitemap.png" width="11" height="11" alt="サイトマップ">サイトマップ</a></div>
+</div><!-- /header -->
+</div>
+<div id="contents">
+	<div class="top_nav c-fullw-cf">
+		<div class="top_mainvisual"><a href="/knowledge/" class="top_main_copy"><img src="/home/img/top_mainvisual_a.png" width="952" height="395" alt="詳しく見る"></a></div>
+		<div class="res_sp"><a href="/knowledge/"><img src="/home/img/top_res.jpg" alt="未来につながる価値を、パナホームと。総合ハウスメーカーならではのノウハウや経験、パナソニックグループの総合力で、あなたの家づくりをサポートします。"></a></div>
+		<nav>
+			<ul class="nav_wrap">
+				<li id="btn_nav_kodate"><a class="nav_btn sp_link_kodate" href="/sumai/">戸建住宅</a></li>
+				<li id="btn_nav_takaisou"><a class="nav_btn" href="/tasoukai/">多層階住宅<span>＜3〜9階建＞</span></a></li>
+				<li id="btn_nav_bunjyo"><a class="nav_btn" href="/bunjyo/">分譲住宅<br><em>・</em>宅地</a>
+					<ol class="btn_nav_bunjyo_sp">
+						<li><a href="http://www.panahome.jp/bunjyo/area/higashinihon/" target="_blank">東日本エリア</a></li>
+						<li><a href="http://www.panahome.jp/bunjyo/area/syutoken/" target="_blank">首都圏エリア</a></li>
+						<li><a href="http://www.panahome.jp/bunjyo/area/chubu/" target="_blank">中部エリア</a></li>
+						<li><a href="http://www.panahome.jp/bunjyo/area/kinki/" target="_blank">近畿エリア</a></li>
+						<li><a href="http://www.panahome.jp/bunjyo/area/chugokushikoku/" target="_blank">中国・四国エリア</a></li>
+						<li><a href="http://www.panahome.jp/bunjyo/area/kyushuokinawa/" target="_blank">九州・沖縄エリア</a></li>
+					</ol>
+				</li>
+				<li id="btn_nav_mansion"><a class="nav_btn" href="/mansion/">分譲マンション</a></li>
+				<li id="btn_nav_reform"><a class="nav_btn" href="/renovation/">リフォーム</a></li>
+				<li id="btn_nav_neos"><a class="nav_btn" href="http://www.panahome-neos.com/">賃貸住宅経営<br><em>・</em>土地活用</a></li>
+				<li id="btn_nav_mw"><a class="nav_btn" href="/mw/">医療介護</a></li>
+				<li id="btn_nav_list"><a class="nav_btn" href="/sitemap/products/">商品一覧</a></li>
+			</ul>
+		</nav>
+		<div class="top_important">
+			<a href="/company/news/important/2016/0415.html"><img src="/home/img/important_eq.png" width="312" height="18" alt="謹んで震災のお見舞いを申し上げます。"></a>
+			<a href="/company/news/important/2016/0415.html">お客さまご相談窓口について</a>
+			<a href="/company/news/important/2011/support.html">災害時・停電時の機器復旧・取り扱い方法について</a>
+		</div>
+	</div><!-- /top_nav -->
+		
+	<div class="top_bn c-fullw-cf">
+		<div class="c-normalw">
+			<ul>
+		        <li class="top_bn_2col"><a href="/fair/" class="sp_link_bn1"><img src="/home/bn/home_bn_170515.png" width="467" height="238" alt=""></a></li>
+				<li class="top_bn_2col right"><a href="/sumai/zeroeco/"><img src="/home/bn/home_bn_161221.jpg" width="467" height="238" alt=""></a></li>
+			</ul>
+		</div><!-- /c-normalw -->
+	</div><!-- /top_bn -->
+	
+	<div class="top_contents">
+		<div class="c-normalw">
+			<div class="res_sp sp_contact">
+				<a href="/cs/">お問い合わせ・ご相談</a>
+				<a href="/siryo/">資料請求</a>
+			</div>
+			<h2 class="res_pc">展示場・イベント</h2>
+			<p>最新の家づくり情報が手に入る、住宅展示場やイベント・キャンペーンをご紹介します。</p>
+			<div class="top_area">
+				<h3><a href="/"><img src="/home/img/area_h3.png" width="91" height="19" alt="エリア情報"></a><span>お近くの住宅展示場、お住まいの地域での<br>イベントやお得な情報は、地域から都府県を<br>選んでお進みください。</span></h3>
+				<div class="top_area_map">
+					<img src="/home/img/area_map.png" alt="お近くのパナホーム" name="areamap" width="435" height="330" usemap="#map" id="areamapImg">
+					<map name="map" id="map">
+						<area shape="poly" coords="352,167,397,167,397,200,321,200,314,212,295,212,288,225,259,224,259,203,242,202,242,191,282,162,340,96" class="areamap_east" nohref="nohref" alt="東日本エリア" onMouseOut="javascript:cngmap('');areamapImg.style.cursor='';" onMouseOver="javascript:cngmap('east');areamapImg.style.cursor='pointer';">
+						<area shape="poly" coords="259,224,245,232,250,248,253,243,260,244,266,265,296,265,296,277,369,277,369,240,313,240,313,211,294,212,289,224" class="areamap_shuto" nohref="nohref" alt="首都圏エリア" onMouseOut="javascript:cngmap('');areamapImg.style.cursor='';" onMouseOver="javascript:cngmap('shuto');areamapImg.style.cursor='pointer';">
+						<area shape="poly" coords="266,264,253,264,253,302,202,302,202,277,193,277,191,272,200,258,200,248,207,248,207,230,195,236,189,229,203,224,204,206,216,200,216,179,241,179,242,202,259,202,259,224,245,233,250,248,252,243,260,244" class="areamap_chubu" nohref="nohref" alt="中部エリア" onMouseOut="javascript:cngmap('');areamapImg.style.cursor='';" onMouseOver="javascript:cngmap('chubu');areamapImg.style.cursor='pointer';">
+						<area shape="poly" coords="193,277,193,289,169,289,168,252,162,245,162,238,169,231,159,209,159,181,204,181,204,224,190,230,195,235,207,230,207,249,200,249,200,258,191,273" class="areamap_kinki" nohref="nohref" alt="近畿エリア" onMouseOut="javascript:cngmap('');areamapImg.style.cursor='';" onMouseOver="javascript:cngmap('kinki');areamapImg.style.cursor='pointer';">
+						<area shape="poly" coords="78,172,130,172,130,208,159,208,168,231,161,238,161,245,169,251,169,289,128,304,111,287,106,258,95,260,79,244" class="areamap_chugokusikoku" nohref="nohref" alt="中国四国エリア" onMouseOut="javascript:cngmap('');areamapImg.style.cursor='';" onMouseOver="javascript:cngmap('chugokusikoku');areamapImg.style.cursor='pointer';">
+						<area shape="poly" coords="79,243,1,243,0,329,96,328,111,287,106,258,94,260" class="areamap_kyushu" nohref="nohref" alt="九州沖縄エリア" onMouseOut="javascript:cngmap('');areamapImg.style.cursor='';" onMouseOver="javascript:cngmap('kyushu');areamapImg.style.cursor='pointer';">
+					</map>
+					<div id="areamap_inner">
+						<h4 class="area_close">地図に戻る&nbsp;<img src="/home/img/area_close.png" width="11" height="11" alt="close"></h4>
+						<dl class="top_east">
+							<dt>東日本エリア</dt>
+							<dd><a href="http://area.panahome.jp/miyagi/">宮城県</a></dd>
+							<dd><a href="http://area.panahome.jp/fukushima/">福島県</a></dd>
+							<dd><a href="http://area.panahome.jp/tochigi/">栃木県</a></dd>
+							<dd><a href="http://area.panahome.jp/gunma/">群馬県</a></dd>
+							<dd><a href="http://area.panahome.jp/niigata/">新潟県</a></dd>
+						</dl>
+						<dl class="top_shuto">
+							<dt>首都圏エリア</dt>
+							<dd><a href="http://area.panahome.jp/ibaraki/">茨城県</a></dd>
+							<dd><a href="http://area.panahome.jp/saitama/">埼玉県</a></dd>
+							<dd><a href="http://area.panahome.jp/chiba/">千葉県</a></dd>
+							<dd><a href="http://area.panahome.jp/tokyo/">東京都</a></dd>
+							<dd><a href="http://area.panahome.jp/kanagawa/">神奈川県</a></dd>
+							<dd><a href="http://area.panahome.jp/yamanashi/">山梨県</a></dd>
+						</dl>
+						<dl class="top_chubu">
+							<dt>中部エリア</dt>
+							<dd><a href="http://area.panahome.jp/toyama/">富山県</a></dd>
+							<dd><a href="http://area.panahome.jp/ishikawa/">石川県</a></dd>
+							<dd><a href="http://area.panahome.jp/fukui/">福井県</a></dd>
+							<dd><a href="http://area.panahome.jp/nagano/">長野県</a></dd>
+							<dd><a href="http://area.panahome.jp/gifu/">岐阜県</a></dd>
+							<dd><a href="http://area.panahome.jp/shizuoka/">静岡県</a></dd>
+							<dd><a href="http://area.panahome.jp/aichi/">愛知県</a></dd>
+							<dd><a href="http://area.panahome.jp/mie/">三重県</a></dd>
+						</dl>
+						<dl class="top_kinki">
+							<dt>近畿エリア</dt>
+							<dd><a href="http://area.panahome.jp/shiga/">滋賀県</a></dd>
+							<dd><a href="http://area.panahome.jp/kyoto/">京都府</a></dd>
+							<dd><a href="http://area.panahome.jp/osaka/">大阪府</a></dd>
+							<dd><a href="http://area.panahome.jp/hyogo/">兵庫県</a></dd>
+							<dd><a href="http://area.panahome.jp/nara/">奈良県</a></dd>
+							<dd><a href="http://area.panahome.jp/wakayama/">和歌山県</a></dd>
+						</dl>
+						<dl class="top_chugokusikoku">
+							<dt>中国・四国エリア</dt>
+							<dd><a href="http://area.panahome.jp/shimane/">島根県</a></dd>
+							<dd><a href="http://area.panahome.jp/okayama/">岡山県</a></dd>
+							<dd><a href="http://area.panahome.jp/hiroshima/">広島県</a></dd>
+							<dd><a href="http://area.panahome.jp/yamaguchi/">山口県</a></dd>
+							<dd><a href="http://area.panahome.jp/tokushima/">徳島県</a></dd>
+							<dd><a href="http://area.panahome.jp/kagawa/">香川県</a></dd>
+							<dd><a href="http://area.panahome.jp/ehime/">愛媛県</a></dd>
+						</dl>
+						<dl class="top_kyushu">
+							<dt>九州・沖縄エリア</dt>
+							<dd><a href="http://area.panahome.jp/fukuoka/">福岡県</a></dd>
+							<dd><a href="http://area.panahome.jp/saga/">佐賀県</a></dd>
+							<dd><a href="http://area.panahome.jp/nagasaki/">長崎県</a></dd>
+							<dd><a href="http://area.panahome.jp/kumamoto/">熊本県</a></dd>
+							<dd><a href="http://area.panahome.jp/oita/">大分県</a></dd>
+							<dd><a href="http://area.panahome.jp/kagoshima/">鹿児島県</a></dd>
+							<dd><a href="http://area.panahome.jp/okinawa/">沖縄県</a></dd>
+						</dl>
+					</div><!-- //areamap_inner -->
+				</div><!-- //top_area_map -->
+				<div class="top_area_bn">
+					<a href="/tenjijo/" class="sp_link_tenji"><img src="/home/img/area_tenjijyo.png" width="214" height="110" alt="全国住宅展示場">全国住宅展示場</a>
+					<a href="/event/" class="sp_link_event"><img src="/home/img/area_event.png" width="214" height="110" alt="イベント情報">イベント情報</a>
+				</div><!-- //top_area_bn -->
+				<h2 class="res_sp trigger">住まいづくり</h2>
+				<ul class="accordion">
+					<li><a href="/johokan/">住まいとくらしの情報館</a></li>
+					<li><a href="/tasoukai/plaza/">ビューノプラザ</a></li>
+					<li><a href="/reform-plaza/">Panasonicリフォームショップ</a></li>
+					<li><a href="/shukuhaku_tenjijyo/">宿泊体験モデルハウス</a></li>
+					<li><a href="http://www.panahome-kaigai.com/">海外にお住まいの方へ</a></li>
+					<li><a href="/ie-yakudachi/">住まいづくり情報サイト</a></li>
+				</ul>
+			</div><!-- //top_area -->
+			<ul class="top_area_campaign">
+	                <li><a href="/festa/"><img src="/home/bn/home_festa_222.png" width="222" height="70" alt="実例フェスタ"></a></li>
+	                <li><a href="/yoridori/"><img src="/home/bn/home_bunjo_yoridori.png" alt="YORI-DORI すてきな情報との出会い"></a></li>
+			        <li><a href="/ie-yakudachi/"><img src="/home/bn/home_ie-yakudachi_222.png" width="222" height="70" alt="住まいづくりの情報サイト"></a></li>
+			        <li><a href="/tokimeki/experience.html"><img src="/home/bn/home_fair_222.png" width="222" height="70" alt="展示場でトキメキ体験"></a></li>
+			</ul>
+		</div><!-- /c-normalw -->
+		<div class="c-normalw">
+			<h2 class="trigger">パナホームが選ばれる理由</h2>
+			<p>選ばれるのには理由があります。パナホームならではの技術や取り組みをご案内します。</p>
+			<ul class="top_reason accordion">
+				<li>
+					<a href="/tech/"><img src="/home/img/reason_tec.png" width="467" height="160" alt="オリジナル技術">オリジナル技術</a>
+					<p>"価値が持続する家"は、オリジナル技術が支えます。</p>
+				</li>
+				<li>
+					<a href="/eco/"><img src="/home/img/reason_env.png" width="467" height="160" alt="環境にやさしい家づくり">環境にやさしい家づくり</a>
+					<p>地球環境に配慮した、エコでスマートな家について。</p>
+				</li>
+				<li>
+					<a href="/example/"><img src="/home/img/reason_ex.png" width="467" height="160" alt="実例集">実例集</a>
+					<p>個性豊かな建築実例をご覧いただけます。</p>
+				</li>
+				<li>
+					<a href="/feature/"><img src="/home/img/reason_column.png" width="467" height="160" alt="くらし提案">くらし提案</a>
+					<p>家づくりのヒントやくらしに役立つアイディアを集めました。</p>
+				</li>
+			</ul>
+			<div class="top_company">
+				<h2 class="res_sp trigger">企業・IR情報</h2>
+				<ul class="top_link accordion">
+					<li><a href="/company/">企業情報<img src="/home/img/top_link_company.png" width="303" height="150" alt="企業情報"></a><p>会社概要、ニュースリリース、IR情報など。</p></li>
+					<li class="res_sp"><a href="/company/ir/">IR情報</a></li>
+					<li class="res_sp"><a href="/company/saiyou/">採用情報</a></li>
+				</ul>
+				<ul class="top_link link_sp">
+					<li><a href="/company/tvcm/kodate.html" class="sp_link_cm">CMギャラリー<img src="/home/img/top_link_cm.png" width="303" height="150" alt="CMギャラリー"></a><p>最新のテレビCMを動画で配信中。</p></li>
+					<li><a href="http://www.panahome-club.jp/" class="sp_link_club">お施主さま専用サイト<img src="/home/img/top_link_club.png" width="303" height="150" alt="パナホームクラブ"></a><p>安心、快適にくらすお役立ち情報をお届け。</p></li>
+				</ul>
+			</div>
+		</div><!-- /c-normalw -->
+	</div><!-- /top_contents -->
+	
+	<div class="top_news c-fullw-cf">
+	<div class="c-normalw">
+		<div class="top_news_2col">
+			<h2><a href="/company/news/release/">ニュースリリース</a></h2>
+			<dl>
+            
+            <dt>2017年8月4日</dt>
+            <dd><a href="/company/news/release/2017/0804.html">『エアロハス』の採用住宅を拡大 </a></dd>            
+            <dt>2017年7月31日</dt>
+            <dd><a href="/company/news/release/2017/pdf/20170731.pdf" target="_blank">株式併合並びに単元株式数の定めの廃止及び定款の一部変更に関するお知らせ</a> (PDF:520KB)</dd>
+ 			<dt>2017年7月20日</dt>
+			<dd><a href="/company/news/release/2017/0720.html">3階建住宅 『Vieuno3E』 2017年7月20日新発売</a></dd>
+ 			<dt>2017年7月10日</dt>
+			<dd><a href="/company/news/release/2017/0710.html">『NEXT ECO REPORT（ネクスト エコ レポート）/環境報告書2017』を発行</a></dd>
+			</dl>
+            <a href="/company/news/release/">ニュースリリース一覧</a>
+		</div>
+		<div class="top_news_2col">
+			<h2><a href="/company/news/important/">大切なお知らせ</a></h2>
+			<dl>
+				<dt>2016年4月15日</dt>
+				<dd><a href="/company/news/important/2016/0415.html">謹んで震災のお見舞いを申し上げます</a></dd>
+				<dt>2015年1月23日</dt>
+				<dd><a href="/company/news/important/pdf/20150123.pdf">【ご注意ください】パナホーム社員を騙った振り込め詐欺の電話勧誘について（PDF:64KB）</a></dd>
+				<dt>2014年7月25日</dt>
+				<dd><a href="/company/news/important/pdf/20140725.pdf">ナショナル パナソニック製ならびにコロナ製 家庭用ヒートポンプ給湯機（エコキュート）の無償点検及び対策部品への無料交換について（PDF:80KB）</a></dd>
+				<dt>2011年3月11日</dt>
+				<dd><a href="/company/news/important/0311/">東日本大震災からの復興を心よりお祈り申し上げます</a></dd>
+			</dl>
+			<a href="/company/news/important/">大切なお知らせ一覧</a>
+		</div>
+		<div class="top_line"><img src="/home/img/top_line.png" width="467" height="88" alt="LINE@はじめました。"><a rel="external" href="https://line.me/ti/p/%40jfr4338m" class="res_sp"><img src="/home/img/ban_line.png" alt="LINE"></a></div>
+	</div><!-- /c-normalw -->
+	</div><!-- /top_news -->
+	
+	<div class="footer_en"><a href="/english/">ENGLISH</a></div>
+	<div id="foot">
+		<div id="footer_top">
+			<div id="gbn">
+				<ul id="bt">
+					<li><a href="/fudousan/" target="_blank"><img src="/home/bn/bt001.gif" alt="パナホーム不動産株式会社"></a></li>
+					<li><a href="http://natex.jp/" target="_blank"><img src="/home/bn/bt002.gif" alt="株式会社ナテックス"></a></li>
+					<li><a href="http://www.premiart.co.jp/" target="_blank"><img src="/home/bn/bt003.gif" alt="プレミアート・デザイン・オフィス株式会社"></a></li>
+					<li><a href="http://home-renovation.panasonic.com" target="_blank"><img src="/home/bn/bt009.gif" alt="Panasonic リフォーム"></a></li>
+					<li><a href="http://www.tw-panahome.com.tw/" target="_blank"><img src="/home/bn/bt004.gif" alt="パナホーム台湾"></a></li>
+					<li><a href="http://www.panasonic.com/my/homes.html" target="_blank"><img src="/home/bn/bt006.gif" alt="パナホームマレーシア"></a></li>
+					<li><a href="http://www.kkj.or.jp/" target="_blank"><img src="/home/bn/bt007.gif" alt="KKJ - 一般社団法人 環境共生住宅推進協議会 -"></a></li>
+					<li><a href="http://www.purekyo.or.jp/index.html?utm_source=banner&utm_medium=regular" target="_blank"><img src="/home/bn/bt008.gif" alt="一般社団法人プレハブ建築協会"></a></li>
+				</ul>
+			</div>
+		</div><!-- /footer_top -->
+		<div class="footer_sp">
+			<a href="http://area.panahome.jp/sp/modelhouse/">住宅展示場</a>
+			<a href="http://area.panahome.jp/sp/event/">イベント情報</a>
+		</div>
+		
+		<ul id="g-foot-nav">
+        <li><a href="http://www.panahome.jp/">パナホームHOME</a></li>
+        <li><a href="http://www.panahome.jp/sumai/">戸建住宅</a></li>
+        <li><a href="http://www.panahome.jp/tasoukai/">多層階住宅</a></li>
+        <li><a href="http://www.panahome.jp/bunjyo/">分譲住宅・宅地</a></li>
+        <li><a href="http://www.panahome.jp/mansion/">分譲マンション</a></li>
+        <li><a href="http://www.panahome.jp/renovation/">リフォーム</a></li>
+        <li><a href="http://www.panahome-neos.com/">賃貸住宅経営・土地活用</a></li>
+        <li><a href="http://www.panahome.jp/mw/">医療・介護</a></li>
+        <li><a href="http://area.panahome.jp/">住宅展示場・イベント</a></li>
+    </ul>
+    <ul id="g-foot-link">
+        <li><a href="http://www.panahome.jp/sitemap/">総合サイトマップ</a></li>
+        <li><a href="http://www.panahome.jp/company/sitepolicy/">サイトのご利用にあたって</a></li>
+        <li><a href="http://www.panahome.jp/company/privacy/">個人情報保護方針</a></li>
+	    </ul>
+    	<div id="g-copyright">&copy; PanaHome Corporation</div>
+	</div>
+</div>
+<!-- global addsource body bottom -->
+<script language="javascript" type="text/javascript">
+var adpsp_header = "http" , adpsp_counter_domain = "sp.advg.jp" , adpsp_aid = "1563" , adpsp_pnm = "" , adpsp_title = "";
+</script>
+<script language="javascript" type="text/javascript" src="http://sp.advg.jp/adpsp_count/js/tag.js"></script>
+
+<noscript>
+<img src="http://sp.advg.jp/adpsp_count/?aid=1563&off=js" width="1" height="1" alt="">
+</noscript>
+
+
+<!-- Yahoo Tag Manager PHG -->
+<script type="text/javascript">
+  (function () {
+    var tagjs = document.createElement("script");
+    var s = document.getElementsByTagName("script")[0];
+    tagjs.async = true;
+    tagjs.src = "//s.yjtag.jp/tag.js#site=BcVHLD0,yNdIlWO";
+    s.parentNode.insertBefore(tagjs, s);
+  }());
+</script>
+<noscript>
+  <iframe src="//b.yjtag.jp/iframe?c=BcVHLD0,yNdIlWO" width="1" height="1" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+</noscript>
+<!-- End Yahoo Tag Manager PHG -->
+<!-- global addsource body bottom -->
+</body>
+</html>

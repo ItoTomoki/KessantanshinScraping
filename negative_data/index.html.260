@@ -1,0 +1,734 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>新宿中村屋</title>
+<meta name="description" content="1901年創業の老舗、新宿中村屋のWebサイトです。菓子、中華まん、カリーなどの商品情報や、レストラン、キャンペーン情報などをご紹介します。">
+<meta name="keywords" content="中村屋,新宿中村屋,株式会社中村屋,新宿本店,新宿中村屋ビル,カリー,カレー,レトルト,菓子,和菓子,レストラン">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- 共通meta -->
+
+<meta property="og:site_name" content="新宿中村屋">
+<meta property="og:title" content="新宿中村屋">
+<meta property="og:type" content="website">
+<meta property="og:url" content="http://www.nakamuraya.co.jp/">
+<meta property="og:image" content="http://www.nakamuraya.co.jp/common/img/nakamuraya_thum.jpg">
+<meta property="og:description" content="1901年創業の老舗、新宿中村屋のWebサイトです。菓子、中華まん、カリーなどの商品情報や、レストラン、キャンペーン情報などをご紹介します。">
+<meta name="GENERATOR" content="JustSystems Homepage Builder Version 19.0.7.0 for Windows">
+<link rel="Shortcut Icon" href="/common/img/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="/common/css/fontsize-standard.css" id="fontSize">
+<link rel="stylesheet" href="/common/css/reset.css">
+<link rel="stylesheet" href="/common/css/layout.css">
+
+<link rel="stylesheet" href="/common/css/structure.css">
+<link rel="stylesheet" href="/common/css/module.css">
+<!-- 共通CSS -->
+<link rel="stylesheet" href="/common/css/top.css">
+<style type="text/css">
+#topIndex #container .recommend .products.clearfix li table #kumamoto {
+	letter-spacing: normal;
+	text-align: center;
+	word-spacing: 5em;
+	border: 1px dotted #333;
+	margin: 10px;
+	padding: 10px;
+}
+</style>
+<script src="/common/js/jquery-1.10.1.min.js"></script>
+<script src="/common/js/jquery.easing.1.3.js"></script>
+<script src="/common/js/common.js"></script>
+<!-- 共通JS -->
+
+
+
+<!--トップページ用JS(メインビジュアルローテーション)-->
+<script type="text/javascript" src="/mainvisual/js/mainvisual.js"></script>
+</head>
+
+<body>
+<div id="wrapper">
+<div id="header">
+<div id="headerInr">
+<div id="siteID">
+<h1><a href="/"><img src="/common/img/header/logo.gif" width="300" height="80" alt="新宿 中村屋"></a></h1>
+</div>
+
+<div id="headerTool" class="clearfix">
+<div class="font">
+<dl class="clearfix">
+<dt><img src="/common/img/header/text_fs.gif" width="70" height="30" alt="文字サイズ"></dt>
+<dd class="act"><a href="#"><img src="/common/img/header/btn_fs_standard_on.gif" width="30" height="30" alt="標準"></a></dd>
+<dd><a href="#"><img src="/common/img/header/btn_fs_large.gif" width="30" height="30" alt="拡大"></a></dd>
+</dl>
+</div>
+<div class="site_search">
+
+<script>
+  (function() {
+    var cx = '003295441850698568343:jjvdlfdhtq8';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
+
+</div>
+<!-- /#headerTool --></div>
+
+<div id="headerLink">
+<ul class="clearfix">
+<li><a href="/"><img src="/common/img/header/header_link_home.gif" width="55" height="15" alt="HOME"></a></li>
+<li><a href="/recruit/"><img src="/common/img/header/header_link_recruit.gif" width="70" height="15" alt="採用情報"></a></li>
+<li><a href="/inquiry/faq.html"><img src="/common/img/header/header_link_inquiry.gif" width="92" height="15" alt="お問い合わせ"></a></li>
+<li><a href="/sitemap/"><img src="/common/img/header/header_link_sitemap.gif" width="85" height="15" alt="サイトマップ"></a></li>
+</ul>
+<!-- /#headerLink --></div>
+
+<div id="sp-headerBtn"><a href="#">メニュー<span class="btn_bar"></span></a></div>
+<!-- /#headerInr --></div>
+<!-- /#header --></div>
+
+<div id="gNav">
+<div id="gNavInr">
+<ul class="clearfix">
+<li class="products">
+<a href="/products/">商品・キャンペーン</a>
+<ul class="pulldown">
+<li><a href="/products/kashi/001/">菓子</a></li>
+<li><a href="/products/brand/enkaten/">ショップブランド</a></li>
+<li><a href="/products/chuman/001/">中華まん</a></li>
+<li><a href="/products/curry/001/">レトルトカレー</a></li>
+<li><a href="/products/cooking/001/">調理用カリー</a></li>
+<li><a href="/products/chuka/001/">中華レトルト</a></li>
+<li><a href="/products/others/001/">その他レトルト食品</a></li>
+<li><a href="/products/can/002/">缶詰</a></li>
+<li><a href="/products/frozen/001/">冷凍食品</a></li>
+</ul>
+</li>
+<li class="location"><a href="/location/">新宿中村屋ビル（旧本店）・販売店・レストラン</a>
+<ul class="pulldown">
+<li><a href="/location/shinjuku/">新宿中村屋ビル（旧本店）</a></li>
+<li><a href="/location/store/">新宿中村屋 販売店</a></li>
+<li><a href="/location/restaurant/">レストラン</a></li>
+<li><a href="/location/brand/">ショップブランド</a></li>
+<li><a href="/location/bread/">ベーカリーショップ</a></li>
+</ul>
+</li>
+<li class="pavilion"><a href="/pavilion/">歴史・おいしさの秘密</a>
+<ul class="pulldown">
+<li><a href="/pavilion/history/">中村屋の歴史</a></li>
+<li><a href="/pavilion/products/">商品の歴史</a></li>
+<li><a href="/pavilion/founder/">創業者ゆかりの人々</a></li>
+<li><a href="/pavilion/secret/curry/">おいしさの秘密純印度式カリー</a></li>
+<li><a href="/pavilion/secret/tensei/">おいしさの秘密天成饅</a></li>
+<li><a href="/pavilion/chef/">中村屋シェフのカレーレシピ</a></li>
+<li><a href="/pavilion/spice/">スパイスの使い方</a></li>
+</ul>
+</li>
+<li class="company"><a href="/company/">企業情報</a>
+<ul class="pulldown">
+<li><a href="/company/message.html">ご挨拶</a></li>
+<li><a href="/company/news.html">ニュースリリース</a></li>
+<li><a href="/company/info/about.html">会社概要・沿革</a></li>
+<li><a href="/company/info/business.html">事業内容</a></li>
+<!--<li><a href="/company/info/rule.html">中村屋グループ行動規範</a></li>-->
+<li><a href="/company/info/offce.html">事業所</a></li>
+<li><a href="/company/ir/greeting.html">IR情報</a></li>
+<li><a href="/company/csr/">社会•環境への取り組み</a></li>
+</ul>
+</li>
+</ul>
+<div class="btn"><a href="https://nakamuraya.jp/" target="_blank"><img src="/common/img/header/btn_internet_order.gif" width="188" height="41" alt="通信販売"></a></div>
+<!-- /#gNavInr --></div>
+<!-- /#gNav --></div>
+
+
+<div id="sp-gNav">
+<div id="sp-gNavInr">
+<div class="sp-gNavLayer layer-1st">
+<div class="sp-gNavItem item-link"><a href="/"><span class="item_inr">新宿中村屋トップ</span></a></div>
+<ul class="sp-gNavItems">
+<li class="sp-gNavItem item-next"><a href="#gNavLayer-01"><span class="item_inr">商品・キャンペーン</span></a></li>
+<li class="sp-gNavItem item-next"><a href="#gNavLayer-02"><span class="item_inr">新宿中村屋ビル（旧本店）<br>販売店・レストラン</span></a></li>
+<li class="sp-gNavItem item-next"><a href="#gNavLayer-03"><span class="item_inr">歴史・おいしさの秘密</span></a></li>
+<li class="sp-gNavItem item-next"><a href="#gNavLayer-04"><span class="item_inr">企業情報</span></a></li>
+</ul>
+<div class="sp-gNavItem item-link"><a href="/recruit/"><span class="item_inr">採用情報</span></a></div>
+<div class="sp-gNavItem item-order"><a href="https://nakamuraya.jp/" target="_blank"><span class="item_inr">通信販売</span></a></div>
+<div class="sp-site_search">
+
+<script>
+  (function() {
+    var cx = '003295441850698568343:jjvdlfdhtq8';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
+
+</div>
+<!-- /layer-1st --></div>
+
+<div class="sp-gNavLayer layer-2nd">
+<div class="sp-gNavItem item-prev"><a href="#"><span class="item_inr">戻る</span></a></div>
+
+<ul class="sp-gNavItems" id="gNavLayer-01">
+<li class="sp-gNavItem item-link"><a href="/products/"><span class="item_inr">商品・キャンペーントップ</span></a></li>
+<li class="sp-gNavItem item-2nd"><a href="/products/kashi/001/"><span class="item_inr">菓子</span></a></li>
+<li class="sp-gNavItem item-2nd"><a href="/products/brand/enkaten/"><span class="item_inr">ショップブランド</span></a></li>
+<li class="sp-gNavItem item-2nd"><a href="/products/chuman/001/"><span class="item_inr">中華まん</span></a></li>
+<li class="sp-gNavItem item-2nd"><a href="/products/curry/001/"><span class="item_inr">レトルトカレー</span></a></li>
+<li class="sp-gNavItem item-2nd"><a href="/products/cooking/001/"><span class="item_inr">調理用カリー</span></a></li>
+<li class="sp-gNavItem item-2nd"><a href="/products/chuka/001/"><span class="item_inr">中華レトルト</span></a></li>
+<li class="sp-gNavItem item-2nd"><a href="/products/others/001/"><span class="item_inr">その他レトルト食品</span></a></li>
+<li class="sp-gNavItem item-2nd"><a href="/products/can/002/"><span class="item_inr">缶詰</span></a></li>
+<li class="sp-gNavItem item-2nd"><a href="/products/frozen/001/"><span class="item_inr">冷凍食品</span></a></li>
+</ul>
+
+<ul class="sp-gNavItems" id="gNavLayer-02">
+<li class="sp-gNavItem item-link"><a href="/location/"><span class="item_inr">新宿中村屋ビル（旧本店）・販売店・レストラン</span></a></li>
+<li class="sp-gNavItem item-2nd"><a href="/location/shinjuku/"><span class="item_inr">新宿中村屋ビル（旧本店）</span></a></li>
+<li class="sp-gNavItem item-2nd"><a href="/location/store/"><span class="item_inr">新宿中村屋 販売店</span></a></li>
+<li class="sp-gNavItem item-2nd"><a href="/location/restaurant/"><span class="item_inr">レストラン</span></a></li>
+<li class="sp-gNavItem item-2nd"><a href="/location/brand/"><span class="item_inr">ショップブランド</span></a></li>
+<li class="sp-gNavItem item-2nd"><a href="/location/bread/"><span class="item_inr">ベーカリーショップ</span></a></li>
+</ul>
+
+<ul class="sp-gNavItems" id="gNavLayer-03">
+<li class="sp-gNavItem item-link"><a href="/pavilion/"><span class="item_inr">歴史・おいしさの秘密</span></a></li>
+<li class="sp-gNavItem item-2nd"><a href="/pavilion/history/"><span class="item_inr">中村屋の歴史</span></a></li>
+<li class="sp-gNavItem item-2nd"><a href="/pavilion/products/"><span class="item_inr">商品の歴史</span></a></li>
+<li class="sp-gNavItem item-2nd"><a href="/pavilion/founder/"><span class="item_inr">創業者ゆかりの人々</span></a></li>
+<li class="sp-gNavItem item-2nd"><a href="/pavilion/secret/curry/"><span class="item_inr">おいしさの秘密純印度式カリー</span></a></li>
+<li class="sp-gNavItem item-2nd"><a href="/pavilion/secret/tensei/"><span class="item_inr">おいしさの秘密天成饅</span></a></li>
+<li class="sp-gNavItem item-2nd"><a href="/pavilion/chef/"><span class="item_inr">中村屋シェフのカレーレシピ</span></a></li>
+<li class="sp-gNavItem item-2nd"><a href="/pavilion/spice/"><span class="item_inr">スパイスの使い方</span></a></li>
+</ul>
+
+<ul class="sp-gNavItems" id="gNavLayer-04">
+<li class="sp-gNavItem item-link"><a href="/company/"><span class="item_inr">企業情報</span></a></li>
+<li class="sp-gNavItem item-2nd"><a href="/company/message.html"><span class="item_inr">ご挨拶</span></a></li>
+<li class="sp-gNavItem item-2nd"><a href="/company/news.html"><span class="item_inr">ニュースリリース</span></a></li>
+<li class="sp-gNavItem item-2nd"><a href="/company/info/about.html"><span class="item_inr">会社概要・沿革</span></a></li>
+<li class="sp-gNavItem item-2nd"><a href="/company/info/business.html"><span class="item_inr">事業内容</span></a></li>
+<li class="sp-gNavItem item-2nd"><a href="/company/info/offce.html"><span class="item_inr">事業所</span></a></li>
+<li class="sp-gNavItem item-2nd"><a href="/company/ir/greeting.html"><span class="item_inr">IR情報</span></a></li>
+<li class="sp-gNavItem item-2nd"><a href="/company/csr/"><span class="item_inr">社会・環境への取り組み</span></a></li>
+</ul>
+
+<!-- /layer-2nd --></div>
+<!-- /#sp-gNavInr --></div>
+<!-- /#sp-gNav --></div><!-- 共通header -->
+
+<div id="topIndex"><!-- topIndex ページ 固有 -->
+
+<!-- PCメインビジュアル -->
+<div id="mainVisual" class="sp-disNon">
+<div id="mainVisualInr">
+<div class="controls">
+<div class="thumbnail">
+<ul>
+</ul>
+</div>
+<p class="up"><a href="#"><img src="/img/controls_arrow_up.png" width="176" height="25" alt=""></a></p>
+<p class="dwn"><a href="#"><img src="/img/controls_arrow_dwn.png" width="176" height="25" alt=""></a></p>
+<p class="active"><img src="/img/controls_active.png" width="176" height="92" alt=""></p>
+</div>
+
+<div class="pagination">
+<ul class="clearfix">
+
+</ul>
+</div>
+</div>
+
+<div class="visual">
+<ul>
+</ul>
+</div>
+<!-- /#mainVisual --></div>
+<!-- /PCメインビジュアル -->
+
+<!-- SPメインビジュアル -->
+<div id="sp-mainVisual">
+<div class="visual">
+<p><img src="/sp/mainvisual/js/visual_default.png" alt=""></p>
+<ul>
+</ul>
+</div>
+
+<ul class="controls">
+<li class="left"><a href="#"><img src="/sp/img/controls_arrow_left.png" alt=""></a></li>
+<li class="right"><a href="#"><img src="/sp/img/controls_arrow_right.png" width="176" height="25" alt=""></a></li>
+</ul>
+
+<div class="pagination">
+<ul class="clearfix">
+</ul>
+</div>
+<!-- /#mainVisual --></div>
+<!-- /SPメインビジュアル -->
+
+<div id="container">
+
+<div class="recommend">
+<ul class="products clearfix">
+<li>
+<div align="center">
+<table>
+<tr><td id="kumamoto">
+<a href="/company/pdf/info_20160627.pdf" target="_blank">平成28年熊本地震により被災された皆様に謹んでお見舞申し上げます。一日も早い復旧、復興を心よりお祈り申し上げます。</a>
+</td>
+</tr>
+</table>
+<br>
+</div>
+</li>
+</ul>
+</div>
+
+<div id="sec01" class="clearfix">
+
+<div class="info">
+
+<div class="tabBlock">
+<ul class="tab clearfix">
+<li class="act"><a href="#news" class="news">新着情報</a></li>
+<li><a href="#ir" class="ir">ニュースリリース<br class="pc-disNon">IR情報</a></li>
+</ul>
+
+<ul class="each">
+<li style="display:block;">
+<div class="inner">
+<p class="lnk"><a href="/news/info/"><img src="/img/headline_01_list.gif" width="45" height="14" alt="一覧" class="sp-disNon"><span class="sp-link pc-disNon">一覧</span></a></p>
+<dl>
+
+<dt class="clearfix"><span class="date">2017/8/18</span><span class="ico">
+<img src="/img/info_ico_new_06.gif" alt="お知らせ" width="80" height="18"></span></dt>
+<dd><a href="/company/csr/img/info20171001.pdf" target="_blank">こども月餅作り体験　参加者募集！</a></dd>
+
+<dt class="clearfix"><span class="date">2017/7/28</span><span class="ico">
+<img src="/img/info_ico_new_04.gif" alt="通信販売" width="80" height="18"></span></dt>
+<dd><a href="https://nakamuraya.jp/goods_list/goods_list_3.php?o_no=76506A" target="_blank">【季節限定】「うすあわせ（ぶどう）」の取り扱い開始</a></dd>
+
+<dt class="clearfix"><span class="date">2017/7/10</span><span class="ico">
+<img src="/img/info_ico_new_04.gif" alt="通信販売" width="80" height="18"></span></dt>
+<dd><a href="https://nakamuraya.jp/cms/preview.php?pre_no=76" target="_blank">【季節限定】「うすあわせ（レモンライム）」「マンゴー月餅」の取り扱い開始</a></dd>
+
+<dt class="clearfix"><span class="date">2017/7/10</span><span class="ico">
+<img src="/img/info_ico_new_04.gif" alt="通信販売" width="80" height="18"></span></dt>
+<dd>【期間限定・数量限定】「レトルトカリーバラエティセット」の取扱い開始（販売終了 2017.8.15）</dd>
+
+<dt class="clearfix"><span class="date">2017/6/14</span><span class="ico">
+<img src="/img/info_ico_new_06.gif" alt="お知らせ" width="80" height="18"></span></dt>
+<dd><a href="/location/restaurant/001.html" target="_blank">【オリーブハウス】「季節のおすすめフェア」開催</a></dd>
+
+<dt class="clearfix"><span class="date">2017/6/12</span><span class="ico">
+<img src="/img/info_ico_new_06.gif" alt="お知らせ" width="80" height="18"></span></dt>
+<dd><a href="/90th/index.html" target="_blank">「伝統３商品発売９０周年」特設サイトをオープンしました</a></dd>
+
+
+</dl>
+</div>
+</li>
+<li style="display:none;">
+<div class="inner">
+<p class="lnk"><a href="/news/ir/"><img src="/img/headline_01_list.gif" width="45" height="14" alt="一覧" class="sp-disNon"><span class="sp-link pc-disNon">一覧</span></a></p>
+
+<dl class="clearfix">
+
+<dt class="clearfix"><span class="date">2017/08/14</span><span class="ico"><img src="/img/info_ico_ir_01.gif" alt="ニュースリリース" width="80" height="18"></span></dt>
+<dd><a href="/company/pdf/info_20170814.pdf" target="_blank">レトルトカレー「プレミアムインドカリー」シリーズ新発売のお知らせを掲載しました。</a></dd>
+
+<dt class="clearfix"><span class="date">2017/08/09</span><span class="ico"><img src="/img/info_ico_ir_01.gif" alt="ニュースリリース" width="80" height="18"></span></dt>
+<dd><a href="/company/pdf/info_20170809.pdf" target="_blank">「力まん」の売り上げの一部を寄付のお知らせを掲載しました。</a></dd>
+
+<dt class="clearfix"><span class="date">2017/07/31</span><span class="ico"><img src="/img/info_ico_ir_02.gif" alt="開示情報" width="80" height="18"></span></dt>
+<dd><a href="/company/pdf/ir3003-1hanki.pdf" target="_blank">平成30年3月期　第1四半期決算短信</a></dd>
+
+<dt class="clearfix"><span class="date">2017/07/31</span><span class="ico"><img src="/img/info_ico_ir_03.gif" alt="開示情報" width="80" height="18"></span></dt>
+<dd><a href="/company/pdf/info_20170731_1.pdf" target="_blank">主要株主の異動に関するお知らせ</a></dd>
+
+<dt class="clearfix"><span class="date">2017/07/14</span><span class="ico"><img src="/img/info_ico_ir_01.gif" alt="ニュースリリース" width="80" height="18"></span></dt>
+<dd><a href="/company/pdf/info_20170714.pdf" target="_blank">グランナ「新宿中村屋指定飼育鶏『極旨』ローストチキン」提供開始のお知らせを掲載しました。</a></dd>
+
+<dt class="clearfix"><span class="date">2017/06/30</span><span class="ico"><img src="/img/info_ico_ir_04.gif" alt="報告書" width="80" height="18"></span></dt>
+<dd><a href="/company/pdf/p96.pdf" target="_blank">第96期　報告書</a></dd>
+
+
+</dl>
+</div>
+</li>
+</ul>
+<!-- /.tabBlock --></div>
+
+</div>
+
+<div class="recommend">
+<div class="headLine">
+<h2><img src="/img/headline_01.gif" width="556" height="32" alt="おすすめ情報" class="sp-disNon"><span class="sp-heading pc-disNon">おすすめ情報</span></h2>
+</div>
+<ul class="clearfix">
+<li><a href="https://www.nakamuraya.co.jp/90th/index.html" target="_blank"><img src="/img/recommend_img_07.jpg" alt="90th特設サイト" width="175" height="152"></a></li>
+<li><a href="https://nakamuraya.jp/" target="_blank"><img src="/img/recommend_img_01.jpg" alt="新宿 中村屋 オンラインショップ" width="175" height="152"></a></li>
+<li><a href="/location/shinjuku/"><img src="/img/recommend_img_02.jpg" alt="新宿中村屋ビル 店舗情報" width="175" height="152"></a></li>
+<!--<li><a href="/location/restaurant/004.html"><img src="/img/recommend_img_06.jpg" alt="洋食レストラン" width="175" height="152"></a></li> -->
+<li><a href="/museum/" target="_blank"><img src="/img/recommend_img_03.jpg" alt="中村屋サロン美術館" width="175" height="152"></a></li>
+<li><a href="/pavilion/history/"><img src="/img/recommend_img_04.jpg" alt="中村屋の歴史" width="175" height="152"></a></li>
+<li><a href="/pavilion/chef/"><img src="/img/recommend_img_05.jpg" alt="中村屋シェフのカレーレシピ" width="175" height="152"></a></li>
+</ul>
+</div>
+<!-- /#sec01 --></div>
+
+<div id="sec02">
+<div class="headLine">
+<h2><img src="/img/headline_02.gif" width="980" height="32" alt="商品のご案内" class="sp-disNon"><span class="sp-heading pc-disNon">商品のご案内</span></h2>
+<a href="/products/"><img src="/img/headline_02_list.gif" width="75" height="14" alt="商品一覧" class="sp-disNon"><span class="sp-link pc-disNon">商品一覧</span></a>
+</div>
+
+<ul class="products clearfix">
+<li>
+<dl>
+<dt><a href="/products/kashi/001/"><img src="/img/products_img_01.jpg" alt="" width="234" height="152"></a></dt>
+<dt><img src="/img/products_ttl_01.gif" alt="菓子のご案内" width="234" height="30" class="sp-disNon"><span class="sp-heading pc-disNon">菓子のご案内</span></dt>
+</dl>
+</li>
+<li>
+<dl>
+<dt><a href="/products/chuman/001/"><img src="/img/products_img_02.jpg" alt="" width="234" height="152"></a></dt>
+<dt><img src="/img/products_ttl_02.gif" alt="中華まんのご案内" width="234" height="30" class="sp-disNon"><span class="sp-heading pc-disNon">中華まんのご案内</span></dt>
+</dl>
+</li>
+<li>
+<dl>
+<dt><a href="/products/curry/001/"><img src="/img/products_img_03.jpg" alt="" width="234" height="152"></a></dt>
+<dt><img src="/img/products_ttl_03.gif" alt="レトルトカリーのご案内" width="234" height="30" class="sp-disNon"><span class="sp-heading pc-disNon">レトルトカリーのご案内</span></dt>
+</dl>
+</li>
+<li>
+<dl>
+<dt><a href="/products/can/002/"><img src="/img/products_img_04.jpg" alt="" width="233" height="152"></a></dt>
+<dt><img src="/img/products_ttl_04.gif" alt="缶詰のご案内" width="233" height="30" class="sp-disNon"><span class="sp-heading pc-disNon">缶詰のご案内</span></dt>
+</dl>
+</li>
+</ul>
+<!-- /#sec02 --></div>
+
+<div id="sec02">
+<div class="headLine">
+<h2><img src="/img/headline_06.gif" width="980" height="32" alt="新宿中村屋ビル（旧本店）" class="sp-disNon"><span class="sp-heading pc-disNon">新宿中村屋ビル（旧本店）</span></h2>
+<a href="/location/shinjuku/"><img src="/img/headline_06_list.gif" width="148" height="14" alt="直営店舗・美術館一覧" class="sp-disNon"><span class="sp-link pc-disNon">直営店舗・美術館一覧</span></a>
+</div>
+
+<ul class="products clearfix">
+<li>
+<dl>
+<dt><a href="/manna/" target="_blank"><img src="/img/shinjuku_img_01.jpg" alt="" width="224" height="200"></a></dt>
+<dt><img src="/img/shinjuku_ttl_01.gif" alt="マンナ" width="234" height="30" class="sp-disNon"><span class="sp-heading pc-disNon">マンナ</span></dt>
+<dd>“恋と革命の味”純印度式カリーをはじめとした、中村屋を代表するメニューを提供するレストランです。</dd>
+</dl>
+</li>
+<li>
+<dl>
+<dt><a href="/granna/" target="_blank"><img src="/img/shinjuku_img_02.jpg" alt="" width="224" height="200"></a></dt>
+<dt><img src="/img/shinjuku_ttl_02.gif" alt="グランナ" width="234" height="30" class="sp-disNon"><span class="sp-heading pc-disNon">グランナ</span></dt>
+<dd>世界各国の料理を中村屋のエッセンスを加えてご提案するレストランです。</dd>
+</dl>
+</li>
+<li>
+<dl>
+<dt><a href="/bonna/" target="_blank"><img src="/img/shinjuku_img_03.jpg" alt="" width="224" height="200"></a></dt>
+<dt><img src="/img/shinjuku_ttl_03.gif" alt="ボンナ" width="234" height="30" class="sp-disNon"><span class="sp-heading pc-disNon">ボンナ</span></dt>
+<dd>店内で作るできたての和洋菓子や総菜など、中村屋のこだわりの食をお届けするショッピングフロアです。</dd>
+</dl>
+</li>
+<li>
+<dl>
+<dt><a href="/museum/" target="_blank"><img src="/img/shinjuku_img_04.jpg" alt="" width="224" height="200"></a></dt>
+<dt><img src="/img/shinjuku_ttl_04.gif" alt="中村屋サロン美術館" width="233" height="30" class="sp-disNon"><span class="sp-heading pc-disNon">中村屋サロン美術館</span></dt>
+<dd>明治末から昭和初期にかけて新宿中村屋に集った芸術家を中心に、近・現代美術を紹介する美術館です。</dd>
+</dl>
+</li>
+</ul>
+<!-- /#sec02 --></div>
+
+<div id="sec03" class="clearfix">
+<div class="restaurant">
+<div class="headLine">
+<h2><img src="/img/headline_03.gif" width="728" height="32" alt="レストラン" class="sp-disNon"><span class="sp-heading pc-disNon">レストラン</span></h2>
+<a href="/location/restaurant/"><img src="/img/headline_03_list.gif" width="108" height="14" alt="レストラン一覧" class="sp-disNon"><span class="sp-link pc-disNon">レストラン一覧</span></a>
+</div>
+
+<ul class="clearfix">
+<li>
+<dl>
+<dt><a href="/location/restaurant/002.html"><img src="/img/restaurant_img_01.jpg" alt="" width="224" height="200"></a></dt>
+<dt><img src="/img/restaurant_ttl_01.gif" alt="インドカリーの店" width="224" height="30" class="sp-disNon"><span class="sp-heading pc-disNon">インドカリーの店</span></dt>
+<dd>中村屋伝統の純印度式カリーはもちろん、バラエティー豊かなカリー類をご用意しております。</dd>
+</dl>
+</li>
+<li>
+<dl>
+<dt><a href="/location/restaurant/001.html"><img src="/img/restaurant_img_02.jpg" alt="" width="224" height="200"></a></dt>
+<dt><img src="/img/restaurant_ttl_02.gif" alt="オリーブハウス" width="224" height="30" class="sp-disNon"><span class="sp-heading pc-disNon">オリーブハウス</span></dt>
+<dd>「木漏れ日のなかのテラス」をイメージした、カジュアルで明るいレストラン＆カフェです。</dd>
+</dl>
+</li>
+
+<!--
+<li>
+<dl>
+<dt><a href="/location/restaurant/003.html"><img src="/img/restaurant_img_003.jpg" alt="" width="224" height="200"></a></dt>
+<dt><img src="/img/restaurant_ttl_03.gif" alt="イルベローネ" width="224" height="30"></dt>
+<dd>専用釜で焼き上げた薄焼きタイプのピッツァが楽しめるイタリアンレストラン。</dd>
+</dl>
+</li>
+-->
+<li>
+<dl>
+<dt><a href="/location/restaurant/004.html"><img src="/img/restaurant_img_04.jpg" alt="" width="224" height="200"></a></dt>
+<dt><img src="/img/restaurant_ttl_04.gif" alt="洋食レストラン" width="224" height="30" class="sp-disNon"><span class="sp-heading pc-disNon">洋食レストラン</span></dt>
+<dd>時が経っても変わらない、昔ながらの伝統を大切にしながら老舗ならではの洋食をご提供いたします。</dd>
+</dl>
+</li>
+
+
+</ul>
+</div>
+
+<div class="bakery">
+<div class="headLine"><h2><img src="/img/headline_04.gif" width="224" height="32" alt="ベーカリーショップ" class="sp-disNon"><span class="sp-heading pc-disNon">ベーカリーショップ</span></h2></div>
+
+<ul>
+<li>
+<dl>
+<dt><a href="/location/bread/"><img src="/img/bakery_img_01.jpg" alt="" width="224" height="200"></a></dt>
+<dt><img src="/img/bakery_ttl_01.gif" alt="ファリーヌ" width="224" height="30" class="sp-disNon"><span class="sp-heading pc-disNon">ファリーヌ</span></dt>
+<dd>明るく、親しみやすい雰囲気で、食卓パンと手作りサンドイッチを主体に提供する、焼きたてパンの店です。</dd>
+</dl>
+</li>
+</ul>
+</div>
+<!-- /#sec03 --></div>
+
+<div id="sec04">
+<div class="headLine">
+<h2><img src="/img/headline_05.gif" width="980" height="32" alt="ショップブランド" class="sp-disNon"><span class="sp-heading pc-disNon">ショップブランド</span></h2>
+<a href="/location/brand/"><img src="/img/headline_05_list.gif" width="148" height="14" alt="ショップブランド一覧" class="sp-disNon"><span class="sp-link pc-disNon">ショップブランド一覧</span></a>
+</div>
+
+<ul class="brand clearfix">
+<li>
+<dl>
+<dt><a href="http://www.tokyo-chocolaterie.com/" target="_blank"><img src="/img/brand_img_01.jpg" alt="" width="224" height="200"></a></dt>
+<dt><img src="/img/brand_ttl_01.gif" alt="東京ショコラトリー" width="224" height="30" class="sp-disNon"><span class="sp-heading pc-disNon">東京ショコラトリー</span></dt>
+<dd>しょ・こ・らの新しい魅力。東京ショコラトリーがお届けします。</dd>
+</dl>
+</li>
+<li>
+<dl>
+<dt><a href="http://www.kuroichiya.com/" target="_blank"><img src="/img/brand_img_02.jpg" alt="新宿 中村屋 オンラインショップ" width="224" height="200"></a></dt>
+<dt><img src="/img/brand_ttl_02.gif" alt="九六一八" width="224" height="30" class="sp-disNon"><span class="sp-heading pc-disNon">九六一八</span></dt>
+<dd>沖縄県産黒砂糖を使用した、九六一八の商品をご紹介致します。</dd>
+</dl>
+</li>
+<li>
+<dl>
+<dt><a href="/products/brand/enkaten/"><img src="/img/brand_img_03.jpg" alt="" width="224" height="200"></a></dt>
+<dt><img src="/img/brand_ttl_03.gif" alt="円果天" width="224" height="30" class="sp-disNon"><span class="sp-heading pc-disNon">円果天</span></dt>
+<dd>人と人とのつながりや自然や季節を慈しむ心が込められた月餅、円果天。</dd>
+</dl>
+</li>
+<li>
+<dl>
+<dt><a href="/products/brand/issui/"><img src="/img/brand_img_04.jpg" alt="" width="224" height="200"></a></dt>
+<dt><img src="/img/brand_ttl_04.gif" alt="ISSUI" width="224" height="30" class="sp-disNon"><span class="sp-heading pc-disNon">ISSUI</span></dt>
+<dd>伝統から美しさへ。繊細で華やか、古くて新しい”新”椀菓子です。</dd>
+</dl>
+</li>
+</ul>
+<!-- /#sec04 --></div>
+
+<div id="pageTop"><a href="#"><img src="/common/img/container/pagetop_off.gif" width="105" height="18" alt="ページTOPへ"></a></div>
+<!-- /#container --></div>
+<!-- /#topIndex --></div>
+
+<div id="social">
+<div id="socialInr">
+<ul class="clearfix">
+<li class="line">
+<span>
+<script type="text/javascript" src="//media.line.me/js/line-button.js?v=20140411" ></script>
+<script type="text/javascript">
+new media_line_me.LineButton({"pc":false,"lang":"ja","type":"a"});
+</script>
+</span>
+</li>
+<li class="tw">
+<a href="https://twitter.com/share" class="twitter-share-button" data-count="none">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+</li>
+<li class="fb">
+<iframe
+src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.nakamuraya.co.jp%2F&amp;width&amp;layout=button&amp;action=like&amp;show_faces=true&amp;share=false&amp;height=80&amp;appId=541470242647494"
+scrolling="no" frameborder="0" style="border:none; overflow:hidden;
+height:80px;" allowTransparency="true"></iframe>
+</li>
+</ul>
+<!-- /#socialInr --></div>
+<!-- /#social --></div>
+
+<div id="footer">
+<div id="footerInr">
+
+<div id="footerNav" class="clearfix">
+<div id="footTtl"><a href="/"><img src="/common/img/footer/ft_logo.gif" alt="新宿 中村屋" width="140" height="30"></a></div>
+<div class="col-1">
+<dl>
+<dt><a href="/products/">商品・キャンペーン</a></dt>
+<dd>
+<ul>
+<li><a href="/products/kashi/001/">菓子</a></li>
+<li><a href="/products/brand/enkaten/">ショップブランド</a></li>
+<li><a href="/products/chuman/001/">中華まん</a></li>
+<li><a href="/products/curry/001/">レトルトカレー</a></li>
+<li><a href="/products/cooking/001/">調理用カリー</a></li>
+<li><a href="/products/chuka/001/">中華レトルト</a></li>
+<li><a href="/products/others/001/">その他レトルト食品</a></li>
+<li><a href="/products/can/002/">缶詰</a></li>
+<li><a href="/products/frozen/001/">冷凍食品</a></li>
+</ul>
+</dd>
+</dl>
+<dl>
+<dt><a href="/location/">新宿中村屋ビル（旧本店）<br>販売店・レストラン</a></dt>
+<dd>
+<ul>
+<li><a href="/location/shinjuku/">新宿中村屋ビル（旧本店）</a></li>
+<li><a href="/location/store/">新宿中村屋　販売店</a></li>
+<li><a href="/location/restaurant/">レストラン</a></li>
+<li><a href="/location/brand/">ショップブランド</a></li>
+<li><a href="/location/bread/">ベーカリーショップ</a></li>
+</ul>
+</dd>
+</dl>
+</div>
+
+<div class="col-2">
+<dl>
+<dt><a href="/pavilion/">歴史・おいしさの秘密</a></dt>
+<dd>
+<p>【歴史】</p>
+<ul>
+<li><a href="/pavilion/history/">中村屋の歴史</a></li>
+<li><a href="/pavilion/products/">商品の歴史</a></li>
+<li><a href="/pavilion/founder/">創業者ゆかりの人々</a></li>
+</ul>
+</dd> 
+<dd>
+<p>【おいしさの秘密】</p>
+<ul>
+<li><a href="/pavilion/secret/curry/">純印度式カリー</a></li>
+<li><a href="/pavilion/secret/tensei/">天成饅</a></li>
+</ul>
+</dd> 
+<dd>
+<p>【レシピ】</p>
+<ul>
+<li><a href="/pavilion/chef/">中村屋シェフのカレーレシピ</a></li>
+<li><a href="/pavilion/spice/">スパイスの使い方</a></li>
+</ul>
+</dd>
+</dl>
+</div>
+<div class="col-3">
+<dl>
+<dt><a href="/company/">企業情報</a></dt>
+<dd>
+<ul>
+<li><a href="/company/message.html">ご挨拶</a></li>
+<li><a href="/company/news.html">ニュースリリース</a></li>
+</ul>
+</dd>
+<dd>
+<p>【会社案内】</p>
+<ul>
+<li><a href="/company/info/about.html">会社概要・沿革</a></li>
+<li><a href="/company/info/business.html">事業内容</a></li>
+<li><a href="/company/info/offce.html">事業所</a></li>
+</ul>
+</dd>
+<dd>
+<p>【IR情報】</p>
+<ul>
+<li><a href="/company/ir/greeting.html">株主・投資家の皆様へ</a></li>
+</ul>
+</dd>
+<dd>
+<p>【社会・環境への取り組み】</p>
+<ul>
+<li><a href="/company/csr/rule.html">健全な経営に向けて</a></li>
+<li><a href="/company/csr/csr02.html">おいしさと安心・安全のために</a></li>
+<li><a href="/company/csr/csr03.html">働く皆さんとともに</a></li>
+<li><a href="/company/csr/csr04.html">地球環境のために</a></li>
+<li><a href="/company/csr/csr.html">社会の一員として</a></li>
+</ul>
+</dd>
+</dl>
+</div>
+<div class="col-4">
+<dl>
+<dt><a href="/recruit/">採用情報</a></dt>
+<dd>
+<ul>
+<li><a href="/recruit/guideline.html">募集要項</a></li>
+<li><a href="/recruit/business.html">職種紹介</a></li>
+<li><a href="/recruit/entry.html">エントリー</a></li>
+</ul>
+</dd>
+</dl>
+</div>
+<div class="col-5">
+<dl>
+<dt><a href="/news/info/">お知らせ</a></dt>
+<dt><a href="/news/ir/">ニュースリリース・IR情報</a></dt>
+<dt><a href="/privacy/">プライバシーポリシー</a></dt>
+<dt><a href="/utility/">サイトのご利用について</a></dt>
+<dt><a href="/inquiry/faq.html">お問い合わせ</a></dt>
+<dt><a href="/sitemap/">サイトマップ</a></dt>
+</dl>
+</div>
+</div>
+
+<div id="copyright"><p>Copyright &copy; NAKAMURAYA CO.,LTD. All Rights Reserved.</p></div>
+
+<!-- /#footerInr --></div>
+<!-- /#footer --></div>
+<!-- /#wrapper --></div>
+
+<!-- Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-38256187-1', 'auto');
+  ga('require', 'linkid', 'linkid.js');
+  ga('send', 'pageview');
+</script>
+<!-- / Google Analytics --><!-- 共通footer -->
+</body>
+</html>
+

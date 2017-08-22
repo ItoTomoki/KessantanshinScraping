@@ -1,0 +1,377 @@
+
+
+<!DOCTYPE html>
+<html lang="ja-JP">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+<link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
+<meta name="keywords" content="">
+<meta name="description" content="">
+<title>旭松食品</title>
+<!--[if IE 8]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="/js/prefixfree.min.js"></script>
+<script src="/js/jquery.global.js" type="text/javascript"></script>
+<script src="/js/jquery.flexslider-min.js"></script>
+<link rel="stylesheet" href="/css/reset.css">
+<link rel="stylesheet" href="/css/base-styles.css">
+<link rel="stylesheet" href="/css/styles.css">
+<link rel="stylesheet" href="/css/flexslider.css">
+<script type="text/javascript" charset="utf-8">
+$(window).load(function() {
+	$('.flexslider').flexslider();
+});
+</script>
+</head>
+	<body id="index" class="index">
+		<article class="article">
+			<header class="header" id="page-top">
+				<section class="wrapper">
+					<div class="col12">
+						<h1><a href="/"><img src="/img/header-logo.svg" alt="旭松"></a></h1>
+						<div class="on-sp">
+							<p class="menu-icon"><img src="/img/menu-icon.png" alt="menu"></p>
+							<p class="menu-icon-close"><img src="/img/menu-icon-close.png" alt="menu"></p>
+						</div>
+						<nav class="nav">
+							<ul class="gnav">
+								<li class="header-searchbox">
+									<form id="cse-search-box" action="http://www.asahimatsu.co.jp/search_result.html">
+										<input type="hidden" name="ie" value="UTF-8" />
+										<input type="text" name="q" size="31" />
+										<input type="submit" name="sa" value="Search" />
+									</form>
+								</li>
+								<li><a href="/mastering.html">旭松食品のこだわり</a></li>
+								<li><a href="/shinasahi.html">新あさひ豆腐</a></li>
+								<li><a href="/namamisozui.html">生みそずい・スープ</a></li>
+								<li><a href="/hyakusai.html">やわらか百菜</a></li>
+								<li><a href="/products/">商品情報</a></li>
+								<li><a href="/recipe/">おすすめレシピ</a></li>
+							</ul>
+							<ul class="snav">
+								<li><a href="/faq.html">よくあるご質問</a></li>
+								<li><a href="https://www.asahimatsu.co.jp/contact.html">お問い合わせ</a></li>
+								<li><a href="/privacy.html">個人情報保護方針</a></li>
+								<li><a href="/company">企業情報トップページ</a></li>
+								<li class="off-sp header-searchbox">
+									<form id="cse-search-box" action="http://www.asahimatsu.co.jp/search_result.html">
+										<input type="hidden" name="ie" value="UTF-8" />
+										<input type="text" name="q" size="31" />
+										<input type="submit" name="sa" value="Search" />
+									</form>
+								<li>
+							</ul>
+						</nav>
+					</div><!-- col12 -->
+				</section><!-- wrapper -->
+			</header>
+	
+
+			<div class="container">
+			<section class="wrapper mt-1em">
+				<div class="flexslider col12">
+					<ul class="slides">
+						<li>
+							<a href="/cm/index.html" target=""><img src="/wp/wp-content/uploads/1574/index-mainimage_cm.jpg" alt="" /></a>
+						</li>
+						<li>
+							<img src="/wp/wp-content/uploads/1574/top_banner1.jpg" alt="これからを大豆から。" />
+						</li>
+						<li>
+							<a href="/shinasahi.html" target=""><img src="/wp/wp-content/uploads/1574/top_banner2.jpg" alt="新あさひ豆腐" /></a>
+						</li>
+						<li>
+							<a href="/recipe/" target=""><img src="/wp/wp-content/uploads/1574/index-mainimage_01.jpg" alt="おすすめレシピ紹介" /></a>
+						</li>
+						<li>
+							<a href="http://www.asahimatsu-shop.com" target="_blank"><img src="/wp/wp-content/uploads/1574/index-mainimage_shop.jpg" alt="旭松食品オンラインショップ" /></a>
+						</li>
+					</ul>
+				</div>
+			</section><!-- wrapper -->
+
+			<section class="beige-pat">
+				<div class="wrapper index-info-link">
+					<div class="col4">
+						<a href="mastering.html">
+							<p><img src="/img/index-nav-mastering.jpg" alt="旭松食品のこだわり" class="off-sp">
+							<img src="/img/index-nav-mastering_sp.jpg" alt="旭松食品のこだわり" class="on-sp"></p>
+							<dl>
+								<dt>旭松食品のこだわり</dt>
+								<dd><hr><strong>日本一のこうや豆腐メーカーを<br class="on-pc">目指すなかで培われたこだわり</strong></dd>
+							</dl>
+						</a>
+					</div>
+					<div class="col4">
+						<a href="shinasahi.html">
+							<p><img src="/img/index-nav-shinasahi.jpg" alt="新あさひ豆腐のこだわり" class="off-sp">
+							<img src="/img/index-nav-shinasahi_sp.jpg" alt="新あさひ豆腐のこだわり" class="on-sp"></p>
+							<dl>
+								<dt>新あさひ豆腐の<br class="on-sp">こだわり</dt>
+								<dd><hr><strong>高い栄養価と豊富な栄養成分、<br class="on-pc">新製法で進化し続ける伝統食</strong></dd>
+							</dl>
+						</a>
+					</div>
+					<div class="col4">
+						<a href="namamisozui.html">
+							<p><img src="/img/index-nav-namamiso.jpg" alt="生みそずい・スープのこだわり" class="off-sp">
+							<img src="/img/index-nav-namamiso_sp.jpg" alt="生みそずい・スープのこだわり" class="on-sp"></p>
+							<dl>
+								<dt>生みそずい・スープの<br class="on-sp">こだわり</dt>
+								<dd><hr><strong>手軽に短時間でできる本格派<br class="on-pc">現代の食シーンにあった提案を</strong></dd>
+							</dl>
+						</a>
+					</div>
+					<div class="col4">
+						<a href="hyakusai.html">
+							<p><img src="/img/index-nav-hyakusai.jpg" alt="介護食のこだわり" class="off-sp">
+							<img src="/img/index-nav-hyakusai_sp.jpg" alt="介護食のこだわり" class="on-sp"></p>
+							<dl>
+								<dt>やわらか百菜のこだわり</dt>
+								<dd><hr><strong>和食をベースに、おいしさにこだわり<br class="on-pc">食べる喜びを提供します</strong></dd>
+							</dl>
+						</a>
+					</div>
+					<div class="col4">
+						<a href="/recipe/">
+							<p><img src="/img/index-nav-recipe.jpg" alt="おすすめレシピ紹介" class="off-sp">
+							<img src="/img/index-nav-recipe_sp.jpg" alt="おすすめレシピ紹介" class="on-sp"></p>
+							<dl>
+								<dt>おすすめレシピ紹介</dt>
+								<dd><hr><strong>たんぱく質豊富でヘルシーなこうや豆腐を使ったレシピをご紹介します。</strong></dd>
+							</dl>
+						</a>
+					</div>
+					<div class="col4">
+						<a href="/products/">
+							<p><img src="/img/index-nav-product.jpg" alt="商品紹介" class="off-sp">
+							<img src="/img/index-nav-product_sp.jpg" alt="商品紹介" class="on-sp"></p>
+							<dl>
+								<dt>商品紹介</dt>
+								<dd><hr><strong>新製法の「新あさひ豆腐」は、<br class="on-pc">健康とおいしさがキーワード</strong></dd>
+							</dl>
+						</a>
+					</div>
+				</div><!-- wrapper -->
+			</section><!-- beige-pat -->
+
+			<section class="wrapper box-release">
+				<div class="col6">
+					<h1><strong>ニュースリリース</strong>
+					<a href="/release/">一覧</a></h1>
+					<ul>
+						<li><span class="icon">イベント</span><strong>2017.07.28</strong><a href="/release/2017072801.html">「HACCPチャレンジ事業」参加</a></li>
+						<li><span class="icon">イベント</span><strong>2017.07.26</strong><a href="/release/2017072601.html">泰阜村（長野県）で有機質肥料生産開始!!</a></li>
+						<li><span class="icon">イベント</span><strong>2017.07.11</strong><a href="/release/2017071101.html">紀伊國屋書店　梅田本店の特設コーナーに注目！</a></li>
+						<li><span class="icon">イベント</span><strong>2017.07.11</strong><a href="/release/2017071102.html">rootcafe（紀伊國屋書店梅田本店横）にて、こうや豆腐＆粉豆腐の未知なる魅力をご紹介！</a></li>
+						<li><span class="icon">イベント</span><strong>2017.03.17</strong><a href="/release/2017031701.html">「リビングHappyフェスティバル」に出展します。</a></li>
+					</ul>
+				</div>
+
+				<div class="col6">
+					<h1><strong>IRニュース</strong>
+					<a href="/company/ir_news/">一覧</a></h1>
+					<ul>
+						<li><strong>2017.08.09</strong><a href="/company/ir_news/2017080902.html">平成30年３月期　第１四半期決算短信〔日本基準〕(連結)</a></li>
+						<li><strong>2017.05.15</strong><a href="/company/ir_news/h29_4q.html">平成29年３月期　決算短信　[日本基準]（連結）</a></li>
+						<li><strong>2017.02.09</strong><a href="/company/ir_news/h29_3q.html">平成29年３月期　第３四半期決算短信［日本基準］（連結）</a></li>
+						<li><strong>2016.11.09</strong><a href="/company/ir_news/2016110901.html">平成29年３月期第２四半期連結累計期間の業績予想値と実績値との差異及び平成29年３月期通期連結業績予想の修正に関するお知らせ</a></li>
+						<li><strong>2016.02.15</strong><a href="/company/ir_news/2016021501.html">(訂正・数値データ訂正）平成28年３月期　第３四半期決算短信［日本基準］（連結）の一部訂正について</a></li>
+					</ul>
+				</div>
+			</section><!-- wrapper -->
+
+			<section class="beige">
+				<div class="wrapper">
+					<p class="col6 text-center">
+						<a href="http://www.asahimatsu-shop.com/" target="_blank"><img src="/img/btn-onlineshop.png" alt="旭松食品の通販オンラインショップ"></a>
+					</p>
+					<p class="col6 text-center">
+						<a href="/company/"><img src="/img/btn-company.jpg" alt="旭松食品企業情報"></a>
+					</p>
+				</div><!-- wrapper -->
+			</section><!-- beige -->
+
+			<section class="wrapper box-release">
+				<h1 class="col12 text-center"><strong>お客様相談室</strong></h1>
+				<p class="col12 text-center">製品についてのお問い合わせ・ご質問はこちらをご覧ください</p>
+				<p class="col3 vertical-top"><a href="/faq.html" class="link-faq">よくあるご質問</a></p>
+				<p class="col3 vertical-top text-center"><a href="https://www.asahimatsu.co.jp/contact.html" class="link-contact mb-05em">お問い合わせ先</a>
+				<a href="/privacy.html" class="link-arrow-red"><small class="small">個人情報保護方針</small></a></p>
+			</section>
+
+			</div><!--container-->
+
+			<footer class="footer">
+				<div class="wrapper">
+					<div class="col5 vertical-top">
+						<h3><a href="/">商品情報・ブランドサイト</a></h3>
+						<dl>
+							<dt>旭松食品のこだわり</dt>
+							<dd>
+								<ul>
+									<li><a href="/mastering.html">ものづくり</a></li>
+								</ul>
+							</dd>
+							<dt>新あさひ豆腐</dt>
+							<dd>
+								<ul>
+									<li><a href="/shinasahi.html">新あさひ豆腐のこだわり</a></li>
+									<li><a href="/research.html">最新研究紹介</a></li>
+									<li><a href="/chronicle.html">こうや豆腐年代記</a></li>
+									<li><a href="/process.html">こうや豆腐ができるまで</a></li>
+									<li><a href="/standard.html">基本のつくり方</a></li>
+								</ul>
+							</dd>
+							<dt>生みそずい・スープ</dt>
+							<dd>
+								<ul>
+									<li><a href="/namamisozui.html">生みそずい・スープのこだわり</a></li>
+								</ul>
+							</dd>
+							<dt>やわらか百菜</dt>
+							<dd>
+								<ul>
+									<li><a href="/hyakusai.html">やわらか百菜のこだわり</a></li>
+								</ul>
+							</dd>
+							<dt>商品情報</dt>
+							<dd>
+								<ul>
+									<li><a href="/products/kouya/">こうや豆腐</a></li>
+									<li><a href="/products/namamisozui/">生みそずい</a></li>
+									<li><a href="/products/soup/">スープ</a></li>
+									<li><a href="/products/hyakusai/">やわらか百菜</a></li>
+									<li><a href="/products/others/">その他</a></li>
+								</ul>
+							</dd>
+						</dl>
+						<dl>
+							<dt>おすすめレシピ</dt>
+							<dd>
+								<ul>
+									<li><a href="/recipe/">すべて</a></li>
+									<li><a href="/recipe/index.html?q=kantan">簡単</a></li>
+									<li><a href="/recipe/index.html?q=obento">お弁当</a></li>
+									<li><a href="/recipe/index.html?q=omotenashi">おもてなし</a></li>
+									<li><a href="/recipe/index.html?q=dessert">デザート</a></li>
+									<li><a href="/recipe/index.html?q=gen-en">減塩</a></li>
+									<li><a href="/recipe/index.html?q=calorie-off">カロリーオフ</a></li>
+									<li><a href="/recipe/index.html?q=carbo-off">糖質オフ</a></li>
+									<li><a href="/recipe/index.html?q=isoflavone">カルシウム</a></li>
+									<li><a href="/recipe/index.html?q=iron">鉄分</a></li>
+									<li><a href="/recipe/index.html?q=staple-food">主食</a></li>
+									<li><a href="/recipe/index.html?q=main-dish">主菜</a></li>
+									<li><a href="/recipe/index.html?q=sub-dish">副菜</a></li>
+									<li><a href="/recipe/index.html?q=soup">汁物</a></li>
+									<li>タイプ別</li>
+									<li style="margin-left : 16px;"><a href="/recipe/index.html?q=1-piece">1枚もの</a></li>
+									<li style="margin-left : 16px;"><a href="/recipe/index.html?q=bite-sized">ひとくち・1/6</a></li>
+									<li style="margin-left : 16px;"><a href="/recipe/index.html?q=dice-cut">サイコロ・1/20</a></li>
+									<li style="margin-left : 16px;"><a href="/recipe/index.html?q=miso">薄切り／みそ汁用・1/60</a></li>
+									<li style="margin-left : 16px;"><a href="/recipe/index.html?q=thinly-sliced">細切り・1/150</a></li>
+									<li style="margin-left : 16px;"><a href="/recipe/index.html?q=powder">粉豆腐</a></li>
+									<li style="margin-left : 16px;"><a href="/recipe/index.html?q=umami">こうや豆腐のだし</a></li>
+								</ul>
+							</dd>
+						</dl>
+					</div><!-- col5 -->
+
+					<div class="col7 vertical-top">
+						<h3><a href="/company/">企業情報サイト</a></h3>
+						<dl>
+							<dt>企業情報</dt>
+							<dd>
+								<ul>
+									<li><a href="/company/philosophy.html">企業理念</a></li>
+									<li><a href="/company/information.html">会社概要</a></li>
+									<li><a href="/company/history.html">沿革</a></li>
+									<li><a href="/company/location.html">事業拠点</a></li>
+									<li><a href="/company/voice.html">社員紹介</a></li>
+									<li><a href="/company/recruit.html">採用情報</a></li>
+								</ul>
+							</dd>
+							<dt>製品開発</dt>
+							<dd>
+								<ul>
+									<li><a href="/company/development.html">製品開発と食品研究所</a></li>
+								</ul>
+							</dd>
+						</dl>
+
+						<dl>
+							<dt>品質管理</dt>
+							<dd>
+								<ul>
+									<li><a href="/company/quality.html">生産と品質管理</a></li>
+								</ul>
+							</dd>
+							<dt>IR情報</dt>
+							<dd>
+								<ul>
+									<li><a href="/company/ir_news/">IRニュース</a></li>
+									<li><a href="/company/ir_calendar.html">IRカレンダー</a></li>
+									<li><a href="/company/ir_financial.html">決算情報</a></li>
+									<li style="margin-left : 16px;"><a href="/company/ir_financial.html">決算短信</a></li>
+									<li style="margin-left : 16px;"><a href="/company/ir_securities.html">有価証券報告書</a></li>
+									<li style="margin-left : 16px;"><a href="/company/ir_stockholder.html">株主通信</a></li>
+									<li><a href="/company/ir_announcement/">電子公告</a></li>
+								</ul>
+							</dd>
+							<dt>ニュースリリース</dt>
+							<dd>
+								<ul>
+									<li><a href="/release/">ニュースリリース</a></li>
+								</ul>
+							</dd>
+							<dt><a href="/english/asahimatsu02.html" target="_blank">ENGLISH</a></dt>
+						</dl>
+
+						<dl>
+							<dt>よくあるご質問</dt>
+							<dd>
+								<ul>
+									<li><a href="/faq.html#grp1">企業情報、IR情報について</a></li>
+									<li><a href="/faq.html#grp2">商品について</a></li>
+									<li><a href="/faq.html#grp3">その他</a></li>
+								</ul>
+							</dd>
+							<dt><a href="/privacy.html">個人情報保護方針</a></dt>
+							<dt><a href="https://www.asahimatsu.co.jp/contact.html">お問い合わせ</a></dt>
+						</dl>
+					</div><!-- col7 -->
+
+					<hr>
+					<div class="col12 copy">
+						<img src="/img/footer-logo.svg" alt="旭松食品">
+						<p>旭松食品株式会社  -  こうや豆腐・生みそずいの旭松食品が、大豆のおいしさと健康・安心を皆さまにお届けします。<br>&copy; ASAHIMATSU FOODS CO., LTD.</p>
+					</div>					
+				</div><!--wrapper-->
+				<div class="pagetop-box">
+					<a href="#page-top" class="footer-top-btn">
+					<span><img src="/img/footer_topbtn.png" alt="ページのTOP">
+					</span>
+					</a>
+				</div>
+			</footer>
+<script>
+ (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||
+function(){
+ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.
+createElement(o),
+ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.
+insertBefore(a,m)
+ })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ ga('create', 'UA-2212426-1', 'auto');
+ ga('send', 'pageview');
+
+</script>
+		</article>
+	</body>
+</html>

@@ -1,0 +1,903 @@
+<!DOCTYPE html>
+<html lang="ja" class="no-js">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="株式会社FRONTEOは、人工知能「KIBIT（キビット）」で人と社会のより良い未来を創造します。2016年7月1日に、株式会社UBICから商号を変更いたしました。独自の行動情報科学を用い、様々な領域においてビッグデータを含む情報解析を支援します。">
+<meta name="keywords" content="FRONTEO,人工知能,AI,情報,解析,ビッグデータ,行動情報科学,KIBIT,キビット,Kibiro,キビロ">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=1160">
+<title>行動情報データ解析のFRONTEO（フロンテオ）</title>
+<link rel='stylesheet' href='//fonts.googleapis.com/css?family=Roboto:300,400,500|Roboto+Condensed:300,400,700|Inconsolata:400'>
+<link rel="stylesheet" href="/common/css/style.css" media="screen,print">
+<link rel="stylesheet" href="/common/css/print.css" media="print">
+<script src="/common/js/run_head.js"></script>
+<link rel="stylesheet" href="/js/slick/slick.css">
+<link rel="stylesheet" href="/css/seminarlist.css">
+<link rel="stylesheet" href="/css/top.css">
+
+<!-- E-IR Parts コーポレートトップ(1/2)-->
+<script type="text/javascript">
+<!--
+var eirUrl = ('https:' == document.location.protocol ? 'https://ssl4' : 'http://v4') + '.eir-parts.net';
+if(document.location.protocol == 'https:' || document.location.protocol == 'http:'){
+	var eirPass = eirUrl + '/Custom/public/parts/2158/ja/parts_160601/';
+}else{
+	var eirPass = './ir/ja/parts_160601/';
+}
+document.write(unescape("%3Clink rel='stylesheet' href='" + eirPass + "main.css' type='text/css'%3E%3C/link%3E"));
+-->
+</script>
+<!-- /E-IR Parts コーポレートトップ(1/2)-->
+
+</head>
+<body>
+<header class="site-header">
+<div class="str-outer">
+<div class="str-inner">
+
+<h1 class="logo"><a href="/"><img src="/common/images/logo-site_01.png" alt="FRONTEO"></a></h1>
+
+<nav class="str-nav">
+<div class="group-gnav">
+<ul class="list">
+<li><a href="/kibit/">KIBIT</a>
+<ul class="child col1">
+<li><a href="/kibit/future/">未来の社会を輝かすKIBIT</a></li>
+<li><a href="/kibit/hallmarks/">KIBITの特徴とこれから</a></li>
+</ul>
+</li>
+<li><a href="/solution/">ソリューション</a>
+<ul class="child">
+<li><a href="/solution/healthcare/">ヘルスケア</a></li>
+<li><a href="/solution/marketing/">マーケティング</a></li>
+<li><a href="/solution/robots/">ロボット</a></li>
+<li><a href="/solution/business-intelligence/">ビジネスインテリジェンス</a></li>
+<li><a href="/solution/legal-intelligence/">ディスカバリ支援</a></li>
+<li><a href="/solution/advanced-forensics/">フォレンジック調査</a></li>
+<li><a href="/solution/audit/">監査</a></li>
+<li><a href="/solution/national-security/">ナショナルセキュリティ</a></li>
+</ul>
+</li>
+<li><a href="/services/">サービス・プロダクト</a>
+<ul class="child">
+<li><a href="/services/personal/">サービス・プロダクト（個人）</a></li>
+<li><a href="/services/business/">サービス・プロダクト（法人）</a></li>
+<li><a href="/services/training/">トレーニング（法人）</a></li>
+<li><a href="/seminars/">セミナー</a></li>
+</ul>
+</li>
+<li><a href="/corporate/">企業情報</a>
+<ul class="child">
+<li><a href="/corporate/message.html">CEOメッセージ</a></li>
+<li><a href="/corporate/about/">会社概要</a></li>
+<li><a href="/corporate/vision.html">企業理念</a></li>
+<li><a href="/corporate/locations/">国内・海外拠点</a></li>
+<li><a href="/corporate/access.html">アクセスマップ</a></li>
+<li><a href="/corporate/history/">沿革</a></li>
+<li><a href="/corporate/books/">出版物のご紹介</a></li>
+<li><a href="/corporate/news/">お知らせ</a></li>
+</ul>
+</li>
+<li><a href="/ir/">IR情報</a>
+<ul class="child">
+<li class="clear-line"><a href="/ir/business-strategy/">FRONTEOの事業概要と戦略</a></li>
+<li><a href="/ir/release.html">プレスリリース</a></li>
+<li><a href="/ir/disclosure.html">適時開示情報</a></li>
+<li><a href="/ir/calendar/">IRカレンダー</a></li>
+<li><a href="/ir/managemant/message.html">経営方針</a></li>
+<li><a href="/ir/results/">業績・財務</a></li>
+<li><a href="/ir/ir-data/summary.html">IR資料室</a></li>
+<li><a href="/ir/stock/info.html">株式について</a></li>
+<li><a href="/ir/disclaimer.html">免責事項</a></li>
+</ul>
+</li>
+<li class="on-unchild"><a href="/secure/contact/">お問い合わせ</a></li>
+<li class="on-unchild"><a href="/recruit/" target="_blank">採用情報<img src="/common/images/icon-window_01_o.png" alt="別ウィンドウで開きます" class="icon-window-01"></a></li>
+<!-- /.list --></ul>
+<!-- /.group-gnav --></div>
+
+<div class="group-search">
+<form method="get" action="/search/index.html" id="search-form" name="search-form" role="search">
+<fieldset>
+<legend>サイト内検索</legend>
+<input type="search" id="searchText01" class="search-box" value="" name="q" placeholder="Search"><input type="image" src="/common/images/btn-search_01.png" alt="検索">
+</fieldset>
+</form>
+<!-- /.group-search --></div>
+<!-- /.str-nav --></nav>
+
+<!-- /.str-inner --></div>
+<!-- /.str-outer --></div>
+<!-- /.site-header --></header>
+
+
+<div class="site-content">
+
+  <section class="mv">
+    <div class="mv__title">
+      <div class="logo__anime__wrapper">
+        <div class="logo__anime" id="logo__anime">
+          <canvas id="logo__anime__canvas" width="440" height="440"></canvas>
+        </div>
+      </div>
+    </div>
+    <p class="mv__slogan"><img src="images/mv/mv_slogan.png" srcset="images/mv/mv_slogan@2x.png 2x" alt="" width="569" height="110"></p>
+    <div id="mv" class="mv__videos">
+      <video src="/images/mv/mv_movie_01.mp4" preload="none" poster="/images/mv/001_00000.jpg"></video>
+      <video src="/images/mv/mv_movie_02.mp4" preload="none" poster="/images/mv/002_00000.jpg"></video>
+      <video src="/images/mv/mv_movie_03.mp4" preload="none" poster="/images/mv/003_00000.jpg"></video>
+      <video src="/images/mv/mv_movie_04.mp4" preload="none" poster="/images/mv/004_00000.jpg"></video>
+      <canvas id="mv__canvas"></canvas>
+    </div>
+  </section>
+
+  <div class="news-ticker">
+    <div class="news-ticker__inner">
+      <div class="news-ticker__list">
+        <!--<a href="#" target="_blank">-->
+          <span class="meta">
+            <span class="date">2017.07.28</span>
+          </span>
+          <span class="title"><a href="http://navigator.eir-parts.net/EIRNavi/DocumentNavigator/ENavigatorBody.aspx?cat=tdnet&sid=1499467&code=2158&ln=ja&disp=simple" target="_blank">TSUBASAアライアンス加盟行と、KIBITによる文章解析技術の導入に向け実証実験開始</a></span>
+        <!--</a>-->
+      </div>
+      <div class="news-ticker__more">
+        <a class="smooth-scroll" href="http://navigator.eir-parts.net/EIRNavi/DocumentNavigator/ENavigatorBody.aspx?cat=tdnet&sid=1499467&code=2158&ln=ja&disp=simple" target="_blank">
+          <span class="text">Press Releases</span>
+          <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="9" height="13" viewBox="0 0 9 13"><path d="M5 12.707v.293h-1v-.292l-4-4 .71-.707 3.29 3.293v-11.294h1v11.293l3.29-3.293.71.707z"/></svg></span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  
+  <section class="section">
+
+
+<ul class="list-nav-01 col4 mb00 ml00">
+<li class="w-25 pl00">    
+      <div class="service-list">
+      <div class="service-list__group">
+        <a href="http://www.kibit-platform.com/" target="_blank" class="color-01">
+          <div class="title">
+            <span class="logo"><img src="images/service_logo_01.png" alt="KIBIT" style="max-width:224px;"></span>
+            <span class="catch">
+              <span class="text"><span>人工知能搭載データ解析プラットフォーム</span></span>
+              <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="60" height="18" viewBox="0 0 60 18"><path d="M59.515 10l-8 8-1.414-1.41 6.586-6.59h-56.687v-2h56.687l-6.586-6.59 1.414-1.41 8 8h.485v2h-.485z"/></svg></span>
+            </span>
+            <span class="bg" style="background-image: url(images/service_bg_01.jpg); "></span>
+          </div>
+        </a>
+      </div></div></li>
+      <li class="w-25 pl00">    
+      <div class="service-list">
+      <div class="service-list__group">
+                <a href="http://www.fronteo-legal.com/" target="_blank" class="color-01">
+          <div class="title">
+            <span class="logo"><img src="images/service_logo_03.png" alt="eディスカバリ&amp;フォレンジック" style="max-width:300px;"></span>
+            <span class="catch">
+              <span class="text"><span>リーガルサービス・Lit i View総合サイト</span></span>
+              <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="60" height="18" viewBox="0 0 60 18"><path d="M59.515 10l-8 8-1.414-1.41 6.586-6.59h-56.687v-2h56.687l-6.586-6.59 1.414-1.41 8 8h.485v2h-.485z"/></svg></span>
+            </span>
+            <span class="bg" style="background-image: url(images/service_bg_03.jpg); background-position:22%; "></span>
+          </div>
+        </a>
+      </div></div></li>
+      <li class="w-25 pl00">
+      <div class="service-list">
+      <div class="service-list__group">
+                <a href="https://www.fronteo-healthcare.com/" target="_blank" class="color-01">
+          <div class="title">
+            <span class="logo type2 pl05 pr05"><img src="images/service_logo_04.png" alt="株式会社FRONTEOヘルスケア" style="max-width:347px;"></span>
+            <span class="catch pl05 pr05">
+              <span class="text"><span>専門家の暗黙知を学ぶ人工知能による、新たな医療への挑戦</span></span>
+              <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="60" height="18" viewBox="0 0 60 18"><path d="M59.515 10l-8 8-1.414-1.41 6.586-6.59h-56.687v-2h56.687l-6.586-6.59 1.414-1.41 8 8h.485v2h-.485z"/></svg></span>
+            </span>
+            <span class="bg" style="background-image: url(images/service_bg_04.jpg);"></span>
+          </div>
+        </a>
+      </div></div></li>
+      <li class="w-25 pl00">
+      <div class="service-list">
+      <div class="service-list__group">
+                <a href="https://www.fronteo-cc.com/" target="_blank" class="color-01">
+          <div class="title">
+            <span class="logo type3 pl05 pr05"><img src="images/service_logo_05.png" alt="株式会社FRONTEOコミュニケーションズ" style="max-width:418px;"></span>
+            <span class="catch pl05 pr05">
+              <span class="text type2"><span>人工知能とロボットで、あなたのビジネスにさらなる輝きを</span></span>
+              <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="60" height="18" viewBox="0 0 60 18"><defs><style>.cls-1 { fill: #6f757e !important; fill-rule: evenodd; }</style></defs><path id="arrow_seminar_next" class="cls-1" d="M59.52 10l-8 8-1.42-1.41 6.59-6.59h-56.69v-2h56.69l-6.59-6.58 1.42-1.42 7.99 8h.49v2h-.48z"/></svg></span>
+            </span>
+            <span class="bg" style="background-image: url(images/service_bg_05.jpg);"></span>
+          </div>
+        </a>
+      </div></div></li>
+</ul>
+  </section>
+
+  <section class="section" id="section-seminar">
+    <div class="section__inner">
+    <h2 class="section__header">
+      <span class="en">Seminars</span>
+      <span class="ja">セミナー</span>
+    </h2>
+    <p class="section__lead">知財やM&amp;A、国際訴訟・当局調査対応などリーガル分野を中心にセミナーを開催しています。お申込み、お問い合わせはこちらから。</p>
+    <p class="section__more"><a href="/seminars/" class="btn-large-01"><span>セミナー一覧</span></a></p>
+    <p>　</p>
+    <p class="section__lead">人工知能「KIBIT」搭載の製品・ソリューションのセミナーを開催しています。お申込み、お問い合わせはこちらから。</p>
+    <p class="section__more"><a href="http://www.kibit-platform.com/seminar/" class="btn-large-01" target="_blank"><span>セミナー一覧</span></a></p>
+    </div>
+    <div class="seminar-list">
+      <div class="seminar-list__inner">
+      <ul>
+<li><a href="/seminars/2017/20170908133000.html">
+<span class="date-place">
+<div class="icon-seminar-01">
+<p class="location">TOKYO</p>
+<p class="title"><em>Seminar</em></p>
+<p class="date">2017</p>
+</div>
+</span>
+<span class="text">
+<span class="organizer">Covington & Burling LLP / 株式会社FRONTEO 共催</span>
+<span class="title">EU及び米国におけるデータ保護法の最近の重要な展開―日本企業の取るべき対応は―</span>
+<span class="dates">
+<strong>開催日</strong>
+<span>09.08</span>
+</span>
+</span>
+</a></li>
+<li><a href="/seminars/2017/20170714133000.html">
+<span class="date-place">
+<div class="icon-seminar-01">
+<p class="location">TOKYO</p>
+<p class="title"><em>Seminar</em></p>
+<p class="date">2017</p>
+</div>
+</span>
+<span class="text">
+<span class="organizer">Masuda, Funai, Eifert & Mitchell, Ltd. / 北浜法律事務所 / 株式会社FRONTEO 共催</span>
+<span class="title">米国におけるディスカバリ&特許法最新情報/営業秘密の保護とGDPR(EU一般データ保護規則)について＜東京開催...</span>
+<span class="dates">
+<strong>開催日</strong>
+<span>07.14</span>
+</span>
+</span>
+</a></li>
+<li><a href="/seminars/2017/20170712133000.html">
+<span class="date-place">
+<div class="icon-seminar-01">
+<p class="location">OSAKA</p>
+<p class="title"><em>Seminar</em></p>
+<p class="date">2017</p>
+</div>
+</span>
+<span class="text">
+<span class="organizer">Masuda, Funai, Eifert & Mitchell, Ltd. / 北浜法律事務所 / 株式会社FRONTEO 共催</span>
+<span class="title">米国におけるディスカバリ&特許法最新情報/営業秘密の保護とGDPR(EU一般データ保護規則)について＜大阪開催...</span>
+<span class="dates">
+<strong>開催日</strong>
+<span>07.12</span>
+</span>
+</span>
+</a></li>
+<li><a href="/seminars/2017/20170630090000.html">
+<span class="date-place">
+<div class="icon-seminar-01">
+<p class="location">OSAKA</p>
+<p class="title"><em>Seminar</em></p>
+<p class="date">2017</p>
+</div>
+</span>
+<span class="text">
+<span class="organizer">Sughrue Mion PLLC / 株式会社FRONTEO 共催</span>
+<span class="title">製薬業界における米国知財最新事情～医薬品特許実務とハッチ・ワックスマン法関連訴訟の最近の動向～＜大阪開催＞</span>
+<span class="dates">
+<strong>開催日</strong>
+<span>06.30</span>
+</span>
+</span>
+</a></li>
+<li><a href="/seminars/2017/20170628090000.html">
+<span class="date-place">
+<div class="icon-seminar-01">
+<p class="location">TOKYO</p>
+<p class="title"><em>Seminar</em></p>
+<p class="date">2017</p>
+</div>
+</span>
+<span class="text">
+<span class="organizer">Sughrue Mion PLLC / 株式会社FRONTEO 共催</span>
+<span class="title">製薬業界における米国知財最新事情～医薬品特許実務とハッチ・ワックスマン法関連訴訟の最近の動向～＜東京開催＞</span>
+<span class="dates">
+<strong>開催日</strong>
+<span>06.28</span>
+</span>
+</span>
+</a></li>
+<li><a href="/seminars/2017/20170525133000.html">
+<span class="date-place">
+<div class="icon-seminar-01">
+<p class="location">TOKYO</p>
+<p class="title"><em>Seminar</em></p>
+<p class="date">2017</p>
+</div>
+</span>
+<span class="text">
+<span class="organizer">WilmerHale LLP / 株式会社FRONTEO 共催</span>
+<span class="title">コーポレートコンプライアンス―概況と動向＜東京開催＞</span>
+<span class="dates">
+<strong>開催日</strong>
+<span>05.25</span>
+</span>
+</span>
+</a></li>
+<li><a href="/seminars/2017/20170523133000.html">
+<span class="date-place">
+<div class="icon-seminar-01">
+<p class="location">OSAKA</p>
+<p class="title"><em>Seminar</em></p>
+<p class="date">2017</p>
+</div>
+</span>
+<span class="text">
+<span class="organizer">WilmerHale LLP / 株式会社FRONTEO 共催</span>
+<span class="title">コーポレートコンプライアンス―概況と動向＜大阪開催＞</span>
+<span class="dates">
+<strong>開催日</strong>
+<span>05.23</span>
+</span>
+</span>
+</a></li>
+<li><a href="/seminars/2017/20170511133000.html">
+<span class="date-place">
+<div class="icon-seminar-01">
+<p class="location">TOKYO</p>
+<p class="title"><em>Seminar</em></p>
+<p class="date">2017</p>
+</div>
+</span>
+<span class="text">
+<span class="organizer">Covington & Burling LLP / 森・濱田松本法律事務所 / 株式会社FRONTEO 共催</span>
+<span class="title">トランプ政権とブレグジット－日本ビジネスが生き延びるにはそして更なる繁栄を目指すには－＜東京開催＞</span>
+<span class="dates">
+<strong>開催日</strong>
+<span>05.11</span>
+</span>
+</span>
+</a></li>
+<li><a href="/seminars/2017/20170510133000.html">
+<span class="date-place">
+<div class="icon-seminar-01">
+<p class="location">OSAKA</p>
+<p class="title"><em>Seminar</em></p>
+<p class="date">2017</p>
+</div>
+</span>
+<span class="text">
+<span class="organizer">Covington & Burling LLP / 森・濱田松本法律事務所 / 株式会社FRONTEO 共催</span>
+<span class="title">トランプ政権とブレグジット－日本ビジネスが生き延びるにはそして更なる繁栄を目指すには－＜大阪開催＞</span>
+<span class="dates">
+<strong>開催日</strong>
+<span>05.10</span>
+</span>
+</span>
+</a></li>
+<li><a href="/seminars/2017/20170215133000.html">
+<span class="date-place">
+<div class="icon-seminar-01">
+<p class="location">TOKYO</p>
+<p class="title"><em>Seminar</em></p>
+<p class="date">2017</p>
+</div>
+</span>
+<span class="text">
+<span class="organizer">Jenner & Block LLP / 株式会社FRONTEO 共催</span>
+<span class="title">米国営業秘密法・営業秘密訴訟における重要な変化－最近の最大規模の2件の訴訟による教訓－＜東京開催＞</span>
+<span class="dates">
+<strong>開催日</strong>
+<span>02.15</span>
+</span>
+</span>
+</a></li>
+<li><a href="/seminars/2017/20170213133000.html">
+<span class="date-place">
+<div class="icon-seminar-01">
+<p class="location">OSAKA</p>
+<p class="title"><em>Seminar</em></p>
+<p class="date">2017</p>
+</div>
+</span>
+<span class="text">
+<span class="organizer">Jenner & Block LLP / 株式会社FRONTEO 共催</span>
+<span class="title">米国営業秘密法・営業秘密訴訟における重要な変化－最近の最大規模の2件の訴訟による教訓－＜大阪開催＞</span>
+<span class="dates">
+<strong>開催日</strong>
+<span>02.13</span>
+</span>
+</span>
+</a></li>
+<li><a href="/seminars/2017/20170608140000.html">
+<span class="date-place">
+<div class="icon-seminar-01">
+<p class="location">OSAKA</p>
+<p class="title"><em>Seminar</em></p>
+<p class="date">2017</p>
+</div>
+</span>
+<span class="text">
+<span class="organizer">ROPES & GRAY LLP / 株式会社FRONTEO 共催</span>
+<span class="title">国際腐敗防止法の最新動向：中国における取締りの傾向とリスク分野＜大阪開催＞</span>
+<span class="dates">
+<strong>開催日</strong>
+<span>06.08</span>
+</span>
+</span>
+</a></li>
+<li><a href="/seminars/2017/20170209140000.html">
+<span class="date-place">
+<div class="icon-seminar-01">
+<p class="location">TOKYO</p>
+<p class="title"><em>Seminar</em></p>
+<p class="date">2017</p>
+</div>
+</span>
+<span class="text">
+<span class="organizer">ROPES & GRAY LLP / 株式会社FRONTEO 共催</span>
+<span class="title">国際腐敗防止法の最新動向：中国における取締りの傾向とリスク分野</span>
+<span class="dates">
+<strong>開催日</strong>
+<span>02.09</span>
+</span>
+</span>
+</a></li>
+<li><a href="/seminars/2017/20170123143000.html">
+<span class="date-place">
+<div class="icon-seminar-01">
+<p class="location">OSAKA</p>
+<p class="title"><em>Seminar</em></p>
+<p class="date">2017</p>
+</div>
+</span>
+<span class="text">
+<span class="organizer">株式会社 FRONTEO 主催</span>
+<span class="title">なぜ企業不祥事は発生するのか～『常識のズレ』が引き起こす企業不祥事～＜大阪開催＞</span>
+<span class="dates">
+<strong>開催日</strong>
+<span>01.23</span>
+</span>
+</span>
+</a></li>
+<li><a href="/seminars/2017/20170120143000.html">
+<span class="date-place">
+<div class="icon-seminar-01">
+<p class="location">TOKYO</p>
+<p class="title"><em>Seminar</em></p>
+<p class="date">2017</p>
+</div>
+</span>
+<span class="text">
+<span class="organizer">株式会社 FRONTEO 主催</span>
+<span class="title">なぜ企業不祥事は発生するのか～『常識のズレ』が引き起こす企業不祥事～＜東京開催＞</span>
+<span class="dates">
+<strong>開催日</strong>
+<span>01.20</span>
+</span>
+</span>
+</a></li>
+<li><a href="/seminars/2016/20161215150000.html">
+<span class="date-place">
+<div class="icon-seminar-01">
+<p class="location">TOKYO</p>
+<p class="title"><em>Seminar</em></p>
+<p class="date">2016</p>
+</div>
+</span>
+<span class="text">
+<span class="organizer">株式会社FRONTEO主催</span>
+<span class="title">企業目線の知財係争戦略</span>
+<span class="dates">
+<strong>開催日</strong>
+<span>12.15</span>
+</span>
+</span>
+</a></li>
+<li><a href="/seminars/2016/20161118133000.html">
+<span class="date-place">
+<div class="icon-seminar-01">
+<p class="location">TOKYO</p>
+<p class="title"><em>Seminar</em></p>
+<p class="date">2016</p>
+</div>
+</span>
+<span class="text">
+<span class="organizer">Baker Hostetler / 株式会社FRONTEO 共催</span>
+<span class="title">米国eディスカバリ規則の改正、標準必須特許(SEP)行使のベストプラクティスとRAND違反回避、そして米国営業...</span>
+<span class="dates">
+<strong>開催日</strong>
+<span>11.18</span>
+</span>
+</span>
+</a></li>
+<li><a href="/seminars/2016/20161115133000.html">
+<span class="date-place">
+<div class="icon-seminar-01">
+<p class="location">OSAKA</p>
+<p class="title"><em>Seminar</em></p>
+<p class="date">2016</p>
+</div>
+</span>
+<span class="text">
+<span class="organizer">Baker Hostetler / 株式会社FRONTEO 共催</span>
+<span class="title">米国eディスカバリ規則の改正、標準必須特許(SEP)行使のベストプラクティスとRAND違反回避、そして米国営業...</span>
+<span class="dates">
+<strong>開催日</strong>
+<span>11.15</span>
+</span>
+</span>
+</a></li>
+<li><a href="/seminars/2016/20161021133000.html">
+<span class="date-place">
+<div class="icon-seminar-01">
+<p class="location">TOKYO</p>
+<p class="title"><em>Seminar</em></p>
+<p class="date">2016</p>
+</div>
+</span>
+<span class="text">
+<span class="organizer">BakerHostetler / 株式会社 FRONTEO 共催</span>
+<span class="title">米国政府によるグローバル捜査と起訴～日本企業はこの荒波をどう乗り越えるか～</span>
+<span class="dates">
+<strong>開催日</strong>
+<span>10.21</span>
+</span>
+</span>
+</a></li>
+<li><a href="/seminars/2016/20161110130000.html">
+<span class="date-place">
+<div class="icon-seminar-01">
+<p class="location">TOKYO</p>
+<p class="title"><em>Seminar</em></p>
+<p class="date">2016</p>
+</div>
+</span>
+<span class="text">
+<span class="organizer">Paul Hastings / 株式会社 FRONTEO 共催</span>
+<span class="title">ライフサイエンス、ヘルスケアおよびテクノロジー業界で知的財産訴訟やコンプライアンスのリスクに直面したとき、20...</span>
+<span class="dates">
+<strong>開催日</strong>
+<span>11.10</span>
+</span>
+</span>
+</a></li>
+<li><a href="/seminars/2016/20161006133000.html">
+<span class="date-place">
+<div class="icon-seminar-01">
+<p class="location">OSAKA</p>
+<p class="title"><em>Seminar</em></p>
+<p class="date">2016</p>
+</div>
+</span>
+<span class="text">
+<span class="organizer">Jones Day / 株式会社 FRONTEO 共催</span>
+<span class="title">米国特許侵害訴訟の最新動向～テキサス州東部地区、ディスカバリー、その他近時の手続上の課題～＜大阪開催＞</span>
+<span class="dates">
+<strong>開催日</strong>
+<span>10.06</span>
+</span>
+</span>
+</a></li>
+<li><a href="/seminars/2016/20161007133000.html">
+<span class="date-place">
+<div class="icon-seminar-01">
+<p class="location">TOKYO</p>
+<p class="title"><em>Seminar</em></p>
+<p class="date">2016</p>
+</div>
+</span>
+<span class="text">
+<span class="organizer">Jones Day / 株式会社 FRONTEO 共催</span>
+<span class="title">米国特許侵害訴訟の最新動向～テキサス州東部地区、ディスカバリー、その他近時の手続上の課題～＜東京開催＞</span>
+<span class="dates">
+<strong>開催日</strong>
+<span>10.07</span>
+</span>
+</span>
+</a></li>
+</ul>
+
+      <a class="seminar-list__prev" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="60" height="18" viewBox="0 0 60 18"><defs><style>.cls-1 { fill: #9b9ea1; fill-rule: evenodd; }</style></defs><path id="arrow_seminar_prev" class="cls-1" d="M60 10h-56.687l6.586 6.59-1.414 1.41-8-8h-.485v-2h.485l8-8 1.414 1.41-6.586 6.59h56.687v2z"/></svg></a>
+      <a class="seminar-list__next" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="60" height="18" viewBox="0 0 60 18"><defs><style>.cls-1 { fill: #6f757e; fill-rule: evenodd; }</style></defs><path id="arrow_seminar_next" class="cls-1" d="M59.52 10l-8 8-1.42-1.41 6.59-6.59h-56.69v-2h56.69l-6.59-6.58 1.42-1.42 7.99 8h.49v2h-.48z"/></svg></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section padded dim" id="section-pressreleases">
+    <div class="section__inner">
+      <h2 class="section__header">
+        <span class="en">Press Releases</span>
+        <span class="ja">プレスリリース</span>
+      </h2>
+
+      <!-- E-IR Parts コーポレートトップ(2/2)-->
+      <div id="ir_library">
+        <div id="announcement">
+          <div id="divDataArea"></div>
+          <script type="text/javascript">
+            <!--
+            document.write(unescape("%3Cscript src='" + eirPass + "ann_corptop.js' charset='utf-8' type='text/javascript'%3E%3C/script%3E"));
+            document.write(unescape("%3Cscript src='" + eirPass + "error.js' charset='utf-8' type='text/javascript'%3E%3C/script%3E"));
+            -->
+          </script>
+        </div>
+      </div>
+      <!-- /E-IR Parts コーポレートトップ(2/2)-->
+
+      <p class="section__more posr"><a href="/ir/release.html" class="btn-medium-01"><span>プレスリリース一覧</span></a></p>
+    </div>
+  </section>
+
+  <section class="section split padded">
+    <div class="section__inner">
+    <h2 class="section__header">
+      <span class="en">News</span>
+      <span class="ja">お知らせ</span>
+    </h2>
+    <ul class="list-timeline-02">
+<li><a href="/customers/">
+<div class="date">2017.08.01<span class="label-news-01">お知らせ</span></div>
+<div class="description">
+<p>第一三共株式会社様を導入ユーザーとして掲載いたしました。</p>
+</div>
+</a></li>
+<li><a href="http://www.fronteo.com/ir/individual/" target="_blank">
+<div class="date">2017.07.28<span class="label-news-01">更新情報</span></div>
+<div class="description">
+<p>IR情報に「個人投資家の皆様へ」サイトをオープンしました<img src="/common/images/icon-window_01_o.png" alt="別ウィンドウで開きます" class="icon-window-01"></p>
+</div>
+</a></li>
+<li><a href="/solution/business-intelligence/" target="_blank">
+<div class="date">2017.06.27<span class="label-news-01">お知らせ</span></div>
+<div class="description">
+<p>東ソー株式会社様を導入ユーザーとして掲載いたしました。</p>
+</div>
+</a></li>
+<li><a href="/solution/business-intelligence/" target="_blank">
+<div class="date">2017.06.26<span class="label-news-01">お知らせ</span></div>
+<div class="description">
+<p>大和住銀投信投資顧問株式会社様を導入ユーザーとして掲載いたしました。</p>
+</div>
+</a></li>
+<li><a href="/corporate/news/2017/20170626120000.html" target="_blank">
+<div class="date">2017.06.26<span class="label-news-01">メディア情報</span></div>
+<div class="description">
+<p>『NHKスペシャル』にて、人工知能KIBIT導入企業の取り組みが紹介</p>
+</div>
+</a></li>
+</ul>
+
+    <p class="section__more posr"><a href="/corporate/news/" class="btn-medium-01"><span>お知らせ一覧</span></a></p>
+    </div>
+    <div class="section__inner">
+      <h2 class="section__header">
+        <span class="en">Blog</span>
+        <span class="ja">ブログ</span>
+      </h2>
+      <ul class="list-timeline-02"><li><a href="http://www.fronteo.com/blog/other/20170714113003.html"><div class="date">2017.07.14</div>
+<div class="description">
+<p>夏季休暇、もう計画はたてましたか？</p>
+</div>
+</a></li>
+<li><a href="http://www.fronteo.com/blog/news/20170620180028.html"><div class="date">2017.06.20</div>
+<div class="description">
+<p>人工知能「KIBIT」＆コミュニケーションロボット「Kibiro」の最新活用事例をご紹介 ～ AI・人工知能EXPOに出展します</p>
+</div>
+</a></li>
+<li><a href="http://www.fronteo.com/blog/news/20170607093013.html"><div class="date">2017.06.07</div>
+<div class="description">
+<p>University of Southern CaliforniaのMBAプログラムに協力いたしました</p>
+</div>
+</a></li>
+<li><a href="http://www.fronteo.com/blog/other/20170519090038.html"><div class="date">2017.05.19</div>
+<div class="description">
+<p>FRONTEOに入社すると使える福利厚生の一部をご紹介します</p>
+</div>
+</a></li>
+<li><a href="http://www.fronteo.com/blog/event-seminar/20170517100023.html"><div class="date">2017.05.17</div>
+<div class="description">
+<p>【セミナーレポート】人工知能による特許調査・分析システム「KIBIT Patent Explorer」のユーザー勉強会＆懇親会を開催いたしました</p>
+</div>
+</a></li></ul>
+      <p class="section__more posr"><a href="/blog/" class="btn-medium-01"><span>ブログ一覧</span></a></p>
+    </div>
+  </section>
+
+<!-- /.site-content --></div>
+
+
+<footer class="site-footer">
+<p class="str-pagetop"><a class="btn-pagetop" href="#top"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="33" viewBox="0 0 25 33" role="img" aria-labelledby="str-pagetop"><title id="str-pagetop">Back to Top</title><path d="M22.99 18.9l-1.44 1.41-8.04-7.89v20.58h-2.04v-20.58l-8.04 7.89-1.44-1.41 9.48-9.31v-.59h2.04v.59zM0 0h25v2h-25z"></path></svg></a></p>
+
+<nav class="str-outer str-nav">
+<div class="str-inner">
+<ul class="list">
+<li class="group-kibit"><a href="/kibit/">KIBIT</a>
+<ul class="child">
+<li><a href="/kibit/future/">未来の社会を輝かすKIBIT</a></li>
+<li><a href="/kibit/hallmarks/">KIBITの特徴とこれから</a></li>
+</ul>
+</li>
+<li class="group-solution"><a href="/solution/">ソリューション</a>
+<ul class="child">
+<li><a href="/solution/healthcare/">ヘルスケア</a></li>
+<li><a href="/solution/marketing/">マーケティング</a></li>
+<li><a href="/solution/robots/">ロボット</a></li>
+<li><a href="/solution/business-intelligence/">ビジネスインテリジェンス</a></li>
+<li><a href="/solution/legal-intelligence/">ディスカバリ支援</a></li>
+<li><a href="/solution/advanced-forensics/">フォレンジック調査</a></li>
+<li><a href="/solution/audit/">監査</a></li>
+<li><a href="/solution/national-security/">ナショナルセキュリティ</a></li>
+</ul>
+</li>
+<li class="group-service"><a href="/services/">サービス・プロダクト</a>
+<ul class="child">
+<li><a href="/services/personal/">サービス・プロダクト（個人）</a></li>
+<li><a href="/services/business/">サービス・プロダクト（法人）</a></li>
+<li><a href="/services/training/">トレーニング（法人）</a></li>
+<li><a href="/seminars/">セミナー</a></li>
+</ul>
+</li>
+<li class="group-corporate"><a href="/corporate/">企業情報</a>
+<ul class="child">
+<li><a href="/corporate/message.html">CEOメッセージ</a></li>
+<li><a href="/corporate/about/">会社概要</a></li>
+<li><a href="/corporate/vision.html">企業理念</a></li>
+<li><a href="/corporate/locations/">国内・海外拠点</a></li>
+<li><a href="/corporate/access.html">アクセスマップ</a></li>
+<li><a href="/corporate/history/">沿革</a></li>
+<li><a href="/corporate/books/">出版物のご紹介</a></li>
+<li><a href="/corporate/news/">お知らせ</a></li>
+</ul>
+</li>
+<li class="group-ir"><a href="/ir/">IR情報</a>
+<ul class="child">
+<li><a href="/ir/business-strategy/">FRONTEOの事業概要と戦略</a></li>
+<li><a href="/ir/release.html">プレスリリース</a></li>
+<li><a href="/ir/disclosure.html">適時開示情報</a></li>
+<li><a href="/ir/calendar/">IRカレンダー</a></li>
+<li><a href="/ir/managemant/message.html">経営方針</a></li>
+<li><a href="/ir/results/">業績・財務</a></li>
+<li><a href="/ir/ir-data/summary.html">IR資料室</a></li>
+<li><a href="/ir/stock/info.html">株式について</a></li>
+<li><a href="/ir/disclaimer.html">免責事項</a></li>
+</ul>
+</li>
+<li class="group-single">
+<ul class="child">
+<li><a href="/customers/">導入ユーザー・共同開発パートナー</a></li>
+<li><a href="/recruit/" target="_blank">採用情報<img src="/common/images/icon-window_04_o.png" alt="別ウィンドウで開きます" class="icon-window-01"></a></li>
+<li><a href="/blog/">ブログ</a></li>
+<li><a href="/video/">動画</a></li>
+<li><a href="/secure/contact/">お問い合わせ</a></li>
+<li><a href="/sitemap/">サイトマップ</a></li>
+</ul>
+</li>
+<!-- /.list --></ul>
+<!-- /.str-inner --></div>
+<!-- /.str-outer --></nav>
+
+<div class="str-outer str-util">
+<div class="str-inner">
+<div class="group-util-lang">
+<ul class="list">
+<li><a href="/global/" target="_blank">GLOBAL<img src="/common/images/icon-window_05_o.png" alt="別ウィンドウで開きます" class="icon-window-01"></a></li>
+<li class="lang-switcher">
+<button class="current"><span>JPN</span></button>
+<div class="items">
+<ul class="list-child">
+<li><a href="/tw/" hreflang="tw"><span>TWN</span></a></li>
+<li><a href="/kr/" hreflang="ko"><span>KOR</span></a></li>
+<li><a href="/usa/" hreflang="en"><span>USA</span></a></li>
+<li><a href="/" hreflang="ja"><span>JPN</span></a></li>
+<!-- /.list-child --></ul>
+</div>
+</li>
+<!-- /.list --></ul>
+<!-- /.group-util-lang --></div>
+
+<div class="group-util-nav">
+<ul class="list">
+<li><a href="https://www.facebook.com/FRONTEOjp/" target="_blank"><img src="/common/images/icon_fb.svg" alt="Facebook"></a></li>
+<li><a href="https://www.youtube.com/user/UBICofficial" target="_blank"><img src="/common/images/icon_youtube.svg" alt="YouTube"></a></li>
+<!-- /.list --></ul>
+<!-- /.group-util-nav --></div>
+<!-- /.str-inner --></div>
+<!-- /str-outer --></div>
+
+<div class="str-outer str-info">
+<div class="str-inner">
+<div class="lyt-reverse">
+<div class="col">
+<ul class="list">
+<li><a href="/sitepolicy/">利用規約</a></li>
+<li><a href="/security/">情報セキュリティ方針</a></li>
+<li><a href="/privacy/">個人情報の取り扱いについて</a></li>
+<li><a href="/socialmediapolicy/">ソーシャルメディアポリシー</a></li>
+<!-- /.list --></ul>
+<!-- /.col --></div>
+
+<div class="col">
+<p class="copyright"><small>Copyright &copy; FRONTEO, Inc. All Rights Reserved.</small></p>
+<!-- /.col --></div>
+<!-- /.lyt-reverse --></div>
+<!-- /.str-inner --></div>
+<!-- /str-outer --></div>
+
+<!-- /.site-footer --></footer>
+
+
+
+<script src="/common/js/jquery.js"></script>
+<script src="/common/js/run_foot.js"></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-79260001-1', 'auto');
+  ga('send', 'pageview');
+</script>
+<script type="text/javascript">
+(function() {
+  var didInit = false;
+  function initMunchkin() {
+    if(didInit === false) {
+      didInit = true;
+      Munchkin.init('897-QHD-089');
+    }
+  }
+  var s = document.createElement('script');
+  s.type = 'text/javascript';
+  s.async = true;
+  s.src = '//munchkin.marketo.net/munchkin.js';
+  s.onreadystatechange = function() {
+    if (this.readyState == 'complete' || this.readyState == 'loaded') {
+      initMunchkin();
+    }
+  };
+  s.onload = initMunchkin;
+  document.getElementsByTagName('head')[0].appendChild(s);
+})();
+</script>
+
+<!-- User Insight PCDF Code Start : fronteo.com -->
+<script type="text/javascript">
+var _uic = _uic ||{}; var _uih = _uih ||{};_uih['id'] = 52278;
+_uih['lg_id'] = '';
+_uih['fb_id'] = '';
+_uih['tw_id'] = '';
+_uih['uigr_1'] = ''; _uih['uigr_2'] = ''; _uih['uigr_3'] = ''; _uih['uigr_4'] = ''; _uih['uigr_5'] = '';
+_uih['uigr_6'] = ''; _uih['uigr_7'] = ''; _uih['uigr_8'] = ''; _uih['uigr_9'] = ''; _uih['uigr_10'] = '';
+
+/* DO NOT ALTER BELOW THIS LINE */
+/* WITH FIRST PARTY COOKIE */
+(function() {
+var bi = document.createElement('script');bi.type = 'text/javascript'; bi.async = true;
+bi.src = '//cs.nakanohito.jp/b3/bi.js';
+var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(bi, s);
+})();
+</script>
+<!-- User Insight PCDF Code End : fronteo.com -->
+
+<script src="http://code.createjs.com/easeljs-0.8.2.min.js"></script>
+<script src="http://code.createjs.com/tweenjs-0.6.2.min.js"></script>
+<script src="/js/jquery.easing.1.3.js"></script>
+<script src="/js/jquery.transit.min.js"></script>
+<script src="/js/slick/slick.min.js"></script>
+<script src="/js/seminarlist.js"></script>
+<script src="/js/script.js"></script>
+<script src="/js/fronteo.js"></script>
+<script src="/js/mv.js"></script>
+</body>
+</html>

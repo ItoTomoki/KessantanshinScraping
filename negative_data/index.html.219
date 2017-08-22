@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, user-scalable=yes, maximum-scale=1.0, minimum-scale=1.0">
+<title>株式会社ヒップ（HIP）－機械設計・電子設計・ソフトウェア開発の技術者集団－</title>
+<meta name="keywords" content="HIP,ヒップ,hip,アウトソーシング,技術者派遣,特定労働者派遣,機械設計,電子設計,ソフトウェア開発,システム,受託">
+<meta name="description" content="株式会社ヒップは、機械設計・電子設計・ソフトウェア開発の技術系アウトソーシング事業を行っています。">
+<meta name="copyright" content="Copyright &copy; HIPCorporation.All Rights Reserved." >
+<link rel="shortcut icon" href="/common/images/favicon.ico" >
+<link rel="icon" type="image/vnd.microsoft.icon" href="/common/images/favicon.ico">
+<link rel="stylesheet" href="/common/css/import.css" type="text/css" media="screen">
+
+<!-- =================== SSI Javascript  ====================== -->
+<link rel="stylesheet" href="/common/css/basic_pc.css" type="text/css" media="print">
+<link rel="stylesheet" href="/common/css/fg_pc.css" type="text/css" media="print">
+<script type="text/javascript" src="/common/js/jquery.js"></script>
+<script type="text/javascript" src="/common/js/jquery.mobile-menu.js"></script>
+<script type="text/javascript" src="/common/js/header.js"></script>
+<script type="text/javascript" src="/common/js/sub_navi.js"></script>
+<script type="text/javascript" src="/common/js/jQueryAutoHeight.js"></script>
+<script type="text/javascript" src="/common/js/jquery.rwdImageMaps.min.js"></script>
+<script type="text/javascript" src="/common/js/doubletaptogo.js"></script>
+<script type="text/javascript">
+jQuery(function($){
+	$('.maxHeight').autoHeight({column:2});
+	$('img[usemap]').rwdImageMaps();
+	$( 'div.pc_gnavi #mega-menu li:has(dl)' ).doubleTapToGo();
+});
+</script>
+
+<!--[if IE 8]>
+<link rel="stylesheet" href="/common/css/basic_ie8.css">
+<![endif]-->
+<!--[if lt IE 9]>
+<script src="/common/js/html5.js"></script>
+<script src="/common/js/css3-mediaqueries.js"></script>
+<![endif]-->
+
+<!-- Google Analytics-->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-37681791-1', 'auto', {'allowLinker': true});
+  ga('require', 'linker');
+  ga('linker:autoLink', ['recruit.hip-pro.co.jp'] );
+  ga('send', 'pageview');
+
+</script>
+<!-- /Google Analytics-->
+<!-- =================== /SSI Javascript ====================== -->
+<script type="text/javascript" src="/common/js/jquery.hoverpulse.js"></script>
+<!--
+<script type="text/javascript">
+$(document).ready(function() {
+    $('figure img').hoverpulse();
+});
+</script>
+-->
+<script type="text/javascript" src="/common/js/gallery/modernizr.custom.js"></script>
+</head>
+
+<body>
+
+<!-- =================== SSI Header  ====================== --> 
+<!-- Header --------------------------------------------------------------------->
+<header id="header" class="clearfix">
+
+<!------ logo ------>
+<div class="logo">
+<a href="/index.html"><img src="/common/images/logo.png" width="649" height="77"></a>
+</div>
+<!------ /logo ------>
+
+<!--Smart Phone NAVI Icon-->
+<a href="#" id="mobile-bar"></a>
+<!--/Smart Phone NAVI Icon-->
+
+
+<!-- PC Global Nav --------------------------------------------------------------------->
+<div class="pc_gnavi">
+<!------ Search ------>
+<form action="http://www.google.com/cse" id="cse-search-box">
+<div class="search_block">
+<span class="search_box"><input type="hidden" name="cx" value="007522836781634810724:m89yb9fihne" /><input type="hidden" name="ie" value="UTF-8" /><input type="text" name="q" size="15" /></span><span><input type="image" src="/common/images/btn_search.gif" alt="検索する" class="btn" /></span>
+</div>
+</form>
+<!------ /Search ------>
+
+<!------ Global Nav ------>
+<nav id="globalNav">
+<div class="global_inner">
+<ul id="mega-menu">
+<!--HIPの強み-->
+<!--<li><a href="javascript:void(0)" class="active"><span>HIPの強み</span></a>-->
+<li><a href="/strength/"><span>HIPの強み</span></a>
+<!--Sub menu-->
+<div class="sub_navi">
+<div class="sub_wrap">
+<div class="sub_navi_inner">
+<dl>
+<dd><a href="/strength/engineer.html">高度な技術者集団</a></dd>
+<dd><a href="/strength/follow.html">充実のフォロー体制</a></dd>
+<dd><a href="/strength/network.html">全国のネットワーク</a></dd>
+</dl>
+
+</div>
+</div>
+</div>
+<!--/Sub menu-->
+</li>
+
+<!--/HIPの強み-->
+<li><a href="/service/"><span>業務内容</span></a>
+<!--Sub menu-->
+<div class="sub_navi">
+<div class="sub_wrap">
+<div class="sub_navi_inner">
+<dl>
+<dd><a href="/service/business.html">事業範囲</a></dd>
+<dd><a href="/service/send.html">技術者派遣</a></dd>
+<dd><a href="/service/field.html">技術分野の紹介</a></dd>
+<dd><a href="/service/result.html">実績</a></dd>
+<dd><a href="/service/introduction.html">所属技術者紹介</a></dd>
+<dd><a href="/service/flow.html">技術者派遣の流れ</a></dd>
+<dd><a href="/service/observance_1.html">労働派遣法遵守への取り組み1</a></dd>
+<dd><a href="/service/observance_2.html">労働派遣法遵守への取り組み2</a></dd>
+<dd><a href="/service/observance_3.html">労働派遣法遵守への取り組み3</a></dd>
+<dd><a href="/service/observance_4.html">労働派遣法遵守への取り組み4</a></dd>
+<dd><a href="/service/contract/">受託開発</a></dd>
+</dl>
+
+</div>
+</div>
+</div>
+<!--/Sub menu-->
+</li>
+
+<li><a href="/company/"><span>会社情報</span></a>
+<!--Sub menu-->
+<div class="sub_navi">
+<div class="sub_wrap">
+<div class="sub_navi_inner">
+<dl>
+<dd><a href="/company/message.html">ご挨拶</a></dd>
+<dd><a href="/company/outline.html">会社概要</a></dd>
+<dd><a href="/company/policy.html">経営理念</a></dd>
+<dd><a href="/company/history.html">沿革</a></dd>
+<dd><a href="/company/access/">営業拠点</a></dd>
+<dd><a href="/company/iso.html">ISO認証</a></dd>
+<dd><a href="/company/trademark.html">商標登録</a></dd>
+</dl>
+
+</div>
+</div>
+</div>
+<!--/Sub menu-->
+</li>
+
+<li><a href="/ir/"><span>IR情報</span></a>
+<!--Sub menu-->
+<div class="sub_navi">
+<div class="sub_wrap">
+<div class="sub_navi_inner">
+<dl>
+<dd><a href="/ir/news.html">IRニュース</a></dd>
+<dd><a href="/ir/message.html">投資家の皆様へ</a></dd>
+<dd><a href="/ir/business.html">事業概要</a></dd>
+<dd><a href="/ir/highlight.html">財務ハイライト</a></dd>
+<dd><a href="/ir/financial.html">財務情報</a></dd>
+<dd><a href="/ir/library.html">IRライブラリー</a></dd>
+<dd><a href="/ir/material.html">IR資料</a></dd>
+<dd><a href="/ir/calendar.html">IRカレンダー</a></dd>
+<dd><a href="/ir/stock.html">株式情報</a></dd>
+<dd><a href="http://stocks.finance.yahoo.co.jp/stocks/detail/?code=2136.t&ct=b" target="_blank">株価情報</a></dd>
+<dd><a href="http://kmasterplus.pronexus.co.jp/main/corp/2/1/2136/index.html" target="_blank">電子公告</a></dd>
+<dd><a href="/ir/faq.html">よくあるご質問</a></dd>
+<dd><a href="https://www.hip-pro.co.jp/form/form.html">IRお問い合わせ</a></dd>
+<dd><a href="/ir/policy.html">ディスクロージャーポリシー</a></dd>
+<dd><a href="/ir/disclaimer.html">免責事項</a></dd>
+</dl>
+
+</div>
+</div>
+</div>
+<!--/Sub menu-->
+</li>
+
+<li><a href="http://recruit.hip-pro.co.jp/" target="_blank"><span class="icon_blank">採用情報</span></a></li>
+</ul>
+</div><!--/global_inner--> 
+</nav>
+<!------ /Global Nav ------>
+</div>
+<!-- PC Global Nav --------------------------------------------------------------------->
+
+
+
+<!-- Smart Phone Global Nav --------------------------------------------------------------------->
+<div class="sm_gnavi">
+<!------ Search ------>
+<form action="http://www.google.com/cse" id="cse-search-box">
+<div class="search_block">
+<span class="search_box"><input type="hidden" name="cx" value="007522836781634810724:m89yb9fihne" /><input type="hidden" name="ie" value="UTF-8" /><input type="text" name="q" size="15" /></span><span><input type="image" src="/common/images/btn_search.gif" alt="検索する" class="btn" /></span>
+</div>
+</form>
+<!------ /Search ------>
+
+<!------ Global Nav ------>
+<nav id="globalNav">
+<div class="global_inner">
+<ul id="mega-menu">
+<!--HIPの強み-->
+<li><a href="javascript:void(0)"><span>HIPの強み</span></a>
+<!--Sub menu-->
+<div class="sub_navi">
+<div class="sub_wrap">
+<div class="sub_navi_inner">
+<dl>
+<dt class="title"><a href="/strength/">HIPの強み</a></dt>
+<dd><a href="/strength/engineer.html">高度な技術者集団</a></dd>
+<dd><a href="/strength/follow.html">充実のフォロー体制</a></dd>
+<dd><a href="/strength/network.html">全国のネットワーク</a></dd>
+</dl>
+
+</div>
+</div>
+</div>
+<!--/Sub menu-->
+</li>
+
+<!--/HIPの強み-->
+<li><a href="javascript:void(0)"><span>業務内容</span></a>
+<!--Sub menu-->
+<div class="sub_navi">
+<div class="sub_wrap">
+<div class="sub_navi_inner">
+<dl>
+<dt class="title"><a href="/service/">HIPの業務内容</a></dt>
+<dd><a href="/service/business.html">事業範囲</a></dd>
+<dd><a href="/service/send.html">技術者派遣</a></dd>
+<dd><a href="/service/field.html">技術分野の紹介</a></dd>
+<dd><a href="/service/result.html">実績</a></dd>
+<dd><a href="/service/introduction.html">所属技術者紹介</a></dd>
+<dd><a href="/service/flow.html">技術者派遣の流れ</a></dd>
+<dd><a href="/service/observance_1.html">労働派遣法遵守への取り組み1</a></dd>
+<dd><a href="/service/observance_2.html">労働派遣法遵守への取り組み2</a></dd>
+<dd><a href="/service/observance_3.html">労働派遣法遵守への取り組み3</a></dd>
+<dd><a href="/service/observance_4.html">労働派遣法遵守への取り組み4</a></dd>
+<dd><a href="/service/contract/">受託開発</a></dd>
+</dl>
+
+</div>
+</div>
+</div>
+<!--/Sub menu-->
+</li>
+
+<li><a href="javascript:void(0)"><span>会社概要</span></a>
+<!--Sub menu-->
+<div class="sub_navi">
+<div class="sub_wrap">
+<div class="sub_navi_inner">
+<dl>
+<dt class="title"><a href="/company/">会社情報</a></dt>
+<dd><a href="/company/message.html">ご挨拶</a></dd>
+<dd><a href="/company/outline.html">会社概要</a></dd>
+<dd><a href="/company/policy.html">経営理念</a></dd>
+<dd><a href="/company/history.html">沿革</a></dd>
+<dd><a href="/company/access/">営業拠点</a></dd>
+<dd><a href="/company/iso.html">ISO認証</a></dd>
+<dd><a href="/company/trademark.html">商標登録</a></dd>
+</dl>
+
+</div>
+</div>
+</div>
+<!--/Sub menu-->
+</li>
+
+<li><a href="javascript:void(0)"><span>IR情報</span></a>
+<!--Sub menu-->
+<div class="sub_navi">
+<div class="sub_wrap">
+<div class="sub_navi_inner">
+<dl>
+<dt class="title"><a href="/ir/">IR情報</a></dt>
+<dd><a href="/ir/news.html">IRニュース</a></dd>
+<dd><a href="/ir/message.html">投資家の皆様へ</a></dd>
+<dd><a href="/ir/business.html">事業概要</a></dd>
+<dd><a href="/ir/highlight.html">財務ハイライト</a></dd>
+<dd><a href="/ir/financial.html">財務情報</a></dd>
+<dd><a href="/ir/library.html">IRライブラリー</a></dd>
+<dd><a href="/ir/material.html">IR資料</a></dd>
+<dd><a href="/ir/calendar.html">IRカレンダー</a></dd>
+<dd><a href="/ir/stock.html">株式情報</a></dd>
+<dd><a href="http://stocks.finance.yahoo.co.jp/stocks/detail/?code=2136.t&ct=b" target="_blank">株価情報</a></dd>
+<dd><a href="http://kmasterplus.pronexus.co.jp/main/corp/2/1/2136/index.html" target="_blank">電子公告</a></dd>
+<dd><a href="/ir/faq.html">よくあるご質問</a></dd>
+<dd><a href="https://www.hip-pro.co.jp/form/form.html">IRお問い合わせ</a></dd>
+<dd><a href="/ir/policy.html">ディスクロージャーポリシー</a></dd>
+<dd><a href="/ir/disclaimer.html">免責事項</a></dd>
+</dl>
+
+</div>
+</div>
+</div>
+<!--/Sub menu-->
+</li>
+
+<li><a href="http://recruit.hip-pro.co.jp/" class="icon_blank" target="_blank"><span>採用情報</span></a></li>
+</ul> 
+</div><!--/global_inner--> 
+</nav>
+<!------ /Global Nav ------>
+</div>
+<!-- /Smart Phone Global Nav --------------------------------------------------------------------->
+
+
+
+</header>
+<!-- /Header ---------------------------------------------------------------------> 
+<!-- =================== /SSI Header ====================== --> 
+
+<!-- CONTNTS --------------------------------------------------------------------->
+<div id="contnts">
+  <div id="index_area"> 
+    
+    <!------ main_gallery ------>
+    <div class="main_gallery">
+      <div class="main_gallery_inner">
+                              <div id="grid-gallery" class="grid-gallery">
+                          <section class="grid-wrap">
+                            <ul class="grid">
+                              <li class="grid-sizer"></li><!-- for Masonry column width -->
+                              <li>
+                                <figure>
+                                  <span class="hov2"><img src="images/thumb/member_01.jpg" alt="img01" ></span>
+                                </figure>
+                              </li>
+                              <li>
+                                <figure>
+                                  <span class="hov2"><img src="images/thumb/member_02.jpg" alt="img02" ></span>
+                                </figure>
+                              </li>
+                              <li>
+                                <figure>
+                                  <span class="hov2"><img src="images/thumb/member_03.jpg" alt="img03" ></span>
+                                </figure>
+                              </li>
+                              <li>
+                                <figure>
+                                  <span class="hov2"><img src="images/thumb/member_04.jpg" alt="img04" ></span>
+                                </figure>
+                              </li>
+                              <li>
+                                <figure>
+                                  <span class="hov2"><img src="images/thumb/member_05.jpg" alt="img05" ></span>
+                                </figure>
+                              </li>
+                              <li>
+                                <figure>
+                                  <span class="hov2"><img src="images/thumb/member_06.jpg" alt="img06" ></span>
+                                </figure>
+                              </li>
+                              <li>
+                                <figure>
+                                  <span class="hov2"><img src="images/thumb/member_07.jpg" alt="img07" ></span>
+                                </figure>
+                              </li>
+                              <li>
+                                <figure>
+                                  <span class="hov2"><img src="images/thumb/member_08.jpg" alt="img08" ></span>
+                                </figure>
+                              </li>
+                              <li>
+                                <figure>
+                                  <span class="hov2"><img src="images/thumb/member_09.jpg" alt="img09" ></span>
+                                </figure>
+                              </li>
+                              <li>
+                                <figure>
+                                  <span class="hov2"><img src="images/thumb/member_10.jpg" alt="img10" ></span>
+                                </figure>
+                              </li>
+                              <li>
+                                <figure>
+                                  <span class="hov2"><img src="images/thumb/member_11.jpg" alt="img11" ></span>
+                                </figure>
+                              </li>
+                              <li>
+                                <figure>
+                                  <span class="hov2"><img src="images/thumb/member_12.jpg" alt="img12" ></span>
+                                </figure>
+                              </li>
+                              <li>
+                                <figure>
+                                  <span class="hov2"><img src="images/thumb/member_13.jpg" alt="img13" ></span>
+                                </figure>
+                              </li>
+                              <li class="nonegallery">
+                              	<span class="gallery_other">
+                                  <img src="images/thumb/member_1415.jpg" alt="img1415" >
+                                </span>
+                              </li>
+                            </ul>
+                          </section><!-- // grid-wrap -->
+                          <section class="slideshow">
+                            <ul>
+                              <li>
+                                <figure>
+                                  <a href="http://recruit.hip-pro.co.jp/introduction/01.html" class="img01" alt="img01" target="_blank"></a>
+                                </figure>
+                              </li>
+                              <li>
+                                <figure>
+                                  <a href="http://recruit.hip-pro.co.jp/introduction/02.html" class="img02" alt="img02" target="_blank"></a>
+                                </figure>
+                              </li>
+                              <li>
+                                <figure>
+                                  <a href="http://recruit.hip-pro.co.jp/introduction/03.html" class="img03" alt="img03" target="_blank"></a>
+                                </figure>
+                              </li>
+                              <li>
+                                <figure>
+                                  <a href="http://recruit.hip-pro.co.jp/introduction/04.html" class="img04" alt="img04" target="_blank"></a>
+                                </figure>
+                              </li>
+                              <li>
+                                <figure>
+                                  <a href="http://recruit.hip-pro.co.jp/introduction/05.html" class="img05" alt="img05" target="_blank"></a>
+                                </figure>
+                              </li>
+                              <li>
+                                <figure>
+                                  <a href="http://recruit.hip-pro.co.jp/introduction/06.html" class="img06" alt="img06" target="_blank"></a>
+                                </figure>
+                              </li>
+                              <li>
+                                <figure>
+                                  <a href="http://recruit.hip-pro.co.jp/introduction/07.html" class="img07" alt="img07" target="_blank"></a>
+                                </figure>
+                              </li>
+                              <li>
+                                <figure>
+                                  <a href="http://recruit.hip-pro.co.jp/introduction/08.html" class="img08" alt="img08" target="_blank"></a>
+                                </figure>
+                              </li>
+                              <li>
+                                <figure>
+                                  <a href="http://recruit.hip-pro.co.jp/introduction/09.html" class="img09" alt="img09" target="_blank"></a>
+                                </figure>
+                              </li>
+                              <li>
+                                <figure>
+                                  <a href="http://recruit.hip-pro.co.jp/introduction/10.html" class="img10" alt="img10" target="_blank"></a>
+                                </figure>
+                              </li>
+                              <li>
+                                <figure>
+                                  <a href="http://recruit.hip-pro.co.jp/introduction/11.html" class="img11" alt="img11" target="_blank"></a>
+                                </figure>
+                              </li>
+                              <li>
+                                <figure>
+                                  <a href="http://recruit.hip-pro.co.jp/introduction/12.html" class="img12" alt="img12" target="_blank"></a>
+                                </figure>
+                              </li>
+                              <li>
+                                <figure>
+                                  <a href="http://recruit.hip-pro.co.jp/introduction/13.html" class="img13" alt="img13" target="_blank"></a>
+                                </figure>
+                              </li>
+                            </ul>
+                            <nav>
+                              <span class="icon nav-prev" style="display:none !important;"></span>
+                              <span class="icon nav-next" style="display:none !important;"></span>
+                              <span class="icon nav-close"><img src="common/images/delete.png" width="27" height="27" alt="閉じる" /></span>
+                            </nav>
+                          </section><!-- // slideshow -->
+                        </div><!-- // grid-gallery -->
+
+      </div><!------ /main_gallery_inner ------>
+    </div>
+    <!------ /main_gallery ------> 
+    
+    <!------ contents_links ------>
+    <div class="contents_links">
+      <div class="contents_links_inner">
+        <ul>
+          <li><a href="http://recruit.hip-pro.co.jp/index.html" target="_blank"><img src="images/contents_links01.png" width="336" height="236"></a></li>
+          <li><a href="/service/business.html"><img src="images/contents_links02.png" width="336" height="236"></a></li>
+        </ul>
+      </div>
+      <!--/.contents_links_inner--> 
+    </div>
+    <!--/.contents_links--> 
+    <!------ /contents_links ------> 
+    
+    <!------ about_hip ------>
+    <div class="about_hip">
+      <div class="about_hip_inner">
+        <p>HIPについて</p>
+        <ul>
+          <li> <a href="/strength/">
+            <div> <span class="photo"><img src="images/about_photo01.png" width="450" height="406" alt="HIPの強み"></span> </div>
+            <div> <span class="title">HIPの強み</span> <span class="text">開発・設計のプロ集団によるアウトソーシング事業を展開。</span> </div>
+            </a> </li>
+          <li> <a href="/service/">
+            <div> <span class="photo"><img src="images/about_photo02.png" width="450" height="406" alt="業務内容"></span> </div>
+            <div> <span class="title">業務内容</span> <span class="text">お客さまの課題を高度な技術力で解決いたします。</span> </div>
+            </a> </li>
+          <li> <a href="/company/">
+            <div> <span class="photo"><img src="images/about_photo03.png" width="450" height="406" alt="会社情報"></span> </div>
+            <div> <span class="title">会社情報</span> <span class="text">ヒップは技術を通じて社会に貢献するプロの技術者集団です。</span> </div>
+            </a> </li>
+          <li> <a href="/ir/">
+            <div> <span class="photo"><img src="images/about_photo04.png" width="450" height="406" alt="IR情報"></span> </div>
+            <div> <span class="title">IR情報</span> <span class="text">株主、投資家の皆さまへの情報をお届けしています。</span> </div>
+            </a> </li>
+        </ul>
+      </div>
+      <!--/.about_hip_inner--> 
+    </div>
+    <!--/.about_hip--> 
+    <!------ /about_hip ------> 
+    
+    <!------ news_release ------>
+    <div class="news_release">
+      <div class="news_release_inner">
+        <p>新着情報</p>
+        <ul>
+
+          <li> <span class="icon"><img src="images/news/oshirase.png" width="70" height="19" alt="決算短信"></span> <span class="date">2017年8月8日</span> <span class="text">当社は8月10日～8月16日は夏期休暇となります。</span> </li> 
+
+          <li> <span class="icon"><img src="images/news/yuho.png" width="70" height="19" alt="有報"></span> <span class="date">2017年8月8日</span> <span class="text"><a href="http://v3.eir-parts.net/EIR/View.aspx?cat=yuho_pdf&sid=2568796" target="_blank">			2018年3月期 第１四半期報告書を掲載しました。</a></span> </li> 
+
+          <li> <span class="icon"><img src="images/news/kessan.png" width="70" height="19" alt="決算短信"></span> <span class="date">2017年8月8日</span> <span class="text"><a href="http://v3.eir-parts.net/EIR/View.aspx?cat=tdnet&sid=1505413" target="_blank">			平成30年３月期 第１四半期決算短信〔日本基準〕（非連結）を掲載しました。</a></span> </li> 
+          
+          <li> <span class="icon"><img src="images/news/tekiji.png" width="70" height="19" alt="適時開示"></span> <span class="date">2017年8月8日</span> <span class="text"><a href="http://v3.eir-parts.net/EIR/View.aspx?cat=tdnet&sid=1505496" target="_blank">			組織変更（営業拠点の統合等）に関するお知らせ掲載しました。</a></span> </li> 
+                    <li> <span class="icon"><img src="images/news/tekiji.png" width="70" height="19" alt="適時開示"></span> <span class="date">2017年8月8日</span> <span class="text"><a href="http://v3.eir-parts.net/EIR/View.aspx?cat=tdnet&sid=1505495" target="_blank">				平成30年３月期 第１四半期決算短信〔日本基準〕（非連結）補足資料を掲載しました。</a></span> </li> 
+        
+        
+        
+          <li> <span class="icon"><img src="images/news/tekiji.png" width="70" height="19" alt="適時開示"></span> <span class="date">2017年6月29日</span> <span class="text"><a href="http://v3.eir-parts.net/EIR/View.aspx?cat=tdnet&sid=1491238" target="_blank">		人事異動に関するお知らせを掲載しました。</a></span> </li> 
+
+
+          <li> <span class="icon"><img src="images/news/tekiji.png" width="70" height="19" alt="適時開示"></span> <span class="date">2017年6月6日</span> <span class="text"><a href="http://v3.eir-parts.net/EIR/View.aspx?cat=tdnet&sid=1483760" target="_blank">		子会社株式の譲渡に関する株式譲渡契約締結のお知らせを掲載しました。</a></span> </li> 
+          <li> <span class="icon"><img src="images/news/tekiji.png" width="70" height="19" alt="適時開示"></span> <span class="date">2017年6月6日</span> <span class="text"><a href="http://v3.eir-parts.net/EIR/View.aspx?cat=tdnet&sid=1483751" target="_blank">		非連結決算への移行及び特別利益（子会社株式売却益）の計上並びに平成30年３月期個別業績予想の修正に関するお知らせを掲載しました。</a></span> </li> 
+          <li> <span class="icon"><img src="images/news/tekiji.png" width="70" height="19" alt="適時開示"></span> <span class="date">2017年6月6日</span> <span class="text"><a href="http://v3.eir-parts.net/EIR/View.aspx?cat=tdnet&sid=1483761" target="_blank">	 	取締役の辞任に関するお知らせを掲載しました。</a></span> </li> 
+
+          <li> <span class="icon"><img src="images/news/tekiji.png" width="70" height="19" alt="適時開示"></span> <span class="date">2017年5月23日</span> <span class="text"><a href="http://v3.eir-parts.net/EIR/View.aspx?cat=tdnet&sid=1477291" target="_blank">	子会社株式の譲渡に関する基本合意書締結に関するお知らせを掲載しました。</a></span> </li> 
+
+
+          <li> <span class="icon"><img src="images/news/kessan.png" width="70" height="19" alt="決算短信"></span> <span class="date">2017年5月11日</span> <span class="text"><a href="http://v3.eir-parts.net/EIR/View.aspx?cat=tdnet&sid=1468840" target="_blank">平成29年３月期 決算短信〔日本基準〕（連結）を掲載しました。</a></span> </li>
+          <li> <span class="icon"><img src="images/news/tekiji.png" width="70" height="19" alt="適時開示"></span> <span class="date">2017年5月11日</span> <span class="text"><a href="http://v3.eir-parts.net/EIR/View.aspx?cat=tdnet&sid=1468935" target="_blank">平成29年３月期 決算短信〔日本基準〕（連結）補足資料を掲載しました。</a></span> </li> 
+
+
+        </ul>
+        <div class="link_news"> <a href="/news/">過去の新着情報</a> </div>
+      </div>
+      <!--/.news_release_inner--> 
+    </div>
+    <!--/.news_release--> 
+    <!------ /news_release ------> 
+    
+    <!------ Link area ------>
+    <div class="link_area">
+      <div class="link_area_inner">
+        <ul>
+          <li>
+            <p><span></span>
+            <img src="images/jasdaqlogo.jpg" width="68" height="80" alt="東京証券取引所JASDAQ上場（証券コード）2136"> 
+            <img src="images/BV_Cert_ISO9001_4C_Card.jpg" width="171" height="80" alt="ISO9001"> </p>
+          </li>
+        </ul>
+      </div>
+      <!--/.link_area_inner--> 
+    </div>
+    <!--/.link_area--> 
+    <!------ /Link area ------> 
+    
+  </div>
+  <!--/#index_area--> 
+</div>
+<!--/#contents--> 
+<!-- /CONTNTS ---------------------------------------------------------------------> 
+
+<!-- =================== SSI Footer  ====================== --> 
+<!-- Footer --------------------------------------------------------------------->
+<footer id="footer">
+<div class="footer_inner">
+
+<div class="footer_col">
+<dl>
+<dt><a href="/index.html">HIPトップ</a></dt>
+<dd><a href="/news/">新着情報一覧</a></dd>
+</dl>
+</div><!--/.footer_col-->
+
+<div class="footer_col">
+<dl>
+<dt><a href="/strength/">HIPの強み</a></dt>
+<dd><a href="/strength/engineer.html">高度な技術者集団</a></dd>
+<dd><a href="/strength/follow.html">充実のフォロー体制</a></dd>
+<dd><a href="/strength/network.html">全国のネットワーク</a></dd>
+</dl>
+</div><!--/.footer_col-->
+
+<div class="footer_col">
+<dl>
+<dt><a href="/service/">HIPの業務内容</a></dt>
+<dd><a href="/service/business.html">事業範囲</a></dd>
+<dd><a href="/service/send.html">技術者派遣</a></dd>
+<dd><a href="/service/field.html">技術分野の紹介</a></dd>
+<dd><a href="/service/result.html">実績</a></dd>
+<dd><a href="/service/introduction.html">所属技術者紹介</a></dd>
+<dd><a href="/service/flow.html">技術者派遣の流れ</a></dd>
+<dd><a href="/service/observance_1.html">労働派遣法遵守への<br />取り組み1</a></dd>
+<dd><a href="/service/observance_2.html">労働派遣法遵守への<br />取り組み2</a></dd>
+<dd><a href="/service/observance_3.html">労働派遣法遵守への<br />取り組み3</a></dd>
+<dd><a href="/service/observance_4.html">労働派遣法遵守への<br />取り組み4</a></dd>
+<dd><a href="/service/contract/">受託開発</a></dd>
+</dl>
+</div><!--/.footer_col-->
+
+<div class="footer_col">
+<dl>
+<dt><a href="/company/">会社情報</a></dt>
+<dd><a href="/company/message.html">ご挨拶</a></dd>
+<dd><a href="/company/outline.html">会社概要</a></dd>
+<dd><a href="/company/policy.html">経営理念</a></dd>
+<dd><a href="/company/history.html">沿革</a></dd>
+<dd><a href="/company/access/">営業拠点</a></dd>
+<dd><a href="/company/access/honsha.html">本社</a></dd>
+<dd><a href="/company/access/sendai.html">仙台</a></dd>
+<dd><a href="/company/access/utsunomiya.html">宇都宮</a></dd>
+<dd><a href="/company/access/takasaki.html">高崎</a></dd>
+<dd><a href="/company/access/tokyo.html">東京</a></dd>
+<dd><a href="/company/access/yokohama.html">横浜</a></dd>
+<dd><a href="/company/access/numazu.html">沼津</a></dd>
+<dd><a href="/company/access/hamamatsu.html">浜松</a></dd>
+<dd><a href="/company/access/nagoya.html">名古屋</a></dd>
+<dd><a href="/company/access/osaka.html">大阪</a></dd>
+<dd><a href="/company/access/hiroshima.html">広島</a></dd>
+<dd><a href="/company/access/fukuoka.html">福岡</a></dd>
+<dd><a href="/company/iso.html">ISO認証</a></dd>
+<dd><a href="/company/trademark.html">商標登録</a></dd>
+</dl>
+</div><!--/.footer_col-->
+
+<div class="footer_col">
+<dl>
+<dt><a href="/ir/">IR情報</a></dt>
+<dd><a href="/ir/news.html">IRニュース</a></dd>
+<dd><a href="/ir/message.html">投資家の皆様へ</a></dd>
+<dd><a href="/ir/business.html">事業概要</a></dd>
+<dd><a href="/ir/highlight.html">財務ハイライト</a></dd>
+<dd><a href="/ir/financial.html">財務情報</a></dd>
+<dd><a href="/ir/library.html">IRライブラリー</a></dd>
+<dd><a href="/ir/material.html">IR資料</a></dd>
+<dd><a href="/ir/calendar.html">IRカレンダー</a></dd>
+<dd><a href="/ir/stock.html">株式情報</a></dd>
+<dd><a href="http://stocks.finance.yahoo.co.jp/stocks/detail/?code=2136.t&ct=b" target="_blank">株価情報</a></dd>
+<dd><a href="http://kmasterplus.pronexus.co.jp/main/corp/2/1/2136/index.html" target="_blank">電子公告</a></dd>
+<dd><a href="/ir/faq.html">よくあるご質問</a></dd>
+<dd><a href="https://www.hip-pro.co.jp/form/form.html">IRお問い合わせ</a></dd>
+<dd><a href="/ir/policy.html">ディスクロージャー<br />ポリシー</a></dd>
+<dd><a href="/ir/disclaimer.html">免責事項</a></dd>
+</dl>
+</div><!--/.footer_col-->
+
+<div class="footer_col last">
+<dl>
+<dd><a href="/faq/">よくあるお問い合わせ</a></dd>
+<dd><a href="/securitypolicy/">情報セキュリティ方針</a></dd>
+<dd><a href="/privacypolicy/">プライバシーポリシー</a></dd>
+<dd><a href="/hakenhoudisclosure/">派遣法に基づく情報公開</a></dd>
+<dd><a href="/news/">新着情報</a></dd>
+<dd><a href="/environment/">ご利用条件</a></dd>
+</dl>
+
+<div class="form_link">
+<a href="https://www.hip-pro.co.jp/form/form.html"><span>お問い合わせ</span></a>
+</div>
+
+</div><!--/.footer_col-->
+
+</div><!--/.footer_inner-->
+</footer>
+
+<address>
+<div class="address_inner">
+<div class="logo_footer"><img src="/common/images/logo_footer.png" alt="株式会社ヒップ（HIP）"></div>
+<div class="copyright">Copyright &copy; HIPCorporation.All Rights Reserved.</div>
+</div>
+</address>
+
+<!-- /Footer ---------------------------------------------------------------------> 
+<!-- =================== /SSI Footer ====================== -->
+<script type="text/javascript" src="/common/js/gallery/imagesloaded.pkgd.min.js"></script>
+<script type="text/javascript" src="/common/js/gallery/masonry.pkgd.min.js"></script>
+<script type="text/javascript" src="/common/js/gallery/classie.js"></script>
+<script type="text/javascript" src="/common/js/gallery/cbpGridGallery.js"></script>
+<script>
+	new CBPGridGallery( document.getElementById( 'grid-gallery' ) );
+</script>
+</body>
+</html>

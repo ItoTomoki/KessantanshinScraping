@@ -1,0 +1,438 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="content-style-Type" content="text/css" />
+<meta http-equiv="content-script-Type" content="text/javascript" />
+<meta name="Keywords" content="森組,土木,建築,リフォーム,砕石,株主投資家,CSR,採用" />
+<meta name="Description" content="株式会社森組のコーポレートサイトです。会社情報、事業案内、IR情報、CSRへの取り組み、採用情報などを掲載しています。" />
+<title>株式会社森組</title>
+<link href="css/base.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/nav.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/index.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/font_s.css" rel="alternate stylesheet" type="text/css" title="font_s" />
+<link href="css/font_m.css" rel="alternate stylesheet" type="text/css" title="font_m" />
+<link href="css/font_l.css" rel="alternate stylesheet" type="text/css" title="font_l" />
+<script type="text/javascript" src="js/styleswitcher.js"></script>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/rollover.js"></script>
+<script type="text/javascript" src="js/scrollsmoothly.js"></script>
+<!--IE6用PNG表示-->
+<script type="text/javascript" src="js/iepngfix.js"></script>
+<!--スクロールバー-->
+<link href="css/jquery.jscrollpane.css" rel="stylesheet" type="text/css" media="all" />
+<script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
+<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+<script type="text/javascript">
+$(function(){
+	$('.scroll-pane').jScrollPane();
+});
+</script>
+<!--スライドショー-->
+<script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
+<script type="text/javascript">// <![CDATA[
+$(function() {
+	$('.bxslider').bxSlider({
+		auto:true,
+		speed: 800,
+		mode: 'fade',
+		easing: 'ease-in-out',
+		responsive: false,
+		slideWidth: 900,
+		pager: false,
+		controls: false,
+		autoHover: true
+	});
+});
+// ]]></script>
+</head>
+<body id="home">
+<div id="container">
+	<div id="header">
+		<p id="logo"><a href="index.html"><img src="images/logo.gif" width="184" height="50" alt="株式会社森組" /></a></p>
+		<ul id="header_btn">
+			<li><a href="inquiry/index.html">お問合わせ</a></li>
+		</ul>
+		<p id="font_label">文字サイズ</p>
+		<ul id="font_switch">
+			<li><a href="javascript:void(0);" onclick="setActiveStyleSheet('font_s'); return false;" class="btn_s"><span>小</span></a></li>
+			<li><a href="javascript:void(0);" onclick="setActiveStyleSheet('font_m'); return false;" class="btn_m"><span>標準</span></a></li>
+			<li><a href="javascript:void(0);" onclick="setActiveStyleSheet('font_l'); return false;" class="btn_l"><span>大</span></a></li>
+		</ul>
+		<ul id="nav">
+			<li><a href="company/index.html"><img src="images/index_nav_01.gif" width="126" height="40" alt="会社案内" class="rover" /></a></li>
+			<li><a href="business/index.html"><img src="images/index_nav_02.gif" width="125" height="40" alt="事業案内" class="rover" /></a></li>
+			<li><a href="ir/index.html"><img src="images/index_nav_03.gif" width="125" height="40" alt="投資家の皆様へ" class="rover" /></a></li>
+			<li><a href="csr/index.html"><img src="images/index_nav_04.gif" width="125" height="40" alt="CSRへの取り組み" class="rover" /></a></li>
+			<li><a href="recruit/index.html"><img src="images/index_nav_05.gif" width="125" height="40" alt="採用案内" class="rover" /></a></li>
+		</ul>
+	</div>
+	<div id="index_main">
+		<ul class="bxslider">
+			<li><img src="images/main_visual_01.jpg" width="900" height="536" alt="JOY &amp; JOY 信頼の実績で、社会資本と暮らしを支えます" /></li>
+			<li><img src="images/main_visual_02.jpg" width="900" height="536" alt="お客様に喜びを" /></li>
+			<li><img src="images/main_visual_03.jpg" width="900" height="536" alt="社会の皆様に喜びを" /></li>
+		</ul>
+		<ul id="index_menu">
+			<li><a href="business/civil.html"><img src="images/menu_01.png" width="215" height="60" alt="土木事業" class="rover" /></a></li>
+			<li><a href="business/architecture.html"><img src="images/menu_02.png" width="215" height="60" alt="建築事業" class="rover" /></a></li>
+			<li><a href="business/reform.html"><img src="images/menu_03.png" width="215" height="60" alt="リニューアル事業" class="rover" /></a></li>
+			<li><a href="business/crushed.html"><img src="images/menu_04.png" width="215" height="60" alt="砕石事業" class="rover" /></a></li>
+		</ul>
+		<div id="index_news">
+			<div class="news_head">
+				<p><img src="images/index_news_head.gif" width="54" height="14" alt="新着情報" /></p>
+				<ul>
+					<li><a href="news/index.html">過去の新着情報へ</a></li>
+				</ul>
+			</div>
+			<div class="scroll-pane">
+				<table class="tb_news">
+					<tr>
+						<th>2017.08.18</th>
+						<td class="cell_icon"><img src="images/news_icon_recruit.gif" width="55" height="16" alt="採用情報" /></td>
+						<td><a href="http://www.asahi-kasei.co.jp/homes/seminar/index.html/" target="_blank">9/2（土）9/3（日）旭化成ホームズと合同でキャリア（中途向け）技術系総合職の会社説明会を開催します。</a></td>
+					</tr>
+					<tr>
+						<th>2017.08.10</th>
+						<td class="cell_icon"><img src="images/news_icon_ir.gif" width="55" height="16" alt="IR" /></td>
+						<td><a href="ir/index.html">『平成30年3月期 第1四半期報告書』</a></td>
+					</tr>
+					<tr>
+						<th>2017.08.10</th>
+						<td class="cell_icon"><img src="images/news_icon_ir.gif" width="55" height="16" alt="IR" /></td>
+						<td><a href="ir/result.html">『平成30年3月期 第1四半期決算短信』</a></td>
+					</tr>
+					<tr>
+						<th>2017.08.09</th>
+						<td class="cell_icon"><img src="images/news_icon_const.gif" width="55" height="16" alt="工事情報" /></td>
+						<td><a href="construction/20170809.html">「枚岡河内南幹線（二）（第3工区）下水管渠築造工事」が竣工しました。</a></td>
+					</tr>
+					<tr>
+						<th>2017.08.04</th>
+						<td class="cell_icon"><img src="images/news_icon_const.gif" width="55" height="16" alt="工事情報" /></td>
+						<td><a href="construction/20170804a.html">近畿地方整備局の優良工事等施工者局長表彰を受賞しました。<br />
+							近畿地方整備局から平成29年度工事成績優秀企業に認定されました。</a></td>
+					</tr>
+					<tr>
+						<th>2017.08.04</th>
+						<td class="cell_icon"><img src="images/news_icon_const.gif" width="55" height="16" alt="工事情報" /></td>
+						<td><a href="construction/20170804b.html">「障害者支援施設かつらぎ・にじょう」竣工しました。</a></td>
+					</tr>
+					<tr>
+						<th>2017.07.01</th>
+						<td class="cell_icon"><img src="images/news_icon_csr.gif" width="55" height="16" alt="CSR" /></td>
+						<td><a href="csr/report.html">『CSRレポート2017』</a>を発行いたしました。</td>
+					</tr>
+					<tr>
+						<th>2017.06.23</th>
+						<td class="cell_icon"><img src="images/news_icon_ir.gif" width="55" height="16" alt="IR" /></td>
+						<td><a href="ir/index.html">『平成29年3月期 有価証券報告書』</a></td>
+					</tr>
+					<tr>
+						<th>2017.06.23</th>
+						<td class="cell_icon"><img src="images/news_icon_ir.gif" width="55" height="16" alt="IR" /></td>
+						<td><a href="ir/shareholder.html">『第84回定時株主総会決議ご通知』</a></td>
+					</tr>
+					<tr>
+						<th>2017.05.31</th>
+						<td class="cell_icon"><img src="images/news_icon_ir.gif" width="55" height="16" alt="IR" /></td>
+						<td><a href="ir/shareholder.html">『第84回定時株主総会招集ご通知』</a></td>
+					</tr>
+					<tr>
+						<th>2017.05.12</th>
+						<td class="cell_icon"><img src="images/news_icon_ir.gif" width="55" height="16" alt="IR" /></td>
+						<td><a href="ir/result.html">『平成29年3月期 決算短信』</a></td>
+					</tr>
+					<tr>
+						<th>2017.03.24</th>
+						<td class="cell_icon"><img src="images/news_icon_ir.gif" width="55" height="16" alt="IR" /></td>
+						<td><a href="news/pdf/20170324.pdf" target="_blank"><img src="images/icon_pdf.gif" width="12" height="14" alt="PDF" class="icon_pdf1" />『組織変更ならびに役員の異動に関するお知らせ』</a></td>
+					</tr>
+					<tr>
+						<th>2017.02.14</th>
+						<td class="cell_icon"><img src="images/news_icon_ir.gif" width="55" height="16" alt="IR" /></td>
+						<td><a href="ir/index.html">『平成29年3月期 第3四半期報告書』</a></td>
+					</tr>
+					<tr>
+						<th>2017.02.10</th>
+						<td class="cell_icon"><img src="images/news_icon_ir.gif" width="55" height="16" alt="IR" /></td>
+						<td><a href="ir/result.html">『平成29年3月期 第3四半期決算短信』</a></td>
+					</tr>
+					<tr>
+						<th>2017.02.10</th>
+						<td class="cell_icon"><img src="images/news_icon_ir.gif" width="55" height="16" alt="IR" /></td>
+						<td><a href="news/pdf/20170210.pdf" target="_blank"><img src="images/icon_pdf.gif" width="12" height="14" alt="PDF" class="icon_pdf1" />『役員の異動に関するお知らせ』</a></td>
+					</tr>
+					<tr>
+						<th>2017.01.04</th>
+						<td class="cell_icon"><img src="images/news_icon_ir.gif" width="55" height="16" alt="IR" /></td>
+						<td><a href="news/pdf/20170104.pdf" target="_blank"><img src="images/icon_pdf.gif" width="12" height="14" alt="PDF" class="icon_pdf1" />『単元株式数の変更について』</a></td>
+					</tr>
+					<tr>
+						<th>2016.11.14</th>
+						<td class="cell_icon"><img src="images/news_icon_ir.gif" width="55" height="16" alt="IR" /></td>
+						<td><a href="ir/index.html">『平成29年3月期 第2四半期報告書』</a></td>
+					</tr>
+					<tr>
+						<th>2016.11.10</th>
+						<td class="cell_icon"><img src="images/news_icon_ir.gif" width="55" height="16" alt="IR" /></td>
+						<td><a href="ir/result.html">『平成29年3月期 第2四半期決算短信』</a></td>
+					</tr>
+					<tr>
+						<th>2016.11.10</th>
+						<td class="cell_icon"><img src="images/news_icon_ir.gif" width="55" height="16" alt="IR" /></td>
+						<td><a href="news/pdf/20161110a.pdf" target="_blank"><img src="images/icon_pdf.gif" width="12" height="14" alt="PDF" class="icon_pdf1" />『業績予想の修正に関するお知らせ』</a></td>
+					</tr>
+					<tr>
+						<th>2016.11.10</th>
+						<td class="cell_icon"><img src="images/news_icon_ir.gif" width="55" height="16" alt="IR" /></td>
+						<td><a href="news/pdf/20161110b.pdf" target="_blank"><img src="images/icon_pdf.gif" width="12" height="14" alt="PDF" class="icon_pdf1" />『単元株式数の変更及び定款の一部変更に関するお知らせ』</a></td>
+					</tr>
+					<tr>
+						<th>2016.09.20</th>
+						<td class="cell_icon"><img src="images/news_icon_ir.gif" width="55" height="16" alt="IR" /></td>
+						<td><a href="news/pdf/20160920.pdf" target="_blank"><img src="images/icon_pdf.gif" width="12" height="14" alt="PDF" class="icon_pdf1" />『役員の異動に関するお知らせ』</a></td>
+					</tr>
+					<tr>
+						<th>2016.08.10</th>
+						<td class="cell_icon"><img src="images/news_icon_ir.gif" width="55" height="16" alt="IR" /></td>
+						<td><a href="ir/index.html">『平成29年3月期 第1四半期報告書』</a></td>
+					</tr>
+					<tr>
+						<th>2016.08.10</th>
+						<td class="cell_icon"><img src="images/news_icon_ir.gif" width="55" height="16" alt="IR" /></td>
+						<td><a href="ir/result.html">『平成29年3月期 第1四半期決算短信』</a></td>
+					</tr>
+					<tr>
+						<th>2016.07.01</th>
+						<td class="cell_icon"><img src="images/news_icon_csr.gif" width="55" height="16" alt="CSR" /></td>
+						<td><a href="csr/report.html">『CSRレポート2016』</a>を発行いたしました。</td>
+					</tr>
+					<tr>
+						<th>2016.06.24</th>
+						<td class="cell_icon"><img src="images/news_icon_ir.gif" width="55" height="16" alt="IR" /></td>
+						<td><a href="ir/index.html">『平成28年3月期 有価証券報告書』</a></td>
+					</tr>
+					<tr>
+						<th>2016.06.24</th>
+						<td class="cell_icon"><img src="images/news_icon_ir.gif" width="55" height="16" alt="IR" /></td>
+						<td><a href="ir/shareholder.html">『第83回定時株主総会決議ご通知』</a></td>
+					</tr>
+					<tr>
+						<th>2016.06.24</th>
+						<td class="cell_icon"><img src="images/news_icon_ir.gif" width="55" height="16" alt="IR" /></td>
+						<td><a href="news/pdf/20160624a.pdf" target="_blank"><img src="images/icon_pdf.gif" width="12" height="14" alt="PDF" class="icon_pdf1" />『役員の異動に関するお知らせ』</a></td>
+					</tr>
+					<tr>
+						<th>2016.06.24</th>
+						<td class="cell_icon"><img src="images/news_icon_ir.gif" width="55" height="16" alt="IR" /></td>
+						<td><a href="news/pdf/20160624b.pdf" target="_blank"><img src="images/icon_pdf.gif" width="12" height="14" alt="PDF" class="icon_pdf1" />『支配株主等に関する事項について』</a></td>
+					</tr>
+					<tr>
+						<th>2016.06.24</th>
+						<td class="cell_icon"><img src="images/news_icon_ir.gif" width="55" height="16" alt="IR" /></td>
+						<td><a href="news/pdf/20160624c.pdf" target="_blank"><img src="images/icon_pdf.gif" width="12" height="14" alt="PDF" class="icon_pdf1" />『(訂正）適時開示資料「株式の売出し、主要株主である筆頭株主の異動およびその他の関係会社の異動に関するお知らせ」の一部訂正について』</a></td>
+					</tr>
+					<tr>
+						<th>2016.06.01</th>
+						<td class="cell_icon"><img src="images/news_icon_ir.gif" width="55" height="16" alt="IR" /></td>
+						<td><a href="ir/shareholder.html">『第83回定時株主総会招集ご通知』</a></td>
+					</tr>
+					<tr>
+						<th>2016.05.13</th>
+						<td class="cell_icon"><img src="images/news_icon_ir.gif" width="55" height="16" alt="IR" /></td>
+						<td><a href="ir/result.html">『平成28年3月期 決算短信』</a></td>
+					</tr>
+					<tr>
+						<th>2016.05.13</th>
+						<td class="cell_icon"><img src="images/news_icon_ir.gif" width="55" height="16" alt="IR" /></td>
+						<td><a href="news/pdf/20160513a.pdf" target="_blank"><img src="images/icon_pdf.gif" width="12" height="14" alt="PDF" class="icon_pdf1" />『旭化成ホームズ株式会社との業務提携に関するお知らせ』</a></td>
+					</tr>
+					<tr>
+						<th>2016.05.13</th>
+						<td class="cell_icon"><img src="images/news_icon_ir.gif" width="55" height="16" alt="IR" /></td>
+						<td><a href="news/pdf/20160513b.pdf" target="_blank"><img src="images/icon_pdf.gif" width="12" height="14" alt="PDF" class="icon_pdf1" />『株式の売出し、主要株主である筆頭株主の異動およびその他の関係会社の異動に関するお知らせ』</a></td>
+					</tr>
+					<tr>
+						<th>2016.03.25</th>
+						<td class="cell_icon"><img src="images/news_icon_ir.gif" width="55" height="16" alt="IR" /></td>
+						<td><a href="news/pdf/20160325.pdf" target="_blank"><img src="images/icon_pdf.gif" width="12" height="14" alt="PDF" class="icon_pdf1" />『執行役員の選任に関するお知らせ』</a></td>
+					</tr>
+					<tr>
+						<th>2016.03.17</th>
+						<td class="cell_icon"><img src="images/news_icon_ir.gif" width="55" height="16" alt="IR" /></td>
+						<td><a href="news/pdf/20160317.pdf" target="_blank"><img src="images/icon_pdf.gif" width="12" height="14" alt="PDF" class="icon_pdf1" />『和解による訴訟の解決に関するお知らせ』</a></td>
+					</tr>
+					<tr>
+						<th>2016.02.12</th>
+						<td class="cell_icon"><img src="images/news_icon_ir.gif" width="55" height="16" alt="IR" /></td>
+						<td><a href="ir/index.html">『平成28年3月期 第3四半期報告書』</a></td>
+					</tr>
+					<tr>
+						<th>2016.02.05</th>
+						<td class="cell_icon"><img src="images/news_icon_ir.gif" width="55" height="16" alt="IR" /></td>
+						<td><a href="ir/result.html">『平成28年3月期 第3四半期決算短信』</a></td>
+					</tr>
+					<tr>
+						<th>2016.02.05</th>
+						<td class="cell_icon"><img src="images/news_icon_ir.gif" width="55" height="16" alt="IR" /></td>
+						<td><a href="news/pdf/20160205a.pdf" target="_blank"><img src="images/icon_pdf.gif" width="12" height="14" alt="PDF" class="icon_pdf1" />『配当予想の修正（復配）に関するお知らせ』</a></td>
+					</tr>
+					<tr>
+						<th>2016.02.05</th>
+						<td class="cell_icon"><img src="images/news_icon_ir.gif" width="55" height="16" alt="IR" /></td>
+						<td><a href="news/pdf/20160205b.pdf" target="_blank"><img src="images/icon_pdf.gif" width="12" height="14" alt="PDF" class="icon_pdf1" />『組織変更ならびに役員の異動に関するお知らせ』</a></td>
+					</tr>
+					<tr>
+						<th>2015.11.13</th>
+						<td class="cell_icon"><img src="images/news_icon_ir.gif" width="55" height="16" alt="IR" /></td>
+						<td><a href="ir/index.html">『平成28年3月期 第2四半期報告書』</a></td>
+					</tr>
+					<tr>
+						<th>2015.11.06</th>
+						<td class="cell_icon"><img src="images/news_icon_ir.gif" width="55" height="16" alt="IR" /></td>
+						<td><a href="ir/result.html">『平成28年3月期 第2四半期決算短信』</a></td>
+					</tr>
+					<tr>
+						<th>2015.11.06</th>
+						<td class="cell_icon"><img src="images/news_icon_ir.gif" width="55" height="16" alt="IR" /></td>
+						<td><a href="news/pdf/20151106.pdf" target="_blank"><img src="images/icon_pdf.gif" width="12" height="14" alt="PDF" class="icon_pdf1" />『業績予想の修正に関するお知らせ』</a></td>
+					</tr>
+					<tr>
+						<th>2015.08.20</th>
+						<td class="cell_icon"><img src="images/news_icon_csr.gif" width="55" height="16" alt="CSR" /></td>
+						<td><a href="csr/report.html">『CSRレポート2015』</a>を発行いたしました。</td>
+					</tr>
+					<tr>
+						<th>2015.08.07</th>
+						<td class="cell_icon"><img src="images/news_icon_ir.gif" width="55" height="16" alt="IR" /></td>
+						<td><a href="ir/index.html">『平成28年3月期 第1四半期報告書』</a></td>
+					</tr>
+					<tr>
+						<th>2015.08.07</th>
+						<td class="cell_icon"><img src="images/news_icon_ir.gif" width="55" height="16" alt="IR" /></td>
+						<td><a href="ir/result.html">『平成28年3月期 第1四半期決算短信』</a></td>
+					</tr>
+					<tr>
+						<th>2015.06.26</th>
+						<td class="cell_icon"><img src="images/news_icon_ir.gif" width="55" height="16" alt="IR" /></td>
+						<td><a href="ir/index.html">『平成27年3月期 有価証券報告書』</a></td>
+					</tr>
+					<tr>
+						<th>2015.06.12</th>
+						<td class="cell_icon"><img src="images/news_icon_other.gif" width="55" height="16" alt="その他" /></td>
+						<td><a href="news/pdf/20150612.pdf" target="_blank"><img src="images/icon_pdf.gif" width="12" height="14" alt="PDF" class="icon_pdf1" />『「第82回定時株主総会招集ご通知」の一部修正について』</a></td>
+					</tr>
+					<tr>
+						<th>2015.05.14</th>
+						<td class="cell_icon"><img src="images/news_icon_ir.gif" width="55" height="16" alt="IR" /></td>
+						<td><a href="ir/result.html">『平成27年3月期 決算短信』</a></td>
+					</tr>
+					<tr>
+						<th>2015.05.11</th>
+						<td class="cell_icon"><img src="images/news_icon_ir.gif" width="55" height="16" alt="IR" /></td>
+						<td><a href="news/pdf/20150511.pdf" target="_blank"><img src="images/icon_pdf.gif" width="12" height="14" alt="PDF" class="icon_pdf1" />『業績予想の修正に関するお知らせ』</a></td>
+					</tr>
+					<tr>
+						<th>2015.03.20</th>
+						<td class="cell_icon"><img src="images/news_icon_ir.gif" width="55" height="16" alt="IR" /></td>
+						<td><a href="news/pdf/20150320.pdf" target="_blank"><img src="images/icon_pdf.gif" width="12" height="14" alt="PDF" class="icon_pdf1" />『組織変更ならびに役員の異動および辞任に関するお知らせ』</a></td>
+					</tr>
+					<tr>
+						<th>2015.02.13</th>
+						<td class="cell_icon"><img src="images/news_icon_ir.gif" width="55" height="16" alt="IR" /></td>
+						<td><a href="ir/index.html">『平成27年3月期 第3四半期報告書』</a></td>
+					</tr>
+					<tr>
+						<th>2015.02.06</th>
+						<td class="cell_icon"><img src="images/news_icon_com.gif" width="55" height="16" alt="企業情報" /></td>
+						<td><a href="news/pdf/20150206_2.pdf" target="_blank"><img src="images/icon_pdf.gif" width="12" height="14" alt="PDF" class="icon_pdf1" />『代表取締役の異動に関するお知らせ』</a></td>
+					</tr>
+					<tr>
+						<th>2015.02.06</th>
+						<td class="cell_icon"><img src="images/news_icon_ir.gif" width="55" height="16" alt="IR" /></td>
+						<td><a href="ir/result.html">『平成27年3月期 第3四半期決算短信』</a></td>
+					</tr>
+					<tr>
+						<th>2015.02.06</th>
+						<td class="cell_icon"><img src="images/news_icon_ir.gif" width="55" height="16" alt="IR" /></td>
+						<td><a href="news/pdf/20150206.pdf" target="_blank"><img src="images/icon_pdf.gif" width="12" height="14" alt="PDF" class="icon_pdf1" />『業績予想の修正に関するお知らせ』</a></td>
+					</tr>
+					<tr>
+						<th>2014.11.25</th>
+						<td class="cell_icon"><img src="images/news_icon_ir.gif" width="55" height="16" alt="IR" /></td>
+						<td><a href="news/pdf/20141125.pdf" target="_blank"><img src="images/icon_pdf.gif" width="12" height="14" alt="PDF" class="icon_pdf1" />『訴訟（反訴）の提起がなされたことに関するお知らせ』</a></td>
+					</tr>
+					<tr>
+						<th>2014.11.14</th>
+						<td class="cell_icon"><img src="images/news_icon_ir.gif" width="55" height="16" alt="IR" /></td>
+						<td><a href="ir/index.html">『平成27年3月期 第2四半期報告書』</a></td>
+					</tr>
+					<tr>
+						<th>2014.11.07</th>
+						<td class="cell_icon"><img src="images/news_icon_ir.gif" width="55" height="16" alt="IR" /></td>
+						<td><a href="ir/result.html">『平成27年3月期 第2四半期決算短信』</a></td>
+					</tr>
+					<tr>
+						<th>2014.11.04</th>
+						<td class="cell_icon"><img src="images/news_icon_ir.gif" width="55" height="16" alt="IR" /></td>
+						<td><a href="news/pdf/20141104.pdf" target="_blank"><img src="images/icon_pdf.gif" width="12" height="14" alt="PDF" class="icon_pdf1" />『業績予想の修正に関するお知らせ』</a></td>
+					</tr>
+					<tr>
+						<th>2014.09.01</th>
+						<td class="cell_icon"><img src="images/news_icon_csr.gif" width="55" height="16" alt="CSR" /></td>
+						<td><a href="csr/report.html">『CSRレポート2014』</a>を発行いたしました。</td>
+					</tr>
+					<tr>
+						<th>2014.08.07</th>
+						<td class="cell_icon"><img src="images/news_icon_ir.gif" width="55" height="16" alt="IR" /></td>
+						<td><a href="ir/index.html">『平成27年3月期 第1四半期報告書』</a></td>
+					</tr>
+					<tr>
+						<th>2014.08.07</th>
+						<td class="cell_icon"><img src="images/news_icon_ir.gif" width="55" height="16" alt="IR" /></td>
+						<td><a href="ir/result.html">『平成27年3月期 第1四半期決算短信』</a></td>
+					</tr>
+					<tr>
+						<th>2014.06.27</th>
+						<td class="cell_icon"><img src="images/news_icon_com.gif" width="55" height="16" alt="企業情報" /></td>
+						<td><a href="news/pdf/20140627.pdf" target="_blank"><img src="images/icon_pdf.gif" width="12" height="14" alt="PDF" class="icon_pdf1" />『執行役員の選任に関するお知らせ』</a></td>
+					</tr>
+					<tr>
+						<th>2014.06.27</th>
+						<td class="cell_icon"><img src="images/news_icon_ir.gif" width="55" height="16" alt="IR" /></td>
+						<td><a href="ir/index.html">『平成26年3月期 有価証券報告書』</a></td>
+					</tr>
+					<tr>
+						<th>2014.05.09</th>
+						<td class="cell_icon"><img src="images/news_icon_ir.gif" width="55" height="16" alt="IR" /></td>
+						<td><a href="ir/result.html">『平成26年3月期決算短信』</a></td>
+					</tr>
+					<tr>
+						<th>2014.05.02</th>
+						<td class="cell_icon"><img src="images/news_icon_ir.gif" width="55" height="16" alt="IR" /></td>
+						<td><a href="news/pdf/20140509.pdf" target="_blank"><img src="images/icon_pdf.gif" width="12" height="14" alt="PDF" class="icon_pdf1" />『業績予想の修正に関するお知らせ』</a></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<ul id="index_banner">
+			<li><a href="tecnology/index.html"><img src="images/banner_tecnology.jpg" alt="スーパードライバー工法" width="185" height="65" class="rover" border="0" /></a></li>
+			<li><a href="ir/index.html"><img src="images/banner_01.jpg" width="185" height="65" alt="IRライブラリ" class="rover" /></a></li>
+			<li><a href="products/index.html"><img src="images/banner_02.jpg" width="185" height="65" alt="新製品・新工法募集" class="rover" /></a></li>
+			<li><a href="csr/report.html"><img src="images/banner_03.jpg" width="185" height="65" alt="CSRレポート" class="rover" /></a></li>
+		</ul>
+		<p id="menu_base"><img src="images/menu_base.png" width="900" height="225" alt="" class="iepngfix" /></p>
+	</div>
+	<div id="push"></div>
+</div>
+<div id="footer">
+	<ul id="footer_link">
+		<li><a href="terms/index.html">利用規約</a></li>
+		<li><a href="privacy/index.html">プライバシーポリシー</a></li>
+	</ul>
+	<p id="copyright">Copyright &copy; Mori-Gumi Co., Ltd. All Rights Reserved.</p>
+</div>
+</body>
+</html>

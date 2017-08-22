@@ -1,0 +1,301 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>決算短信 :IRライブラリ ：投資家の皆様へ : これまでもエコ・これからもエコ 土屋グループ</title>
+<meta name="Description" content="土屋グループ IRライブラリ:決算短信 投資家の皆様へ">
+<meta name="Keywords" content="土屋グループ">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+<script src="/common/js/jquery-1.4.4.min.js"></script>
+<script src="/common/js/org.js"></script>
+
+<link rel="stylesheet" href="/common/css/common.css">
+<link rel="stylesheet" href="../css/style.css">
+
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+</head>
+
+<body id="top">
+<!--[if lte IE 6]><script src="/common/js/ie6.js"></script><![endif]-->
+<div id="container">
+
+<div id="menuBox">
+
+<header>
+<h1><a href="/?PHPSESSID=3099634ed96013b1f1d3c623c3256c87" title="これまでもエコ・これからもエコ 土屋グループ" class="alp70"><img src="/common/img/logo.png" alt="これまでもエコ・これからもエコ 土屋グループ"></a></h1>
+</header>
+
+<navi>
+<ul class="mainMenu">
+<li><a href="/sumai/?PHPSESSID=3099634ed96013b1f1d3c623c3256c87" title="土屋グループの住まいづくり" class="alp70"><img src="/common/img/sidemenu_01.png" alt="土屋グループの住まいづくり"></a></li>
+<li><a href="/group/?PHPSESSID=3099634ed96013b1f1d3c623c3256c87" title="グループ紹介" class="alp70"><img src="/common/img/sidemenu_02.png" alt="グループ紹介"></a></li>
+<li><a href="/news_g/?PHPSESSID=3099634ed96013b1f1d3c623c3256c87" title="グループニュース" class="alp70"><img src="/common/img/sidemenu_03.png" alt="グループニュース"></a></li>
+<li><a href="/ir/?PHPSESSID=3099634ed96013b1f1d3c623c3256c87" title="投資家の皆様へ" class="alp70"><img src="/ir/img/sidemenu_04_02.png" alt="投資家の皆様へ"></a></li>
+</ul>
+<ul class="irMenu">
+<li><a href="/ir/news/?PHPSESSID=3099634ed96013b1f1d3c623c3256c87" title="IRニュース">IRニュース</a></li>
+<li><a href="/ir/mi/?PHPSESSID=3099634ed96013b1f1d3c623c3256c87" title="経営情報">経営情報</a></li>
+<li><a href="/ir/order_report/?PHPSESSID=3099634ed96013b1f1d3c623c3256c87" title="月次受注速報">月次受注速報</a></li>
+<li><a href="/ir/library/?PHPSESSID=3099634ed96013b1f1d3c623c3256c87" title="IRライブラリ">IRライブラリ</a>
+<ul class="irLibMenu">
+<li><a href="/ir/library/category.php?id=1&PHPSESSID=3099634ed96013b1f1d3c623c3256c87" title="プレスリリース">プレスリリース</a></li>
+<li><a href="/ir/library/category.php?id=13&PHPSESSID=3099634ed96013b1f1d3c623c3256c87" title="招集通知">招集通知</a></li>
+<li><a href="/ir/library/category.php?id=3&PHPSESSID=3099634ed96013b1f1d3c623c3256c87" title="事業報告書">事業報告書</a></li>
+<li><a href="/ir/library/category.php?id=2&PHPSESSID=3099634ed96013b1f1d3c623c3256c87" title="決算短信">決算短信</a></li>
+<li><a href="/ir/library/category.php?id=4&PHPSESSID=3099634ed96013b1f1d3c623c3256c87" title="会社説明会資料">会社説明会資料</a></li>
+<li><a href="/ir/library/category.php?id=6&PHPSESSID=3099634ed96013b1f1d3c623c3256c87" title="その他">その他</a></li>
+</ul>
+<li><a href="/ir/calender/?PHPSESSID=3099634ed96013b1f1d3c623c3256c87" title="IRカレンダー">IRカレンダー</a>
+</li>
+</ul>
+
+<ul class="irMenu02">
+<li><a href="http://disclosure.edinet-fsa.go.jp/" title="有価証券報告書[EDINET]" target="_blank" class="alp70"><img src="/common/img/btn_ir_edinet.png" alt="有価証券報告書"></a></li>
+<li><a href="http://kmasterplus.pronexus.co.jp/main/corp/1/8/1840/index.html" title="電子公告" target="_blank" class="alp70"><img src="/common/img/btn_ir_kokoku.png" alt="電子公告"></a></li>
+<li><a href="http://quote.nomura.co.jp/nomura/cgi-bin/parser.pl?QCODE=1840&TEMPLATE=nomura_tp_kabu_01&MKTN=" title="株価情報[野村證券]" target="_blank" class="alp70"><img src="/common/img/btn_ir_sp.png" alt="株価情報"></a></li>
+</ul>
+
+<div id="gbList">
+<h2><img src="/common/img/title_group_off.png" alt="TsuchiyaGroup"></h2>
+<ul class="gBnList" style="display: none;">
+<li><a href="http://www.tsuchiyahome.jp/" title="土屋ホーム のサイトへ" class="alp70" target="_blank"><img src="/common/img/bn_home.jpg" alt="土屋ホーム"></a><br><img src="/common/img/point03.png" alt=""> 住宅の施工・販売と不動産流通事業</li>
+<li><a href="http://www.hometopia.jp/" title="土屋ホームトピア のサイトへ" class="alp70" target="_blank"><img src="/common/img/bn_hometopia.jpg" alt="土屋ホームトピア"></a><br><img src="/common/img/point03.png" alt=""> 増改築・リフォーム事業</li>
+<li><a href="http://tsuchiyahome.jp/tokken/" title="特建事業部 のサイトへ" class="alp70" target="_blank"><img src="/common/img/bn_tokken.jpg" alt="特建事業部"></a><br><img src="/common/img/point03.png" alt=""> 土屋ホーム 特建事業部</li>
+<li><a href="http://www.liznas.jp/" title="リズナス事業部 のサイトへ" class="alp70" target="_blank"><img src="/common/img/bn_liznas.jpg" alt="リズナス事業部"></a><br><img src="/common/img/point03.png" alt=""> 土屋ホーム リズナス事業部</li>
+<li><a href="http://www.tsuchiyahome.jp/renovation/" title="リノベーション事業部 のサイトへ" class="alp70" target="_blank"><img src="/common/img/bn_renovation.jpg" alt="リノベーション事業部"></a><br><img src="/common/img/point03.png" alt=""> 土屋ホームの再生住宅</li>
+<li><a href="http://www.archtechno.jp/" title="アーキテクノ のサイトへ" class="alp70" target="_blank"><img src="/common/img/bn_archtechno.jpg" alt="アーキテクノ"></a><br><img src="/common/img/point03.png" alt=""> 土屋グループの社員大工集団</li>
+<li><a href="http://www.tsuchiyahome.jp/insulation/16.html" title="アーキテクチュアカレッジ のサイトへ" class="alp70" target="_blank"><img src="/common/img/bn_archcollege.jpg" alt="アーキテクチュアカレッジ"></a><br><img src="/common/img/point03.png" alt=""> 大工の職業訓練校</li>
+<li><a href="http://www.t-solarfactory.com/" title="土屋ソーラーファクトリー のサイトへ" class="alp70" target="_blank"><img src="/common/img/bn_solar.jpg" alt="土屋ソーラーファクトリー"></a><br><img src="/common/img/point03.png" alt=""> 産業用太陽光発電</li>
+<li><a href="http://www.tsuchiya-iesapo.jp/" title="「家サポ」 のサイトへ" class="alp70" target="_blank"><img src="/common/img/bn_iesapo.jpg" alt="オーナー様専用サイト「家サポ」"></a><br><img src="/common/img/point03.png" alt="">オーナー様専用サイト「家サポ」</li>
+<li><img src="/common/img/title_bn02.png" alt="社会貢献活動"><br><a href="http://www.normalize.or.jp/" title="財団法人ノーマライゼーション住宅財団 のサイトへ" class="alp70" target="_blank"><img src="/common/img/bn_normalize.jpg" alt="財団法人ノーマライゼーション住宅財団"></a><br><img src="/common/img/point03.png" alt=""> 福祉住宅・施設研究活動</li>
+<li><a href="http://www.tsuchiya.co.jp/news_g/entry.php?news=1221" title="人間社長塾" class="alp70"><img src="/common/img/bn_syatyou.jpg" alt="人間社長塾"></a><br><img src="/common/img/point03.png" alt=""> 人間社長塾</li>
+<li><a href="http://www.tsuchiya.co.jp/news_g/entry.php?news=1338" title="３ＫＭ講座" class="alp70"><img src="/common/img/bn_3km.jpg" alt="３ＫＭ講座"></a><br><img src="/common/img/point03.png" alt=""> ３ＫＭ講座</li>
+<li><a href="http://www.tsuchiya.co.jp/ski/" title="Team Tsuchiya のサイトへ" class="alp70" target="_blank"><img src="/common/img/bn_ski.jpg" alt="Team Tsuchiya"></a><br><img src="/common/img/point03.png" alt=""> 土屋ホームスキー部活動紹介</li>
+</ul>
+</div>
+<!-- END gbList -->
+
+</navi>
+
+</div>
+<!-- END menuBox -->
+
+<div id ="contsBox">
+
+<p class="pankuzu"><a href="../../?PHPSESSID=3099634ed96013b1f1d3c623c3256c87" title="土屋グループ ホーム">土屋グループ ホーム</a> &raquo; <a href="../?PHPSESSID=3099634ed96013b1f1d3c623c3256c87" title="投資家の皆様へ">投資家の皆様へ</a> &raquo; <a href="./?PHPSESSID=3099634ed96013b1f1d3c623c3256c87" title="IRライブラリ">IRライブラリ</a> &raquo; 決算短信</p>
+
+<section>
+<div class="contsBody">
+<h2 class="contsTitle">投資家の皆様へ</h2>
+
+<article class="irNewsConts">
+<header>
+<h3>: IRライブラリ &gt; 決算短信</h3>
+<ul class="archiveList">
+<li>&laquo; <a href="javascript:history.back();" title="前のページへ戻る">BACK</a> |</li>
+<li><a href="./archive.php?id=2&year=2017&PHPSESSID=3099634ed96013b1f1d3c623c3256c87" title="2017年のニュース">2017</a> |</li>
+<li><a href="./archive.php?id=2&year=2016&PHPSESSID=3099634ed96013b1f1d3c623c3256c87" title="2016年のニュース">2016</a> |</li>
+<li><a href="./archive.php?id=2&year=2015&PHPSESSID=3099634ed96013b1f1d3c623c3256c87" title="2015年のニュース">2015</a></li>
+</ul>
+</header>
+
+<br class="clear">
+
+<h4 id="2017">2017年</h4>
+<ul class="libCatList">
+<li>[2017.06/08]
+<a href="/upd_file/ir/204/ir_file_204.pdf?PHPSESSID=3099634ed96013b1f1d3c623c3256c87" title="「平成29年10月期　第２四半期決算短信」を掲載" target="_blank">「平成29年10月期　第２四半期決算短信」を掲載<img src="/common/img/icon_pdf.png" alt="PDFファイル"></a>
+</li>
+<li>[2017.03/14]
+<a href="/upd_file/ir/200/ir_file_200.pdf?PHPSESSID=3099634ed96013b1f1d3c623c3256c87" title="「平成29年10月期　第１四半期決算短信」を掲載" target="_blank">「平成29年10月期　第１四半期決算短信」を掲載<img src="/common/img/icon_pdf.png" alt="PDFファイル"></a>
+</li>
+</ul>
+<h4 id="2016">2016年</h4>
+<ul class="libCatList">
+<li>[2016.12/07]
+<a href="/upd_file/ir/188/ir_file_188.pdf?PHPSESSID=3099634ed96013b1f1d3c623c3256c87" title="「平成28年10月期　決算短信」を掲載" target="_blank">「平成28年10月期　決算短信」を掲載<img src="/common/img/icon_pdf.png" alt="PDFファイル"></a>
+</li>
+<li>[2016.09/13]
+<a href="/upd_file/ir/183/ir_file_183.pdf?PHPSESSID=3099634ed96013b1f1d3c623c3256c87" title="「平成28年10月期 第3四半期決算短信」を掲載 " target="_blank">「平成28年10月期 第3四半期決算短信」を掲載 <img src="/common/img/icon_pdf.png" alt="PDFファイル"></a>
+</li>
+<li>[2016.06/07]
+<a href="/upd_file/ir/186/ir_file_186.pdf?PHPSESSID=3099634ed96013b1f1d3c623c3256c87" title="「平成28年10月期 第2四半期決算短信」を掲載 " target="_blank">「平成28年10月期 第2四半期決算短信」を掲載 <img src="/common/img/icon_pdf.png" alt="PDFファイル"></a>
+</li>
+<li>[2016.03/08]
+<a href="/upd_file/ir/182/ir_file_182.pdf?PHPSESSID=3099634ed96013b1f1d3c623c3256c87" title="「平成28年10月期 第1四半期決算短信」を掲載 " target="_blank">「平成28年10月期 第1四半期決算短信」を掲載 <img src="/common/img/icon_pdf.png" alt="PDFファイル"></a>
+</li>
+</ul>
+<h4 id="2015">2015年</h4>
+<ul class="libCatList">
+<li>[2015.12/08]
+<a href="/upd_file/ir/175/ir_file_175.pdf?PHPSESSID=3099634ed96013b1f1d3c623c3256c87" title="「平成27年10月期 決算短信」を掲載 " target="_blank">「平成27年10月期 決算短信」を掲載 <img src="/common/img/icon_pdf.png" alt="PDFファイル"></a>
+</li>
+<li>[2015.09/08]
+<a href="/upd_file/ir/171/ir_file_171.pdf?PHPSESSID=3099634ed96013b1f1d3c623c3256c87" title="「平成27年10月期 第3四半期決算短信」を掲載 " target="_blank">「平成27年10月期 第3四半期決算短信」を掲載 <img src="/common/img/icon_pdf.png" alt="PDFファイル"></a>
+</li>
+<li>[2015.06/08]
+<a href="/upd_file/ir/168/ir_file_168.pdf?PHPSESSID=3099634ed96013b1f1d3c623c3256c87" title="(訂正) 「平成27年10月期 第2四半期決算短信」の一部訂正について" target="_blank">(訂正) 「平成27年10月期 第2四半期決算短信」の一部訂正について<img src="/common/img/icon_pdf.png" alt="PDFファイル"></a>
+</li>
+<li>[2015.06/05]
+<a href="/upd_file/ir/166/ir_file_166.pdf?PHPSESSID=3099634ed96013b1f1d3c623c3256c87" title="「平成27年10月期 第2四半期決算短信」を掲載 " target="_blank">「平成27年10月期 第2四半期決算短信」を掲載 <img src="/common/img/icon_pdf.png" alt="PDFファイル"></a>
+</li>
+<li>[2015.02/27]
+<a href="/upd_file/ir/165/ir_file_165.pdf?PHPSESSID=3099634ed96013b1f1d3c623c3256c87" title="「平成27年10月期 第1四半期決算短信」を掲載 " target="_blank">「平成27年10月期 第1四半期決算短信」を掲載 <img src="/common/img/icon_pdf.png" alt="PDFファイル"></a>
+</li>
+</ul>
+<h4 id="2014">2014年</h4>
+<ul class="libCatList">
+<li>[2014.12/05]
+<a href="/upd_file/ir/157/ir_file_157.pdf?PHPSESSID=3099634ed96013b1f1d3c623c3256c87" title="「平成26年10月期 決算短信」を掲載 " target="_blank">「平成26年10月期 決算短信」を掲載 <img src="/common/img/icon_pdf.png" alt="PDFファイル"></a>
+</li>
+<li>[2014.08/29]
+<a href="/upd_file/ir/153/ir_file_153.pdf?PHPSESSID=3099634ed96013b1f1d3c623c3256c87" title="「平成26年10月期 第3四半期決算短信」を掲載 " target="_blank">「平成26年10月期 第3四半期決算短信」を掲載 <img src="/common/img/icon_pdf.png" alt="PDFファイル"></a>
+</li>
+<li>[2014.05/30]
+<a href="/upd_file/ir/151/ir_file_151.pdf?PHPSESSID=3099634ed96013b1f1d3c623c3256c87" title="「平成26年10月期 第2四半期決算短信」を掲載 " target="_blank">「平成26年10月期 第2四半期決算短信」を掲載 <img src="/common/img/icon_pdf.png" alt="PDFファイル"></a>
+</li>
+<li>[2014.02/28]
+<a href="/upd_file/ir/150/ir_file_150.pdf?PHPSESSID=3099634ed96013b1f1d3c623c3256c87" title="「平成26年10月期 第1四半期決算短信」を掲載 " target="_blank">「平成26年10月期 第1四半期決算短信」を掲載 <img src="/common/img/icon_pdf.png" alt="PDFファイル"></a>
+</li>
+</ul>
+<h4 id="2013">2013年</h4>
+<ul class="libCatList">
+<li>[2013.12/05]
+<a href="/upd_file/ir/144/ir_file_144.pdf?PHPSESSID=3099634ed96013b1f1d3c623c3256c87" title="「平成25年10月期 決算短信」を掲載 " target="_blank">「平成25年10月期 決算短信」を掲載 <img src="/common/img/icon_pdf.png" alt="PDFファイル"></a>
+</li>
+<li>[2013.08/30]
+<a href="/upd_file/ir/141/ir_file_141.pdf?PHPSESSID=3099634ed96013b1f1d3c623c3256c87" title="「平成25年10月期 第3四半期決算短信」を掲載 " target="_blank">「平成25年10月期 第3四半期決算短信」を掲載 <img src="/common/img/icon_pdf.png" alt="PDFファイル"></a>
+</li>
+<li>[2013.05/31]
+<a href="/upd_file/ir/138/ir_file_138.pdf?PHPSESSID=3099634ed96013b1f1d3c623c3256c87" title="「平成25年10月期 第2四半期決算短信」を掲載" target="_blank">「平成25年10月期 第2四半期決算短信」を掲載<img src="/common/img/icon_pdf.png" alt="PDFファイル"></a>
+</li>
+<li>[2013.03/01]
+<a href="/upd_file/ir/137/ir_file_137.pdf?PHPSESSID=3099634ed96013b1f1d3c623c3256c87" title="「平成25年10月期 第1四半期決算短信」を掲載" target="_blank">「平成25年10月期 第1四半期決算短信」を掲載<img src="/common/img/icon_pdf.png" alt="PDFファイル"></a>
+</li>
+</ul>
+<h4 id="2012">2012年</h4>
+<ul class="libCatList">
+<li>[2012.12/07]
+<a href="/upd_file/ir/129/ir_file_129.pdf?PHPSESSID=3099634ed96013b1f1d3c623c3256c87" title="「平成24年10月期 決算短信」を掲載" target="_blank">「平成24年10月期 決算短信」を掲載<img src="/common/img/icon_pdf.png" alt="PDFファイル"></a>
+</li>
+<li>[2012.08/31]
+<a href="/upd_file/ir/124/ir_file_124.pdf?PHPSESSID=3099634ed96013b1f1d3c623c3256c87" title="「平成24年10月期 第3四半期決算短信」を掲載" target="_blank">「平成24年10月期 第3四半期決算短信」を掲載<img src="/common/img/icon_pdf.png" alt="PDFファイル"></a>
+</li>
+<li>[2012.06/01]
+<a href="/upd_file/ir/119/ir_file_119.pdf?PHPSESSID=3099634ed96013b1f1d3c623c3256c87" title="「平成24年10月期 第2四半期決算短信」を掲載" target="_blank">「平成24年10月期 第2四半期決算短信」を掲載<img src="/common/img/icon_pdf.png" alt="PDFファイル"></a>
+</li>
+<li>[2012.03/02]
+<a href="/upd_file/ir/111/ir_file_111.pdf?PHPSESSID=3099634ed96013b1f1d3c623c3256c87" title="「平成24年10月期 第1四半期決算短信」を掲載" target="_blank">「平成24年10月期 第1四半期決算短信」を掲載<img src="/common/img/icon_pdf.png" alt="PDFファイル"></a>
+</li>
+</ul>
+<h4 id="2011">2011年</h4>
+<ul class="libCatList">
+<li>[2011.12/09]
+<a href="/upd_file/ir/109/ir_file_109.pdf?PHPSESSID=3099634ed96013b1f1d3c623c3256c87" title="「平成23年10月期決算短信」を掲載" target="_blank">「平成23年10月期決算短信」を掲載<img src="/common/img/icon_pdf.png" alt="PDFファイル"></a>
+</li>
+<li>[2011.09/02]
+<a href="/upd_file/ir/4/ir_file_4.pdf?PHPSESSID=3099634ed96013b1f1d3c623c3256c87" title="「平成23年10月期第3四半期決算短信」を掲載" target="_blank">「平成23年10月期第3四半期決算短信」を掲載<img src="/common/img/icon_pdf.png" alt="PDFファイル"></a>
+</li>
+<li>[2011.06/03]
+<a href="/upd_file/ir/6/ir_file_6.pdf?PHPSESSID=3099634ed96013b1f1d3c623c3256c87" title="「平成23年10月期第2四半期決算短信」を掲載" target="_blank">「平成23年10月期第2四半期決算短信」を掲載<img src="/common/img/icon_pdf.png" alt="PDFファイル"></a>
+</li>
+<li>[2011.03/04]
+<a href="/upd_file/ir/9/ir_file_9.pdf?PHPSESSID=3099634ed96013b1f1d3c623c3256c87" title="「平成23年10月期第1四半期決算短信」を掲載" target="_blank">「平成23年10月期第1四半期決算短信」を掲載<img src="/common/img/icon_pdf.png" alt="PDFファイル"></a>
+</li>
+</ul>
+<h4 id="2010">2010年</h4>
+<ul class="libCatList">
+<li>[2010.12/10]
+<a href="/upd_file/ir/13/ir_file_13.pdf?PHPSESSID=3099634ed96013b1f1d3c623c3256c87" title="「平成22年10月期決算短信」を掲載" target="_blank">「平成22年10月期決算短信」を掲載<img src="/common/img/icon_pdf.png" alt="PDFファイル"></a>
+</li>
+<li>[2010.08/31]
+<a href="/upd_file/ir/16/ir_file_16.pdf?PHPSESSID=3099634ed96013b1f1d3c623c3256c87" title="「平成22年10月期第3四半期決算短信」を掲載" target="_blank">「平成22年10月期第3四半期決算短信」を掲載<img src="/common/img/icon_pdf.png" alt="PDFファイル"></a>
+</li>
+<li>[2010.05/31]
+<a href="/upd_file/ir/24/ir_file_24.pdf?PHPSESSID=3099634ed96013b1f1d3c623c3256c87" title="「平成22年10月期第2四半期決算短信」を掲載" target="_blank">「平成22年10月期第2四半期決算短信」を掲載<img src="/common/img/icon_pdf.png" alt="PDFファイル"></a>
+</li>
+<li>[2010.03/05]
+<a href="/upd_file/ir/26/ir_file_26.pdf?PHPSESSID=3099634ed96013b1f1d3c623c3256c87" title="「平成22年10月期第1四半機決算短信」を掲載" target="_blank">「平成22年10月期第1四半機決算短信」を掲載<img src="/common/img/icon_pdf.png" alt="PDFファイル"></a>
+</li>
+</ul>
+<h4 id="2009">2009年</h4>
+<ul class="libCatList">
+<li>[2009.12/11]
+<a href="/upd_file/ir/34/ir_file_34.pdf?PHPSESSID=3099634ed96013b1f1d3c623c3256c87" title="「平成21年10月期決算短信」を掲載" target="_blank">「平成21年10月期決算短信」を掲載<img src="/common/img/icon_pdf.png" alt="PDFファイル"></a>
+</li>
+<li>[2009.08/31]
+<a href="/upd_file/ir/38/ir_file_38.pdf?PHPSESSID=3099634ed96013b1f1d3c623c3256c87" title="「平成21年10月期第3四半期決算短信」を掲載" target="_blank">「平成21年10月期第3四半期決算短信」を掲載<img src="/common/img/icon_pdf.png" alt="PDFファイル"></a>
+</li>
+<li>[2009.06/01]
+<a href="/upd_file/ir/43/ir_file_43.pdf?PHPSESSID=3099634ed96013b1f1d3c623c3256c87" title="「平成21年10月期第2四半期決算短信」を掲載" target="_blank">「平成21年10月期第2四半期決算短信」を掲載<img src="/common/img/icon_pdf.png" alt="PDFファイル"></a>
+</li>
+<li>[2009.03/02]
+<a href="/upd_file/ir/47/ir_file_47.pdf?PHPSESSID=3099634ed96013b1f1d3c623c3256c87" title="「平成21年10月期第1四半期決算短信」を掲載" target="_blank">「平成21年10月期第1四半期決算短信」を掲載<img src="/common/img/icon_pdf.png" alt="PDFファイル"></a>
+</li>
+</ul>
+<h4 id="2008">2008年</h4>
+<ul class="libCatList">
+<li>[2008.12/12]
+<a href="/upd_file/ir/51/ir_file_51.pdf?PHPSESSID=3099634ed96013b1f1d3c623c3256c87" title="「平成20年10月期 決算短信」を掲載" target="_blank">「平成20年10月期 決算短信」を掲載<img src="/common/img/icon_pdf.png" alt="PDFファイル"></a>
+</li>
+<li>[2008.09/08]
+<a href="/upd_file/ir/56/ir_file_56.pdf?PHPSESSID=3099634ed96013b1f1d3c623c3256c87" title="「平成20年10月期第3四半期財務・業績の概況」を掲載" target="_blank">「平成20年10月期第3四半期財務・業績の概況」を掲載<img src="/common/img/icon_pdf.png" alt="PDFファイル"></a>
+</li>
+<li>[2008.06/13]
+<a href="/upd_file/ir/59/ir_file_59.pdf?PHPSESSID=3099634ed96013b1f1d3c623c3256c87" title="「平成20年10月期中間決算短信」を掲載" target="_blank">「平成20年10月期中間決算短信」を掲載<img src="/common/img/icon_pdf.png" alt="PDFファイル"></a>
+</li>
+<li>[2008.03/07]
+<a href="/upd_file/ir/70/ir_file_70.pdf?PHPSESSID=3099634ed96013b1f1d3c623c3256c87" title="「平成20年10月期第1四半期財務・業績の概況」を掲載" target="_blank">「平成20年10月期第1四半期財務・業績の概況」を掲載<img src="/common/img/icon_pdf.png" alt="PDFファイル"></a>
+</li>
+</ul>
+<h4 id="2007">2007年</h4>
+<ul class="libCatList">
+<li>[2007.12/14]
+<a href="/upd_file/ir/73/ir_file_73.pdf?PHPSESSID=3099634ed96013b1f1d3c623c3256c87" title="「平成19年10月期決算短信」を掲載" target="_blank">「平成19年10月期決算短信」を掲載<img src="/common/img/icon_pdf.png" alt="PDFファイル"></a>
+</li>
+<li>[2007.06/15]
+<a href="/upd_file/ir/84/ir_file_84.pdf?PHPSESSID=3099634ed96013b1f1d3c623c3256c87" title="「平成19年10月期中間決算短信」を掲載" target="_blank">「平成19年10月期中間決算短信」を掲載<img src="/common/img/icon_pdf.png" alt="PDFファイル"></a>
+</li>
+</ul>
+
+</article>
+
+</div>
+<!-- END contsBody -->
+
+</section>
+
+</div>
+<!-- END contsBox -->
+
+<div class="pagetop"><a href="#container" title="このページのTOPへ" class="alp70"><img src="/common/img/pagetop.png" alt="このページのTOPへ"></a></div>
+
+</div>
+<!-- END container -->
+
+
+<div id="footBox">
+<footer>
+<img src="/common/img/logo_hd.png" alt="土屋ホールディングス">
+<ul>
+<li><a href="/company/?PHPSESSID=3099634ed96013b1f1d3c623c3256c87" title="企業情報">企業情報</a></li>
+<li><a href="/ir/?PHPSESSID=3099634ed96013b1f1d3c623c3256c87" title="投資家の皆様へ">投資家の皆様へ</a></li>
+<li><a href="/privacy/?PHPSESSID=3099634ed96013b1f1d3c623c3256c87" title="お客様個人情報保護方針">お客様個人情報保護方針</a></li>
+<li><a href="/terms/?PHPSESSID=3099634ed96013b1f1d3c623c3256c87" title="ウェブサイトのご利用について">ウェブサイトのご利用について</a></li>
+<li><a href="/privacy/socialmedia.html?PHPSESSID=3099634ed96013b1f1d3c623c3256c87" title="ソーシャルメディアポリシー">ソーシャルメディアポリシー</a></li>
+<br>
+<br>
+<li><a href="/contact/?PHPSESSID=3099634ed96013b1f1d3c623c3256c87" title="お問い合わせ">お問い合わせ</a></li>
+<li><a href="/sitemap/?PHPSESSID=3099634ed96013b1f1d3c623c3256c87" title="サイトマップ">サイトマップ</a></li>
+</ul>
+<p>copyright(C)2008-2012 Tsuchiya Holdings co,ltd. All Rights Reserved.</p>
+</footer>
+</div>
+<!-- END footerBox -->
+
+</body>
+</html>

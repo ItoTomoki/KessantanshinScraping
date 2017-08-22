@@ -1,0 +1,773 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<base href="http://www.datalinks.co.jp/" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<title>トップページ｜データリンクス株式会社</title>
+<meta name="Keywords" content="システムソリューション,人材派遣,BPO,人材紹介,アウトソーシング,データリンクス,でーたりんくす,DATALINKS," />
+<meta name="Description" content="システムソリューションやBPOサービス(人材派遣・人材紹介・アウトソーシングサービス）の事なら実績と技術力のデータリンクス株式会社へ" />
+<link rel="stylesheet" type="text/css" href="common/css/import.css" />
+<link rel="stylesheet" type="text/css" href="common/css/top.css" />
+<link rel="shortcut icon" type="image/x-icon" href="logo.ico" />
+<link rel="icon" href="logo.ico" type="image/x-icon" /> 
+<link rel="shortcut icon" href="logo.ico" type="image/vnd.microsoft.icon" />
+<script type="text/javascript" src="common/js/jquery-1.6.1.min.js"></script>
+<script type='text/javascript' src="common/js/jquery.droppy.js"></script>
+<script type="text/javascript" src="common/js/common.js"></script>
+<script type='text/javascript'>
+  $(function() {
+    $('#nav').droppy();
+  });
+</script>
+</head>
+<body id="pageTop">
+<div id="wrapper">
+
+
+<!-- //▼HEADER▼// -->
+<div id="header" class="clearfix">
+<h1><a href="index.html"><img alt="データリンクス株式会社" src="common/img/h1_logo.gif" width="273" height="43" class="over" /></a></h1>
+<div id="headMenu">
+<ul class="clearfix">
+	<li><a href="sitemap/index.html"><img alt="サイトマップ" src="common/img/hm_sitemap.gif" width="72" height="12" class="over" /></a></li>
+	<li><a href="contact/privacy.html"><img alt="お問合せ" src="common/img/hm_contact.gif" width="52" height="13" class="over" /></a></li>
+</ul>
+</div>
+</div>
+<!-- //△HEADER△// -->
+
+
+
+<!-- //▼GLOBAL-NAVI▼// -->
+<div id="top_gnavi">
+<div class="frame">
+<ul id="nav" class="clearfix">
+	<li><a href="company/index.html"><img alt="会社情報" src="common/img/top/gn_company.gif" width="185" height="60" class="imgover" /></a>
+		<ul>
+			<li><a href="company/index.html">会社概要</a></li>
+			<li><a href="company/history.html">沿革</a></li>
+			<li><a href="company/client.html">主な取引先</a></li>
+                        <li><a href="company/alliance.html">アライアンス先</a></li>
+			<li><a href="company/organization.html">組織図</a></li>
+			<li><a href="company/access.html">アクセス</a></li>
+			<li><a href="company/vision.html">企業理念</a></li>
+			<li><a href="company/message.html">トップメッセージ</a></li>
+			<li><a href="company/csr.html">コンプライアンスへの取り組み</a></li>
+                        <li><a href="company/security.html">情報セキュリティへの取り組み</a></li>
+			<li><a href="company/privacy.html">個人情報保護</a></li>
+		</ul>
+	</li>
+	<li><a href="it/index.html"><img alt="システムソリューションサービス" src="common/img/top/gn_it.gif" width="187" height="60" class="imgover" /></a>
+		<ul>
+			<li><a href="it/web.html">WEBソリューション</a></li>
+			<li><a href="it/data.html">データマイニングソリューション</a></li>
+			<li><a href="it/nucleus.html">基幹系システムソリューション</a></li>
+			<li><a href="it/network.html">ネットワーク、システム運用サービス</a></li>
+		</ul>
+	</li>
+	<li><a href="human/index.html"><img alt="BPOサービス" src="common/img/top/gn_human.gif" width="187" height="60" class="imgover" /></a>
+		<ul>
+			<li><a href="human/tempstaff.html">人材派遣サービス</a></li>
+			<li><a href="human/recruitment.html">人材紹介サービス</a></li>
+			<li><a href="human/outsourcing.html">アウトソーシングサービス</a></li>
+                        <li><a href="http://www.datalinks.co.jp/PCI/">セキュリティサポートセンター</a></li>	
+		</ul>
+	</li>
+	<li><a href="recruit/career.html"><img alt="採用情報" src="common/img/top/gn_recruit.gif" width="185" height="60" class="imgover" /></a>
+		<ul>
+			<li><a href="http://www.datalinks.co.jp/datalinks/index.html" target="_blank">新卒採用</a></li>
+			<li><a href="recruit/career.html">キャリア採用情報</a></li>
+			<li><a href="recruit/disabilities.html">障害者採用情報</a></li>
+		</ul>
+	</li>
+	<li><a href="http://ir.datalinks.co.jp/ja/Top.html" target="_blank"><img alt="投資家情報 IRサイト" src="common/img/top/gn_ir.gif" width="186" height="60" class="imgover" /></a>
+		<ul>
+			<li><a href="http://ir.datalinks.co.jp/ja/Management/TopMessage.html" target="_blank">投資家の皆様へ</a></li>
+			<li><a href="http://ir.datalinks.co.jp/ja/Management/CorporateGovernance.html" target="_blank">経営の特徴と戦略</a></li>
+			<li><a href="http://ir.datalinks.co.jp/ja/Finance.html" target="_blank">業績・財務情報</a></li>
+			<li><a href="http://ir.datalinks.co.jp/ja/Calendar.html" target="_blank">IRカレンダー</a></li>
+		</ul>
+	</li>
+</ul>
+</div>
+</div>
+<!-- //△GLOBAL-NAVI△// -->
+
+
+
+<!-- //▼TOPIMG▼// -->
+<div id="topImg">
+<!--
+<img alt="最高の顧客満足度と高い品質の追求を" src="common/img/top/top_img.jpg" width="930" height="288" />
+-->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-83868558-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="100%" height="288" align="top"> 
+<param name="movie" value="top.swf" /> 
+<param name="quality" value="high" /> 
+<param name="bgcolor" value="#ffffff" /> 
+<param name="play" value="true" /> 
+<param name="loop" value="true" /> 
+<param name="wmode" value="transparent" /> 
+<param name="scale" value="noscale" /> 
+<param name="menu" value="true" /> 
+<param name="devicefont" value="false" /> 
+<param name="salign" value="" /> 
+<param name="allowScriptAccess" value="always" /> 
+<!--[if !IE]>--> 
+<object type="application/x-shockwave-flash" data="top.swf" width="100%" height="288"> 
+<param name="movie" value="top.swf" /> 
+<param name="quality" value="high" /> 
+<param name="bgcolor" value="#ffffff" /> 
+<param name="play" value="true" /> 
+<param name="loop" value="true" /> 
+<param name="wmode" value="transparent" /> 
+<param name="scale" value="noscale" /> 
+<param name="menu" value="true" /> 
+<param name="devicefont" value="false" /> 
+<param name="salign" value="" /> 
+<param name="allowScriptAccess" value="always" /> 
+<!--<![endif]--> 
+<img alt="最高の顧客満足度と高い品質の追求を" src="common/img/top/top_img.jpg" width="930" height="288" /> 
+<!--[if !IE]>--> 
+</object> 
+<!--<![endif]--> 
+</object>
+</div>
+<!-- //△TOPIMG△// -->
+
+<!-- //▼TOPTEXT▼// -->
+
+
+<!-- //△TOPTEXT△// -->
+
+<!-- //▼CONTAINER▼// -->
+
+<div id="topContainer">
+
+<div class="frame">
+
+
+
+<div id="topService" class="clearfix">
+<!--****-->
+<a href="it/index.html">
+<dl id="service1">
+	<dt><img alt="システムソリューションサービス" src="common/img/top/service1.gif" width="300" height="29" class="over" /></dt>
+	<dd>より良いビジネス環境をつくりあげるIT技術。 あらゆる業種向けに、様々なパターンのシステム構築をご提供しております。</dd>
+</dl>
+</a>
+<!--****-->
+<!--****-->
+<a href="human/index.html">
+<dl id="service2">
+	<dt><img alt="ＢＰＯサービス" src="common/img/top/service2.gif" width="300" height="29" class="over" /></dt>
+	<dd>企業でご自身の実力を発揮したいという方。また、実力ある人材を欲している企業様へ。データリンクスの人材派遣インフォメーションです。</dd>
+</dl>
+</a>
+<!--****-->
+<!--****-->
+<a href="http://ir.datalinks.co.jp/ja/Top.html" target="_blank">
+<dl id="service3">
+	<dt><img alt="IR情報" src="common/img/top/service3.gif" width="300" height="29" class="over" /></dt>
+	<dd>投資家の皆様へ。<br />データリンクスの経営戦略や実績をご紹介しております。</dd>
+</dl>
+</a>
+<!--****-->
+</div>
+
+
+
+<div id="topUnder" class="clearfix">
+
+
+<div id="topNews">
+<div id="newsTitle">
+	<h3><img alt="お知らせ" src="common/img/top/h3_news.gif" width="700" height="34" /></h3>
+	<p id="btList"><a href="news.html"><img alt="お知らせ一覧はこちら" src="common/img/top/bt_newslist.gif" width="101" height="9" class="over" /></a></p>
+	<p id="btNews"><a href="javascript:ChangeTab(1);"><img alt="News" src="common/img/top/bt_news.gif" width="98" height="34" class="over" /></a></p>
+	<p id="btRele"><a href="javascript:ChangeTab(2);"><img alt="Releases" src="common/img/top/bt_releases.gif" width="99" height="34" class="over" /></a></p>
+</div>
+<script>
+function ChangeTab(id){
+	var allnews = document.getElementById('allnewsBlock');
+	var news = document.getElementById('TabnewsBlock');
+	var release = document.getElementById('TabreleaseBlock');
+
+	if(id == 1){
+		allnews.style.display = 'none';
+		release.style.display = 'none';
+		news.style.display = 'block';
+	}
+	if(id == 2){
+		allnews.style.display = 'none';
+		release.style.display = 'block';
+		news.style.display = 'none';
+	}
+}
+</script>
+<div id="allnewsBlock">
+<div id="newsBlock">
+<ul>
+<li class="release">
+<table>
+<tr><td>
+<span class="date">2017.06.01</span>
+<td>
+<a href=http://www.datalinks.co.jp/company/pdf/20170601-1.pdf target="_blank">
+第35回定時株主総会招集ご通知を掲載しました</a>
+<span class="pdf">(PDF)</span>
+<td>
+</tr>
+</table>
+</li>
+</ul>
+</div>
+
+<div id="newsBlock">
+<ul>
+<li class="release">
+<table>
+<tr><td>
+<span class="date">2017.06.01</span>
+<td>
+<a href=http://www.datalinks.co.jp/company/pdf/20170601-kaiji.pdf target="_blank">
+第35回定時株主総会招集ご通知におけるインターネット開示事項</a>
+<span class="pdf">(PDF)</span>
+<td>
+</tr>
+</table>
+</li>
+</ul>
+</div>
+
+<div id="newsBlock">
+<ul>
+<li class="news">
+<table>
+<tr><td>
+<span class="date">2017.05.23</span>
+<td>
+<a href=/news/188.html>
+6/22開催『PCI DSSセキュリティフォーラム2017』へ出展します</a>
+
+<td>
+</tr>
+</table>
+</li>
+</ul>
+</div>
+
+<div id="newsBlock">
+<ul>
+<li class="release">
+<table>
+<tr><td>
+<span class="date">2017.05.11</span>
+<td>
+<a href=http://ir.datalinks.co.jp/ja/IRLibrary/Presentation/main/0/teaserItems1/011/linkList/0/link/20170511-3.pdf target="_blank">
+平成29年3月期 決算説明会を開催しました</a>
+<span class="pdf">(PDF)</span>
+<td>
+</tr>
+</table>
+</li>
+</ul>
+</div>
+
+<div id="newsBlock">
+<ul>
+<li class="release">
+<table>
+<tr><td>
+<span class="date">2017.05.11</span>
+<td>
+<a href=http://ir.datalinks.co.jp/ja/News/COPY-COPY-News8769564006531348821/main/0/link/20170511-1.pdf target="_blank">
+株式会社DTSによるデータリンクス株式会社の完全子会社化に関する株式交換契約締結（簡易株式交換）のお知らせ</a>
+<span class="pdf">(PDF)</span>
+<td>
+</tr>
+</table>
+</li>
+</ul>
+</div>
+
+<div id="newsBlock">
+<ul>
+<li class="release">
+<table>
+<tr><td>
+<span class="date">2017.05.11</span>
+<td>
+<a href=http://ir.datalinks.co.jp/ja/News/COPY-News3077218822762236080/main/0/link/20170511-2.pdf target="_blank">
+役員の異動に関するお知らせ</a>
+<span class="pdf">(PDF)</span>
+<td>
+</tr>
+</table>
+</li>
+</ul>
+</div>
+
+<div id="newsBlock">
+<ul>
+<li class="release">
+<table>
+<tr><td>
+<span class="date">2017.05.11</span>
+<td>
+<a href=http://file.swcms.net/file/datalinks/dam/jcr:03443cff-3896-472d-b179-b565742f6ff3/140120170501456267.pdf target="_blank">
+平成29年3月期　決算短信（非連結）</a>
+<span class="pdf">(PDF)</span>
+<td>
+</tr>
+</table>
+</li>
+</ul>
+</div>
+
+<div id="newsBlock">
+<ul>
+<li class="release">
+<table>
+<tr><td>
+<span class="date">2017.03.17</span>
+<td>
+<a href=http://ir.datalinks.co.jp/ja/News/COPY-News8769564006531348821/main/0/link/20170317-1.pdf target="_blank">
+業績予想の修正に関するお知らせ</a>
+<span class="pdf">(PDF)</span>
+<td>
+</tr>
+</table>
+</li>
+</ul>
+</div>
+
+<div id="newsBlock">
+<ul>
+<li class="release">
+<table>
+<tr><td>
+<span class="date">2017.03.17</span>
+<td>
+<a href=http://ir.datalinks.co.jp/ja/News/COPY-News2710017037391563140/main/0/link/20170317-2.pdf target="_blank">
+組織変更および人事異動に関するお知らせ</a>
+<span class="pdf">(PDF)</span>
+<td>
+</tr>
+</table>
+</li>
+</ul>
+</div>
+
+<div id="newsBlock">
+<ul>
+<li class="news">
+<table>
+<tr><td>
+<span class="date">2017.02.28</span>
+<td>
+<a href=/news/178.html>
+当社BPOセンターが「PCI DSS」への準拠を完了しました</a>
+
+<td>
+</tr>
+</table>
+</li>
+</ul>
+</div>
+
+
+</div>
+<div id="TabnewsBlock" style="display:none">
+<div id="newsBlock">
+<ul>
+<li class="news">
+<table>
+<tr><td>
+<span class="date">2017.05.23</span>
+<td>
+<a href=/news/188.html>
+6/22開催『PCI DSSセキュリティフォーラム2017』へ出展します</a>
+
+<td>
+</tr>
+</table>
+</li>
+</ul>
+</div>
+
+<div id="newsBlock">
+<ul>
+<li class="news">
+<table>
+<tr><td>
+<span class="date">2017.02.28</span>
+<td>
+<a href=/news/178.html>
+当社BPOセンターが「PCI DSS」への準拠を完了しました</a>
+
+<td>
+</tr>
+</table>
+</li>
+</ul>
+</div>
+
+<div id="newsBlock">
+<ul>
+<li class="news">
+<table>
+<tr><td>
+<span class="date">2016.09.07</span>
+<td>
+<a href=/news/172.html>
+日経産業新聞にて当社の「PCI DSSサービス」の取り組みが紹介されました</a>
+
+<td>
+</tr>
+</table>
+</li>
+</ul>
+</div>
+
+<div id="newsBlock">
+<ul>
+<li class="news">
+<table>
+<tr><td>
+<span class="date">2014.03.31</span>
+<td>
+<a href=http://www.datalinks.co.jp/company/pdf/20140331.pdf target="_blank">
+営業所閉鎖ならびに統合のお知らせ</a>
+<span class="pdf">(PDF)</span>
+<td>
+</tr>
+</table>
+</li>
+</ul>
+</div>
+
+<div id="newsBlock">
+<ul>
+<li class="news">
+<table>
+<tr><td>
+<span class="date">2015.05.01</span>
+<td>
+<a href=/news/137.html>
+データサイエンティスト協会に加盟いたしました</a>
+
+<td>
+</tr>
+</table>
+</li>
+</ul>
+</div>
+
+
+</div>
+<div id="TabreleaseBlock" style="display:none">
+<div id="newsBlock">
+<ul>
+<li class="release">
+<table>
+<tr><td>
+<span class="date">2017.06.01</span>
+<td>
+<a href=http://www.datalinks.co.jp/company/pdf/20170601-1.pdf target="_blank">
+第35回定時株主総会招集ご通知を掲載しました</a>
+<span class="pdf">(PDF)</span>
+<td>
+</tr>
+</table>
+</li>
+</ul>
+</div>
+
+<div id="newsBlock">
+<ul>
+<li class="release">
+<table>
+<tr><td>
+<span class="date">2017.06.01</span>
+<td>
+<a href=http://www.datalinks.co.jp/company/pdf/20170601-kaiji.pdf target="_blank">
+第35回定時株主総会招集ご通知におけるインターネット開示事項</a>
+<span class="pdf">(PDF)</span>
+<td>
+</tr>
+</table>
+</li>
+</ul>
+</div>
+
+<div id="newsBlock">
+<ul>
+<li class="release">
+<table>
+<tr><td>
+<span class="date">2017.05.11</span>
+<td>
+<a href=http://ir.datalinks.co.jp/ja/IRLibrary/Presentation/main/0/teaserItems1/011/linkList/0/link/20170511-3.pdf target="_blank">
+平成29年3月期 決算説明会を開催しました</a>
+<span class="pdf">(PDF)</span>
+<td>
+</tr>
+</table>
+</li>
+</ul>
+</div>
+
+<div id="newsBlock">
+<ul>
+<li class="release">
+<table>
+<tr><td>
+<span class="date">2017.05.11</span>
+<td>
+<a href=http://ir.datalinks.co.jp/ja/News/COPY-COPY-News8769564006531348821/main/0/link/20170511-1.pdf target="_blank">
+株式会社DTSによるデータリンクス株式会社の完全子会社化に関する株式交換契約締結（簡易株式交換）のお知らせ</a>
+<span class="pdf">(PDF)</span>
+<td>
+</tr>
+</table>
+</li>
+</ul>
+</div>
+
+<div id="newsBlock">
+<ul>
+<li class="release">
+<table>
+<tr><td>
+<span class="date">2017.05.11</span>
+<td>
+<a href=http://ir.datalinks.co.jp/ja/News/COPY-News3077218822762236080/main/0/link/20170511-2.pdf target="_blank">
+役員の異動に関するお知らせ</a>
+<span class="pdf">(PDF)</span>
+<td>
+</tr>
+</table>
+</li>
+</ul>
+</div>
+
+<div id="newsBlock">
+<ul>
+<li class="release">
+<table>
+<tr><td>
+<span class="date">2017.05.11</span>
+<td>
+<a href=http://file.swcms.net/file/datalinks/dam/jcr:03443cff-3896-472d-b179-b565742f6ff3/140120170501456267.pdf target="_blank">
+平成29年3月期　決算短信（非連結）</a>
+<span class="pdf">(PDF)</span>
+<td>
+</tr>
+</table>
+</li>
+</ul>
+</div>
+
+<div id="newsBlock">
+<ul>
+<li class="release">
+<table>
+<tr><td>
+<span class="date">2017.03.17</span>
+<td>
+<a href=http://ir.datalinks.co.jp/ja/News/COPY-News8769564006531348821/main/0/link/20170317-1.pdf target="_blank">
+業績予想の修正に関するお知らせ</a>
+<span class="pdf">(PDF)</span>
+<td>
+</tr>
+</table>
+</li>
+</ul>
+</div>
+
+<div id="newsBlock">
+<ul>
+<li class="release">
+<table>
+<tr><td>
+<span class="date">2017.03.17</span>
+<td>
+<a href=http://ir.datalinks.co.jp/ja/News/COPY-News2710017037391563140/main/0/link/20170317-2.pdf target="_blank">
+組織変更および人事異動に関するお知らせ</a>
+<span class="pdf">(PDF)</span>
+<td>
+</tr>
+</table>
+</li>
+</ul>
+</div>
+
+<div id="newsBlock">
+<ul>
+<li class="release">
+<table>
+<tr><td>
+<span class="date">2017.02.02</span>
+<td>
+<a href=http://file.swcms.net/file/datalinks/dam/jcr:043fe6a2-7c1b-4749-b458-246952ce561b/140120170118476033.pdf target="_blank">
+平成29年3月期 第3四半期決算短信（非連結） </a>
+<span class="pdf">(PDF)</span>
+<td>
+</tr>
+</table>
+</li>
+</ul>
+</div>
+
+<div id="newsBlock">
+<ul>
+<li class="release">
+<table>
+<tr><td>
+<span class="date">2016.11.07</span>
+<td>
+<a href=http://ir.datalinks.co.jp/ja/IRLibrary/Presentation/main/0/teaserItems1/011/linkList/0/link/20161107.pdf target="_blank">
+平成29年3月期 第2四半期決算説明会を開催しました</a>
+<span class="pdf">(PDF)</span>
+<td>
+</tr>
+</table>
+</li>
+</ul>
+</div>
+
+
+</div>
+
+
+</div>
+
+<div id="topBanner">
+<ul><li><a href="http://www.datascientist.or.jp/" target="_blank"><img alt="データサイエンス協会" src="common/img/top/logo-header.png" width="200" height="32" class="over" /></a></li>
+<li><a href="http://www.datalinks.co.jp/site0018/" target="_blank"><img alt="電子申告" src="common/img/banner.jpg" width="200" height="100" class="over" /></a></li>
+
+	<li><a href="http://www.datalinks.co.jp/PCI/" target="_blank"><img alt="PCI" src="common/img/top/PCI.png" width="200" height="100" class="over" /></a></li>
+        <li><a href="https://www.icms.co.jp/examination/pcidss/licence.html" target="_blank"><img alt="PCI" src="common/img/top/PCIlogo.jpg" width="200" height="145" class="over" /></a></li>
+	<li><a href="http://www.haken.datalinks.co.jp/" target="_blank"><img alt="データリンクスの人材派遣" src="common/img/top/banner5.jpg" width="200" height="50" class="over" /></a></li>
+	<li><a href="http://www.ardija.co.jp/" target="_blank"><img alt="大宮アルディージャ" src="common/img/top/banner4.gif" width="200" height="50" class="over" /></a></li>
+
+
+
+
+
+<li><a href="http://www.dts.co.jp/csr/pdf/eco_management.pdf" target="_blank">
+<img alt="EMS" src="common/img/c25_logo.jpg" width="200" height="96" class="over" /></a></li>
+</ul>
+</div>
+
+
+</div>
+</div>
+<!-- //△CONTAINER△// -->
+
+
+
+<div id="siteTree">
+<div class="frame clearfix">
+<!--****-->
+<div id="linkBox1" class="linkBox">
+<p><a href="index.html">会社情報</a></p>
+<ul>
+	<li><a href="company/index.html">会社概要</a></li>
+	<li><a href="company/history.html">沿革</a></li>
+	<li><a href="company/client.html">主な取引先</a></li>
+        <li><a href="company/alliance.html">アライアンス先</a></li>
+	<li><a href="company/organization.html">組織図</a></li>
+	<li><a href="company/access.html">アクセス</a></li>
+	<li><a href="company/vision.html">企業理念</a></li>
+	<li><a href="company/message.html">トップメッセージ</a></li>
+        <li><a href="company/csr.html">コンプライアンスへの取り組み</a></li>
+	<li><a href="company/security.html">情報セキュリティへの取り組み</a></li>
+</ul>
+<ul id="linkBox1R">
+	<li><a href="company/privacy.html">個人情報保護</a></li>
+</ul>
+</div>
+<!--****-->
+<!--****-->
+<div id="linkBox2" class="linkBox">
+<p><a href="it/index.html">システムソリューションサービス</a></p>
+<ul>
+	<li><a href="it/web.html">WEBソリューション</a></li>
+	<li><a href="it/data.html">データマイニングソリューション</a></li>
+	<li><a href="it/nucleus.html">基幹系システムソリューション</a></li>
+        <li><a href="it/network.html"> ネットワーク、システム運用サービス</a></li>
+</ul>
+</div>
+<!--****-->
+<!--****-->
+<div id="linkBox3" class="linkBox">
+<p><a href="human/index.html">BPOサービス</a></p>
+<ul>
+	<li><a href="human/tempstaff.html">人材派遣サービス</a></li>
+	<li><a href="human/recruitment.html">人材紹介サービス</a></li>
+        <li><a href="human/outsourcing.html">アウトソーシングサービス</a></li>
+	<li><a href="http://www.datalinks.co.jp/PCI/">セキュリティサポートセンター</a></li>	
+</ul>
+</div>
+<!--****-->
+<!--****-->
+<div id="linkBox4" class="linkBox">
+<p><a href="recruit/career.html">採用情報</a></p>
+<ul>
+	<li><a href="http://www.datalinks.co.jp/datalinks/index.html">新卒採用</a></li>
+	<li><a href="recruit/career.html">キャリア採用情報</a></li>
+	<li><a href="recruit/disabilities.html">障害者採用情報</a></li>
+</ul>
+</div>
+<!--****-->
+<!--****-->
+<div id="linkBox5" class="linkBox">
+<p><a href="http://ir.datalinks.co.jp/ja/Top.html">投資家情報</a></p>
+<ul>
+	<li><a href="http://ir.datalinks.co.jp/ja/Management/TopMessage.html">投資家の皆様へ</a></li>
+	<li><a href="http://ir.datalinks.co.jp/ja/Management/CorporateGovernance.html">経営の特徴と戦略</a></li>
+	<li><a href="http://ir.datalinks.co.jp/ja/Finance.html">業績・財務情報</a></li>
+	<li><a href="http://ir.datalinks.co.jp/ja/Calendar.html">IRカレンダー</a></li>
+</ul>
+</div>
+<!--****-->
+</div>
+</div>
+
+
+<!-- //▼FOOTER▼// -->
+<div id="topFooter">
+<div class="frame">
+<p id="copy">Copyright 2011 DATALINKS CORPORATION. All Rights Reserved</p>
+</div>
+</div>
+<!-- //△FOOTER△// -->
+
+
+</div><!-- End of wrapper -->
+<script type="text/javascript">
+
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-8615176-3");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>

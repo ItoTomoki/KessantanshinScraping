@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="jp"><!-- InstanceBegin template="/Templates/portal-header-footer.dwt" codeOutsideHTMLIsLocked="false" -->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <!-- InstanceBeginEditable name="doctitle" -->
+    <title>ブルボン</title>
+    <!-- InstanceEndEditable -->
+    <!-- InstanceBeginEditable name="head" -->
+    <link href="styles/css/video-js.css" rel="stylesheet">
+    <link href="styles/css/jquery.bxslider.css" rel="stylesheet">
+    <script src="js/videojs-ie8.min.js"></script>
+    <!-- InstanceEndEditable -->
+    <!--▼OGP-->
+	  <meta property="og:title" content="ブルボン" />
+	  <meta property="og:type" content="article" />
+	  <meta property="og:description" content="ようこそ！ブルボンホームページへ。お菓子・デザート・飲料などの商品情報、キャンペーン・CM情報、採用情報、ネットショップなどについてご紹介します。" />
+	  <meta property="og:url" content="http://www.bourbon.co.jp/" />
+	  <meta property="og:image" content="http://www.bourbon.co.jp/img/ogp.png" />
+	  <meta property="og:locale" content="ja_JP" />
+	<!--△OGP -->
+    <!-- Bootstrap -->
+    <link href="styles/css/bootstrap-custom.min.css" rel="stylesheet">
+    <link href="styles/css/main.css" rel="stylesheet">
+    
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body><a id="pagetop"></a>
+  
+  <!-- InstanceBeginEditable name="decorate" -->
+  	<div id="wrapper" class="decorate">
+    <div class="ornamentLayer decorate">
+    	<!-- toppageのデコレーションここから -->
+    	<div class="house ornament_parts">
+    		<img src="img/decorations/halloween/horrorHouse.png" height="144" width="324" alt="">
+    	</div><!-- house -->
+    	<!-- toppageのデコレーションここまで -->
+  <!-- InstanceEndEditable -->	
+      <div class="areaWrapper headerArea">
+        <div class="container">
+          <h1 id="logo"><a href="index.html" class="alt sprite-sprites-logo">ブルボン</a></h1>
+          <ul class="mainmenu hidden-xs">
+            <li class="product"><a href="product/index.html">商品情報</a></li>
+            <li class="campaign"><a href="campaign/index.html">知る・楽しむ</a></li>
+            <li class="culture sports"><a href="culture/index.html">文化・スポーツ</a></li>
+            <li class="shop"><a href="http://shop.bourbon.jp/" target="_blank">オンラインショップ</a></li>
+            <li class="corp"><a href="company/index.html">会社情報</a></li>
+          </ul>
+          <a href="company/english/index.html" class="englishLink hidden-xs"><span class="sprite-sprites-triangle_blue"></span>ENGLISH</a>
+          <a href="company/chinese/index.html" class="chineseLink hidden-xs"><span class="sprite-sprites-triangle_blue"></span>中文</a>
+          
+          <div class="sprite-sprites-menu_b visible-xs" id="sp_menu_b"></div><!-- sprite-sprites-menu_b -->
+
+        </div><!-- container-->
+      </div><!-- heaaderArea -->
+
+      <!-- モバイルメニューここから -->
+      <div class="spMenuAreaWrapper areaWrapper">
+          <div id="sp_menu" style="display:none;" >
+            <div class="spMenuArea">
+              <ul class="clearfix">
+                <li class="mainMenuLink"><a href="product/index.html">商品情報</a></li>
+                <li><a href="product/new/index.html">新商品一覧</a></li>
+              </ul>
+            </div><!-- spMenuArea -->
+            <div class="spMenuArea">
+              <ul class="clearfix">
+                <li class="mainMenuLink"><a href="campaign/index.html">知る・楽しむ</a></li>
+                <li><a href="campaign/cm/index.html">CM・動画</a></li>
+                <li><a href="campaign/tvcm.html">提供番組一覧</a></li>
+              </ul>
+            </div><!-- spMenuArea -->
+            <div class="spMenuArea">
+              <ul class="clearfix">
+                <li class="mainMenuLink"><a href="culture/index.html">文化・スポーツ</a></li>
+                <li><a href="culture/index.html">文化支援</a></li>
+                <li><a href="sports/index.html">スポーツ支援</a></li>
+              </ul>
+            </div><!-- spMenuArea -->
+            <div class="spMenuArea">
+              <ul class="clearfix">
+                <li class="mainMenuLink"><a href="http://shop.bourbon.jp/" target="_blank" class="full">オンラインショップ</a></li>
+              </ul>
+            </div><!-- spMenuArea -->
+            
+            <div class="spMenuArea grey">
+              <ul class="clearfix">
+                <li ><a href="company/support.html">お客様相談窓口</a></li>
+              	<li ><a href="company/sitemap.html">サイトマップ</a></li>
+            	<li ><a href="company/links.html">リンク</a></li>
+            	<li ><a href="company/privacy_policy.html">個人情報保護方針</a></li>
+            	<li ><a href="company/terms.html">ご利用規約</a></li>
+            	<li ><a href="company/others/index.html">その他</a></li>
+              </ul>
+            </div><!-- spMenuArea -->
+            <div class="spMenuArea grey">
+              <ul class="clearfix">
+                <li class="mainMenuLink"><a href="company/index.html" class="full"><span class="sprite-sprites-corpIcon"></span>会社情報トップ</a></li>
+              </ul>
+            </div><!-- spMenuArea -->
+            <div class="spMenuArea languageSelect">
+              <ul class="clearfix">
+                <li><a href="company/index.html"><span class="sprite-sprites-triangle_white"></span>Japanese</a></li>
+                <li><a href="company/english/index.html"><span class="sprite-sprites-triangle_white"></span>English</a></li>
+                <li><a href="company/chinese/index.html"><span class="sprite-sprites-triangle_white"></span>Chinese</a></li>
+              </ul>
+            </div><!-- spMenuArea -->
+            <div class="snsArea">
+              <a href="https://www.youtube.com/channel/UC8UW0OHgo_FtkF4orKd2S4Q" class="youtube sprite-sprites-youtube_icon alt" target="_blank" onclick="ga('send','event','snsLink','click','youtube',1,{'nonInteraction':1});">YouTube公式チャンネル</a>
+              <a href="https://www.facebook.com/bourbon.jp" class="facebook sprite-sprites-facebook_icon alt" target="_blank" onclick="ga('send','event','snsLink','click','facebook',1,{'nonInteraction':1});">公式Facebookページ</a>
+              <a href="https://twitter.com/Bourbon_JP" class="twitter sprite-sprites-twitter_icon alt" target="_blank" onclick="ga('send','event','snsLink','click','twitter',1,{'nonInteraction':1});">twitter公式アカウント</a>
+              <p class="line"><span>LINE公式アカウント</span><br>@bourbon</p>
+            </div><!-- snsArea -->
+          </div><!-- sp_menu -->
+          </div><!-- spMenuAreaWrapper -->
+          <!-- モバイルメニューここまで -->
+	  
+	  <!-- InstanceBeginEditable name="contents" -->
+		      <div class="mainImageArea areaWrapper hidden-print">
+		        <div class="container">
+					<div class="slideArea">
+		        	<ul class="bxslider">
+		        	  <li>
+					  	<a href="company/pdf/LP20170118owabitoosirase.pdf" target="_blank">
+					  	<img class="slideImage" src="img/toppage/pc_mainimage_space.gif" alt="" onContextmenu="return false" data-img="img/toppage/pc_mainimage/pc_info.jpg" data-retina="img/toppage/pc_mainimage/pc_info@2x.jpg"><img src="img/toppage/pc_mainimage_space.gif" alt="" class="slideDammy" onContextmenu="return false"></a>
+					  </li>
+					  
+					  <li>
+					  	<a href="https://www.bourbon.co.jp/fettuccine/fruits/" target="_blank">
+					  	<img class="slideImage" src="img/toppage/pc_mainimage_space.gif" alt="" onContextmenu="return false" data-img="img/toppage/pc_mainimage/pc_fettuccine.jpg" data-retina="img/toppage/pc_mainimage/pc_fettuccine@2x.jpg"><img src="img/toppage/pc_mainimage_space.gif" alt="" class="slideDammy" onContextmenu="return false"></a>
+					  </li>
+
+					  <li>
+					  	<a href="http://www.bourbon.co.jp/wingram/" target="_blank">
+					  	<img class="slideImage" src="img/toppage/pc_mainimage_space.gif" alt="" onContextmenu="return false" data-img="img/toppage/pc_mainimage/pc_wingram.jpg" data-retina="img/toppage/pc_mainimage/pc_wingram@2x.jpg"><img src="img/toppage/pc_mainimage_space.gif" alt="" class="slideDammy" onContextmenu="return false"></a>
+					  </li>
+
+					  <li>
+					  	<a href="https://www.bourbon.co.jp/petit/" target="_blank">
+					  	<img class="slideImage" src="img/toppage/pc_mainimage_space.gif" alt="" onContextmenu="return false" data-img="img/toppage/pc_mainimage/pc_petit.jpg" data-retina="img/toppage/pc_mainimage/pc_petit@2x.jpg"><img src="img/toppage/pc_mainimage_space.gif" alt="" class="slideDammy" onContextmenu="return false"></a>
+					  </li>
+
+					  <li>
+					  	<a href="https://www.bourbon.co.jp/chocoa-npan/" target="_blank">
+					  	<img class="slideImage" src="img/toppage/pc_mainimage_space.gif" alt="" onContextmenu="return false" data-img="img/toppage/pc_mainimage/pc_anpan.jpg" data-retina="img/toppage/pc_mainimage/pc_anpan@2x.jpg"><img src="img/toppage/pc_mainimage_space.gif" alt="" class="slideDammy" onContextmenu="return false"></a>
+					  </li>
+
+					  <li>
+					  	<a href="https://www.bourbon.co.jp/jellykitchen/" target="_blank">
+					  	<img class="slideImage" src="img/toppage/pc_mainimage_space.gif" alt="" onContextmenu="return false" data-img="img/toppage/pc_mainimage/pc_jelly_kitchen.jpg" data-retina="img/toppage/pc_mainimage/pc_jelly_kitchen@2x.jpg"><img src="img/toppage/pc_mainimage_space.gif" alt="" class="slideDammy" onContextmenu="return false"></a>
+					  </li>
+
+					  <li>
+					  	<a href="https://www.bourbon.co.jp/fettuccine/soda/" target="_blank">
+					  	<img class="slideImage" src="img/toppage/pc_mainimage_space.gif" alt="" onContextmenu="return false" data-img="img/toppage/pc_mainimage/pc_fettuccine-soda.jpg" data-retina="img/toppage/pc_mainimage/pc_fettuccine-soda@2x.jpg"><img src="img/toppage/pc_mainimage_space.gif" alt="" class="slideDammy" onContextmenu="return false"></a>
+					  </li>
+
+					  <li>
+					  	<a href="http://www.bourbon.co.jp/kikori/" target="_blank">
+					  	<img class="slideImage" src="img/toppage/pc_mainimage_space.gif" alt="" onContextmenu="return false" data-img="img/toppage/pc_mainimage/pc_kikori.jpg" data-retina="img/toppage/pc_mainimage/pc_kikori@2x.jpg"><img src="img/toppage/pc_mainimage_space.gif" alt="" class="slideDammy" onContextmenu="return false"></a>
+					  </li>
+					  
+					  <li>
+					  	<a href="http://www.bourbon.co.jp/coconutmilk/" target="_blank">
+					  	<img class="slideImage" src="img/toppage/pc_mainimage_space.gif" alt="" onContextmenu="return false" data-img="img/toppage/pc_mainimage/pc_coconutmilk.jpg" data-retina="img/toppage/pc_mainimage/pc_coconutmilk@2x.jpg"><img src="img/toppage/pc_mainimage_space.gif" alt="" class="slideDammy" onContextmenu="return false"></a>
+					  </li>
+					  <li>
+					  	<a href="https://www.bourbon.co.jp/brownie/" target="_blank">
+					  	<img class="slideImage" src="img/toppage/pc_mainimage_space.gif" alt="" onContextmenu="return false" data-img="img/toppage/pc_mainimage/pc_brownie.jpg" data-retina="img/toppage/pc_mainimage/pc_brownie@2x.jpg"><img src="img/toppage/pc_mainimage_space.gif" alt="" class="slideDammy" onContextmenu="return false"></a>
+					  </li>					  					  
+					  <li>
+						<a href="https://www.bourbon.co.jp/slicenamachocolate/" target="_blank">
+						<img class="slideImage" src="img/toppage/pc_mainimage_space.gif" alt="" onContextmenu="return false" data-img="img/toppage/pc_mainimage/pc_slicenamachocolate.jpg" data-retina="img/toppage/pc_mainimage/pc_slicenamachocolate@2x.jpg"><img src="img/toppage/pc_mainimage_space.gif" alt="" class="slideDammy" onContextmenu="return false"></a>
+					  </li> 
+					  
+					  <li>
+					  	<a href="https://www.bourbon.co.jp/biscuitseries/index.html" target="_blank">
+					  	<img class="slideImage" src="img/toppage/pc_mainimage_space.gif" alt="" onContextmenu="return false" data-img="img/toppage/pc_mainimage/pc_biscuitseries.jpg" data-retina="img/toppage/pc_mainimage/pc_biscuitseries@2x.jpg"><img src="img/toppage/pc_mainimage_space.gif" alt="" class="slideDammy" onContextmenu="return false"></a>
+					  </li>
+					  <li>
+					  	<a href="https://www.bourbon.co.jp/plaincrackers/" target="_blank">
+					  	<img class="slideImage" src="img/toppage/pc_mainimage_space.gif" alt="" onContextmenu="return false" data-img="img/toppage/pc_mainimage/pc_plain.jpg" data-retina="img/toppage/pc_mainimage/pc_plain@2x.jpg"><img src="img/toppage/pc_mainimage_space.gif" alt="" class="slideDammy" onContextmenu="return false"></a>
+					  </li>
+					  <li>
+					  	<a href="https://www.bourbon.co.jp/karadamirai/" target="_blank">
+					  	<img class="slideImage" src="img/toppage/pc_mainimage_space.gif" alt="" onContextmenu="return false" data-img="img/toppage/pc_mainimage/pc_karadamirai.jpg" data-retina="img/toppage/pc_mainimage/pc_karadamirai@2x.jpg"><img src="img/toppage/pc_mainimage_space.gif" alt="" class="slideDammy" onContextmenu="return false"></a>
+					  </li>
+					  <li>
+					  	<a href="http://www.bourbon.co.jp/boysenberry/index.html" target="_blank">
+					  	<img class="slideImage" src="img/toppage/pc_mainimage_space.gif" alt="" onContextmenu="return false" data-img="img/toppage/pc_mainimage/pc_boysenberry.jpg" data-retina="img/toppage/pc_mainimage/pc_boysenberry@2x.jpg"><img src="img/toppage/pc_mainimage_space.gif" alt="" class="slideDammy" onContextmenu="return false"></a>
+					  </li>
+					 
+					  <li>
+					  	<a href="http://sp.beach.jp/BOURBON/concept/pc/index.html?utm_source=bourbon.co.jp&utm_medium=banner&utm_campaign=point1604" target="_blank">
+					  	<img class="slideImage" src="img/toppage/pc_mainimage_space.gif" alt="" onContextmenu="return false" data-img="img/toppage/pc_mainimage/pc_fanpark.jpg" data-retina="img/toppage/pc_mainimage/pc_fanpark@2x.jpg"><img src="img/toppage/pc_mainimage_space.gif" alt="" class="slideDammy" onContextmenu="return false"></a>
+					  </li>
+					</ul>
+					</div><!-- slideArea -->
+		          
+		
+		          <div class="spLazy hidden-sm hidden-md hidden-lg">
+		            <div class="lazy bgLazy" data-original="img/toppage/sp_mainimage.jpg" >
+		              <img class="dammyImage" src="img/toppage/sp_mainimage_space.gif" alt="" onContextmenu="return false">
+		            </div>
+		          </div><!-- spLazy -->
+		        </div><!-- container -->
+		      </div><!-- mainImageArea -->
+		
+		      <div class="areaWrapper annotationArea">
+		        <div class="annotationBox">
+		          <div class="left col-sm-3">重要なお知らせ</div><!-- left -->
+		          <div class="right col-sm-9">
+		            <ul>
+		              <li><a href="company/pdf/LP20170118owabitoosirase.pdf" target="_blank"><span class="sprite-sprites-triangle_blue triangle"></span>弊社商品を自主回収しております。お手元の商品をご確認ください。</a></li>
+		            </ul>
+		          </div><!-- right -->
+		        </div><!-- annotationBox -->
+		      </div><!-- annotationArea -->
+		
+		    <div class="areaWrapper toppageContentsArea">
+		      <div class="dbl-col-wrapper">
+		      <div class="dbl-col-left col-sm-9">
+
+		       <!-- キャンペーン一覧ここから -->
+		       <div class="container toppageCampaign">
+		
+		        <h2>注目のキャンペーン<span></span></h2>
+
+		        <div class="campaignBox col-sm-4">
+		          <div class="campaignPanel">
+		          <a href="https://www.bourbon.co.jp/alfortmini/" class="imageArea lazy" data-original="img/campaign/alfort1708.jpg" target="_blank">
+		            <img class="dammyImage" src="img/common/campaignImageSpacer.gif" alt="" onContextmenu="return false">
+		          </a>
+		          <a href="https://www.bourbon.co.jp/alfortmini/" class="title" target="_blank">withアルフォートキャンペーン</a>
+		          <p class="description">アルフォートを買って、今話題の“デジタルで撮れるチェキ”が当たるキャンペーン実施中！ </p>
+		          </div><!-- campaignPanel -->
+		        </div><!-- campaignBox -->
+
+		        <div class="campaignBox col-sm-4">
+		          <div class="campaignPanel">
+		          <a href="http://www.bourbon.co.jp/campaign_lumondeice/" class="imageArea lazy" data-original="img/campaign/rumand.jpg" target="_blank">
+		            <img class="dammyImage" src="img/common/campaignImageSpacer.gif" alt="" onContextmenu="return false">
+		          </a>
+		          <a href="http://www.bourbon.co.jp/campaign_lumondeice/" class="title" target="_blank">ルマンドアイス誕生1周年記念キャンペーン！</a>
+		          <p class="description">ルマンドアイスを2個買って当てる！ルマンド1ケース（48袋）プレゼントキャンペーン実施中！</p>
+		          </div><!-- campaignPanel -->
+		        </div><!-- campaignBox -->
+
+
+		        <div class="campaignBox col-sm-4">
+		          <div class="campaignPanel">
+		          <a href="http://www.bourbon.co.jp/kikori/" class="imageArea lazy" data-original="img/campaign/kikori.jpg" target="_blank">
+		            <img class="dammyImage" src="img/common/campaignImageSpacer.gif" alt="" onContextmenu="return false">
+		          </a>
+		          <a href="http://www.bourbon.co.jp/kikori/" class="title" target="_blank">きこりのおじさんのキャラをみんなで考えよう！</a>
+		          <p class="description">あなたの思う「おじさんのキャラ」を"#きこりの切株キャラクター"をつけてTwitterで投稿しよう！</p>
+		          </div><!-- campaignPanel -->
+		        </div><!-- campaignBox -->
+
+		        <div class="linkArea">
+		          <a href="campaign/index.html">キャンペーン一覧へ ></a>
+		        </div><!-- linkArea -->
+				
+		      </div><!-- toppageCampaign-->
+		      <!-- キャンペーン一覧ここまで -->
+
+		      <!-- ブランドサイト一覧ここから -->
+		      <div class="container toppageBrandsite">
+		        <h2>特設サイト一覧<span></span></h2>
+		        
+		        
+		        <div class="brandBox col-sm-4">
+		          <div class="brandPanel">
+		          <a href="https://www.bourbon.co.jp/fettuccine/fruits/" class="imageArea lazy" data-original="img/brands/fettuccine.jpg" target="_blank">
+		            <img class="dammyImage" src="img/common/campaignImageSpacer.gif" alt="" onContextmenu="return false">
+		          </a>
+		          <a href="https://www.bourbon.co.jp/fettuccine/fruits/" class="title" target="_blank">フェットチーネグミ（フルーツ）</a>
+		          </div><!-- brandPanel -->
+		        </div><!-- brandBox -->
+
+		        <div class="brandBox col-sm-4">
+		          <div class="brandPanel">
+		          <a href="http://www.bourbon.co.jp/wingram/" class="imageArea lazy" data-original="img/brands/wingram.jpg" target="_blank">
+		            <img class="dammyImage" src="img/common/campaignImageSpacer.gif" alt="" onContextmenu="return false">
+		          </a>
+		          <a href="http://www.bourbon.co.jp/wingram/" class="title" target="_blank">WINGRAM（ウィングラム）</a>
+		          </div><!-- brandPanel -->
+		        </div><!-- brandBox -->
+
+		        <div class="brandBox col-sm-4">
+		          <div class="brandPanel">
+		          <a href="http://www.bourbon.co.jp/petit/" class="imageArea lazy" data-original="img/brands/petit.jpg" target="_blank">
+		            <img class="dammyImage" src="img/common/campaignImageSpacer.gif" alt="" onContextmenu="return false">
+		          </a>
+		          <a href="http://www.bourbon.co.jp/petit/" class="title" target="_blank">プチシリーズ</a>
+		          </div><!-- brandPanel -->
+		        </div><!-- brandBox -->
+
+		        <div class="brandBox col-sm-4">
+		          <div class="brandPanel">
+		          <a href="http://www.bourbon.co.jp/chocoa-npan/" class="imageArea lazy" data-original="img/brands/anpan.jpg" target="_blank">
+		            <img class="dammyImage" src="img/common/campaignImageSpacer.gif" alt="" onContextmenu="return false">
+		          </a>
+		          <a href="http://www.bourbon.co.jp/chocoa-npan/" class="title" target="_blank">チョコあ〜んぱん</a>
+		          </div><!-- brandPanel -->
+		        </div><!-- brandBox -->
+
+		        <div class="brandBox col-sm-4">
+		          <div class="brandPanel">
+		          <a href="http://www.bourbon.co.jp/jellykitchen/" class="imageArea lazy" data-original="img/brands/jelly_kitchen.jpg" target="_blank">
+		            <img class="dammyImage" src="img/common/campaignImageSpacer.gif" alt="" onContextmenu="return false">
+		          </a>
+		          <a href="http://www.bourbon.co.jp/jellykitchen/" class="title" target="_blank">ゼリーシリーズ</a>
+		          </div><!-- brandPanel -->
+		        </div><!-- brandBox -->
+
+		        <div class="brandBox col-sm-4">
+		          <div class="brandPanel">
+		          <a href="https://www.bourbon.co.jp/fettuccine/soda/" class="imageArea lazy" data-original="img/brands/fettuccine-soda.jpg" target="_blank">
+		            <img class="dammyImage" src="img/common/campaignImageSpacer.gif" alt="" onContextmenu="return false">
+		          </a>
+		          <a href="https://www.bourbon.co.jp/fettuccine/soda/" class="title" target="_blank">フェットチーネグミ（炭酸）</a>
+		          </div><!-- brandPanel -->
+		        </div><!-- brandBox -->
+		        
+		        <div class="brandBox col-sm-4">
+		          <div class="brandPanel">
+		          <a href="https://www.bourbon.co.jp/alfortmini/" class="imageArea lazy" data-original="img/brands/alfortmini.jpg" target="_blank">
+		            <img class="dammyImage" src="img/common/campaignImageSpacer.gif" alt="" onContextmenu="return false">
+		          </a>
+		          <a href="https://www.bourbon.co.jp/alfortmini/" class="title" target="_blank">アルフォートミニチョコレート</a>
+		          </div><!-- brandPanel -->
+		        </div><!-- brandBox -->
+		        
+		        <div class="brandBox col-sm-4">
+		          <div class="brandPanel">
+		          <a href="http://www.bourbon.co.jp/coconutmilk/" class="imageArea lazy" data-original="img/brands/coconutmilk.jpg" target="_blank">
+		            <img class="dammyImage" src="img/common/campaignImageSpacer.gif" alt="" onContextmenu="return false">
+		          </a>
+		          <a href="http://www.bourbon.co.jp/coconutmilk/" class="title" target="_blank">おいしいココナッツミルク</a>
+		          </div><!-- brandPanel -->
+		        </div><!-- brandBox -->
+				<div class="brandBox col-sm-4">
+		          <div class="brandPanel">
+		          <a href="https://www.bourbon.co.jp/brownie/" class="imageArea lazy" data-original="img/brands/brownie.jpg" target="_blank">
+		            <img class="dammyImage" src="img/common/campaignImageSpacer.gif" alt="" onContextmenu="return false">
+		          </a>
+		          <a href="https://www.bourbon.co.jp/brownie/" class="title" target="_blank">濃厚チョコブラウニー</a>
+		          </div><!-- brandPanel -->
+		        </div><!-- brandBox -->
+		        		        		        
+		        <div class="brandBox col-sm-4">
+		          <div class="brandPanel">
+		          <a href="http://www.bourbon.co.jp/slicenamachocolate/" class="imageArea lazy" data-original="img/brands/slicenamachocolate.jpg" target="_blank">
+		            <img class="dammyImage" src="img/common/campaignImageSpacer.gif" alt="" onContextmenu="return false">
+		          </a>
+		          <a href="http://www.bourbon.co.jp/slicenamachocolate/" class="title" target="_blank">スライス生チョコレート</a>
+		          </div><!-- brandPanel -->
+		        </div><!-- brandBox -->
+                
+		        
+				<div class="brandBox col-sm-4">
+		          <div class="brandPanel">
+		          <a href="https://www.bourbon.co.jp/biscuitseries/index.html" class="imageArea lazy" data-original="img/brands/biscuitseries.jpg" target="_blank">
+		            <img class="dammyImage" src="img/common/campaignImageSpacer.gif" alt="" onContextmenu="return false">
+		          </a>
+		          <a href="https://www.bourbon.co.jp/biscuitseries/index.html" class="title" target="_blank">ラシュクーレ</a>
+		          </div><!-- brandPanel -->
+		        </div><!-- brandBox -->
+
+		        <div class="brandBox col-sm-4">
+		          <div class="brandPanel">
+		          <a href="https://www.bourbon.co.jp/plaincrackers/" class="imageArea lazy" data-original="img/brands/plain.jpg" target="_blank">
+		            <img class="dammyImage" src="img/common/campaignImageSpacer.gif" alt="" onContextmenu="return false">
+		          </a>
+		          <a href="https://www.bourbon.co.jp/plaincrackers/" class="title" target="_blank">プレーンクラッカー</a>
+		          </div><!-- brandPanel -->
+		        </div><!-- brandBox -->
+		        
+		        <div class="brandBox col-sm-4">
+		          <div class="brandPanel">
+		          <a href="https://www.bourbon.co.jp/karadamirai/" class="imageArea lazy" data-original="img/brands/karadamirai.jpg" target="_blank">
+		            <img class="dammyImage" src="img/common/campaignImageSpacer.gif" alt="" onContextmenu="return false">
+		          </a>
+		          <a href="https://www.bourbon.co.jp/karadamirai/" class="title" target="_blank">カラダみらい</a>
+		          </div><!-- brandPanel -->
+		        </div><!-- brandBox -->
+		        <div class="brandBox col-sm-4">
+		          <div class="brandPanel">
+		          <a href="http://www.bourbon.co.jp/boysenberry/index.html" class="imageArea lazy" data-original="img/brands/boysenberry.jpg" target="_blank">
+		            <img class="dammyImage" src="img/common/campaignImageSpacer.gif" alt="" onContextmenu="return false">
+		          </a>
+		          <a href="http://www.bourbon.co.jp/boysenberry/index.html" class="title" target="_blank">ボイセンベリーシリーズ</a>
+		          </div><!-- brandPanel -->
+		        </div><!-- brandBox -->
+		     
+		        <div class="brandBox col-sm-4">
+		          <div class="brandPanel">
+		          <a href="http://sp.beach.jp/BOURBON/concept/pc/index.html?utm_source=bourbon.co.jp&utm_medium=banner&utm_campaign=point1604" class="imageArea lazy" data-original="img/brands/fanpark.jpg" target="_blank">
+		            <img class="dammyImage" src="img/common/campaignImageSpacer.gif" alt="" onContextmenu="return false">
+		          </a>
+		          <a href="http://sp.beach.jp/BOURBON/concept/pc/index.html?utm_source=bourbon.co.jp&utm_medium=banner&utm_campaign=point1604" class="title" target="_blank">ブルボン ファンパーク</a>
+		          </div><!-- brandPanel -->
+		        </div><!-- brandBox -->
+		
+		      </div><!-- toppageBrandsite -->
+               <!-- ブランドサイト一覧ここまで -->
+
+		      </div><!-- pcleft -->
+		
+		      <div class="dbl-col-right col-sm-3">
+		        <div class="movieBoxArea" onContextmenu="return false">
+		          <h2>CM・動画</h2>
+		          <div class="movieBox">
+		          	<video id="toppageCM" class="video-js" autoplay data-setup='{"controlBar": false,"LoadingSpinner" : false,"BigPlayButton": false}'>
+		          		<source src="movies/toppage/top.mp4" type='video/mp4'>
+		          		<!-- <source src="MY_VIDEO.webm" type='video/webm'> -->
+		          			<p class="vjs-no-js">
+							<dl>
+								<dt>コンテンツが正しく表示できません</dt>
+								<dd>ブラウザの JavaScript 設定を有効化してください。</dd>
+							</dl>
+		          			</p>
+		          		</video>
+		            <a href="campaign/cm/fettuccine1708.html" class="title">フェットチーネグミ（フルーツ）<br>「ハズみ跳ぶ」篇 </a>
+		          </div><!-- movieBox -->
+		          <a href="campaign/cm/index.html" class="link_b">一覧 ></a>
+		        </div><!-- movieBoxArea -->
+		
+		        <div class="snsBoxArea">
+		          <h2>ソーシャルメディア<br>公式アカウント</h2>
+		          <ul>
+		          	<li class="clearfix">
+		              <a href="https://www.youtube.com/channel/UC8UW0OHgo_FtkF4orKd2S4Q" class="snsIconLink sprite-sprites-youtube_icon" target="_blank" onclick="ga('send','event','snsLink','click','youtube',1,{'nonInteraction':1});"></a>
+		              <div class="linkTextArea">
+		                <a href="https://www.youtube.com/channel/UC8UW0OHgo_FtkF4orKd2S4Q" class="snsLink" target="_blank" onclick="ga('send','event','snsLink','click','youtube',1,{'nonInteraction':1});">YouTube<br>公式チャンネル</a>
+		              </div><!-- linkTextArea -->
+		            </li>
+		            <li class="clearfix">
+		              <a href="https://www.facebook.com/bourbon.jp" class="snsIconLink sprite-sprites-facebook_icon" target="_blank" onclick="ga('send','event','snsLink','click','facebook',1,{'nonInteraction':1});"></a>
+		              <div class="linkTextArea">
+		                <a href="https://www.facebook.com/bourbon.jp" class="snsLink" target="_blank" onclick="ga('send','event','snsLink','click','facebook',1,{'nonInteraction':1});">公式<br>Facebookページ</a>
+		              </div><!-- linkTextArea -->
+		            </li>
+		            <li class="clearfix">
+		              <a href="https://twitter.com/Bourbon_JP" class="snsIconLink sprite-sprites-twitter_icon" target="_blank" onclick="ga('send','event','snsLink','click','twitter',1,{'nonInteraction':1});"></a>
+		              <div class="linkTextArea">
+		                <a href="https://twitter.com/Bourbon_JP" class="snsLink" target="_blank" onclick="ga('send','event','snsLink','click','twitter',1,{'nonInteraction':1});">公式<br>Twitterアカウント</a>
+		              </div><!-- linkTextArea -->
+		            </li>
+		            <li class="clearfix">
+		              <p class="snsIconLink sprite-sprites-line_icon"></p>
+		              <div class="linkTextArea">
+		                <p class="snsLink">LINE公式アカウント</p>
+		                <p>@bourbon</p>
+		              </div><!-- linkTextArea -->
+		            </li>
+		          </ul>
+		        </div><!-- snsBoxArea -->
+		        <div class="bannerBoxArea">
+		          <a href="https://www.bourbon.co.jp/viewing/"><img src="img/banners/observatory.gif" alt="observatory"></a>
+		          
+		        </div><!-- bannerBoxArea -->
+		      </div><!-- dbl-col-right -->
+		      </div><!-- dbl-col-wrapper -->
+		    </div><!-- toppageContentsArea -->
+    
+      </div><!-- ornamentLayer -->
+      
+      <div class="toppageTopicsArea areaWrapper">
+      <div class="container">
+        <h2>TOPICS</h2>
+        <ul id="topics_ul">
+        
+        </ul>
+        <div class="linkArea">
+          <a href="company/news/index.html" class="link_b">一覧 ></a>
+        </div><!-- linkArea -->
+      </div><!-- container -->
+    </div><!-- toppageTopicsArea -->
+      
+      <!-- InstanceEndEditable --> 
+
+    <div class="areaWrapper mobileSnsArea visible-xs">
+      <div class="container">
+        <div class="snsArea">
+          <a href="https://www.youtube.com/channel/UC8UW0OHgo_FtkF4orKd2S4Q" class="youtube sprite-sprites-youtube_icon alt" target="_blank" onclick="ga('send','event','snsLink','click','youtube',1,{'nonInteraction':1});">YouTube公式チャンネル</a>
+          <a href="https://www.facebook.com/bourbon.jp" class="facebook sprite-sprites-facebook_icon alt" target="_blank" onclick="ga('send','event','snsLink','click','facebook',1,{'nonInteraction':1});">公式Facebookページ</a>
+          <a href="https://twitter.com/Bourbon_JP" class="twitter sprite-sprites-twitter_icon alt" target="_blank" onclick="ga('send','event','snsLink','click','twitter',1,{'nonInteraction':1});">twitter公式アカウント</a>
+          <p class="line"><span>LINE公式アカウント</span><br>@bourbon</p>
+        </div><!-- snsArea -->
+      </div><!-- container -->
+    </div><!-- mobileSnsArea -->
+
+    <div class="footerAreaWrapper">
+      <div class="footerMenu">
+
+        <div id="backToPagetop"><a href="#pagetop" class="sprite-sprites-back_to_top"></a></div><!-- backToPagetop -->
+
+        <div class="footerMenuArea hidden-xs">
+        <a href="index.html" class="alt sprite-sprites-white-logo" id="footer_logo">ブルボン</a>
+        	
+          <ul class="clearfix secondUl">
+            <li class="mainMenuLink"><a href="company/index.html"><span class="sprite-sprites-corpIcon"></span>会社情報トップ</a></li>
+            <li><a href="company/english/index.html">ENGLISH</a></li>
+            <li><a href="company/chinese/index.html">中文</a></li>
+          </ul>
+        </div><!-- footerMenuArea -->
+        <div class="footerMenuArea">
+          <ul class="clearfix">
+            <li class="mainMenuLink"><a href="product/index.html">商品情報</a></li>
+            <li><a href="product/new/index.html">新商品一覧</a></li>
+          </ul>
+        </div><!-- footerMenuArea -->
+        <div class="footerMenuArea">
+          <ul class="clearfix">
+            <li class="mainMenuLink"><a href="campaign/index.html">知る・楽しむ</a></li>
+            <li><a href="campaign/cm/index.html">CM・動画</a></li>
+            <li><a href="campaign/tvcm.html">提供番組一覧</a></li>
+          </ul>
+        </div><!-- footerMenuArea -->
+        <div class="footerMenuArea">
+          <ul class="clearfix">
+            <li class="mainMenuLink"><a href="culture/index.html">文化・スポーツ</a></li>
+            <li><a href="culture/index.html">文化支援</a></li>
+            <li><a href="sports/index.html">スポーツ支援</a></li>
+          </ul>
+          <ul class="clearfix secondUl">
+            <li class="mainMenuLink"><a href="http://shop.bourbon.jp/" target="_blank" class="full">オンラインショップ</a></li>
+          </ul>
+        </div><!-- footerMenuArea -->
+        <div class="footerMenuArea visible-xs grey">
+          <ul class="clearfix">
+            <li ><a href="company/support.html">お客様相談窓口</a></li>
+            <li ><a href="company/sitemap.html">サイトマップ</a></li>
+            <li ><a href="company/links.html">リンク</a></li>
+            <li ><a href="company/privacy_policy.html">個人情報保護方針</a></li>
+            <li ><a href="company/terms.html">ご利用規約</a></li>
+            <li ><a href="company/others/index.html">その他</a></li>
+          </ul>
+        </div><!-- footerMenuArea -->
+        <div class="footerMenuArea visible-xs grey">
+          <ul class="clearfix">
+            <li class="mainMenuLink"><a href="company/index.html" class="full"><span class="sprite-sprites-corpIcon"></span>会社情報トップ</a></li>
+          </ul>
+        </div><!-- footerMenuArea -->
+        <div class="footerMenuArea visible-xs grey languageSelect">
+          <ul class="clearfix">
+                <li><a href="company/index.html"><span class="sprite-sprites-triangle_white"></span>Japanese</a></li>
+                <li><a href="company/english/index.html"><span class="sprite-sprites-triangle_white"></span>English</a></li>
+                <li><a href="company/chinese/index.html"><span class="sprite-sprites-triangle_white"></span>Chinese</a></li>
+              </ul>
+        </div><!-- footerMenuArea -->
+      </div><!-- overflow_container footerMenu-->
+      <div class="container footerCopyright">
+        <a href="index.html" class="alt sprite-sprites-white-logo visible-xs" id="mobile_footer_logo">ブルボン</a>
+        <div class="footerLinkArea hidden-xs">
+        <a href="company/support.html">お客様相談窓口</a> | <a href="company/sitemap.html">サイトマップ</a> | <a href="company/links.html">リンク</a> | <a href="company/privacy_policy.html">個人情報保護方針</a> | <a href="company/terms.html">ご利用規約</a> | <a href="company/others/index.html">その他</a>
+        </div><!-- footerLinkArea -->
+        <p class="copyright">&copy; 2016 Bourbon Corporation Japan.</p>
+      </div><!-- footerCopyright -->
+    </div><!-- footerAreaWrapper -->
+
+    
+    </div><!-- wrapper -->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.lazyload.min.js"></script>
+	<!-- InstanceBeginEditable name="includeJavascript" -->
+    <script src="js/video.min.js"></script>
+    <script src="js/jquery.bxslider.min.js"></script>
+	<!-- InstanceEndEditable --> 
+    <script src="js/bourbon.js"></script>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-12153051-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+  </body>
+<!-- InstanceEnd --></html>

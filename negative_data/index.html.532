@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html class="ie6"> <![endif]-->
+<!--[if IE 7 ]> <html class="ie7"> <![endif]-->
+<!--[if IE 8 ]> <html class="ie8"> <![endif]-->
+<!--[if IE 9 ]> <html class="ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html class="" lang="ja"> <!--<![endif]-->
+<head>
+<meta charset="shift-jis">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=2.0,user-scalable=yes">
+<meta name="format-detection" content="telephone=no">
+<meta name="format-detection" content="email=no">
+<title>ニチレイ</title>
+<meta name="description" content="ニチレイウェブサイトではニチレイグループのご紹介や、株主投資家情報、食の安全・信頼への取り組みなどについて様々な情報を掲載しています。食とくらしをかんがえる記事やニチレイレディース情報も満載です。">
+<meta name="keywords" content="ニチレイ,冷凍食品,健康食品,水産品,畜産品,低温物流,バイオサイエンス,不動産">
+<link rel="stylesheet" href="/common/css/reset.css" media="all">
+<link rel="stylesheet" href="/common/css/co_base.css" media="all">
+<link rel="stylesheet" href="/common/css/co_module.css" media="all">
+<link rel="stylesheet" href="/common/css/co_drawer.css" media="all">
+<link rel="stylesheet" href="/common/css/print.css" media="print">
+<script src="/common/js/jquery-1.8.3.min.js"></script>
+<script src="/common/js/co_base.js"></script>
+<script src="/common/js/jquery.sidr.min.js"></script>
+<!--[if lt IE 9]>
+<script src="/common/js/co_html5shiv-printshiv.js"></script>
+<script src="/common/js/co_css3-mediaqueries.js"></script>
+<script src="/common/js/jquery.exresize.0.1.0.js"></script>
+<![endif]-->
+<link rel="stylesheet" href="/common/css/co_carousel.css" media="all">
+<script src="/common/js/co_carousel.js"></script>
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<!-- og -->
+<meta property="og:title" content="ニチレイ">
+<meta property="og:image" content="http://www.nichirei.co.jp/common/images/logo_header.gif">
+<meta property="og:url" content="http://www.nichirei.co.jp/">
+<meta property="og:description" content="ニチレイウェブサイトではニチレイグループのご紹介や、株主投資家情報、食の安全・信頼への取り組みなどについて様々な情報を掲載しています。食とくらしをかんがえる記事やニチレイレディース情報も満載です。">
+<meta property="og:locale" content="ja_JP">
+<!-- /og -->
+</head>
+
+<body id="com_top">
+<div id="wrap">
+
+<!-- ===== header ====== -->
+<header>
+<!-- spHeader [for only smartphone] -->
+<div id="spHeader">
+<p class="logo"><a href="/"><img src="/common/images/sp_logo_header.png" alt="ニチレイ" width="35" height="35"></a></p>
+<ul id="menu" class="noPC">
+<li class="drawerBtn"><a class="right-menu" href="#drawer-menu"><img src="/common/images/co_sp_head_menu.png" alt="メニュー" width="27" height="25"></a></li>
+<li><img src="/common/images/co_sp_head_search.png" alt="検索" width="27" height="25"></li>
+<li><img src="/common/images/co_sp_head_global.png" alt="Global" width="27" height="25"></li>
+</ul>
+<!-- / #spHeader --></div>
+<!-- /spHeader -->
+
+<!-- siteFunctions -->
+<div id="siteFunctions">
+<div id="fontSet">
+<p><img src="/common/images/fontsize_caption.png" alt="文字サイズ"></p>
+<ul>
+<li class="first"><img src="/common/images/fontsize_s.png" alt="小"></li>
+<li><img src="/common/images/fontsize_m.png" alt="中"></li>
+<li><img src="/common/images/fontsize_l.png" alt="大"></li>
+</ul>
+<!-- / #fontSet --></div>
+<ul id="langSet">
+<li class="first active"><a href="/" data-label="日本語"><img src="/common/images/lang_jp.png" alt="日本語"></a></li>
+<li><a href="/english/index.html" data-label="English"><img src="/common/images/lang_en.png" alt="English"></a></li>
+<li><a href="/chinese/index.html" data-label="中文"><img src="/common/images/lang_ch.png" alt="中文"></a></li>
+</ul>
+<div id="searchSet">
+<form name="search_form" action="http://nichirei.dga.jp/" onsubmit="return mysearch();">
+<input type="hidden" name="ie" value="s">
+<input type="hidden" name="domain" value="ja">
+<input type="text" name="kw" value="" id="searchWin" class="placeholder" title="ニチレイについて検索する"><input type="button" value="" onclick="mysearch();" id="searchSubmit">
+</form>
+<!-- / #searchSet --></div>
+<!-- / #siteFunctions --></div>
+<!-- /siteFunctions -->
+
+<!-- navMenus -->
+<div id="navMenus" class="noSP">
+<p id="logo"><a href="/"><img src="/common/images/logo_header.gif" alt="ニチレイ"></a></p>
+<nav>
+<div id="gnavArea">
+<ul class="navWrap">
+<li class="corpo"><a href="/corpo/">企業情報</a>
+<div class="dropDown">
+<p class="title">ニチレイ（持株会社）</p>
+<div class="linkBlockA01">
+<ul class="firstChild">
+<li><a href="/corpo/about.html"><img src="/common/images/co_corpo_megaMenu_011_ov.jpg" alt="ニチレイってこんな会社"></a></li>
+<li><a href="/corpo/management/"><img src="/common/images/co_corpo_megaMenu_002_ov.jpg" alt="経営の考え方"></a></li>
+<li><a href="/corpo/strategy/"><img src="/common/images/co_corpo_megaMenu_003_ov.jpg" alt="経営戦略"></a></li>
+<li><a href="/corpo/outline/"><img src="/common/images/co_corpo_megaMenu_004_ov.jpg" alt="会社概要"></a></li>
+<li class="lastChild"><a href="http://as.chizumaru.com/nichirei/k/top?accmd=0"><img src="/common/images/co_corpo_megaMenu_005_ov.jpg" alt="地図情報"></a></li>
+</ul>
+<!-- / .linkBlockA01 --></div>
+<p class="title">ニチレイグループ</p>
+<div class="linkBlockA01">
+<ul class="firstChild">
+<li><a href="/corpo/outline/group/nichirei.html"><img src="/common/images/co_corpo_megaMenu_006_ov.jpg" alt="ニチレイ"><span>ニチレイグループ全体を統括</span></a></li>
+<li><a href="http://www.nichireifoods.co.jp/" target="_blank"><img src="/common/images/co_corpo_megaMenu_007_ov.jpg" alt="ニチレイフーズ"><span>冷凍食品をはじめとした加工食品の開発から製造・販売を行っています。</span></a></li>
+<li><a href="http://www.nichireifresh.co.jp/" target="_blank"><img src="/common/images/co_corpo_megaMenu_008_ov.jpg" alt="ニチレイフレッシュ"><span>水産品や畜産品の調達、加工、販売を行っています。</span></a></li>
+<li><a href="http://www.nichirei-logi.co.jp/" target="_blank"><img src="/common/images/co_corpo_megaMenu_009_ov.jpg" alt="ニチレイロジグループ"><span>食品を大切に保管し、効率よく輸送することで食品物流を支えています。</span></a></li>
+<li class="lastChild"><a href="/bio/" target="_blank"><img src="/common/images/co_corpo_megaMenu_010_ov.jpg" alt="ニチレイバイオサイエンス"><span>細胞培養関連試薬・診断薬・化粧品原料の製造、販売などを行っています。</span></a></li>
+</ul>
+<!-- / .linkBlockA01 --></div>
+<div class="linkBtn">
+<p><a href="/corpo/">「企業情報」トップへ</a></p>
+<!-- / .linkBtn --></div>
+<!-- / .dropDown --></div>
+</li>
+<li class="safety"><a href="/safety/">食品の安全・信頼</a>
+<div class="dropDown">
+<div class="linkBlockA01">
+<ul class="firstChild">
+<!--<li><a href="/safety/network.html"><img src="/common/images/co_safety_megaMenu_001_ov.jpg" alt="「おいしさ」と「新鮮」をネットワークする。"></a></li>-->
+<li><a href="/safety/concept/"><img src="/common/images/co_safety_megaMenu_002_ov.jpg" alt="『安全・信頼』についての考え方"></a></li>
+<li><a href="/safety/action/"><img src="/common/images/co_safety_megaMenu_003_ov.jpg" alt="主な取り組み"></a></li>
+<li><a href="/safety/system.html"><img src="/common/images/co_safety_megaMenu_004_ov.jpg" alt="品質保証体制"></a></li>
+<li><a href="/safety/subject.html"><img src="/common/images/co_safety_megaMenu_005_ov.jpg" alt="食品の安全・信頼に関する課題"></a></li>
+<li class="lastChild"><a href="/safety/special/package.html"><img src="/common/images/co_safety_megaMenu_006_ov.jpg" alt="商品パッケージを通じて伝えるニチレイグループの品質保証"></a></li>
+</ul>
+<!-- / .linkBlockA01 --></div>
+
+<!--<p class="title">特集</p>
+<div class="linkBlockA01">
+<ul class="firstChild">
+<li><a href="/safety/special/factory.html"><img src="/common/images/co_safety_megaMenu_007_ov.jpg" alt="安全・安心を支える現場　ニチレイ工場　潜入レポート！"><span>安全・安心を支える現場<br>ニチレイ工場　潜入レポート！</span></a></li>
+</ul>
+</div>-->
+<div class="linkBtn">
+<p><a href="/safety/">「食品の安全・信頼」トップへ</a></p>
+<!-- / .linkBtn --></div>
+<!-- / .dropDown --></div>
+</li>
+<li class="csr"><a href="/csr/">CSR・環境活動</a>
+<div class="dropDown">
+<div class="linkBlockA01">
+<ul class="firstChild">
+<li><a href="/csr/topmessage.html"><img src="/common/images/co_csr_megaMenu_001_ov.jpg" alt="トップメッセージ"></a></li>
+<li><a href="/csr/responsibility.html"><img src="/common/images/co_csr_megaMenu_002_ov.jpg" alt="ニチレイグループ「6つの責任」"></a></li>
+<li><a href="/csr/environment/"><img src="/common/images/co_csr_megaMenu_003_ov.jpg" alt="環境への取り組み"></a></li>
+<li><a href="/csr/social/"><img src="/common/images/co_csr_megaMenu_004_ov.jpg" alt="社会のために"></a></li>
+<li class="lastChild"><a href="/csr/work/"><img src="/common/images/co_csr_megaMenu_005_ov.jpg" alt="従業員のために"></a></li>
+</ul>
+<ul>
+<li><a href="/csr/third.html"><img src="/common/images/co_csr_megaMenu_006_ov.jpg" alt="第三者意見"></a></li>
+<li class="lastChild"><a href="/csr/report/"><img src="/common/images/co_csr_megaMenu_007_ov.jpg" alt="CSRレポート"></a></li>
+</ul>
+<!-- / .linkBlockA01 --></div>
+<div class="linkBtn">
+<p><a href="/csr/">「CSR・環境活動」トップへ</a></p>
+<!-- / .linkBtn --></div>
+<!-- / .dropDown --></div>
+</li>
+<li class="ir"><a href="/ir/">株主・投資家情報</a>
+<div class="dropDown">
+<div class="linkBlockA01">
+<ul class="firstChild">
+<li><a href="/ir/message.html"><img src="/common/images/co_ir_megaMenu_001_ov.jpg" alt="株主・投資家の皆さまへ"></a></li>
+<li><a href="/ir/news/"><img src="/common/images/co_ir_megaMenu_002_ov.jpg" alt="IRニュース"></a></li>
+<li><a href="/ir/t_medium/"><img src="/common/images/co_ir_megaMenu_003_ov.jpg" alt="中期経営計画"></a></li>
+<li><a href="/ir/message/"><img src="/common/images/co_ir_megaMenu_004_ov.jpg" alt="グループ構成"></a></li>
+<li class="lastChild"><a href="/ir/announce/"><img src="/common/images/co_ir_megaMenu_005_ov.jpg" alt="決算発表"></a></li>
+</ul>
+<ul>
+<li><a href="/ir/financial/"><img src="/common/images/co_ir_megaMenu_006_ov.jpg" alt="業績・財務"></a></li>
+<li><a href="/ir/library/"><img src="/common/images/co_ir_megaMenu_007_ov.jpg" alt="IRライブラリー"></a></li>
+<li><a href="/ir/calendar/"><img src="/common/images/co_ir_megaMenu_008_ov.jpg" alt="IRカレンダー"></a></li>
+<li><a href="/ir/stock/"><img src="/common/images/co_ir_megaMenu_009_ov.jpg" alt="株式・社債"></a></li>
+<li class="lastChild"><a href="/data/" target="_blank"><img src="/common/images/co_ir_megaMenu_010_ov.jpg" alt="データで見るニチレイ"></a></li>
+</ul>
+<ul>
+<li><a href="/ir/individual/"><img src="/common/images/co_ir_megaMenu_011_ov.jpg" alt="個人投資家の皆さまへ"></a></li>
+<li><a href="/ir/analyst/"><img src="/common/images/co_ir_megaMenu_012_ov.jpg" alt="アナリストカバレッジ"></a></li>
+<li class="lastChild"><a href="/ir/faq/"><img src="/common/images/co_ir_megaMenu_013_ov.jpg" alt="IRよくあるご質問"></a></li>
+</ul>
+<!-- / .linkBlockA01 --></div>
+<div class="linkBtn">
+<p><a href="/ir/">「株主・投資家情報」トップへ</a></p>
+<!-- / .linkBtn --></div>
+<!-- / .dropDown --></div>
+</li>
+<li class="news"><a href="/re/001.html">プレスリリース</a></li>
+<li><a href="/saiyo/">採用情報</a></li>
+<li class="koras"><a href="/koras/"><span>こおらす</span></a></li>
+</ul>
+<!-- / #gnavArea --></div>
+</nav>
+<!-- / #navMenus --></div>
+<!-- /navMenus -->
+</header>
+
+<!-- ===== /header ===== -->
+
+<!-- ===== mainVisual ====== -->
+<div id="carouselBlock">
+<div id="mainVisual">
+<div id="mainVisualInner">
+<!-- / #mainVisualInner --></div>
+<!-- / #mainVisual --></div>
+<!-- / #mainVisualOuter --></div>
+<!-- ===== /#mainVisual ====== -->
+
+<div id="spLocalNavi" class="noPC">
+<div class="tabmenu">
+<ul class="tab clearfix">
+<li id="tab01">企業情報</li>
+<li id="tab02">食品の<br>安全・信頼</li>
+<li id="tab03">CSR・<br>環境情報</li>
+<li id="tab04">株主・<br>投資家情報</li>
+</ul>
+<div class="content">
+<div class="tabpanel01 show hide">
+<div class="bannerBlockA01">
+<ul class="clearfix">
+<li><a href="/corpo/about.html"><img src="/common/images/co_corpo_sp_navi_005.jpg" alt="ニチレイってこんな会社"></a></li>
+<li class="even"><a href="/corpo/management/index.html"><img src="/common/images/co_corpo_sp_navi_001.jpg" alt="経営の考え方"></a></li>
+<li><a href="/corpo/outline/index.html"><img src="/common/images/co_corpo_sp_navi_002.jpg" alt="会社概要"></a></li>
+<li class="even"><a href="/corpo/strategy/index.html"><img src="/common/images/co_corpo_sp_navi_003.jpg" alt="経営戦略"></a></li>
+<li><a href="http://as.chizumaru.com/nichirei/k/top?accmd=0"><img src="/common/images/co_corpo_sp_navi_004.jpg" alt="地図情報"></a></li>
+</ul>
+<p class="btn"><a href="/corpo/">企業情報トップ</a></p>
+<!-- / .bannerBlockA01 --></div>
+<!-- / .tabpanel01 --></div>
+
+<div class="tabpanel01 show hide">
+<div class="bannerBlockA01">
+<ul class="clearfix">
+<li><a href="/safety/concept/index.html"><img src="/common/images/co_safety_sp_navi_001.jpg" alt="規格・基準"></a></li>
+<li class="even"><a href="/safety/action/index.html"><img src="/common/images/co_safety_sp_navi_002.jpg" alt="主な取り組み"></a></li>
+<li><a href="/safety/system.html"><img src="/common/images/co_safety_sp_navi_003.jpg" alt="品質保証体制"></a></li>
+<li class="even"><a href="/safety/subject.html"><img src="/common/images/co_safety_sp_navi_004.jpg" alt="品質保証をめぐる課題"></a></li>
+<li><a href="/safety/special/package.html"><img src="/common/images/co_safety_sp_navi_005.jpg" alt="商品パッケージを通じて伝えるニチレイグループの品質保証"></a></li>
+</ul>
+<p class="btn"><a href="/safety/">食品の安全・信頼トップ</a></p>
+<!-- / .bannerBlockA01 --></div>
+<!-- / .tabpanel01 --></div>
+
+<div class="tabpanel01 show hide">
+<div class="bannerBlockA01">
+<ul class="clearfix">
+<li><a href="/csr/topmessage.html"><img src="/common/images/co_csr_sp_navi_001.jpg" alt="トップメッセージ"></a></li>
+<li class="even"><a href="/csr/responsibility.html"><img src="/common/images/co_csr_sp_navi_002.jpg" alt="ニチレイグループ「6つの責任」"></a></li>
+<li><a href="/csr/environment/index.html"><img src="/common/images/co_csr_sp_navi_003.jpg" alt="環境への取り組み"></a></li>
+<li class="even"><a href="/csr/social/index.html"><img src="/common/images/co_csr_sp_navi_004.jpg" alt="社会のために"></a></li>
+<li><a href="/csr/work/index.html"><img src="/common/images/co_csr_sp_navi_005.jpg" alt="従業員のために"></a></li>
+<li class="even"><a href="/csr/third.html"><img src="/common/images/co_csr_sp_navi_006.jpg" alt="第三者意見"></a></li>
+<li class="lastChild"><a href="/csr/report/index.html"><img src="/common/images/co_csr_sp_navi_007.jpg" alt="CSRレポート"></a></li>
+</ul>
+<p class="btn"><a href="/csr/">CSR・環境活動トップ</a></p>
+<!-- / .bannerBlockA01 --></div>
+<!-- / .tabpanel01 --></div>
+
+<div class="tabpanel01 show hide">
+<div class="bannerBlockA01">
+<ul class="clearfix">
+<li><a href="/data/index.html" target="_blank"><img src="/common/images/co_ir_sp_navi_010.jpg" alt="データで見るニチレイ"></a></li>
+<li class="even"><a href="/ir/individual/index.html"><img src="/common/images/co_ir_sp_navi_011.jpg" alt="個人投資家の皆様へ"></a></li>
+<li><a href="/ir/message.html"><img src="/common/images/co_ir_sp_navi_001.jpg" alt="株主・投資家の皆様へ"></a></li>
+<li class="even"><a href="/ir/news/index.html"><img src="/common/images/co_ir_sp_navi_002.jpg" alt="IRニュース"></a></li>
+<li><a href="/ir/t_medium/index.html"><img src="/common/images/co_ir_sp_navi_003.jpg" alt="中期経営計画"></a></li>
+<li class="even"><a href="/ir/message/index.html"><img src="/common/images/co_ir_sp_navi_004.jpg" alt="グループ構成"></a></li>
+<li><a href="/ir/announce/index.html"><img src="/common/images/co_ir_sp_navi_005.jpg" alt="決算発表"></a></li>
+<li class="even"><a href="/ir/financial/index.html"><img src="/common/images/co_ir_sp_navi_006.jpg" alt="業績・財務"></a></li>
+<li><a href="/ir/library/index.html"><img src="/common/images/co_ir_sp_navi_007.jpg" alt="IRライブラリー"></a></li>
+<li class="even"><a href="/ir/stock/index.html"><img src="/common/images/co_ir_sp_navi_009.jpg" alt="株式・社債"></a></li>
+</ul>
+<p class="btn"><a href="/ir/">株主・投資家情報トップ</a></p>
+<!-- / .bannerBlockA01 --></div>
+<!-- / .tabpanel01 --></div>
+
+<!-- / .content --></div>
+<!-- / .tabmenu --></div>
+<!-- / #spLocalNavi --></div>
+
+<!-- ===== contentsSet ====== -->
+<div id="contentsSet">
+<!-- ===== mainContents ====== -->
+<div class="cautionTextBlockA01 mb30">
+<a href="/news/2016/280.html"><p class="center">平成28年熊本地震により被災された皆様に謹んでお見舞い申し上げます。<br class="noPC">一日も早い復旧を心よりお祈り申し上げます。</p></a>
+<!-- / .cautionTextBlockA01 --></div>
+<div class="clearfix">
+
+<div id="mainContentsB01">
+<div class="headingBlockA01">
+<h2>ニチレイの企業情報</h2>
+<p class="linkBtnA01 noSP"><a href="/corpo/index.html"><span class="underLine_h">企業情報を見る</span></a></p>
+<!-- / .headingBlockA01 --></div>
+<div class="column3WrapA01">
+<div class="columnBlock01">
+<a class="clearfix" href="/corpo/outline/group/index.html">
+<p class="noSP"><img src="/common/images/co_contents_banner_005_ov.jpg" alt=""></p>
+<p class="noPC"><img src="/common/images/co_contents_banner_005_sp_ov.jpg" alt=""></p>
+<dl class="twoLine">
+<dt class="noSP">ニチレイグループの概要</dt>
+<dt class="noPC">ニチレイグループ<br>の概要</dt>
+<dd class="noSP">企業経営理念やブランドステートメントに基づいて、さまざまな事業活動を行っています。</dd>
+</dl>
+</a>
+<!-- / .columnBlock01 --></div>
+<div class="columnBlock02">
+<a class="clearfix" href="/csr/report/2017/pdf.html">
+<p class="noSP"><img src="/common/images/co_contents_banner_006_ov.jpg" alt=""></p>
+<p class="noPC"><img src="/common/images/co_contents_banner_006_sp_ov.jpg" alt=""></p>
+<dl>
+<dt>CSRレポート2017</dt>
+<dd class="noSP">ニチレイグループのCSRレポートです。食の安全や信頼への取り組みも掲載しています。</dd>
+</dl>
+</a>
+<!-- / .columnBlock02 --></div>
+<div class="columnBlock03">
+<a class="clearfix" href="/safety/index.html">
+<p class="noSP"><img src="/common/images/co_contents_banner_007_ov.jpg" alt=""></p>
+<p class="noPC"><img src="/common/images/co_contents_banner_007_sp_ov.jpg" alt=""></p>
+<dl class="twoLine">
+<dt class="noSP">食品の安全・信頼への取り組み</dt>
+<dt class="noPC">食品の安全・信頼への<br>取り組み</dt>
+<dd class="noSP">おいしい食べ物を心配することなく口にできるように、ニチレイは日々努めています。</dd>
+</dl>
+</a>
+<!-- / .columnBlock03 --></div>
+<!-- / .column3WrapA01 --></div>
+<div class="textLinkBlockA01">
+<p class="noPC"><a href="/corpo/index.html">企業情報を見る</a></p>
+</div><!-- / #textLinkBlockA01 -->
+<!-- / #mainContentsB01 --></div>
+
+<div id="mainContentsD01">
+<div class="headingBlockA01">
+<h2>おすすめ情報</h2>
+<!-- / .headingBlockA01 --></div>
+<div class="columnWrapA01">
+<div class="columnBlock01">
+<p class="noSP"><img src="/common/images/co_contents_banner_008.jpg" alt=""></p>
+<p class="noPC"><img src="/common/images/co_contents_banner_008_sp.jpg" alt=""></p>
+<dl>
+<dt>2017.5.24</dt>
+<dd><a href="/news/2017/292.html">ニチレイレディス 出場選手決定のお知らせ<br /><br /></a></dd>
+</dl>
+<!--<p class="textLink01"><a href="/golf/index.html">ニチレイレディストップ</a></p>-->
+
+<!-- / .columnBlock01 --></div>
+<!-- / .columnWrapA01 --></div>
+<!-- / #mainContentsD01 --></div>
+
+</div>
+
+<div class="clearfix">
+
+<div id="mainContentsA02">
+<div class="headingBlockA01">
+<h2>冷凍食品・冷凍野菜はニチレイフーズ</h2>
+<!-- / .headingBlockA01 --></div>
+
+<div class="column2WrapA01 firstChild">
+<div class="columnBlock01">
+<a href="http://www.nichireifoods.co.jp/" target="_blank">
+<p><img src="/common/images/co_contents_banner_001_ov.jpg" alt="ニチレイフーズ 冷凍食品や冷凍野菜などの商品情報はこちら"></p>
+<p class="textLink01">ニチレイフーズ</p>
+</a>
+<!-- / .columnBlock01 --></div>
+<div class="columnBlock02">
+<a href="http://www.nichireifoods.co.jp/media/" target="_blank">
+<p><img src="/common/images/co_contents_banner_016_ov.jpg" alt="WEBマガジン ほほえみごはん"></p>
+<p class="textLink01">ニチレイフーズ</p>
+</a>
+<!-- / .columnBlock02 --></div>
+<!-- / .column2WrapA01 --></div>
+<div class="headingBlockA01">
+<h2>こおらす<span class="type01">～食にまつわる話が集結～</span></h2>
+<p class="noSP linkBtnA01"><a href="/koras/"><span class="underLine_h">こおらすを見る</span></a></p>
+<!-- / .headingBlockA01 --></div>
+<div class="column2WrapA01">
+<div class="columnBlock01">
+<a href="/koras/index.html#bcat04">
+<p><img src="/common/images/co_contents_banner_003_ov.jpg" alt="安全・安心な「食」の知識"></p>
+<p class="textLink02">ピックアップ</p>
+</a>
+<!-- / .columnBlock01 --></div>
+<div class="columnBlock02">
+<a href="/koras/pickup/001.html">
+<p><img src="/common/images/co_contents_banner_004_ov.jpg" alt="夏休みの自由研究は氷について調べよう！"></p>
+<p class="textLink02">ピックアップ</p>
+</a>
+<!-- / .columnBlock02 --></div>
+<!-- / .column2WrapA01 --></div>
+<div class="textLinkBlockA01">
+<p class="noPC"><a href="/koras/">こおらすを見る</a></p>
+</div><!-- / #textLinkBlockA01 -->
+
+<!-- / #mainContentsA02 --></div>
+
+<div id="mainContentsA01">
+<div class="headingBlockA01">
+<h2>NEWS</h2>
+<!-- / .headingBlockA01 --></div>
+
+<div class="newsBlockA01">
+<div class="reBlockA01">
+<p class="title">プレスリリース</p>
+<p class="linkBtnA01"><a href="/news/2017/index.html"><span class="underLine_h">一覧</span></a></p>
+
+<dl class="updateListA01 nichirei">
+<dt><span>2017.7.20</span>[株式会社ニチレイ]</dt>
+<dd><a href="/news/2017/293.html">女性活躍推進法に基づく認定マーク「えるぼし」（3段階目）の取得に関するお知らせ</a></dd>
+</dl>
+
+<dl class="updateListA01 foods">
+<dt><span>2017.7.18</span>[株式会社ニチレイフーズ]</dt>
+<dd><a href="/news/2017/294.html">ニチレイフーズ 人事異動について</a></dd>
+</dl>
+
+<dl class="updateListA01 foods">
+<dt><span>2017.7.4</span>[株式会社ニチレイフーズ]</dt>
+<dd class="linkBlankA01"><a target="_blank" href="http://www.nichireifoods.co.jp/news/2017/info_id5092/">ニチレイフーズ2017年秋季新商品・リニューアル商品のご案内　全41品がラインアップ</a></dd>
+</dl>
+
+<!-- / .reBlockA01 --></div>
+
+<div class="updateBlockA01">
+<p class="title">更新情報</p>
+<p class="linkBtnA01"><a href="/update/index.html"><span class="underLine_h">一覧</span></a></p>
+
+<dl class="updateListA01 nichirei">
+<dt><span>2017.8.4</span>[株式会社ニチレイ]</dt>
+<dd><a href="/ir/library/presentation.html">2018年3月期 第1四半期決算説明における質疑応答の概要を掲載しました。</a></dd>
+</dl>
+<dl class="updateListA01 nichirei">
+<dt><span>2017.8.4</span>[株式会社ニチレイ]</dt>
+<dd><a href="/ir/library/securities.html">第100期 第1四半期報告書を掲載しました。</a></dd>
+</dl>
+<dl class="updateListA01 nichirei">
+<dt><span>2017.8.1</span>[株式会社ニチレイ]</dt>
+<dd><a href="/ir/library/presentation.html">2018年3月期 第1四半期決算説明資料を掲載しました。</a></dd>
+</dl>
+
+<!-- / .updateBlockA01 --></div>
+<!-- / .newsBlock --></div>
+<!-- / #mainContentsA01 --></div>
+</div>
+
+<div id="mainContentsC01">
+<div class="headingBlockA01">
+<h2>ニチレイのピックアップ</h2>
+<!-- / .headingBlockA01 --></div>
+<div class="column4WrapA01">
+<div class="columnBlock01">
+<a href="http://wellness.nichirei.co.jp/" target="_blank">
+<p><img src="/common/images/co_contents_banner_012_ov.jpg" alt=""></p>
+<dl>
+<dt class="noSP">ニチレイフーズダイレクト</dt>
+<dt class="noPC">ニチレイフーズ<br>ダイレクト</dt>
+<dd class="noSP">ニチレイフーズの公式オンラインショップ</dd>
+</dl>
+</a>
+<!-- / .columnBlock01 --></div>
+
+<div class="columnBlock02">
+<a href="/gallery/index.html">
+<p><img src="/common/images/co_contents_banner_011_ov.jpg" alt=""></p>
+<dl>
+<dt>動画ギャラリー</dt>
+<dd class="noSP">テレビ・ラジオCMや氷の実験動画など。</dd>
+</dl>
+</a>
+<!-- / .columnBlock02 --></div>
+
+<div class="columnBlock03">
+<a href="/research/">
+<p><img src="/common/images/co_contents_banner_013_ov.jpg" alt=""></p>
+<dl>
+<dt>ニチレイグループの研究発表</dt>
+<dd class="noSP">学会発表や論文などをご紹介します。</dd>
+</dl>
+</a>
+<!-- / .columnBlock03 --></div>
+
+<div class="columnBlock04">
+<a href="/lab/antifreeze-protein/" target="_blank">
+<p><img src="/common/images/co_contents_banner_lab_01_ov .jpg" alt=""></p>
+<dl style="background:#7b97ad url(/common/images/co_icon_blank_002.png) no-repeat 95% 90%;">
+<dt style="color:#fff;font-weight:bold;">ニチレイの不凍たんぱく質</dt>
+<dd class="noSP" style="color:#fff;">ニチレイの不凍たんぱく質についてご紹介します。</dd>
+</dl>
+</a>
+<!-- / .columnBlock04 --></div>
+<!-- / .column4WrapA01 --></div>
+<!-- / #mainContentsC01 --></div>
+<!-- ===== /mainContents ====== -->
+
+<p class="backTop"><a href="#wrap">ページトップへ戻る</a></p>
+<!-- / #contentsSet --></div>
+<!-- ===== /contentsSet ====== -->
+
+<!-- ===== footer ====== -->
+<div id="footer">
+<div id="footerInner">
+<!-- siteCategory -->
+<div class="siteCategory">
+<ul class="corpo">
+<li><a href="/corpo/">企業情報</a>
+<ul>
+<li><a href="/corpo/about.html">ニチレイってこんな会社</a></li>
+<li><a href="/corpo/management/">経営の考え方</a></li>
+<li><a href="/corpo/strategy/">経営戦略</a></li>
+<li><a href="/corpo/outline/">会社概要</a></li>
+<li><a href="http://as.chizumaru.com/nichirei/k/top?accmd=0">地図情報</a></li>
+</ul>
+</li>
+</ul>
+<ul class="safety">
+<li><a href="/safety/">食品の安全・信頼</a>
+<ul>
+<!--<li><a href="/safety/network.html">「おいしさ」と「新鮮」を<br>ネットワークする。</a></li>-->
+<li><a href="/safety/concept/">『安全・信頼』についての考え方</a></li>
+<li><a href="/safety/action/">主な取り組み</a></li>
+<li><a href="/safety/system.html">品質保証体制</a></li>
+<li><a href="/safety/subject.html">食品の安全・信頼に関する課題</a></li>
+<li><a href="/safety/special/package.html">商品パッケージを通じて伝える<br>ニチレイグループの品質保証</a></li>
+<!--<li><a href="/safety/special/factory.html">安全・安心を支える現場<br>ニチレイ工場　潜入レポート！</a></li>-->
+</ul>
+</li>
+</ul>
+<ul class="csr">
+<li><a href="/csr/">CSR・環境活動</a>
+<ul>
+<li><a href="/csr/topmessage.html">トップメッセージ</a></li>
+<li><a href="/csr/responsibility.html">ニチレイグループ<br>「ニチレイの約束」</a></li>
+<li><a href="/csr/environment/">環境への取り組み</a></li>
+<li><a href="/csr/social/">社会のために</a></li>
+<li><a href="/csr/work/">従業員のために</a></li>
+<li><a href="/csr/supplychain/">持続可能なサプライチェーンの構築</a></li>
+<li><a href="/csr/third.html">第三者意見</a></li>
+<li><a href="/csr/report/">CSRレポート</a></li>
+</ul>
+</li>
+</ul>
+<ul class="ir">
+<li><a href="/ir/">株主・投資家情報</a>
+<ul>
+<li><a href="/ir/message.html">株主・投資家の皆さまへ</a></li>
+<li><a href="/ir/news/">IRニュース</a></li>
+<li><a href="/ir/t_medium/">中期経営計画</a></li>
+<li><a href="/ir/message/">グループ構成</a></li>
+<li><a href="/ir/announce/">決算発表</a></li>
+<li><a href="/ir/financial/">業績・財務</a></li>
+<li><a href="/ir/library/">IRライブラリー</a></li>
+<li><a href="/ir/calendar/">IRカレンダー</a></li>
+</ul>
+</li>
+</ul>
+<ul class="otherCategory">
+<li><a href="/re/001.html">プレスリリース</a></li>
+<li><a href="/saiyo/">採用情報</a></li>
+<li><a href="/koras/">こおらす</a></li>
+<li><a href="/ir/koukoku/">電子公告</a></li>
+<li><a href="/mail/">メーリングサービス</a></li>
+</ul>
+</div>
+<!-- /siteCategory -->
+
+<ul id="groupCompany">
+<li><a href="/re/foods.html" target="_blank">ニチレイフーズ</a></li>
+<li><a href="/re/fresh.html" target="_blank">ニチレイフレッシュ</a></li>
+<li><a href="/re/logi.html" target="_blank">ニチレイロジグループ</a></li>
+<li><a href="http://www.nichirei.co.jp/bio/" target="_blank">ニチレイバイオサイエンス</a></li>
+</ul>
+
+<footer>
+<p id="footerMenu">
+<a href="/sitemap/">サイトマップ</a><span>｜</span>
+<a href="/info/terms.html">ウェブサイトのご利用にあたって</a><span>｜</span>
+<a href="/info/group-policy.html">プライバシーポリシー</a><span>｜</span>
+<a href="/info/sns-policy.html">ソーシャルメディアポリシー</a><span>｜</span>
+<a class="info" href="/inquire/">お問い合わせ</a>
+</p>
+<p id="copyright">Copyright (C) NICHIREI CORPORATION. All rights reserved.</p>
+</footer>
+</div>
+<script type="text/javascript" src="http://nichirei.dga.jp/common/js/search_tool.js"></script>
+</div>
+<!-- ===== /footer ====== -->
+
+<!-- ===== drawerMenu ====== -->
+<!-- drawerMenu [for top] -->
+
+<div id="drawer-menu">
+<div class="drawerMenu">
+<div class="drawerMenuInner01">
+<div class="titleBlock clearfix">
+<div class="Close">
+<p><a class="right-menu" href="#drawer-menu"><img src="/common/images/co_menu_close.png" alt="とじる"></a></p>
+<!-- / .Close --></div>
+<!-- / .titleBlock --></div>
+<!-- / .drawerMenuInner01 --></div>
+<div class="drawerMenuInner02">
+<div class="linkBlockB01">
+<ul class="clearfix">
+<li><a href="/corpo/">企業情報</a></li>
+<li class="even twoLine"><a href="/safety/">食品の安全・<br>信頼</a></li>
+<li class="twoLine"> <a href="/csr/">CSR・<br>環境活動</a></li>
+<li class="even twoLine"><a href="/ir/">株主・<br>投資家情報</a></li>
+<li class="twoLine"><a href="/re/001.html">プレス<br>リリース</a></li>
+<li class="even"><a href="/saiyo/">採用情報</a></li>
+<li><a href="/koras/"><span class="koras">こおらす</span></a></li>
+</ul>
+<!-- / .linkBlockB01 --></div>
+<!-- / .drawerMenuInner02 --></div>
+<div class="drawerMenuInner01">
+<p class="titleA02">ニチレイの事業会社</p>
+<div class="linkBlockB02">
+<ul class="clearfix">
+<li><a href="/re/foods.html" target="_blank">ニチレイフーズ</a></li>
+<li class="even twoLine"><a href="/re/fresh.html" target="_blank">ニチレイ<br>フレッシュ</a></li>
+<li class="twoLine"><a href="/re/logi.html" target="_blank">ニチレイ<br>ロジグループ</a></li>
+<li class="even twoLine"><a href="http://www.nichirei.co.jp/bio/" target="_blank">ニチレイ<br>バイオサイエンス</a></li>
+</ul>
+<!-- / .linkBlockB02 --></div>
+<div class="linkBlockD01 clearfix">
+<div class="Close">
+<p><a class="right-menu" href="#drawer-menu"><img src="/common/images/co_menu_close.png" alt="とじる"></a></p>
+<!-- / .Close --></div>
+<!-- / .linkBlockD01 --></div>
+<!-- / .drawerMenuInner01 --></div>
+<!-- / .drawerMenu --></div>
+<!-- / #drawer-menu --></div>
+
+<!-- ===== /drawerMenu ===== -->
+
+<!-- / #wrap --></div>
+
+<!-- ===== ga ====== -->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-37033709-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script');
+    ga.type ='text/javascript';
+    ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' :'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<!-- ===== /ga ====== -->
+</body>
+</html>

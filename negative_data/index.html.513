@@ -1,0 +1,220 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>株式会社パイオン</title>
+
+<link rel="stylesheet" type="text/css" href="css/main.css" />
+<link rel="stylesheet" type="text/css" href="css/sub.css" />  
+<link rel="stylesheet" href="css/colorbox.css" />
+<link rel="stylesheet" type="text/css" href="css/flexslider.css" />
+<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="js/footerFixed.js"></script>
+<script type="text/javascript" src="js/jquery.cookie.js"></script>
+<script type="text/javascript" src="js/font-Size.js"></script>
+<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+<script type="text/javascript" src="js/jquery.colorbox.js"></script>
+
+<script type="text/javascript">
+// Can also be used with $(document).ready()
+$(window).load(function() {
+  $('.flexslider').flexslider({
+    animation: "fade"
+  });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+	$(".clBox").colorbox({iframe:true, width:"740px", height:"980px"});
+});
+</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-49605975-1', 'pion.co.jp');
+  ga('send', 'pageview');
+
+</script>
+<style>
+#fontSize{ position:relative; right:-323px; z-index:2;}
+#fontSize li { margin-left:-6px;}
+.search { padding-top:6px; width:200px; position:relative; right:-8px;  }
+
+#cse-search-box {
+    width: 200px !important;
+    float: right;
+    margin-top: 0px;
+    margin-right: 0px;
+	
+}
+#cse-search-box table.gsc-search-box td.gsc-input {
+    padding: 0 !important;
+}
+#cse-search-box input[type="text"] {
+    height: 28px;
+    padding: 0 !important;
+    width: 160px;
+    float: left;
+    margin-left: 0px;
+}
+#cse-search-box input[type="submit"] {
+    background-color: #eeeeee;
+    border: 1px solid #eeeeee;
+    color: #FFFFFF;
+    float: right;
+    height: 28px;
+    margin-left: 0 !important;
+    width: 30px;
+}
+#cse-search-box input[type="submit"] {
+    background-color: #eeeeee;
+    border: 1px solid #eeeeee;
+    color: #FFFFFF;
+    float: right;
+    height: 28px;
+    margin-left: 0 !important;
+    width: 31px;
+}
+</style>
+</head>
+
+<body>
+
+<div id="headerbg">
+<div id="header">
+<a href="../index.html"><img src="img/logo.jpg" /></a>
+<div class="inner">
+ <div class="fontsize"><ul id="fontSize">
+      <li><img src="img/fonttitle.jpg" alt="文字サイズ"></li>
+	<li><img class="changeBtn" src="img/small.jpg" alt="小"></li>
+	<li><img class="changeBtn" src="img/middle.jpg" alt="中"></li>
+	<li><img class="changeBtn" src="img/big.jpg" alt="大"></li>
+</ul>
+</div>
+<hr class="clear">
+      <ul><li><a href="aboutuse.html"><img src="img/header_01.jpg" /></a></li><li><a class="clBox" href="sitemap.html"><img src="img/header_02.jpg"  /></a></li></ul>
+      
+      
+<div class="search">
+
+<div id="search-box">
+<form action="http://www.google.com/cse" id="cse-search-box">
+<div>
+<input type="hidden" name="cx" value="013656195254100269994:0twky52t8ae" />
+<input type="hidden" name="ie" value="Shift_JIS" />
+<input type="text"  name="q" />
+<input type="image" src="img/botton.jpg" width="31" height="30" alt="Search" title="Search" />
+</div>
+</form>
+</div>
+<script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=cse-search-box&amp;lang=ja"></script>
+
+
+</div>
+    </div><!--  inner  -->
+</div><!--   header*end   -->
+</div><!--   headerbg*end   -->
+ 
+<div id="navibg">
+<div id="navi">
+<ul>
+  <li class="menu2"><a href="jigyou.html">事業案内</a></li>
+  <li class="menu3"><a href="company.html">会社案内</a></li>
+  <li class="menu5"><a href="http://www.pion.co.jp/recruit/index.html">採用情報</a></li>
+  <li class="menu6"><a href="contact.html">お問い合わせ</a></li>
+</ul>
+</div><!--   navi*end   -->
+</div><!--   navibg*end   -->
+ 
+<div id="mvbg">
+<div id="mv">
+
+<div id="mv_left">
+
+<div class="flexslider">
+      <ul class="slides">
+        <li>
+          <a href="https://www.haluene.co.jp/about/" target="_blank"><img src="img/mv_04.png" /></a>
+        </li>
+        <li>
+          <a href="http://www.houjinkeitai.com/" target="_blank"><img src="img/mv_02.png" /></a>
+        </li>
+      
+      </ul>
+</div>
+
+</div> 
+<!--   mv_left*end   -->
+<div id="mv_right">
+
+<div class="right_v2"><a href="company.html"><img src="img/joboffer2.png" /></a></div>
+
+</div><!--   mv*end   -->
+</div><!--   mvbg*end   -->
+
+
+</div>
+
+<div id="container">
+<div id="changeArea">
+  <div class="topmain_left">
+
+<div class="banner"> 
+   <p><a href="http://www.houjinkeitai.com/" target="_blank"><img src="img/banner_01.jpg" alt="法人のお客様" /></a></p>
+   <p><a href="http://expo-contents.jp/" target="_blank"><img src="img/banner_02.jpg" alt="EXPO" /></a></p>
+</div><!--  topmain_left  -->
+
+</div>
+</div>
+</div>
+
+<hr class="clear" />
+
+<div id="footerbg">
+<div id="footer">
+
+<ul>
+<li><a href="jigyou.html">事業案内</a></li>
+</ul>
+
+<ul>
+<li><a href="company.html">会社案内</a></li>
+<li class="footlink2"><a href="conpany_info.html">会社概要</a></li>
+<li class="footlink2"><a href="greeting.html">ご挨拶</a></li>
+<li class="footlink2"><a href="rinen.html">理念</a></li>
+<li class="footlink2"><a href="office.html">事業所</a></li>
+<li class="footlink2"><a href="group.html">パイオングループ</a></li></ul>
+
+<ul>
+<li><a href="http://www.pion.co.jp/recruit/index.html">採用情報</a></li>
+</ul>
+
+<ul class="lastlink">
+<li><a href="contact.html">お問い合わせ</a></li>
+<li class="footlink2"><a href="privacypolicy.html">個人情報保護について</a></li>
+<li class="footlink2"><a href="privacystatement.html">プライバシーステートメント</a></li>
+</ul>
+<hr class="clear" />
+<div class="copyright">
+  <p class="footlogo"><img src="img/ftlogo.jpg" ></p>
+<ol>
+  <li><a href="privacystatement.html">プライバシーステートメント</a></li>
+  <li><a href="privacypolicy.html">個人情報保護方針</a></li></ol>
+  <hr class="clear" />
+<p class="copy">Copyright (C)PION Co., Ltd.All Rights Reserved. Page</p></div>
+
+
+</div><!--   footer*end   -->
+</div><!--   footerbg*end   -->
+
+
+
+
+</body>
+</html>

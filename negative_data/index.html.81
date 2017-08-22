@@ -1,0 +1,370 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<!--[if IE]>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<![endif]-->
+<title>飛島建設</title>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<link rel="stylesheet" href="/shared/css/tag.css">
+<link rel="stylesheet" href="/shared/css/layout.css">
+<link rel="stylesheet" href="/shared/css/contents.css">
+<link rel="stylesheet" href="/shared/css/module.css">
+<link rel="stylesheet" href="/shared/css/icon.css">
+<link rel="stylesheet" href="/shared/css/slick.css">
+<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+<script src="/shared/js/jquery.js"></script>
+<script src="/shared/js/function.js"></script>
+<script src="/shared/js/analytics_tag.js"></script>
+</head>
+<body class="alternate">
+<div class="container">
+	<!-- main visual -->
+	<div>
+		<ul class="slider">
+			<li>
+				<img src="/shared/img/slider/slide01.jpg" alt="GO FOR THE NEXT 飛島は次の未来へ">
+				<a class="btn_white_slide" href="/new_business/">DETAIL</a>
+			</li>
+			<li>
+				<img src="/shared/img/slider/slide02.jpg" alt="TOBISHIMA TECHNOLOGY 飛島の技術">
+				<a class="btn_white_slide" href="/technology/">DETAIL</a>
+			</li>
+			<li>
+				<img src="/shared/img/slider/slide03.jpg" alt="CHALLENGING FOR THE FUTURE. 防災のトビシマ">
+				<a class="btn_white_slide" href="/bousai/">DETAIL</a>
+			</li>
+		</ul>
+	</div>
+	<!-- /main visual -->
+
+	<!-- header -->
+	<header id="header_index"><h1><a href="/"><img src="/shared/img/header_logo.png" alt="飛島建設"></a></h1></header>
+	<!-- menu -->
+	<nav id="menu">
+		<ul class="menu_wrap_list">
+			<li id="list_search">
+				<div id="srchBox">
+					<form action="https://custom.search.yahoo.co.jp/search" method="get" id="srch">
+						<p id="srchForm" class="clearfix">
+							<input type="text" name="p" id="srchInput" placeholder="サイト内検索"><input type="submit" value="検索" id="srchBtn">
+							<input type="hidden" id="fr" name="fr" value="cse">
+							<input type="hidden" id="ei" name="ei" value="UTF-8">
+							<input type="hidden" id="csid" name="csid" value="SfSDEaB6boQWPyofEt43UFSHoYpaZ4xx1Ee4NqcqvA--">
+						</p>
+						<input type="hidden" name="vs" value="www.tobishima.co.jp" id="yjInsite">
+					</form>
+					<p id="srchLogo"><a href="https://www.yahoo.co.jp">powered by Yahoo! JAPAN</a></p>
+					<img src="https://custom.search.yahoo.co.jp/images/window/SfSDEaB6boQWPyofEt43UFSHoYpaZ4xx1Ee4NqcqvA--.gif" alt="">
+				</div>
+			</li>
+			<li class="menu_wrap_list_item"><a href="/company/">COMPANY<span>会社案内</span></a></li>
+			<li class="menu_wrap_list_item"><a href="/ir/">INVESTOR RELATIONS<span>株主・投資家のみなさまへ</span></a></li>
+			<li class="menu_wrap_list_item"><a href="/people/">PEOPLE<span>採用情報</span></a></li>
+			<li class="menu_wrap_list_item"><a href="/csr/">CSR<span>CSR活動</span></a></li>
+			<li class="menu_wrap_list_item"><a href="/result/">RESULTS<span>施工実績</span></a></li>
+			<li class="menu_wrap_list_item"><a href="/technology/">TECHNOLOGY<span>飛島の技術</span></a></li>
+			<li class="menu_wrap_list_item"><a href="/bousai/">CHALLENGE FOR THE FUTURE<span>防災のトビシマ</span></a></li>
+			<li class="menu_wrap_list_item"><a href="/solution/">SOLUTIONS<span>リニューアル/ソリューション</span></a></li>
+			<li class="menu_wrap_list_item"><a href="/laboratory/">LABORATORY<span>技術研究所</span></a></li>
+			<li class="menu_wrap_list_item"><a href="/cgi-bin/inquiry.php">INQUIRY<span>お問い合わせ</span></a></li>
+		</ul>
+	</nav>
+	<a id="menu_btn" class="js_menu"><span><img class="btn_open" src="/shared/img/btn_menu.png" alt="OPEN"><img class="btn_close" src="/shared/img/btn_menu_close.png" alt="CLOSE"></span></a>
+	<!-- /menu -->
+	<!-- /header -->
+
+	<!-- news -->
+	<section class="newsBox">
+		<h2 class="news_head"><span class="icon_font icon-topics"></span>PRESS RELEASE</h2>
+		<span class="news_head_sub">最新情報</span>
+		<dl class="news_list">
+			<dt><time datetime="2017-08-10">2017年8月10日</time> <span class="news_list_icon">IR</span></dt>
+			<dd><a class="link_pdf" href="/ir/lib/securities_report/pdf/report_20170810.pdf" target="_blank">第75期第1四半期報告書（平成29年4月1日～平成29年6月30日）を掲載</a></dd>
+			<dt><time datetime="2017-08-10">2017年8月10日</time> <span class="news_list_icon">IR</span></dt>
+			<dd><a class="link_pdf" href="/ir/lib/pdf/analyst_20170810.pdf" target="_blank">「決算説明資料」＜2017年6月期＞更新</a></dd>
+			<dt><time datetime="2017-08-10">2017年8月10日</time> <span class="news_list_icon">IR</span></dt>
+			<dd><a class="link_pdf" href="/ir/lib/financial_results/pdf/results_20170810.pdf" target="_blank">平成30年3月期　第1四半期決算短信</a></dd>
+		</dl>
+		<p class="news_list_more"><a href="/press_release/"><span>MORE</span></a></p>
+	</section>
+	<!-- /news -->
+
+	<div class="top_maincont bg_gray">
+		<!-- concirge -->
+		<a href="/concirge/">
+			<div class="rightupBox rightupBox_top">
+				<img src="/shared/img/top/img_concirge.jpg" alt="" class="rightup_img">
+				<div class="leftrightup_titleBox rightup_title">
+					<section class="rightup_inner">
+						<h2 class="head"><span class="icon_font icon-concirge"></span>TOBISHIMA<br>CONCIERGE</h2>
+						<span class="head_sub">建設コンシェルジュ</span>
+						<p class="btn_default btn_lightgray btn_plus">DETAIL</p>
+					</section>
+				</div>
+			</div>
+		</a>
+		<!-- /concirge -->
+		<!-- new business -->
+		<a href="/new_business/">
+			<div class="leftupBox leftupBox_top">
+				<img src="/shared/img/top/img_contractor.jpg" alt="" class="leftup_img">
+				<div id="midcont" class="leftrightup_titleBox leftup_title">
+					<section class="leftup_inner">
+						<h2 class="head"><span class="icon_font icon-contractor"></span>NEW BUSINESS<br>CONTRACTOR</h2>
+						<span class="head_sub">飛島の新事業</span>
+						<p class="btn_default btn_lightgray btn_plus">DETAIL</p>
+					</section>
+				</div>
+			</div>
+		</a>
+		<!-- /new business -->
+		<!-- ir -->
+		<a href="/ir/">
+			<div class="rightupBox rightupBox_top rightupBox_last">
+				<img src="/shared/img/top/img_investor.jpg" alt="" class="rightup_img">
+				<div class="leftrightup_titleBox rightup_title">
+					<section class="rightup_inner">
+						<h2 class="head"><span class="icon_font icon-investor"></span>INVESTOR<br>RELATIONS</h2>
+						<span class="head_sub">株主・投資家のみなさまへ</span>
+						<p class="btn_default btn_lightgray btn_plus">DETAIL</p>
+					</section>
+				</div>
+			</div>
+		</a>
+		<!-- /ir -->
+	</div>
+
+	<div class="bottomcont">
+		<ul class="colum3 clearfix">
+			<li class="colum3_item">
+				<a class="inner" href="/result/">
+					<div>
+						<h2><span class="icon_font icon-result"></span>RESULTS</h2>
+						<span>施工実績</span>
+						<p class="btn_default btn_white btn_plus">DETAIL</p>
+					</div>
+					<img src="/shared/img/top/img_result.jpg" alt="">
+				</a>
+			</li>
+			<li class="colum3_item">
+				<a class="inner" href="/technology/">
+					<div>
+						<h2><span class="icon_font icon-technology"></span>TECHNOLOGY</h2>
+						<span>飛島の技術</span>
+						<p class="btn_default btn_white btn_plus">DETAIL</p>
+					</div>
+					<img src="/shared/img/top/img_technology.jpg" alt="">
+				</a>
+			</li>
+			<li class="colum3_item">
+				<a class="inner" href="/solution/">
+					<div>
+						<h2><span class="icon_font icon-solutions"></span>SOLUTIONS</h2>
+						<span>リニューアル/ソリューション</span>
+						<p class="btn_default btn_white btn_plus">DETAIL</p>
+					</div>
+					<img src="/shared/img/top/img_solutions.jpg" alt="">
+				</a>
+			</li>
+			<li class="colum3_item">
+				<a class="inner" href="/special_antarctic/">
+					<div>
+						<h2><span class="icon_font icon-antarctic"></span>ANTARCTIC</h2>
+						<span>南極活動</span>
+						<p class="btn_default btn_white btn_plus">DETAIL</p>
+					</div>
+					<img src="/shared/img/top/img_antarctic.jpg" alt="">
+				</a>
+			</li>
+			<li class="colum3_item">
+				<a class="inner" href="/laboratory/">
+					<div>
+						<h2><span class="icon_font icon-laboratory"></span>LABORATORY</h2>
+						<span>技術研究所</span>
+						<p class="btn_default btn_white btn_plus">DETAIL</p>
+					</div>
+					<img src="/shared/img/top/img_laboratory.jpg" alt="">
+				</a>
+			</li>
+			<li class="colum3_item">
+				<a class="inner" href="/people/">
+					<div>
+						<h2><span class="icon_font icon-people"></span>PEOPLE</h2>
+						<span>採用情報</span>
+						<p class="btn_default btn_white btn_plus">DETAIL</p>
+					</div>
+					<img src="/shared/img/top/img_people.jpg" alt="">
+				</a>
+			</li>
+		</ul>
+	</div>
+
+	<!-- footer -->
+	<footer>
+		<ul>
+			<li class="footer_wrapper_column">
+				<h3 class="footer_columntitle mode_pc"><a href="/company/">COMPANY<span class="icon_sp">SP</span><span>会社案内</span></a></h3>
+				<h3 class="footer_columntitle mode_sp">COMPANY<span>会社案内</span></h3>
+				<ul class="footer_link">
+					<li><a href="/company/">会社案内TOP<span class="icon_sp_s">SP</span></a></li>
+					<li><a href="/company/outline.html">会社概要</a></li>
+					<li><a href="/company/organization.html">会社機構</a></li>
+					<li><a href="/company/philosophy.html">経営理念</a></li>
+					<li><a href="/company/vision.html">経営ビジョン</a></li>
+					<li><a href="/company/#com_history">飛島の歴史</a></li>
+					<li><a href="/company/#com_access">アクセス</a></li>
+				</ul>
+			</li>
+			<li class="footer_wrapper_column footer_col2">
+				<h3 class="footer_columntitle mode_pc"><a href="/ir/">INVESTOR RELATIONS<span class="icon_sp">SP</span><span>株主・投資家のみなさまへ</span></a></h3>
+				<h3 class="footer_columntitle mode_sp">INVESTOR RELATIONS<span>株主・投資家のみなさまへ</span></h3>
+				<ul class="footer_link">
+					<li><a href="/ir/">株主・投資家のみなさまへTOP<span class="icon_sp_s">SP</span></a></li>
+					<li><a href="/ir/message.html">社長メッセージ</a></li>
+					<li><a href="/ir/ir_news/">IRニュース</a></li>
+					<li><a href="/ir/#ir_library">IRライブラリ</a></li>
+					<li><a href="/ir/shareholders.html">株主総会<span class="icon_sp_s">SP</span></a></li>
+					<li><a href="/ir/public_notice/">公告</a></li>
+					<li><a href="/ir/schedule.html">IRスケジュール</a></li>
+					<li><a href="/ir/request_purchase.html">単元未満株式買取請求のご案内</a></li>
+					<li><a href="/ir/dividend.html">口座振込による配当金受取の案内</a></li>
+					<li><a href="/ir/account.html">株券電子化について</a></li>
+					<li><a href="/ir/faq.html">よくあるご質問</a></li>
+					<li><a href="/ir/procedure.html">株式事務のご案内</a></li>
+				</ul>
+			</li>
+			<li class="footer_wrapper_column">
+				<h3 class="footer_columntitle mode_pc"><a href="/people/">PEOPLE<span class="icon_sp">SP</span><span>採用情報</span></a></h3>
+				<h3 class="footer_columntitle mode_sp">PEOPLE<span>採用情報</span></h3>
+				<ul class="footer_link">
+					<li><a href="/people/">採用情報TOP<span class="icon_sp_s">SP</span></a></li>
+					<li><a href="https://www.tobishima.co.jp/recruit_134/index.html" target="_blank">新卒採用情報</a></li>
+					<li><a href="/people/recruit_career.html">キャリア採用情報</a></li>
+					<li><a href="/people/recruit_handicap.html" target="_blank">障がい者採用情報</a></li>
+					<li><a href="/people/#peo_energy">young energy 先輩の声紹介</a></li>
+					<li><a href="/people/2017_greeting.html">平成29年度 入社式社長挨拶</a></li>
+				</ul>
+			</li>
+			<li class="footer_wrapper_column">
+				<h3 class="footer_columntitle mode_pc"><a href="/csr/">CSR<span class="icon_sp">SP</span><span>CSR活動</span></a></h3>
+				<h3 class="footer_columntitle mode_sp">CSR<span>CSR活動</span></h3>
+				<ul class="footer_link">
+					<li><a href="/csr/">CSR活動TOP<span class="icon_sp_s">SP</span></a></li>
+					<li><a href="/csr/csr_report.html">社会貢献</a></li>
+					<li><a href="/csr/#csr_contents">環境</a></li>
+					<li><a href="/csr/#csr_report">環境・社会活動レポート</a></li>
+				</ul>
+			</li>			
+		</ul>
+		<ul class="footer_wrapper">
+			<li>
+				<h3 class="footer_columntitle mode_pc"><a href="/result/">RESULTS<span class="icon_sp">SP</span><span>施工実績</span></a></h3>
+				<h3 class="footer_columntitle mode_sp">RESULTS<span>施工実績</span></h3>
+				<ul class="footer_link">
+					<li><a href="/result/">施工実績TOP<span class="icon_sp_s">SP</span></a></li>
+					<li><a href="/result/#res_civil">土木</a></li>
+					<li><a href="/result/#res_architecture">建築</a></li>
+					<li><a href="/result/#res_international">国際</a></li>
+					<li><a href="/project/">プロジェクト紹介</a></li>
+				</ul>
+			</li>
+			<li>
+				<h3 class="footer_columntitle mode_pc"><a href="/technology/">TECHNOLOGY<span class="icon_sp">SP</span><span>飛島の技術</span></a></h3>
+				<h3 class="footer_columntitle mode_sp">TECHNOLOGY<span>飛島の技術</span></h3>
+				<ul class="footer_link">
+					<li><a href="/technology/">飛島の技術TOP<span class="icon_sp_s">SP</span></a></li>
+					<li><a href="/technology/#tec_civil">土木</a></li>
+					<li><a href="/technology/#tec_architecture">建築</a></li>
+					<li><a href="/technology/#tec_environment">環境</a></li>
+					<li><a href="/technology/#tec_general">共通</a></li>
+				</ul>
+			</li>
+			<li>
+				<h3 class="footer_columntitle mode_pc"><a href="/bousai/">CHALLENGING FOR THE FUTURE<span class="icon_sp">SP</span><span>防災のトビシマ</span></a></h3>
+				<h3 class="footer_columntitle mode_sp">CHALLENGING FOR THE FUTURE<span>防災のトビシマ</span></h3>
+				<ul class="footer_link">
+					<li><a href="/bousai/">トビシマの防災TOP<span class="icon_sp_s">SP</span></a></li>
+                    <li><a href="/bousai/">防災ブランディング事業</a></li>
+					<li><a href="/bousai/#bousai_cycle">トビシマの防災サイクル</a></li>
+					<li><a href="/bousai/#bousai_tec">トビシマの防災技術</a></li>
+					<li><a href="/bousai/social_hilite.html">地震復興活動</a></li>
+				</ul>
+			</li>
+			<li>
+				<h3 class="footer_columntitle mode_pc"><a href="/solution/">SOLUTIONS<span class="icon_sp">SP</span><span>リニューアル/ソリューション</span></a></h3>
+				<h3 class="footer_columntitle mode_sp">SOLUTIONS<span>リニューアル/ソリューション</span></h3>
+				<ul class="footer_link">
+					<li><a href="/solution/">リニューアル/ソリューションTOP<span class="icon_sp_s">SP</span></a></li>
+					<li><a href="/solution/#sol_civil">土木リニューアル</a></li>
+					<li><a href="/solution/#sol_architecture">建築リニューアル</a></li>
+					<li><a href="/solution/mplus/">エムプラス</a></li>
+					<li><a href="/solution/real-estate/">不動産ソリューション</a></li>
+					<li><a href="/solution/toggle/">耐震ソリューション</a></li>
+					<li><a href="/solution/medical/">医療・福祉ソリューション</a></li>
+					<li><a href="/solution/#sol_environment">環境ソリューション</a></li>
+				</ul>
+			</li>
+			<li class="footer_wrapper_column">
+				<h3 class="footer_columntitle mode_pc"><a href="/laboratory/">LABORATORY<span class="icon_sp">SP</span><span>技術研究所</span></a></h3>
+				<h3 class="footer_columntitle mode_sp">LABORATORY<span>技術研究所</span></h3>
+				<ul class="footer_link">
+					<li><a href="/laboratory/">技術研究所TOP<span class="icon_sp_s">SP</span></a></li>
+					<li><a href="/laboratory/#lab_tour">技術研究所ツアー</a></li>
+					<li><a href="/laboratory/organization/index.html">組織・コンプライアンスの推進</a></li>
+					<li><a href="/laboratory/technique/index.html">技報</a></li>
+				</ul>
+				<h3 class="footer_columntitle mode_pc brdt"><a href="/cgi-bin/inquiry.php">INQUIRY<span class="icon_sp">SP</span><span>お問い合わせ</span></a></h3>
+				<h3 class="footer_columntitle mode_sp">INQUIRY<span>お問い合わせ</span></h3>
+				<ul class="footer_link">
+					<li><a href="/cgi-bin/inquiry.php">お問い合わせTOP<span class="icon_sp_s">SP</span></a></li>
+					<li><a href="/inquiry/service.html">お客様建物サポートセンター</a></li>
+				</ul>
+			</li>
+		</ul>
+		<div class="footer_sub">
+			<p><span class="icon_font icon-download"></span>DOWNLOAD</p>
+			<ul>
+				<li><a href="/download/client.html">取引先登録関係</a></li>
+				<li><a href="/download/invoice.html">指定請求書</a></li>
+			</ul>
+			<ul class="footer_sub_link_right">
+			<li><a href="/english/">ENGLISH</a></li>
+				<li><a href="/press_release/">プレスリリース</a></li>
+				<li><a href="/privacy/greensite.html">グリーンサイト</a></li>
+				<li><a href="/ir/public_notice/">電子公告</a></li>
+				<li><a href="/privacy/">プライバシーポリシー</a></li>
+				<li><a href="/sitemap/">サイトマップ</a></li>
+			</ul>
+		</div>
+		<div class="footer_copyrights">
+			<p><a href="/"><img src="/shared/img/footer_logo.png" alt="飛島建設"></a></p>
+			<small>Copyright &copy; Tobishima Corporation All rights reserved.</small>
+		</div>
+		<a href="#" class="goTop hidden"><img src="/shared/img/ico_pageTop.png" alt="ページの先頭へ"></a>
+	</footer>
+	<!-- /footer -->
+</div>
+<script type="text/javascript" src="/shared/js/slick.js"></script>
+<script type="text/javascript">
+$(function() {
+	$('.slider').slick({
+		infinite: true,
+		slidesToShow: 1,
+		centerMode: true,
+		centerPadding: '0',
+		autoplay: true,
+		autoplaySpeed: 3000,
+		pauseOnHover: false,
+		responsive: [{
+			breakpoint: 767,
+			settings: {
+				centerMode: false,
+			}
+		}]
+	});
+});
+</script>
+</body>
+</html>

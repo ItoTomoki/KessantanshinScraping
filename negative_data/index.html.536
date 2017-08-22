@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>JCコムサ  </title>
+<meta name="keywords" content="ピザ,エスニックブレッド,外食,中食,宅配,ハーベスター・八雲,デルソーレ,ジェーシー・コムサ" lang="ja">
+<meta name="description" content="食と通して人と社会を豊かに～ピザ、エスニックブレッド、外食・中食事業、宅配事業のジェーシー・コムサ" lang="ja">
+<meta name="rating" content="general">
+<meta name="author" content="">
+<meta name="copyright" content="">
+<meta name="robots" content="ALL">
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="cache-control" content="no-cache">
+<link rel="shortcut icon" href="/wp-content/themes/jccomsa/favicon.ico">
+
+<!-- PC・スマホ兼用 -->
+<link rel="stylesheet" type="text/css" href="/wp-content/themes/jccomsa/style.css" />
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="/wp-content/themes/jccomsa/js/jquery.flatheights.js"></script>
+
+<!-- PCのみ -->
+<script src="/wp-content/themes/jccomsa/js/pc.js"></script>
+
+<!-- PCかつTOPページのみ TOPページスライド -->
+<link rel="stylesheet" href="/wp-content/themes/jccomsa/css/slick.css" type="text/css">
+<link rel="stylesheet" href="/wp-content/themes/jccomsa/css/slide.css" type="text/css">
+<script type="text/javascript" src="/wp-content/themes/jccomsa/js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="/wp-content/themes/jccomsa/js/slick.js"></script>
+<script>
+$(document).ready(function(){
+    $('.keyv').slick({
+        autoplay: true,
+        autoplaySpeed: 6000,
+        dots: true,
+        centerMode: true,
+        centerPadding: '0px',
+        draggable: false,
+        easing: 'easeInOutQuad',
+        speed: 800,
+        useCSS: false,
+        slidesToShow: 1,
+        slidesToScroll: 1
+    });
+
+    var slideWidth = $('.keyv .slick-track').width();
+
+    $('.ovL, .ovR').width(slideWidth);
+
+    $('.slidePrev').on('click', function(){
+        $('.keyv .slick-prev').trigger('click');
+    });
+
+    $('.slideNext').on('click', function(){
+        $('.keyv .slick-next').trigger('click');
+    });
+});
+</script>
+
+
+
+
+<!-- Google Analytics -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-39190539-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</head>
+
+<body>
+
+<div id="header-area">
+<div id="header">
+
+<div id="logo-corp">
+<a href="/"><img src="/wp-content/themes/jccomsa/img/site-logo.gif" alt="ジェーシー・コムサ" /></a>
+</div>
+
+<!--英語以外-->
+<div id="nav-util" class="nav-utility">
+<ul>
+<li><a href="/contact/"><i class="fa fa-angle-right fa-fw"></i>お問い合わせ</a></li>
+<li><a href="/privacy/"><i class="fa fa-angle-right fa-fw"></i>プライバシーポリシー</a></li>
+<li><a href="/sitemap/"><i class="fa fa-angle-right fa-fw"></i>サイトマップ</a></li>
+<li><a href="/en/"><i class="fa fa-angle-right fa-fw"></i>English</a></li>
+</ul>
+</div>
+
+
+<div id="nav-search-push"><i class="fa fa-search"></i></div>
+<div id="nav-search">
+<form role="search" method="get" id="searchform" class="searchform" action="/">
+				<div>
+					<label class="screen-reader-text" for="s">検索:</label>
+					<input type="text" value="" name="s" id="s" />
+					<input type="submit" id="searchsubmit" value="検索" />
+				</div>
+			</form></div>
+
+<div id="gnav-push"><i class="fa fa-bars"></i></div>
+
+<div id="gnav">
+<ul>
+<li id="gnav01" class="gnav01"><a href="/service/"><i class="fa fa-book fa-lg fa-fw"></i>事業内容</a><span class="tgl"><i class="fa fa-angle-down"></i></span>
+<ul>
+<li><a href="http://delsole-komugigohan.jp/" target="_blank">製造</a></li>
+<li><a href="/brand/" target="_blank">外食・中食・宅配事業</a></li>
+<li><a href="/service/development/">事業開発</a></li>
+</ul>
+</li>
+<li id="gnav02" class="gnav02"><a href="/corporate/"><i class="fa fa-building-o fa-lg fa-fw"></i>企業概要</a><span class="tgl"><i class="fa fa-angle-down"></i></span>
+<ul>
+<li><a href="/corporate/mission/">MISSION</a></li>
+<li><a href="/corporate/greeting/">ご挨拶</a></li>
+<li><a href="/corporate/outline/">会社情報</a></li>
+<li><a href="/corporate/history/">沿革</a></li>
+<li><a href="/corporate/safety/">安全・安心への取組み</a></li>
+</ul>
+</li>
+<li id="gnav03" class="gnav03"><a href="/ir/"><i class="fa fa-line-chart fa-lg fa-fw"></i>投資家情報</a><span class="tgl"><i class="fa fa-angle-down"></i></span>
+<ul>
+<li><a href="/ir/zaimu/">決算短信</a></li>
+<li><a href="/ir/kaiji/">適時開示等</a></li>
+<li><a href="/ir/koukoku/">電子広告</a></li>
+<li><a href="/ir/cal/">IRカレンダー</a></li>
+</ul>
+</li>
+<li id="gnav04" class="gnav04"><a href="/csr/"><i class="fa fa-book fa-lg fa-fw"></i>CSR</a><span class="tgl"><i class="fa fa-angle-down"></i></span>
+<ul>
+<li><a href="/csr/">ほのぼの運動</a></li>
+<li><a href="/csr/">東日本大震災に対する支援</a></li>
+<li><a href="/csr/">わすれな草プロジェクト</a></li>
+</ul>
+</li>
+<li id="gnav05" class="gnav05"><a href="/recruit/"><i class="fa fa-users fa-lg fa-fw"></i>採用情報</a><span class="tgl"><i class="fa fa-angle-down"></i></span>
+<ul>
+<li><a href="/recruit/graduate/">新卒者採用情報</a></li>
+<li><a href="/recruit/career/">キャリア採用情報</a></li>
+<li><a href="/recruit/partner/">アルバイト募集情報</a></li>
+</ul>
+</li>
+<li id="gnav06" class="gnav06"><a href="/contact/"><i class="fa fa-envelope-o fa-lg fa-fw"></i>お問い合わせ</a></li>
+<li id="gnav07" class="gnav07"><a href="/privacy/"><i class="fa fa-lock fa-lg fa-fw"></i>プライバシーポリシー</a></li>
+<li id="gnav08" class="gnav08"><a href="/sitemap/"><i class="fa fa-sitemap fa-lg fa-fw"></i>サイトマップ</a></li>
+<li id="gnav09" class="gnav09"><a href="/en/"><i class="fa fa-globe fa-lg fa-fw"></i>English</a></li>
+</ul>
+</div><!-- END_gnav -->
+</div><!-- END_header -->
+
+<!-- gnav-dropdown-areaはPCのみ -->
+<div id="gnav-dropdown-area">
+<div id="gnav-dropdown">
+<ul>
+<li id="gdm01">
+<div class="gnav-dropdown-hd">
+<h3>事業内容</h3>
+<a href="/service/" class="btn btn-gdm-top"><i class="fa fa-angle-right fa-fw"></i>事業内容トップ</a>
+<img src="/wp-content/themes/jccomsa/img/icon-close.gif" alt="閉じる" class="icon-close" />
+</div>
+<div class="row">
+<div class="col4 thumb">
+<a href="http://delsole-komugigohan.jp/" target="_blank">
+<div class="thumb-img">
+<img src="/wp-content/themes/jccomsa/img/service-img01.jpg" alt="製造" class="img-responsive">
+</div>
+<div class="thumb-body">
+<p class="thumb-hd">製造&nbsp;<i class="fa fa-external-link fa-fw"></i></p>
+</div>
+</a>
+</div>
+<div class="col4 thumb">
+<a href="/brand/" target="_blank">
+<div class="thumb-img">
+<img src="/wp-content/themes/jccomsa/img/service-img02.jpg" alt="外食・中食・宅配事業" class="img-responsive">
+</div>
+<div class="thumb-body">
+<p class="thumb-hd">外食・中食・宅配事業&nbsp;<i class="fa fa-external-link fa-fw"></i></p>
+</div>
+</a>
+</div>
+<div class="col4 thumb">
+<a href="/service/development/">
+<div class="thumb-img">
+<img src="/wp-content/themes/jccomsa/img/service-img03.jpg" alt="事業開発" class="img-responsive">
+</div>
+<div class="thumb-body">
+<p class="thumb-hd">事業開発</p>
+</div>
+</a>
+</div>
+</div>
+</li>
+<li id="gdm02">
+<div class="gnav-dropdown-hd">
+<h3>企業概要</h3>
+<a href="/corporate/" class="btn btn-gdm-top"><i class="fa fa-angle-right fa-fw"></i>企業概要トップ</a>
+<img src="/wp-content/themes/jccomsa/img/icon-close.gif" alt="閉じる" class="icon-close" />
+</div>
+<div class="row">
+<div class="col6">
+<a href="/corporate/mission/">
+<div class="thumb">
+<div class="thumb-img">
+<img src="/wp-content/themes/jccomsa/img/corporate-img01.jpg" alt="MISSION" class="img-responsive" />
+</div>
+<div class="thumb-body">
+<p class="thumb-hd"><i class="fa fa-angle-right fa-fw"></i>MISSION</p>
+<p class="thumb-tex">ジェーシー・コムサ及びジェーシー・コムサグループの経営基本方針、事業本部基本方針、行動指針、品質基本方針、社会貢献についてご紹介いたします。</p>
+</div>
+</div>
+</a>
+</div>
+<div class="col6">
+<div class="row">
+<div class="col6 thumb">
+<a href="/corporate/greeting/">
+<div class="thumb-img">
+<img src="/wp-content/themes/jccomsa/img/corporate-img02.jpg" alt="ご挨拶" class="img-responsive" />
+</div>
+<div class="thumb-body">
+<p class="thumb-hd"><i class="fa fa-angle-right fa-fw"></i>ご挨拶</p>
+</div>
+</a>
+</div>
+<div class="col6 thumb">
+<a href="/corporate/outline/">
+<div class="thumb-img">
+<img src="/wp-content/themes/jccomsa/img/corporate-img03.jpg" alt="会社情報" class="img-responsive" />
+</div>
+<div class="thumb-body">
+<p class="thumb-hd"><i class="fa fa-angle-right fa-fw"></i>会社情報</p>
+</div>
+</a>
+</div>
+<div class="col6 thumb">
+<a href="/corporate/history/">
+<div class="thumb-img">
+<img src="/wp-content/themes/jccomsa/img/corporate-img04.jpg" alt="沿革" class="img-responsive" />
+</div>
+<div class="thumb-body">
+<p class="thumb-hd"><i class="fa fa-angle-right fa-fw"></i>沿革</p>
+</div>
+</a>
+</div>
+<div class="col6 thumb">
+<a href="/corporate/safety/">
+<div class="thumb-img"><img src="/wp-content/themes/jccomsa/img/corporate-img05.jpg" alt="安全・安心への取組み" class="img-responsive" /></div>
+<div class="thumb-body">
+<p class="thumb-hd"><i class="fa fa-angle-right fa-fw"></i>安全・安心への取組み</p>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li id="gdm03">
+<div class="gnav-dropdown-hd">
+<h3>投資家情報</h3>
+<a href="/ir/" class="btn btn-gdm-top"><i class="fa fa-angle-right fa-fw"></i>投資家情報トップ</a>
+<img src="/wp-content/themes/jccomsa/img/icon-close.gif" alt="閉じる" class="icon-close" />
+</div>
+<div class="row">
+<div class="col8 thumb">
+<a href="/ir/">
+<div class="thumb-img">
+</div>
+<div class="thumb-body">
+<p class="thumb-hd"><i class="fa fa-angle-right fa-fw"></i>投資家情報トップ</p>
+<p class="thumb-tex">決算短信、適時開示等、電子公告などの情報をご紹介します。</p>
+</div>
+</a>
+</div>
+<div class="col4">
+<a href="/ir/zaimu/"><i class="fa fa-angle-right fa-fw"></i>決算短信</a>
+<a href="/ir/kaiji/"><i class="fa fa-angle-right fa-fw"></i>適時開示等</a>
+<a href="/ir/koukoku/"><i class="fa fa-angle-right fa-fw"></i>電子公告</a>
+<a href="/ir/cal/"><i class="fa fa-angle-right fa-fw"></i>IRカレンダー</a>
+</div>
+</div>
+</li>
+<li id="gdm04">
+<div class="gnav-dropdown-hd">
+<h3>CSR</h3>
+<a href="/csr/" class="btn btn-gdm-top"><i class="fa fa-angle-right fa-fw"></i>CSRトップ</a>
+<img src="/wp-content/themes/jccomsa/img/icon-close.gif" alt="閉じる" class="icon-close" />
+</div>
+<div class="row">
+<div class="col4 thumb">
+<a href="/csr/">
+<div class="thumb-img">
+<img src="/wp-content/themes/jccomsa/img/csr-img01.jpg" alt="ほのぼの運動" class="img-responsive" />
+</div>
+<div class="thumb-body">
+<p class="thumb-hd"><i class="fa fa-angle-right fa-fw"></i>ほのぼの運動</p>
+</div>
+</a>
+</div>
+<div class="col4 thumb">
+<a href="/csr/">
+<div class="thumb-img">
+<img src="/wp-content/themes/jccomsa/img/csr-img02.jpg" alt="東日本大震災被災地に対する支援" class="img-responsive" />
+</div>
+<div class="thumb-body">
+<p class="thumb-hd"><i class="fa fa-angle-right fa-fw"></i>東日本大震災被災地に対する支援</p>
+</div>
+</a>
+</div>
+<div class="col4 thumb">
+<a href="/csr/">
+<div class="thumb-img">
+<img src="/wp-content/themes/jccomsa/img/csr-img03.jpg" alt="わすれな草プロジェクト" class="img-responsive" />
+</div>
+<div class="thumb-body">
+<p class="thumb-hd"><i class="fa fa-angle-right fa-fw"></i>わすれな草プロジェクト</p>
+</div>
+</a>
+</div>
+</div>
+</li>
+<li id="gdm05">
+<div class="gnav-dropdown-hd">
+<h3>採用情報</h3>
+<a href="/recruit/" class="btn btn-gdm-top"><i class="fa fa-angle-right fa-fw"></i>採用情報トップ</a>
+<img src="/wp-content/themes/jccomsa/img/icon-close.gif" alt="閉じる" class="icon-close" />
+</div>
+<div class="row">
+<div class="col4">
+<a href="/recruit/graduate/">
+<div class="thumb-img"><img src="/wp-content/themes/jccomsa/img/recruit-img01.jpg" alt="新卒者採用情報" class="img-responsive" /></div>
+<div class="thumb-body">
+<p class="thumb-hd"><i class="fa fa-angle-right fa-fw"></i>新卒者採用情報</p>
+</div>
+</a>
+</div>
+<div class="col4">
+<a href="/recruit/career/">
+<div class="thumb-img"><img src="/wp-content/themes/jccomsa/img/recruit-img02.jpg" alt="キャリア採用情報" class="img-responsive" /></div>
+<div class="thumb-body">
+<p class="thumb-hd"><i class="fa fa-angle-right fa-fw"></i>キャリア採用情報</p>
+</div>
+</a>
+</div>
+<div class="col4">
+<a href="/recruit/partner/">
+<div class="thumb-img"><img src="/wp-content/themes/jccomsa/img/recruit-img03.jpg" alt="アルバイト募集情報" class="img-responsive" /></div>
+<div class="thumb-body">
+<p class="thumb-hd"><i class="fa fa-angle-right fa-fw"></i>アルバイト募集情報</p>
+</div>
+</a>
+</div>
+</div>
+</li>
+</ul>
+</div><!-- END_gnav-dropdown -->
+</div><!-- END_gnav-dropdown-area -->
+</div><!-- END_header-area -->
+
+<!-- TOPページのみ -->
+<div id="keyv-area" class="keyv-area">
+<div id="keyv-bd" class="keyv-bd">
+<div id="keyv" class="keyv">
+<div class="top-slide01"><img src="/wp-content/themes/jccomsa/img/keyv-sp01.jpg" alt="おいしいで世界をつなぐ" class="sp-keyv-media" /></a></div>
+<div class="top-slide02"><img src="/wp-content/themes/jccomsa/img/keyv-sp02.jpg" alt="「世界のおいしいもので日本の食卓を豊かにしたい！」ジェーシー・コムサはこの想いで日本にはじめて冷凍ピザを紹介し日本のピザのパイオニアとして創業しました。" class="sp-keyv-media" /></div>
+<div class="top-slide03"><img src="/wp-content/themes/jccomsa/img/keyv-sp03.jpg" alt="そして、50年を迎えた今、日本のみならず世界へこのおいしい輪をお届けしたいと願っています。おいしいで世界をつなぐ、それがジェーシー・ーコムサの想いです。" class="sp-keyv-media" /></div>
+<div class="top-slide04"><img src="/wp-content/themes/jccomsa/img/keyv-sp04.jpg" alt="我々の事業の中心は、人と人のつながりであり、食を通じてお客さまに満足と幸せを提供します。" class="sp-keyv-media" /></div>
+<div class="top-slide05"><img src="/wp-content/themes/jccomsa/img/keyv-sp05.jpg" alt="我々の事業の中心は、人と人のつながりであり、食を通じてお客さまに満足と幸せを提供します。" class="sp-keyv-media" /></div>
+<div class="top-slide06"><img src="/wp-content/themes/jccomsa/img/keyv-sp06.jpg" alt="それがピープルビジネスの原点であり、我々は、人を中心とした「人のプロ集団」を目指します。" class="sp-keyv-media" /></div>
+</div>
+<div class="slidePrev"><i class="fa fa-angle-left fa-fw"></i></div>
+<div class="slideNext"><i class="fa fa-angle-right fa-fw"></i></div>
+<div class="ovL"></div>
+<div class="ovR"></div>
+</div>
+</div>
+
+
+<div id="main-area">
+
+<div id="top-service">
+<div class="section">
+<h2 class="section-tit">事業内容<small>SERVICE</small></h2>
+<div class="row">
+<div class="col4">
+<a href="http://delsole-komugigohan.jp/" target="_blank">
+<div class="panel">
+<img src="/wp-content/themes/jccomsa/img/service-img01.jpg" alt="製造" class="img-responsive">
+<h4 class="panel-hd">製造&nbsp;<i class="fa fa-external-link fa-fw"></i></h4>
+<p class="panel-tex">フローズンピザを日本にはじめて紹介したデルソーレを1964年に創業しました。</p>
+</div>
+</a>
+</div>
+<div class="col4">
+<a href="/brand/" target="_blank">
+<div class="panel">
+<img src="/wp-content/themes/jccomsa/img/service-img02.jpg" alt="外食・中食・宅配事業" class="img-responsive">
+<h4 class="panel-hd">外食・中食・宅配事業&nbsp;<i class="fa fa-external-link fa-fw"></i></h4>
+<p class="panel-tex">国産食材による自給率の向上を目標に居酒屋、惣菜、宅配、レストランを運営しています。</p>
+</div>
+</a>
+</div>
+<div class="col4">
+<a href="/service/development/">
+<div class="panel">
+<img src="/wp-content/themes/jccomsa/img/service-img03.jpg" alt="事業開発" class="img-responsive">
+<h4 class="panel-hd">事業開発</h4>
+<p class="panel-tex">国内市場が成熟し、少子高齢化が進化していく中で当社のノウハウを活かした新たな“おいしい”発信していきます。</p>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="section">
+<h2 class="section-tit">IR 投資家の皆様へ<small>INFOMATION</small></h2>
+<dl class="info-top">
+
+<dt>2017.08.10<i class="fa fa-angle-right fa-fw"></i></dt>
+<dd><a href="/ir-topics/771/" title="平成30年3月期　第１四半期決算短信〔日本基準〕（非連結）">平成30年3月期　第１四半期決算短信〔日本基準〕（非連結）</a></dd>
+<dt>2017.06.19<i class="fa fa-angle-right fa-fw"></i></dt>
+<dd><a href="/ir-topics/731/" title="役員の異動に関するお知らせ">役員の異動に関するお知らせ</a></dd>
+<dt>2017.05.15<i class="fa fa-angle-right fa-fw"></i></dt>
+<dd><a href="/ir-topics/719/" title="平成29年３月期 決算短信〔日本基準〕（非連結）">平成29年３月期 決算短信〔日本基準〕（非連結）</a></dd>
+<dt>2017.05.15<i class="fa fa-angle-right fa-fw"></i></dt>
+<dd><a href="/ir-topics/716/" title="特別損失の計上に関するお知らせ">特別損失の計上に関するお知らせ</a></dd>
+<dt>2017.02.10<i class="fa fa-angle-right fa-fw"></i></dt>
+<dd><a href="/ir-topics/701/" title="特別損失の計上及び通期業績予想の修正に関するお知らせ">特別損失の計上及び通期業績予想の修正に関するお知らせ</a></dd>
+
+
+
+</dl>
+
+<a href="/ir/" class="btn btn-blue">投資家情報はこちら&nbsp;<i class="fa fa-angle-right fa-fw"></i></a>
+
+</div>
+
+
+<div class="section-bg-lightgray">
+<div class="section">
+<ul class="bnr-list">
+<li>
+<a href="http://www.pizzakyogikai.gr.jp/" target="_blank"><img src="/wp-content/themes/jccomsa/img/bnr-pizzakyogikai.gif" alt="ピザ協議会"></a>
+</li>
+<li>
+<a href="http://honobono-undo.org/" target="_blank"><img src="/wp-content/themes/jccomsa/img/bnr-honobono.gif" alt="一般社団法人ほのぼの運動協議会"></a>
+</li>
+</ul>
+</div>
+</div>
+
+</div><!--END_main-area-->
+
+
+
+
+<div id="footer-area">
+<div id="fnav-util-area">
+<div id="fnav-util">
+<ul>
+<li><a href="/contact/"><i class="fa fa-angle-right fa-fw"></i>お問い合わせ</a></li>
+<li><a href="/privacy/"><i class="fa fa-angle-right fa-fw"></i>プライバシーポリシー</a></li>
+<li><a href="/sitemap/"><i class="fa fa-angle-right fa-fw"></i>サイトマップ</a></li>
+<li><a href="/en/"><i class="fa fa-angle-right fa-fw"></i>English</a></li>
+</ul>
+</div>
+</div>
+<div id="footer">
+<div id="pagetop" class="pagetop">
+<a href="#"><img src="/wp-content/themes/jccomsa/img/icon-arrow-up.png" alt="ページの先頭に戻る" /></a>
+</div>
+<div id="fnav">
+<ul>
+<li><a href="/service/"><i class="fa fa-angle-right fa-fw"></i>事業内容</a><span class="tgl"><i class="fa fa-angle-down"></i></span>
+<ul>
+<li><a href="http://delsole-komugigohan.jp/" target="_blank"><i class="fa fa-angle-right fa-fw"></i>製造</a></li>
+<li><a href="/brand/" target="_blank"><i class="fa fa-angle-right fa-fw"></i>外食・中食・宅配事業</a></li>
+<li><a href="/service/development/"><i class="fa fa-angle-right fa-fw"></i>事業開発</a></li>
+</ul>
+</li>
+<li><a href="/corporate/"><i class="fa fa-angle-right fa-fw"></i>企業概要</a><span class="tgl"><i class="fa fa-angle-down"></i></span>
+<ul>
+<li><a href="/corporate/mission/"><i class="fa fa-angle-right fa-fw"></i>MISSION</a></li>
+<li><a href="/corporate/greeting/"><i class="fa fa-angle-right fa-fw"></i>ご挨拶</a></li>
+<li><a href="/corporate/outline/"><i class="fa fa-angle-right fa-fw"></i>会社情報</a></li>
+<li><a href="/corporate/history/"><i class="fa fa-angle-right fa-fw"></i>沿革</a></li>
+<li><a href="/corporate/safety/"><i class="fa fa-angle-right fa-fw"></i>安全・安心への取組み</a></li>
+</ul>
+</li>
+<li><a href="/ir/"><i class="fa fa-angle-right fa-fw"></i>投資家情報</a><span class="tgl"><i class="fa fa-angle-down"></i></span>
+<ul>
+<li><a href="/ir/zaimu/"><i class="fa fa-angle-right fa-fw"></i>決算短信</a></li>
+<li><a href="/ir/kaiji/"><i class="fa fa-angle-right fa-fw"></i>適時開示等</a></li>
+<li><a href="/ir/koukoku/"><i class="fa fa-angle-right fa-fw"></i>電子公告</a></li>
+<li><a href="/ir/cal/"><i class="fa fa-angle-right fa-fw"></i>IRカレンダー</a></li>
+</ul>
+</li>
+<li><a href="/csr/"><i class="fa fa-angle-right fa-fw"></i>CSR</a><span class="tgl"><i class="fa fa-angle-down"></i></span>
+<ul>
+<li><a href="/csr/"><i class="fa fa-angle-right fa-fw"></i>ほのぼの運動</a></li>
+<li><a href="/csr/"><i class="fa fa-angle-right fa-fw"></i>東日本大震災に対する支援</a></li>
+<li><a href="/csr/"><i class="fa fa-angle-right fa-fw"></i>わすれな草プロジェクト</a></li>
+</ul>
+</li>
+<li><a href="/recruit/"><i class="fa fa-angle-right fa-fw"></i>採用情報</a><span class="tgl"><i class="fa fa-angle-down"></i></span>
+<ul>
+<li><a href="/recruit/graduate/"><i class="fa fa-angle-right fa-fw"></i>新卒者採用情報</a></li>
+<li><a href="/recruit/career/"><i class="fa fa-angle-right fa-fw"></i>キャリア採用情報</a></li>
+<li><a href="/recruit/partner/"><i class="fa fa-angle-right fa-fw"></i>アルバイト募集情報</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div id="logo-corp-foot"><img src="/wp-content/themes/jccomsa/img/site-logo-ft.png" alt="ジェーシー・コムサ" /></div>
+<div id="copyrioght">©2015 JCCOMSA Corp. All rights reserved.</div>
+</div>
+</div>
+<div class="overlay"></div>
+</body>
+</html>
+

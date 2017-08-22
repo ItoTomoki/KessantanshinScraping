@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1024px;">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<title>株式会社ユニカフェ～コーヒーをコアに人と環境にやさしい企業を目指しています～</title>
+<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
+<!--[if lt IE 9]><script type="text/javascript" src="js/IE9.js"></script><![endif]-->
+<link rel="stylesheet" type="text/css" href="css/reset.css" media="all">
+<link rel="stylesheet" type="text/css" href="css/style.css" media="all">
+
+<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/ga.js"></script>
+</head>
+<script>
+$(function() {
+    $('#tab > li').hover(function(){
+        $('.sub_menu:not(:animated)',this).fadeIn('normal');
+        $('a',this).addClass('hover');
+    }, function(){
+        $('.sub_menu',this).fadeOut('normal');
+        $('a',this).removeClass('hover');
+    });
+});
+</script>
+
+<body id="top">
+
+<div id="language"><p><a href="/e/index.html">ENGLISH</a></p></div>
+
+<header>
+	<div id="header">
+		<h1><a href="/home.html" class="btn">株式会社ユニカフェ</a></h1>
+		<ul>
+			<li><a href="/Product/PD01/index.html">ユニカフェについて</a>｜</li><li><a href="/Product/index.html">企業のお客様</a>｜</li><li><a href="/CoffeeLife/index.html">個人のお客様</a>｜</li><li><a href="/IR/index.html">投資家の皆様</a></li><li><a href="https://f.msgs.jp/webapp/form/18655_npbb_1/index.do" class="btn" target="_blank">お問い合わせ</a></li>
+		</ul>
+	</div><!-- /#header -->
+
+    <div id="head_image">
+        <div id="visual"><img src="img/home/main.jpg" width="960" height="350" alt="ユニカフェはコーヒーをコアに人と環境にやさしい企業を目指しています"></div>
+        <ul id="tab">
+            <li><a href="Product/index.html">企業のお客様</a>
+                <div class="sub_menu">
+                    <ul>
+                        <li><a href="Product/PD04/index.html" class="btn"><img src="img/Product/business/sub_menu1.png" width="215" height="50" alt="神奈川総合工場"></a></li>
+                        <li><a href="Product/PD03/index.html" class="btn"><img src="img/Product/business/sub_menu2.png" width="215" height="50" alt="原料調達"></a></li>
+                        <li><a href="Product/PD05/index.html" class="btn"><img src="img/Product/business/sub_menu3.png" width="215" height="50" alt="R&amp;D"></a></li>
+                        <li><a href="Product/PD02/index.html" class="btn"><img src="img/Product/business/sub_menu4.png" width="215" height="50" alt="環境への取り組み"></a></li>
+                    </ul>
+                </div><!-- /.sub_menu -->
+            </li>
+            <li><a href="CoffeeLife/index.html">個人のお客様</a>
+                <div class="sub_menu">
+                    <ul>
+                        <li><a href="CoffeeLife/hangup/index.html" class="btn"><img src="img/CoffeeLife/sub_menu1.png" width="290" height="50" alt="コーヒーのこだわり"></a></li>
+                        <li><a href="CoffeeLife/lineup/index.html" class="btn"><img src="img/CoffeeLife/sub_menu2.png" width="290" height="50" alt="製品一覧"></a></li>
+                        <li><a href="CoffeeLife/museum/index.html" class="btn"><img src="img/CoffeeLife/sub_menu3.png" width="290" height="50" alt="コーヒーミュージアム"></a></li>
+                    </ul>
+                </div><!-- /.sub_menu -->
+            </li>
+            <li><a href="IR/index.html">投資家の皆様</a>
+                <div class="sub_menu">
+                    <ul>
+                        <li><a href="IR/IR01/index.html" class="btn"><img src="img/IR/sub_menu1.png" width="212" height="50" alt="ニュースリリース"></a></li>
+                        <li><a href="IR/IR04/04a.html" class="btn"><img src="img/IR/sub_menu2.png" width="212" height="50" alt="IR情報"></a></li>
+                        <li><a href="IR/IR04/04b.html" class="btn"><img src="img/IR/sub_menu3.png" width="212" height="50" alt="電子公告"></a></li>
+                        <li><a href="IR/IR02/index.html" class="btn"><img src="img/IR/sub_menu4.png" width="212" height="50" alt="株主優待制度"></a></li>
+                    </ul>
+                </div><!-- /.sub_menu -->
+            </li>
+        </ul>
+    </div><!-- /#head_image -->
+</header>
+
+<div id="contents">
+    <div class="title"><h2>ユニカフェについて</h2></div>
+    <div class="block inner">
+        <figure class="float_l"><a href="Product/PD01/index.html" class="btn"><img src="img/common/photo_factory.jpg" width="250px" alt=""></a></figure>
+        <div class="float_r" align="right">
+            <a href="Product/PD01/index.html" class="btn"><img src="img/home/about_img1.png" width="650" height="121" alt="「コーヒーをコアに人と環境にやさしい企業を目指す」"></a><br>
+            <a href="Product/PD01/index.html" class="btn_link btn">ユニカフェについて</a>
+        </div>
+        <div id="about_menu_top">
+            <ul>
+                <li><a href="Product/PD01/01_01.html">ごあいさつ</a></li>
+                <li><a href="Product/PD01/01_03.html">会社概要</a></li>
+                <li><a href="Product/PD01/01_04.html">事業方針</a></li>
+                <li><a href="Product/PD01/01_02.html">事業内容</a></li>
+                <li><a href="Product/PD01/01_05.html">組織図</a></li>
+                <li><a href="Product/PD01/01_06.html">沿革</a></li>
+                <li><a href="recruit/index.html">採用情報</a></li>
+            </ul>
+        </div><!-- /#about_menu-->
+    </div><!-- /.block -->
+    <div id="lineup"></div>
+
+    <div class="left_col">
+    <div id="lineup_menu_top">
+        <div class="title"><h2>製品ラインナップ</h2></div>
+        <div class="block inner">
+            <ul>
+                <li><a href="CoffeeLife/lineup/ck/index.html">
+                    <img src="img/CoffeeLife/lineup/ck_thumb_top.jpg" width="126" alt="「ユニカフェ 珈琲鑑定士のブレンドコーヒー」シリーズ">
+                    「ユニカフェ 珈琲鑑定士のブレンドコーヒー」シリーズ
+                </a></li>
+                <li><a href="CoffeeLife/lineup/ok/index.html">
+                    <img src="img/CoffeeLife/lineup/ok_thumb_top.jpg" width="126" alt="「ユニカフェ おいしい香り」シリーズ">
+                    「ユニカフェ おいしい香り」シリーズ
+                </a></li>
+                <li><a href="CoffeeLife/lineup/rbm/index.html">
+                    <img src="img/CoffeeLife/lineup/rbm_thumb_top.jpg" width="126" alt="「ユニカフェ レインボーマウンテンブレンドコーヒー」シリーズ">
+                    「ユニカフェ レインボーマウンテンブレンドコーヒー」シリーズ
+                </a></li>
+                <li><a href="CoffeeLife/lineup/pro/index.html">
+                    <img src="img/CoffeeLife/lineup/pro_thumb_top.jpg" width="126" alt="「ユニカフェ プロフェッショナルユース」シリーズ">
+                    「ユニカフェ プロフェッショナルユース」シリーズ
+                </a></li>
+             </ul>
+             <ul>
+                <li><a href="CoffeeLife/lineup/dp/index.html">
+                    <img src="img/CoffeeLife/lineup/dp_thumb_top.jpg" width="126" alt="「ユニカフェ 有機栽培珈琲 ドリップ５Ｐ」シリーズ">
+                    「ユニカフェ 有機栽培珈琲 ドリップ５Ｐ」シリーズ
+                </a></li>
+                <li><a href="CoffeeLife/lineup/lest/index.html">
+                    <img src="img/CoffeeLife/lineup/lest_thumb_top.jpg" width="126" alt="「レストランユース」シリーズ">
+                    「レストランユース」シリーズ
+                </a></li>
+                <li><a href="CoffeeLife/lineup/cl/index.html">
+                    <img src="img/CoffeeLife/lineup/cl_thumb_top.jpg" width="126" alt="「レストランユース」シリーズ">
+                    「カフェインレス」シリーズ
+                </a></li>
+            </ul>
+            <div align="right"><a href="CoffeeLife/lineup/index.html" class="btn_link btn">製品一覧へ</a></div>
+        </div><!-- /.block -->
+    </div><!-- /#lineup_menu_top-->
+
+
+    <div id="news">
+        <div class="title"><h2>最新ニュース</h2></div>
+        <div class="block inner">
+            <ul>
+
+                <li><time>2017/07/31</time><p><a href="PDF/2017/20170731b_unicafe.pdf" target="_blank">平成29年12月期 第2四半期決算説明資料</a></p></li>
+                <li><time>2017/07/31</time><p><a href="PDF/2017/20170731a_unicafe.pdf" target="_blank">平成29年12月期 第2四半期決算短信</a></p></li>
+
+                <li><time>2017/06/20</time><p><a href="PDF/2017/20170620_unicafe.pdf" target="_blank">人事異動に関するお知らせ</a></p></li>
+                <li><time>2017/04/28</time><p><a href="PDF/2017/20170428b_unicafe.pdf" target="_blank">平成29年12月期 第1四半期決算説明資料</a></p></li>
+                <li><time>2017/04/28</time><p><a href="PDF/2017/20170428a_unicafe.pdf" target="_blank">平成29年12月期 第1四半期決算短信</a></p></li>
+                <li><time>2017/03/31</time><p><a href="PDF/2017/20170331b_unicafe.pdf" target="_blank">親会社等の決算に関するお知らせ</a></p></li>
+                <li><time>2017/03/31</time><p><a href="PDF/2017/20170331a_unicafe.pdf" target="_blank">支配株主等に関する事項について</a></p></li>
+                <li><time>2017/03/28</time><p><a href="PDF/2017/20170328_unicafe.pdf" target="_blank">役員人事、組織変更及びその他人事異動に関するお知らせ</a></p></li>
+                <li><time>2017/03/21</time><p><a href="PDF/2017/20170321_unicafe.pdf" target="_blank">第45期定時株主総会招集ご通知の一部修正について</a></p></li>
+                <li><time>2017/03/01</time><p><a href="PDF/2017/20170301a_unicafe.pdf" target="_blank">第45期定時株主総会招集ご通知に際してのインターネット開示事項</a></p></li>
+                <li><time>2017/03/01</time><p><a href="PDF/2017/20170301b_unicafe.pdf" target="_blank">第45期定時株主総会招集ご通知</a></p></li>
+                 <li><time>2017/02/14</time><p><a href="PDF/2017/20170214d_unicafe.pdf" target="_blank">株主優待に関するお知らせ</a></p></li>
+                <li><time>2017/02/14</time><p><a href="PDF/2017/20170214c_unicafe.pdf" target="_blank">剰余金の配当に関するお知らせ</a></p></li>
+                <li><time>2017/02/14</time><p><a href="PDF/2017/20170214b_unicafe.pdf" target="_blank">平成28年12月期　決算説明資料</a></p></li>
+                <li><time>2017/02/14</time><p><a href="PDF/2017/20170214a_unicafe.pdf" target="_blank">平成28年12月期　決算短信</a></p></li>
+                <li><time>2016/12/20</time><p><a href="PDF/2016/20161220_unicafe.pdf" target="_blank">組織変更および人事異動に関するお知らせ</a></p></li>
+                <li><time>2016/10/28</time><p><a href="PDF/2016/20161028_unicafe.pdf" target="_blank">自己株式立会外買付取引（ＴｏＳＴＮｅＴ－３）による自己株式の取得結果に関するお知らせ</a></p></li>
+                <li><time>2016/10/27</time><p><a href="PDF/2016/20161027c_unicafe.pdf" target="_blank">自己株式立会外買付取引（ＴｏＳＴＮｅＴ－３）による自己株式の買付けに関するお知らせ</a></p></li>
+            </ul>
+            <div align="right"><a href="IR/IR01/index.html" class="btn_link btn">ニュース一覧へ</a></div>
+        </div><!-- /.block -->
+    </div><!-- /#news -->
+    </div>
+    <div id="bnr_list_top">
+        <ul>
+            <li><a href="https://www.unicafe-fun.com/stockholder" target="_blank" class="btn"><img src="img/home/bnr_unicafefun.jpg" width="320" height="100" alt="株主様専用サイト ユニカフェファン"></a></li>
+            <li><a href="recruit/index.html" class="btn"><img src="img/home/bnr_recruit.jpg" width="320" height="100" alt="2018年度 新卒募集中！！"></a></li>
+        </ul>
+    </div><!-- bnr_list_top -->
+</div><!-- /#contents -->
+
+<footer>
+	<div id="footer_inner">
+		<p id="pagetop"><a href="#language">このページの先頭へ</a></p>
+		<ul>
+			<li><a href="/privacy_policy.html">プライバシーポリシー</a>　｜　</li>
+			<li><a href="/sitemap.html">サイトマップ</a></li>
+		</ul>
+		<p id="copyright">Copyright &copy; Unicafe Inc. All Rights Reserved.</p>
+	</div><!-- /#footer_inner -->
+
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,435 @@
+﻿<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>ダイトウボウ株式会社</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="Keywords" content="ダイトウボウ,Daitobo,大東,大東紡織,ODM,ヘルスケア,繊維">
+<meta name="Description" content="東京都中央区,ヘルスケア,ニット企画,アパレルOEM,ユニフォーム,不動産(静岡県三島市近郊に商業施設『サントムーン柿田川』)">
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-K7KM8HF');</script>
+<!-- End Google Tag Manager -->
+<!--[if lt IE 9]>
+<script src="shared/js/html5.js"></script>
+<script src="shared/js/iepp.min.js"></script>
+<![endif]-->
+<link href="shared/css/html5reset.css" rel="stylesheet" media="all">
+<link href="shared/css/common.css" rel="stylesheet" media="all">
+<link href="shared/css/top.css" rel="stylesheet" media="all">
+<script src="shared/js/jquery-1.6.4.min.js"></script>
+<script src="shared/js/smoothscroll.js"></script>
+<script src="shared/js/jquery.tile.js"></script>
+<script>
+$(function() { 
+  var h, $e = $('<div>', {text:'A', fontSize:'1em'}).hide().appendTo('#container'); 
+  setInterval(function() { 
+    if(h != $e.css('font-size')) { 
+      h = $e.css('font-size'); 
+	  $('#pickup .para') 
+        .css('height', 'auto') 
+        .each(function() { 
+          if(this.removeProperty) this.removeProperty('height'); 
+          if(this.removeAttribute) this.removeAttribute('height'); 
+        }) 
+        .tile(3);
+    } 
+  }, 2*$.fx.interval); 
+});
+var atscroll = new ATScroll({
+	noScroll : 'noSmoothScroll',
+	setHash : false,
+	duration : 800,
+	interval : 10,
+	animation : 'quinticOut'
+});
+atscroll.load();
+</script>
+<script src="shared/js/jquery.easing.1.3.js"></script>
+<script src="shared/js/jquery.mousewheel.js"></script>
+<script src="shared/js/jquery.vaccordion.js"></script>
+<script>
+	$(function() {
+		$('#va-accordion').vaccordion();
+	});
+</script>
+<script src="shared/js/pager.js"></script>
+<script>
+	$(function(){
+	
+	if (navigator.userAgent.indexOf('iPhone') > -1 || navigator.userAgent.indexOf('iPod') > -1 || navigator.userAgent.indexOf('iPad') > -1 || navigator.userAgent.indexOf('Android') > -1) {
+		$("ul.list_sub").hide();
+	} else {
+		$("ul.list_sub").hide();
+		$("ul#list_cate>li").hover(function(){
+			$("ul:not(:animated)",this).slideDown('fast')
+		},
+		function(){
+			$("ul",this).slideUp('fast');
+		})	
+	}
+	
+	});
+</script>
+<script src="/shared/js/tracking.js" type="text/javascript"></script>
+</head>
+
+
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K7KM8HF"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) --><div id="container">
+    
+<header id="global_header" class="box">
+
+<div id="wrap_head" class="cf">
+  <h1 id="logo"><a href="./"><img src="shared/images/logo_head.png" width="169" height="48" alt="ダイトウボウ株式会社"></a></h1>
+  <div id="header_nav">
+  <ul class="cf">
+      <li id="nav_news"><a href="news/">ニュース・トピックス</a></li>
+      <li><script>
+		function converter(M){
+		var str="", str_as="";
+		for(var i=0;i<M.length;i++){
+		str_as = M.charCodeAt(i);
+		str += String.fromCharCode(str_as + 1);
+		}
+		return str;
+		}
+		var ad = converter(String.fromCharCode(104,109,101,110,94,63,99,96,104,115)+String.fromCharCode(110,97,110,45,98,110,45,105,111));
+		document.write("<a href=\"mai"+"lto:"+ad+"\">"+"E-mailでのお問い合わせ"+"<\/a>");
+	  </script></li>
+      <li><a href="recruit/">採用はこちら</a></li>
+      <li><a href="sitemap/">サイトマップ</a></li>
+  </ul>
+  </div>
+</div>
+
+<div id="news_head" class="cf">
+  <h2>NEWS</h2>
+  <script src="shared/js/latest_news.js"></script>
+</div>
+
+<!--div id="news_head" class="cf">
+  <h2>お知らせ</h2>
+  <script src="shared/js/latest_news3.js"></script>
+</div-->
+
+
+<!-- p align="right"><a href="recruit/"><img src="shared/images/btn_recruit_tp.png" width="170" height="60" alt="採用はこちら"><br> </a></p -->
+
+<!-- p align="right"><a href="recruit/"><img src="shared/images/arrow_head.png" width="15" height="15" alt="採用はこちら">採用はこちら</a></p -->
+
+<nav id="global_nav_top">
+<ul id="list_cate" class="cf">
+	<li class="item01"><img src="images/img_mv_corp.jpg" width="240" height="400" alt="">
+        <h2><a href="company/">企業情報<br><span>Corporate Profile</span></a></h2>
+        <ul class="list_sub">
+            <li><a href="company/message.html">ごあいさつ</a></li>
+            <li><a href="company/philosophy.html">経営理念</a></li>
+            <li><a href="company/conduct.html">行動規範/ｾｷｭﾘﾃｨﾎﾟﾘｼｰ</a></li>
+            <li><a href="company/profile.html">会社概要</a></li>
+            <li><a href="company/officer.html">役員紹介</a></li>
+            <li><a href="company/group.html">グループ企業</a></li>
+            <li><a href="company/history.html">会社沿革</a></li>
+            <li><a href="company/organization.html">会社組織図</a></li>
+            <li><a href="company/access.html">アクセス</a></li>
+            <li><a href="company/csr.html">CSR</a></li>
+            <li><a href="company/inquiry.html">IR情報/その他 お問い合わせ</a></li>
+            
+        </ul>
+    </li>
+	<li class="item02"><img src="images/img_mv_busi.jpg" width="240" height="400" alt="">
+    	<h2><a href="business/">事業情報<br><span>Business Field</span></a></h2>
+        <ul class="list_sub">
+            <li><a href="business/estate.html">商業施設/不動産事業</a></li>
+            <li><a href="business/apparel.html">アパレルファッション・<br>ユニフォーム事業</a></li>
+            <li><a href="business/health.html">ヘルスケア事業</a></li>
+            <li><a href="business/overseas.html">海外関連事業</a></li>
+            
+        </ul>
+    </li>
+	<li class="item03"><img src="images/img_mv_ir.jpg" width="240" height="400" alt="">
+    	<h2><a href="ir/">株主・投資家情報<br><span>Investor Relations</span></a></h2>
+        <ul class="list_sub">
+            <li><a href="news/">ニュース・トピックス</a></li>
+            <li><a href="ir/management/plan.html">中期経営計画</a></li>
+            <li><a href="ir/governance.html">コーポレート・ガバナンス</a></li>
+            <li><a href="ir/financial.html">業績・財務情報</a></li>
+            <li><a href="ir/library/">IRライブラリ</a></li>
+            <li><a href="ir/event/">IRイベントカレンダー</a></li>
+            <li><a href="ir/event/meeting.html">株主総会</a></li>
+            <li><a href="ir/stock/">株式情報</a></li>
+            <li><a href="ir/voting.html">議決権行使について</a></li>
+            <li><a href="//stocks.finance.yahoo.co.jp/stocks/detail/?code=3202.T" target="_blank">現在の株価</a></li>
+            <li><a href="ir/disclaimer.html">免責事項</a></li>
+            <li><a href="ir/sitemap.html">IRサイトマップ</a></li>
+            
+        </ul>
+    </li>
+	<li class="item04"><img src="images/img_mv_rec.jpg" width="240" height="400" alt="">
+    	<h2><a href="recruit/">採用情報<br><span>Recruit</span></a></h2>
+        <!--ul class="list_sub">
+            <li><a href="" target="_blank">選考のご案内</a></li>
+        </ul-->
+    </li>
+</ul>
+</nav>
+
+
+</header>
+
+<div id="newarrivals" class="box cf">
+<div id="pickup" class="cf">
+	<div class="item">
+    	<h2><a href="company/message.html">ごあいさつ</a></h2>
+    	<p class="para">トップメッセージ</p>
+        <div class="img"><img src="images/img_pick_mess.jpg" width="175" height="112" alt=""></div>
+        <p class="date">2017.6.27</p>
+    </div>
+    
+    <div class="item">
+    	<h2><a href="ir/financial.html">業績・財務情報</a></h2>
+    	<p class="para">2018年3月期の決算情報を掲載しています。</p>
+        <div class="img"><img src="images/img_pick_finan.jpg" width="175" height="112" alt=""></div>
+        <p class="date">2017.8.10</p>
+    </div>
+
+    <div class="item">
+    	<h2><a href="ir/management/plan.html">中期経営計画</a></h2>
+    	<p class="para"><a href="news/pdf/brigetothefuture.pdf" target="_blank">Bridge to the Future ～未来への架け橋～</a><img src="shared/images/icon_pdf.png" width="15" height="16" class="pdf" alt="PDF">（2.7MB）</p>
+        <a href="news/pdf/About_the_Mid-term_Management_Plan.pdf" target="_blank">～in English</a><img src="shared/images/icon_pdf.png" width="15" height="16" class="pdf" alt="PDF">（150KB）</p>
+        <div class="img"><img src="images/img_pick_plan.jpg" width="175" height="112" alt=""></div>
+        <p class="date">2016.5.13</p>
+    </div>
+
+    <div class="item">
+    	<h2><a href="https://www.rakuten.co.jp/daitobo/" target="_blank">ｅコマース店舗</a></h2>
+    	<p class="para"><a href="https://www.rakuten.co.jp/daitobo/" target="_blank">当社商品のお買い物はこちらへどうぞ</a></p>
+        <div class="img"><img src="images/img_pick_ec.png" width="175" height="112" alt=""></div>
+        <p class="date">2016.8.19</p>
+    </div>
+
+    <div class="item">
+    	<h2><a href="../news/pdf/dbknews_20160825.pdf" target="_blank">株主優待制度</a></h2>
+    	<p class="para"><a href="../news/pdf/dbknews_20170208_3.pdf" target="_blank" target="_blank">株主優待制度の拡充に関するお知らせ</a><img src="shared/images/icon_pdf.png" width="15" height="16" class="pdf" alt="PDF">（128KB）</p>
+        <p class="date">2017.2.8</p>
+    	<p class="para"><a href="../news/pdf/dbknews_20160829.pdf" target="_blank">株主優待の内容に関するお知らせ</a><img src="shared/images/icon_pdf.png" width="15" height="16" class="pdf" alt="PDF">（102KB）</p>
+        <p class="date">2016.8.29</p>
+    </div>
+
+    <div class="item">
+    	<h2><a href="./ir/stock/public.html" target="_blank">電子公告</a></h2>
+    	<p class="para">現在、公告すべき事項はありません。</p>
+        <p class="date"><script src="shared/js/hiduke_write.js"></script></p>
+    </div>
+<!-- ******************************************************************************** 
+    <div class="item">
+    	<h2><a href="./pdf/yyyymmdd_koukokudbk.pdf" target="_blank">電子公告</a></h2>
+    	<p class="para"><a href="./pdf/yyyymmdd_koukokudbk.pdf" target="_blank">　</a><img src="shared/images/icon_pdf.png" width="15" height="16" class="pdf" alt="PDF">（KB）</p>
+        <p class="date">yyyy.m.d</p>
+    </div>
+ ******************************************************************************** -->
+
+    <ul class="list cf">
+    	<!-- li class="item01"><a href="company/csr.html">CSR活動</a></li-->
+    	<!-- li class="item02"><a href="company/inquiry.html">お問合せ</a></li-->
+    	<!-- li class="item02"><a href="recruit/">採用情報</a></li-->
+    </ul>
+</div>
+<div id="info">
+	<h2>INFORMATION</h2>
+	<dl>
+
+	<dt>2017年8月14日</dt>
+	<dd><a href="../news/pdf/dbknews_20170814.pdf" target="_blank" target="_blank">繊研新聞に当社資本業務提携に関する記事が掲載されました。</a><img src="shared/images/icon_pdf.png" width="15" height="16" class="pdf" alt="PDF">（57KB）</dd>
+
+	<dt>2017年8月10日</dt>
+	<dd><a href="/ir/library/pdf/earning_2018_1.pdf" target="_blank">平成30年3月期第1四半期 決算短信〔日本基準〕（連結）</a><img src="shared/images/icon_pdf.png" width="15" height="16" class="pdf" alt="PDF">（220KB）</dd>
+	<dd><a href="../news/pdf/dbknews_20170810_2.pdf" target="_blank" target="_blank">資本・業務提携に関するお知らせ</a><img src="shared/images/icon_pdf.png" width="15" height="16" class="pdf" alt="PDF">（171KB）</dd>
+	<dd><a href="../news/pdf/dbknews_20170810_1.pdf" target="_blank" target="_blank">単元株式数の変更及び定款の一部変更ならびに株主優待制度の変更に関するお知らせ</a><img src="shared/images/icon_pdf.png" width="15" height="16" class="pdf" alt="PDF">（163KB）</dd>
+	<dd><a href="/ir/library/pdf/security_2018_1.pdf" target="_blank">第198期(平成30年3月期)第1四半期報告書</a><img src="shared/images/icon_pdf.png" width="15" height="16" class="pdf" alt="PDF">（307KB）</dd>
+
+	<dt>2017年7月26日</dt>
+	<dd><a href="../news/pdf/dbknews_20170726.pdf" target="_blank" target="_blank">フジサンケイビジネスアイに当社社長インタビュー記事が掲載されました。</a><img src="shared/images/icon_pdf.png" width="15" height="16" class="pdf" alt="PDF">（185KB）</dd>
+
+	<dt>2017年6月27日</dt>
+	<dd><a href="../news/pdf/dbknews_20170627.pdf" target="_blank" target="_blank">組織改正および人事異動に関するお知らせ</a><img src="shared/images/icon_pdf.png" width="15" height="16" class="pdf" alt="PDF">（157KB）</dd>
+	<dd><a href="/ir/library/pdf/security_2017.pdf" target="_blank">2017年3月期有価証券報告書提出</a><img src="shared/images/icon_pdf.png" width="15" height="16" class="pdf" alt="PDF">（578KB）</dd>
+
+<!--
+	<dt>2017年5月24日</dt>
+	<dd><a href="../ir/pdf/corporategovernance.pdf" target="_blank">コーポレート・ガバナンス報告書更新</a><img src="shared/images/icon_pdf.png" width="15" height="16" class="pdf" alt="PDF">（93KB）</dd>
+
+	<dt>2017年5月12日</dt>
+	<dd><a href="../news/pdf/dbknews_20170512.pdf" target="_blank" target="_blank">日本経済新聞「決算トーク」欄に当社記事が掲載されました。</a><img src="shared/images/icon_pdf.png" width="15" height="16" class="pdf" alt="PDF">（243KB）</dd>
+
+	<dt>2017年5月11日</dt>
+	<dd><a href="../ir/library/pdf/earning_2017_4.pdf" target="_blank">平成29年3月期 決算短信〔日本基準〕（連結）</a><img src="shared/images/icon_pdf.png" width="15" height="16" class="pdf" alt="PDF">（285KB）</dd>
+	<dd><a href="../news/pdf/dbknews_20170511_1.pdf" target="_blank" target="_blank">中期経営計画の見直しに関するお知らせ</a><img src="shared/images/icon_pdf.png" width="15" height="16" class="pdf" alt="PDF">（149KB）</dd>
+	<dd><a href="../news/pdf/dbknews_20170511_2.pdf" target="_blank" target="_blank">役員人事ならびに執行役員体制に関するお知らせ</a><img src="shared/images/icon_pdf.png" width="15" height="16" class="pdf" alt="PDF">（106KB）</dd>
+	<dd><a href="../news/pdf/dbknews_20170511_3.pdf" target="_blank" target="_blank">繰延税金資産の計上及び業績予想と実績との差異に関するお知らせ</a><img src="shared/images/icon_pdf.png" width="15" height="16" class="pdf" alt="PDF">（137KB）</dd>
+	<dd><a href="../ir/pdf/corporategovernance.pdf" target="_blank">コーポレート・ガバナンス報告書更新</a><img src="shared/images/icon_pdf.png" width="15" height="16" class="pdf" alt="PDF">（94KB）</dd>
+
+	<dt>2017年3月29日</dt>
+	<dd><a href="../news/pdf/dbknews_20170329.pdf" target="_blank" target="_blank">特別損失の計上及び業績予想の修正に関するお知らせ</a><img src="shared/images/icon_pdf.png" width="15" height="16" class="pdf" alt="PDF">（188KB）</dd>
+
+	<dt>2017年3月24日</dt>
+	<dd><a href="/business/e_commerce.html" target="_blank">当社eコマース店舗をご利用のお客様へ重要なお知らせ。</a></dd>
+
+	<dt>2017年2月8日</dt>
+	<dd><a href="/ir/library/pdf/security_2017_3.pdf" target="_blank">第197期(平成29年3月期)第3四半期報告書</a><img src="shared/images/icon_pdf.png" width="15" height="16" class="pdf" alt="PDF">（357KB）</dd>
+
+	<dd><a href="/ir/library/pdf/earning_2017_3.pdf" target="_blank">平成29年3月期第3四半期 決算短信〔日本基準〕（連結）</a><img src="shared/images/icon_pdf.png" width="15" height="16" class="pdf" alt="PDF">（294KB）</dd>
+
+	<dd><a href="../news/pdf/dbknews_20170208_1.pdf" target="_blank" target="_blank">業務提携・資本参加に関するお知らせ</a><img src="shared/images/icon_pdf.png" width="15" height="16" class="pdf" alt="PDF">（173KB）</dd>
+
+	<dd><a href="../news/pdf/dbknews_20170208_2.pdf" target="_blank" target="_blank">業務提携・資本参加に関するお知らせ</a><img src="shared/images/icon_pdf.png" width="15" height="16" class="pdf" alt="PDF">（173KB）</dd>
+
+	<dd><a href="../news/pdf/dbknews_20170208_3.pdf" target="_blank" target="_blank">株主優待制度の拡充に関するお知らせ</a><img src="shared/images/icon_pdf.png" width="15" height="16" class="pdf" alt="PDF">（128KB）</dd>
+
+ -->
+	</dl>
+    <p class="link"><a href="news/">ニュース・トピックス</a></p>
+    <ul class="list cf">
+    	<li class="item01"><a href="company/csr.html">CSR活動</a></li>
+    	<li class="item02"><a href="recruit/">採用情報</a></li>
+    </ul>
+</div>
+</div>
+
+
+<div id="business" class="box">
+<h2>事業情報</h2>
+
+<div id="va-accordion" class="va-container">		
+  <div class="va-wrapper">
+      <div class="va-slice va-slice-1"><div class="inner">
+          <h3 class="va-title">商業施設/不動産事業<br><span>Real estate</span></h3>
+          <div class="va-content">						
+            <ul>
+            <li><a href="business/estate.html#facility">商業施設</a></li>
+            <li><a href="business/estate.html#intermediation">仲介事業</a></li>
+            </ul>
+          </div>
+      </div></div>
+      <div class="va-slice va-slice-2"><div class="inner">
+          <h3 class="va-title">アパレルファッション・ユニフォーム事業<br><span>Apparel fashion / Uniform</span></h3>
+          <div class="va-content">						
+            <ul>
+            <li><a href="business/apparel.html#fabric">布帛OEM生産</a></li>
+            <li><a href="business/apparel.html#knit">ニットODM</a></li>
+            <!-- li><a href="business/apparel.html#material">素材</a></li -->
+            <li><a href="business/apparel.html#uniform">ユニフォーム</a></li>
+            <!-- li><a href="business/apparel.html#suits">メンズスーツ</a></li -->
+            <li><a href="business/apparel.html#brand">ブランドビジネス</a></li>
+            </ul>
+          </div>	
+      </div></div>
+      <div class="va-slice va-slice-3"><div class="inner">
+          <h3 class="va-title">ヘルスケア事業<br><span>Health care</span></h3>
+          <div class="va-content">
+            <ul>
+            <li><a href="business/health.html#material">健康素材関連</a></li>
+            <li><a href="business/health.html#medical">家庭用医療機器</a></li>
+            <li><a href="business/health.html#foods">健康食品</a></li>
+            <li><a href="business/health.html#beddings">一般寝装品</a></li>
+            </ul>
+          </div>	
+      </div></div>
+      <div class="va-slice va-slice-4"><div class="inner">
+          <h3 class="va-title">海外関連事業<br><span>Overseas business</span></h3>
+          <div class="va-content">						
+            <ul>
+            <li><a href="business/overseas.html#china">中国内OEM</a></li>
+            <!--li><a href="business/overseas.html#invest">商業施設投資</a></li-->
+            </ul>
+          </div>	
+      </div></div>
+      
+  </div>
+</div>
+
+</div>
+
+
+<div id="ir" class="box">
+<h2>株主・投資家情報</h2>
+<ul class="list cf">
+	<li>
+    	<h3><a href="ir/management/plan.html">中期経営計画</a></h3>
+        <p class="para">当社の中期経営計画に関する情報を掲載しています。</p>
+    </li>
+	<li>
+    	<h3><a href="ir/governance.html">コーポレート・ガバナンス</a></h3>
+        <p class="para">当社のコーポレート・ガバナンスの考え方等をご紹介します。</p>
+    </li>
+	<li>
+    	<h3><a href="ir/financial.html">業績・財務情報</a></h3>
+        <p class="para">最新の業績や財務に関する情報を掲載しています。</p>
+    </li>
+	<li>
+    	<h3><a href="ir/library/">IRライブラリ</a></h3>
+        <p class="para">過去の決算関係書類及び決算発表などの情報を掲載しています。</p>
+    </li>
+	<li>
+    	<h3><a href="ir/event/">IRイベントカレンダー</a></h3>
+        <p class="para">決算発表などのスケジュールを掲載しています。</p>
+    </li>
+	<li>
+    	<h3><a href="ir/event/meeting.html">株主総会</a></h3>
+        <p class="para">株主総会に関する情報を掲載しています。</p>
+    </li>
+</ul>
+</div>
+
+
+<footer id="global_footer">
+<div class="inner">
+<p class="pagetop"><a href="#container"><img src="shared/images/btn_pagetop.png" width="45" height="36" alt="ページトップへ"></a></p>
+<p class="home"><a href="./">HOME</a></p>
+
+<div class="sitemap cf">
+<!-- footersmap --------------------------------- -->
+    <script src="shared/js/footersmap.js"></script>
+<!-- -------------------------------------------- -->
+
+    <li class="catetop"><script>
+		function converter(M){
+		var str="", str_as="";
+		for(var i=0;i<M.length;i++){
+		str_as = M.charCodeAt(i);
+		str += String.fromCharCode(str_as + 1);
+		}
+		return str;
+		}
+		var ad = converter(String.fromCharCode(104,109,101,110,94,63,99,96,104,115)+String.fromCharCode(110,97,110,45,98,110,45,105,111));
+		document.write("<a href=\"mai"+"lto:"+ad+"\">"+"E-mailでのお問い合わせ"+"<\/a>");
+	</script></li>
+    <li class="catetop"><a href="terms/">利用規約</a></li>
+    <li class="catetop"><a href="sitemap/">サイトマップ</a></li>
+</ul>
+</div>
+</div>
+
+<div id="wrap_copy">
+	<p id="copyright"><img src="shared/images/logo.png" width="163" height="46" alt="daitobo">
+	<script src="shared/js/copyright.js"></script>
+	</p>
+</div>
+</footer>
+
+<p id="btn_more"><a href="#newarrivals"><img src="images/btn_more.png" width="104" height="104" alt="MORE"></a></p>
+<ul id="btn_pager">
+	<li class="item01"><a href="#global_header"><img src="images/btn_home.png" width="117" height="42" alt="HOME"></a></li>
+	<li class="item02"><a href="#newarrivals"><img src="images/btn_info.png" width="117" height="42" alt="新着情報"></a></li>
+	<li class="item03"><a href="#business"><img src="images/btn_business.png" width="117" height="42" alt="事業情報"></a></li>
+	<li class="item04"><a href="#ir"><img src="images/btn_ir.png" width="117" height="42" alt="株主情報"></a></li>
+</ul>
+</div>
+</body>
+</html>

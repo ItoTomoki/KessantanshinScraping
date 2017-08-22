@@ -1,0 +1,368 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" dir="ltr">
+<head profile="http://purl.org/net/ns/metaprof"> 
+<!-- meta -->
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="Content-Script-Type" content="text/javascript" />
+	<meta http-equiv="Content-Style-Type" content="text/css" />
+	<meta name="Keywords" content="マンション,新築,分譲,プロスペクト,グローベル" />
+	<meta name="Description" content="株式会社プロスペクトが運営するサイト。新築マンション「グローベル」の情報、用地の仕入れから、商品企画、施工管理、販売、アフターサービスまで、不動産に関する情報をご案内しています。" />
+<!-- title -->
+	<title>株式会社プロスペクト</title>
+<!-- link -->
+	<link rel="start" href="/" title="ホーム" /> 
+	<link rel="stylesheet" type="text/css" media="all" href="common/css/main.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="css/style.css" />
+<!-- js -->
+	<script type="text/javascript" src="common/js/jquery.js" id="jqueryJS" charset="UTF-8"></script>
+	<script type="text/javascript" src="common/js/util.js" id="utilJS" charset="UTF-8"></script>
+	<script type="text/javascript" src="common/js/main.js" id="mainJS" charset="UTF-8"></script>
+	<script type="text/javascript" src="common/js/viewport.js" charset="UTF-8"></script>
+	<script type="text/javascript" src="common/js/cookie.js"></script>
+	<script type="text/javascript">
+	var d = new Date();
+	var hour = d.getHours();
+	$(window).on('load', function(){
+		if(4 <= hour && hour <= 16) {
+			$('#mainVisual .slides .num02').remove();
+		} else {
+			$('#mainVisual .slides .num01').remove();
+		}
+	});
+	</script>
+<!-- FlexSlider -->
+	<script type="text/javascript" src="js/index.js" charset="UTF-8"></script>
+	<script defer src="common/flexslider/js/jquery.flexslider.js"></script>
+	<link rel="stylesheet" href="common/flexslider/css/flexslider.css" type="text/css" media="screen" />
+	<script type="text/javascript">
+	</script>
+<!-- init -->
+	<link rel="stylesheet" type="text/css" href="common/css/import/accessibility.css" media="screen" id="noscriptCSS" />
+	<script type="text/javascript" charset="UTF-8" src="common/js/init.js" id="InitJS"></script>
+<!--[if IE 8]>
+	<link rel="stylesheet" type="text/css" media="all" href="common/css/ie8.css" />
+<![endif]-->
+</head>
+<body class="base">
+<div class="page" id="pageID">
+<!-- //////////////////////////////////////////////////////////////////////////////////////////////////// -->
+<!-- topicHeaderPackage -->
+<script type="text/javascript" src="common/js/topicHeaderPackage.js" charset="UTF-8" id="thpJS"></script>
+<!-- / topicHeaderPackage -->
+<div id="container">
+<div id="mainVisual">
+<div class="slider">
+<div class="flexslider">
+<ul class="slides">
+<li class="obj num01">
+<img src="imgs/img-main01.jpg" alt="" />
+<div class="txtArea">
+<span class="anime01"><img src="imgs/img-main01txt01.png" /></span>
+<span class="anime02"><img src="imgs/img-main01txt02.png" /></span>
+<span class="anime03"><img src="imgs/img-main01txt03.png" /></span>
+</div>
+</li>
+<li class="obj num02">
+<img src="imgs/img-main02.jpg" alt="" />
+<div class="txtArea">
+<span class="anime01"><img src="imgs/img-main02txt01.png" /></span>
+<span class="anime02"><img src="imgs/img-main02txt02.png" /></span>
+<span class="anime03"><img src="imgs/img-main02txt03.png" /></span>
+</div>
+</li>
+</ul>
+</div>
+</div><!-- /#slider -->
+</div><!-- / .mainVisual -->
+<div id="mainContent" class="article">
+<div id="date"></div>
+<div class="wrap clearfix">
+<div class="lClm">
+<ul class="clearfix">
+<li class="newsBox icn">
+<div class="news">
+<h3 class="ttl">ニュースリリース</h3>
+
+<dl>
+<dt class="up">2017.8.15</dt>
+<dd>「主要株主の異動に関するお知らせ」を<br />掲載いたしました。<br />詳細は<a href="ir/index.html">こちら</a>をご覧ください。</dd>
+</dl>
+
+<dl>
+<dt class="up">2017.8.10</dt>
+<dd>「平成30年3月期　第1四半期決算短信<br />〔日本基準〕(連結)」を掲載いたしました。<br />詳細は<a href="ir/index.html">こちら</a>をご覧ください。</dd>
+</dl>
+
+<dl>
+<dt class="up">2017.7.28</dt>
+<dd>「当社による The Prospect Japan Fund<br /> Limited の全株式取得に関するお知らせ」を<br />掲載しました。詳細は<a href="ir/index.html">こちら</a>をご覧ください。</dd>
+</dl>
+
+<dl>
+<dt class="up">2017.7.26</dt>
+<dd>事業の進捗に関するお知らせ<br />詳細は<a href="ir/index.html">こちら</a>をご覧ください。</dd>
+</dl>
+
+<dl>
+<dt class="up">2017.7.20</dt>
+<dd>「The Prospect Japan Fund Limitedの<br />裁判所集会および株主の集会における<br />承認決議ならびに募集株式の募集事項に<br />関するお知らせ」を掲載いたしました。<br />詳細は<a href="ir/index.html">こちら</a>をご覧ください。</dd>
+</dl>
+
+<dl>
+<dt class="up">2017.6.28</dt>
+<dd>「当社による The Prospect Japan Fund  <br />Limited の全株式取得提案に係るスキーム・<br />ドキュメントの発送に関するお知らせ」を<br />掲載いたしました。<br />詳細は<a href="ir/index.html">こちら</a>をご覧ください。</dd>
+</dl>
+
+<dl>
+<dt class="up">2017.6.13</dt>
+<dd>「第116回定時株主総会招集ご通知」<br />を掲載いたしました。<br />詳細は<a href="ir/index.html">こちら</a>をご覧ください。</dd>
+</dl>
+
+<dl>
+<dt class="up">2017.6.1</dt>
+<dd>「募集株式の募集事項に関するお知らせ」<br />を掲載いたしました。<br />詳細は<a href="ir/index.html">こちら</a>をご覧ください。</dd>
+</dl>
+
+<dl>
+<dt class="up">2017.5.31</dt>
+<dd>「The Prospect Japan Fund Limitedを<br />完全子会社化するための友好的な買収手続き<br />開始の合意および定時株主総会の付議議案に関する<br />お知らせ」を掲載いたしました。<br />詳細は<a href="ir/index.html">こちら</a>をご覧ください。</dd>
+</dl>
+
+<dl>
+<dt class="up">2017.5.31</dt>
+<dd>「金融庁の審判手続開始決定に対する当社の<br />対応について」を掲載いたしました。<br />詳細は<a href="ir/index.html">こちら</a>をご覧ください。</dd>
+</dl>
+
+<dl>
+<dt class="up">2017.5.12</dt>
+<dd>「平成29年3月期 決算短信[日本基準](連結)」を<br />掲載いたしました。<br />詳細は<a href="ir/index.html">こちら</a>をご覧ください。</dd>
+</dl>
+
+<dl>
+<dt class="up">2017.5.12</dt>
+<dd>「平成29年3月期の通期業績と前期の通期業績と<br />の差異に関するお知らせ」を掲載いたしました。<br />詳細は<a href="ir/index.html">こちら</a>をご覧ください。</dd>
+</dl>
+
+<dl>
+<dt class="up">2017.4.14</dt>
+<dd>全国住宅産業協会主催の「第7回優良<br />事業表彰」において優良事業賞を<br />受賞致しました。詳細は<a href="ir/index.html">こちら</a>をご覧ください。</dd>
+</dl>
+
+<dl>
+<dt class="up">2017.4.5</dt>
+<dd>事業の進捗に関するお知らせ<br />詳細は<a href="ir/index.html">こちら</a>をご覧ください。</dd>
+</dl>
+
+<dl>
+<dt class="up">2017.3.22</dt>
+<dd>「証券取引等監視委員会による<br />課徴金納付命令の勧告と<br />当社の見解について」を掲載いたしました。<br />詳細は<a href="ir/index.html">こちら</a>をご覧ください。</dd>
+</dl>
+
+<dl>
+<dt class="up">2017.3.17</dt>
+<dd>「福島ユナイテッドＦＣとのオフィシャル<br />クラブパートナー契約締結のお知らせ」を<br />掲載いたしました。詳細は<a href="ir/index.html">こちら</a>をご覧ください。</dd>
+</dl>
+
+<dl>
+<dt class="up">2017.2.13</dt>
+<dd>「平成29年3月期　第3四半期決算短信<br />〔日本基準〕(連結)」を掲載いたしました。<br />詳細は<a href="ir/index.html">こちら</a>をご覧ください。</dd>
+</dl>
+
+<dl>
+<dt class="up">2017.2.10</dt>
+<dd>東京ヴェルディとのコーポレートパートナー<br />契約更新のお知らせ<br />詳細は<a href="ir/index.html">こちら</a>をご覧ください。</dd>
+</dl>
+
+<dl>
+<dt class="up">2017.1.10</dt>
+<dd>The Prospect Japan Fund Limited買収の<br />協議に関するお知らせ<br />詳細は<a href="ir/index.html">こちら</a>をご覧ください。</dd>
+</dl>
+
+<dl>
+<dt class="up">2017.1.5</dt>
+<dd>事業の進捗に関するお知らせ<br />詳細は<a href="ir/index.html">こちら</a>をご覧ください。</dd>
+</dl>
+
+<dl>
+<dt class="up">2017.1.5</dt>
+<dd>アドバイザリーボード設置のお知らせ<br />詳細は<a href="ir/index.html">こちら</a>をご覧ください。</dd>
+</dl>
+
+<dl>
+<dt class="up">2016.12.16</dt>
+<dd>ロシアRFPグループとの共同投資に関する<br />
+  意向表明書締結のお知らせ<br />詳細は<a href="ir/index.html">こちら</a>をご覧ください。</dd>
+</dl>
+
+<dl>
+<dt class="up">2016.12.6</dt>
+<dd>平成29年3月期配当予想の修正に<br />
+  関するお知らせ<br />詳細は<a href="ir/index.html">こちら</a>をご覧ください。</dd>
+</dl>
+
+<dl>
+<dt class="up">2016.11.11</dt>
+<dd>「平成29年3月期　第2四半期決算短信<br />〔日本基準〕(連結)」を掲載いたしました。<br />詳細は<a href="ir/index.html">こちら</a>をご覧ください。</dd>
+</dl>
+
+<dl>
+<dt class="up">2016.10.3</dt>
+<dd>「事業の進捗に関するお知らせ」を<br />掲載いたしました。<br />詳細は<a href="ir/index.html">こちら</a>をご覧ください。</dd>
+</dl>
+
+<dl>
+<dt class="up">2016.8.24</dt>
+<dd>「ソーラー事業（新規事業）における売電開始に<br />関するお知らせ」を掲載いたしました。<br />詳細は<a href="ir/index.html">こちら</a>をご覧ください。</dd>
+</dl>
+
+<dl>
+<dt class="up">2016.8.10</dt>
+<dd>「KEAUHOU PLACEプロジェクトの進捗状況に<br />ついて」を掲載いたしました。<br />詳細は<a href="ir/index.html">こちら</a>をご覧ください。</dd>
+</dl>
+
+<dl>
+<dt class="up">2016.8.10</dt>
+<dd>「平成29年3月期　第1四半期決算短信<br />〔日本基準〕(連結)」を掲載いたしました。<br />詳細は<a href="ir/index.html">こちら</a>をご覧ください。</dd>
+</dl>
+
+<dl>
+<dt class="up">2016.8.10</dt>
+<dd>「営業外費用（為替差損）の計上に<br />関するお知らせ」を掲載いたしました。<br />詳細は<a href="ir/index.html">こちら</a>をご覧ください。</dd>
+</dl>
+<dl>
+<dt class="up">2016.7.5</dt>
+<dd>「自己株式の取得状況および取得終了に<br />関するお知らせ」を掲載いたしました。<br />詳細は<a href="ir/index.html">こちら</a>をご覧ください。</dd>
+</dl>
+<dl>
+<dt class="up">2016.6.28</dt>
+<dd>「ソーラー事業の進捗に関するお知らせ」を<br />掲載いたしました。<br />詳細は<a href="ir/index.html">こちら</a>をご覧ください。</dd>
+</dl>
+
+<dl>
+<dt class="up">2016.6.28</dt>
+<dd>「KEAUHOU PLACEプロジェクトの進捗状況に<br />ついて」を掲載いたしました。<br />詳細は<a href="ir/index.html">こちら</a>をご覧ください。</dd>
+</dl>
+
+<dl>
+<dt class="up">2016.6.3</dt>
+<dd>「115回定時株主総会招集ご通知」を<br />掲載いたしました。<br />詳細は<a href="ir/index.html">こちら</a>をご覧ください。</dd>
+</dl>
+<dl>
+<dt class="up">2016.6.2</dt>
+<dd>「自己株式の取得状況に関するお知らせ」を<br />掲載いたしました。<br />詳細は<a href="ir/index.html">こちら</a>をご覧ください。</dd>
+</dl>
+<dl>
+<dt class="up">2016.6.1</dt>
+<dd>「広島県東広島市におけるメガソーラー事業へ<br />出資及び最大出力18ＭＷの太陽光発電所の建設の<br />着手に関するお知らせ」を掲載いたしました。<br />詳細は<a href="ir/index.html">こちら</a>をご覧ください。</dd>
+</dl>
+</div><!-- / .news -->
+</li>
+<li class="topicsBox icn">
+<div class="topics">
+<h3 class="ttl">トピックス</h3>
+
+<dl>
+<dt class="up">2017.8.1</dt>
+<dd>「グローベル ザ・高円寺プレミアム」<br />
+JR中央線「高円寺」駅より徒歩5分<br />東京メトロ丸ノ内線「新高円寺」駅より徒歩9分<br />1R+K 2800万円台～、1LDK 3500万円台～ <br />第1期完売御礼！第2期ﾓﾃﾞﾙﾙｰﾑｵｰﾌﾟﾝ！<br />
+第2期8月下旬販売開始予定！物件サイトは→<a href=" http://ac.ebis.ne.jp/tr_set.php?argument=g4dX6KpG&ai=text_kouenjip " target="_blank">こちら</a></dd>
+</dl>
+
+<dl>
+<dt class="up">2017.8.1</dt>
+<dd>「ザ・グローベル 南大塚(桜並木プロジェクト)」<br />
+JR山手線「大塚」駅南口より徒歩4分<br />東京メトロ丸ノ内線「新大塚」駅より徒歩4分<br />1R+K 3000万円台～、1LDK 3500万円台～ <br />第1期完売御礼！第2期ﾓﾃﾞﾙﾙｰﾑｵｰﾌﾟﾝ！<br />
+第2期8月下旬販売開始予定！<br />物件サイトは→<a href=" http://ac.ebis.ne.jp/tr_set.php?argument=g4dX6KpG&ai=text_sootsuka " target="_blank">こちら</a></dd>
+</dl>
+
+<dl>
+<dt class="up">2017.7.21</dt>
+<dd>「グローベル ザ・国分寺クリスタ」<br />
+第2期先着順受付中！<br />1LDK・3600万円台～2LDK・4300万円台～<br />全邸南面向き＆角住戸100％プラン<br />
+物件サイトは→<a href=" http://ac.ebis.ne.jp/tr_set.php?argument=g4dX6KpG&ai=text_kokubunji " target="_blank">こちら</a></dd>
+</dl>
+
+<dl>
+<dt class="up">2017.7.21</dt>
+<dd>「グローベルタワー梅島」<br />
+現地内覧ルームオープン！<br />全邸南向き、1LDK～3LDK<br />
+物件サイトは→<a href="http://ac.ebis.ne.jp/tr_set.php?argument=g4dX6KpG&ai=text_umejima" target="_blank">こちら</a></dd>
+</dl>
+
+
+<dl>
+<dt class="up">2017.7.21</dt>
+<dd>「グローベル横浜天王町」<br />
+先着順受付中！南向き<br />1LDK・2,400万円台～ 現地内覧ﾙｰﾑｵｰﾌﾟﾝ！<br />
+物件サイトは→<a href="http://ac.ebis.ne.jp/tr_set.php?argument=g4dX6KpG&ai=text_tennocho" target="_blank">こちら</a></dd>
+</dl>
+
+<dl>
+<dt class="up">2017.7.21</dt>
+<dd>「グローベル北戸田　ステーションアリーナ」<br />
+上層階・3LDK・3,800万円台～<br />現地内覧ルームオープン！<br />
+物件サイトは→<a href="http://ac.ebis.ne.jp/tr_set.php?argument=g4dX6KpG&ai=text_kitatoda" target="_blank">こちら</a></dd>
+</dl>
+
+</div><!-- / .news -->
+</li>
+<li class="btBox clm2">
+<ul class="clearfix ahoverArea">
+<li><a href="ir/index.html"><img src="imgs/bt-ir.png" alt="" /></a></li>
+<li><a href="youchi-boshu/index.html"><img src="imgs/bt-business.png" alt="" /></a></li>
+</ul>
+</li>
+</ul>
+</div><!-- / .lClm -->
+<div class="cClm">
+<ul class="clearfix ahoverArea">
+<li class="icn"><a href="company/index.html"><img src="imgs/bnr-company.jpg" alt="" /></a></li>
+<li><a href="sales/index.html"><img src="imgs/bnr-globelmansion.jpg" alt="" /></a></li>
+<li class="icn"><a href="results/index.html"><img src="imgs/bnr-result.jpg" alt="" /></a></li>
+</ul>
+</div><!-- / .cClm -->
+<div class="rClm">
+<ul class="clearfix ahoverArea">
+<li class="icn"><a href="message/index.html"><img src="imgs/bnr-message.jpg" alt="" /></a></li>
+<li class="icn"><a href="business/index.html"><img src="imgs/bnr-realestate.jpg" alt="" /></a></li>
+<li class="icn"><a href="solar/index.html"><img src="imgs/bnr-sun.jpg" alt="" /></a></li>
+<li class="icn"><a href="group/index.html"><img src="imgs/bnr-group.jpg" alt="" /></a></li>
+</ul>
+</div><!-- / .rClm -->
+
+</div><!-- / .wrap -->
+</div><!-- / #article -->
+</div><!-- / #container -->
+<!-- topicFooterPackage -->
+<script type="text/javascript" src="common/js/topicFooterPackage.js" charset="UTF-8" id="tfpJS"></script>
+<!-- / topicFooterPackage -->
+<!-- //////////////////////////////////////////////////////////////////////////////////////////////////// -->
+</div><!-- / .page -->
+<noscript>
+<div class="noscript" id="noscript">
+<div class="content">
+当サイトを最適な状態で閲覧していただくにはブラウザの<span>JavaScriptを有効</span>にしてご利用下さい。<br />
+JavaScriptを無効のままご覧いただいた場合には一部機能がご利用頂けない場合や正しい情報を取得できない場合がございます。
+</div>
+</div><!-- / #noscript -->
+</noscript>
+<div id="logtag">
+</div><!-- / #logtag -->
+<!-- EBiS common tag version2.00 start -->
+<script type="text/javascript">
+<!--
+(function() {
+    var host = (location.protocol == 'http:')
+             ? 'http://ac.ebis.ne.jp'
+             : 'https://ac.ebis.ne.jp';
+    var argument = 'g4dX6KpG';
+    var url      = host + '/ct_tag.php?argument=' + argument;
+    document.write('<scr' + 'ipt type="text/javascript" src="' + url + '"></scr' + 'ipt>');
+})();
+//-->
+</script>
+<!-- EBiS common tag end -->
+<!-- rem.js -->
+<script type="text/javascript" src="common/js/rem.js"></script>
+</body>
+</html>

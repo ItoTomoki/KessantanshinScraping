@@ -1,0 +1,788 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="imagetoolbar" content="no" />
+<meta name="robots" content="INDEX, FOLLOW">
+<meta name="description" content="クリヤマ株式会社の事業内容をご紹介。ゴム・樹脂製品を中心に、建機農機・電力・船舶向け産業用部材、各種ホース、セラミックタイル・点字タイル等の建設用資材及びロングパイル人工芝・全天候型トラックや体育施設用の床材等のスポーツ施設資材の販売・施工を行っています。" />
+<meta name="keywords" content="クリヤマ,事業,ゴム,樹脂,タイル,ホース,スポーツ,人工芝,ジョイント,床材,橋梁,シール材" />
+<title>クリヤマホールディングス株式会社</title>
+<link rel="shortcut icon" href="/img/favicon.ico" />
+<link rel="stylesheet" type="text/css" href="/css/format.css" />
+<!-- Fontsize -->
+<link rel="stylesheet" type="text/css" media="all" href="/css/font_m.css" />
+<link rel="alternate stylesheet" type="text/css" href="/css/font_s.css" title="fontsizeSmall" />
+<link rel="alternate stylesheet" type="text/css" href="/css/font_m.css" title="fontsizeStandard" />
+<link rel="alternate stylesheet" type="text/css" href="/css/font_l.css" title="fontsizeLarge" />
+<link rel="stylesheet" type="text/css" href="/css/index/flexcrollstyles.css" />
+<script type="text/javascript" src="/js/flexcroll.js"></script>
+<script type="text/javascript" src="/js/styleswitcher.js"></script>
+<!-- /Fontsize -->
+<script type="text/javascript" src="/js/system.js"></script>
+<script type="text/javascript" src="/js/jquery-1.9.0.min.js"></script>
+<script language="javascript" src="/js/jquery.cookie.js"></script>
+<script type="text/javascript" src="/js/common.js"></script>
+<link rel="stylesheet" type="text/css" href="/css/index/index.css" />
+<!--TopBanner-->
+<script type="text/javascript" src="/js/top.js"></script>
+<script type="text/javascript" src="/js/top_banner.js"></script>
+<script type="text/javascript" src="/js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="/js/fileSizeGetter.js"></script>
+<script type="text/javascript" src="/js/new_icon.js"></script>
+<!--/TopBanner-->
+<link rel="stylesheet" href="/css/index/top_new.css" />
+<script language="JavaScript">
+<!--
+// bpref = tab body prefix, hpref = tab header prefix
+function seltab(bpref, hpref, id_max, selected) {
+  if (! document.getElementById) return;
+  for (i = 0; i <= id_max; i++) {
+    if (! document.getElementById(bpref + i)) continue;
+    if (i == selected) {
+      document.getElementById(bpref + i).style.display = "inline";
+      document.getElementById(bpref + i).style.position = "";
+      document.getElementById(hpref + i).className = "open";
+    } else {
+      document.getElementById(bpref + i).style.display = "none";
+      document.getElementById(bpref + i).style.position = "absolute";
+      document.getElementById(hpref + i).className = "close";
+    }
+  }
+}
+// -->
+</script>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-32800781-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<script type="text/javascript">
+function changeDisplay(elemID, iconID ){
+	var elem = document.getElementById(elemID);
+	var icon = document.getElementById(iconID);
+	if( elem.style.display=="none"){
+		elem.style.display="block";
+		icon.src = "/img/si_close.gif";
+	} else {
+		elem.style.display="none";
+		icon.src = "/img/si_open.gif";
+	}
+}
+</script>
+<meta http-equiv="Content-Language" content="ja" />
+<link hreflang="en" href="https://www.kuriyama-holdings.com/en/" rel="alternate" />
+</head>
+
+<body id="top" class="INDEX_BODY">
+<div id="PAGE" class="INDEX_PAGE">
+<div class="FRAME">
+<div class="HEADER">
+<a class="LOGO" href="/" title="クリヤマホールディングス株式会社" rel="home"><img src="/img/logo.gif" alt="クリヤマ株式会社" /></a>
+<div class="FONT_SIZE">
+<span style="font-size:10px;">文字のサイズ</span>
+<ul>
+<li><a class="FONT_S" href="#"><img src="/img/font_size_s.gif" alt="小" /></a></li>
+<li><a class="FONT_M" href="#"><img src="/img/font_size_m.gif" alt="中" /></a></li>
+<li><a class="FONT_L" href="#"><img src="/img/font_size_l.gif" alt="大" /></a></li>
+</ul>
+</div>
+
+<form class="SEARCH" action="//www.google.com/search" method="get">
+<input type="hidden" name="hl" value="ja" />
+<input type="hidden" name="as_sitesearch" value="http://www.kuriyama.co.jp/" />
+<input class="TEXT" type="text" name="q" size="16" value="サイト内検索"	onfocus="if(this.value == this.defaultValue) { this.value = ''; }"  onblur="if(this.value == '') { this.value = this.defaultValue; }" />
+<input class="BUTTON" type="submit" value="　" />
+</form>
+
+<ul class="H_SUB">
+<li><a class="H_SITEMAP" href="/sitemap.html" target="_blank">サイトマップ</a></li>
+<li><a class="H_ENGLISH" href="/en/">English</a></li>
+<li><a class="H_CONTACT" href="/contact/">お問い合わせ</a></li>
+</ul>
+</div><!--HEADER-->
+
+<ul class="H_MENU">
+<li><a class="H_HOME" href="/" title="クリヤマホールディングス株式会社" rel="home"><img src="/img/h_menu_home.gif" alt="HOME" /></a></li>
+<li><a class="H_COMPANY" href="/company.html"><img src="/img/h_menu_company.gif" alt="企業概要" /></a></li>
+<li><a class="H_BUSINESS" href="/business.html"><img src="/img/h_menu_business.gif" alt="事業内容" /></a></li>
+<li><a class="H_PRESS" href="/press.html"><img src="/img/h_menu_press.gif" alt="プレスリリース" /></a></li>
+<li><a class="H_IR" href="/ir.html"><img src="/img/h_menu_ir.gif" alt="投資家情報" /></a></li>
+<li><a class="H_RECRUIT" href="/recruit_new.html" style="border:none;"><img src="/img/h_menu_recruit.gif" alt="採用情報" /></a></li>
+</ul>
+
+
+
+
+<!-- /News -->
+<div id="FEATURE">
+<div id="DEFAULT"><h1 style="margin:0px;"><div class="IMAGE"><a href="./"><img src="/img/index/top.jpg" alt=""/></a></div></h1></div>
+<div class="IMAGE"><a href="/business/bu_01_1.html"><img src="/img/index/top1.jpg" alt="" /></a></div>
+<div class="IMAGE"><a href="/business/bu_06_1.html"><img src="/img/index/top6.jpg" alt="" /></a></div>
+<div class="IMAGE"><a href="/business/bu_02_1.html"><img src="/img/index/top2.jpg" alt="" /></a></div>
+<div class="IMAGE"><a href="/business/bu_03_1.html"><img src="/img/index/top3.jpg" alt="" /></a></div>
+<div class="IMAGE"><a href="/business/bu_04_1.html"><img src="/img/index/top4.jpg" alt="" /></a></div>
+<div class="IMAGE"><a href="/business/bu_05_1.html"><img src="/img/index/top5.jpg" alt="" /></a></div>
+<div class="IMAGE"><a href="/"><img src="/img/index/top.jpg" alt="" /></a></div>
+
+<div class="FEATURE"><a href="/business/bu_01_1.html"><img src="/img/index/top1.jpg" alt="北米事業" /></a></div>
+<div class="FEATURE"><a href="/business/bu_06_1.html"><img src="/img/index/top6.jpg" alt="欧州事業" /></a></div>
+<div class="FEATURE"><a href="/business/bu_02_1.html"><img src="/img/index/top2.jpg" alt="産業資材事業" /></a></div>
+<div class="FEATURE"><a href="/business/bu_03_1.html"><img src="/img/index/top3.jpg" alt="建築資材事業" /></a></div>
+<div class="FEATURE"><a href="/business/bu_04_1.html"><img src="/img/index/top4.jpg" alt="スポーツ施設資材事業" /></a></div>
+<div class="FEATURE"><a href="/business/bu_05_1.html"><img src="/img/index/top5.jpg" alt="その他事業" /></a></div>
+
+<img class="G_CAP" src="/img/index/t_group.gif" alt="クリヤマグループ" />
+
+</div><!--FEATURE-->
+
+<div id="top_mid">
+<ul class="F_B">
+<li class="F_BUTTON"><a href="/business/bu_01_1.html"><img src="/img/index/banner_new1-.jpg" alt="北米事業"></a></li>
+<li class="F_BUTTON"><a href="/business/bu_06_1.html"><img src="/img/index/banner_new6-.jpg" alt="欧州事業"></a></li>
+<li class="F_BUTTON"><a href="/business/bu_02_1.html"><img src="/img/index/banner_new2-.jpg" alt="産業資材事業"></a></li>
+<li class="F_BUTTON"><a href="/business/bu_03_1.html"><img src="/img/index/banner_new3-.jpg" alt="建築資材事業"></a></li>
+<li class="F_BUTTON"><a href="/business/bu_04_1.html"><img src="/img/index/banner_new4-.jpg" alt="スポーツ施設資材事業"></a></li>
+<li class="F_BUTTON"><a href="/business/bu_05_1.html"><img src="/img/index/banner_new5-.jpg" alt="その他事業"></a></li>
+</ul>
+
+<div id="top_sbanner">
+<div>
+<ul>
+<li><a href="http://www.kuriyama.co.jp/" target="_blank" id="sbanner01"><img src="/img/index/t_sub1-.jpg" alt="クリヤマ（株）" /><span>クリヤマ（株）</span></a></li>
+<li><a href="http://www.kuriyama.com/" target="_blank" id="sbanner02"><img src="/img/index/t_sub2-.jpg" alt="Kuriyama of America.Inc." /><span>Kuriyama of America.Inc.</span></a></li>
+<li><a href="http://kuritec.com/" target="_blank" id="sbanner03"><img src="/img/index/t_sub3-.jpg" alt="Kuri Tec Corporation" /><span>Kuri Tec Corporation</span></a></li>
+<li><a href="http://www.sun-awks.co.jp/" target="_blank" id="sbanner04"><img src="/img/index/t_sub4-.jpg" alt="（株）サンエー" /><span>（株）サンエー</span></a></li>
+<li><a href="http://www.airmonte.co.jp/" target="_blank" id="sbanner05"><img src="/img/index/t_sub5-.jpg" alt="エアモンテ（株）" /><span>エアモンテ（株）</span></a></li>
+<li><a href="https://www.koc-win.com/" target="_blank" id="sbanner06"><img src="/img/index/t_sub6-.jpg" alt="KOC （株）" /><span>KOC （株）</span></a></li>
+<li><a href="http://www.kuriyama.co.jp/" target="_blank" id="sbanner01"><img src="/img/index/t_sub1-.jpg" alt="クリヤマ（株）" /><span>クリヤマ（株）</span></a></li>
+<li><a href="http://www.kuriyama.com/" target="_blank" id="sbanner02"><img src="/img/index/t_sub2-.jpg" alt="Kuriyama of America.Inc." /><span>Kuriyama of America.Inc.</span></a></li>
+<li><a href="http://kuritec.com/" target="_blank" id="sbanner03"><img src="/img/index/t_sub3-.jpg" alt="Kuri Tec Corporation" /><span>Kuri Tec Corporation</span></a></li>
+<li><a href="http://www.airmonte.co.jp/" target="_blank" id="sbanner05"><img src="/img/index/t_sub5-.jpg" alt="エアモンテ（株）" /><span>エアモンテ（株）</span></a></li>
+<li><a href="https://www.koc-win.com/" target="_blank" id="sbanner06"><img src="/img/index/t_sub6-.jpg" alt="KOC （株）" /><span>KOC （株）</span></a></li>
+</ul>
+</div>
+<a href="#" id="sbanner_arrow_l"><img src="/img/index/sub_back-.gif" alt="" /></a>
+<a href="#" id="sbanner_arrow_r"><img src="/img/index/sub_next-.gif" alt="" /></a>
+</div><!-- /top_sbanner -->
+<div id="top_pbanner">
+<ul>
+<li><a href="http://www.kuriyama.co.jp/" target="_blank" id="pbanner01"><img src="/img/index/sub1.jpg" alt="クリヤマ（株）" /></a></li>
+<li><a href="http://www.kuriyama.com/" target="_blank" id="pbanner02"><img src="/img/index/sub2.jpg" alt="Kuriyama of America.Inc." /></a></li>
+<li><a href="http://kuritec.com/" target="_blank" id="pbanner03"><img src="/img/index/sub3.jpg" alt="Kuri Tec Corporation" /></a></li>
+<li><a href="http://www.sun-awks.co.jp/" target="_blank" id="pbanner04"><img src="/img/index/sub4.jpg" alt="（株）サンエー" /></a></li>
+<li><a href="http://www.airmonte.co.jp/" target="_blank" id="pbanner05"><img src="/img/index/sub5.jpg" alt="エアモンテ（株）" /></a></li>
+<li><a href="https://www.koc-win.com/" target="_blank" id="pbanner06"><img src="/img/index/sub6.jpg" alt="KOC （株）" /></a></li>
+</ul>
+<!--<a href="#" id="pbanner_closer">[▼]</a>-->
+</div><!-- /top_pbanner -->
+</div><!-- /top_mid -->
+
+<!-- 2016.04.18 変更前
+<div class="TOPICS">2012年10月1日、当社グループは持株会社制へ移行いたしました。<br />
+クリヤマホールディングス株式会社のWebサイトを公開いたしました。</div>
+-->
+<!-- 2016.04.18 変更後 -->
+<!--<div class="TOPICS">
+2016年4月14日以降に、九州で発生した地震により罹災された皆様へ、<br />
+心よりお見舞い申し上げますとともに、一日も早い復旧、復興をお祈り申し上げます。
+</div>-->
+
+
+
+<div class="NEWS"><h2><img src="/img/index/h2_news.gif" alt="ニュースリリース" /></h2>
+
+<ul class="N_TAB tabheader">
+<li id="head1" class="open"><a id="TOPTAB01" href=""><span>What&#039;s new</span></a></li>
+<li id="head2" class="close"><a id="TOPTAB02" href=""><span>決算・適時開示</span></a></li>
+<li id="head3" class="close"><a id="TOPTAB03" href=""><span>IR資料</span></a></li>
+<li id="head4" class="close"><a id="TOPTAB04" href=""><span>お知らせ</span></a></li>
+</ul>
+
+<div class="tabbody">
+<div id="box1">
+<div id="content">
+<div id="mycustomscroll" class="flexcroll">
+<dl class="F2">
+<dt>2017/08/10		<img src="/img/i_ir.gif" alt="IR資料" /></dt>
+<dd>   
+<a href="/ir/uploads/2017_2Q_houkoku.pdf" title="第78期　第2四半期報告書" target="_blank" class="pdfLink"><span>第78期　第2四半期報告書</span><script>new_mark(2017,08,10,"new")</script><img class="PDF_I" src="/img/pdf.gif" alt="pdf" /></a>
+
+</dd>
+</dl> 
+<dl class="F2">
+<dt>2017/08/10		<img src="/img/i_earnings.gif" alt="決算" /></dt>
+<dd>   
+<a href="/ir/uploads/2017_2Q_tanshinn.pdf" title="平成29年度12月期　第2四半期決算短信" target="_blank" class="pdfLink"><span>平成29年度12月期　第2四半期決算短信</span><script>new_mark(2017,08,10,"new")</script><img class="PDF_I" src="/img/pdf.gif" alt="pdf" /></a>
+
+</dd>
+</dl> 
+<dl class="F2">
+<dt>2017/08/04		<img src="/img/i_disclosure.gif" alt="disclosure" /></dt>
+<dd>   
+<a href="/ir/uploads/press_release_2017_0804.pdf" title="業績予想の修正並びに特別利益の計上に関するお知らせ" target="_blank" class="pdfLink"><span>業績予想の修正並びに特別利益の計上に関するお知らせ</span><script>new_mark(2017,08,04,"new")</script><img class="PDF_I" src="/img/pdf.gif" alt="pdf" /></a>
+
+</dd>
+</dl> 
+<dl class="F2">
+<dt>2017/05/12		<img src="/img/i_ir.gif" alt="IR資料" /></dt>
+<dd>   
+<a href="/ir/uploads/2017_05_12_houkokusyo.pdf" title="第78期　第1四半期報告書" target="_blank" class="pdfLink"><span>第78期　第1四半期報告書</span><script>new_mark(2017,05,12,"new")</script><img class="PDF_I" src="/img/pdf.gif" alt="pdf" /></a>
+
+</dd>
+</dl> 
+<dl class="F2">
+<dt>2017/05/12		<img src="/img/i_earnings.gif" alt="決算" /></dt>
+<dd>   
+<a href="/ir/uploads/2017_05_12_1Q_tannshinn2.pdf" title="平成29年度12月期　第１四半期決算短信" target="_blank" class="pdfLink"><span>平成29年度12月期　第１四半期決算短信</span><script>new_mark(2017,05,12,"new")</script><img class="PDF_I" src="/img/pdf.gif" alt="pdf" /></a>
+
+</dd>
+</dl> 
+<dl class="F2">
+<dt>2017/05/12		<img src="/img/i_disclosure.gif" alt="disclosure" /></dt>
+<dd>   
+<a href="/ir/uploads/press_release_2017_05_121.pdf" title="子会社株式の譲渡に関するお知らせ" target="_blank" class="pdfLink"><span>子会社株式の譲渡に関するお知らせ</span><script>new_mark(2017,05,12,"new")</script><img class="PDF_I" src="/img/pdf.gif" alt="pdf" /></a>
+
+</dd>
+</dl> 
+<dl class="F2">
+<dt>2017/04/21		<img src="/img/i_information.gif" alt="information" /></dt>
+<dd>   
+<a href="/ir/uploads/2017_4_20_news_release.pdf" title="日刊工業新聞に当社子会社（クリヤマ㈱）の記事が掲載されました" target="_blank" class="pdfLink"><span>日刊工業新聞に当社子会社（クリヤマ㈱）の記事が掲載されました</span><script>new_mark(2017,04,21,"new")</script><img class="PDF_I" src="/img/pdf.gif" alt="pdf" /></a>
+
+</dd>
+</dl> 
+<dl class="F2">
+<dt>2017/03/28		<img src="/img/i_ir.gif" alt="IR資料" /></dt>
+<dd>   
+<a href="/ir/uploads/dai77_yuukasyoukenhoukokusyo2.pdf" title="第77期　有価証券報告書" target="_blank" class="pdfLink"><span>第77期　有価証券報告書</span><script>new_mark(2017,03,28,"new")</script><img class="PDF_I" src="/img/pdf.gif" alt="pdf" /></a>
+
+</dd>
+</dl> 
+<dl class="F2">
+<dt>2017/03/28		<img src="/img/i_disclosure.gif" alt="disclosure" /></dt>
+<dd>   
+<a href="/ir/uploads/2017_3_28_KCI_JINJI2.pdf" title="当社子会社（Kuriyama Canada,Inc.）の役員人事に関するお知らせ" target="_blank" class="pdfLink"><span>当社子会社（Kuriyama Canada,Inc.）の役員人事に関するお知らせ</span><script>new_mark(2017,03,28,"new")</script><img class="PDF_I" src="/img/pdf.gif" alt="pdf" /></a>
+
+</dd>
+</dl> 
+<dl class="F2">
+<dt>2017/03/17		<img src="/img/i_disclosure.gif" alt="disclosure" /></dt>
+<dd>   
+<a href="/ir/uploads/2017_3_17_press-release.pdf" title="当社子会社（クリヤマ株式会社）の組織一部改編・人事異動に関するお知らせ" target="_blank" class="pdfLink"><span>当社子会社（クリヤマ株式会社）の組織一部改編・人事異動に関するお知らせ</span><script>new_mark(2017,03,17,"new")</script><img class="PDF_I" src="/img/pdf.gif" alt="pdf" /></a>
+
+</dd>
+</dl> 
+<dl class="F2">
+<dt>2017/03/10		<img src="/img/i_earnings.gif" alt="決算" /></dt>
+<dd>   
+<a href="/ir/uploads/Briefing-Session-of-2016-Annual-Results3.pdf" title="2016年12月期　決算説明資料" target="_blank" class="pdfLink"><span>2016年12月期　決算説明資料</span><script>new_mark(2017,03,10,"new")</script><img class="PDF_I" src="/img/pdf.gif" alt="pdf" /></a>
+
+</dd>
+</dl> 
+<dl class="F2">
+<dt>2017/03/07		<img src="/img/i_information.gif" alt="information" /></dt>
+<dd>   
+<a href="/ir/meeting.html" title="第77回定時株主総会招集ご通知　連結注記表及び個別注記表を掲載いたしました" target="_blank"><span>第77回定時株主総会招集ご通知　連結注記表及び個別注記表を掲載いたしました</span><script>new_mark(2017,03,07,"new")</script></a>
+
+</dd>
+</dl> 
+<dl class="F2">
+<dt>2017/02/27		<img src="/img/i_ir.gif" alt="IR資料" /></dt>
+<dd>   
+<a href="/ir/uploads/2017_2_27_press-release.pdf" title="取締役会全体の実効性における分析・評価について" target="_blank" class="pdfLink"><span>取締役会全体の実効性における分析・評価について</span><script>new_mark(2017,02,27,"new")</script><img class="PDF_I" src="/img/pdf.gif" alt="pdf" /></a>
+
+</dd>
+</dl> 
+<dl class="F2">
+<dt>2017/02/13		<img src="/img/i_disclosure.gif" alt="disclosure" /></dt>
+<dd>   
+<a href="/ir/uploads/2017_2_13_press-release_4.pdf" title="自己株式立会外買付取引（ＴｏＳＴＮｅＴ－３）による自己株式の取得結果に関するお知らせ" target="_blank" class="pdfLink"><span>自己株式立会外買付取引（ＴｏＳＴＮｅＴ－３）による自己株式の取得結果に関するお知らせ</span><script>new_mark(2017,02,13,"new")</script><img class="PDF_I" src="/img/pdf.gif" alt="pdf" /></a>
+
+</dd>
+</dl> 
+<dl class="F2">
+<dt>2017/02/10		<img src="/img/i_disclosure.gif" alt="disclosure" /></dt>
+<dd>   
+<a href="/ir/uploads/2017_2_10_press-release_3.pdf" title="自己株式の取得及び自己株式立会外買付取引（ＴｏＳＴＮｅＴ－３）による買付けに関するお知らせ" target="_blank" class="pdfLink"><span>自己株式の取得及び自己株式立会外買付取引（ＴｏＳＴＮｅＴ－３）による買付けに関するお知らせ</span><script>new_mark(2017,02,10,"new")</script><img class="PDF_I" src="/img/pdf.gif" alt="pdf" /></a>
+
+</dd>
+</dl> 
+<dl class="F2">
+<dt>2017/02/10		<img src="/img/i_disclosure.gif" alt="disclosure" /></dt>
+<dd>   
+<a href="/ir/uploads/2017_2_10_press-release_2.pdf" title="剰余金の配当に関するお知らせ" target="_blank" class="pdfLink"><span>剰余金の配当に関するお知らせ</span><script>new_mark(2017,02,10,"new")</script><img class="PDF_I" src="/img/pdf.gif" alt="pdf" /></a>
+
+</dd>
+</dl> 
+<dl class="F2">
+<dt>2017/02/10		<img src="/img/i_earnings.gif" alt="決算" /></dt>
+<dd>   
+<a href="/ir/uploads/4Q_tannsinn_2016_2_103.pdf" title="平成28年度12月期　決算短信" target="_blank" class="pdfLink"><span>平成28年度12月期　決算短信</span><script>new_mark(2017,02,10,"new")</script><img class="PDF_I" src="/img/pdf.gif" alt="pdf" /></a>
+
+</dd>
+</dl> 
+<dl class="F2">
+<dt>2017/02/10		<img src="/img/i_disclosure.gif" alt="disclosure" /></dt>
+<dd>   
+<a href="/ir/uploads/2017_2_10_KCJ_JINJI.pdf" title="当社子会社（クリヤマ株式会社）の役員人事に関するお知らせ" target="_blank" class="pdfLink"><span>当社子会社（クリヤマ株式会社）の役員人事に関するお知らせ</span><script>new_mark(2017,02,10,"new")</script><img class="PDF_I" src="/img/pdf.gif" alt="pdf" /></a>
+
+</dd>
+</dl> 
+<dl class="F2">
+<dt>2017/02/10		<img src="/img/i_disclosure.gif" alt="disclosure" /></dt>
+<dd>   
+<a href="/ir/uploads/2017_2_10_HD_JINJI.pdf" title="役員人事に関するお知らせ" target="_blank" class="pdfLink"><span>役員人事に関するお知らせ</span><script>new_mark(2017,02,10,"new")</script><img class="PDF_I" src="/img/pdf.gif" alt="pdf" /></a>
+
+</dd>
+</dl> 
+<dl class="F2">
+<dt>2016/11/29		<img src="/img/i_disclosure.gif" alt="disclosure" /></dt>
+<dd>   
+<a href="/ir/uploads/67d4dc894d10e92e6baf1c4e97f1d5051.pdf" title="主要株主である筆頭株主の異動に関するお知らせ" target="_blank" class="pdfLink"><span>主要株主である筆頭株主の異動に関するお知らせ</span><script>new_mark(2016,11,29,"new")</script><img class="PDF_I" src="/img/pdf.gif" alt="pdf" /></a>
+
+</dd>
+</dl> 
+<dl class="F2">
+<dt>2016/11/14		<img src="/img/i_ir.gif" alt="IR資料" /></dt>
+<dd>   
+<a href="/ir/uploads/2016_3Q_reports_kuriyamaholdings_3355.pdf" title="第77期　第3四半期報告書" target="_blank" class="pdfLink"><span>第77期　第3四半期報告書</span><script>new_mark(2016,11,14,"new")</script><img class="PDF_I" src="/img/pdf.gif" alt="pdf" /></a>
+
+</dd>
+</dl> 
+<dl class="F2">
+<dt>2016/11/11		<img src="/img/i_earnings.gif" alt="決算" /></dt>
+<dd>   
+<a href="/ir/uploads/245d0d74ec735e43cb28156043a2fc7e.pdf" title="平成28年度12月期　第3四半期決算短信" target="_blank" class="pdfLink"><span>平成28年度12月期　第3四半期決算短信</span><script>new_mark(2016,11,11,"new")</script><img class="PDF_I" src="/img/pdf.gif" alt="pdf" /></a>
+
+</dd>
+</dl> 
+<dl class="F2">
+<dt>2016/09/16		<img src="/img/i_disclosure.gif" alt="disclosure" /></dt>
+<dd>   
+<a href="/ir/uploads/Jinji_2016.9.16.pdf" title="当社子会社(クリヤマ株式会社)の組織変更及び取締役の人事異動について" target="_blank" class="pdfLink"><span>当社子会社(クリヤマ株式会社)の組織変更及び取締役の人事異動について</span><script>new_mark(2016,09,16,"new")</script><img class="PDF_I" src="/img/pdf.gif" alt="pdf" /></a>
+
+</dd>
+</dl> 
+<dl class="F2">
+<dt>2016/09/06		<img src="/img/i_information.gif" alt="information" /></dt>
+<dd>   
+<a href="http://business.kuriyama.co.jp/sports/report/rio-olympics-2016" title="クリヤマ(株)取扱商品がリオデジャネイロオリンピックの各種競技施設で使用されました。" target="_blank"><span>クリヤマ(株)取扱商品がリオデジャネイロオリンピックの各種競技施設で使用されました。</span><script>new_mark(2016,09,06,"new")</script></a>
+
+</dd>
+</dl> 
+<dl class="F2">
+<dt>2016/08/25		<img src="/img/i_information.gif" alt="information" /></dt>
+<dd>   
+<a href="/ir/uploads/News-release-2016_8_261.pdf" title="産経新聞にリオデジャネイロオリンピック･パラリンピック陸上競技で採用されたイタリアのモンド社製「スーパーＸ」（クリヤマ(株)が日本の販売代理店契約締結）に関する記事が掲載されました。" target="_blank" class="pdfLink"><span>産経新聞にリオデジャネイロオリンピック･パラリンピック陸上競技で採用されたイタリアのモンド社製「スーパーＸ」（クリヤマ(株)が日本の販売代理店契約締結）に関する記事が掲載されました。</span><script>new_mark(2016,08,25,"new")</script><img class="PDF_I" src="/img/pdf.gif" alt="pdf" /></a>
+
+</dd>
+</dl> 
+<dl class="F2">
+<dt>2016/08/12		<img src="/img/i_ir.gif" alt="IR資料" /></dt>
+<dd>   
+<a href="/ir/uploads/2016_2Q_reports_kuriyamaholdings_3355.pdf" title="第77期　第2四半期報告書" target="_blank" class="pdfLink"><span>第77期　第2四半期報告書</span><script>new_mark(2016,08,12,"new")</script><img class="PDF_I" src="/img/pdf.gif" alt="pdf" /></a>
+
+</dd>
+</dl>
+</div>
+</div>
+</div><!--box1-->
+<div id="box2">
+<div id="content">
+<div id="mycustomscroll" class='flexcroll'>
+<dl class="F2">
+<dt>2017/08/10
+
+
+<img src="/img/i_earnings.gif" alt="決算" />
+
+</dt>
+<dd>
+   
+<a href="/ir/uploads/2017_2Q_tanshinn.pdf" title="平成29年度12月期　第2四半期決算短信" target="_blank" class="pdfLink"><span>平成29年度12月期　第2四半期決算短信</span><script>new_mark(2017,08,10,"new")</script><img class="PDF_I" src="/img/pdf.gif" alt="pdf" /></a>
+
+</dd></dl> 
+<dl class="F2">
+<dt>2017/08/04
+
+<img src="/img/i_disclosure.gif" alt="disclosure" />
+
+
+</dt>
+<dd>
+   
+<a href="/ir/uploads/press_release_2017_0804.pdf" title="業績予想の修正並びに特別利益の計上に関するお知らせ" target="_blank" class="pdfLink"><span>業績予想の修正並びに特別利益の計上に関するお知らせ</span><script>new_mark(2017,08,04,"new")</script><img class="PDF_I" src="/img/pdf.gif" alt="pdf" /></a>
+
+</dd></dl> 
+<dl class="F2">
+<dt>2017/05/12
+
+
+<img src="/img/i_earnings.gif" alt="決算" />
+
+</dt>
+<dd>
+   
+<a href="/ir/uploads/2017_05_12_1Q_tannshinn2.pdf" title="平成29年度12月期　第１四半期決算短信" target="_blank" class="pdfLink"><span>平成29年度12月期　第１四半期決算短信</span><script>new_mark(2017,05,12,"new")</script><img class="PDF_I" src="/img/pdf.gif" alt="pdf" /></a>
+
+</dd></dl> 
+<dl class="F2">
+<dt>2017/05/12
+
+<img src="/img/i_disclosure.gif" alt="disclosure" />
+
+
+</dt>
+<dd>
+   
+<a href="/ir/uploads/press_release_2017_05_121.pdf" title="子会社株式の譲渡に関するお知らせ" target="_blank" class="pdfLink"><span>子会社株式の譲渡に関するお知らせ</span><script>new_mark(2017,05,12,"new")</script><img class="PDF_I" src="/img/pdf.gif" alt="pdf" /></a>
+
+</dd></dl> 
+<dl class="F2">
+<dt>2017/03/28
+
+<img src="/img/i_disclosure.gif" alt="disclosure" />
+
+
+</dt>
+<dd>
+   
+<a href="/ir/uploads/2017_3_28_KCI_JINJI2.pdf" title="当社子会社（Kuriyama Canada,Inc.）の役員人事に関するお知らせ" target="_blank" class="pdfLink"><span>当社子会社（Kuriyama Canada,Inc.）の役員人事に関するお知らせ</span><script>new_mark(2017,03,28,"new")</script><img class="PDF_I" src="/img/pdf.gif" alt="pdf" /></a>
+
+</dd></dl> 
+<dl class="F2">
+<dt>2017/03/17
+
+<img src="/img/i_disclosure.gif" alt="disclosure" />
+
+
+</dt>
+<dd>
+   
+<a href="/ir/uploads/2017_3_17_press-release.pdf" title="当社子会社（クリヤマ株式会社）の組織一部改編・人事異動に関するお知らせ" target="_blank" class="pdfLink"><span>当社子会社（クリヤマ株式会社）の組織一部改編・人事異動に関するお知らせ</span><script>new_mark(2017,03,17,"new")</script><img class="PDF_I" src="/img/pdf.gif" alt="pdf" /></a>
+
+</dd></dl> 
+<dl class="F2">
+<dt>2017/03/10
+
+
+<img src="/img/i_earnings.gif" alt="決算" />
+
+</dt>
+<dd>
+   
+<a href="/ir/uploads/Briefing-Session-of-2016-Annual-Results3.pdf" title="2016年12月期　決算説明資料" target="_blank" class="pdfLink"><span>2016年12月期　決算説明資料</span><script>new_mark(2017,03,10,"new")</script><img class="PDF_I" src="/img/pdf.gif" alt="pdf" /></a>
+
+</dd></dl> 
+<dl class="F2">
+<dt>2017/02/13
+
+<img src="/img/i_disclosure.gif" alt="disclosure" />
+
+
+</dt>
+<dd>
+   
+<a href="/ir/uploads/2017_2_13_press-release_4.pdf" title="自己株式立会外買付取引（ＴｏＳＴＮｅＴ－３）による自己株式の取得結果に関するお知らせ" target="_blank" class="pdfLink"><span>自己株式立会外買付取引（ＴｏＳＴＮｅＴ－３）による自己株式の取得結果に関するお知らせ</span><script>new_mark(2017,02,13,"new")</script><img class="PDF_I" src="/img/pdf.gif" alt="pdf" /></a>
+
+</dd></dl> 
+<dl class="F2">
+<dt>2017/02/10
+
+<img src="/img/i_disclosure.gif" alt="disclosure" />
+
+
+</dt>
+<dd>
+   
+<a href="/ir/uploads/2017_2_10_press-release_3.pdf" title="自己株式の取得及び自己株式立会外買付取引（ＴｏＳＴＮｅＴ－３）による買付けに関するお知らせ" target="_blank" class="pdfLink"><span>自己株式の取得及び自己株式立会外買付取引（ＴｏＳＴＮｅＴ－３）による買付けに関するお知らせ</span><script>new_mark(2017,02,10,"new")</script><img class="PDF_I" src="/img/pdf.gif" alt="pdf" /></a>
+
+</dd></dl> 
+<dl class="F2">
+<dt>2017/02/10
+
+<img src="/img/i_disclosure.gif" alt="disclosure" />
+
+
+</dt>
+<dd>
+   
+<a href="/ir/uploads/2017_2_10_press-release_2.pdf" title="剰余金の配当に関するお知らせ" target="_blank" class="pdfLink"><span>剰余金の配当に関するお知らせ</span><script>new_mark(2017,02,10,"new")</script><img class="PDF_I" src="/img/pdf.gif" alt="pdf" /></a>
+
+</dd></dl> 
+<dl class="F2">
+<dt>2017/02/10
+
+
+<img src="/img/i_earnings.gif" alt="決算" />
+
+</dt>
+<dd>
+   
+<a href="/ir/uploads/4Q_tannsinn_2016_2_103.pdf" title="平成28年度12月期　決算短信" target="_blank" class="pdfLink"><span>平成28年度12月期　決算短信</span><script>new_mark(2017,02,10,"new")</script><img class="PDF_I" src="/img/pdf.gif" alt="pdf" /></a>
+
+</dd></dl> 
+<dl class="F2">
+<dt>2017/02/10
+
+<img src="/img/i_disclosure.gif" alt="disclosure" />
+
+
+</dt>
+<dd>
+   
+<a href="/ir/uploads/2017_2_10_KCJ_JINJI.pdf" title="当社子会社（クリヤマ株式会社）の役員人事に関するお知らせ" target="_blank" class="pdfLink"><span>当社子会社（クリヤマ株式会社）の役員人事に関するお知らせ</span><script>new_mark(2017,02,10,"new")</script><img class="PDF_I" src="/img/pdf.gif" alt="pdf" /></a>
+
+</dd></dl> 
+<dl class="F2">
+<dt>2017/02/10
+
+<img src="/img/i_disclosure.gif" alt="disclosure" />
+
+
+</dt>
+<dd>
+   
+<a href="/ir/uploads/2017_2_10_HD_JINJI.pdf" title="役員人事に関するお知らせ" target="_blank" class="pdfLink"><span>役員人事に関するお知らせ</span><script>new_mark(2017,02,10,"new")</script><img class="PDF_I" src="/img/pdf.gif" alt="pdf" /></a>
+
+</dd></dl> 
+<dl class="F2">
+<dt>2016/11/29
+
+<img src="/img/i_disclosure.gif" alt="disclosure" />
+
+
+</dt>
+<dd>
+   
+<a href="/ir/uploads/67d4dc894d10e92e6baf1c4e97f1d5051.pdf" title="主要株主である筆頭株主の異動に関するお知らせ" target="_blank" class="pdfLink"><span>主要株主である筆頭株主の異動に関するお知らせ</span><script>new_mark(2016,11,29,"new")</script><img class="PDF_I" src="/img/pdf.gif" alt="pdf" /></a>
+
+</dd></dl> 
+<dl class="F2">
+<dt>2016/11/11
+
+
+<img src="/img/i_earnings.gif" alt="決算" />
+
+</dt>
+<dd>
+   
+<a href="/ir/uploads/245d0d74ec735e43cb28156043a2fc7e.pdf" title="平成28年度12月期　第3四半期決算短信" target="_blank" class="pdfLink"><span>平成28年度12月期　第3四半期決算短信</span><script>new_mark(2016,11,11,"new")</script><img class="PDF_I" src="/img/pdf.gif" alt="pdf" /></a>
+
+</dd></dl> 
+<dl class="F2">
+<dt>2016/09/16
+
+<img src="/img/i_disclosure.gif" alt="disclosure" />
+
+
+</dt>
+<dd>
+   
+<a href="/ir/uploads/Jinji_2016.9.16.pdf" title="当社子会社(クリヤマ株式会社)の組織変更及び取締役の人事異動について" target="_blank" class="pdfLink"><span>当社子会社(クリヤマ株式会社)の組織変更及び取締役の人事異動について</span><script>new_mark(2016,09,16,"new")</script><img class="PDF_I" src="/img/pdf.gif" alt="pdf" /></a>
+
+</dd></dl>
+</div>
+</div>
+</div><!--box2-->
+<div id="box3">
+<div id="content">
+<div id="mycustomscroll" class='flexcroll'>
+<dl class="F2">
+<dt>2017/08/10		<img src="/img/i_ir.gif" alt="IR資料" /></dt>
+<dd>   
+<a href="/ir/uploads/2017_2Q_houkoku.pdf" title="第78期　第2四半期報告書" target="_blank" class="pdfLink"><span>第78期　第2四半期報告書</span><script>new_mark(2017,08,10,"new")</script><img class="PDF_I" src="/img/pdf.gif" alt="pdf" /></a>
+
+</dd></dl> 
+<dl class="F2">
+<dt>2017/05/12		<img src="/img/i_ir.gif" alt="IR資料" /></dt>
+<dd>   
+<a href="/ir/uploads/2017_05_12_houkokusyo.pdf" title="第78期　第1四半期報告書" target="_blank" class="pdfLink"><span>第78期　第1四半期報告書</span><script>new_mark(2017,05,12,"new")</script><img class="PDF_I" src="/img/pdf.gif" alt="pdf" /></a>
+
+</dd></dl> 
+<dl class="F2">
+<dt>2017/03/28		<img src="/img/i_ir.gif" alt="IR資料" /></dt>
+<dd>   
+<a href="/ir/uploads/dai77_yuukasyoukenhoukokusyo2.pdf" title="第77期　有価証券報告書" target="_blank" class="pdfLink"><span>第77期　有価証券報告書</span><script>new_mark(2017,03,28,"new")</script><img class="PDF_I" src="/img/pdf.gif" alt="pdf" /></a>
+
+</dd></dl> 
+<dl class="F2">
+<dt>2017/02/27		<img src="/img/i_ir.gif" alt="IR資料" /></dt>
+<dd>   
+<a href="/ir/uploads/2017_2_27_press-release.pdf" title="取締役会全体の実効性における分析・評価について" target="_blank" class="pdfLink"><span>取締役会全体の実効性における分析・評価について</span><script>new_mark(2017,02,27,"new")</script><img class="PDF_I" src="/img/pdf.gif" alt="pdf" /></a>
+
+</dd></dl> 
+<dl class="F2">
+<dt>2016/11/14		<img src="/img/i_ir.gif" alt="IR資料" /></dt>
+<dd>   
+<a href="/ir/uploads/2016_3Q_reports_kuriyamaholdings_3355.pdf" title="第77期　第3四半期報告書" target="_blank" class="pdfLink"><span>第77期　第3四半期報告書</span><script>new_mark(2016,11,14,"new")</script><img class="PDF_I" src="/img/pdf.gif" alt="pdf" /></a>
+
+</dd></dl> 
+<dl class="F2">
+<dt>2016/08/12		<img src="/img/i_ir.gif" alt="IR資料" /></dt>
+<dd>   
+<a href="/ir/uploads/2016_2Q_reports_kuriyamaholdings_3355.pdf" title="第77期　第2四半期報告書" target="_blank" class="pdfLink"><span>第77期　第2四半期報告書</span><script>new_mark(2016,08,12,"new")</script><img class="PDF_I" src="/img/pdf.gif" alt="pdf" /></a>
+
+</dd></dl>
+
+</div>
+</div>
+</div><!--box3-->
+<div id="box4">
+<div id="content">
+<div id="mycustomscroll" class='flexcroll'>
+<dl class="F2">
+	<dt>2017/04/21		<img src="/img/i_information.gif" alt="information" /></dt>
+<dd>   
+<a href="/ir/uploads/2017_4_20_news_release.pdf" title="日刊工業新聞に当社子会社（クリヤマ㈱）の記事が掲載されました" target="_blank" class="pdfLink"><span>日刊工業新聞に当社子会社（クリヤマ㈱）の記事が掲載されました</span><script>new_mark(2017,04,21,"new")</script><img class="PDF_I" src="/img/pdf.gif" alt="pdf" /></a>
+
+</dd></dl> 
+<dl class="F2">
+	<dt>2017/03/07		<img src="/img/i_information.gif" alt="information" /></dt>
+<dd>   
+<a href="/ir/meeting.html" title="第77回定時株主総会招集ご通知　連結注記表及び個別注記表を掲載いたしました" target="_blank"><span>第77回定時株主総会招集ご通知　連結注記表及び個別注記表を掲載いたしました</span><script>new_mark(2017,03,07,"new")</script></a>
+
+</dd></dl> 
+<dl class="F2">
+	<dt>2016/09/06		<img src="/img/i_information.gif" alt="information" /></dt>
+<dd>   
+<a href="http://business.kuriyama.co.jp/sports/report/rio-olympics-2016" title="クリヤマ(株)取扱商品がリオデジャネイロオリンピックの各種競技施設で使用されました。" target="_blank"><span>クリヤマ(株)取扱商品がリオデジャネイロオリンピックの各種競技施設で使用されました。</span><script>new_mark(2016,09,06,"new")</script></a>
+
+</dd></dl> 
+<dl class="F2">
+	<dt>2016/08/25		<img src="/img/i_information.gif" alt="information" /></dt>
+<dd>   
+<a href="/ir/uploads/News-release-2016_8_261.pdf" title="産経新聞にリオデジャネイロオリンピック･パラリンピック陸上競技で採用されたイタリアのモンド社製「スーパーＸ」（クリヤマ(株)が日本の販売代理店契約締結）に関する記事が掲載されました。" target="_blank" class="pdfLink"><span>産経新聞にリオデジャネイロオリンピック･パラリンピック陸上競技で採用されたイタリアのモンド社製「スーパーＸ」（クリヤマ(株)が日本の販売代理店契約締結）に関する記事が掲載されました。</span><script>new_mark(2016,08,25,"new")</script><img class="PDF_I" src="/img/pdf.gif" alt="pdf" /></a>
+
+</dd></dl>
+
+</div>
+</div>
+</div><!--box4-->
+
+
+</div><!--tabbody-->
+</div><!--NEWS-->
+
+<div class="BANNER">
+<a href="http://www.kuriyama.co.jp/" target="_blank"><img src="/img/index/banner_kuriyama.jpg" alt="クリヤマ株式会社"><span class="F1">クリヤマのくわしい事業内容はこちらのサイトをご覧下さい。</span></a>
+<a href="company/value.html"><img src="/img/index/banner_value.jpg" alt="クリヤマバリュー"><span class="F1">私たちにしかできないこと<br />「クリヤマバリュー」をご覧下さい。</span></a>
+</div><!--BANNER-->
+
+<ul class="CIB">
+<li>
+<div class="CIB_T"><h2><img src="/img/index/h2_company.gif" alt="企業概要" /></h2>
+<span class="F1">企業概要とグループ会社についてご紹介します。</span></div>
+<div class="CIB_L">
+<img class="CIB_IMAGE" src="/img/index/cib1.jpg" alt="" />
+<div class="LINK" style="width:110px;">
+<a class="F1" href="/company/message.html"><img src="/img/si_arrow.gif" alt="" />ごあいさつ</a>
+<a class="F1" href="/company/outline.html"><img src="/img/si_arrow.gif" alt="" />会社概要</a>
+<a class="F1" href="/company/principle.html"><img src="/img/si_arrow.gif" alt="" />経営方針</a>
+<a class="F1" href="/company/value.html" style="line-height:1.2em;"><img src="/img/si_arrow.gif" alt="" />KURIYAMA<br />VALUE</a>
+</div>
+<div class="LINK" style="width:140px;">
+<a class="F1" href="/company/history.html"><img src="/img/si_arrow.gif" alt="" />沿革</a>
+<a class="F1" href="/company/group.html"><img src="/img/si_arrow.gif" alt="" />グループ会社について</a>
+<a class="F1" href="/company/structure.html"><img src="/img/si_arrow.gif" alt="" />持株会社体制について</a>
+<a class="F1" href="/company/compliance.html"><img src="/img/si_arrow.gif" alt="" />コンプライアンス</a>
+</div>
+</div>
+</li>
+<li>
+<div class="CIB_T"><h2><img src="/img/index/h2_ir.gif" alt="投資家情報" /></h2>
+<span class="F1">経営、財務等に関する情報をご覧いただけます。</span></div>
+<div class="CIB_L">
+<img class="CIB_IMAGE" src="/img/index/cib2.jpg" alt="" />
+<div class="LINK" style="width:115px;">
+<a class="F1" href="/ir/message.html"><img src="/img/si_arrow.gif" alt="" />経営方針</a>
+<a class="F1" href="/ir/highlight.html"><img src="/img/si_arrow.gif" alt="" />財務ハイライト</a>
+<a class="F1" href="/ir/information.html"><img src="/img/si_arrow.gif" alt="" />株式について</a>
+<a class="F1" href="/ir/earnings.html"><img src="/img/si_arrow.gif" alt="" />IRライブラリー</a>
+</div>
+<div class="LINK" style="width:135px;">
+<a class="F1" href="/ir/calendar.html"><img src="/img/si_arrow.gif" alt="" />IRカレンダー</a>
+<a class="F1" href="/ir/investor.html"><img src="/img/si_arrow.gif" alt="" />個人投資家の皆様へ</a>
+<a class="F1" href="/ir/faq.html"><img src="/img/si_arrow.gif" alt="" />よくあるご質問</a>
+<a class="F1" href="/ir/disclaimer.html"><img src="/img/si_arrow.gif" alt="" />免責事項</a>
+<a class="F1" href="/ir/library/library_list.html"><img src="/img/si_arrow.gif" alt="" />電子公告</a>
+</div>
+</div>
+</li>
+<li>
+<div class="CIB_T"><h2><img src="/img/index/h2_business.gif" alt="事業内容" /></h2>
+<span class="F1">事業内容についてご紹介します。</span></div>
+<div class="CIB_LB">
+<a class="B_LINK F1" href="/business/bu_01_1.html"><img class="P_BUSINESS" src="/img/index/cib_b1.gif" /><span><img src="/img/si_arrow.gif" alt="" />北米事業</span></a>
+<a class="B_LINK F1" href="/business/bu_06_1.html"><img class="P_BUSINESS" src="/img/index/cib_b6.gif" /><span><img src="/img/si_arrow.gif" alt="" />欧州事業</span></a>
+<a class="B_LINK F1" href="/business/bu_02_1.html"><img class="P_BUSINESS" src="/img/index/cib_b2.gif" /><span><img src="/img/si_arrow.gif" alt="" />産業資材事業</span></a>
+<a class="B_LINK F1" href="/business/bu_03_1.html"><img class="P_BUSINESS" src="/img/index/cib_b3.gif" /><span><img src="/img/si_arrow.gif" alt="" />建設資材事業</span></a>
+<a class="B_LINK F1" href="/business/bu_04_1.html"><img class="P_BUSINESS" src="/img/index/cib_b4.gif" /><span><img src="/img/si_arrow.gif" alt="" />スポーツ施設資材事業</span></a>
+<a class="B_LINK F1" style="border:none;" href="/business/bu_05_1.html"><img class="P_BUSINESS" src="/img/index/cib_b5.gif" /><span><img src="/img/si_arrow.gif" alt="" />その他事業</span></a>
+</div>
+</li>
+</ul>
+
+</div><!--FRAME-->
+</div><!--PAGE-->
+
+<div style="page-break-before:always;font-size:1;margin:0;border:0;"><span style="visibility: hidden;">&nbsp;</span></div>
+
+<div id="BG">
+<div id="PAGE">
+<div class="FRAME">
+
+<h2><img src="/img/index/h2_related.gif" alt="グループ会社サイト" /></h2>
+<div class="RELATED">
+<ul>
+<li><a class="R1" href="http://www.kuriyama.co.jp/" target="_blank"><img class="PRO" src="/img/index/g_kuriyama.jpg" alt="クリヤマ（株）" /><strong><img src="/img/index/flag_japan.gif" alt="" />クリヤマ（株）</strong><span class="F1">クリヤマのくわしい事業内容はこちらのサイトをご覧下さい。</span></a></li>
+<li><a class="R1" href="http://www.kuriyama.com/" target="_blank"><img class="PRO" src="/img/index/g_america.jpg" alt="Kuriyama of America.Inc." /><strong><img src="/img/index/flag_america.gif" alt="" />Kuriyama of America.Inc.</strong><span class="F1">樹脂ホース・ゴムホース、メタルホース等の販売を行っています。</span></a></li>
+<li><a class="R1" href="http://kuritec.com/" target="_blank"><img class="PRO" src="/img/index/g_canada.jpg" alt="Kuri Tec Corporation" /><strong><img src="/img/index/flag_canada.gif" alt="" />Kuri Tec Corporation</strong><span class="F1">樹脂ホース・ゴムホースの販売を行っています。</span></a></li>
+<li><a class="R1" href="http://www.sun-awks.co.jp/" target="_blank"><img class="PRO" src="/img/index/g_sane.jpg" alt="Kuri Tec Corporation" /><strong><img src="/img/index/flag_japan.gif" alt="" />（株）サンエー</strong><span class="F1">尿素水識別センサー、燃料識別センサー等の設計・開発・製造を行っています。</span></a></li>
+<li><a class="R1" href="http://www.airmonte.co.jp/" target="_blank"><img class="PRO" src="/img/index/g_air.jpg" alt="エアモンテ（株）" /><strong><img src="/img/index/flag_japan.gif" alt="" />エアモンテ（株）</strong><span class="F1">アウトドアスポーツ用品の販売を行っています。</span></a></li>
+<li><a class="R1" href="https://www.koc-win.com/" target="_blank"><img class="PRO" src="/img/index/g_koc.jpg" alt="KOC（株）" /><strong><img src="/img/index/flag_japan.gif" alt="" />KOC（株）</strong><span class="F1">ダストコントロール関連商品販売、不動産管理等を行っています。</span></a></li>
+</ul>
+</div><!--RELATED-->
+
+</div><!--FRAME-->
+</div><!--PAGE-->
+</div><!--BG-->
+<div id="PAGE">
+<div class="FRAME">
+<div class="FOOTER">
+<ul class="F_MENU">
+<li><a class="F_HOME F1" href="/" title="HOME" rel="home">HOME</a></li>
+<li><a class="F_COMPANY F1" href="/company.html">企業概要</a></li>
+<li><a class="F_BUSINESS F1" href="/business.html">事業内容</a></li>
+<li><a class="F_PRESS F1" href="/press.html">プレスリリース</a></li>
+<li><a class="F_IR F1" href="/ir.html">投資家情報</a></li>
+<li><a class="F_RECRUIT F1" href="/recruit_new.html">採用情報</a></li>
+</ul>
+<div class="F_ELECTRONIC"><a class="F1" href="/ir/library/library_list.html"><img src="/img/f_ele.gif">電子公告<small>Electronic Public Notice</small></a></div>
+<a class="PAGETOP F1" href="#">PAGE TOP</a>
+</div><!--FOOTER-->
+
+<div class="FOOTER_L">
+<a class="LOGO" href="/" title="HOME" rel="home"><img src="/img/logo.gif" alt="クリヤマ株式会社" /></a>
+<ul class="F_SUB">
+<li><a class="F_PRIVACY F1" href="/privacy.html">個人情報保護ポリシー</a></li>
+<li><a class="F_TERMS F1" href="/terms.html">ご利用にあたって</a></li>
+<li><a class="F_SITEMAP F1" href="/sitemap.html" target="_blank">サイトマップ</a></li>
+<li><a class="F_CONTACT F1" href="/contact/">お問い合わせ</a></li>
+</ul>
+<span class="F1 COPY">&copy; 2012 Kuriyama Holdings Corporation. All rights reserved.</span>
+</div><!--FOOTER_L-->
+
+
+</div><!--FRAME-->
+</div><!--PAGE-->
+</body>
+</html>

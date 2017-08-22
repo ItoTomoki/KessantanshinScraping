@@ -1,0 +1,170 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<title>宮地エンジニアリンググループ株式会社</title>
+<link rel="stylesheet" href="cmn/css/reset.css" media="screen,print">
+<link rel="stylesheet" href="cmn/css/component.css" media="screen,print">
+<link rel="stylesheet" href="cmn/css/common.css" media="screen,print">
+<link rel="stylesheet" href="css/index.css" media="screen,print">
+<script src="cmn/js/jquery-1.12.0.min.js"></script>
+<script src="cmn/js/jquery.tile.js"></script>
+<script src="cmn/js/common.js"></script>
+
+<!-- E-IR Parts -->
+<script type="text/javascript" src="zaimu/eir/eir.js" charset="utf-8"></script> 
+<script type="text/javascript">
+<!--
+var eirUrl = ('https:' == document.location.protocol ? 'https://ssl4' : 'http://v4') + '.eir-parts.net';
+if(document.location.protocol == 'https:' || document.location.protocol == 'http:'){
+	var eirPass = eirUrl + '/Custom/public/parts/' + eirCode + '/ja/parts/';
+}else{
+	var eirPass = 'zaimu/ja/parts/';
+}
+document.write(unescape("%3Clink rel='stylesheet' href='" + eirPass + "css/main.css' type='text/css'%3E%3C/link%3E"));
+-->
+</script>
+<!-- /E-IR Parts -->
+
+</head>
+<body>
+<div class="wrapper">
+
+<header id="header">
+<div class="headerInner">
+<h1 id="logo"><a href="index.html"><img src="cmn/img/logo.png" width="367" height="50" alt="宮地エンジニアリンググループ株式会社"></a></h1>
+<div class="headNav">
+<ul>
+<li><a href="contact.html">ご質問・お問い合わせ</a></li>
+
+</ul>
+</div><!-- /headNav -->
+<div class="headRecruit"> 
+<a href="recruit.html">グループ採用情報</a>
+</div>
+</div><!-- /headerInner -->
+</header>
+<nav id="globalNav">
+<ul>
+<li class="home"><a href="index.html"><span></span>HOME</a></li>
+<li><a href="message.html">MEGについて<span>ABOUT MEG</span></a></li>
+<li><a href="group.html">グループ紹介<span>GROUP</span></a></li>
+<li><a href="zaimu/index.html">IR情報<span>INVESTOR RELATIONS</span></a></li>
+<li><a href="csr.html">CSR<span>CORPORATE SOCIAL RESPONSIBILITY</span></a></li>
+</ul>
+</nav>
+
+<div class="img_main2">鋼橋、建築、土木等社会インフラの建設・維持・補修の事業を通じて、豊かな国土と明るい社会創りに貢献します</div>
+
+<div id="contents">
+
+<div id="index">
+<div id="main">
+<div class="index_ttl">TOPICS<span><a href="news.html">ニュース一覧</a></span></div>
+
+<!-- E-IR Parts -->
+<div id="ir_library">
+<div id="yearList"></div>
+<div id="announcement">
+<div id="divDataArea"></div>
+<script type="text/javascript">
+<!--	
+document.write(unescape("%3Cscript src='" + eirPass + "top.js' charset='utf-8' type='text/javascript'%3E%3C/script%3E"));
+-->
+</script>
+<script type="text/javascript">
+<!--	
+if(typeof org_data == 'undefined'){
+	document.write(message2)
+}
+-->
+</script>
+</div>
+                        
+</div>
+<!-- /E-IR Parts -->
+
+</div><!-- /main -->
+
+<div id="side">
+    <ul>
+        <li><a href="zaimu/index.html"><img src="img/btn_01.jpg" width="250" height="100" alt="IR情報"></a></li>
+        <li><a href="group.html"><img src="img/btn_02.jpg" width="250" height="100" alt="グループ紹介"></a></li>
+        <li><a href="csr.html"><img src="img/btn_03.jpg" width="250" height="100" alt="CSR 社会貢献活動"></a></li>
+        <li class="houtei"><a href="http://kmasterplus.pronexus.co.jp/main/corp/3/4/3431/index.html" target="_blank">法定公告</a></li>
+    </ul>
+</div><!-- /side -->
+</div><!-- /index -->
+
+<div id="index_link">
+<div class="index_ttl">グループ会社</div>
+    <ul>
+        <li><a href="http://www.miyaji-eng.co.jp/" target="_blank"><img src="img/btn_link_01.jpg" width="280" height="70" alt="宮地エンジニアリング株式会社"></a></li>
+        <li><a href="http://www.mm-bridge.com/" target="_blank"><img src="img/btn_link_02.jpg" width="280" height="70" alt="エム・エム ブリッジ株式会社"></a></li>
+        <li><a href="http://www.dandelion0705.com/" target="_blank"><img src="img/btn_link_03.jpg" width="280" height="70" alt="株式会社エム・ジー・コーポレーション"></a></li>
+    </ul>
+</div>
+
+</div><!-- /contents -->
+<div id="linkArea">
+<div class="linkAreaInner">
+
+<div class="e_ly_4clm">
+<div class="linkBox">
+    <p class="link_ttl"><a href="message.html">MEGについて</a></p>
+    <ul>
+        <li><a href="message.html">社長挨拶</a></li>
+        <li><a href="policy.html">経営理念</a></li>
+        <li><a href="management.html">沿革</a></li>
+        <li><a href="company.html">会社概要</a></li>
+        <li><a href="compliance.html">コンプライアンス</a></li>
+    </ul>
+</div>
+<div class="linkBox">
+    <p class="link_ttl"><a href="group.html">グループ紹介</a></p>
+    <ul>
+        <li><a href="group.html">グループ事業紹介</a></li>
+    </ul>
+</div>
+<div class="linkBox">
+    <p class="link_ttl"><a href="zaimu/index.html">IR情報</a></p>
+    <ul>
+        <li><a href="zaimu/governance.html">コーポレート・ガバナンス</a></li>
+        <li><a href="zaimu/library.html">IRライブラリ</a></li>
+        <li><a href="zaimu/stock.html">株式情報</a></li>
+        <li><a href="http://stocks.finance.yahoo.co.jp/stocks/detail/?code=3431.t" target="_blank">株価情報</a></li>
+    </ul>
+</div>
+<div class="linkBox">
+    <p class="link_ttl"><a href="csr.html">CSR</a></p>
+    <p class="link_ttl link_sub"><a href="contact.html">ご質問・お問い合わせ</a></p>
+    <p class="link_ttl link_sub"><a href="recruit.html">グループ採用情報</a></p>
+    <p class="link_ttl link_sub"><a href="news.html">ニュース</a></p>
+    <p class="link_ttl link_sub"><a href="http://kmasterplus.pronexus.co.jp/main/corp/3/4/3431/index.html" target="_blank">法定公告</a></p>
+</div>
+</div>
+<!-- /.e_ly_4clm --> 
+
+</div><!-- /linkAreaInner -->
+</div><!-- /linkArea -->
+
+<footer id="footer">
+<div class="footerInner">
+    <div id="pagetop"> <a href="#">ページトップへ</a> </div>
+<div id="footerNav">
+<ul>
+<li><a href="index.html">HOME</a></li>
+<li><a href="http://kmasterplus.pronexus.co.jp/main/corp/3/4/3431/index.html" target="_blank">法定公告</a></li>
+</ul>
+</div><!-- /footerNav -->
+<p id="footerCopyright">All rights Reserved, Copyright MIYAJI ENGINEERING GROUP,INC.</p>
+</div><!-- /footerInner -->
+</footer>
+
+</div><!-- /wrapper -->
+
+</body>
+</html>

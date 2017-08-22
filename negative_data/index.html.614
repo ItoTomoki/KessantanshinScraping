@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="ja">
+<head>
+
+<meta charset="utf-8">
+<title>ホリイフードサービス株式会社 | 茨城県や関東を中心に多ジャンルの飲食店を140店舗以上を展開</title>
+
+<meta name="robots" content="index,follow">
+<meta name="keywords" content="ダイニング,茨城県,レストラン,居酒屋,関東,ホリイフードサービス">
+<meta name="description" content="食を通してすべての人に喜びと感動を。ホリイフードサービスは茨城県内をはじめ、関東圏内を中心に忍家・益益・味斗など多ジャンルの飲食店・居酒屋を多数展開しています。">
+<meta name="viewport" content="width=1024px,">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="">
+<meta property="og:description" content="">
+<meta property="og:image" content="http://www.horiifood.co.jp/common/img/image.jpg">
+<meta property="og:url" content="">
+<meta property="og:site_name" content="ホリイフードサービス株式会社">
+
+<link rel="canonical" href="http://www.horiifood.co.jp/">
+<link rel="icon" href="http://www.horiifood.co.jp/favicon.ico">
+
+<link rel="stylesheet" href="common/css/base.css">
+<link rel="stylesheet" href="common/css/share.css">
+<link rel="stylesheet" href="common/css/contents.css">
+
+<script src="common/js/jquery.min.js"></script>
+<script src="common/js/jquery.easingscroll.js"></script>
+<script src="common/js/jquery.share.js"></script>
+<!--ui.tabs-->
+<link rel="stylesheet" href="common/js/ui.tabs/ui.tabs.css">
+<script src="common/js/ui.tabs/ui.core.js"></script>
+<script src="common/js/ui.tabs/ui.tabs.js"></script>
+<!-- flexslider 
+<link rel="stylesheet" href="common/js/woothemes-FlexSlider/flexslider.css">
+<script src="common/js/woothemes-FlexSlider/jquery.flexslider.js"></script>-->
+<!-- jquery.carouFredSel -->
+<script src="common/js/jquery.carouFredSel/jquery.carouFredSel.jsPver=3.4.2"></script>
+
+<script>
+ jQuery(function(){
+		jQuery('.wrap').PresenSlide({
+				memory: '#index' //jquery dataを指定した場所
+			 ,box: '#box' //ボックスのid名(数値抜)
+		});
+ });
+</script>
+
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+</head>
+
+<body class="root" id="index" data-memory="1" data-mobile="" data-touch="" data-move="">
+
+<header>
+	<h1><a href="./">ホリイフードサービス株式会社<span></span></a></h1>
+	<div class="header_ss"><p>お店を探す</p>
+		<div class="search_keyword"><form action="http://www.horiifood.co.jp/cgi-bin/shopsearch/shopsearch.cgi" method="post">
+		<input type="text" name="search_word" placeholder="キーワードで店舗検索">
+		<input type="image" src="common/img/share/searchIcon.png" alt="検索"></form></div><span>or</span><a href="search/">マップから探す</a>
+	</div>
+	<div id="mv">
+		<!--<div class="flexslider">
+    	<ul class="slides">
+      	<li><img src="common/img/index/mv01.jpg" alt="" class="slide_photo1"></li>
+      	<li><img src="common/img/index/mv02.jpg" alt="" class="slide_photo2"></li>
+      	<li><img src="common/img/index/mv01.jpg" alt="" class="slide_photo3"></li>
+      	<li><img src="common/img/index/mv02.jpg" alt="" class="slide_photo4"></li>
+      	<li><img src="common/img/index/mv01.jpg" alt="" class="slide_photo5"></li>
+      	<li><img src="common/img/index/mv02.jpg" alt="" class="slide_photo6"></li>
+      </ul>
+    </div>-->
+	</div>
+	<div id="pickupSlider" class="section">
+		<!--<h2><img src="common/img/index/info_pickup.png"></h2>-->
+		<div id="carousel" class="carousel clearfix">
+			<div><a href="cgi-bin/gallery/gallery.cgi"><img src="common/img/index/mv/02.jpg" alt="" class="cover"><img src="common/img/index/clickIcon.png" alt="" class="icon"></a></div>
+			<div><a href="brand/nihachi/"><img src="common/img/index/mv/10.jpg" alt="" class="cover"><img src="common/img/index/clickIcon.png" alt="" class="icon"></a></div>
+			<div><a href="https://pay.rakuten.co.jp/campaign/2017/0817_horiifood/?l-id=pay_campaignlist-cp20170817_horiifood" alt="" class="cover" target="_blank" rel="nofollow"><img src="common/img/index/mv/14.jpg" alt="" class="cover"></a></div>
+			<div><a href="https://pay.rakuten.co.jp/campaign/2017/0817_horiifood/?l-id=pay_campaignlist-cp20170817_horiifood" alt="" class="cover" target="_blank" rel="nofollow"><img src="common/img/index/mv/13.jpg" alt="" class="cover" target="_blank" rel="nofollow"></a></div>
+			<div><a href="brand/kushiichiba/"><img src="common/img/index/mv/07.jpg" alt="" class="cover"><img src="common/img/index/clickIcon.png" alt="" class="icon"></a></div>
+			<div><a href="brand/"><img src="common/img/index/mv/12.jpg" alt="" class="cover"><img src="common/img/index/clickIcon.png" alt="" class="icon"></a></div>
+			<div><a href="recruit/"><img src="common/img/index/mv/01.jpg" alt="" class="cover"><img src="common/img/index/clickIcon.png" alt="" class="icon"></a></div>
+			<div><a href="cgi-bin/gallery/gallery.cgi"><img src="common/img/index/mv/02.jpg" alt="" class="cover"><img src="common/img/index/clickIcon.png" alt="" class="icon"></a></div>
+			<div><a href="brand/nihachi/"><img src="common/img/index/mv/10.jpg" alt="" class="cover"><img src="common/img/index/clickIcon.png" alt="" class="icon"></a></div>
+			<div><a href="https://pay.rakuten.co.jp/campaign/2017/0817_horiifood/?l-id=pay_campaignlist-cp20170817_horiifood" alt="" class="cover" target="_blank" rel="nofollow"><img src="common/img/index/mv/14.jpg" alt="" class="cover"></a></div>
+			<div><a href="https://pay.rakuten.co.jp/campaign/2017/0817_horiifood/?l-id=pay_campaignlist-cp20170817_horiifood" alt="" class="cover" target="_blank" rel="nofollow"><img src="common/img/index/mv/13.jpg" alt="" class="cover" target="_blank" rel="nofollow"></a></div>
+			<div><a href="brand/kushiichiba/"><img src="common/img/index/mv/07.jpg" alt="" class="cover"><img src="common/img/index/clickIcon.png" alt="" class="icon"></a></div>
+			<div><a href="brand/"><img src="common/img/index/mv/12.jpg" alt="" class="cover"><img src="common/img/index/clickIcon.png" alt="" class="icon"></a></div>
+		 <div><a href="recruit/"><img src="common/img/index/mv/01.jpg" alt="" class="cover"><img src="common/img/index/clickIcon.png" alt="" class="icon"></a></div>
+			<!--<div><a href="http://www.horiifood.co.jp/cgi-bin/campaign/campaign.cgi?n=122"><img src="common/img/index/mv/05.jpg" alt="" class="cover"><img src="common/img/index/clickIcon.png" alt="" class="icon"></a></div>-->
+		</div>
+		<div id="slideBtn">
+			<a id="prevBtn" href="#"><img src="common/js/jquery.carouFredSel/prevBtn.png"></a>
+			<a id="nextBtn" href="#"><img src="common/js/jquery.carouFredSel/nextBtn.png"></a>
+		</div>
+	</div>
+	<!--<div id="infoLink" class="clearfix">
+		<a href="#brandList" class="pl"><img src="common/img/index/4_2.png"></a>
+		<a href="#info" class="pl"><img src="common/img/index/4_3.png"></a>
+	</div>-->
+	<!--<img src="common/img/index/4_03.png">-->
+</header>
+
+
+<div id="brandList" class="wrap">
+	<h2><img src="common/img/index/brandTitle.png"></h2>
+	<div id="ui-tab">
+		
+		<div id="shinobuya" class="back" style=" background-image: url(common/img/index/b_shinobuyaBg.jpg);"><div class="screen"></div>
+			<div class="listWrap typeA">
+				<div class="info clearfix">
+					<div class="detail">
+						<h3>隠れ菴　忍家</h3>
+						<p><span><img src="common/img/index/concept.png" alt="CONCEPT"></span>上質な癒しとくつろぎをテーマに<br>様々なタイプの個室空間を取り揃えた<br>新和風ダイニングレストラン</p>
+						<a href="b/shinobuya/">特設サイトへ</a>
+					</div>
+					<span class="logo"><img src="common/img/index/shinobuya_list.png" alt=""></span>
+				</div>
+				<div class="relation">
+					<h4><img src="common/img/index/relation.png" alt="関連業態"></h4>
+					<ul>
+						<li><a href="brand/shinobuya/"><span><img src="common/img/index/shinobuya_list1.png" alt=""></span>隠れ菴 忍家</a></li>
+						<li><a href="brand/shinobuya_kushi/"><span><img src="common/img/index/shinobuya_list2.png" alt=""></span>串・海鮮・ホルモン忍家</a></li>
+<!--						<li><a href="brand/kyusyu_shinobuya/"><span><img src="common/img/index/shinobuya_list3.png" alt=""></span>北海道 九州紀行 忍家</a></li>-->
+						<li><a href="brand/shinobuya_aburi/"><span><img src="common/img/index/shinobuya_list4.png" alt=""></span>炭火炙り 忍家</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		<div id="masumasu" class="back" style="background-image: url(common/img/index/b_masumasuBg.jpg);"><div class="screen"></div>
+			<div class="listWrap typeA">
+				<div class="info clearfix">
+					<div class="detail">
+						<h3>ご馳走本舗 益益</h3>
+						<p><span><img src="common/img/index/concept.png" alt="CONCEPT"></span>多彩な料理を<br>個室空間でお食事できる<br>新タイプのダイニング風レストラン</p>
+						<a href="brand/masumasu/">ブランド詳細へ</a>
+					</div>
+					<span class="logo"><img src="common/img/index/masumasu_list.png" alt=""></span>
+				</div>
+				<div class="relation">
+					<h4><img src="common/img/index/relation.png" alt="関連業態"></h4>
+					<ul>
+						<li><a href="brand/masumasu/"><span><img src="common/img/index/masumasu_list1.png" alt=""></span>ご馳走本舗 益益</a></li>
+						<li><a href="brand/ibanokura_masumasu/"><span><img src="common/img/index/masumasu_list2.png" alt=""></span>茨の蔵 益益</a></li>
+						<li><a href="brand/private_masumasu/"><span><img src="common/img/index/masumasu_list3.png" alt=""></span>プライベートダイニング 益益</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		<div id="ajito" class="back" style="background-image: url(common/img/index/b_ajitoBg.jpg);"><div class="screen"></div>
+			<div class="listWrap typeA">
+				<div class="info clearfix">
+					<div class="detail">
+						<h3><span>ジャパニーズダイニング</span> 味斗</h3>
+						<p><span><img src="common/img/index/concept.png" alt="CONCEPT"></span>新和風とレトロが融合した<br>個室空間と多彩なメニューの<br>和風ダイニングレストラン</p>
+						<a href="brand/ajito/">ブランド詳細へ</a>
+					</div>
+					<span class="logo"><img src="common/img/index/ajito_list.png" alt=""></span>
+				</div>
+				<div class="relation">
+					<h4><img src="common/img/index/relation.png" alt="関連業態"></h4>
+					<ul>
+						<li><a href="brand/ajito/"><span><img src="common/img/index/ajito_list1.png" alt=""></span>ジャパニーズダイニング 味斗</a></li>
+						<li><a href="brand/kyusyu_ajito/"><span><img src="common/img/index/ajito_list2.png" alt=""></span>九州紀行 味斗</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		<div id="tomoe" class="back" style="background-image: url(common/img/index/b_tomoeBg.jpg);"><div class="screen"></div>
+			<div class="listWrap typeB">
+				<div class="info clearfix">
+					<div class="detail">
+						<h3>しゃぶしゃぶ三昧 巴</h3>
+						<p><span><img src="common/img/index/concept.png" alt="CONCEPT"></span>三つのだしで楽しむ<br>しゃぶしゃぶとお寿司<br>食べ放題の業態</p>
+						<a href="brand/tomoe/">ブランド詳細へ</a>
+					</div>
+					<span class="logo"><img src="common/img/index/tomoe_list.png" alt=""></span>
+				</div>
+			</div>
+		</div>
+		
+		<div id="mondokoro" class="back" style="background-image: url(common/img/index/b_mondokoroBg.jpg);"><div class="screen"></div>
+			<div class="listWrap typeB">
+				<div class="info clearfix">
+					<div class="detail">
+						<h3>常陸之國 もんどころ</h3>
+						<p><span><img src="common/img/index/concept.png" alt="CONCEPT"></span>茨城の美味を味わい尽くす<br>地産地消のお店</p>
+						<a href="brand/mondokoro/">ブランド詳細へ</a>
+					</div>
+					<span class="logo"><img src="common/img/index/mondokoro_list.png" alt=""></span>
+				</div>
+			</div>
+		</div>
+		
+		<div id="kuidokoro" class="back" style="background-image: url(common/img/index/b_kuidokoroBg.jpg);"><div class="screen"></div>
+			<div class="listWrap typeB">
+				<div class="info clearfix">
+					<div class="detail">
+						<h3>常陸之國の喰いどころ</h3>
+						<p><span><img src="common/img/index/concept.png" alt="CONCEPT"></span>素材を生かした創作料理と<br>豊富な美酒にこだわったお店</p>
+						<a href="brand/kuidokoro/">ブランド詳細へ</a>
+					</div>
+					<span class="logo"><img src="common/img/index/kuidokoro_list.png" alt=""></span>
+				</div>
+			</div>
+		</div>
+		
+		<div id="kushizanmai" class="back" style="background-image: url(common/img/index/b_kushizanmaiBg.jpg);"><div class="screen"></div>
+			<div class="listWrap typeB">
+				<div class="info clearfix">
+					<div class="detail">
+						<h3>串三昧</h3>
+						<p><span><img src="common/img/index/concept.png" alt="CONCEPT"></span>「串焼、串カツ、餃子」の<br>食べ放題業態</p>
+						<a href="brand/kushizanmai/">ブランド詳細へ</a>
+					</div>
+					<span class="logo"><img src="common/img/index/kushizanmai_list.png" alt=""></span>
+				</div>
+			</div>
+		</div>
+		
+		<div id="wasyokumura" class="back" style="background-image: url(common/img/index/b_wasyokumuraBg.jpg);"><div class="screen"></div>
+			<div class="listWrap typeB">
+				<div class="info clearfix">
+					<div class="detail">
+						<h3>みんなの和食村</h3>
+						<p><span><img src="common/img/index/concept.png" alt="CONCEPT"></span>和食中心に150品を越える<br>豊富なお食事メニューで<br>大切な人との楽しいひとときを</p>
+						<a href="brand/wasyokumura/">ブランド詳細へ</a>
+					</div>
+					<span class="logo"><img src="common/img/index/wasyokumura_list.png" alt=""></span>
+				</div>
+			</div>
+		</div>
+		
+		<div id="kushiichiba" class="back" style="background-image: url(common/img/index/b_kushiichibaBg.jpg);"><div class="screen"></div>
+			<div class="listWrap typeB">
+				<div class="info clearfix">
+					<div class="detail">
+						<h3>肉・魚・野菜串 串市場</h3>
+						<p><span><img src="common/img/index/concept.png" alt="CONCEPT"></span>「肉、魚、野菜」の串焼、串揚げを<br>メインに、料理とお酒を楽しむ<br>低価格の居酒屋業態</p>
+						<a href="brand/kushiichiba/">ブランド詳細へ</a>
+					</div>
+					<span class="logo"><img src="common/img/index/kushiichiba_list.png" alt=""></span>
+				</div>
+			</div>
+		</div>
+		
+		<div id="nihachi" class="back" style="background-image: url(common/img/index/b_nihachiBg.jpg);"><div class="screen"></div>
+			<div class="listWrap typeB">
+				<div class="info clearfix">
+					<div class="detail">
+						<h3>うまいもん ２８市場</h3>
+						<p><span><img src="common/img/index/concept.png" alt="CONCEPT"></span>あれもこれも280円均一のお店</p>
+						<a href="brand/nihachi/">ブランド詳細へ</a>
+					</div>
+					<span class="logo"><img src="common/img/index/nihachi_list.png" alt=""></span>
+				</div>
+			</div>
+		</div>
+
+		
+		<ul>
+			<li class="shinobuya"><a href="#shinobuya"><img src="common/img/brand/shinobuya/rogo_s.png"></a></li>
+			<li class="masumasu"><a href="#masumasu"><img src="common/img/brand/masumasu/rogo_s.png"></a></li>
+			<li class="ajito"><a href="#ajito"><img src="common/img/brand/ajito/rogo_s.png"></a></li>
+			<li class="tomoe"><a href="#tomoe"><img src="common/img/brand/tomoe/rogo_s.png"></a></li>
+			<li class="mondokoro"><a href="#mondokoro"><img src="common/img/brand/mondokoro/rogo_s.png"></a></li>
+			<li class="kuidokoro"><a href="#kuidokoro"><img src="common/img/brand/kuidokoro/rogo_s.png"></a></li>
+<!--			<li class="harekano"><a href="#harekano"><img src="common/img/brand/harekano/rogo_s.png"></a></li>-->	
+			<li class="kushizanmai"><a href="#kushizanmai"><img src="common/img/brand/kushizanmai/rogo_s.png"></a></li>
+			<li class="wasyokumura"><a href="#wasyokumura"><img src="common/img/brand/wasyokumura/rogo_s.png"></a></li>
+			<li class="kushiichiba"><a href="#kushiichiba"><img src="common/img/brand/kushiichiba/rogo_s.png"></a></li>
+			<li class="nihachi"><a href="#nihachi"><img src="common/img/brand/nihachi/rogo_s.png"></a></li>
+		</ul>
+
+	</div>
+</div>
+
+
+<div id="info" class="wrap">
+	<section id="news" class="clearfix">
+		<h2>NEWS<span>お知らせ</span><a href="cgi-bin/news/news.cgi">記事の一覧へ</a></h2>
+		<h2>CAMPAIGN<span>キャンペーン・フェア情報</span><a href="cgi-bin/campaign/campaign.cgi">記事の一覧へ</a></h2>
+		<iframe src="news.html" frameborder="0" allowtransparency="true" scrolling="auto"></iframe>
+		<iframe src="campaign.html" frameborder="0" allowtransparency="true" scrolling="auto"></iframe>
+	</section>
+
+	<section id="banner">
+		<a href="company/bukken.html"><img src="common/img/index/banner_bukken.jpg"></a>
+		<a href="company/syokuzai.html"><img src="common/img/index/banner_syokuzai.jpg"></a>
+		<a href="cgi-bin/gallery/gallery.cgi"><img src="common/img/index/banner_gallery.jpg"></a>
+	</section>
+</div>
+
+
+<footer>
+	<p class="tbi"><a href="http://tbi-group.co.jp/" target="_blank" rel="nofollow"><img src="common/img/share/tbi_logo.png"></a></p>
+	<p>&copy; Horii Food Service.</p>
+	<img src="common/img/share/rogo.png">
+	<a href="inquiry/">お問い合わせ</a>
+	<ul><li><a href="cgi-bin/news/news.cgi">お知らせ</a></li><li><a href="cgi-bin/campaign/campaign.cgi">キャンペーン情報</a></li><li><a href="common/img/share/privacy.pdf" target="_blank">個人情報保護方針</a></li></ul>
+</footer>
+
+
+<nav>
+	<ul>
+		<li><a href="brand/">店舗紹介<small>BRAND</small><span></span></a></li>
+		<li><a href="search/">店舗検索<small>SEARCH</small><span></span></a></li>
+		<li><a href="company/">会社案内<small>COMPANY</small><span></span></a></li>
+		<li><a href="ir_info/">IR情報<small>IR</small><span></span></a></li>
+		<li><a href="recruit/">採用情報<small>RECRUIT</small><span></span></a></li>
+		<li><a href="netshop/">ネットショップ<small>NET SHOP</small><span></span></a></li>
+	</ul>
+</nav>
+<div class="menu"><div class="menu1"></div><div class="menu2"></div><div class="menu3"></div></div>
+
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-27711544-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+</body>
+</html>

@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<title>ベルグアース株式会社</title>
+<link rel="icon" href="/img/favicon.ico" type="image/x-icon" />
+<link rel="Shortcut Icon" type="image/x-icon" href="/img/favicon.ico" />
+<link rel="stylesheet" href="css/import.css" media="all" />
+<script src="js/rollover.js"></script>
+<script src="js/scrollsmoothly.js"></script>
+
+<!--[if lt IE 9]>
+	<script src="js/css3-mediaqueries.js"></script>
+	<script src="js/html5.js"></script>
+<![endif]-->
+
+<!-- gNaviドロップダウン -->
+<script src="js/megamenu/jquery-1.4.2.js"></script>
+<script src="js/megamenu/jquery.megamenu.js"></script>
+
+<!-- /gNaviドロップダウン -->
+
+<!-- SEO -->
+<meta name="keywords" content="接木,ベルグアース,べるぐあーす,berg earth,e-nae,山口園芸,アグリビジネス,農業,日本農業,苗生産,苗販売,種苗会社,育苗,苗,農業法人">
+<meta name="description" content="夢が語れる農業へ。農業のためになる、役に立つことを目的としたベルグアースのWEBサイトです。">
+<!-- /SEO -->
+
+<!-- GoogleAnalytics -->
+<script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-34209212-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function () {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+</script>
+<!-- /GoogleAnalytics -->
+</head>
+
+<body id="top">
+
+<div id="container">
+        <header id="topHeader">
+            <h1 id="logo">
+                <span class="nodisp">ベルグアース株式会社</span>
+                <a href="/index.html"><img src="/img/common/logo.png" width="321" height="115" alt="ベルグアース株式会社" /></a>
+            </h1>
+            
+            
+            <p id="description">
+                <img src="/img/common/h_navigation.png" width="538" height="59" alt="安心できる安全な野菜を安定して供給したい。ベルグアースは日本の農業に革命を起こします。" />
+            </p>
+
+
+            <nav id="global">
+                <h2>メインメニュー</h2>
+                <ul class="megamenu clearfix">
+                    <li id="gnavi01">
+                    <a href="/manufacturer/product/e_nae.html">
+                        <img src="/img/common/btn_gnavi01_map.png" width="266" height="402" alt="" usemap="#map1" />
+                        <map name="map1">
+                            <area shape="rect" coords="25,241,112,261" href="/manufacturer/product/e_nae.html" alt="製品情報" style="display:block;">
+                            <area shape="rect" coords="45,265,121,280" href="/manufacturer/product/e_nae.html" alt="e苗シリーズ" style="display:block;">
+                            <area shape="rect" coords="138,264,202,280" href="/manufacturer/product/seedling.html" alt="各種苗紹介" style="display:block;">
+                            <area shape="rect" coords="45,281,113,296" href="/manufacturer/product/materials.html" alt="農業用資材" style="display:block;">
+                            <area shape="rect" coords="25,302,140,320" href="/manufacturer/facility.html" alt="育苗施設紹介" style="display:block;">
+                            <area shape="rect" coords="25,325,140,343" href="/manufacturer/salesman/index.html" alt="営業マン情報" style="display:block;">
+                            <area shape="rect" coords="25,346,114,365" href="/manufacturer/breed/index.html" alt="品種情報" style="display:block;">
+                            <area shape="rect" coords="28,369,130,386" href="/manufacturer/manufacturer/index.html" alt="生産者の声" style="display:block;">
+                        </map> 
+                    </a>
+                    </li>
+                    <li id="gnavi02">
+                    <a href="/homegarden/graft.html">
+                        <img src="/img/common/btn_gnavi02_map.png" width="238" height="361" alt="" usemap="#map2" />
+                        <map name="map2">
+                            <area shape="rect" coords="33,264,154,285" href="/homegarden/graft.html" alt="接ぎ木苗紹介" style="display:block;">
+                            <area shape="rect" coords="33,289,164,309" href="/homegarden/original.html" alt="オリジナル商品" style="display:block;">
+                            <area shape="rect" coords="33,315,198,350" href="http://www.berumin.com/" target="_blank" alt="べるミンの家庭菜園について" style="display:block;">
+                        </map>
+                    </a>
+                    </li>
+                    <li id="gnavi03">
+                    <a href="/IR/index.php">
+                        <img src="/img/common/btn_gnavi03_map.png" width="238" height="361" alt="" usemap="#map3" />
+                        <map name="map3">
+                            <area shape="rect" coords="39,216,139,233" href="/IR/index.php" alt="IR関連情報" style="display:block;">
+                            <area shape="rect" coords="39,240,155,255" href="/IR/highlight.php" alt="財務ハイライト" style="display:block;">
+                            <area shape="rect" coords="39,263,169,278" href="/IR/library.php" alt="IR関連資料一覧" style="display:block;">
+                            <area shape="rect" coords="39,285,152,299" href="/IR/cal.php" alt="IRカレンダー" style="display:block;">
+                            <area shape="rect" coords="39,306,124,321" href="/IR/kokoku.php" alt="電子公告" style="display:block;">
+							<area shape="rect" coords="39,327,124,343" href="/company/column.html" alt="事業案内" style="display:block;">
+                        </map>
+                    </a>
+                    </li>
+                    <li id="gnavi04">
+                    <a href="/company/index.html">
+                        <img src="/img/common/btn_gnavi04_map.png" width="267" height="355" alt="" usemap="#map4" />
+                        <map name="map4">
+                            <area shape="rect" coords="70,240,160,257" href="/company/index.html" alt="会社概要" style="display:block;">
+                            <area shape="rect" coords="92,260,160,275" href="/company/index.html" alt="代表者挨拶" style="display:block;">
+                            <area shape="rect" coords="183,260,249,275" href="/company/data.html" alt="会社データ" style="display:block;">
+                            <area shape="rect" coords="92,277,171,294" href="/company/news.html" alt="掲載記事一覧" style="display:block;">
+                            <area shape="rect" coords="182,277,249,294" href="/company/accessmap.html" alt="事業所一覧" style="display:block;">
+                            <area shape="rect" coords="70,299,159,317" href="/company/overview.html" alt="事業概要" style="display:block;">
+                            <area shape="rect" coords="70,322,159,340" href="/company/recruit.html" alt="採用情報" style="display:block;">
+                        </map>
+                    </a>
+                    </li>
+                </ul>
+            </nav>
+        <!-- /#topHeader --></header>
+         
+        
+        <div id="topContents">
+        
+            <div id="topMain" class="clearfix">
+                <div id="secTopMain01">
+                    <article>
+                        <header>
+                            <h2>
+                                <span class="nodisp">生産者様・家庭菜園向け情報</span>
+                                <img src="img/top/h2_top01.png" width="319" height="36" alt="生産者様・家庭菜園向け情報">
+                            </h2>
+                        </header>
+                        
+                        <dl class="clearfix">
+                            <dt><img src="img/top/ico_top01.gif" width="5" height="7" alt="">2017.08.02</dt>
+                            <dd><a href="/manufacturer/breed/index.html">「生産者の皆さま／品種情報」人気品種ランキングを更新しました。</a></dd>
+                            <dt><img src="img/top/ico_top01.gif" width="5" height="7" alt="">2017.07.05</dt>
+                            <dd><a href="/manufacturer/breed/index.html">「生産者の皆さま／品種情報」人気品種ランキングを更新しました。</a></dd>
+                            <dt><img src="img/top/ico_top01.gif" width="5" height="7" alt="">2017.05.10</dt>
+                            <dd><a href="/company/news.html">「会社情報／掲載記事一覧」最新情報更新しました。</a></dd> 
+                        	<!-- <dt><img src="img/top/ico_top01.gif" width="5" height="7" alt="">2017.05.02</dt>
+                            <dd><a href="/manufacturer/breed/index.html">「生産者の皆さま／品種情報」人気品種ランキングを更新しました。</a></dd> -->
+                        	<!--<dt><img src="img/top/ico_top01.gif" width="5" height="7" alt="">2017.04.27</dt>
+                            <dd><a href="http://berumin.com/field/" target="_blank">「体験農園べるミン畑」のページを追加しました。</a></dd>-->
+                        	<!--<dt><img src="img/top/ico_top01.gif" width="5" height="7" alt="">2017.04.05</dt>
+                            <dd><a href="/manufacturer/breed/index.html">「生産者の皆さま／品種情報」人気品種ランキングを更新しました。</a></dd>-->
+                            <!--<dt><img src="img/top/ico_top01.gif" width="5" height="7" alt="">2017.03.07</dt>
+                            <dd><a href="/manufacturer/breed/index.html">「生産者の皆さま／品種情報」人気品種ランキングを更新しました。</a></dd>-->
+                            <!--<dt><img src="img/top/ico_top01.gif" width="5" height="7" alt="">2017.02.06</dt>
+                            <dd><a href="/manufacturer/breed/index.html">「生産者の皆さま／品種情報」人気品種ランキングを更新しました。</a></dd>-->
+                            <!--<dt><img src="img/top/ico_top01.gif" width="5" height="7" alt="">2017.01.17</dt>
+                            <dd><a href="/company/news.html">「会社情報／掲載記事一覧」最新情報更新しました。</a></dd>-->
+                            <!-- <dt><img src="img/top/ico_top01.gif" width="5" height="7" alt="">2017.01.13</dt>
+                            <dd><a href="/company/news.html">「会社情報／掲載記事一覧」最新情報更新しました。</a></dd> -->
+                            <!-- <dt><img src="img/top/ico_top01.gif" width="5" height="7" alt="">2017.01.06</dt>
+                            <dd><a href="/company/news.html">「会社情報／掲載記事一覧」最新情報更新しました。</a></dd> -->
+                        	<!-- <dt><img src="img/top/ico_top01.gif" width="5" height="7" alt="">2017.01.06</dt>
+                            <dd><a href="/manufacturer/breed/index.html">「生産者の皆さま／品種情報」人気品種ランキングを更新しました。</a></dd> -->
+                        	<!-- <dt><img src="img/top/ico_top01.gif" width="5" height="7" alt="">2016.11.07</dt>
+                            <dd><a href="/manufacturer/breed/index.html">「生産者の皆さま／品種情報」人気品種ランキングを更新しました。</a></dd> -->
+                            <!-- <dt><img src="img/top/ico_top01.gif" width="5" height="7" alt="">2016.10.05</dt>
+                            <dd><a href="/manufacturer/salesman/index.html">営業マン情報を更新しました。</a></dd> -->
+                        	<!--<dt><img src="img/top/ico_top01.gif" width="5" height="7" alt="">2016.10.04</dt>
+                            <dd><a href="/manufacturer/breed/index.html">「生産者の皆さま／品種情報」人気品種ランキングを更新しました。</a></dd>-->
+                        	<!--<dt><img src="img/top/ico_top01.gif" width="5" height="7" alt="">2016.09.07</dt>
+                            <dd><a href="/manufacturer/breed/index.html">「生産者の皆さま／品種情報」人気品種ランキングを更新しました。</a></dd>-->
+                            <!-- <dt><img src="img/top/ico_top01.gif" width="5" height="7" alt="">2016.08.04</dt>
+                            <dd><a href="/manufacturer/breed/index.html">「生産者の皆さま／品種情報」人気品種ランキングを更新しました。</a></dd> -->
+                        	<!--<dt><img src="img/top/ico_top01.gif" width="5" height="7" alt="">2016.07.04</dt>
+                            <dd><a href="/manufacturer/breed/index.html">「生産者の皆さま／品種情報」人気品種ランキングを更新しました。</a></dd>-->
+                        	<!--<dt><img src="img/top/ico_top01.gif" width="5" height="7" alt="">2016.06.14</dt>
+                            <dd><a href="/manufacturer/breed/index.html">「生産者の皆さま／品種情報」人気品種ランキングを更新しました。</a></dd>-->
+                        	<!-- <dt><img src="img/top/ico_top01.gif" width="5" height="7" alt="">2016.05.10</dt>
+                            <dd><a href="/manufacturer/breed/index.html">「生産者の皆さま／品種情報」人気品種ランキングを更新しました。</a></dd> -->
+                            <!--<dt><img src="img/top/ico_top01.gif" width="5" height="7" alt="">2016.04.19</dt>
+                            <dd><a href="/manufacturer/manufacturer/index.html">生産者の声をアップしました。</a></dd>-->
+                        	<!--<dt><img src="img/top/ico_top01.gif" width="5" height="7" alt="">2016.04.07</dt>
+                            <dd><a href="/manufacturer/breed/index.html">「生産者の皆さま／品種情報」人気品種ランキングを更新しました。</a></dd>-->
+                        	<!--<dt><img src="img/top/ico_top01.gif" width="5" height="7" alt="">2016.03.03</dt>
+                            <dd><a href="/manufacturer/breed/index.html">「生産者の皆さま／品種情報」人気品種ランキングを更新しました。</a></dd>-->
+							<!-- <dt><img src="img/top/ico_top01.gif" width="5" height="7" alt="">2016.02.04</dt>
+                            <dd><a href="/manufacturer/breed/index.html">「生産者の皆さま／品種情報」人気品種ランキングを更新しました。</a></dd> -->
+                        	<!--<dt><img src="img/top/ico_top01.gif" width="5" height="7" alt="">2016.01.04</dt>
+                            <dd><a href="/manufacturer/breed/index.html">「生産者の皆さま／品種情報」人気品種ランキングを更新しました。</a></dd>-->
+                        	<!--<dt><img src="img/top/ico_top01.gif" width="5" height="7" alt="">2015.12.02</dt>
+                            <dd><a href="/manufacturer/breed/index.html">「生産者の皆さま／品種情報」人気品種ランキングを更新しました。</a></dd>-->
+                        	<!--<dt><img src="img/top/ico_top01.gif" width="5" height="7" alt="">2015.11.04</dt>
+                            <dd><a href="/manufacturer/breed/index.html">「生産者の皆さま／品種情報」人気品種ランキングを更新しました。</a></dd>-->
+                        	<!--<dt><img src="img/top/ico_top01.gif" width="5" height="7" alt="">2015.10.05</dt>
+                            <dd><a href="/manufacturer/breed/index.html">「生産者の皆さま／品種情報」人気品種ランキングを更新しました。</a></dd>-->
+                        	<!--<dt><img src="img/top/ico_top01.gif" width="5" height="7" alt="">2015.09.04</dt>
+                            <dd><a href="/manufacturer/breed/index.html">「生産者の皆さま／品種情報」人気品種ランキングを更新しました。</a></dd>-->
+                        	<!--<dt><img src="img/top/ico_top01.gif" width="5" height="7" alt="">2015.08.05</dt>
+                            <dd><a href="/manufacturer/breed/index.html">「生産者の皆さま／品種情報」人気品種ランキングを更新しました。</a></dd>-->
+                        	<!--<dt><img src="img/top/ico_top01.gif" width="5" height="7" alt="">2015.07.06</dt>
+                            <dd><a href="/manufacturer/breed/index.html">「生産者の皆さま／品種情報」人気品種ランキングを更新しました。</a></dd>-->
+							<!--<dt><img src="img/top/ico_top01.gif" width="5" height="7" alt="">2015.06.08</dt>
+                            <dd><a href="/manufacturer/breed/index.html">「生産者の皆さま／品種情報」人気品種ランキングを更新しました。</a></dd>-->
+                        	<!--<dt><img src="img/top/ico_top01.gif" width="5" height="7" alt="">2015.05.07</dt>
+                            <dd><a href="/manufacturer/breed/index.html">「生産者の皆さま／品種情報」人気品種ランキングを更新しました。</a></dd>-->
+							<!--<dt><img src="img/top/ico_top01.gif" width="5" height="7" alt="">2015.04.15</dt>
+                            <dd><a href="/company/news.html">「会社情報／掲載記事一覧」最新情報更新しました。</a></dd>-->
+							<!--<dt><img src="img/top/ico_top01.gif" width="5" height="7" alt="">2015.04.09</dt>
+                            <dd><a href="/company/news.html">「会社情報／掲載記事一覧」最新情報更新しました。</a></dd>-->
+                        	<!--<dt><img src="img/top/ico_top01.gif" width="5" height="7" alt="">2015.04.06</dt>
+                            <dd><a href="/company/news.html">「会社情報／掲載記事一覧」最新情報更新しました。</a></dd>-->
+                        	<!--<dt><img src="img/top/ico_top01.gif" width="5" height="7" alt="">2015.04.06</dt>
+                            <dd><a href="/manufacturer/breed/index.html">「生産者の皆さま／品種情報」人気品種ランキングを更新しました。</a></dd>-->
+                        	<!--<dt><img src="img/top/ico_top01.gif" width="5" height="7" alt="">2015.03.06</dt>
+                            <dd><a href="/manufacturer/breed/index.html">「生産者の皆さま／品種情報」人気品種ランキングを更新しました。</a></dd>-->
+                        	<!--<dt><img src="img/top/ico_top01.gif" width="5" height="7" alt="">2015.02.04</dt>
+                            <dd><a href="/manufacturer/breed/index.html">「生産者の皆さま／品種情報」人気品種ランキングを更新しました。</a></dd>-->
+							<!--<dt><img src="img/top/ico_top01.gif" width="5" height="7" alt="">2015.01.23</dt>
+                            <dd><a href="/manufacturer/manufacturer/index.html">「生産者の皆さま／生産者の声」を更新しました。</a></dd>-->
+							<!--<dt><img src="img/top/ico_top01.gif" width="5" height="7" alt="">2015.01.23</dt>
+                            <dd><a href="/manufacturer/salesman/index.html">「生産者の皆さま／営業マン情報」を更新しました。</a></dd>-->
+                        	<!--<dt><img src="img/top/ico_top01.gif" width="5" height="7" alt="">2015.01.05</dt>
+                            <dd><a href="/manufacturer/breed/index.html">「生産者の皆さま／品種情報」人気品種ランキングを更新しました。</a></dd>-->
+							<!--<dt><img src="img/top/ico_top01.gif" width="5" height="7" alt="">2014.12.04</dt>
+                            <dd><a href="/manufacturer/breed/index.html">「生産者の皆さま／品種情報」人気品種ランキングを更新しました。</a></dd>-->
+                        	<!--<dt><img src="img/top/ico_top01.gif" width="5" height="7" alt="">2014.11.08</dt>
+                            <dd><a href="/manufacturer/breed/index.html">「生産者の皆さま／品種情報」人気品種ランキングを更新しました。</a></dd>-->
+                        	<!--<dt><img src="img/top/ico_top01.gif" width="5" height="7" alt="">2014.10.06</dt>
+                            <dd><a href="/manufacturer/breed/index.html">「生産者の皆さま／品種情報」人気品種ランキングを更新しました。</a>-->
+                        	<!--<dt><img src="img/top/ico_top01.gif" width="5" height="7" alt="">2014.09.05</dt>
+                            <dd><a href="/manufacturer/breed/index.html#id_breed02">「研究課題」を更新しました。</a>-->
+                        	<!--<dt><img src="img/top/ico_top01.gif" width="5" height="7" alt="">2014.09.05</dt>
+                            <dd><a href="/manufacturer/breed/index.html">「生産者の皆さま／品種情報」人気品種ランキングを更新しました。</a>-->
+                        	<!--<dt><img src="img/top/ico_top01.gif" width="5" height="7" alt="">2014.08.12</dt>
+                            <dd><a href="/manufacturer/breed/index.html">「生産者の皆さま／品種情報」人気品種ランキングを更新しました。</a>-->
+                            <!--<dt><img src="img/top/ico_top01.gif" width="5" height="7" alt="">2014.07.03</dt>
+                            <dd><a href="/manufacturer/breed/index.html">「生産者の皆さま／品種情報」人気品種ランキングを更新しました。</a>-->
+                            <!--<dt><img src="img/top/ico_top01.gif" width="5" height="7" alt="">2014.06.09</dt>
+                            <dd><a href="/company/news.html">「会社情報／掲載記事一覧」最新情報更新しました。</a></dd>-->
+                            <!--<dt><img src="img/top/ico_top01.gif" width="5" height="7" alt="">2014.06.06</dt>
+                            <dd><a href="/manufacturer/breed/index.html">「生産者の皆さま／品種情報」人気品種ランキングを更新しました。</a>-->
+                            <!--<dt><img src="img/top/ico_top01.gif" width="5" height="7" alt="">2014.05.28</dt>
+                            <dd><a href="/company/news.html">「会社情報／掲載記事一覧」最新情報更新しました。</a></dd>-->
+                            <!--<dt><img src="img/top/ico_top01.gif" width="5" height="7" alt="">2014.05.28</dt>
+                            <dd><a href="/company/recruit.html#recruit03">採用情報(中途採用)を更新しました。</a></dd>-->
+                            <!--<dt><img src="img/top/ico_top01.gif" width="5" height="7" alt="">2014.05.12</dt>
+                            <dd><a href="/manufacturer/product/seedling02.html#seedling01">お勧め「苗」情報を更新しました。</a></dd>-->
+                            <!--<dt><img src="img/top/ico_top01.gif" width="5" height="7" alt="">2014.05.07</dt>
+                            <dd><a href="/manufacturer/breed/index.html">「生産者の皆さま／品種情報」人気品種ランキングを更新しました。</a></dd>-->
+                            <!--<dt><img src="img/top/ico_top01.gif" width="5" height="7" alt="">2014.04.04</dt>
+                            <dd><a href="/manufacturer/breed/index.html">「生産者の皆さま／品種情報」人気品種ランキングを更新しました。</a></dd>-->
+                            <!--<dt><img src="img/top/ico_top01.gif" width="5" height="7" alt="">2014.03.05</dt>
+                            <dd><a href="/manufacturer/breed/index.html">「生産者の皆さま／品種情報」人気品種ランキングを更新しました。</a></dd>-->
+                            <!-- <dt><img src="img/top/ico_top01.gif" width="5" height="7" alt="">2014.02.06</dt>
+                            <dd><a href="/manufacturer/manufacturer/index.html">新ページ／生産者の声をアップしました。</a></dd>-->
+                        </dl>
+                        
+                        <p class="more"><a href="news.html"><img src="img/top/btn_top01.png" width="68" height="14" alt="もっと見る"></a></p>
+                    </article>
+                    
+                    <article>
+                        <header>
+                            <h2>
+                                <span class="nodisp">会社情報・IR情報</span>
+                                <img src="img/top/h2_top02.png" width="319" height="36" alt="会社情報・IR情報">
+                            </h2>
+                        </header>
+                        
+                        <iframe src="IR/irnews.php" scrolling="no" frameborder="0" allowtransparency="true" style="width:350px; height:120px; margin:27px 0 0 7px;"></iframe>
+                        
+                        <p class="more"><a href="/IR/index.php"><img src="img/top/btn_top01.png" width="68" height="14" alt="もっと見る"></a></p>
+                    </article>
+                <!-- /#secTopMain01 --></div>
+                
+                <div id="secTopMain02">
+                    <article id="new">
+                        <header>
+                            <h2>
+                                <span class="nodisp">べるミン広場Yahoo!店OPENしました</span>
+                                <img src="img/top/h2_top03.png" width="341" height="36" alt="べるミン広場Yahoo!店OPENしました">
+                            </h2>
+                        </header>
+
+                        <!-- 2014/08/08修正  -->
+                        <section class="clearfix" style="top: 36px;width: 340px;">
+                        	<!--<h3 style="margin-bottom:0"><img src="img/top/ico_top01.gif" width="5" height="7" alt="">
+								<a href="http://store.shopping.yahoo.co.jp/bergearth-berumin/tree.html" target="_blank">新提案！クリスマストマトツリー好評受付中！</a>
+							</h3>
+                        	<div style="float:left;width:65px; margin-right:5px;padding-top:0px;">
+                            	<a style="text-decoration:underline;color:#00F;" href="http://store.shopping.yahoo.co.jp/bergearth-berumin/tree.html" target="_blank"><img src="/img/company/event/bnr01.jpg" width="60"></a>
+                            </div>
+                            <div style="float:left; width:205px;font-size:9px;white-space: nowrap;">
+                                <p>当社から冬の家庭園芸に向けてご提案！！</p>
+                                <p>トマトのクリスマスツリーをぜひお買い求めください♪</p>
+							</div>-->
+                            <h3 style=""><img src="img/top/ico_top01.gif" width="5" height="7" alt="">
+                                <a href="http://berumin.com/field/info/#application" target="_blank">四国初！「体験農園べるミン畑」見学会好評受付中</a>
+                            </h3>
+                            
+                            <h3 style=""><img src="img/top/ico_top01.gif" width="5" height="7" alt="">
+                                <a href="/manufacturer/plant_factory.html">「PLANT FACTORY」に閉鎖型苗生産システムの特徴が掲載されました。</a>
+                            </h3>
+                            <h3><img src="img/top/ico_top01.gif" width="5" height="7" alt="">
+                                <a href="http://www.jgha.com/jisedai/h27/r3/h27r3.pdf#page=47" target="_blank">「次世代施設園芸導入加速支援事業」により実施された技術支援の報告書に当社の取組みが掲載されました</a>
+                            </h3>
+							<h3><img src="img/top/ico_top01.gif" width="5" height="7" alt="">
+								<a href="http://hojin.or.jp/standard/2015WAP100jushousha_all.pdf#page=6" target="_blank">日本農業法人協会「農業の未来をつくる女性活躍経営体100選」に選ばれました</a>
+							</h3>
+                            <!--<h3><img src="img/top/ico_top01.gif" width="5" height="7" alt="">
+                                <a href="company/accessmap.html#hukushima">震災復興支援および東日本拠点「ベルグ福島株式会社」</a>
+                            </h3>-->
+                        	<!-- <h3 style="margin-bottom:0"><img src="img/top/ico_top01.gif" width="5" height="7" alt="">
+                                <a href="company/accessmap.html#hukushima">ベルグ福島株式会社</a>
+                            </h3>
+                            <div>
+                                <p>接ぎ木育苗技術･人工光育苗技術･植物ワクチン接種技術を活かし、福島県をはじめ東北・北海道･関東の野菜産地に、閉鎖型苗生産システム（人口光利用型育苗施設）･太陽光利用型ハウスを用いた野菜苗の生産・販売を行います。</p>
+                            </div> -->
+
+                        </section>
+
+                    </article>
+
+ 
+                    <article id="recommend">
+                        <header>
+                            <h2 >
+                                <span class="nodisp">ベルグアースお勧め「苗」情報</span>
+                                <img src="img/top/h2_top04.png" width="341" height="36" alt="ベルグアースお勧め「苗」情報">
+                            </h2>
+                        </header>
+                        
+                        <!-- 2014/05/07修正  -->
+                        <section style="left:160px;width:196px;">
+                            <h3><img src="img/top/ico_top01.gif" width="5" height="7" alt=""><a href="/manufacturer/product/seedling01.html">ツイン苗</a></h3>
+                            <p class="comment" style="word-break:break-all;">「ツイン苗」は、トマト苗を摘芯し2本仕立てにした商品です。従来の1本苗に比べ種苗コストの削減が可能です。</p>
+                            <p class="btnOther" style=""><a href="/manufacturer/product/seedling.html"><img src="img/top/btn_top02.png" width="169" height="26" alt="その他の苗について"></a></p>
+                        </section>
+                        <a href="/manufacturer/product/seedling01.html"><img style="margin-left:10px;" src="img/top/top_photo/20151007/pic_top_01.png" width="100" alt=""></a>
+                        <!-- 2014/05/07修正  -->
+
+                    </article>
+                <!-- /#secTopMain02 --></div>
+                
+                <div id="secTopMain03">
+                    <h2 class="nodisp">関連リンク</h2>
+                    <p class="bnr"><a href="http://www.berumin.com/" target="_blank"><img src="img/top/bnr_top01.png" width="250"  alt="べるミンの家庭菜園"></a></p>
+                    <p class="bnr"><a href="/ebook/index.html" target="_blank"><img src="img/top/bnr_top02.png" width="250" height="50" alt="商品カタログ"></a></p>
+                    <p class="bnr"><a href="http://www.bergearth.co.jp/sokunoh/index.htm" target="_blank"><img src="img/top/bnr_top03.png" width="250" height="50" alt="ほうさく.ネット"></a></p>
+                    <p class="bnr"><a href="/ehimesyokuzai/index.html" target="_blank"><img src="img/top/bnr_top04.png" width="250" height="50" alt="えひめの食財ファイル"></a></p>
+                    <p class="bnr"><a href="/ebook20140218/index.html" target="_blank"><img src="img/top/bnr_top06.png" width="250" height="49" alt="会社案内パンフレット"></a></p>
+                    <p class="bnr inlineC mt05"><a href="http://ehime-president.net/bergearth" target="_blank"><img src="img/top/bnr_top06.jpg" width="250" height="50" alt="愛媛の社長TV"></a></p>
+                <!-- /#secTopMain03 --></div>
+                
+                <img class="illust01" src="img/top/img_top01.png" width="119" height="445" alt="">
+                <!--<img class="illust02" src="img/top/img_top02.png" width="196" height="161" alt="">-->
+                
+            <!-- /#topMain --></div>
+            
+        <!-- /#topContents --></div>
+        
+        
+        <footer id="footer">
+        <div class="innerFt clearfix">
+
+            <div class="fsec01Wrap clearfix">
+                <section id="sitemap">
+                    <h2>サイトマップ</h2>
+                    <div class="wrapper clearfix">
+                        <section class="linkBox">
+                            <h3>生産者の皆さま</h3>
+                            <ul>
+                                <li><a href="/manufacturer/product/e_nae.html"><img src="/img/common/ico_footer01.gif" width="5" height="5" alt="" />商品情報</a></li>
+                                <li class="indent"><a href="/manufacturer/product/e_nae.html">- e苗シリーズ</a></li>
+                                <li class="indent"><a href="/manufacturer/product/seedling.html">- 各種苗紹介</a></li>
+                                <li class="indent"><a href="/manufacturer/product/materials.html">- 農業用資材</a></li>
+                                <li><a href="/manufacturer/facility.html"><img src="/img/common/ico_footer01.gif" width="5" height="5" alt="" />育苗施設紹介</a></li>
+                                <li><a href="/manufacturer/salesman/index.html"><img src="/img/common/ico_footer01.gif" width="5" height="5" alt="" />営業マン情報</a></li>
+                                <li><a href="/manufacturer/breed/index.html"><img src="/img/common/ico_footer01.gif" width="5" height="5" alt="" />品種情報</a></li>
+                                <li><a href="/manufacturer/manufacturer/index.html"><img src="/img/common/ico_footer01.gif" width="5" height="5" alt="" />生産者の声</a></li>
+                            </ul>
+                        </section>
+                        
+                        <section class="linkBox">
+                            <h3>家庭菜園の皆さま</h3>
+                            <ul>
+                                <li><a href="/homegarden/graft.html"><img src="/img/common/ico_footer01.gif" width="5" height="5" alt="" />接ぎ木苗紹介</a></li>
+                                <li class="indent"><a href="/homegarden/graft.html">- 接ぎ木とは</a></li>
+                                <li class="indent"><a href="/homegarden/graft.html">- 苗のできるまで</a></li>
+                                <!--<li class="indent"><a href="/homegarden/graft.html">- 接ぎ木のメリット</a></li>-->
+                                <li><a href="/homegarden/original.html"><img src="/img/common/ico_footer01.gif" width="5" height="5" alt="" />オリジナル商品</a></li>
+                                <li><a href="http://www.berumin.com/" target="_blank"><img src="/img/common/ico_footer01.gif" width="5" height="5" alt="" /><span class="font12">べるミンの家庭菜園について</span></a></li>
+                            </ul>
+                        </section>
+
+                        <section class="linkBox">
+                            <h3>投資家の皆さま</h3>
+                            <ul>
+                                <li><a href="/IR/index.php"><img src="/img/common/ico_footer01.gif" width="5" height="5" alt="" />IR関連情報</a></li>
+                                <li><a href="/IR/highlight.php"><img src="/img/common/ico_footer01.gif" width="5" height="5" alt="" />財務ハイライト</a></li>
+                                <li><a href="/IR/library.php"><img src="/img/common/ico_footer01.gif" width="5" height="5" alt="" />IR関連資料一覧</a></li>
+                                <li><a href="/IR/cal.php"><img src="/img/common/ico_footer01.gif" width="5" height="5" alt="" />IRカレンダー</a></li>
+                                <li><a href="/IR/kokoku.php"><img src="/img/common/ico_footer01.gif" width="5" height="5" alt="" />電子公告</a></li>
+                                <li><a href="/company/column.html"><img src="/img/common/ico_footer01.gif" width="5" height="5" alt="" />事業報告</a></li>
+                            </ul>
+                        </section>
+                    </div>
+                    <div class="wrapper clearfix nomb">
+                        <section class="linkBox">
+                            <h3>会社情報</h3>
+                            <ul>
+                                <li><a href="/company/index.html"><img src="/img/common/ico_footer01.gif" width="5" height="5" alt="" />会社概要</a></li>
+                                <li class="indent"><a href="/company/index.html">- 代表挨拶</a></li>
+                                <li class="indent"><a href="/company/data.html">- 会社データ</a></li>
+                                <li class="indent"><a href="/company/news.html">- 掲載記事一覧</a></li>
+                                <li class="indent"><a href="/company/accessmap.html">- 事業所一覧</a></li>
+                                <li><a href="/company/overview.html"><img src="/img/common/ico_footer01.gif" width="5" height="5" alt="" />事業概要</a></li>
+                                <li><a href="/company/recruit.html"><img src="/img/common/ico_footer01.gif" width="5" height="5" alt="" />採用情報</a></li>
+                            </ul>
+                        </section>
+                        
+                        <section class="linkBox">
+                            <h3><a href="/contact/contact.php">お問い合わせ</a></h3>
+                            <h3><a href="http://www.berumin.com/" target="_blank">べるミンの家庭菜園</a></h3>
+                            <h3 class="font12"><a href="/ehimesyokuzai/index.html" target="_blank">えひめの食財ファイル</a></h3>
+                            <h3><a href="/news.html">お知らせ</a></h3>
+                        </section>
+                    </div>
+                <!-- /#sitemap --></section>
+                
+                <div id="facebookWrap">
+                    <div id="fb-root"></div>
+                    <script>(function(d, s, id) {
+                      var js, fjs = d.getElementsByTagName(s)[0];
+                      if (d.getElementById(id)) return;
+                      js = d.createElement(s); js.id = id;
+                      js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.8&appId=259081794429678";
+                      fjs.parentNode.insertBefore(js, fjs);
+                    }(document, 'script', 'facebook-jssdk'));</script>
+                    <div class="fb-page" data-href="https://www.facebook.com/bergearth/" data-tabs="timeline" data-width="425" data-height="440" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false"></div>
+                </div>
+
+            </div>
+            
+            <section id="address" class="clearfix">
+                <h2><img src="/img/common/h2_footer01.png" width="346" height="37" alt="ベルグアース株式会社" /><span>ベルグアース株式会社</span></h2>
+                
+                <section id="address01">
+                    <h3>西日本事業部</h3>
+                    <dl class="clearfix">
+                        <dt>【 本社・本社農場 】</dt>
+                        <dd>〒798-3361 愛媛県宇和島市津島町北灘甲88-1　【<a href="/company/accessmap.html#mainoffice"> MAP </a>】</dd>
+                        <dd>代表　TEL.0895-20-8231　　FAX.0895-32-6183<br />
+							営業　TEL.0895-32-1831</dd>
+                    </dl>
+                </section>
+                
+                <section id="address02">
+                    <h3>東日本事業部</h3>
+                    <dl class="clearfix">
+                        <dt>【 茨城農場 】</dt>
+                        <dd>〒319-2136 茨城県常陸大宮市上村田2003-2　【<a href="/company/accessmap.html#ibaraki"> MAP </a>】</dd>
+                        <dd>農場　TEL.0295-55-8677　　FAX.0295-53-8110<br />
+							営業　TEL.0295-55-8315</dd>
+                    </dl>
+					<dl class="clearfix">
+                        <dt>【 長野農場 】</dt>
+                        <dd>〒389-0501 長野県東御市新張688-1　【<a href="/company/accessmap.html#nagano"> MAP </a>】</dd>
+                        <dd>TEL.0268-64-7228 　FAX.0268-64-7231</dd>
+                    </dl>
+					<dl class="clearfix">
+                        <dt>【 いわて花巻農場 】</dt>
+                        <dd>〒028-0111 岩手県花巻市東和町百ノ沢7区166-1　【<a href="/company/accessmap.html#iwate"> MAP </a>】</dd>
+                        <dd>TEL.0198-43-1650 　 FAX.0198-43-1651</dd>
+                    </dl>
+				</section>
+				<p class="clearboth footer_link">
+					<a href="/company/accessmap.html#hukushima">ベルグ福島株式会社</a>
+					<a href="/company/accessmap.html#aoshima">青島芽福陽園芸有限公司</a>
+					<a href="http://fungarden.co.jp/" target="_blank">ファンガーデン株式会社</a>
+				</p>
+
+                <p id="contact"><a href="/contact/contact.php"><img src="/img/common/btn_footer02.png" width="330" height="47" alt="お問い合わせ" /></a></p>
+                <p id="pagetop"><a href="#container"><img src="/img/common/btn_footer01.png" width="118" height="28" alt="ページの先頭へ" /></a></p>
+                <p id="copyright">Copyright &copy; <!--2012-->Berg Earth Co.,Ltd. All rights reserved.</p>
+            <!-- /#address --></section>
+        </div>
+        <!-- /#footer --></footer>
+        
+        
+<!-- /#container --></div>
+
+</body>
+</html>

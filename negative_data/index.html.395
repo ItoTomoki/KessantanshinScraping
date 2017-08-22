@@ -1,0 +1,498 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja" dir="ltr" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="アキナジスタは、インターネット広告（アドネットワークの開発・運営、広告代理）とスマートフォンアプリなどのメディア開発・運営に取り組んできた豊富なノウハウを活かし、グローバル展開も含めたトータルプランニングをご行っています。" />
+<meta name="keywords" content="アドネットワーク,アフィリエイト,広告代理,スマートフォン広告,アプリ広告" />
+<meta name="robots" content="all" />
+<meta name="viewport" content="width=1200,maximum-scale=1" />
+<title>アキナジスタ株式会社 ［Akinasista Corporation］</title>
+<!-- ↓OGP↓-->
+<meta property="og:title" content="アキナジスタ株式会社 ［Akinasista Corporation］" />
+<meta property="og:type" content="website" />
+<meta property="og:description" content="アキナジスタは、インターネット広告（アドネットワークの開発・運営、広告代理）とスマートフォンアプリなどのメディア開発・運営に取り組んできた豊富なノウハウを活かし、グローバル展開も含めたトータルプランニングをご行っています。" />
+<meta property="og:url" content="/" />
+<meta property="og:image" content="/img/page/index/img_ogp01.jpg" />
+<meta property="og:site_name" content="アキナジスタ株式会社" />
+<!-- ↑OGP↑ -->
+<link rel="apple-touch-icon" href="/img/common/apple-touch-icon.png">
+<link rel="stylesheet" href="css/import.css" />
+</head>
+
+<body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.3";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script> 
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> 
+<script type="text/javascript" src="js/jquery.heightLine.js"></script> 
+<script type="text/javascript" src="js/common.js"></script>
+
+
+<!--↓CONTAINER↓-->
+<div id="CONTAINER"> 
+  <!--↓MAIN↓-->
+  <div id="MAIN"> 
+    <!--↓PAGE↓-->
+    <div id="PAGE_TOP">
+    <div id="movie">
+        <div id="movieWrap"><p id="mBtn"><a href="#" class="mBtn2"><img src="img/page/index/mBtn.png" width="79" height="79" class="op" alt="WATCH THE VIDEO" /></a><br /><img src="img/page/index/mtxt.png" width="354" height="64" alt="見せる広告から体験する広告へ" /></p></div>
+        
+        
+        
+        
+        
+<video width="100%" poster="img/page/index/video.jpg" preload="none" src="mv/20150624_akinasista_short_2.m4v" autoplay loop></video>        
+    </div>
+      
+
+
+      <table class="head_line mBp20">
+        <tr>
+          <th><img src="img/page/index/txt01.png" width="51" height="8" alt="HEADLINE" /></th>
+          <td>
+          
+<a href="http://www.akinasista.co.jp/ir/pdf/20170817jcnews_11.pdf">ニュース配信アプリ『JCnews』に 新キャラクター陽報 広美海(ようほう ひみか)決定！吉岡麻耶さん、高井舞香さんによる 第11 回生放送8 月17 日（木） 「まとしずの今夜は女子話」 に新キャラクター担当 日岡なつみさんも出演！</a>
+<span class="news_date01 icon_pdf01">(2017/08/17)</span>
+            
+            
+		
+
+
+
+
+
+
+
+    
+
+          
+          </td>
+        </tr>
+      </table>
+      
+      
+      
+      
+<script type="text/javascript">
+
+var script = document.createElement( 'script' );
+script.src = "//www.youtube.com/iframe_api";
+var firstScript = document.getElementsByTagName( 'script' )[ 0 ];
+firstScript.parentNode.insertBefore( script , firstScript );
+var player;
+var vid = 'dXBCXeNnYnA';
+function onYouTubeIframeAPIReady(){
+	player = new YT.Player( 'popup-youtube',{
+		width: '100%',
+		height: '100%',
+		videoId: vid,
+		playerVars: {'showinfo': 0, 'autohide': 1, 'controls': 1, 'rel': 0, 'loop': 0, 'autoplay': 1,'enablejsapi': 1},
+		events: {
+			'onReady': onPlayerReady,
+			'onStateChange': onPlayerStateChange
+		}
+	});
+	
+}
+function onPlayerStateChange(){
+}
+function onPlayerReady(){
+			player.stopVideo();
+
+}
+</script>
+<script type="text/javascript">
+jQuery(function($){
+	$(".mobtn").on('click', function(){
+		if($('.youtubeOverlay').css('display') == 'block'){
+			$(".youtubeOverlay").hide();
+			$('body').css('overflow-y', 'auto');
+			player.stopVideo();
+			
+		}else{
+			$(".youtubeOverlay").show();
+			$('body').css('overflow-y', 'hidden');
+			player.playVideo();
+		}
+	});
+	$(".mBtn2").on('click', function(){
+		if($('.youtubeOverlay').css('display') == 'block'){
+			$(".youtubeOverlay").hide();
+			$('body').css('overflow-y', 'auto');
+			player.stopVideo();
+		}else{
+			$(".youtubeOverlay").show();
+			$('body').css('overflow-y', 'hidden');
+			player.playVideo();
+		}
+	});
+});
+</script>
+<div class="youtubeOverlay">
+    <div class="popup-parent">
+    <a href="javascript:void(0);" class="mobtn"><img src="img/page/index/btnMv.png" width="45" class="op" /></a>
+    <div class="popup-position">
+    <div id="popup-youtube"></div>
+    </div>
+    </div>
+</div>
+      
+      
+      
+      
+      
+      <div class="column3 mLp20 mRp20 mBp20">
+
+
+
+      
+
+        <div class="first">
+          <dl class="img_box01">
+            <dt><a href="/corporate/outline/index.php">
+            
+            <div class="view view-first">
+                <p></p>  
+                <img src="img/page/index/img01.jpg" alt="トップメッセージ" class="fade verticalBot" />
+                <div class="mask">
+                </div>  
+            </div> 
+            
+            <span><img src="img/common/arrow02.png" width="22" height="9" alt="↑" /></span></a></dt>
+            <dd>
+              <dl>
+                <dt><a href="/corporate/outline/index.php">会社概要</a></dt>
+                <dd>アキナジスタ株式会社の<br />会社情報をお伝えします。</dd>
+              </dl>
+            </dd>
+          </dl>
+        </div>
+
+
+        
+        
+        
+        
+        <div>
+        
+        
+        
+          <dl class="img_box01">
+            <dt> <a href="/service_product/index.php"><div class="view view-first"><p></p>
+     <img src="img/page/index/img02.jpg" alt="事業紹介" class="fade verticalBot" />
+     <div class="mask">  
+        
+     </div>  
+</div> <span><img src="img/common/arrow02.png" width="22" height="9" alt="↑" /></span></a></dt>
+            <dd>
+              <dl>
+                <dt><a href="/service_product/index.php">事業紹介</a></dt>
+                <dd>4つの主要事業について<br />ご紹介いたします。</dd>
+              </dl>
+            </dd>
+          </dl>
+        </div>
+        <div>
+          <dl class="img_box01">
+            <dt>
+            	<a href="/recruit/guideline/index.php">
+            	<div class="view view-first"><p></p>
+				<img src="img/page/index/img03.jpg" alt="採用情報" class="fade verticalBot" />
+				<div class="mask"></div></div> <span><img src="img/common/arrow02.png" width="22" height="9" alt="↑" /></span>
+                </a>
+            </dt>
+            <dd>
+              <dl>
+                <dt><a href="/recruit/guideline/index.php">採用情報</a></dt>
+                <dd>採用・社内に関する情報は<br />こちらをご覧ください。</dd>
+              </dl>
+            </dd>
+          </dl>
+        </div>
+      </div>
+      <div class="column2 mLp20 mRp20 mBp20">
+      
+        <div class="first">
+          <dl class="img_box02">
+            <dt>
+            	<a href="/service_product/global/index.php">
+            	<div class="view view-first"><p></p>
+				<img src="img/page/index/img04.jpg" alt="グローバル展開" class="fade fade1" />
+				<div class="mask"></div></div> <span><img src="img/common/arrow03.png" width="9" height="22" alt="←" /></span>
+                </a>
+            </dt>
+            <dd>
+              <dl>
+                <dt><a href="/service_product/global/index.php">グローバル展開</a></dt>
+                <dd>海外進出支援について<br />ご紹介いたします。</dd>
+              </dl>
+            </dd>
+          </dl>
+        </div>
+        <div>
+          <dl class="img_box02">
+			<dt>
+            	<a href="/ir/index.php">
+            	<div class="view view-first"><p></p>
+				<img src="img/page/index/img05.jpg" alt="投資家情報（IR）" class="fade" />
+				<div class="mask"></div></div> <span><img src="img/common/arrow03.png" width="9" height="22" alt="←" /></span>
+                </a>
+            </dt>
+            <dd>
+              <dl>
+                <dt><a href="/ir/index.php">投資家情報(IR)</a></dt>
+                <dd>財務・株式情報などは<br />
+                  こちらをご覧ください。</dd>
+              </dl>
+            </dd>
+          </dl>
+        </div>
+      </div>
+      
+      
+
+      <div class="news_box01">
+        <div class="column2">
+          <div class="first">
+            <dl class="news_list01">
+              <dt>トピックス<a href="/ir/press/index.php"><img src="img/page/index/btn01.png" width="128" height="29" alt="VIEW ALL NEWS" class="op" /></a></dt>
+              <dd>
+                <ul>
+                
+                
+                
+
+ 
+ 
+<li> <a href="http://www.akinasista.co.jp/ir/pdf/20170817jcnews_11.pdf"><span class="news_thumb01">
+
+
+            <img src="/img/common/news/thumb/img06.jpg" alt="JC News" />
+
+
+
+            </span><div class="hidden"><span class="news_icon01">
+
+            <img src="/img/common/news/icon_new01.gif" alt="NEW" />            </span><br />ニュース配信アプリ『JCnews』に 新キャラクター陽報 広美海(ようほう ひみか)決定！吉岡麻耶さん、高井舞香さんによる 第11回生放送 ８月１７日（木） 「まとしずの今夜は女子話」 に新キャラクター担当 日岡なつみさんも出演！<span class="news_date01 icon_pdf01">(2017/08/17)</span></div></a> </li>
+
+
+
+
+
+
+
+
+
+
+<li> <a href="http://www.akinasista.co.jp/ir/octopus-page.html"><span class="news_thumb01">
+            
+            
+            <img src="/img/common/news/thumb/img07.png" alt="octopus" />
+
+            
+            
+            </span><div class="hidden"><span class="news_icon01">
+            
+            <img src="img/common/news/icon_press01.gif" alt="PRESS" />            </span><br />「OCTOPUS(オクトパス）」のサービスページを公開<span class="news_date01">(2017/08/08)</span></div></a> </li>
+
+
+
+
+<li> <a href="http://www.akinasista.co.jp/ir/pressrelease_2017071413700.html"><span class="news_thumb01">
+            
+            
+            <img src="/img/common/news/thumb/img06.jpg" alt="JC News" />
+
+            
+            
+            </span><div class="hidden"><span class="news_icon01">
+            
+            <img src="img/common/news/icon_press01.gif" alt="PRESS" />            </span><br />ニュース配信アプリ 『JCnews（ジェイシーニュース）』 吉岡麻耶さん、高井舞香さんによる第10回記念生放送「まとしずの今夜は女子話」７月20日（木） 決定！特集ゲーム「神式一閃 カムライトライブ」解説！<span class="news_date01">(2017/07/14)</span></div></a> </li>
+            
+            
+		
+
+
+
+
+
+
+
+    
+
+
+
+	
+
+    
+
+
+
+		
+            
+            <li> <a href="http://www.akinasista.co.jp/ir/pressrelease_2017062610602.html"><span class="news_thumb01">
+            
+            
+            <img src="/img/common/news/thumb/img01.jpg" alt="自社" />
+            
+            
+            
+            </span><div class="hidden"><span class="news_icon01">
+            
+            <img src="img/common/news/icon_press01.gif" alt="PRESS" />            </span><br />【電話回線復旧のお知らせ】<span class="news_date01">(2017/06/26)</span></div></a> </li>
+            
+ 
+ 
+ 
+ 
+                    
+                    
+                    
+                    
+                </ul>
+              </dd>
+            </dl>
+          </div>
+          <div>
+            <dl class="news_list01">
+              <dt>IRニュース<a href="/ir/news/index.php"><img src="img/page/index/btn02.png" width="128" height="29" alt="VIEW ALL IR" class="op" /></a></dt>
+              <dd>
+                <ul>
+<li><a href="http://www.akinasista.co.jp/ir/pdf/%E5%B9%B3%E6%88%9029%E5%B9%B43%E6%9C%88%E6%9C%9F%20%E6%9C%89%E4%BE%A1%E8%A8%BC%E5%88%B8%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf" target="_blank"><span class="news_icon02">
+    
+    <img src="/img/common/news/icon_ir01.gif" alt="IR" /></span><div class="hidden">平成29年3月期 有価証券報告書<span class="news_date01 icon_pdf01">(2017/06/23)</span></div></a> </li>
+
+
+	
+	
+	
+    
+	<li><a href="http://www.akinasista.co.jp/ir/pdf/%E7%AC%AC17%E6%9C%9F%E5%AE%9A%E6%99%82%E6%A0%AA%E4%B8%BB%E7%B7%8F%E4%BC%9A%E6%B1%BA%E8%AD%B0%E3%81%94%E9%80%9A%E7%9F%A5.pdf" target="_blank"><span class="news_icon02">
+    
+    <img src="/img/common/news/icon_ir01.gif" alt="IR" /></span><div class="hidden">第17期定時株主総会決議ご通知<span class="news_date01 icon_pdf01">(2017/06/23)</span></div></a> </li>
+
+
+	
+	
+	
+    
+	<li><a href="http://www.akinasista.co.jp/ir/pdf/%E7%AC%AC17%E6%9C%9F%E6%8B%9B%E9%9B%86%E3%81%94%E9%80%9A%E7%9F%A5.pdf" target="_blank"><span class="news_icon02">
+    
+    <img src="/img/common/news/icon_ir01.gif" alt="IR" /></span><div class="hidden">第17期定時株主総会招集ご通知<span class="news_date01 icon_pdf01">(2017/06/08)</span></div></a> </li>
+
+
+	
+	
+		
+		
+	
+	
+    
+	<li><a href="http://www.akinasista.co.jp/ir/pdf/20161222jikokabushikisyutoku.pdf" target="_blank"><span class="news_icon02">
+    
+    <img src="/img/common/news/icon_ir01.gif" alt="IR" /></span><div class="hidden">自己株式取得に関するお知らせ<span class="news_date01 icon_pdf01">(2016/12/22)</span></div></a> </li>
+
+
+	
+	
+	
+    
+	<li><a href="http://www.akinasista.co.jp/ir/pdf/20161222hankihoukokusho.pdf" target="_blank"><span class="news_icon02">
+    
+    <img src="/img/common/news/icon_ir01.gif" alt="IR" /></span><div class="hidden">平成29年3月期 半期報告書<span class="news_date01 icon_pdf01">(2016/12/22)</span></div></a> </li>
+
+
+	
+	
+	
+    
+	<li><a href="http://www.akinasista.co.jp/ir/pdf/%E7%AC%AC16%E6%9C%9F%E6%9C%89%E5%A0%B1.pdf" target="_blank"><span class="news_icon02">
+    
+    <img src="/img/common/news/icon_ir01.gif" alt="IR" /></span><div class="hidden">平成28年3月期 有価証券報告書<span class="news_date01 icon_pdf01">(2016/06/24)</span></div></a> </li>
+
+
+	
+	
+	
+    
+	<li><a href="http://www.akinasista.co.jp/ir/pdf/%E7%AC%AC16%E6%9C%9F%E6%B1%BA%E8%AD%B0%E9%80%9A%E7%9F%A5.pdf" target="_blank"><span class="news_icon02">
+    
+    <img src="/img/common/news/icon_ir01.gif" alt="IR" /></span><div class="hidden">第16期定時株主総会決議ご通知<span class="news_date01 icon_pdf01">(2016/06/24)</span></div></a> </li>
+
+                  
+                </ul>
+              </dd>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--↑PAGE↑--> 
+    <!--↓FOOTER↓-->
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-73215617-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+    <div id="FOOTER01">
+      <ul class="clearfix mR10 mL20 w40 leftBox c1">
+        <li class="leftBox mR10">
+          <div class="fb-like" data-href="/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
+        </li>
+        <li class="leftBox"><a href="https://twitter.com/share" class="twitter-share-button" data-lang="ja">ツイート</a> 
+          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></li>
+      </ul>
+      <ul class="clearfix mR20 mL10 w40 rightBox c2">
+        <li class="rightBox"><a href="/site_map/index.php">サイトマップ</a></li>
+        <li class="rightBox mR10"><a href="/privacy_policy/index.php">プライバシーポリシー</a>&nbsp;&nbsp;|</li>
+      </ul>
+    </div>
+    <div id="FOOTER02">
+      <dl>
+        <dt class="f16px bold centerText mB10">アキナジスタ株式会社</dt>
+        <dd class="f10px centerText">〒102-0073 東京都千代田区九段北3-2-5　九段北325ビル 5F　お問い合わせ：03-3263-4666<br />
+          &copy; AKINASISTA.All rights reserved.</dd>
+      </dl>
+    </div>    <!--↑FOOTER↑--> 
+  </div>
+  <!--↑MAIN↑--> 
+  <!--↓SIDE↓-->
+<div id="SIDE">
+	<div id="SIDEWrap">
+		<h1><a href="/"><img src="/img/common/side/logo.jpg" width="126" height="118" alt="アキナジスタ株式会社 ［Akinasista Corporation］" class="fade" /></a></h1>
+		<p class="centerText"><img src="/img/common/side/txt01.gif" width="113" height="41" alt="常識を変える。未来を創造する。" /></p>
+		<ul class="side_list01">
+			<li class="navi01"><a href="/ir/press/index.php"><span>NEWS</span></a></li>
+			<li class="navi02"><a href="/service_product/index.php"><span>SERVICE</span></a></li>
+			<li class="navi03"><a href="/corporate/outline/index.php"><span>COMPANY</span></a></li>
+			<li class="navi04"><a href="/ir/index.php"><span>IR</span></a></li>
+			<li class="navi05"><a href="/recruit/guideline/index.php"><span>RECRUIT</span></a></li>
+			<li class="navi06"><a href="/inquiry/index.php"><span>CONTACT</span></a></li>
+		</ul>
+        <ul class="side_sns">
+			<li class="sns01"><a href="https://www.facebook.com/akinasista.co.jp	" target="_blank"><img src="/img/common/side/ic_fbBtn.png" class="fade" width="24" height="24" alt="Facebook" /></a></li>
+			<li class="sns02"><a href="https://twitter.com/akinasista_pr" target="_blank"><img src="/img/common/side/ic_twBtn.png" class="fade" width="24" height="24" alt="Twitter" /></a></li>
+			<li class="sns03"><a href="https://www.youtube.com/channel/UC2rETSR24hgXcG-rCooNzVA" target="_blank"><img src="/img/common/side/ic_ytBtn.png" class="fade" width="24" height="24" alt="youtube" /></a></li>
+		</ul>
+		<p class="centerText mB30"><img src="/img/common/side/btn01.gif" width="63" height="24" alt="JP" /><a href="/en/"><img src="/img/common/side/btn02.gif" width="63" height="24" alt="EN" class="fade" /></a></p>
+		<p class="centerText"><img src="/img/common/side/txt02.gif" width="92" height="8" alt="&copy; 2015 AKINASISTA" /></p>
+	</div>
+</div>  <!--↑SIDE↑--> 
+</div>
+<!--↑CONTAINER↑-->
+</body>
+</html>

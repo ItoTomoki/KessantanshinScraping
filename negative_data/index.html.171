@@ -1,0 +1,679 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="X-UA-Compatible" content="IE=8; IE=9" />
+<meta name="description" content="日揮株式会社の会社情報をご覧いただけます。トップメッセージ、会社概要、沿革、組織体制などを掲載しております。" />
+<meta name="keywords" content="JGC CORPORATION,JGC,日揮株式会社,日揮, トップメッセージ, ヴィジョン, 会社概要, 沿革, 役員, 組織, 日揮グループ, グローバルネットワーク, ヒューマンリソース, コンプライアンス" />
+<title>日揮株式会社(JGC CORPORATION)</title>
+<link type="text/css" rel="stylesheet" href="/jp/common_jp/css/base.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/jp/common_jp/css/styles.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/jp/common_jp/css/gnavi.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/jp/common_jp/css/dropdown.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/jp/common_jp/css/contents.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/jp/common_jp/css/print.css" media="print" />
+<link type="text/css" rel="stylesheet" href="/jp/common_jp/css/frontIcon.css" media="all" />
+<link type="text/css" rel="alternate stylesheet" href="/jp/common_jp/css/font_s.css" title="fontS" />
+<link type="text/css" rel="alternate stylesheet" href="/jp/common_jp/css/font_m.css" title="fontM" />
+<link type="text/css" rel="alternate stylesheet" href="/jp/common_jp/css/font_l.css" title="fontL" />
+
+<script type="text/javascript" src="/common/js/linkchange.js"></script>
+<script type="text/javascript" src="/jp/common_jp/js/jquery.js"></script>
+<script type="text/javascript" src="/jp/common_jp/js/jquery.cssua.js"></script>
+<script type="text/javascript" src="/jp/common_jp/js/script.js"></script>
+<script type="text/javascript" src="/jp/common_jp/js/siderImg.js"></script>
+<script type="text/javascript">$(function(){ sider(); });</script>
+<!-- googleアナリティクス -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-61872235-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</head>
+
+<body id="top" class="top layer01 from2014">
+<div id="container">
+
+<!-- header -->
+<div id="header">
+<h1 id="hLogo"><a href="/jp/index.html"><img src="/jp/common_jp/img/header_logo.png" width="245" height="29" alt="JGC 日揮株式会社"></a>
+<a href="/jp/01_about_jgc/global_name.html"><img src="/jp/common_jp/img/header_logo_sub.gif" width="135" height="29" alt="JGC、それは日揮のグローバルネーム" id="keyframe"></a>
+</h1>
+
+<table id="fontResize">
+<tr>
+<td class="btn1"><a href="/jp/11_contact_us/index.html">お問い合わせ</a></td>
+<td class="btn1"><a href="/jp/12_site_map/index.html">サイトマップ</a></td>
+<td class="btn2"><a href="#" onclick="LinkChange();" onkeypress="LinkChange();"><img src="/jp/common_jp/img/header_btn_en.gif" width="49" height="15" alt="English" class="rollover" /></a></td>
+<td class="ttl">文字サイズ</td>
+<td class="fontS"><a href="#" rel="fontS">small</a></td>
+<td class="fontM"><a href="#" rel="fontM">default</a></td>
+<td class="fontL"><a href="#" rel="fontL">large</a></td>
+</tr>
+<!-- / #fontResize --></table>
+
+<table id="hSearch">
+<tr>
+<td>
+<!-- googleSiteSearch -->
+<div id="site-search-header">
+<script>
+  (function() {
+    var cx = '010000312189562531076:whzvfvbrrjw';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:searchbox-only></gcse:searchbox-only>
+<style type='text/css'>
+#site-search-header .gsc-input-box {
+    border: none;
+    background: url(/jp/common_jp/img/search_bg.gif);
+    background-size: 100% 100%;
+    height: 18px;
+    margin-top: 1px;
+}
+#site-search-header .gsc-input {
+    padding: 0;
+    margin: 0;
+    height: 18px;
+    width: 200px;
+}
+#site-search-header input.gsc-search-button-v2, #site-search-header input.gsc-search-button-v2:hover {
+    width:  0px;
+    height: 0px;
+    margin: 0px;
+    min-width: 0px;
+    padding: 9px;
+    margin: 0;
+    margin-top: 1px;
+    border: none;
+    background: #666 url("/jp/common_jp/img/header_search.gif") no-repeat 30% 30%;
+    background-size: cover;
+}
+#site-search-header .gsc-search-box-tools .gsc-search-box .gsc-input {
+    padding: 0;
+    margin: 0;
+    font-size: 11px;
+}
+#site-search-header #gsc-i-id1{
+  color: #EEEEEE;
+  background: url(/jp/common_jp/img/search_textbox_bg.gif) !important;
+  background-size: 100% 100% !important;
+  margin-bottom: 5px !important;
+}
+#site-search-header .cse input.gsc-search-button, input.gsc-search-button {
+  filter: none !important;
+}
+</style></div>
+<!-- /googleSiteSearch -->
+</td>
+</tr>
+<!-- / #hSearch --></table>
+
+<ul id="gNavi">
+<li class="about_jgc">
+<a href="/jp/01_about_jgc/index.html">会社情報</a>
+<div class="sub">
+<div>
+<div>
+<div class="cfix">
+<div class="flL brGray col1">
+<ul class="inner">
+<li><a href="/jp/01_about_jgc/message.html" class="arrow">トップメッセージ</a></li>
+<li><a href="/jp/01_about_jgc/philosophy_vision.html" class="arrow">日揮グループ企業理念 JGC Way</a></li>
+<li><a href="/jp/01_about_jgc/corporate_profile.html" class="arrow">会社概要</a></li>
+<li><a href="/jp/01_about_jgc/access.html" class="arrow">アクセス</a></li>
+<li><a href="/jp/01_about_jgc/executive_biographies.html" class="arrow">経営体制</a></li>
+</ul>
+<!-- / .flL brGray col1 --></div>
+<div class="flL col2">
+<ul class="inner">
+<li><a href="/jp/01_about_jgc/organization.html" class="arrow">組織</a></li>
+<li><a href="/jp/01_about_jgc/history.html" class="arrow">沿革</a></li>
+<li><a href="/jp/01_about_jgc/related_companies.html" class="arrow">主要関係会社</a></li>
+<li><a href="/jp/01_about_jgc/policies.html" class="arrow">各種方針</a></li>
+<li><a href="/jp/01_about_jgc/global_name.html" class="arrow">JGC、それは日揮のグローバルネーム。</a></li>
+</ul>
+<!-- / .flL col2 --></div>
+<!-- / .cfix --></div>
+</div>
+</div>
+<!-- / .sub --></div>
+<!-- / .about_jgc --></li>
+
+<li class="business">
+<a href="/jp/02_business/index.html">事業情報</a>
+<div class="sub">
+<div>
+<div>
+<div class="cfix">
+<div class="flL brGray col1">
+<h3 class="dots4_05">主な事業</h3>
+<ul class="inner p10">
+<li>
+    <h4 class="l_bar02 m05"><a href="/jp/02_business/01_epc/index.html">EPC事業</a></h4>
+    <ul>
+    <li><a href="/jp/02_business/01_epc/fs_feed.html" class="arrow">FS/FEED</a></li>
+    <li><a href="/jp/02_business/01_epc/design.html" class="arrow">設計</a></li>
+    <li><a href="/jp/02_business/01_epc/procurement.html" class="arrow">調達</a></li>
+    <li><a href="/jp/02_business/01_epc/construction.html" class="arrow">建設</a></li>
+    <li><a href="/jp/02_business/01_epc/commissioning.html" class="arrow">試運転</a></li>
+    <li><a href="/jp/02_business/01_epc/project_management.html" class="arrow">プロジェクトマネジメント</a></li>
+    </ul>
+</li>
+
+<li><h4 class="l_bar02 m10"><a href="/jp/02_business/01_epc/o_m.html">O&Mサービス事業</a></h4></li>
+<li><h4 class="l_bar02 m10"><a href="/jp/02_business/02_business_investment/index.html">事業投資・運営</a></h4></li>
+<li><h4 class="l_bar02 m10"><a href="/jp/02_business/07_catalyst_fine/index.html">触媒・ファイン事業</a></h4></li>
+<li><h4 class="l_bar02 m10"><a href="/jp/02_business/03_tech_innovation/index.html">テクノロジー・イノベーション</a></h4></li>
+<li><h4 class="l_bar02"><a href="/jp/02_business/06_bigdata/index.html">ビッグデータ・ソリューション事業</a></h4></li>
+</ul>
+<!-- / .flL brGray col1 --></div>
+<div class="flL cfix col2">
+<h3 class="dots4_05">主な分野</h3>
+<ul class="inner flL mr20">
+<li>
+    <h4 class="l_bar02 m05"><a href="/jp/02_business/04_energy_chemical/index.html">オイル＆ガス分野</a></h4>
+    <ul>
+    <li><a href="/jp/02_business/04_energy_chemical/oil_gas.html" class="arrow">原油・ガス集積、分離、生産</a></li>
+    <li><a href="/jp/02_business/04_energy_chemical/offshore.html" class="arrow">オフショア</a></li>
+    <li><a href="/jp/02_business/04_energy_chemical/gas_processing.html" class="arrow">ガス処理</a></li>
+    <li><a href="/jp/02_business/04_energy_chemical/p_refining.html" class="arrow">石油精製</a></li>
+    <li><a href="/jp/02_business/04_energy_chemical/lng.html" class="arrow">LNG</a></li>
+    <li><a href="/jp/02_business/04_energy_chemical/pg_chemicals.html" class="arrow">石油化学・ガス化学</a></li>
+    <li><a href="/jp/02_business/04_energy_chemical/lng_terminal.html" class="arrow">LNG受入基地</a></li>
+    <li><a href="/jp/02_business/04_energy_chemical/gtl.html" class="arrow">GTL</a></li>
+    <li><a href="/jp/02_business/04_energy_chemical/environment.html" class="arrow">環境</a></li>
+    </ul>
+</li>
+</ul>
+<ul class="inner flL">
+<li>
+    <h4 class="l_bar02 m05"><a href="/jp/02_business/05_general/index.html">インフラストラクチャー分野</a></h4>
+    <ul>
+<li><span class="fp12 b">エネルギーインフラ</span></li>
+<li><a href="/jp/02_business/05_general/thermal_power_generation.html" class="arrow">火力発電</a></li>
+<li><a href="/jp/02_business/04_energy_chemical/nuclear.html" class="arrow">原子力発電</a></li>
+<li><a href="/jp/02_business/05_general/renewable_energy.html" class="arrow">再生可能エネルギー発電</a></li>
+<li><span class="fp12 b">産業インフラ</span></li>
+<li><a href="/jp/02_business/05_general/non_ferrous_metals.html" class="arrow">非鉄製錬</a></li>
+<li><a href="/jp/02_business/02_business_investment/environment.html" class="arrow">環境保全</a></li>
+<li><span class="fp12 b">社会インフラ</span></li>
+<li><a href="/jp/02_business/05_general/pharmaceuticals_rd.html" class="arrow">医薬品・研究所</a></li>
+<li><a href="/jp/02_business/05_general/medical_welfare.html" class="arrow">メディカル</a></li>
+<li><a href="/jp/02_business/02_business_investment/newbusiness_other/agriculture.html" class="arrow">アグリカルチャー</a></li>
+<li><a href="/jp/02_business/05_general/airport.html" class="arrow">空港</a></li>
+<li><a href="/jp/02_business/02_business_investment/city_infrastructure.html" class="arrow">都市開発</a></li>
+    </ul>
+</li>
+</ul>
+<!-- / .flL cfix col2 --></div>
+<!-- / .cfix --></div>
+</div>
+</div>
+<!-- / .sub --></div>
+<!-- / .business --></li>
+
+<li class="projects">
+<a href="/jp/03_projects/index.html">実績</a>
+<div class="sub">
+<div>
+<div>
+<div class="cfix">
+<div class="flL col1">
+<h3 class="dots4_05">地域別</h3>
+<ul class="inner p10 pl05">
+
+
+
+<li><a href="/jp/03_projects/index.html#asia" class="arrow">アジア</a></li>
+<li><a href="/jp/03_projects/index.html#oceania" class="arrow">オセアニア</a></li>
+<li><a href="/jp/03_projects/index.html#mideast" class="arrow">中東</a></li>
+<li><a href="/jp/03_projects/index.html#europe" class="arrow">欧州・CIS</a></li>
+<li><a href="/jp/03_projects/index.html#america" class="arrow">南北アメリカ</a></li>
+<li><a href="/jp/03_projects/index.html#africa" class="arrow">アフリカ</a></li>
+
+
+</ul>
+<!-- / .flL col1 --></div>
+<div class="flL cfix blGray col2">
+<h3 class="dots4_05">分野別</h3>
+<ul class="inner flL mr30">
+<li>
+    <h4 class="l_bar02 m05">EPC事業 エネルギー・化学</h4>
+    <ul>
+    <li><a href="/jp/03_projects/epc_area.html#oil_gas" class="arrow">石油・ガス・資源開発</a></li>
+    <li><a href="/jp/03_projects/epc_area.html#p_refining" class="arrow">石油精製</a></li>
+    <li><a href="/jp/03_projects/epc_area.html#lng" class="arrow">LNG</a></li>
+    <li><a href="/jp/03_projects/epc_area.html#gtl" class="arrow">GTL</a></li>
+    <li><a href="/jp/03_projects/epc_area.html#pg_chemicals" class="arrow">石油化学・ガス化学</a></li>
+    <li><a href="/jp/03_projects/epc_area.html#clean_power" class="arrow">クリーンエネルギー・発電</a></li>
+    <li><a href="/jp/03_projects/epc_area.html#nuclear" class="arrow">原子力</a></li>
+    </ul>
+</li>
+<li>
+    <h4 class="l_bar02 m05">EPC事業 一般産業・社会</h4>
+    <ul>
+    <li><a href="/jp/03_projects/epc_area.html#non_ferrous_metals" class="arrow">非鉄製錬</a></li>
+    <li><a href="/jp/03_projects/epc_area.html#pharmaceuticals_rd" class="arrow">医薬品・研究所</a></li>
+    <li><a href="/jp/03_projects/epc_area.html#environment" class="arrow">環境保全技術</a></li>
+    <li><a href="/jp/03_projects/epc_area.html#medical_welfare" class="arrow">医療福祉</a></li>
+    </ul>
+</li>
+</ul>
+<ul class="inner flL">
+<li>
+    <h4 class="l_bar02 m05">事業運営・投資</h4>
+    <ul>
+    <li><a href="/jp/03_projects/business_investment_area.html#epower_water_newnenergy" class="arrow">電力・水・新エネルギー</a></li>
+    <li><a href="/jp/03_projects/business_investment_area.html#environment" class="arrow">環境保全技術</a></li>
+    <li><a href="/jp/03_projects/business_investment_area.html#resource_development" class="arrow">資源開発</a></li>
+    <li><a href="/jp/03_projects/business_investment_area.html#city_infrastructure" class="arrow">都市・インフラ開発</a></li>
+    <li><a href="/jp/03_projects/business_investment_area.html#medical_welfare" class="arrow">医療福祉</a></li>
+    <li><a href="/jp/03_projects/business_investment_area.html#new_business" class="arrow">ニュービジネス</a></li>
+    </ul>
+</li>
+</ul>
+<!-- / .flL cfix blGray col2 --></div>
+<!-- / .cfix --></div>
+</div>
+</div>
+<!-- / .sub --></div>
+<!-- / .projects --></li>
+
+<li class="media">
+<a href="/jp/04_media/index.html">メディアセンター</a>
+<div class="sub">
+<div>
+<div>
+<div class="cfix p15">
+<div class="flL cfix brGray col1">
+<h3 class="dots4_05">ニュースリリース</h3>
+<!-- リリースニュースアーカイブ -->
+<ul class="inner mr30">
+    <li><a href="/jp/04_media/01_news/year_list/2017.html" class="arrow">2017年のニュースリリース</a></li>
+    <li><a href="/jp/04_media/01_news/year_list/2016.html" class="arrow">2016年のニュースリリース</a></li>
+    <li><a href="/jp/04_media/01_news/year_list/2015.html" class="arrow">2015年のニュースリリース</a></li>
+    <li><a href="/jp/04_media/01_news/year_list/2014.html" class="arrow">2014年のニュースリリース</a></li>
+    <li><a href="/jp/04_media/01_news/year_list/2013.html" class="arrow">2013年のニュースリリース</a></li>
+    <li><a href="/jp/04_media/01_news/year_list/2012.html" class="arrow">2012年のニュースリリース</a></li>
+    <li><a href="/jp/04_media/01_news/year_list/2011.html" class="arrow">2011年のニュースリリース</a></li>
+    <li><a href="/jp/04_media/01_news/year_list/2010.html" class="arrow">2010年のニュースリリース</a></li>
+    <li><a href="/jp/04_media/01_news/year_list/2009.html" class="arrow">2009年のニュースリリース</a></li>
+    <li><a href="/jp/04_media/01_news/year_list/2008.html" class="arrow">2008年のニュースリリース</a></li>
+</ul>
+<!-- / .flL cfix brGray col1 --></div>
+<div class="flL col2">
+<h3 class="dots4_05">ブローシュア・資料ライブラリー</h3>
+<ul class="inner">
+<li><a href="/jp/04_media/index.html#company_info" class="arrow">会社情報関連資料</a></li>
+<li><a href="/jp/04_media/index.html#ir" class="arrow">IR関連資料</a></li>
+<li><a href="/jp/04_media/index.html#csr_hse" class="arrow">CSR/HSSE関連資料</a></li>
+</ul>
+<h3 class="dots4_05">ビデオライブラリー</h3>
+<ul class="inner">
+<li><a href="/jp/04_media/index.html#videoCorp" class="arrow">会社紹介</a></li>
+<li><a href="/jp/04_media/index.html#videoProject" class="arrow">プロジェクト</a></li>
+</ul>
+<h3 class="dots4_05">広告・プロモーションライブラリー</h3>
+<ul class="inner">
+<li><a href="/jp/04_media/index.html#adCorp" class="arrow">企業広告</a></li>
+<li><a href="/jp/04_media/index.html#adPr" class="arrow">PRギャラリー</a></li>
+</ul>
+<!-- / .flL col2 --></div>
+<!-- / .cfix --></div>
+</div>
+</div>
+<!-- / .sub --></div>
+<!-- / .media --></li>
+
+<li class="ir">
+<a href="/jp/05_ir/index.html">IR情報</a>
+<div class="sub">
+<div>
+<div>
+<div class="cfix">
+<div class="flL col3">
+<h3 class="dots4_05 m05"><a href="/jp/05_ir/to_stakeholders.html">株主・投資家の皆様へ</a></h3>
+
+<h3 class="dots4_05 top-m"><a href="/jp/05_ir/ir_calendar.html">IRカレンダー</a></h3>
+<h3 class="dots4_05 top-m">経営方針</h3>
+<ul class="inner pl05">
+<li><a href="/jp/05_ir/mt_management_plan.html" class="arrow">経営戦略</a></li>
+<li><a href="/jp/01_about_jgc/executive_biographies.html" class="arrow">経営体制</a></li>
+<li><a href="/jp/01_about_jgc/philosophy_vision.html" class="arrow">日揮グループ企業理念 JGC Way</a></li>
+<li><a href="/jp/05_ir/risks.html" class="arrow">事業などのリスク</a></li>
+</ul>
+<h3 class="dots4_05 top-m">財務・決算情報</h3>
+<ul class="inner pl05">
+<li><a href="/jp/05_ir/denshi_koukoku.html" class="arrow">電子公告</a></li>
+<li><a href="/jp/05_ir/fact_sheet.html" class="arrow">ファクトシート</a></li>
+<li><a href="/jp/05_ir/financial_data.html" class="arrow">財務情報</a></li>
+</ul>
+<!-- / .flL col1 --></div>
+<div class="flL blGray col2">
+<div class="brGray m-r">
+<ul class="inner mr30">
+<li>
+    <h3 class="dots4_05">株主・株式情報</h3>
+    <ul>
+    <li><a href="/jp/05_ir/stocks.html" class="arrow">株式情報</a></li>
+    <li><a href="/jp/05_ir/shareholders_meeting.html" class="arrow">株主総会</a></li>
+    <li><a href="/jp/05_ir/dividend_policy.html" class="arrow">配当情報</a></li>
+    <li><a href="/jp/05_ir/bonds_ratings.html" class="arrow">社債・格付</a></li>
+    <li><a href="/jp/05_ir/kabushiki_jimu.html" class="arrow">株式事務のご案内</a></li>
+    <li><a href="/jp/05_ir/analysts.html" class="arrow">アナリストカバレッジ</a></li>
+    </ul>
+</li>
+<li>
+    <h3 class="dots4_05">IRライブラリー</h3>
+    <ul>
+    <li><a href="/jp/05_ir/financial_s_summary.html" class="arrow">決算短信/決算説明会資料</a></li>
+    <li><a href="/jp/05_ir/corporate_governance.html" class="arrow">コーポレート・ガバナンス報告書</a></li>
+    <li><a href="/jp/05_ir/kabunushi_tsuushin.html" class="arrow">株主通信/報告書</a></li>
+    <li><a href="/jp/05_ir/annual_reports.html" class="arrow">JGCレポート</a></li>
+    <li><a href="/jp/05_ir/shihanki_houkokusyo.html" class="arrow">有価証券報告書/四半期報告書</a></li>
+    <li><a href="/jp/05_ir/articles_of_association.html" class="arrow">定款</a></li>
+    </ul>
+</li>
+</ul>
+<!-- / .brGray --></div>
+<!-- / .flL blGray col2 --></div>
+<div class="flL col3">
+<ul class="inner">
+<li class="ornament"><h3 class="dots4_05 m05"><a href="/FS-APL/FS-Form/form.cgi?Code=jp_ir_news" target="_blank">IRメール配信のご登録</a></h3></li>
+<li>
+    <h3 class="dots4_05">IR基本情報</h3>
+    <ul>
+    <li><a href="/jp/05_ir/ir_faq.html" class="arrow">IRに関するご質問</a></li>
+    <li><a href="/jp/05_ir/engineering_yougosyu.html" class="arrow">エンジニアリング用語集</a></li>
+    <li><a href="/jp/01_about_jgc/policies.html#ir" class="arrow">IR基本方針</a></li>
+    <li><a href="/jp/05_ir/cautionary_statement.html" class="arrow">免責事項</a></li>
+    </ul>
+</li>
+</ul>
+<!-- / .flL col3 --></div>
+<!-- / .cfix --></div>
+</div>
+</div>
+<!-- / .sub --></div>
+<!-- / .ir --></li>
+
+<li class="csr_hsse"><a href="/jp/06_csr_hsse/index.html">CSR/HSSE</a></li>
+<li class="careers"><a href="/jp/07_recruit/index.html">採用情報</a></li>
+<!-- / #gNavi --></ul>
+<br class="clear" />
+</div><!-- /header -->
+
+<!-- contents -->
+<div id="contents">
+
+<!-- InstanceBeginEditable name="contentsArea01" -->
+<!-- topBlock1 -->
+<div class="topBlock1">
+<div id="jsimg" class="lBlock">
+<ul>
+<li id="mainimg01"><img src="img/top_img_01.jpg" width="806" height="343" alt="" /></li>
+<li id="mainimg02"><a href="/jp/02_business/01_epc/index.html"><img src="img/top_img_02.jpg" width="806" height="343" alt="" /></a></li>
+<li id="mainimg03"><a href="/jp/02_business/02_business_investment/index.html"><img src="img/top_img_03.jpg" width="806" height="343" alt="" /></a></li>
+<li id="mainimg04"><a href="01_about_jgc/global_name.html"><img src="img/top_img_05.jpg" width="806" height="343" alt="" /></a></li>
+<li id="mainimg05"><a href="04_media/index.html#pr"><img src="img/top_img_06.jpg" width="806" height="343" alt="" /></a></li>
+</ul>
+<!-- / #jsimg .lBlock --></div>
+<div id="siderbox" class="rBlock">
+<div id="subimg02">
+<ul>
+<li id="s01"><img src="img/top_img_02s.jpg" width="72" height="73" alt="" /></li>
+</ul>
+<!-- / #subimg02 --></div>
+<div id="subimg03">
+<ul>
+<li id="s02"><img src="img/top_img_03s.jpg" width="72" height="73" alt="" /></li>
+</ul>
+<!-- / #subimg03 --></div>
+<div id="subimg04">
+<ul>
+<li id="s03"><img src="img/top_img_05s.jpg" width="72" height="73" alt="" /></li>
+</ul>
+<!-- / #subimg04 --></div>
+<!-- / #siderbox .rBlock --></div>
+<br class="clear" />
+<!-- / .topBlock1 --></div>
+<!-- topBlock2 -->
+<div class="topBlock2"><div class="inner">
+<div class="lBlock">
+<h2 class="m10"><img src="img/news_ttl.gif" width="57" height="24" alt="NEWS" /></h2>
+
+<!-- ニュースリリース一覧 -->
+<table class="list1">
+  <tr>
+    <th>2017/08/10</th>
+    <td>
+<a href="http://www.jgc.com/jp/05_ir/financial_s_summary.html"> 2018年3月期 第1四半期 テレフォンカンファレンス関連資料を掲載</a>    </td>
+  </tr>
+  <tr>
+    <th>2017/08/09</th>
+    <td>
+<a href="/jp/ViewPdf/view/1581" target="_blank" class="pdf-image">人事異動のお知らせ</a>    </td>
+  </tr>
+  <tr>
+    <th>2017/08/09</th>
+    <td>
+<a href="http://www.jgc.com/jp/05_ir/shihanki_houkokusyo.html"> 2018年3月期 第1四半期 四半期報告書を掲載</a>    </td>
+  </tr>
+  <tr>
+    <th>2017/08/09</th>
+    <td>
+<a href="http://www.jgc.com/jp/05_ir/financial_s_summary.html">2018年3月期 第1四半期 決算短信/決算概要を掲載</a>    </td>
+  </tr>
+  <tr>
+    <th>2017/07/18</th>
+    <td>
+<a href="/jp/DisplayHtml/view/212">平成29年度　エンジニアリング功労者賞を受賞</a>    </td>
+  </tr>
+  <tr>
+    <th>2017/07/14</th>
+    <td>
+<a href="/jp/ViewPdf/view/1553" target="_blank" class="pdf-image">当社海外子会社役員人事のお知らせ</a>    </td>
+  </tr>
+  <tr>
+    <th>2017/07/07</th>
+    <td>
+<a href="/jp/DisplayHtml/view/211">米国西海岸初の大型LNGプラント建設プロジェクトを受注</a>    </td>
+  </tr>
+  <tr>
+    <th>2017/07/04</th>
+    <td>
+<a href="http://www.jgc.com/jp/05_ir/shihanki_houkokusyo.html">「第121回 定時株主総会の議決権行使結果に係わる臨時報告書」を掲載</a>    </td>
+  </tr>
+  <tr>
+    <th>2017/07/03</th>
+    <td>
+<a href="/jp/ViewPdf/view/1539" target="_blank" class="pdf-image">機構改革および人事異動のお知らせ</a>    </td>
+  </tr>
+  <tr>
+    <th>2017/06/29</th>
+    <td>
+<a href="http://www.jgc.com/jp/05_ir/shareholders_meeting.html">第121回 定時株主総会決議ご通知を掲載</a>    </td>
+  </tr>
+</table>
+<!-- /ニュースリリース一覧 -->
+
+<!-- / .lBlock --></div>
+
+<div class="rBlock">
+<h2 class="m10"><img src="img/pickup_ttl.gif" width="236" height="25" alt="Pickup" /></h2>
+<ul class="list2">
+<li><a href="/jp/05_ir/mt_management_plan.html"><img src="img/bnr_01_over.gif" width="236" height="46" alt="新・中期経営計画 Beyond the Horizon" class="alpha" /></a></li>
+<li><a href="/jp/01_about_jgc/global_name.html"><img src="img/bnr_05.gif" width="236" height="46" alt="JGC、それは日揮のグローバルネーム。" class="rollover" target="_blank"/></a></li>
+</ul>
+
+<!-- / .rBlock --></div>
+<br class="clear" />
+<!-- / .inner --></div>
+<!-- / .topBlock2 --></div>
+<!-- topBlock3 -->
+<div class="topBlock3">
+<h2 class="m15"><img src="img/top_h2_02.gif" width="75" height="25" alt="事業情報" /></h2>
+<div class="inner cfix">
+<div class="lBlock">
+<h3 class="dots4_02"><img src="img/top_h3_01.gif" width="53" height="13" alt="主な事業" /></h3>
+<img src="img/bs_img_01.jpg" width="210" height="65" alt="" />
+<ul>
+<li>
+    <h4 class="l_bar02 m05"><a href="/jp/02_business/01_epc/index.html">EPC事業</a></h4>
+    <ul class="p10">
+    <li class="arrow01-01"><a href="/jp/02_business/01_epc/fs_feed.html">FS/FEED</a></li>
+    <li class="arrow01-01"><a href="/jp/02_business/01_epc/design.html">設計</a></li>
+    <li class="arrow01-01"><a href="/jp/02_business/01_epc/procurement.html">調達</a></li>
+    <li class="arrow01-01"><a href="/jp/02_business/01_epc/construction.html">建設</a></li>
+    <li class="arrow01-01"><a href="/jp/02_business/01_epc/commissioning.html">試運転</a></li>
+    <li class="arrow01-01"><a href="/jp/02_business/01_epc/project_management.html">プロジェクトマネジメント</a></li>
+    </ul>
+</li>
+
+<li><h4 class="l_bar02 m10"><a href="/jp/02_business/01_epc/o_m.html">O&Mサービス事業</a></h4></li>
+<li><h4 class="l_bar02 m10"><a href="/jp/02_business/02_business_investment/index.html">事業投資・運営</a></h4></li>
+<li><h4 class="l_bar02 m10"><a href="/jp/02_business/07_catalyst_fine/index.html">触媒・ファイン事業</a></h4></li>
+<li><h4 class="l_bar02 m10"><a href="/jp/02_business/03_tech_innovation/index.html">テクノロジー・イノベーション</a></h4></li>
+<li><h4 class="l_bar02"><a href="/jp/02_business/06_bigdata/index.html">ビッグデータ・ソリューション事業</a></h4></li>
+</ul>
+<!-- / .lBlock --></div>
+<div class="rBlock cfix">
+<h3 class="dots4_02"><img src="img/top_h3_02.gif" width="53" height="13" alt="主な分野" /></h3>
+<div class="lBlock mr15">
+<img src="img/bs_img_02.jpg" width="200" height="65" alt="" />
+<ul>
+<li>
+  <h4 class="l_bar02 m05"><a href="/jp/02_business/04_energy_chemical/index.html">オイル＆ガス分野</a></h4>
+    <ul>
+    <li class="arrow01-01"><a href="/jp/02_business/04_energy_chemical/oil_gas.html">原油・ガス集積、分離、生産</a></li>
+    <li class="arrow01-01"><a href="/jp/02_business/04_energy_chemical/offshore.html">オフショア</a></li>
+    <li class="arrow01-01"><a href="/jp/02_business/04_energy_chemical/gas_processing.html">ガス処理</a></li>
+    <li class="arrow01-01"><a href="/jp/02_business/04_energy_chemical/p_refining.html">石油精製</a></li>
+    <li class="arrow01-01"><a href="/jp/02_business/04_energy_chemical/lng.html">LNG</a></li>
+    <li class="arrow01-01"><a href="/jp/02_business/04_energy_chemical/pg_chemicals.html">石油化学・ガス化学</a></li>
+    <li class="arrow01-01"><a href="/jp/02_business/04_energy_chemical/lng_terminal.html">LNG受入基地</a></li>
+    <li class="arrow01-01"><a href="/jp/02_business/04_energy_chemical/gtl.html">GTL</a></li>
+    <li class="arrow01-01"><a href="/jp/02_business/04_energy_chemical/environment.html">環境</a></li>
+    </ul>
+</li>
+</ul>
+<!-- / .lBlock --></div>
+<div class="lBlock">
+<img src="img/bs_img_03.jpg" width="200" height="65" alt="" />
+<ul>
+<li>
+  <h4 class="l_bar02 m05"><a href="/jp/02_business/05_general/index.html">インフラストラクチャー分野</a></h4>
+    <ul>
+    <li class="b">エネルギーインフラ</li>
+    <li class="arrow01-01"><a href="/jp/02_business/05_general/thermal_power_generation.html">火力発電</a></li>
+    <li class="arrow01-01"><a href="/jp/02_business/04_energy_chemical/nuclear.html">原子力発電</a></li>
+    <li class="arrow01-01"><a href="/jp/02_business/05_general/renewable_energy.html">再生可能エネルギー発電</a></li>
+    <li class="b">産業インフラ</li>
+    <li class="arrow01-01"><a href="/jp/02_business/05_general/non_ferrous_metals.html">非鉄製錬</a></li>
+    <li class="arrow01-01"><a href="/jp/02_business/02_business_investment/environment.html">環境保全</a></li>
+    <li class="b">社会インフラ</li>
+    <li class="arrow01-01"><a href="/jp/02_business/05_general/pharmaceuticals_rd.html">医薬品・研究所</a></li>
+    <li class="arrow01-01"><a href="/jp/02_business/05_general/medical_welfare.html">メディカル</a></li>
+    <li class="arrow01-01"><a href="/jp/02_business/02_business_investment/newbusiness_other/agriculture.html">アグリカルチャー</a></li>
+    <li class="arrow01-01"><a href="/jp/02_business/05_general/airport.html">空港</a></li>
+    <li class="arrow01-01"><a href="/jp/02_business/02_business_investment/city_infrastructure.html">都市開発</a></li>
+    </ul>
+</li>
+</ul>
+<!-- / .lBlock --></div>
+<!-- / .rBlock --></div>
+<br class="clear" />
+<!-- / .inner --></div>
+<!-- / .topBlock3 --></div>
+
+<!-- topBlock4 -->
+<div class="topBlock4">
+<div class="lBlock">
+<h2 class="ttl"><img src="img/corporate_ttl.gif" width="77" height="24" alt="会社情報" /></h2>
+<dl class="txt1">
+<dd class="img"><img src="img/corporate_img_01.jpg" width="150" height="75" alt="" /></dd>
+<dd class="txt">
+<ul class="iconList1">
+<li><a href="/jp/01_about_jgc/corporate_profile.html">会社概要</a></li>
+<li><a href="01_about_jgc/related_companies.html">主要関係会社</a></li>
+</ul>
+</dd>
+</dl>
+<!-- / .lBlock --></div>
+<div class="rBlock">
+<h2 class="ttl"><img src="img/ir_ttl.gif" width="60" height="24" alt="ＩＲ情報" /></h2>
+<dl class="txt1">
+<dd class="img"><img src="img/ir_img_01.jpg" width="150" height="75" alt="" /></dd>
+<dd class="txt">
+<ul class="iconList1">
+<li><a href="/jp/05_ir/financial_s_summary.html">決算短信/決算説明会資料</a></li>
+<li><a href="/jp/05_ir/mt_management_plan.html">新・中期経営計画</a></li>
+<li><a href="/jp/05_ir/denshi_koukoku.html">電子公告</a></li>
+</ul>
+</dd>
+</dl>
+<!-- / .rBlock --></div>
+<br class="clear" />
+<!-- / .topBlock4 --></div>
+<!-- InstanceEndEditable -->
+<!-- / #contents --></div>
+
+<!-- footer -->
+<!-- footer -->
+<div id="footer">
+<!-- footerInner -->
+<div id="footerInner">
+<p id="fBtn"><a href="#container"><img src="/jp/common_jp/img/btn_pagetop.gif" width="89" height="21" alt="ページトップへ" class="rollover" /></a></p>
+<table id="fNavi">
+<tr>
+<td><a href="/jp/11_contact_us/index.html">お問い合わせ</a></td>
+<td><a href="/jp/13_terms_of_use/index.html">ご注意事項</a></td>
+<td><a href="/jp/01_about_jgc/policies.html#personal">個人情報保護方針</a></td>
+<td class="copy">Copyright&copy; 日揮株式会社(JGC CORPORATION) All rights reserved.</td>
+</tr>
+</table>
+</div>
+<!-- / #footerInner -->
+</div>
+<!-- / #footer --><!-- /footer -->
+
+<!-- / #container --></div>
+
+<script type="text/javascript">
+    (function() {
+     var da = document.createElement('script');
+     da.type = 'text/javascript'; da.async = true;
+     if ('https:' == document.location.protocol) {
+     da.src =  'https://rsv.dga.jp/s/jgc/search_tool_n1.js';
+     } else {
+     da.src =  'http://cache.dga.jp/s/jgc/search_tool_n1.js';
+     }
+     var sc  = document.getElementsByTagName('script')[0];
+     sc.parentNode.insertBefore(da, sc);
+     })();
+</script>
+
+<!-- !2014リニューアル追加エリア -->
+<script type="text/javascript" src="/jp/common_jp/js/common.js"></script>
+<script type="text/javascript" src="/jp/common_jp/js/hoverIntent.js"></script>
+<script type="text/javascript" src="/jp/common_jp/js/dropdown.js"></script>
+<!-- /2014リニューアル追加エリア -->
+
+</body>
+</html>

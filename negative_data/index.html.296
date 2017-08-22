@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="ja" class="no-js">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="format-detection" content="telephone=no">
+<!--<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="shortcut icon" type="image/vnd.microsoft.icon" href="/favicon.ico">
+<link rel="icon" type="image/vnd.microsoft.icon" href="/favicon.ico">-->
+<title>株式会社クロスキャット</title>
+<meta name="keywords" content="クロスキャット,ITシステム,システムインテグレーション,システム開発">
+<meta name="description" content="お客様、そして社会の未来をITで実現する――クロスキャットは、最新の技術と長年培ったノウハウで、お客様にソリューションを提供するとともに、よりよい社会の実現に貢献します。">
+<link rel="stylesheet" type="text/css" href="shared/css/common.css">
+<link rel="stylesheet" type="text/css" href="shared/css/contents_module.css">
+<link rel="stylesheet" type="text/css" href="css/home.css">
+<script type="text/javascript" src="shared/js/jquery.js"></script>
+<script type="text/javascript" src="shared/js/jquery.bxslider.min.js"></script>
+<script type="text/javascript" src="shared/js/common.js"></script>
+<script type="text/javascript" src="js/home.js"></script>
+<!--[if lt IE 9]>
+<script type="text/javascript" src="shared/js/html5shiv-printshiv.min.js"></script>
+<script type="text/javascript" src="shared/js/selectivizr-min.js"></script>
+<![endif]-->
+<!-- Google Analytics -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-77919418-1', 'auto');
+ga('send', 'pageview');
+</script>
+<!-- //Google Analytics -->
+<!-- GoogleCustomSearch -->
+<script>
+(function() {
+var cx = '010631878722522382314:yznjlllhjww';
+var gcse = document.createElement('script');
+gcse.type = 'text/javascript';
+gcse.async = true;
+gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+var s = document.getElementsByTagName('script')[0];
+s.parentNode.insertBefore(gcse, s);
+})();
+</script>
+<!-- //GoogleCustomSearch -->
+</head>
+<body id="home">
+<!-- container -->
+<div id="container">
+	<!-- header -->
+<header>
+	<div id="skipLinkArea" class="forReader">
+		<ul>
+			<li><a href="#contents">本文へ</a></li>
+			<li><a href="#globalNav">メインメニューへ</a></li>
+			<li><a href="#hdr-menu">ヘッダーメニューへ</a></li>
+			<li><a href="#ftr-menu">フッターメニューへ</a></li>
+		</ul>
+	</div>
+	<div id="header">
+		<div>
+			<h1 id="hdr-logo"><a href="/"><img src="/shared/img/hdr_logo.png" alt="株式会社クロスキャット" width="275" height="26"></a></h1>
+			<nav>
+				<dl id="globalNavSet">
+					<dt><span>MENU</span></dt>
+					<dd>
+						<ul id="globalNav" class="clearfix">
+							<li id="gb-solution" class="setDrop toggle-set"><a href="/solution/"><span>ソリューション</span></a><span class="toggle-btn sp-dsp-block">open</span>
+								<ul class="toggle-box">
+									<li><a href="/solution/">ソリューショントップへ</a></li>
+									<li><span class="ttl type01">システムインテグレーション</span>
+										<ul>
+											<li><a href="/solution/bank.html">銀行向け<br class="spP-dsp-block">システム</a></li>
+											<li><a href="/solution/credit.html">クレジット向け<br class="spP-dsp-block">システム</a></li>
+											<li><a href="/solution/insurance.html">保険会社向け<br class="spP-dsp-block">システム</a></li>
+											<li><a href="/solution/public.html">公共機関向け<br class="spP-dsp-block">システム</a></li>
+											<li><a href="/solution/other.html">事業法人向け<br class="spP-dsp-block">システム</a></li>
+											<li><a href="/solution/it.html">IT基盤構築・運用</a></li>
+										</ul>
+									</li>
+									<li><span class="ttl type02">プロダクト</span>
+										<ul>
+											<li><a href="https://www.cc-bizmate.jp/" target="_blank" class="setIcon">勤怠管理クラウド<br><em>「CC-BizMate」</em><img src="/shared/img/blank.gif" width="18" height="18" alt="新しいウィンドウが開きます" class="linkIcon blank"></a></li>
+											<li><a href="https://www.cc-smart.jp/" target="_blank" class="setIcon">ビジネス<br class="spP-dsp-block">コミュニケーション<br><em>「CC-Smartシリーズ」</em><img src="/shared/img/blank.gif" width="18" height="18" alt="新しいウィンドウが開きます" class="linkIcon blank"></a></li>
+											<li><a href="/solution/cc_quattro.html">クレジット国際ブランド<br><em>「CC-Quattro」</em></a></li>
+											<li><a href="/solution/cc_factrevo.html">設備保全AR<br><em>「CC-Factrevo/AR」</em></a></li>
+											<li><a href="/solution/kyoyuu.html">法人向け同報メールソフト<br>
+											<em>「共有@メール2」</em></a></li>
+										</ul>
+									</li>
+									<li><span class="ttl type03">コンサルティングサービス</span>
+										<ul>
+											<li><a href="/solution/bidwh.html">情報可視化・分析（BI）<br class="spP-dsp-block">コンサルティングサービス</a></li>
+											<li><a href="/solution/bidwh2/">BI/DWHソリューション</a></li>
+											<li><a href="https://www.cc-smart.jp/" target="_blank" class="setIcon">Skype for Business<br class="spP-dsp-block">導入支援サービス<img src="/shared/img/blank.gif" width="18" height="18" alt="新しいウィンドウが開きます" class="linkIcon blank"></a></li>
+										</ul>
+									</li>
+									<li><a href="/solution/news/">ソリューションニュース</a></li>
+								</ul>
+							</li>
+							<li id="gb-case"><a href="/case/"><span>導入事例</span></a></li>
+							<li id="gb-seminar"><a href="/seminar/"><span>セミナー／イベント</span></a></li>
+							<li id="gb-company" class="setDrop"><a href="/company/"><span>企業情報</span></a></li>
+							<li id="gb-ir" class="setDrop"><a href="/ir-info/"><span>IR情報</span></a></li>
+							<li id="gb-recruit"><a href="/recruit/" target="_blank"><span>採用情報</span></a></li>
+						</ul>
+						<div id="hdr-search">
+							<div class="gcse-searchbox-only" data-resultsUrl="/search_result.html"></div>
+						</div>
+						<ul id="hdr-menu">
+							<li id="hdr-btnLang"><a href="/english/">ENGLISH</a></li>
+							<li id="hdr-btnInquiry"><a href="/contact/">お問い合わせ</a></li>
+						</ul>
+					</dd>
+				</dl>
+				<div id="gbDrop-solution" class="hdr-gbDrop">
+					<dl>
+						<dt><a href="/solution/">ソリューショントップへ</a></dt>
+						<dd class="clearfix">
+							<dl>
+								<dt>システムインテグレーション</dt>
+								<dd>
+									<ul class="clearfix">
+										<li><a href="/solution/bank.html" class="overOpc"><img src="/shared/img/pct_solution01_01.png" width="44" height="39" alt="" class="pct">銀行向け<br>
+										システム</a></li>
+										<li><a href="/solution/credit.html" class="overOpc"><img src="/shared/img/pct_solution01_02.png" width="44" height="39" alt="" class="pct">クレジット向け<br>
+										システム</a></li>
+										<li><a href="/solution/insurance.html" class="overOpc"><img src="/shared/img/pct_solution01_03.png" width="44" height="39" alt="" class="pct">保険会社向け<br>
+										システム</a></li>
+										<li><a href="/solution/public.html" class="overOpc"><img src="/shared/img/pct_solution01_04.png" width="44" height="39" alt="" class="pct">公共機関向け<br>
+										システム</a></li>
+										<li><a href="/solution/other.html" class="overOpc"><img src="/shared/img/pct_solution01_05.png" width="44" height="39" alt="" class="pct">事業法人向け<br>
+										システム</a></li>
+										<li><a href="/solution/it.html" class="overOpc"><img src="/shared/img/pct_solution01_06.png" width="44" height="39" alt="" class="pct">IT基盤構築・運用</a></li>
+									</ul>
+								</dd>
+							</dl>
+							<dl>
+								<dt>プロダクト</dt>
+								<dd>
+									<ul class="clearfix">
+										<li><a href="https://www.cc-bizmate.jp/" target="_blank" class="overOpc setIcon"><img src="/shared/img/pct_solution02_01.png" width="44" height="39" alt="" class="pct">勤怠管理クラウド<br><em>「CC-BizMate」</em><img src="/shared/img/blank.gif" width="18" height="18" alt="新しいウィンドウが開きます" class="linkIcon blank"></a></li>
+										<li><a href="https://www.cc-smart.jp/" target="_blank" class="overOpc setIcon"><img src="/shared/img/pct_solution02_02.png" width="44" height="39" alt="" class="pct">ビジネス<br>
+										コミュニケーション<br><em class="mL">「CC-Smartシリーズ」</em><img src="/shared/img/blank.gif" width="18" height="18" alt="新しいウィンドウが開きます" class="linkIcon blank"></a></li>
+										<li><a href="/solution/cc_quattro.html" class="overOpc"><img src="/shared/img/pct_solution02_03.png" width="44" height="39" alt="" class="pct">クレジット<br>国際ブランド<br><em>「CC-Quattro」</em></a></li>
+										<li><a href="/solution/cc_factrevo.html" class="overOpc"><img src="/shared/img/pct_solution02_04.png" width="44" height="39" alt="" class="pct">設備保全AR<br><em>「CC-Factrevo/AR」</em></a></li>
+										<li><a href="/solution/kyoyuu.html" class="overOpc"><img src="/shared/img/pct_solution02_05.png" width="44" height="39" alt="" class="pct">法人向け<br>同報メールソフト<br>
+										<em>「共有@メール2」</em></a></li>
+										<li>&nbsp;</li>
+									</ul>
+								</dd>
+							</dl>
+							<dl>
+								<dt>コンサルティングサービス</dt>
+								<dd>
+									<ul class="clearfix">
+										<li><a href="/solution/bidwh.html" class="overOpc"><img src="/shared/img/pct_solution03_01.png" width="44" height="39" alt="" class="pct">情報可視化・分析（BI）<br>コンサルティングサービス</a></li>
+										<li><a href="/solution/bidwh2/" class="overOpc"><img src="/shared/img/pct_solution03_02.png" width="44" height="39" alt="" class="pct">BI/DWH<br>ソリューション</a></li>
+										<li><a href="https://www.cc-smart.jp/" target="_blank" class="overOpc setIcon"><img src="/shared/img/pct_solution03_03.png" width="44" height="45" alt="" class="pct tall">Skype for Business<br>
+										導入支援サービス<img src="/shared/img/blank.gif" width="18" height="18" alt="新しいウィンドウが開きます" class="linkIcon blank"></a></li>
+									</ul>
+								</dd>
+							</dl>
+							<p class="linkBdr"><a href="/solution/news/" class="overOpc">ソリューションニュース</a></p>
+						</dd>
+					</dl>
+					<p class="btnClose overOpc">閉じる</p>
+				</div>
+				<div id="gbDrop-company" class="hdr-gbDrop">
+					<dl>
+						<dt><a href="/company/">企業情報トップへ</a></dt>
+						<dd class="clearfix">
+							<ul class="clearfix">
+								<li class="linkPhoto"><a href="/company/director/" class="overOpc"><span class="ttl">代表者メッセージ</span><img src="/shared/img/gb_company_p01.jpg" width="222" height="78" alt=""></a></li>
+								<li class="linkPhoto"><a href="/company/profile/" class="overOpc"><span class="ttl">企業データ</span><img src="/shared/img/gb_company_p02.jpg" width="222" height="78" alt=""></a></li>
+								<li class="linkPhoto"><a href="/company/advantage/" class="overOpc"><span class="ttl">クロスキャット4つの強み</span><img src="/shared/img/gb_company_p03.jpg" width="222" height="78" alt=""></a></li>
+								<li class="linkPhoto"><a href="/company/csr/" class="overOpc"><span class="ttl">CSR</span><img src="/shared/img/gb_company_p04.jpg" width="222" height="78" alt=""></a></li>
+								<li class="linkBdr02"><a href="/company/partner/" class="overOpc">ビジネスパートナー</a></li>
+								<li class="linkBdr"><a href="/company/news/" class="overOpc">ニュース</a></li>
+							</ul>
+						</dd>
+					</dl>
+					<p class="btnClose overOpc">閉じる</p>
+				</div>
+				<div id="gbDrop-ir" class="hdr-gbDrop">
+					<dl>
+						<dt><a href="/ir-info/">IR情報トップへ</a></dt>
+						<dd class="clearfix">
+							<div>
+								<ul class="clearfix">
+									<li class="linkPhoto"><a href="/ir-info/management/businessplan.html" class="overOpc"><span class="ttl">中期経営計画</span><img src="/shared/img/gb_ir_p01.png" width="217" height="78" alt=""></a></li>
+									<li class="linkPhoto"><a href="/ir-info/highlight/" class="overOpc"><span class="ttl">業績ハイライト</span><img src="/shared/img/gb_ir_p02.jpg" width="217" height="78" alt=""></a></li>
+									<li class="linkPhoto"><a href="/ir-info/individual/" class="overOpc"><span class="ttl">個人投資家の皆様へ</span><img src="/shared/img/gb_ir_p03.jpg" width="217" height="78" alt=""></a></li>
+								</ul>
+								<dl>
+									<dt>IRライブラリ</dt>
+									<dd>
+										<ul class="clearfix">
+											<li class="linkBdr02"><a href="/ir-info/library/" class="overOpc">決算短信</a></li>
+											<li class="linkBdr02"><a href="/ir-info/library/ir-account.html" class="overOpc">決算説明会資料</a></li>
+											<li class="linkBdr02"><a href="/ir-info/library/securities.html" class="overOpc">有価証券報告書/四半期報告書</a></li>
+											<li class="linkBdr02"><a href="/ir-info/library/ir-correspondence.html" class="overOpc">株主通信</a></li>
+											<li class="linkBdr02"><a href="/ir-info/library/sh-meeting.html" class="overOpc">株主総会資料</a></li>
+										</ul>
+									</dd>
+								</dl>
+							</div>
+							<div>
+								<ul>
+									<li class="linkBdr02"><a href="/ir-info/management/" class="overOpc">経営関連情報</a></li>
+									<li class="linkBdr02"><a href="/ir-info/calender/" class="overOpc">IRカレンダー</a></li>
+									<li class="linkBdr02"><a href="/ir-info/stock/" class="overOpc">株式情報</a></li>
+									<li class="linkBdr"><a href="/ir-info/irnews/" class="overOpc">IRニュース</a></li>
+								</ul>
+							</div>
+						</dd>
+					</dl>
+					<p class="btnClose overOpc">閉じる</p>
+				</div>
+			</nav>
+		</div>
+	</div>
+</header>
+<!-- //header -->
+	<!-- topicPath -->
+	<nav id="topicPath">
+		<dl>
+			<dt class="forReader">ページの現在地</dt>
+			<dd>ホーム</dd>
+		</dl>
+	</nav>
+	<!-- //topicPath -->
+	<!-- pageBody -->
+	<div id="pageBody" class="contentsWide">
+		<!-- contents -->
+		<div id="contents">
+			<div id="home-sliderSet">
+				<div>
+					<div class="panel">
+						<p><img src="img/home_slider01_pc.jpg" width="2000" height="373" alt="お客様、そして社会の未来をITで実現する" class="sp-dsp-none"><span class="sp-dsp-block"><img src="img/home_slider01_sp.jpg" width="500" height="268" alt=""></span></p>
+					</div>
+					<div class="panel">
+						<p><img src="img/home_slider02_pc.jpg" width="2000" height="373" alt="ITシステムで社会を支える" class="sp-dsp-none overOpc"><span class="sp-dsp-block"><img src="img/home_slider02_sp.jpg" width="500" height="268" alt=""></span></p>
+					</div>
+					<div class="panel">
+						<p><img src="img/home_slider03_pc.jpg" width="2000" height="373" alt="ITシステムでワークスタイルを変革する" class="sp-dsp-none overOpc"><span class="sp-dsp-block"><img src="img/home_slider03_sp.jpg" width="500" height="268" alt=""></span></p>
+					</div>
+					<div class="panel">
+						<p><img src="img/home_slider13_pc.jpg" width="2000" height="373" alt="CMMIレベル5達成" class="sp-dsp-none overOpc"><span class="sp-dsp-block"><img src="img/home_slider13_sp.jpg" width="500" height="268" alt=""></span></p>
+					</div>
+					<!--<div class="panel">
+						<p><a href="pdf/2016/16_03_01_syougakukinnsienn.pdf" target="_blank"><img src="img/home_slider05_pc.jpg" width="2000" height="373" alt="お知らせ 2017年度の新卒入社社員を対象に、奨学金返済支援制度を導入。入社1年目の冬期賞与時に会社が最大100万円を支給 詳細はこちらへ" class="sp-dsp-none overOpc"><span class="sp-dsp-block"><img src="img/home_slider05_sp.jpg" width="500" height="268" alt=""></span></a></p>
+					</div>-->
+					<!--<<div class="panel">
+						<p><img src="img/home_slider06_pc.jpg" width="2000" height="373" alt="成長エンジン" class="sp-dsp-none overOpc"><span class="sp-dsp-block"><img src="img/home_slider06_sp.jpg" width="500" height="268" alt=""></span></p>
+					</div>-->
+					<!--<<div class="panel">
+						<p><img src="img/home_slider07_pc.jpg" width="2000" height="373" alt="営業の改革" class="sp-dsp-none overOpc"><span class="sp-dsp-block"><img src="img/home_slider07_sp.jpg" width="500" height="268" alt=""></span></p>
+					</div>-->
+					<!--<<div class="panel">
+						<p><img src="img/home_slider08_pc.jpg" width="2000" height="373" alt="開発プロセスの改革" class="sp-dsp-none overOpc"><span class="sp-dsp-block"><img src="img/home_slider08_sp.jpg" width="500" height="268" alt=""></span></p>
+					</div>-->
+					<!--<<div class="panel">
+						<p><img src="img/home_slider09_pc.jpg" width="2000" height="373" alt="人材育成" class="sp-dsp-none overOpc"><span class="sp-dsp-block"><img src="img/home_slider09_sp.jpg" width="500" height="268" alt=""></span></p>
+					</div>-->
+					<!--<<div class="panel">
+						<p><img src="img/home_slider10_pc.jpg" width="2000" height="373" alt="経営基盤の強化" class="sp-dsp-none overOpc"><span class="sp-dsp-block"><img src="img/home_slider10_sp.jpg" width="500" height="268" alt=""></span></p>
+					</div>-->
+					<div class="panel">
+						<p><img src="img/home_slider11_pc.jpg" width="2000" height="373" alt="中期経営計画" class="sp-dsp-none overOpc"><span class="sp-dsp-block"><img src="img/home_slider11_sp.jpg" width="500" height="268" alt=""></span></p>
+					</div>
+					<div class="panel">
+						<p><img src="img/home_slider12_pc.jpg" width="2000" height="373" alt="働き方改革" class="sp-dsp-none overOpc"><span class="sp-dsp-block"><img src="img/home_slider12_sp.jpg" width="500" height="268" alt=""></span></p>
+					</div>
+                   <!--<div class="panel">
+						<p><a href="solution/bidwh.html"><img src="img/home_slider05_pc.jpg" width="2000" height="373" alt="情報活用インフラの導入・構築をトータルにサポート 情報可視化・分析（BI）コンサルティングサービスへ" class="sp-dsp-none overOpc"><span class="sp-dsp-block"><img src="img/home_slider05_sp.jpg" width="500" height="268" alt=""></span></a></p>
+					</div>-->
+				</div>
+			</div>
+			<!--<div id="home-sliderSet">
+				<div>
+					<div class="panel" id="home-slider01">
+						<div>
+							<p class="text"><img src="img/home_slider01_pc.png" width="883" height="117" alt="お客様、そして社会の未来をITで実現する" class="sp-dsp-none"><span class="sp-dsp-block"><img src="img/home_slider01_sp.png" width="306" height="88" alt=""></span></p>
+						</div>
+					</div>
+					<div class="panel" id="home-slider02">
+						<div>
+							<p class="text"><img src="img/home_slider02_pc.png" width="403" height="125" alt="ソリューション クラウドサービスを利用したBIシステムの再構築を支援"></p>
+							<p class="btn"><a href="http://cc-budgetrunner.jp/bi_accelerate/" target="_blank"><img src="img/home_slider02_btn_pc.png" alt="BIクラウド化サービス ページへ" width="292" height="49" class="overOpc"></a></p>
+						</div>
+					</div>
+					<div class="panel" id="home-slider03">
+						<div>
+							<p class="text"><img src="img/home_slider03_pc.png" width="557" height="313" alt="IRニュース Innovation Fast 2017 顧客にとって価値ある「情報サービス企業」へ 新中期経営計画を発表しました。"></p>
+						</div>
+					</div>
+					<div class="panel" id="home-slider04">
+						<div>
+							<p class="text"><img src="img/home_slider04_pc.png" width="731" height="190" alt="お知らせ 2017年度新卒入社社員に、奨学金返済支援制度を導入。入社1年目の冬期賞与時に会社が最大100万円を支給"></p>
+						</div>
+					</div>
+					<div class="panel" id="home-slider05">
+						<div>
+							<p class="text"><img src="img/home_slider05_pc.png" width="322" height="322" alt="お知らせ クロスキャットは本社を移転。ワークスタイル変革を行っています。"></p>
+						</div>
+					</div>
+				</div>
+			</div>-->
+			<div id="home-contents">			
+				<!--<div class="box-bdr-lightgry">
+					<p>熊本県を中心とした九州地方の一連の地震により被災されたみなさまに、心よりお見舞い申し上げます。<br>また、被災地の一日も早い復旧、復興をお祈り申し上げます。</p>
+			    </div>-->
+			
+				<div id="home-news" class="sp-dsp-none">
+					<div class="ttlArea clearfix">
+						<h2>ニュース</h2>
+						<ul>
+							<!--<li><a href="#"><img src="shared/img/btn_rss.png" alt="RSS" width="56" height="22" class="overOpc"></a></li>-->
+							<li class="arwR"><a href="company/news/">一覧へ</a></li>
+						</ul>
+					</div>
+					<div class="frame">
+                      <dl class="list-news">
+                        <dt><em class="icon03">お知らせ</em>2017年8月18日</dt>
+                        <dd>日本経済新聞に当社の奨学金返済支援施策を紹介する記事が掲載されました。<br>（2017年8月18日朝刊 第2面「就活終盤、中小はまだ中盤」）</dd>
+						<dt><em class="icon01">決算</em>2017年8月9日</dt>
+                        <dd><a href="pdf/2017/17_08_09_dai1qkessantansin.pdf" target="_blank">平成30年3月期　第1四半期決算短信（連結）（<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">176KB）</a></dd>
+						<dt><em class="icon03">お知らせ</em>2017年8月7日</dt>
+                        <dd><a href="http://www.xcat.co.jp/recruit/" title="新しいウィンドウが開きます"  target="_blank">サマーインターンシップの参加者受付を開始しました。</a></dd>
+						<dt><em class="icon04">ソリューション</em>2017年8月3日</dt>
+                        <dd><a href="pdf/2017/17_08_03_NR20170803.pdf" target="_blank">「CC-SmartEscort」がシェフラージャパン様に採用され、稼働しました。（<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">440KB）</a></dd>
+						<dt><em class="icon03">お知らせ</em>2017年8月1日</dt>
+                        <dd><a href="pdf/2017/17_08_01_NR20170801.pdf" target="_blank">ブロックチェーン分野でカウラ社と協業を開始します。（<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">228KB）</a></dd>
+						<dt><em class="icon05">セミナー/イベント</em>2017年7月31日</dt>
+                        <dd><a href="pdf/2017/17_07_31_WShenkakuEXPO.pdf" target="_blank">ワークスタイル変革EXPOにクロスキャットが出展しました。（<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">464KB）</a></dd>
+						<dt><em class="icon04">ソリューション</em>2017年7月25日</dt>
+                        <dd><a href="pdf/2017/17_07_25_NR20170725_BizMate.pdf" target="_blank">クラウド型勤怠管理システムCC-BizMate機能強化計画のお知らせ（<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">556KB）</a></dd>
+						<dt><em class="icon05">セミナー/イベント</em>2017年7月10日</dt>
+                        <dd><a href="pdf/2017/17_07_10_WShenkakuEXPO.pdf" target="_blank">ワークスタイル変革EXPOにクロスキャットが出展します。（<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">5.6MB）</a></dd>
+						<dt><em class="icon02">IR</em>2017年6月28日</dt>
+                        <dd><a href="pdf/2017/17_06_28_ketsugi.pdf" target="_blank">第44期定時株主総会を開催しました。（<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">93KB）</a></dd>
+                        <dt><em class="icon03">お知らせ</em>2017年6月20日</dt>
+                        <dd><a href="pdf/2017/17_06_20_Xuisyakuinn.pdf" target="_blank">子会社の役員異動に関するお知らせ（<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">108KB）</a></dd>
+						<dt><em class="icon04">ソリューション</em>2017年6月19日</dt>
+                        <dd><a href="pdf/2017/17_06_19_NR20170619.pdf" target="_blank">日本情報産業新聞に当社のクラウド型勤怠管理システムCC-BizMateに関する記事が掲載されました。（<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">1.1MB）</a></dd>
+						<dt><em class="icon05">セミナー/イベント</em>2017年6月19日</dt>
+						<dd><a href="https://cc-bizmate.jp/seminar/seminar-20170707.html" title="新しいウィンドウが開きます" target="_blank">労働時間管理に関する無料セミナー開催のお知らせ</br>労働時間管理の最新動向と長時間労働是正の成功事例をご紹介</a></dd>
+						<dt><em class="icon05">セミナー/イベント</em>2017年6月13日</dt>
+						<dd><a href="https://cc-smart.jp/seminar-20170627/" title="新しいウィンドウが開きます" target="_blank">最新成功事例を紹介する働き方改革セミナー開催のお知らせ</a></dd>
+						<dt><em class="icon02">IR</em>2017年6月7日</dt>
+                        <dd><a href="pdf/2017/17_06_07_syousyuutuuti.pdf" target="_blank">第44期定時株主総会招集ご通知を掲載しました。（<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">512KB）</a></dd>
+						<dt><em class="icon04">ソリューション</em>2017年6月1日</dt>
+                        <dd><a href="pdf/2017/17_06_01_NR20170601.pdf" target="_blank">クラウド型勤怠管理システムCC-BizMate新バージョン発売のお知らせ（<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">936KB）</a></dd>
+						<dt><em class="icon02">IR</em>2017年5月24日</dt>
+                        <dd><a href="pdf/2017/17_05_24_kessansetumeikai.pdf" target="_blank">2017年3月期 決算説明会を開催しました。（<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">984KB）</a></dd>
+						<dt><em class="icon02">IR</em>2017年5月24日</dt>
+                        <dd><a href="pdf/2017/17_05_24_jikokabusyutokukekka.pdf" target="_blank">自己株式立会外買付取引（ToSTNeT-3）による自己株式の取得結果および自己株式の取得終了に関するお知らせ（<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">96KB）</a></dd>
+						<dt><em class="icon02">IR</em>2017年5月23日</dt>
+                        <dd><a href="pdf/2017/17_05_23_jikokabukaituke.pdf" target="_blank">自己株式の取得および自己株式立会外買付取引（ToSTNeT-3）による自己株式の買付けに関するお知らせ（<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">108KB）</a></dd>
+						<dt><em class="icon05">セミナー/イベント</em>2017年5月18日</dt>
+						<dd><a href="https://cc-smart.jp/seminar-20170530/" title="新しいウィンドウが開きます" target="_blank">ワークスタイル変革無料セミナー開催のお知らせ</a></dd>
+						<dt><em class="icon01">決算</em>2017年5月10日</dt>
+                        <dd><a href="pdf/2017/17_05_10_29.3kessantansin.pdf" target="_blank">平成29年3月期　決算短信（連結）（<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">272KB）</a></br>
+						<a href="pdf/2017/17_05_10_29.3hosokusiryou.pdf" target="_blank">平成29年3月期　決算短信補足資料（<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">240KB）</a></dd>
+						<dt><em class="icon02">IR</em>2017年5月10日</dt>
+                        <dd><a href="pdf/2017/17_05_10_kansatouiinnkai.pdf" target="_blank">監査等委員会設置会社への移行及び定款の一部変更に関するお知らせ（<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">140KB）</a></dd>
+						<dt><em class="icon02">IR</em>2017年5月10日</dt>
+                        <dd><a href="pdf/2017/17_05_10_yakuinjinji.pdf" target="_blank">監査等委員会設置会社の移行後の役員人事に関するお知らせ（<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">104KB）</a></dd>
+						<dt><em class="icon03">お知らせ</em>2017年4月24日</dt>
+                        <dd><a href="pdf/2017/17_04_24_nihonjouhousanngyousinnbunn.pdf" target="_blank">日本情報産業新聞に当社CMMIレベル5達成に関する記事が掲載されました。（<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">960KB）</a></dd>
+						<dt><em class="icon01">決算</em>2017年4月20日</dt>
+                        <dd><a href="pdf/2017/17_04_20_gyousekihaitousyuusei.pdf" target="_blank">業績予想及び配当予想（増配）の修正に関するお知らせ（<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">504KB）</a></dd>
+						<dt><em class="icon03">お知らせ</em>2017年4月12日</dt>
+                        <dd><a href="pdf/2017/17_04_12_CMMI5.pdf" target="_blank">当社 公共ビジネス事業部 公共第1部がCMMIレベル5を達成しました。（<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">1.2MB）</a></dd>
+						<dt><em class="icon03">お知らせ</em>2017年2月15日</dt>
+                        <dd><a href="pdf/2017/17_02_15_sosikihennkoujinnjiidou.pdf" target="_blank">組織変更及び人事異動に関するお知らせ（<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">180KB）</a></dd>
+						<dt><em class="icon04">ソリューション</em>2017年2月10日</dt>
+                        <dd><a href="https://cc-smart.jp/news-20170210/" title="新しいウィンドウが開きます" target="_blank">「CC-SmartReservation」マイクロソフトのCognitive Servicesとの連携による機能強化のお知らせ</a></dd>
+                        <dt><em class="icon01">決算</em>2017年2月8日</dt>
+                        <dd><a href="pdf/2017/17_02_08_3Q_tansin.pdf" target="_blank">平成29年3月期　第3四半期決算短信（連結）（<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">344KB）</a></dd>
+                        <dt><em class="icon03">お知らせ</em>2017年1月16日</dt>
+                        <dd><a href="pdf/2017/17_01_16_nihonjyouhousanngyou.pdf" target="_blank">日本情報産業新聞に当社の新卒採用施策に関する記事が掲載されました。（<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">1.0MB）</a></dd>
+                        <dt><em class="icon03">お知らせ</em>2017年1月11日</dt>
+                        <dd><a href="pdf/2017/17_01_11_NR20170111_sumaisagasi.pdf" target="_blank">新入社員向け独身社宅利用制度の拡充と賃貸借物件見学ツアー開催をお知らせします。（<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">596KB）</a></dd>
+                        <dt><em class="icon03">お知らせ</em>2017年1月11日</dt>
+                        <dd><a href="pdf/2017/17_01_11_NR20170111_syougakukinn.pdf" target="_blank">2018年4月の新卒採用者向けに奨学金返済支援制度の継続適用を決定しました。（<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">624KB）</a></dd>
+                        <dt><em class="icon04">ソリューション</em>2017年1月6日</dt>
+                        <dd><a href="pdf/2017/17_01_06_NR20170106.pdf" target="_blank">事例紹介：「CC-Smartシリーズ」が東京海上日動コミュニケーションズ様に採用され、稼働しました。（<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">224KB）</a></dd>
+                        <dt><em class="icon03">お知らせ</em>2017年1月5日</dt>
+                        <dd><a href="pdf/2017/17_01_05_nihonjyouhousanngyou.pdf" target="_blank">日本情報産業新聞に当社井上社長のインタビュー記事が掲載されました。（<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">2.2MB）</a></dd>
+                        <dt><em class="icon04">ソリューション</em>2016年12月13日</dt>
+                        <dd><a href="pdf/2016/16_12_13_NR201611213.pdf" target="_blank">東北大学向けに当社が開発した新授業収録・配信システムを大学ICT推進協議会年次大会で紹介します。（<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">588KB）</a></dd>
+                        <dt><em class="icon04">ソリューション</em>2016年12月7日</dt>
+                        <dd><a href="pdf/2016/16_12_07_nihonjyouhousanngyou.pdf" target="_blank">日本情報産業新聞に当社BI戦略に関する記事が掲載されました。（<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">1.7MB）</a></dd>
+                        <dt><em class="icon02">IR</em>2016年12月1日</dt>
+                        <dd><a href="pdf/2016/16_12_01_kabunusiyuutai.pdf" target="_blank">株主優待を実施しました。（<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">140KB）</a></dd>
+                        <dt><em class="icon03">お知らせ</em>2016年11月30日</dt>
+                        <dd><a href="pdf/2016/16_11_30_sosikihennkoujinnjiidou.pdf" target="_blank">組織変更及び人事異動に関するお知らせ（<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">160KB）</a></dd>
+                        <dt><em class="icon04">ソリューション</em>2016年11月28日</dt>
+                        <dd><a href="pdf/2016/16_11_28_NR20161128_DK.pdf" target="_blank">ナレッジ共有型BIツール「Data Knowledge」販売開始のお知らせ（<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">900KB）</a></dd>
+                        <dt><em class="icon02">IR</em>2016年11月24日</dt>
+                        <dd><a href="pdf/2016/16_11_24_kessansetumei.pdf" target="_blank">2017年3月期 第2四半期決算説明会を開催しました。（<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">648KB）</a></dd>
+                        <dt><em class="icon05">セミナー/イベント</em>2016年11月14日</dt>
+                        <dd><a href="https://cc-smart.jp/seminar-20161122/" title="新しいウィンドウが開きます" target="_blank">働き方改革無料セミナー開催のお知らせ</a></dd>
+                        <dt><em class="icon01">決算</em>2016年11月8日</dt>
+                        <dd><a href="pdf/2016/16_11_08_2Q_tansin.pdf" target="_blank">平成29年3月期　第2四半期決算短信（連結）（<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">496KB）</a><br>
+                          <a href="pdf/2016/16_11_08_2Q_hosoku.pdf" target="_blank">平成29年3月期　第2四半期決算短信補足資料（<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">320KB）</a></dd>
+                        <dt><em class="icon05">セミナー/イベント</em>2016年11月1日</dt>
+                        <dd><a href="https://cc-smart.jp/seminar-20161111/" title="新しいウィンドウが開きます" target="_blank">「会議室を考える」オフィス見学ツアー付き体験型無料セミナー開催のお知らせ</a></dd>
+                        <dt><em class="icon03">お知らせ</em>2016年10月17日</dt>
+                        <dd><a href="pdf/2016/16_10_17_hatarakikatakaikaku.pdf" target="_blank">「働き方改革週間2016」に賛同し、活動に参加します。（<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">76KB）</a></dd>
+                        <dt><em class="icon04">ソリューション</em>2016年10月13日</dt>
+                        <dd><a href="pdf/2016/16_10_13_CC-Smart.pdf" target="_blank">働き方改革無料セミナー開催のお知らせ（<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">634KB）</a></dd>
+                        <dt><em class="icon04">ソリューション</em>2016年10月12日</dt>
+                        <dd><a href="pdf/2016/16_10_10_nihonjyouhousanngyousinbun.pdf" target="_blank">日本情報産業新聞に当社の新規事業への取り組みが記事として掲載されました。（<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">1.3MB）</a></dd>
+                        <dt><em class="icon04">ソリューション</em>2016年10月3日</dt>
+                        <dd><a href="pdf/2016/16_10_03_CC-SmartEscort.pdf" target="_blank">「CC-SmartEscort」多言語対応オプションのお知らせ（<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">3.4MB）</a></dd>
+                        <dt><em class="icon04">ソリューション</em>2016年9月21日</dt>
+                        <dd><a href="pdf/2016/16_09_21_CC-SmartReservation.pdf" target="_blank">「CC-SmartReservation」のバージョンアップのお知らせ（<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">1.0MB）</a></dd>
+                        <dt><em class="icon02">IR</em>2016年9月15日</dt>
+                        <dd><a href="pdf/2016/16_09_15_jinnjiidou.pdf" target="_blank">人事異動に関するお知らせ（<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">168KB）</a></dd>
+                        <dt><em class="icon05">セミナー/イベント</em>2016年9月7日</dt>
+                        <dd><a href="pdf/2016/16_09_07_workstyle_seminar.pdf" target="_blank">ワークスタイル変革セミナー開催のお知らせ（<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">179KB）</a></dd>
+                        <dt><em class="icon03">お知らせ</em>2016年8月22日</dt>
+                        <dd><a href="pdf/2016/16_08_22_newsrelease.pdf" target="_blank">教育システム情報学会　全国大会の会場にクロスキャットが出展します。（<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">420KB）</a></dd>
+                        <dt><em class="icon02">IR</em>2016年8月18日</dt>
+                        <dd><a href="pdf/2016/16_08_18_syuyoukabunusiidou.pdf" target="_blank">主要株主の異動に関するお知らせ（<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">92KB）</a></dd>
+                        <dt><em class="icon01">決算</em>2016年8月9日</dt>
+                        <dd><a href="pdf/2016/16_08_09_1Qtannsin.pdf" title="PDFファイルが開きます" target="_blank">平成29年3月期　第1四半期決算短信（<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">512KB）</a></dd>
+                        <dt><em class="icon04">ソリューション</em>2016年8月5日</dt>
+                        <dd><a href="pdf/2016/16_08_05_NR20160805.pdf" target="_blank">「DB仮想化サービス」の提供を開始します。（<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">2.3MB）</a></dd>
+                        <dt><em class="icon05">セミナー/イベント</em>2016年7月29日</dt>
+                        <dd><a href="https://cc-smart.jp/seminar-20160829/" title="新しいウィンドウが開きます" target="_blank">Skype for Business / Office 365 を活用したワークスタイル変革セミナー開催のお知らせ</a></dd>
+                        <dt><em class="icon02">IR</em>2016年6月29日</dt>
+                        <dd><a href="pdf/2016/16_06_29_ketsugi.pdf" target="_blank">第43期定時株主総会を開催しました。（<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">93KB）</a></dd>
+                        <dt><em class="icon03">お知らせ</em>2016年6月17日</dt>
+                        <dd><a href="pdf/2016/16_06_17_jinjiidou.pdf" target="_blank">人事異動に関するお知らせ（<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">148KB）</a></dd>
+                        <dt><em class="icon03">お知らせ</em>2016年6月17日</dt>
+                        <dd><a href="pdf/2016/16_06_17_TS.pdf" target="_blank">クロスキャットの本社オフィスが紹介されました。 （<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">434KB）</a></dd>
+                        <dt><em class="icon05">セミナー/イベント</em>2016年6月16日</dt>
+                        <dd><a href="pdf/2016/16_06_16_seminarhoukokku.pdf" target="_blank">「ワークスタイル変革」をテーマにセミナー登壇 （<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">444KB）</a></dd>
+                        <dt><em class="icon05">セミナー/イベント</em>2016年6月13日</dt>
+                        <dd><a href="pdf/2016/16_06_13_workstyle_seminar.pdf" target="_blank">ワークスタイル変革セミナー開催のお知らせ（<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">179KB）</a></dd>
+                        <dt><em class="icon02">IR</em>2016年6月10日</dt>
+                        <dd><a href="pdf/2016/16_06_10_dai43ki28_3syousyuutuuti.pdf" target="_blank">第43期定時株主総会招集ご通知を掲載しました。 （<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">482KB）</a></dd>
+                        <dt><em class="icon04">ソリューション</em>2016年6月6日</dt>
+                        <dd><a href="pdf/2016/16_06_06_CC-Smart.pdf" target="_blank">ワークスタイルをよりスマートに！「CC-Smartシリーズ」バージョンアップのお知らせ （<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">2.4MB）</a></dd>
+                        <dt><em class="icon02">IR</em>2016年5月25日</dt>
+                        <dd><a href="pdf/2016/16_05_25_kessansetumei.pdf" target="_blank">2016年3月期決算説明会を開催しました。 （<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">984KB）</a></dd>
+                        <dt><em class="icon04">ソリューション</em>2016年5月18日</dt>
+                        <dd><a href="pdf/2016/16_05_18_CC-SmartReservation.pdf" target="_blank">新会議室予約管理アプリ「CC-SmartReservation」の販売を開始しました。（<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">1.1MB）</a></dd>
+                        <dt><em class="icon01">決算</em>2016年5月13日</dt>
+                        <dd><a href="pdf/2016/16_05_13_28_3_kessantansin.pdf" target="_blank">平成28年3月期　決算短信（連結）（<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">780KB）</a><br>
+                          <a href="pdf/2016/16_05_13_28_3_tansinhosoku.pdf" target="_blank">平成28年3月期　決算短信補足資料（<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">220KB）</a></dd>
+                        <dt><em class="icon04">ソリューション</em>2016年4月14日</dt>
+                        <dd><a href="pdf/2016/16_04_14_NR20160414-3.pdf" target="_blank">事例紹介：ＤＡサーチ＆リンク社様に「BIクラウド化サービス」を導入しました。（<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">200KB）</a></dd>
+                        <dt><em class="icon05">セミナー/イベント</em>2016年3月23日</dt>
+                        <dd><a href="pdf/2016/16_03_23_ccsmart_seminor.pdf" title="PDFファイルが開きます" target="_blank">Skype for Business利便性向上セミナーを4月28日（木）に開催いたします。（<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">184KB）</a></dd>
+                        <dt><em class="icon01">決算</em>2016年3月16日</dt>
+                        <dd><a href="pdf/2016/16_03_16_gyousekiyosou_haitouyosou.pdf" title="PDFファイルが開きます" target="_blank">業績予想及び配当予想（増配）の修正に関するお知らせ（<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">140KB）</a></dd>
+                        <dt><em class="icon03">お知らせ</em>2016年3月8日</dt>
+                        <dd><a href="pdf/2016/16_03_08_nihonjyouhousanngyou.pdf" title="PDFファイルが開きます" target="_blank">日本情報産業新聞に当社「奨学金返済支援制度」の記事が掲載されました。（<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">1.6MB）</a></dd>
+                        <dt><em class="icon03">お知らせ</em>2016年3月2日</dt>
+                        <dd><a href="pdf/2016/16_03_02_NHKnews.pdf" title="PDFファイルが開きます" target="_blank">ＮＨＫニュースの取材を受け放送されました。（<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">1.6MB）</a></dd>
+                        <dt><em class="icon05">セミナー/イベント</em>2016年3月1日</dt>
+                        <dd><a href="pdf/2016/16_03_01_communicationseminar.pdf" title="PDFファイルが開きます" target="_blank">「コミュニケーションソリューションセミナー」に出展します。（<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">256KB）</a></dd>
+                        <dt><em class="icon03">お知らせ</em>2016年2月29日</dt>
+                        <dd><a href="pdf/2016/16_02_29_syougakukinnhennsai.pdf" title="PDFファイルが開きます" target="_blank">「奨学金返済支援制度」の導入を決定しました。（<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">764KB）</a></dd>
+                        <dt><em class="icon02">IR</em>2016年2月22日</dt>
+                        <dd><a href="pdf/2016/16_02_22_sosiki_jinji.pdf" title="PDFファイルが開きます" target="_blank">組織変更及び人事異動に関するお知らせ（<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">164KB）</a></dd>
+                        <dt><em class="icon02">IR</em>2016年2月18日</dt>
+                        <dd><a href="pdf/2016/16_02_18_jikokabusyutoku.pdf" title="PDFファイルが開きます" target="_blank">自己株式立会外取引（ToSTNeT-3）による自己株式の取得結果および自己株式の取得終了に関するお知らせ（<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">108KB）</a></dd>
+                        <dt><em class="icon02">IR</em>2016年2月17日</dt>
+                        <dd><a href="pdf/2016/16_02_17_jikokabukaituke.pdf" title="PDFファイルが開きます" target="_blank">自己株式立会外取引（ToSTNeT-3）による自己株式の買付けに関するお知らせ（<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">120KB）</a></dd>
+                        <dt><em class="icon01">決算</em>2016年2月10日</dt>
+                        <dd><a href="pdf/2016/16_02_10_dai3Qkessantansin.pdf" title="PDFファイルが開きます" target="_blank">平成28年3月期 第3四半期決算短信（<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">533KB）</a></dd>
+                        <dt><em class="icon03">お知らせ</em>2016年2月4日</dt>
+                        <dd><a href="pdf/2016/16_02_04_nihonjyouhousangyousinbun.pdf" title="PDFファイルが開きます" target="_blank">日本情報産業新聞に当社井上社長のインタビュー記事が掲載されました。（<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">1.2MB）</a></dd>
+                        <dt><em class="icon04">ソリューション</em>2016年2月2日</dt>
+                        <dd><a href="pdf/2016/16_02_02_jirei_moriteq.pdf" title="PDFファイルが開きます" target="_blank">事例紹介：モリテック社様にCC-SmartPopupを導入しました。（<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">176KB）</a></dd>
+                        <dt><em class="icon04">ソリューション</em>2016年1月29日</dt>
+                        <dd><a href="pdf/2016/16_01_25_nihonjyouhousangyousinbun.pdf" title="PDFファイルが開きます" target="_blank">日本情報産業新聞に当社勤怠管理システムの導入記事が掲載されました。（<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">3.2MB）</a></dd>
+                        <dt><em class="icon03">お知らせ</em>2016年1月25日</dt>
+                        <dd><a href="pdf/2016/16_01_25_honsyaiten.pdf" title="PDFファイルが開きます" target="_blank">本社移転のお知らせ（<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">212KB）</a></dd>
+                        <dt><em class="icon05">セミナー/イベント</em>2016年1月19日</dt>
+                        <dd><a href="pdf/2016/16_01_19_ccsmart_seminor.pdf" title="PDFファイルが開きます" target="_blank">Skype for Business利便性向上セミナーを2月10日（水）に開催いたします。（<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">752KB）</a></dd>
+                        <dt><em class="icon04">ソリューション</em>2015年12月9日</dt>
+                        <dd><a href="http://cc-budgetrunner.jp/news/articles/20151209.html" title="新しいウィンドウが開きます" target="_blank">「BIクラウド化無料アセスメントサービス」を開始しました。</a></dd>
+                        <dt><em class="icon02">IR</em>2015年11月26日</dt>
+                        <dd><a href="pdf/archive/15_11_26_dai2Qkessansetumei.pdf" title="PDFファイルが開きます" target="_blank">2016年3月期 第2四半期決算説明会を開催しました。（<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">1.22MB）</a></dd>
+                        <dt><em class="icon04">ソリューション</em>2015年11月25日</dt>
+                        <dd><a href="http://www.cc-bizmate.jp/news/articles/20151125.html" title="新しいウィンドウが開きます" target="_blank">クラウド型勤怠管理サービス「CC-BizMate」を店舗小売業向けに機能強化しました。</a></dd>
+                        <dt><em class="icon04">ソリューション</em>2015年11月20日</dt>
+                        <dd><a href="pdf/archive/15_11_20_newsrelease.pdf" title="PDFファイルが開きます" target="_blank">事例紹介：菓匠三全社様に勤怠管理クラウドCC-BizMateを導入しました。（<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">276KB）</a></dd>
+                        <dt><em class="icon04">ソリューション</em>2015年11月11日</dt>
+                        <dd><a href="http://cc-budgetrunner.jp/news/articles/20151111.html" title="新しいウィンドウが開きます" target="_blank">「BIクラウド化サービス」を開始しました。</a></dd>
+                        <dt><em class="icon01">決算</em>2015年11月6日</dt>
+                        <dd><a href="pdf/archive/15_11_06_dai2Qkessantansin.pdf" title="PDFファイルが開きます" target="_blank">平成28年3月期　第2四半期決算短信（<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">540KB）</a><br>
+                          <a href="pdf/archive/15_11_06_dai2Qkessantansinhosoku.pdf" title="PDFファイルが開きます" target="_blank">平成28年3月期　第2四半期決算短信補足資料（<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">191KB）</a></dd>
+                        <dt><em class="icon04">ソリューション</em>2015年10月28日</dt>
+                        <dd><a href="http://www.cc-bizmate.jp/news/articles/20151028.html" title="新しいウィンドウが開きます" target="_blank">「Microsoft Skype for Business導入のための無料アセスメントサービス」を開始しました。</a></dd>
+                        <dt><em class="icon01">決算</em>2015年10月16日</dt>
+                        <dd><a href="pdf/archive/15_10_16_gyousekisyuusei.pdf" title="PDFファイルが開きます" target="_blank">業績予想の修正に関するお知らせ（<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">140KB）</a></dd>
+                        <dt><em class="icon04">ソリューション</em>2015年10月14日</dt>
+                        <dd><a href="http://cc-budgetrunner.jp/news/articles/20151014.html" title="PDFファイルが開きます" target="_blank">事例紹介：ミルボン社様に「BI/DB高速化サービス」を提供しました。</a></dd>
+                        <dt><em class="icon05">セミナー/イベント</em>2015年9月28日</dt>
+                        <dd><a href="pdf/archive/15.09.25_ITProEXPO2015.pdf" title="PDFファイルが開きます" target="_blank">IT総合展「ITpro EXPO 2015」に出展いたします。（<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">276KB）</a></dd>
+                        <dt><em class="icon03">お知らせ</em>2015年9月15日</dt>
+                        <dd><a href="pdf/archive/15_09_15_jinjiidou.pdf" title="PDFファイルが開きます" target="_blank">人事異動に関するお知らせ（<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">92KB）</a></dd>
+                        <dt><em class="icon04">ソリューション</em>2015年9月9日</dt>
+                        <dd><a href="http://cc-budgetrunner.jp/news/articles/20150909.html" title="新しいウィンドウが開きます" target="_blank">「BI/DB高速化のための無料アセスメントサービス」を開始しました。</a></dd>
+                        <dt><em class="icon04">ソリューション</em>2015年8月26日</dt>
+                        <dd><a href="pdf/archive/15_08_26_newsrelease.pdf" title="PDFファイルが開きます" target="_blank">Microsoft Skype for Businessの拡張アプリケーションの提供を開始しました。
+                          （CC-SmartEscort）（<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">272KB）</a></dd>
+                        <dt><em class="icon03">お知らせ</em>2015年8月24日</dt>
+                        <dd><a href="pdf/archive/15_08_24_telework.pdf" title="PDFファイルが開きます" target="_blank">「テレワーク週間2015」の活動に参加します。（<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">92KB）</a></dd>
+                        <dt><em class="icon04">ソリューション</em>2015年8月11日</dt>
+                        <dd><a href="http://cc-budgetrunner.jp/news/articles/20150811.html" title="新しいウィンドウが開きます" target="_blank">「BI/DB高速化サービス」を開始しました。</a></dd>
+                        <dt><em class="icon04">ソリューション</em>2015年8月10日</dt>
+                        <dd><a href="pdf/archive/15_08_10_OBICS.pdf" title="PDFファイルが開きます" target="_blank">オラクルのクラウド型BIサービスの導入支援サービスを提供開始しました。（<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">460KB）</a></dd>
+                        <dt><em class="icon01">決算</em>2015年8月7日</dt>
+                        <dd><a href="pdf/archive/15_08_07_renketugyouseki.pdf" title="PDFファイルが開きます" target="_blank">連結決算開始に伴う連結業績予想に関するお知らせ（<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">108KB）</a></dd>
+                        <dt><em class="icon01">決算</em>2015年8月7日</dt>
+                        <dd><a href="pdf/archive/15_08_07_dai1Qtannsin.pdf" title="PDFファイルが開きます" target="_blank">平成28年3月期　第1四半期決算短信（<img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます" class="linkIcon pdf">548KB）</a></dd>
+                      </dl>
+				  </div>
+				</div>
+				<div id="home-solution" class="sp-dsp-none">
+					<div class="home-ttl clearfix">
+						<h2>ソリューション</h2>
+						<p class="arwR"><a href="solution/">一覧へ</a></p>
+					</div>
+					<div class="clearfix">
+						<dl>
+							<dt>システムインテグレーション</dt>
+							<dd>
+								<ul class="clearfix">
+									<li><a href="solution/bank.html" class="overOpc"><img src="shared/img/pct_solution01_01.png" width="74" height="66" alt="" class="pct">銀行向け<br>システム</a></li>
+									<li><a href="solution/credit.html" class="overOpc"><img src="shared/img/pct_solution01_02.png" width="74" height="66" alt="" class="pct">クレジット向け<br>システム</a></li>
+									<li><a href="solution/insurance.html" class="overOpc"><img src="shared/img/pct_solution01_03.png" width="74" height="66" alt="" class="pct">保険会社向け<br>システム</a></li>
+									<li><a href="solution/public.html" class="overOpc"><img src="shared/img/pct_solution01_04.png" width="74" height="66" alt="" class="pct">公共機関向け<br>システム</a></li>
+									<li><a href="solution/other.html" class="overOpc"><img src="shared/img/pct_solution01_05.png" width="74" height="66" alt="" class="pct">事業法人向け<br>システム</a></li>
+									<li><a href="solution/it.html" class="overOpc"><img src="shared/img/pct_solution01_06.png" width="74" height="66" alt="" class="pct">IT基盤構築・運用</a></li>
+								</ul>
+							</dd>
+						</dl>
+						<dl>
+							<dt>プロダクト</dt>
+							<dd>
+								<ul class="clearfix">
+									<li><a href="https://www.cc-bizmate.jp/" target="_blank" class="overOpc setIcon"><img src="shared/img/pct_solution02_01.png" width="74" height="66" alt="" class="pct">勤怠管理クラウド<br><em>「CC-BizMate」</em><img src="shared/img/blank.gif" width="18" height="18" alt="新しいウィンドウが開きます" class="linkIcon blank"></a></li>
+									<li><a href="https://www.cc-smart.jp/" target="_blank" class="overOpc setIcon"><img src="shared/img/pct_solution02_02.png" width="74" height="66" alt="" class="pct mB0">ビジネス<br>コミュニケーション<br><em>「CC-Smartシリーズ」</em><img src="shared/img/blank.gif" width="18" height="18" alt="新しいウィンドウが開きます" class="linkIcon blank"></a></li>
+									<li><a href="solution/cc_quattro.html" class="overOpc"><img src="shared/img/pct_solution02_03.png" width="74" height="66" alt="" class="pct">クレジット国際ブランド<br><em>「CC-Quattro」</em></a></li>
+									<li><a href="solution/cc_factrevo.html" class="overOpc"><img src="shared/img/pct_solution02_04.png" width="74" height="66" alt="" class="pct">設備保全AR<br><em>「CC-Factrevo/AR」</em></a></li>
+									<li><a href="solution/kyoyuu.html" class="overOpc"><img src="shared/img/pct_solution02_05.png" width="74" height="66" alt="" class="pct">法人向け同報メールソフト<br><em>「共有@メール2」</em></a></li>
+									<li>&nbsp;</li>
+								</ul>
+							</dd>
+						</dl>
+						<dl>
+							<dt>コンサルティング<br>
+							サービス</dt>
+							<dd>
+								<ul class="clearfix">
+									<li><a href="solution/bidwh.html" class="overOpc"><img src="shared/img/pct_solution03_01.png" width="74" height="66" alt="" class="pct">情報可視化・分析<br>（BI）コンサルティング<br>サービス</a></li>
+									<li><a href="solution/bidwh2/" class="overOpc"><img src="shared/img/pct_solution03_02.png" width="74" height="66" alt="" class="pct">BI/DWH<br>ソリューション</a></li>
+									<li><a href="https://www.cc-smart.jp/" target="_blank" class="overOpc setIcon"><img src="shared/img/pct_solution03_03.png" width="74" height="76" alt="" class="pct tall">Skype for Business<br>導入支援サービス<img src="shared/img/blank.gif" width="18" height="18" alt="新しいウィンドウが開きます" class="linkIcon blank"></a></li>
+								</ul>
+							</dd>
+						</dl>
+					</div>
+				</div>
+				<div class="clearfix sp-dsp-none mT80 setAutoHeightTgr sp-hMin0">
+					<div id="home-case">
+						<div class="home-ttl clearfix">
+							<h2>導入事例</h2>
+							<p class="arwR"><a href="case/">一覧へ</a></p>
+						</div>
+						<ul>
+							<li class="ah-tgr"><a href="https://www.cc-smart.jp/case-toshiba-tpsc" target="_blank"><span class="ttl">東芝プラントシステム様<img src="shared/img/blank.gif" width="18" height="18" alt="新しいウィンドウが開きます" class="linkIcon blank"></span><span class="text">「Skype for Business」と連携した受付システム「CC-SmartEsc　ort」を導入。<br>それまでのIP電話と内線一覧の受付よりも、受付応対がスムーズになりました。</span></a></li>
+						</ul>
+					</div>
+					<div id="home-seminar">
+						<div class="home-ttl clearfix">
+							<h2>セミナー／イベント</h2>
+							<p class="arwR"><a href="seminar/">一覧へ</a></p>
+						</div>
+						<ul>
+							<!--<li class="ah-tgr"><a href="https://cc-bizmate.jp/seminar/seminar-20170707.html" target="_blank"><span class="ttl">"労働時間管理"に関する無料セミナー<img src="shared/img/blank.gif" width="18" height="18" alt="新しいウィンドウが開きます" class="linkIcon blank"></span><span class="text">労働時間管理の最新動向と長時間労働是正の成功事例をご紹介</span></a></li>-->
+							<li class="ah-tgr"><a href="pdf/2017/17_07_10_WShenkakuEXPO.pdf" target="_blank"><span class="ttl">"ワークスタイル変革EXPO　ブース出展"</br>（東京ビックサイト） <img src="shared/img/blank.gif" width="1" height="1" alt="PDFファイルを開きます"class="linkIcon blank"></span><span class="text">ティーズブレイン・日本次世代企業普及機構と共同で「ホワイト企業認定診断」実施</span></a></li>
+						</ul>
+					</div>
+				</div>
+				<ul class="home-spMenu clearfix sp-dsp-block">
+					<li><a href="company/news/"><span>ニュース</span></a></li>
+					<li><a href="solution/"><span>ソリューション</span></a></li>
+					<li><a href="case/"><span>導入事例</span></a></li>
+					<li><a href="seminar/"><span>セミナー／イベント</span></a></li>
+				</ul>
+				<div class="categoryTop-menu clearfix">
+					<p class="sp-dsp-none"><a href="company/" class="overOpc"><span class="ttl">企業情報</span><img src="img/home_menu_p01.jpg" width="293" height="157" alt=""></a></p>
+					<p class="sp-dsp-none"><a href="ir-info/" class="overOpc"><span class="ttl">IR情報</span><img src="img/home_menu_p02.jpg" width="293" height="157" alt=""></a></p>
+					<p><a href="recruit/" target="_blank" class="overOpc blank"><span class="ttl">採用情報</span><img src="img/home_menu_p03.jpg" width="293" height="157" alt=""></a></p>
+				</div>
+				<ul class="home-spMenu clearfix sp-dsp-block">
+					<li><a href="company/"><span>企業情報</span></a></li>
+					<li><a href="ir-info/"><span>IR情報</span></a></li>
+				</ul>
+			</div>
+		</div>
+		<!-- //contents -->
+	</div>
+	<!-- //pageBody -->
+	<!-- footer -->
+<footer id="footer">
+	<dl id="ftr-sitemap" class="toggle-set toggle-sp">
+		<dt class="toggle-btn">サイトマップ</dt>
+		<dd class="clearfix toggle-box">
+			<div class="box">
+				<ul>
+					<li><a href="/solution/"><span>ソリューション</span></a>
+						<ul>
+							<li><span class="ttl">システムインテグレーション</span>
+								<ul>
+									<li><a href="/solution/bank.html">銀行向けシステム</a></li>
+									<li><a href="/solution/credit.html">クレジット向けシステム</a></li>
+									<li><a href="/solution/insurance.html">保険会社向けシステム</a></li>
+									<li><a href="/solution/public.html">公共機関向けシステム</a></li>
+									<li><a href="/solution/other.html">事業法人向けシステム</a></li>
+									<li><a href="/solution/it.html">IT基盤構築・運用</a></li>
+								</ul>
+							</li>
+							<li class="bdrT"><span class="ttl">プロダクト</span>
+								<ul>
+									<li><a href="https://www.cc-bizmate.jp/" target="_blank" class="setIcon">勤怠管理クラウド「CC-BizMate」<img src="/shared/img/blank.gif" width="18" height="18" alt="新しいウィンドウが開きます" class="linkIcon blank"></a></li>
+									<li><a href="https://www.cc-smart.jp/" target="_blank" class="setIcon">ビジネスコミュニケーション「CC-Smartシリーズ」<img src="/shared/img/blank.gif" width="18" height="18" alt="新しいウィンドウが開きます" class="linkIcon blank"></a></li>
+									<li><a href="/solution/cc_quattro.html">クレジット国際ブランド「CC-Quattro」</a></li>
+									<li><a href="/solution/cc_factrevo.html">設備保全AR「CC-Factrevo/AR」</a></li>
+									<li><a href="/solution/kyoyuu.html">法人向け同報メールソフト「共有@メール2」</a></li>
+								</ul>
+							</li>
+							<li class="bdrT"><span class="ttl">コンサルティングサービス</span>
+								<ul>
+									<li><a href="/solution/bidwh.html">情報可視化・分析（BI）コンサルティングサービス</a></li>
+									<li><a href="/solution/bidwh2/">BI/DWHソリューション</a></li>
+									<li><a href="https://www.cc-smart.jp/" target="_blank" class="setIcon">Skype for Business導入支援サービス<img src="/shared/img/blank.gif" width="18" height="18" alt="新しいウィンドウが開きます" class="linkIcon blank"></a></li>
+								</ul>
+							</li>
+							<li class="bdrT"><a href="/solution/news/">ソリューションニュース</a></li>
+						</ul>
+					</li>
+					<li><a href="/case/"><span>導入事例</span></a></li>
+				</ul>
+			</div>
+			<div class="box">
+				<ul>
+					<li><a href="/seminar/"><span>セミナー／イベント</span></a></li>
+					<li><a href="/company/"><span>企業情報</span></a>
+						<ul>
+							<li><a href="/company/director/">代表者メッセージ</a></li>
+							<li><a href="/company/profile/">企業データ</a></li>
+							<li><a href="/ir-info/management/businessplan.html">中期経営計画（IR情報へ）</a></li>
+							<li><a href="/company/advantage/">クロスキャット4つの強み</a></li>
+							<li><a href="/company/csr/">CSR</a></li>
+							<li><a href="/company/news/">ニュース</a></li>
+							<li><a href="/company/partner/">ビジネスパートナー</a></li>
+							<li><a href="/company/pdf/kaisyaannai.pdf" target="_blank">会社案内ダウンロード<img src="/shared/img/blank.gif" width="18" height="18" alt="PDFファイルを開きます" class="linkIcon pdf"></a></li>
+							<li><a href="/special/xcat1.html">こんなところにクロスキャット<img src="/shared/img/blank.gif" width="18" height="18" alt="新しいウィンドウが開きます" class="linkIcon blank"></a></li>
+						</ul>
+					</li>
+					<li><a href="/ir-info/"><span>IR情報</span></a>
+						<ul>
+							<li><a href="/ir-info/irnews/">IRニュース</a></li>
+							<li><a href="/ir-info/management/">経営関連情報</a></li>
+							<li><a href="/ir-info/individual/">個人投資家の皆様へ</a></li>
+							<li><a href="/ir-info/highlight/">業績ハイライト</a></li>
+							<li><a href="/ir-info/calender/">IRカレンダー</a></li>
+							<li><a href="/ir-info/library/">IRライブラリ</a></li>
+							<li><a href="/ir-info/stock/">株式情報</a></li>
+							<li><a href="/ir-info/electronicnotification/">電子公告</a></li>
+							<li><a href="/contact/">IRに関するお問い合わせ（お問い合わせへ）</a></li>
+							<li><a href="/ir-info/disclosure/">ディスクロージャーポリシー</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<div class="box">
+				<ul>
+					<li><a href="/recruit/" target="_blank">採用情報<img src="/shared/img/blank.gif" width="18" height="18" alt="新しいウィンドウが開きます" class="linkIcon blank"></a></li>
+					<li><a href="/contact/">お問い合わせ</a></li>
+					<li><a href="/english/">English</a></li>
+					<li class="bnr"><a href="/special/xcat1.html" target="_blank"><img src="/shared/img/bnr_special.png" width="216" height="66" alt="こんなところにクロスキャット" class="overOpc"></a></li>
+					<li class="bnr"><a href="https://www.terra-r.jp/" target="_blank"><img src="/shared/img/ftr_bnr02.png" width="255" height="87" alt="当社は特定非営利法人テラ・ルネッサンスを応援します" class="overOpc"></a></li>
+					<li class="bnr"><a href="http://www.office-hiroba.com/news/329/" target="_blank"><img src="/shared/img/b-office-hiroba.jpg" width="200" height="68" alt="オフィスの広場" class="overOpc"></a></li>
+					<li class="bnr"><a href="http://www.xuis.co.jp/" target="_blank"><img src="/shared/img/ftr_bnr03.png" width="216" height="53" alt="関係会社 株式会社クロスユーアイエス" class="overOpc"></a></li>
+				</ul>
+			</div>
+		</dd>
+	</dl>
+	<div id="ftr-copyrightArea">
+		<p id="ftr-pagetop"><a href="#header"><img src="/shared/img/ftr_pagetop.png" alt="Page top" width="43" height="43" class="overOpc"></a></p>
+		<div class="clearfix">
+			<ul id="ftr-menu">
+				<!--<li><a href="/accessibility/"><span>アクセシビリティの取り組み</span></a></li>-->
+				<li><a href="/sitepolicy/"><span>サイトのご利用について</span></a></li>
+				<li><a href="/company/csr/security.html#acPrivacy01"><span>個人情報保護方針</span></a></li>
+			</ul>
+			<p id="ftr-copyright"><small>Copyright © 株式会社クロスキャット All rights reserved.</small></p>
+		</div>
+	</div>
+</footer>
+<!-- //footer -->
+</div>
+<!-- //container -->
+</body>
+</html>

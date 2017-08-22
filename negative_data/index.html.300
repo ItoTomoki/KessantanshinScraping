@@ -1,0 +1,359 @@
+<!DOCTYPE HTML>
+<html lang="ja"><!-- InstanceBegin template="/Templates/common.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="format-detection" content="telephone=no" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<meta name="description" content="株式会社システナのオフィシャルホームページ。システナが提供するサービスや開発事例、会社情報、IR情報、個人投資家向け情報、採用情報、各種お問い合わせなどについてご紹介します。" />
+<meta name="keywords" content="ソリューションデザイン,フレームワークデザイン,ITサービス,ソリューション営業,クラウド,トータル・ソリューション・サービス,株式会社システナ,Systena" />
+<title>株式会社システナ</title>
+<script src="common/js/redirect.js"></script>
+<script src="common/js/compatible.js"></script>
+<!-- InstanceEndEditable -->
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+<link rel="stylesheet" href="common/css/common.css" media="all" />
+<link rel="stylesheet" href="common/css/font_default.css" title="fontDefault" />
+<link rel="alternate stylesheet" href="common/css/font_large.css" title="fontLarge" />
+<script src="common/js/libs/modernizr.js"></script>
+<script src="common/js/libs/styleswitcher.js"></script>
+<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
+<!-- InstanceParam name="category" type="text" value="top" --><!-- InstanceParam name="layoutType" type="text" value="colMS" -->
+</head>
+
+<body class="top">
+
+<div id="page" class="colMS">
+
+<!-- ================== Header START ================== -->
+<header role="banner">
+<div class="inner">
+<p id="ci"><a href="./"><img src="common/images/header/logo.png" alt="株式会社システナ" /></a></p>
+<p class="inquiry roll"><a href="contact/"><img src="common/images/header/inquiry_btn.png" alt="お問い合わせ" /></a></p>
+<div class="utility">
+<ul class="navUtility roll">
+<li><a href="sitemap.html"><img src="common/images/header/nu_sitemap.png" alt="サイトマップ" /></a></li>
+<li><a href="eng/" target="_blank"><img src="common/images/header/nu_english.png" alt="English" /></a></li>
+</ul>
+<dl class="fontSizeChange roll styleSwitcher">
+<dt class="unroll"><img src="common/images/header/fsize_label.png" alt="文字サイズ" /></dt><dd><a href="#" onClick="setActiveStyleSheet('fontDefault'); return false;"><img src="common/images/header/fsize_default.png" alt="標準" /></a></dd><dd><a href="#" onClick="setActiveStyleSheet('fontLarge'); return false;"><img src="common/images/header/fsize_large.png" alt="大" /></a></dd>
+</dl>
+<form action="http://search.systena.co.jp/search/client.cgi" method="post" id="search-site" role="search" accept-charset="UTF-8">
+<input type="hidden" name="uid" value="640871c088f68f31904769e9bac3b43c" />
+<input type="hidden" name="in" value="U" />
+<input type="hidden" name="cw" value="1" />
+<input type="hidden" name="syn" value="1" />
+<input type="hidden" name="by" value="D0" />
+<p>
+<label for="searchQuery"><img src="common/images/header/search_label.png" alt="サイト内検索" /></label>
+<input id="searchQuery" name="key" type="text" placeholder="キーワード" />
+<input type="image" src="common/images/header/search_btn.png" alt="検索" class="roll" />
+</p>
+</form>
+<!-- /.utility --></div>
+<!-- __________ Global Navigation START __________ -->
+<nav class="global">
+<ul class="roll">
+<li ><a href="service/"><img src="common/images/header/ng_service.png" alt="サービス/ソリューション" /></a></li>
+<li ><a href="ir/"><img src="common/images/header/ng_ir.png" alt="IR情報" /></a></li>
+<li ><a href="recruit/"><img src="common/images/header/ng_recruit.png" alt="採用情報" /></a></li>
+<li ><a href="about/"><img src="common/images/header/ng_about.png" alt="会社案内" /></a></li>
+<li ><a href="compliance/"><img src="common/images/header/ng_compliance.png" alt="コンプライアンス" /></a></li>
+</ul>
+</nav>
+<!-- __________ Global Navigation END __________ -->
+<!-- /.inner --></div>
+<hr />
+</header>
+<!-- ================== Header END ================== -->
+
+<!-- ================== Main Visual START ================== -->
+<!-- InstanceBeginEditable name="mainvisual" -->
+<div id="mainVisual">
+  <div class="inner">
+    <div id="sliderBox">
+      <ul id="slider">
+        <li><a href="service/service/"><img src="images/mv/index_mainvisual_02.jpg" alt="ソリューションデザイン事業" height="233" width="309"/></a></li>
+        <li><a href="service/frameworkdesign/index.html"><img src="images/mv/index_mainvisual_03.jpg" alt="フレームワークデザイン事業" height="233" width="309"/></a></li>
+        <li><a href="service/it_service/"><img src="images/mv/index_mainvisual_04.jpg" alt="ITサービス事業" height="233" width="309"/></a></li>
+        <li><a href="service/s_sales/"><img src="images/mv/index_mainvisual_05.jpg" alt="ソリューション営業" height="233" width="309"/></a></li>
+        <li><a href="service/cloud/"><img src="images/mv/index_mainvisual_06.jpg" alt="クラウド事業" height="233" width="309"/></a></li>
+        <li><a href="service/totalsolution/"><img src="images/mv/index_mainvisual_07.jpg" alt="トータルソリューション" height="233" width="309"/></a></li>
+        </ul>
+      </div>
+    <div id="tab"></div>
+    <div id="sliderMenu">
+      <ul id="elements">
+        <li id="m1"><a href="#slider-1"></a></li>
+        <li id="m2"><a href="#slider-2"></a></li>
+        <li id="m3"><a href="#slider-3"></a></li>
+        <li id="m4"><a href="#slider-4"></a></li>
+        <li id="m5"><a href="#slider-5"></a></li>
+        <li id="m6"><a href="#slider-6"></a></li>
+        </ul>
+      </div>
+    <div id="sliderText">
+      <ul id="elements">
+        <li id="t1"><a href="service/service/"><img src="images/mv/index_mainvisual_text_02.png" height="179" width="342" alt=""></a></li>
+        <li id="t3"><a href="service/frameworkdesign/index.html"><img src="images/mv/index_mainvisual_text_03.png" height="179" width="342" alt=""></a></li>
+        <li id="t4"><a href="service/it_service/"><img src="images/mv/index_mainvisual_text_04.png" height="179" width="342" alt=""></a></li>
+        <li id="t5"><a href="service/s_sales/"><img src="images/mv/index_mainvisual_text_05.png" height="179" width="342" alt=""></a></li>
+        <li id="t6"><a href="service/cloud/"><img src="images/mv/index_mainvisual_text_06.png" height="179" width="342" alt=""></a></li>
+        <li id="t7"><a href="service/totalsolution/"><img src="images/mv/index_mainvisual_text_07.png" height="179" width="342" alt=""></a></li>
+        </ul>
+      </div>
+    <div id="pr"><a href="#"></a></div>
+    <div id="nx"><a href="#"></a></div>
+  <!-- /.inner --></div>
+
+  <noscript>
+  <ul class="noscript-menu">
+  <li><img src="images/mv/index_mv_noscript.jpg" alt="" width="960" height="365" usemap="#Map">
+<map name="Map">
+  <area shape="circle" coords="123,106,97" href="#" alt="ソリューションデザイン事業">
+  <area shape="circle" coords="243,265,97" href="#" alt="フレームワークデザイン事業">
+  <area shape="circle" coords="358,105,97" href="#" alt="トータルソリューション">
+  <area shape="circle" coords="479,262,97" href="#" alt="ソリューション営業">
+  <area shape="circle" coords="595,105,97" href="#" alt="ITサービス事業">
+  <area shape="circle" coords="716,264,97" href="#" alt="クラウド事業">
+</map></li>
+  </ul>
+  </noscript>
+  <!-- /#mainVisual --></div>
+<!-- InstanceEndEditable -->
+<!-- ================== Main Visual END ================== -->
+
+
+<!-- ================== Content START ================== -->
+<div id="content">
+<div class="inner">
+
+<!-- InstanceBeginEditable name="contents" -->
+
+<!-- __________ Pick Up START __________ -->
+<div id="pickup">
+<h2 class="hdg"><img src="images/index_pickup_hdg.png" alt="Pick Up" width="960" height="43" /></h2>
+<div class="carousel">
+<p class="prev"><a href="#prev"><img src="images/index_pickup_prev.jpg" alt="前へ" width="22" height="86" /></a></p>
+<p class="next"><a href="#next"><img src="images/index_pickup_next.jpg" alt="次へ" width="22" height="86" /></a></p>
+<div class="carouselMask">
+<ul class="listCarousel roll">
+<li><a href="https://riskfindservice.jp/" target="_blank"><img src="images/index_pickup_banner_08.jpg" alt="RiskFinder" width="258" height="86" /></a></li>
+<li><a href="about/gallery.html"><img src="images/index_pickup_banner_10.jpg" alt="テレビCM・動画ギャラリー" width="258" height="86" /></a></li>
+<li><a href="http://webshelter.systena.co.jp" target="_blank"><img src="images/index_pickup_banner_09.jpg" alt="Web Shelter" width="258" height="86" /></a></li>
+<li><a href="http://apps.systena.co.jp/" target="_blank"><img src="images/index_pickup_banner_02.jpg" alt="Google Apps × cloudstep" width="258" height="86" /></a></li>
+<li><a href="about/gallery.html"><img src="images/index_pickup_banner_11.jpg" alt="テレビCM・動画ギャラリー" width="258" height="86" /></a></li>
+<li><a href="service/service/products/compath.html"><img src="images/index_pickup_banner_01.jpg" alt="compath" width="258" height="86" /></a></li>
+<li><a href="service/s_sales/service/assessment.html"><img src="images/index_pickup_banner_03.jpg" alt="IT環境アセスメントサービス" width="258" height="86" /></a></li>
+<li><a href="about/gallery.html"><img src="images/index_pickup_banner_12.jpg" alt="テレビCM・動画ギャラリー" width="258" height="86" /></a></li>
+<li><a href="service/it_service/service/help_desk.html"><img src="images/index_pickup_banner_05.jpg" alt="ヘルプデスクサービス" width="258" height="86" /></a></li>
+<li><a href="service/s_sales/service/server.html"><img src="images/index_pickup_banner_04.jpg" alt="サーバー仮想化ソリューション" width="258" height="86" /></a></li>
+<li><a href="about/gallery.html"><img src="images/index_pickup_banner_13.jpg" alt="テレビCM・動画ギャラリー" width="258" height="86" /></a></li>
+<li><a href="service/it_service/service/management.html"><img src="images/index_pickup_banner_06.jpg" alt="PCライフサイクルマネジメント" width="258" height="86" /></a></li>
+</ul>
+<!-- /.carouselMask --></div>
+<!-- /.carousel --></div>
+<!-- /#pickup --></div>
+<!-- __________ Pick Up END __________ -->
+
+
+<div class="clear">
+
+<div id="services">
+<h2 class="hdg"><img src="images/index_services_hdg.png" alt="事業案内" width="473" height="43" /></h2>
+<div class="body">
+<ul class="service roll">
+<li><a href="service/service/"><img src="images/index_services_menu_02.png" alt="ソリューションデザイン事業" width="241" height="48" /></a></li>
+<li><a href="service/frameworkdesign/index.html"><img src="images/index_services_menu_03.png" alt="フレームワークデザイン事業" width="241" height="48" /></a></li>
+<li><a href="service/it_service/"><img src="images/index_services_menu_04.png" alt="ITサービス事業" width="241" height="48" /></a></li>
+<li><a href="service/s_sales/"><img src="images/index_services_menu_05.png" alt="ソリューション事業" width="241" height="48" /></a></li>
+<li><a href="service/cloud/"><img src="images/index_services_menu_06.png" alt="クラウド事業" width="241" height="48" /></a></li>
+</ul>
+<p class="totalsolution"><img src="images/index_services_text.png" alt="各事業の連携により、トータル・ソリューション・サービスを提供します" width="171" height="61" /><a href="service/totalsolution/" class="roll"><img src="images/index_services_menu_07.png" alt="トータル・ソリューション・サービス" width="162" height="76" /></a></p>
+<div class="keyword">
+<h3 class="hdg"><img src="images/index_services_keyword_hdg.png" alt="キーワードで選ぶ" width="132" height="18" /></h3>
+<ul>
+<li><a href="http://search.systena.co.jp/search/client.cgi?nc=1&amp;cw=1&amp;num=10&amp;by=D0&amp;syn=1&amp;uid=640871c088f68f31904769e9bac3b43c&amp;tp=tp&amp;key=%a5%b9%a5%de%a1%bc%a5%c8%a5%d5%a5%a9%a5%f3">スマートフォン</a></li>
+<li><a href="http://search.systena.co.jp/search/client.cgi?nc=1&amp;cw=1&amp;num=10&amp;by=D0&amp;syn=1&amp;uid=640871c088f68f31904769e9bac3b43c&amp;tp=tp&amp;key=%a5%bf%a5%d6%a5%ec%a5%c3%a5%c8">タブレット</a></li>
+<li><a href="http://search.systena.co.jp/search/client.cgi?nc=1&amp;cw=1&amp;num=10&amp;by=D0&amp;syn=1&amp;uid=640871c088f68f31904769e9bac3b43c&amp;tp=tp&amp;key=%b6%e2%cd%bb">金融</a></li>
+<li><a href="http://search.systena.co.jp/search/client.cgi?nc=1&amp;cw=1&amp;num=10&amp;by=D0&amp;syn=1&amp;uid=640871c088f68f31904769e9bac3b43c&amp;tp=tp&amp;key=Web%a5%b5%a5%a4%a5%c8">Webサイト</a></li>
+<li><a href="http://search.systena.co.jp/search/client.cgi?nc=1&amp;cw=1&amp;num=10&amp;by=D0&amp;syn=1&amp;uid=640871c088f68f31904769e9bac3b43c&amp;tp=tp&amp;key=%a5%aa%a5%d5%a5%b7%a5%e7%a5%a2">オフショア</a></li>
+<li><a href="http://search.systena.co.jp/search/client.cgi?nc=1&amp;cw=1&amp;num=10&amp;by=D0&amp;syn=1&amp;uid=640871c088f68f31904769e9bac3b43c&amp;tp=tp&amp;key=%a5%b7%a5%b9%a5%c6%a5%e0%b1%bf%cd%d1">システム運用</a></li>
+<li><a href="http://search.systena.co.jp/search/client.cgi?nc=1&amp;cw=1&amp;num=10&amp;by=D0&amp;syn=1&amp;uid=640871c088f68f31904769e9bac3b43c&amp;tp=tp&amp;key=%a5%d8%a5%eb%a5%d7%a5%c7%a5%b9%a5%af">ヘルプデスク</a></li>
+<li><a href="http://search.systena.co.jp/search/client.cgi?nc=1&amp;cw=1&amp;num=10&amp;by=D0&amp;syn=1&amp;uid=640871c088f68f31904769e9bac3b43c&amp;tp=tp&amp;key=%a5%cf%a1%bc%a5%c9">ハード</a></li>
+<li><a href="http://search.systena.co.jp/search/client.cgi?nc=1&amp;cw=1&amp;num=10&amp;by=D0&amp;syn=1&amp;uid=640871c088f68f31904769e9bac3b43c&amp;tp=tp&amp;key=%a5%bd%a5%d5%a5%c8">ソフト</a></li>
+<li><a href="http://search.systena.co.jp/search/client.cgi?nc=1&amp;cw=1&amp;num=10&amp;by=D0&amp;syn=1&amp;uid=640871c088f68f31904769e9bac3b43c&amp;tp=tp&amp;key=%b2%be%c1%db%b2%bd">仮想化</a></li>
+<li><a href="http://search.systena.co.jp/search/client.cgi?nc=1&amp;cw=1&amp;num=10&amp;by=D0&amp;syn=1&amp;uid=640871c088f68f31904769e9bac3b43c&amp;tp=tp&amp;key=%a5%af%a5%e9%a5%a6%a5%c9">クラウド</a></li>
+</ul>
+<!-- /.keyword --></div>
+<!-- /.body --></div>
+<ul class="banner roll">
+<li><a href="http://www.systena.co.jp/ir/investor/index.html"><img src="images/index_banner_01.png" alt="投資家の皆様へ" width="229" height="63" /></a></li>
+<li><a href="http://recruit.systena.co.jp/" target="_blank"><img src="images/index_banner_02.png" alt="2018年　新卒採用情報（新しいウィンドウで開きます）" width="229" height="63" /></a></li>
+<li><a href="http://minnade-ganbaro.jp/" target="_blank"><img src="images/index_banner_03.png" alt="みんなでがんばろう日本　東日本大震災により被災された皆様に心からお見舞い申し上げます。皆様の生活の一日にも早い復興をお祈り申し上げます。（新しいウィンドウで開きます）" width="229" height="63" /></a></li>
+<li><a href="https://www.facebook.com/systena.servicesolution/" target="_blank"><img src="images/index_banner_04.png" alt="システナ公式facebookページ（新しいウィンドウで開きます）" width="229" height="63" /></a></li>
+</ul>
+<!-- /#services --></div>
+
+<div id="topnews">
+<h2 class="hdg"><img src="images/index_news_hdg.png" alt="ニュース" width="473" height="43" /></h2>
+<p class="rss roll"><a href="news.xml"><img src="images/index_news_rss.png" alt="index_news_rss" width="79" height="31" /></a></p>
+<noscript>JavaScriptが無効の場合は、有効にして閲覧してください。</noscript>
+<div class="topNewsTabContainer">
+<ul class="tabList roll menu3">
+<li><a href="#tab01"><span>全て</span></a></li>
+<li><a href="#tab02"><span>IR</span></a></li>
+<li><a href="#tab03"><span>トピックス</span></a></li>
+</ul>
+<ul class="topNewsTabs static">
+<li id="tab01">
+<div class="event">
+<div class="inner">
+<!-- /.inner --></div>
+<!-- /.event --></div>
+<p class="btn roll"><a href="ir/news/"><img src="images/index_news_btn_ir.png" alt="過去のIRニュースを見る" width="275" height="27" /></a></p>
+<!-- /#tab01 --></li>
+<li id="tab02">
+<div class="event">
+<div class="inner">
+<!-- /.inner --></div>
+<!-- /.event --></div>
+<p class="btn roll"><a href="ir/news/"><img src="images/index_news_btn_ir.png" alt="過去のIRニュースを見る" width="275" height="27" /></a></p>
+<!-- /#tab02 --></li>
+<li id="tab03">
+<div class="event">
+<div class="inner">
+<!-- /.inner --></div>
+<!-- /.event --></div>
+<!-- /#tab03 --></li>
+</ul>
+</div>
+<!-- /#topnews --></div>
+
+<!-- /.clear --></div>
+
+
+<!-- InstanceEndEditable -->
+
+<!-- /.inner --></div>
+<!-- /#content --></div>
+<!-- ================== Content END ================== -->
+
+
+<!-- ================== Footer START ================== -->
+<footer role="contentinfo">
+<hr />
+<p id="contentEnd" class="roll"><a href="#page"><img src="common/images/footer/content-end.png" alt="ページのトップへ戻る" /></a></p>
+<nav role="navigation">
+<ul>
+<li><a href="service/">サービス/ソリューション</a>
+    <ul>
+    <li><a href="service/service/">ソリューションデザイン事業</a></li>
+    <li><a href="service/frameworkdesign/index.html">フレームワークデザイン事業</a></li>
+    <li><a href="service/it_service/">ITサービス事業</a></li>
+    <li><a href="service/s_sales/">ソリューション営業</a></li>
+    <li><a href="service/cloud/">クラウド事業</a></li>
+    <li><a href="service/totalsolution/">トータル・ソリューション・サービス</a></li>
+    </ul></li>
+<li><a href="ir/">IR情報</a>
+    <ul>
+    <li><a href="ir/management_policy/business_plan.html">経営方針</a></li>
+    <li><a href="ir/investor/">個人投資家の皆様へ</a></li>
+    <li><a href="ir/news/">IRニュース</a></li>
+    <li><a href="ir/library/finance.html">IR資料室</a></li>
+    <li><a href="ir/highlight/sales.html">業績ハイライト</a></li>
+    <li><a href="ir/stock_info/stocks.html">株式関連情報</a></li>
+    <li><a href="ir/calendar/">IRカレンダー</a></li>
+    <li><a href="ir/faq_ir/">IRに関するよくあるご質問</a></li>
+    <li><a href="http://kmasterplus.pronexus.co.jp/main/corp/2/3/2317/" target="_blank">電子公告 <img src="common/images/common/icon_blank_01.png" alt="新しいウィンドウで開きます" height="12" width="13" /></a></li>
+    </ul></li>
+<li><a href="recruit/">採用情報</a>
+    <ul>
+    <li><a href="http://recruit.systena.co.jp" target="_blank">新卒採用サイト<img src="common/images/common/icon_blank_01.png" alt="新しいウィンドウで開きます" height="12" width="13" /></a></li>
+    <li><a href="recruit/career/">中途採用情報</a></li>
+    <li><a href="recruit/about_company/careerpath.html">システナとは</a></li>
+    <li><a href="recruit/privacy.html">採用に関する個人情報の取り扱いについて</a></li>
+    </ul></li>
+<li><a href="about/">会社案内</a>
+    <ul>
+    <li><a href="about/message.html">会長・社長メッセージ</a></li>
+    <li><a href="about/target.html">経営目標と経営の基本方針</a></li>
+    <li><a href="about/idea.html">経営理念・行動基準</a></li>
+    <li><a href="about/outline.html">会社概要</a></li>
+    <li><a href="about/organization.html">組織図</a></li>
+    <li><a href="about/history.html">沿革</a></li>
+    <li><a href="about/access/">アクセスマップ</a></li>
+    <li><a href="about/group.html">グループ会社</a></li>
+    <li><a href="about/gallery.html">テレビCM・動画ギャラリー</a></li>
+    </ul></li>
+<li><a href="compliance/">コンプライアンス</a>
+    <ul>
+    <li><a href="compliance/about.html">CSRについて</a></li>
+    <li><a href="compliance/standard.html">行動規範</a></li>
+    <li><a href="compliance/internal_control.html">内部統制システム構築の基本方針</a></li>
+    <li><a href="compliance/privacymark.html">プライバシーマーク</a></li>
+    <li><a href="compliance/iso9001.html">ISO</a></li>
+    </ul></li>
+</ul>
+</nav>
+<div class="utility">
+<ul class="banner">
+<li><a href="http://stocks.finance.yahoo.co.jp/stocks/detail/?code=2317.T" target="_blank"><img src="common/images/footer/logo_qy.png" alt="YAHOO！JAPAN ファイナンス" /></a></li>
+<li><a href="http://www.jpx.co.jp/" target="_blank"><img src="common/images/footer/logo_jpx.png" alt="日本取引所グループ" /></a></li>
+<li><a href="https://privacymark.jp/" target="_blank"><img src="common/images/footer/logo_privacymark.png" alt="プライバシーマーク制度" /></a></li>
+</ul>
+<ul class="navUtility">
+<li class="first-child"><a href="guideline.html">サイトのご利用にあたって</a></li>
+<li><a href="compliance/privacy.html">個人情報保護方針</a></li>
+<li><a href="compliance/security.html">情報セキュリティ基本方針</a></li>
+<li><a href="partner.html">ビジネスパートナー企業募集</a></li>
+<li><a href="rss.html">RSSについて</a></li>
+</ul>
+<p id="copyright"><small><img src="common/images/footer/copyright.png" alt="Copyright &copy; Systena Corporation All Rights Reserved." /></small></p>
+<!-- /.utility --></div>
+</footer>
+<!-- ================== Footer END ================== -->
+
+<!-- /#page --></div>
+
+<script src="common/js/libs/mjl.js"></script>
+<script src="common/js/libs/jquery.js"></script>
+<!-- InstanceBeginEditable name="ieJS" -->
+<!--[if lt IE 9]><script src="common/js/libs/selectivizr-min.js"></script><![endif]-->
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="addJS" -->
+<script src="common/js/easing.js"></script>
+<script src="common/js/carousel.js"></script>
+<script src="common/js/animate.js"></script>
+<script src="common/js/bxslider.js"></script>
+<script src="common/js/top.js"></script>
+<script>
+$(function() {
+    if(navigator.userAgent.indexOf("MSIE") != -1) {
+        $("#mainVisual").find('img').each(function() {
+            if($(this).attr('src').indexOf('.png') != -1) {
+                $(this).css({
+                    'filter': 'progid:DXImageTransform.Microsoft.AlphaImageLoader(src="' +
+                    $(this).attr('src') +
+                    '", sizingMethod="scale");'
+                });
+            }
+        });
+    }
+});
+</script>
+<div class="hideElements"><img src="images/mv/index_mainvisual_01.jpg" alt=""><img src="images/mv/index_mainvisual_02.jpg" alt=""><img src="images/mv/index_mainvisual_03.jpg" alt=""><img src="images/mv/index_mainvisual_04.jpg" alt=""><img src="images/mv/index_mainvisual_05.jpg" alt=""><img src="images/mv/index_mainvisual_06.jpg" alt=""><img src="images/mv/index_mainvisual_07.jpg" alt=""><img src="images/mv/index_mainvisual_btn_left_on.png" alt=""><img src="images/mv/index_mainvisual_btn_right_on.png" alt=""><img src="images/mv/index_mainvisual_dock_1_on.png" alt=""><img src="images/mv/index_mainvisual_dock_2_on.png" alt=""><img src="images/mv/index_mainvisual_dock_3_on.png" alt=""><img src="images/mv/index_mainvisual_dock_4_on.png" alt=""><img src="images/mv/index_mainvisual_dock_5_on.png" alt=""><img src="images/mv/index_mainvisual_dock_6_on.png" alt=""><img src="images/mv/index_mainvisual_dock_7_on.png" alt=""></div>
+<!-- InstanceEndEditable -->
+<script src="common/js/run.js"></script>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js'type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-6473832-4");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+</body>
+<!-- InstanceEnd --></html>

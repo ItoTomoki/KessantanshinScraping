@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head> 
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" >
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1,user-scalable=no">
+
+	<title>株式会社ゲオホールディングス</title>
+<!--CSS-->
+<link rel="stylesheet" id="camera-css"  href="http://www.geonet.co.jp/geo_wp/wp-content/themes/geohd/css/camera.css" type="text/css" media="all"> 
+<link type="text/css" rel="stylesheet" href="http://www.geonet.co.jp/geo_wp/wp-content/themes/geohd/css/common.css?20170609" media="all" >
+
+<!-- WordPressのjQueryを読み込ませない -->
+<!--JS-->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<!-- include jQuery + carouFredSel plugin -->
+<script type="text/javascript" src="http://www.geonet.co.jp/geo_wp/wp-content/themes/geohd/js/jquery.carouFredSel-6.2.1-packed.js"></script>
+<!-- optionally include helper plugins -->
+<script type="text/javascript" src="http://www.geonet.co.jp/geo_wp/wp-content/themes/geohd/js/helper-plugins/jquery.mousewheel.min.js"></script>
+<script type="text/javascript" src="http://www.geonet.co.jp/geo_wp/wp-content/themes/geohd/js/helper-plugins/jquery.touchSwipe.min.js"></script>
+<script type="text/javascript" src="http://www.geonet.co.jp/geo_wp/wp-content/themes/geohd/js/helper-plugins/jquery.transit.min.js"></script>
+<script type="text/javascript" src="http://www.geonet.co.jp/geo_wp/wp-content/themes/geohd/js/helper-plugins/jquery.ba-throttle-debounce.min.js"></script>
+
+<script type="text/javascript" src="http://www.geonet.co.jp/geo_wp/wp-content/themes/geohd/js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="http://www.geonet.co.jp/geo_wp/wp-content/themes/geohd/js/camera.min.js"></script>
+<script type="text/javascript" src="http://www.geonet.co.jp/geo_wp/wp-content/themes/geohd/js/top.js" ></script> 
+
+<script type="text/javascript" src="http://www.geonet.co.jp/geo_wp/wp-content/themes/geohd/js/common.js"></script>
+<script type="text/javascript" src="http://www.geonet.co.jp/geo_wp/wp-content/themes/geohd/js/heightLine.js"></script>
+<script type="text/javascript" src="http://www.geonet.co.jp/geo_wp/wp-content/themes/geohd/js/ga.js"></script>
+
+<!--[if lt IE 9]>
+<link rel="stylesheet" href="http://www.geonet.co.jp/geo_wp/wp-content/themes/geohd/css/common_ltie9.css" media="all" >
+<script type="text/javascript" src="http://www.geonet.co.jp/geo_wp/wp-content/themes/geohd/js/html5shiv-printshiv.js"></script>
+<![endif]-->
+<meta name="keywords" content="株式会社ゲオホールディングス,ゲオ,GEO,メディア,レンタル,リユース,アミューズメント" />
+<meta name="description" content="株式会社ゲオホールディングスのWebサイトです。ゲオホールディングスは、豊かで楽しい日常の暮らしをご提供することを我々ゲオグループの使命とし、さらなる企業価値の向上を目指しています。
+" />
+<link rel='dns-prefetch' href='//s.w.org' />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/www.geonet.co.jp\/geo_wp\/wp-includes\/js\/wp-emoji-release.min.js"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='https://api.w.org/' href='http://www.geonet.co.jp/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.geonet.co.jp/geo_wp/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.geonet.co.jp/geo_wp/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.7.3" />
+<link rel="canonical" href="http://www.geonet.co.jp/" />
+<link rel='shortlink' href='http://www.geonet.co.jp/' />
+<link rel="alternate" type="application/json+oembed" href="http://www.geonet.co.jp/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geonet.co.jp%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://www.geonet.co.jp/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.geonet.co.jp%2F&#038;format=xml" />
+		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+		
+<!-- BEGIN GADWP v5.0.1 Universal Analytics - https://deconf.com/google-analytics-dashboard-wordpress/ -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-12726618-1', 'auto');
+  ga('send', 'pageview');
+</script>
+<!-- END GADWP Universal Analytics -->
+</head>
+
+<body >
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-P83TWS"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-P83TWS');</script>
+<!-- End Google Tag Manager -->
+	<header>
+		<div class="container">
+			<h1><a href="http://www.geonet.co.jp/"><img src="http://www.geonet.co.jp/images/common/vi.gif" width="104" height="40" alt="株式会社ゲオホールディングス"></a></h1>
+			<nav class="sp">menu<!--icon-sp--></nav>
+		</div>
+		<nav class="pc">
+			<ul class="direct clearfix container">
+				<li class="search">
+					<fieldset>
+						<form action="http://www.geonet.co.jp//search" id="cse-search-box">
+							<input type="hidden" name="cx" value="000109447872919448800:lvpyoxi0blg">
+							<input type="hidden" name="ie" value="UTF-8">
+							<input type="hidden" name="hl" value="ja">
+							<input type="text" placeholder="" name="q">
+							<input type="submit" name="sa" value="検索" class="submit-btn">   
+						</form>
+						<script type="text/javascript" src="//www.google.com/cse/brand?form=cse-search-box&lang=ja"></script>
+					</fieldset>
+				</li>
+				<li><a href="http://www.geonet.co.jp/english/">English</a></li>
+				<li><a href="http://www.geonet.co.jp/contact/">お問い合わせ</a></li>
+			</ul>
+			<ul class="global clearfix container">
+				<li><span>企業情報</span>
+					<div class="drop-menu clearfix">
+						<span class="close"><!--close--></span>
+						<ul class="clearfix">
+							<li><a href="http://www.geonet.co.jp/company/">企業情報トップ</a></li>
+							<li><a href="http://www.geonet.co.jp/company/message/"><img src="http://www.geonet.co.jp/images/thumb/company01.jpg" alt="社長メッセージ" width="132" height="96">社長メッセージ</a></li>
+							<li><a href="http://www.geonet.co.jp/company/profile/"><img src="http://www.geonet.co.jp/images/thumb/company02.jpg" alt="会社概要" width="132" height="96">会社概要</a></li>
+							<li><a href="http://www.geonet.co.jp/company/directors/"><img src="http://www.geonet.co.jp/images/thumb/company07.jpg" alt="役員紹介" width="132" height="96">役員紹介</a></li>
+							<li><a href="http://www.geonet.co.jp/company/timeline/"><img src="http://www.geonet.co.jp/images/thumb/company03.jpg" alt="沿革" width="132" height="96">沿革</a></li>
+							<li><a href="http://www.geonet.co.jp/company/structure/"><img src="http://www.geonet.co.jp/images/thumb/company04.jpg" alt="組織図" width="132" height="96">組織図</a></li>
+							<li><a href="http://www.geonet.co.jp/company/access/"><img src="http://www.geonet.co.jp/images/thumb/company05.jpg" alt="アクセス" width="132" height="96">アクセス</a></li>
+							<li><a href="http://www.geonet.co.jp/company/recruitment/"><img src="http://www.geonet.co.jp/images/thumb/company06.jpg" alt="店舗物件情報募集" width="132" height="96">店舗物件情報募集</a></li>
+							<li><a href="http://www.geonet.co.jp/company/newsletter/"><img src="http://www.geonet.co.jp/images/thumb/company08.jpg" alt="GEO GROUP NEWS" width="132" height="96">ニュースレター</a></li>
+						</ul>
+					</div>
+				</li>
+				<li><span>IR情報</span>
+					<div class="drop-menu clearfix">
+						<span class="close"><!--close--></span>
+						<ul class="clearfix">
+							<li><a href="http://www.geonet.co.jp/ir/">IR情報トップ</a></li>
+							<li><a href="http://www.geonet.co.jp/ir/individual/"><img src="http://www.geonet.co.jp/images/thumb/ir01.jpg" alt="株主・投資家の方へ" width="132" height="96">株主・投資家の方へ</a></li>
+							<li><a href="http://www.geonet.co.jp/ir/organ/"><img src="http://www.geonet.co.jp/images/thumb/ir02.jpg" alt="機関投資家の方へ" width="132" height="96">機関投資家の方へ</a></li>
+							<li><a href="http://www.geonet.co.jp/ir/management/"><img src="http://www.geonet.co.jp/images/thumb/ir03.jpg" alt="経営方針" width="132" height="96">経営方針</a></li>
+							<li><a href="http://www.geonet.co.jp/ir/financial/"><img src="http://www.geonet.co.jp/images/thumb/ir04.jpg" alt="財務情報" width="132" height="96">財務情報</a></li>
+							<li><a href="http://www.geonet.co.jp/ir/stock/"><img src="http://www.geonet.co.jp/images/thumb/ir05.jpg" alt="株式情報" width="132" height="96">株式情報</a></li>
+							<li><a href="http://www.geonet.co.jp/ir/library/"><img src="http://www.geonet.co.jp/images/thumb/ir06.jpg" alt="IRライブラリ" width="132" height="96">IRライブラリ</a></li>
+						</ul>
+					</div>
+				</li>
+				<li><span>グループ事業紹介</span>
+					<div class="drop-menu clearfix">
+						<span class="close"><!--close--></span>
+						<ul class="clearfix">
+							<li><a href="http://www.geonet.co.jp/business/">グループ事業紹介トップ</a></li>
+							<li><a href="http://www.geonet.co.jp/business/about/"><img src="http://www.geonet.co.jp/images/thumb/business01.jpg" alt="ゲオグループについて" width="132" height="96">ゲオグループについて</a></li>
+							<li><a href="http://www.geonet.co.jp/business/media/"><img src="http://www.geonet.co.jp/images/thumb/business03.jpg" alt="メディア" width="132" height="96">メディア</a></li>
+							<li><a href="http://www.geonet.co.jp/business/reuse/"><img src="http://www.geonet.co.jp/images/thumb/business04.jpg" alt="リユース" width="132" height="96">リユース</a></li>
+							<li><a href="http://www.geonet.co.jp/business/mobile/"><img src="http://www.geonet.co.jp/images/thumb/business08.jpg" alt="モバイル" width="132" height="96">モバイル</a></li>
+							<li><a href="http://www.geonet.co.jp/business/online/"><img src="http://www.geonet.co.jp/images/thumb/business05.jpg" alt="オンラインサービス" width="132" height="96">オンラインサービス</a></li>
+							<li><a href="http://www.geonet.co.jp/business/amusement/"><img src="http://www.geonet.co.jp/images/thumb/business06.jpg" alt="アミューズメント" width="132" height="96">アミューズメント</a></li>
+							<li><a href="http://www.geonet.co.jp/business/companies/"><img src="http://www.geonet.co.jp/images/thumb/business07.jpg" alt="グループ一覧" width="132" height="96">グループ一覧</a></li>
+						</ul>
+					</div>
+				</li>
+				<li><a href="http://www.geonet.co.jp/csr/">CSR</a></li>
+				<li><a href="http://www.geonet.co.jp/news/">ニュースリリース</a></li>
+				<li><a href="http://www.geonet.co.jp/recruit/">採用情報</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div id="cover">
+		<div id="camera" class="camera_wrap">
+			<div data-src="http://www.geonet.co.jp/images/slides/slide00.jpg" ></div>
+			<div data-src="http://www.geonet.co.jp/images/slides/slide01.jpg" data-link="http://www.geonet.co.jp/business/media/"></div>
+			<div data-src="http://www.geonet.co.jp/images/slides/slide02.jpg" data-link="http://www.geonet.co.jp/business/reuse/"></div>
+			<div data-src="http://www.geonet.co.jp/images/slides/slide03.jpg" data-link="http://www.geonet.co.jp/business/mobile/"></div>
+			<div data-src="http://www.geonet.co.jp/images/slides/slide04.jpg" data-link="http://www.geonet.co.jp/business/amusement/"></div>
+			<div data-src="http://www.geonet.co.jp/images/slides/slide05_2017.jpg" data-link="http://www.geonet.co.jp/business/online/"></div>
+			<div data-src="http://www.geonet.co.jp/images/slides/slide06_20170809.jpg" data-link="http://www.geonet.co.jp/recruit/"></div>
+		</div>
+	</div><!--/cover-->
+
+	<div id="carousel">
+		<div class="list_carousel clearfix container responsive ">
+			<ul class="thumb clear fix">
+				<li><a href="http://www.geonet.co.jp/company/profile/"><img src="http://www.geonet.co.jp/images/thumb/company02.jpg" alt="会社概要" width="220" height="160"><span class="hl-1">会社概要</span></a></li>
+				<li><a href="http://www.geonet.co.jp/company/recruitment/"><img src="http://www.geonet.co.jp/images/thumb/company06.jpg" alt="店舗物件情報募集" width="220" height="160"><span class="hl-1">店舗物件情報募集</span></a></li>
+				<li><a href="http://www.geonet.co.jp/ir/library/"><img src="http://www.geonet.co.jp/images/thumb/ir06.jpg" alt="IRライブラリ" width="220" height="160"><span class="hl-1">IRライブラリ</span></a></li>
+				<li><a href="http://www.geonet.co.jp/company/newsletter/"><img src="http://www.geonet.co.jp/images/thumb/company08.jpg" alt="ニュースレター" width="220" height="160"><span class="hl-1">ニュースレター</span></a></li>
+				<li><a href="http://www.geonet.co.jp/ir/financial/"><img src="http://www.geonet.co.jp/images/thumb/ir04.jpg" alt="財務情報" width="220" height="160"><span class="hl-1">財務情報</span></a></li>
+				<li><a href="http://www.geonet.co.jp/business/about/"><img src="http://www.geonet.co.jp/images/thumb/business01.jpg" alt="ゲオグループについて" width="220" height="160"><span class="hl-1">ゲオグループについて</span></a></li>
+				<li><a href="http://www.geonet.co.jp/ir/stock/dividend/"><img src="http://www.geonet.co.jp/images/thumb/ir08.jpg" alt="配当情報" width="220" height="160"><span class="hl-1">配当情報</span></a></li>
+	
+			</ul>
+			<ul class="list_btn clearfix">
+				<li id="prev"><!--前へボタン--></li>						
+				<li id="next"><!--次へボタン--></li>
+			</ul>
+		</div>
+	</div><!--/carousel-->
+
+	<div id="news-list">
+		<div class="container">
+			<h2>ニュースリリース</h2>
+			<nav class="rss"><a href="http://www.geonet.co.jp/feed/">RSS</a></nav>
+			<ul class="tab">
+				<li class="select"><span class="hl-1">全て</span></li>
+				<li><span class="hl-1">PR情報</li>
+				<li><span class="hl-1">IR情報</span></li>
+				<li><span class="hl-1">決算・業績</span></li>
+			</ul>
+			<div class="tab-body">
+				<dl>
+					<dt class="news2017 pr-cat news  ">2017.08.10</dt><dd><a href="http://www.geonet.co.jp/news/3327/">夏のドキドキはゲオにある！<br>「ゲオのお盆セール」実施のお知らせ<br>映画「打ち上げ花火、下から見るか？横から見るか？」とタイアップした告知CMをオンエア</a></dd>
+					<dt class="news2017 pr-cat news  ">2017.08.09</dt><dd><a href="http://www.geonet.co.jp/news/3317/">ゲオショップ2017年7月21日〜31日売上実績速報<br>前年同期比、売上高200％超、利用客数は112.7％<br>「スプラトゥーン2」発売以降、<br>「ドラゴンクエストXI 過ぎ去りし時を求めて」、「君の名は。」が好調</a></dd>
+					<dt class="news2016 news ir-news settlement-cat  ">2017.08.08</dt><dd><a href="http://www.geonet.co.jp/news/3278/">平成30年3月期　第１四半期決算短信</a></dd>
+					<dt class="news2016 news ir-news settlement-cat  ">2017.08.08</dt><dd><a href="http://www.geonet.co.jp/news/3280/">平成30年3月期　第１四半期決算説明資料</a></dd>
+					<dt class="news2017 ir-cat news monthly ir-news  ">2017.08.07</dt><dd><a href="http://www.geonet.co.jp/news/3272/">2017年7月度　ゲオグループショップ月次データ</a></dd>
+				</dl>
+				<dl class="hide">
+					<dt class="pr-cat">2017.08.10</dt><dd><a href="http://www.geonet.co.jp/news/3327/">夏のドキドキはゲオにある！<br>「ゲオのお盆セール」実施のお知らせ<br>映画「打ち上げ花火、下から見るか？横から見るか？」とタイアップした告知CMをオンエア</a></dd>
+					<dt class="pr-cat">2017.08.09</dt><dd><a href="http://www.geonet.co.jp/news/3317/">ゲオショップ2017年7月21日〜31日売上実績速報<br>前年同期比、売上高200％超、利用客数は112.7％<br>「スプラトゥーン2」発売以降、<br>「ドラゴンクエストXI 過ぎ去りし時を求めて」、「君の名は。」が好調</a></dd>
+					<dt class="pr-cat">2017.08.04</dt><dd><a href="http://www.geonet.co.jp/news/3195/">10月4日（水）、劇場版 『名探偵コナン から紅の恋歌』DVD・Blu-ray発売<br>ゲオでしか手に入らない限定グッズ<br>「オリジナルスチールブック」ビジュアル解禁！<br>ゲオオリジナル特典「ミニデザイン色紙」付きDVD・Blu-rayも予約受付中</a></dd>
+					<dt class="pr-cat">2017.08.02</dt><dd><a href="http://www.geonet.co.jp/news/3064/">ゲオのiPhone格安修理価格改定＆夏休みキャンペーン<br>修理受付件数、事前ネット予約数ともに大幅伸長<br>修理は前週比1.9倍、事前ネット予約は6.7倍の伸び<br>修理内容はフロントパネル修理が52.2％、機種別ではiPhone6がトップ</a></dd>
+					<dt class="pr-cat">2017.07.27</dt><dd><a href="http://www.geonet.co.jp/news/2705/">ゲオホールディングスが<br>愛知県より「あいち女性輝きカンパニー」の認証を取得</a></dd>
+				</dl>
+				<dl class="hide">
+					<dt class="ir-cat">2017.08.07</dt><dd><a href="http://www.geonet.co.jp/news/3272/">2017年7月度　ゲオグループショップ月次データ</a></dd>
+					<dt class="ir-cat">2017.07.07</dt><dd><a href="http://www.geonet.co.jp/news/2426/">2017年6月度　ゲオグループショップ月次データ</a></dd>
+					<dt class="ir-cat">2017.06.23</dt><dd><a href="http://www.geonet.co.jp/news/2363/">自己株式の取得状況および取得終了に関するお知らせ</a></dd>
+					<dt class="ir-cat">2017.06.19</dt><dd><a href="http://www.geonet.co.jp/news/2354/">当社元役員に対する訴訟の上告棄却決定に関するお知らせ</a></dd>
+					<dt class="ir-cat">2017.06.09</dt><dd><a href="http://www.geonet.co.jp/news/2338/">第29期定時株主総会招集ご通知の早期開示及び「スマート招集」サービス開始のお知らせ</a></dd>
+				</dl>
+				<dl class="hide">
+					<dt class="settlement-cat">2017.08.08</dt><dd><a href="http://www.geonet.co.jp/news/3278/">平成30年3月期　第１四半期決算短信</a></dd>
+					<dt class="settlement-cat">2017.08.08</dt><dd><a href="http://www.geonet.co.jp/news/3280/">平成30年3月期　第１四半期決算説明資料</a></dd>
+					<dt class="settlement-cat">2017.05.29</dt><dd><a href="http://www.geonet.co.jp/news/2294/">（訂正・数値データ訂正）「平成29年３月期　決算短信〔日本基準〕（連結）」の一部訂正について</a></dd>
+					<dt class="settlement-cat">2017.05.12</dt><dd><a href="http://www.geonet.co.jp/news/2236/">平成29年3月期　決算短信</a></dd>
+					<dt class="settlement-cat">2017.05.12</dt><dd><a href="http://www.geonet.co.jp/news/2238/">平成29年3月期　決算説明会資料</a></dd>
+				</dl>
+			</div><!--/list_tab-->
+			<nav><a href="http://www.geonet.co.jp/news/">ニュースリリース一覧へ</a></nav>
+		</div>
+	</div><!--/news-list-->
+
+	<div id="group-bnr">
+		<div class="container">
+			<h2>ゲオグループ</h2>
+			<ul class="clearfix">
+				<li><a href="http://www.geonet.co.jp/business/companies/geo/"><span><img src="./images/bnr/bnr01.gif" alt="株式会社ゲオ"  width="220" height="160"></span></a></li>
+				<li><a href="http://www.geonet.co.jp/business/companies/ef/" target="_blank"><span><img src="./images/bnr/bnr03.gif" alt="株式会社イーネット・フロンティア"  width="220" height="160"></span></a></li>
+				<li><a href="http://www.eisys.co.jp" target="_blank"><span><img src="./images/bnr/bnr04.gif" alt="株式会社エイシス"  width="220" height="160"></span></a></li>
+				<li><a href="http://www.gramolux.co.jp/" target="_blank"><span><img src="./images/bnr/bnr05.gif" alt="株式会社グラモラックス"  width="220" height="160"></span></a></li>
+				<li><a href="http://geo-interactive.co.jp" target="_blank"><span><img src="./images/bnr/bnr11.gif" alt="株式会社ゲオインタラクティブ"  width="220" height="160"></span></a></li>
+				<li><a href="http://www.geonet.co.jp/business/companies/gc/" target="_blank"><span><img src="./images/bnr/bnr12.gif" alt="株式会社ゲオコンサルティング"  width="220" height="160"></span></a></li>
+				<li><a href="http://www.geonet.co.jp/business/companies/gps/" target="_blank"><span><img src="./images/bnr/bnr07.gif" alt="株式会社ゲオペイメントサービス"  width="220" height="160"></span></a></li>
+				<li><a href="http://geo-networks.co.jp" target="_blank"><span><img src="./images/bnr/bnr06.gif" alt="株式会社ゲオネットワークス"  width="220" height="160"></span></a></li>
+<!--
+				<li><a href="http://www.geonet.co.jp/business/companies/fb/"><span><img src="./images/bnr/bnr08.gif" alt="株式会社ファミリーブック"  width="220" height="160"></span></a></li>
+-->
+				<li><a href="http://www.geonet.co.jp/business/companies/gbs/"><span><img src="./images/bnr/bnr09.gif" alt="株式会社ゲオビジネスサポート"  width="220" height="160"></span></a></li>
+				<li><a href="http://www.tandg.jp" target="_blank"><span><img src="./images/bnr/bnr10.gif" alt="株式会社ティー・アンド・ジー"  width="220" height="160"></span></a></li>
+			</ul>
+		</div>
+	</div><!--/group-bnr-->
+
+	<div id="totop"><!--このページのトップへ--></div>
+
+	<footer>
+		<ul class="sitemap clearfix container">
+			<li><a href="http://www.geonet.co.jp/company/">企業情報</a>
+				<ul class="hl-2 clearfix">
+					<li><a href="http://www.geonet.co.jp/company/message/">社長メッセージ</a></li>
+					<li><a href="http://www.geonet.co.jp/company/profile/">会社概要</a></li>
+					<li><a href="http://www.geonet.co.jp/company/directors/">役員紹介</a></li>
+					<li><a href="http://www.geonet.co.jp/company/timeline/">沿革</a></li>
+					<li><a href="http://www.geonet.co.jp/company/structure/">組織図</a></li>
+					<li><a href="http://www.geonet.co.jp/company/access/">アクセス</a></li>
+					<li><a href="http://www.geonet.co.jp/company/recruitment/">店舗物件情報募集</a></li>
+				</ul>
+			</li>
+			<li><a href="http://www.geonet.co.jp/ir/">IR情報</a>
+				<ul class="hl-2 clearfix">
+					<li><a href="http://www.geonet.co.jp/ir/individual/">株主・投資家の方へ</a></li>
+					<li><a href="http://www.geonet.co.jp/ir/organ/">機関投資家の方へ</a></li>
+					<li><a href="http://www.geonet.co.jp/ir/management/">経営方針</a></li>
+					<li><a href="http://www.geonet.co.jp/ir/financial/">財務情報</a></li>
+					<li><a href="http://www.geonet.co.jp/ir/stock/">株式情報</a></li>
+					<li><a href="http://www.geonet.co.jp/ir/library/">IRライブラリ</a></li>
+				</ul>
+			</li>
+			<li><a href="http://www.geonet.co.jp/business/">グループ事業紹介</a>
+				<ul class="hl-2 clearfix">
+					<li><a href="http://www.geonet.co.jp/business/about/">ゲオグループについて</a></li>
+					<li><a href="http://www.geonet.co.jp/business/media/">メディア</a></li>
+					<li><a href="http://www.geonet.co.jp/business/reuse/">リユース</a></li>
+					<li><a href="http://www.geonet.co.jp/business/mobile/">モバイル</a></li>
+					<li><a href="http://www.geonet.co.jp/business/online/">オンラインサービス</a></li>
+					<li><a href="http://www.geonet.co.jp/business/amusement/">アミューズメント</a></li>
+					<li><a href="http://www.geonet.co.jp/business/companies/">グループ一覧</a></li>
+				</ul>
+			</li>
+			<li><a href="http://www.geonet.co.jp/csr/">CSR</a></li>
+			<li><a href="http://www.geonet.co.jp/news/">ニュースリリース</a></li>
+			<li><a href="http://www.geonet.co.jp/recruit/">採用情報</a></li>
+			<li><a href="http://www.geonet.co.jp/contact/">お問い合わせ</a></li>
+			<li><a href="http://www.geonet.co.jp/">ホーム</a></li>
+		</ul>
+		<div class="search container">
+			<fieldset>
+				<form action="http://www.geonet.co.jp//search" id="cse-search-box2">
+					<input type="hidden" name="cx" value="000109447872919448800:lvpyoxi0blg">
+					<input type="hidden" name="ie" value="UTF-8">
+					<input type="hidden" name="hl" value="ja">
+					<input type="text" placeholder="" name="q">
+					<input type="submit" name="sa" value="Search" class="submit-btn">   
+				</form>
+				<script type="text/javascript" src="//www.google.com/cse/brand?form=cse-search-box2&lang=ja"></script>
+			</fieldset>
+		</div>
+		<ul class="direct clearfix container">
+			<li><a href="http://www.geonet.co.jp/sitemap/">サイトマップ</a></li>
+			<li><a href="http://www.geonet.co.jp/contact/privacy/">プライバシーポリシー</a></li>
+			<li><a href="http://www.geonet.co.jp/ir/library/irpolicy/">IRポリシー</a></li>
+			<li><a href="http://www.geonet.co.jp/attention/">サイトのご利用について</a></li>
+		</ul>
+		<p class="container">
+			<img src="http://www.geonet.co.jp/images/common/vi.gif" width="104" height="40" alt="株式会社ゲオホールディングス">
+			<small>COPYRIGHT © GEO HOLDINGS CORPORATION. ALL RIGHTS RESERVED.</small>
+		</p>
+	</footer>
+
+<script type='text/javascript' src='http://www.geonet.co.jp/geo_wp/wp-includes/js/wp-embed.min.js'></script>
+</body>
+</html>

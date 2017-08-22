@@ -1,0 +1,343 @@
+﻿<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<title>ウイン・パートナーズ株式会社</title>
+<meta name="keywords" content="低侵襲,医療機器販売,ウイン・インターナショナル,ウイン・パートナーズ,テスコ,QOL,クオリティ・オブ・ライフ">
+<meta name="description" content="医療機器販売を通じて、すべての人にベター・クオリティ・オブ・ライフを提供するウイン・パートナーズ株式会社のオフィシャルWEBサイトです。">
+<link rel="stylesheet" type="text/css" href="common/css/cmn_layout.css" media="all">
+<link rel="stylesheet" type="text/css" href="common/css/cmn_style.css" media="all">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<script type="text/javascript" src="common/js/jquery.js"></script>
+<script type="text/javascript" src="common/js/common.js"></script>
+<!--[if lt IE 9]><script src="common/js/html5_ie.js"></script><![endif]-->
+<script type="text/javascript" src="common/js/jquery.bxSlider.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$('.bxslider').bxSlider({
+		mode: 'fade',
+		auto: true,
+		pause: 6000,
+		speed: 1500,
+		controls: false
+	});
+});
+</script>
+<!-- Google Analytics -->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-46642728-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+<body id="top" class="lDef">
+<div id="wrapper">
+  <header id="header">
+    <div id="headerIn">
+      <div class="clearfix">
+        <h1 id="headerLogo"><a href="index.html"><img src="common/images/header/logo_header01.jpg" width="339" height="43" alt="WIN A BETTER QUALITY OF LIFE　ウイン・パートナーズ" class="opacityOver"></a></h1>
+        <div id="headerRight">
+          <div id="headerLinks" class="clearfix">
+            <ul>
+	            <li><a href="en/index_e.html"><img src="common/images/header/btn_header_english_no.gif" width="58" height="13" alt="ENGLISH" class="over"></a></li>
+              <li><a href="contact/index.html"><img src="common/images/header/btn_header_contact01_no.gif" width="76" height="13" alt="お問い合わせ" class="over"></a></li>
+              <li><a href="guide/index.html"><img src="common/images/header/btn_header_guide01_no.gif" width="98" height="13" alt="ご利用にあたって" class="over"></a></li>
+              <li><a href="koukoku/index.html"><img src="common/images/header/btn_header_notice01_no.gif" width="52" height="13" alt="電子公告" class="over"></a></li>
+              <li><a href="sitemap/index.html"><img src="common/images/header/btn_header_sitemap01_no.gif" width="68" height="13" alt="サイトマップ" class="over"></a></li>
+            </ul>
+            <!-- /headerLinks --></div>
+          <div class="clearfix">
+            <div id="headerSearch" class="clearfix">
+              <form action="http://www.google.com/search" class="search">
+                <input type="hidden" name="hl" value="ja">
+                <input type="hidden" name="ie" value="UTF-8">
+                <input type="hidden" name="oe" value="UTF-8">
+                <input type="hidden" value="win-partners.co.jp" name="as_sitesearch">
+                <input type="text" name="q" size="31" maxlength="256" value="Search..." title="Search..." class="keywords" id="headerInputTxt">
+                <input type="image" name="btnG" alt="検索" src="common/images/header/btn_header_search01_no.gif" class="search-btn flL">
+              </form>
+              <!-- /headerSearch --></div>
+            <div id="headerFontSize" class="clearfix">
+              <p class="flL"><img src="common/images/header/txt_header_size01.gif" width="60" height="22" alt="文字サイズ"></p>
+              <ul class="clearfix">
+                <li id="fontS"><a href="javascript:void(0);">小</a></li>
+                <li id="fontM"><a href="javascript:void(0);">中</a></li>
+                <li id="fontL"><a href="javascript:void(0);">大</a></li>
+              </ul>
+              <!-- /headerFontSize --></div>
+            <!-- /clearfix --></div>
+          <!-- /headerRight --></div>
+        <!-- /clearfix --></div>
+      <nav id="gNavi">
+        <ul>
+          <li id="gNav01"><a href="index.html">ホーム</a></li>
+          <li id="gNav02"><a href="company/index.html">企業情報</a></li>
+          <li id="gNav03"><a href="business/index.html">事業概要</a></li>
+          <li id="gNav04"><a href="news/index.html">ニュース</a></li>
+          <li id="gNav05"><a href="ir/index.html">IR情報</a></li>
+          <li id="gNav06"><a href="recruit/index.html">採用情報</a></li>
+        </ul>
+        <!-- /gNavi --></nav>
+      <!-- /headerIn --></div>
+  </header>
+  <div class="indexMainimgWrap01">
+    <div class="indexMainimg01">
+      <ul class="bxslider">
+        <li><img src="images/img_index_mainimg01.gif" width="960" height="285" alt="WIN A BETTER QUALITY OF LIFE　すべての人に、ベター・クオリティ・オブ・ライフ"></li>
+        <li><img src="images/img_index_mainimg02.gif" width="960" height="285" alt="医療機器商社グループです"></li>
+        <!-- <li><img src="images/img_index_mainimg03.jpg" width="960" height="285" alt="東証一部">-->
+     <!--  <a href="http://www1.daiwair.jp/qlviewer/e-cast/1603013183/index.html"target="_blank"><img src="images/img_index_mainimg03.jpg" width="960" height="285" alt="東証一部"></li>
+      </ul>
+      <!-- /indexMainimg01 --></div>
+    <!-- /indexMainimgWrap01 --></div>
+  <div id="contents">
+    <article id="main">
+      <section class="indexLinkList01">
+        <ul>
+          <li><a href="business/product.html"><img src="images/1_btn_index_business02_no_2.jpg" width="178" height="170" alt="心臓カテーテル製品販売No.1　OUR BUSINESS" class="opacityOver"></a></li>
+          <li class="mr05"><a href="ir/finance/highlight_1.html#sales and profits"><img src="images/2_btn_index_sales01_no_1.jpg" width="178" height="170" alt="売上高570億円　SALES" class="opacityOver"></a></li>
+          <li><a href="ir/finance/highlight_2.html#index"><img src="images/3_btn_index_roe02_no_2.jpg" width="178" height="170" alt="ROE株主資本利益率14%　OUR ROE" class="opacityOver"></a></li>
+          <li><a href="ir/finance/highlight_2.html#per share"><img src="images/4_btn_index_ratio02_no02_1.jpg" width="178" height="170" alt="配当性向35%　PAYOUT RATIO" class="opacityOver"></a></li>
+        </ul>
+        <!-- /indexLinkList01 --></section>
+      <section>
+        <h2 class="indexH201">ニュースリリース</h2>
+        <div class="indexNewsList01">
+          <ul>
+<li>
+	<p class="date">2017年08月10日</p>
+	<div class="text">
+		<p>
+			<a onclick="_gaq.push(['_trackEvent','pdf','click','170810_1.pdf']);" href="./pdf/170810_1.pdf" target="_blank"> 2018年3月期 第1四半期 報告書（連結） </a>
+		</p>
+	</div>
+</li>
+<li>
+	<p class="date">2017年08月04日</p>
+	<div class="text">
+		<p>
+			<a onclick="_gaq.push(['_trackEvent','pdf','click','170804_1.pdf']);" href="./pdf/170804_1.pdf" target="_blank"> 平成30年3月期 第1四半期 決算短信（連結） </a>
+		</p>
+	</div>
+</li>
+<li>
+<p class="date">2017年06月29日</p>
+<div class="text">
+<p>
+	<a onclick="_gaq.push(['_trackEvent','pdf','click','170629_1.pdf']);" href="./pdf/170629_1.pdf" target="_blank"> 臨時報告書（2017年3月期 定時株主総会 議決権行使結果）</a>
+</p>
+<!-- /text --></div>
+</li>
+
+<li>
+<p class="date">2017年06月29日</p>
+<div class="text">
+<p>
+	<a onclick="_gaq.push(['_trackEvent','html','click','term.html']);" href="./ir/calendar.html" target="_blank">IRカレンダーを更新しました。（2018年3月期 第1,2四半期 決算発表）</a>
+</p>
+<!-- /text --></div>
+</li>
+
+<li>
+<p class="date">2017年06月27日</p>
+<div class="text">
+<p>子会社決算公告（<a onclick="_gaq.push(['_trackEvent','html','click','http://www.win-int.co.jp/koukoku/index.html']);" href="http://www.win-int.co.jp/koukoku/index.html" target="_blank">株式会社ウイン・インターナショナル</a>／<a onclick="_gaq.push(['_trackEvent','html','click','http://www.tescomed.co.jp/koukoku/index.html']);" href="http://www.tescomed.co.jp/koukoku/index.html" target="_blank">テスコ株式会社</a>）</p>
+<!-- /text --></div>
+</li>
+
+<li>
+<p class="date">2017年06月27日</p>
+<div class="text">
+<p><a onclick="_gaq.push(['_trackEvent','pdf','click','170627_5.pdf']);" href="http://www.win-partners.co.jp/pdf/170627_5.pdf" target="_blank"> コーポレートガバナンス報告書</a></p>
+<!-- /text --></div>
+</li>
+
+<li>
+<p class="date">2017年06月27日</p>
+<div class="text">
+<p><a onclick="_gaq.push(['_trackEvent','pdf','click','170627_2.pdf']);" href="http://www.win-partners.co.jp/pdf/170627_2.pdf" target="_blank"> 2017年3月期 有価証券報告書（連結）</a>／<a onclick="_gaq.push(['_trackEvent','pdf','click','170627_3.pdf']);" href="http://www.win-partners.co.jp/pdf/170627_3.pdf" target="_blank">確認書</a>／<a onclick="_gaq.push(['_trackEvent','pdf','click','170627_4.pdf']);" href="http://www.win-partners.co.jp/pdf/170627_4.pdf" target="_blank">内部統制報告書</a></p>
+<!-- /text --></div>
+</li>
+
+<li>
+<p class="date">2017年06月27日</p>
+<div class="text">
+<p><a onclick="_gaq.push(['_trackEvent','pdf','click','170627_1.pdf']);" href="http://www.win-partners.co.jp/pdf/170627_1.pdf" target="_blank"> 2017年3月期 定時株主総会決議ご通知 </a></p>
+<!-- /text --></div>
+</li>
+
+<li>
+<p class="date">2017年06月13日</p>
+<div class="text">
+<p><a onclick="_gaq.push(['_trackEvent','html','click','term.html']);" href="http://www1.daiwair.jp/qlviewer/e-cast/1705243183/index.html" target="_blank"> 2017年3月期 決算説明会動画 </a></p>
+<!-- /text --></div>
+</li>
+      <li>
+<p class="date">2017年06月09日</p>
+<div class="text">
+<p><a onclick="_gaq.push(['_trackEvent','pdf','click','170609_1.pdf']);" href="http://www.win-partners.co.jp/pdf/170609_1.pdf" target="_blank"> 2017年3月期 定時株主総会招集ご通知 </a></p>
+<!-- /text --></div>
+</li> 
+           <li>
+<p class="date">2017年05月24日</p>
+<div class="text">
+<p><a onclick="_gaq.push(['_trackEvent','pdf','click','170524_e.pdf']);" href="http://www.win-partners.co.jp/pdf/170524_e.pdf" target="_blank"> English presentation is available (FY ending 3/2017 Results) </a></p>
+<!-- /text --></div>
+</li>
+           <li>
+<p class="date">2017年05月24日</p>
+<div class="text">
+<p><a onclick="_gaq.push(['_trackEvent','pdf','click','170524_1.pdf']);" href="http://www.win-partners.co.jp/pdf/170524_1.pdf" target="_blank"> 2017年3月期 決算説明資料 </a></p>
+<!-- /text --></div>
+</li>
+<li>
+<p class="date">2017年05月12日</p>
+<div class="text">
+<p><a onclick="_gaq.push(['_trackEvent','pdf','click','170512_1.pdf']);" href="http://www.win-partners.co.jp/pdf/170512_1.pdf" target="_blank"> 平成29年3月期 決算短信（連結）</a></p>
+<!-- /text --></div>
+</li>  
+          <li>
+<p class="date">2017年03月30日</p>
+<div class="text">
+<p><a onclick="_gaq.push(['_trackEvent','pdf','click','170330_1.pdf']);" href="http://www.win-partners.co.jp/pdf/170330_1.pdf" target="_blank"> 本社移転に関するお知らせ </a></p>
+<!-- /text --></div>
+</li>  
+   <li>
+<p class="date">2017年03月30日</p>
+<div class="text">
+<p><a onclick="_gaq.push(['_trackEvent','pdf','click','170330_2.pdf']);" href="http://www.win-partners.co.jp/pdf/170330_2.pdf" target="_blank"> 子会社の組織変更に関するお知らせ </a></p>
+<!-- /text --></div>
+</li>  
+             <li>
+<p class="date">2017年03月30日</p>
+<div class="text">
+<p><a onclick="_gaq.push(['_trackEvent','pdf','click','170330_3.pdf']);" href="http://www.win-partners.co.jp/pdf/170330_3.pdf" target="_blank"> 重要人事に関するお知らせ </a></p>
+<!-- /text --></div>
+</li>  
+<li>
+<p class="date">2017年03月13日</p>
+<div class="text">
+<p><a onclick="_gaq.push(['_trackEvent','pdf','click','170313_1.pdf']);" href="http://www.win-partners.co.jp/pdf/170313_1.pdf" target="_blank"> 個人投資家向け会社説明会（東京 3/9、大阪 3/10）資料</a></p>
+<!-- /text --></div>
+</li>
+      <li>
+<p class="date">2017年02月13日</p>
+<div class="text">
+<p><a onclick="_gaq.push(['_trackEvent','pdf','click','170213_1.pdf']);" href="http://www.win-partners.co.jp/pdf/170213_1.pdf" target="_blank"> 2017年3月期 第3四半期 報告書（連結） </a></p>
+<!-- /text --></div>
+</li>
+<li>
+<p class="date">2017年02月06日</p>
+<div class="text">
+<p><a onclick="_gaq.push(['_trackEvent','pdf','click','170206_2.pdf']);" href="http://www.win-partners.co.jp/pdf/170206_2.pdf" target="_blank"> 配当予想の修正（増配）に関するお知らせ </a></p>
+<!-- /text --></div>
+</li>  
+ <li>
+<p class="date">2017年02月06日</p>
+<div class="text">
+<p><a onclick="_gaq.push(['_trackEvent','pdf','click','170206_1.pdf']);" href="http://www.win-partners.co.jp/pdf/170206_1.pdf" target="_blank"> 平成29年3月期 第3四半期 決算短信（連結） </a></p>
+<!-- /text --></div>
+</li>  
+<li>
+<p class="date">2016年12月16日</p>
+<div class="text">
+<p><a onclick="_gaq.push(['_trackEvent','pdf','click','161207_1.pdf']);" href="http://www.win-partners.co.jp/pdf/161216_1.pdf" target="_blank"> 株式分割に関する基準日設定公告</a></p>
+<!-- /text --></div>
+</li> 
+<li>
+<p class="date">2016年12月07日</p>
+<div class="text">
+<p><a onclick="_gaq.push(['_trackEvent','pdf','click','161207_1.pdf']);" href="http://www.win-partners.co.jp/pdf/161207_1.pdf" target="_blank"> 2017年3月期 第2四半期 株主通信Vol.8 (PARTNERS Report) </a></p>
+<!-- /text --></div>
+</li>
+                <li>
+<p class="date">2016年12月07日</p>
+<div class="text">
+<p><a onclick="_gaq.push(['_trackEvent','pdf','click','161207_e.pdf']);" href="http://www.win-partners.co.jp/pdf/161207_e.pdf" target="_blank"> English presentation is available (2Q ending 9/2016 Results) </a></p>
+<!-- /text --></div>
+</li>
+  
+                <li>
+<p class="date">2016年12月01日</p>
+<div class="text">
+<p><a onclick="_gaq.push(['_trackEvent','html','click','term.html']);" href="http://www1.daiwair.jp/qlviewer/e-cast/1611213183/index.html" target="_blank"> 2017年3月期 第2四半期 決算説明動画 </a></p>
+<!-- /text --></div>
+</li>
+
+      <li>
+<p class="date">2016年11月21日</p>
+<div class="text">
+<p><a onclick="_gaq.push(['_trackEvent','pdf','click','161121_1.pdf']);" href="http://www.win-partners.co.jp/pdf/161121_1.pdf" target="_blank"> 2017年3月期 第2四半期 決算説明資料 </a></p>
+<!-- /text --></div>
+</li>
+         
+          
+      <li>
+<p class="date">2016年11月11日</p>
+<div class="text">
+<p><a onclick="_gaq.push(['_trackEvent','pdf','click','161111_.pdf']);" href="http://www.win-partners.co.jp/pdf/161111_1.pdf" target="_blank"> 2017年3月期 第2四半期 報告書（連結） </a></p>
+<!-- /text --></div>
+</li>
+
+<li>
+<p class="date">2016年11月07日</p>
+<div class="text">
+<p><a onclick="_gaq.push(['_trackEvent','pdf','click','161107_2.pdf']);" href="http://www.win-partners.co.jp/pdf/161107_2.pdf" target="_blank"> 株式分割および株式分割に伴う定款の一部変更並びに配当予想の修正に関するお知らせ </a></p>
+<!-- /text --></div>
+</li>
+
+<li>
+<p class="date">2016年11月07日</p>
+<div class="text">
+<p><a onclick="_gaq.push(['_trackEvent','pdf','click','161107_1.pdf']);" href="http://www.win-partners.co.jp/pdf/161107_1.pdf" target="_blank"> 平成29年3月期 第2四半期 決算短信（連結） </a></p>
+<!-- /text --></div>
+</li>
+
+
+
+
+
+
+
+          </ul>
+          <!-- /indexNewsList01 --></div>
+        <p class="indexMore01"><a href="news/index.html">ニュースリリース一覧</a></p>
+      </section>
+      <!-- /main --></article>
+    <div id="sub">
+      <ul id="subBnrList01">
+        <li><a href="company/qol.html"><img src="common/images/bnr_sub_qol01_no.gif" width="183" height="170" alt="QOL" class="opacityOver"></a></li>
+        <li class="list01"><img src="common/images/bnr_sub_winpartners01.png" width="184" height="26" alt="WINPARTNERS Group"></li>
+        <li class="list02"><a href="http://www.win-int.co.jp/" target="_blank"><img src="common/images/bnr_sub_wininternational01.png" width="184" height="142" alt="WIN INTERNATIONAL" class="opacityOver"></a></li>
+        <li><a href="http://www.tescomed.co.jp/" target="_blank"><img src="common/images/bnr_sub_tesco01.png" width="184" height="142" alt="TESCO" class="opacityOver"></a></li>
+        <!-- /subBnrList01 -->
+      </ul>
+      <!-- /sub --></div>
+    <!-- /contents --></div>
+  <!-- /wrapper --></div>
+<footer id="footer">
+  <div id="footerIn" class="clearfix">
+    <ul id="footerLinks" class="clearfix">
+      <li><a href="index.html">ホーム</a></li>
+      <li><a href="company/index.html">企業情報</a></li>
+      <li><a href="business/index.html">事業概要</a></li>
+      <li><a href="news/index.html">ニュース</a></li>
+      <li><a href="ir/index.html">IR情報</a></li>
+      <li><a href="recruit/index.html">採用情報</a></li>
+      <li><a href="contact/index.html">お問い合わせ</a></li>
+      <li><a href="guide/index.html">ご利用にあたって</a></li>
+      <li><a href="koukoku/index.html">電子公告</a></li>
+      <li><a href="sitemap/index.html">サイトマップ</a></li>
+      <!-- /footerLinks -->
+    </ul>
+    <p id="copyright">Copyright &copy; WIN-Partners Co.,Ltd. All rights reserved.</p>
+    <!-- /footerIn --></div>
+</footer>
+</body>
+</html>

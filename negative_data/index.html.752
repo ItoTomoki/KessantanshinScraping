@@ -1,0 +1,327 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<title>NaigaiTEC :: ホーム</title>
+
+<meta name="description" content="内外テック株式会社は、MDMSで世界の「ものづくり」を支える、メカニカルソリューションの専門商社です。"/>
+<meta name="keywords" content="技術商社,専門商社,調達,販売,設計,製造,保守,メンテナンス,電子部品,中国,韓国" />
+
+<script type="text/javascript">
+var CCM_DISPATCHER_FILENAME = '/index.php';var CCM_CID = 1;var CCM_EDIT_MODE = false;var CCM_ARRANGE_MODE = false;var CCM_IMAGE_PATH = "/concrete/images";
+var CCM_TOOLS_PATH = "/index.php/tools/required";
+var CCM_REL = "";
+
+</script>
+
+	<link rel="shortcut icon" href="/files/6213/4137/4970/favicon.ico" type="image/x-icon" />
+	<link rel="icon" href="/files/6213/4137/4970/favicon.ico" type="image/x-icon" />
+	<link rel="apple-touch-icon" href="/files/1713/4137/5099/naigai.png"  />
+
+<link rel="stylesheet" type="text/css" href="/concrete/css/ccm.base.css?v=c6d77d7bc9545610e227434a87e8b3a6" />
+<script type="text/javascript" src="/concrete/js/jquery.js?v=c6d77d7bc9545610e227434a87e8b3a6"></script>
+<script type="text/javascript" src="/concrete/js/ccm.base.js?v=c6d77d7bc9545610e227434a87e8b3a6"></script>
+<link rel="stylesheet" type="text/css" href="/blocks/page_list/view.css?v=c6d77d7bc9545610e227434a87e8b3a6" />
+<!-- Site Header Content //-->
+<link rel="stylesheet" href="/index.php/tools/css/themes/naigai/css/basic.css" type="text/css" />
+<link rel="stylesheet" href="/index.php/tools/css/themes/naigai/css/style.css" type="text/css" />
+<link rel="stylesheet" href="/index.php/tools/css/themes/naigai/css/toppage.css" type="text/css" />
+<link rel="stylesheet" href="/index.php/tools/css/themes/naigai/css/thickbox.css" type="text/css" />
+<link rel="alternate stylesheet" type="text/css" href="/index.php/tools/css/themes/naigai/css/small.css" title="Small">
+<link rel="alternate stylesheet" type="text/css" href="/index.php/tools/css/themes/naigai/css/large.css" title="Large">
+<script src="/themes/naigai/js/styleswitcher.js" type="text/javascript"></script>
+<script src="/themes/naigai/js/tab.js" type="text/javascript"></script>
+<script src="/themes/naigai/js/thickbox.js" type="text/javascript"></script>
+<script src="/themes/naigai/js/jquery.imgr.min.js" type="text/javascript" ></script>
+<script src="/themes/naigai/js/script.js" type="text/javascript" ></script>
+</head>
+<div id="top" name="top"></div>
+<body><div class="header_top"></div>
+<div class="header_bg">
+  <div id="header" class="clearfix"> 
+    <div class="header_left"> 
+      <a href="/">
+        <img src="/themes/naigai/img/header/logo.gif" width="200" height="60" alt="ファインテクノロジーで未来を拓くNaigaiTEC" class="logo" />
+      </a>
+     </div> 
+    <div class="header_right">    
+     <div class="langArea">
+        <ul class="lang clearfix">
+           <li class="l_en"><a href="/index.php/english/"><img src="/themes/naigai/img/header/english.gif" alt="English" /></a></li>
+           <li class="l_cn"><a href="/index.php/chinese/"><img src="/themes/naigai/img/header/chinese.gif" alt="中文" /></a></li>
+       </ul>
+     </div>
+    <div class="textresizer header_lower">
+     <ul class="sitemap_btn">
+          <li><a href="/index.php/sitemap/"><img src="/themes/naigai/img/header/top_13.gif" width="95" height="20" alt="サイトマップ" /></a></li>
+     </ul> 
+     <ul class="textresizer">
+       <li class="mgnR10"><img src="/themes/naigai/img/header/top_15.gif" width="59" height="20" alt="文字サイズ" /></li>
+       <li class="fsize" id="fsmall"><a onClick="setActiveStyleSheet('Small'); return false;"><span class="ftxt">小</span></a></li>
+       <li class="fsize" id="fmiddle"><a onClick="setActiveStyleSheet('Default'); return false;"><span class="ftxt">中</span></a></li>
+       <li class="fsize" id="flarge"><a onClick="setActiveStyleSheet('Large'); return false;"><span class="ftxt">大</span></a></li>
+     </ul>
+    </div>
+   </div> 
+ 
+    
+  </div>
+</div>
+</div>
+<div class="navigation_bg">
+  <div id="navigation">
+    <ul>
+    <li class="nav_home_cu"><a href="/"><span>ホーム</span></a></li>
+    <li class="nav_com"><a href="/index.php/information/"><span>企業情報</span></a></li>
+    <li class="nav_biz"><a href="/index.php/business/"><span>事業情報</span></a></li>
+    <li class="nav_stock"><a href="/index.php/stockholder/"><span>株主・投資家情報</span></a></li>
+    <li class="nav_emp"><a href="/index.php/careers/"><span>採用情報</span></a></li>
+    <li class="nav_inq"><a href="/index.php/inquiry/"><span>お問い合わせ</span></a></li>
+    </ul>
+  </div>
+</div>
+
+<!-- jQuery handles to place the header background images -->
+	<div id="headerimgs">
+		<div id="headerimg1" class="headerimg"></div>
+		<div id="headerimg2" class="headerimg"></div>
+        <a href="#" id="secondline"></a>
+	</div>
+	<!-- Slideshow controls -->
+	<div id="headernav-outer">
+		<div id="headernav">
+			<div id="back" class="btn"></div>
+			<div id="control" class="btn"></div>
+			<div id="next" class="btn"></div>
+		</div>
+	</div>  
+  <div class="naigai-btn clearfix">
+    <ul>
+      <li class="mdms_btn"><a href="javascript:void(0)"><span class="ftxt"> top </span></a></li>
+      <li class="m_btn"><a href="javascript:void(0)"><span class="ftxt"> m </span></a></li>
+      <li class="d_btn"><a href="javascript:void(0)"><span class="ftxt"> d </span></a></li>
+      <li class="m_btn2"><a href="javascript:void(0)"><span class="ftxt"> m </span></a></li>
+      <li class="s_btn"><a href="javascript:void(0)"><span class="ftxt"> s </span></a></li>
+    </ul>
+  </div>
+
+
+<SCRIPT language="JavaScript">
+$(document).ready(function(){
+    $("img.newproduct").imgr({radius:"5px"});
+        // Finds <img> elements with the class "ex1"
+        // IMGr applies a 3px yellow border with 10px corner radii.
+});
+/* See these examples below */
+</SCRIPT>
+   
+<div id="productsnewsArea">  
+
+<div class="products-btn clearfix">
+<a href="/index.php/business/products/"><img src="/themes/naigai/img/lead/news.gif" width="120" height="20" alt="新商品情報" class="float_l" /> </a>
+<a href="/index.php/business/products/"><img src="/themes/naigai/img/lead/rss.gif" width="120" height="20" alt="新商品情報一覧" /class="pnews_rss" /> </a>
+</div>
+
+<div class="newsout">
+<div class="news clearfix">
+
+<div style="margin:0 auto; width:990px;padding:20px 0 0 0;">
+
+	
+  
+<div class="newsbox">
+<div class="newsbox_img">
+<img src="/files/cache/3ed4110977395660333a3c843fe417ec.jpg" alt="" class="newproduct"/></div>
+<div class="newsbox_txt">
+<p>2017.06.05</p>
+<p class="newsbox_title"><a href="/index.php/business/products/%E6%A1%9C%E3%82%B7%E3%83%BC%E3%83%AB%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E8%A3%BD-%E9%AB%98%E6%A9%9F%E8%83%BDo%E3%83%AA%E3%83%B3%E3%82%B0/" target="_self">桜シール株式会社製 高機能Oリング</a></p>
+
+	<div class="products_detail_icon02"><p>原材料メーカとの共同開発による高機能Oリング！</p></div>
+
+
+
+	<div class="products_detail_icon02"><p>プロセスに応じた製品のご提案が可能！</p></div>
+
+
+
+	<div class="products_detail_icon02"><p>常備20000種類のシール材を在庫！</p></div>
+
+
+</div>
+</div>
+            
+		
+  
+<div class="newsbox">
+<div class="newsbox_img">
+<img src="/files/cache/91a585442ba3e3fee144b0e8e62c62b0.jpg" alt="" class="newproduct"/></div>
+<div class="newsbox_txt">
+<p>2016.04.04</p>
+<p class="newsbox_title"><a href="/index.php/business/products/%E9%9D%99%E9%9B%BB%E6%B0%97%E3%83%81%E3%82%A7%E3%83%83%E3%82%AF%E3%83%BB%E5%85%A5%E5%AE%A4%E5%88%B6%E5%BE%A1%E3%82%B7%E3%82%B9%E3%83%86-%E3%80%8Csems%E3%80%8D/" target="_self">静電気チェック・入室制御システム「Sems」</a></p>
+
+	<div class="products_detail_icon02"><p>静電気管理のトータルソリューション！</p></div>
+
+
+
+	<div class="products_detail_icon02"><p>静電気チェックで作業員の入室制限！</p></div>
+
+
+
+	<div class="products_detail_icon02"><p>検査ログ・入室履歴の電子データ管理！</p></div>
+
+
+</div>
+</div>
+            
+		
+  
+<div class="newsbox">
+<div class="newsbox_img">
+<img src="/files/cache/bb8cd197266c5135d5ae138bd4ebccf3.jpg" alt="" class="newproduct"/></div>
+<div class="newsbox_txt">
+<p>2015.06.18</p>
+<p class="newsbox_title"><a href="/index.php/business/products/%E5%86%85%E5%A4%96%E3%83%86%E3%83%83%E3%82%AF%E8%A3%BD-%E5%B0%8F%E5%9E%8B%E3%82%AF%E3%83%BC%E3%83%A9%E3%83%BC%E3%80%80%E3%82%AF%E3%83%BC%E3%83%AB%E3%82%B4%E3%83%B3/" target="_self">内外テック製 小型クーラー　クールゴン</a></p>
+
+	<div class="products_detail_icon02"><p>配管工事不要の空冷式を採用</p></div>
+
+
+
+	<div class="products_detail_icon02"><p>省スペース</p></div>
+
+
+
+	<div class="products_detail_icon02"><p>コストパフォーマンスに優れた性能</p></div>
+
+
+</div>
+</div>
+            
+		
+
+	
+
+
+</div>
+
+
+</div>
+</div>
+
+<div class="both"></div>
+
+<div id="contents">
+
+  <div class="left_contents">
+  
+  <div class="topnews_rss">
+  <a href="/index.php/news/"><img src="/themes/naigai/img/lead/news_list.gif" class="top-newslist" /></a>
+  </div>
+  
+<ul id="tab">
+<li class="present"><a href="#page1"><img src="/themes/naigai/img/button/news/late_off.gif" onMouseOver="this.src='/themes/naigai/img/button/news/late_on.gif'" onMouseOut="this.src='/themes/naigai/img/button/news/late_off.gif'" alt="最新ニュース" /></a></li>
+<li ><a class="ir_tab" href="#page2"><img src="/themes/naigai/img/button/news/ir_off.gif" onMouseOver="this.src='/themes/naigai/img/button/news/ir_on.gif'" onMouseOut="this.src='/themes/naigai/img/button/news/ir_off.gif'" alt="IRニュース" /></a></li>
+<li ><a class="exh_tab" href="#page3"><img src="/themes/naigai/img/button/news/exh_off.gif" onMouseOver="this.src='/themes/naigai/img/button/news/exh_on.gif'" onMouseOut="this.src='/themes/naigai/img/button/news/exh_off.gif'" alt="展覧会情報" /></a></li>
+</ul>
+
+  <div id="page1">
+  <div class="late_news">
+<div class="lateone"><div class="date">2017.08.21</div><div class="add_ir"><a href="/index.php/stockholder/ir_news/">当社グループの設備投資に関するお知らせをプレスリリースに掲載いたしました。</a></div><div style="clear:both;"></div></div><div class="lighten_bd"><div class="lighten"><div class="date">2017.08.21</div><div class="add_ir"><a href="/index.php/stockholder/ir_news/">新株式発行及び自己株式の処分並びに株式売出しに関するお知らせをプレスリリースに掲載いたしました。</a></div><div style="clear:both;"></div></div></div><div class="lateone"><div class="date">2017.08.10</div><div class="add_ir"><a href="/index.php/stockholder/ir_news/">第57期 第1四半期報告書をIR資料 有価証券報告書に掲載いたしました。</a></div><div style="clear:both;"></div></div><div class="lighten_bd"><div class="lighten"><div class="date">2017.08.10</div><div class="add_ir"><a href="/index.php/stockholder/ir_news/">平成30年3月期 第1四半期決算短信をIR資料 決算短信に掲載いたしました。</a></div><div style="clear:both;"></div></div></div><div class="lateone"><div class="date">2017.08.10</div><div class="add_ir"><a href="/index.php/stockholder/ir_news/">業績予想の修正に関するお知らせをプレスリリースに掲載いたしました。</a></div><div style="clear:both;"></div></div>  </div>
+  </div>
+  <div id="page2">
+  <div class="late_news">
+<div class="lateone"><div class="date">2017.08.21</div><div class="add_ir"><a href="/index.php/stockholder/ir_news/">当社グループの設備投資に関するお知らせをプレスリリースに掲載いたしました。</a></div><div style="clear:both;"></div></div><div class="lighten_bd"><div class="lighten"><div class="date">2017.08.21</div><div class="add_ir"><a href="/index.php/stockholder/ir_news/">新株式発行及び自己株式の処分並びに株式売出しに関するお知らせをプレスリリースに掲載いたしました。</a></div><div style="clear:both;"></div></div></div><div class="lateone"><div class="date">2017.08.10</div><div class="add_ir"><a href="/index.php/stockholder/ir_news/">第57期 第1四半期報告書をIR資料 有価証券報告書に掲載いたしました。</a></div><div style="clear:both;"></div></div><div class="lighten_bd"><div class="lighten"><div class="date">2017.08.10</div><div class="add_ir"><a href="/index.php/stockholder/ir_news/">平成30年3月期 第1四半期決算短信をIR資料 決算短信に掲載いたしました。</a></div><div style="clear:both;"></div></div></div><div class="lateone"><div class="date">2017.08.10</div><div class="add_ir"><a href="/index.php/stockholder/ir_news/">業績予想の修正に関するお知らせをプレスリリースに掲載いたしました。</a></div><div style="clear:both;"></div></div>  </div>
+  </div>
+  <div id="page3">
+  <div class="late_news">
+<div class="lateone"><div class="date">2016.12.07</div><div class="add_exh"><a href="/index.php/business/events/%E3%83%8D%E3%83%97%E3%82%B3%E3%83%B3%E3%82%B8%E3%83%A3%E3%83%91%E3%83%B32017%E3%81%AB%E5%87%BA%E5%B1%95%E8%87%B4%E3%81%97%E3%81%BE%E3%81%99/">ネプコンジャパン2017に出展致します</a></div><div style="clear:both;"></div></div><div class="lighten_bd"><div class="lighten"><div class="date">2015.12.07</div><div class="add_exh"><a href="/index.php/business/events/semicon-japan2015%E3%81%AB%E5%87%BA%E5%B1%95%E8%87%B4%E3%81%97%E3%81%BE%E3%81%99%E3%80%82/">SEMICON JAPAN2015に出展致します。</a></div><div style="clear:both;"></div></div></div><div class="lateone"><div class="date">2015.11.17</div><div class="add_exh"><a href="/index.php/business/events/%E3%80%8C%E3%83%A1%E3%83%87%E3%82%A3%E3%82%AB%E3%83%AB%E3%82%AF%E3%83%AA%E3%82%A8%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%EF%BC%92%EF%BC%90%EF%BC%91%EF%BC%95%E3%80%8D%EF%BC%88%E5%87%BA%E5%B1%95-%E5%91%8A%EF%BC%89/">「メディカルクリエーション２０１５」（出展報告）</a></div><div style="clear:both;"></div></div><div class="lighten_bd"><div class="lighten"><div class="date">2015.10.26</div><div class="add_exh"><a href="/index.php/business/events/%E3%80%8C%E3%83%A1%E3%83%87%E3%82%A3%E3%82%AB%E3%83%AB%E3%82%AF%E3%83%AA%E3%82%A8%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%81%B5%E3%81%8F%E3%81%97%E3%81%BE%EF%BC%92%EF%BC%90%EF%BC%91%EF%BC%95%E3%80%8D%E5%87%BA%E5%B1%95%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B/">「メディカルクリエーションふくしま２０１５」出展のお知らせ</a></div><div style="clear:both;"></div></div></div><div class="lateone"><div class="date">2014.11.10</div><div class="add_exh"><a href="/index.php/business/events/%E3%80%8C%E3%83%A1%E3%83%87%E3%82%A3%E3%82%AB%E3%83%AB%E3%82%AF%E3%83%AA%E3%82%A8%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E7%A6%8F%E5%B3%B6%EF%BC%92%EF%BC%90%EF%BC%91%EF%BC%94%E3%80%8D%28%E5%87%BA%E5%B1%95-%E5%91%8A%29/">「メディカルクリエーション福島２０１４」(出展報告)</a></div><div style="clear:both;"></div></div>  </div>
+  </div>
+    <script type="text/javascript">
+// <![CDATA[
+
+tab.setup = {
+	tabs: document.getElementById('tab').getElementsByTagName('li'),
+	
+	pages: [
+		document.getElementById('page1'),
+		document.getElementById('page2'),
+		document.getElementById('page3')
+	]
+}
+
+tab.init();
+
+
+// ]]>
+</script>
+<div class="newbanner">
+    <div class="clearfix">
+    <div class="banner-l">
+    <a href="/index.php/information/about/naigaielectronics/"><img border="0"  alt="内外エレクトロニクス株式会社" src="/themes/naigai/img/banner/newbanner01.gif" width="300" height="143"   /></a>
+    </div>
+    <div class="banner-c">
+    <img border="0" alt="JASDAQ" src="/themes/naigai/img/banner/newbanner02.gif" width="150" height="143" />
+    </div>
+    <div class="banner-r">
+    <a href="/index.php/stockholder/public/"><img border="0" alt="電子公告" src="/themes/naigai/img/banner/newbanner03.gif" width="150" height="143" /></a> 
+    </div>
+     </div>
+  </div>
+  
+  <div class="banner">
+    <div class="clearfix">
+    <div class="float_l">
+     </div>
+      <div class="float_r">
+	     </div>
+   <div class="float_l">
+     </div>
+     <div class="float_r">
+	     </div>
+   </div>
+    
+  </div>
+  </div>
+  
+  <div class="right_nav">
+<a href="/index.php/how/"><img border="0" class="ccm-image-block" alt="内外テックってどんな会社" src="/files/7313/3734/1687/right_top.gif" width="320" height="129" /></a>    <div class="right_nav2">
+<a href="/index.php/information/office/"><img border="0" class="ccm-image-block" alt="Global Network" src="/files/cache/6678e68a9664968e82a25bfe3f52b8c7.jpg"  width="300" height="85" /></a><a href="/index.php/business/products/"><img border="0" class="ccm-image-block" alt="新商品情報" src="/files/cache/885832f457755821d7da39cdc549a25f.jpg"  width="300" height="85" /></a><a href="/index.php/business/events/"><img border="0" class="ccm-image-block" alt="展示会・イベント情報" src="/files/cache/041c3be84a646cacdb3c20215bd35937.jpg"  width="300" height="85" /></a><a href="/index.php/business/produce/"><img border="0" class="ccm-image-block" alt="PROCUEbyNET" src="/files/cache/03358fa202aae8e3a376603b00909f13.jpg"  width="300" height="85" /></a><a href="http://ednjapan.com/edn/subtop/features/index/wiredweird.html"><img border="0" class="ccm-image-block" alt="Wired, Weird" src="/files/2913/6877/3591/Wired_banner.jpg" width="300" height="85" /></a>
+    </div>
+  </div>
+  
+</div>
+
+<div class="both"></div>
+
+<div id="link_bg" class="clearfix">
+<div id="link" class="clearfix">
+<div id="link_inner" >
+  <ul>
+    <li class="link_home"><a href="/"><span>ホーム</span></a></li>
+    <li class="link_com"><a href="/index.php/information/"><span>企業情報</span></a></li>
+    <li class="link_biz"><a href="/index.php/business/"><span>事業情報</span></a></li>
+    <li class="link_stock"><a href="/index.php/stockholder/"><span>株主・投資家情報</span></a></li>
+    <li class="link_emp"><a href="/index.php/careers/"><span>採用情報</span></a></li>
+    <li class="link_inq"><a href="/index.php/inquiry/"><span>お問い合わせ</span></a></li>
+  </ul>
+</div>
+<a class="top_navi" href="#top">
+<img src="/themes/naigai/img/button/top_off.gif" onMouseOver="this.src='/themes/naigai/img/button/top_on.gif'" onMouseOut="this.src='/themes/naigai/img/button/top_off.gif'" alt="top" />
+</a>
+</div>
+<div id="footer_bg" class="clearfix">
+<div id="footer">
+  <ul class="float_l">
+    <li class="link_privacy"><a href="/index.php/privacy"><span>プライバシーポリシー</span></a></li>
+    <li class="link_copy"><a href="/index.php/copyright"><span>著作権について</span></a></li>
+    <li class="link_en"><a href="/index.php/english/"><span>English</span></a></li>
+    <li class="link_cn"><a href="/index.php/chinese"><span>中文</span></a></li>
+    <li class="link_sitemap"><a href="/index.php/sitemap/"><span>サイトマップ</span></a></li>
+  </ul>
+  <p class="float_r"> Copyright 2017 (c) NaigaiTEC Corporation. All Rights Reserved. </p>
+</div>
+</div>
+
+</div>
+</body>
+</html>

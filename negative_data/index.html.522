@@ -1,0 +1,237 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja-JP" lang="ja-JP">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="焼津水産化学工業株式会社は、天然素材にこだわり、液体調味料・粉体調味料・乾燥加工食品や、機能性素材、医療栄養食品の開発、製造を行っております。" />
+<meta name="keywords" content="焼津水産化学工業,天然素材,,焼津水産化学工業,N-アセチルグルコサミン,アンセリン,コラーゲン,機能性素材,天然調味料,調味料," />
+<title>焼津水産化学工業</title>
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<link href="http://www.yskf.jp/_css/import.css" rel="stylesheet" type="text/css" media="all" />
+<link href="http://www.yskf.jp/_css/menu.css" rel="stylesheet" type="text/css" media="all" />
+<script type="text/javascript" src="http://www.yskf.jp/_js/common.js"></script>
+<!--[if IE 6]>
+<script type="text/javascript" src="http://www.yskf.jp/_js/DD_belatedPNG.js"></script>
+<script type="text/javascript">
+  DD_belatedPNG.fix('img,#textsizer,#pg_head #gnav .search,#pg_foot .ftr_lnk .box h3.title,#slide_panel .wrap .panel_main,div.menu_off');
+</script>
+<![endif]-->
+
+<script type="text/javascript">
+jQuery(document).ready( function() {
+    jQuery( "#textsizer a" ).textresizer({
+        target: "#maincontent",
+        type: "fontSize",
+        sizes: [ "11px", "13px", "15px"],
+        selectedIndex: 1
+    });
+});
+</script>
+
+<script type="text/javascript" src="http://www.yskf.jp/_js/jquery.hoverIntent.js"></script>
+<script type="text/javascript" src="http://www.yskf.jp/_js/jquery.menu.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+	var panel_DefW = $("#slide_panel").width();
+	var btn_DefW = 40;
+	$('#slide_panel').width(btn_DefW);
+
+	$('.menu_off').hover(function() {
+		if($("#slide_panel").width() > btn_DefW){
+			w = btn_DefW;
+		}else{
+			w = panel_DefW;
+		}
+		$("#slide_panel").animate({
+			width: w
+		}, "slow",
+		function(){
+			$('.menu_off').toggleClass('active');
+		});
+	});
+});
+</script>
+
+<script type="text/javascript" src="http://www.yskf.jp/_js/jquery.dimensions.js"></script>
+<script type="text/javascript">
+var name = "#slide_panel";
+var menuYloc = null;
+$(document).ready(function(){
+	menuYloc = parseInt($(name).css("top").substring(0,$(name).css("top").indexOf("px")))
+	$(window).scroll(function () { 
+		offset = menuYloc+$(document).scrollTop()+"px";
+		$(name).animate({top:offset},{duration:500,queue:false});
+	});
+}); 
+</script>
+
+<link rel="alternate" type="application/rss+xml" href="http://www.yskf.jp/news.xml" title="RSS2.0" /></head>
+
+<body id="index">
+<div id="pg_wrap">
+
+<div id="pg_head">
+<div class="wrap">
+<div class="fleft">
+<h1>天然調味料と機能性食品でおいしさと健康をお届けする</h1>
+<a title="top"></a>
+<a href="http://www.yskf.jp/"><img width="240" height="32" src="http://www.yskf.jp/_cmn/logo_ysk.png" alt="焼津水産化学工業" /></a>
+<!-- /fleft --></div>
+<div class="fright">
+<ul class="hdr_tab">
+<li><a href="http://www.yskf.jp/s-policy/"><img src="http://www.yskf.jp/_cmn/btn_htab1.png" alt="ご利用にあたって" class="imgover" /></a></li>
+<li><a href="http://www.yskf.jp/p-policy/"><img src="http://www.yskf.jp/_cmn/btn_htab2.png" alt="プライバシーポリシー" class="imgover" /></a></li>
+<!--<li><a href="http://www.yskf.jp/d_policy/"><img src="http://www.yskf.jp/_cmn/btn_htab3.png" alt="情報開示基本方針" class="imgover" /></a></li>-->
+<li><a href="http://www.yskf.jp/yskf_en/" target="_blank"><img src="http://www.yskf.jp/_cmn/btn_htabe.png" alt="English" class="imgover" /></a></li>
+<li><a href="http://www.yskf.jp/yskf_ch/" target="_blank"><img src="http://www.yskf.jp/_cmn/btn_htabc.png" alt="中文" class="imgover" /></a></li>
+</ul>
+<div id="textsizer">
+    <p><img src="http://www.yskf.jp/_cmn/img_hdr_fsize.png" alt="文字サイズ" /></p>
+    <ul class="textresizer"><!--
+        --><li><a href="#">小</a></li><!--
+        --><li><a href="#">中</a></li><!--
+        --><li><a href="#">大</a></li><!--
+   --></ul>
+</div>
+<!-- /fright --></div>
+<div class="clr"><!-- --></div>
+<div id="gnav">
+<ul>
+<li><a href="http://www.yskf.jp/company/"><img src="http://www.yskf.jp/_cmn/gnav_comp.png" alt="会社案内" class="imgover" /></a></li>
+<li><a href="http://www.yskf.jp/product/"><img src="http://www.yskf.jp/_cmn/gnav_products.png" alt="製品紹介" class="imgover" /></a></li>
+<li><a href="http://www.yskf.jp/research/"><img src="http://www.yskf.jp/_cmn/gnav_study.png" alt="研究開発" class="imgover" /></a></li>
+<li><a href="http://www.yskf.jp/ir/"><img src="http://www.yskf.jp/_cmn/gnav_ir.png" alt="IR情報" class="imgover" /></a></li>
+<li><a href="http://www.yskf.jp/recruit/"><img src="http://www.yskf.jp/_cmn/gnav_recruit.png" alt="採用情報" class="imgover" /></a></li>
+<li><a href="http://www.yskf.jp/contact/"><img src="http://www.yskf.jp/_cmn/gnav_contact.png" alt="お問い合わせ" class="imgover" /></a></li>
+</ul>
+<div class="search"><form action="http://www.yskf.jp/fc.search/" method="get"><!--
+--><input type="text" id="q" class="txt" name="q" value="" /><!--
+--><input class="button" type="image" id="srcbtn" name="sa" src="http://www.yskf.jp/_cmn/btn_search.gif" value="検索" /><!--
+--></form></div>
+<div class="clr"><!-- --></div>
+<!-- /gnav --></div>
+
+<!-- /wrap --></div>
+<div class="m_img">
+<div class="wrap"><a name="fctop"></a><img src="http://www.yskf.jp/fc.img/mimg_s1.png" border="0" alt="トップ" /></div>
+<!-- /m_img --></div>
+<!-- /pg_head --></div>
+
+
+<div id="pg_body">
+<div id="maincontent"><div class="Menu_bg"><ul id="topnav"><li class="cate"><a href="http://www.yskf.jp/product/search_cate.html" target="_self"><img style="WIDTH: 200px; HEIGHT: 78px" alt="一覧から探す" src="http://www.yskf.jp/images/15.jpg" /></a> <div class="sub"><table style="BORDER-RIGHT-WIDTH: 0px; BORDER-SPACING: 0px; WIDTH: 760px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px" summary="" border="0" cellpadding="0" cellspacing="0" width="760"><tbody><tr><td style="WIDTH: 170px; VERTICAL-ALIGN: top" valign="top"><a href="http://www.yskf.jp/product/l-seasoning.html" target="_self">液体調味料</a><br /><a href="http://www.yskf.jp/product/p-seasoning.html" target="_self">粉体調味料</a><br /><a href="http://www.yskf.jp/product/f-foods.html" target="_self">機能食品</a><br /><a href="http://www.yskf.jp/product/f-materials.html" target="_self">機能性素材</a> </td><td style="WIDTH: 190px; VERTICAL-ALIGN: top" valign="top"><a href="http://www.yskf.jp/product/kaori.html" target="_self">香り三昧<sup>®</sup>シリーズ</a><br /><a href="http://www.yskf.jp/product/nc-series.html" target="_self">ＮＣシリーズ</a><br /><a href="http://www.yskf.jp/product/drip-huuminoshizuku.html" target="_blank">風味の雫<sup>®</sup>シリーズ</a></td><td style="WIDTH: 240px; VERTICAL-ALIGN: top" valign="top"><a href="http://www.yskf.jp/product/aromaster.html" target="_self">アロマスター<sup>®</sup>シリーズ</a><br /><a href="http://www.yskf.jp/product/umami.html" target="_self">旨みたっぷりシリーズ</a><br /><a href="http://www.yskf.jp/product/seasoning-oil-1.html" target="_self">シーズニングオイルシリーズ</a></td><td style="WIDTH: 160px; VERTICAL-ALIGN: top" valign="top"><a href="http://www.yskf.jp/product/cvd-powder.html" target="_self">ＣＶＤパウダー</a><br /><a href="http://www.yskf.jp/product/low-salt.html" target="_self">低塩シリーズ</a></td></tr></tbody></table></div></li><li class="menu"><a href="http://www.yskf.jp/product/search_menu.html" target="_self"><img style="WIDTH: 200px; HEIGHT: 78px" alt="メニュー・用途から探す" src="http://www.yskf.jp/images/16.jpg" /></a> <div class="sub"><table style="BORDER-RIGHT-WIDTH: 0px; BORDER-SPACING: 0px; WIDTH: 760px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px" summary="" border="0" cellpadding="0" cellspacing="0" width="760"><tbody><tr><td style="WIDTH: 190px; VERTICAL-ALIGN: top" valign="top"><a href="http://www.yskf.jp/product/search_menu.html#01" target="_self">つゆ・スープ</a><br /><a href="http://www.yskf.jp/product/search_menu.html#02" target="_self">タレ・ソース</a><br /><a href="http://www.yskf.jp/product/search_menu.html#03" target="_self">ご飯・雑炊</a></td><td style="WIDTH: 190px; VERTICAL-ALIGN: top" valign="top"><a href="http://www.yskf.jp/product/search_menu.html#04" target="_self">肉料理</a><br /><a href="http://www.yskf.jp/product/search_menu.html#05" target="_self">中華料理</a><br /><a href="http://www.yskf.jp/product/search_menu.html#06" target="_self">水産加工品、調理品</a></td><td style="WIDTH: 190px; VERTICAL-ALIGN: top" valign="top"><a href="http://www.yskf.jp/product/search_menu.html#07" target="_self">デザート</a><br /><a href="http://www.yskf.jp/product/search_menu.html#08" target="_self">お菓子</a></td><td style="WIDTH: 190px; VERTICAL-ALIGN: top" valign="top"><a href="http://www.yskf.jp/product/search_menu.html#09" target="_self">漬物</a><br /><a href="http://www.yskf.jp/product/search_menu.html#10" target="_self">ドレッシング</a></td></tr></tbody></table></div></li><li class="purpose"><a href="http://www.yskf.jp/product/search_purpose.html" target="_self"><img style="WIDTH: 200px; HEIGHT: 78px" alt="目的から探す" src="http://www.yskf.jp/images/17.jpg" /></a> <div class="sub"><table style="BORDER-RIGHT-WIDTH: 0px; BORDER-SPACING: 0px; WIDTH: 760px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px" summary="" border="0" cellpadding="0" cellspacing="0" width="760"><tbody><tr><td style="WIDTH: 380px; VERTICAL-ALIGN: top" valign="top"><a href="http://www.yskf.jp/product/search_purpose.html#01" target="_self">香りを強化したい方へ</a><br /><a href="http://www.yskf.jp/product/search_purpose.html#02" target="_self">味に厚み・コクを出したい方へ</a><br /><a href="http://www.yskf.jp/product/search_purpose.html#03" target="_self">より素材感がほしい方へ</a><br /><a href="http://www.yskf.jp/product/search_purpose.html#04" target="_self">化学調味料不使用にこだわりたい方へ</a><br /><a href="http://www.yskf.jp/product/search_purpose.html#05" target="_self">「だし」表記にこだわりたい方へ </a></td><td style="WIDTH: 380px; VERTICAL-ALIGN: top" valign="top"><a href="http://www.yskf.jp/product/search_purpose.html#06" target="_self">産地にこだわりたい方へ</a><br /><a href="http://www.yskf.jp/product/search_purpose.html#07" target="_self">減塩調味料をお探しの方に</a><br /><a href="http://www.yskf.jp/product/search_purpose.html#08" target="_self">機能性素材をお探しの方に</a><br /><a href="http://www.yskf.jp/product/search_purpose.html#09" target="_self">健康食品の開発事例</a></td></tr></tbody></table></div></li><li class="new"><a target="_self" href="http://www.yskf.jp/product/news.html"><img style="WIDTH: 200px; HEIGHT: 78px" alt="新商品" src="http://www.yskf.jp/images/18.jpg" /></a> <div class="sub"><table style="BORDER-RIGHT-WIDTH: 0px; BORDER-SPACING: 0px; WIDTH: 760px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px" summary="" border="0" cellpadding="0" cellspacing="0" width="760"><tbody><tr><td style="WIDTH: 380px; VERTICAL-ALIGN: top" valign="top"><a target="_self" href="http://www.yskf.jp/product/news.html">淡色調味液シリーズ</a><br /><a target="_self" href="http://www.yskf.jp/product/news.html">CVDチップシリーズ</a><br /><a target="_self" href="http://www.yskf.jp/product/Page_ET.html">ETシリーズ</a><br /></td><td style="WIDTH: 380px; VERTICAL-ALIGN: top" valign="top"><br /><br /><br /></td></tr></tbody></table></div></li></ul></div><br /><br /><table style="BORDER-RIGHT-WIDTH: 0px; BORDER-SPACING: 0pt; WIDTH: 960px; BORDER-COLLAPSE: separate; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px" summary="テーブル" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td style="WIDTH: 310px"><a href="http://www.yskf.jp/research/" target="_self"><img style="WIDTH: 310px; HEIGHT: 208px" alt="研究開発" src="http://www.yskf.jp/images/359.png" /></a></td><td style="WIDTH: 15px">&nbsp;</td><td style="WIDTH: 310px"><a href="http://www.yskf.jp/company/know.html" target="_self"><img style="WIDTH: 310px; HEIGHT: 208px" alt="YSKを知る" src="http://www.yskf.jp/images/357.png" /></a></td><td style="WIDTH: 15px">&nbsp;</td><td style="WIDTH: 310px"><a href="http://www.yskf.jp/ir/" target="_self"><img style="WIDTH: 310px; HEIGHT: 208px" alt="IR情報" src="http://www.yskf.jp/images/358.png" /></a></td></tr></tbody></table><br /><br /><table style="BORDER-RIGHT-WIDTH: 0px; BORDER-SPACING: 0px; WIDTH: 960px; BORDER-COLLAPSE: separate; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px" summary="テーブル" border="0" cellpadding="0" cellspacing="0" width="960"><tbody><tr><td><br /></td><td><br /></td><td>&nbsp;</td></tr><tr><td style="WIDTH: 630px; VERTICAL-ALIGN: top" valign="top"><br /><table style="BACKGROUND-IMAGE: url(http://www.yskf.jp/images/25.jpg); BORDER-RIGHT-WIDTH: 0px; BORDER-SPACING: 0px; WIDTH: 630px; BORDER-COLLAPSE: separate; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px" summary="テーブル" border="0" cellpadding="9" cellspacing="0" width="630"><tbody><tr><td><img style="WIDTH: 70px; HEIGHT: 25px" alt="新着情報" src="http://www.yskf.jp/images/26.png" /><a href="http://www.yskf.jp/news/" target="_self"><img style="WIDTH: 113px; HEIGHT: 25px" alt="新着情報一覧へ" src="http://www.yskf.jp/images/27.png" align="right" /></a></td></tr></tbody></table><br /><table style="border-width: 0px; border-spacing: 0px; border-collapse: separate;" summary="テーブル" height="278" border="0" cellpadding="1" cellspacing="0" width="630"><tbody><tr><td colspan="1">&nbsp;2017/8/10</td><td colspan="1">&nbsp;</td><td colspan="1"><div style="text-align: center;"><img style="WIDTH: 59px; HEIGHT: 12px" alt="IR情報" src="http://www.yskf.jp/images/31.gif" /></div></td><td colspan="1">&nbsp;</td><td colspan="1"><a target="_self" href="http://www.yskf.jp/ir/b-announce.html">IR資料ライブラリーを更新しました</a>「<a target="_self" href="http://www.yskf.jp/ir/yuuhou.html">第59期 第1四半期報</a>」を掲載　<span style="color: #ff0000;"><strong>NEW!</strong></span><br /></td></tr><tr><td colspan="1">&nbsp;2017/8/4</td><td colspan="1">&nbsp;</td><td colspan="1"><div style="text-align: center;"><img style="WIDTH: 59px; HEIGHT: 12px" alt="IR情報" src="http://www.yskf.jp/images/31.gif" /></div></td><td colspan="1">&nbsp;</td><td colspan="1"><a target="_self" href="http://www.yskf.jp/news/20170804-2.html">第三者割当による自己株式の処分に関するお知らせ</a><span style="color: #ff0000;"><strong></strong></span></td></tr><tr><td colspan="1">&nbsp;2017/8/4</td><td colspan="1">&nbsp;</td><td colspan="1"><div style="text-align: center;"><img style="WIDTH: 59px; HEIGHT: 12px" alt="IR情報" src="http://www.yskf.jp/images/31.gif" /></div></td><td colspan="1">&nbsp;</td><td colspan="1"><a target="_self" href="http://www.yskf.jp/news/20170804-1.html">株式報酬制度の詳細決定に関するお知らせ</a><span style="color: #ff0000;"><strong></strong></span></td></tr><tr><td colspan="1">&nbsp;2017/8/4</td><td colspan="1">&nbsp;</td><td colspan="1"><div style="text-align: center;"><img style="WIDTH: 59px; HEIGHT: 12px" alt="IR情報" src="http://www.yskf.jp/images/31.gif" /></div></td><td colspan="1">&nbsp;</td><td colspan="1"><a target="_self" href="http://www.yskf.jp/news/20160804_1Q.html">平成30年3月期 第1四半期連結決算は減収増益</a><span style="color: #ff0000;"><strong></strong></span><br /></td></tr><tr><td colspan="1">&nbsp;2017/7/12</td><td colspan="1">&nbsp;</td><td colspan="1"><div style="text-align: center;"><img src="http://www.yskf.jp/images/30.gif" alt="お知らせ" style="width:59px; height:12px; " /></div></td><td colspan="1">&nbsp;</td><td colspan="1"><a target="_self" href="http://www.yskf.jp/company/movie-opening.html">会社案内動画を掲載しました</a><span style="color: #ff0000;"><strong></strong></span><br /></td></tr><tr><td colspan="1">&nbsp;2017/6/29</td><td colspan="1">&nbsp;</td><td colspan="1"><div style="text-align: center;"><img style="WIDTH: 59px; HEIGHT: 12px" alt="IR情報" src="http://www.yskf.jp/images/31.gif" /></div></td><td colspan="1">&nbsp;</td><td colspan="1"><a target="_self" href="http://www.yskf.jp/ir/kabunusisoukai.html">「臨時報告書(議決権行使結果)」を掲載</a><span style="color: #ff0000;"><strong></strong></span></td></tr><tr><td colspan="1">&nbsp;2017/6/29</td><td colspan="1">&nbsp;</td><td colspan="1"><div style="text-align: center;"><img style="WIDTH: 59px; HEIGHT: 12px" alt="IR情報" src="http://www.yskf.jp/images/31.gif" /></div></td><td colspan="1">&nbsp;</td><td colspan="1">IR情報を更新しました<a href="http://www.yskf.jp/ir/k-koukoku.html">「グループ会社決算公告」を掲載</a><span style="color: #ff0000;"><strong></strong></span><br /></td></tr><tr><td colspan="1">&nbsp;2017/6/29</td><td colspan="1">&nbsp;</td><td colspan="1"><div style="text-align: center;"><img style="WIDTH: 59px; HEIGHT: 12px" alt="IR情報" src="http://www.yskf.jp/images/31.gif" /></div></td><td colspan="1">&nbsp;</td><td colspan="1"><a target="_self" href="http://www.yskf.jp/ir/b-announce.html">IR資料ライブラリーを更新しました</a>「<a target="_self" href="http://www.yskf.jp/ir/yuuhou.html">第58期有価証券報告書</a>」を掲載<span style="color: #ff0000;"><strong></strong></span><br /></td></tr><tr><td colspan="1">&nbsp;2017/6/28</td><td colspan="1">&nbsp;</td><td colspan="1"><div style="text-align: center;"><img style="WIDTH: 59px; HEIGHT: 12px" alt="IR情報" src="http://www.yskf.jp/images/31.gif" /></div></td><td colspan="1">&nbsp;</td><td colspan="1"><a target="_self" href="http://www.yskf.jp/ir/b-announce.html">IR資料ライブラリーを更新しました</a>「<a href="http://www.yskf.jp/ir/governance.html">コーポレートガバナンス報告書</a>」を掲載<strong></strong></td></tr><tr><td colspan="1">&nbsp;2017/6/28</td><td colspan="1">&nbsp;</td><td colspan="1"><div style="text-align: center;"><img style="WIDTH: 59px; HEIGHT: 12px" alt="IR情報" src="http://www.yskf.jp/images/31.gif" /></div></td><td colspan="1">&nbsp;</td><td colspan="1"><a target="_self" href="http://www.yskf.jp/news/20170628.html">人事異動に関するお知らせ</a><span style="color: #ff0000;"><strong></strong></span></td></tr><tr><td colspan="1">&nbsp;2017/6/28</td><td colspan="1">&nbsp;</td><td colspan="1"><div style="text-align: center;"><img style="WIDTH: 59px; HEIGHT: 12px" alt="IR情報" src="http://www.yskf.jp/images/31.gif" /></div></td><td colspan="1">&nbsp;</td><td colspan="1"><a target="_self" href="http://www.yskf.jp/ir/b-announce.html">IR資料ライブラリーを更新しました</a>「<a target="_self" href="http://www.yskf.jp/ir/report.html">期末報告書</a>」を掲載<span style="color: #ff0000;"><strong></strong></span><br /></td></tr></tbody></table></td><td>&nbsp;</td><td style="WIDTH: 300px; VERTICAL-ALIGN: top" valign="top"><a href="http://www.yskf.jp/ir/message.html" target="_self"><img src="http://www.yskf.jp/images/790.jpg" alt="トップメッセージ" style="width:300px; height:70px; " /></a><br /><a href="http://www.yskf.jp/ir/b-announce.html" target="_self"><img style="WIDTH: 300px; HEIGHT: 70px" alt="IR資料ライブラリ" src="http://www.yskf.jp/images/33.jpg" /></a><br /><a href="http://www.yskf.jp/company/csr.html" target="_self"><img style="WIDTH: 300px; HEIGHT: 71px" alt="CSRへの取り組み" src="http://www.yskf.jp/images/34.jpg" /></a><br /><br /><table style="BORDER-RIGHT-WIDTH: 0px; BORDER-SPACING: 0pt; WIDTH: 300px; BORDER-COLLAPSE: separate; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px" summary="テーブル" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td colspan="2"><img style="WIDTH: 300px; HEIGHT: 28px" alt="IR情報" src="http://www.yskf.jp/images/35.jpg" /></td></tr><tr><td><a href="http://www.yskf.jp/ir/strateg.html" target="_self"><img style="WIDTH: 150px; HEIGHT: 36px" alt="経営計画" src="http://www.yskf.jp/images/36.jpg" /></a></td><td><a href="http://www.yskf.jp/ir/stockinfo.html" target="_self"><img style="WIDTH: 150px; HEIGHT: 36px" alt="株式情報" src="http://www.yskf.jp/images/37.jpg" /></a></td></tr><tr><td><a href="http://www.yskf.jp/ir/b-highlights.html" target="_self"><img style="WIDTH: 150px; HEIGHT: 36px" alt="財務ハイライト" src="http://www.yskf.jp/images/38.jpg" /></a></td><td><a href="http://www.yskf.jp/ir/ircalendar.html" target="_self"><img style="WIDTH: 150px; HEIGHT: 36px" alt="IRカレンダー" src="http://www.yskf.jp/images/39.jpg" /></a></td></tr><tr><td><a href="http://www.yskf.jp/ir/kabunusisoukai.html" target="_self"><img style="WIDTH: 150px; HEIGHT: 36px" alt="株主総会" src="http://www.yskf.jp/images/40.jpg" /></a></td><td><a href="http://www.yskf.jp/ir/FAQ.html" target="_self"><img style="WIDTH: 150px; HEIGHT: 36px" alt="よくある質問" src="http://www.yskf.jp/images/41.jpg" /></a></td></tr></tbody></table></td></tr></tbody></table><br /><img style="WIDTH: 960px; HEIGHT: 5px" alt="line" src="http://www.yskf.jp/images/5.gif" /><br /><br /><table style="BACKGROUND-IMAGE: url(http://www.yskf.jp/images/42.gif); BORDER-RIGHT-WIDTH: 0px; BORDER-SPACING: 0px; WIDTH: 960px; BORDER-COLLAPSE: separate; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px" summary="テーブル" border="0" cellpadding="14" cellspacing="0" width="960"><tbody><tr><td><table style="BORDER-RIGHT-WIDTH: 0px; BORDER-SPACING: 0pt; WIDTH: 930px; BORDER-COLLAPSE: separate; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px" summary="テーブル" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td style="WIDTH: 230px"><a href="http://www.yskf.jp/acetylglucosamine/" target="_blank"><img style="WIDTH: 230px; HEIGHT: 52px" alt="N-アセチルグルコサミン" src="http://www.yskf.jp/images/43.jpg" /></a></td><td style="WIDTH: 4px"><br /></td><td style="WIDTH: 230px"><a href="http://www.yskf.jp/anserine/" target="_blank"><img style="WIDTH: 230px; HEIGHT: 52px" alt="アンセリンについて" src="http://www.yskf.jp/images/44.jpg" /></a></td><td style="WIDTH: 4px"><br /></td><td style="WIDTH: 230px"><a target="_self" href="http://www.yskf.jp/josei/"><img src="http://www.yskf.jp/images/836.jpg" alt="うるるん肌ドリンクバナー" height="52" width="270" /></a><br /></td><td style="WIDTH: 3px"><br /></td><td style="WIDTH: 230px">&nbsp;</td></tr></tbody></table></td></tr></tbody></table><br /><br />
+<!-- /maincontent --></div>
+<!-- /pg_body --></div>
+
+
+<div id="pg_top"><a href="#top"><img src="http://www.yskf.jp/_cmn/btn_pgtop.png" alt="ページの先頭へ" class="imgover" /></a>
+<!-- /pg_top --></div>
+
+<div id="pg_foot">
+<div class="wrap">
+<div class="ftr_lnk fleft">
+<div class="box">
+			
+
+			<h3 class="title"><span>会社案内</span></h3>
+			<ul><li><a href="http://www.yskf.jp/company/message.html"><span>ご挨拶</span></a></li><li><a href="http://www.yskf.jp/company/outline.html"><span>会社概要</span></a></li><li><a href="http://www.yskf.jp/company/organization-chart.html"><span>組織図</span></a></li><li><a href="http://www.yskf.jp/company/philosophy.html"><span>企業理念</span></a></li><li><a href="http://www.yskf.jp/company/activities.html"><span>行動指針、倫理規範</span></a></li><li><a href="http://www.yskf.jp/company/quality.html"><span>品質方針</span></a></li><li><a href="http://www.yskf.jp/company/foodsafety.html"><span>食品安全方針</span></a></li><li><a href="http://www.yskf.jp/company/csr.html"><span>CSR活動</span></a></li><li><a href="http://www.yskf.jp/company/history.html"><span>沿革</span></a></li><li><a href="http://www.yskf.jp/company/office.html"><span>事業所一覧</span></a></li><li><a href="http://www.yskf.jp/company/factory.html"><span>工場案内</span></a></li><li><a href="http://www.yskf.jp/company/group.html"><span>グループ会社</span></a></li><li><a href="http://www.yskf.jp/company/know.html"><span>YSKを知る</span></a></li><li><a href="http://www.yskf.jp/company/equipment.html"><span>設備紹介</span></a></li><li><a href="http://www.yskf.jp/company/movie-opening.html"><span>会社紹介ムービー</span></a></li></ul>
+<!-- /box --></div>
+<div class="box">
+			
+
+			<h3 class="title"><span>製品紹介</span></h3>
+			<ul><li><a href="http://www.yskf.jp/product/news.html"><span>新商品</span></a></li><li><a href="http://www.yskf.jp/product/l-seasoning.html"><span>液体調味料</span></a></li><li><a href="http://www.yskf.jp/product/p-seasoning.html"><span>粉体調味料</span></a></li><li><a href="http://www.yskf.jp/product/f-materials.html"><span>機能性素材</span></a></li><li><a href="http://www.yskf.jp/product/kaori.html"><span>香り三昧®シリーズ</span></a></li><li><a href="http://www.yskf.jp/product/drip-huuminoshizuku.html"><span>風味の雫®シリーズ</span></a></li><li><a href="http://www.yskf.jp/product/nc-series.html"><span>ＮＣシリーズ</span></a></li><li><a href="http://www.yskf.jp/product/aromaster.html"><span>アロマスター®シリーズ</span></a></li><li><a href="http://www.yskf.jp/product/umami.html"><span>旨みたっぷりシリーズ</span></a></li><li><a href="http://www.yskf.jp/product/seasoning-oil-1.html"><span>シーズニングオイルシリーズ</span></a></li><li><a href="http://www.yskf.jp/product/cvd-powder.html"><span>ＣＶＤパウダーシリーズ</span></a></li><li><a href="http://www.yskf.jp/product/low-salt.html"><span>低塩シリーズ</span></a></li><li><a href="http://www.yskf.jp/product/ET.html"><span>ETシリーズ</span></a></li><li><a href="http://www.yskf.jp/product/cvd.html"><span>ＣＶＤチップシリーズ</span></a></li><li><a href="http://www.yskf.jp/product/tansyoku.html"><span>淡色調味液シリーズ</span></a></li></ul>
+<!-- /box --></div>
+<div class="box">
+			
+
+			<h3 class="title"><span>研究開発</span></h3>
+			<ul><li><a href="http://www.yskf.jp/research/unctionality.html"><span>機能性研究</span></a></li><li><a href="http://www.yskf.jp/research/nag01.html"><span>N-アセチルグルコサミン</span></a></li><li><a href="http://www.yskf.jp/research/anserine01.html"><span>アンセリン</span></a></li><li><a href="http://www.yskf.jp/research/chitin-o01.html"><span>キチンオリゴ糖</span></a></li><li><a href="http://www.yskf.jp/research/chitosan-o01.html"><span>キトサンオリゴ糖</span></a></li><li><a href="http://www.yskf.jp/research/fucoidan01.html"><span>フコイダン</span></a></li><li><a href="http://www.yskf.jp/research/theaflavin01.html"><span>テアフラビン</span></a></li><li><a href="http://www.yskf.jp/research/seasoning.html"><span>調味料研究</span></a></li><li><a href="http://www.yskf.jp/research/b-extract01.html"><span>鰹だし</span></a></li><li><a href="http://www.yskf.jp/research/lowsalt01.html"><span>低塩食品</span></a></li></ul>
+<!-- /box --></div>
+<div class="box">
+			
+
+			<h3 class="title"><span>IR情報</span></h3>
+			<ul><li><a href="http://www.yskf.jp/ir/message.html"><span>トップメッセージ</span></a></li><li><a href="http://www.yskf.jp/ir/strateg.html"><span>経営計画</span></a></li><li><a href="http://www.yskf.jp/ir/b-highlights.html"><span>財務ハイライト</span></a></li><li><a href="http://www.yskf.jp/ir/kabunusisoukai.html"><span>株主総会</span></a></li><li><a href="http://www.yskf.jp/ir/k-koukoku.html"><span>グループ会社決算公告</span></a></li><li><a href="http://www.yskf.jp/ir/b-announce.html"><span>IR資料ライブラリー</span></a></li><li><a href="http://www.yskf.jp/ir/stockinfo.html"><span>株式情報</span></a></li><li><a href="http://www.yskf.jp/ir/ircalendar.html"><span>IRカレンダー</span></a></li><li><a href="http://www.yskf.jp/ir/others.html"><span>その他</span></a></li><li><a href="http://www.yskf.jp/ir/koukoku.html"><span>電子公告</span></a></li></ul>
+<!-- /box --></div>
+<div class="box">
+			
+
+			<h3 class="title"><span>採用情報</span></h3>
+			<ul><li><a href="http://www.yskf.jp/recruit/message_section.html"><span>先輩社員からのメッセージ</span></a></li></ul>
+<!-- /box --></div>
+<!-- /ftr_lnk --></div>
+<div class="ftr_lnk2 fright">
+<div class="bnr"><a href="http://umiwellness.com/" target="_blank"><img src="http://www.yskf.jp/_cmn/bnr_umi.png" alt="umiウェルネス" class="imgover" /></a></div>
+<ul><!--
+--><li><a href="http://www.yskf.jp/contact/">お問い合わせ</a></li><!--
+--><li><a href="http://www.yskf.jp/s-policy/">ご利用にあたって</a></li><!--
+--><li><a href="http://www.yskf.jp/p-policy/">プライバシーポリシー</a></li><!--
+<li><a href="http://www.yskf.jp/d_policy/">情報開示基本方針</a></li>
+--><li><a href="http://www.yskf.jp/sitemap/">サイトマップ</a></li><!--
+--></ul>
+<!-- /ftr_lnk2 --></div>
+<div class="clr"><!-- --></div>
+<!-- /wrap --></div>
+<!-- /pg_foot --></div>
+<div id="pg_foot2">
+<div class="wrap">
+<dl class="access">
+<dt>焼津水産化学工業株式会社</dt>
+<dd>静岡県静岡市駿河区南町11-1　静銀・中京銀 静岡駅南ビル6階</dd>
+</dl>
+<div class="copyright">Copyright (C) Yaizu Suisankagaku Industry  Co.,Ltd. All Rights Reserved.</div>
+<!-- /wrap --></div>
+<!-- /pg_foot2 --></div>
+
+<div id="slide_panel">
+	<div class="wrap menu_off">
+		<div class="panel_main">
+		<div class="panel_imgs"><img src="http://www.yskf.jp/_cmn/img_contact.png" alt="電話番号：054-202-6030" /><br /><a href="http://www.yskf.jp/contact/"><img src="http://www.yskf.jp/_cmn/btn_contactfrm.jpg" alt="メールでのお問い合わせ" class="imgover" /></a></div>
+		</div>
+	</div>
+</div>
+<!-- /pg_wrap --></div>
+
+<script type="text/javascript">//<![CDATA[
+// jQuery Lightpop
+jQuery(function(){
+ var box = [jQuery('#maincontent')];
+ for(var i=0;i<6;i++) jQuery('a[href*=.jpg], a[href*=.gif], a[href*=.png]',box[i]).lightpop({overlayBgColor:'#000',contentBorder:'1px solid silver'});
+});
+//]]></script>
+
+
+<script type="text/javascript" src="//api.docodoco.jp/v4/docodoco?key=SlnTl098pmBOPs8edCUU8YO9lUydDVSfGdJ054rtxEw9Elzpg5m7oOZnChNXhMr3" charset="utf-8"></script>
+<script type="text/javascript" src="http://www.yskf.jp/_js/docodoco_ua_plugin.js" charset="utf-8"></script>
+
+<script type="text/javascript">
+var d = new Date();
+var h = d.getHours();
+var m = d.getMinutes();
+var s = d.getSeconds();
+
+if ( h < 10 ) {h = '0' + h;}
+if ( m < 10 ) {m = '0' + m;}
+if ( s < 10 ) {s = '0' + s;}
+
+var timing = h + ':' + m + ':' + s ;
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4118799-1']);
+  _gaq.push(['_setCustomVar',1,'Org', SURFPOINT.getOrgName() ,1]);
+  _gaq.push(['_setCustomVar',2,'URL', SURFPOINT.getOrgUrl() ,1]);
+  _gaq.push(['_setCustomVar',3,'IP', SURFPOINT.getIP() ,1]);
+  _gaq.push(['_setCustomVar',4,'Time', timing ,3]);
+  _gaq.push(['_setCustomVar',5,'Cat',getIndL(SURFPOINT.getOrgIndustrialCategoryL()) ,1]);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+</body>
+</html>

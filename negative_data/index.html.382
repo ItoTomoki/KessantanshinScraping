@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="ja" class="ja">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width" />
+
+<title>株式会社エスプール</title>
+<meta name="description" content="人材派遣、障がい者雇用支援、ロジスティクスアウトソーシング、スマートメーター設置支援、販売支援など、アウトソーシングサービスの提供を通じて、企業の経営課題の解決、競争力向上を支援しています。" />
+<meta name="keywords" content="エスプール,エスプールヒューマンソリューションズ,エスプールプラス,エスプールロジスティクス,エスプールエンジニアリング,エスプールセールスサポート,アウトソーシング,人材派遣,障がい者雇用,障害者雇用,就労移行支援,ロジスティクスアウトソーシング,発送代行,スマートメーター,販売支援,セールスサポート,MD" />
+
+<link rel="shortcut icon" type="image/png" href="images/favicon.png" />
+<link rel="icon" type="image/png" sizes="196x196" href="images/favicon-196x196.png" />
+<link rel="apple-touch-icon" type="image/png" sizes="152x152" href="images/apple-touch-icon-152x152-precomposed.png" />
+
+
+<!-- css -->
+<link rel="stylesheet" type="text/css" media="all" href="./css/reset.css">
+<link rel="stylesheet" type="text/css" media="all" href="./css/common.css">
+<link rel="stylesheet" type="text/css" media="all" href="./css/jquery.bxslider.css">
+
+<!-- js -->
+<script type="text/javascript" src="./js/jquery.js"></script>
+<script type="text/javascript" src="./js/common.js"></script>
+<script type="text/javascript" src="./js/jquery.bxslider.js"></script>
+<script type="text/javascript" src="./js/slider.js"></script>
+		<!--[if lt IE 9]>
+				<script type="text/javascript" src="./js/html5shiv-printshiv.js"></script>
+		<![endif]-->
+		<!--[if (gte IE 6)&(lte IE 8)]>
+				<script type="text/javascript" src="./js/selectivizr.js"></script>
+		<![endif]-->
+
+<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<header>
+		<div class="wrap clearfix">
+				<h1><a href="/"><img src="images/logo.png" alt="株式会社エスプール" /></a></h1>
+				<nav>
+						<ul class="clearfix">
+								<li><a href="/company/">会社情報</a></li>
+						  <li class="nav2"><a href="/service/">サービス</a></li>
+						  <li class="ir"><a href="/invester/">株主・投資家情報</a></li>
+								<li><a href="/recruit/">採用情報</a></li>
+						</ul>
+				</nav>
+				<p><a href="https://www.spool.co.jp/contact/">お問合せ</a></p>
+				<p class="btnJp">JP</p>
+				<p class="btnEn"><a href="/en/">EN</a></p>
+				<div class="search clearfix">
+						<form method="GET" action="http://www.google.co.jp/search">
+								<div class="inputSearch"><input type="text" name="q" value="" placeholder="" id="textArea"></div>
+								<div class="btnSearch"><input type="submit" name="btnG" value="検索" id="submitBtn"><input type="hidden" value="www.spool.co.jp" name="as_sitesearch" /></div>
+						</form>
+				</div>
+		</div>
+		
+		<div id="menu1" class="menu">
+				<div class="wrap">
+						<table>
+								<tr>
+										<td><a href="/company/message.html">TOPメッセージ</a></td>
+										<td><a href="/company/outline.html">会社概要</a></td>
+										<td><a href="/company/vision.html">企業理念</a></td>
+										<td><a href="/company/executive.html">役員の紹介</a></td>
+								</tr>
+								<tr>
+										<td><a href="/company/business.html">事業内容</a></td>
+										<td><a href="/company/history.html">沿革</a></td>
+										<td><a href="/company/csr.html">CSR</a></td>
+										<td><a href="/company/office_list.html">グループ会社・拠点一覧</a></td>
+<td><a href="/company/compliance.html">コンプライアンス</a></td>
+								</tr>
+						</table>
+				</div>
+		</div>
+		<div id="menu2" class="menu service">
+		  <div class="wrap">
+						<div>
+								<ul class="clearfix">
+										<li><a href="/service/shs/" target="_blank">
+												<div><img src="/images/header_servise_logo1.png" alt="人材派遣サービス" /></div>
+												<p class="title c1">人材派遣サービス</p>
+										</a></li>
+										<li><a href="/service/logi/" target="_blank">
+												<div><img src="/images/header_servise_logo2.png" alt="ロジスティクスアウトソーシング" /></div>
+												<p class="title sfnt c2">ロジスティクスアウトソーシング</p>
+										</a></li>
+										<li><a href="/service/plus/" target="_blank">
+												<div><img src="/images/header_servise_logo3.png" alt="障がい者雇用支援サービス" /></div>
+												<p class="title c3">障がい者雇用支援サービス</p>
+										</a></li>
+										<li><a href="/service/engi/" target="_blank">
+												<div><img src="/images/header_servise_logo5.png" alt="フィールドマーケティングサービス" /></div>
+												<p class="title c5">フィールドマーケティング</p>
+										</a></li>
+										<li><a href="/service/sss/" target="_blank">
+												<div><img src="/images/header_servise_logo4.png" alt="セールスサポートサービス" /></div>
+												<p class="title c4">セールスサポートサービス</p>
+										</a></li>
+								</ul>
+						</div>
+						<div class="sec">
+								<ul class="clearfix">
+										<li><a href="http://komon-haken.spool.co.jp/" target="_blank">
+												<p class="title">プロフェショナル人材バンク<br><br></p>
+												<p>豊富な経営経験、専門知識、人脈をもったプロフェショナルシニア人材を顧問として紹介するサービスです</p>
+										</a></li>
+										<li><a href="https://inq.spool.co.jp/" target="_blank">
+												<p class="title">応募受付代行サービス「Omusubi」</p>
+												<p>企業様に代わり求人応募者の対応することで、確実に面接につなげ採用効率を上げる新しいサービスです</p>
+										</a></li>
+										<li><a href="/service/oversea.html">
+												<p class="title">グローバル人材サービス<br><br></p>
+												<p>「教育」を最大の強みとした海外人材の紹介サービス及び訪日外国人受け入れ支援サービスを行っています</p>
+										</a></li>
+										<li><a href="http://www.seiyakuonline.com/" target="_blank">
+												<p class="title">製薬業界に特化した転職サイト「製薬オンライン」</p>
+												<p>製薬・バイオ・化学に特化した、専門性の高い製薬業界経験者向けの人材紹介サービスを提供しています</p>
+										</a></li>
+								</ul>
+						</div>
+				</div>
+		</div>
+		<div id="menu3" class="menu">
+		  <div class="wrap">
+						<table>
+								<tr>
+										<td><a href="/invester/management/">経営方針</a></td>
+										<td><a href="/invester/personal/">個人投資家の皆様へ</a></td>
+										<td><a href="/invester/financials/">業績・財務情報</a></td>
+										<td><a href="/invester/library/">IR資料</a></td>
+								</tr>
+								<tr>
+										<td><a href="/invester/stock/">株主・株式情報</a></td>
+										<td><a href="/invester/release/">IRニュース</a></td>
+										<td><a href="/invester/calendar/">IRカレンダー</a></td>
+										<td><a href="/invester/faq/">よくある質問（IR）</a></td>
+								</tr>
+						</table>
+				</div>
+		</div>
+		<div id="menu4" class="menu">
+		  <div class="wrap">
+						<table>
+								<tr>
+										<td><a href="http://saiyou.spool.co.jp/" target="_blank">新卒採用情報（求人情報）</a></td>
+										<td><a href="/recruit/career.html">中途採用情報（求人情報）</a></td>
+										<td><a href="/recruit/person/index.html">仕事・人を知る</a></td>
+                                        <td></td>
+								</tr>
+								<tr>
+
+										<td><a href="/recruit/culture.html">文化を知る</a></td>
+										<td><a href="/recruit/system.html">制度を知る</a></td>
+										<td><a href="/recruit/worklife.html">ワークライフバランス</a></td>
+										<td><a href="/recruit/faq.html">よくある質問（採用）</a></td>
+								</tr>
+						</table>
+				</div>
+		</div>
+</header>
+
+<section class="mainImg">
+		<div class="wrap3"><img src="images/main/main.jpg" alt="" /></div>
+</section>
+
+<section class="ticker">
+		<div class="wrap clearfix" >
+				<h2>TOPICS</h2>
+				<div class="tickerArea">
+
+<!-- E-IR Parts コーポレートトップ 1/4 -->
+<div id="eirArea1"></div>
+<!-- /E-IR Parts コーポレートトップ 1/4 -->
+
+				</div>
+				<p class="btnNews"><a href="#newsList">一覧</a></p>
+		</div>
+</section>
+
+<section class="pickup">
+		<div class="wrap">
+				<ul class="slider3">
+						<li class="g4"><a href="/service/sss/" target="_blank">
+								<div><img src="images/pickup/04.jpg" alt="セールスサポートサービス" /></div>
+								<div class="title">
+										<p>セールスサポートサービス</p>
+										<p class="enTTL">SPOOL SALES SUPPORT</p>
+								</div>
+								<p class="caption"><span>商品の売上アップやシェア向上につながる販売支援業務、<br>調査や資格試験などの事務局運営を行っています</span></p>
+						</a></li>
+						<li class="g1"><a href="/service/shs/" target="_blank">
+								<div><img src="images/pickup/01.jpg" alt="人材派遣サービス" /></div>
+								<div class="title">
+										<p>人材派遣サービス</p>
+										<p class="enTTL">SPOOL HUMAN SOLUTIONS</p>
+								</div>
+								<p class="caption"><span>管理者とスタッフが一体となり成果を上げる<br>グループ型派遣を特徴とした人材サービスを行っています</span></p>
+						</a></li>
+						<li class="g2"><a href="/service/logi/" target="_blank">
+								<div><img src="images/pickup/02.jpg" alt="ロジスティクスアウトソーシング" /></div>
+								<div class="title">
+										<p>ロジスティクスアウトソーシング</p>
+										<p class="enTTL">SPOOL LOGISTICS</p> 
+								</div>
+								<p class="caption"><span>品質やコストに定評のあるネット通販商品の発送<br>代行業務や物流センターの運営代行業務を行っています</span></p>
+						</a></li>
+						<li class="g3"><a href="/service/plus/" target="_blank">
+								<div><img src="images/pickup/03.jpg" alt="障がい者雇用支援サービス" /></div>
+								<div class="title">
+										<p>障がい者雇用支援サービス</p>
+										<p class="enTTL">SPOOL PLUS</p>
+								</div>
+								<p class="caption"><span>障がい者雇用でお困りの企業様に、日本で唯一の<br>貸し農園を活用した障がい者雇用の支援を行っています</span></p>
+						</a></li>
+						<li class="g5"><a href="/service/engi/" target="_blank">
+								<div><img src="images/pickup/05.jpg" alt="フィールドマーケティングサービス" /></div>
+								<div class="title">
+										<p>フィールドマーケティングサービス</p>
+										<p class="enTTL">SPOOL ENGINEERING</p>
+								</div>
+								<p class="caption"><span>電気・通信インフラの設備工事の支援や<br>スマートグリット化の各種支援を行っています</span></p>
+						</a></li>
+				</ul>
+		</div>
+</section>
+
+<section class="topMsg">
+		<div class="wrap clearfix">
+				<div class="col1 clearfix">
+						<div class="bgw clearfix">
+								<div class="col1-1">
+										<h2><span>ABOUT SPOOL</span><br>会社情報</h2>
+                                        <p class="btnMore"><a href="/company/">MORE</a></p>
+								</div>
+								<div class="col1-2"><a href="/company/"><img src="images/topmsg_01.png" alt="会社情報" /></a></div>
+						</div>
+						<div class="mt30 bgw clearfix">
+								<div class="col1-1">
+										<h2><span>RECRUIT</span><br>採用情報</h2>
+                                        <p class="btnMore"><a href="/recruit/">MORE</a></p>
+								</div>
+								<div class="col1-2"><a href="/recruit/"><img src="images/topmsg_03.png" alt="採用情報" /></a></div>
+						</div>
+				</div>
+				<div class="col2">
+						<div class="bgw clearfix">
+								<div class="col2-1">
+										<h2><span>Investor Relations</span><br>株主・投資家情報</h2>
+                                        <p class="btnMore"><a href="/invester/">MORE</a></p>
+								</div>
+								<div class="col2-2"><a href="/invester/"><img src="images/topmsg_02.png" alt="株主・投資家情報" /></a></div>
+						</div>
+						<div class="mt30 bgw clearfix">
+								<div class="col2-1">
+										<h2><span>New Graduate Recruitment</span><br>新卒採用特設ページ</h2>
+                                        <p class="btnMore"><a href="http://saiyou.spool.co.jp/" target="_blank">MORE</a></p>
+								</div>
+								<div class="col2-2"><a href="http://saiyou.spool.co.jp/" target="_blank"><img src="images/topmsg_04.png" alt="新卒採用特設ページ" /></a></div>
+						</div>
+				</div>
+		</div>
+</section>
+
+<section id="newsList" class="news">
+		<div class="wrap clearfix">
+				<div class="col1">
+						<h2>NEW<span class="ml0">S</span></h2>
+						<p>お知らせ</p>
+
+<!-- E-IR Parts コーポレートトップ 2/4 -->
+<div id="eirArea2"></div>
+<!-- /E-IR Parts コーポレートトップ 2/4 -->
+
+						<p class="btnView"><a href="/invester/release/">VIEW ALL</a></p>
+				</div>
+				<div class="col2">
+		    <h2>TIMELY<span>DISCLOSURE</span></h2>
+						<p>適時開示情報</p>
+
+<!-- E-IR Parts コーポレートトップ 3/4 -->
+<div id="eirArea3"></div>
+<!-- /E-IR Parts コーポレートトップ 3/4 -->
+
+						<p class="btnView"><a href="/invester/release/">VIEW ALL</a></p>
+				</div>
+		</div>
+</section>
+
+<!-- E-IR Parts コーポレートトップ 4/4 -->
+<div id="eirArea"></div>
+<script type="text/javascript" src="/invester/eir/eir.js" charset="utf-8"></script> 
+<script type="text/javascript">
+var eirUrl = ('https:' == document.location.protocol ? 'https://ssl4' : 'http://v4') + '.eir-parts.net';
+if(document.location.protocol == 'https:' || document.location.protocol == 'http:'){
+	var eirPass = eirUrl + '/Custom/public/parts/' + eirCode + '/ja/parts/';
+}else{
+	var eirPass = 'invester/ja/parts/';
+}
+document.write(unescape("%3Cscript src='" + eirPass + "top.js' charset='utf-8' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+if(typeof org_data == 'undefined'){
+	document.write(message)
+}
+</script>
+<!-- /E-IR Parts コーポレートトップ 4/4 -->
+
+<section class="associate">
+		<div class="wrap">
+				<h2>SPOOL <span>GROUP</span></h2>
+		  <p>グループ会社</p>
+				<ul class="clearfix">
+						<li class="c1"><a href="/service/shs/" target="_blank">
+								<p class="sub">人材派遣サービス<br><br></p>
+								<div><img src="images/grp_logo1.png" alt="エスプールヒューマンソリューションズ" /></div>
+								<p>エスプール<br>ヒューマンソリューションズ</p>
+						</a></li>
+						<li class="c2"><a href="/service/logi/" target="_blank">
+								<p class="sub">ロジスティクス<br>アウトソーシング</p>
+								<div><img src="images/grp_logo2.png" alt="エスプールロジスティクス" /></div>
+								<p>エスプール<br>ロジスティクス</p>
+						</a></li>
+						<li class="c3"><a href="/service/plus/" target="_blank">
+								<p class="sub">障がい者雇用支援サービス<br><br></p>
+								<div><img src="images/grp_logo3.png" alt="エスプールプラス" /></div>
+								<p>エスプール<br>プラス</p>
+						</a></li>
+						<li class="c4"><a href="/service/sss/" target="_blank">
+								<p class="sub">セールスサポートサービス<br><br></p>
+								<div><img src="images/grp_logo4.png" alt="エスプールセールスサポート" /></div>
+								<p>エスプール<br>セールスサポート</p>
+						</a></li>
+						<li class="c5"><a href="/service/engi/" target="_blank">
+								<p class="sub">フィールドマーケティング<br>サービス</p>
+								<div><img src="images/grp_logo5.png" alt="エスプールエンジニアリング" /></div>
+								<p>エスプール<br>エンジニアリング</p>
+						</a></li>
+				</ul>
+		</div>
+</section>
+
+<footer>
+		<div class="pageTop"><img src="images/btn_pagetop.png" alt="Page top" width="71" height="71"></div>
+		<div class="menu">
+				<div class="wrap">
+						<div class="company">
+								<p><a href="/company/">会社情報</a></p>
+								<ul>
+										<li><a href="/company/message.html">TOPメッセージ</a></li>
+										<li><a href="/company/outline.html">会社概要</a></li>
+										<li><a href="/company/vision.html">企業理念</a></li>
+										<li><a href="/company/executive.html">役員の紹介</a></li>
+										<li><a href="/company/business.html">事業内容</a></li>
+										<li><a href="/company/history.html">沿革</a></li>
+										<li><a href="/company/csr.html">CSR</a></li>
+										<li><a href="/company/office_list.html">グループ会社・拠点一覧</a></li>
+<li><a href="/company/compliance.html">コンプライアンス</a></li>
+								</ul>
+						</div>
+						
+						<div class="service">
+								<p><a href="/company/">サービス</a></p>
+								<ul>
+										<li><a href="/service/shs/" target="_blank">人材派遣/人材アウトソーシング</a></li>
+										<li><a href="/service/logi/" target="_blank">ロジスティクスアウトソーシングサービス</a></li>
+										<li><a href="/service/plus/" target="_blank">障がい者雇用支援サービス</a></li>
+										<li><a href="/service/engi/" target="_blank">フィールドマーケティングサービス</a></li>
+										<li><a href="/service/sss/" target="_blank">セールスサポートサービス</a></li>
+										<li><a href="http://komon-haken.spool.co.jp/" target="_blank">プロフェショナル人材バンク</a></li>
+										<li><a href="https://inq.spool.co.jp/" target="_blank">応募受付代行サービス「Omusubi」</a></li>
+										<li><a href="/service/oversea.html">グローバル人材サービス</a></li>
+										<li><a href="http://www.seiyakuonline.com/" target="_blank">製薬業界に特化した転職サイト「製薬オンライン」</a></li>
+								</ul>
+						</div>
+						
+						<div class="ir">
+								<p><a href="/invester/">株主・投資家情報</a></p>
+								<ul>
+										<li><a href="/invester/management/">経営方針</a></li>
+										<li><a href="/invester/personal/">個人投資家の皆様へ</a></li>
+										<li><a href="/invester/financials/">業績・財務情報</a></li>
+										<li><a href="/invester/library/">IR資料</a></li>
+										<li><a href="/invester/stock/">株主・株式情報</a></li>
+										<li><a href="/invester/release/">IRニュース</a></li>
+										<li><a href="/invester/calendar/">IRカレンダー</a></li>
+										<li><a href="/invester/faq/">よくある質問（IR）</a></li>
+								</ul>
+						</div>
+						
+						<div class="recruit">
+								<p><a href="/recruit/">採用情報</a></p>
+								<ul>
+										<li><a href="http://saiyou.spool.co.jp/" target="_blank">新卒採用情報</a></li>
+										<li><a href="/recruit/career.html">中途採用情報</a></li>
+										<li><a href="/recruit/person/index.html">仕事・人を知る</a></li>
+										<li><a href="/recruit/culture.html">文化を知る</a></li>
+										<li><a href="/recruit/system.html">制度を知る</a></li>
+										<li><a href="/recruit/worklife.html">ワークライフバランス</a></li>
+										<li><a href="/recruit/faq.html">よくある質問（採用）</a></li>
+								</ul>
+						</div>
+				</div>
+		</div>
+		<div class="cr">
+			<div class="wrap clearfix">
+						<p>Copyright &copy; S-Pool,Inc. All Rights Reserved.</p>
+						<ul class="clearfix">
+								<li><a href="/invester/management/disclosure.html">IRポリシー(ディスクロージャーポリシー)</a></li>
+								<li><a href="/privacy.html">個人情報保護方針</a></li>
+								<li><a href="/about.html">個人情報の取扱いについて</a></li>
+								<li><a href="/disclaimer.html">免責事項</a></li>
+								<li><a href="/rule.html">サイトのご利用にあたって</a></li>
+						</ul>
+				</div>
+		</div>
+</footer>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-8781789-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

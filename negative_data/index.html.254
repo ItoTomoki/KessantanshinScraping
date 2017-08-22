@@ -1,0 +1,359 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>樹状細胞ワクチン療法のテラ株式会社</title>
+	<meta name="description" content="免疫力でがんと闘う企業です。革新的な医療技術・サービスを創造し、みなさまの未来に貢献していきます。" />
+	<meta name="keywords" content="テラ株式会社,テラ,免疫療法,樹状細胞療法,先端医療,東大医科学研究所,がん,癌,ガン" />
+	<meta name="author" content="yoo t h" />
+	<meta name="content-language" content="ja" />
+	<meta name="robots" content="NOODP">
+	<meta http-equiv="Content-Style-Type" content="text/css" />
+	<meta http-equiv="Content-Script-Type" content="text/javascript" />
+	<meta property="og:image" content="/img/common/ogimage.jpg" />
+	<meta property="og:description" content="テラ株式会社は、がん治療用の樹状細胞ワクチンで薬事承認を目指す研究開発企業です。" />
+	<link rel="start" href="//www.tella.jp/" title="home" />
+<link rel="shortcut icon" href="/img/common/favicon.ico" type="/img/common/favicon.ico" />
+<link rel="stylesheet" href="/css/common.css" type="text/css" media="all" />
+<link rel="stylesheet" href="/css/company.css" type="text/css" media="all" />
+<link rel="stylesheet" href="/css/contact.css" type="text/css" media="all" />
+<link rel="stylesheet" href="/css/expert.css" type="text/css" media="all" />
+<link rel="stylesheet" href="/css/public.css" type="text/css" media="all" />
+<link rel="stylesheet" href="/css/recruit.css" type="text/css" media="all" />
+<link rel="stylesheet" href="/css/ir.css" type="text/css" media="all" />
+<link rel="stylesheet" href="/css/sitemap.css" type="text/css" media="all" />
+<link rel="stylesheet" href="/css/top.css" type="text/css" media="all" />
+<link rel="stylesheet" href="/ir/css/financial.css" type="text/css" media="all" />
+<link rev="made" href="mailto:yoo@merkmal.co.jp" title="author" />
+<script type="text/javascript" src="/js/jquery.js"></script>
+<script type="text/javascript" src="/js/function.js"></script>
+<script type="text/javascript" src="/js/jquery.fullwidthslider.1.0.js"></script>
+
+	<script type="text/javascript">
+var MAX_FEEDS = 4; //. ニュースの最大表示数
+window.onload = function(){
+	$.get(
+		'/company/release/feed',
+		{},
+		function( xml ){
+			try{
+				var channel = ( xml.getElementsByTagName( "channel" ) )[0];
+				var items = channel.getElementsByTagName( "item" );
+				var n = items.length;
+				if( n > MAX_FEEDS ){
+					n = MAX_FEEDS;
+				}
+
+				var ul = "<ul>";
+
+				var $channel = $(channel);
+				$channel.find('item').each(function(i, el) {
+					if (n <= i) {
+						return;
+					}
+					var title = $(el).find('title').text();
+					var link = $(el).find('link').text();
+					var category = $(el).find('category').text();
+					var pubDate = $(el).find('pubDate').text();
+
+					var spancat = "";
+					if( category.indexOf( "お知らせ" ) > -1 ){
+						spancat = "newsIcon";
+					}else if( category.indexOf( "プレスリリース" ) > -1 ){
+						spancat = "releaseIcon";
+					}else if( category.indexOf( "メディア掲載" ) > -1 ){
+						spancat = "mediaIcon";
+					}
+
+					try{
+						var dt = new Date( pubDate );
+						var y = dt.getFullYear();
+						var m = dt.getMonth() + 1;
+						var d = dt.getDate();
+						pubDate = y + "."
+						+ ( ( m < 10 ) ? "0" : "" ) + m + "."
+						+ ( ( d < 10 ) ? "0" : "" ) + d
+					}catch( e ){
+					}
+
+					if (category.indexOf( "メディア掲載" ) > -1 ) {
+						var li = "<li><span>" + pubDate + "&nbsp;&nbsp;:</span>"
+						+ "<span class=\"" + spancat + "\"></span>"
+						+ title + "</li>";
+					} else {
+						var li = "<li><span>" + pubDate + "&nbsp;&nbsp;:</span>"
+						+ "<span class=\"" + spancat + "\"></span>"
+						+ "<a href=\"" + link + "\">"
+						+ title + "</a></li>";
+					}
+					ul += li;
+				});
+
+				// for( i = 0; i < n; i ++ ){
+					// var item = items[i];
+					// var title0 = ( item.getElementsByTagName( "title" ) )[0];
+					// var title = title0 ? title0.childNodes[0].nodeValue : "";
+					// var link0 = ( item.getElementsByTagName( "link" ) )[0];
+					// var link = link0 ? link0.childNodes[0].nodeValue : "";
+					// var category0 = ( item.getElementsByTagName( "category" ) )[0];
+					// var category = category0 ? category0.childNodes[0].nodeValue : "";
+					// var pubdate0 = ( item.getElementsByTagName( "pubDate" ) )[0];
+					// var pubDate = pubdate0 ? pubdate0.childNodes[0].nodeValue : "";
+
+					// var spancat = "";
+					// if( category.indexOf( "お知らせ" ) > -1 ){
+					// 	spancat = "newsIcon";
+					// }else if( category.indexOf( "プレスリリース" ) > -1 ){
+					// 	spancat = "releaseIcon";
+					// }else if( category.indexOf( "メディア掲載" ) > -1 ){
+					// 	spancat = "mediaIcon";
+					// }
+
+					// try{
+					// 	var dt = new Date( pubDate );
+					// 	var y = dt.getFullYear();
+					// 	var m = dt.getMonth() + 1;
+					// 	var d = dt.getDate();
+					// 	pubDate = y + "."
+					// 	+ ( ( m < 10 ) ? "0" : "" ) + m + "."
+					// 	+ ( ( d < 10 ) ? "0" : "" ) + d
+					// }catch( e ){
+					// }
+
+					// if (category.indexOf( "メディア掲載" ) > -1 ) {
+					// 	var li = "<li><span>" + pubDate + "&nbsp;&nbsp;:</span>"
+					// 	+ "<span class=\"" + spancat + "\"></span>"
+					// 	+ title + "</li>";
+					// } else {
+					// 	var li = "<li><span>" + pubDate + "&nbsp;&nbsp;:</span>"
+					// 	+ "<span class=\"" + spancat + "\"></span>"
+					// 	+ "<a href=\"" + link + "\">"
+					// 	+ title + "</a></li>";
+					// }
+				// 	ul += li;
+				// }
+				ul += "</ul>";
+				$('#feedNews').html( ul );
+			}catch( e ){
+			}
+		}
+		);
+}
+</script>
+</head>
+<body>
+	<div id="wrapper">
+				<!-- ********** header ********** -->
+		<div id="header">
+			<div class="headerIn">
+				<div id="headBar">
+					<p class="headLogo"><a href="/">tella</a></p>
+					<div class="headMenu">
+						<ul>
+							<li><a href="/recruit/">採用情報</a>|</li>
+							<li><a href="/contact0000.php">お問い合わせ</a></li>
+						</ul>
+						<ul>
+							<li><a href="/en/">English</a></li>
+							<li><a href="javascript:void(0);" class="act">日本語</a></li>
+						</ul>
+					</div>
+				</div>
+				<ul id="gnav">
+										<li class="gnav01 act"><a href="/">Top</a></li>
+										<li class="gnav02 "><a href="/public/individualize/">患者さま･ご家族の方へ</a></li>
+										<li class="gnav03 "><a href="/jump.php">医療関係者の皆さまへ</a></li>
+										<li class="gnav04 "><a href="/jump_ir.php">投資家の皆さまへ</a></li>
+										<li class="gnav05 "><a href="/company/">テラについて</a></li>
+										<li class="gnav06 "><a href="/link/">実施医療機関</a></li>
+				</ul>
+			</div>
+		</div>
+		<span class="headerShadow" id="headerShadow"></span>
+		<!-- ********** /header ********** -->
+		<!-- ********** container ********** -->
+		<div id="container"> 
+			<!-- ========== kv ========== -->
+			<div id="kv">
+				<div class="kvIn">
+					<ul>
+						<li><img src="/img/top/img_top_kv01.png" alt="革新的な医療技術・サービスを創造して みなさまの未来に貢献していきます" /></li>
+						<!--<li><img src="/img/top/img_top_kv02.png" alt="バクセル Vaccell がんに対して強力に免疫反応を誘導することができる、テラだけの技術" /></li>-->
+						<li><img src="/img/top/img_top_kv03.png" alt="細胞を医療に私たちは個別化医療を実現します" /></li>
+					</ul>
+				</div>
+				<div class="kvPage" id="kvPage"></div>
+			</div>
+			<!-- ========== /kv ========== --> 
+
+			<!-- ========== contents ========== -->
+			<div id="contents">
+				<div class="bnrArea">				
+					<a href="/special/" class="special">治験の取り組み</a>
+				</div>					
+				<div class="targetLink">
+					<ul>
+						<li><a href="/public/individualize/" class="targetLink01">患者さま･ご家族の方へ</a></li>
+						<li><a href="/jump.php" class="targetLink02">医療関係者の皆さまへ</a></li>
+						<li><a href="/jump_ir.php" class="targetLink03">投資家の皆さまへ</a></li>
+					</ul>
+				</div>
+				<div class="newsReleaseArea">
+					<div class="newsReleaseAreaIn">
+						<div class="newsReleaseAreaBody">
+							<div class="newsRelease">
+								<p>2016年4月の熊本地震により被災された皆さまに、心よりお見舞いを申し上げます。</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="newsReleaseArea">
+					<div class="newsReleaseAreaIn">
+						<div class="newsReleaseAreaBody">
+							<div class="newsRelease">
+								<div class="newsTit">
+									<h3>活動報告</h3>
+									<div class="newsBtn"> <a href="/company/release/" class="btnPress"><span class="icnArwGrnR"></span>プレスリリース一覧</a> <a href="/company/release/infomation.html" class="btnInfo"><span class="icnArwGrnR"></span>お知らせ一覧</a> <a href="/company/release/category/%E3%83%A1%E3%83%87%E3%82%A3%E3%82%A2%E6%8E%B2%E8%BC%89/" class="btnInfo"><span class="icnArwGrnR"></span>メディア掲載</a> </div>
+								</div>
+								<div id="feedNews"> 
+								<!--
+								<ul>
+									<li><span>2013.09.01&nbsp;&nbsp;:</span><a href="/company/release/2013/article_2013080">8月1日（木）がん治療セミナー（みなとみらい）開催のお知らせ</a></li>
+									<li><span>2013.09.01&nbsp;&nbsp;:</span><a href="/company/release/2013/article_2013080">8月1日（木）がん免疫細胞療法説明会(名古屋) のお知らせ</a></li>
+									<li><span>2013.09.01&nbsp;&nbsp;:</span><a href="/company/release/2013/article_2013080">8月1日（木）がん治療セミナー（みなとみらい）開催のお知らせ</a></li>
+									<li><span>2013.09.01&nbsp;&nbsp;:</span><a href="/company/release/2013/article_2013080">8月1日（木）がん免疫細胞療法説明会(名古屋) のお知らせ</a></li>
+								</ul>
+							--> 
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="topLead"> <a href="https://www.youtube.com/embed/uvQLUR5IURc?rel=0" target="_blank"> テラの「樹状細胞ワクチン療法」<br />
+			について解説した動画はこちら </a><a href="https://www.youtube.com/embed/WPxU7soxb48?rel=0" target="_blank"> 樹状細胞ががんを攻撃する<br />メカニズムの動画はこちら </a> <a href="/company/release/category/%E3%83%A1%E3%83%87%E3%82%A3%E3%82%A2%E6%8E%B2%E8%BC%89/">メディア掲載実績に<br />
+			ついてはこちら</a> </div>
+			<div class="readLink">
+				<div class="readLinkRack">
+					<p><a href="/public/individualize/difference.php" class="read01">テラの樹状細胞ワクチン療法</a></p>
+					<p><a href="/public/reliability/system.php" class="read02">臨床研究・学術論文</a></p>
+					<!--<p><a href="https://youtu.be/fVOzmTOql6I" target="_blank" class="read02">免疫保険 TVCM</a></p>-->
+					<p><a href="http://www.gan-info.jp/dendritic/pdf/download/" target="_blank" class="read03">がんの免疫療法　情報冊子公開中</a></p>
+				</div>
+				<div class="readLinkRack">
+					<p><a href="/company/release2/" class="read04">セミナー情報</a></p>
+					<p><a href="/company/president.php" class="read05">テラ社長室</a></p>
+					<p><a href="/public/column/" class="read06">患者だより</a></p>
+				</div>
+			</div>
+		</div>
+		<!-- ========== /contents ========== -->
+					<!-- fbArea -->
+			<div id="fbArea" class="fbArea">
+				<div id="fbCont" class="fbCont">
+					<p id="fbDefo" class="fbDefo"><img src="/img/common/tit_fbBox_defo.png" alt="テラのFacebookを見る" /></p>
+					<div id="fbBox" class="fbBox">
+						<p id="fbClose" class="fbClose"><img src="/img/common/tit_fbBox_open.png" alt="テラのFacebookを見る" /></p>
+						<div>
+							<iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Ftella.jp&amp;width=400&amp;height=400&amp;colorscheme=light&amp;show_faces=false&amp;header=false&amp;stream=true&amp;show_border=true" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:400px; height:395px;" allowTransparency="true"></iframe>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- /fbArea -->
+		
+			<!-- ========== footer ========== -->
+			<div id="footer">
+				<div class="footerIn">
+					<p class="footLogo">tella</p>
+					<div class="footLink">
+						<p>樹状細胞ワクチン療法が受けられる医療機関</p>
+						<dl>
+							<dt>北海道地区</dt>
+							<dd><a href="/link#link1">札幌北楡病院</a></dd>
+							<dt>東北地区</dt>
+							<dd><!-- <a href="/link#link2">仙台駅前アエルクリニック</a> --><a href="/link#link2">すずきクリニック</a> | <a href="/link#link2">池田外科・消化器内科医院</a></dd>
+							<dt>関東地区</dt>
+							<dd><a href="/link#link3">北里大学北里研究所病院</a> | <a href="/link#link3">セレンクリニック東京</a> | <a href="/link#link3">東京ミッドタウン先端医療研究所</a> | <a href="/link#link3">新横浜かとうクリニック</a> |<br /><a href="/link#link3">江戸川病院</a> | <a href="/link#link3">白山通りクリニック</a> | <a href="/link#link3">鶴見大学歯学部附属病院</a> | <a href="/link#link3">上尾中央総合病院</a></dd>
+							<dt>中部地区</dt>
+							<dd><a href="/link#link4">信州大学医学部付属病院</a> | <a href="/link#link4">金沢医科大学病院</a> | <a href="/link#link4">セレンクリニック名古屋</a>
+							<!-- | <a href="/link#link4">浜松北病院</a> --></dd>
+							<dt>近畿地区</dt>
+							<dd><!-- <a href="/link#link6">クリニックサンルイ</a> --><a href="/link#link6">セレンクリニック神戸</a> | <a href="/link#link6">堂島リーガクリニック</a></dd>
+							<dt>中国・四国地区</dt>
+							<dd><a href="/link#link5">花園クリニック</a> | <a href="/link#link5">山本泌尿器クリニック</a></dd>
+							<dt>九州地区</dt>
+							<dd><!-- <a href="/link#link7">国立病院機構　鹿児島医療センター</a> |  --><a href="/link#link7">セレンクリニック福岡</a> | <a href="/link#link7">玉名地域保健医療センター</a></dd>
+						</dl>
+					</div>
+					<ul class="footNav">
+						<li><a href="/recruit/">採用情報</a>|</li>
+						<li><a href="/special/">治験の取り組み</a>|</li>
+						<li><a href="/company/release/">ニュースリリース</a>|</li>
+						<li><a href="/contact0000.php">お問い合わせ・資料請求</a>|</li>
+						<li><a href="/sitepolcy.php">プライバシーポリシー</a>|</li>
+						<li><a href="/sitemap.php">サイトマップ</a></li>
+					</ul>
+					<p class="footCopy">Copyright ⓒ tella, inc. all rights reserved.</p>
+					
+				</div>
+			</div>
+	</div>
+	<!-- ********** /container ********** -->
+	<p id="pagetop"><a href="#wrapper">ページトップへ</a></p>
+</div>
+<div class="codeArea">
+<script type="text/javascript">
+ var _gaq = _gaq || [];
+ _gaq.push(['_setAccount', 'UA-337157-2']);
+ _gaq.push(['_trackPageview']);
+ (function() {
+   var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+   ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+ })();
+</script>
+
+<script type="text/javascript" class="microad_blade_track">
+<!--
+var microad_blade_jp = microad_blade_jp || { 'params' : new Array(), 'complete_map' : new Object() };
+(function() {
+var param = {'co_account_id' : '10364', 'group_id' : '', 'country_id' : '1', 'ver' : '2.1.0'};
+microad_blade_jp.params.push(param);
+
+var src = (location.protocol == 'https:')
+? 'https://d-track.send.microad.jp/js/blade_track_jp.js' : 'http://d-cache.microad.jp/js/blade_track_jp.js';
+
+var bs = document.createElement('script');
+bs.type = 'text/javascript'; bs.async = true;
+bs.charset = 'utf-8'; bs.src = src;
+
+var s = document.getElementsByTagName('script')[0];
+s.parentNode.insertBefore(bs, s);
+})();
+-->
+</script>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 943004778;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/943004778/?value=0&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+
+<script type="text/javascript" language="javascript">
+/* <![CDATA[ */
+var yahoo_retargeting_id = 'M3X20IZLDT';
+var yahoo_retargeting_label = '';
+/* ]]> */
+</script>
+<script type="text/javascript" language="javascript" src="//b92.yahoo.co.jp/js/s_retargeting.js"></script>
+</div></body>
+</html>

@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="ja-JP">
+<head>
+	<meta charset="UTF-8">
+	<title>カネ美食品株式会社</title>
+	<meta name="keywords" content="">
+	<meta name="description" content="惣菜・弁当の製造とスーパー内等での販売。企業・IR情報・事業紹介・採用情報。">
+	<meta http-equiv="imagetoolbar" content="no">
+	<!--[if lt IE 9]>
+	<script src="/common/js/libs/html5shiv-printshiv.js"></script>
+	<![endif]-->
+	<link rel="stylesheet" type="text/css" href="/common/css/fonts-min.css" />
+	<link rel="stylesheet" type="text/css" media="screen,print" href="/common/css/screen.css" />
+	<link rel="stylesheet" type="text/css" media="screen,print" href="/common/css/top.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="/common/css/print.css" />
+
+	<script type="text/javascript" src="/common/js/libs/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="/common/js/libs/jquery.textresizer.js"></script>
+	<script type="text/javascript" src="/common/js/libs/jquery.cookie.js"></script>
+	<script type="text/javascript" src="/common/js/libs/fontsize.js"></script>
+
+	<script type="text/javascript" src="/common/js/libs/iepngfix_tilebg.js"></script>
+	<script type="text/javascript" src="/common/js/common.js"></script>
+	<script type="text/javascript" src="/common/js/top.js"></script>
+	<script type="text/javascript" src="/common/js/ga_kanemi.js"></script>
+</head>
+<body>
+<div id="all">
+		<header id="header">
+		<h1><a href="/"><img src="/common/img/logo_kanemi.png" width="220" height="53" alt="カネ美食品株式会社"></a></h1>
+		<div id="hnavarea">
+			<div id="hcontents">
+				<div id="printArea">
+					<a href="javascript:window.print();">印刷する</a>
+				<!-- end of id(printArea) -->
+				</div>
+				<div id="searchArea">
+					<div id="searchBox">
+						<form method="GET" action="//www.google.co.jp/search" target="_blank">
+							<div class="fll" id="searchwrap">
+								<input type="text" name="q" size="31" maxlength="255" value="" id="searchtxt">
+							</div>
+							<div class="fll">
+								<input type="submit" name="btnG" value=" " id="btnsearch">
+							</div>
+							<input type="hidden" name="sitesearch" value="http://www.kanemi-foods.co.jp/">
+							<input type="hidden" name="domains" value="http://www.kanemi-foods.co.jp/">
+							<input type="hidden" name="hl" value="ja">
+							<input type="hidden" name="num" value="20">
+							<input type="hidden" name="ie" value="UTF-8">
+							<input type="hidden" name="oe" value="UTF-8">
+						</form>
+						<!-- end of id(searchBox) -->
+					</div>
+				<!-- end of id(searchArea) -->
+				</div>
+				<div id="size">
+					<dl class="txtchg">
+						<dt>文字サイズ</dt>
+						<dd id="large"><a href="javascript:void(0);">大</a></dd>
+						<dd id="small"><a href="javascript:void(0);">小</a></dd>
+					</dl>
+				<!-- end of id(size) -->
+				</div>
+				<div id="contactArea">
+					<a href="/contact/">お問い合わせ</a>
+				<!-- end of id(contactArea) -->
+				</div>
+				<div id="langArea">
+				<a href="http://www.kanemi-foods.co.jp/en/">English</a>
+				<!-- end of id(langArea) -->
+				</div>
+
+			<!-- end of id(hcontents) -->
+			</div>
+			<nav id="nav">
+				<ul>
+					<li id="nav0"><a href="/">ホーム</a></li>
+					<li id="nav1"><a href="/corporate/">カネ美食品について</a></li>
+					<li id="nav2"><a href="/business/">事業について</a></li>
+					<li id="nav3"><a href="/shopsearch/">お店を探す</a></li>
+					<li id="nav4"><a href="/ir/">株主・投資家情報</a></li>
+					<li id="nav5"><a href="/recruit/">採用情報</a></li>
+				</ul>
+			<!-- end of id(nav) -->
+			</nav>
+		<!-- end of id(hnavarea) -->
+		</div>
+	<!-- end of id(header) -->
+	</header>
+	<div id="topcontents">
+		<p id="lead1"><img src="img/txt_lead01.png" width="501" height="56" alt="食卓に新たな美しさを"></p>
+		<p id="lead2"><img src="img/txt_lead02.png" width="443" height="28" alt="Bringing a New Style of Food to the Table"></p>
+		<ul id="bnrlist">
+			<li><a href="/brand/kanemi/"><img src="img/bnr_01.png" width="124" height="55" alt="Kanemi"></a></li>
+			<li><a href="//www.eashion.jp/" target="_blank"><img src="img/bnr_02.png" width="124" height="55" alt="eashion"></a></li>
+			<li><a href="/brand/ezmart/"><img src="img/bnr_03.png" width="124" height="55" alt="e'z mart"></a></li>
+			<li><a href="/brand/easedeli/"><img src="img/bnr_04.png" width="124" height="55" alt="ease deli"></a></li>
+			<li><a href="/brand/K-STAGE/"><img src="img/bnr_05.png" width="124" height="55" alt="K STAGE max."></a></li>
+			<li><a href="/brand/sushi/"><img src="img/bnr_06.png" width="124" height="55" alt="寿司御殿"></a></li>
+			<li class="R"><a href="/sushi/"><img src="img/bnr_07.png" width="124" height="55" alt=""></a></li>
+		</ul>
+
+			<div id="pager">
+				<ul>
+					<li id="page1" class="active"><a href="javascript:void(0);">1</a></li>
+					<li id="page2"><a href="javascript:void(0);">2</a></li>
+					<li id="page3"><a href="javascript:void(0);">3</a></li>
+					<li id="page4"><a href="javascript:void(0);">4</a></li>
+				</ul>
+			<!-- end of id(pager) -->
+			</div>
+	<!-- end of id(contents) -->
+	</div>
+	<div id="business">
+		<div id="inbusiness">
+			<ul>
+				<li id="business1"><a href="/business/tenant/"><p><strong>テナント事業</strong><br>
+				スーパーマーケットや百貨店、駅ナカなどの商業施設へ幅広く惣菜店舗を出店。寿司・弁当・サラダ・揚げ物など豊富なメニューを取り揃え、東海地方を中心に関東や関西へ出店し、地域や年齢層に合わせた柔軟なブランド展開を図っております。</p></a></li>
+				<li id="business2"><a href="/business/oem/"><p><strong>外販事業</strong><br>
+				私たちがつくるお弁当・おにぎりなどは利便性の高い商品として、コンビニエンスストアで幅広いお客さまにご利用いただいております。各工場では、24時間、365日休むことなく、より「安全」で「美味しい」商品の提供に努めております。</p></a></p></li>
+			</ul>
+		<!-- end of id(inbusiness) -->
+		</div>
+	<!-- end of id(business) -->
+	</div>
+
+
+	
+
+	<div id="contents">
+		<div id="topics">
+			<div id="ttl">
+				<img src="img/ttl_topoics.png" width="65" height="21" alt="Topics">
+				<div id="rss"><a href="/rss/" target="_blank"><img src="common/img/icon_rss.png" width="12" height="12" alt="RSS"></a></div>
+				<div id="backnumber"><a href="/news/">バックナンバー</a></div>
+			<!-- end of id(ttl) -->
+			</div>
+			<div class="newslist">
+				<ul>
+					
+					<li class="icon6">
+						<span class="date">2017年08月18日</span>
+						<span class="newstxt">
+							
+								
+								
+								
+								
+								<a href="/eashion/news/detail.php/77" target="_blank">秋の新商品情報を掲載しました。</a>
+								
+							
+							
+						</span>
+					</li><li class="icon1">
+						<span class="date">2017年08月17日</span>
+						<span class="newstxt">
+							
+								
+								
+								
+								
+								<a href="http://v4.eir-parts.net/v4Contents/View.aspx?cat=tdnet&amp;sid=1509554#.pdf" target="_blank">人事異動に関するお知らせ</a>
+								(174 KB)
+							
+							
+						</span>
+					</li><li class="icon1">
+						<span class="date">2017年08月14日</span>
+						<span class="newstxt">
+							
+								
+								
+								
+								
+								<a href="http://v4.eir-parts.net/v4Contents/View.aspx?cat=yuho_pdf&amp;sid=2576958#.pdf" target="_blank">2018年3月期 第１四半期報告書</a>
+								(439 KB)
+							
+							
+						</span>
+					</li><li class="icon4">
+						<span class="date">2017年08月10日</span>
+						<span class="newstxt">
+							
+								
+								
+								
+								
+								<a href="/news/detail.php/199" target="">店舗閉店のお知らせ／総合惣菜店舗 ４店舗、洋風惣菜店舗 １店舗、寿司専門店舗 １店舗</a>
+								
+							
+							
+						</span>
+					</li><li class="icon1">
+						<span class="date">2017年08月08日</span>
+						<span class="newstxt">
+							
+								
+								
+								
+								
+								<a href="http://v4.eir-parts.net/v4Contents/View.aspx?cat=tdnet&amp;sid=1505175#.pdf" target="_blank">平成29年７月度の月次売上高のお知らせ</a>
+								(114 KB)
+							
+							
+						</span>
+					</li><li class="icon1">
+						<span class="date">2017年08月08日</span>
+						<span class="newstxt">
+							
+								
+								
+								
+								
+								<a href="http://v4.eir-parts.net/v4Contents/View.aspx?cat=tdnet&amp;sid=1505178#.pdf" target="_blank">平成30年３月期 第１四半期決算短信〔日本基準〕（非連結）</a>
+								(250 KB)
+							
+							
+						</span>
+					</li><li class="icon6">
+						<span class="date">2017年07月20日</span>
+						<span class="newstxt">
+							
+								
+								
+								
+								
+								<a href="/news/detail.php/198" target="">店舗閉店のお知らせ／eashion千葉ペリエ店（千葉市中央区）</a>
+								
+							
+							
+						</span>
+					</li><li class="icon1">
+						<span class="date">2017年07月06日</span>
+						<span class="newstxt">
+							
+								
+								
+								
+								
+								<a href="http://v4.eir-parts.net/v4Contents/View.aspx?cat=tdnet&amp;sid=1493936#.pdf" target="_blank">平成29年６月度の月次売上高のお知らせ</a>
+								(113 KB)
+							
+							
+						</span>
+					</li>
+				</ul>
+			<!-- end of class(newslist) -->
+			</div>
+		<!-- end of id(topics) -->
+		</div>
+		<div id="btnArea">
+			<ul>
+				<li><a href="/shopsearch/"><img src="img/btn_shopsearch.png" width="304" height="84" alt="店舗検索"></a></li>
+				<li><a href="/ir/"><img src="img/btn_ir.png" width="304" height="84" alt="IR情報"></a></li>
+				<li><a href="/recruit/"><img src="img/btn_recruit.png" width="304" height="84" alt="採用情報"></a></li>
+			</ul>
+		<!-- end of id(btnArea) -->
+		</div>
+	<!-- end of id(contents) -->
+	</div>
+
+		<div id="bglinks">
+		<div id="inbglinks">
+			<div id="links">
+				<div id="link1">
+					<dl>
+						<dt><a href="/corporate/">カネ美食品について</a></dt>
+						<dd><a href="/corporate/">トップメッセージ</a></dd>
+						<dd><a href="/corporate/philosophy.html">経営理念</a></dd>
+						<dd><a href="/corporate/code.html">企業行動規範</a></dd>
+						<dd><a href="/corporate/outline.html">会社概要</a></dd>
+						<dd><a href="/corporate/history.html">歴史・沿革</a></dd>
+						<dd><a href="/corporate/organization.html">役員・組織体制</a></dd>
+						<dd><a href="/corporate/office/">事業所一覧</a></dd>
+					</dl>
+				<!-- end of id(link1) -->
+				</div>
+				<div id="link2">
+					<dl>
+						<dt><a href="/business/">事業について</a></dt>
+						<dd><a href="/business/tenant/">テナント事業</a></dd>
+						<dd><a href="/business/oem/">外販事業</a></dd>
+					</dl>
+				<!-- end of id(link2) -->
+				</div>					<div id="link3">
+					<dl>
+						<dt><a href="/shopsearch/">お店を探す</a></dt>
+						<dd><a href="/shopsearch/">ブランド情報</a></dd>
+<dd>
+	
+	
+	
+	<a href="/brand/kanemi/" target="">総合惣菜店舗「kanemi」</a>
+</dd><dd>
+	
+	
+	
+	<a href="http://www.eashion.jp" target="_blank">洋風惣菜店舗「eashion」</a>
+</dd><dd>
+	
+	
+	
+	<a href="/brand/ezmart/" target="">総合惣菜店舗「e&#039;z mart」</a>
+</dd><dd>
+	
+	
+	
+	<a href="/brand/easedeli/" target="">総合惣菜店舗「ease deli」</a>
+</dd><dd>
+	
+	
+	
+	<a href="/brand/K-STAGE/" target="">洋風惣菜店舗「K-STAGE」</a>
+</dd><dd>
+	
+	
+	
+	<a href="/brand/sushi/" target="">寿司専門店舗「寿司御殿」</a>
+</dd><dd>
+	
+	
+	
+	<a href="/sushi/" target="">外食店舗「寿司御殿」</a>
+</dd>
+					</dl>
+				<!-- end of id(link3) -->
+				</div>
+	
+				<div id="link4">
+					<dl>
+						<dt><a href="/ir/">株主・投資家情報</a></dt>
+						<dd><a href="/ir/management/">経営方針・戦略</a></dd>
+						<dd><a href="/ir/monthly.html">月次情報</a></dd>
+						<dd><a href="/ir/financial/">財務・業績</a></dd>
+						<dd><a href="/ir/ir_calendar.html">IRカレンダー</a></dd>
+						<dd><a href="/ir/library/">IRライブラリー</a></dd>
+						<dd><a href="/ir/stockinfo/">株式情報</a></dd>
+						<dd><a href="/ir/notice.html">電子公告</a></dd>
+						<dd><a href="/ir/disclaimer.html">免責事項</a></dd>
+						<dd><a href="/ir/ir_sitemap.html">IR情報サイトマップ</a></dd>
+					</dl>
+				<!-- end of id(link4) -->
+				</div>
+				<div id="link5">
+					<dl>
+						<dt><a href="/recruit/">採用情報</a></dt>
+						<dd><a href="/recruit/company.html">求める人材</a></dd>
+						<dd><a href="/recruit/job/">各事業部紹介</a></dd>
+						<dd><a href="/recruit/person/">先輩社員紹介</a></dd>
+						<dd><a href="/recruit/person/career.html">キャリアプラン</a></dd>
+						<dd><a href="/recruit/guidelines/">募集要項</a></dd>
+					</dl>
+				<!-- end of id(link5) -->
+				</div>
+			<!-- end of id(links) -->
+			</div>
+		<!-- end of id(inbglinks) -->
+		</div>
+	<!-- end of id(bglinks) -->
+	</div>		<footer id="footer">
+		<div id="infooter">
+			<div id="fnav">
+				<ul>
+					<li><a href="/privacy/">プライバシーポリシー</a></li>
+					<li><a href="/policy/">サイトポリシー</a></li>
+					<li><a href="/terms_of_use/">サイトのご利用方法</a></li>
+					<li><a href="/sitemap/">サイトマップ</a></li>
+				</ul>
+			<!-- end of id(fnav) -->
+			</div>
+			<div id="copy">
+				Copyright&copy; KANEMI FOODS All Rights Reserved.
+			<!-- end of id(copy) -->
+			</div>
+		<!-- end of id(infooter) -->
+		</div>
+	<!-- end of id(footer) -->
+	</footer>
+<!-- end of id(all) -->
+</div>
+<div id="topimg">
+	<div id="intopimg">
+		<div id="slidewrap">
+			<div id="slideshow">
+				<div class="slideimg">
+					<img src="img/img_1.jpg" width="1040" height="529" alt="" class="active">
+					<img src="img/img_2.jpg" width="1040" height="529" alt="">
+					<img src="img/img_3.jpg" width="1040" height="529" alt="">
+					<img src="img/img_4.jpg" width="1040" height="529" alt="">
+				<!-- end of id(slideimg) -->
+				</div>
+			<!-- end of id(slideshow) -->
+			</div>
+		</div>
+		<div id="wave"></div>
+	</div>
+	<!-- end of id(topimg) -->
+</div>
+</body>
+</html>

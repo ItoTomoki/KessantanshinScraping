@@ -1,0 +1,3162 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<title>セブン＆アイ・ホールディングス</title>
+<meta name="Description" content="セブン＆アイ・ホールディングスは、コンビニエンスストア、総合スーパー、百貨店、レストラン、銀行、ITサービスなど幅広い業態を擁し、お客様のあらゆるニーズに応える総合流通グループです。">
+<meta name="Keywords" content="セブンアンドアイ,セブン＆アイ,7&i,セブンアンドアイホールディングス">
+<link rel="shortcut icon" href="./dbps_data/_template_/_user_/_SITE_/localhost/_res/common/images/favicon.ico">
+<!--script-->
+<script type="text/javascript" src="./dbps_data/_template_/_user_/_SITE_/localhost/_res/common/js/jquery.js"></script>
+<script type="text/javascript" src="./dbps_data/_template_/_user_/_SITE_/localhost/_res/common/js/jquery.cookie.js"></script>
+<script type="text/javascript" src="./dbps_data/_template_/_user_/_SITE_/localhost/_res/common/js/jquery_rollover.js"></script>
+<script type="text/javascript" src="./dbps_data/_template_/_user_/_SITE_/localhost/_res/common/js/jquery_common.js"></script>
+<script type="text/javascript" src="./dbps_data/_template_/_user_/_SITE_/localhost/_res/common/js/jquery_equalHeight.js"></script>
+<script type="text/javascript" src="./dbps_data/_template_/_user_/_SITE_/localhost/_res/new/js/jquery.flexslider-min.js"></script>
+<script type="text/javascript" src="./dbps_data/_template_/_user_/_SITE_/localhost/_res/new/js/jquery.mmenu.min.all.js"></script>
+<script type="text/javascript" src="./dbps_data/_template_/_user_/_SITE_/localhost/_res/new/js/fontsizeswitch_base.js"></script>
+<script type="text/javascript" src="./dbps_data/_template_/_user_/_SITE_/localhost/_res/new/js/adjust.js"></script>
+<!--[if lt IE 9]>
+<script src="./dbps_data/_template_/_user_/_SITE_/localhost/_res/new/js/html5shiv-printshiv.js"></script>
+<![endif]-->
+<script type="text/javascript" src="./dbps_data/_template_/_user_/_SITE_/localhost/_res/common/js/side_nav_01.js"></script>
+<!--script-->
+
+<!--css-->
+<link href="./dbps_data/_template_/_user_/_SITE_/localhost/_res/new/css/new_reset.css" rel="stylesheet" type="text/css">
+<link href="./dbps_data/_template_/_user_/_SITE_/localhost/_res/common/css/layout.css" rel="stylesheet" type="text/css">
+<link href="./dbps_data/_template_/_user_/_SITE_/localhost/_res/common/css/base.css" rel="stylesheet" type="text/css">
+<link href="./dbps_data/_template_/_user_/_SITE_/localhost/_res/common/css/font.css" rel="stylesheet" type="text/css">
+<link href="./dbps_data/_template_/_user_/_SITE_/localhost/_res/new/css/new_common.css" rel="stylesheet" type="text/css">
+<link href="./dbps_data/_template_/_user_/_SITE_/localhost/_res/new/css/new_module.css" rel="stylesheet" type="text/css">
+<link href="./dbps_data/_template_/_user_/_SITE_/localhost/_res/new/css/jquery.mmenu.all.css" rel="stylesheet" type="text/css" />
+<link href="./dbps_data/_template_/_user_/_SITE_/localhost/_res/new/css/sp_table.css" rel="stylesheet" type="text/css">
+<link href="./dbps_data/_template_/_user_/_SITE_/localhost/_res/new/css/flexslider.css" rel="stylesheet" type="text/css">
+
+<link href="./dbps_data/_template_/_user_/_SITE_/localhost/_res/new/css/new_adjust_01.css" rel="stylesheet" type="text/css">
+<link href="./dbps_data/_template_/_user_/_SITE_/localhost/_res/new/css/new_adjust_02.css" rel="stylesheet" type="text/css">
+<link href="./dbps_data/_template_/_user_/_SITE_/localhost/_res/new/css/new_adjust_03.css" rel="stylesheet" type="text/css">
+<!--css-->
+<script type="text/javascript">
+//pc mainmenu slidedown
+$(function(){
+  $("#globalmenu li").mouseover(function(){
+    $(this).children(".gnavi-slide").show();
+  }).mouseout(function(){
+    $(this).children(".gnavi-slide").hide();
+  });
+});
+</script>
+
+<script type="text/javascript">
+//gnavi slide
+$(function() {
+  $("nav#menu").mmenu({
+    classes: "", //mm-light(default)・mm-black・mm-white
+    offCanvas: {
+      position  : "left", //left(default)・right・top・bottom
+      zposition : "" //back(default)・front・next
+    }
+  });
+});
+</script>
+
+<script type="text/javascript">
+//language change slidedowm
+$(function(){
+  $("#langmenu li").mouseover(function(){
+    $(this).children(".lang-slide").show();
+  }).mouseout(function(){
+    $(this).children(".lang-slide").hide();
+  });
+});
+</script>
+
+<script type="text/javascript">
+//textarea focus add class
+$(function(){
+  $('input[type=text],textarea').focus(function(){
+    $(this).addClass('focus');
+    $(this).val("");
+  }).blur(function(){
+    $(this).removeClass('focus');
+  });
+});
+</script>
+
+<script type="text/javascript">
+/* サイドナビSP用アコーディオン */
+$(function(){
+if($('#container').css('width') !== '1000px'){
+$(".sideCategoryNav li.on ul").before('<div class="slidebtn">＋</div>');
+
+$(".sideCategoryNav .slidebtn").click(function () {
+  $(this).next("ul").slideToggle('slow', function() {
+  if($(".sideCategoryNav .slidebtn").text()=="＋"){
+    $(".sideCategoryNav .slidebtn").text("－")
+  }else if($(".sideCategoryNav .slidebtn").text()=="－"){
+    $(".sideCategoryNav .slidebtn").text("＋")
+  }
+  });
+});
+}
+});
+</script>
+
+<script type="text/javascript">
+/* SP用テーブルレイアウト */
+$(function() {
+var spTable = $('.tableScroll');
+  spTable.each(function() {
+    $(this).wrap("<div class='tableWrap'></div>");
+
+  });
+});
+</script>
+
+<script type="text/javascript">
+//top rotation
+$(function(){
+  var flexsImg = $('#lotation.flexslider .slides li').length;
+  if(flexsImg > 1){
+    $('#lotation.flexslider').flexslider({
+      touch: "false",
+      animation: "slide",
+        animationSpeed: "300",
+        slideshowSpeed: "3000",
+        controlNav: "false"
+    });
+  } else {
+   $('#lotation .slides li').css('display','block');
+  }
+
+    $('#main-bnr .flexslider').flexslider({
+      touch: "false",
+      animation: "slide",
+        animationSpeed: "300",
+        slideshowSpeed: "3000",
+        controlNav: "false"
+    });
+});
+</script>
+
+<script type="text/javascript">
+/* グループ一覧SP用アコーディオン */
+$(function(){
+if($('#container').css('width') !== '1000px'){
+/*$(".grplistWrap dd").css("display","none");*/
+$(".grplistWrap dt a").css("display","none");
+$(".grplistWrap dt").append('<p class="slidebtn">－</p>');
+
+$(".grplistWrap .slidebtn").click(function () {
+  $(".grplistWrap dd").slideToggle('slow', function() {
+  if($(".grplistWrap .slidebtn").text()=="－"){
+    $(".grplistWrap .slidebtn").text("＋")
+  }else if($(".grplistWrap .slidebtn").text()=="＋"){
+    $(".grplistWrap .slidebtn").text("－")
+  }
+  });
+});
+}
+});
+</script>
+
+<!--GoogleAnalytics-->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-9016031-1']);
+  _gaq.push(['_setDomainName', '7andi.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+ 
+ </head>
+
+<body>
+<div id="container" class="cat_top">
+<a name="top" id="top"></a>
+  <header id="header">
+    <div id="header-in">
+      <div class="pcon clearfix">
+        <div id="header-logo"><p><a href="./index.html"><img src="./dbps_data/_template_/_user_/_SITE_/localhost/_res/new/images/common/logo.png"></a></p></div>
+        <div id="header-content">
+          <div id="header-upper" class="clearfix">
+            <div id="site-search">
+              <form name="search_form" action="http://search.7andi.com/" method="GET" onsubmit="return mysearch(this);">
+                <input id="search-box" type="text" name="kw" value="Search">
+                  <input type="hidden" name="ie" value="u">
+                  <input type="hidden" name="la" value="jp">
+                <input id="search-btn" type="image" src="./dbps_data/_template_/_user_/_SITE_/localhost/_res/new/images/common/serach_btn.png">
+              </form>
+            </div>
+
+
+            <dl id="fontsize-change" class="clearfix">
+              <dt>文字の大きさ：</dt>
+              <dd id="small" class="changeBtn">小</dd>
+              <dd id="normal" class="changeBtn">中</dd>
+              <dd id="big" class="changeBtn">大</dd>
+            </dl><!--language-change-->
+
+            <ul id="langmenu" class="clearfix">
+              <li class="first"><p>言語 / Language</p>
+              <div class="lang-slide" style="display:none;">
+                <ul>
+                <li class="last"><a href="./en/index.html">English</a></li>
+                </ul>
+              </div>
+              </li><!--first-->
+            </ul><!--language-change-->
+
+          </div>
+          <ul id="globalmenu" class="clearfix">
+            <li class="first"><a href="./company/index.html" onclick="javascript:_gaq.push(['_trackEvent', '会社情報', 'click', '会社情報']);"><p>会社情報</p></a>
+            <div class="gnavi-slide" style="display:none;">
+              <div class="slide-content">
+                <ul id="globalSubmenu" class="clearfix">
+                  <li><a href="./company/topmsg.html" onclick="javascript:_gaq.push(['_trackEvent', '会社情報', 'click', 'トップメッセージ']);">トップメッセージ</a></li>
+                  <li><a href="./company/summary.html" onclick="javascript:_gaq.push(['_trackEvent', '会社情報', 'click', '会社概要']);">会社概要</a></li>
+                  <li><a href="./company/organization.html" onclick="javascript:_gaq.push(['_trackEvent', '会社情報', 'click', '会社概要']);">組織図</a></li>
+                  <li><a href="./company/officer.html" onclick="javascript:_gaq.push(['_trackEvent', '会社情報', 'click', '会社概要']);">役員一覧</a></li>
+                  <li><a href="./company/map.html" onclick="javascript:_gaq.push(['_trackEvent', '会社情報', 'click', '会社概要']);">本部地図</a></li>
+                  <li><a href="./company/trainingcenter.html" onclick="javascript:_gaq.push(['_trackEvent', '会社情報', 'click', '会社概要']);">伊藤研修センター</a></li>
+                  <li><a href="./company/news/index.html" onclick="javascript:_gaq.push(['_trackEvent', '会社情報', 'click', '会社概要']);">ニュースリリース</a></li>
+                  <li><a href="./company/challenge/index.html" onclick="javascript:_gaq.push(['_trackEvent', '会社情報', 'click', '会社概要']);">セブン＆アイの挑戦</a></li>
+                  <li><a href="./company/conversation/index.html" onclick="javascript:_gaq.push(['_trackEvent', '会社情報', 'click', '会社概要']);">[対談] イノベーションの視点</a></li>
+                  <li><a href="./company/giftcertificate.html" onclick="javascript:_gaq.push(['_trackEvent', '会社情報', 'click', '会社概要']);">セブン＆アイ共通商品券</a></li>
+                 </ul>
+              </div>
+            </div>
+            </li><!--first-->
+            <li class="second"><a href="./group/index.html" onclick="javascript:_gaq.push(['_trackEvent', 'グループ会社', 'click', 'グループ会社']);"><p>グループ会社</p></a>
+            <div class="gnavi-slide" style="display:none;">
+              <div class="slide-content">
+                <ul id="globalSubmenu" class="clearfix">
+                  <li><a href="./group/convenience_store.html" onclick="javascript:_gaq.push(['_trackEvent', 'グループ会社', 'click', 'コンビニエンスストア']);">コンビニエンスストア</a></li>
+                  <li><a href="./group/supermarket.html" onclick="javascript:_gaq.push(['_trackEvent', 'グループ会社', 'click', '総合スーパー']);">総合スーパー</a></li>
+                  <li><a href="./group/department_store.html" onclick="javascript:_gaq.push(['_trackEvent', 'グループ会社', 'click', '百貨店']);">百貨店</a></li>
+                  <li><a href="./group/grocery.html" onclick="javascript:_gaq.push(['_trackEvent', 'グループ会社', 'click', '食品スーパー']);">食品スーパー</a></li>
+                  <li><a href="./group/food.html" onclick="javascript:_gaq.push(['_trackEvent', 'グループ会社', 'click', 'フードサービス']);">フードサービス</a></li>
+                  <li><a href="./group/finance.html" onclick="javascript:_gaq.push(['_trackEvent', 'グループ会社', 'click', '金融サービス']);">金融サービス</a></li>
+                  <li><a href="./group/it.html" onclick="javascript:_gaq.push(['_trackEvent', 'グループ会社', 'click', 'IT／サービス']);">IT／サービス</a></li>
+                  <li><a href="./group/other.html" onclick="javascript:_gaq.push(['_trackEvent', 'グループ会社', 'click', 'その他事業']);">その他事業</a></li>
+                  <li><a href="./group/list.html" onclick="javascript:_gaq.push(['_trackEvent', 'グループ会社', 'click', 'グループ会社一覧']);">グループ会社一覧</a></li>
+                  <li><a href="./group/initial.html" onclick="javascript:_gaq.push(['_trackEvent', 'グループ会社', 'click', '50音一覧']);">50音一覧</a></li>
+                </ul>
+              </div>
+            </div>
+            </li>
+            <li class="third"><a href="./ir/index.html" onclick="javascript:_gaq.push(['_trackEvent', 'IR情報', 'click', 'IR情報']);"><p>IR情報</p></a>
+            <div class="gnavi-slide" style="display:none;">
+              <div class="slide-content">
+                <ul id="globalSubmenu" class="clearfix">
+                  <li><a href="./ir/management/index.html" onclick="javascript:_gaq.push(['_trackEvent', 'IR情報', 'click', '経営方針']);">経営方針</a></li>
+                  <li><a href="./ir/financial/index.html" onclick="javascript:_gaq.push(['_trackEvent', 'IR情報', 'click', '財務・業績']);">財務・業績</a></li>
+                  <li><a href="./ir/library/index.html" onclick="javascript:_gaq.push(['_trackEvent', 'IR情報', 'click', 'IR資料室']);">IR資料室</a></li>
+                  <li><a href="./ir/stocks/index.html" onclick="javascript:_gaq.push(['_trackEvent', 'IR情報', 'click', '株式・社債情報']);">株式・社債情報</a></li>
+                  <li><a href="./ir/disclose/index.html" onclick="javascript:_gaq.push(['_trackEvent', 'IR情報', 'click', 'IRニュース']);">IRニュース</a></li>
+                </ul>
+              </div>
+            </div>
+            </li>
+            <li class="fourth"><a href="./csr/index.html" onclick="javascript:_gaq.push(['_trackEvent', 'CSR', 'click', 'CSR']);"><p>CSR</p></a>
+            <div class="gnavi-slide" style="display:none;">
+              <div class="slide-content">
+                <ul id="globalSubmenu" class="clearfix">
+                  <li><a href="./csr/greeting.html" onclick="javascript:_gaq.push(['_trackEvent', 'CSR', 'click', 'トップメッセージ']);">トップメッセージ</a></li>
+                  <li><a href="./csr/policy/index.html" onclick="javascript:_gaq.push(['_trackEvent', 'CSR', 'click', 'CSR活動基本方針']);">CSR活動基本方針</a></li>
+                  <li><a href="./csr/organization/index.html" onclick="javascript:_gaq.push(['_trackEvent', 'CSR', 'click', 'CSR推進体制']);">CSR推進体制</a></li>
+                  <li><a href="./csr/theme/index.html" onclick="javascript:_gaq.push(['_trackEvent', 'CSR', 'click', '重点課題（マテリアリティ）']);">重点課題（マテリアリティ）</a></li>
+                  <li><a href="./csr/suppliers/index.html" onclick="javascript:_gaq.push(['_trackEvent', 'CSR', 'click', 'お取引先様とともに']);">お取引先様とともに</a></li>
+                  <li><a href="./csr/acction.html" onclick="javascript:_gaq.push(['_trackEvent', 'CSR', 'click', 'CSRアクション']);">CSRアクション</a></li>
+                  <li><a href="./csr/bn/index.html" onclick="javascript:_gaq.push(['_trackEvent', 'CSR', 'click', 'CSRアクション バックナンバー']);">CSRアクション バックナンバー</a></li>
+                  <li><a href="./csr/csrreport/index.html" onclick="javascript:_gaq.push(['_trackEvent', 'CSR', 'click', 'CSR レポート']);">CSR レポート</a></li>
+                  <li><a href="./csr/awards.html" onclick="javascript:_gaq.push(['_trackEvent', 'CSR', 'click', '受賞歴・社会からの評価']);">受賞歴・社会からの評価</a></li>
+                  <li><a href="./csr/exhibition.html" onclick="javascript:_gaq.push(['_trackEvent', 'CSR', 'click', 'エコプロダクツ展への出展']);">エコプロダクツ展への出展</a></li>
+                  <li><a href="./csr/editing/index.html" onclick="javascript:_gaq.push(['_trackEvent', 'CSR', 'click', '編集方針']);">編集方針</a></li>
+                  <li><a href="./csr/keywords.html" onclick="javascript:_gaq.push(['_trackEvent', 'CSR', 'click', 'キーワード検索']);">キーワード検索</a></li>
+                  <li><a href="./csr/guideline.html" onclick="javascript:_gaq.push(['_trackEvent', 'CSR', 'click', 'ガイドライン対照表']);">ガイドライン対照表</a></li>
+                </ul>
+              </div>
+            </div>
+            </li>
+            <li class="fifth"><a href="./recruit.html" onclick="javascript:_gaq.push(['_trackEvent', '採用情報', 'click', '採用情報']);"><p>採用情報</p></a>
+            <div class="gnavi-slide" style="display:none;">
+              <div class="slide-content">
+                <ul id="globalSubmenu" class="clearfix">
+                  <li><a href="http://www.sej.co.jp/corp/recruit/index.html" target="_blank" onclick="javascript:_gaq.push(['_trackEvent', '採用情報', 'click', 'セブンイレブン・ジャパン']);">（株）セブンイレブン・ジャパン</a></li>
+                  <li><a href="http://www.itoyokado.co.jp/company/job/index.html" target="_blank" onclick="javascript:_gaq.push(['_trackEvent', '採用情報', 'click', 'イトーヨーカ堂']);">（株）イトーヨーカ堂</a></li>
+                  <li><a href="http://www.sogo-seibu.co.jp/recruit.html" target="_blank" onclick="javascript:_gaq.push(['_trackEvent', '採用情報', 'click', 'そごう・西武']);">（株）そごう・西武</a></li>
+                  <li><a href="http://www.yb-jinji.com/" target="_blank" onclick="javascript:_gaq.push(['_trackEvent', '採用情報', 'click', 'ヨークベニマル']);">（株）ヨークベニマル</a></li>
+                  <li><a href="http://www.yorkmart-recruit.com/" target="_blank" onclick="javascript:_gaq.push(['_trackEvent', '採用情報', 'click', 'ヨークマート']);">（株）ヨークマート</a></li>
+                  <li><a href="http://www.garden.co.jp/recruit.html" target="_blank" onclick="javascript:_gaq.push(['_trackEvent', '採用情報', 'click', '（株）シェルガーデン']);">（株）シェルガーデン</a></li>
+                  <li><a href="http://www.7andi-fs.co.jp/7fs/recruittop/" target="_blank" onclick="javascript:_gaq.push(['_trackEvent', '採用情報', 'click', 'セブン＆アイ・フードシステムズ']);">（株）セブン＆アイ・フードシステムズ</a></li>
+                  <li><a href="http://www.sevenbank.co.jp/recruit/shinsotsu/index.html" target="_blank" onclick="javascript:_gaq.push(['_trackEvent', '採用情報', 'click', 'セブン銀行']);">（株）セブン銀行</a></li>
+                  <li><a href="http://www.7card.co.jp/company/ad.html" target="_blank" onclick="javascript:_gaq.push(['_trackEvent', '採用情報', 'click', 'セブン・カードサービス']);">（株）セブン・カードサービス</a></li>
+                  <li><a href="http://www.7andinm.co.jp/recruit/" target="_blank" onclick="javascript:_gaq.push(['_trackEvent', '採用情報', 'click', 'セブン＆アイ・ネットメディア']);">（株）セブン＆アイ・ネットメディア</a></li>
+                  <li><a href="http://www.7andi-pub.co.jp/company/recruit.html" target="_blank" onclick="javascript:_gaq.push(['_trackEvent', '採用情報', 'click', 'セブン＆アイ・出版']);">（株）セブン＆アイ・出版</a></li>
+                  <li><a href="http://www.oshmans.co.jp/recruit/" target="_blank" onclick="javascript:_gaq.push(['_trackEvent', '採用情報', 'click', 'オッシュマンズ・ジャパン']);">（株）オッシュマンズ・ジャパン</a></li>
+                  <li><a href="http://www.loft.co.jp/lp/recruitment/" target="_blank" onclick="javascript:_gaq.push(['_trackEvent', '採用情報', 'click', 'ロフト']);">（株）ロフト</a></li>
+                  <li><a href="http://www.7binogarden.co.jp/company/recruit/" target="_blank" onclick="javascript:_gaq.push(['_trackEvent', '採用情報', 'click', 'セブン美のガーデン']);">（株）セブン美のガーデン</a></li>
+                  <li><a href="http://www.iyfoods.co.jp/company_recruit.html" target="_blank" onclick="javascript:_gaq.push(['_trackEvent', '採用情報', 'click', 'アイワイフーズ']);">アイワイフーズ（株）</a></li>
+                  <li><a href="http://www.akachan.jp/recruit/index.html" target="_blank" onclick="javascript:_gaq.push(['_trackEvent', '採用情報', 'click', '赤ちゃん本舗']);">（株）赤ちゃん本舗</a></li>
+                  <li><a href="http://www.lf-jinji.com/" target="_blank" onclick="javascript:_gaq.push(['_trackEvent', '採用情報', 'click', 'ライフフーズ']);">（株）ライフフーズ</a></li>
+                  <li><a href="http://www.yorkkeibi.co.jp/recruit.html" target="_blank" onclick="javascript:_gaq.push(['_trackEvent', '採用情報', 'click', 'ヨーク警備']);">（株）ヨーク警備</a></li>
+                </ul>
+              </div>
+			</div>
+            </li>
+            <li class="sixth"><a href="http://www.omni7.jp/top/" target="_blank" onclick="javascript:_gaq.push(['_trackEvent', 'ネット通販', 'click', 'ネット通販']);"><p>ネット通販</p></a>
+            <div class="gnavi-slide" style="display:none;">
+              <div class="slide-content">
+                <ul id="globalSubmenu" class="clearfix">
+                  <li><a href="http://www.omni7.jp/top/" target="_blank" onclick="javascript:_gaq.push(['_trackEvent', 'ネット通販', 'click', 'オムニ7 TOP']);">オムニ7　TOP</a></li>
+                  <li><a href="http://7net.omni7.jp/top" target="_blank" onclick="javascript:_gaq.push(['_trackEvent', 'ネット通販', 'click', 'セブンネットショッピング']);">セブンネットショッピング</a></li>
+                  <li><a href="http://edepart.omni7.jp/top" target="_blank" onclick="javascript:_gaq.push(['_trackEvent', 'ネット通販', 'click', '西武・そごうのe.デパート']);">西武・そごうのe.デパート</a></li>
+                  <li><a href="http://iyec.omni7.jp/top" target="_blank" onclick="javascript:_gaq.push(['_trackEvent', 'ネット通販', 'click', 'イトーヨーカドー ネット通販']);">イトーヨーカドー ネット通販</a></li>
+                  <li><a href="http://akachan.omni7.jp/top" target="_blank" onclick="javascript:_gaq.push(['_trackEvent', 'ネット通販', 'click', 'アカチャンホンポ ネット通販']);">アカチャンホンポ ネット通販</a></li>
+                  <li><a href="http://loft.omni7.jp/top" target="_blank" onclick="javascript:_gaq.push(['_trackEvent', 'ネット通販', 'click', 'Loft ネット通販']);">Loft ネット通販</a></li>
+                  <li><a href="http://7-11net.omni7.jp/" target="_blank" onclick="javascript:_gaq.push(['_trackEvent', 'ネット通販', 'click', 'セブン-イレブンのネットサービス']);">セブン-イレブンのネットサービス</a></li>
+                  <li><a href="https://www.dennys.omni7.jp/k/dennys/catering/index.php" target="_blank" onclick="javascript:_gaq.push(['_trackEvent', 'ネット通販', 'click', 'デニーズ出前']);">デニーズ出前</a></li>
+                  <li><a href="https://tabi.omni7.jp/" target="_blank" onclick="javascript:_gaq.push(['_trackEvent', 'ネット通販', 'click', 'セブン旅ネット']);">セブン旅ネット</a></li>
+                </ul>
+              </div>
+			</div>
+            </li>
+          </ul>
+        </div>
+      </div><!--pc_header-->
+
+      <div class="spon header_spon">
+        <div class="slide-btn"><a href="#menu"><img src="./dbps_data/_template_/_user_/_SITE_/localhost/_res/new/images/common/slide_menu_btn.png"></a></div>
+        <div class="search_btn"><img src="./dbps_data/_template_/_user_/_SITE_/localhost/_res/new/images/common/sp_search_btn.png"></div>
+        <div class="search_close_btn"><img src="./dbps_data/_template_/_user_/_SITE_/localhost/_res/new/images/common/sp_search_close_btn.png"></div>
+
+        <nav class="global-navi">
+          <p><a href="./index.html"><img src="./dbps_data/_template_/_user_/_SITE_/localhost/_res/new/images/top/sp_top_01.png"></a></p>
+          <ul>
+            <li>red</li>
+            <li>green</li>
+            <li>red</li>
+            <li>green</li>
+            <li>red</li>
+            <li>green</li>
+          </ul>
+        </nav>
+
+      </div><!--sp_header-->
+
+
+    </div>
+  </header>
+  <div id="contents-body" class="clearfix">
+
+
+<style type="text/css">
+.main_slider {
+	position:relative;
+	width:970px;
+	margin:0 auto;
+}
+.main_slider img {
+
+}
+#contents-body .contens-area {
+margin-bottom:25px;
+}
+.topSidebn {
+    text-align: right;
+	margin-bottom:20px;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    padding-bottom: 0px;
+
+}
+body #contents-body .contens-area #ir-topix {
+    border: 1px solid #ccc;
+    /* height: 348px; */
+    height: auto;
+    padding-bottom: 13px;
+    position: absolute;
+    right: 15px;
+    top: 200px;
+    width: 298px;
+}
+#container .top_irtopics_ifr {
+display:none !important;
+
+}
+.omniWrap {
+	margin-top:15px;
+	margin-bottom:30px;	
+}
+
+.omniBox:after {
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+	content: ".";
+}
+.omniBox .omniLeft {
+	width:190px;
+	height:130px;
+	border:1px solid #ccc;
+	border-left:none;
+	display:table-cell;
+	vertical-align:middle;
+	text-align:center;
+}
+.omniBox .omkniRight {
+	width:440px;
+	display:table-cell;
+	vertical-align:middle;
+	text-align:center;
+	border:1px solid #ccc;
+	border-left:none;
+	border-right:none;
+}
+.omniBox .omkniRight ul:after {
+		display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+	content: ".";
+	
+}
+.omniBox .omkniRight ul li{
+	float:left;
+	width:100px;	
+	padding:10px 0;
+	text-align:right;
+}
+.omniWrap .iconDt {
+	margin-bottom:0;
+	padding:0 0 10px 10px;
+}
+
+@media screen and (max-width: 768px) {
+body #menu ul.mm-listview li:nth-child(7) {
+font-weight: bold;
+
+}
+.main_slider {
+	width:100%;	
+	padding:0;	
+	box-sizing:border-box;
+	}
+.topSidebn {
+    text-align: right;
+    margin: 20px 0;
+    position: inherit;
+    right: inherit;
+    bottom: inherit;
+    padding-bottom: 15px;
+
+}
+.topSidebn img {
+max-width:100%;
+width:100%;
+}
+body #contents-body .contens-area #ir-topix {
+    border: 1px solid #ccc;
+    /* height: 348px; */
+    height: auto;
+    padding-bottom: 13px;
+    position: static;
+    right: inherit;
+    top: inherit;
+    width: 100%;
+}
+.omniWrap {
+	margin-top:15px;
+	margin-bottom:40px;
+}
+.omniWrap dt {
+padding:0 0 10px 0;	
+}
+.omniWrap .iconDt {
+margin-bottom:0;	
+}
+	.omniBox .omniLeft {
+	width:100%;
+	height:auto;
+	border:1px solid #ccc;
+	border-left:none;
+	border-right:none;
+	border-bottom:none;
+	display:block;
+	vertical-align:middle;
+	text-align:center;
+	padding:30px 0;
+}
+.omniBox .omkniRight {
+	width:100%;
+	display:block;
+	vertical-align:middle;
+	text-align:center;
+	border:1px solid #ccc;
+	border-left:none;
+	border-right:none;
+	padding:15px 0;
+}
+.omniBox .omkniRight ul li{
+	float:left;
+	width:25%;	
+	padding:10px 0;
+	text-align:center;
+}
+
+
+}
+
+</style>
+
+<div id="promotion">
+<div id="main-bnr">
+<!--PC-->
+<div class="main_slider pcon flexslider">
+<ul class="slides">
+<!--<li>
+<p class="pcon">
+<img src="./dbps_data/_template_/_user_/_SITE_/localhost/_res/new/images/top/pc_bnr_shinsai_20160617.png" border="0" usemap="#Map" />
+<map name="Map" id="Map">
+<area shape="rect" coords="654,314,826,347" href="http://www.7andi.com/dbps_data/_material_/_files/000/000/002/267/20160616kumamoto.pdf" target="_blank" alt="" />
+</map>
+</p>
+</li>-->
+<!--<li>
+<a href="./promotion/goldhamburger.html" onclick="javascript:_gaq.push(['_trackEvent', 'PC', 'center', 'PC_C_topbanner1']);"><img src="./dbps_data/_template_/_user_/_SITE_/localhost/_res/new/images/top/top_main_bnr_160718.png" border="0"></a>
+</li>-->
+<li>
+<img src="./dbps_data/_template_/_user_/_SITE_/localhost/_res/new/images/top/top_main_bnr_160818.png" border="0" usemap="#Map02" />
+<!--<map name="Map02" id="Map02">
+<area shape="rect" coords="751,218,944,316" href="http://www.omni7.jp/top/" target="_blank" />
+</map>-->
+</li>
+</ul>
+</div>
+
+<!--SP-->
+
+
+<div class="main_slider spon flexslider">
+<ul class="slides">
+<!--<li>
+<p class="spon">
+<img src="./dbps_data/_template_/_user_/_SITE_/localhost/_res/new/images/top/sp_bnr_shinsai_20160617_01.jpg" border="0" />
+<a href="http://www.7andi.com/dbps_data/_material_/_files/000/000/002/267/20160616kumamoto.pdf" target="_blank"><img src="./dbps_data/_template_/_user_/_SITE_/localhost/_res/new/images/top/sp_bnr_shinsai_20160617_02.jpg" border="0" /></a>
+</p>
+</li>-->
+<!--<li>
+<a href="./promotion/goldhamburger.html" onclick="javascript:_gaq.push(['_trackEvent', 'SP', 'center', 'SP_C_topbanner1']);"><img src="./dbps_data/_template_/_user_/_SITE_/localhost/_res/new/images/top/sp_top_main_bnr_160718.png" border="0"></a>
+</li>-->
+<li>
+<img src="./dbps_data/_template_/_user_/_SITE_/localhost/_res/new/images/top/sp_top_main_bnr_16818.png" border="0">
+</li>
+</ul>
+</div>
+
+
+</div><!--main-bnr-->
+</div><!--promotion-->
+		<div id="section-01" class="contens-area clearfix">
+
+			<div id="lotation" class="flexslider">
+				<ul class="slides">
+
+
+
+			
+							
+								
+									
+											
+																						
+					
+														
+					
+					
+					
+					
+					
+					
+					
+					
+					
+						
+			
+					
+							
+								
+									
+																											
+					
+														
+					
+					
+					
+					
+					
+					
+					
+					
+						
+			
+					
+					
+							
+								
+									
+											
+																						
+					
+														
+					
+					
+					
+					
+					
+					
+					
+						
+			
+					
+					
+					
+							
+								
+									
+											
+																						
+					
+														
+					
+					
+					
+					
+					
+					
+						
+			
+					
+					
+					
+					
+							
+								
+									
+											
+																						
+					
+														
+					
+					
+					
+					
+					
+						
+			
+					
+					
+					
+					
+					
+							
+								
+									
+											
+																						
+					
+														
+					
+					
+					
+					
+						
+			
+					
+					
+					
+					
+					
+					
+							
+								
+									
+											
+																						
+					
+														
+					
+					
+					
+						
+			
+					
+					
+					
+					
+					
+					
+					
+							
+								
+									
+											
+																						
+					
+														
+					
+					
+						
+			
+					
+					
+					
+					
+					
+					
+					
+					
+							
+								
+									
+											
+																						
+					
+														
+					
+						
+			
+					
+					
+					
+					
+					
+					
+					
+					
+					
+							
+								
+									
+											
+																						
+											
+																	
+																								                <li><a href="./company/quarterly.html" onclick="javascript:_gaq.push(['_trackEvent', 'PC_SP', 'center', 'C_taidan
+']);"><img src="./dbps_data/_material_/_files/000/000/000/000/top_rotation-m_135_01.png" alt="「セブン＆アイ ＨＬＤＧＳ．四季報」を発行しました。 セブン＆アイグループの最新情報を皆さんにお届けします。" /></a></li>
+																																	
+						
+			
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+							
+								
+									
+										
+																						
+																			</ul>
+			</div>
+
+
+			<div id="sub-bnr">
+				<ul class="clearfix">
+
+
+
+			
+							
+								
+									
+																											
+					
+														
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+						
+			
+					
+							
+								
+									
+											
+																						
+					
+														
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+						
+			
+					
+					
+							
+								
+									
+											
+																						
+					
+														
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+						
+			
+					
+					
+					
+							
+								
+									
+											
+																						
+					
+														
+					
+					
+					
+					
+					
+					
+					
+					
+					
+						
+			
+					
+					
+					
+					
+							
+								
+									
+											
+																						
+					
+														
+					
+					
+					
+					
+					
+					
+					
+					
+						
+			
+					
+					
+					
+					
+					
+							
+								
+									
+											
+																						
+					
+														
+					
+					
+					
+					
+					
+					
+					
+						
+			
+					
+					
+					
+					
+					
+					
+							
+								
+									
+											
+																						
+					
+														
+					
+					
+					
+					
+					
+					
+						
+			
+					
+					
+					
+					
+					
+					
+					
+							
+								
+									
+											
+																						
+					
+														
+					
+					
+					
+					
+					
+						
+			
+					
+					
+					
+					
+					
+					
+					
+					
+							
+								
+									
+											
+																						
+					
+														
+					
+					
+					
+					
+						
+			
+					
+					
+					
+					
+					
+					
+					
+					
+					
+							
+								
+									
+											
+																						
+					
+														
+					
+					
+					
+						
+			
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+							
+								
+									
+											
+																						
+					
+														
+					
+					
+						
+			
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+							
+								
+									
+											
+																						
+											
+																	
+											          <li><a href="./company/challenge/2751/index.html" onclick="javascript:_gaq.push(['_trackEvent', 'PC_SP', 'center', 'C_chosen
+']);"><img src="./dbps_data/_material_/_files/000/000/000/000/top_challenge_135_02_top.png" alt="新社長インタビュー / セブン＆アイグループの店づくり（2016年5月）"></a></li>
+																				
+					
+						
+			
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+							
+								
+									
+										
+																						
+														
+						
+			
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+							
+								
+									
+																											
+																						
+											          <li><a href="./csr/acction.html" onclick="javascript:_gaq.push(['_trackEvent', 'PC_SP', 'center', 'C_chosen
+']);"><img src="./dbps_data/_material_/_files/000/000/000/000/top_subbnr_02_2.png" alt="CSRアクション"></a></li>
+																							</ul>
+			</div>
+
+
+
+
+			
+							
+								
+									
+					
+						
+																						
+					
+														
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+						
+			
+					
+							
+								
+									
+					
+						
+																						
+					
+														
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+						
+			
+					
+					
+							
+								
+									
+					
+						
+																						
+					
+														
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+						
+			
+					
+					
+					
+							
+								
+									
+					
+						
+																						
+					
+														
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+						
+			
+					
+					
+					
+					
+							
+								
+									
+					
+						
+																						
+					
+														
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+						
+			
+					
+					
+					
+					
+					
+							
+								
+									
+					
+						
+																						
+					
+														
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+						
+			
+					
+					
+					
+					
+					
+					
+							
+								
+									
+					
+						
+																						
+					
+														
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+						
+			
+					
+					
+					
+					
+					
+					
+					
+							
+								
+									
+					
+						
+																						
+					
+														
+					
+					
+					
+					
+					
+					
+					
+					
+					
+						
+			
+					
+					
+					
+					
+					
+					
+					
+					
+							
+								
+									
+					
+						
+																						
+					
+														
+					
+					
+					
+					
+					
+					
+					
+					
+						
+			
+					
+					
+					
+					
+					
+					
+					
+					
+					
+							
+								
+									
+					
+						
+																						
+					
+														
+					
+					
+					
+					
+					
+					
+					
+						
+			
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+							
+								
+									
+					
+						
+																						
+					
+														
+					
+					
+					
+					
+					
+					
+						
+			
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+							
+								
+									
+					
+						
+																						
+					
+														
+					
+					
+					
+					
+					
+						
+			
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+							
+								
+									
+					
+						
+																						
+					
+														
+					
+					
+					
+					
+						
+			
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+							
+								
+									
+					
+						
+																						
+					
+														
+					
+					
+					
+						
+			
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+							
+								
+									
+					
+						
+																						
+					
+														
+					
+					
+						
+			
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+							
+								
+									
+					
+						
+																						
+					
+														
+					
+						
+			
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+							
+								
+									
+					
+						
+																						
+											
+																	
+																		 <div class="alertMessage">
+  <dl class="inportantInfo">
+    <dt><strong>！重要なお知らせ</strong></dt>
+		<dd><a href="./dbps_data/_template_/_user_/_SITE_/localhost/_res/news/2014/20141007_01.pdf" target="_blank">セブン＆アイ・ホールディングスの名称を用いた、債券や投資に関するお電話にご注意ください</a><span class="iconPdf">&nbsp;</span> (88.2KB)</dd>
+  </dl>
+
+  <dl class="inportantInfo">
+    <dt><strong>！重要なお知らせ</strong></dt>
+		<dd><a href="./ir/library/co/index.html">「コーポレートアウトライン(2016年度版)」</a>を掲載いたしました。</dd>
+  </dl>
+</div>
+
+																			
+			
+				
+		<div class="topSidebn">
+			<div class="pcon">
+				<a href="http://www.omni7.jp/top/" target="_blank" onclick="javascript:_gaq.push(['_trackEvent', 'PC', 'right', 'PC_R_omni_a']);"><img src="./dbps_data/_template_/_user_/_SITE_/localhost/_res/new/images/top/bnr_side_160718_a.jpg" border="0"></a>
+			</div>
+			<div class="spon">
+				<a href="http://www.omni7.jp/top/" target="_blank" onclick="javascript:_gaq.push(['_trackEvent', 'SP', 'right', 'SP_R_omni_a']);"><img src="./dbps_data/_template_/_user_/_SITE_/localhost/_res/new/images/top/sp_bnr_side_160718_a.jpg" border="0"></a>
+			</div>
+		</div>
+
+
+			<div id="ir-topix">
+				<dl class="iconDt">
+					<dt><img class="title_icon" src="./dbps_data/_template_/_user_/_SITE_/localhost/_res/new/images/top/ir_icon.png"><p>IRトピックス</p></dt>
+
+
+
+
+
+			
+							
+								
+									
+																											
+					
+														
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+						
+			
+					
+							
+								
+									
+											
+																						
+					
+														
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+						
+			
+					
+					
+							
+								
+									
+											
+																						
+					
+														
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+						
+			
+					
+					
+					
+							
+								
+									
+											
+																						
+					
+														
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+						
+			
+					
+					
+					
+					
+							
+								
+									
+											
+																						
+					
+														
+					
+					
+					
+					
+					
+					
+					
+					
+					
+						
+			
+					
+					
+					
+					
+					
+							
+								
+									
+											
+																						
+					
+														
+					
+					
+					
+					
+					
+					
+					
+					
+						
+			
+					
+					
+					
+					
+					
+					
+							
+								
+									
+											
+																						
+					
+														
+					
+					
+					
+					
+					
+					
+					
+						
+			
+					
+					
+					
+					
+					
+					
+					
+							
+								
+									
+											
+																						
+					
+														
+					
+					
+					
+					
+					
+					
+						
+			
+					
+					
+					
+					
+					
+					
+					
+					
+							
+								
+									
+											
+																						
+					
+														
+					
+					
+					
+					
+					
+						
+			
+					
+					
+					
+					
+					
+					
+					
+					
+					
+							
+								
+									
+											
+																						
+					
+														
+					
+					
+					
+					
+						
+			
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+							
+								
+									
+											
+																						
+					
+														
+					
+					
+					
+						
+			
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+							
+								
+									
+											
+																						
+					
+														
+					
+					
+						
+			
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+							
+								
+									
+											
+																						
+					
+														
+					
+						
+			
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+							
+								
+									
+											
+																						
+					
+														
+						
+			
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+							
+								
+									
+											
+																						
+																						
+																		 <dd>
+<style type="text/css">
+#ir-topix dd{
+	padding-top:0.25em;
+}
+
+#ir-topix .title{
+	padding:0.5em 1em;
+}
+
+#ir-topix .textLink{
+	text-align:right;
+	padding-right:1em;
+}
+#ir-topix .textLink a{
+	padding-left:12px;
+	background:url(./dbps_data/_template_/_user_/_SITE_/localhost/_res/new/images/common/com_ic03_new.png) no-repeat;
+	background-position:0 5px;
+}
+
+#ir-topix ul{
+	padding:0 1em;
+}
+
+#ir-topix ul li{
+	list-style-type:disc;
+	list-style-position:inside;
+}
+</style>
+
+<p class="title">2018年2月期　第1四半期決算発表</p>
+<ul>
+  <li><a href="./ir/library/kt/index.html">決算短信</a></li>
+  <li><a href="./ir/library/kh/index.html">決算補足資料</a></li>
+  <li><a href="./ir/library/ks/index.html">決算説明会資料<br />　　（経営方針・業績説明）</a></li>
+</ul>
+
+<p class="textLink"><a href="./ir/index.html">IR情報はこちら</a></p>
+
+<div class="stockPrice" style="text-align:center; margin:1.5em 0 0.5em 0"><iframe height="162" frameborder="0" width="188" align="middle" noresize="" marginheight="0" marginwidth="0" scrolling="no" name="stockPrice" class="top_irtopics_ifr" src="http://dimg.stockweather.co.jp/sw_dimg/SevenIChartD_real.ashx"></iframe></div>
+<p class="textLink"><a href="./ir/stocks/stock_quote.html">株価情報はこちら</a></p>
+</dd>
+																							</dl>
+			</div>
+
+
+		</div><!--section-01-->
+
+
+
+																																																																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																												
+																																																																																																																																																																																																			<div id="section-02" class="contens-area clearfix">
+			<div class="col-left">
+				<div id="release">
+					<dl class="iconDt">
+						<dt><img class="title_icon" src="./dbps_data/_template_/_user_/_SITE_/localhost/_res/new/images/top/release_icon.png"><p>ニュースリリース</p>
+						<span class="btn"><a href="/company/news/rss.rss"><img src="./dbps_data/_template_/_user_/_SITE_/localhost/_res/common/images/com_bt_rss_2016.gif" alt="RSS" width="48" height="18"></a></span>
+						<span class="btn02"><a href="./rss.html">RSSについて</a></span>
+						</dt>
+						<dd>
+							<div class="newsReleaseBox00">
+								<ul class="list">
+												<li><span class="date">2017/08/14</span>
+			<span class="icon"><img width="55" height="14" alt="CSR" src="./dbps_data/_template_/_user_/_SITE_/localhost/_res/common/images/news_ic08.gif"></span>			<span class="data">						<a href="./company/news/release/002775.html" target="_blank">セブン‐イレブン・ジャパンとセブン・カードサービス　セカンドハーベスト・ジャパンへの支援を開始</a><span class="iconPdf">&nbsp;</span>（276.3KB）</span></li>
+														<li><span class="date">2017/08/10</span>
+			<span class="icon"><img width="55" height="14" alt="商品" src="./dbps_data/_template_/_user_/_SITE_/localhost/_res/common/images/news_ic03.gif"></span>			<span class="data">						<a href="./company/news/release/002774.html" target="_blank">【セブン＆アイ】『セブンプレミアム ロイヤルティーラテ氷』『セブンプレミアム 宇治抹茶氷わらび餅・あんこ添え』全国のセブン&amp;アイグループ各店舗で順次発売</a><span class="iconPdf">&nbsp;</span>（347.6KB）</span></li>
+														<li><span class="date">2017/08/09</span>
+			<span class="icon"><img width="55" height="14" alt="企業情報" src="./dbps_data/_template_/_user_/_SITE_/localhost/_res/common/images/news_ic06.gif"></span>			<span class="data">						<a href="./company/news/release/002771.html" target="_blank">【セブン＆アイ】セブン‐イレブン・ジャパンとトヨタ、物流と店舗の省エネルギー・CO2排出削減に向けた検討を開始－燃料電池トラックや燃料電池発電機を導入し、水素活用を推進－</a><span class="iconPdf">&nbsp;</span>（190.7KB）</span></li>
+														<li><span class="date">2017/08/04</span>
+			<span class="icon"><img width="55" height="14" alt="IR" src="./dbps_data/_template_/_user_/_SITE_/localhost/_res/common/images/news_ic07.gif"></span>			<span class="data">						<a href="./company/news/release/002759.html" target="_blank">第19回新株予約権（株式報酬型ストック・オプション）の発行内容確定に関するお知らせ</a><span class="iconPdf">&nbsp;</span>（127.1KB）</span></li>
+														<li><span class="date">2017/08/03</span>
+			<span class="icon"><img width="55" height="14" alt="IR" src="./dbps_data/_template_/_user_/_SITE_/localhost/_res/common/images/news_ic07.gif"></span>			<span class="data">						<a href="./company/news/release/002764.html" target="_blank">株式会社そごう・西武のそごう神戸店及び西武高槻店に関する事業の譲渡についての契約書締結のお知らせ</a><span class="iconPdf">&nbsp;</span>（178.9KB）</span></li>
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																						</ul>
+							</div>
+							<p class="elementR" style="font-size:1.5em; margin:0 0 10px;"><a class="iconLink00" href="./company/news/index.html">ニュースリリース一覧</a></p>
+						</dd>
+					</dl>
+				</div>
+
+        <div id="release" class="top-info">
+          <dl class="iconDt">
+            <dt><img class="title_icon" src="./dbps_data/_template_/_user_/_SITE_/localhost/_res/new/images/top/release_icon.png"><p>お知らせ</p></dt>
+
+            <dd>
+              <div class="newsReleaseBox00">
+                <ul class="list">
+
+                  <li><span class="date">2016/11/04</span> <span class="data"><a href="./dbps_data/_template_/_user_/_SITE_/localhost/_res/news/2016/20161104.pdf" target="_blank">「セブンプレミアム さんま蒲焼 100g」に関するお詫びと自主回収のお知らせ</a><span class="iconPdf">&nbsp;</span> (170KB)</span></li>
+
+                  <li><span class="date">2016/01/21</span> <span class="data"><a href="./dbps_data/_template_/_user_/_SITE_/localhost/_res/news/2016/20160121_01.pdf" target="_blank">産業廃棄物処理業者により不正転売された弊社商品についてのお知らせ</a><span class="iconPdf">&nbsp;</span>（99.5KB）</span></li>
+                  <li><span class="date">2015/11/06</span> <span class="data"><a href="./dbps_data/_template_/_user_/_SITE_/localhost/_res/news/2015/20151106_01.pdf" target="_blank">「セブンプレミアム フルーツキャンディミックス」に関するお詫びと自主回収のお知らせ</a><span class="iconPdf">&nbsp;</span>（137KB）</span></li>
+                </ul>
+              </div>
+            </dd>
+          </dl>
+        </div>
+
+<!-- omni7 Links -->
+<div class="omniWrap">
+<dl class="iconDt">
+            <dt><img class="title_icon" src="./dbps_data/_template_/_user_/_SITE_/localhost/_res/new/images/top/netshopping_icon.png"><p>ネット通販</p></dt>
+            </dl>
+
+<div class="omniBox">
+<div class="omniLeft">
+<a href="http://www.omni7.jp/top" target="_blank" onclick="javascript:_gaq.push(['_trackEvent', 'PC_SP', 'center', 'C_omni7']);"><img src="./dbps_data/_template_/_user_/_SITE_/localhost/_res/new/images/top/net_s_ico01.png" title="オムニ７" alt="オムニ７"></a>
+</div>
+
+<div class="omkniRight">
+<ul>
+<li><a href="http://7net.omni7.jp/top" target="_blank" onclick="javascript:_gaq.push(['_trackEvent', 'PC_SP', 'center', 'C_7ns']);"><img src="./dbps_data/_template_/_user_/_SITE_/localhost/_res/new/images/top/net_s_ico02.png" title="セブンネットショッピング" alt="セブンネットショッピング"></a></li>
+<li>
+<a href="http://edepart.omni7.jp/top" target="_blank" onclick="javascript:_gaq.push(['_trackEvent', 'PC_SP', 'center', 'C_SS']);"><img src="./dbps_data/_template_/_user_/_SITE_/localhost/_res/new/images/top/net_s_ico03.png" title="西武・そごうのe.デパート" alt="西武・そごうのe.デパート"></a>
+</li>
+<li>
+<a href="http://iyec.omni7.jp/top" target="_blank" onclick="javascript:_gaq.push(['_trackEvent', 'PC_SP', 'center', 'C_IY']);"><img src="./dbps_data/_template_/_user_/_SITE_/localhost/_res/new/images/top/net_s_ico04.png" title="イトーヨーカドー ネット通販" alt="イトーヨーカドー ネット通販"></a>
+</li>
+<li>
+<a href="http://akachan.omni7.jp/top" target="_blank" onclick="javascript:_gaq.push(['_trackEvent', 'PC_SP', 'center', 'C_ah']);"><img src="./dbps_data/_template_/_user_/_SITE_/localhost/_res/new/images/top/net_s_ico05.png" title="アカチャンホンポ ネット通販" alt="アカチャンホンポ ネット通販"></a>
+</li>
+<li>
+<a href="http://loft.omni7.jp/top" target="_blank" onclick="javascript:_gaq.push(['_trackEvent', 'PC_SP', 'center', 'C_loft']);"><img src="./dbps_data/_template_/_user_/_SITE_/localhost/_res/new/images/top/net_s_ico06.png" title="LoFt ネット通販" alt="LoFt ネット通販"></a>
+</li>
+<li>
+<a href="http://7-11net.omni7.jp/top/" target="_blank" onclick="javascript:_gaq.push(['_trackEvent', 'PC_SP', 'center', 'C_sej']);"><img src="./dbps_data/_template_/_user_/_SITE_/localhost/_res/new/images/top/net_s_ico07.png" title="セブン‐イレブンのネットサービス" alt="セブン‐イレブンのネットサービス"></a>
+</li>
+<li>
+<a href="http://dennys.omni7.jp/top/" target="_blank" onclick="javascript:_gaq.push(['_trackEvent', 'PC_SP', 'center', 'C_dennys']);"><img src="./dbps_data/_template_/_user_/_SITE_/localhost/_res/new/images/top/net_s_ico08.png" title="デニーズ出前" alt="デニーズ出前"></a>
+</li>
+<li>
+<a href="http://tabi.omni7.jp/" target="_blank" onclick="javascript:_gaq.push(['_trackEvent', 'PC_SP', 'center', 'C_travel']);"><img src="./dbps_data/_template_/_user_/_SITE_/localhost/_res/new/images/top/net_s_ico09.png" title="セブン旅ネット" alt="セブン旅ネット"></a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<!-- END omni7 Links -->
+
+
+<div id="btmBnr" class="clearfix">
+<ul>
+<!--<li><a href="./global/index.html" target="_blank"><img src="./dbps_data/_template_/_user_/_SITE_/localhost/_res/new/images/top/top_bottom_bnr_inbound.png" alt="訪日外国人向け店舗紹介"></a></li>-->
+<li><a href="./ir/library/index.html"><img src="./dbps_data/_template_/_user_/_SITE_/localhost/_res/new/images/top/top_bottom_bnr_ir.png" alt="最新IR資料"></a></li>
+<li class="even"><a href="./csr/csrreport/index.html"><img src="./dbps_data/_template_/_user_/_SITE_/localhost/_res/new/images/top/top_bottom_bnr_csr_2016.png" alt="CSRレポート"></a></li>
+<li><a href="./dbps_data/_template_/_user_/_SITE_/localhost/_res/company/pdf/profile/profile_2016.pdf" target="_blank"><img src="./dbps_data/_template_/_user_/_SITE_/localhost/_res/new/images/top/top_bottom_bnr_company_2016.png" alt="会社案内" target="_blank"></a></li>
+<li class="even"><a href="./omni7.html"><img src="./dbps_data/_template_/_user_/_SITE_/localhost/_res/new/images/top/top_bottom_bnr_aboutomni7.png" alt="オムニ7とは"></a></li>
+<!--<li class="even"><a href="http://www.omni7.jp/top/" target="_blank"><img src="./dbps_data/_template_/_user_/_SITE_/localhost/_res/new/images/top/top_bottom_bnr_omni7.png" alt="omni7"></a></li>-->
+</ul>
+</div>
+
+
+
+			</div><!--col-left-->
+
+
+
+
+
+
+
+			
+							
+								
+				
+					
+																											
+					
+														
+					
+					
+					
+					
+						
+			
+					
+							
+								
+				
+					
+											
+																						
+					
+														
+					
+					
+					
+						
+			
+					
+					
+							
+								
+				
+					
+											
+																						
+					
+														
+					
+					
+						
+			
+					
+					
+					
+							
+								
+				
+					
+											
+																						
+					
+														
+					
+						
+			
+					
+					
+					
+					
+							
+								
+				
+					
+											
+																						
+					
+														
+						
+			
+					
+					
+					
+					
+					
+							
+								
+				
+					
+											
+																						
+																						
+																		 			<div class="col-right grplistWrap">
+				<div id="group-list">
+					<dl class="iconDt">
+						<dt>
+							<img class="title_icon" src="./dbps_data/_template_/_user_/_SITE_/localhost/_res/new/images/top/grplist_icon.png"><p>グループ会社</p>
+						</dt>
+						<dd>
+							<ul class="list">
+								<li><a href="http://www.sej.co.jp/" target="_blank" onclick="javascript:_gaq.push(['_trackEvent', 'PC_SP', 'right', 'R_company_sej']);"><img src="./dbps_data/_template_/_user_/_SITE_/localhost/_res/new/images/top/company_icon_01.png" alt="セブン-イレブン"></a></li>
+								<li><a href="https://www.7-eleven.com/" target="_blank" onclick="javascript:_gaq.push(['_trackEvent', 'PC_SP', 'right', 'R_company_ink']);"><img src="./dbps_data/_template_/_user_/_SITE_/localhost/_res/new/images/top/company_icon_10.png" alt="7-Eleven,.Inc."></a></li>
+								<li><a href="http://www.itoyokado.co.jp/" target="_blank" onclick="javascript:_gaq.push(['_trackEvent', 'PC_SP', 'right', 'R_company_iy']);"><img src="./dbps_data/_template_/_user_/_SITE_/localhost/_res/new/images/top/company_icon_02.png" alt="イトーヨーカドー"></a></li>
+								<li><a href="http://www.sogo-seibu.co.jp/" target="_blank" onclick="javascript:_gaq.push(['_trackEvent', 'PC_SP', 'right', 'R_company_ss']);"><img src="./dbps_data/_template_/_user_/_SITE_/localhost/_res/new/images/top/company_icon_03.png" alt="そごう・西武"></a></li>
+								<li><a href="http://www.yorkbeni.co.jp/" target="_blank" onclick="javascript:_gaq.push(['_trackEvent', 'PC_SP', 'right', 'R_company_yb']);"><img src="./dbps_data/_template_/_user_/_SITE_/localhost/_res/new/images/top/company_icon_04.png" alt="ヨークベニマル"></a></li>
+								<li><a href="http://www.7andi-fs.co.jp/7fs/" target="_blank" onclick="javascript:_gaq.push(['_trackEvent', 'PC_SP', 'right', 'R_company_7fs']);"><img src="./dbps_data/_template_/_user_/_SITE_/localhost/_res/new/images/top/company_icon_11.png" alt="セブン＆アイ・フードシステムズ"></a></li>
+								<li><a href="http://www.sevenbank.co.jp/" target="_blank" onclick="javascript:_gaq.push(['_trackEvent', 'PC_SP', 'right', 'R_company_7bk']);"><img src="./dbps_data/_template_/_user_/_SITE_/localhost/_res/new/images/top/company_icon_06.png" alt="セブン銀行"></a></li>
+								<li><a href="http://www.loft.co.jp/" target="_blank" onclick="javascript:_gaq.push(['_trackEvent', 'PC_SP', 'right', 'R_company_loft']);"><img src="./dbps_data/_template_/_user_/_SITE_/localhost/_res/new/images/top/company_icon_07.png" alt="ロフト"></a></li>
+								<li><a href="http://www.akachan.jp/" target="_blank" onclick="javascript:_gaq.push(['_trackEvent', 'PC_SP', 'right', 'R_company_ah']);"><img src="./dbps_data/_template_/_user_/_SITE_/localhost/_res/new/images/top/company_icon_08.png" alt="アカチャンホンポ"></a></li>
+								<li><a href="http://www.nissen-hd.co.jp/" target="_blank" onclick="javascript:_gaq.push(['_trackEvent', 'PC_SP', 'right', 'R_company_nsn']);"><img src="./dbps_data/_template_/_user_/_SITE_/localhost/_res/new/images/top/company_icon_09.png" alt="ニッセン"></a></li>
+							</ul>
+							<p class="elementR" style="font-size: 1.2em;margin:0 0 10px;"><a class="iconLink00" href="./group/index.html">一覧を見る</a></p>
+						</dd>
+					</dl>
+				</div>
+
+				<div id="rightSidebnr" class="mt30 clearfix">
+				<ul>
+				<li><a href="./global/index.html" target="_blank" onclick="javascript:_gaq.push(['_trackEvent', 'PC_SP', 'right', 'R_inbound']);"><img src="./dbps_data/_template_/_user_/_SITE_/localhost/_res/new/images/top/top_bottom_bnr_inbound.png" alt="訪日外国人向け店舗紹介"></a></li>
+				<li><a href="./newmsg/index.html" onclick="javascript:_gaq.push(['_trackEvent', 'PC_SP', 'right', 'R_newdays']);"><img src="./dbps_data/_template_/_user_/_SITE_/localhost/_res/new/images/top/top_bottom_bnr_newday_20170630.png" alt="新しい今日がある"></a></li>
+				<li><a href="./irmovie.html" onclick="javascript:_gaq.push(['_trackEvent', 'PC_SP', 'right', 'R_irmovie']);"><img src="./dbps_data/_template_/_user_/_SITE_/localhost/_res/new/images/top/top_right_bnr_irmovie.png" alt="決算説明会動画"></a></li>
+
+				</ul>
+				</div>
+			</div>
+																					</div><!--section-02-->
+
+
+
+
+  <p class="gotoTop spon"><a href="#top"><img src="./dbps_data/_template_/_user_/_SITE_/localhost/_res/new/images/common/page_top.png" alt="page top" /></a></p>
+  <!--contents-body--></div>
+  <p class="CommonPageTop pcon clearfix"><a href="#header">PAGE TOP</a></p>
+  <footer id="footer">
+    <div id="footer-in">
+      <div class="pcon">
+        <div id="footer-upper" class="clearfix">
+          
+          <ul id="application" class="clearfix">
+            <li id="app01" class="clearfix">
+              <p class="icon-img"><img src="./dbps_data/_template_/_user_/_SITE_/localhost/_res/new/images/common/omni7_app.png"></p>
+              <dl>
+                <dt>オムニ7アプリ</dt>
+                <dd><a href="https://itunes.apple.com/jp/app/id641514745" target="_blank" onclick="javascript:_gaq.push(['_trackEvent', 'PC', 'footer', 'PC_F_omni_app_ios']);">App Store</a></dd>
+                <dd><a href="https://play.google.com/store/apps/details?id=jp.shopping7net.shopapp_7net" target="_blank" onclick="javascript:_gaq.push(['_trackEvent', 'PC', 'footer', 'PC_F_omni_app_google']);">Google Play</a></dd>
+              </dl>
+            </li>
+            <li id="app02" class="clearfix">
+              <p class="icon-img"><img src="./dbps_data/_template_/_user_/_SITE_/localhost/_res/new/images/common/omni7_reader.png"></p>
+              <dl>
+                <dt>オムニ7リーダー</dt>
+                <dd><a href="https://itunes.apple.com/jp/app/id501988891" target="_blank" onclick="javascript:_gaq.push(['_trackEvent', 'PC', 'footer', 'PC_F_omni_reader_ios']);">App Store</a></dd>
+                <dd><a href="https://play.google.com/store/apps/details?id=jp.co.bitway.sevennet.bookreader" target="_blank" onclick="javascript:_gaq.push(['_trackEvent', 'PC', 'footer', 'PC_F_omni_reader_google']);">Google Play</a></dd>
+              </dl>
+            </li>
+          </ul>
+
+<!--
+          <div id="irbnr"><a href="https://www.jira.or.jp/" target="_blank"><img src="./dbps_data/_template_/_user_/_SITE_/localhost/_res/new/images/common/bnr_ir.jpg"></a></div>
+-->
+
+        </div>
+
+        <div id="footer-link" class="clearfix">
+          <dl>
+            <dt><a href="./company/index.html">会社情報</a></dt>
+            <dd><a href="./company/topmsg.html">トップメッセージ</a></dd>
+            <dd><a href="./company/summary.html">会社概要</a></dd>
+            <dd><a href="./company/organization.html">組織図</a></dd>
+            <dd><a href="./company/officer.html">役員一覧</a></dd>
+            <dd><a href="./company/map.html">本部地図</a></dd>
+            <dd><a href="./company/news/index.html">ニュースリリース</a></dd>
+            <dd><a href="./company/challenge/index.html">セブン＆アイの挑戦</a></dd>
+            <dd><a href="./company/conversation/index.html">[対談]イノベーションの視点</a></dd>
+            <dd><a href="./company/giftcertificate.html">セブン＆アイ共通商品券</a></dd>
+          </dl>
+          <dl>
+            <dt><a href="./group/index.html">グループ会社</a></dt>
+            <dd><a href="./group/convenience_store.html">コンビニエンスストア</a></dd>
+            <dd><a href="./group/supermarket.html">総合スーパー</a></dd>
+            <dd><a href="./group/department_store.html">百貨店</a></dd>
+            <dd><a href="./group/grocery.html">食品スーパー</a></dd>
+            <dd><a href="./group/food.html">フードサービス</a></dd>
+
+            <dd><a href="./group/finance.html">金融サービス</a></dd>
+            <dd><a href="./group/it.html">IT／サービス</a></dd>
+            <dd><a href="./group/other.html">その他事業</a></dd>
+            <dd><a href="./group/list.html">グループ会社一覧</a></dd>
+          </dl>
+          <dl>
+            <dt><a href="./ir/index.html">IR情報</a></dt>
+            <dd><a href="./ir/management/index.html">経営方針</a></dd>
+            <dd><a href="./ir/financial/index.html">財務・業績</a></dd>
+            <dd><a href="./ir/library/index.html">IR資料室</a></dd>
+            <dd><a href="./ir/stocks/index.html">株式・社債情報</a></dd>
+            <dd><a href="./ir/koukoku.html">電子公告</a></dd>
+          </dl>
+          <dl>
+            <dt><a href="./csr/index.html">CSR</a></dt>
+            <dd><a href="./csr/policy/index.html">CSR活動基本方針</a></dd>
+            <dd><a href="./csr/organization/index.html">CSR推進体制</a></dd>
+            <dd><a href="./csr/theme/index.html">重点課題</a></dd>
+            <dd><a href="./csr/csrreport/index.html">CSRレポート</a></dd>
+            <dd><a href="./csr/suppliers/index.html">お取引先様とともに</a></dd>
+          </dl>
+          <dl>
+            <dt>その他コンテンツ</dt>
+            <dd><a href="./security.html">情報セキュリティ基本方針</a></dd>
+            <dd><a href="./privacy.html">個人情報保護基本方針</a></dd>
+            <dd><a href="./recruit.html">採用情報</a></dd>
+            <dd><a href="./copyright.html">ご利用に際して</a></dd>
+            <dd><a href="./faq/index.html">よくあるご質問</a></dd>
+            <dd><a href="./sitemap.html">サイトマップ</a></dd>
+          </dl>
+        </div>
+
+        <div id="copyright" class="clearfix">
+          <p class="text"><small>株式会社セブン＆アイ・ホールディングス<br>Copyright(C) Seven & i Holdings Co., Ltd. All Rights Reserved.</small></p>
+          <p class="logo"><img src="./dbps_data/_template_/_user_/_SITE_/localhost/_res/new/images/common/footer_logo.png" width="40"></p>
+        </div>
+      </div><!--pc_footer-->
+
+      <div class="spon">
+        <div id="footer-upper" class="clearfix">
+          <!--<ul id="socialmedia" class="clearfix">
+            <li id="facebook"><a href="#"><img src="new/images/common/sp_sns_facebook_on.png"></a></li>
+            <li id="twitter"><a href="#"><img src="new/images/common/sp_sns_twitter_on.png"></a></li>
+            <li id="line"><a href="#"><img src="new/images/common/sp_sns_line_on.png"></a></li>
+          </ul>-->
+          <ul id="application" class="clearfix">
+            <li id="app01" class="clearfix">
+              <p class="title">オムニ7アプリ</p>
+              <p class="icon-img"><img src="./dbps_data/_template_/_user_/_SITE_/localhost/_res/new/images/common/omni7_app.png"></p>
+              <ul class="store">
+                <li><a href="https://itunes.apple.com/jp/app/id641514745" target="_blank" onclick="javascript:_gaq.push(['_trackEvent', 'SP', 'footer', 'SP_F_omni_app_ios']);">App Store</a></li>
+                <li><a href="https://play.google.com/store/apps/details?id=jp.shopping7net.shopapp_7net" target="_blank" onclick="javascript:_gaq.push(['_trackEvent', 'SP', 'footer', 'SP_F_omni_app_google']);">Google Play</a></li>
+              </ul>
+            </li>
+            <li id="app02" class="clearfix">
+              <p class="title">オムニ7リーダー</p>
+              <p class="icon-img"><img src="./dbps_data/_template_/_user_/_SITE_/localhost/_res/new/images/common/omni7_reader.png"></p>
+              <ul class="store">
+                <li><a href="https://itunes.apple.com/jp/app/id501988891" target="_blank" onclick="javascript:_gaq.push(['_trackEvent', 'SP', 'footer', 'SP_F_omni_reader_ios']);">App Store</a></li>
+                <li><a href="https://play.google.com/store/apps/details?id=jp.co.bitway.sevennet.bookreader" target="_blank" onclick="javascript:_gaq.push(['_trackEvent', 'SP', 'footer', 'SP_F_omni_reader_google']);">Google Play</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+
+        <div id="footer-link">
+          <ul class="clearfix">
+            <li><a href="./company/index.html">会社情報</a></li>
+            <li><a href="./group/index.html">グループ会社</a></li>
+            <li><a href="./ir/index.html">IR情報</a></li>
+            <li><a href="./csr/index.html">CSR</a></li>
+            <li><a href="./security.html">情報セキュリティ基本方針</a></li>
+            <li><a href="./privacy.html">個人情報保護基本方針</a></li>
+            <li><a href="./copyright.html">ご利用に際して</a></li>
+            <li><a href="./faq/index.html">よくあるご質問</a></li>
+            <li><a href="./sitemap.html">サイトマップ</a></li>
+          </ul>
+        </div>
+
+<!--
+       <div id="spirbnr" class="spon"><a href="https://www.jira.or.jp/" target="_blank"><img src="./dbps_data/_template_/_user_/_SITE_/localhost/_res/new/images/common/bnr_ir.jpg"></a></div>
+-->
+
+        <div id="copyright" class="clearfix">
+          <p class="logo"><img src="./dbps_data/_template_/_user_/_SITE_/localhost/_res/new/images/common/footer_logo.png" width="40"></p>
+          <p class="text"><small>株式会社セブン＆アイ・ホールディングス<br>Copyright(C) Seven & i Holdings Co., Ltd. All Rights Reserved.</small></p>
+        </div>
+      </div><!--sp_footer-->
+
+    </div>
+  </footer><!--footer-->
+
+  <nav id="menu" class="spon">
+    <ul>
+      <li><a href="#mm-1">言語 / Language</a>
+        <ul>
+          <li><a href="./en/index.html">English</a></li>
+        </ul>
+      </li>
+      <li><a href="./company/index.html">会社情報</a></li>
+      <li><a href="./group/index.html">グループ会社</a></li>
+      <li><a href="./ir/index.html">IR情報</a></li>
+      <li><a href="./csr/index.html">CSR</a></li>
+      <li><a href="./recruit.html">採用情報</a></li>
+      <li><a href="http://www.omni7.jp/top/" target="_blank">ネット通販</a></li>
+    </ul>
+  </nav><!--sp slide navi-->
+
+  <div class="spon">
+    <div id="search">
+      <div id="grayBack"></div>
+      <div id="search_form">
+        <form name="search_form" action="http://search.7andi.com/" method="GET" onsubmit="return mysearch(this);">
+          <input id="search-box" type="text" name="kw" value="Search">
+          <input type="hidden" name="ie" value="u">
+          <input type="hidden" name="la" value="jp">
+          <button type="reset"></button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+
+<!--container--></div>
+<script type="text/javascript">
+    (function() {
+     var da = document.createElement('script');
+     da.type = 'text/javascript'; da.async = true;
+     if ('https:' == document.location.protocol) {
+     da.src =  'https://rsv.dga.jp/s/7andi/search_tool.js';
+     } else {
+     da.src =  'http://cache.dga.jp/s/7andi/search_tool.js';
+     }
+     var sc  = document.getElementsByTagName('script')[0];
+     sc.parentNode.insertBefore(da, sc);
+     })();
+</script>
+<script type="text/javascript" src="./dbps_data/_template_/_user_/_SITE_/localhost/_res/new/js/foot_adjust.js"></script>
+</body>
+</html>

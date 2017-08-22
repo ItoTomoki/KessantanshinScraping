@@ -1,0 +1,774 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>田辺工業株式会社 | プラント建設や施設の電気設備設計・メンテナンス</title>
+<meta name="keywords" content="プラントエンジニアリング,エレクトロニクス,メカトロニクス,熱処理,工業炉,田辺工業,田辺工業株式会社">
+<meta name="description" content="プラント建設や施設の電気設備設計・メンテナンスなら田辺工業株式会社。約半世紀の間、日本の工業の根幹を支えてきた田辺工業は全国に拠点ネットワークを持ち、多数の産業分野で活躍しています。プラント建設や施設の電気設備設計を通じて産業やインフラの発展に貢献します。">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=960, user-scalable=yes">
+<meta name="google-site-verification" content="48y4TPP1apT0CMTseqohAv_rpa_hZew88QYjMy2GAEE" />
+	<link rel="shortcut icon" href="/favicon.ico">
+	<link rel="stylesheet" href="https://www.tanabe-ind.co.jp/wp-content/themes/tanabe/style.css">
+
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="/js/slick/slick.min.js"></script>
+	<script src="/js/common.js"></script>
+	<script src="/js/bottom.js"></script>
+	<script src="/js/index.js"></script>
+	<script src="/js/heightLine.js"></script>
+
+	<script>
+	$(function(){
+	$('.index-slid').slick({
+	  infinite: true,
+	  autoplay:true,
+	  speed: 300,
+	  autoplaySpeed:5000,
+	  slidesToShow: 3,
+	  slidesToScroll: 1,
+	});
+	});
+	</script>
+</head>
+<body class="home blog ir news_release">
+	<div id="wrap">
+	<div id="contents-wrap">
+
+			<div id="header-wrap">
+			<div id="header">
+				<div id="header-inner">
+					<p id="logo"><a href="/">田辺工業株式会社</a></p>
+			        <div id="head-menu">
+				        <ul id="menu-info">
+						<li class="ibtn-01"><a href="/news_release/">ニュース</a></li>
+						<li class="ibtn-02"><a href="/en/">English</a></li>
+						<li class="ibtn-04"><a href="/cn/">Chinese</a></li>
+						<li class="ibtn-03"><a href="/contact/">お問い合わせ</a></li>
+					</ul>
+					<ul id="g-menu">
+						<li class="gbtn-01"><a href="/company/">会社情報</a></li>
+						<li class="gbtn-02"><a href="/plant_engineering/">事業・技術</a></li>
+						<li class="gbtn-03"><a href="/aproach/">田辺工業の取り組み</a></li>
+						<li class="gbtn-04"><a href="/ir/">IR情報</a></li>
+						<li class="gbtn-05"><a href="/recruit/">採用情報</a></li>
+					</ul>
+
+				        </div>
+			        <div id="mainvisual-text">
+			          <img src="images/index/main_visual_text.png" alt="ものづくりのための、モノづくり">
+			        </div>
+				</div>
+			</div>
+		</div>
+	
+<link rel="stylesheet" href="/css/index.css" media="screen">		
+<script>
+var ct = 0;
+var acspeed = 300;
+$(function() {
+	var def = "all";
+	var defS = "all";
+	var defH = 750;
+
+	var tags = new Array(
+		"all",
+		"chemistry",
+		"oil",
+		"medicine",
+		"automobile",
+		"liquidcrystal",
+		"power",
+		"infra",
+		"environment"
+	);
+	$(".index-sort").height(750);
+
+	function selectContent(id,idS){
+
+		//一回メニューをクリア
+		$('#menu-l li').off("click",selectBig);
+		$('.menu-s li a').off("click",selectSmall);
+		//一回消す
+			//対象を表示
+			var target = $(".index-sort");
+
+			// target.addClass("view");
+			// $(".index-sort").not("#" + id).removeClass("view");
+
+			//メニュー大を選択状態に
+			$('#menu-l li').removeClass("selected");
+			$('#menu-l li[data-ref=' + id + ']').addClass("selected");
+
+			//タグを選択状態に
+			$('.menu-s li').removeClass("here");
+			$('.menu-s li[data-tag=' + idS + ']').addClass("here");
+
+
+
+			//高さを調整					
+			var mbox = $(target).find(".container").height();
+
+			$('#menu-l li').on("click",selectBig);
+			
+			ct = ct+1;
+
+			//alert(ct);
+
+			if( mbox < 750 ){
+				$('.index-more-btn').css("visibility","hidden");
+			}
+			if( ct!=1 ){
+				$('.index-more-btn').css("visibility","hidden");
+
+				$("#index-container").animate({opacity:0},acspeed,function(){
+					target.find('.article.' + idS + '.' + id).show() ;
+					target.find('.article').not("." + idS ).hide() ;
+					target.find('.article').not("." + id ).hide() ;
+
+					target.animate({height:$(target).find(".container").height()},{ duration: 'fast'},defH);
+
+					//不必要なメニューをdisableに
+					$(tags).each(function(){
+
+						list = target.find('.article.' + this + '.' + id );
+
+						 if( list.length == 0 ){
+						 	//結果がないものは隠す
+						 	$('.menu-s li[data-tag=' + this + ']').addClass("disable");
+						 	$('.menu-s li[data-tag=' + this + ']').removeClass("enable");
+							$('.menu-s li[data-tag=' + this + '] a').off("click",selectSmall);
+						 }else{
+						 	$('.menu-s li[data-tag=' + this + ']').addClass("enable");
+						 	$('.menu-s li[data-tag=' + this + ']').removeClass("disable");
+							$('.menu-s li[data-tag=' + this + '] a').on("click",selectSmall);
+						 }
+
+					})					
+				})
+				.animate({opacity:1},acspeed);
+			} else {
+
+				$("#index-container").animate({opacity:1},acspeed);
+				target.find('.article.' + idS + '.' + id).show() ;
+				target.find('.article').not("." + idS ).hide() ;
+				target.find('.article').not("." + id ).hide() ;
+				
+				//不必要なメニューをdisableに
+				$(tags).each(function(){
+
+					list = target.find('.article.' + this + '.' + id );
+
+					 if( list.length == 0 ){
+					 	//結果がないものは隠す
+					 	$('.menu-s li[data-tag=' + this + ']').addClass("disable");
+					 	$('.menu-s li[data-tag=' + this + ']').removeClass("enable");
+						$('.menu-s li[data-tag=' + this + '] a').off("click",selectSmall);
+					 }else{
+					 	$('.menu-s li[data-tag=' + this + ']').addClass("enable");
+					 	$('.menu-s li[data-tag=' + this + ']').removeClass("disable");
+						$('.menu-s li[data-tag=' + this + '] a').on("click",selectSmall);
+					 }
+
+				})
+
+			}
+	}
+	function selectBig(){
+		def = $(this).attr("data-ref");
+		defS = "all";
+		var target = $(".index-sort");
+		$("#index-container").animate({opacity:0},acspeed,function(){
+			selectContent(def,defS);
+			//target.css({height:defH + "px"});
+		});
+
+		var th = $('#menu-l').position();
+		var sh = $(".scroll").scrollTop();
+		var pos = th.top + sh;
+	    $('html,body').animate({scrollTop: 426},"fast", "swing");
+	    
+		$(".index-more-btn a").show ();
+		return false;
+	}
+	function selectSmall(idS){
+		console.log(idS);
+		defS = $(this).parent().parent().attr("data-tag");
+		selectContent(def,defS);
+		$('html,body').animate({scrollTop: 426},"fast", "swing");
+		return false;
+	}
+	function moreview(){
+		target = $(".index-sort");
+		target.addClass("release");
+		target.animate({height:$(target).find(".container").height()},acspeed);
+		$(this).hide();
+
+	}
+	$(".index-more-btn a").on("click",moreview);
+
+	selectContent(def,defS);
+});
+</script>
+<div id="index-gmenu">
+	<div id="index-gmenu-inner">
+		<div id="menu-l-cur"></div>
+		<ul id="menu-l">
+			<li id="btn-01" data-ref="plant_engineering">
+				<div>
+					
+					<span>
+						<img src="/images/index/index-so-imgtxt-01.png" alt="プラントエンジニアリング">
+					</span>
+				</div>
+			</li>
+
+			<li id="btn-02" data-ref="electronics">
+				<div>
+					
+					<span>
+						<img src="/images/index/index-so-imgtxt-02.png" alt="エレクトロニクス">
+					</span>
+				</div>
+			</li>
+
+			<li id="btn-03" data-ref="mechatronics">
+				<div>
+					
+					<span>
+						<img src="/images/index/index-so-imgtxt-03.png" alt="メカトロニクス">
+					</span>
+				</div>
+			</li>
+
+			<li id="btn-04" data-ref="equipment">
+				<div>
+					
+					<span>
+						<img src="/images/index/index-so-imgtxt-04.png" alt="熱機器・工業炉">
+					</span>
+				</div>
+			</li>
+
+			<li id="btn-05" data-ref="all">
+				<div>
+					
+					<span>
+						<img src="/images/index/index-so-imgtxt-05.png" alt="すべて">
+					</span>
+				</div>
+			</li>
+
+		</ul>
+		
+		<ul id="sbtn-01" class="menu-s" >
+			<li data-tag="all"><div class="tab"><a href="javascript:void(0);">すべて</a><div></li>
+			<li data-tag="chemistry"><div class="tab"><a href="javascript:void(0);">化学</a></div></li>
+			<li data-tag="infra"><div class="tab"><a href="javascript:void(0);">インフラ</a></div></li>
+			<li data-tag="medicine"><div class="tab"><a href="javascript:void(0);">医薬</a></div></li>
+			<li data-tag="liquidcrystal"><div class="tab"><a href="javascript:void(0);">液晶</a></div></li>
+			<li data-tag="environment"><div class="tab"><a href="javascript:void(0);">環境</a></div></li>
+			<li data-tag="oil"><div class="tab"><a href="javascript:void(0);">石油</a></div></li>
+			<li data-tag="automobile"><div class="tab"><a href="javascript:void(0);">自動車</a></div></li>
+			<li data-tag="power"><div class="tab"><a href="javascript:void(0);">電力</a></div></li>
+		</ul>
+	</div>
+</div>
+
+<div class="contents-wrap" id="index-container">
+
+<div class="alpha-btn index-sort">
+	<div class="container">
+
+
+
+	<div class="article  all medicine plant_engineering">
+		<a href="https://www.tanabe-ind.co.jp/plant_engineering/pharmaceutical_plant/">
+			<div class="index-icon">
+				<img src="images/icon_tag_03.gif" alt="医薬">
+			</div>
+			<div class="item-name">医薬系プラント</div>
+			<img src="/uploadimg/2015/09/bf8e12c88721102a131930ea4d9bf43e.png" class="item-img">
+			<span class="gra"></span>
+		</a>
+	</div>
+
+
+
+	<div class="article  all chemistry medicine oil plant_engineering">
+		<a href="https://www.tanabe-ind.co.jp/plant_engineering/equipment_manufacture/">
+			<div class="index-icon">
+				<img src="images/icon_tag_01.gif" alt="化学">
+				<img src="images/icon_tag_03.gif" alt="医薬">
+				<img src="images/icon_tag_02.gif" alt="石油">
+			</div>
+			<div class="item-name">機器製作(塔類・槽類)</div>
+			<img src="/uploadimg/2015/09/abb94eb64088d262acf9046bef0c4b19.png" class="item-img">
+			<span class="gra"></span>
+		</a>
+	</div>
+
+
+
+	<div class="article  all chemistry medicine oil power plant_engineering">
+		<a href="https://www.tanabe-ind.co.jp/plant_engineering/maintenance/">
+			<div class="index-icon">
+				<img src="images/icon_tag_01.gif" alt="化学">
+				<img src="images/icon_tag_03.gif" alt="医薬">
+				<img src="images/icon_tag_02.gif" alt="石油">
+				<img src="images/icon_tag_06.gif" alt="電力">
+			</div>
+			<div class="item-name">メンテナンス</div>
+			<img src="/uploadimg/2015/09/0d2a8aac279ab8cc6437faa67951a47f.png" class="item-img">
+			<span class="gra"></span>
+		</a>
+	</div>
+
+
+
+	<div class="article  all chemistry oil plant_engineering">
+		<a href="https://www.tanabe-ind.co.jp/plant_engineering/chemistry_plant/">
+			<div class="index-icon">
+				<img src="images/icon_tag_01.gif" alt="化学">
+				<img src="images/icon_tag_02.gif" alt="石油">
+			</div>
+			<div class="item-name">化学系プラント</div>
+			<img src="/uploadimg/2015/09/0c8e97bfe0cdf8c0a7bbf69b7dadcc96.png" class="item-img">
+			<span class="gra"></span>
+		</a>
+	</div>
+
+
+
+	<div class="article  all chemistry environment power plant_engineering">
+		<a href="https://www.tanabe-ind.co.jp/plant_engineering/power_generation_plant/">
+			<div class="index-icon">
+				<img src="images/icon_tag_01.gif" alt="化学">
+				<img src="images/icon_tag_08.gif" alt="環境">
+				<img src="images/icon_tag_06.gif" alt="電力">
+			</div>
+			<div class="item-name">発電系プラント</div>
+			<img src="/uploadimg/2015/09/9185cf94dc374b681a337941f4e4b6ac.png" class="item-img">
+			<span class="gra"></span>
+		</a>
+	</div>
+
+
+
+	<div class="article  all infra environment plant_engineering">
+		<a href="https://www.tanabe-ind.co.jp/plant_engineering/environment_plant/">
+			<div class="index-icon">
+				<img src="images/icon_tag_07.gif" alt="インフラ">
+				<img src="images/icon_tag_08.gif" alt="環境">
+			</div>
+			<div class="item-name">環境系プラント</div>
+			<img src="/uploadimg/2015/09/d07c4e4ca7e315a3e2e5963b975e91e3.png" class="item-img">
+			<span class="gra"></span>
+		</a>
+	</div>
+
+
+		
+
+	<div class="article  all chemistry medicine oil electronics">
+		<a href="https://www.tanabe-ind.co.jp/electronics/plant_electrical/">
+			<div class="index-icon">
+				<img src="images/icon_tag_01.gif" alt="化学">
+				<img src="images/icon_tag_03.gif" alt="医薬">
+				<img src="images/icon_tag_02.gif" alt="石油">
+			</div>
+			<div class="item-name">プラント系電気工事</div>
+			<img src="/uploadimg/2015/09/a3e132f6b88c809cbfe7c142c768e067.png" class="item-img">
+			<span class="gra"></span>
+		</a>
+	</div>
+
+
+
+	<div class="article  all infra electronics">
+		<a href="https://www.tanabe-ind.co.jp/electronics/infrastructure-electrical/">
+			<div class="index-icon">
+				<img src="images/icon_tag_07.gif" alt="インフラ">
+			</div>
+			<div class="item-name">インフラ系電気工事</div>
+			<img src="/uploadimg/2015/09/5c9b37fb16327f58c4db7539fbcadf10.png" class="item-img">
+			<span class="gra"></span>
+		</a>
+	</div>
+
+
+
+	<div class="article  all chemistry medicine oil electronics">
+		<a href="https://www.tanabe-ind.co.jp/electronics/instrumentation/">
+			<div class="index-icon">
+				<img src="images/icon_tag_01.gif" alt="化学">
+				<img src="images/icon_tag_03.gif" alt="医薬">
+				<img src="images/icon_tag_02.gif" alt="石油">
+			</div>
+			<div class="item-name">制御システム(DCS/PLC)</div>
+			<img src="/uploadimg/2015/09/DCS.png" class="item-img">
+			<span class="gra"></span>
+		</a>
+	</div>
+
+
+
+	<div class="article  all environment power electronics">
+		<a href="https://www.tanabe-ind.co.jp/electronics/eco/">
+			<div class="index-icon">
+				<img src="images/icon_tag_08.gif" alt="環境">
+				<img src="images/icon_tag_06.gif" alt="電力">
+			</div>
+			<div class="item-name">エコ関連</div>
+			<img src="/uploadimg/2015/09/2078be7b021191c98a3d58e1f851c8dd.png" class="item-img">
+			<span class="gra"></span>
+		</a>
+	</div>
+
+
+
+	<div class="article  all infra power electronics">
+		<a href="https://www.tanabe-ind.co.jp/electronics/power_transmission_construction/">
+			<div class="index-icon">
+				<img src="images/icon_tag_07.gif" alt="インフラ">
+				<img src="images/icon_tag_06.gif" alt="電力">
+			</div>
+			<div class="item-name">送電工事</div>
+			<img src="/uploadimg/2015/09/b5f7b735d6599617bb5eb34b07c4bcc6.png" class="item-img">
+			<span class="gra"></span>
+		</a>
+	</div>
+
+
+		
+
+	<div class="article  all automobile mechatronics">
+		<a href="https://www.tanabe-ind.co.jp/mechatronics/automobile_automated/">
+			<div class="index-icon">
+				<img src="images/icon_tag_04.gif" alt="自動車">
+			</div>
+			<div class="item-name">自動車系装置</div>
+			<img src="/uploadimg/2015/09/e67042f64a29ba63602dfbd4f8197d90.png" class="item-img">
+			<span class="gra"></span>
+		</a>
+	</div>
+
+
+
+	<div class="article  all chemistry liquidcrystal mechatronics">
+		<a href="https://www.tanabe-ind.co.jp/mechatronics/film_automated/">
+			<div class="index-icon">
+				<img src="images/icon_tag_01.gif" alt="化学">
+				<img src="images/icon_tag_05.gif" alt="液晶">
+			</div>
+			<div class="item-name">フィルム系装置</div>
+			<img src="/uploadimg/2015/09/43b09c95cc3d01f5237cbd0e3200e441.png" class="item-img">
+			<span class="gra"></span>
+		</a>
+	</div>
+
+
+
+	<div class="article  all liquidcrystal mechatronics">
+		<a href="https://www.tanabe-ind.co.jp/mechatronics/lcd_automated/">
+			<div class="index-icon">
+				<img src="images/icon_tag_05.gif" alt="液晶">
+			</div>
+			<div class="item-name">液晶系装置</div>
+			<img src="/uploadimg/2015/09/40b9a8d275c285bc12fbb9bd73e847a9.png" class="item-img">
+			<span class="gra"></span>
+		</a>
+	</div>
+
+
+
+	<div class="article  all medicine mechatronics">
+		<a href="https://www.tanabe-ind.co.jp/mechatronics/pharmaceutical_automated/">
+			<div class="index-icon">
+				<img src="images/icon_tag_03.gif" alt="医薬">
+			</div>
+			<div class="item-name">医薬系装置</div>
+			<img src="/uploadimg/2015/09/c33becd78f9e2e5e246c850dc2e65747.png" class="item-img">
+			<span class="gra"></span>
+		</a>
+	</div>
+
+
+
+	<div class="article  all chemistry medicine oil automobile mechatronics">
+		<a href="https://www.tanabe-ind.co.jp/mechatronics/conveying_system_automation/">
+			<div class="index-icon">
+				<img src="images/icon_tag_01.gif" alt="化学">
+				<img src="images/icon_tag_03.gif" alt="医薬">
+				<img src="images/icon_tag_02.gif" alt="石油">
+				<img src="images/icon_tag_04.gif" alt="自動車">
+			</div>
+			<div class="item-name">搬送系装置</div>
+			<img src="/uploadimg/2015/09/170351c0a801b19bb5129cd7a80f5ad0.png" class="item-img">
+			<span class="gra"></span>
+		</a>
+	</div>
+
+
+
+	<div class="article  all chemistry medicine mechatronics">
+		<a href="https://www.tanabe-ind.co.jp/mechatronics/washing-machine/">
+			<div class="index-icon">
+				<img src="images/icon_tag_01.gif" alt="化学">
+				<img src="images/icon_tag_03.gif" alt="医薬">
+			</div>
+			<div class="item-name">洗浄装置</div>
+			<img src="/uploadimg/2016/04/list-thum.jpg" class="item-img">
+			<span class="gra"></span>
+		</a>
+	</div>
+
+
+
+	<div class="article  all chemistry oil mechatronics">
+		<a href="https://www.tanabe-ind.co.jp/mechatronics/special_automated/">
+			<div class="index-icon">
+				<img src="images/icon_tag_01.gif" alt="化学">
+				<img src="images/icon_tag_02.gif" alt="石油">
+			</div>
+			<div class="item-name">特殊系装置</div>
+			<img src="/uploadimg/2015/09/A3.png" class="item-img">
+			<span class="gra"></span>
+		</a>
+	</div>
+
+
+		
+
+	<div class="article  all automobile equipment">
+		<a href="https://www.tanabe-ind.co.jp/equipment/die_casting/">
+			<div class="index-icon">
+				<img src="images/icon_tag_04.gif" alt="自動車">
+			</div>
+			<div class="item-name">ダイカスト関連</div>
+			<img src="/uploadimg/2015/09/WestomatPlusPlus_HS_Thumb.jpg" class="item-img">
+			<span class="gra"></span>
+		</a>
+	</div>
+
+
+
+	<div class="article  all chemistry medicine oil equipment">
+		<a href="https://www.tanabe-ind.co.jp/equipment/eating_drying/">
+			<div class="index-icon">
+				<img src="images/icon_tag_01.gif" alt="化学">
+				<img src="images/icon_tag_03.gif" alt="医薬">
+				<img src="images/icon_tag_02.gif" alt="石油">
+			</div>
+			<div class="item-name">加熱・乾燥装置</div>
+			<img src="/uploadimg/2015/09/30a6dfc10f13f6a43d6f452eb6cb45c0.png" class="item-img">
+			<span class="gra"></span>
+		</a>
+	</div>
+
+
+		
+	</div>
+</div>
+
+	<div class="index-more-btn">
+		<a href="javascript:void(0);"><span>もっと見る</span></a>
+	</div>
+</div>
+
+<div id="index-te">
+<div id="index-te-inner" class="alpha-btn">
+	<div id="index-te-tit">
+		<img src="images/index/st_index-te.png" alt="Total Engineering">
+		<p>設立から40年を越える歴史ある田辺工業。約半世紀に渡って日本の産業社会を根幹から支えてきたゆるぎない実績</p>
+	</div>
+	<dl>
+		<dd>
+			<div class="inner">
+				<img src="images/index/pict_index_te_01.png">
+				<div class="tit">独立系エンジニアリングメーカー</div>
+				<p>
+					独立系の特長を活かし、「ものづくり」に関するあらゆる産業分野を網羅した広範囲な事業フィールドを展開しております。
+				</p>
+			</div>
+		</dd>
+
+		<dd>
+			<div class="inner">
+				<img src="images/index/pict_index_te_02.png">
+				<div class="tit">ネットワーク</div>
+				<p>
+					国内に主要製造工場を6拠点、更には全国各地に営業所を設け、高品質な製造設備を提供しております。
+				</p>
+			</div>
+		</dd>
+
+		<dd>
+			<div class="inner">
+				<img src="images/index/pict_index_te_03.png">
+				<div class="tit">教育訓練</div>
+				<p>
+					机上教育による技術レベルアップはもちろんのこと、実体験を通して技術の継承を行い、スキルのステージアップを推進しております。
+				</p>
+			</div>
+		</dd>
+	</dl>
+</div>
+</div>
+
+<div id="news-wrap">
+<div id="news-wrap-inner">
+<div id="newsyoutube">
+<div id="newsbox">
+	<div class="tit">ニュース</div>
+	    <ul id="newslist">
+    
+    
+<li><span class="date">2017年8月4日</span><span class="tag tag-06">IR情報</span><a href="/uploadimg/2017/08/20170804.pdf" target="_blank">平成30年3月期　第1四半期決算短信〔日本基準〕（連結）</a></li>
+
+
+        
+    
+<li><span class="date">2017年8月4日</span><span class="tag tag-06">IR情報</span><a href="/uploadimg/2017/08/20170804_2.pdf" target="_blank">株式の立会外分売に関するお知らせ</a></li>
+
+
+        
+    
+<li><span class="date">2017年8月4日</span><span class="tag tag-06">IR情報</span><a href="/uploadimg/2017/08/20170804_3.pdf" target="_blank">株主優待制度の新設に関するお知らせ</a></li>
+
+
+        
+    
+<li><span class="date">2017年7月21日</span><span class="tag tag-06">IR情報</span><a href="/uploadimg/2017/07/20170721_2.pdf" target="_blank">マレーシアにおける子会社設立のお知らせ</a></li>
+
+
+        
+    
+<li><span class="date">2017年7月21日</span><span class="tag tag-06">IR情報</span><a href="/uploadimg/2017/07/20170721_1.pdf" target="_blank">海外連結子会社の商号変更に関するお知らせ</a></li>
+
+
+            </ul>
+    </div>
+    <div id="youtubebox">
+	<div class="tit">TVCM公開中</div>
+   	<div id="youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/rsY6dc7T-4k" frameborder="0" allowfullscreen></iframe></div>
+    </div>
+    </div>
+    
+    <div id="torikumi">
+	<div class="tit">田辺工業の取り組み</div>
+		<script>$(function(){$('.slid-box').slick({infinite: true,autoplay:true,speed: 300,autoplaySpeed:5000,slidesToShow: 3,slidesToScroll: 1,});});</script>
+		<div class="slid-box-wrap">
+			<div class="slider slid-box alpha-btn">
+
+								
+				<div class="slid-item">
+					<a href="https://www.tanabe-ind.co.jp/aproach/agv/">
+						<img src="/uploadimg/2016/09/IMG_3899_thum.jpg">						<div class="text"><p>次世代AGV「WYNシリーズ」の開発</div>
+					</a>
+				</div>
+
+				
+				<div class="slid-item">
+					<a href="https://www.tanabe-ind.co.jp/aproach/greenpower_tanabe/">
+						<img src="/uploadimg/2015/09/green_thum.jpg">						<div class="text"><p>自然と融合した太陽光発電所 グリーンパワーTANABE</div>
+					</a>
+				</div>
+
+				
+				<div class="slid-item">
+					<a href="https://www.tanabe-ind.co.jp/aproach/eco/">
+						<img src="/uploadimg/2015/09/eco-thum.png">						<div class="text"><p>田辺工業によるECO活動</div>
+					</a>
+				</div>
+
+				
+				<div class="slid-item">
+					<a href="https://www.tanabe-ind.co.jp/aproach/carbon_of_the_robot_hand/">
+						<img src="/uploadimg/2015/08/011.png">						<div class="text"><p>ロボットハンドのカーボン化およびマグネシウム化の開発</div>
+					</a>
+				</div>
+
+				
+				<div class="slid-item">
+					<a href="https://www.tanabe-ind.co.jp/aproach/vsd/">
+						<img src="/uploadimg/2015/08/03.png">						<div class="text"><p>減圧噴霧乾燥装置　ＶＳＤの開発</div>
+					</a>
+				</div>
+
+				
+				<div class="slid-item">
+					<a href="https://www.tanabe-ind.co.jp/aproach/high_temperature_stirring_drying_equipment/">
+						<img src="/uploadimg/2015/08/526266a2115b0ee8f2721f4f5864fe2f.jpg">						<div class="text"><p>高温撹拌乾燥装置の開発</div>
+					</a>
+				</div>
+
+				
+				<div class="slid-item">
+					<a href="https://www.tanabe-ind.co.jp/aproach/mhd4/">
+						<img src="/uploadimg/2015/08/02.png">						<div class="text"><p>マットレス高速乾燥機　ＭＨＤ４の開発</div>
+					</a>
+				</div>
+
+				
+				<div class="slid-item">
+					<a href="https://www.tanabe-ind.co.jp/aproach/filled_with_a_drug_solution_for_robot_cell/">
+						<img src="/uploadimg/2015/08/05.png">						<div class="text"><p>薬液充填ロボットセルの開発</div>
+					</a>
+				</div>
+
+				
+			</div>
+		</div>
+		</div>
+	</div>
+</div>
+
+<div class="contents-wrap last-box">
+	<div id="index-btm-bnr">
+		<ul class="alpha-btn">
+			<li><a href="/aproach/greenpower_tanabe/"><img src="images/index/btn_index-btm_01.jpg" alt=""></a></li>
+			<li><a href="/company/education/"><img src="images/index/btn_index-btm_02.jpg" alt=""></a></li>
+			<li><a href="/aproach/"><img src="images/index/btn_index-btm_03.jpg" alt=""></a></li>
+			<li><a href="/company/group/"><img src="images/index/btn_index-btm_04.jpg" alt=""></a></li>
+			<li><a href="/aproach/eco/"><img src="images/index/btn_index-btm_05.jpg" alt=""></a></li>
+		</ul>
+	</div>
+</div>
+
+	</div>
+	<div class="footer-body">
+		<div class="contents-wrap">
+			<div class="pagetop"><a href="#">page top</a></div>
+		</div>
+		<footer>
+			<div id="footer-inner">
+			<ul>
+				<li><a href="/sitemap/">サイトマップ</a></li>
+				<li><a href="/privacy_policy/">プライバシーポリシー</a></li>
+				<li><a href="/anti_social_forces/">反社会的勢力への対応について</a></li>
+			</ul>
+			<div id="copy">Copyright © 2015 TANABE ENGINEERING CORPORATION, All rights reserved.</div>
+			</div>
+		</footer>
+	</div>
+
+
+</div>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-67063151-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<script src="//use.typekit.net/aln8crt.js"></script>
+<script>try{Typekit.load();}catch(e){}</script>
+</body>
+</html>

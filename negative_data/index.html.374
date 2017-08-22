@@ -1,0 +1,1461 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja">
+<head>
+<meta name="robots" content="all" />
+<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS" />
+<link rel="shortcut icon" href="/pict/favicon.ico">
+<meta name="keywords" content="株式会社夢テクノロジー,YUME TECHNOLOGY,エンジニアアウトソーシング,ビジネスソリューション" />
+<meta name="description" content="株式会社夢テクノロジーのウェブサイトです。企業情報やサービス情報をご紹介致します。電気・電子・半導体、機械、ソフト、化学・物理などの設計・開発からサーバ・ネットワークの構築・運用・保守まで幅広いサービスと人材をご提供させて頂いております。" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<link rel="stylesheet" href="./css/import_1.css" type="text/css" />
+<link rel="stylesheet" href="./css/top.css" type="text/css" />
+<script type="text/javascript" src="./js/jquery.min.js"></script>
+<script type="text/javascript" src="./js/pagetop.js"></script>
+<!--slider-->
+<script type="text/javascript" src="./js/jquery.js"></script>
+<script src="./js/jquery.crossFader.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(function(){
+	$('#fader').crossFader({
+	    loop: false
+	});
+});
+</script>
+<!--tab-->
+<link rel="stylesheet" href="./css/ui.tabs.css" type="text/css" />
+<script type="text/javascript" src="./js/ui.core.js"></script>
+<script type="text/javascript" src="./js/ui.tabs.js"></script>
+<script type="text/javascript">
+	$(function() {
+		$('#rotate > ul').tabs({ fx: { opacity: 'toggle', duration: 'normal'  } });
+	});
+</script>
+<style>
+#kkr{
+margin-top:0.5em;
+text-align:left;
+}
+
+</style>
+
+<title>夢テクノロジー｜YUME&nbsp;TECHNOLOGY</title>
+</head>
+
+<body>
+<div id="box">
+
+<div id="header">
+<h1>電気・電子、機械、ソフト、化学などの設計・開発からサーバ・ネットワークの構築・運用・保守まで幅広いサービスと人材をご提供。株式会社夢テクノロジー。</h1>
+<div class="logo"><a href="index.html"><img src="./pict/logo.gif" alt="夢テクノロジー会社サイト" title="夢テクノロジー会社サイト" width="300" height="50" /></a></div>
+<div class="link">
+<img src="./company/img/typeAT_04.jpg"  width="45" height="52" alt="写真" align="right"><br />
+<a href="./sitemap/index.html">サイトマップ</a>
+<a href="./contact/index.html">お問合せ</a>
+<span class="back_ground">日本語</span>/<a href="./en/ir/index.html">English</a>
+
+</div>
+
+</div>
+
+<!--menu-->
+<div id="menu">
+<ol>
+	<li class="company"><a href="./company/index.html">会社概要</a></li>
+	<li class="business"><a href="./services/index.html">サービス概要</a></li>
+	<li class="recruit"><a href="./recruit/index.html">採用情報</a></li>
+	<li class="ir"><a href="./ir/index.html">IR情報</a></li>
+</ol>
+</div>
+<!--/menu-->
+
+<!--panel-->
+<div id="fader" class="crossfader">
+	<a href="services/index.html"><img src="./pict/slide01.png" alt="" class="active" /></a>
+	<a href="http://career.yume-tec.co.jp/" target="_blank"><img src="./pict/slide02R.jpg" alt="" /></a>
+	<a href="/recruit/" target="_blank"><img src="./pict/slide03R.jpg" alt="" /></a>
+	<a href="./recruit/index.html"><img src="./pict/slide04R.jpg" alt="" /></a>
+</div>
+<!--/panel-->
+
+<!--body-->
+<div id="body">
+
+	<!-- side　-->
+	<div id="side">
+<p class="banner">
+<br />
+<b><font color="orange">New!!</font></b><br />
+<a href="http://career.yume-tec.co.jp/kenshu_lp/" target="_blank"><img src="./pict/side_menu000.png" width="230" height="105" alt="夢テクノロジーキャリア採用" /></a><br />
+<br />
+<a href="http://recruit.yume-tec.co.jp/graduate" target="_blank"><img src="./pict/side_menu03R.jpg" width="230" height="70" alt="夢テクノロジー新卒採用募集サイト" /></a><br />
+<a href="http://career.yume-tec.co.jp/" target="_blank"><img src="./pict/side_menu02R.jpg" width="230" height="70" alt="夢テクノロジー中途採用募集サイト" /></a><br />
+<a href="http://career.yume-tec.co.jp/entry/seminar.html" target="_blank"><img src="./pict/side_menu01R.jpg" width="230" height="70" alt="夢テクノロジー会社説明会"/></a><br />
+
+<a href="http://www.career.yume-tec.co.jp/en/" target="_blank"><img src="http://www.yume-tec.co.jp/company/img/e_recruit.png" width="230" height="70"></a>
+<br />
+
+<!--<a href="http://www.yumeshin-ms.co.jp" target="_blank"><img src="./pict/side_menu12.gif" width="200" height="80" alt="夢真メディカルサポート" title="夢真メディカルサポート" /></a><br />
+<a href="http://www.unitechsoft.co.jp" target="_blank"><img src="./pict/side_menu13.gif" width="200" height="80" alt="ユニテックソフト" title="ユニテックソフト" /></a><br />
+<a href="http://hoikuhaken.com" target="_blank"><img src="./pict/side_menu14.gif" width="200" height="80" alt="ゆめほいく" title="ゆめほいく" /></a><br /><a href="http://www.gakidaisyo.co.jp/" target="_blank"><img src="./pict/gakidaisyo.jpg" width="200" height="60" alt="我喜大笑" title="我喜大笑" /></a><br />
+-->
+<a href="https://www.facebook.com/yumetechnology" target="_blank"><img src="./pict/face.jpg" width="200" height="75" alt="facebook" title="facebook" /></a><br />
+<a href="http://www.irstreet.com/en/brand.php?&content=brand_newsrelease&brand=239" target="_blank"><img src="./company/img/e_ir_s.png" width="200" height="72"></a><br />
+
+<a href="http://www.irstreet.com/jp/brand.php?&content=brand_presentation&brand=239" target="_blank"><img src="./company/img/e_ir_m.gif" width="200" height="52"></a><br />
+
+<a href="http://www.yumeshin.co.jp" target="_blank"><img src="./pict/side_menu11.gif" width="200" height="80" alt="夢真ホールディングス" title="夢真ホールディングス" /></a><br />
+
+<a href="http://oreyume.com" target="_blank"><img src="./pict/tec_oreno.png" width="200" height="78" alt="俺の夢" title="俺の夢" /></a><br />
+
+<a href="http://www.yume-ag.co.jp" target="_blank"><img src="./pict/ag_logo.png" width="96" height="76" alt="夢エージェント" title="夢エージェント" /></a><br />
+
+<a href="http://www.yume-ed.co.jp/" target="_blank"><img src="./pict/bnr_yume-ed.gif" width="96" height="76"></a><br />
+<!--
+<a href="http://buzzbox.ne.jp/" target="_blank"><img src="./pict/bb_logo.png" width="96" height="76"></a><br />
+-->
+<a href="http://www2.tse.or.jp/tseHpFront/StockSearch.do?method=&topSearchStr=%E5%A4%A2%E3%83%86%E3%82%AF" target="_blank"><img src="./pict/jasdaq.jpg" width="126" height="147" alt="JASDAQ Listed Company 2458" title="JASDAQ Listed Company 2458" /></a><br />
+<a href="http://www.neoa.or.jp/" target="_blank"><img src="./pict/side_menu04.gif" width="126" height="61" alt="製造業向けアウトソーシング企業で働く人たちの人たちのキャリアアップを支援します。 NEOA" title="製造業向けアウトソーシング企業で働く人たちの人たちのキャリアアップを支援します。 NEOA" /></a><br />
+<a href="http://yuryohaken.info/" target="_blank"><img src="./company/img/typeAT_02.jpg" width="80" height="95"></a><br />
+<a href="http://dzl.co.jp/" target="_blank"><img src="./company/img/dazzle.jpg" width="100" height="70"></a><br />
+
+<a href="http://www.fuga-futsal.com" target="_blank"><img src="./company/img/Fugador_sumida.png" width="250" height="55"></a><br />
+
+
+</p>
+	</div>
+	<!-- /side　-->
+
+	<!-- main　-->
+	<div id="main">
+
+<h3 class="title">新着情報　What's NEW</h3>
+
+		<div id="rotate" class="tab_news">
+            <ul>
+                <li><a href="#fragment-1"><span>新着情報</span></a></li>
+                <li><a href="#fragment-2"><span>IRニュース</span></a></li>
+                <li><a href="#fragment-3"><span>採用情報</span></a></li>
+            </ul>
+            
+            <div id="fragment-1">
+				<table class="table_line">
+
+				<!--　↓ここより新着情報書き込み。↓　-->
+
+<tr>
+<th rowspan="">2017/08/21</th>
+<td>
+9月23日に開催されます<a href="http://market.radionikkei.jp/japantour2017/fukuoka/" target="_blank">ラジオNIKKEIジャパンツアー　IR＆櫻井英明株式講演in福岡</a>に参加いたします。
+<br />皆様のお越しを心よりお待ちしております。 
+</td>
+</tr>
+
+<tr>
+<th rowspan="">2017/08/16</th>
+<td>
+<a href="../ir/pdf/ir20170816.pdf" target="_blank">2017年9月期 第3四半期　アナリスト向け決算説明資料</a>（PDF/3820KB）</td>
+</tr>
+
+<tr>
+<th>2017/08/14</th>
+<td>
+<a href="../ir/pdf/report_170814.pdf" target="_blank">第29期第3四半期報告書</a>（PDF/653KB）</td>
+</tr>
+
+<tr>
+<th rowspan="2">2017/08/02</th>
+<td>
+<a href="../ir/pdf/tanshin_20170802.pdf" target="_blank">平成29年9月期 第3四半期決算短信（非連結）</a>（PDF/520KB）</td></tr>
+<tr><td><a href="../ir/pdf/kessan_20170802.pdf" target="_blank">2017年9月期 第3四半期 決算概況について</a>（PDF/166KB）</td></tr>
+</td>
+</tr>
+
+<tr>
+<th rowspan="">2017/08/01</th>
+<td>
+<a href="../ir/pdf/ir_20170801.pdf" target="_blank">当社グループの稼動技術者数が5,000名稼働突破いたしました。</a>（PDF/355KB）</td>
+</tr>
+
+<tr>
+<th rowspan="">2017/06/16</th>
+<td>
+7月8日に開催されます<a href="http://www.tokyoipo.com/event/170708ipow.htm" target="_blank">個人投資家様向け会社説明会「東京IPO IR セミナー2017」</a>に参加いた します。
+<br />皆様のお越しを心よりお待ちしております。 
+</td>
+</tr>
+
+<tr>
+<th rowspan="">2017/05/16</th>
+<td>
+<a href="../ir/pdf/ir170516.pdf" target="_blank">2017年9月期 第2四半期　アナリスト向け決算説明資料</a>（PDF/2092KB）</td>
+</tr>
+
+<tr>
+<th>2017/05/15</th>
+<td>
+<a href="../ir/pdf/report_170515.pdf" target="_blank">第29期第2四半期報告書</a>（PDF/1.3MB）</td>
+</tr>
+
+<tr>
+<th rowspan="3">2017/05/02</th>
+<td>
+<a href="../ir/pdf/tanshin_20170502.pdf" target="_blank">平成29年9月期 第2四半期決算短信（非連結）</a>（PDF/532KB）</td></tr>
+<tr><td><a href="../ir/pdf/kessan_20170502.pdf" target="_blank">2017年9月期 第2四半期 決算概況について</a>（PDF/184KB）</td></tr>
+<tr><td><a href="../ir/pdf/ir_20170502.pdf" target="_blank">業績予想の修正並びに新中期経営計画の上方修正に関するお知らせ</a>（PDF/273KB）
+</td>
+</tr>
+
+<tr>
+<th>2017/03/30</th>
+<td>
+<a href="../ir/pdf/ir_141202.pdf" target="_blank">株式の分割及び配当予想の修正に関するお知らせ</a>（PDF/148KB）
+</td>
+</tr>
+
+<tr>
+<th rowspan="2">2017/03/06</th>
+<td>
+<a href="../ir/pdf/ir_20170306_PR.pdf" target="_blank">グループ会社「株式会社夢エデュケーション」新事業「転職の王様 キャリアチェンジアカデミー」を開始</a>（PDF/325KB）
+</tr>
+<tr>
+<td>
+<a href="../ir/pdf/ir_20170306_Yume Campus.pdf" target="_blank">「株式会社夢エデュケーション」×「日本サード・パーティ株式会社」子供向けプログラミングスクール「KIDS YUME CAMPUS」開校</a>（PDF/331KB）
+</td>
+</tr>
+
+<tr>
+<th>2017/03/01</th>
+<td>
+<a href="../ir/pdf/ir_20170301.pdf" target="_blank">ダズル新サービス開始について</a>（PDF/214KB）
+</td>
+</tr>
+
+<tr>
+<th rowspan="2">2017/02/17</th>
+<td>
+<a href="../ir/pdf/ir170217.pdf" target="_blank">2017年9月期 第1四半期　アナリスト向け決算説明資料</a>（PDF/1320KB）</td>
+</tr>
+<tr>
+<td>
+<a href="http://seminar.nsjournal.jp/7148.html" target="_blank">個人投資家様向け会社説明会「3月17日札幌セミナー」に参加いたします。
+</a><br />皆様のお越しを心よりお待ちしております。 
+</td>
+</tr>
+
+<tr>
+<th>2017/02/14</th>
+<td>
+<a href="../ir/pdf/report_170214.pdf" target="_blank">第29期第1四半期報告書</a>（PDF/568KB）</td>
+</tr>
+
+<tr>
+<th rowspan="2">2017/02/03</th>
+<td>
+<a href="../ir/pdf/tanshin_20170203.pdf" target="_blank">平成29年9月期第1四半期決算短信（非連結）</a>（PDF/426KB）</td></tr>
+<tr><td><a href="../ir/pdf/kessan_20170203.pdf" target="_blank">2017年9月期第1四半期決算概況について</a>（PDF/153KB）
+</td>
+</tr>
+
+<tr>
+<th>2017/02/02</th>
+<td>
+<a href="../ir/pdf/ir_20170202.pdf" target="_blank">関連会社によるITエンジニア育成拠点開設のお知らせ</a>（PDF/788KB）
+</td>
+</tr>
+
+<tr>
+<th>2017/01/30</th>
+<td>
+<a href="../ir/pdf/ir_20170130.pdf" target="_blank">株式会社ダズルの株式追加取得に関するお知らせ</a>（PDF/191KB）
+</td>
+</tr>
+
+<tr>
+<th>2017/01/24</th>
+<td>
+<a href="../ir/pdf/ir_20170124.pdf" target="_blank">採用計画の変更に関するお知らせ</a>（PDF/175KB）
+</td>
+</tr>
+
+<tr>
+<th rowspan="2">2016/12/19</th>
+<td>
+<a href="../ir/pdf/report_161219.pdf" target="_blank">有価証券報告書</a>（PDF/1.2MB）</td></tr>
+<tr><td><a href="../ir/pdf/ir_20161219.pdf" target="_blank">支配株主等に関する事項について</a>（PDF/238KB）
+</td>
+</tr>
+
+<tr>
+<th>2016/12/02</th>
+<td>
+<a href="../ir/pdf/soukai_20161202.pdf" target="_blank">第28期定時株主総会招集ご通知</a>（PDF/499KB）
+</td>
+</tr>
+
+<tr>
+<th>2016/11/30</th>
+<td>
+<a href="../ir/pdf/ir20161130.pdf" target="_blank">当社親会社である株式会社夢真ホールディングスのKeepdata株式会社の株式取得（子会社化）に関するお知らせ</a>（PDF/395KB）
+</td>
+</tr>
+
+<tr>
+<th>2016/11/18</th>
+<td>
+<a href="../ir/pdf/ir20161118.pdf" target="_blank">2016年9月期 通期 アナリスト向け決算説明資料</a>（PDF/2402KB）
+</td>
+</tr>
+
+<tr>
+<th>2016/11/16</th>
+<td>
+12月13日・14日に開催されます<a href="http://fair.nomura-ir.co.jp/ja/fair2016d/index.html" target="_blank">
+<b>「野村ＩＲ資産運用フェア2016」</b>
+</a>に参加いたします。<br />
+皆様のお越しを心よりお待ちしております。
+</td>
+</tr>
+
+<tr>
+<th>2016/11/14</th>
+<td>
+<a href="../ir/pdf/ir20161114_2.pdf" target="_blank">当社親会社である株式会社夢真ホールディングスの株式会社ブイシンクとの業務提携契約締結および株式取得に関するお知らせ</a>（PDF/244KB）
+<br /><br />
+<a href="../ir/pdf/ir20161114_1.pdf" target="_blank">剰余金の配当に関するお知らせ</a>（PDF/140KB）
+</td>
+</tr>
+
+<tr>
+<th rowspan="4">2016/11/02</th>
+<td>
+<a href="../ir/pdf/ir20161102.pdf" target="_blank">第4回新株予約権の譲渡に関するお知らせ</a>（PDF/228KB）</td></tr>
+<tr><td><a href="../ir/pdf/tanshin_20161102.pdf" target="_blank">平成28年9月期決算短信(非連結)</a>（PDF/600KB）</td></tr>
+<tr><td><a href="../ir/pdf/kessan_1601102.pdf" target="_blank">2016年9月通期決算概況について</a>（PDF/172KB）</td></tr>
+<tr><td><a href="../ir/pdf/keieikikaku_20161102.pdf" target="_blank">新中期経営計画策定に関するお知らせ</a>（PDF/102KB）</td>
+</tr>
+
+<tr>
+<th>2016/10/31</th>
+<td>
+<a href="../ir/pdf/ir20161031_1.pdf" target="_blank">通期業績予想と実績値との差異に関するお知らせ</a>
+<br />
+<a href="../ir/pdf/ir20161031_2.pdf" target="_blank">当社親会社である株式会社夢真ホールディングスとSELF株式会社の資本業務提携契約締結に関するお知らせ</a>
+</td>
+</tr>
+
+<tr>
+<th>2016/10/14</th>
+<td>
+<a href="../ir/pdf/20161014.pdf" target="_blank">当社親会社である株式会社夢真ホールディングスとギアヌーヴ株式会社の資本業務提携契約締結に関するお知らせ</a>
+</td>
+</tr>
+
+<tr>
+<th>2016/10/01</th>
+<td>
+<a href="http://www.fuga-futsal.com/" target="_blank">日本フットサルリーグに参加している「フウガドールすみだ」のスポンサーになりました。</a>
+</td>
+</tr>
+
+<tr>
+<th>2016/09/30</th>
+<td>
+<a href="../ir/pdf/20160930.pdf" target="_blank">募集新株予約権（業績連動型有償ストックオプション）の発行内容確定に関するお知らせ</a>（PDF/118KB）
+</td>
+</tr>
+
+<tr>
+<th>2016/09/28</th>
+<td>
+<a href="../ir/pdf/20160928.pdf" target="_blank">日本サード・パーティ株式会社との資本業務提携に関するお知らせ</a>（PDF/335KB）
+</td>
+</tr>
+
+<tr>
+<th>2016/09/27</th>
+<td>
+<a href="../ir/pdf/20160927.pdf" target="_blank">当社親会社である株式会社夢真ホールディングスのＡＩ関連事業における株式会社マインドシフトとの資本業務提携契約締結に関するお知らせ</a>（PDF/352KB）
+</td>
+</tr>
+
+<tr>
+<th>2016/09/26</th>
+<td>
+<a href="http://zasshi.news.yahoo.co.jp/article?a=20160920-00000001-economist-bus_all&p=1" target="_blank">
+当社親会社である株式会社夢真ホールディングスの資本業務提携先であるBTCボックス株式<br />会社・代表取締役社長
+ 張 店（デビッド・チャン）氏のインタビューが掲載されました。
+</a>
+</td>
+</tr>
+
+<tr>
+<th>2016/09/13</th>
+<td>
+<a href="../ir/pdf/ir160913.pdf" target="_blank">当社親会社である株式会社夢真ホールディングスのBTCボックス株式会社の株式取得完了に関するお知らせ</a>（PDF/526KB）
+</td>
+</tr>
+
+<tr>
+<th>2016/08/31</th>
+<td>
+<a href="../ir/pdf/ir160831.pdf" target="_blank">当社親会社である株式会社夢真ホールディングスの仮想通貨プラットフォーム及びブロックチェーン事業におけるBTCボックス株式会社との資本業務提携契約締結に関するお知らせ</a>（PDF/268KB）
+</td>
+</tr>
+
+<tr>
+<th>2016/08/18</th>
+<td>
+個人投資家様向け会社説明会<a href="http://seminar.nsjournal.jp/6953.html" target="_blank">「8月24日名古屋セミナー」</a>・<a href="http://seminar.nsjournal.jp/6970.html" target="_blank">「9月2日大阪セミナー」</a><br />に参加いたします。<br />
+皆様のお越しを心よりお待ちしております。 </a></td>
+</tr>
+
+<tr>
+<th>2016/08/15</th>
+<td>
+<a href="../ir/pdf/report_160815.pdf" target="_blank">第28期第3四半期報告書</a>（PDF/604KB）</td>
+</tr>
+
+<tr>
+<th rowspan="2">2016/07/29</th>
+<td>
+<a href="../ir/pdf/kessan_20160729.pdf" target="_blank">2016年9月期第3四半期決算概況について</a>（PDF/157KB）</td>
+<tr><td><a href="../ir/pdf/tanshin_20160729.pdf" target="_blank">平成28年9月期第3四半期決算短信(非連結)</a>（PDF/453KB）</td>
+</tr>
+
+<tr>
+<th>2016/07/22</th>
+<td>
+<a href="../ir/pdf/ir_20160722.pdf" target="_blank">当社関連会社である株式会社夢エデュケーションによる株式会社ギャラクシーの株式取得に関するお知らせ</a>（PDF/213KB）</td>
+</tr>
+
+<tr>
+<th>2016/07/21</th>
+<td>
+<a href="../ir/pdf/ir20160721.pdf" target="_blank">募集新株予約権（業績連動型有償ストック・オプション）の発行に関するお知らせ</a>（PDF/244KB）</td>
+</tr>
+
+<tr>
+<th>2016/07/19</th>
+<td>
+<a href="../ir/pdf/ir_20160719.pdf" target="_blank">当社関連会社である株式会社夢エデュケーションとソフィアメディクス株式会社との業務提携契約締結に関するお知らせ</a>（PDF/325KB）</td>
+</tr>
+
+<tr>
+<th>2016/07/12</th>
+<td>
+<a href="../ir/pdf/ir_20160712.pdf" target="_blank">当社投資先である株式会社ダズルにおけるVRプロダクト向け分析サービス<br />「アクセシブル(AccessiVR)」のティザーサイト公開の お知らせ</a>（PDF/1300KB）<br /><b>ティザーサイトは<a href="https://accessivr.io/" target="_blank">こちら</a></b></td>
+</tr>
+
+<tr>
+<th>2016/06/23</th>
+<td>
+<a href="../ir/pdf/ir_20160623.pdf" target="_blank">ソフィアメディクス株式会社の新設分割会社の株式取得に関するお知らせ</a>（PDF/230KB）</td>
+</tr>
+
+<tr>
+<th>2016/06/22</th>
+<td>
+<a href="../ir/pdf/ir_20160622.pdf" target="_blank">株式会社ヴァルハラゲームスタジオとのゲーム関連事業における業務提携に関するお知らせ</a>（PDF/217KB）</td>
+</tr>
+
+<tr>
+<th rowspan="2">2016/06/17</th>
+<td>
+<a href="../ir/pdf/ir20160621.pdf" target="_blank">当社投資先である株式会社ダズルにおける新VRゲーム開発のお知らせ</a>（PDF/164KB）</td></tr>
+<tr><td><a href="http://career.yume-tec.co.jp">中途採用サイトをリニューアルしました。</a></td>
+</tr>
+
+<tr>
+<th>2016/06/01</th>
+<td>
+<a href="./branch/index.html">本社が移転しました。</a></td>
+</tr>
+
+<tr>
+<th>2016/05/31</th>
+<td>
+<a href="../ir/pdf/20160531.pdf" target="_blank">画像処理事業における株式会社LinkProとの資本業務契約締結に関するお知らせ</a>（PDF/210KB）</td>
+</tr>
+
+<tr>
+<th>2016/05/30</th>
+<td>
+<a href="../ir/pdf/20160530.pdf" target="_blank">2016年9月期 第2四半期 アナリスト向け決算説明資料</a>（PDF/2620KB）</td>
+</tr>
+
+<tr>
+<th>2016/05/27</th>
+<td>
+<a href="../ir/pdf/ir20160527.pdf" target="_blank">バーチャルリアリティ事業における株式会社ダズルとの資本業務提携契約締結に関するお知らせ</a>（PDF/240KB）</td>
+</tr>
+
+<tr>
+<th>2016/05/25</th>
+<td>
+<a href="../ir/pdf/shinkabu_20160525.pdf" target="_blank">第三者割当による新株式及び第4回新株予約権の振込完了に関するお知らせ</a>（PDF/118KB）</td>
+</tr>
+
+<tr>
+<th>2016/05/20</th>
+<td>
+<a href="../ir/pdf/setsuritsu20160520.pdf" target="_blank">合弁会社の設立に関するお知らせ</a>（PDF/211KB）</td>
+</tr>
+
+<tr>
+<th>2016/05/16</th>
+<td>
+<a href="../ir/pdf/report_160516.pdf" target="_blank">第28期第2四半期報告書</a>（PDF/684KB）</td>
+</tr>
+
+<tr>
+<th>2016/05/09</th>
+<td>
+<a href="../ir/pdf/dorafuto_20160509_v2.pdf" target="_blank">第三者割当により発行される株式及び新株予約権の募集に関するお知らせ</a>（PDF/332KB）</td>
+</tr>
+
+<tr>
+<th rowspan="2">2016/05/06</th>
+<td>
+<a href="../ir/pdf/kessan_20160506.pdf" target="_blank">2016年9月期第2四半期決算概況について</a>（PDF/143KB）</td></tr>
+<tr><td><a href="../ir/pdf/tanshin_20160506.pdf" target="_blank">平成28年9月期第2四半期決算短信(非連結)</a>（PDF/453KB）</td>
+</tr>
+
+<tr>
+<th>2016/03/31</th>
+<td><a href="./ir/index.html">IR情報を拡充しました。</a>
+</td></tr>
+
+<tr>
+<th>2016/03/22</th>
+<td><a href="./branch/index.html#nagoya">名古屋支店が移転・採用プラザ 夢らぼ(名古屋)が開設しました。</a>
+</td></tr>
+
+<tr>
+<th>2016/03/08</th>
+<td>
+個人人投資家様向け会社説明会「<a href="http://www.tokyoipo.com/event/160326ipow.htm" target="_blank">東京IPO IRセミナー2016</a>」に参加いたします。<br />
+皆様のお越しを心よりお待ちしております。
+</td>
+</tr>
+
+<tr>
+<th>2016/02/15</th>
+<td>
+<a href="../ir/pdf/report_160215.pdf" target="_blank">第28期第1四半期報告書</a>（PDF/592KB）</td>
+</tr>
+
+<tr>
+<th rowspan="2">2016/02/05</th>
+<td>
+<a href="../ir/pdf/kessan_160205.pdf" target="_blank">2016年9月期第1四半期決算概況について</a>（PDF/161KB）</td></tr>
+<tr><td><a href="../ir/pdf/tanshin_20160205.pdf" target="_blank">平成28年9月期第1四半期決算短信(非連結)</a>（PDF/430KB）</td>
+</tr>
+
+<tr>
+<th rowspan="2">2015/12/17</th>
+<td>
+<a href="../ir/pdf/report_151217.pdf" target="_blank">有価証券報告書</a>（PDF/1.2MB）</td></tr>
+<tr><td><a href="../ir/pdf/shihaikabu.pdf" target="_blank">支配株主等に関する事項について</a>（PDF/240KB）</td>
+</tr>
+
+<tr>
+<th>2015/12/02</th>
+<td>
+<a href="../ir/pdf/soukai_tsuika.pdf" target="_blank">「第27期定時株主総会招集ご通知」の一部内容追加について</a>（PDF/121KB）</td>
+</tr>
+
+<tr>
+<th>2015/12/01</th>
+<td>
+<a href="../ir/pdf/soukai_20151201.pdf" target="_blank">第27期定時株主総会招集ご通知</a>（PDF/490KB）</td>
+</tr>
+
+<tr>
+<th>2015/11/30</th>
+<td>
+<a href="../ir/pdf/20151130.pdf" target="_blank">代表取締役の異動に関するお知らせ</a>（PDF/144KB）
+</td>
+</tr>
+
+<tr>
+<th>2015/11/26</th>
+<td>
+個人投資家様向け会社説明会<a href="http://www.tokyoipo.com/event/151210ipom.htm" target="_blank">「東京IPO　IRセミナー2015」</a>に参加いたします。<br />
+皆様のお越しを心よりお待ちしております。
+</td>
+</tr>
+
+<tr>
+<th>2015/11/18</th>
+<td>
+<a href="../ir/pdf/haitou_20151118.pdf" target="_blank">剰余金の配当に関するお知らせ</a>（PDF/166KB）</td>
+</tr>
+
+<tr>
+<th>2015/11/17</th>
+<td>
+<a href="../ir/pdf/oshirase151117.pdf" target="_blank">公認会計士等の異動に関するお知らせ</a>（PDF/183KB）</td>
+</tr>
+
+<tr>
+<th>2015/11/11</th>
+<td>
+<a href="../ir/pdf/tanshin_20151111.pdf" target="_blank">決算説明資料</a>（PDF/2289KB）</td>
+</tr>
+
+<tr>
+<th rowspan="4">2015/10/30</th>
+<td><a href="../ir/pdf/20151030_1.pdf" target="_blank">特別損失（投資有価証券評価損）の計上に関するお知らせ</a>（PDF/112KB）</td></tr>
+<tr><td><a href="../ir/pdf/20151030_2.pdf" target="_blank">通期業績予想と実績値との差異に関するお知らせ</a>（PDF/158KB）</td></tr>
+<tr><td><a href="../ir/pdf/tanshin_20151030.pdf" target="_blank">平成27年9月期決算短信(非連結)</a>（PDF/647KB）<br /></td></tr>
+<tr><td><a href="../ir/pdf/20151030_3.pdf" target="_blank">中期経営計画の策定に関するお知らせ</a>（PDF/2336KB）</td></tr>
+
+<tr>
+<th rowspan="2">2015/10/19</th>
+<td><a href="./branch/index.html#rs">採用プラザ 夢らぼ が移転しました。</a>
+</td></tr>
+<tr><td>
+<a href="./branch/index.html#kc">夢らぼ 研修センターを開設しました。</td></tr>
+
+<tr>
+<th rowspan="2">2015/08/31</th>
+<td><a href="./news_20150831.html" onclick="window.open('./news_20150831.html', '', 'width=560,height=420'); return false;">大阪支店と京都支店の統合・移転及び大阪採用拠点の新設</a>
+</td></tr>
+<tr><td>
+<a href="../ir/pdf/150831.pdf" target="_blank">通期業績予想及び配当予想の修正に関するお知らせ</a>（PDF/168KB）</td></tr>
+
+<tr>
+<th>2015/08/11</th>
+<td>
+<a href="../ir/pdf/report_150811.pdf" target="_blank">第27期第3四半期報告書</a>（PDF/604KB）</td>
+</tr>
+
+
+<tr>
+<th>2015/07/31</th>
+<td><a href="../ir/pdf/tanshin_20150731.pdf" target="_blank">平成27年9月期 第3四半期決算短信(非連結) </a>（PDF/820KB）</td>
+</tr>
+
+<tr>
+<th>2015/06/01</th>
+<td>
+<a href="http://recruit.yume-tec.co.jp/graduate" target="_blank">新卒採用サイトをリニューアルしました。</a></td>
+</tr>
+
+<tr>
+<th>2015/05/15</th>
+<td>
+<a href="../ir/pdf/report_150520.pdf" target="_blank">第27期第2四半期報告書</a>（PDF/630KB）</td>
+</tr>
+
+<tr>
+<th rowspan="2">2015/04/27</th>
+<td><a href="../dai2_oshirase.pdf" target="_blank">第2四半期累計期間における業績予想との差異に関するお知らせ</a>（PDF/174KB）</td></tr>
+<tr><td><a href="../ir/pdf/tanshin_20150427.pdf" target="_blank">平成27年9月期 第2四半期決算短信(非連結) </a>（PDF/850KB）</td></tr>
+
+<tr>
+<th>2015/03/13</th>
+<td>
+<a href="../company/index_2.html#mark">優良派遣事業者に認定されました。</a></td>
+</tr>
+
+<tr>
+<th>2015/02/13</th>
+<td>
+<a href="../ir/pdf/report_150213.pdf" target="_blank">第27期第1四半期報告書</a>（PDF/618KB）</td>
+</tr>
+
+<tr>
+<th rowspan="2">2015/02/05</th>
+<tr><td><a href="../ir/pdf/tanshin_20150205.pdf" target="_blank">平成27年9月期第1四半期決算短信(非連結)</a>（PDF/617KB）</td></tr>
+
+
+<tr>
+<th>2014/12/18</th>
+<td>
+<a href="../ir/pdf/141218_1.pdf" target="_blank">有価証券報告書</a>（PDF/1.3MB）</td>
+</tr>
+
+
+
+<tr>
+<th>2014/12/18</th>
+<td><a href="/ir/pdf/141218.pdf" target="_blank">支配株主等に関する事項について</a> (PDF/161KB)
+</td></tr>
+
+<tr>
+<th>2014/12/02</th>
+<td><a href="/ir/pdf/141202.pdf" target="_blank">第26期定時株主総会招集ご通知</a> (PDF/471KB)
+</td></tr>
+
+<tr>
+<th>2014/11/17</th>
+<td><a href="/ir/pdf/141117.pdf" target="_blank">（訂正）募集新株予約権（有償ストック・オプション）の発行内容確定に関するお知らせの一部訂正について</a>（PDF/120KB）
+</td></tr>
+
+<th>2014/11/14</th>
+<td><a href="/ir/pdf/141114.pdf" target="_blank">募集新株予約権（有償ストック・オプション）の発行内容確定に関するお知らせ</a>（PDF/80KB）
+</td></tr>
+
+<tr>
+<th>2014/11/13</th>
+<td><a href="/ir/pdf/141113.pdf" target="_blank">剰余金の配当に関するお知らせ</a> (PDF/159KB)
+</td></tr>
+
+<tr>
+<th>2014/11/04</th>
+<td><a href="./branch/index.html#honsya" target="_blank">本社が丸の内に移転しました。</a>
+</td></tr>
+
+<tr>
+<th rowspan="2">2014/10/31</th>
+<td><a href="/ir/pdf/141031.pdf" target="_blank">通期業績予想との差異に関するお知らせ</a>（PDF/116KB）</td></tr>
+<tr><td><a href="/ir/pdf/tanshin_141031.pdf" target="_blank">平成26年9月期決算短信(非連結)</a>（PDF/704KB）</td></tr>
+
+<!--　↑ここまで↑　-->
+</table>
+
+<div align="right"><a href="company/news.html">→more</a></div>
+            </div>
+            
+            <div id="fragment-2">
+				<table class="table_line">
+				<!--　↓ここよりIRニュース書き込み。↓　-->
+
+<tr>
+<th rowspan="">2017/08/21</th>
+<td>
+9月23日に開催されます<a href="http://market.radionikkei.jp/japantour2017/fukuoka/" target="_blank">ラジオNIKKEIジャパンツアー　IR＆櫻井英明株式講演in福岡</a>に参加いたします。
+<br />皆様のお越しを心よりお待ちしております。 
+</td>
+</tr>
+
+<tr>
+<th rowspan="">2017/08/16</th>
+<td>
+<a href="../ir/pdf/ir20170816.pdf" target="_blank">2017年9月期 第3四半期　アナリスト向け決算説明資料</a>（PDF/3820KB）</td>
+</tr>
+
+<tr>
+<th>2017/08/14</th>
+<td>
+<a href="../ir/pdf/report_170814.pdf" target="_blank">第29期第3四半期報告書</a>（PDF/6538KB）</td>
+</tr>
+
+<tr>
+<th rowspan="2">2017/08/02</th>
+<td>
+<a href="../ir/pdf/tanshin_20170802.pdf" target="_blank">平成29年9月期 第3四半期決算短信（非連結）</a>（PDF/520KB）</td></tr>
+<tr><td><a href="../ir/pdf/kessan_20170802.pdf" target="_blank">2017年9月期 第3四半期 決算概況について</a>（PDF/166KB）</td></tr>
+</td>
+</tr>
+
+<tr>
+<th rowspan="">2017/08/01</th>
+<td>
+<a href="../ir/pdf/ir_20170801.pdf" target="_blank">当社グループの稼動技術者数が5,000名稼働突破いたしました。</a>（PDF/355KB）</td>
+</tr>
+
+<tr>
+<th rowspan="">2017/06/16</th>
+<td>
+7月8日に開催されます<a href="http://www.tokyoipo.com/event/170708ipow.htm" target="_blank">個人投資家様向け会社説明会「東京IPO IR セミナー2017」</a>に参加いた します。
+<br />皆様のお越しを心よりお待ちしております。 
+</td>
+</tr>
+
+<tr>
+<th rowspan="">2017/05/16</th>
+<td>
+<a href="../ir/pdf/ir170516.pdf" target="_blank">2017年9月期 第2四半期　アナリスト向け決算説明資料</a>（PDF/2092KB）</td>
+</tr>
+
+
+<tr>
+<th>2017/05/15</th>
+<td>
+<a href="../ir/pdf/report_170515.pdf" target="_blank">第29期第2四半期報告書</a>（PDF/1.3MB）</td>
+</tr>
+
+<tr>
+<th rowspan="3">2017/05/02</th>
+<td>
+<a href="../ir/pdf/tanshin_20170502.pdf" target="_blank">平成29年9月期 第2四半期決算短信（非連結）</a>（PDF/532KB）</td></tr>
+<tr><td><a href="../ir/pdf/kessan_20170502.pdf" target="_blank">2017年9月期 第2四半期 決算概況について</a>（PDF/184KB）</td></tr>
+<tr><td><a href="../ir/pdf/ir_20170502.pdf" target="_blank">業績予想の修正並びに新中期経営計画の上方修正に関するお知らせ</a>（PDF/273KB）
+</td>
+</tr>
+
+<tr>
+<th>2017/03/30</th>
+<td>
+<a href="../ir/pdf/ir_141202.pdf" target="_blank">株式の分割及び配当予想の修正に関するお知らせ</a>（PDF/148KB）
+</td>
+</tr>
+
+<tr>
+<th rowspan="2">2017/03/06</th>
+<td>
+<a href="../ir/pdf/ir_20170306_PR.pdf" target="_blank">グループ会社「株式会社夢エデュケーション」新事業「転職の王様 キャリアチェンジアカデミー」を開始</a>（PDF/325KB）
+</tr>
+<tr>
+<td>
+<a href="../ir/pdf/ir_20170306_Yume Campus.pdf" target="_blank">「株式会社夢エデュケーション」×「日本サード・パーティ株式会社」子供向けプログラミングスクール「KIDS YUME CAMPUS」開校</a>（PDF/331KB）
+</td>
+</tr>
+
+<tr>
+<th>2017/03/01</th>
+<td>
+<a href="../ir/pdf/ir_20170301.pdf" target="_blank">ダズル新サービス開始について</a>（PDF/214KB）
+</td>
+</tr>
+
+<tr>
+<th rowspan="2">2017/02/17</th>
+<td>
+<a href="../ir/pdf/ir170217.pdf" target="_blank">2017年9月期 第1四半期　アナリスト向け決算説明資料</a>（PDF/1320KB）</td>
+</tr>
+<tr>
+<td>
+<a href="http://seminar.nsjournal.jp/7148.html" target="_blank">個人投資家様向け会社説明会「3月17日札幌セミナー」に参加いたします。
+</a><br />皆様のお越しを心よりお待ちしております。 
+</td>
+</tr>
+
+
+<tr>
+<th>2017/02/14</th>
+<td>
+<a href="../ir/pdf/report_170214.pdf" target="_blank">第29期第1四半期報告書</a>（PDF/568KB）</td>
+</tr>
+
+<tr>
+<th rowspan="2">2017/02/03</th>
+<td>
+<a href="../ir/pdf/tanshin_20170203.pdf" target="_blank">平成29年9月期第1四半期決算短信（非連結）</a>（PDF/426KB）</td></tr>
+<tr><td><a href="../ir/pdf/kessan_20170203.pdf" target="_blank">2017年9月期第1四半期決算概況について</a>（PDF/153KB）
+</td></tr>
+</tr>
+
+<tr>
+<th>2017/02/02</th>
+<td>
+<a href="../ir/pdf/ir_20170202.pdf" target="_blank">関連会社によるITエンジニア育成拠点開設のお知らせ</a>（PDF/788KB）
+</td>
+</tr>
+
+<tr>
+<th>2017/01/30</th>
+<td>
+<a href="../ir/pdf/ir_20170130.pdf" target="_blank">株式会社ダズルの株式追加取得に関するお知らせ</a>（PDF/191KB）
+</td>
+</tr>
+
+<tr>
+<th>2017/01/24</th>
+<td>
+<a href="../ir/pdf/ir_20170124.pdf" target="_blank">採用計画の変更に関するお知らせ</a>（PDF/175KB）
+</td>
+</tr>
+
+<tr>
+<th rowspan="2">2016/12/19</th>
+<td>
+<a href="../ir/pdf/report_161219.pdf" target="_blank">有価証券報告書</a>（PDF/1.2MB）</td></tr>
+<tr><td><a href="../ir/pdf/ir_20161219.pdf" target="_blank">支配株主等に関する事項について</a>（PDF/238KB）
+</td>
+</tr>
+
+<tr>
+<th>2016/12/02</th>
+<td>
+<a href="../ir/pdf/soukai_20161202.pdf" target="_blank">第28期定時株主総会招集ご通知</a>（PDF/499KB）
+</td>
+</tr>
+
+<tr>
+<th>2016/11/30</th>
+<td>
+<a href="../ir/pdf/ir20161130.pdf" target="_blank">当社親会社である株式会社夢真ホールディングスのKeepdata株式会社の株式取得（子会社化）に関するお知らせ</a>（PDF/395KB）
+</td>
+</tr>
+
+<tr>
+<th>2016/11/18</th>
+<td>
+<a href="../ir/pdf/ir20161118.pdf" target="_blank">2016年9月期 通期 アナリスト向け決算説明資料</a>（PDF/2402KB）
+</td>
+</tr>
+
+<tr>
+<th>2016/11/16</th>
+<td>
+12月13日・14日に開催されます<a href="http://fair.nomura-ir.co.jp/ja/fair2016d/index.html" target="_blank">
+<b>「野村ＩＲ資産運用フェア2016」</b>
+</a>に参加いたします。
+<br />
+皆様のお越しを心よりお待ちしております。
+</td>
+</tr>
+
+<tr>
+<th>2016/11/14</th>
+<td>
+<a href="../ir/pdf/ir20161114_2.pdf" target="_blank">当社親会社である株式会社夢真ホールディングスの株式会社ブイシンクとの業務提携契約締結および株式取得に関するお知らせ</a>（PDF/244KB）
+<br /><br />
+<a href="../ir/pdf/ir20161114_1.pdf" target="_blank">剰余金の配当に関するお知らせ</a>（PDF/140KB）
+</td>
+</tr>
+
+<tr>
+<th rowspan="4">2016/11/02</th>
+<td>
+<a href="../ir/pdf/ir20161102.pdf" target="_blank">第4回新株予約権の譲渡に関するお知らせ</a>（PDF/228KB）
+</td></tr>
+<tr>
+
+<td>
+<a href="../ir/pdf/tanshin_20161102.pdf" target="_blank">平成28年9月期決算短信(非連結)</a>（PDF/600KB）</td></tr>
+<tr><td><a href="../ir/pdf/kessan_1601102.pdf" target="_blank">2016年9月通期決算概況について</a>（PDF/172KB）</td></tr>
+<tr><td><a href="../ir/pdf/keieikikaku_20161102.pdf" target="_blank">新中期経営計画策定に関するお知らせ</a>（PDF/102KB）</td>
+</tr>
+
+<tr>
+<th>2016/10/31</th>
+<td>
+<a href="../ir/pdf/ir20161031_1.pdf" target="_blank">通期業績予想と実績値との差異に関するお知らせ</a>
+<br />
+<a href="../ir/pdf/ir20161031_2.pdf" target="_blank">当社親会社である株式会社夢真ホールディングスとSELF株式会社の資本業務提携契約締結に関するお知らせ</a>
+</td>
+</tr>
+
+<tr>
+<th>2016/10/14</th>
+<td>
+<a href="../ir/pdf/20161014.pdf" target="_blank">当社親会社である株式会社夢真ホールディングスとギアヌーヴ株式会社の資本業務提携契約締結に関するお知らせ</a>
+</td>
+</tr>
+
+<tr>
+<th>2016/09/30</th>
+<td>
+<a href="../ir/pdf/20160930.pdf" target="_blank">募集新株予約権（業績連動型有償ストックオプション）の発行内容確定に関するお知らせ</a>（PDF/118KB）
+</td>
+</tr>
+
+<tr>
+<th>2016/09/28</th>
+<td>
+<a href="../ir/pdf/20160928.pdf" target="_blank">日本サード・パーティ株式会社との資本業務提携に関するお知らせ</a>（PDF/335KB）
+</td>
+</tr>
+
+<tr>
+<th>2016/09/27</th>
+<td>
+<a href="../ir/pdf/20160927.pdf" target="_blank">当社親会社である株式会社夢真ホールディングスのＡＩ関連事業における株式会社マインドシフトとの資本業務提携契約締結に関するお知らせ</a>（PDF/352KB）
+</td>
+</tr>
+
+<tr>
+<th>2016/09/26</th>
+<td>
+<a href="http://zasshi.news.yahoo.co.jp/article?a=20160920-00000001-economist-bus_all&p=1" target="_blank">
+当社親会社である株式会社夢真ホールディングスの資本業務提携先であるBTCボックス株式<br />会社・代表取締役社長
+ 張 店（デビッド・チャン）氏のインタビューが掲載されました。
+</a>
+</td>
+</tr>
+
+<tr>
+<th>2016/09/13</th>
+<td>
+<a href="../ir/pdf/ir160913.pdf" target="_blank">
+当社親会社である株式会社夢真ホールディングスのBTCボックス株式会社の株式取得完了に関するお知らせ
+</a>（PDF/526KB）
+</td>
+</tr>
+
+<tr>
+<th>2016/08/31</th>
+<td>
+<a href="../ir/pdf/ir160831.pdf" target="_blank">
+当社親会社である株式会社夢真ホールディングスの仮想通貨プラットフォーム及びブロックチェーン事業におけるBTCボックス株式会社との資本業務提携契約締結に関するお知らせ
+</a>（PDF/268KB）
+</td>
+</tr>
+
+<tr>
+<th>2016/08/22</th>
+<td>
+<a href="../ir/pdf/ir160822.pdf" target="_blank">
+株式会社ソーシャルフィンテックの株式取得完了に関するお知らせおよび事業内容と今後の戦略について
+</a></td>
+</tr>
+
+<tr>
+<th>2016/08/18</th>
+<td>
+個人投資家様向け会社説明会<a href="http://seminar.nsjournal.jp/6953.html" target="_blank">「8月24日名古屋セミナー」</a>・<a href="http://seminar.nsjournal.jp/6970.html" target="_blank">「9月2日大阪セミナー」</a>に<br />参加いたします。<br />
+皆様のお越しを心よりお待ちしております。 </a></td>
+</tr>
+
+<tr>
+<th>2016/08/15</th>
+<td>
+<a href="../ir/pdf/report_160815.pdf" target="_blank">第28期第3四半期報告書</a>（PDF/604KB）</td>
+</tr>
+
+<tr>
+<th rowspan="2">2016/07/29</th>
+<td>
+<a href="../ir/pdf/kessan_20160729.pdf" target="_blank">2016年9月期第3四半期決算概況について</a>（PDF/157KB）</td></tr>
+<tr><td><a href="../ir/pdf/tanshin_20160729.pdf" target="_blank">平成28年9月期第3四半期決算短信(非連結)</a>（PDF/453KB）</td>
+</tr>
+
+<tr>
+<th>2016/07/22</th>
+<td>
+<a href="../ir/pdf/ir_20160722.pdf" target="_blank">当社関連会社である株式会社夢エデュケーションによる株式会社ギャラクシーの株式取得に関するお知らせ</a>（PDF/213KB）</td>
+</tr>
+
+<tr>
+<th>2016/07/21</th>
+<td>
+<a href="../ir/pdf/ir20160721.pdf" target="_blank">募集新株予約権（業績連動型有償ストック・オプション）の発行に関するお知らせ</a>（PDF/244KB）</td>
+</tr>
+
+<tr>
+<th>2016/07/19</th>
+<td>
+<a href="../ir/pdf/ir_20160719.pdf" target="_blank">当社関連会社である株式会社夢エデュケーションとソフィアメディクス株式会社との業務提携契約締結に関するお知らせ</a>（PDF/325KB）</td>
+</tr>
+
+<tr>
+<th>2016/07/12</th>
+<td>
+<a href="../ir/pdf/ir_20160712.pdf" target="_blank">当社投資先である株式会社ダズルにおけるVRプロダクト向け分析サービス<br />「アクセシブル(AccessiVR)」のティザーサイト公開の お知らせ</a>（PDF/1300KB）<br /><b>ティザーサイトは<a href="https://accessivr.io/" target="_blank">こちら</a></b></td>
+</tr>
+
+<tr>
+<th>2016/06/23</th>
+<td>
+<a href="../ir/pdf/ir_20160623.pdf" target="_blank">ソフィアメディクス株式会社の新設分割会社の株式取得に関するお知らせ</a>（PDF/230KB）</td>
+</tr>
+
+<tr>
+<th>2016/06/22</th>
+<td>
+<a href="../ir/pdf/ir_20160622.pdf" target="_blank">株式会社ヴァルハラゲームスタジオとのゲーム関連事業における業務提携に関するお知らせ</a>（PDF/217KB）</td>
+</tr>
+
+<tr>
+<th>2016/06/17</th>
+<td>
+<a href="../ir/pdf/ir20160621.pdf" target="_blank">当社投資先である株式会社ダズルにおける新VRゲーム開発のお知らせ</a>（PDF/164KB）</td>
+</tr>
+
+<tr>
+<th>2016/05/31</th>
+<td>
+<a href="../ir/pdf/20160531.pdf" target="_blank">画像処理事業における株式会社LinkProとの資本業務契約締結に関するお知らせ</a>（PDF/210KB）</td>
+</tr>
+
+<tr>
+<th>2016/05/30</th>
+<td>
+<a href="../ir/pdf/20160530.pdf" target="_blank">2016年9月期 第2四半期 アナリスト向け決算説明資料</a>（PDF/2620KB）</td>
+</tr>
+
+<tr>
+<th>2016/05/27</th>
+<td>
+<a href="../ir/pdf/ir20160527.pdf" target="_blank">バーチャルリアリティ事業における株式会社ダズルとの資本業務提携契約締結に関するお知らせ</a>（PDF/240KB）</td>
+</tr>
+
+<tr>
+<th>2016/05/25</th>
+<td>
+<a href="../ir/pdf/shinkabu_20160525.pdf" target="_blank">第三者割当による新株式及び第4回新株予約権の振込完了に関するお知らせ</a>（PDF/118KB）</td>
+</tr>
+
+<tr>
+<th>2016/05/20</th>
+<td>
+<a href="../ir/pdf/setsuritsu20160520.pdf" target="_blank">合弁会社の設立に関するお知らせ</a>（PDF/211KB）</td>
+</tr>
+
+<tr>
+<th>2016/05/16</th>
+<td>
+<a href="../ir/pdf/report_160516.pdf" target="_blank">第28期第2四半期報告書</a>（PDF/684KB）</td>
+</tr>
+
+<tr>
+<th>2016/05/09</th>
+<td>
+<a href="../ir/pdf/dorafuto_20160509_v2.pdf" target="_blank">第三者割当により発行される株式及び新株予約権の募集に関するお知らせ</a>（PDF/332KB）</td>
+</tr>
+
+<tr>
+<th rowspan="2">2016/05/06</th>
+<td>
+<a href="../ir/pdf/kessan_20160506.pdf" target="_blank">2016年9月期第2四半期決算概況について</a>（PDF/143KB）</td></tr>
+<tr><td><a href="../ir/pdf/tanshin_20160506.pdf" target="_blank">平成28年9月期第2四半期決算短信(非連結)</a>（PDF/453KB）</td>
+</tr>
+
+<tr>
+<th>2016/03/31</th>
+<td><a href="./ir/index.html">IR情報を拡充しました。</a>
+</td></tr>
+
+<tr>
+<th>2016/03/08</th>
+<td>
+個人人投資家様向け会社説明会「<a href="http://www.tokyoipo.com/event/160326ipow.htm" target="_blank">東京IPO IRセミナー2016</a>」に参加いたします。<br />
+皆様のお越しを心よりお待ちしております。
+
+</td>
+</tr>
+
+<tr>
+<th>2016/02/15</th>
+<td>
+<a href="../ir/pdf/report_160215.pdf" target="_blank">第28期第1四半期報告書</a>（PDF/592KB）</td>
+</tr>
+
+<tr>
+<th rowspan="2">2016/02/05</th>
+<td>
+<a href="../ir/pdf/kessan_160205.pdf" target="_blank">2016年9月期第1四半期決算概況について</a>（PDF/161KB）</td></tr>
+<tr><td><a href="../ir/pdf/tanshin_20160205.pdf" target="_blank">平成28年9月期第1四半期決算短信(非連結)</a>（PDF/430KB）</td>
+</tr>
+
+<tr>
+<th rowspan="2">2015/12/17</th>
+<td>
+<a href="../ir/pdf/report_151217.pdf" target="_blank">有価証券報告書</a>（PDF/1.2MB）</td></tr>
+<tr><td><a href="../ir/pdf/shihaikabu.pdf" target="_blank">支配株主等に関する事項について</a>（PDF/240KB）</td>
+</tr>
+
+<tr>
+<th>2015/12/02</th>
+<td>
+<a href="../ir/pdf/soukai_tsuika.pdf" target="_blank">「第27期定時株主総会招集ご通知」の一部内容追加について</a>（PDF/121KB）</td>
+</tr>
+
+<tr>
+<th>2015/12/01</th>
+<td>
+<a href="../ir/pdf/soukai_20151201.pdf" target="_blank">第27期定時株主総会招集ご通知</a>（PDF/490KB）</td>
+</tr>
+
+<tr>
+<th>2015/11/30</th>
+<td>
+<a href="../ir/pdf/20151130.pdf" target="_blank">代表取締役の異動に関するお知らせ</a>（PDF/144KB）
+</td>
+</tr>
+
+<tr>
+<th>2015/11/26</th>
+<td>
+個人投資家様向け会社説明会<a href="http://www.tokyoipo.com/event/151210ipom.htm" target="_blank">「東京IPO　IRセミナー2015」</a>に参加いたします。<br />
+皆様のお越しを心よりお待ちしております。
+</td>
+</tr>
+
+<tr>
+<th>2015/11/18</th>
+<td>
+<a href="../ir/pdf/haitou_20151118.pdf" target="_blank">剰余金の配当に関するお知らせ</a>（PDF/166KB）</td>
+</tr>
+
+<tr>
+<th>2015/11/17</th>
+<td>
+<a href="../ir/pdf/oshirase151117.pdf" target="_blank">公認会計士等の異動に関するお知らせ</a>（PDF/183KB）</td>
+</tr>
+
+<tr>
+<th>2015/11/11</th>
+<td>
+<a href="../ir/pdf/tanshin_20151111.pdf" target="_blank">決算説明資料</a>（PDF/2289KB）</td>
+</tr>
+
+<tr>
+<th rowspan="4">2015/10/30</th>
+<td><a href="../ir/pdf/20151030_1.pdf" target="_blank">特別損失（投資有価証券評価損）の計上に関するお知らせ</a>（PDF/112KB）</td></tr>
+<tr><td><a href="../ir/pdf/20151030_2.pdf" target="_blank">通期業績予想と実績値との差異に関するお知らせ</a>（PDF/158KB）</td></tr>
+<tr><td><a href="../ir/pdf/tanshin_20151030.pdf" target="_blank">平成27年9月期決算短信(非連結)</a>（PDF/647KB）</td></tr>
+<tr><td><a href="../ir/pdf/20151030_3.pdf" target="_blank">中期経営計画の策定に関するお知らせ</a>（PDF/2336KB）</td></tr>
+
+
+<tr>
+<th>2015/08/31</th>
+<td>
+<a href="../ir/pdf/150831.pdf" target="_blank">通期業績予想及び配当予想の修正に関するお知らせ</a>（PDF/168KB）</td>
+</tr>
+
+<tr>
+<th>2015/08/11</th>
+<td>
+<a href="../ir/pdf/report_150811.pdf" target="_blank">第27期第3四半期報告書</a>（PDF/604KB）</td>
+</tr>
+
+<tr>
+<th>2015/07/31</th>
+<td><a href="../ir/pdf/tanshin_20150731.pdf" target="_blank">平成27年9月期 第3四半期決算短信(非連結) </a>（PDF/820KB）</td>
+</tr>
+
+<tr>
+<th>2015/05/15</th>
+<td>
+<a href="../ir/pdf/report_150520.pdf" target="_blank">第27期第2四半期報告書</a>（PDF/630KB）</td>
+</tr>
+
+<tr>
+<th rowspan="2">2015/04/27</th>
+<td><a href="../dai2_oshirase.pdf" target="_blank">第2四半期累計期間における業績予想との差異に関するお知らせ</a>（PDF/174KB）</td></tr>
+<tr><td><a href="../ir/pdf/tanshin_20150427.pdf" target="_blank">平成27年9月期 第2四半期決算短信(非連結) </a>（PDF/850KB）</td></tr>
+
+
+<tr>
+<th>2015/02/13</th>
+<td>
+<a href="../ir/pdf/report_150213.pdf" target="_blank">第27期第1四半期報告書</a>（PDF/618KB）</td>
+</tr>
+
+ <tr>
+<th rowspan="2">2015/02/05</th>
+<tr>
+<td><a href="../ir/pdf/tanshin_20150205.pdf" target="_blank">平成27年9月期第1四半期決算短信(非連結)</a>（PDF/617KB）</td></tr>
+
+
+<tr>
+<th>2014/12/18</th>
+<td>
+<a href="../ir/pdf/141218_1.pdf" target="_blank">有価証券報告書</a>（PDF/1.3MB）</td>
+</tr>
+
+
+<tr>
+<th>2014/12/18</th>
+<td><a href="/ir/pdf/141218.pdf" target="_blank">支配株主等に関する事項について</a> (PDF/161KB)
+</td></tr>
+
+<tr>
+<th>2014/12/02</th>
+<td><a href="/ir/pdf/141202.pdf" target="_blank">第26期定時株主総会招集ご通知</a> (PDF/471KB)
+</td></tr>
+
+<tr>
+<th>2014/11/17</th>
+<td><a href="/ir/pdf/141117.pdf" target="_blank">（訂正）募集新株予約権（有償ストック・オプション）の発行内容確定に関するお知らせの一部訂正について</a>（PDF/120KB）
+</td></tr>
+
+<tr>
+<th>2014/11/14</th>
+<td><a href="/ir/pdf/141114.pdf" target="_blank">募集新株予約権（有償ストック・オプション）の発行内容確定に関するお知らせ</a>（PDF/80KB）
+</td></tr>
+
+<tr>
+<th>2014/11/13</th>
+<td><a href="/ir/pdf/141113.pdf" target="_blank">剰余金の配当に関するお知らせ</a> (PDF/159KB)
+</td></tr>
+
+
+<tr>
+<th rowspan="2">2014/10/31</th>
+<td><a href="/ir/pdf/141031.pdf" target="_blank">通期業績予想との差異に関するお知らせ</a>（PDF/116KB）</td></tr>
+<tr><td><a href="/ir/pdf/tanshin_141031.pdf" target="_blank">平成26年9月期決算短信(非連結)</a>（PDF/704KB）</td></tr>
+
+<!--　↑ここまで↑　-->
+</table>
+<div align="right"><a href="ir/">→more</a></div>
+</div>
+
+<div id="fragment-3">
+<table class="table_line">
+<tr>
+<th>2016/06/17</th>
+<td>
+<a href="http://career.yume-tec.co.jp">中途採用サイトをリニューアルしました。
+</a></td>
+</tr>
+
+<tr>
+<th>2016/03/22</th>
+<td><a href="./branch/index.html#nagoya">採用プラザ 夢らぼ(名古屋)を開設しました。</a>
+</td></tr>
+
+<tr>
+<th rowspan="2">2015/10/19</th>
+<td><a href="./branch/index.html#rs">採用プラザ 夢らぼ が移転しました。</a>
+</td></tr>
+<tr><td>
+<a href="./branch/index.html#kc">夢らぼ 研修センターを開設しました。</td></tr>
+
+<tr>
+<th>2015/08/31</th>
+<td>大阪に採用プラザ 夢らぼ を開設しました。<a href="./news_20150831.html" onclick="window.open('./news_20150831.html', '', 'width=560,height=420'); return false;">詳細はこちら</a>
+</td></tr>
+
+<tr>
+<th>2015/06/01</th>
+<td>
+<a href="http://recruit.yume-tec.co.jp/graduate" target="_blank">新卒採用サイトをリニューアルしました。</a></td>
+</tr>
+
+
+<tr>
+<th>2014/07/14</th>
+<td><a href="./ir/pdf/yumelabop.jpg" target="_blank">採用プラザ 夢らぼ を開設しました。</a>
+</td></tr>
+
+<tr>
+<th>2013/10/01</th><td><a href="http://www.daijob.com/jobs/joblist/6626/404282">【中途】Daijobで掲載を開始しました。</a><br />
+<a href="http://www.careerforum.net/job_search.asp?lang=J#Keyword=夢テクノロジー&Lang=J">【中途】CFNで掲載を開始しました。</a><br />
+<a href="http://www.careercross.com/04222154_careercross.html">【中途】キャリアクロスで掲載を開始しました。
+</a><br />
+<a href="http://www.careercross.com/04222154_careercross.html">新卒採用　キャリアクロスで掲載を開始しました。
+</a><br /></td></tr>
+
+<tr>
+<th>2013/09/16</th><td><a href="http://www.gakujo.ne.jp/2014/company
+/cmp_baseinfo.aspx?p1=12139&WINTYPE='SUB'">新卒採用　学情で掲載を開始しました。</a></td></tr>
+
+<tr>
+<th>2013/07/02</th><td><a href="http://type.jp/job/company.do;jsessionid=4D844B90293687B04374A06FC9DD6ED2.userNode2?id=11468">【中途】@Typeで掲載を開始しました。</a></td></tr>
+<!--
+<tr>
+<th>2013/06/26</th><td><a href="https://next.rikunabi.com/company/cmi1760243010/?__m=13728244823629088165173955786947">【中途】リクナビNEXTを更新しました。</a></td></tr>
+
+<tr>
+<th>2013/03/28</th><td><a href="http://next.rikunabi.com/company/cmi1760243010/">【中途】リクナビNEXTを更新しました。</a></td></tr>
+
+<tr>
+<th>2013/01/22</th><td><a href="http://next.rikunabi.com/company/cmi1760243010/">【中途】リクナビNEXTを更新しました。</a><br />
+<a href="http://re-katsu.jp/std/sch/ssch080.asp?PID=ssch090&COMCD=3829&LISTCNT=0&OINFO=1">【中途】Re就活を更新しました。</a></td></tr>
+
+<tr>
+<th>2012/12/21</th><td><a href="http://employment.en-japan.com/desc_384844/">【中途】enジャパンを更新しました。</a></td></tr>
+
+<tr>
+<th>2012/12/19</th><td><a href="http://next.rikunabi.com/company/cmi1760243010/">【中途】リクナビNEXTを更新しました。</a></td></tr>
+
+<tr>
+<th>2012/12/18</th><td><a href="http://doda.jp/DodaFront/View/JobSearchDetail/j_jid__3000476910/-fm__list/-tp__1/-mtmd__0/">【中途】DODAを更新しました。</a></td></tr>
+
+<tr>
+<th>2012/11/21</th><td><a href="https://rikunabi-next.yahoo.co.jp/company/cmi1760243010">【中途】リクナビNEXTを更新しました。</a></td></tr>
+
+<tr>
+<th>2012/11/20</th><td><a href="http://employment.en-japan.com/desc_366559/">【中途】enジャパンを更新しました。</a></td></tr>
+
+<tr>
+<th>2012/11/19</th><td><a href="http://doda.jp/DodaFront/View/JobSearchDetail/j_jid__3000462713/-fm__list/-tp__1/-mtmd__0/">【中途】DODAを更新しました。</a></td></tr>
+
+<tr>
+<th>2012/10/30</th><td><a href="http://type.jp/job/search_company_name.do?keyword=%96%B2%83e%83N%83m%83%8D%83W%81%5B&keywordConjunction=AND&keywordSearchType=al&limit=10&photoMode=true&.x=30&.y=11">【中途】@Typeで掲載を開始しました。</a></td></tr>
+
+<tr>
+<th>2012/10/24</th><td><a href="https://rikunabi-next.yahoo.co.jp/company/cmi1760243010/?__m=1352338900111-7668047243737988039
+">【中途】リクナビNEXTで掲載を開始しました。</a><br><a href="http://www.daijob.com/jobs/joblist/6626/404282">【中途】Daijobを更新しました。</a><br>
+<a href="http://www.careerforum.net/job_search.asp?lang=J#Keyword=%E5%A4%A2%E3%83%86%E3%82%AF%E3%83%8E%E3%83%AD%E3%82%B8%E3%83%BC&Lang=J">【中途】キャリアフォーラムネットを更新しました。</a></td></tr>
+
+<tr>
+<th>2012/10/23</th><td><a href="http://www.proseek.co.jp/pb/jobOffer.do?jobOfferCode=9912328120&dispatch=disp&markeDataApplyRoute=03&joinRoute=001&date=1352349210397">【中途】PROSEEKで掲載を開始しました。</a></td></tr>
+
+<tr>
+<th>2012/10/22</th><td><a href="http://www.ecareer.ne.jp/ecareer.KigyoInfoServlet?HID_CORPCD=00037938001">【中途】イーキャリアで掲載を開始しました。</a><br>
+<a href="http://doda.jp/DodaFront/View/JobSearchDetail/j_jid__3000450290/-fm__list/-tp__1/-mtmd__0/">【中途】DODAで掲載を開始しました。</a>
+</td></tr>
+
+<tr>
+<th>2012/10/20</th><td><a href="http://www.e-aidem.com/shain/01_A21019575289_detail.htm?PS=5">【中途】AIDEMで掲載を開始しました。</a></td></tr>
+
+<tr>
+<th>2012/10/19</th><td><a href="http://employment.en-japan.com/desc_366558/
+">【中途】enジャパンで掲載を開始しました。</a></td></tr>
+
+<tr>
+<th>2012/10/11</th><td><a href="https://job.rikunabi.com/2013/company/seminar/r481200038/C004/?ssl=0">10月25日 大阪にて新卒採用説明会と選考会を開催します。</a></td></tr>
+
+<tr>
+<th>2012/09/27</th><td><a href="http://re-katsu.jp/std/sch/ssch080.asp?PID=ssch090&COMCD=3829&LISTCNT=0&OINFO=1
+">【中途】Re就活を更新しました。</a></td></tr>
+
+<tr>
+<th>2012/09/03</th><td><a href="http://job.rikunabi.com/2013/company/seminars/r481200038/">新卒採用　9月の説明会日程をアップしました。</a></td></tr>
+
+<tr>
+<th>2012/08/07</th><td><a href="http://www.facebook.com/yumetechnology">ブログを更新しました。フェイスブックにも遊びに来てください。</a></td></tr>
+
+<tr>
+<th>2012/07/31</th><td><a href="http://recruit.yume-tec.co.jp/bosyu/seminar.html">説明会の予定を更新しました。</td></tr>
+
+<tr>
+<th>2012/07/01</th><td><a href="http://recruit.yume-tec.co.jp">新卒夏採用開始。選考期間が短くなりました。</a></td></tr>
+-->
+				<!--　↓ここより採用情報書き込み。↓　-->
+<!--
+				<tr>
+					<th>2012/00/00</th>
+					<td><a href="" target="_blank">テストテスト</a></td>
+				</tr>
+-->
+				<!--　↑ここまで↑　-->
+
+				</table>
+            </div>
+		</div>
+
+
+<br />
+
+	</div>
+	<!-- /main　-->
+
+</div>
+<!-- /body -->
+
+<p id="pagetop"><a href="#box">このページの先頭へ</a></p>
+
+<!-- footer　-->
+<div id="footer">
+<div class="link">
+<a href="./company/privacy.html">個人情報保護ポリシー</a>
+<a href="./company/disclosure.html">ディスクロージャーポリシー</a>
+<a href="./company/exemption.html">免責事項</a>
+<a href="./sitemap/index.html">サイトマップ</a>
+<a href="./contact/index.html">お問合せ</a>
+</div>
+<div id="kkr">
+<a href="http://www.ginza-kokoro.com" target="_blank"><img src="./pict/kokoro_Link.jpg" width="70" height="37" alt="創作和食 銀座 志" /></a>
+</div>
+
+<div id="copyright">
+Copyright &copy; 2005-2012　YUME TECHNOLOGY All Rights Reserved.
+</div>
+
+</div>
+
+<!-- /footer -->
+</div>
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new
+Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-34447558-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</body>
+</html>

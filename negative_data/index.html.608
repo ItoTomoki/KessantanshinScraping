@@ -1,0 +1,437 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name=viewport content="width=device-width, initial-scale=1">
+<title>株式会社 アスラポート・ダイニング</title>
+<meta name="description" itemprop="description" content="アスラポート・ダイニング　グループでは、「牛角」「とりでん」「おだいどこ」「とり鉄」「タコベル」などの飲食店を展開しています。" />
+ 
+
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel='stylesheet' href='http://asrapport-dining.com/css/style.css' type='text/css' media='all' />
+<link href='https://fonts.googleapis.com/css?family=Lato:400' rel='stylesheet' type='text/css'>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://asrapport-dining.com/js/jquery.bxslider.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+  $('.bxslider').bxSlider({
+    auto:true,
+  speed:2000,
+    pause:5000,
+  mode: 'fade'
+});
+});
+
+$(function(){
+     $('a img').hover(function(){
+        $(this).attr('src', $(this).attr('src').replace('_off', '_on'));
+          }, function(){
+             if (!$(this).hasClass('currentPage')) {
+             $(this).attr('src', $(this).attr('src').replace('_on', '_off'));
+        }
+   });
+});
+
+
+$(function(){
+    $('a[href^=#]').click(function(){ 
+        var speed = 500;
+        var href= $(this).attr("href"); 
+        var target = $(href == "#" || href == "" ? 'html' : href);
+        var position = target.offset().top;
+        $("html, body").animate({scrollTop:position}, speed, "swing");
+        return false;
+    });
+});
+$(function(){
+    $('.accordion li').click(function () {
+	
+        $(this).find('ul').stop(true, true).slideToggle()
+    }).find('ul').hide()
+});
+
+		$(document).ready(function() {
+			var pagetop = $('.pagetop');
+			$(window).scroll(function () {
+				if ($(this).scrollTop() > 100) {
+					pagetop.fadeIn();
+				} else {
+					pagetop.fadeOut();
+				}
+			});
+		    pagetop.click(function () {
+				$('body, html').animate({ scrollTop: 0 }, 500);
+				return false;
+		    });
+		});
+</script> 
+
+<script type="text/javascript">var _gaq = _gaq || [];_gaq.push(['_setAccount', 'UA-1363255-2']);_gaq.push(['_trackPageview']);(function(){var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);})();</script>
+	<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<!--[if lt IE 8]><script src="http://asrapport-dining.com/js/selectivizr.js"></script><![endif]-->
+<!-- E-IR Parts トップ 1/3 -->
+<script type="text/javascript" src="http://asrapport-dining.com/ir/eir/eir.js" charset="utf-8"></script> 
+<script type="text/javascript">
+<!--
+var eirUrl = ('https:' == document.location.protocol ? 'https://ssl4' : 'http://v4') + '.eir-parts.net';
+if(document.location.protocol == 'https:' || document.location.protocol == 'http:'){
+	var eirPass = eirUrl + '/Custom/public/parts/' + eirCode + '/';
+}else{
+	var eirPass = 'http://asrapport-dining.com/ir/';
+}
+document.write(unescape("%3Clink rel='stylesheet' href='" + eirPass + "ja/parts/css/main.css' type='text/css'%3E%3C/link%3E"));
+document.write(unescape("%3Clink rel='stylesheet' href='" + eirPass + "ja/parts/css/tab_change.css' type='text/css'%3E%3C/link%3E"));
+-->
+</script>
+<!-- /E-IR Parts トップ 1/3 -->	
+<!--[if lt IE 9]>
+    <script src="//api.html5media.info/1.1.8/html5media.min.js"></script>
+<![endif]-->
+</head>
+<body>
+<header>
+<div class="header">
+<div class="inner">
+<h1><a href="http://asrapport-dining.com/"><img src="http://asrapport-dining.com/images/header/logo.png" alt="株式会社 アスラポート・ダイニング" /></a></h1>
+<nav>
+<ul id="normal" class="dropmenu">
+<li><a href="http://asrapport-dining.com/">ホーム</a></li>
+<li><a href="http://asrapport-dining.com/company/outline">会社情報</a>
+<ul>
+<li><a href="http://asrapport-dining.com/company/message">トップメッセージ</a></li>
+<li><a href="http://asrapport-dining.com/company/principle">企業理念</a></li>
+<li><a href="http://asrapport-dining.com/company/outline">会社概要 / アクセス</a></li>
+<li><a href="http://asrapport-dining.com/company/officer">役員一覧</a></li>
+<li><a href="http://asrapport-dining.com/company/history">沿革</a></li>
+<li><a href="http://asrapport-dining.com/company/profile">事業内容・グループ一覧</a></li>
+
+</ul>
+</li>	
+<li><a href="http://asrapport-dining.com/news/pressrelease">ニュースリリース</a>
+	<ul>
+	<li><a href="http://asrapport-dining.com/news/pressrelease">プレスリリース/メディア情報</a></li>
+	<li><a href="http://asrapport-dining.com/news/ir">IRニュース</a></li>
+	</ul>
+</li>	
+<li><a href="http://asrapport-dining.com/csr/">CSR情報</a>
+<!--
+	<ul>
+	<li><a href="http://asrapport-dining.com/csr/#point01">食の安全への取り組み</a></li>
+	<li><a href="http://asrapport-dining.com/csr/#point02">環境への取り組み</a></li>
+	<li><a href="http://asrapport-dining.com/csr/#point03">人財育成の取り組み</a></li>
+	<li><a href="http://asrapport-dining.com/csr/#point04">コンプライアンスについて</a></li>
+	</ul>
+-->	
+</li>	
+<li><a href="http://asrapport-dining.com/ir">株主・投資家情報</a>
+	<ul>
+	<li><a href="http://asrapport-dining.com/ir/message">トップメッセージ</a></li>
+	<li><a href="http://asrapport-dining.com/ir/news">IRニュース</a></li>
+	<li><a href="http://asrapport-dining.com/ir/policy">経営方針</a></li>
+	<li><a href="http://asrapport-dining.com/ir/highlight">財務ハイライト</a></li>	
+		<li><a href="http://asrapport-dining.com/ir/monthly">月次情報</a></li>	
+
+	<li><a href="http://asrapport-dining.com/ir/library/financial">IRライブラリ</a></li>
+	<li><a href="http://asrapport-dining.com/ir/stock">株式情報</a></li>
+	<li><a href="http://asrapport-dining.com/ir/investor">個人投資家の皆様へ</a></li>
+	<li><a href="http://asrapport-dining.com/ir/benefit">株主優待</a></li>
+	<li><a href="http://asrapport-dining.com/ir/schedule">IRスケジュール</a></li>
+	<li><a href="http://asrapport-dining.com/ir/faq">よくあるご質問</a></li>
+	<li><a href="http://asrapport-dining.com/contact">お問い合わせ</a></li>
+	</ul>
+</li>	
+<li><a href=#>採用情報</a>
+	<ul>
+	<li><a href="http://asrapport-dining.com/recruit/primelink">プライム</a></li>
+	<li><a href="http://asrapport-dining.com/recruit/toritetsu">とり鉄</a></li>	
+	<li><a href="http://asrapport-dining.com/recruit/index2.php">TACOBELL</a></li>
+	</ul>
+</li>	
+<li><a href="http://asrapport-dining.com/contact">お問い合わせ</a>
+	<ul>
+	<li><a href="http://asrapport-dining.com/contact">お問い合わせ</a></li>	
+	<li><a href="http://asrapport-dining.com/property">物件のお問い合わせ</a></li>
+	</ul>
+</li>	
+	
+</ul>
+<p class="lang"><a href="http://asrapport-dining.com/en/company/principle/">| ENGLISH |</a></p>
+</nav>
+</div><!-- inner -->
+</div>
+</header>
+
+<div class="mainvisual">
+
+<div class="inner posi-rel">
+	<div class="index-tacobell" style="position:absolute;top:28px; right:30px;z-index:999;background:url(/images/property/bg.png) no-repeat;width:142px;height:296px;text-align: center;">
+		
+		<p style="margin:145px 0 10px 0;"><a href="property/"><img src="images/property/btn01.png" alt="タコベル物件募集" /></a></p>
+		<p><a href="recruit/index2.php"><img src="images/property/btn02.png" alt="タコベルで働きませんか？" /></a></p>
+		
+		</div>
+<ul class="bxslider">
+  <li><img height="350" src="images/index/01.png" alt="" /></li>
+  <li><img height="350" src="images/index/02.png" alt="" /></li> 
+  <li><a href="ir" class="button">Learn more <span class="arrow_move"></span></a><img height="350" src="images/index/03.png" alt="" /></li> 
+     
+</ul> 
+</div>
+</div>
+
+<section>
+<div class="cotainer index">
+
+<div class="left">
+<h2>グループ企業</h2>
+<div class="inner">
+<p class="mb20">弊社グループの会社を<br />ご紹介します。</p>
+
+<ul class="thumbs">
+
+<li><a href="http://www.asrapport.com/" target="_blank"><img src="images/index/group18.png" alt="" /></a></li>
+<li><img src="images/index/group03.png" alt="" /></li>
+<li><a href="http://www.konyusha.co.jp/" target="_blank"><img src="images/index/group06.png" alt="" /></a></li>
+<li><a href="http://www.ibaraki-milk.jp/factory/index.html" target="_blank"><img src="images/index/group07.png" alt="" /></a></li>
+<li><a href="http://www.ts-ent.co.uk" target="_blank"><img src="images/index/group08.png" alt="" /></a></li>
+<li><a href="http://www.skyeul.co.uk" target="_blank"><img src="images/index/group09.png" alt="" /></a></li>
+<li><a href="http://www.atariya.co.uk" target="_blank"><img src="images/index/group10_.png" alt="" /></a></li>
+<li><a href="http://www.tomoni-dream-hp.com/pc/index.html" target="_blank"><img src="images/index/group11.png" alt="" /></a></li>
+<li><a href="http://www.kyusyu-nyugyo.co.jp/index.html" target="_blank"><img src="images/index/group12.png" alt="" /></a></li>
+<li><a href="http://www.pacificparadisefoods.com/index.php" target="_blank"><img src="images/index/group13.png" alt="" /></a></li>
+<li><a href="http://www.dreamcorp.co.jp/" target="_blank"><img src="images/index/group16.png" alt="" /></a></li>
+<li><a href="http://www.momiandtoy.com" target="_blank"><img src="images/index/group19.png" alt="" /></a></li>
+
+</ul>
+</div>
+
+<dl class="index-contact">
+			<dt>お問い合わせ</dt>
+			<dd>
+				<p>店舗に関するお問合せ、食材、備品、物件等の情報はこちらからお願い致します。</p>
+				<p><a class="button-index-contact" href="contact/">お問い合わせはこちら</a></p>
+			</dd>
+		</dl>
+<dl class="index-contact">
+			<dt>物件を募集しています</dt>
+			<dd>
+				<p>物件のご紹介等はこちらからお願いします。</p>
+				<p><a class="button-index-contact" href="property/">お問い合わせはこちら</a></p>
+			</dd>
+		</dl>
+
+</div>
+<div class="center">
+<h2>プレスリリース・メディア情報</h2>
+<h3>弊社・グループ各社のニュースをご紹介します。</h3>
+<p class="next"><a href="news/pressrelease">一覧を見る</a></p>
+
+<div class="ir-box">
+<!-- E-IR Parts トップ 2/3 -->
+<div id="ir_library">
+<div id="yearList"></div>
+<div id="announcement">
+<div id="divDataArea"></div>
+<script type="text/javascript">
+<!--	
+document.write(unescape("%3Cscript src='" + eirPass + "ja/parts/top_press.js' charset='utf-8' type='text/javascript'%3E%3C/script%3E"));
+-->
+</script>
+<script type="text/javascript">
+<!--	
+if(typeof org_data == 'undefined'){
+	document.write(message)
+}
+-->
+</script>
+</div>
+                        
+</div>
+<!-- /E-IR Parts トップ 2/3 -->
+</div>
+<h2 class="mt20">IR情報</h2>
+<h3>適時開示や有報などIRに関するニュースをお伝えします。</h3>
+<p class="next"><a href="news/ir">一覧を見る</a></p>
+
+<div class="ir-box">
+<!-- E-IR Parts トップ 3/3 -->
+<div id="ir_library">
+<div id="yearList"></div>
+<div id="announcement">
+<div id="divDataArea2"></div>
+<script type="text/javascript">
+<!--	
+document.write(unescape("%3Cscript src='" + eirPass + "ja/parts/top_ir.js' charset='utf-8' type='text/javascript'%3E%3C/script%3E"));
+-->
+</script>
+<script type="text/javascript">
+<!--	
+if(typeof org_data == 'undefined'){
+	document.write(message)
+}
+-->
+</script>
+</div>
+                        
+</div>
+<!-- /E-IR Parts トップ 3/3 -->
+</div>
+</div><!-- center -->
+
+<div class="right">
+<h2>ブランド</h2>
+<div class="inner">
+<p class="mb20">弊社グループの外食ブランドを<br />ご紹介します。</p>
+<ul class="thumbs">
+<li><a href="http://www.prime-link.com/brand/gyukaku/" target="_blank"><img src="images/index/brand01.png" alt="" /></a></li>
+<li><a href="http://www.prime-link.com/brand/toriden/" target="_blank"><img src="images/index/brand02.png" alt="" /></a></li>
+<li><a href="http://www.tori-tetsu.com/" target="_blank"><img src="images/index/brand03.png" alt="" /></a></li>
+<li><a href="http://odaidoko.com/" target="_blank"><img src="images/index/brand04.png" alt="" /></a></li>
+<li><a href="http://www.didoritei.cc/" target="_blank"><img src="images/index/brand05.png" alt="" /></a></li>
+<li><a href="http://www.torizo.cc/" target="_blank"><img src="images/index/brand06.png" alt="" /></a></li>
+<li><a href="http://foodstand.jp/brand/index.html" target="_blank"><img src="images/index/brand07.png" alt="" /></a></li>
+<li><a href="http://www.kimukatsu.com/" target="_blank"><img src="images/index/brand08.png" alt="" /></a></li>
+<li><a href="http://www.gokoku.jp/" target="_blank"><img src="images/index/brand09.png" alt="" /></a></li>
+<li><a href="http://www.konyusha.co.jp/shop.html" target="_blank"><img src="images/index/brand10.png" alt="" /></a></li>
+<li><a href="http://tacobell.co.jp/" target="_blank"><img src="images/index/brand11.png" alt="" /></a></li>
+<li><a href="http://www.atariya.co.uk" target="_blank"><img src="images/index/group10.png" alt="" /></a></li>
+<li><a href="http://www.dskgroup.co.jp/" target="_blank"><img src="images/index/group14.png" alt="" /></a></li>
+<li><a href="http://www.bagelbagel.jp/" target="_blank"><img src="images/index/group17.png" alt="" /></a></li>
+<li><a href="http://kiyotaya.com/" target="_blank"><img src="images/index/brand12.png" alt="" /></a></li>
+<li><a href="http://teppan-gin.com/" target="_blank"><img src="images/index/brand13.png" alt="" /></a></li>
+<li><a href="http://www.momiandtoy.com" target="_blank"><img src="images/index/group20.png" alt="" /></a></li>
+</ul>
+</div>
+</div>
+</div><!-- container -->
+</section>
+
+<footer class="ftr">
+<div class="area01">
+<div class="inner">
+<ul>
+<li><a href=""><img src="http://asrapport-dining.com/images/footer/icon01.png" alt="" /></a></li>
+<!--
+<li><a href=""><img src="http://asrapport-dining.com/images/footer/icon02.png" alt="" /></a></li>
+<li><a href=""><img src="http://asrapport-dining.com/images/footer/icon03.png" alt="" /></a></li>
+-->
+<li><p>Copyright Asrapport Dining Co., Ltd. All Right Reserved</p></li>
+</ul>	
+</div>	
+</div><!-- area01 -->
+<div class="area02">
+<div class="inner">
+
+<div class="box01">
+<h3>| 会社情報 |</h3>
+<ul>
+<li><a href="http://asrapport-dining.com/company/message">トップメッセージ</a></li>
+<li><a href="http://asrapport-dining.com/company/principle">企業理念</a></li>
+<li><a href="http://asrapport-dining.com/company/outline">会社概要 / アクセス</a></li>
+<li><a href="http://asrapport-dining.com/company/officer">役員一覧</a></li>
+<li><a href="http://asrapport-dining.com/company/history">沿革</a></li>
+<li><a href="http://asrapport-dining.com/company/profile">事業内容・グループ一覧</a></li>
+<!--<li><a href="">コーポレートガバナンス</a></li>-->
+</ul>
+<h3 class="mt60">| 採用情報 |</h3>
+<ul>
+<li><a href="http://asrapport-dining.com/recruit/primelink">プライムリンク事業本部</a></li>
+<li><a href="http://asrapport-dining.com/recruit/toritetsu">とり鉄事業本部</a></li>
+<li><a href="http://asrapport-dining.com/recruit/index2.php">TACOBELL</a></li>
+</ul>
+</div><!-- box01 -->
+
+<div class="box02">
+<h3>| ニュースリリース |</h3>
+<ul>
+<li><a href="http://asrapport-dining.com/news/pressrelease">プレスリリース/メディア情報</a></li>
+<li><a href="http://asrapport-dining.com/news/ir">IRニュース</a></li>
+</ul>
+<h3 class="mt15">| <a href="http://asrapport-dining.com/csr">CSR情報</a> |</h3>
+<ul>
+<li><a href="http://asrapport-dining.com/csr/#point01">食の安全への取り組み</a></li>
+<li><a href="http://asrapport-dining.com/csr/#point02">環境への取り組み</a></li>
+<li><a href="http://asrapport-dining.com/csr/#point03">人財育成の取り組み</a></li>
+<li><a href="http://asrapport-dining.com/csr/#point04">コンプライアンスについて</a></li>
+</ul>
+<h3 class="mt45">| <a href="http://asrapport-dining.com/contact">お問い合わせ</a> |</h3>
+</div><!-- box02 -->
+
+<div class="box03">
+<h3>| <a href="http://asrapport-dining.com/ir">株主・投資家情報</a> |</h3>
+<ul>
+<li><a href="http://asrapport-dining.com/ir/news">IRニュース</a></li>	
+<li><a href="http://asrapport-dining.com/ir/message">トップメッセージ</a></li>
+<li><a href="http://asrapport-dining.com/ir/policy">経営方針</a></li>
+<li>
+	<ul>
+	<li>　<a href="http://asrapport-dining.com/ir/policy">ビジネスモデル</a></li>
+	<li>　<a href="http://asrapport-dining.com/ir/governance">コーポレートガバナンス</a></li>
+	<li>　<a href="http://asrapport-dining.com/ir/risk">事業等のリスク</a></li>
+	</ul>
+</li>	
+<li><a href="http://asrapport-dining.com/ir/highlight">財務・業績</a></li>
+<li>　<a href="http://asrapport-dining.com/ir/highlight">財務ハイライト</a></li>
+<li>　<a href="http://asrapport-dining.com/ir/monthly">月次情報</a></li>
+
+</ul>
+<h3 class="mt30">| <a href="http://asrapport-dining.com/public_notice">電子公告</a> |</h3>
+
+</div><!-- box03 -->
+
+
+<div class="box04">
+
+<ul>
+<li class="mt25"><a href="http://asrapport-dining.com/ir/library/financial">IRライブラリ</a></li>
+<li>
+	<ul>
+	<li>　<a href="http://asrapport-dining.com/ir/library/financial">決算短信・適時開示</a></li>	
+	<li>　<a href="http://asrapport-dining.com/ir/library/security">有報・四半期報告書</a></li>
+	<li>　<a href="http://asrapport-dining.com/ir/library/report">インベスターズガイド/株主通信</a></li>
+	<li>　<a href="http://asrapport-dining.com/ir/library/presentation">決算説明会資料</a></li>
+
+	</ul>
+</li>	
+<li><a href="http://asrapport-dining.com/ir/stock">株式情報</a></li>
+</ul>
+	
+</div><!-- box04 -->
+
+<div class="box05">
+<ul>
+<li class="mt25"><a href="http://asrapport-dining.com/ir/investor">個人投資家の皆様へ</a></li>
+<li>
+	<ul><li>　<a href="http://asrapport-dining.com/company/profile">アスラポート・ダイニングとは？</a></li>
+	<li>　<a href="http://asrapport-dining.com/ir/investor">外食業界をとりまく環境</a></li>
+	<li>　<a href="http://asrapport-dining.com/ir/policy">ビジネスモデル</a></li>
+	<li>　<a href="http://asrapport-dining.com/ir/investor/strategy">4つの戦略</a></li>
+	</ul>
+</li>	
+<li><a href="http://asrapport-dining.com/ir/benefit">株主優待</a></li>
+<li><a href="http://asrapport-dining.com/ir/schedule">IRスケジュール</a></li>
+<li><a href="http://asrapport-dining.com/ir/faq">よくあるご質問</a></li>
+<li><a href="http://asrapport-dining.com/contact">お問い合わせ</a></li>
+<li><a href="http://asrapport-dining.com/property">物件のお問い合わせ</a></li>
+</ul>
+</div><!-- box05 -->
+</div>
+</div><!-- area02 -->
+
+<div class="area03">
+<div class="inner">
+
+<ul>
+<li><img src="http://asrapport-dining.com/images/footer/icon04.png" alt="" /><span>証券コード 3069</span></li>
+<!--<li>｜&nbsp;<a href="">サイトポリシー</a>&nbsp;｜&nbsp;<a href="">個人情報保護方針</a>&nbsp;｜</li>
+</ul>
+-->
+</div>
+</div><!-- area03 -->
+</footer>
+<p class="pagetop"><a href="#wrap">PAGE TOP</a></p>
+</body>
+</html>

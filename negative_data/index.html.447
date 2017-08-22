@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="ja"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="ja"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="ja"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="ja"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>株式会社アダストリア</title>
+  <meta name="description" content="グローバルワーク、ニコアンド、ローリーズファームなどを展開する株式会社アダストリアのコーポレートサイトです。企業情報や店舗情報、採用情報などを紹介しています。" />
+  <meta name="keywords" content="アダストリア, ポイント, トリニティアーツ, バビロン, ナチュラルナイン" />
+  <meta name="viewport" content="width=device-width">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="stylesheet" href="/shared/styles/adastria.min.css?v=20170718">
+  <link rel="stylesheet" href="/shared/scripts/slick/slick.css">
+  <link href='https://fonts.googleapis.com/css?family=Ropa+Sans' rel='stylesheet' type='text/css'>
+  <script type="text/javascript" src="/shared/scripts/adastria.min.js"></script>
+  <script type="text/javascript" src="/shared/scripts/masonry.pkgd.min.js"></script>
+  <script type="text/javascript" src="/shared/scripts/slick/slick.min.js"></script>
+  <script type="text/javascript" src="/shared/scripts/home.js?v=20170718"></script>
+  <script>
+    $(document).ready(function(){
+      if(Math.round(Math.random()*1)){
+        $('img[src="/images/keyv_main_40.jpg"]').attr('src','/images/keyv_main_39.jpg');
+      }
+    });
+
+  </script>
+</head>
+<body id="top">
+  <div class="container">
+    <style> 
+@media screen and (min-width: 640px){
+  .site-header .global-nav>nav>ul>li.brands ul{
+      background: #FFF;
+      width: 451px;
+  }
+  .site-header .global-nav>nav>ul>li.brands ul>li:nth-child(even){
+      width: 180px;
+  }
+  .site-header .global-nav>nav>ul>li.brands ul>li:nth-child(odd){
+      width: 270px;
+  }
+  .site-footer .sitemap ul li a[href="/brands/velvet/"]{
+    width: 100px;
+    letter-spacing: -0.1em;
+  }
+}
+</style>
+
+<header class="site-header">
+      <div class="inner">
+        <h1 class="logo"><a href="/"><img src="/shared/images/logo2.png" height="50" width="315" alt="ADASTRIA"></a></h1>
+        <div class="utility-nav">
+          <div class="language" id="switchLanguage">
+            <dl>
+              <dt><a href="#">Language</a></dt>
+              <dd class="japanese"><a href="/">日本語</a></dd>
+              <dd class="english"><a href="/english/">English</a></dd>
+            </dl>
+          </div>
+          <div class="search">
+            <form action="/search/">
+              <input type="text" name="p" class="field" placeholder="サイト内検索">
+              <input type="submit" class="button" value="検索">
+              <input type="hidden" id="fr" name="fr" value="cse">
+              <input type="hidden" id="ei" name="ei" value="UTF-8">
+              <input type="hidden" id="csid" name="csid" value="jLxPds97Mt5lIk6WjT9mdyPvyrYKi41s8vSRi.qIRg--">
+              <input type="hidden" name="vs" value="www.adastria.co.jp" id="yjInsite">
+            </form>
+          </div>
+        </div>
+        <div class="global-nav">
+          <nav>
+            <ul>
+              <li class="brands has-child"><a href="/brands/">ブランド紹介</a>
+                <ul>
+<li class="pc-hide"><a href="/brands/">ブランド紹介一覧</a></li>
+<li><a href="/brands/global_work/">グローバルワーク</a></li>
+<li><a href="/brands/lowrys_farm/">ローリーズファーム</a></li>
+<li><a href="/brands/nikoand/">ニコアンド</a></li>
+<li><a href="/brands/studioclip/">スタディオクリップ</a></li>
+<li><a href="/brands/lepsim/">レプシィム</a></li>
+<li><a href="/brands/jeanasis/">ジーナシス</a></li>
+<li><a href="/brands/rageblue/">レイジブルー</a></li>
+<li><a href="/brands/heather/">ヘザー</a></li>
+<li><a href="/brands/hare/">ハレ</a></li>
+<li><a href="/brands/barnyardstorm/">バンヤードストーム</a></li>
+<li><a href="/brands/apart_by_lowrys/">アパートバイローリーズ</a></li>
+<li><a href="/brands/babylone/">バビロン</a></li>
+<li><a href="/brands/repipi_armario/">レピピアルマリオ</a></li>
+<li><a href="/brands/bliss_point/">ブリスポイント</a></li>
+<li><a href="/brands/andemiu/">アンデミュウ</a></li>
+<li><a href="/brands/bayflow/">ベイフロー</a></li>
+<li><a href="/brands/me_percent/">ミィパーセント</a></li>
+<li><a href="/brands/pageboy/">ページボーイ</a></li>
+<li><a href="/brands/mystywoman/">ミスティウーマン</a></li>
+<li><a href="/brands/laboratorywork/">ラボラトリーワーク</a></li>
+<li><a href="/brands/lakole/">ラコレ</a></li>
+<li><a href="/brands/velvet/">ベルベットバイグラハムアンドスペンサー</a></li>
+<li><a href="/brands/store/">ストアブランド</a></li>
+</ul>
+              </li>
+              <li class="shop has-child"><a href="/shop/">店舗検索</a>
+                <ul>
+                  <li class="pc-hide"><a href="/shop/">店舗検索</a></li>
+                  <li class="sp-hide"><a href="/shop/">ブランドと地域を指定して検索</a></li>
+                  <li><a href="/shop/new/">新店情報</a></li>
+                </ul>
+              </li>
+              <li class="news has-child"><a href="/news/">ニュース</a>
+                <ul>
+                  <li class="pc-hide"><a href="/news/">ニュース一覧</a></li>
+                  <li><a href="/news/corporate/">コーポレート</a></li>
+                  <li><a href="/news/ir/">IR</a></li>
+                  <li><a href="/news/csr/">CSR</a></li>
+                  <li><a href="/news/notice/">お客さまへの重要なお知らせ</a></li>
+                  <li><a href="/news/brand/">ブランド</a></li>
+                </ul>
+              </li>
+              <li class="aboutus has-child"><a href="/aboutus/">企業情報</a>
+                <ul>
+                  <li class="pc-hide"><a href="/aboutus/">企業情報一覧</a></li>
+                  <li><a href="/aboutus/identity/">コーポレートアイデンティティ</a></li>
+                  <li><a href="/aboutus/outline/#profile">会社概要</a></li>
+                  <li><a href="/aboutus/outline/#history">会社沿革</a></li>
+                  <li><a href="/aboutus/business/">ビジネスモデル・事業内容</a></li>
+                  <li class="has-sub-child"><a href="/aboutus/group/">グループ企業</a>
+                  <ul>
+                    <li><a href="/aboutus/group/">グループ企業一覧</a></li>
+                    <li><a href="http://alicia.co.jp/" target="_blank"><span class="ico-external">株式会社アリシア</span></a></li>
+                    <li><a href="/aboutus/group/adastria_asia/">Adastria Asia Co., Ltd.</a></li>
+                    <li><a href="/aboutus/group/adastria_logistics/">株式会社アダストリア・<br class="sp-hide">ロジスティクス</a></li>
+                    <li><a href="http://www.adastria-gs.co.jp/" target="_blank"><span class="ico-external">株式会社アダストリア・<br class="sp-hide">ゼネラルサポート</span></a></li>
+                  </ul>
+                  </li>
+                  <li><a href="/aboutus/top_message/">トップメッセージ</a></li>
+                </ul>
+              </li>
+              <li class="csr has-child"><a href="/aboutus/csr/subject/">CSR</a>
+                <ul>
+                  <li><a href="/aboutus/csr/subject/">CSRの考え方</a></li>
+                  <li><a href="/aboutus/csr/environment/">環境を守る</a></li>
+                  <li><a href="/aboutus/csr/people/">人を輝かせる</a></li>
+                  <li><a href="/aboutus/csr/communities/">地域に貢献する</a></li>
+                </ul>
+              </li>
+              <li class="ir has-child"><a href="/ir/">IR情報</a>
+                <ul>
+                  <li class="pc-hide"><a href="/ir/">IR情報一覧</a></li>
+                  <li><a href="/ir/news/">IRニュース</a></li>
+                  <li class="has-sub-child"><a href="/ir/management/governance/">経営方針</a>
+                    <ul>
+                      <li><a href="/ir/management/">トップメッセージ</a></li>
+                      <li><a href="/ir/management/governance/">コーポレート・ガバナンス</a></li>
+                      <li><a href="/ir/management/internal_control/">内部統制への取り組み</a></li>
+                      <li><a href="/ir/management/procure/">グループ調達方針</a></li>
+                      <li><a href="/ir/management/group_ethics_standards/">グループ倫理規準</a></li>
+                    </ul>
+                  </li>
+                  <li class="has-sub-child"><a href="/ir/highlights/">業績・財務</a>
+                    <ul>
+                      <li><a href="/ir/highlights/sales/">月次売上速報</a></li>
+                      <li><a href="/ir/highlights/">連結業績・財務ハイライト</a></li>
+                      <li><a href="/ir/highlights/quarterly/">四半期業績・財務ハイライト</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="/ir/calendar/">IRカレンダー</a></li>
+                  <li class="has-sub-child"><a href="/ir/library/">IRライブラリー</a>
+                    <ul>
+                      <li><a href="/ir/library/">決算短信</a></li>
+                      <li><a href="/ir/library/presentation/">決算説明会資料</a></li>
+                      <li><a href="/ir/library/movies/">決算説明会動画</a></li>
+                      <li><a href="/ir/library/security/">有価証券報告書</a></li>
+                      <li><a href="/ir/library/databook/">DATABOOK</a></li>
+                      <li><a href="/ir/library/annual_reports/">年次報告書</a></li>
+                    </ul>
+                  </li>
+                  <li class="has-sub-child"><a href="/ir/stock/">株式情報</a>
+                    <ul>
+                      <li><a href="/ir/stock/">株式情報</a></li>
+                      <li><a href="/ir/stock/memo/">株主メモ</a></li>
+                      <li><a href="/ir/stock/dividend/">配当政策と株主優待のご案内</a></li>
+                      <li><a href="/ir/stock/general_meeting_of_shareholders/">株主総会</a></li>
+                      <li><a href="/ir/stock/teikan/" target="_blank"><span class="ico-pdf">定款</span></a></li>
+                      <li><a href="http://stocks.finance.yahoo.co.jp/stocks/detail/?code=2685" target="_blank"><span class="ico-external">株価情報</span></a></li>
+                    </ul>
+                  </li>
+                  <li><a href="/ir/koukoku/">電子公告</a></li>
+                  <li class="has-sub-child"><a href="/ir/faq/">よくあるご質問</a>
+                    <ul>
+                      <li><a href="/ir/faq/">よくあるご質問</a></li>
+                      <li><a href="/ir/policy/">IRポリシー</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="/ir/mail/">IRメール配信</a></li>
+                </ul>
+              </li>
+              <li class="recruit has-child"><a href="/recruit/">採用情報</a>
+                <ul>
+                  <li class="pc-hide"><a href="/recruit/">採用情報一覧</a></li>
+                  <li><a href="https://adastria-recruit.net/jobfind-pc/" target="_blank">アルバイト採用</a></li>
+                  <li><a href="http://www.adastria.co.jp/recruit_2018/" target="_blank">新卒・中途採用</a></li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+
+    <div class="site-content">
+
+
+      <div class="top-keyvisual">
+        <ul class="slider">
+          <li><a href="http://www.adastria.co.jp/news/corporate/2017070301/" target="_self"><img src="/images/keyv_main_42.jpg" alt="WE MOVED! new office in shibuya" width="495" border="0"></a></li>
+<li><a href="http://www.dot-st.com/cp/lakole_lifefunction/" target="_blank"><img src="/images/keyv_main_37.jpg" alt="LAKOLE" width="495" border="0"></a></li>
+<li><a href="/recruit/" target="_self"><img src="/images/keyv_main_34.jpg" alt="RECRUIT INFORMATION 正社員・アルバイト募集中" width="495" border="0"></a></li>
+<li><a href="http://www.dot-st.com/globalwork/disp/CSfFeaturePage_002.jsp?dispNo=012001518&utm_source=dotst_GW&utm_medium=ectop&utm_campaign=gw_2016winter_seasonbook_20161014#!" target="_blank"><img src="/images/keyv_main_36.jpg" alt="[GLOBAL WORK] FEEL IT ～感じるものだけが、本物。" width="495" border="0"></a></li>
+<li><a href="http://www.dot-st.com/globalwork/disp/CSfFeaturePage_002.jsp?dispNo=012001533" target="_blank"><img src="/images/keyv_main_40.jpg" alt="TO THE RHYTHM ACTIVE" width="495" border="0"></a></li>
+<li><a href="http://www.dot-st.com/cp/nikoand/furniture_and_supply/" target="_blank"><img src="/images/keyv_main_33.jpg" alt="niko and... FURNITURE &amp; SUPPLY" width="495" border="0"></a></li>
+        </ul>
+      </div>
+
+      <div class="top-irnews">
+        <div class="mod-more">
+          <h3 class="h3c">IRニュース</h3>
+          <ul>
+            <li class="more"><a href="/ir/news/">MORE</a></li>
+            <li class="rss"><a href="/rss/ir.rss" target="_blank">RSS</a></li>
+          </ul>
+        </div>
+        <div class="mod-news-list-a">
+          <ul>
+<li><a href="/news/ir/2017080201/"><time>2017.08.02</time><span class="ico-arrow"><span class="ico-pdf">【売上速報】国内月次売上高前年比に関するお知らせ</span></span></a></li>
+<li><a href="/news/ir/2017070401/"><time>2017.07.04</time><span class="ico-arrow"><span class="ico-pdf">【売上速報】国内月次売上高前年比に関するお知らせ</span></span></a></li>
+<li><a href="/news/ir/2017063003/"><time>2017.06.30</time><span class="ico-arrow"><span class="ico-pdf">【解説つき】2018年２月期 第1四半期　決算補足資料を掲載しました</span></span></a></li>
+<li><a href="/news/ir/2017063002/"><time>2017.06.30</time><span class="ico-arrow"><span class="ico-pdf">2018年2月期　第1四半期　決算短信を掲載しました</span></span></a></li>
+          </ul>
+        </div>
+        <p class="button-more"><a href="/ir/news/"><span>一覧を見る</span></a></p>
+      </div>
+
+      <div class="top-newsrelease">
+        <div class="mod-more">
+          <h3 class="h3c">ニュースリリース</h3>
+          <ul>
+            <li class="more"><a href="/news/">MORE</a></li>
+            <li class="rss"><a href="/rss/news.rss" target="_blank">RSS</a></li>
+          </ul>
+        </div>
+        <div class="mod-news-list-b">
+          <ul>
+
+<li>
+<a href="/news/notice/2017081401/" target="_top">
+<dl>
+<dt class="thumbnail"><img src="/images/news/00002763/image.png" width="90" alt=""></dt>
+<dd class="date"><time>2017.08.14</time></dd>
+<dd class="category">重要なお知らせ</dd>
+
+
+<dd class="title"><span class="ico-">商品に関するお詫びとお知らせ</span></dd>
+</dl>
+</a>
+</li>
+<li>
+<a href="https://prtimes.jp/main/html/rd/p/000000544.000001304.html" target="_blank">
+<dl>
+<dt class="thumbnail"><img src="/images/news/00002762/サムネイル.png" width="90" alt=""></dt>
+<dd class="date"><time>2017.08.04</time></dd>
+
+<dd class="brand">ローリーズファーム</dd>
+<dd class="title"><span class="ico-">『GIRLS TUNE FES 2017 by LOWRYS FARM in SUMMER』イベントレポート</span></dd>
+</dl>
+</a>
+</li>
+<li>
+<a href="https://prtimes.jp/main/html/rd/p/000000541.000001304.html" target="_blank">
+<dl>
+<dt class="thumbnail"><img src="/images/news/00002760/サムネイル２.jpg" width="90" alt=""></dt>
+<dd class="date"><time>2017.07.25</time></dd>
+
+<dd class="brand">レプシィム</dd>
+<dd class="title"><span class="ico-">『LEPSIM(レプシィム)』心の表情のままに、シンプルに生きる女性を描く、CINEMA TRIBUTE BOOK「Simple is…」第三弾を発行</span></dd>
+</dl>
+</a>
+</li>
+<li>
+<a href="https://prtimes.jp/main/html/rd/p/000000542.000001304.html" target="_blank">
+<dl>
+<dt class="thumbnail"><img src="/images/news/00002759/サムネイル.jpg" width="90" alt=""></dt>
+<dd class="date"><time>2017.07.19</time></dd>
+
+<dd class="brand">ベイフロー</dd>
+<dd class="title"><span class="ico-">「BAYFLOW」が8月11日、代官山で海開き。〜ポップアップストア“DAIKANYAMA BEACH” をオープン〜</span></dd>
+</dl>
+</a>
+</li>          </ul>
+        </div>
+        <p class="button-more"><a href="/news/"><span>一覧を見る</span></a></p>
+      </div>
+
+      <div class="top-buttons">
+        <ul>
+          <li class="shop-search"><a href="/shop/">SHOP SEARCH 店舗検索</a></li>
+          <li class="recruit"><a href="/recruit/"><span class="jp">採用情報</span><span class="en">Recruit</span></a></li>
+          <li class="corporate"><a href="/aboutus/"><span class="jp">企業情報</span><span class="en">Company</span></a></li>
+          <li class="investor"><a href="/ir/"><span class="jp">IR情報</span><span class="en">Investor</span></a></li>
+          <li class="dotst"><a href="http://www.dot-st.com/" target="_blank">[.st] WEB STORE</a></li>
+        </ul>
+      </div>
+
+      <div class="top-brands-v2">
+        <ul class="top-brands-list" data-large-class-num="2">
+          <li class="grid-sizer"></li>
+          <li class="gutter-sizer"></li>
+
+          <li class="item GW">
+            <a href="/brands/global_work/">
+              <img src="/images/brand/17SS_GW_SUM_Corporate_W1000H1000_W622×H416_02-01.jpg" alt="">
+              <div class="overlay">
+                <span class="logo"><img src="/images/logo/logo_global_work.png" alt=""></span>
+                <span class="name">グローバルワーク</span>
+                <!-- <span class="concept">新しさのあるベーシックなテイストとシーズントレンドをミックスし、”あなた”自身に合った、良い質で買...</span> -->
+              </div>
+            </a>
+          </li>
+
+          <li class="item LF">
+            <a href="/brands/lowrys_farm/">
+              <img src="/images/brand/17SS_LF_hazakaiki_site_02-02 (1).jpg" alt="">
+              <div class="overlay">
+                <span class="logo"><img src="/images/logo/logo_lowrys_farm.png" alt=""></span>
+                <span class="name">ローリーズファーム</span>
+                <!-- <span class="concept">クオリティ＆リラックスをテーマに、普通の生活感覚を持った女性へ、飽きのこないベーシックアイテムと...</span> -->
+              </div>
+            </a>
+          </li>
+
+          <li class="item NK">
+            <a href="/brands/nikoand/">
+              <img src="/images/brand/niko_2017SS_AD_W1000_H1000px.jpg" alt="">
+              <div class="overlay">
+                <span class="logo"><img src="/images/logo/logo_nikoand.png" alt=""></span>
+                <span class="name">ニコアンド</span>
+                <!-- <span class="concept">人は、生まれてきたままでは何かたりない。niko and ...は、人や、くらしに[スタイル]を加えることで自...</span> -->
+              </div>
+            </a>
+          </li>
+
+          <li class="item SC">
+            <a href="/brands/studioclip/">
+              <img src="/images/brand/SC_summer_1000_1000.jpg" alt="">
+              <div class="overlay">
+                <span class="logo"><img src="/images/logo/logo_studioclip.png" alt=""></span>
+                <span class="name">スタディオクリップ</span>
+                <!-- <span class="concept">わざわざ足を運ぶというより、いつもの道の途中でふらっと立ち寄りたくなる。
+忙しさから少しだけ離れ...</span> -->
+              </div>
+            </a>
+          </li>
+
+          <li class="item LP">
+            <a href="/brands/lepsim/">
+              <img src="/images/brand/17SS_LP_KV_corporate-01 (1).jpg" alt="">
+              <div class="overlay">
+                <span class="logo"><img src="/images/logo/logo_lepsim.png" alt=""></span>
+                <span class="name">レプシィム</span>
+                <!-- <span class="concept">SIMPLEでありながら新しさを感じる。女性の日常に自然に溶け込む気取らないカジュアルスタイルを提案し...</span> -->
+              </div>
+            </a>
+          </li>
+
+          <li class="item JS">
+            <a href="/brands/jeanasis/">
+              <img src="/images/brand/17SS_JS_Corporate visual-01.jpg" alt="">
+              <div class="overlay">
+                <span class="logo"><img src="/images/logo/logo_jeanasis.png" alt=""></span>
+                <span class="name">ジーナシス</span>
+                <!-- <span class="concept">JEANASISはカルチャーとファッションを楽しむブランド。ぶれない強さの黒と、品のある白を軸に、シャー...</span> -->
+              </div>
+            </a>
+          </li>
+
+          <li class="item RB">
+            <a href="/brands/rageblue/">
+              <img src="/images/brand/17SS_RB_SUMMERKV_web_02-15.jpg" alt="">
+              <div class="overlay">
+                <span class="logo"><img src="/images/logo/logo_rageblue.png" alt=""></span>
+                <span class="name">レイジブルー</span>
+                <!-- <span class="concept">アメリカンカジュアルとヨーロピアントラディショナルを融合させ、素材とディテールにこだわり、その時...</span> -->
+              </div>
+            </a>
+          </li>
+
+          <li class="item HE">
+            <a href="/brands/heather/">
+              <img src="/images/brand/17SS_HE_autKV_web_HET5494-09.jpg" alt="">
+              <div class="overlay">
+                <span class="logo"><img src="/images/logo/logo_heather.png" alt=""></span>
+                <span class="name">ヘザー</span>
+                <!-- <span class="concept">いつまでも遊び心を忘れない“前向きな女の子”のためのブランド。ガーリッシュで程よくエッジのきいたア...</span> -->
+              </div>
+            </a>
+          </li>
+
+          <li class="item HA">
+            <a href="/brands/hare/">
+              <img src="/images/brand/17SS_HA_SUMMERKV_CO_01-01.jpg" alt="">
+              <div class="overlay">
+                <span class="logo"><img src="/images/logo/logo_hare.png" alt=""></span>
+                <span class="name">ハレ</span>
+                <!-- <span class="concept"><b >MENS</b>
+衣食住があるようにHAREではシロ／クロ／グレージュがある。生活において遊びや刺激が大...</span> -->
+              </div>
+            </a>
+          </li>
+
+          <li class="item BY">
+            <a href="/brands/barnyardstorm/">
+              <img src="/images/brand/17SS_BY_springKV_banner_01-03.jpg" alt="">
+              <div class="overlay">
+                <span class="logo"><img src="/images/logo/logo_barnyardstorm.png" alt=""></span>
+                <span class="name">バンヤードストーム</span>
+                <!-- <span class="concept">女性としてのスタイルが確立された「ハンサムウーマン」のためのデイリーカジュアルブランド。
+コンフ...</span> -->
+              </div>
+            </a>
+          </li>
+
+          <li class="item AP">
+            <a href="/brands/apart_by_lowrys/">
+              <img src="/images/brand/1000_1000.jpg" alt="">
+              <div class="overlay">
+                <span class="logo"><img src="/images/logo/logo_apart_by_lowrys.png" alt=""></span>
+                <span class="name">アパートバイローリーズ</span>
+                <!-- <span class="concept">シンプルな中にも程よいトレンドを盛り込み、大人のかわいらしさを持ち合わせたテイストで、成長する女...</span> -->
+              </div>
+            </a>
+          </li>
+
+          <li class="item BL">
+            <a href="/brands/babylone/">
+              <img src="/images/brand/bl_170817_1000_1000.jpg" alt="">
+              <div class="overlay">
+                <span class="logo"><img src="/images/logo/logo_babylone.png" alt=""></span>
+                <span class="name">バビロン</span>
+                <!-- <span class="concept">バビロンは、新しい価値観をファッションにおいて創り上げることを概念とし、ロンドン、パリ、ニューヨ...</span> -->
+              </div>
+            </a>
+          </li>
+
+          <li class="item RP">
+            <a href="/brands/repipi_armario/">
+              <img src="/images/brand/17SS_RP_Summer_Corporate_W1000H1000-02.jpg" alt="">
+              <div class="overlay">
+                <span class="logo"><img src="/images/logo/logo_repipi_armario.png" alt=""></span>
+                <span class="name">レピピアルマリオ</span>
+                <!-- <span class="concept">ちょっと背伸びをしたい女の子のためのティーンズブランド。トレンドを反映したアイテムとベーシックな...</span> -->
+              </div>
+            </a>
+          </li>
+
+          <li class="item BP">
+            <a href="/brands/bliss_point/">
+              <img src="/images/brand/17SS_BP_-corporate_web_WH1000_COT4118-01.jpg" alt="">
+              <div class="overlay">
+                <span class="logo"><img src="/images/logo/logo_bliss_point.png" alt=""></span>
+                <span class="name">ブリスポイント</span>
+                <!-- <span class="concept">私たち大人がファッションを楽しむためのアーバンリュクスなトレンドをミックスしたスタイルです。
+着...</span> -->
+              </div>
+            </a>
+          </li>
+
+          <li class="item AM">
+            <a href="/brands/andemiu/">
+              <img src="/images/brand/corporate site.jpg" alt="">
+              <div class="overlay">
+                <span class="logo"><img src="/images/logo/logo_andemiu.png" alt=""></span>
+                <span class="name">アンデミュウ</span>
+                <!-- <span class="concept">変化を恐れず自立した美しさを持つ女性たちへ、リアルなライフスタイルを提案する。</span> -->
+              </div>
+            </a>
+          </li>
+
+          <li class="item BF">
+            <a href="/brands/bayflow/">
+              <img src="/images/brand/bf_bnr_2017sc_1000.jpg" alt="">
+              <div class="overlay">
+                <span class="logo"><img src="/images/logo/logo_bayflow.png" alt=""></span>
+                <span class="name">ベイフロー</span>
+                <!-- <span class="concept">きもちのいい自然の風と、最先端のトレンドの風。
+そんなふたつの心地よさを感じられるような、健康的...</span> -->
+              </div>
+            </a>
+          </li>
+
+          <li class="item MP">
+            <a href="/brands/me_percent/">
+              <img src="/images/brand/pic_me_percent_6.jpg" alt="">
+              <div class="overlay">
+                <span class="logo"><img src="/images/logo/logo_me_percent.png" alt=""></span>
+                <span class="name">ミィパーセント</span>
+                <!-- <span class="concept">ポップでエッジのきいたデザイン。流行に敏感な女の子へ、日々変化する「今の私の気分」にふさわしい多...</span> -->
+              </div>
+            </a>
+          </li>
+
+          <li class="item PB">
+            <a href="/brands/pageboy/">
+              <img src="/images/brand/pb.jpg" alt="">
+              <div class="overlay">
+                <span class="logo"><img src="/images/logo/logo_pageboy.png" alt=""></span>
+                <span class="name">ページボーイ</span>
+                <!-- <span class="concept">特別なレギュラーブランド”というアイデンティティが創りだすハイカジュアル。
+「PAGEBOY」はトレンド...</span> -->
+              </div>
+            </a>
+          </li>
+
+          <li class="item MW">
+            <a href="/brands/mystywoman/">
+              <img src="/images/brand/17spring_mysty-woman.jpg" alt="">
+              <div class="overlay">
+                <span class="logo"><img src="/images/logo/logo_mystywoman.png" alt=""></span>
+                <span class="name">ミスティウーマン</span>
+                <!-- <span class="concept">凛とした透明感を大切にした優しいスタイル時代と共にリアルに変化を続けるベーシックカジュアルを基本...</span> -->
+              </div>
+            </a>
+          </li>
+
+          <li class="item LW">
+            <a href="/brands/laboratorywork/">
+              <img src="/images/brand/17spring_laboratorywork.jpg" alt="">
+              <div class="overlay">
+                <span class="logo"><img src="/images/logo/logo_laboratorywork.png" alt=""></span>
+                <span class="name">ラボラトリーワーク</span>
+                <!-- <span class="concept">ディティールに都会的な香りを感じさせる、30代女性をメインターゲットとした大人カジュアル。
+素材や...</span> -->
+              </div>
+            </a>
+          </li>
+
+          <li class="item LK">
+            <a href="/brands/lakole/">
+              <img src="/images/brand/17spring_LK_WH1000_1000.jpg" alt="">
+              <div class="overlay">
+                <span class="logo"><img src="/images/logo/logo_lakole.png" alt=""></span>
+                <span class="name">ラコレ</span>
+                <!-- <span class="concept">日常のちいさなストレスを軽減する「ライフ・ファンクション」を搭載。
+LAKOLEは「アレも、コレも、ラ...</span> -->
+              </div>
+            </a>
+          </li>
+
+          <li class="item VV">
+            <a href="/brands/velvet/">
+              <img src="/images/brand/img_velvet.jpg" alt="">
+              <div class="overlay">
+                <span class="logo"><img src="/images/logo/logo_velvet.png" alt=""></span>
+                <span class="name">ベルベットバイグラハムアンドスペンサー</span>
+                <!-- <span class="concept">Velvet by Graham and Spencerはモダンで洗練されたベーシックアイテムを男女向けに展開するブランド。1...</span> -->
+              </div>
+            </a>
+          </li>
+
+        </ul>
+      </div>
+
+    </div>
+    <footer class="site-footer">
+      <div class="inner">
+        <p class="pagetop"><a href="#top"><span>PAGE TOP</span></a></p>
+        <div class="links">
+          <ul class="site">
+            <li class="home"><a href="/">ホーム</a></li>
+            <li class="social"><a href="/social/">ソーシャルメディアポリシー</a></li>
+            <li class="privacy"><a href="/privacy/">プライバシーポリシー</a></li>
+            <li class="legal"><a href="/legal/">サイトのご利用にあたって</a></li>
+            <li class="contact"><a href="https://www.adastria.co.jp/contact/">お問い合わせ</a></li>
+          </ul>
+          <ul class="social">
+            <li class="facebook"><a href="https://www.facebook.com/recruit.adastria" target="_blank">Facebook</a></li>
+            <li class="twitter"><a href="javascript:window.open('https://twitter.com/share?text='+encodeURIComponent(document.title)+'&url='+location.href);">Twitter</a></li>
+          </ul>
+        </div>
+        <div class="sitemap">
+          <ul>
+            <li class="home"><a href="/">ホーム<span class="en">Home</span></a></li>
+            <li class="brands"><a href="/brands/" class="has-child">ブランド紹介<span class="en">Brands</span></a>
+              <div class="brands-inner">
+                <ul>
+<li><a href="/brands/global_work/">グローバルワーク</a></li>
+<li><a href="/brands/lowrys_farm/">ローリーズファーム</a></li>
+<li><a href="/brands/nikoand/">ニコアンド</a></li>
+<li><a href="/brands/studioclip/">スタディオクリップ</a></li>
+<li><a href="/brands/lepsim/">レプシィム</a></li>
+<li><a href="/brands/jeanasis/">ジーナシス</a></li>
+<li><a href="/brands/rageblue/">レイジブルー</a></li>
+<li><a href="/brands/heather/">ヘザー</a></li>
+</ul>
+<ul>
+<li><a href="/brands/hare/">ハレ</a></li>
+<li><a href="/brands/barnyardstorm/">バンヤードストーム</a></li>
+<li><a href="/brands/apart_by_lowrys/">アパートバイローリーズ</a></li>
+<li><a href="/brands/babylone/">バビロン</a></li>
+<li><a href="/brands/repipi_armario/">レピピアルマリオ</a></li>
+<li><a href="/brands/bliss_point/">ブリスポイント</a></li>
+<li><a href="/brands/andemiu/">アンデミュウ</a></li>
+<li><a href="/brands/bayflow/">ベイフロー</a></li>
+</ul>
+<ul>
+<li><a href="/brands/me_percent/">ミィパーセント</a></li>
+<li><a href="/brands/pageboy/">ページボーイ</a></li>
+<li><a href="/brands/mystywoman/">ミスティウーマン</a></li>
+<li><a href="/brands/laboratorywork/">ラボラトリーワーク</a></li>
+<li><a href="/brands/lakole/">ラコレ</a></li>
+<li><a href="/brands/velvet/">ベルベットバイグラハムアンドスペンサー</a></li>
+<li><a href="/brands/store/">ストアブランド</a></li>
+              </div>
+            </li>
+            <li class="aboutus"><a href="/aboutus/" class="has-child">企業情報<span class="en">Corporate Information</span></a>
+              <ul>
+                <li><a href="/aboutus/identity/">コーポレートアイデンティティ</a></li>
+                <li><a href="/aboutus/outline/#profile">会社概要</a></li>
+                <li><a href="/aboutus/outline/#history">会社沿革</a></li>
+                <li><a href="/aboutus/business/">ビジネスモデル・事業内容</a></li>
+                <li><a href="/aboutus/group/" class="has-sub-child">グループ企業</a>
+                <ul>
+                  <li><a href="/aboutus/group/">グループ企業一覧</a></li>
+                  <li><a href="http://alicia.co.jp/" target="_blank"><span class="ico-external">株式会社アリシア</span></a></li>
+                  <li><a href="/aboutus/group/adastria_asia/">Adastria Asia Co., Ltd.</a></li>
+                  <li><a href="/aboutus/group/adastria_logistics/">株式会社アダストリア・ロジスティクス</a></li>
+                  <li><a href="http://www.adastria-gs.co.jp/" target="_blank"><span class="ico-external">株式会社アダストリア・ゼネラルサポート</span></a></li>
+                </ul>
+                </li>
+                <li><a href="/aboutus/top_message/">トップメッセージ</a></li>
+              </ul>
+            </li>
+            <li class="csr"><a href="/aboutus/csr/subject/" class="has-sub-child">CSR</a><span class="en">Corporate Social Responsibility</span>
+              <ul>
+                <li><a href="/aboutus/csr/subject/">CSRの考え方</a></li>
+                <li><a href="/aboutus/csr/environment/">環境を守る</a></li>
+                <li><a href="/aboutus/csr/people/">人を輝かせる</a></li>
+                <li><a href="/aboutus/csr/communities/">地域に貢献する</a></li>
+              </ul>
+            </li>
+            <li class="ir"><a href="/ir/" class="has-child">IR情報<span class="en">Inverstor Relations</span></a>
+              <ul>
+                <li><a href="/ir/news/">IRニュース</a></li>
+                <li><a href="/ir/management/governance/" class="has-sub-child">経営方針</a>
+                  <ul>
+                    <li><a href="/ir/management/">トップメッセージ</a></li>
+                    <li><a href="/ir/management/governance/">コーポレート・ガバナンス</a></li>
+                    <li><a href="/ir/management/internal_control/">内部統制への取り組み</a></li>
+                    <li><a href="/ir/management/procure/">グループ調達方針</a></li>
+                    <li><a href="/ir/management/group_ethics_standards/">グループ倫理規準</a></li>
+                  </ul>
+                </li>
+                <li><a href="/ir/highlights/" class="has-sub-child">業績・財務</a>
+                  <ul>
+                    <li><a href="/ir/highlights/sales/">月次売上速報</a></li>
+                    <li><a href="/ir/highlights/">連結業績・財務ハイライト</a></li>
+                    <li><a href="/ir/highlights/quarterly/">四半期業績・財務ハイライト</a></li>
+                  </ul>
+                </li>
+                <li><a href="/ir/calendar/">IRカレンダー</a></li>
+                <li><a href="/ir/library/" class="has-sub-child">IRライブラリー</a>
+                  <ul>
+                    <li><a href="/ir/library/">決算短信</a></li>
+                    <li><a href="/ir/library/presentation/">決算説明会資料</a></li>
+                    <li><a href="/ir/library/movies/">決算説明会動画</a></li>
+                    <li><a href="/ir/library/security/">有価証券報告書</a></li>
+                    <li><a href="/ir/library/databook/">DATABOOK</a></li>
+                    <li><a href="/ir/library/annual_reports/">年次報告書</a></li>
+                  </ul>
+                </li>
+                <li><a href="/ir/stock/" class="has-sub-child">株式情報</a>
+                  <ul>
+                    <li><a href="/ir/stock/">株式情報</a></li>
+                    <li><a href="/ir/stock/memo/">株主メモ</a></li>
+                    <li><a href="/ir/stock/dividend/">配当政策と株主優待のご案内</a></li>
+                    <li><a href="/ir/stock/general_meeting_of_shareholders/">株主総会</a></li>
+                    <li><a href="/ir/stock/teikan/" target="_blank"><span class="ico-pdf">定款</span></a></li>
+                    <li><a href="http://stocks.finance.yahoo.co.jp/stocks/detail/?code=2685" target="_blank"><span class="ico-external">株価情報</span></a></li>
+                  </ul>
+                </li>
+                <li><a href="/ir/koukoku/">電子公告</a></li>
+                <li><a href="/ir/faq/" class="has-sub-child">よくあるご質問</a>
+                  <ul>
+                    <li><a href="/ir/faq/">よくあるご質問</a></li>
+                    <li><a href="/ir/policy/">IRポリシー</a></li>
+                  </ul>
+                </li>
+                <li><a href="/ir/mail/">IRメール配信</a></li>
+              </ul>
+            </li>
+            <li class="recruit"><a href="/recruit/" class="has-child">採用情報<span class="en">Recruit</span></a>
+              <!-- <ul>
+                <li><a href="https://adastria-recruit.net/jobfind-pc/" target="_blank">アルバイト採用</a></li>
+                <li><a href="http://www.adastria.co.jp/recruit_2018/" target="_blank">新卒・中途採用</a></li>
+                <li class="sp-hide">&nbsp;</li>
+              </ul> -->
+            </li>
+            <li class="shop"><a href="/shop/">店舗検索<span class="en">Shop Search</span></a></li>
+            <li class="news"><a href="/news/">ニュース<span class="en">News Release</span></a></li>
+            <li class="social"><a href="/social/">ソーシャルメディアポリシー</a></li>
+            <li class="privacy"><a href="/privacy/">プライバシーポリシー</a></li>
+            <li class="legal"><a href="/legal/">サイトのご利用にあたって</a></li>
+            <li class="contact"><a href="https://www.adastria.co.jp/contact/">お問い合わせ</a></li>
+          </ul>
+        </div>
+        <div class="information">
+          <p class="logo"><a href="/"><img src="/shared/images/logo2_f.png" width="26" height="49" alt="ADASTRIA"></a></p>
+          <dl>
+            <dt><span class="jp">株式会社アダストリア</span><span class="en">Adastria Co., Ltd.</span></dt>
+            <dd>〒150-8510 東京都渋谷区渋谷2丁目21番1号 渋谷ヒカリエ 27F</dd>
+          </dl>
+          <p class="copyright"><small>Copyright &copy; Adastria Co., Ltd. All rights reserved.</small></p>
+        </div>
+      </div>
+    </footer>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-42625461-1', 'adastria.co.jp');
+  ga('require', 'linkid', 'linkid.js');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+</script>
+  </div>
+</body>
+</html>

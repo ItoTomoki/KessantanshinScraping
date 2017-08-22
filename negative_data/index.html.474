@@ -1,0 +1,419 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" id="sixapart-standard">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS" />
+<title>サーラコーポレーション・トップページ</title>
+<link rel="stylesheet" type="text/css" href="http://www.sala.jp/navigation_template/common/css/import.css" media="all" />
+<link rel="stylesheet" href="css/colorbox.css" type="text/css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/JavaScript">
+<!--
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+function MM_showHideLayers() { //v9.0
+  var i,p,v,obj,args=MM_showHideLayers.arguments;
+  for (i=0; i<(args.length-2); i+=3) 
+  with (document) if (getElementById && ((obj=getElementById(args[i]))!=null)) { v=args[i+2];
+    if (obj.style) { obj=obj.style; v=(v=='show')?'visible':(v=='hide')?'hidden':v; }
+    obj.visibility=v; }
+}
+//-->
+</script>
+</head>
+<body onload="MM_preloadImages('image/b2_sys.gif','image/b2_ene.gif','image/b2_inf.gif','image/b2_car.gif','image/b2_ani.gif','image/b2_other.gif','top/image/ob_conc.gif','top/image/ob_biz.gif','top/image/ob_ir.gif','top/image/b2_greet.gif','top/image/b2_elect.gif','top/image/b12_kouken.gif','top/image/b2_com.gif','top/image/b2_info.gif','top/image/b2_recruit.gif','top/image/b2_personal.gif','top/image/b2_ask.gif','top/image/b2_ir.gif','image/b2_logi.gif','image/b2_hosp.gif')">
+<script type="text/javascript" language="JavaScript" src="http://www.sala.jp/id.js"></script> 
+<script type="text/javascript" language="JavaScript" src="http://www.sala.jp/navigation_template/common/js/header_top_sjis.js"></script> 
+<a class="single" href="./images/indexPopUpImage.jpg" title="&nbsp;"></a>
+<table width="800" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td valign="top"><!--////////////////////-->
+      
+      <table width="800" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td align="right"><a href="english/index.html"><img src="image/b_english_top.gif" alt="English" border="0"></a></td>
+        </tr>
+      </table>
+      <table width="800" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td width="365"><img src="top/image/img_top1.jpg" width="365" height="184" alt="持てるポテンシャルを最大限に発揮し、新たなビジネスを創造します。" /></td>
+          <td width="400"><table width="400" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="400"><img src="top/image/img_top2.jpg" width="400" height="98" /></td>
+              </tr>
+              <tr>
+                <td width="400"><table width="400" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td width="135"><a href="conce/concept.html" target="_self" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('roll','','top/image/ob_conc.gif',1)"><img src="top/image/b_conce.jpg" width="135" height="86" alt="コンセプト" border="0" /></a></td>
+                      <td width="140"><a href="tenkai/index.html" target="_self" onmouseout="MM_swapImgRestore();MM_showHideLayers('pop','','hide')" onmouseover="MM_swapImage('roll','','top/image/ob_biz.gif',1);MM_showHideLayers('pop','','show')"><img src="top/image/b_biz.jpg" width="140" height="86" alt="事業の展開" border="0" /></a></td>
+                      <td width="125"><a href="kessan/index.html" target="_self" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('roll','','top/image/ob_ir.gif',1)"><img src="top/image/b_ir.jpg" width="125" height="86" alt="IR情報" border="0" /></a></td>
+                    </tr>
+                  </table></td>
+              </tr>
+            </table></td>
+          <td width="35" background="top/image/img_top3.jpg"></td>
+        </tr>
+      </table>
+      <table width="800" border="0" cellspacing="0" cellpadding="0" background="top/image/ob_top.gif">
+        <tr>
+          <td width="52"><img src="top/image/ob_top.gif" width="52" height="97" /></td>
+          <td width="313"><img src="top/image/ob_def.gif" name="roll" width="313" height="97" id="roll" /></td>
+          <td width="415">　</td>
+        </tr>
+      </table>
+      <table width="800" border="0" cellpadding="0" cellspacing="0" background="top/image/ob_new.gif">
+        <tr>
+          <td width="130" align="right"><a href="greet/index.html" target="_self" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image91','','top/image/b2_greet.gif',1)"><img src="top/image/b_greet.gif" alt="ごあいさつ" name="Image91" width="77" height="25" border="0" id="Image91" /></a></td>
+          <td><a href="kessan/04.html#elect" target="_self" onmouseover="MM_swapImage('Image80','','top/image/b2_elect.gif',1)" onmouseout="MM_swapImgRestore()"><img src="top/image/b_elect.gif" alt="電子公告" name="Image80" width="74" height="25" border="0" id="Image80" style="margin-left:6px;" /></a><a href="kouken/index.html" target="_self" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image14','','top/image/b12_kouken.gif',1)"><img src="top/image/b1_kouken.gif" alt="社会貢献" name="Image14" width="69" height="25" border="0" id="Image14" /></a><a href="info/index.html" target="_self" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image101','','top/image/b2_com.gif',1)"><img src="top/image/b_com.gif" alt="会社概要" name="Image101" width="66" height="25" border="0" id="Image101" style="margin-left:3px;"/></a><a href="company/index.html" onmouseover="MM_swapImage('kakusya','','top/image/b2_info.gif',1)" onmouseout="MM_swapImgRestore()"><img src="top/image/b_info.gif" alt="各社 会社情報" name="kakusya" width="92" height="25" border="0" id="kakusya" style="margin-left:6px;" /></a><a href="kessan/index.html" onmouseover="MM_swapImage('ir','','top/image/b2_ir.gif',1)" onmouseout="MM_swapImgRestore()"><img src="top/image/b_ir.gif" alt="IR情報" name="ir" width="62" height="25" border="0" id="ir" style="margin-left:6px;"></a><a href="http://www.salagroup.jp/rec/new/index.html" target="_blank" onmouseover="MM_swapImage('Image71','','top/image/b2_recruit.gif',1)" onmouseout="MM_swapImgRestore()"><img src="top/image/b_recruit.gif" alt="採用情報" name="Image71" width="70" height="25" border="0" id="Image7" /></a><a href="personal/index.html" onmouseover="MM_swapImage('Image41','','top/image/b2_personal.gif',1)" onmouseout="MM_swapImgRestore()"></a><a href="mail/index.html" target="_self" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image13','','top/image/b2_ask.gif',1)"><img src="top/image/b_ask.gif" alt="お問い合わせ" name="Image13" width="90" height="25" border="0" id="Image13" style="margin-left:3px;"/></a></td>
+        </tr>
+      </table>
+      <table width="800" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td align="right"><img src="image/spacer.gif" width="1" height="15" alt="" /></td>
+        </tr>
+      </table>
+      <table width="800" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td width="50"><img height="25" src="image/spacer.gif" width="50" /></td>
+          <td width="520">
+<!----------コメント(Insert 16/07/01)--------------------------------------->
+<p style="width:520px; display:block; padding:10px 0 15px; line-height:1.4em;">
+<font size="2" color="#666666">平成28年7月1日、サーラグループは、<br>
+株式会社サーラコーポレーションを持株会社とする新しい体制に移行しました。<br>
+私たちは、地域の皆さまの様々なニーズにお応えし、<br>
+「生活にファインクオリティ」を実現します。</font>
+</p>
+<!-------------------------------------------------------------------------------->
+            <table width="380" border="0" cellspacing="0" cellpadding="0">
+              <tbody>
+                <tr> 
+                  <td align="left"><img src="top/image/b_new.gif" width="81" height="16" alt="What's New"></td>
+                </tr>
+                <tr>
+                  <td align="left" valign="top" style="line-height:1.0em; font-size:1.0em;">
+<!-----ここに新情報を挿入-------------> 
+
+<a href="kessan/kessan_data.html"> 
+<font size="2" color="#666666">▽ＩＲライブラリを追加（2017.07.31）</font></a><img border="0" src="image/new.gif" width="30" height="10"><br/>
+<font size="2" color="#666666">　・第16期中間株主通信</font><br />
+
+<a href="kessan/kessan_data.html"> 
+<font size="2" color="#666666">▽ＩＲライブラリを追加（2017.07.12）</font></a><img border="0" src="image/new.gif" width="30" height="10"><br/>
+<font size="2" color="#666666">　・第16期第2四半期報告書</font><br />
+
+<a href="kessan/kessan_data.html"> 
+<font size="2" color="#666666">▽ＩＲライブラリを追加（2017.07.06）</font></a><img border="0" src="image/new.gif" width="30" height="10"><br/>
+<font size="2" color="#666666">　・平成29年11月期第2四半期決算短信</font><br />
+<font size="2" color="#666666">　・平成29年11月期第2四半期決算発表参考資料</font><br />
+
+<a href="kessan/index.html">
+<font size="2" color="#666666">▽ニュースリリースを追加（2017.07.06）</font></a><img border="0" src="image/new.gif" width="30" height="10"><br/>
+<font size="2" color="#666666">　・2017年11月期　第2四半期の概況</font><br>
+<font size="2" color="#666666">　・剰余金の配当（中間配当）に関するお知らせ</font><br>
+<font size="2" color="#666666">　・第2四半期連結業績予想数値と実配数値との差異及び通期連結業績予想の修正並びに配当予想の修正に関するお知らせ</font><br>
+
+<a href="kessan/kessan_data.html"> 
+<font size="2" color="#666666">▽ＩＲライブラリを追加（2017.04.11）</font></a><br />
+<font size="2" color="#666666">　・第16期第1四半期報告書</font><br />
+
+<a href="kessan/kessan_data.html"> 
+<font size="2" color="#666666">▽ＩＲライブラリを追加（2017.04.07）</font></a><br />
+<font size="2" color="#666666">　・平成29年11月期第1四半期決算短信</font><br />
+
+<a href="kessan/kessan_data.html"> 
+<font size="2" color="#666666">▽ＩＲライブラリを追加（2017.02.20）</font></a><br />
+<font size="2" color="#666666">　・第15期有価証券報告書</font><br />
+
+<a href="kessan/kessan_data.html"> 
+<font size="2" color="#666666">▽ＩＲライブラリを追加（2017.02.17）</font></a><br />
+<font size="2" color="#666666">　・第15期株主通信</font><br />
+
+<a href="kessan/02.html">
+<font size="2" color="#666666">▽株主総会のお知らせを追加（2017.02.17）</font></a><br />
+<font size="2" color="#666666">　・第15回定時株主総会決議ご通知</font><br />
+
+<a href="kessan/02.html">
+<font size="2" color="#666666">▽株主総会のお知らせを追加（2017.02.03）</font></a><br />
+<font size="2" color="#666666">　・第15回定時株主総会招集ご通知　一部訂正のお知らせ</font><br />
+
+<a href="kessan/kessan_data.html"> 
+<font size="2" color="#666666">▽ＩＲライブラリを追加（2017.02.03）</font></a><br />
+<font size="2" color="#666666">　・平成28年11月期決算短信　一部訂正のお知らせ</font><br />
+
+<a href="kessan/02.html">
+<font size="2" color="#666666">▽株主総会のお知らせを追加（2017.01.25）</font></a><br />
+<font size="2" color="#666666">　・第15回定時株主総会招集ご通知</font><br />
+
+<a href="kessan/kessan_data.html"> 
+<font size="2" color="#666666">▽ＩＲライブラリを追加（2017.01.11）</font></a><br />
+<font size="2" color="#666666">　・平成28年11月期決算短信</font><br />
+<font size="2" color="#666666">　・平成28年11月期決算発表参考資料</font><br />
+
+<a href="kessan/index.html">
+<font size="2" color="#666666">▽ニュースリリースを追加（2017.01.11）</font></a><br>
+<font size="2" color="#666666">　・第３次サーラグループ中期経営計画策定に関するお知らせ</font><br>
+<font size="2" color="#666666">　・報告セグメントの変更に関するお知らせ</font><br>
+<font size="2" color="#666666">　・役員及び執行役員の異動に関するお知らせ</font><br>
+<font size="2" color="#666666">　・子会社の役員の異動に関するお知らせ</font><br>
+
+
+
+                    
+                    <!-----------半年前データは削除---------------------------------------------------------------------------
+<a href="kessan/index.html"> <font size="2" color="#666666">▽ニュースリリースを追加（2013.11.01）</font></a><br />
+<font size="2" color="#666666">　・ガステックサービス株式会社による、メニュー表示と異なった食材の</font><br />
+<font size="2" color="#666666">　　使用並びに適切でないメニュー表示があったことに関するお詫び</font><br />
+<font size="2" color="#666666">　・メニュー表示に関するお詫びとお知らせ（ガステックサービス㈱）</font><br />
+
+<a href="kessan/kessan_data.html"> <font size="2" color="#666666">▽ＩＲライブラリを追加（2014.07.08）</font></a><br />
+<font size="2" color="#666666">　・平成26年11月期第２四半期決算短信</font><br />
+<font size="2" color="#666666">　・平成26年11月期第２四半期決算発表参考資料</font><br />
+
+
+<a href="kessan/07.html"> <font size="2" color="#666666">▽ＩＲ説明会を追加（2013.07.16）</font></a><br />
+<font size="2" color="#666666">　・個人投資家向け説明会の開催に関するお知らせ</font><br />
+
+<a href="kessan/index.html"> <font size="2" color="#666666">▽ニュースリリースを追加（2013.06.24）</font></a><br />
+<font size="2" color="#666666">　・子会社の代表取締役の異動に関するお知らせ</font><br />
+
+<a href="kessan/kessan_data.html"> <font size="2" color="#666666">▽ＩＲライブラリを追加（2013.06.06）</font></a><br />
+<font size="2" color="#666666">　・第12期第1四半期報告書</font><br />
+
+
+<a href="kessan/kessan_data.html"> <font size="2" color="#666666">▽ＩＲライブラリを追加（2014.01.14）</font></a><br />
+<font size="2" color="#666666">　・平成25年11月期決算短信</font><br />
+<font size="2" color="#666666">　・平成25年11月期決算発表参考資料</font><br />
+
+<a href="kessan/index.html"> <font size="2" color="#666666">▽ニュースリリースを追加（2014.01.14）</font></a><br />
+<font size="2" color="#666666">　・子会社の役員人事に関するお知らせ</font><br />
+
+
+<a href="kessan/07.html"> <font size="2" color="#666666">▽ＩＲ説明会を追加（2014.01.27）</font></a><br />
+<font size="2" color="#666666">　・個人投資家向け説明会の開催予定</font><br />
+
+
+<a href="kessan/02.html"> <font size="2" color="#666666">▽株主総会のお知らせを追加（2014.01.30）</font></a><br />
+<font size="2" color="#666666">　・第12回定時株主総会招集ご通知</font><br />
+
+<a href="kessan/kessan_data.html"> <font size="2" color="#666666">▽ＩＲライブラリを追加（2014.02.24）</font></a><br />
+<font size="2" color="#666666">　・第12期報告書</font><br />
+<font size="2" color="#666666">　・第12期有価証券報告書</font><br />
+
+<a href="kessan/02.html"> <font size="2" color="#666666">▽株主総会決議通知を追加（2014.02.21）</font></a><br />
+<font size="2" color="#666666">　・第12回定時株主総会決議ご通知</font><br />
+
+
+<a href="kessan/07.html"> <font size="2" color="#666666">▽ＩＲ説明会を追加（2014.05.23）</font></a><br />
+<font size="2" color="#666666">　・個人投資家向け説明会の開催に関するお知らせ</font><br />
+
+<a href="kessan/kessan_data.html"> <font size="2" color="#666666">▽ＩＲライブラリを追加（2014.04.07）</font></a><br />
+<font size="2" color="#666666">　・平成26年11月期第１四半期決算短信</font><br />
+
+<a href="kessan/index.html"> <font size="2" color="#666666">▽ニュースリリースを追加（2014.04.07）</font></a><br />
+<font size="2" color="#666666">　・連結子会社の設立に関するお知らせ</font><br />
+
+
+<a href="kessan/index.html"> <font size="2" color="#666666">▽ニュースリリースを追加（2014.07.08）</font></a><br />
+<font size="2" color="#666666">　・連結業績予想との差異に関するお知らせ</font><br />
+
+<a href="kessan/kessan_data.html"> <font size="2" color="#666666">▽ＩＲライブラリを追加（2014.10.07）</font></a><br />
+<font size="2" color="#666666">　・平成26年11月期第３四半期決算短信</font><br />
+
+<a href="kessan/kessan_data.html"> <font size="2" color="#666666">▽ＩＲライブラリを追加（2014.08.05）</font></a><br />
+<font size="2" color="#666666">　・第13期事業報告書</font><br />
+<font size="2" color="#666666">　・第13期第2四半期報告書</font><br />
+
+<a href="kessan/kessan_data.html"> <font size="2" color="#666666">▽ＩＲライブラリを追加（2014.10.23）</font></a><br />
+<font size="2" color="#666666">　・第13期第3四半期報告書</font><br />
+
+<a href="kessan/kessan_data.html"> <font size="2" color="#666666">▽ＩＲライブラリを追加（2015.01.14）</font></a><br />
+<font size="2" color="#666666">　・平成26年11月期決算短信</font><br />
+<font size="2" color="#666666">　・平成26年11月期決算発表参考資料</font><br />
+
+<a href="kessan/index.html"> <font size="2" color="#666666">▽ニュースリリースを追加（2015.01.14）</font></a><br />
+<font size="2" color="#666666">　・役員の異動に関するお知らせ</font><br />
+<font size="2" color="#666666">　・子会社の役員の異動に関するお知らせ</font><br />
+
+<a href="kessan/02.html"> <font size="2" color="#666666">▽株主総会のお知らせを追加（2015.01.29）</font></a><br />
+<font size="2" color="#666666">　・第13回定時株主総会招集ご通知</font><br />
+
+<a href="kessan/kessan_data.html"> <font size="2" color="#666666">▽ＩＲライブラリを追加（2015.02.17）</font></a><br />
+<font size="2" color="#666666">　・第13期報告書</font><br />
+
+<a href="kessan/02.html"> <font size="2" color="#666666">▽株主総会決議通知を追加（2015.02.17）</font></a><br />
+<font size="2" color="#666666">　・第13回定時株主総会決議ご通知</font><br />
+
+<a href="kessan/kessan_data.html"> <font size="2" color="#666666">▽ＩＲライブラリを追加（2015.02.18）</font></a><br />
+<font size="2" color="#666666">　・第13期有価証券報告書</font><br />
+
+<a href="kessan/kessan_data.html"> <font size="2" color="#666666">▽ＩＲライブラリを追加（2015.02.18）</font></a><br />
+<font size="2" color="#666666">　・第13期有価証券報告書</font><br />
+
+<a href="kessan/kessan_data.html"> <font size="2" color="#666666">▽ＩＲライブラリを追加（2015.04.08）</font></a><br />
+<font size="2" color="#666666">　・平成27年11月期第１四半期決算短信</font><br />
+
+<a href="kessan/kessan_data.html">
+<font size="2" color="#666666">▽ＩＲライブラリを追加（2016.1.14）</font></a><br>
+<font size="2" color="#666666">　・平成27年11月期決算短信</font><br>
+<font size="2" color="#666666">　・平成27年11月期決算発表参考資料</font><br>
+
+<a href="kessan/index.html">
+<font size="2" color="#666666">▽ニュースリリースを追加（2016.1.14）</font></a><br>
+<font size="2" color="#666666">　・執行役員の異動に関するお知らせ</font><br>
+<font size="2" color="#666666">　・子会社の役員の異動に関するお知らせ</font><br>
+<font size="2" color="#666666">　・定款の一部変更に関するお知らせ</font><br>
+
+<a href="kessan/kessan_data.html">
+<font size="2" color="#666666">▽ＩＲライブラリを追加（2016.02.16）</font></a><br>
+<font size="2" color="#666666">　・第14期報告書</font><br>
+
+<a href="kessan/02.html">
+<font size="2" color="#666666">▽株主総会決議通知を追加（2016.02.16）</font></a><br>
+<font size="2" color="#666666">　・第14回定時株主総会決議ご通知</font><br>
+
+<a href="kessan/kessan_data.html">
+<font size="2" color="#666666">▽ＩＲライブラリを追加（2016.02.17）</font></a><br>
+<font size="2" color="#666666">　・第14期有価証券報告書</font><br>
+
+
+<a href="kessan/kessan_data.html"> 
+<font size="2" color="#666666">▽ＩＲライブラリを追加（2016.10.14）</font></a><br />
+<font size="2" color="#666666">　・第15期第3四半期報告書</font><br />
+
+<a href="kessan/index.html">
+<font size="2" color="#666666">▽ニュースリリースを追加（2016.10.13）</font></a><br>
+<font size="2" color="#666666">　・（訂正・数値データ訂正）「平成28年11月期第３四半期決算短信〔日本基準〕（連結）」の一部訂正について</font><br>
+
+<a href="kessan/kessan_data.html">
+<font size="2" color="#666666">▽ＩＲライブラリを追加（2016.10.04）</font></a><br />
+<font size="2" color="#666666">　・平成28年11月期第３四半期決算短信</font><br />
+
+<a href="kessan/index.html">
+<font size="2" color="#666666">▽ニュースリリースを追加（2016.10.04）</font></a><br>
+<font size="2" color="#666666">　・特別利益（負ののれん発生益）の計上に関するお知らせ</font><br>
+
+<a href="kessan/index.html">
+<font size="2" color="#666666">▽ニュースリリースを追加（2016.09.06）</font></a><br>
+<font size="2" color="#666666">　・上場廃止となった子会社（サーラ住宅株式会社）に関する決算開示について</font><br>
+
+<a href="kessan/index.html">
+<font size="2" color="#666666">▽ニュースリリースを追加（2016.08.12）</font></a><br />
+<font size="2" color="#666666">　・上場廃止となった子会社（中部瓦斯株式会社）に関する決算開示について</font><br>
+
+<a href="kessan/kessan_data.html">
+<font size="2" color="#666666">▽ＩＲライブラリを追加（2016.07.25）</font></a><br />
+<font size="2" color="#666666">　・第15期中間報告書</font><br>
+
+<a href="kessan/kessan_data.html"> <font size="2" color="#666666">▽ＩＲライブラリを追加（2016.07.07）</font></a><br />
+<font size="2" color="#666666">　・第15期第2四半期報告書</font><br />
+
+<a href="kessan/kessan_data.html"> <font size="2" color="#666666">▽ＩＲライブラリを追加（2016.07.06）</font></a><br />
+<font size="2" color="#666666">　・平成28年11月期第２四半期決算短信</font><br />
+<font size="2" color="#666666">　・平成28年11月期第２四半期決算発表参考資料</font><br />
+
+<a href="kessan/index.html">
+<font size="2" color="#666666">▽ニュースリリースを追加（2016.07.06）</font></a><br>
+<font size="2" color="#666666">　・報告セグメントの変更に関するお知らせ</font><br>
+<font size="2" color="#666666">　・第２四半期連結業績予想数値と実績数値との差異及び通期連結業績予想の修正並びに配当予想の修正に関するお知らせ</font><br>
+
+<a href="kessan/index.html">
+<font size="2" color="#666666">▽ニュースリリースを追加（2016.07.01）</font></a><br>
+<font size="2" color="#666666">　・株式会社サーラコーポレーションによる中部瓦斯株式会社及びサーラ住宅株式会社の完全子会社化に関する株式交換契約の効力発生に関するお知らせ</font><br>
+
+<a href="kessan/index.html">
+<font size="2" color="#666666">▽ニュースリリースを追加（2016.12.26）</font></a><br>
+<font size="2" color="#666666">　・連結業績予想の修正及び特別損失（減損損失）の計上に関するお知らせ</font><br>
+
+---------------------------------------------------------------------------------------></td>
+                </tr>
+              </tbody>
+            </table></td>
+          <td width="230" align="left" valign="top"><table width="200" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td height="5" align="right"><img height="1" src="image/spacer.gif" width="1" /></td>
+              </tr>
+              <tr>
+                <td align="right"><img height="1" src="image/spacer.gif" width="1" /><a href="http://www.salaclub.jp" target="_blank"><img height="33" alt="サーラクラブ" src="image/banner.gif" width="148" border="0" /></a></td>
+              </tr>
+              <tr>
+                <td height="5" align="right"><img height="1" src="image/spacer.gif" width="1" /></td>
+              </tr>
+              <tr>
+                <td height="5" align="right"><img height="1" src="image/spacer.gif" width="1" /></td>
+              </tr>
+              <tr>
+                <td align="right"><a href="http://www.macromedia.com/jp/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash&amp;Lang=Japanese" target="_blank"><img src="image/get_flash_player_1.gif" alt="FLASH PLAYER" width="88" height="31" border="0" /></a></td>
+              </tr>
+            </table></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td valign="middle" height="90"></td>
+          <td align="right" valign="top"><font size="2">No.</font><img src="cgi-bin/access.cgi?5"><img src="cgi-bin/access.cgi?4"><img src="cgi-bin/access.cgi?3"><img src="cgi-bin/access.cgi?2"><img src="cgi-bin/access.cgi?1"></td>
+        </tr>
+      </table>
+      
+      <!--////////////////////--></td>
+  </tr>
+</table>
+<script type="text/javascript" language="JavaScript" src="http://www.sala.jp/navigation_template/common/js/footer_sjis01.js"></script> 
+<!-- フッターエリア　ここから  --><!-- #BeginLibraryItem "/Library/footer_txt.lbi" -->
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="17" align="left"><font size="2"> <a href="http://www.sala.jp/personal/index.html"><img src="http://www.sala.jp/navigation_template/common/images/b_privacy.gif" width="163" height="17" alt="個人情報の取り扱いについて" border="0" /></a> <a href="site/index.html"><img src="http://www.sala.jp/navigation_template/common/images/b_sitemap.gif" width="81" height="17" alt="サイトマップ" border="0" /></a><a href="#" class="sala-link"></a></font></td>
+  </tr>
+</table>
+<!-- #EndLibraryItem --><!-- フッターエリア　ここまで  --> 
+<script type="text/javascript" language="JavaScript" src="http://www.sala.jp/navigation_template/common/js/footer_sjis02.js"></script>
+<div id="pop" style="position:absolute; left:531px; top:234px; width:180; height:105px; z-index:1; visibility: hidden">
+  <table width="180" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td><a href="tenkai/index.html" target="_self" onmouseout="MM_showHideLayers('pop','','hide');MM_swapImgRestore()" onmouseover="MM_showHideLayers('pop','','show');MM_swapImage('Image1','','image/b2_sys.gif',1)"><img src="image/b_sys.gif" alt="事業展開システム" name="Image1" width="180" height="19" border="0" id="Image1" /></a></td>
+    </tr>
+    <tr>
+      <td><a href="bis09/index.html" target="_self" onmouseout="MM_showHideLayers('pop','','hide');MM_swapImgRestore()" onmouseover="MM_showHideLayers('pop','','show');MM_swapImage('Image11','','image/b2_gas.gif',1)"><img src="image/b_gas.gif" alt="ガス&amp;パワー" name="Image11" width="180" height="18" border="0" id="Image11" /></a></td>
+    </tr>
+    <tr>
+      <td><a href="bis01/index.html" target="_self" onmouseout="MM_showHideLayers('pop','','hide');MM_swapImgRestore()" onmouseover="MM_showHideLayers('pop','','show');MM_swapImage('Image2','','image/b2_ene.gif',1)"><img src="image/b_ene.gif" alt="エネルギーサプライ&amp;ソリューション" name="Image2" width="180" height="18" border="0" id="Image2" /></a></td>
+    </tr>
+    <tr>
+      <td><a href="bis02/index.html" target="_self" onmouseout="MM_showHideLayers('pop','','hide');MM_swapImgRestore()" onmouseover="MM_showHideLayers('pop','','show');MM_swapImage('Image3','','image/b2_inf.gif',1)"><img src="image/b_inf.gif" alt="エンジニアリング&amp;メンテナンス" name="Image3" width="180" height="19" border="0" id="Image3" /></a></td>
+    </tr>
+    <tr>
+      <td><a href="bis10/index.html" target="_self" onmouseout="MM_showHideLayers('pop','','hide');MM_swapImgRestore()" onmouseover="MM_showHideLayers('pop','','show');MM_swapImage('Image10','','image/b2_hous.gif',1)"><img src="image/b_hous.gif" alt="ハウジング" name="Image10" width="180" height="19" border="0" id="Image10" /></a></td>
+    </tr>
+    <tr>
+      <td><a href="bis04/index.html" target="_self" onmouseout="MM_showHideLayers('pop','','hide');MM_swapImgRestore()" onmouseover="MM_showHideLayers('pop','','show');MM_swapImage('Image5','','image/b2_car.gif',1)"><img src="image/b_car.gif" alt="カーライフサポート" name="Image5" width="180" height="20" border="0" id="Image5" /></a></td>
+    </tr>
+    <tr>
+      <td><a href="bis05/index.html" target="_self" onmouseout="MM_showHideLayers('pop','','hide');MM_swapImgRestore()" onmouseover="MM_showHideLayers('pop','','show');MM_swapImage('Image6','','image/b2_ani.gif',1)"><img src="image/b_ani.gif" alt="アニマルヘルスケア" name="Image6" width="180" height="19" border="0" id="Image6" /></a></td>
+    </tr>
+    <tr>
+      <td><a href="bis08/index.html" target="_self" onmouseout="MM_showHideLayers('pop','','hide');MM_swapImgRestore()" onmouseover="MM_showHideLayers('pop','','show');MM_swapImage('Image9','','image/b2_hosp.gif',1)"><img src="image/b_hosp.gif" alt="ホスピタリティ" name="Image9" width="180" height="19" border="0" id="Image9" /></a></td>
+    </tr>
+    <tr>
+      <td><a href="bis06/index.html" target="_self" onmouseout="MM_showHideLayers('pop','','hide');MM_swapImgRestore()" onmouseover="MM_showHideLayers('pop','','show');MM_swapImage('Image8','','image/b2_other.gif',1)"><img src="image/b_other.gif" alt="その他の事業" name="Image8" width="180" height="17" border="0" id="Image8" /></a></td>
+    </tr>
+  </table>
+</div>
+</body>
+</html>

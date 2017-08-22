@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MAGASEEK Corporation | マガシーク株式会社</title>
+<meta name="keywords" content="MAGASEEK,マガシーク,マガシーク株式会社,MAGASEEK Corporation">
+<meta name="description" content="ファッション雑誌に掲載された商品などをインターネットで購入できるファッションEコマースサイト運営を行うマガシークのコーポレートサイトです。">
+<link rel="shortcut icon" href="/wordpress/wp-content/themes/magaseek/favicon.ico">
+<meta property="og:title" content="MAGASEEK Corporation | マガシーク株式会社">
+<meta property="og:type" content="website">
+<meta property="og:url" content="http://www.magaseek.co.jp/">
+<meta property="og:image" content="http://www.magaseek.co.jp/wordpress/wp-content/themes/magaseek/images/top/mv_01.jpg">
+<meta property="og:site_name" content="MAGASEEK Corporation | マガシーク株式会社">
+<meta property="og:description" content="ファッション雑誌に掲載された商品などをインターネットで購入できるファッションEコマースサイト運営を行うマガシークのコーポレートサイトです。">
+<link rel="stylesheet" href="/wordpress/wp-content/themes/magaseek/style.css">
+<link rel="stylesheet" href="/wordpress/wp-content/themes/magaseek/css/top.css">
+<script src="/wordpress/wp-content/themes/magaseek/js/jquery-1.10.1.min.js"></script>
+<script src="/wordpress/wp-content/themes/magaseek/js/footerFixed.js"></script>
+<script src="/wordpress/wp-content/themes/magaseek/js/common.js"></script>
+<!--[if lt IE 9]>
+<script src="/wordpress/wp-content/themes/magaseek/js/html5shiv.js"></script>
+<![endif]-->
+<!-- Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-45247944-1', 'magaseek.co.jp');
+  ga('send', 'pageview');
+
+</script>
+<!-- Google Analytics End -->
+</head>
+<body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.4";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div id="content_base">
+	<header id="header" class="clearfix">
+		<div class="top_area">
+			<p><a href="/"><img src="/wordpress/wp-content/themes/magaseek/images/common/logo.png" width="125" height="15" alt="MAGASEEK" class="img_a"><img src="/wordpress/wp-content/themes/magaseek/images/common/logo_sp.png" width="91" alt="MAGASEEK" class="img_b"></a></p>
+			<nav class="main">
+				<ul>
+					<li class="li_left"><a href="/message/"><span><img src="/wordpress/wp-content/themes/magaseek/images/common/nv_01.png" width="61" height="12" alt="メッセージ" class="img_a"><img src="/wordpress/wp-content/themes/magaseek/images/common/nv_01_sp.png" width="44" alt="メッセージ" class="img_b"></span></a></li>
+					<li><a href="/member/"><span><img src="/wordpress/wp-content/themes/magaseek/images/common/nv_02.png" width="54" height="13" alt="社員紹介" class="img_a"><img src="/wordpress/wp-content/themes/magaseek/images/common/nv_02_sp.png" width="39" alt="社員紹介" class="img_b"></span></a></li>
+					<li><a href="/news/"><span><img src="/wordpress/wp-content/themes/magaseek/images/common/nv_03.png" width="69" height="12" alt="プレスルーム" class="img_a"><img src="/wordpress/wp-content/themes/magaseek/images/common/nv_03_sp.png" width="50" alt="プレスルーム" class="img_b"></span></a></li>
+					<li class="bdr">&nbsp;</li>
+					<li class="li_left"><a href="/company/"><span><img src="/wordpress/wp-content/themes/magaseek/images/common/nv_04.png" width="52" height="12" alt="会社情報" class="img_a"><img src="/wordpress/wp-content/themes/magaseek/images/common/nv_04_sp.png" width="39" alt="会社情報" class="img_b"></span></a></li>
+					<li><a href="/service/"><span><img src="/wordpress/wp-content/themes/magaseek/images/common/nv_05.png" width="50" height="12" alt="事業内容" class="img_a"><img src="/wordpress/wp-content/themes/magaseek/images/common/nv_05_sp.png" width="37" alt="事業内容" class="img_b"></span></a></li>
+					<li><a href="/recruit/"><span><img src="/wordpress/wp-content/themes/magaseek/images/common/nv_06.png" width="52" height="12" alt="採用情報" class="img_a"><img src="/wordpress/wp-content/themes/magaseek/images/common/nv_06_sp.png" width="38" alt="採用情報" class="img_b"></span></a></li>
+				</ul>
+			</nav>
+		</div>
+		<nav class="social">
+			<ul>
+				<li><a href="http://www.facebook.com/magaseek" target="_blank"><img src="/wordpress/wp-content/themes/magaseek/images/common/social_bt_01.png" width="24" height="24" alt="" class="imgover"></a></li>
+				<li><a href="https://twitter.com/#!/magaseek_jp" target="_blank"><img src="/wordpress/wp-content/themes/magaseek/images/common/social_bt_02.png" width="24" height="24" alt="" class="imgover"></a></li>
+							</ul>
+		</nav>
+	</header>
+	<!-- /#header -->
+<script src="/wordpress/wp-content/themes/magaseek/js/responsiveslides.min.js"></script>
+<script type="text/javascript">
+<!--
+$(function() {
+	$("#mv ul").responsiveSlides({
+		speed: 500,
+		timeout: 4000,
+		pause: true,
+		nav: true,
+		prevText: "",
+		nextText: ""
+	});
+});
+//-->
+</script>
+
+	<div id="content">
+		<div id="mv">
+			<ul>
+				<li><img src="/wordpress/wp-content/themes/magaseek/images/top/mv_01.jpg" width="920" height="340" alt=""></li>
+				<li><a href="/member/"><img src="/wordpress/wp-content/themes/magaseek/images/top/mv_02.jpg" width="920" height="340" alt="" class="imgover"></a></li>
+				<li><a href="/message/"><img src="/wordpress/wp-content/themes/magaseek/images/top/mv_03.jpg" width="920" height="340" alt="" class="imgover"></a></li>
+			</ul>
+		</div>
+		<!-- /#mv -->	
+		<div class="content_l">
+			<div class="main">
+				<div class="box">
+					<p class="ph"><a href="/message/"><img src="/wordpress/wp-content/themes/magaseek/images/top/main_ph_01.jpg" width="200" height="200" alt="メッセージ" class="img_a imgover"><img src="/wordpress/wp-content/themes/magaseek/images/top/main_ph_01_sp.jpg" width="275" height="275" alt="メッセージ" class="img_b imgover"></a></p>
+					<p><a href="/message/"><img src="/wordpress/wp-content/themes/magaseek/images/top/main_tit_01.png" width="200" height="41" alt="メッセージ" class="img_a imgover"><img src="/wordpress/wp-content/themes/magaseek/images/top/main_tit_01_sp.png" width="137" alt="メッセージ" class="img_b imgover"></a></p>
+					<p class="tx">「明日が楽しくなる」サイトを目指します。</p>
+				</div>
+				<!-- /message -->
+				<div class="box">
+					<p class="ph"><a href="/member/"><img src="/wordpress/wp-content/themes/magaseek/images/top/main_ph_02.jpg" width="200" height="200" alt="社員紹介" class="img_a imgover"><img src="/wordpress/wp-content/themes/magaseek/images/top/main_ph_02_sp.jpg" width="275" height="275" alt="社員紹介" class="img_b imgover"></a></p>
+					<p><a href="/member/"><img src="/wordpress/wp-content/themes/magaseek/images/top/main_tit_02.png" width="200" height="41" alt="社員紹介" class="img_a imgover"><img src="/wordpress/wp-content/themes/magaseek/images/top/main_tit_02_sp.png" width="137" alt="社員紹介" class="img_b imgover"></a></p>
+										<p class="tx">活気溢れる現場の声をお届けします。
+											<br><span class="blue">2015/04/09 更新</span></p>
+									</div>
+				<!-- /member -->
+				<div class="box">
+					<p class="ph"><a href="/news/"><img src="/wordpress/wp-content/themes/magaseek/images/top/main_ph_03.jpg" width="200" height="200" alt="プレスルーム" class="img_a imgover"><img src="/wordpress/wp-content/themes/magaseek/images/top/main_ph_03_sp.jpg" width="275" height="275" alt="プレスルーム" class="img_b imgover"></a></p>
+					<p><a href="/news/"><img src="/wordpress/wp-content/themes/magaseek/images/top/main_tit_03.png" width="200" height="41" alt="プレスルーム" class="img_a imgover"><img src="/wordpress/wp-content/themes/magaseek/images/top/main_tit_03_sp.png" width="137" alt="プレスルーム" class="img_b imgover"></a></p>
+										<p class="tx">ニュース＆メディア掲載情報はこちらです。
+											<br><span class="blue">2017/07/21 更新</span>
+										</p>
+				</div>
+				<!-- /news -->
+				<div class="box">
+					<p class="ph"><a href="/company/"><img src="/wordpress/wp-content/themes/magaseek/images/top/main_ph_04.jpg" width="200" height="200" alt="会社情報" class="img_a imgover"><img src="/wordpress/wp-content/themes/magaseek/images/top/main_ph_04_sp.jpg" width="275" height="275" alt="会社情報" class="img_b imgover"></a></p>
+					<p><a href="/company/"><img src="/wordpress/wp-content/themes/magaseek/images/top/main_tit_04.png" width="200" height="41" alt="会社情報" class="img_a imgover"><img src="/wordpress/wp-content/themes/magaseek/images/top/main_tit_04_sp.png" width="137" alt="会社情報" class="img_b imgover"></a></p>
+					<p class="tx">概要やアクセスマップはこちらです。</p>
+				</div>
+				<!-- /company -->
+				<div class="box">
+					<p class="ph"><a href="/service/"><img src="/wordpress/wp-content/themes/magaseek/images/top/main_ph_05.jpg" width="200" height="200" alt="事業内容" class="img_a imgover"><img src="/wordpress/wp-content/themes/magaseek/images/top/main_ph_05_sp.jpg" width="275" height="275" alt="事業内容" class="img_b imgover"></a></p>
+					<p><a href="/service/"><img src="/wordpress/wp-content/themes/magaseek/images/top/main_tit_05.png" width="200" height="41" alt="事業内容" class="img_a imgover"><img src="/wordpress/wp-content/themes/magaseek/images/top/main_tit_05_sp.png" width="137" alt="事業内容" class="img_b imgover"></a></p>
+					<p class="tx">当社が運営するサイトをご紹介します。</p>
+				</div>
+				<!-- /service -->
+				<div class="box">
+					<p class="ph"><a href="/recruit/"><img src="/wordpress/wp-content/themes/magaseek/images/top/main_ph_06.jpg" width="200" height="200" alt="採用情報" class="img_a imgover"><img src="/wordpress/wp-content/themes/magaseek/images/top/main_ph_06_sp.jpg" width="275" height="275" alt="採用情報" class="img_b imgover"></a></p>
+					<p><a href="/recruit/"><img src="/wordpress/wp-content/themes/magaseek/images/top/main_tit_06.png" width="200" height="41" alt="採用情報" class="img_a imgover"><img src="/wordpress/wp-content/themes/magaseek/images/top/main_tit_06_sp.png" width="137" alt="採用情報" class="img_b imgover"></a></p>
+										<p class="tx">新卒、アルバイト採用情報はこちらです。
+											<br><span class="blue">2016/08/08 更新</span>
+										</p>
+				</div>
+				<!-- /recruit -->
+			</div>
+			<!-- /.main -->
+			<span class="clear">&nbsp;</span>
+			<div class="social">
+				<div class="tit_area clearfix">
+					<p class="left"><img src="/wordpress/wp-content/themes/magaseek/images/top/social_tit.png" width="187" height="12" alt="MAGASEEKのソーシャルメディア"></p>
+					<p class="right"><a href="/social/"><img src="/wordpress/wp-content/themes/magaseek/images/top/social_bt.png" width="133" height="15" alt="コミュニティガイドライン" class="imgover"></a></p>
+				</div>
+				<p class="tit_area_b"><img src="/wordpress/wp-content/themes/magaseek/images/top/social_tit_b.png" width="10" height="8" alt=""></p>
+				<div class="box">
+					<p class="tit"><img src="/wordpress/wp-content/themes/magaseek/images/top/social_tit_facebook.png" width="62" height="11" alt="Facebook"></p>
+					<div class="tl">
+						<div class="fb-page" data-href="https://www.facebook.com/magaseek" data-width="320" data-height="310" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/magaseek"><a href="https://www.facebook.com/magaseek">マガシーク</a></blockquote></div></div>
+					</div>
+					<div class="tl">
+						<div class="fb-page" data-href="https://www.facebook.com/outletpeak" data-width="320" data-height="310" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/outletpeak"><a href="https://www.facebook.com/outletpeak">アウトレットピーク</a></blockquote></div></div>
+					</div>
+				</div>
+				<div class="box box_r">
+					<p class="tit"><img src="/wordpress/wp-content/themes/magaseek/images/top/social_tit_twitter.png" width="49" height="11" alt="Twitter"></p>
+					<div class="tl">
+						<a class="twitter-timeline" href="https://twitter.com/magaseek_jp" data-widget-id="370160845369516032" width="320" data-chrome="nofooter">@magaseek_jp からのツイート</a>
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+					</div>
+					<div class="tl">
+						<a class="twitter-timeline" href="https://twitter.com/outletpeakcom" data-widget-id="370165663077134336" width="320" data-chrome="nofooter">@outletpeakcom からのツイート</a>
+	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+					</div>
+				</div>
+			</div>
+			<!-- /.social -->
+		</div>
+		<!-- /.content_l -->
+		<div class="content_r">
+			<div class="box_area">
+				<div class="tit_area clearfix">
+					<p class="tit"><img src="/wordpress/wp-content/themes/magaseek/images/top/news_tit.png" width="91" height="21" alt="ニュースリリース"></p>
+					<p class="bt"><a href="/news/"><img src="/wordpress/wp-content/themes/magaseek/images/top/bt_list.png" width="39" height="19" alt="一覧" class="imgover"></a></p>
+				</div>
+												<dl>
+					<dt>2017/07/21</dt>
+					<dd><a href="http://www.magaseek.co.jp/news/1846/">【マガシーク、ベクトルとの戦略的業務提携により、古着市場に参入】 ベクトルが買取・査定した古着をマガシークが販売 新サービス「USED PEAK」 2017年7月21日(金)OPEN</a></dd>
+				</dl>
+								<dl>
+					<dt>2017/06/27</dt>
+					<dd><a href="http://www.magaseek.co.jp/news/1836/">サン・トロペの公式通販サイト運営を開始 新作商品からアウトレット商品まで揃うシューズ、バッグの専門ECを構築 ～マガシーク倉庫（magaco）に販売在庫を集約～</a></dd>
+				</dl>
+								<dl>
+					<dt>2017/05/30</dt>
+					<dd><a href="http://www.magaseek.co.jp/news/1807/">ベクトルとマガシーク、買取と販売において戦略的業務提携を締結 リサイクル業界で日本初の協業ビジネスモデルを構築 ～マガシーク会員への古着買取サービスと両社各ECサイトで古着販売を開始～</a></dd>
+				</dl>
+							</div>
+			<!-- /news -->
+			<div class="box_area">
+				<div class="tit_area clearfix">
+					<p class="tit"><img src="/wordpress/wp-content/themes/magaseek/images/top/media_tit.png" width="95" height="23" alt="メディア掲載情報"></p>
+					<p class="bt"><a href="/media/"><img src="/wordpress/wp-content/themes/magaseek/images/top/bt_list.png" width="39" height="19" alt="一覧" class="imgover"></a></p>
+				</div>
+																<dl>
+					<dt>2017/06/22</dt>
+					<dd>
+												【日経新聞】宅配クライシス　私の意見～に弊社社長井上のインタビューが掲載されました											</dd>
+				</dl>
+												<dl>
+					<dt>2017/06/22</dt>
+					<dd>
+												【通販新聞】弊社社長　井上のインタビュー記事が掲載されました（下）											</dd>
+				</dl>
+												<dl>
+					<dt>2017/06/15</dt>
+					<dd>
+												【通販新聞】弊社社長　井上のインタビュー記事が掲載されました（上）											</dd>
+				</dl>
+							</div>
+			<!-- /media -->
+									<div class="box_area">
+				<div class="tit_area clearfix">
+					<p class="tit"><img src="/wordpress/wp-content/themes/magaseek/images/top/information_tit.png" width="58" height="23" alt="お知らせ"></p>
+					<p class="bt"><a href="/information/"><img src="/wordpress/wp-content/themes/magaseek/images/top/bt_list.png" width="39" height="19" alt="一覧" class="imgover"></a></p>
+				</div>
+					
+				<dl>
+					<dt>2017/07/05</dt>
+										<dd>【講演】弊社社員の藤本がAWS Solution Days 2017第 2 回 Aurora 事例祭りに登壇しました</dd>
+									</dl>
+					
+				<dl>
+					<dt>2016/09/15</dt>
+										<dd><a href="http://www.magaseek.co.jp/information/1683/">【講演】弊社社員の嘉松がデータ解析基盤セミナーに登壇しました</a></dd>
+									</dl>
+					
+				<dl>
+					<dt>2016/09/07</dt>
+										<dd><a href="http://www.magaseek.co.jp/information/1678/">【講演】弊社社員の嘉松がMicrosoft Foresight に登壇しました</a></dd>
+									</dl>
+							</div>
+			<!-- /information -->
+						<div class="management">
+				<p><img src="/wordpress/wp-content/themes/magaseek/images/top/management_tit.png" width="59" height="12" alt="運営サイト"><span>運営サイト</span></p>
+				<ul>
+					<li><a href="http://www.magaseek.com/" target="_blank"><img src="/wordpress/wp-content/themes/magaseek/images/top/management_bnr_magaseek.png" width="220" height="80" alt="MAGASEEK ファッション通販サイト マガシーク" class="img_a imgover"><img src="/wordpress/wp-content/themes/magaseek/images/top/management_bnr_magaseek_sp.png" width="300" alt="MAGASEEK ファッション通販サイト マガシーク" class="img_b imgover"></a></li>
+					<li><a href="http://www.outletpeak.com/" target="_blank"><img src="/wordpress/wp-content/themes/magaseek/images/top/management_bnr_outletpeak.png" width="220" height="80" alt="OUTLET PEAK アウトレット通販サイト アウトレットピーク" class="img_a imgover"><img src="/wordpress/wp-content/themes/magaseek/images/top/management_bnr_outletpeak_sp.png" width="300" alt="OUTLET PEAK アウトレット通販サイト アウトレットピーク" class="img_b imgover"></a></li>
+					<li><a href="http://fashion.dmkt-sp.jp/" target="_blank"><img src="/wordpress/wp-content/themes/magaseek/images/top/management_bnr_dfashion.png" width="220" height="80" alt="d fashion ドコモと共同運営のファッション通販サイト" class="img_a imgover"><img src="/wordpress/wp-content/themes/magaseek/images/top/management_bnr_dfashion_sp.png" width="300" alt="d fashion ドコモと共同運営のファッション通販サイト" class="img_b imgover"></a></li>
+				</ul>
+			</div>
+			<!-- /.management -->
+		</div>
+		<!-- /.content_r -->
+		<span class="clear">&nbsp;</span>
+		<div class="social_sp">
+			<p>MAGASEEKのソーシャルメディア</p>
+			<div class="box"><a href="http://www.facebook.com/magaseek" target="_blank" class="fb">MAGASEEK</a></div>
+			<div class="box box_r"><a href="http://www.facebook.com/outletpeak" target="_blank" class="fb">OUTLET PEAK</a></div>
+			<div class="box"><a href="https://twitter.com/#!/magaseek_jp" target="_blank" class="tw">MAGASEEK</a></div>
+			<div class="box box_r"><a href="https://twitter.com/#!/outletpeakcom" class="tw">OUTLET PEAK</a></div>
+		</div>
+		<!-- /.social_sp -->
+		<span class="clear">&nbsp;</span>
+	</div>
+	<!-- /#content -->
+
+	<p id="pagetop"><a href="#content_base"><img src="/wordpress/wp-content/themes/magaseek/images/common/bt_pagetop.png" width="64" height="13" alt="PAGE TOP" class="img_a jsover"><img src="/wordpress/wp-content/themes/magaseek/images/common/bt_pagetop_sp.png" width="67" alt="PAGE TOP" class="img_b jsover"></a></p>
+	<!-- /#pagetop -->
+</div>
+<!-- /#content_base -->
+<footer id="footer">
+	<div id="footMenu" class="clearfix">
+		<nav>
+			<ul>
+				<li><a href="/company/#contact">お問い合わせ</a></li>
+				<li><a href="/privacy/">個人情報に関する考え方</a></li>
+				<li><a href="/sitemap/">サイトマップ</a></li>
+			</ul>
+		</nav>
+		<p>&copy; MAGASEEK CORPORATION. ALL RIGHTS RESERVED.</p>
+	</div>
+</footer>
+<!-- /#footer -->
+</body>
+</html>

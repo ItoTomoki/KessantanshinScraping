@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<!-- Start of include : source=themes/nittobest/include/head/meta.html -->
+<title>日東ベスト株式会社</title>
+<meta name="description" content="">
+<meta name="author" content="日東ベスト株式会社">
+<meta name="copyright" content="(c)日東ベスト株式会社">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- End of include : source=themes/nittobest/include/head/meta.html -->
+
+<!-- Start of include : source=themes/nittobest/include/head/link.html -->
+<link rel="icon" type="image/png" href="images/favicon.png">
+<link rel="stylesheet" href="/themes/nittobest/css/normalize.css" type="text/css">
+<link rel="stylesheet" href="/themes/nittobest/css/skeleton.css" type="text/css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/themes/nittobest/css/font.css" type="text/css">
+<link rel="stylesheet" href="/themes/nittobest/css/jquery.bxslider.css" />
+<link href="/themes/system/css/acms-admin.min.css" rel="stylesheet">
+<link href="/themes/system/css/acms.min.css" rel="stylesheet" type="text/css" media="all">
+<link rel="stylesheet" href="/themes/nittobest/css/commons.css" type="text/css">
+<!-- End of include : source=themes/nittobest/include/head/link.html -->
+
+<!-- Start of include : source=themes/nittobest/include/head/js.html -->
+<!--[if IE]><script src="/themes/nittobest/js/browser_msg.js" type="text/javascript" charset="UTF-8"></script><![endif]-->
+<!--[if lte IE 9]><script src="/themes/system/js/html5shiv.min.js"></script><script src="/themes/system/js/respond.min.js"></script><![endif]-->
+<script src="/js/library/jquery/jquery-1.11.1.min.js" charset="UTF-8"></script>
+<script type="text/javascript" src="/acms.js?domains=www.nittobest.co.jp&amp;jsDir=js/&amp;themesDir=/themes/&amp;bid=1&amp;jQuery=1.11.1&amp;jQueryMigrate=off&amp;umfs=100M&amp;pms=100M&amp;mfu=20&amp;lgImg=width:1280&amp;jpegQuality=95&amp;scriptRoot=/" charset="UTF-8" id="acms-js"></script>
+<script src="/themes/nittobest/js/drawermenu.js"></script>
+<script src="/themes/nittobest/js/jquery.globalnav.js"></script>
+<script src="/themes/nittobest/js/jquery.bxslider.min.js"></script>
+<script src="/themes/nittobest/js/custom.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-3728514-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<!-- End of include : source=themes/nittobest/include/head/js.html -->
+
+<script>
+$(document).ready(function () {
+	var settings = function() {
+		var settings1 = {
+			auto: true,pager:false,controls:false,minSlides: 1,maxSlides: 1,moveSlides: 1,startSlide: 0,
+		};
+		var settings2 = {
+			auto: true,pager:false,controls:false,minSlides: 1,maxSlides: 3,moveSlides: 1,slideWidth: 1000,startSlide: 0,slideMargin: 0,
+		};
+		return ($(window).width()<768) ? settings1 : settings2;
+	}
+	var mySlider;
+	function tourLandingScript() {
+		mySlider.reloadSlider(settings());
+		}
+	mySlider = $('.bxslider').bxSlider(settings());
+	$(window).resize(tourLandingScript);
+});
+</script>
+<meta name="generator" content="a-blog cms" />
+</head>
+<body>
+<div id="spwrap"></div>
+    <div id="bodyinner">
+<!-- Start of include : source=themes/nittobest/include/header.html -->
+        <header class="clearfix">
+            <div class="wrapper-center">
+                <div class="inner clearfix">
+                    <a id="btn" href="#">
+                        <div class="menu">
+                           <div class="menu1"></div>
+                           <div class="menu2"></div>
+                           <div class="menu3"></div>
+                        </div>
+                    </a>
+                    <div class="logo">
+                        <h1><a href="http://www.nittobest.co.jp/" title="Nitto Best「HOME」">NittoBest</a></h1>
+                    </div>
+                    <div class="logo_ja">
+	                    <a href="http://www.nittobest.co.jp/" title="日東ベスト株式会社「HOME」">日東ベスト株式会社</a>
+                    </div>
+                </div>
+            </div>
+            <div class="wrapper-bottom">
+                <div class="inner" id="innerbottom">
+                    <nav id="nav" class="clearfix">
+	                    <ul>
+                           <li><a href="http://www.nittobest.co.jp/company/entry-110.html" title="企業情報">企業情報</a>
+                               <div class="submenu">
+                                   <ul class="submenu_inner">
+                                       
+                                       <li><a href="http://www.nittobest.co.jp/company/overview/entry-109.html" class="acms-list-group-item">会社概要</a></li>
+                                       <li><a href="http://www.nittobest.co.jp/company/office/entry-133.html" class="acms-list-group-item">事業所案内</a></li>
+                                       <li><a href="http://www.nittobest.co.jp/company/greeting/message.html" class="acms-list-group-item">ごあいさつ</a></li>
+                                       <li><a href="http://www.nittobest.co.jp/company/effort/" class="acms-list-group-item">当社の取り組み</a></li>
+                                       <li><a href="http://www.nittobest.co.jp/company/relation/entry-136.html" class="acms-list-group-item">地域との関わり</a></li>
+                                       <li><a href="http://www.nittobest.co.jp/company/finance/zaimu.html" class="acms-list-group-item">財務情報</a></li>
+                                   </ul>
+                               </div>
+                           </li>
+                           <li><a href="http://www.nittobest.co.jp/safety-security/entry-114.html" title="安全・安心への取り組み">安全・安心への取り組み</a>
+                               <div class="submenu">
+                                   <ul class="submenu_inner">
+                                       
+                                       <li><a href="http://www.nittobest.co.jp/safety-security/haccp.html" class="acms-list-group-item">食品安全管理（HACCPシステム）</a></li>
+                                       <li><a href="http://www.nittobest.co.jp/safety-security/quality-assurance.html" class="acms-list-group-item">品質保証</a></li>
+                                       <li><a href="http://www.nittobest.co.jp/safety-security/safety-check-inspection.html" class="acms-list-group-item">安全確認検査</a></li>
+                                       <li><a href="http://www.nittobest.co.jp/safety-security/iso9001.html" class="acms-list-group-item">品質マネジメントシステム（ISO9001）</a></li>
+                                   </ul>
+                               </div>
+                           </li>
+                           <li><a href="http://www.nittobest.co.jp/products/item-134.html" title="商品紹介">商品紹介</a>
+                               <div class="submenu">
+                                   <ul class="submenu_inner">
+                                       
+                                       <li><a href="http://www.nittobest.co.jp/products/s-catalog.html" class="acms-list-group-item">業務用2017年春・夏商品パンフレット</a></li>
+                                       <li><a href="http://www.nittobest.co.jp/products/yawaraka/item-135.html" class="acms-list-group-item">業務用やわらか食</a></li>
+                                       <li><a href="http://www.nittobest.co.jp/products/kaigofoods/item-274.html" class="acms-list-group-item">家庭向け介護食品（冷凍宅配）</a></li>
+                                   </ul>
+                               </div>
+                           </li>
+                           <li><a href="http://www.nittobest.co.jp/shopping/" title="ショッピング">ショッピング</a>
+                               <div class="submenu">
+                                   <ul class="submenu_inner">
+                                       
+                                       <li><a href="http://www.kirakutei-net.jp/" class="acms-list-group-item">食通喜楽亭</a></li>
+                                       <li><a href="http://www.franus-branche.jp/" class="acms-list-group-item">Franus Branche（化粧品）</a></li>
+                                   </ul>
+                               </div>
+                           </li>
+                           <li><a href="http://www.nittobest.co.jp/recruit/entry-111.html" title="採用情報">採用情報</a>
+                               <div class="submenu">
+                                   <ul class="submenu_inner">
+                                       
+                                       <li><a href="http://www.nittobest.co.jp/recruit/essential-point.html" class="acms-list-group-item">募集要項（採用ステップ）</a></li>
+                                       <li><a href="http://www.nittobest.co.jp/recruit/faq.html" class="acms-list-group-item">リクルートFAQ</a></li>
+                                       <li><a href="http://www.nittobest.co.jp/recruit/voice.html" class="acms-list-group-item">先輩の声</a></li>
+                                   </ul>
+                               </div>
+                           </li>
+                       </ul>
+                       <div id="search">
+                           <form action="/index.html" name="searchForm" method="post" role="search">
+                               <i class="fa fa-search"></i>
+                               <input type="search" name="keyword" value="" class="searchbox search_input js-placeholder" placeholder="キーワード検索" style="border:none;">
+                               <input type="hidden" name="query" value="keyword">
+                               <input type="text" name="iebug" value="" style="display:none;" class="iebug">
+                               <button type="submit" name="ACMS_POST_2GET" class="acms-btn acms-btn-block btnSearch">検索</button>
+                               <input type="hidden" name="tpl" value="/index.html" />
+                               <input type="hidden" name="bid" value="1" />
+                               <input type="hidden" name="cid" value="" />
+                           </form>
+                       </div>
+
+                    </nav>
+                </div>
+            </div>
+        </header>
+<!-- End of include : source=themes/nittobest/include/header.html -->
+
+        
+<!-- Start of include : source=themes/nittobest/include/top_images.html -->
+
+<div id="slider" class="clearfix">
+	<div id="slider_inner">
+		<ul class="bxslider"><li><a href="" target="_blank"><img src="/archives/001/201605/b2d3d9c0cb83eefccc43a2d7f8cb9c09.jpg" alt=""></a></li><li><a href="" target="_self"><img src="/archives/001/201606/a011b7faafc6233fbee17da203d0ff46.jpg" alt=""></a></li><li><a href="" target="_self"><img src="/archives/001/201605/8ba16236a31a63f124d1a9d94785f802.jpg" alt="日東ベスト"></a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- End of include : source=themes/nittobest/include/top_images.html -->
+
+        
+        <div class="container">
+            <div class="row">
+                <!-- Main -->
+                <div class="eight columns">
+                <!-- Start of include : source=themes/system/admin/action.html -->
+
+
+<!-- Start of include : source=themes/system/include/timemachine.html -->
+<style>
+.js-timemachine_menu {
+	position: fixed;
+	padding: 5px;
+	bottom: 20px;
+	left: 20px;
+	z-index: 99999;
+	background: #DDD;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+}
+</style>
+
+
+<!-- End of include : source=themes/system/include/timemachine.html -->
+
+<!-- End of include : source=themes/system/admin/action.html -->
+
+                    
+                    
+                    <!-- お知らせ・トピックス -->
+                    <div id="news" class="clearfix">
+                        <div class="contentslist">
+                            <label for="Panel1">
+                                <input type="checkbox" id="Panel1" class="on-off" checked />
+                                <h2>お知らせ・トピックス</h2>
+                                <ul>
+                                    <li><a href="/products/kaigofoods/item-274.html"><span class="date">2017年07月05日</span>家庭向け宅配介護食　リニューアルしました。</a></li>
+                                    <li><a href="http://www.nittobest.co.jp/products/s-catalog.html"><span class="date">2017年03月28日</span>業務用の商品パンフレット情報を更新しました。</a></li>
+                                    <li><a href="/archives/007/201702/nitto201701.pdf"><span class="date">2017年02月28日</span>ベトナムで日配惣菜製造および畜肉加工事業に参入 </a></li>
+                                    <li><a href="http://www.nittobest.co.jp/topics/entry-215.html"><span class="date">2014年06月17日</span>環境大臣賞「環境保全功労賞等表彰」受賞</a></li>
+                                </ul>
+                                <a href="http://www.nittobest.co.jp/topics/" class="archive_link"><i class="fa fa-arrow-circle-right"></i> 一覧へ</a>
+                            </label>
+                        </div>
+                    </div>
+                    
+                    
+                    <!-- 更新履歴 -->
+                    <div id="updates" class="clearfix">
+                        <div class="contentslist">
+                            <label for="Panel2">
+                                <input type="checkbox" id="Panel2" class="on-off" checked />
+                                <h2>更新履歴</h2>
+                                <ul>
+                                    <li><a href="/archives/002/201708/2017081002.pdf"><span class="date">2017年08月10日</span>第80期 第1四半期四半期報告書</a></li>
+                                    <li><a href="/archives/002/201708/2017081001.pdf"><span class="date">2017年08月10日</span>平成30年3月期 第1四半期決算短信</a></li>
+                                    <li><a href="/archives/002/201706/第79期%20有価証券報告書.pdf"><span class="date">2017年06月27日</span>第79期 有価証券報告書</a></li>
+                                    <li><a href="/archives/002/201705/2017051201.pdf"><span class="date">2017年05月12日</span>平成29年3月期 決算短信</a></li>
+                                    <li><a href="/archives/002/201702/20170210002.pdf"><span class="date">2017年02月10日</span>平成29年3月期 第3四半期決算短信</a></li>
+                                </ul>
+                                <a href="http://www.nittobest.co.jp/update/" class="archive_link"><i class="fa fa-arrow-circle-right"></i> 一覧へ</a>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Sidebar -->
+                <div class="four columns">
+
+
+<div class="banner">
+	
+	<a href="http://www.franus-branche.jp/" target="_blank">
+		<img src="/archives/001/201606/d1debe1bdbbe1b476eca699d3066fbe4.jpg" width="300" height="100" class="imgfull">
+		<div class="caption">ラ･フランスから生まれた基礎化粧品<br>『Franus Branche』</div>
+	</a>
+</div>
+
+<div class="banner">
+	
+	<a href="http://www.kirakutei-net.jp/" target="_blank">
+		<img src="/archives/001/201606/30c9b10f54a37505a973cf7e761d9985.jpg" width="300" height="100" class="imgfull">
+		<div class="caption">日東ベストの通販ショップ「食通喜楽亭」</div>
+	</a>
+</div>
+
+<div class="banner">
+	
+	<a href="/company/finance/zaimu.html" target="_self">
+		<img src="/archives/001/201606/d1bd97ccdc1baf34d061e3ea1fc3e1cf.jpg" width="300" height="100" class="imgfull">
+		<div class="caption">業績推移・決算情報・有価証券報告書<br>を掲示しています。</div>
+	</a>
+</div>
+
+<div class="banner">
+	
+	<a href="products/s-catalog.html" target="_self">
+		<img src="/archives/001/201606/e5e4935942b5b10e64f22496150a39ce.jpg" width="300" height="100" class="imgfull">
+		<div class="caption">業務用 春・夏の新商品<br>食のおいしさと安心をめざして、さらに進化。</div>
+	</a>
+</div>
+
+<div class="banner">
+	
+	<a href="/recruit/entry-111.html" target="_self">
+		<img src="/archives/001/201606/3d9f2ddbbd89580bf98003a00da03b38.jpg" width="300" height="100" class="imgfull">
+		<div class="caption">2017年度の採用情報をアップしました。</div>
+	</a>
+</div>
+
+
+                </div>
+                
+            </div>
+        </div>
+        
+<!-- Start of include : source=themes/nittobest/include/footer.html -->
+        <div id="pagetoplink" class="clearfix"><a href="#pagetop"><i class="fa fa-chevron-up"></i>このページの先頭へ</a></div>
+        <div class="container sp_hide">
+            <div id="footernav" class="twelve columns"><a href="http://www.nittobest.co.jp/contact.html" title="">お問い合わせ</a> ｜ <a href="http://www.nittobest.co.jp/privacypolicy.html" title="">プライバシーポリシー</a> ｜ <a href="http://www.nittobest.co.jp/sitemap.html" title="">サイトマップ</a></div>
+        </div>
+
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="one-fifth column"><img src="/themes/nittobest/images/logo.png" class="imgfull"></div>
+                    <div class="one-fifth column sp_hide">
+                        <h4><a href="http://www.nittobest.co.jp/company/entry-110.html" title="">企業情報</a></h4>
+                        <ul class="footer_sitemap">
+                            <li><a href="http://www.nittobest.co.jp/company/overview/entry-109.html">会社概要</a></li>
+                            <li><a href="http://www.nittobest.co.jp/company/office/entry-133.html">事業所案内</a></li>
+                            <li><a href="http://www.nittobest.co.jp/company/greeting/message.html">ごあいさつ</a></li>
+                            <li><a href="http://www.nittobest.co.jp/company/effort/">当社の取り組み</a></li>
+                            <li><a href="http://www.nittobest.co.jp/company/relation/entry-136.html">地域との関わり</a></li>
+                            <li><a href="http://www.nittobest.co.jp/company/finance/zaimu.html">財務情報</a></li>
+                        </ul>
+                    </div>
+                    <div class="one-fifth column sp_hide divider">
+                        <h4><a href="http://www.nittobest.co.jp/safety-security/entry-114.html" title="">安全・安心への取り組み</a></h4>
+                        <ul class="footer_sitemap">
+                            <li><a href="http://www.nittobest.co.jp/safety-security/haccp.html">食品安全管理（HACCPシステム）</a></li>
+                            <li><a href="http://www.nittobest.co.jp/safety-security/quality-assurance.html">品質保証</a></li>
+                            <li><a href="http://www.nittobest.co.jp/safety-security/safety-check-inspection.html">安全確認検査</a></li>
+                            <li><a href="http://www.nittobest.co.jp/safety-security/iso9001.html">品質マネジメントシステム（ISO9001）</a></li>
+                        </ul>
+                    </div>
+                    <div class="one-fifth column sp_hide divider">
+                        <h4><a href="http://www.nittobest.co.jp/products/item-134.html" title="">商品紹介</a></h4>
+                        <ul class="footer_sitemap">
+                            <li><a href="http://www.nittobest.co.jp/products/s-catalog.html">業務用2017年春・夏商品パンフレット</a></li>
+                            <li><a href="http://www.nittobest.co.jp/products/yawaraka/item-135.html">業務用やわらか食</a></li>
+                            <li><a href="http://www.nittobest.co.jp/products/kaigofoods/item-274.html">家庭向け介護食品（冷凍宅配）</a></li>
+                        </ul>
+                        <h4><a href="http://www.nittobest.co.jp/shopping/" title="">ショッピング</a></h4>
+                        <ul class="footer_sitemap">
+                            <li><a href="http://www.kirakutei-net.jp/">食通喜楽亭</a></li>
+                            <li><a href="http://www.franus-branche.jp/">Franus Branche（化粧品）</a></li>
+                        </ul>
+                    </div>
+                    <div class="one-fifth column sp_hide">
+                        <h4><a href="http://www.nittobest.co.jp/recruit/entry-111.html" title="">採用情報</a></h4>
+                        <ul class="footer_sitemap">
+                            <li><a href="http://www.nittobest.co.jp/recruit/essential-point.html">募集要項（採用ステップ）</a></li>
+                            <li><a href="http://www.nittobest.co.jp/recruit/faq.html">リクルートFAQ</a></li>
+                            <li><a href="http://www.nittobest.co.jp/recruit/voice.html">先輩の声</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <iframe src="/themes/nittobest/count/count.php" height="32" width="160" frameborder="0" scrolling="no" style="position:absolute;right:0;bottom:0;background-color:#ededed;" class="sp_hide"></iframe>
+            </div>
+
+            <div id="footer_sig">日東ベスト株式会社（NittoBest Corporation.）　〒 991-8610　山形県寒河江市幸町4番27号　<i class="fa fa-phone"></i>TEL. 0237‐86‐2100</div>
+            <div id="copyrights">&copy; 2003-2017 NittoBest</div>
+        </footer>
+<!-- End of include : source=themes/nittobest/include/footer.html -->
+
+        
+    </div>
+</body>
+</html>

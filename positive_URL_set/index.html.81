@@ -1,0 +1,685 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja"><!-- InstanceBegin template="/Templates/template.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+<meta name="viewport" content="width=device-width" />
+<meta name="format-detection" content="telephone=no" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta http-equiv="content-script-type" content="text/javascript" />
+<meta http-equiv="content-style-type" content="text/css" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<meta name="Description" content="IRライブラリ | 株式会社シイエム・シイ(CMC)は販売促進、販売教育、業務標準化、マニュアル制作などを通して「売る気づくり」「買う気づくり」「満足づくり」の3つのマーケティングをワンストップ・ソリューションとしてご提供致します。" />
+<meta name="Keywords" content="IRライブラリ,マーケティング,販売促進,販売教育,業務,標準化,マニュアル制作,シイエム・シイ,cmc" />
+<title>IRライブラリ | 株式会社 シイエム・シイ(CMC)</title>
+<!-- InstanceEndEditable -->
+<link href="../../css/common.css" rel="stylesheet" type="text/css" />
+<!-- InstanceBeginEditable name="head" -->
+<link href="../../css/ir/library.css" rel="stylesheet" type="text/css" />
+<!-- InstanceEndEditable -->
+<!-- InstanceParam name="is_index" type="boolean" value="false" -->
+<!--[if lt IE 9]>
+<script src="../../js/respond.min.js"></script>
+<![endif]-->
+</head>
+<body>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-39495511-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<div id="container">
+	<div id="header">
+		<div class="inner">
+			
+			
+			<p class="logo"><a href="../../index.html"><img src="../../img/common/template/logo.png" width="328" height="69" alt="株式会社シイエム・シイ" /></a></p>
+			
+			<div id="menuBtn" class="menuBtn"><img src="../../img/common/btn/btn_menu.png" width="21" height="16" alt="メニューボタンを開きます" /></div>
+
+			<div class="listing"><img src="../../img/common/template/img_listing.png" width="61" height="61" alt="日本取引所グループ（JPX）" /></div>
+			<p class="pcHide english"><a href="../../english/" target="_blank">English</a></p>
+
+			<ul class="otherNavi">
+				<li><a href="../../recruit/">採用情報</a></li>
+				<li><a href="../../contact/">お問い合わせ</a></li>
+				<li><a href="../../corporate/csr/privacy_policy/">プライバシーポリシー</a></li>
+				<li><a href="../../use/">ご利用に際して</a></li>
+				<li><a href="../../english/" target="_blank">English</a></li>
+			</ul>
+		</div>
+
+		<div id="gNavi">
+			<ul>
+				<li class="home"><a href="../../index.html">HOME</a></li>
+				<li class="corporate">
+					<a class="toggle" href="../../corporate/">会社情報</a>
+					<ul class="hoverMenu">
+						<li><a href="../../corporate/">基本情報</a></li>
+						<li><a href="../../corporate/history/">沿革</a></li>
+						<li><a href="../../corporate/officer/">役員一覧</a></li>
+						<li><a href="../../corporate/csr/">CSR</a></li>
+						<li><a href="../../corporate/message/">トップメッセージ</a></li>
+						<li><a href="../../corporate/information/">アクセス<br>（本社・事業所・事務所）</a></li>
+					</ul>
+				</li>
+				<li class="ir">
+					<a class="toggle" href="../../ir/">投資家の皆さまへ</a>
+					<ul class="hoverMenu">
+						<li><a href="../../ir/">IRニュース</a></li>
+						<li><a href="../library/">IRライブラリ</a></li>
+						<li><a href="../calendar/">IRカレンダー</a></li>
+						<li><a href="../stock/">株式情報</a></li>
+						<li><a href="../immunity/">免責事項</a></li>
+						<li><a href="../faq/">よくあるご質問</a></li>
+					</ul>
+				</li>
+				<li class="service_lineup">
+					<a class="toggle" href="../../service_lineup/">事業内容と強み</a>
+					<ul class="hoverMenu">
+						<li><a href="../../service_lineup/">事業内容と強み</a></li>
+						<li><a href="../../service_lineup/internal_marketing/">インターナル・<br />マーケティング</a></li>
+						<li><a href="../../service_lineup/external_marketing/">エクスターナル・<br />マーケティング</a></li>
+						<li><a href="../../service_lineup/customer_support_marketing/">カスタマーサポート・<br />マーケティング</a></li>
+						<li><a href="../../service_lineup/total_printing/">トータル<br />プリンティング</a></li>
+						<li><a href="../../service_lineup/strength/">3つの強み</a></li>
+						<li><a href="../../service_lineup/global_solutions/">グローバル<br />ソリューションズ</a></li>
+					</ul>
+				</li>
+				<li class="group">
+					<a class="toggle" href="../../corporate/group/">CMCグループ</a>
+					<ul class="hoverMenu">
+						<li><a href="../../corporate/group/">CMCグループ</a></li>
+						<li><a href="../../corporate/network/">拠点一覧</a></li>
+						<li><a href="../../corporate/cmc_way/">CMC Way</a></li>
+						<li><a href="../../corporate/group/introduction/">グループ会社紹介</a></li>
+					</ul>
+				</li>
+				<li class="topics">
+					<a href="javascript:void(0)" class="toggle">Hot Topics</a>
+					<ul class="hoverMenu">
+						<li><a href="../../service/car/">自動車産業における事業</a></li>
+						<li><a href="../../service/manual/">マニュアルの<br />執筆・編集・翻訳</a></li>
+						<li><a href="../../service/solution_package/">ICTソリューションズ</a></li>
+						<li><a href="../../service/medical/">医療・医薬品<br />マーケティング</a></li>
+						<li><a href="../../service/omotenashi/index.html" target="_blank">おもてなし力<br />強化プログラム</a></li>
+						<li><a href="../../service/kensyu/index.html" target="_blank">教育研修プログラム</a></li>
+						<li><a href="../../service/estate/">不動産の販売促進</a></li>
+						<li><a href="../../service/campus_solution/">大学向けソリューション</a></li>
+						<li><a href="../../service/vr_simulator/">VRコンテンツ</a></li>
+						<li><a href="../../service/hospital_solution/">病院向けソリューション</a></li>
+						<li><a href="../../service/cmc_consulting/">「現場課題解決型」<br />ソリューション</a></li>
+					</ul>
+				</li>
+			</ul>
+			<ul class="other">
+				<li><a href="../../contact/">お問い合わせ</a></li>
+				<li><a href="../../corporate/csr/privacy_policy/">プライバシーポリシー</a></li>
+				<li><a href="../../use/">ご利用に際して</a></li>
+				<li><a href="../../recruit/">採用情報</a></li>
+				<li><a href="../../news/">ニュース一覧</a></li>
+				<li><a href="../../sitemap/">サイトマップ</a></li>
+			</ul>
+			<!-- /.other -->
+		</div>
+	</div>
+	
+	<!-- InstanceBeginEditable name="main" -->
+	<div id="main">
+		<div id="mainVisual">
+			<p><img src="../../img/ir/common/main_img_pc.jpg" height="210" width="1360" alt="投資家の皆さまへ" class="imgChange" /></p>
+		</div>
+
+		<ol id="pagePath">
+			<li><a href="../../">HOME</a>&gt;</li>
+			<li><a href="../">投資家の皆さまへ</a>&gt;</li>
+			<li>IRライブラリ</li>
+		</ol>
+
+		<div id="conts">
+			<h1 class="ttl01">IRライブラリ</h1>
+			<div id="wrapper" class="tab">
+				<div class="tabMenu">
+				</div>
+
+				<div class="tabConts">
+					<h2 class="col3 tabTtl current"><a href="#">決算短信</a></h2>
+					<div class="theme">
+						<h3>2017年9月期</h3>
+						<dl>
+						    <dt class="new">2017/08/09</dt>
+						        <dd class="new"><a href="../../document/tanshin/tanshin_20170809.pdf" target="_blank"><span>2017年9月期 第3四半期決算短信（PDF:131KB）</span></a></dd>
+						    <dt>2017/05/12</dt>
+						        <dd><a href="../../document/tanshin/tanshin_20170512.pdf" target="_blank"><span>2017年9月期 第2四半期決算短信（PDF:131KB）</span></a></dd>
+						    <dt>2017/02/10</dt>
+						        <dd><a href="../../document/tanshin/tanshin_20170210.pdf" target="_blank"><span>2017年9月期 第1四半期決算短信（PDF:455KB）</span></a></dd>
+						</dl>
+					</div>
+					<div class="theme">
+						<h3>2016年9月期</h3>
+						<dl>
+						    <dt>2016/11/09</dt>
+						        <dd><a href="../../document/tanshin/tanshin_20161109.pdf" target="_blank"><span>2016年9月期 決算短信（PDF:948KB）</span></a></dd>
+						    <dt>2016/08/10</dt>
+						        <dd><a href="../../document/tanshin/tanshin_20160810.pdf" target="_blank"><span>2016年9月期 第3四半期決算短信（PDF:2,365KB）</span></a></dd>
+						    <dt>2016/05/13</dt>
+						        <dd><a href="../../document/tanshin/tanshin_20160513.pdf" target="_blank"><span>2016年9月期 第2四半期決算短信（PDF:2,841KB）</span></a></dd>
+						    <dt>2016/02/10</dt>
+						        <dd><a href="../../document/tanshin/tanshin_20160210.pdf" target="_blank"><span>2016年9月期 第1四半期決算短信（PDF:458KB）</span></a></dd>
+						</dl>
+					</div>
+					<div class="theme">
+						<h3>2015年9月期</h3>
+						<dl>
+						    <dt>2015/11/10</dt>
+						        <dd><a href="../../document/tanshin/tanshin_20151110.pdf" target="_blank"><span>2015年9月期 決算短信（PDF:956KB）</span></a></dd>
+						    <dt>2015/08/07</dt>
+						        <dd><a href="../../document/tanshin/tanshin_20150807.pdf" target="_blank"><span>2015年9月期 第3四半期決算短信（PDF:465KB）</span></a></dd>
+						    <dt>2015/05/12</dt>
+						        <dd><a href="../../document/tanshin/tanshin_20150512.pdf" target="_blank"><span>2015年9月期 第2四半期決算短信（PDF:236KB）</span></a></dd>
+						    <dt>2015/02/06</dt>
+						        <dd><a href="../../document/tanshin/tanshin_20150206.pdf" target="_blank"><span>2015年9月期 第1四半期決算短信（PDF:229KB）</span></a></dd>
+						</dl>
+					</div>
+					<div class="theme">
+						<h3>2014年9月期</h3>
+						<dl>
+						    <dt>2014/11/10</dt>
+						        <dd><a href="../../document/tanshin/tanshin_20141110.pdf" target="_blank"><span>2014年9月期 決算短信（PDF:609KB）</span></a></dd>
+						    <dt>2014/08/08</dt>
+						        <dd><a href="../../document/tanshin/tanshin_20140808.pdf" target="_blank"><span>2014年9月期 第3四半期決算短信（PDF:222KB）</span></a></dd>
+						    <dt>2014/05/09</dt>
+						        <dd><a href="../../document/tanshin/tanshin_20140509.pdf" target="_blank"><span>2014年9月期 第2四半期決算短信（PDF:229KB）</span></a></dd>
+						    <dt>2014/02/07</dt>
+						        <dd><a href="../../document/tanshin/tanshin_20140207.pdf" target="_blank"><span>2014年9月期 第1四半期決算短信（PDF:235KB）</span></a></dd>
+						</dl>
+					</div>
+					<div class="theme">
+						<h3>2013年9月期</h3>
+						<dl>
+						    <dt>2013/11/08</dt>
+						        <dd><a href="../../document/tanshin/tanshin_1309.pdf" target="_blank"><span>2013年9月期 決算短信（PDF:475KB）</span></a></dd>
+						    <dt>2013/08/06</dt>
+						        <dd><a href="../../document/tanshin/tanshin_1309_3.pdf" target="_blank"><span>2013年9月期 第3四半期決算短信（PDF:236KB）</span></a></dd>
+						    <dt>2013/05/08</dt>
+						        <dd><a href="../../document/tanshin/tanshin_1309_2.pdf" target="_blank"><span>2013年9月期 第2四半期決算短信（PDF:340KB）</span></a></dd>
+						    <dt>2013/02/07</dt>
+						        <dd><a href="../../document/tanshin/tanshin_1309_1.pdf" target="_blank"><span>2013年9月期 第1四半期決算短信（PDF:241KB）</span></a></dd>
+						</dl>
+					</div>
+					<div class="theme">
+						<h3>2012年9月期</h3>
+						<dl>
+						    <dt>2012/11/07</dt>
+						        <dd><a href="../../document/tanshin/tanshin_1209_4.pdf" target="_blank"><span>2012年9月期 決算短信（PDF:530KB）</span></a></dd>
+						    <dt>2012/08/06</dt>
+						        <dd><a href="../../document/tanshin/tanshin_1209_3.pdf" target="_blank"><span>2012年9月期 第3四半期決算短信（PDF:250KB）</span></a></dd>
+						    <dt>2012/05/07</dt>
+						        <dd><a href="../../document/tanshin/tanshin_1209_2.pdf" target="_blank"><span>2012年9月期 第2四半期決算短信（PDF:265KB）</span></a></dd>
+						    <dt>2012/02/06</dt>
+						        <dd><a href="../../document/tanshin/tanshin_1209_1.pdf" target="_blank"><span>2012年9月期 第1四半期決算短信（PDF:278KB）</span></a></dd>
+						</dl>
+					</div>
+					<div class="theme">
+						<h3>2011年9月期</h3>
+						<dl>
+						    <dt>2011/11/07</dt>
+						        <dd><a href="../../document/tanshin/tanshin_1109_4.pdf" target="_blank"><span>2011年9月期 決算短信（PDF:555KB）</span></a></dd>
+						    <dt>2011/08/08</dt>
+						        <dd><a href="../../document/tanshin/tanshin_1109_3.pdf" target="_blank"><span>2011年9月期 第3四半期決算短信（PDF:427KB）</span></a></dd>
+						    <dt>2011/05/09</dt>
+						        <dd><a href="../../document/tanshin/tanshin_1109_2.pdf" target="_blank"><span>2011年9月期 第2四半期決算短信（PDF:278KB）</span></a></dd>
+						    <dt>2011/02/04</dt>
+						        <dd><a href="../../document/tanshin/tanshin_1109_1.pdf" target="_blank"><span>2011年9月期 第1四半期決算短信（PDF:403KB）</span></a></dd>
+						</dl>
+					</div>
+					<div class="theme">
+						<h3>2010年9月期</h3>
+						<dl>
+						    <dt>2010/11/05</dt>
+						        <dd><a href="../../document/tanshin/tanshin_1009_4.pdf" target="_blank"><span>2010年9月期 決算短信（PDF:785KB）</span></a></dd>
+						    <dt>2010/08/06</dt>
+						        <dd><a href="../../document/tanshin/tanshin_1009_3.pdf" target="_blank"><span>2010年9月期 第3四半期決算短信（PDF:290KB）</span></a></dd>
+						    <dt>2010/05/07</dt>
+						        <dd><a href="../../document/tanshin/tanshin_1009_2.pdf" target="_blank"><span>2010年9月期 第2四半期決算短信（PDF:340KB）</span></a></dd>
+						    <dt>2010/02/05</dt>
+						        <dd><a href="../../document/tanshin/tanshin_1009_1.pdf" target="_blank"><span>2010年9月期 第1四半期決算短信（PDF:322KB）</span></a></dd>
+						</dl>
+					</div>
+					<div class="theme">
+						<h3>2009年9月期</h3>
+						<dl>
+						    <dt>2009/11/06</dt>
+						        <dd><a href="../../document/tanshin/tanshin_0909_4.pdf" target="_blank"><span>2009年9月期 決算短信（PDF:566KB）</span></a></dd>
+						    <dt>2009/08/07</dt>
+						        <dd><a href="../../document/tanshin/tanshin_0909_3.pdf" target="_blank"><span>2009年9月期 第3四半期決算短信（PDF:426KB）</span></a></dd>
+						    <dt>2009/05/08</dt>
+						        <dd><a href="../../document/tanshin/tanshin_0909_2.pdf" target="_blank"><span>2009年9月期 第2四半期決算短信（PDF:328KB）</span></a></dd>
+						    <dt>2009/02/13</dt>
+						        <dd><a href="../../document/tanshin/tanshin_0909_1.pdf" target="_blank"><span>2009年9月期 第1四半期決算短信（PDF:433KB）</span></a></dd>
+						</dl>
+					</div>
+					<div class="theme">
+						<h3>2008年9月期</h3>
+						<dl>
+						    <dt>2008/12/04</dt>
+						        <dd><a href="../../document/tanshin/tanshin_0809_4.pdf" target="_blank"><span>2008年9月期　決算短信（PDF:393KB）</span></a></dd>
+						</dl>
+					</div>
+				</div>
+
+				<div class="tabConts">
+					<h2 class="col3 tabTtl"><a href="#">有価証券報告書</a></h2>
+					<div class="theme">
+						<h3>2017年9月期</h3>
+						<dl>
+						    <dt class="new">2017/08/09</dt>
+						        <dd class="new"><a href="../../document/yuukashouken/yuukashouken_20170809.pdf" target="_blank"><span>2017年9月期 第3四半期報告書（PDF:227KB）</span></a></dd>
+						    <dt>2017/05/12</dt>
+						        <dd><a href="../../document/yuukashouken/yuukashouken_20170512.pdf" target="_blank"><span>2017年9月期 第2四半期報告書（PDF:247KB）</span></a></dd>
+						    <dt>2017/02/10</dt>
+						        <dd><a href="../../document/yuukashouken/yuukashouken_20170210.pdf" target="_blank"><span>2017年9月期 第1四半期報告書（PDF:224KB）</span></a></dd>
+						</dl>
+					</div>
+					<div class="theme">
+						<h3>2016年9月期</h3>
+						<dl>
+						    <dt >2016/12/26</dt>
+						        <dd><a href="../../document/yuukashouken/yuukashouken_20161226.pdf" target="_blank"><span>2016年9月期 臨時報告書（PDF:457KB）</span></a></dd>
+						    <dt >2016/12/22</dt>
+						        <dd><a href="../../document/yuukashouken/yuukashouken_20161222.pdf" target="_blank"><span>2016年9月期 有価証券報告書（PDF:932KB）</span></a></dd>
+						    <dt >2016/08/10</dt>
+						        <dd ><a href="../../document/yuukashouken/yuukashouken_20160810.pdf" target="_blank"><span>2016年9月期 第3四半期報告書（PDF:6,759KB）</span></a></dd>
+						    <dt>2016/05/13</dt>
+						        <dd><a href="../../document/yuukashouken/yuukashouken_20160513.pdf" target="_blank"><span>2016年9月期 第2四半期報告書（PDF:8,076KB）</span></a></dd>
+						    <dt>2016/02/10</dt>
+						        <dd><a href="../../document/yuukashouken/yuukashouken_20160210.pdf" target="_blank"><span>2016年9月期 第1四半期報告書（PDF:3,135KB）</span></a></dd>
+						</dl>
+					</div>
+					<div class="theme">
+						<h3>2015年9月期</h3>
+						<dl>
+							<dt>2015/12/24</dt>
+						        <dd><a href="../../document/yuukashouken/yuukashouken_20151224.pdf" target="_blank"><span>2015年9月期 臨時報告書（PDF:108KB）</span></a></dd>
+						    <dt>2015/12/22</dt>
+						        <dd><a href="../../document/yuukashouken/yuukashouken_20151222.pdf" target="_blank"><span>2015年9月期 有価証券報告書（PDF:953KB）</span></a></dd>
+						    <dt>2015/08/07</dt>
+						        <dd><a href="../../document/yuukashouken/yuukashouken_20150807.pdf" target="_blank"><span>2015年9月期 第3四半期報告書（PDF:207KB）</span></a></dd>
+						    <dt>2015/05/12</dt>
+						        <dd><a href="../../document/yuukashouken/yuukashouken_20150512.pdf" target="_blank"><span>2015年9月期 第2四半期報告書（PDF:309KB）</span></a></dd>
+						    <dt>2015/02/06</dt>
+						        <dd><a href="../../document/yuukashouken/yuukashouken_20150206.pdf" target="_blank"><span>2015年9月期 第1四半期報告書（PDF:286KB）</span></a></dd>
+						</dl>
+					</div>
+					<div class="theme">
+						<h3>2014年9月期</h3>
+						<dl>
+						    <dt>2014/12/22</dt>
+						        <dd><a href="../../document/yuukashouken/yuukashouken_20141222.pdf" target="_blank"><span>2014年9月期 臨時報告書（PDF:107KB）</span></a></dd>
+						    <dt>2014/12/19</dt>
+						        <dd><a href="../../document/yuukashouken/yuukashouken_20141219.pdf" target="_blank"><span>2014年9月期 有価証券報告書（PDF:940KB）</span></a></dd>
+						    <dt>2014/08/08</dt>
+						        <dd><a href="../../document/yuukashouken/yuukashouken_20140808.pdf" target="_blank"><span>2014年9月期 第3四半期報告書（PDF:208KB）</span></a></dd>
+						    <dt>2014/05/09</dt>
+						        <dd><a href="../../document/yuukashouken/yuukashouken_20140509.pdf" target="_blank"><span>2014年9月期 第2四半期報告書（PDF:221KB）</span></a></dd>
+						    <dt>2014/02/07</dt>
+						        <dd><a href="../../document/yuukashouken/yuukashouken_20140207.pdf" target="_blank"><span>2014年9月期 第1四半期報告書（PDF:225KB）</span></a></dd>
+						</dl>
+					</div>
+					<div class="theme">
+						<h3>2013年9月期</h3>
+						<dl>
+						    <dt>2013/12/20</dt>
+						        <dd><a href="../../document/yuukashouken/yuukashouken_20131220.pdf" target="_blank"><span>2013年9月期 臨時報告書（PDF:19KB）</span></a></dd>
+						    <dt>2013/12/19</dt>
+						        <dd><a href="../../document/yuukashouken/yuukashouken_20131219.pdf" target="_blank"><span>2013年9月期 有価証券報告書（PDF:517KB）</span></a></dd>
+						    <dt>2013/10/16</dt>
+						        <dd><a href="../../document/oshirase/oshirase_20131016.pdf" target="_blank"><span>子会社の異動（持分譲渡）に関する臨時報告書（PDF:15KB）</span></a></dd>
+						    <dt>2013/08/06</dt>
+						        <dd><a href="../../document/yuukashouken/yuukashouken_20130806.pdf" target="_blank"><span>2013年9月期 第3四半期報告書（PDF:83KB）</span></a></dd>
+						    <dt>2013/05/08</dt>
+						        <dd><a href="../../document/yuukashouken/yuukashouken_20130508.pdf" target="_blank"><span>2013年9月期 第2四半期報告書（PDF:95KB）</span></a></dd>
+						    <dt>2013/02/07</dt>
+						        <dd><a href="../../document/yuukashouken/yuukashouken_20130207.pdf" target="_blank"><span>2013年9月期 第1四半期報告書（PDF:83KB）</span></a></dd>
+						</dl>
+					</div>
+					<div class="theme">
+						<h3>2012年9月期</h3>
+						<dl>
+						    <dt>2012/12/25</dt>
+						        <dd><a href="../../document/yuukashouken/yuukashouken_20121225.pdf" target="_blank"><span>2012年9月期 臨時報告書（PDF:11KB）</span></a></dd>
+						    <dt>2012/12/21</dt>
+						        <dd><a href="../../document/yuukashouken/yuukashouken_20121221.pdf" target="_blank"><span>2012年9月期 有価証券報告書（PDF:460KB）</span></a></dd>
+						    <dt>2012/08/06</dt>
+						        <dd><a href="../../document/yuukashouken/yuukashouken_20120806.pdf" target="_blank"><span>2012年9月期 第3四半期報告書（PDF:81KB）</span></a></dd>
+						    <dt>2012/05/07</dt>
+						        <dd><a href="../../document/yuukashouken/yuukashouken_20120507.pdf" target="_blank"><span>2012年9月期 第2四半期報告書（PDF:96KB）</span></a></dd>
+						    <dt>2012/02/06</dt>
+						        <dd><a href="../../document/yuukashouken/yuukashouken_20120206.pdf" target="_blank"><span>2012年9月期 第1四半期報告書（PDF:79KB）</span></a></dd>
+						</dl>
+					</div>
+					<div class="theme">
+						<h3>2011年9月期</h3>
+						<dl>
+						    <dt>2011/12/26</dt>
+						        <dd><a href="../../document/yuukashouken/yuukashouken_20111226.pdf" target="_blank"><span>2011年9月期 臨時報告書（PDF:14KB）</span></a></dd>
+						    <dt>2011/12/22</dt>
+						        <dd><a href="../../document/yuukashouken/yuukashouken_20111222.pdf" target="_blank"><span>2011年9月期 有価証券報告書（PDF:515KB）</span></a></dd>
+						    <dt>2011/08/08</dt>
+						        <dd><a href="../../document/yuukashouken/yuukashouken_20110808.pdf" target="_blank"><span>2011年9月期 第3四半期報告書（PDF:128KB）</span></a></dd>
+						    <dt>2011/05/09</dt>
+						        <dd><a href="../../document/yuukashouken/yuukashouken_20110509.pdf" target="_blank"><span>2011年9月期 第2四半期報告書（PDF:142KB）</span></a></dd>
+						    <dt>2011/03/02</dt>
+						        <dd><a href="../../document/yuukashouken/yuukashouken_20110302.pdf" target="_blank"><span>2011年9月期 四半期報告書の訂正報告書（PDF:15KB）</span></a></dd>
+						    <dt>2011/02/04</dt>
+						        <dd><a href="../../document/yuukashouken/yuukashouken_20110204.pdf" target="_blank"><span>2011年9月期 第1四半期報告書（PDF:115KB）</span></a></dd>
+						    <dt>2011/01/24</dt>
+						        <dd><a href="../../document/yuukashouken/yuukashouken_20110124.pdf" target="_blank"><span>2011年9月期 臨時報告書（PDF:10KB）</span></a></dd>
+						</dl>
+					</div>
+					<div class="theme">
+						<h3>2010年9月期</h3>
+						<dl>
+						    <dl>2010/12/24</dl>
+						        <dd><a href="../../document/yuukashouken/yuukashouken_20101224.pdf" target="_blank"><span>2010年9月期 臨時報告書（PDF:11KB）</span></a></dd>
+						    <dl>2010/12/22</dl>
+						        <dd><a href="../../document/yuukashouken/yuukashouken_20101222.pdf" target="_blank"><span>2010年9月期 有価証券報告書（PDF:469KB）</span></a></dd>
+						    <dl>2010/08/06</dl>
+						        <dd><a href="../../document/yuukashouken/yuukashouken_20100806.pdf" target="_blank"><span>2010年9月期 第3四半期報告書（PDF:121KB）</span></a></dd>
+						    <dl>2010/05/07</dl>
+						        <dd><a href="../../document/yuukashouken/yuukashouken_20100507.pdf" target="_blank"><span>2010年9月期 第2四半期報告書（PDF:124KB）</span></a></dd>
+						    <dl>2010/02/05</dl>
+						        <dd><a href="../../document/yuukashouken/yuukashouken_20100205.pdf" target="_blank"><span>2010年9月期 第1四半期報告書（PDF:108KB）</span></a></dd>
+						</dl>
+					</div>
+					<div class="theme">
+						<h3>2009年9月期</h3>
+						<dl>
+						    <dt>2009/12/28</dt>
+						        <dd><a href="../../document/yuukashouken/yuukashouken_20091228.pdf" target="_blank"><span>2009年9月期 有価証券報告書の訂正報告書（PDF:12KB）</span></a></dd>
+						    <dt>2009/12/22</dt>
+						        <dd><a href="../../document/yuukashouken/yuukashouken_20091222.pdf" target="_blank"><span>2009年9月期 有価証券報告書（PDF:449KB）</span></a></dd>
+						    <dt>2009/08/07</dt>
+						        <dd><a href="../../document/yuukashouken/yuukashouken_20090807.pdf" target="_blank"><span>2009年9月期 第3四半期報告書（PDF:108KB）</span></a></dd>
+						    <dt>2009/05/08</dt>
+						        <dd><a href="../../document/yuukashouken/yuukashouken_20090508.pdf" target="_blank"><span>2009年9月期 第2四半期報告書（PDF:108KB）</span></a></dd>
+						    <dt>2009/02/13</dt>
+						        <dd><a href="../../document/yuukashouken/yuukashouken_20090213.pdf" target="_blank"><span>2009年9月期 第1四半期報告書（PDF:96KB）</span></a></dd>
+						</dl>
+					</div>
+					<div class="theme">
+						<h3>2008年9月期</h3>
+						<dl>
+						    <dt>2008/12/24</dt>
+						        <dd><a href="../../document/yuukashouken/yuukashouken_20081224.pdf" target="_blank"><span>2008年9月期 有価証券報告書（PDF:393KB）</span></a></dd>
+						</dl>
+					</div>
+				</div>
+
+				<div class="tabConts">
+					<h2 class="col3 tabTtl"><a href="#">決算説明会資料</a></h2>
+					<div class="theme">
+						<h3>2012年9月期</h3>
+						<dl>
+						    <dt class="new">2012/06/05</dt>
+						        <dd class="new"><a href="../../document/shiryo/shiryo_20120605.pdf" target="_blank"><span>2012年9月期 第2四半期決算説明会資料（PDF:1,941KB）</span></a></dd>
+						</dl>
+					</div>
+					<div class="theme">
+						<h3>2011年9月期</h3>
+						<dl>
+						    <dt>2011/11/28</dt>
+						        <dd><a href="../../document/shiryo/shiryo_20111128.pdf" target="_blank"><span>2011年9月期 決算説明会資料（PDF:318KB）</span></a></dd>
+						    <dt>2011/06/06</dt>
+						        <dd><a href="../../document/shiryo/shiryo_20110606.pdf" target="_blank"><span>2011年9月期 第2四半期決算説明会資料（PDF:400KB）</span></a></dd>
+						    <dt>2011/02/21</dt>
+						        <dd><a href="../../document/shiryo/shiryo_20110221.pdf" target="_blank"><span>日本証券アナリスト協会主催「個人投資家向け会社説明会」資料（PDF:881KB）</span></a></dd>
+						</dl>
+					</div>
+					<div class="theme">
+						<h3>2010年9月期</h3>
+						<dl>
+						    <dt>2010/11/08</dt>
+						        <dd><a href="../../document/shiryo/shiryo_20101108.pdf" target="_blank"><span>2010年9月期 決算説明会資料（PDF:348KB）</span></a></dd>
+						    <dt>2010/07/10</dt>
+						        <dd><a href="../../document/shiryo/shiryo_20100710.pdf" target="_blank"><span>日本経済新聞社主催「中部地区個人投資家向け会社説明会」資料（PDF:1048KB）</span></a></dd>
+						    <dt>2010/05/10</dt>
+						        <dd><a href="../../document/shiryo/shiryo_20100510.pdf" target="_blank"><span>2010年9月期 第2四半期決算説明会資料（PDF:470KB）</span></a></dd>
+						</dl>
+					</div>
+					<div class="theme">
+						<h3>2009年9月期</h3>
+						<dl border="0" id="library_table01">
+						    <dt>2009/11/09</dt>
+						        <dd><a href="../../document/shiryo/shiryo_20091109.pdf" target="_blank"><span>2009年9月期 決算説明会資料（PDF:335KB）</span></a></dd>
+						    <dt>2009/07/11</dt>
+						        <dd><a href="../../document/shiryo/shiryo_20090711.pdf" target="_blank"><span>日本経済新聞社主催「中部地区個人投資家向け 会社説明会」資料（PDF:546KB）</span></a></dd>
+						</dl>
+					</div>
+				</div>
+
+				<div class="tabConts">
+					<h2 class="col2 tabTtl"><a href="#">株主総会</a></h2>
+					<div class="theme">
+						<h3>2017年9月期</h3>
+						<ul>
+						    <li class="new"><a href="../../document/kabunushitsushin/kabunushitsushin_56h.pdf" target="_blank"><span>株主通信 第56期中間報告書 (2016年10月1日～2017年3月31日) (PDF:589KB)</span></a></li>
+						</ul>
+					</div>
+					<div class="theme">
+						<h3>2016年9月期</h3>
+						<ul>
+						    <li><a href="../../document/kabunushitsushin/kabunushitsuchi_55k.pdf" target="_blank"><span>第55期定時株主総会決議ご通知 (PDF:541KB)</span></a></li>
+						    <li><a href="../../document/kabunushitsushin/kabunushitsuchi_55.pdf" target="_blank"><span>第55期定時株主総会招集ご通知 (PDF:1,777KB)</span></a></li>
+						    <li><a href="../../document/kabunushitsushin/kabunushitsuchi_55i.pdf" target="_blank"><span>第55期定時株主総会招集ご通知に際してのインターネット開示事項 (PDF:817KB)</span></a></li>
+						    <li><a href="../../document/kabunushitsushin/kabunushitsushin_55h.pdf" target="_blank"><span>株主通信 第55期中間報告書 (2015年10月1日～2016年3月31日) (PDF:996KB)</span></a></li>
+						</ul>
+					</div>
+					<div class="theme">
+						<h3>2015年9月期</h3>
+						<ul>
+						    <li><a href="../../document/kabunushitsushin/kabunushitsushin_54.pdf" target="_blank"><span>株主通信 第54期報告書 (2014年10月1日～2015年9月30日) (PDF:2,057KB)</span></a></li>
+						    <li><a href="../../document/kabunushitsushin/kabunushitsushin_54h.pdf" target="_blank"><span>株主通信 第54期中間報告書 (2014年10月1日～2015年3月31日) (PDF:371KB)</span></a></li>
+						</ul>
+					</div>
+					<div class="theme">
+						<h3>2014年9月期</h3>
+						<ul>
+						    <li><a href="../../document/kabunushitsushin/kabunushitsushin_53.pdf" target="_blank"><span>株主通信 第53期報告書 (2013年10月1日～2014年9月30日) (PDF:423KB)</span></a></li>
+						    <li><a href="../../document/kabunushitsushin/kabunushitsushin_53h.pdf" target="_blank"><span>株主通信 第53期中間報告書 (2013年10月1日～2014年3月31日) (PDF:411KB)</span></a></li>
+						</ul>
+					</div>
+					<div class="theme">
+						<h3>2013年9月期</h3>
+						<ul>
+						    <li><a href="../../document/kabunushitsushin/kabunushitsushin_52.pdf" target="_blank"><span>株主通信 第52期報告書 (2012年10月1日～2013年9月30日) (PDF:533KB)</span></a></li>
+						    <li><a href="../../document/kabunushitsushin/kabunushitsushin_52_1.pdf" target="_blank"><span>株主通信 第52期中間報告書 (2012年10月1日～2013年3月31日) (PDF:1,031KB)</span></a></li>
+						</ul>
+					</div>
+					<div class="theme">
+						<h3>2012年9月期</h3>
+						<ul>
+						    <li><a href="../../document/kabunushitsushin/kabunushitsushin_51_2.pdf" target="_blank"><span>株主通信 第51期報告書 (2011年10月1日～2012年9月30日) (PDF:2,667KB)</span></a></li>
+						    <li><a href="../../document/kabunushitsushin/kabunushitsushin_51_1.pdf" target="_blank"><span>株主通信 第51期中間報告書 (2011年10月1日～2012年3月31日) (PDF:4,487KB)</span></a></li>
+						</ul>
+					</div>
+					<div class="theme">
+						<h3>2011年9月期</h3>
+						<ul>
+						    <li><a href="../../document/kabunushitsushin/kabunushitsushin_50_2.pdf" target="_blank"><span>株主通信 第50期報告書 (2010年10月1日～2011年9月30日) (PDF:6,467KB)</span></a></li>
+						    <li><a href="../../document/kabunushitsushin/kabunushitsushin_50_1.pdf" target="_blank"><span>株主通信 第50期中間報告書 (2010年10月1日～2011年3月31日) (PDF:2,790KB)</span></a></li>
+						</ul>
+					</div>
+					<div class="theme">
+						<h3>2010年9月期</h3>
+						<ul>
+						    <li><a href="../../document/kabunushitsushin/kabunushitsushin_49_2.pdf" target="_blank"><span>株主通信 第49期報告書 (2009年10月1日～2010年9月30日) (PDF:1,909KB)</span></a></li>
+						    <li><a href="../../document/kabunushitsushin/kabunushitsushin_49_1.pdf" target="_blank"><span>株主通信 第49期中間報告書 (2009年10月1日～2010年3月31日) (PDF:2,454KB)</span></a></li>
+						</ul>
+					</div>
+					<div class="theme">
+						<h3>2009年9月期</h3>
+						<ul>
+						    <li><a href="../../document/kabunushitsushin/kabunushitsushin_48_2.pdf" target="_blank"><span>株主通信 第48期報告書 (2008年10月1日～2009年9月30日) (PDF:2,787KB)</span></a></li>
+						    <li><a href="../../document/kabunushitsushin/kabunushitsushin_48_1.pdf" target="_blank"><span>株主通信 第48期中間報告書 (2008年10月1日～2009年3月31日) (PDF:3,045KB)</span></a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="tabConts">
+					<h2 class="col2 tabTtl"><a href="#">電子公告</a></h2>
+					<div class="theme">
+						<h3>最新の電子公告</h3>
+						<dl>
+							<dt class="new">&nbsp;</dt>
+							<dd class="new">現在、公告事項はございません。</dd>
+						</dl>
+					</div>
+					<div class="theme">
+						<h3>過去の電子公告</h3>
+						<dl>
+							<dt>2008/11/28</dt>
+							<dd><a href="../../document/koukoku/koukoku_20081128.pdf" target="_blank"><span>株券電子化制度施行に伴う特別口座開設等に関する公告(PDF:100KB)</span></a></dd>
+						</dl>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /#conts -->
+	</div>
+	<!-- /#main --><!-- #BeginLibraryItem "/Library/subnavi-ir.lbi" -->	<div id="subNavi">
+		<ul>
+			<li><a href="../../ir">IRニュース</a></li>
+			<li><a href="../library">IRライブラリ</a></li>
+			<li><a href="../calendar">IRカレンダー</a></li>
+			<li><a href="../stock">株式情報</a></li>
+			<li><a href="../immunity">免責事項</a></li>
+			<li><a href="../faq">よくあるご質問</a></li>
+		</ul>
+	</div>
+<!-- #EndLibraryItem --><!-- InstanceEndEditable -->
+	
+	<div id="footer">
+		<div class="inner spHide">
+			<div class="pageTop spHide">
+            	<a href="#container"><img src="../../img/common/btn/btn_pagetop_out.png" width="44" height="44" alt="ページの先頭へ戻る" /></a>
+            </div>
+			<!-- /.pageTop -->
+			<h2 class="ttl">サイトマップ</h2>
+			<div class="sitemap">
+				<div class="box">
+					<ul class="level01">
+						<li><a href="../../index.html">TOP</a></li>
+						<li><a href="../../recruit/">採用情報</a></li>
+						<li><a href="../../contact/">お問い合わせ</a></li>
+						<li><a href="../../corporate/csr/privacy_policy/">プライバシーポリシー</a></li>
+						<li><a href="../../use/">ご利用に際して</a></li>
+						<li><a href="../../news/">ニュース一覧</a></li>
+						<li><a href="../../sitemap/">サイトマップ</a></li>
+					</ul>
+				</div>
+
+				<div class="box">
+					<ul class="level01">
+						<li>
+							<a href="../../corporate/">会社情報</a>
+							<ul class="level02">
+								<li><a href="../../corporate/">基本情報</a></li>
+								<li><a href="../../corporate/history/">沿革</a></li>
+								<li><a href="../../corporate/officer/">役員一覧</a></li>
+								<li><a href="../../corporate/csr/">CSR</a></li>
+								<li><a href="../../corporate/message/">トップメッセージ</a></li>
+								<li><a href="../../corporate/information/">アクセス(本社・事業所・事務所)</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+
+				<div class="box">
+					<ul class="level01">
+						<li>
+							<a href="../../ir/">投資家の皆さまへ</a>
+							<ul class="level02">
+								<li><a href="../../ir/">IRニュース</a></li>
+								<li><a href="../library/">IRライブラリ</a></li>
+								<li><a href="../calendar/">IRカレンダー</a></li>
+								<li><a href="../stock/">株式情報</a></li>
+								<li><a href="../immunity/">免責事項</a></li>
+								<li><a href="../faq/">よくあるご質問</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+
+				<div class="box">
+					<ul class="level01">
+						<li>
+							<a href="../../service_lineup/">事業内容と強み</a>
+							<ul class="level02">
+								<li><a href="../../service_lineup/">事業内容と強み</a></li>
+								<li><a href="../../service_lineup/internal_marketing/">インターナル・マーケティング</a></li>
+								<li><a href="../../service_lineup/external_marketing/">エクスターナル・マーケティング</a></li>
+								<li><a href="../../service_lineup/customer_support_marketing/">カスタマーサポート・マーケティング</a></li>
+								<li><a href="../../service_lineup/total_printing/">トータルプリンティング</a></li>
+								<li><a href="../../service_lineup/strength/">3つの強み</a></li>
+								<li><a href="../../service_lineup/global_solutions/">グローバルソリューションズ</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="../../corporate/group/">CMCグループ</a>
+							<ul class="level02">
+								<li><a href="../../corporate/group/">CMCグループ</a></li>
+								<li><a href="../../corporate/network/">拠点一覧</a></li>
+								<li><a href="../../corporate/cmc_way/">CMC Way</a></li>
+								<li><a href="../../corporate/group/introduction/">グループ会社紹介</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+
+				<div class="box">
+					<ul class="level01">
+						<li>
+							<span>Hot Topics</span>
+							<ul class="level02">
+								<li><a href="../../service/car/">自動車産業における事業</a></li>
+								<li><a href="../../service/manual/">マニュアルの執筆・編集・翻訳</a></li>
+								<li><a href="../../service/solution_package/">ICTソリューションズ</a></li>
+								<li><a href="../../service/medical/">医療・医薬品マーケティング</a></li>
+								<li><a href="../../service/omotenashi/index.html" target="_blank">おもてなし力強化プログラム</a></li>
+								<li><a href="../../service/kensyu/index.html" target="_blank">教育研修プログラム</a></li>
+								<li><a href="../../service/estate/">不動産の販売促進</a></li>
+								<li><a href="../../service/campus_solution/">大学向けソリューション</a></li>
+								<li><a href="../../service/vr_simulator/">VRコンテンツ</a></li>
+								<li><a href="../../service/hospital_solution/">病院向けソリューション</a></li>
+								<li><a href="../../service/cmc_consulting/">「現場課題解決型」ソリューション</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<!-- /.box -->
+			</div>
+			<!-- /.sitemap -->
+		</div>
+
+		<div class="info">
+			<dl>
+				<dt>株式会社シイエム・シイ</dt>
+				<dd>当社は、お客さま企業から次の業務を受託しています。<br />◯業務標準化、教育研修、業務効率化システム◯販売促進、不動産広告、WEBマーケティング◯自動車の取扱説明書、修理書、新型車解説書◯各種マニュアル◯コンテンツ・ソリューション◯UX、UD、UIのコンサルティング◯翻訳、ドキュメントの編集や管理◯自動車の試乗会◯スポーツイベント◯自動車メーカーのブランド浸透施策◯メディカル・ヘルスケア・医薬品のマーケティング、広告、DTC、ディテール、eディテール、QOL向上施策</dd>
+			</dl>
+		</div>
+
+		<address class="copyright">Copyright(C) CMC corporation. All rights reserved.</address>
+	</div>
+</div>
+
+<script type="text/javascript" src="../../js/common.js"></script>
+<!-- InstanceBeginEditable name="js" -->
+<script type="text/javascript" src="../../js/ir/library.js"></script>
+<!-- InstanceEndEditable -->
+</body>
+<!-- InstanceEnd --></html>

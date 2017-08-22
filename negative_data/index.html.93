@@ -1,0 +1,209 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>前田建設工業株式会社</title>
+<meta name="description" content="総合建設会社、前田建設工業株式会社公式Webサイト。本社 東京都千代田区。ICTやBIMの先進的活用手腕にも定評。環境保全を最大限に重視した前田建設独自のサービス&ソリューション、事例数豊富で見やすい実績・技術紹介、企業情報、IR、CSR、採用情報、話題の「ファンタジー営業部」等を掲載。" />
+<meta name="keywords" content="土木,建築,環境,クリーンエネルギー,エンジニアリング,TPMs,BIM,建設３Ｄ" />
+<link href="/common/css/import.css" rel="stylesheet" type="text/css" media="screen,tv" />
+<link href="/common/css/import_p.css" rel="stylesheet" type="text/css" media="print" />
+<link href="/css/import.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" type="text/css"  href="/common/css/font.css" title="default" />
+<link rel="alternate stylesheet" type="text/css" href="/common/css/fontL.css" title="large" />
+<link rel="alternate stylesheet" type="text/css" href="/common/css/fontXL.css" title="xlarge" />
+<script src="https://www.google.com/jsapi?key=ABQIAAAA-Wjh438LHjufRlvbHrmaURTLxpQYSTVyWndlYtWU5QNUO5MhCxQ-EqsCzzzgU6EW7NakpQnSyUu__g" type="text/javascript"></script>
+<script type="text/javascript" src="js/jquery.js" charset="utf-8"></script>
+<script type="text/javascript" src="js/jquery.jcarousel.js" charset="utf-8"></script>
+
+<script type="text/javascript" src="js/topics.js"></script>
+<script type="text/javascript" src="/common/js/styleswitcher.js"></script>
+<script type="text/javascript" src="/common/js/form.js"></script>
+<script type="text/javascript" src="/common/js/feed_top.js"></script>
+<link rel="shortcut icon" href="/common/images/favicon.ico" />
+</head>
+
+<body id="id00">
+<div id="wrapper">
+<a id="top" name="top"></a>
+<div class="v-navi">
+<p>ここからサイト共通のヘッダー情報です</p>
+<p><a href="#v-g-navi">サイト内共通メニューへジャンプ</a></p>
+<p><a href="#v-contents">本文へジャンプ</a></p>
+</div>
+<!--Header -->
+<div id="header">
+<h5><a href="/">前田建設</a></h5>
+<div id="gray_area">
+<ul class="link_btn">
+<li class="link1"><a href="/news/">ニュース</a></li>
+<li class="link2"><a href="javascript:;" onclick="openForm('/hotline/mail_entry.asp?type=master','','scrollbars=yes,width=568,height=413')">お問い合わせ</a></li>
+<li class="link3"><a href="/english.html">English</a></li>
+</ul>
+<div class="text_size">
+<p>文字サイズ</p>
+<ul id="fontNav">
+<li id="fontNav_default"><a href="javascript:void(0)" onclick="setActiveStyleSheet('default');return false;" title="文字を標準に">標準</a></li>
+<li id="fontNav_large"><a href="javascript:void(0)" onclick="setActiveStyleSheet('large');return false;" title="文字を大きく">大</a></li>
+<li id="fontNav_xlarge"><a href="javascript:void(0)" onclick="setActiveStyleSheet('xlarge');return false;" title="文字をさらに大きく">最大</a></li>
+</ul>
+</div>
+<!--Search -->
+<!-- SiteSearch Google -->
+<form method="get" action="http://www.google.co.jp/search">
+<input type="hidden" name="hl" value="ja" />
+<input type="hidden" name="sitesearch" value="maeda.co.jp" />
+<input type="text" name="q" size="31" class="text" /><input type="image" name="btnG" value="Google 検索" class="btn" src="/common/images/search_btn.gif" /><input type="hidden" name="domains" value="maeda.co.jp" />
+</form>
+<!-- SiteSearch Google -->
+<!--Search ここまで-->
+</div>
+</div>
+<!--Header ここまで-->
+<hr />
+
+<!--Image Area
+<div id="top_img_area" style="margin:0 auto; width:900px;">
+<img src="images/index_main_img.jpg" alt="" width="900" height="376" border="0" usemap="#Map" />
+<map name="Map" id="Map">
+  <area shape="rect" coords="18,328,135,359" href="/csr/report/pdf/eco_report2011.pdf" target="_blank" alt="詳細はこちら" />
+</map>
+</div>
+Image Area-->
+
+<!--Flash Area-->
+<div id="top_fla_area">
+<script type="text/javascript" src="/common/js/swfobject.js"></script>
+<div id="fc"><img src="images/index_flash.jpg" alt="" width="900" height="376" /></div>
+<script type="text/javascript">
+var so = new SWFObject('index.swf', 'fc', '900', '376', '7', '#ffffff');
+so.addParam('menu', 'false');
+so.write('fc');
+</script>
+</div><!--Flash Area ここまで-->
+<hr />
+<a id="v-g-navi" name="v-g-navi"></a>
+<!--G-navi -->
+<div class="v-navi">
+<p>ここからサイト内共通メニューです</p>
+<p><a href="#v-category">各カテゴリのメニューへジャンプ</a></p>
+<p><a href="#v-contents">本文へジャンプ</a></p>
+</div>
+<div id="g-menu_bk">
+<div id="g-menu">
+<ul>
+<li id="navi1"><a href="/service/">サービス＆ソリューション</a></li>
+<li id="navi2"><a href="/works/">実績紹介</a></li>
+<li id="navi3"><a href="/tech/">技術紹介</a></li>
+<li id="navi4"><a href="/company/">企業情報</a></li>
+<li id="navi5"><a href="/ir/">IR情報</a></li>
+<li id="navi6"><a href="/csr/">CSR</a></li>
+<li id="navi7"><a href="/recruit/" target="_blank">採用情報</a></li>
+</ul>
+</div>
+</div>
+<!--G-navi ここまで-->
+<hr />
+
+
+<a id="v-contents" name="v-contents"></a>
+<!--Container -->
+<div id="container">
+<div class="column-w900">
+<div class="news left">
+<div class="news_title">
+<p class="news left">ニュース</p>
+<p class="news_more normal right"><a href="/news/">一覧はこちら</a></p>
+</div>
+  <div id="newsList">
+    <p class="normal">データを読み込んでいます。</p>
+  </div>
+</div>
+
+<div class="feed left">
+
+<div class="feed_title">
+	<p class="feed left">前田建設のオススメ</p>
+	<p class="feed_more normal right"><a href="/pickup/">一覧はこちら</a></p>
+</div>
+
+<div id="feedList">
+	<p class="normal" id="notice_feed_load">データを読み込んでいます。</p>
+</div>
+
+<div class="banner_area left">
+<ul>
+<li class="bana1"><a href="/service/index.html"><img src="images/index_bana1.jpg" alt="サービス＆ソリューション" /></a></li>
+<li class="bana2"><a href="/works/index.html"><img src="images/index_bana2.jpg" alt="実績紹介" /></a></li>
+<li class="bana3"><a href="/partner/index.html"><img src="images/index_bana_partner.jpg" alt="協力会社の皆さまへ" /></a></li>
+</ul>
+</div>
+</div>
+
+
+<div class="pickup_area left">
+<!--ここからjsでのピックアップ表示エリア-->
+<div id="pickup">
+<a href="/pickup/index.html"><img src="images/pickup/pickup.gif" alt="PICK UP" /></a><div id="container3">
+<div id="content3">
+<ul id="mycarousel" class="jcarousel-skin-tango">
+<script type="text/javascript">
+var mycarousel_itemList = [
+    {link: '/pickup/divercity.html', url: 'images/pickup/7.jpg', title: 'ダイバーシティへの取り組み'},
+    {link: '/csr/quality/index.html', url: 'images/pickup/2.gif', title: '品質への取り組み'},
+    {link: '/csr/environment/reduction/maeda_sii/index.html', url: 'images/pickup/8.gif', title: 'MAEDA SII 技術シーズ募集'},
+    {link: '/fantasy/index.html', url: 'images/pickup/4.gif', title: 'ファンタジー営業部'},
+    {link: 'http://me-pon.net/', url: 'images/pickup/6.gif', title: '前田建設エコポイント制度(Me-pon)'},
+];
+</script>
+</ul>
+</div>
+</div>
+
+</div>
+<!--ここまでjsでのピックアップ表示エリア-->
+</div>
+
+</div>
+<ul class="foot_bana">
+<li class="bana23"><a href="http://www.maeda-arch-design.jp/" target="_blank"><img src="images/index_bana23.jpg" alt="建築設計統轄部門" /></a></li>
+<li class="bana22"><a href="http://www.maeda-cds.com/" target="_blank"><img src="images/index_bana22.jpg" alt="革新的なデータ処理ソフトウェア" /></a></li>
+<li class="bana3"><a href="http://www.cellulardatasystem.com/" target="_blank"><img src="images/index_bana3.jpg" alt="セルラー・データシステム" /></a></li>
+<li class="bana4"><a href="/tpms/index.html" target="_blank"><img src="images/index_bana4.jpg" alt="MAEDA TPMs（建設情報管理サービス）" /></a></li>
+<li class="bana6"><a href="/tech/all/tk0057.html"><img src="images/index_bana6.jpg" alt="MaSTER FRAME構法" /></a></li>
+<li class="bana7"><a href="/3dcad/index.html"><img src="images/index_bana7.jpg" alt="MAEDA 3D-CADシステム" /></a></li>
+<!---->
+<li class="bana8"><a href="/air_conditioning/index.html"><img src="images/index_bana8.jpg" alt="集合住宅向け床チャンパー空調システム" /></a></li>
+<li class="bana10"><a href="/works/area/thailand_swf/index.html" target="_blank"><img src="images/index_bana10.jpg" alt="タイ実績集" /></a></li>
+<li class="bana18"><a href="/works/area/india_swf/india/index.html" target="_blank"><img src="images/index_bana18.jpg" alt="インド実績集" /></a></li><li class="bana21"><a href="/works/area/vietnam_swf/index.html" target="_blank"><img src="images/index_bana21.jpg" alt="
+ベトナム実績集" /></a></li>
+<li class="bana14"><a href="http://me-pon.net/" target="_top"><img src="images/index_bana14.jpg" alt="前田建設グループ エコポイント制度「Me-pon」" /></a></li>
+<!---->
+<li class="bana15"><a href="/fantasy/index.html" target="_blank"><img src="images/index_bana15.jpg" alt="前田建設ファンタジー営業部" /></a></li>
+<li class="bana11"><a href="/csr/environment/reduction/maeda_sii/index.html"><img src="images/index_bana11.jpg" alt="MAEDA SII" /></a></li>
+</ul>
+
+</div>
+<!--Container ここまで-->
+<hr />
+<!--Footer -->
+<script type="text/javascript" src="/footer.js"></script>
+<!--Footer ここまで-->
+
+</div>
+
+<!--GoogleAnalyticsTAG-->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-4028082-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+<!--GoogleAnalyticsTAG-->
+
+</body>
+
+</html>

@@ -1,0 +1,362 @@
+﻿<!DOCTYPE html>
+<html lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1">
+	<title>いなりあげや油揚げと言えばオーケー食品工業。業務用・家庭用味付け油揚げの製造販売。</title>
+	<meta name="keywords" content="いなり,味付け油揚げ,業務用,ハラール,オーケー食品工業">
+	<meta name="description" content="昭和42年創業、業務用味付け油揚げ国内トップシェア！オーケー食品工業は、阿蘇山を源流とする筑後川水系の水が豊富な福岡県朝倉市で、味付け油揚げのプロとして、伝統製法を大切に、最新技術やハラール認証取得等、時代の変化に対応し続けております。">
+	<link href="./favicon.ico" type="image/x-icon" rel="icon" />
+	<link href="./favicon.ico" type="image/x-icon" rel="shortcut icon" />
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/jquery.bxslider.css">
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+	<script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
+	<script type="text/javascript" src="js/jquery.matchHeight.js"></script>
+	<script type="text/javascript" src="js/common.js"></script>
+	<!--[if lt IE 9]>
+		<script type="text/javascript" src="js/html5.js"></script>
+		<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+	<![endif]-->
+	<script type="text/javascript">
+		$(function($){
+
+			function news_fixed(){
+				if ($(window).width() > 767) {
+					var phn_h = $('#pc_header_nav').height();
+					var tar = $('#maincontens').offset().top  - $('#header_in').height() - phn_h;
+
+					if ($(window).scrollTop() >= tar) {
+						$('#pc_header_nav').addClass('nav_fixed');
+						$('#pc_header_nav').removeClass('nav_not_fixed');
+						$('#pc_header_nav_ul').addClass('down');
+						$('#pc_header_nav_ul').removeClass('up');
+						$('#maincontens').css('margin-top', phn_h);
+					}else{
+						$('#pc_header_nav').addClass('nav_not_fixed');
+						$('#pc_header_nav').removeClass('nav_fixed');
+						$('#pc_header_nav_ul').addClass('up');
+						$('#pc_header_nav_ul').removeClass('down');
+						$('#maincontens').css('margin-top', 0);
+					}
+				}
+			}
+
+			news_fixed();
+
+			$(window).on('load resize scroll', function(){
+				news_fixed();
+			});
+
+			$('.bxslider').bxSlider({
+				auto: true
+			});
+
+			// $('#bnr_slide').bxSlider({
+			// 	ticker: true,
+			// 	tickerHover: true,
+			// 	speed: 15000,
+			// 	slideWidth: 300,
+			// 	slideMargin: 15,
+			// 	useCSS: false
+			// });
+
+			$('.ul_2 li').matchHeight();
+
+			$('#information .info_con').matchHeight();
+		});
+	</script>
+</head>
+<body id="top">
+	<div id="container">
+		<header id="header">
+	<div id="header_in">
+		<div id="header_in_l">
+			<h1>
+				<a href="./">
+					<img src="./img/logo.png" alt="オーケー食品工業株式会社" class="pc">
+					<img src="./img/sp_logo.png" alt="オーケー食品工業株式会社" class="sp_tab">
+				</a>
+			</h1>
+		</div><!-- /header_in_l -->
+		<div id="header_in_r">
+			<div id="hir_pc" class="pc">
+				<div id="hir_nav">
+					<a href="http://www.nippn.co.jp/" target="_blank" title="日本製粉グループ"><img src="./img/logo_nippin.png" alt="NIPPN 日本製粉グループ"></a>
+					<ul class="ul_1">
+						<li><a href="./news/">最新情報</a></li>
+						<li><a href="./contact/">お問い合わせ</a></li>
+					</ul>
+				</div>
+				<a href="./" class="lang" id="lang_jp">日本語</a>
+				<a href="./en/company/" class="lang" id="lang_en">ENGLISH</a>
+			</div><!-- /hir_pc -->
+		</div><!-- /header_in_r -->
+
+		<select name="select_language" id="select_language" class="sp_tab">
+			<option value="">Language</option>
+			<option value="./">日本語</option>
+			<option value="./en/company/">ENGLISH</option>
+		</select>
+
+		<div id="hir_sp" class="sp_tab">
+
+
+			<a href="" id="hir_sp_menu"><img src="./img/sp_icon_menu.png" alt="Menu"></a>
+		</div><!-- /hir_sp -->
+	</div><!-- header_in -->
+</header>
+		
+		<div id="main_img" class="por">
+			<div id="pc_main" class="tab_pc">
+				<ul class="bxslider">
+					<li><a href="company/"><img src="img/main_img01.png" alt=""></a></li>
+					<li><a href="product/"><img src="img/main_img02.png" alt=""></a></li>
+					<li><a href="advantage/"><img src="img/main_img03.png" alt=""></a></li>
+					<li><a href="product/#product_4"><img src="img/main_img05.png" alt=""></a></li>
+				</ul>
+			</div><!-- /pc_main -->
+
+			<div id="sp_main" class="sp">
+				<ul class="bxslider">
+					<li><a href="company/"><img src="img/sp_main_img01.png" alt=""></a></li>
+					<li><a href="product/"><img src="img/sp_main_img02.png" alt=""></a></li>
+					<li><a href="advantage/"><img src="img/sp_main_img03.png" alt=""></a></li>
+					<li><a href="product/#product_4"><img src="img/sp_main_img05.png" alt=""></a></li>
+				</ul>
+			</div><!-- /sp_main -->
+			
+					</div><!-- /main_img -->
+
+		<div id="pc_header_nav" class="pc">
+    <ul id="pc_header_nav_ul" class="">
+        <li class="parent">
+            <span class="parent_span"><a href="./advantage/" class="parent_a">私達の強み</a></span>
+        </li>
+        <li class="parent">
+            <span class="parent_span"><a href="./making/" class="parent_a">油揚げができるまで</a></span>
+        </li>
+        <li class="parent"><span class="parent_span"><a href="./product/" class="parent_a">商品紹介</a></span></li>
+        <li class="parent"><span class="parent_span"><a href="./recipe/" class="parent_a">レシピ集</a></span></li>
+        <li class="parent"><span class="parent_span"><a href="./company/" class="parent_a">会社案内</a></span></li>
+        <li class="parent"><span class="parent_span"><a href="./ir/" class="parent_a">IR情報</a></span></li>
+        <li class="parent"><span class="parent_span"><a href="./recruit/" class="parent_a">採用情報</a></span></li>
+    </ul>
+</div><!-- /pc_header_nav -->
+<div id="sp_header_nav" class="sp_tab">
+    <div id="sp_header_nav_close">
+        <img src="./img/sp_btn_close.png" alt="閉じる">
+    </div>
+    <ul id="sp_header_nav_ul">
+        <li class="parent">
+            <span class="parent_span"><a href="./advantage/" class="parent_a">私達の強み</a></span>
+        </li>
+        <li class="parent">
+            <span class="parent_span"><a href="./making/" class="parent_a">油揚げができるまで</a></span>
+        </li>
+        <li class="parent"><span class="parent_span"><a href="./product/" class="parent_a">商品紹介</a></span></li>
+        <li class="parent"><span class="parent_span"><a href="./recipe/" class="parent_a">レシピ集</a></span></li>
+        <li class="parent"><span class="parent_span"><a href="./company/" class="parent_a">会社案内</a></span></li>
+        <li class="parent"><span class="parent_span"><a href="./ir/" class="parent_a">IR情報</a></span></li>
+        <li class="parent"><span class="parent_span"><a href="./recruit/" class="parent_a">採用情報</a></span></li>
+        <li class="parent"><span class="parent_span"><a href="./news/" class="parent_a">最新情報</a></span></li>
+        <li class="parent"><span class="parent_span"><a href="./contact/" class="parent_a">お問い合わせ</a></span></li>
+    </ul>
+</div><!-- /sp_header_nav -->		<div id="maincontens">
+			<div id="section_1" class="oh">
+				<div id="se1_1" class="se1 por">
+					<img src="img/top_contents_img01.png" alt="" class="img_f tab_pc">
+					<img src="img/sp_contents_img01.png" alt="" class="img_f sp">
+					<h2>私達の強み</h2>
+					<p>阿蘇山を源流とする筑後川水系のほとり<br>良質な地下水でつくる日本の伝統食を<br>みなさまの食卓へお届けします。<br>
+					<a href="advantage/" class="a_1">詳しくはこちら</a></p>
+				</div><!-- /se1_1 -->
+				<div id="se1_2" class="se1 por">
+					<img src="img/top_contents_img03.png" alt="" class="img_f tab_pc">
+					<img src="img/sp_contents_img03.png" alt="" class="img_f sp">
+					<h2>油揚げができるまで</h2>
+					<p>昔から畑のお肉といわれる大豆<br>その大豆の可能性を追求したいという思いを込めて…。<br>弊社の味付け油揚げをご紹介します。<br>
+						<a href="making/" class="a_1">詳しくはこちら</a></p>
+				</div><!-- /se1_2 -->
+				<div id="se1_3" class="se1 por">
+					<img src="img/top_contents_img02.png" alt="" class="img_f tab_pc">
+					<img src="img/sp_contents_img02.png" alt="" class="img_f sp">
+					<h2>商品紹介</h2>
+					<p>安心安全な商品をお届けしたい。<br>お客様のニーズにお応えしたい。<br>そういう思いで商品作りに取り組んでいます。<br>
+						<a href="product/" class="a_1">詳しくはこちら</a></p>
+				</div><!-- /se1_3 -->
+			</div><!-- /section_1 -->
+			<section id="recipe">
+				<h2>おすすめレシピ集</h2>
+				<ul class="ul_2">
+					<li>
+						<div class="ul2_img">
+							<a href="recipe/#recipe_6"><img src="img/recipe_img06.png" alt=""></a>
+						</div>
+						<div class="ul2_title">
+							<a href="recipe/#recipe_6">アボカドいなり（サーモン&チーズわさび）</a>
+						</div>
+						<div class="ul2_content">
+							<p>カフェ風でオシャレに♪アボカドといなり、意外に合うんです！</p>
+						</div>
+						<a href="recipe/#recipe_6" class="ul2_more a_1">詳しくはこちら</a>
+					</li>
+					<li>
+						<div class="ul2_img">
+							<a href="recipe/#recipe_5"><img src="img/recipe_img05.png" alt=""></a>
+						</div>
+						<div class="ul2_title">
+							<a href="recipe/#recipe_5">スパイシーカレーいなり</a>
+						</div>
+						<div class="ul2_content">
+							<p>当社業務用でも人気のカレー味。ご自宅で挑戦してみませんか？</p>
+						</div>
+						<a href="recipe/#recipe_5" class="ul2_more a_1">詳しくはこちら</a>
+					</li>
+					<li>
+						<div class="ul2_img">
+							<a href="recipe/#recipe_4"><img src="img/recipe_img04.png" alt=""></a>
+						</div>
+						<div class="ul2_title">
+							<a href="recipe/#recipe_4">やさしいおやつ♥あげクッキー</a>
+						</div>
+						<div class="ul2_content">
+							<p>昔なつかしい素朴な甘さ。ザクザク食感！やめられない！</p>
+						</div>
+						<a href="recipe/#recipe_4" class="ul2_more a_1">詳しくはこちら</a>
+					</li>
+				</ul>
+			</section>
+			<section id="information">
+				<div id="info_title" class="info_con">
+					<div id="info_title_in">
+						<h2><span>オーケー食品工業からのお知らせ</span><br>最新情報</h2>
+						<span class="tab_pc_i"><a href="news/" class="a_1">一覧をみる</a></span>
+					</div><!-- /info_title_in -->
+				</div>
+				<div id="info" class="info_con">
+					<dl>
+												<dt>
+							<span class="info_cat">[IR情報]</span>
+							<span class="info_date">2017年08月16日</span>
+						</dt>
+						<dd>
+																						<a href="http://ok-food.co.jp/news/?p=212" class="new">第51期第1四半期報告書及び確認書を掲載しました。</a>
+													</dd>
+												<dt>
+							<span class="info_cat">[お知らせ]</span>
+							<span class="info_date">2017年08月16日</span>
+						</dt>
+						<dd>
+																						<a href="http://ok-food.co.jp/news/?p=209" class="new">東京支店移転のお知らせ</a>
+													</dd>
+												<dt>
+							<span class="info_cat">[IR情報]</span>
+							<span class="info_date">2017年08月04日</span>
+						</dt>
+						<dd>
+																						<a href="http://ok-food.co.jp/news/?p=203">平成30年3月期第1四半期決算短信</a>
+													</dd>
+												<dt>
+							<span class="info_cat">[IR情報]</span>
+							<span class="info_date">2017年08月04日</span>
+						</dt>
+						<dd>
+																						<a href="http://ok-food.co.jp/news/?p=199">連結決算開始に伴う連結業績予想に関するお知らせ</a>
+													</dd>
+											</dl>
+					<div id="info_sp_link" class="sp"><a href="news/" class="a_1">一覧をみる</a></div>
+				</div>
+			</section>
+		</div><!-- /maincontens -->
+		<div id="main_bnr">
+	<ul id="bnr_slide">
+		<li><a href="./chara/"><img src="./img/bnr_mitemitemimichan.png" alt="見て見てミミちゃん"></a></li>
+		<li><a href="./learning/" title="いなり寿司を学ぶ"><img src="./img/bnr_zenkokuinari.png" alt="いなり寿司を学ぶ 地域によって異なるいなりをご紹介"></a></li>
+		<li><a href="http://www.nippn.co.jp/" target="_blank"><img src="./img/bnr_nippin.png" alt=""></a></li>
+	</ul>
+</div>
+<footer id="footer">
+	<div id="footer_in">
+		<div id="pc_footer_nav" class="pc">
+			<ul id="pfn_1">
+				<li>
+					<span>■</span><a href="./advantage/" class="pfa_1">私達の強み</a>
+					<ul>
+						<li><a href="./advantage/safety/" class="pfa_2">食の安全・安心への取り組み</a></li>
+						<li><a href="./advantage/delicious/" class="pfa_2">おいしさへのこだわり</a></li>
+						<li><a href="./advantage/needs/" class="pfa_2">お客様のニーズに応える商品づくり</a></li>
+					</ul>
+				</li>
+			</ul>
+			<ul id="pfn_2">
+				<li><span>■</span><a href="./making/" class="pfa_1">油揚げができるまで</a></li>
+				<li><span>■</span><a href="./product/" class="pfa_1">商品紹介</a></li>
+				<li><span>■</span><a href="./recipe/" class="pfa_1">レシピ集</a></li>
+			</ul>
+			<ul>
+				<li>
+					<span>■</span><a href="./company/" class="pfa_1">会社案内</a>
+					<ul>
+						<li><a href="./company/greeting" class="pfa_2">代表者挨拶</a></li>
+						<li><a href="./company/summary" class="pfa_2">会社概要</a></li>
+						<li><a href="./company/history" class="pfa_2">沿革</a></li>
+					</ul>
+				</li>
+			</ul>
+			<ul id="pfn_3">
+				<li>
+					<span>■</span><a href="./ir/" class="pfa_1">ＩＲ情報</a>
+					<ul>
+						<li><a href="./ir/financial/" class="pfa_2">決算短信</a></li>
+						<li><a href="./ir/securities/" class="pfa_2">有価証券報告書</a></li>
+						<li><a href="./ir/generalmeeting/" class="pfa_2">株主総会<!-- ・電子公告 --></a></li>
+					</ul>
+				</li>
+			</ul>
+			<ul>
+				<li>
+					<span>■</span><a href="./recruit/" class="pfa_1">採用情報</a>
+					<ul>
+						<li><a href="./recruit/staff/" class="pfa_2">社員紹介</a></li>
+					</ul>
+				</li>
+				<li><span>■</span><a href="./news/" class="pfa_1">最新情報</a></li>
+				<li><span>■</span><a href="./contact/" class="pfa_1">お問い合わせ</a></li>
+			</ul>
+		</div><!-- /pc_footer_nav -->
+		<div id="sp_footer_nav" class="sp_tab">
+			<ul>
+				<li><a href="./advantage/"><span>私達の強み</span></a></li>
+				<li><a href="./ir/"><span>ＩＲ情報</span></a></li>
+				<li><a href="./making/"><span>油揚げができるまで</span></a></li>
+				<li><a href="./recruit/"><span>採用情報</span></a></li>
+				<li><a href="./product/"><span>商品紹介</span></a></li>
+				<li><a href="./news/"><span>最新情報</span></a></li>
+				<li><a href="./recipe/"><span>レシピ集</span></a></li>
+				<li><a href="./contact/"><span>お問い合わせ</span></a></li>
+				<li><a href="./company/"><span>会社案内</span></a></li>
+				<li><a href="./policy/"><span>利用規約・個人情報保護方針</span></a></li>
+			</ul>
+		</div><!-- /sp_footer_nav -->
+		<img src="./img/footer_character.png" alt="" class="tab_pc" id="footer_character">
+		<a href="./policy/" class="pc" id="footer_policy">利用規約・個人情報保護方針</a>
+
+		
+		<div id="copyright">Copyright(C) 2017 OK food Industry All Rights Reserved.</div>
+		<a href="#container" id="btn_pagetop"><img src="./img/btn_pagetop.png" alt="ページの先頭へ"></a>
+	</div><!-- /footer_in -->
+</footer>	</div><!-- /container -->
+<script type="text/javascript" src="./js/jquery.cookie.js"></script>
+<script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-89088628-1', 'auto');
+  ga('send', 'pageview');
+</script>
+</body>
+</html>

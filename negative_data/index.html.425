@@ -1,0 +1,767 @@
+
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>株式会社アスモ｜食肉卸売事業・給食事業・介護事業・信託事業・外食事業・少額短期保険事業</title>
+<meta name="viewport" content="width=device-width,user-scalable=no,maximum-scale=1" />
+<meta name="Description" content="株式会社アスモは、食肉卸売事業、給食事業、介護事業、信託事業、外食事業、少額短期保険事業を通じて当社独自の視点で様々なサービスを創出し、日々社会に必要とされる企業となれるよう事業活動を展開しております。">
+<meta name="Keywords" content="アスモ,食肉販売,食肉加工品,卸売事業,給食事業,介護事業,信託事業,外食事業,少額短期保険事業">
+<link rel="shortcut icon" href="/favicon/favicon.ico" />
+<link rel="stylesheet" media="all" type="text/css" href="/css/common.css" />
+<link href="/css/jquery.bxslider.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="/css/slick.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/css/slick-theme.css" media="screen" />
+<link rel="stylesheet" media="all" type="text/css" href="/css/style.css" />
+<!-- ※デフォルトのスタイル（style.css） -->
+<link rel="stylesheet" media="all" type="text/css" href="/css/smart.css" />
+<!-- ※スマートフォン用のスタイル（smart.css） -->
+
+<script type="text/javascript" src="/js/jquery.js"></script>
+<script src="/js/drawr.js"></script>
+<script type="text/javascript" src="/js/smoothscroll.js"></script>
+<script type="text/javascript" src="/js/pagetop.js"></script>
+<script type="text/javascript" src="/js/tel.js"></script>
+
+<script type="text/javascript" src="/js/jquery.inview.js"></script>
+
+<script type="text/javascript">
+	$(function() {
+		$('.list-mv01').on('inview', function(event, isInView, visiblePartX, visiblePartY) {
+			if(isInView){
+				$(this).stop().addClass('mv01');
+			}
+			else{
+				$(this).stop().removeClass('mv01');
+			}
+		});
+	});
+	
+	$(function() {
+		$('.list-mv02').on('inview', function(event, isInView, visiblePartX, visiblePartY) {
+			if(isInView){
+				$(this).stop().addClass('mv02');
+			}
+			else{
+				$(this).stop().removeClass('mv02');
+			}
+		});
+	});
+	
+</script>
+
+<script src="/js/jquery.bxslider.min.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('.bxslider').bxSlider({
+			auto: true, //自動スライド
+			pause: 7500, //停止時間
+			mode: 'fade'
+		});
+	});
+</script>
+
+<script src="/js/slick.min.js"></script>
+<script type="text/javascript">
+	$(function() {
+		$('.multiple-item').slick({
+			  infinite: true,
+			  dots:false,
+			  slidesToShow: 5,
+			  slidesToScroll: 1,
+			  responsive: [{
+				   breakpoint: 768,
+						settings: {
+							 slidesToShow: 3,
+							 slidesToScroll: 1,
+				   }
+			  },{
+				   breakpoint: 480,
+						settings: {
+							 slidesToShow: 1,
+							 slidesToScroll: 1,
+						}
+				   }
+			  ]
+		 });
+	});
+</script>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-32932103-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</head>
+
+<body>
+	<a name="pagetop"></a>
+	<div id="container">
+    
+		
+        <header class="header">
+        	<div class="headerin">
+                <div class="logo"><a href="/"><img class="btn" src="/images/logo.png" alt="株式会社アスモ" /></a></div>
+            	<h1>食肉卸売事業、給食事業、介護事業、信託事業、外食事業、少額短期保険事業なら株式会社アスモ</h1>
+                <div class="asmomart"><a class="no_blank" href="https://www.asmo-trading.co.jp/asmomart/" target="_blank"><img class="btn" src="/images/bna_asmomart.png" alt="アスモマート" /></a></div>
+                <div class="inquiry">
+                	<ul>
+                    <li><a href="/about/channel.html">アスモチャンネル</a></li>
+                    <li><a href="/information/sitemap.html">サイトマップ</a></li>
+                    </ul>
+                    <a href="/inquiry/"><img class="btn" src="/images/btn_inquiry.png" alt="お問い合わせ" /></a>
+                </div>
+                <br clear="all">
+            </div>
+            
+            <a class="sidr-btn"></a>
+            
+        </header><!-- header class="header" -->
+        
+<!-- nav start -->
+        <nav class="nav">
+        
+            <div class="drawr">
+                <div class="navin">
+                    <ul id="fade_in" class="dropmenu">
+                    <li><a href="/">ホーム</a></li>
+                    <li><a href="/about/">会社情報</a>
+                    	<ul>
+                        <li><a href="/about/profile.html">会社概要</a></li>
+                        <li><a href="/about/history.html">会社沿革</a></li>
+                        <li><a href="/about/business.html">事業内容</a></li>
+                        <li><a href="/about/culture.html">経営理念</a></li>
+                        <li><a href="/about/company_name.html">社名変更について</a></li>
+                        <li><a href="/about/channel.html">アスモチャンネル</a></li>
+                    	</ul>
+                    </li>
+                    <li><a href="/ir/">投資家情報</a>
+                    	<ul>
+                        <li><a href="/ir/greeting.html">社長挨拶</a></li>
+                        <li><a href="/ir/stock.html">株式情報</a></li>
+                        <li><a href="http://www.pronexus.co.jp/koukoku/2654/2654.html" target="_blank">電子公告</a></li>
+                        <li><a href="/ir/electron.html">決算公告</a></li>
+                        <li><a href="/ir/ircalendar.html">IRカレンダー</a></li>
+                        <li><a href="/ir/accounts.html">決算短信</a></li>
+                        <li><a href="/ir/securities.html">有価証券報告書</a></li>
+                        <li><a href="/ir/results.html">業績推移</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="/news/">ニュースリリース</a>
+                    	<ul>
+                        <li><a href="/news/news-n.html">過去のニュースリリース</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="/recruit/">採用情報</a></li>
+                    </ul>
+                    <br clear="all">
+                </div>
+            </div>
+        </nav>
+        
+        <div class="bxslider_img_w">
+            <ul class="bxslider">
+                <li><img class="bxpc" src="images/img_maintop_pc01.jpg"><img class="bxsp" src="images/img_maintop_sp01.jpg"></li>
+                <li><img class="bxpc" src="images/img_maintop_pc02.jpg"><img class="bxsp" src="images/img_maintop_sp02.jpg"></li>
+                <li><img class="bxpc" src="images/img_maintop_pc03.jpg"><img class="bxsp" src="images/img_maintop_sp03.jpg"></li>
+            </ul>
+        </div>
+        
+        <div class="wrapper">
+        	<div class="h2_style">
+                <h2>アスモグループ</h2>
+            </div>
+            
+            <ul class="group_slide multiple-item">
+                 <li><a href="http://www.asmo-trading.co.jp/" target="_blank"><img class="btn" src="images/bna_group_trading.gif" alt="株式会社アスモトレーディング" /></a></li>
+                 <li><a href="http://www.asmo-foodservice.co.jp/" target="_blank"><img class="btn" src="images/bna_group_food.gif" alt="株式会社アスモフードサービス" /></a></li>
+                 <li><a href="http://www.asmokaigo.co.jp/" target="_blank"><img class="btn" src="images/bna_group_kaigo.gif" alt="株式会社アスモ介護サービス" /></a></li>
+                 <li><a href="http://www.servant.jp/" target="_blank"><img class="btn" src="images/bna_group_servant.gif" alt="サーバントラスト信託株式会社" /></a></li>
+                 <li><a href="http://www.asmo-ssi.co.jp/" target="_blank"><img class="btn" src="images/bna_group_ssi.gif" alt="アスモ少額短期保険株式会社" /></a></li>
+                 <li><a href="http://www.asmo-catering.com/" target="_blank"><img class="btn" src="images/bna_group_caterring_HK.gif" alt="ASMO CATERING（H.K.）COMPANY LIMITED" /></a></li>
+                 <li><a href="http://www.asmo-catering.com/taiwan/" target="_blank"><img class="btn" src="images/bna_group_caterring_TW.gif" alt="ASMO CATERING TAIWAN COMPANY LIMITED" /></a></li>
+                 <li><a href="http://www.asmo-catering.com/malaysia/" target="_blank"><img class="btn" src="images/bna_group_caterring_MA.gif" alt="ASMO CATERING MALAYSIA SDN.BHD." /></a></li>
+                 <li><a href="http://www.asmo1.co.jp/restaurant/" target="_blank"><img class="btn" src="images/bna_group_past.gif" alt="株式会社ぱすと" /></a></li>
+            </ul>
+            
+            <div class="news_area">
+            	<div class="news_areain">
+                	<div class="topics_area">
+                    	<h3>トピックス&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="font-weight:normal; font-size:75%; text-decoration:none;" href="news/">&gt;&gt;過去のトピックス</a></h3>
+                        
+						
+	<div class="topics-inc">
+                
+                <!----------------------------ここから--------------------------->
+		<ul class="topics">
+			<li class="row1">2017/08/14</li>
+			<li class="row2"><a href="ir/sec_pdf/43-1.pdf" target="_blank">投資家情報に「平成30年3月期　四半期報告書（第1四半期）」を追加致しました。</a></li>
+		</ul>
+		<!----------------------------ここまで---------------------------->
+
+                <!----------------------------ここから--------------------------->
+		<ul class="topics">
+			<li class="row1">2017/08/14</li>
+			<li class="row2"><a href="ir/add_pdf/17081402.pdf" target="_blank">投資家情報に「平成30年3月期　第1四半期決算短信」を追加致しました。</a></li>
+		</ul>
+		<!----------------------------ここまで---------------------------->
+
+                <!----------------------------ここから--------------------------->
+		<ul class="topics">
+			<li class="row1">2017/08/14</li>
+			<li class="row2"><a href="news/pdf/17081401.pdf" target="_blank">ニュースリリースに「平成29年7月度 月次実績のお知らせ」を追加致しました。</a></li>
+		</ul>
+		<!----------------------------ここまで---------------------------->
+
+		<!----------------------------ここから--------------------------->
+		<ul class="topics">
+			<li class="row1">2017/07/12</li>
+			<li class="row2"><a href="news/pdf/170712.pdf" target="_blank">ニュースリリースに「平成29年6月度 月次実績のお知らせ」を追加致しました。</a></li>
+		</ul>
+		<!----------------------------ここまで---------------------------->
+	
+	        <!----------------------------ここから--------------------------->
+		<ul class="topics">
+			<li class="row1">2017/06/30</li>
+			<li class="row2"><a href="news/pdf/170630.pdf" target="_blank">ニュースリリースに「コーポレート・ガバナンスに関する報告書」を追加致しました。</a></li>
+		</ul>
+		<!----------------------------ここまで---------------------------->
+              　<!----------------------------ここから--------------------------->
+		<ul class="topics">
+			<li class="row1">2017/06/29</li>
+			<li class="row2"><a href="ir/sec_pdf/42_yh.pdf" target="_blank">投資家情報に「平成29年3月期　有価証券報告書」を追加致しました。</a></li>
+		</ul>
+		<!----------------------------ここまで---------------------------->　
+　　　　　　　　<!----------------------------ここから--------------------------->
+		<ul class="topics">
+			<li class="row1">2017/06/28</li>
+			<li class="row2"><a href="news/pdf/17062803.pdf" target="_blank">ニュースリリースに「支配株主等に関する事項について」を追加致しました。</a></li>
+		</ul>
+		<!----------------------------ここまで---------------------------->　
+　　　　　　　　<!----------------------------ここから--------------------------->
+		<ul class="topics">
+			<li class="row1">2017/06/28</li>
+			<li class="row2"><a href="news/pdf/17062802.pdf" target="_blank">ニュースリリースに「親会社の決算に関するお知らせ」を追加致しました。</a></li>
+		</ul>
+		<!----------------------------ここまで---------------------------->
+        	<!----------------------------ここから--------------------------->
+		<ul class="topics">
+			<li class="row1">2017/06/28</li>
+			<li class="row2"><a href="news/pdf/17062801.pdf" target="_blank">ニュースリリースに「第42回定時株主総会の議決権行使結果に関するお知らせ」を追加致しました。</a></li>
+		</ul>
+		<!----------------------------ここまで---------------------------->
+		<!----------------------------ここから--------------------------->
+		<ul class="topics">
+			<li class="row1">2017/06/13</li>
+			<li class="row2"><a href="news/pdf/17061302.pdf" target="_blank">ニュースリリースに「第42回定時株主総会招集ご通知」を追加致しました。</a></li>
+		</ul>
+		<!----------------------------ここまで---------------------------->
+		<!----------------------------ここから--------------------------->
+		<ul class="topics">
+			<li class="row1">2017/06/13</li>
+			<li class="row2"><a href="news/pdf/17061301.pdf" target="_blank">ニュースリリースに「平成29年5月度 月次実績のお知らせ」を追加致しました。</a></li>
+		</ul>
+		<!----------------------------ここまで---------------------------->
+		<!----------------------------ここから--------------------------->
+		<ul class="topics">
+			<li class="row1">2017/06/02</li>
+			<li class="row2"><a href="news/pdf/170602.pdf" target="_blank">ニュースリリースに「独立役員届出書のお知らせ」を追加致しました。</a></li>
+		</ul>
+		<!----------------------------ここまで---------------------------->
+		<!----------------------------ここから--------------------------->
+		<ul class="topics">
+			<li class="row1">2017/05/30</li>
+			<li class="row2"><a href="news/pdf/17053002.pdf" target="_blank">ニュースリリースに「単元株式数の変更、株式の併合及び定款の一部変更に関するお知らせ」を追加致しました。</a></li>
+		</ul>
+		<!----------------------------ここまで---------------------------->
+		<!----------------------------ここから--------------------------->
+		<ul class="topics">
+			<li class="row1">2017/05/30</li>
+			<li class="row2"><a href="news/pdf/17053001.pdf" target="_blank">ニュースリリースに「第42回定時株主総会の付議議案決定に関するお知らせ」を追加致しました。</a></li>
+		</ul>
+		<!----------------------------ここまで---------------------------->
+		<!----------------------------ここから--------------------------->
+		<ul class="topics">
+			<li class="row1">2017/05/12</li>
+			<li class="row2"><a href="ir/add_pdf/17051202.pdf" target="_blank">投資家情報に「平成29年3月期　決算短信」を追加致しました。</a></li>
+		</ul>
+		<!----------------------------ここまで---------------------------->
+	
+		<!----------------------------ここから--------------------------->
+		<ul class="topics">
+			<li class="row1">2017/05/12</li>
+			<li class="row2"><a href="news/pdf/17051201.pdf" target="_blank">ニュースリリースに「平成29年4月度 月次実績のお知らせ」を追加致しました。</a></li>
+		</ul>
+		<!----------------------------ここまで---------------------------->
+	
+		<!----------------------------ここから--------------------------->
+		<ul class="topics">
+			<li class="row1">2017/04/12</li>
+			<li class="row2"><a href="news/pdf/170412.pdf" target="_blank">ニュースリリースに「平成29年3月度 月次実績のお知らせ」を追加致しました。</a></li>
+		</ul>
+		<!----------------------------ここまで---------------------------->
+	
+		<!----------------------------ここから--------------------------->
+		<ul class="topics">
+			<li class="row1">2017/03/14</li>
+			<li class="row2"><a href="news/pdf/170314.pdf" target="_blank">ニュースリリースに「平成29年2月度 月次実績のお知らせ」を追加致しました。</a></li>
+		</ul>
+		<!----------------------------ここまで---------------------------->
+	
+		<!----------------------------ここから--------------------------->
+		<ul class="topics">
+			<li class="row1">2017/02/14</li>
+			<li class="row2"><a href="news/pdf/17021402.pdf" target="_blank">ニュースリリースに「平成29年1月度 月次実績のお知らせ」を追加致しました。</a></li>
+		</ul>
+		<!----------------------------ここまで---------------------------->
+		<!----------------------------ここから--------------------------->
+		<ul class="topics">
+			<li class="row1">2017/02/14</li>
+			<li class="row2"><a href="ir/sec_pdf/42-3.pdf" target="_blank">投資家情報に「平成29年3月期　四半期報告書（第3四半期）」を追加致しました。</a></li>
+		</ul>
+		<!----------------------------ここまで---------------------------->
+		<!----------------------------ここから--------------------------->
+		<ul class="topics">
+			<li class="row1">2017/02/14</li>
+			<li class="row2"><a href="ir/add_pdf/170214.pdf" target="_blank">投資家情報に「平成29年3月期　第3四半期決算短信」を追加致しました。</a></li>
+		</ul>
+		<!----------------------------ここまで---------------------------->
+	
+		<!----------------------------ここから--------------------------->
+		<ul class="topics">
+			<li class="row1">2017/01/12</li>
+			<li class="row2"><a href="news/pdf/170112.pdf" target="_blank">ニュースリリースに「平成28年12月度 月次実績のお知らせ」を追加致しました。</a></li>
+		</ul>
+		<!----------------------------ここまで---------------------------->
+	
+		<!----------------------------ここから--------------------------->
+		<ul class="topics">
+			<li class="row1">2016/12/13</li>
+			<li class="row2"><a href="news/pdf/161213.pdf" target="_blank">ニュースリリースに「平成28年11月度 月次実績のお知らせ」を追加致しました。</a></li>
+		</ul>
+		<!----------------------------ここまで---------------------------->
+	
+		<!----------------------------ここから--------------------------->
+		<ul class="topics">
+			<li class="row1">2016/11/15</li>
+			<li class="row2"><a href="news/pdf/161115.pdf" target="_blank">ニュースリリースに「平成28年10月度 月次実績のお知らせ」を追加致しました。</a></li>
+		</ul>
+		<!----------------------------ここまで---------------------------->
+	
+		<!----------------------------ここから--------------------------->
+		<ul class="topics">
+			<li class="row1">2016/11/14</li>
+			<li class="row2"><a href="ir/sec_pdf/42-2.pdf" target="_blank">投資家情報に「平成29年3月期　四半期報告書（第2四半期）」を追加致しました。</a></li>
+		</ul>
+		<!----------------------------ここまで---------------------------->
+	
+		<!----------------------------ここから--------------------------->
+		<ul class="topics">
+			<li class="row1">2016/11/14</li>
+			<li class="row2"><a href="ir/add_pdf/161114.pdf" target="_blank">投資家情報に「平成29年3月期　第2四半期決算短信」を追加致しました。</a></li>
+		</ul>
+		<!----------------------------ここまで---------------------------->
+	
+		<!----------------------------ここから--------------------------->
+		<ul class="topics">
+			<li class="row1">2016/10/12</li>
+			<li class="row2"><a href="news/pdf/161012.pdf" target="_blank">ニュースリリースに「平成28年9月度 月次実績のお知らせ」を追加致しました。</a></li>
+		</ul>
+		<!----------------------------ここまで---------------------------->
+	
+		<!----------------------------ここから--------------------------->
+		<ul class="topics">
+			<li class="row1">2016/09/23</li>
+			<li class="row2"><a href="news/pdf/160923.pdf" target="_blank">ニュースリリースに「マレーシア現地法人での出店のお知らせ」を追加致しました。</a></li>
+		</ul>
+		<!----------------------------ここまで---------------------------->
+	
+		<!----------------------------ここから--------------------------->
+		<ul class="topics">
+			<li class="row1">2016/09/13</li>
+			<li class="row2"><a href="news/pdf/160913.pdf" target="_blank">ニュースリリースに「平成28年8月度 月次実績のお知らせ」を追加致しました。</a></li>
+		</ul>
+		<!----------------------------ここまで---------------------------->
+	
+		<!----------------------------ここから--------------------------->
+		<ul class="topics">
+			<li class="row1">2016/08/15</li>
+			<li class="row2"><a href="ir/sec_pdf/42-1.pdf" target="_blank">投資家情報に「平成29年3月期　四半期報告書（第1四半期）」を追加致しました。</a></li>
+		</ul>
+		<!----------------------------ここまで---------------------------->
+	
+		<!----------------------------ここから--------------------------->
+		<ul class="topics">
+			<li class="row1">2016/08/12</li>
+			<li class="row2"><a href="news/pdf/16081203.pdf" target="_blank">ニュースリリースに「子会社の会社分割（新設分割）及び孫会社の異動（取得）に関するお知らせ」を追加致しました。</a></li>
+		</ul>
+		<!----------------------------ここまで---------------------------->
+	
+		<!----------------------------ここから--------------------------->
+		<ul class="topics">
+			<li class="row1">2016/08/12</li>
+			<li class="row2"><a href="ir/add_pdf/16081202.pdf" target="_blank">投資家情報に「平成29年3月期　第1四半期決算短信」を追加致しました。</a></li>
+		</ul>
+		<!----------------------------ここまで---------------------------->
+	
+		<!----------------------------ここから--------------------------->
+		<ul class="topics">
+			<li class="row1">2016/08/12</li>
+			<li class="row2"><a href="news/pdf/16081201.pdf" target="_blank">ニュースリリースに「平成28年7月度 月次実績のお知らせ」を追加致しました。</a></li>
+		</ul>
+		<!----------------------------ここまで---------------------------->
+	
+		<!----------------------------ここから--------------------------->
+		<ul class="topics">
+			<li class="row1">2016/07/13</li>
+			<li class="row2"><a href="news/pdf/160713.pdf" target="_blank">ニュースリリースに「平成28年6月度 月次実績のお知らせ」を追加致しました。</a></li>
+		</ul>
+		<!----------------------------ここまで---------------------------->
+	
+		<!----------------------------ここから--------------------------->
+		<ul class="topics">
+			<li class="row1">2016/06/29</li>
+			<li class="row2"><a href="ir/sec_pdf/41_yh.pdf" target="_blank">投資家情報に「平成28年3月期　有価証券報告書」を追加致しました。</a></li>
+		</ul>
+		<!----------------------------ここまで---------------------------->
+	
+		<!----------------------------ここから--------------------------->
+		<ul class="topics">
+			<li class="row1">2016/06/28</li>
+			<li class="row2"><a href="news/pdf/16062803.pdf" target="_blank">ニュースリリースに「第41回定時株主総会の議決権行使結果に関するお知らせ」を追加致しました。</a></li>
+		</ul>
+		<!----------------------------ここまで---------------------------->
+		<!----------------------------ここから--------------------------->
+		<ul class="topics">
+			<li class="row1">2016/06/28</li>
+			<li class="row2"><a href="news/pdf/16062802.pdf" target="_blank">ニュースリリースに「親会社の決算に関するお知らせ」を追加致しました。</a></li>
+		</ul>
+		<!----------------------------ここまで---------------------------->
+	
+		<!----------------------------ここから--------------------------->
+		<ul class="topics">
+			<li class="row1">2016/06/28</li>
+			<li class="row2"><a href="news/pdf/16062801.pdf" target="_blank">ニュースリリースに「支配株主等に関する事項について」を追加致しました。</a></li>
+		</ul>
+		<!----------------------------ここまで---------------------------->
+	
+		<!----------------------------ここから--------------------------->
+		<ul class="topics">
+			<li class="row1">2016/06/14</li>
+			<li class="row2"><a href="news/pdf/160614.pdf" target="_blank">ニュースリリースに「平成28年5月度 月次実績のお知らせ」を追加致しました。</a></li>
+		</ul>
+		<!----------------------------ここまで---------------------------->
+	
+		<!----------------------------ここから--------------------------->
+		<ul class="topics">
+			<li class="row1">2016/06/13</li>
+			<li class="row2"><a href="news/pdf/160613.pdf" target="_blank">ニュースリリースに「第41回定時株主総会招集ご通知」を追加致しました。</a></li>
+		</ul>
+		<!----------------------------ここまで---------------------------->
+	
+		<!----------------------------ここから--------------------------->
+		<ul class="topics">
+			<li class="row1">2016/06/08</li>
+			<li class="row2"><a href="news/pdf/160608.pdf" target="_blank">ニュースリリースに「独立役員届出書」を追加致しました。</a></li>
+		</ul>
+		<!----------------------------ここまで---------------------------->
+	
+		<!----------------------------ここから--------------------------->
+		<ul class="topics">
+			<li class="row1">2016/06/01</li>
+			<li class="row2"><a href="news/pdf/160601.pdf" target="_blank">ニュースリリースに「第41回定時株主総会の付議議案決定に関するお知らせ」を追加致しました。</a></li>
+		</ul>
+		<!----------------------------ここまで---------------------------->
+	
+		<!----------------------------ここから--------------------------->
+		<ul class="topics">
+			<li class="row1">2016/05/12</li>
+			<li class="row2"><a href="ir/add_pdf/16051203.pdf" target="_blank">投資家情報に「平成28年3月期　決算短信」を追加致しました。</a></li>
+		</ul>
+		<!----------------------------ここまで---------------------------->
+		<!----------------------------ここから--------------------------->
+		<ul class="topics">
+			<li class="row1">2016/05/12</li>
+			<li class="row2"><a href="news/pdf/16051202.pdf" target="_blank">ニュースリリースに「海外子会社設立に関するお知らせ」を追加致しました。</a></li>
+		</ul>
+		<!----------------------------ここまで---------------------------->
+	
+	
+		<!----------------------------ここから--------------------------->
+		<ul class="topics">
+			<li class="row1">2016/05/12</li>
+			<li class="row2"><a href="news/pdf/16051201.pdf" target="_blank">ニュースリリースに「平成28年4月度 月次実績のお知らせ」を追加致しました。</a></li>
+		</ul>
+		<!----------------------------ここまで---------------------------->
+	
+		<!----------------------------ここから--------------------------->
+		<ul class="topics">
+			<li class="row1">2016/04/28</li>
+			<li class="row2"><a href="news/pdf/160428.pdf" target="_blank">ニュースリリースに「取締役の辞任に関するお知らせ」を追加致しました。</a></li>
+		</ul>
+		<!----------------------------ここまで---------------------------->
+	
+		<!----------------------------ここから--------------------------->
+		<ul class="topics">
+			<li class="row1">2016/04/12</li>
+			<li class="row2"><a href="news/pdf/160412.pdf" target="_blank">ニュースリリースに「平成28年3月度 月次実績のお知らせ」を追加致しました。</a></li>
+		</ul>
+		<!----------------------------ここまで---------------------------->
+	
+	</div>
+                
+                	</div>
+                    
+                	<div class="topics_area">
+                    	<h3>プレスリリース</h3>
+                        
+						
+	<div class="topics-inc">
+	
+	
+		<!----------------------------ここから--------------------------->
+		<ul class="topics">
+			<li class="row1">2017/08/01</li>
+			<li class="row2"><span><a href="http://www.asmo-ssi.co.jp/" target="_blank">アスモ少額短期保険株式会社</a></span><br>
+			「アスモ少額短期保険株式会社」代表：飛田が「藤沢久美の社長Talk」に出演しました。<br>
+			<a href="http://www.shachotalk.jp/talk/20170801" target="_blank">▼ダイジェスト版はコチラ</a></li>
+		</ul>
+		<!----------------------------ここまで---------------------------->
+		<!----------------------------ここから--------------------------->
+		<ul class="topics">
+			<li class="row1">2017/07/11</li>
+			<li class="row2"><span><a href="http://www.asmo-ssi.co.jp/" target="_blank">アスモ少額短期保険株式会社</a></span><br>
+			<a href="http://www.asmo-ssi.co.jp/news/pdf/170706newsrelease.pdf" target="_blank">災害救助法が適用された地域のご契約者様へ</a></li>
+		</ul>
+		<!----------------------------ここまで---------------------------->
+		<!----------------------------ここから--------------------------->
+		<ul class="topics">
+			<li class="row1">2017/06/20</li>
+			<li class="row2">株式会社アスモのWEBサイトをリニューアル公開致しました。</li>
+		</ul>
+		<!----------------------------ここまで---------------------------->
+		<!----------------------------ここから--------------------------->
+		<ul class="topics">
+			<li class="row1">2017/05/31</li>
+			<li class="row2"><span><a href="http://www.asmokaigo.co.jp/" target="_blank">株式会社アスモ介護サービス</a></span><br>
+			<a href="http://www.asmokaigo.co.jp/facilities/toyonaka/facility.html" target="_blank" title="">6月1日よりアスモ介護サービスの有料老人ホーム「ベストライフ豊中」がオープン。</a></li>
+		</ul>
+		<!----------------------------ここまで---------------------------->
+<!----------------------------ここから--------------------------->
+		<ul class="topics">
+			<li class="row1">2016/12/22</li>
+			<li class="row2">
+<strong style="font-weight:bold;">年末年始休業のお知らせ</strong><br>
+弊社の年末年始は下記の通り休業とさせていただきます。<br>
+<br>
+<span>2016年12月29日(木)　平常通り業務</span><br>
+<span>2016年12月30日(金)～2017年1月3日(火)　全社休業</span><br>
+<span>2017年1月4日(水)　平常通り業務</span><br>
+<br>
+誠に勝手ながら、この期間における各サービス・お問い合わせ等につきましては、ホームページにて随時受け付けておりますが、
+1月4日(水)以降順次対応させていただきます。ご了承のほどよろしくお願いいたします。<br>
+本年中の御愛顧に心より御礼申し上げますと共に、来年も変わらぬご指導ご鞭撻のほど、よろしくお願い申し上げます。
+			
+			</li>
+		</ul>
+<!----------------------------ここまで---------------------------->
+
+
+
+<!----------------------------ここから--------------------------->
+		<ul class="topics">
+			<li class="row1">2016/12/01</li>
+			<li class="row2"><span><a href="http://www.asmo1.co.jp/" target="_blank">株式会社アスモ</a></span><br>
+			<a href="./releases161201.html" target="_blank" title="肥後達男・㈱アスモ監査役が瑞宝小綬章を受章">肥後達男・㈱アスモ監査役が瑞宝小綬章を受章致しました。</a></li>
+		</ul>
+<!----------------------------ここまで---------------------------->
+		
+<!----------------------------ここから--------------------------->
+		<!--
+		<ul class="topics">
+			<li class="row1">2016/03/07</li>
+			<li class="row2"><span><a href="./window.html" onclick="window.open('./lp/index.html', '', 'width=1000,height=650'); return false;" target="_blank">株式会社アスモフードサービス</a></span><br>
+			<a href="./window.html" onclick="window.open('./lp/index.html', '', 'width=1000,height=650'); return false;" target="_blank" title="">2016年4月より料理研究家 浜内千波先生レシピ監修を実施致します。</a></li>
+		</ul>
+-->
+		<!----------------------------ここまで---------------------------->
+
+
+		<!----------------------------ここから--------------------------->
+		<ul class="topics">
+			<li class="row1">2015/12/15</li>
+			<li class="row2"><span><a href="http://www.servant.jp/" target="_blank">サーバントラスト信託株式会社</a></span><br>
+			<a href="http://www.servant.jp/bigsite" target="_blank" title="">サーバントラスト信託株式会社がエンディング産業展2015 in東京ビッグサイトに出展致しました。</a></li>
+		</ul>
+		<!----------------------------ここまで---------------------------->
+		<!----------------------------ここから--------------------------->
+		<ul class="topics">
+			<li class="row1">2015/11/26</li>
+			<li class="row2"><span><a href="http://www.asmokaigo.co.jp/" target="_blank">株式会社アスモ介護サービス</a></span><br>
+			<a href=" http://www.asmokaigo.co.jp/" target="_blank" title="">アスモ介護サービスの有料老人ホーム「ベストライフ鳩ヶ谷」がテレビ埼玉にて放映されました。</a></li>
+		</ul>
+		<!----------------------------ここまで---------------------------->
+		<!----------------------------ここから--------------------------->
+		<ul class="topics">
+			<li class="row1">2015/03/04</li>
+			<li class="row2"><span><a href="http://www.asmo-trading.co.jp/" target="_blank">株式会社アスモトレーディング</a></span><br>
+			<a href="http://news.nissyoku.co.jp/Contents/urn/newsml/nissyoku.co.jp/20150216/SATO20150209090438825/1?tw=%E4%BA%AC%E5%A4%AA%E9%83%8E&fo=2&category=&industry=&1y=2013&1m=03&1d=03&2y=2015&2m=03&2d=03&g=on&h=on&n=on&k=on&mlc=20&si=0" target="_blank" title="焼肉ビジネスフェア2015in大阪 プロボクサー京太郎さんも参加した動画公開">日本食糧新聞(電子版)で「焼肉ビジネスフェア2015in大阪」の出展の様子が紹介されました。</a></li>
+		</ul>
+		<!----------------------------ここまで---------------------------->
+		<!----------------------------ここから--------------------------->
+		<ul class="topics">
+			<li class="row1">2014/12/22</li>
+			<li class="row2"><span><a href="http://www.asmokaigo.co.jp/" target="_blank">株式会社アスモ介護サービス</a></span><br>
+			<a href="http://j-president.net/tokyo/asmokaigo" target="_blank">『東京の社長TV』に柿内康宏代表取締役のインタビュー番組が公開されました。</a><br>
+			訪問介護・在宅介護サービスといった事業を行う中で、感謝の気持ちを一番大切にしている【株式会社アスモ介護サービス】の柿内代表が、120点を目指すのではなく100点を取る為に約束事を確実にこなす誠実さを重んじる理由とは？</li>
+		</ul>
+		<!----------------------------ここまで---------------------------->
+		<!----------------------------ここから--------------------------->
+		<ul class="topics">
+			<li class="row1">2014/10/31</li>
+			<li class="row2"><span><a href="http://www.servant.jp/" target="_blank">サーバントラスト信託株式会社</a></span><br>
+			<a href="images/releases/20141031_servant.pdf" target="_blank">医療機関向情報誌 「ＴＶホスピタル 関西版」11月号にペット用信託「ペットライフ信託」を紹介いたしました。</a></li>
+		</ul>
+		<!----------------------------ここまで---------------------------->
+		<!----------------------------ここから--------------------------->
+		<ul class="topics">
+			<li class="row1">2014/10/09</li>
+			<li class="row2"><span><a href="http://www.servant.jp/" target="_blank">サーバントラスト信託株式会社</a></span><br>
+			<a href="images/releases/20141009_servant.gif" target="_blank">月刊『仏事』10月号に渡辺浩二取締役のインタビュー記事が掲載されました。</a></li>
+		</ul>
+		<!----------------------------ここまで---------------------------->
+		<!----------------------------ここから--------------------------->
+		<ul class="topics">
+			<li class="row1">2014/10/03</li>
+			<li class="row2"><span><a href="http://www.asmo-ssi.co.jp/" target="_blank">アスモ少額短期保険株式会社</a></span><br>
+			女優・三井智映子さんのインタビュー動画が公開されました。<br>
+			会社の事や商品開発の背景、少額短期保険の魅力について、女優の三井智映子さんが飛田浩志代表取締役にインタビュー。</li>
+		</ul>
+		<!----------------------------ここまで---------------------------->
+		<!----------------------------ここから--------------------------->
+		<ul class="topics">
+			<li class="row1">2014/06/13</li>
+			<li class="row2"><span><a href="http://www.asmo-ssi.co.jp/" target="_blank">アスモ少額短期保険株式会社</a></span><br>
+			<a href="http://j-president.net/tokyo/asmo" target="_blank">『東京の社長TV』に飛田浩志代表取締役のインタビュー番組が公開されました。</a><br>
+			介護保険などの保険事業を手がける【アスモ少額短期保険株式会社】は、実際に介護に従事している方と組むことで更に安心を提供出来るようなビジネスモデルをつくっていく。<br>
+			飛田代表が語る他社にはない強みとは？</li>
+		</ul>
+		<!----------------------------ここまで---------------------------->
+		<!----------------------------ここから--------------------------->
+		<!--
+		<ul class="topics">
+			<li class="row1">2014/01/20</li>
+			<li class="row2"><span><a href="http://www.servant.jp/" target="_blank">サーバントラスト信託株式会社</a></span><br>
+			ペットライフ信託について、2014年1月20日の産経新聞に掲載されました。</li>
+		</ul>
+		-->
+		<!----------------------------ここまで---------------------------->
+
+	</div>
+                
+                	</div>
+
+            	</div>
+        	</div><!-- div class="news_area" -->
+            
+        	<div class="h2_style">
+                <h2>ピックアップコンテンツ</h2>
+            </div>
+            
+            <div class="pickup">
+            	<div class="pickup_contents zoom"><a href="about/"><img class="btn list-mv01" src="/images/pickup_about.png" alt="会社情報" /></a></div>
+            	<div class="pickup_contents zoom"><a href="ir/"><img class="btn list-mv01" src="/images/pickup_ir.png" alt="投資家情報" /></a></div>
+            	<div class="pickup_contents zoom"><a href="news/"><img class="btn list-mv01" src="/images/pickup_news.png" alt="ニュースリリース" /></a></div>
+            	<div class="pickup_contents zoom"><a href="recruit/"><img class="btn list-mv01" src="/images/pickup_recruit.png" alt="採用情報" /></a></div>
+            	<div class="pickup_contents zoom"><a href="inquiry/"><img class="btn list-mv01" src="/images/pickup_inquiry.png" alt="お問い合わせ" /></a></div>
+            	<div class="pickup_other zoom">
+                	<ul class="list-mv01">
+                    <li><a href="about/channel.html">アスモチャンネル</a></li>
+                    <li><a href="http://www.asmo-trading.co.jp/asmomart/" target="_blank">通販オンラインショップ アスモマート</a></li>
+                    <li><a href="http://www.asmo1.co.jp/restaurant/" target="_blank">イタリアンレストラン ドンナドーロ</a></li>
+                    </ul>
+                </div>
+            </div>
+                
+        </div><!-- div class="wrapper" -->
+        
+		
+	<footer class="footer">
+		<div class="footerin">
+		<p class="pagetop"><a href="#pagetop">▲</a></p>
+			<div class="fb">
+			
+				<div id="fb-root"></div>
+				<script>(function(d, s, id) {
+				  var js, fjs = d.getElementsByTagName(s)[0];
+				  if (d.getElementById(id)) return;
+				  js = d.createElement(s); js.id = id;
+				  js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.4&appId=462339323831378";
+				  fjs.parentNode.insertBefore(js, fjs);
+				}(document, 'script', 'facebook-jssdk'));</script>
+							<div class="fb-page" data-href="https://www.facebook.com/ASMO.CORPORATION" data-width="200" data-height="250" data-small-header="false" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="false" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/ASMO.CORPORATION"><a href="https://www.facebook.com/ASMO.CORPORATION">株式会社アスモ</a></blockquote></div></div>
+			
+			</div>
+			
+			<ul>
+			<li><a href="/about/">会社情報</a></li>
+			<li><a href="/about/profile.html">会社概要</a></li>
+			<li><a href="/about/history.html">会社沿革</a></li>
+			<li><a href="/about/business.html">事業内容</a></li>
+			<li><a href="/about/culture.html">経営理念</a></li>
+			<li><a href="/about/company_name.html">社名変更について</a></li>
+			<li><a href="/about/channel.html">アスモチャンネル</a></li>
+
+			</ul>
+			
+			<ul>
+			<li><a href="/ir/">投資家情報</a></li>
+			<li><a href="/ir/greeting.html">社長挨拶</a></li>
+			<li><a href="/ir/stock.html">株式情報</a></li>
+			<li><a href="http://www.pronexus.co.jp/koukoku/2654/2654.html" target="_blank">電子公告</a></li>
+			<li><a href="/ir/electron.html">決算公告</a></li>
+			<li><a href="/ir/ircalendar.html">IRカレンダー</a></li>
+			<li><a href="/ir/accounts.html">決算短信</a></li>
+			<li><a href="/ir/securities.html">有価証券報告書</a></li>
+			<li><a href="/ir/results.html">業績推移</a></li>
+
+			</ul>
+			
+			<ul>
+			<li><a href="/news/">ニュースリリース</a></li>
+			<li><a href="/recruit/">採用情報</a></li>
+			<li><a href="/inquiry/">お問い合わせ</a></li>
+			<li><a href="/information/sitemap.html">サイトマップ</a></li>
+			<li><a href="/information/sitepolicy.html">サイトポリシー</a></li>
+			<li><a href="/information/privacy.html">個人情報保護方針</a></li>
+			<li><a href="/fb.html">関係会社のFacebook</a></li>
+
+			</ul>
+			
+		</div>
+		
+		<div class="footerin">
+			<address>
+				<img src="/images/toshonibu_logo.gif" alt="東証二部上場">
+				<p><b>株式会社アスモ　〒163-0825　東京都新宿区西新宿ニ丁目４番１号 新宿NSビル25階　TEL：03-6911-0550</b><br>
+				Copyright&copy; ASMO CORPORATION.All Rights Reserved.</p>
+			</address>
+		</div>
+		
+	</footer><!-- div class="footer" -->
+        
+	</div><!-- div class="container" -->
+</body>
+</html>

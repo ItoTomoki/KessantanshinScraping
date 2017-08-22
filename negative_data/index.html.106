@@ -1,0 +1,390 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="GENERATOR" content="JustSystems Homepage Builder Version 16.0.10.0 for Windows">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<title>南海辰村建設株式会社</title>
+<link href="css/default.css" rel="stylesheet" type="text/css">
+<link href="css/top.css" rel="stylesheet" type="text/css">
+<script type=“text/javascript” src=“tabs/AC_RunActiveContent.js”></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.1/jquery.min.js"></script>
+<!-- ui tabs.js -->
+<script type="text/javascript" src="tabs/ui.core.js"></script>
+<script type="text/javascript" src="tabs/ui.tabs.js"></script>
+<script type="text/javascript" src="js/tab.work.js"></script>
+<link href="tabs/ui.tabs.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+$(function() {
+
+	//ページ内スクロール
+	$(".btn_sample").click(function () {
+		var i = $(".btn_sample").index(this)
+		var p = $(".content").eq(i).offset().top;
+		$('html,body').animate({ scrollTop: p }, 'fast');
+		return false;
+	});
+
+	//ページ上部へ戻る
+	$(".btn_top").click(function () {
+		$('html,body').animate({ scrollTop: 0 }, 'fast');
+		return false;
+	});
+
+});
+</script>
+<script type="text/javascript" src="js/dd_belatedpng.js"></script>
+<!--[if IE 6]>
+<script src="dd_belatedpng.js"></script>
+<script>
+ 
+  dd_belatedpng.fix('#sidebar1 ul.s_navi li');
+  
+  /* string argument can be any CSS selector */
+  /* .png_bg example is unnecessary */
+  /* change it to what suits you! */
+</script>
+<![endif]-->
+<script type="text/javascript" src="js/cookie.js"></script>
+<script type="text/javascript">
+(function($){
+
+	$(function(){
+		fontsizeChange();
+	});
+
+	function fontsizeChange(){
+
+		var changeArea = $("#wrapper,.topi_text");			//フォントサイズ変更エリア
+		var btnArea = $(".fontbtn");				//フォントサイズ変更ボタンエリア
+		var changeBtn = btnArea.find(".changeBtn");	//フォントサイズ変更ボタン
+		var fontSize = [90,100,115];				//フォントサイズ（HTMLと同じ並び順、幾つでもOK、単位は％）
+		var ovStr = "_ov";							//ロールオーバー画像ファイル末尾追加文字列（ロールオーバー画像を使用しない場合は値を空にする）
+		var activeClass = "active";					//フォントサイズ変更ボタンのアクティブ時のクラス名
+		var defaultSize = 0;						//初期フォントサイズ設定（HTMLと同じ並び順で0から数値を設定）
+		var cookieExpires = 7;						//クッキー保存期間
+		var sizeLen = fontSize.length;
+		var useImg = ovStr!="" && changeBtn.is("[src]");
+
+		//現在クッキー確認関数
+		function nowCookie(){
+			return $.cookie("fontsize");
+		}
+
+		//画像切替関数
+		function imgChange(elm1,elm2,str1,str2){
+			elm1.attr("src",elm2.attr("src").replace(new RegExp("^(\.+)"+str1+"(\\.[a-z]+)$"),"$1"+str2+"$2"));
+		}
+
+		//マウスアウト関数
+		function mouseOut(){
+			for(var i=0; i<sizeLen; i++){
+				if(nowCookie()!=fontSize[i]){
+					imgChange(changeBtn.eq(i),changeBtn.eq(i),ovStr,"");
+				}
+			}
+		}
+
+		//フォントサイズ設定関数
+		function sizeChange(){
+			changeArea.css({fontSize:nowCookie()+"%"});
+		}
+
+		//クッキー設定関数
+		function cookieSet(index){
+			$.cookie("fontsize",fontSize[index],{path:'/',expires:cookieExpires});
+		}
+
+		//初期表示
+		if(nowCookie()){
+			for(var i=0; i<sizeLen; i++){
+				if(nowCookie()==fontSize[i]){
+					sizeChange();
+					var elm = changeBtn.eq(i);
+					if(useImg){
+						imgChange(elm,elm,"",ovStr);
+					}
+					elm.addClass(activeClass);
+					break;
+				}
+			}
+		}
+		else {
+			cookieSet(defaultSize);
+			sizeChange();
+			var elm = changeBtn.eq(defaultSize);
+			if(useImg){
+				imgChange(elm,elm,"",ovStr);
+				imgChange($("<img>"),elm,"",ovStr);
+			}
+			elm.addClass(activeClass);
+		}
+
+		//ホバーイベント（画像タイプ）
+		if(useImg){
+			changeBtn.each(function(i){
+				var self = $(this);
+				self.hover(
+				function(){
+					if(nowCookie()!=fontSize[i]){
+						imgChange(self,self,"",ovStr);
+					}
+				},
+				function(){
+					mouseOut();
+				});
+			});
+		}
+
+		//クリックイベント
+		changeBtn.click(function(){
+			var index = changeBtn.index(this);
+			var self = $(this);
+			cookieSet(index);
+			sizeChange();
+			if(useImg){
+				mouseOut();
+			}
+			if(!self.hasClass(activeClass)){
+				changeBtn.not(this).removeClass(activeClass);
+				self.addClass(activeClass);
+			}
+		});
+
+	}
+
+})(jQuery);
+</script>
+
+
+<!--[if IE 5]>
+<style type="text/css"> 
+/* この条件分岐コメントに IE 5* を対象とした css ボックスモデルのフィックスを配置します */
+.twoColFixLtHdr #sidebar1 { width: 250px; }
+</style>
+<![endif]--><!--[if IE]>
+<style type="text/css"> 
+/* この条件分岐コメントにすべてのバージョンの IE を対象とした css のフィックスを配置します */
+.twoColFixLtHdr #sidebar1 { padding-top: 0px; width:250px; }
+.twoColFixLtHdr #sidebar1 ul.s_navi { width:250px;}
+.twoColFixLtHdr #mainContent { zoom: 1; width:675px; float:right; }
+.twoColFixLtHdr #mainContent h2 {padding-top:3px; height:42px; width:675px; }
+#wrapper {margin:0 0 25px 0; padding:0 0 50px 0;}
+.twoColFixLtHdr #container { padding-bottom:50px;}
+#fragment-1,#fragment-2,#fragment-3,#fragment-4 {width:630px;}
+/* 上述の専用のズームプロパティにより、いくつかのバグを回避するのに必要な hasLayout が IE に対して設定されます */
+</style>
+<![endif]--></head>
+
+<body class="twoColFixLtHdr">
+<div id="container">
+  <div id="header">
+  <img src="images/header.png" border="0" usemap="#Map">
+<map name="Map">
+  <area shape="rect" coords="4,28,185,69" href="index.html">
+  <area shape="rect" coords="737,25,838,46" href="backno.html">
+  <area shape="rect" coords="863,24,946,44" href="info.html"></map>
+
+  <!-- end #header -->
+  </div>
+  
+  <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,47,0" width="950" height="300">
+  <PARAM name="MOVIE" value="move2.swf">
+  <param name="PLAY" value="true">
+    <param name="LOOP" value="true">
+    <param name="QUALITY" value="high">
+    <param name="WMODE" value="transparent">
+    <EMBED src="move2.swf" width="950" height="300" wmode="transparent" type="application/x-shockwave-flash"></object>
+ 
+<ul id="main_navi">
+<li><a href="index.html"><img src="images/navi01.png" width="175" height="51" class="hoverimg"></a></li>
+<li><a href="company.html"><img src="images/navi02.png" width="150" height="51" class="hoverimg"></a></li>
+<li><a href="ir.html"><img src="images/navi03.png" width="150" height="51" class="hoverimg"></a></li>
+<li><a href="recruit.html"><img src="images/navi04.png" width="150" height="51" class="hoverimg"></a></li>
+<li><a href="contract.html"><img src="images/navi05.png" width="150" height="51" class="hoverimg"></a></li>
+<li><a href="sekou.html"><img src="images/navi06.png" width="175" height="51" class="hoverimg"></a></li>
+</ul>
+
+<div id="wrapper">
+
+<div id="sidebar1">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+          <td align="right" colspan="3"><a href="mansion.html"><img src="images/bnr_mansion.gif" width="215" height="75"></a></td>
+        </tr>
+  <tr>
+          <td align="right" colspan="3"><a href="detail.html#fragment-2"><img src="images/bnr_system.gif" width="215" height="75"></a></td>
+        </tr>
+  <tr>
+          <td align="right" colspan="3"><A href="detail.html#fragment-1"><img src="images/bnr_sotodan.gif" width="215" height="75"></A></td>
+        </tr>
+  <tr>
+          <td align="right" colspan="3"><A href="notice/index.html" target="_blank"><img src="images/bnr_anzen.gif" width="215" height="75"></A></td>
+        </tr>
+  <tr>
+          <td width="18">&nbsp;</td>
+          <td align="center" colspan="2"><A href="https://www.nantatsu.co.jp/contact.html" target="_blank"><img src="images/s_goiken.gif" width="174" height="40"></A></td>
+        </tr>
+  <tr>
+          <td width="18">&nbsp;</td>
+          <td align="center" colspan="2"><A href="http://nantatsu.exblog.jp/" target="_blank"><img src="images/bnr_blog.gif" width="174" height="40"></A></td>
+        </tr>
+  <tr>
+          <td width="18">&nbsp;</td>
+          <td width="12">&nbsp;</td>
+          <td width="190"><a href="siteporicy.html">サイトポリシー</a></td>
+        </tr>
+  <tr>
+          <td width="18">&nbsp;</td>
+          <td width="12">&nbsp;</td>
+          <td width="190"><a href="privacy.html">個人情報の取扱いについて</a></td>
+        </tr>
+  <tr>
+          <td width="18" height="50">&nbsp;</td>
+          <td height="50" colspan="2">&nbsp;</td>
+        </tr>
+</table>
+
+<!--
+<div class="company_info">
+<p>〒556-0011
+  <br>
+  大阪府大阪市浪速区難波中三丁目5番19号
+（南海浪速ビル）  <br>
+  </p>
+  <p>【総務】
+  TEL:06-6644-7802<br>
+</p>
+<p>【建築】
+  TEL:06-6644-7834 <br>
+</p>
+<p>【土木・鉄道】
+  TEL:06-6644-7812 <br>
+  </p>
+<p>【リフォーム】
+  TEL:06-6644-7807</p>
+</div>
+-->
+
+<!-- end #sidebar1 --></div>
+  
+  <div id="mainContent">
+<div id="ui-tab">
+	<ul>
+		<li><a href="#fragment-1"><span><img src="images/tab01.gif"></span></a></li>
+	</ul>
+<div id="fragment-1">
+<div id="topics_list">　
+            <table width="640" border="0" cellspacing="0" cellpadding="0">
+<tr>
+    <th scope="row">2017年8月7日</th>
+    <td width="40"><img src="images/list_icon_order.gif" width="40" height="20"></td>
+                <td class="topi_text" width="434"><a href="sek/newjyu142.html" target="_blank">新規受注物件を追加しました</a></td>
+              </tr>
+  <tr>
+    <th scope="row">2017年7月28日</th>
+    <td width="40"><img src="images/list_icon_ir.gif" width="40" height="20"></td>
+                <td class="topi_text" width="434"><a href="ir/tanshin130-3.pdf" target="_blank">第７５期（平成３０年３月期）第１四半期決算短信<IMG src="com/pdf.gif" width="20" height="20" border="0"></a></td>
+              </tr>
+  <tr>
+                <th scope="row" style="vertical-align : middle;" valign="middle">2017年7月28日</th>
+                <td width="40" style="vertical-align : middle;" valign="middle"><img src="images/list_icon_ir.gif" width="40" height="20"></td>
+                <td class="topi_text" width="434"><a href="ir/news20170728.pdf" target="_blank">現在係争中の訴訟に係る請求の趣旨の変更および仮執行の損害賠償を命ずる裁判の申立書の受理について<IMG src="com/pdf.gif" width="20" height="20" border="0"></a></td>
+              </tr><tr>
+    <th scope="row">2017年7月18日</th>
+    <td width="40"><img src="images/list_icon_order.gif" width="40" height="20"></td>
+                <td class="topi_text" width="434"><a href="sek/newjyu141.html" target="_blank">新規受注物件を追加しました</a></td>
+              </tr>
+  <tr>
+    <th scope="row">2017年6月23日</th>
+    <td width="40"><img src="images/list_icon_ir.gif" width="40" height="20"></td>
+                <td class="topi_text" width="434"><a href="ir/news20170623-1.pdf" target="_blank">組織変更および役員の職位・業務分担変更ならびに人事異動のお知らせ<IMG src="com/pdf.gif" width="20" height="20" border="0"></a></td>
+              </tr>
+  <tr>
+    <th scope="row">2017年6月23日</th>
+    <td width="40"><img src="images/list_icon_ir.gif" width="40" height="20"></td>
+                <td class="topi_text" width="434"><a href="ir/news20170623-2.pdf" target="_blank">支配株主等に関する事項について<IMG src="com/pdf.gif" width="20" height="20" border="0"></a></td>
+              </tr>
+  <tr>
+    <th scope="row">2017年6月23日</th>
+    <td width="40"><img src="images/list_icon_ir.gif" width="40" height="20"></td>
+                <td class="topi_text" width="434"><a href="ir/news20170623-3.pdf" target="_blank">「第７４回定時株主総会決議ご通知」の一部修正について<IMG src="com/pdf.gif" width="20" height="20" border="0"></a></td>
+              </tr>
+  <tr>
+    <th scope="row">2017年6月23日</th>
+    <td width="40"><img src="images/list_icon_ir.gif" width="40" height="20"></td>
+                <td class="topi_text" width="434"><a href="ir/news20170623-4.pdf" target="_blank">「第７４回定時株主総会決議ご通知」<IMG src="com/pdf.gif" width="20" height="20" border="0"></a></td>
+              </tr>
+  <tr>
+    <th scope="row">2017年5月15日</th>
+    <td width="40"><img src="images/list_icon_ir.gif" width="40" height="20"></td>
+                <td class="topi_text" width="434"><a href="ir/news20170515.pdf" target="_blank">代表取締役の異動および役員の異動に関するお知らせ<IMG src="com/pdf.gif" width="20" height="20" border="0"></a></td>
+              </tr>
+   <tr>
+    <th scope="row"></th>
+    <td width="40"></td>
+                <td class="topi_text" width="434"></td>
+              </tr></table>
+          </div>
+<p align="right"><a href="backno.html">バックナンバーはこちら</a></p>
+</div>
+
+</div>
+
+<div id="banner">
+</div>
+<!--
+<dl id="foot_navi">
+<dt class="f_navi01">
+<p>会社概要</p>
+ <p> 沿革</p>
+  <p>経営理念・方針</p>
+  <p>アクセス</p>
+<p>  投資家情報</p>
+</dt>
+<dt class="f_navi02">
+<p>事業内容</p>
+ <p>技術情報</p>
+  <p>EV外断熱工法</p>
+  <p>NEP外断熱工法</p>
+  <p>&nbsp;</p>
+</dt>
+<dt class="f_navi03">
+<p>新規受注案件</p>
+ <p>施工実績</p>
+  <p>&nbsp;</p>
+  </dt>
+</dl>
+-->
+	<!-- end #mainContent --></div>
+
+<br class="clearfloat" />
+
+</div>
+	<!-- このクリアリングエレメントは、#container div に強制的にすべての子フローティングエレメントが含まれるようにするため、#mainContent div の直後に配置される必要があります --><br class="clearfloat" />
+ 
+<!-- end #container --><br class="clearfloat" />
+ <div id="footer">
+ <div class="goto">
+  <div class="btn_top"><img src="images/goto.gif"></div> 
+  </div>
+    <p style="text-align : center;" align="center">Copyright &copy;2014 Nankai Tatsumura Construction Co.,Ltd. All rights Reserved.</p>
+    <!-- end #footer --></div>
+</div>
+
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(["trackPageView"]);
+  _paq.push(["enableLinkTracking"]);
+
+  (function() {
+    var u=(("https:" == document.location.protocol) ? "https" : "http") + "://www.nantatsu.co.jp/piwik/";
+    _paq.push(["setTrackerUrl", u+"piwik.php"]);
+    _paq.push(["setSiteId", "1"]);
+    var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+    g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,171 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>アイディホーム株式会社</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Cache-Control" content="no-cache">
+<link rel="shortcut icon" href="images/favicon.ico">
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+<link rel="stylesheet" type="text/css" href="css/font.css">
+<link rel="stylesheet" type="text/css" href="css/top.css">
+<link rel="stylesheet" href="thickbox/thickbox.css"/>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="thickbox/thickbox.js"></script>
+<script type="text/javascript" src="js/slider.js"></script>
+<script>
+$(function() {
+	String = document.cookie;
+    	BooleanCheck = String.indexOf("idghacm",0);
+    	if(BooleanCheck == -1){
+			imgLoader = new Image();
+			imgLoader.src = tb_pathToImage;
+			
+			tb_show('', 'thickbox/idgh.jpg', false);
+			
+			var date = new Date();
+			date.setDate( date.getDate() + 7 );
+			document.cookie = 'idacive=idghacm; path=/; expires='+date.toGMTString();
+    	}
+		else{
+			document.getElementById("tempjpg").style.display="none";
+			document.getElementById("flash").style.display="block";
+		}
+});
+</script>
+</head>
+<body>
+<div id="header">
+<div class="contents"><img src="images/header.jpg" width="1048" height="200" alt="アイディホーム株式会社" />
+<div id="flash" style="display:none">
+    <ul>
+            <li class="mt3"><img src="images/home_on.png" width="142" height="52" alt="ホーム" /></li>
+            <li class="mt3"><a href="business/index.html"><img src="images/business_out.png" width="142" height="52" alt="事業案内" /></a></li>
+            <li class="mt3"><a href="lignage/index.html"><img src="images/lignage_out.png" width="142" height="52" alt="リナージュの家" /></a></li>
+            <li class="mt3"><a href="branch/index.html"><img src="images/branch_out.png" width="142" height="52" alt="店舗ネットワーク" /></a></li>
+            <li class="mt3"><a href="company/index.html"><img src="images/company_out.png" width="142" height="52" alt="会社案内" /></a></li>
+            <li class="mt3"><a href="recruit/index.html"><img src="images/recruit_out.png" width="142" height="52" alt="求人情報" /></a></li>
+            <li><a href="partnar/index.html"><img src="images/partnar_out.png" width="142" height="52" alt="パートナー募集" /></a></li>
+    </ul>
+</div>
+        <div id="newsicon"><a href="company/news.html"><img src="images/newicon.png" width="88" height="88" alt="NEWS" /></a></div>
+  </div>
+</div><!-- /#header -->
+
+<div class="wideslider">
+    <ul>
+        <li><a href="#1"><img src="img/flash1.jpg" width="700" height="350" alt="" /></a></li>
+        <li><a href="#2"><img src="img/flash2.jpg" width="700" height="350" alt="" /></a></li>
+        <li><a href="#3"><img src="img/flash3.jpg" width="700" height="350" alt="" /></a></li>
+        <li><a href="#4"><img src="img/flash4.jpg" width="700" height="350" alt="" /></a></li>
+        <li><a href="#5"><img src="img/flash5.jpg" width="700" height="350" alt="" /></a></li>
+        <li><a href="#6"><img src="img/flash6.jpg" width="700" height="350" alt="" /></a></li>
+        <li><a href="#7"><img src="img/flash7.jpg" width="700" height="350" alt="" /></a></li>
+        <li><a href="#8"><img src="img/flash8.jpg" width="700" height="350" alt="" /></a></li>
+    </ul>
+</div><!--/.wideslider-->
+
+<div id="maincontents">
+	<div class="m_contents">
+    	<ul>
+        	<li><a href="lignage/brand2.html"><img src="images/top01.png" width="207" height="260" alt="アイディホーム家づくりの考え方" /></a></li>
+        	<li><a href="lignage/customers1.html"><img src="images/top02.png" width="207" height="260" alt="ご購入されたお客様の声" /></a></li>
+        	<li><a href="lignage/equipment00.html"><img src="images/top03.png" width="207" height="260" alt="戸建住宅・リナージュ標準仕様ガイド" /></a></li>
+        	<li><a href="option/index.php"><img src="images/top04.png" width="207" height="260" alt="オプション設備＆メンテナンス" /></a></li>
+        	<li><a href="http://ighd.co.jp/" target="_blank"><img src="images/top05.png" width="207" height="260" alt="飯田グループホールディングスについて" /></a></li>
+        </ul>
+        <div class="cl_b"></div>
+        <div id="underbox">
+        	<div style="height:110px;">
+            <div class="underbox_l"><a href="http://www.idhome.co.jp/land.html"><img src="images/buildingsite.png" width="510" height="110" alt="事業用地募集" /></a></div>
+            <div class="upperright"><a href="http://www.jhf.go.jp/simulation_loan/index.html" target="_blank"><img src="images/loan.png" width="510" height="110" alt="住宅ローンの資産" /></a></div>
+            </div>
+            <div style="margin-top:10px;height:110px;">
+                <div class="lowerright_l">
+                	<a href="http://sumaiida.com/" target="_blank"><img src="images/sumaiida.png" width="510" height="110" alt="すまいーだ" /></a>
+                </div>
+                <div class="lowerright_r">
+                    <a href="javascript:void(0);" onclick="window.open('https://ssl.idhome.co.jp/cl/', 'clWindow')"><img src="images/membersite.png" width="510" height="110" alt="クラブリナージュ　メンバーズサイト" /></a>
+                </div>
+            </div>
+        </div><!-- /.underbox -->
+        <div class="cl_b"></div>
+    <div id="treebtn" class="cl_b;">
+        	<div class="threebox_r1"><a href="lignage/guarantee.html"><img src="images/after.png" alt="アフターメンテナンスに関するお問い合わせはこちら" /></a></div>
+        	<div class="threebox_r1">
+            	<a href="company/center.html"><img src="images/access.png" alt="アクセスMAP" /></a>
+              
+        	</div>
+        	<div class="threebox_l1">	
+            	<a href="images/approval.pdf" target="_blank"><img src="images/adv.png" alt="不動産業者の皆様へ" /></a>
+                <div class="pd6">このバナーからPDFをダウンロードできます</div>
+        	</div>
+        </div><!-- /.underbox -->
+        <div class="cl_b"></div>
+</div><!-- /.contents -->
+</div><!-- /#maincontents -->
+
+<div id="footer">
+	<div class="contents">
+    	<div id="left">Copyright (C) 2005-2017 iD home Co.,Ltd. All RightsReserved.</div>
+        <div id="right"><a href="../sitemap/index.html">サイトマップ</a>　／　<a href="privacypolicy/index.html">プライバシーポリシー</a>　／　<a href="disclaimer/index.html">免責事項</a>　／　<a href="inquiry.html">お問い合わせ</a></div>
+    </div><!-- /#contents -->
+</div><!-- /#footer -->
+<div id="tempjpg" style="width:720px;height:310px;margin:0 auto;"><img src="images/top06_final.jpg" width="720" height="310" /></div>
+<!--タグ追加差し替え-->
+<script type="text/javascript" language="javascript">
+
+/* <![CDATA[ */
+
+var yahoo_retargeting_id = '81T0WB096S';
+
+var yahoo_retargeting_label = '';
+
+/* ]]> */
+
+</script>
+
+<script type="text/javascript" language="javascript"
+src="//b92.yahoo.co.jp/js/s_retargeting.js"></script>
+
+
+<script type="text/javascript">
+
+/* <![CDATA[ */
+
+var google_conversion_id = 944888798;
+
+var google_custom_params = window.google_tag_params;
+
+var google_remarketing_only = true;
+
+/* ]]> */
+
+</script>
+
+<script type="text/javascript"
+src="//www.googleadservices.com/pagead/conversion.js">
+
+</script>
+
+<noscript>
+
+<div style="display:inline;">
+
+<img height="1" width="1" style="border-style:none;" alt=""
+src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/944888798/?value=0&amp;guid=ON&amp;script=0"/>
+
+</div>
+
+</noscript>
+
+
+<!--タグ追加終了-->
+<!--タグ追加2削除済み-->
+
+<!--タグ追加終了2-->
+</body>
+</html>

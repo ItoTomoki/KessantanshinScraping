@@ -1,0 +1,1020 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>E・Jホールディングス株式会社</title>
+<meta name="keywords" content="E・Jホールディングス, E・J Holdings Inc., エイトコンサルタント, 日本技術開発, 環境, 防災・保全, 行政支援, 岡山市, イー・ジェイホールディングス" />
+<meta name="description" content="E・Jホールディングスは国土や環境の保全及び社会資本整備に係わる、わが国第一級のソリューション・コンサルタント企業集団を目指しています。" />
+<meta name="robots" content="index, follow" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+
+<link href="common/css/common.css" rel="stylesheet" type="text/css" media="screen,print" />
+<script type="text/javascript" src="common/js/common.js"></script>
+<script type="text/javascript" src="common/js/jQuery.js"></script>
+<script type="text/javascript" src="common/js/switch.js"></script>
+
+
+<!--slider-->
+<link rel="stylesheet" href="common/css/flexslider.css" type="text/css" media="screen" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js" type="text/javascript" ></script>
+<script defer src="common/js/jquery.flexslider.js"></script>
+
+  <script type="text/javascript">
+
+    $(window).load(function(){
+      $('.flexslider').flexslider({
+         animation: "fade",
+		 controlNav: false,
+		 animationSpeed:1000,
+		 prevText:"",
+		 nextText:"",
+        start: function(slider){
+          $('body').removeClass('loading');
+        }
+      });
+    });
+  </script>
+
+</head>
+
+<body onload="seltab('box', 'head', 10, 1)">
+<!-- ▽ wrapper start -->
+<div id="wrapper_top" class="clearfix">
+<div id="container" class="clearfix">
+
+<!-- ▽▽ header start -->
+<div id="header" class="clearfix">
+<a href="index.html"><img src="common/img/top_logo.jpg" width="228" height="48" alt="E・Jホールディングス株式会社" id="top_logo" /></a>
+
+
+
+<div id="sub_navi"><p><a href="index.html">HOME</a>　｜　<a href="sitemap.html">サイトマップ</a>　｜　<a href="form.html">お問い合わせ</a></p></div>
+<!-- 検索 start -->
+<div id="search">
+<form action="search/search.cgi" accept-charset="utf-8">
+<dl>
+<dt><input size="32" value="" name="query" accesskey="a" tabindex="1" class="space" maxlength="100" type="text" />
+<input name="hint" value="けんさく" type="hidden" /></dt>
+<dd>
+<input name="submit" src="common/img/btn_search.gif" alt="検索" accesskey="a" tabindex="1" class="search_btn" type="image" /> 
+</dd>
+</dl>
+</form>
+</div>
+<!-- 検索 end-->
+
+
+
+<!-- 文字サイズ start-->
+<div id="txtSize">
+<ul>
+<li><img src="common/img/btn_fontsize_00.gif" alt="文字サイズ" width="66" height="20" /></li>
+<li class="m_right4"><span title="文字サイズ小" class="sizeS"><a href="#"><img src="common/img/btn_fontsize_01.gif" alt="小" width="27" height="20" /></a></span></li>
+<li class="m_right4"><span title="文字サイズ中" class="sizeM"><a href="#"><img src="common/img/btn_fontsize_02.gif" alt="中" width="27" height="20" /></a></span></li>
+<li><span title="文字サイズ大" class="sizeL"><a href="#"><img src="common/img/btn_fontsize_03.gif" alt="大" width="27" height="20" /></a></span></li>
+</ul>
+</div>
+<!-- 文字サイズ end-->
+
+<!-- 印刷 start-->
+<a href="#wrapper_top" onclick="window.print();return false;" onkeypress="window.print();return false;"><img src="common/img/btn_print_01.gif" alt="印刷" width="47" height="20" id="print" /></a>
+<!-- 印刷 end-->
+</div>
+<!-- ▲▲ header end -->
+
+<!-- ▽▽ global start -->
+<div id="global" class="clear">
+<ul class="clearfix">
+<li><a href="about/index.html"><img src="common/img/btn_global_01_off.jpg" alt="E・Jホールディングスについて" width="310" height="46" /></a></li>
+<li><a href="company/index.html"><img src="common/img/btn_global_02_off.jpg" alt="会社情報" width="211" height="46" /></a></li>
+<li><a href="ir.html"><img src="common/img/btn_global_03_off.jpg" alt="IR情報" width="212" height="46" /></a></li>
+<li><a href="group/index.html"><img src="common/img/btn_global_04_off.jpg" alt="グループ事業情報" width="217" height="46" /></a></li>
+</ul>
+</div>
+<!-- ▲▲ global end -->
+<!--<img src="common/img/image_top01.gif" class="m_bottom4 m_top4" alt="このたびの東日本大震災によって、甚大な被害を受けられた被災者の皆様に、謹んでお見舞い申し上げます。被災者の皆様の安全と健康、そして一日も早い復旧復興を心よりお祈り申し上げます。" />-->
+
+<!--<div id="flash" class="clear">
+<script type="text/javascript" src="common/js/fla.js"></script>
+</div>-->
+
+<div id="slideArea">
+<div class="flexslider">
+          <ul class="slides">
+            <li><a href="about/message.html"><img src="common/img/slide01.jpg" width="932" height="312" /></a></li>
+            <li><a href="about/philosophy.html"><img src="common/img/slide02.jpg" width="932" height="312" /></a></li>
+            <li><a href="ir/individual/quick_02.html"><img src="common/img/slide03.jpg" width="932" height="312" /></a></li>
+            <li><a href="ir/individual/quick_03.html"><img src="common/img/slide04.jpg" width="932" height="312" /></a></li>
+            <li><a href="about/symbol.html"><img src="common/img/slide05.jpg" width="932" height="312" /></a></li>
+          </ul>
+        </div>
+</div>
+
+<div style="margin:0px 10px 10px; background-color:#e6f2f4; border:1px solid #b2d6df; padding:12px;"><img src="common/img/icon_news.png" width="78" height="23" alt="お知らせ" class="v_middle" />　<A href="pr_news/pdf/2016/20160712release_01.pdf" target="_blank">当社ならびに子会社株式会社エイト日本技術開発の本店機構および中国支社仮移転に関するお知らせ</A></div>
+
+<!--
+<div style="margin:0px 10px 15px; background-color:#fafafa; border:1px solid #ddd; padding:10px;">
+</div>-->
+
+<!-- ▽▽ メインコンテンツ start -->
+<div id="main" class="clearfix">
+
+
+<!-- ▽▽ 左コンテンツ start -->
+<div id="main_left" class="clearfix">
+
+
+<!-- タブ1  start-->
+<div id="box1">
+<div id="news_title" class="clearfix">
+<div id="head1">
+<a href="javascript:seltab('box', 'head', 10, 1)" class="news_btn"><span class="none">PR情報</span></a>
+</div>
+<div id="head2">
+<a href="javascript:seltab('box', 'head', 10, 2)" class="news_btn2"><span class="none">IR情報</span></a>
+</div>
+<div id="head3">
+<a href="javascript:seltab('box', 'head', 10, 3)" class="news_btn3"><span class="none">What's New</span></a>
+</div>
+<!--<a href="pr_news/index.html"><img src="common/img/news_topics_btn_01_off.gif" width="60" height="31" alt="一覧" class="float_right m_top2" /></a>
+<a href="rss/pr_news.xml"><img src="common/img/news_topics_btn_02_off.gif" width="46" height="31" alt="RSS" class="float_right m_top2" /></a>-->
+</div>
+<div class="news_topics_outer clear">
+<div class="news_topics_inner">
+
+<div style="overflow-y:scroll; height:300px;">
+<table class="news_topics_table">
+<tr class="first">
+	<td><span class="f_bold">2017.08.16</span></td>
+	<td><img src="common/img/icon_kabushiki.gif" width="100" height="25" alt="株式" class="v_baseline m_top4" /></td>
+	<td><a href="newsrelease/pdf/2017/20170816teisei.pdf" target="_blank">「第10回定時株主総会招集ご通知一部訂正のお知らせ」を掲載しました。（34KB） </a><img src="common/img/icon_pdf.gif" width="13" height="14" class="v_baseline" /> <span style="color:red;">NEW</span></td>
+</tr>
+<tr class="middle">
+	<td><span class="f_bold">2017.08.10</span></td>
+	<td><img src="common/img/icon_kabushiki.gif" width="100" height="25" alt="株式" class="v_baseline m_top4" /></td>
+	<td><a href="newsrelease/pdf/2017/20170810syosyu.pdf" target="_blank">「第10回定時株主総会招集ご通知」を掲載しました。（472KB） </a><img src="common/img/icon_pdf.gif" width="13" height="14" class="v_baseline" /> <span style="color:red;">NEW</span></td>
+</tr>
+<tr class="middle">
+    <td><span class="f_bold">2017.08.07</span></td>
+    <td><img src="common/img/icon_keiei.gif" width="100" height="25" alt="経営" class="v_baseline m_top4" /></td>
+    <td><a href="newsrelease/pdf/2017/20170807release.pdf" target="_blank">当社連結子会社の役員の異動に関するお知らせ（79KB）</a><img src="common/img/icon_pdf.gif" width="13" height="14" class="v_baseline" /> <span style="color:red;">NEW</span></td>
+</tr>
+
+<tr class="middle">
+    <td><span class="f_bold">2017.07.12</span></td>
+    <td><img src="common/img/icon_kessan.gif" width="100" height="25" alt="決算・業績" class="v_baseline m_top4" /></td>
+    <td><a href="newsrelease/pdf/2017/20170712release.pdf" target="_blank">「平成29年5月期 決算短信〔日本基準〕（連結）」を掲載しました。（483KB）</a><img src="common/img/icon_pdf.gif" width="13" height="14" class="v_baseline" /> <span style="color:red;">NEW</span></td>
+</tr>
+
+<tr class="middle">
+    <td><span class="f_bold">2017.07.12</span></td>
+    <td><img src="common/img/icon_keiei.gif" width="100" height="25" alt="経営" class="v_baseline m_top4" /></td>
+    <td><a href="newsrelease/pdf/2017/20170712release2.pdf" target="_blank">Ｅ・Ｊグループ第４次中期経営計画策定のお知らせ（131KB）</a><img src="common/img/icon_pdf.gif" width="13" height="14" class="v_baseline" /> <span style="color:red;">NEW</span></td>
+</tr>
+
+<tr class="middle">
+    <td><span class="f_bold">2017.07.03</span></td>
+    <td><img src="common/img/icon_kessan.gif" width="100" height="25" alt="決算・業績" class="v_baseline m_top4" /></td>
+    <td><a href="newsrelease/pdf/2017/20170703release.pdf" target="_blank">「通期業績予想の修正および特別損失の発生に関するお知らせ」を掲載しました。（89KB）</a><img src="common/img/icon_pdf.gif" width="13" height="14" class="v_baseline" /> <span style="color:red;">NEW</span></td>
+</tr>
+
+<tr class="middle">
+    <td><span class="f_bold">2017.06.13</span></td>
+    <td><img src="common/img/icon_pr01.gif" width="100" height="25" alt="エイト日本技術開発" class="v_baseline m_top4" /></td>
+    <td><a href="http://www.ejec.ej-hds.co.jp/topics/topics170613.html" target="_blank">当社が設計を担当した「朝明川橋」が平成28年度土木学会田中賞（作品部門）を受賞しました</a> <span style="color:red;">NEW</span></td>
+</tr>
+
+<tr class="middle">
+    <td><span class="f_bold">2017.06.05</span></td>
+    <td><img src="common/img/icon_keiei.gif" width="100" height="25" alt="経営" class="v_baseline m_top4" /></td>
+    <td><a href="newsrelease/pdf/2017/20170605release.pdf" target="_blank">「当社子会社の訴訟（控訴）の提起に関するお知らせ」を掲載しました。（77KB）</a><img src="common/img/icon_pdf.gif" width="13" height="14" class="v_baseline" /> <span style="color:red;">NEW</span></td>
+</tr>
+
+<tr class="middle">
+    <td><span class="f_bold">2017.05.26</span></td>
+    <td><img src="common/img/icon_keiei.gif" width="100" height="25" alt="経営" class="v_baseline m_top4" /></td>
+    <td><a href="newsrelease/pdf/2017/20170526release.pdf" target="_blank">「連結子会社「株式会社エイト日本技術開発」における重要人事に関するお知らせ」を掲載しました。（98KB）</a><img src="common/img/icon_pdf.gif" width="13" height="14" class="v_baseline" /> <span style="color:red;">NEW</span></td>
+</tr>
+
+<tr class="middle">
+    <td><span class="f_bold">2017.05.25</span></td>
+    <td><img src="common/img/icon_keiei.gif" width="100" height="25" alt="経営" class="v_baseline m_top4" /></td>
+    <td><a href="newsrelease/pdf/2017/20170525release.pdf" target="_blank">「当社子会社に対する訴訟の判決に関するお知らせ」を掲載しました。（103KB）</a><img src="common/img/icon_pdf.gif" width="13" height="14" class="v_baseline" /> <span style="color:red;">NEW</span></td>
+</tr>
+
+<tr class="middle">
+    <td><span class="f_bold">2017.05.30</span></td>
+    <td><img src="common/img/icon_pr01.gif" width="100" height="25" alt="エイト日本技術開発" class="v_baseline m_top4" /></td>
+    <td><a href="http://www.ejec.ej-hds.co.jp/topics/topics170523.html" target="_blank">土木学会技術賞（Ⅱグループ：タジキスタン国ハトロン州ピアンジ県給水改善計画）を受賞しました</a> <span style="color:red;">NEW</span></td>
+</tr>
+
+<tr class="middle">
+    <td><span class="f_bold">2017.05.11</span></td>
+    <td><img src="common/img/icon_pr01.gif" width="100" height="25" alt="エイト日本技術開発" class="v_baseline m_top4" /></td>
+    <td><a href="http://www.ejec.ej-hds.co.jp/topics/topics170509.html" target="_blank">「東日本大震災5周年　~当社の活動記録〜」を発刊しました</a> <span style="color:red;">NEW</span></td>
+</tr>
+
+<tr class="middle">
+    <td><span class="f_bold">2017.04.13</span></td>
+    <td><img src="common/img/icon_kessan.gif" width="100" height="25" alt="決算・業績" class="v_baseline m_top4" /></td>
+    <td><a href="ir/library/pdf/tanshin/20170413tansin.pdf" target="_blank">「平成29年5月期 第3四半期決算短信〔日本基準〕（連結）」を掲載しました。（328KB）</a><img src="common/img/icon_pdf.gif" width="13" height="14" class="v_baseline" /></td>
+</tr>
+
+<tr class="middle">
+    <td><span class="f_bold">2017.03.01</span></td>
+    <td><img src="common/img/icon_pr01.gif" width="100" height="25" alt="エイト日本技術開発" class="v_baseline m_top4" /></td>
+    <td><a href="http://www.ejec.ej-hds.co.jp/topics/topics170301.html" target="_blank">ストロベリーファーム　高付加価値夏秋イチゴ事業モデルの実証研究協定書を締結</a></td>
+</tr>
+
+<tr class="middle">
+    <td><span class="f_bold">2017.01.12</span></td>
+    <td><img src="common/img/icon_kessan.gif" width="100" height="25" alt="決算・業績" class="v_baseline m_top4" /></td>
+    <td><a href="ir/library/pdf/tanshin/20170112tansin.pdf" target="_blank">「平成29年5月期 第2四半期決算短信〔日本基準〕（連結）」を掲載しました。（333KB）</a><img src="common/img/icon_pdf.gif" width="13" height="14" class="v_baseline" /></td>
+</tr>
+
+<tr class="middle">
+    <td><span class="f_bold">2017.01.05</span></td>
+    <td><img src="common/img/icon_pr01.gif" width="100" height="25" alt="エイト日本技術開発" class="v_baseline m_top4" /></td>
+    <td><a href="http://www.ejec.ej-hds.co.jp/topics/topics170105.html" target="_blank">「レジリエンス認証」を取得しました</a></td>
+</tr>
+
+<tr class="middle">
+    <td><span class="f_bold">2016.12.05</span></td>
+    <td><img src="common/img/icon_pr01.gif" width="100" height="25" alt="エイト日本技術開発" class="v_baseline m_top4" /></td>
+    <td><a href="http://www.ejec.ej-hds.co.jp/topics/topics161205.html" target="_blank">当社が設計した太田川大橋が、2016年度土木学会デザイン賞最優秀賞を受賞しました</a></td>
+</tr>
+
+<tr class="middle">
+    <td><span class="f_bold">2016.10.12</span></td>
+    <td><img src="common/img/icon_kessan.gif" width="100" height="25" alt="決算・業績" class="v_baseline m_top4" /></td>
+    <td><a href="ir/library/pdf/tanshin/20161012tansin.pdf" target="_blank">「平成29年5月期 第1四半期決算短信〔日本基準〕（連結）」を掲載しました。（335KB）</a><img src="common/img/icon_pdf.gif" width="13" height="14" class="v_baseline" /></td>
+</tr>
+
+<tr class="middle">
+    <td><span class="f_bold">2016.08.30</span></td>
+    <td><img src="common/img/icon_keiei.gif" width="100" height="25" alt="経営" class="v_baseline m_top4" /></td>
+    <td><a href="newsrelease/pdf/2016/20160830release_01.pdf" target="_blank">「役員選定に関するお知らせ 」を掲載しました。（62KB）</a><img src="common/img/icon_pdf.gif" width="13" height="14" class="v_baseline" /></td>
+</tr>
+
+<tr class="middle">
+    <td><span class="f_bold">2016.08.25</span></td>
+    <td><img src="common/img/icon_other.gif" alt="その他" class="v_baseline m_top4" height="25" width="100"></td>
+    <td><a href="ir/event/index.html">「2016年5月期決算説明会」の動画を掲載しました。</a></td>
+</tr>
+
+<tr class="middle">
+    <td><span class="f_bold">2016.08.19</span></td>
+    <td><img src="common/img/icon_other.gif" alt="その他" class="v_baseline m_top4" height="25" width="100"></td>
+    <td><a href="http://www.daiwair.co.jp/individual/im/201609/index.html" target="_blank">個人投資家向け会社説明会（東京）に参加いたします。</a></td>
+</tr>
+
+<tr class="middle">
+    <td><span class="f_bold">2016.08.19</span></td>
+    <td><img src="common/img/icon_other.gif" alt="その他" class="v_baseline m_top4" height="25" width="100"></td>
+    <td><a href="http://www.smbcnikko.co.jp/cgi-bin/service/office/info.cgi?cd=354#i03" target="_blank">個人投資家向け会社説明会（岡山）に参加いたします。</a></td>
+</tr>
+
+<tr class="middle">
+    <td><span class="f_bold">2016.08.04</span></td>
+    <td><img src="common/img/icon_keiei.gif" width="100" height="25" alt="経営" class="v_baseline m_top4" /></td>
+    <td><a href="newsrelease/pdf/2016/20160804release_01.pdf" target="_blank">「当社連結子会社の役員の異動に関するお知らせ」を掲載しました。（86KB）</a><img src="common/img/icon_pdf.gif" width="13" height="14" class="v_baseline" /></td>
+</tr>
+
+<tr class="middle">
+    <td><span class="f_bold">2016.07.12</span></td>
+    <td><img src="common/img/icon_kessan.gif" width="100" height="25" alt="決算・業績" class="v_baseline m_top4" /></td>
+    <td><a href="ir/library/pdf/tanshin/20160712tansin.pdf" target="_blank">「平成28年5月期 決算短信〔日本基準〕（連結）」を掲載しました。（503KB）</a><img src="common/img/icon_pdf.gif" width="13" height="14" class="v_baseline" /></td>
+</tr>
+
+
+<tr class="middle">
+    <td><span class="f_bold">2016.07.12</span></td>
+    <td><img src="common/img/icon_keiei.gif" width="100" height="25" alt="経営" class="v_baseline m_top4" /></td>
+    <td><a href="newsrelease/pdf/2016/20160712release_01.pdf" target="_blank">「社外取締役候補者決定に関するお知らせ」を掲載しました。（78KB）</a><img src="common/img/icon_pdf.gif" width="13" height="14" class="v_baseline" /></td>
+</tr>
+
+<tr class="middle">
+    <td><span class="f_bold">2016.07.12</span></td>
+    <td><img src="common/img/icon_kabushiki.gif" width="100" height="25" alt="株式" class="v_baseline m_top4" /></td>
+    <td><a href="newsrelease/pdf/2016/20160712release_02.pdf" target="_blank">「剰余金の配当に関するお知らせ」を掲載しました。（86KB）</a><img src="common/img/icon_pdf.gif" width="13" height="14" class="v_baseline" /></td>
+</tr>
+
+
+<tr class="middle">
+    <td><span class="f_bold">2016.07.12</span></td>
+    <td><img src="common/img/icon_pr09.gif" width="100" height="25" alt="ホールディングス" class="v_baseline m_top4" /></td>
+    <td><a href="pr_news/pdf/2016/20160712release_01.pdf" target="_blank">当社ならびに子会社株式会社エイト日本技術開発の本店機構および中国支社仮移転に関するお知らせ（137KB）</a><img src="common/img/icon_pdf.gif" width="13" height="14" class="v_baseline" /></td>
+</tr>
+
+<tr class="middle">
+    <td><span class="f_bold">2016.07.06</span></td>
+    <td><img src="common/img/icon_pr01.gif" width="100" height="25" alt="エイト日本技術開発" class="v_baseline m_top4" /></td>
+    <td><a href="http://www.ejec.ej-hds.co.jp/topics/topics16070501.html" target="_blank">アジア工科大学(AIT)にて道路交通インフラ技術セミナーを開催</a></td>
+</tr>
+
+
+
+<tr class="middle">
+    <td><span class="f_bold">2016.07.06</span></td>
+    <td><img src="common/img/icon_pr01.gif" width="100" height="25" alt="エイト日本技術開発" class="v_baseline m_top4" /></td>
+    <td><a href="http://www.ejec.ej-hds.co.jp/topics/topics160705.html" target="_blank">タイ国コンサルティングエンジニア協会の後援により道路交通インフラ技術セミナーを開催</a></td>
+</tr>
+
+
+
+<tr class="middle">
+    <td><span class="f_bold">2016.05.27</span></td>
+    <td><img src="common/img/icon_keiei.gif" width="100" height="25" alt="経営" class="v_baseline m_top4" /></td>
+    <td><a href="newsrelease/pdf/2016/20160527release_01.pdf" target="_blank">「連結子会社「株式会社エイト日本技術開発」における重要人事に関するお知らせ」を掲載しました。（69KB）</a><img src="common/img/icon_pdf.gif" width="13" height="14" class="v_baseline" /></td>
+</tr>
+
+<tr class="middle">
+    <td><span class="f_bold">2016.04.26</span></td>
+    <td><img src="common/img/icon_pr09.gif" width="100" height="25" alt="ホールディングス" class="v_baseline m_top4" /></td>
+    <td><a href="pr_news/160426.html">平成28年熊本地震への対応について</a></td>
+</tr>
+
+<tr class="middle">
+    <td><span class="f_bold">2016.04.13</span></td>
+    <td><img src="common/img/icon_kessan.gif" width="100" height="25" alt="決算・業績" class="v_baseline m_top4" /></td>
+    <td><a href="ir/library/pdf/tanshin/20160413tansin.pdf" target="_blank">「平成28年5月期 第3四半期決算短信〔日本基準〕（連結）」を掲載しました。（326KB）</a><img src="common/img/icon_pdf.gif" width="13" height="14" class="v_baseline" /></td>
+</tr>
+
+<tr class="middle">
+    <td><span class="f_bold">2016.03.18</span></td>
+    <td><img src="common/img/icon_pr01.gif" width="100" height="25" alt="エイト日本技術開発" class="v_baseline m_top4" /></td>
+    <td><a href="http://www.ejec.ej-hds.co.jp/topics/topics16031701.html" target="_blank">タイ国ターク県における廃棄物処分場への準好気性埋立構造の導入を技術支援</a></td>
+</tr>
+
+<tr class="middle">
+    <td><span class="f_bold">2016.01.12</span></td>
+    <td><img src="common/img/icon_kessan.gif" width="100" height="25" alt="決算・業績" class="v_baseline m_top4" /></td>
+    <td><a href="ir/library/pdf/tanshin/20160112tansin.pdf" target="_blank">「平成28年5月期 第2四半期決算短信〔日本基準〕（連結）」を掲載しました。（333KB）</a><img src="common/img/icon_pdf.gif" width="13" height="14" class="v_baseline" /></td>
+</tr>
+
+<tr class="middle">
+    <td><span class="f_bold">2015.10.13</span></td>
+    <td><img src="common/img/icon_kessan.gif" width="100" height="25" alt="決算・業績" class="v_baseline m_top4" /></td>
+    <td><a href="ir/library/pdf/tanshin/20151013tansin.pdf" target="_blank">「平成28年5月期 第1四半期決算短信〔日本基準〕（連結）」を掲載しました。（336KB）</a><img src="common/img/icon_pdf.gif" width="13" height="14" class="v_baseline" /></td>
+</tr>
+
+
+<tr class="middle">
+    <td><span class="f_bold">2015.09.24</span></td>
+    <td><img src="common/img/icon_pr01.gif" width="100" height="25" alt="エイト日本技術開発" class="v_baseline m_top4" /></td>
+    <td><a href="http://www.ejec.ej-hds.co.jp/center/index.html" target="_blank">エイト日本技術開発　災害リスク研究センター特設サイト開設</a></td>
+</tr>
+
+<tr class="middle">
+    <td><span class="f_bold">2015.08.27</span></td>
+    <td><img src="common/img/icon_keiei.gif" width="100" height="25" alt="経営" class="v_baseline m_top4" /></td>
+    <td><a href="newsrelease/pdf/2015/20150827release_01.pdf" target="_blank">「役員選定に関するお知らせ」を掲載しました。（71KB）</a><img src="common/img/icon_pdf.gif" width="13" height="14" class="v_baseline" /></td>
+</tr>
+
+<tr class="middle">
+    <td><span class="f_bold">2015.08.26</span></td>
+    <td><img src="common/img/icon_pr01.gif" width="100" height="25" alt="エイト日本技術開発" class="v_baseline m_top4" /></td>
+    <td><a href="http://www.ejec.ej-hds.co.jp/commendation.html" target="_blank">エイト日本技術開発　国土交通省より優良業務、優良技術者表彰を受賞しました。</a></td>
+</tr>
+
+
+<tr class="middle">
+    <td><span class="f_bold">2015.08.04</span></td>
+    <td><img src="common/img/icon_keiei.gif" width="100" height="25" alt="経営" class="v_baseline m_top4" /></td>
+    <td><a href="newsrelease/pdf/2015/20150804release_01.pdf" target="_blank">「当社連結子会社の役員の異動に関するお知らせ」を掲載しました。（105KB）</a><img src="common/img/icon_pdf.gif" width="13" height="14" class="v_baseline" /></td>
+</tr>
+
+
+<tr class="middle">
+    <td><span class="f_bold">2015.07.10</span></td>
+    <td><img src="common/img/icon_kessan.gif" width="100" height="25" alt="決算・業績" class="v_baseline m_top4" /></td>
+    <td><a href="ir/library/pdf/tanshin/20150710tansin.pdf" target="_blank">「平成27年5月期 決算短信〔日本基準〕（連結）」を掲載しました。（502KB）</a><img src="common/img/icon_pdf.gif" width="13" height="14" class="v_baseline" /></td>
+</tr>
+
+<tr class="middle">
+    <td><span class="f_bold">2015.07.03</span></td>
+    <td><img src="common/img/icon_kabushiki.gif" width="100" height="25" alt="株式" class="v_baseline m_top4" /></td>
+    <td><a href="newsrelease/pdf/2015/20150703release_02.pdf" target="_blank">「平成27年5月期（第8期）配当予想の修正に関するお知らせ 」を掲載しました。（86KB）</a><img src="common/img/icon_pdf.gif" width="13" height="14" class="v_baseline" /></td>
+</tr>
+
+<tr class="middle">
+    <td><span class="f_bold">2015.07.03</span></td>
+    <td><img src="common/img/icon_kessan.gif" width="100" height="25" alt="決算・業績" class="v_baseline m_top4" /></td>
+    <td><a href="newsrelease/pdf/2015/20150703release_01.pdf" target="_blank">「通期業績予想の修正に関するお知らせ」を掲載しました。（87KB）</a><img src="common/img/icon_pdf.gif" width="13" height="14" class="v_baseline" /></td>
+</tr>
+
+<tr class="middle">
+    <td><span class="f_bold">2015.05.26</span></td>
+    <td><img src="common/img/icon_keiei.gif" width="100" height="25" alt="経営" class="v_baseline m_top4" /></td>
+    <td><a href="newsrelease/pdf/2015/20150526release_01.pdf" target="_blank">「連結子会社「株式会社エイト日本技術開発」における組織・重要人事に関するお知らせ」を掲載しました。（342KB）</a><img src="common/img/icon_pdf.gif" width="13" height="14" class="v_baseline" /></td>
+</tr>
+
+<tr class="middle">
+    <td><span class="f_bold">2015.05.07</span></td>
+    <td><img src="common/img/icon_pr01.gif" width="100" height="25" alt="エイト日本技術開発" class="v_baseline m_top4" /></td>
+    <td><a href="http://www.ejec.ej-hds.co.jp/topics/topics150507.html" target="_blank">当社子会社の（株）エイト日本技術開発がアジア工科大学(AIT)と技術交流セミナーを開催</a></td>
+</tr>
+
+<tr class="middle">
+    <td><span class="f_bold">2015.04.10</span></td>
+    <td><img src="common/img/icon_kessan.gif" width="100" height="25" alt="決算・業績" class="v_baseline m_top4" /></td>
+    <td><a href="ir/library/pdf/tanshin/20150410tansin.pdf" target="_blank">「平成27年5月期 第3四半期決算短信〔日本基準〕（連結）」を掲載しました。（383KB）</a><img src="common/img/icon_pdf.gif" width="13" height="14" class="v_baseline" /></td>
+</tr>
+
+<tr class="middle">
+    <td><span class="f_bold">2015.04.10</span></td>
+    <td><img src="common/img/icon_pr01.gif" width="100" height="25" alt="エイト日本技術開発" class="v_baseline m_top4" /></td>
+    <td><a href="pr_news/pdf/2015/20150410release_01.pdf" target="_blank">「災害リスク研究センター」、「インフラ保全センター」設立のお知らせ</a></td>
+</tr>
+
+<tr class="middle">
+    <td><span class="f_bold">2015.03.24</span></td>
+    <td><img src="common/img/icon_keiei.gif" width="100" height="25" alt="経営" class="v_baseline m_top4" /></td>
+    <td><a href="newsrelease/pdf/2015/20150324release_01.pdf" target="_blank">「完全子会社間の合併に関するお知らせ」を掲載しました。（138KB）</a><img src="common/img/icon_pdf.gif" width="13" height="14" class="v_baseline" /></td>
+</tr>
+
+<tr class="middle">
+    <td><span class="f_bold">2015.02.26</span></td>
+    <td><img src="common/img/icon_other.gif" alt="その他" class="v_baseline m_top4" height="25" width="100"></td>
+    <td><a href="http://www.bridge-salon.jp/movie/2153_150212_TyvXd/" target="_blank">2月12日開催「個人投資家向け会社説明会（東京）」の動画を掲載しました。</a></td>
+</tr>
+
+<tr class="middle">
+    <td><span class="f_bold">2015.02.05</span></td>
+    <td><img src="common/img/icon_pr01.gif" width="100" height="25" alt="エイト日本技術開発" class="v_baseline m_top4" /></td>
+    <td><a href="http://www.ejec.ej-hds.co.jp/topics/topics150205.html" target="_blank">2015年1月31日（土）伊良部大橋開通</a></td>
+</tr>
+
+<tr class="middle">
+    <td><span class="f_bold">2015.02.04</span></td>
+    <td><img src="common/img/icon_other.gif" alt="その他" class="v_baseline m_top4" height="25" width="100"></td>
+    <td><a href="http://www.saa.or.jp/briefing/investment/pdf/setsumei_o_38.pdf" target="_blank">個人投資家向け会社説明会（大阪）に参加いたします。（578KB）</a><img src="common/img/icon_pdf.gif" width="13" height="14" class="v_baseline" /></td>
+</tr>
+
+<tr class="middle">
+    <td><span class="f_bold">2015.01.29</span></td>
+    <td><img src="common/img/icon_pr01.gif" width="100" height="25" alt="エイト日本技術開発" class="v_baseline m_top4" /></td>
+    <td><a href="http://www.ejec.ej-hds.co.jp/topics/topics15012901.html" target="_blank">第3回国連防災会議パブリック・フォーラムにブース出展します。</a></td>
+</tr>
+
+
+
+<tr class="middle">
+    <td><span class="f_bold">2015.01.09</span></td>
+    <td><img src="common/img/icon_kessan.gif" width="100" height="25" alt="決算・業績" class="v_baseline m_top4" /></td>
+    <td><a href="ir/library/pdf/tanshin/20150109tansin.pdf" target="_blank">「平成27年5月期 第2四半期決算短信〔日本基準〕（連結）」を掲載しました。（395KB）</a><img src="common/img/icon_pdf.gif" width="13" height="14" class="v_baseline" /></td>
+</tr>
+
+<tr class="middle">
+    <td><span class="f_bold">2015.01.06</span></td>
+    <td><img src="common/img/icon_other.gif" alt="その他" class="v_baseline m_top4" height="25" width="100"></td>
+    <td><a href="https://www.saa.or.jp/briefing/investment/pdf/setsumei_t_43.pdf" target="_blank">個人投資家向け会社説明会（東京）に参加いたします。（667KB）</a><img src="common/img/icon_pdf.gif" width="13" height="14" class="v_baseline" /></td>
+</tr>
+
+<tr class="middle">
+    <td><span class="f_bold">2014.11.28</span></td>
+    <td><img src="common/img/icon_pr01.gif" width="100" height="25" alt="エイト日本技術開発" class="v_baseline m_top4" /></td>
+    <td><a href="pr_news/pdf/2014/20141128release_01.pdf" target="_blank">子会社「株式会社 エイト日本技術開発」のバンコク駐在員事務所開所について</a></td>
+</tr>
+
+<tr class="middle">
+    <td><span class="f_bold">2014.11.01</span></td>
+    <td><img src="common/img/icon_pr02.gif" width="100" height="25" alt="EJビジネス・パートナーズ" class="v_baseline" /></td>
+    <td>室蘭民報11月1日版に当社取組が紹介されました。</td>
+</tr>
+
+
+<tr class="middle">
+    <td><span class="f_bold">2014.10.10</span></td>
+    <td><img src="common/img/icon_kessan.gif" width="100" height="25" alt="決算・業績" class="v_baseline m_top4" /></td>
+    <td><a href="ir/library/pdf/tanshin/20141010tansin.pdf" target="_blank">「平成27年5月期 第1四半期決算短信〔日本基準〕（連結）」を掲載しました。（273KB）</a><img src="common/img/icon_pdf.gif" width="13" height="14" class="v_baseline" /></td>
+</tr>
+
+<tr class="middle">
+    <td><span class="f_bold">2014.10.09</span></td>
+    <td><img src="common/img/icon_other.gif" alt="その他" class="v_baseline m_top4" height="25" width="100"></td>
+    <td><a href="http://www.ej-hds.co.jp/zaidan/news20141001.html" target="_blank">公益財団法人八雲環境科学振興財団が「岡山の防災・減災シンポジウム」を開催します。</a></td>
+</tr>
+
+<tr class="middle">
+    <td><span class="f_bold">2014.09.29</span></td>
+    <td><img src="common/img/icon_other.gif" alt="その他" class="v_baseline m_top4" height="25" width="100"></td>
+    <td><a href="ir/event/pdf/presentation20140916.pdf" target="_blank">投資家と学生のための会社説明会に参加いたします。（1,108KB）</a><img src="common/img/icon_pdf.gif" width="13" height="14" class="v_baseline" /></td>
+</tr>
+
+<tr class="middle">
+    <td><span class="f_bold">2014.09.22</span></td>
+    <td><img src="common/img/icon_pr02.gif" width="100" height="25" alt="EJビジネス・パートナーズ" class="v_baseline" /></td>
+    <td>ストロベリーファームのホームページ開設</td>
+</tr>
+
+<tr class="middle">
+    <td><span class="f_bold">2014.09.19</span></td>
+    <td><img src="common/img/icon_pr01.gif" width="100" height="25" alt="エイト日本技術開発" class="v_baseline m_top4" /></td>
+    <td><a href="pr_news/140919.html">当社子会社の（株）エイト日本技術開発が日本・タイ防災セミナーにて講演</a></td>
+</tr>
+
+<tr class="middle">
+    <td><span class="f_bold">2014.09.18</span></td>
+    <td><img src="common/img/icon_pr01.gif" width="100" height="25" alt="エイト日本技術開発" class="v_baseline m_top4" /></td>
+    <td><a href="pr_news/140918.html">当社子会社の（株）エイト日本技術開発がアジア工科大学（A.I.T.）と奨学金提供を含む技術協力協定を締結</a></td>
+</tr>
+<tr class="middle">
+    <td><span class="f_bold">2014.08.06</span></td>
+    <td><img src="common/img/icon_keiei.gif" width="100" height="25" alt="経営" class="v_baseline m_top4" /></td>
+    <td><a href="newsrelease/pdf/2014/20140806release_01.pdf" target="_blank">「当社連結子会社の役員の異動に関するお知らせ」を掲載しました。（87KB）</a><img src="common/img/icon_pdf.gif" width="13" height="14" class="v_baseline" /></td>
+</tr>
+
+<tr class="middle">
+    <td><span class="f_bold">2014.08.05</span></td>
+    <td><img src="common/img/icon_pr01.gif" width="100" height="25" alt="エイト日本技術開発" class="v_baseline m_top4" /></td>
+    <td><a href="http://www.ejec.ej-hds.co.jp/commendation.html" target="_blank">エイト日本技術開発　国土交通省より優良業務、優良技術者表彰を受賞しました。</a></td>
+</tr>
+
+<tr class="middle">
+    <td><span class="f_bold">2014.08.04</span></td>
+    <td><img src="common/img/icon_pr02.gif" width="100" height="25" alt="EJビジネス・パートナーズ" class="v_baseline" /></td>
+    <td>日刊建設工業新聞8月4日版に当社取組みが紹介されました。</td>
+</tr>
+
+<tr class="middle">
+    <td><span class="f_bold">2014.08.01</span></td>
+    <td><img src="common/img/icon_pr04.gif" width="100" height="25" alt="近代設計" class="v_baseline m_top4" /></td>
+    <td><a href="http://www.kindai.co.jp/company/commendation.html" target="_blank">国土交通省より優良業務、優良技術者表彰を受賞しました。</a></td>
+</tr>
+<tr class="middle">
+    <td><span class="f_bold">2014.07.31</span></td>
+    <td><img src="common/img/icon_pr05.gif" width="100" height="25" alt="共立エンジニヤ" class="v_baseline m_top4" /></td>
+    <td><a href="http://www.kyouritsu-e.co.jp/topics/20140731/20140731.html" target="_blank">島根県 松江県土整備事務所より所長表彰を受賞しました。</a></td>
+</tr>
+<tr class="middle">
+    <td><span class="f_bold">2014.07.30</span></td>
+    <td><img src="common/img/icon_pr03.gif" width="100" height="25" alt="日本インフラ" class="v_baseline m_top4" /></td>
+    <td><a href="http://www.ej-jimco.co.jp/" target="_blank">国土交通省より岡山国道事務所長表彰等を受賞しました。</a></td>
+</tr>
+
+<tr class="middle">
+    <td><span class="f_bold">2014.07.29</span></td>
+    <td><img src="common/img/icon_pr05.gif" width="100" height="25" alt="共立エンジニヤ" class="v_baseline m_top4" /></td>
+    <td><a href="http://www.kyouritsu-e.co.jp/topics/20140729/2014072901.html" target="_blank">国土交通省 中国地方整備局 松江国道事務所より事務所長表彰を受賞しました。</a></td>
+</tr>
+
+<tr class="middle">
+    <td><span class="f_bold">2014.07.29</span></td>
+    <td><img src="common/img/icon_kabushiki.gif" width="100" height="25" alt="株式" class="v_baseline m_top4" /></td>
+    <td><a href="newsrelease/pdf/2014/20140729release_01.pdf" target="_blank">「株式の立会外分売終了に関するお知らせ」を掲載しました。（66KB）</a><img src="common/img/icon_pdf.gif" width="13" height="14" class="v_baseline" /></td>
+</tr>
+
+<tr class="middle">
+    <td><span class="f_bold">2014.07.28</span></td>
+    <td><img src="common/img/icon_kabushiki.gif" width="100" height="25" alt="株式" class="v_baseline m_top4" /></td>
+    <td><a href="newsrelease/pdf/2014/20140728release_01.pdf" target="_blank">「株式の立会外分売実施に関するお知らせ」を掲載しました。（66KB）</a><img src="common/img/icon_pdf.gif" width="13" height="14" class="v_baseline" /></td>
+</tr>
+
+<tr class="middle">
+    <td><span class="f_bold">2014.07.22</span></td>
+    <td><img src="common/img/icon_kabushiki.gif" width="100" height="25" alt="株式" class="v_baseline m_top4" /></td>
+    <td><a href="newsrelease/pdf/2014/20140722release_01.pdf" target="_blank">「株式の立会外分売に関するお知らせ」を掲載しました。（70KB）</a><img src="common/img/icon_pdf.gif" width="13" height="14" class="v_baseline" /></td>
+</tr>
+
+
+
+<tr class="middle">
+    <td><span class="f_bold">2014.07.18</span></td>
+    <td><img src="common/img/icon_pr01.gif" width="100" height="25" alt="エイト日本技術開発" class="v_baseline" /></td>
+    <td><a href="http://www.ejec.ej-hds.co.jp/topics/topics140718.html" target="_blank">第6回アジア閣僚級災害リスク軽減会議にエイト日本技術開発が展示ブースを出展</a></td>
+</tr>
+
+<tr class="middle">
+    <td><span class="f_bold">2014.07.11</span></td>
+    <td><img src="common/img/icon_kessan.gif" width="100" height="25" alt="決算・業績" class="v_baseline m_top4" /></td>
+    <td><a href="ir/library/pdf/tanshin/20140711tansin.pdf" target="_blank">「平成26年5月期 決算短信〔日本基準〕（連結）」を掲載しました。（588KB）</a><img src="common/img/icon_pdf.gif" width="13" height="14" class="v_baseline" /></td>
+</tr>
+
+<tr class="middle">
+    <td><span class="f_bold">2014.07.11</span></td>
+    <td><img src="common/img/icon_keiei.gif" width="100" height="25" alt="経営" class="v_baseline m_top4" /></td>
+    <td><a href="newsrelease/pdf/2014/20140711release_01.pdf" target="_blank">「社外取締役候補者決定に関するお知らせ」を掲載しました。（108KB）</a><img src="common/img/icon_pdf.gif" width="13" height="14" class="v_baseline" /></td>
+</tr>
+
+<tr class="middle">
+    <td><span class="f_bold">2014.07.11</span></td>
+    <td><img src="common/img/icon_keiei.gif" width="100" height="25" alt="経営" class="v_baseline m_top4" /></td>
+    <td><a href="newsrelease/pdf/2014/20140711release_02.pdf" target="_blank">「E・Jグループ第3次中期経営計画策定のお知らせ」を掲載しました。（213KB）</a><img src="common/img/icon_pdf.gif" width="13" height="14" class="v_baseline" /></td>
+</tr>
+
+<tr class="middle">
+    <td><span class="f_bold">2014.07.01</span></td>
+    <td><img src="common/img/icon_kessan.gif" width="100" height="25" alt="決算・業績" class="v_baseline m_top4" /></td>
+    <td><a href="newsrelease/pdf/2014/20140701release_01.pdf" target="_blank">「通期業績予想の修正に関するお知らせ」を掲載しました。（84KB）</a><img src="common/img/icon_pdf.gif" width="13" height="14" class="v_baseline" /></td>
+</tr>
+
+<tr class="last">
+    <td><span class="f_bold">2014.07.01</span></td>
+    <td><img src="common/img/icon_kabushiki.gif" width="100" height="25" alt="株式" class="v_baseline m_top4" /></td>
+    <td><a href="newsrelease/pdf/2014/20140701release_02.pdf" target="_blank">「平成26年5月期（第7期）配当予想の修正に関するお知らせ」を掲載しました。（66KB）</a><img src="common/img/icon_pdf.gif" width="13" height="14" class="v_baseline" /></td>
+</tr>
+
+</table>
+</div><!-- overflow-y  end-->
+</div>
+</div>
+</div>
+<!-- タブ1  end-->
+<!-- タブ3  start-->
+<div id="box2">
+<div id="news_title2" class="clearfix">
+<div id="head1">
+<a href="javascript:seltab('box', 'head', 10, 1)" class="news_btn"><span class="none">PR情報</span></a>
+</div>
+<div id="head2">
+<a href="javascript:seltab('box', 'head', 10, 2)" class="news_btn2"><span class="none">IR情報</span></a>
+</div>
+<div id="head3">
+<a href="javascript:seltab('box', 'head', 10, 3)" class="news_btn3"><span class="none">What's New</span></a>
+</div>
+<a href="ir/news/index.html"><img src="common/img/news_topics_btn_01_off.gif" width="60" height="31" alt="一覧" class="float_right m_top2" /></a>
+<a href="rss/ir_news.xml"><img src="common/img/news_topics_btn_02_off.gif" width="46" height="31" alt="RSS" class="float_right m_top2" /></a>
+</div>
+
+<div class="news_topics_outer clear">
+<div class="news_topics_inner">
+<table class="news_topics_table">
+
+<tr class="first">
+	<td><span class="f_bold">2017.08.16</span></td>
+	<td><img src="common/img/icon_kabushiki.gif" width="100" height="25" alt="株式" class="v_baseline m_top4" /></td>
+	<td><a href="newsrelease/pdf/2017/20170816teisei.pdf" target="_blank">「第10回定時株主総会招集ご通知一部訂正のお知らせ」を掲載しました。（34KB） </a><img src="common/img/icon_pdf.gif" width="13" height="14" class="v_baseline" /> <span style="color:red;">NEW</span></td>
+</tr>
+<tr class="middle">
+	<td><span class="f_bold">2017.08.10</span></td>
+	<td><img src="common/img/icon_kabushiki.gif" width="100" height="25" alt="株式" class="v_baseline m_top4" /></td>
+	<td><a href="newsrelease/pdf/2017/20170810syosyu.pdf" target="_blank">「第10回定時株主総会招集ご通知」を掲載しました。（472KB） </a><img src="common/img/icon_pdf.gif" width="13" height="14" class="v_baseline" /> <span style="color:red;">NEW</span></td>
+</tr>
+<tr class="middle">
+    <td><span class="f_bold">2017.08.07</span></td>
+    <td><img src="common/img/icon_keiei.gif" width="100" height="25" alt="経営" class="v_baseline m_top4" /></td>
+    <td><a href="newsrelease/pdf/2017/20170807release.pdf" target="_blank">当社連結子会社の役員の異動に関するお知らせ（79KB）</a><img src="common/img/icon_pdf.gif" width="13" height="14" class="v_baseline" /> <span style="color:red;">NEW</span></td>
+</tr>
+<tr class="middle">
+    <td><span class="f_bold">2017.07.12</span></td>
+    <td><img src="common/img/icon_kessan.gif" width="100" height="25" alt="決算・業績" class="v_baseline m_top4" /></td>
+    <td><a href="newsrelease/pdf/2017/20170712release.pdf" target="_blank">「平成29年5月期 決算短信〔日本基準〕（連結）」を掲載しました。（483KB）</a><img src="common/img/icon_pdf.gif" width="13" height="14" class="v_baseline" /> <span style="color:red;">NEW</span></td>
+</tr>
+
+<tr class="middle">
+    <td><span class="f_bold">2017.07.12</span></td>
+    <td><img src="common/img/icon_keiei.gif" width="100" height="25" alt="経営" class="v_baseline m_top4" /></td>
+    <td><a href="newsrelease/pdf/2017/20170712release2.pdf" target="_blank">Ｅ・Ｊグループ第４次中期経営計画策定のお知らせ（131KB）</a><img src="common/img/icon_pdf.gif" width="13" height="14" class="v_baseline" /> <span style="color:red;">NEW</span></td>
+</tr>
+
+<tr class="middle">
+    <td><span class="f_bold">2017.07.03</span></td>
+    <td><img src="common/img/icon_kessan.gif" width="100" height="25" alt="決算・業績" class="v_baseline m_top4" /></td>
+    <td><a href="newsrelease/pdf/2017/20170703release.pdf" target="_blank">「通期業績予想の修正および特別損失の発生に関するお知らせ」を掲載しました。（89KB）</a><img src="common/img/icon_pdf.gif" width="13" height="14" class="v_baseline" /> <span style="color:red;">NEW</span></td>
+</tr>
+
+<tr class="middle">
+    <td><span class="f_bold">2017.06.05</span></td>
+    <td><img src="common/img/icon_keiei.gif" width="100" height="25" alt="経営" class="v_baseline m_top4" /></td>
+    <td><a href="newsrelease/pdf/2017/20170605release.pdf" target="_blank">「当社子会社の訴訟（控訴）の提起に関するお知らせ」を掲載しました。（77KB）</a><img src="common/img/icon_pdf.gif" width="13" height="14" class="v_baseline" /> <span style="color:red;">NEW</span></td>
+</tr>
+
+<tr class="middle">
+    <td><span class="f_bold">2017.05.26</span></td>
+    <td><img src="common/img/icon_keiei.gif" width="100" height="25" alt="経営" class="v_baseline m_top4" /></td>
+    <td><a href="newsrelease/pdf/2017/20170526release.pdf" target="_blank">「連結子会社「株式会社エイト日本技術開発」における重要人事に関するお知らせ」を掲載しました。（98KB）</a><img src="common/img/icon_pdf.gif" width="13" height="14" class="v_baseline" /> <span style="color:red;">NEW</span></td>
+</tr>
+
+<tr class="middle">
+    <td><span class="f_bold">2017.05.25</span></td>
+    <td><img src="common/img/icon_keiei.gif" width="100" height="25" alt="経営" class="v_baseline m_top4" /></td>
+    <td><a href="newsrelease/pdf/2017/20170525release.pdf" target="_blank">「当社子会社に対する訴訟の判決に関するお知らせ」を掲載しました。（103KB）</a><img src="common/img/icon_pdf.gif" width="13" height="14" class="v_baseline" /> <span style="color:red;">NEW</span></td>
+</tr>
+
+<tr class="middle">
+    <td><span class="f_bold">2017.04.13</span></td>
+    <td><img src="common/img/icon_kessan.gif" width="100" height="25" alt="決算・業績" class="v_baseline m_top4" /></td>
+    <td><a href="ir/library/pdf/tanshin/20170413tansin.pdf" target="_blank">「平成29年5月期 第3四半期決算短信〔日本基準〕（連結）」を掲載しました。（328KB）</a><img src="common/img/icon_pdf.gif" width="13" height="14" class="v_baseline" /> <span style="color:red;">NEW</span></td>
+</tr>
+
+<tr class="middle">
+    <td><span class="f_bold">2017.01.12</span></td>
+    <td><img src="common/img/icon_kessan.gif" width="100" height="25" alt="決算・業績" class="v_baseline m_top4" /></td>
+    <td><a href="ir/library/pdf/tanshin/20170112tansin.pdf" target="_blank">「平成29年5月期 第2四半期決算短信〔日本基準〕（連結）」を掲載しました。（333KB）</a><img src="common/img/icon_pdf.gif" width="13" height="14" class="v_baseline" /></td>
+</tr>
+
+<tr class="middle">
+    <td><span class="f_bold">2016.10.12</span></td>
+    <td><img src="common/img/icon_kessan.gif" width="100" height="25" alt="決算・業績" class="v_baseline m_top4" /></td>
+    <td><a href="ir/library/pdf/tanshin/20161012tansin.pdf" target="_blank">「平成29年5月期 第1四半期決算短信〔日本基準〕（連結）」を掲載しました。（335KB）</a><img src="common/img/icon_pdf.gif" width="13" height="14" class="v_baseline" /></td>
+</tr>
+
+<tr class="middle">
+    <td><span class="f_bold">2016.08.30</span></td>
+    <td><img src="common/img/icon_keiei.gif" width="100" height="25" alt="経営" class="v_baseline m_top4" /></td>
+    <td><a href="newsrelease/pdf/2016/20160830release_01.pdf" target="_blank">「役員選定に関するお知らせ 」を掲載しました。（62KB）</a><img src="common/img/icon_pdf.gif" width="13" height="14" class="v_baseline" /></td>
+</tr>
+
+<tr class="middle">
+    <td><span class="f_bold">2016.08.25</span></td>
+    <td><img src="common/img/icon_other.gif" alt="その他" class="v_baseline m_top4" height="25" width="100"></td>
+    <td><a href="ir/event/index.html">「2016年5月期決算説明会」の動画を掲載しました。</a></td>
+</tr>
+
+<tr class="middle">
+    <td><span class="f_bold">2016.08.19</span></td>
+    <td><img src="common/img/icon_other.gif" alt="その他" class="v_baseline m_top4" height="25" width="100"></td>
+    <td><a href="http://www.daiwair.co.jp/individual/im/201609/index.html" target="_blank">個人投資家向け会社説明会（東京）に参加いたします。</a></td>
+</tr>
+
+<tr class="last">
+    <td><span class="f_bold">2016.08.19</span></td>
+    <td><img src="common/img/icon_other.gif" alt="その他" class="v_baseline m_top4" height="25" width="100"></td>
+    <td><a href="http://www.smbcnikko.co.jp/cgi-bin/service/office/info.cgi?cd=354#i03" target="_blank">個人投資家向け会社説明会（岡山）に参加いたします。</a></td>
+</tr>
+
+
+</table>
+</div>
+</div>
+</div>
+<!-- タブ2  end-->
+<!-- タブ3  start-->
+<div id="box3">
+<div id="news_title3" class="clearfix">
+<div id="head1">
+<a href="javascript:seltab('box', 'head', 10, 1)" class="news_btn"><span class="none">PR情報</span></a>
+</div>
+<div id="head2">
+<a href="javascript:seltab('box', 'head', 10, 2)" class="news_btn2"><span class="none">IR情報</span></a>
+</div>
+<div id="head3">
+<a href="javascript:seltab('box', 'head', 10, 3)" class="news_btn3"><span class="none">What's New</span></a>
+</div>
+<a href="pr_news/index.html"><img src="common/img/news_topics_btn_01_off.gif" width="60" height="31" alt="一覧" class="float_right m_top2" /></a>
+<a href="rss/pr_news.xml"><img src="common/img/news_topics_btn_02_off.gif" width="46" height="31" alt="RSS" class="float_right m_top2" /></a>
+</div>
+<div class="news_topics_outer clear">
+<div class="news_topics_inner">
+<table class="news_topics_table">
+
+
+<tr class="first">
+    <td><span class="f_bold">2017.06.13</span></td>
+    <td><img src="common/img/icon_pr01.gif" width="100" height="25" alt="エイト日本技術開発" class="v_baseline m_top4" /></td>
+    <td><a href="http://www.ejec.ej-hds.co.jp/topics/topics170613.html" target="_blank">当社が設計を担当した「朝明川橋」が平成28年度土木学会田中賞（作品部門）を受賞しました</a> <span style="color:red;">NEW</span></td>
+</tr>
+
+<tr class="middle">
+    <td><span class="f_bold">2017.05.30</span></td>
+    <td><img src="common/img/icon_pr01.gif" width="100" height="25" alt="エイト日本技術開発" class="v_baseline m_top4" /></td>
+    <td><a href="http://www.ejec.ej-hds.co.jp/topics/topics170523.html" target="_blank">土木学会技術賞（Ⅱグループ：タジキスタン国ハトロン州ピアンジ県給水改善計画）を受賞しました</a> <span style="color:red;">NEW</span></td>
+</tr>
+
+<tr class="middle">
+    <td><span class="f_bold">2017.05.11</span></td>
+    <td><img src="common/img/icon_pr01.gif" width="100" height="25" alt="エイト日本技術開発" class="v_baseline m_top4" /></td>
+    <td><a href="http://www.ejec.ej-hds.co.jp/topics/topics170509.html" target="_blank">「東日本大震災5周年　~当社の活動記録〜」を発刊しました</a> <span style="color:red;">NEW</span></td>
+</tr>
+
+<tr class="middle">
+    <td><span class="f_bold">2017.03.01</span></td>
+    <td><img src="common/img/icon_pr01.gif" width="100" height="25" alt="エイト日本技術開発" class="v_baseline m_top4" /></td>
+    <td><a href="http://www.ejec.ej-hds.co.jp/topics/topics170301.html" target="_blank">ストロベリーファーム　高付加価値夏秋イチゴ事業モデルの実証研究協定書を締結</a></td>
+</tr>
+
+<tr class="middle">
+    <td><span class="f_bold">2017.01.05</span></td>
+    <td><img src="common/img/icon_pr01.gif" width="100" height="25" alt="エイト日本技術開発" class="v_baseline m_top4" /></td>
+    <td><a href="http://www.ejec.ej-hds.co.jp/topics/topics170105.html" target="_blank">「レジリエンス認証」を取得しました</a></td>
+</tr>
+
+<tr class="middle">
+    <td><span class="f_bold">2016.12.05</span></td>
+    <td><img src="common/img/icon_pr01.gif" width="100" height="25" alt="エイト日本技術開発" class="v_baseline m_top4" /></td>
+    <td><a href="http://www.ejec.ej-hds.co.jp/topics/topics161205.html" target="_blank">当社が設計した太田川大橋が、2016年度土木学会デザイン賞最優秀賞を受賞しました</a></td>
+</tr>
+
+<tr class="first">
+    <td><span class="f_bold">2016.07.12</span></td>
+    <td><img src="common/img/icon_pr09.gif" width="100" height="25" alt="ホールディングス" class="v_baseline m_top4" /></td>
+    <td><a href="pr_news/pdf/2016/20160712release_01.pdf" target="_blank">当社ならびに子会社株式会社エイト日本技術開発の本店機構および中国支社仮移転に関するお知らせ（137KB）</a><img src="common/img/icon_pdf.gif" width="13" height="14" class="v_baseline" /></td>
+</tr>
+
+<tr class="middle">
+    <td><span class="f_bold">2016.07.06</span></td>
+    <td><img src="common/img/icon_pr01.gif" width="100" height="25" alt="エイト日本技術開発" class="v_baseline m_top4" /></td>
+    <td><a href="http://www.ejec.ej-hds.co.jp/topics/topics16070501.html" target="_blank">アジア工科大学(AIT)にて道路交通インフラ技術セミナーを開催</a></td>
+</tr>
+
+
+
+<tr class="middle">
+    <td><span class="f_bold">2016.07.06</span></td>
+    <td><img src="common/img/icon_pr01.gif" width="100" height="25" alt="エイト日本技術開発" class="v_baseline m_top4" /></td>
+    <td><a href="http://www.ejec.ej-hds.co.jp/topics/topics160705.html" target="_blank">タイ国コンサルティングエンジニア協会の後援により道路交通インフラ技術セミナーを開催</a></td>
+</tr>
+
+<tr class="middle">
+    <td><span class="f_bold">2016.04.26</span></td>
+    <td><img src="common/img/icon_pr09.gif" width="100" height="25" alt="ホールディングス" class="v_baseline m_top4" /></td>
+    <td><a href="pr_news/160426.html">平成28年熊本地震への対応について</a></td>
+</tr>
+
+<tr class="last">
+    <td><span class="f_bold">2016.03.18</span></td>
+    <td><img src="common/img/icon_pr01.gif" width="100" height="25" alt="エイト日本技術開発" class="v_baseline m_top4" /></td>
+    <td><a href="http://www.ejec.ej-hds.co.jp/topics/topics16031701.html" target="_blank">タイ国ターク県における廃棄物処分場への準好気性埋立構造の導入を技術支援</a></td>
+</tr>
+
+
+
+
+<!--
+
+<tr class="last">
+    <td><span class="f_bold">2015.04.10</span></td>
+    <td><img src="common/img/icon_pr01.gif" width="100" height="25" alt="エイト日本技術開発" class="v_baseline m_top4" /></td>
+    <td><a href="pr_news/pdf/2015/20150410release_01.pdf" target="_blank">「災害リスク研究センター」、「インフラ保全センター」設立のお知らせ</a></td>
+</tr>
+
+<tr class="last">
+    <td><span class="f_bold">2014.11.28</span></td>
+    <td><img src="common/img/icon_pr01.gif" width="100" height="25" alt="エイト日本技術開発" class="v_baseline m_top4" /></td>
+    <td><a href="pr_news/pdf/2014/20141128release_01.pdf" target="_blank">子会社「株式会社 エイト日本技術開発」のバンコク駐在員事務所開所について</a></td>
+</tr>
+
+<tr class="last">
+    <td><span class="f_bold">2014.09.18</span></td>
+    <td><img src="common/img/icon_pr01.gif" width="100" height="25" alt="エイト日本技術開発" class="v_baseline m_top4" /></td>
+    <td><a href="pr_news/140918.html">当社子会社の（株）エイト日本技術開発がアジア工科大学（A.I.T.）と奨学金提供を含む技術協力協定を締結</a></td>
+</tr>
+<tr class="last">
+    <td><span class="f_bold">2014.08.05</span></td>
+    <td><img src="common/img/icon_pr01.gif" width="100" height="25" alt="エイト日本技術開発" class="v_baseline m_top4" /></td>
+    <td><a href="http://www.ejec.ej-hds.co.jp/commendation.html" target="_blank">エイト日本技術開発　国土交通省より優良業務、優良技術者表彰を受賞しました。</a></td>
+</tr>
+
+<tr class="middle">
+    <td><span class="f_bold">2014.08.01</span></td>
+    <td><img src="common/img/icon_pr04.gif" width="100" height="25" alt="近代設計" class="v_baseline m_top4" /></td>
+    <td><a href="http://www.kindai.co.jp/company/commendation.html" target="_blank">国土交通省より優良業務、優良技術者表彰を受賞しました。</a></td>
+</tr>
+<tr class="last">
+    <td><span class="f_bold">2014.07.31</span></td>
+    <td><img src="common/img/icon_pr05.gif" width="100" height="25" alt="共立エンジニヤ" class="v_baseline m_top4" /></td>
+    <td><a href="http://www.kyouritsu-e.co.jp/topics/20140731/20140731.html" target="_blank">島根県 松江県土整備事務所より所長表彰を受賞しました。</a></td>
+</tr>
+-->
+
+</table>
+</div>
+</div>
+</div>
+<!-- タブ3  end-->
+
+
+
+<!-- E・Jホールディングスグループ企業 start-->
+<div id="group_link_outer">
+<img src="common/img/ej_group_title.gif" />
+<div id="group_link_inner" class="clearfix">
+
+<a href="http://www.ejec.ej-hds.co.jp/" target="_blank"><img src="common/img/btn_group_01_off.jpg" width="244" height="40" alt="株式会社 エイト日本技術開発" class="m_right17 m_bottom8" /></a><!--
+--><a href="http://www.ej-jimco.co.jp/" target="_blank"><img src="common/img/btn_group_03_off.jpg" width="244" height="40" alt="日本インフラマネジメント株式会社" class="m_bottom8" /></a><br />
+
+
+<a href="http://www.kindai.co.jp/" target="_blank"><img src="common/img/btn_group_04_off.jpg" width="244" height="40" alt="株式会社 近代設計" class="m_right17 m_bottom8" /></a><!--
+--><a href="http://www.kyouritsu-e.co.jp/" target="_blank"><img src="common/img/btn_group_05_off.jpg" width="244" height="40" alt="株式会社共立エンジニヤ" class="m_bottom8" /></a><br />
+
+<a href="http://kyoritsukouei.jp/" target="_blank"><img src="common/img/btn_group_06_off.jpg" width="244" height="40" alt="共立工営株式会社" class="m_right17 m_bottom8" /></a><!--
+--><a href="http://www.toshi.co.jp/" target="_blank"><img src="common/img/btn_group_07_off.jpg" width="244" height="40" alt="都市開発設計株式会社" class="m_bottom8" /></a><br />
+
+
+<a href="http://www.ej-hds.co.jp/enjoy/" target="_blank"><img src="common/img/btn_group_10_off.jpg" width="244" height="40" alt="エンジョイファーム" /></a>
+
+</div>
+</div>
+<!-- E・Jホールディングスグループ企業 end-->
+
+<!-- adobeバナー start-->
+<ul class="clear m_top8">
+<li><a href="http://get.adobe.com/jp/reader/" target="_blank"><img src="common/img/btn_adobe_01_off.gif" width="647" height="69" alt="Get ADOBE READER" /></a></li>
+<li><a href="http://get.adobe.com/jp/flashplayer/" target="_blank"><img src="common/img/btn_adobe_02_off.gif" width="647" height="68" alt="Get ADOBE FLASH PLAYER" /></a></li>
+</ul>
+<!-- adobeバナー end-->
+
+
+</div>
+<!-- ▲▲ 左コンテンツ end -->
+
+<!-- ▽▽ 右コンテンツ start -->
+<div id="main_right">
+<ul>
+<li><a href="special/index.html"><img src="common/img/btn_banar_01_off.jpg" width="278" height="56" alt="新たな取り組み" /></a></li>
+<li class="m_top4"><a href="ir/individual/quick_01.html"><img src="common/img/btn_banar_02_off.jpg" width="278" height="56" alt="E・Jホールディングス早わかり" /></a></li>
+<li class="m_top4"><a href="ir/individual/investment_01.html"><img src="common/img/btn_banar_03_off.jpg" width="278" height="56" alt="投資対象としてのE・Jホールディングス" /></a></li>
+</ul>
+
+<!-- IRイベント＆カレンダー start-->
+<div id="event_carendar_outer">
+<p><a href="ir.html"><img src="common/img/event_carendar_title.gif" width="278" height="35" alt="IRイベント＆カレンダー" /></a></p>
+<div id="event_carendar_inner">
+<dl>
+
+<dt>2017.07.12</dt>
+<dd class="line1_bottom p_bottom8"><a href="ir/library/results.html">2017年5月期決算発表</a></dd>
+
+<dt>2017.04.13</dt>
+<dd class="line1_bottom p_bottom8"><a href="ir/library/results.html">2017年5月期第3四半期決算発表</a></dd>
+
+<dt>2017.01.12</dt>
+<dd class="line1_bottom p_bottom8"><a href="ir/library/results.html">2017年5月期第2四半期決算発表</a></dd>
+
+<dt>2016.10.12</dt>
+<dd class="line1_bottom p_bottom8"><a href="ir/library/results.html">2017年5月期第1四半期決算発表</a></dd>
+
+<dt>2016.09.10</dt>
+<dd class="line1_bottom p_bottom8"><a href="ir/event/presentation.html">個人投資家向け会社説明会（東京）</a> <a href="ir/event/presentation.html"><img src="common/img/btn_more_01.gif" width="64" height="14" alt="詳しくはこちら" class="more" /></a></dd>
+
+<!--
+<dt>2016.09.02</dt>
+<dd class="line1_bottom p_bottom8"><a href="ir/event/presentation.html">個人投資家向け会社説明会（岡山）</a> <a href="ir/event/presentation.html"><img src="common/img/btn_more_01.gif" width="64" height="14" alt="詳しくはこちら" class="more" /></a></dd>
+
+<dt>2016.07.12</dt>
+<dd class="line1_bottom p_bottom8"><a href="ir/library/results.html">2016年5月期決算発表</a></dd>
+
+
+
+<dt>2016.01.12</dt>
+<dd class="line1_bottom p_bottom8"><a href="ir/library/results.html">2016年5月期第2四半期決算発表</a></dd>
+
+
+<dt>2015.09.08</dt>
+<dd class="line1_bottom p_bottom8"><a href="ir/event/presentation.html">個人投資家向け会社説明会（大阪）</a> <a href="ir/event/presentation.html"><img src="common/img/btn_more_01.gif" width="64" height="14" alt="詳しくはこちら" class="more" /></a></dd>
+
+
+
+
+<dt>2015.08.27</dt>
+<dd class="line1_bottom p_bottom8"><a href="ir/event/meeting.html">定時株主総会（岡山）</a> <a href="ir/event/meeting.html"><img src="common/img/btn_more_01.gif" width="64" height="14" alt="詳しくはこちら" class="more" /></a></dd>
+
+
+
+<dt>2015.08.21</dt>
+<dd class="line1_bottom p_bottom8"><a href="ir/event/presentation.html">+YOUニッポン応援全国キャラバン in 岡山</a> <a href="ir/event/presentation.html"><img src="common/img/btn_more_01.gif" width="64" height="14" alt="詳しくはこちら" class="more" /></a></dd>
+
+<dt>2013.08.08</dt>
+<dd class="line1_bottom p_bottom8"><a href="ir/event/presentation.html">個人投資家向け会社説明会（岡山）</a> <a href="ir/event/presentation.html"><img src="common/img/btn_more_01.gif" width="64" height="14" alt="詳しくはこちら" class="more" /></a></dd>
+-->
+</dl>
+
+</div>
+</div>
+<!-- IRイベント＆カレンダー end-->
+
+<ul class="m_top8">
+<li><a href="koukoku.html"><img src="common/img/btn_banar_04_off.jpg" width="278" height="36" alt="電子公告" /></a></li>
+<li class="m_top4"><a href="http://quote.yahoo.co.jp/q?s=2153&d=v1&k=c3&h=on&z=m" target="_blank"><img src="common/img/btn_banar_05_off.jpg" width="278" height="36" alt="株価情報" /></a></li>
+<li class="m_top8"><a href="company/recruit.html"><img src="common/img/btn_banar_06_off.jpg" width="278" height="46" alt="採用情報" /></a></li>
+<li class="m_top8"><a href="./uploads/ej-hds20160817.pdf" target="_blank"><img src="common/img/btn_banar_07_off.jpg" width="278" height="66" alt="FISCO企業調査レポート" /></a></li>
+</ul>
+
+
+<!-- 関連リンク start-->
+<div id="related_link_outer">
+<p><img src="common/img/related_link_title.gif" width="278" height="35" alt="E・JホールディングスグループのCSR活動" /></p>
+<div id="related_link_inner">
+<a href="http://www.ej-hds.co.jp/zaidan/" target="_blank"><img src="common/img/btn_group_08_off.jpg" width="244" height="40" alt="公益財団法人 八雲環境科学振興財団" class="m_top8" /></a>
+</div>
+</div>
+<!-- 関連リンク end-->
+
+
+</div>
+<!-- ▲▲ 右コンテンツ end -->
+
+</div>
+<!-- ▲▲ メインコンテンツ end -->
+
+
+
+</div>
+</div>
+<!-- ▲ wrapper end -->
+<!-- ▽▽ footer start -->
+<br class="clear f0" />
+<div id="footer">
+<div id="footer_inner" class="clearfix">
+<img src="common/img/footer_01.gif" width="297" height="12" alt="Copyright(c) 2010 E・J Holdings. Inc. All Rights Reserved." class="float_left" />
+
+<p class="float_right font_s"><a href="index.html">HOME</a>　｜　<a href="disclaimer.html">免責条項</a>　｜　<a href="privacy.html">個人情報の取扱いについて</a>　｜　<a href="terms.html">サイトのご利用にあたって</a></p>
+
+</div>
+</div>
+<!-- ▲▲ footer end -->
+
+</body>
+</html>

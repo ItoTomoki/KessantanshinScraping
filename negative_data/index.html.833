@@ -1,0 +1,369 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<meta name="robots" content="INDEX, FOLLOW" />
+<meta name="keywords" content="株式会社ソケッツ,SOCKETS,エンタメ,音楽サービス,パーソナライズド,レコメンド,データベース,マーケティング,エンジニア採用,東京都渋谷区" />
+<meta name="description" content="株式会社ソケッツはメタデータ、検索・レコメンド機能を開発・提供するデータベース・サービスカンパニーです。" />
+<title>株式会社ソケッツ｜メタデータ、検索・レコメンド機能を開発・提供するデータベース・サービスカンパニー</title>
+<link rel="icon" href="favicon.ico" />
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<!-- ここから追加 CSS、スクリプト読み込み -->
+<link href="./css/bootstrap.min.css" rel="stylesheet">
+<link href="./css/style.css" rel="stylesheet">
+
+<!-- ここから各ライブラリの読み込み -->
+<script src="./js/jquery-1.11.2.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+<script src="./js/common.js"></script>
+</head>
+<body>
+<div class="wrapper wrap-top">
+  <header class="sockets-header hidden-xs">
+    <div class="container">
+      <div class="sockets-lang">Japanese｜<a href="../en/">English</a></div>
+      <h1 class="sockets-tagline">感性メタを活用したレコメンド/パーソナライズ・分析サービスを提供するデータベース・サービスカンパニー</h1>
+      <div class="sockets-logo-pc"><a href="/"><img class="media-object" src="images/sockets_logo_pc.png" alt="Sockets"></a></div>
+    </div>
+  </header>
+  <nav class="navbar navbar-default navbar-static-top sockets-nav">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" tabindex="1" accesskey="b"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+        <a class="navbar-brand visible-xs" href="/"><img class="media-object" src="images/sockets_logo_sp.png" alt="Sockets" width="58"></a> </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">会社情報 <span class="caret"></span><span class="eng-title">Company Overview</span></a>
+            <ul class="dropdown-menu">
+              <li><a href="company/index.html"><span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span> ビジョン</a></li>
+              <li><a href="company/philosophy.html"><span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span> 経営理念・社訓</a></li>
+              <li><a href="company/summary.html"><span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span> 会社概要</a></li>
+              <!--li role="separator" class="divider"></li>
+                <li class="dropdown-header">Nav header</li-->
+              <li><a href="company/accessmap.html"><span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span> アクセスマップ</a></li>
+              <li><a href="company/history.html"><span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span> ヒストリー</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">事業内容 <span class="caret"></span><span class="eng-title">Business Outline</span></a>
+            <ul class="dropdown-menu">
+              <li><a href="business/index.html"><span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span> サービス一覧</a></li>
+              <li><a href="business/msdb.html"><span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span> MSDBについて</a></li>
+              <li><a href="business/model.html"><span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span> ビジネスモデル</a></li>
+            </ul>
+          </li>
+          <li class="active"><a href="ir/index.html">IR情報<span class="eng-title">Investor Relations</span></a></li>
+          <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ニュースリリース <span class="caret"></span><span class="eng-title">News Release</span></a>
+            <ul class="dropdown-menu">
+              <li><a href="release/"><span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span> ニュース一覧</a></li>
+              <li><a href="release/news_2016.html"><span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span> 2016年</a></li>
+              <li><a href="release/news_2015.html"><span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span> 2015年</a></li>
+              <li><a href="release/news_2014.html"><span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span> 2014年</a></li>
+              <li><a href="release/news_2013.html"><span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span> 2013年</a></li>
+              <li><a href="release/news_2012.html"><span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span> 2012年</a></li>
+              <li><a href="release/news_2011.html"><span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span> 2011年</a></li>
+              <li><a href="release/news_2010.html"><span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span> 2010年</a></li>
+              <li><a href="release/news_2009.html"><span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span> 2009年</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">採用情報 <span class="caret"></span><span class="eng-title">Recruit</span></a>
+            <ul class="dropdown-menu">
+              <li><a href="recruit/message.html"><span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span> 代表者からのメッセージ</a></li>
+              <li><a href="recruit/staff.html"><span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span> スタッフ紹介</a></li>
+              <li><a href="recruit/story.html"><span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span> プロジェクトストーリー</a></li>
+              <li><a href="recruit/office.html"><span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span> オフィス環境</a></li>
+              <li><a href="recruit/welfare.html"><span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span> 福利厚生</a></li>
+              <li><a href="recruit/faq.html"><span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span> Q&amp;A</a></li>
+              <li><a href="recruit/graduates.html"><span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span> 新卒者採用</a></li>
+              <li><a href="recruit/midcareers.html"><span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span> 経験者採用</a></li>
+              <li><a href="recruit/parttimejob.html"><span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span> アルバイト採用</a></li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav visible-xs">
+          <li><a href="../en/">English</a></li>
+        </ul>
+      </div>
+      <!--/.nav-collapse --> 
+    </div>
+  </nav>
+  <section class="top-video-area">
+    <div class="container"> 
+      <article> 
+        <video controls muted preload="none" poster="/movie/poster.png" width="960" height="540" onplay="ga('send', 'event','movie', 'Play','movie01')" onpause="ga('send', 'event','movie', 'Pause','movie01')" onended="ga('send', 'event','movie', 'Ended','movie01')" >
+          <source src="http://www.sockets.co.jp/movie/Sockets_960_Audio.mp4" type="video/mp4" />
+          <source src="http://www.sockets.co.jp/movie/Sockets_960_Audio.webm" type="video/webm" />
+          <!--<source src="http://www.sockets.co.jp/movie/Sockets960_Audio.ogg" type="video/ogg" />-->
+          <img src="http://www.sockets.co.jp/movie/poster.png" alt="人のキモチをつなぐ～株式会社ソケッツ～" />
+
+        </video>
+      </article>
+    </div>
+    <!--/ .container--> 
+  </section>
+  <section class="top-info-area">
+    <div class="container">
+      <div class="row">
+        <div class="top-info-left col-sm-7">
+          <div class="top-info-left-in">
+            <h1 class="first-letter">Information</h1>
+            <ul class="top-info list-unstyled">
+              <!--##new_start##-->
+                            <li><span class="info-date">2017/08/07</span>
+                <span class="label label-IR">IR</span>                <br>
+                <a href="newsmanager/pkobo_news/upload/112-0link_file.pdf" target="_blank" onclick="ga('send', 'pageview', {'page': 'newsmanager/pkobo_news/upload/112-0link_file.pdf', '平成30年３月期第１四半期決算短信〔日本基準〕（非連結）': 'pdf'});">平成30年３月期第１四半期決算短信〔日本基準〕（非連結）</a>                <img src="newsmanager/pkobo_news/upload/112-0s.gif?599aaa3827e4c" width="16" class="thumbNail" alt="pdf" id="thumb_112" />                              </li>
+                            <li><span class="info-date">2017/08/07</span>
+                <span class="label label-IR">IR</span>                <br>
+                <a href="newsmanager/pkobo_news/upload/111-0link_file.pdf" target="_blank" onclick="ga('send', 'pageview', {'page': 'newsmanager/pkobo_news/upload/111-0link_file.pdf', '2018年3月期　第1四半期決算補足説明資料': 'pdf'});">2018年3月期　第1四半期決算補足説明資料</a>                <img src="newsmanager/pkobo_news/upload/111-0s.gif?599aaa3828623" width="16" class="thumbNail" alt="pdf" id="thumb_111" />                              </li>
+                            <li><span class="info-date">2017/08/07</span>
+                <span class="label label-IR">IR</span>                <br>
+                <a href="newsmanager/pkobo_news/upload/110-0link_file.pdf" target="_blank" onclick="ga('send', 'pageview', {'page': 'newsmanager/pkobo_news/upload/110-0link_file.pdf', 'ファッション・データベース開発企業 アイエント社への出資及び基本合意書を締結': 'pdf'});">ファッション・データベース開発企業 アイエント社への出資及び基本合意書を締結</a>                <img src="newsmanager/pkobo_news/upload/110-0s.gif?599aaa3828d96" width="16" class="thumbNail" alt="pdf" id="thumb_110" />                              </li>
+                            <li><span class="info-date">2017/07/10</span>
+                <span class="label label-PR">PR</span>                <br>
+                <a href="http://www.sockets.co.jp/kansei/kansei_report05.html" target="_parent" onclick="ga('send', 'pageview', {'page': 'http://www.sockets.co.jp/kansei/kansei_report05.html', '2017年ドラマ視聴率を予測するシリーズ第3回 ～前クール予測結果 正解率78%、7月期の初回視聴率を新たに予測～ のレポートを公開しました': 'topicsclick'});">2017年ドラマ視聴率を予測するシリーズ第3回 ～前クール予測結果 正解率78%、7月期の初回視聴率を新たに予測～ のレポートを公開しました</a>                　                              </li>
+                            <li><span class="info-date">2017/06/26</span>
+                <span class="label label-IR">IR</span>                <br>
+                <a href="newsmanager/pkobo_news/upload/108-0link_file.pdf" target="_blank" onclick="ga('send', 'pageview', {'page': 'newsmanager/pkobo_news/upload/108-0link_file.pdf', '2017年3月期　株主通信': 'pdf'});">2017年3月期　株主通信</a>                <img src="newsmanager/pkobo_news/upload/108-0s.gif?599aaa38291c0" width="16" class="thumbNail" alt="pdf" id="thumb_108" />                              </li>
+                            <a style="display:block;text-align:center;margin:15px 0;font-size:11px;color:#fff;text-decoration:none" href=""></a> 
+              <!--##new_end##-->
+            </ul>
+            <div class="link-more01"><a href="../release/">More</a></div>
+          </div>
+        </div>
+        <div class="top-info-right col-sm-5">
+          <div class="top-info-right-in">
+            <h1 class="first-letter">Pick Up</h1>
+            <ul class="top-banner list-unstyled">
+              <li><a href="top_message.html" onclick="ga('send', 'event','topbnr', 'Click','banner_shareholders')"><img src="images/banner_shareholders.png" alt="株主・投資家の皆様へ"></a></li>
+              <li><a href="business/index.html#performance" onclick="ga('send', 'event','topbnr', 'Click','banner_transaction')"><img src="images/banner_transaction.png" alt="データベース テクノロジー提供先ご紹介"></a></li>
+              <li><a href="recruit/story02.html" onclick="ga('send', 'event','topbnr', 'Click','banner_pjstory02')"><img src="images/banner_pjstory.png" alt="感性×AI(人工知能)技術が生み出す、ソケッツ未来サービスへの取り組み"></a>
+              <!--<li><a href="business/recommend_tech.html" onclick="ga('send', 'event','topbnr', 'Click','banner_tech01')"><img src="images/banner_tech01.png" alt="ソケッツレコメンド技術"></a>-->
+              <!--<li><a href="business/analytics_tech.html" onclick="ga('send', 'event','topbnr', 'Click','banner_tech02')"><img src="images/banner_tech02.png" alt="ソケッツ分析技術"></a></li>-->
+              <li style="font-size:12px;"><a href="recruit/midcareers.html" onclick="ga('send', 'event','topbnr', 'Click','banner_joinus')"><img src="images/banner_joinus.png" alt="積極採用中！"></a><br><a href="recruit/midcareers.html" onclick="ga('send', 'event','topbnr', 'Click','text_parttimejob')">エンジニア職や、エンタメ系データ作成などのアルバイトも募集中！</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!--/ .row--> 
+    </div>
+    <!--/ .container--> 
+  </section>
+  <section class="top-service-area">
+    <div class="container">
+      <h1 class="first-letter">Service</h1>
+      <div class="row-height">
+        <div class="col-sm-4 col-height"> <a href="business/meta_service.html">
+          <div class="top-service-list">
+            <div class="top-service-img"><img src="images/bg_service_metadata.png" alt="データサービス"></div>
+            <div class="top-service-text">
+              <h2>データサービス</h2>
+              <p>音楽、映像、書籍をはじめとしたソケッツメタデータをご提供します。オリジナルの感性メタはサービスに奥行きを出し、さらに一般商品やニュース、SNSなどの情報も一元化することでライフスタイルに寄り添ったサービス構築を可能とするだけでなく、データベース・マーケティングをはじめ、様々な分野での活用が可能になります。</p>
+            </div>
+          </div>
+          </a> </div>
+        <div class="segment"></div>
+        <div class="col-sm-4 col-height"> <a href="business/recommend_service.html">
+          <div class="top-service-list">
+            <div class="top-service-img"><img src="images/bg_service_recommend.png" alt="レコメンド/パーソナライズ"></div>
+            <div class="top-service-text">
+              <h2>レコメンド/パーソナライズ</h2>
+              <p>統計データや教師データによる性能向上と効率化、また音楽、映像、書籍、ほかメタデータをすべて保有していることで共通したアーキテクトにより、精度の高いクロスメディアレコメンドをご提供します。さらに、ユーザーごとに異なる感性の分析を可能とする感性メタを最大限に生かしたハイブリッド構築のオリジナル・レコメンダーがパーソナライズを実現します。</p>
+            </div>
+          </div>
+          </a> </div>
+        <div class="segment"></div>
+        <div class="col-sm-4 col-height"> <a href="business/analytics_service.html">
+          <div class="top-service-list">
+            <div class="top-service-img"><img src="images/bg_service_analysis.png" alt="感性メタ活用分析サービス"></div>
+            <div class="top-service-text">
+              <h2>感性メタ活用分析サービス</h2>
+              <p>機械学習/深層学習による高度な分析技術、国内唯一といえるソケッツの総合クロスカテゴリーデータベースと接続することで感性メタによるユーザーインサイトに迫るプロファイリングやサービス分析が可能となります。多様な大規模データのリアルタイム集積・リアルタイム分析により、あらゆるデータベース・マーケティングにお応えいたします。</p>
+            </div>
+          </div>
+          </a> </div>
+      </div>
+      <!--/ .row-height-->
+      <div class="row-height">
+        <div class="col-sm-4 col-height"> <a href="business/search_service.html">
+          <div class="top-service-list">
+            <div class="top-service-img"><img src="images/bg_service_search.png" alt="特化型検索サービス"></div>
+            <div class="top-service-text">
+              <h2>特化型検索サービス</h2>
+              <p>音楽や映像や書籍など、メディアごとに体系化した専門検索サービスをご提供します。また、感性を軸にした検索やメディア横断検索、さらに送り仮名の揺れや誤表記、別名などを解決しマッチング精度の向上を実現いたします。サービスのみならず、データクレンジング技術を活用した社内DB連携システムなどもご提供いたします。</p>
+            </div>
+          </div>
+          </a> </div>
+        <div class="segment"></div>
+        <div class="col-sm-4 col-height"> <a href="business/development_service.html">
+          <div class="top-service-list">
+            <div class="top-service-img"><img src="images/bg_service_develop.png" alt="統合システム開発・構築"></div>
+            <div class="top-service-text">
+              <h2>統合システム開発・構築</h2>
+              <p>既存サービスとの連携や業務管理DBなどとの連携など、データベース活用サービスにおいて、データクレンジングから各種プラットフォーム向けのWebアプリケーションや、iPhone、Androidなどのネイティブアプリまで、スケーラブルで高品質なシステム開発を行います。</p>
+            </div>
+          </div>
+          </a> </div>
+        <div class="segment"></div>
+        <div class="col-sm-4 col-height"> <a href="business/operation_service.html">
+          <div class="top-service-list">
+            <div class="top-service-img"><img src="images/bg_service_planning.png" alt="データベース活用サービス企画・開発"></div>
+            <div class="top-service-text">
+              <h2>データベース活用サービス企画・開発</h2>
+              <p>感性メタをはじめとしたデータベースを活かしたサービス開発やサービス拡張など新たな可能性を企画提案させていただきます。データの名寄せや統合などのデータクレンジング・運用面などもご相談ください。</p>
+            </div>
+          </div>
+          </a> </div>
+      </div>
+      <!--/ .row-height--> 
+    </div>
+    <!--/ .container--> 
+  </section>
+  <div class="pagetop">
+    <div class="pagetop-btn"><img class="media-object" src="images/page_top.png" alt="Pagetop"></div>
+  </div>
+  <footer>
+    <div class="footer-border-area">
+      <div class="container">
+        <p class="dbsc hidden-xs">Data Base service company</p>
+      </div>
+      <!--/ .container--> 
+    </div>
+    <!--/ .footer-border-area-->
+    
+    <div class="footer-link-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-9">
+            <div class="footer-link-table">
+              <div class="footer-link">
+                <h3><a href="/">HOME</a></h3>
+                <ul>
+                  <li style="color:#e2e2e2 ;">ソケッツ</li>
+                </ul>
+                <h3>会社情報</h3>
+                <ul>
+                  <li><a href="company/index.html">ビジョン</a></li>
+                  <li><a href="company/philosophy.html">経営理念・社訓</a></li>
+                  <li><a href="company/summary.html">会社概要</a></li>
+                  <li><a href="company/accessmap.html">アクセスマップ</a></li>
+                  <li><a href="company/history.html">ヒストリー</a></li>
+                </ul>
+              </div>
+              <!--/ .footer-link-->
+              
+              <div class="footer-link">
+                <h3>事業内容</h3>
+                <ul>
+                  <li><a href="business/">サービス一覧</a></li>
+                  <li class="nest"><a href="business/meta_service.html">データサービス</a></li>
+                  <li class="nest"><a href="business/meta_tech.html">データサービス（技術仕様）</a></li>
+                  <li class="nest"><a href="business/recommend_service.html">レコメンド/パーソナライズ</a></li>
+                  <li class="nest"><a href="business/recommend_tech.html">レコメンド/パーソナライズ（技術仕様）</a></li>
+                  <li class="nest"><a href="business/analytics_service.html">感性メタ活用分析サービス</a></li>
+                  <li class="nest"><a href="business/analytics_tech.html">感性メタ活用分析サービス（技術仕様）</a></li>
+                  <li class="nest"><a href="business/search_service.html">特化型検索サービス</a></li>
+                  <li class="nest"><a href="business/development_service.html">統合システム開発・構築</a></li>
+                  <li class="nest"><a href="business/operation_service.html">データベース活用サービス企画・開発</a></li>
+                  <li><a href="business/msdb.html">MSDBについて</a></li>
+                  <li><a href="business/model.html">ビジネスモデル</a></li>
+                </ul>
+              </div>
+              <!--/ .footer-link-->
+              
+              <div class="footer-link">
+                <h3><a href="ir/">IR情報</a></h3>
+                <ul>
+                  <li><a href="ir/shareholders.html">株主・投資家の皆様へ</a></li>
+                  <li><a href="ir/news.html">IRニュース</a></li>
+                  <li><a href="ir/investor.html">当社概要について</a></li>
+                  <li><a href="ir/highlights01.html">財務ハイライト</a></li>
+                  <li><a href="ir/ir_material01.html">IRライブラリー</a></li>
+                  <li><a href="ir/stock01.html">株式情報</a></li>
+                  <li><a href="ir/calendar.html">IRカレンダー</a></li>
+                  <li><a href="ir/faq.html">FAQ</a></li>
+                  <li><a href="ir/disclaimers.html">免責事項</a></li>
+                  <li><a href="inquiry/contact/policy.html">IRお問い合わせ</a></li>
+                </ul>
+              </div>
+              <!--/ .footer-link-->
+
+              <div class="footer-link">
+                <h3>ニュースリリース</h3>
+                <ul>
+                  <li><a href="release/">ニュース一覧</a></li>
+                </ul>
+              
+                <h3>採用情報</h3>
+                <ul>
+                  <li><a href="recruit/message.html">代表からのメッセージ</a></li>
+                  <li><a href="recruit/staff.html">スタッフ紹介</a></li>
+                  <li><a href="recruit/story.html">プロジェクトストーリー</a></li>
+                  <li><a href="recruit/office.html">オフィス環境</a></li>
+                  <li><a href="recruit/welfare.html">福利厚生</a></li>
+                  <li><a href="recruit/faq.html">Q&amp;A</a></li>
+                  <li><a href="recruit/graduates.html">新卒者採用</a></li>
+                  <li><a href="recruit/midcareers.html">経験者採用</a></li>
+                  <li><a href="recruit/parttimejob.html">アルバイト採用</a></li>
+                  <li><a href="inquiry/recruit/policy.html">エントリーフォーム</a></li>
+                </ul>
+                <h3><a href="../en/">English</a></h3>
+                <ul>
+                  <li style="color:#e2e2e2 ;">sockets Inc.</li>
+                </ul>
+              </div>
+              <!--/ .footer-link--> 
+              
+            </div>
+            <!--/ .footer-link-table--> 
+            
+          </div>
+          <!--/ .col-sm-9-->
+          
+          <div class="col-sm-3">
+            <div class="footer-logo hidden-xs"><img class="media-object" src="images/footer_logo.png" alt="株式会社ソケッツ"></div>
+          </div>
+          <!--/ .col-sm-3--> 
+          
+        </div>
+        <!--/ .row--> 
+      </div>
+      <!--/ .container--> 
+    </div>
+    <!--/ .footer-link-area-->
+    
+    <div class="footer-copy-area">
+      <div class="container">
+        <div class="other-link"><a href="policy/index.html">プライバシーポリシー</a> | <a href="sitemap/index.html">サイトマップ</a> | <a href="inquiry/contact/policy.html">お問い合わせ</a></div>
+        <div class="pmark hidden-xs"><img class="media-object" src="images/pmark.png" alt=""></div>
+        <small>Copyrightc SOCKETS Inc. ALL RIGHTS RESERVED.</small> </div>
+      <!--/ .container--> 
+    </div>
+    <!--/ .footer-copy-area--> 
+    
+  </footer>
+  <div class="overlay-mask"></div>
+</div>
+<!-- /.wrapper --> 
+
+<script>
+ (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ ga('create', 'UA-57186319-2', 'auto');
+ ga('send', 'pageview');
+
+</script>
+
+</body>
+</html>

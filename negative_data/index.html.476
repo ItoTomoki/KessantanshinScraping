@@ -1,0 +1,808 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<script>
+(function(){
+  var ua = {
+    iPhone: navigator.userAgent.indexOf('iPhone') != -1,
+    iPod: navigator.userAgent.indexOf('iPod') != -1,
+    android: navigator.userAgent.indexOf('Android') != -1,
+    windows: navigator.userAgent.indexOf('Windows Phone') != -1
+  }
+  if(ua.iPhone || ua.iPod || ua.android || ua.windows){
+    document.write('<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">\n');
+  }else{
+    document.write('<meta name="viewport" content="width=1200, user-scalable=yes,">\n');
+  }
+}());
+</script>
+<script src="http://use.fontawesome.com/cecde5b234.js"></script>
+
+
+
+
+<title>株式会社サダマツ - SADAMATSU Company Limited.</title>
+<meta content="telephone=no" name="format-detection">
+<link rel="shortcut icon" href="http://sadamatsu.com/wordpress/wp-content/themes/sadamatsu/images/favicon.png" />
+<link href="http://sadamatsu.com/wordpress/wp-content/themes/sadamatsu/images/appleicon.png" rel="apple-touch-icon-precomposed" />
+
+<style>
+<style>
+#map_canvas { width: 100%; height: 100%; }
+</style>
+
+
+<!-- All in One SEO Pack 2.2.7.5 by Michael Torbert of Semper Fi Web Design[692,707] -->
+<meta name="description" itemprop="description" content="株式会社サダマツは、festaria  bijou SOPHIA・veretta 8va・vielleなど複数のブランドを、首都圏を中心に、全国で幅広くショップ展開するジュエリーの小売企業です。" />
+
+<meta name="keywords" itemprop="keywords" content="サダマツ,株式会社サダマツ,ジュエリー,jewelry,宝石宝飾,ブライダル,指輪,ペンダント,プレゼント,婚約指輪,結婚指輪,アイデアル,ガブリエル,ダイヤモンド,エンゲージ,マリッジ,出雲大社,出雲,千家" />
+<link rel='next' href='http://sadamatsu.com/page/2/' />
+
+<link rel="canonical" href="http://sadamatsu.com/" />
+<!-- /all in one seo pack -->
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/sadamatsu.com\/wordpress\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.3.11"}};
+			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='style-css'  href='http://sadamatsu.com/wordpress/wp-content/themes/sadamatsu/style.css?ver=4.3.11' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='http://sadamatsu.com/wordpress/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-confirm-css'  href='http://sadamatsu.com/wordpress/wp-content/plugins/contact-form-7-add-confirm/includes/css/styles.css?ver=4.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-pagenavi-css'  href='http://sadamatsu.com/wordpress/wp-content/plugins/wp-pagenavi/pagenavi-css.css?ver=2.70' type='text/css' media='all' />
+<script type='text/javascript' src='http://sadamatsu.com/wordpress/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
+<script type='text/javascript' src='http://sadamatsu.com/wordpress/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://sadamatsu.com/wordpress/wp-content/themes/sadamatsu/js/pagelink.js?ver=4.3.11'></script>
+<script type='text/javascript' src='http://sadamatsu.com/wordpress/wp-content/themes/sadamatsu/js/jquery.bxslider.js?ver=4.3.11'></script>
+<script type='text/javascript' src='http://sadamatsu.com/wordpress/wp-content/themes/sadamatsu/js/shopph.js?ver=4.3.11'></script>
+<!-- ajaxzip -->
+<script type='text/javascript' src='http://ajaxzip3.googlecode.com/svn/trunk/ajaxzip3/ajaxzip3-https.js'></script>
+<script type="text/javascript">
+jQuery(function(){
+  jQuery('#zip').keyup(function(event){
+    AjaxZip3.zip2addr(this,'','pref','city');
+  })
+})
+</script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'http://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-T9VGNCH');</script>
+<!-- End Google Tag Manager -->
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.4&appId=167777549967247";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+</head>
+
+<body class="home blog">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="http://www.googletagmanager.com/ns.html?id=GTM-T9VGNCH"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<!-- 古いブラウザーに警告する -->
+<!--[if lt IE 7]>
+	<div style='border: 1px solid #F7941D; background: #FEEFDA; text-align: center; clear: both; height: 75px; position: relative;'>
+		<div style='position: absolute; right: 3px; top: 3px; font-family: courier new; font-weight: bold;'>
+			<a href='#' onclick='javascript:this.parentNode.parentNode.style.display='none'; return false;'><img src='http://www.ie6nomore.com/files/theme/ie6nomore-cornerx.jpg' style='border: none;' alt='Close this notice'/></a>
+		</div>
+		<div style='width: 640px; margin: 0 auto; text-align: left; padding: 0; overflow: hidden; color: black;'>
+			<div style='width: 75px; float: left;'><img src='http://www.ie6nomore.com/files/theme/ie6nomore-warning.jpg' alt='Warning!'/></div>
+			<div style='width: 275px; float: left; font-family: Arial, sans-serif;'>
+				<div style='font-size: 14px; font-weight: bold; margin-top: 12px;'>あなたは旧式ブラウザをご利用中です</div>
+				<div style='font-size: 12px; margin-top: 6px; line-height: 12px;'>このウェブサイトを快適に閲覧するにはブラウザをアップグレードしてください。</div>
+			</div>
+			<div style='width: 75px; float: left;'><a href='http://www.mozilla.jp' target='_blank'><img src='http://www.ie6nomore.com/files/theme/ie6nomore-firefox.jpg' style='border: none;' alt='Get Firefox 3.5'/></a></div>
+			<div style='width: 75px; float: left;'><a href='http://www.microsoft.com/downloads/details.aspx?FamilyID=341c2ad5-8c3d-4347-8c03-08cdecd8852b&DisplayLang=ja' target='_blank'><img src='http://www.ie6nomore.com/files/theme/ie6nomore-ie8.jpg' style='border: none;' alt='Get Internet Explorer 8'/></a></div>      <div style='width: 73px; float: left;'><a href='http://www.apple.com/jp/safari/download/' target='_blank'><img src='http://www.ie6nomore.com/files/theme/ie6nomore-safari.jpg' style='border: none;' alt='Get Safari 4'/></a></div>
+			<div style='float: left;'><a href='http://www.google.com/chrome?hl=ja' target='_blank'><img src
+			='http://www.ie6nomore.com/files/theme/ie6nomore-chrome.jpg' style='border: none;' alt='Get Google Chrome'/></a></div>
+		</div>
+	</div>
+<![endif]-->
+
+<script type="text/javascript">
+jQuery(function() {
+	var topnav = jQuery('.navBar');
+	var navMgn = jQuery('.headClearfix');
+	//navの位置
+	var navTop = topnav.offset().top;
+	//スクロールするたびに実行
+	jQuery(window).scroll(function () {
+		var winTop = jQuery(this).scrollTop();
+		//スクロール位置がnavの位置より下だったらクラスfixedを追加
+		if (winTop >= navTop) {
+			topnav.addClass('navFixed')
+			navMgn.addClass('mt50')
+		} else if (winTop <= navTop) {
+			topnav.removeClass('navFixed')
+			navMgn.removeClass('mt50')
+		}
+	});
+});
+</script>
+<script type="text/javascript">
+jQuery(function(){
+
+jQuery(".open01 , #slideMenu01").hover(function(){
+jQuery("#slideMenu01").toggle();
+});
+
+jQuery(".open02 , #slideMenu02").hover(function(){
+jQuery("#slideMenu02").toggle();
+});
+
+jQuery(".open03 , #slideMenu03").hover(function(){
+jQuery("#slideMenu03").toggle();
+});
+
+jQuery(".open04 , #slideMenu04").hover(function(){
+jQuery("#slideMenu04").toggle();
+});
+
+
+});// JavaScript Document
+</script>
+
+<div class="noprint"><!--noprint-->
+<div class="onPc">
+<div class="header">
+       <div class="box1200">
+               <div class="headInfo">
+                   <div class="headContactBtn"><a href="https://sadamatsu.com/contact/">お問い合せ</a></div>
+                   <div class="headSm"><a href="http://sadamatsu.com/sitemap/">サイトマップ</a></div>
+                </div>
+               <div class="imgCenter mt10"><a href="http://sadamatsu.com"><img class="linkimg" src="http://sadamatsu.com/wordpress/wp-content/themes/sadamatsu/images/head_logo.png" width="240" height="40" alt=""/></a></div>
+
+       </div>
+</div>
+<div class="clearfix"></div>
+
+<div  class="navBar">
+    <div class="box1200">
+        <div class="navBox">
+            <ul>
+                <li><a href="http://sadamatsu.com" style="background-image:none;">トップ</a></li>
+                <li><a href="http://sadamatsu.com/news/" style="background-image:none;">ニュース</a></li>
+                <li class="open02">ブランド</li>
+                <li><a href="http://sadamatsu.com/shoplist/" style="background-image:none;">店舗一覧</a></li>
+                <li class="open03"><a href="http://sadamatsu.com/company/outline/" style="background-image:none;">企業情報</a></li>
+                <li class="open04"><a href="http://sadamatsu.com/irnews-all/" style="background-image:none;">IR情報</a></li>
+                <li><a href="http://sadamatsu.com/recruitinfo/" style="background-image:none;">採用情報</a></li>
+            </ul>
+        <!-- /.navBox --></div>
+
+        <div class="clearfix"></div>
+
+        <div id="slideMenu01">
+            <div class="megaBox">
+                <div class="menuArrow01"><img class="linkimg" src="http://sadamatsu.com/wordpress/wp-content/themes/sadamatsu/images/up_arrow.png" width="28" height="12" alt=""/></div>
+            <!-- /.megaBox --></div>
+        <!-- /#slideMenu01 --></div>
+
+        <div id="slideMenu02">
+            <div class="megaBox">
+                <div class="menuArrow02"><img class="linkimg" src="http://sadamatsu.com/wordpress/wp-content/themes/sadamatsu/images/up_arrow.png" width="28" height="12" alt=""/></div>
+                <div class="menuBrandBox">
+                    <ul>
+                        <li><a href="http://www.festaria.jp/" target="_blank"><img src="http://sadamatsu.com/wordpress/wp-content/themes/sadamatsu/images/brand01.png" width="120" height="120" alt=""/></a></li>
+                        <li><a href="http://www.douxmiere.jp/" target="_blank"><img src="http://sadamatsu.com/wordpress/wp-content/themes/sadamatsu/images/brand02.png" width="120" height="120" alt=""/></a></li>
+                        <li><a href="http://www.veretta8va.jp/" target="_blank"><img src="http://sadamatsu.com/wordpress/wp-content/themes/sadamatsu/images/brand03.png" width="120" height="120" alt=""/></a></li>
+                        <li><a href="http://www.vielle.jp/" target="_blank"><img src="http://sadamatsu.com/wordpress/wp-content/themes/sadamatsu/images/brand04.png" width="120" height="120" alt=""/></a></li>
+                        <li style="width:50%;"><a href="http://wish-upon-a-star.jp/" target="_blank"><img src="http://sadamatsu.com/wordpress/wp-content/themes/sadamatsu/images/brand06_grey.png" width="192" height="120" alt=""/></a></li>
+												<li style="width:50%;"><a href="https://onlineshop.festaria.jp/" target="_blank"><img src="http://sadamatsu.com/wordpress/wp-content/themes/sadamatsu/images/brand08.png" width="192" height="120" alt=""/></a></li>
+                    </ul>
+                <!-- /.menuBrandBox --></div>
+            <!-- /.megaBox --></div>
+        <!-- /#slideMenu02 --></div>
+
+        <div id="slideMenu03">
+            <div class="megaBox megaBox03">
+                <div class="menuArrow03"><img class="linkimg" src="http://sadamatsu.com/wordpress/wp-content/themes/sadamatsu/images/up_arrow.png" width="28" height="12" alt=""/></div>
+                <div class="menuBrandBox_ menu03box">
+                    <ul>
+                        <li><a href="http://sadamatsu.com/company/outline/">企業概要</a></li>
+                        <li><a href="http://sadamatsu.com/company/idea/">企業理念</a></li>
+                        <li><a href="http://sadamatsu.com/company/history/">沿革</a></li>
+                        <li><a href="http://sadamatsu.com/shoplist/">ショップ一覧</a></li>
+                        <li><a href="http://sadamatsu.com/company/shoptotal/">ショップ数情報</a></li>
+                        <li><a href="http://sadamatsu.com/company/idea/#tm">社長メッセージ</a></li>
+                        <li class="full"><a href="http://sadamatsu.com/company/governance/">コーポレートガバナンス</a></li>
+                    </ul>
+                <!-- /.menuBrandBox_ menu03box --></div>
+            <!-- /.megaBox megaBox03 --></div>
+        <!-- /#slideMenu03 --></div>
+
+        <div id="slideMenu04">
+            <div class="megaBox megaBox04">
+                <div class="menuArrow04"><img class="linkimg" src="http://sadamatsu.com/wordpress/wp-content/themes/sadamatsu/images/up_arrow.png" width="28" height="12" alt=""/></div>
+                <div class="menuBrandBox_ menu04box">
+                    <ul>
+                        <li><a href="http://sadamatsu.com/irnews-all/">IR情報トップ</a></li>
+                        <li><a href="http://sadamatsu.com/ir-idea/">IR基本方針</a></li>
+                        <li><a href="http://sadamatsu.com/b-report2015/">ビジネスレポート</a></li>
+                        <li><a href="http://sadamatsu.com/irnews/">IRニュース</a></li>
+                        <li><a href="http://sadamatsu.com/irmaterial/">IR資料</a></li>
+                        <li><a href="http://sadamatsu.com/e-notification/">電子公告</a></li>
+                        <li><a href="http://sadamatsu.com/ir-calender/">IRカレンダー</a></li>
+                    </ul>
+                <!-- /.menuBrandBox_ menu04box --></div>
+            <!-- /.megaBox megaBox04 --></div>
+        <!-- /#slideMenu04 --></div>
+
+
+    <!-- /.box1200 --></div>
+<!-- /.navBar --></div>
+
+
+
+</div>
+</div><!--noprint -->
+<div class="headClearfix"></div>
+
+
+ <div class="onSmt"><!--スマホ-->
+ <div class="spheader">
+                 <div class="headLogoSp"><a href="http://sadamatsu.com"><img class="linkimg" src="http://sadamatsu.com/wordpress/wp-content/themes/sadamatsu/images/head_logo.png" width="300" height="50" alt=""/></a></div>
+                <div class="mbMenu" id="btn"><img src="http://sadamatsu.com/wordpress/wp-content/themes/sadamatsu/images/sp_menu.png" alt="メニュー" width="40" height="40" /></div>
+
+
+        <div class="clearfix"></div>
+        <div id="overlay">
+                <div class="spTopBtn"><a href="http://sadamatsu.com">トップに戻る</a>
+                <div class="closeMenu" id="close"><img src="http://sadamatsu.com/wordpress/wp-content/themes/sadamatsu/images/close_icon.png" alt="閉じる" width="40" height="40" /></div>
+                </div>
+
+                <div class="clearfix mb10"></div>
+
+                <div class="mbNavTitle">ニュース</div>
+              <ul class="mbNavList">
+                   <li><a href="http://sadamatsu.com/news/">ニュース一覧</a></li>
+                   <li><a href="http://sadamatsu.com/news/cnews/">企業ニュース一覧</a></li>
+                   <li><a href="http://sadamatsu.com/news/bnews/">ブランドニュース一覧</a></li>
+              </ul>
+
+              <div class="mbNavTitle">店舗情報</div>
+              <ul class="mbNavList">
+                   <li><a href="http://sadamatsu.com/shoplist/">ショップ一覧</a></li>
+                   <li><a href="http://sadamatsu.com/reservation/" target="_blank">来店予約</a></li>
+              </ul>
+
+              <div class="mbNavTitle">会社情報</div>
+              <ul class="mbNavList">
+                   <li><a href="http://sadamatsu.com/company/idea/">企業理念</a></li>
+                   <li><a href="http://sadamatsu.com/company/outline/">会社概要</a></li>
+                   <li><a href="http://sadamatsu.com/company/governance/">コーポレートガバナンス</a></li>
+                   <li><a href="http://sadamatsu.com/company/history/">沿革</a></li>
+                   <li><a href="http://sadamatsu.com/company/shoptotal/">ショップ数情報</a></li>
+                   <li><a href="http://sadamatsu.com/company/idea/#tm">トップメッセージ</a></li>
+              </ul>
+
+
+              <div class="mbNavTitle">株式情報</div>
+              <ul class="mbNavList">
+                   <li><a href="http://stocks.finance.yahoo.co.jp/stocks/detail/?code=2736.T" target="_blank">株式情報</a></li>
+                   <li><a href="http://sadamatsu.com/stocks/s-outline/">株式概要</a></li>
+                   <li><a href="http://sadamatsu.com/stocks/divvy/">配当</a></li>
+                   <li><a href="http://sadamatsu.com/stocks/preferential/">株式優待</a></li>
+                   <!--<li><a href="">株主様お買物優待券</a></li>
+                   <li><a href="">株主優待品が届くまで</a></li>-->
+                   <li><a href="http://sadamatsu.com/stocks/preferential/start/">株式投資を始めるには</a></li>
+                   <li><a href="http://sadamatsu.com/stocks/procedure/">株主手続きのご案内</a></li>
+              </ul>
+
+
+
+              <div class="mbNavTitle">IR情報</div>
+              <ul class="mbNavList">
+                    <li><a href="http://sadamatsu.com/irnews-all/">IR情報トップ</a></li>
+                   <li><a href="http://sadamatsu.com/ir-idea/">IR基本方針</a></li>
+                   <li><a href="http://sadamatsu.com/b-report2015/">ビジネスレポート</a></li>
+                   <li><a href="http://sadamatsu.com/irnews/">IRニュース</a></li>
+                   <li><a href="http://sadamatsu.com/irmaterial/">IR資料</a></li>
+                   <li><a href="http://sadamatsu.com/e-notification/">電子公告</a></li>
+                   <li><a href="http://sadamatsu.com/ir-calender/">IRカレンダー</a></li>
+                   <li><a href="http://sadamatsu.com/qa/">よくある質問</a></li>
+                   <li><a href="https://sadamatsu.com/ir-contact/">お問い合わせ窓口</a></li>
+                   <li><a href="http://sadamatsu.com/exemption/">免責事項</a></li>
+              </ul>
+
+
+              <div class="mbNavTitle">採用情報</div>
+              <ul class="mbNavList">
+                   <li><a href="http://sadamatsu.com/recruitinfo/">採用情報</a></li>
+                   <li><a href="http://sadamatsu.com/recruitinfo/newgraduates/">新卒採用</a></li>
+                   <li><a href="http://sadamatsu.com/recruitinfo/career/">キャリア採用</a></li>
+                   <!--<li><a href="">IR資料</a></li>-->
+              </ul>
+
+               <div class="mbNavTitle">インフォメーション</div>
+                <ul class="mbNavList">
+                       <li><a href="http://sadamatsu.com/sitemap/">サイトマップ</a></li>
+                       <li><a href="http://sadamatsu.com/policy/">プライバシーポリシー</a></li>
+                       <li><a href="https://sadamatsu.com/contact/">お問い合せ</a></li>
+                 </ul>
+
+                </div>
+
+
+           </div>
+     </div>
+
+     <div class="clearfix"></div>
+     <div class="pagemt"></div>
+      </div><!--スマホ-->
+
+
+<div class="clearfix"></div>
+
+
+
+
+
+
+<!--ヘッダー分岐-->
+
+<div class="clearfix"></div>
+<script type="text/javascript">
+jQuery(document).ready(function(){
+  jQuery('#slider').bxSlider({
+	  controls:true,
+	  pager:true,
+  auto: true,
+  mode: 'horizontal',
+  speed:2400,
+  pause:6000
+});
+});
+</script>
+<div class="topSlideImage">
+        <div class="box1200">
+                <div class="slideL">
+                      <img src="http://sadamatsu.com/wordpress/wp-content/themes/sadamatsu/images/bn/a.jpg" width="600" height="300" alt=""/>
+                </div>
+                <div class="slideR">
+                      <div id="slider"><!--Slide-->
+                        <div><a href="http://www.festaria.jp/" target="_blank"><img src="http://sadamatsu.com/wordpress/wp-content/themes/sadamatsu/images/bn/b_1.jpg" width="600" height="300" alt=""/></a></div>
+                        <div><a href="http://www.douxmiere.jp/" target="_blank"><img src="http://sadamatsu.com/wordpress/wp-content/themes/sadamatsu/images/bn/b_2.jpg" width="600" height="300" alt=""/></a></div>
+                        <div><a href="http://www.veretta8va.jp/" target="_blank"><img src="http://sadamatsu.com/wordpress/wp-content/themes/sadamatsu/images/bn/b_3.jpg" width="600" height="300" alt=""/></a></div>
+                        <div><a href="http://www.vielle.jp/" target="_blank"><img src="http://sadamatsu.com/wordpress/wp-content/themes/sadamatsu/images/bn/b_4.jpg" width="600" height="300" alt=""/></a></div>
+                        <div><a href="http://wish-upon-a-star.jp/"target="_blank"><img src="http://sadamatsu.com/wordpress/wp-content/themes/sadamatsu/images/bn/b_5.jpg" width="600" height="300" alt=""/></a></div>
+                        <div><a href="https://onlineshop.festaria.jp/"target="_blank"><img src="http://sadamatsu.com/wordpress/wp-content/themes/sadamatsu/images/bn/b_6.jpg" width="600" height="300" alt=""/></a></div>
+                      </div><!--Slide-->
+                </div>
+        </div>
+</div>
+
+<div class="onSmt"><!--スマホ-->
+<div class="clearfix"></div>
+<div class="imgCenter"><img style="float:left;" src="http://sadamatsu.com/wordpress/wp-content/themes/sadamatsu/images/bn/a.jpg" width="100%" height="" alt=""/></div>
+<div class="clearfix"></div>
+<div style="height:auto; float:left; width:100%;"></div>
+     <!-- meta slider -->
+<div style="width: 100%; margin: 0 auto;" class="metaslider metaslider-flex metaslider-67 ml-slider">
+    
+    <div id="metaslider_container_67">
+        <div id="metaslider_67">
+            <ul class="slides">
+                <li style="display: block; width: 100%;" class="slide-68 ms-image"><a href="http://www.festaria.jp/" target="_blank"><img src="http://sadamatsu.com/wordpress/wp-content/uploads/2015/12/b_1.jpg" height="300" width="600" alt="" class="slider-67 slide-68" /></a></li>
+                <li style="display: none; width: 100%;" class="slide-69 ms-image"><a href="http://www.douxmiere.jp/" target="_blank"><img src="http://sadamatsu.com/wordpress/wp-content/uploads/2015/12/b_2.jpg" height="300" width="600" alt="" class="slider-67 slide-69" /></a></li>
+                <li style="display: none; width: 100%;" class="slide-70 ms-image"><a href="http://www.veretta8va.jp/" target="_blank"><img src="http://sadamatsu.com/wordpress/wp-content/uploads/2015/12/b_3.jpg" height="300" width="600" alt="" class="slider-67 slide-70" /></a></li>
+                <li style="display: none; width: 100%;" class="slide-71 ms-image"><a href="http://www.vielle.jp/" target="_blank"><img src="http://sadamatsu.com/wordpress/wp-content/uploads/2015/12/b_4.jpg" height="300" width="600" alt="" class="slider-67 slide-71" /></a></li>
+                <li style="display: none; width: 100%;" class="slide-72 ms-image"><a href="http://wish-upon-a-star.jp/" target="_blank"><img src="http://sadamatsu.com/wordpress/wp-content/uploads/2015/12/b_5.jpg" height="300" width="600" alt="" class="slider-67 slide-72" /></a></li>
+                <li style="display: none; width: 100%;" class="slide-2000 ms-image"><a href="https://onlineshop.festaria.jp/" target="_self"><img src="http://sadamatsu.com/wordpress/wp-content/uploads/2017/04/b_6.jpg" height="300" width="600" alt="" class="slider-67 slide-2000" /></a></li>
+            </ul>
+        </div>
+        
+    </div>
+    <script type="text/javascript">
+        var metaslider_67 = function($) {
+            $('#metaslider_67').addClass('flexslider'); // theme/plugin conflict avoidance
+            $('#metaslider_67').flexslider({ 
+                slideshowSpeed:4000,
+                animation:"slide",
+                controlNav:true,
+                directionNav:false,
+                pauseOnHover:true,
+                direction:"horizontal",
+                reverse:false,
+                animationSpeed:600,
+                prevText:"&lt;",
+                nextText:"&gt;",
+                easing:"linear",
+                slideshow:true
+            });
+        };
+        var timer_metaslider_67 = function() {
+            var slider = !window.jQuery ? window.setTimeout(timer_metaslider_67, 100) : !jQuery.isReady ? window.setTimeout(timer_metaslider_67, 1) : metaslider_67(window.jQuery);
+        };
+        timer_metaslider_67();
+    </script>
+</div>
+<!--// meta slider--></div><!--スマホ-->
+
+<div class="clearfix"></div>
+<div class="newsBar">
+  <div class="box1080">
+               <div class="newsList">
+        			                       <dl>
+                              <dt>NEWS</dt>
+                              <dd><span class="font11 bd mr15" style="color:#666666;">2017.7.24</span><a href="http://sadamatsu.com/news/2111/">フジテレビ系列放送のドラマ「コード・ブルー」に衣装協力を行いました</a><span class="listBtn"><a href="http://sadamatsu.com/news/">一覧を見る</a></span></dd>
+                       </dl>
+                                                   </div>
+       </div>
+  </div>
+<div class="clearfix"></div>
+
+<div class="contentBox" style="border-top: #eee 1px solid;">
+       <div class="box1080 pt60 pb30">
+
+
+
+         <div class="onPc">
+            <div class="infoBn02">
+                    <a href="http://sadamatsu.com/irnews-all/"><img class="linkimg" src="http://sadamatsu.com/wordpress/wp-content/themes/sadamatsu/images/bn/c.jpg" width="346" height="320" alt="IR情報"/></a>
+            </div>
+
+            <div class="infoBn02">
+                    <a href="http://sadamatsu.com/recruitinfo/"><img class="linkimg" src="http://sadamatsu.com/wordpress/wp-content/themes/sadamatsu/images/bn/d.jpg" width="346" height="320" alt="採用情報"/></a>
+            </div>
+
+            <div class="infoBn02" style="margin-right:0px;">
+                    <a href="https://www.youtube.com/channel/UCXrnGCDX16K9pST1P2y-u0Q" target="_blank"><img class="linkimg" src="http://sadamatsu.com/wordpress/wp-content/themes/sadamatsu/images/bn/e.jpg" width="346" height="320" alt="ギャラリー"/></a>
+            </div>
+          </div>
+
+         <div class="onSmt">
+            <div class="infoBn02"><a href="http://sadamatsu.com/recruitinfo/"><img class="linkimg" src="http://sadamatsu.com/wordpress/wp-content/themes/sadamatsu/images/bn/sp01.jpg" width="346" height="320" alt="採用情報"/></a></div>
+            <div class="infoBn02"><a href="http://sadamatsu.com/irnews-all/"><img class="linkimg" src="http://sadamatsu.com/wordpress/wp-content/themes/sadamatsu/images/bn/sp02.jpg" width="346" height="320" alt="IR情報"/></a></div>
+            <div class="infoBn02"><a href="https://www.youtube.com/channel/UCXrnGCDX16K9pST1P2y-u0Q" target="_blank"><img class="linkimg" src="http://sadamatsu.com/wordpress/wp-content/themes/sadamatsu/images/bn/sp03.jpg" width="346" height="320" alt="ギャラリー"/></a></div>
+            </div>
+
+            <div class="clearfix mb30"></div>
+
+
+
+
+
+       </div>
+</div>
+
+<div class="contentBoxGold">
+       <div class="titleBar">Shop brand</div>
+</div>
+
+<div class="contentBox">
+       <div class="box1080 pt30 pb30">
+              <div class="brand4Box">
+                 <ul>
+                       <li><a href="http://www.festaria.jp/" target="_blank"><img class="linkimg" src="http://sadamatsu.com/wordpress/wp-content/themes/sadamatsu/images/bn/f.jpg" width="200" height="200" alt=""/></a></li>
+                      <li><a href="http://www.douxmiere.jp/" target="_blank"><img class="linkimg" src="http://sadamatsu.com/wordpress/wp-content/themes/sadamatsu/images/bn/g.jpg" width="200" height="200" alt=""/></a></li>
+                      <li><a href="http://www.veretta8va.jp/" target="_blank"><img class="linkimg" src="http://sadamatsu.com/wordpress/wp-content/themes/sadamatsu/images/bn/h.jpg" width="200" height="200" alt=""/></a></li>
+                       <li><a href="http://www.vielle.jp/" target="_blank"><img class="linkimg" src="http://sadamatsu.com/wordpress/wp-content/themes/sadamatsu/images/bn/i.jpg" width="200" height="200" alt=""/></a></li>
+											 <li style="margin-right:0px;" class="onPc"><a href="https://onlineshop.festaria.jp/" target="_blank"><img class="linkimg" src="http://sadamatsu.com/wordpress/wp-content/themes/sadamatsu/images/bn/shop_brand_online_shop.jpg" width="200" height="200" alt=""/></a></li>
+											 <li class="onSmt shop_brand_last"><a href="https://onlineshop.festaria.jp/" target="_blank"><img class="linkimg" src="http://sadamatsu.com/wordpress/wp-content/themes/sadamatsu/images/bn/shop_brand_online_shop_sp.jpg" width="200" height="200" alt=""/></a></li>
+                   </ul>
+            </div>
+            <div class="clearfix"></div>
+       </div>
+</div>
+
+<div class="contentBoxGold">
+       <div class="titleBar">Wish upon a star COLLECTION</div>
+</div>
+
+<div class="contentBox">
+       <div class="box1200">
+              <div class="onPc">
+              <div class="imgCenter"><a href="http://wish-upon-a-star.jp/" target="_blank"><img class="linkimg" style="float:left;" src="http://sadamatsu.com/wordpress/wp-content/themes/sadamatsu/images/bn/j.jpg" width="1200" height="279" alt=""/></a></div>
+              </div>
+              <div class="onSmt">
+              <div class="imgCenter sp100"><a href="http://wish-upon-a-star.jp/" target="_blank"><img style="float:left;" src="http://sadamatsu.com/wordpress/wp-content/themes/sadamatsu/images/bn/sp04.jpg" width="100%" height="" alt=""/></a></div>
+              </div>
+        <div class="clearfix"></div>
+       </div>
+</div>
+
+
+<div class="contentBoxGrey">
+        <div class="box1080 pb60 pt60">
+         <div class="text18Center grey666 fontMc" style="letter-spacing:0.2em;">festaria 公式SNS</div>
+        <div class="onPc">
+        <div class="tabBox">
+          <ul id="tab04">
+            <li class="select openFb"><img src="http://sadamatsu.com/wordpress/wp-content/themes/sadamatsu/images/bn/fb.jpg" width="490" height="140" alt=""/></li>
+            <li class="openBlog" style="margin-right:0px;"><img src="http://sadamatsu.com/wordpress/wp-content/themes/sadamatsu/images/bn/blog.jpg" width="490" height="140" alt=""/></li>
+          <!-- /#tab04 --></ul>
+
+          <div class="content_tab" id="fbtab">
+            <div class="content_tab_linkbtn">
+              <a href="https://goo.gl/gXbLwj" target="_blank"><img src="http://sadamatsu.com/wordpress/wp-content/themes/sadamatsu/images/linkbtn-FB.png" alt="festaria 公式Facebookへ"></a>
+            <!-- /.content_tab_linkbtn --></div>
+            <div id="fb-root"></div>
+            <script>
+              (function(d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s); js.id = id;
+                js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.5";
+                fjs.parentNode.insertBefore(js, fjs);
+              }(document, 'script', 'facebook-jssdk'));
+            </script>
+            <div
+              class="fb-page"
+              data-href="https://www.facebook.com/festaria.jp/"
+              data-tabs="timeline"
+              data-width="450"
+              data-height="584"
+              data-small-header="false"
+              data-adapt-container-width="true"
+              data-hide-cover="true"
+              data-show-facepile="false"
+            >
+              <div class="fb-xfbml-parse-ignore">
+                <blockquote cite="https://www.facebook.com/festaria.jp/">
+                  <a href="https://www.facebook.com/festaria.jp/">Festaria bijou Sophia（フェスタリア ビジュソフィア）</a>
+                </blockquote>
+              <!-- /.fb-xfbml-parse-ignore --></div>
+            <!-- /.fb-page --></div>
+          <!-- /.content_tab #fbtab --></div>
+
+          <div class="content_tab disnon" id="blogtab">
+            <div class="content_tab_linkbtn">
+              <a href="http://goo.gl/qqXc44" target="_blank"><img src="http://sadamatsu.com/wordpress/wp-content/themes/sadamatsu/images/linkbtn-BLOG.png" alt="festaria 表参道店ブログへ"></a>
+            <!-- /.content_tab_linkbtn --></div>
+            <div id="myContent"></div>
+            <script type="text/javascript" src="http://rss.rssad.jp/js/feemo/swfobject.js"></script>
+            <script>
+              var feemoVars = {
+                skinColor:0xffffff,
+                skinType:1,
+                listType:0,
+                apiUrl:"",
+                feedURL:"http://rssblog.ameba.jp/festaria-staff-blog/rss20.xml"
+              };
+              var params = {
+                wmode:"transparent",
+                allowScriptAccess:"always"
+              };
+              swfobject.embedSWF(
+                "http://rss.rssad.jp/img/feemo/feemo.swf",
+                "myContent",
+                450,
+                600,
+                "9.0.0",
+                "http://rss.rssad.jp/img/feemo/expressInstall.swf",
+                feemoVars,
+                params
+              );
+            </script>
+          <!-- /.content_tab disnon --></div>
+
+
+        <!-- /.tabBox --></div>
+
+        <!--<div class="moreBtn"><a href="">もっと見る</a></div>-->
+    <!-- /.onPc --></div>
+
+                <div class="onSmt">
+                       <div class="imgCenter sp100 mb15 mt10"><a href="https://www.facebook.com/festaria.jp/" target="_blank"><img src="http://sadamatsu.com/wordpress/wp-content/themes/sadamatsu/images/bn/sp_fb.png" width="490" height="140" alt=""/></a></div>
+                       <div class="imgCenter sp100"><a href="http://ameblo.jp/festaria-staff-blog/" target="_blank"><img src="http://sadamatsu.com/wordpress/wp-content/themes/sadamatsu/images/bn/sp_blog.png" width="490" height="140" alt=""/></a></div>
+                </div>
+
+        </div>
+</div>
+<div class="clearfix"></div>
+
+<div class="contentBox">
+       <div class="box1080">
+       <div class="box1050 pt30 pb30">
+         <div class="newsBox">
+        <ul id="tab01">
+            <li class="select">企業ニュース</li>
+            <li>ブランドニュース</li>
+        </ul>
+        <span class="listBtn"><a href="http://sadamatsu.com/news/">一覧を見る</a></span>
+        </div>
+                             <div class="news_tab">
+                                    <ul>
+                                        			                                        <a href="http://sadamatsu.com/news/2096/">
+                                        <li><div class="newsDay">2017.7.11</div><div class="newsTitle">平成29年8月期第3四半期決算短信</div></li>
+                                        </a>
+                                                                                <a href="http://sadamatsu.com/news/2082/">
+                                        <li><div class="newsDay">2017.7.3</div><div class="newsTitle">募集新株予約権（株価コミットメント型新株予約権）の発行内容確定に関するお知らせ</div></li>
+                                        </a>
+                                                                                <a href="http://sadamatsu.com/news/2067/">
+                                        <li><div class="newsDay">2017.5.23</div><div class="newsTitle">募集新株予約権（株価コミットメント型新株予約権）の発行に関するお知らせ</div></li>
+                                        </a>
+                                                                                <a href="http://sadamatsu.com/news/2049/">
+                                        <li><div class="newsDay">2017.4.26</div><div class="newsTitle">平成29年8月期 第2四半期決算説明会資料</div></li>
+                                        </a>
+                                                                                <a href="http://sadamatsu.com/news/2017/">
+                                        <li><div class="newsDay">2017.4.12</div><div class="newsTitle">平成29年8月期 第2四半期決算短信</div></li>
+                                        </a>
+                                                    
+                                    </ul>
+                            </div>
+                             <div class="news_tab disnon">
+                                      <ul>
+                                        			                                        <a href="http://sadamatsu.com/news/2111/">
+                                        <li><div class="newsDay">2017.7.24</div><div class="newsTitle">フジテレビ系列放送のドラマ「コード・ブルー」に衣装協力を行いました</div></li>
+                                        </a>
+                                                                                <a href="http://sadamatsu.com/news/bnews/brandnews/2073/">
+                                        <li><div class="newsDay">2017.5.27</div><div class="newsTitle">日本テレビ系列、毎週土曜日22時〜放送のドラマ「ボク、運命の人です。」に衣装協力、撮影協力させていただきました。</div></li>
+                                        </a>
+                                                                                <a href="http://sadamatsu.com/news/2059/">
+                                        <li><div class="newsDay">2017.5.7</div><div class="newsTitle">ヴィエール ビジュソフィア マルイシティ横浜店閉店のお知らせ</div></li>
+                                        </a>
+                                                                                <a href="http://sadamatsu.com/news/1976/">
+                                        <li><div class="newsDay">2017.3.24</div><div class="newsTitle">ドゥミエール ビジュソフィア イオンモール熊本店 リニューアルオープンのお知らせ</div></li>
+                                        </a>
+                                                                                <a href="http://sadamatsu.com/news/1971/">
+                                        <li><div class="newsDay">2017.3.17</div><div class="newsTitle">フェスタリア ボヤージュ 名古屋パルコ店新規オープン！</div></li>
+                                        </a>
+                                                                                        </ul>
+                             </div>
+
+       </div>
+       </div>
+</div>
+
+
+
+<!--footer-->
+
+
+<div class="clearfix"></div>
+<div class="noprint">
+<div class="footBox">
+      <div class="box1080">
+             <div class="onPc">
+             <div class="imgCenter mb40 mt50"><a href="http://sadamatsu.com"><img class="linkimg" src="http://sadamatsu.com/wordpress/wp-content/themes/sadamatsu/images/foot_logo.png" width="200" height="34" alt=""/></a></div>
+             </div>
+             <div class="onSmt">
+             <div class="imgCenter mt10"><a href="http://sadamatsu.com"><img class="linkimg" src="http://sadamatsu.com/wordpress/wp-content/themes/sadamatsu/images/foot_logo.png" width="200" height="34" alt=""/></a></div>
+            </div>
+             
+             <div class="clearfix"></div>
+             <div class="footMenu">
+              <div class="footMenuTitle">店舗情報</div>
+              <ul>
+                   <li><a href="http://sadamatsu.com/shoplist/">ショップ一覧</a></li>
+              </ul>
+              
+              <div class="footMenuTitle">企業情報</div>
+              <ul>
+                   <li><a href="http://sadamatsu.com/company/outline/">会社概要</a></li>
+                   <li><a href="http://sadamatsu.com/company/idea/">企業理念</a></li>
+                   <li><a href="http://sadamatsu.com/company/governance/">コーポレートガバナンス</a></li>
+                   <li><a href="http://sadamatsu.com/company/history/">沿革</a></li>
+                   <li><a href="http://sadamatsu.com/company/shoptotal/">ショップ数情報</a></li>
+                   <li><a href="http://sadamatsu.com/company/idea/#tm">社長メッセージ</a></li>
+              </ul>
+            </div>
+            
+            <div class="footMenu">              
+              <div class="footMenuTitle">株式情報</div>
+              <ul>
+                   <li><a href="http://stocks.finance.yahoo.co.jp/stocks/detail/?code=2736.T" target="_blank">株式情報</a></li>
+                   <li><a href="http://sadamatsu.com/stocks/s-outline/">株式概要</a></li>
+                   <li><a href="http://sadamatsu.com/stocks/divvy/">配当</a></li>
+                   <li><a href="http://sadamatsu.com/stocks/preferential/">株式優待</a></li>
+                   <!--<li><a href="">株主様お買物優待券</a></li>
+                   <li><a href="">株主優待品が届くまで</a></li>-->
+                   <li><a href="http://sadamatsu.com/stocks/preferential/start/">株式投資を始めるには</a></li>
+                   <li><a href="http://sadamatsu.com/stocks/procedure/">株主手続きのご案内</a></li>
+              </ul>
+            </div>
+            
+            <div class="footMenu">              
+              <div class="footMenuTitle">IR情報</div>
+              <ul>
+                   <li><a href="http://sadamatsu.com/irnews-all/">IR情報トップ</a></li>
+                   <li><a href="http://sadamatsu.com/ir-idea/">IR基本方針</a></li>
+                   <li><a href="http://sadamatsu.com/b-report2015/">ビジネスレポート</a></li>
+                   <li><a href="http://sadamatsu.com/irnews/">IRニュース</a></li>
+                   <li><a href="http://sadamatsu.com/irmaterial/">IR資料</a></li>
+                   <li><a href="http://sadamatsu.com/e-notification/">電子公告</a></li>
+                   <li><a href="http://sadamatsu.com/ir-calender/">IRカレンダー</a></li>
+                   <li><a href="http://sadamatsu.com/qa/">よくある質問</a></li>
+                   <li><a href="https://sadamatsu.com/ir-contact/">お問い合わせ窓口</a></li>
+                   <li><a href="http://sadamatsu.com/exemption/">免責事項</a></li>
+              </ul>
+            </div>
+            
+            <div class="footMenu">              
+              <div class="footMenuTitle">採用情報</div>
+              <ul>
+                   <li><a href="http://sadamatsu.com/recruitinfo/">採用情報</a></li>
+                   <li><a href="http://sadamatsu.com/recruitinfo/newgraduates/">新卒採用</a></li>
+                   <li><a href="http://sadamatsu.com/recruitinfo/career/">キャリア採用</a></li>                   
+                   <!--<li><a href="">IR資料</a></li>-->
+              </ul>
+              
+              <div class="footMenuTitle">インフォメーション</div>
+              <ul>                   
+                   <li><a href="http://sadamatsu.com/sitemap/">サイトマップ</a></li>
+                   <li><a href="http://sadamatsu.com/policy/">プライバシーポリシー</a></li>                 
+              </ul>
+              
+              <div class="contactBtn"><a href="https://sadamatsu.com/contact/">お問い合せ</a></div>
+            </div>
+      
+       <div class="copyright">Copyright &copy; SADAMATSU Co., Ltd All Rights Reserved.</div>
+      </div>
+</div>
+
+
+
+
+<div class="goTopBtn"><a href="#"><img src="http://sadamatsu.com/wordpress/wp-content/themes/sadamatsu/images/go_top.png" alt="ページトップへ" width="40" height="40"/></a></div>
+</div>
+<script type="text/javascript"> 
+ 
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-19229057-1']);
+  _gaq.push(['_trackPageview']);
+ 
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+ 
+</script>
+
+
+<link rel='stylesheet' id='metaslider-flex-slider-css'  href='http://sadamatsu.com/wordpress/wp-content/plugins/ml-slider/assets/sliders/flexslider/flexslider.css?ver=3.3.6' type='text/css' media='all' property='stylesheet' />
+<link rel='stylesheet' id='metaslider-public-css'  href='http://sadamatsu.com/wordpress/wp-content/plugins/ml-slider/assets/metaslider/public.css?ver=3.3.6' type='text/css' media='all' property='stylesheet' />
+<script type='text/javascript' src='http://sadamatsu.com/wordpress/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.51.0-2014.06.20'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/sadamatsu.com\/wordpress\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","recaptchaEmpty":"\u3042\u306a\u305f\u304c\u30ed\u30dc\u30c3\u30c8\u3067\u306f\u306a\u3044\u3053\u3068\u3092\u8a3c\u660e\u3057\u3066\u304f\u3060\u3055\u3044\u3002","sending":"\u9001\u4fe1\u4e2d ..."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://sadamatsu.com/wordpress/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.3.1'></script>
+<script type='text/javascript' src='http://sadamatsu.com/wordpress/wp-content/plugins/contact-form-7-add-confirm/includes/js/scripts.js?ver=4.3.1'></script>
+<script type='text/javascript' src='http://sadamatsu.com/wordpress/wp-content/plugins/ml-slider/assets/sliders/flexslider/jquery.flexslider-min.js?ver=3.3.6'></script>
+<script type='text/javascript' src='http://sadamatsu.com/wordpress/wp-content/plugins/ml-slider/assets/easing/jQuery.easing.min.js?ver=3.3.6'></script>
+
+<script id="tagjs" type="text/javascript">
+  (function () {
+    var tagjs = document.createElement("script");
+    var s = document.getElementsByTagName("script")[0];
+    tagjs.async = true;
+    tagjs.src = "//s.yjtag.jp/tag.js#site=KC4wGVO";
+    s.parentNode.insertBefore(tagjs, s);
+  }());
+</script>
+<noscript>
+  <iframe src="//b.yjtag.jp/iframe?c=KC4wGVO" width="1" height="1" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+</noscript>
+
+</body>
+</html>

@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta charset="UTF-8">
+<title>株式会社カルラ</title>
+<meta name="description" content="株式会社カルラ -飲食を通じて社会へ貢献- まるまつ・かに政宗・寿松庵 等様々な形態のフードサービスを提供します。">
+<link rel="stylesheet" type="text/css" href="system/css/import_top.css" />
+<link rel="stylesheet" type="text/css" href="system/bxslider/jquery.bxslider.css" />
+<link rel="stylesheet" type="text/css" href="system/css/jquery.powertip.css" />
+<!--&#91;if lt IE 9&#93;>
+<script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+<!&#91;endif&#93;-->
+<link rel="shortcut icon" href="image/base/favicon.ico">
+<meta name="mobile-web-app-capable" content="yes">
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:title" content="株式会社カルラ">
+<meta property="og:url" content="http://www.re-marumatu.co.jp">
+<meta property="og:description" content="株式会社カルラ -飲食を通じて社会へ貢献- まるまつ・かに政宗・寿松庵 等様々な形態のフードサービスを提供します。">
+<meta property="og:site_name" content="株式会社カルラ">
+<meta property="og:image" content="http://www.re-marumatu.co.jp/imagre/base/ogp.png">
+
+<link rel="apple-touch-icon" sizes="152x152" href="apple-touch-icon.png">
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script',('https:' == document.location.protocol ? 'https:' : 'http:') + '//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-67686410-1', 'auto');
+  ga('send', 'pageview');
+</script>
+</head>
+
+<body id="bdid_top" class="bdcs_top">
+<div id="wrapper">
+<div id="container">
+<header>
+<div id="header_contents">
+<h1><a href="index.html">株式会社カルラ</a></h1>
+<p>飲食を通じて社会へ貢献</p>
+</div>
+
+<div id="main_img">
+<div id="main_img_container">
+<div id="main_img_slider">
+    <ul class="bxslider">
+    <li><img src="image/top/photo_03.jpg" alt="寿松庵" width="920" height="400"></li>
+    <li><img src="image/top/photo_02.jpg" alt="かに政宗" width="920" height="400"></li>
+    <li><img src="image/top/photo_14.jpg" alt="季節のおすすめ 6/1より" width="920" height="400"></li>
+    </ul>
+    <div id="main_cover"></div>
+</div><!-- /main_img_slider -->
+</div><!-- /main_img_container -->
+</div><!-- /main_img -->
+
+<nav>
+<ul>
+<li id="gn_corporate">
+    <dl>
+    <dt>企業情報<span>Corporate Information</span></dt>
+        <dd><img src="image/base/nav/icon_1-1.png"><a href="Corporateinformation/Corporate-principlesi.html">社長あいさつ<span>Greeting</span></a></dd>
+        <dd><img src="image/base/nav/icon_1-2.png"><a href="Corporateinformation/concept.html">コンセプト<span>Concept</span></a></dd>
+        <dd><img src="image/base/nav/icon_1-3.png"><a href="Corporateinformation/Company-overview.html">会社概要<span>Corporate Profile</span></a></dd>
+        <dd><img src="image/base/nav/icon_1-4.png"><a href="Corporateinformation/History.html">沿革<span>Corporate History</span></a></dd>
+        <dd><img src="image/base/nav/icon_1-5.png"><a href="Corporateinformation/origin-of-corporate-name.html">社名の由来<span>Derivation</span></a></dd>
+        <dd><img src="image/base/nav/icon_1-6.png"><a href="Corporateinformation/commissary.html">食品工場<span>Commissary</span></a></dd>
+        <dd><img src="image/base/nav/icon_1-7.png"><a href="Corporateinformation/Learning-center.html">研修センター<span>Training Center</span></a></dd>
+        <dd><img src="image/base/nav/icon_1-8.png"><a href="tousikajyouhou/index.html">投資家の皆様へ<span>Financer</span></a></dd>
+    </dl>
+</li>
+<li id="gn_locations">
+    <dl>
+    <dt>お店を探す<span>Locations</span></dt>
+        <dd class="large"><img src="image/base/nav/icon_2-1.png"><a href="access/index.html">総合アクセスマップ<span>Access Map</span></a></dd>
+    </dl>
+</li>
+<li id="gn_services">
+    <dl>
+    <dt>事業紹介<span>Our Services</span></dt>
+        <dd><img src="image/base/nav/icon_3-1.png"><a href="marumatsu/index.html">和風レストランまるまつ</a></dd>
+        <dd><img src="image/base/nav/icon_3-2.png"><a href="kanimasamune/index.html">かに政宗</a></dd>
+        <dd id="jushoan_on"><img src="image/base/nav/icon_3-3.png">寿松庵
+			<div id="jyushoan_sub">
+			<ul>
+			<li><a href="jushoan/jushoan_honten.html"><img src="image/top/logo/jushouan_01.png" alt="寿松庵本店"></a></li>
+			<li><a href="jushoan/honcho.html"><img src="image/top/logo/jushouan_02.png" alt="寿松庵本町店"></a></li>
+			<li><a href="jushoan/jushoan_ap_sendai.html"><img src="image/top/logo/jushouan_03.png" alt="寿松庵仙台空港店"></a></li>
+			</ul>
+            </div>
+        </dd>
+<!-- /wrapper         <dd><img src="image/base/nav/icon_3-4.png"><a href="wasyoku-jushoan/index.html">和食の寿松庵</a></dd>
+-->
+        <dd><img src="image/base/nav/icon_3-5.png"><a href="sobadokoro/index.html">そば処丸松</a></dd>
+        <dd><img src="image/base/nav/icon_3-9.png"><a href="juwarisoba_marumatsu/index.html">十割そば丸まつ</a></dd>
+        <dd><img src="image/base/nav/icon_3-6.png"><a href="katsu-gourmet/index.html">かつグルメ</a></dd>
+        <dd><img src="image/base/nav/icon_3-8.png"><a href="stardust/index.html">スターダスト</a></dd>
+        <dd><img src="image/base/nav/icon_3-10.png"><a href="big/index.html">ビッグステーキ</a></dd>
+    </dl>
+</li>
+<li id="gn_recruit">
+    <dl>
+    <dt>採用情報<span>Recruit</span></dt>
+        <dd class="large"><img src="image/base/nav/icon_4-5.png"><a href="recruit/index.html">採用情報<span>Recruit</span></a></dd>
+        <dd class="large"><img src="image/base/nav/icon_4-1.png"><a href="recruit/entry.html">採用エントリー<span>Entry Form</span></a></dd>
+        <dd class="large"><img src="image/base/nav/icon_4-4.png"><a href="recruit/bosyuyoukou.html">採用情報について<span>Recruit Information</span></a></dd>
+        <dd class="large"><img src="image/base/nav/icon_4-4.png"><a href="recruit/bosyuyoukou_mid-career.html">中途採用情報について<span>Recruit Information</span></a></dd>
+        <dd class="large"><img src="image/base/nav/icon_4-2.png"><a href="recruit/message.html">代表者からのメッセージ<span>Message from President</span></a></dd>
+        <dd class="large2"><img src="image/base/nav/icon_4-3.png"><a href="recruit/senior-voice.html">先輩たちからのメッセージ<span>Message from Elders and Betters</span></a></dd>
+    </dl>
+</li>
+<li id="gn_contact">
+    <dl>
+    <dt>お問合せ<span>Contact Us</span></dt>
+        <dd><img src="image/base/nav/icon_5-1.png"><a href="information/contact.html">お問合せ<span>Contact</span></a></dd>
+        <dd class="large"><img src="image/base/nav/icon_5-2.png"><a href="information/restaurant_list.html">店舗連絡先一覧<span>Shop Contact</span></a></dd>
+    </dl>
+</li>
+</ul>
+</nav>
+<div id="nav_seat"></div>
+
+<div id="header_local">
+<div id="header_local_contents">
+<ul id="hd_ln">
+<li><a href="http://www.re-marumatu.co.jp/">ホーム</a></li>
+<li><a href="information/contact.html">お問合せ</a></li>
+</ul>
+
+<div id="search">
+<form method="get" action="http://www.google.co.jp/search">
+<input type="text" name="q" id="search_box" value="" placeholder="Google" />
+<input type="hidden" name="ie" value="UTF-8" />
+<input type="hidden" name="oe" value="UTF-8" />
+<input type="hidden" name="hl" value="ja" />
+<input type="hidden" name="sitesearch" value="http://www.re-marumatu.co.jp/" />
+<input type="hidden" name="domains" value="http://www.re-marumatu.co.jp/" />
+<input type="image" src="image/base/search.png" id="submit_btn" alt="検索" name="submit" />
+</form>
+</div><!--/search-->
+</div><!--/header_local_contents-->
+</div><!--/header_local-->
+</header>
+
+
+<section id="restaurant_list">
+<h2>Restaurant list</h2>
+<ul>
+<li title="まるまつ"><img src="image/top/logo/marumatu.png" alt="まるまつ" width="80" height="80"><p><a href="marumatsu/index.html">和風レストランまるまつ</a></p></li>
+<li title="かに政宗"><img src="image/top/logo/kanimasamune.png" alt="かに政宗" width="109" height="80"><p><a href="kanimasamune/index.html">かに政宗</a></p></li>
+<li title="寿松庵" class="rl_jushoan"><img src="image/top/logo/jushouan.png" alt="寿松庵" width="89" height="80"><p>寿松庵</p></li>
+
+<!-- /wrapper 
+<li title="和食の寿松庵"><img src="image/top/logo/jushouan_wa.png" alt="和食の寿松庵" width="79" height="80"><p><a href="wasyoku-jushoan/index.html">和食の寿松庵</a></p></li>
+-->
+
+<li title="そば処丸松"><img src="image/top/logo/soba_marumatu.png" alt="そば処丸松" width="60" height="80"><p><a href="sobadokoro/index.html">そば処丸松</a></p></li>
+<li title="十割そば丸まつ"><img src="image/top/logo/juwarisoba_marumatsu.png" alt="十割そば丸まつ" width="95" height="80"><p><a href="juwarisoba_marumatsu/index.html">十割そば丸まつ</a></p></li>
+<li title="かつグルメ"><img src="image/top/logo/katsugurume.png" alt="かつグルメ" width="111" height="80"><p><a href="katsu-gourmet/index.html">かつグルメ</a></p></li>
+<li title="Stardust スターダスト"><img src="image/top/logo/stardust.png" alt="Stardust スターダスト" width="84" height="80"><p><a href="stardust/index.html">Stardust スターダスト</a></p></li>
+<li title="BigSteak ビッグステーキ"><img src="image/top/logo/big.png" alt="BigSteak ビッグステーキ" width="84" height="80"><p><a href="big/index.html">BigSteak ビッグステーキ</a></p></li>
+</ul>
+</section>
+
+<section id="topics">
+<div id="topics_contents">
+<h2>Topics</h2>
+<ul>
+<li title="グランドメニュー"><a href="marumatsu/menu.html"><img src="image/top/topics/topics_01.png" alt="グランドメニュー" width="300" height="134"></a></li>
+<li title="POINT CARD"><a href="information/pointcrad.html"><img src="image/top/topics/topics_02.png" alt="POINT CARD" width="300" height="134"></a></li>
+<li title="カルラのこだわり"><a href="information/kodawari.html"><img src="image/top/topics/topics_03.png" alt="カルラのこだわり" width="300" height="134"></a></li>
+</ul>
+</div><!-- /topics_contents -->
+</section>
+
+
+<div id="main_contents">
+<div id="contents_body">
+<div id="left_contents">
+
+<section id="news">
+<h2>Latest News</h2>
+<ul>
+<li class="open"><span class="day">2017.08.05</span>
+<p>
+<B><a href="http://link.maps.goo.ne.jp/map.php?MAP=E140.55.21.949N38.9.17.217&amp;ZM=9" target="_blank">味のまるまつ美田園店</a></B>
+2017年８月５日（土）新規オープンしました</p>
+</li>
+
+<li class="toushika"><span class="day">2017.08.04</span>
+<p><a href="tousikajyouhou/What's%20New.html">UP　平成29年7月の売上推移速報に関するお知らせ</a></p>
+</li>
+
+<li class="info"><span class="day">2017.08.01</span>
+<p><a href="marumatsu/menu.html">８月　和風レストランまるまつ<br>グランドメニューがかわりました</a></p>
+</li>
+
+
+<li class="toushika"><span class="day">2017.07.05</span>
+<p><a href="tousikajyouhou/What's%20New.html">UP　平成30年2月期 第１四半期決算短信</a></p>
+</li>
+<li class="toushika"><span class="day">2017.07.04</span>
+<p><a href="tousikajyouhou/What's%20New.html">UP　平成29年6月の売上推移速報に関するお知らせ</a></p>
+</li>
+<li class="info"><span class="day">2017.06.22</span>
+<p>
+　<a href="stardust/ryoukin.html#kitei">スターダスト　演奏者募集中</a><br>
+　<a href="stardust/ryoukin.html#kitei">スターダストの雰囲気にあった演出・演奏を募集しております。</a><br>
+　<a href="stardust/ryoukin.html#kitei">※ジャズ、ボサノバ、クラシック、ハワイアンなどを中心に活動して</a><br>
+　<a href="stardust/ryoukin.html#kitei">　いる方に出演をお願いしております。</a><br>
+　<a href="stardust/ryoukin.html#kitei">　演奏いただいた方に特典があります。</a><br>
+</p>
+</li>
+<li class="info"><span class="day">2017.06.16</span>
+<p><a href="image/top/topics/20170616kanimorioka.jpg">かに政宗盛岡店限定の１６時からのお得なサービス<br>アルコール類　一品メニュー５０品以上　が最大５０％引き！！</a></p>
+</li>
+
+<li class="info"><span class="day">2017.06.09</span>
+<p><a href="image/top/topics/20170609_kanuma-servicetime.jpg">和風レストランまるまつ鹿沼店限定の１６時からのお得なサービス<br>アルコール類半額！　厳選４０品が最大５０％引き！！</a></p>
+</li>
+<li class="toushika"><span class="day">2017.06.05</span>
+<p><a href="tousikajyouhou/What's%20New.html">UP　平成29年5月の売上推移速報に関するお知らせ</a></p>
+</li>
+<li class="info"><span class="day">2017.06.01</span>
+<p><a href="image/top/topics/20170601marumatu.jpg">６月　和風レストランまるまつ季節のおすすめ。<br>うな重セット</a></p>
+</li>
+
+<li class="open"><span class="day">2017.05.25</span>
+<p>
+<a href="big/image/top/20170525open.jpg">
+<B>ビッグステーキ向陽台店</B>
+</a>
+2017年5月25日リニューアルオープンしました。</p>
+</li>
+<li class="toushika"><span class="day">2017.05.08</span>
+<p><a href="tousikajyouhou/What's%20New.html">UP　平成29年4月の売上推移速報に関するお知らせ</a></p>
+</li>
+<li class="open"><span class="day">2017.04.27</span>
+<p><a href="image/top/topics/shiroishi-1.jpg"><B>味のまるまつ白石店</B></a>オープンしました。</p>
+</li>
+<li class="toushika"><span class="day">2017.04.05</span>
+<p><a href="tousikajyouhou/What's%20New.html">UP　平成29年2月期 決算短信</a></p>
+</li>
+<li class="toushika"><span class="day">2017.04.04</span>
+<p><a href="tousikajyouhou/What's%20New.html">UP　平成29年3月の売上推移速報に関するお知らせ</a></p>
+</li>
+<li class="open"><span class="day">2017.03.17</span>
+<p>2017年3月17日<a href="http://link.maps.goo.ne.jp/map.php?MAP=E141.8.21.991N39.41.57.333&ZM=10"><B>十割そば丸松フェザン盛岡店</B></a>オープンしました。</p>
+</li>
+<li class="open"><span class="day">2017.03.10</span>
+<p>2017年3月10日<a href="http://link.maps.goo.ne.jp/map.php?MAP=E141.3.29.636N38.32.56.069&ZM=10"><B>まるまつ小牛田店</B></a>オープンしました。
+</li>
+<li class="toushika"><span class="day">2017.03.06</span>
+<p><a href="tousikajyouhou/What's%20New.html">UP　平成29年2月の売上推移速報に関するお知らせ</a></p>
+</li>
+
+
+<li class="toushika"><span class="day">2017.02.06</span>
+<p><a href="tousikajyouhou/What's%20New.html">UP　平成29年1月の売上推移速報に関するお知らせ</a></p>
+</li>
+
+<li class="info"><span class="day">2017.01.14</span>
+<p><a href="juwarisoba_marumatsu/index-kouyoudai.html"><h4>十割蕎麦丸まつ向陽台店　新メニューでスタートします </h4></a></p></li>
+<li class="toushika"><span class="day">2017.01.06</span>
+<p><a href="tousikajyouhou/What's%20New.html">UP　投資家情報　平成29年2月期　第3四半期決算短信</a></p>
+</li>
+
+<li class="toushika"><span class="day">2017.01.04</span>
+<p><a href="tousikajyouhou/What's%20New.html">UP　平成28年12月の売上推移速報に関するお知らせ</a></p>
+</li>
+
+
+<!-- /close
+
+
+
+<li class="toushika"><span class="day">2016.12.05</span>
+<p><a href="tousikajyouhou/What's%20New.html">UP　平成28年１１月の売上推移速報に関するお知らせ</a></p>
+</li>
+<li class="open"><span class="day">2016.11.19</span>
+<p><a href="http://link.maps.goo.ne.jp/map.php?MAP=E140.33.4.070N39.18.41.791&ZM=10"><B>まるまつ横手中央店</B></h> が、11月19日オープンしました。<a href="member/akita/712/">現在、パート募集中</a></h>です。</p>
+</li>
+<li class="toushika"><span class="day">2016.11.07</span>
+<p><a href="tousikajyouhou/What's%20New.html">UP　平成28年１０月の売上推移速報に関するお知らせ</a></p>
+</li>
+<li class="toushika"><span class="day">2016.10.05</span>
+<p><a href="tousikajyouhou/What's%20New.html">UP　投資家情報　平成29年2月期　第2四半期決算短信</a></p>
+</li>
+<li class="toushika"><span class="day">2016.10.04</span>
+<p><a href="tousikajyouhou/What's%20New.html">UP　平成28年９月の売上推移速報に関するお知らせ</a></p>
+</li>
+<li class="toushika"><span class="day">2016.10.04</span>
+<p><a href="tousikajyouhou/What's%20New.html">UP　平成29年２月期通期　業績予想の修正に関するお知らせ</a></p>
+</li>
+<li class="toushika"><span class="day">2016.10.03</span>
+<p><a href="tousikajyouhou/What's%20New.html">UP　投資家情報　平成29年２月期第２四半期　業績予想の修正及び特別損失の計上に関するお知らせ</a></p></li>
+<li class="toushika"><span class="day">2016.09.05</span>
+<p><a href="tousikajyouhou/What's%20New.html">UP　投資家情報　平成28年8月の売上推移速報に関するお知らせ</a></p></li>
+
+
+<li class="info"><span class="day">2016.09.01</span>
+<p><a href="marumatsu/akino.html">和風レストランまるまつ季節のおすすめ。<br>秋のまるまつり　実施中！</a></p>
+</li>
+
+<li class="toushika"><span class="day">2016.08.04</span>
+<p><a href="tousikajyouhou/What's%20New.html">UP　投資家情報　平成28年7月の売上推移速報に関するお知らせ</a></p>
+</li>
+<li class="open"><span class="day">2016.07.05</span>
+<p>まるまつ寒河江店が、8月7日オープンしました</p>
+</li>
+<li class="open"><span class="day">2016.07.05</span>
+<p>まるまつ荒井店が、8月2日オープンしました</p>
+</li>
+<li class="toushika"><span class="day">2016.07.05</span>
+<p><a href="tousikajyouhou/What's%20New.html">UP　投資家情報　平成29年2月期　第1四半期決算短信</a></p>
+</li>
+<li class="open"><span class="day">2016.07.05</span>
+<p>まるまつ吉岡店が、7月5日オープンしました</p>
+</li>
+<li class="toushika"><span class="day">2016.07.04</span>
+<p><a href="tousikajyouhou/What's%20New.html">UP　投資家情報　平成28年6月の売上推移速報に関するお知らせ</a></p>
+</li>
+<li class="open"><span class="day">2016.07.01</span>
+<p>十割蕎麦丸まつ向陽台店が、7月1日リニューアルオープンしました</p>
+</li>
+
+
+
+
+-->
+
+
+
+</ul>
+<p class="view_all"><a href="news2/index.html">View All</a></p>
+</section>
+</div><!-- /left_contents -->
+</div><!-- /content_body -->
+</div><!-- /main_contents-->
+
+
+<div id="slide_container"></div>
+
+
+<footer>
+<nav>
+<ul>
+<li>
+    <dl>
+    <dt>企業情報</dt>
+        <dd><a href="Corporateinformation/Corporate-principlesi.html">社長あいさつ</a></dd>
+        <dd><a href="Corporateinformation/concept.html">コンセプト</a></dd>
+        <dd><a href="Corporateinformation/Company-overview.html">会社概要</a></dd>
+        <dd><a href="Corporateinformation/History.html">沿革</a></dd>
+        <dd><a href="Corporateinformation/origin-of-corporate-name.html">社名の由来</a></dd>
+        <dd><a href="Corporateinformation/commissary.html">COMMISSARY</a></dd>
+        <dd><a href="Corporateinformation/Learning-center.html">研修センター</a></dd>
+        <dd><a href="tousikajyouhou/index.html">投資家の皆様へ</a></dd>
+    </dl>
+</li>
+<li>
+    <dl>
+    <dt>お店を探す</dt>
+        <dd><a href="access/index.html">総合アクセスマップ</a></dd>
+    </dl>
+</li>
+<li>
+    <dl>
+    <dt>事業紹介</dt>
+        <dd><a href="marumatsu/index.html">和風レストランまるまつ</a></dd>
+        <dd><a href="kanimasamune/index.html">かに政宗</a></dd>
+        <dd><a href="jushoan/jushoan_honten.html">寿松庵 本店</a></dd>
+        <dd><a href="jushoan/honcho.html">寿松庵 本町店</a></dd>
+        <dd><a href="jushoan/jushoan_ap_sendai.html">寿松庵 仙台空港店</a></dd>
+<!-- /        <dd><a href="wasyoku-jushoan/index.html">和食の寿松庵</a></dd>   -->
+        <dd><a href="sobadokoro/index.html">そば処丸松</a></dd>
+        <dd><a href="juwarisoba_marumatsu/index.html">十割そば丸まつ</a></dd>
+        <dd><a href="katsu-gourmet/index.html">かつグルメ</a></dd>
+        <dd>回転すし</dd>
+        <dd><a href="stardust/index.html">スターダスト</a></dd>
+        <dd><a href="../big/index.html">ビッグステーキ</a></dd>
+    </dl>
+</li>
+<li>
+    <dl>
+    <dt>採用情報</dt>
+        <dd><a href="recruit/index.html">採用情報</a></dd>
+        <dd><a href="recruit/entry.html">採用エントリー</a></dd>
+        <dd><a href="recruit/bosyuyoukou.html">採用情報について</a></dd>
+        <dd><a href="recruit/message.html">代表者からのメッセージ</a></dd>
+        <dd><a href="recruit/senior-voice.html">先輩たちからのメッセージ</a></dd>
+    </dl>
+</li>
+<li>
+    <dl>
+    <dt>お問い合わせ</dt>
+        <dd><a href="information/contact.html">お問合せ</a></dd>
+        <dd><a href="information/restaurant_list.html">店舗連絡先一覧</a></dd>
+    </dl>
+</li>
+</ul>
+</nav>
+
+<div id="footer_info">
+<div id="footer_contents">
+<ul id="fm_ln">
+<li><a href="http://www.re-marumatu.co.jp/">ホーム</a></li>
+<li><a href="information/contact.html">お問合せ</a></li>
+</ul>
+<p id="copy">Copyright &copy; 2015 Karula Co.Ltd. All Rights Reserved.</p>
+</div><!-- /footer_contents -->
+</div><!-- /footer_info -->
+</footer>
+</div><!-- /container -->
+</div><!-- /wrapper -->
+
+<script type="text/javascript" src="system/js/jquery-1.11.0.js"></script>
+<script type="text/javascript" src="system/js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="system/js/jquery.mousewheel.js"></script>
+<script type="text/javascript" src="system/js/jquery.jscrollpane.min.js"></script>
+<script type="text/javascript" src="system/js/javaset.js"></script>
+<script type="text/javascript" src="system/bxslider/jquery.bxslider.js"></script>
+<script type="text/javascript" src="system/js/jquery.powertip.js"></script>
+<script>
+$(document).ready(function(){
+  $('.bxslider').bxSlider({
+    slideWidth: 920,
+	pager: false,
+	auto: true,
+	pause: 5000,
+    speed: 2000,
+    minSlides: 1,
+    maxSlides: 3,
+    moveSlides: 1,
+    slideMargin: 0
+  });
+});
+</script>
+<script type="text/javascript">
+$(function() {
+	$('.rl_jushoan').data('powertipjq', $([
+		'<ul class="rl_sub">',
+		'<li><a href="jushoan/jushoan_honten.html"><img src="image/top/logo/jushouan_01.png"></a></li>',
+		'<li><a href="jushoan/honcho.html"><img src="image/top/logo/jushouan_02.png"></a></li>',
+		'<li><a href="jushoan/jushoan_ap_sendai.html"><img src="image/top/logo/jushouan_03.png"></a></li>',
+		'</ul>',
+	].join('\n')));
+
+	$('.rl_jushoan').powerTip({placement: 'n',mouseOnToPopup: true});
+});
+</script>
+</body>
+</html>

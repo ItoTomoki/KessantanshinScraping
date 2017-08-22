@@ -1,0 +1,208 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ja" xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta name="description" content="IT時代の先端に立ち、時代をみつめる独走の技術集団企業" />
+<meta name="keywords" content="光ファイバー,ユーザーシステム事業,ネットワークソリューション,IPコミュニケーションシステム,システム開発分野,移動体通信・伝送無線システム,デジタルネットワークシステム,通信電力システム,電気設備,通信線路設備,土木設備,研究開発,愛知,岐阜,三重,静岡" />
+<script src="./_res/js/jquery-1.7.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+//<!--
+var FI = {};
+FI.jQuery = jQuery.noConflict(true);
+FI.smpcss = "./_res/design/default_smp.css";
+//-->
+</script>
+<script src="./_res/js/smp.js" type="text/javascript"></script>
+<script src="./_res/js/common.js" type="text/javascript"></script>
+<script src="./_res/js/pagetop_text.js" type="text/javascript"></script>
+<script src="./_res/js/articleall.js" type="text/javascript"></script>
+<script src="./_res/js/over.js" type="text/javascript"></script>
+<script src="./_res/js/init.js" type="text/javascript"></script>
+<script src="./_res/js/fm_util.js" type="text/javascript"></script>
+<link id="cmncss" href="./_res/design/default.css" rel="stylesheet" type="text/css" class="pconly" />
+<script type="text/javascript">
+//<!--
+var exIE = '<link href="./_res/dlstyle.css" rel="stylesheet" type="text/css" class="pconly" />';
+//-->
+</script>
+<script src="./_res/js/css_add.js" type="text/javascript"></script>
+<link class="pconly" href="./_res/design/default_top.css" rel="stylesheet" type="text/css" />
+<script src="./_res/js/smpside/jquery.cookie.js" type="text/javascript"></script>
+<title>シーキューブ株式会社</title>
+<link rel="apple-touch-icon" href="./_res/apple-touch-icon.png" />
+<link rel="shortcut icon" href="./_res/favicon.ico" />
+<script src="./_res/js/scroll_menu_a.js" type="text/javascript"></script>
+<script src="./_res/js/analytics.js" type="text/javascript"></script>
+</head>
+<body>
+<noscript>
+<p class="scriptmessage">当ホームページではjavascriptを使用しています。 javascriptの使用を有効にしなければ、一部の機能が正確に動作しない恐れがあります。お手数ですがjavascriptの使用を有効にしてください。</p>
+</noscript>
+<div id="wrapbg">
+<div id="wrap">
+<div id="blockskip" class="pconly" lang="ja" xml:lang="ja"><a href="#HONBUN">エンターキーを押すと、ナビゲーション部分をスキップし本文へ移動します。</a></div>
+<div id="topheaderbg" class="clearfix">
+<div id="header" class="clearfix">
+<div id="tlogo">
+<h1><a href="./index.html"><img src="./_res/design/images/header/tlogo.gif" alt="シーキューブ株式会社" width="483" height="100" /></a></h1>
+</div>
+<div id="util">
+<ul id="util1" class="clearfix">
+<li class="util1 pconly"><a href="./aboutsite/textsize.html">文字サイズの変更</a></li>
+<li class="util2"><a href="./aboutsite/sitemap.html">サイトマップ</a></li>
+</ul>
+<ul id="util2" class="clearfix">
+<li class="util3"><a href="./index.html">日本語</a></li>
+<li class="util4" lang="en" xml:lang="en"><span class="pconly">｜</span><a href="./en/index.html">English</a></li>
+</ul>
+</div>
+<div id="sitesearch">
+<form method="get" id="search-box" name="search-box" action="http://www.google.co.jp/search">
+<input type="hidden" name="ie" value="UTF-8" />
+<input type="hidden" name="oe" value="UTF-8" />
+<input type="hidden" name="hl" value="ja" />
+<input type="hidden" name="domains" value="http://www.c-cube-g.co.jp/" />
+<input type="hidden" name="sitesearch" value="http://www.c-cube-g.co.jp/" />
+<input type="text" name="q" size="20" id="key" value="" title="サイト内検索" />
+<input type="image" src="./_res/design/images/header/search.gif" value="検索" alt="検索" id="sitebtn" />
+</form>
+</div>
+</div>
+</div>
+<hr class="hide" />
+<div id="topgnavibg" class="clearfix">
+<div id="gnavi" class="clearfix">
+<p class="hnplus"><a href="#gnavi">MENU</a></p>
+<ul class="clearfix">
+<li class="gnavi1 top"><a href="./about/index.html">会社案内</a></li>
+<li class="gnavi2"><a href="business/index.html">事業案内</a></li>
+<li class="gnavi3"><a href="./investor/index.html">IR情報</a></li>
+<li class="gnavi4"><a href="./recruit/index.html">リクルート</a></li>
+</ul>
+</div>
+</div>
+<hr class="hide" />
+<div id="pickup" class="clearfix">
+<p class="skip"><a name="HONBUN" id="HONBUN">ここから本文です。</a></p>
+
+<div id="scroll_a" class="main_view clearfix">
+<div class="window" aria-hidden="true">
+<div class="image_reel">
+<div class="main">
+<p class="photoleft"><a href="business/ntt/index.html" tabindex="-1"><img src="./_res/design/images/top/mainimage1.jpg" alt="NTT通信設備工事「昭和29年の会社設立以来、日本電信電話公社（現在のNTTグループ）の設備工事構築に携わり、長きに渡り安全管理と高い技術力で大きく社会に貢献しています。」" width="950" height="340" /></a></p>
+</div>
+<div class="main">
+<p class="photoleft"><a href="business/mobile/index.html" tabindex="-1"><img src="./_res/design/images/top/mainimage2.jpg" alt="移動通信設備工事「豊かな経験と高度な技術を駆使し、移動通信事業者の携帯電話基地局設備、LTE・WiMAXなどのモバイル設備の設計・施工・保守を手がけています。」" width="950" height="340" /></a></p>
+</div>
+<div class="main">
+<p class="photoleft"><a href="business/general/index.html" tabindex="-1"><img src="./_res/design/images/top/mainimage3.jpg" alt="一般設備工事「これまでに培った幅広い技術力を武器に、地域インフラ、環境エネルギー、セキュリティ分野など多岐にわたる電気・通信設備の設計・施工・保守を行っています。」写真は株式会社NTTファシリティーズ「F岡崎2太陽光発電所」及び「F岡崎3太陽光発電所」" width="950" height="340" /></a></p>
+</div>
+<!-- ▲▲▲ END image_reel ▲▲▲ --></div>
+<!-- ▲▲▲ END window ▲▲▲ --></div>
+<p class="btn">
+<a href="#image_reel_stop" id="image_reel_stop" name="image_reel_stop" aria-hidden="true"><img src="./_res/design/images/top/parts/stop_off.gif" width="30" height="13" alt="停止" /></a>
+<a href="#image_reel_play" id="image_reel_play" name="image_reel_play" aria-hidden="true"><img src="./_res/design/images/top/parts/play_off.gif" width="30" height="13" alt="再生" /></a>
+</p>
+<div class="paging">
+<a href="business/ntt/index.html" rel="1"><img src="./_res/design/images/top/parts/paging_d.gif" alt="" width="30" height="13" /></a>
+<a href="business/mobile/index.html" rel="2"><img src="./_res/design/images/top/parts/paging_d.gif" alt="" width="30" height="13" /></a>
+<a href="business/general/index.html" rel="3"><img src="./_res/design/images/top/parts/paging_d.gif" alt="" width="30" height="13" /></a>
+<!-- ▲▲▲ END paging ▲▲▲ --></div>
+<!-- ▲▲▲ END scroll_a / main_view ▲▲▲ --></div>
+
+<!-- ▲▲▲ END pickup ▲▲▲ --></div>
+
+<hr class="hide" />
+<div id="toppagebody" class="clearfix">
+<div id="content3" class="clearfix">
+<div id="leftbox">
+<!--------------------------------------------------------------------------------- 
+▼ニュースリリース
+----------------------------------------------------------------------------------->
+<div id="news" class="borderbox">
+<h2>ニュースリリース</h2>
+<ul class="clearfix">
+
+<li class="box"><span class="date">2017年08月10日</span><span class="newsli"><a href="investor/transition.html#yuuka">第65期 第1四半期報告書掲載</a></span></li>
+<li class="box"><span class="date">2017年08月09日</span><span class="newsli"><a href="investor/transition.html#governance">コーポレートガバナンス報告書更新</a></span></li>
+<li class="box"><span class="date">2017年08月08日</span><span class="newsli"><a href="news/index.html">「内部統制システム構築の基本方針」の一部改正に関するお知らせ</a></span></li>
+<li class="box"><span class="date">2017年08月08日</span><span class="newsli"><a href="investor/transition.html">2018年3月期 第1四半期決算短信掲載</a></span></li>
+<li class="box"><span class="date">2017年07月03日</span><span class="newsli"><a href="investor/transition.html#governance">コーポレートガバナンス報告書更新</a></span></li>
+
+</ul>
+<p><a href="./news/index.html">ニュースリリース一覧</a></p>
+<!-- ▲▲▲ END borderbox ▲▲▲ --></div>
+
+<!--------------------------------------------------------------------------------- 
+▼お知らせ
+----------------------------------------------------------------------------------->
+<div id="topics" class="borderbox">
+<h2>お知らせ</h2>
+<ul class="clearfix">
+  <li class="box"><span class="date">2017年07月27日</span><span class="newsli"><a href="investor/transition.html">「最新IR資料」に「名証IRエキスポ2017」の資料を掲載しました</a></span></li>
+  <li class="box"><span class="date">2017年06月14日</span><span class="newsli"><a href="investor/transition.html">「最新IR資料」に「名証IRセミナーin名古屋」の資料を掲載しました</a></span></li>
+  <li class="box"><span class="date">2017年05月23日</span><span class="newsli"><a href="info/20170523.html">投資家向けイベント「名証IRエキスポ」に出展します</a></span></li>
+  <li class="box"><span class="date">2017年05月15日</span><span class="newsli"><a href="info/20170515.html">名証IRセミナーin名古屋で説明会を行います</a></span></li>
+  <li class="box"><span class="date">2017年03月01日</span><span class="newsli"><a href="info/20170301.html">新卒採用のリクナビエントリー開始</a></span></li>
+</ul>
+<!-- ▲▲▲ END borderbox ▲▲▲ --></div>
+
+<div class="plugin">
+<p>PDFファイルをご覧いただくには、Adobe Readerが必要です。お持ちでない方は<a href="http://get.adobe.com/jp/reader/" target="_blank">アドビシステムズ社のサイト（新しいウィンドウ）</a>からダウンロード（無料）してください。</p>
+</div>
+
+<!-- ▲▲▲ END leftbox ▲▲▲ --></div>
+<hr class="hide" />
+<div id="rightbox">
+<div class="bannerimg">
+<ul class="clearfix">
+    <li class="imglink"><a href="https://job.rikunabi.com/2018/company/r997400013/seminar/C001/?isc=ps343" target="_blank"><img src="./_res/design/images/top/banner_05.gif" alt="リクナビ2018　シーキューブ会社説明会エントリー" width="300" height="105" /></a></li>
+    <li class="imglink"><a href="business/case/index.html"><img src="./_res/design/images/top/banner_01.gif" alt="施工事例　主な導入事例・施工事例のご紹介" width="300" height="105" /></a></li>
+    <li class="imglink"><a href="business/development/index.html"><img src="./_res/design/images/top/banner_02.gif" alt="開発品紹介　シーキューブのオリジナル開発品をご紹介" width="300" height="105" /></a></li>
+    <li class="imglink"><a href="business/ntt/agency.html"><img src="./_res/design/images/top/banner_03.gif" alt="通信機器システム販売・工事・保守　取り扱い製品・委託販売のご案内" width="300" height="105" /></a></li>
+    <li class="imglink"><a href="business/solution/generator.html"><img src="./_res/design/images/top/banner_04.gif" alt="ジェネキューブ2.8　車載用小型発電機" width="300" height="105" /></a></li>
+</ul>
+<!-- ▲▲▲ END bannerimg ▲▲▲ --></div>
+<!-- ▲▲▲ END rightbox ▲▲▲ --></div>
+<!-- ▲▲▲ END content3 ▲▲▲ --></div>
+<!-- ▲▲▲ END toppagebody  ▲▲▲ --></div>
+<hr class="hide" />
+<div id="topguidebg">
+<div id="guide" class="clearfix">
+<ul>
+<li><a href="javascript:history.back();" class="pageback">前のページへ戻る</a></li>
+</ul>
+<div class="viewmode">
+<ul>
+<li><a href="javascript:void(0)" id="viewmode_pc" name="viewmode_pc">PC表示</a></li><li><a href="javascript:void(0)" id="viewmode_smp" name="viewmode_smp">スマホ表示</a></li>
+</ul>
+</div>
+<p class="pagetop"><a href="#wrap">このページの先頭へ戻る</a></p>
+</div>
+</div>
+<hr class="hide" />
+<div id="topfooterbg" class="clearfix">
+<div id="footer" class="clearfix">
+<div id="add" class="clearfix">
+<h2><img src="./_res/design/images/footer/flogo.png" alt="シーキューブ株式会社" width="211" height="22" /></h2>
+<address>名古屋市中区門前町1-51［<a href="./about/map_honsha.html">地図</a>］</address>
+</div>
+<ul>
+<li><a href="./link.html">リンク集</a></li>
+<li><span class="pconly">｜</span><a href="./iso/index.html">ISO</a></li>
+<li><span class="pconly">｜</span><a href="./aboutsite/privacy.html">個人情報保護方針</a></li>
+<li><span class="pconly">｜</span><a href="./aboutsite/contact.html">お問い合わせ</a></li>
+<li><span class="pconly">｜</span><a href="./aboutsite/sitepolicy.html">サイトポリシー</a></li>
+</ul>
+</div>
+<div id="copy">
+<p lang="en" xml:lang="en">&copy; 2016 C-CUBE Corporation</p>
+</div>
+</div>
+</div>
+</div>
+
+</body>
+</html>

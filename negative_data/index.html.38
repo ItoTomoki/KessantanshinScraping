@@ -1,0 +1,713 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta name="description" content="関東天然瓦斯開発は天然ガスとヨウ素というふたつの貴重な国産資源の開発を通じ、社会への貢献を続けてまいります。" />
+<meta name="keywords" content="関東天然瓦斯開発,ガス,ヨウ素,天然ガス,ヨウ素国産資源,エネルギー,鉱業" />
+<title>関東天然瓦斯開発株式会社</title>
+<script type="text/javascript" src="js/iepngfix_tilebg.js"></script> 
+<link href="css/import.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/index.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/font_m.css" rel="stylesheet" type="text/css" media="all" title="styleswichter" />
+<link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon" />
+<script src="js/common.js" type="text/javascript"></script>
+<script src="js/jquery-1.7.2.min.js" type="text/javascript"></script>
+<script src="js/jquery.rollover.js" type="text/javascript"></script>
+<script src="js/jquery.cookie.js" type="text/javascript"></script>
+<script src="js/jquery.styleswichter.js" type="text/javascript"></script>
+<script type="text/javascript">
+<!--
+$(function(){
+	var options={
+	linkTitle: 'styleswichter',
+	cookieName: 'selected-style'
+	};
+	$.fn.StyleSwichter(options);
+	
+	$("#contentslist ul li:nth-child(3)").css("width","284px");
+	$("#contentslist ul li:nth-child(3) .box").css("margin","0");
+});
+//-->
+</script>
+<script src="js/jquery.animate-enhanced.min.js" type="text/javascript"></script>
+<script src="js/jquery.easing.1.3.js" type="text/javascript"></script>
+<script src="js/slide.js" type="text/javascript"></script>
+
+
+<link href="css/print.css" rel="stylesheet" type="text/css" media="print" />
+</head>
+
+<body class="toppage">
+<div id="wrap">
+	<div id="head">
+		<div id="logo"><a name="top" id="top"></a>
+			<h1><img src="img/logo.png" alt="関東天然瓦斯開発株式会社" title="関東天然瓦斯開発株式会社" width="212" height="50" /></h1>
+		</div>
+		<ul id="headMenu">
+			<li><a href="link/">リンク集</a></li>
+			<li><a href="sitemap/">サイトマップ</a></li>
+			<li id="lang"><a href="english/"><img src="img/btn_lang.gif" alt="English" title="English" width="50" height="18" /></a></li>
+		</ul>
+		<ul id="font-size">
+			<li><img src="img/fontsize.gif" alt="文字サイズ" title="文字サイズ" width="50" height="10" /></li>
+			<li class="fontS"><a href="javascript:void(0);" onclick="$.fn.StyleSwichter({cssPath: '/css/font_s.css'}); this.blur(); return false;" title="小">小</a></li>
+			<li class="fontM"><a href="javascript:void(0);" onclick="$.fn.StyleSwichter({cssPath: '/css/font_m.css'}); this.blur(); return false;" title="中">中</a></li>
+			<li class="fontL"><a href="javascript:void(0);" onclick="$.fn.StyleSwichter({cssPath: '/css/font_l.css'}); this.blur(); return false;" title="大">大</a></li>
+		</ul>
+		<!-- END "head" --></div>
+	<div id="menu" class="clearfix">
+		<ul>
+			<li><a href="index.html"><img src="img/menu_01.gif" alt="HOME" title="HOME" width="146" height="38" /></a></li>
+			<li><a href="corporate/"><img src="img/menu_02.gif" alt="会社情報" title="会社情報" width="147" height="38" /></a></li>
+			<li><a href="biz/"><img src="img/menu_03.gif" alt="事業内容" title="事業内容" width="147" height="38" /></a></li>
+			<li><a href="ir/"><img src="img/menu_04.gif" alt="IR情報" title="IR情報" width="147" height="38" /></a></li>
+			<li><a href="csr/"><img src="img/menu_05.gif" alt="CSR情報" title="CSR情報" width="147" height="38" /></a></li>
+			<li><a href="recruit/"><img src="img/menu_06.gif" alt="採用情報" title="採用情報" width="146" height="38" /></a></li>
+		</ul>
+		<!-- END "menu" --></div>
+	<div id="main" class="clearfix">
+		<div id="brandingwrap">
+			<div id="branding">
+				<div id="inbranding">
+					<ul>
+						<li><img src="img/img01.png" width="878" height="231" alt="" /></li>
+						<li><a href="gas/"><img src="img/img02.png" width="878" height="231" alt="" /></a></li>
+						<li><a href="iodine/"><img src="img/img03.png" width="878" height="231" alt="" /></a></li>
+						<li><a href="keyword/"><img src="img/img04.png" width="878" height="231" alt="" /></a></li>
+					</ul>
+				<!-- END "inbranding" --> 
+				</div>
+			<!-- END "branding" --> 
+			</div>
+			<div id="slidebtn">
+				<ul>
+					<li id="btnprev"><a href="javascript:void(0);"><img src="img/btn_prev.jpg" width="19" height="45" alt="" /></a></li>
+					<li id="btnnext"><a href="javascript:void(0);"><img src="img/btn_next.jpg" width="19" height="45" alt="" /></a></li>
+				</ul>
+			<!-- END "slidebtn" --> 
+			</div>
+			<div id="pager">
+				<ul>
+					<li class="active"><a href="javascript:void(0);">1</a></li>
+					<li><a href="javascript:void(0);">2</a></li>
+					<li><a href="javascript:void(0);">3</a></li>
+					<li><a href="javascript:void(0);">4</a></li>
+				</ul>
+			<!-- END "pager" --> 
+			</div>
+		<!-- END "brandingwrap" --> 
+		</div>
+		
+		
+		
+		<div id="contentslist">
+			<ul class="clearfix">
+				<li>
+					<div class="box">
+						<p><a href="gas/"><img src="img/btn_gas.png" width="280" height="63" alt="天然ガスについて" title="天然ガスについて" /></a></p>
+						<p class="txt">千葉県産の天然ガスの特性や歴史、埋蔵量などについて掲載しています。</p>
+						<p class="detail"><a href="gas/">詳しくはこちら</a></p>
+					</div>
+				</li>
+				<li>
+					<div class="box">
+						<p><a href="iodine/"><img src="img/btn_iodine.png" width="280" height="63" alt="ヨウ素について" title="ヨウ素について" /></a></p>
+						<p class="txt">当社事業の第２の柱、ヨウ素について、特性や用途などを掲載しています。</p>
+						<p class="detail"><a href="iodine/">詳しくはこちら</a></p>
+					</div>
+				</li>
+				<li>
+					<div class="box">
+						<p><a href="keyword/"><img src="img/btn_point.png" width="280" height="63" alt="関東天然瓦斯開発のココがポイント！！" title="関東天然瓦斯開発のココがポイント！！" /></a></p>
+						<p class="txt">当社をより深く簡単にご理解いただくために、ポイントを絞ってご紹介をしています。</p>
+						<p class="detail"><a href="keyword/">詳しくはこちら</a></p>
+					</div>
+				</li>
+			</ul>
+		<!-- END "contentslist" --> 
+		</div>
+		
+		
+		
+		<div id="contents" class="clearfix">
+				<div id="newsArea">
+					<div id="newsttl">
+						<div><img src="img/title_whats.gif" alt="What's New" title="What's New" width="103" height="13" /></div>
+						<p id="more"><a href="news/"><img src="img/btn_list.gif" width="31" height="11" alt="一覧へ" title="一覧へ" /></a></p>
+					<!-- END "newsttl" --> 
+					</div>
+					<table cellspacing="0" cellpadding="0">
+                    
+                    <tr>
+                          <td>2017.07.04</td>
+                          <td class="icon"><img src="img/icon_whats_05.png" alt="お知らせ" title="お知らせ" width="55" height="13" /></td>
+                          <td><a href="pdf/20170704.pdf" target="_blank">平成29年度供給計画について</a></td>
+                      </tr>
+                    <tr>
+                          <td>2017.03.23</td>
+                          <td class="icon"><img src="img/icon_whats_05.png" alt="お知らせ" title="お知らせ" width="55" height="13" /></td>
+                          <td><a href="pdf/20170323.pdf" target="_blank">一部組織の移管について</a></td>
+                      </tr>
+                    
+                    <tr>
+                          <td>2016.11.01</td>
+                          <td class="icon"><img src="img/icon_whats_05.png" alt="お知らせ" title="お知らせ" width="55" height="13" /></td>
+                          <td><a href="pdf/20161101.pdf" target="_blank">新ユニフォーム導入のお知らせ</a></td>
+                      </tr>
+                    
+                    <tr>
+                          <td>2016.09.01</td>
+                          <td class="icon"><img src="img/icon_whats_01.gif" alt="更新" title="更新" width="55" height="13" /></td>
+                          <td>千葉県産天然ガス見学会を10/22（土）に開催いたします。皆様のご参加をお待ちしております。（←終了しました。）</td>
+                      </tr>
+                    <tr>
+                          <td>2015.08.18</td>
+                          <td class="icon"><img src="img/icon_whats_01.gif" alt="更新" title="更新" width="55" height="13" /></td>
+                          <td>千葉県産天然ガス見学会を10/3（土）に開催いたします。皆様のご参加をお待ちしております。（←終了しました。）</td>
+                      </tr>
+                    <tr>
+                          <td>2015.08.07</td>
+                          <td class="icon"><img src="img/icon_whats_01.gif" alt="更新" title="更新" width="55" height="13" /></td>
+                          <td><a href="pdf/20150807.pdf" target="_blank">「第5回　国際農業資材EXPO」出展のお知らせ</a>を掲載しました。</td>
+                      </tr>
+                    <tr>
+                          <td>2014.11.18</td>
+                          <td class="icon"><img src="img/icon_whats_01.gif" alt="更新" title="更新" width="55" height="13" /></td>
+                          <td>千葉県産天然ガス見学会を12/14（日）に開催いたします。皆様のご参加をお待ちしております。（←終了しました。）</td>
+                      </tr>
+                     <tr>
+                          <td>2014.07.24</td>
+                          <td class="icon"><img src="img/icon_whats_01.gif" alt="更新" title="更新" width="55" height="13" /></td>
+                          <td>千葉県産天然ガス見学会を8/30（土）に開催いたします。皆様のご参加をお待ちしております。（←終了しました。）</td>
+                      </tr>
+                      <tr>
+                          <td>2014.03.28</td>
+                          <td class="icon"><img src="img/icon_whats_02.gif" alt="IR" title="IR" width="55" height="13" /></td>
+                          <td><a href="ir/lib/pdf/H26/20140328.pdf" target="_blank">第152期有価証券報告書</a>および<a href="ir/lib/pdf/hou2512.pdf" target="_blank">第152期株主様向け報告書</a>を掲載しました。</td>
+                      </tr>
+                      <tr>
+                          <td>2014.02.13</td>
+                          <td class="icon"><img src="img/icon_whats_02.gif" alt="IR" title="IR" width="55" height="13" /></td>
+                          <td><a href="ir/lib/pdf/ren1312.pdf" target="_blank">平成25年12月期決算短信（関東天然瓦斯開発株式会社分）</a>を掲載しました。</td>
+                      </tr>
+						<tr>
+						  <td>2013.12.02</td>
+						  <td class="icon"><img src="img/icon_whats_02.gif" alt="IR" title="IR" width="55" height="13" /></td>
+						  <td><a href="ir/lib/pdf/20131202_5.pdf" target="_blank">Ｋ＆Ｏエナジーグループ株式会社の新規上場承認に関するお知らせ</a>、<a href="ir/lib/pdf/20131202_4.pdf" target="_blank">自己株式の消却に関するお知らせ</a>、<a href="ir/lib/pdf/20131202_3.pdf" target="_blank">定款の一部変更に関するお知らせ</a>、<a href="ir/lib/pdf/20131202_2.pdf" target="_blank">「Ｋ＆Ｏエナジーグループ株式会社」及び主要会社の役員人事に関するお知らせ</a>および<a href="ir/lib/pdf/20131202_1.pdf" target="_blank">代表取締役の異動に関するお知らせ</a>を掲載しました。</td>
+						</tr>
+						<tr>
+						  <td>2013.11.08</td>
+						  <td class="icon"><img src="img/icon_whats_02.gif" alt="IR" title="IR" width="55" height="13" /></td>
+						  <td><a href="ir/lib/pdf/H25/20131108.pdf" target="_blank">第152期第３四半期報告書</a>を掲載しました。</td>
+						</tr>
+						<tr>
+						  <td>2013.11.07</td>
+						  <td class="icon"><img src="img/icon_whats_02.gif" alt="IR" title="IR" width="55" height="13" /></td>
+						  <td><a href="ir/lib/pdf/ren1309.pdf" target="_blank">平成25年12月期第３四半期決算短信</a>を掲載しました。</td>
+						</tr>
+						
+						<!--
+						<tr>
+						  <td>2013.03.29</td>
+						  <td class="icon"><img src="img/icon_whats_01.gif" alt="更新" title="更新" width="55" height="13" /></td>
+						  <td><a href="corporate/pdf/governance_1303.pdf" target="_blank">コーポレート・ガバナンス報告書</a>、<a href="ir/highlight/index.html">決算ハイライト</a>および<a href="ir/index3.html">株式情報</a>を更新しました</td>
+						</tr>
+						<tr>
+						  <td>2013.03.29</td>
+						  <td class="icon"><img src="img/icon_whats_02.gif" alt="IR" title="IR" width="55" height="13" /></td>
+						  <td><a href="ir/lib/pdf/H25/20130329.pdf" target="_blank">第151期有価証券報告書</a>および<a href="ir/lib/pdf/ri1303.pdf" target="_blank">第151期定時株主総会決議に関する臨時報告書</a>を掲載しました。</td>
+						</tr>
+						<tr>
+						  <td>2013.03.28</td>
+						  <td class="icon"><img src="img/icon_whats_02.gif" alt="IR" title="IR" width="55" height="13" /></td>
+						  <td><a href="ir/lib/pdf/H25/20130328_1.pdf" target="_blank">ストックオプション（新株予約権）の発行に関するお知らせ</a>、<a href="ir/lib/pdf/ke1303.pdf" target="_blank">第151期定時株主総会決議ご通知</a>および<a href="ir/lib/pdf/hou2412.pdf" target="_blank">第151期株主様向け報告書</a>を掲載しました。</td>
+						</tr>
+						<tr>
+						  <td>2013.03.25</td>
+						  <td class="icon"><img src="img/icon_whats_02.gif" alt="IR" title="IR" width="55" height="13" /></td>
+						  <td><a href="ir/lib/pdf/H25/20130325.pdf" target="_blank">人事異動に関するお知らせ</a>を掲載しました。</td>
+						</tr>
+						<tr>
+							<td>2013.03.07</td>
+							<td class="icon"><img src="img/icon_whats_02.gif" alt="IR" title="IR" width="55" height="13" /></td>
+							<td><a href="ir/lib/pdf/sho1303.pdf" target="_blank">第151期定時株主総会招集ご通知</a>および<a href="ir/lib/pdf/2412ana.pdf" target="_blank">平成24年12月期アナリスト説明会資料</a>を掲載しました。</td>
+						</tr>
+						<tr>
+							<td>2013.02.14</td>
+							<td class="icon"><img src="img/icon_whats_02.gif" alt="IR" title="IR" width="55" height="13" /></td>
+							<td><a href="ir/lib/pdf/ren1212.pdf" target="_blank">平成24年12月期決算短信</a>、<a href="ir/lib/pdf/H25/20130214_2.pdf" target="_blank">剰余金の配当に関するお知らせ</a>および<a href="ir/lib/pdf/H25/20130214_1.pdf" target="_blank">「その他の関係会社」の異動に関するお知らせ</a>を掲載しました。</td>
+						</tr>
+						<tr>
+							<td>2013.01.31</td>
+							<td class="icon"><img src="img/icon_whats_02.gif" alt="IR" title="IR" width="55" height="13" /></td>
+							<td><a href="ir/lib/pdf/H25/20130131.pdf" target="_blank">子会社のガス料金改定の申請に関するお知らせ</a>を掲載しました。 </td>
+						</tr>
+						<tr>
+							<td>2012.11.09</td>
+							<td class="icon"><img src="img/icon_whats_02.gif" alt="IR" title="IR" width="55" height="13" /></td>
+							<td><a href="ir/lib/pdf/H24/20121109.pdf" target="_blank">第151期第３四半期報告書</a>を掲載しました。</td>
+						</tr>
+						<tr>
+							<td>2012.11.08</td>
+							<td class="icon"><img src="img/icon_whats_02.gif" alt="IR" title="IR" width="55" height="13" /></td>
+							<td><a href="ir/lib/pdf/ren1209.pdf" target="_blank">平成24年12月期第３四半期決算短信</a>を掲載しました。</td>
+						</tr>
+						<tr>
+							<td>2012.10.29</td>
+							<td class="icon"><img src="img/icon_whats_01.gif" alt="更新" title="更新" width="55" height="13" /></td>
+							<td>千葉県産天然ガス見学会を12/1(土)に開催いたします。皆様のご参加をお待ちしております。(←終了しました。)</td>
+						</tr>
+						<tr>
+							<td>2012.09.26</td>
+							<td class="icon"><img src="img/icon_whats_02.gif" alt="IR" title="IR" width="55" height="13" /></td>
+							<td><a href="ir/lib/pdf/H24/20120926.pdf" target="_blank">子会社の合併に関するお知らせ</a>を掲載しました。</td>
+						</tr>
+						<tr>
+							<td>2012.09.04</td>
+							<td class="icon"><img src="img/icon_whats_02.gif" alt="IR" title="IR" width="55" height="13" /></td>
+							<td><a href="ir/lib/pdf/hou2406.pdf" target="_blank">第151期第２四半期株主様向け報告書</a>および<a href="ir/lib/pdf/2406ana.pdf" target="_blank">平成24年12月期第２四半期アナリスト説明会資料</a>を掲載しました。</td>
+						</tr>
+						<tr>
+							<td>2012.08.31</td>
+							<td class="icon"><img src="img/icon_whats_03.gif" alt="CSR" title="CSR" width="55" height="13" /></td>
+							<td><a href="csr/pdf/csr.pdf" target="_blank">CSR報告書2012</a>を掲載しました。</td>
+						</tr>
+						<tr>
+							<td>2012.08.10</td>
+							<td class="icon"><img src="img/icon_whats_02.gif" alt="IR" title="IR" width="55" height="13" /></td>
+							<td><a href="ir/lib/pdf/H24/20120810.pdf" target="_blank">第151期第２四半期報告書</a>を掲載しました。</td>
+						</tr>
+						<tr>
+							<td>2012.08.09</td>
+							<td class="icon"><img src="img/icon_whats_02.gif" alt="IR" title="IR" width="55" height="13" /></td>
+							<td><a href="ir/lib/pdf/ren1206.pdf" target="_blank">平成24年12月期第２四半期決算短信</a>を掲載しました。</td>
+						</tr>
+        <tr>
+          <td>2012.03.30</td>
+          <td class="icon"><img src="img/icon_whats_01.gif" alt="更新" title="更新" width="27" height="13" /></td>
+          <td><a href="corporate/pdf/governance_1103.pdf" target="_blank">コーポレート・ガバナンス報告書</a>を更新しました。</td>
+        </tr>
+        <tr>
+          <td>2012.03.30</td>
+          <td class="icon"><img src="img/icon_whats_01.gif" alt="更新" title="更新" width="27" height="13" /></td>
+          <td><a href="ir/highlight/index.html">決算ハイライト</a>および<a href="ir/index3.html">株式情報</a>を更新しました。</td>
+        </tr>
+        <tr>
+          <td>2012.03.30</td>
+          <td class="icon"><img src="img/icon_whats_02.gif" alt="IR" title="IR" width="27" height="13" /></td>
+          <td><a href="ir/lib/pdf/H24/20120330.pdf" target="_blank">第150期有価証券報告書</a>および<a href="ir/lib/pdf/ri1203.pdf" target="_blank">第150期定時株主総会決議に関する臨時報告書</a>を掲載しました。</td>
+        </tr>
+        <tr>
+          <td>2012.03.29</td>
+          <td class="icon"><img src="img/icon_whats_02.gif" alt="IR" title="IR" width="27" height="13" /></td>
+          <td><a href="ir/lib/pdf/H24/20120330_1.pdf" target="_blank">ストックオプション（新株予約権）の発行に関するお知らせ</a>を掲載しました。</td>
+        </tr>
+        <tr>
+          <td>2012.03.29</td>
+          <td class="icon"><img src="img/icon_whats_02.gif" alt="IR" title="IR" width="27" height="13" /></td>
+          <td><a href="ir/lib/pdf/ke1203.pdf" target="_blank">第150期定時株主総会決議ご通知</a>および<a href="ir/lib/pdf/hou2312.pdf" target="_blank">第150期株主様向け報告書</a>を掲載しました。</td>
+        </tr>
+        <tr>
+          <td>2012.03.27</td>
+          <td class="icon"><img src="img/icon_whats_02.gif" alt="IR" title="IR" width="27" height="13" /></td>
+          <td><a href="ir/lib/pdf/H24/20120327.pdf" target="_blank">人事異動に関するお知らせ</a>を掲載しました。</td>
+        </tr>
+        <tr>
+          <td>2012.03.08</td>
+          <td class="icon"><img src="img/icon_whats_02.gif" alt="IR" title="IR" width="27" height="13" /></td>
+          <td><a href="ir/lib/pdf/2312ana.pdf" target="_blank">平成23年12月期アナリスト説明会資料</a>を掲載しました。</td>
+        </tr>
+        <tr>
+          <td>2012.03.08</td>
+          <td class="icon"><img src="img/icon_whats_02.gif" alt="IR" title="IR" width="27" height="13" /></td>
+          <td><a href="ir/lib/pdf/sho1203.pdf" target="_blank">第150期定時株主総会招集ご通知</a>を掲載しました。</td>
+        </tr>
+	    <tr>
+            <td>2012.02.16</td>
+	        <td class="icon"><img src="img/icon_whats_01.gif" alt="更新" title="更新" width="27" height="13" /></td>
+	        <td><a href="cphi/index.html">国際医薬品原料・中間体展 2012」へのヨウ素学会の出展について</a>を掲載しました。</td>
+	        </tr>
+	    <tr>
+            <td>2012.02.15</td>
+	        <td class="icon"><img src="img/icon_whats_02.gif" alt="IR" title="IR" width="27" height="13" /></td>
+	        <td><a href="ir/lib/pdf/H24/20120215_1.pdf" target="_blank">代表取締役の異動に関するお知らせ</a>を掲載しました。</td>
+	        </tr>
+	    <tr>
+            <td>2012.02.15</td>
+	        <td class="icon"><img src="img/icon_whats_02.gif" alt="IR" title="IR" width="27" height="13" /></td>
+	        <td><a href="ir/lib/pdf/ren1112.pdf" target="_blank">平成23年12月期決算短信</a>および<a href="ir/lib/pdf/H24/20120215_2.pdf" target="_blank">剰余金の配当に関するお知らせ</a>を掲載しました。</td>
+	        </tr>
+	    <tr>
+            <td>2012.02.07</td>
+	        <td class="icon"><img src="img/icon_whats_02.gif" alt="IR" title="IR" width="27" height="13" /></td>
+	        <td><a href="ir/lib/pdf/H24/20120207.pdf" target="_blank">子会社の業績予想の修正および配当予想の修正に関するお知らせ</a>を掲載しました。</td>
+	        </tr>
+	    <tr>
+            <td>2011.11.28</td>
+	        <td class="icon"><img src="img/icon_whats_02.gif" alt="IR" title="IR" width="27" height="13" /></td>
+	        <td><a href="ir/lib/pdf/H23/20111128_1.pdf" target="_blank">エア・ウォーター株式会社との資本業務提携に関するお知らせ</a>および<a href="ir/lib/pdf/H23/20111128_2.pdf" target="_blank">株式の売出し、主要株主および主要株主である筆頭株主の異動ならびに「その他の関係会社」の異動に関するお知らせ</a>を掲載しました。</td>
+	        </tr>
+	    <tr>
+            <td>2011.10.21</td>
+	        <td class="icon"><img src="img/icon_whats_01.gif" alt="更新" title="更新" width="27" height="13" /></td>
+	        <td><a href="kansui/index2.html">「アグロ・イノベーション２０１１」への出展について</a>を掲載しました。</td>
+	        </tr>
+	    <tr>
+            <td>2011.10.01</td>
+	        <td class="icon"><img src="img/icon_whats_01.gif" alt="更新" title="更新" width="27" height="13" /></td>
+	        <td>千葉県産天然ガス見学会を11/23(祝)に開催いたします。皆様のご参加をお待ちしております。（←終了しました。）</a></td>
+	        </tr>
+        <tr>
+          <td>2011.09.02</td>
+          <td class="icon"><img src="img/icon_whats_02.gif" alt="IR" title="IR" width="27" height="13" /></td>
+          <td><a href="ir/lib/pdf/hou2306.pdf" target="_blank">第150期第２四半期株主様向け報告書</a>および<a href="ir/lib/pdf/2306ana.pdf" target="_blank">平成23年12月期第２四半期アナリスト説明会資料</a>を掲載しました。</td>
+        </tr>
+	    <tr>
+            <td>2011.08.12</td>
+	        <td class="icon"><img src="img/icon_whats_02.gif" alt="IR" title="IR" width="27" height="13" /></td>
+	        <td><a href="ir/lib/pdf/H23/20110812.pdf" target="_blank">第150期第２四半期報告書</a>を掲載しました。</td>
+	        </tr>
+	    <tr>
+            <td>2011.08.11</td>
+	        <td class="icon"><img src="img/icon_whats_02.gif" alt="IR" title="IR" width="27" height="13" /></td>
+	        <td><a href="ir/lib/pdf/ren1106.pdf" target="_blank">平成23年12月期第２四半期決算短信</a>を掲載しました。</td>
+	        </tr>
+        <tr>
+            <td>2011.08.11</td>
+	        <td class="icon"><img src="img/icon_whats_02.gif" alt="IR" title="IR" width="27" height="13" /></td>
+	        <td><a href="ir/lib/pdf/H23/230811_1.pdf" target="_blank">業績予想との差異に関するお知らせ</a>および<a href="ir/lib/pdf/H23/230811_2.pdf" target="_blank">業績予想の修正に関するお知らせ</a>を掲載しました。</td>
+	        </tr>
+	    <tr>
+            <td>2011.08.02</td>
+	        <td class="icon"><img src="img/icon_whats_02.gif" alt="IR" title="IR" width="27" height="13" /></td>
+	        <td><a href="ir/lib/pdf/H23/230802.pdf" target="_blank">子会社の業績予想の修正に関するお知らせ</a>を掲載しました。</td>
+	        </tr>
+	    <tr>
+            <td>2011.07.15</td>
+	        <td class="icon"><img src="img/icon_whats_01.gif" alt="更新" title="更新" width="27" height="13" /></td>
+	        <td>千葉県産天然ガス見学会を8/23(火)に開催いたします。皆様のご参加をお待ちしております。（←終了しました。）</td>
+	        </tr>
+        <tr>
+            <td>2011.05.13</td>
+	        <td class="icon"><img src="img/icon_whats_02.gif" alt="IR" title="IR" width="27" height="13" /></td>
+	        <td><a href="ir/lib/pdf/H23/20110513.pdf" target="_blank">第150期第１四半期報告書</a>を掲載しました。</td>
+	        </tr>
+        <tr>
+          <td>2011.05.12</td>
+          <td class="icon"><img src="img/icon_whats_02.gif" alt="IR" title="IR" width="27" height="13" /></td>
+          <td><a href="ir/lib/pdf/ren1103.pdf" target="_blank">平成23年12月期第１四半期決算短信</a>を掲載しました。</td>
+        </tr>
+         <tr>
+          <td>2011.04.28</td>
+          <td class="icon"><img src="img/icon_whats_02.gif" alt="IR" title="IR" width="27" height="13" /></td>
+          <td><a href="ir/lib/pdf/H23/230428.pdf" target="_blank">ストックオプション（新株予約権）の発行内容確定に関するお知らせ</a>を掲載しました。</td>
+        </tr>
+        <tr>
+          <td>2011.04.27</td>
+          <td class="icon"><img src="img/icon_whats_01.gif" alt="更新" title="更新" width="27" height="13" /></td>
+          <td><a href="ir/lib/pdf/H23/230427.pdf" target="_blank">東日本大震災への支援について</a>を掲載しました。</td>
+        </tr>
+        <tr>
+          <td>2011.04.13</td>
+          <td class="icon"><img src="img/icon_whats_02.gif" alt="IR" title="IR" width="27" height="13" /></td>
+          <td><a href="ir/kou/20110413.pdf" target="_blank">新株予約権発行に関する取締役会決議公告</a>を掲載しました。</td>
+        </tr>
+         <tr>
+          <td>2011.03.31</td>
+          <td class="icon"><img src="img/icon_whats_02.gif" alt="IR" title="IR" width="27" height="13" /></td>
+          <td><a href="ir/lib/pdf/H23/230331.pdf" target="_blank">支配株主等に関する事項について</a>を掲載しました。</td>
+        </tr>
+        <tr>
+          <td>2011.03.31</td>
+          <td class="icon"><img src="img/icon_whats_01.gif" alt="更新" title="IR" width="27" height="13" /></td>
+          <td><a href="ir/highlight/index.html">決算ハイライト</a>および<a href="ir/index3.html">株式情報</a>を更新しました。</td>
+        </tr>
+        <tr>
+          <td>2011.03.31</td>
+          <td class="icon"><img src="img/icon_whats_02.gif" alt="IR" title="IR" width="27" height="13" /></td>
+          <td><a href="ir/lib/pdf/H23/20110331.pdf" target="_blank">第149期有価証券報告書</a>を掲載しました。</td>
+        </tr>
+        <tr>
+          <td>2011.03.30</td>
+          <td class="icon"><img src="img/icon_whats_02.gif" alt="IR" title="IR" width="27" height="13" /></td>
+          <td><a href="ir/lib/pdf/H23/230330.pdf" target="_blank">ストックオプション（新株予約権）の発行に関するお知らせ</a>を掲載しました。</td>
+        </tr>
+        <tr>
+          <td>2011.03.30</td>
+          <td class="icon"><img src="img/icon_whats_02.gif" alt="IR" title="IR" width="27" height="13" /></td>
+          <td><a href="ir/lib/pdf/ke1103.pdf" target="_blank">第149期定時株主総会決議ご通知</a>および<a href="ir/lib/pdf/hou2212.pdf" target="_blank">第149期報告書</a>を掲載しました。</td>
+        </tr>
+        <tr>
+          <td>2011.03.23</td>
+          <td class="icon"><img src="img/icon_whats_01.gif" alt="更新" title="更新" width="27" height="13" /></td>
+          <td><a href="ir/lib/pdf/H23/230323.pdf" target="_blank">東北関東大震災への支援について</a>を掲載しました。</td>
+        </tr>
+        <tr>
+          <td>2011.03.14</td>
+          <td class="icon"><img src="img/icon_whats_01.gif" alt="更新" title="更新" width="27" height="13" /></td>
+          <td><a href="ir/lib/pdf/H23/230314.pdf" target="_blank">東北地方太平洋沖地震の影響について</a>を掲載しました。</td>
+        </tr>
+        <tr>
+          <td>2011.03.09</td>
+          <td class="icon"><img src="img/icon_whats_02.gif" alt="IR" title="IR" width="27" height="13" /></td>
+          <td><a href="ir/lib/pdf/2212ana.pdf" target="_blank">平成22年12月期アナリスト説明会資料</a>を掲載しました。</td>
+        </tr>
+        <tr>
+          <td>2011.03.09</td>
+          <td class="icon"><img src="img/icon_whats_02.gif" alt="IR" title="IR" width="27" height="13" /></td>
+          <td><a href="ir/lib/pdf/sho1103.pdf" target="_blank">第149期定時株主総会招集ご通知</a>を掲載しました。</td>
+        </tr>
+          <tr>
+            <td>2011.03.04</td>
+            <td class="icon"><img src="img/icon_whats_01.gif" alt="更新" title="更新" width="27" height="13" /></td>
+            <td><a href="recruit/index5.html">平成24年3月卒業見込みの大学生、大学院生を対象とした会社説明会の受付を開始しました。</a></td>
+          </tr>
+        <tr>
+          <td>2011.02.15</td>
+          <td class="icon"><img src="img/icon_whats_02.gif" alt="IR" title="IR" width="27" height="13" /></td>
+          <td><a href="ir/lib/pdf/H23/230215_2.pdf" target="_blank">組織変更および人事異動に関するお知らせ</a>を掲載しました。</td>
+        </tr>
+        <tr>
+          <td>2011.02.15</td>
+          <td class="icon"><img src="img/icon_whats_02.gif" alt="IR" title="IR" width="27" height="13" /></td>
+          <td><a href="ir/lib/pdf/ren1012.pdf" target="_blank">平成22年12月期決算短信</a>および<a href="ir/lib/pdf/H23/230215_1.pdf" target="_blank">剰余金の配当に関するお知らせ</a>を掲載しました。</td>
+        </tr>
+        <tr>
+          <td>2011.01.31</td>
+          <td class="icon"><img src="img/icon_whats_02.gif" alt="IR" title="IR" width="27" height="13" /></td>
+          <td><a href="ir/kou/20110131.pdf" target="_blank">合併公告</a>を掲載しました。</td>
+        </tr>
+        <tr>
+          <td>2011.01.28</td>
+          <td class="icon"><img src="img/icon_whats_01.gif" alt="更新" title="IR" width="27" height="13" /></td>
+          <td>ヨウ素・かん水事業<a href="biz/index3_2.html">「製品紹介」ページ</a>を掲載しました。</td>
+        </tr>
+        <tr>
+          <td>2010.11.15</td>
+          <td class="icon"><img src="img/icon_whats_02.gif" alt="IR" title="IR" width="27" height="13" /></td>
+          <td><a href="ir/lib/pdf/H22/20101115.pdf" target="_blank">第149期第３四半期報告書</a>を掲載しました。</td>
+        </tr>
+        <tr>
+          <td>2010.11.11</td>
+          <td class="icon"><img src="img/icon_whats_02.gif" alt="IR" title="IR" width="27" height="13" /></td>
+          <td><a href="ir/lib/pdf/ren1009.pdf" target="_blank">平成22年12月期第３四半期決算短信</a>を掲載しました。</td>
+        </tr>
+        <tr>
+          <td>2010.10.27</td>
+          <td class="icon"><img src="img/icon_whats_02.gif" alt="IR" title="IR" width="27" height="13" /></td>
+          <td><a href="ir/lib/pdf/H22/221027.pdf" target="_blank">子会社の吸収合併（簡易合併・略式合併）に関するお知らせ</a>を掲載しました。</td>
+        </tr>
+        <tr>
+          <td>2011.03.04</td>
+          <td class="icon"><img src="img/icon_whats_01.gif" alt="更新" title="IR" width="27" height="13" /></td>
+          <td><a href="http://www.cphijapan.com/" target="_blank">「第10回 国際医薬品原料・中間体展」へヨウ素学会として出展します。</a>（主催者サイトへリンク）</td>
+        </tr>
+        <tr>
+          <td>2010.09.03</td>
+          <td class="icon"><img src="img/icon_whats_01.gif" alt="更新" title="更新" width="27" height="13" /></td>
+          <td><a href="ir/index3.html">株式情報</a>を更新しました。</td>
+        </tr>
+        <tr>
+          <td>2010.09.03</td>
+          <td class="icon"><img src="img/icon_whats_02.gif" alt="IR" title="IR" width="27" height="13" /></td>
+          <td><a href="ir/lib/pdf/hou2206.pdf" target="_blank">第149期中間報告書</a>および<a href="ir/lib/pdf/2206ana.pdf" target="_blank">平成22年12月期第２四半期アナリスト説明会資料</a>を掲載しました。</td>
+        </tr>
+        <tr>
+          <td>2010.08.13</td>
+          <td class="icon"><img src="img/icon_whats_02.gif" alt="IR" title="IR" width="27" height="13" /></td>
+          <td><a href="ir/lib/pdf/H22/20100813.pdf" target="_blank">第149期第２四半期報告書</a>を掲載しました。</td>
+        </tr>
+        <tr>
+          <td>2010.08.12</td>
+          <td class="icon"><img src="img/icon_whats_02.gif" alt="IR" title="IR" width="27" height="13" /></td>
+          <td><a href="ir/lib/pdf/ren1006.pdf" target="_blank">平成22年12月期第２四半期決算短信</a>および<a href="ir/lib/pdf/H22/220812.pdf" target="_blank">業績予想との差異に関するお知らせ</a>を掲載しました。</td>
+        </tr>
+        <tr>
+          <td>2010.08.02</td>
+          <td class="icon"><img src="img/icon_whats_02.gif" alt="IR" title="IR" width="27" height="13" /></td>
+          <td><a href="ir/lib/pdf/H22/220802.pdf" target="_blank">業績予想の修正に関するお知らせ</a>を掲載しました。</td>
+        </tr>
+        <tr>
+          <td>2010.05.14</td>
+          <td class="icon"><img src="img/icon_whats_02.gif" alt="IR" title="IR" width="27" height="13" /></td>
+          <td><a href="ir/lib/pdf/H22/20100514.pdf" target="_blank">第149期第１四半期報告書</a>および<a href="ir/lib/pdf/H22/220514.pdf" target="_blank">自己株式立会外買付取引（ToSTNeT-3）による自己株式の取得結果および自己株式取得終了に関するお知らせ</a>を掲載しました。</td>
+        </tr>
+        <tr>
+          <td>2010.05.13</td>
+          <td class="icon"><img src="img/icon_whats_02.gif" alt="IR" title="IR" width="27" height="13" /></td>
+          <td><a href="ir/lib/pdf/ren1003.pdf" target="_blank">平成22年12月期第１四半期決算短信</a>および<a href="ir/lib/pdf/H22/220513.pdf" target="_blank">自己株式の取得及び自己株式立会外買付取引（ToSTNeT-3）による自己株式の買付けに関するお知らせ</a>を掲載しました。</td>
+        </tr>
+        <tr>
+          <td>2010.04.26</td>
+          <td class="icon"><img src="img/icon_whats_02.gif" alt="IR" title="IR" width="27" height="13" /></td>
+          <td><a href="ir/lib/pdf/H22/220426.pdf" target="_blank">ストックオプション（新株予約権）の発行内容確定に関するお知らせ</a>を掲載しました。</td>
+        </tr>
+        <tr>
+          <td>2010.03.29</td>
+          <td class="icon"><img src="img/icon_whats_01.gif" alt="更新" title="更新" width="27" height="13" /></td>
+          <td><a href="ir/highlight/index.html">決算ハイライト</a>および<a href="ir/index3.html">株式情報</a>を更新しました。</td>
+        </tr>
+        <tr>
+          <td>2010.03.29</td>
+          <td class="icon"><img src="img/icon_whats_02.gif" alt="IR" title="IR" width="27" height="13" /></td>
+          <td><a href="ir/lib/pdf/H22/20100329.pdf" target="_blank">第148期有価証券報告書</a>および<a href="ir/lib/pdf/2112ana.pdf" target="_blank">平成21年12月期アナリスト説明会資料</a>を掲載しました。</td>
+        </tr>
+        <tr>
+          <td>2010.03.26</td>
+          <td class="icon"><img src="img/icon_whats_02.gif" alt="IR" title="IR" width="27" height="13" /></td>
+          <td><a href="ir/lib/pdf/H22/220329.pdf" target="_blank">ストックオプション（新株予約権）の発行に関するお知らせ</a>を掲載しました。</td>
+        </tr>
+        <tr>
+          <td>2010.03.26</td>
+          <td class="icon"><img src="img/icon_whats_02.gif" alt="IR" title="IR" width="27" height="13" /></td>
+          <td><a href="ir/lib/pdf/ke1003.pdf" target="_blank">第148期定時株主総会決議ご通知</a>および<a href="ir/lib/pdf/hou2112.pdf" target="_blank">第148期報告書</a>を掲載しました。</td>
+        </tr>
+        <tr>
+          <td>2010.03.08</td>
+          <td class="icon"><img src="img/icon_whats_03.gif" alt="CSR" title="CSR" width="27" height="13" /></td>
+          <td><a href="csr/pdf/20100308.pdf" target="_blank">「ゆめ半島千葉国体」および「ゆめ半島千葉大会」の開催地市町への協賛について</a>を掲載しました。</td>
+          </tr>
+        <tr>
+          <td>2010.03.05</td>
+          <td class="icon"><img src="img/icon_whats_02.gif" alt="IR" title="IR" width="27" height="13" /></td>
+          <td><a href="ir/lib/pdf/sho1003.pdf" target="_blank">第148期定時株主総会招集ご通知</a>を掲載しました。</td>
+          </tr>
+        <tr>
+          <td>2010.02.23</td>
+          <td class="icon"><img src="img/icon_whats_01.gif" alt="更新" title="更新" width="27" height="13" /></td>
+          <td><a href="recruit/index5.html">平成23年3月卒業見込みの大学生、大学院生を対象とした会社説明会の受付を開始しました。</a></td>
+          </tr>
+        <tr>
+          <td>2010.02.15</td>
+          <td class="icon"><img src="img/icon_whats_02.gif" alt="IR" title="IR" width="27" height="13" /></td>
+          <td><a href="ir/lib/pdf/ren0912.pdf" target="_blank">平成21年12月期決算短信</a>および<a href="ir/lib/pdf/H22/220215.pdf" target="_blank">業績予想との差異に関するお知らせ</a>を掲載しました。</td>
+          </tr>
+        <tr>
+          <td>2010.01.08</td>
+          <td class="icon"><img src="img/icon_whats_02.gif" alt="IR" title="IR" width="27" height="13" /></td>
+          <td><a href="ir/lib/pdf/H22/220108.pdf" target="_blank">平成21年12月期第4四半期の有価証券評価損に関するお知らせ</a>を掲載しました。</td>
+          </tr>
+        <tr>
+          <td>2009.12.29</td>
+          <td class="icon"><img src="img/icon_whats_01.gif" alt="更新" title="更新" width="27" height="13" /></td>
+          <td>ホームページをリニューアルしました。</td>
+          </tr>
+        <tr>
+          <td>2010.04.08</td>
+          <td class="icon"><img src="img/icon_whats_02.gif" alt="IR" title="IR" width="27" height="13" /></td>
+          <td><a href="ir/kou/20100408.pdf" target="_blank">新株予約権発行に関する取締役会決議公告</a>を掲載しました。</td>
+        </tr>
+        <tr>
+          <td>2009.11.12</td>
+          <td class="icon"><img src="img/icon_whats_02.gif" alt="IR" title="IR" width="27" height="13" /></td>
+          <td><a href="ir/lib/pdf/ren0909.pdf" target="_blank">平成21年12月期第3四半期決算短信</a>を掲載しました。</td>
+          </tr>
+          -->
+					</table>
+					<!-- END "newsArea" --> 
+				</div>
+				<div id="sideArea">
+					<img src="img/title_pickup.gif" width="74" height="16" alt="Pick Up" title="Pickup" />
+					<div id="bgpickup">
+						<ul>
+							<li><a href="biz/"><img src="img/btn_biz.png" width="262" height="45" alt="事業内容" title="事業内容" /></a></li>
+							<li><a href="ir/"><img src="img/btn_ir.png" width="262" height="45" alt="IR情報" title="IR情報" /></a></li>
+							<li><a href="csr/"><img src="img/btn_csr.png" width="262" height="45" alt="CSR情報" title="CSR情報" /></a></li>
+						</ul>
+					
+					<!-- END "bgpickup" --> 
+				  </div>
+					<div id="bannerlist">
+						<ul>
+							<li><a href="kansui/index.html"><img src="img/btn_kansui.png" alt="かん水フルボ酸" title="かん水フルボ酸" width="284" height="74" /></a></li>
+                            <li><a href="http://www.kantei.go.jp/jp/headline/seichosenryaku/"><img src="img/btn_yawaraka.jpg" alt="やわらか成長戦略。" title="やわらか成長戦略。"  /></a></li>
+                            
+						</ul>
+					<!-- END "bannerlist" --> 
+					</div>
+				<!-- END "sideArea" -->
+				</div>
+			<!-- END "contents" -->
+			</div>
+		<!-- END "main" -->
+		</div>
+		
+		<div id="pagetop">
+			<a href="#top">ページトップへ</a>
+		<!-- END "pagetop" --> 
+		</div>
+	<!-- END "wrap" --></div><!-- #BeginLibraryItem "/Library/links.lbi" --><div id="links" class="clearfix">
+	<div id="inlinks">
+		<div id="home"><a href="/">HOME</a></div>
+		<ul>
+			<li>
+				<dl>
+					<dt><a href="/corporate/">会社情報</a></dt>
+					<dd><a href="/corporate/">ご挨拶</a></dd>
+					<dd><a href="/corporate/index2.html">経営理念・経営方針</a></dd>
+					<dd><a href="/corporate/index3.html">会社概要</a></dd>
+					<dd><a href="/corporate/index4.html">役員・組織図</a></dd>
+					<dd><a href="/corporate/governance/index.html">コーポレート・ガバナンス</a></dd>
+					<dd><a href="/corporate/history/index.html">会社の歴史</a></dd>
+					<dd><a href="/corporate/index7.html">グループ会社</a></dd>
+				</dl>
+			</li>
+			<li>
+				<dl>
+					<dt><a href="/biz/">事業内容</a></dt>
+					<dd><a href="/biz/index2.html">ガス事業</a></dd>
+					<dd><a href="/biz/index3.html">ヨウ素・かん水事業</a></dd>
+				</dl>
+			</li>
+			<li>
+				<dl>
+					<dt><a href="/ir/">IR情報</a></dt>
+					<dd><a href="/ir/index2.html">経営戦略・ビジョン</a></dd>
+					<dd><a href="/ir/lib/index.html">IRライブラリ</a></dd>
+					<dd><a href="/ir/highlight/index.html">決算ハイライト</a></dd>
+					<dd><a href="/ir/index3.html">株式情報</a></dd>
+					<dd><a href="/ir/index5.html">IRカレンダー</a></dd>
+					<dd><a href="/ir/index9.html">掲載情報に関する注意事項</a></dd>
+					<dd><a href="/ir/index10.html">電子公告</a></dd>
+				</dl>
+			</li>
+			<li>
+				<dl>
+					<dt><a href="/csr/">CSR情報</a></dt>
+					<dd><a href="/csr/index2.html">CSRに対する基本的考え方</a></dd>
+					<dd><a href="/csr/index3.html">環境方針マネジメントシステム</a></dd>
+					<dd><a href="/csr/index4.html">環境に配慮した開発への取り組み</a></dd>
+					<dd><a href="/csr/index5.html">地域社会とともに</a></dd>
+					<dd><a href="/csr/index6.html">次世代育成支援活動 <br />
+					施設見学の実施</a></dd>
+					<dd><a href="/csr/index7.html">CSR報告書</a></dd>
+				</dl>
+			</li>
+		</ul>
+		<!-- END "inlinks" --> 
+	</div>
+<!-- END "links" --></div><!-- #EndLibraryItem --><!-- #BeginLibraryItem "/Library/footer.lbi" --><div id="footer" class="clearfix">
+	<div id="infooter">
+		<div id="address"><img src="common/copyright2.gif" alt="Copyright (C) Kanto Natural Gas Development Co. Ltd. All Rights Reserved." title="Copyright (C) Kanto Natural Gas Development Co. Ltd. All Rights Reserved." width="320" height="10" /></div>
+		<ul>
+			<li id="privacy"><a href="policy">サイトポリシー</a></li>
+			<li id="policy"><a href="privacy">プライバシーポリシー</a></li>
+		</ul>
+		<!-- END "infooter" --> 
+	</div>
+	<!-- END "footer" --></div><!-- #EndLibraryItem --><div id="ajax_dammy"></div>
+<script type="text/javascript"
+src="http://www.e-target.jp/sys/access/get_script.php?a=8040519"></script> 
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : 
+"http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost +
+"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script> 
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-10818098-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>

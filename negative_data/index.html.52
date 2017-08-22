@@ -1,0 +1,749 @@
+<?xml version="1.0" encoding="shift_jis"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja-JP" xml:lang="ja-JP">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=shift_jis" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta name="keywords" content="気泡コンクリート,エアモルタル,エアミルク,軽量土,気泡混合軽量土,管路中詰,空洞充填,裏込め,長距離圧送,ＦＣＢ,ＦＣＢ工法,エアパック,残存型枠,ＦＲＰ型枠,深層混合処理 ">
+<meta name="description" content="コア・プロダクト「エアモルタル」を中心に培われた技術・製品・開発力で多様なニーズにお応えし、より豊かな社会基盤づくりに貢献しております。">
+<script type="text/javascript" src="js/fontsize.js">
+</script>
+<title>
+麻生フォームクリート
+</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="container">
+	<div id="header">
+		<h1>エアモルタルのパイオニア　麻生フォームクリート</h1>
+		<div id="head_left">
+			<a href="index.html"><img src="images/aso_logo.png" alt="麻生フォームクリート" /></a>
+		</div>
+		<div id="head_center">
+			<a href="sitemap.html" onfocus="this.blur()"><img src="images/menu_sitemap.png" alt="サイトマップ" class="head_menu" /></a>
+			<a href="english/index.html" onfocus="this.blur()"><img style="padding-bottom:2px" style="padding-bottom:2px" src="images/menu_english.png" alt="english" class="head_menu" /></a>
+			<img style="padding-left:10px" src="images/font.png" alt="文字サイズ" id="head_menu" />
+			<!-- -->
+			<a href="javascript:;" onfocus="this.blur()"><img src="images/font_b.png" alt="大" onclick="large()" onkeypress="return true" class="font" /></a>
+			<a href="javascript:;" onfocus="this.blur()"><img src="images/font_m.png" alt="中" onclick="middle()" onkeypress="return true" class="font" /></a>
+			<a href="javascript:;" onfocus="this.blur()"><img src="images/font_s.png" alt="小" onclick="small()" onkeypress="return true" class="font" /></a>
+		</div>
+		<div id="head_right">
+			<a href="http://www.aso-group.jp/" target="blank"><img src="images/asogrdroup_logo.png" alt="麻生グループ" /></a>
+		</div>
+	</div>
+	<!--header-->
+	<div id="menu">
+		<ul>
+		<li><a href="index.html"><img src="images/btn_home.png" alt="HOME" onmouseover="this.src='images/btn_home_o.png '" onmouseout="this.src='images/btn_home.png'" /></a></li>
+		<li><a href="company"><img src="images/btn_company.png" alt="会社情報" onmouseover="this.src='images/btn_company_o.png'" onmouseout="this.src='images/btn_company.png'" /></a></li>
+		<li><a href="jigyou"><img src="images/btn_business.png" alt="事業紹介" onmouseover="this.src='images/btn_business_o.png'" onmouseout="this.src='images/btn_business.png'" /></a></li>
+		<li><a href="ir"><img src="images/btn_ir.png" alt="IR情報" onmouseover="this.src='images/btn_ir_o.png'" onmouseout="this.src='images/btn_ir.png'" /></a></li>
+		<li id="menu_right">
+		<a href="contact/form.php"><img src="images/btn_contact.png" alt="お問合せ" onmouseover="this.src='images/btn_contact_o.png'" onmouseout="this.src='images/btn_contact.png'" /></a></li>
+		</ul>
+		</div>
+		<!--menu-->
+		<div id="contents">
+		<!--<img src="images/top.png" alt="トップ" />-->
+		<embed align="center" height="250" width="850"flashvars="language=jp" wmode="opaque" menu="false" loop="true" allowscriptaccess="always" bgcolor="#ffffff" name="flash" style="" src="images/aso_top.swf" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+		<div id="index_left">
+		<img src="images/title_oshirase.png" alt="お知らせ" class="title" usemap="#newsre" />
+		<map name="newsre">
+			<area href="company/news.html" shape="rect" coords="477,5,601,23" />
+		</map>
+		<div id="frame">
+			<ul>
+				<li class="news_day">2017年08月03日</li>
+				<li class="news_title_green"><img style="padding-bottom:7px" src="images/btn_news_ir.png" /></li>
+				<li class="news_txt"><a href="ir">平成30年3月期 第1四半期決算短信[日本基準](非連結)</a></li>
+			</ul>
+			<ul>
+				<li class="news_day">2017年06月28日</li>
+				<li class="news_title_green"><img style="padding-bottom:7px" src="images/btn_news_oshirase.png" /></li>
+				<li class="news_txt"><a href="ir/index.html">第56期定時株主総会決議のご通知</a></li>
+			</ul>
+			<ul>
+				<li class="news_day">2017年06月08日</li>
+				<li class="news_title_green"><img style="padding-bottom:7px" src="images/btn_news_oshirase.png" /></li>
+				<li class="news_txt"><a href="ir/index.html">第56期定時株主総会招集のご通知</a></li>
+			</ul>
+			<ul>
+				<li class="news_day">2017年05月12日</li>
+				<li class="news_title_green"><img style="padding-bottom:7px" src="images/btn_news_ir.png" /></li>
+				<li class="news_txt"><a href="ir">平成29年3月期 決算短信[日本基準](非連結)</a></li>
+			</ul>
+			<ul>
+				<li class="news_day">2017年02月20日</li>
+				<li class="news_title_green"><img style="padding-bottom:7px" src="images/btn_news_oshirase.png" /></li>
+				<li class="news_txt"><a href="./company/recruit.html" target="_blank">採用情報を更新いたしました</a></li>
+			</ul>
+			<ul>
+				<li class="news_day">2017年02月09日</li>
+				<li class="news_title_green"><img style="padding-bottom:7px" src="images/btn_news_oshirase.png" /></li>
+				<li class="news_txt"><a href="ir">代表取締役の異動に関するお知らせ</a></li>
+			</ul>
+			<ul>
+				<li class="news_day">2017年02月03日</li>
+				<li class="news_title_green"><img style="padding-bottom:7px" src="images/btn_news_ir.png" /></li>
+				<li class="news_txt"><a href="ir">平成29年3月期 第3四半期決算短信[日本基準](非連結)</a></li>
+			</ul>
+			<ul>
+				<li class="news_day">2016年11月04日</li>
+				<li class="news_title_green"><img style="padding-bottom:7px" src="images/btn_news_ir.png" /></li>
+				<li class="news_txt"><a href="ir">平成29年3月期 第2四半期決算短信[日本基準](非連結)</a></li>
+			</ul>
+			<ul>
+				<li class="news_day">2016年08月10日</li>
+				<li class="news_title_green"><img style="padding-bottom:7px" src="images/btn_news_ir.png" /></li>
+				<li class="news_txt"><a href="ir">「平成29年３月期第１四半期決算短信〔日本基準〕（非連結）」の一部訂正について</a></li>
+			</ul>
+			<ul>
+				<li class="news_day">2016年08月03日</li>
+				<li class="news_title_green"><img style="padding-bottom:7px" src="images/btn_news_ir.png" /></li>
+				<li class="news_txt"><a href="ir">平成29年3月期 第1四半期決算短信[日本基準](非連結)</a></li>
+			</ul>
+			<ul>
+				<li class="news_day">2016年06月28日</li>
+				<li class="news_title_green"><img style="padding-bottom:7px" src="images/btn_news_oshirase.png" /></li>
+				<li class="news_txt"><a href="ir/index.html">第55期定時株主総会決議のご通知</a></li>
+			</ul>
+			<ul>
+				<li class="news_day">2016年06月10日</li>
+				<li class="news_title_green"><img style="padding-bottom:7px" src="images/btn_news_oshirase.png" /></li>
+				<li class="news_txt"><a href="ir/index.html">「第55期定時株主総会招集ご通知」の一部修正について</a></li>
+			</ul>
+			<ul>
+				<li class="news_day">2016年06月09日</li>
+				<li class="news_title_green"><img style="padding-bottom:7px" src="images/btn_news_oshirase.png" /></li>
+				<li class="news_txt"><a href="ir/index.html">第55期定時株主総会招集のご通知</a></li>
+			</ul>
+			<ul>
+				<li class="news_day">2016年05月13日</li>
+				<li class="news_title_green"><img style="padding-bottom:7px" src="images/btn_news_ir.png" /></li>
+				<li class="news_txt"><a href="ir">平成28年3月期 決算短信[日本基準](非連結)</a></li>
+			</ul>
+			<ul>
+				<li class="news_day">2016年02月05日</li>
+				<li class="news_title_green"><img style="padding-bottom:7px" src="images/btn_news_ir.png" /></li>
+				<li class="news_txt"><a href="ir">平成28年3月期 第3四半期決算短信[日本基準](非連結)</a></li>
+			</ul>
+			<ul>
+				<li class="news_day">2015年11月06日</li>
+				<li class="news_title_green"><img style="padding-bottom:7px" src="images/btn_news_ir.png" /></li>
+				<li class="news_txt"><a href="ir">平成28年3月期 第2四半期決算短信[日本基準](非連結)</a></li>
+			</ul>
+			<ul>
+				<li class="news_day">2015年08月03日</li>
+				<li class="news_title_green"><img style="padding-bottom:7px" src="images/btn_news_ir.png" /></li>
+				<li class="news_txt"><a href="ir">平成28年3月期 第1四半期決算短信[日本基準](非連結)</a></li>
+			</ul>
+			<ul>
+				<li class="news_day">2015年06月25日</li>
+				<li class="news_title_green"><img style="padding-bottom:7px" src="images/btn_news_oshirase.png" /></li>
+				<li class="news_txt"><a href="ir/index.html">第54期定時株主総会決議のご通知</a></li>
+			</ul>
+			<ul>
+				<li class="news_day">2015年06月10日</li>
+				<li class="news_title_green"><img style="padding-bottom:7px" src="images/btn_news_oshirase.png" /></li>
+				<li class="news_txt"><a href="ir/index.html">「第54期定時株主総会招集ご通知」の一部修正について</a></li>
+			</ul>
+			<ul>
+				<li class="news_day">2015年06月10日</li>
+				<li class="news_title_green"><img style="padding-bottom:7px" src="images/btn_news_oshirase.png" /></li>
+				<li class="news_txt"><a href="ir/index.html">第54期定時株主総会招集のご通知</a></li>
+			</ul>
+			<ul>
+				<li class="news_day">2015年05月15日</li>
+				<li class="news_title_green"><img style="padding-bottom:7px" src="images/btn_news_ir.png" /></li>
+				<li class="news_txt"><a href="ir">平成27年3月期 決算短信[日本基準](非連結)</a></li>
+			</ul>
+			<ul>
+				<li class="news_day">2015年02月06日</li>
+				<li class="news_title_green"><img style="padding-bottom:7px" src="images/btn_news_ir.png" /></li>
+				<li class="news_txt"><a href="ir">平成27年3月期 第3四半期決算短信[日本基準](非連結)</a></li>
+			</ul>
+			<ul>
+				<li class="news_day">2014年11月05日</li>
+				<li class="news_title_green"><img style="padding-bottom:7px" src="images/btn_news_ir.png" /></li>
+				<li class="news_txt"><a href="ir">平成27年3月期 第2四半期決算短信[日本基準](非連結)</a></li>
+			</ul>
+			<ul>
+				<li class="news_day">2014年08月01日</li>
+				<li class="news_title_green"><img style="padding-bottom:7px" src="images/btn_news_ir.png" /></li>
+				<li class="news_txt"><a href="ir">平成27年3月期 第1四半期決算短信[日本基準](非連結)</a></li>
+			</ul>
+			<ul>
+				<li class="news_day">2014年06月26日</li>
+				<li class="news_title_green"><img style="padding-bottom:7px" src="images/btn_news_oshirase.png" /></li>
+				<li class="news_txt"><a href="ir/index.html">第53期定時株主総会決議のご通知</a></li>
+			</ul>
+			<ul>
+				<li class="news_day">2014年06月11日</li>
+				<li class="news_title_green"><img style="padding-bottom:7px" src="images/btn_news_oshirase.png" /></li>
+				<li class="news_txt"><a href="ir/index.html">第53期定時株主総会招集のご通知</a></li>
+			</ul>
+			<ul>
+				<li class="news_day">2014年06月10日</li>
+				<li class="news_title_green"><img style="padding-bottom:7px" src="images/btn_news_oshirase.png" /></li>
+				<li class="news_txt"><a href="../announcement/140610.html" target="_blank">「重要なお知らせ」を掲載いたしました。</a></li>
+			</ul>
+			<ul>
+				<li class="news_day">2014年05月15日</li>
+				<li class="news_title_green"><img style="padding-bottom:7px" src="images/btn_news_ir.png" /></li>
+				<li class="news_txt"><a href="ir">平成26年3月期 決算短信[日本基準](非連結)</a></li>
+			</ul>
+			<ul>
+				<li class="news_day">2014年02月07日</li>
+				<li class="news_title_green"><img style="padding-bottom:7px" src="images/btn_news_ir.png" /></li>
+				<li class="news_txt"><a href="ir">平成26年3月期 第3四半期決算短信[日本基準](非連結)</a></li>
+			</ul>
+			<ul>
+				<li class="news_day">2013年11月06日</li>
+				<li class="news_title_green"><img style="padding-bottom:7px" src="images/btn_news_ir.png" /></li>
+				<li class="news_txt"><a href="ir">平成26年3月期 第2四半期決算短信[日本基準](非連結)</a></li>
+			</ul>
+			<ul>
+				<li class="news_day">2013年09月27日</li>
+				<li class="news_title_green"><img style="padding-bottom:7px" src="images/btn_news_oshirase.png" /></li>
+				<li class="news_txt"><a href="http://shachomeikan.jp/companies/view_president/21306" target="_blank">企業紹介サイト社長名鑑で河村社長のインタビュー動画が公開されました。</a></li>
+			</ul>
+			<ul>
+				<li class="news_day">2013年08月02日</li>
+				<li class="news_title_green"><img style="padding-bottom:7px" src="images/btn_news_ir.png" /></li>
+				<li class="news_txt"><a href="ir">平成26年3月期 第1四半期決算短信[日本基準](非連結)</a></li>
+			</ul>
+							<ul>
+							<li class="news_day">
+							2013年07月13日
+							</li>
+							<li class="news_title_green">
+							<img style="padding-bottom:7px" src="images/btn_news_ir.png" />
+							</li>
+							<li class="news_txt">
+							<a href="http://www.kabunushitecho.co.jp/event/" target="_blank">
+							個人投資家向けの会社説明会を開催します。
+							</a>
+							</li>
+							</ul>
+							<ul>
+							<li class="news_day">
+							2013年06月26日
+							</li>
+							<li class="news_title_green">
+							<img style="padding-bottom:7px" src="images/btn_news_oshirase.png" />
+							</li>
+							<li class="news_txt">
+							<a href="ir/index.html">
+							第52期定時株主総会決議のご通知
+							</a>
+							</li>
+							</ul>
+							<ul>
+							<li class="news_day">
+							2013年06月12日
+							</li>
+							<li class="news_title_green">
+							<img style="padding-bottom:7px" src="images/btn_news_oshirase.png" />
+							</li>
+							<li class="news_txt">
+							<a href="ir/index.html">
+							第52期定時株主総会招集のご通知
+							</a>
+							</li>
+							</ul>
+							<ul>
+							<li class="news_day">
+							2013年05月15日
+							</li>
+							<li class="news_title_green">
+							<img style="padding-bottom:7px" src="images/btn_news_ir.png" />
+							</li>
+							<li class="news_txt">
+							<a href="ir">
+							平成25年3月期 決算短信[日本基準](非連結)
+							</a>
+							</li>
+							</ul>
+							<ul>
+							<li class="news_day">
+							2013年02月16日
+							</li>
+							<li class="news_title_green">
+							<img style="padding-bottom:7px" src="images/btn_news_ir.png" />
+							</li>
+							<li class="news_txt">
+							<a href="ir">
+							平成25年3月期 第3四半期決算短信[日本基準](非連結) 
+							</a>
+							</li>
+							</ul>
+							<ul>
+							<li class="news_day">
+							2012年11月02日
+							</li>
+							<li class="news_title_green">
+							<img style="padding-bottom:7px" src="images/btn_news_ir.png" />
+							</li>
+							<li class="news_txt">
+							<a href="ir">
+							平成25年3月期 第2四半期決算短信[日本基準](非連結) 
+							</a>
+							</li>
+							</ul>
+							<ul>
+							<li class="news_day">
+							2012年10月20日
+							</li>
+							<li class="news_title_green">
+							<img style="padding-bottom:7px" src="images/btn_news_oshirase.png" />
+							</li>
+							<li class="news_txt">
+							<a href="company/news.html">
+							EE東北'12に出展いたします。
+									</a>
+									</li>
+								</ul>
+								<ul>
+									<li class="news_day">
+									2012年08月03日
+									</li>
+									<li class="news_title_green">
+									<img style="padding-bottom:7px" src="images/btn_news_ir.png" />
+									</li>
+									<li class="news_txt">
+									<a href="ir">
+									平成25年3月期 第1四半期決算短信[日本基準](非連結) 
+									</a>
+									</li>
+								</ul>
+								<ul>
+									<li class="news_day">
+									2012年06月27日
+									</li>
+									<li class="news_title_green">
+									<img style="padding-bottom:7px" src="images/btn_news_oshirase.png" />
+									</li>
+									<li class="news_txt">
+									<a href="ir/">
+									第51期定時株主総会決議のご通知
+									</a>
+									</li>
+								</ul>
+								<ul>
+									<li class="news_day">
+									2012年06月15日
+									</li>
+									<li class="news_title_green">
+									<img style="padding-bottom:7px" src="images/btn_news_oshirase.png" />
+									</li>
+									<li class="news_txt">
+									<a href="ir/">
+									第51期定時株主総会招集のご通知
+									</a>
+									</li>
+								</ul>
+								<ul>
+									<li class="news_day">
+									2012年05月15日
+									</li>
+									<li class="news_title_green">
+									<img style="padding-bottom:7px" src="images/btn_news_ir.png" />
+									</li>
+									<li class="news_txt">
+									<a href="ir">
+									平成24年3月期 決算短信[日本基準](非連結) 
+									</a>
+									</li>
+								</ul>
+								<ul>
+									<li class="news_day">
+									2012年04月13日
+									</li>
+									<li class="news_title_green">
+									<img style="padding-bottom:7px" src="images/btn_news_topics.png" />
+									</li>
+									<li class="news_txt">
+									<a href="company/news.html">
+アスコラム工法の建築技術性能証明を取得しました。 
+									</a>
+									</li>
+								</ul>
+								<ul>
+									<li class="news_day">
+									2012年02月07日
+									</li>
+									<li class="news_title_green">
+									<img style="padding-bottom:7px" src="images/btn_news_ir.png" />
+									</li>
+									<li class="news_txt">
+									<a href="ir">
+									平成24年3月期 第3四半期決算短信[日本基準](非連結) 
+									</a>
+									</li>
+								</ul>
+								<ul>
+									<li class="news_day">
+									2011年12月12日
+									</li>
+									<li class="news_title_green">
+									<img style="padding-bottom:7px" src="images/btn_news_oshirase.png" />
+									</li>
+									<li class="news_txt">
+									<a href="company/news.html">
+東北営業所を開設いたしました。
+									</a>
+									</li>
+								</ul>
+								<ul>
+									<li class="news_day">
+									2011年11月07日
+									</li>
+									<li class="news_title_green">
+									<img style="padding-bottom:7px" src="images/btn_news_ir.png" />
+									</li>
+									<li class="news_txt">
+									<a href="ir">
+									平成24年3月期 第2四半期決算短信[日本基準](非連結) 
+									</a>
+									</li>
+								</ul>
+								<ul>
+									<li class="news_day">
+									2011年08月12日
+									</li>
+									<li class="news_title_green">
+									<img style="padding-bottom:7px" src="images/btn_news_ir.png" />
+									</li>
+									<li class="news_txt">
+									<a href="ir">
+									平成24年3月期 第1四半期決算短信[日本基準](非連結) 
+									</a>
+									</li>
+								</ul>
+								<ul>
+									<li class="news_day">
+									2011年07月06日
+									</li>
+									<li class="news_title_green">
+									<img style="padding-bottom:7px" src="images/btn_news_ir.png" />
+									</li>
+									<li class="news_txt">
+									<a href="ir">
+									個人投資家向けの会社説明会を開催します。
+									</a>
+									</li>
+								</ul>
+								<ul>
+									<li class="news_day">
+									2011年06月27日
+									</li>
+									<li class="news_title_green">
+									<img style="padding-bottom:7px" src="images/btn_news_oshirase.png" />
+									</li>
+									<li class="news_txt">
+									<a href="ir">
+第50期定時株主総会決議のご通知
+									</a>
+									</li>
+								</ul>
+								<ul>
+									<li class="news_day">2011年06月14日</li>
+									<li class="news_title_green"><img style="padding-bottom:7px" src="images/btn_news_oshirase.png" /></li>
+									<li class="news_txt"><a href="jigyou/index.html">液状化対策に最も柔軟に対応できるジオパスタ(GEOPASTA)工法を施工メニューに加えました。</a></li>
+								</ul>
+								<ul>
+									<li class="news_day">
+									2011年06月09日
+									</li>
+									<li class="news_title_green">
+									<img style="padding-bottom:7px" src="images/btn_news_oshirase.png" />
+									</li>
+									<li class="news_txt">
+									<a href="ir">
+第50期定時株主総会招集のご通知
+									</a>
+									</li>
+								</ul>
+								<ul>
+									<li class="news_day">
+									2011年05月13日
+									</li>
+									<li class="news_title_green">
+									<img style="padding-bottom:7px" src="images/btn_news_ir.png" />
+									</li>
+									<li class="news_txt">
+									<a href="ir">
+平成23年３月期決算短信［日本基準］(非連結)
+									</a>
+									</li>
+								</ul>
+								<ul>
+									<li class="news_day">
+									2011年05月13日
+									</li>
+									<li class="news_title_green">
+									<img style="padding-bottom:7px" src="images/btn_news_oshirase.png" />
+									</li>
+									<li class="news_txt">
+									<a href="company/news.html">
+東日本大震災の復旧・復興工事への対応について
+									</a>
+									</li>
+								</ul>
+								<ul>
+									<li class="news_day">
+									2011年03月16日
+									</li>
+									<li class="news_title_green">
+									<img style="padding-bottom:7px" src="images/btn_news_oshirase.png" />
+									</li>
+									<li class="news_txt">
+									<a href="company/news.html">
+東北地方太平洋沖地震への対応について。
+									</a>
+									</li>
+								</ul>
+								<ul>
+									<li class="news_day">
+									2011年02月08日
+									</li>
+									<li class="news_title_green">
+									<img style="padding-bottom:7px" src="images/btn_news_ir.png" />
+									</li>
+									<li class="news_txt">
+									<a href="ir">
+									平成23年3月期 第3四半期決算短信[日本基準](非連結) 
+									</a>
+									</li>
+								</ul>
+								<ul>
+									<li class="news_day">
+									2010年11月15日
+									</li>
+									<li class="news_title_green">
+									<img style="padding-bottom:7px" src="images/btn_news_ir.png" />
+									</li>
+									<li class="news_txt">
+									<a href="ir">
+									平成23年3月期 第2四半期決算短信[日本基準](非連結) 
+									</a>
+									</li>
+								</ul>
+								<ul>
+									<li class="news_day">
+									2010年10月01日
+									</li>
+									<li class="news_title_green">
+									<img style="padding-bottom:7px" src="images/btn_news_oshirase.png" />
+									</li>
+									<li class="news_txt">
+									名古屋営業所を大阪支店に統合いたしました。
+									</li>
+								</ul>
+								<ul>
+									<li class="news_day">
+									2010年09月01日
+									</li>
+									<li class="news_title_green">
+									<img style="padding-bottom:7px" src="images/btn_news_topics.png" />
+									</li>
+									<li class="news_txt">
+									<a href="http://www.jacicnet.jacic.or.jp/sinsa/shinsa10/index.html " target="_blank">
+									「平成22年度 建設技術審査証明　新技術展示会」に<br>拡縮コラム工法を出展します。
+									</a>
+									</li>
+								</ul>
+								<ul>
+									<li class="news_day">
+									2010年08月06日
+									</li>
+									<li class="news_title_green">
+									<img style="padding-bottom:7px" src="images/btn_news_ir.png" />
+									</li>
+									<li class="news_txt">
+									<a href="ir">
+									平成23年3月期第1四半期決算短信[日本基準](非連結)
+									</a>
+									</li>
+								</ul>
+								<ul>
+									<li class="news_day">
+									2010年07月06日
+									</li>
+									<li class="news_title_green">
+									<img style="padding-bottom:7px" src="images/btn_news_oshirase.png" />
+									</li>
+									<li class="news_txt">
+									ホームページをリニューアルいたしました。
+									</li>
+								</ul>
+								<ul>
+									<li class="news_day">
+									2010年07月06日
+									</li>
+									<li class="news_title_green">
+									<img style="padding-bottom:7px" src="images/btn_news_ir.png" />
+									</li>
+									<li class="news_txt">
+									<a href="ir">
+									個人投資家向けの会社説明会を開催します。
+									</a>
+									</li>
+								</ul>
+								<ul>
+									<li class="news_day">
+									2010年04月01日
+									</li>
+									<li class="news_title_green">
+									<img style="padding-bottom:7px" src="images/btn_news_release.png" />
+									</li>
+									<li class="news_txt">
+									<a href="jigyou/fcbsolusion.html">
+									設計グループを新設しました。
+									</a>
+									</li>
+								</ul>
+							</div>
+							<img src="images/stitle_pickup.png" class="stitle" alt="pickup" />
+		  <div id="pick_left">
+			<a href="jigyou/jiban/askoram_type.html">
+			  <img style="padding-top:10px" src="images/pickup1.png">
+			</a>
+			<a href="jigyou/kihou/nlg.html">
+			  <img style="padding-top:10px" src="images/pickup2S.png">
+			</a>
+<!--
+-->
+		  </div>
+							<div id="pick_right">
+								<a href="jigyou/">
+								<img src="images/business.png" alt="各種事業紹介" />
+								</a>
+								<div id="pick_bg">
+									<a href="jigyou/index.html">
+									<img src="images/pick_right1.png" alt="気泡コンクリート工事" class="pick_right_name" />
+									</a>
+									<a href="jigyou/index.html">
+									<img src="images/pick_right1img.png" alt="気泡コンクリート工事" />
+									</a>
+									<a href="jigyou/index.html#jiban">
+									<img src="images/pick_right2.png" alt="地盤改良工事" class="pick_right_name" />
+									</a>
+									<a href="jigyou/index.html#jiban">
+									<img src="images/pick_right2img.png" alt="地盤改良工事" />
+									</a>
+									<a href="jigyou/index.html#hosyu">
+									<img src="images/pick_right3.png" alt="補修工事" class="pick_right_name" />
+									</a>
+									<a href="jigyou/index.html#hosyu">
+									<img src="images/pick_right3img.png" alt="補修工事" />
+									</a>
+								</div>
+							</div>
+						</div>
+						<div id="index_right">
+							<ul>
+
+								<li>
+								<a href="ir/stakeholder.html">
+								<img src="images/irinfo.png" alt="投資家の皆様へ" />
+								</a>
+								</li>
+								<li>
+								<a href="company/recruit.html">
+								<img src="images/recruitment.png" alt="環境への取り組み" />
+								</a>
+								</li>
+								<li>
+								<a href="ir/denshi.html">
+								<img src="images/elecctric.png" alt="電子広告" />
+								</a>
+								</li>
+							</ul>
+						</div>
+						<ul>
+							<li>
+							<a href="jigyou/fcbsolusion.html">
+							<img src="images/btn_fcbsol.png" alt="AFCの設計ソリューション" />
+							</a>
+							</li>
+							<li>
+							<a href="jigyou/hosyutec.html">
+							<img src="images/btn_kozo.png" alt="AFCの構造物補修技術" />
+							</a>
+							</li>
+							<li>
+							<a href="jigyou/fcbjisseki.html">
+							<img src="images/btn_jisseki.png" alt="FCB施工実績" />
+							</a>
+							</li>
+						</ul>
+					</div>
+					<div id="index_right">
+						<ul>
+							<li>
+<script language="JavaScript" TYPE="text/javascript" src="https://trusted-web-seal.cybertrust.ne.jp/seal/getScript?host_name=www.asofoam.co.jp&type=2"></script> <br />このサイトは、サイバートラストの<br><a href="https://www.cybertrust.ne.jp/SureServer/" target="_blank">サーバ証明書</a>により実在性が認証さ<br>れています。<br>また、SSLページは通信が暗号化さ<br>れプライバシーが守られています。<br> 
+							検証結果をご確認いただけます。
+							<li>
+						</ul>
+					</div>
+					<!--contents-->
+					<div id="footer">
+						<div id="foot_menu">
+							<a href="index.html">
+							HOME
+							</a>
+							　l　
+							<a href="company">
+							会社情報
+							</a>
+							　l　
+							<a href="jigyou">
+							事業紹介
+							</a>
+							　l　
+							<a href="ir">
+							IR情報
+							</a>
+							　l　
+							<a href="contact/form.php">
+							お問合せ
+							</a>
+							　l　
+							<a href="sitemap.html">
+							サイトマップ
+							</a>
+							　l　
+							<a href="/english/index.html">
+							English
+							</a>
+							　l　
+							<a href="privacy.html">
+							免責事項／プライバシーポリシー
+							</a>
+						</div>
+						<p>
+						Copyright(C) 2010 asofoam crete co.,ltd. All rights reserved.
+						</p>
+						<p>
+						本ホームページの内容は、著作物であり、著作権法によって保護されており、無断で使用(転用・複製等)することを禁じます。
+						</p>
+					</div>
+					<!--footer-->
+				</div>
+				<!--container-->
+			<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-23951990-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+	</script>
+	</body>
+	</html>

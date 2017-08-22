@@ -1,0 +1,977 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="ja" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="imagetoolbar" content="no" />
+<title>株式会社夢真ホールディングス</title>
+<meta name="keywords" content="建築派遣,建築,BIM,Revit,BIMオペレータ,３Ｄ,３次元,アウトソーシング,夢真ホールディングス,株式会社夢真ホールディングス,YUMESHIN HOLDINGS Co.,Ltd.,夢真,YUMESHIN,Yumeshin,佐藤真吾,佐藤眞吾" />
+<meta name="description" content="このサイトは、株式会社夢真ホールディングスが運営するコーポレートサイトです。" />
+<meta name="robots" content="index,follow" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7, IE=9" />
+<link href="http://www.yumeshin.co.jp/css/import_home.css" rel="stylesheet" type="text/css" media="all" />
+<script src="http://www.yumeshin.co.jp/scripts/jquery.js" type="text/javascript" charset="utf-8"></script>
+<script src="http://www.yumeshin.co.jp/scripts/jquery.rollover.js" type="text/javascript" charset="utf-8"></script>
+<script src="http://www.yumeshin.co.jp/scripts/common.js" type="text/javascript" charset="utf-8"></script>
+<script src="http://www.yumeshin.co.jp/scripts/smoothScroll_home.js" type="text/javascript" charset="utf-8"></script>
+<script src="http://www.yumeshin.co.jp/scripts/imageTabs.js" type="text/javascript" charset="utf-8"></script>
+<script src="http://www.yumeshin.co.jp/scripts/swfobject.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+// <![CDATA[
+jQuery(function($){
+    $('div#whatsnew').imageTabs({
+        animate: 'fadeIn',
+        duration: 'slow',
+        opentab: 'tab1'
+    });
+    $("#globalNav li").hover(function() {
+        $(this).children('ul').fadeIn(400);
+        }, function() {
+    $(this).children('ul').fadeOut(50);
+    });
+});
+// ]]>
+</script>
+<style>
+div#syo{
+width:970px;
+float:left;
+margin-bottom:2em;
+}
+ul#yhk{
+}
+li.mnu{
+display:block;
+margin-right:0.5em;
+float:left;
+}
+</style>
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-MNBFW7"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MNBFW7');</script>
+<!-- End Google Tag Manager -->
+<div id="header">
+<div class="wrapper">
+<h1 id="logo">株式会社 夢真ホールディングス</h1>
+<div id="headerNav">
+<ul>
+<li id="policy"><a href="/policy.html">個人情報保護</a></li>
+<li id="inquiry"><a href="/inquiry/">お問い合わせ</a></li>
+<li id="sitemap"><a href="/sitemap.html">サイトマップ</a></li>
+</ul>
+</div><!-- /headerNav -->
+</div>
+</div><!-- /header -->
+<div id="mainimg">
+<div class="wrapper">
+<div id="flashMovie">
+<script type="text/javascript">
+var flashvars = {};
+var params = {};
+var attributes = {};
+swfobject.embedSWF("./flash/index.swf", "flashMovie", "960", "420", "9.0.0","./flash/expressInstall.swf", flashvars, params, attributes);
+</script>
+<noscript>
+<img src="./images/home/mainimg.jpg" width="960" height="420" alt="写真：人と人とのめぐり会いで、みんなの夢を真にする会社" />
+</noscript>
+</div>
+</div>
+</div><!-- /mainimg -->
+<div id="globalNav">
+<div class="wrapper">
+<ul>
+<li id="home"><span>ホーム</span></li>
+<li id="company"><a href="/company/" class="ctl">会社情報</a>
+<ul>
+<li><a href="/company/message.html"><img src="http://www.yumeshin.co.jp/images/btn_company01.gif" width="191" height="28" alt="代表挨拶" class="roll" /></a></li>
+<li><a href="/company/philosophy.html"><img src="http://www.yumeshin.co.jp/images/btn_company02.gif" width="191" height="27" alt="経営理念" class="roll" /></a></li>
+<li><a href="/company/profile.html"><img src="http://www.yumeshin.co.jp/images/btn_company03.gif" width="191" height="27" alt="会社概要" class="roll" /></a></li>
+<li><a href="/company/history.html"><img src="http://www.yumeshin.co.jp/images/btn_company04.gif" width="191" height="27" alt="沿革" class="roll" /></a></li>
+<li><a href="/company/office.html"><img src="http://www.yumeshin.co.jp/images/btn_company05.gif" width="191" height="27" alt="営業所一覧" class="roll" /></a></li>
+<li><a href="/company/village.html"><img src="http://www.yumeshin.co.jp/images/btn_company06.gif" width="191" height="27" alt="夢真村とは" class="roll" /></a></li>
+</ul></li>
+<li id="business"><a href="/business/" class="ctl">事業・グループ情報</a>
+<ul>
+<li><a href="/business/construction_tech_support.html"><img src="http://www.yumeshin.co.jp/images/btn_business01.gif" width="191" height="28" alt="建築技術サポート事業" class="roll" /></a></li>
+<li><a href="/business/construction_drawing.html"><img src="http://www.yumeshin.co.jp/images/btn_business02.gif" width="191" height="27" alt="施工図面作図事業" class="roll" /></a></li>
+<!--<li><a href="/business/it_solutions.html"><img src="http://www.yumeshin.co.jp/images/btn_business03.gif" width="191" height="27" alt="ITソリューション事業" class="roll" /></a></li>
+-->
+<li><a href="/business/group.html"><img src="http://www.yumeshin.co.jp/images/btn_business04.gif" width="191" height="27" alt="グループ企業一覧" class="roll" /></a></li>
+</ul></li>
+<li id="ir"><a href="/ir/" class="ctl">株主・投資家情報</a>
+<ul>
+<li><a href="/ir/message.html"><img src="http://www.yumeshin.co.jp/images/btn_ir01.gif" width="191" height="28" alt="社長から投資家の皆様へ" class="roll" /></a></li>
+<li><a href="/ir/news/"><img src="http://www.yumeshin.co.jp/images/btn_ir02.gif" width="191" height="27" alt="プレスリリース" class="roll" /></a></li>
+<li><a href="/ir/library/financial_report/"><img src="http://www.yumeshin.co.jp/images/btn_ir03.gif" width="191" height="27" alt="IR資料室" class="roll" /></a></li>
+<li><a href="/ir/stock/info/"><img src="http://www.yumeshin.co.jp/images/btn_ir04.gif" width="191" height="27" alt="株式情報" class="roll" /></a></li>
+<li><a href="/ir/finance/highlight/"><img src="http://www.yumeshin.co.jp/images/btn_ir05.gif" width="191" height="27" alt="業績財務情報" class="roll" /></a></li>
+<li><a href="/ir/calendar.html"><img src="http://www.yumeshin.co.jp/images/btn_ir06.gif" width="191" height="27" alt="IRカレンダー" class="roll" /></a></li>
+<li><a href="/ir/e_publicnotice/"><img src="http://www.yumeshin.co.jp/images/btn_ir07.gif" width="191" height="27" alt="決算・電子公告" class="roll" /></a></li>
+<li><a href="http://www.sharedresearch.jp/ja/2362" target="_blank"><img src="http://www.yumeshin.co.jp/images/btn_ir08.gif" width="191" height="27" alt="アナリストレポート" class="roll" /></a></li>
+<li><a href="/ir/faq/"><img src="http://www.yumeshin.co.jp/images/btn_ir09.gif" width="191" height="27" alt="よくあるご質問" class="roll" /></a></li>
+</ul></li>
+<li id="recruit"><a href="http://www.recruit-yumeshin.com/" target="_blank" class="ctl">採用情報</a>
+</li>
+</ul>
+</div>
+</div><!-- globalNav -->
+<div id="container">
+<div class="wrapper">
+<div id="contentsArea">
+
+<!--
+<div class="section" id="information">
+<p><strong><big>
+&nbsp;&nbsp; コメント
+<br />
+
+&nbsp;&nbsp;  お申し込みはコチラから→
+リンク</big></strong></p>
+</div>
+-->
+
+
+<!-- /infomation -->
+
+<div class="tabArea" id="whatsnew">
+<div id="whatsnew-wrapper">
+<ul class="tab">
+<li class="btn-list01"><a href="#tab1" onfocus="this.blur()"><img src="http://www.yumeshin.co.jp/images/home/tab_all.gif" width="134" height="32" alt="新着情報" /></a></li>
+<li class="btn-list02"><a href="#tab2" onfocus="this.blur()"><img src="http://www.yumeshin.co.jp/images/home/tab_ir.gif" width="132" height="32" alt="IRニュース" /></a></li>
+<li class="btn-list03"><a href="#tab3" onfocus="this.blur()"><img src="http://www.yumeshin.co.jp/images/home/tab_recruit.gif" width="132" height="32" alt="採用情報" /></a></li>
+<li class="btn-list04"><a href="#tab4" onfocus="this.blur()"><img src="http://www.yumeshin.co.jp/images/home/tab_new.gif" width="132" height="32" alt="更新情報" /></a></li>
+<li class="btn-list05"><a href="#tab5" onfocus="this.blur()"><img src="http://www.yumeshin.co.jp/images/home/tab_member.gif" width="132" height="32" alt="English IR" /></a></li>
+</a>
+</li>
+</ul>
+<div id="tabPanelGroup">
+<div class="tabPanel" id="tab1">
+
+
+<!--What's New更新部１-->
+
+<dl class="clearfix">
+<dt>2017年08月18日</dt>
+<dd class="tag"><img src="./images/tag_ir.gif" width="67" height="14" alt="IRニュース" /></dd>
+<dd class="txt"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170818_FY17Q3_setsumeikai.pdf" target="_blank">2017年9月期 第3四半期 アナリスト向け決算説明資料</a>
+<span class="pdf"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170818_FY17Q3_setsumeikai.pdf" target="_blank">（2580KB）</a></span></dd>
+</dl>
+
+
+<dl class="clearfix">
+<dt>2017年08月02日</dt>
+<dd class="tag"><img src="./images/tag_ir.gif" width="67" height="14" alt="IRニュース" /></dd>
+<dd class="txt"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170802.pdf" target="_blank">
+平成29年9月期 第3四半期 連結決算概況について
+</a><span class="pdf"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170802.pdf" target="_blank">（384KB）</a></span></dd>
+</dl>
+
+
+<dl class="clearfix">
+<dt>2017年08月02日</dt>
+<dd class="tag"><img src="./images/tag_ir.gif" width="67" height="14" alt="IRニュース" /></dd>
+<dd class="txt"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170802_FY17Q3_tanshin.pdf" target="_blank">
+平成29年9月期 第3四半期決算短信〔日本基準〕（連結）</a>
+<span class="pdf"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170802_FY17Q3_tanshin.pdf" target="_blank">（200KB）</a></span></dd>
+</dl>
+
+
+<dl class="clearfix">
+<dt>2017年08月01日</dt>
+<dd class="tag"><img src="./images/tag_ir.gif" width="67" height="14" alt="IRニュース" /></dd>
+<dd class="txt"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170801.pdf" target="_blank">
+当社グループの稼動技術者数が5,000名を突破いたしました
+</a><span class="pdf"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170801.pdf" target="_blank">（296KB）</a></span></dd>
+</dl>
+
+
+<dl class="clearfix">
+<dt>2017年07月18日</dt>
+<dd class="tag"><img src="./images/tag_ir.gif" width="67" height="14" alt="IRニュース" /></dd>
+<dd class="txt"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170718.pdf" target="_blank">
+2017年9月期 4～6月度 四半期速報について
+</a><span class="pdf"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170718.pdf" target="_blank">（160KB）</a></span></dd>
+</dl>
+
+
+<dl class="clearfix">
+<dt>2017年07月13日</dt>
+<dd class="tag"><img src="./images/tag_ir.gif" width="67" height="14" alt="IRニュース" /></dd>
+<dd class="txt"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170713.pdf" target="_blank">
+日本経済新聞（7月13日付）に当社の取り組みが掲載されました。
+</a><span class="pdf"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170713.pdf" target="_blank">（172KB）</a></span></dd>
+</dl>
+
+
+<dl class="clearfix">
+<dt>2017年06月13日</dt>
+<dd class="tag"><img src="./images/tag_ir.gif" width="67" height="14" alt="IRニュース" /></dd>
+<dd class="txt"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170613_FY17Q2_kabutsu.pdf" target="_blank">第39期 中間株主通信</a><span class="pdf"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170613_FY17Q2_kabutsu.pdf" target="_blank">（2040KB）</a></span></dd>
+</dl>
+
+
+<dl class="clearfix">
+<dt>2017年06月09日</dt>
+<dd class="tag"><img src="./images/tag_ir.gif" width="67" height="14" alt="IRニュース" /></dd>
+<dd class="txt"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170609.pdf" target="_blank">
+剰余金の中間配当に関するお知らせ
+</a><span class="pdf"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170609.pdf" target="_blank">（144KB）</a></span></dd>
+</dl>
+
+
+<dl class="clearfix">
+<dt>2017年05月16日</dt>
+<dd class="tag"><img src="./images/tag_ir.gif" width="67" height="14" alt="IRニュース" /></dd>
+<dd class="txt"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170516_FY17Q2_setsumeikai.pdf" target="_blank">2017年9月期 第2四半期 アナリスト向け決算説明資料</a>
+<span class="pdf"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170516_FY17Q2_setsumeikai.pdf" target="_blank">（3358KB）</a></span></dd>
+</dl>
+
+<dl class="clearfix">
+<dt>2017年05月15日</dt>
+<dd class="tag"><img src="./images/tag_ir.gif" width="67" height="14" alt="IRニュース" /></dd>
+<dd class="txt"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170515_hokokusyo.pdf" target="_blank">第39期 第2四半期報告書（平成29年度）</a>
+<span class="pdf"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170515_hokokusyo.pdf" target="_blank">（144KB）</a></span></dd>
+</dl>
+
+
+<dl class="clearfix">
+<dt>2017年05月08日</dt>
+<dd class="tag"><img src="./images/tag_ir.gif" width="67" height="14" alt="IRニュース" /></dd>
+<dd class="txt"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170508.pdf" target="_blank">
+子会社「株式会社夢エデュケーション」Unity 認定トレーニングパートナーとして認定されました。
+</a><span class="pdf"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170508.pdf" target="_blank">（264KB）</a></span></dd>
+</dl>
+
+
+<dl class="clearfix">
+<dt>2017年05月02日</dt>
+<dd class="tag"><img src="./images/tag_ir.gif" width="67" height="14" alt="IRニュース" /></dd>
+<dd class="txt"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170502_2.pdf" target="_blank">
+当社子会社（株式会社夢テクノロジー）の業績予想の修正並びに新中期経営計画の上方修正に関するお知らせ
+</a><span class="pdf"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170502_2.pdf" target="_blank">（488KB）</a></span></dd>
+</dl>
+
+
+<dl class="clearfix">
+<dt>2017年05月02日</dt>
+<dd class="tag"><img src="./images/tag_ir.gif" width="67" height="14" alt="IRニュース" /></dd>
+<dd class="txt"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170502.pdf" target="_blank">
+平成29年9月期 第2四半期 連結決算概況について
+</a><span class="pdf"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170502.pdf" target="_blank">（396KB）</a></span></dd>
+</dl>
+
+
+
+<dl class="clearfix">
+<dt>2017年05月02日</dt>
+<dd class="tag"><img src="./images/tag_ir.gif" width="67" height="14" alt="IRニュース" /></dd>
+<dd class="txt"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170502_FY17Q2_tanshin.pdf" target="_blank">
+平成29年9月期 第2四半期 決算短信〔日本基準〕（連結）</a>
+<span class="pdf"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170502_FY17Q2_tanshin.pdf" target="_blank">（196KB）</a></span></dd>
+</dl>
+
+
+
+<dl class="clearfix">
+<dt>2017年04月26日</dt>
+<dd class="tag"><img src="./images/tag_ir.gif" width="67" height="14" alt="IRニュース" /></dd>
+<dd class="txt"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170426.pdf" target="_blank">
+当社子会社と株式会社インフォコーパスの業務提携契約締結に関するお知らせ
+</a><span class="pdf"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170426.pdf" target="_blank">（196KB）</a></span></dd>
+</dl>
+
+
+<dl class="clearfix">
+<dt>2017年04月24日</dt>
+<dd class="tag"><img src="./images/tag_ir.gif" width="67" height="14" alt="IRニュース" /></dd>
+<dd class="txt"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170424.pdf" target="_blank">
+関連会社「ギアヌーヴ株式会社」建設工事の生産性「見える化」サービスについて日経産業新聞に掲載されました。
+</a><span class="pdf"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170424.pdf" target="_blank">（244KB）</a></span></dd>
+</dl>
+
+<dl class="clearfix">
+<dt>2017年04月12日</dt>
+<dd class="tag"><img src="./images/tag_ir.gif" width="67" height="14" alt="IRニュース" /></dd>
+<dd class="txt"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170412.pdf" target="_blank">
+2017年9月期 1～3月度 四半期速報について
+</a><span class="pdf"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170412.pdf" target="_blank">（156KB）</a></span></dd>
+</dl>
+
+
+<dl class="clearfix">
+<dt>2017年03月31日</dt>
+<dd class="tag"><img src="./images/tag_ir.gif" width="67" height="14" alt="IRニュース" /></dd>
+<dd class="txt"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170331.pdf" target="_blank">
+厚生労働省委託事業の「優良派遣事業者認定制度」にて当社が優良派遣事業者として認定されました。
+</a><span class="pdf"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170331.pdf" target="_blank">（468KB）</a></span></dd>
+</dl>
+
+<dl class="clearfix">
+<dt>2017年03月30日</dt>
+<dd class="tag"><img src="./images/tag_ir.gif" width="67" height="14" alt="IRニュース" /></dd>
+<dd class="txt"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170330.pdf" target="_blank">
+当社子会社（株式会社夢テクノロジー）の株式分割に関するお知らせ
+</a><span class="pdf"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170330.pdf" target="_blank">（208KB）</a></span></dd>
+</dl>
+
+<dl class="clearfix">
+<dt>2017年03月06日</dt>
+<dd class="tag"><img src="./images/tag_ir.gif" width="67" height="14" alt="IRニュース" /></dd>
+<dd class="txt"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170306_1.pdf" target="_blank">
+当社グループ会社が新事業「転職の王様 キャリアチェンジアカデミー」を開始
+</a><span class="pdf"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170306_1.pdf" target="_blank">（396KB）</a></span></dd>
+</dl>
+
+<dl class="clearfix">
+<dt>2017年03月06日</dt>
+<dd class="tag"><img src="./images/tag_ir.gif" width="67" height="14" alt="IRニュース" /></dd>
+<dd class="txt"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170306_2.pdf" target="_blank">
+当社グループ会社が子供向けプログラミングスクール「KIDS YUME CAMPUS」を開校
+</a><span class="pdf"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170306_2.pdf" target="_blank">（284KB）</a></span></dd>
+</dl>
+
+<dl class="clearfix">
+<dt>2017年03月01日</dt>
+<dd class="tag"><img src="./images/tag_ir.gif" width="67" height="14" alt="IRニュース" /></dd>
+<dd class="txt"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170301.pdf" target="_blank">当社グループ会社「株式会社ダズル」新たなVRサービス「AccessiVR」のクローズドβ版を本日より提供開始いたします。</a>
+<span class="pdf"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170301.pdf" target="_blank">（284KB）</a></span></dd>
+</dl>
+
+<dl class="clearfix">
+<dt>2017年02月21日</dt>
+<dd class="tag"><img src="./images/tag_ir.gif" width="67" height="14" alt="IRニュース" /></dd>
+<dd class="txt"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170221_1.pdf" target="_blank">当社の関連会社である「BTCボックス株式会社」が、新たに資本業務提携契約を締結いたしました。</a>
+<span class="pdf"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170221_1.pdf" target="_blank">（232KB）</a></span></dd>
+</dl>
+
+<dl class="clearfix">
+<dt>2017年02月21日</dt>
+<dd class="tag"><img src="./images/tag_ir.gif" width="67" height="14" alt="IRニュース" /></dd>
+<dd class="txt"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170221_2.pdf" target="_blank">連結子会社「Keepdata株式会社」業務改善および新規ビジネスの確立を支援する新たなビッグデータ分析サービスの提供を開始</a>
+<span class="pdf"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170221_2.pdf" target="_blank">（400KB）</a></span></dd>
+</dl>
+
+<dl class="clearfix">
+<dt>2017年02月14日</dt>
+<dd class="tag"><img src="./images/tag_ir.gif" width="67" height="14" alt="IRニュース" /></dd>
+<dd class="txt"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170214_hokokusyo.pdf" target="_blank">第39期 第1四半期報告書（平成29年度）</a>
+<span class="pdf"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170214_hokokusyo.pdf" target="_blank">（128KB）</a></span></dd>
+</dl>
+
+<dl class="clearfix">
+<dt>2017年02月08日</dt>
+<dd class="tag"><img src="./images/tag_ir.gif" width="67" height="14" alt="IRニュース" /></dd>
+<dd class="txt"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170208_FY17Q1_setsumeikai.pdf" target="_blank">2017年9月期 第1四半期 アナリスト向け決算説明資料</a>
+<span class="pdf"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170208_FY17Q1_setsumeikai.pdf" target="_blank">（2740KB）</a></span></dd>
+</dl>
+
+<dl class="clearfix">
+<dt>2017年02月03日</dt>
+<dd class="tag"><img src="./images/tag_ir.gif" width="67" height="14" alt="IRニュース" /></dd>
+<dd class="txt"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170203.pdf" target="_blank">2017年9月期 第1四半期 連結決算概況について</a>
+<span class="pdf"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170203.pdf" target="_blank">（384KB）</a></span></dd>
+</dl>
+
+<dl class="clearfix">
+<dt>2017年02月03日</dt>
+<dd class="tag"><img src="./images/tag_ir.gif" width="67" height="14" alt="IRニュース" /></dd>
+<dd class="txt"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170203_FY17Q1_tanshin.pdf" target="_blank">平成29年9月期 第1四半期決算短信〔日本基準〕（連結）</a>
+<span class="pdf"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170203_FY17Q1_tanshin.pdf" target="_blank">（272KB）</a></span></dd>
+</dl>
+
+<dl class="clearfix">
+<dt>2017年02月02日</dt>
+<dd class="tag"><img src="./images/tag_ir.gif" width="67" height="14" alt="IRニュース" /></dd>
+<dd class="txt"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170202.pdf" target="_blank">連結子会社によるITエンジニア育成拠点開設のお知らせ</a>
+<span class="pdf"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170202.pdf" target="_blank">（792KB）</a></span></dd>
+</dl>
+
+<dl class="clearfix">
+<dt>2017年01月30日</dt>
+<dd class="tag"><img src="./images/tag_ir.gif" width="67" height="14" alt="IRニュース" /></dd>
+<dd class="txt"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170130.pdf" target="_blank">株式会社ダズルの株主追加取得に関するお知らせ</a>
+<span class="pdf"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170130.pdf" target="_blank">（192KB）</a></span></dd>
+</dl>
+
+<dl class="clearfix">
+<dt>2017年01月27日</dt>
+<dd class="tag"><img src="./images/tag_ir.gif" width="67" height="14" alt="IRニュース" /></dd>
+<dd class="txt"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170127.pdf" target="_blank">Keepdata 株式会社の株式追加取得に関するお知らせ</a>
+<span class="pdf"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170127.pdf" target="_blank">（212KB）</a></span></dd>
+</dl>
+
+<dl class="clearfix">
+<dt>2017年01月26日</dt>
+<dd class="tag"><img src="./images/tag_ir.gif" width="67" height="14" alt="IRニュース" /></dd>
+<dd class="txt"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170126.pdf" target="_blank">「建設IT技術者」採用による採用計画の修正に関するお知らせ</a>
+<span class="pdf"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170126.pdf" target="_blank">（172KB）</a></span></dd>
+</dl>
+
+<dl class="clearfix">
+<dt>2017年01月16日</dt>
+<dd class="tag"><img src="./images/tag_ir.gif" width="67" height="14" alt="IRニュース" /></dd>
+<dd class="txt"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170116.pdf" target="_blank">2017年9月期 10～12月度 四半期速報について</a>
+<span class="pdf"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170116.pdf" target="_blank">（152KB）</a></span></dd>
+</dl>
+
+
+<dl class="clearfix">
+<dt>2017年01月05日</dt>
+<dd class="tag"><img src="./images/tag_ir.gif" width="67" height="14" alt="IRニュース" /></dd>
+<dd class="txt"><a href="http://www.yumeshin.co.jp/ir/library/factbook/">「FACT BOOK」を更新しました。</a></dd>
+</dl>
+
+
+<dl class="clearfix">
+<dt>2017年01月05日</dt>
+<dd class="tag"><img src="./images/tag_ir.gif" width="67" height="14" alt="IRニュース" /></dd>
+<dd class="txt"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20161217_setsumeikai.pdf" target="_blank">個人投資家様向け会社説明会資料（2016年12月17日開催）</a>
+<span class="pdf"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20161217_setsumeikai.pdf" target="_blank">（8500KB）</a></span></dd>
+</dl>
+
+<dl class="clearfix">
+<dt>2016年12月20日</dt>
+<dd class="tag"><img src="./images/tag_ir.gif" width="67" height="14" alt="IRニュース" /></dd>
+<dd class="txt"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20161222_yuho.pdf" target="_blank">第38期 有価証券報告書(平成28年度)</a>
+<span class="pdf"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20161222_yuho.pdf" target="_blank">（604KB）</a></span></dd>
+</dl>
+
+<dl class="clearfix">
+<dt>2016年12月19日</dt>
+<dd class="tag"><img src="./images/tag_ir.gif" width="67" height="14" alt="IRニュース" /></dd>
+<dd class="txt"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20161219_FY16Q4_kabutsu.pdf" target="_blank">第38期 期末株主通信</a>
+<span class="pdf"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20161219_FY16Q4_kabutsu.pdf" target="_blank">（3420KB）</a></span></dd>
+</dl>
+
+<dl class="clearfix">
+<dt>2016年12月15日</dt>
+<dd class="tag"><img src="./images/tag_ir.gif" width="67" height="14" alt="IRニュース" /></dd>
+<dd class="txt"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20161215.pdf" target="_blank">当社が2017年度より新たに算出･配信される｢JPX 日経中小型株指数｣の構成銘柄へ選定されました</a>
+<span class="pdf"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20161215.pdf" target="_blank">（188KB）</a></span></dd>
+</dl>
+
+
+<dl class="clearfix">
+<dt>2016年12月09日</dt>
+<dd class="tag"><img src="http://www.yumeshin.co.jp/ir/images/tag_ir05.gif" width="67" height="14" alt="その他" /></dd>
+<dd class="txt"><a href="http://www.yumeshin.co.jp/ir/pdf/ir161209.pdf" target="_blank">株式会社夢エデュケーションと日本サード・パーティ株式会社との提携事業 第1弾｢実践セキュリティ講座｣｢AIの基礎とIoTの活用セミナー｣を共同開催</a>
+<span class="pdf"><a href="http://www.yumeshin.co.jp/ir/pdf/ir161209.pdf" target="_blank">（396KB）</a></span></dd>
+</dl>
+
+
+<dl class="clearfix">
+<dt>2016年12月01日</dt>
+<dd class="tag"><img src="http://www.yumeshin.co.jp/ir/images/tag_ir05.gif" width="67" height="14" alt="その他" /></dd>
+<dd class="txt"><a href="http://www.oreyume.com" target="_blank">12月1日オープン！建設業界経験者の転職・派遣なら【俺の夢】</br>
+建設業界最大規模！求人数10万件以上掲載！</a></dd>
+</dl>
+
+
+</div><!-- /tab1 -->
+
+
+
+<div class="tabPanel" id="tab2">
+<!--What's New更新部２-->
+
+<dl class="clearfix">
+<dt>2017/08/18</dt>
+<dd class="tag"><img src="http://www.yumeshin.co.jp/ir/images/tag_ir04.gif" width="67" height="14" alt="説明会" /></dd>
+<dd class="txt"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170818_FY17Q3_setsumeikai.pdf" target="_blank">
+2017年9月期 第3四半期 アナリスト向け決算説明資料
+</a><span class="pdf"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170818_FY17Q3_setsumeikai.pdf" target="_blank">（2580KB）</a></span></dd>
+</dl>
+
+
+<dl class="clearfix">
+<dt>2017/08/02</dt>
+<dd class="tag"><img src="http://www.yumeshin.co.jp/ir/images/tag_ir01.gif" width="67" height="14" alt="リリース" /></dd>
+<dd class="txt"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170802.pdf" target="_blank">
+平成29年9月期 第3四半期 連結決算概況について
+</a><span class="pdf"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170802.pdf" target="_blank">（384KB）</a></span></dd>
+</dl>
+
+
+<dl class="clearfix">
+<dt>2017/08/02</dt>
+<dd class="tag"><img src="http://www.yumeshin.co.jp/ir/images/tag_ir02.gif" width="67" height="14" alt="決算短信" /></dd>
+<dd class="txt"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170802_FY17Q3_tanshin.pdf" target="_blank">
+平成29年9月期 第3四半期 決算短信〔日本基準〕（連結）
+</a><span class="pdf"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170802_FY17Q3_tanshin.pdf" target="_blank">（200KB）</a></span></dd>
+</dl>
+
+
+<dl class="clearfix">
+<dt>2017/08/01</dt>
+<dd class="tag"><img src="http://www.yumeshin.co.jp/ir/images/tag_ir01.gif" width="67" height="14" alt="リリース" /></dd>
+<dd class="txt"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170801.pdf" target="_blank">
+当社グループの稼動技術者数が5,000名を突破いたしました
+</a><span class="pdf"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170801.pdf" target="_blank">（296KB）</a></span></dd>
+</dl>
+
+
+<dl class="clearfix">
+<dt>2017/07/18</dt>
+<dd class="tag"><img src="http://www.yumeshin.co.jp/ir/images/tag_ir01.gif" width="67" height="14" alt="リリース" /></dd>
+<dd class="txt"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170718.pdf" target="_blank">
+2017年9月期 4～6月度 四半期速報について
+</a><span class="pdf"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170718.pdf" target="_blank">（160KB）</a></span></dd>
+</dl>
+
+
+<dl class="clearfix">
+<dt>2017/07/13</dt>
+<dd class="tag"><img src="http://www.yumeshin.co.jp/ir/images/tag_ir01.gif" width="67" height="14" alt="リリース" /></dd>
+<dd class="txt"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170713.pdf" target="_blank">
+日本経済新聞（7月13日付）に当社の取り組みが掲載されました。
+</a><span class="pdf"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170713.pdf" target="_blank">（172KB）</a></span></dd>
+</dl>
+
+
+<dl class="clearfix">
+<dt>2017/06/13</dt>
+<dd class="tag"><img src="http://www.yumeshin.co.jp/ir/images/tag_ir05.gif" width="67" height="14" alt="その他" /></dd>
+<dd class="txt"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170613_FY17Q2_kabutsu.pdf" target="_blank">第39期 中間株主通信</a><span class="pdf"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170613_FY17Q2_kabutsu.pdf" target="_blank">（2040KB）</a></span></dd>
+</dl>
+
+<dl class="clearfix">
+<dt>2017/06/09</dt>
+<dd class="tag"><img src="http://www.yumeshin.co.jp/ir/images/tag_ir01.gif" width="67" height="14" alt="リリース" /></dd>
+<dd class="txt"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170609.pdf" target="_blank">
+剰余金の中間配当に関するお知らせ
+</a><span class="pdf"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170609.pdf" target="_blank">（144KB）</a></span></dd>
+</dl>
+
+
+<dl class="clearfix">
+<dt>2017/05/16</dt>
+<dd class="tag"><img src="http://www.yumeshin.co.jp/ir/images/tag_ir04.gif" width="67" height="14" alt="説明会" /></dd>
+<dd class="txt"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170516_FY17Q2_setsumeikai.pdf" target="_blank">
+2017年9月期 第2四半期 アナリスト向け決算説明資料
+</a><span class="pdf"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170516_FY17Q2_setsumeikai.pdf" target="_blank">（3358KB）</a></span></dd>
+</dl>
+
+<dl class="clearfix">
+<dt>2017/05/15</dt>
+<dd class="tag"><img src="http://www.yumeshin.co.jp/ir/images/tag_ir03.gif" width="67" height="14" alt="有報" /></dd>
+<dd class="txt"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170515_hokokusyo.pdf" target="_blank">
+第39期 第2四半期報告書（平成29年度）
+</a><span class="pdf"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170515_hokokusyo.pdf" target="_blank">（144KB）</a></span></dd>
+</dl>
+
+
+<dl class="clearfix">
+<dt>2017/05/08</dt>
+<dd class="tag"><img src="http://www.yumeshin.co.jp/ir/images/tag_ir01.gif" width="67" height="14" alt="リリース" /></dd>
+<dd class="txt"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170508.pdf" target="_blank">
+子会社「株式会社夢エデュケーション」Unity 認定トレーニングパートナーとして認定されました。
+</a><span class="pdf"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170508.pdf" target="_blank">（264KB）</a></span></dd>
+</dl>
+
+
+<dl class="clearfix">
+<dt>2017/05/02</dt>
+<dd class="tag"><img src="http://www.yumeshin.co.jp/ir/images/tag_ir01.gif" width="67" height="14" alt="リリース" /></dd>
+<dd class="txt"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170502_2.pdf" target="_blank">
+当社子会社（株式会社夢テクノロジー）の業績予想の修正並びに新中期経営計画の上方修正に関するお知らせ
+</a><span class="pdf"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170502_2.pdf" target="_blank">（488KB）</a></span></dd>
+</dl>
+
+
+
+<dl class="clearfix">
+<dt>2017/05/02</dt>
+<dd class="tag"><img src="http://www.yumeshin.co.jp/ir/images/tag_ir01.gif" width="67" height="14" alt="リリース" /></dd>
+<dd class="txt"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170502.pdf" target="_blank">
+平成29年9月期 第2四半期 連結決算概況について
+</a><span class="pdf"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170502.pdf" target="_blank">（396KB）</a></span></dd>
+</dl>
+
+
+<dl class="clearfix">
+<dt>2017/05/02</dt>
+<dd class="tag"><img src="http://www.yumeshin.co.jp/ir/images/tag_ir02.gif" width="67" height="14" alt="決算短信" /></dd>
+<dd class="txt"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170502_FY17Q2_tanshin.pdf" target="_blank">
+平成29年9月期 第2四半期 決算短信〔日本基準〕（連結）
+</a><span class="pdf"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170502_FY17Q2_tanshin.pdf" target="_blank">（196KB）</a></span></dd>
+</dl>
+
+
+
+<dl class="clearfix">
+<dt>2017/04/26</dt>
+<dd class="tag"><img src="http://www.yumeshin.co.jp/ir/images/tag_ir01.gif" width="67" height="14" alt="リリース" /></dd>
+<dd class="txt"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170426.pdf" target="_blank">
+当社子会社と株式会社インフォコーパスの業務提携契約締結に関するお知らせ
+</a><span class="pdf"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170426.pdf" target="_blank">（196KB）</a></span></dd>
+</dl>
+
+
+<dl class="clearfix">
+<dt>2017/04/24</dt>
+<dd class="tag"><img src="http://www.yumeshin.co.jp/ir/images/tag_ir01.gif" width="67" height="14" alt="リリース" /></dd>
+<dd class="txt"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170424.pdf" target="_blank">
+関連会社「ギアヌーヴ株式会社」建設工事の生産性「見える化」サービスについて日経産業新聞に掲載されました。
+</a><span class="pdf"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170424.pdf" target="_blank">（244KB）</a></span></dd>
+</dl>
+
+
+<dl class="clearfix">
+<dt>2017/04/12</dt>
+<dd class="tag"><img src="http://www.yumeshin.co.jp/ir/images/tag_ir01.gif" width="67" height="14" alt="リリース" /></dd>
+<dd class="txt"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170412.pdf" target="_blank">
+2017年9月期 1～3月度 四半期速報について
+</a><span class="pdf"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170412.pdf" target="_blank">（156KB）</a></span></dd>
+</dl>
+
+
+<dl class="clearfix">
+<dt>2017/03/31</dt>
+<dd class="tag"><img src="http://www.yumeshin.co.jp/ir/images/tag_ir01.gif" width="67" height="14" alt="リリース" /></dd>
+<dd class="txt"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170331.pdf" target="_blank">
+厚生労働省委託事業の「優良派遣事業者認定制度」にて当社が優良派遣事業者として認定されました。
+</a><span class="pdf"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170331.pdf" target="_blank">（468KB）</a></span></dd>
+</dl>
+
+<dl class="clearfix">
+<dt>2017/03/30</dt>
+<dd class="tag"><img src="http://www.yumeshin.co.jp/ir/images/tag_ir01.gif" width="67" height="14" alt="リリース" /></dd>
+<dd class="txt"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170330.pdf" target="_blank">
+当社子会社（株式会社夢テクノロジー）の株式分割に関するお知らせ
+</a><span class="pdf"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170330.pdf" target="_blank">（208KB）</a></span></dd>
+</dl>
+
+<dl class="clearfix">
+<dt>2017/03/06</dt>
+<dd class="tag"><img src="http://www.yumeshin.co.jp/ir/images/tag_ir01.gif" width="67" height="14" alt="リリース" /></dd>
+<dd class="txt"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170306_1.pdf" target="_blank">
+当社グループ会社が新事業「転職の王様 キャリアチェンジアカデミー」を開始
+</a><span class="pdf"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170306_1.pdf" target="_blank">（396KB）</a></span></dd>
+</dl>
+
+<dl class="clearfix">
+<dt>2017/03/06</dt>
+<dd class="tag"><img src="http://www.yumeshin.co.jp/ir/images/tag_ir01.gif" width="67" height="14" alt="リリース" /></dd>
+<dd class="txt"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170306_2.pdf" target="_blank">
+当社グループ会社が子供向けプログラミングスクール「KIDS YUME CAMPUS」を開校
+</a><span class="pdf"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170306_2.pdf" target="_blank">（284KB）</a></span></dd>
+</dl>
+
+<dl class="clearfix">
+<dt>2017/03/01</dt>
+<dd class="tag"><img src="http://www.yumeshin.co.jp/ir/images/tag_ir01.gif" width="67" height="14" alt="リリース" /></dd>
+<dd class="txt"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170301.pdf" target="_blank">
+当社グループ会社「株式会社ダズル」新たなVRサービス「AccessiVR」のクローズドβ版を本日より提供開始いたします。
+</a><span class="pdf"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170301.pdf" target="_blank">（284KB）</a></span></dd>
+</dl>
+
+
+<dl class="clearfix">
+<dt>2017/02/21</dt>
+<dd class="tag"><img src="http://www.yumeshin.co.jp/ir/images/tag_ir01.gif" width="67" height="14" alt="リリース" /></dd>
+<dd class="txt"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170221_1.pdf" target="_blank">
+当社の関連会社である「BTCボックス株式会社」が、新たに資本業務提携契約を締結いたしました。
+</a><span class="pdf"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170221_1.pdf" target="_blank">（232KB）</a></span></dd>
+</dl>
+
+<dl class="clearfix">
+<dt>2017/02/21</dt>
+<dd class="tag"><img src="http://www.yumeshin.co.jp/ir/images/tag_ir01.gif" width="67" height="14" alt="リリース" /></dd>
+<dd class="txt"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170221_2.pdf" target="_blank">
+連結子会社「Keepdata株式会社」業務改善および新規ビジネスの確立を支援する新たなビッグデータ分析サービスの提供を開始
+</a><span class="pdf"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170221_2.pdf" target="_blank">（400KB）</a></span></dd>
+</dl>
+
+<dl class="clearfix">
+<dt>2017/02/14</dt>
+<dd class="tag"><img src="http://www.yumeshin.co.jp/ir/images/tag_ir03.gif" width="67" height="14" alt="有報" /></dd>
+<dd class="txt"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170214_hokokusyo.pdf" target="_blank">
+第39期 第1四半期報告書（平成29年度）
+</a><span class="pdf"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170214_hokokusyo.pdf" target="_blank">（128KB）</a></span></dd>
+</dl>
+
+<dl class="clearfix">
+<dt>2017/02/08</dt>
+<dd class="tag"><img src="http://www.yumeshin.co.jp/ir/images/tag_ir04.gif" width="67" height="14" alt="説明会" /></dd>
+<dd class="txt"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170208_FY17Q1_setsumeikai.pdf" target="_blank">
+2017年9月期 第1四半期 アナリスト向け決算説明資料
+</a><span class="pdf"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170208_FY17Q1_setsumeikai.pdf" target="_blank">（2740KB）</a></span></dd>
+</dl>
+
+<dl class="clearfix">
+<dt>2017/02/03</dt>
+<dd class="tag"><img src="http://www.yumeshin.co.jp/ir/images/tag_ir01.gif" width="67" height="14" alt="リリース" /></dd>
+<dd class="txt"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170203.pdf" target="_blank">
+2017年9月期 第1四半期 連結決算概況について
+</a><span class="pdf"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170203.pdf" target="_blank">（384KB）</a></span></dd>
+</dl>
+
+<dl class="clearfix">
+<dt>2016/02/03</dt>
+<dd class="tag"><img src="http://www.yumeshin.co.jp/ir/images/tag_ir02.gif" width="67" height="14" alt="決算短信" /></dd>
+<dd class="txt"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170203_FY17Q1_tanshin.pdf" target="_blank">
+平成29年9月期 第1四半期決算短信〔日本基準〕（連結）
+</a><span class="pdf"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170203_FY17Q1_tanshin.pdf" target="_blank">（272KB）</a></span></dd>
+</dl>
+
+<dl class="clearfix">
+<dt>2017/02/02</dt>
+<dd class="tag"><img src="http://www.yumeshin.co.jp/ir/images/tag_ir01.gif" width="67" height="14" alt="リリース" /></dd>
+<dd class="txt"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170202.pdf" target="_blank">
+連結子会社によるITエンジニア育成拠点開設のお知らせ
+</a><span class="pdf"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170202.pdf" target="_blank">（792KB）</a></span></dd>
+</dl>
+
+<dl class="clearfix">
+<dt>2017/01/30</dt>
+<dd class="tag"><img src="http://www.yumeshin.co.jp/ir/images/tag_ir01.gif" width="67" height="14" alt="リリース" /></dd>
+<dd class="txt"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170130.pdf" target="_blank">
+株式会社ダズルの株主追加取得に関するお知らせ
+</a><span class="pdf"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170130.pdf" target="_blank">（192KB）</a></span></dd>
+</dl>
+
+<dl class="clearfix">
+<dt>2017/01/27</dt>
+<dd class="tag"><img src="http://www.yumeshin.co.jp/ir/images/tag_ir01.gif" width="67" height="14" alt="リリース" /></dd>
+<dd class="txt"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170127.pdf" target="_blank">
+Keepdata 株式会社の株式追加取得に関するお知らせ
+</a><span class="pdf"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170127.pdf" target="_blank">（212KB）</a></span></dd>
+</dl>
+
+<dl class="clearfix">
+<dt>2017/01/26</dt>
+<dd class="tag"><img src="http://www.yumeshin.co.jp/ir/images/tag_ir01.gif" width="67" height="14" alt="リリース" /></dd>
+<dd class="txt"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170126.pdf" target="_blank">
+「建設IT技術者」採用による採用計画の修正に関するお知らせ
+</a><span class="pdf"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170126.pdf" target="_blank">（172KB）</a></span></dd>
+</dl>
+
+<dl class="clearfix">
+<dt>2017/01/16</dt>
+<dd class="tag"><img src="http://www.yumeshin.co.jp/ir/images/tag_ir01.gif" width="67" height="14" alt="リリース" /></dd>
+<dd class="txt"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170116.pdf" target="_blank">
+2017年9月期 10～12月度 四半期速報について
+</a><span class="pdf"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20170116.pdf" target="_blank">（152KB）</a></span></dd>
+</dl>
+
+<dl class="clearfix">
+<dt>2017/01/05</dt>
+<dd class="tag"><img src="http://www.yumeshin.co.jp/ir/images/tag_ir05.gif" width="67" height="14" alt="その他" /></dd>
+<dd class="txt"><a href="http://www.yumeshin.co.jp/ir/library/factbook/">「FACT BOOK」を更新しました。</a></span></dd>
+</dl>
+
+<dl class="clearfix">
+<dt>2017/01/05</dt>
+<dd class="tag"><img src="http://www.yumeshin.co.jp/ir/images/tag_ir04.gif" width="67" height="14" alt="説明会" /></dd>
+<dd class="txt"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20161217_setsumeikai.pdf" target="_blank">
+個人投資家様向け会社説明会資料（2016年12月17日開催）
+</a><span class="pdf"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20161217_setsumeikai.pdf" target="_blank">（8500KB）</a></span></dd>
+</dl>
+
+<dl class="clearfix">
+<dt>2016/12/20</dt>
+<dd class="tag"><img src="http://www.yumeshin.co.jp/ir/images/tag_ir03.gif" width="67" height="14" alt="有報" /></dd>
+<dd class="txt"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20161222_yuho.pdf" target="_blank">
+第38期 有価証券報告書(平成28年度)
+</a><span class="pdf"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20161222_yuho.pdf" target="_blank">（604KB）</a></span></dd>
+</dl>
+
+<dl class="clearfix">
+<dt>2016/12/19</dt>
+<dd class="tag"><img src="http://www.yumeshin.co.jp/ir/images/tag_ir05.gif" width="67" height="14" alt="その他" /></dd>
+<dd class="txt"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20161219_FY16Q4_kabutsu.pdf" target="_blank">
+第38期 期末株主通信
+</a><span class="pdf"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20161219_FY16Q4_kabutsu.pdf" target="_blank">（3420KB）</a></span></dd>
+</dl>
+
+<dl class="clearfix">
+<dt>2016/12/15</dt>
+<dd class="tag"><img src="http://www.yumeshin.co.jp/ir/images/tag_ir01.gif" width="67" height="14" alt="リリース" /></dd>
+<dd class="txt"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20161215.pdf" target="_blank">
+当社が2017年度より新たに算出･配信される｢JPX 日経中小型株指数｣の構成銘柄へ選定されました
+</a><span class="pdf"><a href="http://www.yumeshin.co.jp/ir/pdf/ir20161215.pdf" target="_blank">（188KB）</a></span></dd>
+</dl>
+
+
+
+<div class="btnList">
+<a href="http://www.yumeshin.co.jp/ir/news/" class="fs10">プレスリリースはこちら</a>
+</div>
+</div><!-- /tab2 -->
+
+
+<!-- 採用情報 -->
+<div class="tabPanel" id="tab3">
+<dl class="clearfix">
+<dt>2016年06月13日</dt>
+<dd class="txt">マイナビPVランキングにて第5位にはいりました！<a href="https://job.mynavi.jp/17/pc/search/corp107245/outline.html" target="_blank">応募はこちら</a></dd>
+</dl>
+<dl class="clearfix">
+<dt>2016年04月08日</dt>
+<dd class="txt">マイナビPVランキングにて第10位にはいりました！<a href="https://job.mynavi.jp/17/pc/search/corp107245/outline.html" target="_blank">応募はこちら</a></dd>
+</dl>
+
+<div class="btnList">
+<a href="http://www.recruit-yumeshin.com/" target="_blank" class="fs10">採用情報はこちら</a>
+</div>
+</div><!-- /tab3 -->
+
+
+<!-- 更新情報 -->
+<div class="tabPanel" id="tab4">
+<dl class="clearfix">
+
+<dl class="clearfix">
+<dt>2016年07月13日</dt>
+<dd class="txt"><a href="http://www.yumeshin.co.jp/ir/english/">Has been updated 「Investor Relations(English) Press Releases」.</a></dd>
+</dl>
+
+<dl class="clearfix">
+<dt>2016年04月12日</dt>
+<dd class="txt"><a href="http://www.yumeshin.co.jp/ir/english/">Has been updated 「Investor Relations(English) Press Releases」.</a></dd>
+</dl>
+
+<dl class="clearfix">
+<dt>2016年04月08日</dt>
+<dd class="txt"><a href="http://www.yumeshin.co.jp/ir/library/factbook/">「ファクトブック」を更新しました。</a></dd>
+</dl>
+<dl class="clearfix">
+<dt>2016年01月14日</dt>
+<dd class="txt"><a href="http://www.yumeshin.co.jp/ir/english/">Has been updated 「Investor Relations(English) Press Releases」.</a></dd>
+</dl>
+<dl class="clearfix">
+<dt>2016年01月07日</dt>
+<dd class="txt"><a href="http://www.yumeshin.co.jp/ir/english/">Has been updated 「Investor Relations(English) Press Releases」.</a></dd>
+</dl>
+
+<div class="btnList">
+<a href="http://www.yumeshin.co.jp/company/information/" class="fs10">更新情報一覧</a>
+</div>
+</div><!-- /tab4 -->
+
+
+
+<!-- 社員の皆様へ -->
+<!--
+<div class="tabPanel" id="tab5">
+<dl class="clearfix">
+<dt>2017年02月24日</dt>
+<dd class="txt"><a href="http://www.yumeshin.co.jp/ir/english/">Investor Relations(English)</a></dd>
+</dl>
+-->
+
+
+<!-- EnglishIR -->
+<div class="tabPanel" id="tab5">
+<div>
+<script language="JavaScript">
+document.write ('<' + 'script language="JavaScript" src="https://ircms.irstreet.com/contents/export.php?template=1503&brand=56&charset=4&url=' + escape(window.location.href) + '"></' + 'script>');
+</script>
+</div>
+<div class="btnList">
+<a href="http://www.yumeshin.co.jp/ir/english/" class="fs10">English IR</a>
+</div>
+</div><!-- /tab5 -->
+
+</div><!-- /tabPanelGroup -->
+</div>
+</div><!-- /whatsnew -->
+<div class="section" id="cont-bnr">
+<!-- 20140930 banner add position -->
+<!-- 2014.12.16 -->
+<ul>
+<li><a href="http://www.yumeshin.co.jp/ir/english/"><img src="images/btn_ir_english.gif" width="213" height="56" alt="IR English" class="btnOpacity" /></a></li>
+<li><a href="http://www.irstreet.com/jp/brand.php?&content=brand_newsrelease&brand=56" target="_blank"><img src="images/bnr_ir_street.gif" width="213" height="56" alt="IR STREET" class="btnOpacity" /></a></li>
+<li class="m0"><a href="http://www.irstreet.com/jp/brand.php?&content=brand_presentation&brand=56" target="_blank"><img src="images/movie_ir.gif" width="213" height="56" alt="IR Movie" class="btnOpacity" /></a></li>
+<li style="margin-top:10px;"><a href="http://www.sharedresearch.jp/ja/2362" target="_blank"><img src="images/bnr_shared_research.gif" width="213" height="56" alt="Shared Rearch" class="btnOpacity" /></a></li>
+<li style="margin-top:10px;"><a href="http://www.sharedresearch.jp/en/2362" target="_blank"><img src="images/bnr_shared_research_en.gif" width="213" height="56" alt="Shared Rearch English" class="btnOpacity" /></a></li>
+</ul>
+<!-- 2014.12.16 -->
+</div><!-- /cont-bnr -->
+</div><!-- /contentsArea -->
+<div id="sideArea">
+<div id="side-bnr">
+<ul>
+<!--
+<li><a href="http://ir.adnet.jp/index.html" target="_blank"><img src="./images/214-50b.gif" width="280" height="65" alt="日経IR・投資フェア2016" class="btnOpacity" />
+</a></li>
+-->
+<li><a href="http://www.recruit-yumeshin.com/" target="_blank"><img src="./images/botan_saiyoccc.png" width="280" height="352" alt="採用はこちら" class="btnOpacity" name="SP"/>
+</a></li>
+<!--2013.10.30 Add-->
+
+<!--2013.11.13 Add-->
+<!--
+<li><a onclick="window.open('./tv_cm_c.html', '','width=865,height=650'); return false;" href="./tv_cm_c.html"><img src="./images/cm_schedule_l.jpg" width="280" height="167" alt="CM" class="btnOpacity" /></a></li>
+-->
+<!--2013.11.13 End-->
+
+<!--俺の夢-->
+<li><a href="http://www.oreyume.com" class="btnOpacity" target="_blank" /><img src="http://www.yumeshin.co.jp/images/oreyume.png" width="280" height="105" alt="" class="btnOpacity" /></a></li>
+
+<li><a href="http://www.yumeshin.co.jp/inquiry/index_e.php"><img src="http://www.yumeshin.co.jp/images/jinzai_rink.jpg" width="280" height="57" alt="人材をお探しの企業様はこちら" class="btnOpacity" /></a></li>
+
+<!--<li><a href="./kikan.pdf"><img src="./images/kikan.jpg" width="280" height="57" alt="期間社員募集" class="btnOpacity" /></a></li>-->
+<li><a href="./BMI_Web.pdf" target="_blank"><img src="http://www.yumeshin.co.jp/images/BIM-rink.png" width="280" height="57" alt="BMIオペレータ派遣" class="btnOpacity" /></a></li>
+
+<!--2014.12.16 Add_Start-->
+<li><a href="https://ircms.irstreet.com/member_registration/new_u.php?site=1&language=1&brand_selection=0&regist_brand_select[]=56" target="_blank"><img src="http://www.yumeshin.co.jp/images/IRSlogo_Mail_Jp.gif" width="138" height="58" alt="IR Mail Jp" class="btnOpacity" /></a><a href="https://ircms.irstreet.com/member_registration/new_u.php?site=2&language=2&brand_selection=0&regist_brand_select[]=56" target="_blank"><img src="http://www.yumeshin.co.jp/images/IRSlogo_Mail_En.gif" width="138" height="58" alt="IR Mail En" class="btnOpacity" style="margin-left:4px;" /></a></li>
+
+<!--日本ラグビー協会-->
+<li><a href="https://www.facebook.com/216494591778046/photos/a.216683668425805.51358.216494591778046/1096819483745548/?type=3&theater" class="btnOpacity" target="_blank" /><img src="http://www.yumeshin.co.jp/images/Rugby-rink.png" width="280" height="57" alt="" class="btnOpacity" /></a></li>
+
+<!--フウガドールすみだ-->
+<li><a href="http://www.fuga-futsal.com/" class="btnOpacity" target="_blank" /><img src="http://www.yumeshin.co.jp/images/fugador-rink.png" width="280" height="62" alt="" class="btnOpacity" /></a></li>
+
+<!--ヴェルディ東京-->
+<li><a href="http://www.verdy.co.jp/volleyball/" class="btnOpacity" target="_blank" /><img src="http://www.yumeshin.co.jp/images/verdy-rink.png" width="280" height="62" alt="" class="btnOpacity" /></a></li>
+
+<!--ベガルタ仙台-->
+<li><a href="http://www.vegalta.co.jp/" class="btnOpacity" target="_blank" /><img src="http://www.yumeshin.co.jp/images/vegalta.png" width="280" height="62" alt="" class="btnOpacity" /></a></li>
+
+<!--アビスパ福岡-->
+<li><a href="https://www.avispa.co.jp/" class="btnOpacity" target="_blank" /><img src="http://www.yumeshin.co.jp/images/avispa.png" width="282" height="64" alt="" class="btnOpacity" /></a></li>
+
+<!--アルビレックス新潟-->
+<li><a href="http://www.albirex.co.jp/" class="btnOpacity" target="_blank" /><img src="http://www.yumeshin.co.jp/images/albirex.png" width="280" height="62" alt="" class="btnOpacity" /></a></li>
+
+<!--楽天ゴールデンイーグルス-->
+<li><a href="https://www.rakuteneagles.jp/special/natsusta/" class="btnOpacity" target="_blank" /><img src="http://www.yumeshin.co.jp/images/rakuten_natsu.png" width="282" height="64" alt="" class="btnOpacity" /></a></li>
+
+<!--2014.12.16 Add_Stop-->
+</ul>
+</div><!-- /side-bnr -->
+</div><!-- /sideArea -->
+<!--2014.09.11 Chg-->
+<div id="syo">
+<ul id="yhk">
+<li class="mnu"><a rel="nofollow" href="http://www.recruit-yumeshin.com/career/recruit_ine.shtml" target="_blank"><img src="images/lp_btn_mikeiken.png" alt="未経験採用(求人)" width="127" height="33" class="btnOpacity" /></a></li>
+<li class="mnu"><a rel="nofollow" href="http://www.recruit-yumeshin.com/career/recruit_cad.shtml" target="_blank"><img src="./images/lp_btn_cad.png" alt="CADオペレーター採用(求人)" width="127" height="33" class="btnOpacity" /></a></li>
+<li class="mnu"><a rel="nofollow" href="http://www.recruit-yumeshin.com/career/recruit_con.shtml" target="_blank"><img src="./images/lp_btn_con.png" alt="建築採用(求人)" width="127" height="33" class="btnOpacity" /></a></li>
+<li class="mnu"><a rel="nofollow" href="http://www.recruit-yumeshin.com/career/recruit_hig.shtml" target="_blank"><img src="./images/lp_btn_hig.png" alt="高卒採用(求人)" width="127" height="33" class="btnOpacity" /></a></li>
+<li class="mnu"><a rel="nofollow" href="http://www.recruit-yumeshin.com/career/recruit_scg.shtml" target="_blank"><img src="./images/lp_btn_scg.png" alt="第二新卒採用(求人)" width="127" height="33" class="btnOpacity" /></a></li>
+<li class="mnu"><a rel="nofollow" href="http://www.recruit-yumeshin.com/career/recruit_fre.shtml" target="_blank"><img src="./images/lp_btn_fre.png" alt="フリーター採用(求人)"  width="127" height="33" class="btnOpacity" /></a></li>
+<li class="mnu"><a rel="nofollow" href="./haken_koukai.html"><img src="./images/haken.gif" alt="派遣法に基づく情報公開" width="88" height="33" class="btnOpacity" /></a></li>
+<li class="mnu"><a rel="nofollow" href="http://www.ginza-kokoro.com" target="_blank"><img src="./images/kokoro_Link.jpg" alt="創作和食 銀座 志" width="61" height="33" class="btnOpacity" /></a></li>
+</ul>
+</div>
+<!--2014.09.11 End-->
+</div>
+</div><!-- /container -->
+<div id="footer">
+<div class="wrapper">
+<div class="left"><img src="http://www.yumeshin.co.jp/images/txt_footer01.gif" width="177" height="12" alt="株式会社 夢真ホールディングス" /><img src="http://www.yumeshin.co.jp/images/copyright.gif" width="280" height="13" alt="Copyright○c2011 YUMESHIN HOLDINGS Co.,Ltd. All rights reserved." /></div>
+<div class="btn-top"><a href="#header"><img src="http://www.yumeshin.co.jp/images/btn_pagetop.gif" width="87" height="11" alt="ページトップへ" class="roll" /></a></div>
+</div>
+</div><!-- /footer -->
+</body>
+</html>

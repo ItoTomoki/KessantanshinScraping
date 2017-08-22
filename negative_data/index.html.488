@@ -1,0 +1,394 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="robots" content="index,follow" />
+<meta name="description" content="東京エレクトロンデバイスの公式サイト。半導体、ソフトウェア、電子部品の販売、設計・開発と、ネットワーク、ストレージ、ソフトウェアの販売、保守サービスを提供。企業情報、商品情報、IR情報、ニュースなどを掲載しています。" />
+<meta name="author" content="東京エレクトロンデバイス" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<link rel="stylesheet" type="text/css" href="/css/common.css" media="all" />
+<link rel="stylesheet" type="text/css" href="/css/top.css" media="all" />
+<script type="text/javascript" charset="utf-8" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="/js/CJS.js"></script>
+<script type="text/javascript" charset="utf-8" src="/js/common.js"></script>
+<script type="text/javascript" charset="utf-8" src="/js/crossfade.js"></script>
+<script type="text/javascript" charset="utf-8" src="/js/top.js"></script>
+<title>トップ｜東京エレクトロンデバイス　最先端の製品を高度な技術サポートとともに提供</title>
+
+</head>
+
+<body onload="get_category();">
+<div id="wrap">
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-1204091-1");
+pageTracker._trackPageview();
+} catch(err) {}
+</script>
+
+	<!--ヘッダー-->
+	<header id="header">
+		<div class="header_top">
+			<div class="header_inner">
+				<ul class="header_nav">
+					<li class="nav_item"><a href="/contact/index.html" class="nav_link">お問い合わせ</a></li>
+					<li class="nav_item"><a href="/company/map011.html" class="nav_link">アクセス</a></li>
+					<li class="nav_item"><a href="/eng/index.html" class="nav_link" target="_blank">English</a></li>
+				</ul><!-- /#header_nav -->
+
+				<div class="header_search">
+					<script>
+              (function() {
+                var cx = '002879097102999723651:izcx89o5hlw';
+                var gcse = document.createElement('script');
+                gcse.type = 'text/javascript';
+                gcse.async = true;
+                gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(gcse, s);
+              })();
+            </script>
+            <gcse:searchbox-only></gcse:searchbox-only>
+
+				</div>
+			</div><!-- /#header_search -->
+		</div><!-- /.header_top -->
+		<div id="header_menu" class="header_menu">
+			<div class="header_menu_inner clearfix">
+				<h1 class="header_logo">
+					<a href="http://www.teldevice.co.jp/index.html"><img src="/img/common/logo.png" alt="東京エレクトロンデバイスロゴ" width="322" height="30"></a>
+				</h1><!-- /.header_logo -->
+				<nav class="global_nav">
+					<ul>
+						<li class="global_nav_item"><a href="/company/index.html"><img src="/img/common/nav_01.png" alt="会社情報" width="58" height="15"></a></li>
+						<li class="global_nav_item"><a href="/product/index.php"><img src="/img/common/nav_02.png" alt="商品情報" width="58" height="15"></a></li>
+						<li class="global_nav_item"><a href="/ir/index.html"><img src="/img/common/nav_03.png" alt="投資家の皆様へ" width="103" height="15"></a></li>
+						<li class="global_nav_item"><a href="/csr/index.html"><img src="/img/common/nav_04.png" alt="CSR" width="34" height="15"></a></li>
+						<li class="global_nav_item"><a href="/careers/"><img src="/img/common/nav_05.png" alt="リクルート" width="65" height="15"></a></li>
+					</ul>
+				</nav><!-- /.global_nav -->
+			</div><!-- /.header_menu_inner -->
+		</div>
+	</header>
+
+<!--↓ここからメインコンテンツ↓-->
+
+<div class="kv">
+
+<ul id="slider">
+	<li><img src="img/top/kv_01.jpg" alt="" width="950" height="340" /></li>
+	<li><img src="img/top/kv_02.jpg" alt="" width="950" height="340" /></li>
+	<li><img src="img/top/kv_03.jpg" alt="" width="950" height="340" /></li>
+	<li><img src="img/top/kv_04.jpg" alt="" width="950" height="340" /></li>
+</ul>
+
+<div class="opening">
+	<div class="logo"><img src="img/top/kv_logo_t.png" width="219" height="75" alt="Connect Beyond" /></div>
+	<div class="txt"><img src="img/top/kv_logo_b.png" width="183" height="28" alt="共に創る 新たな価値を" /></div>
+</div>
+
+<div class="slideMarker">
+<span class="on"></span><span></span><span></span><span></span>
+</div>
+
+</div>
+
+<div id="main" class="top">
+
+
+<!--! ↓ここからBCP↓- -->
+<!-- <h1 class="txt_red02 ">重要なお知らせ</h1>
+<div class="info clearfix">
+	<ul class="list">
+		<li><a href="/img/important/press_YYMMDD.pdf" target="_blank">〇月〇日に発生した〇〇地震の影響について</a></li>
+		<li><a href="/img/important/press_YYMMDD_2.pdf" target="_blank">〇月〇日に発生した〇〇地震の影響について（第２報）</a></li>
+		<li><a href="/img/important/press_YYMMDD_3.pdf" target="_blank">〇月〇日に発生した〇〇地震の影響について（第〇報最終）</a></li>
+	</ul>
+</div> -->
+<!--! ↑ここまでBCP↑ -->
+
+
+<h1>事業領域</h1>
+<div class="bussiness clearfix">
+	<div class="list">
+		<div class="img"><a href="product/maker_list.php"><img src="img/top/business_img_01.jpg" width="297" height="142" alt="Semiconductor" /></a></div>
+		<div class="txt">
+			<dl>
+				<dt><a href="product/maker_list.php"><img src="img/top/business_ttl_01.png" width="256" height="57" alt="Semiconductor" /></a></dt>
+				<dd>最先端の半導体、ソフトウェア、電子部品の仕入れ・販売、技術サポート。</dd>
+			</dl>
+			<ul class="clearfix">
+				<li><a href="product/maker_list.php">メーカーから探す</a></li>
+				<li><a href="product/category.php">カテゴリから探す</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="list">
+		<div class="img"><a href="http://cn.teldevice.co.jp/" target="_new"><img src="img/top/business_img_02.jpg" width="297" height="142" alt="IT Solution" /></a></div>
+		<div class="txt">
+			<dl>
+				<dt><a href="http://cn.teldevice.co.jp/" target="_new"><img src="img/top/business_ttl_02.png" width="256" height="57" alt="IT Solution" /></a></dt>
+				<dd>ネットワークやストレージ等のソリューションの仕入・販売、技術サポート。</dd>
+			</dl>
+			<ul class="clearfix">
+				<li><a href="http://cn.teldevice.co.jp/product/list/maker?_ga=1.90803994.1241409676.1386119252" target="_blank">メーカーから探す</a></li>
+				<li><a href="http://cn.teldevice.co.jp/product/list/category" target="_blank">カテゴリから探す</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="list">
+		<div class="img"><a href="http://www.inrevium.com/" target="_blank"><img src="img/top/business_img_03.jpg" width="297" height="142" alt="inrevium" /></a></div>
+		<div class="txt">
+			<dl>
+				<dt><a href="http://www.inrevium.com/" target="_blank"><img src="img/top/business_ttl_03.png" width="256" height="57" alt="inrevium" /></a></dt>
+				<dd>評価プラットフォーム、LSI等の「設計・量産受託サービス」や「自社開発商品」の提供</dd>
+			</dl>
+			<ul class="clearfix">
+				<li><a href="http://www.inrevium.com/product/index.html#category" target="_blank">カテゴリから探す</a></li>
+				<li><a href="http://www.inrevium.com/product/index.html#keyword" target="_blank">キーワードから探す</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<h1>ピックアップ</h1>
+<div class="pickup clearfix">
+	<div class="list">
+		<div class="img"><a href="/ted_real_iot/" target="_blank"><img src="img/top/pickup_img_02.jpg" width="260" height="101" alt="TEDのIoTシステム構築サービス" /></a></div>
+		<dl class="txt">
+			<dt><a href="/ted_real_iot/" target="_blank">TED Real IoT</a><div class="btn-box"><a href="/ted_real_iot/"><img src="img/top/btn_contact.png" width="140" height="32" alt="お問い合わせ" /></a><a href="/ted_real_iot/download/"><img src="img/top/btn_download.png" width="140" height="32" alt="資料DL" /></a></div></dt>
+			<dd><p>「データをビジネス価値へ換える道」</p>お客様の開発ステージにあわせて必要な技術や製品をご提供することにより、<br>収集データから「ビジネス価値」を生みだす最速の方法をご提案します 。</dd>
+		</dl>
+	</div>
+</div>
+
+
+<h1>インフォメーション</h1>
+<div class="info clearfix">
+	<div class="left">
+		<!--↓ここからセミナー、イベントインフォメーション↓-->
+		<div>
+			<div class="ttl clearfix">
+				<h2>セミナー、イベントインフォメーション</h2>
+				<div><a href="semi_info/"><img src="img/top/info_btn.png" width="104" height="25" alt="一覧はこちら" /></a></div>
+			</div>
+			<ul class="list">
+				<li><a href="/product/cypress/seminar.php">サイプレス社 ハンズオン トレーニング ワークショップ 開催</a><span class="tag">セミナー</span></li>
+				<li><a href="/ted_real_iot/seminar/sep2017.php">【名古屋会場】 IoT短期構築に欠かせない6種の神技（じんぎ）<br />
+				TED Real IoTセミナー開催 / 9月8日（金）</a><span class="tag">セミナー</span><br><!-- <span class="red">本セミナーの登録受付は終了いたしました</span> --></li>
+				<li><a href="http://cn.teldevice.co.jp/seminar/id/189" target="_blank">キーワードは「徹底的にシンプル」！<br />
+				次世代ストレージの最新情報をご紹介！/8月24日（木）</a><span class="tag">セミナー</span></li>
+				<li><a href="http://cn.teldevice.co.jp/seminar/id/188" target="_blank">情報セキュリティ担当者必見！<br />
+				多層防御「次の一手」セミナー/8月25日（金）</a><span class="tag">セミナー</span></li>
+				<li><a href="/product/analog-devices/seminar.php">アナログ・デバイセズ社 アナログ技術セミナー2017</a><span class="tag">セミナー</span><br><!-
+
+			</ul>
+		</div>
+		<!--↑ここまでセミナー、イベントインフォメーション↑-->
+		<!--↓ここからプロダクトインフォメーション↓-->
+		<div>
+			<div class="ttl clearfix">
+				<h2>プロダクトインフォメーション</h2>
+				<div><a href="pro_info/index.php"><img src="img/top/info_btn.png" width="104" height="25" alt="一覧はこちら" /></a></div>
+			</div>
+			<ul class="list">
+				<li>
+					<dl>
+						<dt>2017/08/07<span class="tag">リリース</span></dt>
+						<dd><a href="/pro_info/2017/press_170807.php">Microsoft Azureの24時間365日サポートサービス「マネージドAzure」をJIG-SAWと連携して提供開始</a></dd>
+					</dl>
+				</li>
+<!-- 				<li>
+					<dl>
+						<dt>2017/07/12<span class="tag">リリース</span></dt>
+						<dd><a href="/pro_info/2017/press_170712.php">米国アプストラ社と代理店契約を締結し、<br />インテントベース・ネットワークシステムを提供開始</a></dd>
+					</dl>
+				</li> -->
+<!-- 				<li>
+					<dl>
+						<dt>2017/06/29<span class="tag">リリース</span></dt>
+						<dd><a href="/pro_info/2017/press_170629.php">ハイブリッド/マルチクラウド対応型セキュリティソフトウェア<br>米国ShieldX Networks「APEIRO」の販売を開始</a></dd>
+					</dl>
+				</li>
+<!-- 				<li>
+					<dl>
+						<dt>2017/06/08<span class="tag">リリース</span></dt>
+						<dd><a href="/pro_info/2017/press_170608.php">ナノミストテクノロジーズ株式会社と霧化分離装置の共同開発を開始</a></dd>
+					</dl>
+				</li> -->
+
+
+
+
+			</ul>
+		</div>
+		<!--↑ここまでプロダクトインフォメーション↑-->
+	</div>
+	<div class="right">
+		<!--↓ここからコーポレートインフォメーション↓-->
+		<div>
+			<div class="ttl clearfix">
+				<h2>コーポレートインフォメーション</h2>
+				<div><a href="corp_info/index.php"><img src="img/top/info_btn.png" width="104" height="25" alt="一覧はこちら" /></a></div>
+			</div>
+			<ul class="list">
+				<li>
+					<dl>
+						<dt>2017/07/26<span class="tag">企業情報</span></dt>
+						<dd>
+							<a href="/ir/ir_data/tanshin/ir_tansin170726.pdf" target="_blank">平成30年3月期 第1四半期決算短信を発表しました</a>
+						</dd>
+					</dl>
+				</li>
+				<li>
+					<dl>
+						<dt>2017/07/26<span class="tag">企業情報</span></dt>
+						<dd>
+							<a href="/ir/ir_data/ir_news/ir_170726.pdf" target="_blank">平成30年3月期第2四半期（累計）連結業績予想の修正に関するお知らせ</a>
+						</dd>
+					</dl>
+				</li>
+				<li>
+					<dl>
+						<dt>2017/07/21<span class="tag">その他</span></dt>
+						<dd>
+							7月24日(月)18:00 &#12316; 20:30の間、サーバーメンテナンスのため<br />
+							サイトの閲覧が一時的にできない場合がございますのでご了承ください。
+						</dd>
+					</dl>
+				</li>
+				<li>
+					<dl>
+						<dt>2017/07/03<span class="tag">企業情報</span></dt>
+						<dd>
+						<a href="/corp_info/2017/press_170703_01.html">重要な人事に関するお知らせ</a>
+						</dd>
+					</dl>
+				</li>
+				<li>
+					<dl>
+						<dt>2017/07/03<span class="tag">企業情報</span></dt>
+						<dd>
+						<a href="/corp_info/2017/press_170703.html">株式会社アバール長崎の株式の取得完了（子会社化）に関するお知らせ</a>
+						</dd>
+					</dl>
+				</li>
+<!-- 				<li>
+					<dl>
+						<dt>2017/07/03<span class="tag">企業情報</span></dt>
+						<dd>
+						企業情報 07/01(土)付で、組織変更を行いました。<br />
+						<a href="/corp_info/2017/press_170531.html">2017年05月31日ニュースリリース</a><br />
+						<a href="/company/soshiki.html">&raquo;組織図はこちら</a>
+						</dd>
+					</dl>
+				</li> -->
+			</ul>
+		</div>
+		<!--↑ここまでコーポレートインフォメーション↑-->
+	</div>
+</div>
+
+<div class="sw clearfix">
+	<div class="logo"><img src="img/top/sw_logo.jpg" width="216" height="46" alt="TED SUPPORT WEB" /></div>
+	<p class="txt">半導体設計者のための最新技術情報や設計手法のトレーニングなど、<br />「設計者のためのマイページ」を提供しています。</p>
+	<div class="btn"><a href="support/"><img src="img/top/sw_btn.png" width="215" height="46" alt="詳しくはこちら" /></a></div>
+</div>
+
+<div class="banner">
+	<ul class="clearfix">
+		<li>
+			<dl>
+				<dt><a href="http://esg.teldevice.co.jp/" target="_blank"><img src="img/top/banner_01.jpg" width="297" height="82" alt="組み込み向けソリューション" /></a></dt>
+				<dd><a href="http://esg.teldevice.co.jp/" target="_blank">組み込み向けソリューション</a></dd>
+			</dl>
+		</li>
+		<li>
+			<dl>
+				<dt><a href="http://esg.teldevice.co.jp/azure-iot/" target="_blank"><img src="img/top/banner_04.png" width="297" height="82" alt="IoT向けクラウドソリューション" /></a></dt>
+				<dd><a href="http://esg.teldevice.co.jp/azure-iot/" target="_blank">IoT向けクラウドソリューション</a></dd>
+			</dl>
+		</li>
+		<li>
+			<dl>
+				<dt><a href="http://www.panelectron.co.jp/" target="_blank"><img src="img/top/banner_02.jpg" width="297" height="82" alt="グループ会社サイト" /></a></dt>
+				<dd><a href="http://www.panelectron.co.jp/" target="_blank">グループ会社サイト</a></dd>
+			</dl>
+		</li>
+	</ul>
+</div>
+
+</div>
+
+<!--↑ここまでメインコンテンツ↑-->
+
+	<!--フッター-->
+	<footer id="footer_area">
+		<div id="pagetop" class="pagetop">
+			<a href="#header" class="move"><img src="/img/common/pagetop.png" alt="ページの先頭へ" width="47" height="45"></a>
+		</div><!-- /#pagetop -->
+		<div id="footer_menu" class="footer_menu">
+			<p class="footer_logo wrapper">
+				<a href="http://www.teldevice.co.jp/index.html"><img src="/img/common/logo.png" alt="東京エレクトロンデバイスロゴ" width="322" height="30"></a>
+			</p><!-- /.footer_logo -->
+			<ul class="footer_nav wrapper">
+				<li class="nav_item"><a href="http://www.teldevice.co.jp/ir/koukoku.html" class="nav_link">電子公告</a></li>
+				<li class="nav_item"><a href="http://www.teldevice.co.jp/kiyaku.html" class="nav_link">ご利用規約</a></li>
+				<li class="nav_item"><a href="http://www.teldevice.co.jp/privacy.html" class="nav_link">プライバシーポリシー</a></li>
+				<li class="nav_item"><a href="http://www.teldevice.co.jp/ethics.html" class="nav_link">企業倫理ヘルプライン</a></li>
+				<li class="nav_item"><a href="http://www.teldevice.co.jp/sitemap.html" class="nav_link">サイトマップ</a></li>
+			</ul><!-- /.footer_nav -->
+		</div><!-- /#footer_menu -->
+		<div id="footer_copy" class="footer_copy">
+			<p class="footer_copy_body wrapper">Copyright&copy;Tokyo Electron Device LTD. All Rights Reserved.</p>
+		</div><!-- /#footer_copy -->
+	</footer><!-- /#footer area-->
+</div>
+
+<script type="text/javascript">
+if (location .protocol == "https:") {
+    document.write(unescape('%3Cscript src="https://ssl.syncsearch.jp/common/js/sync_suggest.js" type="text/javascript"%3E%3C/script%3E'));
+} else {
+    document.write(unescape('%3Cscript src="http://pro.syncsearch.jp/common/js/sync_suggest.js" type="text/javascript"%3E%3C/script%3E'));
+}
+</script>
+<script type="text/javascript">
+SYNCSEARCH_SITE="GS1KW5OT";
+</script>
+
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-5JG3GD"height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-5JG3GD');</script>
+<!-- End Google Tag Manager -->
+
+<!-- User Insight PCDF Code Start : teldevice.co.jp/ -->
+<script type="text/javascript">
+<!--
+var _uic = _uic ||{}; var _uih = _uih ||{};_uih['id'] = 52140;
+_uih['lg_id'] = '';
+_uih['fb_id'] = '';
+_uih['tw_id'] = '';
+_uih['uigr_1'] = ''; _uih['uigr_2'] = ''; _uih['uigr_3'] = ''; _uih['uigr_4'] = ''; _uih['uigr_5'] = '';
+_uih['uigr_6'] = ''; _uih['uigr_7'] = ''; _uih['uigr_8'] = ''; _uih['uigr_9'] = ''; _uih['uigr_10'] = '';
+
+/* DO NOT ALTER BELOW THIS LINE */
+/* WITH FIRST PARTY COOKIE */
+(function() {
+var bi = document.createElement('scri'+'pt');bi.type = 'text/javascript'; bi.async = true;
+bi.src = ('https:' == document.location.protocol ? 'https://bs' : 'http://c') + '.nakanohito.jp/b3/bi.js';
+var s = document.getElementsByTagName('scri'+'pt')[0];s.parentNode.insertBefore(bi, s);
+})();
+//-->
+</script>
+<!-- User Insight PCDF Code End : teldevice.co.jp/ -->
+
+<script type='text/javascript'>var $zoho= $zoho || {salesiq:{values:{},ready:function(){$zoho.salesiq.floatbutton.visible('hide');}}};var d=document;s=d.createElement('script');s.type='text/javascript';s.defer=true;s.src='https://salesiq.zoho.com/ted_globalops/float.ls?embedname=ted_globalops';t=d.getElementsByTagName('script')[0];t.parentNode.insertBefore(s,t);</script>
+</body>
+</html>

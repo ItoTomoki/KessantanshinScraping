@@ -1,0 +1,363 @@
+
+<!DOCTYPE html PUBLIC
+  "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+
+    
+    
+    
+    
+    
+
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <!-- Forces IE8+ into newest rendering engine even if on an intranet. This has to be defined before any script/style tags. -->
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge" /> --> 
+    <meta http-equiv="X-UA-Compatible" content="IE=emulateIE7" />
+
+    
+        <base href="https://www.saibo.co.jp/front-page" /><!--[if lt IE 7]></base><![endif]-->
+    
+
+    
+        
+<link rel="kss-base-url" href="https://www.saibo.co.jp/front-page/" />
+
+  
+    <link rel="stylesheet" type="text/css" href="https://www.saibo.co.jp/portal_css/Sunburst%20Theme/base-cachekey2476.css" />
+        <!--[if lt IE 8]>    
+    
+    <link rel="stylesheet" type="text/css" media="screen" href="https://www.saibo.co.jp/portal_css/Sunburst%20Theme/IEFixes-cachekey3826.css" />
+        <![endif]-->
+    
+    <link rel="stylesheet" type="text/css" media="all" href="https://www.saibo.co.jp/portal_css/Sunburst%20Theme/ploneCustom-cachekey6903.css" />
+
+  
+    <link rel="kinetic-stylesheet" type="text/css" href="https://www.saibo.co.jp/portal_kss/Sunburst%20Theme/resourcetinymce.ksstinymce-cachekey1045.kss" />
+    <link rel="kinetic-stylesheet" type="text/css" href="https://www.saibo.co.jp/portal_kss/Sunburst%20Theme/at-cachekey2071.kss" />
+  
+    <script type="text/javascript" src="https://www.saibo.co.jp/portal_javascripts/Sunburst%20Theme/jquery-cachekey8874.js"></script>
+    <script type="text/javascript" src="https://www.saibo.co.jp/portal_javascripts/Sunburst%20Theme/shared/js/jquery-1.4.4.min.js"></script>
+    <script type="text/javascript" src="https://www.saibo.co.jp/portal_javascripts/Sunburst%20Theme/shared/js/jquery.pngFix.js"></script>
+    <script type="text/javascript" src="https://www.saibo.co.jp/portal_javascripts/Sunburst%20Theme/shared/js/jquery.common.js"></script>
+    <script type="text/javascript" src="https://www.saibo.co.jp/portal_javascripts/Sunburst%20Theme/shared/js/swfobject.js"></script>
+    <script type="text/javascript" src="https://www.saibo.co.jp/portal_javascripts/Sunburst%20Theme/shared/js/saibo.js"></script>
+
+
+<title>トップ &mdash; サイボーホームページ</title>
+        
+
+    <link rel="home" href="https://www.saibo.co.jp" title="フロントページ" />
+
+    <link rel="contents" href="https://www.saibo.co.jp/sitemap" title="サイトマップ" />
+
+
+
+
+
+
+    <link rel="search" href="https://www.saibo.co.jp/search_form" title="このサイトを検索" />
+
+
+
+
+        
+        
+        
+        
+        
+
+        <meta name="viewport" content="width=device-width; initial-scale=0.6666; maximum-scale=1.0; minimum-scale=0.6666" />
+        <meta name="generator" content="Plone - http://plone.org" />
+    
+<script type="text/javascript">
+//<![CDATA[
+jQuery.event.add(window, "load", function(){
+	var flashvars = {};
+	var params = {
+		menu: "false",
+		scale: "noScale",
+		allowFullscreen: "true",
+		allowScriptAccess: "always",
+		bgcolor: "#FFFFFF",
+		wmode: "transparent"};
+	var attributes = {
+		name:"saiboTop",
+		id:"saiboTop"};
+	swfobject.embedSWF("swf/top.swf", "mainSWF", "443", "209", "9.0.0", "swf/expressInstall.swf", flashvars, params, attributes);
+});
+//]]>
+</script>
+    <link rel="stylesheet" media="all" type="text/css" href="saibo.css" />
+</head>
+
+<div id="wrapper">
+
+<body class="template-document_view portaltype-document section-front-page icons-on" dir="ltr">
+
+<div id="visual-portal-wrapper">
+
+        <div id="portal-top" class="row">
+<div class="cell width-full position-0"> <!-- TODO: Temporary, this one should be in the template that is inserted -->
+            <div id="portal-header">
+    <!--
+<p class="hiddenStructure"
+   i18n:domain="plone"
+   tal:define="url view/current_page_url">
+  <a accesskey="2"
+     tal:attributes="href string:${url}#content"
+     i18n:translate="label_skiptocontent">Skip to content.</a> |
+
+  <a accesskey="6"
+     tal:attributes="href string:${url}#portlet-navigation-tree"
+     i18n:translate="label_skiptonavigation">Skip to navigation</a>
+</p>
+-->
+
+
+<div id="header" class="clearfix">
+<h1 id="logo">
+<a id="portal-logo" title="ホーム" accesskey="1" href="https://www.saibo.co.jp">
+    <img src="/images/header/logo.gif" alt="SAIBO" /></a>
+</h1>
+
+<div id="headerbtn">
+<ul>
+<li><a href="/inquiry/index"><img src=" /images/header/btn_inquiry.gif" alt="お問い合わせ" /></a></li>
+<li><a href="/privacy/index"><img src=" /images/header/btn_privacy.gif" alt="プライバシーポリシー" /></a></li>
+<li><a href="/policy/index"><img src=" /images/header/btn_policy.gif" alt="サイトポリシー" /></a></li>
+<li class="right"><a href="/site_map/index"><img src=" /images/header/btn_sitemap.gif" alt="サイトマップ" /></a></li>
+</ul>
+</div></div>
+<div class="cell width-full position-0">
+<div id="portal-searchbox">
+    <form name="searchform" id="nolivesearchGadget_form" action="https://www.saibo.co.jp/search">
+        
+        <div class="LSBox">
+        <!-- label class="hiddenStructure"
+               tal:attributes="for search_input_id"
+               i18n:translate="text_search">Search Site</label -->
+<div id="headersearch">
+<!-- <div class="search"> -->
+        <img src="/images/header/search.gif" alt="サイト内検索" class="searchttl" />
+        <input name="SearchableText" type="text" title="サイトを検索" accesskey="4" class="txtBox" id="nolivesearchGadget" />
+
+        <input class="searchbtn" type="image" src=" /images/header/btn_search.gif" value="検索" />
+<!-- </div> -->
+</div>
+        </div>
+     </form>
+<div class="clear"><img src=" /images/spacer.gif" alt="" /></div>
+</div>
+</div>
+</div>
+</div>
+        </div>
+    <div id="portal-columns" class="row">
+
+        <div id="portal-column-content" class="cell width-full position-0">
+
+            <!--<div id="viewlet-above-content" tal:content="structure provider:plone.abovecontent" tal:condition="not:ajax_load" />-->
+
+            
+                <div class="">
+
+                    
+
+                    
+
+    <dl class="portalMessage info" id="kssPortalMessage" style="display:none">
+        <dt>Info</dt>
+        <dd></dd>
+    </dl>
+
+
+
+                    
+                       <!-- div id="content" -->
+                            
+
+                                                                                        
+
+                             <!-- タイトル表示部分削除 -->
+                             <!--
+                             <div tal:replace="structure provider:plone.abovecontenttitle" tal:condition="not:ajax_load" />                             
+                             <metal:title define-slot="content-title">                              
+                                 <metal:comment tal:content="nothing">
+                                     If you write a custom title always use 
+                                     <h1 class="documentFirstHeading"></h1> for it
+                                 </metal:comment>
+                                 <h1 metal:use-macro="context/kss_generic_macros/macros/generic_title_view">              
+                                     Generic KSS Title. Is rendered with class="documentFirstHeading".                    
+                                 </h1>                                                                                    
+                             </metal:title>
+                             -->
+                                                         
+                             
+
+                                                         
+                             <!--
+                             <metal:description define-slot="content-description">                  
+                                 <metal:comment tal:content="nothing">
+                                     If you write a custom description always use 
+                                     <div class="documentDescription"></div> for it    
+                                 </metal:comment>
+                                 <div metal:use-macro="context/kss_generic_macros/macros/generic_description_view">         
+                                     Generic KSS Description. Is rendered with class="documentDescription".               
+                                 </div>                                                                                     
+                             </metal:description>
+                             -->
+
+                             
+
+                              
+                             <div id="content-core">                                                                      
+                                 
+    
+        
+        <div class="" id="parent-fieldname-text">
+            <div class="clearfix" id="header">
+<ul id="gnavi">
+<li class="current"><img src="images/gnavi/gnavi01_on.gif" alt="HOME" /></li>
+<li><a class="internal-link" href="corporate/index"><img src="images/gnavi/gnavi02.gif" alt="グループ概要 CORPORATE" /></a></li>
+<li><a class="internal-link" href="outline/index"><img src="images/gnavi/gnavi03.gif" alt="事業概要 OUTLINE" /></a></li>
+<li><a class="internal-link" href="investor/index"><img src="images/gnavi/gnavi04.gif" alt="株主・投資家情報 INVESTOR RELATIONS" /></a></li>
+<li><a class="internal-link" href="csr/index"><img src="images/gnavi/gnavi05.gif" alt="社会貢献活動 CSR" /></a></li>
+<li><a class="internal-link" href="recruit/index"><img src="images/gnavi/gnavi06.gif" alt="採用情報 RECRUIT" /></a></li>
+</ul>
+</div>
+
+<div class="clearfix" id="content">
+<div id="topleftArea">
+<div class="topleftTtlMenu">
+<div class="topmenuimg"><img src="images/leftMenu/top_title.gif" alt="すべては一筋の糸から" /></div>
+</div>
+<ul class="topleftMenu">
+<li><a class="internal-link" href="corporate/index"><img src="images/leftMenu/leftMenu01.gif" alt="グループ概要 CORPORATE" /></a></li>
+<li><a class="internal-link" href="outline/index"><img src="images/leftMenu/leftMenu02.gif" alt="事業概要 OUTLINE" /></a></li>
+<li><a class="internal-link" href="investor/index"><img src="images/leftMenu/leftMenu03.gif" alt="株主・投資家情報 INVESTOR RELATIONS" /></a></li>
+<li><a class="internal-link" href="csr/index"><img src="images/leftMenu/leftMenu04.gif" alt="社会貢献活動 CSR" /></a></li>
+<li><a class="internal-link" href="recruit/index"><img src="images/leftMenu/leftMenu05.gif" alt="採用情報 RECRUIT" /></a></li>
+</ul>
+<div class="leftbanner"><a class="external-link" href="https://yumikatsura-homme.jp" target="_blank"><img src="images/top/btn_katsura_homme_01.jpg" alt="YUMI KATSURA HOMME" class="image-inline" /></a></div>
+</div>
+
+<div id="toprightArea">
+<div id="mainSWF"><img src="images/top_main.jpg" /></div>
+
+<div class="inner">
+<div><img src="images/top/new_info.gif" alt="最新情報" />
+<div class="newinfoBox clearfix">
+<p class="date">2017/08/08</p>
+<p class="content"><a href="https://www.saibo.co.jp/pdf/top/3123_20170808.pdf" class="internal-link" target="_blank">平成30年3月期 第1四半期決算短信〔日本基準〕(連結)</a></p>
+<div class="clear"><img src="images/spacer.gif" /></div>
+</div>
+<div class="newinfoBox clearfix">
+<p class="date">2017/07/27</p>
+<p class="content"><a href="https://www.saibo.co.jp/pdf/top/3123_20170727.pdf" class="internal-link" target="_blank">ストックオプション(新株予約権)の発行内容確定に関するお知らせ</a></p>
+<div class="clear"><img src="images/spacer.gif" /></div>
+</div>
+<div class="clearfix newinfoBox">
+<p class="date">2017/06/28</p>
+<p class="content"><a href="https://www.saibo.co.jp/pdf/top/3123_20170628_02.pdf" class="internal-link" target="_blank">支配株主等に関する事項について</a></p>
+<div class="clear"><img src="images/spacer.gif" /></div>
+</div>
+</div>
+<div></div>
+<ul class="btn_banner">
+<li><a class="internal-link" href="outline/index"><img src="images/top/btn_outline.png" alt="事業概要 OUTLINE" /></a></li>
+<li><a class="internal-link" href="investor/index"><img src="images/top/btn_investor.png" alt="株主・投資家情報 INVESTOR RELATIONS" /></a></li>
+<li><a class="internal-link" href="csr/index"><img src="images/top/btn_csr.png" alt="社会貢献活動 CSR" /></a></li>
+</ul>
+<p>※当サイトの推奨ブラウザは<a href="policy/index">こちら</a>をご確認ください。</p>
+</div>
+</div>
+</div>
+            
+        </div>
+    
+    
+                                                                            
+                             </div>                                                                                       
+                             
+
+
+
+    <div class="visualClear"><!-- --></div>
+
+    <div class="documentActions">
+        
+
+        
+
+    </div>
+                              
+
+                            
+                        <!-- /div -->
+                     
+
+                    
+                </div>
+            
+        
+            <div id="viewlet-below-content">
+
+
+
+
+
+    
+
+</div>
+        </div>
+
+        
+        
+
+        
+        
+    </div>
+
+
+    
+        <div class="cell width-full position-0">
+<div id="footer" class="clearfix">
+<div id="adobe">
+<div class="fLeft"><a href="http://get.adobe.com/jp/reader/" target="_blank"><img src=" /images/icon_Adrdr.gif" alt="Adobe Reader" /></a></div>
+<p>PDFファイルの表示・印刷にはアドビシステムズ社が配布しているAdobe Readerが必要です(無償)。Adobe Readerをイン<br />
+ストールすることにより、PDFファイルの閲覧・印刷などが可能になります。お持ちでない方はこちらよりご用意ください。</p>
+</div>
+<div id="copyRight"><img src=" /images/copy.gif" alt="" /></div>
+</div>
+<!--
+<div metal:define-macro="portal_footer"
+     i18n:domain="plone"
+     class="row">
+    <div class="cell width-full position-0">
+
+        <div>
+            <p>
+              <span>
+                PDFファイルの表示・印刷にはアドビシステムズ社が配布しているAdobe Readerが必要です(無償)。Adobe Readerをインストールすることにより、PDFファイルの閲覧・印刷などが可能になります。お持ちでない方はこちらよりご用意ください。
+                </span>
+            </p>
+        </div>
+    </div>
+</div>
+</div>
+--></div>
+
+    
+
+</div>
+</body>
+</div>
+</html>
+
+
+

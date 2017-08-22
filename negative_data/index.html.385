@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="ja" >
+<head>
+<meta charset="UTF-8" >
+<meta name="description" content="東京都目黒区。自動車ファイナンス業者向け中古車入札会の運営や関連事業。企業・IR情報、事業紹介。" >
+<meta name="keywords" content="SLC,シスロケ,残価,車両価値" >
+<meta name="robots" content="all" >
+<meta content="True" name="HandheldFriendly">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<title>システム・ロケーション株式会社</title>
+
+<!-- css-->
+<link href="./common/css/reset.css" rel="stylesheet" type="text/css" >
+
+<link rel="stylesheet" href="./style.css" >
+<link rel="stylesheet" href="./media.css" >
+
+<!-- javascript-->
+<script type="text/javascript" src="./common/js/jquery.js"></script>
+<script type="text/javascript" src="./common/js/common.js" ></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-57565600-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<!--tab-->
+<script type="text/javascript" src="./common/js/jquery-ui.min.js" ></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$('.itab .tab').tabs({
+			selected: 0,
+			fx : {
+				opacity : "toggle",
+				duration : 500
+			}
+		});
+	});
+</script>
+</head>
+<body>
+<div id="wrapper">
+	<header id="header" class="header_index">
+		<div id="header_wrap">
+
+			<div id="h_box" class="clearfix">
+				<div id="h_left">
+					<h1><a href="./"><img class="imghover" src="./common/images/common/logo_slc.png" alt="システム・ロケーション Co-Creation" ></a></h1>
+				</div><!-- /#h_left -->
+
+				<div id="h_right">
+					<div id="mainnav" class="clearfix">
+						<nav class="pc">
+							<ul class="topmenu clearfix">
+								<li><a href="./"><img class="imghover" src="./common/images/common/mainnav01.png" alt="トップページ"></a></li>
+								<li><a href="./solution/"><img class="imghover" src="./common/images/common/mainnav02.png" alt="事業内容"></a>
+									<ul>
+										<li><a href="./solution/">ビジネスモデル</a></li>
+										<li><a href="./solution/finance/">自動車金融工学</a></li>
+										<li><a href="./solution/info/">ソリューション事業</a></li>
+									</ul>
+								</li>
+								<li><a href="./profile/"><img class="imghover" src="./common/images/common/mainnav03.png" alt="会社案内"></a>
+									<ul>
+										<li><a href="./profile/">会社概要</a></li>
+										<li><a href="./profile/history.html">沿革</a></li>
+										<li><a href="./profile/global.html">グローバル展開</a></li>
+										<li><a href="./profile/policy.html">経営理念</a></li>
+										<li><a href="./profile/group.html">グループ会社</a></li>
+										<li><a href="./profile/patents.html">特許・登録商標</a></li>
+										<li><a href="./news/">ニュース一覧</a></li>
+										<li><a href="./news/publicity.html">パブリシティ一覧</a></li>
+									</ul>
+								</li>
+								<li><a href="./recruit/"><img class="imghover" src="./common/images/common/mainnav04.png" alt="採用情報"></a>
+									<ul>
+										<li><a href="./recruit/">採用情報トップ</a></li>
+										<li><a href="./recruit/case.html">仕事の一例</a></li>
+										<li><a href="./recruit/gallery.html">フォトギャラリー</a></li>
+										<li><a href="./recruit/process.html">採用プロセス	</a></li>
+										<li><a href="./recruit/requirements.html">募集要項</a></li>
+									</ul>
+								</li>
+								<li><a href="./ir/"><img class="imghover" src="./common/images/common/mainnav05.png" alt="投資情報"></a>
+									<ul>
+										<li><a href="./ir/">IRニュース</a></li>
+										<li><a href="./ir/message.html">株主･投資家の皆様へ</a></li>
+										<li><a href="./solution/">事業内容</a></li>
+										<li><a href="./ir/information_ren.html">連結財務ハイライト</a></li>
+										<li><a href="./ir/information_tan.html">単体財務ハイライト</a></li>
+										<li><a href="./ir/library.html">IR資料</a></li>
+										<li><a href="./ir/stock.html">株式情報</a></li>
+										<li><a href="http://stocks.finance.yahoo.co.jp/stocks/detail/?code=2480.T" target="_blank">株価情報</a></li>
+										<li><a href="./ir/calendar.html">IRカレンダー</a></li>
+										<li><a href="./ir/inquiries.html">IRお問い合わせ</a></li>
+										<li><a href="./ir/disclaimer.html">免責事項</a></li>
+										<li><a href="./ir/faq.html">FAQ</a></li>
+										<li><a href="./publicnotices/">電子公告</a></li>
+									</ul>
+								</li>
+								<li><a href="./inquiry/"><img class="imghover" src="./common/images/common/mainnav06.png" alt="お問い合わせ"></a></li>
+							</ul>
+						</nav>
+						<ul class="lang">
+							<li><a href="./" class="active">JP</a></li>
+							<li><a href="./en/">EN</a></li>
+						</ul><!-- /.lang -->
+					</div><!-- /#mainnav -->
+
+					<div class="sp">
+						<div class="top_menu menu_sp"><img src="./common/images/common/btn_menu_off.jpg" alt="MENU" ></div>
+					</div><!-- /.sp -->
+				</div><!-- /#h_right -->
+			</div><!-- /#h_box -->
+
+			<div id="menu_wrap_sp" class="sp clearfix">
+				<div class="acordion_tree_top">
+					<nav>
+						<ul class="menu_list">
+							<li><a class="non_sub" href="./">HOME</a></li>
+							<li><a href="./solution/">事業内容</a>
+								<em class="trigger">&nbsp;</em>
+								<ul class="acordion_tree">
+									<li><a href="./solution/">ビジネスモデル</a></li>
+									<li><a href="./solution/finance/">自動車金融工学</a></li>
+									<li><a href="./solution/info/">ソリューション事業</a></li>
+								</ul>
+							</li>
+							<li><a href="./profile/">会社案内</a>
+								<em class="trigger">&nbsp;</em>
+								<ul class="acordion_tree">
+									<li><a href="./profile/">会社概要</a></li>
+									<li><a href="./profile/history.html">沿革</a></li>
+									<li><a href="./profile/global.html">グローバル展開</a></li>
+									<li><a href="./profile/policy.html">経営理念</a></li>
+									<li><a href="./profile/group.html">グループ会社</a></li>
+									<li><a href="./profile/patents.html">特許・登録商標</a></li>
+									<li><a href="./news/">ニュース一覧</a></li>
+									<li><a href="./news/publicity.html">パブリシティ一覧</a></li>
+								</ul>
+							</li>
+							<li><a href="./recruit/">採用情報</a>
+								<em class="trigger">&nbsp;</em>
+								<ul class="acordion_tree">
+									<li><a href="./recruit/">採用情報トップ</a></li>
+									<li><a href="./recruit/case.html">仕事の一例</a></li>
+									<li><a href="./recruit/gallery.html">フォトギャラリー</a></li>
+									<li><a href="./recruit/process.html">採用プロセス	</a></li>
+									<li><a href="./recruit/requirements.html">募集要項</a></li>
+								</ul>
+							</li>
+							<li><a href="./ir/">投資情報</a>
+								<em class="trigger">&nbsp;</em>
+								<ul class="acordion_tree">
+									<li><a href="./ir/">IRニュース</a></li>
+									<li><a href="./ir/message.html">株主･投資家の皆様へ</a></li>
+									<li><a href="./solution/">事業内容</a></li>
+									<li><a href="./ir/information_ren.html">連結財務ハイライト</a></li>
+									<li><a href="./ir/information_tan.html">単体財務ハイライト</a></li>
+									<li><a href="./ir/library.html">IR資料</a></li>
+									<li><a href="./ir/stock.html">株式情報</a></li>
+									<li><a href="http://stocks.finance.yahoo.co.jp/stocks/detail/?code=2480.T" target="_blank">株価情報</a></li>
+									<li><a href="./ir/calendar.html">IRカレンダー</a></li>
+									<li><a href="./ir/inquiries.html">IRお問い合わせ</a></li>
+									<li><a href="./ir/disclaimer.html">免責事項</a></li>
+									<li><a href="./ir/faq.html">FAQ</a></li>
+									<li><a href="./publicnotices/">電子公告</a></li>
+								</ul>
+							</li>
+							<li><a class="non_sub" href="./inquiry/">お問い合わせ</a></li>
+							<li><a class="non_sub" href="./privacy/">プライバシーポリシー</a></li>
+							<li><a class="non_sub" href="./link/">関連リンク一覧</a></li>
+							<li><a class="non_sub" href="./sitemap/">サイトマップ</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div><!--/#menu_wrap_sp-->
+
+		</div><!-- /#header_wrap -->
+	</header><!--/#header-->
+
+	<a href="./inquiry/" class="btn_contact sp"><img class="imghover" src="common/images/common/btn_contact.jpg" alt="お問い合わせはこちら"></a>
+
+	<figure id="main_img_wrap">
+		<div id="main_img">
+			<h2><img class="switch" src="./common/images/index/img_main_pc.png" alt="ＳＬＣの独自性がオートビジネスツールの進化を可能に ～精緻を極めたデータが新たなビジネスを創造する～ " ></h2>
+		</div><!--/main_img-->
+	</figure><!--/main_img_wrap-->
+
+	<main>
+		<div class="page_index">
+			<div id="service" class="pd_tb section">
+				<div class="box">
+					<h3 class="title_main"><span><em>サービス</em></span><em>Service</em></h3>
+					<ul class="clearfix">
+						<li><a href="./solution/info/sysrocket_al.html"><img class="imghover" src="./common/images/index/btn_service01.jpg" alt="オートビジネスツールを集約"></a></li>
+						<li><a href="./solution/info/rvdoctor.html"><img class="imghover" src="./common/images/index/btn_service02.jpg" alt="残価算出システム"></a></li>
+						<li><a href="./solution/info/vehicledb.html"><img class="imghover" src="./common/images/index/btn_service03.jpg" alt="車種カタログデータベース"></a></li>
+					</ul>
+				</div><!-- /.box -->
+			</div><!-- /#service -->
+
+			<div id="news" class="box tab_warp section">
+				<h3 class="title_main"><span><em>最新情報</em></span><em>Information</em></h3>
+				<div class="news_wrap itab">
+					<ul class="tab_menu tab clearfix">
+						<li><a href="#itab01">ニュース一覧</a></li>
+						<li><a href="#itab02">パブリシティ一覧</a></li>
+						<li><a href="#itab03">電子公告</a></li>
+					</ul>
+
+					<div id="itab01">
+						<div class="tab_con">
+							<div class="irp-press-list whatsnew news_sty" id="irp-press-list"></div>
+							<script src="./common/js/news_loader.js" type="text/javascript" charset="utf-8"></script>
+						</div>
+					</div><!-- /#itab01 -->
+
+					<div id="itab02">
+						<div class="tab_con">
+							<ul class="news_sty">
+								<li><span>2017年7月7日</span><a href="./news/publicity.html#20170707"><em>日経産業新聞</em>福祉車両の在庫共有</a></li>
+								<li><span>2017年2月16日</span><a href="./news/publicity.html#20170216"><em>日刊自動車新聞</em>ディーラーへの導入促進　CADoctor新機能追加</a></li>
+								<li><span>2016年4月5日</span><a href="./news/publicity.html#20160405"><em>日刊自動車新聞</em>将来の車両価値算出システム 中国開拓へ特許取得</a></li>
+								<li><span>2014年9月17日</span><a href="./news/publicity.html#20140917"><em>日刊自動車新聞</em>中古車残価計算　中国向け来月投入</a></li>
+								<li><span>2013年6月12日</span><a href="./news/publicity.html#20130612"><em>日刊自動車新聞</em>残価計算　中国で事業化</a></li>
+								<li><span>2012年5月30日</span><a href="./news/publicity.html#20120530"><em>日刊自動車新聞</em>「リースアップドットＪＰ」　リースアップ車情報を一覧で閲覧</a></li>
+								<li><span>2010年9月</span><a href="./news/publicity.html#201009"><em>株式会社数理システム　ホームページ</em>「Visual Mining Studio ユーザー事例紹介」</a></li>
+								<li><span>2010年1月25日</span><a href="./news/publicity.html#20100125"><em>日経産業新聞</em>「システム・ロケーション　中古トラック車種別査定」</a></li>
+								<li><span>2009年5月29日</span><a href="./news/publicity.html#20090529"><em>日経産業新聞</em>「システム・ロケーション、リース建機の資産価値算出」</a></li>
+								<li><span>2009年6月1日</span><a href="./news/publicity.html#20090601"><em>ビジネスチャンス</em>「不況ビジネス百花繚乱　もの買わない時代のリユース商売に注目　／　システム・ロケーション」</a></li>
+							</ul>
+						</div>
+					</div><!-- /#itab02 -->
+
+					<div id="itab03">
+						<div class="tab_con">
+							<ul class="news_sty">
+								<li><span>2016年11月21日</span><a href="./publicnotices/">現在、公告事項はございません。</a></li>
+							</ul>
+						</div>
+					</div><!-- /#itab03 -->
+
+				</div><!-- /.news_wrap -->
+			</div><!-- /#news -->
+		</div><!-- /.page_index -->
+	</main><!--/main-->
+
+	<footer id="footer">
+		<div id="footer_box">
+			<div id="address">
+				<p>
+					〒153-0043<br class="pc">
+					東京都目黒区東山２丁目６-３<br class="pc">
+					ＳＬＣ目黒東山ビル
+					<span>
+						<em>Tel.</em>03-6452-2864<br>
+						<em>Fax.</em>03-5725-8775
+					</span>
+				</p>
+			</div><!-- /#address -->
+			<ul class="pc">
+				<li><span>ソリューション事業</span></li>
+				<li><a href="./solution/info/sysrocket_al.html">オートリース営業支援ポータルサイト</a></li>
+				<li><a href="./solution/info/ca_doctor.html">新車販売支援サイト</a></li>
+				<li><a href="./solution/info/cav_monitor.html">現在価値一括算出サービス</a></li>
+			</ul>
+			<ul class="pc">
+				<li><span>自動車金融工学</span></li>
+				<li><a href="./solution/info/rvdoctor.html">車両価値算出システム</a></li>
+				<li><a href="./solution/info/vehicledb.html">車種カタログデータベース:車種DB</a></li>
+				<li><a href="./profile/patents.html">特許・登録商標</a></li>
+			</ul>
+			<a href="http://sysrocket.jp/al/" target="_blank"><img class="imghover btn_privacy" src="./common/images/sysrocket_al/img_intro01.png" alt="シスろけっと"></a>
+			<a href="http://privacymark.jp/" target="_blank"><img class="imghover btn_privacy" src="./common/images/common/logo_privacy.png" alt="プライバシーマーク"></a>
+		</div><!--/footer_box-->
+	</footer><!--/footer-->
+	<div id="copy_right">
+		<div class="box">
+			<ul class="pc">
+				<li><a href="./privacy/">プライバシーポリシー</a></li>
+				<li><a href="./link/">関連リンク一覧</a></li>
+				<li><a href="./inquiry/">お問い合わせ</a></li>
+				<li><a href="./sitemap/">サイトマップ</a></li>
+			</ul>
+			<p>
+				Copyright &copy; 2016 System Location Co., Ltd. <br class="sp">All rights reserved.
+			</p>
+		</div><!--/ .box -->
+	</div><!--/copy_right-->
+</div><!--/wrapper-->
+</body>
+</html>

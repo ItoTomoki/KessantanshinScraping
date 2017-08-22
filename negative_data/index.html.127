@@ -1,0 +1,1117 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="icon" href="http://www.tokura.co.jp/img/t.ico">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=2, user-scalable=yes">
+  <meta name="description" content="">
+  <meta name="description" content="" />
+  <title>徳倉建設株式会社</title>
+
+<link rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/notosansjp.css">
+<link rel="stylesheet" type="text/css" media="all" href="http://www.tokura.co.jp/css/import_t.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="http://www.tokura.co.jp/js/jquery.bxslider.min.js"></script>
+<link rel="stylesheet" type="text/css" media="all" href="http://www.tokura.co.jp/css/jquery.bxslider.css" />
+<script src="http://www.tokura.co.jp/js/common.js"></script>
+<script type="text/javascript" src="http://www.tokura.co.jp/js/modal.js"></script>
+<script type="text/javascript" src="http://www.tokura.co.jp/js/wow.min.js"></script>
+<script type="text/javascript" src="http://www.tokura.co.jp/js/gglanalytics.js"></script>
+<!--[if lt IE 9]>
+<script type="text/javascript" src="js/html5.js"></script>
+<link rel="stylesheet" type="text/css" media="all" href="http://www.tokura.co.jp/css/common.css">
+<link rel="stylesheet" type="text/css" media="all" href="http://www.tokura.co.jp/css/layout.css">
+<link rel="stylesheet" type="text/css" media="all" href="http://www.tokura.co.jp/css/top.css">
+<![endif]-->
+<script>
+$(function(){
+    // setViewport
+    spView = 'width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=3.0,user-scalable=1';
+    tbView = 'width=1200px,maximum-scale=2.0,user-scalable=1';
+ 
+    if(navigator.userAgent.indexOf('iPhone') > 0 || navigator.userAgent.indexOf('iPod') > 0 || (navigator.userAgent.indexOf('Android') > 0 && navigator.userAgent.indexOf('Mobile') > 0)){
+        $('head').prepend('<meta name="viewport" content="' + spView + '" id="viewport">');
+    } else if(navigator.userAgent.indexOf('iPad') > 0 || (navigator.userAgent.indexOf('Android') > 0 && navigator.userAgent.indexOf('Mobile') == -1) || navigator.userAgent.indexOf('A1_07') > 0 || navigator.userAgent.indexOf('SC-01C') > 0){
+        $('head').prepend('<meta name="viewport" content="' + tbView + '" id="viewport">');
+    } 
+});
+</script>
+<script>
+    new WOW().init();
+</script>
+
+<script type="text/javascript" src="https://maps.google.com/maps/api/js?key=AIzaSyDrhGhkeeO3hh_E3XpJLVHCkfIQFYBwYdU&sensor=true"></script>
+</head>
+<body id="TOP">
+<div id="top">
+<header>
+ <nav id="globalnavi">
+   
+    <!--メガメニュー-->
+<div class="header pc">
+	<div class="box">
+        <div class="box_in">
+            <h1 class="logo"><a href="http://www.tokura.co.jp/"><h1><img src="http://www.tokura.co.jp/img/logo.png"  alt="徳倉建設株式会社"/></h1></a></h1>
+            <ul class="gnav">
+                <li><a href="http://www.tokura.co.jp/"><span>HOME</span></a>
+                    
+                </li>
+                <li><a href="http://www.tokura.co.jp/company/" class="tit"><span>企業情報</span></a>
+                    <div class="child">
+                    	<div class="childbox">
+                        	<div class="box01">
+                                <dl>
+                                    <dt><a href="http://www.tokura.co.jp/company/message/"><img src="http://www.tokura.co.jp/img/navi/nav_11.jpg" alt="社長挨拶" class="opacity"></a></dt>
+                                    <dd>社長挨拶</dd>
+                                </dl>
+                                <dl>
+                                     <dt><a href="http://www.tokura.co.jp/company/profile/"><img src="http://www.tokura.co.jp/img/navi/nav_12.jpg"  alt="会社概要" class="opacity"></a></dt>
+                                     <dd>会社概要</dd>
+                                </dl>
+                                 <dl>
+                                     <dt><a href="http://www.tokura.co.jp/company/kokunai/"><img src="http://www.tokura.co.jp/img/navi/nav_13.jpg"   alt="国内拠点" class="opacity"></a></dt>
+                                     <dd>国内拠点</dd>
+                                </dl>
+                           
+                            	<dl class="last">
+                                     <dt><a href="http://www.tokura.co.jp/company/forign_office/"><img src="http://www.tokura.co.jp/img/navi/nav_14.jpg"  alt="海外拠点" class="opacity"></a></dt>
+                                     <dd>海外拠点</dd>
+                                </dl>
+                                <dl>
+                                     <dt><a href="http://www.tokura.co.jp/company/csr/"><img src="http://www.tokura.co.jp/img/navi/nav_15.jpg" alt="CSR" class="opacity"></a></dt>
+                                     <dd>CSR</dd>
+                                </dl>
+                                <dl>
+                                     <dt><a href="http://www.tokura.co.jp/company/history/"><img src="http://www.tokura.co.jp/img/navi/nav_16.jpg" alt="沿革" class="opacity"></a></dt>
+                                     <dd>沿革</dd>
+                                </dl>
+                                <dl>
+                                     <dt><a href="http://www.tokura.co.jp/company/associate/"><img src="http://www.tokura.co.jp/img/navi/nav_17.jpg"  alt="関連会社" class="opacity"></a></dt>
+                                     <dd>関連会社</dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="http://www.tokura.co.jp/business/" class="tit"><span>事業内容</span></a>
+                    <div class="child">
+                    	<div class="childbox">
+                        	<div class="box01">
+                               <div class="nav_midasi">
+                                  <p>主要事業</p>
+                              </div>
+                               <div class="fix">
+                                 <dl>
+                                   <dt><a href="http://www.tokura.co.jp/business/doboku/"><img src="http://www.tokura.co.jp/img/navi/nav_01.jpg"  alt="土木事業" class="opacity"></a></dt>
+                                   <dd>土木事業</dd>
+                                   </dl>
+                                 <dl class="left">
+                                   <dt><a href="http://www.tokura.co.jp/business/architect/"><img src="http://www.tokura.co.jp/img/navi/nav_02.jpg" alt="建築事業" class="opacity"></a></dt>
+                                   <dd>建築事業</dd>
+                                   </dl>
+                                 <dl>
+                                   <dt><a href="http://www.tokura.co.jp/business/kokusai/"><img src="http://www.tokura.co.jp/img/navi/nav_03.jpg"  alt="国際事業" class="opacity"></a></dt>
+                                   <dd>国際事業</dd>
+                                   </dl>
+                               </div>
+                                  <div class="nav_midasi_2">
+                                  <p>その他事業</p>
+                              </div>
+                                 
+                                  <dl>
+                                    <dt><a href="http://www.tokura.co.jp/business/renewal/"><img src="http://www.tokura.co.jp/img/navi/nav_04.jpg"  alt="リニューアル事業" class="opacity"></a></dt>
+                                    <dd>リニューアル事業</dd>
+                                </dl>
+                                <dl>
+                                     <dt><a href="http://www.tokura.co.jp/business/ppp_pfi/"><img src="http://www.tokura.co.jp/img/navi/nav_05.jpg"  alt="PPP/PFI事業" class="opacity"></a></dt>
+                                  <dd>PPP/PFI事業</dd>
+                                </dl>
+                            	<dl>
+                                      <dt><a href="http://www.tokura.co.jp/business/architectural_office/"><img src="http://www.tokura.co.jp/img/navi/nav_06.jpg" alt="徳倉建設一級建築事務所" class="opacity"></a></dt>
+                                  <dd>徳倉建設一級建築士事務所</dd>
+                                </dl>
+                                  <dl class="last">
+                                      <dt><a href="http://www.tokura.co.jp/business/development/"><img src="http://www.tokura.co.jp/img/navi/nav_07.jpg" alt="開発事業" class="opacity"></a></dt>
+                                  <dd>開発事業</dd>
+                                </dl>
+                           
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="http://www.tokura.co.jp/archives/">施工実績</a></li>
+                 <li><a href="http://www.tokura.co.jp/finance/"><span>IR情報</span></a>
+                    
+                </li>
+                <li><a href="http://www.tokura.co.jp/recruit/" target="_blank"><span>採用情報</span></a>
+                   
+                </li>
+                
+                <li><a href="http://www.tokura.co.jp/contact/" class="inquiry"><span>お問い合わせ</span></a>
+                    
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+</div> 
+   </nav>
+ <!--メガメニューここまで-->
+  <nav class="header_nav">
+    <div class="box_la"> <span class="ico_la translation-links"><a href="#" class="flag-ja" data-lang="日本語"><img src="http://www.tokura.co.jp/img/ico_japan.png" width="25" height="17" alt="日本語"/></a></span> <span class="ico_la"><a href="http://www.tokura.co.jp/en/"><img src="http://www.tokura.co.jp/img/ico_usa.png" width="24" height="17" alt="English"/></a></span> <span class="ico_la translation-links"><a href="http://www.tokura.co.jp/sp/" class="flag-es" data-lang="スペイン語"><img src="http://www.tokura.co.jp/img/ico_spain.png" width="24" height="17" alt="espanol"/></a></span> <span class="ico_la translation-links"><a href="http://www.tokura.co.jp/fr/" class="flag-fr" data-lang="フランス語"><img src="http://www.tokura.co.jp/img/ico_france.png" width="24" height="17" alt="francais"/></a></span> </div>
+    
+    <!--Google翻訳-->
+      <!-- <div id="google_translate_element" style="display: none;"></div>
+      <script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'ja', includedLanguages: 'ja,es,fr', layout: google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay: false}, 'google_translate_element');
+}
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script> 
+      <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script> 
+      <script type="text/javascript">
+                    $('.translation-links a').click(function () {
+                        var lang = $(this).attr('data-lang');
+                        var $frame = $('.goog-te-menu-frame:first');
+                        if (!$frame.size()) {
+                            alert("Error: Could not find Google translate frame.");
+                            return false;
+                        }
+                        $frame.contents().find('.goog-te-menu2-item span.text:contains(' + lang + ')').get(0).click();
+                        return false;
+                    });
+                </script>-->
+   <!--Google翻訳ここまで-->
+    
+    
+
+    <div class="box_search" id="gsc"><script>
+  (function() {
+    var cx = '000568978885073821811:tdt3gtdh5nw';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
+		</div>
+  </nav>
+</header>
+<div class="fixed-item smp sp_main"><img src="http://www.tokura.co.jp/img/bg_01.jpg"  alt=""/></div>
+<div class="pc wow" id="bottom-bar">
+<ul class="fix wow_img">
+          <li class="wow fadeIn" data-wow-offset="1" data-wow-duration="2s" data-wow-delay="0.1s"><img src="http://www.tokura.co.jp/img/wow_01.jpg" ></li>
+          <li class="wow fadeIn" data-wow-offset="1" data-wow-duration="2s" data-wow-delay="1.5s"><img src="http://www.tokura.co.jp/img/wow_02.jpg"></li>
+          <li class="wow fadeIn" data-wow-offset="1" data-wow-duration="2s" data-wow-delay="2.5s"><img src="http://www.tokura.co.jp/img/wow_03.jpg"></li>
+          <li class="wow fadeIn" data-wow-offset="1" data-wow-duration="2s" data-wow-delay="2.0s"><img src="http://www.tokura.co.jp/img/wow_04.jpg" ></li>
+          <li class="wow fadeIn" data-wow-offset="1" data-wow-duration="2s" data-wow-delay="2.5s"><img src="http://www.tokura.co.jp/img/wow_05.jpg"></li>
+          <li class="wow fadeIn" data-wow-offset="1" data-wow-duration="2s" data-wow-delay="2.9s"><img src="http://www.tokura.co.jp/img/wow_06.jpg"></li>
+           <li class="wow fadeIn" data-wow-offset="1" data-wow-duration="2s" data-wow-delay="2.0s"><img src="http://www.tokura.co.jp/img/wow_07.jpg" ></li>
+          <li class="wow fadeIn" data-wow-offset="1" data-wow-duration="2s" data-wow-delay="1.0s"><img src="http://www.tokura.co.jp/img/wow_11.jpg"></li>
+          <li class="wow fadeIn" data-wow-offset="1" data-wow-duration="2s" data-wow-delay="1.5s"><img src="http://www.tokura.co.jp/img/wow_08.jpg"></li>
+          <li class="wow fadeIn" data-wow-offset="1" data-wow-duration="2s" data-wow-delay="3.0s"><img src="http://www.tokura.co.jp/img/wow_09.jpg" ></li>
+          <li class="wow fadeIn" data-wow-offset="1" data-wow-duration="2s" data-wow-delay="2.7s"><img src="http://www.tokura.co.jp/img/wow_10.jpg"></li>
+          <li class="wow fadeIn" data-wow-offset="1" data-wow-duration="2s" data-wow-delay="1.0s"><img src="http://www.tokura.co.jp/img/wow_12.jpg"></li>
+	</ul>
+	</div>
+<section id="main_img">
+  <h1><img src="img/catch_img.png"  alt="友愛　人に優しく、人をは愛する気持ち TOKURA CORPORATION 70th since1974"/></h1>
+ 
+</section>
+<section id="box_news">
+  <article>
+    
+    <div class="more"><a href="http://www.tokura.co.jp/news/">過去のNEWSを見る</a></div>
+    <ul class="tab_news tabs">
+      <li class="active"><a href="#tab1" class="tab_01">最新情報一覧</a></li>
+      <li class=""><a href="#tab2" class="tab_02">企業情報</a></li>
+      <li class=""><a href="#tab3" class="tab_03">IR情報</a></li>
+      <li class=""><a href="#tab4" class="tab_04">採用情報</a></li>
+    </ul>
+    <div class="box_news_in">
+      <div id="tab1" class="content_n">
+    <div class="box_ico"><span class="ico_ir">IR情報</span></div>
+    <div class="date_news">2017年08月10日</div>
+    <div class="title_news">
+                    <a href="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/08/140120170809453472.pdf" target="_blank">平成30年３月期 第１四半期決算短信〔日本基準〕（連結）</a>
+                </div>
+    <div class="box_ico"><span class="ico_ir">IR情報</span></div>
+    <div class="date_news">2017年07月28日</div>
+    <div class="title_news">
+                    <a href="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/07/140120170727440954.pdf" target="_blank">特別利益（負ののれん発生益）の計上および業績予想の修正に関するお知らせ</a>
+                </div>
+    <div class="box_ico"><span class="ico_saiyo">採用情報</span></div>
+    <div class="date_news">2017年07月20日</div>
+    <div class="title_news">
+                    <a href="http://www.tokura.co.jp/news/saiyou_20170720_01/">夏のインターンシップ開催予告</a>
+                </div>
+    <div class="box_ico"><span class="ico_ir">IR情報</span></div>
+    <div class="date_news">2017年06月30日</div>
+    <div class="title_news">
+                    <a href="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/06/50cfc9d10b338f2f4dbbf4581d0fefe3.pdf" target="_blank">(訂正・数値データ訂正)「平成29年３月期 決算短信〔日本基準〕（連結）」の一部訂正及びXBRLデータの一部訂正について</a>
+                </div>
+    <div class="box_ico"><span class="ico_ir">IR情報</span></div>
+    <div class="date_news">2017年06月29日</div>
+    <div class="title_news">
+                    <a href="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/06/310eb7f80ca12235b7c73010c7012ddb.pdf" target="_blank">役員等の異動に関するお知らせ</a>
+                </div>
+    <div class="box_ico"><span class="ico_saiyo">採用情報</span></div>
+    <div class="date_news">2017年06月28日</div>
+    <div class="title_news">
+                    <a href="http://www.tokura.co.jp/news/%e6%8e%a1%e7%94%a8%e3%82%b5%e3%82%a4%e3%83%88%e3%82%92%e5%85%ac%e9%96%8b%e3%81%97%e3%81%be%e3%81%97%e3%81%9f/">採用サイトを公開しました</a>
+                </div>
+      </div>
+      <div id="tab2" class="content_n">
+                        <div class="box_ico"><span class="ico_kigyou">企業情報</span></div>
+              <div class="date_news">2017年05月23日</div>
+              <div class="title_news">
+                                        <a href="http://www.tokura.co.jp/news/%e7%86%8a%e6%9c%ac%e5%b8%82%e5%8f%8a%e3%81%b3%e7%9b%8a%e5%9f%8e%e7%94%ba%e3%81%b8%e3%81%ae%e9%9c%87%e7%81%bd%e5%af%84%e4%bb%98%ef%bc%88%e5%b9%b3%e6%88%9029%e5%b9%b45%e6%9c%8822%e6%97%a5%ef%bc%89/">熊本市及び益城町への震災寄付（平成29年5月22日）</a>
+                                    </div>
+                            <div class="box_ico"><span class="ico_kigyou">企業情報</span></div>
+              <div class="date_news">2017年04月21日</div>
+              <div class="title_news">
+                                        <a href="/company/message/">創立70 周年 社長挨拶</a>
+                                    </div>
+                            <div class="box_ico"><span class="ico_ir">IR情報</span></div>
+              <div class="date_news">2017年02月24日</div>
+              <div class="title_news">
+                                        <a href="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/06/ir_20170224.pdf" target="_blank">九州建設株式会社の株式の取得（子会社化）に関するお知らせ</a>
+                                    </div>
+                            <div class="box_ico"><span class="ico_kigyou">企業情報</span></div>
+              <div class="date_news">2009年09月01日</div>
+              <div class="title_news">
+                                        <a href="http://www.tokura.co.jp/news/%e5%b9%b3%e6%88%9021%e5%b9%b47%e6%9c%887%e6%97%a5%e3%81%ab%e6%97%a5%e5%bb%ba%e7%b5%8c%e4%bc%9a%e5%93%a1%e6%8a%80%e8%a1%93%e3%83%95%e3%82%a9%e3%83%bc%e3%83%a9%e3%83%a02009%e3%81%8c%e9%96%8b%e5%82%ac/">平成21年7月7日に日建経会員技術フォーラム2009が開催され、当社からは土木部門の発表が会長賞を受賞しました。</a>
+                                    </div>
+                            <div class="box_ico"><span class="ico_kigyou">企業情報</span></div>
+              <div class="date_news">2009年05月21日</div>
+              <div class="title_news">
+                                        <a href="http://www.tokura.co.jp/wordpress/wp-content/uploads/2009/05/20090521.pdf" target="_blank">東京支店分室開設のご案内を掲載しました。</a>
+                                    </div>
+                            <div class="box_ico"><span class="ico_kigyou">企業情報</span></div>
+              <div class="date_news">2008年10月02日</div>
+              <div class="title_news">
+                                        <a href="http://www.tokura.co.jp/news/%e5%b9%b3%e6%88%9020%e5%b9%b47%e6%9c%888%e6%97%a5%e3%81%ab%e6%97%a5%e5%bb%ba%e7%b5%8c%e4%bc%9a%e5%93%a1%e6%8a%80%e8%a1%93%e3%83%95%e3%82%a9%e3%83%bc%e3%83%a9%e3%83%a02008%e3%81%8c%e9%96%8b%e5%82%ac/">平成20年7月8日に日建経会員技術フォーラム2008が開催され、当社からは建築部門の発表が会長賞を受賞した。</a>
+                                    </div>
+                    </div>
+      <div id="tab3" class="content_n">
+                        <div class="box_ico"><span class="ico_ir">IR情報</span></div>
+              <div class="date_news">2017年08月10日</div>
+              <div class="title_news">
+                                        <a href="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/08/140120170809453472.pdf" target="_blank">平成30年３月期 第１四半期決算短信〔日本基準〕（連結）</a>
+                                    </div>
+                            <div class="box_ico"><span class="ico_ir">IR情報</span></div>
+              <div class="date_news">2017年07月28日</div>
+              <div class="title_news">
+                                        <a href="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/07/140120170727440954.pdf" target="_blank">特別利益（負ののれん発生益）の計上および業績予想の修正に関するお知らせ</a>
+                                    </div>
+                            <div class="box_ico"><span class="ico_ir">IR情報</span></div>
+              <div class="date_news">2017年06月30日</div>
+              <div class="title_news">
+                                        <a href="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/06/50cfc9d10b338f2f4dbbf4581d0fefe3.pdf" target="_blank">(訂正・数値データ訂正)「平成29年３月期 決算短信〔日本基準〕（連結）」の一部訂正及びXBRLデータの一部訂正について</a>
+                                    </div>
+                            <div class="box_ico"><span class="ico_ir">IR情報</span></div>
+              <div class="date_news">2017年06月29日</div>
+              <div class="title_news">
+                                        <a href="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/06/310eb7f80ca12235b7c73010c7012ddb.pdf" target="_blank">役員等の異動に関するお知らせ</a>
+                                    </div>
+                            <div class="box_ico"><span class="ico_ir">IR情報</span></div>
+              <div class="date_news">2017年05月12日</div>
+              <div class="title_news">
+                                        <a href="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/06/tokura_20170512_3.pdf" target="_blank">単元株式数の変更、株式併合及び定款の一部変更に関するお知らせ</a>
+                                    </div>
+                            <div class="box_ico"><span class="ico_ir">IR情報</span></div>
+              <div class="date_news">2017年05月12日</div>
+              <div class="title_news">
+                                        <a href="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/06/tokura_20170512_1.pdf" target="_blank">通期業績予想値と実績値との差異に関するお知らせ</a>
+                                    </div>
+                    </div>
+      <div id="tab4" class="content_n">
+                        <div class="box_ico"><span class="ico_saiyo">採用情報</span></div>
+              <div class="date_news">2017年07月20日</div>
+              <div class="title_news">
+                                        <a href="http://www.tokura.co.jp/news/saiyou_20170720_01/">夏のインターンシップ開催予告</a>
+                                    </div>
+                            <div class="box_ico"><span class="ico_saiyo">採用情報</span></div>
+              <div class="date_news">2017年06月28日</div>
+              <div class="title_news">
+                                        <a href="http://www.tokura.co.jp/news/%e6%8e%a1%e7%94%a8%e3%82%b5%e3%82%a4%e3%83%88%e3%82%92%e5%85%ac%e9%96%8b%e3%81%97%e3%81%be%e3%81%97%e3%81%9f/">採用サイトを公開しました</a>
+                                    </div>
+                    </div>
+    </div>
+  </article>
+</section>
+<section id="box_jigyou">
+  <article>
+    <div class="smp title_jigyou_smp">徳倉建設の事業</div>
+    <div class="" data-plugin-options='{"reverse": false}'>
+      <div class="box_jigyou_01"> <a href="http://www.tokura.co.jp/business/doboku/">
+        <div class="title_jigyou">土木</div>
+        <div class="title_jigyou_02">Civil Engineering</div>
+        <div class="thumbnail_jigyou"><img src="http://www.tokura.co.jp/img/img_01.jpg" width="480" height="269" alt=""/></div>
+        </a> </div>
+    </div>
+   
+    <div class="" data-plugin-options='{"reverse": false}'>
+      <div class="box_jigyou_02"> <a href="http://www.tokura.co.jp/business/architect/">
+        <div class="title_jigyou">建築</div>
+        <div class="title_jigyou_02">Architecture</div>
+        <div class="thumbnail_jigyou"><img src="http://www.tokura.co.jp/img/img_02.jpg" width="480" height="269" alt=""/></div>
+        </a> </div>
+    </div>
+    <div class="" data-plugin-options='{"reverse": false}'>
+      <div class="box_jigyou_03"> <a href="http://www.tokura.co.jp/business/kokusai/">
+        <div class="title_jigyou">国際</div>
+        <div class="title_jigyou_02">Overseas Operations</div>
+        <div class="thumbnail_jigyou"><img src="http://www.tokura.co.jp/img/img_03.jpg" width="480" height="269" alt=""/></div>
+        </a> </div>
+    </div>
+    <div class="" data-plugin-options='{"reverse": false}'>
+      <div class="box_jigyou_04"> <a href="http://www.tokura.co.jp/business/#sonota">
+        <div class="title_jigyou">その他</div>
+        <div class="title_jigyou_02">Others</div>
+        <div class="thumbnail_jigyou"><img src="http://www.tokura.co.jp/img/img_04.jpg" width="480" height="269" alt=""/></div>
+        </a> </div>
+    </div>
+  </article>
+ 
+</section>
+<section id="box_anzen">
+  <div class="box_poli">
+    <h1>より安全で、より快適な生活へ</h1>
+    <div class="title_anzen">そのニーズがある限り、徳倉建設は応え続けます。</div>
+  </div>
+</section>
+<section id="box_kigyou">
+  
+</section>
+<section id="box_bnr_top">
+  <article>
+    <div class="box_bnr_01"> <a href="http://www.tokura.co.jp/company/">
+      <div class="thumbnail_bnr_top"><img src="http://www.tokura.co.jp/img/img_05.jpg" width="459" height="380" alt=""/></div>
+      <div class="title_bnr_top">会社案内</div>
+      <div class="title_bnr_top2">Company Plofile</div>
+      <div class="title_bnr_top3">代表挨拶、企業情報、CSR、沿革、関連会社</div>
+      </a> </div>
+    <div class="box_bnr_02"> <a href="http://www.tokura.co.jp/finance/">
+      <div class="thumbnail_bnr_top"><img src="http://www.tokura.co.jp/img/img_06.jpg" width="455" height="380" alt=""/></div>
+      <div class="title_bnr_top">IR情報</div>
+      <div class="title_bnr_top2">Investor Relations</div>
+      <div class="title_bnr_top3">IR情報、過去のIR情報、コーポレートガバナンス</div>
+      </a> </div>
+    <div class="box_bnr_03"> <a href="http://www.tokura.co.jp/recruit/">
+      <div class="thumbnail_bnr_top"><img src="http://www.tokura.co.jp/img/img_07.jpg" width="460" height="380" alt=""/></div>
+      <div class="title_bnr_top">採用情報</div>
+      <div class="title_bnr_top2">Recruit Information</div>
+      <div class="title_bnr_top3">2018新卒採用情報、キャリア(中途)採用情報、<br>
+        先輩社員インタビュー採用選考フロー、教育制度</div>
+      </a> </div>
+   
+  </article>
+</section>
+<section id="box_jisseki">
+ 
+   <div class="title_bnr_top4">様々な分野で積み重ねてきた実績</div>
+    <div class="title_bnr_top5">常にお客様に満足していただけるサービスの提供、更なる躍進を目指します。</div>
+  <div class="title_jisseki2"><a href="http://www.tokura.co.jp/business/doboku/">土木<!--<span class="title_jisseki_sub">Civil engineering</span>--></a></div>
+  <div id="slide_space">
+    <ul class="bxslider">
+                    <li class="bx_list"><a href="http://www.tokura.co.jp/archives/%e5%b9%b3%e6%88%90%ef%bc%92%ef%bc%98%e5%b9%b4%e5%ba%a6%e3%80%80%ef%bc%94%ef%bc%91%e5%8f%b7%e5%90%8d%e6%bf%83%e3%83%90%e3%82%a4%e3%83%91%e3%82%b9%e9%81%93%e8%b7%af%e5%bb%ba%e8%a8%ad%e5%b7%a5%e4%ba%8b/">
+                    <div class="bnr-image">
+                        <div class="figure"><img alt="" src="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/03/bbd14d747e744c67ba4f66520e87a549-272x272.jpg" /></div>
+                        <p>平成２８年度　４１号名濃バイパス道路建設工事</p>
+                    </div>
+                </a></li>
+                    <li class="bx_list"><a href="http://www.tokura.co.jp/archives/%e6%a8%aa%e6%89%8b%e8%a5%bf%e9%83%a8%e8%be%b2%e6%a5%ad%e6%b0%b4%e5%88%a9%e4%ba%8b%e6%a5%ad%e3%80%80%e5%90%89%e7%94%b0%e5%b9%b9%e7%b7%9a%e6%8e%92%e6%b0%b4%e8%b7%af%ef%bc%88%e3%81%9d%e3%81%ae11%ef%bc%89/">
+                    <div class="bnr-image">
+                        <div class="figure"><img alt="" src="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/06/e5a57cebcf18184b40e3aad2179801ca-272x272.jpg" /></div>
+                        <p>横手西部農業水利事業　吉田幹線排水路（その11）工事</p>
+                    </div>
+                </a></li>
+                    <li class="bx_list"><a href="http://www.tokura.co.jp/archives/%e6%96%b0%e6%bf%83%e5%b0%be%ef%bc%88%e4%ba%8c%e6%9c%9f%ef%bc%89%e5%9c%b0%e5%8c%ba%e3%80%80%e6%96%b0%e6%9c%a8%e6%b4%a5%e7%94%a8%e6%b0%b4%e8%b7%af%e6%98%a5%e6%97%a5%e4%ba%95%e4%b8%8a%e7%94%b0%e6%a5%bd/">
+                    <div class="bnr-image">
+                        <div class="figure"><img alt="" src="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/06/6894a5e03aa55adfab1646a776f63eb2-272x272.jpg" /></div>
+                        <p>新濃尾（二期）地区　新木津用水路春日井上田楽工区その１－２工事</p>
+                    </div>
+                </a></li>
+                    <li class="bx_list"><a href="http://www.tokura.co.jp/archives/%e4%bb%99%e5%8f%b0%e6%9d%b1%e7%89%b9%e5%ae%9a%e7%81%bd%e5%ae%b3%e5%be%a9%e6%97%a7%e4%ba%8b%e6%a5%ad%e3%80%80%e4%ba%8c%e9%83%b7%e5%a0%80%e6%8e%92%e6%b0%b4%e6%a9%9f%e5%a0%b4%e7%81%bd%e5%ae%b3%e5%be%a9/">
+                    <div class="bnr-image">
+                        <div class="figure"><img alt="" src="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/06/8fba89fbf2a7c9f5f5d8a59a3e7859cc-272x272.jpg" /></div>
+                        <p>仙台東特定災害復旧事業　二郷堀排水機場災害復旧工事</p>
+                    </div>
+                </a></li>
+                    <li class="bx_list"><a href="http://www.tokura.co.jp/archives/%e4%b8%ad%e5%b3%b6%e5%9c%b0%e5%8c%ba%e6%b5%b7%e5%b2%b8%e7%81%bd%e5%ae%b3%e5%be%a9%e6%97%a7%e5%b7%a5%e4%ba%8b/">
+                    <div class="bnr-image">
+                        <div class="figure"><img alt="" src="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/06/333a090a4dccfb4db9f5984e4cf236ec-272x272.jpg" /></div>
+                        <p>中島地区海岸災害復旧工事</p>
+                    </div>
+                </a></li>
+                    <li class="bx_list"><a href="http://www.tokura.co.jp/archives/%e5%ae%89%e5%9d%82%e5%b1%b1%e9%ab%98%e6%9e%b6%e6%a9%8b%ef%bc%88%e4%b8%8b%e9%83%a8%e5%b7%a5%ef%bc%89%e5%b7%a5%e4%ba%8b/">
+                    <div class="bnr-image">
+                        <div class="figure"><img alt="" src="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/06/4216ce35a633371bbd5efd83698c427d-272x272.jpg" /></div>
+                        <p>安坂山高架橋（下部工）工事</p>
+                    </div>
+                </a></li>
+                    <li class="bx_list"><a href="http://www.tokura.co.jp/archives/%e7%9f%b3%e6%a9%8b%e6%b5%84%e6%b0%b4%e5%a0%b4%ef%bc%91%e3%83%bb%ef%bc%92%e5%8f%b7%e9%85%8d%e6%b0%b4%e6%b1%a0%e3%81%bb%e3%81%8b%e7%af%89%e9%80%a0%e5%b7%a5%e4%ba%8b/">
+                    <div class="bnr-image">
+                        <div class="figure"><img alt="" src="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/06/f34c7ba4e73bdc4faee2b562713b4bc0-272x272.jpg" /></div>
+                        <p>石橋浄水場１・２号配水池ほか築造工事</p>
+                    </div>
+                </a></li>
+                    <li class="bx_list"><a href="http://www.tokura.co.jp/archives/%e6%9d%b1%e6%b5%b7%e5%8c%97%e9%99%b8%e8%87%aa%e5%8b%95%e8%bb%8a%e9%81%93%e3%80%80%e5%85%ad%e5%8e%a9%e9%ab%98%e6%9e%b6%e6%a9%8b%ef%bc%88%e4%b8%8b%e9%83%a8%e5%b7%a5%ef%bc%89%e5%b7%a5%e4%ba%8b/">
+                    <div class="bnr-image">
+                        <div class="figure"><img alt="" src="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/06/b07afeb2b3cd79b0f98af7ab05cad6b2-272x272.jpg" /></div>
+                        <p>東海北陸自動車道　六厩高架橋（下部工）工事</p>
+                    </div>
+                </a></li>
+                    <li class="bx_list"><a href="http://www.tokura.co.jp/archives/%ef%bc%91%e5%8f%b7%e7%86%b1%e7%94%b0%e4%bc%9d%e9%a6%ac%e6%a9%8b%e6%9d%b1%e8%bf%82%e5%9b%9e%e8%b7%af%e6%a9%8b%e8%a8%ad%e7%bd%ae%e5%b7%a5%e4%ba%8b/">
+                    <div class="bnr-image">
+                        <div class="figure"><img alt="" src="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/06/448ee20476e1fab500fd56e8087974d4-272x272.jpg" /></div>
+                        <p>１号熱田伝馬橋東迂回路橋設置工事</p>
+                    </div>
+                </a></li>
+                    <li class="bx_list"><a href="http://www.tokura.co.jp/archives/%e6%97%a5%e9%80%b2%e8%b5%a4%e6%b1%a0%e7%ae%95%e3%83%8e%e6%89%8b%e5%9c%9f%e5%9c%b0%e5%8c%ba%e7%94%bb%e6%95%b4%e7%90%86%e4%ba%8b%e6%a5%ad%e3%80%80%e5%b9%b3%e6%88%90%ef%bc%92%ef%bc%97%e5%b9%b4%e5%ba%a6/">
+                    <div class="bnr-image">
+                        <div class="figure"><img alt="" src="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/06/f2ad8f7dc0c2db56f421abec2d250a02-272x272.jpg" /></div>
+                        <p>日進赤池箕ノ手土地区画整理事業　平成２７年度　水路築造工事（その１）</p>
+                    </div>
+                </a></li>
+                    <li class="bx_list"><a href="http://www.tokura.co.jp/archives/%e7%b6%be%e7%80%ac%e5%b7%9d%e8%ad%b7%e5%b2%b8%e8%80%90%e9%9c%87%e8%a3%9c%e5%bc%b7%e5%b7%a5%e4%ba%8b%ef%bc%88%e3%81%9d%e3%81%ae%ef%bc%92%ef%bc%93%ef%bc%89/">
+                    <div class="bnr-image">
+                        <div class="figure"><img alt="" src="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/06/607cbef9efb85e075b2b84baa12c07d2-272x272.jpg" /></div>
+                        <p>綾瀬川護岸耐震補強工事（その２３）</p>
+                    </div>
+                </a></li>
+                    <li class="bx_list"><a href="http://www.tokura.co.jp/archives/%e5%a4%95%e5%87%aa%e6%a9%8b%e6%9e%b6%e6%9b%bf%e5%b7%a5%e4%ba%8b%ef%bc%88%e9%81%93%e8%b7%af%e6%95%b4%e5%82%99%ef%bc%89/">
+                    <div class="bnr-image">
+                        <div class="figure"><img alt="" src="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/06/56b6a52fc5833d65fb3ba6e51e225997-272x272.jpg" /></div>
+                        <p>夕凪橋架替工事（道路整備）</p>
+                    </div>
+                </a></li>
+                    <li class="bx_list"><a href="http://www.tokura.co.jp/archives/%e8%b1%8a%e9%96%93%e6%a0%b9%e5%b7%9d%e6%a9%8b%e4%b8%8b%e9%83%a8%e5%b7%a5%e5%b7%a5%e4%ba%8b/">
+                    <div class="bnr-image">
+                        <div class="figure"><img alt="" src="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/06/d_4-272x272.jpg" /></div>
+                        <p>豊間根川橋下部工工事</p>
+                    </div>
+                </a></li>
+                    <li class="bx_list"><a href="http://www.tokura.co.jp/archives/%e5%b9%b3%e6%88%9025%e5%b9%b4%e5%ba%a6%e3%80%801%e5%8f%b7%e5%90%89%e7%94%b0%e5%a4%a7%e6%a9%8b%e6%a9%8b%e6%a2%81%e8%a3%9c%e5%bc%b7%e5%b7%a5%e4%ba%8b/">
+                    <div class="bnr-image">
+                        <div class="figure"><img alt="" src="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/05/download1-272x272.png" /></div>
+                        <p>平成25年度　1号吉田大橋橋梁補強工事</p>
+                    </div>
+                </a></li>
+                    <li class="bx_list"><a href="http://www.tokura.co.jp/archives/%e5%b9%b3%e6%88%90%ef%bc%92%ef%bc%94%e5%b9%b4%e5%ba%a6%e3%80%80%ef%bc%94%ef%bc%92%e5%8f%b7%e6%96%b0%e8%88%b9%e6%9c%a8%e6%a9%8b%e8%80%90%e9%9c%87%e8%a3%9c%e5%bc%b7%e5%b7%a5%e4%ba%8b/">
+                    <div class="bnr-image">
+                        <div class="figure"><img alt="" src="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/06/26fedd3d24950a3ff7c4dea147e32407-272x272.jpg" /></div>
+                        <p>平成２４年度　４２号新船木橋耐震補強工事</p>
+                    </div>
+                </a></li>
+                    <li class="bx_list"><a href="http://www.tokura.co.jp/archives/%e5%8a%a0%e6%b2%bb%e5%b7%9d%e7%94%a8%e6%b0%b4%e8%be%b2%e6%a5%ad%e6%b0%b4%e5%88%a9%e4%ba%8b%e6%a5%ad%e4%b9%99%e8%a6%8b%e6%b1%9f%e6%94%af%e7%b7%9a%e7%94%a8%e6%b0%b4%e8%b7%af%e6%94%b9%e4%bf%ae%ef%bc%88/">
+                    <div class="bnr-image">
+                        <div class="figure"><img alt="" src="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/06/6e8536f3cb31a8138755a650cdae5ff6-1-272x272.png" /></div>
+                        <p>加治川用水農業水利事業乙見江支線用水路改修（その２）工事</p>
+                    </div>
+                </a></li>
+                    <li class="bx_list"><a href="http://www.tokura.co.jp/archives/%e8%87%a8%e6%b5%b7%e7%94%a8%e5%9c%b0%e9%80%a0%e6%88%90%e4%ba%8b%e6%a5%ad%e3%80%80%e7%a9%ba%e6%b8%af%e5%b3%b6%e9%81%93%e8%b7%af%e8%a3%9c%e4%bf%ae%e5%b7%a5%e4%ba%8b%ef%bc%88tkh23%ef%bc%8d2%ef%bc%89/">
+                    <div class="bnr-image">
+                        <div class="figure"><img alt="" src="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/06/d_7-272x272.jpg" /></div>
+                        <p>臨海用地造成事業　空港島道路補修工事（TKH23－2）</p>
+                    </div>
+                </a></li>
+                    <li class="bx_list"><a href="http://www.tokura.co.jp/archives/%e4%bb%99%e5%8f%b0%e5%b8%82%e9%ab%98%e9%80%9f%e9%89%84%e9%81%93%e6%9d%b1%e8%a5%bf%e7%b7%9a%e8%8d%92%e4%ba%95%e3%83%88%e3%83%b3%e3%83%8d%e3%83%ab%e5%b7%a5%e5%8c%ba%e5%9c%9f%e6%9c%a8%e5%b7%a5%e4%ba%8b/">
+                    <div class="bnr-image">
+                        <div class="figure"><img alt="" src="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/06/d_3-272x272.jpg" /></div>
+                        <p>仙台市高速鉄道東西線荒井トンネル工区土木工事</p>
+                    </div>
+                </a></li>
+                    <li class="bx_list"><a href="http://www.tokura.co.jp/archives/%e5%b9%b3%e6%88%9024%e5%b9%b4%e5%ba%a6%e3%80%80%e5%90%8d%e5%8f%a4%e5%b1%8b%e6%b8%af%e5%ba%84%e5%86%85%e5%b7%9d%e6%b3%8a%e5%9c%b0b%e5%9c%b0%e5%8c%ba%e5%9f%8b%e6%b2%a1%e6%b5%9a%e6%b8%ab%e5%b7%a5/">
+                    <div class="bnr-image">
+                        <div class="figure"><img alt="" src="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/06/d_24-272x272.jpg" /></div>
+                        <p>平成24年度　名古屋港庄内川泊地B地区埋没浚渫工事</p>
+                    </div>
+                </a></li>
+                    <li class="bx_list"><a href="http://www.tokura.co.jp/archives/%e5%8c%97%e9%83%a8%e6%b5%84%e6%b0%b4%e5%a0%b4%e6%96%b0%ef%bc%91%e5%8f%b7%e9%85%8d%e6%b0%b4%e6%b1%a0%e7%af%89%e9%80%a0%e5%b7%a5%e4%ba%8b/">
+                    <div class="bnr-image">
+                        <div class="figure"><img alt="" src="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/06/d_16-272x272.jpg" /></div>
+                        <p>北部浄水場新１号配水池築造工事</p>
+                    </div>
+                </a></li>
+                    <li class="bx_list"><a href="http://www.tokura.co.jp/archives/%e8%b6%b3%e7%ab%8b%e5%8c%ba%e5%ae%ae%e5%9f%8e%e4%b8%80%ef%bc%8c%e4%ba%8c%e4%b8%81%e7%9b%ae%e4%bb%98%e8%bf%91%e5%86%8d%e6%a7%8b%e7%af%89%e5%b7%a5%e4%ba%8b/">
+                    <div class="bnr-image">
+                        <div class="figure"><img alt="" src="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/06/90b9d6feb880e3ccda36c4b09a1c44f5-1-272x272.png" /></div>
+                        <p>足立区宮城一，二丁目付近再構築工事</p>
+                    </div>
+                </a></li>
+                    <li class="bx_list"><a href="http://www.tokura.co.jp/archives/%ef%bc%88%e4%bb%ae%e7%a7%b0%ef%bc%89%e4%b8%89%e6%b2%b3%e5%8f%b0%e5%85%ac%e5%9c%92%e5%9c%b0%e4%b8%8b%e6%a9%9f%e6%a2%b0%e5%bc%8f%e8%87%aa%e8%bb%a2%e8%bb%8a%e9%a7%90%e8%bb%8a%e5%a0%b4%e6%95%b4%e5%82%99/">
+                    <div class="bnr-image">
+                        <div class="figure"><img alt="" src="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/06/3fd36cac96625c0f170a6ce3bc990d6c-1-272x272.png" /></div>
+                        <p>（仮称）三河台公園地下機械式自転車駐車場整備工事</p>
+                    </div>
+                </a></li>
+                    <li class="bx_list"><a href="http://www.tokura.co.jp/archives/%e5%a4%a7%e8%a6%8f%e6%a8%a1%e6%b2%b3%e5%b7%9d%e7%ae%a1%e7%90%86%e6%96%bd%e8%a8%ad%e7%a2%ba%e4%bf%9d%e4%ba%8b%e6%a5%ad%e3%80%80%e6%97%a5%e5%85%89%e5%b7%9d%e6%b0%b4%e9%96%98%e9%96%80%e6%94%b9%e7%af%89/">
+                    <div class="bnr-image">
+                        <div class="figure"><img alt="" src="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/06/d_11-272x272.jpg" /></div>
+                        <p>大規模河川管理施設確保事業　日光川水閘門改築工事（本体構築工）</p>
+                    </div>
+                </a></li>
+                    <li class="bx_list"><a href="http://www.tokura.co.jp/archives/%e5%b9%b3%e6%88%9023%e5%b9%b4%e5%ba%a6%e3%80%8023%e5%8f%b7%e8%b1%8a%e6%a9%8bbp%e8%b1%8a%e6%a9%8b%e6%b8%afic%e9%81%93%e8%b7%af%e5%bb%ba%e8%a8%ad%e5%b7%a5%e4%ba%8b/">
+                    <div class="bnr-image">
+                        <div class="figure"><img alt="" src="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/05/d_1-3-272x272.jpg" /></div>
+                        <p>平成23年度　23号豊橋BP豊橋港IC道路建設工事</p>
+                    </div>
+                </a></li>
+                    <li class="bx_list"><a href="http://www.tokura.co.jp/archives/%e3%80%90%e5%a4%a7%e4%ba%95%e5%b7%9d%e7%94%a8%e6%b0%b4%ef%bc%88%e4%ba%8c%e6%9c%9f%ef%bc%89%e8%be%b2%e6%a5%ad%e6%b0%b4%e5%88%a9%e4%ba%8b%e6%a5%ad%e5%bf%97%e5%a4%aa%e5%b9%b9%e7%b7%9a%e6%b0%b4%e8%b7%af/">
+                    <div class="bnr-image">
+                        <div class="figure"><img alt="" src="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/06/d_gallery_12-272x272.jpg" /></div>
+                        <p>【大井川用水（二期）農業水利事業志太幹線水路下流部整備その１工事】</p>
+                    </div>
+                </a></li>
+                    <li class="bx_list"><a href="http://www.tokura.co.jp/archives/%e7%ac%ac%ef%bc%92%e7%8a%ac%e5%b1%b1%e5%b9%b9%e7%b7%9a%e7%ac%ac7%e5%b7%a5%e5%8c%ba%ef%bc%88%e3%81%9d%e3%81%ae1%e2%80%903%ef%bc%89%e9%85%8d%e6%b0%b4%e7%ae%a1%e5%b8%83%e8%a8%ad%e5%b7%a5%e4%ba%8b/">
+                    <div class="bnr-image">
+                        <div class="figure"><img alt="" src="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/06/d_17-272x272.jpg" /></div>
+                        <p>第２犬山幹線第7工区（その1‐3）配水管布設工事</p>
+                    </div>
+                </a></li>
+                    <li class="bx_list"><a href="http://www.tokura.co.jp/archives/%e3%80%90%e6%96%b0%e5%b7%9d%e8%a5%bf%e9%83%a8%e6%b5%81%e5%9f%9f%e4%b8%8b%e6%b0%b4%e9%81%93%e4%ba%8b%e6%a5%ad%e3%80%80%e7%ae%a1%e3%81%8d%e3%82%87%e5%b8%83%e8%a8%ad%e5%b7%a5%e4%ba%8b%ef%bc%88%e9%a0%88/">
+                    <div class="bnr-image">
+                        <div class="figure"><img alt="" src="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/06/d_gallery_17-272x272.jpg" /></div>
+                        <p>【新川西部流域下水道事業　管きょ布設工事（須ケ口工区）】</p>
+                    </div>
+                </a></li>
+                    <li class="bx_list"><a href="http://www.tokura.co.jp/archives/%e3%80%90%e9%87%8e%e5%91%82%e5%b7%9d%e7%ac%ac%e5%9b%9b%e7%a0%82%e9%98%b2%e5%a0%b0%e5%a0%a4%e5%b7%a5%e4%ba%8b%e3%80%91/">
+                    <div class="bnr-image">
+                        <div class="figure"><img alt="" src="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/06/d_gallery_16-272x272.jpg" /></div>
+                        <p>【野呂川第四砂防堰堤工事】</p>
+                    </div>
+                </a></li>
+                    <li class="bx_list"><a href="http://www.tokura.co.jp/archives/%e3%80%90%e5%b9%b3%e6%88%9021%e5%b9%b4%e5%ba%a6%e5%ae%89%e5%80%8d%e5%b7%9d%e6%b0%b4%e7%b3%bb%e3%82%a6%e3%83%a9%e3%81%ae%e6%b2%a2%e7%a0%82%e9%98%b2%e3%81%88%e3%82%93%e5%a0%a4%e5%b7%a5%e4%ba%8b%e3%80%91/">
+                    <div class="bnr-image">
+                        <div class="figure"><img alt="" src="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/06/d_gallery_15-272x272.jpg" /></div>
+                        <p>【平成21年度安倍川水系ウラの沢砂防えん堤工事】</p>
+                    </div>
+                </a></li>
+                    <li class="bx_list"><a href="http://www.tokura.co.jp/archives/%e3%80%90%e5%b9%b3%e6%88%9021%e5%b9%b4%e5%ba%a641%e5%8f%b7%e6%96%b0%e5%b7%9d%e4%b8%ad%e6%a9%8b%e6%a9%8b%e6%a2%81%e8%a3%9c%e5%bc%b7%e5%b7%a5%e4%ba%8b%e3%80%91/">
+                    <div class="bnr-image">
+                        <div class="figure"><img alt="" src="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/06/d_gallery_14-272x272.jpg" /></div>
+                        <p>【平成21年度41号新川中橋橋梁補強工事】</p>
+                    </div>
+                </a></li>
+                    <li class="bx_list"><a href="http://www.tokura.co.jp/archives/%e3%80%90%e4%b9%9d%e5%b9%b9%e9%b9%bf%e3%80%81%e7%ad%91%e5%be%8c%e7%be%bd%e7%8a%ac%e5%a1%9a%ef%bd%82%ef%bd%8c%e4%bb%96%e3%80%91/">
+                    <div class="bnr-image">
+                        <div class="figure"><img alt="" src="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/06/d_gallery_8-272x272.jpg" /></div>
+                        <p>【九幹鹿、筑後羽犬塚ＢＬ他】</p>
+                    </div>
+                </a></li>
+                    <li class="bx_list"><a href="http://www.tokura.co.jp/archives/%e3%80%90%e3%83%a6%e3%82%bf%e3%82%ab%e8%87%aa%e5%8b%95%e8%bb%8a%e5%ad%a6%e6%a0%a1%e3%82%b3%e3%83%bc%e3%82%b9%e6%94%b9%e4%bf%ae%e5%b7%a5%e4%ba%8b%ef%bc%88%e6%96%b0%e5%a4%a7%e5%9e%8b%e5%af%be%e5%bf%9c/">
+                    <div class="bnr-image">
+                        <div class="figure"><img alt="" src="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/06/d_gallery_7-272x272.jpg" /></div>
+                        <p>【ユタカ自動車学校コース改修工事（新大型対応）】</p>
+                    </div>
+                </a></li>
+                    <li class="bx_list"><a href="http://www.tokura.co.jp/archives/%e3%80%90%e6%9d%b1%e5%90%8d%e9%98%aa%e8%87%aa%e5%8b%95%e8%bb%8a%e9%81%93%e3%80%80%e6%a1%83%e5%b1%b1%e5%b7%a5%e4%ba%8b%e3%80%91/">
+                    <div class="bnr-image">
+                        <div class="figure"><img alt="" src="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/06/d_gallery_21-272x272.jpg" /></div>
+                        <p>【東名阪自動車道　桃山工事】</p>
+                    </div>
+                </a></li>
+                    <li class="bx_list"><a href="http://www.tokura.co.jp/archives/%e5%be%b3%e5%bf%97%e4%b8%b8/">
+                    <div class="bnr-image">
+                        <div class="figure"><img alt="" src="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/06/da_3_3-2-272x230.jpg" /></div>
+                        <p>徳志丸</p>
+                    </div>
+                </a></li>
+                    <li class="bx_list"><a href="http://www.tokura.co.jp/archives/%e3%80%90%e8%8f%b1%e9%87%8e%e3%83%88%e3%83%b3%e3%83%8d%e3%83%ab%e3%80%91/">
+                    <div class="bnr-image">
+                        <div class="figure"><img alt="" src="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/06/da_1_3-272x272.jpg" /></div>
+                        <p>【菱野トンネル】</p>
+                    </div>
+                </a></li>
+                    <li class="bx_list"><a href="http://www.tokura.co.jp/archives/%e3%80%90%e4%b8%ad%e9%83%a8%e5%9b%bd%e9%9a%9b%e7%a9%ba%e6%b8%af%e9%80%a3%e7%b5%a1%e9%89%84%e9%81%93%e6%a9%8b%e3%80%91/">
+                    <div class="bnr-image">
+                        <div class="figure"><img alt="" src="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/06/da_1_8-272x272.jpg" /></div>
+                        <p>【中部国際空港連絡鉄道橋】</p>
+                    </div>
+                </a></li>
+                    <li class="bx_list"><a href="http://www.tokura.co.jp/archives/%e3%80%90%e6%84%9b%e3%83%bb%e5%9c%b0%e7%90%83%e5%8d%9a%e9%96%a2%e9%80%a3%e9%81%93%e8%b7%af%e3%83%bblinimo%e3%80%91/">
+                    <div class="bnr-image">
+                        <div class="figure"><img alt="" src="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/06/da_1_4-272x272.jpg" /></div>
+                        <p>【愛・地球博関連道路・Linimo】</p>
+                    </div>
+                </a></li>
+            </ul>
+  </div>
+  <!-- /#slide_space -->
+  <div class="title_jisseki2"><a href="http://www.tokura.co.jp/business/architect/">建築 <!--<span class="title_jisseki_sub">Architecture</span>--></a></div>
+  <div id="slide_space">
+    <ul class="bxslider">
+                    <li class="bx_list"><a href="http://www.tokura.co.jp/archives/%e3%81%aa%e3%81%94%e3%82%84%e5%b0%8f%e6%a0%a1%e8%88%8e%e6%a3%9f%e6%96%b0%e7%af%89%e5%b7%a5%e4%ba%8b/">
+                    <div class="bnr-image">
+                        <div class="figure"><img alt="" src="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/06/bf6da0ee9993ceb31781b18c0e8cdc84-272x272.jpg" /></div>
+                        <p>なごや小校舎棟新築工事</p>
+                    </div>
+                </a></li>
+                    <li class="bx_list"><a href="http://www.tokura.co.jp/archives/%e5%8c%bb%e7%99%82%e6%b3%95%e4%ba%ba%e6%9d%8f%e6%9e%97%e4%bc%9a%e6%9d%bf%e6%a9%8b%e3%83%aa%e3%83%8f%e3%83%93%e3%83%aa%e3%83%86%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e7%97%85%e9%99%a2%e6%96%b0%e7%af%89/">
+                    <div class="bnr-image">
+                        <div class="figure"><img alt="" src="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/06/e92da80980cf38e407bb66f7acced75c-272x272.jpg" /></div>
+                        <p>医療法人杏林会板橋リハビリテーション病院新築工事</p>
+                    </div>
+                </a></li>
+                    <li class="bx_list"><a href="http://www.tokura.co.jp/archives/%e7%a4%be%e4%bc%9a%e7%a6%8f%e7%a5%89%e6%b3%95%e4%ba%ba%e5%af%bf%e5%ae%9d%e4%bc%9a%e3%80%80%e7%89%b9%e5%88%a5%e9%a4%8a%e8%ad%b7%e8%80%81%e4%ba%ba%e3%83%9b%e3%83%bc%e3%83%a0%e5%85%89%e6%a5%bd%e8%8b%91/">
+                    <div class="bnr-image">
+                        <div class="figure"><img alt="" src="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/06/728df029921eb4ae0eef7b54cfb4b75d-272x272.jpg" /></div>
+                        <p>社会福祉法人寿宝会　特別養護老人ホーム光楽苑建設工事</p>
+                    </div>
+                </a></li>
+                    <li class="bx_list"><a href="http://www.tokura.co.jp/archives/%e3%83%ab%e3%82%b7%e3%82%a7%e3%83%83%e3%83%88%e7%99%bd%e5%b7%9d%e5%85%ac%e5%9c%92%e6%96%b0%e7%af%89%e5%b7%a5%e4%ba%8b/">
+                    <div class="bnr-image">
+                        <div class="figure"><img alt="" src="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/01/e1102bc08f03bfb41d38c45e00ed3196-2-272x272.jpg" /></div>
+                        <p>ルシェット白川公園新築工事</p>
+                    </div>
+                </a></li>
+                    <li class="bx_list"><a href="http://www.tokura.co.jp/archives/t%e3%82%b9%e3%83%86%e3%83%bc%e3%82%b8%e6%b5%84%e6%b0%b4%e2%85%a2%e6%96%b0%e7%af%89%e5%b7%a5%e4%ba%8b/">
+                    <div class="bnr-image">
+                        <div class="figure"><img alt="" src="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/06/0a8a6cd44b58fbbda725e07df5ff9b99-272x272.jpg" /></div>
+                        <p>Tステージ浄水Ⅲ新築工事</p>
+                    </div>
+                </a></li>
+                    <li class="bx_list"><a href="http://www.tokura.co.jp/archives/%e3%83%95%e3%82%a1%e3%83%9f%e3%83%bc%e3%83%ab%e8%a3%bd%e8%8f%93%e4%b9%85%e9%87%8c%e6%b5%9c%e5%b7%a5%e5%a0%b4%e6%96%b0%e7%af%89%e5%b7%a5%e4%ba%8b/">
+                    <div class="bnr-image">
+                        <div class="figure"><img alt="" src="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/06/581f3922d61e3629116421adf1bd13f4-272x272.jpg" /></div>
+                        <p>ファミール製菓久里浜工場新築工事</p>
+                    </div>
+                </a></li>
+                    <li class="bx_list"><a href="http://www.tokura.co.jp/archives/%e9%ab%98%e6%b5%9c%e5%b8%82%e5%bd%b9%e6%89%80%e6%9c%ac%e5%ba%81%e8%88%8e%e6%95%b4%e5%82%99%e4%ba%8b%e6%a5%ad%e5%ba%81%e8%88%8e%e6%96%b0%e7%af%89%e5%b7%a5%e4%ba%8b/">
+                    <div class="bnr-image">
+                        <div class="figure"><img alt="" src="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/06/b6264ddaa11af9635d1be868296ba064-272x272.jpg" /></div>
+                        <p>高浜市役所本庁舎整備事業庁舎新築工事</p>
+                    </div>
+                </a></li>
+                    <li class="bx_list"><a href="http://www.tokura.co.jp/archives/%e3%82%a2%e3%83%bc%e3%82%af%e5%90%8d%e5%8f%a4%e5%b1%8b%e6%94%af%e7%a4%be%e3%80%80%e7%a7%bb%e8%bb%a2%e8%a8%88%e7%94%bb/">
+                    <div class="bnr-image">
+                        <div class="figure"><img alt="" src="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/06/2394453519c7e0326a56b57ecdacbd2e-272x272.jpg" /></div>
+                        <p>アーク名古屋支社　移転計画</p>
+                    </div>
+                </a></li>
+                    <li class="bx_list"><a href="http://www.tokura.co.jp/archives/%e3%83%8b%e3%83%83%e3%82%b7%e3%83%a7%e3%83%bc%e6%9c%ac%e7%a4%be%e7%a4%be%e5%b1%8b%e6%96%b0%e7%af%89%e5%b7%a5%e4%ba%8b/">
+                    <div class="bnr-image">
+                        <div class="figure"><img alt="" src="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/06/9f4e837142b6754f8dd1e576f2025dc3-272x272.jpg" /></div>
+                        <p>ニッショー本社社屋新築工事</p>
+                    </div>
+                </a></li>
+                    <li class="bx_list"><a href="http://www.tokura.co.jp/archives/%e5%b9%b3%e9%87%9d%e4%bd%8f%e5%ae%85%e5%bb%ba%e7%af%89%e5%b7%a5%e4%ba%8b/">
+                    <div class="bnr-image">
+                        <div class="figure"><img alt="" src="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/06/be3aae90059d5689e3d24434a607cf31-272x272.jpg" /></div>
+                        <p>平針住宅建築工事</p>
+                    </div>
+                </a></li>
+                    <li class="bx_list"><a href="http://www.tokura.co.jp/archives/%e3%83%b4%e3%82%a3%e3%83%bc%e3%82%af%e3%83%8f%e3%82%a6%e3%82%b9%e7%99%bd%e5%a3%81%e6%96%b0%e7%af%89%e5%b7%a5%e4%ba%8b/">
+                    <div class="bnr-image">
+                        <div class="figure"><img alt="" src="http://www.tokura.co.jp/wordpress/wp-content/uploads/2016/03/74dde9f822365abf763125f866f66872-272x272.jpg" /></div>
+                        <p>ヴィークハウス白壁新築工事</p>
+                    </div>
+                </a></li>
+                    <li class="bx_list"><a href="http://www.tokura.co.jp/archives/%e5%a2%a8%e7%94%b0%e5%8c%ba%e7%b7%914%e4%b8%81%e7%9b%ae%e5%85%b1%e5%90%8c%e4%bd%8f%e5%ae%85/">
+                    <div class="bnr-image">
+                        <div class="figure"><img alt="" src="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/06/67ef7f7ee4febd71a534bb984662bc58-272x272.jpg" /></div>
+                        <p>墨田区緑4丁目共同住宅</p>
+                    </div>
+                </a></li>
+                    <li class="bx_list"><a href="http://www.tokura.co.jp/archives/%ef%bd%94%e3%82%b9%e3%83%86%e3%83%bc%e3%82%b8%e6%97%a5%e5%8d%97%e5%85%ac%e5%9c%92%e6%96%b0%e7%af%89%e5%b7%a5%e4%ba%8b/">
+                    <div class="bnr-image">
+                        <div class="figure"><img alt="" src="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/06/986e859e92eee04cef0dd3f0aa646105-272x272.jpg" /></div>
+                        <p>Ｔステージ日南公園新築工事</p>
+                    </div>
+                </a></li>
+                    <li class="bx_list"><a href="http://www.tokura.co.jp/archives/%e5%8c%bb%e7%99%82%e6%b3%95%e4%ba%ba%e6%9c%89%e5%bf%83%e4%bc%9a%e3%80%80%e3%81%82%e3%81%a4%e3%81%bf%e6%95%b4%e5%bd%a2%e3%82%af%e3%83%aa%e3%83%8b%e3%83%83%e3%82%af%e5%bb%ba%e8%a8%ad%e5%b7%a5%e4%ba%8b/">
+                    <div class="bnr-image">
+                        <div class="figure"><img alt="" src="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/06/27eed0d21aee2df3ba111748169b5d68-272x272.jpg" /></div>
+                        <p>医療法人有心会　あつみ整形クリニック建設工事</p>
+                    </div>
+                </a></li>
+                    <li class="bx_list"><a href="http://www.tokura.co.jp/archives/%e6%84%9b%e7%9f%a5%e6%a0%aa%e5%bc%8f%e4%bc%9a%e7%a4%be%e3%80%80%e6%98%a5%e6%97%a5%e4%ba%95%e6%96%b0%e5%b7%a5%e5%a0%b4%e6%96%b0%e7%af%89%e5%b7%a5%e4%ba%8b-2/">
+                    <div class="bnr-image">
+                        <div class="figure"><img alt="" src="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/06/5983112c302d0907cd622413af97e318-272x272.jpg" /></div>
+                        <p>愛知株式会社　春日井新工場新築工事</p>
+                    </div>
+                </a></li>
+                    <li class="bx_list"><a href="http://www.tokura.co.jp/archives/%e7%99%bd%e5%b7%9d%e5%b1%b1%e8%8d%98%e6%96%b0%e7%af%89%e5%b7%a5%e4%ba%8b/">
+                    <div class="bnr-image">
+                        <div class="figure"><img alt="" src="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/06/3a1538a79c51c0bd8324d4933e360cd7-272x272.jpg" /></div>
+                        <p>白川山荘新築工事</p>
+                    </div>
+                </a></li>
+                    <li class="bx_list"><a href="http://www.tokura.co.jp/archives/%e4%b8%80%e6%9d%a1%e3%82%bf%e3%83%af%e3%83%bc%e3%83%ac%e3%82%b8%e3%83%87%e3%83%b3%e3%82%b9%e6%b5%9c%e6%9d%be/">
+                    <div class="bnr-image">
+                        <div class="figure"><img alt="" src="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/06/14a68c4bea6869e42394c240fbd76a47-272x272.jpg" /></div>
+                        <p>一条タワーレジデンス浜松</p>
+                    </div>
+                </a></li>
+                    <li class="bx_list"><a href="http://www.tokura.co.jp/archives/sogokagu%e3%83%87%e3%82%b6%e3%82%a4%e3%83%b3%e3%82%bb%e3%83%b3%e3%82%bf%e3%83%bc%e8%a8%88%e7%94%bb/">
+                    <div class="bnr-image">
+                        <div class="figure"><img alt="" src="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/06/ad5f2d4be529c882952e3303e69e76f4-272x272.jpg" /></div>
+                        <p>SOGOKAGUデザインセンター計画</p>
+                    </div>
+                </a></li>
+                    <li class="bx_list"><a href="http://www.tokura.co.jp/archives/%e6%96%b0%e6%97%a5%e6%9c%ac%e3%82%a6%e3%82%a8%e3%83%83%e3%82%af%e3%82%b9%e9%87%8e%e7%94%b0%e4%ba%8b%e6%a5%ad%e6%89%80%e5%a2%97%e7%af%89%e5%b7%a5%e4%ba%8b/">
+                    <div class="bnr-image">
+                        <div class="figure"><img alt="" src="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/06/7e064f0ca38f63fb0717d832fe4a1d3c-272x272.jpg" /></div>
+                        <p>新日本ウエックス野田事業所増築工事</p>
+                    </div>
+                </a></li>
+                    <li class="bx_list"><a href="http://www.tokura.co.jp/archives/%e4%bb%8b%e8%ad%b7%e8%80%81%e4%ba%ba%e4%bf%9d%e5%81%a5%e6%96%bd%e8%a8%ad%e3%82%a4%e3%83%bc%e3%82%b9%e3%83%88%e5%a4%a7%e5%ba%9c%e6%96%b0%e7%af%89%e5%b7%a5%e4%ba%8b/">
+                    <div class="bnr-image">
+                        <div class="figure"><img alt="" src="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/06/aec270cb09d75d50b1d487f8a3004103-272x272.jpg" /></div>
+                        <p>介護老人保健施設イースト大府新築工事</p>
+                    </div>
+                </a></li>
+                    <li class="bx_list"><a href="http://www.tokura.co.jp/archives/%e4%bb%ae%e7%a7%b0%e6%9c%9d%e9%87%8c%e7%ac%ac%e4%b8%89%e6%9c%89%e6%96%99%e8%80%81%e4%ba%ba%e3%83%9b%e3%83%bc%e3%83%a0%e5%a2%97%e7%af%89%e5%b7%a5%e4%ba%8b/">
+                    <div class="bnr-image">
+                        <div class="figure"><img alt="" src="http://www.tokura.co.jp/wordpress/wp-content/uploads/2015/03/0e8bf28361a1888276409df50c414bcb-272x272.jpg" /></div>
+                        <p>(仮称)朝里第三有料老人ホーム増築工事</p>
+                    </div>
+                </a></li>
+                    <li class="bx_list"><a href="http://www.tokura.co.jp/archives/%e6%bf%83%e5%8d%97%e5%b0%8f%e5%ad%a6%e6%a0%a1%e5%bb%ba%e8%a8%ad%e5%b7%a5%e4%ba%8b%ef%bc%88%e5%bb%ba%e7%af%89%ef%bc%89/">
+                    <div class="bnr-image">
+                        <div class="figure"><img alt="" src="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/06/e0bc1ab3453198394ada8c1e725815db-272x272.jpg" /></div>
+                        <p>濃南小学校建設工事（建築）</p>
+                    </div>
+                </a></li>
+                    <li class="bx_list"><a href="http://www.tokura.co.jp/archives/%e6%84%9b%e7%9f%a5%e6%a0%aa%e5%bc%8f%e4%bc%9a%e7%a4%be%e3%80%80%e6%98%a5%e6%97%a5%e4%ba%95%e6%96%b0%e5%b7%a5%e5%a0%b4%e6%96%b0%e7%af%89%e5%b7%a5%e4%ba%8b/">
+                    <div class="bnr-image">
+                        <div class="figure"><img alt="" src="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/06/c6952b249ab392f0ecd6a690f7561259-272x272.jpg" /></div>
+                        <p>愛知株式会社　春日井新工場新築工事</p>
+                    </div>
+                </a></li>
+                    <li class="bx_list"><a href="http://www.tokura.co.jp/archives/%e3%83%b4%e3%82%a3%e3%83%bc%e3%82%af%e3%82%b3%e3%83%bc%e3%83%88%e8%a6%9a%e7%8e%8b%e5%b1%b1%e5%90%91%e9%99%bd%e7%94%ba%e6%96%b0%e7%af%89%e5%b7%a5%e4%ba%8b/">
+                    <div class="bnr-image">
+                        <div class="figure"><img alt="" src="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/06/9c744c9672f508a728cc2760ee3b18cf-272x272.jpg" /></div>
+                        <p>ヴィークコート覚王山向陽町新築工事</p>
+                    </div>
+                </a></li>
+                    <li class="bx_list"><a href="http://www.tokura.co.jp/archives/%e6%b4%a5%e5%b8%82%e6%96%b0%e6%96%8e%e5%a0%b4%e6%95%b4%e5%82%99%e9%81%8b%e5%96%b6%e4%ba%8b%e6%a5%ad%e3%80%80%e6%96%bd%e8%a8%ad%e6%95%b4%e5%82%99%e6%a5%ad%e5%8b%99%e3%81%ae%e3%81%86%e3%81%a1%e5%bb%ba/">
+                    <div class="bnr-image">
+                        <div class="figure"><img alt="" src="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/06/508756badf43d93c477bebbc65bf632e-1-272x240.png" /></div>
+                        <p>津市新斎場整備運営事業</p>
+                    </div>
+                </a></li>
+                    <li class="bx_list"><a href="http://www.tokura.co.jp/archives/%e4%bb%ae%e7%a7%b0%e4%b8%89%e6%b2%b3%e9%83%b7%e5%8f%8b%e4%bc%9a-%e5%a5%b3%e5%ad%90%e5%af%ae%e6%96%b0%e7%af%89%e5%b7%a5%e4%ba%8b/">
+                    <div class="bnr-image">
+                        <div class="figure"><img alt="" src="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/06/fe246e019bddc8655a03a10a173bf8d6-272x272.jpg" /></div>
+                        <p>三河郷友会 女子寮新築工事</p>
+                    </div>
+                </a></li>
+                    <li class="bx_list"><a href="http://www.tokura.co.jp/archives/%ef%bd%8a%ef%bd%81%e3%81%aa%e3%81%94%e3%82%84%e3%80%80%e4%b8%ad%e5%b7%9d%e4%b8%ad%e9%83%a8%e6%94%af%e5%ba%97%e6%96%b0%e7%af%89%e5%b7%a5%e4%ba%8b/">
+                    <div class="bnr-image">
+                        <div class="figure"><img alt="" src="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/06/k_5-272x272.jpg" /></div>
+                        <p>ＪＡなごや　中川中部支店新築工事</p>
+                    </div>
+                </a></li>
+                    <li class="bx_list"><a href="http://www.tokura.co.jp/archives/%e5%9c%b0%e5%9f%9f%e4%ba%a4%e6%b5%81%e3%82%bb%e3%83%b3%e3%82%bf%e3%83%bc%e6%95%b4%e5%82%99%e5%b7%a5%e4%ba%8b%ef%bc%88%e4%b8%80%e8%89%b2%e7%94%ba%e3%83%9b%e3%83%bc%e3%83%ab%ef%bc%89/">
+                    <div class="bnr-image">
+                        <div class="figure"><img alt="" src="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/06/k_1-272x272.jpg" /></div>
+                        <p>地域交流センター整備工事（一色町ホール）</p>
+                    </div>
+                </a></li>
+                    <li class="bx_list"><a href="http://www.tokura.co.jp/archives/%e3%83%aa%e3%83%b3%e3%82%bf%e3%83%84%e6%a0%aa%e5%bc%8f%e4%bc%9a%e7%a4%be%e3%80%80%e6%9c%ac%e7%a4%be%e6%96%b0%e7%af%89%e5%b7%a5%e4%ba%8b/">
+                    <div class="bnr-image">
+                        <div class="figure"><img alt="" src="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/06/6e5eec255037aa2eaef0b785df26f40e-1-272x272.png" /></div>
+                        <p>リンタツ株式会社　本社新築工事</p>
+                    </div>
+                </a></li>
+                    <li class="bx_list"><a href="http://www.tokura.co.jp/archives/%e6%9d%b1%e5%b1%b1%e5%8b%95%e6%a4%8d%e7%89%a9%e5%9c%92%e3%80%8c%e3%82%ac%e3%83%bc%e3%83%87%e3%83%b3%e3%83%86%e3%83%a9%e3%82%b9%e6%9d%b1%e5%b1%b1%e3%80%8d%e6%96%b0%e7%af%89%e5%b7%a5%e4%ba%8b/">
+                    <div class="bnr-image">
+                        <div class="figure"><img alt="" src="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/06/31a83c1dcc2b5ade3e79ff8b5d9ab631-1-272x272.png" /></div>
+                        <p>東山動植物園「ガーデンテラス東山」新築工事</p>
+                    </div>
+                </a></li>
+                    <li class="bx_list"><a href="http://www.tokura.co.jp/archives/%e4%bb%ae%e7%a7%b0%ef%bc%89%e4%b8%a1%e5%8f%a3%e5%b1%8b%e6%98%af%e6%b8%85%e3%80%80%e6%9d%b1%e5%b1%b1%e5%ba%97%e6%96%b0%e7%af%89%e5%b7%a5%e4%ba%8b/">
+                    <div class="bnr-image">
+                        <div class="figure"><img alt="" src="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/06/k_24-272x272.jpg" /></div>
+                        <p>(仮称）両口屋是清　東山店新築工事</p>
+                    </div>
+                </a></li>
+                    <li class="bx_list"><a href="http://www.tokura.co.jp/archives/%ef%bc%88%e4%bb%ae%e7%a7%b0%ef%bc%89%e7%89%b9%e5%88%a5%e9%a4%8a%e8%ad%b7%e8%80%81%e4%ba%ba%e3%83%9b%e3%83%bc%e3%83%a0%e3%80%80%e3%82%a2%e3%83%ab%e3%82%af%e3%82%aa%e3%83%bc%e3%83%ac%e5%ae%89%e5%9f%8e/">
+                    <div class="bnr-image">
+                        <div class="figure"><img alt="" src="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/06/k_35-272x272.jpg" /></div>
+                        <p>（仮称）特別養護老人ホーム　アルクオーレ安城　新築工事</p>
+                    </div>
+                </a></li>
+                    <li class="bx_list"><a href="http://www.tokura.co.jp/archives/%e4%bb%ae%e7%a7%b0%ef%bc%89%e7%ac%ac%e4%b8%89%e6%9c%89%e6%96%99%e8%80%81%e4%ba%ba%e3%83%9b%e3%83%bc%e3%83%a0%e6%96%b0%e7%af%89%e5%b7%a5%e4%ba%8b%ef%bc%88%e3%81%82%e3%81%a3%e3%81%a8%e3%81%bb%e3%83%bc/">
+                    <div class="bnr-image">
+                        <div class="figure"><img alt="" src="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/06/k_10-272x272.jpg" /></div>
+                        <p>(仮称）第三有料老人ホーム新築工事（あっとほーむ戸倉上山田温泉）</p>
+                    </div>
+                </a></li>
+                    <li class="bx_list"><a href="http://www.tokura.co.jp/archives/%e6%96%b0%e4%bf%9d%e8%82%b2%e6%89%80%e6%96%b0%e7%af%89%e5%b7%a5%e4%ba%8b%ef%bc%88%e9%98%bf%e4%b9%85%e6%af%94%e7%94%ba%e7%ab%8b%e8%8b%b1%e6%af%94%e4%bf%9d%e8%82%b2%e5%9c%92%ef%bc%89/">
+                    <div class="bnr-image">
+                        <div class="figure"><img alt="" src="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/06/f81fd2e4c52864042852c112ce927ae2-4-272x272.png" /></div>
+                        <p>新保育所新築工事（阿久比町立英比保育園）</p>
+                    </div>
+                </a></li>
+                    <li class="bx_list"><a href="http://www.tokura.co.jp/archives/%e7%a4%be%e4%bc%9a%e7%a6%8f%e7%a5%89%e6%b3%95%e4%ba%ba%e3%80%80%e5%af%bf%e5%ae%9d%e4%bc%9a%e3%80%80%e6%81%b5%e7%bf%94%e8%8b%91%e5%bb%ba%e8%a8%ad%e5%b7%a5%e4%ba%8b/">
+                    <div class="bnr-image">
+                        <div class="figure"><img alt="" src="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/06/k_36-272x272.jpg" /></div>
+                        <p>社会福祉法人　寿宝会　恵翔苑建設工事</p>
+                    </div>
+                </a></li>
+                    <li class="bx_list"><a href="http://www.tokura.co.jp/archives/%e5%8c%bb%e7%99%82%e6%b3%95%e4%ba%ba%e5%92%8c%e9%a6%99%e4%bc%9a%e3%80%80%e5%80%89%e6%95%b7%e3%82%b9%e3%82%a4%e3%83%bc%e3%83%88%e3%82%bf%e3%82%a6%e3%83%b3/">
+                    <div class="bnr-image">
+                        <div class="figure"><img alt="" src="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/06/k_7-272x272.jpg" /></div>
+                        <p>医療法人和香会　倉敷スイートタウン</p>
+                    </div>
+                </a></li>
+                    <li class="bx_list"><a href="http://www.tokura.co.jp/archives/%ef%bc%88%e4%bb%ae%e7%a7%b0%ef%bc%89ichijo%e3%80%80tower%e3%80%80kanayama%e6%96%b0%e7%af%89%e5%b7%a5%e4%ba%8b/">
+                    <div class="bnr-image">
+                        <div class="figure"><img alt="" src="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/06/356ca5e02c1fe8688d29743aaa46a317-1-272x272.png" /></div>
+                        <p>（仮称）ICHIJO　TOWER　KANAYAMA新築工事</p>
+                    </div>
+                </a></li>
+                    <li class="bx_list"><a href="http://www.tokura.co.jp/archives/%ef%bc%88%e4%bb%ae%e7%a7%b0%ef%bc%89%e3%83%97%e3%83%ac%e3%82%b7%e3%82%b9%e8%8d%92%e5%ad%90%e5%b7%9d%e5%85%ac%e5%9c%92%e6%96%b0%e7%af%89%e5%b7%a5%e4%ba%8b%ef%bc%88%e3%83%99%e3%83%ab%e3%83%87%e3%82%a3/">
+                    <div class="bnr-image">
+                        <div class="figure"><img alt="" src="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/06/k_21-272x272.jpg" /></div>
+                        <p>（仮称）プレシス荒子川公園新築工事（ベルディーク荒子川公園）</p>
+                    </div>
+                </a></li>
+                    <li class="bx_list"><a href="http://www.tokura.co.jp/archives/%e4%bb%ae%e7%a7%b0%e6%84%9b%e8%a5%bf%e5%b8%82%e5%ad%a6%e6%a0%a1%e7%b5%a6%e9%a3%9f%ef%bd%be%ef%be%9d%ef%be%80-%e6%95%b4%e5%82%99%e3%83%bb%e9%81%8b%e5%96%b6%e4%ba%8b%e6%a5%ad%e3%80%80%e5%bb%ba/">
+                    <div class="bnr-image">
+                        <div class="figure"><img alt="" src="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/06/047e14930579a51d866c148e007efccc-1-272x272.png" /></div>
+                        <p>愛西市学校給食ｾﾝﾀ-整備・運営事業</p>
+                    </div>
+                </a></li>
+                    <li class="bx_list"><a href="http://www.tokura.co.jp/archives/%e5%b0%8f%e7%89%a7%e8%87%aa%e5%8b%95%e8%bb%8a%e6%a4%9c%e6%9f%bb%e7%99%bb%e9%8c%b2%e4%ba%8b%e5%8b%99%e6%89%80%e5%ba%81%e8%88%8e%e5%bb%ba%e7%af%89%e5%b7%a5%e4%ba%8b/">
+                    <div class="bnr-image">
+                        <div class="figure"><img alt="" src="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/06/gallery_1-2-272x272.jpg" /></div>
+                        <p>小牧自動車検査登録事務所庁舎建築工事</p>
+                    </div>
+                </a></li>
+                    <li class="bx_list"><a href="http://www.tokura.co.jp/archives/%ef%bc%88%e4%bb%ae%e7%a7%b0%ef%bc%89%e6%9c%9d%e9%87%8c%e7%97%85%e9%99%a2%e6%96%b0%e7%af%89%e5%b7%a5%e4%ba%8b/">
+                    <div class="bnr-image">
+                        <div class="figure"><img alt="" src="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/06/gallery_9-272x272.jpg" /></div>
+                        <p>（仮称）朝里病院新築工事</p>
+                    </div>
+                </a></li>
+                    <li class="bx_list"><a href="http://www.tokura.co.jp/archives/%ef%bc%88%e4%bb%ae%e7%a7%b0%ef%bc%89belista%e8%8c%b6%e5%b1%8b%e3%83%b6%e5%9d%82b%e6%96%b0%e7%af%89%e5%b7%a5%e4%ba%8b/">
+                    <div class="bnr-image">
+                        <div class="figure"><img alt="" src="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/06/gallery_24-272x272.jpg" /></div>
+                        <p>（仮称）BELISTA茶屋ヶ坂B新築工事</p>
+                    </div>
+                </a></li>
+                    <li class="bx_list"><a href="http://www.tokura.co.jp/archives/%ef%bd%99%ef%bd%82%ef%bd%8d%e5%90%8d%e5%8f%a4%e5%b1%8b%e6%94%af%e5%ba%97%e6%96%b0%e7%af%89%e5%b7%a5%e4%ba%8b/">
+                    <div class="bnr-image">
+                        <div class="figure"><img alt="" src="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/06/k_39-272x272.jpg" /></div>
+                        <p>ＹＢＭ名古屋支店新築工事</p>
+                    </div>
+                </a></li>
+                    <li class="bx_list"><a href="http://www.tokura.co.jp/archives/%e3%83%88%e3%83%a8%e3%82%bf%e3%81%99%e3%81%be%e3%81%84%e3%82%8b%e3%83%a9%e3%82%a4%e3%83%95%e6%9c%ac%e7%a4%be%e5%a2%97%e7%af%89%e5%b7%a5%e4%ba%8b/">
+                    <div class="bnr-image">
+                        <div class="figure"><img alt="" src="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/06/gallery_2-272x272.jpg" /></div>
+                        <p>トヨタすまいるライフ本社増築工事</p>
+                    </div>
+                </a></li>
+                    <li class="bx_list"><a href="http://www.tokura.co.jp/archives/%ef%bc%88%e4%bb%ae%e7%a7%b0%ef%bc%89%e8%a1%a8%e5%8f%82%e9%81%93%e3%83%90%e3%83%b3%e3%83%96%e3%83%bc%ef%bc%91%e9%9a%8e%e5%8e%a8%e6%88%bf%e6%94%b9%e8%a3%85%e5%b7%a5%e4%ba%8b/">
+                    <div class="bnr-image">
+                        <div class="figure"><img alt="" src="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/06/k_40-272x272.jpg" /></div>
+                        <p>（仮称）表参道バンブー１階厨房改装工事</p>
+                    </div>
+                </a></li>
+                    <li class="bx_list"><a href="http://www.tokura.co.jp/archives/%e5%af%bf%e5%85%89%e4%bc%9a%e4%b8%ad%e5%a4%ae%e7%97%85%e9%99%a2/">
+                    <div class="bnr-image">
+                        <div class="figure"><img alt="" src="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/06/ga_4_4-272x272.jpg" /></div>
+                        <p>寿光会中央病院</p>
+                    </div>
+                </a></li>
+                    <li class="bx_list"><a href="http://www.tokura.co.jp/archives/%e5%bf%97%e6%ae%b5%e5%91%b3%e8%b3%87%e6%ba%90%e5%be%aa%e7%92%b0%e3%83%a2%e3%83%87%e3%83%ab%e4%bd%8f%e5%ae%85/">
+                    <div class="bnr-image">
+                        <div class="figure"><img alt="" src="http://www.tokura.co.jp/wordpress/wp-content/uploads/2017/06/gal_1_1-272x272.jpg" /></div>
+                        <p>志段味資源循環モデル住宅</p>
+                    </div>
+                </a></li>
+            </ul>
+  </div>
+  <!-- /#slide_space --> 
+</section>
+<!--<section id="box_bnr_top2">
+  <article class="" data-plugin-options='{"reverse": false}'>
+    <div class="box_bnr_top2_in"> <a href="http://www.tokura.co.jp/contents.html" target="_blank"><img src="http://www.tokura.co.jp/img/logo_tokura.jpg" width="116" height="61" alt="TOKURA REPORT"/></a>
+      <p>社内行事や最新情報など、徳倉建設の今日、そして未来をお伝えします。</p>
+    </div>
+    <div class="box_bnr_top2_in"> <a href="http://www.tokura.co.jp/contents.html" target="_blank"><img src="http://www.tokura.co.jp/img/logo_eco.jpg" width="120" height="54" alt="TOKURA REPORT"/></a>
+      <p>「エコ事業所」としての認定を受け、環境に配慮した取組みを推進。</p>
+    </div>
+  </article>
+</section>-->
+<footer class="" data-plugin-options='{"reverse": false}'>
+  <div class="footer_in">
+    <div class="box_footer">
+      <div class="title_footer"><a href="http://www.tokura.co.jp/">トップページ</a></div>
+      <div class="title_footer"><a href="http://www.tokura.co.jp/contact/">お問い合わせ</a></div>
+    </div>
+    <div class="box_footer">
+      <div class="title_footer"><a href="http://www.tokura.co.jp/company/">企業情報</a></div>
+      <ul class="link_footer">
+        <li><a href="http://www.tokura.co.jp/company/message/">社長挨拶</a></li>
+        <li><a href="http://www.tokura.co.jp/company/profile/">会社概要</a></li>
+        <li><a href="http://www.tokura.co.jp/company/kokunai/">国内拠点</a></li>
+        <li><a href="http://www.tokura.co.jp/company/forign_office/">海外拠点</a></li>
+        <li><a href="http://www.tokura.co.jp/company/csr/">CSR</a></li>
+        <li><a href="http://www.tokura.co.jp/company/history/">沿革</a></li>
+        <li><a href="http://www.tokura.co.jp/company/associate/">関連会社</a></li>
+      </ul>
+    </div>
+    <div class="box_footer">
+      <div class="title_footer"><a href="http://www.tokura.co.jp/business/">事業内容</a></div>
+      <ul class="link_footer">
+        <li><a href="http://www.tokura.co.jp/business/doboku/">土木</a></li>
+        <li><a href="http://www.tokura.co.jp/business/architect/">建築</a></li>
+        <li><a href="http://www.tokura.co.jp/business/kokusai/">国際</a></li>
+        <li><a href="http://www.tokura.co.jp/business/renewal/">リニューアル</a></li>
+        <li><a href="http://www.tokura.co.jp/business/ppp_pfi/">PPP/PFI</a></li>
+        <li><a href="http://www.tokura.co.jp/business/architectural_office/">徳倉建設一級建築士事務所</a></li>
+        <li><a href="http://www.tokura.co.jp/business/development/">開発事業</a></li>
+        <li><a href="http://www.tokura.co.jp/business/technology/">技術</a></li>
+      </ul>
+    </div>
+    <div class="box_footer">
+      <div class="title_footer"><a href="http://www.tokura.co.jp/archives/">実績紹介</a></div>
+      <ul class="link_footer">
+        <li><a href="http://www.tokura.co.jp/archives/?a_busi=civil">土木事業の実績</a></li>
+        <li><a href="http://www.tokura.co.jp/archives/?a_busi=buildings">建築事業の実績</a></li>
+        <li><a href="http://www.tokura.co.jp/archives/?a_busi=international">国際事業の実績</a></li>
+      
+      </ul>
+    </div>
+    <div class="box_footer">
+      <div class="title_footer"><a href="http://www.tokura.co.jp/finance/">IR情報</a></div>
+      <ul class="link_footer">
+        <li><a href="http://www.tokura.co.jp/finance/archive/">過去のIR情報</a></li>
+       
+        <li><a href="http://www.tokura.co.jp/finance__trashed-2/pdf/f_20160713.pdf">コーポレートガバナンス</a></li>
+      </ul>
+    </div>
+    <div class="box_footer">
+      <div class="title_footer"><a href="http://www.tokura.co.jp/recruit/">採用情報</a></div>
+      <ul class="link_footer">
+        <li><a href="http://www.tokura.co.jp/recruit/message/">社長メッセージ</a></li>
+        <li><a href="http://www.tokura.co.jp/recruit/aboutus/">企業情報</a></li>
+        <li><a href="http://www.tokura.co.jp/recruit/staff_voice/">先輩社員の声</a></li>
+        <li><a href="http://www.tokura.co.jp/recruit/recruit/">新卒採用情報</a></li>
+        <li><a href="http://www.tokura.co.jp/recruit/recruit02/">中途採用情報</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+<nav id="footer_nav">
+  <div class="footer_navi_in">
+    <div class="box_footer_navi">
+      <div class="ft_logo"><a href=""><img src="http://www.tokura.co.jp/img/logo2.png" width="53" height="31" alt="" class="logo2"/></a></div>
+      <ul>
+        <li><a href="http://www.tokura.co.jp/sitemap/">サイトマップ</a></li>
+        <li><a href="http://www.tokura.co.jp/privacypolicy/">個人情報保護方針</a></li>
+        <li class="last"><a href="http://www.tokura.co.jp/riyou/">このサイトのご利用にあたって</a></li>
+      </ul>
+    </div>
+      <div class="sp_search smp" id="sp_gsc"><script>
+              (function() {
+                  var cx = '000568978885073821811:tdt3gtdh5nw';
+                  var gcse = document.createElement('script');
+                  gcse.type = 'text/javascript';
+                  gcse.async = true;
+                  gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+                  var s = document.getElementsByTagName('script')[0];
+                  s.parentNode.insertBefore(gcse, s);
+              })();
+          </script>
+          <gcse:search></gcse:search>
+      </div>
+
+      <div class="copy">Copyright &copy; Tokura Corporation All rights reserved.</div>
+  </div>
+</nav>
+<script type="text/javascript" src="http://www.tokura.co.jp/js/jquery.fadethis.min.js"></script> 
+<script>
+		$(window).fadeThis();
+</script>
+<div class="smp">
+  <div class="box_navi_smp">
+      <div class="title_smp"><a href="http://www.tokura.co.jp/"><img src="http://www.tokura.co.jp/img/logo.png" width="271" height="31" alt="徳倉建設株式会社"/></a></div>
+    <div class="btn_menu"><a href="#" class="menu-trigger"> <span></span> <span></span> <span></span> </a></div>
+  </div>
+  <div id="box_smp_menu">
+    <div id="global_navi_in">
+      <ul id="navi" class="accordion02">
+        <li><a href="http://www.tokura.co.jp/">HOME</a></li>
+        <li class="sp_drop">
+                            <dl>
+                                <dt>企業情報</dt>
+                                <dd class="small_menu">
+                                    <ul><li><a href="http://www.tokura.co.jp/company/"><span>企業情報トップ</span></a></li>
+                                        <li><a href="http://www.tokura.co.jp/company/message/"><span>社長挨拶</span></a></li>
+                                        <li><a href="http://www.tokura.co.jp/company/profile/"><span>会社概要</span></a></li>
+                                        <li><a href="http://www.tokura.co.jp/company/kokunai/"><span>国内拠点</span></a></li>
+                                        <li><a href="http://www.tokura.co.jp/company/forign_office/"><span>海外拠点</span></a></li>
+                                        <li><a href="http://www.tokura.co.jp/company/csr/"><span>CSR</span></a></li>
+                                        <li><a href="http://www.tokura.co.jp/company/history/"><span>沿革</span></a></li>
+                                        <li><a href="http://www.tokura.co.jp/company/associate/"><span>関連会社</span></a></li>
+                                    </ul>
+                                </dd>
+                            </dl>
+                        </li>
+
+       <li class="sp_drop">
+                            <dl>
+                                <dt>事業内容</dt>
+                                <dd class="small_menu">
+                                    <ul><li><a href="http://www.tokura.co.jp/business/"><span>事業内容トップ</span></a></li>
+                                        <li><a href="http://www.tokura.co.jp/business/doboku/"><span>土木事業</span></a></li>
+                                        <li><a href="http://www.tokura.co.jp/business/architect/"><span>建築事業</span></a></li>
+					<li><a href="http://www.tokura.co.jp/business/kokusai/"><span>国際事業</span></a></li>
+                                        <li><a href="http://www.tokura.co.jp/business/renewal/"><span>リニューアル事業</span></a></li>
+                                        <li><a href="http://www.tokura.co.jp/business/ppp_pfi/"><span>PPP／PFI事業</span></a></li>
+                                        <li><a href="http://www.tokura.co.jp/business/architectural_office/"><span>徳倉建設一級建築士事務所</span></a></li>
+                                        <li><a href="http://www.tokura.co.jp/business/development/"><span>開発事業</span></a></li>
+                                    </ul>
+                                </dd>
+                            </dl>
+                        </li>
+        
+        <li><a href="http://www.tokura.co.jp/archives/">施工実績</a></li>
+        <li><a href="http://www.tokura.co.jp/finance/">IR情報</a></li>
+        <li><a href="http://www.tokura.co.jp/recruit/">採用情報</a></li>
+        <li class="inquiry"><a href="http://www.tokura.co.jp/contact/">お問い合わせ</a></li>
+          <li class="sp_lang_box"><div class="sp_lang fix"><!--<span class="ico_la translation-links"><a href="#" class="flag-ja radius" data-lang="日本語"><img src="../img/ico_japan.png" width="25" height="17" alt="日本語"/></a></span>--> <span class="ico_la"><a href="http://www.tokura.co.jp/en/"><img src="http://www.tokura.co.jp/img/ico_usa.png" width="24" height="17" alt="English"/></a></span> <span class="ico_la translation-links"><a href="http://www.tokura.co.jp/sp/" class="flag-es" data-lang="スペイン語"><img src="http://www.tokura.co.jp/img/ico_spain.png" width="24" height="17" alt="espanol"/></a></span> <span class="ico_la translation-links"><a href="http://www.tokura.co.jp/fr/" class="flag-fr" data-lang="フランス語"><img src="http://www.tokura.co.jp/img/ico_france.png" width="24" height="17" alt="francais"/></a></span></div></li>
+      </ul>
+    </div>
+  </div>
+  <script>
+$(document).ready(function() {
+	$('.menu-trigger').on('click', function() {
+		$(this).toggleClass('active');
+		$('#box_smp_menu').fadeToggle('active_menu');
+	return false;
+	});
+});
+</script>
+<script>
+$(document).ready(function() {
+  var pagetop = $('.pagetop');
+    $(window).scroll(function () {
+       if ($(this).scrollTop() > 100) {
+            pagetop.fadeIn();
+       } else {
+            pagetop.fadeOut();
+            }
+       });
+       pagetop.click(function () {
+           $('body, html').animate({ scrollTop: 0 }, 500);
+              return false;
+   });
+});
+</script> 
+</div>
+<!--ページトップ-->
+<p class="top_position pagetop"><a href="#top"><img src="http://www.tokura.co.jp/img/comon/top.png" width="47" height="46" alt="top"></a></p>
+<!--ページトップend-->
+</div>
+</body>
+</html>

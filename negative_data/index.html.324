@@ -1,0 +1,253 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta http-equiv="Content-Type" content="text/html; charset=euc-jp" />
+<title>株式会社コア［エンベデッドのコア］</title>
+<meta name="description" content="社会・産業の未来を創る新しいICTサービスをご提案。株式会社コアは組み込みシステム開発に強い独立系の情報サービス企業「エンベデッドのコア」として、エンベデッドシステム業界トップクラスの実績を誇るリーディングカンパニーです。" />
+<meta name="keywords" content="組み込みシステム,エンベデッドシステム,M2M,GNSS,電子カルテ" />
+<meta http-equiv="expires" content="never" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta name="robots" content="index,follow" />
+<meta property="og:title" content="株式会社コア" />
+<meta property="og:description" content="" />
+<meta property="og:url" content="https://www.core.co.jp/" />
+<meta property="og:type" content="website" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta name="viewport" content="width=480" />
+<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+<script type="text/javascript" src="common_core2/js/jquery.smoothScroll.js"></script>
+<script type="text/javascript" src="js/opacity-rollover2.1.js"></script>
+<script type="text/javascript" src="common_core2/js/jquery.flatheights.js"></script>
+<script type="text/javascript" src="common_core2/js/smart-crossfade.js"></script>
+<script type="text/javascript" src="common_core/javascript/sp_menu_enable.js"></script>
+<script type="text/javascript" src="common_core/javascript/sp_menu_toggle.js"></script>
+<!--[if (gte IE 6)&(lte IE 8)]>
+<script type="text/javascript" src="common_core2/js/selectivizr-min.js"></script>
+<![endif]-->
+<link rel="stylesheet" media="not screen and (max-width: 480px)" type="text/css" href="common_core2/css/style_common.css"/>
+<link rel="stylesheet" media="screen and (max-width: 480px)" type="text/css" href="common_core2/css_responsive/style_common.css"/>
+<link rel="stylesheet" media="not screen and (max-width: 480px)" type="text/css" href="./css/index.css"/>
+<link rel="stylesheet" media="screen and (max-width: 480px)" type="text/css" href="./css_responsive/index.css"/>
+<meta name="google-site-verification" content="5rHcYmzLMgp2iAoU0LN_Iy7g0Fz3fLeSBX9KX2IZz_w" />
+
+<script src="./js/jquery.bxslider.min.js"></script>
+<script src="./js/bxslider_config.js"></script>
+</head>
+
+<body id="top_core">
+
+<p>
+  <!--<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ja_JP/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>--></p><!-- #BeginLibraryItem "/Library/header.lbi" --><div id="header">
+  <div id="top" class="inner cf">
+  
+    <h1><a href=""><img src="img/common/header_title.png" width="104" height="104" alt="CORE CORE GROUP" /></a></h1>
+    <div id="nav_area">
+    	<div id="sp_menu_btn" style="display:none;">
+        <img src="img/common/menu_btn.png" width="104" height="104" alt=""/>
+        </div>
+    <ul id="header_nav" class="cf">
+    <li><a class="cl-norewrite" href="">Japanese</a></li>
+    <li><a class="cl-norewrite" href="site/translate.html">English</a></li>
+    <li><a class="cl-norewrite" href="site/translate.html">Chinese</a></li>
+    <li><a href="sitemap.html">サイトマップ</a></li>
+    <li><a href="site/contact.html">お問い合わせ</a></li>
+    </ul>
+    <form id="cref_iframe" action="search.html">
+      <!-- Googleカスタム検索 検索窓 -->
+      <!-- Google CSE Search Box Begins  -->
+      <!-- Use of this code assumes agreement with the Google Custom Search Terms of Service. -->
+      <!-- The terms of service are available at http://www.google.com/cse/docs/tos.html -->
+      <input type="hidden" name="cref" value="http://www.core.co.jp/mycontext.xml" />
+      <input type="hidden" name="cof" value="FORID:11" />
+      <input type="hidden" name="ie" value="euc-jp" />
+      <input type="text" name="q" maxlength="220" value="" class="input" />
+      <input type="image" name="sa" src="common_core2/img/header_search_btn02.png" alt="検索" width="30" height="28" class="over" />
+    </form>
+    <script type="text/javascript" src="http://www.google.co.jp/cse/brand?form=cref_iframe"></script>
+    <!-- Google CSE Search Box Ends -->
+    <!-- Googleカスタム検索 検索窓 -->
+    <ul id="global_nav" class="cf">
+      <li><a href="index.php">トップページ</a></li>
+      <li><a href="si/index.html">SI</a></li>
+      <li><a href="product/index.html">製品</a></li>
+      <li><a href="solution/index.html">ソリューション</a></li>
+      <li><a href="technology/index.html">先端テクノロジー</a></li>
+      <li><a href="recruitment/index.html">採用情報</a></li>
+      <li><a href="ir/index.php">株主・投資家向け情報</a></li>
+      <li><a href="company/index.html">企業情報</a></li>
+    </ul>
+    </div>
+    <!--/.inner-->
+  </div>
+  <!--/#header-->
+</div><!-- #EndLibraryItem --><div id="contents">
+<div class="inner">
+
+<div id="slider">
+	<ul class="sliderbtn">
+		<li><a href="site/contact.html"><img src="img/index/top_contact_btn02.png" width="96" height="96" alt="お問い合わせ" class="over" /></a></li>
+		<li><a href="dl/index.html"><img src="img/index/top_dl_btn02.png" width="96" height="96" alt="カタログダウンロード" class="over" /></a></li>
+	</ul>
+	<ul class="bxslider">
+        <!--<li><a href="product/m2m/m2masura/asura_csac.html"><img src="img/index/kv01.jpg" width="960" height="320" alt="ASURA CSAC" /></a></li>-->
+		<li><a href="product/gnss/"><img src="img/index/kv02.jpg" width="960" height="320" alt="GNSS" /></a></li>
+		<li><a href="http://www.lambda.co.jp/grid/4k.html" target="_blank"><img src="img/index/kv03.jpg" width="960" height="320" alt="4Kシステム" /></a></li>
+		<li><a href="product/index.html"><img src="img/index/kv04.jpg" width="960" height="320" alt="製品" /></a></li>
+        <li><a href="solution/index.html"><!--<img src="img/index/kv05.jpg" width="960" height="320" alt="ソリューション" />--><img src="img/index/kv06.jpg" width="960" height="320" alt="ソリューション" /></a></li>
+		<!--<li><a href="http://www.lambda.co.jp/grid/4k.html" target="_blank"><img src="img/index/kv03.jpg" width="960" height="320" alt="4Kシステム" /></a></li>-->
+	</ul>
+</div>
+
+<div id="main_nav">
+	<ul id="nav_btn" class="cf">
+		<li class="onlypc"><a href="si/" class="over">SI<span>System Integration</span></a></li>
+		<li class="onlypc"><a href="product/index.html" class="over">製品<span>Product/Service</span></a></li>
+		<li class="onlypc"><a href="solution/index.html" class="over">ソリューション<span>Solution/Service</span></a></li>
+		<li class="onlypc lb"><a href="technology/" class="over">先端テクノロジー<span>Advanced Technology</span></a></li>
+		<li class="onlysp"><a href="company/" class="over">企業情報<span>Company Profile</span></a></li>
+		<li class="onlysp"><a href="recruitment/" class="over">採用情報<span>Recruit Infomation</span></a></li>
+	</ul>
+</div>
+
+<div id="top_column" class="cf">
+<div id="notice">
+<div id="event_seminar" class="section">
+<h2><img src="img/index/top_contents_title01.png" width="670" height="34" alt="イベント・セミナー" /></h2>
+<p class="list_btn"><a href="news/">一覧</a></p>
+<p class="rss_btn"><a href="rss.php"><img src="img/common/rss_btn.png" width="36" height="20" alt="RSS" /></a></p>
+<div class="inner">
+
+<!-- CMSD:START -->
+<dl class="cf"><dt><img src="img/common/event_icon.png" width="80" height="20" alt="イベント" /></dt><dd>2017.07.27</dd><dd><a href="news/detail.php?eid=00620&amp;category=2">「Embedded Technology West 2017」出展のご報告</a></dd></dl><dl class="cf"><dt><img src="img/common/event_icon.png" width="80" height="20" alt="イベント" /></dt><dd>2017.07.06</dd><dd><a href="news/detail.php?eid=00615&amp;category=2">「メンテナンス・レジリエンス TOKYO 2017」出展のご案内【終了しました】</a></dd></dl><dl class="cf"><dt><img src="img/common/event_icon.png" width="80" height="20" alt="イベント" /></dt><dd>2017.06.27</dd><dd><a href="news/detail.php?eid=00613&amp;category=2">「国際モダンホスピタルショウ2017」出展のご案内【終了しました】</a></dd></dl><dl class="cf"><dt><img src="img/common/event_icon.png" width="80" height="20" alt="イベント" /></dt><dd>2017.06.27</dd><dd><a href="news/detail.php?eid=00614&amp;category=2">「Embedded Technology West 2017」出展のご案内【終了しました】</a></dd></dl><dl class="cf"><dt><img src="img/common/event_icon.png" width="80" height="20" alt="イベント" /></dt><dd>2017.06.20</dd><dd><a href="news/detail.php?eid=00610&amp;category=2">「ビジネスシヨウ＆エコフェア2017」出展のご案内【終了しました】</a></dd></dl>
+<!-- CMSD:END -->
+
+<!--
+<dl class="cf">
+<dt><img src="img/common/seminar_icon.png" width="80" height="20" alt="セミナー" /></dt>
+<dd>2013.05.17</dd>
+<dd><a href="#">「よくわかるSAM」 ソフトウェア資産管理　基礎編　セミナー開催のご案内（広島）</a></dd>
+<dd class="new"><img src="img/common/new_icon.png" width="36" height="18" alt="NEW!!" /></dd>
+</dl>
+<dl class="cf">
+<dt><img src="img/common/event_icon.png" width="80" height="20" alt="イベント" /></dt>
+<dd>2013.05.13</dd>
+<dd><a href="#">「よくわかるSAM」 ソフトウェア資産管理　基礎編　セミナー開催のご案内（広島）</a></dd>
+</dl>
+<dl class="cf">
+<dt><img src="img/common/event_icon.png" width="80" height="20" alt="イベント" /></dt>
+<dd>2013.05.11</dd>
+<dd><a href="#">「よくわかるSAM」 ソフトウェア資産管理　基礎編　セミナー開催のご案内（広島）</a></dd>
+</dl>
+<dl class="cf">
+<dt><img src="img/common/event_icon.png" width="80" height="20" alt="イベント" /></dt>
+<dd>2013.04.08</dd>
+<dd><a href="#">「よくわかるSAM」 ソフトウェア資産管理　基礎編　セミナー開催のご案内（広島）</a></dd>
+</dl>
+<dl class="cf">
+<dt><img src="img/common/event_icon.png" width="80" height="20" alt="イベント" /></dt>
+<dd>2013.02.11</dd>
+<dd><a href="#">「よくわかるSAM」 ソフトウェア資産管理　基礎編　セミナー開催のご案内（広島）</a></dd>
+</dl>
+
+-->
+</div>
+</div>
+
+<div id="event_seminar" class="section">
+<h2><img src="img/index/top_contents_title02.png" width="670" height="34" alt="ニュースリリース／IRニュース" /></h2>
+<p class="list_btn"><a href="news/">一覧</a></p>
+<p class="rss_btn"><a href="rss2.php"><img src="img/common/rss_btn.png" width="36" height="20" alt="RSS" /></a></p>
+<div class="inner">
+
+<!-- CMSD:START -->
+<dl class="cf"><dt><img src="img/common/ir_icon.png" width="80" height="20" alt="IR" /></dt><dd>2017.08.17</dd><dd><a href="http://www.core.co.jp/pdf/pdf_2017/ir_20170817.pdf" target="_blank">2018年3月期第1四半期報告書を掲載しました</a></dd><dd class="new"><img src="img/common/new_icon.png" width="36" height="18" alt="NEW!!" /></dd></dl><dl class="cf"><dt><img src="img/common/ir_icon.png" width="80" height="20" alt="IR" /></dt><dd>2017.07.27</dd><dd><a href="http://www.core.co.jp/pdf/pdf_2017/ir_20170727.pdf" target="_blank">2018年3月期第1四半期決算短信を掲載しました</a></dd></dl><dl class="cf"><dt><img src="img/common/news_icon.png" width="80" height="20" alt="お知らせ" /></dt><dd>2017.07.21</dd><dd><a href="news/detail.php?eid=00617&amp;category=1">当社のGNSS事業に関する記事が「みちびき(準天頂衛星システム)」サイトに掲載されました</a></dd></dl><dl class="cf"><dt><img src="img/common/ir_icon.png" width="80" height="20" alt="IR" /></dt><dd>2017.06.29</dd><dd><a href="http://www.core.co.jp/pdf/pdf_2017/ir_20170629.pdf" target="_blank">2017年3月期有価証券報告書を掲載しました</a></dd></dl><dl class="cf"><dt><img src="img/common/ir_icon.png" width="80" height="20" alt="IR" /></dt><dd>2017.06.23</dd><dd><a href="http://www.core.co.jp/pdf/pdf_2017/ir_20170623-2.pdf" target="_blank">コーポレートガバナンス報告書を更新しました</a></dd></dl>
+<!-- CMSD:END -->
+
+<!--
+<dl class="cf">
+<dt><img src="img/common/ir_icon.png" width="80" height="20" alt="IR" /></dt>
+<dd>2013.05.17</dd>
+<dd><a href="#">タイトルが入ります</a></dd>
+</dl>
+<dl class="cf">
+<dt><img src="img/common/news_icon.png" width="80" height="20" alt="お知らせ" /></dt>
+<dd>2013.05.13</dd>
+<dd><a href="#">タイトルが入ります</a></dd>
+</dl>
+<dl class="cf">
+<dt><img src="img/common/release_icon.png" width="80" height="20" alt="リリース" /></dt>
+<dd>2013.05.11</dd>
+<dd><a href="#">タイトルが入ります</a></dd>
+</dl>
+<dl class="cf">
+<dt><img src="img/common/news_icon.png" width="80" height="20" alt="お知らせ" /></dt>
+<dd>2013.04.08</dd>
+<dd><a href="#">タイトルが入ります</a></dd>
+</dl>
+<dl class="cf">
+<dt><img src="img/common/release_icon.png" width="80" height="20" alt="リリース" /></dt>
+<dd>2013.02.11</dd>
+<dd><a href="#">タイトルが入ります</a></dd>
+</dl>
+
+-->
+</div>
+</div>
+<!--/#notice--></div>
+
+<div id="side">
+<ul id="bnr_area">
+
+<li><a href="company/partnership.html"><img src="img/index/top_s_bnr01.png" alt="パートナー企業募集" width="260" height="80" /></a></li>
+
+<li><a href="http://www.core.co.jp/nsp/" target="blank"><img src="img/index/top_s_itam.png" alt="IT資産管理ソリューション ITAM" width="260" height="80" /></a></li>
+<li><a href="product/m2m/gr-peach/index.html" target="blank"><img src="img/index/top_s_bnr05.png" alt="GR-Peach" width="260" height="80" /></a></li>
+<li><a href="pdf/product/business/leaf_infoapart.pdf" target="blank"><img src="img/index/top_s_infoapart.png" alt="Info@part" width="260" height="80" /></a></li>
+<li><a href="product/sharing/report_works/rw_index.html" target="blank"><img src="img/index/top_s_rw.png" alt="REPORT WORKS" width="260" height="80" /></a></li>
+<li><a href="http://www.corenet.ne.jp/" target="_blank"><img src="img/index/top_s_bnr03.png" alt="コアクラウドセンター" width="260" height="80" /></a></li>
+<li><a href="http://www.corefarm.co.jp/" target="_blank"><img src="img/index/top_s_bnr04.png" alt="農業×IT" width="260" height="80" /></a></li>
+<li class="onlypc"><a href="pdf/calendar_2017_13.pdf" target="blank"><img src="img/index/top_s_calendar2017.png" alt="2017年版カレンダー" width="260" height="80" /></a></li>
+</ul>
+</div>
+<!--/#top_column--></div>
+</div>
+<!--/#contents--></div><!-- #BeginLibraryItem "/Library/footer.lbi" --><div id="pagetop">
+  <p><a href="#top"><img src="common_core2/img/pagetop_btn02.png" width="42" height="42" alt="ページトップへ" /></a></p>
+  <!--/#pagetop-->
+</div>
+<div id="footer">
+  <div class="inner">
+    <ul id="footer_nav" class="cf">
+      <li><a href="site/siteagree.html">サイト利用規約</a></li>
+      <li><a href="site/individual.html">個人情報保護方針</a></li>
+      <li><a href="site/security.html">情報セキュリティ基本方針</a></li>
+    </ul>
+    <div id="footer_title">
+      <p id="copyright">Copyright&nbsp;&copy; CORE CORPORATION.</p>
+      <!--/#footer_title-->
+    </div>
+    <!--/.inner-->
+  </div>
+  <!--/#footer-->
+</div><!-- #EndLibraryItem --><!--<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>-->
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-5732902-1");
+pageTracker._trackPageview();
+</script>
+
+</body>
+</html>

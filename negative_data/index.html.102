@@ -1,0 +1,492 @@
+ 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja-jp" lang="ja-jp" dir="ltr" >
+    <head>
+
+          <base href="http://www.ohmori.co.jp/" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="keywords" content="下水道,土木工事,建設,大盛工業,OLY工法,ピカルス工法" />
+  <meta name="description" content="大盛工業は東京都内を中心に下水道を中心とした土木工事や小規模マンションの建設及び販売などの不動産事業を行っている、東証二部上場の総合建設会社です。1967年の設立以来、生活を支える最も重要なインフラである下水道の土木工事において、数多くの実績を持っています。" />
+  <title>株式会社大盛工業｜下水道工事、利回り物件の販売、太陽光パネルの活用など</title>
+  <link href="/?format=feed&amp;type=rss" rel="alternate" type="application/rss+xml" title="RSS 2.0" />
+  <link href="/?format=feed&amp;type=atom" rel="alternate" type="application/atom+xml" title="Atom 1.0" />
+  <link rel="stylesheet" href="/modules/mod_latestnewsplusdate/assets/style.css" type="text/css" />
+  <link rel="stylesheet" href="/plugins/system/jcemediabox/css/jcemediabox.css?version=119" type="text/css" />
+  <link rel="stylesheet" href="/plugins/system/jcemediabox/themes/standard/css/style.css?version=119" type="text/css" />
+  <link rel="stylesheet" href="/media/system/css/modal.css" type="text/css" />
+  <link rel="stylesheet" href="/modules/mod_slideshowck/themes/default/css/camera.css" type="text/css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Sans" type="text/css" />
+  <style type="text/css">
+#smoothtop {
+  background-color: #666666;
+  border-radius: 5px;
+  color: #EFEFEF;
+  font-size: 11px;
+  padding: 6px 10px;
+}
+
+#smoothtop:hover{background-position: center bottom;}#camera_wrap_104 .camera_pag_ul li img, #camera_wrap_104 .camera_thumbs_cont ul li > img {height:75px;}
+#camera_wrap_104 .camera_caption {
+	display: block;
+	position: absolute;
+}
+#camera_wrap_104 .camera_caption > div {
+	font-size: 12px;font-family:'Droid Sans';
+}
+#camera_wrap_104 .camera_caption > div div.slideshowck_description {
+	font-size: 10px;
+}
+
+  </style>
+  <script src="/media/system/js/mootools-core.js" type="text/javascript"></script>
+  <script src="/media/system/js/core.js" type="text/javascript"></script>
+  <script src="/media/system/js/caption.js" type="text/javascript"></script>
+  <script src="/media/system/js/mootools-more.js" type="text/javascript"></script>
+  <script src="/plugins/system/jcemediabox/js/jcemediabox.js?version=119" type="text/javascript"></script>
+  <script src="/media/system/js/modal.js" type="text/javascript"></script>
+  <script src="/modules/mod_slideshowck/assets/jquery.min.js" type="text/javascript"></script>
+  <script src="/modules/mod_slideshowck/assets/jquery.easing.1.3.js" type="text/javascript"></script>
+  <script src="/modules/mod_slideshowck/assets/camera.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+window.addEvent('load', function() {
+				new JCaption('img.caption');
+			});window.addEvent('domready', function() {
+			$$('.hasTip').each(function(el) {
+				var title = el.get('title');
+				if (title) {
+					var parts = title.split('::', 2);
+					el.store('tip:title', parts[0]);
+					el.store('tip:text', parts[1]);
+				}
+			});
+			var JTooltips = new Tips($$('.hasTip'), { maxTitleChars: 50, fixed: false});
+		});JCEMediaBox.init({popup:{width:"",height:"",legacy:0,lightbox:0,shadowbox:0,resize:1,icons:1,overlay:1,overlayopacity:0.8,overlaycolor:"#000000",fadespeed:500,scalespeed:500,hideobjects:0,scrolling:"fixed",close:2,labels:{'close':'閉じる','next':'次へ','previous':'前へ','cancel':'キャンセル','numbers':'{$current} / {$total}'},cookie_expiry:"",google_viewer:0},tooltip:{className:"tooltip",opacity:0.8,speed:150,position:"br",offsets:{x: 16, y: 16}},base:"/",imgpath:"plugins/system/jcemediabox/img",theme:"standard",themecustom:"",themepath:"plugins/system/jcemediabox/themes"});// Fade our <div> tag to 0 or 'num'
+function fade_me(num){
+	var smoothtop=document.id('smoothtop');
+	if(smoothtop){smoothtop.fade(window.getScrollTop()<250?0:num);}
+}
+window.addEvent('domready',function(){
+	// Create Fx.Scroll object
+	var scroll=new Fx.Scroll(window,{
+		'duration':	500,
+		'transition':	Fx.Transitions.Expo.easeInOut,
+		'wait':		false
+	});
+	// Create an <div> tag for SmoothTop
+	var smoothtop=new Element('div',{
+		'id':		'smoothtop',
+		'class':	'smoothtop',
+		'style':	'position:fixed; display:block; visibility:visible; zoom:1; opacity:0; cursor:pointer; right:10px; bottom:20px;',
+		'title':	'',
+		'html':		'↑ページトップ',
+		'events':{
+			// No transparent when hover
+			mouseover: function(){fade_me(1);},
+			// Transparent when no hover
+			mouseout: function(){fade_me(0.7);},
+			// Scroll Up on click
+			click: function(){scroll.toTop();}
+		}
+	// Inject our <div> tag into the document body
+	}).inject(document.body);
+	// Gottta do this for stupid IE
+	document.id('smoothtop').setStyle('opacity','0');
+});
+// Show/Hide our <div> tag
+window.addEvent('scroll',function(){fade_me(0.7);});
+		window.addEvent('domready', function() {
+
+			SqueezeBox.initialize({});
+			SqueezeBox.assign($$('a.modal'), {
+				parse: 'rel'
+			});
+		});
+  </script>
+
+        <link rel="canonical" href="http://ohmori.co.jp"/>
+        <link href="/templates/system/css/general.css" rel="stylesheet" type="text/css" />
+<link href="/templates/jm-0013/css/modules.css" rel="stylesheet" type="text/css" />
+<link href="/templates/jm-0013/css/template.css" rel="stylesheet" type="text/css" />
+<link href="/templates/jm-0013/css/normal.css" rel="stylesheet" type="text/css" />
+<link href="/templates/jm-0013/css/menus.css" rel="stylesheet" type="text/css" />
+<link href="/templates/jm-0013/css/menu-default.css" rel="stylesheet" type="text/css" />
+<link rel="shortcut icon" href="/images/favicon.ico" />
+<link rel="stylesheet" type="text/css" href="/templates/jm-0013/css/defaultwidth.css" />
+<link rel="alternate stylesheet" type="text/css" media="screen" title="narrow" href="/templates/jm-0013/css/narrow.css" />
+<link rel="alternate stylesheet" type="text/css" media="screen" title="wide" href="/templates/jm-0013/css/wide.css" />
+	<link rel="stylesheet" href="/templates/jm-0013/css/template_ltr.css" type="text/css" />
+<link rel="shortcut icon" href="/templates/jm-0013/images/favicon.ico" />
+<!--[if IE]>
+	<link href="/templates/jm-0013/css/ie.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<!--[if IE 7]>
+    <![endif]-->
+<script type="text/javascript">
+	$template_path = '/templates/jm-0013';
+</script>
+<script language="javascript" type="text/javascript" src="/templates/jm-0013/lib/js/template_scripts.js"></script>
+<script language="javascript" type="text/javascript" src="/templates/jm-0013/lib/js/doctextsizer.js"></script>
+<script language="javascript" type="text/javascript" src="/templates/jm-0013/lib/js/styleswitch.js"></script>
+<SCRIPT language=JavaScript type=text/javascript>
+function year() {  var data = new Date();  var now_year = data.getFullYear();  document.write(now_year);  }
+</SCRIPT>
+<script src="/js/SpryCollapsiblePanel.js" type="text/javascript"></script>
+<link href="/js/SpryCollapsiblePanel.css" rel="stylesheet" type="text/css" />
+</head>
+<body id="home">
+	<div id="all">
+		<div id="pageAll"  style="width: 970px; " >
+						<div id="topModule">
+				
+				
+<div  >
+	<table border="0" id="headtable" style="width: 970px;" cellspacing="0" cellpadding="0">
+<tbody>
+<tr><th style="width: 60%;" valign="top">
+<h1 style="font-size: 10px; margin-bottom: 0px; font-weight: normal; color: #999999; line-height: 22.100000381469727px;">株式会社 大盛工業｜下水道工事、利回り物件の販売、太陽光パネルの活用など</h1>
+<p><a href="/./" title="株式会社大盛工業"><img src="/images/stories/header_menu/header_logo.gif" alt="株式会社大盛工業" width="335" height="31" style="margin-bottom: 10px; margin-top: 45px;" /></a></p>
+</th>
+<td align="right" valign="top">
+<p><a href="/privacy.html"><img src="/images/stories/header_menu/header_s_bt.gif" alt="プライバシーポリシー" width="107" height="13" class="fade" style="margin-top: 5px;" /></a></p>
+<p>　　　　　　　　　　　　　　　</p>
+<p>　</p>
+<p><span style="font-size: 15px;"><strong>ＴＥＬ：</strong></span><span style="font-size: 20px;">03-6262-9877</span></p>
+</td>
+</tr>
+</tbody>
+</table></div>
+			</div>
+  						<div id="logoSearch" class="clearfix">
+				<div id="logo_sitedesc">
+					<h1 id="logo">
+						<a href="/" onfocus="blur()" ></a>
+					</h1>
+									</div>
+							</div>
+			<div id="topmenuIcons" class="clearfix">
+				<div id="icons" class="clearfix">
+														</div>
+				<div id="topmenu">
+					
+<ul class="menumenu-mainmenu">
+<li class="item-435 current active"><a href="/" ><img src="/images/stories/header_menu/menu1.gif" alt="ホーム" /></a></li><li class="item-506"><a href="/about-us.html" ><img src="/images/stories/header_menu/menu2.gif" alt="大盛工業とは" /></a></li><li class="item-699 deeper parent"><a href="/business/engineering-works.html" ><img src="/images/stories/header_menu/menu3.gif" alt="事業内容" /></a><ul><li class="item-548"><a href="/business/engineering-works.html" >土木事業</a></li><li class="item-554"><a href="/business/real-estate.html" >不動産事業</a></li><li class="item-687"><a href="/business/new-business.html" >新規事業</a></li></ul></li><li class="item-700 deeper parent"><a href="/technical/oly.html" ><img src="/images/stories/header_menu/menu4.gif" alt="技術紹介" /></a><ul><li class="item-688"><a href="/technical/oly.html" >OLY工法</a></li></ul></li><li class="item-701 deeper parent"><a href="/corporate/greeting.html" ><img src="/images/stories/header_menu/menu5.gif" alt="会社情報" /></a><ul><li class="item-702"><a href="/corporate/greeting.html" >代表ご挨拶</a></li><li class="item-507"><a href="/corporate/outline.html" >会社概要</a></li><li class="item-703"><a href="/corporate/history.html" >沿革</a></li></ul></li><li class="item-705 deeper parent"><a href="/job-information/voice.html" ><img src="/images/stories/header_menu/menu6.gif" alt="求人情報" /></a><ul><li class="item-706"><a href="/job-information/voice.html" >社員の声</a></li><li class="item-704"><a href="/job-information/application-handbook.html" >新卒採用</a></li></ul></li><li class="item-707 deeper parent"><a href="/investor-relations/indication/indication-2017.html" ><img src="/images/stories/header_menu/menu7.gif" alt="IR情報" /></a><ul><li class="item-708 parent"><a href="/investor-relations/indication/indication-2017.html" >開示情報</a></li></ul></li></ul>
+
+				</div>
+			</div>
+			<div id="header">
+									
+		<!--[if lte IE 7]>
+		<link href="/modules/mod_slideshowck/themes/default/css/camera_ie.css" rel="stylesheet" type="text/css" />
+		<![endif]-->
+		<!--[if IE 8]>
+		<link href="/modules/mod_slideshowck/themes/default/css/camera_ie8.css" rel="stylesheet" type="text/css" />
+		<![endif]--><script type="text/javascript"> <!--
+       jQuery(function(){
+        jQuery('#camera_wrap_104').camera({
+                height: '330',
+                minHeight: '',
+                pauseOnClick: false,
+                hover: 1,
+                fx: 'simpleFade',
+                loader: 'none',
+                pagination: 0,
+                thumbnails: 0,
+                thumbheight: 75,
+                thumbwidth: 100,
+                time: 4000,
+                transPeriod: 1500,
+                alignment: 'topCenter',
+                autoAdvance: 1,
+                mobileAutoAdvance: 1,
+                portrait: 1,
+                barDirection: 'leftToRight',
+                imagePath: '/modules/mod_slideshowck/images/',
+                lightbox: 'mediaboxck',
+                fullpage: 0,
+				mobileimageresolution: '0',
+                navigationHover: true,
+                navigation: true,
+                playPause: true,
+                barPosition: 'bottom',
+				container: ''
+        });
+}); //--> </script><!-- debut Slideshow CK -->
+<div class="slideshowck camera_wrap camera_black_skin" id="camera_wrap_104">
+			<div data-thumb="/images/stories/th/teaser-a_th.jpg" data-src="/images/stories/teaser-a.jpg" >
+													 		</div>
+		<div data-thumb="/images/stories/th/teaser-b_th.jpg" data-src="/images/stories/teaser-b.jpg" >
+													 		</div>
+		<div data-thumb="/images/stories/th/teaser-c_th.jpg" data-src="/images/stories/teaser-c.jpg" >
+													 		</div>
+</div>
+<div style="clear:both;"></div>
+<!-- fin Slideshow CK -->
+
+<div  >
+	<p style="margin-top: 10px;">大盛工業は東京都内を中心に下水道を中心とした土木工事や小規模マンションの建設及び販売などの不動産事業を行っている、東証二部上場の総合建設会社です。1967年の設立以来、生活を支える最も重要なインフラである下水道の土木工事において、数多くの実績を持っています。</p></div>
+											</div>
+						<div id="pathwayFonts" class="clearfix">
+											</div>
+			<div id="wrapper" class="scheme_2">
+            	<div id="main" class="clearfix">
+												
+	                <div id="content"> 
+						                        <div id="maincontent">
+                            
+<div id="system-message-container">
+</div>
+							<div class="com-content ">
+<div class="front-page-blog">
+		
+			
+			<div class="row_separator"></div>
+								<div class="cols-1 row-0">
+					<div class="jsn-articlecols column-1" style="width:100%">
+			
+<div class="jsn-article">
+
+	
+
+		
+		
+	
+	<h4><img src="/images/stories/top/cat1_ti.gif" alt="新着情報 " width="129" height="21" style="margin-top: 50px;" /></h4>
+<div id="news-box"><!-- START: Modules Anywhere -->
+<div class="div_lnd_list">
+<!-- LatestNews Plus Date Module - Another Quality Freebie from TemplatePlazza.com -->
+    <ul class="lnd_latestnews">
+    		<li class="lnd_latestnews">
+		2017年7月16日			<a href="/news/365-2017-7.html" class="latestnews">
+				下水道展2017東京　参加決定！			</a>
+        </li>
+		<li class="lnd_latestnews">
+		2017年6月09日			<a href="/news/364-2017-06-09-06-08-43.html" class="latestnews">
+				IR情報を更新しました。			</a>
+        </li>
+		<li class="lnd_latestnews">
+		2017年6月02日			<a href="/news/363-20170602.html" class="latestnews">
+				IR情報を更新しました。			</a>
+        </li>
+		<li class="lnd_latestnews">
+		2017年4月17日			<a href="/news/362-2016-6-12.html" class="latestnews">
+				IR情報を更新しました。			</a>
+        </li>
+		<li class="lnd_latestnews">
+		2017年4月12日			<a href="/news/361-2.html" class="latestnews">
+				IR情報を更新しました。			</a>
+        </li>
+    </ul>
+</div>
+<div class='clrfix'></div>
+
+<!-- END: Modules Anywhere --></div>
+<h3><img src="/images/stories/top/cat2_ti.gif" alt="大盛工業は土木事業を中心に3つの事業を展開しています。" width="690" height="39" style="margin-top: 47px;" /></h3>
+<table border="0" style="width: 100%;" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td class="td31" valign="top">
+<p><a href="/business/engineering-works.html"><img src="/images/stories/top/cat2_bt1.jpg" alt="土木事業" width="220" height="142" class="fade" style="margin-top: 10px; margin-bottom: 5px;" /></a></p>
+<p><span style="font-size: 11px;">独自開発のOLY工法、シールド工法、そしてピカルス工法など、大盛工業の高度な施工管理・工事ノウハウが活かされた、創業以来の大盛工業のメイン事業領域です。</span></p>
+</td>
+<td class="td31" valign="top">
+<p><a href="/business/real-estate.html"><img src="/images/stories/top/cat2_bt2.jpg" alt="不動産事業" width="220" height="142" class="fade" style="margin-bottom: 5px; margin-top: 10px;" /></a></p>
+<p><span style="font-size: 11px;">利回り物件（賃貸マンションなど）の販売、OLYのリースなどを行っています。OLY工法は既に1,700現場(H27.5現在)で使用されています。</span></p>
+</td>
+<td valign="top">
+<p><a href="/business/new-business.html"><img src="/images/stories/top/cat2_bt3.jpg" alt="新規事業" width="220" height="142" class="fade" style="margin-top: 10px; margin-bottom: 5px;" /></a></p>
+<p><span style="font-size: 11px;">太陽光パネルを使った売電事業及び太陽光発電システムの販売、室内型収納スペースのレンタル、バイクの地下収納スペースのレンタルなどを行っています。</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<table border="0" style="width: 100%; margin-top: 35px;" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td valign="top"><img src="/images/stories/top/DSCN033802.jpg" alt="DSCN033802" width="135" height="90" class="imgborder" style="margin-right: 10px;" /></td>
+<td valign="top">
+<p><a href="/about-us.html"><img src="/images/stories/top/cat3_ti1.gif" alt="大盛工業の特徴" width="125" height="19" class="fade" style="margin-bottom: 10px;" /></a></p>
+<p>大盛工業の創業は1967年。大盛工業は下水道の設備・発展とともに成長してきました。</p>
+</td>
+<td valign="top"><img src="/images/stories/top/cat3_p2.jpg" alt="技術紹介" width="119" height="88" class="imgborder" style="margin-right: 10px; margin-left: 25px;" /></td>
+<td valign="top">
+<p><a href="/technical/oly.html"><img src="/images/stories/top/cat3_ti2.gif" alt="技術紹介" width="76" height="19" class="fade" style="margin-bottom: 13px;" /></a></p>
+<p>大盛工業の長い歴史の中でうまれたOLY工法。工期が短縮されるだけでなく、高い安全性を誇っています。</p>
+</td>
+</tr>
+</tbody>
+</table>
+<table border="0" class="box1" style="width: 100%;" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td valign="top"><img src="/images/stories/top/cat4_p.jpg" alt="株式会社大盛工業　OHMORI CO.,LTD." width="242" height="163" class="imgborder" style="margin-right: 20px;" /></td>
+<td valign="top">
+<h4>株式会社大盛工業　OHMORI CO.,LTD.</h4>
+<p><strong>本店</strong><br />〒125-0032<br />東京都葛飾区水元三丁目15番8号</p>
+<p><strong>東京本社</strong></p>
+<p><span style="line-height: 22.1px;">〒101-0046</span><br style="line-height: 22.1px;" /><span style="line-height: 22.1px;">東京都千代田区神田多町二丁目1番地　神田進興ビル8階</span></p>
+<p>TEL 03-6262-9877（代）<br />FAX 03-6262-9875</p>
+<p><a href="/corporate/outline.html"><img src="/images/stories/top/cat4_bt.gif" alt="会社概要" width="203" height="23" class="fade" style="margin-top: 6px;" /></a></p>
+<p>&nbsp;</p>
+</td>
+</tr>
+</tbody>
+</table>	
+	
+		
+	
+	
+		
+	</div>
+	 
+	<div class="article_separator"></div>
+				</div>
+						<div class="clearbreak"></div>
+	</div>
+						
+		
+	
+	
+</div>
+</div>
+								
+                        </div>
+                        		
+					</div>
+					                    <div id="right">
+                    	<div class="djmodule " id="Mod202">
+	<div class="moduleIn">
+				<div class="module-content clearfix">
+			
+<div  >
+	<h4>&nbsp;</h4>
+<table border="0" class="side_box1" style="width: 100%; margin-top: 60px;" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td>
+<p><a href="http://www.oly-method.com/" target="_blank"><img src="/images/stories/side/side2_bt1.jpg" alt="OLY工法研究会" width="230" height="60" class="fade" /></a></p>
+<p><a href="http://www.plusonecloset.com/" target="_blank"><img src="/images/stories/side/side2_bt2.jpg" alt="プラスワンクローゼット" width="230" height="60" class="fade" style="margin-top: 12px; margin-bottom: 12px;" /></a></p>
+<p><a href="http://www.bike-closet.com/" target="_blank"><img src="/images/stories/side/side2_bt3.jpg" alt="バイククローゼット" width="230" height="60" class="fade" title="バイククローゼット" data-popupalt-original-title="null" /></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><a href="http://www.reysol.co.jp/club/partner/" target="_blank"><img src="/images/2011reysolpartner.jpg" alt="2011reysolpartner" style="margin-top: 15px;" title="2011reysolpartner" data-popupalt-original-title="null" /></a></p>
+<p><a href="/job-information/voice.html"><br /><img src="/images/stories/03DSCN028905.jpg" alt="03DSCN028905" width="255" height="76" /></a></p>
+<p></p>
+<!-- engage linktool_banner START-->
+<p><a href="https://en-gage.net/ohmori/" target="_blank"> <img src="https://en-gage.net/html/img/banner6_2_sp.png" alt="engage" width="250" height="39" style="margin-top: 10px; margin-bottom: 10px;" title="engage" data-popupalt-original-title="null" /> </a></p>
+<!-- engage linktool_banner END-->
+<p></p>
+<p><img src="/images/stories/side/side_video.jpg" alt="side video" width="250" height="53" /></p>
+<div id="CollapsiblePanel1" class="CollapsiblePanel" style="margin-top: 10px;">
+<div class="CollapsiblePanelContent">
+<ul style="padding-bottom: 10px;">
+<li><a href="/images/stories/movie/6.flv" target="_blank" type="application/x-shockwave-flash" class="jcepopup" data-mediabox="width[640];height[425];title[オープンケーソン工事]">1.オープンケーソン工事</a></li>
+<li><a href="/images/stories/movie/5.flv" target="_blank" type="application/x-shockwave-flash" class="jcepopup" data-mediabox="width[640];height[425];title[ニューマチックケーソン工事]">2.ニューマチックケーソン工事</a></li>
+<li><a href="/images/stories/movie/4.flv" target="_blank" type="application/x-shockwave-flash" class="jcepopup" data-mediabox="width[640];height[425];title[シールドトンネル工事]">3.シールドトンネル工事</a></li>
+<li><a href="/images/stories/movie/3.flv" target="_blank" type="application/x-shockwave-flash" class="jcepopup" data-mediabox="width[640];height[425];title[ピカルス工法]">4.ピカルス工法</a></li>
+<li><a href="/images/stories/movie/2.flv" target="_blank" type="application/x-shockwave-flash" class="jcepopup" data-mediabox="width[640];height[425];title[OLY工法]">5.OLY工法</a></li>
+<li><a href="/images/stories/movie/1.flv" target="_blank" type="application/x-shockwave-flash" class="jcepopup" data-mediabox="width[640];height[425];title[大盛工業の安全への取組]">6.大盛工業の安全への取組</a></li>
+<li><a href="/images/stories/movie/Desktop-1.flv" target="_blank" type="application/x-shockwave-flash" class="jcepopup" data-mediabox="width[640];height[425];title[全編再生 ]">7.全編再生 </a></li>
+</ul>
+</div>
+</div>
+<p>
+<script type="text/javascript">var CollapsiblePanel1 = new Spry.Widget.CollapsiblePanel("CollapsiblePanel1", {
+			contentIsOpen: false
+		});</script>
+</p>
+<table border="0" style="width: 100%; margin-top: 25px;" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td style="padding-top: 8px;">
+<p><strong>茨城工場</strong></p>
+<p><span style="font-size: 11px;">〒311-3412</span><br /><span style="font-size: 11px;">茨城県小美玉市川戸1543</span></p>
+<p><span style="font-size: 11px;">TEL:0299-37-1231</span></p>
+</td>
+</tr>
+</tbody>
+</table></div>		</div>
+	</div>
+</div>
+
+						
+						
+                    </div>
+	                	
+				</div>
+			</div>
+		</div>
+						<div id="bottom" > 	
+				<div id="modules-bottom" class="m1 clearfix"  style="width: 970px; " >
+											<div class="modules-bottom-in">
+							<div class="djmodule2 " id="Mod182">			
+		<div class="module-content2 clearfix">
+		
+<div  >
+	<table border="0" style="width: 100%;" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td valign="top"><a href="/./">HOME</a><br /><a href="/news.html">新着情報</a><br /><a href="/about-us.html">大盛工業とは</a></td>
+<td valign="top"><a href="/business/engineering-works.html">土木事業</a><br /><a href="/business/real-estate.html">不動産事業</a><br /><a href="/business/new-business.html">新規事業</a></td>
+<td valign="top"><a href="/technical/oly.html">OLY工法</a><br /><a href="/corporate/greeting.html">代表ご挨拶</a><br /><a href="/corporate/outline.html">会社概要</a></td>
+<td valign="top">
+<p><a href="/corporate/history.html">沿革</a><br /><a href="/job-information/voice.html">社員の声</a><br /><a href="/job-information/application-handbook.html">新卒採用</a></p>
+</td>
+<td valign="top"><a href="/investor-relations/indication/indication-2017.html">開示情報</a><br /><a href="/privacy.html">プライバシーポリシー</a></td>
+<td align="right" valign="top"><img src="/images/stories/footer_iso.jpg" alt="ISO9001" width="51" height="95" style="margin-left: 15px;" /></td>
+</tr>
+</tbody>
+</table></div>	</div>		
+</div>
+
+						</div>
+		                 
+		             
+					 
+					     	
+				</div>
+			</div> 
+ 			 
+
+			<div id="footer">
+			<div class="footer-inner"  style="width: 970px; " >
+<div  >
+	<p><a style="font-size: 11px;line-height: 1;"href="/login.html">ログイン</a></p></div>
+<div  >
+	<p class="copyright">Copyright ©
+<script language="JavaScript" type="text/javascript">// <![CDATA[
+year();
+// ]]></script>
+&nbsp; 株式会社大盛工業 All Rights Reserved.</p></div></div>
+				<div id="rss"></div>
+			</div>
+	</div>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-51062430-4', 'ohmori.co.jp');
+  ga('send', 'pageview');
+
+</script>
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u=(("https:" == document.location.protocol) ? "https" : "http") + "://artflair.org/piwik/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 8]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript';
+    g.defer=true; g.async=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="http://artflair.org/piwik/piwik.php?idsite=8" style="border:0;" alt="" /></p></noscript>
+<!-- End Piwik Code -->
+
+</body>
+</html>

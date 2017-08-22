@@ -1,0 +1,769 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ja" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:mixi="http://mixi-platform.com/ns#">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<title>日本ハム株式会社 | ニッポンハム</title>
+<meta property="og:image" content="http://www.nipponham.co.jp/shared/image/ogp_nhlogo.png">
+<meta property="og:site_name" content="日本ハム株式会社">
+<meta property="og:type" content="company">
+<meta property="fb:app_id" content="306989652685970">
+<meta name="description" content="「人が輝く明るい未来を築きたい」日本ハムの商品情報やキャンペーン、レシピなど情報が盛りだくさんです。">
+<meta name="viewport" content="width=960" />
+<link href="/shared/css/import.css" rel="stylesheet" type="text/css">
+<link href="/res/css/top.css" rel="stylesheet" type="text/css">
+<link rel="alternate" type="application/rss+xml" title= "日本ハム | ニュースリリース（RSS）" href="/news/feed/rss/">
+<link rel="alternate" type="application/rss+xml" title= "日本ハム | IRニュース（RSS）" href="/ir/feed/rss/">
+<link rel="alternate" type="application/rss+xml" title= "日本ハム | 更新情報（RSS）" href="/topics/feed/rss/">
+<script type="text/javascript" src="/shared/js/jquery.js"></script>
+<script type="text/javascript" src="/shared/js/common.js"></script>
+<script type="text/javascript" src="/shared/js/pagemode_min.js"></script>
+<script type="text/javascript" src="/res/js/easing.js"></script>
+<script type="text/javascript" src="/res/js/jquery.exresize.0.1.0.js"></script>
+<script type="text/javascript" src="/res/js/top.js"></script>
+<script type="text/javascript" src="/common/js/rcms.js"></script>
+<script type="text/javascript">
+(function($){
+    $(function(){
+        // ニュースリリース & 緊急告知
+        var tfNews = new TopicsFetcher({
+            topicsGroupId: 6,
+            cnt: 100,
+            puts: function(pageInfo, topicsList) {
+                // ニュースリリース用整形
+                function process(topic) {
+                    var html;
+                    var target;
+                    if(topic.ext_col_02 == '::01::'){
+                        target = ' target="_blank" ';
+                    }else{
+                        target = '';
+                    }
+
+                    var icon;
+                    switch (topic.contents_type) {
+                        case 36:
+                            icon = '/files/user/news/res/image/icn_campaign.gif';
+                            break;
+                        case 49:
+                            icon = '/files/user/news/res/image/icn_item.gif';
+                            break;
+                        case 50:
+                            icon = '/files/user/news/res/image/icn_group.gif';
+                            break;
+                        case 83:
+                            icon = '/files/user/news/res/image/icn_campaign.gif';
+                            break;
+                        case 84:
+                            icon = '/files/user/news/res/image/icn_item.gif';
+                            break;
+                        case 85:
+                            icon = '/files/user/news/res/image/icn_group.gif';
+                            break;
+                        default:
+                            icon = '/files/user/news/res/image/icn_other.gif';
+                            break;
+                    }
+                    html = '<dl class="mt10">' +
+                           '<dt class="fwb">' + TopicsFetcher.formatYmd(topic.ymd) + '<img src="' + icon + '" alt="' + topic.contents_type_nm + '" width="67" height="16" class="ml10"></dt>' +
+                           '<dd><a href="' + TopicsFetcher.getTopicsDetailUrl(topic) + '" ' + target + '>' + topic.subject + '</a></dd>' +
+                           '</dl>';
+                    return html;
+                };
+
+                // 緊急告知用整形
+                function processForUrgent(topic) {
+                    var html;
+                    var target;
+                    if(topic.ext_col_02 == '::01::'){
+                        target = ' target="_blank" ';
+                    }else{
+                        target = '';
+                    }
+
+                    html = '<dl class="clearfix">' +
+                           '<dt>' + TopicsFetcher.formatYmd(topic.ymd) + '</dt>' +
+                           '<dd><a href="' + TopicsFetcher.getTopicsDetailUrl(topic) + '" ' + target + '>' + topic.subject + '</a></dd>' +
+                           '</dl>';
+                    return html;
+                }
+                var max_cnt = 5;
+                if(topicsList.length < 5){
+                    max_cnt = topicsList.length;
+                }
+
+                for (var i = 0; i < topicsList.length; i++) {
+                    // ext_col_25が01のもの（緊急告知）を表示
+                    if (topicsList[i].ext_col_25 && topicsList[i].ext_col_25.replace(/:/g, '') === '01') {
+                        $('.headerInfo').append(processForUrgent(topicsList[i]));
+                    }
+                }
+                for (var i = 0; i < max_cnt; i++) {
+                    $('#js-newsrelease .txt').append(process(topicsList[i]));
+                }
+            }
+        }).run();
+
+        // お知らせ
+        var tfIrOshirase = new TopicsFetcher({
+            topicsGroupId: 7,
+            cnt: 3,
+            puts: function(pageInfo, topicsList) {
+                function process(topic) {
+                    var html;
+                    var target;
+                    if(topic.ext_col_02 == '::01::'){
+                        target = ' target="_blank" ';
+                    }else{
+                        target = '';
+                    }
+
+                    html = '<dl>' +
+                           '<dt class="fwb">' + TopicsFetcher.formatYmd(topic.ymd) + '</dt>' +
+                           '<dd><a href="' + TopicsFetcher.getTopicsDetailUrl(topic) + '" ' + target + '>' + topic.subject + '</a></dd>' +
+                           '</dl>';
+                    return html;
+                };
+                for (var i = 0; i < topicsList.length; i++) {
+                    $('.col4 .unit03 ul').append(process(topicsList[i]));
+                }
+            }
+        }).run();
+
+        // IRニュース
+        var tfIrNews = new TopicsFetcher({
+            topicsGroupId: 5,
+            cnt: 5,
+            puts: function(pageInfo, topicsList) {
+                function process(topic) {
+                    var html;
+                    var target;
+                    if(topic.ext_col_02 == '::01::'){
+                        target = ' target="_blank" ';
+                    }else{
+                        target = '';
+                    }
+
+                    html = '<dl class="mt10">' +
+                           '<dt class="fwb">' + TopicsFetcher.formatYmd(topic.ymd) + '</dt>' +
+                           '<dd><a href="' + TopicsFetcher.getTopicsDetailUrl(topic) + '" ' + target + '>' + topic.subject + '</a></dd>' +
+                           '</dl>';
+                    return html;
+                };
+                for (var i = 0; i < topicsList.length; i++) {
+                    $('#js-irnews .txt').append(process(topicsList[i]));
+                }
+            }
+        }).run();
+    });
+})(jQuery);
+</script>
+
+<!--[if IE 6]>
+<script type="text/javascript" src="/shared/js/DD_belatedPNG.js"></script>
+<script type="text/javascript">DD_belatedPNG.fix('.png_bg');</script>
+<![endif]-->
+</head>
+<body>
+
+<div id="CONTAINER">
+
+<a name="CONTAINER"></a>
+<div id="HGROUP" class="png_bg">
+<div class="header">
+<div class="clearfix">
+<p class="logo"><a href="http://www.nipponham.co.jp/" target="_top"><img src="/shared/image/header_img_logo.gif" alt="ニッポンハム" width="172" height="38"></a></p>
+<div class="tools">
+<ul class="toolsNavi clearfix">
+<li class="campaign"><a href="http://www.nipponham.co.jp/campaign/" class="altT" target="_top">キャンペーン<span class="panel"></span></a></li>
+<li class="recruit"><a href="http://www.nipponham.co.jp/recruit/" class="altT" target="_blank">採用情報<span class="panel"></span></a></li>
+<li class="customer"><a href="http://www.nipponham.co.jp/customer/" class="altT" target="_top">お客様相談窓口<span class="panel"></span></a></li>
+<li class="line"><img src="/shared/image/header_line.gif" alt="" width="1" height="12" ></li>
+<li class="english"><a href="http://www.nipponham.co.jp/eng/" class="altT" target="_blank">English<span class="panel"></span></a></li>
+</ul>
+</div><!--/.tools-->
+</div>
+</div><!--/.header-->
+<div class="hNavi">
+<div class="clearfix">
+<ul class="gnavi clearfix">
+<li class="products" id="js-productsbtn"><a href="http://www.nipponham.co.jp/products/" class="altT" target="_top">商品情報<span class="panel"></span></a></li>
+<li class="recipe"><a href="http://www.nipponham.co.jp/recipes/" id="js-recipebtn" class="altT" target="_top">レシピ<span class="panel"></span></a></li>
+<li class="fun"><a href="http://www.nipponham.co.jp/fun/" id="js-funbtn" class="altT" target="_top">知る・楽しむ<span class="panel"></span></a></li>
+<li class="quality"><a href="http://www.nipponham.co.jp/quality/" id="js-qualitybtn" class="altT" target="_top">品質への取り組み<span class="panel"></span></a></li>
+<li class="csr"><a href="http://www.nipponham.co.jp/csr/" id="js-csrbtn" class="altT" target="_top">社会・環境活動<span class="panel"></span></a></li>
+<li class="group"><a href="http://www.nipponham.co.jp/group/" id="js-groupbtn" class="altT" target="_top">企業情報<span class="panel"></span></a></li>
+<li class="ir"><a href="http://www.nipponham.co.jp/ir/" id="js-irbtn" class="altT" target="_top">IR情報<span class="panel"></span></a></li>
+</ul>
+<form name="search_form" action="http://search.nipponham.co.jp/" method="GET" onsubmit="return mysearch(this);" class="siteSearch clearfix" target="_top">
+<div class="floL"><input type="text" name="kw" value="" class="sbox"></div>
+<input type="hidden" name="ie" value="u">
+<div class="floL"><input type="image" src="/shared/image/header_btn_searchbox.gif" alt=""></div>
+</form>
+</div>
+
+<!-- mega drop -->
+<div class="megadrop1" id="js-megadrop1">
+<dl>
+<dt class="tr_btn"><a href="http://www.nipponham.co.jp/products/"><img src="/shared/image/megadrop/products/btn01.png" alt="商品情報" width="109" height="32"></a></dt>
+<dd class="mg_field">
+<p class="title"><img src="/shared/image/megadrop/products/txt01.png" alt="商品情報" width="105" height="25"></p>
+<p class="btn01"><a href="http://www.nipponham.co.jp/products/"><img src="/shared/image/megadrop/products/btn02.png" class="opaImg" alt="商品情報トップへ" width="165" height="36"></a></p>
+<div class="category">
+<p><img src="/shared/image/megadrop/products/txt02.png" alt="カテゴリから探す" width="143" height="18"></p>
+<p class="btn02"><a href="http://www.nipponham.co.jp/products/list/"><img src="/shared/image/megadrop/products/btn03.png" class="opaImg" alt="商品一覧" width="90" height="24"></a></p>
+<dl class="category_list category_list1">
+<dt><img src="/shared/image/megadrop/products/txt04.png" alt="ハム・ソーセージ" width="70" height="33"></dt>
+<dd>
+<p><a href="http://www.nipponham.co.jp/products/ham/"><img src="/shared/image/megadrop/products/btn04.png" class="opaImg" alt="ハム" width="42" height="63"></a></p>
+<p><a href="http://www.nipponham.co.jp/products/sausages/"><img src="/shared/image/megadrop/products/btn05.png" class="opaImg" alt="ソーセージ" width="59" height="63"></a></p>
+<p><a href="http://www.nipponham.co.jp/products/bacon/"><img src="/shared/image/megadrop/products/btn06.png" class="opaImg" alt="ベーコン" width="59" height="63"></a></p>
+<p><a href="http://www.nipponham.co.jp/products/roast_pig/"><img src="/shared/image/megadrop/products/btn07.png" class="opaImg" alt="焼豚" width="68" height="63"></a></p>
+<p><a href="http://www.nipponham.co.jp/products/other_ham_sausages/"><img src="/shared/image/megadrop/products/btn08.png" class="opaImg" alt="その他" width="64" height="63"></a></p>
+</dd>
+</dl>
+<dl class="category_list category_list2">
+<dt><img src="/shared/image/megadrop/products/txt05.png" alt="調理加工品" width="73" height="14"></dt>
+<dd>
+<p><a href="http://www.nipponham.co.jp/products/hamburger/"><img src="/shared/image/megadrop/products/btn09.png" class="opaImg" alt="ハンバーグ" width="65" height="63"></a></p>
+<p><a href="http://www.nipponham.co.jp/products/meatball/"><img src="/shared/image/megadrop/products/btn10.png" class="opaImg" alt="ミートボール" width="68" height="63"></a></p>
+<p><a href="http://www.nipponham.co.jp/products/chicken/"><img src="/shared/image/megadrop/products/btn11.png" class="opaImg" alt="チキン加工品" width="69" height="63"></a></p>
+<p><a href="http://www.nipponham.co.jp/products/dishes/"><img src="/shared/image/megadrop/products/btn12.png" class="opaImg" alt="中華･アジア惣菜" width="77" height="63"></a></p>
+<p><a href="http://www.nipponham.co.jp/products/bread_pizza/"><img src="/shared/image/megadrop/products/btn13.png" class="opaImg" alt="パン･ピザ" width="64" height="63"></a></p>
+<p><a href="http://www.nipponham.co.jp/products/normal_temp/"><img src="/shared/image/megadrop/products/btn14.png" class="opaImg" alt="常温食品" width="65" height="66"></a></p>
+<p><a href="http://www.nipponham.co.jp/products/frozen/"><img src="/shared/image/megadrop/products/btn15.png" class="opaImg" alt="冷凍食品" width="68" height="66"></a></p>
+<p><a href="http://www.nipponham.co.jp/products/other_deli/"><img src="/shared/image/megadrop/products/btn16.png" class="opaImg" alt="その他" width="75" height="66"></a></p>
+</dd>
+</dl>
+<dl class="category_list category_list3">
+<dt><img src="/shared/image/megadrop/products/txt06.png" alt="お肉" width="28" height="14"></dt>
+<dd>
+<p><a href="http://www.nipponham.co.jp/products/beef/"><img src="/shared/image/megadrop/products/btn17.png" class="opaImg" alt="牛肉" width="74" height="61"></a></p>
+<p><a href="http://www.nipponham.co.jp/products/pork/"><img src="/shared/image/megadrop/products/btn18.png" class="opaImg" alt="豚肉" width="70" height="61"></a></p>
+<p><a href="http://www.nipponham.co.jp/products/poultry/"><img src="/shared/image/megadrop/products/btn19.png" class="opaImg" alt="鶏肉" width="75" height="61"></a></p></dd>
+</dl>
+<p class="btn03"><a href="http://www.nipponham.co.jp/products/food_allergy/"><img src="/shared/image/megadrop/products/btn20.png" class="opaImg" alt="食物アレルギー対応 ハム･ソーセージ･米粉パンなど、食物アレルギー対応商品のご紹介" width="184" height="86"></a></p>
+<p class="btn33"><a href="http://www.nipponham.co.jp/products/supplement/"><img src="/shared/image/megadrop/products/btn33.png" class="opaImg" alt="健康食品 こちらに紹介文がは入ります。紹介文が入ります。" width="184" height="57"></a></p>
+
+</div> <!-- end of class="category" -->
+
+<div class="brand">
+<p><img src="/shared/image/megadrop/products/txt03.png" alt="ブランドサイト" width="113" height="18"></p>
+<p class="btn02"><a href="http://www.nipponham.co.jp/products/brands.html"><img src="/shared/image/megadrop/products/btn32.png" class="opaImg" alt="ブランドサイト一覧" width="126" height="24"></a></p>
+<div class="brand_list">
+<ul class="brand_list1">
+<li><a href="http://www.nipponham.co.jp/utsukushinokuni/"><img src="/shared/image/megadrop/products/btn24.png" class="opaImg" alt="美ノ国" width="112" height="42"></a></li>
+
+<li class="pt15"><a href="http://www.nipponham.co.jp/chukameisai/"><img src="/shared/image/megadrop/products/btn22.png" class="opaImg" alt="中華名菜" width="112" height="42"></a></li>
+<li><a href="http://www.nipponham.co.jp/sucre/"><img src="/shared/image/megadrop/products/btn23.png" class="opaImg" alt="SUCRE CAFE" width="112" height="42"></a></li>
+</ul>
+<ul class="brand_list2">
+<li><a href="http://www.nipponham.co.jp/seq/"><img src="/shared/image/megadrop/products/btn21.png" class="opaImg" alt="シャウエッセン" width="113" height="51"></a></li>
+<li><a href="http://www.nipponham.co.jp/ishigama/"><img src="/shared/image/megadrop/products/btn25.png" class="opaImg" alt="石窯工房" width="112" height="42"></a></li>
+<li class="mt0"><a href="http://www.nipponham.co.jp/sakurahime/"><img src="/shared/image/megadrop/products/btn26.png" class="opaImg" alt="桜姫" width="75" height="37"></a></li>
+</ul>
+</div> <!-- end of class="brand_list" -->
+<ul class="linklist1 mt10">
+<li><a href="http://www.nipponham.co.jp/products/new_products.html"><img src="/shared/image/megadrop/products/btn27.png" class="opaImg" alt="新商品のご案内" width="103" height="12"></a></li>
+<li><a href="http://www.nipponham.co.jp/products/group/"><img src="/shared/image/megadrop/products/btn28.png" class="opaImg" alt="グループ会社の商品" width="128" height="12"></a></li>
+<li><a href="http://www.nipponham.co.jp/products/ingredients_list/"><img src="/shared/image/megadrop/products/btn29.png" class="opaImg" alt="栄養成分・アレルギー情報一覧" width="192" height="14"></a></li>
+<li><a href="http://www.nipponham.co.jp/customer/"><img src="/shared/image/megadrop/products/btn30.png" class="opaImg" alt="お客様相談窓口" width="105" height="12"></a></li>
+</ul>
+<ul class="linklist2">
+<li><a href="http://www.nipponham.co.jp/gift/"><img src="/shared/image/megadrop/products/btn31.png" class="opaImg" alt="ギフト商品のご案内" width="144" height="15"></a></li>
+</ul>
+</div> <!-- end of class="brand" -->
+</dd>
+</dl>
+</div> <!-- end of class="megadrop1" id="js-megadrop1" -->
+
+<div class="megadrop2" id="js-megadrop2">
+<dl>
+<dt class="tr_btn"><a href="http://www.nipponham.co.jp/recipes/"><img src="/shared/image/megadrop/recipe/btn01.png" alt="レシピ" width="101" height="33"></a></dt>
+<dd class="mg_field">
+<p class="title"><img src="/shared/image/megadrop/recipe/txt01.png" alt="レシピ" width="74" height="23"></p>
+<p class="btn01"><a href="http://www.nipponham.co.jp/recipes/"><img src="/shared/image/megadrop/recipe/btn23.png" class="opaImg" alt="レシピトップへ" width="165" height="36"></a></p>
+<div class="contents">
+<ul class="mainlist">
+<li><a href="http://www.nipponham.co.jp/recipes/pickup/"><img src="/shared/image/megadrop/recipe/btn02.png" class="opaImg" alt="今月の特集" width="294" height="135"></a></li>
+<li><a href="http://www.nipponham.co.jp/recipes/lunchnavi/"><img src="/shared/image/megadrop/recipe/btn03.png" class="opaImg" alt="お弁当なび" width="294" height="135"></a></li>
+<li><a href="http://www.nipponham.co.jp/recipes/kazarigiri/"><img src="/shared/image/megadrop/recipe/btn04.png" class="opaImg" alt="飾り切り広場" width="294" height="135"></a></li>
+<li><a href="http://www.nipponham.co.jp/recipes/meat/zoomup/"><img src="/shared/image/megadrop/recipe/btn05.png" class="opaImg" alt="特選お肉レシピ" width="294" height="135"></a></li>
+</ul>
+<dl class="ranking">
+<dt><img src="/shared/image/megadrop/recipe/txt02.png" alt="人気のレシピ トップ3" width="157" height="16"></dt>
+<dd>
+<p><a href="http://www.nipponham.co.jp/recipes/genre/yoshoku/17307/"><img src="/recipes/res/image/top/img_top_rank01.gif" alt="" width="182" height="64"><span><img src="/shared/image/megadrop/recipe/rank1.png" alt="1" width="27" height="27"></span></a></p>
+<p><a href="http://www.nipponham.co.jp/recipes/genre/japanese/8026/"><img src="/recipes/res/image/top/img_top_rank02.gif" alt="" width="182" height="64"><span><img src="/shared/image/megadrop/recipe/rank2.png" alt="2" width="27" height="27"></span></a></p>
+<p><a href="http://www.nipponham.co.jp/recipes/genre/yoshoku/15378/"><img src="/recipes/res/image/top/img_top_rank03.gif" alt="" width="182" height="64"><span><img src="/shared/image/megadrop/recipe/rank3.png" alt="3" width="27" height="27"></span></a></p>
+</dd>
+</dl>
+</div> <!-- end of class="contents" -->
+<div class="recipe_search">
+<p class="txt01"><img src="/shared/image/megadrop/recipe/txt03.png" alt="レシピ検索" width="97" height="27"></p>
+<dl class="search_list search_list1">
+<dt><img src="/shared/image/megadrop/recipe/txt04.png" alt="商品カテゴリーから探す" width="177" height="17"></dt>
+<dd>
+<p><a href="http://www.nipponham.co.jp/recipes/ham/"><img src="/shared/image/megadrop/recipe/btn06.png" class="opaImg" alt="ハム" width="39" height="13"></a></p>
+<p><a href="http://www.nipponham.co.jp/recipes/sausage/"><img src="/shared/image/megadrop/recipe/btn07.png" class="opaImg" alt="ソーセージ" width="79" height="13"></a></p>
+<p><a href="http://www.nipponham.co.jp/recipes/bacon/"><img src="/shared/image/megadrop/recipe/btn08.png" class="opaImg" alt="ベーコン" width="62" height="13"></a></p>
+<p><a href="http://www.nipponham.co.jp/recipes/roast_pig/"><img src="/shared/image/megadrop/recipe/btn09.png" class="opaImg" alt="焼豚" width="42" height="13"></a></p>
+<p><a href="http://www.nipponham.co.jp/recipes/processed_foods/"><img src="/shared/image/megadrop/recipe/btn10.png" class="opaImg" alt="調理加工品" width="81" height="13"></a></p>
+<p><a href="http://www.nipponham.co.jp/recipes/food_allergy/"><img src="/shared/image/megadrop/recipe/btn11.png" class="opaImg" alt="食物アレルギー対応" width="123" height="13"></a></p>
+<p><a href="http://www.nipponham.co.jp/recipes/beef/"><img src="/shared/image/megadrop/recipe/btn12.png" class="opaImg" alt="牛肉" width="39" height="13"></a></p>
+<p><a href="http://www.nipponham.co.jp/recipes/pork/"><img src="/shared/image/megadrop/recipe/btn13.png" class="opaImg" alt="豚肉" width="40" height="13"></a></p>
+<p><a href="http://www.nipponham.co.jp/recipes/poultry/"><img src="/shared/image/megadrop/recipe/btn14.png" class="opaImg" alt="鶏肉" width="39" height="13"></a></p>
+<p><a href="http://www.nipponham.co.jp/recipes/other_meats/"><img src="/shared/image/megadrop/recipe/btn15.png" class="opaImg" alt="その他のお肉" width="92" height="13"></a></p>
+</dd>
+</dl>
+<dl class="search_list search_list2">
+<dt><img src="/shared/image/megadrop/recipe/txt05.png" alt="メニューから探す" width="126" height="16"></dt>
+<dd>
+<p><a href="http://www.nipponham.co.jp/recipes/rice/"><img src="/shared/image/megadrop/recipe/btn16.png" class="opaImg" alt="ご飯類" width="54" height="14"></a></p>
+<p><a href="http://www.nipponham.co.jp/recipes/bread/"><img src="/shared/image/megadrop/recipe/btn17.png" class="opaImg" alt="パン類" width="54" height="14"></a></p>
+<p><a href="http://www.nipponham.co.jp/recipes/pasta/"><img src="/shared/image/megadrop/recipe/btn18.png" class="opaImg" alt="パスタ" width="51" height="14"></a></p>
+<p><a href="http://www.nipponham.co.jp/recipes/noodle/"><img src="/shared/image/megadrop/recipe/btn19.png" class="opaImg" alt="麺類（パスタ以外）" width="121" height="14"></a></p>
+<p><a href="http://www.nipponham.co.jp/recipes/maindish/"><img src="/shared/image/megadrop/recipe/btn20.png" class="opaImg" alt="メインのおかず" width="102" height="14"></a></p>
+<p><a href="http://www.nipponham.co.jp/recipes/sidedishes/"><img src="/shared/image/megadrop/recipe/btn21.png" class="opaImg" alt="サブのおかず" width="92" height="14"></a></p>
+<p><a href="http://www.nipponham.co.jp/recipes/soup/"><img src="/shared/image/megadrop/recipe/btn22.png" class="opaImg" alt="スープ･汁物" width="81" height="14"></a></p>
+</dd>
+</dl>
+</div> <!-- end of class="recipe_search" -->
+</dd>
+</dl>
+</div> <!-- end of class="megadrop2" id="js-megadrop2" -->
+
+<div class="megadrop3" id="js-megadrop3">
+<dl>
+<dt class="tr_btn"><a href="http://www.nipponham.co.jp/fun/"><img src="/shared/image/megadrop/fun/btn01.png" alt="知る･楽しむ" width="117" height="33"></a></dt>
+<dd class="mg_field">
+<p class="title"><img src="/shared/image/megadrop/fun/txt01.png" alt="知る･楽しむ" width="144" height="26"></p>
+<p class="btn01"><a href="http://www.nipponham.co.jp/fun/"><img src="/shared/image/megadrop/fun/btn14.png" class="opaImg" alt="知る･楽しむトップへ" width="181" height="36"></a></p>
+<dl class="fun_list fun_list1">
+<dt><img src="/shared/image/megadrop/fun/txt02.png" alt="知る" width="35" height="17"></dt>
+<dd>
+<p><a href="http://www.nipponham.co.jp/group/taisetsu/"><img src="/shared/image/megadrop/fun/btn02.png" class="opaImg" alt="ニッポンハムグループが大切にしていること" width="257" height="78"></a></p>
+<p><a href="http://www.nipponham.co.jp/group/sennyu/"><img src="/shared/image/megadrop/fun/btn03.png" class="opaImg" alt="潜入！ニッポンハムグループ" width="257" height="78"></a></p>
+<p><a href="http://www.nipponham.co.jp/ir/summary/"><img src="/shared/image/megadrop/fun/btn04.png" class="opaImg" alt="ニッポンハムグループの事実。" width="257" height="78"></a></p>
+<p><a href="http://www.nipponham.co.jp/fun/advertisement/"><img src="/shared/image/megadrop/fun/btn05.png" class="opaImg" alt="広告ギャラリー" width="257" height="78"></a></p>
+</dd>
+</dl>
+<dl class="fun_list fun_list2">
+<dt><img src="/shared/image/megadrop/fun/txt03.png" alt="楽しむ" width="53" height="18"></dt>
+<dd>
+<p><a href="http://www.nipponham.co.jp/csr/education/activities/kidzania.html"><img src="/shared/image/megadrop/fun/btn06.png" class="opaImg" alt="キッザニア" width="265" height="78"></a></p>
+<p><a href="http://www.nipponham.co.jp/recipes/kazarigiri/"><img src="/shared/image/megadrop/fun/btn07.png" class="opaImg" alt="飾り切り広場" width="265" height="78"></a></p>
+<p><a href="http://www.nipponham.co.jp/recipes/meat/"><img src="/shared/image/megadrop/fun/btn08.png" class="opaImg" alt="おいしく楽しくお肉を食べよう！" width="265" height="78"></a></p>
+<p><a href="http://www.nipponham.co.jp/moredeli/"><img src="/shared/image/megadrop/fun/btn09.png" class="opaImg" alt="モアデリシャス" width="265" height="78"></a></p>
+</dd>
+</dl>
+<div class="fun_list fun_list3">
+<p class="btn02"><a href="http://www.nipponham.co.jp/fun/factory/"><img src="/shared/image/megadrop/fun/btn10.png" class="opaImg" alt="体験しよう！工場見学" width="268" height="124"></a></p>
+<p class="btn03"><a href="http://www.nipponham.co.jp/campaign/"><img src="/shared/image/megadrop/fun/btn11.png" class="opaImg" alt="キャンペーン" width="90" height="12"></a></p>
+<p class="btn06"><a href="http://www.nipponham.co.jp/fun/sns/"><img src="/shared/image/megadrop/fun/btn15.png" class="opaImg" alt="ソーシャルメディア公式アカウント一覧" width="235" height="12"></a></p>
+
+<p class="btn04"><a href="http://www.nipponham.co.jp/fun/shopping/"><img src="/shared/image/megadrop/fun/btn12.png" class="opaImg" alt="ショッピングサイト一覧" width="156" height="12"></a></p>
+<p class="btn05"><a href="http://www.nipponham.co.jp/csr/"><img src="/shared/image/megadrop/fun/btn13.png" class="opaImg" alt="社会・環境活動" width="268" height="108"></a></p>
+</div> <!-- end of class="fun_list fun_list3" -->
+</dd>
+</dl>
+</div> <!-- end of class="megadrop3" id="js-megadrop3" -->
+
+<div class="megadrop4" id="js-megadrop4">
+<dl>
+<dt class="tr_btn"><a href="http://www.nipponham.co.jp/quality/"><img src="/shared/image/megadrop/quality/btn01.png" alt="品質への取り組み" width="135" height="33"></a></dt>
+<dd class="mg_field">
+<p class="title"><img src="/shared/image/megadrop/quality/txt01.png" alt="品質への取り組み" width="210" height="26"></p>
+<p class="btn01"><a href="http://www.nipponham.co.jp/quality/"><img src="/shared/image/megadrop/quality/btn02.png" class="opaImg" alt="品質への取り組みトップへ" width="213" height="36"></a></p>
+
+<div class="quality_list1">
+<p class="txt01"><a href="http://www.nipponham.co.jp/quality/activities/"><img src="/shared/image/megadrop/quality/btn03.png" class="opaImg" alt="製造部門での取り組み" width="207" height="18"></a></p>
+<p class="txt02"><a href="http://www.nipponham.co.jp/quality/activities/seq/"><img src="/shared/image/megadrop/quality/btn04.png" class="opaImg" alt="シャウエッセン" width="268" height="138"></a></p>
+<p class="txt03"><a href="http://www.nipponham.co.jp/quality/activities/ishigama/"><img src="/shared/image/megadrop/quality/btn05.png" class="opaImg" alt="石窯工房 マルゲリータ" width="268" height="139"></a></p>
+</div> <!-- end of class="quality_list1" -->
+
+<div class="quality_list2">
+<p class="txt01"><a href="http://www.nipponham.co.jp/quality/policy/"><img src="/shared/image/megadrop/quality/btn06.png" class="opaImg" alt="品質方針" width="263" height="91"></a></p>
+<p class="txt02"><a href="http://www.nipponham.co.jp/quality/system/"><img src="/shared/image/megadrop/quality/btn07.png" class="opaImg" alt="ニッポンハムグループの品質保証体制" width="263" height="89"></a></p>
+<p class="txt03"><a href="http://www.nipponham.co.jp/quality/place/"><img src="/shared/image/megadrop/quality/btn08.png" class="opaImg" alt="原料原産地のお知らせにあたり " width="263" height="91"></a></p>
+</div> <!-- end of class="quality_list2" -->
+
+<div class="quality_list3">
+<p class="txt01"><a href="http://www.nipponham.co.jp/quality/globalsystem/"><img src="/shared/image/megadrop/quality/btn09.png" class="opaImg" alt="海外での品質保証体制" width="263" height="46"></a></p>
+<p class="txt02"><a href="http://www.nipponham.co.jp/quality/authentication/"><img src="/shared/image/megadrop/quality/btn10.png" class="opaImg" alt="外部機関による評価" width="263" height="46"></a></p>
+<p class="txt03"><a href="http://www.nipponham.co.jp/quality/download/"><img src="/shared/image/megadrop/quality/btn11.png" class="opaImg" alt="OPEN品質パンフレットダウンロード" width="263" height="46"></a></p>
+<p class="txt04"><a href="http://www.nipponham.co.jp/quality/allergy/"><img src="/shared/image/megadrop/quality/btn12.png" class="opaImg" alt="食物アレルギーへの取り組み" width="263" height="46"></a></p>
+<ul>
+<li><a href="http://www.nipponham.co.jp/group/rd/"><img src="/shared/image/megadrop/quality/btn13.png" class="opaImg" alt="研究・開発" width="76" height="13"></a></li>
+<li><a href="http://www.nipponham.co.jp/customer/"><img src="/shared/image/megadrop/quality/btn14.png" class="opaImg" alt="お客様相談窓口" width="105" height="13"></a></li>
+</ul>
+</div> <!-- end of class="quality_list3" -->
+</dd>
+</dl>
+</div> <!-- end of class="megadrop4" id="js-megadrop4" -->
+
+<div class="megadrop5" id="js-megadrop5">
+<dl>
+<dt class="tr_btn"><a href="http://www.nipponham.co.jp/csr/"><img src="/shared/image/megadrop/csr/btn01.png" alt="社会・環境活動" width="130" height="33"></a></dt>
+<dd class="mg_field">
+<p class="title"><img src="/shared/image/megadrop/csr/txt01.png" alt="社会・環境活動" width="171" height="25"></p>
+<p class="btn01"><a href="http://www.nipponham.co.jp/csr/"><img src="/shared/image/megadrop/csr/btn02.png" class="opaImg" alt="社会・環境活動トップへ" width="208" height="36"></a></p>
+
+<div class="csr_list1">
+<p class="txt01"><a href="http://www.nipponham.co.jp/csr/policy/"><img src="/shared/image/megadrop/csr/btn03.png" class="opaImg" alt="社会・環境活動への想い" width="268" height="134"></a></p>
+<p class="txt02"><img src="/shared/image/megadrop/csr/txt02.png" alt="それぞれの取り組みを見る" width="214" height="18"></p>
+<ul>
+<li><a href="http://www.nipponham.co.jp/csr/environment/"><img src="/shared/image/megadrop/csr/btn04.png" class="opaImg" alt="環境への取り組み" width="130" height="81"></a></li>
+<li><a href="http://www.nipponham.co.jp/csr/education/"><img src="/shared/image/megadrop/csr/btn05.png" class="opaImg" alt="食育への取り組み" width="130" height="81"></a></li>
+<li><a href="http://www.nipponham.co.jp/csr/sports/"><img src="/shared/image/megadrop/csr/btn06.png" class="opaImg" alt="スポーツへの取り組み" width="130" height="81"></a></li>
+<li><a href="http://www.nipponham.co.jp/csr/social_contribution/"><img src="/shared/image/megadrop/csr/btn07.png" class="opaImg" alt="社会との取り組み" width="130" height="81"></a></li>
+</ul>
+</div> <!-- end of class="csr_list1" -->
+
+<div class="csr_list2">
+<p class="txt01"><img src="/shared/image/megadrop/csr/txt03.png" alt="ピックアップ" width="100" height="17"></p>
+<p class="txt02"><a href="http://www.nipponham.co.jp/csr/environment/bounty/"><img src="/shared/image/megadrop/csr/btn08.png" class="opaImg" alt="生命の恵みを活かす" width="262" height="78"></a></p>
+<p class="txt03"><a href="http://www.nipponham.co.jp/csr/education/allergy/"><img src="/shared/image/megadrop/csr/btn09.png" class="opaImg" alt="食物アレルギーへの取り組み" width="262" height="78"></a></p>
+<p class="txt04"><a href="http://www.nipponham.co.jp/csr/sports/pro/"><img src="/shared/image/megadrop/csr/btn10.png" class="opaImg" alt="プロスポーツ" width="262" height="78"></a></p>
+<p class="txt05"><a href="http://www.nipponham.co.jp/csr/education/activities/kidzania.html"><img src="/shared/image/megadrop/csr/btn11.png" class="opaImg" alt="キッザニア" width="262" height="78"></a></p>
+</div> <!-- end of class="csr_list2" -->
+
+<div class="csr_list3">
+<p class="txt01"><img src="/shared/image/megadrop/csr/txt04.png" alt="活動レポート" width="104" height="18"></p>
+<p class="txt09"><a href="http://www.nipponham.co.jp/csr/news/"><img src="/shared/image/megadrop/csr/btn19.png" class="opaImg" alt="レポート一覧をみる" width="124" height="13"></a></p>
+<p class="txt02"><a href="http://www.nipponham.co.jp/csr/news/environment/"><img src="/shared/image/megadrop/csr/btn12.png" class="opaImg" alt="環境に関する活動レポート" width="267" height="45"></a></p>
+<p class="txt03"><a href="http://www.nipponham.co.jp/csr/news/education/"><img src="/shared/image/megadrop/csr/btn13.png" class="opaImg" alt="食育に関する活動レポート" width="267" height="45"></a></p>
+<p class="txt04"><a href="http://www.nipponham.co.jp/csr/news/sports/"><img src="/shared/image/megadrop/csr/btn14.png" class="opaImg" alt="スポーツに関する活動レポート" width="267" height="45"></a></p>
+<p class="txt05"><a href="http://www.nipponham.co.jp/csr/news/social/"><img src="/shared/image/megadrop/csr/btn15.png" class="opaImg" alt="社会に関する活動レポート" width="267" height="45"></a></p>
+<p class="txt06"><a href="http://www.nipponham.co.jp/csr/report/"><img src="/shared/image/megadrop/csr/btn16.png" class="opaImg" alt="CSRレポート" width="91" height="14"></a></p>
+<p class="txt07"><a href="http://www.nipponham.co.jp/csr/environment/data/"><img src="/shared/image/megadrop/csr/btn17.png" class="opaImg" alt="環境データ" width="78" height="14"></a></p>
+<p class="txt08"><a href="http://www.nipponham.co.jp/csr/evaluation/"><img src="/shared/image/megadrop/csr/btn18.png" class="opaImg" alt="第三者からの評価・ご意見" width="168" height="14"></a></p>
+</div> <!-- end of class="csr_list3" -->
+</dd>
+</dl>
+</div> <!-- end of class="megadrop5" id="js-megadrop5" -->
+
+<div class="megadrop6" id="js-megadrop6">
+<dl>
+<dt class="tr_btn"><a href="http://www.nipponham.co.jp/group/"><img src="/shared/image/megadrop/group/btn01.png" alt="企業情報" width="108" height="33"></a></dt>
+<dd class="mg_field">
+<p class="title"><img src="/shared/image/megadrop/group/txt01.png" alt="企業情報" width="105" height="25"></p>
+<p class="btn01"><a href="http://www.nipponham.co.jp/group/"><img src="/shared/image/megadrop/group/btn02.png" class="opaImg" alt="企業情報トップへ" width="165" height="36"></a></p>
+<div class="group_list1">
+<p><img src="/shared/image/megadrop/group/txt02.png" alt="お伝えしたいこと" width="138" height="18"></p>
+<p class="txt01"><a href="http://www.nipponham.co.jp/group/message/"><img src="/shared/image/megadrop/group/btn03.png" class="opaImg" alt="トップメッセージ" width="258" height="99"></a></p>
+<p class="txt02"><a href="http://www.nipponham.co.jp/group/vision/"><img src="/shared/image/megadrop/group/btn04.png" class="opaImg" alt="ニッポンハムグループが目指すもの" width="258" height="99"></a></p>
+<ul>
+<li><a href="http://www.nipponham.co.jp/news/"><img src="/shared/image/megadrop/group/btn05.png" class="opaImg" alt="ニュースリリース" width="110" height="12"></a></li>
+<li><a href="http://www.nipponham.co.jp/ir/news/"><img src="/shared/image/megadrop/group/btn06.png" class="opaImg" alt="IRニュース" width="75" height="12"></a></li>
+</ul>
+</div> <!-- end of class="group_list1" -->
+<div class="group_list2">
+<p><img src="/shared/image/megadrop/group/txt03.png" alt="日本ハム(株)会社情報" width="180" height="20"></p>
+<ul class="list01">
+<li><a href="http://www.nipponham.co.jp/group/outline/profile.html"><img src="/shared/image/megadrop/group/btn07.png" class="opaImg" alt="会社概要" width="67" height="13"></a></li>
+<li><a href="http://www.nipponham.co.jp/group/outline/access.html"><img src="/shared/image/megadrop/group/btn08.png" class="opaImg" alt="アクセス" width="63" height="13"></a></li>
+<li><a href="http://www.nipponham.co.jp/group/outline/chart.html"><img src="/shared/image/megadrop/group/btn09.png" class="opaImg" alt="組織図" width="52" height="13"></a></li>
+<li><a href="http://www.nipponham.co.jp/group/outline/executive.html"><img src="/shared/image/megadrop/group/btn10.png" class="opaImg" alt="役員紹介" width="67" height="13"></a></li>
+<li><a href="http://www.nipponham.co.jp/group/outline/history.html"><img src="/shared/image/megadrop/group/btn11.png" class="opaImg" alt="沿革" width="39" height="13"></a></li>
+</ul>
+<p class="txt01"><img src="/shared/image/megadrop/group/txt04.png" alt="ニッポンハムグループ情報" width="193" height="18"></p>
+<ul class="list02">
+<li><a href="http://www.nipponham.co.jp/group/business/"><img src="/shared/image/megadrop/group/btn12.png" class="opaImg" alt="グループ事業" width="91" height="14"></a></li>
+<li><a href="http://www.nipponham.co.jp/group/associated/"><img src="/shared/image/megadrop/group/btn13.png" class="opaImg" alt="主なグループ会社" width="115" height="14"></a></li>
+<li><a href="http://www.nipponham.co.jp/group/rd/"><img src="/shared/image/megadrop/group/btn14.png" class="opaImg" alt="研究・開発" width="75" height="14"></a></li>
+<li><a href="http://www.nipponham.co.jp/group/global/"><img src="/shared/image/megadrop/group/btn15.png" class="opaImg" alt="グローバル展開" width="105" height="14"></a></li>
+<li><a href="http://www.nipponham.co.jp/group/compliance/"><img src="/shared/image/megadrop/group/btn16.png" class="opaImg" alt="コンプライアンスへの取り組み" width="191" height="14"></a></li>
+</ul>
+</div> <!-- end of class="group_list2" -->
+<div class="group_list3">
+<p class="txt01"><a href="http://www.nipponham.co.jp/group/taisetsu/"><img src="/shared/image/megadrop/group/btn17.png" class="opaImg" alt="ニッポンハムグループが大切にしていること" width="268" height="134"></a></p>
+<p class="txt02"><a href="http://www.nipponham.co.jp/ir/summary/"><img src="/shared/image/megadrop/group/btn18.png" class="opaImg" alt="ニッポンハムグループの事実。" width="268" height="135"></a></p>
+</div> <!-- end of class="group_list3" -->
+</dd>
+</dl>
+</div> <!-- end of class="megadrop6" id="js-megadrop6" -->
+
+<div class="megadrop7" id="js-megadrop7">
+<dl>
+<dt class="tr_btn"><a href="http://www.nipponham.co.jp/ir/"><img src="/shared/image/megadrop/ir/btn01.png" alt="IR情報" width="104" height="33"></a></dt>
+<dd class="mg_field">
+<p class="title"><img src="/shared/image/megadrop/ir/txt01.png" alt="IR情報" width="79" height="24"></p>
+<p class="btn01"><a href="http://www.nipponham.co.jp/ir/"><img src="/shared/image/megadrop/ir/btn02.png" class="opaImg" alt="IR情報トップへ" width="165" height="36"></a></p>
+<div class="ir_list1">
+<p class="txt01"><a href="http://www.nipponham.co.jp/ir/message/"><img src="/shared/image/megadrop/ir/btn03.png" class="opaImg" alt="トップメッセージ" width="263" height="105"></a></p>
+<p class="txt02"><a href="http://www.nipponham.co.jp/ir/summary/"><img src="/shared/image/megadrop/ir/btn04.png" class="opaImg" alt="ニッポンハムグループの事実。" width="263" height="105"></a></p>
+<p class="txt03"><a href="http://www.nipponham.co.jp/ir/individual/"><img src="/shared/image/megadrop/ir/btn05.png" class="opaImg" alt="個人投資家の皆様へ" width="263" height="96"></a></p>
+</div> <!-- end of class="ir_list1" -->
+<div class="ir_list2">
+<p class="txt01"><a href="http://www.nipponham.co.jp/ir/policy/"><img src="/shared/image/megadrop/ir/btn06.png" class="opaImg" alt="経営方針" width="97" height="18"></a></p>
+<ul class="list02">
+<li><a href="http://www.nipponham.co.jp/ir/policy/policy.html"><img src="/shared/image/megadrop/ir/btn08.png" class="opaImg" alt="経営方針" width="64" height="15"></a></li>
+
+<li><a href="http://www.nipponham.co.jp/ir/policy/plan.html"><img src="/shared/image/megadrop/ir/btn07.png" class="opaImg" alt="中期経営計画" width="90" height="15"></a></li>
+<li><a href="http://www.nipponham.co.jp/ir/policy/risks.html"><img src="/shared/image/megadrop/ir/btn09.png" class="opaImg" alt="事業等のリスク" width="102" height="15"></a></li>
+<li><a href="http://www.nipponham.co.jp/ir/policy/governance.html"><img src="/shared/image/megadrop/ir/btn10.png" class="opaImg" alt="コーポレート･ガバナンス" width="90" height="31"></a></li>
+</ul>
+<p class="txt03"><a href="http://www.nipponham.co.jp/ir/highlight/"><img src="/shared/image/megadrop/ir/btn11.png" class="opaImg" alt="財務・業績ハイライト" width="195" height="18"></a></p>
+<ul class="list02">
+<li><a href="http://www.nipponham.co.jp/ir/highlight/connection.html"><img src="/shared/image/megadrop/ir/btn12.png" class="opaImg" alt="連結財務データ" width="105" height="13"></a></li>
+<li><a href="http://www.nipponham.co.jp/ir/highlight/segment.html"><img src="/shared/image/megadrop/ir/btn13.png" class="opaImg" alt="セグメント情報" width="100" height="13"></a></li>
+<li><a href="http://www.nipponham.co.jp/ir/highlight/transition.html"><img src="/shared/image/megadrop/ir/btn14.png" class="opaImg" alt="連結財務指標" width="94" height="13"></a></li>
+<li><a href="http://www.nipponham.co.jp/ir/highlight/details.html"><img src="/shared/image/megadrop/ir/btn15.png" class="opaImg" alt="売上高の明細" width="91" height="13"></a></li>
+</ul>
+<p class="txt04"><a href="http://www.nipponham.co.jp/ir/stock_info/"><img src="/shared/image/megadrop/ir/btn16.png" class="opaImg" alt="株式･株主情報" width="143" height="18"></a></p>
+<ul class="list03">
+<li><a href="http://www.nipponham.co.jp/ir/stock_info/circumstances.html"><img src="/shared/image/megadrop/ir/btn17.png" class="opaImg" alt="株式の状況" width="80" height="13"></a></li>
+<li><a href="http://www.nipponham.co.jp/ir/stock_info/yutai/"><img src="/shared/image/megadrop/ir/btn18.png" class="opaImg" alt="株主優待情報" width="94" height="13"></a></li>
+<li><a href="http://www.nipponham.co.jp/ir/stock_info/dividend.html"><img src="/shared/image/megadrop/ir/btn19.png" class="opaImg" alt="配当金" width="53" height="13"></a></li>
+<li><a href="http://www.nipponham.co.jp/ir/stock_info/procedure.html"><img src="/shared/image/megadrop/ir/btn20.png" class="opaImg" alt="株式諸手続きについて" width="143" height="13"></a></li>
+<li><a href="http://www.nipponham.co.jp/ir/stock_info/memo.html"><img src="/shared/image/megadrop/ir/btn21.png" class="opaImg" alt="株主メモ" width="65" height="13"></a></li>
+<li><a href="http://www.nipponham.co.jp/ir/stock_info/analyst.html"><img src="/shared/image/megadrop/ir/btn22.png" class="opaImg" alt="アナリストカバレッジ" width="136" height="13"></a></li>
+</ul>
+</div> <!-- end of class="ir_list2" -->
+<div class="ir_list3">
+<p class="txt01"><a href="http://www.nipponham.co.jp/ir/library/"><img src="/shared/image/megadrop/ir/btn23.png" class="opaImg" alt="IRライブラリー" width="147" height="18"></a></p>
+<ul class="list02">
+	<li><a href="http://www.nipponham.co.jp/ir/library/accounting/"><img src="/shared/image/megadrop/ir/btn24.png" class="opaImg" alt="決算短信" width="65" height="14"></a></li>
+	<li><a href="http://www.nipponham.co.jp/ir/library/fact_book/"><img src="/shared/image/megadrop/ir/btn25.png" class="opaImg" alt="ファクトブック" width="95" height="14"></a></li>	
+</ul>
+<ul class="list01">
+<li><a href="http://www.nipponham.co.jp/ir/library/annual/"><img src="/shared/image/megadrop/ir/btn26.png" class="opaImg" alt="アニュアルレポート" width="123" height="14"></a></li>
+<li><a href="http://www.nipponham.co.jp/ir/library/financial/"><img src="/shared/image/megadrop/ir/btn27.png" class="opaImg" alt="ファイリング情報" width="113" height="14"></a></li>
+<li><a href="http://www.nipponham.co.jp/ir/library/briefing_session/"><img src="/shared/image/megadrop/ir/btn28.png" class="opaImg" alt="決算説明会資料" width="107" height="14"></a></li>
+<li><a href="http://www.nipponham.co.jp/ir/library/report/"><img src="/shared/image/megadrop/ir/btn29.png" class="opaImg" alt="有価証券報告書" width="106" height="14"></a></li>
+<li><a href="http://www.nipponham.co.jp/ir/library/business_report/"><img src="/shared/image/megadrop/ir/btn30.png" class="opaImg" alt="ニッポンハムグループ報告書" width="184" height="14"></a></li>
+<li><a href="http://www.nipponham.co.jp/ir/library/governance/"><img src="/shared/image/megadrop/ir/btn31.png" class="opaImg" alt="コーポレート・ガバナンス報告書" width="200" height="14"></a></li>
+<li><a href="http://www.nipponham.co.jp/ir/library/market_trend/"><img src="/shared/image/megadrop/ir/btn38.png" class="opaImg" alt="市場動向資料集" width="103" height="14"></a></li>
+</ul>
+<p class="txt02"><a href="http://www.nipponham.co.jp/ir/events/"><img src="/shared/image/megadrop/ir/btn32.png" class="opaImg" alt="IRイベント" width="109" height="17"></a></p>
+<ul class="list02">
+<li><a href="http://www.nipponham.co.jp/ir/events/calendar/"><img src="/shared/image/megadrop/ir/btn33.png" class="opaImg" alt="IRカレンダー" width="88" height="13"></a></li>
+<li><a href="http://www.nipponham.co.jp/ir/events/generalmeeting/"><img src="/shared/image/megadrop/ir/btn34.png" class="opaImg" alt="株主総会" width="67" height="13"></a></li>
+<li><a href="http://www.nipponham.co.jp/ir/events/individual_seminar/"><img src="/shared/image/megadrop/ir/btn35.png" class="opaImg" alt="個人投資家説明会" width="121" height="13"></a></li>
+<li><a href="http://www.nipponham.co.jp/ir/events/forum/"><img src="/shared/image/megadrop/ir/btn36.png" class="opaImg" alt="株主フォーラム" width="100" height="13"></a></li>
+</ul>
+<p class="txt03"><a href="http://www.nipponham.co.jp/ir/news/"><img src="/shared/image/megadrop/ir/btn37.png" class="opaImg" alt="IRニュース" width="76" height="13"></a></p>
+</div> <!-- end of class="ir_list3" -->
+</dd>
+</dl>
+</div> <!-- end of class="megadrop7" id="js-megadrop7" -->
+
+</div><!--/.hNavi-->
+</div><!--/#HEADER-->
+
+<div id="PRINT_LOGO"><img src="/shared/image/header_img_logo.gif" alt="ニッポンハム" width="184" height="38"></div>
+
+
+
+
+
+<script type="text/javascript">
+    (function() {
+     var da = document.createElement('script');
+     da.type = 'text/javascript'; da.async = true;
+     if ('https:' == document.location.protocol) {
+     da.src =  'https://rsv.dga.jp/s/nipponham/search_tool.js';
+     } else {
+     da.src =  'http://cache.dga.jp/s/nipponham/search_tool.js';
+     }
+     var sc  = document.getElementsByTagName('script')[0];
+     sc.parentNode.insertBefore(da, sc);
+     })();
+</script>
+<script type="text/javascript" src="/shared/js/megadropdown.js"></script>
+
+<div class="headerInfo">
+</div><!--/.headerInfo-->
+
+<div class="mainvidcover" id="js-mainvidcover">
+<div class="openingBlock" id="js-openingBlock">
+<p class="openingtxt1" id="js-openingtxt1"><img src="/res/image/openingimg01.png" alt="" width="304" height="23" /></p>
+<p class="openingtxt2" id="js-openingtxt2"><img src="/res/image/openingimg02.png" alt="" width="224" height="168" /></p>
+</div> <!-- end of class="openingBlock" -->
+<div class="flowPanel" id="js-flowPanel">
+<div class="mainpanelcover">
+<ul class="mainpanel" id="js-mainpanel">
+</ul>
+</div> <!-- end of class="mainpanelcover" -->
+
+<div class="subpanelcover" id="js-subpanelcover">
+<div class="subpanelout">
+<ul class="subpanel" id="js-subpanel">
+</ul>
+</div> <!-- end of class="subpanelout" -->
+<p class="currentImg"><img src="/res/image/current.png" alt="" width="160" height="79" /></p>
+<p class="leftbtn" id="js-leftbtn"><a href="###"><img src="/res/image/arrow01.png" alt="" width="53" height="53" /></a></p>
+<p class="rightbtn" id="js-rightbtn"><a href="###"><img src="/res/image/arrow02.png" alt="" width="53" height="53" /></a></p>
+</div> <!-- end of class="subpanelcover" -->
+</div> <!-- /class="flowPanel" -->
+</div> <!-- /class="mainvidcover" -->
+
+<div class="topcontents">
+<ul class="col1">
+<li class="js-panel"><a href="https://www.bbqgo.jp/" target="_blank" onclick="ga('send','event','BBQGO','Click','BBQGO_TOP');"><img src="/res/image/panel21.png" alt="BBQ GO！ 全国のバーベキュー情報サイト" width="221" height="210" /></a></li>
+<li class="js-panel"><a href="/ir/summary/"><img src="/res/image/panel07.png" alt="ニッポンハムグループの事実" width="220" height="210" /></a></li>
+<li class="js-panel"><a href="http://www.food-allergy.jp/" target="_blank"><img src="/res/image/panel08.png" alt="食物アレルギーねっと 基本情報から対応商品まで" width="220" height="210" /></a></li>
+<li><img src="/res/image/ani_b.gif" alt="" /></li>
+<li class="js-panel"><a href="/ir/individual/"><img src="/res/image/panel10.png" alt="個人投資家の皆様へ" width="220" height="180" /></a></li>
+<li class="js-panel"><a href="/fun/factory/"><img src="/res/image/panel05.png" alt="工場見学のご案内" width="221" height="210" /></a></li>
+
+<li class="js-panel"><a href="/fun/advertisement/"><img src="/res/image/panel11.png" alt="広告ギャラリー" width="220" height="180" /></a></li>
+</ul> <!-- /class="col1" -->
+
+
+
+<ul class="col2">
+<li class="js-panel"><a href="http://www.imida-labo.jp/" target="_blank" onclick="ga('send','event','imida_Labo','Click','イミダLabo_TOP');"><img src="/res/image/panel24.png" alt="イミダLabo" width="221" height="210" /></a></li>
+<li><img src="/res/image/ani_c.gif" alt="" /></li>
+<li class="js-panel"><a href="/recipes/pickup/"><img src="/res/image/panel09.png" alt="今月の特集レシピ" width="220" height="210" /></a></li>
+<li class="js-panel"><a href="/recipes/kazarigiri/"><img src="/res/image/panel14.png" alt="飾り切り広場 ウインナーやハムの飾り切りのご紹介" width="221" height="210" /></a></li>
+<li class="js-panel"><a href="/recipes/lunchnavi/"><img src="/res/image/panel15.png" alt="お弁当なび お弁当づくりが楽しくなるレシピ集" width="221" height="210" /></a></li>
+<li><img src="/res/image/ani_d.gif" alt="" /></li>
+<li class="js-panel"><a href="/seq/"><img src="/res/image/panel16.png" alt="シャウエッセン" width="221" height="210" /></a></li>
+<li class="js-panel"><a href="/fun/sns/"><img src="/res/image/panel25.png" alt="ソーシャルメディア公式アカウント一覧" width="220" height="210" /></a></li>
+
+</ul> <!-- /class="col2" -->
+
+
+
+<ul class="col3">
+<li class="js-panel"><a href="/okusama/bosyu/" onclick="ga('send','event','okusama','Click','奥様重役募集中_TOP');"><img src="/res/image/panel26.png" alt="奥様重役募集中" width="221" height="210" /></a></li>
+<li class="js-panel"><a href="/customer/"><img src="/res/image/panel02.png" alt="お客様相談窓口" width="221" height="180" /></a></li>
+<li class="js-panel"><a href="/campaign/"><img src="/res/image/panel03.png" alt="キャンペーンのご案内" width="221" height="210" /></a></li>
+<li class="js-panel"><a href="/recipes/meat/zoomup/"><img src="/res/image/panel04.png" alt="特選お肉レシピ" width="220" height="210" /></a></li>
+<li><img src="/res/image/ani_a.gif" alt="" /></li>
+<li class="js-panel"><a href="/chukameisai/"><img src="/res/image/panel12.png" alt="中華名菜" width="220" height="210" /></a></li>
+<li class="js-panel"><a href="/ishigama/"><img src="/res/image/panel18.png" alt="石窯工房" width="221" height="210" /></a></li>
+</ul> <!-- /class="col3" -->
+
+<script type="text/javascript">
+<!--
+	setLowPanel();
+// -->
+</script>
+
+<div class="col4">
+<div class="unit01">
+<p><img src="/res/image/txt01.gif" alt="お知らせ" /></p>
+<ul>
+<li><a href="/news/2014/20141105/">当社の名前を騙った株取引や投資勧誘などにご注意ください。</a></li>
+<li><a href="/news/2011/20111124/">ハムジット券（ギフト券）ご利用のお願い</a></li>
+</ul>
+</div> <!-- /class="unit01" -->
+
+<div class="unit02">
+<ul class="btns">
+<li class="btn01"><a href="###" id="js-newsreleasebtn"><img src="/res/image/btn01.gif" alt="ニュースリリース" /></a></li>
+<li class="btn02"><a href="###" id="js-irnewsbtn"><img src="/res/image/btn02_off.gif" alt="IRニュース" /></a></li>
+</ul>
+<div class="newsrelease" id="js-newsrelease">
+<div class="txt">
+</div> <!-- /class="txt" -->
+<p class="listlink"><a href="/news/"><img src="/res/image/btn03.gif" alt="一覧をみる" class="opaImg" /></a></p>
+</div> <!-- /class="newsrelease" -->
+
+<div class="irnews" id="js-irnews">
+<div class="txt">
+</div> <!-- /class="txt" -->
+<p class="listlink"><a href="/ir/news/"><img src="/res/image/btn03.gif" alt="一覧をみる" class="opaImg" /></a></p>
+</div> <!-- /class="irnews" -->
+</div> <!-- /class="unit02" -->
+
+<div class="unit03">
+<p><img src="/res/image/txt02.gif" alt="更新情報" /></p>
+<ul class="mt10"></ul>
+<p class="listlink"><a href="/topics/"><img src="/res/image/btn03.gif" alt="一覧をみる" class="opaImg" /></a></p>
+</div> <!-- /class="unit03" -->
+<p class="taC mt20"><img src="/res/image/txt04.gif" alt="平成28年熊本地震により被災されました方々に、謹んでお見舞い申し上げますとともに、一日も早い復旧を心よりお祈り申し上げます。" /></p>
+
+<p class="taC mt20"><img src="/res/image/txt03.gif" alt="東北地方太平洋沖地震により被災されました方々に、謹んでお見舞い申し上げますとともに、一日も早い復旧を心よりお祈り申し上げます。" /></p>
+</div> <!-- /class="col4" -->
+</div> <!-- /class="topcontents" -->
+
+
+<div class="BIGFOOT">
+<div id="FGROUP">
+<div class="footerImg"></div>
+<div class="footerBgCtgtop">
+<div class="footerLink clearfix">
+<div class="footerLinkUtility">
+<ul class="footerLinkInfo"><!--
+--><li class="campaign"><a href="http://www.nipponham.co.jp/campaign/" class="altT">キャンペーン<span class="panel"></span></a></li><!--
+--><li class="member"><a href="http://www.nipponham.co.jp/webmember/" class="altT">ニッポンハムグループWeb会員<span class="panel"></span></a></li><!--
+--><li class="onlineShop"><a href="http://www.nipponham.co.jp/fun/shopping/" class="altT">ショッピングサイト一覧<span class="panel"></span></a></li><!--
+--><li class="snslist"><a href="http://www.nipponham.co.jp/fun/sns/" target="_top" class="altT">ソーシャルメディア公式アカウント一覧<span class="panel"></span></a></li><!--
+--></ul>
+<ul><!--
+--><li><a href="http://www.nipponham.co.jp/privacy/">個人情報保護方針</a></li><!--
+--><li><a href="http://www.nipponham.co.jp/sns_policy/">ソーシャルメディアポリシー</a></li><!--
+--><li><a href="http://www.nipponham.co.jp/rules/">ご利用案内</a></li><!--
+--><li class="lastChild"><a href="http://www.nipponham.co.jp/sitemap/">サイトマップ</a></li><!--
+--></ul>
+</div>
+<p class="footerLinkLogo"><img src="/shared/image/footer_logo_nipponhamgroup.gif" width="195" height="41" alt="Nippon Ham Group 人輝く、食の未来"></p>
+</div><!--/.footerLink-->
+<div class="copyright"><img src="/shared/image/copyright.gif" alt="Copyright (C) NH Foods Ltd. All Rights Reserved" width="304" height="27"></div>
+</div><!--/.footerBg-->
+</div><!--/#FGROUP-->
+
+</div>
+
+<div id="businessMap"></div>
+
+</div><!--/#CONTAINER-->
+
+<div id="TOOLBAR">
+
+<div class="gadget">
+<div class="gadgetTop"></div>
+<div class="gadgetInner">
+<div class="menu">
+<div class="tbRecipe"><div class="str"></div></div>
+</div><!--/.menu-->
+<div class="menu">
+<div class="tbCampaign"><a href="/campaign/" onClick="ga('send', 'event',  'Click', 'toolbar_Campain', 'Campaign');"><img src="/shared/image/toolbar_campaign.gif" alt="" width="160" height="21" class="opaImg"></a></div>
+</div><!--/.menu-->
+<div class="menu">
+<div class="tbFsize">
+<dl class="clearfix">
+<dt class="floL"><img src="/shared/image/toolbar_icon_fsize.gif" alt="" width="20" height="21"></dt>
+<dd class="floL">
+<ul class="fConsole clearfix">
+<li class="altT fs_S" rel="S">小<span class="panel"></span></li>
+<li class="altT fs_M" rel="M">中<span class="panel"></span></li>
+<li class="altT fs_L" rel="L">大<span class="panel"></span></li>
+</ul>
+</dd>
+</dl>
+</div>
+</div><!--/.menu-->
+<div class="menuSns">
+<div class="tbSns">
+<ul>
+<li class="fb"></li>
+<li class="twitter"></li>
+<li class="mixi"></li>
+<li class="google clearfix">
+<div class="floL mr10"><g:plusone size="small" count="false"></g:plusone></div>
+<div class="floL"><img src="/shared/image/toolbar_google.gif" alt="Google+1" width="49" height="18"></div>
+</li>
+</ul>
+</div>
+</div><!--/.menu-->
+</div><!--/.gadgetInner-->
+<div class="gadgetBottom"></div>
+</div><!--/.gadget-->
+<div class="tbPagetop"><a href="#CONTAINER" class="anchorScroll"><img src="/shared/image/toolbar_pagetop.png" alt="" width="33" height="29" class="png_bg"></a></div>
+
+</div><!--/#TOOLBAR-->
+<script type="text/javascript" src="/shared/js/toolbar_recipe.js"></script>
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js">
+{lang: 'ja'}
+</script>
+
+
+
+</body>
+</html>

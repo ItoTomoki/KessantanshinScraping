@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1">
+<title>日本ケアサプライ - 福祉用具レンタル・販売</title>
+<meta name="keywords" content="福祉用具レンタル,福祉用具貸与,訪問介護,福祉用具販売,介護事業所向けサポート" />
+<meta name="description" content="株式会社日本ケアサプライは、福祉用具の貸与（レンタル）および販売をはじめ、介護事業所向けサポート、訪問介護など、高齢社会のニーズに応え、品質第一の最適なサービスを提供しています。" />
+
+<link rel="stylesheet" type="text/css" href="/dcms_media/css/utility.css">
+<link rel="stylesheet" type="text/css" href="/dcms_media/css/common.css">
+<link rel="stylesheet" type="text/css" href="/dcms_media/css/common_tablet.css">
+<link rel="stylesheet" type="text/css" href="/dcms_media/css/common_smartphone.css">
+<link rel="stylesheet" type="text/css" href="/dcms_media/css/top.css">
+<link rel="stylesheet" type="text/css" href="/dcms_media/css/top_tablet.css">
+<link rel="stylesheet" type="text/css" href="/dcms_media/css/top_smartphone.css">
+<link rel="stylesheet" type="text/css" href="/dcms_media/css/jquery.flexslider.css" />
+
+<script type="text/javascript" src="/dcms_media/js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="/dcms_media/js/slidemenu.js"></script>
+<script type="text/javascript" src="/dcms_media/js/scrolltopcontrol.js"></script>
+<script type="text/javascript" src="/dcms_media/js/jquery.matchHeight-min.js"></script>
+<script type="text/javascript" src="/dcms_media/js/jquery.flexslider-min.js"></script>
+<script type="text/javascript" src="/dcms_media/js/jquery.biggerlink.min.js"></script>
+
+<script type="text/javascript"><!--
+var lh = "";
+    lh = location.href;
+    if (lh.match(/dcmsadm/)){
+    } else {
+
+$(document).ready(function(){
+    //mainimage
+    $('.flexslider').flexslider({
+        animation: "fade",
+        slideDirection: "horizontal",
+        slideshow: true,  //自動再生
+        slideshowSpeed: 4000,
+        animationDuration: 800,
+        directionNav: false,
+        controlNav: true
+    });
+    $('.flexslider_tb').flexslider({
+        animation: "fade",
+        slideDirection: "horizontal",
+        slideshow: true,  //自動再生
+        slideshowSpeed: 4000,
+        animationDuration: 800,
+        directionNav: false,
+        controlNav: true
+    });
+    //matchHeight
+    $('#service3 #service_list .list .txt').matchHeight();
+    $('#page_link .link .title').matchHeight();
+    $('#page_link .link .txt').matchHeight();
+    $('.sp_matchheight').matchHeight();
+    $('.article a .txt').matchHeight();
+	$('.matchHeight').matchHeight();
+    //boxlink
+    $('#service3 #service_list .list').biggerlink(); 
+    $('#service2 #service_list2 .list').biggerlink(); 
+    $('#page_link .link').biggerlink(); 
+    $('#top_contact').biggerlink(); 
+
+});
+}
+// --></script>
+
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PN8VGT"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PN8VGT');</script>
+<!-- End Google Tag Manager -->
+</head>
+
+<body id="top">
+
+<div id="wrapper">
+
+<div id="main"><header><h1 id="h1text">福祉用具サプライ、在宅介護サービスの株式会社日本ケアサプライ</h1>
+<div id="logo"><a href="/index.html"> <img src="/dcms_media/image/common/logo.png" alt="株式会社日本ケアサプライ" /> </a></div>
+<div id="searchBtn"><form id="fSearch" action="/dcms-search/" method="post"><input id="keywords1" class="txt" name="schKeyword" type="text" placeholder="サイト内検索" /> <input class="btn" type="submit" value="検索" /></form></div>
+<div id="globalnav">
+<div id="gnav_btn"><a href="#">MENU</a></div>
+<nav id="globalnav_in">
+<ul>
+<li><a href="/profile.html">企業情報</a></li>
+<li><a href="/service.html">サービス</a></li>
+<li><a href="/profile/network.html">拠点一覧</a></li>
+<li><a href="/recruit.html">採用情報</a></li>
+<li><a href="/ir/">IR情報</a></li>
+<li><a href="/news.html">ニュースリリース</a></li>
+</ul>
+</nav></div></header>
+<div class="flexslider">
+<ul class="slides">
+<li class="mainimage01"><img title="メインイメージ01" src="/dcms_media/image/mainimage01.jpg" alt="メインイメージ01" data-popupalt-original-title="null" /></li>
+<li class="mainimage02"><img src="/dcms_media/image/mainimage02.jpg" alt="メインイメージ02" /></li>
+<li class="mainimage03"><a href="recruit.html"><img src="/dcms_media/image/mainimage03.jpg" alt="メインイメージ03" /></a></li>
+</ul>
+</div>
+<div class="flexslider_tb">
+<ul class="slides">
+<li class="mainimage01"><img title="メインイメージ01" src="/dcms_media/image/mainimage01.jpg" alt="メインイメージ01" data-popupalt-original-title="null" /></li>
+<li class="mainimage02"><img src="/dcms_media/image/mainimage02_tb.jpg" alt="メインイメージ02" /></li>
+<li class="mainimage03"><a href="recruit.html"><img src="/dcms_media/image/mainimage03_tb.jpg" alt="メインイメージ03" /></a></li>
+</ul>
+</div>
+</div>
+
+
+
+
+<!-- ブロック貼り付けエリア -->
+<div id="dcms_layoutPageBlockPasteArea">
+<!-- ブロック -->
+<div id="dcms_layoutPageBlock">
+<div class="top_whats_btn txt_c m30"><a href="/about.html"><img width="350" height="170" title="日本ケアサプライとは" alt="日本ケアサプライとは" src="/dcms_media/image/top_ncstowa.jpg" data-popupalt-original-title="null" /></a></div>
+<section id="service2">
+<h2 class="toptitle02">サービス</h2>
+<div id="service_list2">
+<div class="list" id="service2_01">
+<div class="title"><a href="service.html#rental">福祉用具レンタル・販売</a></div>
+<p class="txt matchHeight"><span style="font-size: 14pt;">信頼のブランド「グリーンケア」。 安全・安心な福祉用具を提供します。</span></p>
+</div>
+<div class="list" id="service2_02">
+<div class="title"><a href="service.html#support">介護事業者向けサポート</a></div>
+<p class="txt matchHeight"><span style="font-size: 14pt;">介護事業所向け専門サイト「けあピア」や食事サービスを通じて、介護の現場を支援します。</span></p>
+</div>
+</div>
+</section>
+<!--
+<div class="link01 link">
+<p class="title"><a href="/profile/network.html">拠点一覧<br /></a></p>
+<p class="txt">全国に広がるグリーンケア・ネットワーク。<br />必要な人に、必要なものを、すばやく。</p>
+</div>
+<div class="link02 link">
+<p class="title"><a href="/service/support.html">お取引先様サポート<br /></a></p>
+<p class="txt">グリーンケア取扱店さまへ、<br />後方支援策を提供します。</p>
+</div>
+<div class="link03 link">
+<p class="title"><a href="service/onlineservice.html">オンラインサービス</a></p>
+<p class="txt"><a href="service/onlineservice.html">利用者やご家族の、いききした生活を支える</a><br /><a href="service/onlineservice.html">販売品などの会員制オンラインサービス</a></p>
+</div>
+//-->
+<div id="top_contact">
+<p class="txt"><img alt="社会貢献をもっと身近に感じる環境がここにあります" src="/dcms_media/image/common/top_contact_txt.png" /></p>
+<p class="btn"><a href="/recruit.html"><img alt="採用情報" src="/dcms_media/image/common/top_contact_btn.png" /></a></p>
+</div>
+<br /><br />
+<section class="rss">
+<h2 class="toptitle02" style="text-align: center;">ニュースリリース</h2>
+<div class="top_rss_box"><dl>
+<dt class="rss_date">2017/08/16</dt>
+<dd class="rss_title"><a href="https://www.caresupply.co.jp/dcms_media/other/news201708161.pdf" target="_blank">水戸営業所及び日立ステーションの統合･移転のお知らせ</a></dd>
+<dd class="rss_contents"></dd>
+</dl>
+<dl>
+<dt class="rss_date">2017/02/13</dt>
+<dd class="rss_title"><a href="https://www.caresupply.co.jp/dcms_media/other/news201702131.pdf" target="_blank">佐世保ステーション移転及び名称変更のお知らせ</a></dd>
+<dd class="rss_contents"></dd>
+</dl>
+</div>
+<p class="morebtn"><a href="/news.html">一覧を見る</a></p>
+</section>
+<br /><!--<section class="rss">
+<h2 class="toptitle02">IR情報</h2>
+<div class="top_rss_box ir"><dl>
+<dt class="rss_date">2015/12/25</dt>
+<dd class="rss_title"><a href="https://www.caresupply.co.jp/index.html">通期業績予想の修正に関するお知らせ</a></dd>
+<dd class="rss_contents"></dd>
+</dl>
+</div>
+<p class="morebtn"><a href="/ir.html">一覧を見る</a></p>
+</section>-->
+<!--
+<section id="page_link">
+<div class="link01 link">
+<p class="title"><a href="www.e-kaigonet.com/">e-KaigoNet<br /></a></p>
+<p class="txt">グリーンケア取扱店さまの業務効率の向上や事務負担の軽減を図ります</p>
+</div>
+<div class="link02 link">
+<p class="title"><a href="https://www.eshop-plus.com/ncs/" target="_blank">グリーンケアオンラインショップ</a></p>
+<p class="txt"><a href="https://www.eshop-plus.com/ncs/" target="_blank">豊富なラインナップを取り揃えた会員制ショッピングサイトです</a></p>
+</div>
+<div class="link03 link">
+<p class="title"><a href="http://www.carepia.jp" target="_blank">けあピア for デイ</a></p>
+<p class="txt"><a href="http://www.carepia.jp" target="_blank">介護事業所専門WEBサイト<br />介護現場での「困りごと」解決をサポートします</a></p>
+</div>
+</section>
+//-->
+
+</div>
+<!-- // ブロック -->
+</div>
+<!-- // ブロック貼り付けエリア -->
+
+
+
+<footer><div id="footer_nav">
+<div id="flogonav">
+<div id="footer_logo"><a href="/index.html"><img src="/dcms_media/image/common/footer_logo.png" alt="株式会社日本ケアサプライ" /></a></div>
+<ul>
+<li><span class="sp_matchheight"><a href="/about.html">日本ケアサプライとは</a></span></li>
+<li><span class="sp_matchheight"><a href="/news.html">ニュースリリース</a></span></li>
+</ul>
+</div>
+<ul class="footnav">
+<li><span class="sp_matchheight"><a href="/profile.html">企業情報</a></span>
+<ul>
+<li><a href="/profile/message.html">社長メッセージ</a></li>
+<li><a href="/profile/management.html">社是・経営理念</a></li>
+<li><a href="/profile/overview.html">会社概要</a></li>
+<li><a href="/profile/history.html">沿革</a></li>
+<li><a href="/profile/network.html">拠点一覧</a></li>
+<li><a title="グループ会社情報" href="/profile/group.html">グループ会社情報</a></li>
+<li><a title="役職員行動規範" href="/profile/compliance.html">役職員行動規範</a></li>
+</ul>
+</li>
+</ul>
+<ul class="footnav">
+<li><span class="sp_matchheight"><a href="/service.html">サービス</a></span>
+<ul>
+<li><a href="/service/quality.html">品質第一主義</a></li>
+<li><a href="/service/product.html">取扱商品</a></li>
+<li><a href="/service/original.html">オリジナル商品</a></li>
+<li><a href="/service/support.html">サポート体制</a></li>
+</ul>
+</li>
+</ul>
+<ul class="footnav">
+<li><span class="sp_matchheight"><a href="/ir/">IR情報</a></span>
+<ul>
+<li><a href="/ir/shareholders/shareholders_01.html">個人投資家の皆様へ</a></li>
+<li><a href="/ir/management/index.html">経営方針</a></li>
+<li><a href="/ir/finance/index.html">業務・財務情報</a></li>
+<li><a href="/ir/event/index.html">IRイベント</a></li>
+<li><a href="/ir/library/index.html">IR資料室</a></li>
+<li><a href="/ir/stock_bond/index.html">株式・社債情報</a></li>
+<li><a href="/ir/faq/faq_01.html">よくあるご質問</a></li>
+</ul>
+</li>
+</ul>
+<ul class="footnav">
+<li><span class="sp_matchheight"><a href="/recruit.html">採用情報</a></span>
+<ul>
+<li><a href="/recruit/employee_list.html">社員紹介</a></li>
+<li><a href="/recruit/training.html">人材育成</a></li>
+<li><a href="/recruit/workplace.html">働きやすい職場づくり</a></li>
+<li><a href="/recruit/new_graduates.html">新卒採用情報</a></li>
+<li><a href="/recruit/career.html">中途採用情報</a></li>
+<li><a href="/recruit/handicapped.html">障がい者採用情報</a></li>
+</ul>
+</li>
+</ul>
+<ul class="footnav_bottom">
+<li><a href="/privacy.html">個人情報保護方針</a></li>
+<li><a href="/policy.html">ご利用に際して</a></li>
+<li><a href="/contact.html">お問い合わせ</a></li>
+<li><a href="/sitemap.html">サイトマップ</a></li>
+</ul>
+</div>
+<p><small id="copyright">Copyright &copy; Nippon Care Supply Co., Ltd. ALL RIGHTS RESERVED</small></p></footer>
+
+
+</div>
+</body>
+</html>

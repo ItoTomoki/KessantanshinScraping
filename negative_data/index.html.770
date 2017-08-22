@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="format-detection" content="telephone=no">
+<title>クスリのアオキ</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link rel="stylesheet" type="text/css" href="new/style.css">
+<link rel="stylesheet" type="text/css" href="new/css/styles.css">
+<link rel="stylesheet" type="text/css" href="new/css/horizontal.css">
+<link rel="stylesheet" type="text/css" href="new/css/home.css">
+<link rel="stylesheet" href="new/css/swiper.min.css">
+<script src="new/js/jquery.min.js"></script>
+<!-- Demo styles -->
+</head>
+<body class="home">
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-THTLFV"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-THTLFV');</script>
+<!-- End Google Tag Manager -->
+<div class="container">
+    <div class="res_pc">
+        <header class="header">
+            <div class="header-btn">
+                <ul>
+                    <li>文字サイズ</li>
+                    <li><button type="button" onclick="smaller()">小</button></li>
+                    <li><button type="button" onclick="larger()">大</button></li>
+                </ul>
+            </div>
+            <!-- .header-inner END -->
+            <h1 class="header-title">「いつも身近なおつきあい」ドラッグストア・調剤はクスリのアオキ</h1>
+            <div class="logo"><a href="/"><img src="new/img/common/logo.png" alt="株式会社 クスリのアオキ"></a></div>
+            <div id="main-nav">
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="http://www.kusuri-aoki.co.jp/commodity/aoki/itioshi/"><i class="fa fa-cubes" aria-hidden="true"></i><span>商品・<br>サービス情報</span></a></li>
+                        <li><a href="http://www.kusuri-aoki.co.jp/company/index.html"><i class="fa fa-building" aria-hidden="true"></i><span>企業情報</span></a></li>
+                        <li><a href="https://www.ir.kusuri-aoki-hd.co.jp/ja/Top.html"><i class="fa fa-line-chart" aria-hidden="true"></i><span>投資家の<br>皆さまへ</span></a></li>
+                        <li><a href="https://www.kusuri-aoki-recruit.jp/"><i class="fa fa-users" aria-hidden="true"></i><span>採用情報</span></a></li>
+                    </ul>   
+                </nav>
+                <!-- .main-nav -->
+            </div>
+            <!-- #main-nav -->
+        </header>
+    </div>
+    <!-- .res_pc END -->
+
+<article>
+<!-- 商品・サービス情報　ここまら -->
+      <div id="service">
+        <div class="res_pc">
+        <h1 class="main-title">商品・サービス情報</h1>
+            <div class="content_lg">
+                <div class="main">
+                     <div class="slide">
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide"><a href="http://www.kusuri-aoki.co.jp/commodity/myaoki/card.html"><img src="new/img/service/mainvisual_01.jpg" alt=""></a></div>
+        
+        <div class="swiper-slide"><a href="http://kusuri-aoki-cp.jp"><img src="new/img/service/mainvisual_11.jpg" alt=""></a></div>
+
+        
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination swiper-pagination-white"></div>
+    <!-- Add Arrows -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+</div>
+                    </div>
+                    <!-- .slide END -->
+                    <div class="subvisual content">
+                        <div class="sub_content float-boxl">
+                           <a href="http://shop.kusuri-aoki.co.jp/shop/a/aNEWpointCP/">
+                            <img src="new/img/service/subvisual_01.jpg" alt="">
+                        <h3>ポイントプレゼントキャンペーン</h3>
+                            <h4>初めてクスリのアオキネットショップをご利用される会員様限定！どど～ん！と50ポイントをプレゼント！！</h4>
+                            <p>詳しくはこちら>></p>
+                            </a>
+                        </div>
+                        <div class="sub_content float-boxr">
+                            <a href="http://www.kusuri-aoki.co.jp/commodity/aoki/itioshi/category/commodity">
+                            <img src="new/img/service/subvisual_09.jpg" alt="">
+                            <h3>店長のイチオシ商品</h3>
+                            <h4>〜8月はこちら〜<br>
+                            ・ムシペール<br>
+                            ・トランシーノ</h4>
+                            <p>詳しくはこちら>></p>
+                          </a>
+                      </div>
+                    </div>
+                </div>
+                <!-- .main -->
+                <div class="side">
+                    <div class="slide-side content">
+                        <ul class="list-box3">
+                            <li>
+                            <a href="http://www.kusuri-aoki.co.jp/search/">
+                            <img src="new/img/service/side_01.jpg" alt="">
+                            <p>あなたの街の<br>クスリのアオキを<br>探そう</p>
+                            <h2>店舗<span class="br">検索</span><i class="fa fa-play" aria-hidden="true"></i></h2>
+                            </a>
+                            </li>
+                            <li>
+                            <a href="http://www.kusuri-aoki.co.jp/commodity/aoki/">
+                            <img src="new/img/service/side_02.jpg" alt="">
+                            <p>本日最新の<br>マル得情報を<br>いち早くゲット！！</p>
+                            <h2>デジタル<span class="br">チラシ</span><i class="fa fa-play" aria-hidden="true"></i></h2>
+                            </a>
+                            </li>
+                            <li>
+                            <a href="http://shop.kusuri-aoki.co.jp/shop/">
+                            <img src="new/img/service/side_03.jpg" alt="">
+                            <p>ネットで気軽に<br>ショッピング！！<br>後払いもあります！</p>
+                            <h2>ネット<span class="br">ショップ</span><i class="fa fa-play" aria-hidden="true"></i></h2>
+                            </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- .side -->
+            </div>
+            <!-- .content_lg -->
+
+            <div class="baneer">
+                <a href="http://app.kusuri-aoki.co.jp/html/Index.php" target="_blank"><img src="new/img/home/syohousen.jpg" alt="インターネットで処方箋受付中"></a>
+            </div>
+            
+            <div class="content_lg">
+                <div class="main-sub">
+                <section class="info">
+                <h2 class="title-bg border-left-Bleu">新着情報・トピックス</h2><ul>
+                
+                <li><span>2017年08月08日</span><a href="new/pdf/20170808_2_shimokoumagi.pdf"><span class="new-icon">NEW</span>（OPEN）8月9日、栃木県新規出店「下高間木店」のお知らせ</a> <a href="http://www.kusuri-aoki.co.jp/search/map.php?id=407&search=1&area_pref=12&area_city=125&hours=&all=&page=1search=1&area_pref=12&area_city=125&hours=&all=&page=1&item01=&item02=&item03=&item04=&item05=&item06=&item07=&item08=&item09=&item10=&item11=&item12=&item13=&item14=&item15="><img src="new/img/home/map.png" alt="" /></a>
+                <li><span>2017年08月08日</span><a href="new/pdf/20170808_1_tochio.pdf"><span class="new-icon">NEW</span>（OPEN）8月9日、新潟県新規出店「栃尾店」のお知らせ</a> <a href="http://www.kusuri-aoki.co.jp/search/map.php?id=406&search=1&area_pref=4&area_city=&hours=&all=&page=2search=1&area_pref=4&area_city=&hours=&all=&page=2&item01=&item02=&item03=&item04=&item05=&item06=&item07=&item08=&item09=&item10=&item11=&item12=&item13=&item14=&item15="><img src="new/img/home/map.png" alt="" /></a>
+                
+                <li><span>2017年07月31日</span><a href="new/pdf/20170731_3_imojiyayakkyoku.pdf">（OPEN）8月1日、岐阜県関市「鋳物師屋店」に調剤薬局併設オープン！</a> <a href="http://www.kusuri-aoki.co.jp/search/map.php?id=319"><img src="new/img/home/map.png" alt="" /></a>
+                
+                <li><span>2017年07月31日</span><a href="new/pdf/20170731_2_kuzeminamiyakkyoku.pdf">（OPEN）8月1日、京都府京都市「久世南店」に調剤薬局併設オープン！</a> <a href="http://www.kusuri-aoki.co.jp/search/map.php?id=393"><img src="new/img/home/map.png" alt="" /></a>
+                
+                <li><span>2017年07月31日</span><a href="new/pdf/20170731_1_mayumiyakkyoku.pdf">（OPEN）8月1日、奈良県生駒市「真弓店」に調剤薬局併設オープン！</a> <a href="http://www.kusuri-aoki.co.jp/search/map.php?id=387"><img src="new/img/home/map.png" alt="" /></a>
+                   
+               </ul>
+                </section>          
+</div>
+                <!-- .main-sub -->
+                <div class="side-sub">
+                    <div class="service content">
+                        <ul class="list-box6">
+                            <li><a href="http://www.kusuri-aoki.co.jp/info/index.html"><img src="new/img/service/icon_01.jpg" alt="">
+                            <h3>災害等への義援金募金について</h3><i class="fa fa-play-circle" aria-hidden="true"></i></a></li>
+                            <li><a href="http://www.kusuri-aoki.co.jp/commodity/medicine/medicine.html"><img src="new/img/service/icon_02.jpg" alt="">
+                            <h3>要指導医薬品第一類医薬品のご案内</h3><i class="fa fa-play-circle" aria-hidden="true"></i></a></li>
+                            <li><a href="http://www.kusuri-aoki.co.jp/commodity/myaoki/card.html"><img src="new/img/service/icon_03.jpg" alt="">
+                            <h3>メンバーズカード</h3><i class="fa fa-play-circle" aria-hidden="true"></i></a></li>
+                            <li><a href="http://www.kusuri-aoki.co.jp/commodity/service/service.html#pglink-neko"><img src="new/img/service/icon_04.jpg" alt="">
+                            <h3>クロネコヤマト宅急便</h3><i class="fa fa-play-circle" aria-hidden="true"></i></a></li>
+                            <li><a href="http://www.kusuri-aoki.co.jp/commodity/health/ikuji.html"><img src="new/img/service/icon_05.jpg" alt="">
+                            <h3>育児相談会</h3><i class="fa fa-play-circle" aria-hidden="true"></i></a></li>
+                            <li><a href="http://www.hapycom.jp/"><img src="new/img/service/icon_06.jpg" alt="">
+                            <h3>ハピコム</h3><i class="fa fa-play-circle" aria-hidden="true"></i></a></li>
+                        </ul>                   
+                    </div>
+                    <!-- .service -->
+                </div>
+                <!-- .side-sub -->
+            </div>
+            <!-- .content_lg -->
+
+        </div>
+        <!-- .res_pc END -->
+    </div>
+    <!-- #service -->
+<!-- 商品・サービス情報　ここまで -->
+
+<!-- 採用情報　ここまら -->
+    <section id="recruit">
+        <div class="res_pc">
+            <div class="recruit">
+                <div class="content-title">
+                    <h1 class="title-boxl color-box color-box_DarkGreen">採用情報</h1>
+                    <div class="title-boxr"><img src="new/img/recruit/title_bg.jpg" alt=""></div>
+                </div>
+                <!-- .content-title -->
+                <div class="content">
+                    <div class="main">
+                    <h3 class=" headline">総合職（ドラッグストア）、薬剤師（調剤薬局）、各職種パート・アルバイトを積極採用中。総合職、薬剤師ともキャリア採用も積極的に行っています。</h3>
+                    <section class="info">
+                    <h2 class="title-bg border-left-DarkGreen">採用情報</h2>
+                    <ul>
+                    <li><span>2017年7月18日</span><span class="new-icon">NEW</span>
+                            <a href="https://www.kusuri-aoki-recruit.jp/sougou/sougou_touroku_senkoukai/">（総合職）登録販売者選考会日程を更新しました。</span></a></li>
+                    <li><span>2017年6月17日</span><a href="https://www.kusuri-aoki-recruit.jp/sougou/sougou_car_senkoukai/">（総合職）中途採用選考会日程を更新しました。</a></li>
+                    
+                    
+                    <li><span>2017年6月7日</span><a href="https://www.kusuri-aoki-recruit.jp/yakuzai/lp_seminar07/">（薬学生）2019卒対インターンシップ 1Day業界研究コース公開しました。</a></li>
+             <li><span>2017年6月7日</span>          <a href="https://www.kusuri-aoki-recruit.jp/yakuzai/lp_seminar08/">（薬学生）2019卒対象インターンシップ 2Day業界研究＆石川県薬局見学コース公開しました。</a></li>
+                       <li><span>2017年5月20日</span>
+                            <a href="https://www.kusuri-aoki-recruit.jp/yakuzai/lp_seminar06/">（新卒調剤薬剤師）6月スタート「2018卒対象選考会」公開しました。</a></li>
+              
+                        <li><span>2017年5月20日</span><a href="https://www.kusuri-aoki-recruit.jp/%e3%80%90%e7%b7%8f%e5%90%88%e8%81%b7%e3%80%91%e5%85%88%e8%bc%a9%e7%a4%be%e5%93%a1%e3%81%ae%e5%a3%b0%e5%85%ac%e9%96%8b%e3%81%97%e3%81%be%e3%81%97%e3%81%9f%ef%bc%81/">（総合職）先輩社員の声を更新しました。</a></li>
+                        <li><span>2017年5月20日</span>
+                            <a href="https://www.kusuri-aoki-recruit.jp/sougou/sougou_sin_youkou/">（総合職）募集要項を更新しました。</a></li>
+                        <li><span>2017年5月1日</span>
+                            <a href="https://www.kusuri-aoki-recruit.jp/yakuzai/lp_seminar01/">（新卒調剤薬剤師）「2018卒対象 薬学生 会社説明会＆相談会」公開しました。</a></li>
+                    </ul>
+                    </section>
+                    </div>
+                    <!-- .main -->
+                    <div class="side">
+                        <ul class="list-box3">
+                            <li><a href="https://kusuri-aoki-recruit.net/jobfind-pc/"><img src="new/img/recruit/icon_01.jpg" alt="">
+                            <h3>アルバイト<br>パート大募集！</h3><i class="fa fa-play-circle" aria-hidden="true"></i></a></li>
+                            <li><a href="https://www.kusuri-aoki-recruit.jp/sougou_career/sougou_youkou/"><img src="new/img/recruit/icon_03.jpg" alt="">
+                            <h3>業界未経験者歓迎！<span class="br02">総合職中途採用</span>積極採用中！</h3><i class="fa fa-play-circle" aria-hidden="true"></i></a></li>
+                        </ul>                       
+                  </div>
+                    <!-- .side -->      
+                </div>
+                <!-- .content -->
+            </div>
+            <!-- .recruit -->
+        </div>
+        <!-- .res_pc END -->
+    </section>
+    <!-- #recruit -->
+<!-- 採用情報　ここまで -->
+
+<!-- 企業情報　ここまら -->
+    <section id="company">
+        <div class="res_pc">
+            <div class="company">
+                <div class="content-title">
+                    <h1 class="title-boxl color-box color-box_Orange">企業情報</h1>
+                    <div class="title-boxr"><img src="new/img/company/title_bg.jpg" alt=""></div>
+                </div>
+                <!-- .content-title -->
+                <h3 class=" headline">地域のお客様から信頼される、近くて便利な「ドラッグストア」「かかりつけ薬局」として、北信越・北関東を中心に店舗展開を行っています。</h3>
+                <section class="content">
+                    <ul class="list-box3">
+                        <li><a href="http://www.kusuri-aoki.co.jp/company/gaiyo.html"><img src="new/img/company/icon_01.jpg" alt="">
+                        <h3>会社概要</h3><i class="fa fa-play-circle" aria-hidden="true"></i></a></li>
+                        <li><a href="http://www.kusuri-aoki.co.jp/company/drug.html"><img src="new/img/company/icon_02.jpg" alt="">
+                        <h3>事業内容</h3><i class="fa fa-play-circle" aria-hidden="true"></i></a></li>
+                        <li><a href="http://www.kusuri-aoki.co.jp/company/kouken.html"><img src="new/img/company/icon_03.jpg" alt="">
+                        <h3>地域・社会貢献活動</h3><i class="fa fa-play-circle" aria-hidden="true"></i></a></li>
+                    </ul>  
+                </section>                    
+            </div>
+            <!-- .company -->
+        </div>
+        <!-- .res_pc END -->
+    </section>
+    <!-- #company -->
+<!-- 企業情報　ここまで -->
+
+<!-- 建築パートナーのみなさまへ　ここまら -->
+    <section id="partner">
+        <div class="res_pc">
+            <div class="partner">
+                <div class="content-title">
+                    <h1 class="title-boxl color-box color-box_Purple">建築<span>パートナーの</span>みなさまへ</h1>
+                    <div class="title-boxr">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><a href="https://www.kusuri-aoki.co.jp/effectiveuse/general/index.php"><img src="new/img/partner/slide_02.jpg" alt="店舗用物件募集"></a></div>
+                            <div class="swiper-slide"><a href="https://www.kusuri-aoki.co.jp/effectiveuse/contractor/index.php"><img src="new/img/partner/slide_01.jpg" alt="建築パートナー募集"></a></div>
+                        </div>
+                    </div>
+                    </div>                 
+                </div>
+                <!-- .content-title -->
+                <h3 class=" headline">新店舗物件紹介、建築、増築、店舗改修、修繕など、店舗全般の協力企業を募集しています。弊社出店エリア内外を問わず、お気軽にお問い合わせください。</h3>
+                <section class="content">
+                    <ul class="list-box2">
+                        <li><a href="https://www.kusuri-aoki.co.jp/effectiveuse/general/index.php"><img src="new/img/partner/icon_01.jpg" alt="">
+                        <h3>店舗用<span class="br">物件募集</span></h3><i class="fa fa-play-circle" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.kusuri-aoki.co.jp/effectiveuse/contractor/index.php"><img src="new/img/partner/icon_02.jpg" alt="">
+                        <h3>建築<span class="br">パートナー募集</span></h3><i class="fa fa-play-circle" aria-hidden="true"></i></a></li>
+                    </ul>   
+                </section>
+            </div>
+            <!-- .partner -->
+        </div>
+        <!-- .res_pc END -->
+    </section>
+    <!-- #partner -->
+<!-- 建築パートナーのみなさまへ　ここまで -->
+
+    <section id="aoki-hd">
+        <div class="res_pc">
+            <div class="aoki-hd">
+        <div class="content-title">
+            <h1 class="title-boxl"><a href="https://www.kusuri-aoki-hd.co.jp/"><span>クスリのアオキ</span>ホールディングス<i class="fa fa-play-circle" aria-hidden="true"></i></a></h1>
+            <h2 class="title-boxr">クスリのアオキホールディングスの公式サイトです。会社概要、事業内容、業績・財務、IR情報などをご覧いただけます。</h2>
+        </div>
+                </div>
+                <!-- .content-title -->
+            </div>
+            <!-- .aoki-hd -->
+        </div>
+        <!-- .res_pc END -->
+    </section>
+    <!-- #aoki-hd -->
+
+</article>
+
+<footer class="footer">
+    <div class="res_pc">
+        <div class="footer-baner">
+            <h4 class="color-box color-box_Red"><a href="http://www.kusuri-aoki.co.jp/search/">店舗検索</a></h4>
+            <h4 class="color-box color-box_Green"><a href="http://www.kusuri-aoki.co.jp/commodity/aoki/">デジタルチラシ</a></h4>
+            <h4 class="color-box color-box_Bleu"><a href="http://shop.kusuri-aoki.co.jp/shop/">ネットショップ</a></h4>
+        </div>
+        <nav>
+            <ul>
+                <li><i class="fa fa-caret-right" aria-hidden="true"></i><a href="http://www.kusuri-aoki.co.jp/company/privacy.html">個人情報保護方針</a></li>
+                <li><i class="fa fa-caret-right" aria-hidden="true"></i><a href="http://www.kusuri-aoki.co.jp/site/index.html">サイトポリシー</a></li>
+                <li><i class="fa fa-caret-right" aria-hidden="true"></i><a href="http://www.kusuri-aoki.co.jp/sitemap/index.html">サイトマップ</a></li>
+                <li><i class="fa fa-caret-right" aria-hidden="true"></i><a href="http://www.kusuri-aoki.co.jp/contct/index.html">お問い合わせ</a></li>
+            </ul>
+        </nav>
+        <div class="copy">
+            <img src="new/img/common/footer-logo.png" alt="株式会社 クスリのアオキホールディングス">
+            <small>Copyright KUSURI NO AOKI Co.,Ltd. All Rights Reserved.</small>
+        </div>
+    </div>
+    <!-- .res_pc END -->
+</footer>
+<a href="#" id="page-top"><i class="fa fa-arrow-circle-up fa-3x"></i></a>
+</div>
+<!-- .container END -->
+<script type="text/javascript" src="new/js/myscripts.js"></script>
+<script src="new/js/script.js"></script><!-- 振り分けシステム -->
+    <script src="new/js/swiper.min.js"></script>
+    <!-- スライドショーの設定 -->
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        pagination: '.swiper-pagination',
+        // pager: true, // ページャを表示する
+        // pagerType: 'full', // 'full', 'short'スライダー要素の数だけページャが表示
+        mode:'horizontal', // ドキュメントが読み込まれたときSwiperを走らせる
+        autoplay: true, // 自動遷移を有効にする
+        speed: 9000, // アニメーション速度
+        loop: true, // false にすると端まで行ったらはじめに戻る
+        paginationClickable: false,　// ページネーションマーカーをクリックしてスライドを切り替える
+        autoHover: true, // マウスオーバー時に自動遷移を停止する
+        touchEnabled: true // スワイプでもスライドするようにする
+        // paginationType: 'fraction' // ページネーションを数字にする
+    });
+    </script>
+</body>
+</html>

@@ -1,0 +1,894 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+
+<meta name="keywords" content="クラボウ,倉敷紡績,繊維素材,二次製品,化成品,IR情報" />
+	<meta name="description" content="クラボウ（倉敷紡績株式会社）のコーポレートサイトです。企業情報、事業概要、IR情報、採用情報などを掲載しています。" />
+
+
+
+
+<title>クラボウホームページ</title>
+
+<link href="shared/css/import.css" rel="stylesheet" type="text/css" media="screen,print" />
+<link href="shared/css/layout_top.css" rel="stylesheet" type="text/css" media="all" />
+
+
+
+<script type="text/javascript" src="shared/js/import.js"></script>
+<script type="text/javascript" src="shared/js/swfobject.js"></script>
+<script type="text/javascript" src="shared/js/jquery.url.js"></script>
+<!--[if lte IE 6]>
+<script type="text/javascript" src="shared/js/DD_belatedPNG_0.0.8a.js"></script>
+<script type="text/javascript">
+DD_belatedPNG.fix('#globalMenu ul li a');
+</script>
+<![endif]-->
+<link href="css/jquery.bxslider.css" rel="stylesheet" type="text/css" media="all" />
+<script type="text/javascript" src="js/jquery.bxslider.js"></script>
+<script type="text/javascript">
+  $(document).ready(function(){
+    
+	if ($(window).width() > 641) {
+		$('.bxslider').bxSlider({
+  		auto: true,
+		pause: 6000,
+		speed:1000,
+		controls:false,
+		pagerCustom: '.bx-pager'
+		})
+	};
+	
+	
+	if ($(window).width() < 640) {
+		$('.bxslider').bxSlider({
+  		auto: true,
+		pause: 6000,
+		speed:1000,
+		controls:false
+		})
+		
+	};
+	
+  });
+</script>
+
+
+
+</head>
+
+<body>
+<!--ヘッダーここから-->
+<div id="headerArea">
+<div id="header">
+<div id="logoArea"><a href="index.html"><img src="shared/images/header_logo.gif" width="163" height="25" alt="クラボウ" /></a></div>
+<div id="headerNaviArea">
+<div id="headerNavi">
+<ul id="lang">
+<li><a href="chinese/index.html"><img src="shared/images/btn_lang_zh_of.gif" width="67" height="16" alt="CHINESE" /></a></li>
+<li><a href="english/index.html"><img src="shared/images/btn_lang_en_of.gif" width="67" height="16" alt="ENGLISH" /></a></li>
+<li><img src="shared/images/btn_lang_ja_ov.gif" width="67" height="16" alt="JAPANESE" /></li>
+</ul>
+<ul id="navi">
+<li><a href="https://www.kurabo.co.jp/contact/index.html">お問い合わせ</a></li>
+<li><a href="site_map/index.html">サイトマップ</a></li>
+<li><a href="index.html">HOME</a></li>
+</ul>
+</div>
+<div id="headerNavi02">
+<div id="fontSizeWrap">
+<p id="sizeTtl"><img src="shared/images/ttl_font_size.gif" width="49" height="10" alt="文字サイズ" /></p>
+<ul id="fontSize">
+<li><a href="#" onclick="setStyle(1);return false;"><img src="shared/images/btn_font_size_s_of.gif" width="21" height="20" alt="小" /></a></li>
+<li><a href="#" onclick="setStyle(2);return false;"><img src="shared/images/btn_font_size_m_of.gif" width="21" height="20" alt="中" /></a></li>
+<li><a href="#" onclick="setStyle(3);return false;"><img src="shared/images/btn_font_size_l_of.gif" width="21" height="20" alt="大" /></a></li>
+<li id="size-btn-act-s"><a href="#"><img src="shared/images/btn_font_size_s_ov.gif" width="21" height="20" alt="小" /></a></li>
+<li id="size-btn-act-m"><a href="#"><img src="shared/images/btn_font_size_m_ov.gif" width="21" height="20" alt="中" /></a></li>
+<li id="size-btn-act-l"><a href="#"><img src="shared/images/btn_font_size_l_ov.gif" width="21" height="20" alt="大" /></a></li>
+</ul>
+</div>
+<script type="text/javascript">
+<!--
+actbtn();
+//--></script>
+
+<form action="search.html" method="get" id="srch">
+<div id="siteSearch">
+<p id="srchForm">
+<input type="hidden" id="fr" name="fr" value="cse">
+<input type="hidden" id="ei" name="ei" value="UTF-8">
+<input type="hidden" id="csid" name="csid" value="HsJMc3oMYKrN9M.5yrimdn0If38JhpiR5juTx0H_iA--">
+</p>
+<input type="hidden" name="vs" value="kurabo.co.jp" id="yjInsite">
+<div class="inputBox">
+<input type="text" name="p" id="srchInput">
+</div>
+<div class="inputBtn">
+<input type="image" src="shared/images/btn_site_search.gif" value="検索" id="srchBtn" onclick="document.getElementById('srchInput').focus();">
+</div>
+</div>
+</form>
+<img src="http://custom.search.yahoo.co.jp/images/window/HsJMc3oMYKrN9M.5yrimdn0If38JhpiR5juTx0H_iA--.gif">
+
+
+<script type="text/javascript">
+(function() {
+var sb = document.getElementById('srchBox');
+if (sb && sb.className == 'watermark') {
+  var si = document.getElementById('srchInput');
+  var f = function() { si.className = 'nomark'; };
+  var b = function() {
+    if (si.value == '') {
+      si.className = '';
+    }
+  };
+  si.onfocus = f;
+  si.onblur = b;
+  if (!/[&?]p=[^&]/.test(location.search)) {
+    b();
+  } else {
+    f();
+  }
+}
+})();
+</script>
+
+</div>
+</div>
+</div>
+<div id="globalArea">
+<ul id="globalMenu">
+<li id="newsNav"><a href="news/index.html"><img src="shared/images/global_menu_news_of.gif" width="160" height="41" alt="ニュースリリース" /></a></li>
+<li id="outlineNav"><a href="company/index.html"><img src="shared/images/global_menu_outline_of.gif" width="158" height="41" alt="企業情報" /></a>
+<ul>
+<li><a href="company/about.html">会社概要</a></li>
+<li><a href="company/message.html">社長メッセージ</a></li>
+<li><a href="company/history.html">沿革</a></li>
+<li><a href="company/organization.html">組織図</a></li>
+<li><a href="company/philosophy.html">企業理念</a></li>
+<li><a href="company/communication.html">社会貢献活動</a></li>
+<li><a href="company/office.html">事業所・国内工場一覧</a></li>
+<li><a href="company/group_company.html">グループ企業一覧</a></li>
+</ul>
+</li>
+<li id="groupNav"><a href="division/index.html"><img src="shared/images/global_menu_group_of.gif" width="158" height="41" alt="事業概要" /></a>
+<ul>
+<li><a href="division/textile.html">繊維事業部</a></li>
+<li><a href="division/chemical.html">化成品事業部</a></li>
+<li><a href="division/electronics.html">環境メカトロニクス事業部</a>
+<ul>
+<li><a href="division/electronics.html">エレクトロニクス分野</a></li>
+<li><a href="division/engineering.html">エンジニアリング分野</a></li>
+<li><a href="division/biomedical.html">バイオメディカル分野</a></li>
+</ul>
+</li>
+<li><a href="division/estate.html">不動産開発部</a></li>
+</ul>
+</li>
+<li id="irNav"><a href="finance/index.html"><img src="shared/images/global_menu_ir_of.gif" width="158" height="41" alt="株主・投資家情報" /></a>
+<ul>
+<li><a href="finance/ir_message.html">トップメッセージ</a></li>
+<li><a href="finance/vision.html">中期経営計画</a></li>
+<li><a href="finance/governance.html">コーポレートガバナンス</a></li>
+<li><a href="ir/ir_news/index.html">IRニュース</a></li>
+<li><a href="finance/group.html">当社グループの事業概況</a></li>
+<li><a href="finance/financial_data.html">業績・財務データ</a></li>
+<li><a href="ir/calendar/index.html">IRカレンダー</a></li>
+<li><a href="ir/library/index.html">IR資料室</a></li>
+<li><a href="ir/irshareholdersmeeting/index.html">株主総会</a></li>
+<li><a href="finance/stock_information.html">株式情報</a></li>
+<li><a href="finance/announce.html">電子公告</a></li>
+<li><a href="finance/stock_prices.html">株価情報</a></li>
+<li><a href="finance/notice.html">免責事項</a></li>
+<li><a href="finance/faq.html">FAQ(よくあるご質問)</a></li>
+</ul>
+</li>
+<li id="ecoNav"><a href="report/index.html"><img src="shared/images/global_menu_eco_of.gif" width="158" height="41" alt="環境レポート" /></a>
+<ul>
+<li><a href="report/message.html">ごあいさつ</a></li>
+<li><a href="report/management.html">マネジメント</a></li>
+<li><a href="report/environmental_impact.html">環境負荷</a></li>
+<li><a href="report/products.html">環境配慮製品</a></li>
+</ul>
+</li>
+<li id="recruitNav"><a href="recruit/index.html"><img src="shared/images/global_menu_recruit_of.gif" width="158" height="41" alt="採用情報" /></a></li>
+</ul>
+</div>
+
+<!--パンくずここから-->
+<!--パンくずなし-->
+
+
+</div>
+<!--//ヘッダーここまで--> 
+
+<!--flash-->
+<div id="mainimgcontent">
+<div id="mainimg">
+<ul class="bxslider">
+	<li><a href="division/textile.html"><img src="images/mainimg_01.jpg" alt="世界を舞台に、付加価値の高いクラボウ・ブランドを展開します / 繊維事業部　詳細はこちら" /></a></li>
+<li><a href="division/chemical.html"><img src="images/mainimg_02.jpg" alt=" / 化成品事業部　詳細はこちら" /></a></li>
+	<li><a href="division/electronics.html"><img src="images/mainimg_03.jpg" alt=" / 環境メカトロニクス事業部（エレクトロニクス分野）　詳細はこちら" /></a></li>
+<li><a href="division/engineering.html"><img src="images/mainimg_04.jpg" alt=" / 環境メカトロニクス事業部（エンジニアリング分野）　詳細はこちら" /></a></li>
+	<li><a href="division/biomedical.html"><img src="images/mainimg_05.jpg" alt=" / 環境メカトロニクス事業部（バイオメディカル分野）　詳細はこちら" /></a></li>
+<li><a href="division/estate.html"><img src="images/mainimg_06.jpg" alt=" / 不動産開発部　詳細はこちら" /></a></li>
+</ul><!----//.bxslider--->
+		
+<ul class="bx-pager clearfix">
+<li id="btn1"><a data-slide-index="0" href="division/textile.html">繊維事業部</a></li>
+<li id="btn2"><a data-slide-index="1" href="division/chemical.html">化成品事業部</a></li>
+<li id="btn3"><a data-slide-index="2" href="division/electronics.html">環境メカトロニクス事業部（エレクトロニクス分野）</a></li>
+<li id="btn4"><a data-slide-index="3" href="division/engineering.html">環境メカトロニクス事業部（エンジニアリング分野）</a></li>
+<li id="btn5"><a data-slide-index="4" href="division/biomedical.html">環境メカトロニクス事業部（バイオメディカル分野）</a></li>
+<li id="btn6"><a data-slide-index="5" href="division/estate.html">不動産開発部</a></li>
+</ul>
+</div>
+</div>
+
+<!--/flash-->
+
+
+<!--コンテンツエリア　ここから-->
+<div id="contentsWrapper">
+<div id="pageBody">
+
+<div class="contWrap">
+<!--ニュースリリース　ここから-->
+<div id="newsArea">
+<h2><img src="images/ttl_h2_01.gif" width="622" height="20" alt="ニュースリリース" /><span>
+</span></h2>
+<ul id="flowtabs">
+<li><a href="#tubBtn1" id="t01" onfocus="this.blur()" title="新着情報">新着情報</a></li>
+<li><a href="#tubBtn2" id="t02" onfocus="this.blur()" title="ニュースリリース">ニュースリリース</a></li>
+<li><a href="#tubBtn3" id="t03" onfocus="this.blur()" title="事業部情報">事業部情報</a></li>
+<li><a href="#tubBtn4" id="t04" onfocus="this.blur()" title="IR情報">IR情報</a></li>
+<li><a href="#tubBtn5" id="t05" onfocus="this.blur()" title="お知らせ">お知らせ</a></li>
+</ul>
+<div id="inspection">
+<a href="atom.xml" target="_blank"><img src="images/btn_rss.gif" width="87" height="21" alt="RSS" /></a></div>
+<div id="flowpanes"> 
+
+
+
+<!--新着情報 ここから-->
+
+
+
+
+<div class="desc">
+<ul id="newArrivals">
+
+<li>
+<span class="date">2017.08.21</span>
+<span class="icon">
+
+	<img src="shared/images/img_news_icon_04.gif" width="59" height="17" alt="ニュースリリース" />
+	
+	
+
+</span>
+
+<span class="newsTxt">
+
+	
+	<a href="news/newsrelease/20170821_1540.html">高機能樹脂加工品の生産・開発能力を２倍以上に増強<br/>―熊本開発センターの増床を決定―</a>
+	
+
+</span>
+</li>
+
+
+
+
+
+<li>
+<span class="date">2017.08.10</span>
+<span class="icon">
+
+	<img src="shared/images/img_news_icon_02.gif" width="59" height="17" alt="IR情報" />
+
+</span>
+
+<span class="newsTxt">
+
+	
+		<a href="http://www.kurabo.co.jp/ir/library/index.html">第210期 第1四半期報告書を掲載しました。</a>
+	
+
+</span>
+</li>
+
+
+
+
+
+<li>
+<span class="date">2017.08.08</span>
+<span class="icon">
+
+	<img src="shared/images/img_news_icon_02.gif" width="59" height="17" alt="IR情報" />
+
+</span>
+
+<span class="newsTxt">
+
+	
+		<a href="http://www.kurabo.co.jp/ir/library/index.html">2018年（平成30年）3月期　第1四半期決算短信を掲載しました。</a>
+	
+
+</span>
+</li>
+
+
+
+
+
+<li>
+<span class="date">2017.07.06</span>
+<span class="icon">
+
+	<img src="shared/images/img_news_icon_02.gif" width="59" height="17" alt="IR情報" />
+
+</span>
+
+<span class="newsTxt">
+
+	
+		<a href="http://www.kurabo.co.jp/ir/irshareholdersmeeting/index.html">臨時報告書を掲載しました。</a>
+	
+
+</span>
+</li>
+
+
+
+
+
+<li class="end">
+<span class="date">2017.06.30</span>
+<span class="icon">
+
+	<img src="shared/images/img_news_icon_02.gif" width="59" height="17" alt="IR情報" />
+
+</span>
+
+<span class="newsTxt">
+
+	
+		<a href="http://www.kurabo.co.jp/ir/library/index.html">第209期 有価証券報告書を掲載しました。</a>
+	
+
+</span>
+</li>
+
+</ul></div>
+
+
+<!--//新着情報 ここまで-->
+
+
+
+<!--ニュースリリース ここから-->
+<div class="desc">
+<ul id="newsRelease">
+
+
+<li>
+<span class="date">2017.08.21</span>
+
+<span class="icon"><img src="shared/images/img_newsrelease_icon_01.gif" width="59" height="17" alt="企業情報" />
+
+
+</span>
+<span class="newsTxt">
+
+<a href="news/newsrelease/20170821_1540.html">高機能樹脂加工品の生産・開発能力を２倍以上に増強<br/>―熊本開発センターの増床を決定―</a>
+
+</span>
+
+
+</li>
+
+<li>
+<span class="date">2017.08.10</span>
+
+
+<span class="icon"><img src="shared/images/img_newsrelease_icon_03.gif" width="59" height="17" alt="IRニュース" /></span>
+<span class="newsTxt">
+
+<a href="http://www.kurabo.co.jp/ir/library/index.html">第210期 第1四半期報告書を掲載しました。</a>
+
+</span>
+
+</li>
+
+<li>
+<span class="date">2017.08.08</span>
+
+
+<span class="icon"><img src="shared/images/img_newsrelease_icon_03.gif" width="59" height="17" alt="IRニュース" /></span>
+<span class="newsTxt">
+
+<a href="http://www.kurabo.co.jp/ir/library/index.html">2018年（平成30年）3月期　第1四半期決算短信を掲載しました。</a>
+
+</span>
+
+</li>
+
+<li>
+<span class="date">2017.07.06</span>
+
+
+<span class="icon"><img src="shared/images/img_newsrelease_icon_03.gif" width="59" height="17" alt="IRニュース" /></span>
+<span class="newsTxt">
+
+<a href="http://www.kurabo.co.jp/ir/irshareholdersmeeting/index.html">臨時報告書を掲載しました。</a>
+
+</span>
+
+</li>
+
+<li class="end">
+<span class="date">2017.06.30</span>
+
+
+<span class="icon"><img src="shared/images/img_newsrelease_icon_03.gif" width="59" height="17" alt="IRニュース" /></span>
+<span class="newsTxt">
+
+<a href="http://www.kurabo.co.jp/ir/library/index.html">第209期 有価証券報告書を掲載しました。</a>
+
+</span>
+
+</li>
+
+
+</ul>
+</div>
+<!--//ニュースリリース ここまで-->
+
+
+
+<!--事業部情報 ここから-->
+<div class="desc">
+<ul>
+
+
+
+<li>
+<span class="date">2016.01.07</span>
+<span class="newsTxt">
+
+<a href="http://laundream.jp/index.html" target="_blank">【繊維事業部】
+
+
+
+
+
+
+洗いやすい、温かい、軽い、上質な掛け布団 「LAUNDREAM（ランドリーム）」ブランドサイト開設</a>
+
+</span>
+</li>
+
+
+<li>
+<span class="date">2015.03.31</span>
+<span class="newsTxt">
+
+<a href="http://www.kurabo.co.jp/bio/index.html" target="_blank">【バイオメディカル部】
+
+
+皮膚モデルカレンダー（ＥＦＴモデル）締切日変更のお知らせ</a>
+
+</span>
+</li>
+
+
+<li>
+<span class="date">2015.02.02</span>
+<span class="newsTxt">
+
+<a href="http://www.kurabo.co.jp/division/chem/index.html" target="_blank">【化成品事業部】
+
+
+
+APフェイシア タイプAの電子カタログを掲載しました。</a>
+
+</span>
+</li>
+
+
+<li>
+<span class="date">2015.01.14</span>
+<span class="newsTxt">
+
+<a href="http://www.kurabo.co.jp/eng/index.html" target="_blank">【エンジニアリング部】
+
+
+
+
+徳島バイオマス発電所の建設工事着工について</a>
+
+</span>
+</li>
+
+
+<li class="end">
+<span class="date">2014.09.30</span>
+<span class="newsTxt">
+
+<a href="http://www.kurabo.co.jp/bio/biodocument/temp/YECSeminar2014.pdf" target="_blank">【バイオメディカル部】
+
+
+FRGマウス(ヒト肝細胞キメラマウス)　セミナーのご案内</a>
+
+</span>
+</li>
+
+
+</ul>
+</div>
+<!--//事業部情報 ここまで--> 
+
+
+
+<!--IR情報 ここから-->
+<div class="desc">
+<ul>
+
+
+<li>
+<span class="date">2017.08.10</span>
+<span class="newsTxt">
+
+<a href="http://www.kurabo.co.jp/ir/library/index.html">第210期 第1四半期報告書を掲載しました。</a>
+
+</span>
+</li>
+
+<li>
+<span class="date">2017.08.08</span>
+<span class="newsTxt">
+
+<a href="http://www.kurabo.co.jp/ir/library/index.html">2018年（平成30年）3月期　第1四半期決算短信を掲載しました。</a>
+
+</span>
+</li>
+
+<li>
+<span class="date">2017.07.06</span>
+<span class="newsTxt">
+
+<a href="http://www.kurabo.co.jp/ir/irshareholdersmeeting/index.html">臨時報告書を掲載しました。</a>
+
+</span>
+</li>
+
+<li>
+<span class="date">2017.06.30</span>
+<span class="newsTxt">
+
+<a href="http://www.kurabo.co.jp/ir/library/index.html">第209期 有価証券報告書を掲載しました。</a>
+
+</span>
+</li>
+
+<li class="end">
+<span class="date">2017.06.30</span>
+<span class="newsTxt">
+
+<a href="http://www.kurabo.co.jp/ir/irshareholdersmeeting/index.html">「第209回定時株主総会決議ご通知」を掲載しました。</a>
+
+</span>
+</li>
+
+
+</ul>
+</div>
+<!--//IR情報 ここまで--> 
+
+
+
+<!--お知らせ ここから-->
+<div class="desc">
+<ul>
+
+
+<li>
+<span class="date">2016.09.27</span>
+<span class="newsTxt">
+
+<a href="http://www.kurabo.co.jp/calender/index.html">みんなで描こう!モネの睡蓮カレンダー公開(10～12月)</a>
+
+</span>
+</li>
+
+<li>
+<span class="date">2016.07.29</span>
+<span class="newsTxt">
+
+<a href="http://www.kurabo.co.jp/calender/download.html">みんなで描こう!モネの睡蓮カレンダー公開(8～9月)</a>
+
+</span>
+</li>
+
+<li>
+<span class="date">2016.05.31</span>
+<span class="newsTxt">
+
+<a href="http://www.kurabo.co.jp/calender/download.html">みんなで描こう!モネの睡蓮カレンダー公開(6～7月)</a>
+
+</span>
+</li>
+
+<li>
+<span class="date">2016.04.27</span>
+<span class="newsTxt">
+
+<a href="news/information/20160427_1451.html">熊本県での地震被害に対する支援について</a>
+
+</span>
+</li>
+
+<li class="end">
+<span class="date">2016.04.01</span>
+<span class="newsTxt">
+
+<a href="http://www.kurabo.co.jp/calender/index.html">みんなで描こう!モネの睡蓮カレンダー公開(4～5月)</a>
+
+</span>
+</li>
+
+
+</ul>
+</div>
+<!--//お知らせ ここまで--> 
+
+
+</div>
+</div>
+<!--//ニュースリリース　ここまで--> 
+<!--製品検索　ここから-->
+<div id="productSearchArea">
+
+
+<form action="./product/search_keyword.php" method="post">
+<h2><a href="./product/index.php"><img src="images/ttl_h2_02_of.gif" width="298" height="30" alt="製品検索" /></a></h2>
+<div id="seachWrap">
+<div class="inputWrap">
+<div class="inputBox">
+<input name="keyword" type="text" title="" value="" />
+</div>
+<div class="inputBtn">
+<input type="image" src="images/btn_input.gif" />
+</div>
+</div>
+<ul id="searchCategory">
+<li><a href="./product/search_division.php"><img src="images/btn_search_01_of.gif" width="126" height="41" alt="事業部から探す" /></a></li>
+<li><a href="./product/search_category.php"><img src="images/btn_search_02_of.gif" width="126" height="41" alt="絞込み検索" /></a></li>
+<li><a href="./product/search_product_detail.php"><img src="images/btn_search_03_of.gif" width="126" height="41" alt="製品分野から探す" /></a></li>
+<li><a href="./product/search_50.php"><img src="images/btn_search_04_of.gif" width="126" height="41" alt="五十音順で探す" /></a></li>
+</ul>
+</div>
+<h2 class="mT15"><img src="images/ttl_h2_03.gif" width="298" height="20" alt="おすすめコンテンツ" /></h2>
+<p class="mT10"><a href="./who_is_kurabo/"><img src="images/bnr_osusume_whois.jpg" width="298" height="71" alt="Who is KURABO?" /></a></p>
+</form>
+
+
+</div>
+
+<!--//製品検索　ここまで--> 
+</div>
+
+<div class="contWrap">
+<table border="0" class="layoutTable" clellpadding="0" cellspacing="0">
+<tr>
+<td valign="top">
+<!-- グループ概要　ここから--> 
+<div class="catgoryWrap">
+<h2><img src="images/ttl_h2_04.gif" width="296" height="21" alt="企業情報" /></h2>
+<img src="images/img_group.jpg" width="296" height="120" alt="" class="mT5" />
+<p>クラボウの会社概要、社長メッセージ、<br />
+事業内容などについてご紹介します。</p>
+<ul>
+<li><a href="company/about.html">会社概要</a></li>
+<li><a href="company/message.html">社長メッセージ</a></li>
+<li><a href="company/history.html">沿革</a></li>
+<li><a href="company/organization.html">組織図</a></li>
+<li><a href="company/philosophy.html">企業理念</a></li>
+<li><a href="company/communication.html">社会貢献活動</a></li>
+<li><a href="company/office.html">事業所・国内工場一覧</a></li>
+<li><a href="company/group_company.html">グループ企業一覧</a></li>
+</ul>
+</div>
+<!-- //グループ概要　ここまで--> 
+</td>
+<td valign="top">
+<!-- 環境レポート　ここから-->
+<div class="catgoryWrap">
+<h2><img src="images/ttl_h2_06.gif" width="296" height="21" alt="kabunu" /></h2>
+<img src="images/img_eco.jpg" width="296" height="119" alt="" class="mT5" />
+<p>企業としての社会的責任を果たすためのさまざまな<br />
+取り組みをおこなっております。</p>
+<ul>
+<li><a href="report/message.html">ごあいさつ</a></li>
+<li><a href="report/management.html">マネジメント</a></li>
+<li><a href="report/environmental_impact.html">環境負荷</a></li>
+<li><a href="report/products.html">環境配慮製品</a></li>
+</ul>
+</div>
+<!-- //環境レポート　ここまで-->
+</td>
+<td rowspan="2" valign="top">
+
+<!-- 株主・投資家の皆様へ　ここから-->
+<div class="catgoryWrapEnd">
+<h2><img src="images/ttl_h2_05.gif" width="296" height="21" alt="株主・投資家情報" /></h2>
+<img src="images/img_ir.jpg" width="296" height="119" alt="" class="mT5" />
+<p>クラボウの経営、財務等に関する情報を<br />
+ご覧いただけます。</p>
+<div id="top_irLinkArea">
+<div class="fLeft">
+<ul>
+<li><a href="finance/ir_message.html">トップメッセージ</a></li>
+<li><a href="finance/governance.html">コーポレートガバナンス</a></li>
+<li><a href="finance/group.html">当社グループの事業概況</a></li>
+<li><a href="ir/calendar/index.html">IRカレンダー</a></li>
+<li><a href="finance/stock_information.html">株式情報</a></li>
+<li><a href="finance/notice.html">免責事項</a></li>
+
+</ul>
+</div>
+<div class="fRight">
+<ul>
+<li><a href="finance/vision.html">中期経営計画</a></li>
+<li><a href="ir/ir_news/index.html">IRニュース</a></li>
+<li><a href="finance/financial_data.html">業績・財務データ</a></li>
+<li><a href="ir/library/index.html">IR資料室</a></li>
+<li><a href="ir/irshareholdersmeeting/index.html">株主総会</a></li>
+<li><a href="finance/stock_prices.html">株価情報</a></li>
+<li><a href="finance/faq.html">FAQ（よくあるご質問）</a></li>
+</ul>
+</div>
+</div>
+
+<p class="mT10"><a href="finance/announce.html"><img src="images/bnr_kanren_01.jpg" width="147" height="44" alt="電子広告" /></a></p>
+</div>
+<!-- //株主・投資家の皆様へ　ここまで-->
+</td>
+</tr>
+<tr>
+<td valign="bottom"><a href="http://www.kurabo.co.jp/recruit/index.html"><img src="images/bnr_recruit.jpg" width="296" height="86" alt="採用情報" /></a></td>
+<td valign="bottom"><a href="http://www.kurabo.co.jp/exhibition/index.html"><img src="images/bnr_tenjikai.jpg" width="296" height="86" alt="展示会情報" /></a></td>
+</tr>
+</table>
+</div>
+
+<div class="contWrap">
+<!-- スペシャルコンテンツ　ここから-->
+<div id="bnrWrapLeft">
+<h2><img src="images/ttl_h2_07.gif" width="460" height="21" alt="スペシャルコンテンツ" /></h2>
+<ul>
+<li><a href="mirai_eye/index.html"><img src="images/bnr_kanren_11.gif" width="147" height="44" alt="未来eyeクラボウ" /></a></li>
+<li><a href="calender/index.html"><img src="images/bnr_kanren_04.jpg" width="147" height="44" alt="みんなで描こう！モネの睡蓮　カレンダーダウンロード" /></a></li>
+<li class="end"><a href="sogyo/index.html"><img src="images/bnr_kanren_06.jpg" width="147" height="44" alt="大原孫三郎人物伝" /></a></li>
+<li><a href="kurabo_kinenkan/index.html"><img src="images/bnr_kanren_07.jpg" width="147" height="44" alt="倉紡記念館" /></a></li>
+<li><a href="kurabo120th/index.html"><img src="images/bnr_kanren_08.jpg" width="147" height="44" alt="KURABO HISTRY　映像で綴る120年の歴史" /></a></li>
+<li class="end"><a href="ad/index.html"><img src="images/bnr_kanren_09.jpg" width="147" height="44" alt="広告ギャラリー" /></a></li>
+</ul>
+</div><!-- //スペシャルコンテンツ　ここまで-->
+
+<!-- おすすめサイト　ここから-->
+<div id="bnrWrapRight">
+<h2><img src="images/ttl_h2_08.gif" width="460" height="21" alt="おすすめサイト" /></h2>
+<ul>
+<!--<li><a href="sp_el/index.html"><img src="images/bnr_kanren_03.jpg" width="147" height="44" alt="半導体・液晶関連・エレクトロニクス分野製品ラインナップ" /></a></li>
+<li><a href="el/index.html"><img src="images/bnr_kanren_05.jpg" width="147" height="44" alt="攪拌脱泡・検査・計測のエレクトロニクス事業部" /></a></li>-->
+<li><a href="http://laundream.jp/index.html" target="_blank"><img src="images/laundream.jpg" width="147" height="44" alt="LAUNDREAM ランドリーム" /></a></li>
+<li><a href="http://kurabo-denim.com/" target="_blank"><img src="images/bnr_denim_11.jpg" width="147" height="44" alt="クラボウデニム PREMIUM BLUE" /></a></li>
+<li class="end"><a href="http://air-flake.com/" target="_blank"><img src="images/airflake_bnr.jpg" width="147" height="44" alt="エアフレーク Air Flake" /></a></li>
+<li class="end"><a href="chem/smp/index.html" target="_blank"><img src="images/bnr_pillow.jpg" width="147" height="44" alt="スリープマージピロー" /></a></li>
+<!--<li><a href="#/index.html"><img src="images/bnr_kanren_10.jpg" width="147" height="44" alt="" /></a></li>-->
+</ul>
+</div>
+<!-- //おすすめサイト　ここまで-->
+</div>
+
+</div>
+</div>
+<!--//コンテンツエリア　ここまで-->
+
+
+<!--フッターエリア　ここから-->
+<div id="footerArea">
+<!--ページトップ　ここから-->
+<div id="pageTopArea">
+<div id="pageTop">
+<a href="#headerArea"><img src="shared/images/btn_page_top.gif" width="81" height="23" alt="PAGE TOP" /></a></div>
+</div>
+<!--//ページトップ　ここまで-->
+<!--フッターサイトマップ　ここから-->
+<div id="footerSiteMapArea">
+<div id="footerSiteMap">
+<dl id="map01">
+<dt><a href="news/index.html"><img src="shared/images/footer_btn_01.gif" width="110" height="11" alt="ニュースリリース" /></a></dt>
+<dt><a href="recruit/index.html"><img src="shared/images/footer_btn_02.gif" width="69" height="13" alt="採用情報" /></a></dt>
+<dt><a href="exhibition/index.html"><img src="shared/images/footer_btn_03.gif" width="83" height="13" alt="展示会情報" /></a></dt>
+</dl>
+<dl id="map02">
+<dt><a href="company/index.html"><img src="shared/images/footer_btn_04.gif" width="69" height="13" alt="企業情報" /></a></dt>
+<dd><a href="company/about.html">会社概要</a></dd>
+<dd><a href="company/message.html">社長メッセージ</a></dd>
+<dd><a href="company/history.html">沿革</a></dd>
+<dd><a href="company/organization.html">組織図</a></dd>
+<dd><a href="company/philosophy.html">経営理念</a></dd>
+<dd><a href="company/communication.html">社会貢献活動</a></dd>
+<dd><a href="company/office.html">事業所・国内工場一覧</a></dd>
+<dd><a href="company/group_company.html">グループ企業一覧</a></dd>
+</dl>
+<dl id="map03">
+<dt><a href="division/index.html"><img src="shared/images/footer_btn_05.gif" width="71" height="13" alt="事業概要" /></a></dt>
+<dd><a href="division/textile.html">繊維事業部</a></dd>
+<dd><a href="division/chemical.html">化成品事業部</a></dd>
+<dd><a href="division/electronics.html">環境メカトロニクス事業部</a></dd>
+<dd class="lv3"><a href="division/electronics.html">エレクトロニクス分野</a></dd>
+<dd class="lv3"><a href="division/engineering.html">エンジニアリング分野</a></dd>
+<dd class="lv3"><a href="division/biomedical.html">バイオメディカル分野</a></dd>
+<dd><a href="division/estate.html">不動産開発部</a></dd>
+</dl>
+<dl id="map04">
+<dt><a href="finance/index.html"><img src="shared/images/footer_btn_06.gif" width="120" height="13" alt="株主・投資家情報" /></a></dt>
+<dd><a href="finance/ir_message.html">トップメッセージ</a></dd>
+<dd><a href="finance/vision.html">中期経営計画</a></dd>
+<dd class="end"><a href="finance/governance.html">コーポレートガバナンス</a></dd>
+<dd><a href="ir/ir_news/index.html">IRニュース</a></dd>
+<dd class="end"><a href="finance/group.html">当社グループの事業概況</a></dd>
+<dd><a href="finance/financial_data.html">業績・財務データ</a></dd>
+<dd><a href="ir/calendar/index.html">IRカレンダー</a></dd>
+<dd><a href="ir/library/index.html">IR資料室</a></dd>
+<dd><a href="ir/irshareholdersmeeting/index.html">株主総会</a></dd>
+<dd><a href="finance/stock_information.html">株式情報</a></dd>
+<dd><a href="finance/announce.html">電子公告</a></dd>
+<dd><a href="finance/stock_prices.html">株価情報</a></dd>
+<dd><a href="finance/notice.html">免責事項</a></dd>
+<dd class="end"><a href="finance/faq.html">FAQ（よくあるご質問）</a></dd>
+</dl>
+<dl id="map05">
+<dt><a href="report/index.html"><img src="shared/images/footer_btn_07.gif" width="92" height="14" alt="環境レポート" /></a></dt>
+<dd><a href="report/message.html">ごあいさつ</a></dd>
+<dd><a href="report/management.html">マネジメント</a></dd>
+<dd><a href="report/environmental_impact.html">環境負荷</a></dd>
+<dd><a href="report/products.html">環境配慮製品</a></dd>
+</dl>
+</div>
+</div>
+<!--//フッターサイトマップ　ここまで-->
+<!--コピーライトアリア　ここから-->
+<div id="copyrightArea">
+<ul>
+<li><a href="privacy_policy/index.html">プライバシーポリシー</a></li>
+<li><a href="site_policy/index.html">サイトのご利用にあたって</a></li>
+</ul>
+<p id="copyright"><img src="shared/images/img_copyright.gif" width="290" height="11" alt="Copyright &copy; KURABO INDUSTRIES LTD. All rights Reserved." /></p>
+</div>
+<!--//コピーライトアリア　ここまで--> 
+</div>
+<!--//フッターエリア　ここまで-->
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-34550484-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+</body>
+</html>

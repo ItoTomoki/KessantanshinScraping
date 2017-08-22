@@ -1,0 +1,191 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=shift_jis" />
+<title>爆弾ハンバーグ　フライングガーデン－THE FLYING-GARDEN</title>
+<meta name="keywords" content="株式会社フライングガーデン,RESTAURANT,レストラン,ホスピタリティレストラン,群馬県,埼玉県,栃木県,茨城県,千葉県">
+<meta name="description" content="北関東一円に展開するホスピタリティレストラン「フライングガーデン」のホームページです。">
+
+<!-- JS -->
+<script type="text/javascript" src="common/js/jquery-1.7.2.min.js"></script> 
+<script type="text/javascript" src="common/js/jdiv.js"></script>
+<script type="text/javascript" src="common/js/heightLine.js"></script>
+<script type="text/javascript" src="common/js/iepngfix_tilebg.js"></script>
+<script type="text/javascript" src="common/js/jquery.nivo.slider.js"></script>    				
+<script type="text/javascript" src="common/js/jquery.easing.1.3.js"></script>    				
+<script type="text/javascript">
+	$(function(){
+		$('#GL-navi').css({
+			'position' : 'relative',
+			'z-index' : 3000
+		});
+		$('.tabs li').hover(function(){
+			$('.dropdown',this).stop().slideDown('fast').css('z-index','1000');
+		},function(){
+			$('.dropdown',this).stop().fadeOut('fast');
+		});
+		$('.tabs ul li a').hover(function(){
+			$(this).stop().animate({paddingLeft:"35px"},100);
+		},function(){
+			$(this).stop().animate({paddingLeft:"0"},{ duration: 500, easing: 'easeOutBounce'});
+		});
+	});
+
+	$(function() {
+        $('#slider').nivoSlider({
+			effect: 'slideInLeft',
+			pauseTime: 6000
+		});
+    });
+</script>
+<!-- CSS -->
+
+<link href="common/css/import02.css" rel="stylesheet" type="text/css">
+<link href="common/css/top09april-02.css" rel="stylesheet" type="text/css">
+<link href="common/css/toplink.css" rel="stylesheet" type="text/css">
+<link href="common/css/jdiv.css" rel="stylesheet" type="text/css">
+<link type="text/css" rel="stylesheet" href="common/css/nivo-slider.css" media="all">
+<!--<link href="common/css/fancydropdown.css" rel="stylesheet" type="text/css">-->
+<style type="text/css">
+img, div, input { behavior: url("common/js/iepngfix.htc") }
+</style>
+
+<link rel="alternate" media="handheld" href="http://m.fgarden.co.jp/" />
+</head>
+<body>
+
+<div id="headerArea">
+<p><span>フライングガーデン</span></p>
+<h1>爆弾ハンバーグや金券半額返還フェアで大好評のファミリーレストラン、フライングガーデン。<br />
+メニュー、ランチ、会社案内、採用情報、IRのご案内。</h1>
+</div>
+
+
+<div id="GL-navi">
+<ul class="tabs">
+<li><a href="web/menu/index.html"><img src="common/navi/menu.png" alt="メニュー" border="0" /></a></li>
+<li><a href="#"><span><img src="common/navi/topics.png" alt="トピックス" border="0" /></span></a>
+<ul class="dropdown">
+<li><a href="web/topics/fair.html">フェア情報</a></li>
+<li><a href="web/topics/menu.html">メニュー情報</a></li>
+<li><a href="web/topics/store.html">店舗情報</a></li>
+</ul>
+</li>
+<li><a href="web/restaurant/top.html"><img src="common/navi/store.png" alt="店舗情報" border="0" /></a></li>
+<li><a href="web/about/top.html"><img src="common/navi/company.png" alt="会社案内" border="0" /></a></li>
+<li><a href="web/recruit/index.html"><img src="common/navi/recruit.png" alt="採用情報" border="0" /></a></li>
+<li><a href="web/ir/index.html"><img src="common/navi/ir.png" alt="IR情報" border="0" /></a></li>
+<li><a href="web/inquiry/index.html"><img src="common/navi/contact.png" alt="お問い合わせ" border="0" /></a></li>
+<li><a href="http://www.fgarden.co.jp/"><img src="common/navi/home.png" alt="フライングガーデントップページ" border="0" /></a></li>
+</ul>
+</div>
+
+
+
+<div class="slider-wrapper">
+<div id="slider" class="nivoSlider">
+<a href="http://www.fgarden-gift.com/" target="_blank"><img src="images/slide/main05.jpg" alt="夏のお中元ギフトキャンペーン" /></a>
+<a href="web/topics/menu.html#bakudan"><img src="images/slide/main04.jpg" alt="爆弾キング夏のディナーセット" /></a>
+<a href="web/topics/menu.html#kakigori"><img src="images/slide/main07.jpg" alt="奥秩父源泉水氷かき氷" /></a>
+<a href="http://www.bakudan-smile.com/2016/award/" target="_blank"><img src="images/slide/photocon.jpg" alt="爆弾スマイルフォトコンテスト" /></a>
+<a href="web/topics/fair.html#kinken"><img src="images/slide/main02.jpg" alt="金券半額返還フェア" /></a>
+</div>
+</div>
+
+
+
+<div id="wrapper">
+<div id="contentsArea">
+<div id="contents-left">
+<div class="pb10 mb10">
+<h2><img src="common/images/midashi_05_l.gif" alt="新着情報" /></h2>
+<ul>
+<li>・<a href="web/topics/fair.html#summer-campaign">8月1日（火）からフライングガーデン全店で「夏のプレゼントキャンペーン」実施中</a></li>
+<li>・<a href="web/topics/store.html#store22">結城店リニューアルオープンのお知らせ</a></li>
+<li>・<a href="web/topics/menu.html#bakudan">「夏の爆弾キングディナーセット」販売中</a></li>
+<li>・<a href="web/topics/store.html#store21">狭山店リニューアルオープンのお知らせ</a></li>
+<li>・<a href="web/topics/menu.html#kakigori">「奥秩父源泉水氷かき氷」を6/15(木)より販売します。</a></li>
+<li>・<a href="web/topics/store.html#store20">太田強戸店リニューアルオープンのお知らせ</a></li>
+<li>・<a href="web/topics/store.html#store19">高崎上小塙店リニューアルオープンのお知らせ</a></li>
+<li>・<a href="web/topics/menu.html#menu_spring">4月20日（木）からフライングガーデン全店舗で春の新メニューがスタート</a></li>
+<li>・<a href="web/topics/menu.html#allergen">アレルゲン情報</a></li>
+<li>・<a href="web/topics/store.html#store18">海浜公園前店リニューアルオープンのお知らせ</a></li>
+<li>・<a href="web/topics/store.html#store17">笠松運動公園前店リニューアルオープンのお知らせ</a></li>
+<li>・<a href="http://www.bakudan-smile.com/2016/award/" target="_blank">爆弾スマイルフォトコンテスト第3弾 受賞作品発表！！</a></li>
+<li>・<a href="web/topics/store.html#store15">足利店リニューアルオープンのお知らせ</a></li>
+<li>・<a href="common/pdf/gold_note.pdf" target="_blank">フェア金券使用方法の変更について</a></li>
+<li>・<a href="web/menu/takeout/index.html">手軽なお持ち帰りメニュー、注文書がダウンロードいただけます！</a></li>
+
+<li>・<a href="web/topics/menu.html#beef">フライングガーデンの牛肉に関する取り組みについて</a></li>
+</ul>
+</div>
+<div class="pb10 mb10">
+<h2><a href="web/recruit/index.html"><img src="common/images/midashi_03_l.gif" alt="採用情報　各店にてスタッフ募集中！" /></a></h2>
+<ul>
+<li>・<a href="web/recruit/index.html">2017年卒業予定者向け採用情報</a></li>
+</ul>
+</div>
+<div class="pb10 mb10">
+<h2><a href="web/ir/index.html"><img src="common/images/midashi_04_l.gif" alt="IR情報" /></a></h2>
+<ul>
+<li>・<a href="web/ir/index.html#irhead">平成30年3月期 第1四半期決算短信［日本基準〕（非連結）</a><span class="new">New!</span></li>
+<li>・<a href="web/ir/index.html#irhead">平成30年3月期7月度 月次業績のお知らせ</a></li>
+<li>・<a href="web/ir/index.html#irhead">平成30年3月期6月度 月次業績のお知らせ</a></li>
+<li>・<a href="web/ir/index.html#irhead">組織変更及び人事異動に関するお知らせ</a></li>
+<li>・<a href="web/ir/index.html#irhead">「奥秩父源泉水氷かき氷」販売のお知らせ</a></li>
+<li>・<a href="web/ir/index.html#irhead">2017年（平成29年）3月期決算説明会資料</a></li>
+<li>・<a href="web/ir/index.html#irhead">平成30年3月期5月度 月次業績のお知らせ</a></li>
+<li>・<a href="web/ir/index.html#irhead">定款一部変更に関するお知らせ</a></li>
+<li>・<a href="web/ir/index.html#irhead">平成30年3月期4月度 月次業績のお知らせ</a></li>
+<li>・<a href="web/ir/index.html#irhead">平成29年3月期 決算短信〔日本基準〕（非連結）</a></li>
+</ul>
+</div>
+</div>
+<div id="contents-right">
+<!--<p><a href="http://job.nikkei.co.jp/2011/corp/00046979/blog/index/1?navi_hplink" target="_blank"><img src="common/images/banner_01.gif" alt="採用担当者ブログ" width="178" height="60" title="就活者必見採用担当者が本音を語る採用担当者ブログ" /></a></p>-->
+
+<p><a href="http://www.bakudan-smile.com/2016/award/" target="_blank" class="linkBirth"><img src="common/images/banner_photocon.jpg" alt="爆弾スマイルフォトコンテスト第3弾開催" /></a></p>
+
+<p><a href="http://www.fgarden-gift.com/" target="_blnak" class="linkBirth"><img src="common/images/gift_banner.jpg" alt="誰かに贈りたくなる商品。公式オンラインショップで好評販売中！" /></a></p>
+
+<p><a href="web/menu/takeout/index.html" class="linkTakeout"><img src="common/images/banner_03.gif" alt="お持ち帰りメニュー" width="178" height="60" /></a></p>
+
+<p><a href="web/hiwa/top.html" class="linkBirth"><img src="common/images/banner_06.gif" alt="爆弾ハンバーグ誕生秘話はこちら" width="178" height="69" /></a></p>
+<p><a href="mobile/index.html" target="_blank" class="linkBirth"><img src="common/images/banner_mobile.gif" alt="モバイルサイト　お得情報や限定クーポンをGET" width="178" height="62" /></a></p>
+<p><a href="common/pdf/place.pdf" target="_blank" class="linkBirth"><img src="common/images/banner_place.jpg" alt="原産地情報" /></a></p>
+</div>
+<!--  END bannerArea -->
+</div>
+<div><a href="http://www.fgarden-gift.com/" target="_blank"><img src="images/onlineshop_banner.jpg" alt="フライングガーデン お歳暮キャンペーン"/></a></div>
+<div id="footer">
+<p>(C)Copyright,Since 2004 FLYING-GARDEN Co.,Ltd. All right reserved.</p>
+</div>
+</div>
+<!--Google Tag Start -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-5096956-1");
+pageTracker._trackPageview();
+</script>
+<!--Google Tag End-->
+
+<!-- Yahoo! JAPAN ユニバーサルタグ Start -->
+<script type="text/javascript">
+  (function () {
+    var tagjs = document.createElement("script");
+    var s = document.getElementsByTagName("script")[0];
+    tagjs.async = true;
+    tagjs.src = "//s.yjtag.jp/tag.js#site=vaW5gTy";
+    s.parentNode.insertBefore(tagjs, s);
+  }());
+</script>
+<noscript>
+  <iframe src="//b.yjtag.jp/iframe?c=vaW5gTy" width="1" height="1" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+</noscript>
+<!-- Yahoo! JAPAN ユニバーサルタグ End -->
+<script type="text/javascript" src="common/js/onlineshop.js"></script>    				
+</body>
+</html>

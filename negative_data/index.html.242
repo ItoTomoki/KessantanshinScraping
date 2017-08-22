@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="ja-JP">
+<head id="Head"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><meta id="MetaDescription" name="DESCRIPTION" content="人材派遣のリーディングカンパニー パソナを中心に国内・海外 約50社で人材ビジネスを展開するパソナグループの紹介。「社会の問題点を解決する」を企業理念に、常に新たな雇用創造に取り組んでいます。" /><meta id="MetaKeywords" name="KEYWORDS" content="パソナ, パソナグループ, PASONA, PASONA GROUP, 南部靖之" /><style id="StylePlaceholder" type="text/css"></style><link id="_Portals__default_" rel="stylesheet" type="text/css" href="/Portals/_default/default.css" /><link id="_Portals_0_Skins_PSN_" rel="stylesheet" type="text/css" href="/Portals/0/Skins/PSN/skin.css" /><link id="_Portals_0_Containers_PSN_" rel="stylesheet" type="text/css" href="/Portals/0/Containers/PSN/container.css" /><link id="_Portals_0_" rel="stylesheet" type="text/css" href="/Portals/0/portal.css" /><script src="/js/tools/jquery-1.11.2.min.js" type="text/javascript"></script><script src="/js/tools/jquery.cookie.js" type="text/javascript"></script><link rel="SHORTCUT ICON" href="/Portals/0/favicon.ico" /><link rel="canonical" href="http://www.pasonagroup.co.jp" /><title>
+	パソナグループ
+</title><meta name="format-detection" content="telephone=no">
+<script type="text/javascript">
+(function($) {
+    $(function() {
+        function getTerminalType() {
+            var result_value = "0";
+            $.ajax({
+                url: 'http://sp.infocms.jp/?v=2&ua=' + navigator.userAgent,
+                type: "GET",
+                async: false
+            }).done(function(data) {
+                result_value = data;
+            });
+            return result_value;
+        }
+     
+        // 0:PC、1:スマホ、2:タブレット
+        var UAType = getTerminalType();
+        if (UAType == 1) {
+            // 以下処理
+            $('.telLink').each(function(){
+            var str = $(this).text();
+                $(this).html($('<a>').attr('href', 'tel:' + str.replace(/-/g, '')).append(str + '</a>'));
+            });
+            // ここまで
+        }
+    });
+})(jQuery);
+</script>
+<!-- Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-37142526-1', 'auto');
+  ga('require', 'linkid', 'linkid.js');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+
+</script>
+<!-- End Google Analytics -->
+</head>
+<body id="Body">
+    <noscript><div class="lblNoScript"><span id="lblNoScript" class="NormalRed">本システムでは、JavaScriptを利用しています。JavaScriptを有効に設定してからご利用ください。</span></div></noscript>
+    <p class="skip"><a href="#dnn_ContentPane"><span id="lblSkipContentPane">本文へスキップします。</span></a></p> 
+    <form name="Form" method="post" action="/" id="Form" enctype="multipart/form-data" style="height: 100%;">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJNDEzMjU5MzIxD2QWBmYPFgIeBFRleHQFDzwhRE9DVFlQRSBodG1sPmQCAQ9kFggCAQ8WAh4HVmlzaWJsZWhkAgIPFgIeB2NvbnRlbnQFmALkurrmnZDmtL7pgaPjga7jg6rjg7zjg4fjgqPjg7PjgrDjgqvjg7Pjg5Hjg4vjg7wg44OR44K944OK44KS5Lit5b+D44Gr5Zu95YaF44O75rW35aSWIOe0hDUw56S+44Gn5Lq65p2Q44OT44K444ON44K544KS5bGV6ZaL44GZ44KL44OR44K944OK44Kw44Or44O844OX44Gu57S55LuL44CC44CM56S+5Lya44Gu5ZWP6aGM54K544KS6Kej5rG644GZ44KL44CN44KS5LyB5qWt55CG5b+144Gr44CB5bi444Gr5paw44Gf44Gq6ZuH55So5Ym16YCg44Gr5Y+W44KK57WE44KT44Gn44GE44G+44GZ44CCZAIDDxYCHwIFROODkeOCveODiiwg44OR44K944OK44Kw44Or44O844OXLCBQQVNPTkEsIFBBU09OQSBHUk9VUCwg5Y2X6YOo6Z2W5LmLZAIEDxYEHwJkHwFoZAICD2QWAgIFD2QWAgIED2QWAmYPZBYSAgEPZBYCZg8PFgQeB1Rvb2xUaXAFFeODkeOCveODiuOCsOODq+ODvOODlx4LTmF2aWdhdGVVcmwFHWh0dHA6Ly93d3cucGFzb25hZ3JvdXAuY28uanAvZGQCAw9kFgJmDxYCHwAFgw08ZGl2IGNsYXNzPSJ0b2tlbk1lbnUiPg0KPHVsPg0KPGxpIGNsYXNzPSJUYWIxMDAgY3VycmVudEl0ZW0iPjxhIGlkPSJTRU9NRU5VVjJfVGFiMTAwIiAgY2xhc3M9ImN1cnJlbnRMaW5rIiBocmVmPSIvIiA+44OR44K944OK44Kw44Or44O844OXPC9hPjwvbGk+DQo8bGkgY2xhc3M9IlRhYjExNyI+PGEgaWQ9IlNFT01FTlVWMl9UYWIxMTciICBocmVmPSIvY29tcGFueS8iID7kvJrnpL7mg4XloLE8L2E+PC9saT4NCjxsaSBjbGFzcz0iVGFiMTQ2Ij48YSBpZD0iU0VPTUVOVVYyX1RhYjE0NiIgIGhyZWY9Ii9pci8iID4gSVLmg4XloLE8L2E+PC9saT4NCjxsaSBjbGFzcz0iVGFiMTkzIj48YSBpZD0iU0VPTUVOVVYyX1RhYjE5MyIgIGhyZWY9Ii9yZWNydWl0LyIgdGFyZ2V0PSJfYmxhbmsiPuODkeOCveODiuOCsOODq+ODvOODl+aOoeeUqOaDheWgsTwvYT48L2xpPg0KPGxpIGNsYXNzPSJUYWIxMzciPjxhIGlkPSJTRU9NRU5VVjJfVGFiMTM3IiAgaHJlZj0iL2tva2VuLyIgPuekvuS8muiyoueMrua0u+WLlTwvYT48L2xpPg0KPGxpIGNsYXNzPSJUYWIyMzYiPjxhIGlkPSJTRU9NRU5VVjJfVGFiMjM2IiAgaHJlZj0iL2NvbnRhY3QvIiB0YXJnZXQ9Il9ibGFuayI+44GK5ZWP5ZCI44GbPC9hPjwvbGk+DQo8bGkgY2xhc3M9IlRhYjI1NyI+PGEgaWQ9IlNFT01FTlVWMl9UYWIyNTciICBocmVmPSIjIiA+44Oh44OL44Ol44O8PC9hPjwvbGk+DQo8bGkgY2xhc3M9IlRhYjI2MCI+PGEgaWQ9IlNFT01FTlVWMl9UYWIyNjAiICBocmVmPSIvc2l0ZW1hcC8iID7jgrXjgqTjg4jjg57jg4Pjg5c8L2E+PC9saT4NCjxsaSBjbGFzcz0iVGFiMjYxIj48YSBpZD0iU0VPTUVOVVYyX1RhYjI2MSIgIGhyZWY9Ii9vZmZpY2UvIiB0YXJnZXQ9Il9ibGFuayI+44Kq44OV44Kj44K557S55LuLPC9hPjwvbGk+DQo8bGkgY2xhc3M9IlRhYjI2NyI+PGEgaWQ9IlNFT01FTlVWMl9UYWIyNjciICBocmVmPSIvbGJhLyIgPuWls+aAp+i1t+alreWutuaUr+aPtOODiOODvOOCv+ODq+ODl+ODreOCsOODqeODoCA6IExhZGllcyBCZSBBbWJpdGlvdXMhITwvYT48L2xpPg0KPGxpIGNsYXNzPSJUYWIyNzkiPjxhIGlkPSJTRU9NRU5VVjJfVGFiMjc5IiAgaHJlZj0iL2VudHJlc2hpcC8iIHRhcmdldD0iX2JsYW5rIj7jg5Hjgr3jg4rjgIDjgrnjg5rjgrfjg6Pjg6rjgrnjg4jnpL7lk6HvvIbjgqLjg7Pjg4jjg6zjgrfjg4Pjg5fnpL7lk6E8L2E+PC9saT4NCjxsaSBjbGFzcz0i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c3BBcmVhIj48aW1nIGFsdD0i44OR44K944OK44Kw44Or44O844OX44Gu5LuV5LqL44Gv44CM5Lq644KS5rS744GL44GZ44CN44GT44GoIiBzcmM9Ii9Qb3J0YWxzLzAvaW1hZ2VzL2luZGV4L2ltZ19tYWluLXRpdGxlX3NwLmpwZyIgLz48L2Rpdj4NCjxkaXYgY2xhc3M9Im1haW5WaXN1YWxCb3giPg0KPHVsIGNsYXNzPSJtYWluVmlzdWFsIGZhZGUwMSI+DQogICAgPGxpIGNsYXNzPSJpbWdIcjAxIj48YSBocmVmPSIvaHIuaHRtbCI+PGltZyBhbHQ9IuS6uuadkOOCteODvOODk+OCueOBruOCpOODoeODvOOCuOeUu+WDj++8kSIgc3JjPSIvUG9ydGFscy8wL2ltYWdlcy9pbmRleC9pbWdfbWFpbi1ocjAxLmpwZyIgLz48L2E+PC9saT4NCiAgICA8bGkgY2xhc3M9ImltZ0hyMDIiPjxhIGhyZWY9Ii9oci5odG1sIj48aW1nIGFsdD0i5Lq65p2Q44K144O844OT44K544Gu44Kk44Oh44O844K455S75YOP77ySIiBzcmM9Ii9Qb3J0YWxzLzAvaW1hZ2VzL2luZGV4L2ltZ19tYWluLWhyMDIuanBnIiAvPjwvYT48L2xpPg0KPC91bD4NCjwvZGl2Pg0KPGRpdiBjbGFzcz0ibWFpblZpc3VhbEJveCI+DQo8dWwgY2xhc3M9Im1haW5WaXN1YWwgZmFkZTAyIj4NCiAgICA8bGkgY2xhc3M9ImltZ0dsb2JhbDAxIj48YSBocmVmPSIvZ2xvYmFsLmh0bWwiPjxpbWcgYWx0PSLjgrDjg63jg7zjg5Djg6vjgrXjg7zjg5Pjgrnjga7jgqTjg6Hjg7zjgrjnlLvlg4/vvJEiIHNyYz0iL1BvcnRhbHMvMC9pbWFnZXMvaW5kZXgvaW1nX21haW4tZ2xvYmFsMDEuanBnIiAvPjwvYT48L2xpPg0KICAgIDxsaSBjbGFzcz0iaW1nR2xvYmFsMDIiPjxhIGhyZWY9Ii9nbG9iYWwuaHRtbCI+PGltZyBhbHQ9IuOCsOODreODvOODkOODq+OCteODvOODk+OCueOBruOCpOODoeODvOOCuOeUu+WDj++8kiIgc3JjPSIvUG9ydGFscy8wL2ltYWdlcy9pbmRleC9pbWdfbWFpbi1nbG9iYWwwMi5qcGciIC8+PC9hPjwvbGk+DQo8L3VsPg0KPC9kaXY+DQo8ZGl2IGNsYXNzPSJtYWluVmlzdWFsQm94Ij4NCjx1bCBjbGFzcz0ibWFpblZpc3VhbCBmYWRlMDEiPg0KICAgIDxsaSBjbGFzcz0iaW1nVHJhaW5pbmcwMSI+PGEgaHJlZj0iL3RyYWluaW5nLmh0bWwiPjxpbWcgYWx0PSLmlZnogrLjg7vnoJTkv67jga7jgqTjg6Hjg7zjgrjnlLvlg4/vvJEiIHNyYz0iL1BvcnRhbHMvMC9pbWFnZXMvaW5kZXgvaW1nX21haW4tdHJhaW5pbmcwMS5qcGciIC8+PC9hPjwvbGk+DQogICAgPGxpIGNsYXNzPSJpbWdUcmFpbmluZzAyIj48YSBocmVmPSIvdHJhaW5pbmcuaHRtbCI+PGltZyBhbHQ9IuaVmeiCsuODu+eglOS/ruOBruOCpOODoeODvOOCuOeUu+WDj++8kiIgc3JjPSIvUG9ydGFscy8wL2ltYWdlcy9pbmRleC9pbWdfbWFpbi10cmFpbmluZzAyLmpwZyIgLz48L2E+PC9saT4NCjwvdWw+DQo8L2Rpdj4NCjxkaXYgY2xhc3M9Im1haW5WaXN1YWxCb3giPg0KPHVsIGNsYXNzPSJtYWluVmlzdWFsIGZhZGUwMiI+DQogICAgPGxpIGNsYXNzPSJpbWdSZWdpb24wMSI+PGEgaHJlZj0iL2F3YWppLmh0bWwiPjxpbWcgYWx0PSIiIHNyYz0iL1BvcnRhbHMvMC9pbWFnZXMvaW5kZXgvaW1nX21haW4tcmVnaW9uMDEtMDIuanBnPzExNzY1MTYyOTI1MjE2IiAvPjwvYT48L2xpPg0KICAgIDxsaSBjbGFzcz0iaW1nUmVnaW9uMDIiPjxhIGhyZWY9Ii9hd2FqaS5odG1sIj48aW1nIGFsdD0i5Zyw5pa55Ym155Sf44Gu44Kk44Oh44O844K455S75YOP77ySIiBzcmM9Ii9Qb3J0YWxzLzAvaW1hZ2VzL2luZGV4L2ltZ19tYWluLXJlZ2lvbjAyLmpwZyIgLz48L2E+PC9saT4NCjwvdWw+DQo8L2Rpdj4NCjxkaXYgY2xhc3M9Im1haW5WaXN1YWxCb3giPg0KPHVsIGNsYXNzPSJtYWluVmlzdWFsIGZhZGUwMSI+DQogICAgPGxpIGNsYXNzPSJpbWdMaWZlMDEtMSI+PGEgaHJlZj0iL2xpZmUuaHRtbCI+PGltZyBhbHQ9Iuemj+WIqeWOmueUn+OBruOCpOODoeODvOOCuOeUu+WDj++8kSIgc3JjPSIvUG9ydGFscy8wL2ltYWdlcy9pbmRleC9pbWdfbWFpbi1saWZlMDEtMS5qcGciIC8+PC9hPjwvbGk+DQogICAgPGxpIGNsYXNzPSJpbWdMaWZlMDEtMiI+PGEgaHJlZj0iL2xpZmUuaHRtbCI+PGltZyBhbHQ9Iuemj+WIqeWOmueUn+OBruOCpOODoeODvOOCuOeUu+WDj++8kiIgc3JjPSIvUG9ydGFscy8wL2ltYWdlcy9pbmRleC9pbWdfbWFpbi1saWZlMDEtMi5qcGciIC8+PC9hPjwvbGk+DQo8L3VsPg0KPC9kaXY+DQo8ZGl2IGNsYXNzPSJtYWluVmlzdWFsQm94Ij4NCjx1bCBjbGFzcz0ibWFpblZpc3VhbCBmYWRlMDIiPg0KICAgIDxsaSBjbGFzcz0iaW1nTGlmZTAyLTEiPjxhIGhyZWY9Ii9saWZlLmh0bWwjY2hpbGQiPjxpbWcgYWx0PSLkv53ogrLjg7vku4vorbfjg7vlrrbkuovku6PooYzjga7jgqTjg6Hjg7zjgrjnlLvlg4/vvJEiIHNyYz0iL1BvcnRhbHMvMC9pbWFnZXMvaW5kZXgvaW1nX21haW4tbGlmZTAyLTEuanBnIiAvPjwvYT48L2xpPg0KICAgIDxsaSBjbGFzcz0iaW1nTGlmZTAyLTIiPjxhIGhyZWY9Ii9saWZlLmh0bWwjY2hpbGQiPjxpbWcgYWx0PSLkv53ogrLjg7vku4vorbfjg7vlrrbkuovku6PooYzjga7jgqTjg6Hjg7zjgrjnlLvlg4/vvJIiIHNyYz0iL1BvcnRhbHMvMC9pbWFnZXMvaW5kZXgvaW1nX21haW4tbGlmZTAyLTIuanBnIiAvPjwvYT48L2xpPg0KPC91bD4NCjwvZGl2Pg0KPC9kaXY+DQo8L2Rpdj4NCjxkaXYgY2xhc3M9Im1haW5WaXN1YWxUaXRsZSBwY0FyZWEiPjxpbWcgYWx0PSIiIHNyYz0iL1BvcnRhbHMv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PjxpbWcgYWx0PSLjg5Hjgr3jg4rjgrDjg6vjg7zjg5dGYWNlYm9vayIgc3JjPSIvUG9ydGFscy8wL2ltYWdlcy9jb21tb24vYnRuX2ZhY2Vib29rLnBuZyIgLz48L2E+PC9kaXY+DQo8ZGl2IGNsYXNzPSJiYW5uZXJSaWdodCI+DQo8dWwgY2xhc3M9ImJ4c2xpZGVyIj4NCiAgICA8bGk+PGEgaHJlZj0iaHR0cHM6Ly9jaGlob3Nvc2VpLWp1a3UuY29tLyIgdGFyZ2V0PSJfYmxhbmsiPjxpbWcgYWx0PSIiIHNyYz0iL1BvcnRhbHMvMC9pbWFnZXMvY29tbW9uL2Jucl9jaGlob3Nvc2VpLWp1a3UuanBnPzExNzEzMTU0OTg2NzYiIC8+PC9hPjwvbGk+DQogICAgPGxpPjxhIGhyZWY9Imh0dHBzOi8vam9iLWhha3UuY29tLyIgdGFyZ2V0PSJfYmxhbmsiPjxpbWcgYWx0PSJKT0LljZoiIHNyYz0iL1BvcnRhbHMvMC9pbWFnZXMvY29tbW9uL2Jucl9qb2ItaGFrdS5qcGc/MTE3MDUxODIxNDc5NiIgLz48L2E+PC9saT4NCiAgICA8bGk+PGEgaHJlZj0iaHR0cHM6Ly93d3cucGFzb25hLWxjLmNvLmpwL2thamkvIiB0YXJnZXQ9Il9ibGFuayI+PGltZyBhbHQ9IuWutuOCtOODiOOCs+ODs+OCt+OCp+ODq+OCuOODpSIgc3JjPSIvUG9ydGFscy8wL2ltYWdlcy9jb21tb24vYm5yX2llZ290by5qcGciIC8+PC9hPjwvbGk+DQogICAgPGxpPjxhIGhyZWY9Imh0dHA6Ly93d3cubmFtYnV5YXN1eXVraS5jb20iIHRhcmdldD0iX2JsYW5rIj48aW1nIGFsdD0iIiBzcmM9Ii9Qb3J0YWxzLzAvaW1hZ2VzL2NvbW1vbi9ibnJfbmFtYnUwMi5qcGc/MTE3MTUxNzU4NDQ5ODMiIC8+PC9hPjwvbGk+DQogICAgPGxpPjxhIGhyZWY9Ii9vZmZpY2Uvb3Nha2EuaHRtbCIgdGFyZ2V0PSJfYmxhbmsiPjxpbWcgYWx0PSIiIHNyYz0iL1BvcnRhbHMvMC9pbWFnZXMvY29tbW9uL2Jucl9vZmZpY2UwMi5qcGc/MTE3NDUxNjUzNTA3NjIiIC8+PC9hPjwvbGk+DQogICAgPGxpPjxhIGhyZWY9Imh0dHBzOi8vd3d3LnBhc29uYS1oZWFydGZ1bC5jby5qcC9hcnQtbXVyYS8iIHRhcmdldD0iX2JsYW5rIj48aW1nIGFsdD0iIiBzcmM9Ii9Qb3J0YWxzLzAvaW1hZ2VzL2NvbW1vbi9ibnJfYXJ0bXVyYS5qcGc/MTE2MjQxNzU0Nzc3MCIgLz48L2E+PC9saT4NCiAgICA8bGk+PGEgdGFyZ2V0PSJfYmxhbmsiIGhyZWY9Ii9sYmEvIj48aW1nIGFsdD0iIiBzcmM9Ii9Qb3J0YWxzLzAvaW1hZ2VzL2NvbW1vbi9ibnJfbGJhLmpwZz8xMTYyNDE3MTE0ODk5OSIgLz48L2E+PC9saT4NCiAgICA8bGk+PGEgdGFyZ2V0PSJfYmxhbmsiIGhyZWY9Ii9lbnRyZXNoaXAvIj48aW1nIGFsdD0iIiBzcmM9Ii9Qb3J0YWxzLzAvaW1hZ2VzL2NvbW1vbi9ibnJfZW50cmVzaGlwMDMuanBnPzExNjI0MTcxMTE4NDQiIC8+PC9hPjwvbGk+DQogICAgPGxpPjxhIHRhcmdldD0iX2JsYW5rIiBocmVmPSJodHRwOi8vbGlpamFwYW4uY29tLyI+PGltZyBhbHQ9IiIgc3JjPSIvUG9ydGFscy8wL2ltYWdlcy9jb21tb24vYm5yX2xpaS5qcGc/MTE2MjQxNzEzMzU1ODIiIC8+PC9hPjwvbGk+DQogICAgPGxpPjxhIHRhcmdldD0iX2JsYW5rIiBocmVmPSIvcG9ydGFscy8wL3Jlc291cmNlcy9rbm93bGVkZ2ViYW5rLyI+PGltZyBhbHQ9IiIgc3JjPSIvUG9ydGFscy8wL2ltYWdlcy9jb21tb24vYm5yX2tub3dsZWRnZWJhbmsuanBnPzExNjI0MTc0NDQwMzk4IiAvPjwvYT48L2xpPg0KICAgIDxsaT48YSBocmVmPSJodHRwczovL3d3dy5wYXNvbmEtbGMuY28uanAvZmFtaWx5LWNhcmUvIj48aW1nIGFsdD0iIiBzcmM9Ii9Qb3J0YWxzLzAvaW1hZ2VzL2NvbW1vbi9sb2dvX2ZhbWlseS1jYXJlLmpwZz8xMTY0NTE3NTU1NTMzIiAvPjwvYT48L2xpPg0KPC91bD4NCjwvZGl2Pg0KPC9kaXY+ZAIEDxYCHwFoZAIRD2QWBGYPZBYGZg8PFgIfAWhkZAICDw8WAh8BaGRkAgQPZBYCAgEPZBYCAgEPZBYEAgIPFgIfAAXfAzx1bCBjbGFzcz0iZkxpbmsiPg0KICAgIDxsaT48YSBocmVmPSIvY29udGFjdC8iIHRhcmdldD0iX2JsYW5rIj7jgYrllY/lkIjjgZs8L2E+PC9saT4NCiAgICA8bGk+PGEgaHJlZj0iL3V0aWxpdHkvdGVybXMuaHRtbCI+5b2T44K144Kk44OI44GU5Yip55So44Gr44GC44Gf44Gj44GmPC9hPjwvbGk+DQogICAgPGxpPjxhIGhyZWY9Ii91dGlsaXR5L3ByaXZhY3kuaHRtbCI+5YCL5Lq65oOF5aCx5L+d6K235pa56YedPC9hPjwvbGk+DQogICAgPGxpPjxhIGhyZWY9Ii91dGlsaXR5L215bnVtYmVyLmh0bWwiPueJueWumuWAi+S6uuaDheWgseWfuuacrOaWuemHnTwvYT48L2xpPg0KICAgIDxsaT48YSBocmVmPSIvdXRpbGl0eS9zZWN1cml0eS5odG1sIj7mg4XloLHjgrvjgq3jg6Xjg6rjg4bjgqPln7rmnKzmlrnph508L2E+PC9saT4NCiAgICA8bGk+PGEgaHJlZj0iL3NpdGVtYXAvIj7jgrXjgqTjg4jjg57jg4Pjg5c8L2E+PC9saT4NCjwvdWw+ZAIEDxYCHwFoZAIBD2QWBmYPDxYCHwFoZGQCAg8PFgIfAWhkZAIED2QWAgIBD2QWAgIBD2QWBAICDxYCHwAF+wY8IS0tIFVzZXIgSW5zaWdodCBQQ0RGIENvZGUgU3RhcnQgOiBwYXNvbmFncm91cC5jby5qcCAtLT4NCjxzY3JpcHQgdHlwZT0idGV4dC9qYXZhc2NyaXB0Ij4NCjwhLS0NCnZhciBfdWljID0gX3VpYyB8fHt9OyB2YXIgX3VpaCA9IF91aWggfHx7fTtfdWloWydpZCddID0gNTE5ODE7DQpfdWloWydsZ19pZCddID0gJyc7DQpfdWloWydmYl9pZCddID0gJyc7DQpfdWloWyd0d19pZCddID0gJyc7DQpfdWloWyd1aWdyXzEnXSA9ICcnOyBfdWloWyd1aWdyXzInXSA9ICcnOyBfdWloWyd1aWdyXzMnXSA9ICcnOyBfdWloWyd1aWdyXzQnXSA9ICcnOyBfdWloWyd1aWdyXzUnXSA9ICcnOw0KX3VpaFsndWlncl82J10gPSAnJzsgX3VpaFsndWlncl83J10gPSAnJzsgX3VpaFsndWlncl84J10gPSAnJzsgX3VpaFsndWlncl85J10gPSAnJzsgX3VpaFsndWlncl8xMCddID0gJyc7DQoNCi8qIERPIE5PVCBBTFRFUiBCRUxPVyBUSElTIExJTkUgKi8NCi8qIFdJVEggRklSU1QgUEFSVFkgQ09PS0lFICovDQooZnVuY3Rpb24oKSB7DQp2YXIgYmkgPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50KCdzY3JpJysncHQnKTtiaS50eXBlID0gJ3RleHQvamF2YXNjcmlwdCc7IGJpLmFzeW5jID0gdHJ1ZTsNCmJpLnNyYyA9ICgnaHR0cHM6JyA9PSBkb2N1bWVudC5sb2NhdGlvbi5wcm90b2NvbCA/ICdodHRwczovL2JzJyA6ICdodHRwOi8vYycpICsgJy5uYWthbm9oaXRvLmpwL2IzL2JpLmpzJzsNCnZhciBzID0gZG9jdW1lbnQuZ2V0RWxlbWVudHNCeVRhZ05hbWUoJ3NjcmknKydwdCcpWzBdO3MucGFyZW50Tm9kZS5pbnNlcnRCZWZvcmUoYmksIHMpOw0KfSkoKTsNCi8vLS0+DQo8L3NjcmlwdD4NCjwhLS0gVXNlciBJbnNpZ2h0IFBDREYgQ29kZSBFbmQgOiBwYXNvbmFncm91cC5jby5qcCAtLT5kAgQPFgIfAWhkZGIDZ+3O7eeBAIZZHcmE6JTXjM1P" />
+
+
+<script src="/js/dnncore.js" type="text/javascript"></script>
+<script src="/js/infocms.js" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=Yrx6qKUYg1lQiXNzLuFz3qXgO0J2fXSMoYlWrSWuVoFrCTHo9T1TOhSKzunr9qH_d74IGsGJ3XezqQBDySqjhdlTW6dLylVILZEliXzRWNMXKB8TjA0Skh3idM22gXYjMNESBFm30Z-mIaFUFq1B1HOd9841&amp;t=2e2045e2" type="text/javascript"></script>
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334" />
+        
+        
+<script>jQuery.noConflict();</script>
+<script type="text/javascript" src="/Portals/0/js/smoothScroll/smoothScroll.js"></script>
+<script type="text/javascript" src="/Portals/0/js/to-top/to-top.js"></script>
+<script type="text/javascript" src="/Portals/0/js/bxslider/jquery.bxslider.js"></script>
+
+<div id="skinIndex" class="skinWrapper">
+    <header id="headBody">
+        <div id="headBodyWrap">
+            <div class="headLogo">
+                <h1 class="logo"><a id="dnn_dnnLOGO_hypLogo" title="パソナグループ" href="http://www.pasonagroup.co.jp/"><img id="dnn_dnnLOGO_imgLogo" src="/Portals/0/Skins/PSN/images/rogo.png" alt="パソナグループ" border="0" /></a></h1>
+            </div>
+            <div class="headWrap">
+                <nav id="gNav"><div class="tokenMenu">
+<ul>
+<li class="Tab100 currentItem"><a id="SEOMENUV2_Tab100"  class="currentLink" href="/" >パソナグループ</a></li>
+<li class="Tab117"><a id="SEOMENUV2_Tab117"  href="/company/" >会社情報</a></li>
+<li class="Tab146"><a id="SEOMENUV2_Tab146"  href="/ir/" > IR情報</a></li>
+<li class="Tab193"><a id="SEOMENUV2_Tab193"  href="/recruit/" target="_blank">パソナグループ採用情報</a></li>
+<li class="Tab137"><a id="SEOMENUV2_Tab137"  href="/koken/" >社会貢献活動</a></li>
+<li class="Tab236"><a id="SEOMENUV2_Tab236"  href="/contact/" target="_blank">お問合せ</a></li>
+<li class="Tab257"><a id="SEOMENUV2_Tab257"  href="#" >メニュー</a></li>
+<li class="Tab260"><a id="SEOMENUV2_Tab260"  href="/sitemap/" >サイトマップ</a></li>
+<li class="Tab261"><a id="SEOMENUV2_Tab261"  href="/office/" target="_blank">オフィス紹介</a></li>
+<li class="Tab267"><a id="SEOMENUV2_Tab267"  href="/lba/" >女性起業家支援トータルプログラム : Ladies Be Ambitious!!</a></li>
+<li class="Tab279"><a id="SEOMENUV2_Tab279"  href="/entreship/" target="_blank">パソナ　スペシャリスト社員＆アントレシップ社員</a></li>
+<li class="Tab700"><a id="SEOMENUV2_Tab700"  href="/english/" >Pasona Group Inc.</a></li>
+<li class="Tab825"><a id="SEOMENUV2_Tab825"  href="/urban-farm.html" >アーバンファーム フォトコンテスト</a></li>
+<li class="Tab827"><a id="SEOMENUV2_Tab827"  href="/utility/security.html" >情報セキュリティ基本方針</a></li>
+<li class="Tab828"><a id="SEOMENUV2_Tab828"  href="/shokuhaku/" >パソナグループ職博</a></li>
+</ul>
+
+</div>
+</nav>
+                <div id="dnn_HeadPane" class="HeadPane">
+<section class="zero">
+  <div class="contents">
+    <div class="actionBtn"></div>
+    <div id="dnn_ctr448_ContentPane"><!-- Start_Module_448 --><script type="text/javascript"><!--
+(function($){
+	$(document).ready( function(){
+
+		$(".smtMenuBtn").click(function(event){
+			event.stopPropagation();
+			$(".smtMenuWrap").slideToggle(150);
+			$(".smtMenuBtn").toggleClass("menuOpen");
+		});
+	});
+})(jQuery)
+//--></script><div id="dnn_ctr448_ModuleContent">
+	
+<div class="seachWrap"><iframe height="24" frameborder="0" width="210" src="/Portals/0/html/bizreach.html" scrolling="no"></iframe> </div>
+<ul class="hLink">
+    <li><a href="/english/index.html">ENGLISH</a></li>
+</ul>
+<!--以下からスマホ用メニューのソース-->
+<div class="smtMenuBtn">MENU</div>
+<div class="smtMenuWrap">
+<ul class="smtMenu">
+    <li><a href="/company/">会社情報</a></li>
+    <li><a href="/ir/">IR情報</a></li>
+    <li><a href="/recruit/">社員採用情報</a></li>
+    <li><a href="/koken/">社会貢献活動</a></li>
+    <li><a href="/job.html">お仕事をお探しの方へ</a></li>
+    <li><a href="/agent.html">企業ご担当者様へ</a></li>
+    <li><a href="/media/">WEBマガジン「INITIATIVE」</a></li>
+</ul>
+<div class="seachWrap"><iframe height="24" frameborder="0" width="210" src="/Portals/0/html/bizreach_sp.html" scrolling="no"></iframe></div>
+<ul class="smtMenu">
+    <li><a href="/english/index.html">English</a></li>
+</ul>
+</div>
+
+
+<!-- End_Module_448 -->
+</div></div>
+  </div>
+</section>
+
+</div>
+            </div>
+        </div>
+    </header>
+    <main id="mainBody">
+        <div id="dnn_TopPane" class="TopPane">
+<section class="zero">
+  <div class="contents">
+    <div class="actionBtn"></div>
+    <div id="dnn_ctr1064_ContentPane"><!-- Start_Module_1064 --><script type="text/javascript" src="/Portals/0/js/bxslider/jquery.bxslider_index-ver2.js"></script><div id="dnn_ctr1064_ModuleContent">
+	
+<div class="mainVisualPosition">
+<div class="mainVisualWrap">
+<div class="mainVisualOverlay"><img alt="集合写真" src="/Portals/0/images/index/img_main-first.jpg" /></div>
+<div class="mainVisualTitle spArea"><img alt="パソナグループの仕事は「人を活かす」こと" src="/Portals/0/images/index/img_main-title_sp.jpg" /></div>
+<div class="mainVisualBox">
+<ul class="mainVisual fade01">
+    <li class="imgHr01"><a href="/hr.html"><img alt="人材サービスのイメージ画像１" src="/Portals/0/images/index/img_main-hr01.jpg" /></a></li>
+    <li class="imgHr02"><a href="/hr.html"><img alt="人材サービスのイメージ画像２" src="/Portals/0/images/index/img_main-hr02.jpg" /></a></li>
+</ul>
+</div>
+<div class="mainVisualBox">
+<ul class="mainVisual fade02">
+    <li class="imgGlobal01"><a href="/global.html"><img alt="グローバルサービスのイメージ画像１" src="/Portals/0/images/index/img_main-global01.jpg" /></a></li>
+    <li class="imgGlobal02"><a href="/global.html"><img alt="グローバルサービスのイメージ画像２" src="/Portals/0/images/index/img_main-global02.jpg" /></a></li>
+</ul>
+</div>
+<div class="mainVisualBox">
+<ul class="mainVisual fade01">
+    <li class="imgTraining01"><a href="/training.html"><img alt="教育・研修のイメージ画像１" src="/Portals/0/images/index/img_main-training01.jpg" /></a></li>
+    <li class="imgTraining02"><a href="/training.html"><img alt="教育・研修のイメージ画像２" src="/Portals/0/images/index/img_main-training02.jpg" /></a></li>
+</ul>
+</div>
+<div class="mainVisualBox">
+<ul class="mainVisual fade02">
+    <li class="imgRegion01"><a href="/awaji.html"><img alt="" src="/Portals/0/images/index/img_main-region01-02.jpg?11765162925216" /></a></li>
+    <li class="imgRegion02"><a href="/awaji.html"><img alt="地方創生のイメージ画像２" src="/Portals/0/images/index/img_main-region02.jpg" /></a></li>
+</ul>
+</div>
+<div class="mainVisualBox">
+<ul class="mainVisual fade01">
+    <li class="imgLife01-1"><a href="/life.html"><img alt="福利厚生のイメージ画像１" src="/Portals/0/images/index/img_main-life01-1.jpg" /></a></li>
+    <li class="imgLife01-2"><a href="/life.html"><img alt="福利厚生のイメージ画像２" src="/Portals/0/images/index/img_main-life01-2.jpg" /></a></li>
+</ul>
+</div>
+<div class="mainVisualBox">
+<ul class="mainVisual fade02">
+    <li class="imgLife02-1"><a href="/life.html#child"><img alt="保育・介護・家事代行のイメージ画像１" src="/Portals/0/images/index/img_main-life02-1.jpg" /></a></li>
+    <li class="imgLife02-2"><a href="/life.html#child"><img alt="保育・介護・家事代行のイメージ画像２" src="/Portals/0/images/index/img_main-life02-2.jpg" /></a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="mainVisualTitle pcArea"><img alt="" src="/Portals/0/images/index/ttl_kv.png?11712153921668" /></div>
+
+
+<!-- End_Module_1064 -->
+</div></div>
+  </div>
+</section>
+
+</div>
+        <div id="contentWrap">
+            <div id="dnn_ContentPane" class="ContentPane">
+<section class="zero">
+  <div class="contents">
+    <div class="actionBtn"></div>
+    <div id="dnn_ctr467_ContentPane"><!-- Start_Module_467 --><div id="dnn_ctr467_ModuleContent">
+	
+<ul class="contBtnIndex">
+    <li><a href="/recruit/" target="_blank"><img alt="" src="/Portals/0/images/index/btn_recruit02.png?11663153542149" /></a></li>
+    <li><a href="/job.html"><img src="/Portals/0/images/index/btn_arrow-job.png" alt="お仕事をお探しの方へ" /></a></li>
+    <li><a href="/agent.html"><img src="/Portals/0/images/index/btn_arrow-agent.png" alt="企業ご担当者様へ" /></a></li>
+</ul>
+<ul class="contBtnIndex pcArea">
+    <li><a href="http://nijigennomori.com/" target="_blank"><img alt="" src="/Portals/0/images/common/bnr_nijigennomori.jpg?1176110722947" /></a></li>
+    <li>&nbsp;</li>
+</ul>
+<div class="spArea">
+<p><a href="http://nijigennomori.com/" target="_blank"><img alt="" src="/Portals/0/images/common/bnr_nijigennomori.jpg?1176110722947" /></a></p>
+<p><a href="/hr_forum/" target="_blank"><img alt="" src="/Portals/0/images/common/bnr_hrforum2017.jpg?11742152245582" /></a></p>
+</div>
+
+
+<!-- End_Module_467 -->
+</div></div>
+  </div>
+</section>
+
+
+<section class="zero">
+  <div class="contents">
+    <div class="actionBtn"></div>
+    <div id="dnn_ctr465_ContentPane"><!-- Start_Module_465 --><div id="dnn_ctr465_ModuleContent">
+	<div id="dnn_ctr465_ViewAnnouncements_pnlAllArea" class="ViewAnnouncements">
+		
+    <div class="contTitleWrap">
+<h2 class="contTitle"><img src="/Portals/0/images/index/ttl_news-topics.png" alt="News&Topics"></h2>
+<p class="listBtn"><a href="/news/">一覧ページへ</a></p>
+</div>
+<div class="newsListIndex">
+<ul>
+    
+            <li>
+<p class="newsDate">2017.08.18</p>
+<p class="newsIcon"><img src="/Portals/0/images/common/ico_news-ir.png" alt="IR情報" id="dnn_ctl798_iconurl_40069"/></p>
+<p class="newsTitle"><a href="/Portals/0/resources/ir/pdf/20170818.pdf" target="_blank">役員人事に関するお知らせ</a></p>
+</li>
+	    
+            <li>
+<p class="newsDate">2017.08.18</p>
+<p class="newsIcon"><img src="/Portals/0/images/common/ico_news-release.png" alt="グローバル" id="dnn_ctl798_iconurl_40067"/></p>
+<p class="newsTitle"><a href="/news/index112.html?itemid=2215&dispmid=798">アウトソーシング、危機管理、研修 等<br />
+パソナ　海外人事のトレンドを紹介するセミナー開催</a></p>
+</li>
+	    
+            <li>
+<p class="newsDate">2017.08.16</p>
+<p class="newsIcon"><img src="/Portals/0/images/common/ico_news-release.png" alt="HR・就労支援" id="dnn_ctl798_iconurl_40065"/></p>
+<p class="newsTitle"><a href="/news/index112.html?itemid=2214&dispmid=798" target="_blank"><span class="NormalRed">阿波おどりのイベント民泊でSQUEEZE社『suitebook』を導入</span><br />
+イベント民泊等の自宅提供者向けサービス<br />
+パソナ『地域おもてなしホストサポートサービス』開始</a></p>
+</li>
+	    
+            <li>
+<p class="newsDate">2017.08.09</p>
+<p class="newsIcon"><img src="/Portals/0/images/common/ico_news-news.png" alt="お知らせ" id="dnn_ctl798_iconurl_40061"/></p>
+<p class="newsTitle"><a href="/Portals/0/resources/news/otemachi_bokujo.pdf" target="_blank">大手町牧場のご案内</a></p>
+</li>
+	    
+            <li>
+<p class="newsDate">2017.08.09</p>
+<p class="newsIcon"><img src="/Portals/0/images/common/ico_news-release.png" alt="地域活性・農業" id="dnn_ctl798_iconurl_40064"/></p>
+<p class="newsTitle"><a href="/news/index112.html?itemid=2213&dispmid=798" target="_blank"><span class="NormalRed">地域産業を担う人材を育てる都市型牧場</span><br />
+「酪農」と「食育」を学ぶ『大手町牧場』8/9開設</a></p>
+</li>
+	    
+            <li>
+<p class="newsDate">2017.08.08</p>
+<p class="newsIcon"><img src="/Portals/0/images/common/ico_news-release.png" alt="地域活性・農業" id="dnn_ctl798_iconurl_40059"/></p>
+<p class="newsTitle"><a href="/news/index112.html?itemid=2210&dispmid=798"><span class="NormalRed">兵庫県立淡路島公園アニメパーク「ニジゲンノモリ」にレストランが完成</span><br />
+森の隠れ家レストラン『モリノテラス』8月11日オープン<br />
+～　地元淡路島産の食材にこだわった創作料理を提供　～</a></p>
+</li>
+	    
+    
+    </ul>
+</div>
+    
+
+	</div>
+<!-- End_Module_465 -->
+</div></div>
+  </div>
+</section>
+
+</div>
+        </div>
+        <div id="bottomWrap">
+            <div id="dnn_BottomPane" class="BottomPane">
+<section class="zero">
+  <div class="contents">
+    <div class="actionBtn"></div>
+    <div id="dnn_ctr466_ContentPane"><!-- Start_Module_466 --><script type="text/javascript" src="/Portals/0/js/matchHeight/jquery.matchHeight.js"></script>
+<script type="text/javascript">
+jQuery(function($) {
+$(document).ready(function(){
+    $('.mediaListBox .newsTitle a').matchHeight();
+});
+});
+</script><div id="dnn_ctr466_ModuleContent">
+	<div id="dnn_ctr466_ViewAnnouncements_pnlAllArea" class="ViewAnnouncements">
+		
+    <div class="contTitleWrap media">
+<h2 class="contTitle"><a href="/media/"><img src="/Portals/0/images/index/ttl_initiative.png" alt="INITIATIVE「自分のキャリアは自分で創る」WEBマガジン"></a></h2>
+<p class="listBtn"><a href="/media/">記事一覧へ</a></p>
+</div>
+<div class="mediaListIndex">
+    
+            <div class="mediaListBox">
+<p class="newsImg"><a href="/media/index114.html?itemid=2203&dispmid=796"><img src="/Portals/0/images/media/2017_07/20170731_pasona-heartful_01.jpg" alt="障害者の才能・能力を活かした活躍の場の拡大 ～精神障害者の雇用義務化と法定雇用率引き上げに向けて～" id="dnn_ctl796_imagesource_40048"/></a></p>
+<p class="newsIcon"><img src="/Portals/0/images/common/ico_media-hr.png" alt="HR" id="dnn_ctl796_iconurl_40048"/></p>
+<p class="newsTitle"><a href="/media/index114.html?itemid=2203&dispmid=796">障害者の才能・能力を活かした活躍の場の拡大 ～精神障害者の雇用義務化と法定雇用率引き上げに向けて～</a></p>
+<p class="newsDate">2017.07.31</p>
+</div>
+	    
+            <div class="mediaListBox">
+<p class="newsImg"><a href="/media/index114.html?itemid=2197&dispmid=796"><img src="/Portals/0/images/media/2017_07/20170725_insentive_01.jpg" alt="報酬より承認！？人手不足時代のエンゲージメント向上策とは" id="dnn_ctl796_imagesource_40032"/></a></p>
+<p class="newsIcon"><img src="/Portals/0/images/common/ico_media-hr.png" alt="HR" id="dnn_ctl796_iconurl_40032"/></p>
+<p class="newsTitle"><a href="/media/index114.html?itemid=2197&dispmid=796">報酬より承認！？人手不足時代のエンゲージメント向上策とは</a></p>
+<p class="newsDate">2017.07.25</p>
+</div>
+	    
+            <div class="mediaListBox">
+<p class="newsImg"><a href="/media/index114.html?itemid=2155&dispmid=796" target="_blank"><img src="/Portals/0/images/media/2017_05/20170525_caplan3.jpg" alt="ダイバーシティ推進企業 千葉銀行が取り組む女性活躍推進のいま" id="dnn_ctl796_imagesource_39945"/></a></p>
+<p class="newsIcon"><img src="/Portals/0/images/common/ico_media-hr.png" alt="HR" id="dnn_ctl796_iconurl_39945"/></p>
+<p class="newsTitle"><a href="/media/index114.html?itemid=2155&dispmid=796" target="_blank">ダイバーシティ推進企業 千葉銀行が取り組む女性活躍推進のいま</a></p>
+<p class="newsDate">2017.05.31</p>
+</div>
+	    
+            <div class="mediaListBox">
+<p class="newsImg"><a href="/media/index114.html?itemid=2143&dispmid=796"><img src="/Portals/0/images/media/2017_04/20170426_tango_01.jpg" alt="2年で100万人来場！人を育み、地域の核となる「道の駅」の挑戦" id="dnn_ctl796_imagesource_39911"/></a></p>
+<p class="newsIcon"><img src="/Portals/0/images/common/ico_media-life.png" alt="ライフ" id="dnn_ctl796_iconurl_39911"/></p>
+<p class="newsTitle"><a href="/media/index114.html?itemid=2143&dispmid=796">2年で100万人来場！人を育み、地域の核となる「道の駅」の挑戦</a></p>
+<p class="newsDate">2017.04.26</p>
+</div>
+	    
+            <div class="mediaListBox">
+<p class="newsImg"><a href="/media/index114.html?itemid=2136&dispmid=796"><img src="/Portals/0/images/media/2017_04/20170414_hakenhou_01.jpg" alt="労働者派遣法「事業所単位の期間制限」の延長手続きにおける注意ポイント" id="dnn_ctl796_imagesource_39885"/></a></p>
+<p class="newsIcon"><img src="/Portals/0/images/common/ico_media-hr.png" alt="HR" id="dnn_ctl796_iconurl_39885"/></p>
+<p class="newsTitle"><a href="/media/index114.html?itemid=2136&dispmid=796">労働者派遣法「事業所単位の期間制限」の延長手続きにおける注意ポイント</a></p>
+<p class="newsDate">2017.04.14</p>
+</div>
+	    
+            <div class="mediaListBox">
+<p class="newsImg"><a href="/media/index114.html?itemid=2133&dispmid=796"><img src="/Portals/0/images/media/2017_04/20170411_USAHR_01.jpg" alt="アメリカの人事制度の特徴とは？ 5分でわかる日本との違い" id="dnn_ctl796_imagesource_39880"/></a></p>
+<p class="newsIcon"><img src="/Portals/0/images/common/ico_media-hr.png" alt="HR" id="dnn_ctl796_iconurl_39880"/></p>
+<p class="newsTitle"><a href="/media/index114.html?itemid=2133&dispmid=796">アメリカの人事制度の特徴とは？ 5分でわかる日本との違い</a></p>
+<p class="newsDate">2017.04.11</p>
+</div>
+	    
+    
+    </div>
+    
+
+	</div>
+<!-- End_Module_466 -->
+</div></div>
+  </div>
+</section>
+
+</div>
+        </div>
+    </main>
+    <footer id="footBody">
+        <p class="pagetop"><a href="#headBody">ページトップへ</a>
+</p>
+        <div id="footWrap">
+            <div id="dnn_FootPane" class="FootPane">
+<section class="zero">
+  <div class="contents">
+    <div class="actionBtn"></div>
+    <div id="dnn_ctr468_ContentPane"><!-- Start_Module_468 --><script type="text/javascript">
+(function($) {
+    $(function() {
+        function getTerminalType() {
+            var result_value = "0";
+            $.ajax({
+                url: 'http://sp.infocms.jp/?v=2&ua=' + navigator.userAgent,
+                type: "GET",
+                async: false
+            }).done(function(data) {
+                result_value = data;
+            });
+            return result_value;
+        }
+     
+        // 0:PC、1:スマホ、2:タブレット
+        var UAType = getTerminalType();
+        if (UAType == 0||UAType == 2) {
+            // 以下処理
+			$('.bxslider').bxSlider({
+				auto: true,
+				pager: false,
+				controls: true,
+				minSlides: 3,
+				maxSlides: 3,
+				moveSlides: 1
+			});
+            // ここまで
+        }
+        else if (UAType == 1) {
+            // 以下処理
+			$('.bxslider').bxSlider({
+				auto: true,
+				pager: false,
+				controls: true,
+				minSlides: 1,
+				maxSlides: 1,
+				moveSlides: 1
+			});
+            // ここまで
+        }
+    });
+})(jQuery);
+</script><div id="dnn_ctr468_ModuleContent">
+	
+<div class="bannerWrap">
+<div class="bannerLeft"><a href="http://www.pasona.co.jp/jobsearch/" target="_blank"><img alt="パソナJOBサーチ" src="/Portals/0/images/common/bnr_job-search.jpg" /></a>
+<a href="https://www.facebook.com/pasonagroup.jp/" target="_blank" class="topFbBtn"><img alt="パソナグループFacebook" src="/Portals/0/images/common/btn_facebook.png" /></a></div>
+<div class="bannerRight">
+<ul class="bxslider">
+    <li><a href="https://chihososei-juku.com/" target="_blank"><img alt="" src="/Portals/0/images/common/bnr_chihososei-juku.jpg?1171315498676" /></a></li>
+    <li><a href="https://job-haku.com/" target="_blank"><img alt="JOB博" src="/Portals/0/images/common/bnr_job-haku.jpg?1170518214796" /></a></li>
+    <li><a href="https://www.pasona-lc.co.jp/kaji/" target="_blank"><img alt="家ゴトコンシェルジュ" src="/Portals/0/images/common/bnr_iegoto.jpg" /></a></li>
+    <li><a href="http://www.nambuyasuyuki.com" target="_blank"><img alt="" src="/Portals/0/images/common/bnr_nambu02.jpg?11715175844983" /></a></li>
+    <li><a href="/office/osaka.html" target="_blank"><img alt="" src="/Portals/0/images/common/bnr_office02.jpg?11745165350762" /></a></li>
+    <li><a href="https://www.pasona-heartful.co.jp/art-mura/" target="_blank"><img alt="" src="/Portals/0/images/common/bnr_artmura.jpg?1162417547770" /></a></li>
+    <li><a target="_blank" href="/lba/"><img alt="" src="/Portals/0/images/common/bnr_lba.jpg?11624171148999" /></a></li>
+    <li><a target="_blank" href="/entreship/"><img alt="" src="/Portals/0/images/common/bnr_entreship03.jpg?1162417111844" /></a></li>
+    <li><a target="_blank" href="http://liijapan.com/"><img alt="" src="/Portals/0/images/common/bnr_lii.jpg?11624171335582" /></a></li>
+    <li><a target="_blank" href="/portals/0/resources/knowledgebank/"><img alt="" src="/Portals/0/images/common/bnr_knowledgebank.jpg?11624174440398" /></a></li>
+    <li><a href="https://www.pasona-lc.co.jp/family-care/"><img alt="" src="/Portals/0/images/common/logo_family-care.jpg?1164517555533" /></a></li>
+</ul>
+</div>
+</div>
+
+
+<!-- End_Module_468 -->
+</div></div>
+  </div>
+</section>
+
+</div>
+        </div>
+        <div id="footBottomWrap">
+            <div id="dnn_FootLeftPane" class="FootLeftPane">
+<section class="zero">
+  <div class="contents">
+    <div class="actionBtn"></div>
+    <div id="dnn_ctr447_ContentPane"><!-- Start_Module_447 --><div id="dnn_ctr447_ModuleContent">
+	
+<ul class="fLink">
+    <li><a href="/contact/" target="_blank">お問合せ</a></li>
+    <li><a href="/utility/terms.html">当サイトご利用にあたって</a></li>
+    <li><a href="/utility/privacy.html">個人情報保護方針</a></li>
+    <li><a href="/utility/mynumber.html">特定個人情報基本方針</a></li>
+    <li><a href="/utility/security.html">情報セキュリティ基本方針</a></li>
+    <li><a href="/sitemap/">サイトマップ</a></li>
+</ul>
+
+
+<!-- End_Module_447 -->
+</div></div>
+  </div>
+</section>
+
+
+<section class="zero">
+  <div class="contents">
+    <div class="actionBtn"></div>
+    <div id="dnn_ctr1364_ContentPane"><!-- Start_Module_1364 --><div id="dnn_ctr1364_ModuleContent">
+	
+<!-- User Insight PCDF Code Start : pasonagroup.co.jp -->
+<script type="text/javascript">
+<!--
+var _uic = _uic ||{}; var _uih = _uih ||{};_uih['id'] = 51981;
+_uih['lg_id'] = '';
+_uih['fb_id'] = '';
+_uih['tw_id'] = '';
+_uih['uigr_1'] = ''; _uih['uigr_2'] = ''; _uih['uigr_3'] = ''; _uih['uigr_4'] = ''; _uih['uigr_5'] = '';
+_uih['uigr_6'] = ''; _uih['uigr_7'] = ''; _uih['uigr_8'] = ''; _uih['uigr_9'] = ''; _uih['uigr_10'] = '';
+
+/* DO NOT ALTER BELOW THIS LINE */
+/* WITH FIRST PARTY COOKIE */
+(function() {
+var bi = document.createElement('scri'+'pt');bi.type = 'text/javascript'; bi.async = true;
+bi.src = ('https:' == document.location.protocol ? 'https://bs' : 'http://c') + '.nakanohito.jp/b3/bi.js';
+var s = document.getElementsByTagName('scri'+'pt')[0];s.parentNode.insertBefore(bi, s);
+})();
+//-->
+</script>
+<!-- User Insight PCDF Code End : pasonagroup.co.jp -->
+
+
+<!-- End_Module_1364 -->
+</div></div>
+  </div>
+</section>
+
+</div>
+            <p class="copyright"><span id="dnn_dnnCOPYRIGHT_lblCopyright" class="copyrightCss">© 2017 Pasona Group, Inc.</span>
+</p>
+        </div>
+    </footer>
+</div>
+
+
+        <input name="ScrollTop" type="hidden" id="ScrollTop" />
+        <input name="__dnnVariable" type="hidden" id="__dnnVariable" />
+    </form>
+<!-- 345646102B6E121D6EA7DB5DFE92AF20D69A0EBD9AC49BE4AF273AC623D53C89 -->
+</body>
+</html>

@@ -1,0 +1,785 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/index.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/jacascript" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>マルサンアイ株式会社｜豆乳と味噌メーカー</title>
+<meta name="keywords" content="マルサン,マルサンアイ株式会社,みそ,味噌,豆乳,豆乳飲料,有機豆乳,調製豆乳,豆乳レシピ,味噌レシピ,大豆,国産大豆,きぬさやか,ひとつ上の,豆乳グルト" />
+<meta name="description" content="大豆が明日のあなたにできること。おみそと豆乳の「マルサンアイ株式会社」のオフィシャルサイトです。" />
+<!-- InstanceEndEditable -->
+
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+
+<script src="js/jquery-1.4.4.js" type="text/javascript"></script>
+<script src="js/globalmenu.js" type="text/javascript"></script>
+<script src="js/jqueryfontsizechange.js" type="text/javascript"></script>
+<script src="js/jquery.cookie.js" type="text/javascript"></script>
+<script src="js/page-scroller.js" type="text/javascript"></script>
+
+<!--
+<script src="../js/swfobject_modified.js" type="text/javascript"></script>
+ -->
+
+<script type="text/javascript">
+	$(function() {
+		$("#Shinshouhin").load("./topnewproducts.php");
+		$("#Topics").load("./toptopics.php");
+		$("#IRTopics").load("./topirtopics.php");
+	});
+</script>
+
+<!--
+<script type="text/javascript">
+if (navigator.userAgent.indexOf('iPhone') != -1 || navigator.userAgent.indexOf('Android') > 0) {
+document.write('<link rel="stylesheet" type="text/css" href="css/index_import_sp.css" media="all">');
+}
+else {
+document.write('<link rel="stylesheet" type="text/css" href="css/index_import_pc.css" media="all">');
+}
+</script>
+ -->
+
+<link href="css/index_import_sp.css" media="screen and (max-width:640px)" rel="stylesheet" type="text/css" />
+<link href="css/index_import_pc.css" media="screen and (min-width:641px)" rel="stylesheet" type="text/css" />
+<!--[if lt IE 8]>
+<link href="css/index_import_pc.css" media="screen" rel="stylesheet" type="text/css" />
+<![endif]-->
+
+
+<!-- InstanceBeginEditable name="head" -->
+
+<!--
+<script type="text/javascript">
+if (navigator.userAgent.indexOf('iPhone') > 0 || navigator.userAgent.indexOf('iPod') > 0 || navigator.userAgent.indexOf('Windows Phone') > 0 || navigator.userAgent.indexOf('Android') > 0 && navigator.userAgent.indexOf('Mobile') > 0) {
+document.write('<link rel="stylesheet" type="text/css" href="css/index_sp.css" media="all">');
+}
+else {
+document.write('<link rel="stylesheet" type="text/css" href="css/index_pc.css" media="all">');
+}
+</script>
+ -->
+
+<!-- FlexSlider -->
+
+<link href="flexslider/flexslider.css" rel="stylesheet" type="text/css" />
+
+
+<link href="css/index_sp.css" media="screen and (max-width:720px)" rel="stylesheet" type="text/css" />
+<link href="css/index_pc.css" media="screen and (min-width:721px)" rel="stylesheet" type="text/css" />
+<!--[if lt IE 8]>
+<link href="css/index_pc.css" media="screen" rel="stylesheet" type="text/css" />
+<![endif]-->
+
+
+<!-- InstanceEndEditable -->
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-20616115-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</head>
+
+<body><!-- #BeginLibraryItem "/Library/Header.lbi" -->
+
+<!-- ▽▽▽Header Area▽▽▽ -->
+
+
+<div id="header">
+
+<div id="LinkList1">
+<ul>
+<li class="SiteTop"><a href="/">サイトトップへ</a></li>
+</ul>
+</div>
+
+<div class="HeaderLogo" title="マルサンアイのホームページへ"><a href="/"><strong>marusan</strong></a></div>
+
+<div class="HeaderRight">
+
+<div class="HeaderLine1">
+<div class="Access"><a href="company_access.html"><strong>アクセス</strong></a></div>
+<div class="Sitemap"><a href="sitemap.html"><strong>サイトマップ</strong></a></div>
+<div class="Otoiawase"><a href="okyakusama_otoiawase.html"><strong>お問い合わせ</strong></a></div>
+<!--
+<div class="Serch"><form><input name="serch" type="text" size="20" maxlength="50" class="SerchWords" /><input name="検索" type="image" src="../imgs/header_btn_serch.gif" alt="検索" class="BtnSerch" /></form></div>
+-->
+ 
+<div id="fontSize">
+<div class="ImageText">文字サイズ</div><div id="fontS"><img src="imgs/jqueryfontsizechange-s.gif" alt="小" /></div><div id="fontM"><img src="imgs/jqueryfontsizechange-m.gif" alt="中" /></div><div id="fontL"><img src="imgs/jqueryfontsizechange-l.gif" alt="大" /></div>
+</div>
+
+</div>
+
+<div class="HeaderLine2">
+<div class="Campaign"><a href="campaign.html"><strong>キャンペーン</strong></a></div>
+<div class="Shopping"><a href="http://www.daizu-hitosuji.com/" target="_blank"><strong>オンラインショッピング</strong></a></div>
+<div class="facebook"><a href="https://www.facebook.com/marusanai" target="_blank"><strong>Facebookもチェック</strong></a></div>
+</div>
+
+</div>
+
+<div id="Clear"></div>
+
+<!-- end #header --></div>
+
+
+<!-- △△△Header Area△△△ -->
+
+
+<!-- #EndLibraryItem --><!-- #BeginLibraryItem "/Library/GlobalMenu.lbi" -->
+
+
+<!-- ▽▽▽GlobalMenu Area▽▽▽ -->
+
+<div id="Clear"></div>
+
+<div id="GlobalMenu">
+
+<div id="GmenuList">
+
+<ul class="menu">
+<li class="Gmenu01"><a href="lineup.html" title="マルサンの取扱商品です"><strong>商品情報</strong></a>
+	<ul class="sub">
+		<li class="Gmenu01Sub01"><a href="lineuplist.php?cat=1" title="豆乳">豆乳</a></li>
+		<li class="Gmenu01Sub02"><a href="lineuplist.php?cat=2" title="飲料">飲料</a></li>
+		<li class="Gmenu01Sub03"><a href="lineuplist.php?cat=3" title="鍋スープ・鍋用みそ">鍋スープ・鍋用みそ</a></li>
+		<li class="Gmenu01Sub04"><a href="lineuplist.php?cat=4" title="レトルト食品等">レトルト食品等</a></li>
+		<li class="Gmenu01Sub05"><a href="lineuplist.php?cat=5" title="みそ">みそ</a></li>
+		<li class="Gmenu01Sub06"><a href="lineuplist.php?cat=6" title="お料理みそ">お料理みそ</a></li>
+		<li class="Gmenu01Sub07"><a href="lineuplist.php?cat=7" title="即席みそ汁・スープ">即席みそ汁・スープ</a></li>
+		<li class="Gmenu01Sub08"><a href="lineuplist.php?cat=8" title="業務用">業務用</a></li>
+		<li class="Gmenu01Sub09"><a href="lineuplist.php?cat=9" title="LOVE健康シリーズ">LOVE健康シリーズ</a></li>
+		<li class="Gmenu01Sub10"><a href="lineup_allergy.html" title="アレルギー表示について">アレルギー表示について</a></li>
+	</ul>
+</li>
+<li class="Gmenu02"><a href="recipe.html" title="マルサン商品を使った料理レシピがいっぱい！"><strong>お料理レシピ</strong></a>
+	<ul class="sub">
+		<li class="Gmenu02Sub10"><a href="wakuwaku-recipe/index.html" title="豆乳や大豆を使った親子で楽しくできる料理レシピです" target="_blank">親子で作るわくわくレシピ</a></li>
+		<li class="Gmenu02Sub01"><a href="miso_cooking/index.html" title="みそを使ったおすすめの料理レシピです" target="_blank">みそCooking</a></li>
+		<li class="Gmenu02Sub02"><a href="tonyu_cooking/index.html" title="豆乳を使ったおすすめの料理レシピです" target="_blank">豆乳Cooking</a></li>
+		<li class="Gmenu02Sub04"><a href="tonyugurt/recipe.html" title="豆乳グルトを使ったオリジナルレシピです" target="_blank">豆乳グルトレシピ</a></li>
+		<li class="Gmenu02Sub07"><a href="rinyushoku/index.html" title="豆乳を使ったやさしい離乳食レシピです" target="_blank">豆乳でやさしい離乳食</a></li>
+		<li class="Gmenu02Sub08"><a href="mushidaizu/index.html" title="蒸し大豆・蒸しサラダ豆を使った簡単レシピです" target="_blank">蒸し大豆・蒸しサラダ豆レシピ</a></li>
+		<li class="Gmenu02Sub09"><a href="shiokoji/index.html" title="塩糀を使った料理レシピです" target="_blank">塩糀レシピ</a></li>
+		<!--<li class="Gmenu02Sub03"><a href="../okazumiso/index.html" title="おかずみそを使った料理レシピです" target="_blank">おかずみそ</a></li> -->
+		<!--<li class="Gmenu02Sub05"><a href="../nabe_recipe/index.html" title="鍋スープを使ったアレンジお鍋" target="_blank">あったか鍋レシピ</a></li> -->
+	</ul>
+</li>
+<li class="Gmenu03"><a href="daizu.html" title="大豆にまつわる色々なお話しがいっぱい！"><strong>大豆を知る・楽しむ</strong></a>
+	<ul class="sub">
+		<li class="Gmenu03Sub01"><a href="daizu_daizu.html" title="大豆のお話">大豆のお話</a></li>
+		<li class="Gmenu03Sub02"><a href="daizu_tonyu.html" title="豆乳のお話">豆乳のお話</a></li>
+		<li class="Gmenu03Sub03"><a href="daizu_miso.html" title="おみそのお話">おみそのお話</a></li>
+		<li class="Gmenu03Sub08"><a href="daizu_hakkotonyu.html" title="発酵豆乳のお話">発酵豆乳のお話</a></li>
+		<li class="Gmenu03Sub10"><a href="factory/index.html" target="_blank" title="バーチャル豆乳工場見学">バーチャル豆乳工場見学</a></li>
+		<li class="Gmenu03Sub04"><a href="daizu_mamepiyo.html" title="まめぴよ博士の知恵袋">まめぴよ博士の知恵袋</a></li>
+		<li class="Gmenu03Sub05"><a href="shokuiku/index.html" target="_blank" title="食育を考える">食育を考える</a></li>
+		<li class="Gmenu03Sub06"><a href="daizu_cm.html" title="CM情報">CM情報</a></li>
+		<!--<li class="Gmenu03Sub09"><a href="../science/index.html" title="豆乳サイエンス" target="_blank">豆乳サイエンス</a></li>-->
+</ul>
+</li>
+<li class="Gmenu04"><a href="ir.html" title="マルサンアイの株式情報・プレスリリースなどをご覧いただけます"><strong>株主・投資家の皆様へ</strong></a>
+	<ul class="sub">
+		<li class="Gmenu04Sub01"><a href="ir_topics.html" title="IRトピックス">IRトピックス</a></li>
+		<li class="Gmenu04Sub02"><a href="ir_aisatsu.html" title="社長挨拶">社長挨拶</a></li>
+		<li class="Gmenu04Sub11"><a href="company.html" title="企業情報">企業情報</a></li>
+		<li class="Gmenu04Sub03"><a href="ir_kihon.html" title="株式基本情報">株式基本情報</a></li>
+		<li class="Gmenu04Sub04"><a href="ir_zaimu.html" title="財務情報">財務情報</a></li>
+		<li class="Gmenu04Sub05"><a href="ir_keiei.html" title="経営指標">経営指標</a></li>
+		<li class="Gmenu04Sub08"><a href="ir_QA.html" title="株式Ｑ＆Ａ">株式Q&amp;A</a></li>
+		<li class="Gmenu04Sub06"><a href="ir_schedule.html" title="IRスケジュール">IRスケジュール</a></li>
+		<li class="Gmenu04Sub10"><a href="ir_corporate_governance.html" title="コーポレート・ガバナンス">コーポレート・ガバナンス</a></li>
+		<li class="Gmenu04Sub09"><a href="ir_denshi_kokoku.html" title="電子公告">電子公告</a></li>
+	</ul>
+</li>
+<li class="Gmenu05"><a href="okyakusama.html" title="お客様からいただいた様々な声をまとめています"><strong>お客様相談室</strong></a>
+	<ul class="sub">
+		<li class="Gmenu05Sub01"><a href="okyakusama_QA.html" title="よくお問い合わせいただく項目を「Ｑ＆Ａ」としてまとめています">Q&amp;A</a></li>
+		<!--<li class="Gmenu05Sub02"><a href="../okyakusama_arigato-no-tane.html" title="ひとつひとつのお客様の声は、私たちにとって「ありがとうの種」です">ありがとうの種</a></li> -->
+		<li class="Gmenu05Sub06"><a href="okyakusama_arigato-no-tsubomi.html" title="「ありがとうの種」から育てたつぼみをご紹介します">ありがとうのつぼみ</a></li>
+		<li class="Gmenu05Sub03"><a href="okyakusama_otoiawase.html" title="各種お問い合わせはこちらから">お問い合わせ</a></li>
+	</ul>
+</li>
+<li class="Gmenu06"><a href="company.html" title="マルサンアイの企業情報です"><strong>企業情報</strong></a>
+	<ul class="sub">
+		<li class="Gmenu06Sub01"><a href="company_kenkyu-kaihatsu.html" title="研究開発">研究開発</a></li>
+		<li class="Gmenu06Sub02"><a href="company_shohin-kaihatsu.html" title="商品開発">商品開発</a></li>
+		<li class="Gmenu06Sub03"><a href="company_seisan-setsubi.html" title="生産･設備">生産･設備</a></li>
+		<li class="Gmenu06Sub04"><a href="company_koho.html" title="広報">広報</a></li>
+		<li class="Gmenu06Sub05"><a href="company_eigyo.html" title="営業">営業</a></li>
+		<li class="Gmenu06Sub06"><a href="company_kaigai-jigyo.html" title="海外事業展開">海外事業展開</a></li>
+		<li class="Gmenu06Sub12"><a href="anzen_anshin/index.html" target="_blank" title="安全・安心への取り組み">安全・安心への取り組み</a></li>
+		<li class="Gmenu06Sub07"><a href="company_profile.html" title="プロフィール">プロフィール</a></li>
+		<li class="Gmenu06Sub11"><a href="company_ayumi.html" title="マルサンアイの歩み">マルサンアイの歩み</a></li>
+		<li class="Gmenu06Sub08"><a href="company_kogaisha.html" title="子会社･関連会社">子会社･関連会社</a></li>
+		<li class="Gmenu06Sub09"><a href="company_access.html" title="アクセス">アクセス</a></li>
+		<li class="Gmenu06Sub10"><a href="company_recruit.html" title="採用情報">採用情報</a></li>
+		<li class="Gmenu06Sub13"><a href="english/index.html" target="_blank" title="English Pages">English Pages</a></li>
+	</ul>
+</li>
+</ul>
+
+</div>
+
+<!-- end #GlobalMenu --></div>
+<!-- △△△GlobalMenu Area△△△ -->
+
+<!-- #EndLibraryItem --><div id="Clear"></div>
+
+
+<!-- ▽▽▽Middle Area▽▽▽ -->
+
+<div id="MiddleArea">
+<!-- InstanceBeginEditable name="EditRegion-MiddleArea" -->	
+
+<div id="indexBG">
+
+<div id="container">
+
+
+<div id="Clear"></div>
+<!--&nbsp;<br />-->
+
+
+<!-- 1段目 -->
+<div id="MainFlash">
+
+<div class="ForPC2">
+
+<script type="text/javascript" src="flexslider/jquery.flexslider.js"></script>
+<script type="text/javascript">
+    $(function(){
+      SyntaxHighlighter.all();
+    });
+    $(window).load(function(){
+      $('.flexslider').flexslider({
+      //animation: "slide",
+      animation: "fade",
+      slideshowSpeed: 5000,
+      animationSpeed: 2000,
+      //animationDuration: 4000,
+      pauseOnHover: true,
+      //directionNav: false,
+      directionNav: true,
+      prevText: "",
+      nextText: "", 
+        start: function(slider){
+          $('body').removeClass('loading');
+        }
+      });
+    });
+</script>
+
+<div class="flexslider">
+	<ul class="slides">
+		<li><a href="abc_tonyu_cooking/index.html" target="_blank"><img src="flexslider/index_slideimage6.jpg" alt="豆乳でいつものメニューをもっと美味しくヘルシーに「ABC Cooking 豆乳ヘルシーレシピ」" /></a></li>
+		<li><a href="wakuwaku-recipe/index.html" target="_blank"><img src="flexslider/index_slideimage1.jpg" alt="東海テレビ「スイッチ！」ないで、毎週月曜日 10時50分ごろオンエア！「豆まめママの　親子で作るわくわくレシピ」" /></a></li>
+		<li><a href="tonyugurt/index.html" target="_blank"><img src="flexslider/index_slideimage2-2.jpg" alt="豆乳グルト。豆乳に植物性乳酸菌をプラスすることで、豆乳の良さがパワーアップしました。" /></a></li>
+		<li><a href="tonyu_cooking/index.html" target="_blank"><img src="flexslider/index_slideimage3.jpg" alt="豆乳を使ったヘルシーレシピがいっぱい！「豆乳Cooking！」" /></a></li>
+		<li><a href="miso_cooking/index.html" target="_blank"><img src="flexslider/index_slideimage4.jpg" alt="みそを使ったオリジナル・レシピがいっぱい！「みそCooking！」" /></a></li>
+		<!--<li><a href="gochimiso/index.html" target="_blank"><img src="flexslider/index_slideimage5.jpg" alt="これ1本で、もっとおいしく、もっと手軽に、チューブみそ調味料「ごちみそ」新発売！" /></a></li> -->
+	</ul>
+</div><!-- class="flexslider" -->
+
+</div><!-- class="ForPC2" -->
+
+</div><!-- id="MainFlash" -->
+
+
+<!--&nbsp;<br />-->
+
+
+<!-- 2段目 -->
+<div id="IndexBnr1">
+
+
+<!-- バナー4つの場合 -->
+<div id="Helicap2">
+
+<!-- 20150320 Helicap bnr -->
+<a href="helicap/index.html" target="_blank"></a>
+<!-- 20150320 Helicap bnr -->
+
+</div>
+
+
+<div id="Shinshouhin">
+<h2><a href="lineup_new_item.html">新商品情報</a></h2>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td>Data loading...</td>
+</tr>
+</table>
+</div>
+<!-- end #IndexBnr1 -->
+
+</div>
+
+
+<div id="Clear"></div>
+<!--&nbsp;<br />-->
+
+
+<!--▽▽▽ 2016.03.15 自主回収　社告バナー設置▽▽▽ -->
+<!--
+<div class="shakoku20160315">
+<div class="itemicon"></div>
+<a href="http://www.marusanai.co.jp/company/shakoku20160121.pdf" target="_blank">当社「寄せ鍋スープ」自主回収についてのお詫びとお知らせ</a>
+<div id="Clear"></div>
+</div>
+-->
+<!--▽▽▽ 2016.03.15 自主回収　社告バナー設置▽▽▽ -->
+
+<div class="indexLine1"></div>
+
+
+
+
+<!--&nbsp;<br />-->
+
+
+
+<!-- 3段目 -->
+
+
+<div id="LineupFlash">
+<h2><a href="lineup.html">商品ラインナップ</a></h2>
+
+<div>
+
+<div id="lineupanime_hype_container" style="position:relative;overflow:hidden;width:800px;height:180px;">
+<script type="text/javascript" charset="utf-8" src="lineup_anime_Resources/lineupanime_hype_generated_script.js"></script>
+</div>
+
+<div id="lineupanime_hype_container_sp">
+<p class="LineupIcon01"><a href="http://www.marusanai.co.jp/lineuplist.php?cat=1"><img src="imgs_sp/index_lineup_icon01.png" alt="" border="0" /></a></p>
+<p class="LineupIcon02"><a href="http://www.marusanai.co.jp/lineuplist.php?cat=2"><img src="imgs_sp/index_lineup_icon02.png" alt="" border="0" /></a></p>
+<p class="LineupIcon03"><a href="http://www.marusanai.co.jp/lineuplist.php?cat=3"><img src="imgs_sp/index_lineup_icon03.png" alt="" border="0" /></a></p>
+<p class="LineupIcon04"><a href="http://www.marusanai.co.jp/lineuplist.php?cat=4"><img src="imgs_sp/index_lineup_icon04.png" alt="" border="0" /></a></p>
+<p class="LineupIcon05"><a href="http://www.marusanai.co.jp/lineuplist.php?cat=5"><img src="imgs_sp/index_lineup_icon05.png" alt="" border="0" /></a></p>
+<p class="LineupIcon06"><a href="http://www.marusanai.co.jp/lineuplist.php?cat=6"><img src="imgs_sp/index_lineup_icon06.png" alt="" border="0" /></a></p>
+<p class="LineupIcon07"><a href="http://www.marusanai.co.jp/lineuplist.php?cat=7"><img src="imgs_sp/index_lineup_icon07.png" alt="" border="0" /></a></p>
+<p class="LineupIcon08"><a href="http://www.marusanai.co.jp/lineuplist.php?cat=8"><img src="imgs_sp/index_lineup_icon08.png" alt="" border="0" /></a></p>
+<p class="LineupIcon09"><a href="http://www.marusanai.co.jp/lineuplist.php?cat=9"><img src="imgs_sp/index_lineup_icon09.png" alt="" border="0" /></a></p>
+<div id="Clear"></div>
+</div>
+
+</div>
+
+</div>
+
+
+
+<div id="Clear"></div>
+<!--
+&nbsp;<br />
+&nbsp;<br />
+-->
+
+
+
+<!-- 4段目 -->
+<div id="TopicsArea">
+
+<div id="Topics">
+
+<!--<h2><a href="topics.html">トッピクス</a></h2>-->
+<!--<div class="RSS"><a href="http://www.marusanai.co.jp/rss.php"><strong>RSS</strong></a></div>-->
+<h2 class="NonRSS"><a href="topics.html">トッピクス</a></h2>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td>Data loading...</td>
+</tr>
+</table>
+</div>
+
+
+<div id="IRTopics">
+<h2><a href="ir_topics.html">IRトッピクス</a></h2>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td>Data loading...</td>
+</tr>
+</table>
+</div>
+<!-- end #TopicsArea --></div>
+
+
+
+<div id="Clear"></div>
+<!--&nbsp;<br />-->
+<div class="indexLine2"></div>
+<!--&nbsp;<br />-->
+
+
+<!-- 5段目 2016.03.01 バナー設置場所変更 -->
+<div id="IndexBnr1-2">
+
+<div id="OsusumeRecipe">
+<h2>おすすめレシピ</h2>
+<div class="BnrArea">
+<div class="bnr01"><a href="miso_cooking/index.html" target="_blank">みそCooking</a></div>
+<div class="bnr02"><a href="tonyu_cooking/index.html" target="_blank">豆乳Cooking</a></div>
+<!--<div class="bnr04"><a href="tonyugurt/recipe.html" target="_blank">豆乳グルトを使ったオリジナルレシピ</a></div>-->
+<!--<div class="bnr05"><a href="nabe_recipe/index.html" target="_blank">シメまでおいしいあったか鍋レシピ</a></div>-->
+<!--<div class="bnr06-2"><a href="mushidaizu/index.html" target="_blank">「蒸し大豆」「蒸しサラダ豆」レシピ</a></div>-->
+<!--<div class="bnr20160301gochi"><a href="gochimiso/index.html" target="_blank">「ごちみそ」レシピ</a></div>-->
+<div class="bnr20170220abc"><a href="abc_tonyu_cooking/index.html" target="_blank">ABC Cooking 豆乳ヘルシーレシピ</a></div>
+<div class="bnr20151001"><a href="wakuwaku-recipe/index.html" target="_blank">親子で作るわくわくレシピ</a></div>
+<div id="Clear"></div>
+</div>
+</div>
+
+</div>
+<!-- 5段目 2016.03.01 バナー設置場所変更 -->
+
+
+<div id="Clear"></div>
+<!--&nbsp;<br />-->
+<div class="indexLine2"></div>
+<!--&nbsp;<br />-->
+
+
+<!-- 5段目 -->
+<div id="IndexBnr2">
+
+<table border="0" cellspacing="0" cellpadding="0" class="Left">
+<tr>
+<th><a href="campaign.html"><img src="imgs/bnr_campaign_small.gif" alt="キャンペーン情報" border="0" title="キャンペーン情報" /></a></th>
+<td><strong style="color:#93642B">キャンペーン</strong><br />
+現在実施中のキャンペーン情報を紹介します。</td>
+</tr>
+<tr>
+<th><a href="factory/index.html" target="_blank"><img src="imgs/bnr_factory.png" alt="マルサンアイの豆乳工場見学" border="0" title="マルサンアイの豆乳工場見学" /></a></th>
+<td><strong style="color:#063">マルサンアイの豆乳工場見学</strong><br />
+マルサンアイ株式会社の豆乳工場見学。無調整豆乳「大豆まろやか製法のヒミツ」をご紹介します。</td>
+</tr>
+<tr>
+<th><a href="http://www.recycle-bin.jp" target="_blank"><img src="imgs/bnr_recycle_bin20140107.jpg" alt="テトラパック リサイクル便" border="0" title="「テトラパックリサイクル便」豆乳やお茶、ジュース等の使用済みアルミ付き紙容器の回収便です。" /></a></th>
+<td><strong style="color:#93642B">テトラパック&reg;リサイクル便</strong><br />
+豆乳や、お茶・ジュース等の使用済みアルミ付き紙容器の回収便です。</td>
+</tr>
+<tr>
+<th><a href="http://www.daizu-hitosuji.com/" target="_blank"><img src="imgs/bnr_hitosuji_small20160301.jpg" alt="大豆ひとすじマルサンアイ" border="0" title="大豆ひとすじマルサンアイ" /></a></th>
+<td><strong style="color:#93642B">大豆ひとすじマルサンアイ</strong><br />
+箱売のメーカー直販オンラインショップです。</td>
+</tr>
+<tr>
+<th><a href="http://www.maruchoku.com/" target="_blank"><img src="imgs/bnr_maruchoku_small20140601.jpg" alt="マルちょくくん" border="0" title="マルちょくくん" /></a></th>
+<td><strong style="color:#93642B">マルちょくくん</strong><br />
+「しみこむ豆乳」など健康食品専門のオンラインショップです。</td>
+</tr>
+
+<!--
+<tr>
+<th><a href="http://www.couponnetwork.jp/%E3%83%9E%E3%83%AB%E3%82%B5%E3%83%B3-%E8%B1%86%E4%B9%B3-coupon/piqehnp" target="_blank"><img src="imgs/bnr_hitotsuue_coupon20130325.jpg" alt="「ひとつ上の豆乳」をクーポンを使ってお得にご購入いただけます。" border="0" title="「クーポンネットワーク&reg;」のサイトへリンクします" /></a></th>
+<td><strong style="color:#33C">クーポンネットワーク&reg;</strong><br />
+「ひとつ上の豆乳」をクーポンを使ってお得にご購入いただけます。</td>
+</tr>
+
+<tr>
+<th><a href="http://couponjp.com/cnjp/marusanai-tonyu-caloryoff/" target="_blank"><img src="imgs/bnr_tonyu_coupon20141210.jpg" alt="「カロリーオフ豆乳　各種」をクーポンを使ってお得にご購入いただけます。" border="0" title="「クーポンネットワーク&reg;」のサイトへリンクします" /></a></th>
+<td><strong style="color:#33C">クーポンネットワーク&reg;</strong><br />
+「カロリーオフ豆乳　各種」をクーポンを使ってお得にご購入いただけます。</td>
+</tr>
+
+<tr>
+<th><a href="rinyushoku/index.html" target="_blank"><img src="imgs/bnr_rinyushoku201309.jpg" alt="豆乳でやさしい離乳食" border="0" /></a></th>
+<td><strong style="color:#F69">豆乳でやさしい離乳食</strong><br />
+赤ちゃんの成長に合わせて、豆乳を使ったやさしい離乳食の作り方をご紹介します。</td>
+</tr>
+
+<tr>
+<th><a href="http://www.marusanai.co.jp/science/top.html" target="_blank"><img src="imgs/bnr_tonyu_science_index.gif" alt="豆乳サイエンス" border="0" title="豆乳サイエンス　好評オンエア中！" /></a></th>
+<td><strong style="color:#93642B">豆乳サイエンス</strong><br />
+「Runと豆乳の良い関係」をテーマに、ウルトラマラソンランナーの岩本氏が初心者ランナーMITSUMIと語ります。</td>
+</tr>
+-->
+
+<tr>
+<th><a href="https	://washokujapan.jp" target="_blank"><img src="imgs/bnr_washokujapan.gif" alt="伝えよう、和食文化を。和食文化国民会議" border="0" title="伝えよう、和食文化を。和食文化国民会議" /></a></th>
+<td><strong style="color:#333333">伝えよう、和食文化を。</strong><br />
+マルサンアイは「和食文化国民会議」の活動を応援しています。</td>
+</tr>
+
+</table>
+
+<table border="0" cellspacing="0" cellpadding="0" class="Right">
+
+<!--
+<tr>
+<th><a href="https://www.facebook.com/marusanai" target="_blank"><img src="imgs/bnr_facebook.jpg" alt="facebookページ" border="0" title="facebookページを開設しました。" /></a></th>
+<td><strong style="color:#3652A1">Facebookページ</strong><br />
+Facebookページを開設しました。いろいろな情報を発信していきたいと思いますので、是非「いいね！」してくださいね。</td>
+</tr>
+-->
+
+<tr>
+<th><a href="abc_tonyu_cooking/index.html" target="_blank"><img src="imgs/bnr_abc-cooking20170220.jpg" alt="ひとつ上の豆乳" border="0" /></a></th>
+<td><strong style="color:#836e4a">豆乳ヘルシーレシピ</strong><br />
+豆乳でいつものメニューをもっと美味しくヘルシーに！「ABCオススメアイテム」のマルサン豆乳を使用したABCクッキングスタジオ開発レシピを紹介中！</td>
+</tr>
+
+<tr>
+<th><a href="hitotsuue/index.html" target="_blank"><img src="imgs/bnr_hitotsuue20170301.jpg" alt="ひとつ上の豆乳" border="0" /></a></th>
+<td><strong style="color:#33C">ひとつ上の豆乳</strong><br />
+ひとくちでわかる、そのこだわり。<br />
+コクのある飲みごたえ、すっきりとした後味。<br />
+おいしい豆乳のために厳選した国産大豆でつくったプレミアム豆乳です。</td>
+</tr>
+
+<tr>
+<th><a href="ajino-kyouen/index.html" target="_blank"><img src="imgs/bnr_ajino-kyouen_index.jpg" alt="味の饗宴無添加シリーズ" border="0" /></a></th>
+<td><strong style="color:#C60">味の饗宴無添加シリーズ</strong><br />
+「米麹」「麦麹」「豆麹」の三種類の麹を当社独自の絶妙な配合で元から仕込んだ「究極のあわせ」みそです。</td>
+</tr>
+
+<!-- 2017.04.03より非表示
+<tr>
+<th><a href="http://cwallet.catalinacoupons.jp/webviews/nl/marusanai_w.html" target="_blank"><img src="imgs/bnr_catalina20161012.jpg" alt="オトクに買えちゃうカタリナ・クーポン" border="0" /></a></th>
+<td><strong style="color:#C33">カタリナ・クーポン</strong><br />
+ポイント還元型「見せないクーポン」でオトクにお買い物しちゃいましょう！</td>
+</tr>
+-->
+<!-- 2017.03.21より非表示
+<tr>
+<th><a href="gochimiso/index.html" target="_blank"><img src="imgs/bnr_goshimiso20160301.jpg" alt="チューブみそ調味料「ごちみそ」新発売！" border="0" /></a></th>
+<td><strong style="color:#F90">ごちみそ</strong><br />
+これ1本で、もっとおいしく、もっと手軽に、チューブみそ調味料「ごちみそ」新発売！　ABCクッキングとのコラボレシピ公開中！</td>
+</tr>
+-->
+
+<tr>
+<th><a href="http://www.marusanai.co.jp/science/soybeup.html" target="_blank"><img src="imgs/bnr_tonyu_science_index_20160223.gif" alt="SOY BE UP！はプロテインを手軽にチャージできる、アスリートのための豆乳飲料です。" border="0" title="SOY BE UP！はプロテインを手軽にチャージできる、アスリートのための豆乳飲料です。" /></a></th>
+<td><strong style="color:#AACE47">SOY BE UP！</strong><br />
+ランナー、女性アスリート、アクティブシニアをサポートする「豆乳飲料 SOY BE UP!」を一度お試しください。</td>
+</tr>
+
+<!--
+<tr>
+<th><a href="http://www.couponnetwork.jp/%E3%83%9E%E3%83%AB%E3%82%B5%E3%83%B3%E3%82%A2%E3%82%A4-coupon/wxzrbp?utm_source=manufacturer&utm_medium=marusanai&utm_content=mfrpage&utm_campaign=misoshokunin" target="_blank"><img src="imgs/bnr_miso_coupon20140417.jpg" alt="「みそ職人　旨味贅沢」をクーポンを使ってお得にご購入いただけます。" border="0" title="「クーポンネットワーク&reg;」のサイトへリンクします" /></a></th>
+<td><strong style="color:#33C">クーポンネットワーク&reg;</strong><br />
+「みそ職人 旨味贅沢」をクーポンを使ってお得にご購入いただけます。</td>
+</tr>
+-->
+
+<tr>
+<th><a href="tonyugurt/index.html" target="_blank"><img src="imgs/bnr_tonyugurt20161011.jpg" alt="乳酸菌プラスで、豆乳力アップ。豆乳グルト" border="0" /></a></th>
+<td><strong style="color:#396">豆乳グルト</strong><br />
+原材料は豆乳。植物性乳酸菌をプラスすることで、豆乳の良さがパワーアップしました。</td>
+</tr>
+
+<tr>
+<th><a href="http://almondbreeze.jp" target="_blank"><img src="imgs/bnr_almondbreeze2.jpg" alt="アーモンド・ブリーズで「おいしい」毎日を、手に入れよう。" border="0" /></a></th>
+<td><strong style="color:#5B8BD3">アーモンド・ブリーズ</strong><br />
+乳成分不使用で純植物性、ビタミンEがたっぷりのアーモンドミルクを使用した新飲料です。</td>
+</tr>
+
+</table>
+
+<div id="Clear"></div>
+<!-- end #IndexBnr2 --></div>
+
+
+
+<div id="Clear"></div>
+<!--&nbsp;<br />-->
+<div class="indexLine2"></div>
+<!--&nbsp;<br />-->
+
+
+
+
+<!-- 6段目 -->
+<div id="IndexBnr3">
+
+<div class="Daizu">
+<h2><a href="daizu.html">大豆を知る・楽しむ</a></h2>
+<img src="imgs/bnr_daizu.gif" alt="大豆まめ知識" width="260" height="110" border="0" usemap="#bnr_daizu" title="大豆まめ知識" />
+<map name="bnr_daizu">
+<area shape="rect" coords="177,7,235,18" href="daizu_daizu.html" alt="大豆のお話" />
+<area shape="rect" coords="177,20,235,31" href="daizu_tonyu.html" alt="豆乳のお話" />
+<area shape="rect" coords="177,33,245,43" href="daizu_miso.html" alt="おみそのお話" />
+<area shape="rect" coords="177,46,254,56" href="daizu_hakkotonyu.html" alt="発酵豆乳のお話" />
+<area shape="rect" coords="177,59,254,78" href="daizu_mamepiyo.html" alt="まめぴよ博士の知恵袋" />
+<area shape="rect" coords="177,81,244,92" href="shokuiku/index.html" target="_blank" alt="食育を考える" />
+<area shape="rect" coords="177,94,221,105" href="daizu_cm.html" alt="CM情報" />
+</map>
+</div>
+
+<div class="Okyakusama">
+<h2><a href="okyakusama.html">お客様相談室</a></h2>
+<img src="imgs/bnr_okyakusama.gif" alt="お客様相談室" width="260" height="110" border="0" usemap="#bnr_okyakusama" title="お客様相談室" />
+<map name="bnr_okyakusama">
+<area shape="rect" coords="171,16,244,44" href="okyakusama_QA.html" alt="Q&amp;A" />
+<area shape="rect" coords="171,48,250,62" href="okyakusama_arigato-no-tane.html" alt="ありがとうの種" />
+<area shape="rect" coords="171,72,250,94" href="okyakusama_otoiawase.html" alt="お問い合わせ" />
+</map>
+</div>
+
+<div class="Labo">
+<h2><a href="company_kenkyu-kaihatsu_dayori.html">研究開発だより</a></h2>
+<a href="company_kenkyu-kaihatsu_dayori.html"><img src="imgs/bnr_labo.jpg" alt="研究開発だより" width="260" height="110" border="0" title="研究開発だより" /></a></div>
+
+
+<!-- end #IndexBnr3 --></div>
+
+
+<div id="Clear"></div>
+<!--&nbsp;<br />-->
+<div class="indexLine1"></div>
+<!--&nbsp;<br />-->
+
+
+<!-- end #container -->
+</div>
+
+<!-- end #MindexBG -->
+</div>
+
+
+<!-- InstanceEndEditable -->
+<!-- end #MiddleArea -->
+</div>
+<!-- △△△MiddleArea Area△△△ --><!-- #BeginLibraryItem "/Library/BottomLink.lbi" -->
+
+
+<!-- ▽▽▽BottomLink Area▽▽▽ -->
+
+<div id="BottomLink">
+
+<dl>
+<dt><a href="lineup.html">商品情報</a></dt>
+<dd><a href="lineuplist.php?cat=1">豆乳</a></dd>
+<dd><a href="lineuplist.php?cat=2">飲料</a></dd>
+<dd><a href="lineuplist.php?cat=3">鍋スープ･鍋用みそ</a></dd>
+<dd><a href="lineuplist.php?cat=4">レトルト食品等</a></dd>
+<dd><a href="lineuplist.php?cat=5">みそ</a></dd>
+<dd><a href="lineuplist.php?cat=6">お料理みそ</a></dd>
+<dd><a href="lineuplist.php?cat=7">即席みそ汁･スープ</a></dd>
+<dd><a href="lineuplist.php?cat=8">業務用</a></dd>
+<dd><a href="lineuplist.php?cat=9">LOVE健康シリーズ</a></dd>
+<dd><a href="lineup_allergy.html">アレルギー表示について</a></dd>
+</dl>
+
+<dl>
+<dt><a href="recipe.html">お料理レシピ</a></dt>
+<dd><a href="wakuwaku-recipe/index.html" title="豆乳や大豆を使った親子で楽しくできる料理レシピです" target="_blank">親子で作る<br />わくわくレシピ</a></dd>
+<dd><a href="miso_cooking/index.html" title="みそを使ったおすすめの料理レシピです" target="_blank">みそCooking</a></dd>
+<dd><a href="tonyu_cooking/index.html" title="豆乳を使ったおすすめの料理レシピです" target="_blank">豆乳Cooking</a></dd>
+<dd><a href="tonyugurt/recipe.html" title="豆乳グルトを使ったオリジナルレシピです" target="_blank">豆乳グルトレシピ</a></dd>
+<dd><a href="rinyushoku/index.html" title="豆乳を使ったやさしい離乳食レシピです" target="_blank">豆乳でやさしい離乳食</a></dd>
+<dd><a href="mushidaizu/index.html" title="蒸し大豆・蒸しサラダ豆を使った簡単レシピです" target="_blank">蒸し大豆・蒸しサラダ豆<br />レシピ</a></dd>
+<dd><a href="shiokoji/index.html" title="塩糀を使った料理レシピです" target="_blank">塩糀レシピ</a></dd>
+<!--<dd><a href="../nabe_recipe/index.html" title="鍋スープを使ったアレンジお鍋" target="_blank">あったか鍋レシピ</a></dd> -->
+<!--<dd><a href="../recipe_bottle_miso_video.html" title="ボトルみそレシピ">ボトルみそレシピ</a></dd> -->
+<!--<dd><a href="../okazumiso/index.html" title="おかずみそを使った料理レシピです" target="_blank">おかずみそ</a></dd> -->
+</dl>
+
+<dl>
+<dt><a href="daizu.html">大豆を知る･楽しむ</a></dt>
+<dd><a href="daizu_daizu.html">大豆のお話</a></dd>
+<!--<dd><a href="../anzen_anshin/index.html" target="_blank">└安全･安心への取り組み</a></dd>-->
+<dd><a href="daizu_tonyu.html">豆乳のお話</a></dd>
+<dd><a href="daizu_miso.html">おみそのお話</a></dd>
+<dd><a href="daizu_hakkotonyu.html">発酵豆乳のお話</a></dd>
+<dd><a href="factory/index.html" target="_blank">バーチャル豆乳工場見学</a></dd>
+<dd><a href="daizu_mamepiyo.html">まめぴよ博士の知恵袋</a></dd>
+<dd><a href="shokuiku/index.html" target="_blank">食育を考える</a></dd>
+<dd><a href="daizu_cm.html">CM情報</a></dd>
+<!--<dd><a href="../science/index.html" target="_blank">豆乳サイエンス</a></dd>-->
+</dl>
+
+<dl>
+<dt><a href="ir.html">株主･投資家の皆様へ</a></dt>
+<dd><a href="ir_topics.html" title="IRトピックス">IRトピックス</a></dd>
+<dd><a href="ir_aisatsu.html" title="社長挨拶">社長挨拶</a></dd>
+<dd><a href="company.html" title="企業情報">企業情報</a></dd>
+<dd><a href="ir_kihon.html" title="株式基本情報">株式基本情報</a></dd>
+<dd><a href="ir_zaimu.html" title="財務情報">財務情報</a></dd>
+<dd><a href="ir_keiei.html" title="経営指標">経営指標</a></dd>
+<dd><a href="ir_QA.html" title="株式Ｑ＆Ａ">株式Q&amp;A</a></dd>
+<dd><a href="ir_schedule.html" title="IRスケジュール">IRスケジュール</a></dd>
+<dd><a href="ir_corporate_governance.html" title="コーポレート・ガバナンス">コーポレート<br />･ガバナンス</a></dd>
+<dd><a href="ir_denshi_kokoku.html" title="電子公告">電子公告</a></dd>
+</dl>
+
+<dl>
+<dt><a href="okyakusama.html">お客様相談室</a></dt>
+<dd><a href="okyakusama_QA.html">Q&amp;A</a></dd>
+<!--<dd><a href="../okyakusama_arigato-no-tane.html">ありがとうの種</a></dd> -->
+<dd><a href="okyakusama_arigato-no-tsubomi.html">ありがとうのつぼみ</a></dd>
+<dd><a href="okyakusama_otoiawase.html">お問い合わせ</a></dd>
+</dl>
+
+<dl>
+<dt><a href="company.html">企業情報</a></dt>
+<dd><a href="company_kenkyu-kaihatsu.html">研究開発</a></dd>
+<dd><a href="company_kenkyu-kaihatsu_dayori.html">└研究開発だより</a></dd>
+<dd><a href="company_shohin-kaihatsu.html">商品開発</a></dd>
+<dd><a href="company_seisan-setsubi.html">生産･設備</a></dd>
+<dd><a href="company_koho.html">広報</a></dd>
+<dd><a href="company_eigyo.html">営業</a></dd>
+<dd><a href="company_kaigai-jigyo.html">海外事業展開</a></dd>
+<dd><a href="anzen_anshin/index.html" target="_blank">安全･安心への取り組み</a></dd>
+<dd><a href="company_profile.html">プロフィール</a></dd>
+<dd><a href="company_ayumi.html">マルサンアイの歩み</a></dd>
+<dd><a href="company_kogaisha.html">子会社･関連会社</a></dd>
+<dd><a href="company_access.html">アクセス</a></dd>
+<dd><a href="company_recruit.html">採用情報</a></dd>
+<dd><a href="english/index.html" target="_blank">English Pages</a></dd>
+</dl>
+
+<!-- end #BottomLink --></div>
+
+
+<!-- △△△BottomLink Area△△△ -->
+
+
+
+<!-- #EndLibraryItem --><div id="Clear"></div>
+
+<div id="LinkList2">
+<ul>
+<li class="Campaign"><a href="campaign.html">キャンペーン</a></li>
+<li class="Shopping"><a href="http://www.daizu-hitosuji.com/" target="_blank">オンラインショッピング</a></li>
+<li class="Facebook"><a href="https://www.facebook.com/marusanai" target="_blank">Facebookページ</a></li>
+<li class="Access"><a href="company_access.html">アクセス</a></li>
+<li class="Sitemap"><a href="sitemap.html">サイトマップ</a></li>
+<li class="Otoiawase"><a href="okyakusama_otoiawase.html">お問い合わせ</a></li>
+<li class="SecurityHPCP"><a href="security_hpcp.html">プライバシーポリシー</a></li>
+<li class="Security"><a href="security.html">情報セキュリティ宣言</a></li>
+<li class="Josei"><a href="company/josei_katusyaku.pdf" target="_blank">女性活躍推進法について</a></li>
+<li class="Links"><a href="links.html">リンク集</a></li>
+<li class="English"><a href="english/index.html" target="_blank">English Pages</a></li>
+<div id="Clear"></div>
+</ul>
+</div><!-- #BeginLibraryItem "/Library/Footer.lbi" -->
+
+
+<!-- ▽▽▽Footer Area▽▽▽ -->
+<div id="footer">
+<div class="Copyright">Copyright &copy; MARUSAN-AI CO., LTD. Allrights reserved.</div>
+<div class="FooterLinkList2"><a href="company/josei_katusyaku.pdf" target="_blank">女性活躍推進法について</a> │ <a href="security_hpcp.html">プライバシーポリシー</a> │ <a href="security.html">情報セキュリティ宣言</a> │ <a href="links.html">リンク集</a> │ <a href="english/index.html" target="_blank">English Pages</a></div>
+<div id="Clear"></div>
+<div class="FooterLogo"><strong>Marusan</strong></div>
+<!-- end #footer --></div>
+<!-- △△△Footer Area△△△ -->
+
+
+<!-- #EndLibraryItem --><!-- InstanceBeginEditable name="registerFlashObject" -->
+<!-- InstanceEndEditable -->
+</body>
+<!-- InstanceEnd --></html>

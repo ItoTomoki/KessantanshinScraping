@@ -1,0 +1,445 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta name="Keywords" content="" />
+<meta name="Description" content="伊藤忠食品は「酒類・食品卸売業」として、全国約４，０００社のメーカー様とお取引し、約５０万アイテムを全国約１，０００社の小売業様にお届けしています。" />
+
+<title>ISC 伊藤忠食品株式会社</title>
+
+<link rel="shortcut icon" href="/favicon.ico" />
+
+<link type="text/css" rel="stylesheet" href="./css/default.css" media="screen,tv,print" />
+<link type="text/css" rel="stylesheet" href="./css/style.css" media="screen,print,TV" />
+<link type="text/css" rel="stylesheet" href="./css/index.css" media="screen,print,TV" />
+<link type="text/css" rel="alternate stylesheet" href="./css/f_large.css" title="Large" />
+<link type="text/css" rel="alternate stylesheet" href="./css/f_small.css" title="Small" />
+<script type="text/javascript" src="./js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="./js/jquery-migrate-1.1.1.min.js"></script>
+<script type="text/javascript" src="./js/jquery.page-scroller-308.js"></script>
+<script type="text/javascript" src="./js/smartrollover.js"></script>
+<script type="text/javascript" src="./js/styleswitcher.js"></script>
+<script type="text/javascript" src="./js/common.js"></script>
+
+<!--bxslider-->
+<script type="text/javascript" src="./js/bxslider/jquery.bxslider.min.js"></script>
+<link type="text/css" rel="stylesheet" href="./js/bxslider/jquery.bxslider.min.css" />
+<style>
+.bx-wrapper {
+	box-shadow: none;
+	border: none;
+}
+.bx-wrapper img {
+	width: 100%;
+}
+.bx-wrapper .bx-pager {
+	position: absolute;
+	bottom: 10px;
+	margin: 0;
+	padding: 0;
+	z-index: 999;
+}
+.bx-wrapper .bx-pager.bx-default-pager a {
+	width: 24px;
+	height: 7px;
+	margin: 0 8px;
+	border-radius: 0;
+	background: #fff;
+}
+.bx-wrapper .bx-pager.bx-default-pager a.active,
+.bx-wrapper .bx-pager.bx-default-pager a:focus,
+.bx-wrapper .bx-pager.bx-default-pager a:hover {
+	background: #0039a6;
+}
+</style>
+<script type="text/javascript">
+$(document).ready(function() {
+	activeMenuHeader(0);
+	
+	// *** bxSlider ***
+	$('#mainvisual .slider ul').bxSlider({
+		auto: true,
+		mode: 'fade',
+		controls: false,
+		pause: 6000,
+		speed: 2000
+	});
+	
+	// *** topics ***
+	$.ajax({
+		url: '/cms/topics',
+		type: 'GET',
+		data: { n:7 },
+		dataType: 'xml',
+		timeout: 10000,
+		error: function() {
+			$('#news_list').append('<tr><td>(読込みに失敗しました.)</td></tr>');
+			$('#news_list').removeClass('loading');
+			$('#news_list').addClass('loaderror');
+		},
+		success: function(xml){
+			
+			if ($(xml).find('item').length) {
+				
+				$(xml).find('item').each(function() {
+					//$('#news_list').append('<tr><td class="date">' + $(this).find('date').text() + '</td><td class="mark"><img src="./images/mark_' + $(this).find('category').text() + '.png" alt="' + $(this).find('category').text() + '" width="60" height="19" class="topicscategory" /></td><td class="ttl"><a href="' + $(this).find('file').find('url').text() + '" target="_blank">' + $(this).find('title').text() + '</a><span class="pdf">【' + $(this).find('file').find('size').text() + '】</span></td></tr>');
+					
+					var _date = $(this).find('date').text();
+					var _merk = ($(this).find('category').text()) ? '<img src="./images/mark_' + $(this).find('category').text() + '.png" alt="' + $(this).find('category').text() + '" width="60" height="19" class="topicscategory" />' : '';
+					var _ttl = '';
+					
+					if ($(this).find('file').find('size').text()) {
+						_ttl = '<a href="' + $(this).find('file').find('url').text() + '" target="_blank">' + $(this).find('title').text() + '</a><span class="pdf">【' + $(this).find('file').find('size').text() + '】</span>';
+					}
+					else if ($(this).find('link').find('url').text()) {
+						_ttl = '<a href="' + $(this).find('link').find('url').text() + '">' + $(this).find('title').text() + '</a>';
+					}
+					else if ($(this).find('title').text()) {
+						_ttl = $(this).find('title').text();
+					}
+					
+					$('#news_list').append('<tr><td class="date">' + _date + '</td><td class="mark">' + _merk + '</td><td class="ttl">' + _ttl + '</td></tr>');
+				});
+				$('#news_list').removeClass('loading');
+				
+			}
+			else {
+				
+				$('#news_list').append('<tr><td>(ニュースはありません.)</td></tr>');
+				$('#news_list').removeClass('loading');
+				$('#list_more').hide();
+				
+			}
+			
+		}
+	});
+});
+</script>
+<!--/bxslider-->
+</head>
+
+<body>
+
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-N9VGTH"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-N9VGTH');</script>
+<!-- End Google Tag Manager -->
+
+
+<div id="header">
+	
+	<div id="h_wrapper">
+		<h2 id="h_logo"><a href="./"><img src="./images/h_logo.png" alt="ISC 伊藤忠食品株式会社" /></a></h2>
+		<div id="h_lang">
+			<li>
+				<ul>
+					<li><a href="pdf/ISC_Company_Profile_EN_v05.pdf" target="_blank"><img src="./images/h_btn_english.png" alt="ENGLISH" class="rollover" /></a></li>
+					<li><a href="pdf/ISC_Company_Profile_CN_v05.pdf" target="_blank"><img src="./images/h_btn_chinese.png" alt="CHINESE" class="rollover" /></a></li>
+				</ul>
+			</li>
+		</div>
+		<div id="h_link">
+			<li>
+				<ul>
+					<li><a href="./contact/sitemap.html"><img src="./images/h_link_sitemap.png" alt="サイトマップ" class="rollover" /></a></li>
+					<li><a href="./contact/privacypolicy.html"><img src="./images/h_link_privacy.png" alt="個人情報保護方針" class="rollover" /></a></li>
+				</ul>
+			</li>
+		</div>
+		<div id="h_textsize">
+			<p><img src="./images/h_txtsize_title.png" alt="文字サイズ" /></p>
+			<ul>
+				<li><a href="javascript:void(0);/" onclick="setActiveStyleSheet('Small'); return false;" class="small">小</a></li>
+				<li><a href="javascript:void(0);/" onclick="setActiveStyleSheet('Default'); return false;" class="medium">中</a></li>
+				<li><a href="javascript:void(0);/" onclick="setActiveStyleSheet('Large'); return false;" class="large">大</a></li>
+			</ul>
+		</div>
+		<div id="h_search">
+			<form action="//www.google.co.jp/search">
+				<input type="hidden" name="hl" value="ja" />
+				<input type="hidden" value="www.itochu-shokuhin.com" name="as_sitesearch" />
+				<input type="submit" class="btn" name="btnG" value="検索" />
+				<input type="text" class="txtbox" name="q" size="31" maxlength="256" value="" />
+			</form>
+		</div>
+	</div>
+
+	<div id="h_nemu">
+		<ul id="gmenu">
+			<li>
+				<a href="./"><img src="./images/h_menu01.png" alt="HOME" class="ov" /></a>
+				<!-- HOME -->
+			</li>
+			<li>
+				<a href="./company/"><img src="./images/h_menu02.png" alt="企業情報" class="ov" /></a>
+				<!-- 企業情報 -->
+				<div class="snemu">
+					<ul>
+						<li><a href="./company/greeting.html"><img src="./images/h_smenu_02_01_v02.png" alt="社長ごあいさつ" class="rollover"/></a></li>
+						<li><a href="./company/vision.html"><img src="./images/h_smenu_02_02.png" alt="経営ビジョン・企業理念" class="rollover"/></a></li>
+						<li><a href="./company/planning.html"><img src="./images/h_smenu_02_03.png" alt="中期経営計画" class="rollover"/></a></li>
+						<li><a href="./company/history.html"><img src="./images/h_smenu_02_04.png" alt="伊藤忠食品のあゆみ" class="rollover"/></a></li>
+					</ul>
+					<ul>
+						<li><a href="./company/governance.html"><img src="./images/h_smenu_02_05.png" alt="ガバナンス・マネジメント" class="rollover"/></a></li>
+						<li><a href="./company/group.html"><img src="./images/h_smenu_02_06.png" alt="グループ会社" class="rollover"/></a></li>
+						<li><a href="./company/company.html"><img src="./images/h_smenu_02_07.png" alt="会社概要" class="rollover"/></a></li>
+						<li><a href="./company/officer.html"><img src="./images/h_smenu_02_08.png" alt="役員一覧" class="rollover"/></a></li>
+					</ul>
+					<ul>
+						<li><a href="./company/org.html"><img src="./images/h_smenu_02_09.png" alt="組織図" class="rollover"/></a></li>
+						<li><a href="./company/office.html"><img src="./images/h_smenu_02_10.png" alt="営業拠点一覧" class="rollover"/></a></li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<a href="./business/"><img src="./images/h_menu03.png" alt="事業紹介" class="ov" /></a>
+				<!-- 事業紹介 -->
+				<div class="snemu">
+					<ul>
+						<li><a href="./business/liquor.html"><img src="./images/h_smenu_03_01.png" alt="酒類" class="rollover"/></a></li>
+						<li><a href="./business/gift.html"><img src="./images/h_smenu_03_02.png" alt="ギフト" class="rollover"/></a></li>
+						<li><a href="./business/beautyhealth.html"><img src="./images/h_smenu_03_03.png" alt="ビューティ＆ヘルス" class="rollover"/></a></li>
+						<li><a href="./business/brand.html"><img src="./images/h_smenu_03_04.png" alt="ブランド商品開発" class="rollover"/></a></li>
+					</ul>
+					<ul>
+						<li><a href="./business/web.html"><img src="./images/h_smenu_03_05.png" alt="WEB関連" class="rollover"/></a></li>
+						<li><a href="./business/logistics.html"><img src="./images/h_smenu_03_06.png" alt="物流" class="rollover"/></a></li>
+						<li><a href="./business/#wholesale"><img src="./images/h_smenu_03_07.png" alt="６つの卸機能" class="rollover"/></a></li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<a href="./csr/"><img src="./images/h_menu04.png" alt="CSR" class="ov" /></a>
+				<!-- CSR -->
+				<div class="snemu">
+					<ul>
+						<li><a href="./csr/commitment.html"><img src="./images/h_smenu_04_01_v02.png" alt="トップメッセージ" class="rollover"/></a></li>
+						<li><a href="./csr/theme.html"><img src="./images/h_smenu_04_02.png" alt="CSR基本方針" class="rollover"/></a></li>
+						<li><a href="./csr/school.html"><img src="./images/h_smenu_04_03.png" alt="商業高校への教育支援" class="rollover"/></a></li>
+						<li><a href="./csr/local.html"><img src="./images/h_smenu_04_04.png" alt="地域産品プロジェクト" class="rollover"/></a></li>
+					</ul>
+					<ul>
+						<li><a href="./csr/womenactivity.html"><img src="./images/h_smenu_04_05.png" alt="女性の活躍を推進" class="rollover"/></a></li>
+						<li><a href="./csr/policy.html"><img src="./images/h_smenu_04_06.png" alt="環境への取り組み" class="rollover"/></a></li>
+						<li><a href="./csr/activities.html"><img src="./images/h_smenu_04_07.png" alt="社会貢献活動" class="rollover"/></a></li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<a href="./ir/"><img src="./images/h_menu05.png" alt="IR情報" class="ov" /></a>
+				<!-- IR情報 -->
+				<div class="snemu">
+					<ul>
+						<li><a href="./ir/financial.html"><img src="./images/h_smenu_05_01.png" alt="財務情報" class="rollover"/></a></li>
+						<li><a href="./ir/library/"><img src="./images/h_smenu_05_02.png" alt="IR ライブラリー" class="rollover"/></a></li>
+						<li><a href="./ir/newslist.html"><img src="./images/h_smenu_05_03.png" alt="IR ニュース" class="rollover"/></a></li>
+						<li><a href="./ir/calendar.html"><img src="./images/h_smenu_05_04.png" alt="IR カレンダー" class="rollover"/></a></li>
+					</ul>
+					<ul>
+						<li><a href="./ir/stock_infomation.html"><img src="./images/h_smenu_05_05.png" alt="株式情報（株主情報）" class="rollover"/></a></li>
+						<li><a href="./ir/notice.html"><img src="./images/h_smenu_05_06.png" alt="株主総会招集通知等" class="rollover"/></a></li>
+						<li><a href="./ir/complimentary.html"><img src="./images/h_smenu_05_07.png" alt="株主優待" class="rollover"/></a></li>
+						<li><a href="./ir/announce.html"><img src="./images/h_smenu_05_08.png" alt="電子公告・決算公告" class="rollover"/></a></li>
+					</ul>
+					<ul>
+						<li><a href="./ir/clause.html"><img src="./images/h_smenu_05_09.png" alt="免責事項" class="rollover"/></a></li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<a href="http://www.itochu-shokuhin-saiyo.com/" target="_blank"><img src="./images/h_menu06.png" alt="採用情報" class="ov" /></a>
+				<!-- 採用情報 -->
+			</li>
+			<li>
+				<a href="./access/"><img src="./images/h_menu07.png" alt="アクセス" class="ov" /></a>
+				<!-- アクセス -->
+			</li>
+			<li>
+				<a href="./contact/"><img src="./images/h_menu08.png" alt="お問い合わせ" class="ov" /></a>
+				<!-- お問い合わせ -->
+			</li>
+		</ul>
+	</div>
+	
+</div>
+<!-- /#header -->
+
+<div id="mainvisual">
+	<div class="slider">
+		<ul>
+			<li><a href="./csr/school.html"><img src="images/index/mv_main_06.jpg" alt="" /></a></li>
+			<li><a href="./business/liquor.html"><img src="images/index/mv_main_01_20170808.jpg" alt="" /></a></li>
+			<li><a href="./company/history.html"><img src="images/index/mv_main_03.jpg" alt="" /></a></li>
+			<li><a href="./business/gift.html"><img src="images/index/mv_main_04.jpg" alt="" /></a></li>
+			<li><a href="./business/beautyhealth.html"><img src="images/index/mv_main_05.jpg" alt="" /></a></li>
+		</ul>
+	</div>
+</div>
+<!-- /#mainvisual -->
+
+<div id="sitetop" class="container">
+	<div id="contents">
+		
+		<div id="main">
+			
+			<div class="page_title">
+				<h3>ニュースリリース</h3>
+				<p><a href="./newsrelease/"><img src="images/btn_to_news.png" alt="ニュースリリース一覧へ" class="rollover" /></a><span>&nbsp;</span><a href="./rss/company/topics/"><img src="./images/btn_rss.png" alt="RSS" class="rollover" /></a></p>
+			</div>
+			
+			<div id="clm01" class="block">
+				<table id="news_list" class="loading">
+				</table>
+			</div>
+			
+			<div id="clm02" class="block">
+				
+				<div class="link_block">
+					<a href="./business/" class="link_box link_box_01">
+						<div class="box_txt">
+							<p class="label">伊藤忠食品の重点分野</p>
+							<p class="capt">伊藤忠食品は基本の卸機能に加え、<br />当社独自の機能を発揮することで、<br />さらなる付加価値をご提案します。</p>
+						</div>
+						<div class="box_img"><img src="images/index/linkbox_01_img.png" alt=""/></div>
+					</a>
+				</div>
+				
+				<div class="link_block">
+					<a href="./company/history.html" class="link_box link_box_01">
+						<div class="box_txt">
+							<p class="label">伊藤忠食品のあゆみ</p>
+							<p class="capt">日本の食と共に130年歩んでまいりました。</p>
+						</div>
+						<div class="box_img"><img src="images/index/linkbox_02_img.png" alt=""/></div>
+					</a>
+				</div>
+				
+				<div class="link_block">
+					<a href="./company/planning.html" class="link_box link_box_03">
+						<div class="box_txt">伊藤忠食品の中期経営計画</div>
+						<div class="box_img"><img src="images/index/linkbox_03_img.png" alt=""/></div>
+					</a>
+					<a href="./csr/" class="link_box link_box_03">
+						<div class="box_txt">伊藤忠食品のCSR</div>
+						<div class="box_img"><img src="images/index/linkbox_04_img.png" alt=""/></div>
+					</a>
+				</div>
+				
+			</div>
+		</div>
+		<!-- /#main -->
+		
+		<div id="sub">
+			<p id="s_head">&nbsp;</p>
+			<ul id="sbanners">
+				<li><a href="./contact/"><img src="images/s_bnr_06.png" class="rollover" alt="『E-POP』" width="220" height="60" /></a><br><span>『E-POP』に関するお問い合わせ、<br />ご提案はこちらまで</span></li>
+				<li><a href="http://www.rakuten.ne.jp/gold/tabemart/" target="_blank"><img src="images/s_bnr_01.png" class="rollover" alt="食べマート" width="220" height="60" /></a><br><span>食品卸の強みを活かした豊富な品揃え</span></li>
+				<li><a href="http://isc-giftcard.jp/" target="_blank"><img src="images/s_bnr_02.png" class="rollover" alt="ギフトカードモール exchange.com" width="220" height="60" /></a><br><span>多彩なギフトカードを豊富に取り揃え</span></li>
+				<li><a href="./csr/local.html"><img src="images/s_bnr_03.png" class="rollover" alt="絶品！おとりよせ王国" width="220" height="60" /></a><br><span>地域産品を全国の食卓へ</span></li>
+				<li><a href="http://www.mionetto.jp/" target="_blank"><img src="images/s_bnr_04.png" class="rollover" alt="ミオネット日本上陸" width="220" height="60" /></a><br><span>Mionetto.<br>More than just a Prosecco.</span></li>
+			</ul>
+		</div>
+		<!-- /#sub -->
+		
+	</div>
+	<!-- /#contents --> 
+	
+	<div id="pagetop"><a href="#header"><img src="./images/btn_pagetop.png" alt="ページの先頭へ" class="rollover" /></a></div>
+</div>
+<!-- /.container -->
+
+<div id="footer">
+	<div id="f_wrapper">
+		<ul id="f_menu">
+			<li class="hassublink">
+				<p><a href="./company/">企業情報</a></p>
+				<ul class="menu_sub">
+					<li><a href="./company/greeting.html">社長ごあいさつ</a></li>
+					<li><a href="./company/vision.html">経営ビジョン・企業理念</a></li>
+					<li><a href="./company/planning.html">中期経営計画</a></li>
+					<li><a href="./company/history.html">伊藤忠食品のあゆみ</a></li>
+					<li><a href="./company/governance.html">ガバナンス・マネジメント</a></li>
+					<li><a href="./company/group.html">グループ会社</a></li>
+					<li><a href="./company/company.html">会社概要</a></li>
+					<li><a href="./company/officer.html">役員一覧</a></li>
+					<li><a href="./company/org.html">組織図</a></li>
+					<li><a href="./company/office.html">営業拠点一覧</a></li>
+				</ul>
+			</li>
+			<li class="hassublink">
+				<p><a href="./business/">事業紹介</a></p>
+				<ul class="menu_sub">
+					<li><a href="./business/liquor.html">酒類</a></li>
+					<li><a href="./business/gift.html">ギフト</a></li>
+					<li><a href="./business/beautyhealth.html">ビューティ＆ヘルス</a></li>
+					<li><a href="./business/brand.html">ブランド商品開発</a></li>
+					<li><a href="./business/web.html">WEB関連</a></li>
+					<li><a href="./business/logistics.html">物流</a></li>
+					<li><a href="./business/#wholesale">6つの卸機能</a></li>
+				</ul>
+			</li>
+			<li class="hassublink">
+				<p><a href="./csr/">CSR</a></p>
+				<ul class="menu_sub">
+					<li><a href="./csr/commitment.html">トップメッセージ</a></li>
+					<li><a href="./csr/theme.html">CSR 基本方針</a></li>
+					<li><a href="./csr/school.html">商業高校への教育支援</a></li>
+					<li><a href="./csr/local.html">地域産品プロジェクト</a></li>
+					<li><a href="./csr/womenactivity.html">女性の活躍を推進</a></li>
+					<li><a href="./csr/policy.html">環境への取り組み</a></li>
+					<li><a href="./csr/activities.html">社会貢献活動</a></li>
+				</ul>
+			</li>
+			<li class="hassublink">
+				<p><a href="./ir/">IR情報</a></p>
+				<ul class="menu_sub">
+					<li><a href="./ir/financial.html">財務情報</a></li>
+					<li><a href="./ir/library/">IR ライブラリー</a></li>
+					<li><a href="./ir/newslist.html">IR ニュース</a></li>
+					<li><a href="./ir/calendar.html">IR カレンダー</a></li>
+					<li><a href="./ir/stock_infomation.html">株式情報（株主情報）</a></li>
+					<li><a href="./ir/notice.html">株主総会招集通知等</a></li>
+					<li><a href="./ir/complimentary.html">株主優待</a></li>
+					<li><a href="./ir/announce.html">電子公告・決算公告</a></li>
+					<li><a href="./ir/clause.html">免責事項</a></li>
+				</ul>
+			</li>
+			<li class="hasnosub">
+				<p><a href="http://www.itochu-shokuhin-saiyo.com/" target="_blank">採用情報</a></p>
+			</li>
+			<li class="hasnosub">
+				<p><a href="./access/">アクセス</a></p>
+			</li>
+			<li class="hasnosub">
+				<p><a href="./contact/">お問い合わせ</a></p>
+			</li>
+			<li class="hasnosub">
+				<p><a href="./newsrelease/">ニュースリリース</a></p>
+			</li>
+			<li class="hasnosub">
+				<p><a href="./contact/sitemap.html">サイトマップ</a></p>
+			</li>
+			<li class="hasnosub">
+				<p><a href="./contact/privacypolicy.html">個人情報保護方針</a></p>
+			</li>
+		</ul>
+	</div>
+	<!-- /#f_wrapper -->
+	<div id="f_bottom">
+		<p><img src="./images/f_credit.png" alt="Copyright (C) All Rights Reserved. ITOCHU-SHOKUHIN Co.,Ltd." /></p>
+	</div>
+	<!-- /#f_bottom --> 
+</div>
+<!-- /#footer -->
+
+</body>
+</html>

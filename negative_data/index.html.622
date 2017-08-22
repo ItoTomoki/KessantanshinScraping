@@ -1,0 +1,565 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html lang="ja">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+
+<meta http-equiv="Content-Style-Type" content="text/css">
+
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+
+<title>マツモトキヨシホールディングス</title>
+
+<meta http-equiv="keywords" content="マツモトキヨシ,マツモトキヨシホールディングス,マツキヨ,企業情報,会社情報,会社概要,IR,株主,ニュースリリース">
+
+<meta http-equiv="description" content="株式会社マツモトキヨシホールディングスの企業サイトです。企業情報、IR情報、株価情報などを掲載しています。">
+
+<!--favicon-->
+
+<link rel="shortcut icon" href="http://www.matsumotokiyoshi-hd.co.jp/favicons/favicon.ico" type="image/vnd.microsoft.icon">
+
+<link rel="icon" href="http://www.matsumotokiyoshi-hd.co.jp/favicons/favicon.ico" type="image/vnd.microsoft.icon">
+
+<link rel="icon" type="image/x-icon" href="http://www.matsumotokiyoshi-hd.co.jp/favicons/favicon.ico" /> 
+
+<link rel="shortcut icon" type="image/x-icon" href="http://www.matsumotokiyoshi-hd.co.jp/favicons/favicon.ico" /> 
+
+<link rel="Shortcut Icon" type="image/x-icon" href="http://www.matsumotokiyoshi-hd.co.jp/favicons/favicon.ico" /> 
+
+<!-- Mozilla系PNGサポート --> 
+
+<link rel="icon" type="image/png" href="http://www.matsumotokiyoshi-hd.co.jp/favicons/favicon-32x32.png">
+
+<link rel="apple-touch-icon" sizes="180x180" href="http://www.matsumotokiyoshi-hd.co.jp/favicons/apple-touch-icon.png">
+
+<link rel="icon" type="image/png" href="http://www.matsumotokiyoshi-hd.co.jp/favicons/favicon-32x32.png" sizes="32x32">
+
+<link rel="icon" type="image/png" href="http://www.matsumotokiyoshi-hd.co.jp/favicons/android-chrome-192x192.png" sizes="192x192">
+
+<link rel="icon" type="image/png" href="http://www.matsumotokiyoshi-hd.co.jp/favicons/favicon-16x16.png" sizes="16x16">
+
+<link rel="manifest" href="http://www.matsumotokiyoshi-hd.co.jp/favicons/manifest.json">
+
+<link rel="mask-icon" href="http://www.matsumotokiyoshi-hd.co.jp/favicons/safari-pinned-tab.svg" color="#5bbad5">
+
+<!--/favicon-->
+
+<link rel="stylesheet" href="common/css/common.css" type="text/css">
+
+<link rel="stylesheet" href="css/contents.css" type="text/css">
+
+<link rel="stylesheet" type="text/css" href="css/jquery.jscrollpane.css">
+
+<script type="text/javascript" src="common/js/jquery.js"></script>
+
+<script type="text/javascript" src="common/js/jquery.cookie.js"></script>
+
+<script type="text/javascript" src="common/js/common.js"></script>
+
+<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+
+<script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
+
+<script type="text/javascript" src="js/top.js"></script>
+
+<!--[if IE 6]>
+
+<script src="common/js/DD_belatedPNG.js"></script>
+
+<script src="common/js/ie6.js"></script>
+
+<![endif]-->
+
+  <script type="text/javascript">
+    var ua = navigator.userAgent;
+    if (ua.indexOf('iPhone') > 0 || ua.indexOf('iPod') > 0 || ua.indexOf('Android') > 0 && ua.indexOf('Mobile') > 0) {
+      location.href = '/sp/';
+    }
+  </script>
+
+</head>
+
+
+
+<body>
+
+
+
+<div id="wrap" class="wrap_index">
+
+
+
+	<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-32929077-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<div id="header">
+	<div id="headerArea" class="clearfix">
+		<h1><a href="/index.html"><img src="/common/image/logo_main.gif" alt="株式会社マツモトキヨシホールディングス" width="353" height="55"></a></h1>
+
+		<ul class="clearfix stinfo_navi">
+		<li><a href="/sitemap.html"><img src="/common/image/navi_header01_off.gif" alt="サイトマップ" width="79" height="14"></a></li>
+		<li><a href="/faq.html"><img src="/common/image/navi_header02_off.gif" alt="FAQ" width="38" height="14"></a></li>
+		<li><a href="/contact.html"><img src="/common/image/navi_header03_off.gif" alt="お問い合わせ" width="86" height="14"></a></li>
+		<li class="last"><a href="/index_e.html"><img src="/common/image/navi_header04_off.gif" alt="English" width="60" height="14"></a></li>
+		</ul>
+		<div id="fontBox">
+		<span><img src="/common/image/mojinavi.gif" alt="文字サイズ" width="81" height="34" /></span>
+		<ul id="fontChange" class="clearfix">
+		<li id="fontS"><span>小</span></li>
+		<li id="fontM"><span>中</span></li>
+		<li id="fontL"><span>大</span></li>
+		</ul>
+		</div>
+	</div>
+	
+	<ul id="mainmenu" class="clearfix">
+	<li><a href="/company/index.html"><img src="/common/image/mainnavi_01_off.gif" alt="企業情報" width="159" height="55" border="0" id="header_btn01"></a>
+
+		<ul class="sub">
+		<li><a href="/company/index.html"><img src="/common/image/subnavi01_01_off.png" alt="トップメッセージ" width="157" height="36" class="png_bg" /></a></li>
+		<li><a href="/company/governance.html"><img src="/common/image/subnavi01_07_off.png" alt="コーポレートガバナンス" width="157" height="36" class="png_bg" /></a></li>
+		<li><a href="/company/idea.html"><img src="/common/image/subnavi01_02_off.png" alt="グループ経営理念" width="157" height="36" class="png_bg" /></a></li>
+		<li><a href="/company/info.html"><img src="/common/image/subnavi01_03_off.png" alt="会社概要" width="157" height="36" class="png_bg" /></a></li>
+		<li><a href="/company/history.html"><img src="/common/image/subnavi01_04_off.png" alt="沿革" width="157" height="36" class="png_bg" /></a></li>
+		<li><a href="/company/group.html"><img src="/common/image/subnavi01_05_off.png" alt="グループ会社一覧" width="157" height="36" class="png_bg" /></a></li>
+		<li><a href="/company/map.html"><img src="/common/image/subnavi01_06_off.png" alt="本社地図" width="157" height="36" class="png_bg" /></a></li>
+		<li><a href="/company/index_e.html"><img src="/common/image/subnavi01_01e_off.png" alt="Top Message" width="157" height="36" class="png_bg" /></a></li>
+		<li><a href="/company/group_e.html"><img src="/common/image/subnavi01_05e_off.png" alt="Group Company" width="157" height="37" class="png_bg" /></a></li>
+		</ul>
+	</li>
+	
+	<li><a href="/ir/index.html"><img src="/common/image/mainnavi_02_off.gif" alt="IR情報" width="158" height="55" border="0" id="header_btn02"></a>
+
+		<ul class="sub">
+		<li><a href="/ir/index.html"><img src="/common/image/subnavi02_01_off.png" alt="決算短信" width="157" height="36" class="png_bg" /></a></li>
+		<li><a href="/ir/highlight.html"><img src="/common/image/subnavi02_02_off.png" alt="財務ハイライト" width="157" height="36" class="png_bg" /></a></li>
+		<li><a href="/ir/documents.html"><img src="/common/image/subnavi02_03_off.png" alt="適時開示書類" width="157" height="36" class="png_bg" /></a></li>
+		<li><a href="/ir/proceeds.html"><img src="/common/image/subnavi02_04_off.png" alt="売上月次報告" width="157" height="36" class="png_bg" /></a></li>
+		<li><a href="/ir/annual.html"><img src="/common/image/subnavi02_05_off.png" alt="年次報告書" width="157" height="36" class="png_bg" /></a></li>
+		<li><a href="/ir/info.html"><img src="/common/image/subnavi02_06_off.png" alt="会社案内" width="157" height="36" class="png_bg" /></a></li>
+		<li><a href="/ir/valuable.html"><img src="/common/image/subnavi02_07_off.png" alt="有価証券報告書" width="157" height="36" class="png_bg" /></a></li>
+		<li><a href="/ir/finance.html"><img src="/common/image/subnavi02_08_off.png" alt="財務諸表" width="157" height="36" class="png_bg" /></a></li>
+		<li><a href="/ir/policy.html"><img src="/common/image/subnavi02_09_off.png" alt="IRポリシー・免責事項" width="157" height="36" class="png_bg" /></a></li>
+		<li><a href="/ir/info_e.html"><img src="/common/image/subnavi02_06e_off.png" alt="Corporate Profile" width="157" height="36" class="png_bg" /></a></li>
+		<li><a href="/ir/highlight_e.html"><img src="/common/image/subnavi02_02e_off.png" alt="Financial Highlights" width="157" height="36" class="png_bg" /></a></li>
+		<li><a href="/ir/finance_e.html"><img src="/common/image/subnavi02_08e_off.png" alt="Financial Statements" width="157" height="37" class="png_bg" /></a></li>
+		</ul>
+	</li>
+	
+	<li><a href="/CGI/news/view.cgi"><img src="/common/image/mainnavi_03_off.gif" alt="ニュースリリース" width="158" height="55" border="0" id="header_btn03"></a></li>
+	
+	<li><a href="http://stocks.finance.yahoo.co.jp/stocks/detail/?code=3088.T" target="_blank" onclick="javascript:_gaq.push(['_trackPageview','/click/kabuka/header']);"><img src="/common/image/mainnavi_04_off.gif" alt="株価情報" name="header_nav04" width="158" height="55" border="0" id="header_btn04"></a></li>
+	
+	<li><a href="/investors/index.html"><img src="/common/image/mainnavi_05_off.gif" alt="株主・投資家の皆さまへ" width="158" height="55" border="0" id="header_btn03"></a>
+
+		<ul class="sub">
+		<li><a href="/investors/index.html"><img src="/common/image/subnavi05_01_off.png" alt="株主優待・配当金" width="157" height="36" class="png_bg" /></a></li>
+		<li><a href="http://stocks.finance.yahoo.co.jp/stocks/detail/?code=3088.T" target="_blank" onclick="javascript:_gaq.push(['_trackPageview','/click/kabuka/header']);"><img src="/common/image/subnavi05_02_off.png" alt="株価情報" width="157" height="36" class="png_bg" /></a></li>
+		<li><a href="/investors/calendar/index.html"><img src="/common/image/subnavi05_03_off.png" alt="IRカレンダー" width="157" height="37" class="png_bg" /></a></li>
+		<li><a href="/investors/meeting.html"><img src="/common/image/subnavi05_04_off.png" alt="株主総会" width="157" height="37" class="png_bg" /></a></li>
+		</ul>
+	</li>
+	
+	<li><a href="/csr/index.html"><img src="/common/image/mainnavi_06_off.gif" alt="CSR活動" width="159" height="55" border="0" id="header_btn03"></a>
+
+		<ul class="sub">
+		<li><a href="/csr/index.html#csr08"><img src="/common/image/subnavi06_09_off.png" alt="マツモトキヨシホールディングスCSRの考え方" width="157" height="36" class="png_bg" /></a></li>
+		<li><a href="/csr/index.html#csr07"><img src="/common/image/subnavi06_01_off.png" alt="社会貢献活動" width="157" height="36" class="png_bg" /></a></li>
+		<li><a href="/csr/index.html#csr01"><img src="/common/image/subnavi06_02_off.png" alt="募金活動" width="157" height="36" class="png_bg" /></a></li>
+		<li><a href="/csr/index.html#csr02"><img src="/common/image/subnavi06_03_off.png" alt="セルフメディケーションの推進" width="157" height="36" class="png_bg" /></a></li>
+		<li><a href="/csr/index.html#csr03"><img src="/common/image/subnavi06_04_off.png" alt="震災復興支援" width="157" height="36" class="png_bg" /></a></li>
+		<li><a href="/csr/index.html#csr04"><img src="/common/image/subnavi06_05_off.png" alt="支援活動" width="157" height="36" class="png_bg" /></a></li>
+		<li><a href="/csr/index.html#csr09"><img src="/common/image/subnavi06_10_off.png" alt="災害時支援" width="157" height="36" class="png_bg" /></a></li>
+		<li><a href="/csr/index.html#csr05"><img src="/common/image/subnavi06_06_off.png" alt="環境保護活動" width="157" height="36" class="png_bg" /></a></li>
+		<li><a href="/csr/index.html#csr06"><img src="/common/image/subnavi06_07_off.png" alt="地域との連携" width="157" height="36" class="png_bg" /></a></li>
+	<li><a href="/csr/index.html#csr10"><img src="/common/image/subnavi06_11_off.png" alt="地域との連携" width="157" height="36" class="png_bg" /></a></li>
+		<li><a href="/csr/index_e.html"><img src="/common/image/subnavi06_08_off.png" alt="CSR (English)" width="157" height="36" class="png_bg" /></a></li>
+		</ul>
+	</li>
+	</ul>
+</div>
+
+
+
+
+
+	<div id="mainvisual" class="clearfix">
+
+		<ul>
+
+		<li><img src="image/mainvisual01.jpg" alt="ドラッグストア事業&#13;&#10;お客様の美と健康のために奉仕して参ります" width="749" height="238"></li>
+
+		<li><img src="image/mainvisual02.jpg" alt="調剤事業&#13;&#10;医療に貢献するかかりつけ薬局を目指します" width="749" height="238"></li>
+
+		<li><img src="image/mainvisual03.jpg" alt="オリジナルブランド&#13;&#10;オリジナル賞品の企画・開発に取り組んでおります。" width="749" height="238"></li>
+
+		<li><img src="image/mainvisual04.jpg" alt="1st for You.　あなたにとっての、いちばんへ。" width="749" height="238"></li>
+
+		</ul>
+
+		<h2><a href="company/group.html"><img src="image/btn_group_off.jpg" alt="「かかりつけのドラッグストア」を目指す マツモトキヨシグループ　各社の概要がご覧になれます　グループ会社一覧へ" width="194" height="222"></a></h2>
+
+	</div>
+
+
+
+	<!--<p class="mainte">
+
+	<strong>システムメンテナンスのお知らせ</strong>
+
+	2009年12月7日(月)AM3:00～3:10までの間、システムメンテナンスのため、サイトに接続しにくくなることがございます。<br>
+
+	皆様にはご不便をおかけいたしますが、何卒ご理解いただきますようお願い申し上げます。
+
+	</p>-->
+
+
+
+	<div id="topcontent">
+
+		<ul class="indexBox1 clearfix">
+
+			<li class="index_l">
+
+            	<div class="news_box">
+
+                    <h3><img src="image/index_title01.gif" alt="ニュースリリース" width="628" height="45"><a href="/CGI/news/view.cgi"><img src="image/btn_index01_off.gif" alt="一覧はこちら" width="86" height="20"></a></h3>
+
+                    <div class="news">
+
+                    <ul class="newslist">
+
+<li>
+	<span class="date">2017年08月21日</span>
+	<span class="icon"><img src="/news/image/icon_5.gif"></span>
+	<p><a href="http://www.matsumotokiyoshi-hd.co.jp/news/data/651c64649f57d0af56099fad9ebf7a59.pdf"  target="_blank" >第24回セルフメディケーションフォーラム 「美と健康のエキスパートに学ぶ今日から始めるワタシ磨き」開催 <span class="f_cap">(PDF:403.61KB)</span> </a></p>
+</li>
+
+<li>
+	<span class="date">2017年08月16日</span>
+	<span class="icon"><img src="/news/image/icon_7.gif"></span>
+	<p><a href="http://www.matsumotokiyoshi-hd.co.jp/news/data/52034cca76d2469348a260e04e741da5.pdf"  target="_blank" >デイリーオーガニックブランド「ARGELAN（アルジェラン）」 ヘアケアラインに精油100％の“エッセンシャルオイルシリーズ”が新登場！ <span class="f_cap">(PDF:501.45KB)</span> </a></p>
+</li>
+
+<li>
+	<span class="date">2017年08月10日</span>
+	<span class="icon"><img src="/news/image/icon_7.gif"></span>
+	<p><a href="http://www.matsumotokiyoshi-hd.co.jp/news/data/c2483834e0c099d754779659d6339ccf.pdf"  target="_blank" >マツモトキヨシグル-プの専売商品 「総合感冒薬～パイロンPL顆粒18包～が新発売」 <span class="f_cap">(PDF:251.71KB)</span> </a></p>
+</li>
+
+<li>
+	<span class="date">2017年08月09日</span>
+	<span class="icon"><img src="/news/image/icon_1.gif"></span>
+	<p><a href="http://www.matsumotokiyoshi-hd.co.jp/news/data/f5a158da3dc8907e729e34d812a42638.pdf"  target="_blank" >平成30年３月期 第１四半期決算短信 <span class="f_cap">(PDF:342.00KB)</span> </a></p>
+</li>
+
+<li>
+	<span class="date">2017年06月30日</span>
+	<span class="icon"><img src="/news/image/icon_7.gif"></span>
+	<p><a href="http://www.matsumotokiyoshi-hd.co.jp/news/data/cf86c842eb01f25d7bcccc8b2980fa70.pdf"  target="_blank" >マツキヨの働く女性に向けた新しい挑戦BeautyU　本日2017年６月30日(金)銀座にオ-プン <span class="f_cap">(PDF:1947.14KB)</span> </a></p>
+</li>
+
+<li>
+	<span class="date">2017年06月30日</span>
+	<span class="icon"><img src="/news/image/icon_1.gif"></span>
+	<p><a href="http://www.matsumotokiyoshi-hd.co.jp/news/data/25f2f241b0395b9e65dc07b0b793316e.pdf"  target="_blank" >投資単位の引下げに関する考え方及び方針等について <span class="f_cap">(PDF:62.87KB)</span> </a></p>
+</li>
+
+<li>
+	<span class="date">2017年06月05日</span>
+	<span class="icon"><img src="/news/image/icon_7.gif"></span>
+	<p><a href="http://www.matsumotokiyoshi-hd.co.jp/news/data/9d4379481b8bbf290a0782e849404764.pdf"  target="_blank" >マツモトキヨシホールディングスが登録販売者資格取得に向けた書籍を刊行 <span class="f_cap">(PDF:922.66KB)</span> </a></p>
+</li>
+
+<li>
+	<span class="date">2017年05月30日</span>
+	<span class="icon"><img src="/news/image/icon_7.gif"></span>
+	<p><a href="http://www.matsumotokiyoshi-hd.co.jp/news/data/2f1e64708279546e3b38c4083b1641aa.pdf"  target="_blank" >マツキヨの働く女性に向けた新しい挑戦 BeautyU 2017年６月30日（金）銀座にオープン <span class="f_cap">(PDF:1942.68KB)</span> </a></p>
+</li>
+
+</ul>
+
+                    </div>
+
+                </div>
+
+			</li>
+
+			<li class="index_r">
+
+            	<div class="company">
+
+				<a href="company/index.html"><img src="image/company_topmsg_off.gif" alt="トップメッセージ" width="188" height="25"></a>
+
+				<a href="company/index_e.html"><img src="image/company_topmsg_e_off.gif" alt="Top Message" width="188" height="24"></a>
+
+				<span><img src="image/company_txt.gif" alt="すべての人にとってのいちばんを目指して。Striving to be the“Number 1” for everyone." width="188" height="67"></span>
+
+                </div>
+
+				<div class="ir">
+
+				<h3><img src="image/index_title02.gif" alt="IR最新情報" width="308" height="42"><a href="ir/index.html"><img src="image/btn_index02_off.gif" alt="IR情報一覧" width="70" height="20"></a></h3>
+
+					<div class="book">
+
+						<div>
+
+                            <a href="/ir/pdf/anual/an_year17.pdf" target="pdf_ir" onclick="javascript:_gaq.push(['_trackPageview','/click/ir/annual/toplatest']);">
+
+                            	<span class="image"><span><img src="image/pho_index02_01.jpg" alt="2017年 年次報告書" width="60" height="70"></span></span>
+
+	                            <span class="txt"><span>2017年<br>年次報告書</span></span>
+
+                            </a>
+
+                        </div>
+
+						<div>
+
+                            <span class="book_line">
+
+                                <span class="image"><span><a href="ir/e-book/info/17/index.html" target="_blank" onclick="javascript:_gaq.push(['_trackPageview','/click/ir/info/latest/jp/topebook']);"><img src="image/pho_index02_02_2017.jpg" alt="2017年 会社案内" width="60" height="70"></a></span></span>
+
+                                <span class="txt">
+
+                                    <a href="ir/e-book/info/17/index.html" target="_blank" onclick="javascript:_gaq.push(['_trackPageview','/click/ir/info/latest/jp/topebook']);"><span>2017年<br>会社案内</span></a>
+
+
+
+                                </span>
+
+                            </span>
+
+						</div>
+
+					</div>
+
+					<ul class="clearfix indexlist">
+
+					<li><a href="ir/index.html">決算短信</a></li>
+
+					<li><a href="ir/highlight.html">財務ハイライト</a></li>
+
+					<li><a href="ir/proceeds.html">売上月次報告</a></li>
+
+					<li><a href="ir/valuable.html">有価証券報告書</a></li>
+
+					<li><a href="ir/finance.html">財務諸表</a></li>
+
+					</ul>
+
+				</div>
+
+				<div class="recurite">
+
+					<p><a href="http://www.r-matsukiyo.com/" target="_blank"><img src="image/bnr_recurite.jpg" alt="採用情報" width="270" height="75"></a></p>
+
+				</div>
+
+			</li>
+
+		</ul>
+
+		<ul class="indexBox2 clearfix">
+
+            <li class="heightline">
+
+                <h3><img src="image/index_title03.gif" alt="企業情報" width="308" height="48"></h3>
+
+                <span class="image"><img src="image/pho_index03.jpg" alt="" width="308" height="78"></span>
+
+                <ul class="indexlist">
+
+                <li class="left"><a href="company/index.html">トップメッセージ</a></li>
+
+                <li><a href="company/governance.html">コーポレートガバナンス</a></li>
+
+                <li class="left"><a href="company/idea.html">グループ経営理念</a></li>
+
+                <li><a href="company/info.html">会社概要</a></li>
+
+                <li class="left"><a href="company/history.html">沿革</a></li>
+
+                <li><a href="company/group.html">グループ会社一覧</a></li>
+
+                <li class="left"><a href="company/map.html">本社地図</a></li>
+
+                </ul>
+
+            </li>
+
+            <li class="heightline">
+
+                <h3><img src="image/index_title04.gif" alt="株主・投資家の皆さまへ" width="308" height="48"></h3>
+
+                <span class="image"><img src="image/pho_index04.jpg" alt="" width="308" height="78"></span>
+
+                <ul class="indexlist">
+
+                <li class="left"><a href="investors/index.html">株主優待・配当金</a></li>
+
+                <li><a href="investors/calendar/index.html">IRカレンダー</a></li>
+
+                <li class="left"><a href="http://stocks.finance.yahoo.co.jp/stocks/detail/?code=3088.T" target="_blank">株価情報</a></li>
+
+                <li><a href="investors/meeting.html">株主総会</a></li>
+
+                </ul>
+
+            </li>
+
+            <li class="heightline">
+
+                <h3><img src="image/index_title05.gif" alt="CSR活動" width="308" height="48"></h3>
+
+                <span class="image"><img src="image/pho_index05.jpg" alt="" width="308" height="78"></span>
+
+                <ul class="indexlist">
+
+                <li class="left"><a href="csr/index.html#csr08">マツモトキヨシホールディングスCSRの考え方</a></li>
+
+		<li><a href="csr/index.html#csr02">セルフメディケーションの推進</a></li>
+
+                <li class="left"><a href="csr/index.html#csr07">社会貢献活動</a></li>
+
+                <li><a href="csr/index.html#csr01">募金活動</a></li>
+
+                <li class="left"><a href="csr/index.html#csr03">東日本大震災復興支援</a></li>
+
+                <li><a href="csr/index.html#csr04">支援活動</a></li>
+
+                <li class="left"><a href="csr/index.html#csr05">環境保護活動</a></li>
+
+                <li><a href="csr/index.html#csr09">災害時支援</a></li>
+               
+                <li class="left"><a href="csr/index.html#csr06">地域との連携</a></li> 
+                
+                <li><a href="csr/index.html#csr10">研修制度</a></li>
+
+               
+
+                </ul>
+
+            </li>
+
+		</ul>
+
+	</div>
+
+</div>
+
+
+
+<div id="footer" class="clearfix">
+	<div class="clearfix footnavi">
+	<span class="home"><a href="/index.html"><img src="/common/image/btn_home_off.gif" alt="Home" width="56" height="16" /></a></span>
+	<span id="toTop"><a href="#wrap"><img src="/common/image/btn_pagetop_off.gif" alt="PageTop" width="68" height="16" /></a></span>
+	</div>
+	
+	<h5><img src="/common/image/footer_title.gif" alt="グループ会社Webサイト" width="950" height="12" /></h5>
+	<ul class="clearfix bnr">
+	<li><a href="http://www.matsukiyo.co.jp/map/mk" target="_blank" onclick="javascript:_gaq.push(['_trackPageview','/click/groupsite/matsukiyo']);"><img src="/common/image/bnr_group01.gif" alt="株式会社マツモトキヨシ" width="150" height="46" /></a></li>
+	<li><a href="http://www.matsukiyo.co.jp/map/papasu" target="_blank" onclick="javascript:_gaq.push(['_trackPageview','/click/groupsite/papas']);"><img src="/common/image/bnr_group02.gif" alt="株式会社ぱぱす" width="150" height="46" /></a></li>
+	<li><a href="http://www.matsukiyo.co.jp/map/mk-east" target="_blank" onclick="javascript:_gaq.push(['_trackPageview','/click/groupsite/mk_east']);"><img src="/common/image/bnr_group03.gif" alt="株式会社マツモトキヨシ東日本販売" width="150" height="46" /></a></li>
+	<li><a href="http://www.matsukiyo.co.jp/map/mk-kyushu" target="_blank" onclick="javascript:_gaq.push(['_trackPageview','/click/groupsite/mk_kyusyu']);"><img src="/common/image/bnr_group04.gif" alt="株式会社マツモトキヨシ九州販売" width="150" height="46" /></a></li>
+	<li><a href="http://www.matsukiyo.co.jp/map/mk-koushinetsu" target="_blank" onclick="javascript:_gaq.push(['_trackPageview','/click/groupsite/mk_koshinetsu']);"><img src="/common/image/bnr_group05.gif" alt="株式会社マツモトキヨシ甲信越販売" width="150" height="46" /></a></li>
+	<li><a href="http://www.matsukiyo.co.jp/map/mk-chugoku" target="_blank" onclick="javascript:_gaq.push(['_trackPageview','/click/groupsite/mk_cyushikoku']);"><img src="/common/image/bnr_group06.gif" alt="株式会社マツモトキヨシ中四国販売" width="150" height="46" /></a></li>
+	<li><a href="http://www.mk-pharmacies.co.jp/" target="_blank" onclick="javascript:_gaq.push(['_trackPageview','/click/groupsite/pharmacies']);"><img src="/common/image/bnr_group12.gif" alt="株式会社マツモトキヨシファーマシーズ" width="150" height="46" /></a></li>
+	<li><a href="http://www.matsukiyo.co.jp/map/simeno" target="_blank" onclick="javascript:_gaq.push(['_trackPageview','/click/groupsite/simeno']);"><img src="/common/image/bnr_group15.gif" alt="株式会社示野薬局(シメノドラッグ)" width="150" height="46" /></a></li>
+	<!--<li><a href="http://www.mogiph.co.jp/" target="_blank" onclick="javascript:_gaq.push(['_trackPageview','/click/groupsite/mogi']);"><img src="/common/image/bnr_group14.gif" alt="株式会社茂木薬品商会" width="150" height="46" /></a></li>-->
+	</ul>
+	
+	<ul class="clearfix navilist">
+	<li>
+		<ul>
+		<li class="head"><a href="/company/index.html"><img src="/common/image/navi_footer01_off.gif" alt="企業情報" width="65" height="17" /></a></li>
+		<li><a href="/company/index.html">トップメッセージ</a></li>
+		<li><a href="/company/governance.html">コーポレートガバナンス</a></li>
+		<li><a href="/company/idea.html">グループ経営理念</a></li>
+		<li><a href="/company/info.html">会社概要</a></li>
+		<li><a href="/company/history.html">沿革</a></li>
+		<li><a href="/company/group.html">グループ会社一覧</a></li>
+		<li><a href="/company/map.html">本社地図</a></li>
+		<li><a href="/company/index_e.html">Top Message</a></li>
+		<li><a href="/company/group_e.html">Group Company</a></li>
+		</ul>
+	</li>
+	<li>
+		<ul>
+		<li class="head"><a href="/ir/index.html"><img src="/common/image/navi_footer02_off.gif" alt="IR情報" width="54" height="17" /></a></li>
+		<li><a href="/ir/index.html">決算短信</a></li>
+		<li><a href="/ir/highlight.html">財務ハイライト</a></li>
+		<li><a href="/ir/documents.html">適時開示書類</a></li>
+		<li><a href="/ir/proceeds.html">売上月次報告</a></li>
+		<li><a href="/ir/annual.html">年次報告書</a></li>
+		<li><a href="/ir/info.html">会社案内</a></li>
+		<li><a href="/ir/valuable.html">有価証券報告書</a></li>
+		<li><a href="/ir/finance.html">財務諸表</a></li>
+		<li><a href="/ir/policy.html">IRポリシー・免責事項</a></li>
+		<li><a href="/ir/info_e.html">Corporate Profile</a></li>
+		<li><a href="/ir/highlight_e.html">Financial Highlights</a></li>
+		<li><a href="/ir/finance_e.html">Financial Statements</a></li>
+		</ul>
+	</li>
+	<li>
+		<ul>
+		<li class="head"><a href="/investors/index.html"><img src="/common/image/navi_footer03_off.gif" alt="株主・投資家の皆さまへ" width="142" height="17" /></a></li>
+		<li><a href="/investors/index.html">株主優待・配当金</a></li>
+		<li><a href="http://stocks.finance.yahoo.co.jp/stocks/detail/?code=3088.T" target="_blank" onclick="javascript:_gaq.push(['_trackPageview','/click/kabuka/footer']);">株価情報</a></li>
+		<li><a href="/investors/calendar/index.html">IRカレンダー</a></li>
+		<li><a href="/investors/meeting.html">株主総会</a></li>
+		</ul>
+	</li>
+	<li>
+		<ul>
+		<li class="head"><a href="/csr/index.html"><img src="/common/image/navi_footer04_off.gif" alt="CSR活動" width="69" height="17" /></a></li>
+		<li><a href="/csr/index.html#csr08">マツモトキヨシホールディングスCSRの考え方</a></li>
+		<li><a href="/csr/index.html#csr07">社会貢献活動</a></li>
+		<li><a href="/csr/index.html#csr01">募金活動</a></li>
+		<li><a href="/csr/index.html#csr02">セルフメディケーションの推進</a></li>
+		<li><a href="/csr/index.html#csr03">震災復興支援</a></li>
+		<li><a href="/csr/index.html#csr04">支援活動</a></li>
+		<li><a href="/csr/index.html#csr09">災害時支援</a></li>
+		<li><a href="/csr/index.html#csr05">環境保護活動</a></li>
+		<li><a href="/csr/index.html#csr06">地域との連携</a></li>
+		<li><a href="/csr/index.html#csr10">研修制度</a></li>
+		<li><a href="/csr/index_e.html">CSR (English)</a></li>
+		</ul>
+	</li>
+	<li>
+		<ul>
+		<li class="head"><a href="/CGI/news/view.cgi"><img src="/common/image/navi_footer05_off.gif" alt="ニュースリリース" width="105" height="17" /></a></li>
+		<li class="head"><a href="http://stocks.finance.yahoo.co.jp/stocks/detail/?code=3088.T" target="_blank" onclick="javascript:_gaq.push(['_trackPageview','/click/kabuka/footer']);"><img src="/common/image/navi_footer06_off.gif" alt="株価情報" width="69" height="17" /></a></li>
+		<li class="head"><a href="/faq.html"><img src="/common/image/navi_footer07_off.gif" alt="FAQ" width="50" height="17" /></a></li>
+		<li class="head"><a href="/contact.html"><img src="/common/image/navi_footer08_off.gif" alt="お問い合せ" width="79" height="17" /></a></li>
+		<li class="head"><a href="/sitemap.html"><img src="/common/image/navi_footer09_off.gif" alt="サイトマップ" width="86" height="17" /></a></li>
+		<li class="head"><a href="http://www.pronexus.co.jp/koukoku/3088/3088.html" target="_blank" onclick="javascript:_gaq.push(['_trackPageview','/click/houteikoukoku']);"><img src="/common/image/navi_footer10_off.gif" alt="法定公告" width="69" height="17" /></a></li>
+		<li class="head"><a href="/houteikoukoku_group.html"><img src="/common/image/navi_footer13_off.gif" alt="子会社法定公告" width="105" height="17" /></a></li>
+		<li class="head"><a href="/privacy.html"><img src="/common/image/navi_footer11_off.gif" alt="プライバシーポリシー" width="132" height="17" /></a></li>
+		<li class="head"><a href="/mynumber_policy.html"><img src="/common/image/navi_footer15_off.gif" alt="特定個人情報取扱方針" width="138" height="17" /></a></li>
+		<li class="head"><a href="/rule.html"><img src="/common/image/navi_footer12_off.gif" alt="利用規約" width="69" height="17" /></a></li>
+		<li class="head"><a href="http://www.r-matsukiyo.com/" target="_blank"><img src="/common/image/navi_footer14_off.gif" alt="採用情報" width="68" height="17" /></a></li>
+		</ul>
+	</li>
+	</ul>
+
+	<div class="copyright"><p>Copyright&copy; Matsumotokiyoshi Holdings Co., Ltd. All rights reserved.</p></div>
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,380 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="description" content="電気防食・被覆防食・RC防食でインフラ構造物を支えるナカボーテック　,　腐食調査　,　維持管理 ">
+<meta name="keywords" content="電気防食 , 腐食調査 , 腐食 , 調査 , 防食 , 錆 , 鉄 , 鋼材 , アルミニウム合金陽極 , 電極 , 異種金属 , 流電 , 外部電源 , ペトロラタム , 被覆 , 鉄イオン , コンクリート , 塩害 , 鉄筋 ">
+<title>トップページ｜株式会社ナカボーテック</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+<link href="img/common/favicon.ico" rel="SHORTCUT ICON" >
+<script src="js/jquery-1.8.3.min.js"></script><!--for pulldownmenu-->
+<script src="js/script.js"></script>
+<script src="js/biggerlink.js"></script>
+<script src="js/openWindow.js"></script>
+<!--[if lt IE 9]>
+<script src="js/html5shiv-printshiv.js"></script>
+<![endif]-->
+
+<script src="js/1.11.2/jquery.min.js"></script>
+<script>//スマホ用　メニュー
+	$(function(){
+		$(".menu-btn").click(function(){
+			$("#navi").slideToggle(300);
+		});
+	});	
+</script>
+
+<link rel="stylesheet" href="bxslider/jquery.bxslider.css" type="text/css" >
+<script src="bxslider/jquery.min.js" ></script>
+<script src="bxslider/jquery.bxslider.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$('.bxslider').bxSlider({
+		auto: true,
+		mode: 'fade',
+		captions: true
+	});
+});
+</script>
+
+<style type="text/css">
+</style>
+
+</head>
+
+<body id="pageHome">
+<div id="container">
+ <div id="wrapper">
+  <header id="header">
+   <div class="headerInner clearfix">
+    <div class="logo"><h1>電気防食のパイオニア</h1><a id="logo" href="index.html"><img src="img/common/logo.png" alt="株式会社ナカボーテック"></a></div>
+    <div class="jasdaq"><img src="img/common/jasdaq.png" alt="JASDAQ 証券コード1787"></div>
+    <div class="blockRight">
+     <ul class="inquiryList">
+      <li id="naviInquiry"><a href="inquiry/contact.html">お問い合わせ</a></li>
+      <li id="naviPolicy"><a href="privacy_policy/index.html">個人情報保護方針</a></li>
+      <li id="naviEnglish"><a href="english/index.html">ENGLISH</a></li>
+     </ul>
+     <ul class="inquiryListSP">
+      <li><a href="inquiry/contact.html"><i class="fa fa-envelope"></i></a><span>メール</span></li>
+      <li><a href="privacy_policy/index.html"><i class="fa fa-key"></i></a><span class="privacy">個人情報保護</span></li>
+      <li><a href="english/index.html"><i class="fa fa-language"></i></a><span>English</span></li>
+      <li id="button" class="menu-btn"><a href="#"><i class="fa fa-list-ul"></i></a><span>メニュー</span></li>
+     </ul>
+    </div>
+    <!-- Google Search -->
+    <div class="searchBlock">
+     <form id="cse-search-box" action="http://google.com/cse">
+      <input type="hidden" name="cx" value="011683261144231158996:e69afu3fniq" >
+      <input type="hidden" name="ie" value="UTF-8" >
+      <input type="text" name="q" size="25" placeholder="サイト内検索" >
+      <input type="submit" name="sa" value="検索" >
+     </form>
+    </div>
+    <!-- Google Search-->
+   </div><!-- /#headerInner -->
+  </header><!-- /#header -->
+
+  <nav id="navi">
+   <ul class="naviList clearfix">
+    <li id="naviCompany"><a href="company/index.html">会社情報</a>
+     <div class="sub">
+      <div class="navSection">
+       <div class="sub-menu subList">
+        <p class="title"><i class="fa fa-caret-right fa-fw"></i><a href="company/index.html">会社概要</a></p>
+        <p class="title"><i class="fa fa-caret-right fa-fw"></i><a href="company/greeting.html">ごあいさつ</a></p>
+        <p class="title"><i class="fa fa-caret-right fa-fw"></i><a href="company/enkaku.html">沿革</a></p>
+        <p class="title"><i class="fa fa-caret-right fa-fw"></i><a href="company/office.html">営業拠点</a></p>
+        <p class="title"><i class="fa fa-caret-right fa-fw"></i><a href="company/factory.html">工場案内</a></p>
+        <p class="title"><i class="fa fa-caret-right fa-fw"></i><a href="company/environment.html">安全衛生・環境基本方針</a></p>
+        <p class="title"><i class="fa fa-caret-right fa-fw"></i><a href="company/iso.html">ISO9001</a></p>
+        <p class="title"><i class="fa fa-caret-right fa-fw"></i><a href="company/shikaku.html">資格一覧</a></p>
+        <p class="title"><i class="fa fa-caret-right fa-fw"></i><a href="company/actionplan.html">一般事業主行動計画<br>　　（女性活躍推進）</a></p>
+        <p class="title"><i class="fa fa-envelope fa-fw"></i><a href="javascript:openWin4();">お問い合わせ</a></p>
+       </div>
+      </div>
+     </div><!-- /.sub -->
+    </li>
+    <li id="naviJigyo"><a href="jigyo/index.html">事業案内</a>
+     <div class="sub">
+      <div class="navSection">
+       <div class="sub-menu subList">
+        <p class="title"><i class="fa fa-caret-right fa-fw"></i><a href="jigyo/index.html">事業案内TOP</a></p>
+        <p class="title"><i class="fa fa-caret-right fa-fw"></i><a href="jigyo/investigation.html">調査</a></p>
+        <p class="title"><i class="fa fa-caret-right fa-fw"></i><a href="jigyo/propose.html">対策提案</a></p>
+        <p class="title"><i class="fa fa-caret-right fa-fw"></i><a href="jigyo/maintenance.html">保守管理</a></p>
+        <p class="title"><i class="fa fa-caret-right fa-fw"></i><a href="jigyo/marineTop.html">海洋構造物</a></p>
+        <p class="title"><i class="fa fa-caret-right fa-fw"></i><a href="jigyo/pipelinesTop.html">地中埋設物</a></p>
+        <p class="title"><i class="fa fa-caret-right fa-fw"></i><a href="jigyo/facilitiesTop.html">陸上設備</a></p>
+        <p class="title"><i class="fa fa-caret-right fa-fw"></i><a href="jigyo/saltdamageTop.html">塩害コンクリート構造物</a></p>
+        <p class="title"><i class="fa fa-caret-right fa-fw"></i><a href="jigyo/kokusai.html">海外事業</a></p>
+        <p class="title"><i class="fa fa-caret-right fa-fw"></i><a href="jigyo/results.html">工事実績紹介</a></p>
+        <p class="title"><i class="fa fa-envelope"></i><a href="javascript:openWin1();">お問い合わせ</a></p>
+       </div>
+      </div>
+     </div><!-- /.sub -->
+    </li>
+    <li id="naviTechnology"><a href="techinfo/index.html">技術情報</a>
+     <div class="sub">
+      <div class="navSection">
+       <div class="sub-menu subList">
+        <p class="title"><i class="fa fa-caret-right fa-fw"></i><a href="techinfo/index.html">ナカボーレポート</a></p>
+        <p class="title"><i class="fa fa-caret-right fa-fw"></i><a href="techinfo/ronbun.html">技術発表・論文投稿</a></p>
+        <p class="title"><i class="fa fa-caret-right fa-fw"></i><a href="techinfo/study.html">共同研究</a></p>
+       </div>
+      </div>
+     </div><!-- /.sub -->
+    </li>
+    <li id="naviOffice"><a href="company/office.html">営業拠点</a></li>
+    <li id="naviIR"><a href="ir/index.html">IR情報</a>
+     <div class="sub">
+      <div class="navSection">
+       <div class="sub-menu subList">
+        <p class="title"><i class="fa fa-caret-right fa-fw"></i><a href="ir/koukoku.html">電子公告</a></p>
+        <p class="title"><i class="fa fa-envelope"></i><a href="javascript:openWin2();">お問い合わせ</a></p>
+       </div>
+      </div>
+     </div><!-- /.sub -->
+    </li>
+    <li id="naviRecruit"><a href="recruit/index.html">採用情報</a>
+     <div class="sub">
+      <div class="navSection">
+       <div class="sub-menu subList">
+        <p class="title"><i class="fa fa-caret-right fa-fw"></i><a href="recruit/index.html">新卒採用TOP</a></p>
+        <p class="title"><i class="fa fa-caret-right fa-fw"></i><a href="recruit/recruit01.html">新卒採用</a></p>
+        <p class="title"><i class="fa fa-caret-right fa-fw"></i><a href="recruit/recruit02.html">キャリア採用</a></p>
+        <p class="title"><i class="fa fa-caret-right fa-fw"></i><a href="recruit/introindex.html">社員紹介</a></p>
+        <p class="title"><i class="fa fa-envelope"></i><a href="javascript:openWin3();">お問い合わせ</a></p>
+       </div>
+      </div>
+     </div><!-- /.sub -->
+    </li>
+   </ul>
+   <p class="list-close menu-btn" title="close"><i class="fa fa-times-circle"></i> 閉じる</p>
+  </nav><!-- /#nav -->
+
+
+
+  <div class="SlideshowBtn"><!--スライドショー上のメニュー-->
+   <div class="btn_Slideshow btn_Slideshow01"><a href="jigyo/pdf/denkiboshoku.pdf" target="_blank"><span>電気防食とは</span></a></div>
+   <div class="btn_Slideshow btn_Slideshow02"><a href="jigyo/index.html"><span>防食工法</span></a></div>
+   <div class="btn_Slideshow btn_Slideshow03"><a href="jigyo/investigation.html"><span>調査・診断</span></a></div>
+   <div class="btn_Slideshow btn_Slideshow04"><a href="jigyo/propose.html"><span>対策提案<br>設計・施工</span></a></div>
+   <div class="btn_Slideshow btn_Slideshow05"><a href="jigyo/maintenance.html" ><span>維持管理<br>モニタリング</span></a></div>
+   <div class="btn_Slideshow btn_Slideshow06"><a href="recruit/index.html"><span>学生の方</span></a></div>
+  </div><!-- /.SlideshowBtn -->
+
+  <div class="SlideshowBtnSP"><!--スライドショー上のメニュSPー-->
+   <ul class="float">
+    <li class="btn_Slideshow"><a href="jigyo/pdf/denkiboshoku.pdf" target="_blank"><i class="fa fa-plug"></i><span class="single">電気防食とは</span></a></li>
+    <li class="btn_Slideshow"><a href="jigyo/index.html"><i class="fa fa-wrench"></i><span class="single">防食工法</span></a></li>
+    <li class="btn_Slideshow"><a href="jigyo/investigation.html"><i class="fa fa-stethoscope"></i><span class="single">調査・診断</span></a></li>
+    <li class="btn_Slideshow"><a href="jigyo/propose.html"><i class="fa fa-bullhorn"></i><span class="double">対策提案<br>設計・施工</span></a></li>
+    <li class="btn_Slideshow"><a href="jigyo/maintenance.html" ><i class="fa fa-television"></i><span class="double">維持管理<br>モニタリング</span></a></li>
+    <li class="btn_Slideshow"><a href="recruit/index.html"><i class="fa fa-graduation-cap"></i><span class="single">学生の方</span></a></li>
+   </ul>
+  </div><!-- /.SlideshowBtnSP -->
+
+
+  <div id="keyv"><!--スライドショー-->
+   <div class="keyvInner">
+    <ul class="bxslider">
+     <li><img src="img/home/keyv1.jpg" title="「創造にチャレンジして社会に貢献する」確かな品質と安全第一でお客様のご期待にお応えしてまいります。" alt="「創造にチャレンジして社会に貢献する」確かな品質と安全第一でお客様のご期待にお応えしてまいります。" ></li>
+     <li><img src="img/home/keyv2.jpg" title="「変わらないことの大切さ」安心で信頼できる防食技術で安全な生活の基盤を支えてまいります。" alt="「変わらないことの大切さ」安心で信頼できる防食技術で安全な生活の基盤を支えてまいります。" ></li>
+     <li><img src="img/home/keyv3.jpg" title="「今、価値あるものを未来へ」活力あふれる会社であり続けることを目指します。" alt="「今、価値あるものを未来へ」活力あふれる会社であり続けることを目指します。" ></li>
+     <li><img src="img/home/keyv4.jpg" title="「そのさびを解決します」腐食防食の専門リーディングカンパニーとして努力を続けてまいります。" alt="「そのさびを解決します」腐食防食の専門リーディングカンパニーとして努力を続けてまいります。" ></li>
+    </ul>
+   </div>
+  </div><!-- /#keyv -->
+
+  <div id="keyvS"><!--スマホ用スライドショー-->
+   <div class="keyvInner">
+    <ul class="bxslider">
+     <li><img src="img/home/keyv1S.jpg" title="「創造にチャレンジして社会に貢献する」確かな品質と安全第一でお客様のご期待にお応えしてまいります。" alt="「創造にチャレンジして社会に貢献する」確かな品質と安全第一でお客様のご期待にお応えしてまいります。" ></li>
+     <li><img src="img/home/keyv2S.jpg" title="「変わらないことの大切さ」安心で信頼できる防食技術で安全な生活の基盤を支えてまいります。" alt="「変わらないことの大切さ」安心で信頼できる防食技術で安全な生活の基盤を支えてまいります。" ></li>
+     <li><img src="img/home/keyv3S.jpg" title="「今、価値あるものを未来へ」活力あふれる会社であり続けることを目指します。" alt="「今、価値あるものを未来へ」活力あふれる会社であり続けることを目指します。" ></li>
+     <li><img src="img/home/keyv4S.jpg" title="「そのさびを解決します」腐食防食の専門リーディングカンパニーとして努力を続けてまいります。" alt="「そのさびを解決します」腐食防食の専門リーディングカンパニーとして努力を続けてまいります。" ></li>
+    </ul>
+   </div>
+  </div><!-- /#keyvS -->
+
+
+  <div class="topjigyo">
+   <ul class="Jigyo">
+    <li><a href="jigyo/marineTop.html"><img src="img/home/jigyo01.jpg" alt="日本を取り囲む海洋構造物に"></a></li>
+    <li><a href="jigyo/pipelinesTop.html"><img src="img/home/jigyo02.jpg" alt="生活基盤を支える地中埋設物"></a></li>
+    <li><a href="jigyo/facilitiesTop.html"><img src="img/home/jigyo03.jpg" alt="発電所や水門などの陸上設備"></a></li>
+    <li><a href="jigyo/saltdamageTop.html"><img src="img/home/jigyo04.jpg" alt="塩害コンクリート構造物"></a></li>
+   </ul>
+   <ul class="JigyoSP">
+    <li><a href="jigyo/marineTop.html"><img src="img/home/jigyo01sp.jpg"><span>日本を取り囲む<span class="blue">海洋構造物</span></span></a></li>
+    <li><a href="jigyo/pipelinesTop.html"><img src="img/home/jigyo02sp.jpg"><span>生活基盤を支える<span class="blue">地中埋設物</span></span></a></li>
+    <li><a href="jigyo/facilitiesTop.html"><img src="img/home/jigyo03sp.jpg"><span>発電所や水門などの<span class="blue">陸上設備</span></span></a></li>
+    <li><a href="jigyo/saltdamageTop.html"><img src="img/home/jigyo04sp.jpg"><span>塩害コンクリート<span class="blue">構造物</span></span></a></li>
+   </ul>
+  </div>
+
+<div style="clear:both;"></div>
+
+  <div id="contents" class="clearfix">
+   <div id="main2">
+    <div class="grayBox clearfix">
+     <h1 class="headline05">TOPICS</h1>
+     <div class="wrapNewsList">
+      <div class="scrollbarBox">
+       <div class="viewport">
+        <div class="overview">
+         <dl class="newsList clearfix">
+
+<!-- TOPICS STRAT -->
+
+          <dt><span>2017.08.07</span></dt>
+          <dd><span>ＩＲ情報</span><a href="topics/index.html">平成30年3月期 第1四半期決算短信〔日本基準〕（非連結）を開示しました。</a></dd><dt><span>2017.06.29</span></dt>
+          <dd><span>ＩＲ情報</span><a href="topics/index.html">第７４期年次報告書を開示しました。</a></dd>
+          <dt><span>2017.06.29</span></dt>
+          <dd><span>トピックス</span><a href="topics/movie2.html" target="_blank">株主様向け事業報告のご案内</a></dd>
+          <dt><span>2017.05.23</span></dt>
+          <dd><span>トピックス</span><a href="topics/index.html">支配株主等に関する事項についてを開示しました。</a></dd>
+          <dt><span>2017.05.23</span></dt>
+		  <dd><span>トピックス</span><a href="topics/index.html">投資単位の引下げに関する考え方及び方針等についてを開示しました。</a></dd>
+          <dt><span>2017.05.08</span></dt>
+          <dd><span>トピックス</span><a href="topics/index.html">代表取締役及び取締役等の異動に関するお知らせを開示しました。</a></dd>
+          
+
+          
+          
+                   
+          
+
+
+          
+
+          
+          
+
+<!-- TOPICS END -->
+
+         </dl>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div><!-- /#main -->
+
+   <aside id="side2">
+    <div class="sideBlock">
+     <ul class="menuList clearfix">
+      <li id="menuNew"><a href="new/index.html">新工法・新材料</a></li>
+      <li id="menuProducts"><a href="products/index.html">製品紹介</a></li>
+      <li id="menuCatalogue"><a href="catalogue/index.php">製品・工法カタログ</a></li>
+      <li id="menuPresentation"><a href="presentation/index.html">プレゼン資料</a></li>
+      <li id="menuTopics"><a href="topics/index.html">トピックス</a></li>
+      <li id="menuInquiry"><a href="inquiry/contact.html">お問い合わせ</a></li>
+     </ul>
+    </div><!-- /#sideBlock end -->
+   </aside><!-- /#side -->
+
+
+
+
+  </div><!-- /#contents -->
+
+
+
+  <p class="pagetop"><a href="#wrapper"><img src="img/common/btn_top_h.png" ></a></p>
+
+
+<footer id="footer">
+ <div class="fBlock">
+  <div class="fBlockInner clearfix">
+   <div id="hiddenTxt">電気防食・被覆防食・RC防食でインフラ構造物を支えるナカボーテック</div>
+   <div class="footerContent">
+    <p><i class="fa fa-play-circle"></i>&nbsp;<a href="company/index.html">会社情報</a></p>
+    <ul class="fNavi clearfix">
+     <li><i class="fa fa-caret-right"></i>&nbsp;<a href="company/index.html">会社概要</a></li>
+     <li><i class="fa fa-caret-right"></i>&nbsp;<a href="company/greeting.html">ごあいさつ</a></li>
+     <li><i class="fa fa-caret-right"></i>&nbsp;<a href="company/enkaku.html">沿革</a></li>
+     <li><i class="fa fa-caret-right"></i>&nbsp;<a href="company/office.html">営業拠点</a></li>
+     <li><i class="fa fa-caret-right"></i>&nbsp;<a href="company/factory.html">工場案内</a></li>
+     <li><i class="fa fa-caret-right"></i>&nbsp;<a href="company/environment.html">安全衛生・環境基本方針</a></li>
+     <li><i class="fa fa-caret-right"></i>&nbsp;<a href="company/iso.html">ISO9001</a></li>
+     <li><i class="fa fa-caret-right"></i>&nbsp;<a href="company/shikaku.html">資格一覧</a></li>
+     <li><i class="fa fa-caret-right"></i>&nbsp;<a href="company/actionplan.html">一般事業主行動計画<br>　(女性活躍推進)</a></li>
+     </ul>
+   </div>
+
+   <div class="footerContent">
+    <p><i class="fa fa-play-circle"></i>&nbsp;<a href="jigyo/index.html">事業案内</a></p>
+    <ul class="fNavi clearfix">
+     <li><i class="fa fa-caret-right"></i>&nbsp;<a href="jigyo/investigation.html">調査</a></li>
+     <li><i class="fa fa-caret-right"></i>&nbsp;<a href="jigyo/propose.html">対策提案</a></li>
+     <li><i class="fa fa-caret-right"></i>&nbsp;<a href="jigyo/maintenance.html">保守管理</a></li>
+     <li><i class="fa fa-caret-right"></i>&nbsp;<a href="jigyo/marineTop.html">海洋構造物</a></li>
+     <li><i class="fa fa-caret-right"></i>&nbsp;<a href="jigyo/pipelinesTop.html">地中埋設物</a></li>
+     <li><i class="fa fa-caret-right"></i>&nbsp;<a href="jigyo/facilitiesTop.html">陸上施設</a></li>
+     <li><i class="fa fa-caret-right"></i>&nbsp;<a href="jigyo/saltdamageTop.html">塩害コンクリート構造物</a></li>
+     <li><i class="fa fa-caret-right"></i>&nbsp;<a href="jigyo/kokusai.html">海外事業</a></li>
+     <li><i class="fa fa-caret-right"></i>&nbsp;<a href="jigyo/results.html">工事実績紹介</a></li>
+    </ul>
+   </div>
+
+   <div class="footerContent">
+    <p><i class="fa fa-play-circle"></i>&nbsp;<a href="techinfo/index.html">技術情報</a></p>
+    <ul class="fNavi clearfix">
+     <li><i class="fa fa-caret-right"></i>&nbsp;<a href="techinfo/index.html">ナカボーレポート</a></li>
+     <li><i class="fa fa-caret-right"></i>&nbsp;<a href="techinfo/ronbun.html">技術発表・論文投稿</a></li>
+     <li><i class="fa fa-caret-right"></i>&nbsp;<a href="techinfo/study.html">共同研究</a></li>
+    </ul>
+   </div>
+
+   <div class="footerContent">
+    <p><i class="fa fa-play-circle"></i>&nbsp;<a href="company/office.html">営業拠点</a></p>
+   </div>
+
+   <div class="footerContent">
+    <p><i class="fa fa-play-circle"></i>&nbsp;<a href="ir/index.html">IR情報</a></p>
+    <ul class="fNavi clearfix">
+     <li><i class="fa fa-caret-right"></i>&nbsp;<a href="ir/koukoku.html">電子公告</a></li>
+    </ul>
+   </div>
+ 
+   <div class="footerContent">
+    <p><i class="fa fa-play-circle"></i>&nbsp;<a href="recruit/index.html">採用情報</a></p>
+    <ul class="fNavi clearfix">
+     <li><i class="fa fa-caret-right"></i>&nbsp;<a href="recruit/recruit01.html">新卒採用</a></li>
+     <li><i class="fa fa-caret-right"></i>&nbsp;<a href="recruit/recruit02.html">キャリア採用</a></li>
+     <li><i class="fa fa-caret-right"></i>&nbsp;<a href="recruit/introindex.html">社員紹介</a></li>
+    </ul>
+   </div>
+
+   <div class="footerContent">
+    <p><i class="fa fa-play-circle"></i>&nbsp;<a href="new/index.html">新工法・新材料</a></p>
+    <p><i class="fa fa-play-circle"></i>&nbsp;<a href="products/index.html">製品紹介</a></p>
+    <p><i class="fa fa-play-circle"></i>&nbsp;<a href="catalogue/index.php">製品・工法カタログ</a></p>
+    <p><i class="fa fa-play-circle"></i>&nbsp;<a href="presentation/index.html">プレゼン資料</a></p>
+    <p><i class="fa fa-play-circle"></i>&nbsp;<a href="topics/index.html">トピックス</a></p>
+    <p><i class="fa fa-play-circle"></i>&nbsp;<a href="inquiry/contact.html">お問い合わせ</a></p>
+    <p><i class="fa fa-play-circle"></i>&nbsp;<a href="privacy_policy/index.html">個人情報保護方針</a></p>
+   </div>
+
+   <div class="footerContent">
+    <p><i class="fa fa-play-circle"></i>&nbsp;<a href="english/index.html">English</a></p>
+   </div>
+  </div><!-- /#fBlockInner clearfix -->
+ </div><!-- /#fBlock -->
+ <div class="footerInner">
+  <p id="copyright">Copyright (C) NAKABOHTEC CORROSION PROTECTING CO.,LTD.　All rights reserved.</p>
+ </div><!-- /#footerInner -->
+</footer><!-- /#footer -->
+
+
+</div><!-- /#container -->
+</div><!-- /#wrapper -->
+ 
+ 
+</body>
+</html>

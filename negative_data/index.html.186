@@ -1,0 +1,530 @@
+<!doctype html>
+<html lang="ja"><head>
+<meta charset="Shift_JIS">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta name="keywords" content="三信建設工業,技術開発,工法,特許,特殊基礎土木事業,環境保護,地盤再生事業,地盤改良,杭,基礎,斜面安定,山留め,法面緑化,推進,土壌・地下水汚染修復,調査・分析">
+<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+<meta name="description" content="地下を支え、山を押さえ、液状化を防ぐ地盤処理技術。三信建設工業は、日本の国土を支える地盤処理技術をはじめとして、さまざまな事業分野の課題解決に取り組んでいます。">
+<title>三信建設工業</title>
+<link rel="stylesheet" type="text/css" media="all" href="/common/css/default.css">
+<link rel="stylesheet" type="text/css" media="all" href="/common/css/layout.css">
+<link rel="stylesheet" href="/common/css/jquery.bxslider.css">
+<link rel="stylesheet" href="/common/css/slicknav.css" />
+<link rel="stylesheet" type="text/css" href="/common/css/colorbox.css">
+<style type="text/css">
+body,td,th {
+	font-family: "MS UI Gothic", "Lucida Grande", "ヒラギノ丸ゴ Pro W4", Osaka, "ＭＳ Ｐゴシック sans-serif";
+	font-size: 80%;
+}
+</style>
+<script type="text/javascript" src="/common/js/default.js"></script>
+<script type="text/javascript" src="/common/js/jquery-1.12.1.min.js"></script>
+<script type="text/javascript" src="/common/js/jquery.bxslider.min.js"></script>
+<script type="text/javascript" src="/common/js/jquery.slicknav.min.js"></script>
+<script type="text/javascript" src="common/js/jquery.colorbox-min.js"></script>
+<script type="text/javascript" src="/common/js/jquery.cookie.js"></script>
+<script type="text/javascript" src="/common/js/jquery.heightLine.js"></script>
+
+<script type="text/javascript">
+$(function(){
+$(".mainNavi_txt").heightLine();
+});
+</script>
+
+<!--loader-->
+<script type="text/javascript">
+$('head').append(
+    '<style type="text/css">#wrapper01 { display: none; } #fade, #loader { display: block; }</style>'
+);
+ 
+jQuery.event.add(window,"load",function() { // 全ての読み込み完了後に呼ばれる関数
+    var pageH = $("#wrapper01").height();
+ 
+    $("#fade").css("height", pageH).delay(900).fadeOut(800);
+    $("#loader").css("z-index","20000").delay(600).fadeOut(300);
+    $("#wrapper01").css("display", "block");
+});
+</script>
+<!--loader-->
+<!--ユーザーエージェント-->
+<script type="text/javascript">
+(function(){
+	var _UA = navigator.userAgent;
+	if (_UA.indexOf('iPhone') > 0 && _UA.indexOf('iPad') == -1 || _UA.indexOf('iPod') > 0 || _UA.indexOf('Android') > 0 && _UA.indexOf('Mobile') > 0 ) {
+		document.write('<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">');
+		//css
+		document.write('<link rel="stylesheet" type="text/css" media="all" href="top_sp.css" />');
+		$(function(){
+		$('#youtube_btn').html('<iframe width="250" height="141" src="https://www.youtube.com/embed/yW9c3Wi6R3o?rel=0&autoplay=1" frameborder="0" allowfullscreen></iframe>');
+		});
+		$(function(){
+			$('.sp000').find('img').attr('src','img/sp_top_eng_navi01.jpg');
+			$('.sp00').attr('src','img/sp_top_eng_navi01.png');
+			$('.sp01').attr('src','img/sp_top_eng_navi02.png');
+			$('.sp02').attr('src','img/sp_top_eng_navi03.png');
+			$('.sp03').attr('src','img/sp_top_tit_info.jpg');
+			$('.sp04').attr('src','img/sp_top_btn01.jpg');
+			$('.sp05').attr('src','img/sp_top_btn02.jpg');
+			$('.sp06').attr('src','img/sp_top_btn03.jpg');
+			$('.sp07').attr('src','common/img/sp_arrow_top01.gif');
+		});
+
+$(document).ready(function(){
+  var obj1 = $('.bxslider').bxSlider({
+  auto:true,
+  mode:'fade',
+  speed:1500,
+  pager:true,
+  controls:false,
+  autoHover:true,
+  });
+});
+
+	}else if(_UA.indexOf('Android') > 0 && _UA.indexOf('Mobile') == -1 || _UA.indexOf('iPad') > 0){
+		//css
+		document.write('<link rel="stylesheet" type="text/css" media="all" href="top_pad.css" />');
+		$(function(){
+		$('#youtube_btn').html('<iframe width="560" height="315" src="https://www.youtube.com/embed/yW9c3Wi6R3o?rel=0&autoplay=1" frameborder="0" allowfullscreen></iframe>');
+		});
+		$(function(){
+			$('.sp000').find('img').attr('src','img/sp_top_eng_navi01.jpg');
+			$('.sp00').attr('src','img/sp_top_eng_navi01.png');
+			$('.sp01').attr('src','img/sp_top_eng_navi02.png');
+			$('.sp02').attr('src','img/sp_top_eng_navi03.png');
+			$('.sp03').attr('src','img/sp_top_tit_info.jpg');
+			$('.sp04').attr('src','img/sp_top_btn01.jpg');
+			$('.sp05').attr('src','img/sp_top_btn02.jpg');
+			$('.sp06').attr('src','img/sp_top_btn03.jpg');
+			$('.sp07').attr('src','common/img/sp_arrow_top01.gif');
+		});
+$(document).ready(function(){
+  var obj1 = $('.bxslider').bxSlider({
+  auto:true,
+  mode:'fade',
+  speed:1500,
+  pager:true,
+  controls:false,
+  autoHover:true,
+  });
+});
+	}else {
+		//css
+		document.write('<link rel="stylesheet" type="text/css" media="all" href="top.css" />');
+		$(function(){
+			$('#youtube_btn').html('<iframe width="560" height="315" src="https://www.youtube.com/embed/yW9c3Wi6R3o?rel=0&autoplay=1" frameborder="0" allowfullscreen></iframe>');
+		});
+$(document).ready(function(){
+  var obj1 = $('.bxslider').bxSlider({
+    auto: true,
+	mode:'fade',
+    infiniteLoop: true,
+    pager: true,
+	controls:false,
+	autoHover:true,
+    slideWidth: 1080,
+    minSlides: 1,
+    maxSlides: 1,
+    moveSlides: 1,
+    slideMargin: 5,
+	speed:1500,
+    pause: 5000,
+    onSlideAfter: function() {
+      obj1.startAuto();
+    }
+  });
+});
+	}
+})();
+</script>
+<!--ユーザーエージェント-->
+
+<!--ドロップダウンメニュー-->
+<script type="text/javascript">
+$(function(){
+
+//アニメーション速度設定
+	var Speed = "200";
+//初期表示設定
+	$("#dropdownmenu li ul").css("display","none");
+//ホバーイベント
+	$("#dropdownmenu li").hover(
+		function(){
+			$(">ul:not(:animated)",this).css("visibility","visible").fadeIn(Speed);
+			$(">ul >li:not(:animated)",this).css("display","none").slideDown(Speed);
+			$(">ul >li ul",this).css("visibility","hidden");
+		},
+		function(){
+			$(">ul",this).fadeOut(Speed,function(){
+				$("ul",this).css("visibility","hidden");
+			});
+			$(">ul >li",this).slideUp(Speed);
+		}
+	);
+});
+</script>
+<!--ドロップダウンメニュー-->
+
+<!--ハンバーガーメニュー-->
+<script>
+$(function(){
+    $("#sp_slicknav_menu").slicknav({
+	  prependTo:"#sp_menu", //スマホ用メニューを差し込む位置を変更
+      label:"" //MENUの文字を出なくするため空にする
+    });
+});
+</script>
+  <!--ハンバーガーメニュー-->
+  
+  <!--colorbox 動画再生-->
+<script type="text/javascript">/*
+$(function(){
+    $('#youtube_btn').colorbox({
+        maxWidth:"90%",
+		maxWidth:"90%",
+		open:true,
+		opacity:0.5,
+    });
+	$("#cboxOverlay").css("z-index","9999");
+	$("#colorbox").css("z-index","10000");
+	$("#click").click(function(){ 
+	$("#click").css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
+	return false;
+	});
+	$(window).resize(function(){
+    $.colorbox.resize({
+		maxWidth:"90%",
+		});
+	});
+});
+*/
+</script>
+ <!--colorbox 動画再生-->
+ 
+   <!--colorbox 動画再生-->
+<script type="text/javascript">
+$(window).load(function() {
+    $(".inline").colorbox({
+        inline:true,
+		maxWidth:'90%',
+		maxHeight:'90%',
+		open:true,
+		opacity:0.5,
+		returnFocus:false,
+    });
+});
+</script>
+ <!--colorbox 動画再生-->
+ 
+ <!--cookie 初回のみ動画再生-->
+<!--
+ <script type="text/javascript">
+$(function(){
+    if($.cookie("access")){
+        $('#cboxOverlay,#colorbox').css({display:'none'});
+    }
+    $(window).load(function(){
+        $.cookie("access",$('#youtube').addClass('access'));
+    })
+});
+
+</script>-->
+<!--cookie 初回のみ動画再生-->
+
+<!--サイト内検索-->
+<script>
+  (function() {
+    var cx = '007733067918620999204:vboywtoj580';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:')+
+        '//cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<!--サイト内検索-->
+
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!--IRPOCKET-->
+<link rel="stylesheet" type="text/css" media="all" href="//irpocket.com/1984/irpocket/style_r201604.css" />
+<link rel="stylesheet" type="text/css" media="all" href="/common/css/irpoket_sp.css" />
+<!--/IRPOCKET-->
+
+</head>
+
+<body>
+<div id="loader">
+<div class="loader_img">
+<img src="/common/img/load.gif" width="80" height="80" alt="Loading..." />
+</div>
+</div>
+<div id="fade"></div>
+
+<div class="douga">
+<div id="youtube_btn">
+</div>
+</div>
+
+<div id="wrapper01">
+<div id="wrapper01pd">
+<div id="wrapper02">
+
+<!--ハンバーガーメニュー-->
+
+<div class="sp_header">
+<div class="sp_logo"><a href="#"><img src="common/img/logo.jpg" alt="三信建設工業株式会社-地盤処理のプロフェッショナル-"></a></div>
+<div id="sp_menu"></div>
+</div>
+<ul id="sp_slicknav_menu">
+<li class="engNaviLi"><a href="/engineer/index.html#kohomei"><img src="img/top_eng_navi01.png" width="200" alt="工法名から探す" class="over sp00"></a></li>
+<li class="engNaviLi"><a href="/engineer/"><img src="img/top_eng_navi02.png" width="201" alt="工法種別から探す" class="over sp01"></a>
+<ul>
+<li><a href="/engineer/improvement/">地盤改良</a></li>
+<li><a href="/engineer/foundation/">杭・基礎</a></li>
+<li><a href="/engineer/hillside/">斜面・安定</a></li>
+<li><a href="/engineer/retain/">山留め</a></li>
+<li><a href="/engineer/ground/">地下水対策</a></li>
+<li><a href="/engineer/pipe/">推進</a></li>
+<li><a href="/engineer/repair/">構造物補強・補修</a></li>
+<li><a href="/engineer/environment/">土壌・地下水汚染対策技術</a></li>
+</ul>
+</li>
+<li class="engNaviLi"><a href="/tekiyou/"><img src="img/top_eng_navi03.png" width="200" alt="目的から探す" class="over sp02"></a>
+<ul>
+<li><a href="/tekiyou/index.html#tekiyou_tab01">適用分野</a></li>
+<li><a href="/tekiyou/index.html#tekiyou_tab02">適用構造物</a></li>
+<li><a href="/tekiyou/index.html#tekiyou_tab03">改良目的</a></li>
+</ul>
+</li>
+<li>
+<div class="sp_serch">
+<gcse:search></gcse:search>
+</div>
+</li>
+<li>
+<div class="sp_btn_company_info">
+<div class="clearfix">
+<div class="company_info_innner floatL"><a href="/corporate/">会社情報</a></div>
+<div class="company_info_innner floatL"><a href="/ir/">IR情報</a></div>
+<div class="company_info_innner floatL"><a href="/employ/">採用情報</a></div>
+</div>
+</div>
+<div class="sp_btn_contact">
+<a href="/inquiry/">お問い合わせ</a>
+</div>
+
+</li>
+</ul>
+
+<!--ハンバーガーメニュー-->
+
+
+<!-- header -->
+
+<div class="hdbox01">
+<div class="hdinner clearfix">
+<div class="btn_contact floatR">
+<a href="/inquiry/">
+お問い合わせ
+</a>
+</div><!-- / .btn_contact floatR -->
+<div id="serch">
+<gcse:search></gcse:search>
+</div>
+<div class="btn_company_info">
+<ul class="gnavi01 alR"><li><a href="/corporate/">会社情報</a></li><li><a href="/ir/">IR情報</a></li><li><a href="/employ/">採用情報</a></li></ul>
+</div>
+</div>
+</div><!-- / .hdbox01 clearfix -->
+<div class="hdbox02 clearfix">
+<h1 class="logo"><img src="/common/img/logo.jpg" width="300" alt="三信建設工業株式会社"></h1>
+<div id="dropdownmenu" class="engNavi">
+<ul class="engNaviUl">
+<li class="engNaviLi"><a href="/engineer/index.html#kohomei"><img src="img/top_eng_navi01.png" width="200" alt="工法名から探す" class="over"></a></li>
+<li class="engNaviLi"><a href="/engineer/"><img src="img/top_eng_navi02.png" width="201" alt="工法種別から探す" class="over"></a>
+<ul>
+<li><a href="/engineer/improvement/">地盤改良</a></li>
+<li><a href="/engineer/foundation/">杭・基礎</a></li>
+<li><a href="/engineer/hillside/">斜面・安定</a></li>
+<li><a href="/engineer/retain/">山留め</a></li>
+<li><a href="/engineer/ground/">地下水対策</a></li>
+<li><a href="/engineer/pipe/">推進</a></li>
+<li><a href="/engineer/repair/">構造物補強・補修</a></li>
+<li><a href="/engineer/environment/">土壌・地下水汚染対策技術</a></li>
+</ul>
+</li>
+<li class="engNaviLi"><a href="/tekiyou/"><img src="img/top_eng_navi03.png" width="200" alt="目的から探す" class="over"></a>
+<ul>
+<li><a href="/tekiyou/index.html#tekiyou_tab01">適用分野</a></li>
+<li><a href="/tekiyou/index.html#tekiyou_tab02">適用構造物</a></li>
+<li><a href="/tekiyou/index.html#tekiyou_tab03">改良目的</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div><!-- / .hdbox01 -->
+<!-- //header -->
+
+
+<div id="maincont01_top">
+
+
+<div class="bxCustom-container">
+<div class="inner clearfix">
+<div id="image-bloc">
+<ul class="bxslider clearfix">
+<li class="slide01"><a href="/engineer/improvement/compaction/01.html"><img src="img/top_main02.jpg" alt="" ><span><img src="img/top_main02_txt.png"></span></a></li>
+    
+<li class="slide01"><a href="/engineer/improvement/will/01.html"><img src="img/top_main01.jpg" alt="" ><span><img src="img/top_main01_txt.png"></span></a></li>
+    
+<li class="slide01"><a href="/engineer/repair/"><img src="img/top_main04.jpg" alt="" ><span><img src="img/top_main03_txt.png"></span></a></li>
+    
+<li class="slide01"><a href="/engineer/hillside/reinforcement/01.html"><img src="img/top_main05.jpg" alt="" ><span><img src="img/top_main05_txt.png"></span></a></li>
+    
+<li class="slide01"><a href="/engineer/improvement/v_jet/01.html"><img src="img/top_main03.jpg" alt="" ><span><img src="img/top_main04_txt.png"></span></a></li>
+    
+<li class="slide01"><a class="inline" href="#youtube_btn"><img src="img/top_main06.jpg" alt="" ><span><img src="img/top_main06_txt.png"></span></a></li>
+</ul>
+</div>
+</div>
+<div class="mainFixTxt"><img src="img/top_main_fixTxt.png" alt=""></div>
+</div>
+
+
+<!-- お知らせ・ニュース -->
+<div class="contentsArea">
+
+<div class="kumamoto_txt">
+<p>平成29年7月九州北部豪雨によりお亡くなりになられた方々にお悔み申しあげますとともに、<br />
+甚大な被害を受けた皆様に心よりお見舞い申し上げます。</p>
+</div>
+
+<!--IRPOCKET-->
+<div class="block01 clearfix">
+<!--<div class="box01"><img src="img/top_tit_info.jpg" alt="お知らせ" class="sp03"></div>-->
+<div class="irp-left">
+<p class="BlueBtn"><a href="/case/news.html">一覧</a></p>
+<h3>技術情報</h3>
+  <div class="irp-press-list-top mgt15" id="irp-press-top01"></div>
+</div>
+<div class="irp-right">
+<p class="BlueBtn"><a href="/ir/news.html">一覧</a></p>
+<h3>その他情報</h3>
+<div class="irp-press-list-top mgt15" id="irp-press-top02"></div>
+</div>
+<script src="//irpocket.com/1984/irpocket/loader_r201604.js"
+type="text/javascript" charset="utf-8"></script>
+<!--/IRPOCKET-->
+</div><!-- / .block01 clearfix -->
+
+<div class="block02 clearfix">
+<div class="cell01"><a href="/pdf/cg_jp.pdf" target="_blank"><img src="img/sp_top_btn01.jpg" width="255" alt="会社案内ダウンロード" class="over"></a></div>
+<div class="cell01"><a href="/pdf/cg_en.pdf" target="_blank"><img src="img/sp_top_btn02.jpg" width="255" alt="General Information" class="over"></a></div>
+<div class="cell01"><a href="https://job.mynavi.jp/18/pc/search/corp97015/outline.html"><img  src="img/sp_top_btn03.jpg" width="255" alt="マイナビ2018" class="over"></a></div>
+
+<div class="cell01">
+<a class="inline" href="#youtube_btn"><img  src="img/sp_top_btn04.jpg" width="255" alt="60周年沿革動画を再生する" class="over"></a>
+</div>
+
+</div>
+</div><!-- / .contentsArea -->
+
+
+
+<!-- お知らせ・ニュース -->
+
+<!--メインコンテンツ-->
+<div class="block03 clearfix">
+
+<div class="cell02">
+<a href="/corporate/">
+<div class="mainNavi_img"><img src="img/top_main_naviPic01.jpg" width="100%" alt=""></div>
+<div class="mainNavi_txt"><span>会社情報</span><br><span>COMPANY</span></div>
+</a>
+</div>
+
+<div class="cell02">
+<a href="/engineer/">
+<div class="mainNavi_img"><img src="img/top_main_naviPic05.jpg" width="100%" alt=""></div>
+<div class="mainNavi_txt"><span>工法紹介</span><br><span>TECHNIQUES</span></div>
+</a>
+</div>
+
+<div class="cell02">
+<a href="/technology/">
+<div class="mainNavi_img"><img src="img/top_main_naviPic06.jpg" width="100%" alt=""></div>
+<div class="mainNavi_txt"><span>防災技術・<br class="span_br">災害対策技術</span><br><span>AGAINST NATURAL DISASTERS</span></div>
+</a>
+</div>
+
+<div class="cell02">
+<a href="/case/">
+<div class="mainNavi_img"><img src="img/top_main_naviPic07.jpg" width="100%" alt=""></div>
+<div class="mainNavi_txt"><span>NEWS</span><br><span>INFORMATION</span></div>
+</a>
+</div>
+
+<div class="cell02">
+<a href="/ir/">
+<div class="mainNavi_img"><img src="img/top_main_naviPic02.jpg" width="100%" alt=""></div>
+<div class="mainNavi_txt"><span>IR情報</span><br><span>Investor Relations</span></div>
+</a>
+</div>
+
+<div class="cell02">
+<a href="/employ/">
+<div class="mainNavi_img"><img src="img/top_main_naviPic03.jpg" width="100%" alt=""></div>
+<div class="mainNavi_txt"><span>採用情報</span><br><span>RECRUIT</span></div>
+</a>
+</div>
+
+<div class="cell02">
+<a href="/corporate/network.html">
+<div class="mainNavi_img"><img src="img/top_main_naviPic04.jpg" width="100%" alt=""></div>
+<div class="mainNavi_txt"><span>部支店網</span><br><span>BRANCH OFFICE</span></div>
+</a>
+</div>
+
+<div class="cell02">
+<a href="/case/mail.html">
+<div class="mainNavi_img"><img src="img/top_main_naviPic08.jpg" width="100%" alt=""></div>
+<div class="mainNavi_txt">メルマガ情報<br><span>MAIL MAGAZINE</span></div>
+</a>
+</div>
+
+</div><!-- / .block03 -->
+<!--メインコンテンツ-->
+
+</div><!-- / #maincont01 -->
+
+<!-- footer -->
+<div class="alR ftarrowbox01">
+<a href="#wrapper01">
+<img src="/common/img/arrow_top01.gif" alt="ページの上部へ" width="110" class="sp07" />
+</a>
+</div>
+<div class="ftcont01bg">
+<div class="ftcont01pd">
+<div class="ftcont01 clearfix">
+<ul class="floatL clearfix">
+<li class="sml"><a href="/sitemap/">サイトマップ</a></li>
+<li class="sml pdl15"><a href="/sitemap/">サイトポリシー</a></li>
+<li class="sml pdl15"><a href="/policy/">個人情報保護方針</a></li>
+</ul>
+<div class="copy">Copyright (C) SANSHIN CORPORATION. <br class="span_br">All rights reserved.</div>
+</div>
+</div>
+</div>
+<!-- //footer -->
+
+</div><!-- //wrapper02 -->
+</div><!-- //wrapper01pd -->
+</div><!-- //wrapper01 -->
+
+</body>
+</html>

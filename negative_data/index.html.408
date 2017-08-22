@@ -1,0 +1,575 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+
+<head>
+<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta property="fb:app_id" content="192254507541001" />
+<meta name="keywords" content="コーラ,ウエスト,近畿,三笠,コカコーラ,cola,west,coca-cola,west,コカ・コーラウエスト,コカコーラウエスト" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="alternate" type="application/atom+xml" title="Atom" href="http://www.ccwest.co.jp/atom.xml" />
+<link rel="canonical" href="http://s.ccwest.co.jp/index.php" />
+<meta name="description" media="handheld" content="コカ･コーラウエスト株式会社は西日本を営業地域とする、世界で有数の規模を持つボトラーです。地域に密着したきめ細やかな製造・販売・サービス体制でお客さまのさまざまなニーズに応えています。" />
+<title>みんなの あしたに ハッピーを コカ･コーラウエスト株式会社</title>
+
+<link rel="stylesheet" type="text/css" media="all" href="/css/set.css" title="style importer" />
+<link href="/css/cnt_top.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/js/prototype.js"></script>
+<script type="text/javascript" src="/js/scriptaculous.js?load=effects,slider"></script>
+
+<script type="text/javascript" src="/js/common.js"></script>
+
+<script type="text/javascript" src="/js/rollover.js"></script>
+<script type="text/javascript" src="/js/AC_RunActiveContent.js"></script>
+
+
+
+
+<script type="text/javascript">
+if (navigator.userAgent.indexOf('iPhone') > 0 || navigator.userAgent.indexOf('iPod') > 0 || navigator.userAgent.indexOf('Android') > 0) {
+
+	var myReferrer = document.referrer;
+
+	if(myReferrer.indexOf('ccwest.co.jp') == -1){
+    	if(confirm('スマートフォン用のサイトがあります。表示しますか？')) {
+    	    location.href = 'http://s.ccwest.co.jp';
+    	}
+	}
+
+}</script>
+
+<!--[if lte IE 7]>
+<script type="text/javascript" src="js/DD_belatedPNG.js"></script>
+	<script>
+		DD_belatedPNG.fix('#bn_navi #up,#bn_navi #down,img');
+	</script>
+<![endif]-->
+
+
+</head>
+
+
+<body class="two-column top">
+<P class="headerTagline">コカ･コーラウエスト株式会社は、アジア最大、世界で有数の規模を有するコカ･コーラボトラーズジャパングループの一員です。</p>
+<script type="text/javascript" src="/js/jquery.js"></script>
+<script type="text/javascript" src="/js/jquery.easing.js"></script>
+<script type="text/javascript" src="/js/jquery.pulldown.js"></script>
+<script type="text/javascript" src="/js/jquery.banner.js"></script>
+<script type="text/javascript" src="/js/jquery.popup.js"></script>
+
+<a name="top" id="top"></a>
+<div id="header">
+<div id="logo"><img src="/header2014/images/img_ci.gif" alt="みんなの あしたに ハッピーを コカ･コーラウエスト株式会社" width="152" height="62" border="0" /></div>
+
+<div id="logo_text">
+<img src="/header2015/images/txt_bi.gif" alt="コカ･コーラ ボトラーズジャパングループ" width="217" height="12" />
+<img src="/header2015/images/txt_ci.gif" alt="コカ･コーラウエスト株式会社" width="217" height="17" /></div>
+
+<ul id="utilityNavigation">
+<li class="home"><a href="/index.php">ホーム</a></li>
+<li class="sitemap"><a href="/info/sitemap.php">サイトマップ</a></li>
+<li class="english"><a href="/english/">English</a></li>
+</ul>
+
+<ul id="utilityTool">
+<li class="fontsize">文字サイズ</li>
+<li><a href="javascript:setfont('s');"><img src="/header2015/images/btn_s_off.gif" alt="小" name="btn_setfont1" class="font" id="btn_setfont1" /></a></li>
+<li><a href="javascript:setfont('m');"><img src="/header2015/images/btn_m_off.gif" alt="中" name="btn_setfont2" class="font" id="btn_setfont2" /></a></li>
+<li><a href="javascript:setfont('l');"><img src="/header2015/images/btn_l_off.gif" alt="大" name="btn_setfont3" class="font" id="btn_setfont3" /></a></li>
+</ul>
+
+<div id="serchGoogle">
+<script>
+  (function() {
+    var cx = '003185442929653595049:yd8rlkqkovm';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:searchbox-only></gcse:searchbox-only>
+</div>
+
+<!-- /header -->
+</div>
+
+<div id="globalNavi_Box">
+<ul id="globalNavigation" class="clearfix">
+
+<li id="company-head" class="jsPullDown"><a href="/company/">会社情報</a>
+<ul>
+<li><a href="/company/idea.php"><img src="/img/header/nav/btn_idea_off.gif" alt="企業理念" width="190" height="20" /></a></li>
+<li><a href="/company/overview.php"><img src="/img/header/nav/btn_overview_off.gif" alt="会社概要" width="190" height="19" /></a></li>
+<!--<li><a href="/company/governance.php"><img src="/img/header/nav/btn_governance_off.gif" alt="コーポレートガバナンス" width="190" height="19" /></a></li>-->
+<li><a href="/company/business.php"><img src="/img/header/nav/btn_business_off.gif" alt="事業活動" width="190" height="19" /></a></li>
+<li><a href="/company/history.php"><img src="/img/header/nav/btn_history_off.gif" alt="沿革" width="190" height="19" /></a></li>
+<li><a href="/company/system.php"><img src="/img/header/nav/btn_system_off.gif" alt="コカ・コーラシステム" width="190" height="19" /></a></li>
+<li><a href="/koukoku/index.php"><img src="/img/header/nav/btn_koukoku_off.gif" alt="公告" width="190" height="19" /></a></li>
+<li><a href="/ir/stockholder/preferential.php"><img src="/img/header/nav/btn_preferential_off.gif" alt="株主優待" width="190" height="19" /></a></li>
+<li><a href="/ir/stockholder/dividend.php"><img src="/img/header/nav/btn_dividend_off.gif" alt="配当金・株主関係情報" width="190" height="19" /></a></li>
+</ul>
+</li>
+
+<li id="ir-head" class="jsPullDown"><a data-target="popup_ccbji" class="modal-open">株主・投資家のみなさまへ</a>
+<!--<ul>
+<li><a href="/ir/disclosure/index.php"><img src="/img/header/nav/btn_disclosure_off.gif" alt="決算情報" width="190" height="19" /></a></li>
+<li><a href="/ir/stockholder/index.php"><img src="/img/header/nav/btn_stockholder_off.gif" alt="株主・株式情報" width="190" height="19" /></a></li>
+<li><a href="/ir/investors/index.php"><img src="/img/header/nav/btn_investors_off.gif" alt="個人投資家のみなさまへ" width="190" height="19" /></a></li>
+<li><a href="/ir/sitemap.php"><img src="/img/header/nav/btn_irsitemap_off.gif" alt="IRサイトマップ" width="190" height="19" /></a></li>
+</ul>-->
+</li>
+
+<li id="csr-head" class="jsPullDown"><a href="/csr/">共創価値(CSV)</a>
+<ul>
+<li><a href="/csr/message.php"><img src="/img/header/nav/btn_csr-message_off.gif" alt="トップメッセージ" width="190" height="20" /></a></li>
+<li><a href="/csr/important.php"><img src="/img/header/nav/btn_csr6_off.gif" alt="CSVの考え方" width="190" height="19" /></a></li>
+<li><a href="/csr/health.php"><img src="/img/header/nav/btn_health_off.gif" alt="健康" width="190" height="19" /></a></li>
+<li><a href="/csr/environment/index.php"><img src="/img/header/nav/btn_environment_off.gif" alt="環境" width="190" height="19" /></a></li>
+<li><a href="/csr/activity/index.php"><img src="/img/header/nav/btn_local_off.gif" alt="コミュニティ" width="190" height="19" /></a></li>
+<li><a href="/csr/satisfaction.php"><img src="/img/header/nav/btn_satisfaction_off.gif" alt="お客さま満足" width="190" height="19" /></a></li>
+<li><a href="/csr/quality/index.php"><img src="/img/header/nav/btn_quality_off.gif" alt="品質保証" width="190" height="19" /></a></li>
+<li><a href="/csr/compliance.php"><img src="/img/header/nav/btn_compliance_off.gif" alt="コンプライアンス" width="190" height="19" /></a></li>
+<li><a href="/csr/risk.php"><img src="/img/header/nav/btn_risk_off.gif" alt="リスク管理" width="190" height="19" /></a></li>
+<li><a href="/csr/employee.php"><img src="/img/header/nav/btn_employee_off.gif" alt="人権尊重と社員の働きがい" width="190" height="19" /></a></li>
+</ul>
+</li>
+
+<li id="listup-head" class="jsPullDown"><a href="/lineup/">製品情報</a></li>
+
+<li id="recruit-head" class="jsPullDown"><a href="/recruit/">採用情報</a>
+<ul>
+<li><a href="/recruit/ccwest/index.php"><img src="/img/header/nav/btn_ccwhrec_off.gif" alt="コカ・コーラウエストグループとは？" width="190" height="28" /></a></li>
+<li><a href="/recruit/introduction.php"><img src="/img/header/nav/btn_introduction_off.gif" alt="コカ・コーラウエウストグループの仕事紹介" width="190" height="27" /></a></li>
+<li><a href="/recruit/message/index.php"><img src="/img/header/nav/btn_messagebord_off.gif" alt="社員が語る仕事のやりがい" width="190" height="19" /></a></li>
+<li><a href="/recruit/training.php"><img src="/img/header/nav/btn_training_off.gif" alt="人材育成について" width="190" height="19" /></a></li>
+
+
+<li><a href="/recruit/faq.php"><img src="/img/header/nav/btn_faqrec_off.gif" alt="よくあるご質問（FAQ）" width="190" height="19" /></a></li>
+</ul>
+</li>
+
+<li id="news-head" class="jsPullDown"><a href="/news/">ニュース一覧</a>
+<ul>
+<li><a href="/news/index.php"><img src="/img/header/nav/btn_new_off.gif" alt="最新ニュース（一覧）" width="190" height="20" /></a></li>
+<li><a href="/news/infomation.php"><img src="/img/header/nav/btn_infomation_off.gif" alt="お知らせ" width="190" height="19" /></a></li>
+<li><a href="/news/newsrelease.php"><img src="/img/header/nav/btn_newsrelease_off.gif" alt="ニュースリリース" width="190" height="19" /></a></li>
+<li><a href="/news/investor.php"><img src="/img/header/nav/btn_investor_off.gif" alt="IR・投資家情報" width="190" height="19" /></a></li>
+<li><a href="/news/recruit.php"><img src="/img/header/nav/btn_recruit_off.gif" alt="採用情報" width="190" height="19" /></a></li>
+</ul>
+</li>
+
+<li id="station-head" class="jsPullDown"><a href="/station/">イベント情報</a>
+<ul>
+<li><a href="/station/event/index.php"><img src="/img/header/nav/btn_event_off.gif" alt="イベント情報" width="190" height="20" /></a></li>
+<li><a href="/station/factory/details.php"><img src="/img/header/nav/btn_factory-guide_off.gif" alt="工場見学のご案内" width="190" height="19" /></a></li>
+<li><a href="/station/present.php"><img src="/img/header/nav/btn_present_off.gif" alt="今月のプレゼント" width="190" height="19" /></a></li>
+<li><a href="/station/osaka-marathon.php"><img src="/img/header/nav/btn_osaka_off.gif" alt="第6回大阪マラソン　出走権を5名様にプレゼント！" width="190" height="19" /></a></li>
+<li><a href="/station/happiness_labo.php"><img src="/img/header/nav/btn_hl_off.gif" alt="コカ・コーラウエスト ハピネス・ラボ" width="190" height="19" /></a></li>
+<!-- <li><a href="/station/campaign02.php"><img src="/img/header/nav/btn_campaign_off.gif" alt="キャンペーン情報" width="190" height="19" /></a></li> --><br>
+<!--　<li><a href="/station/campaign_fuchiko.php"><img src="/img/header/nav/btn_campaign_off.gif" alt="キャンペーン情報" width="190" height="19" /></a></li>-->
+
+<li><a href="/station/link.php"><img src="/img/header/nav/btn_link_off.gif" alt="リンク" width="190" height="19" /></a></li>
+</ul>
+</li>
+
+<li id="inquiry-head" class="jsPullDown"><a href="/inquiry/">お問い合わせ</a>
+<ul>
+<li><a href="https://www.ccwest.co.jp/inquiry/form_merchandise.php"><img src="/img/header/nav/btn_inq_merchandise_off.gif" alt="商品・販売・サービスについて" width="190" height="20" /></a></li>
+<li><a href="/inquiry/guide.php"><img src="/img/header/nav/btn_inq_guide_off.gif" alt="自動販売機設置の流れ" width="190" height="19" /></a></li>
+<li><a href="/inquiry/guide_cup.php"><img src="/img/header/nav/btn_inq_cup_off.gif" alt="カップ自販機の設置について" width="190" height="19" /></a></li>
+<li><a href="https://www.ccwest.co.jp/inquiry/form_etc.php"><img src="/img/header/nav/btn_inq_other_off.gif" alt="その他" width="190" height="19" /></a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+
+<div id="maintitle">
+
+<div id="top_banner">
+	<div id="main_banner">
+		<a href="https://www.ccbji.co.jp/" target="_blank"><img src="/img/top/nav_top/img_br_ccbji.jpg" alt="2017年4月1日、コカ･コーラボトラーズジャパンが誕生しました。" /></a>
+		<a href="/club/"><img src="/img/top/nav_top/img_top_br_02.jpg" alt="レッドスパークス" /></a>
+		<a href="/station/factory/details.php"><img src="/img/top/nav_top/img_br_factory.jpg" alt="工場見学のご案内" /></a>
+		<a href="/csr/"><img src="/img/top/nav_top/img_br_csr.jpg" alt="社会との共創価値" /></a>
+		<a href="/station/happiness_labo.php"><img src="/img/top/nav_top/img_top_br_happiness.jpg" alt="コカ･コーラウエスト ハピネス･ラボ" /></a>
+				<a href="/csr/activity/musical/index.php"><img src="/img/top/nav_top/img_br_musical.jpg" alt="ファミリーミュージカル" /></a>
+		
+				<a href="https://www.ccbji.co.jp/event/20170626/" target="_blank"><img src="/img/top/nav_top/img_br_nikoand.jpg" alt="niko and ... ショルダーバッグが必ずもらえる!!" /></a>
+
+				<a href="/station/present.php"><img src="/img/top/nav_top/img_br_present.jpg" alt="今月のプレゼント" /></a>
+		
+
+		<div id="bn_navi">
+			<div id="up">▲</div>
+			<div id="down">▼</div>
+			<ul>
+				<li><img src="/img/top/nav_top/img_br_thum_ccbji.jpg" alt="2017年4月1日、コカ･コーラボトラーズジャパンが誕生しました。" width="240" height="60" /></li>
+				<li><img src="/img/top/nav_top/img_top_br_mini_02.jpg" alt="レッドスパークス" width="240" height="60" /></li>
+				<li><img src="/img/top/nav_top/img_br_thum_factory.jpg" alt="工場見学のご案内" width="240" height="60" /></li>
+				<li><img src="/img/top/nav_top/img_br_thum_csr.jpg" alt="社会との共創価値" width="240" height="60" /></li>
+				<li><img src="/img/top/nav_top/img_br_thum_happiness.jpg" alt="コカ･コーラウエスト ハピネス･ラボ" width="240" height="60" /></li>
+								<li><img src="/img/top/nav_top/img_br_thum_musical.jpg" alt="ファミリーミュージカル" width="240" height="60" /></li>
+				
+								<li><img src="/img/top/nav_top/img_br_thum_nikoand.jpg" alt="niko and ... ショルダーバッグが必ずもらえる!!" width="240" height="60" /></li>
+				
+								<li><img src="/img/top/nav_top/img_br_thum_present.jpg" alt="今月のプレゼント" width="240" height="60" /></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+<!-- /maintitle -->
+</div>
+
+
+<div id="contents" class="top">
+<div id="nav_top">
+
+<div class="navBox_top">
+
+<div id="navBox_top_tit">ピックアップ</div>
+<dl class="clearfix">
+<dt><a href="/csr/">共創価値（CSV）</a></dt>
+<dd class="csr_icon"><a href="/csr/"><img src="/img/top/nav_top/img_activity.jpg" alt="共創価値（CSV）"/></a></dd>
+<dd class="csr_text">事業活動を通じて、社会との共創価値を追求します。</dd>
+</dl>
+<dl class="clearfix">
+<dt><a href="/inquiry/guide.php">自動販売機設置のご案内</a></dt>
+<dd class="csr_icon"><a href="/inquiry/guide.php"><img src="/img/top/nav_top/img_vender.jpg" alt="自動販売機設置のご案内"/></a></dd>
+<dd class="csr_text"> 自動販売機を通じて「さわやかな憩いのひととき」をお届けします。</dd>
+</dl>
+</div>
+
+<div class="bnr_btn">
+<a href="/station/factory/details.php"><img src="/img/top/nav_top/img_bnr_factory.jpg" alt="コカ・コーラウエスト 工場見学"></a>
+コカ・コーラの歴史や製造工程などいろんなことを楽しく学べるよ！
+</div>
+
+<img src="/img/top/nav_top/banner_mobiles.jpg" alt="コカ･コーラウエスト モバイル" />
+
+
+
+<!-- /nav_top --></div>
+
+
+<div id="main">
+
+<div id="sub">
+
+
+<div class="bnr_btn">
+<a href="/ir/stockholder/preferential.php"><img src="/img/banner/btn_preferential.jpg"></a>
+</div>
+
+<div class="navbox_ir">
+
+<ul class="stock">
+<li class="st_04"><a href="http://c.cocacola.co.jp/" target="_blank"><img src="/img/top/nav_top/bnr_park.jpg" alt="日本コカ･コーラ(株)コカ･コーラ会員サイト" height="57" width="172" /></a></li>
+<li class="st_02">
+<ul id="cm_campaign">
+<li><a href="http://j.cocacola.co.jp/info/faq/" target="_blank">よくあるご質問</a><img src="/img/top/nav_top/top_ico_blank_grey.jpg" alt="" height="12" width="9" /></li>
+<li><a href="http://www.cocacola.co.jp/brands/new-products/" target="_blank">製品情報</a><img src="/img/top/nav_top/top_ico_blank_grey.jpg" alt="" height="12" width="9" /></li>
+</ul>
+</li>
+<li class="st_03"><a href="/station/mailmag.php"><img src="/img/top/nav_top/bnr_mlmg.jpg" alt="メルマガ会員募集中" height="75" width="172" /></a></li>
+</ul>
+
+</div>
+
+<ul>
+
+<li class="bnr_btn"><a href="http://item.rakuten.co.jp/cokestore/c/0000000320/" target="_blank"><img src="/img/top/nav_top/img_officialgoods_b.jpg" alt="レッドスパークス オフィシャルグッズ販売中！" width="200" /></a></li>
+<li class="bnr_btn"><a href="http://www.jama-vm.com/index.html" target="_blank"><img src="/img/top/nav_top/btn_jama.gif" alt="日本自動販売協会" /></a></li>
+<li class="bnr_btn"><a href="https://www.shikoku.ccbc.co.jp/" target="_blank"><img src="/img/top/nav_top/btn_shikoku.jpg" alt="四国コカ･コーラボトリング株式会社" /></a></li>
+</ul>
+
+</div>
+
+<div id="newsBox">
+
+<div style="margin-bottom:20px;">
+<a class="ccbji_img" href="https://www.ccbji.co.jp/" target="_blank">
+<img src="/img/top/nav_top/bnr_ccbji_top.jpg">
+</a>
+<a class="ccbji_img" href="https://www.facebook.com/pg/ccbji/posts/" target="_blank">
+<img style="width: 100%; margin: 16px 0;" src="/img/top/nav_top/bnr_fb_jp.png">
+</a>
+</div>
+
+<div class="Box_title">
+
+
+
+<div class="list">
+<a href="index.xml" target="_blank">RSS</a>
+<a href="/news/">一覧</a>
+</div>
+コカ･コーラウエストからのお知らせ
+</div>
+
+<!-- 表示の改修対応2014/10/28 -->
+
+<div class="topnews">新着情報</div>
+<div class="box">
+
+<ul class="clearfix">
+<li class="day">2017年08月14日<img src=/img/news/ico_infomation.jpg alt="" width=82 height=16 /></li>
+
+<li class="news"><a href="http://www.ccwest.co.jp/station/present.php"  >アツい夏こそ、キン冷えコーク！ コカ･コーラ -コールドサインボトル-　1ケース（500mlPET×24本入）を10名様にプレゼント！ </a> </li>
+
+
+<li class="under"></li>
+</ul>
+
+<ul class="clearfix">
+<li class="day">2017年08月07日<img src=/img/news/ico_infomation.jpg alt="" width=82 height=16 /></li>
+
+<li class="news"><img src=common_img/ico_blank.jpg class="mado" /><a href="http://www.ccwest.co.jp/download.php?key=697&func=1" target="_blank" >台風５号接近に伴う京都工場見学中止のお知らせ </a> （<img src=/common_img/ico_pdf.gif alt= width=12 height=12 />：231.1KB)</li>
+
+
+<li class="under"></li>
+</ul>
+
+<ul class="clearfix">
+<li class="day">2017年08月07日<img src=/img/news/ico_infomation.jpg alt="" width=82 height=16 /></li>
+
+<li class="news"><img src=common_img/ico_blank.jpg class="mado" /><a href="http://www.ccwest.co.jp/download.php?key=696&func=1" target="_blank" >コカ･コーラウエストファミリーミュージカル 高松公演中止のお知らせ </a> （<img src=/common_img/ico_pdf.gif alt= width=12 height=12 />：81.8KB)</li>
+
+
+<li class="under"></li>
+</ul>
+
+</div>
+
+<div class="topnews">ニュースリリース</div>
+
+<div class="box">
+
+<ul class="clearfix">
+<li class="day">2017年03月23日<img src=/img/news/ico_newsrelease.jpg alt="" width=82 height=16 /></li>
+
+<li class="news"><img src=common_img/ico_blank.jpg class="mado" /><a href="http://www.ccwest.co.jp/download.php?key=676&func=1" target="_blank" >コカ・コーラボトラーズジャパンの子会社の役員体制を発表</a> （<img src=/common_img/ico_pdf.gif alt= width=12 height=12 />：559.4KB)</li>
+<li class="under"></li>
+</ul>
+
+<ul class="clearfix">
+<li class="day">2017年03月01日<img src=/img/news/ico_newsrelease.jpg alt="" width=82 height=16 /></li>
+
+<li class="news"><img src=common_img/ico_blank.jpg class="mado" /><a href="http://www.ccwest.co.jp/download.php?key=670&func=1" target="_blank" >米国証券取引委員会あてForm F-4の提出について</a> （<img src=/common_img/ico_pdf.gif alt= width=12 height=12 />：967.5KB)</li>
+<li class="under"></li>
+</ul>
+
+<ul class="clearfix">
+<li class="day">2017年02月20日<img src=/img/news/ico_newsrelease.jpg alt="" width=82 height=16 /></li>
+
+<li class="news"><img src=common_img/ico_blank.jpg class="mado" /><a href="http://www.ccwest.co.jp/download.php?key=668&func=1" target="_blank" >株式交換により増加する「資本準備金」の額の減少および「その他資本剰余金」への振替えに関するお知らせ</a> （<img src=/common_img/ico_pdf.gif alt= width=12 height=12 />：140.9KB)</li>
+<li class="under"></li>
+</ul>
+
+<ul class="clearfix">
+<li class="day">2017年02月06日<img src=/img/news/ico_newsrelease.jpg alt="" width=82 height=16 /></li>
+
+<li class="news"><img src=common_img/ico_blank.jpg class="mado" /><a href="http://www.ccwest.co.jp/download.php?key=663&func=1" target="_blank" >平成28年12月期 決算短信〔日本基準〕(連結)</a> （<img src=/common_img/ico_pdf.gif alt= width=12 height=12 />：1917.6KB)</li>
+<li class="under"></li>
+</ul>
+
+<ul class="clearfix">
+<li class="day">2017年02月06日<img src=/img/news/ico_newsrelease.jpg alt="" width=82 height=16 /></li>
+
+<li class="news"><img src=common_img/ico_blank.jpg class="mado" /><a href="http://www.ccwest.co.jp/download.php?key=662&func=1" target="_blank" >支配株主等に関する事項について</a> （<img src=/common_img/ico_pdf.gif alt= width=12 height=12 />：111.8KB)</li>
+<li class="under"></li>
+</ul>
+
+</div>
+<!-- 表示の改修対応2014/10/28 -->
+
+
+
+
+
+
+
+
+
+<!-- /news_inside -->
+</div>
+
+
+<div class="Box_title">
+イベント情報
+</div>
+
+<div id="station">
+
+<div>
+<a href="/station/"><img src="/img/top/nav_top/community_top.jpg" alt="コカ･コーラ ウエスト イベント情報" width="520" height="100" /></a>
+
+<a href="/station/" class="cursor">コカ･コーラウエスト イベント情報特設サイト</a>
+</div>
+
+
+<div style="margin-top:8px;">
+<a href="https://www.ccbji.co.jp/event/20170626/" target="_blank">
+<img src="/img/top/nav_top/img_campaign_nikoand.jpg" alt="niko and ... ショルダーバッグが必ずもらえる!!" width="520" height="100" />
+</a>
+<a href="https://www.ccbji.co.jp/event/20170626/" target="_blank" class="cursor">niko and ... ショルダーバッグが必ずもらえる!!</a>
+</div>
+
+<!-- 特設キャンペーン -->
+
+
+
+
+
+<div id="event">
+<div class="station_inner" id="st_left">
+
+
+<!-- プレゼント期間中 -->
+
+<dl>
+<dt><a href="/station/present.php">今月のプレゼント</a></dt>
+<dd><a href="/station/present.php"><img src="/img/top/nav_top/img_present.jpg" alt="6月のプレゼント" width="130" height="100" /></a>
+<a href="/station/present.php" class="cursor">
+8月プレゼントは…アツい夏こそ、キン冷えコーク！ コカ･コーラ -コールドサインボトル- 1ケース（500mlPET×24本入）を10名様にプレゼント！
+</a>
+</dd>
+</dl>
+
+
+
+<!-- プレゼント期間外 -->
+
+
+
+</div>
+
+
+<div class="station_inner">
+
+<dl>
+
+
+<dt><a href="/csr/activity/musical/index.php">ファミリーミュージカル</a></dt>
+<dd><a href="/csr/activity/musical/index.php"><img src="/img/top/nav_top/img_2017musical.jpg" alt="コカ･コーラウエスト ファミリーミュージカル" /></a>
+<a href="/csr/activity/musical/index.php" class="cursor">「じぃじのふしぎなレストラン」</a> 
+</dd>
+
+</dl>
+
+</div>
+
+<!-- /event -->
+</div>
+
+
+<div class="station_inner" id="st_left" style="margin-top:20px; margin-bottom:20px;">
+<dt><a href="/lineup/lineup_amaou.php">新製品情報</a></dt>
+<dd><a href="/lineup/lineup_amaou.php"><img src="/img/top/nav_top/img_topic_amaou.jpg" alt="いろはす あまおう 九州エリア限定発売" /></a>
+<a href="/lineup/lineup_amaou.php" class="cursor">い・ろ・は・す あまおう 九州エリア限定発売開始</a>
+</dd>
+</div>
+
+
+<!-- /station -->
+</div>
+
+
+<div class="Box_title">
+レッドスパークス オフィシャルウェブサイト
+</div>
+
+
+<div id="sparks">
+
+
+<div class="sparks_inner clearfix">
+<dl>
+<dd class="rugby"><a href="/club/rugby.html" target="_blank"><img src="/img/top/nav_top/btn_rugby_bnr.jpg" alt="ラグビー公式ウェブサイト" width="255" height="80" /></a>
+<a href="/club/rugby.html" target="_blank" class="cursor">ラグビーオフィシャルウェブサイト<img src="/img/top/nav_top/top_ico_blank_grey.jpg" alt="" height="12" width="9" /></a>
+</dd>
+<dd><a href="/club/hockey.html" target="_blank"><img src="/img/top/nav_top/btn_hocky_bnr.jpg" alt="ホッケー公式ウェブサイト" width="255" height="80" /></a>
+<a href="/club/hockey.html" target="_blank" class="cursor">ホッケーオフィシャルウェブサイト<img src="/img/top/nav_top/top_ico_blank_grey.jpg" alt="" height="12" width="9" /></a>
+</dd>
+</dl>
+</div>
+
+</div>
+
+<!-- /main -->
+</div>
+
+<!-- /contents-->
+</div>
+
+
+<ul class="pagetop-foot">
+<li><a href="#top">トップへ戻る</a></li>
+</ul>
+
+<div id="footer_navi">
+<ul>
+<li><a href="/">ホーム</a></li>
+<li><a href="/company/">会社情報</a></li>
+<li><a class="modal-open" data-target="popup_ccbji">株主・投資家のみなさまへ</a></li>
+<li><a href="/csr/">共創価値(CSV)</a></li>
+<li><a href="/recruit/">採用情報</a></li>
+<li><a href="/news/">ニュース一覧</a></li>
+<li><a href="/station/">イベント情報</a></li>
+<li><a href="/inquiry/">お問い合わせ</a></li>
+</ul>
+<ol>
+<li class="f_n_01"><a href="/inquiry/guide.php">自動販売機設置のご案内</a></li>
+<li class="f_n_02"><a href="/station/factory/details.php">工場見学</a></li>
+<li class="f_n_03"><a href="/club/rugby.html" target="_blank">ラグビー</a></li>
+<li class="f_n_04"><a href="/club/hockey.html" target="_blank">ホッケー</a></li>
+<li class="f_n_05"><a href="/station/present.php">プレゼント</a></li>
+<li class="f_n_06"><a href="/station/event/index.php">イベント情報</a></li>
+</ol>
+</div>
+
+<div id="popup_ccbji" class="modal-content">
+<a class="ccbji_img" href="https://www.ccbji.co.jp/" target="_blank"><img src="/img/popup/img_ccbji.jpg"></a>
+<p style="margin:5px 0 -5px; text-align:center;">IR・投資家情報につきましては、コカ･コーラボトラーズジャパンのWebサイトをご覧ください。</p>
+<div class="url"><a href="https://www.ccbji.co.jp/" target="_blank">https://www.ccbji.co.jp/</a></div>
+</div>
+
+<div id="footer" class="top">
+<div id="foot-inner">
+<ul id="footerNavigation">
+<li><a href="/inquiry/index.php">お問い合わせ</a></li>
+<li><a href="/info/site.php">サイトポリシー</a></li>
+<li><a href="/info/privacy.php">プライバシーポリシー</a></li>
+<li><a href="/info/personal_information.php">特定個人情報の適正な取扱いに関する基本方針</a></li>
+<li><a href="/info/sitemap.php">サイトマップ</a></li>
+</ul>
+<p style="width:600px;">コカ･コーラウエスト株式会社は、アジア最大、世界で有数の規模を有する<a href="https://www.ccbji.co.jp/" target="_blank">コカ･コーラボトラーズジャパン</a>グループの一員です。</p>
+<address class="top">Copyright(c) Coca-Cola West Co.Ltd All rights reserved.</address>
+</div>
+<!-- /footer --></div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-4002248-3");
+pageTracker._trackPageview();
+} catch(err) {}
+</script>
+
+</body>
+</html>

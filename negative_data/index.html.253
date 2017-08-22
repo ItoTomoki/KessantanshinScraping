@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+<head>
+<script type="text/javascript" src="/common/js/tag.js"></script>
+
+<meta charset="utf-8">
+<title>ホーム | ソーバル株式会社</title>
+<meta name="keywords" content="ソーバル,Sobal,事業案内,IR情報,採用情報,企業情報,環境・社会貢献活動">
+<meta name="description" content="ソーバル株式会社のオフィシャルサイトです。「高い技術と経験豊富な人材」ソーバルは実直な事業方針を基に、長期的な技術力の強化を追及しています。">
+
+<!-- リセットCSS -->
+<link rel="stylesheet" href="/common/css/reset.css" type="text/css">
+
+<!-- 共通CSS -->
+<link rel="stylesheet" href="/common/css/style.css" type="text/css">
+<link rel="stylesheet" href="/common/css/g-navi.css" type="text/css">
+<link rel="stylesheet" href="/common/css/secondary.css" type="text/css">
+
+<!-- 印刷用CSS -->
+<link rel="stylesheet" href="/common/css/print.css" type="text/css" media="print">
+
+<!-- html5 for IE -->
+<script type="text/javascript" src="/common/js/html5.js"></script>
+
+<!-- Put the YUI seed file on your page.-->
+<script type="text/javascript" src="/common/js/yui.3.4.1.js"></script>
+
+<!-- jQuery -->
+<script type="text/javascript" src="/common/js/jquery.js"></script>
+<script type="text/javascript" src="/common/js/javascript.js"></script>
+
+<!-- iPhone用 -->
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=0.5,maximum-scale=2.0,user-scalable=yes">
+<meta name="format-detection" content="telephone=no">
+<!-- /iPhone用 -->
+
+</head>
+<body id="home" class="home topics">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M7RDRC2"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<!-- ページ全体 -->
+<div id="page">
+
+<!-- ヘッダー 読み込み--><div id="load_header"></div><!-- /ヘッダー -->
+<!-- グローバルナビ 読み込み --><div id="load_g-navi"></div><!-- /グローバルナビ -->
+
+<!-- トップイメージ -->
+<div id="top-image">
+<!--	<div><img src="/img/top-image04.png" alt=""></div> -->
+	<div><img src="/img/top-image02.png" alt=""></div>
+	<div><img src="/img/top-image03.png" alt=""></div>
+</div>
+<!-- /トップイメージ -->
+
+<!-- メイン -->
+<div id="main">
+
+	<div id="main-content">
+
+
+<!-- 第1コンテンツ -->
+<div id="primary">
+<!-- 記事 -->
+<article id="primary-content">
+
+<!-- mobile用 g-navi -->
+<nav class="btn-mobile">
+<div class="column_2">
+	<div class="banner">
+		<a href="/business/index.html" title="事業案内">
+			<div>
+				<img src="/img/business.jpg" alt="">
+				<h2>事業案内</h2>
+			</div>
+			<p>組込み開発／アプリケーション開発／WEB・クラウド開発／マニュアル制作／品質評価／IoT／S4 Apps／joint force／Navi-Ene</p>
+		</a>
+	</div>
+	<div class="banner">
+		<a href="/ir/index.html" title="IR情報">
+			<div>
+				<img src="/img/ir.jpg" alt="">
+				<h2>IR情報</h2>
+			</div>
+			<p>ソーバルとは／経営方針／財務・業績／株式情報／株主総会／IRライブラリ／IRカレンダー／IRニュース</p>
+		</a>
+	</div>
+	<div class="banner">
+		<a href="/about/index.html" title="企業情報">
+			<div>
+				<img src="/img/about.jpg" alt="">
+				<h2>企業情報</h2>
+			</div>
+			<p>ご挨拶／会社概要／アクセスマップ／ニュース／認証・資格</p>
+		</a>
+	</div>
+	<div class="banner">
+		<a href="/csr/index.html" title="CSR">
+			<div>
+				<img src="/img/csr.jpg" alt="">
+				<h2>CSR</h2>
+			</div>
+			<p>CSR理念／ボランティア活動／災害支援／寄付／協賛／情報セキュリティ方針</p>
+		</a>
+	</div>
+	<div class="banner">
+		<a href="/recruit/index.html" title="採用情報">
+			<div>
+				<img src="/img/recruit.jpg" alt="">
+				<h2>採用情報</h2>
+			</div>
+			<p>新卒採用／インターンシップ／キャリア採用／チャレンジド採用／ソーバルで働くということ／福利厚生／教育制度</p>
+		</a>
+	</div>
+
+</div><!--/.column_2-->
+<!-- /mobile用 g-navi -->
+</nav>
+
+
+<div class="column_3">
+
+	<!-- IRニュース -->
+	<div class="irnewsbox">
+		<div class="h2">
+			<h2 class="inline">IRニュース</h2>
+			<nav class="btn-pc"><a class="btn" href="/ir/irnews.html">一覧</a><a class="btn" title="RSS配信" href="/rss/ir_topics.xml" target="_blank"><img class="btn-img" src="/common/img/rss.png" alt="RSS配信"><img class="btn-img_hover" src="/common/img/rss_hover.png" alt="RSS配信"></a></nav>
+			<nav class="btn-mobile"><a class="view-btn" href="/ir/irnews.html">一覧</a><a class="rss-btn" title="RSS配信" href="/rss/ir_topics.xml" target="_blank">RSS配信</a></nav>
+			<nav class="rss-info"><a href="/rss/rss.html">RSSについて</a></nav>
+		</div>
+		<div id="load_irtopics"></div>
+	</div>
+	<!-- /IRニュース -->
+
+	<!-- 新着情報 -->
+	<div class="newsbox">
+		<div class="h2">
+			<h2 class="inline">新着情報</h2>
+			<nav class="btn-pc"><a class="btn" href="/about/news.html">一覧</a><a class="btn mobile_none" title="RSS配信" href="/rss/topics.xml" target="_blank"><img class="btn-img" src="/common/img/rss.png" alt="RSS配信"><img class="btn-img_hover" src="/common/img/rss_hover.png" alt="RSS配信"></a></nav>
+			<nav class="btn-mobile"><a class="view-btn" href="/about/news.html">一覧</a><a class="rss-btn" title="RSS配信" href="/rss/topics.xml" target="_blank">RSS配信</a></nav>
+		</div>
+		<div id="load_topics"></div>
+	</div>
+	<!-- /新着情報 -->
+
+	<nav class="rss-info pc_none"><a href="/rss/rss.html">RSSについて</a></nav>
+
+	<!-- infobox ピックアップ -->
+	<div class="infobox">
+		<div class="h2">
+			<h2>ピックアップ</h2>
+		</div>
+		<ul>
+			<li><a href="/about/hello.html" title="ご挨拶"><img src="/img/hello.jpg" alt="ご挨拶"><span>ご挨拶</span></a></li>
+			<!--<li><a href="/recruit/" title="採用情報"><img src="/recruit/img/student.jpg" alt="採用情報"><span>採用情報</span></a></li>-->
+			<li><a href="/recruit/student/" title="新卒採用 2018"><img src="/recruit/img/student2018.jpg" alt="新卒採用 2018"><span>新卒採用</span></a></li>
+			<li><a href="/recruit/intern/index.html" title="インターンシップ 2019"><img src="/recruit/img/internship2019.jpg" alt="インターンシップ 2019"><span>インターンシップ</span></a></li>
+			<li><a href="/recruit/career.html" title="キャリア（中途）採用"><img src="/recruit/img/career.jpg" alt="キャリア（中途）採用"><span>キャリア採用</span></a></li>
+			<li><a href="/about/map.html" title="アクセスマップ"><img src="/img/map.jpg" alt="アクセスマップ"><span>アクセスマップ</span></a></li>
+			<li class="mobile_none"><a class="info_partner" href="/business/partner.html" title="ビジネスパートナー企業様 募集">パートナー企業様 募集</a></li>
+			<li class="pc_none"><a href="/business/partner.html" title="ビジネスパートナー企業様 募集"><img src="/business/img/partner.png" alt="パートナー企業様 募集"><span>パートナー企業様 募集</span></a></li>
+		</ul>
+
+
+
+		<!--インフォメーションエリア-->
+<!--
+		<div>
+			<h3 class="info-btn"><a href="javascript:;">年末年始休業のお知らせ</a></h3>
+			<div style="display: none">
+			<p>誠に勝手ながら12月29日（木）～1月4日（水）まで、年末年始休業とさせていただきます。</p>
+			<p>皆様にはご不便をおかけしますが、何卒ご了承くださいますようお願い申し上げます。</p>
+			<p>なお、ご質問、お問合せへのご回答につきましては、1月5日（木）より順次対応させていただきます。</p>
+			</div>
+		</div>
+-->
+		<!--/インフォメーションエリア-->
+
+
+		<!--インフォメーションエリア-->
+<!--
+		<div>
+			<h3 class="info-btn"><a href="javascript:;">夏期休業のお知らせ</a></h3>
+			<div style="display: none">
+				<p>誠に勝手ながら8月11日（祝）～20日（日）まで、夏期休業とさせていただきます。</p>
+				<p>皆様にはご不便をおかけしますが、どうぞよろしくお願いいたします。</p>
+				<p>なお、ご質問、お問合せへのご回答につきましては、8月21日（月）より順次対応させていただきます。</p>
+			</div>
+		</div>
+-->
+		<!--/インフォメーションエリア-->
+<!--
+		<div>
+			<h3 class="info-btn"><a href="javascript:;">ゴールデンウィーク休業のお知らせ</a></h3>
+			<div style="display: none">
+				<p>ゴールデンウィーク休業について、下記の通りご案内申し上げます。</p>
+				<p><strong>・4月29日（土）～30日（日）</strong><br>
+				<strong>・5月3日（水）～7日（日）</strong></p>
+				<p>※ 5月1日（月）、2日（火）は通常営業いたします。</p>
+				<p>お問合せ等につきましては、5月8日（月）以降、順次対応とさせていただきます。</p>
+				<p>皆様にはご不便をおかけいたしますが、どうぞよろしくお願いいたします。</p>	
+			</div>
+		</div>
+-->
+
+		<!--インフォメーションエリア-->
+		<div>
+			<h3 class="info-btn"><a href="javascript:;">節電とクールビズ実施のお知らせ</a></h3>
+			<div style="display: none">
+				<p>弊社では節電協力のため、冷房温度を控えめにしております。</p>
+				<p>またこれに伴い、クールビズを導入しております。</p>
+				<p>ご来訪の皆様へおかれましても、弊社へお越しの際にはお気兼ねなくクールビズスタイルでお越しください。</p>
+			</div>
+		</div>
+		<!--/インフォメーションエリア-->
+
+
+	</div>
+	<!-- /.infobox ピックアップ -->
+
+</div><!-- /.column_3 -->
+
+</article>
+<!-- /記事 -->
+
+</div>
+<!-- /第1コンテンツ -->
+
+<!-- 第2コンテンツ -->
+<div id="secondary pc_none">
+
+<nav id="side-nav">
+	<ul class="pc_none">
+		<li class="s4"><a target="_blank" href="http://www.sobal.co.jp/s4/" title="スマートフォン向けアプリケーションサイト"><img src="/business/img/logo_s4.png" alt="S4 APPs"></a></li>
+		<li class="dokusho-log"><a target="_blank" href="http://www.dokusho-log.com" title="読書ログ - 読んだ本を記録して共有する読書コミュニティ"><img src="/business/img/logo_dokusho-log.png" alt="読書ログ"></a></li>
+		<li class="eiga-log"><a target="_blank" href="http://www.eiga-log.com" title="映画ログ - 観た映画を記録して共有する映画コミュニティ"><img src="/business/img/logo_eiga-log-b.png" alt="映画ログ"></a></li>
+	</ul>
+</nav>
+
+<nav class="top"><a href="#page">ページの先頭へ</a></nav>
+
+</div>
+<!-- /第2コンテンツ -->
+
+</div><!-- /#main-content -->
+
+</div><!-- /#main -->
+<!-- /メイン -->
+
+<nav id="sub-pr" class="mobile_none">
+	<ul>
+		<li class="s4"><a target="_blank" href="http://www.sobal.co.jp/s4/" title="スマートフォン向けアプリケーションサイト「S4 APPs」"></a></li>
+		<li class="dokusho-log"><a target="_blank" href="http://www.dokusho-log.com" title="読書ログ - 読んだ本を記録して共有する読書コミュニティ"></a></li>
+		<li class="eiga-log"><a target="_blank" href="http://www.eiga-log.com" title="映画ログ - 観た映画を記録して共有する映画コミュニティ"></a></li>
+	</ul>
+</nav>
+
+<!-- フッター --><footer id="footer">
+<!-- フッターナビ 読み込み --><div id="load_footer-nav"></div><!-- /フッターナビ -->
+<!-- コピーライト --><div id="copyright">Copyright(c) 2006-<script type="text/javascript">document.write(new Date().getFullYear())</script> Sobal Corporation All rights reserved.</div><!-- /コピーライト -->
+</footer><!-- /フッター -->
+</div><!-- /#page -->
+<!-- /ページ全体 -->
+
+<!-- topSlider -->
+<script src="/js/topSlider.js" type="text/javascript"></script>
+<script type="text/javascript">
+<!--
+  $('#top-image').topSlider({
+    infiniteLoop: false,
+    hideControlOnEnd: false,
+    pager: false,
+  });
+//-->
+</script>
+<!-- /topSlider -->
+
+
+</body>
+</html>

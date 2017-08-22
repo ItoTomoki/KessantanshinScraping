@@ -1,0 +1,648 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="Content-Style-Type" content="text/css" />
+        <meta http-equiv="Content-Script-Type" content="text/javascript" />
+        <meta name="description" content="日比谷総合設備株式会社 ホーム 私たちはトータルエンジニアリング企業として、業界トップクラスの技術力で、空気調和、給排水衛生、電気、情報通信技術などの設備事業を展開してきました。建物に“命”を吹き込み、快適な環境を創造することが設備事業の役割であると考えています。 " />
+        <link rel="shortcut icon" href="/favicon.ico"/>
+        <title>日比谷総合設備|ホーム</title>
+        <meta name="keywords" content="" />
+        <link href="/assets/templates/hibiya/common/css/import.css" rel="stylesheet" type="text/css" media="screen,print" />
+        <!-- 技術ページ関係 -->
+        <link href="/assets/templates/hibiya/technique/css/technique.css" rel="stylesheet" type="text/css" media="screen,print" />
+        <link href="/assets/templates/hibiya/common/css/print.css" rel="stylesheet" type="text/css" media="print" />
+        <script type="text/javascript" src="/assets/templates/hibiya/common/js/jquery-1.3.2.min.js"></script>
+        <script type="text/javascript" src="/assets/templates/hibiya/common/js/jquery.cookie.js"></script>
+        <script type="text/javascript" src="/assets/templates/hibiya/common/js/jquery.lightbox-0.5.min.js"></script>
+        <!-- / 技術ページ関係 -->
+        <!-- ページ要素関係 -->
+        <link href="/assets/templates/hibiya/common/css/section-design.css" rel="stylesheet" type="text/css" media="screen,print" />
+        <link href="/assets/templates/hibiya/common/css/jquery.lightbox-0.5.css" rel="stylesheet" type="text/css" media="screen" />
+        <!-- / ページ要素関係 -->
+        <!-- Top Flash 関係 -->
+        <script type="text/javascript" src="/assets/templates/hibiya/common/js/swfobject.js"></script>
+        <!-- /Top Flash 関係 -->
+
+        <!-- RSS Feed -->
+        <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="/rss" />
+
+        <script type="text/javascript">
+
+$(function(){
+
+
+    //変数にクッキー名を入れる
+    var history = $.cookie('fontSize');
+	
+    //適用する箇所を指定。テストとして、#page-content p にクラスを適用
+    var elm = $('#page-content, #content, #topNewsareas');
+	
+    //変数が空ならfontMを、空でなければクッキーに保存しておいたものを適用
+    // classは、size-s size-m size-l
+    // (!history) ? elm.addClass('size-m') : elm.addClass(history);
+    if (!history){
+        history = 'size-m';
+    }
+    elm.addClass(history);
+
+    // ボタンの色を制御。現在の状況をボタンの色で知らせる。
+    var selector = 'div.hSection ul.fontList a#' + history;
+    //console.log(selector);
+    $(selector).addClass('active');
+
+
+     
+	
+    //クリックしたら実行
+    $('div.hSection ul.fontList a').click(function(){
+        //クッキーから現在のクラス名を取得
+    	var current = $.cookie('fontSize');
+	
+        //クリックした要素のID名を変数にセット
+        // size-s, size-m, size-l が入る
+        var setFontSize = this.id;
+	    
+        //クッキーに変数を保存
+    	$.cookie('fontSize', setFontSize);
+		
+        //一度classを除去して、変数をclassとして追加
+        elm.removeClass(current).addClass(setFontSize);
+
+        // ボタンの効果を更新
+        var selector = 'div.hSection ul.fontList a#' + current;
+        $(selector).removeClass('active');
+        $(this).addClass('active');
+
+    });
+    
+    // 印刷ダイアログを開く
+    $('a#startprint').click(function(){
+          window.print();
+          return false;
+    });
+
+
+});
+</script>
+
+        <script type="text/javascript">
+$(function(){
+
+/* サブメニューの表示リセット */
+$('div#sidebar div.sectionInner').show();
+$('div#sidebar h2#now-category').show();
+
+var ultp = $("div#sidebar>div.section>h2").attr('class');
+
+if (ultp == 17){ /* ビジョン */
+  $("div#gNav li#gNavVision a img").css('visibility', 'hidden');
+  $('h2#now-category img').attr('src', '/assets/templates/hibiya/common/images/bh_vision.gif')
+}else if (ultp == 18){  /* 会社情報 */
+  $("div#gNav li#gNavInfo a img").css('visibility', 'hidden');
+  $('h2#now-category img').attr('src', '/assets/templates/hibiya/common/images/bh_info.gif')
+}else if (ultp == 40){  /* 株主 投資家情報 */
+  $("div#gNav li#gNavStockholder a img").css('visibility', 'hidden');
+  $('h2#now-category img').attr('src', '/assets/templates/hibiya/common/images/bh_stockholder.gif')
+}else if (ultp == 19){ /* CSR */
+  $("div#gNav li#gNavCsr a img").css('visibility', 'hidden');
+  $('h2#now-category img').attr('src', '/assets/templates/hibiya/common/images/bh_csr.gif')
+  $('div#csr-menu').hide();
+}else if (ultp == 20){ /* コーポレートガバナンス */
+  $("div#gNav li#gNavCorporate a img").css('visibility', 'hidden');
+  $('h2#now-category img').attr('src', '/assets/templates/hibiya/common/images/bh_corporate.gif')
+  $('div#corporate-menu').hide();
+}else if (ultp == 13){ /* 技術 */
+  $("div#gNav li#gNavTechnique a img").css('visibility', 'hidden');
+  $('h2#now-category img').attr('src', '/assets/templates/hibiya/common/images/bh_technique.gif')
+}else if (ultp == 21){  /* リクルート */
+  $("div#gNav li#gNavRecruitment a img").css('visibility', 'hidden');
+  $('h2#now-category img').attr('src', '/assets/templates/hibiya/common/images/bh_recruitment.gif')
+}else if (ultp == 30){  /* English */
+  $('h2#now-category img').attr('src', '/assets/templates/hibiya/common/images/bh_english.gif')
+}else { /* ニュースなど */
+  $('div#sidebar h2#now-category, div#sidebar ul.lNav2 ').hide();
+}
+
+   
+});
+</script>
+        <script type="text/javascript">
+$(function() {
+	$('a.lightbox').lightBox({
+        imageLoading: '/assets/templates/hibiya/common/images/lightbox-ico-loading.gif',
+	imageBtnClose: '/assets/templates/hibiya/common/images/lightbox-btn-close.gif',
+	imageBtnPrev: '/assets/templates/hibiya/common/images/lightbox-btn-prev.gif',
+	imageBtnNext: '/assets/templates/hibiya/common/images/lightbox-btn-next.gif'
+}
+); // Select all links with lightbox class
+});
+</script>
+        <script type="text/javascript">
+$(function(){
+     $("div.linkbox").click(function(){
+         window.location=$(this).find("a").attr("href");
+         return false;
+    });
+});
+</script>
+        <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-23321906-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+        <script type="text/javascript" src="/assets/templates/hibiya/common/js/script.js"></script>
+
+        <!-- デザイン検討用スタイルシート -->
+        <style type="text/css">
+div#newsScroll {
+  border: 1px solid silver;
+  height: 230px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  padding: 0 0 0 5px;
+  margin: 0;
+  margin-top: 10px;
+  width: 378px;
+  _width: 371px;
+}
+div#sidebar2/*,
+div#contentTops01 */{
+   height: 565px !important;
+}
+         </style>
+        <meta name="viewport" content="width=660"><script type="text/javascript" src="/assets/templates/hibiya/sp/sp.js" charset="utf-8"></script>
+    </head>
+
+    <body id="top">
+        <div id="layout">
+            <div id="header">
+                <div id="headerInner">
+                    <p id="logo"><a href="/home"><img class="forscreen" alt="日比谷総合設備株式会社" src="/assets/templates/hibiya/common/images/logo.gif"><img class="forprint" alt="日比谷総合設備株式会社" src="/assets/templates/hibiya/common/images/logo-print.gif"></a></p>
+                    <ul id="hNav">
+                        <li><a href="/sitemap"><img alt="サイトマップ" src="/assets/templates/hibiya/common/images/hnav_sitemap.gif"></a></li>
+                        <li><a href="/contactus"><img alt="お問い合わせ" src="/assets/templates/hibiya/common/images/hnav_contact.gif"></a></li>
+                        <li><a href="/English"><img alt="English" src="/assets/templates/hibiya/common/images/hnav_english.gif"></a></li>
+                        <li><a href="#" id="startprint"><img alt="印刷する" src="/assets/templates/hibiya/common/images/hnav_print.gif"></a></li>
+                    </ul>
+                    <div class="hSection">
+                        <div class="font">
+                            <p><img alt="文字サイズ" src="/assets/templates/hibiya/common/images/txt_font.gif"></p>
+                            <ul class="fontList">
+                                <li><a href="#" id="size-s"></a></li>
+                                <li><a href="#" id="size-m"></a></li>
+                                <li><a href="#" id="size-l"></a></li>
+                            </ul>
+                        </div>
+
+                        <form target="_blank" action="http://www.google.co.jp/cse" method="GET">
+                        <p class="search">
+                            <input type="text" name="q" maxlength="230" size="20" id="search" value="" class="searchText"/>
+                            <input type="image" src="/assets/templates/hibiya/common/images/btn_search.gif" value="検索" alt="検索" name="検索"/>
+                            <input type="hidden" value="http://www.hibiya-eng.co.jp/" name="domains"/>
+                            <input type="hidden" value="010459646466623244686:p1wcwpeyw4o" name="cx"/>
+                            <input type="hidden" value="ja" name="hl"/>
+                            <input type="hidden" value="AWFID:FSja84b82c8647f6458e;S:http://www.hibiya-eng.co.jp/;GL:0;AH:left;L:http://www.sprout-net.com/client/hibiya/img/logo.gif;T:#666666;" name="cof"/>
+                            <input type="hidden" value="www.hibiya-eng.co.jp" name="sitesearch"/>
+                        </p>
+                        </form>
+
+                    </div>
+                    <!-- / id headerInner --></div>
+                <!-- / id header --></div>
+            <div id="wholetopbox">
+    <div id="gNav">
+        <dl>
+            <dt>主なカテゴリ</dt>
+            <dd>
+            <ul>
+                <li id="gNavVision"><a href="/vision"><img alt="ビジョン" src="/assets/templates/hibiya/common/images/gnav_vision.gif"></a></li>
+                <li id="gNavInfo"><a href="/company"><img alt="会社情報" src="/assets/templates/hibiya/common/images/gnav_info.gif"></a></li>
+                <li id="gNavStockholder"><a href="/ir"><img alt="株主・投資家情報" src="/assets/templates/hibiya/common/images/gnav_stockholder.gif"></a></li>
+                <li id="gNavCsr"><a href="/csr"><img alt="CSR情報" src="/assets/templates/hibiya/common/images/gnav_csr.gif"></a></li>
+                <li id="gNavCorporate"><a href="/governance"><img alt="コーポレートガバナンス情報" src="/assets/templates/hibiya/common/images/gnav_corporate.gif"></a></li>
+                <li id="gNavTechnique"><a href="/technology"><img alt="日比谷の技術" src="/assets/templates/hibiya/common/images/gnav_technique.gif"></a></li>
+                <li id="gNavRecruitment"><a href="/recruit"><img alt="リクルート" src="/assets/templates/hibiya/common/images/gnav_recruitment.gif"></a></li>
+            </ul>
+            </dd>
+        </dl>
+        <!-- / id gNav --></div>
+    <!-- div class="mainPhoto">
+        <img width="890" height="276" alt="時代にまっすぐ、技術にまじめです。" src="/assets/templates/hibiya/common/images/top/mainphoto.jpg">
+    </div -->
+
+    <div class="mainPhoto" style="margin:0 10px; padding:0;">
+        <div style="width:890px;height:276px;margin:0 auto;position:relative;">
+<div id="slide">
+<ul>
+<li><img src="/assets/top/001.jpg" alt="" width="890" height="276" /></li>
+<li><img src="/assets/top/002.jpg" alt="" width="890" height="276" /></li>
+<li><img src="/assets/top/003.jpg" alt="" width="890" height="276" /></li>
+<li><img src="/assets/top/004.jpg" alt="" width="890" height="276" /></li>
+<li><img src="/assets/top/005.jpg" alt="" width="890" height="276" /></li>
+<li><img src="/assets/top/006.jpg" alt="" width="890" height="276" /></li>
+<li><img src="/assets/top/007.jpg" alt="" width="890" height="276" /></li>
+</ul>
+</div>
+
+<div style="position:absolute;top:200px;right:40px;z-index:5000;">
+<div style="float:left;"><a href="http://www.nikkoir.co.jp/" target="_blank"><img src="/assets/images/ir/1_sectop_nikkoir2016.png"></a></div>
+<div style="float:left;"><img src="/assets/images/ir/1_sectop_nikkoir2015.png"></div>
+<div style="float:left;"><img src="/assets/images/ir/1_sectop_nikkoir2014.png"></div>
+<div style="float:left;"><img src="/assets/images/ir/1_top_nikkoir2013.png"></div>
+<div style="float:left;"><img src="/assets/images/ir/1_top_nikkoir2012.gif"></div>
+<div style="float:left;"><img src="/assets/images/ir/1_top_nikkoir2011.gif"></div>
+</div>
+
+
+<div style="position:absolute;top:220px;left:0px;z-index:5000;"><a href="javascript:void(0);"><img src="/assets/top/btn_left.png" id="btnLeft"></a></div>
+<div style="position:absolute;top:220px;right:0px;z-index:5000;"><a href="javascript:void(0);"><img src="/assets/top/btn_right.png" id="btnRight"></a></div>
+
+</div>
+<script type="text/javascript" src="/assets/top/top.js"></script>
+    </div>
+    <div class="mainPhoto">
+        <img width="890" height="15" src="/assets/templates/hibiya/common/images/top/main_ubar.gif">
+    </div>
+
+</div>
+                        <div id="pageBody">
+                <div id="pageBodyInner">
+                   <div class=" heightLine-group001" id="contentTops01" style="height: 700px;">
+<div id="rightTopconts">
+	<div id="rightTopconts_l">
+
+    	<div class="topRightinl">
+        
+        	<h4>
+            <ul id="newstag">
+              <li class="l01"><img width="130" height="22" alt="新着ニュース" src="/assets/templates/hibiya/common/images/top/newstitle.gif"></li>
+              <li class="l02"><a href="/newsdir"><img width="127" height="22" alt="新着ニュース一覧" src="/assets/templates/hibiya/common/images/top/newslist_btn.gif"></a></li>
+              <li class="l03"><a href="/rss"><img width="66" height="22" alt="RSS" src="/assets/templates/hibiya/common/images/top/rss_btn.gif"></a></li>
+            </ul>
+            </h4>
+            
+            <div id="topNewsareas">
+            	                
+                <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="/assets/js/auto_filesize-1.0.2.js"></script>
+
+<script type="text/javascript">
+var $171= jQuery.noConflict(true);
+$171(document).ready(function(){
+	$171(".auto_filesize").auto_filesize({
+		'size_part' : 'size_part'
+		,'wrap' : true
+		,'brackets' : ['&nbsp;<img src="/assets/templates/hibiya/ir/images/pdf.gif" alt="PDF">&nbsp;(&nbsp;', '&nbsp;)']
+	});
+});
+</script>
+<script type="text/javascript">
+$(function(){
+    $('div#topNewsareas dl dt').each( function(){
+        var newstype = $(this).attr('class');
+        if (newstype == 'ir'){ /* IR */
+            $(this).find('img').attr('src', '/assets/templates/hibiya/common/images/top/news_ir_icon.gif');
+        }else if (newstype == 'info'){ /* info */
+            $(this).find('img').attr('src', '/assets/templates/hibiya/common/images/top/news_info_icon.gif');
+        }else if (newstype == 'event'){ /* event */
+            $(this).find('img').attr('src', '/assets/templates/hibiya/common/images/top/news_event_icon.gif');
+        }
+    });
+});
+</script>
+<div id="newsScroll">
+<dl>
+<dt class="ir">2017年08月08日 <img width="70" height="15" src="/assets/templates/hibiya/common/images/top/news_info_icon.gif" alt="サービス"></dt>
+<dd>
+<a href="/assets/files/news/2017_08_08_yuuhou.pdf" class="auto_filesize">平成30年3月期 第1四半期報告書を掲載しました</a>
+
+
+</dd>
+</dl><dl>
+<dt class="ir">2017年08月08日 <img width="70" height="15" src="/assets/templates/hibiya/common/images/top/news_info_icon.gif" alt="サービス"></dt>
+<dd>
+<a href="/assets/files/news/30_kessan.pdf" class="auto_filesize">平成30年３月期　第1四半期決算短信〔日本基準〕（連結）を掲載しました</a>
+
+
+</dd>
+</dl><dl>
+<dt class="ir">2017年08月08日 <img width="70" height="15" src="/assets/templates/hibiya/common/images/top/news_info_icon.gif" alt="サービス"></dt>
+<dd>
+<a href="/assets/files/news/2017_08_08gyousekirenndougatakabushikihousyuseido.pdf" class="auto_filesize">役員向け業績連動型株式報酬制度の開始時期等に関するお知らせ</a>
+
+
+</dd>
+</dl><dl>
+<dt class="ir">2017年08月03日 <img width="70" height="15" src="/assets/templates/hibiya/common/images/top/news_info_icon.gif" alt="サービス"></dt>
+<dd>
+<a href="/assets/files/news/2017_08_03_jikokabu.pdf" class="auto_filesize">自己株式の取得状況に関するお知らせ</a>
+
+
+</dd>
+</dl><dl>
+<dt class="event">2017年08月02日 <img width="70" height="15" src="/assets/templates/hibiya/common/images/top/news_info_icon.gif" alt="サービス"></dt>
+<dd>
+
+<a href="/newsdir/1268">「第２０回 環境広場さっぽろ２０１７」出展のご案内</a>
+
+</dd>
+</dl><dl>
+<dt class="ir">2017年07月25日 <img width="70" height="15" src="/assets/templates/hibiya/common/images/top/news_info_icon.gif" alt="サービス"></dt>
+<dd>
+<a href="/assets/files/news/20170725sinkabu_kakutei.pdf" class="auto_filesize">新株予約権（株式報酬型ストックオプション）の発行内容の確定について</a>
+
+
+</dd>
+</dl><dl>
+<dt class="ir">2017年07月06日 <img width="70" height="15" src="/assets/templates/hibiya/common/images/top/news_info_icon.gif" alt="サービス"></dt>
+<dd>
+<a href="/assets/files/news/52_teiseihoukoku.pdf" class="auto_filesize">有価証券報告書の訂正報告書を掲載しました</a>
+
+
+</dd>
+</dl><dl>
+<dt class="ir">2017年07月04日 <img width="70" height="15" src="/assets/templates/hibiya/common/images/top/news_info_icon.gif" alt="サービス"></dt>
+<dd>
+<a href="/assets/files/news/2017_07_04_jikokabu.pdf" class="auto_filesize">自己株式の取得状況に関するお知らせ</a>
+
+
+</dd>
+</dl><dl>
+<dt class="ir">2017年06月30日 <img width="70" height="15" src="/assets/templates/hibiya/common/images/top/news_info_icon.gif" alt="サービス"></dt>
+<dd>
+<a href="/assets/files/news/ir_2017_06.pdf" class="auto_filesize">第52期IR通信を掲載しました。</a>
+
+
+</dd>
+</dl><dl>
+<dt class="ir">2017年06月29日 <img width="70" height="15" src="/assets/templates/hibiya/common/images/top/news_info_icon.gif" alt="サービス"></dt>
+<dd>
+<a href="/assets/files/news/52_yuuhou.pdf" class="auto_filesize">平成29年3月期　有価証券報告書を掲載しました</a>
+
+
+</dd>
+</dl><dl>
+<dt class="ir">2017年06月29日 <img width="70" height="15" src="/assets/templates/hibiya/common/images/top/news_info_icon.gif" alt="サービス"></dt>
+<dd>
+<a href="/assets/files/news/2017_06_29_sinnkabuyoyaku.pdf" class="auto_filesize">新株予約権（株式報酬型ストックオプション）の発行に関するお知らせ</a>
+
+
+</dd>
+</dl><dl>
+<dt class="ir">2017年06月28日 <img width="70" height="15" src="/assets/templates/hibiya/common/images/top/news_info_icon.gif" alt="サービス"></dt>
+<dd>
+<a href="/assets/files/news/20170628_tokubeturieki_gyousekisyusei.pdf" class="auto_filesize">特別利益（関連会社株式売却益）の計上及び通期業績予想の修正に関するお知らせお知らせ</a>
+
+
+</dd>
+</dl><dl>
+<dt class="ir">2017年06月20日 <img width="70" height="15" src="/assets/templates/hibiya/common/images/top/news_info_icon.gif" alt="サービス"></dt>
+<dd>
+<a href="/assets/files/news/20170620_tokubetu_rieki_mikomi.pdf" class="auto_filesize">特別利益（関連会社株式の一部売却）の発生見込み関するお知らせ</a>
+
+
+</dd>
+</dl><dl>
+<dt class="ir">2017年06月02日 <img width="70" height="15" src="/assets/templates/hibiya/common/images/top/news_info_icon.gif" alt="サービス"></dt>
+<dd>
+<a href="/assets/files/news/2017_06_02_jikokabu.pdf" class="auto_filesize">自己株式の取得状況に関するお知らせ</a>
+
+
+</dd>
+</dl><dl>
+<dt class="info">2017年06月01日 <img width="70" height="15" src="/assets/templates/hibiya/common/images/top/news_info_icon.gif" alt="サービス"></dt>
+<dd>
+<a href="/assets/files/news/52-syousyu.pdf" class="auto_filesize">第52回定時株主総会招集通知を掲載しました　</a>
+
+
+</dd>
+</dl><dl>
+<dt class="ir">2017年05月27日 <img width="70" height="15" src="/assets/templates/hibiya/common/images/top/news_info_icon.gif" alt="サービス"></dt>
+<dd>
+<a href="/assets/files/news/52_kojin.pdf" class="auto_filesize">個人投資家向け会社説明会を開催しました</a>
+
+
+</dd>
+</dl><dl>
+<dt class="ir">2017年05月23日 <img width="70" height="15" src="/assets/templates/hibiya/common/images/top/news_info_icon.gif" alt="サービス"></dt>
+<dd>
+<a href="/assets/files/news/29_fb(1).pdf" class="auto_filesize">平成29年3月期　FACT BOOKを掲載しました</a>
+
+
+</dd>
+</dl><dl>
+<dt class="ir">2017年05月23日 <img width="70" height="15" src="/assets/templates/hibiya/common/images/top/news_info_icon.gif" alt="サービス"></dt>
+<dd>
+<a href="/assets/files/news/29_setumeikai.pdf" class="auto_filesize">平成29年3月期　決算説明会を開催しました</a>
+
+
+</dd>
+</dl><dl>
+<dt class="info">2017年05月19日 <img width="70" height="15" src="/assets/templates/hibiya/common/images/top/news_info_icon.gif" alt="サービス"></dt>
+<dd>
+<a href="/assets/files/news/2017_05_19tusyou_yakuin_hibiyakogaisya.pdf" class="auto_filesize">子会社役員の異動に関するお知らせ</a>
+
+
+</dd>
+</dl><dl>
+<dt class="info">2017年05月19日 <img width="70" height="15" src="/assets/templates/hibiya/common/images/top/news_info_icon.gif" alt="サービス"></dt>
+<dd>
+<a href="/assets/files/news/2017_05_19yakuin_gousekirendou.pdf" class="auto_filesize">役員向け業績連動型株式報酬制度の導入に関するお知らせ</a>
+
+
+</dd>
+</dl>
+</div>
+
+<div class="sectionInner" style="margin-top:14px;">
+    <h2>ニュースアーカイブ</h2><ul class="cNav2">&nbsp;<a  href="/newsdir" title="最新" >最新</a>&nbsp;|
+&nbsp;<a  href="/newsdir/285/1017" title="2015年" >2015年</a>&nbsp;|
+&nbsp;<a  href="/newsdir/285/862" title="2014年" >2014年</a>&nbsp;|
+&nbsp;<a  href="/newsdir/285/736" title="2013年" >2013年</a>&nbsp;|
+&nbsp;<a  href="/newsdir/285/574" title="2012年" >2012年</a>&nbsp;|
+&nbsp;<a  href="/newsdir/285/489" title="2011年" >2011年</a>&nbsp;|
+&nbsp;<a  href="/newsdir/285/297" title="2010年" >2010年</a>&nbsp;|
+&nbsp;<a  href="/newsdir/285/296" title="2009年" >2009年</a>&nbsp;|
+&nbsp;<a  href="/newsdir/285/295" title="2008年" >2008年</a>&nbsp;|
+&nbsp;<a  href="/newsdir/285/294" title="2007年" >2007年</a>&nbsp;|
+&nbsp;<a  href="/newsdir/285/292" title="2005年" >2005年</a>&nbsp;|
+&nbsp;<a  href="/newsdir/285/291" title="2004年" >2004年</a>&nbsp;|
+&nbsp;<a  href="/newsdir/285/290" title="2003年" >2003年</a>&nbsp;|
+&nbsp;<a  href="/newsdir/285/289" title="2002年" >2002年</a>&nbsp;|
+&nbsp;<a  href="/newsdir/285/288" title="2001年" >2001年</a>&nbsp;|
+&nbsp;<a class="last"  href="/newsdir/285/286" title="1999年" >1999年</a>&nbsp;|
+</ul>
+
+</div>
+<p>.</p>
+            
+            </div><!--newsarea-->
+        
+        </div>
+    
+    
+    
+    
+    </div><!--rightTopconts_l-->
+    
+    <div id="rightTopconts_r">
+    <h4><img width="231" height="32" alt="株主/投資家情報" src="/assets/templates/hibiya/common/images/top/topright_topics01.gif"></h4>
+    <div class="topRightsnavi">
+    	<ul>
+    	  <li><a href="/ir"><img width="203" alt="株主/投資家情報" src="/assets/templates/hibiya/common/images/top/IR_banner.gif"></a></li>
+    	  <li><a href="/ir/events/calendar"><img width="203" alt="IRカレンダー" src="/assets/templates/hibiya/common/images/top/IR_banner3.gif"></a></li>
+    	  <li><a href="/ir/policy/managementplan"><img width="203" alt="中期経営計画" src="/assets/templates/hibiya/common/images/top/IR_banner2.gif"></a></li>
+    	</ul>
+    
+    </div>
+<!--
+    	<h4><img width="231" height="32" alt="株主/投資家情報" src="/assets/templates/hibiya/common/images/top/topright_topics01.gif"></h4>
+    <div class="topRightsnavi">
+    	<ul>
+    	  <li>&gt; <a href="/ir">IRトップページ</a></li>
+    	  <li>&gt; <a href="/ir/angel">個人投資家の皆様へ</a></li>
+    	  <li>&gt; <a href="/news">IRニュース</a></li>
+    	  <li>&gt; <a href="/ir/events/calendar">IRカレンダー</a></li>
+    	  <li>&gt; <a href="/ir/library">IRライブラリー</a></li>
+    	</ul>
+    
+    </div>
+-->
+
+<!--
+  <div class="topRightsnavi">
+
+    <p class="center"><a href="/ir/library/annualreport"><img width="188" height="225" alt="2011年アニュアルレポート" src="/assets/templates/hibiya/common/images/top/topright_report_btn.gif"></a></p>
+
+    	<ul>
+    	  <li><a href="/ir/policy/managementplan"><img width="203" alt="中期経営計画" src="/assets/templates/hibiya/common/images/top/IR_banner2.gif"></a></li>
+    	</ul>
+
+    </div>
+-->   
+    
+    
+    	<h4><img width="231" height="32" alt="CSR情報" src="/assets/templates/hibiya/common/images/top/topright_topics02.gif"></h4>
+    <div class="topRightsnavi">
+    	<ul>
+    	  <li>&gt; <a href="/csr/basicpolicy">CSR基本方針</a></li>
+    	  <li>&gt; <a href="/csr/report">CSRレポート</a></li>
+    	</ul>
+    
+    </div>
+    
+    	<h4><img width="231" height="32" alt="CSR情報" src="/assets/templates/hibiya/common/images/top/topright_topics03.gif"></h4>
+    <div class="topRightsnavi2">
+    	<ul>
+    	  <li>&gt; <a href="/governance/basicpolicy">コーポレートガバナンス基本方針・体制図</a></li>
+    	  <li>&gt; <a href="/governance/report">コーポレートガバナンス報告書</a></li>
+    	</ul>
+    
+    </div>
+
+    	<h4><img width="231" height="32" alt="女性活躍推進" src="/assets/templates/hibiya/common/images/top/topright_topics04.gif"></h4>
+    <div class="topRightsnavi2">
+    	<ul>
+    	  <li>&gt; <a href="/assets/files/news/jyokatuhou_koudoukeikku.pdf" class="auto_filesize">行動計画</a></li>
+    	  <li>&gt; <a href="/recruit/lady">活躍する女性社員</a></li>
+    	</ul>
+    
+    </div>    
+    
+    </div>
+
+
+
+
+
+
+</div>
+
+
+
+<!-- / id contentTops001 --></div>
+
+
+                   <div class="heightLine-group001" id="sidebar2" style="height: 700px;">
+    <div class="section">
+
+        <ul>
+            <li><a href="/technology/environment"><img width="228" height="47" alt="環境エネルギー" src="/assets/templates/hibiya/common/images/top/top_bnr01_off.jpg"></a></li>
+            <li><a href="/technology/41"><img width="228" height="45" alt="リニューアル" src="/assets/templates/hibiya/common/images/top/top_bnr02_off.jpg"></a></li>
+            <li><a href="/technology/datacenter"><img width="228" height="47" alt="データセンター" src="/assets/templates/hibiya/common/images/top/top_bnr03_off.jpg"></a></li>
+            <li><a href="/technology/systemintegration"><img width="228" height="45" alt="システムインテグレーション" src="/assets/templates/hibiya/common/images/top/top_bnr04_off.jpg"></a></li>
+            <li><a href="/technology/construct"><img width="228" height="47" alt="施工技術" src="/assets/templates/hibiya/common/images/top/top_bnr05_off.jpg"></a></li>
+            <li><a href="/technology/experienceofconstruction"><img width="228" height="46" alt="施工実績" src="/assets/templates/hibiya/common/images/top/top_bnr06_off.jpg"></a></li>
+            <li><img width="228" height="45" alt="ピックアッププロダクツ" src="/assets/templates/hibiya/common/images/top/top_bnr07_off.jpg"><br>
+            <div id="pickupproducts">
+                <a href="/380">SLC</a> / <a href="/technology/others/lineup/predictionassessment/eia">EIA</a> / <a  href="/technology/others/lineup/energy/ha-bems">HA-BEMS</a><br>
+<a href="/technology/others/lineup/energy/taiyonetsu/hybrid">太陽光ハイブリッドシステム</a><br>
+<a href="/technology/others/637">HIBIYA E&S PLAZA</a><br>
+<a href="/technology/others/lineup/predictionassessment/genba_chosa">現場調査支援システム</a>
+            </div>
+            </li>
+        </ul>
+
+
+        <!-- / class section --></div>
+    <div class="section2" style="padding-bottom:0!important;">
+
+        <ul>
+            <li><a href="/technology"><img width="205" height="53" alt="日比谷の技術" src="/assets/templates/hibiya/common/images/top/hibiya_tech_btn.png" /></a></li>
+            <li><a href="http://www.koubai.hibiya-eng.co.jp/"><img width="205" height="53" alt="資材・工事公開情報" src="/assets/templates/hibiya/common/images/top/hibiya_soc_btn.png" /></a></li>
+        </ul>
+
+
+<div id="associate">
+<script>
+$(function(){
+$('#associate ul').hide();
+$( "#btn_associate" ).click(function() {
+$('#associate ul').toggle();
+});
+});
+</script>
+
+<img id="btn_associate" src="/assets/templates/hibiya/common/images/btn_associate.png" alt="協力会社の皆様へ" />
+<ul>
+<li><a href="/forms">書式集</a></li>
+<li><a href="/notification">支払通知</a></li>
+</ul>
+</div><!-- associate -->
+
+
+
+        <!-- / class section --></div>
+
+    <!-- / id sidebar --></div> 
+                    <!-- /id pageBodyInner --></div>
+                <!-- / id pageBody --></div>
+
+
+            <div id="footer">
+                <div id="footerInner">
+                    <ul id="fNav">
+                        <li><a href="/contactus"><img alt="ご意見・お問い合わせはこちらから" src="/assets/templates/hibiya/common/images/fnav_comment.gif"></a></li>
+                        <li><a href="/internalcontrol"><img alt="内部統制基本方針" src="/assets/templates/hibiya/common/images/fnav_policy.gif"></a></li>
+                        <li><a href="/ethicalbehavior"><img alt="倫理行動基準" src="/assets/templates/hibiya/common/images/fnav_standard.gif"></a></li>
+                        <li><a href="/informationsecurity"><img alt="情報セキュリティ基本方針" src="/assets/templates/hibiya/common/images/fnav_info.gif"></a></li>
+                        <li><a href="/privacypolicy"><img alt="個人情報保護方針" src="/assets/templates/hibiya/common/images/hnav_privacy.gif"></a></li>
+                        <li><a href="/links"><img alt="リンク一覧" src="/assets/templates/hibiya/common/images/fnav_opinion.gif"></a></li>
+                        <li><a href="/terms"><img alt="ご利用にあたって" src="/assets/templates/hibiya/common/images/fnav_terms.gif"></a></li>
+						<li><a href="/accessibility"><img alt="アクセシビリティ" src="/assets/templates/hibiya/common/images/fnav_accessibility.gif"></a></li>
+                    </ul>
+                    <p id="copyright"><img class="forscreen" alt="Copyright(c)2010 HIBIYA ENGINEERING,Ltd.All rights reserved." src="/assets/templates/hibiya/common/images/txt_copyright.gif"><span class="forprint">Copyright(c)2010 HIBIYA ENGINEERING,Ltd.All rights reserved.</span></p>
+                    <!-- / id footerInner --></div>
+                <!-- / id footer --></div>
+        <!-- / id layout --></div>
+    </body>
+</html>

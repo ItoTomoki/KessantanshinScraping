@@ -1,0 +1,501 @@
+<!doctype html>
+<html><head>
+<meta charset="shift-jis">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="">
+<title>丸大食品</title>
+<meta name="description" content="丸大食品の商品情報　簡単・お料理レシピ　企業情報や採用情報などより安全で安心な食品に関する情報満載です。">
+<meta name="keyword" content="丸大食品,オンラインショッピング,ハム・ソーセージ,こだわり,ドイツハムソーセージ,燻製,Marudai,Online,Shopping,Wurst,Schinken">
+<meta name="format-detection" content="telephone=no">
+<!-- CSS -->
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+<link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css">
+<link rel="stylesheet" type="text/css" href="css/common.css">
+<link rel="stylesheet" type="text/css" href="css/index.css">
+<!-- JS -->
+<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="js/jquery.overflowScroll.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/jquery.bxslider.js"></script>
+<script type="text/javascript" src="js/jquery.tile.js"></script>
+<script type="text/javascript">
+$.ajax({
+    //読み込むファイル
+        url: 'corporate/ir_rss.xml',
+        async: true,
+        cache: false,
+        dataType: "xml",
+        success: function(xml){
+			iconhtml = '<span class="pdf"><img src="img/index/pdficon_small.gif" /></span>&nbsp;';
+			$('.ir').prepend('<dl></dl>');
+            $(xml).find('item').each(function(i){
+                if (i == 10) {
+                    return false;
+                }
+                var title = $(this).find('title').text();
+                var url = $(this).find('link').text();
+				//リンク先のチェック
+				if(url.match(/\.pdf$/)){
+					icon = iconhtml;
+				}else{
+					icon = "";
+				}
+                var date;
+
+				
+                $(this).children().each(function() {
+                    if ($(this)[0].tagName == "dc:date") {
+                	   date = $(this).text();
+                    }
+                });
+               // date = dateChanger(date);
+ 
+                 $('.ir').find('dl').append('<dt>' + date.replace(/-/g, ".") + '</dt>' + '<dd><a href="'+url+'">' + icon + title + '</a></dd>');
+            });
+        },
+        //エラー表示
+        error: function(xml){
+            $('.ir').append('<p>読み込み失敗<\/p>');
+        }
+    });
+</script>
+
+<!--[if lt IE 9]><script src="js/html5shiv.js"></script><![endif]-->
+
+<script type="text/javascript">
+ua = navigator.userAgent;
+if((ua.indexOf('iPhone') > -1 || ua.indexOf('iPod') > -1 || ua.indexOf('Android') > -1 || ua.indexOf('Windows Phone') > -1)){
+$('meta[name=viewport]').attr("content",'width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no');
+document.write('<link rel="stylesheet" type="text/css" href="css/sp/common.css" media="only screen and (max-width: 767px)">');
+document.write('<link rel="stylesheet" type="text/css" href="css/sp/index.css" media="only screen and (max-width: 767px)">');
+}else{
+$('meta[name=viewport]').attr("content",'width=1200px');
+document.write('<link rel="stylesheet" type="text/css" href="css/sp/common.css" media="only screen and (max-width: 767px)">');
+document.write('<link rel="stylesheet" type="text/css" href="css/sp/index.css" media="only screen and (max-width: 767px)">');		
+}
+</script>
+
+</head>
+<body>
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-21412484-1', 'auto');
+ga('send', 'pageview');
+
+</script>
+
+<div id="container">
+
+<header>
+	<h1><a href="/index.html"><img src="/img/logo.png" width="207" height="29" alt="丸大食品" class="ro"></a></h1>
+    <ul class="pcCont">
+    	<li><a href="/corporate/inquiry/index.html" target="_blank"><img src="/img/bnt_contact.png" width="91" height="11" alt="お問い合わせ" class="ro"></a></li>
+    	<li><a href="/sitemap/index.html"><img src="/img/bnt_sitemap.png" width="76" height="11" alt="サイトマップ" class="ro"></a></li>
+    </ul>
+    <p class="spCont menuBtn"><a href="#" onClick="return !!false;"><img src="/img/sp/menu.png" width="52" alt="MENU"></a></p>
+</header>
+
+<nav id="nav_menu" class="pcCont">
+    <ul>
+        <li><a href="/products/index.html"><img src="/img/nav01.png" width="197" height="55" alt="商品情報" class="ro"></a></li>
+        <li><a href="/recipe/index.html"><img src="/img/nav02.png" width="195" height="55" alt="おすすめレシピ" class="ro"></a></li>
+        <li><a href="/corporate/index.html" target="_blank"><img src="/img/nav03.png" width="196" height="55" alt="企業情報" class="ro"></a></li>
+        <li><a href="/corporate/activity/index.html" target="_blank"><img src="/img/nav04.png" width="195" height="55" alt="取り組み・活動" class="ro"></a></li>
+        <li><a href="/recruit/index.html" target="_blank"><img src="/img/nav05.png" width="197" height="55" alt="採用情報" class="ro"></a></li>
+    </ul>
+</nav>
+
+<section class="main_img">
+	<div class="wideslider">
+        <ul>
+		<li><a href="https://www.natsugohan.jp" target="_blank"><img src="img/index/main_1707natsugohan.jpg" width="980" height="465" alt="夏ごはんキャンペーン"></a></li>
+		<li><a href="/products/special/summer_gift/2017/index.html" target="_blank"><img src="img/index/main_1705summer.jpg" width="980" height="465" alt="丸大の夏ギフト"></a></li>
+		<li><a href="/products/special/kunseiya/index.html" target="_blank"><img src="img/index/main_1703kunseiya.jpg" width="980" height="465" alt="燻製屋特設サイト"></a></li>
+		<li><a href="/products/special/soondubu/index.html" target="_blank"><img src="img/index/main_1603soondubu.jpg" width="980" height="465" alt="スンドゥブ三昧"></a></li>
+		<li><a href="/products/special/aikatsu/index.html" target="_blank"><img src="img/index/main_1707aikatsu.jpg" width="980" height="465" alt="アイカツ特設サイト"></a></li>
+        <li><a href="/products/special/exaid/index.html" target="_blank"><img src="img/index/main_1707exaid.jpg" width="980" height="465" alt="仮面ライダーエグゼイド特設サイト"></a></li>
+		<li><a href="/products/special/dragonball/index.html" target="_blank"><img src="img/index/main_1705dragon.jpg" width="980" height="465" alt="ドラゴンボール特設サイト"></a></li>
+		
+		<!--
+		<li><a href="/products/special/yokaiwatch/index.html" target="_blank"><img src="img/index/main_1704yokai.jpg" width="980" height="465" alt="妖怪ウォッチ特設サイト"></a></li>
+            <li><a href="/products/special/maruko/index.html" target="_blank"><img src="img/index/main_1608maruko.jpg" width="980" height="465" alt="ちびまるこちゃん特設サイト"></a></li>
+            -->
+            <li><a href="/corporate/index.html" target="_blank"><img src="img/index/main08.jpg" width="980" height="465" alt="企業情報"></a></li>
+        </ul>
+        <ul class="thumb">
+		<li><a href="#1"><img src="img/index/main_1707natsugohan_s.jpg" width="130" height="62" alt="夏ごはんキャンペーン"></a></li>
+		<li><a href="#2"><img src="img/index/main_summer_s.jpg" width="130" height="62" alt="丸大の夏ギフト"></a></li>
+		<li><a href="#3"><img src="img/index/main_1604kunseiya_s.jpg" width="130" height="62" alt="燻製屋特設サイト"></a></li>
+		<li><a href="#4"><img src="img/index/main_1603soondubu_s.jpg" width="130" height="62" alt="スンドゥブ三昧"></a></li>
+		<li><a href="#5"><img src="img/index/main_1707aikatsu_s.jpg" width="130" height="62" alt="アイカツ特設サイト"></a></li>
+        <li><a href="#6"><img src="img/index/main_1610exaid_s.jpg" width="130" height="62" alt="仮面ライダーエグゼイド特設サイト"></a></li>
+		<li><a href="#7"><img src="img/index/main_1602dragon_s.jpg" width="130" height="62" alt="ドラゴンボール特設サイト"></a></li>
+
+		<!--
+            <li><a href="#5"><img src="img/index/main_1704yokai_s.jpg" width="130" height="62" alt="妖怪ウォッチ特設サイト"></a></li>
+            <li><a href="#8"><img src="img/index/main_1608maruko_s.jpg" width="130" height="62" alt="ちびまるこちゃん特設サイト"></a></li>
+          -->  
+            <li><a href="#7"><img src="img/index/main08_s.png" width="130" height="62" alt="企業情報"></a></li>
+        </ul>
+    </div>
+</section>
+
+<!--<section class="caution">
+	<div>
+        <p>重要なお知らせテキスト重要なお知らせテキスト重要なお知らせテキスト重要なお知らせテキスト重要なお知らせテキスト重要なお知らせテキスト重要なお知らせテキスト重要なお知らせテキスト　<a href="#">詳細はこちら</a></p>
+    </div>
+</section>-->
+
+<section class="commodity">
+	<div class="inner clearfix">
+        <h2><img src="img/index/title_commodity.png" width="98" height="22" alt="商品情報"></h2>
+        <ul>
+            <li><a href="CGI/products/item/list.cgi?category=category&cd=0004-0001" class="ro">
+                <img src="img/index/icon_new.png" width="182" alt="新商品" class="pcCont">
+                <img src="img/sp/index/icon_new.png" width="60" alt="新商品" class="spCont"></a>
+            	<p><span>新商品</span></p>
+            </li><!--
+            --><li><a href="products/index.html#cat0001" class="ro">
+                    <img src="img/index/icon_ham.png" width="182" alt="ハム・ソーセージ" class="pcCont">
+                <img src="img/sp/index/icon_ham.png" width="60" alt="ハム・ソーセージ" class="spCont"></a>
+            	<p><span>ハム・<br class="spCont">ソーセージ</span></p>
+            </li><!--
+            --><li><a href="products/index.html#cat0002" class="ro">
+                <img src="img/index/icon_process.png" width="182" alt="加工食品" class="pcCont">
+                <img src="img/sp/index/icon_process.png" width="60" alt="加工食品" class="spCont"></a>
+            	<p><span>加工食品</span></p>
+            </li><!--
+            --><li><a href="products/index.html#cat0003" class="ro">
+                <img src="img/index/icon_dessert.png" width="182" alt="デザート" class="pcCont">
+                <img src="img/sp/index/icon_dessert.png" width="60" alt="デザート" class="spCont"></a>
+            	<p><span>デザート</span></p>
+            </li>
+        </ul>
+        <p class="btn pcCont"><a href="products/"><img src="img/index/btn_commodity.png" width="140" height="35" alt="商品情報TOP" class="ro"></a></p>
+        <p class="btn spCont"><a href="products/"><img src="img/sp/index/btn_commodity.png" width="187" alt="商品情報TOP"></a></p>
+    </div>
+  <img src="img/index/commodity_img.png" width="192" height="93" class="pcCont commodity_img"></section>
+
+<section class="recipe">
+	<div class="inner clearfix">
+        <h2><img src="img/index/title_recipe.png" width="156" height="22" alt="おすすめレシピ"></h2>
+        <div class="week clearfix">
+        	<p><img src="img/index/icon_osusume.png" width="101" height="101" alt="今週のおすすめ" class="w_osusume"></p>
+        	<a href="http://www.marudai.jp/CGI/recipe/detail.cgi?rcp_cd=1074"><img src="img/index/osusume_img.jpg" width="250" alt="うすいえんどう豆とベーコンロールのフランス風" class="ro photo">
+        	<p class="txt">うすいえんどう豆とベーコンロールのフランス風</p>
+</a>
+            <img src="img/index/photo_kado.png" width="28" height="27" alt="" class="kado">        </div>
+        <div class="osusume">
+        	<div class="title">
+            	<img src="img/index/recipe_img01.png" width="66" height="52" alt=""><img src="img/index/recipe_title.png" width="334" height="34" alt="今が旬! おすすめレシピ" class="pcCont"><img src="img/sp/index/recipe_title.png" height="26" alt="今が旬! おすすめレシピ" class="spCont"><img src="img/index/recipe_img02.png" width="66" height="52" alt="">            </div>
+            <ul class="rank clearfix">
+
+<li><a href="http://www.marudai.jp/CGI/recipe/detail.cgi?rcp_cd=0911" class="ro">
+                	<img src="/img/index/no1.png" width="20" height="20" alt="1" class="rank">
+<img src="img/index/rank_img01.jpg" width="106" alt="厚切りベーコンサンドイッチ" class="photo">
+                    <p>厚切りベーコンサンドイッチ</p>
+                </a></li>
+            	<li><a href="http://www.marudai.jp/CGI/recipe/detail.cgi?rcp_cd=0973" class="ro">
+                	<img src="/img/index/no2.png" width="20" height="20" alt="2" class="rank">
+                    <img src="img/index/rank_img02.jpg" width="106" alt="しょうがチキンの甘酢あんかけ" class="photo">
+                    <p>しょうがチキンの甘酢あんかけ</p>
+                </a></li>
+            	<li><a href="http://www.marudai.jp/CGI/recipe/detail.cgi?rcp_cd=0744" class="ro">
+                	<img src="/img/index/no3.png" width="20" height="20" alt="3" class="rank">
+                    <img src="img/index/rank_img03.jpg" width="106" alt="五目そうめん" class="photo">
+                    <p>五目そうめん</p>
+                </a></li>
+            	<li class="pcCont"><a href="http://www.marudai.jp/CGI/recipe/detail.cgi?rcp_cd=1018" class="ro">
+                	<img src="/img/index/no4.png" width="20" height="20" alt="4" class="rank">
+                    <img src="img/index/rank_img04.jpg" width="106" alt="ロングウインナーで縁取った目玉焼きのガパオライス" class="photo">
+                    <p>ロングウインナーで縁取った目玉焼きのガパオライス</p>
+                </a></li>
+            	<li class="pcCont"><a href="http://www.marudai.jp/CGI/recipe/detail.cgi?rcp_cd=0856" class="ro">
+               <img src="/img/index/no5.png" width="20" height="20" alt="5" class="rank">
+                    <img src="img/index/rank_img05.jpg" width="106" alt="トマトとソフトサラミのマリネサラダ" class="photo">
+                    <p>トマトとソフトサラミのマリネサラダ</p>
+                </a></li>
+            </ul>
+            <form name="form1" method="post" action="/CGI/recipe/search.cgi">
+                <input type="text" name="keyword" class="text" placeholder="料理名、食材、商品名"><input name="" type="image" src="img/index/recipe_search.png" width="82" height="39" alt="検索" class="ro">
+            </form>
+            <dl>
+            	<dt>おすすめ検索ワード：</dt>
+                <dd>
+                	<ul>
+<li><a href="http://www.marudai.jp/CGI/recipe/search.cgi?keyword=%83%60%83%83%81%5b%83n%83%93">チャーハン</a></li>                    
+<li><a href="http://www.marudai.jp/CGI/recipe/search.cgi?keyword=%82%b2%82%cd%82%f1">ごはん</a></li>
+<li><a href="http://www.marudai.jp/CGI/recipe/search.cgi?keyword=%83T%83%89%83_">サラダ</a></li>
+<li><a href="http://www.marudai.jp/CGI/recipe/search.cgi?keyword=%e0%8e%90%bb%89%ae">燻製屋</a></li>
+<li><a href="http://www.marudai.jp/CGI/recipe/search.cgi?keyword=%83n%83%80">ハム</a></li>
+                        
+
+                        
+                    </ul>
+                </dd>
+            </dl>
+        	<img src="img/index/recipe_img03.png" width="186" height="149" alt="今日は何を作りましょう？" class="chara">        </div>
+        <p class="btn pcCont"><a href="recipe/"><img src="img/index/btn_recipe.png" width="140" height="35" alt="レシピTOP" class="ro"></a></p>
+        <p class="btn spCont"><a href="recipe/"><img src="img/sp/index/btn_recipe.png" width="187" alt="レシピTOP"></a></p>
+    </div>
+</section>
+
+<section class="info_area">
+	<section class="news">
+    	<h2><img src="img/index/title_news.png" width="82" height="17" alt="ニュース"></h2>
+        <div class="box">
+        	<ul>
+            	<li class="tab_new"><a href="javascript:void(0)" class="active ro">更新情報</a></li>
+            	<li class="tab_ir"><a href="javascript:void(0)" class="ro">IRニュース</a></li>
+            </ul>
+        	<div class="new tabCont">
+            <dl>
+			<dt>2017.8.21<span class="rec">レシピ</span></dt>
+            <dd><a href="http://www.marudai.jp/CGI/recipe/detail.cgi?rcp_cd=1074">今週のおすすめレシピ更新</a></dd>
+			<dt>2017.8.14<span class="rec">レシピ</span></dt>
+            <dd><a href="http://www.marudai.jp/CGI/recipe/detail.cgi?rcp_cd=1073">今週のおすすめレシピ更新</a></dd>
+			<dt>2017.8.07<span class="rec">レシピ</span></dt>
+            <dd><a href="http://www.marudai.jp/CGI/recipe/detail.cgi?rcp_cd=1072">今週のおすすめレシピ更新</a></dd>
+			<dt>2017.8.04<span class="pro">商品情報</span></dt>
+            <dd><a href="/news/index_170804.pdf" target="_blank">2017年　秋季新商品を発売</a></dd>
+			<dt>2017.7.24<span class="rec">レシピ</span></dt>
+            <dd><a href="http://www.marudai.jp/CGI/recipe/detail.cgi?rcp_cd=1070">今週のおすすめレシピ更新</a></dd>
+			<dt>2017.7.18<span class="rec">レシピ</span></dt>
+            <dd><a href="http://www.marudai.jp/CGI/recipe/detail.cgi?rcp_cd=1069">今週のおすすめレシピ更新</a></dd>
+			<dt>2017.7.10<span class="rec">レシピ</span></dt>
+            <dd><a href="http://www.marudai.jp/CGI/recipe/detail.cgi?rcp_cd=1068">今週のおすすめレシピ更新</a></dd>
+			<dt>2017.7.3<span class="rec">レシピ</span></dt>
+            <dd><a href="http://www.marudai.jp/CGI/recipe/detail.cgi?rcp_cd=1067">今週のおすすめレシピ更新</a></dd>
+			<dt>2017.6.30<span class="cam">キャンペーン</span></dt>
+            <dd><a href="https://www.natsugohan.jp" target="_blank">夏ごはんキャンペーン特設サイト開設</a></dd>
+			<dt>2017.6.30<span class="pro">商品情報</span></dt>
+            <dd><a href="/news/index_170630.pdf" target="_blank">ウルトラマンジードフィッシュソーセージ　新発売！</a></dd>
+			<dt>2017.6.27<span class="pro">商品情報</span></dt>
+            <dd><a href="/products/special/aikatsu/" target="_blank">アイカツスターズ！ 特設サイト更新</a></dd>
+			<dt>2017.6.26<span class="rec">レシピ</span></dt>
+            <dd><a href="http://www.marudai.jp/CGI/recipe/detail.cgi?rcp_cd=1066">今週のおすすめレシピ更新</a></dd>
+			<dt>2017.6.19<span class="pro">商品情報</span></dt>
+            <dd><a href="/news/index_170619.pdf" target="_blank">阪神タイガースフィッシュソーセージ　新発売!!</a></dd>
+			<dt>2017.6.19<span class="rec">レシピ</span></dt>
+            <dd><a href="http://www.marudai.jp/CGI/recipe/detail.cgi?rcp_cd=1065">今週のおすすめレシピ更新</a></dd>
+			<dt>2017.6.12<span class="rec">レシピ</span></dt>
+            <dd><a href="http://www.marudai.jp/CGI/recipe/detail.cgi?rcp_cd=1064">今週のおすすめレシピ更新</a></dd>
+			<dt>2017.6.05<span class="rec">レシピ</span></dt>
+            <dd><a href="http://www.marudai.jp/CGI/recipe/detail.cgi?rcp_cd=1063">今週のおすすめレシピ更新</a></dd>
+			<dt>2017.5.29<span class="rec">レシピ</span></dt>
+            <dd><a href="http://www.marudai.jp/CGI/recipe/detail.cgi?rcp_cd=1062">今週のおすすめレシピ更新</a></dd>
+			<dt>2017.5.23<span class="pro">商品情報</span></dt>
+            <dd><a href="/products/special/summer_gift/2017/index.html">2017年「丸大の夏ギフト」のご案内</a></dd>
+			<dt>2017.5.23<span class="rec">レシピ</span></dt>
+            <dd><a href="http://www.marudai.jp/CGI/recipe/detail.cgi?rcp_cd=1061">今週のおすすめレシピ更新</a></dd>
+			<dt>2017.5.15<span class="rec">レシピ</span></dt>
+            <dd><a href="http://www.marudai.jp/CGI/recipe/detail.cgi?rcp_cd=1060">今週のおすすめレシピ更新</a></dd>
+			<dt>2017.5.08<span class="pro">商品情報</span></dt>
+            <dd><a href="/products/special/dragonball/" target="_blank">ドラゴンボール超（スーパー）特設サイト更新</a></dd>
+			<dt>2017.5.08<span class="rec">レシピ</span></dt>
+            <dd><a href="http://www.marudai.jp/CGI/recipe/detail.cgi?rcp_cd=1059">今週のおすすめレシピ更新</a></dd>
+			<dt>2017.5.02<span class="pro">商品情報</span></dt>
+            <dd><a href="/products/special/summer_gift/2017/dessert.html">2017年「丸大の夏ギフト（デザート・スープ・カレー）」のご案内</a></dd>
+			<dt>2017.4.24<span class="rec">レシピ</span></dt>
+            <dd><a href="http://www.marudai.jp/CGI/recipe/detail.cgi?rcp_cd=1058">今週のおすすめレシピ更新</a></dd>
+			<dt>2017.4.20<span class="cam">キャンペーン</span></dt>
+            <dd>湘南ピッツェリアキャンペーン特設サイト開設</dd>
+			<dt>2017.4.17<span class="rec">レシピ</span></dt>
+            <dd><a href="http://www.marudai.jp/CGI/recipe/detail.cgi?rcp_cd=1057">今週のおすすめレシピ更新</a></dd>
+			<dt>2017.4.10<span class="rec">レシピ</span></dt>
+            <dd><a href="http://www.marudai.jp/CGI/recipe/detail.cgi?rcp_cd=1056">今週のおすすめレシピ更新</a></dd>
+			<dt>2017.4.03<span class="pro">商品情報</span></dt>
+            <dd><a href="/products/special/exaid/" target="_blank">仮面ライダーエグゼイド 特設サイト更新</a></dd>
+			<dt>2017.4.03<span class="pro">商品情報</span></dt>
+            <dd><a href="/products/special/aikatsu/" target="_blank">アイカツスターズ！ 特設サイト更新</a></dd>
+			<dt>2017.4.03<span class="rec">レシピ</span></dt>
+            <dd><a href="http://www.marudai.jp/CGI/recipe/detail.cgi?rcp_cd=1055">今週のおすすめレシピ更新</a></dd>
+			<dt>2017.3.31<span class="cam">キャンペーン</span></dt>
+            <dd>わんぱく外ごはんキャンペーン特設サイト開設</dd>
+			<dt>2017.3.27<span class="rec">レシピ</span></dt>
+            <dd><a href="http://www.marudai.jp/CGI/recipe/detail.cgi?rcp_cd=1054">今週のおすすめレシピ更新</a></dd>
+			<dt>2017.3.21<span class="rec">レシピ</span></dt>
+            <dd><a href="http://www.marudai.jp/CGI/recipe/detail.cgi?rcp_cd=1053">今週のおすすめレシピ更新</a></dd>
+			<dt>2017.3.13<span class="rec">レシピ</span></dt>
+            <dd><a href="http://www.marudai.jp/CGI/recipe/detail.cgi?rcp_cd=1052">今週のおすすめレシピ更新</a></dd>
+			<dt>2017.3.06<span class="rec">レシピ</span></dt>
+            <dd><a href="http://www.marudai.jp/CGI/recipe/detail.cgi?rcp_cd=1051">今週のおすすめレシピ更新</a></dd>
+			<dt>2017.2.27<span class="rec">レシピ</span></dt>
+            <dd><a href="http://www.marudai.jp/CGI/recipe/detail.cgi?rcp_cd=1050">今週のおすすめレシピ更新</a></dd>
+			<dt>2017.2.20<span class="rec">レシピ</span></dt>
+            <dd><a href="http://www.marudai.jp/CGI/recipe/detail.cgi?rcp_cd=1049">今週のおすすめレシピ更新</a></dd>
+            <dt>2017.2.13<span class="rec">レシピ</span></dt>
+            <dd><a href="http://www.marudai.jp/CGI/recipe/detail.cgi?rcp_cd=1048">今週のおすすめレシピ更新</a></dd>
+            <dt>2017.2.10<span class="pro">商品情報</span></dt>
+            <dd><a href="/news/index_170213.pdf" target="_blank">2017年　春季新商品を発売</a></dd>
+            <dt>2017.2.06<span class="rec">レシピ</span></dt>
+            <dd><a href="http://www.marudai.jp/CGI/recipe/detail.cgi?rcp_cd=1047">今週のおすすめレシピ更新</a></dd>
+            <dt>2017.2.01<span class="cam">キャンペーン</span></dt>
+            <dd>朝ごはんプレゼントキャンペーン特設サイト開設</dd>
+            <dt>2017.1.30<span class="cam">キャンペーン</span></dt>
+            <dd><a href="/products/special/exaid/" target="_blank">仮面ライダーエグゼイド キャンペーン特設サイト開設</a></dd>
+            <dt>2017.1.30<span class="rec">レシピ</span></dt>
+            <dd><a href="http://www.marudai.jp/CGI/recipe/detail.cgi?rcp_cd=1046">今週のおすすめレシピ更新</a></dd>
+            <dt>2017.1.23<span class="pro">商品情報</span></dt>
+            <dd><a href="/news/index_170123.pdf" target="_blank">「仮面ライダーエグゼイド　プレゼントキャンペーン」を実施</a></dd>
+            <dt>2017.1.23<span class="rec">レシピ</span></dt>
+            <dd><a href="http://www.marudai.jp/CGI/recipe/detail.cgi?rcp_cd=1045">今週のおすすめレシピ更新</a></dd>
+            <dt>2017.1.16<span class="rec">レシピ</span></dt>
+            <dd><a href="http://www.marudai.jp/CGI/recipe/detail.cgi?rcp_cd=1044">今週のおすすめレシピ更新</a></dd>
+            <dt>2017.1.10<span class="rec">レシピ</span></dt>
+            <dd><a href="http://www.marudai.jp/CGI/recipe/detail.cgi?rcp_cd=1043">今週のおすすめレシピ更新</a></dd>
+            <dt>2016.12.28<span class="pro">商品情報</span></dt>
+            <dd><a href="/products/special/exaid/" target="_blank">仮面ライダーエグゼイド 特設サイト更新</a></dd>
+            <dt>2016.12.26<span class="rec">レシピ</span></dt>
+            <dd><a href="http://www.marudai.jp/CGI/recipe/detail.cgi?rcp_cd=1040">今週のおすすめレシピ更新</a></dd>
+            <dt>2016.12.19<span class="rec">レシピ</span></dt>
+            <dd><a href="http://www.marudai.jp/CGI/recipe/detail.cgi?rcp_cd=1039">今週のおすすめレシピ更新</a></dd>
+            <dt>2016.12.12<span class="cam">キャンペーン</span></dt>
+            <dd>必勝合格キャンペーン特設サイト開設</dd>
+            <dt>2016.12.12<span class="pro">商品情報</span></dt>
+            <dd><a href="/products/special/aikatsu/index.html" target="_blank">「アイカツスターズ!」ソーセージ リニューアル発売!＆特設サイト更新</a></dd>
+            <dt>2016.12.12<span class="rec">レシピ</span></dt>
+            <dd><a href="http://www.marudai.jp/CGI/recipe/detail.cgi?rcp_cd=1038">今週のおすすめレシピ更新</a></dd>
+            <dt>2016.12.10<span class="oth">その他</span></dt>
+            <dd><a href="/news/index_161210.pdf" target="_blank">お詫びとお知らせ</a></dd>
+            <dt>2016.12.05<span class="rec">レシピ</span></dt>
+            <dd><a href="http://www.marudai.jp/CGI/recipe/detail.cgi?rcp_cd=1037">今週のおすすめレシピ更新</a></dd>
+            
+            </dl>
+                <p class="btn"><a href="bknumber/" class="ro">一覧を見る</a></p>
+            </div>
+        	<div class="ir tabCont">
+                <p class="btn"><a href="/corporate/ir/newslist.html" target="_blank" class="ro">一覧を見る</a></p>
+            </div>
+        </div>
+    </section>
+    <div class="right">
+        <section class="info">
+        	<h2 class="pcCont"><img src="img/index/title_info.png" width="78" height="18" alt="企業情報">
+            <span><a href="corporate/" target="_blank"><img src="img/index/btn.png" width="136" height="31" alt="企業情報TOP" class="ro"></a></span></h2>
+        	<h2 class="spCont"><a href="corporate/" target="_blank"><img src="img/index/title_info.png" width="78" height="18" alt="企業情報"></a></h2>
+<div class="box clearfix">
+            	<img src="img/index/info_img.jpg" width="124" height="100" alt="丸大食品外観">
+                <ul class="jq_tile_sp">
+                	<li><a href="corporate/company/" target="_blank">企業情報</a></li>
+                	<li><a href="corporate/ir/" target="_blank">IR情報</a></li>
+                	<li><a href="corporate/development/" target="_blank">商品開発</a></li>
+                	<li><a href="corporate/activity/" target="_blank">取り組み・活動</a></li>
+                	<li><a href="corporate/inquiry/" target="_blank">お問い合わせ</a></li>
+                </ul>
+            </div>
+        </section>
+        <section class="approach">
+        	<h2><img src="img/index/title_approach.png" width="202" height="18" alt="安全・安心への取り組み"></h2>
+            <div class="box clearfix">
+            	<img src="img/index/approach_img.jpg" width="124" height="100" alt="丸大食品外観">
+                <ul class="jq_tile_sp">
+                	<li><a href="corporate/activity/environment/" target="_blank">環境への取り組み</a></li>
+                	<li><a href="corporate/activity/security/" target="_blank">安全・安心への取り組み</a></li>
+                	<li><a href="corporate/activity/contribution/contribution.html" target="_blank">社会貢献活動</a></li>
+                	<li><a href="corporate/activity/rd/index.html" target="_blank">研究・開発への取り組み</a></li>
+                	<li class="spCont"><a href="traceability/" class="ro">牛トレーサビリティ情報</a></li>
+                </ul>
+                <p class="btn pcCont"><a href="traceability/" class="ro">牛トレーサビリティ情報</a></p>
+            </div>
+        </section>
+    </div>
+</section>
+
+<section class="f_slider">
+	<div class="inner">
+        <ul class="slider">
+		<li><a href="https://www.natsugohan.jp" target="_blank"><span><img src="/img/s_bnr_natsugohan.jpg" width="163" alt="夏ごはんキャンペーン" class="ro"></span></a></li>
+		<li><a href="http://campaign.skwea.co.jp/" target="_blank"><span><img src="/img/s_bnr_cp_alpen.jpg" width="163" alt="アルペンザルツキャンペーン" class="ro"></span></a></li>
+		<li><a href="/products/special/yokaiwatch/index.html" target="_blank"><span><img src="/img/s_bnr_yokai.jpg" width="163" alt="妖怪ウォッチ" class="ro"></span></a></li>
+		<li><a href="/products/special/maruko/index.html" target="_blank"><span><img src="/img/s_bnr_maruko.jpg" width="163" alt="ちびまるこちゃん特設サイト" class="ro"></span></a></li>
+		<li><a href="/bknumber/2016/100927.html"><span><img src="/img/s_bnr04.jpg" width="163" alt="調査モニター" class="ro"></span></a></li>
+		<!--<li><a href="/products/special/kunseiya/index.html" target="_blank"><span><img src="/img/s_bnr_kunseiya.jpg" width="163" alt="燻製屋特設サイト" class="ro"></span></a></li>
+        <li><a href="/products/special/exaid/index.html" target="_blank"><span><img src="/img/s_bnr_exaid.jpg" width="163" alt="仮面ライダー特設サイト" class="ro"></span></a></li>
+		
+		<li><a href="/products/special/aikatsu/index.html" target="_blank"><span><img src="/img/s_bnr_aikatsu.jpg" width="163" alt="アイカツ特設サイト" class="ro"></span></a></li>
+        <li><a href="/products/special/dragonball/index.html" target="_blank"><span><img src="/img/s_1602dragon.jpg" width="163" alt="ドラゴンボール特設サイト" class="ro"></span></a></li> 
+            
+  <li><a href="/products/special/soondubu/index.html" target="_blank"><span><img src="/img/s_bnr_soondubu.jpg" width="163" alt="スンドゥブ三昧" class="ro"></span></a></li>          
+ 
+            li><a href="/shokuiku/" target="_blank"><span><img src="/img/s_bnr05.jpg" width="163" height="69" alt="食育ナビ" class="ro"></span></a></li-->
+            <li><a href="http://www.alpensalz.co.jp/" target="_blank"><span><img src="/img/s_bnr06.jpg" width="163" alt="アルペンザルツ" class="ro"></span></a></li>
+            <li><a href="/traceability/"><span><img src="/img/s_bnr07.jpg" width="163" alt="牛トレーサビリティ" class="ro"></span></a></li>
+        </ul>
+    </div>
+</section>
+
+<footer>
+	<div class="link">
+    	<div class="box">
+        	<p><a href="/products/index.html">商品情報</a></p>
+        	<ul class="pcCont">
+            	<li><a href="/CGI/products/item/list.cgi?category=category&cd=0004-0001">新商品情報</a></li>
+            	<li><a href="/products/index.html#category">カテゴリから探す</a></li>
+            	<li><a href="/products/index.html#brand">ブランドから探す</a></li>
+            </ul>
+        </div>
+    	<div class="box">
+        	<p><a href="/recipe/index.html">おすすめレシピ</a></p>
+        	<ul class="pcCont">
+            	<li><a href="/recipe/index.html#new_lineup">新着レシピ</a></li>
+            	<li><a href="/recipe/index.html#category">レシピカテゴリから探す</a></li>
+            	<li><a href="/recipe/index.html#lineup">商品から探す</a></li>
+            	<li><a href="/recipe/index.html#food">食材から探す</a></li>
+            </ul>
+        </div>
+    	<div class="box">
+        	<p class="blank"><a href="/corporate/activity/index.html" target="_blank">丸大食品の取り組み・活動</a></p>
+        	<p class="blank"><a href="/corporate/qa.html" target="_blank">商品についてのQ&amp;A</a></p>
+        	<p class="blank"><a href="/corporate/inquiry/index.html" target="_blank">お問い合わせ</a></p>
+        	<p class="spCont">&nbsp;</p>
+        	<p class="blank"><a href="/corporate/company/index.html" target="_blank">企業情報</a></p>
+        	<p class="blank"><a href="/recruit/index.html" target="_blank">採用情報</a></p>
+        </div>
+    	<div class="box">
+        	<ul>
+            	<li class="blank"><a href="/corporate/policy/privacy.html" target="_blank">プライバシーポリシー</a></li>
+            	<li class="blank"><a href="/corporate/policy/site.html" target="_blank">サイトポリシー</a></li>
+            	<li><a href="/sitemap/index.html">サイトマップ</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="copy">
+    	<div class="inner">
+            <p class="logo"><a href="/index.html"><img src="/img/logo.png" width="189" height="27" alt="丸大食品" class="ro"></a></p>
+            <p class="txt">Copyright &copy; 2016 Marudai Food Co.,Ltd. All rights reserved.</p>
+      </div>
+    </div>
+</footer>
+<p class="pagetop"><a href="#container"><img src="/img/pagetop.png" width="46" height="46" alt="▲" class="ro"></a></p>
+
+</div><!-- /container -->
+
+<div id="spMenuOverlay"></div>
+
+<div id="spMenu">
+<div class="inner">
+    <div class="close"><a href="#" onClick="return !!false;"><img src="/img/sp/close.png" width="52" alt="CLOSE"></a></div>
+    <nav>
+    	<ul>
+            <li><a href="/index.html">トップページ</a></li>
+            <li><a href="/products/index.html">商品情報</a></li>
+            <li><a href="/recipe/index.html">おすすめレシピ</a></li>
+            <li class="blank"><a href="/corporate/company/index.html" target="_blank">企業情報</a></li>
+            <li class="blank"><a href="/corporate/activity/index.html" target="_blank">取り組み・活動</a></li>
+            <li class="blank"><a href="/recruit/" target="_blank">採用情報</a></li>
+            <li class="blank"><a href="/corporate/inquiry/index.html" target="_blank">お問い合わせ</a></li>
+            <li><a href="/sitemap/index.html">サイトマップ</a></li>
+        </ul>
+    </nav>
+    <p class="close02"><a href="#" onClick="return !!false;"><img src="/img/sp/close02.png" width="66" alt="閉じる"></a></p>
+</div>
+</div><!-- /spMenu -->
+
+</body>
+</html>

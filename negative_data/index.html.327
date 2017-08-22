@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>株式会社メディネット</title>
+<meta charset="utf-8">
+<meta name="description" content="メディネットは、特定細胞加工物製造受託(CMO)や再生医療等製品/治験製品の開発・製造受託(CDMO)等を行うトータルソリューション・プロバイダーです。">
+<meta name="keywords" content="メディネット,ＭＥＤＩＮＥＴ,免疫細胞治療,免疫療法,免疫,先端医療,先進医療,がん,がん治療,ガン,癌,自己がん細胞バンク,がんバンク,細胞加工,細胞培養,バイオ,オーダーメイド医療,新横浜,CDMO,CMO,再生医療,再生・細胞医療,細胞医療,再生医療製品,特定細胞加工物,再生医療等製品,治験製品">
+<meta name="viewport" content="width=device-width, maximum-scale=1.0, user-scalable=yes">
+<meta name="format-detection" content="telephone=no">
+<meta name="robots" content="INDEX,FOLLOW">
+<link rel="stylesheet" href="./css/reset.css">
+<link rel="stylesheet" href="./css/layout.css">
+<link rel="stylesheet" href="./css/content.css">
+<link rel="stylesheet" href="./css/index.css">
+<!--[if lt IE 9 ]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script><![endif]-->
+<link rel="shortcut icon" href="https://www.medinet-inc.co.jp/favicon.ico" type="image/x-icon" >
+<link rel="icon" href="https://www.medinet-inc.co.jp/favicon.ico" type="image/vnd.microsoft.icon">
+</head>
+
+<body id="top" class="nojs">
+    <header id="header">
+        <div class="header_primary">
+            <div class="siteroot">
+                <h1 class="siteroot_body"><span class="visibilittyHidden">MEDINET | Emerging Bio-medical Technology</span></h1>
+            </div>
+            <div class="header_guides">
+                <p class="header_guides_item header_guides_item--sitemap"><a href="./sitemap/">サイトマップ</a></p>
+                <p class="header_guides_item header_guides_item--lang"><a href="./english/">ENGLISH</a></p>
+            </div>
+        </div>
+        <div class="header_secondary">
+            <div class="header_util">
+                <div class="font">
+                    <p class="font_heading" id="fontsize_reset">文字サイズ</p>
+                    <ul class="font_switcher">
+                        <li class="font_switcher_item"><a href="javascript:void(0)" id="fontsize_add"><span>大きく</span></a></li>
+                        <li class="font_switcher_item"><a href="javascript:void(0)" id="fontsize_minus"><span>小さく</span></a></li>
+                    </ul>
+                </div>
+                <div class="search">
+                    <form action="./search" method="get">
+                        <input type="text" name="q" class="font_normalizer">
+                        <button type="submit"><span class="visibilittyHidden">検索</span></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="header_tertiary">
+            <nav class="globalNav">
+                <div class="globalNav_items">
+                    <a href="./why_medinet/" class="globalNav_item" data-nav-id="0">選ばれている理由</a>
+                    <a href="./service/" class="globalNav_item" data-nav-id="1">提供サービス</a>
+                    <a href="./facility_capabilities/" class="globalNav_item" data-nav-id="2">製造拠点・体制</a>
+                    <a href="./aboutus/" class="globalNav_item" data-nav-id="3">企業情報</a>
+                    <a href="./ir/" class="globalNav_item" data-nav-id="4">株主・投資家情報</a>
+                    <a href="./adopt/" class="globalNav_item" data-nav-id="5">採用情報</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div id="main_visual">
+        <article class="tout js-carousel" data-autoplay="true" data-ghost="1">
+            <h1><span class="visibilittyHidden">MEDINET</span></h1>
+            <div class="tout_inner js-carousel-inner">
+                <div class="tout_viewer js-carousel-viewer">
+                    <div class="tout_body js-carousel-body">
+                        <div class="tout_item tout_item--01 js-carousel-item">
+                            <div class="tout_section">
+                                <div class="tout_section_inner">
+                                    <h2 class="tout_section_heading"><span class="visibilittyHidden">思いをつなぎ、一歩先のできるへ。</span></h2>
+                                    <p class="tout_section_button"><a href="./why_medinet/">選ばれている理由</a></p>
+                                </div>
+                            </div>
+                            <div class="tout_image"><img src="./img/img_tout_01.png" alt="選ばれている理由　イメージ" /></div>
+                        </div>
+                        <div class="tout_item tout_item--02 js-carousel-item">
+                            <div class="tout_section">
+                                <div class="tout_section_inner">
+                                    <h2 class="tout_section_heading"><span class="visibilittyHidden">再生・細胞医療をワンストップで<br>&mdash;メディネットの「トータルソリューション」</span></h2>
+                                    <p class="tout_section_button"><a href="./service/">提供サービス</a></p>
+                                </div>
+                            </div>
+                            <div class="tout_image"><img src="./img/img_tout_02.png" alt="提供サービス　イメージ" /></div>
+                        </div>
+                        <div class="tout_item tout_item--03 js-carousel-item">
+                            <div class="tout_section">
+                                <div class="tout_section_inner">
+                                    <h2 class="tout_section_heading"><span class="visibilittyHidden">再生・細胞医療のトータルソリューションを<br>実現するメディネットの「施設」と「人材」</span></h2>
+                                    <p class="tout_section_button"><a href="./facility_capabilities/">製造拠点・体制</a></p>
+                                </div>
+                            </div>
+                            <div class="tout_image"><img src="./img/img_tout_03.png" alt="製造拠点・体制　イメージ" /></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </div>
+    <div id="front_content">
+        <div id="front_main">
+            <section class="n1">
+                <div class="n1_inner">
+                    <header class="n1_header">
+                        <h2 class="n1_heading"><span>提供サービス</span></h2>
+                    </header>
+                    <div class="n1_body">
+                        <div class="services">
+                            <div class="services_inner">
+                                <div class="services_row">
+                                    <div class="servies_item servies_item--featured">
+                                        <div class="immunecell">
+                                            <div class="immunecell_394">
+                                                <h3 class="services_heading"><i class="ico-function"></i>免疫細胞治療用細胞加工受託</h3>
+                                                <p class="services_detail">免疫細胞治療に用いる細胞の加工を受託します。また、メディネットが開発した免疫細胞治療の細胞加工技術の導入を支援します。</p>
+                                                <p class="services_toDetail"><a href="./service/#sect02-02">詳しく見る</a></p>
+                                            </div>
+                                            <div class="immunecell_240">
+                                                <h4 class="immunecell_heading">免疫細胞治療とは</h4>
+                                                <figure><img src="img/img_immunecell.png" width="240" height="389" alt=""></figure>
+                                                <p class="immunecell_toDetail"><a href="./service/immune_cell_therapy/">詳しく見る</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="servies_item">
+                                        <h3 class="services_heading"><i class="ico-function"></i>特定細胞加工物製造受託</h3>
+                                        <p class="services_detail">体細胞、体性幹細胞、人工多能性幹細胞などを用いた再生・細胞医療を実施されるお客様より、特定細胞加工物の製造を受託します。</p>
+                                        <p class="services_toDetail"><a href="./service/#sect02-01">詳しく見る</a></p>
+                                    </div>
+                                </div>
+                                <div class="services_row">
+                                    <div class="servies_item">
+                                        <h3 class="services_heading"><i class="ico-bottle"></i>再生医療等製品/治験製品製造受託</h3>
+                                        <p class="services_detail">「医薬品医療機器等法」で新たに規定された再生医療等製品や治験製品の開発・製造を受託します。</p>
+                                        <p class="services_toDetail"><a href="./service/#sect03">詳しく見る</a></p>
+                                    </div>
+                                    <div class="servies_item">
+                                        <h3 class="services_heading"><i class="ico-human"></i>お客様の施設運営サポート</h3>
+                                        <p class="services_detail">お客様の細胞培養加工施設の運営管理や細胞加工技術者派遣など、お客様がスムーズに再生・細胞医療を行えるよう支援します。</p>
+                                        <p class="services_toDetail"><a href="./service/#sect04">詳しく見る</a></p>
+                                    </div>
+                                    <div class="servies_item">
+                                        <h3 class="services_heading"><i class="ico-building"></i>自己がん組織バンク</h3>
+                                        <p class="services_detail">将来のがん治療に備えて、がんの手術などで摘出した患者さんのがん組織を無償でお預かりします。</p>
+                                        <p class="services_toDetail"><a href="./service/#sect05">詳しく見る</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="n2">
+                <div class="n2_inner">
+                    <h2 class="n2_heading"><span class="visibilittyHidden">当社契約医療機関</span></h2>
+                    <p>
+                        <a href="./facility/"><img src="img/banner_institute.png" width="600" height="100" alt="当社技術による免疫細胞治療を行っている全国の医療機関をご紹介します。"></a>
+                    </p>
+                </div>
+            </section>
+            <section class="n3">
+                <div class="n3_inner">
+                    <header class="n3_header">
+                        <h2 class="n3_heading">新着情報</h2>
+                        <ul class="n3_util">
+                            <li class="n3_util_item n3_util_item--01"><a href="https://ssl4.eir-parts.net/V4Public/EIR/2370/ja/announcement/announcement_17.xml" target="_blank">RSS2.0</a></li>
+                            <li class="n3_util_item n3_util_item--02"><a href="http://v4.eir-parts.net/Custom/public/parts/rss/whatisRss.htm" target="_blank">RSSとは？</a></li>
+                        </ul>
+                    </header>
+                    <div class="n3_body">
+                        <div class="n3_tab js-tab" id="nav_001">
+                            <!-- E-IR Parts -->
+                            <ul class="n3_tab_controller" id="tab"></ul>
+                            <div class="n3_tab_container" id="ir_librarytop">
+                                <section class="n3_tab_item">
+                                    <h3><span class="visibilittyHidden">新着情報詳細</span></h3>                                    
+                                    <div id="eirArea"></div>
+                                    <script type="text/javascript" src="/ir/eir/eir.js" charset="utf-8"></script>
+                                    <script type="text/javascript">
+                                    var eirUrl = ('https:' == document.location.protocol ? 'https://ssl4' : 'http://v4') + '.eir-parts.net';
+                                    if(document.location.protocol == 'https:' || document.location.protocol == 'http:'){
+                                        var eirPass = eirUrl + '/Custom/public/parts/' + eirCode + '/' + uniCodeEir + '/parts/';
+                                    }else{
+                                        var eirPass = '/' + eirCode + '/' + uniCodeEir + '/parts/';
+                                    }
+                                    document.write(unescape("%3Cscript src='" + eirPass + "junction.js' charset='utf-8' type='text/javascript'%3E%3C/script%3E"));
+                                    </script>
+                                    <script type="text/javascript">
+                                    if(typeof eirFlg == 'undefined'){
+                                        document.write(message)
+                                    }
+                                    else{
+                                        setParts('top');
+                                    }
+                                    </script>                                     
+                                </section>
+                            </div>
+                            <!-- /E-IR Parts -->
+                        </div>
+                        <p class="whatsnew_toArchive"><a href="./news/">過去のニュースを見る</a></p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <footer id="footer">
+        <section class="footer_banner">
+            <h2><span class="visibilittyHidden">バナー</span></h2>
+            <div class="footer_banner_inner">
+                <div class="footer_banner_body">
+                    <a href="./contact/" class="footer_banner_item footer_banner_item--01"><span>お問い合わせ</span><i></i></a>
+                    <a href="http://gan-bank.com/" class="footer_banner_item footer_banner_item--02" target="_blank"><span>自己がん組織バンク</span><i></i></a>
+                    <a href="https://www.cell-pro.jp/" class="footer_banner_item footer_banner_item--03" target="_blank"><span>「再生・細胞医療」<br>特設サイト</span><i></i></a>
+                    <a href="http://immuno-pro.jp/" class="footer_banner_item footer_banner_item--04" target="_blank"><span>医療関係者向けサイト　<span class="immunopro">Immuno-Pro<i>[イムノプロ]</i></span></span><i></i></a>
+                </div>
+            </div>
+        </section>
+        <div class="backtotop"><a href="#top"><span class="visibilittyHidden">トップに戻る</span></a></div>
+        <div class="footer_primary">
+            <nav class="sitemap">
+                <h2><span class="visibilittyHidden">サイトマップ</span></h2>
+                <div class="sitemap_inner">
+                    <div class="sitemap_category">
+                        <div class="sitemap_category_cols" data-col-id="0">
+                            <h3 class="sitemap_category_heading" data-category-id="0"><a href="./why_medinet/">選ばれている理由</a></h3>
+                            <h3 class="sitemap_category_heading" data-category-id="1"><a href="./service/">提供サービス</a></h3>
+                            <ul class="sitemap_items">
+                                <li class="sitemap_item"><a href="./service/immune_cell_therapy/">免疫細胞治療とは</a></li>
+								
+                            </ul>
+                        </div>
+                        <div class="sitemap_category_cols" data-col-id="1">
+                            <h3 class="sitemap_category_heading" data-category-id="2"><a href="./facility_capabilities/">製造拠点・体制</a></h3>
+                            <ul>
+                                <li class="sitemap_item"><a href="./facility_capabilities/cpf/">品川細胞培養加工施設（品川CPF）・製造体制</a></li>
+                                <li class="sitemap_item"><a href="./facility_capabilities/prossess/">細胞加工のプロセス</a></li>
+                            </ul>
+                        </div>
+                        <div class="sitemap_category_cols" data-col-id="2">
+                            <h3 class="sitemap_category_heading" data-category-id="3"><a href="./aboutus/">企業情報</a></h3>
+                            <ul>
+                                <li class="sitemap_item"><a href="./aboutus/company/idea.html">経営理念</a></li>
+                                <li class="sitemap_item"><a href="./aboutus/company/medinetism.html">メディネットイズム</a></li>
+                                <li class="sitemap_item"><a href="./aboutus/fmessage/">創業者の思い</a></li>
+                                <li class="sitemap_item"><a href="./aboutus/company/overview.html">会社概要</a></li>
+                                <li class="sitemap_item"><a href="./aboutus/company/history.html">沿革</a></li>
+                                <li class="sitemap_item"><a href="./aboutus/company/message.html">トップメッセージ</a></li>
+                                <li class="sitemap_item"><a href="./aboutus/sustainability/sustainability.html">サステナビリティ</a></li>
+                            </ul>
+                        </div>
+                        <div class="sitemap_category_cols" data-col-id="3">
+                            <h3 class="sitemap_category_heading" data-category-id="4"><a href="./ir/">株主・投資家情報</a></h3>
+                            <ul>
+                                <li class="sitemap_item"><a href="./ir/managementpolicy/policy.html">経営方針</a></li>
+                                <li class="sitemap_item"><a href="./ir/managementpolicy/message.html">トップメッセージ</a></li>
+                                <li class="sitemap_item"><a href="./ir/managementpolicy/executive.html">役員紹介</a></li>
+                                <li class="sitemap_item"><a href="./ir/managementpolicy/governance.html">コーポレート・ガバナンス</a></li>
+                                <li class="sitemap_item"><a href="./ir/finance/">業績・財務情報</a></li>
+                                <li class="sitemap_item"><a href="./ir/investors/">個人投資家の皆さまへ</a></li>
+                                <li class="sitemap_item"><a href="./ir/library/">IRライブラリー</a></li>
+                                <li class="sitemap_item"><a href="./ir/stock/">株式情報</a></li>
+                                <li class="sitemap_item"><a href="./ir/calendar/">IRカレンダー</a></li>
+                                <li class="sitemap_item"><a href="./ir/managementpolicy/irpolicy.html">IRポリシー</a></li>
+                                <li class="sitemap_item"><a href="./ir/publicinfo/">電子公告</a></li>
+                                <li class="sitemap_item"><a href="./ir/news/">IRニュース</a></li>
+                                <li class="sitemap_item"><a href="./ir/faq/">IRについてのFAQ</a></li>
+                            </ul>
+                        </div>
+                        <div class="sitemap_category_cols" data-col-id="4">
+                            <h3 class="sitemap_category_heading" data-category-id="5"><a href="./adopt/">採用情報</a></h3>
+                            <ul>
+                                
+                                <li class="sitemap_item"><a href="./adopt/job/">仕事紹介</a></li>
+                                <li class="sitemap_item"><a href="./adopt/interview/01.html">社員インタビュー</a></li>
+                                <li class="sitemap_item"><a href="./adopt/guideline/">募集要項</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <section class="institution">
+                <div class="institution_inner">
+                    <h2 class="institution_heading"><a href="./facility/">当社契約医療機関</a></h2>
+                    <ul>
+                        <li class="institution_item institution_item--breaked institution_item--collapse"><a href="http://www.j-immunother.com/" target="_blank" data-ga="Facility-link,outgoing,j-immunother.com/_f"><span class="small">医療法人社団 滉志会　</span><span class="large">瀬田クリニックグループ</span></a></li>
+                        <li class="institution_item institution_item--bordered institution_item--collapse"><a href="http://www.h.u-tokyo.ac.jp/" target="_blank" data-ga="Facility-link,outgoing,h.u-tokyo.ac.jp/_f">東京大学医学部附属病院22世紀医療センター</a></li>
+                        <li class="institution_item institution_item--bordered"><a href="http://www.onh.go.jp/mokuji/mokuji.html" target="_blank" data-ga="Facility-link,outgoing,onh.go.jp/mokuji/mokuji.html_f">国立病院機構大阪医療センター脳神経外科</a></li>
+                        <li class="institution_item"><a href="http://camiku.kyushu-u.ac.jp/" target="_blank" data-ga="Facility-link,outgoing,camiku.kyushu-u.ac.jp/_f">九州大学先端医療イノベーションセンター</a></li>
+                        <li class="institution_item institution_item--bordered institution_item--collapse"><a href="http://www.aoikai.jp/aoiuniversalhospital/" target="_blank" data-ga="Facility-link,outgoing,aoikai.jp/aoiuniversalhospital/_f"><span class="small">医療法人社団 葵会　</span><span class="large">AOI国際病院</span></a></li>
+                        <li class="institution_item"><a href="http://ryushisen.com/index.html" target="_blank" data-ga="Facility-link,outgoing,ryushisen.com_f"><span class="small">一般財団法人 健康医学協会　</span><span class="large">粒子線がん相談クリニック</span></a></li>
+                    </ul>
+                </div>
+            </section>
+            <p class="summary"><span>メディネットは、特定細胞加工物製造受託(CMO)や再生医療等製品/治験製品の開発・製造受託(CDMO)等を行うトータルソリューション・プロバイダーです。</span></p>
+        </div>
+        <div class="footer_secondary">
+            <div class="footer_secondary_inner">
+                <nav class="sitemapV2">
+                    <h2 class="sitemapV2_header sitemapV2_logo"><span class="visibilittyHidden">インフォメーション</span></h2>
+                    <ul>
+                        <li class="sitemapV2_item"><a href="./terms/">ウェブサイトご利用上の注意</a></li>
+                        <li class="sitemapV2_item"><a href="./privacy/">個人情報保護方針</a></li>
+                        <li class="sitemapV2_item"><a href="./social_media/">ソーシャルメディアの利用に関するガイドライン</a></li>
+                    </ul>
+					<ul>
+                        <li class="sitemapV2_item"><a href="./contact/">お問い合わせ</a></li>
+                        <li class="sitemapV2_item"><a href="./sitemap/">サイトマップ</a></li>
+                    </ul>
+                </nav>
+                <small class="copyright">Copyright&copy; MEDINET Co., Ltd. All Right Reserved.</small>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/lib.js"></script>
+    <script src="./js/common.js"></script>
+    <script src="./js/util.js"></script>
+    <script src="./js/index.js"></script>
+    <script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+    try {
+        var pageTracker = _gat._getTracker("UA-1703504-12");
+        pageTracker._setDomainName(".medinet-inc.co.jp");
+        pageTracker._setAllowHash(false);
+        pageTracker._trackPageview();
+    } catch (err) {}
+    </script>
+</body>
+
+
+</html>

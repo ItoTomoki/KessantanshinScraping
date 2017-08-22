@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+ 	<title>大末建設株式会社</title>
+	<meta name="description" content="大末建設株式会社の公式サイトです。技術とソリューション、竣工実績、会社情報、IR情報、採用情報をご紹介しています。">
+	<link rel="shortcut icon" href="/icon/favicon.ico" />
+	<link href="/css/bootstrap.min.css" rel="stylesheet">
+	<link href="/css/theme.css" rel="stylesheet">
+	<!-- ▼トップページのみ -->
+		<link href="/slick/slick.css" rel="stylesheet">
+		<link href="/css/slider.css" rel="stylesheet">
+	<link href="/css/layout.css" rel="stylesheet">
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		ga('create', 'UA-69346976-1', 'auto');
+		ga('send', 'pageview');
+	</script>
+</head>
+<body id="home_main_index" class="home-mt index">
+<!-----ここからヘッダー----->
+<div id="header">
+<!---PCのみ表示--->
+<div class="container marTop15 marBottom15 hidden-xs">
+<div class="row">
+	<div class="top_menu">
+		<div class="col-md-4">
+			<h1><a href="/"><img src="/images/logo.gif" class="img-responsive" alt="大末建設株式会社"/></a></h1>
+		</div><!------/.col-md-4-------->
+	<div class="col-md-8">
+		<ul id="fontSize" class="text-right">
+			<li class="marRight20 transmit"><a href="/"><img src="/images/home.gif" alt="HOME" width="34" height="12"/></a></li>
+			<li><img src="/images/txt_fontsize.gif" class="" alt="文字サイズ" width="60" height="12"/></li>
+			<li class="pointer"><img src="/images/taxt_small.gif" class="changeBtn" alt="小" width="28" height="28"/></li>
+			<li class="pointer"><img src="/images/taxt_medium.gif" class="changeBtn" alt="中" width="28" height="28"/></li>
+			<li class="pointer"><img src="/images/taxt_large.gif" class="changeBtn" alt="大" width="28" height="28"/></li>
+		<li class="marLeft20"><a href="/contact/"><img src="/images/contact.gif" onmouseover="this.src='/images/contact_over.gif'" onmouseout="this.src='/images/contact.gif'" alt="お問い合わせ" width="102" height="28"></a></li>
+		</ul>
+	</div><!------/.col-md-8-------->
+	</div><!------/.top_menu-------->
+</div><!------/.row-------->
+</div><!------/.container-------->
+<!---PCのみ表示ここまで--->
+<!-----ここからメニュー----->
+<nav class="navbar navbar-default" id="navbar">
+<div class="main_menu">
+<div class="container">
+<!---SPのみ表示--->
+<div class="navbar-header">
+	<div class="row">
+		<div class="col-xs-8">
+			<div class="spmenu visible-xs">
+				<h1><a href="/"><img src="/images/logo.gif" class="img-responsive" alt="大末建設株式会社"/></a></h1>
+			</div>
+		</div><!------/.col-xs-10-------->
+		<div class="col-xs-2 col-xs-offset-2">
+			<button type="button" class="navbar-toggle collapsed pull-right" data-toggle="collapse" data-target="#mobile-nav" aria-expanded="false" aria-controls="navbar">
+				<span class="sr-only">グローバルナビゲーションのご案内です。</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+		</div><!------/.col-xs-2-------->
+	</div><!------/.row-------->
+</div><!--/.navbar-header -->
+<!---SPのみ表示ここまで--->
+<!---PCのみ表示--->
+<div class="nav-menu hidden-xs"><!----
+	----><ul class="list-inline"><!----
+		----><li><a href="/solution/"><img src="/images/menu01.gif" class="" alt="技術とソリューション" width="155" height="57"/></a></li><!----
+		----><li><a href="/works/"><img src="/images/menu02.gif" class="" alt="竣工実績" width="156" height="57"/></a></li><!----
+		----><li><a href="/company/"><img src="/images/menu03.gif" class="" alt="会社情報" width="155" height="57"/></a></li><!----
+		----><li><a href="/csr/"><img src="/images/menu04.gif" class="" alt="CSRへの取り組み" width="156" height="57"/></a></li><!----
+		----><li><a href="/ir/"><img src="/images/menu05.gif" class="" alt="IR情報" width="155" height="57"/></a></li><!----
+		----><li><a href="/recruit/"><img src="/images/menu06.gif" class="" alt="採用情報" width="156" height="57"/></a></li><!----
+	----></ul>
+</div><!--/.nav-menu -->
+<!---PCのみ表示ここまで--->
+<!---SPのみ表示--->
+<div class="visible-xs-block">
+	<div id="mobile-nav" class="navbar-collapse collapse">
+		<ul class="nav navbar-nav">
+			<li><a href="/">トップページ</a></li>
+			<li class="nav-divider"></li>
+			<li><a href="/solution/">技術とソリューション</a></li>
+			<li class="nav-divider"></li>
+			<li><a href="/works/">竣工実績</a></li>
+			<li class="nav-divider"></li>
+			<li><a href="/company/">会社情報</a></li>
+			<li class="nav-divider"></li>
+			<li><a href="/csr/">CSRへの取り組み</a></li>
+			<li class="nav-divider"></li>
+			<li><a href="/ir/">IR情報</a></li>
+			<li class="nav-divider"></li>
+			<li><a href="/recruit/">採用情報</a></li>
+			<li class="nav-divider"></li>
+			<li><a href="/contact/">お問い合わせ</a></li>
+		</ul>
+	</div><!--/.nav-collapse -->
+</div><!--/.visible-xs-block -->
+<!---SPのみ表示ここまで--->
+</div><!--/.container -->
+</div><!--/.main_menu -->
+</nav>
+</div><!---/#header--->
+
+<!-----ここからスライダー----->
+<div>
+	<div class="slider slider-for">
+		<div><a href="/works/"><img src="/images/slider_main01_pc.jpg" class="img-responsive switch" alt="「大」きな安心「末」ながく"/></a></div>
+		<div><a href="/solution/"><img src="/images/slider_main02_pc.jpg" class="img-responsive switch" alt="技術とソリューション　「施設・ニーズから探す」「保有技術を知る」「プロジェクトレポート」をご紹介します。"/></a></div>
+		<div><a href="/warehouse-factory/"><img src="/images/slider_main03_pc.jpg" class="img-responsive switch" alt="物流倉庫・工場への取り組み　生産性アップ、エネルギーコスト削減、職場環境改善等でお悩みございませんか？
+		大末建設は、工場のあらゆる悩みに最適プランでお応えします。"/></a></div>
+		<div><a href="/elderlyhousing/"><img src="/images/slider_main04_pc.jpg" class="img-responsive switch" alt="高齢者住宅のススメ　日増しに高まる「高齢者住宅」へのニーズ。事業拡大経営の多角化、経営の安定化などでのお悩みを解決します。"/></a></div>
+		<div><a href="/bigjob/"><img src="/images/slider_main05_pc.jpg" class="img-responsive switch" alt="さあ、あなたも職人に　大親会（大末建設協力会社会）ではあなたの『心意気』を募集中　BIG JOB! with youへGO!"/></a></div>
+	</div><!------/.slider-for-------->
+	<div class="slider slider-nav container hidden-xs">
+		<div class="pointer"><img src="/images/slider_main01_s.jpg" class="img-responsive" alt=""/></div>
+		<div class="pointer"><img src="/images/slider_main02_s.jpg" class="img-responsive" alt=""/></div>
+		<div class="pointer"><img src="/images/slider_main03_s.jpg" class="img-responsive" alt=""/></div>
+		<div class="pointer"><img src="/images/slider_main04_s.jpg" class="img-responsive" alt=""/></div>
+		<div class="pointer"><img src="/images/slider_main05_s.jpg" class="img-responsive" alt=""/></div>
+	</div><!------/.slider-nav-------->
+</div>
+
+
+<!-----ここからコンテンツ----->
+<div id="changeArea">
+<div id="main" class="top">
+<div class="transmit">
+
+<div class="bg_gray">
+<div class="container">
+	
+		<!-----ここから技術とソリューション----->
+		<h2 class="top">技術とソリューション</h2>
+		
+		<div class="row gijyutsu">
+			<div class="col-md-4 rowbottom">
+				<div class="bg_white equal-height">
+					<a href="solution/#show-tab1"><img src="images/img_gijyutsu_01.jpg" class="img-responsive img-responsive-overwrite" alt="施設・ニーズから探す"/>
+					<h3>施設・ニーズから探す</h3></a>
+					<p>オフィスビル、マンション、イベントホール等施設毎のソリューションをご紹介します。</p>
+				</div><!------/.bg_white-------->  
+			</div><!------/.col-md-4-------->
+			
+			<div class="col-md-4 rowbottom">
+				<div class="bg_white equal-height">
+					<a href="solution/#show-tab2"><img src="images/img_gijyutsu_02.jpg" class="img-responsive img-responsive-overwrite" alt="保有技術を見る"/>
+					<h3>保有技術を見る</h3></a>
+					<p>工業化工法や超高層RC構造、免震構法、耐震技術など、当社保有の技術をご紹介します。</p>
+				</div><!------/.bg_white-------->   
+			</div><!------/.col-md-4-------->
+			
+			<div class="col-md-4 rowbottom">
+				<div class="bg_white equal-height">
+					<a href="solution/projectreports/"><img src="images/img_gijyutsu_03.jpg" class="img-responsive img-responsive-overwrite" alt="プロジェクトレポートを見る"/>
+					<h3>プロジェクトレポートを見る</h3></a>
+					<p>大末建設がこれまで手掛けてきたプロジェクトの一部をご紹介いたします。</p>
+				</div><!------/.bg_white--------> 
+			</div><!------/.col-md-4-------->
+		</div><!------/.row-------->
+		
+		<!-----ここから竣工実績----->
+		<h2 class="top">竣工実績</h2>
+		
+		<div class="marBottom20">
+			<a href="/works/"><img src="/images/bnr_jisseki_pc.jpg" class="img-responsive img-responsive-overwrite switch" alt="竣工実績"/></a>
+		</div>
+	
+</div><!---/.container--->
+</div><!---/.bg_gray--->
+
+
+<div class="container">
+<div class="row">
+
+<!-----ここからNews&Topics----->
+<div class="col-md-9 section">
+<h2 class="top marTop0">News&amp;Topics</h2>
+
+	<ul class="newslist">
+	
+		<li>
+			<span class="date">2017/08/02</span>
+			
+				<span class="tag"><img src="/images/tag_ir.gif" alt="IR情報" width="101" height="16"/></span><br class="visible-xs" />
+				
+					<a href="/ir/securities/pdf/72houQ1.pdf"><span class="txt">四半期報告書ー第72期第1四半期（平成29年4月1日ー平成29年6月30日）</span></a>
+				
+			
+		</li>
+	
+		<li>
+			<span class="date">2017/08/02</span>
+			
+				<span class="tag"><img src="/images/tag_ir.gif" alt="IR情報" width="101" height="16"/></span><br class="visible-xs" />
+				
+					<a href="/ir/financial_reports/pdf/72ktQ1.pdf"><span class="txt">平成30年3月期 第1四半期決算短信〔日本基準〕（連結）</span></a>
+				
+			
+		</li>
+	
+		<li>
+			<span class="date">2017/07/27</span>
+			
+				
+					<span class="tag"><img src="/images/tag_oshirase.gif" alt="お知らせ" width="101" height="16"/></span><br class="visible-xs" />
+				
+				
+					<a href="/news/2017/07_27_000970.html"><span class="txt">「一木会会員の皆さまへ」を更新しました</span></a>
+				
+			
+		</li>
+	
+		<li>
+			<span class="date">2017/06/28</span>
+			
+				<span class="tag"><img src="/images/tag_ir.gif" alt="IR情報" width="101" height="16"/></span><br class="visible-xs" />
+				
+					<a href="/ir/2cdc05fa7c58461141ac089dd42188964c5d3513.pdf"><span class="txt">第71期株主通信</span></a>
+				
+			
+		</li>
+	
+		<li>
+			<span class="date">2017/06/28</span>
+			
+				<span class="tag"><img src="/images/tag_ir.gif" alt="IR情報" width="101" height="16"/></span><br class="visible-xs" />
+				
+					<a href="/ir/meeting/pdf/71ktgi.pdf"><span class="txt">第71回定時株主総会決議ご通知</span></a>
+				
+			
+		</li>
+	
+		<li>
+			<span class="date">2017/06/27</span>
+			
+				<span class="tag"><img src="/images/tag_ir.gif" alt="IR情報" width="101" height="16"/></span><br class="visible-xs" />
+				
+					<a href="/ir/securities/pdf/71YH.pdf"><span class="txt">有価証券報告書－第71期（平成28年4月1日－平成29年3月31日）</span></a>
+				
+			
+		</li>
+	
+		<li>
+			<span class="date">2017/06/07</span>
+			
+				<span class="tag"><img src="/images/tag_ir.gif" alt="IR情報" width="101" height="16"/></span><br class="visible-xs" />
+				
+					<a href="/ir/meeting/pdf/71it.pdf"><span class="txt">第71回定時株主総会招集ご通知に際してのインターネット開示事項</span></a>
+				
+			
+		</li>
+	
+		<li>
+			<span class="date">2017/06/07</span>
+			
+				<span class="tag"><img src="/images/tag_ir.gif" alt="IR情報" width="101" height="16"/></span><br class="visible-xs" />
+				
+					<a href="/ir/meeting/pdf/71syotu.pdf"><span class="txt">第71回定時株主総会招集ご通知</span></a>
+				
+			
+		</li>
+	
+		<li>
+			<span class="date">2017/05/19</span>
+			
+				
+					<span class="tag"><img src="/images/tag_kaisya.gif" alt="会社情報" width="101" height="16"/></span><br class="visible-xs" />
+				
+				
+					
+						
+						<a href="/news/pdf/69a1ac469d69ee169b5cf2231b35f9cc043621f2.pdf" target="_blank">
+							<span class="txt">
+								取締役候補者選任に関するお知らせ
+								<span class="file-size">
+									
+										（PDF：52KB）
+									
+								</span>
+							</span>
+						</a>
+					
+				
+			
+		</li>
+	
+		<li>
+			<span class="date">2017/05/19</span>
+			
+				
+					<span class="tag"><img src="/images/tag_kaisya.gif" alt="会社情報" width="101" height="16"/></span><br class="visible-xs" />
+				
+				
+					
+						
+						<a href="/news/pdf/7e76547f13200392c6104ddcd12dbf703c013f83.pdf" target="_blank">
+							<span class="txt">
+								取締役の異動に関するお知らせ
+								<span class="file-size">
+									
+										（PDF：45KB）
+									
+								</span>
+							</span>
+						</a>
+					
+				
+			
+		</li>
+	
+		<li>
+			<span class="date">2017/05/12</span>
+			
+				
+					<span class="tag"><img src="/images/tag_oshirase.gif" alt="お知らせ" width="101" height="16"/></span><br class="visible-xs" />
+				
+				
+					
+						
+						<a href="/news/pdf/f68d526256787e1a7ee95dc46ea6b6e6c145d92e.pdf" target="_blank">
+							<span class="txt">
+								訃報ならびに「お別れの会」のお知らせ
+								<span class="file-size">
+									
+										（PDF：33KB）
+									
+								</span>
+							</span>
+						</a>
+					
+				
+			
+		</li>
+	
+		<li>
+			<span class="date">2017/05/11</span>
+			
+				<span class="tag"><img src="/images/tag_ir.gif" alt="IR情報" width="101" height="16"/></span><br class="visible-xs" />
+				
+					<a href="/ir/financial_reports/pdf/71ktteisei.pdf"><span class="txt">（訂正）「平成29年3月期　決算短信〔日本基準〕（連結）」の一部訂正について</span></a>
+				
+			
+		</li>
+	
+		<li>
+			<span class="date">2017/05/10</span>
+			
+				<span class="tag"><img src="/images/tag_ir.gif" alt="IR情報" width="101" height="16"/></span><br class="visible-xs" />
+				
+					
+						
+						<a href="/ir/irnews/pdf/e52c85e1f1d71357bbcce2e35f36361a00fac5e7.pdf" target="_blank">
+							<span class="txt">
+								新中期経営計画の策定に関するお知らせ
+								<span class="file-size">
+									
+										（PDF：265KB）
+									
+								</span>
+							</span>
+						</a>
+					
+				
+			
+		</li>
+	
+		<li>
+			<span class="date">2017/05/10</span>
+			
+				<span class="tag"><img src="/images/tag_ir.gif" alt="IR情報" width="101" height="16"/></span><br class="visible-xs" />
+				
+					
+						
+						<a href="/ir/irnews/pdf/71haito.pdf" target="_blank">
+							<span class="txt">
+								剰余金の配当に関するお知らせ
+								<span class="file-size">
+									
+										（PDF：86KB）
+									
+								</span>
+							</span>
+						</a>
+					
+				
+			
+		</li>
+	
+		<li>
+			<span class="date">2017/05/10</span>
+			
+				<span class="tag"><img src="/images/tag_ir.gif" alt="IR情報" width="101" height="16"/></span><br class="visible-xs" />
+				
+					<a href="/ir/financial_report/pdf/73b2386ec7068946473a703ff558bf78580b2621.pdf"><span class="txt">平成29年3月期 決算説明資料</span></a>
+				
+			
+		</li>
+	
+	</ul><!------/.newslist-------->
+
+	<div class="marBottom20 text-right">
+		<a href="/news/"><img src="/images/btn_ichiran.gif" class="" alt="一覧を見る" width="90" height="23"/></a>
+	</div>
+</div><!------/col-md-9-------->
+
+
+<!-----ここからサイドバー----->
+<div class="col-md-3 section news_side">
+
+	<div class="banner">
+		<img src="/images/title_ir_pc.gif" class="img-responsive img-responsive-overwrite switch" alt="IR情報"/>
+		<ul>
+			<li><a href="/ir/meeting/">招集通知・決議通知・株主通信</a></li>
+			<li><a href="/ir/strategy/">中期経営計画</a></li>
+			<li><a href="/ir/high-light/">業績ハイライト</a></li>
+			<li><a href="/ir/financial_reports/">決算短信</a></li>
+			<li><a href="/ir/securities/">有価証券報告書・四半期報告書</a></li>
+		</ul>
+	</div><!------/.ir-------->
+
+	<div class="banner">
+		<a href="/csr/"><img src="/images/bnr_csr.jpg" class="img-responsive img-responsive-overwrite" alt="CSRへの取り組み"/></a>
+	</div>
+
+
+	<div class="ichibokukai">
+		<div class="row marBottom10">
+			<div class="col-md-8 col-md-offset-2 col-xs-6 col-xs-offset-3">
+				<img src="/images/text_ichibokukai.gif" class="img-responsive img-responsive-overwrite" alt="一木会会員の皆様へ"/>
+			</div>
+		</div><!------/.row-------->
+	
+		<table class="table">
+			<tbody>
+			<tr>
+				<td class="fwBold fs08">PASS</td>
+				<td class="fwBold fs08">
+				 <form method="post" action="javascriot:void(0);">
+					<input type="text" id="password" class="form-control">
+					<input type="button" id="login-btn" class="btn btn-xs btn-black" value="ログイン">
+					<div id="error" style="color: red"></div>
+				</form>
+				</td>
+			</tr>
+			</tbody>
+		</table>
+	</div><!------/.ichibokukai-------->
+
+	<div class="banner imgborder">
+		<img src="/images/bnr_daits_pc.png" class="img-responsive img-responsive-overwrite switch" alt="大末テクノサービス株式会社"/>
+		<ul>
+			<li>現在、ホームページを作成中です。</li>
+　　　　	<tr></tr>
+			<li><a href="http://www.technoworks.ne.jp/index.html" target="_blank">(旧)テクノワークス㈱ホームページ</a></li>
+　　　　	<tr></tr>
+			<li><a href="http://daisues.co.jp/" target="_blank">(旧)大末サービス㈱ホームページ</a></li>
+　　　　	<tr></tr>
+			<li><a href="http://www.azumi-e.co.jp" target="_blank">(旧)安積エンジニアリング㈱ホームページ</a></li>
+　　　　	<tr></tr>
+		</ul>
+	</div>
+
+</div><!------/.col-md-3.news_side-------->
+
+</div><!------/.row-------->
+</div><!---/.container--->
+
+</div><!-- /.transmit -->
+</div><!---/#main--->
+</div><!---/#changeArea--->
+
+<p id="page-top"><a href="/#wrap"><img src="/images/img_pagetop.png" class="img-responsive" alt="ページの先頭へ"></a></p>
+<!-----ここからフッター----->
+<div id="footer">
+	<div class="foot_banner">
+		<div class="container">
+			<div class="row transmit">
+				<div class="col-md-4">
+					<a href="/bigjob/"><img src="/images/bnr_bigjob.jpg" class="img-responsive img-responsive-overwrite" alt="さあ、あなたも職人に「大親会」"/></a>
+				</div><!------/.col-md-4-------->
+				<div class="col-md-4">
+					<a href="/warehouse-factory/"><img src="/images/bnr_warehouse-factory.jpg" class="img-responsive img-responsive-overwrite" alt="物流倉庫・工場への取り組み"/></a>
+				</div><!------/.col-md-4-------->
+				<div class="col-md-4">
+					<a href="/elderlyhousing/"><img src="/images/bnr_elderlyhousing.jpg" class="img-responsive img-responsive-overwrite" alt="高齢者住宅ノススメ"/></a>
+				</div><!------/.col-md-4-------->
+			</div><!------/.row-------->
+		</div><!---/.container--->
+	</div><!---/.foot_banner--->
+	<!---PCのみ表示--->
+	<div class="foot_menu hidden-xs">
+	<div class="container">
+	<div class="row">
+		<div class="col-md-2">
+			<p><a href="/news/">News & Topics</a></p>
+			<p><a href="/solution/">技術とソリューション</a></p>
+			<ul>
+				<li><a href="/solution/#show-tab1">施設・ニーズから探す</a></li>
+				<li><a href="/solution/#show-tab2">保有技術を見る</a></li>
+				<li><a href="/solution/projectreports/">プロジェクトレポート</a></li>
+			</ul>
+		</div><!------/.col-md-2-------->
+		<div class="col-md-2">
+			<p><a href="/works/">竣工実績</a></p>
+			<ul>
+				<li><a href="/works/factory/">物流倉庫・工場</a></li>
+				<li><a href="/works/medicalcare/">医療・福祉・高齢者住宅</a></li>
+				<li><a href="/works/culture/">教育・文化・スポーツ</a></li>
+				<li><a href="/works/commercialfacilities/">商業施設</a></li>
+				<li><a href="/works/office/">庁舎・オフィス</a></li>
+				<li><a href="/works/hall/">イベントホール</a></li>
+				<li><a href="/works/mansion/">マンション・集合住宅</a></li>
+				<li><a href="/works/renewal/">リニューアル</a></li>
+				<li><a href="/works/others/">その他</a></li>
+			</ul>
+		</div><!------/.col-md-2-------->
+		<div class="col-md-2">
+			<p><a href="/company/">会社情報</a></p>
+			<ul>
+				<li><a href="/company/topmessage/">ごあいさつ</a></li>
+				<li><a href="/company/policy/">経営方針</a></li>
+				<li><a href="/company/business/">事業内容</a></li>
+				<li><a href="/company/outline/">会社概要</a></li>
+				<li><a href="/company/officer/">役員一覧</a></li>
+				<li><a href="/company/organization/">組織図</a></li>
+				<li><a href="/company/history/">沿革</a></li>
+				<li><a href="/company/governance/">コーポレートガバナンス</a></li>
+				<li><a href="/company/location/">事業所一覧</a></li>
+				<li><a href="/company/group/">グループ会社</a></li>
+			</ul>
+		</div><!------/.col-md-2-------->
+		<div class="col-md-2">
+			<p><a href="/csr/">CSRへの取り組み</a></p>
+			<ul>
+				<li><a href="/csr/action/">健全な企業活動</a></li>
+				<li><a href="/csr/contribution/">建設事業による社会貢献</a></li>
+				<li><a href="/csr/workplace/">働きがいの追求</a></li>
+				<li><a href="/csr/stakeholder/">ステークホルダーとのコミュニケーション</a></li>
+				<li><a href="/csr/woman/">女性活躍のために</a></li>            
+			</ul>
+		</div><!------/.col-md-2-------->
+		<div class="col-md-2">
+			<p><a href="/ir/">IR情報</a></p>
+			<ul>
+				<li><a href="/ir/irnews/">IRニュース</a></li>
+				<li><a href="/ir/topmessage/">トップメッセージ</a></li>
+				<li><a href="/ir/strategy/">中期経営計画</a></li>
+				<li><a href="/ir/inde_std_outside/">社外取締役の独立性基準</a></li>
+				<li><a href="/ir/aboutus/">3分でわかる！大末建設</a></li>
+				<li><a href="/ir/high-light/">業績ハイライト</a></li>
+				<li><a href="/ir/financial_reports/">決算短信</a></li>
+				<li><a href="/ir/securities/">有価証券報告書・四半期報告書</a></li>
+				<li><a href="/ir/meeting/">招集通知・決議通知・株主通信</a></li>
+				<li><a href="/ir/procedure/">株式に関する諸手続き</a></li>
+				<li><a href="/ir/faq/">よくあるお問い合わせ</a></li>
+				<li><a href="/ir/e-publicnotice/">電子公告</a></li>
+			</ul>
+		</div><!------/.col-md-2-------->
+		<div class="col-md-2">
+			<p><a href="/recruit/">採用情報</a></p>
+			<ul>
+				<li><a href="/recruit/graduate/">新卒採用</a></li>
+				<li><a href="/recruit/career/">キャリア採用</a></li>
+				<li><a href="/recruit/ourwork/">大末建設で活躍する先輩社員</a></li>
+				<li><a href="/recruit/topmessage/">社長からのメッセージ</a></li>
+				<li><a href="/recruit/training/">人材育成への取り組み</a></li>
+				<li><a href="/works/">竣工作品の紹介</a></li>
+				<li><a href="/recruit/associate/">関連会社採用情報</a></li>
+			</ul>
+			<p><a href="/contact/">お問い合わせ</a></p>
+		</div><!------/.col-md-2-------->
+	</div><!------/.row-------->
+	</div><!---/.container--->
+	</div><!---/.foot_menu--->
+	<!---PCのみ表示ここまで--->
+	<!---SPのみ表示--->
+	<div class="foot_navi visible-xs">
+		<p class="first"><a href="/privacy/">個人情報保護方針</a></p>
+		<p class="marBottom0"><a href="/sitemap/">サイトマップ</a></p>
+	</div><!---/.foot_navi--->
+	<!---SPのみ表示ここまで--->
+	<div class="foot_copyright">
+	<!---PCのみ表示--->
+		<div class="container hidden-xs">
+			<div class="row">
+				<div class="col-md-6">
+					<p>&#169; 2008 大末建設株式会社 All Rights Reserved. </p>
+				</div><!------/.col-md-6-------->
+				<div class="col-md-6 text-right">
+					<ul>
+						<li class="f_left"><a href="/privacy/">個人情報保護方針</a></li>
+						<li class="f_right"><a href="/sitemap/">サイトマップ</a></li>
+					</ul>
+				</div><!------/.col-md-6-------->
+			</div><!------/.row-------->
+		</div><!---/.container--->
+	<!---PCのみ表示ここまで--->
+	<!---SPのみ表示--->
+		<p class="text-center visible-xs">&#169; 2008 大末建設株式会社 All Rights Reserved. </p>
+	<!---SPのみ表示ここまで--->
+	</div><!---/.foot_copyright--->
+</div><!---/#footer--->
+<!---PCのみ表示ここまで--->
+<!-----ここまでフッター----->
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>
+if ($(window).width() > 625) {
+	$('meta[name=viewport]').remove();
+	$('head').prepend('<meta name="viewport" content="width=960px">');
+}
+</script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/js/pagetop.js"></script>
+<script type="text/javascript" src="/js/jquery.cookie.js"></script>
+<script type="text/javascript" src="/js/fontsize.js"></script>
+<script type="text/javascript" src="/js/switchimg.js"></script>
+<script type="text/javascript" src="/js/opacityimg.js"></script>
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+<!-------------グローバルメニューのカレント処理：はじめからロールオーバー後の画像になっている場合は無効----------->
+<script>
+$(document).ready(function(){		
+	$('div.nav-menu ul.list-inline li:not(.current) a img')
+	.mouseover(function(){
+		var onSrc = $(this).attr('src').replace('.gif', '_o.gif');
+		$(this).attr('src', onSrc);
+	})
+	.mouseout(function(){
+		var offSrc = $(this).attr('src').replace('_o.gif', '.gif');
+		$(this).attr('src', offSrc);
+	});
+});
+</script>
+	<!-------------下記jQueryでスムーススクロール----------->
+	<script src="/js/jquery.smoothScroll.js"></script>
+	<script>
+		$('.scroll').smoothScroll();
+	</script>
+		<!------------- 下記jQueryでboxの高さを合わせる----------->
+		<script src="/js/jquery.heightLine.js"></script>
+		<script src="/js/equalHeight.js"></script>
+	<!-------------下記jQueryでスライダー----------->
+	<script type="text/javascript" src="/slick/slick.min.js"></script>
+	<script src="/js/slider.js"></script>
+		<script type="text/javascript" src="/js/jquery.simple_cookie_auth.js"></script>
+		<script type="text/javascript" src="/js/jquery.simple_cookie_auth.config.js"></script>
+</body>
+</html>

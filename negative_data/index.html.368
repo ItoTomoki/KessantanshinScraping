@@ -1,0 +1,263 @@
+<!doctype html>
+<html><!-- InstanceBegin template="/Templates/frame.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+<!-- InstanceBeginEditable name="doctitle" -->
+<meta name="description" content="株式会社アスカネット公式サイト。世界で認められた品質の「フォトブック」、高い加工技術の「遺影写真」、新しい空中結像技術「空中ディスプレイ」の事業や製品・サービス、最新ニュースのご案内から、会社情報、IR情報、採用情報などをご紹介いたします。">
+<meta name="keywords" content="アスカネット,フォトブック,遺影写真,空中ディスプレイ,AIプレート,ASUKANET">
+<title>株式会社アスカネット│Asukanet Co., Ltd.</title>
+<!-- OGP -->
+<meta property="og:title" content="ASUKANET│株式会社アスカネットは画像・映像表現の新しい世界を目指します" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://www.asukanet.co.jp" />
+<meta property="og:image" content="https://www.asukanet.co.jp/contents/common/images/ogp_asukanet.png" />
+<!-- /OGP -->
+<!-- InstanceEndEditable -->
+<link href="contents/common/css/common.css?date=20170428" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="contents/common/images/favicon.ico" />
+<!-- InstanceBeginEditable name="head" -->
+<!-- slider -->
+<script src="contents/common/js/skippr.js"></script>
+<script src="contents/common/js/spin.min.js"></script>
+<script src="contents/common/js/index.js"></script>
+<!-- InstanceEndEditable -->
+<script src="contents/common/js/drawer.min.js"></script>
+<script>$(document).ready(function() {$(".drawer").drawer();});</script>
+<script src="contents/common/js/common.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-87102914-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<!-- InstanceParam name="class" type="text" value="" -->
+</head>
+<body id="pagetop" class=" drawer drawer--right">
+<header id="top-head">
+  <div class="inner">
+    <ul id="sub-nav">
+      <li><a href="index.html">ホーム</a></li>
+      <li><a href="contents/company/csr.html">CSR活動</a></li>
+      <li><a href="contents/inquiry/index.html">お問い合わせ</a></li>
+      <li><a href="contents/other/sitemap.html">サイトマップ</a></li>
+      <li class="line"><a href="https://www.facebook.com/asukanet/" target="_blank">Facebook</a></li>
+    </ul>
+    <div id="mobile-head">
+      <h1 class="logo"><a href="index.html"><img src="contents/common/images/h_logo.png" alt="株式会社アスカネット"/></a></h1>
+    </div>
+    <button type="button" class="drawer-toggle drawer-hamburger"> <span class="sr-only">toggle navigation</span> <span class="drawer-hamburger-icon"></span> </button>
+    <nav id="global-nav" class="drawer-nav">
+      <ul class="drawer-menu">
+        <li class="sp"><a href="index.html">ホーム</a></li>
+        <li class="pro_list"><a href="index.html#business">事業紹介</a></li>
+        <li class="news_list"><a href="contents/news/index.html">ニュース</a></li>
+        <li class="com_list"><a href="contents/company/index.html">会社概要</a></li>
+        <li class="ir_list"><a href="contents/ir/index.html">投資家情報</a></li>
+        <li class="rec_list"><a href="contents/recruit/index.html">採用情報</a></li>
+        <li class="sp"><a href="contents/inquiry/index.html">お問い合わせ</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<!-- InstanceBeginEditable name="contents" --> 
+<!--▼メインイメージ-->
+<div id="container">
+  <div id="theTarget">
+    <div style="background-image: url(contents/common/images/mainimage01.jpg)"></div>
+    <div style="background-image: url(contents/common/images/mainimage02.jpg)"></div>
+    <div style="background-image: url(contents/common/images/mainimage03.jpg)"></div>
+  </div>
+</div>
+<script>//Skipper設定
+$("document").ready(function() {$("#theTarget").skippr();});$("#theTarget").skippr({transition :'fade',speed : 2000,easing :'easeOutQuart',navType :'bubble',childrenElementType :'div',arrows :false,autoPlay :true,autoPlayDuration : 4000,keyboardOnAlways :true,hidePrevious :false});
+</script> 
+<!--▲メインイメージ--> 
+<!--▼ニュース-->
+<section class="pb90 pt90" id="news">
+  <p class="ttl_blk">NEWS</p>
+  <h2 class="h2_blk">ニュース</h2>
+  <div class="tab_bg">
+    <ul class="tab">
+      <li class="current">ニュース</li>
+      <li>PR<span>情報</span></li>
+      <li>イベント</li>
+      <li>IR<span>情報</span></li>
+      <li>お知らせ</li>
+    </ul>
+  </div>
+  
+  <div class="contents">
+    <div class="content news"><dl class="topics" id="all-i"></dl><p><a href="contents/news/index.html" class="list01">ニュース一覧</a></p></div>
+    <div class="content news"><dl class="topics" id="prnews-i"></dl><p><a href="contents/news/pr_news.html" class="list01">PR情報一覧</a></p></div>
+    <div class="content news"><dl class="topics" id="evnews-i"></dl><p><a href="contents/news/event_news.html" class="list01">イベント一覧</a></p></div>
+    <div class="content news"><dl class="topics" id="irnews-i"></dl><p><a href="contents/news/ir_news.html" class="list01">IR情報一覧</a></p></div>
+    <div class="content news"><dl class="topics" id="infonews-i"></dl><p><a href="contents/news/info_news.html" class="list01">お知らせ一覧</a></p></div>
+  </div>
+</section>
+<!--▲ニュース--> 
+
+<!--▼事業紹介-->
+<section class="pb90 pt90 bg_gray" id="business">
+  <p class="ttl_blk">BUSINESS</p>
+  <h2 class="h2_blk">事業紹介</h2>
+  <h3 class="h3_blk pt70 pb70">「イノベーション」を<br class="sp">
+    キーワードにした３つの事業</h3>
+  <div class="wrapper">
+    <p class="text_L">アスカネットは、&quot;インターネットから写真集&quot;という新しい写真表現の提案にチャレンジしている「パーソナルパブリッシングサービス事業」。創業以来のビジネスであり、葬儀葬祭市場に特化した「メモリアルデザインサービス事業」。 空中結像という今までにないユニークな技術で、新しい市場を創造し、夢の実現を目指す「エアリアルイメージング事業」。それぞれに位置づけや特色が異なる３つの事業を展開している会社です。</p>
+  </div>
+</section>
+<section id="personal">
+  <div class="wrapper text_L text_YC" style=""> <img src="contents/common/images/index_img01_sp.jpg" alt="パーソナルパブリッシングサービス事業" class="sp"/>
+    <h3 class="h3_blk pb40 text_L">パーソナルパブリッシング<br class="sp48">
+      サービス事業</h3>
+    <p class="pb50">デジタルカメラの普及やブロードバンド環境の一般化を背景に、オンデマンド印刷による１冊からの少ロットに対応した個人向け写真集を作成、販売し、関連するソフトウェアを開発しております。</p>
+    <div class="btn_blu"><a href="contents/product/pps.html">もっと見る</a></div>
+  </div>
+</section>
+<section id="memorial">
+  <div class="wrapper text_L text_YC">
+    <div> <img src="contents/common/images/index_img02_sp.jpg" alt="メモリアルデザインサービス事業" class="sp"/>
+      <h3 class="h3_blk pb40 text_L">メモリアルデザイン<br class="sp48">
+        サービス事業</h3>
+      <p class="pb50">インターネットやクラウドを利用した、葬儀社向け遺影写真のデジタル加工及び動画の配信、葬儀演出サービスやそれらに付随するシステム機器やサプライ用品等の販売を行っています。</p>
+      <div class="btn_blu"><a href="contents/product/mds.html">もっと見る</a></div>
+    </div>
+  </div>
+</section>
+<section id="aerial">
+  <div class="wrapper text_L text_YC"> <img src="contents/common/images/index_img03_sp.jpg" alt="エアリアルイメージング事業" class="sp"/>
+    <h3 class="h3_blk pb40 text_L">エアリアルイメージング事業</h3>
+    <p class="pb50">空中結像技術を基に、様々な映像画像の新しい表現方法を模索しています。「空中に映像が浮かぶ」という今までにないビジネスにチャレンジしています。</p>
+    <div class="btn_blu"><a href="contents/product/aerialimaging.html">もっと見る</a></div>
+  </div>
+</section>
+
+<!--▲事業紹介--> 
+
+<!--▼製品・サービス-->
+<section class="pb90 pt90" id="product">
+  <p class="ttl_blk">PRODUCT &amp; SERVICE</p>
+  <h2 class="h2_blk">製品・サービス</h2>
+  <div class="wrapper w96">
+    <ul>
+      <li><a href="contents/product/asukabook.html"><img src="contents/common/images/bnr_asukabook.jpg" alt="AsukaBook" title="AsukaBook"/></a></li>
+      <li><a href="contents/product/mybook.html"><img src="contents/common/images/bnr_mybook.jpg" alt="MyBook" title="MyBook"/></a></li>
+      <li><a href="contents/product/mybooklife.html"><img src="contents/common/images/bnr_mybooklife.jpg" alt="MYBOOK LIFE" title="MYBOOK LIFE"/></a></li>
+      <li><a href="contents/product/autoalbum.html"><img src="contents/common/images/bnr_autoalbum.jpg" alt="AutoAlbum" title="AutoAlbum"/></a></li>
+      <li><a href="contents/product/atelier.html"><img src="contents/common/images/bnr_atelier.jpg" alt="アトリエフォトブック" title="アトリエフォトブック"/></a></li>
+      <li><a href="contents/product/patapata.html"><img src="contents/common/images/bnr_patapata.jpg" alt="patapata" title="patapata"/></a></li>
+      <li><a href="contents/product/photosoken.html"><img src="contents/common/images/bnr_photosoken.jpg" alt="フォト総研" title="フォト総研"/></a></li>
+      <li><a href="contents/product/aftershutter.html"><img src="contents/common/images/bnr_aftershutter.jpg" alt="AfterShutter" title="AfterShutter"/></a></li>
+      <li><a href="contents/product/ieibank.html"><img src="contents/common/images/bnr_ieibank.jpg" alt="遺影バンク" title="遺影バンク"/></a></li>
+      <li><a href="contents/product/ieilab.html"><img src="contents/common/images/bnr_ieilabo.jpg" alt="遺影ラボ" title="遺影ラボ"/></a></li>
+      <li><a href="contents/product/mds.html"><img src="contents/common/images/bnr_mds.jpg" alt="MDS" title="MDS"/></a></li>
+      <li><a href="contents/product/aerialimaging.html"><img src="contents/common/images/bnr_aerialimaging.jpg" alt="AERIAL IMAGING" title="AERIAL IMAGING"/></a></li>
+    </ul>
+  </div>
+</section>
+
+<!--▲製品・サービス-->
+
+<section class="pb90 pt90 bg_gray pc" id="pickup">
+  <div class="wrapper"> <a href="contents/company/index.html">
+    <div class="box_pickup"><img src="contents/common/images/fot_nav_com.jpg" alt="会社概要"/>
+      <p>会社概要</p>
+    </div>
+    </a> <a href="contents/ir/index.html">
+    <div class="box_pickup"><img src="contents/common/images/fot_nav_investor.jpg" alt="投資家情報"/>
+      <p>投資家情報</p>
+    </div>
+    </a> <a href="contents/recruit/index.html">
+    <div class="box_pickup mr0"><img src="contents/common/images/fot_nav_recruit.jpg" alt="採用情報"/>
+      <p>採用情報</p>
+    </div>
+    </a> </div>
+</section>
+<!-- InstanceEndEditable -->
+<div class="clearfix">
+<div id="page-top" class="page-top"><p><a id="move-page-top" class="move-page-top">▲</a></p></div>    
+<div class="page-top sp"><a href="#pagetop" class="move-page-top">▲</a></div>
+</div>
+<div id="fot_nav">
+  <nav>
+    <div class="wrapper">
+    <dl class="sp">
+      <dt><a href="index.html">ホーム</a></dt>
+    </dl>
+    <dl>
+      <dt><a href="index.html#business">事業紹介</a></dt>
+      <dd><a href="contents/product/pps.html">パーソナルパブリッシングサービス事業</a></dd>
+      <dd><a href="contents/product/mds.html">メモリアルデザインサービス事業</a></dd>
+      <dd><a href="contents/product/aerialimaging.html">エアリアルイメージング事業</a></dd>
+    </dl>
+    <dl>
+      <dt><a href="contents/news/index.html">ニュース</a></dt>
+      <dd><a href="contents/news/pr_news.html">PR情報</a></dd>
+      <dd><a href="contents/news/event_news.html">イベント</a></dd>
+      <dd><a href="contents/news/ir_news.html">IR情報</a></dd>
+      <dd><a href="contents/news/info_news.html">お知らせ</a></dd>
+    </dl>
+    <dl>
+      <dt><a href="contents/company/index.html">会社概要</a></dt>
+      <dd><a href="contents/company/index.html">ごあいさつ</a></dd>
+      <dd><a href="contents/company/profile.html">会社情報</a></dd>
+      <dd><a href="contents/company/philosophy.html">経営理念</a></dd>
+      <dd><a href="contents/company/history.html">沿革</a></dd>
+      <dd><a href="contents/company/organization.html">組織図</a></dd>
+      <dd><a href="contents/company/access.html">事業所一覧</a></dd>
+      <dd><a href="contents/company/csr.html">CSR活動</a></dd>
+    </dl>
+    <dl>
+      <dt><a href="contents/ir/index.html">投資家情報</a></dt>
+      <dd><a href="contents/news/ir_news.html">IRニュース</a></dd>
+      <dd><a href="contents/ir/library.html">IRライブラリ</a></dd>
+      <dd><a href="contents/ir/results.html">財務・業績情報</a></dd>
+      <dd><a href="contents/ir/stock.html">株式情報</a></dd>
+      <dd><a href="contents/ir/dividend.html">配当・株主優待</a></dd>
+      <dd><a href="contents/ir/meeting.html">株主総会</a></dd>
+      <dd><a href="contents/ir/calendar.html">IRカレンダー</a></dd>
+      <dd><a href="contents/ir/advertising.html">電子公告</a></dd>
+      <dd><a href="contents/ir/faq.html">よくある質問</a></dd>
+      <dd><a href="contents/ir/newsmail.html">IRニュースメール配信</a></dd>
+      <dd><a href="contents/ir/contact.html">IRお問い合わせ</a></dd>
+    </dl>
+    <dl>
+      <dt><a href="contents/recruit/index.html">採用情報</a></dt>
+      <dd><a href="contents/recruit/index.html#message">トップメッセージ</a></dd>
+      <dd><a href="contents/recruit/index.html#interview">社員インタビュー</a></dd>
+      <dd><a href="contents/recruit/infographic/index.html">数字で知るアスカネット</a></dd>
+      <dd><a href="contents/recruit/event/index.html">社内イベント</a></dd>
+      <dd><a href="contents/recruit/faq.html">よくある質問</a></dd>
+      <dd><a href="contents/recruit/newgrads/index.html">新卒採用</a></dd>
+      <dd><a href="contents/recruit/career/index.html">中途採用</a></dd>
+      <dd><a href="contents/recruit/contact.html">お問い合わせ</a></dd>
+    </dl>
+    </div>
+  </nav>
+</div>
+<footer>
+<ul class="sub_nav">
+<li><a href="contents/other/privacy.html">個人情報保護方針</a></li>
+<li><a href="contents/other/disclaimer.html">免責事項</a></li>
+<li><a href="contents/other/sitemap.html">サイトマップ</a></li>
+<li><a href="contents/inquiry/index.html">お問い合わせ</a></li>
+</ul>
+<ul class="icon">
+<li><a href="https://www.facebook.com/asukanet/" target="_blank"><img src="contents/common/images/icon_fb.jpg" alt="facebook" title="facebook"/></a></li>
+<li><a href="https://www.youtube.com/channel/UCxXFyyzMRpjLRdlPl2diwKg" target="_blank"><img src="contents/common/images/icon_youtube.jpg" alt="youtube" title="youtube"/></a></li>
+</ul>
+<div class="wrapper">
+<div class="flR"><a href="https://privacymark.jp/" target="_blank"><img src="contents/common/images/privacy_mark.gif" alt="プライバシーマーク"/></a></div>
+<div class="flL"><p class="com">株式会社アスカネット</p><address><script type="text/javascript">copyright();</script></address></div>
+</div>
+</footer>
+</body>
+<!-- InstanceEnd --></html>

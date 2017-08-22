@@ -1,0 +1,1224 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<title>IR情報 | 株式会社ユアテック</title>
+<META http-equiv="Content-Script-Type" content="text/javascript">
+<meta name="description" content="">
+<meta name="keywords" content=",">
+<link href="../css/text.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+<!--
+a {color:#3366CC;}
+a:visited {color:#3366CC;}
+a:hover {color:#cc0000;}
+A { text-decoration:none ;}
+-->
+</style>
+</head>
+
+<body link="#0066CC" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onLoad="MM_preloadImages('../common_image/side_01a.gif','../common_image/side_02a.gif','../common_image/side_03a.gif','../common_image/side_04a.gif','../common_image/side_05a.gif','../common_image/side_06a.gif','../common_image/side_07a.gif','../common_image/side_08a.gif','../common_image/side_09a.gif','../common_image/side_10a.gif','../common_image/side_11a.gif')">
+<div align="center">
+  <table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td bgcolor="#D8DEE2"><img src="../common_image/pix.gif" alt="" width="1" height="1"></td>
+      <td width="3" nowrap background="../common_image/left_bg.gif"><img src="../common_image/pix.gif" alt="" width="3" height="1"></td>
+      <td width="753" valign="top"><a name="top"></a><!-- #BeginLibraryItem "/Library/head.lbi" --><img src="../common_image/head.gif" alt="" width="753" height="71" border="0" usemap="#Map">
+<map name="Map">
+<area shape="rect" coords="617,16,711,39" href="http://www.google.com/custom?hl=ja&cof=L%3Ahttp%3A//www.yurtec.co.jp/img/y2.gif;AH%3Aleft;&domains=yurtec.co.jp&q=&btnG=Google%2B%8C%9F%8D%F5&sitesearch=yurtec.co.jp&lr=" target="_blank" alt="サイト内検索">
+<area shape="rect" coords="533,51,629,66" href="../pcy.html" alt="プライバシーポリシー">
+<area shape="rect" coords="632,51,673,66" href="../link.html" alt="リンク集">
+<area shape="rect" coords="677,51,733,66" href="../sitemap.html" alt="サイトマップ">
+<area shape="rect" coords="17,16,122,56" href="../index.html" alt="トップページへ">
+<area shape="rect" coords="408,51,525,67" href="../pcy2.html" alt="個人情報の取扱いについて">
+</map>
+<!-- #EndLibraryItem --><table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="170" valign="top" bgcolor="#F2F2F2"><!--sidemenuここから -->              
+              <script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+              </script><!-- #BeginLibraryItem "/Library/ir.lbi" -->
+<link href="../css/text.css" rel="stylesheet" type="text/css">
+<script type="text/JavaScript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+<body onLoad="MM_preloadImages('../common_image/side_08a.gif','../common_image/side_09a.gif','../common_image/side_10a.gif')"><a href="../comp/index.html" onMouseOver="MM_swapImage('bt1','','../common_image/side_01a.gif',1)" onMouseOut="MM_swapImgRestore()"><img src="../common_image/side_01.gif" alt="会社案内" name="bt1" width="170" height="36" border="0" id="bt1"></a><a href="../business/index.html" onMouseOver="MM_swapImage('bt2','','../common_image/side_02a.gif',1)" onMouseOut="MM_swapImgRestore()"><img src="../common_image/side_02.gif" alt="営業案内" name="bt2" width="170" height="35" border="0" id="bt2"></a><a href="../tech/index.html" onMouseOver="MM_swapImage('bt3','','../common_image/side_03a.gif',1)" onMouseOut="MM_swapImgRestore()"><img src="../common_image/side_03.gif" alt="技術開発" name="bt3" width="170" height="35" border="0" id="bt3"></a><a href="../customer/index.html" onMouseOver="MM_swapImage('bt4','','../common_image/side_04a.gif',1)" onMouseOut="MM_swapImgRestore()"><img src="../common_image/side_04.gif" alt="もっと便利！快適提案" name="bt4" width="170" height="35" border="0" id="bt4"></a><a href="../sisetu/index2.html" onMouseOver="MM_swapImage('bt5','','../common_image/side_05a.gif',1)" onMouseOut="MM_swapImgRestore()"><img src="../common_image/side_05.gif" alt="施設案内" name="bt5" width="170" height="36" border="0" id="bt5"></a><a href="../release/index.html" onMouseOver="MM_swapImage('bt6','','../common_image/side_06a.gif',1)" onMouseOut="MM_swapImgRestore()"><img src="../common_image/side_06.gif" alt="ニュースリリース" name="bt6" width="170" height="35" border="0" id="bt6"></a><a href="../topics/index.html" onMouseOver="MM_swapImage('bt11','','../common_image/side_11a.gif',1)" onMouseOut="MM_swapImgRestore()"><img src="../common_image/side_11.gif" alt="トピックス" name="bt11" width="170" height="35" border="0" id="bt11"></a><a href="index.html" onMouseOver="MM_swapImage('bt7','','../common_image/side_07a.gif',1)" onMouseOut="MM_swapImgRestore()"><img src="../common_image/side_07a.gif" alt="IR情報" name="bt7" width="170" height="35" border="0" id="bt7"></a>
+<table width="100%" border="0" cellpadding="10" cellspacing="0" bgcolor="#F8F9FA" class="side">
+  <tr>
+    <td><img src="../common_image/arrow2.gif" alt="" width="14" height="9" hspace="5" border="0"><a href="index.html">業績報告</a><br>
+      <img src="../common_image/ds_dt_2.gif" alt="" width="27" height="11"><a href="index.html">決算情報</a><br>
+      <img src="../common_image/ds_dt_2.gif" alt="" width="27" height="11"><a href="g_01.html">有価証券報告書等</a><br>
+      <img src="../common_image/ds_dt_2.gif" alt="" width="27" height="11"><a href="g_02.html">事業概況</a><br>
+   
+      <img src="../common_image/ds_dt_2.gif" alt="" width="27" height="11"><a href="g_04.html">その他情報</a><br><img src="../common_image/arrow2.gif" alt="" width="14" height="9" hspace="5" border="0"><a href="index2.html">株式情報</a><br>
+    <img src="../common_image/ds_dt_2.gif" alt="" width="27" height="11"><a href="index2.html">株主メモ</a><br>
+    <img src="../common_image/ds_dt_2.gif" alt="" width="27" height="11"><a href="kb_03.html">株主総会</a><br>
+    <img src="../common_image/ds_dt_2.gif" alt="" width="27" height="11"><a href="kb_02.html">株式の状況</a></td>
+  </tr>
+</table>
+<a href="../sizai/index.html" onMouseOver="MM_swapImage('bt8','','../common_image/side_08a.gif',1)" onMouseOut="MM_swapImgRestore()"><img src="../common_image/side_08.gif" alt="資材取引" name="bt8" width="170" height="35" border="0" id="bt8"></a><a href="../recruit/index.html" target="_blank" onMouseOver="MM_swapImage('bt9','','../common_image/side_09a.gif',1)" onMouseOut="MM_swapImgRestore()"><img src="../common_image/side_09.gif" alt="採用情報" name="bt9" width="170" height="36" border="0" id="bt9"></a><a href="../p_notice/index.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image24','','../common_image/side_10a.gif',1)"><img src="../common_image/side_10.gif" name="Image24" width="170" height="36" border="0"></a> <img src="../common_image/sd_bn_01.gif" alt="お問い合せはこちら" width="170" height="88"> <a href="../yurtecstadiun/index.html"><img src="../common_image/yurtecB01.gif" width="170" height="58" border="0"></a><a href="http://www.city.sendai.jp/shimin/sp-koryu/yuasta.html" target="_blank"></a>　　<!-- #EndLibraryItem --></td>
+            <td width="1" bgcolor="#DFDFDF"><img src="../common_image/pix.gif" width="1" height="1"></td>
+            <td valign="top"><!--コンテンツ -->
+              <table width="580" border="0" cellpadding="5" cellspacing="3" class="pan" id="ppm">
+                <tr>
+                  <td valign="baseline" bgcolor="#F1F1F1">　<a href="../index.html">トップページ</a><img src="../common_image/pan_arrow.gif" alt="" width="6" height="10" hspace="7" border="0">IR情報</td>
+                </tr>
+              </table>
+              <img src="image/bill.jpg" alt="" width="574" height="95" hspace="3"><br>
+              <img src="image/up_ti_1.gif" alt="IR情報　業績報告" width="535" height="28" vspace="5"> <br>              <br><!-- #BeginLibraryItem "/Library/irhead1.lbi" -->              
+              <link href="../css/text.css" rel="stylesheet" type="text/css">
+<div align="center">
+                <table width="547" border="0" cellpadding="0" cellspacing="0" class="anc">
+                  <tr>
+                    <td valign="top"><table width="100%" border="0" cellpadding="5" cellspacing="0" class="nomove">
+                        <tr>
+                          <td nowrap><img src="../common_image/arrow5.gif" alt="" width="16" height="10" hspace="1"><a href="index.html">決算情報</a><br>
+                              <img src="../common_image/arrow5.gif" alt="" width="16" height="10" hspace="1"><a href="g_02.html">事業概況</a><br>
+                          <img src="../common_image/arrow5.gif" alt="" width="16" height="10" hspace="1"><a href="g_04.html">その他情報</a></td>
+                          <td valign="top" nowrap><img src="../common_image/arrow5.gif" alt="" width="16" height="10" hspace="1"><a href="g_01.html">有価証券報告書等</a><br></td>
+                        </tr>
+                      </table>                    </td>
+                    <td width="184"><img src="image/head_bt_01.jpg" alt="" width="184" height="66"></td>
+                  </tr>
+  </table></div>
+              <!-- #EndLibraryItem --><div align="center">
+<table width="547" border="0" cellspacing="0" cellpadding="1">
+  <tr>
+    <td width="331">&nbsp;</td>
+    <td width="90" align="right"><a href="index2.html"><img src="image/bt_kb2.gif" alt="株式情報へ" width="90" height="20" border="0"></a></td>
+  </tr>
+</table>
+<img src="image/s_ti_01.gif" alt="決算情報" width="547" height="31" vspace="5"><br>
+
+
+
+
+<table width="540" border="0" cellpadding="5" cellspacing="0" bgcolor="#F3F3F3">
+<tr>
+<td><img src="../common_image/arrw_01.gif" alt="" width="19" height="11"><font size="2"><strong>平成29年度</strong></font></td>
+</tr>
+</table>
+<table width="540" border="0" cellpadding="3" cellspacing="0">
+
+
+<!--　contents　-->
+<tr>
+<td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+<td width="401"><font size="2"><a href="pdf/170726.pdf" target="_blank">
+平成30年3月期　第1四半期決算短信
+</a></font></td>
+<td width="106" nowrap><font size="1">平成29年7月26日</font></td>
+</tr>
+<!--　/contents　-->
+
+</table>
+<br>
+<br>
+
+
+<table width="540" border="0" cellpadding="5" cellspacing="0" bgcolor="#F3F3F3">
+<tr>
+<td><img src="../common_image/arrw_01.gif" alt="" width="19" height="11"><font size="2"><strong>平成28年度</strong></font></td>
+</tr>
+</table>
+<table width="540" border="0" cellpadding="3" cellspacing="0">
+
+
+<!--　contents　-->
+<tr>
+<td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+<td width="401"><font size="2"><a href="pdf/170425_1.pdf" target="_blank">
+平成29年3月期　決算短信
+</a></font></td>
+<td width="106" nowrap><font size="1">平成29年4月25日</font></td>
+</tr>
+<!--　/contents　-->
+
+<!--　contents　-->
+<tr>
+<td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+<td width="401"><font size="2"><a href="pdf/170126.pdf" target="_blank">
+平成29年3月期　第3四半期決算短信
+</a></font></td>
+<td width="106" nowrap><font size="1">平成29年1月26日</font></td>
+</tr>
+<!--　/contents　-->
+
+<!--　contents　-->
+<tr>
+<td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+<td width="401"><font size="2"><a href="pdf/161026_1.pdf" target="_blank">
+平成29年3月期　第2四半期決算短信
+</a></font></td>
+<td width="106" nowrap><font size="1">平成28年10月26日</font></td>
+</tr>
+<!--　/contents　-->
+
+<!--　contents　-->
+<tr>
+<td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+<td width="401"><font size="2"><a href="pdf/160727.pdf" target="_blank">
+平成29年3月期　第1四半期決算短信
+</a></font></td>
+<td width="106" nowrap><font size="1">平成28年7月27日</font></td>
+</tr>
+<!--　/contents　-->
+
+</table>
+<br>
+<br>
+
+
+
+
+
+<table width="540" border="0" cellpadding="5" cellspacing="0" bgcolor="#F3F3F3">
+<tr>
+<td><img src="../common_image/arrw_01.gif" alt="" width="19" height="11"><font size="2"><strong>平成27年度</strong></font></td>
+</tr>
+</table>
+<table width="540" border="0" cellpadding="3" cellspacing="0">
+
+
+<!--　contents　-->
+<tr>
+<td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+<td width="401"><font size="2"><a href="pdf/160422_1.pdf" target="_blank">
+平成28年3月期　決算短信
+</a></font></td>
+<td width="106" nowrap><font size="1">平成28年4月22日</font></td>
+</tr>
+<!--　/contents　-->
+
+<!--　contents　-->
+<tr>
+<td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+<td width="401"><font size="2"><a href="pdf/160318_1.pdf" target="_blank">
+業績予想の修正に関するお知らせ
+</a></font></td>
+<td width="106" nowrap><font size="1">平成28年3月18日</font></td>
+</tr>
+<!--　/contents　-->
+
+<!--　contents　-->
+<tr>
+<td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+<td width="401"><font size="2"><a href="pdf/160127.pdf" target="_blank">
+平成28年3月期　第3四半期決算短信
+</a></font></td>
+<td width="106" nowrap><font size="1">平成28年1月27日</font></td>
+</tr>
+<!--　/contents　-->
+
+<!--　contents　-->
+<tr>
+<td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+<td width="401"><font size="2"><a href="pdf/151027_2.pdf" target="_blank">
+平成28年3月期　第2四半期決算短信
+</a></font></td>
+<td width="106" nowrap><font size="1">平成27年10月27日</font></td>
+</tr>
+<!--　/contents　-->
+
+<!--　contents　-->
+<tr>
+<td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+<td width="401"><font size="2"><a href="pdf/151027_1.pdf" target="_blank">
+業績予想（連結・個別）の修正に関するお知らせ
+</a></font></td>
+<td width="106" nowrap><font size="1">平成27年10月27日</font></td>
+</tr>
+<!--　/contents　-->
+
+<!--　contents　-->
+<tr>
+<td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+<td width="401"><font size="2"><a href="pdf/150729.pdf" target="_blank">
+平成28年3月期　第1四半期決算短信
+</a></font></td>
+<td width="106" nowrap><font size="1">平成27年7月29日</font></td>
+</tr>
+<!--　/contents　-->
+
+</table>
+<br>
+<br>
+
+
+<table width="540" border="0" cellpadding="5" cellspacing="0" bgcolor="#F3F3F3">
+<tr>
+<td><img src="../common_image/arrw_01.gif" alt="" width="19" height="11"><font size="2"><strong>平成26年度</strong></font></td>
+</tr>
+</table>
+<table width="540" border="0" cellpadding="3" cellspacing="0">
+
+
+<!--　contents　-->
+<tr>
+<td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+<td width="401"><font size="2"><a href="pdf/150428_2.pdf" target="_blank">
+平成27年3月期　決算短信
+</a></font></td>
+<td width="106" nowrap><font size="1">平成27年4月28日</font></td>
+</tr>
+<!--　/contents　-->
+
+<!--　contents　-->
+<tr>
+<td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+<td width="401"><font size="2"><a href="pdf/150128.pdf" target="_blank">
+平成27年3月期　第3四半期決算短信
+</a></font></td>
+<td width="106" nowrap><font size="1">平成27年1月28日</font></td>
+</tr>
+<!--　/contents　-->
+
+<!--　contents　-->
+<tr>
+<td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+<td width="401"><font size="2"><a href="pdf/150126.pdf" target="_blank">
+業績予想の修正に関するお知らせ
+</a></font></td>
+<td width="106" nowrap><font size="1">平成27年1月26日</font></td>
+</tr>
+<!--　/contents　-->
+
+<!--　contents　-->
+<tr>
+<td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+<td width="401"><font size="2"><a href="pdf/141029.pdf" target="_blank">
+平成27年3月期　第2四半期決算短信
+</a></font></td>
+<td width="106" nowrap><font size="1">平成26年10月29日</font></td>
+</tr>
+<!--　/contents　-->
+
+<!--　contents　-->
+<tr>
+<td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+<td width="401"><font size="2"><a href="pdf/141027.pdf" target="_blank">
+業績予想の修正に関するお知らせ
+</a></font></td>
+<td width="106" nowrap><font size="1">平成26年10月27日</font></td>
+</tr>
+<!--　/contents　-->
+
+<!--　contents　-->
+<tr>
+<td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+<td width="401"><font size="2"><a href="pdf/141010.pdf" target="_blank">
+業績予想の修正に関するお知らせ
+</a></font></td>
+<td width="106" nowrap><font size="1">平成26年10月10日</font></td>
+</tr>
+<!--　/contents　-->
+
+<!--　contents　-->
+<tr>
+<td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+<td width="401"><font size="2"><a href="pdf/140729.pdf" target="_blank">
+平成27年3月期　第1四半期決算短信
+</a></font></td>
+<td width="106" nowrap><font size="1">平成26年7月29日</font></td>
+</tr>
+<!--　/contents　-->
+
+</table>
+<br>
+<br>
+
+
+<table width="540" border="0" cellpadding="5" cellspacing="0" bgcolor="#F3F3F3">
+<tr>
+<td><img src="../common_image/arrw_01.gif" alt="" width="19" height="11"><font size="2"><strong>平成25年度</strong></font></td>
+</tr>
+</table>
+<table width="540" border="0" cellpadding="3" cellspacing="0">
+
+<!--　contents　-->
+<tr>
+<td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+<td width="401"><font size="2"><a href="pdf/140425_1.pdf" target="_blank">
+平成26年3月期　決算短信
+</a></font></td>
+<td width="106" nowrap><font size="1">平成26年4月25日</font></td>
+</tr>
+<!--　/contents　-->
+
+<!--　contents　-->
+<tr>
+<td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+<td width="401"><font size="2"><a href="pdf/140424.pdf" target="_blank">
+業績予想の修正に関するお知らせ
+</a></font></td>
+<td width="106" nowrap><font size="1">平成26年4月24日</font></td>
+</tr>
+<!--　/contents　-->
+
+<!--　contents　-->
+<tr>
+<td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+<td width="401"><font size="2"><a href="pdf/140407.pdf" target="_blank">
+業績予想の修正に関するお知らせ
+</a></font></td>
+<td width="106" nowrap><font size="1">平成26年4月7日</font></td>
+</tr>
+<!--　/contents　-->
+
+<!--　contents　-->
+<tr>
+<td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+<td width="401"><font size="2"><a href="pdf/140325.pdf" target="_blank">
+繰延税金資産の計上及び業績予想の修正に関するお知らせ
+</a></font></td>
+<td width="106" nowrap><font size="1">平成26年3月25日</font></td>
+</tr>
+<!--　/contents　-->
+
+<!--　contents　-->
+<tr>
+<td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+<td width="401"><font size="2"><a href="pdf/140128.pdf" target="_blank">
+平成26年3月期　第3四半期決算短信
+</a></font></td>
+<td width="106" nowrap><font size="1">平成26年1月28日</font></td>
+</tr>
+<!--　/contents　-->
+
+<!--　contents　-->
+<tr>
+<td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+<td width="401"><font size="2"><a href="pdf/140127.pdf" target="_blank">
+業績予想の修正に関するお知らせ
+</a></font></td>
+<td width="106" nowrap><font size="1">平成26年1月27日</font></td>
+</tr>
+<!--　/contents　-->
+
+<!--　contents　-->
+<tr>
+<td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+<td width="401"><font size="2"><a href="pdf/131030.pdf" target="_blank">
+平成26年3月期　第2四半期決算短信
+</a></font></td>
+<td width="106" nowrap><font size="1">平成25年10月30日</font></td>
+</tr>
+<!--　/contents　-->
+
+<!--　contents　-->
+<tr>
+<td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+<td width="401"><font size="2"><a href="pdf/131028.pdf" target="_blank">
+業績予想の修正に関するお知らせ
+</a></font></td>
+<td width="106" nowrap><font size="1">平成25年10月28日</font></td>
+</tr>
+<!--　/contents　-->
+
+<!--　contents　-->
+<tr>
+<td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+<td width="401"><font size="2"><a href="pdf/131010.pdf" target="_blank">
+業績予想の修正に関するお知らせ
+</a></font></td>
+<td width="106" nowrap><font size="1">平成25年10月10日</font></td>
+</tr>
+<!--　/contents　-->
+
+<!--　contents　-->
+<tr>
+<td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+<td width="401"><font size="2"><a href="pdf/130730.pdf" target="_blank">
+平成26年3月期　第1四半期決算短信
+</a></font></td>
+<td width="106" nowrap><font size="1">平成25年7月30日</font></td>
+</tr>
+<!--　contents　-->
+
+</table>
+<br>
+<br>
+
+
+<table width="540" border="0" cellpadding="5" cellspacing="0" bgcolor="#F3F3F3">
+<tr>
+<td><img src="../common_image/arrw_01.gif" alt="" width="19" height="11"><font size="2"><strong>平成24年度</strong></font></td>
+</tr>
+</table>
+<table width="540" border="0" cellpadding="3" cellspacing="0">
+
+
+<!--　contents　-->
+<tr>
+<td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+<td width="401"><font size="2"><a href="pdf/130424tanshin.pdf" target="_blank">
+平成25年3月期　決算短信
+</a></font></td>
+<td width="106" nowrap><font size="1">平成25年4月24日</font></td>
+</tr>
+<!--　/contents　-->
+
+<!--　contents　-->
+<tr>
+<td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+<td width="401"><font size="2"><a href="pdf/130422.pdf" target="_blank">
+業績予想の修正に関するお知らせ
+</a></font></td>
+<td width="106" nowrap><font size="1">平成25年4月22日</font></td>
+</tr>
+<!--　/contents　-->
+
+<!--　contents　-->
+<tr>
+<td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+<td width="401"><font size="2"><a href="pdf/130405.pdf" target="_blank">
+業績予想の修正に関するお知らせ
+</a></font></td>
+<td width="106" nowrap><font size="1">平成25年4月5日</font></td>
+</tr>
+<!--　/contents　-->
+
+<!--　contents　-->
+<tr>
+<td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+<td width="401"><font size="2"><a href="pdf/130128tanshin.pdf" target="_blank">
+平成25年3月期　第3四半期決算短信
+</a></font></td>
+<td width="106" nowrap><font size="1">平成25年1月28日</font></td>
+</tr>
+<!--　/contents　-->
+
+<!--　contents　-->
+<tr>
+<td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+<td width="401"><font size="2"><a href="pdf/121030tanshin.pdf" target="_blank">
+平成25年3月期　第2四半期決算短信
+</a></font></td>
+<td width="106" nowrap><font size="1">平成24年10月30日</font></td>
+</tr>
+<!--　/contents　-->
+
+<!--　contents　-->
+<tr>
+<td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+<td width="401"><font size="2"><a href="pdf/121011syusei.pdf" target="_blank">
+業績予想の修正に関するお知らせ
+</a></font></td>
+<td width="106" nowrap><font size="1">平成24年10月11日</font></td>
+</tr>
+<!--　/contents　-->
+
+<!--　contents　-->
+<tr>
+<td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+<td width="401"><font size="2"><a href="pdf/120724tanshin.pdf" target="_blank">
+平成25年3月期　第1四半期決算短信
+</a></font></td>
+<td width="106" nowrap><font size="1">平成24年7月24日</font></td>
+</tr>
+<!--　/contents　-->
+
+</table>
+<br>
+<br>
+
+
+
+<table width="540" border="0" cellpadding="5" cellspacing="0" bgcolor="#F3F3F3">
+<tr>
+<td><img src="../common_image/arrw_01.gif" alt="" width="19" height="11"><font size="2"><strong>平成23年度</strong></font></td>
+</tr>
+</table>
+<table width="540" border="0" cellpadding="3" cellspacing="0">
+
+<!--　contents　-->
+<tr>
+<td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+<td width="401"><font size="2"><a href="pdf/120426tanshin.pdf" target="_blank">
+平成24年3月期　決算短信
+</a></font></td>
+<td width="106" nowrap><font size="1">平成24年4月26日</font></td>
+</tr>
+<!--　/contents　-->
+
+<!--　contents　-->
+<tr>
+<td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+<td width="401"><font size="2"><a href="pdf/120329syusei.pdf" target="_blank">
+繰延税金資産の取崩し及び業績予想の修正に関するお知らせ
+</a></font></td>
+<td width="106" nowrap><font size="1">平成24年3月29日</font></td>
+</tr>
+<!--　/contents　-->
+
+<!--　contents　-->
+<tr>
+<td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+<td width="401"><font size="2"><a href="pdf/120126tanshin.pdf" target="_blank">
+平成24年3月期　第3四半期決算短信
+</a></font></td>
+<td width="106" nowrap><font size="1">平成24年1月26日</font></td>
+</tr>
+<!--　/contents　-->
+
+<!--　contents　-->
+<tr>
+<td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+<td width="401"><font size="2"><a href="pdf/120123syusei.pdf" target="_blank">
+業績予想の修正に関するお知らせ
+</a></font></td>
+<td width="106" nowrap><font size="1">平成24年1月23日</font></td>
+</tr>
+<!--　/contents　-->
+
+<!--　contents　-->
+<tr>
+<td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+<td width="401"><font size="2"><a href="pdf/111027tanshin.pdf" target="_blank">
+平成24年3月期　第2四半期決算短信
+</a></font></td>
+<td width="106" nowrap><font size="1">平成23年10月27日</font></td>
+</tr>
+<!--　/contents　-->
+
+<!--　contents　-->
+<tr>
+<td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+<td width="401"><font size="2"><a href="pdf/111011syusei.pdf" target="_blank">
+業績予想に関するお知らせ
+</a></font></td>
+<td width="106" nowrap><font size="1">平成23年10月11日</font></td>
+</tr>
+<!--　/contents　-->
+
+<!--　contents　-->
+<tr>
+<td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+<td width="401"><font size="2"><a href="pdf/110728tanshin.pdf" target="_blank">
+平成24年3月期　第1四半期決算短信
+</a></font></td>
+<td width="106" nowrap><font size="1">平成23年7月28日</font></td>
+</tr>
+<!--　/contents　-->
+
+</table>
+<br>
+<br>
+
+
+
+
+
+
+
+<table width="540" border="0" cellpadding="5" cellspacing="0" bgcolor="#F3F3F3">
+<tr>
+<td><img src="../common_image/arrw_01.gif" alt="" width="19" height="11"><font size="2"><strong>平成22年度</strong></font></td>
+</tr>
+</table>
+<table width="540" border="0" cellpadding="3" cellspacing="0">
+
+<!--　contents　-->
+<tr>
+<td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+<td width="401"><font size="2"><a href="pdf/110511tanshin.pdf" target="_blank">
+平成23年3月期　決算短信
+</a></font></td>
+<td width="106" nowrap><font size="1">平成23年5月11日</font></td>
+</tr>
+<!--　/contents　-->
+
+<!--　contents　-->
+<tr>
+<td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+<td width="401"><font size="2"><a href="pdf/110511syusei.pdf" target="_blank">
+特別損失の計上及び業績予想の差異に関するお知らせ
+</a></font></td>
+<td width="106" nowrap><font size="1">平成23年5月11日</font></td>
+</tr>
+<!--　/contents　-->
+
+<!--　contents　-->
+<tr>
+<td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+<td width="401"><font size="2"><a href="pdf/110307syusei.pdf" target="_blank">
+業績予想の修正に関するお知らせ
+</a></font></td>
+<td width="106" nowrap><font size="1">平成23年3月7日</font></td>
+</tr>
+<!--　/contents　-->
+
+<!--　contents　-->
+<tr>
+<td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+<td width="401"><font size="2"><a href="pdf/110127tanshin.pdf" target="_blank">
+平成23年3月期　第3四半期決算短信
+</a></font></td>
+<td width="106" nowrap><font size="1">平成23年1月27日</font></td>
+</tr>
+<!--　/contents　-->
+
+<!--　contents　-->
+<tr>
+<td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+<td width="401"><font size="2"><a href="pdf/101027tanshin.pdf" target="_blank">
+平成23年3月期　第2四半期決算短信
+</a></font></td>
+<td width="106" nowrap><font size="1">平成22年10月27日</font></td>
+</tr>
+<!--　/contents　-->
+
+<!--　contents　-->
+<tr>
+<td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+<td width="401"><font size="2"><a href="pdf/101025syusei.pdf" target="_blank">
+業績予想の修正に関するお知らせ
+</a></font></td>
+<td width="106" nowrap><font size="1">平成22年10月25日</font></td>
+</tr>
+<!--　/contents　-->
+
+<!--　contents　-->
+<tr>
+<td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+<td width="401"><font size="2"><a href="pdf/101012syusei.pdf" target="_blank">
+業績予想の修正に関するお知らせ
+</a></font></td>
+<td width="106" nowrap><font size="1">平成22年10月12日</font></td>
+</tr>
+<!--　/contents　-->
+
+<!--　contents　-->
+<tr>
+<td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+<td width="401"><font size="2"><a href="pdf/100729tanshin.pdf" target="_blank">
+平成23年3月期　第1四半期決算短信
+</a></font></td>
+<td width="106" nowrap><font size="1">平成22年7月29日</font></td>
+</tr>
+<!--　/contents　-->
+
+</table>
+<br>
+<br>
+
+
+
+<table width="540" border="0" cellpadding="5" cellspacing="0" bgcolor="#F3F3F3">
+<tr>
+<td><img src="../common_image/arrw_01.gif" alt="" width="19" height="11"><font size="2"><strong>平成21年度</strong></font></td>
+</tr>
+</table>
+
+<table width="540" border="0" cellpadding="3" cellspacing="0">
+
+<!--　contents　-->
+<tr>
+<td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+<td width="401"><font size="2"><a href="pdf/100427tanshin.pdf" target="_blank">
+平成22年3月期　決算短信 
+</a></font></td>
+<td width="106" nowrap><font size="1">平成22年4月27日</font></td>
+</tr>
+<!--　/contents　-->
+
+<!--　contents　-->
+<tr>
+<td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+<td width="401"><font size="2"><a href="pdf/100407syusei.pdf" target="_blank">
+業績予想の修正に関するお知らせ
+</a></font></td>
+<td width="106" nowrap><font size="1">平成22年4月7日</font></td>
+</tr>
+<!--　/contents　-->
+
+<!--　contents　-->
+<tr>
+<td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+<td width="401"><font size="2"><a href="pdf/100128_tanshin.pdf" target="_blank">
+平成22年3月期　第3四半期決算短信
+</a></font></td>
+<td width="106" nowrap><font size="1">平成22年1月27日</font></td>
+</tr>
+<!--　/contents　-->
+
+<!--　contents　-->
+<tr>
+<td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+<td width="401"><font size="2"><a href="pdf/091028_tanshin.pdf" target="_blank">
+平成22年3月期　第2四半期決算短信
+</a></font></td>
+<td width="106" nowrap><font size="1">平成21年10月28日</font></td>
+</tr>
+<!--　/contents　-->
+
+<!--　contents　-->
+<tr>
+<td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+<td width="401"><font size="2"><a href="pdf/091026syusei.pdf" target="_blank">
+業績予想の修正に関するお知らせ
+</a></font></td>
+<td width="106" nowrap><font size="1">平成21年10月26日</font></td>
+</tr>
+<!--　/contents　-->
+
+<!--　contents　-->
+<tr>
+<td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+<td width="401"><font size="2"><a href="pdf/091013syusei.pdf" target="_blank">
+業績予想の修正に関するお知らせ
+</a></font></td>
+<td width="106" nowrap><font size="1">平成21年10月13日</font></td>
+</tr>
+<!--　/contents　-->
+
+				<tr>
+                      <td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+                      
+                    <td width="401"><font size="2"><a href="pdf/090727tanshin.pdf" target="_blank">平成22年3月期　 第1四半期決算短信</a></font></td>
+                      
+                    <td width="106" nowrap><font size="1">平成21年7月27日</font></td>
+                  </tr> 
+				
+				
+				
+				
+				
+				
+				  
+                </table>
+				<br><br>				
+				
+				
+				  <table width="540" border="0" cellpadding="5" cellspacing="0" bgcolor="#F3F3F3">
+                    
+					
+					
+					
+					<tr>
+                      
+                    <td><img src="../common_image/arrw_01.gif" alt="" width="19" height="11"><font size="2"><strong>平成20年度</strong></font></td>
+                    </tr>
+                </table>
+				<table width="540" border="0" cellpadding="3" cellspacing="0">
+				<tr>
+                      <td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+                      
+                    <td width="401"><font size="2"><a href="pdf/090427tanshin.pdf" target="_blank">平成21年3月期　 決算短信</a></font></td>
+                      
+                    <td width="106" nowrap><font size="1">平成21年4月27日</font></td>
+                  </tr> 
+				
+				<tr>
+                      <td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+                      
+                    <td width="401"><font size="2"><a href="pdf/090128_tanshin.pdf" target="_blank">平成21年3月期　
+第3四半期決算短信</a></font></td>
+                      
+                    <td width="106" nowrap><font size="1">平成21年1月28日</font></td>
+                  </tr> 
+				
+				<tr>
+                      <td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+                      
+                    <td width="401"><font size="2"><a href="pdf/081027_tanshin.pdf" target="_blank">平成21年3月期　
+第2四半期決算短信</a></font></td>
+                      
+                    <td width="106" nowrap><font size="1">平成20年10月27日</font></td>
+                  </tr> 
+				
+				
+				
+				 <tr>
+                      <td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+                      
+                    <td width="401"><font size="2"><a href="pdf/081027_syusei.pdf" target="_blank">業績予想の差異に関するお知らせ</a></font></td>
+                      
+                    <td width="106" nowrap><font size="1">平成20年10月27日</font></td>
+                  </tr> 
+				  	
+				
+				
+ <tr>
+                      <td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+                      
+                    <td width="401"><font size="2"><a href="pdf/081008syusei.pdf" target="_blank">平成21年3月期　
+第2四半期累計期間個別業績予想の修正に関するお知らせ</a></font></td>
+                      
+                    <td width="106" nowrap><font size="1">平成20年10月8日</font></td>
+                  </tr> <tr>
+                      <td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+                      
+                    <td width="401"><font size="2"><a href="pdf/080728tansin.pdf" target="_blank">平成21年3月期　第1四半期決算短信</a></font></td>
+                      
+                    <td width="106" nowrap><font size="1">平成20年7月28日</font></td>
+                  </tr>
+
+				  
+				  
+				  
+                </table>
+				<br><br>
+				  
+ <table width="540" border="0" cellpadding="5" cellspacing="0" bgcolor="#F3F3F3">
+                    <tr>
+                      
+                    <td><img src="../common_image/arrw_01.gif" alt="" width="19" height="11"><font size="2"><strong>平成19年度</strong></font></td>
+                    </tr>
+                </table>
+				<table width="540" border="0" cellpadding="3" cellspacing="0">
+ <tr>
+                      <td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+                      
+                    <td width="401"><font size="2"><a href="pdf/080425tansin.pdf" target="_blank">平成20年3月期　決算短信</a></font></td>
+                      
+                    <td width="106" nowrap><font size="1">平成20年4月25日</font></td>
+                  </tr>
+
+
+ 
+ <tr>
+                      <td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+                      
+                    <td width="401"><font size="2"><a href="pdf/080128gyouseki.pdf" target="_blank">平成20年3月期　第3四半期財務・業績の概要</a></font></td>
+                      
+                    <td width="106" nowrap><font size="1">平成20年1月28日</font></td>
+                  </tr>
+ <tr>
+                      <td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+                      
+                    <td width="401"><font size="2"><a href="pdf/071030tansin.pdf" target="_blank">平成20年3月期　中間決算短信</a></font></td>
+                      
+                    <td width="106" nowrap><font size="1">平成19年10月30日</font></td>
+                  </tr>
+ 
+ 
+ 
+ <tr>
+                      <td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+                      
+                    <td width="401"><font size="2"><a href="pdf/071029syusei.pdf" target="_blank">業績予想の修正に関するお知らせ</a></font></td>
+                      
+                    <td width="106" nowrap><font size="1">平成19年10月29日</font></td>
+                  </tr>
+ 
+ 
+<tr>
+                      <td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+                      
+                    <td width="401"><font size="2"><a href="pdf/071005syusei.pdf" target="_blank">平成20年3月期　個別中間業績予想の修正に関するお知らせ</a></font></td>
+                      
+                    <td width="106" nowrap><font size="1">平成19年10月5日</font></td>
+                  </tr>
+                </table>
+<table width="540" border="0" cellpadding="3" cellspacing="0">
+ 
+<tr>
+                      <td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+                      
+                    <td width="401"><font size="2"><a href="pdf/070730renketu.pdf" target="_blank">平成20年3月期　第1四半期財務・業績の概況</a></font></td>
+                      
+                    <td width="106" nowrap><font size="1">平成19年7月30日</font></td>
+                  </tr>
+                </table>
+<br><br>
+                <table width="540" border="0" cellpadding="5" cellspacing="0" bgcolor="#F3F3F3">
+                    <tr>
+                      
+                    <td><img src="../common_image/arrw_01.gif" alt="" width="19" height="11"><font size="2"><strong>平成18年度</strong></font></td>
+                    </tr>
+                </table>
+<table width="540" border="0" cellpadding="3" cellspacing="0">
+    <tr>
+            <td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+                      
+                    <td width="401"><font size="2"><a href="pdf/070426tanshin.pdf" target="_blank">平成19年3月期　決算短信</a></font></td>
+                      
+                    <td width="106" nowrap><font size="1">平成19年04月26日</font></td> 
+ 
+ 
+    <tr>            <td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+                      
+                    <td width="401"><font size="2"><a href="pdf/070129renketu.pdf" target="_blank">平成19年3月期　第3四半期財務・業績の概況（連結）</a></font></td>
+                      
+                    <td width="106" nowrap><font size="1">平成19年01月29日</font></td> 
+ 
+ 
+    <tr>
+                      <td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+                      
+                    <td width="401"><font size="2"><a href="pdf/061027renketu.pdf" target="_blank">平成19年3月期　中間決算短信（連結）</a></font></td>
+                      
+                    <td width="106" nowrap><font size="1">平成18年10月27日</font></td>
+                  </tr>                 
+    <tr>
+                      <td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+                      
+                    <td width="401"><font size="2"><a href="pdf/061027kobetu.pdf" target="_blank">平成19年3月期　個別中間財務諸表の概要</a></font></td>
+                      
+                    <td width="106" nowrap><font size="1">平成18年10月27日</font></td>
+                  </tr>                 
+ <tr>
+                      <td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+                      
+                    <td width="401"><font size="2"><a href="../release/2006/pdf/060925syusei.pdf" target="_blank">平成19年3月期　個別中間業績予想の修正に関するお知らせ</a></font></td>
+                      
+                    <td width="106" nowrap><font size="1">平成18年9月25日</font></td>
+                  </tr>                 
+
+
+
+
+
+<tr>
+                      <td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+                      
+                    <td width="401"><font size="2"><a href="pdf/060731renketu.pdf" target="_blank">平成19年3月期　第1四半期財務・業績の概況（連結）</a></font></td>
+                      
+                    <td width="106" nowrap><font size="1">平成18年7月31日</font></td>
+                  </tr>
+                </table>
+<br><br>
+
+
+<table width="540" border="0" cellpadding="5" cellspacing="0" bgcolor="#F3F3F3">
+                    <tr>
+                      
+                    <td><img src="../common_image/arrw_01.gif" alt="" width="19" height="11"><font size="2"><strong>平成17年度</strong></font></td>
+                    </tr>
+                </table>
+                  <table width="540" border="0" cellpadding="3" cellspacing="0">
+                   <tr>
+                      <td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+                      
+                    <td><font size="2"><a href="../release/2006/pdf/060509renketu.pdf" target="_blank">平成18年3月期　決算短信(連結）</a></font></td>
+                      
+                    <td nowrap><font size="1">平成18年5月9日</font></td>
+                    </tr> 
+				   <tr>
+                      <td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+                      
+                    <td><font size="2"><a href="../release/2006/pdf/060509kobetu.pdf" target="_blank">平成18年3月期　個別財務諸表の概要</a></font></td>
+                      
+                    <td nowrap><font size="1">平成18年5月9日</font></td>
+                    </tr> 
+				   <tr>
+                      <td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+                      
+                    <td><font size="2"><a href="../release/2006/pdf/060428syusei.pdf" target="_blank">平成18年3月期　通期業績予想の修正に関するお知らせ</a></font></td>
+                      
+                    <td nowrap><font size="1">平成18年4月28日</font></td>
+                    </tr> 
+				   <tr>
+				    <tr>
+                      <td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+                      
+                    <td><font size="2"><a href="pdf/060130renketu.pdf" target="_blank">平成18年3月期　第3四半期財務・業績の概況（連結）</a></font></td>
+                      
+                    <td nowrap><font size="1">平成18年01月30日</font></td>
+                    </tr> 
+				   <tr>
+                      <td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+                      
+                    <td><font size="2"><a href="pdf/051107renketu.pdf" target="_blank">平成18年3月期　中間決算短信（連結）</a></font></td>
+                      
+                    <td nowrap><font size="1">平成17年11月7日</font></td>
+                    </tr> 
+                    <tr>
+                      <td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+                      
+                    <td><font size="2"><a href="pdf/051107kobetu.pdf" target="_blank">平成18年3月期　個別中間財務諸表の概要</a></font></td>
+                      
+                    <td nowrap><font size="1">平成17年11月7日</font></td>
+                    </tr>
+					<tr>
+                      <td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+                      
+                    <td><font size="2"><a href="pdf/051011syusei-2.pdf" target="_blank">平成18年3月期　連結中間業績予想の修正に関するお知らせ</a></font></td>
+                      
+                    <td nowrap><font size="1">平成17年11月7日</font></td>
+                    </tr>
+					<tr>
+                      <td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+                      
+                    <td><font size="2"><a href="pdf/051011syusei.pdf" target="_blank">平成18年3月期　個別中間業績予想の修正に関するお知らせ</a></font></td>
+                      
+                    <td nowrap><font size="1">平成17年10月11日</font></td>
+                    </tr>
+                    <tr>
+                      <td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+                      
+                    <td><font size="2"><a href="pdf/050801renketsu.pdf" target="_blank">平成18年3月期　第1四半期財務・業績の概況（連結）</a></font></td>
+                      
+                    <td nowrap><font size="1">平成17年8月1日</font></td>
+                    </tr>
+                </table>
+                  <br>
+                  <br>
+				  <table width="540" border="0" cellpadding="5" cellspacing="0" bgcolor="#F3F3F3">
+                    <tr>
+                      <td><img src="../common_image/arrw_01.gif" alt="" width="19" height="11"><font size="2"><strong>平成16年度</strong></font></td>
+                    </tr>
+                </table>
+                  <table width="540" border="0" cellpadding="3" cellspacing="0">
+                    <tr>
+                      <td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+                      <td><font size="2"><a href="../ir/pdf/050510renketu.pdf" target="_blank">平成17年3月期　決算短信(連結）</a></font></td>
+                      <td nowrap><font size="1">平成17年5月1日</font></td>
+                    </tr>
+                    <tr>
+                      <td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+                      <td><font size="2"><a href="../ir/pdf/050510kobetu.pdf" target="_blank">平成17年3月期　個別財務諸表の概要</a></font></td>
+                      <td nowrap><font size="1">平成17年5月1日</font></td>
+                    </tr>
+                    
+                    <tr>
+                      <td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+                      <td><font size="2"><a href="../ir/pdf/050131renketsu.pdf" target="_blank">平成17年3月期　第3四半期財務・業績の概況（連結）</a></font></td>
+                      <td nowrap><font size="1">平成17年1月31日</font></td>
+                    </tr>
+                    
+                    <tr>
+                      <td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+                      <td><font size="2"><a href="../ir/pdf/050131kobetu.pdf" target="_blank">平成17年3月期　第3四半期財務・業績の概況（個別）</a></font></td>
+                      <td nowrap><font size="1">平成17年1月31日</font></td>
+                    </tr>
+                    
+                    <tr>
+                      <td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+                      <td><font size="2"><a href="../ir/pdf/041109renketsu.pdf" target="_blank">平成17年3月期　中間決算短信（連結）</a></font></td>
+                      <td nowrap><font size="1">平成16年11月09日</font></td>
+                    </tr>
+                    
+                    <tr>
+                      <td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+                      <td><font size="2"><a href="../ir/pdf/041109kobetsu.pdf" target="_blank">平成17年3月期　個別中間財務諸表の概要</a></font></td>
+                      <td nowrap><font size="1">平成16年11月9日</font></td>
+                    </tr>
+                    
+                    <tr>
+                      <td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+                      <td><font size="2"><a href="../ir/pdf/040728renketu.pdf" target="_blank">平成17年3月期　第1四半期財務・業績の概況（連結）</a>　</font></td>
+                      <td nowrap><font size="1">平成16年7月28日</font></td>
+                    </tr>
+                    
+                    <tr>
+                      <td width="15" valign="baseline"><img src="../common_image/pdf_is.gif" alt="" width="15" height="16" vspace="2"></td>
+                      <td><font size="2"><a href="../ir/pdf/040728kobetu.pdf" target="_blank">平成17年3月期　第1四半期財務・業績の概況（個別）</a></font></td>
+                      <td nowrap><font size="1">平成16年7月28日</font></td>
+                    </tr>
+                </table>
+                  <br>
+                  <br>
+                  <table width="540" border="0" cellpadding="5" cellspacing="0" bgcolor="#F3F3F3">
+                    <tr>
+                      <td><img src="../common_image/arrw_01.gif" alt="" width="19" height="11"><font size="2"><strong><a href="gyouseki_archives.html">平成15年度～平成12年度はこちらをクリック下さい。</a></strong></font></td>
+                    </tr>
+                  </table>
+                  <br>
+                <br>
+                
+                  
+                  <TABLE width="400" border="0" cellpadding="2" cellspacing="0" class="anc">
+                    <TR>
+                      <TD width="91"><A href="http://www.adobe.co.jp/products/acrobat/readstep2.html" target="_blank"><IMG src="../common_image/getacro.gif" alt="" width="88" height="31" border="0"></A></TD>
+                      <TD><FONT color="#333333">この中にはPDFファイルを使用しているものがあり、ご覧になるにはAdobet
+                          Readerが必要です。</FONT></TD>
+                    </TR>
+                  </TABLE>
+                  <br>
+                  <br>
+                  <table width="540" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td align="right"><a href="#top"><img src="../common_image/up.gif" alt="上に戻る" width="51" height="26" border="0"></a></td>
+                    </tr>
+                  </table>
+                  <table width="540" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td height="1" align="right"><img src="../common_image/dt_547.gif" alt="" width="547" height="1"></td>
+                    </tr>
+                  </table>
+                  <br>
+                  <br>
+              </div></td>
+          </tr>
+      </table>        <!-- #BeginLibraryItem "/Library/ft.lbi" -->
+<link href="../css/text.css" rel="stylesheet" type="text/css">
+<table width="100%" border="0" cellpadding="15" cellspacing="0" bgcolor="#BDCEDF" class="pan">
+          <tr>
+            <td>株式会社ユアテック　　</td>
+          </tr>
+</table>
+<div align="right"><span class="pan">All Rights Reserved,Copyright(C)2005,Yurtec Co.,Inc.Sendai,Japan.</span></div>
+<!-- #EndLibraryItem --></td>
+      <td width="3" nowrap background="../common_image/right_bg.gif"><img src="../common_image/pix.gif" alt="" width="3" height="8"></td>
+      <td bgcolor="#D8DEE2"><img src="../common_image/pix.gif" alt="" width="1" height="1"></td>
+    </tr>
+  </table>
+</div>
+<!-- ************************** -->
+<script language="JavaScript"><!--
+	var ImageWidth  =  1;
+	var ImageHeight =  1;
+	var ScriptUrl   = '/cgi-bin/y99999/access/log4.cgi';
+	var CounterName = 'ir/index';
+
+	var Tag = '<img' +
+				' src="'   + ScriptUrl   + '?' + CounterName + '@' + document.referrwolser + '"' +
+				' width='  + ImageWidth  +
+				' height=' + ImageHeight +
+	          '>';
+
+	document.write(Tag);
+
+    // --></script>
+    <noscript><img src="/cgi-bin/y99999/access/log4.cgi?01top@" width="1" height="1"></noscript>
+<!-- ************************** -->
+</body>
+</html>

@@ -1,0 +1,422 @@
+<!doctype html>
+<!--[if IE 8]><html class="ie8" lang="ja"><![endif]-->
+<!--[if IE 9]><html class="ie9" lang="ja"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="ja" class="no-js"><!--<![endif]-->
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<script>
+if (screen.width < 601) {
+document.write('<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1">');
+} else {
+document.write('<meta name="viewport" content="width=1000">');
+}
+</script>
+<meta name="description" content="株式会社DNAチップ研究所は、ライフサイエンス分野の診断ツール開発を通じ、誰もが健やかに暮らせるための予防医療に貢献します。">
+<meta name="keywords" content="">
+<meta name="format-detection" content="telephone=no">
+<title>株式会社DNAチップ研究所</title>
+<link href="img/common/favicon.ico" rel="shortcut icon" type="image/x-icon">
+<link href="apple-touch-icon-precomposed.png" rel="apple-touch-icon-precomposed">
+<link href="https://fonts.googleapis.com/css?family=Lato:400,300,100,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Josefin+Slab:400,600" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet" media="all">
+<link href="css/meanmenu.css" rel="stylesheet" media="all">
+<link href="css/top.css" rel="stylesheet" media="all">
+<link href="css/slick-theme.css" rel="stylesheet" media="all">
+<link href="css/slick.css" rel="stylesheet" media="all">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="js/modernizr.custom.js"></script>
+<script src="js/jquery.meanmenu.js"></script>
+<script src="js/common.js"></script>
+<script src="js/analitics_unv.js"></script>
+<!--[if lt IE 9]>
+<script src="js/html5shiv.min.js"></script>
+<script src="js/css3-mediaqueries.js"></script>
+<script src="js/selectivizr-min.js"></script>
+<script>
+jQuery(document).ready(function($){
+if(!Modernizr.svg){
+$("img[src$='.svg'], input[src$='.svg']").each(function(){
+$(this).attr('src', $(this).attr('src').replace('.svg', '.png'));
+});
+}
+});
+</script>
+<![endif]-->
+<!-- Open Graph -->
+<meta property="og:title" content="株式会社DNAチップ研究所">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.dna-chip.co.jp/">
+<meta property="og:image" content="/img/top/ogp_top.jpg">
+<meta property="og:description" content="株式会社DNAチップ研究所は、ライフサイエンス分野の診断ツール開発を通じ、誰もが健やかに暮らせるための予防医療に貢献します。">
+<meta property="og:site_name" content="株式会社DNAチップ研究所">
+</head>
+
+<body id="top">
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+var js, fjs = d.getElementsByTagName(s)[0];
+if (d.getElementById(id)) return;
+js = d.createElement(s); js.id = id;
+js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.5&appId=122635951159080";
+fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- header BGN -->
+
+<header>
+<div id="header" class="clearfix container">
+<nav>
+<h1 id="siteId"><a href="index.html"><img src="img/common/logo.svg" alt="株式会社DNAチップ研究所"></a></h1>
+<div id="nav">
+<ul>
+<li id="srchForm">
+<div>
+<form action="https://www.dna-chip.co.jp/result.html" method="get" id="srch" target="yjserp">
+<input type="text" name="p" id="srchInput">
+<input type="image" src="img/common/icon_search.svg" id="srchBtn" alt="検索">
+<input type="hidden" id="fr" name="fr" value="cse">
+<input type="hidden" id="ei" name="ei" value="utf-8">
+<input type="hidden" id="csid" name="csid" value="frnF6YZ9ZIHN_l6WOGeg8DSBAX23_ebFjyEb">
+<input type="hidden" id="yjInsite" name="vs" value="www.dna-chip.co.jp">
+</form>
+</div>
+</li>
+<li id="gn_top" class="sub"><a href="index.html">ホーム</a></li>
+<li id="gn_diagnosis">
+<a href="diagnostic/index.html"><span>診断</span></a>
+<ul class="sub">
+<li><a href="diagnostic/immunity/index.html">免疫年齢（加齢）</a></li>
+<li><a href="diagnostic/rheumacheck/index.html">リウマチェック3（関節リウマチ）</a></li>
+<li><a href="diagnostic/egfr/index.html">EGFR-NGSチェック（肺がん）</a></li>
+<li><a href="diagnostic/mammaprint/index.html">MammaPrint（乳がん）</a></li>
+<li><a href="diagnostic/gicancer/index.html">マイクロアレイ血液検査（消化器がん）</a></li>
+<!--<li><a href="research/rnacheck/index.html">あなたとRNAチェック</a></li>-->
+</ul>
+</li>
+<li id="gn_services">
+<a href="services/index.html"><span>受託</span></a>
+<ul class="sub">
+<li><a href="services/microarray_index.html">マイクロアレイ受託サービス</a></li>
+<li><a href="services/sequence.html">次世代シークエンス解析サービス</a></li>
+<li><a href="services/realtime_pcr.html">リアルタイムPCR</a></li>
+<li><a href="services/digital_pcr.html">デジタルPCR</a></li>
+<li><a href="services/c3check.html">C3チェックサービス</a></li>
+</ul>
+</li>
+<li id="gn_products">
+<a href="products/index.html"><span>製品</span></a>
+<ul class="sub">
+<li><a href="products/sensei/index.html">ハイブリ先生</a></li>
+<li><a href="products/iris/index.html">関節リウマチ問診システムiRIS</a></li>
+<li><a href="products/tbone/index.html">硬組織（歯牙・骨）用DNA抽出キットTBONE EX KIT</a></li>
+</ul>
+</li>
+<li id="gn_research">
+<a href="research/index.html"><span>研究開発</span></a>
+<ul class="sub">
+<!--<li><a href="research/cnv_achievement.html">CNV・ゲノム医学解析</a></li>-->
+<li><a href="research/rnacheck.html">RNAチェック（研究開発）</a></li>
+</ul>
+</li>
+<li id="gn_company">
+<a href="company/index.html"><span>会社案内</span></a>
+<ul class="sub">
+<li><a href="company/message.html">社長ご挨拶</a></li>
+<li><a href="company/company.html">会社情報</a></li>
+<li><a href="company/ir.html">IR情報</a></li>
+<li><a href="company/access.html">アクセス</a></li>
+</ul>
+</li>
+<li id="gn_info"><a href="information/index.html"><span>お問い合わせ</span></a></li>
+<li id="hn_privacy" class="sub"><a href="information/privacy.html">個人情報保護について</a></li>
+<li id="hn_en"><a href="en/index.html" target="_blank">English</a></li>
+</ul>
+</div>
+</nav>
+</div>
+</header>
+
+<!-- //header END -->
+
+<!-- main(contents) BGN -->
+
+<main>
+<section>
+<div id="key" class="container">
+<h1 id="slogan" class="cjk"><span class="cjk brk">ライフサイエンス分野の<span class="cjk sp"><span class="emphasis cjk">診断ツール開発</span>を通じ、</span></span>誰もが健やかに暮らせるための<span class="cjk sp"><span class="emphasis cjk">予防医療に貢献</span>します</span></h1>
+<p class="pic"><img src="img/top/key.jpg" alt="キービジュアル"></p>
+<ul id="feature" data-mh="featureItem">
+<li id="icon_diagnosis"><a href="diagnostic/index.html" class="item"><dl><dt class="cjk">診断</dt><dd class="cjk">リウマチェック3、MammaPrint、免疫年齢、EGFR-NGSチェック、消化器がん検査</dd></dl></a></li>
+<li id="icon_services"><a href="services/index.html" class="item"><dl><dt class="cjk">受託サービス</dt><dd class="cjk">マイクロアレイ、次世代シーケンス、リアルタイムPCR、デジタルPCR、C3チェックサービス</dd></dl></a></li>
+<li id="icon_products"><a href="products/index.html" class="item"><dl><dt class="cjk">取扱製品</dt><dd class="cjk">ハイブリ先生、iRIS、Tbone EX Kit</dd></dl></a></li>
+<li id="icon_research"><a href="research/index.html" class="item"><dl><dt class="cjk">研究開発</dt><dd class="cjk">DNAチップ研究所の研究内容はこちら</dd></dl></a></li>
+</ul>
+</div>
+
+<!-- section BGN -->
+
+<section>
+<h2 class="heading cjk"><span class="cjk" style="color:red;">緊急対応のお願い（必ずお読み下さい）</span></h2>
+<div style="width:55%;text-align:center;position:relative;left:20%;border:double 3px gold;padding:20px;">
+	<em style="font-size:1.2em;">【重要】関節リウマチ問診システム<br><br>iRISユーザー各位</em>
+	<p>　今般、関節リウマチ問診システムiRISのデータバックアップに際し、警告なくデータの損失を伴う事象の発生がございました(2017年6月)。
+	ご利用中の皆様におかれましては、別紙の<a href="/common/pdf/iRIS20170628-2.pdf" style="text-decoration:underline;" target="_blank"><img src="img/common/icon_pdf.svg" alt="PDF">注意事項</a>を必ずお読みいただき、データの損失が発生しないように、ご注意いただけますようお願い申し上げます。<br>
+	なお、今後、事象の詳細等が判明次第、続報をお知らせいたします。</p>
+	<p>　<a href="/common/pdf/iRIS20170628-1.pdf" style="text-decoration:underline;" target="_blank"><img src="img/common/icon_pdf.svg" alt="PDF">詳細、お問合せ先につきまして</a><br>
+	　<a href="/common/pdf/iRIS20170628-2.pdf" style="text-decoration:underline;" target="_blank"><img src="img/common/icon_pdf.svg" alt="PDF">データバックアップ時のデータ損失に関する注意事項</a><br>
+	　<a href="/common/pdf/iRIS20170707.pdf" style="text-decoration:underline;" target="_blank"><img src="img/common/icon_pdf.svg" alt="PDF">データバックアップに関する注意事項（続報１）</a><br>
+
+	<p style="text-align:right;">
+	平成29年6月28日<br>
+	株式会社DNAチップ研究所
+	</p>
+
+</div>
+</section>
+
+<section>
+<div id="pickup" class="container">
+<h2 class="heading slab"><span class="slab">PICK UP</span></h2>
+<ul>
+<li><span class="pickup">★キャンペーン</span><a href="common/news20170605.html">2017年度上期キャンペーンの実施中！</a></li>
+<li><span class="pickup">★受託解析</span><a href="services/c3check.html">「C3チェックサービスプラス」開始</a></li>
+<li><span class="pickup">★受託解析</span><a href="common/news20161006.html">デジタルPCR受託サービス開始</a></li>
+</ul>
+</div>
+</section>
+
+<section>
+<div id="main" class="oneColumn">
+<h2 class="heading cjk"><span class="cjk">主要製品、サービス</span></h2>
+<div id="slider">
+<div class="slider container multiple-items" data-mh="sliderItem">
+<div class="item"><h3 class="thumb"><a href="diagnostic/rheumacheck/index.html"><img src="img/top/bnr_rheumacheck.png" alt="リウマチェック&sup3;"></a></h3><p>血液中の遺伝子の働き具合から生物学的抗リウマチ薬の効果予測をする検査です。</p></div>
+<div class="item"><h3 class="thumb"><a href="diagnostic/egfr/index.html"><img src="img/top/bnr_egfr.png" alt="EGFR-NGSチェック"></a></h3><p>リキッドバイオプシーによる、EGFR遺伝子変異を検出する検査です。次世代シーケンサー（NGS）を用いて高感度に検出します。</p></div>
+<div class="item"><h3 class="thumb"><a href="diagnostic/immunity/index.html"><img src="img/top/bnr_immunity.png" alt="免疫年齢"></a></h3><p>血液中の遺伝子の働き具合を解析し、生体内のからだ年齢を検査します。</p></div>
+<div class="item"><h3 class="thumb"><a href="diagnostic/gicancer/index.html"><img src="img/top/bnr_gicancer.png" alt="マイクロアレイ血液検査"></a></h3><p>血液中の遺伝子の働き具合を解析し、消化器がん（胃がん、大腸がん、膵臓がん、胆道がん）の有無をチェックします。</p></div>
+<div class="item"><h3 class="thumb"><a href="diagnostic/mammaprint/index.html"><img src="img/top/bnr_mammaprint.png" alt="マンマプリント"></a></h3><p>乳がんの再発リスクが高いか低いかを、手術によって摘出された腫瘍組織を解析することで予測します。</p></div>
+<div class="item"><h3 class="thumb"><a href="services/microarray_index.html"><img src="img/top/bnr_microarray.png" alt="マイクロアレイ受託"></a></h3><p>マイクロアレイに関する各種実験・解析受託サービスです。研究開発で培った豊富な経験とノウハウがあります。</p></div>
+<div class="item"><h3 class="thumb"><a href="services/sequence.html"><img src="img/top/bnr_sequence.png" alt="次世代シークエンス受託"></a></h3><p>次世代シークエンスに関する各種実験・解析受託サービスです。データ解析を含め専門のスタッフが細やかにサポートいたします。</p></div>
+<div class="item"><h3 class="thumb"><a href="products/tbone/index.html"><img src="img/top/bnr_tbone.png" alt="TBone EX Kit"></a></h3><p>硬組織である歯牙や骨を粉末化・断片化せずにゲノムDNAを抽出するキットです。</p></div>
+<div class="item"><h3 class="thumb"><a href="products/sensei/index.html"><img src="img/top/bnr_sensei.png" alt="ハイブリ先生"></a></h3><p>DNAチップの作製から判定結果まで実体験できるキットです。DNAチップ解析の原理と有効性を学ぶことができます。</p></div>
+</div>
+</div>
+</div>
+</section>
+<section>
+<div id="news" class="container">
+<ul>
+
+
+<h2 class="heading cjk"><span class="cjk">お知らせ</span></h2>
+<li class="info">
+	<dl class="info">
+	<dt>
+	<em>夏季休暇のお知らせ</em>
+	</dt>
+	<dd class="info">
+	<p>DNAチップ研究所は、弊社カレンダーに基づき下記の日程を休暇とさせていただきます。</p>
+	
+
+	<p><em>
+	2017年8月11日（金）～2017年8月20日（日）&emsp;夏季休暇
+	</em></p>
+
+	<p class="notice">この期間内にいただきましたお問い合わせ等は、2017年8月21日（月）より順次対応致しますので、予めご了承下さい。</p>
+	</dd>
+	</dl>
+</li>
+
+<!--
+<li>
+	<dl>
+	<dt>
+	<span class="pubDate">2016.3.23</span>
+	<span class="icon cate"><span>展示会・セミナー/製品・サービス/お知らせ/研究開発</span></span>
+	<span class="icon new"><em>New!</em></span>
+	</dt>
+	<dd><a href="#">お知らせタイトル<span class="appended"><img src="img/common/icon_pdf.svg" alt="PDF"></span></a></dd>
+	</dl>
+</li>
+-->
+
+<h2 class="heading slab"><span class="slab">News</span></h2>
+
+<li>
+	<dl>
+	<dt>
+	<span class="pubDate">2017.7.7</span>
+	<span class="icon cate"><span>お知らせ</span></span>
+	<span class="icon new"><em>New!</em></span>
+	</dt>
+	<dd><a href="/common/pdf/iRIS20170707.pdf" target="_blank">【重要】関節リウマチ問診システム データバックアップに関する注意事項（続報１）</a></dd>
+	</dl>
+</li>
+
+<li>
+	<dl>
+	<dt>
+	<span class="pubDate">2017.6.28</span>
+	<span class="icon cate"><span>お知らせ</span></span>
+	</dt>
+	<dd><a href="/common/pdf/iRIS20170628-1.pdf" target="_blank">【重要】関節リウマチ問診システム iRIS 緊急対応のお願い</a></dd>
+	<dd><a href="/common/pdf/iRIS20170628-2.pdf" target="_blank">【重要】関節リウマチ問診システム データバックアップ時のデータ損失に関する注意事項</a></dd>
+	</dl>
+</li>
+
+<li>
+	<dl>
+	<dt>
+	<span class="pubDate">2017.6.23</span>
+	<span class="icon cate"><span>展示会・セミナー</span></span>
+	</dt>
+	<dd><a href="common/news20170623.html">第25回日本乳癌学会学術総会への出展のお知らせ</a></dd>
+	</dl>
+</li>
+
+<li>
+	<dl>
+	<dt>
+	<span class="pubDate">2017.6.5</span>
+	<span class="icon cate"><span>製品・サービス</span></span>
+	</dt>
+	<dd><a href="common/news20170605.html">2017年度上期キャンペーンのお知らせ</a></dd>
+	</dl>
+</li>
+
+
+<li>
+	<dl>
+	<dt>
+	<span class="pubDate">2017.4.27</span>
+	<span class="icon cate"><span>製品・サービス</span></span>
+	</dt>
+	<dd><a href="common/news20170427.html">DiVA-EGFRチェック検査名称変更のお知らせ</a></dd>
+	</dl>
+</li>
+
+
+<li>
+	<dl>
+	<dt>
+	<span class="pubDate">2017.4.17</span>
+	<span class="icon cate"><span>展示会・セミナー</span></span>
+	</dt>
+	<dd><a href="common/news20170417.html">第61回 日本リウマチ学会総会・学術集会で発表、企業出展のお知らせ</a></dd>
+	</dl>
+</li>
+
+
+
+</ul>
+
+<p class="moreLink"><a href="past_information.html"><span>過去のお知らせ</span></a></p>
+</div>
+</section>
+
+<!-- //section END -->
+
+</section>
+</main>
+
+<!-- //main(main contents) END -->
+
+<!-- footer BGN -->
+
+<footer>
+<div id="footer">
+<div id="sitemap">
+<div class="container clearfix">
+<div class="sitemap">
+<h2 class="headline"><a href="diagnostic/index.html">診断</a></h2>
+<h3 class="heading"><a href="diagnostic/immunity/index.html">免疫年齢（加齢）</a></h3>
+<h3 class="heading"><a href="diagnostic/rheumacheck/index.html">リウマチェック3（関節リウマチ）</a></h3>
+<h3 class="heading"><a href="diagnostic/egfr/index.html">EGFR-NGSチェック（肺がん）</a></h3>
+<h3 class="heading"><a href="diagnostic/mammaprint/index.html">MammaPrint（乳がん）</a></h3>
+<h3 class="heading"><a href="diagnostic/gicancer/index.html">マイクロアレイ血液検査（消化器がん）</a></h3>
+</div>
+<div class="sitemap">
+<h2 class="headline"><a href="services/index.html">受託サービス</a></h2>
+<h3 class="heading"><a href="services/microarray_index.html">マイクロアレイ</a></h3>
+<h3 class="heading"><a href="services/sequence.html">次世代シークエンス</a></h3>
+<h3 class="heading"><a href="services/realtime_pcr.html">リアルタイムPCR</a></h3>
+<h3 class="heading"><a href="services/digital_pcr.html">デジタルPCR</a></h3>
+<h3 class="heading"><a href="services/c3check.html">C3チェックサービス</a></h3>
+</div>
+<div class="sitemap">
+<h2 class="headline"><a href="products/index.html">取扱製品</a></h2>
+<h3 class="heading"><a href="products/sensei/index.html">ハイブリ先生</a></h3>
+<h3 class="heading"><a href="products/iris/index.html">関節リウマチ問診システムiRIS</a></h3>
+<h3 class="heading"><a href="products/tbone/index.html">硬組織用DNA抽出キットTBONE EX KIT</a></h3>
+</div>
+<div class="sitemap">
+<h2 class="headline"><a href="research/index.html">研究開発</a></h2>
+<h3 class="heading"><a href="research/rnacheck.html">RNAチェック</a></h3>
+</div>
+<div class="sitemap">
+<h2 class="headline"><a href="company/index.html">会社案内</a></h2>
+<h3 class="heading"><a href="company/message.html">社長ご挨拶</a></h3>
+<h3 class="heading"><a href="company/company.html">会社情報</a></h3>
+<h3 class="heading"><a href="company/ir.html">IR情報</a></h3>
+<h3 class="heading"><a href="company/access.html">アクセス</a></h3>
+</div>
+</div>
+</div>
+<div class="container">
+<ul id="footerNavi">
+<li><a href="index.html">ホーム</a></li><li><a href="information/index.html">お問い合わせ</a></li><li><a href="information/privacy.html">個人情報保護について</a></li>
+</ul>
+<div class="sns">
+<div class="twtr"><a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></div><!--
+--><div class="fb"><div class="fb-like" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div></div><!--
+--><div class="line"><span><script type="text/javascript" src="//media.line.me/js/line-button.js?v=20140411" ></script><script type="text/javascript">new media_line_me.LineButton({"pc":false,"lang":"ja","type":"a"});</script></span></div>
+</div>
+<p id="address"><small>Copyright&copy; All rights reserved by DNA Chip Research Inc.</small></p>
+</div>
+</div>
+
+<p id="pageTop"><a href="#header"><img src="img/common/arrow_up.svg" alt="ページトップ"></a></p>
+</footer>
+
+<!-- footer END -->
+
+<!-- JavaScript(original) BGN -->
+
+<script src="js/jquery.matchHeight.js"></script>
+<script src="js/slick.js"></script>
+<script>
+jQuery(document).ready(function($) {
+$('.item').matchHeight();
+var flag;
+function check() {
+if($('html').width() < 601 ){
+if(flag){
+$('.multiple-items').slick('unslick');
+flag = 0;
+}} else {
+$('.multiple-items').slick({
+infinite: true,
+slidesToShow: 4,
+slidesToScroll: 4,
+dots: false,
+autoplay:true,
+autoplaySpeed:5000
+});
+flag = 1;
+}}
+$(function(){
+check();
+});
+$(window).resize(function() {
+check();
+});
+});
+</script>
+
+</body>
+</html>

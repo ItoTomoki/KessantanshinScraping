@@ -1,0 +1,395 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta http-equiv="content-script-type" content="text/javascript" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<meta name="description" content="自然のおいしさを、暮らしや時代が求めるおいしさにする、はごろもフーズのホームページです。シーチキン、ツナ缶やコーンの缶詰、パスタ、包装米飯、かつお節、のりなど、海や大地の恵みをまごころをこめてお届けします。" />
+<meta name="keywords" content="" />
+<title>人と自然をおいしくつなぐ　はごろもフーズ</title>
+<link href="css/common/layout.css" rel="stylesheet" type="text/css" />
+<link href="css/common/general.css" rel="stylesheet" type="text/css" />
+<link href="css/index.css" rel="stylesheet" type="text/css" />
+<link href="css/index_mov.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/js/jquery-1.3.2.min.js"></script>
+<script type="text/javascript" src="/js/jquery.cookie.js"></script>
+<script type="text/javascript" src="/js/fontchange.js"></script>
+<script type="text/javascript" src="/js/index.js"></script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-32907689-1']);
+  _gaq.push(['_setDomainName', 'hagoromofoods.co.jp']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<script type="text/javascript">
+function recordOutboundLink(link, category, action) {
+try {
+var pageTracker=_gat._getTracker("UA-32907689-1");
+pageTracker._trackEvent(category, action);
+setTimeout('document.location = "' + link.href + '"', 100)
+}catch(err){}
+}
+</script>
+</head>
+<body>
+<div id="container">
+	<script>
+$(function(){
+	var acclog_cgi_url =
+document.location.protocol+'//'+location.hostname+'/local/acc/acclog.cgi';
+	var img = document.createElement("img");
+	img.src = acclog_cgi_url + "?referrer=" + document.referrer + "&width="
++ screen.width + "&height=" + screen.height + "&color=" +
+screen.colorDepth + "&epoch=" + new Date().getTime();
+});
+</script>
+<div id="header">
+	<div class="headerBox clearfix">
+		<div class="logo floatL"><a href="/"><img src="/img/common/logo.jpg" alt="Hagoromo はごろもフーズ" /></a></div>
+		<div class="rBox">
+			<div class="topBox clearfix">
+				<ul class="link clearfix">
+					<li class="link01"><a href="/company/"><img src="/img/common/link_img01.gif" alt="会社情報" /></a></li>
+					<li class="link02"><a href="/contact/"><img src="/img/common/link_img02.gif" alt="お問い合わせ" /></a></li>
+				</ul>
+				<form action="/search/" method="post" class="mailForm">
+					<ul class="search clearfix">
+						<li>
+							<input type="text" value="" title="サイト内検索" name="search" id="search" />
+						</li>
+						<li>
+							<input type="image" src="/img/common/btn/btn01.jpg" alt="検索" value="検索" class="dis" name="send" onmouseover="this.src='/img/common/btn/btn01_o.jpg'" onmouseout="this.src='/img/common/btn/btn01.jpg'" />
+						</li>
+					</ul>
+				</form>
+			</div>
+			<ul class="font clearfix">
+				<li class="fontsB" id="fl" onclick="font('3');"><a href="#"><img src="/img/common/btn/btn04.jpg" alt="大" /></a></li>
+				<li class="fontsM" id="fm" onclick="font('2');"><a href="#"><img src="/img/common/btn/btn03.jpg" alt="中" /></a></li>
+				<li class="fontsS" id="fs" onclick="font('1');"><a href="#"><img src="/img/common/btn/btn02.jpg" alt="小" /></a></li>
+				<li><img src="/img/common/text_img.gif" alt="文字サイズ" /></li>
+			</ul>
+		</div>
+	</div>
+	<ul id="gNavi" class="clearfix">
+		<li class="navi01"><a href="/">HOME</a></li>
+		<li class="navi02"><a href="/recipe/">レシピ RECIPE</a></li>
+		<li class="navi03"><a href="/products/">商品情報 PRODUCTS</a></li>
+		<li class="navi04"><a href="/knowledge/">知る・楽しむ Learn &amp; Fun</a></li>
+		<li class="navi05"><a href="/business/">業務用情報 business use</a></li>
+	</ul>
+</div>
+
+
+	<div class="hBox">
+		<div class="mov">
+			<a href="/shokudou/" target="_blank"><img src="img/index_mov/shokudou5.jpg" alt="シーチキン食堂" width="960" height="310" border="0" class="obj01" /></a>
+		</div>
+		<div class="mov thereafter">
+			<a href="/mai-special/" target="_blank"><img src="img/index_mov/bnr_A.jpg" alt="まいにち舞食" width="960" height="310" border="0" class="obj01" /></a>
+		</div>
+
+	</div>
+	<div id="warp">
+		<div id="main" class="clearfix">
+			<div class="titleBox">
+				<ul class="btn01 clearfix">
+					<li><img src="/img/title.jpg" alt="はごろもフーズの商品一覧" /></li>
+				</ul>
+				<div class="top clear">
+					<div class="infoSection clearfix">
+						<div class="section clearfix">
+							<div class="photoBox"><a href="/products/"><img src="/img/photo01.jpg" alt="" /></a></div>
+							<div class="textBox floatR">
+								<p><img src="/img/imgtext02.gif" alt="家庭用商品" /></p>
+								<a href="/products/">家庭用商品の一覧はこちらから</a></div>
+						</div>
+						<div class="section clearfix">
+							<div class="photoBox"><a href="/business/"><img src="/img/photo04.jpg" alt="" /></a></div>
+							<div class="textBox floatR">
+								<p><img src="/img/imgtext05.gif" alt="業務用商品" /></p>
+								<a href="/business/">業務用商品の一覧はこちらから</a></div>
+						</div>
+						<div class="section clearfix">
+							<div class="photoBox"><a href="/products/giftset/"><img src="/img/photo02.jpg" alt="" /></a></div>
+							<div class="textBox floatR">
+								<p><img src="/img/imgtext03.gif" alt="ギフト" /></p>
+								<a href="/products/giftset/">ギフトの一覧は<br />
+								こちらから</a></div>
+						</div>
+						<div class="section clearfix">
+							<div class="photoBox"><a href="/products/petcare/"><img src="/img/photo03.jpg" alt="" /></a></div>
+							<div class="textBox floatR">
+								<p><img src="/img/imgtext04.gif" alt="ペットフード" /></p>
+								<a href="/products/petcare/">ペットフードの一覧はこちらから</a></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="mainBox clearfix">
+				<div id="conts">
+					<div class="photo"><a href="/kaiun/"><img src="/img/kaiun0530.jpg" alt="ボルサリーノ関の開運レシピ" /></a></div>
+					<img src="/img/p01_bg.gif" alt="" class="dis clear" />
+
+					<div class="photo"><a href="/products/2017/"><img src="/img/bnr_2017.jpg" alt="2017年 新商品一覧" /></a></div>
+
+					<h2><img src="/img/h2_img01.jpg" alt="インターネットでも購入できます ONLINE SHOP" /></h2>
+					<div class="photo"><a href="http://shop.hagoromofoods.co.jp/" target="_blank"><img src="/img/photo05.jpg" alt="やわらかい商品を通して、お客様にやさしさをお届けしたい。小分けで便利なパックごはんや、おいしいお惣菜など、体にやさしい商品をお届けします。" /></a></div>
+					<h2 class="h201"><img src="/img/h2_img02.jpg" alt="はごろもフーズをもっと知る・楽しむ LERRN&amp;FUN" /> <a href="/knowledge/"><img src="/img/btn03.jpg" alt="一覧はこちら" class="img02" /></a> </h2>
+					<div class="inner">
+						<div class="innerBox clearfix">
+							<div class="lBox">
+								<div class="section clearfix">
+									<div class="photoBox"><a href="/knowledge/cm/"><img src="/knowledge/cm/img/photo19.jpg" alt="" /></a></div>
+									<div class="textBox">
+										<dl>
+											<dt><a href="/knowledge/cm/">CMギャラリー</a></dt>
+											<dd>はごろもフーズのTVCMをご紹介します。</dd>
+										</dl>
+									</div>
+								</div>
+							</div>
+							<div class="rBox">
+								<div class="section clearfix">
+									<div class="photoBox"><a href="/knowledge/seachicken/"><img src="/img/photo07.jpg" alt="" /></a></div>
+									<div class="textBox">
+										<dl>
+											<dt><a href="/knowledge/seachicken/">シーチキン情報</a></dt>
+											<dd>ひとくちに「シーチキン」といっても実はこんなに種類がいっぱい。</dd>
+										</dl>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="innerBox clearfix clear mb0">
+							<div class="lBox">
+								<div class="section clearfix">
+									<div class="photoBox"><a href="/knowledge/factory/seachicken/"><img src="/img/photo08.jpg" alt="" /></a></div>
+									<div class="textBox">
+										<dl>
+											<dt><a href="/knowledge/factory/seachicken/">工場見学</a></dt>
+											<dd>映像で見るシーチキンが出来るまで！</dd>
+										</dl>
+									</div>
+								</div>
+							</div>
+							<div class="rBox">
+								<div class="section clearfix">
+									<div class="photoBox"><a href="/knowledge/faq/"><img src="/img/photo09.jpg" alt="" /></a></div>
+									<div class="textBox">
+										<dl>
+											<dt><a href="/knowledge/faq/">缶詰なんでもQ&amp;A</a></dt>
+											<dd>かんづめに関するあなたの「？」にお答えします。 </dd>
+										</dl>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="subBox clearfix clear">
+						<div class="photoBox"><a href="/knowledge/faq/faq_005.html"><img src="/img/photo10.jpg" alt="イージーオープン缶の正しいあけ方 簡単！" /></a></div>
+						<div class="photoBox" style="width:32px">&nbsp;</div>
+						<div class="photoBox"><a href="/recipe/dashi/"><img src="/img/photo13.jpg" alt="おいしいだし汁の取り方" /></a></div>
+					</div>
+					<h2 class="h201"><img src="/img/h2_img03.jpg" alt="はごろもフーズからのお知らせ　NEWS" /></h2>
+					<div class="comNews">
+						<dl class="clearfix news">
+							
+								<dt>平成29年8月21日</dt>
+								
+									<dd><a href="/company/news/" >「ニュースリリース」を更新しました（新製品発売のお知らせ「ふりかけ４品」「かつおパックはごろも舞0.7g」「ペットフード是好日」「ペットフードまぐろで幸せ」）。</a></dd>
+								
+							
+								<dt>平成29年8月16日</dt>
+								
+									<dd><a href="/company/news/" >「ニュースリリース」を更新しました（新製品発売のお知らせ「ポポロスパCarbOFF」「おさかなでPASTA」）。</a></dd>
+								
+							
+								<dt>平成29年8月10日</dt>
+								
+									<dd><a href="/company/ir/" >「投資家の皆様へ」に平成30年3月期第1四半期報告書を掲載しました。</a></dd>
+								
+							
+								<dt>平成29年8月10日</dt>
+								
+									<dd><a href="/company/ir/" >「投資家の皆様へ」に平成30年3月期第1四半期決算短信を掲載しました。</a></dd>
+								
+							
+								<dt>平成29年8月10日</dt>
+								
+									<dd><a href="/company/news/" >「ニュースリリース」を更新しました（「平成30年3月期第1四半期決算短信」）。</a></dd>
+								
+							
+								<dt>平成29年8月10日</dt>
+								
+									<dd><a href="/company/news/" >「ニュースリリース」を更新しました（新製品発売のお知らせ「ゆであずきカロリー30％オフ」「おかずで健康・さばで健康」）。</a></dd>
+								
+							
+								<dt>平成29年8月7日</dt>
+								
+									<dd><a href="/company/news/" >「ニュースリリース」を更新しました（新製品発売のお知らせ「サラダピースシーチキン」「シーチキンSmileLフレーク米油・マイルドコーン入り」「シーチキンきはだとろ炊き込みご飯の素」）。</a></dd>
+								
+							
+								<dt>平成29年7月31日</dt>
+								
+									<dd><a href="/recipe/" >「今月のレシピ」を更新しました。</a></dd>
+								
+							
+								<dt>平成29年7月28日</dt>
+								
+									<dd><a href="/company/news/" >「ニュースリリース」を更新しました（シーチキンマイルドおよび削りぶし製品の価格改定のお知らせ）。</a></dd>
+								
+							
+							
+						</dl>
+					</div>
+				</div>
+				<div id="sideBar">
+					<div class="sideBox01">
+						<div class="recipeBox"><img src="/recipe/img/common/recipe_bg01.gif" alt="" class="dis" />
+							<div class="recipe">
+								<p class="title"><img src="/recipe/img/common/title_img01.jpg" alt="今月の Recipe" /></p>
+
+								
+								<div class="section  clearfix">
+									<div class="photoBox"><a href="/recipe/detail/?id=536"><img src="/files/recipe/536.photo/3.s_29-30_2908.jpg" alt="冷製あさりたっぷり濃厚つけ麺" /></a></div>
+									<div class="textBox">
+										<dl>
+											<dt><a href="/recipe/detail/?id=536">冷製あさりたっぷり濃厚つけ麺</a></dt>
+											<dd><a href="/recipe/detail/?id=536"><img src="/recipe/img/common/btn02.jpg" alt="詳細はこちら" /></a></dd>
+										</dl>
+									</div>
+								</div>
+								
+							</div>
+							<img src="/recipe/img/common/recipe_bg03.gif" alt="" class="dis clear" /> </div>
+					</div>
+					<div class="sideBox">
+<div class="recipeBox">
+		<dl class="banner">
+			<dt><a href="/products/allergy/"><img src="/img/common/banner.jpg" alt="allergy アレルギー情報検索" /></a></dt>
+			<dd><a href="/products/allergy/">商品のアレルギー情報を調べることができます</a></dd>
+		</dl>
+	</div>
+		<p class="subject"><img src="/img/common/title_img01.jpg" alt="注目情報" /></p>
+		<dl class="banner">
+
+			<dt><a href="/shokudou/" target=_blank><img src="/img/common/banner_seachicken.jpg" alt="シーチキン食堂" target=_blank /></a></dt>
+			<dd><a href="/shokudou/" target=_blank>シーチキン食堂</a></dd>
+
+			<dt><a href="http://www.tv-asahi.co.jp/obento-letter/?ref=hagoromofoods" target=_blank><img src="/img/common/obento_banner.jpg" alt="おべんとレター放送中!" /></a></dt>
+			<dd><a href="http://www.tv-asahi.co.jp/obento-letter/?ref=hagoromofoods" target=_blank>おべんとレター放送中!<br>(テレビ朝日/番組特設サイトへ)</a></dd>
+
+			<dt><a href="http://cookpad.com/ct/102499" target=_blank><img src="/img/common/cookpad.gif" alt="シーチキン食堂×cookpad" target=_blank /></a></dt>
+			<dd><a href="http://cookpad.com/ct/102499" target=_blank>シーチキン食堂×cookpad</a></dd>
+
+			<dt><a href="/kaiun/" target=_blank><img src="/img/common/kaiun.jpg" alt="ボルサリーノ関の開運レシピ" target=_blank /></a></dt>
+			<dd><a href="/kaiun/" target=_blank>ボルサリーノ関の開運レシピ</a></dd>
+
+			<dt><a href="/mai-special/" target=_blank><img src="/img/common/mai-special.jpg" alt="いろいろかけよう！まいにち舞食！" /></a></dt>
+			<dd><a href="/mai-special/" target=_blank>いろいろかけよう！まいにち舞食！</a></dd>
+
+			<!--<dt><a href="/mai/" target=_blank><img src="/img/common/mai_banner.jpg" alt="はごろも舞" target=_blank /></a></dt>
+			<dd><a href="/mai/" target=_blank>はごろも舞</a></dd>-->
+
+			<dt><a href="/mai_cp/" target=_blank><img src="/img/common/banner_hagoromomaiA_0817.jpg" alt="はごろも舞 あつめて必ずもらえるキャンペーン" target=_blank /></a></dt>
+			<dd><a href="/mai_cp/" target=_blank>はごろも舞 あつめて必ずもらえるキャンペーン</a></dd>
+			
+
+			<dt><a href="/shortpasta_cp/" target=_blank><img src="/img/common/HGRM_OnepotPasta_banner.jpg" alt="ワンポットパスタ特集" target=_blank /></a></dt>
+			<dd><a href="/shortpasta_cp/" target=_blank>ワンポットパスタ特集</a></dd>
+
+			<dt><a href="/recipe/decofuri/"><img src="/recipe/img/common/banner02.jpg" alt="みんなに自慢のお弁当を作っちゃおう! テコふり テコふり"></a></dt>
+			<dd><a href="/recipe/decofuri/">デコふり</a>
+<!--<?php /*
+			<dt><a href="/ninjin_recipe/"><img src="/img/common/banner05.jpg" alt="人参しりしりレシピ"></a></dt>
+			<dd><a href="/ninjin_recipe/">人参しりしりレシピ</a>
+*/ ?>-->
+			<dt><a href="http://shop.hagoromofoods.co.jp/" target="_blank"><img src="/img/common/banner03.jpg" alt="まごころコメール便&reg;やんわか&reg; ネットで購入できます" /></a></dt>
+			<dd><a href="http://shop.hagoromofoods.co.jp/" target="_blank">小分けで便利なご飯パックを宅配いたします。</a></dd>
+
+			<dt><a href="/products/supplement/"><img src="/img/common/banner_supplement.jpg" alt="シーチキンのまぐろから搾ったDHA+EPA" /></a></dt>
+			<dd><a href="/products/supplement/">シーチキンのまぐろから搾ったDHA+EPA</a></dd>
+
+			<dt><a href="/company/information/hagocto/"><img src="/img/common/banner06.jpg" alt="はごろもフーズの環境への取り組みを紹介いたします" /></a></dt>
+			<dd><a href="/company/information/hagocto/">はごろもフーズの環境への取り組みを紹介いたします。</a></dd>
+
+<!--<?php /*
+			<dt><a href="/news/pdf/denshikokoku.pdf" target=_blank><img src="/img/common/banner09.jpg" alt="電子公告" /></a></dt>
+			<dd><a href="/news/pdf/denshikokoku.pdf" target=_blank>電子公告</a></dd>
+*/ ?>-->
+
+		</dl>
+<!--<?php /*
+		<p class="subject"><img src="/img/common/title_img02.jpg" alt="MOBILEサイトはこちら" /></p>
+		<div class="bottom">
+			<img src="/img/common/bottom_bg01.gif" alt="" class="dis" />
+			<div class="section clearfix">
+				<div class="photoBox"><img src="/img/common/img01.jpg" alt="" /></div>
+				<div class="textBox">
+				<img src="/img/common/text_bg01.gif" alt="" class="dis" />
+					<dl>
+						<dt><img src="/img/common/text_img02.gif" alt="http://www.hagoromofoods.co.jp/" /></dt>
+						<dd>URLまたは左のQRコードより<br />
+Let's アクセス！</dd>
+					</dl>
+									<img src="/img/common/text_bg03.gif" alt="" class="dis" />
+
+				</div>
+			</div>
+			<img src="/img/common/bottom_bg03.gif" alt="" class="dis" />
+		</div>
+*/ ?>-->
+</div>
+					<table width="135" border="0" cellpadding="2" cellspacing="0" title="このマークは、ウェブサイトを安心してご利用いただける安全の証です。">
+					<tr>
+					<td width="135" align="center" valign="top"><script type="text/javascript" src="https://seal.websecurity.norton.com/getseal?host_name=www.hagoromofoods.co.jp&amp;size=L&amp;use_flash=NO&amp;use_transparent=YES&amp;lang=ja"></script><br /> <a href="http://www.symantec.com/ja/jp/ssl-certificates/" target="_blank"  style="color:#000000; text-decoration:none; font:bold 12px 'ＭＳ ゴシック',sans-serif; letter-spacing:.5px; text-align:center; margin:0px; padding:0px;">SSL/TLSとは？</a></td>
+					</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="pageTop"><a href="#header"><img src="/img/common/page_top_out.gif" alt="ページトップ" /></a></div>
+</div>
+<div id="footer"> 
+<div class="footerBox">
+	<ul class="fNavi mb0">
+		<li><a href="/">はごろもフーズトップ</a>|</li>
+		<li><a href="/recipe/">レシピ</a>|</li>
+		<li><a href="/products/">商品情報</a>|</li>
+		<li><a href="/knowledge/">知る・楽しむ</a>|</li>
+		<li><a href="/business/">業務用商品情報</a></li>
+	</ul>
+	<ul class="fNavi">
+		<li><a href="/sitemap/">サイトマップ</a>|</li>
+		<li><a href="/privacy/">個人情報保護方針</a>|</li>
+		<li><a href="/sitepolicy/">サイトポリシー</a></li>
+	</ul>
+	<p class="copyRight">COPYRIGHT (C) <script>document.write(new Date().getFullYear())</script> HAGOROMO FOODS CORPORATION. ALL RIGHTS RESERVED.
+</p>
+</div>
+</div>
+
+<!--[if lte IE 6]>
+	<script type="text/javascript" src="/js/MSIE.PNG.js"></script>
+	<script type="text/javascript">
+		fixPng("/js/blank.gif");
+	</script>
+	<script type="text/javascript" src="/js/DD_belatedPNG_0.0.8a-min.js"></script>
+	<script type="text/javascript">
+	DD_belatedPNG.fix('#gNavi li a,#container,#warp');
+	</script>
+<![endif]-->
+</body>
+</html>
+

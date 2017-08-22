@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>東京・千葉のデザイナーズ、リノベーションマンションなら | 株式会社アールエイジ</title>
+<meta name="description" content="「あったらいいな　こんなマンション」 東京・千葉のデザイナーズ、リノベーション、バイカーズマンション等のこだわり賃貸マンションを取り扱っております。[株式会社アールエイジ]">
+<meta name="keywords" content="アールエイジ,early-age,賃貸,デザイナーズ,リノベーション,バイカーズ,デザイナーズマンション,リノベーションマンション,バイカーズマンション,セカンドハウス,セカンドルーム,東京,千葉">
+<link rel="shortcut icon" type="image/x-icon" href="./common/images/favicon.ico">
+<link rel="stylesheet" href="./common/css/reset.css">
+<link rel="stylesheet" href="./common/css/slider-pro.min.css">
+<link rel="stylesheet" href="./common/css/jquery-ui.min.css">
+<link rel="stylesheet" href="./common/css/common.css">
+<link rel="stylesheet" href="./common/css/top.css">
+<script src="./common/js/jquery-1.11.3.min.js"></script>
+<script src="./common/js/jquery-ui-1.11.4.min.js"></script>
+<script src="./common/js/jquery.sliderPro.min.js"></script>
+<script src="./common/js/common.js"></script>
+<script src="./common/js/top.js"></script>
+<script src="./common/js/search.js"></script>
+<script src="./common/js/image_fader.js"></script>
+<script src="./common/js/api.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-23545821-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</head>
+
+<body>
+
+<div class="container">
+  <!-- 左追従バー -->
+  <!-- $B:8DI=>%P!<(B -->
+<div class="left_bar">
+  <h1><a href="/"><img src="/common/images/title_01.png" alt="$B$"$C$?$i$$$$$J!"$3$s$J%^%s%7%g%s!#6u4V(B Kukan Creation Consulting" width="" height=""></a></h1>
+  <p class="left_bar_item rollover" id="menu"><img src="/common/images/menu_off.png" alt="MENU"></p>
+  <p class="left_bar_item"><a href="https://www.facebook.com/EARLY.AGE.ea" target="_blank" class="rollover"><img src="/common/images/fb_off.png" alt="Facebook"></a></p>
+  <p class="left_bar_item"><a href="https://twitter.com/earlyagepr" target="_blank" class="rollover"><img src="/common/images/twitter_off.png" alt="Twitter"></a></p>
+  <!-- $B%I%m%o!<%a%K%e!<(B -->
+  <div class="drawr">
+    <ul>
+      <li class="menu_item">
+      <a href="javascript:void(0)" class="menu_item-search tp-black" id="search"><img src="/common/images/menu_01.png" alt="$B>r7o$+$iC5$9(B"></a>
+      </li>
+      <li class="menu_item"><a href="/all/index.html" class="menu_item-other tp-black"><img src="/common/images/menu_02.png" alt="$BA4J*7o$r4Q$k(B"></a></li>
+      <li class="menu_item"><a href="/voice/index.html" class="menu_item-other tp-black"><img src="/common/images/menu_03.png" alt="USER'S VOICE"></a></li>
+      <li class="menu_item"><a href="/faq/index.html" class="menu_item-other tp-black"><img src="/common/images/menu_04.png" alt="Q&amp;A"></a></li>
+<!--       <li class="menu_item"><a href="javascript:void(0)" class="menu_item-other tp-black"><img src="/common/images/menu_05.png" alt="$B2HC5$7$N%]%$%s%H(B"></a></li> -->
+      <li class="menu_item"><a href="/owner/index.html" class="menu_item-other tp-black"><img src="/common/images/menu_06.png" alt="$B%*!<%J!<MM!&4IM}2q<RMM$X(B"></a></li>
+      <li class="menu_item"><a href="/contact/index.html" class="menu_item-other tp-black"><img src="/common/images/menu_07.png" alt="$B$*Ld$$9g$o$;(B"></a></li>
+      <li class="menu_item"><a href="/info/index.html" class="menu_item-other tp-black"><img src="/common/images/menu_08.png" alt="$B2q<R35MW(B"></a></li>
+      <li class="menu_item"><a href="/service/index.html" class="menu_item-other tp-black"><img src="/common/images/menu_09.png" alt="$B;v6HFbMF(B"></a></li>
+      <li class="menu_item"><a href="/ir/index.html" class="menu_item-other tp-black"><img src="/common/images/menu_10.png" alt="IR$B>pJs(B"></a></li>
+      <li class="menu_item"><a href="/recruiting/index.html" class="menu_item-other tp-black"><img src="/common/images/menu_11.png" alt="$B:NMQ>pJs(B"></a></li>
+    </ul>
+  </div>
+</div>
+  <!-- 検索窓 -->
+  <div class="search funcBase">
+  <form action="/searchresult/" method="POST" name="search">
+    <div class="funcBase_inner">
+      <div class="searchBox funcBox">
+        <div class="searchSpecific">
+          <ul class="searchSpecific_list">
+            <li class="searchSpecific_list_item"><label><input type="checkbox" name="tag[]" value="field.okbike">バイク・ガレージ付き</label></li>
+            <li class="searchSpecific_list_item"><label><input type="checkbox" name="tag[]" value="field.pet">ペット可</label></li>
+            <li class="searchSpecific_list_item"><label><input type="checkbox" name="tag[]" value="field.renovation">リノベーション</label></li>
+            <li class="searchSpecific_list_item pl15"><label><input type="checkbox" name="tag[]" value="field.soho">SOHO可</label></li>
+            <li class="searchSpecific_list_item"><label><input type="checkbox" name="tag[]" value="field.house">戸建て・テラスハウス</label></li>
+          </ul>
+          <ul class="searchSpecific_list">
+            <li class="searchSpecific_list_item"><label><input type="checkbox" name="tag[]" value="field.ceiling">天井が高い</label></li>
+            <li class="searchSpecific_list_item"><label><input type="checkbox" name="tag[]" value="field.garden">専用庭・広いテラス付</label></li>
+            <li class="searchSpecific_list_item"><label><input type="checkbox" name="tag[]" value="field.view">海や川・緑が見える部屋</label></li>
+            <li class="searchSpecific_list_item pl15"><label><input type="checkbox" name="tag[]" value="field.cheap">初期費用安め</label></li>
+            <li class="searchSpecific_list_item"></li>
+          </ul> 
+        </div>
+         <!-- STEP1　沿線から探す -->
+<div class="searchRail no-active">
+  <div class="funcTitle cf">
+    <h3 class="funcTitle_name">STEP<span class="fs19">1</span>/<span class="fs19">7</span><span class="fs24 sp24">沿線</span><span class="fs18">から探す</span></h3>
+    <p class="funcTitle_close"><a href="#" class="close tp-black"><img src="/common/images/icon_close_01.png" alt="×" width="14" height="14"></a></p>
+  </div>
+  <div class="searchList">
+    <div class="cf">                                                                                                                                                                    
+      <!-- JR -->
+      <div class="searchList_one">
+        <h4 class="cat cat-first">JR</h4>
+        <ul>
+          <li><label><input type="checkbox" name="station[]" value="山手線" class="step1">山手線</label></li>
+          <li><label><input type="checkbox" name="station[]" value="中央線" class="step1">中央線</label></li>
+          <li><label><input type="checkbox" name="station[]" value="総武線" class="step1">総武線</label></li>
+          <li><label><input type="checkbox" name="station[]" value="京浜東北・根岸線" class="step1">京浜東北・根岸線</label></li>
+          <li><label><input type="checkbox" name="station[]" value="埼京線" class="step1">埼京線</label></li>
+          <li><label><input type="checkbox" name="station[]" value="常磐線" class="step1">常磐線</label></li>
+          <li><label><input type="checkbox" name="station[]" value="京葉線" class="step1">京葉線</label></li>
+          <li><label><input type="checkbox" name="station[]" value="湘南新宿線" class="step1">湘南新宿線</label></li>
+          <li><label><input type="checkbox" name="station[]" value="青梅線" class="step1">青梅線</label></li>
+          <li><label><input type="checkbox" name="station[]" value="横須賀線" class="step1">横須賀線</label></li>
+          <li><label><input type="checkbox" name="station[]" value="武蔵野線" class="step1">武蔵野線</label></li>
+        </ul>
+      </div>
+      <div class="searchList_one">
+        <ul>
+          <li><label><input type="checkbox" name="station[]" value="その他" class="step1">その他</label></li>
+          <h4 class="cat">地下鉄</h4>
+          <li><label><input type="checkbox" name="station[]" value="都営新宿線" class="step1">都営新宿線</label></li>
+          <li><label><input type="checkbox" name="station[]" value="都営大江戸線" class="step1">都営大江戸線</label></li>
+          <li><label><input type="checkbox" name="station[]" value="都営三田線" class="step1">都営三田線</label></li>
+          <li><label><input type="checkbox" name="station[]" value="都営浅草線" class="step1">都営浅草線</label></li>
+          <li><label><input type="checkbox" name="station[]" value="東京メトロ銀座線" class="step1">東京メトロ銀座線</label></li>
+          <li><label><input type="checkbox" name="station[]" value="東京メトロ千代田線" class="step1">東京メトロ千代田線</label></li>
+          <li><label><input type="checkbox" name="station[]" value="東京メトロ東西線" class="step1">東京メトロ東西線</label></li>
+          <li><label><input type="checkbox" name="station[]" value="東京メトロ半蔵門線" class="step1">東京メトロ半蔵門線</label></li>
+          <li><label><input type="checkbox" name="station[]" value="東京メトロ副都心線" class="step1">東京メトロ副都心線</label></li>
+          <li><label><input type="checkbox" name="station[]" value="東京メトロ日比谷線" class="step1">東京メトロ日比谷線</label></li>
+        </ul>
+      </div>
+      <!-- 私鉄 -->
+      <div class="searchList_one">
+        <ul>
+          <li><label><input type="checkbox" name="station[]" value="東京メトロ丸ノ内線" class="step1">東京メトロ丸ノ内線</label></li>
+          <li><label><input type="checkbox" name="station[]" value="東京メトロ有楽町線" class="step1">東京メトロ有楽町線</label></li>
+          <h4 class="cat">私鉄</h4>
+          <li><label><input type="checkbox" name="station[]" value="西武池袋線" class="step1">西武池袋線</label></li>
+          <li><label><input type="checkbox" name="station[]" value="西武新宿線" class="step1">西武新宿線</label></li>
+          <li><label><input type="checkbox" name="station[]" value="西武有楽町線" class="step1">西武有楽町線</label></li>
+          <li><label><input type="checkbox" name="station[]" value="西武多摩川線" class="step1">西武多摩川線</label></li>
+          <li><label><input type="checkbox" name="station[]" value="東急東横線" class="step1">東急東横線</label></li>
+          <li><label><input type="checkbox" name="station[]" value="東急池上線" class="step1">東急池上線</label></li>
+          <li><label><input type="checkbox" name="station[]" value="東急大井町線" class="step1">東急大井町線</label></li>
+          <li><label><input type="checkbox" name="station[]" value="東急目黒線" class="step1">東急目黒線</label></li>
+        </ul>
+      </div>
+      <div class="searchList_one">
+        <ul>
+          <li><label><input type="checkbox" name="station[]" value="東急世田谷線" class="step1">東急世田谷線</label></li>
+          <li><label><input type="checkbox" name="station[]" value="小田急線" class="step1">小田急線</label></li>
+          <li><label><input type="checkbox" name="station[]" value="京王線" class="step1">京王線</label></li>
+          <li><label><input type="checkbox" name="station[]" value="京王井の頭線" class="step1">京王井の頭線</label></li>
+          <li><label><input type="checkbox" name="station[]" value="東武東上線" class="step1">東武東上線</label></li>
+          <li><label><input type="checkbox" name="station[]" value="東武伊勢崎線" class="step1">東武伊勢崎線</label></li>
+          <li><label><input type="checkbox" name="station[]" value="京成線" class="step1">京成線</label></li>
+          <li><label><input type="checkbox" name="station[]" value="京急線" class="step1">京急線</label></li>
+          <li class="remark"><label><input type="checkbox" name="station[]" value="その他" class="step1">その他</label></li>
+          <li class="remark"><label><input type="checkbox" name="" value="" class="step1">選択しない</label></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="searchSelected cf">
+    <img src="/common/images/icon_search_02.png" alt="選択済み" width="70" height="23" class="flL">
+    <p class="searchSelected_item flR"></p>
+  </div>
+  <div class="moveStep">
+    <div class="moveStep_item">
+      <p class="moveStep_item moveStep_arrow"></p>
+      <p class="moveStep_item moveStep_txt"></p>
+    </div>
+    <div class="moveStep_item tp-black">
+      <p class="moveStep_txt flL">
+      <a href="javascript:void(0)" class="toNext">STEP<span class="fs14">2</span><span class="fs18 sp24">エリア</span>から探す</a>
+      </p>
+      <p class="moveStep_arrow flR">
+      <a href="javascript:void(0)" class="toNext"><img src="/common/images/icon_arrow_04.png" alt="→" width="14" height="5"></a>
+      </p>
+    </div>                                                                                                                                                                        
+  </div>
+</div>
+        <div class="searchArea no-active">
+  <div class="funcTitle cf">
+    <h3 class="funcTitle_name">STEP<span class="fs19">2</span>/<span class="fs19">7</span><span class="fs24 sp24">エリア</span><span class="fs18">から探す</span></h3>
+    <p class="funcTitle_close"><a href="#" class="close tp-black"><img src="/common/images/icon_close_01.png" alt="" width="14" height="14"></a></p>
+  </div>
+  <div class="searchList">
+    <h4 class="cat cat-first">エリア</h4>
+    <div class="cf">
+      <ul class="searchList_one">
+        <li><label><input type="checkbox" name="" value="" class="step2 is23">東京都23区</label></li>
+        <li><label><input type="checkbox" name="area[]" value="東京都港区" class="step2 in23">港区</label></li>
+        <li><label><input type="checkbox" name="area[]" value="東京都渋谷区" class="step2 in23">渋谷区</label></li>
+        <li><label><input type="checkbox" name="area[]" value="東京都世田谷区" class="step2 in23">世田谷区</label></li>
+        <li><label><input type="checkbox" name="area[]" value="東京都目黒区" class="step2 in23">目黒区</label></li>
+        <li><label><input type="checkbox" name="area[]" value="東京都新宿区" class="step2 in23">新宿区</label></li>
+        <li><label><input type="checkbox" name="area[]" value="東京都杉並区" class="step2 in23">杉並区</label></li>
+        <li><label><input type="checkbox" name="area[]" value="東京都中野区" class="step2 in23">中野区</label></li>
+        <li><label><input type="checkbox" name="area[]" value="東京都品川区" class="step2 in23">品川区</label></li>
+        <li><label><input type="checkbox" name="area[]" value="東京都大田区" class="step2 in23">大田区</label></li>
+      </ul>
+      <ul class="searchList_one">
+        <li><label><input type="checkbox" name="area[]" value="東京都千代田区" class="step2 in23">千代田区</label></li>
+        <li><label><input type="checkbox" name="area[]" value="東京都中央区" class="step2 in23">中央区</label></li>
+        <li><label><input type="checkbox" name="area[]" value="東京都文京区" class="step2 in23">文京区</label></li>
+        <li><label><input type="checkbox" name="area[]" value="東京都練馬区" class="step2 in23">練馬区</label></li>
+        <li><label><input type="checkbox" name="area[]" value="東京都台東区" class="step2 in23">台東区</label></li>
+        <li><label><input type="checkbox" name="area[]" value="東京都江東区" class="step2 in23">江東区</label></li>
+        <li><label><input type="checkbox" name="area[]" value="東京都豊島区" class="step2 in23">豊島区</label></li>
+        <li><label><input type="checkbox" name="area[]" value="東京都北区" class="step2 in23">北区</label></li>
+        <li><label><input type="checkbox" name="area[]" value="東京都荒川区" class="step2 in23">荒川区</label></li>
+        <li><label><input type="checkbox" name="area[]" value="東京都板橋区" class="step2 in23">板橋区</label></li>
+      </ul>
+      <ul class="searchList_one">
+        <li><label><input type="checkbox" name="area[]" value="東京都足立区" class="step2 in23">足立区</label></li>
+        <li><label><input type="checkbox" name="area[]" value="東京都葛飾区" class="step2 in23">葛飾区</label></li>
+        <li><label><input type="checkbox" name="area[]" value="東京都江戸川区" class="step2 in23">江戸川区</label></li>
+        <li><label><input type="checkbox" name="area[]" value="東京都墨田区" class="step2 in23">墨田区</label></li>
+        <li><label><input type="checkbox" name="area[]" value="東京都23区外" class="step2">東京都23区外</label></li>
+        <li><label><input type="checkbox" name="area[]" value="千葉県" class="step2">千葉県</label></li>
+        <li><label><input type="checkbox" name="area[]" value="神奈川県" class="step2">神奈川県</label></li>
+        <li class="remark"><label><input type="checkbox" name="" value="" class="step2">選択しない</label></li>
+      </ul>
+    </div>
+  </div>
+  <div class="searchSelected cf">
+    <img src="/common/images/icon_search_02.png" alt="" width="70" height="23" class="flL">
+    <p class="searchSelected_item flR"></p>
+  </div>
+  <div class="moveStep">
+    <div class="moveStep_item tp-black cf">
+      <p class="moveStep_arrow flL">
+      <a href="javascript:void(0)" class="toPrev"><img src="/common/images/icon_arrow_03.png" width="14" height="5"></a>
+      </p>
+      <p class="moveStep_txt flR">
+      <a href="javascript:void(0)" class="toPrev">STEP<span class="fs14">1</span><span class="fs18 sp24">沿線</span>から探す</a>
+      </p>
+    </div>
+    <div class="moveStep_item tp-black cf">
+      <p class="moveStep_txt flL">
+      <a href="javascript:void(0)" class="toNext">STEP<span class="fs14">3</span><span class="fs18 sp24">賃料</span>から探す</a>
+      </p>
+      <p class="moveStep_arrow flR">
+      <a href="javascript:void(0)" class="toNext"><img src="/common/images/icon_arrow_04.png" width="14" height="5"></a>
+      </p>
+    </div>
+  </div>
+</div>
+        <!-- STEP3　賃料から探す -->
+<div class="searchRent no-active">
+  <div class="funcTitle cf">
+    <h3 class="funcTitle_name">STEP<span class="fs19">3</span>/<span class="fs19">7</span><span class="fs24 sp24">賃料</span><span class="fs18">から探す</span></h3>
+    <p class="funcTitle_close"><a href="#" class="close tp-black"><img src="/common/images/icon_close_01.png" alt="" width="14" height="14"></a></p>
+  </div>
+  <div class="searchList">
+    <h4 class="cat cat-first">賃料</h4>
+    <div class="cf">
+      <ul class="searchList_one">
+        <li><label><input type="checkbox" name="rent[]" value="6万円未満" class="step3">6万円未満</label></li>
+        <li><label><input type="checkbox" name="rent[]" value="6万円以上8万円未満" class="step3">6万円以上8万円未満</label></li>
+        <li><label><input type="checkbox" name="rent[]" value="8万円以上10万円未満" class="step3">8万円以上10万円未満</label></li>
+        <li><label><input type="checkbox" name="rent[]" value="10万円以上12万円未満" class="step3">10万円以上12万円未満</label></li>
+        <li><label><input type="checkbox" name="rent[]" value="12万円以上15万円未満" class="step3">12万円以上15万円未満</label></li>
+        <li><label><input type="checkbox" name="rent[]" value="15万円以上20万円未満" class="step3">15万円以上20万円未満</label></li>
+        <li><label><input type="checkbox" name="rent[]" value="20万円以上50万円未満" class="step3">20万円以上50万円未満</label>                </li>
+        <li><label><input type="checkbox" name="rent[]" value="50万円以上" class="step3">50万円以上</label></li>
+        <li class="remark"><label><input type="checkbox" name="" value="" class="step3">選択しない</label></li>
+      </ul>
+    </div>
+  </div>
+  <div class="searchSelected cf">
+    <img src="/common/images/icon_search_02.png" alt="" width="70" height="23" class="flL">
+    <p class="searchSelected_item flR"></p>
+  </div>
+  <div class="moveStep">
+    <div class="moveStep_item tp-black">
+      <p class="moveStep_arrow flL">
+      <a href="javascript:void(0)" class="toPrev"><img src="/common/images/icon_arrow_03.png" width="14" height="5"></a>
+      </p>
+      <p class="moveStep_txt flR">
+      <a href="javascript:void(0)" class="toPrev">STEP<span class="fs14">2</span><span class="fs18 sp24">エリア</span>から探す</a>
+      </p>
+    </div>
+    <div class="moveStep_item tp-black">
+      <p class="moveStep_txt flL">
+      <a href="javascript:void(0)" class="toNext">STEP<span class="fs14">4</span><span class="fs18 sp24">間取り</span>から探す</a>
+      </p>
+      <p class="moveStep_arrow flR">
+      <a href="javascript:void(0)" class="toNext"><img src="/common/images/icon_arrow_04.png" width="14" height="5"></a>
+      </p>
+    </div>
+  </div>
+</div>
+        <!-- STEP4　間取りから探す -->
+<div class="searchFloor no-active">
+  <div class="funcTitle cf">
+    <h3 class="funcTitle_name">STEP<span class="fs19">4</span>/<span class="fs19">7</span><span class="fs24 sp24">間取り</span><span class="fs18">から探す</span></h3>
+    <p class="funcTitle_close"><a href="#" class="close tp-black"><img src="/common/images/icon_close_01.png" alt="" width="14" height="14"></a></p>
+  </div>
+  <div class="searchList">
+    <h4 class="cat cat-first">間取り</h4>
+    <div class="cf">
+      <ul class="searchList_one">
+        <li><label><input type="checkbox" name="floor[]" value="1R" class="step4">1R</label></li>
+        <li><label><input type="checkbox" name="floor[]" value="1K" class="step4">1K</label></li>
+        <li><label><input type="checkbox" name="floor[]" value="1DK" class="step4">1DK</label></li>
+        <li><label><input type="checkbox" name="floor[]" value="1LDK" class="step4">1LDK</label></li>
+        <li><label><input type="checkbox" name="floor[]" value="2K" class="step4">2K</label></li>
+        <li><label><input type="checkbox" name="floor[]" value="2DK" class="step4">2DK</label></li>
+        <li><label><input type="checkbox" name="floor[]" value="2LDK" class="step4">2LDK</label></li>
+        <li><label><input type="checkbox" name="floor[]" value="3K" class="step4">3K</label></li>
+        <li><label><input type="checkbox" name="floor[]" value="3DK" class="step4">3DK</label></li>
+        <li><label><input type="checkbox" name="floor[]" value="3LDK" class="step4">3LDK</label></li>
+      </ul>
+      <ul class="searchList_one">
+        <li class="remark"><label><input type="checkbox" name="floor[]" value="その他" class="step4">その他</label></li>
+        <li class="remark"><label><input type="checkbox" name="" value="" class="step4">選択しない</label></li>
+      </ul>
+    </div>
+  </div>
+  <div class="searchSelected cf">
+    <img src="/common/images/icon_search_02.png" alt="" width="70" height="23" class="flL">
+    <p class="searchSelected_item flR"></p>
+  </div>
+  <div class="moveStep">
+    <div class="moveStep_item tp-black">
+      <p class="moveStep_arrow flL">
+      <a href="javascript:void(0)" class="toPrev"><img src="/common/images/icon_arrow_03.png" width="14" height="5"></a>
+      </p>
+      <p class="moveStep_txt flR">
+      <a href="javascript:void(0)" class="toPrev">STEP<span class="fs14">3</span><span class="fs18 sp24">賃料</span>から探す</a>
+      </p>
+    </div>
+    <div class="moveStep_item tp-black">
+      <p class="moveStep_txt flL">
+      <a href="javascript:void(0)" class="toNext">STEP<span class="fs14">5</span><span class="fs18 sp24">面積</span>から探す</a>
+      </p>
+      <p class="moveStep_arrow flR">
+      <a href="javascript:void(0)" class="toNext"><img src="/common/images/icon_arrow_04.png" width="14" height="5"></a>
+      </p>
+    </div>
+  </div>
+</div>
+        <!-- STEP5　面積から探す -->
+<div class="searchSpace no-active">
+  <div class="funcTitle cf">
+    <h3 class="funcTitle_name">STEP<span class="fs19">5</span>/<span class="fs19">7</span><span class="fs24 sp24">面積</span><span class="fs18">から探す</span></h3>
+    <p class="funcTitle_close"><a href="#" class="close tp-black"><img src="/common/images/icon_close_01.png" alt="" width="14" height="14"></a></p>
+  </div>
+  <div class="searchList">
+    <h4 class="cat cat-first">面積</h4>
+    <div class="cf">
+      <ul class="searchList_one">
+        <li><label><input type="checkbox" name="size[]" value="15㎡未満" class="step5">15㎡未満</label></li>
+        <li><label><input type="checkbox" name="size[]" value="15㎡以上20㎡未満" class="step5">15㎡以上20㎡未満</label></li>
+        <li><label><input type="checkbox" name="size[]" value="20㎡以上25㎡未満" class="step5">20㎡以上25㎡未満</label></li>
+        <li><label><input type="checkbox" name="size[]" value="25㎡以上30㎡未満" class="step5">25㎡以上30㎡未満</label></li>
+        <li><label><input type="checkbox" name="size[]" value="30㎡以上40㎡未満" class="step5">30㎡以上40㎡未満</label></li>
+        <li><label><input type="checkbox" name="size[]" value="40㎡以上60㎡未満" class="step5">40㎡以上60㎡未満</label></li>
+        <li><label><input type="checkbox" name="size[]" value="60㎡以上80㎡未満" class="step5">60㎡以上80㎡未満</label></li>
+        <li><label><input type="checkbox" name="size[]" value="80㎡以上100㎡未満" class="step5">80㎡以上100㎡未満</label></li>
+        <li><label><input type="checkbox" name="size[]" value="100㎡以上150㎡未満" class="step5">100㎡以上150㎡未満</label></li>
+        <li><label><input type="checkbox" name="size[]" value="150㎡以上" class="step5">150㎡以上</label></li>
+        <li class="remark"><label><input type="checkbox" name="" value="" class="step5">選択しない</label></li>
+      </ul>
+    </div>
+  </div>
+  <div class="searchSelected cf">
+    <img src="/common/images/icon_search_02.png" alt="" width="70" height="23" class="flL">
+    <p class="searchSelected_item flR"></p>
+  </div>
+  <div class="moveStep">
+    <div class="moveStep_item tp-black">
+      <p class="moveStep_arrow flL">
+      <a href="javascript:void(0)" class="toPrev"><img src="/common/images/icon_arrow_03.png" width="14" height="5"></a>
+      </p>
+      <p class="moveStep_txt flR">
+      <a href="javascript:void(0)" class="toPrev">STEP<span class="fs14">4</span><span class="fs18 sp24">間取り</span>から探す</a>
+      </p>
+    </div>
+    <div class="moveStep_item tp-black">
+      <p class="moveStep_txt flL">
+      <a href="javascript:void(0)" class="toNext">STEP<span class="fs14">6</span><span class="fs18 sp24">駅からの徒歩分数</span>から探す</a>
+      </p>
+      <p class="moveStep_arrow flR">
+      <a href="javascript:void(0)" class="toNext"><img src="/common/images/icon_arrow_04.png" width="14" height="5"></a>
+      </p>
+    </div>
+  </div>
+</div>
+        <!-- STEP6　駅からの徒歩分数から探す -->
+<div class="searchTime no-active">
+  <div class="funcTitle cf">
+    <h3 class="funcTitle_name">STEP<span class="fs19">6</span>/<span class="fs19">7</span><span class="fs24 sp24">駅からの徒歩分数</span><span class="fs18">から探す</span></h3>
+    <p class="funcTitle_close"><a href="#" class="close tp-black"><img src="/common/images/icon_close_01.png" alt="" width="14" height="14"></a></p>
+  </div>
+  <div class="searchList">
+    <h4 class="cat cat-first">駅からの徒歩分数</h4>
+    <div>
+      <ul class="searchList_one">
+        <li><label><input type="checkbox" name="time[]" value="1" class="step6">1分以内</label></li>
+        <li><label><input type="checkbox" name="time[]" value="5" class="step6">5分以内</label></li>
+        <li><label><input type="checkbox" name="time[]" value="10" class="step6">10分以内</label></li>
+        <li><label><input type="checkbox" name="time[]" value="15" class="step6">15分以内</label></li>
+        <li><label><input type="checkbox" name="time[]" value="16" class="step6">16分以上</label></li>
+        <li class="remark"><label><input type="checkbox" name="" value="" class="step6">選択しない</label></li>
+      </ul> 
+    </div>
+  </div>
+  <div class="searchSelected cf">
+    <img src="/common/images/icon_search_02.png" alt="" width="70" height="23" class="flL">
+    <p class="searchSelected_item flR"></p>
+  </div>
+  <div class="moveStep">
+    <div class="moveStep_item tp-black">
+      <p class="moveStep_arrow flL">
+      <a href="javascript:void(0)" class="toPrev"><img src="/common/images/icon_arrow_03.png" width="14" height="5"></a>
+      </p>  
+      <p class="moveStep_txt flR">
+      <a href="javascript:void(0)" class="toPrev">STEP<span class="fs14">5</span><span class="fs18 sp24">面積</span>から探す</a>
+      </p>  
+    </div>
+    <div class="moveStep_item tp-black">
+      <p class="moveStep_txt flL">
+      <a href="javascript:void(0)" class="toNext">STEP<span class="fs14">7</span><span class="fs18 sp24">築年数</span>から探す</a>
+      </p>  
+      <p class="moveStep_arrow flR">
+      <a href="javascript:void(0)" class="toNext"><img src="/common/images/icon_arrow_04.png" width="14" height="5"></a>
+      </p>  
+    </div>
+  </div>
+</div>
+ 
+        <!-- STEP7　築年数から探す -->
+<div class="searchAge no-active">
+  <div class="funcTitle cf">
+    <h3 class="funcTitle_name">STEP<span class="fs19">7</span>/<span class="fs19">7</span><span class="fs24 sp24">築年数</span><span class="fs18">から探す</span></h3>
+    <p class="funcTitle_close"><a href="#" class="close tp-black"><img src="/common/images/icon_close_01.png" alt="" width="14" height="14"></a></p>
+  </div>
+  <div class="searchList">
+    <h4 class="cat cat-first">築年数</h4>
+    <div class="cf">
+      <ul class="searchList_one">
+        <li><label><input type="checkbox" name="age[]" value="0" class="step7">新築</label></li>
+        <li><label><input type="checkbox" name="age[]" value="1" class="step7">5年以内</label></li>
+        <li><label><input type="checkbox" name="age[]" value="2" class="step7">10年以内</label></li>
+        <li><label><input type="checkbox" name="age[]" value="3" class="step7">20年以内</label></li>
+        <li><label><input type="checkbox" name="age[]" value="4" class="step7">20年以上</label></li>
+        <li class="remark"><label><input type="checkbox" name="" value="" class="step7">選択しない</label></li>
+      </ul>
+    </div>
+  </div>
+  <div class="searchSelected cf">
+    <img src="/common/images/icon_search_02.png" alt="" width="70" height="23" class="flL">
+    <p class="searchSelected_item flR"></p>
+  </div>
+  <div class="moveStep">
+    <div class="moveStep_item tp-black">
+      <p class="moveStep_arrow flL">
+      <a href="javascript:void(0)" class="toPrev"><img src="/common/images/icon_arrow_03.png" width="14" height="5"></a>
+      </p>
+      <p class="moveStep_txt moveStep_txt-last flR">
+      <a href="javascript:void(0)" class="toPrev">STEP<span class="fs14">6</span><span class="fs18 sp24">面積</span>から探す</a>
+      </p>
+    </div>
+    <div class="moveStep_item">
+      <p class="moveStep_item moveStep_txt"></p>
+      <p class="moveStep_item moveStep_arrow"></p>
+    </div>
+  </div>
+</div>  
+      </div>
+      <p class="searchBtn">
+      <a href="javascript:void(0)" onclick="document.search.submit(); return false;">                                                                                                   
+        <img src="/common/images/search_btn.gif" alt="この条件で検索" width="213" height="37">
+      </a>
+      </p>
+    </div>
+  </form>
+</div>
+  <!-- 条件一覧 -->
+  <div class="condition funcBase">
+  <form action="#" method="POST">
+    <div class="conditionBox funcBox">
+      <div class="funcTitle cf">
+        <h3 class="funcTitle_name"><span class="fs24 sp24">条件</span><span class="fs18">から探す</span></h3>
+        <p class="funcTitle_close"><a href="#" class="close tp-black"><img src="/common/images/icon_close_01.png" alt="×" width="14" height="14"></a></p>
+      </div>
+      <div class="conditionList">
+        <ul>
+          <li class="conditionList_btn"><a href="/result/index.html?id=1">バイク・ガレージ付き</a></li>
+          <li class="conditionList_btn"><a href="/result/index.html?id=2">ペット可</a></li>
+          <li class="conditionList_btn"><a href="/result/index.html?id=3">リノベーション</a></li>
+          <li class="conditionList_btn"><a href="/result/index.html?id=4">SOHO可</a></li>
+          <li class="conditionList_btn"><a href="/result/index.html?id=5">戸建て・テラスハウス</a></li>
+          <li class="conditionList_btn"><a href="/result/index.html?id=6">天井が高い</a></li>
+          <li class="conditionList_btn"><a href="/result/index.html?id=7">専用庭・広いテラス付</a></li>
+          <li class="conditionList_btn"><a href="/result/index.html?id=8">海や川・緑が見える部屋</a></li>
+          <li class="conditionList_btn"><a href="/result/index.html?id=9">初期費用安め</a></li>
+        </ul>
+      </div>
+    </div>
+  </form>
+</div>
+
+  <div class="main">
+    <a href="https://www.early-age.co.jp/detail/?ss2515#"><img src="../cake/app/webroot/mainvisual_01.png" class="mainvisual var-w" alt="あったらいいな、を届けたい。"></a>
+    <!-- ヘッダー -->
+    <div class="header">
+  <img src="/common/images/header_bg_01.png" class="header_bg var-w" alt="">
+  <div class="header_left">
+    <div class="header_left_inner">
+      <p class="header_left_txt"><img src="/common/images/header_txt_01.png" alt="あなたの「あったらいいな」は何ですか？" width="219" height="14"></p>
+      <form action="/searchresult/index.html" method="POST" class="header_left_form" name="searchFreeword">
+        <input type="text" name="keyword" size="22" placeholder="例：ルーフバルコニー" class="input_text" id="freeword">
+      </form>
+      <p class="header_left_btn">
+      <a href="./result/index.html" onclick="document.searchFreeword.submit(); return false;">
+        <img src="/common/images/header_btn_01.png" alt="Search" width="58" height="27">
+      </a>
+      </p>
+    </div>
+  </div>
+
+  <div class="header_right">
+    <p class="header_right_recruiting_btn"><a href="/recruiting/index.html"><img src="/common/images/header_btn_03.gif" alt="recruiting" width="63" height="27"></a></p>
+    <div class="header_right_inner">
+      <p class="header_right_btn"><a href="javascript:void(0)" id="condition"><img src="/common/images/header_btn_02.gif" alt="Concept Sort" width="116" height="27"></a></p>
+    </div>
+  </div>
+</div> 
+    <!-- タブ -->
+    <ul class="tabTitle var-w">
+      <li class="tabTitle_item selected"><a href="#tab02" class="scroll"><img src="./images/tab_title_01.png" alt="NEW ARRIVALS 新着物件" width="158" height="38"></a></li>
+      <li class="tabTitle_item no-selected"><a href="#tab01" class="scroll"><img src="./images/tab_title_02.png" alt="RECOMMEND おすすめ物件" width="142" height="38"></a></li>
+    </ul>
+
+    <div class="contents">
+    <!-- [タブ1] 新着物件 -->
+      <div id="tab01" class="tabContents">
+        <div class="cf">
+          <div id="dummy_new_01">
+            <a href="./detail/" class="b-hover">
+              <figure class="grid g-first">
+                <div class="imgBox">
+                  <p class="imgBox_inner w378"><img src="/common/images/no_image_m.gif" alt="" class="photo-378"></p>
+                </div>
+                <figcaption class="grid_txt">
+                  <p class="grid_txt_title"></p>
+                  <p class="grid_txt_sub"></p>
+                  <p class="grid_txt_sub grid_txt_sub-plus"></p>
+                  <p class="grid_txt_sub grid_txt_sub-plus"></p>
+                  <p class="grid_txt_arrow"></p>
+                </figcaption>
+              </figure>
+            </a>
+          </div>
+          <div id="dummy_new_02">
+            <a href="./detail/" class="b-hover">
+              <figure class="grid">
+                <div class="imgBox">
+                  <p class="imgBox_inner w378"><img src="/common/images/no_image_m.gif" alt="" class="photo-378"></p>
+                </div>
+                <figcaption class="grid_txt">
+                  <p class="grid_txt_title"></p>
+                  <p class="grid_txt_sub"></p>
+                  <p class="grid_txt_sub grid_txt_sub-plus"></p>
+                  <p class="grid_txt_sub grid_txt_sub-plus"></p>
+                  <p class="grid_txt_arrow"></p>
+                </figcaption>
+              </figure>
+            </a>
+          </div>
+          <div id="dummy_new_03">
+            <a href="./detail/" class="b-hover">
+              <figure class="grid">
+                <div class="imgBox">
+                  <p class="imgBox_inner w378"><img src="/common/images/no_image_m.gif" alt="" class="photo-378"></p>
+                </div>
+                <figcaption class="grid_txt">
+                  <p class="grid_txt_title"></p>
+                  <p class="grid_txt_sub"></p>
+                  <p class="grid_txt_sub grid_txt_sub-plus"></p>
+                  <p class="grid_txt_sub grid_txt_sub-plus"></p>
+                  <p class="grid_txt_arrow"></p>
+                </figcaption>
+              </figure>
+            </a>
+          </div>
+        </div>
+        <div class="cf">
+          <div id="dummy_new_04">
+            <a href="./detail/" class="b-hover">
+              <figure class="grid g-first">
+                <div class="imgBox">
+                  <p class="imgBox_inner w378"><img src="/common/images/no_image_m.gif" alt="" class="photo-378"></p>
+                </div>
+                <figcaption class="grid_txt">
+                  <p class="grid_txt_title"></p>
+                  <p class="grid_txt_sub"></p>
+                  <p class="grid_txt_sub grid_txt_sub-plus"></p>
+                  <p class="grid_txt_sub grid_txt_sub-plus"></p>
+                  <p class="grid_txt_arrow"></p>
+                </figcaption>
+              </figure>
+            </a>
+          </div>
+          <div id="dummy_new_05">
+            <a href="./detail/" class="b-hover">
+              <figure class="grid">
+                <div class="imgBox">
+                  <p class="imgBox_inner w378"><img src="/common/images/no_image_m.gif" alt="" class="photo-378"></p>
+                </div>
+                <figcaption class="grid_txt">
+                  <p class="grid_txt_title"></p>
+                  <p class="grid_txt_sub"></p>
+                  <p class="grid_txt_sub grid_txt_sub-plus"></p>
+                  <p class="grid_txt_sub grid_txt_sub-plus"></p>
+                  <p class="grid_txt_arrow"></p>
+                </figcaption>
+              </figure>
+            </a>
+          </div>
+          <div id="dummy_new_06">
+            <a href="./detail/" class="b-hover">
+              <figure class="grid">
+                <div class="imgBox">
+                  <p class="imgBox_inner w378"><img src="/common/images/no_image_m.gif" alt="" class="photo-378"></p>
+                </div>
+                <figcaption class="grid_txt">
+                  <p class="grid_txt_title"></p>
+                  <p class="grid_txt_sub"></p>
+                  <p class="grid_txt_sub grid_txt_sub-plus"></p>
+                  <p class="grid_txt_sub grid_txt_sub-plus"></p>
+                  <p class="grid_txt_arrow"></p>
+                </figcaption>
+              </figure>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- [タブ2] おすすめ物件 -->
+      <div id="tab02" class="tabContents no-active">
+        <div class="cf">
+          <div id="dummy_rcm_01">
+            <a href="javascript:void(0)" class="b-hover">
+              <figure class="grid g-first">
+                <div class="imgBox">
+                  <p class="imgBox_inner w378"><img src="/common/images/no_image_m.gif" alt="" class="photo-378"></p>
+                </div>
+                <figcaption class="grid_txt">
+                  <p class="grid_txt_title"></p>
+                  <p class="grid_txt_sub"></p>
+                  <p class="grid_txt_sub grid_txt_sub-plus"></p>
+                  <p class="grid_txt_sub grid_txt_sub-plus"></p>
+                  <p class="grid_txt_arrow"></p>
+                </figcaption>
+              </figure>
+            </a>
+          </div>
+          <div id="dummy_rcm_02">
+            <a href="javascript:void(0)" class="b-hover">
+              <figure class="grid">
+                <div class="imgBox">
+                  <p class="imgBox_inner w378"><img src="/common/images/no_image_m.gif" alt="" class="photo-378"></p>
+                </div>
+                <figcaption class="grid_txt">
+                  <p class="grid_txt_title"></p>
+                  <p class="grid_txt_sub"></p>
+                  <p class="grid_txt_sub grid_txt_sub-plus"></p>
+                  <p class="grid_txt_sub grid_txt_sub-plus"></p>
+                  <p class="grid_txt_arrow"></p>
+                </figcaption>
+              </figure>
+            </a>
+          </div>
+          <div id="dummy_rcm_03">
+            <a href="javascript:void(0)" class="b-hover">
+              <figure class="grid">
+                <div class="imgBox">
+                  <p class="imgBox_inner w378"><img src="/common/images/no_image_m.gif" alt="" class="photo-378"></p>
+                </div>
+                <figcaption class="grid_txt">
+                  <p class="grid_txt_title"></p>
+                  <p class="grid_txt_sub"></p>
+                  <p class="grid_txt_sub grid_txt_sub-plus"></p>
+                  <p class="grid_txt_sub grid_txt_sub-plus"></p>
+                  <p class="grid_txt_arrow"></p>
+                </figcaption>
+              </figure>
+            </a>
+          </div>
+        </div>
+        <div class="cf">
+          <div id="dummy_rcm_04">
+            <a href="javascript:void(0)" class="b-hover">
+              <figure class="grid g-first">
+                <div class="imgBox">
+                  <p class="imgBox_inner w378"><img src="/common/images/no_image_m.gif" alt="" class="photo-378"></p>
+                </div>
+                <figcaption class="grid_txt">
+                  <p class="grid_txt_title"></p>
+                  <p class="grid_txt_sub"></p>
+                  <p class="grid_txt_sub grid_txt_sub-plus"></p>
+                  <p class="grid_txt_sub grid_txt_sub-plus"></p>
+                  <p class="grid_txt_arrow"></p>
+                </figcaption>
+              </figure>
+            </a>
+          </div>
+          <div id="dummy_rcm_05">
+            <a href="javascript:void(0)" class="b-hover">
+              <figure class="grid">
+                <div class="imgBox">
+                  <p class="imgBox_inner w378"><img src="/common/images/no_image_m.gif" alt="" class="photo-378"></p>
+                </div>
+                <figcaption class="grid_txt">
+                  <p class="grid_txt_title"></p>
+                  <p class="grid_txt_sub"></p>
+                  <p class="grid_txt_sub grid_txt_sub-plus"></p>
+                  <p class="grid_txt_sub grid_txt_sub-plus"></p>
+                  <p class="grid_txt_arrow"></p>
+                </figcaption>
+              </figure>
+            </a>
+          </div>
+          <div id="dummy_rcm_06">
+            <a href="javascript:void(0)" class="b-hover">
+              <figure class="grid">
+                <div class="imgBox">
+                  <p class="imgBox_inner w378"><img src="/common/images/no_image_m.gif" alt="" class="photo-378"></p>
+                </div>
+                <figcaption class="grid_txt">
+                  <p class="grid_txt_title"></p>
+                  <p class="grid_txt_sub"></p>
+                  <p class="grid_txt_sub grid_txt_sub-plus"></p>
+                  <p class="grid_txt_sub grid_txt_sub-plus"></p>
+                  <p class="grid_txt_arrow"></p>
+                </figcaption>
+              </figure>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 検索ランキング -->
+      <div class="ranking cf">
+        <h2 class="sub_title"><img src="images/sub_title_01.png" alt="RANKING 検索ランキング" width="117" height="44"></h2>
+        <div class="ranking_left">
+          <figure class="articleBox" id="dummy_rank_01">
+            <div class="articleBox-big">
+              <a href="#">
+                <img src="/common/images/no_image_square.gif" alt="" class="articleBox_photo">
+                <img src="./images/rank_num_01.gif" alt="" width="40" height="40" class="articleBox_num">
+              </a>
+            </div>
+            <figcaption class="articleBox_name"></figcaption>
+          </figure>
+          </a>
+        </div>
+        <div class="ranking_right">
+          <div class="ranking_raw ranking_raw-top cf" >
+            <figure class="articleBox" id="dummy_rank_02">
+              <div class="articleBox-small">
+                <a href="#">
+                  <img src="/common/images/no_image_square.gif" alt="" class="articleBox_photo">
+                  <img src="./images/rank_num_02.gif" alt="" width="40" height="40" class="articleBox_num">
+                </a>
+              </div>
+              <figcaption class="articleBox_name"></figcaption>
+            </figure>
+            <figure class="articleBox" id="dummy_rank_03">
+              <div class="articleBox-small">
+                <a href="#">
+                  <img src="/common/images/no_image_square.gif" alt="" class="articleBox_photo">
+                  <img src="./images/rank_num_03.gif" alt="" width="40" height="40" class="articleBox_num">
+                </a>
+              </div>
+              <figcaption class="articleBox_name"></figcaption>
+            </figure>
+            <figure class="articleBox" id="dummy_rank_04">
+              <div class="articleBox-small">
+                <a href="#">
+                  <img src="/common/images/no_image_square.gif" alt="" class="articleBox_photo">
+                  <img src="./images/rank_num_04.gif" alt="" width="40" height="40" class="articleBox_num">
+                </a>
+              </div>
+              <figcaption class="articleBox_name"></figcaption>
+            </figure>
+          </div>
+          <div class="ranking_raw cf" >
+            <figure class="articleBox" id="dummy_rank_05">
+              <div class="articleBox-small">
+                <a href="#">
+                  <img src="/common/images/no_image_square.gif" alt="" class="articleBox_photo">
+                  <img src="./images/rank_num_05.gif" alt="" width="40" height="40" class="articleBox_num">
+                </a>
+              </div>
+              <figcaption class="articleBox_name"></figcaption>
+            </figure>
+            <figure class="articleBox" id="dummy_rank_06">
+              <div class="articleBox-small">
+                <a href="#">
+                  <img src="/common/images/no_image_square.gif" alt="" class="articleBox_photo">
+                  <img src="./images/rank_num_06.gif" alt="" width="40" height="40" class="articleBox_num">
+                </a>
+              </div>
+              <figcaption class="articleBox_name"></figcaption>
+            </figure>
+            <figure class="articleBox" id="dummy_rank_07">
+              <div class="articleBox-small">
+                <a href="#">
+                  <img src="/common/images/no_image_square.gif" alt="" class="articleBox_photo">
+                  <img src="./images/rank_num_07.gif" alt="" width="40" height="40" class="articleBox_num">
+                </a>
+              </div>
+              <figcaption class="articleBox_name"></figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+
+      <h2 class="sub_title"><img src="./images/sub_title_02.png" alt="HOT TOPIC" width="258" height="44"></h2>
+      <!-- スライド -->
+      <div class="slider-pro" id="slider">
+        <div class="sp-slides">
+          <!-- SLIDE1 -->
+          <div class="sp-slide" id="dummy_slide_01">
+            <a href="javascript:void(0)">
+              <img src="" width="968" height="509" class="sp-image">
+              <div class="over"></div>
+              <div class="slide_txt fade">
+                <p class="archive_title"></p>
+                <p class="archive_sub"></p>
+                <p class="read_more"><span class="ul">Read more</span>…<img src="./images/read_more_off.png" width="17" height="12" class="fadeImg read_more_arrow"></p>
+              </div>
+            </a>
+          </div>
+          <!-- SLIDE2 -->
+          <div class="sp-slide" id="dummy_slide_02">
+            <a href="javascript:void(0)">
+              <img src="" width="968" height="509" class="sp-image">
+              <div class="over"></div>
+              <div class="slide_txt fade">
+                <p class="archive_title"></p>
+                <p class="archive_sub"></p>
+                <p class="read_more"><span class="ul">Read more</span>…<img src="./images/read_more_off.png" width="17" height="12" class="fadeImg read_more_arrow"></p>
+              </div>
+            </a>
+          </div>
+          <!-- SLIDE3 -->
+          <div class="sp-slide" id="dummy_slide_03">
+            <a href="javascript:void(0)">
+              <img src="" width="968" height="509" class="sp-image">
+              <div class="over"></div>
+              <div class="slide_txt fade">
+                <p class="archive_title"></p>
+                <p class="archive_sub"></p>
+                <p class="read_more"><span class="ul">Read more</span>…<img src="./images/read_more_off.png" width="17" height="12" class="fadeImg read_more_arrow"></p>
+              </div>
+            </a>
+          </div>
+          <!-- SLIDE4 -->
+          <div class="sp-slide" id="dummy_slide_04">
+            <a href="javascript:void(0)">
+              <img src="" width="968" height="509" class="sp-image">
+              <div class="over"></div>
+              <div class="slide_txt fade">
+                <p class="archive_title"></p>
+                <p class="archive_sub"></p>
+                <p class="read_more"><span class="ul">Read more</span>…<img src="./images/read_more_off.png" width="17" height="12" class="fadeImg read_more_arrow"></p>                                                                                             </div>
+            </a>
+          </div>
+          <!-- SLIDE5 -->
+          <div class="sp-slide" id="dummy_slide_05">
+            <a href="javascript:void(0)">
+              <img src="" width="968" height="509" class="sp-image">
+              <div class="over"></div>
+              <div class="slide_txt fade">
+                <p class="archive_title"></p>
+                <p class="archive_sub"></p>
+                <p class="read_more"><span class="ul">Read more</span>…<img src="./images/read_more_off.png" width="17" height="12" class="fadeImg read_more_arrow"></p>                                                                                             </div>
+            </a>
+          </div>
+          <!-- SLIDE6 -->
+          <div class="sp-slide" id="dummy_slide_06">
+            <a href="javascript:void(0)">
+              <img src="" width="968" height="509" class="sp-image">
+              <div class="over"></div>
+              <div class="slide_txt fade">
+                <p class="archive_title"></p>
+                <p class="archive_sub"></p>
+                <p class="read_more"><span class="ul">Read more</span>…<img src="./images/read_more_off.png" width="17" height="12" class="fadeImg read_more_arrow"></p>                                                                                             </div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <ul class="footBtn">
+        <li class="footBtn_e"><a href="/voice/"><img src="./images/foot_btn_01.png" alt="USER'S VOICE" width="112" height="98"></a></li>
+        <li class="footBtn_e"><a href="javascript:void(0)"><img src="./images/foot_btn_02.png" alt="家さがしのポイント" width="134" height="98"></a></li>
+        <li class="footBtn_e"><a href="/faq/"><img src="./images/foot_btn_03.png" alt="Q&amp;A" width="41" height="96"></a></li>
+        <li class="footBtn_e"><a href="/contact/"><img src="./images/foot_btn_04.png" alt="お問い合わせ" width="90" height="98"></a></li>
+        <li class="footBtn_e"><a href="/recruiting/"><img src="./images/foot_btn_05.png" alt="採用情報" width="60" height="95"></a></li>
+      </ul>
+
+      <ul class="sns">
+        <li class="sns_item"><a href="https://www.facebook.com/EARLY.AGE.ea" target="_blank" class="rollover"><img src="./images/fb_mini_off.gif" alt="Facebook" width="23" height="28"></a></li>
+        <li class="sns_item"><a href="https://twitter.com/earlyagepr" target="_blank" class="rollover"><img src="./images/twitter_mini_off.gif" alt="Twitter" width="34" height="28"></a></li>
+        <li class="sns_item"><a href="https://www.instagram.com/early_age/" class="rollover" target="_blank"><img src="./images/insta_mini_off.gif" alt="Instagram" width="25" height="28"></a></li>
+      </ul>
+
+      <!-- フッター -->
+      <div class="footLink">
+  <ul class="footLink_inner">
+    <li class="footLink_item footLink_item-first"><a href="/all/index.html">全物件を観る</a></li>
+    <li class="footLink_item"><a href="/owner/index.html">オーナー様、<br>管理会社様へ</a></li>
+    <li class="footLink_item"><a href="/info/index.html">会社概要</a></li>
+    <li class="footLink_item"><a href="/service/index.html">事業内容</a></li>
+    <li class="footLink_item"><a href="/ir/index.html">IR情報</a></li>
+    <li class="footLink_item"><a href="/privacypolicy/">プライバシー<br>ポリシー</a></li>
+    <li class="footLink_item"><a href="/sitemap/">サイトマップ</a></li>
+  </ul>
+</div>
+<div class="footer">
+  <p class="footer_copyright"><small>Copyright © EARLY-AGE CO.,LTD.</small></p>
+</div>
+
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+<script>api_top();</script>

@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="IE=9" >
+<meta http-equiv="x-ua-compatible" content="IE=EmulateIE9" >
+<!--[if IE]>
+<meta http-equiv="imagetoolbar" content="no">
+<![endif]-->
+<script type="text/javascript" src="./common/js/meta.js?20170712" charset="utf-8"></script>
+<meta name="format-detection" content="telephone=no">
+<meta name="robots" content="INDEX, FOLLOW">
+<meta name="description" content="ネットワーク・セキュリティの専門集団、株式会社セキュアヴェイルのウェブサイト。ログ解析サービス、ファイアウォール構築・運用、IDS/IPS構築・運用、セキュリティ監査サービスなど、ネットワーク・セキュリティに関するサービスをワンストップでご提供します。">
+<meta name="keywords" content="セキュアヴェイル,セキュアベール,セキュアベイル,セキュアヴェール,ネットワーク,構築,インターネット,セキュリティ,サーバ,WEB,システム,運用,管理,監視,アクセス,コンピュータ,ウィルス,フォレンジック,内部統制,サービス,ログ解析">
+<meta property="og:title" content="セキュリティ対策の株式会社セキュアヴェイル">
+<meta property="og:description" content="ネットワーク・セキュリティの専門集団、株式会社セキュアヴェイルのウェブサイト。ログ解析サービス、ファイアウォール構築・運用、IDS/IPS構築・運用、セキュリティ監査サービスなど、ネットワーク・セキュリティに関するサービスをワンストップでご提供します。">
+<link href="./common/css/reset.css?20170712" type="text/css" media="all" rel="stylesheet">
+<link href="./common/css/common.css?20170712" type="text/css" media="all" rel="stylesheet">
+<link href="./common/font-awesome/css/font-awesome.min.css?20170712" media="all" rel="stylesheet">
+<link href="./common/css/hamburgers.css?20170712" type="text/css" media="all" rel="stylesheet">
+<link href="./common/css/details.css?20170712" type="text/css" media="all" rel="stylesheet">
+<link href="./common/css/layout.css?20170712" type="text/css" media="all" rel="stylesheet">
+<link href="./common/css/top.css?20170712" type="text/css" media="all" rel="stylesheet">
+<link href="./common/css/print.css?20170712" type="text/css" media="print" rel="stylesheet">
+<!--[if lt IE 9]>
+<script src="./common/js/html5shiv-printshiv.js?20170712"></script>
+<![endif]-->
+<script type="text/javascript" src="./common/js/jquery.js?20170712" charset="utf-8"></script>
+<script type="text/javascript" src="./common/js/scrollsmoothly.js?20170712"></script>
+<script type="text/javascript" src="./common/js/jquery.animate-colors-min.js?20170712"></script>
+<!--[if IE 6]>
+<script src="./common/js/DD_belatedPNG_0.0.8a.js?20170712"></script>
+<script>
+DD_belatedPNG.fix('img');
+</script>
+<![endif]-->
+
+<!-- heightLine -->
+<script type="text/javascript" src="./common/js/jquery.heightLine.js?20170712"></script>
+<script type="text/javascript">
+$(function(){
+$(".kishu_box ul").css("display","none");
+        $(".kishu_select").on("click", function() {
+            $(this).next().slideToggle();
+        });
+});
+
+//全体クリック
+$(document).ready(function(){ 
+	//$("#top_main .flt_left ul li,.seminar_box,.kishu_box li").click(function(){
+     $("#top_main .flt_left ul li,.kishu_box li").click(function(){
+         if($(this).find("a").attr("target")=="_blank"){
+             window.open($(this).find("a").attr("href"), '_blank');
+         }else{
+             window.location=$(this).find("a").attr("href");
+         }
+     return false;
+     });
+});
+
+$(window).load(function(){
+$(".box_product_ns .box_product,.box_product_ls .box_product").heightLine({
+    fontSizeCheck:true,
+	minWidth:640
+});
+$(".box_product_nss .box_product,.box_product_lsc .box_product").heightLine({
+    fontSizeCheck:true,
+	minWidth:640
+});
+$(".box_product_ns .txt_product,.box_product_ls .txt_product").heightLine({
+    fontSizeCheck:true,
+	minWidth:640
+});
+$(".box_product_nss .txt_product,.box_product_lsc .txt_product").heightLine({
+    fontSizeCheck:true,
+	minWidth:640
+});
+});
+</script>
+<!-- /heightLine  -->
+
+<!-- bxSlider  -->
+<script src="./common/jquery.bxslider/jquery.bxslider.min.js?20170712"></script>
+<link href="./common/jquery.bxslider/jquery.bxslider.css?20170712" rel="stylesheet" />
+<script src="./common/jquery.bxslider/setting.jquery.bxslider.js?20170712"></script>
+<!-- /bxSlider  -->
+<script type="text/javascript" src="./common/js/common.js?20170712"></script>
+
+<link rel="shortcut icon" href="/favicon.ico">
+
+<script>
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-61499625-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+<!-- User Heat Tag -->
+<script type="text/javascript">
+(function(add, cla){window['UserHeatTag']=cla;window[cla]=window[cla]||function(){(window[cla].q=window[cla].q||[]).push(arguments)},window[cla].l=1*new Date();var ul=document.createElement('script');var tag = document.getElementsByTagName('script')[0];ul.async=1;ul.src=add;tag.parentNode.insertBefore(ul,tag);})('//uh.nakanohito.jp/uhj2/uh.js', '_uhtracker');_uhtracker({id:'uhCCAIFE5V'});
+</script>
+<!-- End User Heat Tag -->
+
+<title>セキュリティ対策のセキュアヴェイル</title>
+</head>
+
+<body>
+
+
+<!-- //////////////////////////////////////////////////////////////////////////////
+ここからheader
+////////////////////////////////////////////////////////////////////////////// -->
+<header>
+<div class="container">
+
+<p id="header_logo">セキュリティ対策の<a href="/"><img src="/common/img/img_logo_pc.png" alt="セキュアヴェイル" class="for_pc"><img src="/common/img/img_logo_smp.png" alt="セキュアヴェイル" class="for_smp"></a></p>
+
+<!-- ここから　メニューボタン（スマホ） -->
+<div class="hamburger hamburger--collapse menu-button" type="button" id="btn_menu">
+<span class="hamburger-box">
+<span class="hamburger-inner">
+</span>
+</span>
+</div>
+<!-- ここまで　メニューボタン（スマホ） -->
+
+<!-- ここからグローバルナビ -->
+<nav>
+<ul class="g_nav_modal">
+<li id="gnav_solution" class="gnav_pulldown"><span class="no_link">ソリューション</span>
+	<ul>
+	<li><a href="/solution/soc.html">SOCサービス</a></li>
+	<li><a href="/product/netstare/net_audit.html">セキュリティ診断</a></li>
+	<li><a href="/product/netstare/waf_f5.html">アプリケーションセキュリティ</a></li>
+	<li><a href="/product/logstarecollector/">NW監視・ログ収集<span class="txt_red">（フリー）</span></a></li>
+	<li><a href="/lp/logstare/">統合ログマネージメント</a></li>
+	</ul>
+</li>
+<li id="gnav_product" class="gnav_pulldown"><span class="no_link">製品・サービス</span>
+	<ul>
+	<li><a href="/lp/netstare/">NetStare&reg;</a></li>
+	<li><a href="/lp/logstare/">LogStare&reg;</a></li>
+	<li><a href="/product/logstarecollector/">LogStare&reg; Collector</a></li>
+	<li><a href="http://suite.netstare.jp/" target="_blank">NetStare&reg; Suite</a></li>
+	</ul>
+</li>
+<li id="gnav03"><a href="http://www.secuavail.com/seminar/" target="_blank">セミナー</a></li>
+<li id="gnav04"><a href="/corporation/">会社情報</a></li>
+<li id="gnav05"><a href="/info/">IR情報</a></li>
+<li id="gnav06"><a href="http://recruit.secuavail.com/" target="_blank">採用情報</a></li>
+<li id="gnav07"><a href="/SANEWS/">SECUAVAIL NEWS</a></li>
+<li id="gnav08"><a href="/sitemap/">サイトマップ</a></li>
+<li id="gnav_contact"><a href="https://www.secuavail.com/contact/">お問い合わせ</a></li>
+</ul>
+</nav>
+
+<!-- ここまでグローバルナビ -->
+
+</div>
+</header>
+<!-- //////////////////////////////////////////////////////////////////////////////
+ここまでheader
+////////////////////////////////////////////////////////////////////////////// -->
+
+
+
+<!-- //////////////////////////////////////////////////////////////////////////////
+ここから　プロモーションエリア
+////////////////////////////////////////////////////////////////////////////// -->
+<div id="top_promotion">
+
+<div class="container">
+<img src="img/img_top_main01.jpg?20170628" class="for_pc" alt="">
+<img src="img/img_top_main01_smp.jpg?20170628" class="for_smp" alt="">
+
+<!-- ここから　スライド -->
+<div id="list_solution">
+<ul class="bxslider">
+<li id="list_solution01">
+<div onclick="ga('send', 'event', 'page_access', 'click', 'top_sol_soc', 1, {'nonInteraction': 1});">
+<h2><a href="./solution/soc.html">SOCサービス<img src="img/ico_solution_soc.png" alt=""></a></h2>
+</div>
+</li>
+<li id="list_solution02">
+<div onclick="ga('send', 'event', 'page_access', 'click', 'top_sol_shindan', 1, {'nonInteraction': 1});">
+<h2><a href="/product/netstare/net_audit.html">セキュリティ診断<img src="img/ico_solution_shindan.png" alt=""></a></h2>
+</div>
+</li>
+<li id="list_solution03">
+<div onclick="ga('send', 'event', 'page_access', 'click', 'top_sol_app', 1, {'nonInteraction': 1});">
+<h2><a href="/product/netstare/waf_f5.html">アプリケーションセキュリティ<img src="img/ico_solution_shien.png" alt=""></a></h2>
+</div>
+</li>
+<li id="list_solution04">
+<div onclick="ga('send', 'event', 'page_access', 'click', 'top_sol_lsc', 1, {'nonInteraction': 1});">
+<h2><a href="/product/logstarecollector/">ネットワーク監視とログ収集・監視フリーソフトウェア<img src="img/ico_solution_kanshi.png" alt=""></a></h2>
+</div>
+</li>
+<li id="list_solution05">
+<div onclick="ga('send', 'event', 'page_access', 'click', 'top_sol_ls', 1, {'nonInteraction': 1});">
+<h2><a href="/lp/logstare/">統合ログマネージメント<img src="img/ico_solution_software.png" alt=""></a></h2>
+</div>
+</li>
+</ul>
+</div>
+<!-- ここまで　スライド -->
+
+
+
+
+<div class="cpy_top_main">
+<div class="catch_box">
+<p class="cpy_catch01">安心のみえる化</p>
+<p class="cpy_catch02"><span class="txt_red">SEC</span>urity for the fut<span class="txt_red">URE</span></p>
+<p class="cpy_catch03">現在と未来を“みえる化”し、改善することで<br>
+“安心”できるセキュリティ環境を提供します</p>
+</div>
+<div class="kishu_box">
+<p class="kishu_select">お使いの機種をお選びください</p>
+	<ul>
+	<li onclick="ga('send', 'event', 'page_access', 'click', 'top_kishu', 1, {'nonInteraction': 1});">
+	<h2><a href="/product/netstare/fw_paloalto.html">Palo Alto Networks</a></h2>
+		<p>PA-5000シリーズ、PA-3000シリーズ、PA-500、PA-200</p>	
+	</li>
+	<li onclick="ga('send', 'event', 'page_access', 'click', 'top_kishu', 1, {'nonInteraction': 1});">
+	<h2><a href="/product/netstare/fw_fortigate.html">FORTINET FortiGate</a></h2>
+		<p>FortiGate-60D、FortiGate-90D、FortiGate-100D、FortiGate-200D、FortiGate-300D、FortiGate-800C、FortiGate-1000C、FortiGate-1500D、FortiGate-3700D</p>
+	</li>
+	<li onclick="ga('send', 'event', 'page_access', 'click', 'top_kishu', 1, {'nonInteraction': 1});">
+	<h2><a href="/product/netstare/waf_f5.html">F5 BIG-IP ASM</a></h2>
+	</li>
+	<li onclick="ga('send', 'event', 'page_access', 'click', 'top_kishu', 1, {'nonInteraction': 1});">
+		<h2><a href="/product/netstare/ips_mcafee.html">McAfee NSP Mシリーズ</a></h2>
+		<p>M-1000シリーズ、M-2000シリーズ、M-3000シリーズ、M-4000シリーズ、M-6000シリーズ、M-8000シリーズ</p>
+	</li>
+	</ul>
+</div>
+</div>
+
+</div>
+</div>
+<!-- //////////////////////////////////////////////////////////////////////////////
+ここまで　プロモーションエリア
+////////////////////////////////////////////////////////////////////////////// -->
+
+
+
+<!-- //////////////////////////////////////////////////////////////////////////////
+ここから　製品紹介とニュース系
+////////////////////////////////////////////////////////////////////////////// -->
+<div id="top_main">
+
+<!-- //////////////////////////////////////////////////////////////////////////////
+ここから　製品紹介
+////////////////////////////////////////////////////////////////////////////// -->
+<div class="flt_left">
+<ul>
+<li class="box_product_ns">
+	<p class="ico_product">SOCサービス<img src="common/img/ico_product_soc.png" alt=""></p>
+	<div class="box_product">
+	<p class="catch_product">統合運用管理サービス</p>
+	<h2>
+	<a href="lp/netstare/">
+	<img src="common/img/img_logo_ns.png" alt="NetStare" >
+	</a>
+	<span>ネットステア</span>
+	</h2>
+	</div>
+	<p class="txt_product">セキュリティシステムの運用監視を24時間365日体制でフルサポートします。プロが造り、プロが選ぶ唯一のSOCサービスです。</p>
+</li>
+<li class="box_product_ls">
+	<p class="ico_product">ソフトウェア製品<img src="common/img/ico_product_software.png" alt=""></p>
+		<div class="box_product">
+	<p class="catch_product">ログ管理分析ソフトウェア</p>
+	<h2>
+	<a href="lp/logstare/">
+	<img src="common/img/img_logo_ls.png" alt="LogStare" >
+	</a>
+		<span>ログステア</span>
+	</h2>
+	</div>
+	<p class="txt_product">情報セキュリティ対策や、内部統制、監査に必要なシステムログやイベント情報の収集、分析管理専用ソフトウェアです。</p>
+</li>
+<li class="box_product_lsc">
+	<p class="ico_product">ソフトウェア製品<img src="common/img/ico_product_software.png" alt=""></p>
+		<div class="box_product">
+	<p class="catch_product">ネットワーク監視とログ収集・監視</p>
+	<h2>
+	<a href="product/logstarecollector/">
+	<img src="common/img/img_logo_lsc.png" alt="LogStare Collector" >
+	</a>
+		<span>ログステアコレクター</span>
+	</h2>
+	<p class="free_product">無料版ダウンロード</p>
+		</div>
+	<p class="txt_product">ネットワーク監視とログ収集・監視に必要な機能を標準搭載した、ユーザー登録不要のフリーソフトウェアです。</p>
+</li>
+<li class="box_product_nss">
+	<p class="ico_product">クラウドサービス<img src="common/img/ico_product_cloud.png" alt=""></p>
+		<div class="box_product">
+	<p class="catch_product">セキュリティクラウドサービス</p>
+	<h2>
+	<a href="http://suite.netstare.jp/" target="_blank">
+	<img src="common/img/img_logo_nss.png" alt="NetStare Suite" >
+	</a>
+		<span>ネットステアスイート</span>
+	</h2>
+	</div>
+	<p class="txt_product">大容量ログデータを蓄積し、様々な分析ツールやレポート出力をクラウドサービスで提供します。</p>
+</li>
+</ul>
+</div>
+<!-- //////////////////////////////////////////////////////////////////////////////
+ここまで　製品紹介
+////////////////////////////////////////////////////////////////////////////// -->
+
+<!-- //////////////////////////////////////////////////////////////////////////////
+ここから　お知らせ＆IR
+////////////////////////////////////////////////////////////////////////////// -->
+<div class="flt_right">
+<h2>お知らせ</h2>
+
+<div class="top_list_news">
+
+<dl>
+<dt class="news">2017年08月08日</dt>
+
+<dd>﻿<a href="http://www.secuavail.com/SANEWS/" target="_blank">﻿SecuAvail NEWS 最新刊を掲載いたしました</a><span class="new">2017:08:08:09:29:24</span></dd>
+</dl>
+
+<dl>
+<dt class="news">2017年07月01日</dt>
+
+<dd>﻿オフィシャルサイトをリニューアルしました<span class="new">2017:07:01:00:00:00</span></dd>
+</dl>
+
+<dl>
+<dt class="news">2017年03月16日</dt>
+
+<dd>﻿<a href="http://www.secuavail.com/seminar/" target="_blank">﻿4～6月のセミナー情報（東京）を掲載いたしました</a><span class="new">2017:03:16:13:09:31</span></dd>
+</dl>
+
+
+</div>
+
+<!-- ここから　ボタン -->
+<div class="btn_base">
+<a href="event/">過去のお知らせを見る</a>
+</div>
+<!-- ここまで　ボタン -->
+
+<h2 class="mt40">IRニュース</h2>
+
+<div class="top_list_news">
+
+<dl>
+<dt>2017年08月14日</dt>
+<dd><a href="http://v3.eir-parts.net/EIR/View.aspx?cat=yuho_pdf&amp;sid=2579871" target="_blank">2018年3月期 第１四半期報告書</a>
+<img src="common/img/ico_pdf.png" alt="PDF"/>（442KB）
+ <span class="txt_red">New! </span></dd>
+</dl>
+
+<dl>
+<dt>2017年08月14日</dt>
+<dd><a href="http://v3.eir-parts.net/EIR/View.aspx?cat=tdnet&sid=1508903" target="_blank">平成30年３月期 第１四半期決算短信〔日本基準〕（連結）</a>
+<img src="common/img/ico_pdf.png" alt="PDF"/>（261KB）
+ <span class="txt_red">New! </span></dd>
+</dl>
+
+
+<dl>
+<dt>2017年08月14日</dt>
+<dd><a href="http://v3.eir-parts.net/EIR/View.aspx?cat=tdnet&sid=1508902" target="_blank">連結決算の開始に関するお知らせ</a>
+<img src="common/img/ico_pdf.png" alt="PDF"/>（61KB）
+ <span class="txt_red">New! </span></dd>
+</dl>
+
+
+</div>
+
+<!-- ここから　ボタン -->
+<div class="btn_base">
+<a href="info/news.html">過去のIRニュースを見る</a>
+</div>
+<!-- ここまで　ボタン -->
+
+</div>
+<!-- //////////////////////////////////////////////////////////////////////////////
+ここまで　お知らせ＆IR
+////////////////////////////////////////////////////////////////////////////// -->
+
+</div>
+<!-- //////////////////////////////////////////////////////////////////////////////
+ここまで　製品紹介とニュース系
+////////////////////////////////////////////////////////////////////////////// -->
+
+
+
+
+<!-- //////////////////////////////////////////////////////////////////////////////
+ここからfooter
+////////////////////////////////////////////////////////////////////////////// -->
+<!-- ここから　お問い合わせ -->
+<div id="footer_contact">
+<div class="container">
+<dl class="flt_left">
+<dt><span>お電話でのお問い合わせ</span>
+（平日 9時～18時）</dt>
+<dd>
+<p>東京<span>03-6264-7180</span></p>
+<div class="btn_footer_tel mt05 for_smp"><a href="tel:0362647180">電話する（東京）</a></div>
+<p>大阪<span>06-6136-0020</span></p>
+<div class="btn_footer_tel mt05 for_smp"><a href="tel:0661360020" class="txt_center">電話する（大阪）</a></div>
+</dd>
+</dl>
+<dl class="flt_right">
+<dt>メールでのお問い合わせ</dt>
+<dd><a href="https://www.secuavail.com/contact/">お問い合わせフォーム</a></dd>
+</dl>
+</div>
+</div>
+<!-- ここまで　お問い合わせ -->
+
+
+<!-- ここから　#footer_menu -->
+<div id="footer_menu">
+<div class="cantainer">
+
+<div class="footer_list footer_list01">
+<p>製品・サービスについて</p>
+<ul>
+<li><a href="/lp/netstare/">NetStare&reg;（ネットステア）</a></li>
+<li><a href="/lp/logstare/">LogStare&reg;（ログステア）</a></li>
+<li><a href="/product/logstarecollector/">LogStare&reg; Collector（ログステアコレクター）</a></li>
+<li><a href="http://suite.netstare.jp/" target="_blank" class="ico_blank">NetStare&reg; Suite（ネットステアスィート）</a></li>
+</ul>
+<img src="/common/img/img_logo.png" alt="Secuavail セキュアヴェイル" class="for_pc">
+</div>
+
+<div class="footer_list footer_list02">
+<p><a href="http://www.secuavail.com/seminar/" target="_blank" class="ico_blank">セキュリティセミナー</a></p>
+<p><a href="/corporation/">会社情報</a></p>
+<p><a href="/info/">IR情報（投資家の皆さまへ）</a></p>
+<p><a href="/pprogram/">ビジネスパートナー</a></p>
+</div>
+
+<div class="footer_list footer_list03">
+<p><a href="/SANEWS/">SecuAvail NEWS</a></p>
+<p><a href="http://recruit.secuavail.com/" target="_blank" class="ico_blank">採用情報</a></p>
+<p><a href="/download/">資料ダウンロード</a></p>
+<p><a href="https://www.secuavail.com/contact/">お問い合わせ</a></p>
+</div>
+
+<div class="footer_list footer_list04">
+<p><a href="https://www.facebook.com/SecuAvail/" target="_blank" class="ico_blank">facebook</a></p>
+<p><a href="http://secuavail-yone.cocolog-nifty.com/blog/" target="_blank" class="ico_blank">社長ブログ</a></p>
+<div class="img_isms"><img src="/common/img/img_mark.png" alt="ISO/IEC 27001:2013(JIS Q 27001:2014)の認定取得 (登録証番号 JQA-IM0173)"/></div>
+</div>
+
+</div>
+</div>
+<!-- ここまで　#footer_menu -->
+
+<!-- ここから　footer -->
+<footer>
+<div class="cantainer">
+<ul>
+<li><a href="/corporation/">会社情報</a></li>
+<li><a href="/info/">IR情報</a></li>
+<li><a href="http://recruit.secuavail.com/" target="_blank" class="ico_blank_white">採用情報</a></li>
+<li><a href="/isms/">セキュリティ方針</a></li>
+<li><a href="/availment/">当サイトのご利用にあたって</a></li>
+<li><a href="/policy/">個人情報の取り扱いについて</a></li>
+<li><a href="https://www.secuavail.com/contact/">お問い合わせ</a></li>
+<li><a href="/sitemap/">サイトマップ</a></li>
+</ul>
+<address>&copy; 2017 SecuAvail Inc.</address>
+</div>
+</footer>
+<!-- ここまで　footer -->
+<!-- //////////////////////////////////////////////////////////////////////////////
+ここまでfooter
+////////////////////////////////////////////////////////////////////////////// -->
+
+
+
+<!-- //////////////////////////////////////////////////////////////////////////////
+ここから　ページの先頭へ戻る
+////////////////////////////////////////////////////////////////////////////// -->
+<div id="btn_page_top">
+TOP
+</div>
+<!-- //////////////////////////////////////////////////////////////////////////////
+ここまで　ページの先頭へ戻る
+////////////////////////////////////////////////////////////////////////////// -->
+
+
+<script type="text/javascript" src="./common/js/common_after.js?20170712"></script>
+<script type="text/javascript" src="./common/js/news.js?20170712"></script>
+
+</body>
+</html>

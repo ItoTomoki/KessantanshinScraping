@@ -1,0 +1,218 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta name="keywords" content="株式会社ビーアールホールディングス" />
+<meta name="description" content="株式会社ビーアールホールディングスのウェブサイトです。企業情報、事業領域、CSR活動、IR情報などをご紹介します。" />
+<title>ビーアールホールディングス</title>
+<link href="css/import.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/index.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/font_m.css" rel="stylesheet" type="text/css" media="all" title="styleswichter" />
+<script src="js/common.js" type="text/javascript"></script>
+<script src="js/jquery.js" type="text/javascript"></script>
+<script src="js/jquery.cookie.js" type="text/javascript"></script>
+<script src="js/jquery.styleswichter.js" type="text/javascript"></script>
+<!--　↓eol　-->
+<link rel="stylesheet" type="text/css" href="ir/JS/main.css">
+<!--　↑eol　-->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-16728767-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript';
+ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' :'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0];
+s.parentNode.insertBefore(ga, s);
+  })();
+  
+  
+  $(function(){
+     setInterval(function(){
+        $("img[name='new']").fadeOut(1000,function(){$(this).fadeIn(1000)});
+     },1000);
+  });
+
+</script>
+<link href="css/print.css" rel="stylesheet" type="text/css" media="print" />
+</head>
+<body>
+<div id="wrap">
+  <div id="head"><a name="top" id="top"></a>
+    <div id="logo"><a href="/"><img src="images/logo.gif" alt="Br.Holdings - ビーアールホールディングス" title="Br.Holdings - ビーアールホールディングス" width="60" height="54" /></a></div>
+    <ul id="menu" class="clearfix">
+      <li><a href="info/index.html" id="menu_1" title="企業情報">企業情報</a></li>
+      <li><a href="biz/index.html" id="menu_2" title="事業領域">事業領域</a></li>
+      <li><a href="csr/index.html" id="menu_3" title="CSR活動">CSR活動</a></li>
+      <li><a href="ir/index.html" id="menu_4" title="株主・投資家情報">株主・投資家情報</a></li>
+    </ul>
+    <ul id="h_menu" class="clearfix">
+      <li><a href="https://www.brhd.co.jp/contact/">お問い合わせ</a></li>
+      <li><a href="sitemap/index.html">サイトマップ</a></li>
+    </ul>
+    <ul id="font-size" class="clearfix">
+      <li><img src="images/font_size.gif" alt="文字サイズ変更" title="文字サイズ変更" width="70" height="10" /></li>
+      <li class="fontS"><a href="javascript:void(0);" onclick="$.fn.StyleSwichter({cssPath: '/css/font_s.css'}); this.blur(); return false;" title="小">小</a></li>
+      <li class="fontM"><a href="javascript:void(0);" onclick="$.fn.StyleSwichter({cssPath: '/css/font_m.css'}); this.blur(); return false;" title="中">中</a></li>
+      <li class="fontL"><a href="javascript:void(0);" onclick="$.fn.StyleSwichter({cssPath: '/css/font_l.css'}); this.blur(); return false;" title="大">大</a></li>
+    </ul>
+    <!-- END "head" -->
+  </div>
+  <div id="main" class="clearfix">
+    <div id="branding"><img src="images/branding.jpg" alt="" width="940" /></div>
+    <div id="contents">
+      <div id="news_area">
+        <div id="title_press">
+          <h2><img src="images/title_press.gif" alt="プレスリリース" title="プレスリリース" width="705" height="39" /></h2>
+          <p class="btn_more"><a href="ir/release.html"><img src="images/btn_more.gif" alt="一覧はこちら" width="76" height="18" /></a></p>
+        </div>
+        <div id="release">
+          <div id="divSelect"></div>
+          <div id="divDataArea"></div>
+          <script type="text/javascript" src="ir/JS/announcement_top.js"></script>
+        </div>
+        <div id="title_whats">
+          <h2><img src="images/title_whats.gif" alt="お知らせ" title="お知らせ" width="705" height="39" /></h2>
+          <p class="btn_more"><a href="whats/index.html"><img src="images/btn_more.gif" alt="一覧はこちら" width="76" height="18" /></a></p>
+        </div>
+        <div id="news_box">
+          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td class="date">2017年08月10日</td>
+              <td><a href="ir/libs/summary.html">「決算概要資料」</a>のページを追加し、第16期第１四半期の決算概要資料を掲載しました。<img name= "new" align="absmiddle" src="ir/JS/img/new_icon.gif"/></td>
+            </tr>
+            <tr>
+              <td class="date">2017年07月05日</td>
+              <td><a href="ir/libs/pdf/170705koukoku-BRHD.pdf" target="_blank">新株予約権発行に関する取締役会決議公告</a><img src="ir/JS/img/filetype_icon/pdf.gif" align="absmiddle" />&nbsp;&nbsp;（161KB）<br>
+              
+              </td>
+            </tr>
+            <tr>
+              <td class="date">2017年06月29日</td>
+              <td>企業情報、株主投資家情報を更新しました。</td>
+            </tr>
+            <tr>
+              <td class="date">2017年06月29日</td>
+              <td><a href="info/pdf/governance.pdf" target="_blank">「コーポレート・ガバナンス報告書」</a>を更新しました。</td>
+            </tr>
+            <tr>
+              <td class="date">2017年06月09日</td>
+              <td><a href="pdf/20170609_01.pdf" target="_blank">招集通知記載事項の一部修正について</a><img src="ir/JS/img/filetype_icon/pdf.gif" align="absmiddle" />&nbsp;&nbsp;（138KB）<br>
+              </td>
+            </tr>
+            <tr>
+              <td class="date">2017年06月01日</td>
+              <td><a href="ir/libs/pdf/convene_15.pdf" target="_blank">第15回定時株主総会招集通知</a>を掲載しました。<img src="ir/JS/img/filetype_icon/pdf.gif" align="absmiddle" />&nbsp;&nbsp;（483KB）<br>
+              </td>
+            </tr>
+            <tr>
+              <td class="date">2016年11月04日</td>
+              <td><a href="pdf/20161104_01.pdf" target="_blank">第15期中間配当金支払いに関する取締役会決議のお知らせ</a><img src="ir/JS/img/filetype_icon/pdf.gif" align="absmiddle" />&nbsp;&nbsp;（107KB）<br>
+              </td>
+            </tr>
+            <tr>
+              <td class="date">2016年09月13日</td>
+              <td><a href="ir/libs/pdf/160913koukoku-BRHD.pdf" target="_blank">「株式分割に関する基準日設定公告」</a>を掲載しました。</td>
+            </tr>
+            <tr>
+              <td class="date">2016年08月30日</td>
+              <td><a href="pdf/issue_price20160830.pdf" target="_blank">発行価格等の決定に関するお知らせ（金融商品取引法第15条第５項に基づく公表文）</a></td>
+            </tr>
+            <tr>
+              <td class="date">2016年08月09日</td>
+              <td><a href="ir/stock/pdf/stockholder_info.pdf" target="_blank">「株主優待情報」</a>を更新しました。</td>
+            </tr>
+          </table>
+        </div>
+
+      </div>
+      <div id="top_tree">
+        <table width="706" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <th width="177" scope="col"><img src="images/top_tree_1.gif" alt="企業情報" title="企業情報" width="177" height="40" /></th>
+            <th width="176" scope="col"><img src="images/top_tree_2.gif" alt="事業領域" title="事業領域" width="176" height="40" /></th>
+            <th width="176" scope="col"><img src="images/top_tree_3.gif" alt="CSR活動" title="CSR活動" width="176" height="40" /></th>
+            <th width="177" scope="col"><img src="images/top_tree_4.gif" alt="株主・投資家情報" title="株主・投資家情報" width="177" height="40" /></th>
+          </tr>
+          <tr>
+            <td><ul>
+                <li><a href="/info/index.html">ご挨拶</a></li>
+                <li><a href="/info/policy.html">経営方針</a></li>
+                <li><a href="/info/criterion.html">Br.HD行動基準</a></li>
+                <li><a href="/info/outline.html">会社概要</a></li>
+                <li><a href="/info/organization.html">組織図</a></li>
+                <li><a href="/info/officer.html">役員一覧</a></li>
+                <li><a href="/info/group.html">グループ企業</a></li>
+                <li><a href="/info/governance.html">コーポレート・ガバナンス</a></li>
+              </ul></td>
+            <td><ul>
+                <li><a href="/biz/index.html">事業領域</a></li>
+                <li><a href="/biz/building.html">建設事業</a></li>
+                <li><a href="/biz/repair.html">補修補強事業</a></li>
+                <li><a href="/biz/sell.html">製品販売事業</a></li>
+                <li><a href="/biz/research.html">研究開発</a></li>
+                <li><a href="/biz/quality.html">品質管理</a></li>
+              </ul></td>
+            <td><ul>
+                <li><a href="/csr/index.html">環境との関わり</a></li>
+                <li><a href="/csr/community.html">社会・地域との関わり</a></li>
+              </ul></td>
+            <td><ul>
+                <li><a href="/ir/index.html">経営戦略</a></li>
+                <li><a href="/ir/release.html">プレスリリース</a></li>
+                <li><a href="/ir/libs/index.html">IRライブラリ</a></li>
+                <li><a href="/ir/report.html">決算報告</a></li>
+                <li><a href="/ir/stock/index.html">株式情報</a></li>
+              </ul></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div id="shortcut">
+      <ul>
+        <li><img src="images/shortcut_01.jpg" alt="個人投資家の皆様へ" title="個人投資家の皆様へ" width="220" height="70" /></li>
+        <li><a href="koukoku/index.html"><img src="images/shortcut_02.jpg" alt="電子公告" title="電子公告" width="220" height="70" /></a></li>
+      </ul>
+      <div id="group">
+        <p><img src="images/group_00.gif" alt="グループ会社" width="210" height="18" border="0" usemap="#Map" title="グループ会社" />
+          <map name="Map" id="Map">
+            <area shape="rect" coords="131,0,207,18" href="info/group.html" alt="一覧はこちら" title="一覧はこちら" />
+          </map>
+        </p>
+        <ul>
+          <li><a href="http://www.kkn.co.jp/" target="_blank"><img src="images/group_01.png" alt="極東興和株式会社" title="極東興和株式会社" width="210" height="40" /></a></li>
+          <li><a href="http://www.h-con.co.jp/" target="_blank"><img src="images/group_02.png" alt="東日本コンクリート株式会社" title="東日本コンクリート株式会社" width="210" height="40" /></a></li>
+          <li><a href="http://www.knc.co.jp/" target="_blank"><img src="images/group_03.png" alt="ケイエヌ情報システム株式会社" title="ケイエヌ情報システム株式会社" width="210" height="40" /></a></li>
+          <li><a href="http://www.kkn.co.jp/link/yutaka/yutaka_br.html" target="_blank"><img src="images/group_04.png" alt="豊工業株式会社" title="豊工業株式会社" width="210" height="40" /></a></li>
+          <li><a href="http://www.kkn.co.jp/link/takamiya/index.html" target="_blank"><img src="images/group_05.png" alt="キョクトウ高宮株式会社" title="キョクトウ高宮株式会社" width="210" height="40" /></a></li>
+        </ul>
+      </div>
+      <ul><li>
+      <div class="moz-text-flowed" style="font-family: -moz-fixed">
+        <table width="135" border="0" cellpadding="2" cellspacing="0" title="このマークは、ウェブサイトを安心してご利用いただける安全の証です。">
+        <tr>
+          <td width="135" align="center" valign="top"><script language="JavaScript" TYPE="text/javascript" src="https://trusted-web-seal.cybertrust.ne.jp/seal/getScript?host_name=www.brhd.co.jp&type=21"></script><br />
+          <a href="https://www.cybertrust.ne.jp/SureServer/" target="_blank" style="color:#000000; text-decoration:none; font:bold 12px 'ＭＳ ゴシック',sans-serif; letter-spacing:.5px; text-align:center; margin:0px; padding:0px;">SSLとは？</a></td>
+        </tr>
+        </table>
+      </div>
+      </li></ul>
+    </div>
+    <!-- END "main" -->
+  </div>
+  <div class="clearfix" id="foot">
+    <ul>
+      <li><a href="privacy/index.html">個人情報保護基本方針</a></li>
+      <li><a href="terms/index.html">ご利用にあたって</a></li>
+    </ul>
+    <p id="copyright">Copyright(C) Br.Holdings Corporation. </p>
+    <!-- END "foot" -->
+  </div>
+  <!-- END "wrap" -->
+</div>
+</body>
+</html>

@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width">
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="apple-touch-icon-precomposed" href="/common_files/images/apple-touch-icon.png" />
+
+<meta name="keywords" content="井村屋グループ, 井村屋, imuraya, imuraya group, あずき, 東証二部上場, 安全・安心," /><meta name="description" content="井村屋グループは「和と自然」の味を生かし、お客さまに安全で安心できる楽しい商品・サービスを提供し続けます。" />
+<!-- OGPデータ -->
+<meta property="og:description" content="井村屋グループは「和と自然」の味を生かし、お客さまに安全で安心できる楽しい商品・サービスを提供し続けます。" />
+<meta property="og:title" content="井村屋グループ株式会社" />
+<meta property="og:image" content="https://www.imuraya-group.com/common_files/images/Image.png" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://www.imuraya-group.com/" />
+<meta property="og:site_name" content="井村屋グループ株式会社" />
+<!-- OGPデータ -->
+<meta name="format-detection" content="telephone=no"> 
+
+<title>井村屋グループ株式会社</title>
+
+<!-- stylesheet Files -->
+
+<link rel="stylesheet" type="text/css" media="screen,tv,print" href="/common_files/css/reset.css">
+
+<script type="text/javascript">
+var userAgent = window.navigator.userAgent.toLowerCase();
+var appVersion = window.navigator.appVersion.toLowerCase();
+
+if (userAgent.indexOf("msie") != -1) {
+	if (appVersion.indexOf("msie 6.") != -1) {
+		document.write('<link rel="stylesheet" href="/common_files/css/common_pc.css"><link rel="stylesheet" type="text/css" href="/common_files/css/screen_pc.css">');
+	} else if (appVersion.indexOf("msie 7.") != -1) {
+		document.write('<link rel="stylesheet" href="/common_files/css/common_pc.css"><link rel="stylesheet" type="text/css" href="/common_files/css/screen_pc.css">');
+	} else if (appVersion.indexOf("msie 8.") != -1) {
+		document.write('<link rel="stylesheet" href="/common_files/css/common_pc.css"><link rel="stylesheet" type="text/css" href="/common_files/css/screen_pc.css">');
+	} else {
+	}
+}
+</script>
+ 
+<link rel="stylesheet" type="text/css" media="screen and (max-width: 767px)" href="/common_files/css/common_sp.css">
+<link rel="stylesheet" type="text/css" media="print,screen and (min-width: 768px)" href="/common_files/css/common_pc.css">
+<link rel="stylesheet" type="text/css" media="screen and (max-width: 767px)" href="/common_files/css/screen_sp.css">
+<link rel="stylesheet" type="text/css" media="print,screen and (min-width: 768px)" href="/common_files/css/screen_pc.css">
+
+<link rel="stylesheet" type="text/css" media="screen,tv" href="/common_files/css/template.css">
+<link rel="stylesheet" type="text/css" href="/common_files/css/jquery.bxslider.css"><link rel="stylesheet" type="text/css" media="print" href="/common_files/css/print.css">
+<!-- stylesheet Files -->
+
+<!-- JavaScript Files -->
+<script type="text/javascript" src="/common_files/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="/common_files/js/jquery.cookie.js"></script>
+<script type="text/javascript" src="/common_files/js/yuga.js" charset="utf-8"></script>
+<script type="text/javascript" src="/common_files/js/jquery.bxslider.js"></script>
+<script type="text/javascript" src="/common_files/js/libs_pack.js" charset="utf-8"></script>
+
+<!--[if lt IE 9]>
+<script type="text/javascript" src="/common_files/js/IE7.js"></script>
+<script type="text/javascript" src="/common_files/js/ie7-squish.js"></script>
+<script type="text/javascript" src="/common_files/js/html5shiv.js"></script>
+<script type="text/javascript" src="/common_files/js/PIE.js"></script>
+<![endif]-->
+<!--[if lt IE 8]>
+<script type="text/javascript" src="/common_files/js/selectivizr-min.js"></script>
+<script type="text/javascript">
+$(function() {if (window.PIE) {$('#container .category li a .img_wrap').each(function() {PIE.attach(this);});}});</script>
+<![endif]--> 
+
+<script type="text/javascript" src="/common_files/js/scripts.js" charset="utf-8"></script>
+<!-- JavaScript Files -->
+
+
+
+<script>
+
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new
+Date();a=s.createElement(o),
+
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ ga('create', 'UA-50127674-1', 'imuraya-group.com');
+ ga('send', 'pageview');
+
+</script>
+
+</head>
+<body class="top ">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.9";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<header id="header">
+	<h1 id="logo"><a href="/">井村屋グループ株式会社</a></h1>	<ul id="sp_header_right" class="pc_no">
+		<li id="h_english"><a href="/english/">English</a></li>
+		<li id="menu"><a href="javascript:void(0);" onClick="sp_menu();return false;">メニュー</a></li>
+	</ul>
+	<!--<p id="access" class="pc_no"><a href="/outline/base#ImurayaGroup">アクセス</a></p>-->
+	<ul id="headLinks" class="sp_no">
+		<li><a href="/outline/group">グループ企業リンク</a></li>
+			<li><a href="javascript:window.open('https://www.imuraya-group.com/contact/', 'contact', 'width=750, height=700, menubar=no, toolbar=no, scrollbars=yes');void(0);">お問い合わせ</a></li>
+		<li><a href="/outline/base">事業拠点一覧</a></li>
+		<li><a href="/english">English</a></li>
+	</ul>
+	<div id="fontSize" class="sp_no">
+		<ul>
+			<li class="small"><a href="javascript:void(0);">小</a></li>
+			<li class="midium"><a class="current" href="javascript:void(0);">中</a></li>
+			<li class="large"><a href="javascript:void(0);">大</a></li>
+		</ul>
+	</div>
+	<ul id="gNavi" class="sp_no">
+					<li class="outline"><a href="/outline">企業情報</a></li>
+					<li class="ir"><a href="/ir">IR情報</a></li>
+					<li class="csr"><a href="/csr">CSR情報</a></li>
+					<li class="product"><a href="/product">商品づくり</a></li>
+					<li class="safety"><a href="/safety">安全・安心</a></li>
+				<li class="recruit"><a href="/recruit/">採用情報</a></li>
+		<li class="english pc_no"><a href="/english/">English</a></li>
+	</ul>
+		<div id="mainVisual" class="main_visual">
+		<a href="/outline/management/"><img class="img_trans pc_no" width="100%" src="/img/mainvisual_sp01.jpg" alt="おいしい！の笑顔をつくる" title="おいしい！の笑顔をつくる"></a>
+		<!--a href="http://www.imuraya.co.jp/iseshima-summit/index.html" target="_blank" class="after_date_diff"><img class="img_trans pc_no" width="100%" src="/img/mainvisual_sp01.jpg" alt="井村屋グループは応援しています！ 2016年5月26日・27日開催 伊勢志摩サミット" title="井村屋グループは応援しています！ 2016年5月26日・27日開催 伊勢志摩サミット"></a-->
+		<ul class="sp_no">
+			<li>
+				<a href="/outline/management">
+					<img width="960" class="img_trans sp_no" src="/img/mainvisual01.jpg" alt="おいしい！の笑顔をつくる" title="おいしい！の笑顔をつくる">
+									</a>
+			</li>
+			<li>
+				<a href="/english">
+					<img width="960" class="img_trans sp_no" src="/img/mainvisual07.jpg" alt="Imuraya Group WebSite" title="Imuraya Group WebSite">
+									</a>
+			</li>
+			<li>
+				<a href="/outline/history">
+					<img width="960" class="img_trans sp_no" src="/img/mainvisual02.jpg" alt="井村屋グループの歴史" title="井村屋グループの歴史">
+									</a>
+			</li>
+			<li>
+				<a href="/outline/group">
+					<img width="960" class="img_trans sp_no" src="/img/mainvisual03.jpg" alt="井村屋　グループ企業紹介" title="井村屋　グループ企業紹介">
+									</a>
+			</li>
+			<li>
+				<a href="/product">
+					<img width="960" class="img_trans sp_no" src="/img/mainvisual04.jpg" alt="井村屋グループ　商品づくり" title="井村屋グループ　商品づくり">
+									</a>
+			</li>
+			<li>
+				<a href="/csr">
+					<img width="960" class="img_trans sp_no" src="/img/mainvisual05.jpg" alt="CSR情報" title="CSR情報">
+									</a>
+			</li>
+			<li>
+				<a href="/safety">
+					<img width="960" class="img_trans sp_no" src="/img/mainvisual06.jpg" alt="井村屋グループ　安全・安心" title="井村屋グループ　安全・安心">
+									</a>
+			</li>
+		</ul>
+	</div>
+		<script type="text/javascript">
+	$(window).load(function(){
+		preload();
+	});
+	function preload() {
+		// プレロード
+		// メインビジュアル変更時：要確認（1/2）
+		var preloadImages = [
+			"mainvisual01.jpg",
+			"mainvisual07.jpg",
+			"mainvisual02.jpg",
+			"mainvisual03.jpg",
+			"mainvisual04.jpg",
+			"mainvisual05.jpg",
+			"mainvisual06.jpg",
+
+			"s_mainvisual01.jpg",
+			"s_mainvisual07.jpg",
+			"s_mainvisual02.jpg",
+			"s_mainvisual03.jpg",
+			"s_mainvisual04.jpg",
+			"s_mainvisual05.jpg",
+			"s_mainvisual06.jpg",
+
+			// "mainvisual_sp09.jpg",
+			"mainvisual_sp01.jpg",
+			"mainvisual_sp07.jpg",
+			"mainvisual_sp02.jpg",
+			"mainvisual_sp03.jpg",
+			"mainvisual_sp04.jpg",
+			"mainvisual_sp05.jpg",
+			"mainvisual_sp06.jpg"
+		];
+		var preloadImage = new Array();
+		for(var key in preloadImages){
+			preloadImage[key] = new Image();
+			preloadImage[key].src = "/img/"+preloadImages[key];
+		}
+		play();
+		
+	}
+	function play() {
+		/*
+		$("#mainVisual > a").animate({"opacity":0},1000,function() {
+			$("#mainVisual > a").remove();
+			$('#mainVisual ul').css({"opacity":0,"display":"block"});
+			$("#mainVisual ul").animate({"opacity":1},1000,function() {
+				*/
+		// メインビジュアル（pc用）
+		var pcVisualSlider = $('#mainVisual ul').bxSlider({
+			auto:true,
+			mode:"fade",
+			touchEnabled:true,
+			pause:7000,
+			speed:9000,
+			onSlideAfter: function () { pcVisualSlider.startAuto({auto:true}); },
+			// ページャーのサムネイル設定
+			buildPager:function(slideIndex) {
+				switch(slideIndex) {
+					// 一枚目のサムネイル
+					// メインビジュアル変更時：要確認（2/2）
+					case 0:
+						return '<p><img width="58" height="43" src="/img/s_mainvisual01.jpg"></p>';
+					break;
+					case 1:
+						return '<p><img width="58" height="43" src="/img/s_mainvisual07.jpg"></p>';
+					break;
+					case 2:
+						return '<p><img width="58" height="43" src="/img/s_mainvisual02.jpg"></p>';
+					break;
+					case 3:
+						return '<p><img width="58" height="43" src="/img/s_mainvisual03.jpg"></p>';
+					break;
+					case 4:
+						return '<p><img width="58" height="43" src="/img/s_mainvisual04.jpg"></p>';
+					break;
+					case 5:
+						return '<p><img width="58" height="43" src="/img/s_mainvisual05.jpg"></p>';
+					break;
+					case 6:
+						return '<p><img width="58" height="43" src="/img/s_mainvisual06.jpg"></p>';
+					break;
+				}
+			}
+		});
+	}
+	</script>
+	</header><!-- /Header -->
+<div id="container">
+	<article>
+		<section><section id="leftColumn">
+	<div class="column1_1_1_1 mb15">
+		<div class="col">
+			<ul>
+				<li><a href="/outline/business"><img src="/img/business00.gif" alt="井村屋グループの事業" title="井村屋グループの事業"></a></li>
+				<li><a class="img_trans" href="/outline/business/candy"><img src="/img/business01.jpg" alt="菓子事業" title="菓子事業"><span>菓子事業</span></a></li>
+				<li><a href="/outline/business/food"><img class="img_trans" src="/img/business02.jpg" alt="食品事業" title="食品事業"><span>食品事業</span></a></li>
+				<li><a href="/outline/business/heating"><img class="img_trans" src="/img/business03.jpg" alt="加温事業" title="加温事業"><span>加温事業</span></a></li>
+				<li><a href="/outline/business/cold"><img class="img_trans" src="/img/business04.jpg" alt="冷菓事業" title="冷菓事業"><span>冷菓事業</span></a></li>
+				<li><a href="/outline/business/daily"><img class="img_trans" src="/img/business05.jpg" alt="デイリーチルド事業" title="デイリーチルド事業"><span>デイリーチルド事業</span></a></li>
+				<li><a href="/outline/business/foodservice"><img class="img_trans" src="/img/business06.jpg" alt="スイーツ事業" title="スイーツ事業"><span>スイーツ事業</span></a></li>
+				<li><a href="/outline/business/condiment"><img class="img_trans" src="/img/business07.jpg" alt="調味料事業" title="調味料事業"><span>調味料事業</span></a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="column1_1 news_head">
+		<div class="col">
+			<p class="group_all on"><a href="javascript:void(0);" onclick="tab_change(0);return false;">井村屋グループ<br class="pc_no" />全体</a></p>
+			<p class="group_com"><a href="javascript:void(0);" onclick="tab_change(1);return false;">井村屋グループ<br class="pc_no" />株式会社</a></p>
+		</div>
+	</div>
+
+	<div class="news_area group_com">
+		<ul>
+				<li>
+								<span class="thumbnail"><img class="default_img" src="/common_files/images/logo_icon.jpg" style="margin-left:-1.5px;margin-top:6px;margin-bottom:6px;"></span>
+								<div>
+					<span class="thumbnail_info">
+						<label class="date">2017.08.21</label>
+						<label class="imuraya category">井村屋</label>
+											</span>
+					<ul>
+						<li class="link">
+							<a href="http://imuraya-cp.jp/oshiruko_cp/" target="_blank">井村屋 カップおしるこ・カップ抹茶おしるこ おみくじ付キャンペーン							</a>
+						</li>
+					</ul>
+				</div>
+			</li>
+					<li>
+								<span class="thumbnail"><img class="default_img" src="/common_files/images/logo_icon.jpg" style="margin-left:-1.5px;margin-top:6px;margin-bottom:6px;"></span>
+								<div>
+					<span class="thumbnail_info">
+						<label class="date">2017.08.10</label>
+						<label class="imuraya category">井村屋</label>
+											</span>
+					<ul>
+						<li class="link">
+							<a href="https://www.imuraya.co.jp/news/2017/anna_event/" target="_blank">アンナミラーズイベント情報について							</a>
+						</li>
+					</ul>
+				</div>
+			</li>
+					<li>
+								<span class="thumbnail"><img class="default_img" src="/common_files/images/logo_icon.jpg" style="margin-left:-1.5px;margin-top:6px;margin-bottom:6px;"></span>
+								<div>
+					<span class="thumbnail_info">
+						<label class="date">2017.08.08</label>
+						<label class="imuraya-group category">井村屋グループ</label>
+						<label class="ir tag">IR情報</label>					</span>
+					<ul>
+						<li class="link">
+							<a href="/imur_cms/../common_files/media/2017/08/81d1hanki.pdf" target="_blank">第81期 第1四半期報告書							</a>
+						</li>
+					</ul>
+				</div>
+			</li>
+					<li>
+								<span class="thumbnail"><img class="default_img" src="/common_files/images/logo_icon.jpg" style="margin-left:-1.5px;margin-top:6px;margin-bottom:6px;"></span>
+								<div>
+					<span class="thumbnail_info">
+						<label class="date">2017.08.07</label>
+						<label class="imuraya category">井村屋</label>
+											</span>
+					<ul>
+						<li class="link">
+							<a href="https://www.imuraya.co.jp/news/2017/details124/" target="_blank">「スポーツようかん カカオ」のご案内							</a>
+						</li>
+					</ul>
+				</div>
+			</li>
+					<li class="bd_bb_no">
+								<span class="thumbnail"><img class="default_img" src="/common_files/images/logo_icon.jpg" style="margin-left:-1.5px;margin-top:6px;margin-bottom:6px;"></span>
+								<div>
+					<span class="thumbnail_info">
+						<label class="date">2017.08.04</label>
+						<label class="imuraya-group category">井村屋グループ</label>
+						<label class="ir tag">IR情報</label>					</span>
+					<ul>
+						<li class="link">
+							<a href="/imur_cms/../common_files/media/2017/08/30shihanki_dai1.pdf" target="_blank">平成30年3月期 第1四半期決算短信							</a>
+						</li>
+					</ul>
+				</div>
+			</li>
+				</ul>
+	</div>
+	
+	<div class="news_area group_com group_all" style="display:none;">
+		<ul>
+	<li>
+		<p class="thumbnail">
+						<span><img class="default_img" style="margin-left:-1.5px;margin-top:6px;margin-bottom:6px;" src="/common_files/images/logo_icon.jpg" alt="" title=""></span>
+		</p>
+		<div>
+			<span class="thumbnail_info">
+				<label class="date">2017.08.08</label>
+			<label class="category">井村屋グループ</label> <label class="tag ir">IR情報</label>
+						</span>
+			<ul>
+				<li class="link">
+										<a href="/imur_cms/../common_files/media/2017/08/81d1hanki.pdf" target="_blank">第81期 第1四半期報告書</a>
+				</li>
+			</ul>
+		</div>
+	</li><li>
+		<p class="thumbnail">
+						<span><img class="default_img" style="margin-left:-1.5px;margin-top:6px;margin-bottom:6px;" src="/common_files/images/logo_icon.jpg" alt="" title=""></span>
+		</p>
+		<div>
+			<span class="thumbnail_info">
+				<label class="date">2017.08.04</label>
+			<label class="category">井村屋グループ</label> <label class="tag ir">IR情報</label>
+						</span>
+			<ul>
+				<li class="link">
+										<a href="/imur_cms/../common_files/media/2017/08/30shihanki_dai1.pdf" target="_blank">平成30年3月期 第1四半期決算短信</a>
+				</li>
+			</ul>
+		</div>
+	</li><li>
+		<p class="thumbnail">
+						<span><img class="default_img" style="margin-left:-1.5px;margin-top:6px;margin-bottom:6px;" src="/common_files/images/logo_icon.jpg" alt="" title=""></span>
+		</p>
+		<div>
+			<span class="thumbnail_info">
+				<label class="date">2017.06.26</label>
+			<label class="category">井村屋グループ</label> <label class="tag ir">IR情報</label>
+						</span>
+			<ul>
+				<li class="link">
+										<a href="/imur_cms/../common_files/media/2017/06/d80.pdf" target="_blank">第80期 報告書</a>
+				</li>
+			</ul>
+		</div>
+	</li><li>
+		<p class="thumbnail">
+						<span><img class="default_img" style="margin-left:-1.5px;margin-top:6px;margin-bottom:6px;" src="/common_files/images/logo_icon.jpg" alt="" title=""></span>
+		</p>
+		<div>
+			<span class="thumbnail_info">
+				<label class="date">2017.06.26</label>
+			<label class="category">井村屋グループ</label> <label class="tag ir">IR情報</label>
+						</span>
+			<ul>
+				<li class="link">
+										<a href="/imur_cms/../common_files/media/2017/06/80ketsugi.pdf" target="_blank">第80回 定時株主総会決議ご通知</a>
+				</li>
+			</ul>
+		</div>
+	</li><li>
+		<p class="thumbnail">
+						<span><img class="default_img" style="margin-left:-1.5px;margin-top:6px;margin-bottom:6px;" src="/common_files/images/logo_icon.jpg" alt="" title=""></span>
+		</p>
+		<div>
+			<span class="thumbnail_info">
+				<label class="date">2017.06.23</label>
+			<label class="category">井村屋グループ</label> <label class="tag ir">IR情報</label>
+						</span>
+			<ul>
+				<li class="link">
+										<a href="/imur_cms/../common_files/media/2017/06/80houkokusyo.pdf" target="_blank">第80期 有価証券報告書</a>
+				</li>
+			</ul>
+		</div>
+	</li>			<li class="last_news">
+				<ul>
+					<li class="link">
+												<a class="link" href="/news">一覧</a>
+											</li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+		<div class="column1_1 csr_topics">
+		<div class="col">
+			<p>CSRトピックス</p>
+		</div>
+	</div>
+	
+	<div class="news_area csrtopics_area" >
+		<ul>
+	<li>
+		<p class="thumbnail">
+						<span><img style="margin-left:-8.3333333333333px;" src="/imur_cms/../common_files/media/2017/07/modalshift001.jpg" alt="" title=""></span>
+		</p>
+		<div>
+			<span class="thumbnail_info">
+				<label class="date">2017.07.18</label>
+			<label class=" category">井村屋</label> <label class=" category">井村屋グループ</label>  <label class="tag csr_conservation">環境保全</label>
+				</span>
+			<ul>
+				<li class="link">
+										<a href="https://www.imuraya-group.com/?post_type=csr_conservation&#038;p=2862">物流環境大賞「物流環境特別賞」を受賞！</a>
+				</li>
+			</ul>
+		</div>
+	</li><li>
+		<p class="thumbnail">
+						<span><img style="margin-left:-49.893617021277px;" src="/imur_cms/../common_files/media/2017/04/biomass_301.jpg" alt="" title=""></span>
+		</p>
+		<div>
+			<span class="thumbnail_info">
+				<label class="date">2017.04.25</label>
+			<label class=" category">井村屋グループ</label>  <label class="tag csr_news">CSRニュース</label>
+				</span>
+			<ul>
+				<li class="link">
+										<a href="https://www.imuraya-group.com/?post_type=csr_news&#038;p=2752">カーボン・オフセットの取り組み</a>
+				</li>
+			</ul>
+		</div>
+	</li><li>
+		<p class="thumbnail">
+						<span><img style="margin-left:-27.158273381295px;" src="/imur_cms/../common_files/media/2017/03/HicalG01.gif" alt="" title=""></span>
+		</p>
+		<div>
+			<span class="thumbnail_info">
+				<label class="date">2017.03.28</label>
+			<label class=" category">井村屋</label>  <label class="tag csr_market">市場活動</label>
+				</span>
+			<ul>
+				<li class="link">
+										<a href="https://www.imuraya-group.com/?post_type=csr_market&#038;p=2663">逆転の発想！高カロリー豆腐</a>
+				</li>
+			</ul>
+		</div>
+	</li><li>
+		<p class="thumbnail">
+						<span><img style="margin-top:-10.545023696682px;margin-bottom:-10.545023696682px;" src="/imur_cms/../common_files/media/2017/03/eiyoukan011-211x300.jpg" alt="" title=""></span>
+		</p>
+		<div>
+			<span class="thumbnail_info">
+				<label class="date">2017.03.28</label>
+			<label class=" category">井村屋</label>  <label class="tag csr_market">市場活動</label>
+				</span>
+			<ul>
+				<li class="link">
+										<a href="https://www.imuraya-group.com/?post_type=csr_market&#038;p=2657">防災備蓄用「えいようかん」</a>
+				</li>
+			</ul>
+		</div>
+	</li><li>
+		<p class="thumbnail">
+						<span><img style="margin-left:-19.327731092437px;" src="/imur_cms/../common_files/media/2017/03/azukim003.jpg" alt="" title=""></span>
+		</p>
+		<div>
+			<span class="thumbnail_info">
+				<label class="date">2017.03.17</label>
+			<label class=" category">井村屋</label> <label class=" category">井村屋グループ</label>  <label class="tag csr_news">CSRニュース</label>
+				</span>
+			<ul>
+				<li class="link">
+										<a href="https://www.imuraya-group.com/?post_type=csr_news&#038;p=2646">あずきマラカス演奏会</a>
+				</li>
+			</ul>
+		</div>
+	</li>			<li class="last_news">
+				<ul>
+					<li class="link">
+												<a class="link" href="/csr/news">一覧</a>
+											</li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+		<div class="sitemap sp_no">
+		<div class="box azuki h150">
+			<p class="outline"><a href="/outline">企業情報</a></p>
+			<ul>
+				<li><a href="/outline/message">あいさつ</a></li>
+				<li><a href="/outline/outline">会社概要</a></li>
+				<li><a href="/outline/business">事業情報</a></li>
+				<li><a href="/outline/image">井村屋グループ紹介映像</a></li>
+				<li><a href="/outline/management">井村屋グループ理念</a></li>
+				<li><a href="/outline/brandmark">ブランドマーク</a></li>
+				<li><a href="/outline/chronicle">沿⾰</a></li>
+				<li><a href="/outline/history">井村屋の歴史</a></li>
+				<li><a href="/outline/holdingcompany">持株会社制への移行</a></li>
+				<li><a href="/outline/group">グループ企業紹介</a></li>
+				<li><a href="/outline/base">事業拠点⼀覧</a></li>
+				<li><a href="/outline/global">海外展開</a></li>
+			</ul>
+		</div>
+		<div class="box blue h150">
+			<p class="ir"><a href="/ir">IR情報</a></p>
+			<ul>
+				<li><a href="/ir/news">IRニュース</a></li>
+				<li><a href="/ir/strategy">中期経営計画</a></li>
+				<li><a href="/ir/governance">コーポレート・ガバナンス</a></li>
+				<li><a href="/ir/highlight">業績ハイライト</a></li>
+				<li><a href="/ir/library">IRライブラリ</a></li>
+				<li><a href="/ir/stock">株式情報</a></li>
+				<li><a href="/ir/shareholder">株主優待</a></li>
+				<li><a href="/ir/calendar">IRカレンダー</a></li>
+				<li><a href="/ir/ad">電子公告</a></li>
+			</ul>
+		</div>
+		<div class="box red h80">
+			<p class="csr"><a href="/csr">CSR情報</a></p>
+			<ul>
+				<li><a href="/csr/news">CSRニュース</a></li>
+				<li><a href="/csr/charter">CSR憲章</a></li>
+				<li><a href="/csr/quality">経営品質向上</a></li>
+				<li><a href="/csr/market">市場活動</a></li>
+				<li><a href="/csr/respect">人間尊重</a></li>
+				<li><a href="/csr/conservation">環境保全</a></li>
+				<li><a href="/csr/harmony">社会との調和</a></li>
+				<li><a href="/csr/report">CSRレポート</a></li>
+			</ul>
+		</div>
+		<div class="box yellow h80">
+			<p class="product"><a href="/product">商品づくり</a></p>
+			<ul>
+				<li><a href="/product/manufacturing">井村屋グループの商品づくり</a></li>
+				<li><a href="/product/longseller">ロングセラー商品</a></li>
+				<li><a href="/product/winning">賞の受賞</a></li>
+				<li><a href="/product/research">研究開発</a></li>
+				<li><a href="/product/equipment">生産設備について</a></li>
+			</ul>
+		</div>
+		<div class="box blue h104">
+			<p class="safety"><a href="/safety">安全・安心</a></p>
+			<ul>
+				<li><a href="/safety/thought">安全・安心の考え方</a></li>
+				<li><a href="/safety/quality">品質保証システム</a></li>
+				<li><a href="/safety/quality_improvement">安全・安心のこだわり</a></li>
+				<li><a href="/safety/raw_procurement">原料調達の取り組み</a></li>
+				<li><a href="/safety/hygiene_management">衛生管理体制</a></li>
+			</ul>
+		</div>
+		<div class="box red h104">
+			<p class="recruit"><a href="/recruit/">採用情報</a></p>
+			<ul>
+				<li><a href="/recruit/group/">井村屋グループについて</a></li>
+				<li><a href="/recruit/challenge/">チャレンジストーリー</a></li>
+				<li><a href="/recruit/senior/">先輩社員のチャレンジ</a></li>
+				<li><a href="/recruit/prospectiveemployee/">内定者の声</a></li>
+				<li><a href="/recruit/welfare/">福利厚生</a></li>
+				<li><a href="/recruit/information/">採用情報</a></li>
+			</ul>
+		</div>
+	</div>
+	<p class="pagetop"><a href="javascript:void(0);">ページの先頭へ戻る</a></p>
+</section></section><ul class="social clear">
+	<li class="fb">
+				<div class="fb-like" data-href="https%3A%2F%2Fwww.imuraya-group.com" data-layout="button" data-action="like" data-size="small" data-show-faces="false" data-share="false"></div>
+	</li>
+	<li class="twitter">
+				<a href="https://twitter.com/share" class="twitter-share-button">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+	</li>
+</ul>
+<div id="sidenav" class="local-nav">
+			<ul>
+								<li class="sidenav_head"><a href="/outline/group"><span>グループ企業リンク</span></a></li>
+				<li><a href="http://www.imuraya.co.jp/" target="_blank"><span>井村屋株式会社</span></a></li>
+				<li><a href="https://www.imurayafoods.co.jp/" target="_blank"><span>井村屋フーズ株式会社</span></a></li>
+				<li><a href="http://www.imuraya.cn/jif/index.asp" target="_blank"><span>北京京日井村屋食品有限公司(JIF)</span></a></li>
+				<li><a href="http://www.imuraya.cn/idf/" target="_blank"><span>井村屋(大連)食品有限公司(IDF)</span></a></li>
+				<li><a href="http://www.imuraya.cn/ibf/index.asp" target="_blank"><span>井村屋(北京)食品有限公司(IBF)</span></a></li>
+				<li class="last_child"><a href="http://www.imuraya-usa.com/" target="_blank"><span>IMURAYA USA,INC.</span></a></li>
+							</ul>
+						<div class="banner">
+				<ul>
+					<li class="pc_no"><a href="/recruit/" target="_blank"><img src="/img/sp/bnr_recruit.png" alt="井村屋グループ採用情報" title="井村屋グループ採用情報" /></a></li>
+					<!--<li class="sp_no" style="margin-top:-20px;"><a href="https://www.imuraya-group.com/?p=200"><img class="sp_no img_trans" src="/img/bnr_azukibar.gif" alt="7月1日は井村屋あずきバーの日" title="7月1日は井村屋あずきバーの日" /></a></li>-->
+					<li class="center"><a href="/english"><img class="img_trans sp_no" src="/img/english_bnr.jpg" alt="Imuraya Group WebSite" title="Imuraya Group WebSite" /><img class="img_trans pc_no" src="/img/bnr_english.png" alt="Imuraya Group WebSite" title="Imuraya Group WebSite" /></a></li>
+					<li class="center"><a href="https://www.imuraya-group.com/?p=200"><img class="img_trans" src="/common_files/images/bnr_azukibar.gif" alt="7月1日は井村屋あずきバーの日" title="7月1日は井村屋あずきバーの日" /></a></li>
+				
+					
+					<li><a href="http://www.imuraya-webshop.jp/" target="_blank"><img class="sp_no img_trans" src="/img/bnr_shop.jpg" alt="井村屋ウェブショップ" title="井村屋ウェブショップ" /><img class="pc_no" src="/img/sp/bnr_shop.png" alt="井村屋ウェブショップ" title="井村屋ウェブショップ" /></a></li>
+					<li class="sp_no">公式SNSリンク</li>
+					<li><a href="http://twitter.com/IMURAYA_DM" target="_blank"><img class="sp_no img_trans" src="/img/bnr_twitter.gif" alt="井村屋Twitter" title="井村屋Twitter" /><img class="pc_no" src="/img/sp/bnr_twitter.png" alt="twitter" title="twitter" /></a></li>
+					<li class="webshop"><a href="http://ja-jp.facebook.com/azukinoimuraya" target="_blank"><img class="sp_no img_trans" src="/img/bnr_facebook.gif" alt="井村屋Facebook" title="井村屋Facebook" /><img class="pc_no" src="/img/sp/bnr_facebook.png" alt="ダミー" /></a></li>
+				
+					<li><a href="/outline/base"><img class="sp_no img_trans" src="/img/bnr_group.jpg" alt="事業拠点一覧" title="事業拠点一覧" /></a></li>
+					<li><a href="/outline/history"><img class="sp_no img_trans" src="/img/bnr_history.jpg" alt="井村屋の歴史" title="井村屋の歴史" /></a></li>
+					<li><a href="/product/manufacturing"><img class="sp_no img_trans" src="/img/bnr_manufacturing.jpg" alt="井村屋グループの商品づくり" title="井村屋グループの商品づくり" /></a></li>
+					<li><a href="/csr/report"><img class="sp_no img_trans" src="/img/bnr_report.jpg" alt="CSRレポート" title="CSRレポート" /></a></li>
+				</ul>
+			<ul class="social clear">
+	<li class="fb">
+				<div class="fb-like" data-href="https%3A%2F%2Fwww.imuraya-group.com" data-layout="button" data-action="like" data-size="small" data-show-faces="false" data-share="false"></div>
+	</li>
+	<li class="twitter">
+				<a href="https://twitter.com/share" class="twitter-share-button">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+	</li>
+</ul>
+			</div>
+					</div>	</article>
+</div>
+
+<footer id="footer">
+	<ul id="ftNavi">
+		<li class="outline "><a href="https://www.imuraya-group.com/outline/"><span>企業情報</span></a></li>
+		<li class="ir "><a href="https://www.imuraya-group.com/ir/"><span>IR情報</span></a></li>
+		<li class="csr "><a href="https://www.imuraya-group.com/csr/"><span>CSR情報</span></a></li>
+		<li class="product "><a href="https://www.imuraya-group.com/product/"><span>商品づくり</span></a></li>
+		<li class="safety "><a href="https://www.imuraya-group.com/safety/"><span>安全・安心</span></a></li>
+		<li class="recruit"><a href="/recruit/"><span>採用情報</span></a></li>
+	</ul>
+	
+	<ul id="ftLink">
+		<li class="pc_no"><a href="/outline/base#ImurayaGroup">アクセス</a></li>
+		<li class="pc_view icon_pc pc_no"><a id="pcSiteChange" href="javascript:void(0);">PCサイトへ</a></li>
+		<li class="contact icon_mail"><a href="javascript:window.open('https://www.imuraya-group.com/contact/', 'contact', 'width=750, height=700, menubar=no, toolbar=no, scrollbars=yes');void(0);">お問い合わせ</a></li>
+		<li class="sitemap icon_sitemap"><a href="/sitemap/">サイトマップ</a></li>
+		<li class="sitepolicy sp_no"><a href="/sitepolicy/">サイトポリシー</a></li>
+		<li class="privacy sp_no"><a href="/privacy/">プライバシーポリシー</a></li>
+		<li><a href="/english/">English</a></li>
+	</ul>
+	<p id="ft_logo"><small>Copyright 2017 imuraya group co., ltd. All rights reserved.</small></p>
+</footer><!-- /Footer -->
+<!--[if lt IE 9]>
+<script type="text/javascript" src="/common_files/js/respond.js"></script>
+<![endif]-->
+</body>
+</html>

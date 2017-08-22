@@ -1,0 +1,645 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="content-script-type" content="text/javascript" />
+
+<title>フジッコ株式会社</title>
+<meta name="keywords" content="フジッコ,ふじっ子,ふじっ子煮,おまめさん,おかず畑,あんしんシステム,安全検査,昆布,豆,神戸" />
+<meta name="description" content="フジッコ株式会社Webサイト。商品である「ふじっ子煮」や「おまめさん」を使った簡単レシピ、商品情報、IR情報などを紹介します。" />
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+<link rel="index" href="/" />
+<link rel="shortcut icon" type="image/vnd.microsoft.icon" href="http://www.fujicco.co.jp/favicon.ico" />
+<link rel="stylesheet" type="text/css" href="/shared/css/import.css" media="all" />
+<link rel="stylesheet" type="text/css" href="/shared/css/print.css" media="print" />
+
+<script type="text/javascript" src="/shared/js/jquery1.7_pack.js"></script>
+<script type="text/javascript" src="/shared/js/library.js"></script>
+<script type="text/javascript" src="/shared/js/hookclass.js"></script>
+<script type="text/javascript" src="/shared/js/sp_navi.js"></script>
+<script src="//api.triver.jp/adlogue/api/tag/onetag/?b=2sm2l&t=EjXs"></script>
+
+<link rel="stylesheet" type="text/css" href="css/index.css" media="all" />
+<script type="text/javascript" src="/shared/js/jquery.belatedPNG.min.js"></script>
+<script type="text/javascript" src="/shared/js/common.js"></script>
+<script type="text/javascript" src="/shared/js/slider.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$.library.heights('.lineup ul li a');
+	$.library.heights('.recipe-inline,.news-inline');
+	$.slider.action('#slider-campaign');
+	$.slider.action('#slider-pickup');
+	$(window).load(function(){
+		Slider.init('/xml/slider_top.xml');
+	});		
+});
+</script>
+</head>
+
+<body>
+<div id="Container">
+  <div id="Header">
+
+<div class="header-inside">
+<h1><img src="/shared/images/header_logo.gif" width="335" height="52" alt="フジッコ株式会社" /></h1>
+
+<div id="GlobalNavi"><div class="globalnavi-inline">
+<ul class="nav">
+<li id="NavG01" class="navi">
+<p class="main-btn"><a href="/recipe/"><img src="/shared/images/header_globalnavi01.gif" width="163" height="50" alt="フジッコ愛情レシピ" id="gnavi01" /></a></p>
+<div class="dropdown">
+<div class="cont">
+<ul class="cf">
+<li><a href="/recipe/index.php#tabnavi01"><img src="/shared/images/globalnavi_recipe_img01.png" width="120" height="90" alt="" /><span class="link-arrow">商品から<br />レシピを探す</span></a></li>
+<li><a href="/recipe/index.php#tabnavi02"><img src="/shared/images/globalnavi_recipe_img02.png" width="120" height="90" alt="" /><span class="link-arrow">メニューから<br />レシピを探す</span></a></li>
+<li><a href="/recipe/index.php#tabnavi03"><img src="/shared/images/globalnavi_recipe_img03.png" width="120" height="90" alt="" /><span class="link-arrow">食材から<br />レシピを探す</span></a></li>
+<li><a href="/recipe/index.php#tabnavi04"><img src="/shared/images/globalnavi_recipe_img04.png" width="120" height="90" alt="" /><span class="link-arrow">シーンから<br />レシピを探す</span></a></li>
+<li><a href="/recipe/result.php?lunch_flg=1"><img src="/shared/images/globalnavi_recipe_img05.png" width="120" height="90" alt="" /><span class="link-arrow">お弁当<br />レシピを探す</span></a></li>
+</ul>
+<!-- .cont // --></div>
+<div class="arrow"><img src="/shared/images/globalnavi_bg_arrow.png" width="32" height="15" alt="" /></div>
+<!-- .dropdown // --></div>
+</li>
+
+<li id="NavG02" class="navi">
+<p class="main-btn"><a href="/products/"><img src="/shared/images/header_globalnavi02.gif" width="163" height="50" alt="商品情報" id="gnavi02" /></a></p>
+<div class="dropdown">
+<div class="cont">
+<ul class="cf">
+<li><a href="/products/new.php"><img src="/shared/images/globalnavi_products_img01.png" width="120" height="115" alt="" /><span class="link-arrow">新商品一覧</span></a></li>
+<li><a href="/products/index.php#cat01"><img src="/shared/images/globalnavi_products_img02.png" width="120" height="115" alt="" /><span class="link-arrow">昆布製品</span></a></li>
+<li><a href="/products/index.php#cat01"><img src="/shared/images/globalnavi_products_img03.png" width="120" height="115" alt="" /><span class="link-arrow">豆製品</span></a></li>
+<li><a href="/products/index.php#cat02"><img src="/shared/images/globalnavi_products_img04.png" width="120" height="115" alt="" /><span class="link-arrow">お惣菜</span></a></li>
+<li><a href="/products/index.php#cat02"><img src="/shared/images/globalnavi_products_img05.png" width="120" height="115" alt="" /><span class="link-arrow">カスピ海<br />ヨーグルト</span></a></li>
+<li><a href="/products/index.php#cat03"><img src="/shared/images/globalnavi_products_img06.png" width="120" height="115" alt="" /><span class="link-arrow">デザート</span></a></li>
+<li><a href="/products/index.php#cat03"><img src="/shared/images/globalnavi_products_img07.png" width="120" height="115" alt="" /><span class="link-arrow">朝のたべるスープ･料理の素･だしつゆ</span></a></li>
+<li><a href="/softfood/" target="_blank"><img src="/shared/images/globalnavi_products_img08.png" width="120" height="115" alt="" /><span class="link-arrow"><span class="link-blank02">ソフトデリ<br />（介護食）</span></span></a></li>
+</ul>
+<!-- .cont // --></div>
+<div class="arrow"><img src="/shared/images/globalnavi_bg_arrow.png" width="32" height="15" alt="" /></div>
+<!-- .dropdown // --></div>
+</li>
+
+<li id="NavG03" class="navi">
+<p class="main-btn"><a href="/know_enjoy/"><img src="/shared/images/header_globalnavi03.gif" width="163" height="50" alt="知る・楽しむ" id="gnavi03" /></a></p>
+<div class="dropdown">
+<div class="cont">
+<ul class="cf all-rover">
+<li><a href="/know_enjoy/shokuiku/"><img src="/shared/images/globalnavi_know_img05.jpg" width="160" height="86" alt="" /><span class="link-arrow">フジッコの食育</span></a></li>
+<li><a href="/know_enjoy/healthycook/"><img src="/shared/images/globalnavi_know_img06.jpg" width="160" height="86" alt="" /><span class="link-arrow">ヘルシー料理教室</span></a></li>
+<li><a href="/know_enjoy/campaign/"><img src="/shared/images/globalnavi_know_img01.jpg" width="160" height="86" alt="" /><span class="link-arrow">キャンペーン･イベント情報</span></a></li>
+<li><a href="/know_enjoy/quiz/"><img src="/shared/images/globalnavi_know_img02.jpg" width="160" height="86" alt="" /><span class="link-arrow">フジッコクイズゲーム<br />「フードQ」</span></a></li>
+<li><a href="/know_enjoy/magazine.html"><img src="/shared/images/globalnavi_know_img03.jpg" width="160" height="86" alt="" /><span class="link-arrow">メールマガジン<br />「フジッコ通信」</span></a></li>
+<li><a href="/know_enjoy/cm/"><img src="/shared/images/globalnavi_know_img04.jpg" width="160" height="86" alt="" /><span class="link-arrow">TVCM一覧</span></a></li>
+<li><a href="/know_enjoy/health/"><img src="/shared/images/globalnavi_know_img07.jpg" width="160" height="86" alt="" /><span class="link-arrow">健康百科</span></a></li>
+<li><a href="/know_enjoy/blog/" target="_blank"><img src="/shared/images/globalnavi_know_img08.jpg" width="160" height="86" alt="" /><span class="link-arrow"><span class="link-blank02">フジッコ<br />フレッシュブログ</span></span></a></li>
+</ul>
+<!-- .cont // --></div>
+<div class="arrow"><img src="/shared/images/globalnavi_bg_arrow.png" width="32" height="15" alt="" /></div>
+<!-- .dropdown // --></div>
+</li>
+
+<li id="NavG04" class="navi">
+<p class="main-btn"><a href="/corp/"><img src="/shared/images/header_globalnavi04.gif" width="162" height="50" alt="企業・IR・採用" id="gnavi04" /></a></p>
+<div class="dropdown">
+<div class="cont">
+<ul class="priority">
+<li class="left group-rover"><a href="/corp/info/"><img src="/shared/images/globalnavi_corp_img01.jpg" width="160" height="86" alt="" class="rover" /><span class="link-arrow">企業情報</span></a></li>
+<li class="left group-rover"><a href="/corp/ir/"><img src="/shared/images/globalnavi_corp_img02.jpg" width="160" height="86" alt="" class="rover" /><span class="link-arrow">ファン株主・個人投資家の皆さまへ</span></a></li>
+<li class="right group-rover"><a href="/corp/recruit/"><img src="/shared/images/globalnavi_corp_img03.jpg" width="160" height="86" alt="" class="rover" /><span class="link-arrow">採用情報</span></a></li>
+<!-- .priority // --></ul>
+<ul class="sub-nav">
+<li><a href="/corp/info/company.html">会社概要</a></li>
+<li><a href="/corp/info/greeting.html">ごあいさつ</a></li>
+<li><a href="/corp/info/culture/">フジッコ流 食文化の創造</a></li>
+<li><a href="/effort/">フジッコの取り組み</a></li>
+<li><a href="/corp/info/dept.html">サービスネットワーク</a></li>
+<li><a href="/corp/info/history.html">沿革</a></li>
+<li><a href="/corp/info/newsrelease/">ニュースリリース</a></li>
+<!-- .sub-nav // --></ul>
+<ul class="sub-nav">
+<li><a href="/corp/ir/message/">社長メッセージ</a></li>
+<li><a href="/corp/ir/glance/">早わかりフジッコ</a></li>
+<li><a href="/corp/ir/point/">5つのユニークポイント</a></li>
+<li><a href="/corp/ir/library/">IRライブラリー</a></li>
+<li><a href="/corp/ir/calendar.html">IRカレンダー</a></li>
+<li><a href="/corp/ir/data.html">財務・業績データ</a></li>
+<li><a href="/corp/ir/stock/">株式情報</a></li>
+<li><a href="/corp/ir/public.html">電子公告</a></li>
+<!-- .sub-nav // --></ul>
+<ul class="sub-nav">
+<li><a href="http://www.fujicco.co.jp/saiyo/index.html" target="_blank"><span class="link-blank02">新卒採用情報</span></a></li>
+<li><a href="/corp/recruit/career.html">中途採用情報</a></li>
+<li><a href="/corp/recruit/worklifebalance.html">ワークライフバランス確立のための取り組み</a></li>
+<li><a href="/corp/recruit/promoted.html">女性活躍推進の取組目標と行動計画の策定</a></li>
+<!-- .sub-nav // --></ul>
+<!-- .cont // --></div>
+<div class="arrow"><img src="/shared/images/globalnavi_bg_arrow.png" width="32" height="15" alt="" /></div>
+<!-- .dropdown // --></div>
+</li>
+
+<li id="NavG05" class="navi">
+<p class="main-btn"><a href="/effort/"><img src="/shared/images/header_globalnavi05.gif" width="163" height="50" alt="フジッコの取り組み" id="gnavi05" /></a></p>
+<div class="dropdown">
+<div class="cont">
+<div class="navibox left-area">
+<ul class="priority">
+<li class="left group-rover"><a href="/effort/anshin/"><img src="/shared/images/globalnavi_effort_img01.jpg" width="160" height="85" alt="" class="rover" /><span class="link-arrow">あんしんへの取り組み<span class="little">(ふじっ子あんしんシステム)</span></span></a></li>
+<!-- .priority // --></ul>
+<ul class="sub-nav">
+<li><a href="/effort/anshin/kensa_radio.html">放射性物質検査</a></li>
+<li><a href="/effort/anshin/kensa_chemical.html">残留農薬検査</a></li>
+<li><a href="/effort/anshin/kensa_dna.html">遺伝子組換え検査</a></li>
+<li><a href="/effort/anshin/tracesystem.html">フジッコトレースシステム</a></li>
+<li><a href="/effort/anshin/kensa/">各種検査結果閲覧</a></li>
+<!-- .sub-nav // --></ul>
+<!-- .navibox // --></div>
+<div class="navibox right-area">
+<ul class="img">
+<li><a href="/effort/anshin/beans/"><img src="/shared/images/globalnavi_effort_img02.jpg" width="160" height="85" alt="" class="rover" /><span class="link-arrow">黒豆あんしんの<br />判別技術開発</span></a></li>
+<li><a href="/effort/environment/"><img src="/shared/images/globalnavi_effort_img03.jpg" width="160" height="85" alt="" class="rover" /><span class="link-arrow">環境・社会・ガバナンスへの取り組み</span></a></li>
+<li><a href="/effort/csr/"><img src="/shared/images/globalnavi_effort_img04.jpg" width="160" height="85" alt="" class="rover" /><span class="link-arrow">社会貢献への取り組み</span></a><br />&nbsp;</li>
+<li><a href="/effort/"><img src="/shared/images/globalnavi_effort_img07.jpg" width="160" height="85" alt="" class="rover" /><span class="link-arrow">消費者志向自主宣言</span></a></li>
+<li><a href="/corp/info/newsrelease/#tab05"><img src="/shared/images/globalnavi_effort_img05.jpg" width="160" height="85" alt="" class="rover" /><span class="link-arrow">学会発表</span></a></li>
+<li><a href="/know_enjoy/shokuiku/"><img src="/shared/images/globalnavi_effort_img06.jpg" width="160" height="85" alt="" class="rover" /><span class="link-arrow">食育への取り組み</span></a></li>
+</ul>
+<!-- .navibox // --></div>
+<!-- .cont // --></div>
+<div class="arrow"><img src="/shared/images/globalnavi_bg_arrow.png" width="32" height="15" alt="" /></div>
+<!-- .dropdown // --></div>
+</li>
+
+<li id="NavG06" class="navi">
+<p class="main-btn"><a href="/customer/"><img src="/shared/images/header_globalnavi06.gif" width="164" height="50" alt="お客様相談室" id="gnavi06" /></a></p>
+<div class="dropdown">
+<div class="cont">
+<div class="navi-list">
+<p><a href="/customer/faq.html"><img src="/shared/images/globalnavi_customer_img01.jpg" width="160" height="86" alt="" class="rover" /><span class="link-arrow">よくお寄せいただくご質問</span></a></p>
+<!-- .navi-list // --></div>
+<div class="navi-list">
+<p><a href="/customer/voice/"><img src="/shared/images/globalnavi_customer_img02.jpg" width="160" height="86" alt="" class="rover" /><span class="link-arrow">お客様の声をいかしました</span></a></p>
+<ul>
+<li><a href="/customer/voice/detail01.html">改善事例1</a></li>
+<li><a href="/customer/voice/detail02.html">改善事例2</a></li>
+<li><a href="/customer/voice/detail03.html">改善事例3</a></li>
+<li><a href="/customer/voice/detail04.html">改善事例4</a></li>
+<li><a href="/customer/voice/detail05.html">改善事例5</a></li>
+</ul>
+<!-- .navi-list // --></div>
+<div class="navi-list">
+<p><a href="https://www.fujicco.co.jp/customer/inquiry_mail.php"><img src="/shared/images/globalnavi_customer_img03.jpg" width="160" height="86" alt="" class="rover" /><span class="link-arrow">メールでのお問い合わせ</span></a></p>
+<p><a href="/customer/inquiry_tel.html"><span class="link-arrow">お電話でのお問い合わせ</span></a></p>
+<!-- .navi-list // --></div>
+<!-- .cont // --></div>
+<div class="arrow"><img src="/shared/images/globalnavi_bg_arrow.png" width="32" height="15" alt="" /></div>
+<!-- .dropdown // --></div>
+</li>
+</ul>
+<!-- .globalnavi-inline // --></div><!-- #GlobalNavi // --></div>
+
+
+<ul class="function all-rover">
+<li class="shop"><a href="https://www.shop-fujicco.com/" target="_blank"><img src="/shared/images/header_btn_shop.gif" width="197" height="40" alt="オンラインショップ" /></a></li>
+<li class="sitemap"><a href="/sitemap.html"><img src="/shared/images/header_btn_sitemap.gif" width="85" height="30" alt="サイトマップ" /></a></li>
+<li class="english"><a href="/english/index.html" target="_blank"><img src="/shared/images/header_btn_en02.gif" width="104" height="30" alt="ENGLISH" /></a></li>
+</ul>
+<dl class="textsize">
+<dt><img src="/shared/images/header_textsize_ttl.gif" width="58" height="32" alt="文字サイズ" /></dt>
+<dd><a href="#" id="FontS"><img src="/shared/images/header_textsize_btn01.gif" width="32" height="32" alt="小" class="rover" /></a></dd>
+<dd><a href="#" id="FontM"><img src="/shared/images/header_textsize_btn02.gif" width="30" height="32" alt="中" class="rover" /></a></dd>
+<dd><a href="#" id="FontL"><img src="/shared/images/header_textsize_btn03.gif" width="32" height="32" alt="大" class="rover" /></a></dd>
+</dl>
+<div class="search">
+<form action="http://www.fujicco.co.jp/search.html" method="get" id="srch">
+<p id="srchForm">
+<input type="text" name="p" title="サイト内検索" id="srchInput" class="inputstyle formtips"><input type="submit" value="検索" id="srchBtn" class="btn" onclick="document.getElementById('srchInput').focus();">
+<input type="hidden" id="fr" name="fr" value="cse">
+<input type="hidden" id="ei" name="ei" value="UTF-8">
+<input type="hidden" id="csid" name="csid" value="ITkJlXJneYg3tHNWgArfphEnk_sZs4DiP_3x">
+</p>
+<input type="hidden" name="vs" value="www.fujicco.co.jp" id="yjInsite">
+</form>
+<img src="http://custom.search.yahoo.co.jp/images/window/ITkJlXJneYg3tHNWgArfphEnk_sZs4DiP_3x.gif">
+</div>
+<!-- .header-inside // --></div>
+
+<!-- #Header // --></div>
+
+
+<div id="HeaderSp">
+<div class="header-inside">
+<h1><a href="/sp/"><img src="/sp/shared/images/header_logo.png" height="61" width="386" alt="フジッコ株式会社" /></a></h1>
+
+<ul>
+<li class="search"><a href="#" data-url="#HeaderSearch">検索</a></li>
+<li class="gnavi"><a href="#" data-url="#GlobalNaviSp">メニュー</a></li>
+</ul>
+
+<!-- .header-inside // --></div>
+
+
+<div id="HeaderSearch" class="navWrap">
+<form action="http://www.fujicco.co.jp/search.html" method="get" id="srch">
+<p id="srchForm">
+<input type="text" name="p" title="サイト内検索" id="srchInput" class="inputstyle formtips" placeholder="サイト内検索"><span class="submit"><input type="submit" value="検索" id="srchBtn" class="btn" onclick="document.getElementById('srchInput').focus();"></span>
+<input type="hidden" id="fr" name="fr" value="cse">
+<input type="hidden" id="ei" name="ei" value="UTF-8">
+<input type="hidden" id="csid" name="csid" value="ITkJlXJneYg3tHNWgArfphEnk_sZs4DiP_3x">
+</p>
+<input type="hidden" name="vs" value="www.fujicco.co.jp" id="yjInsite">
+</form>
+<!-- #HeaderSearch // --></div>
+
+<div id="GlobalNaviSp" class="navWrap">
+<ul class="nav">
+<li><a href="/sp/"><span>TOP</span></a></li>
+<li><a href="/sp/recipe/"><span>フジッコ愛情レシピ</span></a></li>
+<li><a href="/sp/products/"><span>商品情報</span></a></li>
+<li><a href="/know_enjoy/"><span>知る・楽しむ</span></a></li>
+<li><a href="/corp/"><span>企業・IR・採用</span></a></li>
+<li><a href="/effort/"><span>フジッコの取り組み</span></a></li>
+<li><a href="/customer/"><span>お客様相談室</span></a></li>
+<li><a href="/sitemap.html"><span>サイトマップ</span></a></li>
+<!-- .nav // --></ul>
+
+<ul class="sub-nav">
+<li><a href="/english/" target="_blank"><span>ENGLISH</span></a></li>
+<li><a href="http://www.shop-fujicco.com/" target="_blank"><span>フジッコネットショップ</span></a></li>
+<!-- .sub-nav // --></ul>
+
+<p class="close-btn"><a href="#"><span>閉じる</span></a></p>
+<!-- #GlobalNaviSp // --></div>
+
+<!-- #HeaderSp // --></div>
+<div id="menuBg"></div>
+  <div id="Content" class="cf">
+
+<div id="MainVisual"><div id="MainVisualInline" class="loading">
+<div id="SliderWrap">
+<div id="Slider">
+<noscript>JavaScriptを有効にしてください。</noscript>
+<!-- #Slider // --></div>
+<div id="SliderArrow">
+<div id="SliderPrev" class="arrow"><a href="#">PREV</a></div>
+<div id="SliderNext" class="arrow"><a href="#">NEXT</a></div>
+<!-- #SliderArrow // --></div>
+<ul class="pager">
+<li><noscript>JavaScriptを有効にしてください。</noscript></li>
+</ul>
+<!-- #SliderWrap // --></div>
+<!-- #MainVisualInline .loading --></div><!-- #MainVisual // --></div>
+
+<div class="content-wrap">
+
+<div class="section bnr-top">
+<div class="left"><a href="netshop/"><img src="images/index/bnr_shop_h.png" height="98" width="478" alt="フジッコネットショップ" class="rover" /></a></div>
+<div class="right"><a href="recipe/attention/"><img src="images/index/bnr_attention.png" height="98" width="478" alt="手づくりカスピ海ヨーグルト　暑い季節のご注意" class="rover" /></a></div>
+</div>
+</div>
+
+<div class="section-frame"><div class="section-frame-outline"><div class="section-frame-inline cf">
+<div class="recipe">
+<div class="head">
+<h2><a href="/recipe/"><img src="images/index/recipe_ttl_01.gif" width="197" height="60" alt="フジッコ愛情レシピ" /></a><img src="images/index/recipe_ttl_02.gif" width="282" height="60" alt="" /></h2>
+<div class="search">
+<form method="get" action="/recipe/result.php">
+<input type="text" name="search_word" title="メニューや食材名から検索" class="inputstyle formtips" /><!--
+ --><input type="image" src="images/index/recipe_btn.gif" alt="検索" />
+</form>
+<!-- .search // --></div>
+<!-- .head // --></div>
+<div class="inside">
+<div class="left">
+<h3><img src="images/index/recipe_ttl_sub01.gif" width="206" height="30" alt="今週のおすすめレシピ" /></h3>
+<p class="img large"><a href="/recipe/detail.php?id=771"><img src="images/index/recipe_img_771.jpg" width="194" height="116" alt="たけのこと豚肉のピリ辛炒め" /></a></p>
+<p class="txt"><a href="/recipe/detail.php?id=771">たけのこと豚肉のピリ辛炒め</a></p>
+<p class="txt">辛みを活かせば、カロリー抑えて代謝をアップ！</p>
+<!-- .left // --></div>
+<div class="right">
+<h3><img src="images/index/recipe_ttl_sub02.gif" width="205" height="30" alt="フジッコトレンドレシピ" /></h3>
+<div class="img-box">
+<p class="img"><a href="http://www.fujicco.co.jp/recipe/detail.php?id=793" target="_blank"><img src="images/index/trend_img_793.jpg" width="72" height="72" alt="アボカドとトマトの和風ビーンズボウル" /></a></p>
+<p class="txt"><a href="http://www.fujicco.co.jp/recipe/detail.php?id=793" target="_blank">アボカドとトマトの和風ビーンズボウル</a></p>
+</div>
+<h3><img src="images/index/recipe_ttl_sub03.gif" width="205" height="30" alt="季節のおすすめデザート" /></h3>
+<div class="img-box">
+<p class="img"><a href="/recipe/detail.php?id=808"><img src="images/index/dessert_img_808.jpg" width="72" height="72" alt="ピーチゼリーteaフロート～セラピーフロート・ドリンク～" /></a></p>
+<p class="txt"><a href="/recipe/detail.php?id=808">ピーチゼリーteaフロート～セラピーフロート・ドリンク～</a></p>
+</div>
+<!-- .right // --></div>
+<!-- .inside // --></div>
+<p class="link"><a href="/recipe/" class="link-arrow baselink2">その他のレシピを見る</a></p>
+<!-- .recipe // --></div>
+
+<div class="news">
+<h2><img src="images/index/news_ttl.gif" width="482" height="53" alt="おすすめレシピ" /></h2>
+<p class="btn-rss"><a href="/cms_news/news/rss/feed.php"><img src="images/index/news_btn_rss.gif" width="70" height="31" alt="RSS" class="rover" /></a></p>
+
+<script type="text/javascript" src="/cms_news/news/output/post.php?type=js&template=top_list&num=5"></script>
+<!--
+<dl>
+<dt>2012.09.10</dt>
+<dd><span class="ico"><img src="/shared/images/news_ico01.gif" width="95" height="16" alt="商品" /></span><span class="txt"><a href="#">「本多先生の食生活診断」診断希望者大募集！</a></span></dd>
+<dt>2012.09.10</dt>
+<dd><span class="ico"><img src="/shared/images/news_ico02.gif" width="95" height="16" alt="レシピ" /></span><span class="txt"><a href="#">おかず畑食堂アレンジメニュー更新</a></span></dd>
+<dt>2012.09.10</dt>
+<dd><span class="ico"><img src="/shared/images/news_ico03.gif" width="95" height="16" alt="学食発表" /></span><span class="txt"><a href="#">フジッコレシピ集「今週のレシピ」更新</a></span></dd>
+<dt>2012.09.04</dt>
+<dd><span class="ico"><img src="/shared/images/news_ico04.gif" width="95" height="16" alt="お知らせ" /></span><span class="txt"><a href="#">おまめマルシェ「黒豆ヨーグルトチャレンジレポート」締切間近</a></span></dd>
+<dt>2012.09.03</dt>
+<dd class="last"><span class="ico"><img src="/shared/images/news_ico05.gif" width="95" height="16" alt="IR情報" /></span><span class="txt"><a href="#">ビーンズ系女子はじめよう！キャンペーン募集中9月30日まで</a></span></dd>
+</dl>
+-->
+<p class="link"><a href="/corp/info/newsrelease/" class="link-arrow baselink2">ニュースの一覧を見る</a></p>
+<!-- .news // --></div>
+<!-- .section-frame-inline // --></div><!-- .section-frame-outline // --></div><!-- .section-frame // --></div>
+
+<div class="content-wrap cf">
+<div class="main">
+<div class="section lineup"><div class="section-inline">
+<h2><img src="images/index/lineup_ttl.jpg" width="736" height="57" alt="商品ラインナップ" /></h2>
+<p class="link"><a href="/products/" class="link-arrow baselink2">商品一覧を見る</a></p>
+<ul class="cf">
+<li><a href="/products/new.php"><img src="images/index/lineup_img01.jpg" width="90" height="150" alt="新商品一覧" class="rover" /></a><span class="new"><img src="images/index/ico_new.png" width="30" height="30" alt="NEW" /></span></li>
+<li><a href="/products/index.php#cat01"><img src="images/index/lineup_img02.jpg" width="90" height="150" alt="昆布製品" class="rover" /></a></li>
+<li><a href="/products/index.php#cat01"><img src="images/index/lineup_img03.jpg" width="90" height="150" alt="豆製品" class="rover" /></a></li>
+<li><a href="/products/index.php#cat02"><img src="images/index/lineup_img04.jpg" width="90" height="150" alt="お惣菜" class="rover" /></a></li>
+<li><a href="/products/index.php#cat02"><img src="images/index/lineup_img05.jpg" width="90" height="150" alt="カスピ海ヨーグルト" class="rover" /></a></li>
+<li><a href="/products/index.php#cat03"><img src="images/index/lineup_img06.jpg" width="90" height="150" alt="デザート" class="rover" /></a></li>
+<li><a href="/products/index.php#cat03"><img src="images/index/lineup_img07.jpg" width="90" height="150" alt="スープ・料理の素・だしつゆ" class="rover" /></a></li>
+<li><a href="/softfood/" target="_blank"><img src="images/index/lineup_img08.jpg" width="90" height="150" alt="ソフトデリ（介護食）" class="rover" /></a></li>
+</ul>
+<!-- .section-inline // --></div><!-- .section // --></div>
+
+<div class="section event">
+<h2><img src="images/index/event_ttl.jpg" width="736" height="57" alt="キャンペーン・イベント" /></h2>
+<p class="link"><a href="/know_enjoy/campaign/" class="link-arrow baselink2">キャンペーン・イベント一覧を見る</a></p>
+
+<div id="slider-campaign" class="content-slider"></div>
+
+<!-- .section // --></div>
+
+<div class="section pickup">
+<h2><img src="images/index/pickup_ttl.jpg" width="736" height="57" alt="ピックアップ" /></h2>
+
+<div id="slider-pickup" class="content-slider"></div>
+
+<!-- .section // --></div>
+
+<!-- .main // --></div>
+
+<div class="side">
+<div class="section cm">
+<h2><img src="images/index/side_section01_ttl.jpg" width="228" height="57" alt="TVCM一覧" /></h2>
+<div class="inside">
+<div class="movie"><a href="/know_enjoy/cm/caspi_nebari.html"><img src="images/index/side_section01_img.jpg" width="200" height="130" alt="「日本のねばり強さ」TVCM" /></a></div>
+<p>カスピ海ヨーグルトTVCM「日本のねばり強さ」篇</p>
+<!--<div class="movie"><a href="/know_enjoy/cm/fujiccochan_mamekobachi.html"><img src="images/index/side_section01_img.jpg" width="200" height="130" alt="「一週間の歌」TVCM" /></a></div>
+<p>フジッコTVCM「一週間の歌」篇</p>-->
+</div>
+<div class="link"><div class="link-outline"><div class="link-inline">
+<p><a href="know_enjoy/cm/index.html" class="link-arrow baselink2">フジッコのTVCMを見る</a></p>
+</div></div></div>
+</div>
+
+<ul class="bnr all-rover">
+<li><a href="http://www.fujicco.co.jp/netshop/"><img src="/shared/images/side_bnr01.png" width="228" height="160" alt="フジッコネットショップ" /></a></li>
+<li><a href="/products/functionfoods/index.html"><img src="/shared/images/side_bnr21.png" width="228" height="118" alt="フジッコの機能性表示食品" /></a></li>
+<li><a href="https://www.fujicco.co.jp/beanslife/"><img src="/shared/images/side_bnr14.png" width="228" height="88" alt="ビーンズライフ 新規会員登録" /></a></li>
+<li><a href="/know_enjoy/campaign/brandsite.html"><img src="/shared/images/side_bnr02.png" width="228" height="128" alt="ブランドサイト一覧" /></a></li>
+<li><a href="/effort/anshin/index.html"><img src="/shared/images/side_bnr03.png" width="228" height="88" alt="ふじっ子あんしんシステム" /></a></li>
+<li><a href="/know_enjoy/magazine.html"><img src="/shared/images/side_bnr04.png" width="228" height="88" alt="メールマガジン「フジッコ通信」" /></a></li>
+<li><a href="/know_enjoy/blog/" target="_blank"><img src="/shared/images/side_bnr15.png" width="228" height="88" alt="フジッコフレッシュブログ" /></a></li>
+
+<!-- .bnr // --></ul>
+
+<div class="section cm">
+<h2><img src="images/index/side_section03_ttl.jpg" width="228" height="57" alt="百貨店ギフト" /></h2>
+<div class="inside">
+<div class="movie"><a href="http://www.kobe-mifuji.co.jp/" target="_blank"><img src="images/index/side_section03_bnr01.png" width="200" height="116" alt="味富士" class="rover" /></a></div>
+</div>
+
+<div class="inside">
+<div class="movie"><a href="http://www.kobe-mifuji.co.jp/mahoya/" target="_blank"><img src="images/index/side_section03_bnr02.png" width="200" height="116" alt="真帆屋" class="rover" /></a></div>
+</div>
+
+<div class="inside">
+<div class="movie"><a href="http://shopping.geocities.jp/fresh-caspi/" target="_blank"><img src="images/index/side_section03_bnr03.jpg" width="200" alt="カスピ海ヨーグルト" class="rover" /></a></div>
+</div>
+
+<div class="link">
+<div class="link-outline"></div>
+</div>
+
+</div>
+
+<ul class="bnr all-rover">
+<li><a href="http://www.fujiclairwine.jp/index.html" target="_blank"><img src="/shared/images/side_bnr08.png" width="228" height="88" alt="フジッコワイナリー" /></a></li>
+<!-- .bnr // --></ul>
+
+<!--<div class="section corp">
+<h2><img src="images/index/side_section02_ttl.jpg" width="228" height="57" alt="企業情報" /></h2>
+<div class="inside">
+<ul>
+<li><a href="corp/info/company.html" class="link-arrow">会社概要</a></li>
+<li><a href="corp/info/greeting.html" class="link-arrow">ごあいさつ</a></li>
+<li><a href="corp/info/culture/" class="link-arrow">フジッコ流食文化の創造</a></li>
+<li><a href="corp/info/dept.html" class="link-arrow">サービスネットワーク</a></li>
+</ul>-->
+<!-- .inside // -->
+<!--<div class="link"><div class="link-outline"><div class="link-inline">
+<p><a href="corp/info/" class="link-arrow baselink2">その他の企業情報を見る</a></p>-->
+<!-- .link-inline // -->
+<!-- .link-outline // -->
+<!-- .link // -->
+<!-- .section // -->
+
+<!-- .side // --></div>
+<!-- .content-wrap // --></div>
+<!-- #Content  // --></div>
+
+
+<div id="Footer">
+
+<div class="bar"><div class="bar-outline"><div class="bar-inline">
+<ul>
+<li><a href="/ethic_law.html">フジッコグループの倫理基準</a></li>
+<li><a href="/privacy.html">プライバシーポリシー</a></li>
+<li><a href="/about.html">このサイトについて</a></li>
+<li><a href="/announcement.html">個人情報保護方針</a></li>
+<li><a href="/socialmediapolicy.html">ソーシャルメディアポリシー</a></li>
+</ul>
+<p class="pagetop"><a href="#Container">ページトップにもどる</a></p>
+<!-- .bar-inline // --></div><!-- .bar-outline // --></div><!-- .bar // --></div>
+
+<div class="footer-inside">
+<div class="list-frame">
+<div class="list">
+<ul>
+<li class="sp"><a href="/recipe/" class="high">フジッコ愛情レシピ</a></li>
+<li><a href="/products/" class="high">商品情報</a></li>
+</ul>
+</div>
+<div class="list">
+<ul>
+<li><a href="/know_enjoy/" class="high">知る・楽しむ</a><ul>
+<li><a href="/know_enjoy/shokuiku/">フジッコの食育</a></li>
+<li><a href="/know_enjoy/healthycook/">ヘルシー料理教室</a></li>
+<li><a href="/know_enjoy/campaign/">キャンペーン・イベント情報</a></li>
+<li><a href="/know_enjoy/quiz/">フジッコクイズゲーム「フードQ」</a></li>
+<li><a href="/know_enjoy/magazine.html">メールマガジン「フジッコ通信」</a></li>
+<li><a href="/know_enjoy/cm/">TVCM一覧</a></li>
+<li><a href="/know_enjoy/health/">健康百科</a></li>
+<li><a href="/know_enjoy/blog/" target="_blank"><span class="link-blank02">フジッコフレッシュブログ</span></a></li>
+</ul></li>
+</ul>
+</div>
+<div class="list">
+<ul>
+<li><a href="/corp/" class="high">企業・IR・採用</a><ul>
+<li><a href="/corp/info/">企業情報</a></li>
+<li><a href="/corp/ir/">ファン株主・個人投資家の皆さまへ</a></li>
+<li><a href="/corp/recruit/">採用情報</a></li>
+</ul></li>
+</ul>
+</div>
+<div class="list">
+<ul>
+<li><a href="/effort/" class="high">フジッコの取り組み</a><ul>
+<li><a href="/effort/">消費者志向自主宣言</a></li>
+<li><a href="/effort/anshin/">あんしんへの取り組み</a></li>
+<li><a href="/effort/anshin/beans/">黒豆あんしんの判別技術開発</a></li>
+<li><a href="/effort/environment/">環境・社会・ガバナンスへの取り組み</a></li>
+<li><a href="/effort/csr/">社会貢献への取り組み</a></li>
+<li><a href="/corp/info/newsrelease/#tab05">学会発表</a></li>
+<li><a href="/know_enjoy/shokuiku/">食育への取り組み</a></li>
+</ul></li>
+</ul>
+</div>
+<div class="list last">
+<ul>
+<li><a href="/customer/" class="high">お客様相談室</a><span class="ex">フジッコ株式会社へのお問い合わせはこちらから。お客様からのご意見・ご質問は、より良い商品・サービス作りにいかしてまいります。</span><ul>
+<li><a href="/customer/faq.html">よくお寄せいただくご質問</a></li>
+<li><a href="/customer/voice/">お客様の声をいかしました</a></li>
+<li><a href="https://www.fujicco.co.jp/customer/inquiry_mail.php">メールでのお問い合わせ</a></li>
+<li><a href="/customer/inquiry_tel.html">お電話でのお問い合わせ</a></li>
+</ul></li>
+</ul>
+</div>
+<!-- .list-frame // --></div>
+
+<p class="copyright"><img src="/shared/images/footer_copyright.gif" width="407" height="28" alt="Copyright &copy; 2013 Fujicco All Rights Reserved." /></p>
+<!-- .footer-inside // --></div>
+
+<!-- #Footer // --></div>
+
+
+
+<div id="FooterSp">
+
+<ul class="bnr-list cf">
+<li><a href="/know_enjoy/cm/"><img src="/sp/shared/images/footer_bnr01.png" height="116" width="286" alt="" /></a></li>
+<li><a href="http://www.fujicco.co.jp/netshop/" target="_blank"><img src="/sp/shared/images/footer_bnr02.png" height="116" width="286" alt="" /></a></li>
+<li><a href="/know_enjoy/magazine.html"><img src="/sp/shared/images/footer_bnr03.png" height="116" width="286" alt="" /></a></li>
+<li><a href="/know_enjoy/blog/" target="_blank"><img src="/sp/shared/images/footer_bnr04.png" height="116" width="286" alt="" /></a></li>
+<!-- .bnr-list // --></ul>
+
+<ul class="nav cf">
+<li><a href="/sp/recipe/">フジッコ愛情レシピ</a></li>
+<li><a href="/sp/products/">商品情報</a></li>
+<li><a href="/know_enjoy/">知る・楽しむ</a></li>
+<li><a href="/corp/">企業・IR・採用</a></li>
+<li><a href="/effort/">フジッコの取り組み</a></li>
+<li><a href="/customer/">お客様相談</a></li>
+<!-- .nav // --></ul>
+
+<ul class="blank-nav">
+<li><a href="http://www.kobe-mifuji.co.jp/index.html" target="_blank">味富士</a></li>
+<li><a href="http://mahoya.jp/index.html" target="_blank">真帆屋</a></li>
+<li><a href="http://www.fujiclairwine.jp/index.html" target="_blank">フジッコワイナリー</a></li>
+<!-- .blank-nav // --></ul>
+
+<ul class="sub-nav cf">
+<li><a href="/ethic_law.html">フジッコグループの倫理基準</a></li>
+<li><a href="/privacy.html">プライバシーポリシー</a></li>
+<li><a href="/about.html">このサイトについて</a></li>
+<li><a href="/announcement.html">個人情報保護方針</a></li>
+<li><a href="/socialmediapolicy.html">ソーシャルメディアポリシー</a></li>
+<!-- .sub-nav // --></ul>
+
+<p class="logo"><img src="/sp/shared/images/footer_logo.png" height="52" width="336" alt="フジッコ　食よく、バランスよく。" /></p>
+
+<p class="copyright">Copyright &copy;2015 Fujicco All Rights Reserved.</p>
+<!-- #FooterSp // --></div>
+
+<!-- #Container // --></div>
+
+<!-- Microad -->
+<!--
+<script type="text/javascript" class="microad_blade_track">
+var microad_blade_jp = microad_blade_jp || { 'params' : new Array(), 'complete_map' : new Object() };
+(function() {
+var param = {'co_account_id' : '5408', 'group_id' : '', 'country_id' : '1', 'ver' : '2.1.0'};
+microad_blade_jp.params.push(param);
+
+var src = (location.protocol == 'https:')
+? 'https://d-track.send.microad.jp/js/blade_track_jp.js' : 'http://d-cache.microad.jp/js/blade_track_jp.js';
+
+var bs = document.createElement('script');
+bs.type = 'text/javascript'; bs.async = true;
+bs.charset = 'utf-8'; bs.src = src;
+
+var s = document.getElementsByTagName('script')[0];
+s.parentNode.insertBefore(bs, s);
+})();
+</script>
+-->
+
+<!-- Adwords
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 1025450476;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1025450476/?value=0&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+-->
+
+<!-- GA -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-13210312-1");
+pageTracker._trackPageview();
+} catch(err) {}
+</script>
+
+<!-- Yahooad -->
+<script type="text/javascript">
+  (function () {
+    var tagjs = document.createElement("script");
+    var s = document.getElementsByTagName("script")[0];
+    tagjs.async = true;
+    tagjs.src = "//s.yjtag.jp/tag.js#site=1cQSJvu,dxC8QGD";
+    s.parentNode.insertBefore(tagjs, s);
+  }());
+</script>
+<noscript>
+  <iframe src="//b.yjtag.jp/iframe?c=1cQSJvu,dxC8QGD" width="1" height="1" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+</noscript>
+</body>
+</html>

@@ -1,0 +1,667 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta charset="utf-8">
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="imagetoolbar" content="no" />
+<meta name="copyright" content="Digital Arts Inc." />
+<meta name="keywords" content="情報漏洩対策,情報セキュリティ,情報漏えい対策,フィルタリング,メールフィルタリング,URLフィルタリング,メールセキュリティ,デジタルアーツ株式会社" />
+<meta name="description" content="情報セキュリティメーカーのデジタルアーツは、Webセキュリティやメールセキュリティ、ファイルセキュリティなどの情報漏洩対策ソリューションの提供を核にした情報セキュリティ事業を展開しています。" />
+<meta name="verify-v1" content="47vBm8toBNF6HdhmsJZUYWAVB2uo0xXJ/elS8YwvHBM=" />
+<title>情報漏洩対策・情報セキュリティならデジタルアーツ株式会社</title>
+
+<link rel="apple-touch-icon" href="/common/images/apple_touch_icon.png" />
+
+<link rel="index" href="http://www.daj.jp/" title="情報漏洩対策・情報セキュリティならデジタルアーツ株式会社" />
+<link rel="contents" href="http://www.daj.jp/sitemap/" title="サイトマップ" />
+
+<script type="text/javascript" src="/common/js/jquery-1.7.2.min.js"></script>
+<link rel="stylesheet" type="text/css" href="/common/css/import.php" media="screen,print" />
+
+<script type="text/javascript" src="/common/js/jquery.easing-1.3.min.js"></script>
+<script type="text/javascript" src="/common/js/jquery.cookie.js"></script>
+<script type="text/javascript" src="/common/js/default.js?20170508013600"></script>
+<script type="text/javascript" src="/common/js/default.font.js"></script>
+<script type="text/javascript" src="/common/js/search.js"></script>
+<script type="text/javascript" src="/common/js/footerAd.js"></script>
+<script type="text/javascript" src="/shared/js/AsisLink.js?20150513040823"></script>
+<script type="text/javascript" src="/common/js/jquery.hoverIntent.js"></script>
+
+<!-- ************* Category Style & Script ************* -->
+<!-- ************* Category Style & Script ************* -->
+
+<!-- ************* Page Style & Script ************* -->
+<!-- ************* Page Style & Script ************* -->
+
+
+<!--[if lte IE 8]>
+<script type="text/javascript" src="/common/js/ie8/html5shiv.js"></script>
+<script type="text/javascript" src="/common/js/ie8/DOMAssistantCompressed-2.8.1.js"></script>
+<script type="text/javascript" src="/common/js/ie8/selectivizr-min.js"></script>
+<link rel="stylesheet" type="text/css" href="/common/css/ie/old.css" media="screen,print" />
+<![endif]-->
+
+
+
+<link rel="stylesheet" type="text/css" href="common/css/top/base.css?20170309010355" media="screen,print" />
+
+<!--[if lte IE 7]>
+<link rel="stylesheet" type="text/css" href="common/css/top/ie7.css" media="screen,print" />
+<![endif]-->
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" type="text/css" href="common/css/top/smph.css?20170508013600" media="screen,print" />
+<link rel="stylesheet" href="/common/css/smph/import.php" type="text/css" />
+<script type="text/javascript" src="/common/js/jquery.slidemenu.js"></script>
+<script type="text/javascript" src="/common/js/responsive.js"></script>
+
+
+<script type="text/javascript" src="/common/js/jquery.flexslider.js"></script>
+<script type="text/javascript" src="/common/js/top.js"></script>
+
+
+</head>
+
+<body>
+
+<nav class="slidemenu">
+
+	<div id="menu_contents">
+
+		<div id="menu_list">
+
+			<h3><a href="http://www.daj.jp/">情報漏洩対策ならデジタルアーツ株式会社（Digital Arts）</a></h3>
+
+			<p class="close"><a href="javascript:void(0);"><img src="/common/images/header/close.png" width="20" height="20" alt="閉じる" /></a></p>
+
+<dl>
+
+	<dt class="bs"><a href="/bs/"><span>企業・官公庁のお客様</span></a></dt>
+	<dd>
+
+<ul><li name="top" class="active"><a href="/bs/">トップ</a></li>&#13;
+	<li name="products"><a href="javascript:void(0);">製品・サービス</a></li>&#13;
+<!--	<li name="solution"><a href="/bs/solution/">&#12477;&#12522;&#12517;&#12540;&#12471;&#12519;&#12531;</a></li>-->&#13;
+	<li name="case"><a href="/bs/case/">導入事例</a></li>&#13;
+	<li name="events"><a href="/bs/events/">イベント・セミナー情報</a></li>&#13;
+	<li name="newsletter"><a href="/bs/newsletter/">メールマガジン</a></li>&#13;
+	<li name="purchase"><a href="/bs/purchase/">ご購入について</a></li>&#13;
+	<li name="inquiry"><a href="/bs/inquiry/">お問い合わせ</a></li>&#13;
+</ul>
+	</dd>
+
+	<dt class="es"><a href="/es/">学校関係のお客様</a></dt>
+	<dd>
+
+<ul><li name="top" class="active"><a href="/es/">トップ</a></li>&#13;
+	<li name="products"><a href="javascript:void(0);">製品・サービス</a></li>&#13;
+<!--	<li name="solution"><a href="/es/solution/">&#12477;&#12522;&#12517;&#12540;&#12471;&#12519;&#12531;</a></li>-->&#13;
+	<li name="case"><a href="/es/case/">導入事例</a></li>&#13;
+	<li name="events"><a href="/es/events/">イベント・セミナー情報</a></li>&#13;
+	<li name="newsletter"><a href="/es/newsletter/">メールマガジン</a></li>&#13;
+	<li name="purchase"><a href="/es/purchase/">ご購入について</a></li>&#13;
+	<li name="inquiry"><a href="/es/inquiry/">お問い合わせ</a></li>&#13;
+</ul>
+	</dd>
+
+	<dt class="cs"><a href="/cs/" target="_blank">個人のお客様</a></dt>
+	<dt class="partner"><a href="/partner/">パートナー様</a></dt>
+
+	<dt class="support"><a href="/support/">サポート</a></dt>
+
+</dl>
+
+<ul class="otherMenu">
+	<li><a href="/company/">企業情報</a></li><li><a href="/csr/">CSR</a></li><li><a href="/ir/">株主・投資家向け情報</a></li><li><a href="http://jobs.daj.jp/" target="_blank" rel="nofollow">採用情報</a></li><li><a href="/contact/">お問い合わせ</a></li><li><a href="/en/">English</a></li>
+</ul>
+		</div>
+
+	</div>
+
+</nav>
+
+	<div id="wrapper">
+
+		<!-- ************* header::Start *************** -->
+		<div id="header">
+
+	<section>
+
+
+		<h1><a href="http://www.daj.jp/"><img src="/common/images/header/da.gif" width="137" height="35" alt="情報漏洩対策ならデジタルアーツ株式会社（Digital Arts）" /></a></h1>
+
+
+<ul class="otherMenu">
+	<li><a href="/company/">企業情報</a></li><li><a href="/csr/">CSR</a></li><li><a href="/ir/">株主・投資家向け情報</a></li><li><a href="http://jobs.daj.jp/" target="_blank" rel="nofollow">採用情報</a></li><li><a href="/contact/">お問い合わせ</a></li><li><a href="/en/">English</a></li>
+</ul>
+		<nav class="hdr_nav">
+
+<dl>
+
+	<dt class="bs"><a href="/bs/"><span>企業・官公庁のお客様</span></a></dt>
+	<dd>
+
+<ul><li name="top" class="active"><a href="/bs/">トップ</a></li>&#13;
+	<li name="products"><a href="javascript:void(0);">製品・サービス</a></li>&#13;
+<!--	<li name="solution"><a href="/bs/solution/">&#12477;&#12522;&#12517;&#12540;&#12471;&#12519;&#12531;</a></li>-->&#13;
+	<li name="case"><a href="/bs/case/">導入事例</a></li>&#13;
+	<li name="events"><a href="/bs/events/">イベント・セミナー情報</a></li>&#13;
+	<li name="newsletter"><a href="/bs/newsletter/">メールマガジン</a></li>&#13;
+	<li name="purchase"><a href="/bs/purchase/">ご購入について</a></li>&#13;
+	<li name="inquiry"><a href="/bs/inquiry/">お問い合わせ</a></li>&#13;
+</ul>
+	</dd>
+
+	<dt class="es"><a href="/es/">学校関係のお客様</a></dt>
+	<dd>
+
+<ul><li name="top" class="active"><a href="/es/">トップ</a></li>&#13;
+	<li name="products"><a href="javascript:void(0);">製品・サービス</a></li>&#13;
+<!--	<li name="solution"><a href="/es/solution/">&#12477;&#12522;&#12517;&#12540;&#12471;&#12519;&#12531;</a></li>-->&#13;
+	<li name="case"><a href="/es/case/">導入事例</a></li>&#13;
+	<li name="events"><a href="/es/events/">イベント・セミナー情報</a></li>&#13;
+	<li name="newsletter"><a href="/es/newsletter/">メールマガジン</a></li>&#13;
+	<li name="purchase"><a href="/es/purchase/">ご購入について</a></li>&#13;
+	<li name="inquiry"><a href="/es/inquiry/">お問い合わせ</a></li>&#13;
+</ul>
+	</dd>
+
+	<dt class="cs"><a href="/cs/" target="_blank">個人のお客様</a></dt>
+	<dt class="partner"><a href="/partner/">パートナー様</a></dt>
+
+	<dt class="support"><a href="/support/">サポート</a></dt>
+
+</dl>
+
+
+		</nav>
+
+
+		<aside id="headline">
+
+						<p><a href="/bs/lp/i10m5/#pricelist" target="_blank">「i-FILTER」Ver.10、「m-FILTER」Ver.5 のご提供価格のご案内<strong class="new">NEW!!</strong></a></p>
+						<p><a href="/bs/lp/i10m5/#ad" target="_blank">＜オンラインセミナー開催＞9月19日販売開始！「i-FILTER」と「m-FILTER」で社内外の脅威防ぐ！<strong class="new">NEW!!</strong></a></p>
+						<p><a href="/bs/lp/1708/" target="_blank">改正個人情報保護法への対策に必要なセキュリティ強化とは？</a></p>
+						<p><a href="/bs/lp/ma34/" target="_blank">誤送信防止機能を拡充！「m-FILTER MailAdviser」Ver.3.4、6月27日提供開始</a></p>
+						<p><a href="/company/topics/2017/0519_02/" target="_self">「ランサムウェア WannaCry」の対策についてのご案内</a></p>
+						<p><a href="/bs/lp/i10m5/" target="_blank">標的型攻撃を標的にする。2017年9月19日（予定）、2つの製品が、誰も叶えられなかったセキュリティに進化を遂げる</a></p>
+						<p><a href="http://www.finalcode.com/jp/lp/mac1705/" target="_blank">「FinalCode&reg; Client for Mac」、5月9日より世界で同時提供開始</a></p>
+						<p><a href="/news/170111_01/" target="_self">これからのセキュリティ対策の主流「インシデントレスポンス（インシデント対応）」について知る</a></p>
+						<p><a href="http://www.finalcode.com/jp/lp/v52/" target="_blank">画面撮影による不正を抑止する機能を搭載した「FinalCode」Ver.5.2、2017年2月1日より提供開始</a></p>
+						<p><a href="http://www.finalcode.com/jp/lp/06/" target="_blank">標的型攻撃対策の最後の切り札「FinalCode(ファイナルコード)」</a></p>
+						<p><a href="/bs/lp/ifddi/" target="_blank">「i-FILTER」とトレンドマイクロ社「DDIシリーズ」の連携オプションを2017年1月より提供開始</a></p>
+			
+		</aside>
+
+
+		<ol class="smph_menu"><li><a href="javascript:void(0);">menu</a></li></ol>
+
+	</section>
+
+</div>		<!-- ************* header::End *************** -->
+
+		<div id="visual">
+
+	<section>
+
+	<ul class="slides">
+
+		<!-- FinalCode -->
+		<li><b><a href="/bs/lp/i10m5/" target="_blank"><img src="/common/images/top/visual/lp/i10m5.png" width="990" height="344" alt="2017年9月19日（予定）標的型攻撃を標的にする。" /></a></b></li>
+		<!-- FinalCode -->
+		
+		<!-- FinalCode -->
+		<li><b><a href="/bs/lp/1708/" target="_blank"><img src="/common/images/top/visual/lp/1708.png" width="990" height="344" alt="改正個人情報保護法  5月30日全面施行 企業が今すぐ対応すべき情報漏洩対策とは？" /></a></b></li>
+		<!-- FinalCode -->
+		
+		<!-- FinalCode -->
+		<li><b><a href="http://www.finalcode.com/jp/lp/mac1705/" target="_blank"><img src="/common/images/top/visual/fc/1705mac.png" width="990" height="344" alt="お使いのMacで、閲覧者を指定してファイル暗号化「FinalCode Client for Mac」2017年5月9日提供開始" /></a></b></li>
+		<!-- FinalCode -->
+
+
+		<!-- es_lp_1611 -->
+		<li><b><a href="/es/lp/ict/" target="_blank" onclick="pageTracker._trackEvent('TOP_PAGE','click','mv_eslp_ict1611');"><img src="/common/images/top/visual/ifb/1611.png" width="990" height="344" alt="ICT教育、アクティブラーニングの教育現場でタブレットを安全に活用できる「i-FILTER ブラウザー＆クラウド」" /></a></b></li>
+		<!-- es_lp_1508 -->
+
+		<!-- i-フィルター -->
+		<li><b><a href="/cs/" target="_blank" onclick="pageTracker._trackEvent('TOP_PAGE','click','mv_CS_top');"><img src="/common/images/top/visual/cs/150302.jpg" width="990" height="344" alt="個人のお客さま向け有害サイトフィルタリングソフト「i-フィルター」" /></a></b></li>
+		<!-- i-フィルター -->
+
+	</ul>
+
+	</section>
+
+</div><div id="doc">
+
+	<div>
+
+		<dl class="if">
+			<dt><a href="/bs/i-filter/" onclick="pageTracker._trackEvent('TOP_PAGE','click','doc_iF');">i-FILTER<b>NEW!!</b></a></dt>
+			<dd><span>・</span>導入実績No.1<br />
+			<strong>Webセキュリティ</strong></dd>
+		</dl>
+
+		<dl class="ifbc">
+			<dt><a href="/bs/ifb/" onclick="pageTracker._trackEvent('TOP_PAGE','click','doc_iFios');">i-FILTERブラウザー＆クラウド<b>NEW!!</b></a></dt>
+			<dd><span>・</span>iOS/Android/Windows端末に対応<br />
+			<strong>エンドポイントWebセキュリティ</strong></dd>
+		</dl>
+
+		<dl class="dspa">
+			<dt><a href="/bs/dspa/" onclick="pageTracker._trackEvent('TOP_PAGE','click','doc_DSPA');">D-SPA</a></dt>
+			<dd><span>・</span>「i-FILTER」搭載の、<br />
+			<strong>純国産Webセキュリティ･アプライアンス</strong></dd>
+		</dl>
+
+		<dl class="mf">
+			<dt><a href="/bs/mf/" onclick="pageTracker._trackEvent('TOP_PAGE','click','doc_mF');">m-FILTER</a></dt>
+			<dd><span>・</span>メール誤送信対策/メールアーカイブ<br />
+			<strong>メールセキュリティ</strong></dd>
+		</dl>
+
+		<dl class="mfma">
+			<dt><a href="/bs/ma/" onclick="pageTracker._trackEvent('TOP_PAGE','click','doc_mFma');">m-FILTER MailAdviser<b>NEW!!</b></a></dt>
+			<dd><span>・</span>必要なときに、必要な助言をもたらす<br />
+			<strong>メール誤送信防止ソリューション</strong></dd>
+		</dl>
+
+		<dl class="fc">
+			<dt><a href="http://www.finalcode.com/jp/" target="_blank" onclick="pageTracker._trackEvent('TOP_PAGE','click','doc_FC');">FinalCode<b>NEW!!</b></a></dt>
+			<dd><span>・</span>渡したファイルが&ldquo;あとから&rdquo;消せる<br />
+			<strong>ファイル暗号化･追跡ソリューション</strong></dd>
+		</dl>
+
+		<dl class="cbu">
+			<dt><a href="/cs/" target="_blank" onclick="pageTracker._trackEvent('TOP_PAGE','click','doc_CS');">i-フィルター</a></dt>
+			<dd><span>・</span>お子さまを有害情報の危険から守る<br />
+			<strong>有害サイトフィルタリングソフト</strong></dd>
+		</dl>
+
+	</div>
+
+</div>
+		<div id="contents">
+
+			<div id="main">
+
+		
+			
+				<h2><b><span>プレスリリース</span></b><a href="/company/release/">一覧</a></h2>
+
+				<dl class="list">
+
+										<dt>2017/06/02</dt>
+					<dd><b>製品/サービス</b><a href="/company/release/2017/0602_01/">「i-FILTER&reg;」、アライドテレシスの「Secure Enterprise SDN」ソリューションと連携</a></dd>
+										<dt>2017/06/01</dt>
+					<dd><b>製品/サービス</b><a href="/company/release/2017/0601_01/">ソフトバンクのフィルタリングサービス「あんしんフィルター for SoftBank」のiOS版にWebフィルタリングシステムをOEM提供</a></dd>
+										<dt>2017/05/23</dt>
+					<dd><b>製品/サービス</b><a href="/company/release/2017/0523_01/">添付ファイル暗号化時のパスワード自動生成など誤送信防止機能を強化した<br />「m-FILTER&reg; MailAdviser」Ver.3.4、6月27日より提供開始</a></dd>
+										<dt>2017/05/16</dt>
+					<dd><b>製品/サービス</b><a href="/company/release/2017/0516_02/">小学生のiPadの授業活用を安心して行う環境作りとして、「i-FILTER&reg; ブラウザー＆クラウド」と「MobiConnect for Education」を椙山女学園大学附属小学校が導入</a></dd>
+					
+				</dl>
+
+				<h2><b><span>トピックス</span></b><a href="/company/topics/">一覧</a></h2>
+
+				<dl class="list">
+
+										<dt>2017/07/06</dt>
+					<dd><b>CSR活動</b><a href="/company/topics/2017/0706_01/">5月度の社外でのフィルタリング普及啓発活動ご報告</a></dd>
+										<dt>2017/06/26</dt>
+					<dd><b>企業情報</b><a href="/company/topics/2017/0626_01/">デジタルアーツ パートナー総会2017を開催</a></dd>
+										<dt>2017/05/29</dt>
+					<dd><b>セミナー/イベント</b><a href="/company/topics/2017/0529_01/">「第14回 情報セキュリティEXPO 春」にて、合計60セッションを実施</a></dd>
+										<dt>2017/05/23</dt>
+					<dd><b>CSR活動</b><a href="/company/topics/2017/0523_01/">4月度の社外でのフィルタリング普及啓発活動ご報告</a></dd>
+									
+
+				</dl>
+
+				<h2><b><span>IRニュース</span></b><a href="/ir/news/">一覧</a></h2>
+
+				<dl class="list">
+
+										<dt>2017/07/27</dt>
+					<dd class="pdf"><span><a href="/ir/data/daj2326_h3003_1q.pdf" target="_blank">平成30年3月期 第1四半期 決算短信を掲載しました</a>（PDF形式：210 KB）</span></dd>
+										<dt>2017/07/27</dt>
+					<dd class="pdf"><span><a href="/ir/data/daj2326_h3003_1q_1.pdf" target="_blank">平成30年3月期 第1四半期 決算短信 補足資料を掲載しました</a>（PDF形式：3.39 MB）</span></dd>
+										<dt>2017/06/26</dt>
+					<dd class="pdf"><span><a href="/ir/data/daj2326_h2903y.pdf" target="_blank">「第22期 有価証券報告書」を掲載しました</a>（PDF形式：661 KB）</span></dd>
+										<dt>2017/06/23</dt>
+					<dd class="pdf"><span><a href="/ir/data/daj2326_h3003_1q_2.pdf" target="_blank">役員人事のお知らせ</a>（PDF形式：122 KB）</span></dd>
+									
+
+				</dl>
+
+				<div class="aboutDA">
+
+					<h1>情報漏洩対策・情報セキュリティならデジタルアーツ</h1>
+
+					<p>情報セキュリティメーカーのデジタルアーツは、Webセキュリティやメールセキュリティ、ファイルセキュリティなどの<strong>情報漏洩対策</strong>ソリューションの提供を核にした情報セキュリティ事業を展開しています。</p>
+
+				  <p><strong>情報漏洩対策</strong>としてWebフィルタリングソフト国内でトップシェアを誇る法人向けWebセキュリティソフト「i-FILTER」、スマートデバイス向けWebフィルタリング「i-FILTER ブラウザー＆クラウド」や個人向け有害サイトフィルタリングソフト「i-フィルター」を提供しています。その他にも、より重要性を増している標的型攻撃メールの<strong>情報漏洩対策</strong>として法人向けメールセキュリティソフト「m-FILTER」、クライアント型メール誤送信防止ソフト「m-FILTER MailAdviser」、純国産のセキュア・プロキシ・アプライアンス製品「D-SPA」、標的型攻撃対策の「最後の切り札」となるファイル暗号化・追跡ソリューション「FinalCode」を提供しています。</p>
+
+			  	<p>マルウェア感染などからの<strong>情報漏洩対策</strong>が欠かせない企業、マイナンバー制度施行により情報セキュリティの強靭化を進めている官公庁や地方自治体、教育現場での人的ミスによる生徒などの<strong>個人情報漏洩</strong>を未然に防ぐ対策が求められている学校関係のお客様、かんたん設定で利用可能な個人のお客様の、安全で快適なインターネット環境の提供と情報セキュリティを実現します。</p>
+
+				</div>
+
+				<div class="banner">
+
+					<ul>
+						<li><a href="/cs/sp/app/" target="_blank" onclick="pageTracker._trackEvent('TOP_PAGE','click','bnr_simulationApp');"><img src="/common/images/top/banner/cs_app.jpg" width="360" height="74" alt="スマホにひそむ危険 疑似体験アプリ" /></a></li>
+					<li><a href="/cs/sp/izonchk/" target="_blank" onclick="pageTracker._trackEvent('TOP_PAGE','click','bnr_izonchk');"><img src="/common/images/top/banner/cs_izonchk.gif" width="360" height="74" alt="ネット依存型のかんたんチェック" /></a></li>
+					<li><a href="/startup/" target="_blank" onclick="pageTracker._trackEvent('TOP_PAGE','click','bnr_startup');"><img src="/common/images/top/banner/startup.jpg" width="360" height="74" alt="Digital Arts Startup" /></a></li>
+					<li><a href="http://www.it-anshin.go.jp/" target="_blank" onclick="pageTracker._trackEvent('TOP_PAGE','click','bnr_netanshin');"><img src="/common/images/top/banner/netanshin.jpg" width="360" height="74" alt="青少年を有害情報環境から守るための国民運動" /></a></li>
+					</ul>
+
+				</div>
+
+			
+			</div>
+
+			<div id="sub">
+
+				<div>
+
+	<p><a href="http://con.daj.jp/" target="_blank"><img src="/common/images/sub/new/dac.png" width="232" height="90" alt="デジタルアーツコンサルティング株式会社" /></a></p>
+
+	
+	<p><a href="http://www.finalcode.com/jp/lp/box/" target="_blank"><img src="/common/images/sub/new/fcbox.png" width="232" height="190" alt="「FinalCode」と「Box」が連携!「Box」からダウンロードされたファイルの追跡から権限設定変更を可能に!!" /></a></p>
+
+</div>        
+<div class="danw">
+
+	<h3><a href="/news/"><strong>Digital Arts News Watch</strong></a></h3>
+
+	<ul>
+		<li><span>2017/08/18</span><a href='/news/170818_01/'>Windowsのユーザーとは？「i-フィルター」との上手な使い方&#9312;<strong class="new">NEW!!</strong></a></li>
+<li><span>2017/08/17</span><a href='/news/170817_01/'>最新のエンドポイントセキュリティ対策「EDR」とは一体何か？<strong class="new">NEW!!</strong></a></li>
+<li><span>2017/08/10</span><a href='/news/170810_01/'>起動領域を破壊しPCを完全にロックするランサムウェア「Petya亜種」が流行の兆し</a></li>
+	</ul>
+
+</div><div class="event">
+
+	<h3><a href="/bs/events/"><strong>イベント・セミナー情報</strong></a></h3>
+
+
+
+
+	<h4><a href="/bs/events/detail/?page=17082301">紛失・盗難・不正持ち出し・暗号化・生体認証 セキュリティ体感セミナー</a></h4>
+
+	<dl>
+		<dt>日程</dt>
+		<dd>2017年8月23日（水）</dd>
+		<dt>会場</dt>
+    <dd>株式会社大塚商会 本社 3F</dd>
+	</dl>
+
+
+	<h4><a href="/bs/events/detail/?page=17082401">＜販売店様向け＞<br>9月19日販売開始！<br>「i-FILTER」と「m-FILTER」で社内外の脅威防ぐ！</a></h4>
+
+	<dl>
+		<dt>日程</dt>
+		<dd>2017年8月24日（木）</dd>
+		<dt>会場</dt>
+    <dd>オンラインセミナー</dd>
+	</dl>
+
+
+	<h4><a href="/bs/events/detail/?page=17082501">NCA 10th Anniversary Conference「絆」</a></h4>
+
+	<dl>
+		<dt>日程</dt>
+		<dd>2017年8月23日（水）～25日（金）</dd>
+		<dt>会場</dt>
+    <dd>ヒューリックホール＆カンファレンス</dd>
+	</dl>
+
+
+	<h4><a href="/bs/events/detail/?page=17090701"><small style="letter-spacing:-0.08rem;">デジタルアーツ主催／ダイワボウ情報システム共催</small><br>ランサムウェア対策セミナー</a></h4>
+
+	<dl>
+		<dt>日程</dt>
+		<dd>徳島会場：2017年8月23日（水）<br>高知会場：2017年8月24日（木）<br>愛媛会場：2017年9月 1日（金）<br>鳥取会場：2017年9月 5日（火）<br>島根会場：2017年9月 7日（木）</dd>
+		<dt>会場</dt>
+    <dd>徳島会場：徳島グランヴィリオホテル<br>高知会場：ザ･クラウンパレス新阪急高知<br>愛媛会場：ひめぎんホール<br>鳥取会場：鳥取商工会議所<br>島根会場：松江商工会議所</dd>
+	</dl>
+
+
+	<h4><a href="/bs/events/detail/?page=17082502">＜エンドユーザー様向け＞<br>9月19日販売開始！<br>次バージョンの「i-FILTER」と「m-FILTER」で社内外の脅威防ぐ！</a></h4>
+
+	<dl>
+		<dt>日程</dt>
+		<dd>2017年8月25日（金）</dd>
+		<dt>会場</dt>
+    <dd>オンラインセミナー</dd>
+	</dl>
+
+
+        
+</div><div class="media">
+
+	<h3><a href="/company/media/"><strong>メディア掲載情報</strong></a></h3>
+
+	<h4><span class="iconBlank"><a rel="nofollow" href="https://www.weeklybcn.com/journal/explanation/detail/20170629_156751.html" target="_blank">デジタルアーツ　東日本パートナー総会2017</a></span></h4>
+
+	<dl>
+		<dt>媒体</dt>
+		<dd>週刊BCN＋</dd>
+	</dl>
+
+</div><div>
+	<p class="mt30"><a href="http://privacymark.jp/" target="_blank"><img src="/privacy/common/images/pmark.gif" width="75" height="75" alt="たいせつにしますプライバシー" /></a></p>
+
+</div>       
+
+			</div>
+
+		</div>
+
+		<!-- ************* footerArea::Start ************* -->
+		<div id="footer">
+
+	<p id="backTotop"><a href="javascript:void(0);"><img src="/common/images/footer/totop.png" width="50" height="50" alt="このページの先頭へ" /></a></p>
+
+	<section>
+
+		<p class="logo"><a href="http://www.daj.jp/"><img src="/common/images/footer/da.png" width="100" height="25" alt="Digital Arts Inc." /></a></p>
+
+		<dl class="home">
+			<dt><a href="http://www.daj.jp/">HOME</a></dt>
+		</dl>
+
+		<dl class="support">
+			<dt><a href="/support/">サポート</a></dt>
+		</dl>
+
+		<dl class="bs">
+			<dt><a href="/bs/">企業・官公庁のお客様</a></dt>
+			<dd><a href="/bs/product/">製品・サービス</a>
+				<ul>
+					<li>・<a href="/bs/i-filter/">i-FILTER</a></li>
+					<li>・<a href="/bs/ifb/">i-FILTER ブラウザー＆クラウド</a></li>
+					<li>・<a href="/bs/mf/">m-FILTER</a></li>
+					<li>・<a href="/bs/ma/">m-FILTER MailAdviser</a></li>
+					<li>・<a href="/bs/dspa/">D-SPA</a></li>
+					<li>・<a href="http://www.finalcode.com/jp/" target="_blank">FinalCode</a></li>
+					<li>・<a href="/bs/cloud/">アライアンス・クラウドサービス</a></li>
+					<li>・<a href="/bs/alliance/">アライアンス製品</a></li>
+				</ul>
+			</dd>
+			<dd><a href="/bs/case/">導入事例</a></dd>
+			<dd><a href="/bs/purchase/">ご購入について</a></dd>
+			<dd><a href="/bs/faq/">よくある質問</a></dd>
+			<dd><a href="/bs/inquiry/">お問い合わせ</a></dd>
+		</dl>
+
+		<dl class="es">
+			<dt><a href="/es/">学校関係のお客様</a></dt>
+			<dd><a href="/es/product/" rel="nofollow">製品・サービス</a>
+				<ul>
+					<li>・<a href="/es/i-filter/" rel="nofollow">i-FILTER</a></li>
+					<li>・<a href="/es/ifb/" rel="nofollow">i-FILTER ブラウザー＆クラウド</a></li>
+					<li>・<a href="/es/mf/" rel="nofollow">m-FILTER</a></li>
+					<li>・<a href="/es/ma/">m-FILTER MailAdviser</a></li>
+					<li>・<a href="/es/dspa/" rel="nofollow">D-SPA</a></li>
+					<li>・<a href="http://www.finalcode.com/jp/" target="_blank">FinalCode</a></li>
+					<li>・<a href="/es/cloud/" rel="nofollow">アライアンス・クラウドサービス</a></li>
+					<li>・<a href="/es/alliance/" rel="nofollow">アライアンス製品</a></li>
+				</ul>
+			</dd>
+			<dd><a href="/es/case/" rel="nofollow">導入事例</a></dd>
+			<dd><a href="/es/purchase/" rel="nofollow">ご購入について</a></dd>
+			<dd><a href="/es/faq/" rel="nofollow">よくある質問</a></dd>
+			<dd><a href="/es/inquiry/" rel="nofollow">お問い合わせ</a></dd>
+		</dl>
+
+		<dl class="cs">
+			<dt><a href="/cs/" target="_blank">個人のお客様<small>（i-フィルター）</small></a></dt>
+		</dl>
+
+		<dl class="partner">
+			<dt><a href="/partner/">パートナー様</a></dt>
+			<dd><a href="/partner/bpp/">パートナープログラムのご紹介</a></dd>
+			<dd><a href="/partner/strength/">当社の強み</a></dd>
+			<dd><a href="/partner/dabp_site/">会員サイトのご案内</a></dd>
+			<dd><a href="/partner/bpp_inst/">プログラムの入会手順</a></dd>
+			<dd><a href="/partner/partnerlist/">パートナー様検索</a></dd>
+		</dl>
+
+		<dl class="company">
+			<dt><a href="/company/">企業情報</a></dt>
+		</dl>
+
+		<dl class="csr">
+			<dt><a href="/csr/">CSR</a></dt>
+		</dl>
+
+		<dl class="ir">
+			<dt><a href="/ir/">株主・投資家向け情報</a></dt>
+		</dl>
+  
+		<dl class="jobs">
+			<dt><a href="http://jobs.daj.jp/" target="_blank">採用情報</a></dt>
+		</dl>
+
+		<dl class="contact">
+			<dt><a href="/contact/">お問い合わせ</a></dt>
+		</dl>
+
+		<div id="srchBox">
+
+			<form action="/search/" method="get" id="srch">
+				<div id="srchForm">
+					<table>
+						<tr>
+							<td><input type="text" name="p" id="srchInput" /></td>
+							<td><input type="image" src="/common/images/footer/search.gif" alt="検索" id="srchBtn" /> </td>
+						</tr>
+					</table>
+					<input type="hidden" id="fr" name="fr" value="cse" />
+					<input type="hidden" id="ei" name="ei" value="UTF-8" />
+					<input type="hidden" id="csid" name="csid" value="lDLcJONTb7Kgo_OyXfUfQ1zFkRHbKrMnrhW368nqHBDfbmY-" />
+				</div>
+			</form>
+
+			<p id="srchLogo"><a href="http://www.yahoo.co.jp/" target="_blank">powered by Yahoo! JAPAN</a></p>
+
+			<img src="http://custom.search.yahoo.co.jp/images/window/lDLcJONTb7Kgo_OyXfUfQ1zFkRHbKrMnrhW368nqHBDfbmY-.gif" />
+
+		</div><!-- / #srchBox -->
+  
+		<div id="fbLink">
+			<a href="https://www.facebook.com/DigitalArts.Japan" target="_blank">公式Facebookページ</a>
+		</div>
+
+		<div id="enLink">
+			<a href="/en/">English</a>
+		</div>
+
+		
+		<aside>
+
+			<ul>
+				<li><a href="/sitemap/">サイトマップ</a></li><li><a href="/sitepolicy/">商標・ロゴ及びサイトご利用上の注意</a></li><li><a href="/privacy/">個人情報保護方針</a></li>
+			</ul>  
+
+			<p>Copyright &copy; 2017 Digital Arts Inc.</p>
+
+		</aside>
+
+	</section>
+
+</div>
+
+		<!-- ************* footerArea::End *************** -->
+
+	</div>
+
+	<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-12542238-1");
+pageTracker._setDomainName("none");
+pageTracker._setAllowLinker(true);
+pageTracker._trackPageview();
+pageTracker._setVar('');
+pageTracker._setCustomVar(1, '__daTrack', '', 2);
+} catch(err) {}</script>
+
+
+<!-- Retargeting [Yahoo] -->
+<script type="text/javascript" language="javascript">
+/* <![CDATA[ */
+var yahoo_retargeting_id = 'LNQ6KAK57L';
+var yahoo_retargeting_label = '';
+/* ]]> */
+</script>
+<script type="text/javascript" language="javascript" src="//b92.yahoo.co.jp/js/s_retargeting.js"></script>
+
+<!-- Retargeting [Google] -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 968196142;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/968196142/?value=0&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+
+	<script type="text/javascript">
+(function() {
+  var didInit = false;
+  function initMunchkin() {
+    if(didInit === false) {
+      didInit = true;
+      Munchkin.init('037-MCX-531', {"domainLevel":2});
+    }
+  }
+  var s = document.createElement('script');
+  s.type = 'text/javascript';
+  s.async = true;
+  s.src = '//munchkin.marketo.net/munchkin.js';
+  s.onreadystatechange = function() {
+    if (this.readyState == 'complete' || this.readyState == 'loaded') {
+      initMunchkin();
+    }
+  };
+  s.onload = initMunchkin;
+  document.getElementsByTagName('head')[0].appendChild(s);
+})();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,408 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta name="Description" content="人・街・未来、響きあう感動" />
+<meta name="Keywords" content="創る、挑む、感じる。
+明日を創造 私たちは、大地と海と都市空間に、豊かで潤いある人間環境を創造します。
+常に挑戦 私たちは、限りない知恵と情熱を結集し、新たな可能性に挑戦します。
+一緒に感動 私たちは、お客様の心に響くサービスを誇りとし、働く感動と人生の幸せを追求します。" />
+
+<!-- link rel="stylesheet" type="text/css" href="/wp-content/themes/uekigumi/style/jshowoff.css"  media="screen,print" / -->
+<link rel="stylesheet" type="text/css" href="/wp-content/themes/uekigumi/style/style.css"  media="screen,print" />
+<link rel="stylesheet" type="text/css" href="/wp-content/themes/uekigumi/style/03_custom.css"  media="screen" />
+<link rel="stylesheet" type="text/css" href="/wp-content/themes/uekigumi/style/05_print.css"  media="print" />
+
+<!-- script src="http://code.jquery.com/jquery-1.11.1.min.js"></script -->
+<!-- script type="text/javascript" src="/wp-content/themes/uekigumi/script/jquery.js"></script -->
+<!-- script type="text/javascript" src="/wp-content/themes/uekigumi/script/jquery.jshowoff.js"></script -->
+<!-- script type="text/javascript" src="/wp-content/themes/uekigumi/script/common.js"></script -->
+
+<title>株式会社植木組　人・街・未来、響きあう感動</title>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-3483206-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="植木組 &raquo; フィード" href="http://www.uekigumi.co.jp/feed/" />
+<link rel="alternate" type="application/rss+xml" title="植木組 &raquo; コメントフィード" href="http://www.uekigumi.co.jp/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/www.uekigumi.co.jp\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.6.6"}};
+			!function(a,b,c){function d(a){var c,d,e,f,g,h=b.createElement("canvas"),i=h.getContext&&h.getContext("2d"),j=String.fromCharCode;if(!i||!i.fillText)return!1;switch(i.textBaseline="top",i.font="600 32px Arial",a){case"flag":return i.fillText(j(55356,56806,55356,56826),0,0),!(h.toDataURL().length<3e3)&&(i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,65039,8205,55356,57096),0,0),c=h.toDataURL(),i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,55356,57096),0,0),d=h.toDataURL(),c!==d);case"diversity":return i.fillText(j(55356,57221),0,0),e=i.getImageData(16,16,1,1).data,f=e[0]+","+e[1]+","+e[2]+","+e[3],i.fillText(j(55356,57221,55356,57343),0,0),e=i.getImageData(16,16,1,1).data,g=e[0]+","+e[1]+","+e[2]+","+e[3],f!==g;case"simple":return i.fillText(j(55357,56835),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode8":return i.fillText(j(55356,57135),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode9":return i.fillText(j(55358,56631),0,0),0!==i.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity","unicode9"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='colorbox-theme1-css'  href='http://www.uekigumi.co.jp/wp-content/plugins/jquery-colorbox/themes/theme1/colorbox.css?ver=4.6.1' type='text/css' media='screen' />
+<link rel='stylesheet' id='contact-form-7-css'  href='http://www.uekigumi.co.jp/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.5' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.uekigumi.co.jp/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://www.uekigumi.co.jp/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var jQueryColorboxSettingsArray = {"jQueryColorboxVersion":"4.6.1","colorboxInline":"false","colorboxIframe":"false","colorboxGroupId":"","colorboxTitle":"","colorboxWidth":"false","colorboxHeight":"false","colorboxMaxWidth":"false","colorboxMaxHeight":"false","colorboxSlideshow":"false","colorboxSlideshowAuto":"false","colorboxScalePhotos":"false","colorboxPreloading":"false","colorboxOverlayClose":"false","colorboxLoop":"true","colorboxEscKey":"true","colorboxArrowKey":"true","colorboxScrolling":"true","colorboxOpacity":"0.85","colorboxTransition":"elastic","colorboxSpeed":"350","colorboxSlideshowSpeed":"2500","colorboxClose":"close","colorboxNext":"next","colorboxPrevious":"previous","colorboxSlideshowStart":"start slideshow","colorboxSlideshowStop":"stop slideshow","colorboxCurrent":"{current} of {total} images","colorboxXhrError":"This content failed to load.","colorboxImgError":"This image failed to load.","colorboxImageMaxWidth":"false","colorboxImageMaxHeight":"false","colorboxImageHeight":"false","colorboxImageWidth":"false","colorboxLinkHeight":"false","colorboxLinkWidth":"false","colorboxInitialHeight":"100","colorboxInitialWidth":"300","autoColorboxJavaScript":"","autoHideFlash":"","autoColorbox":"true","autoColorboxGalleries":"","addZoomOverlay":"","useGoogleJQuery":"","colorboxAddClassToLinks":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.uekigumi.co.jp/wp-content/plugins/jquery-colorbox/js/jquery.colorbox-min.js?ver=1.4.33'></script>
+<script type='text/javascript' src='http://www.uekigumi.co.jp/wp-content/plugins/jquery-colorbox/js/jquery-colorbox-wrapper-min.js?ver=4.6.1'></script>
+<link rel='https://api.w.org/' href='http://www.uekigumi.co.jp/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.uekigumi.co.jp/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.uekigumi.co.jp/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.6.6" />
+<link rel="stylesheet" type="text/css" href="http://www.uekigumi.co.jp/wp-content/cache/nextend/web1/n2-ss-2/n2-ss-2.css?1474597094" media="screen, print" />
+<script type="text/javascript">window.nextend={localization:{},deferreds:[],loadScript:function(url){n2jQuery.ready(function(){nextend.deferreds.push(n2.ajax({url:url,dataType:"script",cache:true,error:function(){console.log(arguments)}}))})},ready:function(cb){n2.when.apply(n2,nextend.deferreds).done(function(){cb.call(window,n2)})}};</script><script type="text/javascript" src="http://www.uekigumi.co.jp/wp-content/cache/nextend/web1/n2/n2.js?1474336654"></script>
+<script type="text/javascript" src="http://www.uekigumi.co.jp/wp-content/plugins/smart-slider-3/nextend/media/dist/nextend-frontend.min.js?1473211635"></script>
+<script type="text/javascript" src="http://www.uekigumi.co.jp/wp-content/plugins/smart-slider-3/library/media/dist/smartslider-frontend.min.js?1473211635"></script>
+<script type="text/javascript" src="http://www.uekigumi.co.jp/wp-content/plugins/smart-slider-3/library/media/plugins/type/simple/simple/dist/smartslider-simple-type-frontend.min.js?1473211635"></script>
+<script type="text/javascript">window.n2jQuery.ready((function($){window.nextend.ready(function(){new NextendSmartSliderSimple('#n2-ss-2',{"admin":false,"isStaticEdited":0,"translate3d":1,"randomize":0,"callbacks":"","align":"normal","isDelayed":0,"load":{"fade":1,"scroll":0},"playWhenVisible":1,"responsive":{"desktop":1,"tablet":1,"mobile":1,"onResizeEnabled":true,"type":"auto","downscale":1,"upscale":1,"minimumHeight":0,"maximumHeight":3000,"maximumSlideWidth":3000,"maximumSlideWidthLandscape":3000,"maximumSlideWidthTablet":3000,"maximumSlideWidthTabletLandscape":3000,"maximumSlideWidthMobile":3000,"maximumSlideWidthMobileLandscape":3000,"maximumSlideWidthConstrainHeight":0,"forceFull":0,"constrainRatio":1,"verticalOffsetSelectors":"","focusUser":0,"focusAutoplay":0,"deviceModes":{"desktopPortrait":1,"desktopLandscape":0,"tabletPortrait":1,"tabletLandscape":0,"mobilePortrait":1,"mobileLandscape":0},"normalizedDeviceModes":{"unknownUnknown":["unknown","Unknown"],"desktopPortrait":["desktop","Portrait"],"desktopLandscape":["desktop","Portrait"],"tabletPortrait":["tablet","Portrait"],"tabletLandscape":["tablet","Portrait"],"mobilePortrait":["mobile","Portrait"],"mobileLandscape":["mobile","Portrait"]},"verticalRatioModifiers":{"unknownUnknown":1,"desktopPortrait":1,"desktopLandscape":1,"tabletPortrait":1,"tabletLandscape":1,"mobilePortrait":1,"mobileLandscape":1},"minimumFontSizes":{"desktopPortrait":4,"desktopLandscape":4,"tabletPortrait":4,"tabletLandscape":4,"mobilePortrait":4,"mobileLandscape":4},"ratioToDevice":{"Portrait":{"tablet":0.7,"mobile":0.5},"Landscape":{"tablet":0,"mobile":0}},"sliderWidthToDevice":{"desktopPortrait":710,"desktopLandscape":710,"tabletPortrait":497,"tabletLandscape":0,"mobilePortrait":355,"mobileLandscape":0},"basedOn":"combined","tabletPortraitScreenWidth":800,"mobilePortraitScreenWidth":440,"tabletLandscapeScreenWidth":800,"mobileLandscapeScreenWidth":440,"orientationMode":"width_and_height","scrollFix":0,"overflowHiddenPage":0},"controls":{"scroll":0,"drag":0,"touch":"vertical","keyboard":0,"tilt":0},"lazyLoad":0,"lazyLoadNeighbor":0,"blockrightclick":0,"maintainSession":0,"autoplay":{"enabled":1,"start":1,"duration":4000,"autoplayToSlide":-1,"autoplayToSlideIndex":-1,"allowReStart":0,"pause":{"click":0,"mouse":"0","mediaStarted":0},"resume":{"click":0,"mouse":0,"mediaEnded":1,"slidechanged":0}},"layerMode":{"playOnce":0,"playFirstLayer":1,"mode":"skippable","inAnimation":"mainInEnd"},"parallax":{"enabled":1,"mobile":0,"is3D":0,"animate":1,"horizontal":"mouse","vertical":"mouse","origin":"slider","scrollmove":"both"},"initCallbacks":[],"bgAnimations":0,"mainanimation":{"type":"fade","duration":800,"delay":0,"ease":"easeOutQuad","parallax":1,"shiftedBackgroundAnimation":0},"carousel":1,"dynamicHeight":0})})}));</script></head>
+
+<body>
+<!--container START-->
+<div id="container">
+  <div id="container-inner"> 
+    
+    <!--header START-->
+    <div id="header">
+      <!-- header-title -->
+      <div id="header-title" class="clearfix">
+        <div id="header-name"><a href="/"><img src="/wp-content/themes/uekigumi/images/common_logo.gif" height="64" width="238" alt="株式会社植木組" /></a></div>
+        <div id="headernav-widget" class="menu-link">
+          <ul>
+            <li><a href="/contact">お問い合わせ</a></li>
+            <li><a href="/about_us/network/head-office/">弊社へのアクセス</a></li>
+<!--            <li><a href="/wp-content/themes/uekigumi/dummy.html">サイトマップ</a></li> -->
+          </ul>
+        </div>
+      </div> 
+
+      <!-- main-menu -->
+      <div id="main-menu" class="clearfix">
+        <div id="main-menu-inner" class="clearfix">
+          <ul>
+            <li><a href="/"><img src="/wp-content/themes/uekigumi/images/common_menu_ho.gif" height="32" width="71" alt="ホーム" /></a></li>
+            <li><a href="/service/"><img src="/images/common_menu_se.gif" height="32" width="110" alt="製品・サービス" /></a></li>
+            <li><a href="/works/"><img src="/images/common_menu_re.gif" height="32" width="90" alt="実績紹介" /></a></li>
+            <li><a href="/about_us/"><img src="/images/common_menu_in.gif" height="32" width="90" alt="企業情報" /></a></li>
+            <li><a href="/ir/"><img src="/images/common_menu_st.gif" height="32" width="148" alt="株主・投資家の皆様へ" /></a></li>
+            <li><a href="/recruit/"><img src="/images/common_menu_recruit.gif" height="32" width="86" alt="採用情報" /></a></li>
+            <li><a href="/csr/"><img src="/images/common_menu_ac.gif" height="32" width="108" alt="社会・環境活動" /></a></li>
+          </ul>
+        </div>
+        <form role="search" method="get"  action="http://www.uekigumi.co.jp/">
+          <div  id="main-menu-seach">
+            <p>
+              <input type="text" value="" name="s" id="s" width="170" />
+              <input type="image" id="searchsubmit" value="Search" src="/images/common_serch.gif" height="22" width="41" alt="検索" />
+            </p>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!--/header END-->
+<!-- home-main START-->
+<div id="home-main" class="clearfix">
+    <!-- home-main-img START-->
+    <div id="home-main-img">
+        
+<!-- Nextend Smart Slider 3 #2 - BEGIN -->
+<div id="n2-ss-2-align" class="n2-ss-align"><div class="n2-padding"><div id="n2-ss-2" class="n2-ss-slider n2notransition n2-ss-load-fade " data-minFontSizedesktopPortrait="4" data-minFontSizedesktopLandscape="4" data-minFontSizetabletPortrait="4" data-minFontSizetabletLandscape="4" data-minFontSizemobilePortrait="4" data-minFontSizemobileLandscape="4" style="font-size: 16px;" data-fontsize="16">
+        <div class="n2-ss-slider-1" style="">
+                        <div class="n2-ss-slider-2">
+                                <div class="n2-ss-slider-3" style="">
+
+                    <div data-slide-duration="0" data-id="4" class="n2-ss-slide n2-ss-canvas  n2-ss-slide-active n2-ss-slide-4" style=""><div data-hash="6e322dd0c4ee456dc05e2d09e7265817" data-desktop="//www.uekigumi.co.jp/wp-content/uploads/2016/09/home_top01.png" style="" class="n2-ss-slide-background" data-opacity="1"><img title="" style="opacity:1;" class="n2-ss-slide-background-image n2-ss-slide-fill n2-ow" data-x="50" data-y="50" src="//www.uekigumi.co.jp/wp-content/uploads/2016/09/home_top01.png" alt="" /></div><div class="n2-ss-layers-container" style=""></div></div><div data-slide-duration="0" data-id="5" class="n2-ss-slide n2-ss-canvas  n2-ss-slide-5" style=""><div data-hash="d3c6adb4c97fe447130c16045364d34a" data-desktop="//www.uekigumi.co.jp/wp-content/uploads/2016/09/home_top02.png" style="" class="n2-ss-slide-background" data-opacity="1"><img title="" style="opacity:1;" class="n2-ss-slide-background-image n2-ss-slide-fill n2-ow" data-x="50" data-y="50" src="//www.uekigumi.co.jp/wp-content/uploads/2016/09/home_top02.png" alt="" /></div><div class="n2-ss-layers-container" style=""></div></div><div data-slide-duration="0" data-id="6" class="n2-ss-slide n2-ss-canvas  n2-ss-slide-6" style=""><div data-hash="d5949ef966f325e8cb3f5fdea3e054b7" data-desktop="//www.uekigumi.co.jp/wp-content/uploads/2016/09/home_top03.png" style="" class="n2-ss-slide-background" data-opacity="1"><img title="" style="opacity:1;" class="n2-ss-slide-background-image n2-ss-slide-fill n2-ow" data-x="50" data-y="50" src="//www.uekigumi.co.jp/wp-content/uploads/2016/09/home_top03.png" alt="" /></div><div class="n2-ss-layers-container" style=""></div></div><div data-slide-duration="0" data-id="7" class="n2-ss-slide n2-ss-canvas  n2-ss-slide-7" style=""><div data-hash="ee24396a501790a0e8ebc45345f0030b" data-desktop="//www.uekigumi.co.jp/wp-content/uploads/2016/09/home_top04.png" style="" class="n2-ss-slide-background" data-opacity="1"><img title="" style="opacity:1;" class="n2-ss-slide-background-image n2-ss-slide-fill n2-ow" data-x="50" data-y="50" src="//www.uekigumi.co.jp/wp-content/uploads/2016/09/home_top04.png" alt="" /></div><div class="n2-ss-layers-container" style=""></div></div>                </div>
+            </div>
+        </div>
+        </div><div class="clear"></div><div id="n2-ss-2-spinner"><div><div class="n2-ss-spinner-simple-white-container"><div class="n2-ss-spinner-simple-white"></div></div>
+<style type="text/css">
+.n2-ss-spinner-simple-white-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -20px;
+    background: #fff;
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 50%;
+    z-index: 1000;
+}
+
+.n2-ss-spinner-simple-white {
+  outline: 1px solid RGBA(0,0,0,0);
+  width:100%;
+  height: 100%;
+}
+
+.n2-ss-spinner-simple-white:before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    margin-top: -11px;
+    margin-left: -11px;
+}
+
+.n2-ss-spinner-simple-white:not(:required):before {
+    content: '';
+    border-radius: 50%;
+    border-top: 2px solid #333;
+    border-right: 2px solid transparent;
+    animation: n2SimpleWhite .6s linear infinite;
+    -webkit-animation: n2SimpleWhite .6s linear infinite;
+}
+@keyframes n2SimpleWhite {
+    to {transform: rotate(360deg);}
+}
+
+@-webkit-keyframes n2SimpleWhite {
+    to {-webkit-transform: rotate(360deg);}
+}
+
+</style></div></div></div></div>
+<!-- Nextend Smart Slider 3 #2 - END -->
+    </div>
+    <div id="home-notification" class="category-content">
+        <a href="http://www.uekigumi.co.jp/topics2/win-award/"><img src="http://www.uekigumi.co.jp/wp-content/uploads/2016/07/winning-awards.png" alt="受賞歴をご紹介します。"></a>
+<a href="http://www.uekigumi.co.jp/topics2/site-tours/"><img src="http://www.uekigumi.co.jp/wp-content/uploads/2015/10/Visit-Sites-banner.png" alt="植木組が実施した現場・工場見学会の実績をご紹介します。"></a>
+<a href="http://www.uekigumi.co.jp/topics2/niigata-gold-tech/"><img src="http://www.uekigumi.co.jp/wp-content/uploads/2015/08/MadeInNiigataGold-98.png" alt="SRCT工法がMade in 新潟ゴールド技術に認定されました。"></a>
+<p style="text-align: left"><span style="font-size: medium"> </span></p>    </div><!--/home-main-img END-->
+</div><!--/home-main END-->
+
+<!--content START-->
+<div id="content" class="home-content"> 
+    <!-- content-inner -->
+    <div id="content-inner" class="clearfix">
+        <!-- home-content-left -->
+        <div id="home-content-left" class="clearfix">
+            <!-- home-center start-->
+            <div id="home-center">
+                <!-- home-topic start-->
+                <div id="home-topic" class="category-list">
+                    <div id="home-topic-title" class="clearfix">
+                        <h2><a href="/topics/" title="一覧"><img height="20" width="430" alt="トピックス" src="/images/home_topic.gif" /></a></h2>
+                        <!-- <a href="/wp-content/themes/uekigumi/dummy.html"><img height="20" width="43" alt="RSS" src="/images/home_rss.gif" /></a> -->
+                    </div>
+                    <div class="category-content">
+                        <div style="width:430px">
+                                                        <p>
+                                <h2>新着</h2>
+&nbsp;
+<ul>
+ 	<li><a href="http://www.uekigumi.co.jp/topics2/win-award/h29kojiseisekiyushukigyo/">平成29年度工事成績優秀企業として認定されました</a>(2017.8.1)</li>
+ 	<li><a href="http://www.uekigumi.co.jp/wp-content/uploads/2017/02/news_2017-02-13.pdf" target="_blank">組織変更及び役員の職位の変更並びに人事異動のお知らせ</a>(2017.2.13)</li>
+
+ 	<li><a href="http://www.uekigumi.co.jp/topics2/win-award/appreciation-niigata-miyagi-2016/">宮城・新潟両県から感謝状をいただきました</a>(2016.9.7)</li>
+ 	<li><a href="">平成28年度工事成績優秀企業として認定されました</a>(2016.9.5)</li>
+ 	<li><a href="http://www.uekigumi.co.jp/topics2/tour-pavementconstruction-2016aug/">舗装工事現場見学会を開催しました</a>(2016.8.26)</li>
+ 	<li><a href="http://www.uekigumi.co.jp/topics2/house-sale-sakura/">住宅販売会開催のお知らせ</a>(2016.5.16)</li>
+ 	<li><a href="http://www.uekigumi.co.jp/wp-content/uploads/2016/05/Personnel-Changes-Directors-20160512.pdf" target="_blank">代表取締役および役員の異動に関するお知らせ</a>(2016.5.12)</li>
+ 	<li><a href="http://www.uekigumi.co.jp/wp-content/uploads/2016/05/Ueki-MMP2016-2018.pdf" target="_blank">中期経営計画の策定に関するお知らせ</a>(2016.5.12)</li>
+ 	<li><a href="http://www.uekigumi.co.jp/wp-content/uploads/2016/03/20160318-Fudosan-Hometerior-merge.pdf" target="_blank">完全子会社間の合併に関するお知らせ</a>(2016.3.18)</li>
+ 	<li><a href="http://www.uekigumi.co.jp/wp-content/uploads/2016/03/PersonnelChange_2016-03-03.pdf" target="_blank">人事異動に関するお知らせ</a>(2016.3.3)</li>
+ 	<li><a href="http://www.uekigumi.co.jp/wp-content/uploads/2016/02/PersonnelChange_2016-02-09.pdf" target="_blank">人事異動に関するお知らせ</a>(2016.2.9)</li>
+ 	<li><a href="http://www.uekigumi.co.jp/ir/files/2011/04/965a87f838aa1e292884dbbfc034a4bc.pdf" target="_blank">業績予想及び配当予想の修正のお知らせ</a>(2016.2.4)</li>
+</ul>
+<div align="right"><a href="http://www.uekigumi.co.jp/topics2/old-news/">（→ 過去のお知らせ）</a></div>                            </p>
+                            <h2>ＩＲ情報</h2><br>
+                            <ul><li><a href="http://www.uekigumi.co.jp/ir/2017/08/04/%e5%b9%b3%e6%88%9030%e5%b9%b43%e6%9c%88%e6%9c%9f%e7%ac%ac71%e6%9c%9f%e3%80%80%e7%ac%ac%ef%bc%91%e5%9b%9b%e5%8d%8a%e6%9c%9f%e6%b1%ba%e7%ae%97%e7%9f%ad%e4%bf%a12017%e5%b9%b48%e6%9c%884%e6%97%a5/" title="2017年8月4日付けで発表した平成30年3月期(第70期)第１四半期決算短信です。 第１四半期決算短信">平成30年3月期（第71期）　第１四半期決算短信(2017年8月4日発表)</a></li><li><a href="http://www.uekigumi.co.jp/ir/2017/05/11/%e5%b9%b3%e6%88%9029%e5%b9%b43%e6%9c%88%e6%9c%9f%ef%bc%88%e7%ac%ac70%e6%9c%9f%ef%bc%89%e3%80%80%e6%b1%ba%e7%ae%97%e7%9f%ad%e4%bf%a12017%e5%b9%b45%e6%9c%8811%e6%97%a5%e7%99%ba%e8%a1%a8/" title="2017年5月11日付けで発表した平成29年3月期(第70期)決算短信です。 平成29年3月期(第70期)決算短信(全文)">平成29年3月期（第70期）　決算短信 (2017年5月11日発表)</a></li><li><a href="http://www.uekigumi.co.jp/ir/2017/02/03/%e5%b9%b3%e6%88%9029%e5%b9%b43%e6%9c%88%e6%9c%9f%ef%bc%88%e7%ac%ac70%e6%9c%9f%ef%bc%89%e3%80%80%e7%ac%ac3%e5%9b%9b%e5%8d%8a%e6%9c%9f%e6%b1%ba%e7%ae%97%e7%9f%ad%e4%bf%a1%ef%bc%882017%e5%b9%b42%e6%9c%88/" title="2017年2月3日付で発表した平成29年3月期（第70期）第3四半期決算短信です。 第3四半期決算短信">平成29年3月期（第70期）　第３四半期決算短信（2017年2月3日発表）</a></li><li><a href="http://www.uekigumi.co.jp/ir/2016/11/07/%e5%b9%b3%e6%88%9029%e5%b9%b43%e6%9c%88%e6%9c%9f%ef%bc%88%e7%ac%ac70%e6%9c%9f%ef%bc%89%e3%80%80%e7%ac%ac%ef%bc%92%e5%9b%9b%e5%8d%8a%e6%9c%9f%e6%b1%ba%e7%ae%97%e7%9f%ad%e4%bf%a1%ef%bc%882016%e5%b9%b411/" title="2016年11月7日付で発表した平成29年3月期（第70期）第2四半期決算短信です。 第2四半期決算短信">平成29年3月期（第70期）　第２四半期決算短信（2016年11月7日発表）</a></li><li><a href="http://www.uekigumi.co.jp/ir/2016/08/04/%e5%b9%b3%e6%88%9029%e5%b9%b43%e6%9c%88%e6%9c%9f%ef%bc%88%e7%ac%ac70%e6%9c%9f%ef%bc%89%e3%80%80%e7%ac%ac%ef%bc%91%e5%9b%9b%e5%8d%8a%e6%9c%9f%e6%b1%ba%e7%ae%97%e7%9f%ad%e4%bf%a1%ef%bc%882016%e5%b9%b48/" title="2016年8月4日付で発表した平成29年3月期（第70期）第１四半期決算短信です。 第１四半期決算短信">平成29年3月期（第70期）　第１四半期決算短信（2016年8月4日発表）</a></li></ul>                        </div>
+                    </div>
+                </div><!-- home-topic end-->
+
+                <!-- home-new start-->
+                <div id="home-new" class="category-list">
+                    <div id="home-new-title" class="clearfix">
+      <!--                <h2><a href="/wp-content/themes/uekigumi/dummy.html" title="一覧"><img height="20" width="380" alt="新着情報" src="/wp-content/themes/uekigumi/images/home_new.gif" /></a></h2> -->
+                      <!-- <a href="/wp-content/themes/uekigumi/dummy.html"><img height="20" width="43" alt="RSS" src="/wp-content/themes/uekigumi/images/home_rss.gif" /></a> -->
+                    </div>
+                    <div class="category-content">
+                        <dl>
+                                                    </dl>
+                    </div> 
+                </div><!-- home-new end -->
+            </div><!-- home-center  end -->
+
+            <!-- home-left start -->
+            <div id="home-left">
+                <!-- home_service start -->
+                <div id="home-service" class="side-menu">
+
+                    <div id="home-service-title">
+                        <h2><a title="一覧" href="/service/"><img src="/images/home_service.gif" alt="製品・サービス" width="200" height="20" /></a></h2>
+                    </div>
+                    <div class="side-menu-content list-img">
+                        <div class="menu-link_service-container"><ul id="menu-link_service" class="menu"><li id="menu-item-1952" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1952 has-image"><a href="http://www.uekigumi.co.jp/service/index/prem/"><img width="200" height="50" src="http://www.uekigumi.co.jp/wp-content/uploads/2016/09/home_service_we-2.jpg" class="attachment-full size-full colorbox-  wp-post-image" alt="ウエキデザインビルドシリーズ" title="ウエキデザインビルドシリーズ" /></a></li>
+<li id="menu-item-1953" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1953 has-image"><a href="http://www.uekigumi.co.jp/service/#3"><img width="200" height="50" src="http://www.uekigumi.co.jp/wp-content/uploads/2016/09/home_service_co-1.jpg" class="attachment-full size-full colorbox-  wp-post-image" alt="建築ソリューション" title="建築ソリューション" /></a></li>
+<li id="menu-item-1954" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1954 has-image"><a href="http://www.uekigumi.co.jp/service/#2"><img width="200" height="50" src="http://www.uekigumi.co.jp/wp-content/uploads/2016/09/home_service_en-1.jpg" class="attachment-full size-full colorbox-  wp-post-image" alt="環境・安全対策商品" title="環境・安全対策商品" /></a></li>
+<li id="menu-item-1955" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1955 has-image"><a href="http://www.uekigumi.co.jp/service/#4"><img width="200" height="50" src="http://www.uekigumi.co.jp/wp-content/uploads/2016/09/home_service_wo-1.jpg" class="attachment-full size-full colorbox-  wp-post-image" alt="土木系技術" title="土木系技術" /></a></li>
+<li id="menu-item-1956" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1956 has-image"><a href="http://www.uekigumi.co.jp/service/#5"><img width="200" height="50" src="http://www.uekigumi.co.jp/wp-content/uploads/2016/09/home_service_el-1.jpg" class="attachment-full size-full colorbox-  wp-post-image" alt="高齢者福祉対応マンション" title="高齢者福祉対応マンション" /></a></li>
+</ul></div>                                            </div>
+                </div>
+                <!-- home_service end -->
+                
+                <!-- home-results start -->
+                <!--            <div id="home-results" class="side-menu">
+                              <div id="home-results-title">
+                                <h2><a href="/works/" title="一覧"><img src="/images/home_results.gif" alt="実績紹介" width="200" height="20" /></a></h2>
+                              </div>
+                              <div class="side-menu-line list-img">
+                                <ul>  -->
+                <!--                </ul>
+                              </div>
+                            </div>
+                <!-- home-results end -->
+
+                <!-- home_service start -->
+                <!--            <div id="home-service" class="side-menu"> -->
+                <div class="side-menu-line-grid list-text">
+                    <div class="t-title-grid" align="center"><b>目的から検索</b></div>
+                    <li id="text-3" class="widget-container widget_text">			<div class="textwidget"><ul>
+<li class="t-grid"><a href="/service/index/prem/" title="資産活用、事業企画をお手伝いします。 ">資産運営・事業企画</a>
+資産活用、事業企画をお手伝いします。 </li>
+<li class="t-grid"><a href="/service/index/solution/pics/" title="施設の長期運用をお手伝いします。 ">建物再生</a>
+施設の長期運用をお手伝いします。 </li>
+<li class="t-grid"><a href="/service/#2" title="次の世代のために建設業が担う役割を果たします。 ">エコ・環境対策</a>
+次の世代のために建設業が担う役割を果たします。 </li>
+<li class="t-grid"><a href="/service/index/solution/taisin/" title="地震対策を考えます。 ">耐震・補強</a>
+地震対策を考えます。 </li>
+</ul></div>
+		</li>                                        <!--              </div> -->
+                </div>
+                <!-- home_service end -->
+
+            </div><!-- home-left end -->
+        </div><!-- home-content-left end -->
+
+        <!-- home-content-right -->
+        <div id="home-content-right" class="menu-link">
+            <!-- home-right -->
+            <div id="home-right">
+                <!-- home-info start -->
+                <!--            <div id="home-info" class="side-menu">
+                              <div id="home-info-title">
+                                <h2><a href="/about_us" title="一覧"><img src="/images/home_info.gif" alt="企業情報"  width="200" height="20" /></a></h2>
+                              </div>
+                              <div class="side-menu-line list-text">
+                                <ul> -->
+                <!--                </ul>
+                              </div>
+                            </div><!-- home-info end -->
+
+                <!-- home-stockholder start-->
+                <div id="home-stockholder" class="side-menu">
+                    <div id="home-stockholder-title">
+                        <h2><a href="/ir/" title="一覧"><img height="19" width="200" alt="株主・投資家の皆様へ" src="/images/home_stockholder.gif" /></a></h2>
+                    </div>
+                    <div class="side-menu-line list-text">
+                        <ul>
+                            <li class="page_item page-item-7"><a href="http://www.uekigumi.co.jp/ir/index/youhou/">有価証券報告書</a></li>
+<li class="page_item page-item-52"><a href="http://www.uekigumi.co.jp/ir/index/4qreport/">決算短信・四半期決算短信</a></li>
+<li class="page_item page-item-57"><a href="http://www.uekigumi.co.jp/ir/index/tosho/">東証適時開示情報</a></li>
+<li class="page_item page-item-60"><a href="http://www.uekigumi.co.jp/ir/index/e-koukoku/">電子公告</a></li>
+<li class="page_item page-item-898"><a href="http://www.uekigumi.co.jp/ir/index/stockholder-benefits/">株主優待制度</a></li>
+<li class="page_item page-item-1137"><a href="http://www.uekigumi.co.jp/ir/index/general-meeting/">株主総会資料</a></li>
+                        </ul>
+                    </div>
+                </div><!-- home-stockholder end-->
+                <!-- home-banner start-->
+                <div id="home-banner" class="side-menu">
+                    <div id="home-banner-content" class="side-menu-content">
+                        <div class="menu-link_banner-container"><ul id="menu-link_banner" class="menu"><li id="menu-item-1942" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1942 has-image"><a href="http://www.uekigumi.co.jp/recruit/"><img width="200" height="50" src="http://www.uekigumi.co.jp/wp-content/uploads/2016/09/home_rb_employment.jpg" class="attachment-full size-full colorbox-  wp-post-image" alt="採用情報" title="採用情報" /></a></li>
+<li id="menu-item-1943" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1943 has-image"><a href="http://www.uekigumi.co.jp/csr/"><img width="200" height="50" src="http://www.uekigumi.co.jp/wp-content/uploads/2016/09/home_rb_social.jpg" class="attachment-full size-full colorbox-  wp-post-image" alt="社会・環境活動" title="社会・環境活動" /></a></li>
+<li id="menu-item-2196" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2196 has-image"><a href="http://www.uekigumi.co.jp/quality-environment-policy/"><img width="200" height="50" src="http://www.uekigumi.co.jp/wp-content/uploads/2017/06/home_rb_quality.png" class="attachment-full size-full colorbox-  wp-post-image" alt="品質・環境方針" title="品質・環境方針" /></a></li>
+</ul></div>                                            </div>
+                </div><!-- home-banner end -->
+
+                <!-- home-cooperation start-->
+                <div id="home-cooperation" class="side-menu">
+                    <div id="home-cooperation-title">
+                        <h2><img height="19" width="200" alt="協力会社の皆様へ" src="/images/home_cooperation.gif" /></h2>
+                    </div>
+                    <div class="side-menu-line list-text">
+                        <div class="menu-link_cooperation-2-container"><ul id="menu-link_cooperation-2" class="menu"><li id="menu-item-1947" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1947"><a href="http://www.uekigumi.co.jp/dl2/">協力会社提出書類等</a></li>
+<li id="menu-item-1951" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1951"><a href="http://www.uekigumi.co.jp/invoice-format/">指定請求書ダウンロード</a></li>
+<li id="menu-item-1949" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1949"><a href="http://www.uekigumi.co.jp/new-transaction/">新規取引業者用ダウンロード</a></li>
+<li id="menu-item-1950" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1950"><a href="http://www.uekigumi.co.jp/handling-invoices/">消費税率引上げに伴う請求書の取扱いにつきまして</a></li>
+</ul></div>                                            </div>
+                </div><!-- home-cooperation end-->
+            </div>
+        </div>
+    </div>
+      <!-- content-footer -->
+      <div id="content-footer">
+<!--      <div id="common-footer"> -->
+        <!-- footer-address -->
+         <div id="footer-address" class="menu-link clearfix">
+          <p>株式会社植木組</p>
+          <dl>
+            <dt>本社</dt>
+            <dd>〒945-8540&nbsp;新潟県柏崎市新橋2-8(<a href="/about_us/network/head-office/">&nbsp;地図&nbsp;</a>)&nbsp;電話&nbsp;0257-23-2200</dd>
+            <dt>新潟本店</dt>
+            <dd>〒940-0065&nbsp;新潟県長岡市坂之上町3丁目4番6号(<a href="/about_us/network/nagaoka-branch/">&nbsp;地図&nbsp;</a>)&nbsp;電話&nbsp;0258-37-3300</dd>
+            <dt>東京本店</dt>
+            <dd>〒101-0042&nbsp;東京都千代田区神田東松下町41-2(<a href="/about_us/network/tokyo-branch/">&nbsp;地図&nbsp;</a>)&nbsp;電話&nbsp;03-3254-6165</dd>
+          </dl>
+          <ul>
+            <li><a href="/about_us">会社概要</a></li>
+            <li><a href="/about_us/network">事業所一覧</a></li>
+          </ul>            
+        </div>
+      </div>
+      <!--/content END-->
+    </div>
+</div><!--content END-->
+
+<!--container START-->
+<!-- <div id="container"> -->
+    <!-- footer START-->
+    <div id="footer" class="home-footer"> 
+      <div id="home-footer-space">&nbsp;</div>
+      <div id="home-footer-inner" class="clearfix">
+        <!-- footer-menu -->
+        <div id="footer-menu">
+          <ul>
+            <li><a href="/contact">お問い合わせ</a></li>
+            <li><a href="/security">情報セキュリティ基本方針</a></li>
+            <li><a href="/privacy">個人情報の取り扱いについて</a></li>
+<!--            <li><a href="/wp-content/themes/uekigumi/dummy.html">サイトマップ</a></li> -->
+          </ul>
+        </div>
+        <!-- copyright -->
+        <div id="copyright">
+          <p>Copyright &copy; UEKI Corporation. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+    <!--/footer END--> 
+</div>
+<!--/container END-->
+<script type='text/javascript' src='http://www.uekigumi.co.jp/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.51.0-2014.06.20'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/www.uekigumi.co.jp\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","recaptcha":{"messages":{"empty":"\u3042\u306a\u305f\u304c\u30ed\u30dc\u30c3\u30c8\u3067\u306f\u306a\u3044\u3053\u3068\u3092\u8a3c\u660e\u3057\u3066\u304f\u3060\u3055\u3044\u3002"}},"sending":"\u9001\u4fe1\u4e2d ..."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.uekigumi.co.jp/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.5'></script>
+<script type='text/javascript' src='http://www.uekigumi.co.jp/wp-includes/js/wp-embed.min.js?ver=4.6.6'></script>
+</body>
+</html>

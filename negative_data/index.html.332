@@ -1,0 +1,453 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja-JP" lang="ja-JP">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Description" content="私たち（株）サイネックスは人と地域に寄り添った【暮らしに役立つ生活情報】をオリジナリティあふれるメディアによって発信。ふれあいの本質を見つめ続けています。" />
+<meta http-equiv="Keywords" content="株式会社サイネックス" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/JavaScript" />
+<title>株式会社サイネックス</title>
+<link rel="start" title="株式会社サイネックス" href="http://www.scinex.co.jp/" />
+<link rel="shortcut icon" href="./common/img/favicon.ico" />
+<link rel="stylesheet" type="text/css" href="./common/css/style.css" />
+<link rel="stylesheet" type="text/css" href="./css/top.css" />
+<link rel="stylesheet" type="text/css" href="./css/ipadtop.css" media="only screen and (max-device-width: 1100px)" />
+<script type="text/javascript" src="./common/js/styleswitcher.js"></script>
+<script type="text/javascript" src="./common/js/swfobject.js"></script> 
+<link rel="stylesheet" href="./common/css/font.css" type="text/css" title="Default" />
+<link rel="alternate stylesheet" href="./common/css/font2.css" type="text/css" title="Middle" />
+<link rel="alternate stylesheet" href="./common/css/font3.css" type="text/css" title="Large" />
+<!--[if lte IE 6]>
+<script type="text/javascript" src="./common/js/DD_belatedPNG.js"></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix( '.pngHack');
+</script>
+<![endif]-->
+<script type="text/javascript">
+	var flashvars = {
+	};
+	var params = {
+		menu: "false",
+		scale: "noScale",
+		wmode: "transparent"
+	};
+	var attributes = {
+	};
+	swfobject.embedSWF("top.swf", "Flash", "100%", "654px", "9.0.0", "", flashvars, params, attributes);
+</script>
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-34519663-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<script type="text/javascript">
+if (document.referrer.indexOf('scinex') == -1 && 
+((navigator.userAgent.indexOf('iPhone') > 0 && 
+navigator.userAgent.indexOf('iPad') == -1) || 
+navigator.userAgent.indexOf('iPod') > 0 || 
+navigator.userAgent.indexOf('Android') > 0 && navigator.userAgent.indexOf('Mobile') > 0) ) {
+location.href = 'http://scinex.sphn.jp' + location.pathname;}
+</script>
+</head>
+
+<body id="Index">
+	<div id="Flash"><img src="img/top/flash_image.jpg?elx_nc=1" width="1100" height="654" alt="本サイトをご覧頂くには最新のFlash playerプラグインが必要です。 画面が表示されない、または正しく動作しない場合は、インストールされてないかバージョンが古いことが考えられます。最新のプレーヤーをダウンロードしてから本サイトをご覧いただくことをおすすめします。"></div>
+	<div id="Wrap">
+		<div id="Head" class="pngHack">
+			<h1><a href="./index.html" class="pngHack"><span>株式会社サイネックス</span></a></h1>
+			<div id="HeadMenu">
+				<ul id="hMenu">
+				<li class="hl1"><a href="./index.html" title="トップページへ"><span>ホーム</span></a></li>
+				<li class="hl2"><a href="./ask.html" title="お問い合わせ"><span>お問い合わせ</span></a></li>
+				<li class="hl3"><a href="./sitemap.html" title="サイトマップ"><span>サイトマップ</span></a></li>
+				</ul>
+			</div><!--/HeadMenu-->
+			<div id="Search">
+				<div id="SearchArea"><form name="form1" method="get" action="/search/index.html" id="cse-search-box" accept-charset="" onsubmit="return searchKeyCheck();" style="display:inline;"><input type="hidden" name="cx" value="007243586401050766062:ivzcvsle14e"><input type="hidden" name="cof" value="FORID:10"><input type="hidden" name="ie" value="UTF-8"><input type="text" name="q" id="query" class="in1" style="border:none;"><input type="image" value="submit" src="./common/img/bt_search.gif" alt="サイト内検索" class="in2"></form><script type="text/javascript" src="http://www.google.com/cse/brand?form=cse-search-box&lang=ja"></script></div>
+			</div>
+			<div id="WordMenu">
+				<ul id="wMenu">
+				<li class="wl1"><a href="#" onClick="setActiveStyleSheet('Default'); return false;" onFocus="this.blur();" title="文字サイズを小にする"><span>小</span></a></li>
+				<li class="wl2"><a href="#" onClick="setActiveStyleSheet('Middle'); return false;" onFocus="this.blur();" title="文字サイズを中にする"><span>中</span></a></li>
+				<li class="wl3"><a href="#" onClick="setActiveStyleSheet('Large'); return false;" onFocus="this.blur();" title="文字サイズを大にする"><span>大</span></a></li>
+				</ul>
+			</div><!--/WordMenu-->
+			<div id="MainMenu">
+				<ul id="mMenu">
+				<li class="gl1"><a href="./company/" title="会社案内" class="pngHack"><span>会社案内</span></a></li>
+				<li class="gl2"><a href="./business/" title="事業案内" class="pngHack"><span>事業案内</span></a></li>
+				<li class="gl3"><a href="./ir/" title="IR・投資家情報" class="pngHack"><span>IR・投資家情報</span></a></li>
+				<li class="gl4"><a href="./news/" title="ニュースリリース" class="pngHack"><span>ニュースリリース</span></a></li>
+				<li class="gl5"><a href="./careers/" title="採用情報" class="pngHack"><span>採用情報</span></a></li>
+				</ul>
+			</div><!--/MainMenu-->
+		</div><!--/Head-->
+
+		<div id="TitleArea">
+			<h2><span>地方から国を変える</span></h2>
+		</div>
+
+		<div id="Main" class="cF">
+			<div id="Contents">
+				<div class="Support">
+				<p><img src="img/top/top_support2.jpg?elx_nc=1" width="680" alt=""/></p>
+				</div>
+				<div class="Company ">
+				<div class="ContentsBox">
+					<div class="cTop">
+						<h3 class="pngHack"><span>官民協働事業のパイオニア</span></h3>
+						<div class="detail"><a href="./company/strategy.html" title="詳細はこちら"><span>詳細はこちら</span></a></div>
+					</div>
+					<div class="cBox pngHack">
+						<div><img src="img/top/figure_company.gif?elx_nc=1" width="624" height="320" alt="" /></div>
+					</div>
+					<div class="cFoot"><span>官民協働事業のパイオニアここまで</span></div>
+				</div><!-- /ContentsBox -->
+				</div><!-- /Company -->
+				
+				<div class="Topics">
+				<div class="ContentsBox">
+					<div class="cTop">
+						<h3 class="pngHack"><span>トピックス</span></h3>
+						<div class="detail"><a href="./topics/" title="一覧はこちら"><span>一覧はこちら</span></a></div>
+					</div>
+					<div class="cBox ft12l">
+					<div id="TopicsArea">
+						
+						<dl>
+						<dt>2017/05/31</dt>
+						<dd><a href="topics/topics170531.html">「自治体総合フェア2017」に出展しました。</a></dd>
+						</dl>
+						<dl>
+						<dt>2017/05/22</dt>
+						<dd><a href="topics/topics170522.html">「自治体総合フェア2017」に出展します。（2017年5月24日（水）～26日（金））</a></dd>
+						</dl>
+						<dl>
+						<dt>2017/02/03</dt>
+						<dd><a href="topics/topics170203.html">松阪西部商工会が実施するふるさと納税セミナーで講師を務めました。</a></dd>
+						</dl>
+						<dl>
+						<dt>2017/01/17</dt>
+						<dd><a href="topics/topics170117.html">代表取締役社長村田吉優が、伊勢度会地域商工会新春賀詞交歓会で、講演をおこないました。</a></dd>
+						</dl>
+						<dl>
+						<dt>2017/01/05</dt>
+						<dd><a href="topics/topics170105.html">グループ会社である株式会社サンマークが発行する「ナッセ熊本（特別号）」が「日本タウン誌・フリーペーパー大賞2016」特別賞を受賞いたしました。</a></dd>
+						</dl>
+						<dl>
+						<dt>2016/12/26</dt>
+						<dd><a href="topics/topics161226.html">代表取締役社長村田吉優が、東証一部指定日にストックボイスTVに出演しました。</a></dd>
+						</dl>
+						<dl>
+						<dt>2016/12/14</dt>
+						<dd><a href="topics/topics161214.html">株式会社フィスコより、当社の調査レポートが発表されました。</a></dd>
+						</dl>
+						<dl>
+						<dt>2016/11/04</dt>
+						<dd><a href="topics/topics161104_2.html">万博記念公園「太陽の塔内部再生」事業始動イベントで、寄附募集を行いました。</a></dd>
+						</dl>
+						<dl>
+						<dt>2016/11/04</dt>
+						<dd><a href="topics/topics161104.html">『よこてfunフェスタ2016』（秋田県横手市）にてふるさと納税イベントが開催されました。</a></dd>
+						</dl>
+						<dl>
+						<dt>2016/08/24</dt>
+						<dd><a href="topics/topics160824.html">池田泉州銀行の片岡会長を表敬訪問しました。</a></dd>
+						</dl>
+						<dl>
+						<dt>2016/08/22</dt>
+						<dd><a href="topics/topics160822.html">ご当地動画投稿・配信サイト『わが街プロモーション』をプレオープンしました。</a></dd>
+						</dl>
+						<dl>
+						<dt>2016/07/27</dt>
+						<dd><a href="topics/topics160727.html">デジタルサイネージ・プライベート展（主催：大日本印刷株式会社）にて「シティプロモーション支援事業」の概要が公開されました。</a></dd>
+						</dl>
+						<dl>
+						<dt>2016/07/13</dt>
+						<dd><a href="topics/topics160713.html">株式会社フィスコより、当社の調査レポートが発表されました。</a></dd>
+						</dl>
+						<!--<dl>
+						<dt>2016/04/26</dt>
+						<dd><a href="topics/topics160426.html">ふるさと納税を活用した「平成28年熊本地震」支援の当社の取組みが、日本経済新聞に掲載されました。</a></dd>
+						</dl>
+						<dl>
+						<dt>2016/03/28</dt>
+						<dd><a href="topics/topics160328_2.html">池田泉州銀行の片岡会長が来社されました。</a></dd>
+						</dl>
+						<dl>
+						<dt>2016/03/28</dt>
+						<dd><a href="topics/topics160328.html">「東証第二部上場／600自治体達成　感謝の会」を開催しました。</a></dd>
+						</dl>
+						<dl>
+						<dt>2016/02/03</dt>
+						<dd><a href="topics/topics160203.html">大分県豊後大野市の橋本祐輔市長が来社されました。</a></dd>
+						</dl>
+						<dl>
+						<dt>2016/01/27</dt>
+						<dd><a href="topics/topics160127.html">早稲田大学記念式典に出席しました。</a></dd>
+						</dl>
+						<dl>
+						<dt>2016/01/25</dt>
+						<dd><a href="topics/topics160125_2.html">暮らしの便利帳、発行自治体数600都市を突破！</a></dd>
+						</dl>
+						<dl>
+						<dt>2016/01/25</dt>
+						<dd><a href="topics/topics160125.html">草津商工会議所で「ふるさと納税勉強会」の講師を務めました。</a></dd>
+						</dl>-->
+						<!--<dl>
+						<dt>2016/01/22</dt>
+						<dd><a href="topics/topics160122.html">ふるさと寄附金制度の一括業務代行、契約自治体数が50に。</a></dd>
+						</dl>-->
+						<!--<dl>
+						<dt>2015/09/24</dt>
+						<dd><a href="topics/topics150924.html">地域活性化センターで「ふるさと納税勉強会」の講師を務めました。</a></dd>
+						</dl>-->
+						<!--<dl>
+						<dt>2015/08/18</dt>
+						<dd><a href="topics/topics150818.html">ふるさと納税の活性化支援に関して、テレビ愛知より取材を受けました。</a></dd>
+						</dl>-->
+						<!--<dl>
+						<dt>2015/07/27</dt>
+						<dd><a href="topics/topics150727.html">豊能町（大阪府豊能郡）の田中龍一町長が来社</a></dd>
+						</dl>-->
+						<!--<dl>
+						<dt>2015/06/26</dt>
+						<dd><a href="topics/topics150626.html">代表取締役社長&nbsp;村田吉優の上場日インタビュー</a></dd>
+						</dl>-->
+						<!--<dl>
+						<dt>2015/06/10</dt>
+						<dd><a href="topics/topics150610.html">東証二部上場セレモニーが開催されました。</a></dd>
+						</dl>-->
+						<!--<dl>
+						<dt>2015/05/20</dt>
+						<dd><a href="topics/topics150520.html">伊勢市の鈴木健一市長が来社</a></dd>
+						</dl>-->
+						<!--<dl>
+						<dt>2015/04/30</dt>
+						<dd><a href="topics/topics150430.html">ふるさと寄附金制度の一括業務代行、契約自治体数が20に。</a></dd>
+						</dl>-->
+						<!--<dl>
+						<dt>2015/04/27</dt>
+						<dd><a href="topics/topics150427.html">暮らしの便利帳、発行自治体数550都市を突破！</a></dd>
+						</dl>	-->
+						<!--<dl>
+						<dt>2015/04/07</dt>
+						<dd><a href="topics/topics150407.html">武田美保氏来社、地方創生について意見交換</a></dd>
+						</dl>-->
+						<!--<dl>
+						<dt>2015/04/01</dt>
+						<dd><a href="topics/topics150401.html">『月刊地域づくり』に弊社事業に関連した記事を寄稿いたしました。</a></dd>
+						</dl>-->
+						<!--<dl>
+						<dt>2015/02/10</dt>
+						<dd><a href="topics/topics150210.html">暮らしの便利帳、発行自治体数500都市を突破！</a></dd>
+						</dl>	-->				
+						<!--<dl>
+						<dt>2015/01/30</dt>
+						<dd><a href="topics/topics150130.html">当社の地域活性化支援事業に対し、地域活性化センターより感謝状を頂戴しました</a></dd>
+						</dl>-->
+					</div>
+					</div>
+					<div class="cFoot"><span>トピックスここまで</span></div>
+					
+				</div><!-- /ContentsBox -->
+				</div><!-- /Topics -->
+				
+				<div class="News">
+				<div class="ContentsBox">
+					<div class="cTop">
+						<h3 class="pngHack"><span>ニュースリリース</span></h3>
+						<div class="detail"><a href="./news/" title="一覧はこちら"><span>一覧はこちら</span></a></div>
+					</div>
+					<div class="cBox pngHack">
+						<div class="nBox">
+<link rel="stylesheet" type="text/css" href="./parts/main.css">
+<div id="ir_library">
+<div id="announcement">
+<div id="divDataArea"></div>
+<script type="text/javascript" src="./parts/announcement_irtop.js" charset="utf-8"></script>
+<script type="text/javascript" src="./parts/error.js" charset="utf-8"></script>
+</div>
+</div>
+						</div>
+					</div>
+					<div class="cFoot"><span>ニュースリリースここまで</span></div>
+				</div><!-- /ContentsBox -->
+				</div><!-- /News -->
+
+				<div id="Buisiness" class="cF">
+					<div id="Media">
+						<div id="Lbox">
+							<div id="mediaPrint" class="bg_half_box"><div class="bg_half_box_foot">
+								<h3><span>プリントメディア事業</span></h3>
+								<div class="detail"><a href="./business/index.html#mediaPrint" title="詳細はこちら"><span>詳細はこちら</span></a></div>
+								<div class="cF">
+									<div class="catch ft12l">行政情報の発信と地域事業者の情報提供により、地域の発展と活性化をめざします。</div>
+									<div class="image"><img src="img/top/image_media_print2.png?elx_nc=1" width="100" height="95" alt="" class="pngHack" /></div>
+								</div>
+								<div class="sBox">
+									<ul class="linkBox cF ft12l">
+									<li><a href="./business/pppwork/">わが街事典</a></li>
+									<li><a href="./business/telepal.html">テレパル50</a></li>
+									<li><a href="./business/life.html">便利帳ファミリー</a></li>
+									</ul>
+								</div>
+							</div></div>
+							<div id="adobeBox">
+								<div class="ft12l">PDF資料の閲覧には米アドビ社の Adobe&reg; Reader&trade;が必要です。<span id="linkmark"><a href="http://www.adobe.com/jp/products/acrobat/readstep2.html" target="_blank">ダウンロードはこちらから</a></span></div>
+								<div id="adobeReaderImg"><a href="http://www.adobe.com/jp/products/acrobat/readstep2.html" title="Adobe Reader" target="_blank"><span>Adobe Reader</span></a></div>
+							</div>
+						</div><!--/Lbox-->
+
+						<div id="Rbox">
+							<div id="mediaIT" class="bg_half_box"><div class="bg_half_box_foot">
+								<h3><span>IT事業</span></h3>
+								<div class="detail"><a href="./business/index.html#mediaIT" title="詳細はこちら"><span>詳細はこちら</span></a></div>
+								<div class="cF">
+									<div class="catch ft12l">「わが街事典」の電子書籍版、ふるさと納税支援サイト、特産品の販売サイトなどを運営しております。</div>
+									<div class="image"><img src="img/top/image_media_it2.png?elx_nc=1" width="100" height="95" alt="" class="pngHack" /></div>
+								</div>
+								<div class="sBox">
+									<ul class="linkBox cF ft12l">
+									<li><a href="./business/wagamachi.html">電子書籍版「わが街事典」</a></li>
+									<li><a href="./business/citydo.html">地域情報サイトCityDO!</a></li>
+									<li><a href="./business/furusato.html">わが街ふるさと納税</a></li>
+									<li><a href="./business/yahoo.html">ヤフー事業</a></li>
+									<li><a href="./business/tokusan.html">わが街とくさんネット</a></li>
+									<li><a href="./business/syokusai.html">食彩ネット</a></li>
+									<li><a href="./business/citydo_travel.html">トラベル事業</a></li>
+									<li><a href="./business/index.html#jtt_cloud">自治体支援クラウドサービス</a></li>
+									</ul>
+								</div>
+							</div></div>
+						</div><!-- /Rbox -->
+
+					</div>
+					<div class="foot"><span>メディア事業ここまで</span></div>
+				</div><!-- /Sub -->
+
+			</div><!-- /Contents -->
+	
+			<div id="Side">
+				<div id="sideSpecial" class="pngHack"><a href="./company/strategy.html" title="官民協働事業のパイオニア" class="pngHack"><span>官民協働事業のパイオニア</span></a></div>
+				<div id="sideMedia" class="pngHack">
+					<h3><span>運営メディア</span></h3>
+					<div id="sideMediaArea">
+						<ul id="mediaMenu">
+						<li class="medialist1"><a href="http://www.scinex.co.jp/wagamachi/ebook/support.html" title="わが街辞典" target="_blank"><span>わが街辞典</span></a></li>
+						<li class="medialist5"><a href="http://www.citydo.com/furusato/" title="わが街ふるさと納税" target="_blank"><span>わが街ふるさと納税</span></a></li>
+						<li class="medialist11"><a href="http://www.wagamachi-promotion.jp/" title="わが街プロモーション" target="_blank"><span>わが街プロモーション</span></a></li>
+						<li class="medialist2"><a href="http://www.citydo.com/top.html" title="CityDO!" target="_blank"><span>CityDO!</span></a></li>
+						<li class="medialist10"><a href="http://www.wagamachi-health.jp/" title="わが街ヘルスケア" target="_blank"><span>わが街ヘルスケア</span></a></li>
+						<li class="medialist3"><a href="http://www.wagamachi-tokusan.jp/index.php/" title="わが街とくさんネット" target="_blank"><span>わが街とくさんネット</span></a></li>
+						<li class="medialist12"><a href="https://www.nasse.com/" title="Nasse" target="_blank"><span>Nasse</span></a></li>
+						<li class="medialist6"><a href="http://www.travel-search.jp/" title="トラベルサーチ" target="_blank"><span>トラベルサーチ</span></a></li>
+						<li class="medialist7"><a href="http://www.rakutabi.jp/" title="楽たび" target="_blank"><span>楽たび</span></a></li>
+						<li class="medialist4"><a href="http://www.citydo.com/travel/" title="CityDO! TRAVEL" target="_blank"><span>CityDO! TRAVEL</span></a></li>
+						<li class="medialist8"><a href="http://jr.travelhills.com/" title="トラベルヒルズ" target="_blank"><span>トラベルヒルズ</span></a></li>
+						<li class="medialist9 end"><a href="http://www.airstay.com/" title="エアステ" target="_blank"><span>エアステ</span></a></li>
+						</ul>
+					</div>
+					<div class="foot"><span>運営メディアここまで</span></div>
+				</div>
+				<div id="sideCompany">
+					<div class="top"><span>IT・法人ここから</span></div>
+					<ul id="companyMenu">
+					<li class="companylist3"><a href="http://www.lnet.jp/" title="株式会社エルネット" target="_blank"><span>株式会社エルネット</span></a></li>
+					<li class="companylist1"><a href="http://www.scinex.co.jp/biz/" title="ITビジネスセンター" target="_blank"><span>ITビジネスセンター</span></a></li>
+					<li class="companylist2 end"><a href="http://www.citydo.com/saisei/index.html" title="地域再生推進機構" target="_blank"><span>地域再生推進機構</span></a></li>
+					</ul>
+					<div class="foot"><span>IT・法人ここまで</span></div>
+				</div>
+				<div class="cF">
+					<p class="tokyologo ft10"><img src="img/top/jpx.gif?elx_nc=1" width="59" height="65" alt="JPX.gif" /><br />証券コード 2376</p>
+				</div>
+			</div><!-- /Side -->
+		</div><!-- /Main -->
+
+
+		<div id="Sitemap">
+			<div id="SitemapArea">
+				<div id="toTop"><a href="#" title="ページトップへ"><span>ページトップへ</span></a></div>
+				<div id="ListArea" class="cF">
+					<div id="sCompany">
+						<div class="topbt"><a href="./company/" title="会社案内"><span>会社案内</span></a></div>
+						<ul>
+						<li class="df"><a href="./company/strategy.html">官民協働事業の<br />パイオニア</a></li>
+						<li class="df"><a href="./company/president.html">ご挨拶</a></li>
+						<li class="df"><a href="./company/profile.html">会社概要</a></li>
+						<li class="df"><a href="./company/history.html">沿革</a></li>
+						<li class="df"><a href="./company/network/">ネットワーク</a></li>
+						</ul>
+					</div>
+					<div id="sBusiness" class="cF">
+						<div class="topbt"><a href="./business/" title="事業案内"><span>事業案内</span></a></div>
+						<ul class="pmedia">
+						<li class="df nolink"><a>プリントメディア事業</a></li>
+						<li class="ds"><a href="./business/pppwork/">わが街事典</a></li>
+						<li class="ds"><a href="./business/telepal.html">テレパル50</a></li>
+						<li class="ds"><a href="./business/life.html">便利帳ファミリー</a></li>
+						</ul>
+						<ul class="imedia">
+						<li class="df nolink"><a>IT事業</a></li>
+						<li class="ds nolink"><a>メディア</a></li>
+						<li class="dt"><a href="./business/wagamachi.html">電子書籍版<br />「わが街事典」</a></li>
+						<li class="dt"><a href="./business/citydo.html">地域情報サイト<br />CityDO!</a></li>
+						<li class="dt"><a href="./business/furusato.html">わが街ふるさと納税</a></li>
+						<li class="dt"><a href="./business/yahoo.html">ヤフー事業</a></li>
+						<li class="ds nolink"><a>Eコマース</a></li>
+						<li class="dt"><a href="./business/tokusan.html">わが街とくさんネット</a></li>
+						<li class="dt"><a href="./business/syokusai.html">食彩ネット</a></li>
+						<li class="dt"><a href="./business/citydo_travel.html">トラベル事業</a></li>
+                        <li class="ds nolink"><a>自治体支援クラウドサービス</a></li>
+                        <li class="dt"><a href="./business/cms.html">わが街ホームページ</a></li>
+						<li class="dt"><a href="./business/app.html">わが街アプリ</a></li>
+						</ul>
+					</div>
+					<div id="sIR">
+						<div class="topbt"><a href="./ir/" title="IR・投資家情報"><span>IR・投資家情報</span></a></div>
+						<ul>
+						<li class="df"><a href="./ir/briefnote.html">決算短信</a></li>
+						<li class="df"><a href="./ir/financialreport.html">有価証券報告書</a></li>
+						<li class="df"><a href="./ir/presentation.html">プレゼンテーション</a></li>
+						<li class="df"><a href="./regal.html">法定公告</a></li>
+						</ul>
+					</div>
+					<div id="sRecruit">
+						<div class="topbt"><a href="./careers/" title="採用情報"><span>採用情報</span></a></div>
+						<ul>
+						<li class="df"><a href="./careers/fresh.html">新卒採用</a></li>
+						<li class="df"><a href="./careers/career.html">中途採用</a></li>
+						<li class="df"><a href="./careers/voice/">社員が語るサイネックス</a></li>
+						</ul>
+					</div>
+					<div id="sOther">
+						<ul>
+						<li class="df"><a href="./news/">ニュースリリース</a></li>
+						<li class="df"><a href="./ask.html">お問い合わせ</a></li>
+						<li class="df"><a href="./sitemap.html">サイトマップ</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div><!--/sitemap-->
+
+		<div id="Foot">
+			<div id="FootArea">
+				<ul id="fMenu">
+				<li class="fl1"><a href="./regal.html" title="法定公告"><span>法定公告</span></a></li>
+				<li class="fl2"><a href="./privacy.html" title="プライバシーポリシー"><span>プライバシーポリシー</span></a></li>
+				</ul>
+			</div>
+			<div id="Copy"><span></span></div>
+		</div><!--/Foot-->
+	</div><!--/Wrap-->
+</body>
+</html>

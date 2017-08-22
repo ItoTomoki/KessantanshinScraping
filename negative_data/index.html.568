@@ -1,0 +1,800 @@
+<!DOCTYPE HTML>
+<html lang="ja-JP">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>グンゼ株式会社</title>
+<meta name="description" content="グンゼ株式会社のコーポレートサイトです。グンゼの製品・サービス情報、企業情報などグンゼのさまざまな情報をご紹介いたします。">
+<meta name="keywords" content="グンゼ株式会社,GUNZE,gunze,インナー,アパレル事業,機能ソリューション事業,ライフクリエイト事業,投資家,IR情報,CSR,採用">
+<meta name="apple-mobile-web-app-title" content="GUNZE" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png">
+<link rel="icon" type="image/vnd.microsoft.icon" href="/favicon.ico">
+<!--OGP-->
+<meta property="og:title" content="グンゼ株式会社" />
+<meta property="og:type" content="website" />
+<meta property="og:description" content="グンゼ株式会社のコーポレートサイトです。グンゼの製品・サービス情報、企業情報などグンゼのさまざまな情報をご紹介いたします。" />
+<meta property="og:url" content="http://www.gunze.co.jp/" />
+<meta property="og:image" content="http://www.gunze.co.jp/common/img/ogp.jpg" />
+<!--共通-->
+<link rel="stylesheet" href="common/css/default.css" media="all">
+<link rel="stylesheet" href="common/css/jquery.bxslider.css" type="text/css">
+<link rel="stylesheet" href="common/css/base_pc.css" type="text/css">
+<link rel="stylesheet" href="common/css/base_sp.css" type="text/css">
+<script src="common/js/jquery-1.11.2.min.js"></script>
+<script src="common/js/common.js"></script>
+<script src="common/js/jquery.tile.js"></script>
+<script src="common/js/jquery.lazylinepainter-1.4.1.min.js"></script>
+<script src="common/js/raphael-min.js"></script>
+<script src="common/js/illust.js"></script>
+<script src="common/js/jquery.bxslider.js"></script>
+<script src="common/js/ga.js"></script>
+<!--[if lt IE 9]>
+<script src="common/js/html5shiv.js"></script>
+<script src="common/js/css3-mediaqueries.js"></script>
+<![endif]-->
+<!--個別-->
+<link rel="stylesheet" href="css/top_pc.css" type="text/css">
+<link rel="stylesheet" href="css/top_sp.css" type="text/css">
+<script src="js/top.js"></script>
+</head>
+
+<body>
+	<div id="contaner">
+		<div id="overlay"></div>
+		<header>
+			<div class="inner clr">
+				<h1><a href="/"><img src="common/img/img_logo.png" alt="明日をもっと、ここちよく GUNZE"></a></h1>
+				
+				
+				<p id="menuBtn" class="sp"><span>MENU</span></p>
+				
+				<div>
+				    <p class="store blank"><a href="http://www.gunze-store.jp/campaign/store" target="_blank" >GUNZE STORE（グンゼ公式通販）</a></p>
+					<p class="contact"><a href="/support/">お問い合わせ</a></p>
+					
+					<p class="lang"><a href="http://www.gunze.co.jp/english/" target="_blank">English</a></p>
+					
+					<div id="googleSearch">
+						<div id="gsearch"></div>
+						<script>
+							var gcseDiv = document.getElementById('gsearch');
+							gcseDiv.innerHTML = '<gcse:search></gcse:search>'
+						</script>
+					</div>
+				</div>
+				
+				<nav id="menu" class="clr pc">
+					<ul>
+						<li class="corporate"><a href="/corporate/">企業情報</a>
+							<div class="pc">
+								<ul class="clr">
+									<li class="pht"><a href="/corporate/message/"><span>ごあいさつ</span><img src="/common/img/img_mega_message_h.jpg" alt="ごあいさつ"></a></li>
+									<li class="pht"><a href="/corporate/philosophy/"><span>経営理念</span><img src="/common/img/img_mega_philosophy.jpg" alt="経営理念"></a></li>
+									<li class="pht"><a href="/corporate/business/"><span>事業内容</span><img src="/common/img/img_mega_business.jpg" alt="事業内容"></a></li>
+									<li class="borderTop"><a href="/corporate/outline/">会社概要</a></li>
+									<li class="borderTop"><a href="/corporate/vision/">経営ビジョン</a></li>
+									<li class="borderTop"><a href="/corporate/executives/">役員一覧</a></li>
+									<li><a href="/corporate/brand/">コーポレートブランド</a></li>
+									<li><a href="/corporate/history/">沿革・歴史</a></li>
+									<li><a href="/corporate/branch/office/">拠点情報</a></li>
+									<li><a href="/corporate/movies/">映像ライブラリー</a></li>
+									<li><a href="/corporate/news/">ニュースリリース</a></li>
+								</ul>
+								<p><a href="/corporate/">企業情報のトップへ</a></p>
+							</div>
+						</li>
+						<li class="products"><a href="/products/">製品・サービス</a>
+							<div class="pc">
+								<ul class="clr">
+									<li class="borderTop"><a href="/products/scene/">こんなところに！グンゼ</a></li>
+									<li class="borderTop"><a href="/products/innerwear/">インナーウエア</a></li>
+									<li class="borderTop"><a href="/products/legwear/">レッグウエア</a></li>
+									<li><a href="/products/housewear/">ハウスカジュアルウエア</a></li>
+									<li><a href="/products/thread/">繊維資材</a></li>
+									<li><a href="/products/plasticfilms/index.html">プラスチックフィルム材</a></li>
+									<li><a href="/products/engineeringplastics/">エンジニアリングプラスチックス材</a></li>
+									<li><a href="/products/electronicparts/">電子機能材</a></li>
+									<li><a href="/products/mechatronics/">メカトロニクス機器</a></li>
+									<li><a href="/products/medical/index.html">医療機器</a></li>
+									<li><a href="/products/gunzesports/">スポーツクラブ</a></li>
+									<li><a href="/products/gunzegreen/index.html">環境緑化</a></li>
+									<li><a href="/products/facilities/">複合商業施設</a></li>
+									<li><a href="/products/estate/">不動産関連</a></li>
+									<li><a href="/products/engineering/">省エネサービス</a></li>
+									<li><a href="/products/shop/">アパレル店舗情報</a></li>
+									<li><a href="/products/other/">人財・保険サービス</a></li>
+									<li class="blank"><a href="http://www.gunze-store.jp/campaign/store" target="_blank">GUNZE STORE（グンゼ公式通販）</a></li>
+
+								</ul>
+								<p><a href="/products/">製品・サービスのトップへ</a></p>
+							</div>
+						</li>
+						<li class="technology"><a href="/technology/">技術・研究開発</a>
+							<div class="pc">
+								<ul class="clr">
+									<li class="pht"><a href="/technology/policy/"><span>研究開発方針</span><img src="/common/img/img_mega_policy.jpg" alt="研究開発方針"></a></li>
+									<li class="pht"><a href="/technology/about/"><span>グンゼの技術力</span><img src="/common/img/img_mega_about.jpg" alt="グンゼの技術力"></a></li>
+									<li class="pht"><a href="/technology/qol/"><span>QOLへの取り組み</span><img src="/common/img/img_mega_qol.jpg" alt="QOLへの取り組み"></a></li>
+									<!--<li class="borderTop"><a href="/technology/underwear/">人と肌着を科学する</a></li>-->
+									<li class="borderTop"><a href="/technology/organization/">研究開発体制</a></li>
+									<li class="borderTop"><a href="/technology/history/">研究開発の歴史</a></li>
+								</ul>
+								<p><a href="/technology/">技術・研究開発のトップへ</a></p>
+							</div>
+						</li>
+						<li class="csr"><a href="/csr/">CSR</a>
+							<div class="pc">
+								<ul class="clr">
+									<li class="pht"><a href="/csr/commitment/"><span>トップコミットメント</span><img src="/common/img/img_mega_commitment_h.jpg" alt="トップコミットメント"></a></li>
+									<li class="pht"><a href="/csr/management/"><span>CSRマネジメント</span><img src="/common/img/img_mega_management.jpg" alt="CSRマネジメント"></a></li>
+									<li class="pht"><a href="/csr/special/womenproject/"><span>女性きらきらプロジェクト</span><img src="/common/img/img_mega_special.jpg" alt="女性きらきらプロジェクト"></a></li>
+									<li class="borderTop"><a href="/csr/special/hadagi-school/">グンゼの肌着教室</a></li>
+									<li class="borderTop"><a href="/csr/report/">CSR活動報告</a></li>
+									<li class="borderTop"><a href="/csr/disclosure/">CSR開示方針</a></li>
+									<li><a href="/csr/iso/">ISO26000対照表</a></li>
+									<li><a href="/csr/comment/">第三者意見</a></li>
+									<li><a href="/csr/csrreport/">CSR報告書</a></li>
+                                    <li><a href="/csr/news/">CSRニュース</a></li>
+								</ul>
+								<p><a href="/csr/">CSRのトップへ</a></p>
+							</div>
+						</li>
+						<li class="ir"><a href="/ir/">株主・投資家情報</a>
+							<div class="pc">
+								<ul class="clr">
+									<li class="pht"><a href="/ir/message/"><span>トップメッセージ</span><img src="/common/img/img_mega_irmassage_h.jpg" alt="トップメッセージ"></a></li>
+									<li class="pht"><a href="/ir/personal/"><span>個人投資家の皆さまへ</span><img src="/common/img/img_mega_personal.jpg" alt="個人投資家の皆さまへ"></a></li>
+									<li class="pht"><a href="/ir/policy/plan/"><span>中期経営計画</span><img src="/common/img/img_mega_plan.jpg" alt="中期経営計画"></a></li>
+									<li class="borderTop"><a href="/ir/policy/">経営方針</a></li>
+									<li class="borderTop blank"><a href="javascript:void(0);" onclick="window.open('/ir/chart/', '', 'width=1000, height=730, scrollbars=yes'); return false;">業績・財務情報</a></li>
+									<li class="borderTop"><a href="/ir/shareholders/">株主・株式情報</a></li>
+									<li><a href="/ir/library/">IR資料室</a></li>
+									<li><a href="/ir/news/">IRニュース</a></li>
+                                    <li><a href="/ir/calendar/">IRカレンダー</a></li>
+									<li><a href="/ir/announcement/">電子公告</a></li>
+									<li><a href="/ir/faq/">よくあるご質問</a></li>
+									<li><a href="/ir/disclaimers/">免責事項</a></li>
+								</ul>
+								<p><a href="/ir/">株主・投資家情報のトップへ</a></p>
+							</div>
+						</li>
+						<li class="employment"><a href="/recruit/">採用情報</a>
+							<div class="pc">
+								<ul class="clr">
+									<li class="pht"><a href="/recruit/fresh/"><span>新卒採用情報</span><img src="/common/img/img_mega_fresh.jpg" alt="新卒採用情報"></a></li>
+									<li class="pht"><a href="/recruit/career/"><span>キャリア採用情報</span><img src="/common/img/img_mega_career.jpg" alt="キャリア採用情報"></a></li>
+									<li class="pht"><a href="/recruit/aboutus/"><span>グンゼの事業紹介</span><img src="/common/img/img_mega_aboutus.jpg" alt="グンゼの事業紹介"></a></li>
+									<li class="borderTop"><a href="/recruit/require/">グンゼが求める人財</a></li>
+									<li class="borderTop"><a href="/recruit/story/story01/">社員クロストーク</a></li>
+									<li class="borderTop"><a href="/recruit/staff/">職種・社員紹介</a></li>
+									<li><a href="/recruit/faq/">Q&amp;A</a></li>
+									<li><a href="/recruit/movie/">スペシャルムービー</a></li>
+								</ul>
+								<p><a href="/recruit/">採用情報のトップへ</a></p>
+							</div>
+						</li>
+					</ul>
+				</nav>
+				
+			</div><!-- .inner -->
+		</header>
+		
+    		<!-- ▼１枚時ここから -->
+		<div class="noslide pc">
+			<div class="inner">
+				<p id="svg"></p>
+				<p class="catch"><img src="/include/top/mv/img/img_catch.png" alt="グンゼは一本の糸から、人々のさまざまな暮らしに“ここちよさ”をお届けしています。明日をもっと、ここちよく"></p>
+			</div>
+		</div>
+		<p class="noslide sp"><img src="/include/top/mv/img/sp/img_mv01.jpg" alt="明日をもっと、ここちよく"></p>
+		<!-- ▲１枚時ここまで -->
+		
+		<!-- ▼複数時ここから
+		<!-- PC 
+		<div class="mv pc">
+			<div class="inner">
+				<div class="slider">
+					<div id="slide01" class="slide">
+						<p id="svg"></p>
+						<img src="/include/top/mv/img/img_mv01.jpg" alt="グンゼは一本の糸から、人々のさまざまな暮らしに“ここちよさ”をお届けしています。明日をもっと、ここちよく">
+					</div>
+					<div class="slide"><img src="/include/top/mv/img/img_mv02.jpg" alt=""></div>
+					<div class="slide"><img src="/include/top/mv/img/img_mv03.jpg" alt=""></div>
+					<div class="slide"><img src="/include/top/mv/img/img_mv04.jpg" alt=""></div>
+					<div class="slide"><img src="/include/top/mv/img/img_mv05.jpg" alt="x"></div>
+				</div>
+				<!-- サムネイル 
+				<ul class="pager">
+					<li><a data-slide-index="0" href="#"><img src="/include/top/mv/img/thumb_mv01.jpg" alt="グンゼは一本の糸から、人々のさまざまな暮らしに“ここちよさ”をお届けしています。明日をもっと、ここちよく"></a></li>
+					<li><a data-slide-index="1" href="#"><img src="/include/top/mv/img/thumb_mv02.jpg" alt=""></a></li>
+					<li><a data-slide-index="2" href="#"><img src="/include/top/mv/img/thumb_mv03.jpg" alt=""></a></li>
+					<li><a data-slide-index="3" href="#"><img src="/include/top/mv/img/thumb_mv04.jpg" alt=""></a></li>
+					<li><a data-slide-index="4" href="#"><img src="/include/top/mv/img/thumb_mv05.jpg" alt=""></a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<!-- スマホ 
+		<div class="mv sp">
+			<div class="slider">
+				<div class="slide"><img src="/include/top/mv/img/sp/img_mv01.jpg" alt="明日をもっと、ここちよく"></div>
+				<div class="slide"><img src="/include/top/mv/img/sp/img_mv02.jpg" alt=""></div>
+				<div class="slide"><img src="/include/top/mv/img/sp/img_mv03.jpg" alt=""></div>
+				<div class="slide"><img src="/include/top/mv/img/sp/img_mv04.jpg" alt=""></div>
+				<div class="slide"><img src="/include/top/mv/img/sp/img_mv05.jpg" alt=""></div>
+			</div>
+		</div>
+		<!-- ▲複数時ここまで -->
+
+
+		<div id="wrapper" class="clr">
+		
+			<section class="navList">
+				<div class="inner">
+					<ul class="clr alphaOver">
+						<li><a href="/corporate/">
+							<figure><img src="img/img_company.png" alt="企業情報"></figure>
+							<h2>企業情報</h2>
+							<p>グンゼグループは、より多くのお客さまに「ここちよさ」を提供し続けます。</p>
+							</a>
+						</li>
+						<li><a href="/products/">
+							<figure><img src="img/img_product.png" alt="製品・サービス"></figure>
+							<h2>製品・サービス</h2>
+							<p>グンゼの製品・サービスをご紹介します。</p>
+							</a>
+						</li>
+						<li><a href="/technology/">
+							<figure><img src="img/img_work.png" alt="技術・研究開発"></figure>
+							<h2>技術・研究開発</h2>
+							<p>グンゼの保有する技術から創造される機能をご紹介します。</p>
+							</a>
+						</li>
+						<li><a href="/csr/">
+							<figure><img src="img/img_csr.png" alt="CSR"></figure>
+							<h2>CSR</h2>
+							<p>グンゼグループは、創業の理念を経糸に、事業活動を通じて社会に貢献します。</p>
+							</a>
+						</li>
+						<li><a href="/ir/">
+							<figure><img src="img/img_financer.png" alt="株主・投資家情報"></figure>
+							<h2>株主・投資家情報</h2>
+							<p>株主・投資家の皆さまへの情報を適時適切に開示しています。</p>
+							</a>
+						</li>
+						<li><a href="/recruit/">
+							<figure><img src="img/img_recruit.png" alt="採用情報"></figure>
+							<h2>採用情報</h2>
+							<p>新卒採用、キャリア採用、グループ会社採用についてご紹介します。</p>
+							</a>
+						</li>
+					</ul>
+				</div><!-- .inner -->
+			</section><!-- .navList -->
+			
+		
+			<div id="main">
+
+	
+	
+		
+
+		
+	
+
+
+
+				<section class="newsList news">
+					<h3><b>ニュース</b><a href="/corporate/news/" class="release pc">ニュースリリース一覧</a><a href="/ir/news/" class="ir pc">IRニュース一覧</a></h3>
+
+	
+	
+	
+	
+
+	
+		
+			
+			
+					<article class="clr">
+				
+						<a href="http://www.gunze.co.jp/ir/news/2017/pdf/20170821001.pdf" target="_blank" class="clr">
+				
+							<time datetime="2017-08-21">2017年08月21日</time>
+							<p>IRニュース</p>
+							<h4 class="ttl">新株予約権（株式報酬型ストックオプション）の発行内容確定に関するお知らせ<span>（PDF:113 KB）</span></h4>
+				
+						</a>
+				
+					</article>
+			
+	
+		
+			
+					<article class="clr">
+				
+						<a href="http://www.gunze.co.jp/corporate/news/2017/08/20170809001.html" class="clr">
+				
+							<time datetime="2017-08-09">2017年08月09日</time>
+							<p>ニュースリリース</p>
+							<h4 class="ttl">「なぜ肌着を着たほうがいいの？」楽しみながら学ぶグンゼの肌着教室　2017年7月から新プログラムでスタート</h4>
+				
+						</a>
+				
+					</article>
+			
+			
+	
+		
+			
+					<article class="clr">
+				
+						<a href="http://www.gunze.co.jp/corporate/news/2017/08/20170804001.html" class="clr">
+				
+							<time datetime="2017-08-04">2017年08月04日</time>
+							<p>ニュースリリース</p>
+							<h4 class="ttl">作業の効率化を実現「カップケーサー」を発売　</h4>
+				
+						</a>
+				
+					</article>
+			
+			
+	
+		
+			
+			
+					<article class="clr">
+				
+					
+					
+						<a href="http://www.gunze.co.jp/ir/library/report/summary/2017/2018_q1.pdf" target="_blank" class="clr">
+					
+				
+							<time datetime="2017-08-03">2017年08月03日</time>
+							<p>IRニュース</p>
+							<h4 class="ttl">【平成30年3月期】第1四半期決算短信<span>（PDF:295 KB）</span></h4>
+				
+						</a>
+				
+					</article>
+			
+	
+		
+			
+			
+					<article class="clr">
+				
+						<a href="http://www.gunze.co.jp/ir/news/2017/pdf/20170803001.pdf" target="_blank" class="clr">
+				
+							<time datetime="2017-08-03">2017年08月03日</time>
+							<p>IRニュース</p>
+							<h4 class="ttl">新株予約権（株式報酬型ストックオプション）割当に関するお知らせ<span>（PDF:181 KB）</span></h4>
+				
+						</a>
+				
+					</article>
+			
+	
+
+					<ul class="sp clr">
+						<li><a href="/ir/news/">IRニュース<br>一覧</a></li>
+						<li><a href="/corporate/news/">ニュース<br>リリース一覧</a></li>
+					</ul>
+				</section><!-- .news -->
+
+
+				<section class="newsList message">
+					<h3><b>お知らせ</b><a href="/news/" class="message pc">一覧</a></h3>
+
+	
+					<dl class="clr">
+						<dt>電子公告</dt>
+						<dd><a href="/ir/announcement/" class="clr">募集新株予約権発行に関する取締役会決議公告</a></dd>
+					</dl>
+	
+
+
+	
+	
+
+	
+					<article class="clr">
+				
+						<a href="http://www.gunze.co.jp/csr/news/2017/08/csr-20170821001.html" class="clr">
+				
+							<time datetime="2017-08-02">2017年08月02日</time>
+							<p>CSR</p>
+							<h4 class="ttl">「肌着を着よう！」グンゼ肌着教室　泉佐野市立大木小学校、泉佐野市立末広小学校で実施</h4>
+				
+						</a>
+				
+					</article>
+	
+					<article class="clr">
+				
+						<a href="http://www.gunze.co.jp/ir/library/group/" class="clr">
+				
+							<time datetime="2017-07-14">2017年07月14日</time>
+							
+							<h4 class="ttl">グループ決算公告　更新しました</h4>
+				
+						</a>
+				
+					</article>
+	
+					<article class="clr">
+				
+						<a href="http://www.gunze.co.jp/ir/calendar/" class="clr">
+				
+							<time datetime="2017-07-06">2017年07月06日</time>
+							
+							<h4 class="ttl">IRカレンダー　更新しました</h4>
+				
+						</a>
+				
+					</article>
+	
+					<article class="clr">
+				
+						<a href="http://www.gunze.co.jp/ir/library/report/securities/" class="clr">
+				
+							<time datetime="2017-07-03">2017年07月03日</time>
+							
+							<h4 class="ttl">第121期 有価証券報告書　掲載しました</h4>
+				
+						</a>
+				
+					</article>
+	
+					<article class="clr">
+				
+						<a href="http://www.gunze.co.jp/csr/csrreport/" class="clr">
+				
+							<time datetime="2017-06-26">2017年06月26日</time>
+							<p>CSRニュース</p>
+							<h4 class="ttl">「CSR ACTION BOOK」グンゼグループ CSR報告書 2017　掲載しました</h4>
+				
+						</a>
+				
+					</article>
+	
+
+					<ul class="sp">
+						<li><a href="/news/">お知らせ一覧</a></li>
+					</ul>
+				</section><!-- .message -->
+			</div><!-- #main -->
+			
+						<div id="side" class="alphaOver">
+				<ul class="pc">
+					<li><a href="/important/"><img src="/include/top/side/img/bnr_important.jpg" alt="重要なお知らせ一覧"></a></li>
+					<li><a href="/ir/announcement/"><img src="/include/top/side/img/bnr_electronic.jpg" alt="電子公告"></a></li>
+                    <li><a href="/csr/special/hadagi-school/"><img src="/include/top/side/img/bnr_hadagi.jpg" alt="グンゼの肌着教室"></a></li>
+                    <li><a href="/products/scene/"><img src="/include/top/side/img/bnr_scene.jpg" alt="こんなところに！グンゼ"></a></li>
+					<li><a href="/special/history/" target="_blank"><img src="/include/top/side/img/bnr_history.jpg" alt="グンゼの歴史"></a></li>
+				</ul>
+				
+				<ul class="sp clr">
+					<li><a href="/important/"><img src="/include/top/side/img/bnr_important.jpg" alt="重要なお知らせ"></a></li>
+					<li><a href="/ir/announcement/"><img src="/include/top/side/img/bnr_electronic.jpg" alt="電子公告"></a></li>
+					<li><a href="/csr/special/hadagi-school/"><img src="/include/top/side/img/bnr_hadagi.jpg" alt="グンゼの肌着教室"></a></li>
+                	<li><a href="/products/scene/"><img src="/include/top/side/img/bnr_scene.jpg" alt="こんなところに！グンゼ"></a></li>
+					<li><a href="/special/history/" target="_blank"><img src="/include/top/side/img/bnr_history.jpg" alt="グンゼの歴史"></a></li>
+				</ul>
+			</div><!-- #side -->
+		
+		</div><!-- #wrapper -->
+		
+		
+		<aside class="alphaOver">
+		
+						<section class="pc">
+				<div>
+					<!-- 3列 ==================================================================================================-->
+
+					<ul class="three clr">
+						<li class="blank"><a href="http://tech.gunze.co.jp/" target="_blank"><img src="/include/top/bnr_l/img/bnr_solutionproject.jpg" alt="GUNZE SOLUTION PROJECT グンゼソリューションプロジェクト">お客さまの抱える課題やニーズに対して、最適なソリューションをご提案します</a></li>
+						<li class="blank"><a href="http://www.gunze-store.jp/" target="_blank"><img src="/include/top/bnr_l/img/bnr_store.jpg" alt="グンゼ公式通販 GUNZE STORE グンゼストア">肌着・下着・インナー・ショーツ・ブラジャー・ボクサーパンツのグンゼ公式通販</a></li>
+						<li class="blank"><a href="http://www.gunze.jp/" target="_blank"><img src="/include/top/bnr_l/img/bnr_apparelcollection.jpg" alt="GUNZE apparel collection グンゼアパレルコレクション">グンゼブランドの最新情報をお届けする、アパレルポータルサイト</a></li>
+					</ul>
+
+					<!-- 2列 ==================================================================================================-->
+
+					<!--<ul class="two clr">
+						<li class="blank"><a href="http://tech.gunze.co.jp/" target="_blank"><img src="/include/top/bnr_l/img/01.jpg" alt="GUNZE SOLUTION PROJECT グンゼソリューションプロジェク">お客さまの抱える課題やニーズに対して、最適なソリューションをご提案します</a></li>
+						<li class="blank"><a href="http://www.gunze-store.jp/" target="_blank"><img src="/include/top/bnr_l/img/02.jpg" alt="グンゼ公式通販 GUNZE STORE グンゼストア">肌着・下着・インナー・ショーツ・ブラジャー・ボクサーパンツのグンゼ公式通販</a></li>
+						<li class="blank"><a href="http://www.gunze.jp/" target="_blank"><img src="/include/top/bnr_l/img/03.jpg" alt="GUNZE apparel collection グンゼアパレルコレクション">各種お役立ち情報等をご紹介する、グンゼのアパレルポータルサイト</a></li>
+						<li class="blank"><a href="http://www.gunze.jp/" target="_blank"><img src="/include/top/bnr_l/img/01.jpg" alt="GUNZE apparel collection グンゼアパレルコレクション">各種お役立ち情報等をご紹介する、グンゼのアパレルポータルサイト</a></li>
+					</ul>-->
+				</div>
+			</section>
+
+			<section class="sp">
+				<div>
+					<ul class="clr">
+						<li class="blank"><a href="http://tech.gunze.co.jp/" target="_blank"><img src="/include/top/bnr_l/img/sp/bnr_solutionproject.jpg" alt="GUNZE SOLUTION PROJECT グンゼソリューションプロジェクト"></a></li>
+						<li class="blank"><a href="http://www.gunze-store.jp/" target="_blank"><img src="/include/top/bnr_l/img/sp/bnr_store.jpg" alt="グンゼ公式通販 GUNZE STORE グンゼストア"></a></li>
+						<li class="blank"><a href="http://www.gunze.jp/" target="_blank"><img src="/include/top/bnr_l/img/sp/bnr_apparelcollection.jpg" alt="GUNZE apparel collection グンゼアパレルコレクション"></a></li>
+					</ul>
+				</div>
+			</section>
+			
+						<section class="pc bnr">
+				<ul class="clr">
+					<li><a href="http://www.medicure-gunze.com/index.html" target="_blank"><img src="/include/top/bnr_s/img/bnr_medicure.jpg" alt="メディキュア"></a></li>
+					<li><a href="http://cotton-yg.com/" target="_blank"><img src="/include/top/bnr_s/img/bnr_ygtimes.jpg" alt="感じるコットン。YG TIMES"></a></li>
+					<li><a href="http://www.bodywild.com/" target="_blank"><img src="/include/top/bnr_s/img/bnr_bodywild.jpg" alt="BODY WILD"></a></li>
+					<li><a href="http://www.gunze.jp/newkaiteki/" target="_blank"><img src="/include/top/bnr_s/img/bnr_kaiteki.jpg" alt="快適工房"></a></li>
+					<li><a href="http://www.gunze.jp/seek/" target="_blank"><img src="/include/top/bnr_s/img/bnr_seek.jpg" alt="SEEK"></a></li>
+					<li><a href="http://www.tuche-leg.com/" target="_blank"><img src="/include/top/bnr_s/img/bnr_tuche.jpg" alt="Tuché"></a></li>
+					<li><a href="http://www.cosmedical-gunze.com/" target="_blank"><img src="/include/top/bnr_s/img/bnr_cosmedical.jpg" alt="COSMEDICAL"></a></li>
+					<li><a href="http://www.sabrina-ps.com/" target="_blank"><img src="/include/top/bnr_s/img/bnr_sabrina.jpg" alt="SABRINA"></a></li>
+					<li><a href="http://www.kireilabo.com/" target="_blank"><img src="/include/top/bnr_s/img/bnr_kireilabo.jpg" alt="KIREILABO"></a></li>
+					<li><a href="http://www.gunze.jp/tuche/" target="_blank"><img src="/include/top/bnr_s/img/bnr_tuche_inner.jpg" alt="Tuché"></a></li>
+					<!--<li><a href="http://www.pisca-pisca.jp/" target="_blank"><img src="/include/top/bnr_s/img/bnr_piscapisca.jpg" alt="ピスカピスカ"></a></li>-->
+				</ul>
+			</section>
+			
+		</aside>
+		
+				<!--<p class="pageTop2"><a href="javascript:void(0);"><img src="/common/img/btn_pagetop.png" alt="ページトップ"></a></p>-->
+
+		<footer>
+			<p class="pageTopPc alphaOver pc"><a href="javascript:void(0);"><img src="/common/img/btn_pagetop.png" alt="ページトップ"></a></p>
+			<p class="pageTop sp"><a href="javascript:void(0);">ページトップ</a></p>
+
+			<div class="outer pc">
+				<div class="inner clr">
+					<ul class="pc">
+						
+						<li><a href="/corporate/">企業情報</a>
+							<ul>
+								<li><a href="/corporate/">企業情報トップへ</a></li>
+								<li><a href="/corporate/message/">ごあいさつ</a></li>
+								<li><a href="/corporate/philosophy/">経営理念</a></li>
+								<li><a href="/corporate/outline/">会社概要</a></li>
+								<li><a href="/corporate/vision/">経営ビジョン</a></li>
+								<li><a href="/corporate/executives/">役員一覧</a></li>
+								<li><a href="/corporate/brand/">コーポレートブランド</a></li>
+								<li><a href="/corporate/business/">事業内容</a></li>
+								<li><a href="/corporate/history/">沿革・歴史</a></li>
+								<li><a href="/corporate/branch/office/">拠点情報</a></li>
+								<li><a href="/corporate/movies/">映像ライブラリー</a></li>
+								<li><a href="/corporate/news/">ニュースリリース</a></li>
+							</ul>
+						</li>
+						<li><a href="/products/">製品・サービス</a>
+							<ul>
+								<li><a href="/products/">製品・サービストップへ</a></li>
+								<li><a href="/products/scene/">こんなところに！グンゼ</a></li>
+								<li><a href="/products/innerwear/">インナーウエア</a></li>
+								<li><a href="/products/legwear/">レッグウエア</a></li>
+								<li><a href="/products/housewear/">ハウスカジュアルウエア</a></li>
+								<li><a href="/products/thread/">繊維資材</a></li>
+								<li><a href="/products/plasticfilms/index.html">プラスチックフィルム材</a></li>
+								<li><a href="/products/engineeringplastics/">エンジニアリングプラス<br>チックス材</a></li>
+								<li><a href="/products/electronicparts/">電子機能材</a></li>
+								<li><a href="/products/mechatronics/">メカトロニクス機器</a></li>
+								<li><a href="/products/medical/index.html">医療機器</a></li>
+								<li><a href="/products/gunzesports/">スポーツクラブ</a></li>
+								<li><a href="/products/gunzegreen/index.html">環境緑化</a></li>
+								<li><a href="/products/facilities/">複合商業施設</a></li>
+								<li><a href="/products/estate/">不動産関連</a></li>
+								<li><a href="/products/engineering/">省エネサービス</a></li>
+								<li><a href="/products/shop/">アパレル店舗情報</a></li>
+								<li><a href="/products/other/">人財・保険サービス</a></li>
+								<li class="blank"><a href="http://www.gunze-store.jp/campaign/store" target="_blank" >GUNZE STORE<br>(グンゼ公式通販)</a></li>
+							</ul>
+						</li>
+						<li><a href="/technology/">技術・研究開発</a>
+							<ul>
+								<li><a href="/technology/">技術・研究開発トップへ</a></li>
+								<li><a href="/technology/policy/">研究開発方針</a></li>
+								<li><a href="/technology/about/">グンゼの技術力</a></li>
+								<li><a href="/technology/qol/">QOLへの取り組み</a></li>
+								<!--<li><a href="/technology/underwear/">人と肌着を科学する</a></li>-->
+								<li><a href="/technology/history/">研究開発の歴史</a></li>
+								<li><a href="/technology/organization/">研究開発体制</a></li>
+							</ul>
+						</li>
+						<li><a href="/csr/">CSR</a>
+							<ul>
+								<li><a href="/csr/">CSRトップへ</a></li>
+								<li><a href="/csr/commitment/">トップコミットメント</a></li>
+								<li><a href="/csr/management/">CSRマネジメント</a></li>
+								<li><a href="/csr/special/womenproject/">女性きらきらプロジェクト</a></li>
+								<li><a href="/csr/special/hadagi-school/">グンゼの肌着教室</a></li>
+								<li><a href="/csr/report/">CSR活動報告</a></li>
+								<li><a href="/csr/disclosure/">CSR開示方針</a></li>
+								<li><a href="/csr/iso/">ISO26000対照表</a></li>
+								<li><a href="/csr/comment/">第三者意見</a></li>
+								<li><a href="/csr/csrreport/">CSR報告書</a></li>
+								<li><a href="/csr/news/">CSRニュース</a></li>
+							</ul>
+						</li>
+						<li><a href="/ir/">株主・投資家情報</a>
+							<ul>
+								<li><a href="/ir/">株主・投資家情報トップへ</a></li>
+								<li><a href="/ir/message/">トップメッセージ</a></li>
+								<li><a href="/ir/personal/">個人投資家の皆さまへ</a></li>
+                                <li><a href="/ir/policy/plan/">中期経営計画</a></li>
+								<li><a href="/ir/policy/">経営方針</a></li>
+                                <li class="blank"><a href="javascript:void(0);" onclick="window.open('/ir/chart/', '', 'width=1000, height=730, scrollbars=yes'); return false;">業績・財務情報</a></li>
+								<li><a href="/ir/shareholders/">株主・株式情報</a></li>
+								<li><a href="/ir/library/">IR資料室</a></li>
+								<li><a href="/ir/news/">IRニュース</a></li>
+								<li><a href="/ir/calendar/">IRカレンダー</a></li>
+								<li><a href="/ir/announcement/">電子公告</a></li>
+								<li><a href="/ir/faq/">よくあるご質問</a></li>
+								<li><a href="/ir/disclaimers/">免責事項</a></li>
+							</ul>
+						</li>
+						<li><a href="/recruit/">採用情報</a>
+							<ul>
+								<li><a href="/recruit/">採用情報トップへ</a></li>
+								<li><a href="/recruit/fresh/">新卒採用情報</a></li>
+								<li><a href="/recruit/career/">キャリア採用情報</a></li>
+								<li><a href="/recruit/aboutus/">グンゼの事業紹介</a></li>
+								<li><a href="/recruit/require/">グンゼが求める人財</a></li>
+								<li><a href="/recruit/story/story01/">社員クロストーク</a></li>
+								<li><a href="/recruit/staff/">職種・社員紹介</a></li>
+								<li><a href="/recruit/faq/">Q&amp;A</a></li>
+								<li><a href="/recruit/movie/">スペシャルムービー</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div><!-- .inner -->
+			</div><!-- .outer -->
+
+			<div class="inner clr">
+				<ul>
+					<li><a href="/terms/">ご利用条件について</a></li>
+					<li><a href="/privacy/">個人情報保護について</a></li>
+					<li><a href="/socialmedia/">ソーシャルメディアポリシー</a></li>
+					<li><a href="/support/">お問い合わせ</a></li>
+					<li><a href="/sitemap/">サイトマップ</a></li>
+				</ul>
+				<small>&copy; GUNZE LIMITED. All rights reserved.</small>
+			</div>
+		</footer>
+	</div><!-- #contaner -->
+
+
+	<nav class="sp">
+		<div id="googleSearch">
+			<div id="gsearch02"></div>
+				<script>
+					(function() {
+						var cx = '009679352565944980269:vufu90duqay';
+						var gcse = document.createElement('script');
+						gcse.type = 'text/javascript';
+						gcse.async = true;
+						gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+						'//cse.google.com/cse.js?cx=' + cx;
+						var s = document.getElementsByTagName('script')[0];
+						s.parentNode.insertBefore(gcse, s);
+					})();
+				</script>
+				<gcse:searchbox-only newWindow="true"></gcse:searchbox-only>
+		</div>
+
+		<ul class="sp">
+			
+						<li><a href="/corporate/">企業情報</a>
+							<ul>
+								<li><a href="/corporate/">企業情報トップへ</a></li>
+								<li><a href="/corporate/message/">ごあいさつ</a></li>
+								<li><a href="/corporate/philosophy/">経営理念</a></li>
+								<li><a href="/corporate/outline/">会社概要</a></li>
+								<li><a href="/corporate/vision/">経営ビジョン</a></li>
+								<li><a href="/corporate/executives/">役員一覧</a></li>
+								<li><a href="/corporate/brand/">コーポレートブランド</a></li>
+								<li><a href="/corporate/business/">事業内容</a></li>
+								<li><a href="/corporate/history/">沿革・歴史</a></li>
+								<li><a href="/corporate/branch/office/">拠点情報</a></li>
+								<li><a href="/corporate/movies/">映像ライブラリー</a></li>
+								<li><a href="/corporate/news/">ニュースリリース</a></li>
+							</ul>
+						</li>
+						<li><a href="/products/">製品・サービス</a>
+							<ul>
+								<li><a href="/products/">製品・サービストップへ</a></li>
+								<li><a href="/products/scene/">こんなところに！グンゼ</a></li>
+								<li><a href="/products/innerwear/">インナーウエア</a></li>
+								<li><a href="/products/legwear/">レッグウエア</a></li>
+								<li><a href="/products/housewear/">ハウスカジュアルウエア</a></li>
+								<li><a href="/products/thread/">繊維資材</a></li>
+								<li><a href="/products/plasticfilms/index.html">プラスチックフィルム材</a></li>
+								<li><a href="/products/engineeringplastics/">エンジニアリングプラス<br>チックス材</a></li>
+								<li><a href="/products/electronicparts/">電子機能材</a></li>
+								<li><a href="/products/mechatronics/">メカトロニクス機器</a></li>
+								<li><a href="/products/medical/index.html">医療機器</a></li>
+								<li><a href="/products/gunzesports/">スポーツクラブ</a></li>
+								<li><a href="/products/gunzegreen/index.html">環境緑化</a></li>
+								<li><a href="/products/facilities/">複合商業施設</a></li>
+								<li><a href="/products/estate/">不動産関連</a></li>
+								<li><a href="/products/engineering/">省エネサービス</a></li>
+								<li><a href="/products/shop/">アパレル店舗情報</a></li>
+								<li><a href="/products/other/">人財・保険サービス</a></li>
+								<li class="blank"><a href="http://www.gunze-store.jp/campaign/store" target="_blank" >GUNZE STORE<br>(グンゼ公式通販)</a></li>
+							</ul>
+						</li>
+						<li><a href="/technology/">技術・研究開発</a>
+							<ul>
+								<li><a href="/technology/">技術・研究開発トップへ</a></li>
+								<li><a href="/technology/policy/">研究開発方針</a></li>
+								<li><a href="/technology/about/">グンゼの技術力</a></li>
+								<li><a href="/technology/qol/">QOLへの取り組み</a></li>
+								<!--<li><a href="/technology/underwear/">人と肌着を科学する</a></li>-->
+								<li><a href="/technology/history/">研究開発の歴史</a></li>
+								<li><a href="/technology/organization/">研究開発体制</a></li>
+							</ul>
+						</li>
+						<li><a href="/csr/">CSR</a>
+							<ul>
+								<li><a href="/csr/">CSRトップへ</a></li>
+								<li><a href="/csr/commitment/">トップコミットメント</a></li>
+								<li><a href="/csr/management/">CSRマネジメント</a></li>
+								<li><a href="/csr/special/womenproject/">女性きらきらプロジェクト</a></li>
+								<li><a href="/csr/special/hadagi-school/">グンゼの肌着教室</a></li>
+								<li><a href="/csr/report/">CSR活動報告</a></li>
+								<li><a href="/csr/disclosure/">CSR開示方針</a></li>
+								<li><a href="/csr/iso/">ISO26000対照表</a></li>
+								<li><a href="/csr/comment/">第三者意見</a></li>
+								<li><a href="/csr/csrreport/">CSR報告書</a></li>
+								<li><a href="/csr/news/">CSRニュース</a></li>
+							</ul>
+						</li>
+						<li><a href="/ir/">株主・投資家情報</a>
+							<ul>
+								<li><a href="/ir/">株主・投資家情報トップへ</a></li>
+								<li><a href="/ir/message/">トップメッセージ</a></li>
+								<li><a href="/ir/personal/">個人投資家の皆さまへ</a></li>
+                                <li><a href="/ir/policy/plan/">中期経営計画</a></li>
+								<li><a href="/ir/policy/">経営方針</a></li>
+                                <li class="blank"><a href="javascript:void(0);" onclick="window.open('/ir/chart/', '', 'width=1000, height=730, scrollbars=yes'); return false;">業績・財務情報</a></li>
+								<li><a href="/ir/shareholders/">株主・株式情報</a></li>
+								<li><a href="/ir/library/">IR資料室</a></li>
+								<li><a href="/ir/news/">IRニュース</a></li>
+								<li><a href="/ir/calendar/">IRカレンダー</a></li>
+								<li><a href="/ir/announcement/">電子公告</a></li>
+								<li><a href="/ir/faq/">よくあるご質問</a></li>
+								<li><a href="/ir/disclaimers/">免責事項</a></li>
+							</ul>
+						</li>
+						<li><a href="/recruit/">採用情報</a>
+							<ul>
+								<li><a href="/recruit/">採用情報トップへ</a></li>
+								<li><a href="/recruit/fresh/">新卒採用情報</a></li>
+								<li><a href="/recruit/career/">キャリア採用情報</a></li>
+								<li><a href="/recruit/aboutus/">グンゼの事業紹介</a></li>
+								<li><a href="/recruit/require/">グンゼが求める人財</a></li>
+								<li><a href="/recruit/story/story01/">社員クロストーク</a></li>
+								<li><a href="/recruit/staff/">職種・社員紹介</a></li>
+								<li><a href="/recruit/faq/">Q&amp;A</a></li>
+								<li><a href="/recruit/movie/">スペシャルムービー</a></li>
+							</ul>
+						</li>
+		</ul>
+		
+		<p class="lang"><a href="http://www.gunze.co.jp/english/" target="_blank">English</a></p>
+		
+	</nav>
+
+<script type="text/javascript">
+  (function () {
+    var tagjs = document.createElement("script");
+    var s = document.getElementsByTagName("script")[0];
+    tagjs.async = true;
+    tagjs.src = "//s.yjtag.jp/tag.js#site=iFI7WN9";
+    s.parentNode.insertBefore(tagjs, s);
+  }());
+</script>
+<noscript>
+  <iframe src="//b.yjtag.jp/iframe?c=iFI7WN9" width="1" height="1" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+  </noscript>
+  
+</body>
+</html>

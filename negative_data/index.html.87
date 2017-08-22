@@ -1,0 +1,214 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>株式会社 不動テトラ／Fudo Tetra Corporation</title>
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<link rel="stylesheet" href="css/slider/default.css" type="text/css" media="screen">
+<link rel="stylesheet" href="css/slider/nivo-slider.css" type="text/css" media="screen">
+<link rel="stylesheet" type="text/css" href="css/xj.css"/>
+<script type="text/javascript" src="scripts/jquery-1.9.0.min.js"></script>
+<script type="text/javascript" src="scripts/jquery.nivo.slider.js"></script>
+<script type="text/javascript">
+	$(window).load(function() {
+		$('#slider').nivoSlider({
+			effect:'fade', //sliceDown、sliceDownLeft、sliceUp、sliceUpLeft、sliceUpDown、sliceUpDownLeft、fold、fade を指定可能
+			slices:15,
+			animSpeed: 3000, //画像が切り替わるスピード
+			pauseTime: 10000 //画像が切り替わるまでの時間 1000で1秒
+		});
+	});
+</script>
+<!-- XJ-Storage -->
+<script src="ir/xj/js/XJStorageBase.js"></script>
+<script src="ir/xj/js/XJStorageNews.js"></script>
+<script type="text/javascript">
+(function($) {			
+	var test = new XJStorage.News({
+		adjust_path:'ir/',
+		select_year_type: 			'年',
+		is_title:false,
+		default_len:'5',
+		newicon_display_time:'30',
+		content_main:'.xj_box table'
+	});			
+})();
+</script>
+<!-- /XJ-Storage -->
+<!-- shutto -->
+<script type="text/javascript" src="scripts/smp.js"></script>
+<!-- /shutto -->
+</head>
+
+<body id="">
+
+<!-- ヘッダー -->
+<a name="pagetop" id="pagetop"></a>
+<div id="Header" class="Layout_Width clearfix">
+    <h1><a href="index.html"><img src="images/logo_fudotetra.gif" alt="不動テトラ" /></a></h1>
+    <div class="Header_Navi">
+    <div class="clearfix">
+        <ul class="English">
+            <li><a href="english/index.html"><img src="images/header_english.gif" alt="English" /></a></li>
+        </ul>
+    </div>
+    <div class="clearfix">
+        <ul class="Header_Menu">
+            <li><a href="inquiry/index.html"><img src="images/header_toiawase.gif" alt="お問い合せ" /></a></li>
+            <li><a href="sitemap.html"><img src="images/header_sitemap.gif" alt="サイトマップ" /></a></li>
+            <li><a href="recruit/index.html"><img src="images/header_saiyou.gif" alt="採用情報" /></a></li>
+            <li><a href="about/map.html"><img src="images/header_access.gif" alt="アクセス" /></a></li>
+        </ul>
+    </div>
+    </div>
+</div>
+
+<!-- グローバルナビゲーション -->
+<div id="Global_Menu" class="Page_Home">
+    <div id="Global_Menu_In" class="Layout_Width">
+    	<ul class="clearfix">
+        	<li class="Home"><a href="index.html"><img src="images/menu_home.gif" alt="ホーム" width="192" height="55" title="ホーム" /></a></li>
+        	<li class="Solution"><a href="solution/index.html"><img src="images/menu_solution.gif" alt="ソリューション・技術" width="191" height="55" title="ソリューション・技術" /></a></li>
+        	<li class="Company"><a href="about/index.html"><img src="images/menu_company.gif" alt="会社概要" width="192" height="55" title="会社概要" /></a></li>
+        	<li class="Shareholder"><a href="ir/index.html"><img src="images/menu_shareholders.gif" alt="株主・投資家情報" width="191" height="55" title="株主・投資家情報" /></a></li>
+        	<li class="Achievement"><a href="achievement/index.html"><img src="images/menu_achievement.gif" alt="実績紹介" width="194" height="55" title="実績紹介" /></a></li>
+        </ul>
+    </div>
+</div>
+
+<!-- コンテンツ -->
+<div id="Contents_bg">
+<div id="Contents" class="Layout_Width">
+
+<div class="Pankuzu"> </div>
+<div id="MainImg">
+	<div class="slidImg theme-default">
+		<div id="slider" class="nivoSlider">
+			<img src="images/mainimg1.png" data-thumb="images/mainimg1.png" alt="施工例1">
+			<img src="images/mainimg2.png" data-thumb="images/mainimg2.png" alt="施工例2">
+			<img src="images/mainimg3.png" data-thumb="images/mainimg3.png" alt="施工例3">
+			</div><!--/slider-->
+		</div><!--/slidImg-->
+</div>
+<div id="Contents_Main" class="clearfix">
+	<div id="Left"> <!--新着情報-->
+<div id="News">
+	<div class="News_Title clearfix">
+	<h3 class="News_Title"><img src="images/news_title.gif" alt="新着情報" /></h3>
+	<p><a href="news/index.html"><img src="images/news_ichiran.gif" alt="一覧" /></a></p>
+	</div>
+	<div class="xj_box">	
+		<table>
+			</table>
+		</div>
+</div>
+
+<!--技術とサービス-->
+<div id="Top_Gijutsu" class="clearfix">
+	
+	<h3 class="Title1"><img src="images/technology_title.gif" alt="技術とサービス" /></h3>
+	<div id="Top_Gijutsu_Each">
+	<h3><img src="images/doboku.gif" alt="土木事業" /></h3>
+	<p><img src="images/doboku_img.jpg" alt="" / class="Top_Gijutsu_img">
+		道路、鉄道、ダム・河川、上下水道、エネルギー施設などの陸上土木分野、港湾・空港、漁港、海岸、人工島などの海洋土木分野における豊富な技術と実績により、未来の社会基盤を拓きます。</p>
+	<p class="Go_Jigyou"><a href="doboku/dobokujigyo-newtec.html"><img src="images/go_gijutushoukai.png" alt="技術紹介" /></a></p>
+	</div>
+	<div id="Top_Gijutsu_Each">
+	<h3><img src="images/jiban.gif" alt="地盤事業" /></h3>
+	<p><img src="images/jiban_img.jpg" alt="" / class="Top_Gijutsu_img">
+		1956年に世界で初めて、今や代表的であるサンドコンパクション工法の開発に成功して以来、さらなる研究開発を重ね、地盤のエキスパートとして、豊富な設計施工技術と施工実績持っています。</p>
+	<p class="Go_Jigyou"><a href="geo/index.html"><img src="images/go_gijutushoukai.png" alt="技術紹介" /></a></p>
+	</div>
+	<div id="Top_Gijutsu_Each" class="Right_Exclusion">
+	<h3><img src="images/block.gif" alt="ブロック環境事業" /></h3>
+	<p><img src="images/block_img.jpg" alt="" / class="Top_Gijutsu_img">
+		「テトラポッド」に代表される消波根固ブロックを中心に型枠賃貸を行うとともに、水際線における様々な技術・設計サービスや、景観と生態系を守る製品の開発・販売を行っています。</p>
+	<p class="Go_Jigyou"><a href="products/index.html"><img src="images/go_seihinichiran.png" alt="製品一覧" /></a></p>
+	</div>
+	
+</div>
+
+<!--不動テトラ実績紹介-->
+<div id="Top_Jisekishoukai" class="clearfix">
+	<h3 class="Title1"><a href="achievement/index.html"><img src="images/achievement_title.gif" alt="技術とサービス" /></a></h3>
+	<ul class="clearfix">
+	<li><a href="achievement/list1.html"><img src="solution/images/ban_d_01.jpg" alt="道路、橋脚" /></a></li>
+	<li><a href="achievement/list2.html"><img src="solution/images/ban_d_02.jpg" alt="鉄道" /></a></li>
+	<li class="Right_Exclusion"><a href="achievement/list3.html"><img src="solution/images/ban_d_03.jpg" alt="ダム･河川" /></a></li>
+	<li><a href="achievement/list4.html"><img src="solution/images/ban_d_04.jpg" alt="上・下水道" /></a></li>
+	<li><a href="achievement/list5.html"><img src="solution/images/ban_d_05.jpg" alt="廃棄物処理場" /></a></li>
+	<li class="Right_Exclusion"><a href="achievement/list6.html"><img src="solution/images/ban_d_06.jpg" alt="電力・ガス施設" /></a></li>
+	<li><a href="achievement/list7.html"><img src="solution/images/ban_d_07.jpg" alt="港湾･海岸" /></a></li>
+	<li><a href="achievement/list8.html"><img src="solution/images/ban_d_08.jpg" alt="空港・人工島" /></a></li>
+	</ul>
+</div>
+</div>
+<div id="Right">
+	<ul>
+	    <li><a href="about/video-info.html" target="_top"><img src="images/ban_video.jpg" alt="会社紹介ムービー" /></a></li>
+	    <li class="ban_space"><a href="about/images/FTcsr16_0914.pdf" target="_blank"><img src="images/ban_csr.png" alt="CSRレポート"/></a></li>
+	    <li><a href="netis/index.html"><img src="images/ban_netis.jpg" alt="NETIS登録情報" /></a></li>
+	    <li><a href="kessan/index.html"><img src="images/ban_denshikoukoku.jpg" alt="電子広告" /></a></li>
+	    <li><a href="recruit/index.html"><img src="images/ban_saiyou.jpg" alt="採用情報" /></a></li>
+	    <li><a href="about/event-info.html" target="_top"><img src="images/ban_event.jpg" alt="イベント情報" width="203" height="57" /></a></li>
+	    <li class="ban_space"><a href="kyouryoku/index.html"><img src="images/ban_kyouryokugaisha.jpg" alt="協力会社向け情報ページ" /></a></li>
+	    <li class="ban_space"><a href="http://www.umeshunkyo.or.jp/kids/" target="_blank"><img src="images/ban_minatokids.jpg" alt="みなとを見学しようみなとkids" /></a></li>
+	    <li class="ban_space"><a href="inquiry/index.html"><img src="images/ban_toiawase.jpg" alt="お問い合わせ" /></a></li>
+    </ul>
+</div>
+</div>
+</div><!--Contents-->
+</div><!--Contents_bg-->
+<!-- フッター -->
+<div id="Pagetop" class="Layout_Width"><p><a href="#pagetop"><img src="images/pagetop.gif" alt="ページTOP" /></a></p>
+</div>
+<div id="Footer_Menu_bg">
+	<div id="Footer_Menu" class="Layout_Width clearfix">
+    <p class="Footer_Logo"><img src="images/logo_footer.gif" alt="不動テトラ" /></p>
+    <div class="Footer_Menu_txt">
+        <div class="Footer_Menu1 clearfix">
+            <ul class="clearfix">
+                <li class="No_line"><a href="index.html">ホーム</a></li>
+                <li><a href="solution/index.html">ソリューション・技術</a></li>
+                <li><a href="about/index.html">会社案内</a></li>
+                <li><a href="ir/index.html">株主・投資家情報</a></li>
+                <li><a href="achievement/index.html">実績紹介</a></li>
+            </ul>
+        </div>
+        <div class="Footer_Menu2 clearfix">
+            <ul class="clearfix">
+                <li class="No_line"><a href="inquiry/index.html">お問い合わせ</a></li>
+                <li><a href="sitemap.html">サイトマップ</a></li>
+                <li><a href="recruit/index.html">採用情報</a></li>
+                <li><a href="about/map.html">アクセス</a></li>
+                <li><a href="privacy.html">プライバシーポリシー</a></li>
+                <li><a href="browser.html">推奨ブラウザについて</a></li>
+            </ul>
+        </div>
+    </div>
+  </div>
+</div>
+<div id="Footer_Copyright_bg">
+	<div id="Footer_Copyright" class="Layout_Width">
+    	<p><img src="images/copyright.gif" alt="Copyright Fudo Tetra Corporation All rights reserved." /></p>
+    </div>
+</div>
+
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u=(("https:" == document.location.protocol) ? "https" : "http") + "://www3.fudotetra.co.jp/piwik/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 1]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript';
+    g.defer=true; g.async=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="http://www3.fudotetra.co.jp/piwik/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
+<!-- End Piwik Code -->
+
+</body>
+</html>

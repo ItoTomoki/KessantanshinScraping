@@ -1,0 +1,401 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>お砂糖はカップ印 日新製糖</title>
+<meta name="Keywords" content="砂糖 , カップ印 , 日新製糖 , 料理 , デザート , シュガー , nissin , sugar" />
+<meta name="Description" content="カップ印のお砂糖　日新製糖株式会社ホームページ。家庭用から業務用まで安心で安全な製品のご紹介から会社概要まで情報満載。" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<link rel="shortcut icon" href="favicon.ico" />
+<link href="css/import.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" href="css/size_s.css" type="text/css" title="Default" />
+<link rel="alternate stylesheet" href="css/size_m.css" type="text/css" title="Middle" />
+<link rel="alternate stylesheet" href="css/size_l.css" type="text/css" title="Large" />
+<link rel="stylesheet" href="css/top.css" type="text/css" media="all" />
+<link rel="stylesheet" href="css/print.css" type="text/css" media="print" />
+<!-- E-IR Parts -->
+<link rel="stylesheet" type="text/css" href="ir/ja/parts/main.css">
+<!-- E-IR Parts -->
+<script type="text/javascript" src="js/rollover.js"></script>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jcarousellite.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type='text/javascript' src='js/jquery.cycle.js'></script>
+<script type="text/javascript" src="js/yuga.js" charset="utf-8"></script>
+<script type="text/javascript" src="js/styleswitcher.js"></script>
+<script type="text/javascript" src="js/top.js"></script>
+<script type="text/javascript" src="js/remote.rollover.js"></script>
+<!---->
+<script type="text/javascript" src="js/mainVisual_slide.js"></script>
+<script type="text/javascript" src="js/jquery.belatedPNG.js"></script>
+<!---->
+<link rel="stylesheet" href="css/rollover_js.css" type="text/css" media="all" />
+<link rel="stylesheet" href="css/corptop.css" type="text/css" media="all" />
+<style type="text/css">
+<!--
+body{overflow-x:hidden;}
+-->
+</style>
+<script type="text/javascript">
+$(function()
+{
+	$.get("/blog/index.php",function(data){
+		var rdate = $(data).find("p.entrydated:eq(0)").text();
+		var rname = $(data).find(".entrytitle:eq(0)>span>a").text();
+		var links = $(data).find(".entrytitle:eq(0)>span").find("a").attr("href");
+		var rimg = $(data).find("div.contentbody:eq(0)").find("img:eq(0)").attr("src");
+		$("#resipe_inner").html('<div class="icon"><img src="/img/bn/resipe/icon_new.png" width="50" height="50" alt="new"></div><p>'+ rdate +'</p><div class="rsp"><a href="/blog/' + links + '" target="_blank"><img src="' + rimg + '" alt="'+ rname +'" width="150" height="150"></a></div><p class="menu">'+ rname +'</p><p class="btn"><a href="http://www.nissin-sugar.co.jp/blog/" target="_blank"><img src="/img/bn/resipe/resipe_btn.jpg" width="150" height="22"></a></p>');
+	});
+
+});
+</script>
+<script type="text/javascript" src="ir/ja/parts/scroll.js"></script>
+<link href="ir/ja/parts/scroll.css" rel="stylesheet" type="text/css" media="all" />
+</head>
+<body>
+<div id="pageTop" class="header">
+  <h1><a href="index.html" title="お砂糖はカップ印 日新製糖"><img src="img/hed/logo.gif" width="164" height="55" alt="お砂糖はカップ印 日新製糖" /></a></h1>
+  <ul id="supNavi">
+    <li id="btTop"><a href="index.html">トップページ</a></li>
+    <li id="btSitemap"><a href="sitemap/index.html">サイトマップ</a></li>
+    <li id="btLink"><a href="link/index.html">リンク</a></li>
+  </ul>
+  <p id="btInquiry"><a href="contact/index.html" title="お問い合わせ"><img src="img/hed/bt_inquiry.gif" width="100" height="20" alt="お問い合わせ" class="imgover" /></a></p>
+  <dl>
+    <dt><img src="img/hed/fontsizeBt_tit.gif" alt="文字サイズ" width="64" height="21" /></dt>
+    <dd><a href="#" title="文字サイズ小" onclick="setActiveStyleSheet('Default'); return false;">文字サイズ小</a></dd>
+    <dd><a href="#" title="文字サイズ中" onclick="setActiveStyleSheet('Middle'); return false;">文字サイズ中</a></dd>
+    <dd><a href="#" title="文字サイズ大" onclick="setActiveStyleSheet('Large'); return false;">文字サイズ大</a></dd>
+  </dl>
+  <div id="huSearch">
+    <form method="get" action="http://www.google.co.jp/search" target="_blank" id="search-box" >
+      <p>
+        <input type="text" id="query" name="q" value="" class="google-search-input-default text" />
+        <input type="hidden" id="ie" name="ie" value="utf-8" />
+        <input type="hidden" id="oe" name="oe" value="utf-8" />
+        <input type="hidden" id="domains" name="domains" value="http://www.nissin-sugar.co.jp/" />
+        <input type="hidden" id="sitesearch" name="sitesearch" value="http://www.nissin-sugar.co.jp/" />
+        <input type="image" src="img/hed/bt_search.gif" name="btn_search" id="btn_search" alt="検索"  class="submit btn" />
+      </p>
+    </form>
+  </div>
+  <!--huSearch-->
+</div>
+<!--header-->
+<div class="box_rollover">
+  <ul id="globalNavi" class="thumbnail">
+    <li><a href="product/index.html" title="商品情報"><img src="img/gn/gn_products.gif" alt="商品情報" width="160" height="45" class="imgover" /></a></li>
+    <li><a href="recipe/index.html" title="レシピ"><img src="img/gn/gn_recipe.gif" alt="レシピ" width="160" height="45" class="imgover" /></a></li>
+    <li><a href="enjoy/index.html" title="知る・楽しむ"><img src="img/gn/gn_enjoy.gif" alt="知る・楽しむ" width="160" height="45" class="imgover" /></a></li>
+    <li><a href="company/index.html" title="会社情報"><img src="img/gn/gn_company.gif" alt="会社情報" width="160" height="45" class="imgover" /></a></li>
+    <li><a href="ir/index.html" title="IR情報"><img src="img/gn/gn_ir.gif" alt="IR情報" width="160" height="45" class="imgover" /></a></li>
+    <li><a href="http://www.ilovesweet.jp/" title="公式ネットショップ" target="_blank"><img src="img/gn/gn_shop.gif" alt="公式ネットショップ" width="160" height="45" class="imgover" /></a></li>
+  </ul>
+
+<div id="mainvisual">
+	<!--<span><img src="img/top/mainvisual_bg3.jpg" alt="バック" height="300" width="1300"></span>-->
+
+    <div id="slideBack"></div>
+
+    <div id="slider">
+
+      <div id="slide1"></div>
+      <div id="slide2"></div>
+
+      <div id="slide3"></div>
+      <div id="slide4"></div>
+      <div id="slide5"></div>
+      <div id="slide6"></div>
+      <div id="slide7"></div>
+      <div id="slide8"></div>
+      <div id="slide12"></div>
+      <!-- <div id="slide13"></div> -->
+      <!-- <div id="slide14"></div> -->
+      <!-- <div id="slide15"></div> -->
+    </div>
+
+	<ul class="enlarge">
+    	<li><img src="img/top/mainvisual01.jpg" width="961" height="260" alt="安心のカップ印だから本当の笑顔がうまれる" /></li>
+    	<li><img src="img/top/mainvisual02.jpg" width="961" height="260" alt="安心のカップ印だから本当の笑顔がうまれる" /></li>
+    	<li><img src="img/top/mainvisual03.jpg" width="961" height="260" alt="安心のカップ印だから本当の笑顔がうまれる" /></li>
+    	<li><img src="img/top/mainvisual04.jpg" width="960" height="260" alt="安心のカップ印だから本当の笑顔がうまれる" /></li>
+    	<li><img src="img/top/mainvisual05.jpg" width="961" height="260" alt="安心のカップ印だから本当の笑顔がうまれる" /></li>
+    	<li><img src="img/top/mainvisual06.jpg" width="960" height="260" alt="安心のカップ印だから本当の笑顔がうまれる" /></li>
+    </ul>
+</div>
+  <!--mainvisual-->
+</div>
+<!--box_rollover-->
+<div id="contents">
+<div id="bannerArea" class="clearfix">
+		<div>
+			<div id="resipe">
+				<div class="resipi_top"></div>
+				<div id="resipe_inner">
+				</div>
+				<div class="resipi_btm"></div>
+			</div>
+		</div>
+
+<div class="banner_blank banner_center">
+<a href="http://www.nissin-sugar.co.jp/kokuuma_recipe/" target="_blank" title="きび砂糖コクうまレシピ">
+<img src="img/top/kokuuma_summer_2017.jpg" width="195" height="85" alt="きび砂糖コクうまレシピ"/></a>
+</div>
+
+
+<div id="carouselBox">
+    <div id="carouselInner">
+        <div class="slideBox">
+        <a href="http://www.nissin-sugar.co.jp/abc_cooking/" target="_blank"><img src="img/top/bn_abccoking.jpg" width="198" height="85" alt="ABC Cooking RECIPE" /></a><br />
+        <a href="enjoy/quiz/index.html" target="_top"><img src="img/top/bn_quiz.gif" width="198" height="85" alt="お砂糖クイズ" /></a><br />
+        <a href="enjoy/research/index.html" target="_top"><img src="img/top/bn_about.gif" width="198" height="85" alt="お砂糖研究所" /></a><br />
+        </div>
+        <div class="slideBox">
+        <a href="http://www.ilovesweet.jp/" target="_blank"><img src="img/top/banner.gif" width="198" height="265" alt="日新製糖公式ネットショップ「カップ印マーケット」（砂糖・甘味料の専門店）" /></a><br />
+        </div>
+    </div>
+    <p class="slideButton">
+    <a href="javascript:void(0);"><img src="img/top/btn_left.gif" width="77" height="22" alt="prev" class="prev" /></a>
+    <a href="javascript:void(0);"><img src="img/top/btn_right.gif" width="77" height="22" alt="next" class="next" /></a>
+    </p>
+    </div>
+    <div class="banner_blank">
+    <a href="http://www.dspnet.co.jp/" target="_blank" title="スポーツクラブ・スポーツジム｜ドゥ・スポーツプラザ">
+    <img src="img/top/b_3_150127.gif" width="210" height="90" alt="スポーツクラブ・スポーツジム｜ドゥ・スポーツプラザ" /></a>
+    </div>
+</div>
+
+
+  <div class="main2">
+    <h2><img src="img/top/top_tit01.gif" width="442" height="40" alt="お知らせ" /><span><a href="news/index.html" title="過去のニュース一覧">
+    <img src="img/top/tit_bt01.gif" width="120" height="24" alt="過去のニュース一覧" class="imgover" /></a></span></h2>
+    <dl class="news clearfix">
+    
+      <p>2017年07月31日</p>
+      <p id="bgno"><img src="img/news/ic_recipe.gif" width="65" height="18" alt="レシピ" />
+      <a href="http://www.nissin-sugar.co.jp/blog/" target="_blank">「カップシェフのおいしいレシピ」を追加しました</a></p>
+      <p class= "bt" id="bgno"></p>
+
+      <p>2017年05月02日</p>
+      <p id="bgno"><img src="img/news/ic_news.gif" width="65" height="18" alt="お知らせ" />
+      <a href="/contact/index.html#id14" target="_blank" style="width: 83%;float: right;vertical-align: top;padding-bottom: 5px; padding-top:0;">きび砂糖にはボツリヌス菌のご心配はなく、<br />乳幼児食に安心してお使いいただけます<br />
+      詳細は「よくあるご質問（お砂糖）」をご覧ください</a></p>
+      <p class= "bt" id="bgno"></p>
+
+      <p>2017年04月25日</p>
+      <p id="bgno"><img src="img/news/ic_news.gif" width="65" height="18" alt="お知らせ" />
+      <a href="http://www.ilovesweet.jp/html/page68.html?ref=toppannel" target="_blank">ガラクトオリゴ糖　新商品（３品）を発売しました</a></p>
+      <p class= "bt" id="bgno"></p>
+
+
+      <p>2017年03月31日</p>
+      <p id="bgno"><img src="img/news/ic_company.gif" width="65" height="18" alt="会社情報" />
+      <a href="http://www.nissin-sugar.co.jp/company/governance/index.html" target="_blank">「コーポレート・ガバナンス」を更新しました</a><p class= "bt" id="bgno"></p>
+
+
+
+
+<!--
+      <p>2016年12月01日</p>
+      <p id="bgno"><img src="../img/news/ic_news.gif" width="65" height="18" alt="お知らせ" />
+      <a href="../pdf/161201.pdf" target="_blank">黒みつを買うとお砂糖１年分が当たるプレゼントキャンペーン終了</a>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="../pdf/161201.pdf" target="_blank">のお知らせ</a>
+      <img src="../ir/ja/parts/img/filetype_icon/pdf.gif" align="absmiddle" />（311KB）
+      <p class= "bt" id="bgno"></p>
+
+      <p>2016年11月30日</p>
+      <p id="bgno"><img src="../img/news/ic_news.gif" width="65" height="18" alt="お知らせ" />
+      <a href="../pdf/161130.pdf" target="_blank">お問い合わせメールの受信不具合に関するお詫びとお願い</a><br>　　　　　　　
+      <img src="../ir/ja/parts/img/filetype_icon/pdf.gif" align="absmiddle" />（80KB）</p>
+      <p class= "bt" id="bgno"></p>
+
+      <p>2016年10月31日</p>
+      <p id="bgno"><img src="img/news/ic_ir.gif" width="65" height="18" alt="IR情報" />
+      <a href="http://www.nissin-sugar.co.jp/ir/library/explain/index.html" target="_blank">「2017年3月期 第2四半期決算・通期業績予想 補足説明資料」を</a>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="http://www.nissin-sugar.co.jp/ir/library/explain/index.html" target="_blank">追加しました</a><p class= "bt" id="bgno"></p>
+
+
+
+      <p>2016年07月29日</p>
+      <p id="bgno"><img src="img/news/ic_recipe.gif" width="65" height="18" alt="お知らせ" />
+      <a href="http://www.nissin-sugar.co.jp/kokuuma_recipe/" target="_blank">「笠原将弘さんコクうまレシピ」を追加しました</a></p>
+      <p class= "bt" id="bgno"></p>
+-->
+
+
+    </dl>
+    <h2><img src="img/top/top_tit02.gif" width="442" height="40" alt="ニュースリリース" /><span><a href="ir/news/index.html" title="過去のニュース一覧"><img src="img/top/tit_bt01.gif" width="120" height="24" alt="過去のニュース一覧" class="imgover" /></a></span></h2>
+
+    <!-- E-IR Parts -->
+    <div id="divDataArea" style="margin-bottom:0;"></div>
+    <script type="text/javascript" src="ir/ja/parts/announcement_top.js" charset="utf-8"></script>
+    <script type="text/javascript" src="ir/ja/parts/error.js" charset="utf-8"></script>
+    <!-- E-IR Parts -->
+
+
+    <!--
+    <div id="bannerArea" class="clearfix">
+      <h3><img src="img/top/bn_tit.gif" width="685" height="45" alt="ピックアップ" /></h3>
+        <ul class="firstChild">
+          <li><a href="http://www.nissin-sugar.co.jp/blog/" target="_blank" title="カップシェフのおいしいレシピ"><img src="img/top/bn_nissinsugarblog.jpg" alt="カップシェフのおいしいレシピ" width="210" height="290" /></a></li>
+        </ul>
+        <ul>
+          <li><a href="http://www.nissin-sugar.co.jp/blog/" target="_blank" title="カップシェフのおいしいレシピ"><img src="img/top/bn_abccoking.gif" alt="カップシェフのおいしいレシピ" width="210" height="90" /></a></li>
+          <li><a href="about/quiz/index.html" title="お砂糖クイズ"><img src="img/top/bn_quiz.gif" alt="お砂糖クイズ" width="210" height="90" /></a></li>
+          <li><a href="about/index.html" title="お砂糖研究所"><img src="img/top/bn_about.gif" alt="お砂糖研究所" width="210" height="90" /></a></li>
+        </ul>
+        <ul>
+          <li><a href="http://www.ilovesweet.jp/" target="_blank" title="日新製糖公式ネットショップ「カップ印マーケット」（砂糖・甘味料の専門店）"><img src="img/top/bn_ilovesweet.gif" alt="日新製糖公式ネットショップ「カップ印マーケット」（砂糖・甘味料の専門店）" width="210" height="190" /></a></li>
+          <li><a href="http://www.dspnet.co.jp/" target="_blank" title="スポーツクラブ・スポーツジム｜ドゥ・スポーツプラザ"><img src="img/top/bn_dspnet.gif" width="210" height="90" alt="スポーツクラブ・スポーツジム｜ドゥ・スポーツプラザ" /></a></li>
+        </ul>
+    </div>
+    <!--bannerArea-->
+
+  </div>
+  <!--main-->
+  <div class="sub_top">
+    <div id="subNaviPro">
+    <dl>
+        <dt>
+          <img src="img/sn/sn_0.jpg" alt="商品情報">
+          <span><a href="pdf/seizo.pdf" target="_blank">
+            <img src="img/sn/topmenu_icon.jpg" alt="製造所固有記号一覧表はこちら"></a>
+          </span>
+        </dt>
+     	<dd class="sn_bg">
+     		<ul>
+    			<li><a href="product/home/index.html"><img src="img/sn/sn_1.jpg" alt="家庭用小袋" class="imgover"/></a></li>
+    			<li><a href="product/kibi/index.html"><img src="img/sn/sn_2.jpg" alt="きび砂糖／カルシウム糖" class="imgover"></a></li>
+    			<li><a href="product/pet/index.html"><img src="img/sn/sn_3.jpg" alt="カップシュガー" width="226" height="53" class="imgover"></a></li>
+    			<li><a href="product/lowcalorie/index.html"><img src="img/sn/sn_4.jpg" alt="低カロリー・機能性甘味料" class="imgover"></a></li>
+    			<li><a href="product/cube/index.html"><img src="img/sn/sn_5.jpg" alt="角砂糖" class="imgover"></a></li>
+    			<li><a href="product/coffee/index.html"><img src="img/sn/sn_6.jpg" alt="コーヒーシュガー" class="imgover"></a></li>
+    			<li><a href="product/syrup/index.html"><img src="img/sn/sn_7.jpg" alt="ガムシロップ" class="imgover"></a></li>
+    			<li><a href="product/raw/index.html"><img src="img/sn/sn_8.jpg" alt="黒砂糖／黒みつ／焚黒糖／加工黒糖" class="imgover"></a></li>
+    			<li><a href="product/frost/index.html"><img src="img/sn/sn_9.jpg" alt="フロストシュガー・製菓用" class="imgover"></a></li>
+    			<li><a href="product/powder/index.html"><img src="img/sn/sn_10.jpg" alt="粉糖" class="imgover"></a></li>
+    			<li><a href="product/lock/index.html"><img src="img/sn/sn_11.jpg" alt="氷砂糖／果実酒用" class="imgover"></a></li>
+    			<li><a href="product/fruit/index.html"><img src="img/sn/sn_12.jpg" alt="果糖／フルーツシュガー" class="imgover" /></a></li>
+    			<li><a href="product/origo/index.html"><img src="img/sn/sn_13.jpg" alt="カップオリゴ" class="imgover"></a></li>
+    			<li><a href="product/business/index.html"><img src="img/sn/sn_14.jpg" alt="業務用商品" class="imgover" ></a></li>
+    		</ul>
+    	</dd>
+    </dl>
+
+    <!--
+      <p><img src="img/sn/sn00.jpg" width="247" height="52" alt="商品情報" /></p>
+      <p><img src="img/sn/sn01.jpg" width="247" height="53" alt="家庭用小袋" /></p>
+      <p><img src="img/sn/sn02.jpg" width="247" height="53" alt="きび砂糖／カルシウム糖" /></p>
+      <p><img src="img/sn/sn03.jpg" width="247" height="53" alt="カップシュガー" /></p>
+      <p><img src="img/sn/sn04.jpg" width="247" height="53" alt="低カロリー・機能性甘味料" /></p>
+      <p><img src="img/sn/sn05.jpg" width="247" height="53" alt="角砂糖" /></p>
+      <p><img src="img/sn/sn06.jpg" width="247" height="53" alt="コーヒーシュガー" /></p>
+      <p><img src="img/sn/sn07.jpg" width="247" height="53" alt="ガムシロップ" /></p>
+      <p><img src="img/sn/sn08.jpg" width="247" height="53" alt="黒砂糖／黒みつ／焚黒糖" /></p>
+      <p><img src="img/sn/sn09.jpg" width="247" height="53" alt="フロストシュガー・製菓用" /></p>
+      <p><img src="img/sn/sn10.jpg" width="247" height="53" alt="粉糖" /></p>
+      <p><img src="img/sn/sn11.jpg" width="247" height="53" alt="氷砂糖／果実酒用" /></p>
+      <p><img src="img/sn/sn12.jpg" width="247" height="53" alt="果糖／フルーツシュガー" /></p>
+      <p><img src="img/sn/sn13.jpg" width="247" height="53" alt="カップオリゴ" /></p>
+      <p><img src="img/sn/sn14.jpg" width="247" height="63" alt="業務用製品" /></p>
+      -->
+
+      <!--
+      <ul>
+        <li><a href="products/home/index.html"><img src="img/sn/sn00.jpg" width="40" height="40" alt="家庭用小袋" />家庭用小袋</a></li>
+        <li><a href="products/pet/index.html"><img src="img/sn/snimg_pet.jpg" width="40" height="40" alt="ペットシュガー" />ペットシュガー</a></li>
+        <li><a href="products/coffee/index.html"><img src="img/sn/snimg_coffee.jpg" width="40" height="40" alt="コーヒーシュガー" />コーヒーシュガー</a></li>
+        <li><a href="products/cube/index.html"><img src="img/sn/snimg_cube.jpg" width="40" height="40" alt="角砂糖" />角砂糖</a></li>
+        <li><a href="products/syrup/index.html"><img src="img/sn/snimg_syrup.jpg" width="40" height="40" alt="ガムシロップ" />ガムシロップ</a></li>
+        <li><a href="products/lowcalorie/index.html"><img src="img/sn/snimg_lowcalorie.jpg" width="40" height="40" alt="低カロリー・機能性甘味料" />低カロリー・機能性甘味料</a></li>
+        <li><a href="products/fruit/index.html"><img src="img/sn/snimg_fruit.jpg" width="40" height="40" alt="果糖・フルーツシュガー" />果糖・フルーツシュガー</a></li>
+        <li><a href="products/raw/index.html"><img src="img/sn/snimg_raw.jpg" width="40" height="40" alt="黒砂糖・焚黒糖" />黒砂糖・焚黒糖</a></li>
+        <li><a href="products/frost/index.html"><img src="img/sn/snimg_frost.jpg" width="40" height="40" alt="フロストシュガー・製菓用" />フロストシュガー・製菓用</a></li>
+        <li><a href="products/powder/index.html"><img src="img/sn/snimg_powder.jpg" width="40" height="40" alt="粉糖" />粉糖</a></li>
+        <li><a href="products/lock/index.html"><img src="img/sn/snimg_lock.jpg" width="40" height="40" alt="氷砂糖" />氷砂糖</a></li>
+        <li><a href="products/business/index.html"><img src="img/sn/snimg_business.jpg" width="40" height="40" alt="業務用製品" />業務用製品</a></li>
+      </ul>-->
+    </div>
+    <!--subNavi-->
+  </div>
+  <!--sub-->
+</div>
+<!-- contents End -->
+
+<!-- E-IR Parts --> 
+<a href="javascript:void(0)" class="pagetop"><img src="img/common/top.png" alt="TOP"></a> 
+<!-- / E-IR Parts -->
+
+<div id="footer">
+  <div class="container clearfix">
+    <ul>
+      <li><a href="privacy/index.html">プライバシーポリシー</a></li>
+    </ul>
+    <p id="copyright">Copyright (C) Nissin Sugar Co., Ltd. All Rights Reserved.<img src="img/fot/fotlogo.gif" width="31" height="30" alt="日新製糖" /></p>
+  </div>
+  <!--container-->
+</div>
+<!-- #footer End -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-39103830-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!--container-->
+<!-- Google Code for &#12513;&#12452;&#12531;&#12479;&#12464; -->
+
+<!-- Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. For instructions on adding this tag and more information on the above requirements, read the setup guide: google.com/ads/remarketingsetup -->
+
+<script type="text/javascript">
+
+/* <![CDATA[ */
+
+var google_conversion_id = 987463264;
+
+var google_conversion_label = "XJIlCLiDiQUQ4Pzt1gM";
+
+var google_custom_params = window.google_tag_params;
+
+var google_remarketing_only = true;
+
+/* ]]> */
+
+</script>
+
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+
+</script>
+
+<noscript>
+
+<div style="display:inline;">
+
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/987463264/?value=0&amp;label=XJIlCLiDiQUQ4Pzt1gM&amp;guid=ON&amp;script=0"/>
+
+</div>
+
+</noscript>
+
+<script type="text/javascript" language="javascript">
+
+var yahoo_retargeting_id = 'JKDMB4W1D4';
+
+var yahoo_retargeting_label = '';
+
+</script>
+
+<script type="text/javascript" language="javascript" src="//b92.yahoo.co.jp/js/s_retargeting.js"></script></div>
+<!-- #footer End -->
+</body>
+</html>

@@ -1,0 +1,379 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="「バイク王&カンパニー」は、中古バイク買取、中古バイク販売、バイクレンタル、駐車場事業「パーク王」を運営しています。" />
+<meta name="keywords" content="バイク王&カンパニー,バイク買取,中古バイク,バイク販売,レンタルバイク,駐車場事業" />
+
+
+<script type="text/javascript" src="common/js/jquery-1.6.1.min.js"></script> <!-- fontChange -->
+<script type="text/javascript" src="common/js/jquery.cookie.js"></script> <!-- fontChange -->
+<script type="text/javascript" src="common/js/jquery.font_size.js"></script> <!-- fontChange -->
+<script type="text/javascript" src="common/js/jquery.js"></script> <!-- fontChange -->
+<script type="text/javascript" src="common/js/jquery_tools.js"></script> <!-- TabChange -->
+<script type="text/javascript" src="common/js/jquery.exfixed-1.3.2.js"></script> <!-- for IE6 -->
+<script>  
+  $(function(){  
+      $('#bike-o_service_box').exFixed(); // for IE6  
+  });  
+</script>  
+
+<script type="text/javascript">
+<!--
+$(function() {
+$(".tab").tabs("#imgspace > div", {
+tabs: 'a',
+current: 'current',
+effect: 'fade',
+initialIndex: 0,
+event: 'mouseover',
+rotate: true,
+fadeInSpeed: "tab",
+fadeOutSpeed: "slow",
+history: false
+}).slideshow({
+autoplay: true,
+autopause: true,
+interval: 5000,
+clickable: true,
+api: false
+});
+});
+-->
+</script> <!-- TabChange -->
+
+<title>株式会社バイク王＆カンパニー</title>
+<link href="common/css/reset.css" rel="stylesheet" type="text/css" />
+<link href="common/css/top_base.css" rel="stylesheet" type="text/css" />
+<link href="common/css/print.css" rel="stylesheet" type="text/css"  media="print" />
+
+<!-- GoogleAnalyticsタグ -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1138540-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- GoogleAnalyticsタグ// -->
+</head>
+
+<body>
+<div id="wrapper">
+
+	<div id="header">
+      <div id="headerTop">
+        <p id="siteID"><a href="/">バイクのことならBIKE王</a></p>
+        
+        <!--[ ▽fontChangeArea ]-->
+        <ul id="fontChange">
+          <li id="fontsize">文字サイズ</li>
+          <li id="fontS"><img src="common/img/font_sizeS_off.gif" width="20"height="20" alt="小" /></li>
+          <li id="fontM"><img src="common/img/font_sizeM_off.gif" width="20"height="20" alt="中" /></li>
+          <li id="fontL"><img src="common/img/font_sizeL_off.gif" width="20"height="20" alt="大" /></li>
+        </ul>        
+        <!--[ △fontChangeArea ]-->
+        
+		<!--[ ▽searchArea ]-->
+        <ul id="searchArea">  
+          <li><form name="searchform" id="searchform" method="get" action="http://www.google.co.jp/search" target="_blank">  
+            <input name="q" id="keywords" value="" type="text" />  
+            <input type="image" src="/common/img/btn_search2.gif" alt="検索" name="searchBtn" id="searchBtn" />
+            <input type="hidden" name="sitesearch" value="www.8190.co.jp/">
+            <input type="hidden" name="domains" value="www.8190.co.jp/">
+            <input type="hidden" name="hl" value="ja">
+            <input type="hidden" name="num" value="20">
+            <input type="hidden" name="ie" value="UTF-8">
+            <input type="hidden" name="oe" value="UTF-8">
+            </form></li>  
+        </ul>
+        <!--[ △searchArea ]-->
+        
+        <!--[ ▽primaryNav ]-->
+        <ul id="primaryNav">
+          <li id="nav_site"><a href="guidance/site.html">フィッシング詐欺サイト注意</a></li>
+          <li id="nav_support"><a href="support/index.html">お客様相談窓口</a></li>
+          <li id="nav_sitemap"><a href="sitemap/index.html">サイトマップ</a></li>
+          <li id="nav_english"><a href="./en/index.html">English</a></li>
+          
+</ul>
+        <!--[ △primaryNav ]-->
+      </div>
+      
+      
+      <!--[ ▽globalNav ]-->
+      <ul id="globalNav">
+        <li id="nav_home"><a href="/">ホーム</a></li>
+        <li id="nav_outline"><a href="outline/index.html">企業情報</a></li>
+        <li id="nav_business"><a href="business/index.html">事業内容</a></li>
+        <li id="nav_ir"><a href="ir/index.html">IR情報</a></li>
+        <li id="nav_recruit"><a href="career/index.html">採用情報</a></li>
+      </ul>
+      <!--[ △globalNav ]-->     
+      
+    </div>
+    <!--[ △header ]-->
+    
+    <!--[ ▽promotionArea ]-->
+    <div id="promoArea">
+      <div id="inner-promoArea">
+        <div id="imgspace">
+          <div id="main01" style="display:block;"></div>
+          <div id="main02" style="display:block;"></div>
+          <div id="main03" style="display:block;"></div>
+          </div>
+        <div class="tab">
+          <ul>
+            <li>
+              <a href="https://www.8190.jp/" target="_blank" class="current">
+              <p id="sub01">バイクを売る</p>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.8190.jp/wish/ds/" target="_blank" class="current">
+              <p id="sub02">バイクを買う</p>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.8190.jp/rideon/park/" target="_blank" class="current">
+              <p id="sub03">駐車場を探す</p>
+              </a>
+            </li>
+            </ul>
+          </div>
+      </div>
+    </div>
+	<!--[ △promotionArea ]-->
+
+	<!--[ ▽inner-wrapper ]-->
+	<div id="inner-wrapper">
+    
+    <!--[ ▽contentsArea ]-->
+    <div id="contents" class="cf">
+      
+    <!--[ ▽mainColumn ]-->	
+      <div id="mainColumn_700">
+           
+    <!--[ ▽HotNews ]-->
+          <div class="template">
+          <div>
+                   
+            <div>
+              <p id="sttle_Hotnews"><img src="common/img/sttl_topics.gif" width="62" height="19" alt="Topics" /></p>
+            </div>
+            <dl id="infoList">
+            <dt>2017年7月6日</dt>
+             <dd><img src="common/img/icon_news_hot.gif" width="40" height="12" alt="HOT" /><a href="http://www.net-ir.ne.jp/presen/33771707/pc/index.html" target="_blank">2017年11月期 第2四半期決算説明会動画を掲載しました</a></dd>
+            <dt>2017年7月5日</dt>
+            <dd><img src="common/img/icon_news_hot.gif" width="40" height="12" alt="HOT" /><a href="ir/index.html">2017年11月期 第2四半期 決算説明会を7月5日(水)に行いました</a></dd>
+            <dt>2017年7月4日</dt>
+            <dd><img src="common/img/icon_news_hot.gif" width="40" height="12" alt="HOT" /><a href="news/pdf/release/2017/170704b.pdf">中間配当金支払いに関する取締役会決議のご通知</a><img src="/common/img/arn_icon_pdf.gif" width="17" height="17" alt="PDF" /></dd></a></dd>
+            <dt>2017年7月4日</dt>
+            <dd><img src="common/img/icon_news_hot.gif" width="40" height="12" alt="HOT" /><a href="ir/index.html">2017年11月期 第2四半期 決算発表を7月4日(火)に行いました</a></dd>
+            </dl>
+          </div>
+        </div>
+        <!--[ △HotNews ]-->
+
+        <!--[ ▽info ]-->
+        <div class="template">
+          <div>
+          
+          　<div id="info_TTL_700" class="cf">
+          
+             <div class="float_L">
+              <p id="sttle_info"><img src="common/img/sttl_info.gif" width="120" height="17" alt="Information" /></p>
+             </div>
+             
+             <div id="info_rssBtn" class="float_R">
+				<ul>
+                <li id="btn_release"><a href="news/index.html">リリース一覧</a></li>
+           	  </ul>           
+             </div>
+            </div>
+           
+            <dl id="infoList">
+             <dt>2017年8月1日</dt>
+             <dd><img src="common/img/icon_info_new.gif" width="40" height="12" alt="NEW" /><img src="common/img/icon_info_pr.gif" width="40" height="12" alt="PR情報" /><img src="common/img/icon_info_release.gif" width="40" height="12" alt="リリース" /><a href="news/2017/170801.html">「BikeJIN祭り＠北海道・白老 with バイク王 2017」～バイク王が今年も冠協賛します！～</a></dd>
+               
+             <dt>2017年7月31日</dt>
+             <dd><img src="common/img/icon_info_new.gif" width="40" height="12" alt="NEW" /><img src="common/img/icon_info_pr.gif" width="40" height="12" alt="PR情報" /><img src="common/img/icon_info_release.gif" width="40" height="12" alt="リリース" /><a href="news/2017/170731.html">＜バイク小売販売開始店舗のお知らせ＞8月に2店舗がオープン、小売販売店 続々展開中！</a></dd>
+              
+             <dt>2017年7月20日</dt>
+             <dd><img src="common/img/icon_info_new.gif" width="40" height="12" alt="NEW" /><img src="common/img/icon_info_pr.gif" width="40" height="12" alt="PR情報" /><img src="common/img/icon_info_release.gif" width="40" height="12" alt="リリース" /><a href="news/2017/170720.html">「電話申し込み限定!! 必ずもらえる5,000円！」キャンペーン実施～新TVCMもあわせてオンエア！～</a></dd>
+
+             <dt>2017年7月7日</dt>
+             <dd><img src="common/img/icon_info_ir.gif" width="40" height="12" alt="IR情報" /><a href="ir/library/securities.html">第20期 第2四半期報告書を掲載いたしました</a></dd>
+            
+             <dt>2017年7月5日</dt>
+             <dd><img src="common/img/icon_info_pr.gif" width="40" height="12" alt="PR情報" /><img src="common/img/icon_info_release.gif" width="40" height="12" alt="リリース" /><a href="news/2017/170705.html">『バイク王 バイクコンシェルジュ』新規拠点開設のお知らせ
+～2拠点目は「バイクワールド りんくうシークル店」内！～</a></dd>
+              
+             <dt>2017年7月4日</dt>
+              <dd><img src="common/img/icon_info_ir.gif" width="40" height="12" alt="IR情報" /><a href="ir/library/report.html">2017年11月期 第2四半期 決算説明資料を掲載いたしました</a></dd>
+            
+             <dt>2016年7月4日</dt>
+              <dd><img src="common/img/icon_info_ir.gif" width="40" height="12" alt="IR情報" /><a href="ir/library/result.html">平成29年11月期 第2四半期 決算短信を掲載いたしました</a></dd>
+              
+              <dt>2017年7月4日</dt>
+              <dd><img src="common/img/icon_info_lab.gif" width="40" height="12" alt="LAB" /><a href="news/2017/170704.html">バイク王 バイクライフ研究所　『リセール・プライス』ランキングを発表！<br />
+『カワサキ・ZRX1200 DAEG』が3連覇！(対象期間2017年3月～5月)</a></dd>
+
+                                       
+            
+            </dl>
+          </div>
+        </div>
+        <!--[ △info ]-->
+        
+        <!--[ ▽pageTop ]-->
+        <div class="cf">
+          <p class="pagetop"><a href="#header">ページトップへ</a></p>
+        </div>
+        <!--[ △pageTop ]-->
+        
+      </div>
+      <!--[ △mainColumn ]-->	
+      
+      <!--[ ▽subColumn ]-->	
+      <div id="subColumn_220">
+        
+        <!--[ ▽bunnerArea ]-->	
+        <ul id="bunnerArea_220">
+          <li id="bnr_company"><a href="outline/glance.html">一目でわかるバイク王＆カンパニー</a></li>
+          <li id="bnr_Invester"><a href="ir/">株主・投資家の皆さまへ</a></li>
+          <li id="bnr_Recruit"><a href="career/index.html">新卒採用情報</a></li>
+          <li id="bnr_financeTop"><a href="http://stocks.finance.yahoo.co.jp/stocks/detail/?code=3377.T" target="_blank">現在の株価</a></li>
+          <li id="bnr_BikeLife"><a href="lab/index.html">バイク王 バイクライフ研究所</a></li>
+          <li id="bnr_55pjt"><a href="55project/index.html">55プロジェクト</a></li>
+        </ul>
+        <!--[ △bunnerArea ]-->
+             
+        <!--[ ▽publicityArea ]-->	
+        <ul id="publicityArea">
+          <li id="sttle_pabulicity"><img src="common/img/publicity_header.gif" width="106" height="13" alt="パブリシティ情報" /></li>
+          <li id="btn_pabulicity"><a href="publicity/index.html">パブリシティ一覧ページへ</a></li>
+        </ul>
+        <dl class="publicityList">
+          
+          
+        <!--[ △publicityArea ]-->
+        
+        <!--[ ▽NortonArea ]-->	
+        <div id="img_Norton" class="cf">
+        
+          <div id="js_Norton" class="float_L">
+            <script type="text/javascript" src="https://seal.verisign.com/getseal?host_name=www.8190.co.jp&amp;size=S&amp;use_flash=NO&amp;use_transparent=YES&amp;lang=ja"></script>
+          </div>
+
+          <div class="float_R">
+           <img src="common/img/img_norton.gif" width="108" height="53" alt="ノートン" />
+          </div>
+
+        </div>
+        <!--[ △NortonArea ]-->
+
+        <!--[ ▽corporateArea ]-->	
+        <ul id="corporateArea_Top">
+          <li><a href="guidance/index.html">ご利用案内</a></li>
+          <li><a href="policy/index.html">個人情報保護方針</a></li>
+          <li><a href="kobutsu/index.html">古物営業法に基づく表示</a></li>
+        </ul>
+        <!--[ △corporateArea ]-->
+      </div>
+      <!--[ △subColumn ]-->	
+
+    </div>
+    <!--[ △contentsArea ]-->
+
+    
+</div>
+<!--[ △inner-wrapper ]-->
+
+      <!--[ ▽footer ]-->
+      <div id="footer">
+        <div id="inner-footer">
+          <ul class="cf">
+            
+            <li>
+              <dl>
+                <dt><a href="./outline/index.html">企業情報</a></dt>
+                <dd><a href="./outline/message.html">経営者メッセージ</a></dd>
+                <dd><a href="./outline/vision.html">経営理念・社訓・企業行動憲章</a></dd>
+                <dd><a href="./outline/profile.html">会社概要</a></dd>
+                <dd><a href="./outline/history.html">沿革</a></dd>
+                <dd><a href="./outline/organization.html">組織体制</a></dd>
+                <dd><a href="./outline/executive.html">役員一覧</a></dd>
+                <dd><a href="./outline/shoplist.html">オフィス・店舗一覧</a></dd>
+                <dd><a href="./outline/glance.html">ひと目でわかるバイク王＆カンパニー</a></dd>
+                <dd><a href="http://saigai.8190.co.jp/" target="_blank">従業員用災害掲示板</a><img src="/common/img/icon_file_file2.gif" width="10" height="10" alt="外部リンク" /></dd>
+              </dl>
+            </li>
+            
+            <li>
+              <dl>
+                <dt><a href="./business/index.html">事業内容</a></dt>
+                <dd><a href="./business/activity.html">事業の概要</a></dd>
+                <dd><a href="./business/brand/index.html">主な事業展開</a></dd>
+                <dd><a href="./business/advantage.html">当社の強み</a></dd>
+                
+              </dl>
+            </li>
+            
+            <li>
+              <dl>
+                <dt><a href="./ir/index.html">IR情報</a></dt>
+                <dd><a href="./ir/strategy/index.html">経営方針・戦略</a></dd>
+                <dd><a href="./ir/finance/index.html">業績ハイライト・月次開示情報</a></dd>
+                <dd><a href="./ir/stock/index.html">株式情報</a></dd>
+                <dd><a href="./ir/library/index.html">IRライブラリー</a></dd>
+                <dd><a href="./ir/schedule/index.html">IRスケジュール</a></dd>
+                <dd><a href="./ir/personal/index.html">個人投資家の皆様へ</a></dd>
+                <dd><a href="./ir/mail/index.html">IRメール配信サービス</a></dd>
+                <dd><a href="./ir/faq/index.html">IR よくあるご質問</a></dd>
+                <dd><a href="./ir/koukoku/index.html">電子公告</a></dd>
+                <dd><a href="./attention/index.html">免責事項</a></dd>
+              </dl>
+            </li>
+            
+            <li>
+              <dl>
+                <dt><a href="career/index.html">採用情報</a></dt>
+                <dd><a href="career/job/index.html">職種紹介</a></dd>
+                <dd><a href="career/education/index.html">人事制度・教育制度</a></dd>
+                <dd><a href="career/faq/index.html">採用 よくあるご質問</a></dd>
+              </dl>
+            </li>     
+            
+            <li>
+              <dl>
+                <dt>事業展開</dt>
+                <dd><a href="https://www.8190.jp/" target="_blank">バイクを売る</a><img src="/common/img/icon_file_file2.gif" width="10" height="10" alt="外部リンク" /></dd>
+                <dd><a href="https://www.8190.jp/wish/ds/" target="_blank">バイクを買う</a><img src="/common/img/icon_file_file2.gif" width="10" height="10" alt="外部リンク" /></dd>
+                <dd><a href="https://www.8190.jp/rideon/park/" target="_blank">駐車場を探す</a><img src="/common/img/icon_file_file2.gif" width="10" height="10" alt="外部リンク" /></dd>
+              </dl>
+            </li>
+
+          </ul>
+          <div id="endSiteID">
+            <p id="logo"><a href="/">バイクのことならBIKE王</a></p>
+            <p id="copyright">バイクのことならバイク王
+ Copyright &copy;BIKE O &amp; COMPANY Ltd. All rights reserved.</p>
+          </div>
+        </div>
+	    <!--[ △footer ]-->
+
+
+  
+</div>
+</div>
+
+
+</body>
+</html>

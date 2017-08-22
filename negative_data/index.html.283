@@ -1,0 +1,498 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ja" dir="ltr" xmlns:og="http://ogp.me/ns#">
+<head>
+<title>-伊藤ハム ホームページ-</title>
+<meta http-equiv="Content-Type" content="text/html; charset=shift_jis">
+<meta name="copyright" content="All Rights Reserved.Copyright(C) ITOHAM FOODS inc. ">
+<meta name="keywords" content="伊藤ハム,いとうはむ,ITOHAM,ハム,献立,料理,レシピ,ソーセージ,ウインナー,ウィンナー">
+<meta name="description" content="伊藤ハムの商品紹介　ハム・ソーセージ・ウインナー　や献立・料理レシピなど、食卓をおいしく豊かにする情報や、会社情報やIR情報などがあります。">
+<meta property="og:title" content="伊藤ハム ホームページ" />
+<meta property="og:type" content="food" />
+<meta property="og:url" content="http://www.itoham.co.jp/index.html" />
+<meta property="og:image" content="http://www.itoham.co.jp/img_top/itoham.gif" />
+<meta property="og:site_name" content="伊藤ハム" />
+<meta property="fb:admins" content="100002164421393" />
+
+<link rel="alternate" media="handheld" href="http://www.itoham.co.jp/mob/" />
+<link rel="stylesheet" href="common/index.css" type="text/css">
+<script type="text/JavaScript" language="JavaScript" src="common/jquery.js"></script>
+<script type="text/javascript" language="javascript" src="common/carouFredSel.js"></script>
+<script type="text/javascript" language="javascript" src="common/mainimage.js"></script>
+<script type="text/javascript" language="JavaScript" src="common/java/ga.js"></script>
+</head>
+<body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.3";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<!--ヘッダーstart-->
+<script type="text/javascript">
+(function() {
+var ua = navigator.userAgent;
+if ( !!ua.match(/ip(hone|od)/i) || ( !!ua.match(/android/i) && !!ua.match(/mobile/i) )  ) {
+document.write('<div><a href="/sp/"><img src="/sp/img/btn_goto_smartphone.jpg" width="100%" border="0" alt="スマートフォンの方はこちら"></div');
+}
+})();
+</script>
+
+<!-- container -->
+<div id="container">
+
+<!-- header -->
+<div id="header">
+<h1><img src="img_top/logo_itoham.gif" alt="伊藤ハム" width="110" height="25"></h1>
+<ul>
+<li><a href="/english/index.html">English</a></li>
+<li class="form"><a href="/contact/top.html">お客様窓口</a>
+<form name="SS_searchForm" id="SS_searchForm" action="http://search.itoham.co.jp/" method="get" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="site" value="OHRRB5X5" />
+<input type="hidden" name="charset" value="shift_jis" />
+<input type="hidden" name="design" value="1" />
+<input type="text" name="query" value="" id="SS_searchQuery" maxlength="100" />
+<input type="image" src="img_top/btn_search.gif" name="btn_search" border="0" id="SS_searchSubmit" alt="検索">
+</form></li>
+</ul>
+</div>
+<!-- /header -->
+
+<!-- content -->
+<div id="content">
+
+<div id="mainimage">
+<ul class="carousel">
+</ul>
+<div class="clearfix"></div>
+<div class="pagination" id="mainimage_pag"></div>
+</div>
+
+
+<div id="mainmenu">
+<ul
+><li><a href="/product/product.html"><img src="img_top/menu01_off.gif" alt="商品情報" width="200" height="53" class="rollover"></a></li
+><li><a href="/recipe/"><img src="img_top/menu02_off.gif" alt="レシピ" width="200" height="53" class="rollover"></a></li
+><li><a href="/information/index.html"><img src="img_top/menu03_off.gif" alt="お役立ち情報" width="200" height="53" class="rollover"></a></li
+><li><a href="/corporate/index.html"><img src="img_top/menu04_off.gif" alt="企業情報" width="200" height="53" class="rollover"></a></li
+><li><a href="/corporate/company/saiyo/index.html" target="_blank"><img src="img_top/menu05_off.gif" alt="採用情報" width="201" height="53" class="rollover"></a></li
+></ul>
+</div>
+
+
+<!-- 緊急告知エリア -->
+
+<!-- /緊急告知エリア -->
+
+<!-- recipe area -->
+<div id="recipeArea">
+<div class="outer">
+<div class="inner">
+<div class="carousel">
+
+<div class="item">
+<a href="/CGI/recipe/detail.cgi?recipe_seq=00002456" class="month">
+<img src="/recipe/photo/00002456_rcp_m.jpg" width="160" height="145" class="photo" />
+<dl>
+<dt><img src="img_top/recipe_month.gif" alt="今月のレシピ" width="293" height="54" /></dt>
+<dd class="name">袋麺で作る山で食べたいナポリタン！</dd>
+<dd>山で食べたいご馳走と言えば袋麺！袋麺を使った簡単アレンジレシピなので、キャンプ…</dd>
+</dl>
+</a>
+<a href="/CGI/recipe/detail.cgi?recipe_seq=00002453" class="week">
+<img src="/recipe/photo/00002453_rcp_m.jpg" width="160" height="145" class="photo" />
+<dl>
+<dt><img src="img_top/recipe_week.gif" alt="今週のレシピ" width="293" height="54" /></dt>
+<dd class="name">夏野菜とサラダチキンの三杯酢</dd>
+<dd>手軽でおいしいサラダチキンを使って、サッパリとした和え物を作ってみましょう。彩…</dd>
+</dl>
+</a>
+</div>
+
+<div class="item">
+
+<a href="/CGI/recipe/detail.cgi?recipe_seq=00002456" class="rank01">
+<img src="/recipe/photo/00002456_rcp_m.jpg" width="145" height="130" class="photo" />
+<dl>
+<dt><img src="img_top/recipe_rank01.gif" alt="ランキング1位のレシピ" width="166" height="61" /></dt>
+<dd class="name">袋麺で作る山で食べたいナポリタン！</dd>
+</dl>
+</a>
+
+<a href="/CGI/recipe/detail.cgi?recipe_seq=00002454" class="rank02">
+<img src="/recipe/photo/00002454_rcp_m.jpg" width="145" height="130" class="photo" />
+<dl>
+<dt><img src="img_top/recipe_rank02.gif" alt="ランキング1位のレシピ" width="166" height="61" /></dt>
+<dd class="name">ロースハム入り出し巻きサンド</dd>
+</dl>
+</a>
+
+<a href="/CGI/recipe/detail.cgi?recipe_seq=00002301" class="rank03">
+<img src="/recipe/photo/00002301_rcp_m.jpg" width="145" height="130" class="photo" />
+<dl>
+<dt><img src="img_top/recipe_rank03.gif" alt="ランキング1位のレシピ" width="166" height="61" /></dt>
+<dd class="name">ポークビッツとトマトの夏ドリア</dd>
+</dl>
+</a>
+
+</div>
+
+<div class="item">
+<p><img src="img_top/recipe_season.gif" alt="季節のレシピ" width="159" height="173" /></p>
+
+<a href="/CGI/recipe/detail.cgi?recipe_seq=00002464" class="season01">
+<img src="/recipe/photo/00002464_rcp_m.jpg" width="130" height="118" class="photo" />
+<dl>
+<dd class="name">ベーコンとエリンギ、ズッキーニのグリルロール</dd>
+</dl>
+</a>
+
+<a href="/CGI/recipe/detail.cgi?recipe_seq=00002465" class="season02">
+<img src="/recipe/photo/00002465_rcp_m.jpg" width="130" height="118" class="photo" />
+<dl>
+<dd class="name">生ハムとハニーナッツのブーケサラダ</dd>
+</dl>
+</a>
+
+<a href="/CGI/recipe/detail.cgi?recipe_seq=00002466" class="season03">
+<img src="/recipe/photo/00002466_rcp_m.jpg" width="130" height="118" class="photo" />
+<dl>
+<dd class="name">生ハムの洋風寿司</dd>
+</dl>
+</a>
+
+</div>
+
+</div>
+<div class="clearfix"></div>
+<a class="prev" id="recipe_prev" href="#"><span>prev</span></a>
+<a class="next" id="recipe_next" href="#"><span>next</span></a>
+</div>
+</div>
+
+</div>
+<!-- /recipe area -->
+
+<div id="contentsArea">
+
+<div class="outer">
+<div id="leftArea">
+<div class="block product">
+<h2><img src="img_top/title_product.gif" alt="商品紹介" width="280" height="40"></h2>
+<ul class="button">
+<li><a href="/product/product.html#00000001"><img src="img_top/contents_product01_off.gif" alt="ハム・ ベーコン" width="61" height="32" class="rollover"></a></li>
+<li><a href="/product/product.html#00000002"><img src="img_top/contents_product02_off.gif" alt="ソーセージ" width="68" height="32" class="rollover"></a></li>
+<li><a href="/product/product.html#00000003"><img src="img_top/contents_product03_off.gif" alt="調理品" width="62" height="32" class="rollover"></a></li>
+<li><a href="/product/product.html#00000004"><img src="img_top/contents_product04_off.gif" alt="チーズ" width="62" height="32" class="rollover"></a></li>
+</ul>
+<div class="banner_carousel">
+<ul>
+<li><a href="/product/brand/grandalt/index.html"><img src="img_top/banner_grandalt.jpg" alt="グランドアルトバイエルン" width="204" height="58"></a></li>
+<li><a href="/product/brand/asafresh/"><img src="img_top/banner_asafresh.jpg" alt="朝のフレッシュ" width="204" height="58"></a></li>
+<li><a href="http://www.beach.jp/community/ITOHAM-GOKIGEN/index?utm_source=corporate_site&utm_medium=top_banner" target="_blank"><img src="img_top/banner_gokigen.jpg" alt="ごきげんごはん" width="204" height="58"></a></li>
+<li><a href="/product/brand/lapizza/index.html"><img src="img_top/banner_lapizza.jpg" alt="ラ・ピッツァ" width="204" height="58"></a></li>
+<li><a href="pole/index.html" target="_blank"><img src="img_top/banner_pole.jpg" alt="ポールウインナー" width="204" height="58"></a></li>
+</ul>
+</div>
+<p><a href="/product/product.html">その他の商品情報はこちら</a></p>
+</div>
+<div class="block quality">
+<h2><img src="img_top/title_quority.gif" alt="伊藤ハムの品質情報" width="280" height="40"></h2>
+<dl class="first_child">
+<dt><a href="/corporate/safety/"><img src="img_top/banner_safety.gif" width="103" height="67"></a></dt>
+<dd><a href="/corporate/safety/">安全・安心への取り組み</a></dd>
+</dl>
+<dl>
+<dt><a href="/product/place/index.html"><img src="img_top/banner_place.gif" width="103" height="67"></a></dt>
+<dd><a href="/product/place/index.html">商品の原料原産地情報</a></dd>
+</dl>
+<dl>
+<dt><a href="/farm/anzen/tracea/index.html"><img src="img_top/banner_tracea.gif" width="103" height="67"></a></dt>
+<dd><a href="/farm/anzen/tracea/index.html">安全・安心システム<br>
+国産牛肉ロット番号の<br>
+確認はこちらから</a></dd>
+</dl>
+</div>
+</div>
+
+<div id="centerArea">
+<div class="block pickup" style="padding: 0 0 1px;">
+<h2><img src="img_top/title_pickup.gif" alt="ピックアップ" width="410" height="40"></h2>
+<ul
+><li><a href="/campaign/asaham2017/"><img src="img_top/banner_asaham2017.jpg" width="384" height="88"></a></li
+><li><a href="/product/brand/umadutumi/"><img src="img_top/banner_umadutumi_col3.jpg" width="384" height="88"></a></li
+><li><a href="/kobe/"><img src="img_top/banner_kobe.jpg" width="120" height="88"></a></li
+><li><a href="https://monipla.com/itoham/campaigns/14884" target="_blank"><img src="img_top/banner_grandalt201708cp.jpg" width="120" height="88"></a></li><!--
+--><!--li><a href="https://www.facebook.com/itoham/" target="_blank"><img src="img_top/banner_facebook.jpg" width="120" height="88"></a></li--><!--
+--><!--li><a href="/recipe/vienna/"><img src="img_top/banner_vienna_s.jpg" width="120" height="88"></a></li--><!--
+--></ul>
+<!--dl class="first_child">
+<dt><a href="/campaign/alt2013/"><img src="img_top/banner_alt2013.jpg" width="120" height="88"></a></dt>
+<dd><a href="/campaign/alt2013/">総計2,000名様に銘柄肉・ハムギフトが当たる！<br>
+応募締切：2013年4月20日（土）※当日消印有効</a></dd>
+</dl-->
+<!--dl>
+<dt><a href="/corporate/unicef/"><img src="img_top/banner_tanzania.jpg" width="120" height="88"></a></dt>
+<dd><a href="/corporate/unicef/">対象商品をご購入いただくと１パックにつき２円がユニセフに寄付されます</a></dd>
+</dl-->
+<!--p class="more"><a href="#"><img src="img_top/contents_moreL.gif" width="410" height="18"></a></p>
+<div class="hide">
+<dl>
+<dt><a href="/campaign/juwari_autumn/index.html"><img src="img_top/banner_juwari2012.jpg" width="120" height="88"></a></dt>
+<dd><a href="/campaign/juwari_autumn/index.html">じゅわり×川越達也<br>
+川越達也考案<br>
+簡単、おいしい、オリジナル秋レシピのご紹介</a></dd>
+</dl>
+</div-->
+</div>
+<div class="block news">
+<h2><a href="/CGI/back_number.cgi"><img src="img_top/btn_backnumber.gif" alt="バックナンバー" width="131" height="40"></a><img src="img_top/title_news.gif" alt="ニュース" width="279" height="40"></h2>
+<ul>
+
+<li>
+<a href="/corporate/news/dtl/00001997/" >2017/8/21 「レンジでごちそう　バターチキンカレー」を新発売</a>
+</li>
+
+<li>
+<a href="/corporate/news/dtl/00001995/" >2017/8/21 「通ごのみ」シリーズからベーコンステーキと焼豚を新発売</a>
+</li>
+
+<li>
+<a href="http://www.itoham.co.jp/recipe/" >2017/8/21 「オリジナルレシピ」レシピランキングを更新</a>
+</li>
+
+<li>
+<a href="/corporate/news/dtl/00001993/" >2017/8/18 期間限定「BERGERWURST(ベルガヴルスト) パクチー」新発売</a>
+</li>
+
+<li>
+<a href="/corporate/news/dtl/00001989/" >2017/8/18 「チキン侍　ちき丸クン（黒こしょう味）」を新発売</a>
+</li>
+
+</ul>
+</div>
+
+<div class="block social">
+<h2><img src="img_top/title_social.gif" alt="ソーシャルメディア" width="410" height="40"></h2>
+<div class="inner">
+<p>伊藤ハムのサイトを応援してください！</p>
+<ul>
+<!--いいねボタン-->
+<li><iframe src="http://www.facebook.com/v2.0/plugins/like.php?href=http%3A%2F%2Fwww.itoham.co.jp%2F&amp;layout=button_count&amp;show_faces=false&amp;width=120&amp;action=like&amp;colorscheme=light&amp;height=80&amp;locale=ja_JP" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:120px; height:21px;" allowtransparency="true"></iframe></li>
+<!--いいねボタン end-->
+<!--tweetボタン-->
+<li><a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-lang="ja">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js" charset="UTF-8"></script></li>
+<!--tweetボタン end-->
+</ul>
+</div>
+<div class="fb-page" data-href="https://www.facebook.com/itoham" data-width="408" data-height="130" data-hide-cover="true" data-show-facepile="false" data-show-posts="false" style="margin: 0 1px;"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/itoham"><a href="https://www.facebook.com/itoham">伊藤ハム / ITOHAM FOODS inc.</a></blockquote></div></div>
+</div>
+</div>
+
+<div id="rightArea">
+<div class="block holdings">
+<h2><img src="img_top/title_holdings.png" alt="伊藤ハム米久ホールディングス" width="280" height="40"></h2>
+<div class="inner">
+<p><a href="http://www.itoham-yonekyu-holdings.com/" target="_blank">IR情報はこちら</a></p>
+</div>
+</div>
+
+<div class="block vienna">
+<h2><img src="img_top/title_vienna.gif" alt="わくわく飾り切りランド" width="280" height="40"></h2>
+<div class="inner">
+<p><a href="/recipe/vienna/index.html"><img src="img_top/banner_vienna.jpg" width="260" height="103"></a></p>
+<a class="movie" href="https://www.facebook.com/itoham/videos/vb.189777477727523/945441628827767/?type=2&theater" target="_blank">
+<img src="/img_top/im_vienna_movie.jpg">
+<dl>
+<dt>わくわく飾り切りランドの<br>
+紹介動画を見る</dt>
+</dl>
+</a>
+<a class="item" href="/recipe/vienna/bear/">
+<img src="/recipe/vienna/bear/img/main_img01.gif">
+<dl>
+<dt>2017/03/24 UP!</dt>
+<dd><img src="/img_top/ti_vienna_bear.gif" alt="こぐま"></dd>
+</dl>
+</a>
+<a class="item" href="/recipe/vienna/dinosaur/">
+<img src="/recipe/vienna/dinosaur/img/main_img01.gif">
+<dl>
+<dt>2017/03/24 UP!</dt>
+<dd><img src="/img_top/ti_vienna_dinosaur.gif" alt="きょうりゅう"></dd>
+</dl>
+</a>
+<a class="item" href="/recipe/vienna/fennec/">
+<img src="/recipe/vienna/fennec/img/main_img01.gif">
+<dl>
+<dt>2017/2/1 UP!</dt>
+<dd><img src="/img_top/ti_vienna_fennec.gif" alt="フェネック"></dd>
+</dl>
+</a>
+</div>
+</div>
+
+<div class="block mobile">
+<h2><img src="img_top/title_mobile.gif" alt="スマートフォンサイト" width="280" height="31"></h2>
+<div class="inner">
+<p><img src="img_top/img_mobile.gif" alt="スマートフォンサイト" width="259" height="225"></p>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+<div id="foot_banner">
+<ul><!--
+--><li><a href="disaster.html"><img src="img_top/banner_foot_quake.gif" width="161" height="41"></a></li><!--
+--><li><a href="/corporate/getfile/00001332.pdf"><img src="img_top/banner_foot_giftcard.gif" alt="『伊藤ハムギフト券』 ご利用に関するお願い" width="161" height="41"></a></li><!--
+--><!--li><a href="https://www2.itoham.co.jp/giants_event/index.html"><img src="img_top/banner_foot_giants.gif" alt="東京ドーム・ジャイアンツ戦　ファンサービスイベント応募受付" width="161" height="41"></a></li--><!--
+--><li><a href="/corporate/unicef/"><img src="img_top/banner_foot_unicef.gif" alt="伊藤ハム タンザニア支援プロジェクト" width="161" height="41"></a></li><!--
+--><li><a href="/corporate/unicef_asia/"><img src="img_top/banner_foot_kodomomirai.gif" alt="伊藤ハム 子ども未来プロジェクト" width="161" height="41"></a></li><!--
+--><li><a href="/green/index.html"><img src="img_top/banner_foot_greenenegy.gif" width="161" height="41"></a></li><!--
+--><li><a href="http://www.vissel-kobe.co.jp/" target="_blank"><img src="img_top/banner_foot_vissel.gif" alt="VISSEL KOBE 公式スポンサー" width="161" height="41"></a></li><!--
+--></ul>
+</div>
+
+</div>
+<!-- /content -->
+
+<!-- footer -->
+<div id="footer">
+<div id="sitemap">
+<div class="block">
+<p><a href="/product/product.html">商品情報</a></p>
+<ul>
+<li><a href="/product/product.html#00000001">ハム・ベーコン</a></li>
+<li><a href="/product/product.html#00000002">ソーセージ</a></li>
+<li><a href="/product/product.html#00000003">調理品</a></li>
+<li><a href="/product/product.html#00000004">チーズ</a></li>
+</ul>
+</div>
+<div class="block">
+<p><a href="/recipe/">レシピ</a></p>
+<ul>
+<li><a href="/CGI/recipe/search.cgi?ctg_id=001001">お弁当レシピ</a></li>
+<li><a href="/CGI/recipe/search.cgi?ctg_id=001002">朝ごはんレシピ</a></li>
+<li><a href="/CGI/recipe/search.cgi?ctg_id=001003">昼ごはんレシピ</a></li>
+<li><a href="/CGI/recipe/search.cgi?ctg_id=001004">夕ごはんレシピ</a></li>
+<li><a href="/CGI/recipe/search.cgi?ctg_id=001005">簡単おつまみレシピ</a></li>
+<li><a href="/recipe/post/list.html">投稿レシピ</a></li>
+</ul>
+</div>
+<div class="block">
+<p><a href="/information/index.html">お役立ち情報</a></p>
+<ul>
+<li><a href="/information/omoshiro/index.html">おもしろ百科</a></li>
+<li><a href="/information/educate/index.html" target="_blank"> 伊藤ハムが考える「食育」</a></li>
+<li><a href="/meat/index.html" target="_blank"> Enjoy your life</a></li>
+<li><a href="/library/haccp/index.html"> 食品衛生のお話</a></li>
+<li><a href="/public/index.html" target="_blank"> 伊藤ハムの工場見学</a></li>
+</ul>
+</div>
+<div class="block">
+<p><a href="/corporate/index.html">企業情報</a></p>
+<ul>
+<li><a href="/corporate/news/">ニュースリリース</a></li>
+<li><a href="/corporate/ir/index.html">投資家情報</a></li>
+<li><a href="/corporate/company/index.html">会社案内</a></li>
+<li><a href="/corporate/comply/index.html">コンプライアンス</a></li>
+<li><a href="/corporate/env/index.html" target="_blank">CSR活動</a></li>
+<li><a href="/corporate/citizen/index.html" target="_blank">社会貢献活動</a></li>
+<!--li><a href="/corporate/marchandise/index.html">マーケティングレポート</a></li-->
+<li><a href="/corporate/cm/index.html">CM情報</a></li>
+<li><a href="/corporate/safety/">安全・安心への取り組み</a></li>
+</ul>
+</div>
+<div class="block">
+<p><a href="/corporate/company/saiyo/index.html" target="_blank">採用情報</a></p>
+<p><a href="/corporate/company/saiyo/graduate.html" target="_blank">新卒採用</a></p>
+<ul>
+<li><a href="/corporate/company/saiyo/itohamgroup/policy.html" target="_blank">伊藤ハムグループについて</a></li>
+</ul>
+</div>
+</div>
+<div id="copyright">
+<ul><!--
+--><li><a href="kiyaku.html">利用規定</a></li><!--
+--><li><a href="policy.html">個人情報保護方針</a></li><!--
+--></ul><!--
+--><p>All Rights Reserved, Copyright &copy; ITOHAM FOODS Inc. 1997-2017</p>
+</div>
+</div>
+<!-- /footer -->
+
+</div>
+<!-- /container -->
+
+
+<script type="text/JavaScript" language="JavaScript" src="common/image_rollover.js"></script>
+<script language="javascript">
+<!--
+$(function(){
+	$('#mainimage ul.carousel').append(mainImageWrite()).carouFredSel({
+    scroll : {
+			fx : "crossfade"
+    },
+		auto: 3000,
+    pagination  : "#mainimage_pag"
+	});
+/*	$('#contentsArea div.block.product div.banner_carousel ul').carouFredSel({
+		direction: "up",
+    items : {
+			visible : 2
+    },
+    scroll : {
+			fx : "none",
+			duration : 1500
+    }
+	});*/
+	$('#recipeArea div.carousel').carouFredSel({
+    scroll : {
+			fx : "scroll",
+			duration : 1000
+/*			fx : "fade",
+			duration : 500*/
+    },
+		prev	: {	
+			button	: "#recipe_prev",
+			key		: "left"
+		},
+		next	: { 
+			button	: "#recipe_next",
+			key		: "right"
+		}
+	});
+	$('#contentsArea div.block.pickup p.more a').click( function (){
+		$(this).hide();
+		$('#contentsArea div.block.pickup div.hide').slideDown();
+		return false;
+	});
+});
+//-->
+</script>
+<script type="text/javascript" language="JavaScript" src="/common/java/for_sync_suggest.js"></script>
+
+<!-- リマーケティング タグの Google コード -->
+<!--------------------------------------------------
+リマーケティング タグは、個人を特定できる情報と関連付けることも、デリケートなカテゴリに属するページに設置することも許可されません。タグの設定方法については、こちらのページをご覧ください。
+http://google.com/ads/remarketingsetup
+--------------------------------------------------->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 858495918;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/858495918/?guid=ON&amp;script=0"/>
+</div>
+</noscript>
+</body>
+</html>

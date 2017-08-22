@@ -1,0 +1,888 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="Content-Style-Type" content="text/css" />
+        <meta http-equiv="Content-Script-Type" content="text/javascript" />
+        <meta name="description" content="IRライブラリー > 決算短信" />
+        <link rel="shortcut icon" herf="/favicon.ico"/>
+        <title>決算短信|日比谷総合設備</title>
+        <meta name="keywords" content="" />
+        <link href="/assets/templates/hibiya/common/css/import.css" rel="stylesheet" type="text/css" media="screen,print" />
+        <!-- 技術ページ関係 -->
+        <script type="text/javascript" src="/assets/templates/hibiya/common/html5media/html5media.min.js"></script>
+        <link href="/assets/templates/hibiya/ir/css/ir.css" rel="stylesheet" type="text/css" media="screen,print" />
+        <link href="/assets/templates/hibiya/ir/css/ir_cnt.css" rel="stylesheet" type="text/css" media="screen,print" />
+        <link href="/assets/templates/hibiya/common/css/print.css" rel="stylesheet" type="text/css" media="print" />
+        <!-- script type="text/javascript" src="/assets/templates/hibiya/common/js/jquery-1.3.2.min.js"></script -->
+        <script type="text/javascript" src="/assets/js/jquery-1.5.min.js"></script>
+        <script type="text/javascript" src="/assets/templates/hibiya/common/js/jquery.cookie.js"></script>
+        <script type="text/javascript" src="/assets/templates/hibiya/common/js/jquery.lightbox-0.5.min.js"></script>
+        <script type="text/javascript" src="/assets/templates/hibiya/common/js/heightLine.js"></script>
+        <script type="text/javascript" src="/assets/templates/hibiya/common/js/accMenu.js"></script>
+        <!-- / 技術ページ関係 -->
+        <!-- ページ要素関係 -->
+        <link href="/assets/templates/hibiya/common/css/section-design.css" rel="stylesheet" type="text/css" media="screen,print" />
+        <link href="/assets/templates/hibiya/common/css/jquery.lightbox-0.5.css" rel="stylesheet" type="text/css" media="screen" />
+        <!-- RSS Feed -->
+        <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="/rss" />
+        <!-- グラフレンダリング -->
+        <!--[if lt IE 9]><script language="javascript" type="text/javascriapt" src="/assets/templates/hibiya/common/js/excanvas.js"></script><![endif]-->
+        <script language="javascript" type="text/javascript" src="/assets/templates/hibiya/common/js/jquery.jqplot.js"></script>
+        <link rel="stylesheet" type="text/css" href="/assets/templates/hibiya/common/css/jquery.jqplot.css" />
+                <script language="javascript" type="text/javascript" src="/assets/templates/hibiya/common/js/plugins/jqplot.json2.min.js"></script>
+        <script language="javascript" type="text/javascript" src="/assets/templates/hibiya/common/js/plugins/jqplot.barRenderer.min.js"></script>
+        <script language="javascript" type="text/javascript" src="/assets/templates/hibiya/common/js/plugins/jqplot.categoryAxisRenderer.min.js"></script>
+        <script language="javascript" type="text/javascript" src="/assets/templates/hibiya/common/js/plugins/jqplot.pointLabels.min.js"></script>
+
+
+        <script type="text/javascript">
+
+$(function(){
+
+
+    //変数にクッキー名を入れる
+    var history = $.cookie('fontSize');
+	
+    //適用する箇所を指定。テストとして、#page-content p にクラスを適用
+    var elm = $('#page-content, #content, #topNewsareas');
+	
+    //変数が空ならfontMを、空でなければクッキーに保存しておいたものを適用
+    // classは、size-s size-m size-l
+    // (!history) ? elm.addClass('size-m') : elm.addClass(history);
+    if (!history){
+        history = 'size-m';
+    }
+    elm.addClass(history);
+
+    // ボタンの色を制御。現在の状況をボタンの色で知らせる。
+    var selector = 'div.hSection ul.fontList a#' + history;
+    //console.log(selector);
+    $(selector).addClass('active');
+
+
+     
+	
+    //クリックしたら実行
+    $('div.hSection ul.fontList a').click(function(){
+        //クッキーから現在のクラス名を取得
+    	var current = $.cookie('fontSize');
+	
+        //クリックした要素のID名を変数にセット
+        // size-s, size-m, size-l が入る
+        var setFontSize = this.id;
+	    
+        //クッキーに変数を保存
+    	$.cookie('fontSize', setFontSize);
+		
+        //一度classを除去して、変数をclassとして追加
+        elm.removeClass(current).addClass(setFontSize);
+
+        // ボタンの効果を更新
+        var selector = 'div.hSection ul.fontList a#' + current;
+        $(selector).removeClass('active');
+        $(this).addClass('active');
+
+    });
+    
+    // 印刷ダイアログを開く
+    $('a#startprint').click(function(){
+          window.print();
+          return false;
+    });
+
+
+});
+</script>
+
+        <script type="text/javascript">
+$(function(){
+
+ /* 株主 投資家情報 */
+/*
+        var ultp = $("div#sidebar>div.section>h2").attr('class');
+
+if (ultp == 40){ 
+  $("div#gNav li#gNavStockholder a img").css('visibility', 'hidden');
+  $('h2#now-category img').attr('src', '/assets/templates/hibiya/common/images/bh_stockholder.gif')
+}
+*/
+
+  $("div#gNav li#gNavStockholder a img").css('visibility', 'hidden');
+  $("ul.fxmn li:first-child").css('margin-left', '-0.6em');
+
+});
+</script>
+
+        <script type="text/javascript">
+$(function() {
+	$('a.lightbox').lightBox({
+        imageLoading: '/assets/templates/hibiya/common/images/lightbox-ico-loading.gif',
+	imageBtnClose: '/assets/templates/hibiya/common/images/lightbox-btn-close.gif',
+	imageBtnPrev: '/assets/templates/hibiya/common/images/lightbox-btn-prev.gif',
+	imageBtnNext: '/assets/templates/hibiya/common/images/lightbox-btn-next.gif'
+}
+); // Select all links with lightbox class
+});
+</script>
+        <script type="text/javascript">
+$(function(){
+var imagetag = '<img alt="PDF" src="/assets/templates/hibiya/ir/images/pdf.gif"/>';
+
+// 以下の領域の a タグで、href の末尾が pdf で終わっているものに対して、pdfアイコンを付け足します
+$('div#col03 a, div#page-content a').each( function(){
+	if ( $(this).attr('href').match(/.*\.pdf$/) != null ){
+		$(this).append(imagetag);}
+});
+
+});
+</script>
+
+
+        <script type="text/javascript">
+$(function(){
+
+//$('div#releaseSchedule').hide();
+
+var is_set = '277';
+if (is_set){
+    // load
+	$("div#releaseSchedule").css("margin-bottom","10px");
+    $('div#releaseSchedule').load('/266/277?random='+ Math.random()*99999);
+} else {
+    // 頭にマージンが入らないように
+    //$('div#irData').css('margin-top', '0'); 
+}
+
+});
+</script>
+        <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-23321906-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+        <script type="text/javascript" src="/assets/templates/hibiya/common/js/script.js"></script>
+
+    </head>
+
+    <body id="ir">
+        <div id="layout">
+            <div id="header">
+                <div id="headerInner">
+                    <p id="logo"><a href="/home"><img class="forscreen" alt="日比谷総合設備株式会社" src="/assets/templates/hibiya/common/images/logo.gif"><img class="forprint" alt="日比谷総合設備株式会社" src="/assets/templates/hibiya/common/images/logo-print.gif"></a></p>
+                    <ul id="hNav">
+                        <li><a href="/sitemap"><img alt="サイトマップ" src="/assets/templates/hibiya/common/images/hnav_sitemap.gif"></a></li>
+                        <li><a href="/contactus"><img alt="お問い合わせ" src="/assets/templates/hibiya/common/images/hnav_contact.gif"></a></li>
+                        <li><a href="/English"><img alt="English" src="/assets/templates/hibiya/common/images/hnav_english.gif"></a></li>
+                        <li><a href="#" id="startprint"><img alt="印刷する" src="/assets/templates/hibiya/common/images/hnav_print.gif"></a></li>
+                    </ul>
+                    <div class="hSection">
+                        <div class="font">
+                            <p><img alt="文字サイズ" src="/assets/templates/hibiya/common/images/txt_font.gif"></p>
+                            <ul class="fontList">
+                                <li><a href="#" id="size-s"></a></li>
+                                <li><a href="#" id="size-m"></a></li>
+                                <li><a href="#" id="size-l"></a></li>
+                            </ul>
+                        </div>
+
+                        <form target="_blank" action="http://www.google.co.jp/cse" method="GET">
+                        <p class="search">
+                            <input type="text" name="q" maxlength="230" size="20" id="search" value="" class="searchText"/>
+                            <input type="image" src="/assets/templates/hibiya/common/images/btn_search.gif" value="検索" alt="検索" name="検索"/>
+                            <input type="hidden" value="http://www.hibiya-eng.co.jp/" name="domains"/>
+                            <input type="hidden" value="010459646466623244686:p1wcwpeyw4o" name="cx"/>
+                            <input type="hidden" value="ja" name="hl"/>
+                            <input type="hidden" value="AWFID:FSja84b82c8647f6458e;S:http://www.hibiya-eng.co.jp/;GL:0;AH:left;L:http://www.sprout-net.com/client/hibiya/img/logo.gif;T:#666666;" name="cof"/>
+                            <input type="hidden" value="www.hibiya-eng.co.jp" name="sitesearch"/>
+                        </p>
+                        </form>
+
+                    </div>
+                    <!-- / id headerInner --></div>
+                <!-- / id header --></div>
+            <div id="gNav">
+                <dl>
+                    <dt>主なカテゴリ</dt>
+                    <dd>
+                    <ul>
+                        <li id="gNavVision"><a href="/vision"><img alt="ビジョン" src="/assets/templates/hibiya/common/images/gnav_vision.gif"></a></li>
+                        <li id="gNavInfo"><a href="/company"><img alt="会社情報" src="/assets/templates/hibiya/common/images/gnav_info.gif"></a></li>
+                        <li id="gNavStockholder"><a href="/ir"><img alt="株主・投資家情報" src="/assets/templates/hibiya/common/images/gnav_stockholder.gif"></a></li>
+                        <li id="gNavCsr"><a href="/csr"><img alt="CSR情報" src="/assets/templates/hibiya/common/images/gnav_csr.gif"></a></li>
+                        <li id="gNavCorporate"><a href="/governance"><img alt="コーポレートガバナンス情報" src="/assets/templates/hibiya/common/images/gnav_corporate.gif"></a></li>
+                        <li id="gNavTechnique"><a href="/technology"><img alt="日比谷の技術" src="/assets/templates/hibiya/common/images/gnav_technique.gif"></a></li>
+                        <li id="gNavRecruitment"><a href="/recruit"><img alt="リクルート" src="/assets/templates/hibiya/common/images/gnav_recruitment.gif"></a></li>
+                    </ul>
+                    </dd>
+                </dl>
+                <!-- / id gNav --></div>
+
+
+                <!-- pageBody ここからメインコンテンツ -->
+    <div id="pageBody">
+
+        <div id="pageBodyInner">
+
+            <div id="mainImage">
+                <img src="/assets/templates/hibiya/ir/images/img_main.jpg" alt="IR情報" />
+            </div>
+            <div id="pankuzu">
+                <div id="is_login" style="display:none;"></div>
+<ul class="topicPath"><li><img src="/assets/templates/hibiya/common/images/ico_arrow.gif"/><span class="home"><a class="B_homeCrumb" href="/" title="日比谷総合設備株式会社 ホーム 私たちはトータルエンジニアリング企業として、業界トップクラスの技術力で、空気調和、給排水衛生、電気、情報通信技術などの設備事業を展開してきました。建物に“命”を吹き込み、快適な環境を創造することが設備事業の役割であると考えています。 ">HOME</a></span></li>&gt;<li><a class="B_crumb" href="/ir" title="株主・投資家情報トップ">株主・投資家情報</a></li>&gt;<li><a class="B_crumb" href="/ir/library" title="株主・投資家情報 &gt; IRライブラリー">IRライブラリー</a></li>&gt;<li><span class="active"><span class="B_currentCrumb">決算短信</span></span></li></ul>
+            </div>
+
+            <!-- #content ここから3カラム開始 -->
+            <div id="content" class="clearfix">
+
+                <!-- 左カラム -->
+                <div id="col01">
+
+    <div id="code" class="box_content">
+        証券コード　:1982
+    </div>
+
+    <div id="menuLeft" class="box_content" rel="134">
+        <ul class="normal">
+              <li id="category1"><a class="category" href="/ir">IRトップページ</a></li>
+        </ul>
+        <ul class="acc">
+            <!--
+            <li id="category1"><a class="category" href="/ir" rel="40">IRトップページ</a>
+            <ul class="fxmn">
+                <li><a class="sub" href="#">menu 1-1</a></li>
+                <li><a class="sub" href="#">menu 1-2</a></li>
+                <li><a class="sub" href="#">menu 1-3</a></li>
+                <li><a class="sub" href="#">menu 1-4</a></li>
+                <li><a class="sub" href="#">menu 1-5</a></li>
+            </ul>
+            </li>
+            -->
+            <li id="category2"><a class="category" href="/ir/policy" rel="67">経営方針・体制</a>
+                <ul class="fxmn"><li><a href="/ir/policy" class="sub" title="経営方針・体制" >経営方針・体制</a></li>
+<li><a href="/ir/policy/topmessage" class="sub" title="トップメッセージ" >トップメッセージ</a></li>
+<li><a href="/ir/policy/managementplan" class="sub" title="中期経営計画" >中期経営計画</a></li>
+<li><a href="/ir/policy/theboardofthedirectors" class="sub" title="役員紹介" >役員紹介</a></li>
+<li><a href="/ir/policy/risk" class="sub" title="事業等のリスク" >事業等のリスク</a></li>
+<li class="last"><a href="/ir/policy/officerdata" class="sub" title="役員経歴" >役員経歴</a></li>
+</ul>
+            </li>
+            <li id="category3"><a class="category" href="/ir/angel" rel="132">個人投資家の皆様へ</a>
+                <ul class="fxmn"><li><a href="/ir/angel" class="sub" title="個人投資家の皆様へ" >個人投資家の皆様へ</a></li>
+<li><a href="/ir/angel/whats" class="sub" title="日比谷総合設備とは？" >日比谷総合設備とは？</a></li>
+<li><a href="/ir/stocks" class="sub" title="株主・株式情報" >株主・株式情報</a></li>
+<li><a href="/ir/achievement" class="sub" title="日比谷総合設備の業績について" >日比谷総合設備の業績について</a></li>
+<li><a href="/ir/stocks/dividend" class="sub" title="日比谷総合設備の株主還元" >日比谷総合設備の株主還元</a></li>
+<li><a href="/ir/angel/movieabouthibiya" class="sub" title="会社案内動画" >会社案内動画</a></li>
+<li><a href="/ir/events/224" class="sub" title="個人投資家説明会" >個人投資家説明会</a></li>
+<li class="last"><a href="/ir/angel/stockholdermerit" class="sub" title="株主になるメリットは？" >株主になるメリットは？</a></li>
+</ul>
+            </li>
+            <li id="category4"><a class="category" href="/ir/achievement" rel="133">業績・財務情報</a>
+                <ul class="fxmn"><li><a href="/ir/achievement" class="sub" title="業績・財務情報" >業績・財務情報</a></li>
+<li><a href="/ir/achievement/highlight" class="sub" title="財務ハイライト" >財務ハイライト</a></li>
+<li><a href="/ir/achievement/segment" class="sub" title="セグメント情報" >セグメント情報</a></li>
+<li><a href="/ir/achievement/about" class="sub" title="経営指標推移" >経営指標推移</a></li>
+<li class="last"><a href="/ir/achievement/finance" class="sub" title="財務諸表" >財務諸表</a></li>
+</ul>
+            </li>
+            <li id="category5"><a class="category" href="/ir/library" rel="134">IRライブラリー</a>
+                <ul class="fxmn"><li><a href="/ir/library" class="sub" title="IRライブラリー" >IRライブラリー</a></li>
+<li><a href="/ir/library/download" class="sub" title="最新IR資料ダウンロード" >最新IR資料ダウンロード</a></li>
+<li class="active"><a href="/ir/library/statement" class="sub" title="決算短信" >決算短信</a></li>
+<li><a href="/ir/events/225" class="sub" title="プレゼンテーション資料" >プレゼンテーション資料</a></li>
+<li><a href="/ir/library/annualreport" class="sub" title="アニュアルレポート" >アニュアルレポート</a></li>
+<li><a href="/ir/library/factbook" class="sub" title="FACT BOOK" >FACT BOOK</a></li>
+<li><a href="/ir/library/securitiesreport" class="sub" title="有価証券報告書" >有価証券報告書</a></li>
+<li class="last"><a href="/ir/library/communication" class="sub" title="IR通信" >IR通信</a></li>
+</ul>
+            </li>
+            <li id="category6"><a class="category" href="/ir/events" rel="135">IRイベント</a>
+                <ul class="fxmn"><li><a href="/ir/events" class="sub" title="IRイベント" >IRイベント</a></li>
+<li><a href="/ir/events/calendar" class="sub" title="IRカレンダー" >IRカレンダー</a></li>
+<li><a href="/ir/events/225" class="sub" title="決算説明会" >決算説明会</a></li>
+<li class="last"><a href="/ir/events/224" class="sub" title="個人投資家説明会" >個人投資家説明会</a></li>
+</ul>
+            </li>
+            <li id="category7"><a class="category" href="/ir/stocks" rel="137">株主・株式情報</a>
+                <ul class="fxmn"><li><a href="/ir/stocks" class="sub" title="株主・株式情報" >株主・株式情報</a></li>
+<li><a href="/ir/stocks/stockinfo" class="sub" title="株式情報" >株式情報</a></li>
+<li><a href="/ir/stocks/dividend" class="sub" title="株主還元・配当" >株主還元・配当</a></li>
+<li><a href="/ir/stocks/generalmeeting" class="sub" title="株主総会" >株主総会</a></li>
+<li><a href="/ir/stocks/procedure" class="sub" title="株式に関するお手続き" >株式に関するお手続き</a></li>
+<li class="last"><a href="/ir/stocks/articlesofassociation" class="sub" title="定款" >定款</a></li>
+</ul>
+            </li>
+            
+            <!--
+            <li id="category8"><a class="category" href="/news" rel="138">IRニュース</a>
+                <ul class="fxmn"><li><a href="/news/1212" class="sub" title="中期経営計画について" >中期経営計画について</a></li>
+<li><a href="/news/1000" class="sub" title="新株予約権（株式報酬型ストックオプション）の発行に関するお知らせ" >新株予約権（株式報酬型ストックオプション）の発行に関するお知らせ</a></li>
+<li><a href="/news/1010" class="sub" title="新株予約権（株式報酬型ストックオプション）の発行内容の確定について" >新株予約権（株式報酬型ストックオプション）の発行内容の確定について</a></li>
+<li><a href="/news/1254" class="sub" title="新株予約権（株式報酬型ストックオプション）の発行に関するお知らせ" >新株予約権（株式報酬型ストックオプション）の発行に関するお知らせ</a></li>
+<li><a href="/news/1266" class="sub" title=" 新株予約権（株式報酬型ストックオプション）の発行内容の確定について" > 新株予約権（株式報酬型ストックオプション）の発行内容の確定について</a></li>
+<li><a href="/news/1271" class="sub" title="役員向け業績連動型株式報酬制度の開始時期等に関するお知らせ" >役員向け業績連動型株式報酬制度の開始時期等に関するお知らせ</a></li>
+<li><a href="/news/834" class="sub" title="平成28年3月期　有価証券報告書を掲載しました" >平成28年3月期　有価証券報告書を掲載しました</a></li>
+<li><a href="/news/1257" class="sub" title="平成29年3月期　有価証券報告書を掲載しました" >平成29年3月期　有価証券報告書を掲載しました</a></li>
+<li><a href="/news/1006" class="sub" title="第51期IR通信を掲載しました" >第51期IR通信を掲載しました</a></li>
+<li><a href="/news/1150" class="sub" title="第52期中間IR通信を掲載しました。" >第52期中間IR通信を掲載しました。</a></li>
+<li><a href="/news/1262" class="sub" title="第52期IR通信を掲載しました。" >第52期IR通信を掲載しました。</a></li>
+<li><a href="/news/965" class="sub" title="自己株式取得に係る事項の決定に関するお知らせ" >自己株式取得に係る事項の決定に関するお知らせ</a></li>
+<li><a href="/news/974" class="sub" title="自己株式の取得状況に関するお知らせ" >自己株式の取得状況に関するお知らせ</a></li>
+<li><a href="/news/1007" class="sub" title="自己株式の取得状況に関するお知らせ" >自己株式の取得状況に関するお知らせ</a></li>
+<li><a href="/news/1013" class="sub" title="自己株式の取得状況に関するお知らせ" >自己株式の取得状況に関するお知らせ</a></li>
+<li><a href="/news/1106" class="sub" title="自己株式の取得状況に関するお知らせ" >自己株式の取得状況に関するお知らせ</a></li>
+<li><a href="/news/1119" class="sub" title="自己株式の取得状況に関するお知らせ" >自己株式の取得状況に関するお知らせ</a></li>
+<li><a href="/news/1126" class="sub" title="自己株式の取得状況に関するお知らせ" >自己株式の取得状況に関するお知らせ</a></li>
+<li><a href="/news/1139" class="sub" title="自己株式の取得状況に関するお知らせ" >自己株式の取得状況に関するお知らせ</a></li>
+<li><a href="/news/1140" class="sub" title="自己株式の取得状況に関するお知らせ" >自己株式の取得状況に関するお知らせ</a></li>
+<li><a href="/news/1165" class="sub" title="自己株式の取得状況に関するお知らせ" >自己株式の取得状況に関するお知らせ</a></li>
+<li><a href="/news/1172" class="sub" title="自己株式の取得状況に関するお知らせ" >自己株式の取得状況に関するお知らせ</a></li>
+<li><a href="/news/1211" class="sub" title="自己株式取得に係る事項の決定に関するお知らせ" >自己株式取得に係る事項の決定に関するお知らせ</a></li>
+<li><a href="/news/1239" class="sub" title="自己株式の取得状況に関するお知らせ" >自己株式の取得状況に関するお知らせ</a></li>
+<li><a href="/news/1259" class="sub" title="自己株式の取得状況に関するお知らせ" >自己株式の取得状況に関するお知らせ</a></li>
+<li><a href="/news/1270" class="sub" title="自己株式の取得状況に関するお知らせ" >自己株式の取得状況に関するお知らせ</a></li>
+<li><a href="/news/1174" class="sub" title="自己株式の取得結果及び取得終了に関するお知らせ" >自己株式の取得結果及び取得終了に関するお知らせ</a></li>
+<li><a href="/news/1012" class="sub" title="平成29年3月期 第１四半期決算短信〔日本基準〕（連結）を掲載しました" >平成29年3月期 第１四半期決算短信〔日本基準〕（連結）を掲載しました</a></li>
+<li><a href="/news/1128" class="sub" title="平成29年3月期 第2四半期決算短信〔日本基準〕（連結）を掲載しました" >平成29年3月期 第2四半期決算短信〔日本基準〕（連結）を掲載しました</a></li>
+<li><a href="/news/1169" class="sub" title="平成29年3月期 第3四半期決算短信〔日本基準〕（連結）を掲載しました" >平成29年3月期 第3四半期決算短信〔日本基準〕（連結）を掲載しました</a></li>
+<li><a href="/news/1274" class="sub" title=" 平成30年3月期 第１四半期決算短信〔日本基準〕（連結）を掲載しました" > 平成30年3月期 第１四半期決算短信〔日本基準〕（連結）を掲載しました</a></li>
+<li><a href="/news/1158" class="sub" title="自己株式立会外買付取引（ToSTNet-3）による自己株式の買付けに関するお知らせ" >自己株式立会外買付取引（ToSTNet-3）による自己株式の買付けに関するお知らせ</a></li>
+<li><a href="/news/968" class="sub" title="平成28年3月期　決算短信〔日本基準〕（連結）を掲載しました" >平成28年3月期　決算短信〔日本基準〕（連結）を掲載しました</a></li>
+<li><a href="/news/1016" class="sub" title="平成29年3月期　第1四半期報告書を掲載しました" >平成29年3月期　第1四半期報告書を掲載しました</a></li>
+<li><a href="/news/1132" class="sub" title="平成29年3月期　第2四半期報告書を掲載しました" >平成29年3月期　第2四半期報告書を掲載しました</a></li>
+<li><a href="/news/1159" class="sub" title="自己株式立会外買付取引（ToSTNeT‐3）による自己株式の取得結果に関するお知らせ" >自己株式立会外買付取引（ToSTNeT‐3）による自己株式の取得結果に関するお知らせ</a></li>
+<li><a href="/news/1170" class="sub" title="平成29年3月期　第3四半期報告書を掲載しました" >平成29年3月期　第3四半期報告書を掲載しました</a></li>
+<li><a href="/news/1215" class="sub" title="平成29年3月期　決算短信〔日本基準〕（連結）を掲載しました" >平成29年3月期　決算短信〔日本基準〕（連結）を掲載しました</a></li>
+<li><a href="/news/1275" class="sub" title="平成30年3月期　第1四半期報告書を掲載しました" >平成30年3月期　第1四半期報告書を掲載しました</a></li>
+<li><a href="/news/1117" class="sub" title="ANNUAL REPORT 2016を掲載しました" >ANNUAL REPORT 2016を掲載しました</a></li>
+<li><a href="/news/1264" class="sub" title="有価証券報告書の訂正報告書を掲載しました" >有価証券報告書の訂正報告書を掲載しました</a></li>
+<li><a href="/news/957" class="sub" title="平成28年３月期通期業績予想の修正に関するお知らせ" >平成28年３月期通期業績予想の修正に関するお知らせ</a></li>
+<li><a href="/news/1130" class="sub" title="平成29年3月期通期業績予想の修正に関するお知らせ" >平成29年3月期通期業績予想の修正に関するお知らせ</a></li>
+<li><a href="/news/1209" class="sub" title="平成29年3月期通期業績予想の修正に関するお知らせ" >平成29年3月期通期業績予想の修正に関するお知らせ</a></li>
+<li><a href="/news/1250" class="sub" title="特別利益（関連会社株式の一部売却）の発生見込み関するお知らせ" >特別利益（関連会社株式の一部売却）の発生見込み関するお知らせ</a></li>
+<li><a href="/news/1252" class="sub" title="特別利益（関連会社株式売却益）の計上及び通期業績予想に関するお知らせ" >特別利益（関連会社株式売却益）の計上及び通期業績予想に関するお知らせ</a></li>
+<li><a href="/news/967" class="sub" title="営業外収益（持分法による投資利益）の計上に関するお知らせ" >営業外収益（持分法による投資利益）の計上に関するお知らせ</a></li>
+<li><a href="/news/976" class="sub" title="個人投資家向け会社説明会を開催しました" >個人投資家向け会社説明会を開催しました</a></li>
+<li><a href="/news/1144" class="sub" title="個人投資家向け会社説明会を開催しました" >個人投資家向け会社説明会を開催しました</a></li>
+<li><a href="/news/1237" class="sub" title="個人投資家向け会社説明会を開催しました" >個人投資家向け会社説明会を開催しました</a></li>
+<li><a href="/news/970" class="sub" title="平成28年3月期　決算説明会を開催しました" >平成28年3月期　決算説明会を開催しました</a></li>
+<li><a href="/news/1136" class="sub" title="平成29年3月期　第2四半期　決算説明会を開催しました" >平成29年3月期　第2四半期　決算説明会を開催しました</a></li>
+<li><a href="/news/1225" class="sub" title="平成29年3月期　決算説明会を開催しました" >平成29年3月期　決算説明会を開催しました</a></li>
+<li><a href="/news/971" class="sub" title="平成28年3月期　FACT BOOKを掲載しました" >平成28年3月期　FACT BOOKを掲載しました</a></li>
+<li><a href="/news/1134" class="sub" title="平成29年3月期 第2四半期 FACT BOOKを掲載しました" >平成29年3月期 第2四半期 FACT BOOKを掲載しました</a></li>
+<li><a href="/news/1226" class="sub" title="平成29年3月期　FACT BOOKを掲載しました" >平成29年3月期　FACT BOOKを掲載しました</a></li>
+<li><a href="/news/964" class="sub" title="機構改革および役員の異動に関するお知らせ" >機構改革および役員の異動に関するお知らせ</a></li>
+<li><a href="/news/969" class="sub" title="代表取締役社長の異動に関するお知らせ" >代表取締役社長の異動に関するお知らせ</a></li>
+<li><a href="/news/1220" class="sub" title="機構改革および役員の異動に関するお知らせ" >機構改革および役員の異動に関するお知らせ</a></li>
+<li><a href="/news/1221" class="sub" title="役員向け業績連動型株式報酬制度の導入に関するお知らせ" >役員向け業績連動型株式報酬制度の導入に関するお知らせ</a></li>
+<li class="last"><a href="/news/1235" class="sub" title="第52回定時株主総会招集通知を掲載しました" >当社の第51回定時株主総会招集ご通知の発送は、2016年6月8日を予定しておりますが、皆様への早期情報開示の観点から、発送前に開示いたしました。</a></li>
+</ul>
+            </li>
+            <li id="category9"><a class="category"  href="/ir" rel="hoge">電子公告</a>
+            <ul class="fxmn">
+                <li><a class="sub" href="/ir/links/epub">電子公告</a></li>
+            </ul>
+            </li>
+            <li id="category10"><a class="category" href="#">よくあるご質問</a>
+            <ul class="fxmn">
+                <li><a class="sub" href="/ir/links/faq">よくあるご質問</a></li>
+            </ul>
+            </li>
+            <li id="category11"><a class="category" href="#">免責事項</a>
+            <ul class="fxmn">
+                <li><a class="sub" href="/ir/links/menseki">免責事項</a></li>
+            </ul>
+            </li>
+            <li id="category12"><a class="category" href="#">IRお問い合わせ</a>
+            <ul class="fxmn">
+                <li><a class="sub" href="/ir/links/contactus">IRお問い合わせ</a></li>
+            </ul>
+            </li>
+            <li id="category13"><a class="category" href="#">IRサイトマップ</a>
+            <ul class="fxmn">
+                <li><a class="sub" href="/ir/links/sitemap">IRサイトマップ</a></li>
+            </ul>
+            </li>
+            <li id="category14"><a class="category" href="#">IRポリシー</a>
+            <ul class="fxmn">
+                <li><a class="sub" href="/ir/links/policy">IRポリシー</a></li>
+            </ul>
+            -->  
+       
+        </ul>
+        <ul class="normal">
+             <li id="category8"><a class="category" href="/news">IRニュース</a></li>
+             <li id="category9"><a class="category" href="/ir/links/epub">電子公告</a></li>
+             <li id="category10"><a class="category" href="/ir/links/faq">よくあるご質問</a></li>
+             <li id="category11"><a class="category" href="/ir/links/menseki">免責事項</a></li>
+<!--
+             <li id="category12"><a class="category" href="/ir/links/contactus">IRお問い合わせ</a></li>
+-->
+             <li id="category13"><a class="category" href="/ir/links/sitemap">IRサイトマップ</a></li>
+             <li id="category14"><a class="category" href="/ir/links/policy">IRポリシー</a></li>
+             <li id="category15"><a class="category" href="/ir/links/howtouse">IRサイトの使い方</a></li>
+        </ul>
+    </div><br />
+    <a href="http://www.hibiya-eng.co.jp/news/irenquete"><img src="http://www.hibiya-eng.co.jp/assets/templates/hibiya/ir/images/btn_irenquete.gif" alt="IRに関するアンケート" /></a><br />
+    <a href="/ir/links/contactus"><img src="http://www.hibiya-eng.co.jp/assets/templates/hibiya/ir/images/btn_contact.gif" alt="IRお問い合わせ" /></a>
+</div>
+                <!-- /左カラム -->
+
+                <!-- 中カラム -->
+                <div id="col02">
+
+                  <div id="ir_area">
+
+<h1>決算短信</h1>
+<table id="statement" class="clearfix">
+<tr>
+		<th>平成30年3月期 <br />（平成29年4月～平成29年6月）</th>
+		<td>&gt;&gt;　</td>
+		<td><a href="/assets/images/ir/pdf/kessan/30_kessan.pdf">決算短信（連結）</a> <img src="/assets/templates/hibiya/ir/images/pdf.gif" alt="PDF" /> (284K )</td>
+	</tr>
+
+<tr>
+		<th>平成29年3月期 <br />（平成28年4月～平成29年3月）</th>
+		<td>&gt;&gt;　</td>
+		<td><a href="/assets/images/ir/pdf/kessan/29_kessan.pdf">決算短信（連結・個別）</a> <img src="/assets/templates/hibiya/ir/images/pdf.gif" alt="PDF" /> (284K )</td>
+	</tr>
+
+<tr>
+		<th>平成29年3月期  第3四半期<br />（平成28年10月～平成28年12月）</th>
+		<td>&gt;&gt;　</td>
+		<td><a href="/assets/images/ir/pdf/kessan/2017_02_07_tanshin.pdf">決算短信（連結）</a> <img src="/assets/templates/hibiya/ir/images/pdf.gif" alt="PDF" /> (240K )</td>
+	</tr>
+<tr>
+		<th>平成29年3月期  第2四半期<br />（平成28年7月～平成28年9月）</th>
+		<td>&gt;&gt;　</td>
+		<td><a href="/assets/images/ir/pdf/kessan/2016_11_08_tanshin.pdf">決算短信（連結）</a> <img src="/assets/templates/hibiya/ir/images/pdf.gif" alt="PDF" /> (441K )</td>
+	</tr>
+<tr>
+		<th>平成29年3月期  第1四半期<br />（平成28年4月～平成28年6月）</th>
+		<td>&gt;&gt;　</td>
+		<td><a href="/assets/images/ir/pdf/kessan/2016_08_04_tanshin.pdf">決算短信（連結）</a> <img src="/assets/templates/hibiya/ir/images/pdf.gif" alt="PDF" /> (441K )</td>
+	</tr>
+<tr>
+		<th>平成28年3月期 <br />（平成27年4月～平成28年3月）</th>
+		<td>&gt;&gt;　</td>
+		<td><a href="/assets/images/ir/pdf/kessan/28_kessan.pdf">決算短信（連結・個別）</a> <img src="/assets/templates/hibiya/ir/images/pdf.gif" alt="PDF" /> (441K )</td>
+	</tr>
+<tr>
+		<th>平成28年3月期 第3四半期<br />（平成27年10月～平成27年12月）</th>
+		<td>&gt;&gt;　</td>
+		<td><a href="/assets/images/ir/pdf/kessan/28_dai3q.pdf">決算短信（連結）</a> <img src="/assets/templates/hibiya/ir/images/pdf.gif" alt="PDF" /> (233K )</td>
+	</tr>
+<tr>
+		<th>平成28年3月期 第2四半期<br />（平成27年7月～平成27年9月）</th>
+		<td>&gt;&gt;　</td>
+		<td><a href="/assets/images/ir/pdf/kessan/28_dai2q.pdf">決算短信（連結）</a> <img src="/assets/templates/hibiya/ir/images/pdf.gif" alt="PDF" /> (233K )</td>
+	</tr>
+<tr>
+		<th>平成28年3月期 第1四半期<br />（平成27年4月～平成27年6月）</th>
+		<td>&gt;&gt;　</td>
+		<td><a href="/assets/images/ir/pdf/kessan/28_dai1q.pdf">決算短信（連結）</a> <img src="/assets/templates/hibiya/ir/images/pdf.gif" alt="PDF" /> (233K )</td>
+	</tr>
+
+<tr>
+		<th>平成27年3月期 <br />（平成26年4月～平成27年3月）</th>
+		<td>&gt;&gt;　</td>
+		<td><a href="/assets/images/ir/pdf/kessan/27_kessan.pdf">決算短信（連結・個別）</a> <img src="/assets/templates/hibiya/ir/images/pdf.gif" alt="PDF" /> (329K )</td>
+	</tr>
+
+<tr>
+		<th>平成27年3月期 第3四半期<br />（平成26年10月～平成26年12月）</th>
+		<td>&gt;&gt;　</td>
+		<td><a href="/assets/images/ir/pdf/kessan/2015_02_06_tanshin.pdf">決算短信（連結）</a> <img src="/assets/templates/hibiya/ir/images/pdf.gif" alt="PDF" /> (348K )</td>
+	</tr>
+<tr>
+		<th>平成27年3月期 第2四半期<br />（平成26年7月～平成26年9月）</th>
+		<td>&gt;&gt;　</td>
+		<td><a href="/assets/images/ir/pdf/kessan/2014_11_07_tanshin.pdf">決算短信（連結）</a> <img src="/assets/templates/hibiya/ir/images/pdf.gif" alt="PDF" /> (348K )</td>
+	</tr>
+<tr>
+		<th>平成27年3月期 第1四半期<br />（平成26年4月～平成26年6月）</th>
+		<td>&gt;&gt;　</td>
+		<td><a href="/assets/images/ir/pdf/kessan/27_dai1q.pdf">決算短信（連結）</a> <img src="/assets/templates/hibiya/ir/images/pdf.gif" alt="PDF" /> (175K )</td>
+	</tr>
+<tr>
+		<th>平成26年3月期 <br />（平成25年4月～平成26年3月）</th>
+		<td>&gt;&gt;　</td>
+		<td><a href="/assets/images/ir/pdf/kessan/26_kessan.pdf">決算短信（連結・個別）</a> <img src="/assets/templates/hibiya/ir/images/pdf.gif" alt="PDF" /> (1,271K )</td>
+	</tr>
+<tr>
+		<th>平成26年3月期 第3四半期<br />（平成25年10月～平成25年12月）</th>
+		<td>&gt;&gt;　</td>
+		<td><a href="/assets/images/ir/pdf/kessan/26_dai3q.pdf">決算短信（連結）</a> <img src="/assets/templates/hibiya/ir/images/pdf.gif" alt="PDF" /> (358 K )</td>
+	</tr>
+<tr>
+		<th>平成26年3月期 第2四半期<br />（平成25年7月～平成25年9月）</th>
+		<td>&gt;&gt;　</td>
+		<td><a href="/assets/images/ir/pdf/kessan/26_dai2q.pdf">決算短信（連結）</a> <img src="/assets/templates/hibiya/ir/images/pdf.gif" alt="PDF" /> (549 K )</td>
+	</tr>
+<tr>
+		<th>平成26年3月期 第1四半期<br />（平成25年4月～平成25年6月）</th>
+		<td>&gt;&gt;　</td>
+		<td><a href="/assets/images/ir/pdf/kessan/26_dai1q.pdf">決算短信（連結）</a> <img src="/assets/templates/hibiya/ir/images/pdf.gif" alt="PDF" /> (549 K )</td>
+	</tr>
+	
+<tr>
+		<th>平成25年3月期 <br />（平成24年4月～平成25年3月）</th>
+		<td>&gt;&gt;　</td>
+		<td><a href="/assets/images/ir/pdf/kessan/25_kessan.pdf">決算短信（連結・個別）</a> <img src="/assets/templates/hibiya/ir/images/pdf.gif" alt="PDF" /> (1,149 K )</td>
+	</tr>
+	<tr>
+		<th>平成25年3月期 第3四半期<br />（平成24年4月～平成24年12月）</th>
+		<td>&gt;&gt;　</td>
+		<td><a href="/assets/images/ir/pdf/kessan/25_dai3q.pdf">決算短信（連結）</a> <img src="/assets/templates/hibiya/ir/images/pdf.gif" alt="PDF" /> (353 K )</td>
+	</tr>
+	<tr>
+		<th>平成25年3月期 第2四半期<br />（平成24年4月～平成24年9月）</th>
+		<td>&gt;&gt;　</td>
+		<td><a href="/assets/images/ir/pdf/kessan/25_dai2q.pdf">決算短信（連結）</a> <img src="/assets/templates/hibiya/ir/images/pdf.gif" alt="PDF" /> (335 K )</td>
+	</tr>
+	<tr>
+		<th>平成25年3月期 第1四半期<br />（平成24年4月～平成24年6月）</th>
+		<td>&gt;&gt;　</td>
+		<td><a href="/assets/images/ir/pdf/kessan/25_dai1q.pdf">決算短信（連結）</a> <img src="/assets/templates/hibiya/ir/images/pdf.gif" alt="PDF" /> (549 K )</td>
+	</tr>
+	<tr>
+		<th>平成24年3月期 <br />（平成23年4月～平成24年3月）</th>
+		<td>&gt;&gt;　</td>
+		<td><a href="/assets/images/ir/pdf/kessan/24_kessan.pdf">決算短信（連結・個別）</a> <img src="/assets/templates/hibiya/ir/images/pdf.gif" alt="PDF" /> (1,163 K )</td>
+	</tr>
+	<tr>
+		<th>平成24年3月期 第3四半期<br />（平成23年4月～平成23年12月）</th>
+		<td>&gt;&gt;　</td>
+		<td><a href="/assets/images/ir/pdf/kessan/24_dai3sihannki.pdf">決算短信（連結）</a> <img src="/assets/templates/hibiya/ir/images/pdf.gif" alt="PDF" /> (493 K )</td>
+	</tr>
+        <tr>
+		<th>平成24年3月期 第2四半期<br />（平成23年4月～平成23年9月）</th>
+		<td>&gt;&gt;　</td>
+		<td><a href="/assets/images/ir/pdf/kessan/24_dai2sihannki.pdf">決算短信（連結）</a> <img src="/assets/templates/hibiya/ir/images/pdf.gif" alt="PDF" /> (355 K )</td>
+	</tr>
+	<tr>
+		<th>平成24年3月期 第1四半期<br />（平成23年4月～平成23年6月）</th>
+		<td>&gt;&gt;　</td>
+		<td><a href="/assets/images/ir/pdf/kessan/24_dai1sihannki.pdf">決算短信（連結）</a> <img src="/assets/templates/hibiya/ir/images/pdf.gif" alt="PDF" /> (357 K )</td>
+	</tr>
+	<tr>
+		<th>平成23年3月期 <br />（平成22年4月～平成23年3月）</th>
+		<td>&gt;&gt;　</td>
+		<td><a href="/assets/images/ir/pdf/kessan/23_kessan.pdf">決算短信 （連結・個別）</a> <img src="/assets/templates/hibiya/ir/images/pdf.gif" alt="PDF" /> (1,5 M )</td>
+	</tr>
+	<tr>
+		<th>平成23年3月期 第3四半期<br />（平成22年4月～平成22年12月）</th>
+		<td>&gt;&gt;　</td>
+		<td><a href="/assets/images/ir/pdf/kessan/23_dai3sihannki.pdf">決算短信（連結）</a> <img src="/assets/templates/hibiya/ir/images/pdf.gif" alt="PDF" /> (371 K )</td>
+	</tr>
+	<tr>
+		<th>平成23年3月期 第2四半期<br />（平成22年4月～平成22年9月）</th>
+		<td>&gt;&gt;　</td>
+		<td><a href="/assets/images/ir/pdf/kessan/23_dai2sihannki.pdf">決算短信（連結）</a> <img src="/assets/templates/hibiya/ir/images/pdf.gif" alt="PDF" /> (352 K )</td>
+	</tr>
+	<tr>
+		<th>平成23年3月期 第1四半期<br />（平成22年4月～平成22年6月）</th>
+		<td>&gt;&gt;　</td>
+		<td><a href="/assets/images/ir/pdf/kessan/23_dai1sihannki.pdf">決算短信（連結）</a> <img src="/assets/templates/hibiya/ir/images/pdf.gif" alt="PDF" /> (345 K )</td>
+	</tr>
+	<tr>
+		<th>平成22年3月期 <br />（平成21年4月～平成22年3月）</th>
+		<td>&gt;&gt;　</td>
+		<td><a href="/assets/images/ir/pdf/kessan/22_kessan_.pdf">決算短信 （連結・個別）</a> <img src="/assets/templates/hibiya/ir/images/pdf.gif" alt="PDF" /> (1,788 K )</td>
+	</tr>
+	<tr>
+		<th>平成22年3月期 第3四半期<br />（平成21年4月～平成21年12月）</th>
+		<td>&gt;&gt;　</td>
+		<td><a href="/assets/images/ir/pdf/kessan/22_dai3sihannki.pdf">決算短信（連結）</a> <img src="/assets/templates/hibiya/ir/images/pdf.gif" alt="PDF" /> (562 K )</td>
+	</tr>
+	<tr>
+		<th>平成22年3月期 第2四半期<br />（平成21年4月～平成21年9月）</th>
+		<td>&gt;&gt;　</td>
+		<td><a href="/assets/images/ir/pdf/kessan/22_dai2sihannki.pdf">決算短信（連結）</a> <img src="/assets/templates/hibiya/ir/images/pdf.gif" alt="PDF" /> (695 K )</td>
+	</tr>
+	<tr>
+		<th>平成22年3月期 第1四半期<br />（平成21年4月～平成21年6月）</th>
+		<td>&gt;&gt;　</td>
+		<td><a href="/assets/images/ir/pdf/kessan/22_dai1sihannki.pdf">決算短信（連結）</a> <img src="/assets/templates/hibiya/ir/images/pdf.gif" alt="PDF" /> (497 K )</td>
+	</tr>
+	<tr>
+		<th>平成21年3月期<br />（平成20年4月～平成21年3月）</th>
+		<td>&gt;&gt;　</td>
+		<td><a href="/assets/images/ir/pdf/kessan/21_kessan_.pdf">決算短信（連結・個別）</a> <img src="/assets/templates/hibiya/ir/images/pdf.gif" alt="PDF" /> (576 K )</td>
+	</tr>
+	<tr>
+		<th>平成21年3月期 第3四半期<br />（平成20年4月～平成20年12月）</th>
+		<td>&gt;&gt;　</td>
+		<td><a href="/assets/images/ir/pdf/kessan/21_dai3sihannki.pdf">決算短信（連結）</a> <img src="/assets/templates/hibiya/ir/images/pdf.gif" alt="PDF" /> (470 K )</td>
+	</tr>
+	<tr>
+		<th>平成21年3月期 第2四半期<br />（平成20年4月～平成20年9月）</th>
+		<td>&gt;&gt;　</td>
+		<td><a href="/assets/images/ir/pdf/kessan/21_dai2sihannki.pdf">決算短信（連結）</a> <img src="/assets/templates/hibiya/ir/images/pdf.gif" alt="PDF" /> (310 K )</td>
+	</tr>
+	<tr>
+		<th>平成21年3月期 第1四半期<br />（平成20年4月～平成20年6月）</th>
+		<td>&gt;&gt;　</td>
+		<td><a href="/assets/images/ir/pdf/kessan/21_dai1sihannki_.pdf">決算短信（連結）</a> <img src="/assets/templates/hibiya/ir/images/pdf.gif" alt="PDF" /> (684 K )</td>
+	</tr>
+	<tr>
+		<th>平成20年3月期<br />（平成19年4月～平成20年3月）</th>
+		<td>&gt;&gt;　</td>
+		<td><a href="/assets/images/ir/pdf/kessan/20_kessan_.pdf">決算短信（連結・個別）</a> <img src="/assets/templates/hibiya/ir/images/pdf.gif" alt="PDF" /> (379 K )</td>
+	</tr>
+	<tr>
+		<th>平成20年3月期 中間<br />（平成19年4月～平成19年9月）</th>
+		<td>&gt;&gt;　</td>
+		<td><a href="/assets/images/ir/pdf/kessan/20_chukan_.pdf">中間決算短信（連結・個別）</a> <img src="/assets/templates/hibiya/ir/images/pdf.gif" alt="PDF" /> (100 K )</td>
+	</tr>
+	<tr>
+		<th>平成19年3月期<br />（平成18年4月～平成19年3月）</th>
+		<td>&gt;&gt;　</td>
+		<td><a href="/assets/images/ir/pdf/kessan/19_kessan.pdf">決算短信（連結・個別）</a> <img src="/assets/templates/hibiya/ir/images/pdf.gif" alt="PDF" /> (115 K )</td>
+	</tr>
+	<tr>
+		<th rowspan="2">平成19年3月期 中間<br />（平成18年4月～平成18年9月）</th>
+		<td>&gt;&gt;　</td>
+		<td><a href="/assets/images/ir/pdf/kessan/19_chukan_s.pdf">中間決算短信（個別）</a> <img src="/assets/templates/hibiya/ir/images/pdf.gif" alt="PDF" /> ( 46K )</td>
+	</tr>
+	<tr>
+		<td>&gt;&gt;　</td>
+		<td><a href="/assets/images/ir/pdf/kessan/19_chukan_l.pdf">中間決算短信（連結）</a> <img src="/assets/templates/hibiya/ir/images/pdf.gif" alt="PDF" /> ( 82K )</td>
+	</tr>
+	<tr>
+		<th rowspan="2">平成18年3月期<br />（平成17年4月～平成18年3月）</th>
+		<td>&gt;&gt;　</td>
+		<td><a href="/assets/images/ir/pdf/kessan/18_kessan_s.pdf">決算短信（個別）</a> <img src="/assets/templates/hibiya/ir/images/pdf.gif" alt="PDF" /> ( 45K )</td>
+	</tr>
+	<tr>
+		<td>&gt;&gt;　</td>
+		<td><a href="/assets/images/ir/pdf/kessan/18_kessan_l.pdf">決算短信（連結）</a> <img src="/assets/templates/hibiya/ir/images/pdf.gif" alt="PDF" /> ( 84K )</td>
+	</tr>
+	<tr>
+		<th rowspan="2">平成18年3月期 中間<br />（平成17年4月～平成17年9月）</th>
+		<td>&gt;&gt;　</td>
+		<td><a href="/assets/images/ir/pdf/kessan/18_chukan_s.pdf">中間決算短信（個別）</a> <img src="/assets/templates/hibiya/ir/images/pdf.gif" alt="PDF" /> ( 40K )</td>
+	</tr>
+	<tr>
+		<td>&gt;&gt;　</td>
+		<td><a href="/assets/images/ir/pdf/kessan/18_chukan_l.pdf">中間決算短信（連結）</a> <img src="/assets/templates/hibiya/ir/images/pdf.gif" alt="PDF" /> ( 80K )</td>
+	</tr>
+	<tr>
+		<th rowspan="2">平成17年3月期<br />（平成16年4月～平成17年3月）</th>
+		<td>&gt;&gt;　</td>
+		<td><a href="/assets/images/ir/pdf/kessan/17_kessan_s.pdf">決算短信（個別）</a> <img src="/assets/templates/hibiya/ir/images/pdf.gif" alt="PDF" /> ( 45K )</td>
+	</tr>
+	<tr>
+		<td>&gt;&gt;　</td>
+		<td><a href="/assets/images/ir/pdf/kessan/17_kessan_l.pdf">決算短信（連結）</a> <img src="/assets/templates/hibiya/ir/images/pdf.gif" alt="PDF" /> ( 85K )</td>
+	</tr>
+	<tr>
+		<th rowspan="2">平成17年3月期 中間<br />（平成16年4月～平成16年9月）</th>
+		<td>&gt;&gt;　</td>
+		<td><a href="/assets/images/ir/pdf/kessan/17_chukan_s.pdf">中間決算短信（個別）</a> <img src="/assets/templates/hibiya/ir/images/pdf.gif" alt="PDF" /> ( 36K )</td>
+	</tr>
+	<tr>
+		<td>&gt;&gt;　</td>
+		<td><a href="/assets/images/ir/pdf/kessan/17_chukan_l.pdf">中間決算短信（連結）</a> <img src="/assets/templates/hibiya/ir/images/pdf.gif" alt="PDF" /> ( 69K )</td>
+	</tr>
+	<tr>
+		<th rowspan="2">平成16年3月期<br />（平成15年4月～平成16年3月）</th>
+		<td>&gt;&gt;　</td>
+		<td><a href="/assets/images/ir/pdf/kessan/16_kessan_s.PDF">決算短信（個別）</a> <img src="/assets/templates/hibiya/ir/images/pdf.gif" alt="PDF" /> ( 34K )</td>
+	</tr>
+	<tr>
+		<td>&gt;&gt;　</td>
+		<td><a href="/assets/images/ir/pdf/kessan/16_kessan_l.PDF">決算短信（連結）</a> <img src="/assets/templates/hibiya/ir/images/pdf.gif" alt="PDF" /> ( 117K )</td>
+	</tr>
+	<tr>
+		<th rowspan="2">平成16年3月期 中間<br />（平成15年4月～平成15年9月）</th>
+		<td>&gt;&gt;　</td>
+		<td><a href="/assets/images/ir/pdf/kessan/16_chukan_s.PDF">中間決算短信（個別）</a> <img src="/assets/templates/hibiya/ir/images/pdf.gif" alt="PDF" /> ( 25K )</td>
+	</tr>
+	<tr>
+		<td>&gt;&gt;　</td>
+		<td><a href="/assets/images/ir/pdf/kessan/16_chukan_l.PDF">中間決算短信（連結）</a> <img src="/assets/templates/hibiya/ir/images/pdf.gif" alt="PDF" /> ( 62K )</td>
+	</tr>
+	<tr>
+		<th rowspan="2">平成15年3月期<br />（平成14年4月～平成15年3月）</th>
+		<td>&gt;&gt;　</td>
+		<td><a href="/assets/images/ir/pdf/kessan/15_kessan_s.PDF">決算短信（個別）</a> <img src="/assets/templates/hibiya/ir/images/pdf.gif" alt="PDF" /> ( 56K )</td>
+	</tr>
+	<tr>
+		<td>&gt;&gt;　</td>
+		<td><a href="/assets/images/ir/pdf/kessan/15_kessan_l.PDF">決算短信（連結）</a> <img src="/assets/templates/hibiya/ir/images/pdf.gif" alt="PDF" /> ( 81K )</td>
+	</tr>
+	<tr>
+		<th rowspan="2">平成15年3月期 中間<br />（平成14年4月～平成14年9月）</th>
+		<td>&gt;&gt;　</td>
+		<td><a href="/assets/images/ir/pdf/kessan/15_chukan_s.PDF">中間決算短信（個別）</a> <img src="/assets/templates/hibiya/ir/images/pdf.gif" alt="PDF" /> ( 28K )</td>
+	</tr>
+	<tr>
+		<td>&gt;&gt;　</td>
+		<td><a href="/assets/images/ir/pdf/kessan/15_chukan_l.PDF">中間決算短信（連結）</a> <img src="/assets/templates/hibiya/ir/images/pdf.gif" alt="PDF" /> ( 98K )</td>
+	</tr>
+	<tr>
+		<th rowspan="2">平成14年3月期<br />（平成13年4月～平成14年3月）</th>
+		<td>&gt;&gt;　</td>
+		<td><a href="/assets/images/ir/pdf/kessan/14_kessan_s.PDF">決算短信（個別）</a> <img src="/assets/templates/hibiya/ir/images/pdf.gif" alt="PDF" /> ( 56K )</td>
+	</tr>
+	<tr>
+		<td>&gt;&gt;　</td>
+		<td><a href="/assets/images/ir/pdf/kessan/14_kessan_l.PDF">決算短信（連結）</a> <img src="/assets/templates/hibiya/ir/images/pdf.gif" alt="PDF" /> ( 108K )</td>
+	</tr>
+	<tr>
+		<th rowspan="2">平成14年3月期 中間<br />（平成13年4月～平成13年9月）</th>
+		<td>&gt;&gt;　</td>
+		<td><a href="/assets/images/ir/pdf/kessan/14_chukan_s.PDF">中間決算短信（個別）</a> <img src="/assets/templates/hibiya/ir/images/pdf.gif" alt="PDF" /> ( 25K )</td>
+	</tr>
+	<tr>
+		<td>&gt;&gt;　</td>
+		<td><a href="/assets/images/ir/pdf/kessan/14_chukan_l.PDF">中間決算短信（連結）</a> <img src="/assets/templates/hibiya/ir/images/pdf.gif" alt="PDF" /> ( 54K )</td>
+	</tr>
+	<tr>
+		<th rowspan="2">平成13年3月期<br />（平成12年4月～平成13年3月）</th>
+		<td>&gt;&gt;　</td>
+		<td><a href="/assets/images/ir/pdf/kessan/13_kessan_s.PDF">決算短信（個別）</a> <img src="/assets/templates/hibiya/ir/images/pdf.gif" alt="PDF" /> ( 80K )</td>
+	</tr>
+	<tr>
+		<td>&gt;&gt;　</td>
+		<td><a href="/assets/images/ir/pdf/kessan/13_kessan__l.PDF">決算短信（連結）</a> <img src="/assets/templates/hibiya/ir/images/pdf.gif" alt="PDF" /> ( 104K )</td>
+	</tr>
+</table>
+
+<div class="adobereader clearfix">
+	<span><a href="http://get.adobe.com/jp/reader/" target="_blank"><img src="/assets/templates/hibiya/ir/images/getacro.gif" alt="Adobe Reader" /></a></span>
+	<p>PDFファイルをご覧頂く為には「Adobe Reader」が必要です。<br />無償配布の「<a href="http://get.adobe.com/jp/reader/" target="_blank">Adobe Reader</a>」をダウンロードしてください。</p>
+</div>
+
+</div>
+<p class="toTop"><a href="#ir"><img src="/assets/templates/hibiya/ir/images/pagetop.gif" alt="pagetop" /></a></p>
+
+
+                </div><!-- /中カラム -->
+
+                <!-- 右カラム -->
+                <div id="col03">
+
+    <!-- 公開予定情報 -->
+    <div id="releaseSchedule" class="box_content_white 277">
+
+    </div><!--//公開予定情報 -->
+
+    <!-- 最新IR資料 -->
+    <div id="irData" class="box_content_white">
+        <p><img src="/assets/templates/hibiya/ir/images/ttl_08.gif" alt="" /></p>
+
+        <div id="irData_inner">
+            <!-- 最新資料 -->
+<div class="latest">
+    <img src="/assets/templates/hibiya/ir/images/icon_folder.gif" alt=""/> <a href="/assets/images/ir/pdf/all/h30_4q_kessan.zip">最新IR資料(ZIP形式7.20 MB)</a>
+</div><!-- //最新資料 -->
+<ul>
+    <li><a href="/assets/images/ir/pdf/kessan/30_kessan.pdf">・平成30年3月期 決算短信</a>(284KB)</li>
+    <li><a href="/assets/images/ir/pdf/yukasyoken/2017_08_08_yuuhou.pdf">・平成30年3月期 四半期報告書</a>(520KB)</li>  
+　　 <li><a href="/assets/images/ir/pdf/library/29_setumeikai.pdf">・平成29年3月期 決算説明資料</a>(4.0MB)</li>
+    <li><a href="/assets/images/ir/pdf/library/AR_2016_03.pdf">・アニュアルレポート2016</a>(3.9MB)</li>
+    <li><a href="/assets/images/ir/pdf/library/29_fb.pdf">・平成29年3月期　FACTBOOK</a>(824MB)</li>
+    <li><a href="/assets/images/ir/pdf/library/ir_2017_06.pdf">・第52期 IR通信（平成28年4月〜平成29年3月）</a>(7.9MB)</li>
+
+
+</ul>
+        </div>
+        <br/>
+    </div><!-- //最新IR資料 -->
+
+    <!-- バナー　-->
+    <!-- ここから -->
+    <div class="box_content_white bnr_rightside">
+        <img src="/assets/templates/hibiya/ir/images/bnr_hibiya.gif" alt="" usemap="#bnr1"/>
+        <map name="bnr1" id="bnr1">
+            <area shape="rect" coords="178,11,189,20" href="/technology" alt="日比谷の技術" target="_self" />
+        </map>
+    </div>
+    <!-- ここまで -->
+
+    <!-- ここから -->
+    <div class="box_content_white bnr_rightside">
+        <img src="/assets/templates/hibiya/ir/images/bnr_kabuka.gif" alt="" usemap="#bnr2"/>
+        <map name="bnr2" id="bnr2">
+            <area shape="rect" coords="178,11,189,20" href="/ir/stocks" alt="株価情報" target="_self" />
+        </map>
+    </div>
+    <!-- ここまで -->
+
+<!-- ここから -->
+    <a target="_blank" href="http://www.nikkoir.co.jp/" style="height: 65px; width: 120px; display:block; background:#000 url(/assets/images/ir/1_sectop_nikkoir2016.jpg) no-repeat scroll center top; margin-left:auto; margin-right:auto; margin-top: 20px; text-indent:-9999px;" title="弊社サイトは日興アイ･アール株式会社の「2016年度全上場企業ホームページ充実度ランキング調査　業種別ランキング最優秀企業第1位」に選ばれました。">
+&nbsp;
+    </a>
+<!-- ここまで -->
+
+<!-- ここから -->
+    <img src="/assets/images/ir/1_sectop_nikkoir2015.jpg" style="height: 64px; width: 120px; display:block; background:#000 no-repeat scroll center top; margin-left:auto; margin-right:auto; margin-top: 20px; text-indent:-9999px;" title="弊社サイトは日興アイ･アール株式会社の「2015年度全上場企業ホームページ充実度ランキング調査　業種別ランキング最優秀企業第1位」に選ばれました。">
+<!-- ここまで -->
+
+
+<!-- ここから -->
+    <img src="/assets/images/ir/1_sectop_nikkoir2014.jpg" style="height: 64px; width: 121px; display:block; background:#000 no-repeat scroll center top; margin-left:auto; margin-right:auto; margin-top: 20px; text-indent:-9999px;" title="弊社サイトは日興アイ･アール株式会社の「2014年度全上場企業ホームページ充実度ランキング調査　業種別ランキング最優秀企業第1位」に選ばれました。">
+<!-- ここまで -->
+
+
+<!-- ここから -->
+    <img src="/assets/images/ir/1_top_nikkoir2013.jpg" style="height: 65px; width: 105px; display:block; background:#000 no-repeat scroll center top; margin-left:auto; margin-right:auto; margin-top: 20px; text-indent:-9999px;" title="弊社サイトは日興アイ･アール株式会社の「2013年度全上場企業ホームページ充実度ランキング調査　総合ランキング最優秀企業第1位」に選ばれました。">
+<!-- ここまで -->
+
+
+<!-- ここから -->
+    <img src="/assets/images/ir/1_top_nikkoir2012.jpg" style="height: 65px; width: 105px; display:block; background:#000 no-repeat scroll center top; margin-left:auto; margin-right:auto; margin-top: 20px; text-indent:-9999px;" title="弊社サイトは日興アイ･アール株式会社の「2012年度全上場企業ホームページ充実度ランキング調査　総合ランキング最優秀企業第1位」に選ばれました。">
+<!-- ここまで -->
+
+<!-- ここから -->
+    <img src="/assets/images/ir/1_top_nikkoir2011.jpg" style="height: 65px; width: 105px; display:block; background:#000 no-repeat scroll center top; margin-left:auto; margin-right:auto; margin-top: 20px; text-indent:-9999px;" title="弊社サイトは日興アイ･アール株式会社の「2011年度全上場企業ホームページ充実度ランキング調査　総合ランキング最優秀企業第1位」に選ばれました。">
+<!-- ここまで -->
+
+<!-- ここから -->
+    <a target="_blank" href="http://www.daiwair.co.jp/" style="height: 100px; width: 100px; display:block; background:#000 url(/assets/images/ir/daiwa_03.jpg) no-repeat scroll center top; margin-left:auto; margin-right:auto; margin-top: 20px; text-indent:-9999px;" title="弊社サイトは大和インベスター・リレーションズ株式会社の「2011年インターネットIR・優良企業賞」を受賞いたしました（2011年12月）">
+&nbsp;
+    </a>
+<!-- ここまで -->
+
+
+
+</div>
+
+                <!-- /右カラム -->
+
+            </div><!-- //#content ここで3カラム終了 -->
+
+
+        </div>
+    </div><!-- //pageBody-->
+
+
+            <div id="footer">
+                <div id="footerInner">
+                    <ul id="fNav">
+                        <li><a href="/contactus"><img alt="ご意見・お問い合わせはこちらから" src="/assets/templates/hibiya/common/images/fnav_comment.gif"></a></li>
+                        <li><a href="/internalcontrol"><img alt="内部統制基本方針" src="/assets/templates/hibiya/common/images/fnav_policy.gif"></a></li>
+                        <li><a href="/ethicalbehavior"><img alt="倫理行動基準" src="/assets/templates/hibiya/common/images/fnav_standard.gif"></a></li>
+                        <li><a href="/informationsecurity"><img alt="情報セキュリティ基本方針" src="/assets/templates/hibiya/common/images/fnav_info.gif"></a></li>
+                        <li><a href="/privacypolicy"><img alt="個人情報保護方針" src="/assets/templates/hibiya/common/images/hnav_privacy.gif"></a></li>
+                        <li><a href="/links"><img alt="リンク一覧" src="/assets/templates/hibiya/common/images/fnav_opinion.gif"></a></li>
+                        <li><a href="/terms"><img alt="ご利用にあたって" src="/assets/templates/hibiya/common/images/fnav_terms.gif"></a></li>
+						<li><a href="/accessibility"><img alt="アクセシビリティ" src="/assets/templates/hibiya/common/images/fnav_accessibility.gif"></a></li>
+                    </ul>
+                    <p id="copyright"><img class="forscreen" alt="Copyright(c)2010 HIBIYA ENGINEERING,Ltd.All rights reserved." src="/assets/templates/hibiya/common/images/txt_copyright.gif"><span class="forprint">Copyright(c)2010 HIBIYA ENGINEERING,Ltd.All rights reserved.</span></p>
+                    <!-- / id footerInner --></div>
+                <!-- / id footer --></div>
+        <!-- / id layout --></div>
+    </body>
+</html>

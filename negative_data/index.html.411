@@ -1,0 +1,394 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta charset="utf-8"/><meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="imagetoolbar" content="no" />
+<meta name="description" content="ダイドードリンコのホームページでは、ダイドーブレンド、miu、贅沢香茶、和果ごこちなど、様々な商品情報、多様な自動販売機情報の他、各種キャンペーン、プレゼントなどお得な情報をお届けしています。"/><meta name="keywords" content="DyDo,ダイドードリンコ,ダイドー,ドリンク,ブレンド,ダイドーブレンド,缶コーヒー,コーヒー,デミタス,CM,キャンペーン,プレゼント,miu,贅沢香茶,和果ごこち,ポイントカード,自動販売機,自販機"/>
+<title>ダイドードリンコ株式会社</title>
+<link rel="stylesheet" href="/css/import2015.css?ud=1503306320"/>
+<script src="/common/js/import2015.js?ud=1503306320"></script><script src="/common/js/productinfo2015.js"></script><script src="/common/js/top_visual.js"></script><script src="/common/js/top_news.js"></script>
+
+<script type="text/javascript">
+  // ua tracking code
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-27203476-1', 'auto');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+
+  $(document).ready(function(){
+    $('.event_track_link').on('click', function() {
+      var event_category = $(this).data('event_category');
+      if(event_category == null){event_category = 'no_category';}
+      var event_label = $(this).data('event_label');
+      if(event_label == null){event_label = 'no_labele';}
+      ga('send', 'event', event_category, 'Click', event_label);
+    });
+  });
+
+  function recordClickLinkCount(link, category, action, label) {
+    try {
+      ga('send', 'event', category ,  action , label);
+      setTimeout('document.location = "' + link.href + '"', 100)
+    }catch(err){}
+  }
+</script></head>
+<body class="index">
+<div id="wrapper" class="layout01">
+
+<!-- header -->
+
+<div id="header">
+  <div class="header_inner">
+    <h1 class="logo"><a href="/">DyDo</a></h1>
+
+    <div class="sub_navigation">
+      <a href="http://www.dydo-ghd.co.jp" title="ダイドーグループホールディングス（IR情報など）" class="sub_navigation_link01" target="dydo_ghd">ダイドーグループホールディングス（IR情報など）</a>
+      <ul>
+        <li class="btn11"><a href="/brands/" title="ブランドサイト・特設サイト">ブランドサイト・特設サイト</a></li>
+        <li class="btn12"><a href="/cm/" title="CM情報">CM情報</a></li>
+        <li class="btn13"><a href="/present/" title="プレゼント・キャンペーン">プレゼント・キャンペーン</a></li>
+        <li class="btn14"><a href="/fan/" title="エンターテインメント">エンターテインメント</a></li>
+        <li class="btn15"><a href="/member/index" title="お得な会員サービス">お得な会員サービス</a></li>
+        <li class="btn16"><a href="http://drinco.jp/drink/" title="DyDo オンラインショップ" class="event_track_link" data-event_category="link_www_header_cop" data-event_label="dydo_online_shop_h" target="_blank">DyDo オンラインショップ</a></li>
+      </ul>
+    </div>
+
+    <div class="tool_box">
+      <div class="fontsize_box" id="fontsize_box">
+        <div class="fontsize_box_tit">文字サイズ</div>
+        <div class="font_s font_size_btn" id="font_s">小</div>
+        <div class="font_m font_size_btn" id="font_m">中</div>
+        <div class="font_l font_size_btn" id="font_l">大</div>
+      </div><!-- /fontsize_box -->
+      <div class="search_box">
+        <div class="search_form">
+          <form class="inner" method="get" action="/search">
+            <div class="txtbox"><input type="text" value="" name="query" class="txt" /><input type="hidden" name="num" value="10" /></div>
+            <div class="btnbox"><input class="btn" type="image" src="/common/images/n.gif" width="26" height="26" name="next" value="Next" alt="検索" /></div>
+          </form>
+        </div>
+      </div><!-- /search_box -->
+    </div><!-- /tool_box -->
+
+    <div class="main_navigation">
+      <ul>
+        <li class="btn01"><a href="/products/" title="製品情報">製品情報</a></li>
+        <li class="btn02"><a href="/corporate/jihanki/" title="自販機のご紹介">自販機のご紹介</a></li>
+        <li class="btn03"><a href="/corporate/" title="企業情報">企業情報</a></li>
+        <li class="btn04"><a href="/csr/" title="CSR情報">CSR情報</a></li>
+        <li class="btn05"><a href="/corporate/recruit/" title="採用情報">採用情報</a></li>
+        <li class="btn06"><a href="/faq/" title="お客様相談室">お客様相談室</a></li>
+      </ul>
+      <div class="over"><p class="hide">denny</p></div>
+    </div><!-- /main_navigation -->
+
+  </div><!-- /header_inner -->
+</div><!-- /header -->
+
+<div class="container_wrap">
+<div class="container_box">
+
+
+<div class="top_visual" id="top_visual">
+    <div class="top_main_visual">
+        <ul class="top_main_visual_list" id="top_main_visual_list">
+
+            <li style="background-image:url(/top/images/main/blend_1708.jpg);"><a class="event_track_link bgt" data-event_category="link_index" data-event_label="dydoblend_mainvisual" target="_blank" href="http://blend.dydo.co.jp/" title="ダイドーブレンド">ダイドーブレンド</a></li>
+            <li style="background-image:url(/top/images/main/smile_stand_170707.jpg);"><a class="event_track_link bgt" data-event_category="link_index" data-event_label="smile_stand" target="_blank" href="/smilestand/" title="ダイドードリンコから、スマホと自販機が通信できる新しいサービス「Smile STAND」">ダイドードリンコから、スマホと自販機が通信できる新しいサービス「Smile STAND」</a></li>
+
+        </ul>
+    </div>
+    <div class="top_main_visual_icon" id="top_main_visual_icon">
+        <div class="visual_icon_move_box"><ul class="visual_icon_move_list" id="visual_icon_move_list"></ul></div>
+    </div>
+    <div class="top_main_visual_firstflash"></div>
+</div>
+<div id="container">
+<div id="content" class="clearfix">
+
+<!--- pankuzunavi --->
+<!--- /pankuzunavi --->
+
+<div id="main">
+
+
+<!-- box01 -->
+
+<!-- oshirase -->
+
+<div class="box01">
+
+    
+<div class="product_box">
+  <div class="ttlbox" style="background-image:url(/update/images/top_pickup/box01_bg.jpg?ud=170313);">
+    <div class="sttl"><h3 class="bgt">製品一覧</h3></div>
+    <div class="lnk_product"><a href="/product/" title="製品情報"><img src="/update/images/top_pickup/box01_prod.jpg?ud=170313" alt="製品情報" /></a></div>
+  </div>
+  <div class="pickup_box"><a class="_pickupbrand" style="background-image:url(/update/images/top_pickup/miu17.png);" href="/miu/" title="詳しくはこちら" target="_blank">miu</a></div>
+</div><!-- /product_box -->
+
+    
+<div class="brand_box">
+    <div class="ttlbox"><h3>ブランドサイト</h3></div>
+    <div class="lnk_brand">
+        <ul class="brand clearfix">
+            <li class="btn01"><a class="event_track_link" data-event_category="link_index" data-event_label="top_brands_dydoblend"     target="_blank" href="http://blend.dydo.co.jp/" title="ダイドーブレンド">ダイドーブレンド</a></li>
+            <li class="btn02"><a class="event_track_link" data-event_category="link_index" data-event_label="top_brands_miu"           target="_blank" href="/miu/" title="miu">miu</a></li>
+            <li class="btn04"><a class="event_track_link" data-event_category="link_index" data-event_label="top_brands_wakagokochi"   target="_blank" href="/wakagokochi/" title="和果ごこち">和果ごこち</a></li>
+            <li class="btn03"><a class="event_track_link" data-event_category="link_index" data-event_label="top_brands_zeitakukoucha" target="_blank" href="/zeitakukoucha/" title="贅沢香茶">贅沢香茶</a></li>
+        </ul>
+        <div class="btn05"><a  class="event_track_link" data-event_category="link_index" data-event_label="top_brands" href="/brands/" title="ブランド・特設サイト一覧">ブランド・特設サイト一覧</a></div>
+    </div>
+</div><!-- /brand_box -->
+
+</div><!-- /box01 -->
+
+
+<div class="box02">
+    <div class="box02_01">
+        <div class="ttlbox"><h3>ニュースリリース</h3></div>
+        <div class="btn01"><a href="/corporate/news/" title="ニュースリリース一覧">ニュースリリース一覧</a></div>
+                                <dl class="box clearfix">
+            <dt>2017年08月21日<span class="products">製品情報</span></dt>
+            <dd>
+                                <a class="newsbox-inner" href="https://www.dydo.co.jp/corporate/news/2017/170821.html">
+                                    <img src="/corporate/news/2017/170821/images/icon10.png" alt="">
+                    <p>発売25周年を迎える「デミタス」から新味登場！<br />
+「ダイドーブレンド デミタス甘さ控えた微糖」<br />
+～深みとキレを両立させた甘さ控えめの微糖～</p>
+                </a>
+            </dd>
+        </dl>
+                <dl class="box clearfix">
+            <dt>2017年08月18日<span class="products">製品情報</span></dt>
+            <dd>
+                                <a class="newsbox-inner" href="https://www.dydo.co.jp/corporate/news/2017/170818.html">
+                                    <img src="/corporate/news/2017/170818/images/icon10.png" alt="">
+                    <p>発売25周年！累計販売本数62億本突破！<br />
+ロングセラーの「ダイドーブレンド デミタス」シリーズをリニューアル発売<br />
+「ダイドーブレンド デミタス微糖」<br />
+「ダイドーブレンド デミタスコーヒー」<br />
+「ダイドーブレンド デミタスBLACK」</p>
+                </a>
+            </dd>
+        </dl>
+                <dl class="box clearfix">
+            <dt>2017年08月17日<span class="corporate">お知らせ</span></dt>
+            <dd>
+                                <a class="newsbox-inner" href="https://www.dydo.co.jp/corporate/news/2017/170817.html">
+                                    <img src="/corporate/news/2017/170817/images/icon10.png" alt="">
+                    <p>～街中の自販機が身近な情報発信基地に進化！～<br />
+自販機から“ワクワクする”情報をスマホにお届けする「Smile Town Portal」開始！<br />
+第1弾は「ホットペッパーグルメ」「ホットペッパービューティー」の情報をお届け</p>
+                </a>
+            </dd>
+        </dl>
+            </div>
+    <div class="box02_02">
+        <div class="ttlbox"><h3>更新情報</h3></div>
+        <div class="btn01"><a href="/fan/" title="「エンターテイメント」へ">「エンターテイメント」へ</a></div>
+                        <dl class="box clearfix">
+            <dt>2017年08月18日</dt>
+            <dd>
+                <div class="newsbox-inner">
+                    <img src="/update/images/top_news/icon_blend.png" alt="">
+                    <p>
+                                            <span><a href="http://blend.dydo.co.jp/" target="_blank">「ダイドーブレンド ブランドサイト」リニューアル</a></span>
+                                        </p>
+                </div>
+            </dd>
+        </dl>
+                <dl class="box clearfix">
+            <dt>2017年08月16日</dt>
+            <dd>
+                <div class="newsbox-inner">
+                    <img src="/update/images/top_news/icon_mosaicquiz.png" alt="">
+                    <p>
+                                            <span><a href="/fan/mosaicquiz/">「ドリインコのモザイククイズ」</a></span>
+                                        </p>
+                </div>
+            </dd>
+        </dl>
+                <dl class="box clearfix">
+            <dt>2017年08月10日</dt>
+            <dd>
+                <div class="newsbox-inner">
+                    <img src="/update/images/top_news/icon_kof_20170810.png" alt="">
+                    <p>
+                                            <span><a href="/smilestand/kof/" target="_blank">「THE KING OF FIGHTERS D ~DyDo Smile STAND~」事前登録キャンペーン</a></span>
+                                        </p>
+                </div>
+            </dd>
+        </dl>
+            </div>
+</div><!-- /box02 -->
+
+
+<ul class="box03 col2row3 clearfix">
+    <li class="banner01"><a onClick="recordClickLinkCount(this, 'link_index', 'Click', 'showroom_contents_banner');return false;"    href="/corporate/jihanki/showroom/" title="自販機ショールーム"><div class="bgt">自販機ショールーム - 自販機設置時のイメージをしやすいよう、ショールーム形式でご案内。自販機の機能や設置例もご確認できます。</div></a></li>
+    <li class="banner02"><a onClick="recordClickLinkCount(this, 'link_index', 'Click', 'jihankiflow_contents_banner');return false;" href="/corporate/jihanki/flow.html" title="自販機設置をお考えの方へ"><div class="bgt">自販機設置をお考えの方へ - ダイドードリンコの自販機設置に関するメリットや流れをご紹介します。</div></a></li>
+    <li class="banner03"><a class="event_track_link" data-event_category="link_index" data-event_label="recruit_contents_banner" target="_blank" href="/recruit/" title="採用情報"><div class="bgt">採用情報 - チャレンジするという選択 ～ダイナミックにチャレンジを続ける～</div></a></li>
+    <li class="banner04"><a class="event_track_link" data-event_category="link_index" data-event_label="matsuri_contents_banner" target="_blank" href="http://www.dydo-ghd.co.jp/ir/" title="ダイドーグループホールディングス IR情報"><div class="bgt">ダイドーグループホールディングス IR情報 - 経営・財務等に関する情報はこちらからご覧いただけます。</div></a></li>
+</ul><!-- /box03 -->
+
+
+</div><!-- main -->
+
+
+<div id="side">
+    <div class="side_inner01">
+
+        
+<div class="productinfo2015">
+  <div class="side_innerbox">
+    <div class="ttlbox">新製品情報</div>
+    <div class="box" id="carousel2015">
+      <ul class="clearfix">
+          
+          <li style="background-image:url(/update/images/productinfo/zeitakukoucha_premiumlate_17_b.jpg);" class="product_img">
+            <div class="inner"><a href="/zeitakukoucha/" target="_blank" title="8月21日[月] 発売　贅沢香茶 プレミアムティーラテwithジャスミン">8月21日[月] 発売　贅沢香茶 プレミアムティーラテwithジャスミン</a></div>
+            </li>  
+          
+          <li style="background-image:url(/update/images/productinfo/wakagokochi_hycider_17_b.jpg);" class="product_img">
+            <div class="inner"><a href="/wakagokochi/" target="_blank" title="6月5日[月] 発売　和果ごこち 日向夏サイダー">6月5日[月] 発売　和果ごこち 日向夏サイダー</a></div>
+            </li>
+          
+            <li style="background-image:url(/update/images/productinfo/blend_black_sekaiichi_400_17_b.jpg);" class="product_img">
+            <div class="inner"><a href="http://drinco.jp/Form/Product/ProductDetail.aspx?shop=0&pid=02235Nb24P01&vid=&bid=drink&cat=100010&swrd=" class="event_track_link" data-event_category="link_www_newproduct" data-event_label="dydo_online_shop_newproduct" target="_blank" title="4月24日[月] 発売　ダイドーブレンド　コクと香りのブレンドBLACK　世界一のバリスタ監修">4月24日[月] 発売　ダイドーブレンド　コクと香りのブレンドBLACK　世界一のバリスタ監修</a></div>
+            </li>
+            
+         </ul>
+    </div>
+    <div class="arrow_left" id="c_prev">←</div>
+    <div class="arrow_right" id="c_next">→</div>
+  </div>
+</div><!-- /productinfo2015 -->
+        
+<div class="cmmove">
+  <div class="side_innerbox">
+    <div class="ttlbox">おすすめCM・動画</div>
+    <div class="youtube">
+        <a href="/cm/" title="CM・動画情報"><video src="/update/include/cm/170424/cm.mp4?ud=170424" autoplay muted width="204" height="114"></video></a>
+        <!-- <iframe width="204" height="114" src="/update/include/cm/161011/cm.html" frameborder="0" scrolling="no" allowfullscreen></iframe> -->
+    </div>
+    <div class="youtube_lnk"><a class="bgt" href="http://www.youtube.com/user/dydojp" title="DyDo公式チャンネル" target="_blank">YouTube DyDo公式チャンネル</a></div>
+  </div>
+</div><!-- /cmmove -->
+        
+<div class="osusume_info">
+  <div class="side_innerbox">
+    <div class="ttlbox">おすすめ情報</div>
+    <div><a class="event_track_link" data-event_category="link_index" data-event_label="smile_stand_top" target="_blank" href="/smilestand/" title="スマホと自販機が通信できる、新しいサービス！ Smile STAND"><img src="/update/side/images/smilestand.png" alt="スマホと自販機が通信できる、新しいサービス！ Smile STAND" /></a></div>
+  </div>
+</div>
+<div class="osusume_info">
+  <div class="side_innerbox">
+    <div class="ttlbox">おすすめ情報</div>
+    <div><a class="event_track_link" data-event_category="link_index" data-event_label="smile_stand_top" href="/corporate/3min/" title="創刊 3分で分かるダイドードリンコ"><img src="/update/side/images/3min.png" alt="創刊 3分で分かるダイドードリンコ" /></a></div>
+  </div>
+</div><!-- /osusume_info -->
+        <div class="osusume_info">
+  <div class="side_innerbox">
+    <div class="ttlbox">スペシャルサイト</div>
+    <div><a class="event_track_link" data-event_category="link_index" data-event_label="2soda_s_top" target="_blank" href="/2tsucp2017/" title="2つの食感ソーダゼリー WEB限定動画"><img src="/update/side/images/2tsu20170703.jpg" alt="2つの食感ソーダゼリー WEB限定動画" /></a></div>
+  </div>
+</div>
+<!-- /special_site -->
+        
+<div class="clubdydo">
+  <div class="side_innerbox">
+    <div class="ttlbox">CLUB DYDO</div>
+    <div class="clubdydo_link"><a class="bgt" href="/club_dydo/" title="CLUB DYDO">買うたびおトク!ポイント自販機 CLUB DYDO</a></div>
+  </div>
+</div><!-- /clubdydo -->
+        
+<div class="entertainment">
+  <div class="side_innerbox">
+    <div class="ttlbox">お楽しみ情報</div>
+    <div class="lnk_fan"><a class="bgt" href="/fan/" title="エンターテインメントに参加">楽しくお得な情報満載！ ＞ エンターテインメントに参加</a></div>
+    <div class="lnk_member"><a class="bgt" href="/member/index" title="会員サービスを見る">ポイントでプレゼントGet！ ＞ 会員サービスを見る</a></div>
+  </div>
+</div><!-- /entertainment -->
+        
+<div class="dydo_online_shop">
+  <div class="side_innerbox">
+    <div class="ttlbox">DyDo オンラインショップ</div>
+    <ul class="img_box" id="crossfade">
+    <li style="background-image:url(/update/images/onlineshop/blend_sekaiichi_185_1703.jpg)" class="img01"><p>「ダイドーブレンド コク深ブレンド微糖 世界一のバリスタ監修」 1ケース 3,450円(税抜)</p></li>
+      <li style="background-image:url(/update/images/onlineshop/blend_sekaiichi_260_1708.jpg)" class="img02"><p>「ダイドーブレンド 香るブレンド微糖 世界一のバリスタ監修」 1ケース 3,120円(税抜)</p></li>
+      <li style="background-image:url(/update/images/onlineshop/miu_1703.jpg)" class="img03"><p>「miu」 1ケース 2,520円(税抜)</p></li>
+      <li style="background-image:url(/update/images/onlineshop/smartshot_1404.jpg)" class="img04"><p>「スマートショット BLACK」コーヒー本来の味わいにこだわったトクホコーヒー 1ケース 3,336円(税抜)</p></li>
+        <li style="background-image:url(/update/images/onlineshop/otonano_calolimit.jpg)" class="img05"><p>「大人のカロリミット はとむぎブレンド茶」 1ケース 3,324円(税抜)</p></li>
+    </ul>
+    <div class="btn01" id="btn_onlineshop"><a class="bgt" href="http://drinco.jp/drink/" title="DyDo オンラインショップ" onClick="javascript:_gaq.push(['_trackEvent', 'link_www_right_col', 'Click', 'dydo_online_shop_rightcol']);" target="_blank">購入する</a></div>
+  </div>
+</div><!-- /dydo_online_shop -->
+        
+<div class="banner banner_matsuri">
+  <div class="side_innerbox">
+    <a href="http://www.dydo-matsuri.com/" target="_blank"><img src="common/images/side_banner001.png" width="206" height="199" alt="ダイドードリンコ日本の祭り"></a>
+  </div>
+</div><!-- /side_banner_maturi -->
+
+    </div><!-- /side_inner01 -->
+</div><!-- /#side -->
+
+<!-- page_top -->
+
+<div id="btn_page_top" class="btn_page_top clearfix"><a href="#wrapper" class="bgt">page top</a></div>
+<div class="debug" style="display:none;"></div>
+</div><!-- /content -->
+</div><!-- /container -->
+</div><!-- /container_wrap -->
+</div><!-- /container_box -->
+
+<!-- footer -->
+<div id="footer">
+  <div class="footer_inner">
+    <div class="main_navigation clearfix">
+      <div class="navi_box clearfix">
+        <ul class="mnavi01 clearfix">
+          <li class="none"><a href="/products/" title="製品情報">製品情報</a></li>
+          <li><a href="/corporate/jihanki/" title="自販機のご紹介">自販機のご紹介</a></li>
+          <li><a href="/corporate/" title="企業情報">企業情報</a></li>
+          <li><a href="/csr/" title="CSR活動">CSR活動</a></li>
+          <li><a href="/corporate/recruit/" title="採用情報">採用情報</a></li>
+          <li><a href="/faq/" title="お客様相談室">お客様相談室</a></li>
+          <li class="ghd"><a href="http://www.dydo-ghd.co.jp" title="ダイドーグループホールディングス" target="dydo_ghd">ダイドーグループホールディングス</a><img src="/common/images/tag_301.png" alt="別ウィンドウで開きます"></li>
+        </ul>
+        <ul class="mnavi02 clearfix">
+          <li><a href="/brands/" title="ブランドサイト・特設サイト">ブランドサイト・特設サイト</a></li>
+          <li><a href="/cm/" title="CM情報">CM情報</a></li>
+          <li><a href="/present/" title="プレゼント・キャンペーン">プレゼント・キャンペーン</a></li>
+          <li><a href="/fan/" title="エンターテインメント">エンターテインメント</a></li>
+          <li><a href="/member/index" title="お得な会員サービス">お得な会員サービス</a></li>
+          <li class="none"><a href="http://drinco.jp/drink/" title="DyDo オンラインショップ" class="event_track_link" data-event_category="link_www_footer" data-event_label="dydo_online_shop_f" target="_blank">DyDo オンラインショップ</a></li>
+        </ul>
+      </div>
+    </div><!-- /main_navigation -->
+  </div><!-- /footer_inner -->
+
+  <div class="sub_navigation">
+    <div class="inner">
+      <ul class="navi_box">
+        <li class="btn01"><a href="http://www.dydo-ghd.co.jp/privacy/" target="dydo_ghd">プライバシーポリシー</a></li>
+        <li class="btn02"><a href="http://www.dydo-ghd.co.jp/terms/" target="dydo_ghd">ご利用規約</a></li>
+        <li class="btn03"><a href="http://www.dydo-ghd.co.jp/guide/" target="dydo_ghd">推奨環境</a></li>
+        <li class="btn04"><a href="/privacy/social_media.html">ソーシャルメディアご利用規約</a></li>
+        <li class="btn05"><a href="/sitemap/">サイトマップ</a></li>
+      </ul>
+      <div class="copyright">Copyright &copy; DyDo DRINCO. ALL rights reserved.</div>
+    </div>
+  </div><!-- /sub_navigation -->
+</div>
+
+
+</div><!-- wrapper -->
+
+</body>
+</html>

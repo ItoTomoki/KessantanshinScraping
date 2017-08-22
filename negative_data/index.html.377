@@ -1,0 +1,436 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ja">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta http-equiv="X-UA-Compatible" content="IE=100" />
+<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<title>BBT｜株式会社ビジネス・ブレークスルー（BBT／大前研一代表）</title>
+<meta name="description" content="BBTは、インターネットを活用した遠隔型マネジメント教育事業を中心に、主に社会人を対象にビジネスの基礎から専門分野別に分類された講座など、約10,000時間のコンテンツを提供をしております。">
+<meta name="keywords" content="BBT,ビジネス・ブレークスルー,大前研一">
+<link rel="canonical" href="https://www.bbt757.com/" />
+<link href="common/css/import.css" rel="stylesheet" type="text/css" media="all">
+<link href="common/css/index.css" rel="stylesheet" type="text/css" media="all">
+<link href="css/top_design.css" rel="stylesheet" type="text/css" media="all">
+<link href="css/bttn.css" rel="stylesheet" type="text/css" media="all">
+<link href="common/css/print.css" rel="stylesheet" type="text/css" media="print">
+<script type="text/javascript" src="common/js/jquery.js"></script>
+<script type="text/javascript" src="common/js/rollover.js"></script>
+<script type="text/javascript" src="common/js/common.js"></script>
+<script type="text/javascript" language="javascript" src="js/slider/jquery.carouFredSel-5.6.4.js"></script>
+<script type="text/javascript" src="common/js/jquery.recommend.js"></script>
+<script type="text/javascript" language="javascript">
+$(window).bind("load", function() {
+	$('#recommend .flexslider').flexslider02({
+		animation: 'slide',
+		slideshow: false,
+		controlNav: false,
+		prevText: "前へ",
+		nextText: "次へ",
+		animationLoop: false
+	});
+});
+$(function(){
+	$("#ans").hide();
+	$(".ques").toggle(function(){
+		$(this).addClass("active");
+	}, function () {
+		$(this).removeClass("active");
+	});
+
+	$(".ques").click(function(){
+		$(this).next("#ans").slideToggle("slow,");
+	});
+});
+</script>
+<script type="text/javascript" language="javascript">
+$(function() {
+	//	Basic carousel + timer
+	$('#foo1').carouFredSel({
+		scroll: {
+		duration: 1250
+		},
+	auto: {
+		pauseOnHover: 'resume',
+		onPauseStart: function( percentage, duration ) {
+			$(this).trigger( 'configuration', ['width', function( value ) {
+				$('#timer1').stop().animate({
+					width: value
+				}, {
+					duration: duration,
+					easing: 'linear'
+				});
+			}]);
+		},
+		onPauseEnd: function( percentage, duration ) {
+			$('#timer1').stop().width( 0 );
+		},
+		onPausePause: function( percentage, duration ) {
+			$('#timer1').stop();
+		}
+	},
+	prev: '#prev2',
+	next: '#next2'
+	});
+});
+</script>
+</head>
+<body id="index">
+<!-- Google Tag Manager -->
+<noscript>
+<iframe src="//www.googletagmanager.com/ns.html?id=GTM-P9J7"
+height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-P9J7');</script>
+<!-- End Google Tag Manager -->
+
+<div id="container">
+  <div id="header">
+    <div class="inner">
+      <div id="logo"><a href="/"><img src="common/images/logo.png" alt="BBT｜株式会社ビジネス・ブレークスルー（BBT／大前研一代表）" width="109" height="114"></a></div>
+      <div id="tagline">
+        <h1>BBT｜株式会社ビジネス・ブレークスルー（BBT／大前研一代表） </h1>
+        インターネットや衛星放送を活用した遠隔型マネジメント<br>
+        教育事業を通じて、世界に通用する人材を育成します。 </div>
+      <div id="headerNav">
+				<ul>
+          <li><a class="head" href="/sitemap.html">サイトマップ</a></li>
+          <li><a class="head" href="/mail/index.html">メルマガ登録</a></li>
+          <li><a class="end head" href="/inquiry/index.html">お問い合わせ</a></li>
+          <li><a class="head" href="/company/index.html">企業情報</a></li>
+          <li class="ir head"><a href="http://www.bbt757.com/ir/index.html" target="_blank">IR情報</a></li>
+        </ul>
+      </div>
+      <div id="gnav">
+        <ul>
+          <li><a class="head" href="/aboutus/index.html"><img src="common/images/gnavi_01.jpg" alt="ビジネス・ブレークスルーを知る" width="166" height="42" class="rollover"></a></li>
+          <li><a class="head" href="/program/index.html"><img src="common/images/gnavi_02.jpg" alt="講座・プログラムを探す" width="169" height="42" class="rollover"></a></li>
+          <li><a class="head" href="/solution/" target="_blank"><img src="common/images/gnavi_03.jpg" alt="法人の方" width="166" height="42" class="rollover"></a></li>
+          <li><a class="head" href="/campus/index.html"><img src="common/images/gnavi_04.jpg" alt="受講生の方" width="166" height="42" class="rollover"></a></li>
+          <li><a class="head" href="/info_for_alumni/index.html"><img src="common/images/gnavi_05.jpg" alt="卒業生・修了生の方" width="166" height="42" class="rollover"></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div id="contents">
+    <div id="mv">
+      <div class="inner">
+        <p id="leadText00"><img src="images/index_h01.png" alt="ビジネス英語から基礎力・起業・MBAまでまで「考える力」を鍛えるオンラインプログラムを提供・サポートしています。" width="700" height="122"></p>
+        <p id="leadText"><img src="images/index_tx01.png" alt="BBT（ビジネス・ブレークスルー）は一流の講師による実践型の講義と学生・受講生同士のディスカッションを交えたプログラムにより受講生の「考える力」を鍛え、生活からビジネスまで幅広く役立つコンテンツを提供しています。" width="581" height="60"></p>
+        <div id="aboutBtn01"><a class="main" href="/aboutus/k_oomae.html"><img src="images/index_bt01.png" alt="代表取締役社長　大前 研一について　詳細はこちらから" width="240" height="188" class="rollover"></a></div>
+        <div id="aboutBtn02">
+          <p><img src="images/index_tx02.gif" alt="ビジネス・ブレークスルーを知る" width="212" height="37"></p>
+          <ul>
+            <!--<li><a class="main" href="/aboutus/keyword/index.html"><img src="images/index_bt02.gif" alt="キーワードで知るBBT" width="212" height="29" class="rollover"></a></li>-->
+            <li><a class="main" href="/aboutus/voice/index.html"><img src="images/index_bt03.gif" alt="受講生の声" width="212" height="29" class="rollover"></a></li>
+          </ul>
+        </div>
+      </div>
+      <div id="pickUp">
+        <p class="pickupTitle"><img src="images/index_h02.gif" alt="ピックアップ PICK UP" width="136" height="21"></p>
+        <a id="prev2" class="prev" href="#"><img src="images/index_ic06.gif" width="19" height="34" alt="前へ" title="" /></a> <a id="next2" class="next" href="#"><img src="images/index_ic07.gif" width="19" height="34" alt="次へ" title="" /></a>
+        <div class="list_carousel">
+          <ul id="foo1">
+			<li><a class="slide" href="http://www.ohmae.ac.jp/ex/spobiz/" target="_blank"> <img src="images/sap-banner.jpg">
+              <p class="bnr_ttl">【スポーツビジネス実践講座】<br />
+                世界の潮流に学ぶ体系的実践的なWEB講座</p>
+              </a></li>
+            <li><a class="slide" href="http://www.bbt757.com/keieijuku/" target="_blank"> <img src="images/keieijyuku.jpg">
+              <p class="bnr_ttl">【大前経営塾】<br />
+                来たれ！次代を担うビジネスリーダー</p>
+              </a></li>
+            <li><a class="slide" href="http://www.ohmae.ac.jp/mba_lp/" target="_blank"> <img src="images/mba_bnr.png">
+              <p class="bnr_ttl">【BBT大学院】<br />
+                MBA診断で未来を占う</p>
+              </a></li>
+            <li><a class="slide" href="http://www.ohmae-report.com/" target="_blank"> <img src="images/ohmaeReport.jpg">
+              <p class="bnr_ttl">【大前研一通信】<br />
+                大前研一オフィシャル情報誌</p>
+              </a></li>
+            <li><a class="slide" href="http://bb.bbt757.com/"> <img src="images/cs-bb.gif">
+              <p class="bnr_ttl">【Business Breakthrough Ch】<br />
+                大前研一総監修のビジネス専門チャンネル</p>
+              </a></li>
+            <li><a class="slide" href="http://www.president.co.jp/LP/ohmae_seminar/" target="_blank"> <img src="images/president_seminar_11.jpg">
+              <p class="bnr_ttl">【BBTxPRESIDENT】<br />
+                第11回 エグゼクティブセミナー</p>
+              </a></li>
+            <li><a class="slide" href="http://www.ohmae.ac.jp/ex/leadership/" target="_blank"> <img src="images/leadership.png">
+              <p class="bnr_ttl">【リーダーシップ・アクションプログラム】<br />
+                3日間の無料メールセミナー</p>
+              </a></li>
+						<li><a class="slide" href="http://www.ohmae.ac.jp/ex/asset/training/" target="_blank"><img src="images/shisan273x80.png">
+							<p class="bnr_ttl">【資産形成力養成講座】<br />
+								株式・資産形成実践コース</p>
+							</a></li>
+						<li><a class="slide" href="http://www.ohmae.ac.jp/ex/english/biztest/" target="_blank"> <img src="images/pegl_273x80.jpg">
+              <p class="bnr_ttl">【PEGL】<br />
+                BBT実践ビジネス英語検定</p>
+              </a></li>
+            <li><a class="slide" href="http://bbt.ac/" target="_blank"> <img src="images/bbtac.png">
+              <p class="bnr_ttl">【BBT大学】<br />
+                2017年入学生募集中</p>
+              </a></li>
+            <li><a class="slide" href="http://www.bbt757.com/sekaie/" target="_blank"> <img src="images/sekaie.jpg">
+              <p class="bnr_ttl">【ATAMI せかいえ】<br />
+                メンバーシップのご案内</p>
+              </a></li>
+            <li><a class="slide" href="http://www.bbt757.com/pr/rtocs/" target="_blank"> <img src="images/rtocs.jpg">
+              <p class="bnr_ttl">【RTOCS】<br />
+                待望のRTOCS書籍化</p>
+              </a></li>
+              <li><a class="slide" href="http://www.attackers-school.com/worry/index.html" target="_blank"> <img src="images/abs.jpg">
+              <p class="bnr_ttl">【アタッカーズ・ビジネススクール】<br />
+              アントレプレナー診断</p>
+            </a></li>
+            <li><a class="slide" href="http://tourism-leaders.com/" target="_blank"> <img src="images/TLS.jpg">
+              <p class="bnr_ttl">【Tourism Leaders School】<br />
+              観光地経営人財育成のオンラインスクール</p>
+            </a></li>
+          </ul>
+          <div class="clearfix"></div>
+        </div>
+        <!--carousel-->
+      </div>
+			<div class="infoBttn"> <a class="button con" href="lists/event.html">各プログラムで<br>
+        <span>実施中のイベント情報</span></a> <a class="button con" href="lists/campaign.html">各プログラムで<br>
+        <span>実施中のキャンペーン情報</span></a> </div>
+    </div>
+    <div id="contentsInner">
+      <div id="main">
+        <h2><img src="images/index_h03.gif" alt="■講座・プログラムを探す" width="690" height="14"></h2>
+        <h3 class="searchTitle"><a href="program/goal.html"><img src="images/index_h04.gif" alt="目標から探す" width="107" height="23"></a></h3>
+        <div class="searchArea01">
+          <ul>
+						<li id="sa01"><a class="con01" href="/program/goal/mba.html"><span>MBAを<br>
+              取得したい</span></a></li>
+            <li id="sa02"><a class="con01" href="/program/goal/qualification.html"><span>卒業資格を<br>
+              とりたい</span></a></li>
+            <li id="sa03"><a class="con01" href="/program/goal/business.html"><span>ビジネスを<br>
+              基礎から学びたい</span></a></li>
+            <li id="sa04"><a class="con01" href="/program/goal/entrepreneur.html"><span>起業・<br>
+              新規事業</span></a></li>
+            <li id="sa05"><a class="con01" href="/program/goal/overseas.html"><span>海外で<br>
+              活躍したい</span></a></li>
+            <li id="sa06"><a class="con01" href="/program/goal/management.html"><span>経営スキル<br>
+              を身につける</span></a></li>
+            <li id="sa07"><a class="con01" href="/program/goal/career.html"><span>キャリアアップ<br>
+              したい</span></a></li>
+            <li id="sa08"><a class="con01" href="/program/goal/life.html"><span>充実した生活<br>
+              を送りたい</span></a></li>
+          </ul>
+        </div>
+        <h3 class="searchTitle"><a href="program/content.html"><img src="images/index_h05.gif" alt="学びたい内容から探す" width="179" height="23"></a></h3>
+        <div class="searchArea02 mb20">
+          <ul>
+						<li class="li01"><a class="con02" href="/program/content/business.html"><span>ビジネス必須のスキルを総合的に</span></a></li>
+            <li class="li01"><a class="con02" href="/program/content/management.html"><span>経営力</span></a></li>
+            <li class="li01"><a class="con02" href="/program/content/lte.html"><span>問題解決力</span></a></li>
+            <li class="li01"><a class="con02" href="/program/content/english.html"><span>ビジネス英語</span></a></li>
+            <li class="li01"><a class="con02" href="/program/content/asset.html"><span>資産形成</span></a></li>
+            <li class="li01"><a class="con02" href="/program/content/innovation.html"><span>イノベーション</span></a></li>
+            <li class="li01"><a class="con02" href="/program/content/entrepreneur.html"><span>起業・新規事業</span></a></li>
+            <li class="li01"><a class="con02" href="/program/content/klp.html"><span>充実した生活</span></a></li>
+          </ul>
+        </div>
+        <h3><img src="images/index_h06.gif" alt="講座・プログラム一覧から探す" width="690" height="24"></h3>
+        <div class="searchArea04">
+          <div class="col">
+            <ul class="linkList01">
+							<li><a class="con03" href="http://www.bbt757.com/program/bbtu/">BBT大学経営学部グローバル経営学科/ITソリューション学科</a></li>
+              <li><a class="con03" href="http://www.bbt757.com/program/mba/">BBT大学院 経営管理修士（MBA）課程</a></li>
+              <li><a class="con03" href="http://www.bbt757.com/program/bond/">BOND-BBT MBAプログラム<br>
+                ★海外正式MBA（AACSB認証取得）★</a></li>
+              <li><a class="con03" href="http://www.bbt757.com/program/pegl/">実践ビジネス英語講座（PEGL）</a></li>
+              <li><a class="con03" href="http://www.bbt757.com/program/lte/">問題解決力トレーニングプログラム</a></li>
+              <li><a class="con03" href="http://www.bbt757.com/program/breakthrough/">ブレークスルートレーニング</a></li>
+              <li><a class="con03" href="http://www.bbt757.com/program/koi/">大前研一イノベーション講座</a></li>
+              <li><a class="con03" href="http://www.bbt757.com/program/bbtch/">Business Breakthrough Ch(スカパー！・ブロードバンド視聴)</a></li>
+            </ul>
+          </div>
+					<div class="col02">
+            <ul class="linkList01">
+              <li><a class="con03" href="http://www.bbt757.com/program/okei/">大前経営塾</a></li>
+              <li><a class="con03" href="http://www.bbt757.com/program/attackers-school/">アタッカーズ・ビジネススクール</a></li>
+              <li><a class="con03" href="http://www.bbt757.com/program/leadership/">リーダーシップ・アクションプログラム</a></li>
+              <li><a class="con03" href="http://www.bbt757.com/program/kokenkai/">向研会</a></li>
+              <li><a class="con03" href="http://www.bbt757.com/program/asset/">資産形成力養成講座</a></li>
+              <li><a class="con03" href="http://www.ohmae.ac.jp/highschool/toyo/">東葉高校広域通信制</a></li>
+              <li><a class="con03" href="http://www.bbt757.com/sekaie/">ATAMIせかいえ</a></li>
+            </ul>
+          </div>
+          <div class="col03">
+            <ul class="linkList01">
+              <li><a class="con03" href="http://www.bbt757.com/program/market/">BBTラーニングマーケット</a></li>
+              <li><a class="con03" href="http://www.bbt757.com/program/klp/">ビジネスマン健康カレッジ（KLP）</a></li>
+              <li><a class="con03" href="http://www.bbt757.com/program/lifeplan/">ライフプランニングコース</a></li>
+              <li><a class="con03" href="http://www.bbt757.com/program/ohmae-report/">大前研一通信</a></li>
+              <li><a class="con03" href="http://www.bbt757.com/program/bbtonline/">BBTOnline(英会話)</a></li>
+              <li><a class="con03" href="http://www.aobajapan.jp/">アオバジャパンインターナショナルスクール</a></li>
+              <li><a class="con03" href="https://www.bbt757.com/corporate/pschool/">p.school</a></li>
+              <li><a class="con03" href="http://www.bbt757.com/info_for_alumni/">BBTアルムナイサービス</a></li>
+            </ul>
+          </div>
+        </div>
+        <h2><img src="images/index_h07.gif" alt="■お知らせ" width="690" height="14" class="info" id="info"></h2>
+        <iframe src="news_release/info/info.html" name="sample" width="680" height="150" style="border:none; padding:0; margin:0;" frameborder="0" scrolling="no"> この部分はインラインフレームを使用しています。 </iframe>
+        <p class="linkIcon10"><a href="http://www.bbt757.com/news_release/info/">お知らせ一覧</a></p>
+        <h2><img src="images/index_h07-1.gif" alt="■お知らせ" width="690" height="14" class="info mt20" id="info"></h2>
+        <iframe src="news_release/list.html" name="sample" width="680" height="125" style="border:none; padding:0; margin:0;" frameborder="0" scrolling="no"> この部分はインラインフレームを使用しています。 </iframe>
+        <p class="linkIcon10"><a href="http://www.bbt757.com/news_release/">ニュースリリース一覧</a></p>
+      </div>
+      <div id="aside">
+        <div id="socialBtn">
+          <!-- AddThis Button BEGIN -->
+          <div class="addthis_toolbox">
+            <div class="custom_images"> <a class="addthis_button_compact">シェアする</a> <span class="addthis_separator">|</span> <a class="addthis_button_twitter"></a> <a class="addthis_button_facebook"></a> <a class="addthis_button_google"></a> <a class="addthis_button_hatena"></a> <a class="addthis_button_delicious"></a></div>
+          </div>
+          <script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=xa-4eeaa66373fa8d8d"></script>
+          <!-- AddThis Button END -->
+        </div>
+				<ul id="sideNav">
+          <li><a class="side" href="http://tr.webantenna.info/rd?waad=UUtqsuK7&ga=WAAAAk-1"><img src="images/top_bn_1127.jpg" alt="大前研一×堀江貴文 テクノロジー対談" width="200" height="157"></a></li>
+          <li><a class="side" href="/campus/index.html"><img src="images/index_bt19.gif" alt="受講生の方へ　AirCampusへのログイン、サポートページはこちらから" width="200" height="70" class="rollover"></a></li>
+          <li><a class="side" href="/info_for_alumni/index.html"><img src="images/index_bt26.gif" alt="卒業生・修了生の方へ" width="200" height="70" class="rollover"></a></li>
+          <li><a class="side" href="http://www.bbt757.com/solution/" target="_blank"><img src="images/index_bt20.gif" alt="法人の方へ　ご要望に応じた人材育成プログラムの企画・運営を行っています。" width="200" height="70" class="rollover"></a></li>
+          <li><a class="side" href="http://tr.webantenna.info/rd?waad=NtjVe1gh&ga=WAAAAk-1"><img src="images/index_btm.gif" alt="メディアの方へ" width="200" height="50"  class="rollover"></a></li>
+          <li><a class="side" href="/mail/index.html"><img src="images/index_bt21.gif" alt="メルマガ登録" width="200" height="50" class="rollover"></a></li>
+          <li><a class="side" href="/inquiry/index.html"><img src="images/index_bt22.gif" alt="お問い合わせ" width="200" height="50" class="rollover"></a></li>
+          <li><a class="side" href="/campus/index.html#anc01"><img src="images/index_bt25.gif" alt="サポート情報はこちら" width="200" height="50" class="rollover"></a></li>
+          <li class="mb0"><a class="side" href="http://www.bbt757.com/ir/public.html"><img src="images/index_bt23.gif" alt="電子公告" width="200" height="30" class="rollover"></a></li>
+        </ul>
+        <p class="title"><strong>■おすすめ書籍</strong></p>
+        <!--<div class="inner_amazon">
+
+<script  charset="utf-8" type="text/javascript" src="https://ws-fe.amazon-adsystem.com/widgets/q?rt=tf_ssw&ServiceVersion=20070822&MarketPlace=JP&ID=V20070822%2FJP%2Fwidgetsamazon-22%2F8003%2Fc373e2af-9584-41c7-9517-b7f3f3197cbd&Operation=GetScriptTemplate"> </script> <noscript><a href="https://ws-fe.amazon-adsystem.com/widgets/q?rt=tf_ssw&ServiceVersion=20070822&MarketPlace=JP&ID=V20070822%2FJP%2Fwidgetsamazon-22%2F8003%2Fc373e2af-9584-41c7-9517-b7f3f3197cbd&Operation=NoScript">Amazon.co.jp ウィジェット</a></noscript>
+</div>-->
+        <div class="inner_amazon">
+          <!--<SCRIPT charset="utf-8" type="text/javascript" src="http://ws-fe.amazon-adsystem.com/widgets/q?rt=tf_ssw&ServiceVersion=20070822&MarketPlace=JP&ID=V20070822%2FJP%2Fwidgetsamazon-22%2F8003%2F96a88a7a-ce80-4abf-8776-a3c69d6b024d&Operation=GetScriptTemplate"> </SCRIPT> <NOSCRIPT><A HREF="http://ws-fe.amazon-adsystem.com/widgets/q?rt=tf_ssw&ServiceVersion=20070822&MarketPlace=JP&ID=V20070822%2FJP%2Fwidgetsamazon-22%2F8003%2F96a88a7a-ce80-4abf-8776-a3c69d6b024d&Operation=NoScript">Amazon.co.jp ウィジェット</A></NOSCRIPT>
+-->
+          <script type='text/javascript'>
+var amzn_wdgt={widget:'Carousel'};
+amzn_wdgt.tag='bbt05-22';
+amzn_wdgt.widgetType='ASINList';
+amzn_wdgt.searchIndex='Books';
+amzn_wdgt.ASIN='B00FYH1GG6,4093798710,B00KPS0DFE,4492522158,4907554230,B012CIB6SC,4907554249,4093897484';
+amzn_wdgt.title='';
+amzn_wdgt.width='200';
+amzn_wdgt.height='200';
+amzn_wdgt.marketPlace='JP';
+</script>
+          <script type='text/javascript' src='http://wms-fe.amazon-adsystem.com/20070822/JP/js/swfobject_1_5.js'>
+</script>
+        </div>
+      </div>
+    </div>
+    <div id="footer">
+      <div class="pagetop">
+        <p><a href="#container">ページ上部へ</a></p>
+      </div>
+      <div id="footerTxt">
+        <p>大人の「考える力」を鍛える遠隔通信性（オンライン）教育プログラムの株式会社ビジネス・ブレークスルー。代表大前研一。大学・大学院・海外大学院・英語教育などに幅広くビジネススクールを展開。世界に通用する問題解決能力などのビジネススキルを養えます。代表大前研一は日本有数の経営コンサルタントです。</p>
+      </div>
+      <div id="footerNav">
+        <div id="footerCol">
+          <div class="colLeft">
+            <p class="linkIcon02"><a href="/aboutus/index.html">ビジネス・ブレークスルーを知る</a></p>
+						<ul class="linkList01">
+              <li><a class="foot" href="/aboutus/k_oomae.html">大前研一について</a></li>
+              
+              <li><a class="foot" href="/aboutus/voice/index.html">受講生の声</a></li>
+              <li><a class="foot" href="/aboutus/e_learning.html">BBTのeラーニングについて</a></li>
+              <li><a class="foot" href="/news_release/">メディアの方へ</a></li>
+            </ul>
+						<p class="linkIcon02"><a class="foot" href="/campus/index.html">受講生の方</a></p>
+            <p class="linkIcon03"><a class="foot" href="http://www.bbt757.com/solution/" target="_blank">法人の方</a></p>
+            <p class="linkIcon02"><a class="foot" href="/news_release/info/">お知らせ</a></p>
+            <p class="linkIcon02"><a class="foot" href="/mail/index.html">メルマガ登録</a></p>
+          </div>
+          <div class="colCenter">
+            <p class="linkIcon02"><a class="foot" href="/program/index.html">講座・プログラムを探す</a></p>
+            <div class="inner">
+              <div class="col">
+                <ul class="linkList01">
+									<li><a class="foot" href="http://www.bbt757.com/program/bbtu/">BBT大学経営学部</a></li>
+                  <li><a class="foot" href="http://www.bbt757.com/program/mba/" target="_blank">BBT大学院 経営管理修士（MBA）課程</a></li>
+                  <li><a href="http://www.bbt757.com/program/bond/" target="_blank">BOND-BBT MBAプログラム<br>
+                    ★海外正式MBA（AACSB認証取得）★</a></li>
+                  <li><a class="foot" href="http://www.bbt757.com/program/pegl/">実践ビジネス英語講座（PEGL）</a></li>
+                  <li><a class="foot" href="http://www.bbt757.com/program/lte/">問題解決力トレーニングプログラム</a></li>
+                  <li><a class="foot" href="http://www.bbt757.com/program/breakthrough/">ブレークスルートレーニング</a></li>
+                  <li><a class="foot" href="http://www.bbt757.com/program/koi/">大前研一イノベーション講座</a></li>
+                  <li><a class="foot" href="http://www.bbt757.com/program/bbtch/">Business Breakthrough Ch(スカパー！・ブロードバンド視聴)</a></li>
+                  <li><a class="foot" href="http://www.bbt757.com/program/okei/">大前経営塾</a></li>
+                  <li><a class="foot" href="http://www.bbt757.com/program/attackers-school/">アタッカーズ・ビジネススクール</a></li>
+                  <li><a class="foot" href="http://www.bbt757.com/program/leadership/">リーダーシップ・アクションプログラム</a></li>
+                </ul>
+              </div>
+							<div class="col">
+                <ul class="linkList01">
+                  <li><a class="foot" href="http://www.bbt757.com/program/kokenkai/">向研会</a></li>
+                  <li><a class="foot" href="http://www.bbt757.com/program/asset/">資産形成力養成講座</a></li>
+                  <li><a class="foot" href="http://www.ohmae.ac.jp/highschool/toyo/" target="_blank">東葉高校広域通信制</a></li>
+                  <li><a class="foot" href="http://www.bbt757.com/program/market/">BBTラーニングマーケット</a></li>
+                  <li><a class="foot" href="http://www.bbt757.com/program/klp/">ビジネスマン健康カレッジ（KLP）</a></li>
+                  <li><a class="foot" href="http://www.bbt757.com/program/lifeplan/">ライフプランニングコース</a></li>
+                  <li><a class="foot" href="http://www.bbt757.com/program/ohmae-report/">大前研一通信</a></li>
+                  <li><a class="foot" href="http://www.bbt757.com/program/bbtonline/">BBTOnline(英会話)</a></li>
+                  <li><a class="foot" href="http://www.bbt757.com/info_for_alumni/">BBTアルムナイサービス</a></li>
+                  <li><a class="foot" href="https://www.bbt757.com/corporate/pschool/">p.school（小中高校生向けプログラミング</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="colRight">
+            <p class="linkIcon02"><a href="/company/index.html">企業情報</a></p>
+            <ul class="linkList01">
+              <li><a class="foot" href="/company/outline.html">会社概要</a></li>
+              <li><a class="foot" href="/company/history.html">沿革</a></li>
+              <li><a class="foot" href="/company/committee.html">委員会</a></li>
+              <li><a class="foot" href="/company/access_map.html">アクセスマップ</a></li>
+              <li><a class="foot" href="/company/recruit.html">採用情報</a></li>
+              <li class="ir"><a class="foot" href="http://www.bbt757.com/ir/index.html" target="_blank">IR情報</a></li>
+              <li><a class="foot" href="/univ_info/index.html">BBT大学(概要)</a></li>
+              <li class="ir"><a class="foot" href="http://www.bbt757.com/publication/bbtri/index.html" target="_blank">BBT総合研究所</a></li>
+              <li><a class="foot" href="/bic/" target="_blank">BBTビジネス・インキュベーションセンター（BIC)</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div id="footerLink">
+        <ul>
+          <li><a href="/agreement.html">利用規約</a></li>
+          <li><a href="/privacy.html">プライバシーポリシー</a></li>
+          <li><a href="/regulation.html">特定商取引法に基づく表示</a></li>
+          <li><a href="/publication/index.html">出版</a></li>
+        </ul>
+        <p class="copyright">&copy; 2015 Business Breakthrough Inc.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- リマーケティング タグの Google コード -->
+<!--------------------------------------------------
+リマーケティング タグは、個人を特定できる情報と関連付けることも、デリケートなカテゴリに属するページに設置することも許可されません。タグの設定方法については、こちらのページをご覧ください。
+http://google.com/ads/remarketingsetup
+--------------------------------------------------->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 1002141313;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;"> <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1002141313/?value=0&amp;guid=ON&amp;script=0"/> </div>
+</noscript>
+</body>
+</html>

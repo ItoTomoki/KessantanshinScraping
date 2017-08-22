@@ -1,0 +1,264 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja-JP" xml:lang="ja-JP">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+<title>石井食品株式会社</title>
+<meta name="Keywords" content="石井食品, 無添加調理, 厳選素材, 品質保証番号, 食の安全性, viridian, ヴィリジアン" />
+<meta name="Description" content="無添加料理だから　石井食品株式会社のウェブサイトです。厳選素材、検査体制から製品管理の方針、当社製品を使ったアレンジレシピ、そして会社概要、IR情報、採用情報などをご紹介いたします。" />
+<meta http-equiv="content-script-type" content="text/javascript" />
+
+<!-- ファビコン指定 -->
+<link rel="shortcut icon" href="./img/favicon.ico" />
+<!-- ファビコン指定 ここまで -->
+
+<!-- css指定 ここから -->
+<link rel="stylesheet" href="./themes/default/default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="./nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="./demo/style.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="./_css-style-top.css" type="text/css" media="all" />
+
+<!-- css指定 ここまで -->
+
+<meta name="viewport" content="width=1000" />
+<link rel="canonical" href="http://www.ishiifood.co.jp" /> 
+<!-- javascript ここから -->
+<script type="text/javascript" src="http://www.ishiifood.co.jp/js/rollover2.js"></script>
+	<script type="text/javascript" src="./demo/scripts/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="./js/jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider({
+	        effect: 'random',
+	        animSpeed: 500,
+	        pauseTime: 5500,
+			controlNav:true, // コントロールナビの表示
+		});
+
+    });
+    </script>
+<!-- javascript ここまで -->
+
+<!-- google analytics ここから -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-39523904-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<!-- google analytics ここまで -->
+</head>
+
+<body>
+
+<!-- ヘッダー ここから -->
+<div id="header-cover">
+<div id="header">
+	<div id="header-l"><a href="./"><img src="./img/logo2.png" width="185" height="63" alt="無添加調理の石井食品" /></a></div>
+	<div id="header-r">
+		<h1>石井食品株式会社 | 無添加調理</h1>
+		<p style="font-size:14px; font-weight:normal;"><a href="./">ホーム</a>&nbsp;|&nbsp;<a href="./rinen-top.php">企業理念</a>&nbsp;|&nbsp;<a href="./corp-top.php">会社情報</a>&nbsp;|&nbsp;<a href="./ir-top.php">IR情報</a>&nbsp;|&nbsp;<a href="./csr-top.php">イシイの取り組み</a>&nbsp;|&nbsp;<a href="./corp-saiyo.php">採用情報</a>&nbsp;|&nbsp;<a href="https://www.ishiifood.co.jp/contact.php">お問い合わせ</a></p>
+	</div>
+	<div class="clear"></div>
+</div>
+</div>
+<!-- ヘッダー ここまで -->
+	<div id="site00">
+
+
+
+<!-- トップバナー ここから -->
+		<div id="top-banner">
+		    <div id="wrapper">
+		        <div class="slider-wrapper theme-default">
+				    <div id="slider" class="nivoSlider">
+
+						<a href="http://item.directishii.net/meatball/" target="_blank"><img src="./demo/images/gazo65.jpg" data-thumb="./demo/images/gazo65.jpg" width="920" height="311" alt="ミートボールのこだわり" /></a>
+
+						<a href="http://shop.directishii.net/detail.php?ctg=10003&keyno=20" target="_blank"><img src="./demo/images/gazo64.jpg" data-thumb="./demo/images/gazo64.jpg" width="920" height="311" alt="チキンハンバーグ" /></a>
+
+						<a href="./kengaku-top.php"><img src="./demo/images/gazo62.jpg" data-thumb="./demo/images/gazo62.jpg" width="920" height="311" alt="工場見学" /></a>
+
+						<a href="http://shop.directishii.net/lp/allergy/" target="_blank"><img src="./demo/images/gazo57.jpg" data-thumb="./demo/images/gazo57.jpg" width="920" height="311" alt="アレルギー配慮食品" /></a>
+
+						<a href="http://shop.directishii.net/lp/hijosyoku/" target="_blank"><img src="./demo/images/gazo51.jpg" data-thumb="./demo/images/gazo51.jpg" width="920" height="311" alt="水がなくても温めなくても食べられる非常食セット" /></a>
+
+				    </div>
+		        </div>
+		    </div>
+		</div>
+<!-- トップバナー ここまで -->
+
+<!-- サイドメニュー ここから -->
+		<div id="smenu-toppage">
+
+			<div id="smenu-douga">
+				<div id="smenu-dogalogo"><img src="./img/smenu-doga.png" width="161" alt="動画一覧"/></div>
+				<ul id="smenu-youtube">
+					<li><iframe width="161" height="91" src="https://www.youtube.com/embed/DbUwODlpZZk?rel=0" frameborder="0" allowfullscreen></iframe><p>プレーンミートボール</p></li>
+					<li><iframe width="161" height="91" src="https://www.youtube.com/embed/GcRsRCA2xNE?rel=0" frameborder="0" allowfullscreen></iframe><p>大鵬直伝ちゃんこ鍋スープ</p></li>
+				</ul>
+			</div>
+
+			<ul id="smenu_banner-toppage">
+				<li><a href="http://item.directishii.net/" target="_blank"><img src="./img/smenu-meatballnokodawari.png" alt="工場見学"></a></li>
+				<li><a href="./kengaku-top.php"><img src="./img/smenu-kengaku.png" alt="工場見学"></a></li>
+				<li><a href="https://www.facebook.com/ishiifood.co.jp/" target="_blank"><img src="./img/smenu-facebook.png" alt="Facebook"></a></li>
+			</ul>
+
+
+		</div><!-- #smenu-toppage -->
+
+<!-- サイドメニュー ここまで -->
+
+<!-- コンテンツ ここから -->
+		<div id="contents">
+
+<!-- スライドここから　-->
+<!-- スライドここまで　-->
+<!-- スライド下バナー ここから -->
+		<div class="viridian-banner">
+			<a href="http://shop.directishii.net/" target="_blank"><img src="./img/top-direct.png" width="366" height="100" class="left" alt="ダイレクトイシイ" /></a>
+			<a href="./corp-news-view.php?keyno=38"><img src="./img/top-viridian.png" width="366" height="100" class="right" alt="ヴィリジアン" /></a>
+			<div class="clear"></div>
+		</div>
+<!-- スライド下バナー ここまで -->
+<!-- 新着情報 ここから -->
+			<div id="infomation-banner"><h2>新着情報</h2></div>
+			<div id="information-area">
+				<ul id="information-list">
+									<li>
+						<div class="info-date">2017年8月19日</div>
+						<div class="info-cate"><img src="./img/ctg/news-cate03.png" /></div>
+						<div class="info"><a href="http://shop.directishii.net/detail.php?ctg=10002&keyno=291">「野菜をたくさん食べる　若鶏肉だんご」期間限定で新発売!</a></div>
+						<div class="clear"></div>
+					</li>
+									<li>
+						<div class="info-date">2017年8月10日</div>
+						<div class="info-cate"><img src="./img/ctg/news-cate02.png" /></div>
+						<div class="info"><a href="http://www.ishiifood.co.jp/ir-yuho.php">「第１四半期報告書」を掲載しました。</a></div>
+						<div class="clear"></div>
+					</li>
+									<li>
+						<div class="info-date">2017年8月5日</div>
+						<div class="info-cate"><img src="./img/ctg/news-cate03.png" /></div>
+						<div class="info"><a href="http://shop.directishii.net/detail.php?ctg=10003&keyno=290">「山梨県大月市産玉ねぎがつまったハンバーグ」期間限定で新発売!</a></div>
+						<div class="clear"></div>
+					</li>
+									<li>
+						<div class="info-date">2017年8月1日</div>
+						<div class="info-cate"><img src="./img/ctg/news-cate05.png" /></div>
+						<div class="info"><a href="http://www.ishiifood.co.jp/recipe-top.php">アレンジレシピを更新しました。</a></div>
+						<div class="clear"></div>
+					</li>
+									<li>
+						<div class="info-date">2017年7月30日</div>
+						<div class="info-cate"><img src="./img/ctg/news-cate04.png" /></div>
+						<div class="info"><a href="http://www.ishiifood.co.jp/pdf/viridian20170730.pdf">「8月ヴィリジアン イベント情報」を更新しました。</a></div>
+						<div class="clear"></div>
+					</li>
+								</ul>
+				<div class="infomation-list-link"><a href="./top-news.php">▼ 新着情報一覧はこちら</a></div>
+			</div><!-- #information-area -->
+<!-- 新着情報 ここまで -->
+<!-- バナーエリア ここから -->
+			<div id="top-banner-area">
+				<div class="topbanner-l">
+					<a href="http://shop.directishii.net/" target="_blank"><img src="./img/top-banner-area01.png" width="174" alt="オンラインショップ"></a>
+					<p>▲詳しい商品情報を確認しながらお買い物ができます</p>
+				</div>
+				<div class="topbanner-l">
+					<a href="http://shop.directishii.net/lp/hijosyoku/" target="_blank"><img src="./img/top-banner-area02.png" width="174" alt="非常食"></a>
+					<p>▲火や水がなくても食べられる賞味期限5年の非常食</p>
+				</div>
+				<div class="topbanner-l">
+					<a href="http://shop.directishii.net/lp/chanco/" target="_blank"><img src="./img/top-banner-area03.png" width="174" alt="大鵬直伝ちゃんこ鍋スープ"></a>
+					<p>▲第48代横綱 大鵬親方の味をいかしたちゃんこ鍋スープ</p>
+				</div>
+				<div class="topbanner-r">
+					<a href="http://shop.directishii.net/lp/allergy/" target="_blank"><img src="./img/top-banner-area04.png" width="176" alt="食物アレルギー配慮食品"></a>
+					<p>▲特定原材料7品目(卵･乳･小麦･えび･かに･そば･落花生)不使用の商品</p>
+				</div>
+				<div class="clear"></div>
+
+				<div class="topbanner-l">
+					<a href="./rinen-sozai-shizennoseirei.php"><img src="./img/top-banner-area05.png" width="176" alt="工場見学"></a>
+					<p>▲石井食品のイメージキャラクターの紹介です。</p>
+				</div>
+				<div class="topbanner-l">
+					<a href="./sanchireport-top"><img src="./img/top-banner-area06.png" width="176" alt="原産地レポート"></a>
+					<p>▲原材料の産地確認や工場点検などのレポート</p>
+				</div>
+				<div class="topbanner-l">
+					<a href="./wakuwaku-top.php"><img src="./img/top-banner-area07.png" width="176" alt="わくわくヘルシー倶楽部"></a>
+					<p>▲お得なNEWSやプレゼントの案内をお届けします(無料)</p>
+				</div>
+				<div class="topbanner-r">
+					<a href="./recipe-top.php"><img src="./img/top-banner-area08.png" width="176" alt="アレンジレシピ"></a>
+					<p>▲石井食品のおいしいアレンジレシピをご紹介！</p>
+				</div>
+				<div class="clear"></div>
+			</div>
+<!-- バナーエリア ここまで -->
+
+<!-- OPEN ISHII ここから -->
+			<div id="top-openishii">
+				<div class="top-openishii-banner-title"><a href="./open-top.php">OPEN ISHII ～原材料・産地の情報がわかります～</a></div>
+				<div class="top-openishii-banner-logo">
+					<a href="./open-top.php"><img src="./img/openishiilogo.png" width="25" alt="OPEN ISHII" /></a>
+				</div>
+				<div class="top-openishii-banner-l">
+					<a href="./open-number01.php"><img src="./img/openishii-number.png" width="220" alt="品質保証番号検索" /></a>
+					<p>商品についている品質保証番号･賞味期限から詳しい原材料情報がわかります</p>
+				</div>
+				<div class="top-openishii-banner-l">
+					<a href="./open-sanchi01.php"><img src="./img/openishii-sanchi.png" width="220" alt="原料産地検索" /></a>
+					<p>使用している原材料の産地をお知らせしています</p>
+				</div>
+				<div class="top-openishii-banner-r">
+					<a href="./open-kensa01.php"><img src="./img/openishii-kensa.png" width="220" alt="農薬検査・収穫時期" /></a>
+					<p>原材料に使用する野菜の農薬残存検査の実施状況・収穫時期がわかります</p>
+				</div>
+				<div class="clear"></div>
+				
+			</div>
+<!-- OPEN ISHII ここまで -->
+
+		</div><!-- #contents -->
+<!-- コンテンツ ここまで -->
+		<div class="clear"></div>
+
+
+	</div><!-- site00 -->
+
+<!-- フッター ここから -->
+
+
+	<div id="footer-cover">
+		<div class="footer01">
+			<a href="./">トップページ</a>&nbsp;&nbsp;&nbsp;
+			<a href="./rinen-top.php">企業理念</a>&nbsp;&nbsp;&nbsp;
+			<a href="./corp-top.php">会社情報</a>&nbsp;&nbsp;&nbsp;
+			<a href="./ir-top.php">IR情報</a>&nbsp;&nbsp;&nbsp;
+			<a href="https://www.ishiifood.co.jp/contact.php">お問い合せ</a>&nbsp;&nbsp;&nbsp;
+			<a href="./privacy.php">プライバシーポリシー</a>&nbsp;&nbsp;&nbsp;
+			<a href="./sitemap.php">サイトマップ</a>
+		</div>
+		<div class="footer02">
+			<a href="./kengaku-top.php">工場見学</a>&nbsp;&nbsp;&nbsp;
+			<a href="./corp-news-view.php?keyno=38">コミュニティハウス Viridian(ヴィリジアン)</a>&nbsp;&nbsp;&nbsp;
+			<a href="./open-number01.php">品質保証番号検索</a>&nbsp;&nbsp;&nbsp;
+			<a href="http://shop.directishii.net/" target="_blank">オンラインショッピング</a>
+		</div>
+
+		<address>Copyright&copy;2015 Ishii Food CO.,Ltd. All Rights Reserved.</address>
+		
+	</div>
+<!-- フッター ここまで -->
+
+</body>
+</html>

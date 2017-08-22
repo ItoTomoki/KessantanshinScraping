@@ -1,0 +1,429 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja" dir="ltr">
+<head>
+<title>テクノアルファ株式会社 | 半導体製造装置/電子材料/船舶・環境機器</title>
+<link rel="shortcut icon" href="/images/technoalpha_favicon.ico" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/script" />
+<meta name="Keywords" content="半導体製造装置,電子材料・機器,舶用機器,環境関連,ワイヤボンダ" />
+<meta name="description" content="テクノアルファは、ワイヤボンダなどの半導体製造装置やエレクトロニクスメーカー向けの電子材料・機器、振動膜ろ過装置などの環境機器の輸出入及び販売、また、舶用機器の輸出及び国内販売を行っております。" />
+<link href="common.css" rel="stylesheet" type="text/css" />
+<link href="style_index.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>
+<script type="text/javascript" src="js/focus.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-25679096-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</head>
+
+<body id="index_page">
+<!--ヘッダー-->
+<div id="header">
+<div id="header_inner">
+<h1>半導体製造装置や電子材料を輸出入するテクノアルファ株式会社</h1>
+  
+<!--検索エリアスタート-->
+<div id="serch_area">
+<form method="get" action="http://www.google.co.jp/search">
+<img src="/images/serch_icon.gif" width="21" height="22" />
+<input name="q" type="text" class="form focus" value="" />
+<input name="btnG" type="image" src="/images/serch_btn.gif" alt="検索" class="btn" />
+<input type="hidden" name="sitesearch" value="technoalpha.co.jp/" /> 
+<input type="hidden" name="ie" value="utf-8"/>
+<input type="hidden" name="oe" value="utf-8"/>
+</form>
+</div>
+<!--検索エリアエンド-->  
+  
+<ul>
+ <li><a href="http://www.technoalpha.co.jp/">ホーム</a></li>
+ <li><a href="/inquiry/">お問い合せ</a></li>
+ <li><a href="/english/">ENGLISH</a></li>
+</ul>
+</div>
+<p class="logo"><a href="http://www.technoalpha.co.jp/"><img src="/images/site_id.gif" width="335" height="25" alt="TECHNO ALPHA" /></a></p>
+</div>
+<!--ヘッダーここまで-->
+
+<!--グローバルナビ-->
+<div id="global_navi">
+<ul>
+<li><a href="/information/"><img src="/images/gnavi_info_off.jpg" width="150" height="50" alt="インフォメーション" /></a></li>
+<li><a href="/company/"><img src="/images/gnavi_company_off.jpg" width="149" height="50" alt="会社情報" /></a>
+<ul class="com">
+<li class="a"><a href="/company/">会社情報についてご案内します
+<br /><img src="/images/gm_com.png" width="213" height="120" alt="会社情報" /></a></li>
+<li><a href="/company/philosophy.html"><img src="/images/gm_com_philosophy.png" width="180" height="55" alt="企業理念/事業展開" />
+<br />企業理念/事業展開</a></li>
+<li><a href="/company/message.html"><img src="/images/gm_com_message.png" width="180" height="55" alt="トップメッセージ" />
+<br />トップメッセージ</a></li>
+<li><a href="/company/quality.html"><img src="/images/gm_com_quality.png" width="180" height="55" alt="品質方針" />
+<br />品質方針</a></li>
+<li><a href="/company/profile.html"><img src="/images/gm_com_profile.png" width="180" height="55" alt="会社概要" />
+<br />会社概要</a></li>
+<li><a href="/company/history.html"><img src="/images/gm_com_history.png" width="180" height="55" alt="会社沿革" />
+<br />会社沿革</a></li>
+<li><a href="/company/technical.html"><img src="/images/gm_com_technical.png" width="180" height="55" alt="技術力" />
+<br />技術力</a></li>
+</ul>
+</li>
+<li><a href="/products/"><img src="/images/gnavi_product_off.jpg" width="149" height="50" alt="製品案内" /></a>
+<ul class="pro">
+<li class="a">
+<a href="/products/">取扱製品をご案内します。
+<br /><img src="/images/gm_pro.png" width="200" height="165" alt="ワイヤボンダ" /></a>
+</li>
+<li><a href="/products/solution/">製造工程から探す</a>
+<ul class="solu">
+<li><a href="/products/solution/#sentei">材料</a></li>
+<li><a href="/products/solution/#shori">表面処理</a></li>
+<li><a href="/products/solution/#mounting">マウンティング</a></li>
+<li><a href="/products/solution/#reflow">リフロー</a></li>
+<li><a href="/products/solution/reflow.html">はんだリフロー工程ソリューション</a></li>
+<li><a href="/products/solution/#bonding">ボンディング</a></li>
+<li><a href="/products/solution/#sokutei">測定</a></li>
+<li><a href="/products/solution/#kensa">検査</a></li>
+</ul>
+</li>
+<li><a href="/products/semiconductor/">半導体製造装置・材料</a>
+<ul class="sem">
+<li><a href="/products/semiconductor/oe.top.html">アルミ線ワイヤボンダ・リボンボンダー</a></li>
+<li><a href="/products/semiconductor/asterion.html">パワーモジュール向け新型ワイヤボンダ</a></li>
+<li><a href="/products/semiconductor/oe7200.html">アルミ太線・細線・リボンワイヤ対応新型ウェッジボンダー</a></li>
+<li><a href="/products/semiconductor/iconn.html">金線/銅線ボールボンダー</a></li>
+<li><a href="/products/semiconductor/mpp.html">マニュアルワイヤボンダ</a></li>
+<li><a href="/products/semiconductor/hcaz.html">ワイヤボンディング外観測定検査装置</a></li>
+<li><a href="/products/semiconductor/condor150.html">ボンドテスター(プルテスター・シェアテスタ)</a></li>
+<li><a href="/products/semiconductor/vp.html">Pbフリー対応VPSリフロー装置</a></li>
+<li><a href="/products/semiconductor/sst.html">真空/加圧リフロー装置</a></li>
+<li><a href="/products/semiconductor/crucialtec.html">レーザーはんだ/リフロー装置</a></li>
+<li><a href="/products/semiconductor/yxlon.html">マイクロフォーカスX線透視・CT検査装置</a></li>
+<li><a href="/products/semiconductor/wp4ps.html">パワーデバイスIV測定システム</a></li>
+<li><a href="/products/semiconductor/deweyl.html">ボンディングツール</a></li>
+<li><a href="/products/semiconductor/csm7000.html">セラミック基板分割装置</a></li>
+<li><a href="/products/semiconductor/customize.html">パワー半導体製造装置 設計/製作/カスタマイズ</a></li>
+</ul>
+</li>
+<li><a href="/products/board/">基板 実装装置・材料</a>
+<ul class="boa">
+<li><a href="/products/board/diener.plasma.html">プラズマクリーナー/プラズマ表面処理装置</a></li>
+<li><a href="/products/board/tresky.html">マニュアルダイボンダー/フリップチップボンダー</a></li>
+<li><a href="/products/board/datapaq.html">はんだリフロー温度ロガーシステム</a></li>
+<li><a href="/products/board/micromaterials.html">光ファイバー式温度計</a></li>
+<li><a href="/products/board/technic.html">貴金属粉末：銀粉/銀パラジウム合金</a></li>
+<li><a href="/products/board/atrox.html">高熱伝導ダイアタッチペースト/導電性接着剤</a></li>
+<li><a href="/products/board/staystik.html">熱可塑性接着剤</a></li>
+<li><a href="/products/board/getter.html">水分吸着剤・水分ゲッター材</a></li>
+<li><a href="/products/board/koartan.html">厚膜導体・絶縁・導電性ペースト</a></li>
+<li><a href="/products/board/ait.html">微少抵抗溶接電極/ヒーターチップ</a></li>
+<li><a href="/products/board/icp.html">高輝度LED用 DPCセラミック基板</a></li>
+<li><a href="/products/board/pfarr.html">低融点はんだ・Pbフリーはんだ</a></li>
+<li><a href="/products/board/galden.html">ガルデン</a></li>
+</ul>
+</li>
+<li><a href="/products/solar/">太陽電池向け関連機器</a>
+<ul class="sol">
+<li><a href="/products/solar/assessment.html">太陽電池特性評価システム</a></li>
+<li><a href="/products/solar/durability.html">太陽電池耐久試験システム</a></li>
+<li><a href="/products/solar/sl200.html">放射照度計</a></li>
+<li><a href="/products/solar/datapaq.solar.html">太陽電池製造プロセス向け温度ロガーシステム</a></li>
+<li><a href="/products/solar/datapaq.vacuum.html">真空プロセス専用温度測定システム</a></li>
+</ul>
+</li>
+<li><a href="/products/mems/">プリンテッド・センサ・他</a>
+<ul class="mem">
+<li><a href="/products/mems/isorg.html">ISORG有機センサ(フォトディテクタ／イメージセンサ)</a></li>
+<li><a href="/products/mems/flexenable.html">フレキシブル有機エレクトロニクス/有機薄膜トランジスタ</a></li>
+<li><a href="/products/mems/piezotech.html">プリンテッドエレクトロニクス対応PVDF系強誘電性材料</a></li>
+<li><a href="/products/mems/genesink.html">導電性 銀ナノインク/半導電性 酸化亜鉛インク</a></li>
+<li><a href="/products/mems/emi360.html">広範囲三次元ノイズキャプチャー</a></li>
+<li><a href="/products/mems/emi.html">EMIテスタ</a></li>
+<li><a href="/products/mems/stresscheck.html">ストレス測定システム/ストレスチェッカー</a></li>
+<li><a href="/products/mems/dosing.html">サニタリー対応 吐出装置</a></li>
+<li><a href="/products/mems/biosensor.html">酵素電極法バイオセンサ</a></li>
+</ul>
+</li>
+<li><a href="/products/marine/">船舶・環境機器</a>
+<ul class="mar">
+<li><a href="/products/marine/lifeboat.html">救命艇(ライフボート)</a></li>
+<li><a href="/products/marine/davit.html">ミランダダビット</a></li>
+<li><a href="/products/marine/shelter.html">津波防災シェルター</a></li>
+<li><a href="/products/marine/vsep.html">V-SEP振動膜ろ過装置</a></li>
+<li><a href="/products/marine/tami.main.html">セラミック膜・セラミックフィルタ</a></li>
+<li><a href="/products/marine/cembrane.html">浸漬型SiCフィルター・膜</a></li>
+<li><a href="/products/marine/tami.testunit.html">セラミック膜 ラボテストユニット</a></li>
+</ul>
+</li>
+<li><a href="/products/lcd/">LCD・有機EL関連製品</a>
+<ul class="lcd">
+<li><a href="/products/lcd/uvt.html">深紫外・ハイパワーLEDトータルソリューション</a></li>
+<li><a href="/products/lcd/wheels.html">カッティングホイール</a></li>
+<li><a href="/products/lcd/tape.html">包装材料開封テープ</a></li>
+<li><a href="/products/lcd/business.html">LCD/有機EL関連事業のご紹介</a></li>
+</ul>
+</li>
+<li><a href="http://www.peritec.co.jp/product/" target="_blank">LabVIEW検査・計測</a></li>
+<li><a href="http://www.kya-tech.co.jp/products/" target="_blank">サイエンス関連製品</a></li>
+</ul>
+</li>
+<li><a href="/ir/news.html"><img src="/images/gnavi_irinfo_off.jpg" width="152" height="50" alt="IR情報" /></a>
+<ul class="ir">
+<li class="a"><a href="/ir/news.html">IR情報はこちらをご覧ください。
+<br /><img src="/images/gm_ir.png" width="190" height="120" alt="IR情報" /></a></li>
+<li><a href="/investor.r.html">株主・投資家の皆様へ</a></li>
+<li><a href="/ir/business.html">事業概要</a></li>
+<li><a href="/ir/governance.html">コーポレート・ガバナンス</a></li>
+<li><a href="/ir/individual.html">個人投資家の皆様へ</a></li>
+<li><a href="/ir/irnews.html">IRニュース</a></li>
+<li><a href="/ir/highlights.html">財務ハイライト</a></li>
+<li><a href="/ir/library.html">IRライブラリー</a></li>
+<li><a href="/ir/stock.html">株式情報</a></li>
+<li><a href="/ir/stockholder.html">株主優待</a></li>
+<li><a href="http://stocks.finance.yahoo.co.jp/stocks/detail/?code=3089.T" target="_blank" rel="nofollow">株価情報</a></li>
+<li><a href="/ir/koukoku.html">電子広告</a></li>
+<li><a href="/ir/calendar.html">IRカレンダー</a></li>
+<li><a href="/ir/faq.html">FAQ</a></li>
+<li><a href="/ir/disclaimers.html">免責事項</a></li>
+</ul>
+</li>
+<li><a href="/recruit/"><img src="/images/gnavi_recruit_off.jpg" width="148" height="50" alt="採用情報" /></a>
+<ul class="rec">
+<li class="a"><a href="/recruit/">採用情報をご案内します。
+<br /><img src="/images/gm_rec.png" width="200" height="120" alt="採用情報" /></a></li>
+<li><a href="/recruit/middle.html"><img src="/images/gm_rec_mid.png" width="180" height="100" alt="新卒採用" />
+<br />中途採用</a></li>
+<li><a href="/recruit/graduates.html"><img src="/images/gm_rec_gra.png" width="180" height="100" alt="新卒採用" />
+<br />新卒採用</a></li>
+<li><a href="/recruit/professional.html"><img src="/images/gm_rec_pro.png" width="180" height="100" alt="プロフェッショナル採用" />
+<br />プロフェッショナル採用</a></li>
+</ul>
+</li>
+<li><a href="/access/"><img src="/images/gnavi_access_off.jpg" width="150" height="50" alt="アクセス" /></a></li>
+</ul>
+</div>
+<!--グローバルナビここまで-->
+
+<!--メインビジュアル-->
+<div id="main_visual">
+<div id="main_visual_inner">
+<div class="slider-wrapper theme-default">
+<div class="ribbon"></div>
+<div id="slider" class="nivoSlider">
+<img src="images/top_mainvisual_02.jpg" width="1500" height="315" alt="パワー半導体をはじめ、太陽光発電やLEDを扱う技術専門商社" />
+<img src="images/top_mainvisual_03.jpg" width="1500" height="315" alt="市場開発力と商品供給力　2つの強み" />
+<img src="images/top_mainvisual_04.jpg" width="1500" height="315" alt="地球に優しい製品の開発を目指す" />
+<img src="images/top_mainvisual_05.jpg" width="1500" height="315" alt="確かな技術で安心をお届けする。すべてはお客様のために。" />
+</div>
+<div id="htmlcaption" class="nivo-html-caption">
+<strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>.
+</div>
+</div>
+</div>
+</div>
+<!--メインビジュアルここまで-->
+
+<!--コンテンツ全体の枠-->
+<div id="wrapper">
+
+<!--メインコンテンツ-->
+<div id="main_content">
+<!--メインコンテンツ（インフォメーション）-->
+<div id="main_content_info">
+<h3><img src="images/mainC_head_info.jpg" width="530" height="33" alt="インフォメーション" /></h3>
+<dl>
+ <dt>2017.08.08</dt>
+ <dd><a href="/skg/" target="_blank">神奈川事業所（システム開発グループ）のご紹介</a></dd>
+</dl>
+<dl>
+ <dt>2017.08.07</dt>
+ <dd><a href="/products/lcd/uvt.html">深紫外・ハイパワーLEDトータルソリューション 取扱開始</a></dd>
+</dl>
+<dl>
+ <dt>2016.06.30</dt>
+ <dd><a href="/ir/news.html">平成29年11月期第2四半期決算発表</a><img src="/images/icon_irinfo.gif" width="22" height="17" alt="IR情報" /></dd>
+</dl>
+<dl>
+ <dt>2017.06.01</dt>
+ <dd><a href="/products/semiconductor/vp.html">ドイツIBL社ベーパーリフロー装置ラインアップページ新設！！</a></dd>
+</dl>
+<dl>
+ <dt>2017.05.30</dt>
+ <dd><a href="/products/semiconductor/sst.html">米国SST社真空/加圧リフロー装置ラインアップページ新設！！</a></dd>
+</dl>
+<dl>
+ <dt>2017.05.26</dt>
+ <dd><a href="/products/mems/genesink.html">導電性 銀ナノインク/半導電性 酸化亜鉛インク 取扱開始</a></dd>
+</dl>
+
+<p><a href="information/">バックナンバー</a></p>
+<ul class="updates">
+<li><a href="/updates/">サイト更新情報</a></li>
+</ul>
+</div>
+<!--メインコンテンツ（インフォメーション）ここまで-->
+
+<!--メインコンテンツ（ピックアップ製品）-->
+<div id="main_content_pickup">
+<h3><img src="images/mainC_head_pickup.jpg" width="530" height="33" alt="PICK UP製品" /></h3>
+<div id="main_content_pickup_inner">
+<div>
+<p><a href="products/semiconductor/oe.top.html"><img src="images/index_wb_off.png" width="234" height="78" alt="アルミ線ワイヤボンダ・リボンボンダ" /></a></p>
+<p class="pickup_product_title"><b>2015年12月15日更新</b><br /><a href="products/semiconductor/oe.top.html">アルミ線ワイヤボンダ・リボンボンダ</a></p>
+</div>
+
+<div>
+<p><a href="/products/semiconductor/condor150.html"><img src="images/index_xyztec_off.jpg" width="234" height="78" alt="多機能ボンドテスター" /></a></p>
+<p class="pickup_product_title"><b>2017年5月17日更新</b><br /><a href="/products/semiconductor/condor150.html">ボンドテスター</a></p>
+</div>
+<div>
+<p><a href="products/semiconductor/vp.html"><img src="images/index_vp.png" width="234" height="78" alt="VPSリフロー装置" class="brightly" /></a></p>
+<p class="pickup_product_title"><b>2017年6月1日更新</b><br /><a href="products/semiconductor/vp.html">ベーパーフェーズリフロー装置</a></p>
+</div>
+<div>
+<p><a href="products/semiconductor/sst.html"><img src="images/index_sst.png" width="234" height="78" alt="真空/加圧リフロー装置" class="brightly" /></a></p>
+<p class="pickup_product_title"><b>2017年5月30日新設</b><br /><a href="products/semiconductor/sst.html">真空/加圧リフロー装置</a></p>
+</div>
+
+<div>
+<p><a href="products/board/tresky.html"><img src="images/index_tresky.png" width="234" height="78" alt="マニュアルダイボンダー/フリップチップボンダー" class="brightly" /></a></p>
+<p class="pickup_product_title"><b>2017年4月27日更新</b><br /><a href="products/board/tresky.html">マニュアルダイボンダー</a></p>
+</div>
+<div>
+<p><a href="products/board/diener.plasma.html"><img src="images/mainC_pickup_plasma_off.jpg" width="234" height="78" alt="大気圧・低圧プラズマ洗浄装置" /></a></p>
+<p class="pickup_product_title"><b>2016年8月22日更新</b>
+<br /><a href="products/board/diener.plasma.html">プラズマ表面処理装置</a></p>
+</div>
+<div>
+<p><a href="/products/board/datapaq.html"><img src="images/index_datapaq_off.jpg" width="234" height="78" alt="温度データロガーシステム" /></a></p>
+<p class="pickup_product_title"><b>2017年3月24日更新</b>
+<br /><a href="/products/board/datapaq.html">温度データロガーシステム</a></p>
+</div>
+<div>
+<p><a href="/products/marine/lifeboat.html"><img src="images/index_lifeboat_off.png" width="234" height="78" alt="救命艇(ライフボート)" /></a></p>
+<p class="pickup_product_title"><b>2016年3月9日更新</b><br /><a href="/products/marine/lifeboat.html">救命艇(ライフボート)</a></p>
+</div>
+</div>
+<div id="main_content_pickup">
+<h3><img src="images/mainC_head_new.jpg" width="530" height="33" alt="新製品情報" /></h3>
+<p class="pickup_policy"><a href="products/semiconductor/vp.html">ベーパーフェーズリフロー装置</a>　<a href="/products/semiconductor/sst.html">真空/加圧リフロー装置</a>　<a href="/products/semiconductor/mpp.html">マニュアルワイヤボンダ</a>
+<br /><a href="/products/mems/genesink.html">導電性 銀ナノインク/半導電性 酸化亜鉛インク</a>　<a href="/products/semiconductor/crucialtec.html">レーザーはんだ/リフロー装置</a>
+<br /><a href="/products/mems/flexenable.html">フレキシブル有機エレクトロニクス</a>　<a href="/products/semiconductor/csm7000.html">セラミック基板分割装置</a>　<a href="new/"><font color="blue">新製品情報はこちら</font></a></p>
+</div>
+</div>
+<!--メインコンテンツ（ピックアップ製品）ここまで-->
+</div>
+<!--メインコンテンツここまで-->
+
+<!--サブコンテンツ-->
+<div id="top_side_content">
+<h3><a href="/products/solution/"><img src="images/side_solution.png" width="350" height="32" alt="製造工程における製品ラインナップ" class="brightly" /></a></h3>
+<ul class="side_product">
+<li><a href="/products/solution/reflow.html"><img src="images/sideC_menu_reflow.png" width="328" height="55" alt="リフロー工程ソリューション" class="brightly" /></a></li>
+</ul>
+<h3><a href="/products/"><img src="images/sideC_head_product.jpg" width="350" height="32" alt="取扱製品" class="brightly" /></a></h3>
+<ul class="side_product">
+ <li><a href="/products/semiconductor/"><img src="images/sideC_menu_semiconductor_off.jpg" width="328" height="55" alt="半導体製造装置・材料" /></a></li>
+ <li><a href="/products/board/"><img src="images/sideC_menu_substrate_off.jpg" width="328" height="55" alt="基板　実装装置・材料" /></a></li>
+ <li><a href="/products/solar/"><img src="images/sideC_menu_solarcell_off.jpg" width="328" height="55" alt="太陽電池向け関連装置" /></a></li>
+ <li><a href="/products/mems/"><img src="images/sideC_menu_mems.png" width="328" height="55" alt="MEMS・LED・その他製品" class="brightly" /></a></li>
+ <li><a href="/products/marine/"><img src="images/index_side_marine_off.png" width="328" height="55" alt="船舶・環境機器" /></a></li>
+ <li><a href="/products/lcd/"><img src="images/sideC_menu_lcd_off.jpg" width="328" height="55" alt="LCD・有機EL関連製品" /></a></li>
+ <li><a href="http://www.peritec.co.jp/product/" target="_blank" ><img src="images/index_side_labview_off.png" width="328" height="55" alt="LabVIEW検査・計測" /></a></li>
+ <li><a href="http://www.kya-tech.co.jp/products/" target="_blank" ><img src="images/index_side_science_off.png" width="328" height="55" alt="サイエンスL関連製品" /></a></li>
+</ul>
+
+<!--サブコンテンツ（バナーエリア）-->
+<div id="banner_area">
+<ul class="inside_banner">
+ <li class="skg">
+ <dl>
+ <dt>神奈川事業所</dt>
+ <dd><a href="/skg/" target="_blank"><img src="/images/side_skglogo.png" width="154" height="64" alt="神奈川事業所" class="brightly"/></a></dd>
+ </dl>
+ </li>
+ <li>
+ <dl>
+ <dt>展示会のお知らせ</dt>
+ <dd><a href="exhibition/"><img src="images/index_side_exhibition_off.png" width="154" height="64" alt="展示会のお知らせ" /></a></dd>
+ </dl>
+ </li>
+ <li>
+ <dl>
+ <dt>IR情報（投資家の方へ）</dt>
+ <dd><a href="ir/news.html"><img src="images/index_side_ir_off.png" width="154" height="64" alt="IR情報（投資家の方へ）" /></a></dd>
+ </dl>
+ </li>
+ <li>
+ <dl>
+ <dt>プロフェッショナル採用</dt>
+ <dd><a href="/recruit/professional.html"><img src="images/index_side_rec_off.png" width="154" height="64" alt="プロフェッショナル採用" /></a></dd>
+ </dl>
+ </li>
+ <li>
+ <dl>
+ <dt>Webマガジン</dt>
+ <dd><a href="/webmagazine/"><img src="images/index_side_magazine_off.png" width="154" height="64" alt="Webマガジン" /></a></dd>
+ </dl>
+ </li>
+</ul>
+<ul class="sns_banner">
+<li class="left"><a href="https://www.facebook.com/technoalpha.jp" target="_blank"><img src="images/index_side_facebook_off.png" width="162" height="40" alt="facebook公式ページ" /></a></li>
+<li><a href="https://twitter.com/techno_alpha" target="_blank"><img src="images/index_side_twitter_off.png" width="162" height="40" alt="Twitter公式アカウント" /></a></li>
+</ul>
+<ul class="outside_banner">
+ <li class="left"><a href="http://www.peritec.co.jp/" target="_blank" ><img src="images/peritec_logo_off.png" width="180" height="43" alt="LabVIEWのぺリテック" /></a></li>
+ <li><a href="http://stocks.finance.yahoo.co.jp/stocks/detail/?code=3089.T" target="_blank" rel="nofollow"><img src="images/index_jasdaq_off.png" alt="JASDAQ" border="0" width="144" height="43" /></a></li>
+ <li class="left"><a href="http://www.kya-tech.co.jp/" target="_blank" ><img src="images/kya_logo_off.png" width="180" height="40" alt="ケーワイエーテクノロジーズ" /></a></li>
+</ul>
+</div>
+</div>
+<!--サブコンテンツここまで-->
+
+<!--SNSここから-->
+<script type="text/javascript">sns();</script>
+<!--SNSここまで-->
+
+<!--トップへ戻るボタン ここから-->
+<div id="page-top">
+<p><a href="#top">PAGE TOP</a></p>
+</div>
+<!--トップへ戻るボタン ここまで-->
+
+</div>
+<!--コンテンツ全体の枠-->
+
+<!--フッター-->
+<script type="text/javascript">footer();</script>
+<!--フッターここまで-->
+
+
+<script type="text/javascript">
+piAId = '274952';
+piCId = '1246';
+
+(function() {
+ function async_load(){
+  var s = document.createElement('script'); s.type = 'text/javascript';
+  s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
+  var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+ }
+ if(window.attachEvent) { window.attachEvent('onload', async_load); }
+ else { window.addEventListener('load', async_load, false); }
+})();
+</script>
+</body>
+</html>

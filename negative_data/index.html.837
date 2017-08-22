@@ -1,0 +1,380 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta charset="UTF-8" />
+<title>株式会社電算</title>
+<link rel="stylesheet" media="screen" href="/assets/cms/public.css" />
+<script src="/assets/cms/public.js"></script>
+<script>
+//<![CDATA[
+
+  SS.config = {"theme":{},"recommend":{}};
+
+//]]>
+</script><meta name="keywords" content="総合福祉, 自治体, 総合行政, 行政情報, 電子申請, 電子入札, 電子申告, 基盤, アウトソーシング, データセンター, ハウジング, ホスティング, セキュリティ, ネットワーク, 情報系, 窓口, 内部情報, 決裁, 決済, 交付機, 住基, GIS, 税, 住民記録, LGWAN, サービス, 総合窓口, 情報システム, 財務, 財務会計, グループウェア, ワークフロー, Web, コンサル, 健康管理, 情報公開, 証明書, ネットワーク監視, avis" />
+<meta name="description" content="株式会社電算は、総合情報サービス企業として地方公共団体や民間企業に各種システム・パッケージを提供しています。" />
+
+<meta name="google-site-verification" content="SMAIk8KSahj4PHTbrph_vMegJQPwyZV5Z7S5gTRse-s" />
+<script type="text/javascript">
+if ((navigator.userAgent.indexOf('iPhone') > 0 ) || navigator.userAgent.indexOf('iPod') > 0 || navigator.userAgent.indexOf('Android') > 0) {
+	document.write('<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.5; minimum-scale=1.0; user-scalable=yes">');
+}
+</script>
+<meta name="apple-touch-fullscreen" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="copyright" content="copyright Densan. Co.,Ltd. All rights reserved.">
+<meta name="format-detection" content="telephone=no">
+<link rel="shortcut icon" href="/img/favicon.ico">
+
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<!--[if lt IE 9]>  
+<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]--> 
+<!--[if lt IE 8]>
+<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE8.js"></script>
+<![endif]-->
+
+<!--module/css-js-->
+<link href='https://fonts.googleapis.com/css?family=Prata' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css'>
+<link href="/css/import.css" rel="stylesheet" type="text/css">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+<!--<script>
+//jQuery(document).ready(function($) {
+//    if (window.matchMedia( '(min-width: 767px)' ).matches) {
+//        $.ajax({
+//            url: '/js/heightLine.js',
+//            dataType: 'script',
+//            cache: false
+//       });
+//    } else {
+//        $.ajax({
+//            url: '',
+//            dataType: 'script',
+//            cache: false
+//        });
+//    };
+//});
+</script>-->
+<script src="/js/heightLine.js"></script>
+<script src="/js/jquery.smoothScroll.js"></script>
+<script src="/js/tellink.js"></script>
+<script src="/js/s.js"></script>
+
+<link href="/css/jquery.bxslider.css" rel="stylesheet" />
+<script src="/js/jquery.bxslider.min.js"></script>
+<script type="text/javascript">
+ $(document).ready(function() {
+ $('.images').fadeIn(1500);
+ });
+</script>
+
+
+
+
+</head>
+
+<body class="" id="home">
+
+<!--header-->
+<header id="header" class="clearfix">
+<a href="/"><h1>Densan</h1></a>
+
+<!-- #srchBox -->
+<div id="search" class="watermark">
+<style>
+#search.watermark #search-box { background: #fff url(https://i.yimg.jp/images/search/customsearch/yjlogo/yjlogo_type4.gif) center center no-repeat; }
+#search.watermark #search-box.nomark { background: #fff; }
+#search.watermark #srchLogo { display: none; }
+</style>
+<h2></h2>
+<form action="/search/" method="get" id="srch">
+<input type="text" name="p" id="search-box" class="text" >
+<input type="submit" value="検索" id="search-button" onclick="document.getElementById('srchInput').focus();">
+<input type="hidden" id="fr" name="fr" value="cse">
+<input type="hidden" id="ei" name="ei" value="UTF-8">
+<input type="hidden" id="csid" name="csid" value="iVVtNt5mJpsjVrIWVM9QqzbRfa.6_Ts-">
+<input type="hidden" name="vs" value="www.ndensan.co.jp" id="yjInsite">
+</form>
+<script type="text/javascript">
+(function() {
+var sb = document.getElementById('search');
+if (sb && sb.className == 'watermark') {
+  var si = document.getElementById('search-box');
+  var f = function() { si.className = 'nomark'; };
+  var b = function() {
+    if (si.value == '') {
+      si.className = '';
+    }
+  };
+  si.onfocus = f;
+  si.onblur = b;
+  if (!/[&?]p=[^&]/.test(location.search)) {
+    b();
+  } else {
+    f();
+  }
+}
+})();
+</script>
+</div>
+<!-- /#srchBox -->
+
+<nav id="gnav">
+<h2>メニュー</h2>
+<ul id="gl-navi">
+<li id="navi-home"><a href="/">ホーム</a></li>
+<li id="navi-jichitai"><a href="/public/">公共団体向け</a></li>
+<li id="navi-business"><a href="/business/">民間企業向け</a></li>
+<li id="navi-ir"><a href="/ir/">IR情報</a></li>
+<li id="navi-company"><a href="/company/">会社情報</a></li>
+<li id="navi-recruit"><a href="/recruit/">採用情報</a></li>
+<li id="navi-inquire"><a href="/inquiry/">お問い合わせ</a></li>
+</ul>
+</nav>
+</header>
+<!--/header-->
+
+
+<!--box-->
+<section id="box" class="clearfix">
+
+<div id="key" class="mb40"> 
+<script>
+//<![CDATA[
+$(function() {
+
+  KeyVisual_Image.slide("#key_visual-images-560", {"speed":1500,"pause":4500});
+
+});
+//]]>
+</script>
+<div class="key_visual-slide" id="key_visual-images-560">
+  
+
+  <ul class="images">
+
+    <li>
+        <img alt="新社屋" src="/fs/7/7/0/_/topkey_001.jpg" />
+    </li>
+
+    <li>
+        <img alt="ドローン1" src="/fs/7/9/0/_/key_densan_sky1.jpg" />
+    </li>
+
+    <li>
+        <img alt="ドローン2" src="/fs/7/9/2/_/key_densan_sky2.jpg" />
+    </li>
+
+    <li>
+        <img alt="ドローン3" src="/fs/8/2/2/_/key_densan_sky3.jpg" />
+    </li>
+
+    <li>
+        <img alt="電算ビルからの眺望1" src="/fs/7/7/2/_/key_densan_photo1.jpg" />
+    </li>
+
+    <li>
+        <img alt="電算ビルからの眺望2" src="/fs/7/7/4/_/key_densan_photo2.jpg" />
+    </li>
+
+    <li>
+        <img alt="電算ビルからの眺望3" src="/fs/7/7/6/_/key_densan_photo3.jpg" />
+    </li>
+
+    <li>
+        <img alt="電算ビルからの眺望４" src="/fs/7/7/8/_/key_densan_photo4.jpg" />
+    </li>
+  </ul>
+
+  <div class="bx-thumbs">
+      <a data-slide-index="0" href="">
+        <img alt="新社屋" src="/fs/7/7/0/_/thumb/topkey_001.jpg" /></a>
+      <a data-slide-index="1" href="">
+        <img alt="ドローン1" src="/fs/7/9/0/_/thumb/key_densan_sky1.jpg" /></a>
+      <a data-slide-index="2" href="">
+        <img alt="ドローン2" src="/fs/7/9/2/_/thumb/key_densan_sky2.jpg" /></a>
+      <a data-slide-index="3" href="">
+        <img alt="ドローン3" src="/fs/8/2/2/_/thumb/key_densan_sky3.jpg" /></a>
+      <a data-slide-index="4" href="">
+        <img alt="電算ビルからの眺望1" src="/fs/7/7/2/_/thumb/key_densan_photo1.jpg" /></a>
+      <a data-slide-index="5" href="">
+        <img alt="電算ビルからの眺望2" src="/fs/7/7/4/_/thumb/key_densan_photo2.jpg" /></a>
+      <a data-slide-index="6" href="">
+        <img alt="電算ビルからの眺望3" src="/fs/7/7/6/_/thumb/key_densan_photo3.jpg" /></a>
+      <a data-slide-index="7" href="">
+        <img alt="電算ビルからの眺望４" src="/fs/7/7/8/_/thumb/key_densan_photo4.jpg" /></a>
+  </div>
+
+  
+</div>
+
+
+</div>
+  
+<!--contents-->
+<div id="contents">
+<div id="topics" class="clearfix mb30">
+
+<!--info-->
+<div class="fl w470" id="info">
+<div class="topics-title clearfix">
+<h2 class="fl">お知らせ</h2>
+<a href="/information/" class="topics-more fr">一覧を見る</a>
+<a href="/information/rss.xml" class="topics-rss fr">RSS</a>       
+</div>
+<div class="article-pages pages">
+<script>
+$(function(){
+          $('.infodate').each(function(){
+                    var txt = $(this).html();
+                    $(this).html(txt.replace(/-/g,'.'));
+          });
+});
+</script>
+<dl class="topics-dl clearfix"><dt class="infodate">2017-08-04</dt><dd class=""><a href="/information/840.html" class="">Densanソリューションセミナー2017に多数のご来場ありがとうございました</a></dd></dl>
+<dl class="topics-dl clearfix"><dt class="infodate">2017-08-04</dt><dd class=""><a href="/information/844.html" class="">「国際モダンホスピタルショウ2017」に出展しました</a></dd></dl>
+<dl class="topics-dl clearfix"><dt class="infodate">2017-07-24</dt><dd class=""><a href="/information/839.html" class="">弊社提供システムの不具合について</a></dd></dl>
+<dl class="topics-dl clearfix"><dt class="infodate">2017-06-19</dt><dd class=""><a href="/information/815.html" class="">Densanソリューションセミナー2017開催のお知らせ</a></dd></dl>
+<dl class="topics-dl clearfix"><dt class="infodate">2017-06-08</dt><dd class=""><a href="/information/814.html" class="">「国際モダンホスピタルショウ2017」に出展します</a></dd></dl>
+<dl class="topics-dl clearfix"><dt class="infodate">2017-05-19</dt><dd class=""><a href="/information/810.html" class="">「2017 Japan IT Week春」に出展しました</a></dd></dl>
+</div>
+
+</div>
+<!-- /info -->
+
+<!--press-->
+<div class="fr w470" id="press">
+<div class="topics-title clearfix">
+<h2 class="fl">プレスリリース</h2>
+<a href="ir/press.html" class="topics-more fr">一覧を見る</a>
+<a href="http://parts.eol.co.jp/V4Public/EIR/3640/ja/announcement/announcement_2.xml" class="topics-rss fr">RSS</a>          
+</div>
+<div id="divDataArea"></div>
+<script type="text/javascript" src="js/ir_announcement_top.js"></script>
+</div>
+<!--/press-->
+
+</div>
+<!--local-navi-->
+<div class="mb60">
+<ul id="local-navi" class="clearfix">
+<li id="local-jichitai"><a href="/public/"><span>公共団体向け</span></a></li>
+<li id="local-business"><a href="/business/"><span>民間企業向け</span></a></li>
+<li id="local-ir"><a href="/ir/"><span>IR情報</span></a></li>
+<li id="local-data"><a href="/datacenter/"><span>データセンター</span></a></li>
+ <li id="local-company"><a href="/company/"><span>企業情報</span></a></li>
+<li id="local-recruit"><a href="/recruit/"><span>採用情報</span></a></li>
+</ul>
+</div>
+<!--/local-navi-->
+
+</div>
+<!--/contents-->
+
+<!--history-->
+<div id="history" class="clearfix">
+<a href="/skate/">
+<div class="wrapper">
+<h3>Densan & Speed Skating</h3>
+<p class="w270">株式会社電算に所属するスピードスケート選手、山中大地選手と辻本有沙選手の紹介。</p>
+</div>
+</a>
+</div>
+<!--/history-->
+
+<!--bnr-->
+
+<div class="ads-banners" id="ads-banners-556">
+  
+
+  <div class="banners">
+    <span>
+      <a href="http://www.ndensan.co.jp/Pepper/index.html" >
+          <img alt="Pepper for Biz" src="/fs/7/6/4/_/pepper_banner_s.png" />
+      </a>
+    </span>
+    <span>
+      <a href="http://www.ndensan.co.jp/kms/index.html" >
+          <img alt="Smart KMS" src="/fs/1/2/9/_/kms.jpg" />
+      </a>
+    </span>
+    <span>
+      <a href="http://www.ndensan.co.jp/airlibro/index.htm" >
+          <img alt="Air Libro" src="/fs/1/2/3/_/airlibro_s.png" />
+      </a>
+    </span>
+    <span>
+      <a href="http://www.air-cloud.jp/" >
+          <img alt="Air Cloud" src="/fs/1/2/5/_/aircloud_s.png" />
+      </a>
+    </span>
+    <span>
+      <a href="http://www.ndensan.co.jp/mavin/index.html" >
+          <img alt="MAViNCloud 盟敏蔵人" src="/fs/1/2/7/_/mavin_top_banner.png" />
+      </a>
+    </span>
+    <span>
+      <a href="http://www.ndensan.co.jp/msv/index.html" >
+          <img alt="医薬品在庫管理システム" src="/fs/7/9/4/_/msv_banner.png" />
+      </a>
+    </span>
+    <span>
+      <a href="http://www.ndensan.co.jp/mynumber/" >
+          <img alt="番号管理Box/番号Post" src="/fs/8/7/7/_/mynumber_banner_s.png" />
+      </a>
+    </span>
+    <span>
+      <a href="http://www.avis.ne.jp/" >
+          <img alt="avisインターネット" src="/fs/7/6/6/_/avis_s.png" />
+      </a>
+    </span>
+  </div>
+
+  
+</div>
+
+<!--/bnr-->
+</section>
+<!--/box-->
+
+<!--footer-->
+<footer id="footer">
+<ul class="clearfix" id="footer-navi">
+<li><a href="/">ホーム</a></li>
+<li><a href="/public/">公共団体向け</a></li>
+<li><a href="/business/">民間企業向け</a></li>
+<li><a href="/ir/">IR情報</a></li>
+<li><a href="/recruit/">採用情報</a></li>
+<li><a href="/policy/">企業ポリシー</a></li>
+<li><a href="/sitemap/">サイトマップ</a></li>
+</ul>
+<div class="footersns">
+<p><a href="https://www.facebook.com/ndensan/"><img src="/img/bannerFB.png" alt="株式会社電算の公式Facebookページ"> </a></p>
+</div>
+  
+<address id="add">株式会社電算　<br class="sumaho">〒380-0904 長野県長野市鶴賀七瀬中町276-6　<br class="sumaho">TEL:<span class="tel-link">026-224-6666</span>(代表)／FAX:026-219-2600</address>
+<p class="footercontact"><a href="/inquiry/">お問い合わせ・資料請求</a></p>
+<div id="copy">Copyright &copy; 1998-
+ <script type="text/javascript">document.write(new Date().getFullYear())</script>
+ Densan. Co.,Ltd. All rights reserved.</div>
+</footer>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-90531361-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<!--/footer-->
+</body>
+
+</html>

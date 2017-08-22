@@ -1,0 +1,293 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta name="Keywords" content="和柄,ブランド,デニム,METHOD,流儀圧搾,メソッド" />
+<meta name="Description" content="（株）シーズメンは、カジュアルウェアの直営ショップブランド「METHOD」「流儀圧搾」「AGIT POINT」「Green＆Leaps」を全国に展開。ファッションアイテムから雑貨までオリジナルブランド商品を軸にした企画、製作、販売を行っています。" />
+<title>和柄ファッション「流儀圧搾」・ カジュアルウェア「METHOD」 | （株）シーズメン</title>
+<link href="css/reset.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/base.css" rel="stylesheet" type="text/css" />
+<link href="css/top.css" rel="stylesheet" type="text/css" />
+<link href="css/ihover.css" rel="stylesheet" type="text/css" />
+<script src="js/jquery-1.4.4.min.js" type="text/javascript"></script>
+<script src="js/jquery.user_code.js" type="text/javascript"></script>
+<script src="js/jquery.rollover.js" type="text/javascript"></script>
+<script src="js/jquery.corner.js" type="text/javascript"></script>
+
+<script src="js/jquery.page-scroller-308.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/newwin.js" type="text/javascript"></script>
+<script type="text/javascript">
+		$(document).ready(function() {
+			  $(".corner").corner("3px");
+		});
+$(function( ) {
+    $("#thumb1").on("load",function(){
+        var iw, ih;
+        var cw = 180;    /*トリミング後の横幅*/
+        var ch = 180;    /*トリミング後の縦幅*/
+        iw = ($(this).width() - cw) / 2;
+        ih = ($(this).height() - ch) / 2;
+        $(this).css("top", "-"+ih+"px");
+        $(this).css("left", "-"+iw+"px");
+    });
+});
+</script>
+<!--[if lt IE 9]>
+
+<script type="text/javascript" src="js/selectivizr-min.js"></script>
+<![endif]-->
+
+<style type="text/css">
+	.trimming {
+		position:relative;
+		width: 128px;
+		height: 128px;
+		overflow: hidden;
+		border: 1px solid #959595;
+	}
+	.p_trimming {
+		position:relative;
+		width: 160px;
+		height: 218px;
+		overflow: hidden;
+	}
+	p.trimming img{
+	    float:left;
+	    position:absolute;
+		border: none;
+	}
+	p.p_trimming img{
+	    float:left;
+	    position:absolute;
+	}
+	#news p.txt {
+		padding-left: 138px;
+	}
+</style>
+
+
+</head>
+
+<body>
+<div id="top">
+	<div id="wrap">
+		<div id="header">
+			<h1>株式会社シーズメンが展開するカジュアルウェア「METHOD」「流儀圧搾」「AGIT POINT」「Green＆Leaps」の公式サイトです。｜ >>和柄ファッション<a href="http://www.ryugi-onlineshop.jp/" target="_blank">「流儀圧搾」公式オンラインストアはこちら</a></h1>
+			<p><a href="corporate/index.html">株式会社シーズメン　コーポレートサイト</a></p>
+			<div id="logo"><em><a href="brand/method.html"><img src="images/logo_method.gif" width="86" height="29" alt="METHOD" class="rollover" /></a></em><em><a href="brand/ryugi.html"><img src="images/logo_ryugi.gif" width="66" height="29" alt="流儀圧搾" class="rollover" /></a></em><em><a href="brand/comfort.html"><img src="images/logo_mc.gif" width="83" height="29" alt="METHOD COMFORT" class="rollover" /></a></em><em><a href="brand/agit.html"><img src="images/logo_agit.gif" width="130" height="29" alt="AGIT POINT" class="rollover" /></a></em><em><a href="brand/green_and_leaps.html"><img src="images/logo_green_and_leaps.png" width="109" height="29" alt="Green＆Leaps" class="rollover" /></a></em></div>
+			<!-- / #header --></div>
+		<div id="navi">
+			<ul>
+				<li id="navi1">brand info
+					<ul>
+						<li id="navi2"><a href="brand/method.html">METHOD</a></li>
+						<li id="navi3"><a href="brand/comfort.html">METHOD COMFORT</a></li>
+						<li id="navi4"><a href="brand/ryugi.html">流儀圧搾</a></li>
+						<li id="navi5"><a href="brand/agit.html">AGIT POINT</a></li>
+						<li id="navi6"><a href="brand/green_and_leaps.html">Green＆Leaps</a></li>
+					</ul>
+				</li>
+				<li id="navi7">shop info
+					<ul>
+						<li id="navi8"><a href="javascript:void(0);" onclick="newWin();">news &amp; topics</a></li>
+						<li id="navi9"><a href="brand/shoplist.html">shop list</a></li>
+						<li id="navi10"><a href="brand/pointcard/index.html" class="none">point card</a></li>
+						<li id="navi11"><a href="mailmagazine/index.html" class="none">mail-magazine</a></li>
+						<li id="navi12"><a href="http://www.csmenblog.jp/" target="_blank" class="none">shop blog</a></li>
+						<li id="navi13"><a href="http://www.ryugi-onlineshop.jp/" target="_blank" class="none">online shop</a></li>
+						<li id="navi14"><a href="http://www.rakuten.co.jp/csmen/" target="_blank" class="none">Rakuten shop</a></li>
+					</ul>
+				</li>
+			</ul>
+			<div id="app">
+				<ul>
+					<li>流儀圧搾 ・ METHOD ・ AGIT POINT　CSMEN公式アプリ登場　ブランド＆ショップ配信のブログやニュースから知りたい情報をカスタマイズしてチェックできる！</li>
+					<li class="as"><a href="https://itunes.apple.com/jp/app/csmen/id1126766466" target="_blank"><img src="images/bana_app_as.png" alt="App Store" width="135" height="40" /></a></li>
+					<li class="gp"><a href="https://play.google.com/store/apps/details?id=jp.co.csmen.csmenapp" target="_blank"><img src="images/bana_app_gp.png" alt="Google Play" width="135" height="40" /></a></li>
+				</ul>
+			</div>
+			<div id="fb">
+				<iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fryugiassaku.jp&amp;width=200&amp;height=510&amp;colorscheme=light&amp;show_faces=true&amp;border_color&amp;stream=false&amp;header=true" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:200px; height:510px;" allowTransparency="true"></iframe>
+				<!-- / #fb --></div>
+			<!-- / #navi --></div>
+		<div id="main">
+			<ul id="slideMain">
+				<li id="frame1" class="ih-item square effect15 right_to_left"> <a href="brand/method.html">
+					<div class="img"><img src="images/slide_method_1703.jpg" alt="METHOD" width="236" height="348" /> </div>
+					<div class="info">
+						<h3>METHOD</h3>
+					</div>
+					</a></li>
+				<li id="frame2" class="ih-item square effect15 right_to_left"> <a href="brand/ryugi.html">
+					<div class="img"><img src="images/slide_ryugi_1703.jpg" alt="流儀圧搾" width="236" height="348" /> </div>
+					<div class="info">
+						<h3>流儀圧搾</h3>
+					</div>
+					</a></li>
+				<li id="frame3" class="ih-item square effect15 right_to_left"> <a href="brand/green_and_leaps.html">
+					<div class="img"><img src="images/slide_green_1602.jpg" alt="Green＆Leaps" width="236" height="348" /> </div>
+					<div class="info">
+						<h3>Green＆Leaps</h3>
+					</div>
+					</a></li>
+				<!-- /#slideMain -->
+			</ul>
+			<ul id="bana">
+				<li><a href="http://www.ryugi-onlineshop.jp/" target="_blank"><img src="images/bana_ol_1503.png" alt="流儀圧搾ONLINE SHOP" width="171" height="68" /></a></li>
+				<li><a href="http://www.csmenblog.jp/" target="_blank"><img src="images/bana_blog_1503.png" alt="CSMEN　SHOPBLOG" width="171" height="68" /></a></li>
+				<li class="last"><a href="brand/pointcard/index.html" target="_blank"><img src="images/bana_pointcard_v1.png" alt="CSMEN POINT CARD" width="354" height="68" /></a></li>
+				<!-- / #bana -->
+			</ul>
+			<div id="news">
+				<h2><img src="images/h2_news_1503.png" width="720" height="21" alt="news &amp; topics" /></h2>
+				<div class="Lbox">
+					<p class="corner">2017/08/01</p>
+					<h3><span></span><br />
+						『秋の大予約会』スタート!<br />
+						予約商品はご購入時ポイント2倍!</h3>
+					<div>
+										<a href="javascript:void(0);" onclick="newWin('652');">
+
+										<p class="trimming"><img src="http://www.csmen.co.jp/azp/img/topics_652_1.jpg" height="128" ></p>
+										</a>
+					</div>
+					<p class="txt">
+						<a href="javascript:void(0);" onclick="newWin('652');">今年の2月に開催して、多くのお客様からご好評いただきました『大予約会』。
+
+今度は秋の新作にて開催です!
+
+METHOD・流儀圧搾で取扱っている人気ブランドの発売前の『秋…</a>
+					</p>
+									</div>
+				<ul class="Rbox">
+										<li>
+						<p class="corner">2017/06/30</p>
+						<h3>
+							<a href="javascript:void(0);" onclick="newWin('651');">
+							『三時の甘盗娘』Tシャツ発売!<br />
+							小説&amp;漫画がTシャツになりました</a>
+						</h3>
+					</li>
+										<li>
+						<p class="corner">2017/06/08</p>
+						<h3>
+							<a href="javascript:void(0);" onclick="newWin('650');">
+							【流儀圧搾】ブランドページ更新<br />
+							流儀圧搾の浴衣&amp;甚平 2017新作!</a>
+						</h3>
+					</li>
+										<li>
+						<p class="corner">2017/04/28</p>
+						<h3>
+							<a href="javascript:void(0);" onclick="newWin('649');">
+							劇場版 ソードアート・オンライン<br />
+							コラボTシャツ発売!</a>
+						</h3>
+					</li>
+										<li>
+						<p class="corner">2017/04/25</p>
+						<h3>
+							<a href="javascript:void(0);" onclick="newWin('647');">
+							【METHOD】ブランドページ更新<br />
+							【in the attic】に大注目!</a>
+						</h3>
+					</li>
+										<li>
+						<p class="corner">2017/04/25</p>
+						<h3>
+							<a href="javascript:void(0);" onclick="newWin('648');">
+							【流儀圧搾】ブランドページ更新<br />
+							楽々やわらかスマートウェア登場!</a>
+						</h3>
+					</li>
+									</ul>
+				<!-- / #news --></div>
+			<div id="pickup">
+
+				<h2><img src="images/h2_pickup_1503.png" alt="pick up" width="720" height="21" /></h2>
+				<ul>
+																<li>
+
+					<a href="https://twitter.com/amatoumusume1" target="_blank"><p class="p_trimming"><img src="http://www.csmen.co.jp/azp/img/pickup_255_1.jpg" width = '160' id ="thumb" /></p><img src="images/icon_twitter.png" width="70px" height="21px" alt="twitter" class="icon" /></a>
+
+
+					</li>
+																<li>
+
+					<a href="http://www.csmenblog.jp/brand/ryugi-assaku/shop/abeno/d79c7684-4282-4dfe-a5fe-3e672fe9e13c?categories%5B0%5D=COORDINATE&amp;title=%E3%80%90%E9%9B%85%E7%B5%90%E3%80%91%E3%82%B5%E3%83%AD%E3%83%9A%E3%83%83%E3%83%88%EF%BC%86T%E3%82%B7%E3%83%A3%E3%83%84%E3%82%A2%E3%83%B3%E3%82%B5%E3%83%B3%E3%83%96%E3%83%AB&amp;archive=2017.06.28&amp;shop=abeno" target="_blank"><p class="p_trimming"><img src="http://www.csmen.co.jp/azp/img/pickup_254_1.jpg" height = '218' id ="thumb" /></p><img src="images/icon_blog.png" width="70px" height="21px" alt="blog" class="icon" /></a>
+
+
+					</li>
+																<li>
+
+					<a href="http://www.csmenblog.jp/brand/ryugi-assaku/shop/kameari/6ac7da52-ae03-4543-b8a7-baa2485379a4?categories%5B0%5D=COORDINATE&amp;title=%E3%80%90%E9%9B%85%E7%B5%90%E3%80%91%E6%A1%9C%E3%83%97%E3%83%AA%E3%83%B3%E3%83%88%E3%82%A4%E3%83%AC%E3%83%98%E3%83%A0PO%C3%97%E5%B8%83%E5%B8%9B%E5%88%87%E6%9B%BF...&amp;archive=2017.06.23&amp;shop=kameari" target="_blank"><p class="p_trimming"><img src="http://www.csmen.co.jp/azp/img/pickup_253_1.jpg" height = '218' id ="thumb" /></p><img src="images/icon_blog.png" width="70px" height="21px" alt="blog" class="icon" /></a>
+
+
+					</li>
+																<li>
+
+					<a href="http://www.csmenblog.jp/brand/ryugi-assaku/shop/urawa-misono/38cbd3a9-c4a9-4db0-8be3-7d7cb73e8164?categories%5B0%5D=COORDINATE&amp;title=%E6%96%B0%E4%BD%9C%E2%98%85%E3%83%AC%E3%83%87%E3%82%A3%E3%83%BC%E3%82%B9%E3%82%BB%E3%83%83%E3%83%88%E3%82%A2%E3%83%83%E3%83%97&amp;archive=2017.06.19&amp;shop=urawa-misono" target="_blank"><p class="p_trimming"><img src="http://www.csmen.co.jp/azp/img/pickup_252_1.jpg" width = '160' id ="thumb" /></p><img src="images/icon_blog.png" width="70px" height="21px" alt="blog" class="icon" /></a>
+
+
+					</li>
+																<li>
+
+					<a href="http://www.csmenblog.jp/brand/ryugi-assaku/shop/iwata/401a4d12-f8cd-47cd-89ef-79ec9470e5af?categories%5B0%5D=COORDINATE&amp;title=%E3%83%A1%E3%83%B3%E3%82%BA%E3%81%AE%E5%A4%8F%E3%82%AA%E3%82%B9%E3%82%B9%E3%83%A1%E3%82%B3%E3%83%BC%E3%83%87%EF%BC%81&amp;archive=2017.06.11&amp;shop=iwata" target="_blank"><p class="p_trimming"><img src="http://www.csmen.co.jp/azp/img/pickup_251_1.jpg" height = '218' id ="thumb" /></p><img src="images/icon_blog.png" width="70px" height="21px" alt="blog" class="icon" /></a>
+
+
+					</li>
+																<li>
+
+					<a href="http://www.ryugi-onlineshop.jp/fs/ryugi/0301538" target="_blank"><p class="p_trimming"><img src="http://www.csmen.co.jp/azp/img/pickup_250_1.jpg" height = '218' id ="thumb" /></p><img src="images/icon_onlineshop.png" width="70px" height="21px" alt="online shop" class="icon" /></a>
+
+
+					</li>
+																<li>
+
+					<a href="http://www.ryugi-onlineshop.jp/fs/ryugi/0200587" target="_blank"><p class="p_trimming"><img src="http://www.csmen.co.jp/azp/img/pickup_249_1.jpg" height = '218' id ="thumb" /></p><img src="images/icon_onlineshop.png" width="70px" height="21px" alt="online shop" class="icon" /></a>
+
+
+					</li>
+																<li>
+
+					<a href="http://www.ryugi-onlineshop.jp/fs/ryugi/0200586" target="_blank"><p class="p_trimming"><img src="http://www.csmen.co.jp/azp/img/pickup_248_1.jpg" height = '218' id ="thumb" /></p><img src="images/icon_onlineshop.png" width="70px" height="21px" alt="online shop" class="icon" /></a>
+
+
+					</li>
+																<li>
+
+					<a href="https://www.amazon.co.jp/s/ref=w_bl_sl_s_ap_web_352484011?ie=UTF8&amp;node=352484011&amp;field-brandtextbin=LIVERTINE+AGE" target="_blank"><p class="p_trimming"><img src="http://www.csmen.co.jp/azp/img/pickup_240_1.jpg" width = '160' id ="thumb" /></p><img src="images/icon_special.png" width="70px" height="21px" alt="special" class="icon" /></a>
+
+
+					</li>
+																<li>
+
+					<a href="http://www.rakuten.co.jp/csmen/" target="_blank"><p class="p_trimming"><img src="http://www.csmen.co.jp/azp/img/pickup_225_1.jpg" width = '160' id ="thumb" /></p><img src="images/icon_other.png" width="70px" height="21px" alt="other" class="icon" /></a>
+
+
+					</li>
+									</ul>
+				<!-- / #pickup --></div>
+			
+			
+			<!-- / #main --></div>
+		<!-- / #wrap --></div>
+	<div id="footer">
+		<div class="wrap">
+		<p class="pt_btm"><a href="#top"><img src="images/pagetop_btm.gif" alt="page top" width="60" height="15" class="rollover" /></a></p>
+			<ul class="clearfix">
+				<li id="menu1"><a href="corporate/index.html">corporate site</a></li>
+				<li id="menu2"><a href="http://www.mobareki.jp/1480999592/" target="_blank">recruit</a></li>
+				<li id="menu3"><a href="utility/policy.html">site policy</a></li>
+				<li id="menu4"><a href="http://www.csmen.co.jp/brand/contact.html"  target="_blank">contact</a></li>
+			</ul>
+			<p><img src="images/copyright.gif" alt="&copy; 2007-2017  CSMEN Co.,Ltd." width="161" height="12" /></p>
+		</div>
+		<!-- / #footer --></div>
+	
+	<!-- / #top --></div>
+<script src="js/jquery.delay.js" type="text/javascript"></script>
+</body>
+</html>

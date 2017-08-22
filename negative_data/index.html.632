@@ -1,0 +1,220 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta charset="UTF-8" />
+<title>三越伊勢丹ホールディングス</title>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta name="keywords" content="三越伊勢丹ホールディングス,三越,伊勢丹,TOP" />
+<meta name="description" content="三越伊勢丹ホールディングスのTOPです。" />
+<meta property="og:title" content="三越伊勢丹ホールディングス" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://www.imhds.co.jp/" />
+<meta property="og:image" content="http://www.imhds.co.jp/lib/img/ogp.jpg" />
+<meta property="og:description" content="三越伊勢丹ホールディングスのTOPです。" />
+<meta property="og:site_name" content="三越伊勢丹ホールディングス" />
+<link rel="stylesheet" href="lib/css/default.css" type="text/css" media="screen,print" />
+<link rel="stylesheet" href="home/css/top.css" type="text/css" media="screen,print" />
+<link rel="stylesheet" href="lib/css/print.css" type="text/css" media="print" />
+<link rel="stylesheet" type="text/css" href="lib/css/jquery.fancybox-1.3.4.css" />
+<!-- IRPOCKET -->
+<link rel="stylesheet" type="text/css" href="//irpocket.com/3099/irpocket/style.css" />
+<!-- IRPOCKET -->
+<script type="text/javascript" src="lib/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="lib/js/fancybox/jquery.fancybox-1.3.4.js"></script>
+<script type="text/javascript" src="lib/js/slick.min.js"></script>
+<script type="text/javascript" src="lib/js/script.js"></script>
+<script type="text/javascript" src="lib/js/top.js"></script>
+<script>
+$(document).ready(function(){
+	//topslider
+	var $topSlider = $('.itemBox');
+	$topSlider.addClass('show');
+	$topSlider.find('.topSlides').addClass('show');
+	$topSlider.slick({
+		autoplay: true,
+		autoplaySpeed: 8000,
+		centerMode: true,
+		centerPadding: '235px',
+		appendArrows: $('.nav_arrow'),
+		prevArrow: '<div data-role="none" class="slick-prev">Previous</div>',
+		nextArrow: '<div data-role="none" class="slick-next">Next</div>',
+		speed: 1000
+	});
+});
+</script>
+</head>
+<body>
+<div id="topWrapper">
+
+  <div id="header" class="cf">
+    <div id="logo"><a href="/">三越伊勢丹ホールディングス</a></div>
+    <div id="headRightBox">
+      <ul id="globalLink">
+        <li><a href="/english/">English</a></li>
+        <li><a href="#footSitemap">サイトマップ</a></li>
+        <li><a href="/inquiry/">お問い合わせ</a></li>
+      </ul>
+      <ul id="font_sml">
+        <li id="font_s"><a href="javascript:void(0);" onclick="fontSize('s');return false;" class="fsmall">小</a></li>
+        <li id="font_m"><a href="javascript:void(0);" onclick="fontSize('m');return false;" class="fmedium-on">中</a></li>
+        <li id="font_l"><a href="javascript:void(0);" onclick="fontSize('l');return false;" class="flarge">大</a></li>
+      </ul>
+    </div>
+    <!--head_right end-->
+  </div>
+  <!--header end-->
+  
+  <ul id="gnavi" class="cf">
+    <li id="global1"><a href="/" class="on">HOME</a></li>
+    <li id="global2"><a href="/news_release/">ニュース・トピックス</a></li>
+    <li id="global3"><a href="/company/">企業情報</a></li>
+    <li id="global4"><a href="/csr/">CSR・社会貢献</a></li>
+    <li id="global5"><a href="/ir/">IR情報</a></li>
+    <li id="global6"><a href="/recruit/" target="_blank">採用情報</a></li>
+    <li id="searchBox">
+      <div id="search">
+        <form name="search_form" action="http://sitesearch.imhds.co.jp/" method="get" onsubmit="return mysearch_new(this);">
+        <input type="hidden" name="ie" value="u">
+        <input type="hidden" name="temp" value="hd">
+        <input type="hidden" name="domain" value="hd">
+        <input type="text" class="search_fm" placeholder="サイト内検索" name="kw" />
+        <input type="submit" id="submit_btn" value="検 索" class="search_btn" />
+        </form>
+      </div>
+    </li>
+  </ul>
+  <!--gnavi end-->
+ 
+  <div class="cf w960">
+     <div id="snsButtons"></div>
+  </div>
+ 
+	<!-- #flick -->
+    <div class="section" id="flick">    
+            
+        <div class="mainContainer">
+          <div class="itemBox">
+                <div id="content01" class="item"><a href="http://this-is-japan.jp" target="_blank"><img src="home/img/mainimage1.jpg" alt="" width="480" height="168" border="0" /></a></div>
+                <div id="content02" class="item"><a href="/depakachi/index.html"><img src="home/img/mainimage2.jpg" alt="" width="480" height="168" /></a></div>
+                <div id="content03" class="item"><a href="/kokon/index.html"><img src="home/img/mainimage4.jpg" alt="" width="480" height="168" /></a></div>
+                <div id="content04" class="item"><a href="http://www.imhds.co.jp/english/company/movie/"><img src="home/img/mainimage3.jpg" alt="" width="480" height="168" /></a></div>
+          </div>
+          <div class="nav_arrow"></div>
+        </div><!-- mainContainer End-->
+        
+            
+  </div><!-- #flick End-->
+  
+   <div id="contentwrap">     
+    <ul id="groupCompanies_top" class="cf">
+     <li><a href="http://www.i.iwataya-mitsukoshi.co.jp/index.html" target="_blank" class="iwataya">IWATAYA</a></li>
+     <li><a href="http://mitsukoshi.mistore.jp/store/index.html" target="_blank" class="mitsukoshi">MITSUKOSHI</a></li>
+     <li><a href="http://isetan.mistore.jp/store/index.html" target="_blank" class="isetan">ISETAN</a></li>
+     <li class="last"><a href="http://www.marui-imai.jp/sapporo/s_top/index.html" target="_blank" class="maruiimai">maruiimai</a></li>
+  </ul>
+ 
+  
+  <div class="cf">
+     <div id="top_contentLeft">
+     
+                <div id="news_topcs" class="cf">
+           <p>ニュース・トピックス</p>
+           <div id="newsTab" class="cf">
+           <ul>
+           	<li id="updata" class="tab_new select"><a href="javascript:void(0)" class="select">新着</a></li>
+           	<li id="irdata" class="tab_bsmg"><a href="javascript:void(0)" >決算・経営</a></li>
+           	<li id="csrdata" class="tab_csr"><a href="javascript:void(0)" >CSR</a></li>
+           	<li id="storedata" class="tab_mk"><a href="javascript:void(0)" >営業・店舗</a></li>
+           	<li id="otherdata" class="tab_other last"><a href="javascript:void(0)" >その他</a></li>
+           </ul>
+           
+           <div class="rss_btn"><a href="http://xml.irpocket.com/3099/XML/release-all-latest-20.rdf"></a></div>
+
+           </div>
+        </div>
+
+<!-- IRPOCKET -->
+        <!--新着情報-->
+        <div class="newsList" id="irp-top-all"></div><!--newsList end-->
+        <!--決算・経営-->
+        <div class="newsList disnon" id="irp-top-management"></div><!--newsList end-->
+        <!--csr-->
+        <div class="newsList disnon" id="irp-top-csr"></div><!--newsList end-->
+        <!--営業店舗-->
+        <div class="newsList disnon" id="irp-top-sales"></div><!--newsList end-->
+        <!--その他-->
+        <div class="newsList disnon" id="irp-top-other"></div><!--newsList end-->
+<!-- IRPOCKET -->
+        
+        <div class="cf mb40">
+          <div id="fHeadlineBox">
+            <div id="fashionheadline"><p><a href="http://www.fashion-headline.com/" target="_blank">FASHION HEADLINE</a></p> <a href="http://www.fashion-headline.com/special/99/recent/%E4%B8%89%E8%B6%8A%E4%BC%8A%E5%8B%A2%E4%B8%B9" target="_blank" id="fashionNews" name="fashionNews"> 最新ニュース一覧</a></div>
+            <div class="fhl_list">
+            <ul>
+				<script src="http://imhds.fashion-headline.com/news/news.js" ></script>
+            </ul>
+            </div>
+          </div><!--fHeadline end-->
+     
+     </div>
+     </div><!--top_contentLeft end-->
+     
+     <div id="top_contentRight">
+        <div id="message311">
+            <p class="t-center mb10"><img src="home/img/img_message_shinsai.png" width="219" height="97" alt="被災された皆さまに、心よりお見舞い申し上げます。被災地の皆さまが平穏な日々を取り戻せますようお祈りいたしますとともに、 三越伊勢丹グループとして、一日も早い復興のために力を合わせてまいります。" /></p>
+            <div class="mb5"><a href="home/img/mimai_170424.png" class="fancybox"><img src="home/img/btn_shinsai_message.png" width="219" height="34" alt="「熊本地震」「東日本大震災」の募金活動についての御礼とお知らせ。" /></a></div>
+            <div><a href="http://www.imhds.co.jp/csr/2016/effort/society/reconstruction.html"><img src="home/img/btn_shinsai_support.png" width="219" height="34" alt="被災地への主な支援活動について" /></a></div>
+        </div><!--message311 end-->
+        
+        <ul class="banner-list">
+        	<li><a href="/company/elevator.html"><img src="home/img/banner_elevator.png" width="250" height="86" alt="三越伊勢丹早わかりエレベーター" /></a></li>
+            <li><a href="csr/index.html"><img src="home/img/banner_csr.jpg" width="250" height="52" alt="CSR" /></a></li>
+            <li class="investorbox">
+            	<div class="investor"><a href="ir/individual/index.html">投資家の皆さまへ</a></div>
+                <ul class="koukoku">
+                    <li><a href="ir/settlement/index.html">決算公告</a></li>
+                    <li><a href="ir/public_notice.html">電子公告</a></li>
+                </ul>
+            </li>
+            <li><a href="http://www.imhds.co.jp/recruit/index.html" target="_blank"><img src="home/img/banner_recruit.jpg" width="250" height="52" alt="三越伊勢丹グループ採用情報" /></a></li>
+            <li><a href="http://www.imhds.co.jp/recruit/internship/" target="_blank"><img src="home/img/banner_intern.jpg" width="250" height="52" alt="三越伊勢丹インターンシップ" /></a></li>
+            <li class="online-store cf">
+                <div class="isetan"><a href="http://isetan.mistore.jp/onlinestore/index.html" target="_blank"><img src="home/img/isetan_02.png" width="121" height="52" alt="ISETAN オンラインストア" /></a></div>      
+                <div class="mitsukoshi"><a href="http://www.mitsukoshi.co.jp/shop?EcLogicName=shoptop" target="_blank"><img src="home/img/mitsukoshi_02.png" width="121" height="52" alt="MITSUKOSHI オンラインストア" /></a></div>
+            </li>
+            <li><a href="http://norennoren.jp/" target="_blank"><img src="home/img/banner_norennoren_imhds.png" width="250" height="52" alt="三越伊勢丹のラグジュアリーオンラインストア" /></a></li>
+            <li><a href="/okurimono_kokoro/" target="_blank"><img src="home/img/banner_okurimono.jpg" width="250" height="52" alt="贈りものの「こころ」をあらわすあたらしい「かたち」" /></a></li>
+        </ul><!--banner-list end-->
+     </div><!--top_contentRight end-->
+     
+  </div>
+  </div><!--contentwrap end-->
+  
+  <div id="footerWrap">
+  
+   <div id="footer">
+   	<div id="footerInner"  class="cf">
+      <ul id="footerLink">
+         <li><a href="/inquiry/">お問い合わせ</a></li>
+         <li><a href="/sitemap/">サイトマップ</a></li>
+         <li><a href="/privacy_policy/">プライバシーポリシー</a></li>
+         <li><a href="/english/">English</a></li>
+      </ul>
+      <div id="copylight">COPYRIGHT &#169; ISETAN MITSUKOSHI HOLDINGS ALL RIGHTS RESERVED.</div>
+      </div>
+      </div>
+   </div><!--footerWrap end-->
+   
+
+</div><!--topWrapper end-->
+
+
+<!-- IRPOCKET -->
+<script src="//irpocket.com/3099/irpocket/loader.js" type="text/javascript" charset="utf-8"></script>
+<!-- IRPOCKET -->
+
+
+</body>
+</html>

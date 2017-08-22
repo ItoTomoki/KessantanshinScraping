@@ -1,0 +1,238 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta name="description" content="大成建設株式会社のオフィシャルサイトです。">
+<meta name="keywords" content="大成建設,サービス,ソリューション,会社案内,投資家,IR情報,採用情報,取り組み,活動">
+<link rel="stylesheet" type="text/css" href="/css/reset.css" media="all" />
+<link rel="stylesheet" type="text/css" href="/css/index.css" media="all" />
+<link rel="stylesheet" type="text/css" href="/css/print.css" media="print" />
+<script type="text/javascript" src="/js/jquery1.4.4.js"></script>
+<script type="text/javascript" src="/js/common.js"></script>
+<script type="text/javascript" src="/js/rollover.js"></script>
+<script type="text/javascript" src="/js/init.js"></script>
+
+<script type="text/javascript" src="/js/jquery.loopSliderAuto.js"></script>
+<script type="text/javascript" src="/js/jquery.cycle.js"></script>
+<script>
+<!--
+jQuery( function() {
+    jQuery( '#jqueryCycle' ) . cycle( {
+        fx: 'fade',
+        speed: 2000,
+        timeout: 6000,
+        sync: 1,
+        pager: '#jqueryCycleNavList'
+    } );
+} );
+// -->
+</script><title>大成建設株式会社</title>
+
+</head>
+<body id="home">
+
+<!-- ▼▼全体レイアウト調整ここから▼▼ -->
+<div id="pageContainer">
+	<!-- ▼▼コンテンツエリアここから▼▼ -->
+	<div id="container">
+		<!-- ▼▼メインエリアここから▼▼ -->
+		<div id="mainArea">
+			<div id="siteNavArea">
+				<h1><a href="http://www.taisei.co.jp/"><img src="/images/index_logo001.gif" alt="大成建設　For a Lively World" width="156" height="60"></a></h1>
+				<ul class="navMenu01">
+					<li><a href="ss/index.html"><img src="/images/index_tx001.gif" alt="サービス・ソリューション" width="166" height="68"></a></li>
+					<li><a href="works/index.html"><img src="/images/index_tx002.gif" alt="実績紹介" width="166" height="68"></a></li>
+					<li><a href="about_us/index.html"><img src="/images/index_tx004.gif" alt="会社情報" width="166" height="68"></a></li>
+					<li><a href="about_us/ir/index.html"><img src="/images/index_tx003.gif" alt="投資家の皆様へ" width="166" height="68"></a></li>
+					
+				</ul>
+        		<div class="searchForm">
+	<form action="/search.html" id="cse-search-box" onsubmit="if(this.searchInput.value=='サイト内検索'){this.searchInput.value='';};">
+		<input type="text" name="q" value="" id="searchInput" value="サイト内検索" onfocus="this.style.color='#000000';if(this.value=='サイト内検索')this.value='';" onblur="this.style.color='#000000';if(this.value==''){this.value='サイト内検索';this.style.color='#cccccc';}">	
+	<input type="image" alt="検索" src="/images/index_bt001.gif" name="sa" value="サーチ" id="searchBt">
+	</form>
+	<p><a href="/search/help.html"><img src="/images/index_ic001.gif" alt="" width="14" height="15"></a></p>
+</div>
+<ul class="navMenu02">
+	<li><a href="http://www.taisei.co.jp/contact/index.html"><img src="/images/index_tx005.gif" alt="お問い合わせ" width="166" height="29"></a></li>
+	<li><a href="/sitemap.html"><img src="/images/index_tx006.gif" alt="サイトマップ" width="166" height="29"></a></li>
+	<li><a href="/english/index.html"><img src="/images/index_tx007.gif" alt="English Site" width="166" height="29"></a></li>
+</ul></div>
+    		<div id="mainVisualArea">
+	<div id="jqueryCycle">
+		<div><a href="about_us/library/cm/tvcm/vietnam/vietnam_cm30b.html"><img src="/common/main/slide_mv001.jpg" alt="" width="500" height="530"></a></div>
+		<div><a href="about_us/library/cm/tvcm/vietnam/vietnam_cm30b.html"><img src="/common/main/slide_mv002.jpg" alt="" width="500" height="530"></a></div>
+		<div><a href="about_us/library/cm/tvcm/vietnam/vietnam_cm30b.html"><img src="/common/main/slide_mv003.jpg" alt="" width="500" height="530"></a></div>
+	</div>
+	<div id="jqueryCycleNav">
+		<div id="jqueryCycleNavWrap">
+			<div id="jqueryCycleNavList">
+			</div>
+		</div>
+	</div>
+</div><div id="mainBannerArea">
+	<ul id="slidePager">
+		<li id="prev"><a href="javascript:void(0);"><img src="/images/slide_ex001.gif" alt="" width="200" height="20"></a></li>
+		<li id="next"><a href="javascript:void(0);"><img src="/images/slide_ex002.gif" alt="" width="200" height="20"></a></li>
+	</ul>
+	<div id="loopSlider">
+		<div id="slideContents">
+			<ul id="originalContents">
+<li><a href="about_us/event/index.html"><img src="/common/slide/slide_bn007.jpg" alt="" width="204" height="96" class="rollover"></a></li>
+
+<li><a href="about_us/ir/hayawakari/index.html"><img src="/common/slide/slide_bn004.jpg" alt="" width="204" height="96" class="rollover"></a></li>
+
+<li><a href="ss/cabinet/index.html#doboku_re"><img src="/common/slide/slide_bn021.jpg" alt="" width="204" height="96" class="rollover"></a></li>
+
+<li><a href="sumai/index.html" target="_blank"><img src="/common/slide/slide_bn013.png" alt="" width="204" height="96" class="rollover"></a></li>
+
+<li><a href="saiyo/2018/index.html" target="_blank"><img src="/common/slide/slide_bn010n.jpg" alt="" width="204" height="96" class="rollover"></a></li>
+
+<li><a href="saiyo/career/index.html" target="_blank"><img src="/common/slide/slide_bn017.jpg" alt="" width="204" height="96" class="rollover"></a></li>
+
+<li><a href="giken/topics/1353301853006.html" target="_blank"><img src="/common/slide/slide_bn018.jpg" alt="" width="204" height="96" class="rollover"></a></li>
+
+<li><a href="about_us/library/cm/tvcm/index.html"><img src="/common/slide/slide_bn019.jpg" alt="" width="204" height="96" class="rollover"></a></li>
+
+
+
+			</ul>
+		</div>
+	</div>
+</div></div>
+		<!-- ▲▲メインエリアここまで▲▲ -->
+		<div id="contents">
+			<!-- ▼▼緊急リリースエリアここから▼▼ -->
+			<div id="importantArea">
+<p>【「（仮称）丸の内３&minus;２計画 新築工事」作業所における事故について】<br />
+<br />
+　２０１７年８月１１日、弊社が施工しております「（仮称）丸の内３&minus;２計画新築工事」におきまして３名の作業員が亡くなられる事故が発生いたしました。<br />
+　事故によりお亡くなりになられました故人に対し、心よりご冥福をお祈り申し上げますとともに、ご遺族の皆様には、深くお悔み申し上げます。<br />
+　弊社といたしましては、この度の事態を重く受け止め、原因究明のための捜査等に全面的に協力し、全社を挙げて再発防止、安全対策の徹底に努めてまいります。（2017年8月12日　15:45）<br />
+<br />
+&nbsp;</p>
+<p style="text-align: center">-----------------------------------------------------------------------------------------------</p>
+<br />
+<br />
+【「福岡市地下鉄七隈線工事」道路陥没事故について】 <br />
+<br />
+　弊社を代表とする企業体が施工しております福岡市地下鉄七隈線延伸工事における、博多駅前２丁目交差点付近の道路が陥没する事故により、皆様に大変ご迷惑をお掛けしておりますことにつきまして、誠に申し訳ございません。 <br />
+　当企業体は、この度福岡市様からの指示を受け、２０１７年６月８日より、ボーリング調査を開始し、本工事を再開いたしました。 <br />
+　本工事の再開にあたっては、２０１７年３月３０日、国土交通省検討委員会より示された検証結果を真摯に受け止め、福岡市様と密な連携を行い安全第一で施工を進めてまいります。<br />
+　なお、補償等につきましても、福岡市様と共に引き続き誠意をもって進めてまいります。
+<p>&nbsp;</p>
+<p><a target="_blank" href="http://nanakumajv.jpn.org/"><img class="blank-icon" border="0" alt="" width="14" height="12" src="/common/images/ic_blank.gif" />福岡市地下鉄七隈線工事　道路陥没事故現場に関する情報</a></p>
+</div><!-- ▲▲緊急リリースエリアここまで▲▲ -->
+			<!-- ▼▼ニュースエリアここから▼▼ -->
+			<div id="newsArea">
+    <div class="newsBox">
+        <div class="newsBoxInner">
+
+            <div class="newsBoxTitle">
+                <div class="newsBoxTitleInner">
+                    <p class="news">ニュース</p>
+                    <p class="newsList"><a href="wn/wn.html">一覧</a></p>
+                    <p class="rss"><a href="1175014873799.html">RSS<img src="/images/index_ic003.gif"></a></p>
+                </div>
+            </div>
+
+            <div class="newsBoxCol">
+
+<div class="newsCol">
+<dl>
+<dt class="colTitle"><span>What's new</span>- 最新ニュース -</dt><dd>
+<dl><dt>2017年8月21日</dt><dd>
+<p class="link-icon icon-release"><a href="about_us/release/2017/1439253326900.html">循環式養液栽培方式を用いた壁取り付け型緑化システムを開発</a></p>
+<p class="link-icon icon-release"><a href="about_us/release/2017/1439251398707.html">ＲＣ超高層建物にも適用可能な解体工法『テコレップ-light』を開発</a></p>
+</dd></dl><dl><dt>2017年8月7日</dt><dd><p class="link-icon icon-ir"><a href='MungoBlobs/568/256/2017080701.pdf' target="_blank"><img src="/common/images/ic_pdf.gif" alt="PDF" width="15" height="15" class="pdf-icon">平成30年3月期　第1四半期決算短信（PDF：439KB）</a>
+
+</p>
+<p class="link-icon icon-ir"><a href='MungoBlobs/441/134/2017080702.pdf' target="_blank"><img src="/common/images/ic_pdf.gif" alt="PDF" width="15" height="15" class="pdf-icon">自己株式の取得状況に関するお知らせ（PDF：117KB）</a>
+
+</p>
+<p class="link-icon icon-ir"><a href="about_us/ir/data/setsumei/index.html">2018年3月期　第1四半期　決算説明会資料（説明会資料、説明会資料（解説付））を掲載しました</a></p>
+</dd></dl></dd></dl></div>
+
+<div class="topicsCol">
+<dl>
+<dt class="colTitle"><span>Topics</span>- お知らせ・イベント -</dt><dd>
+<dl><dt>2017年7月31日</dt><dd>
+<p class="link-icon icon-news"><a href="about_us/csr/wn/2017/1439252026282.html">「TAISEI CORPORATE REPORT 2017」（統合レポート）を発行しました </a></p>
+</dd></dl>
+<dl><dt>2017年6月6日</dt><dd>
+<p class="link-icon icon-event"><a href="ss/wn/2017/20170608.html">「住スタイルTOKYO2017」に大成建設グループ｢住まい｣が出展いたします</a></p>
+</dd></dl>
+<dl><dt>2017年5月22日</dt><dd>
+<p class="link-icon icon-event"><a href="wn/2017/jyoshizene/jyoshizene.html">夏のリコチャレ2017　イベント開催のお知らせ</a></p>
+</dd></dl>
+<dl><dt>2017年4月28日</dt><dd>
+<p class="link-icon icon-event"><a href="ss/wn/2017/20170613.html">FOOMA JAPAN 2017 (2017/6/13-16) に出展</a></p>
+</dd></dl>
+<dl><dt>2017年3月10日</dt><dd>
+<p class="link-icon icon-event"><a target="_blank" href="http://www.taisei.co.jp/saiyo/2018/employment/event.html">2018年新卒採用対象者向けオープンセミナー(3/10〜4/8)を開催いたします<img class="blank-icon" border="0" alt="" width="14" height="12" src="/common/images/ic_blank.gif" /></a></p>
+</dd></dl>
+</dd></dl>
+</div>
+
+</div><!-- newsBoxCol --></div><!-- newsBoxInner --></div><!-- newsBox --></div><!-- newsArea --><!-- ▲▲ニュースエリアここまで▲▲ -->
+			<!-- ▼▼その他エリアここから▼▼ -->
+			<div id="otherArea">
+				<ul class="contentMenu01">
+        			<li>
+						<a href="about_us/csr/index.html"><img src='MungoBlobs/156/815/CSR_banner.jpg' alt='CSR（企業の社会的責任）　企業倫理の確立をはじめ、社会への取り組み、環境への取り組み等を紹介します' width="434" height="106">
+								</a>
+											</li>
+        			<li>
+						<a href="http://librarytaisei.jp/index.html"><img src='MungoBlobs/437/354/wlt_banner_top.jpg' alt='WEB.LIBRARY.TAISEI' width="434" height="106">
+							</a>
+								</li>
+        			</ul>
+				<ul class="contentMenu02">
+        			<li>
+						<a href="about_us/release/index.html"><img src='MungoBlobs/489/593/index_bt001.jpg' alt='プレスリリース' width="210" height="64">
+											</a>
+						</li>
+        			<li>
+						<a href="saiyo/index.html"><img src='MungoBlobs/298/992/index_bt002.jpg' alt='採用情報' width="210" height="64">
+						                	</a>
+						</li>
+        			<li>
+						<a href="ss/kojin/index.html"><img src='MungoBlobs/749/140/index_bt005.jpg' alt='個人のお客様へ' width="210" height="64">
+											</a>
+						</li>
+        			<li>
+						<a href="about_us/corp/group/index.html"><img src='MungoBlobs/940/765/index_bt004.jpg' alt='グループ企業' width="210" height="64">
+						                	</a>
+						</li>
+        			</ul>
+			</div>
+			<!-- ▲▲その他エリアここまで▲▲ -->
+		</div>
+	</div>
+	<!-- ▲▲コンテンツエリアここまで▲▲ -->
+	<!-- ▼▼フッターここから▼▼ -->
+	<div id="footContainer">
+		<ul>
+		<li><a href="/privacy.html"><img src="/images/foottop_bt001.gif" alt="個人情報保護方針" width="104" height="13"></a></li>
+		<li><a href="/kinyu.html"><img src="/images/foottop_bt002.gif" alt="金融商品取引について" width="118" height="13"></a></li>
+		<li><a href="/terms.html"><img src="/images/foottop_bt003.gif" alt="サイトのご利用について" width="118" height="13"></a></li>
+		<li><a href="/partner/index.html"><img src="/images/foottop_bt004.gif" alt="協力会社の皆様へ" width="102" height="13"></a></li>
+		<li><a href="/syain/index.html"><img src="/images/foottop_bt005.gif" alt="緊急時社員用" width="80" height="13"></a></li>
+		</ul>
+		<p><img src="/images/footer_tx005.gif" alt="COPYRIGHT (c) TAISEI CORPORATION ALL RIGHTS RESERVED." width="300" height="13"></p>
+	</div>
+	<!-- ▲▲フッターここまで▲▲ -->
+</div>
+<!-- ▲▲全体レイアウト調整ここまで▲▲ -->
+<script src="http://www.google-analytics.com/urchin.js" 
+type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-510325-3";
+urchinTracker();
+</script>
+</body>
+</html>
+

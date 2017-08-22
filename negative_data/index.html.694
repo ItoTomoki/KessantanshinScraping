@@ -1,0 +1,411 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<title>株式会社イントランス</title>
+<meta name="description" content="イントランスは不動産業界の常識にとらわれない発想により、個々の物件毎に収益の最大化を実現するソリューションを提供します。">
+<meta name="keywords" content="intrance,不動産流動化,プロパティマネジメント,リノベーション,株価">
+<link href="/css/base.min.css" rel="stylesheet">
+<link href="/css/font-awesome.min.css" rel="stylesheet">
+<link href="/css/common.css" rel="stylesheet">
+<link href="/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	
+	ga('create', 'UA-71219754-1', 'auto');
+	ga('require', 'displayfeatures');
+	
+	ga('send', 'pageview');
+</script>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.5";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div id="header">
+<nav class="navbar navbar-default navbar-fixed-top">
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="/">
+            <div class="logo01"><img src="/img/header-logo01.png" alt="株式会社イントランス"></div>
+            <div class="logo02"><img src="/img/header-logo02.png" alt="株式会社イントランス"></div>
+          	</a>
+		</div>
+
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<div class="navbar-right">
+				<ul class="nav navbar-nav">
+					<li><a href="/release.html">ニュースリリース<p>NEWS</p></a></li>
+					<li><a href="/about">イントランスとは<p>ABOUT</p></a></li>
+					<li><a href="/business">事業案内<p>SERVICE</p></a></li>
+					<li><a href="/ir">投資家情報<p>IR</p></a></li>
+					<li><a href="/corporate">企業情報<p>COMPANY</p></a></li>
+					<li class="navbar-end"><a href="/contact"><i class="fa fa-envelope fa-fw gold"></i>お問い合わせ<p>CONTACT</p></a></li>
+				</ul>
+			</div>
+		</div><!-- /.navbar-collapse -->
+	</div><!-- /.container -->
+</nav>
+</div><!-- /.header end-->
+
+<div id="wrapp-top">
+<div class="container-top">
+	<div class="row">
+		<div class="col-sm-6 col-xs-12">
+			<div class="thumbnail">
+				<div class="img">
+					<a href="/about">
+						<img src="/img/top-about.jpg" class="img-responsive center-block" alt="イントランスとは">
+						<div class="area">
+							<i class="icon-icon"></i> <strong>イントランスとは</strong><br>
+							<small>イントランスの強みなどをご紹介します。</small>
+						</div>
+					</a>
+				</div>
+			</div><!-- /.thumnail end-->
+		</div><!-- /.col end-->
+
+		<div class="col-sm-6 col-xs-12">
+			<div class="thumbnail">
+				<div class="img">
+					<a href="/business">
+						<img src="/img/top-business.jpg" class="img-responsive center-block" alt="事業案内">
+						<div class="area">
+							<i class="icon-icon"></i> <strong>事業案内</strong><br>
+							<small>イントランスの4つの事業をご案内します。</small>
+						</div>
+					</a>
+				</div>
+			</div><!-- /.thumnail end-->
+		</div><!-- /.col end-->
+
+		<div class="col-sm-4 col-xs-12">
+			<div class="thumbnail-top">
+				<a href="/corporate">
+					<div class="img">
+						<img src="/img/top-corporate.jpg" class="img-responsive center-block" alt="企業情報">
+					</div>
+					<div class="caption bg-grey">
+						<div class="tit bottom5"><strong>企業情報</strong></div>
+						<small>イントランスの会社概要をご案内します。</small>
+					</div>
+				</a>
+			</div><!-- /.thumnail end-->
+		</div><!-- /.col end-->
+
+		<div class="col-sm-4 col-xs-12">
+			<div class="thumbnail-top">
+				<a href="/ir">
+					<div class="img">
+						<img src="/img/top-ir.jpg" class="img-responsive center-block" alt="投資家情報">
+					</div>
+					<div class="caption bg-grey">
+						<div class="tit bottom5"><strong>投資家情報</strong></div>
+						<small>投資家の皆様に様々な情報をご案内します。</small>
+					</div>
+				</a>
+			</div><!-- /.thumnail end-->
+		</div><!-- /.col end-->
+
+		<div class="col-sm-4 col-xs-12">
+			<div class="thumbnail-top">
+				<a href="/release.html">
+					<div class="img">
+						<img src="/img/top-news.jpg" class="img-responsive center-block" alt="ニュースリリース">
+					</div>
+					<div class="caption bg-grey">
+						<div class="tit bottom5"><strong>ニュースリリース</strong></div>
+						<small>投資家の皆様に様々な情報をご案内します。</small>
+					</div>
+				</a>
+			</div><!-- /.thumnail end-->
+		</div><!-- /.col end-->
+
+	</div><!-- ./row end-->
+</div><!-- ./container-top end-->
+
+<div class="container-sp container bg-wh">
+	<div class="row">
+		<div class="col-md-9 top20 bottom20">
+			<h4><i class="icon-icon sky"></i> ニュースリリース</h4>
+
+      <div class="news-area">
+        <div class="row">
+
+          <div class="col-sm-5 col-md-4 col-lg-3 bottom5">
+            <div class="day"><span class="rabel-ir">IR</span>2017.08.09　<i class="fa fa-file-pdf-o fa-lg pdf"></i></div>
+          </div>
+          <div class="col-sm-7 col-md-8 col-lg-9 bottom10">
+            <a href="/tmp_img/news/pdf/news_pdf01_20170809151646.pdf" target="_blank">平成30年3月期　第1四半期決算短信〔日本基準〕（連結） <small>PDF(222KB)</small></a><span class="new">NEW</span>          </div>
+          <div class="clearfix"></div>
+          <div class="hr-d bottom10"></div>
+
+          <div class="col-sm-5 col-md-4 col-lg-3 bottom5">
+            <div class="day"><span class="rabel-topics">お知らせ</span>2017.08.08</div>
+          </div>
+          <div class="col-sm-7 col-md-8 col-lg-9 bottom10">
+            <a href="news_detail.html?nid=425">夏季休暇のお知らせ</a><span class="new">NEW</span>          </div>
+          <div class="clearfix"></div>
+          <div class="hr-d bottom10"></div>
+
+          <div class="col-sm-5 col-md-4 col-lg-3 bottom5">
+            <div class="day"><span class="rabel-ir">IR</span>2017.07.25　<i class="fa fa-file-pdf-o fa-lg pdf"></i></div>
+          </div>
+          <div class="col-sm-7 col-md-8 col-lg-9 bottom10">
+            <a href="/tmp_img/news/pdf/news_pdf01_20170725154223.pdf" target="_blank">上場市場選択に関するお知らせ <small>PDF(178KB)</small></a><span class="new">NEW</span>          </div>
+          <div class="clearfix"></div>
+          <div class="hr-d bottom10"></div>
+
+          <div class="col-sm-5 col-md-4 col-lg-3 bottom5">
+            <div class="day"><span class="rabel-ir">IR</span>2017.06.27　<i class="fa fa-file-pdf-o fa-lg pdf"></i></div>
+          </div>
+          <div class="col-sm-7 col-md-8 col-lg-9 bottom10">
+            <a href="/tmp_img/news/pdf/news_pdf01_20170627152937.pdf" target="_blank">支配株主等に関する事項について <small>PDF(181KB)</small></a>          </div>
+          <div class="clearfix"></div>
+          <div class="hr-d bottom10"></div>
+
+          <div class="col-sm-5 col-md-4 col-lg-3 bottom5">
+            <div class="day"><span class="rabel-ir">IR</span>2017.06.07　<i class="fa fa-file-pdf-o fa-lg pdf"></i></div>
+          </div>
+          <div class="col-sm-7 col-md-8 col-lg-9 bottom10">
+            <a href="/tmp_img/news/pdf/news_pdf01_20170607091416.pdf" target="_blank">第19回 定時株主総会招集ご通知 <small>PDF(553KB)</small></a>          </div>
+          <div class="clearfix"></div>
+          <div class="hr-d bottom10"></div>
+
+          <div class="col-sm-5 col-md-4 col-lg-3 bottom5">
+            <div class="day"><span class="rabel-ir">IR</span>2017.05.22</div>
+          </div>
+          <div class="col-sm-7 col-md-8 col-lg-9 bottom10">
+            <a href="http://www.intrance.jp/ir/library/report.html" target="_blank">FISCOによるアナリストレポートを掲載しました</a>          </div>
+          <div class="clearfix"></div>
+          <div class="hr-d bottom10"></div>
+
+          <div class="col-sm-5 col-md-4 col-lg-3 bottom5">
+            <div class="day"><span class="rabel-ir">IR</span>2017.05.16</div>
+          </div>
+          <div class="col-sm-7 col-md-8 col-lg-9 bottom10">
+            <a href="https://www.youtube.com/watch?v=T0CPBAXDaks&amp;feature=youtu.be" target="_blank">和歌山マリーナシティの紹介動画を公開しました</a>          </div>
+          <div class="clearfix"></div>
+          <div class="hr-d bottom10"></div>
+
+          <div class="col-sm-5 col-md-4 col-lg-3 bottom5">
+            <div class="day"><span class="rabel-ir">IR</span>2017.05.16</div>
+          </div>
+          <div class="col-sm-7 col-md-8 col-lg-9 bottom10">
+            <a href="http://www.intrance.jp/ir/library/download.html" target="_blank">平成29年3月期 通期決算説明会動画を掲載しました </a>          </div>
+          <div class="clearfix"></div>
+          <div class="hr-d bottom10"></div>
+
+          <div class="col-sm-5 col-md-4 col-lg-3 bottom5">
+            <div class="day"><span class="rabel-ir">IR</span>2017.05.11　<i class="fa fa-file-pdf-o fa-lg pdf"></i></div>
+          </div>
+          <div class="col-sm-7 col-md-8 col-lg-9 bottom10">
+            <a href="/tmp_img/news/pdf/news_pdf01_20170511150329.pdf" target="_blank">平成29年３月期 決算短信〔日本基準〕(連結)  <small>PDF(294KB)</small></a>          </div>
+          <div class="clearfix"></div>
+          <div class="hr-d bottom10"></div>
+
+          <div class="col-sm-5 col-md-4 col-lg-3 bottom5">
+            <div class="day"><span class="rabel-ir">IR</span>2017.05.02　<i class="fa fa-file-pdf-o fa-lg pdf"></i></div>
+          </div>
+          <div class="col-sm-7 col-md-8 col-lg-9 bottom10">
+            <a href="/tmp_img/news/pdf/news_pdf01_20170502145833.pdf" target="_blank">業績予想及び配当予想の修正に関するお知らせ <small>PDF(190KB)</small></a>          </div>
+          <div class="clearfix"></div>
+          <div class="hr-d bottom10"></div>
+
+        </div><!--row end-->
+      </div><!--news-area end-->
+
+      <div class="row bottom50">
+        <div class="col-sm-offset-3 col-sm-6 col-md-offset-4 col-md-4">
+          <a href="/release.html" class="btn btn-grey btn-block top20">ニュースリリース一覧へ<i class="fa fa-chevron-right fa-fw"></i></a>
+        </div>
+      </div>
+
+			<h4><i class="icon-icon sky"></i> 更新情報</h4>
+
+      <div class="news-area">
+        <div class="row">
+
+          <div class="col-sm-2 bottom5">
+            <div class="day">2017.04.11</div>
+          </div>
+          <div class="col-sm-10 bottom10">
+            <a href="http://www.intrance.jp/ir/stockholder/calendar.html" target="_blank">IRカレンダー（決算発表、決算説明会）を更新しました。 </a>          </div>
+          <div class="clearfix"></div>
+          <div class="hr-d bottom10"></div>
+
+          <div class="col-sm-2 bottom5">
+            <div class="day">2017.01.17</div>
+          </div>
+          <div class="col-sm-10 bottom10">
+            <a href="http://www.intrance.jp/ir/stockholder/calendar.html" target="_blank">IRカレンダー（2017年3月期 第3四半期決算発表予定日）を更新しました。 </a>          </div>
+          <div class="clearfix"></div>
+          <div class="hr-d bottom10"></div>
+
+          <div class="col-sm-2 bottom5">
+            <div class="day">2016.07.13</div>
+          </div>
+          <div class="col-sm-10 bottom10">
+            <a href="http://www.intrance.jp/ir/stockholder/calendar.html" target="_blank">IRカレンダー（2017年3月期 第1四半期決算発表予定日）を更新しました。</a>          </div>
+          <div class="clearfix"></div>
+          <div class="hr-d bottom10"></div>
+
+          <div class="col-sm-2 bottom5">
+            <div class="day">2016.04.28</div>
+          </div>
+          <div class="col-sm-10 bottom10">
+            <a href="news_detail.html?nid=368">IRカレンダーを更新しました。</a>          </div>
+          <div class="clearfix"></div>
+          <div class="hr-d bottom10"></div>
+
+          <div class="col-sm-2 bottom5">
+            <div class="day">2016.01.27</div>
+          </div>
+          <div class="col-sm-10 bottom10">
+            <a href="news_detail.html?nid=353">IRカレンダーを更新しました。</a>          </div>
+          <div class="clearfix"></div>
+          <div class="hr-d bottom10"></div>
+
+          <div class="col-sm-2 bottom5">
+            <div class="day">2015.12.15</div>
+          </div>
+          <div class="col-sm-10 bottom10">
+            <a href="news_detail.html?nid=346">ホームページリニューアルいたしました。</a>          </div>
+          <div class="clearfix"></div>
+          <div class="hr-d bottom10"></div>
+
+        </div><!--row end-->
+      </div><!--news-area end-->
+
+      <div class="row">
+        <div class="col-sm-offset-3 col-sm-6 col-md-offset-4 col-md-4">
+          <a href="/release.html?cat=3" class="btn btn-grey btn-block top20 bottom40">更新情報一覧へ<i class="fa fa-chevron-right fa-fw"></i></a>
+        </div>
+      </div>
+
+		</div><!-- /.col end-->
+
+		<div class="col-md-3 top20">
+			<div class="row">
+				<div class="col-sm-6 col-md-12 bottom10">
+					<div class="banner">
+						<a href="http://www2.tse.or.jp/tseHpFront/StockSearch.do?method=&topSearchStr=3237" target="_blank">
+						<div class="row">
+							<div class="col-md-4 col-xs-5">
+								<img src="/img/jpx.png" class="img-responsive center-block">
+							</div>
+							<div class="col-md-8 col-xs-7">
+								<div class="txt"><i class="fa fa-external-link fa-fw"></i>東証マザーズ上場</div>証券コード：<strong>3237</strong>
+							</div>
+						</div><!-- ./row end-->
+						</a>
+					</div><!-- /.banner end-->
+				</div>
+
+				<div class="col-sm-6 col-md-12 bottom10">
+					<div class="pageplugin bottom20 text-center">
+						<div class="fb-page" data-href="https://www.facebook.com/intrance.jp" data-width="500" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/intrance.jp"><a href="https://www.facebook.com/intrance.jp">株式会社イントランス</a></blockquote></div></div>
+					</div><!-- /.pageplugin-fb end-->
+				</div>
+			</div><!-- ./row end-->
+
+		</div><!-- /.col end-->
+	</div><!-- ./row end-->
+</div><!-- ./container end-->
+
+<div id="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-6 col-sm-3">
+				<ul>
+					<li><a href="/"><i class="fa fa-angle-double-right fa-fw"></i>HOME</a></li>
+					<li><a href="/release.html"><i class="fa fa-angle-double-right fa-fw"></i>ニュースリリース</a></li>
+					<li><a href="/release.html?cat=3"><i class="fa fa-angle-double-right fa-fw"></i>更新情報</a></li>
+				</ul>
+			</div>
+			<div class="col-xs-6 col-sm-3">
+				<ul>
+					<li><a href="/about"><i class="fa fa-angle-double-right fa-fw"></i>イントランスとは</a></li>
+					<li><a href="/business"><i class="fa fa-angle-double-right fa-fw"></i>事業案内</a></li>
+					<li><a href="/corporate"><i class="fa fa-angle-double-right fa-fw"></i>企業情報</a></li>
+					<li><a href="/corporate/profile.html?id=maparea"><i class="fa fa-angle-double-right fa-fw bottom10"></i>アクセス</a></li>
+				</ul>
+			</div>
+			<div class="col-xs-6 col-sm-3">
+				<ul>
+					<li><a href="/ir"><i class="fa fa-angle-double-right fa-fw"></i>投資家情報</a></li>
+					<li><a href="/ir/poricy.html"><i class="fa fa-angle-double-right fa-fw"></i>IRポリシー</a></li>
+					<li><a href="/ir/disclaimer.html"><i class="fa fa-angle-double-right fa-fw"></i>免責事項</a></li>
+				</ul>
+			</div>
+			<div class="col-xs-6 col-sm-3">
+				<ul>
+					<li><a href="/contact"><i class="fa fa-angle-double-right fa-fw"></i>お問い合わせ</a></li>
+					<li><a href="/poricy.html"><i class="fa fa-angle-double-right fa-fw"></i>プライバシーポリシー</a></li>
+					<li><a href="/solicitation.html"><i class="fa fa-angle-double-right fa-fw"></i>勧誘方針</a></li>
+				</ul>
+			</div>
+		</div><!-- ./row end-->
+	</div>
+</div><!-- ./footer end-->
+
+<div class="copyright">
+		<div class="container text-center">
+			Copyright &copy; INTRANCE CO., LTD. All Rights Reserved.
+		</div><!-- ./container end-->
+</div><!-- ./copyright end-->
+</div><!-- ./wrapp end-->
+
+
+<p id="page-top"><a href="#"><i class="fa fa-chevron-circle-up fa-fw fa-2x"></i><br>PAGE TOP</a></p>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="/js/base.min.js"></script>
+<script src="/js/pagetop.js"></script>
+<script type="text/javascript">
+    $(window).load(function () {
+        var htmlStr = $('#pageplugin').html();
+        var timer = false;
+        $(window).resize(function () {
+            if (timer !== false) {
+                clearTimeout(timer);
+            }
+            timer = setTimeout(function() {
+                $('#pageplugin').html(htmlStr);
+                window.FB.XFBML.parse();
+            }, 200);
+        });
+    });
+</script>
+
+<script src="/js/backstretch.js"></script>
+<script type="text/javascript">
+$("#wrapp-top").backstretch([
+          "/img/bg.jpg"
+
+        ], {
+        fade: 2000,
+        });
+</script>
+</body>
+</html>

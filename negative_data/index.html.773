@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+<meta name="format-detection" content="telephone=no">
+<meta name="format-detection" content="email=no">
+<title>TORAY</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link rel="stylesheet" type="text/css" href="shared/css/import.css">
+<link rel="stylesheet" type="text/css" href="shared/css/print.css" media="print">
+<link rel="apple-touch-icon" href="http://www.toray.com/apple-touch-icon.png">
+<script type="text/javascript" src="shared/js/jquery-2.2.4.min.js"></script>
+<script type="text/javascript" src="shared/js/plugins.js"></script>
+<script type="text/javascript" src="shared/js/base.js"></script>
+<script type="text/javascript" src="shared/js/contactlink.js"></script>
+<link rel="stylesheet" type="text/css" href="shared/components/bxslider/jquery.bxslider.css">
+<script type="text/javascript" src="shared/components/bxslider/jquery.bxslider.min.js"></script>
+</head>
+
+<body>
+<!-- skipLink -->
+<ul id="skipLink">
+<li><a href="#contents">本文へ移動する</a></li>
+</ul>
+<!-- /skipLink -->
+
+<div id="wrapper">
+<!-- ===== header ====== -->
+<header id="headerWrap">
+  <!-- logo -->
+  <div id="logo">
+    <p class="groupLogo"><a href="/"><img src="shared/images/toray_logo.svg" alt="'TORAY'Innovation by Chemistry"></a></p>
+    <p id="spMenuBtn"><a href="javascript:;"><span></span><span></span><span></span></a></p>
+  <!-- /logo --></div>
+  <!-- siteFunctions -->
+  <div id="siteFunctions">
+    <div id="drawer">
+      <div id="searchSet"></div>
+      <ul id="funcBtns">
+        <li id="contactLink"><a href="/contact/index.html" target="_blank" onClick="contactLink('001'); return false;">お問い合わせ</a></li><!--
+        --><li id="searchOpen"><span></span></li><!--
+        --><li id="regionOpen"><span></span></li>
+      </ul>
+      <div id="regionLang"></div>
+    </div>
+  <!-- /siteFunctions --></div>
+<!-- ===== /header ====== --></header>
+
+ <!-- ===== globalNav ====== -->
+<nav id="globalNav">
+  <ul class="parentNav">
+    <li><a href="http://www.toray.jp/products/index.html">製品・サービス</a></li>
+    <li><a href="technology/index.html">研究・技術開発</a></li>
+    <li><a href="csr/index.html">CSR・環境</a></li>
+    <li><a href="ir/index.html">株主・投資家情報</a></li>
+    <li><a href="saiyou/index.html">採用情報</a></li>
+    <li><a href="aboutus/index.html">会社情報</a></li>
+  </ul>
+<!-- ===== /globalNav ====== --></nav>
+
+<!-- ===== contents ====== -->
+<div id="contents">
+
+<!--<div id="logo90th">
+  <p class="pc"><img src="shared/images/logo_90th.png" alt="東レは創立90年を迎えました"></p>
+  <p class="sp"><img src="shared/images/sp_logo_90th.png" alt="東レは創立90年を迎えました" width="100" height="100"></p>
+</div>-->
+
+
+<div id="keyvisual">
+  <figure><img src="shared/images/loading.gif" alt="" id="randomImg"></figure>
+  <section>
+    <h1 class="slogan">素材には、<br>社会を変える力がある。</h1>
+    <p class="mgnB15">たとえば、海の水を飲料水に変えることができたら。医療に役立つ遺伝子解析をもっと確実なものにできたら。<br>
+      次世代エコカーを進化させ、環境への負荷をより減らせたら。機能性ウェアを環境にやさしい植物由来にできたら。<br>
+      食品をロングライフ化し、食糧ロスを少しでも減らすことができたら。だれもが、より自分らしく暮らせる社会をつくれたら。</p>
+    <p>素材には、その力がある。なぜなら、世界のすべては、素材でできているから。<br>
+      世界は可能性で満ちている。私たちはそう信じている。</p>
+    <a class="advLink" href="advertising/">さらに詳しく</a>
+  </section>
+</div>
+<script>
+$(function(){
+  (function(){
+    var maxNum = 6,
+        rdm = Math.floor(Math.random()*(maxNum))+1,
+        $kv = $('#randomImg');
+    if(TORAY.winW>767){
+      $kv.attr('src', 'images/kv_0' + rdm + '.jpg').parent().parent().animate({opacity: 1}, 800);
+    }else{
+      $kv.attr('src', 'images/sp_kv_0' + rdm + '.jpg').parent().parent().animate({opacity: 1}, 800);
+      $("#keyvisual section").click(function(){
+        window.location=$(this).find("a").attr("href");
+        return false;
+      });
+    }
+  })();
+});
+</script>
+
+
+<div class="gridBlock cl2">
+  <a class="listBox" href="http://www.toray.jp/products/index.html">
+    <div class="imgArea"><img src="images/index_thumb_01.jpg" alt="" class="imgPC"><img src="images/sp_index_thumb_01.jpg" alt="" class="imgSP"></div>
+    <div class="listBoxInner">
+      <p class="listTitle">製品・サービス</p>
+    </div>
+  </a>
+  <a class="listBox" href="technology/index.html">
+    <div class="imgArea"><img src="images/index_thumb_02.jpg" alt="" class="imgPC"><img src="images/sp_index_thumb_02.jpg" alt="" class="imgSP"></div>
+    <div class="listBoxInner">
+      <p class="listTitle">研究・技術開発</p>
+    </div>
+  </a>
+  <a class="listBox" href="csr/index.html">
+    <div class="imgArea"><img src="images/index_thumb_03.jpg" alt="" class="imgPC"><img src="images/sp_index_thumb_03.jpg" alt="" class="imgSP"></div>
+    <div class="listBoxInner">
+      <p class="listTitle">CSR・環境</p>
+    </div>
+  </a>
+  <a class="listBox" href="ir/index.html">
+    <div class="imgArea"><img src="images/index_thumb_04.jpg" alt="" class="imgPC"><img src="images/sp_index_thumb_04.jpg" alt="" class="imgSP"></div>
+    <div class="listBoxInner">
+      <p class="listTitle">株主・投資家情報</p>
+    </div>
+  </a>
+  <a class="listBox" href="saiyou/index.html">
+    <div class="imgArea"><img src="images/index_thumb_05.jpg" alt="" class="imgPC"><img src="images/sp_index_thumb_05.jpg" alt="" class="imgSP"></div>
+    <div class="listBoxInner">
+      <p class="listTitle">採用情報</p>
+    </div>
+  </a>
+  <a class="listBox" href="aboutus/index.html">
+    <div class="imgArea"><img src="images/index_thumb_06.jpg" alt="" class="imgPC"><img src="images/sp_index_thumb_06.jpg" alt="" class="imgSP"></div>
+    <div class="listBoxInner">
+      <p class="listTitle">会社情報</p>
+    </div>
+  </a>
+<!-- /gridBlock--></div>
+
+<!--
+<div id="pickupContents">
+  <a href="#">
+    <div class="slogan">
+      <h2>素材には、社会を変える力がある。</h2>
+      <p>東レの企業広告「ブルーバタフライシリーズ」で紹介している、社会に役立つ６つのソリューション事例についてご紹介します。</p>
+    </div>
+    <figure><img src="images/index_thumb_07.jpg" alt=""></figure>
+  </a>
+</div>
+-->
+<!--
+<a id="keynoteBnr" href="technology/keynote/index.html">
+  <h3>東レ先端材料シンポジウム2016<em>先端材料が拓く 地球の未来</em></h3>
+  <span>もっと詳しく</span>
+  <p><img src="technology/keynote/images/index_90th_logo.jpg" alt="90th"></p>
+</a>
+-->
+
+<div class="pressBlock">
+  <div class="heading">
+    <h2>プレスリリース</h2>
+    <p><a class="arrow01" href="news/index.html">一覧</a></p>
+  </div>
+  <div class="lists">
+    <iframe src="http://cs2.toray.co.jp/news/toray/newsrrs01.nsf/release/latest_top?OpenDocument" frameborder="0" scrolling="yes" width="100%" class="iframeTop"></iframe>
+  </div>
+<!-- /pressBlock --></div>
+
+
+<div class="pressBlock">
+  <div class="heading">
+    <h2>お知らせ</h2>
+    <p><a class="arrow01" href="aboutus/information/index.html">一覧</a></p>
+  </div>
+  <div class="lists">
+    <iframe src="http://cs2.toray.co.jp/news/toray/csr/news_csr01.nsf/release/top?opendocument" frameborder="0" scrolling="yes" width="100%" class="iframeSubTop"></iframe>
+  </div>
+<!-- /pressBlock --></div>
+
+
+<div class="bnrBlock">
+  <ul class="cl5 spFluid">
+    <li><a href="http://www.toray-ppo.com/" target="_blank"><img src="images/banner_04.jpg" alt=""><span class="newWindow">東レ PPO TENNIS</span></a></li>
+    <li><a href="http://www.toray-arrows.jp/" target="_blank"><img src="images/banner_02.jpg" alt=""><span class="newWindow">東レアローズ</span></a></li>
+    <li><a href="https://shop.toray.jp/" target="_blank"><img src="images/banner_05.jpg" alt=""><span class="newWindow">東レWeb Shop</span></a></li>
+    <li><a href="http://www.toray.co.jp/cg/" target="_blank"><img src="images/banner_10.jpg" alt=""><span class="newWindow">東レキャンペーンガール</span></a></li>
+    <li><a href="education/" target="_blank"><img src="images/banner_12.jpg" alt=""><span class="newWindow">青空サイエンス教室</span></a></li>
+    <li><a href="ricochalle/" target="_blank"><img src="images/banner_14.jpg" alt=""><span class="newWindow">リコチャレ 2017</span></a></li>
+    <!-- <li><a href="aboutus/vision/index.html"><img src="images/banner_01.jpg" alt=""><span>長期経営ビジョン <br>AP-Growth TORAY 2020</span></a></li> -->
+    <!--<li><a href="http://link.brightcove.co.jp/services/player/bcpid48478603001?bclid=48607676001&@videoList.featured=54591696002" target="_blank"><img src="images/banner_03.jpg" alt=""><span>東レ動画ライブラリー</span></a></li>-->
+    <!--<li><a href="http://webexpo.jcfa.gr.jp/" target="_blank"><img src="images/banner_06.jpg" alt=""><span class="newWindow">先端繊維素材展示会</span></a></li>-->
+    <!-- <li><a href="http://www.toray.jp/toray/"><img src="images/banner_07.jpg" alt=""><span>こんなところにも東レ</span></a></li> -->
+    <!-- <li><a href="http://www.toray.jp/automotive/"><img src="images/banner_08.jpg" alt=""><span class="newWindow xxsmall">AUTOMOTIVE SOLUTIONS</span></a></li> -->
+    <!-- <li><a href="http://www.toray.jp/toray/kenzai/" target="_blank"><img src="images/banner_09.jpg" alt=""><span class="newWindow">土木・建築資材展</span></a></li> -->
+    <!-- <li><a href="aboutus/history/index.html"><img src="images/banner_13.jpg" alt="" width="170" height="120"><span>沿革（東レ90年のあゆみ)</span></a></li> -->
+    <!-- <li><a href="http://www.toray.jp/products/link/index.html"><img src="images/banner_11.jpg" alt=""><span>製品をより詳しく知る<br>サイト一覧</span></a></li> -->
+      
+  </ul>
+<!-- /bnrBlock --></div>
+
+<!-- ===== /contents ====== --></div>
+
+<!-- ===== footer ====== -->
+<footer>
+  <ul class="footLinks">
+    <li><a href="/common/terms.html">ご利用条件</a></li>
+    <li><a href="/common/privacy.html">プライバシーポリシー</a></li>
+    <li><a href="/common/sitemap.html">サイトマップ</a></li>
+  </ul>
+  <p id="groupLogo"><img src="shared/images/toray_group_logo.svg" alt="Toray Group"></p>
+  <p id="copyright">COPYRIGHT TORAY INDUSTRIES, INC.</p>
+<!-- ===== /footer ====== --></footer>
+
+<!-- ===== /wrapper ====== --></div>
+<p id="pagetop" class="pagetop"><a href="#"></a></p>
+<script src="http://search.toray.com/mf2file/solutions/toray/site/js/MF_ext.js#unit_id=co" type="text/javascript" charset="UTF-8"></script>
+</body>
+</html>

@@ -1,0 +1,691 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ja" xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="robots" content="index,follow" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javescript" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>味ひとすじ 永谷園</title>
+<meta name="description" content="永谷園の商品ラインアップをご紹介します。定番のロングセラー商品や話題の新商品、食物アレルギー配慮商品などのチェックはこちらからどうぞ。" />
+<meta name="keywords" content="永谷園,商品,新商品,お茶づけ,ふりかけ,みそ汁,お吸いもの,チャーハンの素,そうざいの素,ちらしずしの素,アレルギー" />
+<script type="text/javascript" src="/js/jquery-1.8.3.min.js"></script><script type="text/javascript" src="/js/jquery.bxslider.js"></script><link rel="stylesheet" type="text/css" href="/css/jquery.bxslider.css" /><script type="text/javascript" src="/js/common.js"></script><script type="text/javascript" src="/js/flexcroll.js"></script><script type="text/javascript" src="/js/top.js"></script><script type="text/javascript" src="/js/rotation.js"></script><link rel="stylesheet" type="text/css" href="/css/style.css" media="all" /><link rel="stylesheet" type="text/css" href="/css/layout.css" media="all" /><link rel="stylesheet" type="text/css" href="/css/thickbox.css" media="screen" /><link rel="stylesheet" type="text/css" href="/css/print.css" media="print" /><link rel="stylesheet" type="text/css" href="/css/scroll.css" /><link rel="stylesheet" type="text/css" href="/css/rotation.css" />
+<link rel="stylesheet" type="text/css" href="/css/default.css" media="screen" />
+<link rel="apple-touch-icon" href="/shortcut_icon.png" >
+<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+
+
+<script type="text/javascript">
+<!--
+
+var nowTime = 20170821180700;
+
+$(function(){
+ if((20130819110000<=nowTime) && (nowTime<=20300205110000)){
+//		$('#headerCnt #logoArea h1').after("<p class='clickImg'><a href='/event/linestamp/'><img src='/img/common/bnr_top.jpg' width='240' height='85' alt='永谷園 公式スタンプ登場！ LINEクリエイターズスタンプ' /></a></p>");
+//     $('#headerCnt #logoArea h1').after("<p class='clickImg'><a href='/brand/hieshirazu/day.html'><img src='/img/common/bnr_top.jpg' width='240' height='85' alt='6月15日は「生姜の日」' /></a></p>");
+     $('#headerCnt #logoArea h1').after("<p class='clickImg'><a href='/cp/tokaido_relation.html'><img src='/img/common/bnr_top.jpg' width='240' height='85' alt='東海道五拾三次カードで昔しらべをしよう！' /></a></p>");
+	}
+
+});
+
+
+$(function(){
+  // ドキュメントロード完了時にコンテンツ高さ調整
+	auto_resize();
+
+ $(window).resize(function(){
+ // ウィンドウリサイズに一応対応しておく
+ auto_resize();
+ });
+
+// メニューとコンテンツの高さをあわせる
+function auto_resize(){
+  var b_height = $("body").height();
+  var w_height = $(window).height();
+  $("#wrapbg").css("height",w_height);
+
+}
+});
+
+//-->
+</script>
+
+<script type="text/javascript">
+$(function () {
+	$("td input.gsc-search-button-v2").attr('src','/img/common/btn_search_01.gif');
+});
+
+</script>
+
+<style type="text/css">
+
+.gsc-search-button-v2 {
+	background:none!important;
+	width:40px!important;
+	height:20px!important;
+	margin-top:0 !important;
+	padding:0!important;
+	border:none!important;
+}
+
+#searchResultArea {
+	min-height:100px;
+}
+
+.gcsc-branding {
+	display:none;
+}
+.gsc-webResult.gsc-result {
+	padding:5px 7% 5px 0!important;
+	border-bottom:1px dotted #cccccc!important;
+	background:url(/img/smartphone/common/icn_arr_01.png) no-repeat 98% 50%;
+}
+.gsc-webResult.gsc-result.noStyle {
+	padding-right:0!important;
+	border:none!important;
+	background:none!important;
+}
+.gsc-cursor-box {
+	width:100%;
+	text-align:center!important;
+}
+.gsc-thumbnail-inside {
+	padding-left:0!important;
+}
+.gs-title {
+	text-align:left!important;
+}
+.gsc-url-top {
+	padding-left:0!important;
+}
+.gsc-cursor-box .gsc-cursor {
+	width:100%!important;
+}
+.gsc-cursor-box .gsc-cursor-page {
+	padding:5px 10px;
+	font-size:131%;
+	color:#cc0000!important;
+}
+.gsc-cursor-box .gsc-cursor-page.gsc-cursor-current-page {
+	color:#333333!important;
+}
+
+.gs-no-results-result .gs-snippet {
+	border:none;
+	background:none!important;
+}
+
+
+.gs-no-results-result {
+	visibility:hidden;
+}
+
+input.gsc-input{
+	font-size:12px !important;
+}
+
+.gsst_a{
+	padding:4px 3px 3px 0!important;
+}
+
+.gsst_a .gscb_a{
+	font-size:12px !important;
+}
+
+.cse input.gsc-search-button, input.gsc-search-button{
+	background:#f5f5f5 !important;
+}
+
+.gsc-result-info{
+	padding:0!important;
+}
+
+.gsc-above-wrapper-area {
+    border-bottom:none !important;
+    padding:3px 0!important;
+}
+
+.gsc-input-box {
+	width:140px !important;
+	height:18px !important;
+}
+
+.gsc-input{
+	width:119px !important;
+	background:none!important;
+}
+
+table.gsc-search-box{
+	width:34% !important;
+	margin-bottom:0 !important;
+}
+
+form.gsc-search-box {
+	width:auto !important;
+	margin-bottom:0 !important;
+	padding:0 !important;
+	background:#ffffff !important;
+}
+
+.cse .gsc-control-cse, .gsc-control-cse{
+    padding:0 !important;
+    width: auto;
+}
+
+.cse .gsc-control-cse div, .gsc-control-cse div {
+	background:#ffffff !important;
+}
+
+.gsc-result .gs-title {
+    height:1.8em !important;
+}
+
+.gsc-webResult .gsc-result{
+    padding:5px 0!important;
+}
+
+.gs-webResult div.gs-visibleUrl-long, .gs-promotion div.gs-visibleUrl-long{
+    display: block;
+	font-size:12px !important;
+}
+
+.gsc-control-cse, .gsc-control-cse .gsc-table-result {
+    font-size:12px !important;
+}
+
+.gsc-results .gsc-cursor-box {
+	width:99% !important;
+    margin: 10px;
+}
+
+.gsc-results .gsc-cursor{
+	display:inline-block !important;
+	text-align:center !important;
+	*display:inline;
+	*zoom:1;
+}
+
+.gsc-search-box-tools .gsc-search-box .gsc-input{
+height:18px !important;
+    padding-right:3px !important;
+}
+
+.gsib_a {
+    padding:0 !important;
+}
+.gsib_b {
+    padding:0 !important;
+}
+
+.cse input.gsc-search-button, input.gsc-search-button {
+    background-color: #ffffff !important;
+    background-image: -moz-linear-gradient(center top , #ffffff, #ffffff) !important;
+}
+
+.gstl_0{
+    height:100%;
+}
+
+.gsst_b{
+	width:16px;
+}
+
+</style>
+
+
+</head>
+<body class="">
+<a id="pagetop" name="pagetop"></a>
+
+<!-- wrapper -->
+<div id="wrapper">
+
+<!-- noscript -->
+<noscript><p class="noscript"></p></noscript>
+<!-- //noscript -->
+
+<div id="globalHeader">
+
+
+<div id="headerCnt">
+<div id="logoArea">
+<h1>
+<a href="/"><img src="/img/common/logo_01.gif" width="85" height="80" alt="味ひとすじ　永谷園" /></a></h1>
+</div>
+
+<!-- btnNav -->
+<div id="btnNav">
+
+<div class="btnNav-main">
+
+<ul class="nav clearfix">
+	<li><a href="/"><img src="/img/common/g_nav_01.gif" width="87" height="15" alt="永谷園トップ" /></a></li>
+	<li><a href="/company/"><img src="/img/common/g_nav_02.gif" width="77" height="15" alt="会社情報" /></a></li>
+	<li class="nav-english"><a href="http://www.nagatanien.com/" target="_blank"><img src="/img/common/g_nav_03.gif" width="70" height="15" alt="English" /></a></li>
+	<li class="nav-sitemap"><a href="/sitemap/"><img src="/img/common/g_nav_06.gif" width="82" height="15" alt="サイトマップ" /></a></li>
+</ul>
+
+<ul class="nav -middle clearfix">
+	<li class="nav-middle"><a href="/consumer/"><img src="/img/common/g_nav_05.gif" width="87" height="15" alt="お問い合わせ" /></a></li>
+			<li class="nav-middle"><a href="/member/"><img src="/img/common/g_nav_04.gif" width="153" height="15" alt="会員登録（メールマガジン）" /></a></li>
+				<li>
+					<a href="https://www.nagatanien.co.jp/auth/login/"><img src="/img/common/login.gif" width="91" height="21" alt="ログイン" /></a>		</li>
+	</ul>
+
+<ul class="nav -none clearfix">
+	<li>
+		<div id="cse-search-form" class="txtAC" style="width:185px;"></div>
+		<script src="//www.google.com/jsapi" type="text/javascript"></script>
+		<script type="text/javascript">
+		  google.load('search', '1', {language : 'ja', style : google.loader.themes.V2_DEFAULT});
+		  google.setOnLoadCallback(function() {
+		    var customSearchOptions = {};  var customSearchControl = new google.search.CustomSearchControl(
+		      '006774449393042068640:0o0nsyunrwy', customSearchOptions);
+		    customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
+		    var options = new google.search.DrawOptions();
+		    options.enableSearchboxOnly("/search/lst_search.html");
+		    customSearchControl.draw('cse-search-form', options);
+		  }, true);
+		  	$("td input.gsc-search-button-v2").attr('src','/img/common/btn_search_01.gif');
+		</script>
+	</li>
+	<li class="nav-guide">
+		<ul class="guide">
+			<li class="first"><img src="/img/common/fontsize_change_01.gif" width="63" height="17" alt="文字の大きさ" /></li>
+			<li class="textsizeChange"><img src="/img/common/size_s.gif" class="size_s" width="20" height="17" alt="小" /></li>
+			<li class="textsizeChange"><img src="/img/common/size_m.gif" class="size_m" width="20" height="17" alt="中" /></li>
+			<li class="textsizeChange last"><img src="/img/common/size_l.gif" class="size_l" width="20" height="17" alt="大" /></li>
+		</ul>
+	</li>
+</ul>
+</div><!-- btnNav-main -->
+
+<div class="btnNav-btn">
+	<p class="btnNav-btn_item"><a href="http://www.nagatanien-hd.co.jp/" target="_blank"><img src="/img/common/btn_head_hd.jpg" width="166" height="71" alt="永谷園ホールディングス" /></a></p>
+</div><!-- btnNav-btn -->
+
+</div>
+<!-- btnNav -->
+
+<script type="text/javascript">
+$(window).load(function () {
+	$("td input.gsc-search-button-v2").attr('src','/img/common/btn_search_01.gif');
+
+$(function(){
+	$("#gsc-i-id1").val("サイト内検索").css("color","#969696");
+	$("#gsc-i-id1").focus(function(){
+		if(this.value == "サイト内検索"){
+			$(this).val("").css("color","#424242");
+		}
+	});
+
+	$("#gsc-i-id1").blur(function(){
+		if(this.value == ""){
+			$(this).val("サイト内検索").css("color","#969696");
+		}else if(this.value != "サイト内検索"){
+			$(this).css("color","#424242");
+		}
+	});
+});
+});
+</script>
+<!-- //headerCnt --></div>
+
+
+<div id="globalNav">
+<ul>
+<li><a href="/product/"><img src="/img/common/nav_01.gif" class="imgover" width="154" height="39" alt="商品情報" /></a></li>
+<li><a href="/recipe/"><img src="/img/common/nav_02.gif" class="imgover" width="155" height="39" alt="アレンジレシピ" /></a></li>
+<li><a href="/cp/"><img src="/img/common/nav_03.gif" class="imgover" width="155" height="39" alt="キャンペーン" /></a></li>
+<li><a href="/enjoy/"><img src="/img/common/nav_04.gif" class="imgover" width="155" height="39" alt="CM・楽しむ" /></a></li>
+<li><a href="/safety/"><img src="/img/common/nav_05.gif" class="imgover" width="155" height="39" alt="食の安全・環境への取り組み" /></a></li>
+<li><a href="/event/"><img src="/img/common/nav_06.gif" class="imgover" width="156" height="39" alt="イベント" /></a></li>
+</ul>
+<!-- //globalNav --></div>
+
+<!-- //globalHeader --></div>
+
+
+<!-- mentenance -->
+<!-- mentenance -->
+
+<!-- contents -->
+<div id="contents" class="clearfix">
+
+<div id="sidePane">
+<div id="sidePaneHeightCheck">
+
+
+<div id="alert">
+<p><a href="/caution/" target="_blank"><span class="r01">【注意喚起】</span>弊社等の名を騙った投資勧誘について</a></p>
+<p class="r02">-→</p>
+<!-- //alert --></div>
+<!-- //brand -->
+<div id="brand">
+<h2><a href="/brand/"><img src="/img/top/pttl_05.gif" width="198" height="27" alt="商品ブランド" /></a></h2>
+<ul>
+<li><a href="/brand/ochaduke/"><img src="/img/brand/common/pic_brand_01.jpg" width="55" height="65" alt="お茶漬け（お茶づけ）" /></a></li>
+<li><a href="/brand/osuimono/"><img src="/img/brand/common/pic_brand_04.jpg" width="55" height="65" alt="松茸の味 お吸いもの" /></a></li>
+<li class="stopFirst"><a href="/brand/asage/"><img src="/img/brand/common/pic_brand_03.jpg" width="55" height="65" alt="生みそタイプみそ汁 あさげ" /></a></li>
+<li class="line02"><a href="/brand/sushitaro/"><img src="/img/brand/common/pic_brand_05.jpg" width="55" height="65" alt="すし太郎" /></a></li>
+<li class="line02"><a href="/brand/otonanofurikake/"><img src="/img/brand/common/pic_brand_02.jpg" width="55" height="65" alt="おとなのふりかけ" /></a></li>
+<li class="stop line02"><a href="/brand/maboharusame/"><img src="/img/brand/common/pic_brand_08.jpg" width="55" height="65" alt="麻婆春雨" /></a></li>
+</ul>
+<!-- //brand --></div>
+
+
+<!-- //brand -->
+
+
+<!-- //campaign -->
+<div id="cpList">
+<h2><a href="/cp/"><img src="/img/top/pttl_01.gif" width="198" height="27" alt="キャンペーン情報" /></a></h2>
+<p><a href="/cp/consumer.html"><img src="/img/bnr/bnr_cp_consumer.jpg" alt="遠藤関 化粧廻しバスタオル プレゼントキャンペーン" width="168" height="50" /></a></p>
+
+
+<!-- //cpList --></div>
+<!-- //campaign -->
+
+
+<!-- //sidePaneHeightCheck --></div>
+
+<!-- //whatsnew -->
+<div id="whatsNew" class="sideCntsBox">
+<h2><a href="/whatsnew/2/2017/"><img src="/img/top/pttl_04.gif" width="198" height="27" alt="WhatsNew" /></a><a href="/rss/"><img src="/img/top/btn_rss01.gif" class="btn_rss" width="45" height="27" alt="RSS" /></a></h2>
+<div id="mycustomscroll_1" class="flexcroll">
+<dl>
+<dt>2017年8月21日</dt>
+<dd><a href="http://www.nagatanien.co.jp/product/lst/9/#sc157">「宇宙戦隊キュウレンジャー」シリーズのパッケージデザインとおまけシールのデザインが新しくなりました。</a></dd>
+
+<dt>2017年8月21日</dt>
+<dd><a href="http://www.nagatanien.co.jp/product/group/1/">「冷え知らず」さんの生姜みそ汁、生姜くず湯（あずき、りんご）、生姜スティックドリンク（はちみつレモンティー、ゆず茶、チャイ）は本日発売です。</a></dd>
+
+<dt>2017年8月07日</dt>
+<dd><a href="http://www.nagatanien.co.jp/product/lst/2/#sc10">「おとなのふりかけミニ　秋冬編」は本日発売です。また、「その1」「その2」が新しくなりました。</a></dd>
+
+<dt>2017年8月07日</dt>
+<dd><a href="http://www.nagatanien.co.jp/product/detail/801/">「ふわふわあんかけ玉子　明石焼き風鰹だし」は本日発売です。</a></dd>
+
+<dt>2017年8月07日</dt>
+<dd><a href="http://www.nagatanien.co.jp/product/lst/2/#sc164">「日本を味わうソフトふりかけ」は本日発売です。</a></dd>
+
+</dl>
+<!-- //mycustomscroll_1 --></div>
+<!-- //whatsNew --></div><!-- //whatsnew -->
+
+<!-- //news -->
+<div id="news">
+<h2><a href="/whatsnew/3/2017/"><img src="/img/top/pttl_06.gif" width="198" height="27" alt="ニュースリリース" /></a><a href="/rss/"><img src="/img/top/btn_rss01.gif" class="btn_rss" width="45" height="27" alt="RSS" /></a></h2>
+<div id="mycustomscroll_2" class="flexcroll">
+<dl>
+<dt>2017年8月17日</dt>
+<dd><a href="http://www.nagatanien.co.jp/contents/news_release/464.pdf" target="_blank">通販向け商品「あさげ　ひるげ　ゆうげ」（アソート）8月中旬より新発売のお知らせを掲載しました。(PDF)</a></dd>
+<dt>2017年8月03日</dt>
+<dd><a href="http://www.nagatanien.co.jp/contents/news_release/463.pdf" target="_blank">「煮込みラーメン　担々麺風」、8/7（月）北海道地区、8/21（月）全国発売のお知らせを掲載しました。(PDF)</a></dd>
+<dt>2017年7月27日</dt>
+<dd><a href="http://www.nagatanien.co.jp/contents/news_release/462.pdf" target="_blank">「ふわふわあんかけ玉子」8/7（月）より新発売、その他玉子そうざいの素商品8月よりリニューアルのお知らせを掲載しました。(PDF)</a></dd>
+<dt>2017年7月26日</dt>
+<dd><a href="http://www.nagatanien.co.jp/contents/news_release/460.pdf" target="_blank">「おとなのふりかけ　焼たらこ」8/7（月）より新発売のお知らせを掲載しました。(PDF)</a></dd>
+<dt>2017年7月26日</dt>
+<dd><a href="http://www.nagatanien.co.jp/contents/news_release/461.pdf" target="_blank">「おとなのふりかけミニ」、「その1」「その2」7月よりリニューアル、「秋冬限定」8/7（月）より新発売のお知らせを掲載しました。(PDF)</a></dd>
+</dl>
+<!-- //mycustomscroll_2 --></div>
+<!-- //news --></div>
+<!-- //news -->
+
+<!-- //sidePane --></div>
+
+<div id="mainTop" class="clearfix">
+
+<!-- //rotation -->
+<div id="visualArea">
+
+<div id="rotationWrap">
+<div class="rotation">
+<div class="rotationIMG">
+
+<div id="bx-pager">
+    <a data-slide-index="0" href=""><img src="/img/rotation/bnr_s_main_nokke.jpg" width="121" height="41" alt="のっけごはん" /></a>
+    <a data-slide-index="1" href=""><img src="/img/rotation/bnr_s_new_item.jpg" width="121" height="41" alt="新商品・リニューアル商品" /></a>
+    <a data-slide-index="2" href=""><img src="/img/rotation/bnr_s_hieshirazu.jpg" width="121" height="41" alt="「冷え知らず」さんの生姜シリーズ" /></a>
+    <a data-slide-index="3" href=""><img src="/img/rotation/bnr_s_kanitama_recipe.jpg" width="121" height="41" alt="広東風かに玉アレンジレシピ" /></a>
+</div>
+
+<ul class="bxslider">
+    <li><a href="/brand/nokke/"><img src="/img/rotation/bnr_main_nokke.jpg" width="520" height="578" alt="のっけごはん" /></a></li>
+    <li><a href="/product/new/"><img src="/img/rotation/bnr_new_item.jpg" width="520" height="578" alt="新商品・リニューアル商品" /></a></li>
+    <li><a href="/brand/hieshirazu/"><img src="/img/rotation/bnr_hieshirazu.jpg" width="520" height="578" alt="「冷え知らず」さんの生姜シリーズ" /></a></li>
+    <li><a href="/recipe/kanitama_01.html"><img src="/img/rotation/bnr_kanitama_recipe.jpg" width="520" height="578" alt="広東風かに玉アレンジレシピ" /></a></li>
+</ul>
+
+</div>
+
+
+<map name="MapRotation3" id="MapRotation3">
+<area shape="rect" coords="12,414,164,464" href="/recipe/fw_lst/5Ya344KE44GX6Iy244Gl44GR/2/1/" />
+<area shape="rect" coords="0,3,520,578" href="/brand/ochaduke/" />
+</map>
+<map name="MapRotation4" id="MapRotation4">
+<area shape="rect" coords="390,0,520,122" href="/recipe/682/detail.html" />
+<area shape="rect" coords="0,0,578,520" href="/brand/osuimono/" />
+</map>
+<map name="MapRotation5" id="MapRotation5">
+    <area shape="poly" coords="508,364,361,403,265,450,258,535,360,571,520,561,518,375,515,376,507,366,479,372" href="/recipe/fw_lst/44Gy44Gq56Wt44KK/2/1/" alt="" />
+  <area shape="rect" coords="0,0,578,520" href="/brand/sushitaro/" />
+</map>
+
+<!-- //rotation --></div>
+<!-- //rotationWrap --></div>
+
+<!-- ?php //echo $this->Session->flash(); ? -->
+<!-- ?php echo $content_for_layout; ? -->
+<!-- //visualArea --></div>
+<!-- //rotation -->
+
+<div id="sideArea">
+
+<!-- //fun_voice -->
+<!-- //fun_voice -->
+
+<!-- //bnr_member -->
+
+<!-- recruit -->
+<div id="recruit">
+<p><a href="/recruit/" target="_blank"><img src="/img/top/new/bnr_new_recruit.jpg" width="190" height="82" alt="2018年度 新卒採用" /></a></p>
+</div>
+<!-- recruit -->
+
+<!-- //bnr_member -->
+
+<!-- //cm -->
+<div id="cmList">
+<h2><a href="/enjoy/cm/"><img src="/img/top/pttl_02.gif" width="190" height="32" alt="CM情報" /></a></h2>
+<div class="inrWrap clearfix">
+	<div class="top-cm">
+        <p class="top-cm_img"><a href="/enjoy/cm/"><img src="/img/top/new/top_new_cm_hero.jpg" width="170" height="96" alt="松茸の味お吸いもの「うなぎと三味線」篇" /></a></p>
+        <p class="top-cm_title"><img src="/img/top/new/top_new_cm_title.gif" width="170" alt="松茸の味お吸いもの「うなぎと三味線」篇" /></p>
+	</div>
+</div>
+<!-- //cmList --></div>
+<!-- //cm -->
+
+<!-- //bnr_other -->
+<div class="bnr">
+<ul>
+<li><a href="/saijiki/"><img src="/img/top/new/bnr_saijiki.jpg" width="190" height="51" alt="食の歳時記" /></a></li>
+<li><a href="http://www.shouga-bu.com/" target="_blank"><img src="/img/top/bnr_04.gif" width="190" height="51" alt="永谷園生姜部" /></a></li>
+<li><a href="http://www.n28.jp/" target="_blank"><img src="/img/bnr/bnr_online2015.jpg" width="190" height="51" alt="永谷園通販 ここでしか買えない！限定商品" /></a></li>
+</ul>
+<!-- //bnr --></div>
+
+
+<!-- //bnr_other -->
+
+<!-- //recipe -->
+<div class="topRecipe">
+<p><a href="/recipe/" id="week_recommend_link"><img src="/img/recipe/weekly/top_recipe_1.jpg" id="week_recommend_pic" class="imgover" alt="今週のおすすめレシピ" width="190" height="165" /></a></p>
+<!-- //topRecipe --></div>
+
+<script type="text/javascript" src="/js/recipe_recommend.js" charset="utf-8"></script>
+<script type="text/javascript">
+<!--
+
+var r_link1 = "/recipe/";
+var r_link2 = "/detail.html";
+var altText = "今週のおすすめレシピ";
+
+if((week1_start + 110000<=nowTime) && (nowTime<=week1_end + 105959)){
+	document.getElementById('week_recommend_link').href=r_link1 + week1_r_id + r_link2;
+	document.getElementById('week_recommend_pic').src='/img/recipe/weekly/top_recipe_1.jpg';
+	document.getElementById('week_recommend_pic').alt= altText + week1_title;
+
+}else if((week2_start + 110000<=nowTime) && (nowTime<=week2_end + 105959)){
+	document.getElementById('week_recommend_link').href=r_link1 + week2_r_id + r_link2;
+	document.getElementById('week_recommend_pic').src='/img/recipe/weekly/top_recipe_2.jpg';
+	document.getElementById('week_recommend_pic').alt= altText + week2_title;
+
+}else if((week3_start + 110000<=nowTime) && (nowTime<=week3_end + 105959)){
+	document.getElementById('week_recommend_link').href=r_link1 + week3_r_id + r_link2;
+	document.getElementById('week_recommend_pic').src='/img/recipe/weekly/top_recipe_3.jpg';
+	document.getElementById('week_recommend_pic').alt= altText + week3_title;
+
+}else if((week4_start + 110000<=nowTime) && (nowTime<=week4_end + 105959)){
+	document.getElementById('week_recommend_link').href=r_link1 + week4_r_id + r_link2;
+	document.getElementById('week_recommend_pic').src='/img/recipe/weekly/top_recipe_4.jpg';
+	document.getElementById('week_recommend_pic').alt= altText + week4_title;
+
+}else if((week5_start + 110000<=nowTime) && (nowTime<=week5_end + 105959)){
+	document.getElementById('week_recommend_link').href=r_link1 + week5_r_id + r_link2;
+	document.getElementById('week_recommend_pic').src='/img/recipe/weekly/top_recipe_5.jpg';
+	document.getElementById('week_recommend_pic').alt= altText + week5_title;
+
+}else if((week6_start + 110000<=nowTime) && (nowTime<=week6_end + 105959)){
+	document.getElementById('week_recommend_link').href=r_link1 + week6_r_id + r_link2;
+	document.getElementById('week_recommend_pic').src='/img/recipe/weekly/top_recipe_6.jpg';
+	document.getElementById('week_recommend_pic').alt= altText + week6_title;
+
+}else if((week7_start + 110000<=nowTime) && (nowTime<=week7_end + 105959)){
+	document.getElementById('week_recommend_link').href=r_link1 + week7_r_id + r_link2;
+	document.getElementById('week_recommend_pic').src='/img/recipe/weekly/top_recipe_7.jpg';
+	document.getElementById('week_recommend_pic').alt= altText + week7_title;
+}
+//-->
+</script>
+<!-- //recipe -->
+
+<!-- //sideArea --></div>
+
+<!-- //mainTop --></div>
+
+</div>
+<!-- contents -->
+
+
+<div id="bottomLinkArea" class="clearfix">
+
+<div class="bottomLinkWrap clearfix">
+
+<div class="leftSection">
+    <ul class="bottomLink">
+        <li>｜<span><a href="/product/">商品情報</a></span><!----></li>
+        <li>｜<span><a href="/recipe/">アレンジレシピ</a></span><!----></li>
+        <li>｜<span><a href="/cp/">キャンペーン</a></span><!----></li>
+        <li>｜<span><a href="/enjoy/">CM・楽しむ</a></span><!----></li>
+        <li>｜<span><a href="/safety/">食の安全・環境活動</a></span>｜</li>
+    </ul>
+       
+    <ul class="bottomLink">
+        <li>｜<span><a href="/event/">イベント</a></span></li>
+        <li>｜<span><a href="/member/">会員登録（メールマガジン）</a></span></li>
+        <li>｜<span><a href="/sitepolicy/">サイトのご利用について</a></span>｜</li>
+    </ul>
+    
+    <ul class="bottomLink">
+        ｜<li><span><a href="/privacy/">プライバシーポリシー</a></span><!--
+--></li>
+        <li>｜<span><a href="/social/">ソーシャルメディアポリシー</a></span>｜<!--
+--></li>
+    </ul>
+</div>
+
+<div class="rightSection">
+    <ul>
+        <li><a href="https://www.facebook.com/ochaduke.japan/" target="_blank"><img src="/img/common/img_foot_facebook.jpg" width="146" height="61" alt="永谷園公式Facebook" /></a></li>
+        <li><a href="https://www.instagram.com/nagatanien_jp/" target="_blank"><img src="/img/common/img_foot_instagram.jpg" width="146" height="61" alt="永谷園Instagram" /></a></li>
+        <li><a href="https://www.youtube.com/user/Nagatanien1953" target="_blank"><img src="/img/common/img_foot_youtube.jpg" width="150" height="61" alt="永谷園公式YouTube" /></a></li>
+        <li class="last"><a href="javascript:newWin01('https://www.nagatanien.co.jp/cp/7/pentry.html',750,750);"><img src="/img/common/img_foot_question.jpg" width="74" height="61" alt="サイト評価アンケート　ご協力ください" /></a></li>
+    </ul>
+</div>
+
+</div><!-- //bottomLinkWrap -->
+
+    
+
+<!-- //bottomLinkArea --></div>
+
+<!-- globalFooter -->
+<div id="globalFooter" class="clearfix">
+	<div class="leftSection">
+		<ul class="footerLink">
+			<li><a href="/company/">会社情報</a></li>
+			<li><a href="http://www.nagatanien-hd.co.jp/" target="_blank">永谷園ホールディングス</a></li>
+		</ul>
+	</div>
+	<div class="rightSection">
+		<p>Copyright(c)2009 Nagatanien Co.,Ltd.</p>
+	</div>
+</div>
+<!-- globalFooter -->
+
+<script language="javascript"><!--
+
+var uilid  = '';
+var uigr_1   = ''; var uigr_2 = ''; var uigr_3 = ''; var uigr_4 = ''; var uigr_5 = '';
+var uigr_6   = ''; var uigr_7 = ''; var uigr_8 = ''; var uigr_9 = ''; var uigr_10 = '';
+
+//----- DO NOT ALTER BELOW THIS LINE ---------
+// WITHOUT F.P.C.
+
+var uiinit   = uiinit || Math.floor(Math.random() * 9000000) + 1000000;
+var uihost   = uihost || (("https:" == document.location.protocol) ? "https://bs." : "http://b14.")+"nakanohito.jp/b1/";
+document.write("<img id='id_shellfish' src='"+uihost+"?uisv=14&id=10078&mode=default&h=e074&rand="+uiinit+"&url="+encodeURIComponent(parent.document.URL)+"&ref="+encodeURIComponent(parent.document.referrer)+"&uigr_1="+encodeURIComponent(uigr_1)+"&uigr_2="+encodeURIComponent(uigr_2)+"&uigr_3="+encodeURIComponent(uigr_3)+"&uigr_4="+encodeURIComponent(uigr_4)+"&uigr_5="+encodeURIComponent(uigr_5)+"&uigr_6="+encodeURIComponent(uigr_6)+"&uigr_7="+encodeURIComponent(uigr_7)+"&uigr_8="+encodeURIComponent(uigr_8)+"&uigr_9="+encodeURIComponent(uigr_9)+"&uigr_10="+encodeURIComponent(uigr_10)+"&lv="+uilid+"&sb="+encodeURIComponent(document.title)+"&eflg=1' border='0' width='1' height='1' alt='' />");
+document.write('<span id="id_bivalves"></span>'); document.write(decodeURI("%3Cscr"+"ipt src='"+uihost+"bivalves.js' charset='utf-8' type='text/javascript'%3E%3C/script%3E")); var uiLimit = 3000, uiInterval = 50, uiTime = 0; var uiLoadedId = setInterval(function(){ if ((typeof(Vesicomyid) != "undefined") && (typeof(Vesicomyid.Bivalves) != "undefined") && (typeof(Vesicomyid.Bivalves.Loaded) == "function") ) { clearInterval(uiLoadedId); try { var lb = new Vesicomyid.Bivalves(10078, uiinit); lb.host = uihost; lb.uisv = 14; lb.init(); } catch (err) { } } else if ((uiTime += uiInterval) > uiLimit) { clearInterval(uiLoadedId); } }, uiInterval);
+
+--></script>
+<!-- //globalFooter -->
+
+</div>
+<!-- wrapper -->
+
+
+<script type="text/javascript">
+<!--
+var blade_co_account_id='1605';
+var blade_group_id='';
+-->
+</script>
+<script src="http://d-cache.microad.jp/js/bl_track.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-7569532-4', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+<!--SiteStratos Version 1.0-->
+<script type="text/javascript"><!--
+var _ANid = "nagataniencojp";
+var _ANadd = "";
+var _ANprm = "";
+//--></script>
+<script type="text/javascript" src="/sitestratos/ss_nagataniencojp.js"></script>
+<noscript><ins><img src="//a5.ogt.jp/plog?id=nagataniencojp&guid=ON" width="2" height="1" alt="" /></ins></noscript>
+<!--END OF SiteStratos-->
+<!-- new -->
+</body>
+</html>

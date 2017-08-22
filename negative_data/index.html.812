@@ -1,0 +1,581 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, user-scalable=no">
+<meta name="description" content="小松精練は、世界に冠たる「先端ファブリックメーカー」になるという強い意志を持ち、人と素材のベストコミュニケーションと、そこから生まれる新しい価値の創造をめざします。 " />
+<meta name="keywords" content="小松精練,Komatsu seiren,ポリエステル,染色,捺染加工,ファブリック,フィルムファブリック,グリーンビズ,石川県,能美市,小松" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta name="globalsign-domain-verification" content="hweq691PZxr4zdiZfeToYACHtOpwgC-QgYFGjGDJ9p" />
+<meta property="og:title" content="小松精練" />
+<meta property="og:site_name" content="http://www.komatsuseiren.co.jp/jp/" />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="http://www.komatsuseiren.co.jp/wp-content/themes/komatsu/images/img.default.gif" />
+<meta property="og:url" content="http://www.komatsuseiren.co.jp/jp/" />
+<meta property="og:description" content="小松精練は、世界に冠たる「先端ファブリックメーカー」になるという強い意志を持ち、人と素材のベストコミュニケーションと、そこから生まれる新しい価値の創造をめざします。 " />
+
+<title>
+
+小松精練は、世界に冠たる「先端ファブリックメーカー」になるという強い意志を持ち、人と素材のベストコミュニケーションと、そこから生まれる新しい価値の創造をめざします。
+</title>
+
+<link rel="shortcut icon" href="http://www.komatsuseiren.co.jp/wp-content/themes/komatsu/images/favicon.ico" />
+
+<!-- PC -->
+<link href="http://www.komatsuseiren.co.jp/wp-content/themes/komatsu/style.css" rel="stylesheet" media="screen and (min-width: 641px)" type="text/css" />
+<link href="http://www.komatsuseiren.co.jp/wp-content/themes/komatsu/ja/css/print.css" rel="stylesheet" media="print" type="text/css" />
+
+<!-- スマホ -->
+<link href="http://www.komatsuseiren.co.jp/wp-content/themes/komatsu/ja/css/style_sp.css" rel="stylesheet" media="screen and (max-width: 640px)" type="text/css" />
+
+<!--[if lte IE 8]>
+<link rel="stylesheet" type="text/css" href="http://www.komatsuseiren.co.jp/wp-content/themes/komatsu/style.css">
+<![endif]-->
+
+<script src="http://www.komatsuseiren.co.jp/wp-content/themes/komatsu/js/jquery-1.11.1.min.js" language="javascript" type="text/javascript"></script>
+<script src="http://www.komatsuseiren.co.jp/wp-content/themes/komatsu/js/smartRollover.js" language="javascript" type="text/javascript"></script>
+
+
+<!-- <!-- to_topスクリプト -->
+<script type="text/javascript">
+$(function(){
+    $('a[href^=#]').click(function(){
+        var speed = 300;
+        var href= $(this).attr("href");
+        var target = $(href == "#" || href == "" ? 'html' : href);
+        var position = target.offset().top;
+        $("html, body").animate({scrollTop:position}, speed, "swing");
+        return false;
+    });
+});
+</script>
+<!-- //to_topスクリプト// -->
+
+
+<!-- herader横スクロール -->
+<script type="text/javascript">
+$(window).on("scroll", function(){
+    $("#header").css("left", -$(window).scrollLeft());
+});
+</script>
+<!-- herader横スクロール -->
+
+
+<!-- スライダー -->
+<script src="http://www.komatsuseiren.co.jp/wp-content/themes/komatsu/js/jquery.bxslider.min.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('#slider').bxSlider({
+    auto: true,
+    pager: true,
+    speed: 1000,
+    pause:  3000,
+    prevText: '前のスライダー',
+    nextText: '次のスライダー'
+    });
+
+  });
+</script>
+
+<!-- PICK UP ITEMS スライド !-->
+<link href="http://www.komatsuseiren.co.jp/wp-content/themes/komatsu/ja/css/slick.css" rel="stylesheet" media="screen and (min-width: 641px)" type="text/css" />
+<link href="http://www.komatsuseiren.co.jp/wp-content/themes/komatsu/ja/css/slick-theme.css" rel="stylesheet" media="screen and (min-width: 641px)" type="text/css" />
+<script src="http://www.komatsuseiren.co.jp/wp-content/themes/komatsu/js/slick.min.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript">
+  $(document).ready(function(){
+	$('.slickslider').slick({
+		autoplay: true,
+		autoplaySpeed: 5000,
+		infinite: true,
+		slidesToShow: 3,
+		slidesToScroll: 1,
+		arrows: true
+	});
+  });
+
+
+</script>
+<!-- PICK UP ITEMS スライド !-->
+
+<!-- //スライダー// -->
+
+
+<!-- グローバルナビ -->
+<script type="text/javascript">
+$(function(){
+	$("#gNavi_sp p").click(function(){
+	    $(this).next("ul").slideToggle();
+	    $(this).children("span").toggleClass("open");
+	});
+});
+</script>
+<!-- //グローバルナビ// -->
+
+
+<!-- boxの高さを揃える -->
+<script src="http://www.komatsuseiren.co.jp/wp-content/themes/komatsu/js/jquery.tile.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript">
+<!--
+
+$(function(){
+    var minWidth = 641;
+    $(window).resize(function(){
+        if (minWidth <= $(this).width()) {
+	      $(window).load(function() {
+	        $('ul.productList li').tile(3);
+	      });
+        }
+        else {
+        }
+    }).trigger('resize');
+});
+
+
+$(function(){
+    var minWidth = 641;
+    $(window).resize(function(){
+        if (minWidth <= $(this).width()) {
+	      $(window).load(function() {
+	        $('ul.productList li p.Ptxt').tile(3);
+	      });
+        }
+        else {
+        }
+    }).trigger('resize');
+});
+
+//-->
+</script>
+<!-- //boxの高さを揃える// -->
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-66336159-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+<link rel='dns-prefetch' href='//s.w.org' />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/www.komatsuseiren.co.jp\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.7.2"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='contact-form-7-css'  href='http://www.komatsuseiren.co.jp/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-confirm-css'  href='http://www.komatsuseiren.co.jp/wp-content/plugins/contact-form-7-add-confirm/includes/css/styles.css?ver=4.6.2' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.komatsuseiren.co.jp/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://www.komatsuseiren.co.jp/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='http://www.komatsuseiren.co.jp/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.komatsuseiren.co.jp/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.komatsuseiren.co.jp/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.7.2" />
+</head>
+
+<body>
+<div id="wrap">
+
+	<div id="header" class="clearfix">
+		<h1><a href="http://www.komatsuseiren.co.jp"><img class="hover" src="http://www.komatsuseiren.co.jp/wp-content/themes/komatsu/images/header_logo.gif" width="100%" alt=""　/></a></h1>
+
+		<div class="show_pc">
+  <ul id="gNavi">
+
+<li class='on'>
+          <a href='http://www.komatsuseiren.co.jp'>ホーム</a>
+        </li><li>
+          <a href='http://www.komatsuseiren.co.jp/products/'>製品案内</a><ul><li>
+              <a href='http://www.komatsuseiren.co.jp/products/fashion/'>ファッションファブリック</a>
+            </li><li>
+              <a href='http://www.komatsuseiren.co.jp/products/function/'>高機能ファブリック</a>
+            </li><li>
+              <a href='http://www.komatsuseiren.co.jp/greenbiz/' target='_blank'>ハイテク・エコ建材</a>
+            </li></ul></li><li>
+          <a href='http://www.komatsuseiren.co.jp/company/'>会社情報</a><ul><li>
+              <a href='http://www.komatsuseiren.co.jp/company/philosophy/'>企業理念</a>
+             </li><li>
+              <a href='http://www.komatsuseiren.co.jp/company/compliance/'>コンプライアンス</a>
+             </li><li>
+              <a href='http://www.komatsuseiren.co.jp/company/profile/'>会社概要</a>
+             </li><li>
+              <a href='http://www.komatsuseiren.co.jp/company/history/'>会社沿革</a>
+             </li><li>
+              <a href='https://www.komatsuseiren.co.jp/company/base/'>拠点紹介</a>
+             </li><li>
+              <a href='http://www.komatsuseiren.co.jp/company/group/'>グループ企業</a>
+             </li><li>
+              <a href='http://www.komatsuseiren.co.jp/company/our_business/'>OUR BUSINESS</a>
+             </li></ul></li><li>
+          <a href='http://www.komatsuseiren.co.jp/csr/'>社会貢献活動</a><ul class='list01'><li>
+            <a href='http://www.komatsuseiren.co.jp/csr/ecology/'>環境活動</a>
+           </li><li>
+            <a href='http://www.komatsuseiren.co.jp/csr/society/'>社会貢献活動</a>
+           </li></ul></li><li><a href='http://www.komatsuseiren.co.jp/ir/'>投資家情報</a><ul class='list01'><li><a href='http://www.komatsuseiren.co.jp/ir/information/'>投資家のみなさまへ</a></li><li><a href='http://www.komatsuseiren.co.jp/ir/library/'>資料ライブラリ</a></li><li><a href='http://www.komatsuseiren.co.jp/ir/investor/'>電子公告</a></li></ul></li><li>
+          <a href='http://www.komatsuseiren.co.jp/recruit/'>採用情報</a>
+        </li></ul>
+  <ul id="language" class="clearfix">
+    <li><a href="http://www.komatsuseiren.co.jp">Japanese</a></li>
+
+    <li>|</li>
+
+    <li><a href="http://www.komatsuseiren.co.jp/en/" class="off">English</a></li>
+  </ul>
+
+
+  <p class="headerBnr">
+     <a href="http://www.komatsuseiren.co.jp/greenbiz/" target="_blank">
+      <img class="hover" src="http://www.komatsuseiren.co.jp/wp-content/themes/komatsu/images/bnr_greenbiz2.gif" width="100%" alt="Greenbiz" />
+     </a><br />
+
+     <a href="http://salarifit.com/access.html" target="_blank">
+      <img class="hover" src="http://www.komatsuseiren.co.jp/wp-content/themes/komatsu/images/bnr_salarifit-sekaie.png" width="100%" alt="SALARIFIT世界へ" />
+     </a>
+
+    <a href="http://www.komatsuseiren.co.jp/cabkoma/" target="_blank">
+      <img class="hover" src="http://www.komatsuseiren.co.jp/wp-content/themes/komatsu/images/bnr_cabkoma.jpg" width="100%" alt="デザイン性を考慮した 未来の耐震補強 CABKOMA" />
+    </a><br />
+  </p>
+
+</div>
+
+		<ul id="gNavi_sp" class="clearfix">
+  <li>
+    <p class="menu"><span>MENU</span></p>
+    <ul class="menu_top">
+
+<li class='on'><a href='http://www.komatsuseiren.co.jp'><span>ホーム</span></a></li><li><a href='http://www.komatsuseiren.co.jp/products/'><span>製品案内</span></a></li><li><a href='http://www.komatsuseiren.co.jp/company/'><span>会社情報</span></a></li><li><a href='http://www.komatsuseiren.co.jp/csr/'><span>社会貢献活動</span></a></li><li><a href='http://www.komatsuseiren.co.jp/ir/'><span>投資家情報</span></a></li><li><a href='http://www.komatsuseiren.co.jp/recruit/'><span>採用情報</span></a></li><li><a href='http://www.komatsuseiren.co.jp/privacy/'><span>プライバシーポリシー</span></a></li><li><a href='http://www.komatsuseiren.co.jp/sitemap/'><span>サイトマップ</span></a></li><li><a href='https://www.komatsuseiren.co.jp/contact/'><span>お問い合わせ</span></a></li>
+      <li class="language bR"><a href="http://www.komatsuseiren.co.jp">Japanese</a></li>
+      <li class="language"><a href="http://www.komatsuseiren.co.jp/en/" class="off">English</a></li>
+
+
+    </ul>
+  </li>
+</ul>
+
+	</div>
+
+<div id="content">
+
+  <div id="slidesShow">
+
+    <ul id="slider">
+      <li>
+        <a href="http://www.komatsuseiren.co.jp/cabkoma/" target="_blank">
+          <img src="http://www.komatsuseiren.co.jp/wp-content/themes/komatsu/images/index_slide09.jpg" width="100%" alt="" />
+        </a>
+        <p><span>デザイン性を考慮した<br /><span>未来の耐震補強</span></span></p>
+      </li>
+
+      <li>
+        <a href="http://www.komatsuseiren.co.jp/fashion/gloss-material/ultrarugano/">
+          <img src="http://www.komatsuseiren.co.jp/wp-content/themes/komatsu/images/index_slide10.jpg" width="100%" alt="" />
+        </a>
+        <p><span>革新的光沢素材<br /><span>ウルトラ ・ルガーノ</span></span></p>
+      </li>
+
+      <li>
+        <a href="http://www.komatsuseiren.co.jp/fashion/new-wool/karl-karl-ks/">
+          <img src="http://www.komatsuseiren.co.jp/wp-content/themes/komatsu/images/index_slide11.jpg" width="100%" alt="" />
+        </a>
+        <p><span>新感覚ウール調合繊素材<br /><span>Karl Karl-KS&trade;</span></span></p>
+      </li>
+   </ul>
+
+    <div id="PICK_UP_ITEMS">
+      <div id="PICK_UP_ITEMS_in">
+        <p class="title">PICK UP ITEMS</p>
+
+        <ul class="clearfix">
+          <li class="clearfix">
+            <a href="http://www.komatsuseiren.co.jp/cabkoma/" target="_blank">
+               <div><p class="subTitle">fa-bo (ファーボ)</p>
+                    <p class="txt show_sp">> カボコーマ・ストランドロッド</p>
+               </div>
+               <img class="hover" src="http://www.komatsuseiren.co.jp/wp-content/themes/komatsu/images/index_pickup_img04.jpg" width="100%" alt="fa-bo (ファーボ)" />
+               <p class="txt show_pc">> カボコーマ・ストランドロッド</p>
+            </a>
+          </li>
+
+          <li class="clearfix">
+            <a href="http://www.komatsuseiren.co.jp/products/fashion/">
+              <div><p class="subTitle">ファッションファブリック</p>
+                   <p class="txt show_sp">> 環境配慮型合繊素材 ONIBEGIE</p>
+              </div>
+              <img class="hover" src="http://www.komatsuseiren.co.jp/wp-content/themes/komatsu/images/index_pickup_img01.jpg" width="100%" alt="ファッションファブリック" />
+              <p class="txt show_pc">> 環境配慮型合繊素材 ONIBEGIE</p>
+            </a>
+          </li>
+
+          <li class="clearfix">
+            <a href="http://www.komatsuseiren.co.jp/products/function/">
+              <div><p class="subTitle">高機能ファブリック</p>
+                   <p class="txt show_sp">> 高透湿防水 クアトローニ</p>
+              </div>
+              <img class="hover" src="http://www.komatsuseiren.co.jp/wp-content/themes/komatsu/images/index_pickup_img02.jpg" width="100%" alt="高機能ファブリック" />
+              <p class="txt show_pc">> 高透湿防水 クアトローニ</p>
+            </a>
+          </li>
+
+          <li class="clearfix">
+            <a href="http://www.komatsuseiren.co.jp/greenbiz/" target="_blank">
+              <div><p class="subTitle">ハイテクエコ素材</p>
+                   <p class="txt show_sp">> グリーンビズ</p>
+              </div>
+              <img class="hover" src="http://www.komatsuseiren.co.jp/wp-content/themes/komatsu/images/index_pickup_img03.jpg" width="100%" alt="ハイテクエコ" />
+              <p class="txt show_pc">> グリーンビズ</p>
+            </a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+
+  </div>
+
+  <div id="TopContent">
+    <div id="OUR_BUSINESS">
+      <p class="title">OUR BUSINESS</p>
+      <ul class="clearfix">
+
+        <li class="clearfix OUR_01">
+          <a href="http://www.komatsuseiren.co.jp/company/our_business/#BrandIdentity">
+          <p class="txt show_sp left">BRAND IDENTITY<span>> 一覧を見る</span></p>
+          <p class="img"><img class="hover" src="http://www.komatsuseiren.co.jp/wp-content/themes/komatsu/images/index_our_img01.jpg" width="100%" alt="BRAND IDENTITY" /></p>
+          <p class="txt show_pc">BRAND IDENTITY</p>
+        </a></li>
+
+        <li class="clearfix OUR_02">
+          <a href="http://www.komatsuseiren.co.jp/company/our_business/#Laboratory">
+          <p class="img"><img class="hover" src="http://www.komatsuseiren.co.jp/wp-content/themes/komatsu/images/index_our_img02.jpg" width="100%" alt="LABORATORY" /></p>
+          <p class="txt">LABORATORY<span class="show_sp">> 一覧を見る</span></p>
+        </a></li>
+        <li class="clearfix OUR_03">
+          <a href="http://www.komatsuseiren.co.jp/company/our_business/#UseScene">
+          <p class="txt show_sp">USE SCENE<span>> 一覧を見る</span></p>
+          <p class="img"><img class="hover" src="http://www.komatsuseiren.co.jp/wp-content/themes/komatsu/images/index_our_img03.jpg" width="100%" alt="USE SCENE" /></p>
+          <p class="txt show_pc">USE SCENE</p>
+        </a></li>
+      </ul>
+    </div>
+
+    <div class="clearfix">
+
+      <div class="infoBox Left">
+        <h2 class="clearfix">TOPICS<a class="show_pc" href="http://www.komatsuseiren.co.jp/topics/">> 一覧を見る</a></h2>
+        <dl>
+          
+    <dt>
+      2017/08/04
+<!-- カスタムフィールドのリンクがあるか？ !-->
+
+  <!-- アイキャッチ画像あるか？ !-->
+        <a href="http://special.nikkeibp.co.jp/atcl/NBO/17p/072100033/" target="_blank">
+        <img width="80" height="60" src="http://www.komatsuseiren.co.jp/wp-content/uploads/2017/08/topics20170804-80x60.jpg" class="hover wp-post-image" alt="" />      </a>
+    </dt>
+    <dd class="clearfix">
+      <a href="http://special.nikkeibp.co.jp/atcl/NBO/17p/072100033/" target="_blank">炭素繊維で『建築の衣服化』を実現　エレガントな耐震補強ができたワケ</a>
+    </dd>
+
+    <dt>
+      2017/06/22
+<!-- カスタムフィールドのリンクがあるか？ !-->
+
+  <!-- アイキャッチ画像あるか？ !-->
+        <a href="http://business.nikkeibp.co.jp/atcl/report/15/226265/062100138/" target="_blank">
+        <img width="80" height="60" src="http://www.komatsuseiren.co.jp/wp-content/uploads/2017/07/topics20170622-80x60.jpg" class="hover wp-post-image" alt="" />      </a>
+    </dt>
+    <dd class="clearfix">
+      <a href="http://business.nikkeibp.co.jp/atcl/report/15/226265/062100138/" target="_blank">アパレル業界の少量多品種生産を支える技術　～コニカミノルタ・小松精練・YKKが開発した水を汚さない手法～</a>
+    </dd>
+
+    <dt>
+      2017/04/13
+<!-- カスタムフィールドのリンクがあるか？ !-->
+
+  <!-- アイキャッチ画像あるか？ !-->
+        <a href="http://business.nikkeibp.co.jp/atcl/opinion/15/221102/041200443/" target="_blank">
+        <img width="80" height="60" src="http://www.komatsuseiren.co.jp/wp-content/uploads/2017/07/topics20170413-80x60.jpg" class="hover wp-post-image" alt="" />      </a>
+    </dt>
+    <dd class="clearfix">
+      <a href="http://business.nikkeibp.co.jp/atcl/opinion/15/221102/041200443/" target="_blank">世界のブランド経営者が石川県に行く理由　～小松精練　真似されない繊維素材作り～</a>
+    </dd>
+
+    <dt>
+      2017/03/22
+<!-- カスタムフィールドのリンクがあるか？ !-->
+
+  <!-- アイキャッチ画像あるか？ !-->
+        <a href="http://www.komatsuseiren.co.jp/topics/_20170322/">
+        <img width="80" height="60" src="http://www.komatsuseiren.co.jp/wp-content/uploads/2017/03/topics20170329_01-80x60.jpg" class="hover wp-post-image" alt="" srcset="http://www.komatsuseiren.co.jp/wp-content/uploads/2017/03/topics20170329_01-80x60.jpg 80w, http://www.komatsuseiren.co.jp/wp-content/uploads/2017/03/topics20170329_01-300x225.jpg 300w, http://www.komatsuseiren.co.jp/wp-content/uploads/2017/03/topics20170329_01-768x576.jpg 768w, http://www.komatsuseiren.co.jp/wp-content/uploads/2017/03/topics20170329_01.jpg 980w" sizes="(max-width: 80px) 100vw, 80px" />      </a>
+    </dt>
+    <dd class="clearfix">
+      <a href="http://www.komatsuseiren.co.jp/topics/_20170322/">STYLEM×小松精練株式会社「MONALISA　S<sup>＋</sup>　展示会」　開催</a>
+    </dd>
+
+    <dt>
+      2016/12/15
+<!-- カスタムフィールドのリンクがあるか？ !-->
+
+  <!-- アイキャッチ画像あるか？ !-->
+        <a href="http://www.komatsuseiren.co.jp/topics/_20161216/">
+        <img width="80" height="57" src="http://www.komatsuseiren.co.jp/wp-content/uploads/2016/12/topics20161216-80x57-80x57.jpg" class="hover wp-post-image" alt="" />      </a>
+    </dt>
+    <dd class="clearfix">
+      <a href="http://www.komatsuseiren.co.jp/topics/_20161216/">世界最大級のテキスタイル国際見本市のプレビュー展へ出展 “BLOSSOM Premiere Vision”</a>
+    </dd>
+        </dl>
+        <a class="newsList" href="http://www.komatsuseiren.co.jp/topics/">> 一覧を見る</a>
+      </div>
+
+      <div class="infoBoxR">
+        <div class="infoBox">
+          <h2 class="clearfix">NEWS RELEASE<a class="show_pc" href="http://www.komatsuseiren.co.jp/news_release/">> 一覧を見る</a></h2>
+          <dl>
+            
+
+    <dt>
+      2017/08/01      <span class="InfoTag">ニュースリリース</span>
+
+<!-- カスタムフィールドのlinkの中身があるか？ !-->
+
+  <!-- アイキャッチ画像あるか？ !-->
+        <a href="/wp-content/themes/komatsu/pdf/news/20170801.pdf" target="_blank">
+        <img width="80" height="70" src="http://www.komatsuseiren.co.jp/wp-content/uploads/2017/08/20170801.jpg" class="hover wp-post-image" alt="" />      </a>
+    </dt>
+    <dd class="clearfix">
+      <a href="/wp-content/themes/komatsu/pdf/news/20170801.pdf" target="_blank">「カボコーマ・ストランドロッド」を活用した事業戦略を発表</a>
+    </dd>
+
+
+    <dt>
+      2017/07/28      <span class="InfoTag">ニュースリリース</span>
+
+<!-- カスタムフィールドのlinkの中身があるか？ !-->
+
+  <!-- アイキャッチ画像あるか？ !-->
+        <a href="/wp-content/themes/komatsu/pdf/news/20170728.pdf" target="_blank">
+        <img width="80" height="70" src="http://www.komatsuseiren.co.jp/wp-content/uploads/2017/07/20170728.jpg" class="hover wp-post-image" alt="" />      </a>
+    </dt>
+    <dd class="clearfix">
+      <a href="/wp-content/themes/komatsu/pdf/news/20170728.pdf" target="_blank">耐震補強材料『カボコーマ ・ストランドロッド』の国内標準(JIS)化が認定へ</a>
+    </dd>
+          </dl>
+          <a class="newsList" href="http://www.komatsuseiren.co.jp/news_release/ " >> 一覧を見る</a>
+        </div>
+
+        <div class="infoBox mT20">
+          <h2 class="clearfix">投資家情報<a class="show_pc" href="http://www.komatsuseiren.co.jp/ir/ir_news/">> 一覧を見る</a></h2>
+          <dl>
+            
+    <dt>
+      2017/08/10      <span class="InfoTag">投資家情報</span>
+
+<!-- カスタムフィールドのlinkの中身があるか？ !-->
+
+
+  <!-- アイキャッチ画像あるか？ !-->
+      </dt>
+    <dd class="clearfix">
+      <a href="http://www.komatsuseiren.co.jp/ir/information/" >平成30年3月期第1四半期有価証券報告書をアップしました。</a>
+    </dd>
+  
+    <dt>
+      2017/07/31      <span class="InfoTag">投資家情報</span>
+
+<!-- カスタムフィールドのlinkの中身があるか？ !-->
+
+
+  <!-- アイキャッチ画像あるか？ !-->
+      </dt>
+    <dd class="clearfix">
+      <a href="http://www.komatsuseiren.co.jp/ir/information/" >平成30年3月期第1四半期決算短信をアップしました。</a>
+    </dd>
+  
+    <dt>
+      2017/07/31      <span class="InfoTag">投資家情報</span>
+
+<!-- カスタムフィールドのlinkの中身があるか？ !-->
+
+
+  <!-- アイキャッチ画像あるか？ !-->
+      </dt>
+    <dd class="clearfix">
+      <a href="http://www.komatsuseiren.co.jp/ir/information/" >平成30年3月期第1四半期決算説明資料をアップしました。</a>
+    </dd>
+            </dl>
+          <a class="newsList" href="http://www.komatsuseiren.co.jp/ir/ir_news/">> 一覧を見る</a>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+<script type='text/javascript' src='http://www.komatsuseiren.co.jp/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.51.0-2014.06.20'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"recaptcha":{"messages":{"empty":"\u3042\u306a\u305f\u304c\u30ed\u30dc\u30c3\u30c8\u3067\u306f\u306a\u3044\u3053\u3068\u3092\u8a3c\u660e\u3057\u3066\u304f\u3060\u3055\u3044\u3002"}}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.komatsuseiren.co.jp/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.6.1'></script>
+<script type='text/javascript' src='http://www.komatsuseiren.co.jp/wp-content/plugins/contact-form-7-add-confirm/includes/js/scripts.js?ver=4.6.2'></script>
+<script type='text/javascript' src='http://www.komatsuseiren.co.jp/wp-includes/js/wp-embed.min.js?ver=4.7.2'></script>
+
+
+    <div id="footer">
+
+      <p class="sp_bnr">
+         <a href="http://www.komatsuseiren.co.jp/greenbiz/" target="_blank">
+            <img class="hover" src="http://www.komatsuseiren.co.jp/wp-content/themes/komatsu/images/bnr_greenbiz2.gif" width="100%" alt="Greenbiz" />
+         </a><br />
+
+        <a href="http://salarifit.com/access.html" target="_blank">
+           <img class="hover" src="http://www.komatsuseiren.co.jp/wp-content/themes/komatsu/images/bnr_salarifit-sekaie.png" width="100%" alt="SALARIFIT世界へ" />
+        </a><br />
+
+        <a href="http://www.komatsuseiren.co.jp/cabkoma/" target="_blank">
+           <img class="hover" src="http://www.komatsuseiren.co.jp/wp-content/themes/komatsu/images/bnr_cabkoma.jpg" width="100%" alt="デザイン性を考慮した 未来の耐震補強 CABKOMA" />
+        </a>
+      </p>
+
+      <p id="pageTop"><a href="#wrap"><img src="http://www.komatsuseiren.co.jp/wp-content/themes/komatsu/images/btn_pagetop.png" width="100%" alt="↑" /></a></p>
+
+      <div id="footerIn" class="clearfix">
+        <ul class="clearfix">
+          <li><a href="http://www.komatsuseiren.co.jp/privacy/"><span class="show_sp">></span>プライバシーポリシー</a></li>
+          <li class="show_pc">|</li>
+          <li><a href="http://www.komatsuseiren.co.jp/sitemap/"><span class="show_sp">></span>サイトマップ</a></li>
+          <li class="show_pc">|</li>
+          <li><a href="https://www.komatsuseiren.co.jp/contact/"><span class="show_sp">></span>お問い合わせ</a></li>
+        </ul>
+        <p id="copy">Copyright&copy;KOMATSU SEIREN Co.,Ltd. All Right Reserved.</p>
+      </div>
+
+    </div>
+
+
+
+
+  </div><!-- /content !-->
+
+</div><!-- /wrap !-->
+</body>
+</html>

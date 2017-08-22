@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="ie6 datauri_na" lang="ja"> <![endif]-->
+<!--[if IE 7]> <html class="ie7 datauri_na" lang="ja"> <![endif]-->
+<!--[if IE 8]> <html class="ie8 datauri_na" lang="ja"> <![endif]-->
+<!--[if gt IE 8]> <!--> <html class="modearn datauri_avlbl" lang="ja"> <!-- <![endif]-->
+<head>
+<meta charset='utf-8'>
+<meta content='IE=Edge,chrome=1' http-equiv='X-UA-Compatible'>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"89902af938","applicationID":"4198658","transactionName":"IFgKEUVdCVRQRxtUSwJZADpOUwhZWl5VT1hMQwsVGFsLXFBN","queueTime":0,"applicationTime":44,"agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1039.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+<meta content='width=device-width, initial-scale=1.0' name='viewport'>
+<meta content='' name='description'>
+<meta content='ラーメン,濃厚豚骨,餃子' name='keywords'>
+<meta content='' name='author'>
+<title>ガツンと来て、くせになる。ラーメン山岡家</title>
+<meta content="authenticity_token" name="csrf-param" />
+<meta content="iJRgMEHuMPn0j6QdHOC43ycmQ0+bERFbIa/IOt0JeUo=" name="csrf-token" />
+<link href="/assets/yamaokaya-9398eef4ffa65dfede34ece12323e462.css" media="all" rel="stylesheet" />
+<!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+<!--[if lt IE 9]>
+<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.1/html5shiv.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.1/html5shiv.js"></script>
+<![endif]-->
+<script src="//www.google.com/jsapi"></script>
+<script src="//maps.google.com/maps/api/js?sensor=true"></script>
+<script src="/assets/application-5c4aa668af930d7a39767a7e0b35077d.js"></script>
+<link href="/i/144x144/images/favicon.png" rel="apple-touch-icon-precomposed" sizes="144x144" type="image/png" />
+<link href="/i/114x114/images/favicon.png" rel="apple-touch-icon-precomposed" sizes="114x114" type="image/png" />
+<link href="/i/72x72/images/favicon.png" rel="apple-touch-icon-precomposed" sizes="72x72" type="image/png" />
+<link href="/i/512x512/images/favicon.png" rel="apple-touch-icon-precomposed" type="image/png" />
+<link href='/i/32x32/images/favicon.png' rel='shortcut icon' type='image/png'>
+</head>
+<body class='top yamaokaya' data-offset='80' data-spy='scroll' data-target='.navbar'>
+<div id='fb-root'></div>
+<div class='navbar navbar-fixed-top navbar-inverse' id='header'>
+<div class='container'>
+<div class='navbar-header'>
+<button class='navbar-toggle' data-target='.navbar-collapse' data-toggle='collapse' type='button'>
+<span class='icon-bar'></span>
+<span class='icon-bar'></span>
+<span class='icon-bar'></span>
+</button>
+<a href="/"><img alt="ラーメン山岡家" src="//assets1.yamaokaya.com/i/origin/images/logo.png" />
+</a></div>
+<div class='navbar-collapse collapse' id='nav'>
+<ul class='nav navbar-nav navbar-right'>
+<li class='active'>
+<a href='#top'>
+<span class='glyphicon glyphicon-home'></span>
+ホーム
+</a>
+</li>
+<li>
+<a href='#shop'>
+<span class='glyphicon glyphicon-shop_window'></span>
+店舗
+</a>
+</li>
+<li>
+<a href='#menu'>
+<span class='glyphicon glyphicon-pot'></span>
+メニュー
+</a>
+</li>
+<li>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+<span class='glyphicon glyphicon-user'></span>
+山岡家で働く
+<span class='caret'></span>
+</a>
+<ul class='dropdown-menu' role='menu'>
+<li>
+<a href="https://recruit.yamaokaya.com/" target="_new">正社員として
+</a></li>
+<li>
+<a href="/jobop" target="_new">アルバイトとして
+</a></li>
+</ul>
+</li>
+<li>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+<span class='glyphicon glyphicon-info'></span>
+about
+<span class='caret'></span>
+</a>
+<ul class='dropdown-menu' role='menu'>
+<li>
+<a href="/about">このHPについて
+</a></li>
+<li>
+<a href="/sitemap">サイトマップ
+</a></li>
+<li>
+<a href="/sns_guideline">SNSガイドライン
+</a></li>
+<li>
+<a href="/privacy_policy">プライバシーポリシー
+</a></li>
+<li>
+<a href="/service_tickets">サービス券について
+</a></li>
+<li>
+<a href="/mag_faq">メルマガが届かない場合
+</a></li>
+<li class='divider'></li>
+<li>
+<a href="https://maruchiyo.yamaokaya.com/" target="_blank"><span class='glyphicon glyphicon-home'></span>
+㈱丸千代山岡家 コーポレートページ
+</a></li>
+<li>
+<a href="https://recruit.yamaokaya.com/" target="_blank"><span class='glyphicon glyphicon-user'></span>
+採用スペシャルサイト
+</a></li>
+</ul>
+</li>
+<li>
+<a href="/feedbacks"><span class='glyphicon glyphicon-send'></span>
+ご意見・ご感想
+</a></li>
+</ul>
+</div>
+</div>
+<div class='ticker'>
+<div class='container'>
+<div class='row'>
+<div class='col-sm-8 col-xs-12'>
+<h1>ガツンときて、くせになる。濃厚豚骨ラーメンの山岡家です。</h1>
+</div>
+<div class='col-sm-4 col-xs-12'>
+<div class='text-right' id='ticker'></div>
+</div>
+</div>
+</div>
+</div>
+<div class='ec-bar'>
+<div class='container'>
+<div class='row'>
+<div class='col-xs-12'>
+<a href="https://www.yamaokaya.com/shoten" target="_blank"><span class='glyphicon glyphicon-shop'></span>
+オンラインショップ「山岡家商店」 やってます。
+</a></div>
+</div>
+</div>
+</div>
+</div>
+
+<div class='noty-slide hidden-xs'>
+<div class='noty-button'>
+<span class='glyphicon glyphicon-shop original-news'></span>
+<span class='glyphicon glyphicon-social-facebook facebook'></span>
+<span class='glyphicon glyphicon-social-twitter twitter'></span>
+</div>
+<div class='clearfix'></div>
+<div class='noty-content'>
+<div class='panel-group' id='accordion'>
+<div class='panel panel-default'>
+<div class='panel-heading original-news'>
+<a data-parent='#accordion' data-toggle='collapse' href='#collapse-01'>
+<h4 class='panel-title'>
+<span class='glyphicon glyphicon-shop'></span>
+Topics
+</h4>
+</a>
+</div>
+<div class='panel-collapse collapse' id='collapse-01'>
+<div class='panel-body noty-message'>
+<table class='table'>
+<tr>
+<td>
+<span class='label label-danger pull-left'>
+07/30
+</span>
+</td>
+<td>
+<a class='original-news' href='/shops/1300'>
+<span class='glyphicon glyphicon-bullhorn'></span>
+金沢森戸店 閉店のお知らせ
+</a>
+</td>
+</tr>
+<tr>
+<td>
+<span class='label label-danger pull-left'>
+07/24
+</span>
+</td>
+<td>
+<a class='original-news' href='/shops/1158'>
+<span class='glyphicon glyphicon-bullhorn'></span>
+函館万代店 7/24オープン決定!
+</a>
+</td>
+</tr>
+<tr>
+<td>
+<span class='label label-danger pull-left'>
+07/13
+</span>
+</td>
+<td>
+<a class='original-news' href='/shops/1250'>
+<span class='glyphicon glyphicon-bullhorn'></span>
+浜松入野店 閉店のお知らせ
+</a>
+</td>
+</tr>
+<tr>
+<td>
+<span class='label label-danger pull-left'>
+07/01
+</span>
+</td>
+<td>
+<a class='original-news' href='/releases/1056145014'>
+<span class='glyphicon glyphicon-bullhorn'></span>
+価格改定のお知らせ
+</a>
+</td>
+</tr>
+<tr>
+<td>
+<span class='label label-danger pull-left'>
+07/01
+</span>
+</td>
+<td>
+<a class='original-news' href='/releases/1056145018'>
+<span class='glyphicon glyphicon-bullhorn'></span>
+夏のGOGO！感謝祭
+</a>
+</td>
+</tr>
+<tr>
+<td>
+<span class='label label-danger pull-left'>
+06/30
+</span>
+</td>
+<td>
+<a class='original-news' href='/releases/1056144994'>
+<span class='glyphicon glyphicon-bullhorn'></span>
+ジェフグルメカード お取り扱い終了のお知らせ
+</a>
+</td>
+</tr>
+<tr>
+<td>
+<span class='label label-danger pull-left'>
+06/30
+</span>
+</td>
+<td>
+<a class='original-news' href='/shops/1302'>
+<span class='glyphicon glyphicon-bullhorn'></span>
+岸和田店 閉店のお知らせ
+</a>
+</td>
+</tr>
+<tr>
+<td>
+<span class='label label-danger pull-left'>
+06/12
+</span>
+</td>
+<td>
+<a class='original-news' href='/releases/1056145012'>
+<span class='glyphicon glyphicon-bullhorn'></span>
+旭川高砂台店→旭川神居店 移転のお知らせ
+</a>
+</td>
+</tr>
+</table>
+</div>
+<div class='panel-footer'>
+<a class="btn btn-primary btn-xs pull-right" href="/releases">一覧を見る</a>
+<div class='clearfix'></div>
+</div>
+</div>
+</div>
+<div class='panel panel-default'>
+<div class='panel-heading facebook'>
+<a data-parent='#accordion' data-toggle='collapse' href='#collapse-02'>
+<h4 class='panel-title'>
+<span class='glyphicon glyphicon-social-facebook'></span>
+Facebook
+</h4>
+</a>
+</div>
+<div class='panel-collapse collapse' id='collapse-02'>
+<div class='panel-body noty-message fb-like-box' data-colorscheme='light' data-header='false' data-height='250px' data-href='https://www.facebook.com/yamaokaya' data-show-border='false' data-show-faces='false' data-stream='true' data-width='280px'></div>
+</div>
+<div class='clearfix'></div>
+</div>
+<div class='panel panel-default'>
+<div class='panel-heading twitter'>
+<a data-parent='#accordion' data-toggle='collapse' href='#collapse-03'>
+<h4 class='panel-title'>
+<span class='glyphicon glyphicon-social-twitter'></span>
+Twitter
+</h4>
+</a>
+</div>
+<div class='panel-collapse collapse' id='collapse-03'>
+<div class='panel-body noty-message'>
+<a class='twitter-timeline' data-chrome='noheader' data-widget-id='365009217540730880' href='https://twitter.com/yamaokaya_pr'>
+@yamaokaya_pr からのツイート
+</a>
+</div>
+<div class='clearfix'></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<section>
+<div class='carousel slide' data-ride='carousel' id='top'>
+<div class='carousel-inner'>
+<div class='active item'>
+<div class='carousel-caption'><div class='gray-bg'>
+<h1>夏はスタミナ勝負</h1>
+<h3>旨辛で乗り切れ！</h3>
+<p>味噌ベースの特製旨辛スープに自家製厚切り炙り豚バラチャーシュー。</p>
+<p>2種類のネギと揚げにんにく、そしてキムチがたっぷり！</p>
+<p>麺はスープに負けないコシのある特製麺で大満足の逸品が完成しました！</p>
+<p>
+<a class='btn btn-lg btn-primary' href='/menus/limited' role='button'>続きを見る</a>
+</p>
+</div>
+</div>
+<img alt="旨辛スタミナらーめん・つけ麺" src="//assets4.yamaokaya.com/i/origin/images/top/carousel_umakara.jpg" />
+</div>
+<div class='inactive item'>
+<div class='carousel-caption'><div class='gray-bg'>
+<h1>山岡家でスタミナUP!</h1>
+<p>全国のラーメン山岡家で、夏のGO!GO!感謝祭を開催します。</p>
+<strong>感謝祭第２弾「サービス券2倍!」</strong>
+<p>7月24日午前9時から8月20日までの28日間、通常1枚のサービス券を、2枚進呈！</p>
+<p>たくさん貯めるチャンスです！</p>
+<p>5枚集めて餃子一皿、10枚集めてラーメン、13枚集めてつけ麺、もしくはプレミアム塩とんこつのいずれか</p>
+<p>をお召し上がりいただけるとってもお得な券です。</p>
+<p>この後も続くお得なキャンペーンについては</p>
+<a class='btn btn-lg btn-primary' href='/releases/1056145018' role='button'>こちらから</a>
+</div>
+</div>
+<img alt="夏のGOGO!感謝祭" src="//assets2.yamaokaya.com/i/origin/images/top/carousel_gogo.jpg" />
+</div>
+<div class='inactive item'>
+<div class='carousel-caption'><div class='gray-bg'>
+<h1>
+ついに登場
+</h1>
+<p>
+お店の味をご自宅で。
+</p>
+<p>
+開発責任者が練りに練って、
+</p>
+<p>
+何度も何度も試食を重ね、
+</p>
+<p>
+開発しておりました特製味噌ラーメン。
+</p>
+<p>
+ついに社長のOKが出ました！
+</p>
+<a class='btn btn-lg btn-primary' href='http://shop.yamaokaya.jp' role='button'>今すぐ注文</a>
+</div>
+</div>
+<img alt="お店の味をご自宅で！！" src="//assets3.yamaokaya.com/i/origin/images/top/carousel_tokutsu2.jpg" />
+</div>
+<div class='inactive item'>
+<div class='carousel-caption'><div class='gray-bg'>
+<h1>
+山岡家商店OPEN!
+</h1>
+<p>
+ガツンときて、くせになる逸品を北海道から集めた『通販ショップ山岡家商店』がオープン！
+<a href='http://v4.eir-parts.net/v4Contents/View.aspx?cat=tdnet&amp;sid=1372652' target='blank'>(プレスリリース)</a>
+</p>
+<p>濃厚で激ウマな海鮮やスイーツ、米、野菜、果物の他、山岡家ファン必見の山岡家オリジナル丼やオリジナルグッズ、全国の産品も随時販売開始してまいります！</p>
+<a class='btn btn-lg btn-primary' href='http://shop.yamaokaya.jp' role='button' target='_blank'>山岡家商店はこちらから</a>
+</div>
+</div>
+<img alt="山岡家商店" src="//assets2.yamaokaya.com/i/origin/images/top/carousel_shoten2.jpg" />
+</div>
+<div class='inactive item'>
+<div class='carousel-caption'><div class='gray-bg'>
+<h1>熟練職人の居場所。</h1>
+<p>山岡家の誇る熟練職人達は、いつもここでお客様と向き合っています。</p>
+<p>その日の気温、お客様の入り具合、産地から届けられた食材の品質など、</p>
+<p>様々なファクターで、ラーメンの味は変わってしまいます。</p>
+<p>それらすべてに目を光らせ、その日の最高のラーメンをご提供するのが、彼らの役割。</p>
+<p>無愛想に見える職人もいるかも知れませんが、お客様に喜んでいただくために、彼らなりに必死なんです。</p>
+</div>
+</div>
+<img alt="熟練職人の居場所。" src="//assets7.yamaokaya.com/i/origin/images/top/carousel02.jpg" />
+</div>
+<div class='inactive item'>
+<div class='carousel-caption'><h1>
+強烈な個性。
+</h1>
+<p>大量の豚骨を丸３日以上、強い火力で炊き上げるスープは、まさに山岡家の味の核（コア）。</p>
+<p>もちろん、ただ煮込み続けているわけではありません。</p>
+<p>鍛え抜かれた匠の技と、緻密な状態管理があってこそ。</p>
+<p>家庭でも、食品工場でも、絶対に表現できない味が、そこにはあります。</p>
+</div>
+<img alt="強烈な個性。" src="//assets3.yamaokaya.com/i/origin/images/top/carousel01.jpg" />
+</div>
+<div class='inactive item'>
+<div class='carousel-caption'><div class='gray-bg'>
+<h1>
+国道沿い25時、深夜のオアシス
+</h1>
+<p>長距離を移動されて来られたドライバー、残業帰りのお客様。</p>
+<p>そういったお客様をはじめ、より多くのお客様にほっとする環境をご提供したい…</p>
+<p>そんな思いから、山岡家はほとんどのお店を24時間営業で運営しています。</p>
+</div>
+</div>
+<img alt="いつもの赤い看板。" src="//assets5.yamaokaya.com/i/origin/images/top/carousel03.jpg" />
+</div>
+</div>
+<a class='left carousel-control' data-slide='prev' href='#top'>
+<span class='glyphicon glyphicon-chevron-left'></span>
+</a>
+<a class='right carousel-control' data-slide='next' href='#top'>
+<span class='glyphicon glyphicon-chevron-right'></span>
+</a>
+</div>
+
+</section>
+<section>
+<div class='col-xs-12' id='shop'>
+<div class='jumbotron col-md-12'>
+<div class='col-md-6 col-md-offset-1'>
+<h2>「本物」のラーメンだけをどのお店でも。</h2>
+<p>
+山岡家の全てのお店で、スープから手作りで仕上げた
+本当に旨いラーメンだけをご提供しています。
+</p>
+<p>
+全国各地に広がるラーメン山岡家。お店の検索はこちらから！
+</p>
+<p class='text-center'>
+<a class="btn btn-primary btn-lg" href="/shops" role="button">店舗一覧へ
+</a><div class='invisible hidden' id='user-latlng'></div>
+</p>
+</div>
+<div class='col-md-5'>
+<div id='index-map' style='min-height:400px;'></div>
+</div>
+</div>
+</div>
+<div id='modal'></div>
+
+</section>
+<section>
+<div class='col-xs-12' id='menu'>
+<div class='jumbotron col-md-12 text-center'>
+<h2>いくつものこだわりが隠された山岡家のラーメン</h2>
+<p>4日間豚骨を煮込んだ濃厚なスープと、そのスープが絡みつく極太ストレート麺、</p>
+<p>特製のタレで煮炊いた本格チャーシュー、白髪ネギ山盛りのネギラーメン・・・</p>
+<p>無性に食べたくなる山岡家のラーメンはこちらから！</p>
+<p>
+<a class="btn btn-primary btn-lg" href="/menus/regular" role="button">メニューを見る
+</a></p>
+</div>
+</div>
+
+</section>
+<section>
+<div class='col-xs-12' id='corp'>
+<div class='jumbotron col-md-12 text-center'>
+<h2>目指すのは、お客様･社会･社員から喜ばれる会社です。</h2>
+<p>将来その核となるのは皆さん！ぜひ当社で力を発揮して下さい！！</p>
+<p>
+<a class="btn btn-primary btn-lg" href="https://www.yamaokaya.com/jobop" role="button" target="_blank">パート・アルバイトの採用サイトへ
+</a>&nbsp;
+<a class="btn btn-primary btn-lg" href="https://recruit.yamaokaya.com/" role="button" target="_blank">正社員の採用サイトへ
+</a>&nbsp;
+<a class="btn btn-primary btn-lg" href="https://maruchiyo.yamaokaya.com/" role="button" target="_blank">㈱丸千代山岡家 コーポレートサイトへ
+</a></p>
+</div>
+</div>
+
+</section>
+
+<div class='footer'>
+<div class='container'>
+<div class='row' id='footer'>
+<div class='col-md-10'>
+<div class='col-md-3 clearfix'>
+<h4>厳選豚骨と水。それだけ。</h4>
+<p>
+<img class="img-thumbnail" src="//assets4.yamaokaya.com/i/100x100/images/footer/soup.jpg" />
+創業者・山岡正が長年かけて追い求めた究極のスープが、すべてのお店に受け継がれています。
+</p>
+<p>
+厳選された豚骨を惜しげも無く大量に投入。丸3日煮込み続けて、4日目にようやくお客様のもとに届きます。
+</p>
+<p>
+最初の3日間は、熟練職人の厳しい眼のもとひたすら加熱。
+4日目に入ったスープにはとても繊細な管理が求められます。
+微妙な火力管理で、
+3日前に入れた豚骨からコクと甘みを、新たに投入した豚骨から旨味を引き出します。
+</p>
+</div>
+<div class='col-md-3 clearfix'>
+<h4>この麺だからこそ。</h4>
+<p>
+<img class="img-thumbnail" src="//assets3.yamaokaya.com/i/100x100/images/footer/men.jpg" />
+表面はソフトでありながら、芯が強く、小麦の香り高い特製の太麺を使用。
+</p>
+<p>
+この麺を支えるのは、厳選された小麦と、毎日の気温や湿度などに合わせて
+製造方法を変えて作る麺職人の熟練技。
+</p>
+<p>
+この麺だからこそ、濃厚な豚骨スープの中にあっても、決して力負けしない、バランスのとれた一杯となるのです。
+</p>
+</div>
+<div class='col-md-3 clearfix'>
+<h4>チャーシューも手作り。</h4>
+<p>
+<img class="img-thumbnail" src="//assets1.yamaokaya.com/i/100x100/images/footer/chashu.jpg" />
+山岡家のチャーシューは肉本来の旨味を最も味わえる肩ロースを使用。
+煮崩れしないように紐で縛った肩ロースの塊を1時間弱茹で上げます。
+</p>
+<p>
+これを、店舗で毎日継ぎ足し継ぎ足し作っている秘伝の特製タレに漬け込み、
+完成です。
+</p>
+<p>
+手作りにこだわる山岡家では、1店舗1店舗で、毎日チャーシューを作っています。
+</p>
+</div>
+<div class='col-md-3 clearfix'>
+<h4>新鮮なネギを手切りで。</h4>
+<p>
+<img class="img-thumbnail" src="//assets5.yamaokaya.com/i/100x100/images/footer/negi.jpg" />
+山岡家のネギは純国産。店舗に届いたネギは、土をきれいに洗い流し、決められたサイズにカットします。
+</p>
+<p>
+これを包丁で、縦方向に細く切ったものが白髪ネギとなります。
+</p>
+<p>
+この工程では、機械は一切使用しません。それは、ネギの味、香り、歯ごたえを極限まで引き出すため。
+</p>
+<p>
+美味しいものをお客様に味わっていただくために、敢えて手間をかけています。
+</p>
+</div>
+</div>
+<div class='col-md-2 col-xs-12'>
+<h4>メルマガ会員募集！</h4>
+<p>山岡家のメルマガに登録して、お得なクーポンや最新情報をGETしよう！</p>
+<p>今なら、なんとギョーザ無料クーポンを進呈（ご登録後2週間以内に配信）！</p>
+<p>
+<a class="btn btn-primary" href="http://my.gnavi.co.jp/brand/top.php?cType=rsmyo01" target="_blank">会員登録はこちら
+</a></p>
+<p>
+うまく登録できない場合は…
+</p>
+<p>
+<ul>
+<li>yamaokaya.com</li>
+<li>gnavi.co.jp</li>
+</ul>
+のドメイン指定解除をお願い致します。
+詳しくは
+<a href="/mag_faq">こちら
+</a></p>
+</div>
+</div>
+</div>
+</div>
+<div class='bottom-nav'>
+<div class='container'>
+<div class='row'>
+<div class='col-xs-6 col-sm-1 col-sm-offset-4'>
+<a class="btn btn-link" href="/">ホーム
+</a></div>
+<div class='col-xs-6 col-sm-1'>
+<a class="btn btn-link" href="/shops">店舗
+</a></div>
+<div class='col-xs-6 col-sm-1'>
+<a class="btn btn-link" href="/menus/regular">メニュー
+</a></div>
+<div class='col-xs-6 col-sm-1'>
+<a class="btn btn-link" href="/feedbacks">ご意見・ご感想
+</a></div>
+</div>
+</div>
+<div class='col-md-3 hidden-xs'>
+<a class='smoothScroll top_btn' href='#header' id='page-top'>
+<img src="//assets3.yamaokaya.com/i/67x67/images/btn_topback.png" />
+</a>
+</div>
+</div>
+<div class='copyright'>
+<div class='container'>
+<div class='row'>
+<p class='col-xs-12 text-center'>
+&copy; 2014 Maruchiyo Yamaokaya Corporation
+</p>
+</div>
+</div>
+</div>
+
+</body>
+</html>

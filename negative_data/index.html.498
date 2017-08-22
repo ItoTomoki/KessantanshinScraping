@@ -1,0 +1,380 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="target-densitydpi=device-dpi, width=device-960, maximum-scale=1.0, user-scalable=yes">
+<meta http-equiv="Content-Language" content="ja">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-type" content="text/javascript" />
+
+
+<link href="http://www.mutual.co.jp/wp/wp-content/themes/mutual_theme/style.css?20170605-1237" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="http://www.mutual.co.jp/wp/wp-content/themes/mutual_theme/css/lightbox.css">
+<script type="text/javascript" src="http://www.mutual.co.jp/wp/wp-content/themes/mutual_theme/js/jquery.js"></script>
+<script type="text/javascript" src="http://www.mutual.co.jp/wp/wp-content/themes/mutual_theme/js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="http://www.mutual.co.jp/wp/wp-content/themes/mutual_theme/js/smartRollover.js"></script>
+<script type="text/javascript" src="http://www.mutual.co.jp/wp/wp-content/themes/mutual_theme/js/jquery.cookie.js"></script>
+<script type="text/javascript" src="http://www.mutual.co.jp/wp/wp-content/themes/mutual_theme/js/fontsizeswitch.js"></script>
+<script type="text/javascript" src="http://www.mutual.co.jp/wp/wp-content/themes/mutual_theme/js/jquery.imageNavigation.js"></script>
+<script type="text/javascript" src="http://www.mutual.co.jp/wp/wp-content/themes/mutual_theme/js/lightbox-2.6.min.js"></script>
+<script type="text/javascript">
+	$(function(){
+		$("#image-navigation").imageNavigation({
+		time:3500,
+	    animationTime:1000,
+		rolloverTime: 0,
+    	rolloutTime: 1000,
+		autoPlay: true
+		});
+
+		$('.product-spec-outbox table').each(function(){
+			$(this).addClass('product-specification');
+		})
+	});
+
+	$(function(){
+		$("ul.global-navi-sub").hide();
+		$("ul#global-navi>li").hover(function(){
+		$("ul:not(:animated)", this).slideDown(1500);},
+	function(){$("ul.global-navi-sub",this).slideUp(1500);});
+	});
+	$(function(){
+		$("ul.second-level").hide();
+		$("ul#product-navi li").hover(function(){
+		$("ul.second-level:not(:animated)", this).slideDown(1500);},
+		function(){$("ul.second-level",this).slideUp(1500);});
+
+		$('#bread-crumbs li').each(function(){
+			if($(this).find('a').length >0){
+				$(this).append('<span class="angle-bracket">＞</span>');
+			}
+		})
+	});
+</script>
+
+<!-- This site is optimized with the Yoast WordPress SEO plugin v1.7.4 - https://yoast.com/wordpress/plugins/seo/ -->
+<title>【株式会社ミューチュアル】ホームページ｜包装機、検査機、工業用ダイヤモンドの輸入･開発･販売を行う総合商社 -</title>
+<link rel="canonical" href="http://www.mutual.co.jp" />
+<meta property="og:locale" content="ja_JP" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="【株式会社ミューチュアル】ホームページ｜包装機、検査機、工業用ダイヤモンドの輸入･開発･販売を行う総合商社 -" />
+<meta property="og:url" content="http://www.mutual.co.jp" />
+<meta property="og:site_name" content="【株式会社ミューチュアル】ホームページ｜包装機、検査機、工業用ダイヤモンドの輸入･開発･販売を行う総合商社" />
+<meta name="google-site-verification" content="UA-56619189-1" />
+<script type="application/ld+json">{ "@context": "http://schema.org", "@type": "WebSite", "url": "http://www.mutual.co.jp/", "potentialAction": { "@type": "SearchAction", "target": "http://www.mutual.co.jp/?s={search_term}", "query-input": "required name=search_term" } }</script>
+<!-- / Yoast WordPress SEO plugin. -->
+
+<link rel='stylesheet' id='contact-form-7-css'  href='http://www.mutual.co.jp/wp/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.0.3' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-pagenavi-css'  href='http://www.mutual.co.jp/wp/wp-content/plugins/wp-pagenavi/pagenavi-css.css?ver=2.70' type='text/css' media='all' />
+<link rel='stylesheet' id='tablepress-default-css'  href='http://www.mutual.co.jp/wp/wp-content/plugins/tablepress/css/default.min.css?ver=1.5.1' type='text/css' media='all' />
+<style type="text/css">.broken_link, a.broken_link {
+	text-decoration: line-through;
+}</style><script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-56619189-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</head>
+
+<body class="home blog">
+<div id="header-wrapper">
+<div id="header">
+<h1 class="logo"><a href="http://www.mutual.co.jp" title="株式会社ミューチュアル"><img src="http://www.mutual.co.jp/wp/wp-content/themes/mutual_theme/images/common/logo.jpg" width="228" height="75" alt="株式会社ミューチュアル" /></a></h1>
+<ul id="global-navi" class="clearfix">
+<li><a href="http://www.mutual.co.jp" title="トップページ"><img src="http://www.mutual.co.jp/wp/wp-content/themes/mutual_theme/images/common/gnav01_off.jpg" width="118" height="49" alt="トップページ" /></a></li>
+<li><a href="http://www.mutual.co.jp/product_top" title="取扱製品情報"><img src="http://www.mutual.co.jp/wp/wp-content/themes/mutual_theme/images/common/gnav03_off.jpg" width="118" height="49" alt="取扱製品情報" /></a>
+<ul class="global-navi-sub">
+<li><a href="http://www.mutual.co.jp/product-cat/pharmaceutical-machinery">製剤</a></li>
+<li><a href="http://www.mutual.co.jp/product-cat/inspection_and_wash">検査･洗浄</a></li>
+<li><a href="http://www.mutual.co.jp/product-cat/packaging">包装</a></li>
+<li><a href="http://www.mutual.co.jp/product-cat/packaging_materials">包装資材</a></li>
+<li class="last-child"><a href="http://www.mutual.co.jp/product-cat/industrial-diamonds">工業用ダイヤモンド</a></li>
+</ul>
+</li>
+<li><a href="http://www.mutual.co.jp/business" title="事業内容"><img src="http://www.mutual.co.jp/wp/wp-content/themes/mutual_theme/images/common/gnav02_off.jpg" width="118" height="49" alt="事業内容" /></a>
+<ul class="global-navi-sub">
+<li><a href="http://www.mutual.co.jp/engineering">エンジニアリング機能</a></li>
+<li><a href="http://www.mutual.co.jp/manufacture">製造機能</a></li>
+<li><a href="http://www.mutual.co.jp/trading">商社機能</a></li>
+<li class="last-child"><a href="http://www.mutual.co.jp/maintenance">メンテナンス機能</a></li>
+</ul>
+</li>
+<li><a href="http://www.mutual.co.jp/profile" title="会社案内"><img src="http://www.mutual.co.jp/wp/wp-content/themes/mutual_theme/images/common/gnav04_off.jpg" width="118" height="49" alt="会社案内" /></a>
+<ul class="global-navi-sub">
+<li><a href="http://www.mutual.co.jp/message">トップメッセージ</a></li>
+<li><a href="http://www.mutual.co.jp/concept">経営理念</a></li>
+<li><a href="http://www.mutual.co.jp/outline">会社概要・所在地</a></li>
+<li class="last-child"><a href="http://www.mutual.co.jp/history">沿革</a></li>
+</ul>
+</li>
+<li><a href="http://www.mutual.co.jp/ir" title="IR情報"><img src="http://www.mutual.co.jp/wp/wp-content/themes/mutual_theme/images/common/gnav05_off.jpg" width="118" height="49" alt="IR情報" /></a>
+<ul class="global-navi-sub">
+<li><a href="http://www.mutual.co.jp/news_ir">IRニュース</a></li>
+<li><a href="http://www.mutual.co.jp/achievement-highlight">業績ハイライト</a></li>
+<li><a href="http://www.mutual.co.jp/ir-library">IRライブラリー</a></li>
+<li><a href="http://www.mutual.co.jp/stock-information">投資家情報</a></li>
+<li><a href="http://www.mutual.co.jp/segment">セグメント別概要</a></li>
+<li><a href="http://www.mutual.co.jp/calendar">IRカレンダー</a></li>
+<li class="last-child"><a href="http://www.mutual.co.jp/faq">FAQ</a></li>
+</ul>
+</li>
+<li><a href="http://www.mutual.co.jp/recruit" title="求人情報"><img src="http://www.mutual.co.jp/wp/wp-content/themes/mutual_theme/images/common/gnav06_off.jpg" width="120" height="49" alt="求人情報" /></a>
+<ul class="global-navi-sub">
+<li><a href="http://www.mutual.co.jp/graduates">新卒採用</a></li>
+<li class="last-child"><a href="http://www.mutual.co.jp/career">キャリア採用</a></li>
+</ul>
+</li>
+</ul><!-- global-navi -->
+
+<div id="textsizer">
+<ul>
+<li><img src="http://www.mutual.co.jp/wp/wp-content/themes/mutual_theme/images/common/character-size.jpg" width="60" height="30" alt="文字サイズ" /></li>
+<li class="switchBtn"><a href="#"><img src="http://www.mutual.co.jp/wp/wp-content/themes/mutual_theme/images/common/character-size-s.jpg" width="30" height="30" alt="小" /></a></li>
+<li class="switchBtn"><a href="#"><img src="http://www.mutual.co.jp/wp/wp-content/themes/mutual_theme/images/common/character-size-m.jpg" width="30" height="30" alt="中" /></a></li>
+<li class="switchBtn"><a href="#"><img src="http://www.mutual.co.jp/wp/wp-content/themes/mutual_theme/images/common/character-size-l.jpg" width="30" height="30" alt="大" /></a></li>
+</ul>
+</div><!-- textsizer -->
+
+<div id="primary-navi">
+<ul class="clearfix">
+<li><a href="http://www.mutual.co.jp/contact" title="お問い合わせ"><img src="http://www.mutual.co.jp/wp/wp-content/themes/mutual_theme/images/common/pnav01_off.jpg" width="89" height="30" alt="お問い合わせ" /></a></li>
+<li><a href="http://www.mutual.co.jp/sitemap" title="サイトマップ"><img src="http://www.mutual.co.jp/wp/wp-content/themes/mutual_theme/images/common/pnav02_off.jpg" width="82" height="30" alt="サイトマップ" /></a></li>
+<li><a href="http://www.mutual.co.jp/sitepolicy" title="サイトポリシー"><img src="http://www.mutual.co.jp/wp/wp-content/themes/mutual_theme/images/common/pnav03_off.jpg" width="101" height="30" alt="サイトポリシー" /></a></li>
+</ul>
+</div><!-- primary-navi -->
+
+<div id="language-navi">
+<ul class="clearfix">
+<li><a href="http://mutual.co.jp/" title="日本語"><img src="http://www.mutual.co.jp/wp/wp-content/themes/mutual_theme/images/common/lnav01_off.jpg" width="81" height="30" alt="日本語" /></a></li>
+<li><a href="http://mutual.co.jp/e_index.html" title="英語"><img src="http://www.mutual.co.jp/wp/wp-content/themes/mutual_theme/images/common/lnav02_off.jpg" width="69" height="30" alt="英語" /></a></li>
+</ul>
+</div><!-- language-navi -->
+</div><!-- header -->
+</div><!-- header-wrapper -->
+
+	<div id="navigation-wrapper">
+<div id="image-navigation">
+<div class="navi-image">
+    		    <a href="http://www.mutual.co.jp/movie"><img src="http://www.mutual.co.jp/wp/wp-content/uploads/2014/07/slider01.jpg" width="730" height="395" alt="" /></a>
+		    <a href="http://www.mutual.co.jp/importance-product/importance-product-1772/"><img src="http://www.mutual.co.jp/wp/wp-content/uploads/2014/07/slider02.jpg" width="730" height="395" alt="" /></a>
+		    <a href="http://www.mutual.co.jp/importance-product/comprima/"><img src="http://www.mutual.co.jp/wp/wp-content/uploads/2014/07/slider03.jpg" width="730" height="395" alt="" /></a>
+		    <a href="http://www.mutual.co.jp/news/news-102/"><img src="http://www.mutual.co.jp/wp/wp-content/uploads/2014/07/slider04.jpg" width="730" height="395" alt="" /></a>
+		    <a href="http://www.mutual.co.jp/engineering"><img src="http://www.mutual.co.jp/wp/wp-content/uploads/2014/07/slider05.jpg" width="730" height="395" alt="" /></a>
+		    <a href="http://www.mutual.co.jp/laboratory-center/"><img src="http://www.mutual.co.jp/wp/wp-content/uploads/2014/07/slider061.jpg" width="730" height="395" alt="" /></a>
+	
+</div><!-- navi-image -->
+<div class="navi">
+<ul>
+    <li><a href="http://www.mutual.co.jp/movie"><img data-overimg="http://www.mutual.co.jp/wp/wp-content/uploads/2014/07/vnav01_on.jpg" src="http://www.mutual.co.jp/wp/wp-content/uploads/2014/07/vnav01.jpg" width="230" height="66" alt="MUTUAL" /></a></li>
+    <li><a href="http://www.mutual.co.jp/importance-product/importance-product-1772/"><img data-overimg="http://www.mutual.co.jp/wp/wp-content/uploads/2016/11/slider_thum02_on.jpg" src="http://www.mutual.co.jp/wp/wp-content/uploads/2016/11/slider_thum02.jpg" width="230" height="66" alt="ブリスター包装機" /></a></li>
+    <li><a href="http://www.mutual.co.jp/importance-product/comprima/"><img data-overimg="http://www.mutual.co.jp/wp/wp-content/uploads/2014/07/vnav02_on.jpg" src="http://www.mutual.co.jp/wp/wp-content/uploads/2014/07/vnav02.jpg" width="230" height="66" alt="超高速打錠機COMPRIMA（コンプリマ）" /></a></li>
+    <li><a href="http://www.mutual.co.jp/news/news-102/"><img data-overimg="http://www.mutual.co.jp/wp/wp-content/uploads/2014/07/vnav03_on.jpg" src="http://www.mutual.co.jp/wp/wp-content/uploads/2014/07/vnav03.jpg" width="230" height="66" alt="関東工場" /></a></li>
+    <li><a href="http://www.mutual.co.jp/engineering"><img data-overimg="http://www.mutual.co.jp/wp/wp-content/uploads/2014/07/vnav04_on.jpg" src="http://www.mutual.co.jp/wp/wp-content/uploads/2014/07/vnav04.jpg" width="230" height="66" alt="信頼性の高い生産ラインを構築" /></a></li>
+    <li><a href="http://www.mutual.co.jp/laboratory-center/"><img data-overimg="http://www.mutual.co.jp/wp/wp-content/uploads/2014/07/key-visual-side21.jpg" src="http://www.mutual.co.jp/wp/wp-content/uploads/2014/07/key-visual-side1.jpg" width="230" height="66" alt="粉体ラボセンター開設" /></a></li>
+
+</ul>
+</div><!-- navi -->
+<div style="clear:both;"></div>
+</div>
+</div><!-- navigation-wrapper -->
+<div id="contents-wrapper">
+<div class="five-functions mb20">
+<h2 class="mb10"><img src="http://www.mutual.co.jp/wp/wp-content/themes/mutual_theme/images/home/4function_h2_title.jpg" width="960" height="40" alt="株式会社ミューチュアル4つの機能" /></h2>
+<ul class="clearfix">
+<li><a href="http://www.mutual.co.jp/engineering" title="エンジニアリング機能"><img src="http://www.mutual.co.jp/wp/wp-content/themes/mutual_theme/images/home/4function_01.jpg" width="225" height="188" alt="エンジニアリング機能" /></a></li>
+<li><a href="http://www.mutual.co.jp/manufacture" title="製造機能"><img src="http://www.mutual.co.jp/wp/wp-content/themes/mutual_theme/images/home/4function_02.jpg" width="225" height="188" alt="製造機能" /></a></li>
+<li><a href="http://www.mutual.co.jp/trading" title="商社機能"><img src="http://www.mutual.co.jp/wp/wp-content/themes/mutual_theme/images/home/4function_03.jpg" width="225" height="188" alt="商社機能" /></a></li>
+<li class="last-child"><a href="http://www.mutual.co.jp/maintenance" title="メンテナンス機能"><img src="http://www.mutual.co.jp/wp/wp-content/themes/mutual_theme/images/home/4function_04.jpg" width="225" height="188" alt="メンテナンス機能" /></a></li>
+</ul>
+</div>
+<div id="contents">
+<div id="main-contents">
+<div class="news-list mb20">
+<h2><img src="http://www.mutual.co.jp/wp/wp-content/themes/mutual_theme/images/home/h2-home02.jpg" width="700" height="35" alt="最新情報" /><a href="http://www.mutual.co.jp/information" class="list-view"><img src="http://www.mutual.co.jp/wp/wp-content/themes/mutual_theme/images/home/list-view-button.jpg" width="61" height="13" alt="一覧を見る" /></a></h2>
+<ul>
+			<li>
+	2017.06.01	<span class="news-list-category">
+	<img width="60" height="12" alt="" src="http://www.mutual.co.jp/wp/wp-content/themes/mutual_theme/images/home/news-category02.jpg">
+	</span>
+	<a href="http://www.mutual.co.jp/product_news/icu/">インターフェックス出展予定の錠剤計数充填機ICU140を取扱製品情報に追加しました。</a>
+	</li>
+		<li>
+	2017.05.19	<span class="news-list-category">
+	<img width="60" height="12" alt="" src="http://www.mutual.co.jp/wp/wp-content/themes/mutual_theme/images/home/news-category02.jpg">
+	</span>
+	<a href="http://www.mutual.co.jp/product_news/iim_labo/">IJ方式卓上型錠剤印刷機IIM-Laboを取扱製品情報に追加しました。</a>
+	</li>
+		<li>
+	2017.03.01	<span class="news-list-category">
+	<img width="60" height="12" alt="" src="http://www.mutual.co.jp/wp/wp-content/themes/mutual_theme/images/home/news-category03.jpg">
+	</span>
+	<a href="http://www.mutual.co.jp/news/2018sinsotu-saiyo/">2018年卒向けの採用ページを公開しました。</a>
+	</li>
+		<li>
+	2016.12.12	<span class="news-list-category">
+	<img width="60" height="12" alt="" src="http://www.mutual.co.jp/wp/wp-content/themes/mutual_theme/images/home/news-category03.jpg">
+	</span>
+	<a href="http://www.mutual.co.jp/news/ir_news-toyama/">富山営業所　移転のお知らせ</a>
+	</li>
+		<li>
+	2016.11.18	<span class="news-list-category">
+	<img width="60" height="12" alt="" src="http://www.mutual.co.jp/wp/wp-content/themes/mutual_theme/images/home/news-category03.jpg">
+	</span>
+	<a href="http://www.mutual.co.jp/news/ir_news-stocks2016/">投資家情報を修正（株主優待制度他）しました。</a>
+	</li>
+	</ul>
+</div>
+<div class="news-list mb20">
+<h2><img src="http://www.mutual.co.jp/wp/wp-content/themes/mutual_theme/images/home/h2-home03.jpg" width="700" height="35" alt="企業・IR情報" /><a href="http://www.mutual.co.jp/ir/news_ir/" class="list-view"><img src="http://www.mutual.co.jp/wp/wp-content/themes/mutual_theme/images/home/list-view-button.jpg" width="61" height="13" alt="一覧を見る" /></a></h2>
+<ul>
+	<li>
+		<span class="ir-list-date">2017.08.04</span>
+				「<a href="http://www.mutual.co.jp/wp/wp-content/uploads/2017/08/20170804tansin.pdf" target="_blank">平成30年3月期　第1四半期決算短信〔日本基準〕（連結）<9ページ/263KB></a>」を掲載しました。
+			</li>
+	<li>
+		<span class="ir-list-date">2017.07.03</span>
+				「<a href="http://www.mutual.co.jp/wp/wp-content/uploads/2016/07/73.pdf" target="_blank">2017年（平成29年）	第73期　有価証券報告書　<80ページ/4.34MB></a>」を掲載しました。
+			</li>
+	<li>
+		<span class="ir-list-date">2017.07.03</span>
+				「<a href="http://www.mutual.co.jp/wp/wp-content/uploads/2017/08/20170627houkokusyo.pdf" target="_blank">2017年3月期　第73期報告書<7ページ/2.15MB></a>」を掲載しました。
+			</li>
+</ul>
+</div>
+
+<div class="news-list mb20">
+<h2><img width="700" height="35" alt="展示会情報" src="http://www.mutual.co.jp/wp/wp-content/themes/mutual_theme/images/home/h2-home04.jpg"><a class="list-view" href="http://www.mutual.co.jp/show_top"><img width="61" height="13" alt="詳細を見る" src="http://www.mutual.co.jp/wp/wp-content/themes/mutual_theme/images/home/list-view-button02.jpg"></a></h2>
+<ul>
+<li style="line-height:160%;">2018年06月27日(水)~06月29日(金)<br><a href="http://www.mutual.co.jp/show/show-interphex2018/">第31回 インターフェックス ジャパンに出展いたします。</a></li>
+</ul>
+	</div>
+
+</div><!-- main-contents -->
+
+<div id="side-contents">
+<div class="mb20">
+<h2><img src="http://www.mutual.co.jp/wp/wp-content/themes/mutual_theme/images/common/h2-side03.jpg" width="230" height="35" alt="設計者募集中" /></h2>
+<div class="profile-movie">
+<a href="http://www.mutual.co.jp/engineer-bosyu" title="設計者募集中"><img src="http://www.mutual.co.jp/wp/wp-content/themes/mutual_theme/images/common/staff-banner.jpg" width="218" height="154" alt="設計者募集中" /></a>
+</div>
+</div>
+<div class="mb20">
+<h2><img src="http://www.mutual.co.jp/wp/wp-content/themes/mutual_theme/images/common/h2-side01.jpg" width="230" height="35" alt="会社案内MOVE" /></h2>
+<div class="profile-movie">
+<a href="http://www.mutual.co.jp/movie" title="会社案内MOVIE"><img src="http://www.mutual.co.jp/wp/wp-content/themes/mutual_theme/images/common/movie.jpg" width="218" height="154" alt="会社案内MOVE" /></a>
+</div>
+</div>
+<div class="mb20">
+<h2><img src="http://www.mutual.co.jp/wp/wp-content/themes/mutual_theme/images/common/h2-side02.jpg" width="230" height="35" alt="関東工場案内MOVE" /></h2>
+<div class="profile-movie">
+<a href="http://www.mutual.co.jp/movie02" title="関東工場案内MOVE"><img src="http://www.mutual.co.jp/wp/wp-content/themes/mutual_theme/images/common/movie02.jpg" width="218" height="154" alt="関東工場案内MOVE" /></a>
+</div>
+</div>
+<div class="mb20">
+<a href="http://www.mutual.co.jp/contact" title="製品に関するお問い合わせ資料請求はコチラから"><img src="http://www.mutual.co.jp/wp/wp-content/themes/mutual_theme/images/common/contact-button_off.jpg" width="230" height="99" alt="製品に関するお問い合わせ資料請求はコチラから" /></a>
+</div>
+</div><!-- side-contents -->
+</div><!-- contents -->
+<div id="totop">
+<a href="#header-wrapper"><img src="http://www.mutual.co.jp/wp/wp-content/themes/mutual_theme/images/common/totop-button.jpg" width="148" height="29" alt="このページのトップへ" /></a>
+</div><!-- totop -->
+<div id="footer-wrapper">
+<div id="footer">
+<div id="footer-navi">
+<div class="footer-navi-outbox">
+<div class="footer-navi-logo">
+<a href="http://www.mutual.co.jp"><img src="http://www.mutual.co.jp/wp/wp-content/themes/mutual_theme/images/common/fnav-logo.gif" width="200" height="52" alt="株式会社ミューチュアル" /></a>
+</div>
+<ul class="footer-navi-inbox">
+<li class="footer-navi-mark-parents"><a href="http://www.mutual.co.jp">トップページ</a></li>
+</ul>
+<ul class="footer-navi-inbox">
+<li class="footer-navi-mark-parents"><a href="http://www.mutual.co.jp/profile">会社案内</a></li>
+<li class="footer-navi-mark-child"><a href="http://www.mutual.co.jp/message">トップメッセージ</a></li>
+<li class="footer-navi-mark-child"><a href="http://www.mutual.co.jp/concept">経営理念</a></li>
+<li class="footer-navi-mark-child"><a href="http://www.mutual.co.jp/outline">会社概要・所在地</a></li>
+<li class="footer-navi-mark-child"><a href="http://www.mutual.co.jp/history">沿革</a></li>
+</ul>
+</div>
+
+<div class="footer-navi-outbox">
+<ul class="footer-navi-inbox">
+<li class="footer-navi-mark-parents"><a href="http://www.mutual.co.jp/product_top">取扱製品情報</a></li>
+<li class="footer-navi-mark-child"><a href="http://www.mutual.co.jp/product-cat/pharmaceutical-machinery">製剤</a></li>
+<li class="footer-navi-mark-child"><a href="http://www.mutual.co.jp/product-cat/inspection_and_wash">検査･洗浄</a></li>
+<li class="footer-navi-mark-child"><a href="http://www.mutual.co.jp/product-cat/packaging">包装</a></li>
+<li class="footer-navi-mark-child"><a href="http://www.mutual.co.jp/product-cat/packaging_materials">包装資材</a></li>
+<li class="footer-navi-mark-child"><a href="http://www.mutual.co.jp/product-cat/industrial-diamonds">工業用ダイヤモンド</a></li>
+</ul>
+</div>
+
+<div class="footer-navi-outbox">
+<ul class="footer-navi-inbox">
+<li class="footer-navi-mark-parents"><a href="http://www.mutual.co.jp/business">事業内容</a></li>
+<li class="footer-navi-mark-child"><a href="http://www.mutual.co.jp/engineering">エンジニアリング機能</a></li>
+<li class="footer-navi-mark-child"><a href="http://www.mutual.co.jp/manufacture">製造機能</a></li>
+<li class="footer-navi-mark-child"><a href="http://www.mutual.co.jp/trading">商社機能</a></li>
+<li class="footer-navi-mark-child"><a href="http://www.mutual.co.jp/maintenance">メンテナンス機能</a></li>
+</ul>
+<ul class="footer-navi-inbox">
+<li class="footer-navi-mark-parents"><a href="http://www.mutual.co.jp/recruit">求人情報</a></li>
+<li class="footer-navi-mark-child"><a href="http://www.mutual.co.jp/graduates">新卒採用</a></li>
+<li class="footer-navi-mark-child"><a href="http://www.mutual.co.jp/career">キャリア採用</a></li>
+</ul>
+</div>
+
+<div class="footer-navi-outbox">
+<ul class="footer-navi-inbox">
+<li class="footer-navi-mark-parents"><a href="http://www.mutual.co.jp/ir">IR情報</a></li>
+<li class="footer-navi-mark-child"><a href="http://mutual.co.jp/ir/news_ir">IRニュース</a></li>
+<li class="footer-navi-mark-child"><a href="http://mutual.co.jp/ir/achievement-highlight">業績ハイライト</a></li>
+<li class="footer-navi-mark-child"><a href="http://mutual.co.jp/ir/ir-library">IRライブラリー</a></li>
+<li class="footer-navi-mark-child"><a href="http://mutual.co.jp/ir/stock-information">投資家情報</a></li>
+<li class="footer-navi-mark-child"><a href="http://mutual.co.jp/ir/segment">セグメント別概要</a></li>
+<li class="footer-navi-mark-child"><a href="http://mutual.co.jp/ir/calendar">IRカレンダー</a></li>
+<li class="footer-navi-mark-child"><a href="http://mutual.co.jp/ir/faq/">FAQ</a></li>
+</ul>
+</div>
+
+<div class="footer-navi-outbox">
+<ul class="footer-navi-inbox">
+<li class="footer-navi-mark-parents"><a href="http://www.mutual.co.jp/movie">会社案内MOVIE</a></li>
+</ul>
+<ul class="footer-navi-inbox">
+<li class="footer-navi-mark-parents"><a href="http://www.mutual.co.jp/information">最新情報</a></li>
+</ul>
+<ul class="footer-navi-inbox">
+<li class="footer-navi-mark-parents"><a href="http://www.mutual.co.jp/show_top">展示会情報</a></li>
+</ul>
+<ul class="footer-navi-inbox">
+<li class="footer-navi-mark-parents"><a href="http://www.mutual.co.jp/contact">お問い合わせ</a></li>
+</ul>
+<ul class="footer-navi-inbox">
+<li class="footer-navi-mark-parents"><a href="http://www.mutual.co.jp/sitemap">サイトマップ</a></li>
+</ul>
+<ul class="footer-navi-inbox">
+<li class="footer-navi-mark-parents"><a href="http://www.mutual.co.jp/sitepolicy">サイトポリシー</a></li>
+</ul>
+</div>
+
+<div class="footer-navi-outbox">
+<ul class="footer-navi-inbox">
+<li class="footer-navi-mark-parents"><a href="http://www.mutual.co.jp/e_index.html">English</a></li>
+</ul>
+</div>
+</div><!-- footer-navi -->
+
+<div id="copyright">
+<address>
+Copylight &copy; MUTUAL CORPORATION. All Rights Reserved.
+</address>
+</div><!-- copyright -->
+</div><!-- footer -->
+</div><!-- footer-wrapper -->
+</body>
+</html>

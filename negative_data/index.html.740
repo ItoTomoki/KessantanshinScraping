@@ -1,0 +1,979 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta property="og:image" content="http://buffalo.jp/images/logo.gif" />
+<meta http-equiv="Content-Type" content="text/html; charset=euc-jp" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta name="robots" content="all" />
+<meta name="description" content="スマホ・TV・パソコン周辺機器の総合メーカー“バッファロー”の製品情報ページ。Wi-Fi、ハードディスク、NAS、スマホやタブレットのケース/フィルムをお探しいただけます。" />
+<meta name="keywords" content="Wi-Fi,周辺機器,無線LAN,ハードディスク,メモリー" />
+<meta property="fb:app_id" content="508841925797435">
+<title>バッファロー製品情報 | 周辺機器総合メーカー 株式会社バッファロー BUFFALO</title>
+<link rel="stylesheet" type="text/css" href="/common/css/base.css" media="all" />
+<!--[if lt IE 8]>
+      <link rel="stylesheet" type="text/css" href="/common/css/base-ie.css" media="all" />
+      <![endif]-->
+<link rel="stylesheet" type="text/css" href="/common/css/base3.css" media="all" />
+<!--[if lt IE 8]>
+      <link rel="stylesheet" type="text/css" href="/common/css/base3-ie.css" media="all" />
+      <![endif]-->
+<link rel="stylesheet" type="text/css" href="/common/css/linkcolor.css" media="all" />
+<!--上部セミナー告知バナー設置用CSS-->
+<link rel="stylesheet" type="text/css" href="/css/style4.css" media="all" />
+<link rel="stylesheet" type="text/css" href="/css/style4-omimai-ss.css" media="all" />
+<link rel="stylesheet" type="text/css" href="/css/style8-shinsai.css" media="all" />
+<!--/上部セミナー告知バナー設置用CSS-->
+<!--後で戻す<link rel="stylesheet" type="text/css" href="/css/style4.css" media="all" />-->
+<!--[if lt IE 8]>
+<link rel="stylesheet" type="text/css" href="/css/style4-ie.css" media="all" />
+<![endif]-->
+<link rel="stylesheet" type="text/css" href="/css/vnavi5.css" media="all" />
+<link rel="stylesheet" type="text/css" href="/css/promo4_08.css" media="all" />
+<!--Font size CSS-->
+<link rel="stylesheet" type="text/css" href="/common/css/base-font-medium.css" title="regular" media="all" />
+<link rel="alternate stylesheet" type="text/css" href="/common/css/base-font-large.css" title="large" media="all" />
+<!--/Font size CSS-->
+
+<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://buffalo.jp/products/new/index.xml" />
+<link rel="apple-touch-icon" href="/buffalo-i.png" />
+
+<!--cookie振り分けバナー設定　1705up-->
+<style>
+#panel_top, #panel_side {
+  display: none;
+  display: none;
+  z-index: 350;
+}
+.wrap_panel_topinfo {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color:rgba(0,0,0,0.5);
+  z-index: 350;
+  margin:-75px 0 0 0;
+}
+.panel_topinfo {
+  position: absolute;
+  width: 100%;
+  z-index: 350;
+  }
+  .panel_topinfo--inner {
+    position: relative;
+    width: 720px;
+    margin: 100px auto 0 auto;
+    background: #fff;
+    box-shadow:0px 0px 10px 3px #333;
+    -moz-box-shadow:0px 0px 10px 3px #333;
+    -webkit-box-shadow:0px 0px 10px 3px #333;
+  }
+  a.panel_topinfo--link:hover img {
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    -ms-filter: "alpha(opacity=70)";
+  }
+  a.panel_topinfo--close {
+    position: absolute;
+    top: -25px;
+    right: 0;
+    width:20px;
+    height: 20px;
+  }
+  a.panel_topinfo--close:hover img {
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    -ms-filter: "alpha(opacity=70)";
+  }
+.panel_sideinfo {
+  position: fixed;
+  bottom:15px;
+  right:15px;
+  }
+  .panel_sideinfo--inner {
+    width: 220px;
+    height: 220px;
+    box-shadow:0px 0px 10px 3px #333;
+    -moz-box-shadow:0px 0px 10px 3px #333;
+    -webkit-box-shadow:0px 0px 10px 3px #333;
+  }
+  .panel_sideinfo--link:hover img {
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    -ms-filter: "alpha(opacity=70)";
+  }
+  a.panel_sideinfo--close {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width:20px;
+    height: 20px;
+  }
+</style>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script type="text/javascript">
+jQuery.noConflict();
+var j$ = jQuery;
+//Cookie
+j$(function(){
+  // 1回目のアクセス
+  if(j$.cookie("access") == undefined) {
+    j$.cookie("access","onece");
+    j$("#panel_top").css("display","block")
+    j$("#panel_side").css("display","none")
+  // 2回目以降
+  } else {
+    j$("#panel_top").css("display","none")
+    j$("#panel_side").css("display","block")
+  }
+});
+// closeボタン
+j$(function() {
+    j$('.panel_topinfo--close').click(function(){
+        j$('#panel_top').css({display:'none'});
+      return false;
+    });
+    j$('.panel_sideinfo--close').click(function(){
+        j$('#panel_side').css({display:'none'});
+      return false;
+    });
+});
+</script>
+<!-- /cookie振り分けバナー設定-->
+
+<script type="text/javascript" src="/common/ajax/mootools131.js"></script>
+<script type="text/javascript" src="/common/js/rollover.js"></script>
+<script type="text/javascript" src="/common/js/brightover.js"></script>
+<script type="text/javascript" src="/js/promo4.js"></script>
+<script type="text/javascript" src="/js/styleswitcher.js"></script>
+
+</head>
+
+<body>
+
+<!--wrapper-->
+<div id="TOP" class="wrapper_bdr">
+  <!--header-->
+  <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MHQ2XX');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MHQ2XX" 
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+	<script type="text/javascript" src="/common/js/smt/mootools_load.js"></script>
+	<script type="text/javascript" src="/common/js/smt/smt_buf2.js"></script>
+
+
+	<div class="header">
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','//connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '945959978809912');
+fbq('track', "PageView");</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=945959978809912&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+	<div class="header-inner">
+		<div class="logo"><a href="/" onclick="javascript:pageTracker._trackPageview('/outgoing/gnavi-buffalo');"><img src="/common/images/logo.gif" width="188" height="47" alt="つなぐ技術で、あなたに喜びを 周辺機器 BUFFALO 株式会社バッファロー" /></a></div>
+		<div class="grand-navi">
+			<ul class="grand-navi clearfix">
+				<li><a href="/link/jump-buf_direct.html" class="rollover" target="_blank"><img src="/common/images/button-granavi2-shopping.gif" width="91" height="39" alt="ショッピング" /></a></li>
+				<li class="grand-navi-partition"><a href="/product/?utm_source=top-btn_t2&utm_medium=referral&utm_campaign=buf-top-btn&utm_content=_t2" class="rollover"><img src="/common/images/button-granavi2-service.gif" width="130" height="39" alt="製品・サービス一覧" /></a></li>
+				<li><a href="/taiou/kisyu/?utm_source=top-btn_t3&utm_medium=referral&utm_campaign=buf-top-btn&utm_content=_t3" class="rollover"><img src="/common/images/button-granavi2-taiou.gif" width="80" height="39" alt="対応情報" /></a></li>
+				<li><a href="/download/?utm_source=top-btn_t4&utm_medium=referral&utm_campaign=buf-top-btn&utm_content=_t4" class="rollover"><img src="/common/images/button-granavi2-download.gif" width="91" height="39" alt="ダウンロード" /></a></li>
+				<li><a href="/support_s/?utm_source=top-btn_t5&utm_medium=referral&utm_campaign=buf-top-btn&utm_content=_t5" class="rollover"><img src="/common/images/button-granavi2-support.gif" width="105" height="39" alt="お客様サポート" /></a></li>
+			</ul>
+		</div>
+		<div class="houjin"><a href="/products/b-solutions/" class="rollover"><img src="/common/images/button-houjin.gif" width="103" height="39" alt="法人のお客様" /></a></div>
+		<div class="link_search">
+			<div id="siteserch"><img src="/common/images/retrieval_name.png" width="106" height="15" alt="サイト内検索Quick!ナンバー" /></div>
+			<!--<div id="link-sitemap"><img src="/common/images/icon-link-a.gif" width="3" height="5" class="icon-link-a" alt="" /><a href="/sitemap.html">サイトマップ</a></div>-->
+			<div id="link-buffalo_global"><img src="/common/images/icon-link-a.gif" width="3" height="5" class="icon-link-a" alt="" /><a href="http://buffaloinc.jp/">企業情報</a></div>
+			<form action="/search/newsearch/index.php" id="site-search" name="site-search">
+				<div class="site-search">
+					<input name="num" id="site-search-num" type="hidden" value="10" />
+					<input type="text" name="q" id="site-search-query" class="site-search-text" value="" />&nbsp;
+					<input type="image" src="/common/images/button-search_top.gif" name="submit" id="site-search-search" class="rollover" alt="検索" />
+				</div>
+			</form>
+		</div>
+	</div>
+	</div>
+  <!--/header-->
+  <!--パンくずエリア（赤ライン）-->
+  <!--以下2divと任意の画像リンクをONで上部バナー設置 -->
+  <!--上部バナーの通常運用は画像入れ替えとリダイレクトリンクの内容を編集すること -->
+
+<!--cookie振り分けバナー ※ただいま非表示
+<div id="panel_top">
+<div class="wrap_panel_topinfo">&nbsp;</div>
+<div class="panel_topinfo">
+  <div class="panel_topinfo--inner">
+    <a href="/support_s/recovery/index.html?utm_source=buf-top&utm_medium=referral&utm_campaign=データ復旧サービス&utm_content=bdr-20170512" target="_blank" class="panel_topinfo--link"><img src="images/img_panel_info.png" alt="データ復旧サービス始めました。" /></a>
+    <a href="#" class="panel_topinfo--close"><img src="images/img_panel_info_close.png" alt="close"/></a>
+  </div>
+</div>
+</div>
+
+<div id="panel_side" class="panel_sideinfo">
+  <div class="panel_sideinfo--inner">
+    <a href="/support_s/recovery/index.html?utm_source=buf-top&utm_medium=referral&utm_campaign=データ復旧サービス&utm_content=bdr-20170512" target="_blank" class="panel_sideinfo--link"><img src="images/img_panel_info2.png" alt="データ復旧サービス始めました。" /></a>
+    <a href="#" class="panel_sideinfo--close"><img src="images/img_panel_info_close.png" alt="close"/></a>
+  </div>
+</div>
+ /cookie振り分けバナー -->
+
+<div id="shinsai" class="bg-gr">
+  <div class="shinsai-inner" style="width:950px;margin: 0 auto;">
+    <p><a href="/products/catalog/storage/safety/" class="brightover" target="_blank"><img src="/images/topbanner/bnr_buf-top-hdd-data_950-59.png" width="950" alt="バッファロートップページバナー" /></a></p>
+  </div>
+  <!-- <div class="shinsai-inner shinsai-inner-btm" style="width:950px;">
+    <p><a href="/products/catalog/storage/recovery/index.html?utm_source=buf-bdr-top_20170707&utm_medium=referral&utm_campaign=DataRecoveryService&utm_content=mma-20170707" class="brightover" target="_blank"><img src="/images/topbanner/bnr_buf-top-recovery_950-59.png" width="950" alt="バッファロートップページバナー" /></a></p>
+  </div> -->
+</div>
+  <h1 class="no-display">パソコン周辺機器メーカーのバッファロー | BUFFALO</h1>
+  <!--navigation-->
+  <div id="visual-navi" class="visual-navi">
+    <div class="visual-navi-inner">
+      <div class="otukaiNav">
+        <h2><img src="images/vnavi/h2_otukai.png" width="189" height="22" alt="お使いの機器からさがす" /></h2>
+        <div class="otukaiNavInner">
+          <div class="boxMax">
+            <ul>
+              <li><a href="products/digitalkaden/smartphone/?utm_source=top-btn_z1&utm_medium=referral&utm_campaign=buf-top-btn&utm_content=_z1" class="rollover"><img src="images/vnavi/top_bt_smapho.png" width="132" height="132" alt="スマートフォン" /></a></li>
+              <li><a href="products/digitalkaden/tv/?utm_source=top-btn_z2&utm_medium=referral&utm_campaign=buf-top-btn&utm_content=_z2" class="rollover"><img src="images/vnavi/top_bt_recorder.png" width="132" height="132" alt="テレビ・レコーダー" /></a></li>
+            </ul>
+          </div>
+          <div class="boxMin">
+            <ul>
+              <li><a href="products/digitalkaden/tablet/?utm_source=top-btn_y1&utm_medium=referral&utm_campaign=buf-top-btn&utm_content=_y1" class="rollover"><img src="images/vnavi/top_bt_tablet.png" width="132" height="66" alt="タブレット・電子書籍" /></a></li>
+              <li><a href="products/digitalkaden/game/?utm_source=top-btn_y2&utm_medium=referral&utm_campaign=buf-top-btn&utm_content=_y2" class="rollover"><img src="images/vnavi/top_bt_game.png" width="132" height="66" alt="ゲーム機" /></a></li>
+              <li><a href="products/digitalkaden/audio/?utm_source=top-btn_y3&utm_medium=referral&utm_campaign=buf-top-btn&utm_content=_y3" class="rollover"><img src="images/vnavi/top_bt_audio.png" width="132" height="66" alt="オーディオ" /></a></li>
+              <li><a href="products/digitalkaden/camera/?utm_source=top-btn_y4&utm_medium=referral&utm_campaign=buf-top-btn&utm_content=_y4" class="rollover"><img src="images/vnavi/top_bt_camera.png" width="132" height="66" alt="カメラ・ビデオカメラ" /></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="seihinNav">
+        <h2><img src="images/vnavi/h2_category.png" width="189" height="22" alt="製品カテゴリーからさがす" /></h2>
+        <div class="seihinNavInner">
+          <div class="boxMax">
+            <ul>
+              <li><a href="products/?utm_source=top-btn_x1&utm_medium=referral&utm_campaign=buf-top-btn&utm_content=_x1" class="rollover"><img src="images/vnavi/top_bt_subete.png" width="132" height="132" alt="すべての製品・サービス" /></a></li>
+              <li><a href="products/b-solutions/?utm_source=top-btn_x2&utm_medium=referral&utm_campaign=buf-top-btn&utm_content=_x2" class="rollover"><img src="images/vnavi/top_bt_houzin.png" width="132" height="132" alt="法人様向け製品・ソリューション" /></a></li>
+            </ul>
+          </div>
+          <div class="boxMin">
+            <ul>
+              <li><a href="/product/wireless-lan/?utm_source=top-btn_a1&utm_medium=referral&utm_campaign=buf-top-btn&utm_content=_a1" class="rollover"><img src="images/vnavi/bt-vnavi_01.png" width="132" height="66" alt="Wi-Fi（無線LAN）" /></a></li>
+              <li><a href="/products/catalog/network/lan.html?utm_source=top-btn_b1&utm_medium=referral&utm_campaign=buf-top-btn&utm_content=_b1" class="rollover"><img src="images/vnavi/bt-vnavi_02.png" width="132" height="66" alt="有線LAN" /></a></li>
+              <li><a href="/product/networkcamera/?utm_source=top-btn_c1&utm_medium=referral&utm_campaign=buf-top-btn&utm_content=_c1" class="rollover"><img src="images/vnavi/bt-vnavi_18.png" width="132" height="66" alt="ネットワークカメラ" /></a></li>
+              <li><a href="/product/cable/lan/?utm_source=top-btn_d1&utm_medium=referral&utm_campaign=buf-top-btn&utm_content=_d1" class="rollover"><img src="images/vnavi/bt-vnavi_17.png" width="132" height="66" alt="LANケーブル" /></a></li>
+              <li><a href="/products/catalog/storage/hd.html?utm_source=top-btn_a2&utm_medium=referral&utm_campaign=buf-top-btn&utm_content=_a2" class="rollover"><img src="images/vnavi/bt-vnavi_05.png" width="132" height="66" alt="ハードディスクNAS" /></a></li>
+              <li><a href="/products/catalog/storage/removable-drive.html?utm_source=top-btn_b2&utm_medium=referral&utm_campaign=buf-top-btn&utm_content=_b2" class="rollover"><img src="images/vnavi/bt-vnavi_08.png" width="132" height="66" alt="ブルーレイ・DVD" /></a></li>
+              <li><a href="http://omoidebako.jp/?utm_source=top-btn_c2&utm_medium=referral&utm_campaign=buf-top-btn&utm_content=_c2" target="_blank" class="rollover"><img src="images/vnavi/bt-vnavi_09.png" width="132" height="66" alt="デジタルフォト・アルバム おもいでばこ" /></a></li>
+              <li><a href="/products/catalog/storage/interface-list.html?utm_source=top-btn_d2&utm_medium=referral&utm_campaign=buf-top-btn&utm_content=_d2" class="rollover"><img src="images/vnavi/bt-vnavi_04.png" width="132" height="66" alt="増設インターフェース" /></a></li>
+              <li><a href="/products/catalog/memory/?utm_source=top-btn_a3&utm_medium=referral&utm_campaign=buf-top-btn&utm_content=_a3" class="rollover"><img src="images/vnavi/bt-vnavi_03.png" width="132" height="66" alt="メモリー" /></a></li>
+              <li><a href="/products/catalog/storage/ssd.html?utm_source_b3=top-btn&utm_medium=referral&utm_campaign=buf-top-btn&utm_content=_b3" class="rollover"><img src="images/vnavi/bt-vnavi_10.png" width="132" height="66" alt="SSD" /></a></li>
+              <li><a href="/products/catalog/flash/usbflash.html?utm_source=top-btn_c3&utm_medium=referral&utm_campaign=buf-top-btn&utm_content=_c3" class="rollover"><img src="images/vnavi/bt-vnavi_11.png" width="132" height="66" alt="USBメモリー" /></a></li>
+              <li><a href="/products/catalog/flash/memorycard.html?utm_source=top-btn_d3&utm_medium=referral&utm_campaign=buf-top-btn&utm_content=_d3" class="rollover"><img src="images/vnavi/bt-vnavi_12.png" width="132" height="66" alt="メモリーカード" /></a></li>
+              <li><a href="/products/catalog/supply/input/mouse/?utm_source=top-btn_a4&utm_medium=referral&utm_campaign=buf-top-btn&utm_content=_a4" class="rollover"><img src="images/vnavi/bt-vnavi_13.png" width="132" height="66" alt="マウス" /></a></li>
+              <li><a href="/products/catalog/supply/input/keyboard/?utm_source=top-btn_b4&utm_medium=referral&utm_campaign=buf-top-btn&utm_content=_b4" class="rollover"><img src="images/vnavi/bt-vnavi_14.png" width="132" height="66" alt="キーボード" /></a></li>
+              <li><a href="/product/power/usb-charger/?utm_source=top-btn_c4&utm_medium=referral&utm_campaign=buf-top-btn&utm_content=_c4" class="rollover"><img src="images/vnavi/bt-vnavi_15.png" width="132" height="66" alt="スマートフォン用USB充電器" /></a></li>
+              <li><a href="/product/power/mobile-battery/?utm_source=top-btn_d4&utm_medium=referral&utm_campaign=buf-top-btn&utm_content=_d4" class="rollover"><img src="images/vnavi/bt-vnavi_19.png" width="132" height="66" alt="モバイルバッテリー" /></a></li>
+              <!--<li><a href="/products/catalog/supply/phone/" class="rollover"><img src="images/vnavi/bt-vnavi_16.png" width="132" height="66" alt="スマートフォン用ケース・フィルム" /></a></li>-->
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- / .visual-navi-inner -->
+  </div>
+  <!--/navigation-->
+  <!--pickup-->
+  <div class="pickup">
+    <div id="font-resize-dest" class="pickup-inner clearfix">
+      <div id="pickup-head">
+        <h2 id="pickup-title">PICK UP</h2>
+      </div>
+      <div id="pickup-body">
+        <div class="pickup-body-inner clearfix">
+          <ul class="pickup-banner-list">
+<!--	<li>
+		<a href="/link/bdr-support/jump-bdr-support-top-pickup.html" title="消えてしまった大切なデータをバッファローが復旧します" target="_blank">
+		<img src="/products/images/right_banner/bdr-support-top-pickup_20170501.jpg" alt="消えてしまった大切なデータをバッファローが復旧します" width="195" height="60" /></a>
+	</li>
+	<li>
+		<a href="/product/digitalkaden/buf_falo/?utm_source=top-pkup&utm_medium=referral&utm_campaign=DataRecoveryService&utm_content=buf_falo_20170601" title="漫画で楽しくわかる！HDDのデータ消失！あきらめるその前に・・・">
+		<img src="/products/images/right_banner/bnr-buf_falo_hdd.jpg" alt="漫画で楽しくわかる！HDDのデータ消失！あきらめるその前に・・・" width="195" height="60" /></a>
+	</li>-->
+	<li>
+		<a href="/products/catalog/storage/safety/?utm_source=top-pkup&utm_medium=referral&utm_campaign=DataSafety&utm_content=DataSafety_20170808" title="安心で選ぶならバッファロー　故障予測サービス「みまもり合図」　バッファロー正規「データ復旧サービス」">
+		<img src="/products/images/right_banner/bnr-hdd-data.png" alt="大切なデータをなくさないために。" width="195" height="60" /></a>
+	</li>
+	<li>
+		<a href="/link/jump-buf_falo_securitypage.html" title="漫画で楽しくわかる！Wi-Fiルーターのセキュリティー">
+		<img src="/products/images/right_banner/bnr-buf_falo_security.jpg" alt="漫画で楽しくわかる！Wi-Fiルーターのセキュリティー" width="195" height="60" /></a>
+	</li>
+	<li>
+		<a href="/product/input/mouse/premium_fit/" title="「心地よい」をカタチに Premium Fit">
+		<img src="/products/images/right_banner/bnr-premiumfit.jpg" alt="「心地よい」をカタチに Premium Fit" width="195" height="60" /></a>
+	</li>
+	<li>
+		<a href="products/b-solutions/ransom/index.html?utm_source=top-pkup&utm_medium=referral&utm_campaign=pickup&utm_content=anti-ransom" title="身代金要求型不正プログラム ランサムウェアに負けない対策術">
+		<img src="/products/images/right_banner/bnr-ransom.jpg" alt="身代金要求型不正プログラム ランサムウェアに負けない対策術" width="195" height="60" /></a>
+	</li>
+<!--	<li>
+		<a href="http://www.buffalo-direct.com/directshop/user_data/present.php?id=buf07" title="バッファローダイレクトプレゼントキャンペーン「Dyson羽無し扇風機」が抽選で当たる！！" target="_blank" onclick="javascript:pageTracker._trackPageview('/outgoing/top-pickup-BuffaloDirectCP');">
+		<img src="/products/images/right_banner/bnr-170725-direct-195_60.jpg" alt="バッファローダイレクトプレゼントキャンペーン「Dyson羽無し扇風機」が抽選で当たる！！" width="195" height="60" /></a>
+	</li> -->
+          </ul>
+          <div class="pickup-more"><a href="/products/pickup/" class="brightover"><img src="/images/button-pickup-detail.gif" width="109" height="64" alt="さらに見る" /></a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--/pickup-->
+  <!--main-->
+  <div class="main">
+    <div class="main-inner">
+      <script type="text/javascript" src="/js/check_old_version.js"></script>
+      <noscript>
+      <div class="no_script">ご使用のブラウザーは JavaScriptが無効に設定されています。<br />
+        本ウェブサイトの機能をご利用いただくには、JavaScriptの設定を有効に変更してご覧ください。</div>
+      </noscript>
+      <div class="content-left">
+        <div class="alpha-beta">
+          <div class="left-navi">
+            <!--brand link-->
+            <div class="brand">
+              <h2>ブランドリンク</h2>
+              <div><a href="/products/networkcamera/cr1000/" class="brightover"><img src="/images/surcam_min.jpg" width="190" height="67" alt="Surcam サーカム" /></a></div>
+              <div><a href="http://omoidebako.jp/" class="brightover" target="_blank"><img src="/images/omoidebako.jpg" width="190" height="67" alt="おもいでばこ" /></a></div>
+              <div><a href="http://dela-audio.com/" class="brightover" onclick="javascript:pageTracker._trackPageview('/outgoing/left-navi-dela');" target="_blank"><img src="/images/bnr_dela.gif" width="190" height="67" alt="ハイレゾリューションオーディオ周辺機器　DELA" /></a></div>
+              <div><a href="/aoss2/" class="brightover"><img src="/images/aoss2_min.jpg" width="190" height="67" alt="AOSS2　エーオーエスエスツー" /></a></div>
+              <div><a href="/products/catalog/network/wireless.html" class="brightover" onclick="javascript:pageTracker._trackPageview('/outgoing/left-navi-airstation');"><img src="/images/airstation_min.jpg" width="190" height="67" alt="Air Station エアステーション" /></a></div>
+              <div><a href="/products/catalog/storage/hd_lan.html" class="brightover"><img src="/images/linkstation_min.jpg" width="190" height="67" alt="Link Station リンクステーション" /></a></div>
+              <div><a href="/products/catalog/storage/hd_lan_business.html" class="brightover"><img src="/images/terastation_min.jpg" width="190" height="67" alt="Tera Station テラステーション" /></a></div>
+              <div><a href="http://buffalo-its.jp/apartwifi/" target="_blank" class="brightover" onclick="javascript:pageTracker._trackPageview('/outgoing/left-navi-apart-wifi');"><img src="/images/bnr_apart-wifi.jpg" width="190" height="67" alt="アパートオーナー様向け空室対策・退去防止にアパートWi-Fiのススメ" /></a></div>
+            </div>
+            <!--/brand link-->
+            <!--closeup-->
+            <div class="closeup">
+              <h2 class="closeup">クローズアップ</h2>
+              <div><a href="/products/pro-users/" class="brightover"><img src="/images/closeup/lava_min.gif" width="190" height="60" alt="LAVA PROFESSIONAL USERS" /></a></div>
+              <div><a href="/archives/products_dna/" class="brightover"><img src="/images/closeup/productdna.jpg" width="190" height="60" alt="ProductDNA" /></a></div>
+              <div><a href="/products/eikou/" class="brightover"><img src="/images/closeup/eikou_min.gif" width="190" height="60" alt="栄光の殿堂" /></a></div>
+              <div><a href="/products/eikou/bcnaward/bcn2017.html" class="brightover"><img src="/products/images/right_banner/bnr_bcn2017.jpg" width="190" height="60" alt="BCN AWARD 2015" /></a></div>
+              <div><a href="/products/eikou/gfkcertified/gfk2016.html" class="brightover"><img src="/products/images/right_banner/bnr-gfk2016.jpg" width="190" height="60" alt="GfK Japan Certified 2014" /></a></div>
+              <div><a href="/support_s/ccaward2015/" class="brightover"><img src="/products/images/right_banner/bnr_ccaward2015.jpg" width="190" height="60" alt="コンタクトセンター・アワード2015" /></a></div>
+            </div>
+            <!--/closeup-->
+            <!--online shopping-->
+            <div class="online-shopping">
+              <div><a href="http://www.buffalo-direct.com/" onclick="javascript:pageTracker._trackPageview('/outgoing/left-navi-ec');" target="blank" class="brightover"><img src="/images/buffalo-onlineshopping.gif" width="190" height="120" alt="オンラインショッピング　バッファロー製品の直販オンラインショップ　BUFFALODIRECT" /></a></div>
+            </div>
+            <!--/online shopping-->
+            <!--kaigo_bnr-->
+            <div class="online-shopping">
+              <div><a href="/products/b-solutions/care/" class="brightover"><img src="/images/bnr_care.png" width="190" height="120" alt="バッファローは介護甲子園を応援しています。" /></a></div>
+            </div>
+            <!--/kaigo_bnr-->
+          </div>
+          <div class="contents">
+            <!-- *** 緊急時のお知らせエリア *** -->
+            <div id="emergency-information">
+              <div class="emergency-info-inner">
+                <h2 class="no-display">重要なお知らせ</h2>
+
+                <div class="emergency-info-body">
+                <p><a href="http://buffalo.jp/support_s/t20170331.html">CS-X、CS-WV/R1シリーズをお使いのお客様へ<br />「パーソナルクラウド」サービス終了のお知らせ</a></p>
+<p><a href="http://faq.buffalo.jp/app/answers/detail/a_id/16057?spt_top">WindowsUpdate後、NASの共有フォルダーに<br />アクセスできなくなってしまったお客様へ</a></p>                </div>
+              </div>
+            </div>
+            <!-- *** /緊急時のお知らせエリア *** -->
+            <!--news-->
+            <div class="news-area">
+              <div>
+                <!--press release-->
+                <div id="news" class="tab-content">
+                  <h2 class="news">新製品情報・プレスリリース</h2>
+                  <span class="ichiran"><a href="/product/news/" class="brightover"><img src="/images/ichiran.gif" width="42" height="22" alt="一覧" /></a></span> <span class="rss"><a href="/product/news/index.xml" class="brightover"><img src="/images/rss.jpg" width="47" height="22" alt="RSS" /></a></span>
+                  <div class="tab-content-inner">
+                  <div class="article-block clearfix">
+  <div class="article-body">
+    <p class="date-title">2017/08/09　[新製品]　</p>
+    <div class="date-cts">
+    <img src="/common/images/icon-link-a.gif" width="3" height="5" class="icon-link-a" alt="" />
+    <a href="http://buffalo.jp/news/2017/08/09_03/">最高10GbEのスピードで、ファイルサーバーに最適。6ドライブおよび8ドライブの法人様向けNASを発売</a></div>
+  </div>
+</div>
+<div class="article-block clearfix">
+  <div class="article-body">
+  <p class="date-title">2017/08/09　[新製品]　</p>
+    <div class="date-cts">
+    <img src="/common/images/icon-link-a.gif" width="3" height="5" class="icon-link-a" alt="" />
+    <a href="http://buffalo.jp/news/2017/08/09_02/">10G / 5G / 2.5Gに幅広く対応。高速10GbE（規格値）のネットワーク環境を構築できるマルチギガ対応PCI Expressバス用LANボード発売</a></div>
+  </div>
+</div>
+<div class="article-block clearfix">
+  <div class="article-body">
+    <p class="date-title">2017/08/09　[新製品]　</p>
+    <div class="date-cts">
+    <img src="/common/images/icon-link-a.gif" width="3" height="5" class="icon-link-a" alt="" />
+    <a href="http://buffalo.jp/news/2017/08/09_01/">音声アシスタントを呼び出せるボタン付き<br />Bluetooth(R) 4.1対応ヘッドセット</a></div>
+  </div>
+</div>
+<div class="article-block clearfix">
+  <div class="article-body">
+    <p class="date-title">2017/08/09　[新製品]　</p>
+    <div class="date-cts">
+    <img src="/common/images/icon-link-a.gif" width="3" height="5" class="icon-link-a" alt="" />
+    <a href="http://buffalo.jp/products/catalog/storage/terastation_wss_2016/">Windows Storage Server搭載NAS「テラステーションWSS WS5000N6シリーズ」に大容量48TBモデルほか、9モデルを追加。</a></div>
+  </div>
+</div>
+<div class="article-block clearfix">
+  <div class="article-body">
+    <p class="date-title">2017/08/09　[新製品]　</p>
+    <div class="date-cts">
+    <img src="/common/images/icon-link-a.gif" width="3" height="5" class="icon-link-a" alt="" />
+    <a href="http://buffalo.jp/product/power/mobile-battery/bsmpb13401p2/">タブレットユーザーやスマホゲーマーに最適。iPhone・iPadもAndroid機器も急速充電できる自動判別機能「AUTO POWER SELECT」搭載モバイルバッテリーに大容量13,400mAhモデルを追加</a></div>
+  </div>
+</div>
+<div class="article-block clearfix">
+  <div class="article-body">
+    <p class="date-title">2017/08/09　[お知らせ]　</p>
+    <div class="date-cts">
+    <img src="/common/images/icon-link-a.gif" width="3" height="5" class="icon-link-a" alt="" />
+    <a href="http://buffalo.jp/jirei/service/life-size.html">家庭用機器で提供していた来訪者向けWi-Fiを見直し。<br />「Bar & kitchen Life-Size」（ライフサイズ） 様の公衆Wi-Fiサービス「FREESPOT」導入事例を公開</a></div>
+  </div>
+</div>
+<div class="article-block clearfix">
+  <div class="article-body">
+    <p class="date-title">2017/08/09　[価格改定]　</p>
+    <div class="date-cts">
+    <img src="/common/images/icon-link-a.gif" width="3" height="5" class="icon-link-a" alt="" />
+    <a href="http://buffalo.jp/news/2017/08/09_00/">ポータブルSSD 3製品を値下げ</a></div>
+  </div>
+</div>
+<div class="article-block clearfix">
+  <div class="article-body">
+    <p class="date-title">2017/08/02　[新製品]　</p>
+    <div class="date-cts">
+    <img src="/common/images/icon-link-a.gif" width="3" height="5" class="icon-link-a" alt="" />
+    <a href="http://buffalo.jp/product/tablet/case-film/lavietab_e_te508h/">LAVIE Tab E 8型 TE508HAW / Lenovo TAB4 8用液晶保護フィルム2製品を発売</a></div>
+  </div>
+</div>
+<div class="article-block clearfix">
+  <div class="article-body">
+    <p class="date-title">2017/08/02　[新製品]　</p>
+    <div class="date-cts">
+    <img src="/common/images/icon-link-a.gif" width="3" height="5" class="icon-link-a" alt="" />
+    <a href="http://buffalo.jp/product/tablet/case-film/lavietab_e_te510h/">LAVIE Tab E 10.1型 TE510HAW専用液晶保護フィルム2製品を発売</a></div>
+  </div>
+</div>
+<div class="article-block clearfix">
+  <div class="article-body">
+    <p class="date-title">2017/08/02　[お知らせ]　</p>
+    <div class="date-cts">
+    <img src="/common/images/icon-link-a.gif" width="3" height="5" class="icon-link-a" alt="" />
+    <a href="http://buffalo.jp/news/2017/08/02_01/">iCloudの容量不足を解決する写真のダウンロード保存に対応。<br />iOS用「おもいでばこ」アプリがアップデート</a></div>
+  </div>
+</div>
+<div class="article-block clearfix">
+  <div class="article-body">
+    <p class="date-title">2017/08/02　[価格改定]　</p>
+    <div class="date-cts">
+    <img src="/common/images/icon-link-a.gif" width="3" height="5" class="icon-link-a" alt="" />
+    <a href="http://buffalo.jp/news/2017/08/02_00/">法人様向けNAS 30製品および交換用HDD 11製品を値下げ</a></div>
+  </div>
+</div>                    <div><img src="images/bg-prearea-foot.gif" width="440" height="2" alt="" /></div>
+                  </div>
+                </div>
+                <!--/press release-->
+                <!--support info.-->
+                <div class="tab-content">
+                  <h2 class="supportnews">お客様への大切なお知らせ</h2>
+                  <span class="ichiran"><a href="/support_s/osirase/" class="brightover"><img src="/images/ichiran-support.gif" width="42" height="22" alt="一覧" /></a></span>
+                  <div class="tab-content-inner">
+                  <div class="article-block clearfix">
+  <div class="article-body">
+    <p class="info"><img src="images/important.gif" width="40" height="15" alt="重要" /><span>【重要なお知らせ】</span></p>
+    <div class="date-cts"><img src="images/arrow-gre.gif" width="3" height="5" class="icon-link-a" alt="" /> <a href="/support_s/20140818.html">平成29年7月22日からの大雨による災害に係る<br />災害救助法地域に対する特別修理サービスについて</a></div>
+  </div>
+</div>
+<div class="article-block clearfix">
+  <div class="article-body">
+    <p class="info"><img src="images/important.gif" width="40" height="15" alt="重要" /><span>【重要なお知らせ】</span></p>
+    <div class="date-cts"><img src="images/arrow-gre.gif" width="3" height="5" class="icon-link-a" alt="" /> <a href="/support_s/20140818.html">平成29年7月5日からの大雨による災害に係る<br />災害救助法地域に対する特別修理サービスについて</a></div>
+  </div>
+</div>
+<div class="article-block clearfix">
+  <div class="article-body">
+    <p class="info"><img src="images/important.gif" width="40" height="15" alt="重要" /><span>【ネットワークカメラ「WNC01WH」をお使いのお客様へ】</span></p>
+    <div class="date-cts"><img src="images/arrow-gre.gif" width="3" height="5" class="icon-link-a" alt="" /> <a href="/support_s/t20170627.html">遠隔視聴サービス終了のお知らせ</a></div>
+  </div>
+</div>
+<div class="article-block clearfix">
+  <div class="article-body">
+    <p class="info"><img src="images/important.gif" width="40" height="15" alt="重要" /><span>【「クライアントマネージャ３」をお使いのお客様へ】</span></p>
+    <div class="date-cts"><img src="images/arrow-gre.gif" width="3" height="5" class="icon-link-a" alt="" /> <a href="/support_s/t20170531.html">無線接続ユーティリティー「クライアントマネージャ３」の公開<br />およびサポート終了のお知らせ</a></div>
+  </div>
+</div>
+<div class="article-block clearfix">
+  <div class="article-body">
+    <p class="info"><img src="images/important.gif" width="40" height="15" alt="重要" /><span>【TeraStation 5010 3010シリーズをお使いのお客様へ】</span></p>
+    <div class="date-cts"><img src="images/arrow-gre.gif" width="3" height="5" class="icon-link-a" alt="" /> <a href="/support_s/t20170502.html">大切なお知らせとお詫び</a></div>
+  </div>
+</div>
+<div class="article-block clearfix">
+  <div class="article-body">
+    <p class="info"><img src="images/important.gif" width="40" height="15" alt="重要" /><span>【TeraStationでDropbox連携機能をお使いのお客様へ】</span></p>
+    <div class="date-cts"><img src="images/arrow-gre.gif" width="3" height="5" class="icon-link-a" alt="" /> <a href="/support_s/t20170424.html">ファームウェアアップデート実施のお願い</a></div>
+  </div>
+</div>
+<div class="article-block clearfix">
+  <div class="article-body">
+    <p class="info"><img src="images/important.gif" width="40" height="15" alt="重要" /><span>【CS-X、CS-WV/R1シリーズをお使いのお客様へ】</span></p>
+    <div class="date-cts"><img src="images/arrow-gre.gif" width="3" height="5" class="icon-link-a" alt="" /> <a href="/support_s/t20170331.html">「パーソナルクラウド」サービス終了のお知らせ</a></div>
+  </div>
+</div>
+<div class="article-block clearfix">
+  <div class="article-body">
+    <p class="info"><img src="images/important.gif" width="40" height="15" alt="重要" /><span>【重要なお知らせ】</span></p>
+    <div class="date-cts"><img src="images/arrow-gre.gif" width="3" height="5" class="icon-link-a" alt="" /> <a href="/support_s/t20170330.html">ユーザー登録（個人）方法変更のお知らせ</a></div>
+  </div>
+</div>
+<div class="article-block clearfix">
+  <div class="article-body">
+    <p class="info"><img src="images/important.gif" width="40" height="15" alt="重要" /><span>【ソフトウェア「簡単バックアップ」をお使いのお客様へ】</span></p>
+    <div class="date-cts"><img src="images/arrow-gre.gif" width="3" height="5" class="icon-link-a" alt="" /> <a href="/support_s/t20170224.html">大切なお知らせとお詫び（2017/3/6修正：対策済みソフトウェア公開）</a></div>
+  </div>
+</div>
+<div class="article-block clearfix">
+  <div class="article-body">
+    <p class="info"><img src="images/important.gif" width="40" height="15" alt="重要" /><span>【「TeraStation 5000シリーズ」をお使いのお客様へ】</span></p>
+    <div class="date-cts"><img src="images/arrow-gre.gif" width="3" height="5" class="icon-link-a" alt="" /> <a href="/support_s/t20170306.html">ファームウェアアップデート実施のお願い</a></div>
+  </div>
+</div>
+<div class="article-block clearfix">
+  <div class="article-body">
+    <p class="info"><img src="images/important.gif" width="40" height="15" alt="重要" /><span>【「RUF2-HSCLTV(A)」「HDS-PXVU2」をお使いのお客様へ】</span></p>
+    <div class="date-cts"><img src="images/arrow-gre.gif" width="3" height="5" class="icon-link-a" alt="" /> <a href="/support_s/t20161201.html">「Trend Micro USB Security 2.0」サポート終了のお知らせ</a></div>
+  </div>
+</div>                    <div><img src="images/bg-prearea-foot.gif" width="440" height="2" alt="" /></div>
+                  </div>
+                </div>
+                <!--/support info.-->
+
+              </div>
+            </div>
+            <!--/news-->
+          </div>
+        </div>
+      </div>
+      <div class="right-navi">
+        <!--support-->
+        <div class="support-area">
+          <!-- <div class="bnr"><a href="http://www.buffalo-direct.com/directshop/user_data/present.php?id=buf11" class="brightover" target="_blank"><img src="/products/images/right_banner/bnr-1125-direct-smart.jpg" alt="バッファローダイレクトプレゼントキャンペーン" width="291" /></a></div> -->
+          <!--Facebookウィジェット-->
+          <div class="bnr">
+            <div style="border:1px solid #ccc;" class="fb-page" data-href="https://www.facebook.com/BuffaloJapan" data-width="290" data-hide-cover="false" data-show-facepile="true" data-show-posts="false"></div>
+          </div>
+          <!--<div class="bnr"><a href="http://www.buffalo-direct.com/directshop/user_data/present.php?id=buf04" onclick="javascript:pageTracker._trackPageview('/outgoing/direct-cp_buffalo_toppage');"  class="brightover" target="_blank"><img src="/images/direct/bnr_direct-cp_290-130.jpg" alt="バッファローダイレクトプレゼントキャンペーン「プレイステーション4」が抽選で当たる【応募締切5/9（月）】" /></a></div>-->
+          <div class="bnr"><a href="http://www.youtube.com/user/buffaloofficial?feature=results_main" onclick="javascript:pageTracker._trackPageview('/outgoing/youtube_buffalo_toppage');" class="brightover"><img src="/images/youtube.jpg" width="290" height="55" alt="YouTube バッファロー公式チャネル" /></a></div>
+          <div class="bnr"><a href="/support_s/moviefaq/" class="brightover"><img src="/images/movie_qa.jpg" width="290" height="55" alt="よくある質問を動画で解説" /></a></div>
+          <div class="bnr"><a href="http://buffalo.jp/support_s/counter/top_twitter.html" onclick="javascript:pageTracker._trackPageview('/outgoing/twitter_buffalocs_toppage');"  class="brightover"><img src="/images/twitter-cs.jpg" width="290" height="55" alt="@BuffaloCS twitter CS" /></a></div>
+          <div class="bnr"><a href="/user_t/melmail/" class="brightover"><img src="/images/b-magazin.gif" width="290" height="55" alt="メールマガジン お申し込みはこちらから" /></a></div>
+          <div class="bnr"><a href="/bsa/settei/" class="brightover"><img src="/images/bnr_setting.jpg" width="290" height="55" alt="スマホのこと、Wi-Fiのこと、インターネットのこと、バッファローがまとめて解決「バッファロー訪問設定サービス」" /></a></div>
+          <div class="bnr"><a href="/support_s/" class="brightover"><img src="/images/b-support.gif" width="290" height="55" alt="お客様サポート Q&amp;A、よくある質問、お客様窓口など" /></a></div>
+          <div class="bnr"><a href="/products/b-solutions/" class="brightover"><img src="/images/b-houjin.gif" width="290" height="55" alt="法人のお客様　製品カタログ、事例、保守サービスなど" /></a></div>
+          <div class="bnr"><a href="https://varpartner.buffalo.jp/" onclick="javascript:pageTracker._trackPageview('/outgoing/pweb');" class="brightover"><img src="/images/b-var.gif" width="290" height="55" alt="VARパートナープログラム　登録済み販売パートナー様限定サイト" /></a></div>
+        </div>
+        <!--/support-->
+        <!--company info.-->
+        <div class="cop-area clearfix">
+          <h2>会社関連情報</h2>
+          <div class="cop-area-inner">
+            <ul class="cop-list clearfix">
+              <li class="cop-list-left"><img src="images/arrow-gray.gif" width="3" height="5" class="icon-link-a" alt="" /><a href="/company/">会社情報</a></li>
+              <li><img src="images/arrow-gray.gif" width="3" height="5" class="icon-link-a" alt="" /><a href="/saiyo/"><span>採用情報</span></a></li>
+              <li class="cop-list-left"><img src="images/arrow-gray.gif" width="3" height="5" class="icon-link-a" alt="" /><a href="/company/eco/">環境への取り組み</a></li>
+              <li><img src="images/arrow-gray.gif" width="3" height="5" class="icon-link-a" alt="" /><a href="/company/ir/">株主・投資家の皆様へ</a></li>
+              <li class="cop-list-both"><img src="images/arrow-gray.gif" width="3" height="5" class="icon-link-a" alt="" /><a href="http://melco-hd.jp/" onclick="javascript:pageTracker._trackPageview('/outgoing/cop-melco-hd');" target="_blank">メルコホールディングス（純粋持株会社）</a><img src="/common/images/icon-window.gif" width="15" height="15" alt="" class="icon-outlink-a"/></li>
+            </ul>
+          </div>
+          <div><img src="images/bg-right-foot.gif" width="290" height="2" alt="" /></div>
+        </div>
+        <!--/company info.-->
+        <!--melco group PR-->
+        <div class="melco-area clearfix">
+          <h2>メルコグループPR</h2>
+          <div class="melco-area-inner clearfix">
+            <div class="melco-box-top clearfix">
+              <div class="melco-img"><a href="http://melco-hd.jp/" onclick="javascript:pageTracker._trackPageview('/outgoing/pr-melco-hd');" class="brightover" target="_blank"><img src="images/melco-img_08.jpg" width="68" height="54" alt="[メルコホールディングス]" /></a></div>
+              <div class="melco-title"> <img src="images/arrow-gray.gif" width="3" height="5" class="icon-link-a" alt="" /><a href="http://melco-hd.jp/" onclick="javascript:pageTracker._trackPageview('/outgoing/pr-melco-hd');" target="_blank">メルコホールディングス</a>
+                <p>メルコグループの純粋持株会社</p>
+              </div>
+            </div>
+          </div>
+          <div class="melco-area-inner clearfix">
+            <div class="melco-box clearfix">
+              <div class="melco-img"><a href="http://www.cfd.co.jp/" onclick="javascript:pageTracker._trackPageview('/outgoing/pr-cfd');" class="brightover" target="_blank"><img src="images/melco-img_03.jpg" width="68" height="54" alt="[CFD販売]" /></a></div>
+              <div class="melco-title"> <img src="images/arrow-gray.gif" width="3" height="5" class="icon-link-a" alt="" /><a href="http://www.cfd.co.jp/" onclick="javascript:pageTracker._trackPageview('/outgoing/pr-cfd');" target="_blank">CFD販売</a>
+                <p>PCパーツの総合サプライヤー</p>
+              </div>
+            </div>
+          </div>
+          <div class="melco-area-inner clearfix">
+            <div class="melco-box clearfix">
+              <div class="melco-img"><a href="http://buffalomemory.jp/" onclick="javascript:pageTracker._trackPageview('/outgoing/pr-buffalo-memory');" class="brightover" target="_blank"><img src="images/melco-img_10.jpg" width="68" height="54" alt="[バッファローメモリ]" /></a></div>
+              <div class="melco-title"> <img src="images/arrow-gray.gif" width="3" height="5" class="icon-link-a" alt="" /><a href="http://buffalomemory.jp/" onclick="javascript:pageTracker._trackPageview('/outgoing/pr-buffalo-memory');" target="_blank">バッファローメモリ</a>
+                <p>産業用フラッシュストレージ・産業用メモリモジュールの専業メーカー</p>
+              </div>
+            </div>
+          </div>
+          <div class="melco-area-inner clearfix">
+            <div class="melco-box clearfix">
+              <div class="melco-img"><a href="http://buffalo-its.jp/" onclick="javascript:pageTracker._trackPageview('/outgoing/pr-buffalo-its');" class="brightover" target="_blank"><img src="images/melco-img_04.jpg" width="68" height="54" alt="[バッファロー・IT・ソリューションズ]" /></a></div>
+              <div class="melco-title"> <img src="images/arrow-gray.gif" width="3" height="5" class="icon-link-a" alt="" /><a href="http://buffalo-its.jp/" onclick="javascript:pageTracker._trackPageview('/outgoing/pr-buffalo-its');" target="_blank">バッファロー・IT・ソリューションズ</a>
+                <p>個人宅での設定から、大規模な工事・保守までをサポート</p>
+              </div>
+            </div>
+          </div>
+          <div class="melco-area-inner clearfix">
+            <div class="melco-box clearfix">
+              <div class="melco-img"><a href="http://www.freespot.com/" onclick="javascript:pageTracker._trackPageview('/outgoing/pr-freespot');" class="brightover" target="_blank"><img src="images/melco-img_05.jpg" width="68" height="54" alt="[FREESPOT]" /></a></div>
+              <div class="melco-title"> <img src="images/arrow-gray.gif" width="3" height="5" class="icon-link-a" alt="" /><a href="http://www.freespot.com/" onclick="javascript:pageTracker._trackPageview('/outgoing/pr-freespot');" target="_blank">FREESPOT</a>
+                <p>公衆無線LANスポットサービス。どこでも無線でインターネット</p>
+              </div>
+            </div>
+          </div>
+          <div class="melco-area-inner clearfix">
+            <div class="melco-box clearfix">
+              <div class="melco-img"><a href="http://www.buffalo-direct.com/" onclick="javascript:pageTracker._trackPageview('/outgoing/pr-ec');" class="brightover" target="_blank"><img src="images/melco-img_07.jpg" width="68" height="54" alt="[バッファローダイレクト]" /></a></div>
+              <div class="melco-title"> <img src="images/arrow-gray.gif" width="3" height="5" class="icon-link-a" alt="" /><a href="http://www.buffalo-direct.com/" onclick="javascript:pageTracker._trackPageview('/outgoing/pr-ec');" target="_blank">バッファローダイレクト</a>
+                <p>バッファロー製品の通販オンラインショップ</p>
+              </div>
+            </div>
+          </div>
+          <div class="melco-area-inner clearfix">
+            <div class="melco-box clearfix">
+              <div class="melco-img"><a href="http://www.bios.co.jp/" onclick="javascript:pageTracker._trackPageview('/outgoing/pr-bios');" class="brightover" target="_blank"><img src="images/melco-img_11.jpg" width="68" height="54" alt="[バイオス]" /></a></div>
+              <div class="melco-title"> <img src="images/arrow-gray.gif" width="3" height="5" class="icon-link-a" alt="" /><a href="http://www.bios.co.jp/" onclick="javascript:pageTracker._trackPageview('/outgoing/pr-bios');" target="_blank">バイオス</a>
+                <p>業務用ストレージ/サーバー、組込用RAIDボードの国内メーカー</p>
+              </div>
+            </div>
+          </div>
+          <div class="melco-area-inner clearfix">
+            <div class="melco-box clearfix">
+              <div class="melco-img"><a href="http://melco-foundation.jp/" onclick="javascript:pageTracker._trackPageview('/outgoing/pr-melco-foundation');" class="brightover" target="_blank"><img src="images/melco-img_06.jpg" width="68" height="54" alt="[メルコ学術振興財団]" /></a></div>
+              <div class="melco-title"> <img src="images/arrow-gray.gif" width="3" height="5" class="icon-link-a" alt="" /><a href="http://melco-foundation.jp/" onclick="javascript:pageTracker._trackPageview('/outgoing/pr-melco-foundation');" target="_blank">メルコ学術振興財団</a>
+                <p>会計経理学の発展と、普及を目的として設立された財団</p>
+              </div>
+            </div>
+          </div>
+          <div class="melco-area-inner clearfix">
+            <div class="melco-box clearfix">
+              <div class="melco-img"><a href="http://dlpa.jp/" onclick="javascript:pageTracker._trackPageview('/outgoing/pr-dlpa');" class="brightover" target="_blank"><img src="images/melco-img_09.jpg" width="68" height="54" alt="[DLPA：デジタルライフ推進協会]" /></a></div>
+              <div class="melco-title"> <img src="images/arrow-gray.gif" width="3" height="5" class="icon-link-a" alt="" /><a href="http://dlpa.jp/" onclick="javascript:pageTracker._trackPageview('/outgoing/pr-delpa');" target="_blank">デジタルライフ推進協会〈DLPA〉</a>
+                <p>海外も念頭に日本のデジタルライフ環境整備に資することを目的に設立</p>
+              </div>
+            </div>
+          </div>
+          <div class="melco-btm"><img src="images/bg-right-foot.gif" width="290" height="2" alt="" /></div>
+        </div>
+        <!--/melco group PR-->
+      </div>
+    </div>
+  </div>
+  <!--/main-->
+  <!--footer-->
+  <div id="osusume-information">
+	<div class="inner">
+		<div class="osusume-header">
+			<h2 class="title">おすすめ情報</h2>
+			<a href="/products/pickup/" class="detail rollover"><img src="/common/images/osusume-information/btn-list.gif" width="81" height="25" alt="一覧を見る" /></a>
+		</div>
+		<div id="osusume-information-slidewrap">
+			<div id="osusume-information-slide">
+				<div id="osusume-information-slide-inner">
+					<!-- おすすめ情報 1列目 -->
+					<div class="block">
+						<ul>
+
+							<li>
+								<a href="/products/catalog/network/11ac/beamforming.html" onclick="javascript:pageTracker._trackPageview('/outgoing/products/catalog/network/11ac/beamforming.html');">
+									<span class="image">
+										<img src="/common/images/osusume-information/bnr-11acbf.jpg" width="189" height="82" alt="11ac" />
+									</span>
+								</a>
+							</li>
+
+							<li>
+								<a href="http://omoidebako.jp/" onclick="javascript:pageTracker._trackPageview('/outgoing/omoidebako');" target="_blank">
+									<span class="image">
+										<img src="/common/images/osusume-information/omoidebako20170424.png" width="189" height="82" alt="おもいでばこ" />
+									</span>
+								</a>
+							</li>
+
+							<li>
+								<a href="/products/pickup/supply/bluetooth/" onclick="javascript:pageTracker._trackPageview('/outgoing/products/pickup/supply/bluetooth/');">
+									<span class="image">
+										<img src="/common/images/osusume-information/bnr_bluetooth2013_189-82.jpg" width="189" height="82" alt="Blueoothとことん活用法" />
+									</span>
+								</a>
+							</li>
+
+							<li>
+								<a href="/products/b-solutions/xp-7/" onclick="javascript:pageTracker._trackPageview('/outgoing/products/b-solutions/xp-7/');">
+									<span class="image">
+										<img src="/common/images/osusume-information/bnr-xp-7.jpg" width="189" height="82" alt="XPサポート終了" />
+									</span>
+								</a>
+							</li>
+
+
+						</ul>
+					</div>
+					<!-- /おすすめ情報 1列目 -->
+					<!-- おすすめ情報 2列目 -->
+					<div class="block">
+						<ul>
+
+							<li>
+								<a href="/products/digitalkaden/howto_sp/" onclick="javascript:pageTracker._trackPageview('/outgoing/products/digitalkaden/howto_sp/');">
+									<span class="image">
+										<img src="/common/images/osusume-information/bnr_howtosp_189-82.jpg" width="189" height="82" alt="スマホ・タブレットを使いこなす17の方法" />
+									</span>
+								</a>
+							</li>
+
+							<li>
+								<a href="/products/catalog/storage/dtcp-remote/" onclick="javascript:pageTracker._trackPageview('/outgoing/products/catalog/storage/dtcp-remote/');">
+									<span class="image">
+										<img src="/common/images/osusume-information/bnr-dtcpplus.jpg" width="189" height="82" alt="DTCP+">
+									</span>
+								</a>
+							</li>
+
+							<li>
+								<a href="/aoss2/" onclick="javascript:pageTracker._trackPageview('/outgoing/aoss2/');">
+									<span class="image">
+										<img src="/common/images/osusume-information/aoss2.jpg" width="189" height="82" alt="AOSS2" />
+									</span>
+								</a>
+							</li>	
+
+							<li>
+								<a href="/products/digitalkaden/audio/networkaudio/" onclick="javascript:pageTracker._trackPageview('/outgoing/products/digitalkaden/audio/networkaudio/');">
+									<span class="image">
+										<img src="/common/images/osusume-information/bnr-audio-nas.jpg" width="189" height="82" alt="オーディオNAS" />
+									</span>
+								</a>
+							</li>
+
+                            
+						</ul>
+					</div>
+					<!-- /おすすめ情報 2列目 -->
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="footer-navi">
+	<div id="footer-navi-inner" class="clearfix">
+		<div class="products">
+			<h2 class="title"><a href="/product/">製品情報</a></h2>
+			<div class="column-container clearfix">
+				<div class="column">
+					<ul>
+						<li><a href="/product/wireless-lan/?utm_source=top-btn_bl1&utm_medium=referral&utm_campaign=buf-top-btn&utm_content=_bl1">Wi-Fi（無線LAN）</a></li>
+						<li><a href="/products/catalog/network/lan.html?utm_source=top-btn_bl2&utm_medium=referral&utm_campaign=buf-top-btn&utm_content=_bl2">有線LAN</a></li>
+						<li><a href="/products/catalog/storage/hd.html?utm_source=top-btn_bl3&utm_medium=referral&utm_campaign=buf-top-btn&utm_content=_bl3">ハードディスク</a></li>
+						<li><a href="/products/catalog/storage/ssd.html?utm_source=top-btn_bl4&utm_medium=referral&utm_campaign=buf-top-btn&utm_content=_bl4">SSD</a></li>
+						<li><a href="/products/catalog/multimedia/?utm_source=top-btn_bl5&utm_medium=referral&utm_campaign=buf-top-btn&utm_content=_bl5">映像・音響機器</a></li>
+						<li><a href="/products/catalog/storage/removable-drive.html?utm_source=top-btn_bl6&utm_medium=referral&utm_campaign=buf-top-btn&utm_content=_bl6">ブルーレイ/DVDドライブ</a></li>
+						<li><a href="/products/catalog/flash/memorycard.html?utm_source=top-btn_bl7&utm_medium=referral&utm_campaign=buf-top-btn&utm_content=_bl7">メモリーカード</a></li>
+						<li><a href="/products/catalog/flash/usbflash.html?utm_source=top-btn_bl8&utm_medium=referral&utm_campaign=buf-top-btn&utm_content=_bl8">USBメモリー</a></li>
+						<li><a href="/products/catalog/memory/?utm_source=top-btn_bl9&utm_medium=referral&utm_campaign=buf-top-btn&utm_content=_bl9">メモリー</a></li>
+						<li><a href="/products/catalog/storage/interface.html?utm_source=top-btn_bl10&utm_medium=referral&utm_campaign=buf-top-btn&utm_content=_bl10">増設インターフェース</a></li>
+					</ul>
+				</div>
+				<div class="column">
+					<ul>
+						<li><a href="/product/smartphone/case-film/?utm_source=top-btn_br1&utm_medium=referral&utm_campaign=buf-top-btn&utm_content=_br1">スマートフォンアクセサリー</a></li>
+						<li><a href="/product/tablet/case-film/?utm_source=top-btn_br2&utm_medium=referral&utm_campaign=buf-top-btn&utm_content=_br2">タブレットアクセサリー</a></li>
+						<li><a href="/product/power/mobile-battery/?utm_source=top-btn_br3&utm_medium=referral&utm_campaign=buf-top-btn&utm_content=_br3">モバイルバッテリー</a></li>
+						<li><a href="/product/input/mouse/?utm_source=top-btn_br4&utm_medium=referral&utm_campaign=buf-top-btn&utm_content=_br4">マウス</a></li>
+						<li><a href="/product/input/keyboard/?utm_source=top-btn_br5&utm_medium=referral&utm_campaign=buf-top-btn&utm_content=_br5">キーボード</a></li>
+						<li><a href="/product/peripheral/card-reader/?utm_source=top-btn_br6&utm_medium=referral&utm_campaign=buf-top-btn&utm_content=_br6">カードリーダー</a></li>
+						<li><a href="/product/peripheral/usb-hub/?utm_source=top-btn_br7&utm_medium=referral&utm_campaign=buf-top-btn&utm_content=_br7">USBハブ</a></li>
+						<li><a href="/products/catalog/supply/bluetooth/?utm_source=top-btn_br8&utm_medium=referral&utm_campaign=buf-top-btn&utm_content=_br8">Bluetooth機器</a></li>
+						<li><a href="/product/multimedia/web-camera/?utm_source=top-btn_br9&utm_medium=referral&utm_campaign=buf-top-btn&utm_content=_br9">Webカメラ</a></li>
+						<li><a href="/product/multimedia/headset/?utm_source=top-btn_br10&utm_medium=referral&utm_campaign=buf-top-btn&utm_content=_br10">ヘッドセット</a></li>
+						<li><a href="/product/cable/?utm_source=top-btn_br11&utm_medium=referral&utm_campaign=buf-top-btn&utm_content=_br11">ケーブル</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="service">
+			<h2 class="title noLinkTitle">サービス</h2>
+			<div class="column-container clearfix">
+				<div class="column">
+					<ul>
+						<li><a href="/bsa/settei/">訪問設定サービス</a></li>
+						<li><a href="http://buffalo-its.jp/apartwifi/" target="_blank" class="newwin">賃貸住宅向けWi-Fiブロードバンド工事</a></li>
+						<li><a href="/products/catalog/network/bn-op/">法人様向けWi-Fi（無線LAN）保守</a></li>
+						<li><a href="http://buffalo-its.jp/press/press140806.html" target="_blank" class="newwin">法人様向けWi-Fi導入支援</a></li>
+						<li><a href="/products/catalog/network/bn-op/">法人様向け有線LAN保守</a></li>
+						<li><a href="http://buffalo-its.jp/press/press140806.html" target="_blank" class="newwin">法人様向けVPNルーター設定</a></li>
+						<li><a href="http://buffalo-its.jp/press/press140806.html" target="_blank" class="newwin">法人様向けTeraStation導入支援</a></li>
+						<li><a href="http://buffalo-its.jp/press/press140806.html" target="_blank" class="newwin">法人様向けデータ引越し</a></li>
+						<li><a href="/products/catalog/storage/op-ts/">法人様向けNAS保守</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="support_s">
+			<h2 class="title"><a href="/support_s/">サポート</a></h2>
+			<div class="column-container clearfix">
+				<div class="column">
+					<ul>
+						<li><a href="/taiou/kisyu/">対応情報</a></li>
+						<li><a href="/download/">ダウンロード</a></li>
+						<li><a href="/support_s/kaden.html">家電向けサポート情報</a></li>
+						<li><a href="http://faq.buffalo.jp/app/home_kojin">パソコン向けサポート情報</a></li>
+						<li><a href="/toiawase/">サポートお問い合わせ</a></li>
+						<li><a href="/shuri/">修理サービス</a></li>
+						<li><a href="/user_t/melmail/">メールマガジン</a></li>
+						<li><a href="/support_s/mel-line/">ユーザー登録</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="company">
+			<h2 class="title"><a href="/company/">バッファローについて</a></h2>
+			<div class="column-container clearfix">
+				<div class="column">
+					<ul>
+						<li><a href="/company/outline/profile.html">会社概要</a></li>
+						<li><a href="/saiyo/">採用情報</a></li>
+						<li><a href="/company/ir/">投資家情報</a></li>
+						<li><a href="/company/outline/group.html">メルコグループ</a></li>
+						<li><a href="/info/">お問い合わせ窓口一覧</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="footer">
+	<div class="footer-inner clearfix">
+		<div class="footer-menu clearfix">
+			<ul class="footer-menu-a">
+				<li><img src="/common/images/icon-link-a.gif" width="3" height="5" class="icon-link-a" alt="" /><a href="http://buffaloinc.jp/">企業情報</a></li>
+				<li><img src="/common/images/icon-link-a.gif" width="3" height="5" class="icon-link-a" alt="" /><a href="/sitemap.html">サイトマップ</a></li>
+				<li><img src="/common/images/icon-link-a.gif" width="3" height="5" class="icon-link-a" alt="" /><a href="/about/">サイトのご利用について</a></li>
+				<li><img src="/common/images/icon-link-a.gif" width="3" height="5" class="icon-link-a" alt="" /><a href="/company/security/">情報セキュリティポリシー</a></li>
+				<li><img src="/common/images/icon-link-a.gif" width="3" height="5" class="icon-link-a" alt="" /><a href="/support_s/privacy/">プライバシーポリシー</a></li>
+			</ul>
+			<div class="footer-logo-melco"><a href="/link/jump-hd.html" target="_blank"><img src="/common/images/txt-melco_holdings.gif" width="121" height="29" alt="メルコホールディングス" /></a></div>
+		</div>
+		<div id="copyright"><img src="/common/images/copyright.gif" width="164" height="12" alt="Copyright, BUFFALO INC. All rights reserved." /></div>
+	</div>
+</div>
+<script type="text/javascript" src="/common/js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="/common/js/footer-slider.js"></script>
+<script type="text/javascript">
+	(function() {
+		jQuery.noConflict();
+		jQuery(document).ready(function() {
+			jQuery('#osusume-information-slide').slider({
+				showControls: true,
+				showPosition: false,
+				direction: 'left'
+			});
+		});
+	})();
+</script>
+  <!--/footer-->
+
+  <!--フローティング-->
+  <link rel="stylesheet" type="text/css" href="/css/floating.css" media="all" />
+  <script type="text/javascript" src="/common/js/jquery.meerkat.1.3.min.js"></script>
+  <script type="text/javascript">
+      jQuery.noConflict();
+      if ((navigator.userAgent.indexOf('iPhone') > 0 && navigator.userAgent.indexOf('iPad') == -1) || navigator.userAgent.indexOf('iPod') > 0 || navigator.userAgent.indexOf('Android') > 0) {
+      }
+      else{
+        jQuery(window).load(function(){
+          if( (jQuery.browser.msie && jQuery.browser.version > 6) || !jQuery.browser.msie){
+            jQuery('.floating').meerkat({
+              position: 'right',
+              close: '.floatingClose',
+              animationIn: 'slide',
+              animationOut: 'none'
+            })
+            setTimeout(function() {
+              jQuery('.floating').addClass('slideImg');
+              jQuery('.floatingImg').animate({'right': '-170px'});
+              jQuery('.floatingOpen').animate({'right': '0px'});
+            }, 3000);
+            jQuery('.floatingOpen').click(
+              function () {
+                jQuery('.floatingImg').animate({'right': '0px'});
+                jQuery('.floating').removeClass('slideImg');
+                jQuery('.floatingOpen').animate({'right': '-45px'});
+                setTimeout(function() {
+                  jQuery('.floating').addClass('slideImg');
+                  jQuery('.floatingImg').animate({'right': '-170px'});
+                  jQuery('.floatingOpen').animate({'right': '0px'});
+                }, 3000);
+              }
+              );
+          }
+        });
+}
+
+</script>
+  <!--<div class="floating">
+        <div class="floatingClose"><img src="/images/floating/pop-btn_01.png" width="22" height="22" alt="閉じる"></div>
+        <div class="floatingOpen"><img src="/images/floating/pop-img_02.png" width="45" height="285" alt="スマホ用サイトもあります"></div>
+        <div class="floatingImg"><a href="http://m.buffalo.jp/" onclick="javascript:pageTracker._trackPageview('/outgoing/m-buffalo-jp-floting');" target="_blank"><img src="/images/floating/pop-img_01.png" width="165" height="295" alt="スマホ用サイトもあります" class="imgChange"></a></div>
+      </div>-->
+  <!--/フローティング-->
+</div>
+<!--/wrapper-->
+
+<!--Facebookウィジェット-->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.3";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+<!--/Facebookウィジェット-->
+
+
+
+</body>
+</html>

@@ -1,0 +1,700 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript; charset=utf-8" />
+
+<meta name="keywords" content="トランスジェニック,遺伝子破壊マウス,ノックアウトマウス,抗体作製" />
+<meta name="description" content="株式会社トランスジェニックのWEBサイトです。私達は生物個体からゲノムにいたる生命資源の開発を通じて基盤研究および医学・医療の場に遺伝情報を提供しその未来に資するとともに世界の人々の健康と豊かな暮らしの実現に貢献して参ります。" />
+<title>株式会社トランスジェニック</title>
+<link rel="stylesheet" type="text/css" href="css/index.css" />
+<link rel="stylesheet" type="text/css" href="/css/slider.css" />
+<link rel="stylesheet" type="text/css" href="/mainJSmenu/css/mainJSmenu.css" />
+<link rel="shortcut icon" href="img/favicon.ico" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js" type="text/javascript"></script>
+<script src="script/slider.js" type="text/javascript"></script>
+<script src="script/common.js" type="text/javascript"></script>
+<script src="script/ui.core.js" type="text/javascript"></script>
+<script src="script/ui.tabs.js" type="text/javascript"></script>
+<script src="script/scroller.js" type="text/javascript"></script>
+<script src="./mainJSmenu/js/menu.js" type="text/javascript"></script>
+<script type="text/javascript">
+virtualTop = 0;  
+$(function(){
+$('#ui-tab > ul').tabs();
+});
+</script>
+<link rel="stylesheet" type="text/css" href="css/ui.tabs.css" />
+</head>
+<body>
+<a name="top"></a> 
+<div id="wrapper">
+<div id="header">
+  <div id="h_left">
+    <h1><a href="/">ノックアウトマウス・遺伝子破壊マウス・抗体 作製受託　販売【株式会社トランスジェニック】</a></h1>
+    <a href="/"><img src="/img/logo.jpg" alt="株式会社トランスジェニック" width="435" height="33" /></a></div>
+  <div id="h_right">
+    <ul class="navi">
+      <li class="first"><a href="/cn/" hreflang="cn"><img src="/img/chinese.gif" alt="中国語" width="50" height="18" class="over" /></a></li>
+      <li><a href="/en/" hreflang="en"><img src="/img/english.gif" alt="English" width="65" height="18" class="over" /></a></li>
+      <li><a href="/sitemap/"><img src="/img/h_navi02.gif" alt="サイトマップ" width="83" height="11" class="over m-t3" /></a></li>
+      <li><a href="/contact/"><img src="/img/h_navi01.gif" alt="お問合わせ" width="72" height="11" class="over m-t3" /></a></li>
+    </ul>
+    <div id="font"> <img src="/img/fsize.gif" alt="文字サイズ" width="61" height="11" class="img" />
+      <ul>
+        <li id="font_s"><img src="/img/f_small.gif" alt="小" width="20" height="20" /></li>
+        <li id="font_m"><img src="/img/f_midium.gif" alt="中" width="20" height="20" /></li>
+        <li id="font_l"><img src="/img/f_large.gif" alt="大" width="20" height="20" /></li>
+      </ul>
+    </div>
+    <div id="h_search">
+      <form method="get" action="http://www.transgenic.co.jp/cmt/mt-search.cgi">
+        <input id="search_txt" type="text" name="search" value="" />
+      <input type="hidden" name="limit" value="20" />
+      <input type="hidden" name="IncludeBlogs" value="1,12,10,6,9,8,2,39,36,3,4,5" />
+        <input type="image" value="検索" src="/img/search_btn.gif" class="over" />
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- / #header -->
+<div id="main">
+<ul id="mainTab">
+<li><a href="./"><img src="./mainJSmenu/ja/bt_01_c.png" alt="" width="151" height="40" /></a></li>
+<li><a href="./corporation/"><img src="./mainJSmenu/ja/bt_02.png" alt="" width="150" height="40" /></a></li>
+<li><a href="./products/"><img src="./mainJSmenu/ja/bt_03.png" alt="" width="150" height="40" /></a></li>
+<li><a href="./technology/"><img src="./mainJSmenu/ja/bt_04.png" alt="" width="149" height="40" /></a></li>
+<li><a href="./ir/"><img src="./mainJSmenu/ja/bt_05.png" alt="" width="150" height="40" /></a></li>
+<li><a href="./recruit/"><img src="./mainJSmenu/ja/bt_06.png" alt="" width="150" height="40" /></a></li>
+</ul>
+<div class="cmnBg">
+<div class="tabContents" id="homeC">
+<p><img src="./mainJSmenu/ja/main_txt.png" alt="未来に資するとともに世界の人々の健康と豊かな暮らしの実現に貢献する" width="900" height="325" /></p>
+</div>
+<div class="tabContents" id="corporationC">
+<p class="btn"><a href="/corporation/"><img src="./mainJSmenu/ja/syousai_01.png" alt="一覧ページへ" width="120" height="41" /></a></p>
+<ul class="contentsIn">
+<li><a href="./corporation/policy/"><img src="./mainJSmenu/ja/corporation/kigyou_01_bt.png" alt="経営理念、私たちを支える理念についてご紹介します。" width="410" height="109" /></a></li>
+<li><a href="./corporation/message/"><img src="./mainJSmenu/ja/corporation/kigyou_02_bt.png" alt="" width="410" height="109" /></a></li>
+<li><a href="./corporation/outline/"><img src="./mainJSmenu/ja/corporation/kigyou_03_bt.png" alt="" width="410" height="110" /></a></li>
+<li><a href="./corporation/business/"><img src="./mainJSmenu/ja/corporation/kigyou_04_bt.png" alt="" width="410" height="110" /></a></li>
+</ul>
+</div>
+<div class="tabContents" id="productsC">
+<p class="btn"><a href="/products/"><img src="./mainJSmenu/ja/syousai_01.png" alt="一覧ページへ" width="120" height="41" /></a></p>
+<div class="contentsIn">
+<ul class="parent01">
+<li><a href="./products/database/tgrb/"><img src="./mainJSmenu/ja/products/01.png" alt="" width="148" height="20" /></a></li>
+<li><a href="./products/database/deltagen/"><img src="./mainJSmenu/ja/products/02.png" alt="" width="148" height="20" /></a></li>
+</ul>
+<ul class="parent02">
+<li><a href="./products/mice-service/modified_mouse/crispr.php"><img src="./mainJSmenu/ja/products/03.png" alt="" width="148" height="20" /></a></li>
+<li><a href="./products/mice-service/modified_mouse/conventional.php"><img src="./mainJSmenu/ja/products/04.png" alt="" width="148" height="20" /></a></li>
+<li><a href="./products/mice-service/modified_mouse/knockin.php"><img src="./mainJSmenu/ja/products/05.png" alt="" width="148" height="20" /></a></li>
+</ul>
+<ul class="parent03">
+<li><a href="./products/mice-product/model.php"><img src="./mainJSmenu/ja/products/06.png" alt="" width="148" height="20" /></a></li>
+<li><a href="./products/mice-product/dna.php"><img src="./mainJSmenu/ja/products/17.png" alt="" width="148" height="20" /></a></li>
+<li><a href="./products/mice-product/"><img src="./mainJSmenu/ja/products/08.png" alt="" width="148" height="20" /></a></li>
+</ul>
+<ul class="parent04">
+<li><a href="./products/nonclinical/"><img src="./mainJSmenu/ja/products/31.png" alt="" width="148" height="20" /></a></li>
+<li><a href="./products/nonclinical/safetypharmacology.php"><img src="./mainJSmenu/ja/products/32.png" alt="" width="148" height="20" /></a></li>
+<li><a href="./products/nonclinical/pharmacokinetic.php"><img src="./mainJSmenu/ja/products/33.png" alt="" width="148" height="20" /></a></li>
+</ul>
+<ul class="parent05">
+<li><a href="./products/pgx-offering/"><img src="./mainJSmenu/ja/products/20.png" alt="" width="148" height="20" /></a></li>
+<li><a href="./products/pgx-offering/sequencing-top/index.php"><img src="./mainJSmenu/ja/products/21.png" alt="" width="148" height="20" /></a></li>
+<li><a href="./products/pgx-offering/dna/"><img src="./mainJSmenu/ja/products/22.png" alt="" width="148" height="20" /></a></li>
+</ul>
+<ul class="parent06">
+<li><a href="./products/drug_discovery/"><img src="./mainJSmenu/ja/products/14.png" alt="" width="148" height="20" /></a></li>
+<li><a href="./products/drug_discovery/tristar.php"><img src="./mainJSmenu/ja/products/15.png" alt="" width="148" height="20" /></a></li>
+<li><a href="./products/drug_discovery/korat.php"><img src="./mainJSmenu/ja/products/16.png" alt="" width="148" height="20" /></a></li>
+</ul>
+<ul class="parent07">
+<li><a href="./products/antibodies-service/index.php"><img src="./mainJSmenu/ja/products/09.png" alt="" width="148" height="20" /></a></li>
+<li><a href="./products/antibodies-service/monoclonal.php"><img src="./mainJSmenu/ja/products/10.png" alt="" width="148" height="20" /></a></li>
+<li><a href="./products/antibodies-service/protein.php"><img src="./mainJSmenu/ja/products/11.png" alt="" width="148" height="20" /></a></li>
+</ul>
+<ul class="parent08">
+<li><a href="./products/antibodies-product/transgenic/"><img src="./mainJSmenu/ja/products/bt_12.png" alt="" width="148" height="20" /></a></li>
+</ul>
+</div>
+</div>
+<div class="tabContents" id="technologyC">
+<p class="btn"><a href="/technology/"><img src="./mainJSmenu/ja/syousai_01.png" alt="一覧ページへ" width="120" height="41" /></a></p>
+<ul class="contentsIn">
+<li><a href="./technology/policy/"><img src="./mainJSmenu/ja/technology/gizyutu_01_bt.png" alt="" width="410" height="109" /></a></li>
+<li><a href="./technology/strategy/"><img src="./mainJSmenu/ja/technology/gizyutu_02_bt.png" alt="" width="410" height="109" /></a></li>
+<li><a href="./technology/situation/"><img src="./mainJSmenu/ja/technology/gizyutu_03_bt.png" alt="" width="410" height="109" /></a></li>
+<li><img src="./mainJSmenu/ja/technology/gizyutu_04_bt.png" alt="" width="410" height="109" /></li>
+</ul>
+</div>
+<div class="tabContents" id="irC">
+<p class="btn"><a href="/ir/"><img src="./mainJSmenu/ja/syousai_01.png" alt="一覧ページへ" width="120" height="41" /></a></p>
+<ul class="contentsIn">
+<li><a href="./ir/policy/"><img src="./mainJSmenu/ja/ir/kabunushi_01_bt.png" alt="" width="274" height="110" /></a></li>
+<li><a href="./ir/financial/"><img src="./mainJSmenu/ja/ir/kabunushi_02_bt.png" alt="" width="273" height="110" /></a></li>
+<li><a href="./ir/stock/"><img src="./mainJSmenu/ja/ir/kabunushi_03_bt.png" alt="" width="273" height="110" /></a></li>
+<li><a href="./ir/library/"><img src="./mainJSmenu/ja/ir/kabunushi_04_bt.png" alt="" width="274" height="109" /></a></li>
+<li><a href="./ir/calendar/"><img src="./mainJSmenu/ja/ir/kabunushi_05_bt.png" alt="" width="273" height="109" /></a></li>
+<li class="bg">
+<a href="./ir/policy/disclosure.php"><img src="./mainJSmenu/ja/ir/kabunushi_06_bt.png" alt="" width="159" height="12" /></a>
+<a href="http://stocks.finance.yahoo.co.jp/stocks/detail/?code=2342.t" target="_blank"><img src="./mainJSmenu/ja/ir/kabunushi_07_bt.png" alt="" width="66" height="11" /></a>
+<a href="http://kmasterplus.pronexus.co.jp/main/corp/2/3/2342/index.html" target="_blank"><img src="./mainJSmenu/ja/ir/kabunushi_08_bt.png" alt="" width="66" height="11" /></a>
+</li>
+</ul>
+</div>
+<div class="tabContents" id="recruitC">
+<div class="contentsIn">
+<img src="./mainJSmenu/ja/recruit/saiyou_bt.jpg" alt="トランスジェニックはプロフェッショナリズムを追求します" width="820" height="219" />
+<p class="more"><a href="./recruit/"><img src="./mainJSmenu/ja/recruit/btn_more01.png" alt="" width="179" height="33" /></a></p>
+<!-- /.more -->
+</div>
+</div>
+</div>
+<!-- /.cmnBg -->
+</div>
+<!-- / #main_img -->
+<div id="slider" class="slidernaviarea">
+<div class="ic_wrapper">
+<ul >
+<li><a href="/products/mice-service/modified_mouse/crispr.php"><img class="over" src="/index_img/bnr_slide_10.jpg" width="215" height="73" alt="ゲノム編集による遺伝子改変マウス作製 CRISPR/Cas9" /></a></li>
+<li><a href="/index_img/ERAI-Luc_OKD-Luc.pdf" target="_blank"><img class="over" src="/index_img/bnr_slide_02.jpg" width="215" height="73" alt="見える化はイノベーション 病態可視化マウス" /></a></li>
+<li><a href="/index_img/ROSA.pdf" target="_blank"><img class="over" src="/index_img/bnr_slide_07.jpg" width="215" height="73" alt="ROSA26 KIマウス" /></a></li>
+<li><a href="/index_img/KK901.pdf" target="_blank"><img class="over" src="/index_img/bnr_slide_08.gif" width="215" height="73" alt="ヒトAIM測定ELISAキット" /></a></li>
+<li><a href="/products/antibodies-service/" target="_blank"><img class="over" src="/index_img/bnr_slide_04.jpg" width="215" height="73" alt="GANPマウスによる抗体作製受託" /></a></li>
+<li><a href="/index_img/IR MAR Gene Amplification.pdf" target="_blank"><img class="over" src="/index_img/bnr_slide_05.jpg" width="215" height="73" alt="混ぜるだけ！ 遺伝子高発現試薬" /></a></li>
+<li><a href="/index_img/Anti_DYKDDDDK_Monoclonal_Antibody.pdf" target="_blank"><img class="over" src="/index_img/bnr_slide_06.jpg" width="215" height="73" alt="使える抗DYKDDDDK抗体" /></a></li>
+<li><a href="/index_img/Genetically Engineered Mice.pdf" target="_blank"><img class="over" src="/index_img/bnr_slide_01.jpg" width="215" height="73" alt="信頼と実績で選ぶ 遺伝子改変マウス作製受託" /></a></li>
+</ul>
+</div>
+<a href="#" class="arrow back"><img src="/index_img/btn_prev.gif" alt="" /></a><a href="#" class="arrow forward"><img src="/index_img/btn_next.gif" alt="" /></a>
+</div>
+<!-- / #slider -->
+<div id="c_wrapper"> 
+<div id="contents">
+<div id="content_01">
+<div class="title">
+<h2><img src="/index_img/title_01.jpg" alt="新着情報" width="670" height="33" /></h2>
+<a href="/atom.xml" target="_blank"><img src="/index_img/btn_top_rss01.gif" alt="RSS" width="54" height="23" class="over btnRss" /></a> <a href="/whatsnew/"><img src="/index_img/title_01_btn.jpg" alt="一覧" width="54" height="23" class="over btn" /></a></div>
+<div id="ui-tab">
+<ul>
+<li><a href="#fragment-1" class="nopscr"><img src="/index_img/tab01.gif" alt="新着順" width="105" height="27" class="click" id="left" /></a></li>
+<li><a href="#fragment-2" class="nopscr"><img src="/index_img/tab02.gif" alt="プレスリリース" width="105" height="27" class="click" /></a></li>
+<li><a href="#fragment-3" class="nopscr"><img src="/index_img/tab03.gif" alt="製品･サービス情報" width="105" height="27" class="click" /></a></li>
+<li><a href="#fragment-4" class="nopscr"><img src="/index_img/tab04.gif" alt="キャンペーン情報" width="105" height="27" class="click" /></a></li>
+<li><a href="#fragment-5" class="nopscr"><img src="/index_img/tab05.gif" alt="学会･論文情報" width="105" height="27" class="click" /></a></li>
+<li><a href="#fragment-6" class="nopscr"><img src="/index_img/tab06.gif" alt="IR情報" width="105" height="27" class="click" /></a></li>
+</ul>
+<div id="fragment-1">
+<ul class="entry">
+<!--新着順ここから-->
+
+
+<li>
+
+<dl>
+
+<dt><img src="/index_img/wn_icon01.gif" alt="プレスリリース" width="112" height="17" />
+2017/08/07
+</dt>
+<dd>
+<a href="/pressrelease/pdf/20170807.pdf" target="_blank">
+当社グループ会社の(株)ジェネティックラボにおけるがんクリニカルシーケンス受託解析サービスの販売代理店契約の締結について
+</a><a href="/pressrelease/pdf/20170807.pdf" target="_blank"><img src="/img/icon_pdf.gif" alt="pdf" /></a>
+
+</dd>
+</dl>
+</li>
+
+
+
+
+
+
+
+
+
+<li>
+
+<dl class="none">
+
+<dt><img src="/index_img/wn_icon05.gif" alt="IR情報" width="112" height="17" />
+
+2017/08/04
+
+</dt>
+<dd>
+
+<a href="/ir/library/securities.php">
+
+【IRライブラリー】 「四半期報告書（第20期 第1四半期）」を掲載しました
+
+</a>
+
+</dd>
+</dl>
+</li>
+
+
+
+<li>
+
+<dl>
+
+<dt><img src="/index_img/wn_icon01.gif" alt="プレスリリース" width="112" height="17" />
+2017/08/03
+</dt>
+<dd>
+<a href="/pressrelease/pdf/20170803.pdf" target="_blank">
+平成30年3月期 第1四半期決算短信[日本基準]（連結）
+</a><a href="/pressrelease/pdf/20170803.pdf" target="_blank"><img src="/img/icon_pdf.gif" alt="pdf" /></a>
+
+</dd>
+</dl>
+</li>
+
+
+
+
+
+
+<li>
+
+<dl class="none">
+
+<dt><img src="/index_img/wn_icon01.gif" alt="プレスリリース" width="112" height="17" />
+2017/08/01
+</dt>
+<dd>
+<a href="/pressrelease/pdf/20170801.pdf" target="_blank">
+遺伝子改変モデルマウスを用いた中枢神経系非臨床試験受託サービス開始のお知らせ
+</a><a href="/pressrelease/pdf/20170801.pdf" target="_blank"><img src="/img/icon_pdf.gif" alt="pdf" /></a>
+
+</dd>
+</dl>
+</li>
+
+
+
+
+
+
+
+
+
+<li>
+
+<dl>
+
+<dt><img src="/index_img/wn_icon05.gif" alt="IR情報" width="112" height="17" />
+
+2017/07/14
+
+</dt>
+<dd>
+
+<a href="/ir/media/">
+
+【メディア掲載情報】『日本経済新聞(北海道版)』に当社関連会社 医化学創薬㈱の「エクソソーム糖鎖解析サービス」に関する記事
+
+</a>
+
+</dd>
+</dl>
+</li>
+
+
+<!--新着順ここまで-->
+</ul>
+</div>
+<div id="fragment-2">
+<ul id="entryPress" class="entry">
+  
+  <li>
+  
+  <dl>
+    <dt><img src="index_img/wn_icon01.gif" alt="プレスリリース" width="112" height="17" />
+      2017/08/07
+    </dt>
+    <dd>
+      <a href="http://www.transgenic.co.jp/pressrelease/pdf/20170807.pdf" target="_blank">
+        当社グループ会社の(株)ジェネティックラボにおけるがんクリニカルシーケンス受託解析サービスの販売代理店契約の締結について
+        </a><a href="http://www.transgenic.co.jp/pressrelease/pdf/20170807.pdf" target="_blank"><img src="img/icon_pdf.gif" alt="pdf" /></a>
+        
+    </dd>
+  </dl>
+  </li>
+  
+  <li>
+  
+  <dl class="none">
+    <dt><img src="index_img/wn_icon01.gif" alt="プレスリリース" width="112" height="17" />
+      2017/08/03
+    </dt>
+    <dd>
+      <a href="http://www.transgenic.co.jp/pressrelease/pdf/20170803.pdf" target="_blank">
+        平成30年3月期 第1四半期決算短信[日本基準]（連結）
+        </a><a href="http://www.transgenic.co.jp/pressrelease/pdf/20170803.pdf" target="_blank"><img src="img/icon_pdf.gif" alt="pdf" /></a>
+        
+    </dd>
+  </dl>
+  </li>
+  
+  <li>
+  
+  <dl>
+    <dt><img src="index_img/wn_icon01.gif" alt="プレスリリース" width="112" height="17" />
+      2017/08/01
+    </dt>
+    <dd>
+      <a href="http://www.transgenic.co.jp/pressrelease/pdf/20170801.pdf" target="_blank">
+        遺伝子改変モデルマウスを用いた中枢神経系非臨床試験受託サービス開始のお知らせ
+        </a><a href="http://www.transgenic.co.jp/pressrelease/pdf/20170801.pdf" target="_blank"><img src="img/icon_pdf.gif" alt="pdf" /></a>
+        
+    </dd>
+  </dl>
+  </li>
+  
+  <li>
+  
+  <dl class="none">
+    <dt><img src="index_img/wn_icon01.gif" alt="プレスリリース" width="112" height="17" />
+      2017/07/10
+    </dt>
+    <dd>
+      <a href="http://www.transgenic.co.jp/pressrelease/pdf/20170710.pdf" target="_blank">
+        当社グループ会社の(株)新薬リサーチセンターにおける精神・神経疾患モデルマウスに関するライセンス契約締結のお知らせ
+        </a><a href="http://www.transgenic.co.jp/pressrelease/pdf/20170710.pdf" target="_blank"><img src="img/icon_pdf.gif" alt="pdf" /></a>
+        
+    </dd>
+  </dl>
+  </li>
+  
+  <li>
+  
+  <dl>
+    <dt><img src="index_img/wn_icon01.gif" alt="プレスリリース" width="112" height="17" />
+      2017/07/06
+    </dt>
+    <dd>
+      <a href="http://www.transgenic.co.jp/pressrelease/pdf/20170706.pdf" target="_blank">
+        当社関連会社の医化学創薬株式会社における機能性糖ペプチドに対する抗体に関する共同研究開発契約締結のお知らせ
+        </a><a href="http://www.transgenic.co.jp/pressrelease/pdf/20170706.pdf" target="_blank"><img src="img/icon_pdf.gif" alt="pdf" /></a>
+        
+    </dd>
+  </dl>
+  </li>
+  
+</ul>
+
+</div>
+<div id="fragment-3">
+<ul class="entry">
+
+
+<li><dl><dt><img src="index_img/wn_icon02.gif" alt="製品･サービス情報" width="112" height="17" />2017/07/04</dt><dd><a href="http://www.gene-lab.com/gas/hpv_1/about.html">当社グループ会社(株)ジェネティックラボにおいて、 子宮頸がんとＨＰＶに関するページ情報を更新いたしました。 </a></dd></dl></li>
+
+
+<li><dl class="none"><dt><img src="index_img/wn_icon02.gif" alt="製品･サービス情報" width="112" height="17" />2017/07/04</dt><dd><a href="http://soyaku.co.jp/contract-services/exosome/">当社関連会社の医化学創薬(株)において、エクソソーム糖鎖解析サービスを本日開始いたしました。</a></dd></dl></li>
+
+
+<li><dl><dt><img src="index_img/wn_icon02.gif" alt="製品･サービス情報" width="112" height="17" />2016/08/24</dt><dd><a href="products/mice-product/model.php">マウス関連製品　モデルマウスページを更新しました。</a></dd></dl></li>
+
+
+<li><dl class="none"><dt><img src="index_img/wn_icon02.gif" alt="製品･サービス情報" width="112" height="17" />2015/12/17</dt><dd><a href="http://www.ndrcenter.co.jp/business/inspection/">当社グループ会社(株)新薬リサーチセンターにおいて、 LC-MS 装置を用いた受託解析サービスを開始、医薬品等の研究開発をサポートします。 </a></dd></dl></li>
+
+
+<li><dl><dt><img src="index_img/wn_icon02.gif" alt="製品･サービス情報" width="112" height="17" />2015/12/16</dt><dd><a href="products/total-solution/">遺伝子改変マウス作製受託関連サービスについての「トータルソリューションページ」をアップしました。</a></dd></dl></li>
+  
+</ul></div>
+<div id="fragment-4">
+<ul class="entry">
+
+ 
+<li><dl><dt>
+<img src="index_img/wn_icon03.gif" alt="キャンペーン" width="112" height="17" />2015/12/25</dt><dd><a href="http://soyaku.co.jp/">当社資本業務提携先の医化学創薬(株)において、血清・血漿の糖鎖解析キャンペーンを実施いたします。</a></dd>
+</dl></li>
+
+ 
+<li><dl class="none"><dt>
+<img src="index_img/wn_icon03.gif" alt="キャンペーン" width="112" height="17" />2015/12/11</dt><dd><a href="http://www.gene-lab.com/new/genechipluminex.html">当社グループ会社(株)ジェネティックラボにおいて、 GeneChip受託解析、Lｔuminex受託解析 キャンペーン開始いたしました。</a></dd>
+</dl></li>
+
+ 
+<li><dl><dt>
+<img src="index_img/wn_icon03.gif" alt="キャンペーン" width="112" height="17" />2014/11/28</dt><dd class="close"><a href="products/protein-measurement/luminex.php">ヒト血清・血漿を用いた複数サイトカイン同時定量解析キャンペーンは終了しました。</a></dd>
+</dl></li>
+
+ 
+<li><dl class="none"><dt>
+<img src="index_img/wn_icon03.gif" alt="キャンペーン" width="112" height="17" />2014/10/01</dt><dd class="close"><a href="products/protein-measurement/luminex.php">Luminex®システムを用いた多項目同時解析サービスは終了しました。</a></dd>
+</dl></li>
+
+ 
+<li><dl><dt>
+<img src="index_img/wn_icon03.gif" alt="キャンペーン" width="112" height="17" />2013/11/07</dt><dd class="close"><a href="products/antibodies-service/protein.php">【お試しキャンペーン】『蛋白質高発現試薬 TG-Sure Expression (IR/MAR)』の小スケール品　数量限定販売は終了しました。</a></dd>
+</dl></li>
+
+</ul></div>
+<div id="fragment-5">
+<ul id="entrySociety" class="entry">
+
+<li>
+
+<dl>
+<dt><img src="index_img/wn_icon04.gif" alt="学会･論文情報" width="112" height="17" />2017/07/05</dt><dd><a href="http://www.transgenic.co.jp/society/2017/07/25.php">当社関連会社の医化学創薬(株)の共同研究の一連の成果が「第25回日本乳癌学会学術総会」にてポスター発表されます。</a></dd></dl></li>
+
+<li>
+
+<dl class="none">
+<dt><img src="index_img/wn_icon04.gif" alt="学会･論文情報" width="112" height="17" />2017/06/29</dt><dd><a href="http://www.transgenic.co.jp/society/2017/06/44.php">【学会・論文発表】当社グループ会社(株)新薬リサーチセンターが「第44回 日本毒性学会学術年会」にブース出展いたします。</a></dd></dl></li>
+
+<li>
+
+<dl>
+<dt><img src="index_img/wn_icon04.gif" alt="学会･論文情報" width="112" height="17" />2017/05/01</dt><dd><a href="http://www.transgenic.co.jp/society/2017/05/-32.php">当社グループ会社(株)新薬リサーチセンターが「 日本薬剤学会第32年会」にブース出展いたします。</a></dd></dl></li>
+
+<li>
+
+<dl class="none">
+<dt><img src="index_img/wn_icon04.gif" alt="学会･論文情報" width="112" height="17" />2017/03/01</dt><dd><a href="http://www.transgenic.co.jp/society/2017/03/90.php">当社グループ会社(株)新薬リサーチセンターが「第90回 日本薬理学会年会」にブース出展いたします。</a></dd></dl></li>
+
+<li>
+
+<dl>
+<dt><img src="index_img/wn_icon04.gif" alt="学会･論文情報" width="112" height="17" />2016/11/25</dt><dd><a href="http://www.transgenic.co.jp/society/2016/11/39-1.php">第39回日本分子生物学会年会にてブース出展いたします。</a></dd></dl></li>
+
+</ul></div>
+<div id="fragment-6">
+<ul class="entry">
+
+
+<li><dl><dt><img src="index_img/wn_icon05.gif" alt="IR情報" width="112" height="17" />2017/08/04</dt>
+<dd><a href="http://www.transgenic.co.jp/ir/library/securities.php">【IRライブラリー】 「四半期報告書（第20期 第1四半期）」を掲載しました</a></dd>
+</dl></li>
+
+
+<li><dl class="none"><dt><img src="index_img/wn_icon05.gif" alt="IR情報" width="112" height="17" />2017/07/14</dt>
+<dd><a href="http://www.transgenic.co.jp/ir/media/">【メディア掲載情報】『日本経済新聞(北海道版)』に当社関連会社 医化学創薬㈱の「エクソソーム糖鎖解析サービス」に関する記事</a></dd>
+</dl></li>
+
+
+<li><dl><dt><img src="index_img/wn_icon05.gif" alt="IR情報" width="112" height="17" />2017/06/27</dt>
+<dd><a href="http://www.transgenic.co.jp/ir/media/">【メディア掲載情報】『日経バイオテクONLINE』に当社関連会社 医化学創薬㈱の「エクソソーム糖鎖解析サービス」に関する記事</a></dd>
+</dl></li>
+
+
+<li><dl class="none"><dt><img src="index_img/wn_icon05.gif" alt="IR情報" width="112" height="17" />2017/06/22</dt>
+<dd><a href="http://www.transgenic.co.jp/ir/library/securities.php">【IRライブラリー】 「有価証券報告書（第19期）」を掲載しました</a></dd>
+</dl></li>
+
+
+<li><dl><dt><img src="index_img/wn_icon05.gif" alt="IR情報" width="112" height="17" />2017/06/22</dt>
+<dd><a href="http://www.transgenic.co.jp/ir/library/report.php">【IRライブラリー】 「第19期 事業報告書（株主のみなさまへ）」を掲載しました</a></dd>
+</dl></li>
+
+</ul></div>
+</div>
+</div>
+<h3><img src="/index_img/title_02.jpg" alt="製品サービス" width="670" height="30" /></h3>
+<div id="content_02">
+<div id="catalogArea">
+<p><a href="http://www.gene-lab.com/catalog/" target="_blank"><img src="/index_img/catalog_bnr.jpg" width="216" height="170" alt="総合カタログ" class="over" /></a></p>
+</div>
+<div id="totalArea">
+<p><a href="/products/total-solution/"><img src="/index_img/bnr_total01.jpg" alt="遺伝子改変マウスを用いたご研究のトータルソリューション" width="444" height="167" class="over" /></a></p>
+</div>
+</div>
+<div id="content_03">
+<dl>
+<dt><a href="/products/mice-service/modified_mouse/"><img src="/index_img/title_02_2.jpg" alt="マウス関連受託" width="210" height="110" /></a></dt>
+<dd>
+<ul>
+<li><a href="/products/mice-service/modified_mouse/crispr.php">ゲノム編集技術(CRISPR/Cas9)</a></li>
+<li><a href="/products/mice-service/modified_mouse/conditional.php">コンディショナルノックアウトマウス作製</a></li>
+<li><a href="/products/mice-service/modified_mouse/knockin.php">ノックインマウス作製</a></li>
+</ul>
+</dd>
+</dl>
+<dl>
+<dt><img src="/index_img/title_02_3.jpg" alt="マウス関連製品" width="210" height="110" /></dt>
+<dd>
+<ul>
+<li><a href="/products/mice-product/model.php">モデルマウス</a></li>
+<li><a href="/products/mice-product/dna.php">プラスミドDNA製品</a></li>
+<li><a href="/products/mice-product/">凍結胚製品</a></li>
+<!--<li><a href="/products/mice-product/manual.php">生殖工学技術マニュアル</a></li>-->
+</ul>
+</dd>
+</dl>
+<dl class="m-r0">
+<dt><img src="/index_img/title_02_1.jpg" alt="ノックアウトマウス・表現型データベース" width="210" height="110" /></dt>
+<dd>
+<ul>
+<li><a href="/products/database/tgrb/">TG Resource Bank®</a></li>
+<li><a href="/products/database/deltagen/">DeltaOne DeltaBase®</a></li>
+</ul>
+</dd>
+</dl>
+<dl>
+<dt><img src="/index_img/title_02_8.jpg" alt="非臨床試験受託" width="210" height="110" /></dt>
+<dd>
+<ul>
+<li><a href="/products/nonclinical/">薬効薬理試験</a></li>
+<li><a href="/products/nonclinical/safetypharmacology.php">安全性薬理試験</a></li>
+<li><a href="/products/nonclinical/pharmacokinetic.php">薬物動態試験</a></li>
+</ul>
+</dd>
+</dl>
+<dl>
+<dt><img src="/index_img/title_02_7.jpg" alt="遺伝子解析関連サービス" width="210" height="110" /></dt>
+<dd>
+<ul>
+<li><a href="/products/pgx-offering/">遺伝子解析関連サービス</a></li>
+<li><a href="/products/pgx-offering/sequencing-top/">次世代シーケンス解析受託</a></li>
+<li><a href="/products/pgx-offering/dna/">DNAマイクロアレイ解析受託</a></li>
+</ul>
+</dd>
+</dl>
+<dl class="m-r0">
+<dt><img src="/index_img/title_02_6.jpg" alt="創薬関連サービス" width="210" height="110" /></dt>
+<dd>
+<ul>
+<li><a href="/products/drug_discovery/">前臨床薬物評価試験</a></li>
+<li><a href="/products/drug_discovery/tristar.php">高密度ヒト組織マイクロアレイ</a></li>
+<li><a href="/products/drug_discovery/korat.php">ノックアウトラット</a></li>
+</ul>
+</dd>
+</dl>
+<dl>
+<dt><img src="/index_img/title_02_4.jpg" alt="抗体・タンパク関連受託" width="210" height="110" /></dt>
+<dd>
+<ul>
+<li><a href="/products/antibodies-service/">GANP®高親和性抗体作製</a></li>
+<li><a href="/products/antibodies-service/monoclonal.php">モノクローナル抗体作製</a></li>
+<li><a href="/products/antibodies-service/protein.php">タンパク質高発現細胞作製</a></li>
+</ul>
+</dd>
+</dl>
+<dl>
+<dt><img src="/index_img/title_02_9.jpg" alt="タンパク測定受託サービス " width="210" height="110" /></dt>
+<dd>
+<ul>
+<li><a href="/products/protein-measurement/luminex.php">Luminex® 受託測定</a></li>
+</ul>
+</dd>
+</dl>
+<dl class="m-r0">
+<dt><img src="/index_img/title_02_10.jpg" alt="糖鎖関連受託サービス" width="210" height="110" /></dt>
+<dd>
+<ul>
+<li><a href="/products/sugar-chain/analysis/">糖鎖解析受託</a></li>
+<li><a href="/products/sugar-chain/synthesis/">糖鎖合成受託</a></li>
+</ul>
+</dd>
+</dl>
+<dl>
+<dt><img src="/index_img/title_02_5.jpg" alt="抗体関連製品" width="210" height="110" /></dt>
+<dd>
+<ul>
+<li><a href="/products/antibodies-product/transgenic/">TransGenic社抗体製品</a></li>
+</ul>
+</dd>
+</dl>
+</div>
+</div>
+<!-- / #contents -->
+<div id="side_navi">
+<ul class="s_banner">
+<li><a href="https://shiroyagimail.com/gene-lab/mailmagazine/?tg" target="_blank"><img src="/img/navi10.jpg" alt="メールマガジン登録" width="214" height="75" class="over" /></a></li>
+<li><a href="/mail_delivery/"><img src="/img/navi02.jpg" alt="IRメール配信サービス" width="214" height="64" class="over" /></a></li>
+<li><a href="/pressrelease/"><img src="/img/navi03.jpg" alt="プレスリリース" width="214" height="64" class="over" /></a></li>
+<li><a href="https://shachomeikan.jp/presidents/detail/10061915" target="_blank"><img src="/img/shachomeikan_bnr.jpg" alt="社長名鑑" width="214" height="55" /></a></li>
+</ul>
+<div id="pickup">
+<h3><img src="/img/menu_title.gif" alt="ピックアップコンテンツ" width="214" height="31" /></h3>
+<h4><a href="/ir/media/"><img src="/img/menu10.gif" alt="メディア掲載情報" width="214" height="30" class="over" /></a></h4>
+<h4><a href="/products/"><img src="/img/menu01.gif" alt="製品・サービス" width="214" height="31" class="over" /></a></h4>
+<ul>
+<li><a href="/products/database/tgrb/"><img src="/img/menu01_1.gif" alt="TG Resource Bank®" width="190" height="29" class="over" /></a></li>
+<li><a href="/products/mice-service/modified_mouse/"><img src="/img/menu01_2.gif" alt="遺伝子改変マウス作製受託" width="190" height="29" class="over" /></a></li>
+<li><a href="/products/antibodies-service/monoclonal.php"><img src="/img/menu01_3.gif" alt="モノクローナル抗体作製" width="190" height="29" class="over" /></a></li>
+</ul>
+<h4><a href="/ir/"><img src="/img/menu02.gif" alt="株主・投資家様情報" width="214" height="31" class="over" /></a></h4>
+<ul>
+<li><a href="/ir/library/"><img src="/img/menu02_1.gif" alt="IRライブラリー" width="190" height="29" class="over" /></a></li>
+<li><a href="/ir/calendar/"><img src="/img/menu02_2.gif" alt="IRカレンダー" width="190" height="29" class="over" /></a></li>
+<li><a href="/ir/financial/highlight.php"><img src="/img/menu02_3.gif" alt="業績ハイライト " width="190" height="29" class="over" /></a></li>
+</ul>
+<h4><a href="/corporation/group/"><img src="/img/menu06.gif" alt="グループ会社紹介" width="214" height="30" class="over" /></a></h4>
+</div>
+<a href="http://stocks.finance.yahoo.co.jp/stocks/detail/?code=2342.t" target="_blank" rel="nofollow"><img src="/img/navi04.jpg" alt="株価情報" width="214" height="54" class="over" /></a>
+<div id="s_contact"><img src="/img/contact.jpg" alt="製品・サービスに関するご相談・お問合わせ" width="210" height="152" /><a href="contact/index.php#mailform"><img src="/img/contact_btn.jpg" alt="メールフォームはコチラ" width="169" height="29" class="btn" /></a></div>
+<div id="group">
+<h3><a href="/corporation/group/"><img src="/img/group_title.png" alt="グループ会社" width="214" height="31" /></a></h3>
+<ul>
+<li><a href="http://www.ndrcenter.co.jp/" target="_blank"><img src="/img/navi07.png" alt="株式会社新薬リサーチセンター" width="196" height="56" class="over" /></a>
+<p><a href="http://www.ndrcenter.co.jp/" target="_blank">株式会社新薬リサーチセンター</a></p>
+</li>
+<li><a href="http://www.gene-lab.com/" target="_blank"><img src="/img/navi08.png" alt="GeneticLab" width="196" height="56" class="over" /></a>
+<p><a href="http://www.gene-lab.com/" target="_blank">株式会社ジェネティックラボ</a></p>
+</li>
+<li><a href="http://www.mediffom.co.jp/" target="_blank"><img src="/img/navi09.png" alt="株式会社メディフォム" width="196" height="56" class="over" /></a>
+<p><a href="http://www.mediffom.co.jp/" target="_blank">株式会社メディフォム</a></p>
+</li>
+<li><a href="http://www.primmune.com/" target="_blank"><img src="/img/navi06.png" alt="Primmune Inc." width="196" height="56" class="over" /></a>
+<p><a href="http://www.primmune.com/" target="_blank">株式会社プライミューン</a></p>
+</li>
+</ul>
+</div>
+<ul class="s_banner">
+<li><a href="/training/"><img src="/img/navi05.jpg" alt="リプロダクティブテクノロジー研修センター" width="214" height="54" class="over" /></a></li>
+</ul>
+<ul class="s_banner">
+<li><a href="http://www.jpx.co.jp/" target="_blank"><img src="/img/navi_tosho.gif" alt="東証マザーズ上場" width="54" height="60" /></a>
+<p>No.2342</p>
+</li>
+</ul>
+</div>
+<!-- / #side_navi -->
+</div>
+<div id="pagetop"><a href="#top"><img src="/img/pagetop.gif" alt="このページのトップへ戻る" width="126" height="9" /></a></div>
+</div>
+<div id="f_wrapper">
+  <div id="footer">
+    <div id="adobe">
+      <div>
+        <ul>
+          <li><a href="http://get.adobe.com/jp/reader/" target="_blank" rel="nofollow"><img src="/img/reader.jpg" alt="Adobe® Reader®" width="112" height="33" /></a></li>
+          <li><a href="http://get.adobe.com/jp/flashplayer/" target="_blank" rel="nofollow"><img src="/img/flash.jpg" alt="Flash® player" width="112" height="33" /></a></li>
+        </ul>
+        <p>PDF･FLASHをご覧いただくためには、<a href="http://get.adobe.com/jp/reader/" target="_blank" rel="nofollow">Adobe® Reader ®</a> ,<a href="http://get.adobe.com/jp/flashplayer/" target="_blank" rel="nofollow">Adobe® Flash® player</a> が必要です。<br />
+          Adobe社のサイトより無料でダウンロード可能です。</p>
+      </div>
+    </div>
+    <p id="f_sitemap"><a href="/mail_delivery/">メール配信</a>　|　<a href="/contact/">お問合わせ</a>　|　<a href="/recruit/">採用情報</a>　 |　<a href="/sitemap/">サイトマップ</a>　|　<a href="/privacy_policy/">プライバシーポリシー</a>　|　<a href="/termsofuse/">免責事項</a></p>
+    <p id="copyright">Copyright © <span>TRANS GENIC INC.., Ltd. </span>All Rights Reserved.</p>
+  </div>
+</div>
+
+<!-- / #footer -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-16973475-5']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>

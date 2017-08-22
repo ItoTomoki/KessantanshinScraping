@@ -1,0 +1,419 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="content-script-type" content="text/javascript" />
+<meta http-equiv="content-style-type" content="text/css" />
+<title>ROCK FIELD CO.,LTD.</title>
+<meta name="application-name" content="ROCK FIELD"/>
+<meta name="viewport" content="width=1200px, maximum-scale=2" />
+<meta name="description" content="企業情報、IR情報、ブランド紹介、店舗検索等の企業情報全般を提供するロック・フィールドの公式ウェブサイトです。" />
+<meta name="keywords" content="ROCK,FIELD,ロック・フィールド,惣菜,RF1,企業サイト,店舗,IR,投資家情報,ニュース,採用情報" />
+<meta property="og:title" content="ROCK FIELD CO.,LTD." />
+<meta property="og:site_name" content="ROCK FIELD CO.,LTD." />
+<meta property="og:type" content="article" />
+<meta property="og:image" content="http://www.rockfield.co.jp/common/img/ogp.png" />
+
+<link rel="shortcut icon" href="/common/img/favicon.ico" />
+<link rel="apple-touch-icon" href="/common/img/apple-touch-icon.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="/common/img/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="/common/img/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon" sizes="120x120" href="/common/img/apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon" sizes="152x152" href="/common/img/apple-touch-icon-152x152.png" />
+
+<link rel="stylesheet" href="/common/css/import.css" type="text/css" media="screen,print" />
+<link rel="stylesheet" href="/css/index.css" type="text/css" media="screen,print" />
+<script src="/common/js/jquery.js" type="text/javascript"></script>
+<script src="/common/js/easing.js" type="text/javascript"></script>
+<script src="/js/index.js" type="text/javascript"></script>
+<script src="/common/js/common.js" type="text/javascript"></script>
+<!--[if lt IE 9]>
+<script src="/common/js/PIE_IE678.js" type="text/javascript"></script>
+<![endif]-->
+
+<style type="text/css">  
+<!-- 
+    .leftbanner {
+        margin-left: 38px;
+
+    }
+
+    .leftbanner img:hover {
+        opacity: 0.7;
+        
+    }
+    
+-->  
+</style>  
+</head>
+
+<body>
+
+<div class="nav_column" id="js-nav_column">
+<h1><a href="http://www.rockfield.co.jp"><img src="/common/img/logo01.gif" alt="ROCK FIELD CO.,LTD." /></a></h1>
+
+<ul class="gnav" id="js-gnav">
+<li>
+	<dl>
+	<dt><a href="/">ホーム</a></dt>
+	</dl>
+</li>
+<li>
+	<dl>
+	<dt><a href="/special/">大切にしていること</a></dt>
+	</dl>
+	<div class="secnav_colmun js-secnav_colmun">
+		<div class="inner">
+			<div class="dir_1" id="js-dir_1">
+			<p><a href="/special/">大切にしていること</a></p>
+			<p class="mt40 title">豊かな食の未来を届けるために、私たちが大切にしていること</p>
+			<ul class="mt40">
+				<li><a href="/special/safety/"><span>安全・安心</span><br />Safeness</a></li>
+				<li><a href="/special/teamwork/"><span>チームワーク</span><br />Teamwork</a></li>
+				<li><a href="/special/environment/"><span>環境</span><br />Ecology</a></li>
+			</ul>
+			</div> <!-- /.dir_1 -->
+		</div> <!-- /.inner -->
+	</div> <!-- /.secnav_colmun -->
+</li>
+<li>
+	<dl>
+	<dt><a href="/brand_shop/">ブランド・店舗検索</a></dt>
+	<dd>
+		<p><a href="/brand_shop/brand/">ブランド紹介</a></p>
+		<p><a href="/shop/">店舗を探す</a></p>
+	</dd>
+	</dl>
+	<div class="secnav_colmun js-secnav_colmun">
+		<div class="inner">
+			<div class="dir_2" id="js-dir_2">
+				<p><a href="/brand_shop/">ブランド・店舗検索TOP</a></p>
+				<p class="mt30"><a href="/brand_shop/brand/">ブランド紹介</a></p>
+				<p class="mt30"><a href="/shop/">店舗を探す</a></p>
+				<ul class="shops">
+				<li><a href="/shop/#map1">東北地方</a></li>
+				<li><a href="/shop/#map2">関東地方</a></li>
+				<li><a href="/shop/#map3">甲信越地方</a></li>
+				<li><a href="/shop/#map4">東海地方</a></li>
+				<li><a href="/shop/#map5">近畿地方</a></li>
+				<li><a href="/shop/#map6">中国地方</a></li>
+				<li><a href="/shop/#map7">四国地方</a></li>
+				<li><a href="/shop/#map8">九州地方</a></li>
+				<li><a href="/shop/#map9">その他の地域</a></li>
+				</ul>
+			</div> <!-- /.dir_2 -->
+		</div> <!-- /.inner -->
+	</div> <!-- /.secnav_colmun -->
+</li>
+<li>
+	<dl>
+	<dt><a href="/company/">企業情報</a></dt>
+	<dd>
+		<p><a href="/company/about/">会社概要</a></p>
+		<p><a href="/company/message/">トップメッセージ</a></p>
+		<p><a href="/company/compliance/">コーポレート・ガバナンス／コンプライアンス</a></p>
+		<p><a href="/company/philosophy/">企業理念</a></p>
+		<p><a href="/company/history/">沿革</a></p>
+		<p><a href="/company/commitment/">社会からの評価</a></p>
+		<p><a href="/company/access/">事業所紹介・アクセスマップ</a></p>
+		<p><a href="/company/contact/">お問い合わせ一覧</a></p>
+		<p><a href="/company/environment/">環境方針</a></p>
+	</dd>
+	</dl>
+	<div class="secnav_colmun js-secnav_colmun">
+		<div class="inner">
+			<div class="dir_3" id="js-dir_3">
+				<p><a href="/company/">企業情報TOP</a></p>
+				<p class="mt10"><a href="/company/about/">会社概要</a></p>
+				<p class="mt10"><a href="/company/message/">トップメッセージ</a></p>
+				<p class="mt10"><a href="/company/compliance/">コーポレート・ガバナンス／コンプライアンス</a></p>
+				<p class="mt10"><a href="/company/philosophy/">企業理念</a></p>
+				<p class="mt10"><a href="/company/history/">沿革</a></p>
+				<p class="mt10"><a href="/company/commitment/">社会からの評価</a></p>
+				<p class="mt10"><a href="/company/access/">事業所紹介・アクセスマップ</a></p>
+				<p class="mt10"><a href="/company/contact/">お問い合わせ一覧</a></p>
+				<p class="mt10"><a href="/company/environment/">環境方針</a></p>
+			</div> <!-- /.dir_3 -->
+		</div> <!-- /.inner -->
+	</div> <!-- /.secnav_colmun -->
+</li>
+<li>
+	<dl>
+	<dt><a href="/newsrelese/">ニュースリリース</a></dt>
+	<dd>
+		<p><a href="/newsrelese/2016.html">2016年</a></p>
+		<p><a href="/newsrelese/2015.html">2015年</a></p>
+		<p><a href="/newsrelese/2014.html">2014年</a></p>
+		<p><a href="/newsrelese/2013.html">2013年</a></p>
+		<p><a href="/newsrelese/2012.html">2012年</a></p>
+		<p><a href="/newsrelese/2011.html">2011年</a></p>
+		<p><a href="/newsrelese/2010.html">2010年</a></p>
+		<p><a href="/newsrelese/2009.html">2009年</a></p>
+		<p><a href="/newsrelese/2008.html">2008年</a></p>
+		<p><a href="/newsrelese/2007.html">2007年</a></p>
+	</dd>
+	</dl>
+	<div class="secnav_colmun js-secnav_colmun">
+		<div class="inner">
+			<div class="dir_4" id="js-dir_4">
+			<dl>
+
+				<dt><span class="date">17.08.17</span><span class="icoSection_01 orange">TOPIC</span></dt>
+				<dd><a href="/newsrelese/pdf/105.pdf" target="_blank">「加熱野菜のサラダ」新登場！RF1、グリーン・グルメで、野菜の新しい食べ方を提案　8/17（木）から販売スタート</a></dd>
+				<dd class="bt"><a href="/newsrelese/pdf/105.pdf" target="_blank" class="btnSection_06">PDF(677KB)</a></dd>
+
+				<dt><span class="date">17.07.31</span><span class="icoSection_01  green">企業</span></dt>
+				<dd><a href="/ir/library/pdf/20170731jinji.pdf" target="_blank">人事異動のお知らせ</a></dd>
+
+				<dt><span class="date">17.07.05</span><span class="icoSection_01 green">企業</span></dt>
+				<dd><a href="/ir/library/pdf/teisei_20170705.pdf" target="_blank">「平成29年4月期　決算短信〔日本基準〕（連結）」の一部訂正について</a></dd>
+
+				<dt><span class="date">17.06.22</span><span class="icoSection_01 orange">TOPIC</span></dt>
+				<dd><a href="/newsrelese/104.html">サラダで、楽しく、ロカボ習慣。～　糖質を緩やかに制限するロカボで、カラダも心も健やかに　～</a></dd>
+				<dd class="bt"><a href="/newsrelese/pdf/104.pdf" target="_blank" class="btnSection_06">PDF(300KB)</a></dd>
+
+				<dt><span class="date">17.06.12</span><span class="icoSection_01 green">企業</span></dt>
+				<dd><a href="/ir/library/pdf/1706-1704.pdf" target="_blank">平成29年4月期　決算説明会資料　掲載しました。</a></dd>
+
+
+			</dl>
+
+
+			<ul>
+			<li><a href="/newsrelese/">2017年</a><li>
+			<li><a href="/newsrelese/2016.html">2016年</a></li>
+			<li><a href="/newsrelese/2015.html">2015年</a></li>
+			<li><a href="/newsrelese/2014.html">2014年</a></li>
+			<li><a href="/newsrelese/2014.html">2013年</a></li>
+			<li><a href="/newsrelese/2013.html">2013年</a></li>
+			<li><a href="/newsrelese/2012.html">2012年</a></li>
+			<li><a href="/newsrelese/2011.html">2011年</a></li>
+			<li><a href="/newsrelese/2010.html">2010年</a></li>
+			<li><a href="/newsrelese/2009.html">2009年</a></li>
+			<li><a href="/newsrelese/2008.html">2008年</a></li>
+			<li><a href="/newsrelese/2007.html">2007年</a></li>
+			</ul>
+			</div> <!-- /.dir_4 -->
+		</div> <!-- /.inner -->
+	</div> <!-- /.secnav_colmun -->
+</li>
+<li>
+	<dl>
+	<dt><a href="/ir/">株主・投資家情報</a></dt>
+	<dd>
+	<!--p><a href="/ir/message/">トップメッセージ</a></p-->
+	<p class="title">財務・業績情報</p>
+	<p><a href="/ir/financial/">財務ハイライト</a></p>
+	<p><a href="/ir/library/monthly.html">月次実績</a></p>
+	<p class="mt15"><a href="/ir/calendar/">IRカレンダー</a></p>
+	<p class="title">IRライブラリー</p>
+	<p><a href="/ir/library/">決算短信</a></p>
+	<p><a href="/ir/library/document.html">決算説明会資料</a></p>
+	<p><a href="/ir/library/report.html">株主通信</a></p>
+	<p><a href="/ir/library/securities.html">有価証券報告書</a></p>
+	<p><a href="/ir/library/report_sp.html">臨時報告書</a></p>
+	<p class="title mt15">株式情報</p>
+	<p><a href="/ir/library/dividend.html">配当金</a></p>
+	<p><a href="/ir/library/meeting.html">株主総会</a></p>
+	<p><a href="/ir/stock/yutai.html">株主優待について</a></p>
+	<p><a href="/ir/stock/">株式諸手続き窓口</a></p>
+	<p class="mt15"><a href="/ir/notification.html">電子公告</a></p>
+	<p><a href="/ir/other_info.html">その他のお知らせ</a></p>
+	<p><a href="/ir/disclosure.html">ディスクロージャーポリシー</a></p>
+	<p><a href="/ir/menseki.html">免責事項</a></p>
+	<p><a href="/ir/ir_sitemap.html">IRサイトマップ</a></p>
+	</dd>
+	</dl>
+	<div class="secnav_colmun js-secnav_colmun">
+		<div class="inner">
+			<div class="dir_5" id="js-dir_5">
+			<dl>
+				<dt><a href="/ir/">株主・投資家情報TOP</a></dt>
+				<!--dt><a href="/ir/message/">トップメッセージ</a></dt-->
+				<dt>財務・業績情報</dt>
+				<dd><a href="/ir/financial/">財務ハイライト</a></dd>
+				<dd><a href="/ir/library/monthly.html">月次実績</a></dd>
+				<dt><a href="/ir/calendar/">IRカレンダー</a></dt>
+				<dt>IRライブラリー</dt>
+				<dd><a href="/ir/library/">決算短信</a></dd>
+				<dd><a href="/ir/library/document.html">決算説明会資料</a></dd>
+				<dd><a href="/ir/library/report.html">株主通信</a></dd>
+				<dd><a href="/ir/library/securities.html">有価証券報告書</a></dd>
+				<dd><a href="/ir/library/report_sp.html">臨時報告書</a></dd>
+				<dt>株式情報</dt>
+				<dd><a href="/ir/library/dividend.html">配当金</a></dd>
+				<dd><a href="/ir/library/meeting.html">株主総会</a></dd>
+				<dd><a href="/ir/stock/yutai.html">株主優待について</a></dd>
+				<dd><a href="/ir/stock/">株式諸手続き窓口</a></dd>
+			</dl>
+			</div> <!-- /.dir_5 -->
+		</div> <!-- /.inner -->
+	</div> <!-- /.secnav_colmun -->
+</li>
+</ul> <!-- /.gnav -->
+
+<ul class="nav01">
+<li>
+	<dl>
+	<dt><a href="/ask/">お客様相談室</a></dt>
+	</dl>
+</li>
+<li>
+	<dl>
+	<dt><a href="/saiyo/">採用情報</a></dt>
+	</dl>
+</li>
+<li>
+	<dl>
+	<dt><a href="/activity/">食育活動</a></dt>
+	</dl>
+</li>
+<li>
+	<dl>
+	<dt><a href="/efforts/">産地との取り組み</a></dt>
+	</dl>
+</li>
+<li>
+	<dl>
+	<dt><a href="/eng/">English</a></dt>
+	</dl>
+</li>
+</ul> <!-- /.nav01 -->
+
+<ul class="nav02">
+
+ <li><a href="http://www.rockfield.co.jp/kidzania/" target="_blank"><img src="/common/img/kidzania2017.png" width="130" height="53" alt="キッザニア東京・キッザニア甲子園オフィシャルスポンサー"></a></li>
+
+ <li><a href="http://www.vissel-kobe.co.jp/" target="_blank"><img src="/common/img/vissel_kobe.png" width="130" height="53" alt="ヴィッセル神戸公式サイト" style="width: 130px; height: 53px;"></a></li>
+
+ <li><a href="http://kobe-marathon.net/2017/" target="_blank"><img src="/common/img/kobe_marathon2017.png" width="130" height="53" alt="神戸マラソン2017オフィシャルスポンサー"></a></li>
+
+</ul><!-- /.nav03 -->
+
+</div> <!-- /.nav_column -->
+
+<div class="main_colmun">
+
+<div class="mainbtnbox js-mainbtnbox">
+<div class="mainbtnBg"></div>
+<dl>
+<dt>豊かな食の未来を届けるために、私たちが大切にしていること</dt>
+<dd>
+<p class="mainbtn01"><a href="/special/safety/"><span>安全・安心</span><br />Safeness</a></p>
+<p class="mainbtn02"><a href="/special/teamwork/"><span>チームワーク</span><br />Teamwork</a></p>
+<p class="mainbtn03"><a href="/special/environment/"><span>環境</span><br />Ecology</a></p>
+</dd>
+</dl>
+</div> <!-- /.mainbtnbox -->
+
+<ul class="mainvid" id="js-mainvid">
+<li>
+<p class="mainimgs js-mainimgs"><img src="/img/index/mainimg01.jpg" alt="" width="100%" /></p>
+<p class="maintxt01" id="js-maintxt01"><img src="/img/index/txt01.png" alt="" width="768" height="193" /></p>
+</li>
+<li>
+<p class="mainimgs js-mainimgs"><img src="/img/index/mainimg01.jpg" alt="" width="100%" /></p>
+<p class="mainimgs2"><img src="/img/index/mainimg01_cover.png" alt="" width="100%" /></p>
+<p class="maintxt02" id="js-maintxt02"><img src="/img/index/txt02.png" alt="" width="896" height="76" /></p>
+<p class="maintxt03" id="js-maintxt03"><img src="/img/index/txt03.png" alt="" width="393" height="242" /></p>
+</li>
+<li>
+<p class="mainimgs js-mainimgs"><img src="/img/index/mainimg02.jpg" alt="" width="100%" /></p>
+</li>
+<li>
+<p class="mainimgs js-mainimgs"><img src="/img/index/mainimg03.jpg" alt="" width="100%" /></p>
+</li>
+<li>
+<p class="mainimgs js-mainimgs"><img src="/img/index/mainimg04.jpg" alt="" width="100%" /></p>
+</li>
+<li>
+<p class="mainimgs js-mainimgs"><img src="/img/index/mainimg05.jpg" alt="" width="100%" /></p>
+</li>
+<li>
+<p class="mainimgs js-mainimgs"><img src="/img/index/mainimg06.jpg" alt="" width="100%" /></p>
+</li>
+<li>
+<p class="mainimgs js-mainimgs"><img src="/img/index/mainimg07.jpg" alt="" width="100%" /></p>
+</li>
+</ul> <!-- /.mainvid -->
+
+
+<!-- 緊急リリースここから-->
+<!-- 緊急リリースここまで-->
+
+
+<div class="news">
+<h2>新着情報</h2>
+<table cellpadding="0" cellspacing="0">
+<col width="1%" />
+<col width="1%" />
+<col width="93%" />
+<col width="5%" />
+
+<tr>
+    <th>17.08.17</th>
+    <td class="icon"><span class="icoSection_01 orange">TOPIC</span></td>
+    <td><a href="/newsrelese/pdf/105.pdf" target="_blank">「加熱野菜のサラダ」新登場！RF1、グリーン・グルメで、野菜の新しい食べ方を提案<br>8/17（木）から販売スタート</a></td>
+    <td><a href="/newsrelese/pdf/105.pdf" target="_blank" class="btnSection_06">PDF(677KB)</a></td>
+</tr>
+<tr>
+    <th>17.08.09</th>
+    <td class="icon"><span class="icoSection_01 green">企業</span></td>
+    <td><a href="/ir/library/monthly.html" target="_blank">7月度月次実績　更新しました。</a></td>
+</tr>
+<tr>
+    <th>17.08.01</th>
+    <td class="icon"><span class="icoSection_01 green">企業</span></td>
+    <td><a href="/ir/library/pdf/20170801rinji.pdf" target="_blank">臨時報告書　掲載しました。</a></td>
+    <td><a href="/ir/library/pdf/20170801rinji.pdf" target="_blank" class="btnSection_06">PDF(204KB)</a></td>
+</tr>
+<tr>
+    <th>17.07.31</th>
+    <td class="icon"><span class="icoSection_01 green">企業</span></td>
+    <td><a href="/ir/library/pdf/20170731jinji.pdf" target="_blank">人事異動のお知らせ</a></td>
+    <td><a href="/ir/library/pdf/20170731jinji.pdf" target="_blank" class="btnSection_06">PDF(81KB)</a></td>
+</tr>
+<tr>
+    <th>17.07.28</th>
+    <td class="icon"><span class="icoSection_01 green">企業</span></td>
+    <td><a href="/ir/library/pdf/report_45r.pdf" target="_blank">第45期　ROCK FIELD REPORT　掲載しました。</a></td>
+    <td><a href="/ir/library/pdf/report_45r.pdf" target="_blank" class="btnSection_06">PDF(8.1MB)</a></td>
+</tr>
+
+
+</table>
+</div> <!-- /.news -->
+<div class="moreNews">
+	<p class="btnSection_03_b"><a href="/news/">バックナンバー</a></p>
+</div>
+
+
+<div class="footer">
+<p class="footnav"><a href="/sitepolicy/">サイトのご利用にあたって</a>　/　<a href="/privacy/index.html">プライバシーポリシー</a>　/　<a href="/sitepolicy/socialmedia-policy.html">ソーシャルメディアポリシー</a></p>
+<p class="copy">Copyright &copy;2013 ROCK FIELD CO.,LTD. All Rights Reserved</p>
+</div> <!-- /.footer -->
+</div> <!-- /.main_colmun -->
+
+<div class="sub_column" id="js-subColmun">
+<ul class="brandlist">
+<li class="brand01"><a href="http://www.rf-one.com/" target="_blank"><img src="/common/img/img02.gif" alt="アール・エフ・ワン" /></a></li>
+<li class="brand02"><a href="http://www.rockfield.co.jp/brand/kc/" target="_blank"><img src="/common/img/img03.gif" alt="神戸コロッケ" /></a></li>
+<li class="brand05"><a href="/brand/vege/" target="_blank"><img src="/common/img/img06.gif" alt="ベジテリア" /></a></li>
+<li class="brand03"><a href="/brand/itohan/" target="_blank"><img src="/common/img/img04.gif" alt="いとはん" /></a></li>
+<li class="brand06"><a href="/brand/yugo/" target="_blank"><img src="/common/img/img07.gif" alt="融合" /></a></li>
+<li class="brand07"><a href="/brand/greengourmet/" target="_blank"><img src="/common/img/img08.gif" alt="グリーン・グルメ" /></a></li>
+<li class="brand07"><a href="/atatame/" target="_blank"><img src="/common/img/atatame.png" alt="商品の温め方に関するご案内" /></a></li>
+</ul>
+</div> <!-- /.sub_column -->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-17602660-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script></body>
+</html>

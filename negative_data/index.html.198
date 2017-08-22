@@ -1,0 +1,397 @@
+﻿<!DOCTYPE html>
+
+<!--[if lt IE 9]><html class="ie"><![endif]-->
+<!--[if gte IE 9]><!-->
+<html itemscope itemtype="http://schema.org/Article" xmlns="http://www.w3.org/1999/xhtml">
+<!--<![endif]-->
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=1024" />
+<link rel="canonical" href="http://www.the-torigoe.co.jp/" />
+
+
+<title>鳥越製粉株式会社</title>
+<meta name="description" content="鳥越製粉では、「使う身になって作る」こと、独創的・創造的であることをモットーに様々なニーズにお応えする商品を開発し、お届けしています。" />
+<meta name="keywords" content="鳥越製粉株式会社,欧風パン,小麦粉" />
+
+<!-- css -->
+<link href="assets/css/global.css" rel="stylesheet" type="text/css" />
+<link href="assets/css/home.css" rel="stylesheet" type="text/css" />
+<link href="assets/css/jquery.simpleSlideShow.css" rel="stylesheet" type="text/css" />
+
+<!-- METADATA -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+<meta name="viewport" content="width=1024" />
+
+<!-- js -->
+
+
+<script type="text/javascript" src="assets/scripts/html5shiv.js"></script>
+<script type="text/javascript" src="assets/scripts/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="assets/scripts/jquery.simpleSlideShow.js"></script>
+
+
+<script type="text/javascript">
+$(function() {
+  $('.simpleSlideShow').SimpleSlideShow({
+    'height' : 662, // ステージの高さ。デフォルトでは1枚目の画像の高さ。
+    'width'  : 435, // ステージの横幅。デフォルトでは1枚目の画像の横幅。
+    'duration' : 2500, // アニメーションにかかる時間。
+    'interval' : 4000  // 次のアニメーションまでのインターバル。
+  });
+});
+</script>
+
+<!-- スムーズスクロール部分の記述 -->
+<script>
+$(function(){
+   // #で始まるアンカーをクリックした場合に処理
+   $('a[href^=#]').click(function() {
+      // スクロールの速度
+      var speed = 400; // ミリ秒
+      // アンカーの値取得
+      var href= $(this).attr("href");
+      // 移動先を取得
+      var target = $(href == "#" || href == "" ? 'html' : href);
+      // 移動先を数値で取得
+      var position = target.offset().top - 70;
+      // スムーススクロール
+      $('body,html').animate({scrollTop:position}, speed, 'swing');
+      return false;
+   });
+});
+</script>
+
+</head>
+
+
+<body>
+<div id="wrapper">
+<div class="header-wrap">
+<div class="header_cap"><h1>独創的・創造的な商品をお届けする「鳥越製粉」です</h1></div>
+<div class="header_logo"><a href="http://www.the-torigoe.co.jp/"><img src="assets/images/header_logo.gif" alt="鳥越製粉株式会社" width="261" height="50"></a></div>
+
+<div class="header_right-box">
+<div class="header_kensaku">
+<!-- ここから検索窓のソースコード -->
+<script>
+  (function() {
+    var cx = '017241487609192853864:nlpsn7ogwjk';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
+<!-- /ここまで検索窓のソースコード -->
+
+</div>
+<div class="clear"></div>
+<div><a href="policy.html" target="_blank"><img src="assets/images/h-right-menu1.gif" alt="プライバシーポリシー" border="0"></a><a href="brouse.html" target="_blank"><img src="assets/images/h-right-menu2.gif" alt="ご利用環境について" border="0"></a><a href="kyujin/index.html"><img src="assets/images/h-right-menu3.gif" alt="求人情報" border="0"></a><a href="english/index.html"><img src="assets/images/h-right-menu4.gif" alt="English" border="0"></a></div>
+</div>
+<div class="clear"></div>
+<header class="main">
+   <ul id="global_nav" >
+   <li class="header-menu4"><a href="index.html"></a></li>
+   <li class="header-menu1"><a href="syohin/index.html"><img src="assets/images/header-menu1.gif" alt="商品情報" width="200" height="52"></a></li>
+   <li class="header-menu2"><a href="http://www.the-torigoe.co.jp/euro/" target="_blank"><img src="assets/images/header-menu2.gif" alt="欧風パンの紹介" width="200" height="52"></a></li>
+   <li class="header-menu3"><a href="tousi/index.html"><img src="assets/images/header-menu3.gif" alt="株主・投資家情報" width="200" height="52"></a></li>
+   <li class="header-menu5"><a href="gaiyo/index.html"><img src="assets/images/header-menu4.gif" alt="会社概要" width="200" height="52"></a></li>
+   <li class="header-menu5"><a href="info/index.html"><img src="assets/images/header-menu5.gif" alt="お問い合せ" width="200" height="52"></a></li>
+   </ul><div class="clear"></div>
+</header>
+</div>
+
+<div class="main-img-bg">
+<div class="main-img">
+<div class="slideshow-box">
+  <div class="simpleSlideShow">
+    <img src="assets/images/header-slider1.jpg" alt="" width="595" height="422" />
+    <img src="assets/images/header-slider2.jpg" alt="" width="595" height="422" />
+    <img src="assets/images/header-slider3.jpg" alt="" width="595" height="422" />
+  <!-- end .simpleSlideShow --></div>
+  <img src="assets/images/header-slider-t.jpg" alt="Top of the world いつの時代も、「美味しい」の笑顔を、皆様へ。" width="390" height="422" class="float_left" />
+<div class="clear"></div>
+</div>
+
+<div class="main-img-link">
+<ul>
+<li><a href="http://www.the-torigoe.co.jp/euro/" target="_blank"><img src="assets/images/h-link-img1.jpg" alt="欧風パン"></a></li>
+<li><a href="pandesmart/index.html" target="_blank"><img src="assets/images/h-link-img2.jpg" alt="Pan de Smart　パンdeスマート"></a></li>
+<li><a href="http://www.the-torigoe.co.jp/shop/" target="_blank"><img src="assets/images/h-link-img3.jpg" alt="鳥越製粉ショッピングウェブ"></a></li>
+<div class="clear"></div>
+</ul>
+</div>
+
+</div>
+</div>
+
+  <div id="content">
+  <div id="left_menu">
+  <img src="assets/images/left_menu-t.png" width="125" height="18" class="left_menu-t">
+  <div class="left_menu-in">
+  <dl>
+  <dt class="left-radius"><a href="syohin/index.html"><img src="assets/images/left_menu-cate1.png" alt="商品情報" width="175" height="24"></a></dt>
+  <dd><a href="syohin/g_kona/index.html">業務用小麦粉・ライ麦粉</a></dd>
+  <dd><a href="syohin/index2.html">業務用ミックス</a></dd>
+  <dd><a href="syohin/index3.html">イノベイト</a></dd>
+  <dd><a href="syohin/g_tutm/index.html">TU・TMシリーズ</a></dd>
+  <dd><a href="syohin/g_reito/index.html">冷凍食品</a></dd>
+  <dd><a href="syohin/index4.html">精麦製品</a></dd>
+  <dd><a href="syohin/index6.html">その他</a></dd>
+  <dd><a href="syohin/index7.html">揚げ上手</a></dd>
+  </dl>
+  
+  <dl>
+  <dt><a href="tousi/index.html"><img src="assets/images/left_menu-cate2.png" alt="株主・投資家情報" width="175" height="27"></a></dt>
+  <dd><a href="tousi/zaimu/index.html">財務情報</a></dd>
+  <dd><a href="tousi/index2.html">法定公告</a></dd>
+  <dd><a href="tousi/index8.html">株主総会</a></dd>
+  <dd><a href="tousi/index3.html">株主優待</a></dd>
+  <dd><a href="tousi/index4.html">株式事務</a></dd>
+  </dl>
+  
+  <dl>
+  <dt><a href="gaiyo/index.html"><img src="assets/images/left_menu-cate3.png" alt="会社概要" width="175" height="27"></a></dt>
+  <dd><a href="gaiyo/index2.html">企業理念</a></dd>
+  <dd><a href="gaiyo/index3.html">スローガン</a></dd>
+  <dd><a href="gaiyo/index4.html">沿革</a></dd>
+  <dd><a href="gaiyo/index5.html">事業所一覧</a></dd>
+  </dl>
+</div>
+  
+<div class="left_menu-in2">
+  <a href="https://job.mynavi.jp/18/pc/search/corp50851/outline.html" target="_blank"><img src="assets/images/left-other-1.jpg" width="150" height="42"><br>↑求人情報</a>
+  <a href="http://stocks.finance.yahoo.co.jp/stocks/detail/?code=2009.t&ct=b" target="_blank"><img src="assets/images/left-other-2.jpg" width="150" height="42"><br>↑鳥越製粉株価情報</a>
+  </div>
+  </div>
+  
+  <div id="right_content">
+  <div class="content_left">
+    <section class="content_box">
+      <div class="head">
+        <h3><img src="assets/images/product-title.png" alt="全国で選ばれているお勧めの品" width="341" height="28"></h3>
+        <span><a href="syohin/index.html"><img src="assets/images/product_itiran.gif" width="53" height="16" alt="製品一覧へ"></a></span>
+        <div class="clear"></div>
+      </div>
+      <div class="product_box-inner clearfix">
+      <ul>
+      <li><a href="pandesmart/index.html" target="_blank"><img src="assets/images/product-img1.jpg" alt="パンdeスマート：焙煎した穀物皮の微粉末と小麦たんぱくを主原料に作り上げた、糖質オフの画期的な食品。 " width="125" height="260"></a></li>
+      <li><a href="syohin/g_kona/index.html"><img src="assets/images/product-img2.jpg" alt="業務用小麦粉・ライ麦粉：用途ごとに、最も適した業務用小麦粉とライ麦粉のラインナップをご紹介します。" width="125" height="260"></a></li>
+      <li><a href="syohin/index2.html"><img src="assets/images/product-img3.jpg" alt="業務用ミックス：加糖ミックスから無糖ミックスまで、各種用途の様々な業務用ミックスをご紹介。" width="125" height="260"></a></li>
+      <li><a href="syohin/g_tutm/index.html"><img src="assets/images/product-img4.jpg" alt="TU･TMシリーズ：欧州最大の製菓・製パン材料メーカーであるウルマ・シュパッツ社との提携品シリーズ。" width="125" height="260"></a></li>
+      </ul>
+      <div class="clear"></div>
+      </div>
+    </section>
+    
+    <section class="news_box">
+        <div class="head">
+          <h3><img src="assets/images/news-title.png" alt="トピックス" width="175" height="28"></h3>
+          <span><a href="topics/index.html"><img src="assets/images/product_itiran.gif" width="53" height="16" alt="製品一覧へ"></a></span>
+          <div class="clear"></div>
+        </div>
+        <div class="inner clearfix">
+
+
+<dl>
+            <dt>2017/8/8</dt>
+            <dd><a href="tousi/index.html" class="arr">平成29年12月期 第2四半期決算短信を発表しました。</a></dd>
+          </dl>
+
+
+
+
+
+<dl>
+            <dt>2017/6/19</dt>
+            <dd><a href="topics/index2.html" class="arr" target="_blank">「つこうてみんね」が「日本雑穀アワード2017」第１回業務用食品部門で
+「金賞」を受賞しました。
+</a></dd>
+          </dl>
+
+
+
+
+<dl>
+            <dt>2017/5/9</dt>
+            <dd><a href="tousi/index.html" class="arr">平成29年12月期 第1四半期決算短信を発表しました。</a></dd>
+          </dl>
+
+
+
+
+<dl>
+            <dt>2017/04/13</dt>
+            <dd><a href="topics/kakaku21.pdf" class="arr" target="_blank">業務用小麦粉の価格改定を発表しました。</a></dd>
+          </dl>
+
+
+
+
+
+<dl>
+            <dt>2017/4/3</dt>
+            <dd><a href="kyujin/index.html" class="arr">2018年4月入社予定者の募集を開始いたしました。</a></dd>
+          </dl>
+
+
+
+
+
+<dl>
+            <dt>2017/2/9</dt>
+            <dd><a href="tousi/index.html" class="arr">平成28年12月期 決算短信を発表しました。</a></dd>
+          </dl>
+
+
+<dl>
+            <dt>2017/1/25</dt>
+            <dd><a href="tousi/index.html" class="arr">平成28年12月期　配当予想の修正に関するお知らせを発表しました。</a></dd>
+          </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+         
+          
+          <div class="clear"></div>
+        </div>
+    </section>
+    <a href="pandesmart/index.html" target="_blank"><img src="assets/images/pandesmart_link.jpg" width="570" height="99"></a>
+    <ul class="index_link"><li>
+    <a href="http://www.the-torigoe.co.jp/euro/" target="_blank"><img src="assets/images/europeen_link.jpg" width="272" height="76"></a></li>
+    <li><a href="http://www.the-torigoe.co.jp/shop/" target="_blank"><img src="assets/images/shopping_link.jpg" width="272" height="76"></a></li>
+    </ul>
+    
+    
+    
+    </div>
+  <div class="content_right"><a href="kaiin/index.html"><img src="assets/images/c_right-login.jpg" alt="法人会員Webログイン" width="190" height="106" class="c-right-img"></a><a href="pandesmart/index.html"><img src="assets/images/c_right-pande.jpg" alt="Pan de Smart　パンdeスマート" width="190" height="154" class="c-right-img"></a><a href="ninreku/index.html"><img src="assets/images/c_right-ninniku.jpg" alt="ニンニクレクチオ" width="190" height="154" class="c-right-img"></a>
+    <section class="content_box">
+      <div class="head">
+        <h3>English Information</h3>
+
+        <div class="clear"></div>
+      </div>
+      <ul class="right-side-bana"><li><a href="english/english.pdf" target="_blank">Company Overview</a></li>
+ <li><a href="english/pan.pdf" target="_blank">Low-Carb Diets&Healthy Pan de smart</a></li>
+ </ul>
+
+    </section>
+    
+    <section class="content_box">
+      <div class="head">
+        <h3>Contact   お問い合せ</h3>
+
+        <div class="clear"></div>
+      </div>
+      <ul class="right-side-mail">
+      <li><a href="info/qmail.html" target="_blank"><img src="assets/images/right-side-mail1.png" width="179" height="54" alt="商品についてお問合せ"></a></li>
+ <li><a href="info/hpmail.html" target="_blank"><img src="assets/images/right-side-mail2.png" width="179" height="37" alt="お問合せ"></a></li>
+ </ul>
+
+    </section>
+    
+    
+  </div>
+  <div class="clear"></div>
+  
+  </div>
+  <div class="clear"></div>
+  </div>
+
+</div>
+
+
+
+<div class="footer-wrap">
+<article class="footer-slider">
+  <div class="scroller"><a class="scroll" href="#wrapper"></a></div>
+</article>
+
+<div class="footer_contact">
+	<div class="footer_con-box">
+     <dl>
+    <dt><img src="assets/images/foote-icon1.png" width="22" height="22"> <a href="syohin/index.html">製品情報</a></dt>
+  <dd><a href="syohin/g_kona/index.html">業務用小麦粉・ライ麦粉</a></dd>
+  <dd><a href="syohin/index2.html">業務用ミックス</a></dd>
+  <dd><a href="syohin/index3.html">イノベイト</a></dd>
+  <dd><a href="syohin/g_tutm/index.html">TU・TMシリーズ</a></dd>
+  <dd><a href="syohin/g_reito/index.html">冷凍食品</a></dd>
+  <dd><a href="syohin/index4.html">精麦製品</a></dd>
+  <dd><a href="syohin/index6.html">その他</a></dd>
+  <dd><a href="syohin/index7.html">揚げ上手</a></dd>
+   </dl>
+
+  <dl>
+  <dt><img src="assets/images/foote-icon2.png" width="22" height="22"> <a href="tousi/index.html">株主・投資家情報</a></dt>
+  <dd><a href="tousi/zaimu/index.html">財務情報</a></dd>
+  <dd><a href="tousi/index2.html">法定公告</a></dd>
+  <dd><a href="tousi/index8.html">株主総会</a></dd>
+  <dd><a href="tousi/index3.html">株主優待</a></dd>
+  <dd><a href="tousi/index4.html">株式事務</a></dd>
+  </dl>
+ 
+   <dl>
+  <dt><img src="assets/images/foote-icon3.png" width="22" height="22"> <a href="gaiyo/index.html">会社概要</a></dt>
+  <dd><a href="gaiyo/index2.html">企業理念</a></dd>
+  <dd><a href="gaiyo/index3.html">スローガン</a></dd>
+  <dd><a href="gaiyo/index4.html">沿革</a></dd>
+  <dd><a href="gaiyo/index5.html">事業所一覧</a></dd>
+    </dl>
+
+   <dl>
+  <dt><img src="assets/images/foote-icon4.png" width="22" height="22"> <a href="info/index.html">お問合せ</a></dt>
+  <dd><a href="info/qmail.html" target="_blank">商品に関する</a></dd>
+  <dd><a href="info/hpmail.html" target="_blank">ホームページに関する</a><br />&nbsp;</dd>
+  <dd></dd>
+  <dd><a href="policy.html" target="_blank">プライバシーポリシー </a></dd>
+  <dd><a href="brouse.html" target="_blank">ご利用環境について </a></dd>
+  
+  </dl>
+
+   <dl class="footer-right">
+  <dd><a href="topics/index.html">トピックス</a></dd>
+  <dd><a href="kyujin/index.html">求人情報</a></dd>
+  <dd><a href="ninreku/index.html">ニンニクレクチオ</a></dd>
+  <dd><a href="kome/index.html">米粉製品のご案内</a></dd>
+  
+  </dl>
+
+  </div>
+</div>
+
+<div class="footer_copy">鳥越製粉 株式会社  〒812-0014 福岡市博多区比恵町5-1 Tel:092-477-7110<br>
+Copyright c 2013 THE TORIGOE CO. LTD All Rights Reserved.</div>
+</div>
+<!-- Piwik --> 
+ <script type="text/javascript">
+ var pkBaseURL = (("https:" == document.location.protocol) ? "https://the-torigoe.co.jp/piwik/" : "http://the-torigoe.co.jp/piwik/");
+ document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+ </script><script type="text/javascript">
+ try {
+ var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 1);
+ piwikTracker.trackPageView();
+ piwikTracker.enableLinkTracking();
+ } catch( err ) {}
+ </script><noscript><p><img src="http://the-torigoe.co.jp/piwik/piwik.php?idsite=1" style="border:0" alt="" /></p></noscript>
+ <!-- End Piwik Tracking Code -->
+</body>
+</html><!--#exec cgi="/cgi-bin/Alog_common.pl" -->

@@ -1,0 +1,340 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="description" content="株式会社コシダカホールディングスは、カラオケ事業、カーブス事業、温浴事業の3事業を中心に総合余暇サービスを提供する企業です。それぞれの地域に根ざした質の高いサービスで、お客様と一緒に成長できるよう「あなたと一緒にワクワクしたい。」をコンセプトに、全国へ事業展開しています。">
+<meta name="keywords" content="コシダカ,コシダカホールディングス,カラオケ,カーブス,まねきねこ,まねきの湯">
+<meta name="viewport" content="initial-scale=1, minimum-scale=1, user-scalable=yes">
+<meta property="og:site_name" content="「あなたと一緒にワクワクしたい。」株式会社コシダカホールディングス">
+<meta property="og:title" content="株式会社コシダカホールディングス｜総合余暇サービス提供企業">
+<meta property="og:url" content="http://www.koshidakaholdings.co.jp/">
+<meta property="og:description" content="株式会社コシダカホールディングスは、カラオケ事業、カーブス事業、温浴事業の3事業を中心に総合余暇サービスを提供する企業です。それぞれの地域に根ざした質の高いサービスで、お客様と一緒に成長できるよう「あなたと一緒にワクワクしたい。」をコンセプトに、全国へ事業展開しています。">
+<meta property="og:image" content="http://www.koshidakaholdings.co.jp/common/img/ogimg.png">
+<meta property="og:type" content="website">
+<!-- <link href='//fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'> -->
+<title>株式会社コシダカホールディングス｜総合余暇サービス提供企業</title>
+<link rel="stylesheet" type="text/css" href="common/css/reset.css" media="all">
+<link rel="stylesheet" type="text/css" href="common/css/cmn_layout.css" media="all">
+<link rel="stylesheet" type="text/css" href="common/css/cmn_style.css" media="all">
+<link rel="stylesheet" type="text/css" href="common/css/slick.css">
+<link rel="stylesheet" type="text/css" href="common/css/slick-theme.css">
+<link rel="stylesheet" type="text/css" href="common/css/jquery.simplyscroll.css">
+<link rel="stylesheet" type="text/css" href="css/style.css" media="all">
+<script src="common/js/jquery.js"></script>
+<script src="common/js/jquery.matchHeight-min.js"></script>
+<script src="common/js/slick.min.js"></script>
+<script src="common/js/jquery.simplyscroll.min.js"></script>
+<script src="common/js/common.js"></script>
+<script>
+$(function(){
+	$('.mainSlider ul').slick({
+		infinite: true,
+		centerMode: true,
+    	centerPadding: '15%',
+		autoplay: true,
+		responsive: [
+			{
+				breakpoint: 768,
+				settings: {
+				arrows: false,
+				centerMode: false,
+				autoplay: true
+				}
+			}
+		]
+	});
+	$('.scrollImage').simplyScroll();
+	
+});
+</script>
+<!--IRPOCKET-->
+<link rel="stylesheet" href="//irpocket.com/2157/irpocket/style_r201611.css">
+<!--/IRPOCKET-->
+</head>
+<body class="top">
+<header id="header">
+	<div class="contentIn">
+		<h1 class="logo"><a href="index.php"><img src="common/img/img_logo01_pc.png" alt="株式会社コシダカホールディングス"></a></h1>
+		<ul class="hNavi">
+			<li><a href="index.php">HOME</a></li>
+			<li><a href="contact/index.php">お問い合わせ</a></li>
+			<li><a href="http://www.koshidakaholdings.co.jp/en/">Global site</a></li>
+		</ul>
+		<p class="menuBtn"><img src="common/img/ico_menu01.png" alt="MENU"></p>
+	</div>
+</header>
+<!-- / #header -->
+
+<nav id="gNavi">
+	<ul>
+		<li><a href="/strengths/" data-current="strength">私たちの強み</a></li>
+		<li class="trigger01"><a href="/corporate/index.php" data-current="corporate"><span>企業情報</span></a>
+			<div class="drawerMenu">
+				<div class="drawerIn">
+					<ul>
+						<li class="spOnly"><a href="/corporate/">企業情報TOP</a></li>
+						<li><a href="/corporate/message.php">メッセージ</a></li>
+						<li><a href="/corporate/philosophy.php">企業理念</a></li>
+						<li><a href="/corporate/outline.php">会社概要</a></li>
+						<li><a href="/corporate/history.php">沿革</a></li>
+						<li><a href="/corporate/business.php">コシダカホールディングスグループ事業</a></li>
+						<li><a href="/corporate/group.php">グループ企業</a></li>
+					</ul>
+				</div>
+			</div>
+		</li>
+		<li class="trigger01"><a href="/ir/" data-current="ir"><span>IR情報</span></a>
+			<div class="drawerMenu">
+				<div class="drawerIn">
+					<ul>
+						<li class="spOnly"><a href="../ir/">IR情報TOP</a></li>
+						<li><a href="/ir/strategy.php">経営方針</a></li>
+						<li class="trigger02"><p><span>財務ハイライト</span></p>
+							<ul>
+								<li><a href="/ir/highlights/">財務ハイライトTOP</a></li>
+								<li><a href="/ir/highlights/results.php">連結経営成績</a></li>
+								<li><a href="/ir/highlights/situation.php">連結財政状況</a></li>
+								<li><a href="/ir/highlights/cashflow.php">連結キャッシュ・フロー状況</a></li>
+								<li><a href="/ir/highlights/individualresults.php">個別経営成績</a></li>
+								<li><a href="/ir/highlights/individualsituations.php">個別財政状況</a></li>
+								<li><a href="/ir/highlights/dividend.php">配当状況</a></li>
+							</ul>
+						</li>
+						<li class="trigger02"><p><span>IRライブラリー</span></p>
+							<ul>
+								<li><a href="/ir/library/">IRライブラリーTOP</a></li>
+								<li><a href="/ir/library/earnings.php">決算短信</a></li>
+								<li><a href="/ir/library/information.php">説明会情報</a></li>
+								<li><a href="/ir/library/securitie.php">有価証券報告書</a></li>
+								<li><a href="/ir/library/report.php">事業報告</a></li>
+								<li><a href="/ir/library/irreport.php">IRレポート</a></li>
+							</ul>
+						</li>
+						<li><a href="/ir/stocks.php">株式について</a></li>
+						<li><a href="/ir/analystcoverage.php">アナリストカバレッジ</a></li>
+						<li><a href="http://stocks.finance.yahoo.co.jp/stocks/detail/?code=2157.T" target="_blank">株価情報</a></li>
+						<li><a href="/ir/announcement.php">電子公告</a></li>
+						<li><a href="/ir/calendar.php">IRカレンダー</a></li>
+						<li><a href="/ir/stockholder.php">株主優待</a></li>
+						<li><a href="/ir/faq.php">IR情報FAQ</a></li>
+						<li><a href="/ir/disclaimer.php">免責事項</a></li>
+					</ul>
+					<ul class="pcOnly">
+						<li class="menuCategory"><a href="/ir/highlights/">財務ハイライト</a></li>
+						<li><a href="/ir/highlights/results.php">連結経営成績</a></li>
+						<li><a href="/ir/highlights/situation.php">連結財政状況</a></li>
+						<li><a href="/ir/highlights/cashflow.php">連結キャッシュ・フロー状況</a></li>
+						<li><a href="/ir/highlights/individualresults.php">個別経営成績</a></li>
+						<li><a href="/ir/highlights/individualsituations.php">個別財政状況</a></li>
+						<li><a href="/ir/highlights/dividend.php">配当状況</a></li>
+					</ul>
+					<ul class="pcOnly">
+						<li class="menuCategory"><a href="/ir/library/">IRライブラリー</a></li>
+						<li><a href="/ir/library/earnings.php">決算短信</a></li>
+						<li><a href="/ir/library/information.php">説明会情報</a></li>
+						<li><a href="/ir/library/securitie.php">有価証券報告書</a></li>
+						<li><a href="/ir/library/report.php">事業報告</a></li>
+						<li><a href="/ir/library/irreport.php">IRレポート</a></li>
+					</ul>
+				</div>
+			</div>
+		</li>
+		<li><a href="/overseas/" data-current="overseas">海外展開</a></li>
+		<li><a href="/adoption/" data-current="adoption">採用情報</a></li>
+		<li class="spOnly"><a href="/news/">ニュースリリース一覧</a></li>
+		<li class="spOnly"><a href="/privacy/">プライバシーポリシー</a></li>
+        <li class="spOnly"><a href="/contact/">お問い合わせ</a></li>
+        <li class="spOnly"><a href="http://www.koshidakaholdings.co.jp/en/">Global site</a></li>
+	</ul>
+</nav>
+<!-- / #gNavi -->
+
+<div class="koshidaka_top01"></div>
+<div class="koshidaka_top02 spOnly"><img src="img/index/bg_main_tousyou_sp.jpg" /></div>
+
+<div id="main">
+<!-- <div class="mainSlider">
+		<ul>
+			<li><img src="img/top/mainimg_top01.jpg" alt=""></li>
+			<li><img src="img/top/mainimg_top02.jpg" alt=""></li>
+			<li><img src="img/top/mainimg_top03.jpg" alt=""></li>
+		</ul>
+	</div> -->
+	<section class="sec01">
+		<div class="contentIn">
+			<h2><img src="img/top/sttl_news01.png" alt="NEWS RELEASE"></h2>
+            
+<!--IRPOCKET-->
+<div id="irp-press-custom-top" class="newsList irp-press-list-top"></div>
+<!--/IRPOCKET-->
+			<p><a href="news/" class="linkStyle01">ニュースリリース一覧</a></p>
+		</div>
+	</section>
+	<section class="sec02">
+		<div class="contentIn">
+			<h2><img src="img/top/sttl_advantage01.png" alt="ADVANTAGE"></h2>
+            <div class="fl">
+			<h3>すべては<br class="pcOnly">お客様のために</h3>
+			<p class="txtStyle01">私たちは､世界の人々の<br class="pcOnly">健康と元気を支える<br class="pcOnly">｢総合余暇サービス提供企業｣です。</p>
+			<p><a href="strengths/" class="linkStyle01">私たちの強みはこちら</a></p>
+            </div>
+            <div class="fR">
+			<img src="img/top/img_top01.png" alt="For the customer">
+            </div>
+		</div>
+	</section>
+	<section class="sec03">
+		<div class="contentIn">
+			<h2><img src="img/top/sttl_greeting01.png" alt="GREETING"></h2>
+			<h3>世界の人々の<br>健康と元気を支えていきたい</h3>
+			<p class="txtStyle01">｢既存業種新業態｣の事業がさまざまな場所で、<br>新たな市場､そして笑顔を生み出しています。</p>
+			<p><a href="corporate/message.php" class="linkStyle01">代表メッセージはこちら</a></p>
+			<p><img src="img/top/img_top02.png" alt="既存業種新業態"></p>
+		</div>
+	</section>
+	<section class="sec04">
+		<div class="contentIn">
+			<h2><img src="img/top/sttl_advantage01.png" alt="ADVANTAGE"></h2>
+			<div class="fL">
+				<img src="img/top/img_top03.png" alt="発送の転換">
+			</div>
+			<div class="fR">
+				<h3>発想の転換</h3>
+				<h4>既存業種新業態とは?</h4>
+				<p class="txtStyle01">既に世の中にある業種や業態において<br>「余暇」を切り口とした発想で、<br>今までになかった付加価値を生み出すビジネスです。</p>
+				<p><a href="strengths/" class="linkStyle01">私たちの強みはこちら</a></p>
+			</div>
+		</div>
+	</section>
+	<section class="sec05">
+		<div class="contentIn">
+			<div class="text">
+				<h2>チャレンジと進化の歴史</h2>
+				<p><a href="corporate/history.php" class="linkStyle01">グループ沿革はこちら</a></p>
+			</div>
+		</div>
+		<ul class="scrollImage">
+			<li><img src="img/top/img_history01.jpg" alt="歴史"></li>
+		</ul>
+	</section>
+	<section class="sec06">
+		<div class="contentIn">
+			<h2><img src="img/top/sttl_business01.png" alt="BUSINESS"></h2>
+			<p><a href="corporate/business.php#karaoke"><img src="img/top/btn_business01_pc_off.png" alt="カラオケ事業"></a></p>
+			<h3>あなたのそばにもっと<br class="spOnly"><span>｢ワクワク｣</span>を増やします。</h3>
+			<ul>
+				<li><a href="corporate/business.php#curves"><img src="img/top/btn_business02_pc_off.png" alt="カーブス事業"></a></li>
+				<li><a href="corporate/business.php#manekinou"><img src="img/top/btn_business03_pc_off.png" alt="温浴事業"></a></li>
+			</ul>
+		</div>
+	</section>
+	<section class="sec07">
+		<div class="contentIn">
+			<h2><img src="img/top/sttl_information01.png" alt="INFORMATION"></h2>
+			<ul>
+				<li><a href="ir/index.php"><img src="img/top/bnr_top01_off.png" alt="IR情報はこちら"></a></li>
+				<li><a href="adoption/" target="_blank"><img src="img/top/bnr_top02_off.png" alt="採用情報はこちら"></a></li>
+			</ul>
+		</div>
+	</section>
+	<section class="sec08">
+		<div class="contentIn">
+			<h2><img src="img/top/sttl_brand01.png" alt="GROUP BRAND"></h2>
+			<ul>
+				<li><a href="http://www.karaokemanekineko.jp/" target="_blank"><img src="img/top/img_brand01.png" alt="カラオケまねきねこ"></a></li>
+				<li><a href="https://1kara.jp/" target="_blank"><img src="img/top/img_brand02.png" alt="ワンカラ"></a></li>
+				<li><a href="http://www.curves.co.jp/" target="_blank"><img src="img/top/img_brand04.png" alt="Curves"></a></li>
+				<li><a href="http://www.manekinoyu.jp/" target="_blank"><img src="img/top/img_brand05.png" alt="まねきの湯"></a></li>
+			</ul>
+			<dl>
+				<dt>グループ企業</dt>
+				<dd><a href="http://www.koshidaka.co.jp/" target="_blank">株式会社コシダカ</a></dd>
+				<dd><a href="http://www.curves.co.jp/" target="_blank">株式会社カーブスジャパン　</a></dd>
+			</dl>
+		</div>
+	</section>
+</div>
+<!-- / #main -->
+
+<footer id="footer">
+	<div class="fNavi">
+		<div class="contentIn">
+			<div class="col05">
+				<h3><a href="/strengths/">私たちの強み</a></h3>
+				<h3><a href="/corporate/">企業情報</a></h3>
+				<ul>
+					<li><a href="/corporate/message.php">メッセージ</a></li>
+					<li><a href="/corporate/philosophy.php">企業理念</a></li>
+					<li><a href="/corporate/outline.php">会社概要</a></li>
+					<li><a href="/corporate/history.php">沿革</a></li>
+					<li><a href="/corporate/business.php">コシダカホールディングスグループ事業</a></li>
+					<li><a href="/corporate/group.php">グループ企業</a></li>
+				</ul>
+			</div>
+			<div class="col05">
+				<h3><a href="/ir/">IR情報</a></h3>
+				<ul>
+					<li><a href="/ir/strategy.php">経営方針</a></li>
+					<li><a href="/ir/highlights/">財務ハイライト</a></li>
+					<li><a href="/ir/library/">IRライブラリー</a></li>
+					<li><a href="/ir/stocks.php">株式について</a></li>
+					<li><a href="/ir/analystcoverage.php">アナリストカバレッジ</a></li>
+					<li><a href="http://stocks.finance.yahoo.co.jp/stocks/detail/?code=2157.T" target="_blank">株価情報</a></li>
+					<li><a href="/ir/announcement.php">電子公告</a></li>
+					<li><a href="/ir/calendar.php">IRカレンダー</a></li>
+					<li><a href="/ir/stockholder.php">株主優待</a></li>
+					<li><a href="/ir/faq.php">IR情報FAQ</a></li>
+					<li><a href="/ir/disclaimer.php">免責事項</a></li>
+				</ul>
+			</div>
+			<div class="col05">
+				<h3><a href="/ir/highlights/">IR情報 &gt; 財務ハイライト</a></h3>
+				<ul>
+					<li><a href="/ir/highlights/results.php">連結経営成績</a></li>
+					<li><a href="/ir/highlights/situation.php">連結財政状況</a></li>
+					<li><a href="/ir/highlights/cashflow.php">連結キャッシュ・フロー状況</a></li>
+					<li><a href="/ir/highlights/individualresults.php">個別経営成績</a></li>
+					<li><a href="/ir/highlights/individualsituations.php">個別財政状況</a></li>
+					<li><a href="/ir/highlights/dividend.php">配当状況</a></li>
+				</ul>
+			</div>
+			<div class="col05">
+				<h3><a href="/ir/library/">IR情報 &gt; IR ライブラリー</a></h3>
+				<ul>
+					<li><a href="/ir/library/earnings.php">決算短信</a></li>
+					<li><a href="/ir/library/information.php">説明会情報</a></li>
+					<li><a href="/ir/library/securitie.php">有価証券報告書</a></li>
+					<li><a href="/ir/library/report.php">事業報告</a></li>
+					<li><a href="/ir/library/irreport.php">IRレポート</a></li>
+				</ul>
+			</div>
+			<div class="col05">
+				<h3><a href="/adoption/">採用情報</a></h3>
+				<h3><a href="/contact/">お問い合わせ</a></h3>
+				<h3><a href="/overseas/">海外展開</a></h3>
+				<h3><a href="/news/">ニュースリリース一覧</a></h3>
+				<h3><a href="/privacy/">プライバシーポリシー</a></h3>
+				<h3><a href="http://www.koshidaka.co.jp/" target="_blank">株式会社コシダカ</a></h3>
+			</div>
+		</div>
+	</div>
+	<small class="copyright">Copyright &copy; 2016 Koshidaka Holdings. <br class="spOnly">All rights reserved.</small>
+</footer>
+<!-- / #footer -->
+<p id="topLink"><a href="#"><img src="common/img/btn_toplink01.png" alt="↑"></a></p>
+<!--IRPOCKET-->
+<script type="text/javascript" src="//irpocket.com/2157/irpocket/hd_loader_alt_r201611.js" charset="utf-8"></script>
+<!--/IRPOCKET-->
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-18278142-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

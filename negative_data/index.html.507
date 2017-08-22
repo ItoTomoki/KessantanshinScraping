@@ -1,0 +1,631 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"  "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<meta name="keywords" content="NAFCO, ナフコ, ホームセンター, TWO ONE STYLE, 九州, DIY, 日曜大工, Do It Yourself, 資材, インテリア, ショップ, 家具">
+<meta name="description" content="家具とホームセンターのナフコ。">
+<meta name="copyright" content="Copyright &copy; NAFCO Corporation. All rights reserved.">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<title>株式会社ナフコ | HOME</title>
+<link rel="stylesheet" href="common/css/base_corporate.css" type="text/css" title="style">
+<link rel="stylesheet" href="common/css/base_home.css" type="text/css" title="style">
+<link rel="stylesheet" href="common/css/base_dropdown.css" type="text/css">
+<link type="text/css" href="common/css/skitter.styles.css" media="all" rel="stylesheet">
+<script src="http://www.google.com/jsapi"></script>
+<script>
+  google.load("jquery", "1.7");
+  google.load("jqueryui", "1.7");
+</script>
+<script type="text/javascript" language="javascript" src="common/js/jquery.dropdownPlain.js"></script>
+<script src="jquery.carouFredSel-5.6.2.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(function() {
+	$("ul#ScrollUL").carouFredSel({
+		scroll: {
+			item: 4,
+			pauseOnHover: true
+		},
+		items: {
+			visible: 4,
+			minimum: 1,
+			width: 238,
+			height: 145
+		},
+		scroll: {
+			items: 1,
+			duration: 700
+		},
+		auto: {
+			delay: 100
+		},
+		width: '830px',
+		height: '145px',
+		prev: "#Leftbtn",
+		next: "#Rightbtn"
+	});
+});
+</script>
+<script type="text/javascript" src="common/js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="common/js/jquery.skitter.js"></script>
+<script type="text/javascript" language="javascript">
+  $(document).ready(function() {
+    $(".box_skitter_large").skitter({
+      velocity:0.6,
+      numbers:false,
+      navigation:false,
+      label:false,
+      stop_over:false,
+      interval:4500
+    });
+  });
+</script>
+
+<link rel="stylesheet" href="common/css/scrollarea.css" type="text/css">
+<!--[if IE ]>
+<link rel="stylesheet" type="text/css" href="common/css/scrollarea_ie.css">
+<script type="text/javascript" src="common/js/PIE.js"></script>
+<script type="text/javascript">
+$(function()
+{
+  $('ul.dropdown ul').each(function()
+  {
+    PIE.attach(this);
+  });
+  $('ul.dropdown ul li.last-child').each(function()
+  {
+    PIE.attach(this);
+  });
+});
+</script>
+<![endif]-->
+</head>
+<body>
+
+<div id="wrapper">
+<!--　header　--><!--　header　-->
+
+	<div id="header"><a href="/top/index.html"><img alt="NAFCO Home Center and Home Fashion Store" src="/top/images/img_top_header.gif"></a></div>
+	<ul class="dropdown" style="z-index:31;">
+        	<li id="01" style="margin-left:72px; margin-right:20px;" class="d-menu01"><a href="/top/index.html" class="dmenu"><img alt="HOME" src="/top/images/btn_topnavi01.gif"></a></li>
+        	<li id="02" style="margin-right:20px;" class="d-menu02"><a href="/corporate/c_info/index.html" class="dmenu"><img alt="企業情報" src="/top/images/btn_topnavi02.gif"></a>
+        		<ul id="pulldown_02" class="sub_menu">
+        			<li><a href="/corporate/c_info/index.html">社長メッセージ</a></li>
+        			<li><a href="/corporate/c_info/index02.html">ナフコのビジョン</a></li>
+        			<li><a href="/corporate/c_info/index03.html">事業内容</a></li>
+        			<li><a href="/corporate/c_info/index04.html">会社概要</a></li>
+        			<li><a href="/corporate/c_info/index05.html">沿革</a></li>
+        			<li><a href="/stores/">店舗情報</a></li>
+        			<li class="last-child" style="font-size:10px;"><a href="/corporate/english/c_info/index.html">Corporate Information</a></li>
+        		</ul>
+        	</li>
+
+        	<li id="03" style="margin-right:20px;" class="d-menu03"><a href="/stores/" class="dmenu"><img alt="店舗情報" src="/top/images/btn_topnavi03.gif"></a>
+        		<ul id="pulldown_03" class="sub_menu">
+        			<li><a href="/stores/?c=tohoku">東北エリアマップ</a></li>
+        			<li><a href="/stores/?c=kanto">関東エリアマップ</a></li>
+        			<li><a href="/stores/?c=chubu">中部エリアマップ</a></li>
+        			<li><a href="/stores/?c=kinki">近畿エリアマップ</a></li>
+        			<li><a href="/stores/?c=chugoku">中国エリアマップ</a></li>
+        			<li><a href="/stores/?c=shikoku">四国エリアマップ</a></li>
+        			<li class="last-child"><a href="/stores/?c=kyusyu">九州エリアマップ</a></li>
+        		</ul>
+        	</li>
+
+        	<li id="04" style="margin-right:20px;" class="d-menu04"><a href="/corporate/ir/index.html" class="dmenu"><img alt="投資家の皆様へ" src="/top/images/btn_topnavi04.gif"></a>
+        		<ul id="pulldown_04" class="sub_menu">
+        			 <li><a href="/corporate/ir/index.html">IRニュース</a></li>
+        			 <li><a href="/corporate/ir/index02.html">ナフコの戦略</a></li>
+        			 <li><a href="/corporate/ir/monthlysales/monthlysales_top.html">月次売上推移</a></li>
+        			 <li><a href="/corporate/ir/index04.html">業績推移</a></li>
+        			 <li><a href="/corporate/ir/index05.html">決算短信</a></li>
+        			 <li><a href="/corporate/ir/irother/irother_top.html">IR情報その他</a></li>
+        			 <li class="last-child"><a href="/corporate/english/ir/index.html">Investor Relations</a></li>
+        		</ul>
+        	</li>
+
+        	<li id="05" style="margin-right:20px;" class="d-menu05"><style class="dmenu"><img alt="採用希望の皆様へ" src="/top/images/btn_topnavi05.gif"></style>
+        		<ul id="pulldown_05" class="sub_menu">
+        			 <li><a href="http://www.nafco.biz/recruit/" target="_blank">新&nbsp;卒 / 第二新卒 採用情報<br/>
+<span style="letter-spacing:-2px;"></span>「ナフコのシゴト」</a></li>
+        			 <li class="last-child"><a href="http://www.nafco.biz/saiyou/" target="_blank">パート アルバイト採用情報</a></li>
+        		</ul>
+        	</li>
+        	<li id="06" class="d-menu06"><a href="/top/contact/index.html" class="dmenu"><img alt="お問い合わせ" src="/top/images/btn_topnavi06.gif"></a></li>
+        </ul>
+
+<!--　/header　--><!--　/header　-->
+	<div id="container">
+		<div id="level1">
+			<div id="keyvisual_box">
+				<div class="box_skitter box_skitter_large">
+					<ul>
+						<li>
+							<img src="images/01.jpg" class="cubeHide">
+						</li>
+						<li>
+							<img src="images/02.jpg" class="fadeFour">
+						</li>
+						<li>
+							<img src="images/03.jpg" class="showBars">
+						</li>
+						<li>
+							<img src="images/04.jpg" class="blindWidth">
+						</li>
+						<li>
+							<img src="images/05.jpg" class="cubeStop">
+						</li>
+						<li>
+							<img src="images/06.jpg" class="glassBlock">
+						</li>
+						<li>
+							<img src="images/07.jpg" class="cubeJelly">
+						</li>
+						<li>
+							<img src="images/08.jpg" class="fade">
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<ul id="btnblock"><li><a href="/index.html" target="_blank"><img alt="ホームセンターナフコのサイトはコチラ" src="images/btn_hc.gif"></a></li><li>
+				<a href="http://www.21style.co.jp/" target="_blank"><img alt="TWO-ONE STYLEサイトはこちら" src="images/btn_21style.gif"></a></li></ul>
+			<div class="floatclear"></div>
+		</div>
+		<div id="level2">
+<!-- Banner Area -->
+	<div id="waku">
+	<div id="Leftbtn"> </div>
+	<div id="ViewArea">
+		<div id="ScrollArea">
+			<ul id="ScrollUL">
+<!--▼ バナー：ここから▼ -->
+<li><a href="http://www.nafco.biz/nadepo/" target="_blank"><img src="./banner/bnr_nadepo.gif" alt="ナデポカード　新サービス開始！！" /><p><span class="banner_title">●ナデポカード　新サービス開始！！</span><br/>くわしくはこちらから&gt;&gt;</p></a></li>
+<!--▲ バナー：ここまで▲-->
+<!--▼ バナー：ここから▼ -->
+<li><a href="http://www.nafco.biz/card/" target="_blank"><img src="./banner/bnr_card.gif" alt="ナフコ専用決済カード　リニューアル！！" /><p><span class="banner_title">●ナフコ専用決済カード　リニューアル！！</span><br/>
+くわしくはこちらから&gt;&gt;</p></a></li>
+<!--▲ バナー：ここまで▲-->
+<!--▼ バナー：ここから▼ -->
+<li><a href="http://www.nafco.biz/nadepo/" target="_blank"><img src="banner/bnr_nadepocampaign.gif" alt="●8月ナデポポイント5倍デーは6日・20日" /><p><span class="banner_title">●8月ナデポポイント5倍デーは6日・20日</span><br/>
+くわしくはこちらから>>&gt;&gt;</p></a></li>
+<!--▲ バナー：ここまで▲-->
+<!--▼ バナー：ここから▼ -->
+<li><a href="http://www.nafco.biz/open/shigaotsu/" target="_blank"><img src="banner/bnr_224.gif" 
+alt="●7/14 OPEN！ツーワンスタイル滋賀大津店オープンチラシ（7/14～  ）" /><p><span class="banner_title"> ●7/14 OPEN！ツーワンスタイル滋賀大津店オープンチラシ（7/14～  ）</span><br/>
+オープニングキャンペーン情報をご紹介！>>&gt;&gt;</p></a></li>
+<!--▲ バナー：ここまで▲-->
+<!--▼ バナー：ここから▼ -->
+			<li><a href="http://www.nafco.biz/saiyou/" target="_blank"><img src="./banner/bnrsaiyou.gif" alt="採用情報" /><p><span class="banner_title">●ナフコで働いてみませんか？<br /></span>
+ナフコの採用情報<br />くわしくはこちらから&gt;&gt;</p></a></li>
+<!--▲ バナー：ここまで▲-->
+<!--▼ バナー：ここから▼ -->
+<li><a href="http://www.nafco.biz/digi-chira/campaign/exterior22/" target="_blank"><img src="./banner/bnr_ex_feature.gif" alt="ナフコが自信を持ってオススメするエクステリア特集" />
+<p><span class="banner_title">●ナフコが自信を持ってオススメする<br>
+エクステリア特集（8/1～8/31）</span><br/>
+くわしくはこちらから&gt;&gt;</p></a></li>
+<!--▲ バナー：ここまで▲-->
+<!--▼ バナー：ここから▼ -->
+<li><a href="http://www.nafco.biz/taxfree/" target="_blank"><img src="./banner/taxfree_bnr.jpg" alt="Enjoy Great Tax-Free Shopping at Nafco!" />
+<p><span class="banner_title">●Enjoy Great Tax-Free Shopping<br/>at Nafco!</span></p></a></li>
+<!--▲ バナー：ここまで▲-->
+<!--▼ バナー：ここから▼ -->
+<li><a href="http://www.nafco.biz/digi-chira/campaign/genmai/" target="_blank"><img src="./banner/bnr_horeiko.gif" alt="ナフコオリジナルの白い保冷庫　玄米保冷庫・保管庫" /><p><span class="banner_title">●ナフコオリジナルの白い保冷庫<br/>「玄米保冷庫・保管庫」</span><br/>くわしくはこちらから&gt;&gt;</p></a></li>
+<!--▲ バナー：ここまで▲-->
+
+<!--▼ バナー：ここから▼ -->
+<li><a href="http://www.nafco.biz/digi-chira/campaign/gf201406/" target="_blank"><img src="./banner/bnr_takasho.gif" alt="タカショーのガーデンファニチャーお庭のインテリア「無料宅配サービス」" /><p><span class="banner_title">●タカショーのガーデンファニチャー<br/>お庭のインテリア「無料宅配サービス」</span><br/>
+くわしくはこちらから&gt;&gt;</p></a></li>
+<!--▲ バナー：ここまで▲-->
+
+<!--▼ バナー：ここから▼ -->
+<li><a href="http://www.nafco.biz/digi-chira/campaign/gensen/" target="_blank"><img src="./banner/bnr_gensen.gif" alt="厳選特価　自信を持っておすすめするお買得品の数々！" /><p><span class="banner_title">●厳選特価<br /></span>ナフコが自信を持っておすすめする<br/>お買得品の数々！</p></a></li>
+<!--▲ バナー：ここまで▲-->
+
+<!--▼ バナー：ここから▼ -->
+<li><a href="http://www.nafco.biz/catalog/index.html" target="_blank"><img src="./banner/bnr_digitalcatalog.gif" alt="デジタルカタログ" /><p><span class="banner_title">●デジタルカタログ<br /></span>
+簡単操作で、最新のデジタルカタログをご覧いただけます！</p></a></li>
+<!--▲ バナー：ここまで▲-->
+
+<!--▼ バナー：ここから▼ -->
+			<li><a href="http://www.nafco.biz/digi-chira/" target="_blank"><img src="./banner/bnr_digitalchirashi.gif" alt="デジタルチラシ" /><p><span class="banner_title">●デジタルチラシ<br /></span>
+ホームセンター用品、ツーワンスタイルの最新チラシをご覧いただけます！</p></a></li>
+<!--▲ バナー：ここまで▲-->
+			</ul>		
+		</div>		
+	</div>
+	<div id="Rightbtn"> </div>
+	<div id="alfa1"> </div>
+	<div id="alfa2"> </div>
+	</div>
+<!-- Banner Area End -->
+		</div>
+		<div id="level3">
+			<div id="info">
+
+                <div id="info_important">
+
+
+
+
+                 <h1>被災された方々に謹んでお見舞いを申し上げます</h1>
+                    <p class="info_importantp">この度の九州北部豪雨により被災されました皆様に、心よりお見舞い申し上げます。<br/>
+                    一日も早い復旧をお祈り申し上げます。</p>
+                </div>
+                <div style="height:20px;">
+                </div>
+
+
+				<ul id="btnlist_width">
+					<li><a href="/stores/"><img alt="店舗検索　ホームセンターナフコ＆ツーワンスタイルの店舗検索はこちらから" src="images/btn_shopsearch01.gif"></a></li>
+					<li class="centerbtn">
+					<a href="http://www.nafco.biz/digi-chira/" target="_blank"><img alt="ホームセンター・チラシ　ホームセンター用品の今月のおすすめ情報はこちらから" src="images/btn_hc_chirashi.gif"></a></li>
+					<li>
+					<a href="http://www.21style.co.jp/campaign/index.html" target="_blank"><img alt="ツーワン・お買得商品　ツーワンからあなたへ。今だけのお買得情報はこちらから" src="images/btn_21style_okaitoku.gif"></a></li>
+				</ul>
+				<div class="floatclear"></div>
+				<!--▼▼▼ニュースリリース　ここから▼▼▼-->
+				<table cellpadding="0" cellspacing="0" class="info">
+					<tr>
+						<td width="16"><img alt="" src="images/bg_top_infokado01.gif"></td>
+						<td width="24"></td>
+						<td width="72"></td>
+						<td width="60"></td>
+						<td width="21"></td>
+						<td width="479"></td>
+						<td width="16"><img alt="" src="images/bg_top_infokado02.gif"></td>
+					</tr>
+					<tr>
+						<td colspan="7" style="padding-left:16px;"><img alt="ニュースリリース" src="images/img_top_newsrelease.gif"></td>
+					</tr>
+					<tr>
+						<td colspan="7" height="20"></td>
+					</tr>
+					<!--▼▼ニュースリリース - txtファイル　ここから▼▼-->
+						<!--　newsrelease　-->					<!--▼▼▼ニュースリリースお知らせ1行ここから▼▼▼-->
+					<tr>
+							<td></td>
+							<td><img alt="" src="images/img_top_info.gif"></td>
+							<td>2017.08.10</td>
+							<td><img alt="IR情報" src="images/img_top_ir.gif"></td>
+							<td><a href="../corporate/ir/press/nafcopress_170810.pdf" target="_blank"><img alt="" height="16" src="images/pdficon.gif" width="16"></a></td>
+							<td><a href="../corporate/ir/press/nafcopress_170810.pdf" target="_blank">平成30年３月期第１四半期決算短信を掲載しました。</a></td>
+							<td></td>
+					</tr>
+					<tr>
+							<td></td>
+							<td colspan="5" class="border"></td>
+							<td></td>
+					</tr>
+					<!--▲▲▲ニュースリリースお知らせ1行ここまで▲▲▲-->
+					<!--▼▼▼ニュースリリースお知らせ1行ここから▼▼▼-->
+					<tr>
+							<td></td>
+							<td><img alt="" src="images/img_top_info.gif"></td>
+							<td>2017.08.10</td>
+							<td><img alt="IR情報" src="images/img_top_ir.gif"></td>
+							<td><a href="../corporate/ir/press/nafcopress_170810-02.pdf" target="_blank"><img alt="" height="16" src="images/pdficon.gif" width="16"></a></td>
+							<td><a href="../corporate/ir/press/nafcopress_170810-02.pdf" target="_blank">「平成29年7月九州北部豪雨」に対する義援金について を掲載しました。</a></td>
+							<td></td>
+					</tr>
+					<tr>
+							<td></td>
+							<td colspan="5" class="border"></td>
+							<td></td>
+					</tr>
+					<!--▲▲▲ニュースリリースお知らせ1行ここまで▲▲▲-->
+					<!--▼▼▼ニュースリリースお知らせ1行ここから▼▼▼-->
+					<tr>
+							<td></td>
+							<td><img alt="" src="images/img_top_info.gif"></td>
+							<td>2017.08.07</td>
+							<td><img alt="IR情報" src="images/img_top_ir.gif"></td>
+							<td><a href="../corporate/ir/monthlysales/monthlysales_top.html" target="_blank"><img alt="" height="16" src="images/ico_nafco.gif" width="16"></a></td>
+							<td><a href="../corporate/ir/monthlysales/monthlysales_top.html" target="_blank">7月度売上推移速報を掲載しました。</a></td>
+							<td></td>
+					</tr>
+					<tr>
+							<td></td>
+							<td colspan="5" class="border"></td>
+							<td></td>
+					</tr>
+					<!--▲▲▲ニュースリリースお知らせ1行ここまで▲▲▲-->
+					<!--▼▼▼ニュースリリースお知らせ1行ここから▼▼▼-->
+					<tr>
+					<td></td>
+					<td><img alt="" src="images/img_top_info.gif"></td>
+					<td>2017.07.21</td>
+					<td><img alt="お知らせ" src="images/img_top_oshirase.gif"></td>
+					<td><a href="http://www.nafco.biz/nadepo/" target="_blank"><img alt="" height="16" src="images/ico_nafco.gif" width="16"></a></td>
+					<td><a href="http://www.nafco.biz/nadepo/" target="_blank">8月のポイントイベントについてのお知らせを掲載しました。</a></td>
+					<td></td>
+					</tr>
+					<tr>
+					<td></td>
+					<td colspan="5" class="border"></td>
+					<td></td>
+					</tr>
+					<!--▲▲▲ニュースリリースお知らせ1行ここまで▲▲▲-->
+                                        <!--▼▼▼ニュースリリースお知らせ1行ここから▼▼▼-->
+					<tr>
+							<td></td>
+							<td><img alt="" src="images/img_top_info.gif"></td>
+							<td>2017.07.06</td>
+							<td><img alt="IR情報" src="images/img_top_ir.gif"></td>
+							<td><a href="../corporate/ir/monthlysales/monthlysales_top.html" target="_blank"><img alt="" height="16" src="images/ico_nafco.gif" width="16"></a></td>
+							<td><a href="../corporate/ir/monthlysales/monthlysales_top.html" target="_blank">6月度売上推移速報を掲載しました。</a></td>
+							<td></td>
+					</tr>
+					<tr>
+							<td></td>
+							<td colspan="5" class="border"></td>
+							<td></td>
+					</tr>
+					<!--▲▲▲ニュースリリースお知らせ1行ここまで▲▲▲-->
+<!--　/newsrelease　-->
+					<!--▲▲ニュースリリース - txtファイル　ここまで▲▲-->
+					<tr>
+						<td><img alt="" src="images/bg_top_infokado03.gif"></td>
+						<td></td>
+						<td></td>
+						<td ></td>
+						<td>&nbsp;</td>
+						<td></td>
+						<td><img alt="" src="images/bg_top_infokado04.gif"></td>
+					</tr>
+				</table>
+				<!--▲▲▲ニュースリリース　ここまで▲▲▲-->
+				<!--▼▼店舗情報のお知らせ　ここから▼▼-->
+					<!--　shopinfo　-->				<table cellpadding="0" cellspacing="0" class="info">
+					<tr>
+						<td width="16"><img alt="" src="/top/images/bg_top_infokado01.gif"></td>
+						<td width="24"></td>
+						<td width="72"></td>
+						<td width="539"></td>
+						<td width="16"><img alt="" src="/top/images/bg_top_infokado02.gif"></td>
+					</tr>
+					<tr>
+						<td colspan="5" style="padding-left:16px;"><img alt="店舗に関するお知らせ" src="/top/images/img_top_shopinfomation.gif"></td>
+					</tr>
+					<tr>
+						<td colspan="5" height="20"></td>
+					</tr>
+	
+				
+					<!--▼▼▼店舗に関するお知らせ1行ここから▼▼▼-->
+					<tr>
+						<td></td>
+						<td><img alt="" src="/top/images/img_top_info.gif"></td>
+						<td>2017.08.31</td>
+						<td><a href="/top/info/170817.html">「ツーワンスタイル　大津パルコ店」閉店のお知らせ</a></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td colspan="3" class="border"></td>
+						<td></td>
+					</tr>
+		    	         	<!--▲▲▲店舗に関するお知らせ1行ここまで▲▲▲-->
+					<!--▼▼▼店舗に関するお知らせ1行ここから▼▼▼-->
+					<tr>
+						<td></td>
+						<td><img alt="" src="/top/images/img_top_info.gif"></td>
+						<td>2017.07.27</td>
+						<td><a href="/top/info/170727.html">広島県の「西広島店」改装オープン！</a></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td colspan="3" class="border"></td>
+						<td></td>
+					</tr>
+		    		<!--▲▲▲店舗に関するお知らせ1行ここまで▲▲▲-->
+					<!--▼▼▼店舗に関するお知らせ1行ここから▼▼▼-->
+					<tr>
+						<td></td>
+						<td><img alt="" src="/top/images/img_top_info.gif"></td>
+						<td>2017.07.25</td>
+						<td><a href="/top/info/170725-02.html">「　ナフコ豊前店　」閉店のお知らせ</a></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td colspan="3" class="border"></td>
+						<td></td>
+					</tr>
+		    	        	<!--▲▲▲店舗に関するお知らせ1行ここまで▲▲▲-->
+					<!--▼▼▼店舗に関するお知らせ1行ここから▼▼▼-->
+					<tr>
+						<td></td>
+						<td><img alt="" src="/top/images/img_top_info.gif"></td>
+						<td>2017.07.25</td>
+						<td><a href="/top/info/170725-01.html">「　ナフコ大分店　」閉店のお知らせ</a></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td colspan="3" class="border"></td>
+						<td></td>
+					</tr>
+		    		        <!--▲▲▲店舗に関するお知らせ1行ここまで▲▲▲-->
+					<!--▼▼▼店舗に関するお知らせ1行ここから▼▼▼-->
+					<tr>
+						<td></td>
+						<td><img alt="" src="/top/images/img_top_info.gif"></td>
+						<td>2017.07.14</td>
+						<td><a href="/top/info/170712.html">滋賀県の「滋賀大津店」が改装オープン！</a></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td colspan="3" class="border"></td>
+						<td></td>
+					</tr>
+		    		        <!--▲▲▲店舗に関するお知らせ1行ここまで▲▲▲-->
+
+						<td><img alt="" src="/top/images/bg_top_infokado03.gif"></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td><img alt="" src="/top/images/bg_top_infokado04.gif"></td>
+					</tr>
+				</table><!--　/shopinfo　-->
+				<!--▲▲店舗情報のお知らせ　ここまで▲▲-->
+				<!--▼▼▼サイト更新のお知らせ　ここから▼▼▼-->
+                <table cellpadding="0" cellspacing="0" class="info">
+					<tr>
+						<td width="16"><img alt="" src="images/bg_top_infokado01.gif"></td>
+						<td width="24"></td>
+						<td width="72"></td>
+						<td width="539"></td>
+						<td width="16"><img alt="" src="images/bg_top_infokado02.gif"></td>
+					</tr>
+					<tr>
+						<td colspan="5" style="padding-left:16px;"><img alt="サイト更新のお知らせ" src="images/img_top_topics.gif"></td>
+					</tr>
+					<tr>
+						<td colspan="5" style="height: 20px"></td>
+					</tr>
+					<!--▼▼サイト更新のお知らせ - txtファイル　ここから▼▼-->
+						<!--　siteinfo　-->
+											<!--▼▼▼サイト更新のお知らせ1行ここから▼▼▼-->
+					<tr>
+						<td></td>
+						<td><img alt="" src="images/img_top_info.gif"></td>
+						<td>2017.08.10</td>
+						<td><a href="../corporate/ir/index.html">IRニュースを更新しました。</a></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td colspan="3" class="border"></td>
+						<td></td>
+					</tr>
+					<!--▲▲▲サイト更新のお知らせ1行ここまで▲▲▲-->
+					<!--▼▼▼サイト更新のお知らせ1行ここから▼▼▼-->
+					<tr>
+						<td></td>
+						<td><img alt="" src="images/img_top_info.gif"></td>
+						<td>2017.08.07</td>
+						<td><a href="../corporate/ir/index.html">IRニュースを更新しました。</a></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td colspan="3" class="border"></td>
+						<td></td>
+					</tr>
+					<!--▲▲▲サイト更新のお知らせ1行ここまで▲▲▲-->
+					<!--▼▼▼サイト更新のお知らせ1行ここから▼▼▼-->
+					<tr>
+							<td></td>
+							<td><img alt="" src="images/img_top_info.gif"></td>
+							<td>2017.07.24</td>
+							<td><a href="/ichigoichie/column79.html">
+							コラム「一期一会のある暮らし」を更新しました。</a></td>
+							<td></td>
+					</tr>
+					<tr>
+							<td></td>
+							<td colspan="3" class="border"></td>
+							<td></td>
+					</tr>
+					<!--▲▲▲サイト更新のお知らせ1行ここまで▲▲▲-->
+					<!--▼▼▼サイト更新のお知らせ1行ここから▼▼▼-->
+					<tr>
+							<td></td>
+							<td><img alt="" src="images/img_top_info.gif"></td>
+							<td>2017.07.21</td>
+							<td><a href="http://www.nafco.biz/nadepo/">8月のポイントイベントについて</a></td>
+							<td></td>
+					</tr>
+					<tr>
+							<td></td>
+							<td colspan="3" class="border"></td>
+							<td></td>
+					</tr>
+					<!--▲▲▲サイト更新のお知らせ1行ここまで▲▲▲-->										
+					<!--▼▼▼サイト更新のお知らせ1行ここから▼▼▼-->
+					<tr>
+						<td></td>
+						<td><img alt="" src="images/img_top_info.gif"></td>
+						<td>2017.07.06</td>
+						<td><a href="../corporate/ir/index.html">IRニュースを更新しました。</a></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td colspan="3" class="border"></td>
+						<td></td>
+					</tr>
+					<!--▲▲▲サイト更新のお知らせ1行ここまで▲▲▲-->
+<!--　/siteinfo　-->
+					<!--▲▲サイト更新のお知らせ - txtファイル　ここまで▲▲-->
+					<tr>
+						<td><img alt="" src="images/bg_top_infokado03.gif"></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td><img alt="" src="images/bg_top_infokado04.gif"></td>
+					</tr>
+				</table>
+				<!--▲▲▲サイト更新のお知らせ　ここまで▲▲▲-->
+                
+			</div>
+
+			<ul id="btnlist_length">
+				<li><a href="/stores/"><img alt="店舗検索" src="images/btn_shopsearch02.gif"></a></li>
+				<li><a href="http://www.nafco.biz/digi-chira/" target="_blank"><img alt="デジタルチラシ" src="images/btn_digitalchirashi.gif"></a></li>
+				<li><a href="http://www.nafco.biz/catalog/hi/" target="_blank"><img alt="ホームセンター関連デジタルカタログ" src="images/btn_digitalcatalog01.gif"></a></li>
+				<li><a href="http://www.nafco.biz/catalog/index.html" target="_blank"><img alt="家具・ホームファッションデジタルカタログ" src="images/btn_digitalcatalog02.gif"></a></li>
+				<li><a href="http://www.nafco.biz/nadepo/" target="_blank"><img alt="ナデポカード" src="images/btn_nadepo.gif"></a></li>
+				<li><a href="http://www.nafco.biz/card/" target="_blank"><img alt="法人・自営業者の方向け　便利な３つのカード" src="images/btn_3card.gif"></a></li>
+				<li><a href="../products/ryohin01.html" target="_blank"><img alt="良品得価" src="images/btn_ryouhintokka.gif"></a></li>	
+				<li><a href="../ichigoichie/index.html" target="_blank"><img alt="連載コラム　一期一会のある暮らし" src="images/btn_hc_column.gif"></a></li>
+				<li><a href="../21style/twoonelife/column77.html" target="_blank"><img alt="連載コラム　TWO-ONEな暮らし" src="images/btn_21style_column.gif"></a></li>	
+				<li><a href="../corporate/c_info/index.html"><img alt="企業情報" src="images/btn_profile.gif"></a></li>
+				<li><a href="../corporate/ir/index.html"><img alt="投資家の皆様へ" src="images/btn_investor.gif"></a></li>	
+				<li><a href="http://www.nafco.biz/recruit/" target="_blank"><img alt="新卒/第二新卒採用情報「ナフコのシゴト」" src="images/btn_recruit01.gif"></a></li>
+				<li><a href="http://www.nafco.biz/saiyou/" target="_blank"><img alt="パート・アルバイト採用情報" src="images/btn_recruit02.gif"></a></li>
+				<li><a href="../special/development/development.html"><img alt="出店用地をご紹介いただける皆様へ" src="images/btn_syuttenyouchi.gif"></a></li>	
+				<li><a href="supplier/index.html"><img alt="お取引先様へ" src="images/btn_customer.gif"></a></li>
+				<li><a href="../corporate/kids/index.html"><img alt="子育て応援宣言" src="images/kozodate_banner.gif"></a></li>	
+			</ul>
+			<div class="floatclear"></div>
+		</div>
+	</div>
+<!--　footer　--><!--　footer　-->
+
+	<div id="footer">
+		<div id="copyright">Copyright (C) 2001<script type="text/javascript">
+// <![CDATA[
+TYnow = new Date();document.write( '-' + TYnow.getFullYear() );
+// ]]>
+</script>
+NAFCO Corporation. All rights reserved.</div>
+		<ul id="footermenu">
+			<li><a href="/top/sitemap/index.html">サイトマップ</a></li><li><a href="javascript:void(0)" onClick="window.open('/menseki.html','sub','width=400,height=320,scrollbars=yes')">
+			免責事項</a></li>
+			<li><a href="javascript:void(0)" onClick="window.open('/privacy.html','sub','width=400,height=620,scrollbars=yes')">
+			プライバシーポリシー</a></li>
+		</ul>
+		<div class="floatclear"></div>
+	</div>
+
+<!--　/footer　--><!--　/footer　-->
+</div>
+
+<script type="text/javascript"> 
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www."); 
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E")); 
+</script> 
+
+<script type="text/javascript"> 
+try { 
+var pageTracker = _gat._getTracker("UA-10911665-1"); 
+pageTracker._trackPageview(); 
+} catch(err) {}
+</script>
+
+</body>
+</html>

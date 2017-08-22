@@ -1,0 +1,1084 @@
+<!DOCTYPE html>
+<html lang="ja" prefix="og: http://ogp.me/ns#">
+<head>
+<meta charset="UTF-8">
+<title>FIELDS株式会社</title>
+<meta name="viewport" content="width=1170, maximum-scale=1">
+<!--[if lt IE 9]><script type="text/javascript" src="http://html5shim.googlecode.com/svn/trunk/html5.js#no-minify"></script><![endif]-->
+<!--[if lt IE 9]><script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js#no-minify"></script><![endif]-->
+<!-- IE11では描写がEdgeで行われておりその影響でマオーが正常に表示されないためIE10で表示させる -->
+<meta http-equiv="x-ua-compatible" content="IE=10" > 
+<meta http-equiv="x-ua-compatible" content="IE=EmulateIE10" > 
+
+<meta property="og:image" content="/img/ogp/logo.jpg" />
+<meta name="keywords" content="FIELDS株式会社,フィールズ株式会社,パチンコ,パチスロ,コミックス,アニメーション,映画,テレビ,マーチャンダイジング" />
+<meta name="description" content="フィールズ株式会社のウェブサイト。東京都渋谷区。遊技機の企画開発。遊技機の仕入、販売。キャラクター、コンテンツの企画開発、販売。映像ソフトの企画開発、販売" />
+<meta name="robots" content="noydir" />
+<meta name="robots" content="noodp" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="cache-control" content="max-age=0" />
+<meta http-equiv="expires" content="0" />
+
+<link rel="canonical" href="http://www.fields.biz/" />
+<link rel="shortcut icon" href="/favicon.ico" /><link href="/css/pc-all-min.css?20170317-1344" rel="stylesheet" type="text/css" media="all" />
+<script type="text/javascript" src="/js/pc-all-min.js?20170317-1344"></script>
+<script type="text/javascript">
+var Fields = {};
+
+Fields.constants = {
+
+	
+};
+
+Fields.constants.config = {
+};
+
+
+Fields.constants.url = {
+
+	domain : 'http://www.fields.biz',
+	img_domain : 'http://img.fields.biz'
+	
+};
+
+Fields.constants.idToUrl = {
+
+'1f2r'	:	'/concept/2r',
+
+'1f3r'	:	'/concept/3r',
+
+'3f1r'	:	'/comic/1r',
+
+'3flist'	:	'/comic/list',
+
+'3fdetail'	:	'/comic/detail',
+
+'6f1r'	:	'/pachinko/1r',
+
+'6flist'	:	'/pachinko/list',
+
+'6fdetail'	:	'/pachinko/detail',
+
+'5f1r'	:	'/consumer/1r',
+
+'5flist'	:	'/consumer/list',
+
+'5fdetail'	:	'/consumer/detail',
+
+'2f1r'	:	'/license/1r',
+
+'2flist'	:	'/license/list',
+
+'2fdetail'	:	'/license/detail',
+
+'4f1r'	:	'/anime/1r',
+
+'4flist'	:	'/anime/list',
+
+'4fdetail'	:	'/anime/detail',
+
+};
+
+Fields.constants.spritefiles = function(){
+	'usestrict';
+	var server = Fields.constants.url.img_domain;
+	var factory = function(dir,srcSize,width,height,fps){
+		var srcs = new Array();
+		for(var i = 0; i < srcSize; i++){
+			srcs.push(dir + '/' + ("00" + i).slice(-3) + '.png');
+		}
+		return {
+			srcs	: srcs,
+			loading	: dir + '.png',
+			width 	: width,
+			height 	: height,
+			fps 	: fps
+		}
+	}
+	return {
+	'1f1r' : factory('http://img.fields.biz/img/navigator/sprite/2013ss/C/move/sprite',6,715,604, 10),}
+}();
+
+Fields.constants.turnOverFiles = {
+	'6fdetail' : {
+		'resources' : [
+			
+			{'src':['http://img.fields.biz/img/navigator/sprite/2013ss/C/L/c_ryoutedouzo/2/000.png','http://img.fields.biz/img/navigator/sprite/2013ss/C/L/c_ryoutedouzo/2/001.png'],'top' : 0,'left' : 0,'noLoop' : true},
+			{'src':['http://img.fields.biz/img/navigator/sprite/2013ss/C/L/c_ryoutedouzo/1/000.png','http://img.fields.biz/img/navigator/sprite/2013ss/C/L/c_ryoutedouzo/1/001.png'],'top' : 0,'left' : 0,'noLoop' : false}
+		],
+		'width'		: 656,
+		'height'	: 651,
+		'fps'		: 10,
+		'wait'		: 1500
+	},
+	'5flist' : {
+		'resources' : [
+			
+			{'src':['http://img.fields.biz/img/navigator/sprite/2013ss/C/L/c_ryoutedouzo/2/000.png','http://img.fields.biz/img/navigator/sprite/2013ss/C/L/c_ryoutedouzo/2/001.png'],'top' : 0,'left' : 0,'noLoop' : true},
+			{'src':['http://img.fields.biz/img/navigator/sprite/2013ss/C/L/c_ryoutedouzo/1/000.png','http://img.fields.biz/img/navigator/sprite/2013ss/C/L/c_ryoutedouzo/1/001.png'],'top' : 0,'left' : 0,'noLoop' : false}
+		],
+		'width'		: 656,
+		'height'	: 651,
+		'fps'		: 10,
+		'wait'		: 1500
+	},
+	'4f1r' : {
+		'resources' : [
+			
+			{'src':['http://img.fields.biz/img/navigator/sprite/2013ss/C/L/c_kubiyoko/2/000.png','http://img.fields.biz/img/navigator/sprite/2013ss/C/L/c_kubiyoko/2/001.png'],'top' : 0,'left' : 0,'noLoop' : true},
+			{'src':['http://img.fields.biz/img/navigator/sprite/2013ss/C/L/c_kubiyoko/1/000.png','http://img.fields.biz/img/navigator/sprite/2013ss/C/L/c_kubiyoko/1/001.png'],'top' : 0,'left' : 0,'noLoop' : false}
+		],
+		'width'		: 656,
+		'height'	: 651,
+		'fps'		: 10,
+		'wait'		: 1500
+	},
+	'3fdetail' : {
+		'resources' : [
+			
+			{'src':['http://img.fields.biz/img/navigator/sprite/2013ss/C/L/c_warai/2/000.png','http://img.fields.biz/img/navigator/sprite/2013ss/C/L/c_warai/2/001.png'],'top' : 0,'left' : 0,'noLoop' : true},
+			{'src':['http://img.fields.biz/img/navigator/sprite/2013ss/C/L/c_warai/1/000.png','http://img.fields.biz/img/navigator/sprite/2013ss/C/L/c_warai/1/001.png'],'top' : 0,'left' : 0,'noLoop' : false}
+		],
+		'width'		: 656,
+		'height'	: 651,
+		'fps'		: 10,
+		'wait'		: 1500
+	},
+	'3flist' : {
+		'resources' : [
+			
+			{'src':['http://img.fields.biz/img/navigator/sprite/2013ss/C/S/c_zassikubiyoko/2/000.png','http://img.fields.biz/img/navigator/sprite/2013ss/C/S/c_zassikubiyoko/2/001.png'],'top' : 0,'left' : 0,'noLoop' : true},
+			{'src':['http://img.fields.biz/img/navigator/sprite/2013ss/C/S/c_zassikubiyoko/1/000.png'],'top' : 0,'left' : 0,'noLoop' : false}
+		],
+		'width'		: 337,
+		'height'	: 604,
+		'fps'		: 10,
+		'wait'		: 1500
+	},
+	'5f1r' : {
+		'resources' : [
+			
+			{'src':['http://img.fields.biz/img/navigator/sprite/2013ss/C/S/c_douzo/2/000.png','http://img.fields.biz/img/navigator/sprite/2013ss/C/S/c_douzo/2/001.png'],'top' : 0,'left' : 0,'noLoop' : true},
+			{'src':['http://img.fields.biz/img/navigator/sprite/2013ss/C/S/c_douzo/1/000.png'],'top' : 0,'left' : 0,'noLoop' : false}
+		],
+		'width'		: 337,
+		'height'	: 604,
+		'fps'		: 10,
+		'wait'		: 1500
+	},
+	'4flist' : {
+		'resources' : [
+			
+			{'src':['http://img.fields.biz/img/navigator/sprite/2013ss/C/S/c_douzo/2/000.png','http://img.fields.biz/img/navigator/sprite/2013ss/C/S/c_douzo/2/001.png'],'top' : 0,'left' : 0,'noLoop' : true},
+			{'src':['http://img.fields.biz/img/navigator/sprite/2013ss/C/S/c_douzo/1/000.png'],'top' : 0,'left' : 0,'noLoop' : false}
+		],
+		'width'		: 337,
+		'height'	: 604,
+		'fps'		: 10,
+		'wait'		: 1500
+	},
+	'6flist' : {
+		'resources' : [
+			
+			{'src':['http://img.fields.biz/img/navigator/sprite/2013ss/C/S/c_kubiyoko/2/000.png','http://img.fields.biz/img/navigator/sprite/2013ss/C/S/c_kubiyoko/2/001.png'],'top' : 0,'left' : 0,'noLoop' : true},
+			{'src':['http://img.fields.biz/img/navigator/sprite/2013ss/C/S/c_kubiyoko/1/000.png'],'top' : 0,'left' : 0,'noLoop' : false}
+		],
+		'width'		: 337,
+		'height'	: 604,
+		'fps'		: 10,
+		'wait'		: 1500
+	},
+	'contact' : {
+		'resources' : [
+			
+			{'src':['http://img.fields.biz/img/navigator/sprite/2013ss/C/L/c_ojigi/000.png','http://img.fields.biz/img/navigator/sprite/2013ss/C/L/c_ojigi/001.png'],'top' : 0,'left' : 0,'noLoop' : true}
+		],
+		'width'		: 656,
+		'height'	: 651,
+		'fps'		: 10,
+		'wait'		: 1500
+	},
+	'5fdetail' : {
+		'resources' : [
+			
+			{'src':['http://img.fields.biz/img/navigator/sprite/2013ss/C/S/c_ryoutedouzo2/2/000.png','http://img.fields.biz/img/navigator/sprite/2013ss/C/S/c_ryoutedouzo2/2/001.png'],'top' : 0,'left' : 0,'noLoop' : true},
+			{'src':['http://img.fields.biz/img/navigator/sprite/2013ss/C/S/c_ryoutedouzo2/1/000.png'],'top' : 0,'left' : 0,'noLoop' : false}
+		],
+		'width'		: 337,
+		'height'	: 604,
+		'fps'		: 10,
+		'wait'		: 1500
+	},
+	'7fdetail' : {
+		'resources' : [
+			
+			{'src':['http://img.fields.biz/img/navigator/sprite/2013ss/C/S/c_douzo/2/000.png','http://img.fields.biz/img/navigator/sprite/2013ss/C/S/c_douzo/2/001.png'],'top' : 0,'left' : 0,'noLoop' : true},
+			{'src':['http://img.fields.biz/img/navigator/sprite/2013ss/C/S/c_douzo/1/000.png'],'top' : 0,'left' : 0,'noLoop' : false}
+		],
+		'width'		: 337,
+		'height'	: 604,
+		'fps'		: 10,
+		'wait'		: 1500
+	},
+	'2f1r' : {
+		'resources' : [
+			
+			{'src':['http://img.fields.biz/img/navigator/sprite/2013ss/C/S/c_mabataki/1/000.png','http://img.fields.biz/img/navigator/sprite/2013ss/C/S/c_mabataki/1/001.png','http://img.fields.biz/img/navigator/sprite/2013ss/C/S/c_mabataki/1/002.png'],'top' : 0,'left' : 0,'noLoop' : false}
+		],
+		'width'		: 337,
+		'height'	: 604,
+		'fps'		: 10,
+		'wait'		: 1500
+	},
+	'3f1r' : {
+		'resources' : [
+			
+			{'src':['http://img.fields.biz/img/navigator/sprite/2013ss/C/L/c_zassiageru/2/000.png','http://img.fields.biz/img/navigator/sprite/2013ss/C/L/c_zassiageru/2/001.png'],'top' : 0,'left' : 0,'noLoop' : true},
+			{'src':['http://img.fields.biz/img/navigator/sprite/2013ss/C/L/c_zassiageru/1/000.png','http://img.fields.biz/img/navigator/sprite/2013ss/C/L/c_zassiageru/1/001.png'],'top' : 0,'left' : 0,'noLoop' : false}
+		],
+		'width'		: 656,
+		'height'	: 651,
+		'fps'		: 10,
+		'wait'		: 1500
+	},
+	'7f1r' : {
+		'resources' : [
+			
+			{'src':['http://img.fields.biz/img/navigator/sprite/2013ss/C/S/c_ojigi/2/000.png','http://img.fields.biz/img/navigator/sprite/2013ss/C/S/c_ojigi/2/001.png'],'top' : 0,'left' : 0,'noLoop' : true},
+			{'src':['http://img.fields.biz/img/navigator/sprite/2013ss/C/S/c_ojigi/1/000.png','http://img.fields.biz/img/navigator/sprite/2013ss/C/S/c_ojigi/1/001.png'],'top' : 0,'left' : 0,'noLoop' : false}
+		],
+		'width'		: 337,
+		'height'	: 604,
+		'fps'		: 10,
+		'wait'		: 1500
+	},
+	'1f3r' : {
+		'resources' : [
+			
+			{'src':['http://img.fields.biz/img/navigator/sprite/2013ss/C/S/c_douzo/2/000.png','http://img.fields.biz/img/navigator/sprite/2013ss/C/S/c_douzo/2/001.png'],'top' : 0,'left' : 0,'noLoop' : true},
+			{'src':['http://img.fields.biz/img/navigator/sprite/2013ss/C/S/c_douzo/1/000.png'],'top' : 0,'left' : 0,'noLoop' : false}
+		],
+		'width'		: 337,
+		'height'	: 604,
+		'fps'		: 10,
+		'wait'		: 1500
+	},
+	'1f2r' : {
+		'resources' : [
+			
+			{'src':['http://img.fields.biz/img/navigator/sprite/2013ss/C/L/c_mabataki/1/000.png','http://img.fields.biz/img/navigator/sprite/2013ss/C/L/c_mabataki/1/001.png','http://img.fields.biz/img/navigator/sprite/2013ss/C/L/c_mabataki/1/002.png','http://img.fields.biz/img/navigator/sprite/2013ss/C/L/c_mabataki/1/003.png'],'top' : 0,'left' : 0,'noLoop' : false}
+		],
+		'width'		: 656,
+		'height'	: 651,
+		'fps'		: 10,
+		'wait'		: 1500
+	},
+	'4fdetail' : {
+		'resources' : [
+			
+			{'src':['http://img.fields.biz/img/navigator/sprite/2013ss/C/L/c_mabataki/1/000.png','http://img.fields.biz/img/navigator/sprite/2013ss/C/L/c_mabataki/1/001.png','http://img.fields.biz/img/navigator/sprite/2013ss/C/L/c_mabataki/1/002.png','http://img.fields.biz/img/navigator/sprite/2013ss/C/L/c_mabataki/1/003.png'],'top' : 0,'left' : 0,'noLoop' : false}
+		],
+		'width'		: 656,
+		'height'	: 651,
+		'fps'		: 10,
+		'wait'		: 1500
+	},
+	'2flist' : {
+		'resources' : [
+			
+			{'src':['http://img.fields.biz/img/navigator/sprite/2013ss/C/L/c_douzo/2/000.png','http://img.fields.biz/img/navigator/sprite/2013ss/C/L/c_douzo/2/001.png'],'top' : 0,'left' : 0,'noLoop' : true},
+			{'src':['http://img.fields.biz/img/navigator/sprite/2013ss/C/L/c_douzo/1/000.png','http://img.fields.biz/img/navigator/sprite/2013ss/C/L/c_douzo/1/001.png'],'top' : 0,'left' : 0,'noLoop' : false}
+		],
+		'width'		: 656,
+		'height'	: 651,
+		'fps'		: 10,
+		'wait'		: 1500
+	},
+	'2fdetail' : {
+		'resources' : [
+			
+			{'src':['http://img.fields.biz/img/navigator/sprite/2013ss/C/S/c_ryoutedouzo2/2/000.png','http://img.fields.biz/img/navigator/sprite/2013ss/C/S/c_ryoutedouzo2/2/001.png'],'top' : 0,'left' : 0,'noLoop' : true},
+			{'src':['http://img.fields.biz/img/navigator/sprite/2013ss/C/S/c_ryoutedouzo2/1/000.png'],'top' : 0,'left' : 0,'noLoop' : false}
+		],
+		'width'		: 337,
+		'height'	: 604,
+		'fps'		: 10,
+		'wait'		: 1500
+	},
+	'7flist' : {
+		'resources' : [
+			
+			{'src':['http://img.fields.biz/img/navigator/sprite/2013ss/C/L/c_warai/2/000.png','http://img.fields.biz/img/navigator/sprite/2013ss/C/L/c_warai/2/001.png'],'top' : 0,'left' : 0,'noLoop' : true},
+			{'src':['http://img.fields.biz/img/navigator/sprite/2013ss/C/L/c_warai/1/000.png','http://img.fields.biz/img/navigator/sprite/2013ss/C/L/c_warai/1/001.png'],'top' : 0,'left' : 0,'noLoop' : false}
+		],
+		'width'		: 656,
+		'height'	: 651,
+		'fps'		: 10,
+		'wait'		: 1500
+	},
+	'6f1r' : {
+		'resources' : [
+			
+			{'src':['http://img.fields.biz/img/navigator/sprite/2013ss/C/L/c_douzo/2/000.png','http://img.fields.biz/img/navigator/sprite/2013ss/C/L/c_douzo/2/001.png'],'top' : 0,'left' : 0,'noLoop' : true},
+			{'src':['http://img.fields.biz/img/navigator/sprite/2013ss/C/L/c_douzo/1/000.png','http://img.fields.biz/img/navigator/sprite/2013ss/C/L/c_douzo/1/001.png'],'top' : 0,'left' : 0,'noLoop' : false}
+		],
+		'width'		: 656,
+		'height'	: 651,
+		'fps'		: 10,
+		'wait'		: 1500
+	},
+	'1f1r' : {
+		'resources' : [
+			
+			{'src':['http://img.fields.biz/img/navigator/sprite/2013ss/C/S/move/1/000.png','http://img.fields.biz/img/navigator/sprite/2013ss/C/S/move/1/001.png'],'top' : 0,'left' : 0,'noLoop' : false}
+		],
+		'width'		: 337,
+		'height'	: 604,
+		'fps'		: 10,
+		'wait'		: 1500
+	}
+};
+
+Fields.constants.background = {
+	 '1f' : "/img/1f/bg.jpg"
+	,'2f' : "/img/2f/bg.jpg"
+	,'3f' : "/img/3f/bg.jpg"
+	,'4f' : "/img/4f/bg.jpg"
+	,'5f' : "/img/5f/bg.jpg"
+	,'6f' : "/img/6f/bg.jpg"
+	,'7f' : "/img/7f/bg.jpg"
+};
+Fields.constants.isTablet = false</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.j' + 's','ga');
+
+  
+	  ga('create', 'UA-41455817-1', 'fields.biz');
+  
+  ga('send', 'pageview');
+</script>
+<script type="text/javascript" src="/js/index-min.js?20170317-1344"></script>
+</head>
+<body>
+<div id="js_imgLoad">
+<img src="http://img.fields.biz/img/navigator/sprite/2013ss/C/move/sprite/000.png" style="display:none;"><img src="http://img.fields.biz/img/navigator/sprite/2013ss/C/move/sprite/001.png" style="display:none;"><img src="http://img.fields.biz/img/navigator/sprite/2013ss/C/move/sprite/002.png" style="display:none;"><img src="http://img.fields.biz/img/navigator/sprite/2013ss/C/move/sprite/003.png" style="display:none;"><img src="http://img.fields.biz/img/navigator/sprite/2013ss/C/move/sprite/004.png" style="display:none;"><img src="http://img.fields.biz/img/navigator/sprite/2013ss/C/move/sprite/005.png" style="display:none;"><img src="http://img.fields.biz/img/navigator/sprite/2013ss/C/L/c_ojigi/001.png" style="display:none;"><img src="http://img.fields.biz/img/navigator/sprite/2013ss/C/L/c_ojigi/000.png" style="display:none;"></div>
+
+<!-- [[ LOADING ]] -->
+<div id="overlay01"></div>
+<div id="loading">
+<p><img src="/img/common/loading.gif" width="606" height="205" alt="このサイトでは部屋を上下左右に移動できます The room is movable vertically and horizontally at this site."></p>
+</div>
+<!-- [[ /LOADING ]] -->
+
+<!-- [[ MOVIE ]] -->
+<div id="overlay02" style="display:none;"></div>
+<div id="movie" style="display:none;">
+</div>
+<!-- [[ /MOVIE ]] -->
+
+<!-- [[ HEADER ]] -->
+<header>
+<div class="inner cf">
+<h1>
+<img src="/img/common/tit_01_01.png" alt="1F エントランス"></h1>
+</div>
+</header>
+<!-- [[ /HEADER ]] -->
+
+<!-- [[ NEWS ]] -->
+<div id="news">
+<p id="js_news_btn" class="btn"><img src="/img/common/btn_news_01.png" width="39" height="39" alt="NEWS&amp;TOPIX"></p>
+<dl id="js_news_dl">
+<dt><img src="/img/common/tit_news_01.png" width="105" height="12" alt="NEWS&amp;amp;TOPIX"></dt>
+<dd>
+<ul>
+<li>『パチスロ イースⅠ＆Ⅱ』『パチスロ 闘え！サラリーマン』『ぱちスロ ウルトラセブン』の情報を掲載いたしました。</li><li>「てっぺん」の情報を掲載いたしました。</li><li>「テレビアニメ「ベルセルク」第2期」の情報を掲載いたしました。</li></ul>
+</dd>
+</dl>
+</div>
+<!-- [[ /NEWS ]] -->
+
+<!-- [[ NAV ]] -->
+<nav id="js_side">
+<ul>
+<li><a name="6f1r" href="http://www.fields.biz/pachinko/1r"><img src="/img/common/sidemenu/side06.png" alt="パチンコ・パチスロ" width="186" height="39" class="roll"></a></li>
+<li><a name="5f1r" href="http://www.fields.biz/consumer/1r"><img src="/img/common/sidemenu/side05.png" alt="コンシューマ" width="186" height="39" class="roll"></a></li>
+<li><a name="4f1r" href="http://www.fields.biz/anime/1r"><img src="/img/common/sidemenu/side04.png" alt="映像・アニメーション" width="186" height="39" class="roll"></a></li>
+<li><a name="3f1r" href="http://www.fields.biz/comic/1r"><img src="/img/common/sidemenu/side03.png" alt="コミック" width="186" height="39" class="roll"></a></li>
+<li><a name="2f1r" href="http://www.fields.biz/license/1r"><img src="/img/common/sidemenu/side02.png" alt="ライセンス" width="186" height="39" class="roll"></a></li>
+<li><a name="1f1r" href="http://www.fields.biz/"><img src="/img/common/sidemenu/side01.png" alt="コンセプト" width="186" height="40" class="roll"></a></li>
+</ul>
+</nav>
+<!-- /[[ NAV ]] -->
+
+<!-- [[ controller ]] -->
+<div id="controller">
+<dl>
+<dt><img src="/img/common/floornavi.png" alt="FLOOR NAVIGATION" width="68" height="7"></dt>
+<dd id="js_floorNavi">
+<div id="js_pointer" class="pointer" style="top:37px;left:0;"></div>
+</dd>
+</dl>
+<ul id="js_arrow">
+<li class="up active"><img id="38" src="/img/common/up.png" alt="上へ移動する" width="21" height="21" class="roll"></li>
+<li class="right active"><img id="39" src="/img/common/right.png" alt="右へ移動する" width="21" height="21" class="roll"></li>
+<li class="down active"><img id="40" src="/img/common/down.png" alt="下へ移動する" width="21" height="21" class="roll"></li>
+<li class="left active"><img id="37" src="/img/common/left.png" alt="左へ移動する" width="21" height="21" class="roll"></li>
+</ul>
+</div>
+<!-- /[[ controller ]] -->
+<!-- [[ /tabui ]] -->
+
+<div id="page">
+
+<div class="floor" style="top:3400px;">
+<img id="1fbg" class="background" src="/img/1f/p_bg.jpg">
+<div id="1f1r" class="room" style="left:   0px;">
+<div id="1f1rSpecialNavi" class="parallax js_navi" data-layer="4" style="top:38px;left:-349px;z-index:4">
+</div><div id="1f1rNavi" class="parallax js_navi" data-layer="4" style="top:38px;left:16px;z-index:4">
+<img src="http://img.fields.biz/img/navigator/loading/2013ss/C/S/move.png" width="337" height="604" alt=""> 
+</div><div class="balloon parallax" data-layer="3" style="top:84px;left:266px;z-index:3;">
+<div class="inner">
+<p id="1f1rBalloon"></p>
+</div>
+</div>
+<div id="gMenu" class="gMenu parallax" data-layer="2" style="top:260px;left:295px;z-index:2;">
+  <ul>
+    <li><a href="#" name="6f1r"><img src="/img/common/btn_gnavi_06.png" alt="パチンコ・パチスロ部門" class="roll"></a></li>
+    <li><a href="#" name="5f1r"><img src="/img/common/btn_gnavi_05.png" alt="コンシューマ事業部門" class="roll"></a></li>
+    <li><a href="#" name="4f1r"><img src="/img/common/btn_gnavi_04.png" alt="映像・アニメーション部門" class="roll"></a></li>
+    <li><a href="#" name="3f1r"><img src="/img/common/btn_gnavi_03.png" alt="コミック部門" class="roll"></a></li>
+    <li><a href="#" name="2f1r"><img src="/img/common/btn_gnavi_02.png" alt="ライセンス部門" class="roll"></a></li>
+    <li><a href="#" name="1f2r"><img src="/img/common/btn_gnavi_01.png" alt="コンセプト" class="roll"></a></li>
+  </ul>
+</div>
+
+</div><div id="1f2r" class="room" style="left:1200px;">
+<div id="1f2rNavi" class="parallax js_navi" data-layer="4" style="top:29px;left:-170px;z-index:4">
+<img src="http://img.fields.biz/img/navigator/loading/2013ss/C/L/c_mabataki.png" width="656" height="651" alt=""> 
+</div><div class="balloon parallax" data-layer="3" style="top:95px;left:266px;z-index:3;">
+<div class="inner">
+<p id="1f2rBalloon"></p>
+</div>
+</div><div class="backboard01 parallax" data-layer="2" style="top:150px;left:290px;z-index:2"></div>
+<div class="parallax" data-layer="2" style="top:150px;left:290px;z-index:5">
+<div id="1f2rContents" class="entrance_contents"></div>
+</div><img class="parallax" src="/img/1f/parallax_1.png" width="746px" height="562px" data-layer="3" style="top: 117px; left: 758px; z-index: 3">
+</div><div id="1f3r" class="room" style="left:2400px;">
+<div id="1f3rNavi" class="parallax js_navi" data-layer="4" style="top:38px;left:16px;z-index:4">
+<img src="http://img.fields.biz/img/navigator/loading/2013ss/C/S/c_douzo.png" width="337" height="604" alt=""> 
+</div><div class="balloon parallax" data-layer="3" style="top:95px;left:266px;z-index:3;">
+<div class="inner">
+<p id="1f3rBalloon"></p>
+</div>
+</div><div class="backboard01 parallax" data-layer="2" style="top:150px;left:290px;z-index:2"></div>
+<div class="parallax" data-layer="2" style="top:150px;left:290px;z-index:5">
+<div id="1f3rContents" class="entrance_contents"></div>
+</div></div></div><div class="floor" style="top:2720px;">
+<img id="2fbg" class="background" src="/img/2f/p_bg.jpg">
+<div id="2f1r" class="room" style="left:   0px;">
+<div id="2f1rNavi" class="parallax js_navi" data-layer="4" style="top:38px;left:16px;z-index:4">
+<img src="http://img.fields.biz/img/navigator/loading/2013ss/C/S/c_mabataki.png" width="337" height="604" alt=""> 
+</div><div class="balloon parallax" data-layer="3" style="top:95px;left:266px;z-index:3;">
+<div class="inner">
+<p id="2f1rBalloon"></p>
+</div>
+</div><div class="backboard01 parallax" data-layer="2" style="top:150px;left:290px;z-index:2"></div>
+<div class="parallax" data-layer="2" style="top:150px;left:290px;z-index:5">
+<div id="2f1rContents"></div>
+</div><img class="parallax" src="/img/2f/parallax_1.png" width="391px" height="308px" data-layer="5" style="top:375px;left:985px;z-index:5">
+</div></div><div class="floor" style="top:2040px;">
+<img id="3fbg" class="background" src="/img/3f/p_bg.jpg">
+<div id="3f1r" class="room" style="left:   0px;">
+<div id="3f1rNavi" class="parallax js_navi" data-layer="4" style="top:29px;left:-170px;z-index:4">
+<img src="http://img.fields.biz/img/navigator/loading/2013ss/C/L/c_zassiageru.png" width="656" height="651" alt=""> 
+</div><div class="balloon parallax" data-layer="3" style="top:95px;left:266px;z-index:3;">
+<div class="inner">
+<p id="3f1rBalloon"></p>
+</div>
+</div><div class="backboard01 parallax" data-layer="2" style="top:150px;left:290px;z-index:2"></div>
+<div class="parallax" data-layer="2" style="top:150px;left:290px;z-index:5">
+<div id="3f1rContents"></div>
+</div></div><div id="3flist" class="room" style="left:1200px;">
+<div id="3flistNavi" class="parallax js_navi" data-layer="4" style="top:38px;left:16px;z-index:4">
+<img src="http://img.fields.biz/img/navigator/loading/2013ss/C/S/c_zassikubiyoko.png" width="337" height="604" alt=""> 
+</div><div class="balloon parallax" data-layer="3" style="top:95px;left:266px;z-index:3;">
+<div class="inner">
+<p id="3flistBalloon"></p>
+</div>
+</div><div class="backboard02 parallax" data-layer="2" style="top:150px;left:290px;z-index:2"></div>
+<div class="parallax" data-layer="2" style="top:150px;left:290px;z-index:5">
+<div class="boxList01">
+<div class="inner">
+<div class="heading cf">
+<h2><img src="/img/common/work_01.png" width="181" height="23" alt="実績一覧 CONTENTS LIST"></h2>
+</div>
+<div class="list">
+<div class="js_acmpList slider" data-onlyMovie="0" data-floor="3">
+<div class="view">
+<ul>
+<li>
+<p class="pic">
+<a class="js_acmp3" href="/comic/detail/201" data-accomplishmentId="201"><img src="http://img.fields.biz/share/thumb/fe/e2/32887852_long.jpg" width="161" height="230" alt=""></a>
+</p>
+<ul class="btn">
+<li><a class="js_acmp3" href="/comic/detail/201" data-accomplishmentId="201"><img src="/img/common/btn_detail_01.png" width="79" height="24" alt="詳細情報" class="roll"></a></li>
+</ul>
+</li>
+<li>
+<p class="pic">
+<a class="js_acmp3" href="/comic/detail/200" data-accomplishmentId="200"><img src="http://img.fields.biz/share/thumb/6a/e2/66598427_long.jpg" width="161" height="230" alt=""></a>
+</p>
+<ul class="btn">
+<li><a class="js_acmp3" href="/comic/detail/200" data-accomplishmentId="200"><img src="/img/common/btn_detail_01.png" width="79" height="24" alt="詳細情報" class="roll"></a></li>
+</ul>
+</li>
+<li>
+<p class="pic">
+<a class="js_acmp3" href="/comic/detail/199" data-accomplishmentId="199"><img src="http://img.fields.biz/share/thumb/e0/37/7302776_long.jpg" width="161" height="230" alt=""></a>
+</p>
+<ul class="btn">
+<li><a class="js_acmp3" href="/comic/detail/199" data-accomplishmentId="199"><img src="/img/common/btn_detail_01.png" width="79" height="24" alt="詳細情報" class="roll"></a></li>
+</ul>
+</li>
+</ul>
+</div>
+<p class="js_ep prev" style="display:none" data-pageNo="0"><img src="/img/common/btn_arrow_prev_01.png" width="20" height="257" alt="前へ戻る" class="roll active"></p>
+<p class="js_en next" data-pageNo="2"><img src="/img/common/btn_arrow_next_01.png" width="20" height="257" alt="次へ進む" class="roll active"></p>
+<p class="js_dp prev"><img src="/img/common/btn_arrow_prev_01_d.png" width="20" height="257" alt="前へ戻る"></p>
+<p class="js_dn next" style="display:none"><img src="/img/common/btn_arrow_next_01_d.png" width="20" height="257" alt="次へ進む"></p>
+</div>
+</div>
+<div class="company">
+<dl>
+<dt><img src="/img/common/work_02.png" width="72" height="26" alt="関連企業"></dt>
+<dd>
+<div class="js_rollsign slider">
+<div class="view">
+<ul><li><a href="http://www.heros-web.com/" class="externallink" target="_blank"><img src="http://img.fields.biz/share/thumb/69/2a/68622150_wide.jpg" width="70" height="30" alt=""></a></li>
+<li><a href="http://www.kadokawaharuki.co.jp/" class="externallink" target="_blank"><img src="http://img.fields.biz/share/thumb/ba/ad/67878718_wide.jpg" width="70" height="30" alt=""></a></li>
+</ul></div><p class="js_ep prev"><img src="/img/common/btn_arrow_prev_02.png" width="10" height="7" alt="前へ戻る" class="roll active"></p>
+<p class="js_en next"><img src="/img/common/btn_arrow_next_02.png" width="10" height="7" alt="次へ進む" class="roll active"></p>
+<p class="js_dp prev"><img src="/img/common/btn_arrow_prev_02_d.png" width="10" height="7" alt="前へ戻る"></p>
+<p class="js_dn next"><img src="/img/common/btn_arrow_next_02_d.png" width="10" height="7" alt="次へ進む"></p>
+</div></dd>
+</dl>
+</div>
+</div></div></div><img class="parallax" src="/img/3f/parallax_1.png" width="203px" height="544px" data-layer="6" style="top: 164px; left: 970px; z-index: 6;">
+</div><div id="3fdetail" class="room" style="left:2400px;">
+<div id="3fdetailNavi" class="parallax js_navi" data-layer="4" style="top:29px;left:-170px;z-index:4">
+<img src="http://img.fields.biz/img/navigator/loading/2013ss/C/L/c_warai.png" width="656" height="651" alt=""> 
+</div><div class="backboard03 parallax" data-layer="5" style="top:90px;left:290px;z-index:2"></div>
+<div id="js_acmp_3fdetail" class="parallax" data-layer="5" style="top:90px;left:290px;z-index:5">
+<div class="boxDetail01">
+<div class="inner">
+<ul class="nav cf">
+<li class="js_prev" style="display:none"><img src="/img/common/btn_arrow_prev_03.png" width="115" height="20" alt="前へ戻る" class="roll active"></li>
+<li class="js_prev_d"><img src="/img/common/btn_arrow_prev_03_d.png" width="115" height="20" alt="前へ戻る"></li>
+<li class="js_page num">1 / 44</li>
+<li class="js_next"><img src="/img/common/btn_arrow_next_03.png" width="115" height="20" alt="次へ進む" class="roll active"></li>
+<li class="js_next_d" style="display:none"><img src="/img/common/btn_arrow_next_03_d.png" width="115" height="20" alt="次へ進む"></li>
+</ul>
+<div class="js_main layout cf">
+<div class="img">
+<p><img class="js_keyVisual" src="http://img.fields.biz/share/thumb/fe/e2/32887852_long.jpg" width="175" height="250" alt=""></p>
+</div>
+<div class="text">
+<div class="scroll expand">
+<h2 class="heading">てっぺん</h2>
+<p class="site"><a class="externallink" href="https://comic.pixiv.net/works/2880" target="_blank"><img src="/img/common/btn_site_01.png" width="87" height="23" alt="公式サイト" class="roll"></a></p>
+<p class="lead">不良校ではなく、うっかり別の高校に転入してしまった神田川譲。ワルの頂点をめざすはずが、なぜか“徳”を学ぶハメになり――!?</p><p>ヘタレ不良と愉快な仲間たちの奇想天外なスクールライフ!!<br /><br />地元では名の知れた不良の神田川譲。ケンカに明け暮れ学校を退学になった譲は、不良の頂上を取るために悪の巣窟として名高い高校へと転入する。…はずだったが、そこはまさかの!? ニヤニヤが止まらない、シュールでおバカな学園コメディ！</p>
+</div>
+</div>
+</div>
+<div class="works" style="display:none">
+<dl>
+<dt><img src="/img/common/work_03.png" width="620" height="21" alt="関連実績"></dt>
+<dd>
+<div class="js_carrousel slider">
+<div class="view">
+<ul style="width:9999em;">
+<li><img src="/img/common/rel_no_Image.png" width="70" height="100" alt="NoImage"></li>
+<li><img src="/img/common/rel_no_Image.png" width="70" height="100" alt="NoImage"></li>
+<li><img src="/img/common/rel_no_Image.png" width="70" height="100" alt="NoImage"></li>
+<li><img src="/img/common/rel_no_Image.png" width="70" height="100" alt="NoImage"></li>
+<li><img src="/img/common/rel_no_Image.png" width="70" height="100" alt="NoImage"></li>
+</ul>
+</div>
+<p class="js_ep prev"><img src="/img/common/btn_arrow_prev_05.png" width="20" height="100" alt="前へ戻る" class="roll active"></p>
+<p class="js_en next"><img src="/img/common/btn_arrow_next_05.png" width="20" height="100" alt="次へ進む" class="roll active"></p>
+<p class="js_dp prev"><img src="/img/common/btn_arrow_prev_05_d.png" width="20" height="100" alt="前へ戻る"></p>
+<p class="js_dn next"><img src="/img/common/btn_arrow_next_05_d.png" width="20" height="100" alt="次へ進む"></p>
+</div>
+</dd>
+</dl>
+</div>
+</div>
+</div></div><img class="parallax" src="/img/3f/parallax_1.png" width="162px" height="451px" data-layer="1" style="top:150px;left: 950px;z-index:1">
+</div></div><div class="floor" style="top:1360px;">
+<img id="4fbg" class="background" src="/img/4f/p_bg.jpg">
+<div id="4f1r" class="room" style="left:   0px;">
+<div id="4f1rNavi" class="parallax js_navi" data-layer="4" style="top:29px;left:-170px;z-index:4">
+<img src="http://img.fields.biz/img/navigator/loading/2013ss/C/L/c_kubiyoko.png" width="656" height="651" alt=""> 
+</div><div class="balloon parallax" data-layer="3" style="top:95px;left:266px;z-index:3;">
+<div class="inner">
+<p id="4f1rBalloon"></p>
+</div>
+</div><div class="backboard01 parallax" data-layer="2" style="top:150px;left:290px;z-index:2"></div>
+<div class="parallax" data-layer="2" style="top:150px;left:290px;z-index:5">
+<div id="4f1rContents"></div>
+</div></div><div id="4flist" class="room" style="left:1200px;">
+<div id="4flistNavi" class="parallax js_navi" data-layer="4" style="top:38px;left:16px;z-index:4">
+<img src="http://img.fields.biz/img/navigator/loading/2013ss/C/S/c_douzo.png" width="337" height="604" alt=""> 
+</div><div class="balloon parallax" data-layer="3" style="top:95px;left:266px;z-index:3;">
+<div class="inner">
+<p id="4flistBalloon"></p>
+</div>
+</div><div class="backboard02 parallax" data-layer="2" style="top:150px;left:290px;z-index:2"></div>
+<div class="parallax" data-layer="2" style="top:150px;left:290px;z-index:5">
+<div class="boxList01">
+<div class="inner">
+<div class="heading cf">
+<h2><img src="/img/common/work_01.png" width="181" height="23" alt="実績一覧 CONTENTS LIST"></h2>
+</div>
+<div class="list">
+<div class="js_acmpList slider" data-onlyMovie="0" data-floor="4">
+<div class="view">
+<ul>
+<li>
+<p class="pic">
+<a class="js_acmp4" href="/anime/detail/197" data-accomplishmentId="197"><img src="http://img.fields.biz/share/thumb/4f/36/63737292_long.jpg" width="161" height="230" alt=""></a>
+</p>
+<ul class="btn">
+<li><a class="js_acmp4" href="/anime/detail/197" data-accomplishmentId="197"><img src="/img/common/btn_detail_01.png" width="79" height="24" alt="詳細情報" class="roll"></a></li>
+</ul>
+</li>
+<li>
+<p class="pic">
+<a class="js_acmp4" href="/anime/detail/196" data-accomplishmentId="196"><img src="http://img.fields.biz/share/thumb/39/74/32576177_long.jpg" width="161" height="230" alt=""></a>
+</p>
+<ul class="btn">
+<li><a class="js_acmp4" href="/anime/detail/196" data-accomplishmentId="196"><img src="/img/common/btn_detail_01.png" width="79" height="24" alt="詳細情報" class="roll"></a></li>
+</ul>
+</li>
+<li>
+<p class="pic">
+<a class="js_acmp4" href="/anime/detail/195" data-accomplishmentId="195"><img src="http://img.fields.biz/share/thumb/0d/97/77553843_long.jpg" width="161" height="230" alt=""></a>
+</p>
+<ul class="btn">
+<li><a class="js_acmp4" href="/anime/detail/195" data-accomplishmentId="195"><img src="/img/common/btn_detail_01.png" width="79" height="24" alt="詳細情報" class="roll"></a></li>
+</ul>
+</li>
+</ul>
+</div>
+<p class="js_ep prev" style="display:none" data-pageNo="0"><img src="/img/common/btn_arrow_prev_01.png" width="20" height="257" alt="前へ戻る" class="roll active"></p>
+<p class="js_en next" data-pageNo="2"><img src="/img/common/btn_arrow_next_01.png" width="20" height="257" alt="次へ進む" class="roll active"></p>
+<p class="js_dp prev"><img src="/img/common/btn_arrow_prev_01_d.png" width="20" height="257" alt="前へ戻る"></p>
+<p class="js_dn next" style="display:none"><img src="/img/common/btn_arrow_next_01_d.png" width="20" height="257" alt="次へ進む"></p>
+</div>
+</div>
+<div class="company">
+<dl>
+<dt><img src="/img/common/work_02.png" width="72" height="26" alt="関連企業"></dt>
+<dd>
+<div class="js_rollsign slider">
+<div class="view">
+<ul><li><a class="externallink" href="http://www.dfx.co.jp/" target="_blank"><img src="http://img.fields.biz/share/thumb/ef/06/81873528_wide.jpg" width="70" height="30" alt=""></a></li>
+<li><a class="externallink" href="http://www.tsuburaya-prod.co.jp/" target="_blank"><img src="http://img.fields.biz/share/thumb/00/2a/85620168_wide.jpg" width="70" height="30" alt=""></a></li>
+<li><a class="externallink" href="http://www.lpei.co.jp/" target="_blank"><img src="http://img.fields.biz/share/thumb/c5/82/54067054_wide.jpg" width="70" height="30" alt=""></a></li>
+</ul></div><p class="js_ep prev"><img src="/img/common/btn_arrow_prev_02.png" width="10" height="7" alt="前へ戻る" class="roll active"></p>
+<p class="js_en next"><img src="/img/common/btn_arrow_next_02.png" width="10" height="7" alt="次へ進む" class="roll active"></p>
+<p class="js_dp prev"><img src="/img/common/btn_arrow_prev_02_d.png" width="10" height="7" alt="前へ戻る"></p>
+<p class="js_dn next"><img src="/img/common/btn_arrow_next_02_d.png" width="10" height="7" alt="次へ進む"></p>
+</div></dd>
+</dl>
+</div>
+</div></div></div></div><div id="4fdetail" class="room" style="left:2400px;">
+<div id="4fdetailNavi" class="parallax js_navi" data-layer="4" style="top:29px;left:-170px;z-index:4">
+<img src="http://img.fields.biz/img/navigator/loading/2013ss/C/L/c_mabataki.png" width="656" height="651" alt=""> 
+</div><div class="backboard03 parallax" data-layer="5" style="top:90px;left:290px;z-index:2"></div>
+<div id="js_acmp_4fdetail" class="parallax" data-layer="5" style="top:90px;left:290px;z-index:5">
+<div class="boxDetail01">
+<div class="inner">
+<ul class="nav cf">
+<li class="js_prev" style="display:none"><img src="/img/common/btn_arrow_prev_03.png" width="115" height="20" alt="前へ戻る" class="roll active"></li>
+<li class="js_prev_d"><img src="/img/common/btn_arrow_prev_03_d.png" width="115" height="20" alt="前へ戻る"></li>
+<li class="js_page num">1 / 28</li>
+<li class="js_next"><img src="/img/common/btn_arrow_next_03.png" width="115" height="20" alt="次へ進む" class="roll active"></li>
+<li class="js_next_d" style="display:none"><img src="/img/common/btn_arrow_next_03_d.png" width="115" height="20" alt="次へ進む"></li>
+</ul>
+<div class="js_main layout cf">
+<div class="img">
+<p><img class="js_keyVisual" src="http://img.fields.biz/share/thumb/4f/36/63737292_long.jpg" width="175" height="250" alt=""></p>
+</div>
+<div class="text">
+<div class="scroll">
+<h2 class="heading">テレビアニメ「ベルセルク」第2期</h2>
+<p class="site"><a class="externallink" href="http://berserk-anime.com/" target="_blank"><img src="/img/common/btn_site_01.png" width="87" height="23" alt="公式サイト" class="roll"></a></p>
+<p class="lead">新たな出会い、試練、そして……!? <br />2017年4月、待望の第2期がMBSほかアニメイズム枠、WOWOWにて放送スタート。</p><p>重厚なストーリー、魅力あるキャラクター、圧倒的で緻密な作画、そして何者にも追随を許さぬ創造力。読者の心と人生に強い衝撃と感動を与え、日本の読者だけでなく世界の読者をも魅了。剣と魔法、そして魔物が存在する世界を舞台に主人公・ガッツの壮絶なる生き様を描く、全世界シリーズ累計発行部数4000万部の最強ダークファンタジーコミックが2016年7月にテレビアニメ化。そして2017年4月、待望の第2期がMBSほかアニメイズム枠、WOWOWにて放送スタート。<br />新たな出会い、試練、そして……!?　 ガッツの次なる戦いが幕を開ける。<br /><br />【放送情報】<br />MBS：4月7日より　毎週金曜　26:40～<br />TBS：4月7日より　毎週金曜　26:25～<br />BS-TBS：4月8日より　毎週土曜　24:30～<br />WOWOW：4月7日 22:00スタート　以降毎週金曜　22:30～　※再放送　翌週金曜 22:00～<br />ｄアニメストアにてWEB最速配信　4月9日（日）より毎週日曜12：00～<br />※放送情報は予告なく変更する可能性があります</p>
+<p class="js_freeAreas">
+<br />【出演】岩永洋昭、水原 薫、日笠陽子、興津和幸、<br />下野 紘、行成とあ、斎藤千和、新井里美、島本須美、<br />三宅健太、南條愛乃、櫻井孝宏、大塚明夫、石塚運昇ほか<br /><br />【原作・総監修】三浦建太郎（スタジオ我画）（白泉社ヤングアニマル連載）<br />【監督】板垣 伸<br />【シリーズ構成】深見 真<br />【シリーズ構成協力】山下 卓<br />【メインキャラクターデザイン】阿部 恒<br />【音楽】鷺巣詩郎<br />【劇中歌】平沢　進　「灰よ」「Ash Crow」<br />【オープニングテーマ】9mm Parabellum Bullet　「サクリファイス」<br />【エンディングテーマ】南條愛乃feat.やなぎなぎ　「一切は物語」<br />【制作】LIDENFILMS<br />【アニメ制作】GEMBA／ミルパンセ</p>
+<p class="js_freeAreas">
+<br />©三浦建太郎（スタジオ我画）・白泉社／ベルセルク製作委員会</p>
+</div>
+</div>
+</div>
+<div class="works">
+<dl>
+<dt><img src="/img/common/work_03.png" width="620" height="21" alt="関連実績"></dt>
+<dd>
+<div class="js_carrousel slider">
+<div class="view">
+<ul style="width:9999em;">
+<li class="js_caption">
+<a class="js_rel4" data-accomplishmentId="36" href="/anime/detail/36"><img src="http://img.fields.biz/share/thumb/e8/19/87859483_long.jpg" width="70" height="100" alt="">
+</a>
+<div class="caption" style="display:none"><div>ベルセルク 黄金時代篇I　覇王の卵（ルーセント・ピクチャーズ 企画・プロデュース作品）</div></div>
+</li>
+<li class="js_caption">
+<a class="js_rel4" data-accomplishmentId="37" href="/anime/detail/37"><img src="http://img.fields.biz/share/thumb/48/5c/29328913_long.jpg" width="70" height="100" alt="">
+</a>
+<div class="caption" style="display:none"><div>ベルセルク 黄金時代篇II　ドルドレイ攻略（ルーセント・ピクチャーズ 企画・プロデュース作品）</div></div>
+</li>
+<li class="js_caption">
+<a class="js_rel4" data-accomplishmentId="38" href="/anime/detail/38"><img src="http://img.fields.biz/share/thumb/74/a4/91342330_long.jpg" width="70" height="100" alt="">
+</a>
+<div class="caption" style="display:none"><div>ベルセルク 黄金時代篇III　降臨（ルーセント・ピクチャーズ 企画・プロデュース作品）</div></div>
+</li>
+<li class="js_caption">
+<a class="js_rel6" data-accomplishmentId="128" href="/pachinko/detail/128"><img src="http://img.fields.biz/share/thumb/96/f9/96431494_long.jpg" width="70" height="100" alt="">
+</a>
+<div class="caption" style="display:none"><div>パチスロ ベルセルク (NANASHOW)</div></div>
+</li>
+<li class="js_caption">
+<a class="js_rel4" data-accomplishmentId="180" href="/anime/detail/180"><img src="http://img.fields.biz/share/thumb/a8/74/37013145_long.jpg" width="70" height="100" alt="">
+</a>
+<div class="caption" style="display:none"><div>テレビアニメ「ベルセルク」</div></div>
+</li>
+</ul>
+</div>
+<p class="js_ep prev"><img src="/img/common/btn_arrow_prev_05.png" width="20" height="100" alt="前へ戻る" class="roll active"></p>
+<p class="js_en next"><img src="/img/common/btn_arrow_next_05.png" width="20" height="100" alt="次へ進む" class="roll active"></p>
+<p class="js_dp prev"><img src="/img/common/btn_arrow_prev_05_d.png" width="20" height="100" alt="前へ戻る"></p>
+<p class="js_dn next"><img src="/img/common/btn_arrow_next_05_d.png" width="20" height="100" alt="次へ進む"></p>
+</div>
+</dd>
+</dl>
+</div>
+</div>
+</div></div><img class="parallax" src="/img/4f/parallax_1.png" width="389px" height="192px" data-layer="3" style="top: 500px; left: 950px;z-index:3">
+</div></div><div class="floor" style="top:680px;">
+<img id="5fbg" class="background" src="/img/5f/p_bg.jpg">
+<div id="5f1r" class="room" style="left:   0px;">
+<div id="5f1rNavi" class="parallax js_navi" data-layer="4" style="top:38px;left:16px;z-index:4">
+<img src="http://img.fields.biz/img/navigator/loading/2013ss/C/S/c_douzo.png" width="337" height="604" alt=""> 
+</div><div class="balloon parallax" data-layer="3" style="top:95px;left:266px;z-index:3;">
+<div class="inner">
+<p id="5f1rBalloon"></p>
+</div>
+</div><div class="backboard01 parallax" data-layer="2" style="top:150px;left:290px;z-index:2"></div>
+<div class="parallax" data-layer="2" style="top:150px;left:290px;z-index:5">
+<div id="5f1rContents"></div>
+</div></div><div id="5flist" class="room" style="left:1200px;">
+<div id="5flistNavi" class="parallax js_navi" data-layer="4" style="top:29px;left:-170px;z-index:4">
+<img src="http://img.fields.biz/img/navigator/loading/2013ss/C/L/c_ryoutedouzo.png" width="656" height="651" alt=""> 
+</div><div class="balloon parallax" data-layer="3" style="top:95px;left:266px;z-index:3;">
+<div class="inner">
+<p id="5flistBalloon"></p>
+</div>
+</div><div class="backboard02 parallax" data-layer="2" style="top:150px;left:290px;z-index:2"></div>
+<div class="parallax" data-layer="2" style="top:150px;left:290px;z-index:5">
+<div class="boxList01">
+<div class="inner">
+<div class="heading cf">
+<h2><img src="/img/common/work_01.png" width="181" height="23" alt="実績一覧 CONTENTS LIST"></h2>
+</div>
+<div class="list">
+<div class="js_acmpList slider" data-onlyMovie="0" data-floor="5">
+<div class="view">
+<ul>
+<li>
+<p class="pic">
+<a class="js_acmp5" href="/consumer/detail/178" data-accomplishmentId="178"><img src="http://img.fields.biz/share/thumb/2c/18/38074769_long.jpg" width="161" height="230" alt=""></a>
+</p>
+<ul class="btn">
+<li><a class="js_acmp5" href="/consumer/detail/178" data-accomplishmentId="178"><img src="/img/common/btn_detail_01.png" width="79" height="24" alt="詳細情報" class="roll"></a></li>
+</ul>
+</li>
+<li>
+<p class="pic">
+<a class="js_acmp5" href="/consumer/detail/154" data-accomplishmentId="154"><img src="http://img.fields.biz/share/thumb/ca/41/31216170_long.jpg" width="161" height="230" alt=""></a>
+</p>
+<ul class="btn">
+<li><a class="js_acmp5" href="/consumer/detail/154" data-accomplishmentId="154"><img src="/img/common/btn_detail_01.png" width="79" height="24" alt="詳細情報" class="roll"></a></li>
+</ul>
+</li>
+<li>
+<p class="pic">
+<a class="js_acmp5" href="/consumer/detail/152" data-accomplishmentId="152"><img src="http://img.fields.biz/share/thumb/fd/57/84236266_long.jpg" width="161" height="230" alt=""></a>
+</p>
+<ul class="btn">
+<li><a class="js_acmp5" href="/consumer/detail/152" data-accomplishmentId="152"><img src="/img/common/btn_detail_01.png" width="79" height="24" alt="詳細情報" class="roll"></a></li>
+</ul>
+</li>
+</ul>
+</div>
+<p class="js_ep prev" style="display:none" data-pageNo="0"><img src="/img/common/btn_arrow_prev_01.png" width="20" height="257" alt="前へ戻る" class="roll active"></p>
+<p class="js_en next" data-pageNo="2"><img src="/img/common/btn_arrow_next_01.png" width="20" height="257" alt="次へ進む" class="roll active"></p>
+<p class="js_dp prev"><img src="/img/common/btn_arrow_prev_01_d.png" width="20" height="257" alt="前へ戻る"></p>
+<p class="js_dn next" style="display:none"><img src="/img/common/btn_arrow_next_01_d.png" width="20" height="257" alt="次へ進む"></p>
+</div>
+</div>
+<div class="company">
+<dl>
+<dt><img src="/img/common/work_02.png" width="72" height="26" alt="関連企業"></dt>
+<dd>
+<div class="js_rollsign slider">
+<div class="view">
+<ul><li><a class="externallink" href="http://www.futurescope.jp/" target="_blank"><img src="http://img.fields.biz/share/thumb/10/43/49262420_wide.jpg" width="70" height="30" alt=""></a></li>
+<li><a class="externallink" href="http://www.tsuburaya-prod.co.jp/" target="_blank"><img src="http://img.fields.biz/share/thumb/00/2a/85620168_wide.jpg" width="70" height="30" alt=""></a></li>
+<li><a class="externallink" href="http://www.totalworkout.jp/" target="_blank"><img src="http://img.fields.biz/share/thumb/6c/b2/89212684_wide.jpg" width="70" height="30" alt=""></a></li>
+</ul></div><p class="js_ep prev"><img src="/img/common/btn_arrow_prev_02.png" width="10" height="7" alt="前へ戻る" class="roll active"></p>
+<p class="js_en next"><img src="/img/common/btn_arrow_next_02.png" width="10" height="7" alt="次へ進む" class="roll active"></p>
+<p class="js_dp prev"><img src="/img/common/btn_arrow_prev_02_d.png" width="10" height="7" alt="前へ戻る"></p>
+<p class="js_dn next"><img src="/img/common/btn_arrow_next_02_d.png" width="10" height="7" alt="次へ進む"></p>
+</div></dd>
+</dl>
+</div>
+</div></div></div><img class="parallax" src="/img/5f/parallax_1.png" width="546px" height="352px" data-layer="7" style="top: 328px; left: 963px;z-index:7">
+</div><div id="5fdetail" class="room" style="left:2400px;">
+<div id="5fdetailNavi" class="parallax js_navi" data-layer="4" style="top:38px;left:16px;z-index:4">
+<img src="http://img.fields.biz/img/navigator/loading/2013ss/C/S/c_ryoutedouzo2.png" width="337" height="604" alt=""> 
+</div><div class="backboard03 parallax" data-layer="5" style="top:90px;left:290px;z-index:2"></div>
+<div id="js_acmp_5fdetail" class="parallax" data-layer="5" style="top:90px;left:290px;z-index:5">
+<div class="boxDetail01">
+<div class="inner">
+<ul class="nav cf">
+<li class="js_prev" style="display:none"><img src="/img/common/btn_arrow_prev_03.png" width="115" height="20" alt="前へ戻る" class="roll active"></li>
+<li class="js_prev_d"><img src="/img/common/btn_arrow_prev_03_d.png" width="115" height="20" alt="前へ戻る"></li>
+<li class="js_page num">1 / 17</li>
+<li class="js_next"><img src="/img/common/btn_arrow_next_03.png" width="115" height="20" alt="次へ進む" class="roll active"></li>
+<li class="js_next_d" style="display:none"><img src="/img/common/btn_arrow_next_03_d.png" width="115" height="20" alt="次へ進む"></li>
+</ul>
+<div class="js_main layout cf">
+<div class="img">
+<p><img class="js_keyVisual" src="http://img.fields.biz/share/thumb/2c/18/38074769_long.jpg" width="175" height="250" alt=""></p>
+</div>
+<div class="text">
+<div class="scroll">
+<h2 class="heading">『はみがきちゃれんじ』</h2>
+<p class="site"><a class="externallink" href="http://www.fields.biz/products/consumer/shitsuketoy/" target="_blank"><img src="/img/common/btn_site_01.png" width="87" height="23" alt="公式サイト" class="roll"></a></p>
+<p class="lead">「しつけTOY」シリーズ第二弾『はみがきちゃれんじ』2016年4月より絶賛発売中!!!</p><p>『はみがきちゃれんじ』は、大好きなキャラクターが応援し、ほめてくれることにより、子どもたちの『やる気』を引き出し、自立を促すキャラクター音声付きのハブラシスタンドです。<br />キャラクタードーム部分を押すとキャラクターごとに収録された約3分間のメロディと６つのセリフが流れ、はみがき習慣を楽しく身につけることができます。<br />（※各キャラクターのオリジナルボイスは本商品用の新規録音です。メロディもオリジナルアレンジVer.を収録しています。）<br /><br />『はみがきちゃれんじ』第一弾のキャラクターラインナップは全6種（ミッキーマウス／くまのプーさん／<br />きかんしゃトーマス／ウルトラマンX（ｴｯｸｽ）／<br />ハローキティ／マイメロディ）を揃え、未就学児をメインターゲットとして幅広く男の子も女の子も楽しめるラインアップとしました。<br /></p>
+<p class="js_freeAreas">
+           <br />©Disney/©Disney. Based on the &#034;Winnie the Pooh&#034; works by A.A. Milne and E.H. Shepard/<br />© 2016 Gullane (Thomas) Limited./©円谷プロ/ ©1976, 2016 SANRIO CO,. LTD. </p>
+</div>
+</div>
+</div>
+<div class="works">
+<dl>
+<dt><img src="/img/common/work_03.png" width="620" height="21" alt="関連実績"></dt>
+<dd>
+<div class="js_carrousel slider">
+<div class="view">
+<ul style="width:9999em;">
+<li class="js_caption">
+<a class="js_rel5" data-accomplishmentId="149" href="/consumer/detail/149"><img src="http://img.fields.biz/share/thumb/fe/93/12900951_long.jpg" width="70" height="100" alt="">
+</a>
+<div class="caption" style="display:none"><div>『おしゃべりポンプ』</div></div>
+</li>
+<li><img src="/img/common/rel_no_Image.png" width="70" height="100" alt="NoImage"></li>
+<li><img src="/img/common/rel_no_Image.png" width="70" height="100" alt="NoImage"></li>
+<li><img src="/img/common/rel_no_Image.png" width="70" height="100" alt="NoImage"></li>
+<li><img src="/img/common/rel_no_Image.png" width="70" height="100" alt="NoImage"></li>
+</ul>
+</div>
+<p class="js_ep prev"><img src="/img/common/btn_arrow_prev_05.png" width="20" height="100" alt="前へ戻る" class="roll active"></p>
+<p class="js_en next"><img src="/img/common/btn_arrow_next_05.png" width="20" height="100" alt="次へ進む" class="roll active"></p>
+<p class="js_dp prev"><img src="/img/common/btn_arrow_prev_05_d.png" width="20" height="100" alt="前へ戻る"></p>
+<p class="js_dn next"><img src="/img/common/btn_arrow_next_05_d.png" width="20" height="100" alt="次へ進む"></p>
+</div>
+</dd>
+</dl>
+</div>
+</div>
+</div></div><img class="parallax" src="/img/5f/parallax_2.png" width="760px" height="143px" data-layer="1" style="top: 0px; left: 487px; z-index:1">
+</div></div><div class="floor" style="top:0px;">
+<img id="6fbg" class="background" src="/img/6f/p_bg.jpg">
+<div id="6f1r" class="room" style="left:   0px;">
+<div id="6f1rNavi" class="parallax js_navi" data-layer="4" style="top:29px;left:-170px;z-index:4">
+<img src="http://img.fields.biz/img/navigator/loading/2013ss/C/L/c_douzo.png" width="656" height="651" alt=""> 
+</div><div class="balloon parallax" data-layer="3" style="top:95px;left:266px;z-index:3;">
+<div class="inner">
+<p id="6f1rBalloon"></p>
+</div>
+</div><div class="backboard01 parallax" data-layer="2" style="top:150px;left:290px;z-index:2"></div>
+<div class="parallax" data-layer="2" style="top:150px;left:290px;z-index:5">
+<div id="6f1rContents"></div>
+</div></div><div id="6flist" class="room" style="left:1200px;">
+<div id="6flistNavi" class="parallax js_navi" data-layer="4" style="top:38px;left:16px;z-index:4">
+<img src="http://img.fields.biz/img/navigator/loading/2013ss/C/S/c_kubiyoko.png" width="337" height="604" alt=""> 
+</div><div class="balloon parallax" data-layer="3" style="top:95px;left:266px;z-index:3;">
+<div class="inner">
+<p id="6flistBalloon"></p>
+</div>
+</div><div class="backboard02 parallax" data-layer="2" style="top:150px;left:290px;z-index:2"></div>
+<div class="parallax" data-layer="2" style="top:150px;left:290px;z-index:5">
+<div class="boxList01">
+<div class="inner">
+<div class="heading cf">
+<h2><img src="/img/common/work_01.png" width="181" height="23" alt="実績一覧 CONTENTS LIST"></h2>
+</div>
+<div class="list">
+<div class="js_acmpList slider" data-onlyMovie="0" data-floor="6">
+<div class="view">
+<ul>
+<li>
+<p class="pic">
+<a class="js_acmp6" href="/pachinko/detail/210" data-accomplishmentId="210"><img src="http://img.fields.biz/share/thumb/81/99/17208705_long.jpg" width="161" height="230" alt=""></a>
+</p>
+<ul class="btn">
+<li><a class="js_acmp6" href="/pachinko/detail/210" data-accomplishmentId="210"><img src="/img/common/btn_detail_01.png" width="79" height="24" alt="詳細情報" class="roll"></a></li>
+</ul>
+</li>
+<li>
+<p class="pic">
+<a class="js_acmp6" href="/pachinko/detail/209" data-accomplishmentId="209"><img src="http://img.fields.biz/share/thumb/cf/4a/30623012_long.jpg" width="161" height="230" alt=""></a>
+</p>
+<ul class="btn">
+<li><a class="js_acmp6" href="/pachinko/detail/209" data-accomplishmentId="209"><img src="/img/common/btn_detail_01.png" width="79" height="24" alt="詳細情報" class="roll"></a></li>
+</ul>
+</li>
+<li>
+<p class="pic">
+<a class="js_acmp6" href="/pachinko/detail/208" data-accomplishmentId="208"><img src="http://img.fields.biz/share/thumb/f6/d8/94103613_long.jpg" width="161" height="230" alt=""></a>
+</p>
+<ul class="btn">
+<li><a class="js_acmp6" href="/pachinko/detail/208" data-accomplishmentId="208"><img src="/img/common/btn_detail_01.png" width="79" height="24" alt="詳細情報" class="roll"></a></li>
+</ul>
+</li>
+</ul>
+</div>
+<p class="js_ep prev" style="display:none" data-pageNo="0"><img src="/img/common/btn_arrow_prev_01.png" width="20" height="257" alt="前へ戻る" class="roll active"></p>
+<p class="js_en next" data-pageNo="2"><img src="/img/common/btn_arrow_next_01.png" width="20" height="257" alt="次へ進む" class="roll active"></p>
+<p class="js_dp prev"><img src="/img/common/btn_arrow_prev_01_d.png" width="20" height="257" alt="前へ戻る"></p>
+<p class="js_dn next" style="display:none"><img src="/img/common/btn_arrow_next_01_d.png" width="20" height="257" alt="次へ進む"></p>
+</div>
+</div>
+<div class="company">
+<dl>
+<dt><img src="/img/common/work_02.png" width="72" height="26" alt="関連企業"></dt>
+<dd>
+<div class="js_rollsign slider">
+<div class="view">
+<ul><li><a class="externallink" href="http://www.rodeo.ne.jp" target="_blank"><img src="http://img.fields.biz/share/thumb/e0/ef/93017540_wide.jpg" width="70" height="30" alt=""></a></li>
+<li><a class="externallink" href="http://www.booom-corp.jp/" target="_blank"><img src="http://img.fields.biz/share/thumb/72/48/78749398_wide.jpg" width="70" height="30" alt=""></a></li>
+<li><a class="externallink" href="http://www.shin-nichi.co.jp/" target="_blank"><img src="http://img.fields.biz/share/thumb/d3/7f/2806514_wide.jpg" width="70" height="30" alt=""></a></li>
+<li><a class="externallink" href="http://www.microcabin.co.jp/" target="_blank"><img src="http://img.fields.biz/share/thumb/eb/be/32027405_wide.jpg" width="70" height="30" alt=""></a></li>
+<li><a class="externallink" href="http://sogo-media.jp/" target="_blank"><img src="http://img.fields.biz/share/thumb/3c/94/56345300_wide.jpg" width="70" height="30" alt=""></a></li>
+<li><a class="externallink" href="http://www.nanashow.co.jp/" target="_blank"><img src="http://img.fields.biz/share/thumb/9f/c2/148206_wide.jpg" width="70" height="30" alt=""></a></li>
+</ul><ul><li><a class="externallink" href="http://www.universal-777.com/" target="_blank"><img src="http://img.fields.biz/share/thumb/d2/f5/570124_wide.jpg" width="70" height="30" alt=""></a></li>
+<li><a class="externallink" href="http://www.mizuho-ltd.co.jp/" target="_blank"><img src="http://img.fields.biz/share/thumb/a3/4a/46860013_wide.jpg" width="70" height="30" alt=""></a></li>
+<li><a class="externallink" href="http://www.sankyo-fever.co.jp/bisty/" target="_blank"><img src="http://img.fields.biz/share/thumb/78/6c/75204111_wide.jpg" width="70" height="30" alt=""></a></li>
+<li><a class="externallink" href="http://daiichi777.jp/company/group.php" target="_blank"><img src="http://img.fields.biz/share/thumb/22/31/62127097_wide.jpg" width="70" height="30" alt=""></a></li>
+<li><a class="externallink" href="http://daiichi777.jp/" target="_blank"><img src="http://img.fields.biz/share/thumb/c8/d5/77575225_wide.jpg" width="70" height="30" alt=""></a></li>
+<li><a class="externallink" href="https://www.ok777.co.jp/" target="_blank"><img src="http://img.fields.biz/share/thumb/a8/e9/54783481_wide.jpg" width="70" height="30" alt=""></a></li>
+</ul><ul><li><a class="externallink" href="http://www.enterrise.co.jp/" target="_blank"><img src="http://img.fields.biz/share/thumb/fe/ea/73610193_wide.jpg" width="70" height="30" alt=""></a></li>
+</ul></div><p class="js_ep prev"><img src="/img/common/btn_arrow_prev_02.png" width="10" height="7" alt="前へ戻る" class="roll active"></p>
+<p class="js_en next"><img src="/img/common/btn_arrow_next_02.png" width="10" height="7" alt="次へ進む" class="roll active"></p>
+<p class="js_dp prev"><img src="/img/common/btn_arrow_prev_02_d.png" width="10" height="7" alt="前へ戻る"></p>
+<p class="js_dn next"><img src="/img/common/btn_arrow_next_02_d.png" width="10" height="7" alt="次へ進む"></p>
+</div></dd>
+</dl>
+</div>
+</div></div></div><img class="parallax" src="/img/6f/parallax_1.png" width="304px" height="353px" data-layer="3" style="top: 273px; left: 965px; z-index:3">
+</div><div id="6fdetail" class="room" style="left:2400px;">
+<div id="6fdetailNavi" class="parallax js_navi" data-layer="4" style="top:29px;left:-170px;z-index:4">
+<img src="http://img.fields.biz/img/navigator/loading/2013ss/C/L/c_ryoutedouzo.png" width="656" height="651" alt=""> 
+</div><div class="backboard03 parallax" data-layer="5" style="top:90px;left:290px;z-index:2"></div>
+<div id="js_acmp_6fdetail" class="parallax" data-layer="5" style="top:90px;left:290px;z-index:5">
+<div class="boxDetail01">
+<div class="inner">
+<ul class="nav cf">
+<li class="js_prev" style="display:none"><img src="/img/common/btn_arrow_prev_03.png" width="115" height="20" alt="前へ戻る" class="roll active"></li>
+<li class="js_prev_d"><img src="/img/common/btn_arrow_prev_03_d.png" width="115" height="20" alt="前へ戻る"></li>
+<li class="js_page num">1 / 59</li>
+<li class="js_next"><img src="/img/common/btn_arrow_next_03.png" width="115" height="20" alt="次へ進む" class="roll active"></li>
+<li class="js_next_d" style="display:none"><img src="/img/common/btn_arrow_next_03_d.png" width="115" height="20" alt="次へ進む"></li>
+</ul>
+<div class="js_main layout cf">
+<div class="img">
+<p><img class="js_keyVisual" src="http://img.fields.biz/share/thumb/81/99/17208705_long.jpg" width="175" height="250" alt=""></p>
+</div>
+<div class="text">
+<div class="scroll">
+<h2 class="heading">『パチスロ イースⅠ&Ⅱ』(ロデオ)</h2>
+<p class="site"><a class="externallink" href="http://www.rodeo.ne.jp/machine/2017/ys12/" target="_blank"><img src="/img/common/btn_site_01.png" width="87" height="23" alt="公式サイト" class="roll"></a></p>
+<p class="lead">「イース」シリーズの世界観とパチスロのゲーム性が融合<br />新機種『パチスロ イースⅠ&amp;Ⅱ』登場</p><p>　このたび、アクションRPGブームの先駆けと言われる「イース」が新たにパチスロ機として登場します。遊技の進行とともにゴールドを稼ぎ、アイテムを買って、プレイヤー自らの選択でART（アシストリプレイタイム）を強化するという、RPG要素を活かしたゲーム性をパチスロにおいても実現しています。「イース」の世界観やゲーム性を再現することで、同シリーズのメディアミックスに新たな展開をもたらします。</p>
+</div>
+</div>
+</div>
+<div class="works">
+<dl>
+<dt><img src="/img/common/work_03.png" width="620" height="21" alt="関連実績"></dt>
+<dd>
+<div class="js_carrousel slider">
+<div class="view">
+<ul style="width:9999em;">
+<li class="js_caption">
+<a class="js_rel6" data-accomplishmentId="84" href="/pachinko/detail/84"><img src="http://img.fields.biz/share/thumb/f6/23/15379418_long.jpg" width="70" height="100" alt="">
+</a>
+<div class="caption" style="display:none"><div>回胴黙示録カイジ3　（ロデオ）</div></div>
+</li>
+<li class="js_caption">
+<a class="js_rel6" data-accomplishmentId="126" href="/pachinko/detail/126"><img src="http://img.fields.biz/share/thumb/21/10/43209564_long.jpg" width="70" height="100" alt="">
+</a>
+<div class="caption" style="display:none"><div>サラリーマン金太郎~出世回胴編~（ロデオ）</div></div>
+</li>
+<li class="js_caption">
+<a class="js_rel6" data-accomplishmentId="184" href="/pachinko/detail/184"><img src="http://img.fields.biz/share/thumb/30/ea/44724472_long.jpg" width="70" height="100" alt="">
+</a>
+<div class="caption" style="display:none"><div>パチスロ 犬夜叉（ロデオ）</div></div>
+</li>
+<li class="js_caption">
+<a class="js_rel6" data-accomplishmentId="209" href="/pachinko/detail/209"><img src="http://img.fields.biz/share/thumb/cf/4a/30623012_long.jpg" width="70" height="100" alt="">
+</a>
+<div class="caption" style="display:none"><div>『パチスロ 闘え！サラリーマン』(ロデオ)</div></div>
+</li>
+<li><img src="/img/common/rel_no_Image.png" width="70" height="100" alt="NoImage"></li>
+</ul>
+</div>
+<p class="js_ep prev"><img src="/img/common/btn_arrow_prev_05.png" width="20" height="100" alt="前へ戻る" class="roll active"></p>
+<p class="js_en next"><img src="/img/common/btn_arrow_next_05.png" width="20" height="100" alt="次へ進む" class="roll active"></p>
+<p class="js_dp prev"><img src="/img/common/btn_arrow_prev_05_d.png" width="20" height="100" alt="前へ戻る"></p>
+<p class="js_dn next"><img src="/img/common/btn_arrow_next_05_d.png" width="20" height="100" alt="次へ進む"></p>
+</div>
+</dd>
+</dl>
+</div>
+</div>
+</div></div></div></div></div><!-- [[ FOOTER ]] -->
+<footer>
+<p class="logo"><img src="/img/common/footer/logo_01.png" width="120" height="46" alt="FIELDS"></p>
+<p class="contact"><a id="js_contact" href="https://www.fields.biz/contact?floor=1" target="_blank"><img src="/img/common/footer/btn_01.png" width="182" height="42" alt="担当者に問い合わせる" class="roll"></a></p>
+<nav>
+<ul>
+<li><a href="http://www.fields.biz/ir/j/" target="_blank">IR情報<img src="/img/common/ico_01.png" width="10" height="9" alt="新しいウィンドウで開く" class="icon"></a></li>
+<li><a href="http://www.fields.biz/ir/j/about/" target="_blank">企業情報<img src="/img/common/ico_01.png" width="10" height="9" alt="新しいウィンドウで開く" class="icon"></a></li>
+<li><a href="https://job.rikunabi.com/2018/company/r803800019/" target="_blank">採用情報<img src="/img/common/ico_01.png" width="10" height="9" alt="新しいウィンドウで開く" class="icon"></a></li>
+<li><a href="https://win.fields.biz/user/login.php" target="_blank">ホール関係者様向け専用サイト<img src="/img/common/ico_01.png" width="10" height="9" alt="新しいウィンドウで開く" class="icon"></a></li>
+<li><a href="http://www.fields.biz/products/ps/" target="_blank">プレミアムファンサイト<img src="/img/common/ico_01.png" width="10" height="9" alt="新しいウィンドウで開く" class="icon"></a></li>
+<li><a href="http://www.fields.biz/use_conditions/" target="_blank">利用規約<img src="/img/common/ico_01.png" width="10" height="9" alt="新しいウィンドウで開く" class="icon"></a></li>
+<li><a href="http://www.fields.biz/mail_form/privacy.html" target="_blank">個人情報の取り扱い<img src="/img/common/ico_01.png" width="10" height="9" alt="新しいウィンドウで開く" class="icon"></a></li>
+<li><a href="http://www.fields.biz/sitemap/" target="_blank">サイトマップ<img src="/img/common/ico_01.png" width="10" height="9" alt="新しいウィンドウで開く" class="icon"></a></li>
+</ul>
+</nav>
+<p class="copyright">(C) FIELDS CORPORATION ALL RIGHTS RESERVED. <span class="number">JASRAC許諾番号  9011113002Y45040</span></p>
+</footer>
+<!-- /[[ FOOTER ]] -->
+
+<input id="startPoint" type="hidden" value="1f1r" />
+</body>
+</html>

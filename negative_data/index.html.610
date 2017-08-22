@@ -1,0 +1,568 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=shift_jis">
+<title>株式会社ストリーム STREAM</title>
+<meta name="description" content="株式会社ストリームの企業情報サイトです。ECカレントとして実績のあるインターネット通販のノウハウを活用し、EC支援事業を行い、更に化粧品開発・販売、オンラインゲームの分野で新規事業を立ち上げています。">
+<meta name="keywords" content="株式会社ストリーム,EC支援事業,化粧品開発・販売,オンラインゲーム">
+<link href="common/css/common.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+<script type="text/javascript" src="common/js/time.js"></script>
+<script type="text/javascript" src="common/js/biz.js"></script>
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+	var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+	if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+	d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+//script from black-flag.net
+$(function(){
+	var $setElm = $('.viewer'),
+	fadeSpeed = 1500,
+	switchDelay = 8000;
+
+	$setElm.each(function(){
+		var targetObj = $(this);
+		var findUl = targetObj.find('ul');
+		var findLi = targetObj.find('li');
+		var findLiFirst = targetObj.find('li:first');
+
+		findLi.css({display:'block',opacity:'0',zIndex:'99'});
+		findLiFirst.css({zIndex:'100'}).stop().animate({opacity:'1'},fadeSpeed);
+
+		setInterval(function(){
+			findUl.find('li:first-child').animate({opacity:'0'},fadeSpeed).next('li').css({zIndex:'100'}).animate({opacity:'1'},fadeSpeed).end().appendTo(findUl).css({zIndex:'99'});
+		},switchDelay);
+	});
+});
+
+</script>
+
+<style>
+.viewer {
+	margin: 0 auto;
+	width: 800px;
+	height: 300px;
+	text-align: left;
+	overflow: hidden;
+}
+
+.viewer ul {
+	width: 800px;
+	height: 300px;
+	text-align: left;
+	overflow: hidden;
+	position: relative;
+}
+
+.viewer ul li {
+	top: 0;
+	left: 0;
+	width: 800px;
+	height: 300px;
+	display: none;
+	position: absolute;
+}
+.viewer ul{
+-webkit-margin-before: 0em;
+-webkit-margin-after: 0em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+-webkit-padding-start: 0px;
+}
+</style>
+</head>
+
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onLoad="MM_preloadImages('common/images/menu_01_on.jpg','common/images/menu_02_on.jpg','common/images/menu_03_on.jpg','common/images/menu_04_on.jpg')"><!-- #BeginLibraryItem "/Library/header.lbi" -->
+<table width="800" border="0" align="center" cellpadding="0" cellspacing="0">
+<tr>
+	<td><table width="800" border="0" cellspacing="0" cellpadding="0">
+	<tr>
+	<td height="70"><a href="/"><img src="common/images/stream_logo.gif" alt="STREAM" width="433" height="30" border="0"></a></td>
+		<td align="right"><table border="0" cellspacing="0" cellpadding="0">
+		<tr>
+		<td><img src="common/images/arrow.gif" width="10" height="12"></td>
+		<td class="global"><a href="global/sitemap.html">サイトマップ</a></td>
+		<td><img src="common/images/spacer.gif" width="20" height="1"></td>
+		<td><img src="common/images/arrow.gif" width="10" height="12"></td>
+		<td class="global"><a href="global/inquiry.html">お問い合わせ</a></td>
+		</tr>
+		</table></td>
+	</tr>
+	</table></td>
+</tr>
+</table><!-- #EndLibraryItem --><table width="800" border="0" align="center" cellpadding="0" cellspacing="0">
+<tr>
+<td height="300" align="center" valign="bottom" bgcolor="#EBEBEB">
+<div class="viewer">
+<ul>
+<li><img src="img/img_top01.jpg" width="800" height="300" alt=""></li>
+<li><img src="img/img_top02.jpg" width="800" height="300" alt=""></li>
+<li><img src="img/img_top03.jpg" width="800" height="300" alt=""></li>
+<li><img src="img/img_top04.jpg" width="800" height="300" alt=""></li>
+</ul>
+</div><!--/.viewer-->
+	</td>
+</tr>
+<!--
+	<tr>
+	<th colspan="4" class="yutai_top"><a href="ir/yutai.html">⇒ おトクな株主優待制度！</a></th>
+	</tr>
+-->
+	<tr>
+	<td><table width="800" border="0" cellspacing="0" cellpadding="0">
+	<tr>
+		<td><a href="company/message.html"><img src="common/images/menu_01.jpg" alt="会社案内" width="201" height="35" border="0" id="Image1" onMouseOver="MM_swapImage('Image1','','common/images/menu_01_on.jpg',1)" onMouseOut="MM_swapImgRestore()"></a></td>
+		<td><a href="business/internet.html"><img src="common/images/menu_02.jpg" alt="事業内容" width="199" height="35" border="0" id="Image2" onMouseOver="MM_swapImage('Image2','','common/images/menu_02_on.jpg',1)" onMouseOut="MM_swapImgRestore()"></a></td>
+		<td><a href="recruit/recruit.html"><img src="common/images/menu_03.jpg" alt="採用情報" width="200" height="35" border="0" id="Image3" onMouseOver="MM_swapImage('Image3','','common/images/menu_03_on.jpg',1)" onMouseOut="MM_swapImgRestore()"></a></td>
+		<td><a href="ir/ir_news.html"><img src="common/images/menu_04.jpg" alt="投資家情報" width="200" height="35" border="0" id="Image4" onMouseOver="MM_swapImage('Image4','','common/images/menu_04_on.jpg',1)" onMouseOut="MM_swapImgRestore()"></a></td>
+	</tr>
+	</table>
+
+<p style="margin:15px 0px 10px;border:1px dotted #666;padding:10px 15px;color:#666;font-family:ヒラギノ角ゴ ProN W3,Hiragino Kaku Gothic ProN,メイリオ,Meiryo,sans-serif;">
+このたび九州北部豪雨の被害に遭われた皆様に心よりお見舞い申し上げます。<br>
+今なお避難されている皆様のご安全を心よりお祈り申し上げます。</p>
+
+	</td>
+</tr>
+<tr>
+	<td><img src="common/images/spacer.gif" width="1" height="6"></td>
+	<!-- ビズ表示 start -->
+	<script type="text/javascript">
+	<!--
+		top_biz();
+	//-->
+	</script>
+	<!-- ビズ表示 end -->
+	<td><img src="common/images/spacer.gif" width="1" height="6"></td>
+</tr>
+<tr>
+	<td><table width="800" border="0" cellspacing="0" cellpadding="0">
+	<tr>
+		<td><img src="common/images/spacer.gif" width="37" height="1"></td>
+		<td>
+			<table border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td><img src="common/images/spacer.gif" width="3" height="25"></td>
+				<td valign="top"><img src="img/news_a_topics.jpg" alt="news and topics"></td>
+			</tr>
+			</table>
+			<table border="0" cellspacing="0" cellpadding="3" class="tb_news">
+			<tr>
+				<td valign="top" nowrap class="global">2017-05-15</td>
+				<td valign="top"><img src="common/images/shikaku.gif" width="5" height="12"></td>
+				<td class="global"><a href="../pdf/pr170515.pdf" target="_blank">子会社エックスワンがベースメイクシリーズ「XLUXES プロケアビヨンド」を新発売<img src="common/images/icon_pdf.gif" alt="PDFファイル"></a></td>
+			</tr>
+			<tr>
+				<td valign="top" nowrap class="global">2017-05-01</td>
+				<td valign="top"><img src="common/images/shikaku.gif" width="5" height="12"></td>
+				<td class="global"><a href="../pdf/pr170501.pdf" target="_blank">子会社エックスワン「チャレンジ サポート プログラム」のお知らせ<img src="common/images/icon_pdf.gif" alt="PDFファイル"></a></td>
+			</tr>
+			<tr>
+				<td valign="top" nowrap class="global">2017-03-31</td>
+				<td valign="top"><img src="common/images/shikaku.gif" width="5" height="12"></td>
+				<td class="global"><a href="../pdf/pr170331.pdf" target="_blank">インターネット通販サイト「ワンズマート楽天市場店」新規出店のお知らせ<img src="common/images/icon_pdf.gif" alt="PDFファイル"></a></td>
+			</tr>
+			<tr>
+				<td valign="top" nowrap class="global">2017-03-01</td>
+				<td valign="top"><img src="common/images/shikaku.gif" width="5" height="12"></td>
+				<td class="global"><a href="../pdf/pr170301.pdf" target="_blank">子会社エックスワンが腸のぜん動運動とビフィズス菌に着目したサプリメントを新発売<img src="common/images/icon_pdf.gif" alt="PDFファイル"></a></td>
+			</tr>
+			<tr>
+				<td valign="top" nowrap class="global">2017-02-01</td>
+				<td valign="top"><img src="common/images/shikaku.gif" width="5" height="12"></td>
+				<td class="global"><a href="../pdf/pr170201.pdf" target="_blank">子会社エックスワンがXLUXESシリーズの新商品「XLUXES グラマラスリップクリーム」を発売<img src="common/images/icon_pdf.gif" alt="PDFファイル"></a></td>
+			</tr>
+			<tr>
+				<td valign="top" nowrap class="global">2016-11-01</td>
+				<td valign="top"><img src="common/images/shikaku.gif" width="5" height="12"></td>
+				<td class="global"><a href="../pdf/pr161101.pdf" target="_blank">子会社エックスワンが革新的なヘアカラートリートメント「xinno hair color」新発売<img src="common/images/icon_pdf.gif" alt="PDFファイル"></a></td>
+			</tr>
+			<tr>
+				<td valign="top" nowrap class="global">2016-10-05</td>
+				<td valign="top"><img src="common/images/shikaku.gif" width="5" height="12"></td>
+				<td class="global"><a href="../pdf/pr161005.pdf" target="_blank">ストリームが共同で企画・運営を担当「三国ブレイズ」の事前登録開始！<img src="common/images/icon_pdf.gif" alt="PDFファイル"></a></td>
+			</tr>
+			<tr>
+				<td valign="top" nowrap class="global">2016-09-16</td>
+				<td valign="top"><img src="common/images/shikaku.gif" width="5" height="12"></td>
+				<td class="global"><a href="../pdf/pr160916.pdf" target="_blank">スマートフォン向けゲームアプリ「三国ブレイズ」東京ゲームショウ2016で公開！<img src="common/images/icon_pdf.gif" alt="PDFファイル"></a></td>
+			</tr>
+			<tr>
+				<td valign="top" nowrap class="global">2016-06-28</td>
+				<td valign="top"><img src="common/images/shikaku.gif" width="5" height="12"></td>
+				<td class="global"><a href="../pdf/pr160628.pdf" target="_blank">子会社エックスワンが新スキンケアシリーズ『ORIGAMI(オリガミ)』発売<img src="common/images/icon_pdf.gif" alt="PDFファイル"></a></td>
+			</tr>
+			<tr>
+				<td valign="top" nowrap class="global">2016-06-01</td>
+				<td valign="top"><img src="common/images/shikaku.gif" width="5" height="12"></td>
+				<td class="global"><a href="../pdf/pr160602.pdf" target="_blank">子会社エックスワンがシャンプー&amp;トリートメント スムース / モイストタイプ同時に新発売<img src="common/images/icon_pdf.gif" alt="PDFファイル"></a></td>
+			</tr>
+			<tr>
+				<td valign="top" nowrap class="global">2016-06-01</td>
+				<td valign="top"><img src="common/images/shikaku.gif" width="5" height="12"></td>
+				<td class="global"><a href="../pdf/pr160601.pdf" target="_blank">子会社エックスワンが栄養機能食品「エックスワン VS（ヴィエス）」新発売<img src="common/images/icon_pdf.gif" alt="PDFファイル"></a></td>
+			</tr>
+			<tr>
+				<td valign="top" nowrap class="global">2016-04-13</td>
+				<td valign="top"><img src="common/images/shikaku.gif" width="5" height="12"></td>
+				<td class="global"><a href="../pdf/pr160413.pdf" target="_blank">インターネット通販サイト「EC カレント」のAmazon マーケットプレイス新規出店のお知らせ<img src="common/images/icon_pdf.gif" alt="PDFファイル"></a></td>
+			</tr>
+			<tr>
+				<td valign="top" nowrap class="global">2016-03-01</td>
+				<td valign="top"><img src="common/images/shikaku.gif" width="5" height="12"></td>
+				<td class="global"><a href="../pdf/pr160301.pdf" target="_blank">子会社エックスワン「ビューティーマスターカレッジ」開校<img src="common/images/icon_pdf.gif" alt="PDFファイル"></a></td>
+			</tr>
+			<tr>
+				<td valign="top" nowrap class="global">2016-01-04</td>
+				<td valign="top"><img src="common/images/shikaku.gif" width="5" height="12"></td>
+				<td class="global"><a href="../pdf/pr160104.pdf" target="_blank">子会社エックスワンが液体栄養ドリンクを新発売<img src="common/images/icon_pdf.gif" alt="PDFファイル"></a></td>
+			</tr>
+			<tr>
+				<td valign="top" nowrap class="global">2015-08-03</td>
+				<td valign="top"><img src="common/images/shikaku.gif" width="5" height="12"></td>
+				<td class="global"><a href="../pdf/pr150803.pdf" target="_blank">子会社エックスワンがエイジングケアサプリメントを新発売<img src="common/images/icon_pdf.gif" alt="PDFファイル"></a></td>
+			</tr>
+			<tr>
+				<td valign="top" nowrap class="global">2015-05-07</td>
+				<td valign="top"><img src="common/images/shikaku.gif" width="5" height="12"></td>
+				<td class="global"><a href="../pdf/pr150507.pdf" target="_blank">子会社エックスワンが幹細胞コスメ専用サロン・ブティックを開設<img src="common/images/icon_pdf.gif" alt="PDFファイル"></a></td>
+			</tr>
+			<tr>
+				<td valign="top" nowrap class="global">2015-03-16</td>
+				<td valign="top"><img src="common/images/shikaku.gif" width="5" height="12"></td>
+				<td class="global"><a href="../pdf/pr150316.pdf" target="_blank">子会社エックスワンがタカラバイオの開発素材を配合したサプリを新発売<img src="common/images/icon_pdf.gif" alt="PDFファイル"></a></td>
+			</tr>
+			<tr>
+				<td valign="top" nowrap class="global">2014-12-08</td>
+				<td valign="top"><img src="common/images/shikaku.gif" width="5" height="12"></td>
+				<td class="global"><a href="../pdf/pr141208.pdf" target="_blank">子会社エックスワン社の新商品・幹細胞コスメをラオックス店舗で免税独占販売<img src="common/images/icon_pdf.gif" alt="PDFファイル"></a></td>
+			</tr>
+			<tr>
+				<td valign="top" nowrap class="global">2014-12-01</td>
+				<td valign="top"><img src="common/images/shikaku.gif" width="5" height="12"></td>
+				<td class="global"><a href="../pdf/pr141201.pdf" target="_blank">子会社エックスワン幹細胞コスメを新発売<img src="common/images/icon_pdf.gif" alt="PDFファイル"></a></td>
+			</tr>
+			<tr>
+				<td valign="top" nowrap class="global">2014-11-12</td>
+				<td valign="top"><img src="common/images/shikaku.gif" width="5" height="12"></td>
+				<td class="global"><a href="../pdf/press20141112_2.pdf" target="_blank">子会社エックスワンがダイエットサプリメントを新発売<img src="common/images/icon_pdf.gif" alt="PDFファイル"></a></td>
+			</tr>
+			<tr>
+				<td valign="top" nowrap class="global">2014-09-03</td>
+				<td valign="top"><img src="common/images/shikaku.gif" width="5" height="12"></td>
+				<td class="global"><a href="../pdf/pr140901.pdf" target="_blank">子会社の商品をラオックス店舗において販売開始に関するお知らせ<img src="common/images/icon_pdf.gif" alt="PDFファイル"></a></td>
+			</tr>
+			<tr>
+				<td valign="top" nowrap class="global">2014-08-20</td>
+				<td valign="top"><img src="common/images/shikaku.gif" width="5" height="12"></td>
+				<td class="global"><a href="../pdf/pr140801.pdf" target="_blank">ストリームのオンラインゲーム事業第1弾―中国で『三国志戦姫』を独占配信<img src="common/images/icon_pdf.gif" alt="PDFファイル"></a></td>
+			</tr>
+<!--
+			 <tr>
+				<td valign="top" nowrap class="global">2014-04-10</td>
+				<td valign="top"><img src="common/images/shikaku.gif" width="5" height="12"></td>
+				<td class="global"><a href="../pdf/press201410.pdf" target="_blank">PCIDSS準拠について<img src="common/images/icon_pdf.gif" alt="PDFファイル"></a></td>
+			</tr>
+-->
+			</table>
+		<table width="0" border="0" align="right" cellpadding="0" cellspacing="0">
+			<tr>
+			<td width="13"><img src="common/images/arrow_box_ss.gif" width="10" height="11"></td>
+			<td class="global"><a href="ir/ir_news.html">過去のニュースはこちら</a></td>
+			</tr>
+		</table>
+		<br>
+
+		<table border="0" cellspacing="0" cellpadding="0">
+		<tr>
+			<td><img src="common/images/spacer.gif" width="3" height="25"></td>
+			<td valign="top"><img src="img/news_a_topics2.jpg" alt="news and topics"></td>
+		</tr>
+		</table>
+			<table border="0" cellspacing="0" cellpadding="3" class="tb_news">
+			<tr>
+				<td valign="top" nowrap class="global">2017-06-13</td>
+				<td valign="top"><img src="common/images/shikaku.gif" width="5" height="12"></td>
+				<td class="global">平成30年1月期 第1四半期報告書</td>
+			</tr>
+			<tr>
+				<td valign="top" nowrap class="global">2017-06-09</td>
+				<td valign="top"><img src="common/images/shikaku.gif" width="5" height="12"></td>
+				<td class="global">平成30年1月期 第1四半期決算短信〔日本基準〕(連結)</td>
+			</tr>
+			<tr>
+				<td valign="top" nowrap class="global">2017-04-28</td>
+				<td valign="top"><img src="common/images/shikaku.gif" width="5" height="12"></td>
+				<td class="global">第18期有価証券報告書</td>
+			</tr>
+			<tr>
+				<td valign="top" nowrap class="global">2017-04-27</td>
+				<td valign="top"><img src="common/images/shikaku.gif" width="5" height="12"></td>
+				<td class="global">支配株主等に関する事項について</td>
+			</tr>
+			<tr>
+				<td valign="top" nowrap class="global">2017-04-27</td>
+				<td valign="top"><img src="common/images/shikaku.gif" width="5" height="12"></td>
+				<td class="global">役員の異動に関するお知らせ</td>
+			</tr>
+			<tr>
+				<td valign="top" nowrap class="global">2017-03-24</td>
+				<td valign="top"><img src="common/images/shikaku.gif" width="5" height="12"></td>
+				<td class="global">代表取締役の異動(追加選定)及び役員の異動に関するお知らせ</td>
+			</tr>
+			<tr>
+				<td valign="top" nowrap class="global">2017-03-23</td>
+				<td valign="top"><img src="common/images/shikaku.gif" width="5" height="12"></td>
+				<td class="global">平成29年1月期 決算説明会が開催されました。</td>
+			</tr>
+			<tr>
+				<td valign="top" nowrap class="global">2017-03-14</td>
+				<td valign="top"><img src="common/images/shikaku.gif" width="5" height="12"></td>
+				<td class="global">平成29年1月期 決算短信〔日本基準〕(連結)</td>
+			</tr>
+			<tr>
+				<td valign="top" nowrap class="global">2017-03-07</td>
+				<td valign="top"><img src="common/images/shikaku.gif" width="5" height="12"></td>
+				<td class="global">業績予想の修正に関するお知らせ</td>
+			</tr>
+			<tr>
+				<td valign="top" nowrap class="global">2016-12-13</td>
+				<td valign="top"><img src="common/images/shikaku.gif" width="5" height="12"></td>
+				<td class="global">平成29年1月期 第3四半期報告書</td>
+			</tr>
+			<tr>
+				<td valign="top" nowrap class="global">2016-12-09</td>
+				<td valign="top"><img src="common/images/shikaku.gif" width="5" height="12"></td>
+				<td class="global">（訂正）「平成29年1月期 第3四半期決算短信〔日本基準〕(連結)」の一部訂正の件について</td>
+			</tr>
+			<tr>
+				<td valign="top" nowrap class="global">2016-12-08</td>
+				<td valign="top"><img src="common/images/shikaku.gif" width="5" height="12"></td>
+				<td class="global">平成29年1月期 第3四半期決算短信〔日本基準〕(連結)</td>
+			</tr>
+			<tr>
+				<td valign="top" nowrap class="global">2016-10-13</td>
+				<td valign="top"><img src="common/images/shikaku.gif" width="5" height="12"></td>
+				<td class="global">警視庁および証券取引等監視委員会による強制捜査について</td>
+			</tr>
+			<tr>
+				<td valign="top" nowrap class="global">2016-09-16</td>
+				<td valign="top"><img src="common/images/shikaku.gif" width="5" height="12"></td>
+				<td class="global">平成29年1月期 第2四半期決算説明会が開催されました。</td>
+			</tr>
+			<tr>
+				<td valign="top" nowrap class="global">2016-09-13</td>
+				<td valign="top"><img src="common/images/shikaku.gif" width="5" height="12"></td>
+				<td class="global">平成29年1月期 第2四半期報告書</td>
+			</tr>
+			<tr>
+				<td valign="top" nowrap class="global">2016-09-08</td>
+				<td valign="top"><img src="common/images/shikaku.gif" width="5" height="12"></td>
+				<td class="global">平成29年1月期 第2四半期決算短信〔日本基準〕(連結)</td>
+			</tr>
+			<tr>
+				<td valign="top" nowrap class="global">2016-09-07</td>
+				<td valign="top"><img src="common/images/shikaku.gif" width="5" height="12"></td>
+				<td class="global">業績予想の修正に関するお知らせ</td>
+			</tr>
+			<tr>
+				<td valign="top" nowrap class="global">2016-06-17</td>
+				<td valign="top"><img src="common/images/shikaku.gif" width="5" height="12"></td>
+				<td class="global">有償ストックオプション（新株予約権）の発行内容確定に関するお知らせ</td>
+			</tr>
+			<tr>
+				<td valign="top" nowrap class="global">2016-06-13</td>
+				<td valign="top"><img src="common/images/shikaku.gif" width="5" height="12"></td>
+				<td class="global">平成29年1月期 第1四半期報告書</td>
+			</tr>
+			<tr>
+				<td valign="top" nowrap class="global">2016-06-08</td>
+				<td valign="top"><img src="common/images/shikaku.gif" width="5" height="12"></td>
+				<td class="global">平成29年1月期 第1四半期決算短信〔日本基準〕(連結)</td>
+			</tr>
+			<tr>
+				<td valign="top" nowrap class="global">2016-05-27</td>
+				<td valign="top"><img src="common/images/shikaku.gif" width="5" height="12"></td>
+				<td class="global">有償ストックオプション（新株予約権）の発行に関するお知らせ</td>
+			</tr>
+			<tr>
+				<td valign="top" nowrap class="global">2016-04-28</td>
+				<td valign="top"><img src="common/images/shikaku.gif" width="5" height="12"></td>
+				<td class="global">第17期有価証券報告書</td>
+			</tr>
+			<tr>
+				<td valign="top" nowrap class="global">2016-04-27</td>
+				<td valign="top"><img src="common/images/shikaku.gif" width="5" height="12"></td>
+				<td class="global">支配株主等に関する事項について</td>
+			</tr>
+			<tr>
+				<td valign="top" nowrap class="global">2016-04-27</td>
+				<td valign="top"><img src="common/images/shikaku.gif" width="5" height="12"></td>
+				<td class="global">役員の異動に関するお知らせ</td>
+			</tr>
+			<tr>
+				<td valign="top" nowrap class="global">2016-03-25</td>
+				<td valign="top"><img src="common/images/shikaku.gif" width="5" height="12"></td>
+				<td class="global">役員の異動に関するお知らせ</td>
+			</tr>
+			<tr>
+				<td valign="top" nowrap class="global">2016-03-23</td>
+				<td valign="top"><img src="common/images/shikaku.gif" width="5" height="12"></td>
+				<td class="global">平成28年1月期 決算説明会が開催されました。</td>
+			</tr>
+			<tr>
+				<td valign="top" nowrap class="global">2016-03-14</td>
+				<td valign="top"><img src="common/images/shikaku.gif" width="5" height="12"></td>
+				<td class="global">平成28年1月期 決算短信〔日本基準〕(連結)</td>
+			</tr>
+			<tr>
+				<td valign="top" nowrap class="global">2015-12-14</td>
+				<td valign="top"><img src="common/images/shikaku.gif" width="5" height="12"></td>
+				<td class="global">平成28年1月期 第3四半期報告書</td>
+			</tr>
+			<tr>
+				<td valign="top" nowrap class="global">2015-12-08</td>
+				<td valign="top"><img src="common/images/shikaku.gif" width="5" height="12"></td>
+				<td class="global">平成28年1月期 第3四半期決算短信〔日本基準〕(連結)</td>
+			</tr>
+			<tr>
+				<td valign="top" nowrap class="global">2015-09-18</td>
+				<td valign="top"><img src="common/images/shikaku.gif" width="5" height="12"></td>
+				<td class="global">平成28年1月期 第2四半期決算説明会が開催されました。</td>
+			</tr>
+			<tr>
+				<td valign="top" nowrap class="global">2015-09-14</td>
+				<td valign="top"><img src="common/images/shikaku.gif" width="5" height="12"></td>
+				<td class="global">平成28年1月期 第2四半期報告書</td>
+			</tr>
+			<tr>
+				<td valign="top" nowrap class="global">2015-08-28</td>
+				<td valign="top"><img src="common/images/shikaku.gif" width="5" height="12"></td>
+				<td class="global">平成28年1月期 第2四半期決算短信〔日本基準〕(連結)</td>
+			</tr>
+			<tr>
+				<td valign="top" nowrap class="global">2015-08-24</td>
+				<td valign="top"><img src="common/images/shikaku.gif" width="5" height="12"></td>
+				<td class="global">業績予想の修正に関するお知らせ</td>
+			</tr>
+			<tr>
+				<td valign="top" nowrap class="global">2015-06-12</td>
+				<td valign="top"><img src="common/images/shikaku.gif" width="5" height="12"></td>
+				<td class="global">平成28年1月期 第1四半期報告書</td>
+			</tr>
+			<tr>
+				<td valign="top" nowrap class="global">2015-06-08</td>
+				<td valign="top"><img src="common/images/shikaku.gif" width="5" height="12"></td>
+				<td class="global">平成28年1月期 第1四半期決算短信〔日本基準〕(連結)</td>
+			</tr>
+			<tr>
+				<td valign="top" nowrap class="global">2015-04-30</td>
+				<td valign="top"><img src="common/images/shikaku.gif" width="5" height="12"></td>
+				<td class="global">第16期有価証券報告書</td>
+			</tr>
+			<tr>
+				<td valign="top" nowrap class="global">2015-04-22</td>
+				<td valign="top"><img src="common/images/shikaku.gif" width="5" height="12"></td>
+				<td class="global">支配株主等に関する事項について</td>
+			</tr>
+			<tr>
+				<td valign="top" nowrap class="global">2015-04-22</td>
+				<td valign="top"><img src="common/images/shikaku.gif" width="5" height="12"></td>
+				<td class="global">役員の異動に関するお知らせ</td>
+			</tr>
+			<tr>
+				<td valign="top" nowrap class="global">2015-03-27</td>
+				<td valign="top"><img src="common/images/shikaku.gif" width="5" height="12"></td>
+				<td class="global">定款の一部変更のお知らせ</td>
+			</tr>
+			<tr>
+				<td valign="top" nowrap class="global">2015-03-27</td>
+				<td valign="top"><img src="common/images/shikaku.gif" width="5" height="12"></td>
+				<td class="global">役員の異動に関するお知らせ</td>
+			</tr>
+			<tr>
+				<td valign="top" nowrap class="global">2015-03-18</td>
+				<td valign="top"><img src="common/images/shikaku.gif" width="5" height="12"></td>
+				<td class="global">平成27年1月期 決算説明会が開催されました。</td>
+			</tr>
+			<tr>
+				<td valign="top" nowrap class="global">2015-03-13</td>
+				<td valign="top"><img src="common/images/shikaku.gif" width="5" height="12"></td>
+				<td class="global">平成27年1月期 決算短信〔日本基準〕(連結)</td>
+			</tr>
+			</table>
+
+		<table width="0" border="0" align="right" cellpadding="0" cellspacing="0">
+			<tr>
+			<td width="13"><img src="common/images/arrow_box_ss.gif" width="10" height="11"></td>
+			<td class="global"><a href="ir/ir_library.html">過去のトピックスはこちら</a></td>
+			</tr>
+		</table></td>
+		<td width="280" align="right" valign="top">
+	<div style="margin-bottom:3px;"><a href="ir/yutai.html"><img src="common/images/ban_yutai.jpg" alt="お得な株主優待！" width="202" height="52" border="0"></a></div>
+		<div style="margin-bottom:3px;"><a href="http://www.ec-current.com/" target="_blank"><img src="common/images/ec_current.jpg" alt="ec current" width="202" height="84" border="0"></a></div>
+		<div style="margin-bottom:3px;"><a href="http://www.ebest.co.jp/" target="_blank"><img src="common/images/ebest.jpg" alt="イーベスト" width="202" height="84" border="0"></a></div>
+		<div style="margin-bottom:3px;"><a href="http://www.tokka.com/" target="_blank"><img src="common/images/tokka.jpg" alt="特価COM" width="202" height="84" border="0"></a></div>
+		<div style="margin-bottom:3px;"><a href="http://www.x-one.co.jp/" target="_blank"><img src="common/images/xone.jpg" alt="x-one" width="202" height="84" border="0"></a></div>
+	 </td>
+	</tr>
+	</table></td>
+</tr>
+</table><!-- #BeginLibraryItem "/Library/footer.lbi" --><table width="800" border="0" align="center" cellpadding="0" cellspacing="0">
+<tr>
+<td><img src="common/images/spacer.gif" width="1" height="20"></td>
+</tr>
+<tr>
+<td bgcolor="#999999"><img src="common/images/spacer.gif" width="1" height="1"></td>
+</tr>
+<tr>
+	<td><table width="800" border="0" cellspacing="0" cellpadding="0">
+	<tr>
+		<td height="40"><table border="0" cellspacing="0" cellpadding="0">
+		<tr>
+		<td><img src="common/images/arrow.gif" width="10" height="12"></td>
+		<td class="global"><a href="global/kojin.html">個人情報保護方針</a></td>
+		<td><img src="common/images/spacer.gif" width="20" height="1"></td>
+		<td><img src="common/images/arrow.gif" width="10" height="12"></td>
+		<td class="global"><a href="global/privacy.html">プライバシーポリシー</a></td>
+		</tr>
+		</table></td>
+	<td align="right" class="footer">Copyright &copy; 2007 STREAM co.,ltd. All rights reserved. </td>
+	<td width="130" align="right" class="global"><img src="common/images/stream.gif" alt="株式会社ストリーム" width="120" height="14"></td>
+	</tr>
+	</table></td>
+</tr>
+</table>
+<!--google analytics start-->
+<script type="text/javascript">
+<!--
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-2539477-12', 'stream-jp.com');
+  ga('send', 'pageview');
+//-->
+</script>
+<!--google analytics end--><!-- #EndLibraryItem --></body>
+</html>

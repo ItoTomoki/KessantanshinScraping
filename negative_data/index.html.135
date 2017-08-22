@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=750, user-scalable=yes">
+	<meta name="description" content="細田工務店">
+	<meta name="keywords" content="細田工務店">
+		<title>細田工務店</title>
+		<link rel="shortcut icon" href="/common/new/img/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="/common/new/css/import_common.css" media="screen,tv,projection,print">
+	<link rel="stylesheet" href="/common/new/css/print.css" media="print">
+		<link rel="stylesheet" href="/common/new/css//index.css" media="screen,tv,projection,print">
+		<script src="/common/new/js/jquery-1.6.1.min.js" charset="utf-8"></script>
+	<script src="/common/new/js/analytics.js" charset="utf-8"></script>
+	<script src="/common/new/js/hoverslippery.min.js" charset="utf-8"></script>
+	<script src="/common/new/js/commonUI.js" charset="utf-8"></script>
+	<script src="/common/new/js/heightLine.js" charset="utf-8"></script>
+</head>
+<body>
+<header id="hdArea" class="indexPage">
+	<div id="hdInBlock">
+		<div id="hdNavBtn"></div>
+		<h1 id="hdLogo"><a href="/">注文住宅、分譲住宅、リフォーム、不動産仲介。住まいのことなら細田工務店へ。</a></h1>
+	</div>
+	<div id="hdInBlock_02">
+		<nav id="gNavArea">
+			<ul id="gNav">
+				<li id="gNavLi01"><a href="/life/"><span class="inner">細田の住まいづくり</span></a></li>
+				<li id="gNavLi02"><a href="/quality/"><span class="inner">技術と品質</span></a></li>
+				<li id="gNavLi03"><a href="/growing/"><span class="inner">分譲住宅</span></a></li>
+				<li id="gNavLi04"><a href="/build/"><span class="inner">注文住宅</span></a></li>
+				<li id="gNavLi05"><a href="/reform/"><span class="inner">リフォーム</span></a></li>
+				<li id="gNavLi06"><a href="/store/"><span class="inner">家と暮らしの相談所</span></a></li>
+			</ul>
+		</nav>
+		<ul id="hdNav">
+			<li id="hdNavLi04"><a href="/biz/">法人のお客様へ</a></li>
+			<li id="hdNavLi01"><a href="/contact/">お問い合わせ</a></li>
+			<li id="hdNavLi02"><a href="/hosoda/company/access/">アクセス</a></li>
+			<li id="hdNavLi03">
+				<span id="hdSearchBtn">検索</span>
+				<form id="hdSearch" action="http://search.hosoda.co.jp/search/client.cgi" method="post">
+					<fieldset>
+						<legend>サイト内検索</legend>
+						<input type="hidden" name="uid" value="e4a9476364dd66088c26f93a160f699b">
+						<input type="hidden" name="in" value="U">
+						<input type="hidden" name="cw" value="1">
+						<input type="hidden" name="syn" value="1">
+						<input type="hidden" name="by" value="D0">
+						<input type="text" id="hdKeywords" name="key" value="" maxlength="30" tabindex="1">
+						<input type="submit" id="hdSubmit" name="hdSubmit" value="検索" tabindex="2">
+						<!-- <input type="image" title="検索" alt="検索" value="検索" id="hdSubmit" name="hdSubmit" src="/common/new/img/hd_bt_01_off.gif" tabindex="2" class="ui_rollOver"> -->
+						<div id="hdSearchClose"></div>
+					</fieldset>
+				</form>
+			</li>
+		</ul>
+	</div>
+</header>
+
+<noscript>
+	<div id="nsArea">
+		<div id="nsAreaInner">
+			現在JavaScriptが「無効」に設定されています。<br>全ての機能をご利用いただくには、JavaScriptの設定を「有効」に変更してください。
+		</div>
+	</div>
+</noscript>
+	<div id="coArea" class="oneColumn">
+<style>
+.newsTag.hosoda {
+	border-color: #999;
+	background-color: #999;
+}
+.newsTag.hosoda > .inner + .inner {
+	color: #999;
+}
+</style>
+		<div id="mvArea">
+			<div id="mvImLi_70" style="background-image: url(/common/new/img/index/index_img_70th.jpg);">
+				<h1><div class="batch"><a href="/70th/#bnr"><img src="/common/new/img/index/btn_camp.png" alt=""></a></div><a href="/70th/"><img src="/common/new/img/index/main_70th.png" alt=""></a></h1>
+			</div>
+		</div>
+
+		<div id="indexLiArea">
+			<ul class="indexLi">
+				<li>
+					<a href="/growing/">
+						<!-- <h2 class="indexLiTtl"><img class="pcOnlyImg" src="/common/new/img/index/index_li_tx_01_pc.png" alt="分譲でも、家族の個性に、あなたの想いに応える。分譲住宅"><img class="spOnlyImg" src="/common/new/img/index/index_li_tx_01_sp.png" alt="分譲でも、家族の個性に、あなたの想いに応える。分譲住宅"></h2> -->
+						<p>分譲でも、家族の個性に、あなたの想いに応える。分譲住宅</p>
+					</a>
+				</li>
+				<li>
+					<a href="/build/">
+						<!-- <h2 class="indexLiTtl"><img class="pcOnlyImg" src="/common/new/img/index/index_li_tx_02_pc.png" alt="土地探しから設計、施工、メンテナンスまで。注文住宅"><img class="spOnlyImg" src="/common/new/img/index/index_li_tx_02_sp.png" alt="土地探しから設計、施工、メンテナンスまで。注文住宅"></h2> -->
+						<p>土地探しから設計、施工、メンテナンスまで。注文住宅</p>
+					</a>
+				</li>
+				<li>
+					<a href="/reform/">
+						<!-- <h2 class="indexLiTtl"><img class="pcOnlyImg" src="/common/new/img/index/index_li_tx_03_pc.png" alt="人生の節目に合わせて住まいを見直す。リフォーム"><img class="spOnlyImg" src="/common/new/img/index/index_li_tx_03_sp.png" alt="人生の節目に合わせて住まいを見直す。リフォーム"></h2> -->
+						<p>人生の節目に合わせて住まいを見直す。リフォーム</p>
+					</a>
+				</li>
+			</ul>
+			<div id="spCarousel_01" class="swiper-container">
+				<ul class="indexLi swiper-wrapper">
+					<li class="swiper-slide"><p class="inner"><a href="/growing/lineup/2017campaign/"><img src="/common/new/img/growing/growing_01.jpg" alt=""></a></p></li>
+					<li class="swiper-slide build"><p class="inner"><a href="/campaign/2017/19025.html "><img src="/common/new/img/build/build_01.jpg" alt=""></a></p></li>
+					<li class="swiper-slide reform"><p class="inner"><a href="/campaign/2017/18573.html"><img src="/common/new/img/reform/reform_01.jpg" alt=""></a></p></li>
+				</ul>
+				<ul id="indexCarouselP">
+					<li class="p_growing"></li>
+					<li class="p_build active"></li>
+					<li class="p_reform"></li>
+				</ul>
+				<div class="indexCarouselBtn ui_prev"></div>
+				<div class="indexCarouselBtn ui_next"></div>
+			</div>
+		</div>
+	
+		<div class="innerBlock">
+			<div id="realestateArea">
+				<h2><img src="/common/new/img/realestate/txt.png" alt=""></h2>
+				<ul>
+					<li><a href="/realestate/buy/"><img src="/common/new/img/realestate/bnr_1.png" alt=""></a></li>
+					<li><a href="/realestate/sell/"><img src="/common/new/img/realestate/bnr_2.png" alt=""></a></li>
+				</ul>
+			</div>
+		</div>
+	
+		<div class="innerBlock">
+						<!--div id="g_infoArea">
+<p><span>2016年04月18日</span>この度の「平成28年熊本地震」により、被害を受けられた皆様に、心よりお見舞い申し上げます。<br>一日も早い復旧を心よりお祈りいたします。</p>
+</div-->
+
+<!--g_impInfo-->
+
+<!--div id="g_impInfo">
+<div id="g_impInfoInner">
+<p class="g_impInfoTtl">夏季休業のお知らせ</p>
+<p style="padding-left: 1em;">
+本社並びに中杉通本館・ショールーム、パールセンター館、浜田山駅前館、西荻窪駅前館の業務は、2017年8月11日(祝・金)～2017年8月16日(水)を「夏季休業」としてお休みさせていただきます。2017年8月17日(木)より平常営業となります。</p>
+<p><ul class="g_notesLiType01">
+<li>現在販売中・公開中の分譲物件につきましては、物件のホームページでご確認ください。</li>
+<li>注文住宅の浜田山モデルハウス、本社「木ここち杢」コンセプトルームにつきましては、休業期間中もオープンいたします。</li>
+</ul></p>
+
+<div class="g_notes02">
+<p><ul class="g_notesLiType01">
+<li>アフターメンテナンスの受付は、夏季休業期間でもお電話にてお受けいたします。<br />
+受付電話番号：03-3220-3900</li>
+<li>夏季休業中にお受けいたしました「アフターメンテナンスの受付」ならびに「お問い合せ」につきましては、<br/>2017年8月18日(金)より順次ご対応させていただきます。ご了承ください。</li>
+</ul></p>
+</div>
+
+</div>
+</div-->
+
+
+<!--/g_impInfo-->		</div>
+
+		<div class="innerBlock">
+			<div class="bnr_partner">
+			<a href="/hosoda/business_partner/"><img src="/common/new/img/index/bnr_partner.jpg" alt=""></a>
+			</div>
+		</div>
+
+		<div id="maBlock">
+			<div id="indexVisArea" class="innerBlock">
+				<ul id="indexVisBlock">
+					<li><h2 class="indexVisTtl"><img src="/common/new/img/index/index_vis_ti_01.png" alt="永く、愛していただくための、細田の5つのこだわり"></h2></li>
+					<li>
+						<div class="indexVisLi_l"><img src="/common/new/img/index/index_vis_img_01.jpg" alt=""></div>
+						<div class="indexVisLi_r">
+							<h3 class="indexVisTi"><img src="/common/new/img/index/index_vis_txt_01.png" alt="独自の木の家"></h3>
+							<p class="indexVisTxt">木にこだわり、味わいや断熱性など木の特性を活かした、住まう人にも環境にもやさしい住まいづくりを、創業以来守り続けています。</p>
+						</div>
+					</li>
+					<li>
+						<div class="indexVisLi_l"><img src="/common/new/img/index/index_vis_img_02.jpg" alt=""></div>
+						<div class="indexVisLi_r">
+							<h3 class="indexVisTi"><img src="/common/new/img/index/index_vis_txt_02.png" alt="設計"></h3>
+							<p class="indexVisTxt">注文住宅はお客さまの声にじっくり耳を傾け、分譲住宅は土地や周辺環境をしっかり調査し、永く愛していただけるお住まいを設計いたします。</p>
+						</div>
+					</li>
+					<li>
+						<div class="indexVisLi_l"><img src="/common/new/img/index/index_vis_img_03.jpg" alt=""></div>
+						<div class="indexVisLi_r">
+							<h3 class="indexVisTi"><img src="/common/new/img/index/index_vis_txt_03.png" alt="施工"></h3>
+							<p class="indexVisTxt">見えない部分こそ、住まいの命。だから私たちは、独自で厳しい施工基準を定め、それを確かな技術と施工力で実現しています。</p>
+						</div>
+					</li>
+					<li>
+						<div class="indexVisLi_l"><img src="/common/new/img/index/index_vis_img_04.jpg" alt=""></div>
+						<div class="indexVisLi_r">
+							<h3 class="indexVisTi"><img src="/common/new/img/index/index_vis_txt_04.png" alt="アフターメンテナンス"></h3>
+							<p class="indexVisTxt">20年保証システム、24時間電話対応、定期巡回メンテナンスサービスなど、いつもあなたに寄り添っています。</p>
+						</div>
+					</li>
+					<li>
+						<div class="indexVisLi_l"><img src="/common/new/img/index/index_vis_img_05.jpg" alt=""></div>
+						<div class="indexVisLi_r">
+							<h3 class="indexVisTi"><img src="/common/new/img/index/index_vis_txt_05.png" alt="リフォーム"></h3>
+							<p class="indexVisTxt">水回りなどの部分改修から、耐震対策、丸ごとリフォームまで。創業以来培ってきた技術とノウハウでお応えいたします。</p>
+						</div>
+					</li>
+				</ul>
+				<div id="visCardArea">
+					<div class="visCard">
+						<a class="inner" href="/quality/">
+							<div class="cardImg"><img src="/common/new/img/index/index_card_img_01.jpg" alt=""></div>
+							<h2 class="cardTtl">技術と品質</h2>
+							<p class="cardTxt">5つのこだわりをカタチに<br>“厚品質”を実現する細田工務店の技術をご紹介しています。</p>
+						</a>
+					</div>
+					<div class="visCard">
+						<a class="inner" href="/gallery/">
+							<div class="cardImg"><img src="/common/new/img/index/index_card_img_02.jpg" alt=""></div>
+							<h2 class="cardTtl">細田工務店の施工事例</h2>
+							<p class="cardTxt">皆さまの住まいづくり・ご購入の参考になるよう、<br>注文住宅、リフォーム、分譲住宅の施工事例をご紹介。</p>
+						</a>
+					</div>
+				</div>
+			</div>
+
+
+			<div id="newsArea">
+				<div class="innerBlock">
+					<h2 class="indexTtl">新着情報<span>News</span></h2>
+					<ul id="newsBlock">
+											<li>
+							<p class="newsDate">2017年08月17日</p>
+							<div class="newsTag hosoda"><p class="inner">企業情報</p><p class="inner">お知らせ</p></div>
+							<p class="newsTxt"><a href="/wp/wp-content/uploads/2017/08/N29006_170817_nakanoarai.pdf"target="_blank">グローイングスクエア中野新井・全棟完売のお知らせ<span class="g_linkIco03">(PDFで開く)</span></a></p>
+						</li>
+											<li>
+							<p class="newsDate">2017年09月02日</p>
+							<div class="newsTag reform"><p class="inner">リフォーム</p><p class="inner">イベント</p></div>
+							<p class="newsTxt"><a href="http://www.hosoda.co.jp/event/event_showroom/19011.html">第3回 インテリア展示販売会開催！</a></p>
+						</li>
+											<li>
+							<p class="newsDate">2017年09月02日</p>
+							<div class="newsTag reform"><p class="inner">リフォーム</p><p class="inner">セミナー</p></div>
+							<p class="newsTxt"><a href="http://www.hosoda.co.jp/event/event_showroom/18941.html">カーテンのコーディネート術セミナー＜予約制＞</a></p>
+						</li>
+										</ul>
+					<div class="newsBtn">
+						<p><a href="/event/" class="g_arrowBtnR">イベント一覧はこちら</a>　<a href="/info/" class="g_arrowBtnR">お知らせ一覧はこちら</a></p>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="innerBlock">
+				<h2 class="indexTtl">特集<span>Special</span></h2>
+				<ul id="specialArea">
+					<li class="heightLine-group1">
+						<a href="/growing/special/schedule/">
+							<div><img src="/common/new/img/index/index_special_img_01.png" alt="住まいの購入スケジュール"></div>
+							<p class="specialTxt">はじめての分譲住宅購入に必要な知識・知っておくとためになる情報を、実際の購入スケジュールに合わせてポイントをおさえてご説明。</p>
+						</a>
+					</li>
+					<li class="heightLine-group1">
+						<a href="/build/special/schedule/">
+							<div><img src="/common/new/img/index/index_special_img_02.png" alt="はじめての住まいづくり講座"></div>
+							<p class="specialTxt">土地探しから建物のプラン、契約や手続きなど、注文住宅の住まいづくりに必要な知識やポイントを、プロセスごとにわかりやすくご紹介。</p>
+						</a>
+					</li>
+					<li class="heightLine-group1">
+						<a href="/reform/special/schedule/">
+							<div><img src="/common/new/img/index/index_special_img_03.png" alt="はじめてのリフォームガイド"></div>
+							<p class="specialTxt">ライフステージに合わせてより快適な環境をつくっていただくために。リフォームのコツ・情報をすべてまとめました。</p>
+						</a>
+					</li>
+					<li>
+						<a href="/quality/course/">
+							<div><img src="/common/new/img/index/index_special_img_04.png" alt="知って安心、住まいの基礎講座"></div>
+							<p class="specialTxt">木造住宅の構造と基礎知識について全6回にわたってわかりやすくご説明いたします。</p>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div id="indexBnr" class="innerBlock">
+				<div class="indexBnrCard">
+					<a href="/growing-club/">
+						<div><img src="/common/new/img/shared/index_bnr_01.jpg" alt="細田工務店のハウジングサークル グローイング倶楽部"></div>
+						<p class="bnrTxt">住まいの建築や購入前からご入居後、そしてメンテナンスやリフォームが必要になるまで。ずっとずっとお客さまに寄り添って、住まいづくりや暮らしに役立つ情報を定期的にお届けする会員制サイトです。</p>
+					</a>
+				</div>
+				<div class="indexBnrCard">
+					<a href="/tohoku/">
+						<div><img src="/common/new/img/shared/index_bnr_02.jpg" alt="細田工務店 東北営業所"></div>
+						<p class="bnrTxt"><span>［細田工務店　東北営業所のご紹介］</span><span>細田工務店は、住まいづくりを通じて東北の皆さまの復興を支援しています。東北営業所で販売中の分譲住宅やイベント情報はこちらでご覧いただけます。</span></p>
+					</a>
+				</div>
+			</div>
+			<script src="/common/new/js/swiper.min.js" charset="utf-8"></script>
+		</div><!--[/maBlock]-->
+	</div>
+<div id="bnArea">
+	<ul id="bnBlock">
+		<li><a href="/build/hamadayama/"><img src="/common/new/img/banner/ftBnr_real_hamadayama.png" alt="浜田山モデルハウス"></a></li>
+		<li><a href="/store/showroom/"><img src="/common/new/img/banner/ftBnr_01.jpg" alt="家と暮らしの相談所 中杉通り本館・ショールーム"></a></li>
+		<li><a href="/store/hamadayama/"><img src="/common/new/img/banner/ftBnr_02.jpg" alt="家と暮らしの相談所 浜田山駅前館"></a></li>
+		<li><a href="/store/pearlcenter/"><img src="/common/new/img/banner/ftBnr_03.jpg" alt="家と暮らしの相談所 パールセンター館"></a></li>
+		<li><a href="/store/nishiogi/"><img src="/common/new/img/banner/ftBnr_nishiogi.jpg" alt="家と暮らしの相談所 西荻窪駅前館"></a></li>
+		<li><a href="/growing/lineup/strongsmart/"><img src="/common/new/img/banner/ftBnr_04.jpg" alt="細田工務店のスマートハウス StrongSmart もっとかしこく、もっと楽しく、もっと安心"></a></li>
+		<li><a href="/reform/shelter/"><img src="/common/new/img/banner/ftBnr_05.jpg" alt="我が家の避難所 耐震シェルター 東京都認定耐震商品"></a></li>
+		<li><a href="/quality/vol02"><img src="/common/new/img/banner/ftBnr_06.jpg" alt="高耐震+制振工法の『ハイブリッドキューブ』"></a></li>
+	</ul>
+</div>
+<footer id="ftArea">
+	<div id="ftNavArea">
+		<div class="inner">
+			<div id="ftNavInBlock">
+				<ul class="ftNav ftGNav">
+					<li class="ftNavBold spOnly"><a href="/">トップページ</a></li>
+					<li class="ftNavBold"><a href="/life/">細田の住まいづくり</a></li>
+					<li class="ftNavBold"><a href="/quality/">技術と品質</a></li>
+					<li class="ftNavBold"><a href="/growing/">分譲住宅</a></li>
+					<li class="ftNavBold"><a href="/build/">注文住宅</a></li>
+					<li class="ftNavBold"><a href="/reform/">リフォーム</a></li>
+					<li class="ftNavBold"><a href="/store/">家と暮らしの相談所</a></li>
+				</ul>
+				<ul class="ftNav">
+					<li class="ftNavBold"><a href="/contact/">お問い合わせ</a></li>
+					<li class="ftNavBold"><a href="/faq/">よくあるご質問</a></li>
+					<li class="ftNavBold"><a href="/dictionary/">用語集</a></li>
+					<li class="ftNavBold"><a href="/after/">アフターサービス</a></li>
+					<li class="ftNavBold"><a href="/tohoku/">東北営業所</a></li>
+				</ul>
+				<dl class="ftNav">
+					<dt class="ftNavBold"><a href="/hosoda/">企業情報</a></dt>
+					<dd><a href="/hosoda/company/information/">企業概要</a></dd>
+					<dd><a href="/hosoda/company/history/">沿革</a></dd>
+					<dd><a href="/hosoda/zaimu/for-stockholder/">株主の皆さまへ</a></dd>
+					<dd><a href="/hosoda/news/">ニュースリリース</a></dd>
+					<dd><a href="/hosoda/company/csr/zeh">ZEH普及目標について</a></dd>
+				</dl>
+				<ul class="ftNav">
+					<li><a href="/security/">情報セキュリティ方針</a></li>
+					<li><a href="/privacy/">プライバシーポリシー</a></li>
+					<li><a href="/disclaimer/">免責事項</a></li>
+					<li><a href="/sitemap/">サイトマップ</a></li>
+					<li><a href="/cud/">CUDOへの取り組み</a></li>
+				</ul>
+			</div>
+			<div id="ftMap">
+				<div id="ftMapBtn">アクセス</div>
+				<img src="/common/new/img/ft_map.png" width="300" height="252" alt="細田工務店本社・ショールーム">
+			</div>
+		</div>
+	</div>
+	<div id="ftInBlock">
+		<p id="g_pageTop"><a href="#hdArea" class="ui_scrollTop">ページトップへ</a></p>
+		<p id="ftLogo"><a href="/">暮らしをやさしくつつむ家 細田工務店</a></p>
+		<small>Copyright &copy; HOSODA CORPORATION All Rights Reserved.</small>
+	</div>
+	
+<!-- 170513 E-tokatsu-->
+<!-- Yahoo Code for your Target List -->
+<script type="text/javascript" language="javascript">
+/* <![CDATA[ */
+var yahoo_retargeting_id = '6L6ZNNBFHQ';
+var yahoo_retargeting_label = '';
+var yahoo_retargeting_page_type = '';
+var yahoo_retargeting_items = [{item_id: '', category_id: '', price: '', quantity: ''}];
+/* ]]> */
+</script>
+<script type="text/javascript" language="javascript" src="//b92.yahoo.co.jp/js/s_retargeting.js"></script>
+
+
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 952611527;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/952611527/?guid=ON&amp;script=0"/>
+</div>
+</noscript>
+<!-- end 170513 E-tokatsu -->
+
+</footer></body>
+<script type="text/javascript"><!--
+/* <![CDATA[ */
+var google_conversion_id = 952611527;
+var google_conversion_language = "en";
+var google_conversion_format = "3";
+var google_conversion_color = "ffffff";
+var google_conversion_label = "n_TnCPHfxwMQx-WexgM";
+var google_conversion_value = 0;
+/* ]]> */
+// -->
+</script>
+<script type="text/javascript" src="https://www.googleadservices.com/pagead/conversion.js"></script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="https://www.googleadservices.com/pagead/conversion/952611527/?label=n_TnCPHfxwMQx-WexgM&amp;guid=ON&amp;script=0"/>
+<img src="https://secure.leadback.advertising.com/adcedge/lb?site=733844&srvc=311&betr=lb_suumo=13&betq=9269=421059" width = "1" height = "1" border = "0"/>
+</div>
+</noscript>
+
+</html>

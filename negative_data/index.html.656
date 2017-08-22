@@ -1,0 +1,638 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<LINK href="common/css/import.css" rel="stylesheet" type="text/css" media="all">
+<LINK rel="alternate stylesheet" type="text/css" href="common/css/small.css" title="Small">
+<LINK rel="alternate stylesheet" type="text/css" href="common/css/large.css" title="Large">
+<LINK rel="shortcut icon" href="http://www.ukcgroup.com/ukc.ico">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<META http-equiv="pragma" content="no-cache">
+<META http-equiv="Cashe-Control" content="no-cache">
+<META http-equiv="imagetoolbar" content="no">
+<META name="keyword" content="UKC,UKCホールディングス,UKC Holdings,ユーケーシー,ホールディングス,ソニー,Sony,半導体,Semiconductor,海外製半導体,エレクトロニクス,電子部品,電子機器,Component,カメラ,camera,デジタルカメラ,digital still camera,携帯電話,mobile phone,,EMS,Imaging device,CCD,CMOS,LCD, ">
+<META name="description" content="株式会社UKCホールディングスは、業界トップクラスのエレクトロニクス商社です。ソニー製半導体を始め、国内外の最先端半導体・高機能電子部品を取り扱っております。">
+<TITLE>UKCホールディングス</TITLE>
+<!-- //////////////////////////////////// css //////////////////////////////////// --><!-- //////////////////////////////////// css //////////////////////////////////// --><!-- //////////////////////////////////// javascript //////////////////////////////////// --><SCRIPT src="common/js/navi.js" type="text/javascript"></SCRIPT> <SCRIPT type="text/javascript" src="common/js/styleswitcher.js"></SCRIPT><SCRIPT language="JavaScript">
+<!--HPB_SCRIPT_ROV_50
+//
+//  Licensed Materials - Property of IBM
+//  5724I83
+//  (C) Copyright IBM Corp. 1995, 2006 All Rights Reserved.
+//
+
+// HpbImgPreload:
+//
+function HpbImgPreload()
+{
+  var appVer=parseInt(navigator.appVersion);
+  var isNC=false,isN6=false,isIE=false;
+  if (document.all && appVer >= 4) isIE=true; else
+    if (document.getElementById && appVer > 4) isN6=true; else
+      if (document.layers && appVer >= 4) isNC=true;
+  if (isNC||isN6||isIE)
+  {
+    if (document.images)
+    {
+      var imgName = HpbImgPreload.arguments[0];
+      var cnt;
+      swImg[imgName] = new Array;
+      for (cnt = 1; cnt < HpbImgPreload.arguments.length; cnt++)
+      {
+        swImg[imgName][HpbImgPreload.arguments[cnt]] = new Image();
+        swImg[imgName][HpbImgPreload.arguments[cnt]].src = HpbImgPreload.arguments[cnt];
+      }
+    }
+  }
+}
+// HpbImgFind:
+//
+function HpbImgFind(doc, imgName)
+{
+  for (var i=0; i < doc.layers.length; i++)
+  {
+    var img = doc.layers[i].document.images[imgName];
+    if (!img) img = HpbImgFind(doc.layers[i], imgName);
+    if (img) return img;
+  }
+  return null;
+}
+// HpbImgSwap:
+//
+function HpbImgSwap(imgName, imgSrc)
+{
+  var appVer=parseInt(navigator.appVersion);
+  var isNC=false,isN6=false,isIE=false;
+  if (document.all && appVer >= 4) isIE=true; else
+    if (document.getElementById && appVer > 4) isN6=true; else
+      if (document.layers && appVer >= 4) isNC=true;
+  if (isNC||isN6||isIE)
+  {
+    if (document.images)
+    {
+      var img = document.images[imgName];
+      if (!img) img = HpbImgFind(document, imgName);
+      if (img) img.src = imgSrc;
+    }
+  }
+}
+var swImg; swImg=new Array;
+//-->
+</SCRIPT><SCRIPT language="JavaScript">
+<!--HPB_SCRIPT_PLD_50
+HpbImgPreload('_HPB_ROLLOVER2', 'img/menu1a.gif', 'img/menu1b.gif');
+HpbImgPreload('_HPB_ROLLOVER2', 'img/menu1a.gif', 'img/menu1b.gif');
+HpbImgPreload('_HPB_ROLLOVER14', 'img/top_jpn_a.gif', 'img/top_jpn_b.gif');
+HpbImgPreload('_HPB_ROLLOVER15', 'img/top_enq.gif', 'img/top_enq_b.gif');
+HpbImgPreload('_HPB_ROLLOVER16', 'img/top_sitemap.gif', 'img/top_sitemap_b.gif');
+HpbImgPreload('_HPB_ROLLOVER13', 'img/top_english_a.gif', 'img/top_english_b.gif');
+HpbImgPreload('HPB_ROLLOVER2', 'img/menu2a.gif', 'img/menu2b.gif');
+HpbImgPreload('HPB_ROLLOVER3', 'img/menu3a.gif', 'img/menu3b.gif');
+HpbImgPreload('HPB_ROLLOVER4', 'img/menu4a.gif', 'img/menu4b.gif');
+HpbImgPreload('HPB_ROLLOVER5', 'img/menu5a.gif', 'img/menu5b.gif');
+HpbImgPreload('HPB_ROLLOVER6', 'img/menu6a.gif', 'img/menu6b.gif');
+HpbImgPreload('HPB_ROLLOVER7', 'img/menu7a.gif', 'img/menu7b.gif');
+HpbImgPreload('HPB_ROLLOVER8', 'img/bana002.gif', 'img/bana002b.gif');
+HpbImgPreload('HPB_ROLLOVER9', 'img/bana003.gif', 'img/bana003b.gif');
+HpbImgPreload('HPB_ROLLOVER10', 'img/bana004.gif', 'img/bana004b.gif');
+HpbImgPreload('HPB_ROLLOVER11', 'img/bana005.gif', 'img/bana005b.gif');
+HpbImgPreload('HPB_ROLLOVER12', 'img/bana006.gif', 'img/bana006b.gif');
+HpbImgPreload('HPB_ROLLOVER13', 'img/bana007.gif', 'img/bana007b.gif');
+HpbImgPreload('HPB_ROLLOVER1', 'img/special001.gif', 'img/special001b.gif');
+HpbImgPreload('HPB_ROLLOVER14', 'img/semi001.gif', 'img/semi001b.gif');
+HpbImgPreload('HPB_ROLLOVER16', 'img/ir_newsall_a.gif', 'img/ir_newsall_b.gif');
+//-->
+</SCRIPT> <SCRIPT type="text/javascript" language="JavaScript">
+<!--HPB_SCRIPT_UAREDIRECT
+if(document.referrer.indexOf(document.location.hostname)==-1){ if (navigator.userAgent.indexOf('iPhone') > 0 || (navigator.userAgent.indexOf('Android') > 0 && navigator.userAgent.indexOf('Mobile') > 0)) {location.href = 'mobile/index.html';}}//-->
+</SCRIPT> <!-- //////////////////////////////////// javascript //////////////////////////////////// -->
+<STYLE type="text/css">
+<!--
+
+BODY{
+  margin-top : 0px;
+  margin-left: 0px;
+  background-repeat : repeat-y;
+  background-attachment : scroll;
+  font-family : "ＭＳ Ｐゴシック";
+}
+-->
+</STYLE>
+<STYLE type="text/css">
+<!--
+#srchBox
+{
+  width:298px;
+  _width:296px;
+  margin-bottom:10px;
+  background-color:#FFFFFF;
+  border-style:solid;
+  border-width:1px;
+  border-color:#EEEEEE;
+  color:#000000;
+  text-align:left;
+}
+#srchBox *
+{
+  margin:0;
+  padding:0;
+  font-size:13px;
+  *font-size:small;
+  *font:x-small;
+}
+#srchBox A IMG
+{
+  border:none;
+}
+#srchBox #srch
+{
+  padding:10px 10px 0 10px;
+}
+#srchBox #srch #srchForm
+{
+  white-space:nowrap;
+}
+#srchBox #srchInput
+{
+  width:188px;
+  margin-right:6px;
+  vertical-align:bottom;
+}
+#srchBox #srchBtn
+{
+  width:80px;
+}
+*html #srchBox #srchBtn
+{
+  padding-top:2px;
+}
+*:first-child+html #srchBox #srchBtn
+{
+  padding-top:2px;
+}
+#srchBox UL
+{
+  margin-top:6px;
+  text-align:left;
+}
+#srchBox LI
+{
+  list-style-type:none;
+  display:inline;
+  zoom:1;
+  padding-right:10px;
+}
+#srchBox LI INPUT
+{
+  zoom:1;
+  margin-right:2px;
+  _margin:-4px 0 -4px -4px;
+  vertical-align:middle;
+  border:0;
+}
+*:+html #srchBox li input
+{
+  margin:-4px 0 -4px -4px;
+}
+#srchBox #srchLogo
+{
+  margin:6px 6px 6px 0;
+  text-align:right;
+}
+#srchBox #srchLogo A
+{
+  color:#666666;
+  text-decoration:none;
+  font-size:85%;
+}
+#srchBox #srchLogo A:HOVER
+{
+  text-decoration:underline;
+}
+.watermark#srchBox
+{
+  padding-bottom: 6px;
+}
+.watermark#srchBox #srchInput
+{
+  padding:1px 1px 2px 1px;
+  border:1px solid #a5acb2;
+  background: #fff url(http://i.yimg.jp/images/search/customsearch/yjlogo/yjlogo_type4.gif) center center no-repeat;
+}
+.watermark#srchBox .nomark#srchInput
+{
+  background: #fff;
+}
+.watermark#srchBox #srchLogo
+{
+  display: none;
+}
+-->
+</STYLE>
+</HEAD>
+<BODY text="#333333" link="#003399" vlink="#336699" alink="#339900" onload="initRollovers();" bgcolor="#f5f5f5" style="font-size : 10pt;color : rgb(51, 51, 51);background-color : rgb(245, 245, 245);background-repeat : repeat;text-align : center;">
+<DIV ID="contents" STYLE="background-image : url(img/topbg_01.gif);background-repeat : repeat-x;padding-top : 0px;padding-left : 0px;padding-right : 0px;padding-bottom : 0px;width : 100%;" ALIGN="center">
+  <TABLE cellpadding="0" cellspacing="0" width="100%" border="0" height="11">
+    <TBODY>
+      <TR>
+        <TD></TD>
+      </TR>
+ </TBODY>
+  </TABLE>
+</DIV>
+<DIV id="contents" style="background-color : white;background-repeat : repeat;padding-top : 0px;padding-left : 0px;padding-right : 0px;padding-bottom : 0px;width : 100%;" align="center">
+  <TABLE cellpadding="0" cellspacing="0" width="868" border="0">
+    <TBODY>
+      <TR>
+        <TD height="109" rowspan="3" width="491"><IMG src="img/logo.gif" width="491" height="109" border="0" alt="UKCホールディングス"></TD>
+        <TD height="25" align="left" colspan="4" width="377" style="text-align : left;"><IMG src="img/03_bar2.gif" width="16" height="25" border="0"><IMG src="img/top_fontsize.gif" width="58" height="25" border="0" alt="文字サイズ"><A onclick="setActiveStyleSheet('Small'); return false;" href=""><IMG src="common/img/btn_s.gif" alt="文字の大きさ｜小" width="25" height="25" class="imgover"></A><A onclick="setActiveStyleSheet('Default'); return false;" href=""><IMG src="common/img/btn_m.gif" alt="文字の大きさ｜中" width="25" height="25" class="imgover"></A><A onclick="setActiveStyleSheet('Large'); return false;" href=""><IMG src="common/img/btn_l.gif" alt="文字の大きさ｜大" width="25" height="25" class="imgover"></A><A id="_HPB_ROLLOVER13" target="_top" onmouseover="HpbImgSwap('_HPB_ROLLOVER13', 'img/top_english_b.gif'); HpbImgSwap('_HPB_ROLLOVER14', 'img/top_jpn_b.gif');" onmouseout="HpbImgSwap('_HPB_ROLLOVER13', 'img/top_english_a.gif'); HpbImgSwap('_HPB_ROLLOVER14', 'img/top_jpn_a.gif');" href="english/index.html"><IMG src="img/top_english_a.gif" width="110" height="25" border="0" name="_HPB_ROLLOVER13" alt="English"></A><IMG src="img/top_jpn_a.gif" width="99" height="25" border="0" name="_HPB_ROLLOVER14"><IMG src="img/03_bar2.gif" width="16" height="25" border="0"></TD>
+      </TR>
+      <TR>
+        <TD rowspan="2" width="75" height="75"></TD>
+        <TD width="105" height="24"></TD>
+        <TD width="105" height="24"><A id="_HPB_ROLLOVER15" onmouseout="HpbImgSwap('_HPB_ROLLOVER15', 'img/top_enq.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER15', 'img/top_enq_b.gif');" target="_blank" href="mail.html"><IMG src="img/top_enq.gif" width="105" height="24" border="0" name="_HPB_ROLLOVER15" alt="お問い合わせ"></A></TD>
+        <TD width="92" height="24"><A id="_HPB_ROLLOVER16" onmouseout="HpbImgSwap('_HPB_ROLLOVER16', 'img/top_sitemap.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER16', 'img/top_sitemap_b.gif');" target="_top" href="sitemap.html"><IMG src="img/top_sitemap.gif" width="92" height="24" border="0" name="_HPB_ROLLOVER16" alt="サイトマップ"></A></TD>
+      </TR>
+      <TR>
+        <TD colspan="3" width="301" height="34" align="right" valign="middle">
+        <DIV id="srchBox" class="watermark">
+          <FORM action="http://custom.search.yahoo.co.jp/search" method="get" id="srch" target="yjserp">
+          <P id="srchForm"><INPUT TYPE="search" results="5" NAME="p" ID="srchInput"><INPUT type="submit" value="検索" id="srchBtn" onclick="document.getElementById('srchInput').focus();"> <INPUT type="hidden" id="fr" name="fr" value="cse"><INPUT type="hidden" id="ei" name="ei" value="Shift_JIS"><INPUT type="hidden" id="csid" name="csid" value="u7G_SpNbG91ePSjcFG69NSTaDFHChDwDI5mp"></P>
+          <INPUT type="hidden" name="vs" value="www.ukcgroup.com" id="yjInsite"></FORM>
+        </DIV>
+        </TD>
+      </TR>
+    </TBODY>
+  </TABLE>
+</DIV>
+<DIV ID="contents" STYLE="background-image : url(img/topbg_02.gif);background-repeat : repeat-x;padding-top : 0px;padding-left : 0px;padding-right : 0px;padding-bottom : 0px;width : 100%;" ALIGN="center">
+  <TABLE border="0" width="868" cellpadding="0" cellspacing="0">
+    <TBODY>
+      <TR>
+        <TD width="868" height="52"><IMG src="img/menu1b.gif" width="108" height="52" border="0" alt="ホーム"><A id="HPB_ROLLOVER2" name="HPB_ROLLOVER2" onmouseout="HpbImgSwap('HPB_ROLLOVER2', 'img/menu2a.gif');" onmouseover="HpbImgSwap('HPB_ROLLOVER2', 'img/menu2b.gif');" target="_top" href="profile/index.html"><IMG src="img/menu2a.gif" width="118" height="52" border="0" name="HPB_ROLLOVER2" alt="企業情報"></A><A id="HPB_ROLLOVER3" name="HPB_ROLLOVER3" onmouseout="HpbImgSwap('HPB_ROLLOVER3', 'img/menu3a.gif');" onmouseover="HpbImgSwap('HPB_ROLLOVER3', 'img/menu3b.gif');" target="_top" href="business/index.html"><IMG src="img/menu3a.gif" width="136" height="52" border="0" name="HPB_ROLLOVER3" alt="製品・サービス"></A><A id="HPB_ROLLOVER4" name="HPB_ROLLOVER4" onmouseout="HpbImgSwap('HPB_ROLLOVER4', 'img/menu4a.gif');" onmouseover="HpbImgSwap('HPB_ROLLOVER4', 'img/menu4b.gif');" target="_top" href="ir/index.html"><IMG src="img/menu4a.gif" width="135" height="52" border="0" name="HPB_ROLLOVER4" alt="投資家情報"></A><A id="HPB_ROLLOVER5" name="HPB_ROLLOVER5" onmouseout="HpbImgSwap('HPB_ROLLOVER5', 'img/menu5a.gif');" onmouseover="HpbImgSwap('HPB_ROLLOVER5', 'img/menu5b.gif');" target="_top" href="news/index.html"><IMG src="img/menu5a.gif" width="153" height="52" border="0" name="HPB_ROLLOVER5" alt="ニュースリリース"></A><A id="HPB_ROLLOVER6" name="HPB_ROLLOVER6" onmouseout="HpbImgSwap('HPB_ROLLOVER6', 'img/menu6a.gif');" onmouseover="HpbImgSwap('HPB_ROLLOVER6', 'img/menu6b.gif');" target="_top" href="csr/index.html"><IMG src="img/menu6a.gif" width="109" height="52" border="0" name="HPB_ROLLOVER6" alt="CSR"></A><A id="HPB_ROLLOVER7" name="HPB_ROLLOVER7" onmouseout="HpbImgSwap('HPB_ROLLOVER7', 'img/menu7a.gif');" onmouseover="HpbImgSwap('HPB_ROLLOVER7', 'img/menu7b.gif');" target="_top" href="recruit/index.html"><IMG src="img/menu7a.gif" width="109" height="52" border="0" name="HPB_ROLLOVER7" alt="採用情報"></A></TD>
+      </TR>
+    </TBODY>
+  </TABLE>
+</DIV>
+<DIV id="contents" style="background-color : rgb(245, 245, 245);padding-top : 0px;padding-left : 0px;padding-right : 0px;padding-bottom : 0px;width : 100%;" align="center">
+  <TABLE border="0" width="868" cellpadding="0" cellspacing="0" bgcolor="White">
+    <TBODY>
+      <TR>
+        <TD VALIGN="top" COLSPAN="2" HEIGHT="10" BGCOLOR="#f5f5f5"></TD>
+        <TD valign="top" style="text-align : right;" align="right" colspan="3" height="10" bgcolor="#f5f5f5"></TD>
+      </TR>
+      <TR>
+        <TD WIDTH="605" HEIGHT="237" COLSPAN="2" VALIGN="top" ROWSPAN="2"><IMG src="img/topanimation2.gif" width="605" height="237" border="0">
+        <TABLE WIDTH="611" CELLPADDING="0" CELLSPACING="0">
+          <TBODY>
+            <TR>
+              <TD></TD>
+              <TD COLSPAN="5" HEIGHT="10"></TD>
+            </TR>
+            <TR>
+              <TD WIDTH="8"></TD>
+              <TD COLSPAN="5"><IMG SRC="img/ir_news_new.gif" WIDTH="339" HEIGHT="35" BORDER="0" ALT="最新ニュースリリース"><IMG SRC="img/ir_news_new_b.gif" WIDTH="107" HEIGHT="35" BORDER="0"><A id="HPB_ROLLOVER16" name="HPB_ROLLOVER16" onmouseout="HpbImgSwap('HPB_ROLLOVER16', 'img/ir_newsall_a.gif');" onmouseover="HpbImgSwap('HPB_ROLLOVER16', 'img/ir_newsall_b.gif');" target="_top" href="news/index.html"><IMG src="img/ir_newsall_a.gif" width="144" height="35" border="0" name="HPB_ROLLOVER16" alt="ニュースリリース一覧"></A><IMG SRC="img/ir_news_right.gif" WIDTH="8" HEIGHT="35" BORDER="0"></TD>
+            </TR>
+            <TR>
+              <TD></TD>
+              <TD COLSPAN="5" HEIGHT="8"></TD>
+            </TR>
+            <TR>
+              <TD STYLE="text-align : right;" ALIGN="right"></TD>
+              <TD COLSPAN="5" STYLE="text-align : right;" ALIGN="right"><A target="_blank" href="https://twitter.com/UKC_HD"><IMG SRC="img/twitter-link.gif" WIDTH="121" HEIGHT="17" BORDER="0" ALT="ＵＫＣホールデイングス ツイッター公式アカウント"></A><A id="_HPB_ROLLOVER7" target="_blank" href="http://www.ukcgroup.com/rss/news.rdf"><IMG SRC="img/rss01.gif" WIDTH="63" HEIGHT="19" BORDER="0" ALT="RSS"></A><IMG SRC="img/sp.gif" WIDTH="6" HEIGHT="3" BORDER="0"><A id="_HPB_ROLLOVER8" target="_top" href="ir/rss.html"><IMG SRC="img/rss02.gif" WIDTH="51" HEIGHT="19" BORDER="0" ALT="RSSとは"></A><IMG SRC="img/sp.gif" WIDTH="17" HEIGHT="3" BORDER="0"></TD>
+            </TR>
+            <TR>
+              <TD></TD>
+              <TD HEIGHT="15" WIDTH="117" COLSPAN="2"></TD>
+              <TD WIDTH="67"></TD>
+              <TD WIDTH="418" COLSPAN="2"></TD>
+            </TR>
+            <TR>
+        <TD></TD>
+        <TD></TD>
+              <TD HEIGHT="8" COLSPAN="3"></TD>
+            </TR>
+          <TR>
+              <TD></TD>
+              <TD COLSPAN="4" HEIGHT="19"><IMG SRC="img/topnewhr.gif" WIDTH="592" HEIGHT="4" BORDER="0"></TD>
+              <TD></TD>
+            </TR>
+<TR>
+              <TD></TD>
+              <TD WIDTH="7" HEIGHT="23"></TD>
+            <TD width="110" height="23" valign="top"><B><FONT COLOR="#666666" SIZE="-1">2017年8月14日</FONT></B></TD>
+            <TD width="67" valign="top"><IMG src="img/ir_newsbt_kessan.gif" width="59" height="17" border="0" alt="決算"></TD>
+            <TD width="408" valign="top">
+              <P><FONT size="-1">平成30年３月期第１四半期決算短信</FONT><BR>
+            <IMG src="ir/img/ir_pdf2_i.gif" width="17" height="17" border="0"><FONT SIZE="-1"><A target="_blank" href="news/1704-1803/170814_ukc1q.pdf">PDF（270KB）</A></FONT> <IMG src="img/ir_html2_i.gif" width="17" height="17" border="0"><FONT SIZE="-1"><A target="_blank" href="ir/highlight/20181q_ukc.html">ハイライト &gt;&gt;</A></FONT><IMG src="ir/img/ir_pdf2_i.gif" width="17" height="17" border="0"><FONT SIZE="-1"><A target="_blank" href="ir/wmv/201708/ukchd_2018_1q_setsumei.pdf">決算説明資料（PDF:479KB）</A></FONT></P>
+              </TD>
+            <TD WIDTH="10" VALIGN="top"></TD>
+            </TR>
+
+            <TR>
+              <TD></TD>
+              <TD COLSPAN="4" HEIGHT="19"><IMG SRC="img/topnewhr.gif" WIDTH="592" HEIGHT="4" BORDER="0"></TD>
+              <TD></TD>
+            </TR>
+<TR>
+              <TD></TD>
+              <TD WIDTH="7" HEIGHT="23"></TD>
+            <TD width="110" height="23" valign="top"><B><FONT COLOR="#666666" SIZE="-1">2017年8月14日</FONT></B></TD>
+            <TD width="67" valign="top"><IMG src="img/ir_newsbt_oshirase.gif" width="59" height="17" border="0" alt="決算"></TD>
+            <TD width="408" valign="top">
+              <P><FONT SIZE="-1">代表取締役の異動及び取締役の異動の内定に関するお知らせ</FONT><BR>
+              <IMG SRC="img/ir_pdf2_i.gif" WIDTH="17" HEIGHT="17" BORDER="0"><FONT SIZE="-1"><A target="_blank" href="news/1704-1803/170814_yakuinjinji.pdf">PDF（88KB）</A></FONT></P>
+              </TD>
+            <TD WIDTH="10" VALIGN="top"></TD>
+            </TR>
+
+            <TR>
+              <TD></TD>
+              <TD COLSPAN="4" HEIGHT="19"><IMG SRC="img/topnewhr.gif" WIDTH="592" HEIGHT="4" BORDER="0"></TD>
+              <TD></TD>
+            </TR><TR>
+              <TD></TD>
+              <TD WIDTH="7" HEIGHT="23"></TD>
+            <TD width="110" height="23" valign="top"><B><FONT COLOR="#666666" SIZE="-1">2017年8月14日</FONT></B></TD>
+            <TD width="67" valign="top"><IMG src="img/ir_newsbt_ir.gif" width="59" height="17" border="0" alt="決算"></TD>
+            <TD width="408" valign="top">
+              <P><FONT SIZE="-1">第三者委員会の調査報告書に基づく再発防止策と経営責任の明確化に関するお知らせ</FONT><BR>
+              <IMG SRC="img/ir_pdf2_i.gif" WIDTH="17" HEIGHT="17" BORDER="0"><FONT SIZE="-1"><A target="_blank" href="news/1704-1803/170814_saihatsuboushi.pdf">PDF（162KB）</A></FONT></P>
+              </TD>
+            <TD WIDTH="10" VALIGN="top"></TD>
+            </TR>
+
+            <TR>
+              <TD></TD>
+              <TD COLSPAN="4" HEIGHT="19"><IMG SRC="img/topnewhr.gif" WIDTH="592" HEIGHT="4" BORDER="0"></TD>
+              <TD></TD>
+            </TR>
+<TR>
+              <TD></TD>
+              <TD WIDTH="7" HEIGHT="23"></TD>
+            <TD width="110" height="23" valign="top"><B><FONT COLOR="#666666" SIZE="-1">2017年8月1日</FONT></B></TD>
+            <TD width="67" valign="top"><IMG src="img/ir_newsbt_ir.gif" width="59" height="17" border="0" alt="決算"></TD>
+            <TD width="408" valign="top">
+              <P><FONT SIZE="-1">（訂正）「平成29 年３月期決算短信〔日本基準〕（連結）」の<BR>
+            一部訂正に関するお知らせ</FONT><BR>
+              <IMG SRC="img/ir_pdf2_i.gif" WIDTH="17" HEIGHT="17" BORDER="0"><FONT SIZE="-1"><A target="_blank" href="news/1704-1803/170801_tanshinteisei.pdf">PDF（54KB）</A></FONT></P>
+              </TD>
+            <TD WIDTH="10" VALIGN="top"></TD>
+            </TR>
+
+            <TR>
+              <TD></TD>
+              <TD COLSPAN="4" HEIGHT="19"><IMG SRC="img/topnewhr.gif" WIDTH="592" HEIGHT="4" BORDER="0"></TD>
+              <TD></TD>
+            </TR>
+<TR>
+              <TD></TD>
+              <TD WIDTH="7" HEIGHT="23"></TD>
+            <TD width="110" height="23" valign="top"><B><FONT COLOR="#666666" SIZE="-1">2017年7月31日</FONT></B></TD>
+            <TD width="67" valign="top"><IMG src="img/ir_newsbt_ir.gif" width="59" height="17" border="0" alt="決算"></TD>
+            <TD width="408" valign="top">
+              <P><FONT SIZE="-1">財務報告に係る内部統制の開示すべき重要な不備に関するお知らせ</FONT><BR>
+              <IMG SRC="img/ir_pdf2_i.gif" WIDTH="17" HEIGHT="17" BORDER="0"><FONT SIZE="-1"><A target="_blank" href="news/1704-1803/170731_naibutouseifubi.pdf">PDF（89KB）</A></FONT></P>
+              </TD>
+            <TD WIDTH="10" VALIGN="top"></TD>
+            </TR>
+
+            <TR>
+              <TD></TD>
+              <TD COLSPAN="4" HEIGHT="19"><IMG SRC="img/topnewhr.gif" WIDTH="592" HEIGHT="4" BORDER="0"></TD>
+              <TD></TD>
+            </TR>
+<TR>
+              <TD></TD>
+              <TD WIDTH="7" HEIGHT="23"></TD>
+            <TD width="110" height="23" valign="top"><B><FONT COLOR="#666666" SIZE="-1">2017年7月31日</FONT></B></TD>
+            <TD width="67" valign="top"><IMG src="img/ir_newsbt_ir.gif" width="59" height="17" border="0" alt="決算"></TD>
+            <TD width="408" valign="top">
+              <P><FONT SIZE="-1">「内部統制報告書の訂正報告書」の提出に関するお知らせ</FONT><BR>
+              <IMG SRC="img/ir_pdf2_i.gif" WIDTH="17" HEIGHT="17" BORDER="0"><FONT SIZE="-1"><A target="_blank" href="news/1704-1803/170731_naibutousei_teisei.pdf">PDF（114KB）</A></FONT></P>
+              </TD>
+            <TD WIDTH="10" VALIGN="top"></TD>
+            </TR>
+
+            <TR>
+              <TD></TD>
+              <TD COLSPAN="4" HEIGHT="19"><IMG SRC="img/topnewhr.gif" WIDTH="592" HEIGHT="4" BORDER="0"></TD>
+              <TD></TD>
+            </TR>
+<TR>
+              <TD></TD>
+              <TD WIDTH="7" HEIGHT="23"></TD>
+            <TD width="110" height="23" valign="top"><B><FONT COLOR="#666666" SIZE="-1">2017年7月31日</FONT></B></TD>
+            <TD width="67" valign="top"><IMG src="img/ir_newsbt_ir.gif" width="59" height="17" border="0" alt="決算"></TD>
+            <TD width="408" valign="top">
+              <P><FONT SIZE="-1">平成29年３月期決算発表の遅延理由及び<BR>
+            今後の開示時期に関するお知らせ</FONT><BR>
+              <IMG SRC="img/ir_pdf2_i.gif" WIDTH="17" HEIGHT="17" BORDER="0"><FONT SIZE="-1"><A target="_blank" href="news/1704-1803/170731_kessanchien.pdf">PDF（72KB）</A></FONT></P>
+              </TD>
+            <TD WIDTH="10" VALIGN="top"></TD>
+            </TR>
+
+            <TR>
+              <TD></TD>
+              <TD COLSPAN="4" HEIGHT="19"><IMG SRC="img/topnewhr.gif" WIDTH="592" HEIGHT="4" BORDER="0"></TD>
+              <TD></TD>
+            </TR>
+<TR>
+              <TD></TD>
+              <TD WIDTH="7" HEIGHT="23"></TD>
+            <TD width="110" height="23" valign="top"><B><FONT COLOR="#666666" SIZE="-1">2017年7月31日</FONT></B></TD>
+            <TD width="67" valign="top"><IMG src="img/ir_newsbt_ir.gif" width="59" height="17" border="0" alt="決算"></TD>
+            <TD width="408" valign="top">
+              <P><FONT SIZE="-1">第８期有価証券報告書の提出、<BR>
+            過年度の有価証券報告書及び四半期報告書の訂正、<BR>
+            並びに平成29年３月期決算短信の提出、<BR>
+            過年度の決算短信等の訂正に関するお知らせ</FONT><BR>
+              <IMG SRC="img/ir_pdf2_i.gif" WIDTH="17" HEIGHT="17" BORDER="0"><FONT SIZE="-1"><A target="_blank" href="news/1704-1803/170731_oshirase.pdf">PDF（93KB）</A></FONT></P>
+              </TD>
+            <TD WIDTH="10" VALIGN="top"></TD>
+            </TR>
+
+            <TR>
+              <TD></TD>
+              <TD COLSPAN="4" HEIGHT="19"><IMG SRC="img/topnewhr.gif" WIDTH="592" HEIGHT="4" BORDER="0"></TD>
+              <TD></TD>
+            </TR>
+<TR>
+              <TD></TD>
+              <TD WIDTH="7" HEIGHT="23"></TD>
+            <TD width="110" height="23" valign="top"><B><FONT COLOR="#666666" SIZE="-1">2017年7月31日</FONT></B></TD>
+            <TD width="67" valign="top"><IMG src="img/ir_newsbt_ir.gif" width="59" height="17" border="0" alt="決算"></TD>
+            <TD width="408" valign="top">
+              <P><FONT SIZE="-1">第８回定時株主総会の開催日等に関するお知らせ</FONT><BR>
+              <IMG SRC="img/ir_pdf2_i.gif" WIDTH="17" HEIGHT="17" BORDER="0"><FONT SIZE="-1"><A target="_blank" href="news/1704-1803/170731_kabunushisoukai.pdf">PDF（61KB）</A></FONT></P>
+              </TD>
+            <TD WIDTH="10" VALIGN="top"></TD>
+            </TR>
+
+            <TR>
+              <TD></TD>
+              <TD COLSPAN="4" HEIGHT="19"><IMG SRC="img/topnewhr.gif" WIDTH="592" HEIGHT="4" BORDER="0"></TD>
+              <TD></TD>
+            </TR>
+<TR>
+              <TD></TD>
+              <TD WIDTH="7" HEIGHT="23"></TD>
+            <TD width="110" height="23" valign="top"><B><FONT COLOR="#666666" SIZE="-1">2017年7月31日</FONT></B></TD>
+            <TD width="67" valign="top"><IMG src="img/ir_newsbt_oshirase.gif" width="59" height="17" border="0" alt="決算"></TD>
+            <TD width="408" valign="top">
+              <P><FONT SIZE="-1">代表取締役の異動に関するお知らせ</FONT><BR>
+              <IMG SRC="img/ir_pdf2_i.gif" WIDTH="17" HEIGHT="17" BORDER="0"><FONT SIZE="-1"><A target="_blank" href="news/1704-1803/170731_yakuinjinji.pdf">PDF（75KB）</A></FONT></P>
+              </TD>
+            <TD WIDTH="10" VALIGN="top"></TD>
+            </TR>
+
+            <TR>
+              <TD></TD>
+              <TD COLSPAN="4" HEIGHT="19"><IMG SRC="img/topnewhr.gif" WIDTH="592" HEIGHT="4" BORDER="0"></TD>
+              <TD></TD>
+            </TR>
+<TR>
+              <TD></TD>
+              <TD WIDTH="7" HEIGHT="23"></TD>
+            <TD width="110" height="23" valign="top"><B><FONT COLOR="#666666" SIZE="-1">2017年7月31日</FONT></B></TD>
+            <TD width="67" valign="top"><IMG src="img/ir_newsbt_kessan.gif" width="59" height="17" border="0" alt="決算"></TD>
+            <TD width="408" valign="top">
+              <P><FONT SIZE="-1">平成29年３月期決算短信</FONT><BR>
+            <IMG src="ir/img/ir_pdf2_i.gif" width="17" height="17" border="0"><FONT SIZE="-1"><A target="_blank" href="news/1704-1803/170731_ukc.pdf">PDF（463KB）</A></FONT> <IMG src="img/ir_html2_i.gif" width="17" height="17" border="0"><FONT SIZE="-1"><A target="_blank" href="ir/highlight/2017_ukc.html">ハイライト &gt;&gt;</A></FONT><IMG src="ir/img/ir_pdf2_i.gif" width="17" height="17" border="0"><FONT SIZE="-1"><A target="_blank" href="news/1704-1803/170731_ukc_hosoku.pdf">決算補足説明資料（PDF:294KB）</A></FONT></P>
+              </TD>
+            <TD WIDTH="10" VALIGN="top"></TD>
+            </TR>
+
+            <TR>
+              <TD></TD>
+              <TD COLSPAN="4" HEIGHT="19"><IMG SRC="img/topnewhr.gif" WIDTH="592" HEIGHT="4" BORDER="0"></TD>
+              <TD></TD>
+            </TR>
+<TR>
+              <TD></TD>
+              <TD WIDTH="7" HEIGHT="23"></TD>
+            <TD width="110" height="23" valign="top"><B><FONT COLOR="#666666" SIZE="-1">2017年7月31日</FONT></B></TD>
+            <TD width="67" valign="top"><IMG SRC="img/ir_newsbt_ir.gif" WIDTH="59" HEIGHT="17" BORDER="0" ALT="決算"></TD>
+            <TD width="408" valign="top">
+              <P><FONT SIZE="-1">業績予想と実績との差異に関するお知らせ</FONT><BR>
+              <IMG SRC="img/ir_pdf2_i.gif" WIDTH="17" HEIGHT="17" BORDER="0"><FONT SIZE="-1"><A target="_blank" href="news/1704-1803/170731_gyousekiyosousai.pdf">PDF（67KB）</A></FONT></P>
+              </TD>
+            <TD WIDTH="10" VALIGN="top"></TD>
+            </TR>
+
+            <TR>
+              <TD></TD>
+              <TD COLSPAN="4" HEIGHT="19"><IMG SRC="img/topnewhr.gif" WIDTH="592" HEIGHT="4" BORDER="0"></TD>
+              <TD></TD>
+            </TR>
+<TR>
+              <TD></TD>
+              <TD WIDTH="7" HEIGHT="23"></TD>
+            <TD width="110" height="23" valign="top"><B><FONT COLOR="#666666" SIZE="-1">2017年7月31日</FONT></B></TD>
+            <TD width="67" valign="top"><IMG SRC="img/ir_newsbt_ir.gif" WIDTH="59" HEIGHT="17" BORDER="0" ALT="決算"></TD>
+            <TD width="408" valign="top">
+              <P><FONT SIZE="-1">平成29年３月期の貸倒引当金の追加計上に関するお知らせ</FONT><BR>
+              <IMG SRC="img/ir_pdf2_i.gif" WIDTH="17" HEIGHT="17" BORDER="0"><FONT SIZE="-1"><A target="_blank" href="news/1704-1803/170731_tsuikakeijou.pdf">PDF（64KB）</A></FONT></P>
+              </TD>
+            <TD WIDTH="10" VALIGN="top"></TD>
+            </TR>
+
+            <TR>
+              <TD></TD>
+              <TD COLSPAN="4" HEIGHT="19"><IMG SRC="img/topnewhr.gif" WIDTH="592" HEIGHT="4" BORDER="0"></TD>
+              <TD></TD>
+            </TR>
+
+<TR>
+              <TD></TD>
+              <TD WIDTH="7" HEIGHT="23"></TD>
+            <TD width="110" height="23" valign="top"><B><FONT COLOR="#666666" SIZE="-1">2017年7月31日</FONT></B></TD>
+            <TD width="67" valign="top"><IMG src="img/ir_newsbt_ir.gif" width="59" height="17" border="0" alt="決算"></TD>
+            <TD width="408" valign="top">
+              <P><FONT size="-1">（訂正）「平成29年３月期第３四半期決算短信〔日本基準〕（連結）」の<BR>
+            一部訂正について</FONT>　<IMG src="img/ir_pdf2_i.gif" width="17" height="17" border="0"><FONT SIZE="-1"><A target="_blank" href="news/1704-1803/170731_20173q_teisei.pdf">PDF（276KB）</A></FONT><BR>
+            <BR>
+            <FONT size="-1">（訂正）「平成29年３月期第２四半期決算短信〔日本基準〕（連結）」の<BR>
+            一部訂正について</FONT>　<IMG src="img/ir_pdf2_i.gif" width="17" height="17" border="0"><FONT size="-1"><A target="_blank" href="news/1704-1803/170731_20172q_teisei.pdf">PDF（281KB）</A></FONT><BR>
+            <BR>
+            <FONT size="-1">（訂正）「平成29年３月期第１四半期決算短信〔日本基準〕（連結）」の<BR>
+            一部訂正について</FONT>　<IMG src="img/ir_pdf2_i.gif" width="17" height="17" border="0"><FONT size="-1"><A target="_blank" href="news/1704-1803/170731_20171q_teisei.pdf">PDF（273KB）</A></FONT><BR>
+            <BR>
+            <FONT size="-1">（訂正）「平成28年３月期決算短信〔日本基準〕（連結）」の<BR>
+            一部訂正について</FONT>　<IMG src="img/ir_pdf2_i.gif" width="17" height="17" border="0"><FONT size="-1"><A target="_blank" href="news/1704-1803/170731_2016_teisei.pdf">PDF（479KB）</A></FONT><BR>
+            <BR>
+            <FONT size="-1">（訂正）「平成28年３月期第３四半期決算短信〔日本基準〕（連結）」の<BR>
+            一部訂正について</FONT>　<IMG src="img/ir_pdf2_i.gif" width="17" height="17" border="0"><FONT size="-1"><A target="_blank" href="news/1704-1803/170731_20163q_teisei.pdf">PDF（304KB）</A></FONT><BR>
+            <BR>
+            <FONT size="-1">（訂正）「平成28年３月期第２四半期決算短信〔日本基準〕（連結）」の<BR>
+            一部訂正について</FONT>　<IMG src="img/ir_pdf2_i.gif" width="17" height="17" border="0"><FONT size="-1"><A target="_blank" href="news/1704-1803/170731_20162q_teisei.pdf">PDF（279KB）</A></FONT><BR>
+            <BR>
+            <FONT size="-1">（訂正）「平成28年３月期第１四半期決算短信〔日本基準〕（連結）」の<BR>
+            一部訂正について</FONT>　<IMG src="img/ir_pdf2_i.gif" width="17" height="17" border="0"><FONT size="-1"><A target="_blank" href="news/1704-1803/170731_20161q_teisei.pdf">PDF（264KB）</A></FONT><BR>
+            <BR>
+            <FONT size="-1">（訂正）「平成27年３月期決算短信〔日本基準〕（連結）」の<BR>
+            一部訂正について</FONT>　<IMG src="img/ir_pdf2_i.gif" width="17" height="17" border="0"><FONT size="-1"><A target="_blank" href="news/1704-1803/170731_2015_teisei.pdf">PDF（464KB）</A></FONT><BR>
+            <BR>
+            <FONT size="-1">（訂正）「平成27年３月期第３四半期決算短信〔日本基準〕（連結）」の<BR>
+            一部訂正について</FONT>　<IMG src="img/ir_pdf2_i.gif" width="17" height="17" border="0"><FONT size="-1"><A target="_blank" href="news/1704-1803/170731_20153q_teisei.pdf">PDF（290KB）</A></FONT><BR>
+            <BR>
+            <FONT size="-1">（訂正）「平成27年３月期第２四半期決算短信〔日本基準〕（連結）」の<BR>
+            一部訂正について</FONT>　<IMG src="img/ir_pdf2_i.gif" width="17" height="17" border="0"><FONT size="-1"><A target="_blank" href="news/1704-1803/170731_20152q_teisei.pdf">PDF（287KB）</A></FONT><BR>
+            <BR>
+            <FONT size="-1">（訂正）「平成27年３月期第１四半期決算短信〔日本基準〕（連結）」の<BR>
+            一部訂正について</FONT>　<IMG src="img/ir_pdf2_i.gif" width="17" height="17" border="0"><FONT size="-1"><A target="_blank" href="news/1704-1803/170731_20151q_teisei.pdf">PDF（262KB）</A></FONT><BR>
+            <BR>
+            <FONT size="-1">（訂正）「平成26年３月期決算短信〔日本基準〕（連結）」の<BR>
+            一部訂正について</FONT>　<IMG src="img/ir_pdf2_i.gif" width="17" height="17" border="0"><FONT size="-1"><A target="_blank" href="news/1704-1803/170731_2014_teisei.pdf">PDF（444KB）</A></FONT><BR>
+            <BR>
+            <FONT size="-1">（訂正）「平成25年３月期決算短信〔日本基準〕（連結）」の<BR>
+            一部訂正について</FONT>　<IMG src="img/ir_pdf2_i.gif" width="17" height="17" border="0"><FONT size="-1"><A target="_blank" href="news/1704-1803/170731_2013_teisei.pdf">PDF（478KB）</A></FONT></P>
+              </TD>
+            <TD WIDTH="10" VALIGN="top"></TD>
+            </TR>
+
+            <TR>
+              <TD></TD>
+              <TD COLSPAN="4" HEIGHT="19"><IMG SRC="img/topnewhr.gif" WIDTH="592" HEIGHT="4" BORDER="0"></TD>
+              <TD></TD>
+            </TR>
+          <TR>
+              <TD></TD>
+              <TD COLSPAN="5" HEIGHT="45"></TD>
+            </TR>
+          </TBODY>
+        </TABLE>
+        </TD>
+        <TD COLSPAN="3" VALIGN="top" STYLE="text-align : right;" ALIGN="right" WIDTH="263"><IMG src="img/bana001.gif" width="255" height="37" border="0" alt="ピックアップ"><BR>
+        <A id="HPB_ROLLOVER8" name="HPB_ROLLOVER8" onmouseout="HpbImgSwap('HPB_ROLLOVER8', 'img/bana002.gif');" onmouseover="HpbImgSwap('HPB_ROLLOVER8', 'img/bana002b.gif');" target="_top" href="ir/part.html"><IMG src="img/bana002.gif" width="255" height="57" border="0" name="HPB_ROLLOVER8"></A><BR>
+        <A id="HPB_ROLLOVER9" name="HPB_ROLLOVER9" onmouseout="HpbImgSwap('HPB_ROLLOVER9', 'img/bana003.gif');" onmouseover="HpbImgSwap('HPB_ROLLOVER9', 'img/bana003b.gif');" target="_top" href="ir/library-presentation.html"><IMG src="img/bana003.gif" width="255" height="40" border="0" name="HPB_ROLLOVER9"></A><BR>
+        <A id="HPB_ROLLOVER10" name="HPB_ROLLOVER10" onmouseout="HpbImgSwap('HPB_ROLLOVER10', 'img/bana004.gif');" onmouseover="HpbImgSwap('HPB_ROLLOVER10', 'img/bana004b.gif');" target="_top" href="mailnews.html"><IMG src="img/bana004.gif" width="255" height="39" border="0" name="HPB_ROLLOVER10"></A><BR>
+        <A id="HPB_ROLLOVER11" name="HPB_ROLLOVER11" onmouseout="HpbImgSwap('HPB_ROLLOVER11', 'img/bana005.gif');" onmouseover="HpbImgSwap('HPB_ROLLOVER11', 'img/bana005b.gif');" target="_top" href="profile/segment.html"><IMG src="img/bana005.gif" width="255" height="39" border="0" name="HPB_ROLLOVER11"></A><BR>
+        <A id="HPB_ROLLOVER12" name="HPB_ROLLOVER12" onmouseout="HpbImgSwap('HPB_ROLLOVER12', 'img/bana006.gif');" onmouseover="HpbImgSwap('HPB_ROLLOVER12', 'img/bana006b.gif');" target="_top" href="ir/result-c.html"><IMG src="img/bana006.gif" width="255" height="41" border="0" name="HPB_ROLLOVER12"></A><BR>
+        <A id="HPB_ROLLOVER13" name="HPB_ROLLOVER13" onmouseout="HpbImgSwap('HPB_ROLLOVER13', 'img/bana007.gif');" onmouseover="HpbImgSwap('HPB_ROLLOVER13', 'img/bana007b.gif');" target="_blank" href="https://twitter.com/UKC_HD"><IMG src="img/bana007.gif" width="255" height="42" border="0" name="HPB_ROLLOVER13"></A><A id="HPB_ROLLOVER1" name="HPB_ROLLOVER1" onmouseout="HpbImgSwap('HPB_ROLLOVER1', 'img/special001.gif');" onmouseover="HpbImgSwap('HPB_ROLLOVER1', 'img/special001b.gif');" target="_blank" href="business/power-semiconductors.html"><IMG src="img/special001.gif" width="254" height="53" border="0" name="HPB_ROLLOVER1"></A><A id="HPB_ROLLOVER14" name="HPB_ROLLOVER14" onmouseout="HpbImgSwap('HPB_ROLLOVER14', 'img/semi001.gif');" onmouseover="HpbImgSwap('HPB_ROLLOVER14', 'img/semi001b.gif');" target="_top" href="business/index.html"><IMG src="img/semi001.gif" width="254" height="131" border="0" name="HPB_ROLLOVER14"></A></TD>
+      </TR>
+      <TR>
+        <TD HEIGHT="8" COLSPAN="3" STYLE="text-align : center;" ALIGN="center" VALIGN="top"><IMG src="img/sp.gif" width="1" height="8" border="0"><IFRAME SRC="http://www.invest-jp.net/mini/stocharmini.php?code=3156&a=d&c=0&w=160" MARGINWIDTH="0" MARGINHEIGHT="0" WIDTH="160" HEIGHT="300" border="0" FRAMEBORDER="0" STYLE="border:none;" SCROLLING="no"><A href="http://credit.invest-jp.net/">クレジットカード</A><A href="http://sec.invest-jp.net/">証券会社</A></IFRAME><BR>
+        <DIV style="font-size:7pt;">by <A targer="_blank" href="http://www.invest-jp.net/">株価チャート</A>「ストチャ」</DIV>
+        <IMG src="img/sp.gif" width="239" height="2" border="0"><BR>
+        <IMG src="img/sp.gif" width="24" height="1" border="0"><IMG src="img/sp.gif" width="24" height="1" border="0"></TD>
+      </TR>
+    </TBODY>
+</TABLE>
+</DIV>
+<DIV id="contents" align="center" style="background-color : rgb(0, 0, 64);background-repeat : repeat-x;padding-top : 0px;padding-left : 0px;padding-right : 0px;padding-bottom : 0px;width : 100%;">
+
+<TABLE cellspacing="0" cellpadding="0" width="868" border="0">
+  <TBODY>
+    <TR>
+      <TD bgcolor="#000040" height="30">
+      <P><FONT color="#ffffff" size="-1" style="font-size : 83%;">｜　<A target="_top" href="term.html"><U style="color : white;">サイト利用規約</U></A>　｜　<A target="_top" href="privacy.html"><U style="color : white;">個人情報保護方針</U></A>　｜　</FONT></P>
+      </TD>
+      <TD bgcolor="#000040" align="right"><FONT style="FONT-SIZE: 8pt" color="#ffffff" size="-2">　Copyright(C) UKC Holdings Corporation All rights reserved</FONT></TD>
+      <TD bgcolor="#000040" width="30"></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</DIV>
+</BODY>
+</HTML>

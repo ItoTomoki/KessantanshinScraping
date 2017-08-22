@@ -1,0 +1,606 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>株式会社コーセーアールイー／ファミリー型マンション、マンション投資・マンション経営</title>
+<meta name="description" content="株式会社コーセーアールイーは、新築・分譲マンションと資産運用型ワンルームマンション、戸建ての企画提供開発を行う不動産ディベロッパーです。">
+<meta name="keywords" content="分譲マンション,マンション経営,資産運用,コーセーアールイー">
+<link type="text/css" href="css/common.css" rel="stylesheet" media="all" />
+<link type="text/css" href="css/reset.css" rel="stylesheet" media="all" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/cycle.all.js"></script>
+<script type="text/javascript" src="js/jquery.image.js"></script>
+<script type="text/javascript" src="js/corner.js"></script>
+<script type="text/javascript" src="js/html5shiv.js"></script>
+<!--[if lt IE 8]>
+<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE8.js"></script>
+<![endif]-->
+<script type="text/javascript">
+function ieJadge(){
+  	  var undef, v = 3, div = document.createElement('div');
+
+  	  while (
+   	     div.innerHTML = '<!--[if gt IE '+(++v)+']><i></i><![endif]-->',
+   	     div.getElementsByTagName('i')[0]
+  	  );
+	
+   	 return v> 4 ? v : undef;
+}
+
+var ie = ieJadge();
+
+if(ie&&ie<=9){
+	$(function(){
+	document.getElementById('maximage').style.display='block';
+	});
+}else{
+    $(function() {
+		
+    $('#maximage').maximage({
+        cycleOptions: {
+			fx:'fade',
+            speed: 2000,
+            timeout: 2000,
+            pager: '#cycle-nav ul',
+            pagerAnchorBuilder: function(idx, slide) {
+                return '<li class="maru"><a href="#"></a></li>';
+            }
+			
+        },
+		
+        onFirstImageLoaded: function() {
+            jQuery('#maximage').fadeIn('fast');
+			
+        },
+		
+
+		
+    });
+    		
+
+});
+		
+}
+</script>
+<script type="text/javascript">
+$(document).ready(function(){
+$("#cycle-nav ul li.maru").corner("15px");
+});
+</script>
+<script type="text/javascript">
+	$(function($) {
+	var tab = $('#bg-header'),
+    offset = tab.offset();
+
+$(window).scroll(function () {
+  if($(window).scrollTop() > offset.top) {
+    tab.addClass('fixed');
+  } else {
+    tab.removeClass('fixed');
+  }
+});
+});
+</script>
+<!-- Google_Analytics_Begin -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-16730876-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- Google_Analytics End -->
+
+</head>
+
+<body>
+
+<div id="maximage">
+<img src="images/bgimg1.jpg" title="グランフォーレプライム西公園" width="1350px">
+<img src="images/bgimg2.jpg" title="グランフォーレ大名プレミア">
+<img src="images/bgimg3.jpg" title="グランフォーレプライム大濠南">
+<img src="images/bgimg4.jpg" title="グランフォーレ大橋東">
+<img src="images/bgimg5.jpg" title="グランフォーレ九品寺テラス">
+<img src="images/bgimg6.jpg" title="グランフォーレ室見アクアコート">
+<img src="images/bgimg7.jpg" title="グランフォーレ福岡西マンションギャラリー">
+</div>
+
+
+<div id="warrper">
+<div id="header">
+<h1><a href="#"><img src="images/common/logo.png" alt="福岡の新築マンション・分譲マンション購入のご相談ならコーセーアールイーへ！" class="top-img"></a></h1>
+<a href="https://www.kose-re.jp/contact/index.html"><img src="images/common/header-contact.png" class="btn01"></a>
+<a href="sitemap/index.html"><img src="images/common/header-sitemap.png" class="btn02"></a>
+</div><!-- header -->
+<div id="bg-header">
+<ul id="header-menu">
+<li><a href="index.html"><img src="images/common/header-btn01.png"></a></li>
+<li><a href="information/index.html"><img src="images/common/header-btn02.png"></a></li>
+<li><a href="business/index.html"><img src="images/common/header-btn03.png"></a></li>
+<li><a href="company/greeting.html"><img src="images/common/header-btn04.png"></a></li>
+<li><a href="shareholder/new.html"><img src="images/common/header-btn05.png"></a></li>
+<li><a href="recruit/index.html"><img src="images/common/header-btn06.png"></a></li>
+</ul>
+</div>
+
+<div id="contents">
+<img src="images/common/slogan.png" class="slogan">
+
+<div id="cycle-nav"><ul></ul></div>
+<ul id="contents-menu">
+<li><a href="http://www.granfore.jp/newconstruction/" target="_blank"><img src="images/index/contents-btn01.png" alt="新築分譲マンション"></a></li>
+<li><a href="http://www.granfore.jp/asset/" target="_blank"><img src="images/index/contents-btn02.png" alt="資産運用型マンション"></a></li>
+<li><a href="http://www.granfore.jp/customhouse/" target="_blank"><img src="images/index/contents-btn03.png" alt="新築一戸建て"></a></li>
+<li><a href="http://www.granfore.jp/used/" target="_blank"><img src="images/index/contents-btn04.png" alt="不動産仲介"></a></li>
+<li><a href="http://www.granfore.jp/rent/" target="_blank"><img src="images/index/contents-btn05.png" alt="賃貸管理"></a></li>
+</ul>
+<a href="http://www.granfore.jp/" target="_blank"><img src="images/index/granfore.png" class="float-l" alt="GRANFORE"></a>
+<a href="http://www.kose-re.jp/granfore-club/" target="_blank"><img src="images/index/granfore-club.png" class="float-r" alt="GRANFORE CLUB"></a>
+<div class="clear"></div>
+
+<div id="contents-2column">
+<div class="box-l">
+<img src="images/index/group-ttl.png" class="block">
+<div class="side-box">
+<a href="http://kose-ap.com/" target="_blank"><img src="images/index/group-01.png" class="spacer5"></a>
+<a href="http://www.r-maintenance.co.jp/" target="_blank"><img src="images/index/group-02.png" class="spacer5"></a>
+</div>
+
+<img src="images/index/pickup-ttl.png" class="block">
+<div class="side-box">
+<a href="http://www.jpx.co.jp/" target="_blank"><img src="images/index/pickup-01.png" class="spacer5"></a>
+<a href="http://www.saga-himat.jp/" target="_blank"><img src="images/index/pickup-03.png" class="spacer5"></a>
+</div>
+
+</div>
+<div class="box-r">
+<img src="images/index/info-ttl.png" class="block">
+<div class="side-box">
+<div class="conBox">
+<dl class="clearfix">
+
+<dt>2017年8月16日</dt>
+<dd><a href="http://gf-kyomachi.jp/index.html" target="_blank">「グランフォーレ京町レジデンス」8/19（土）より第6期先着順申込受付を開始いたします。</a></dd>
+
+
+<dt>2017年7月19日</dt>
+<dd><a href="pdf/20170719.pdf" target="_blank">第2四半期累計期間業績予想の修正に関するお知らせ</a></dd>
+
+<dt>2017年6月30日</dt>
+<dd>「グランフォーレ箱崎プレミア」はおかげ様をもちまして完売いたしました。</dd>
+
+<dt>2017年6月30日</dt>
+<dd>「グランフォーレラグゼ博多駅南」はおかげ様をもちまして完売いたしました。</dd>
+
+<dt>2017年6月15日</dt>
+<dd><a href="http://gf-hakataekihigashi-style.jp/" target="_blank"> 「グランフォーレ博多駅東スタイル」サイトを公開いたしました。</a></dd>
+
+<dt>2017年6月12日</dt>
+<dd><a href="pdf/20170613-1.pdf" target="_blank">四半期報告書2018.01期1st</a></dd>
+
+<dt>2017年6月8日</dt>
+<dd><a href="pdf/20170608-1.pdf" target="_blank">平成30年１月期　第１四半期決算短信〔日本基準〕（連結）</a></dd>
+
+<dt>2017年5月31日</dt>
+<dd><a href="pdf/20170531.pdf" target="_blank">非上場の親会社等の決算に関するお知らせ</a></dd>
+
+<dt>2017年5月18日</dt>
+<dd><a href="http://gf-ohashi.jp/" target="_blank">「グランフォーレ大橋テラス」5/20（土）より一般分譲申込受付（先着順）を開始いたします。</a></dd>
+
+<dt>2017年5月16日</dt>
+<dd><a href="http://gf-suwano.jp/" target="_blank">「グランフォーレ諏訪野プレミアム」予告サイトを公開いたしました。</a></dd>
+
+<dt>2017年4月28日</dt>
+<dd><a href="pdf/20170427-4.pdf" target="_blank">コーポレート・ガバナンス情報2017</a></dd>
+
+<dt>2017年4月28日</dt>
+<dd><a href="pdf/20170427-3.pdf" target="_blank">有価証券報告書2017.01期</a></dd>
+
+<dt>2017年4月28日</dt>
+<dd><a href="pdf/20170427-2.pdf" target="_blank">臨時報告書（第27期定時株主総会議決権集計結果）</a></dd>
+
+<dt>2017年4月28日</dt>
+<dd><a href="pdf/20170427-1.pdf" target="_blank">第27期　年次報告書</a></dd>
+
+<dt>2017年4月27日</dt>
+<dd><a href="pdf/20170427.pdf" target="_blank">支配株主等に関する事項</a></dd>
+
+<dt>2017年4月24日</dt>
+<dd><a href="http://gf-prime-kamiyamachi.jp/" target="_blank"> 「グランフォーレプライム神屋町」サイトを公開いたしました。</a></dd>
+
+<dt>2017年4月22日</dt>
+<dd><a href="http://gf-fujisaki.jp/" target="_blank">「グランフォーレ藤崎レジデンス」4/22（土）より第２期先着順申込受付を開始いたします。</a></dd>
+
+<dt>2017年4月6日</dt>
+<dd><a href="pdf/20170406-1.pdf" target="_blank">第27期定時株主総会招集ご通知</a></dd>
+
+<dt>2017年4月6日</dt>
+<dd><a href="pdf/20170406-2.pdf" target="_blank">第27期定時株主総会招集ご通知に際してのインターネット開示事項</a></dd>
+
+<dt>2017年3月29日</dt>
+<dd><a href="pdf/20170328_2.pdf" target="_blank">（訂正）「平成 29 年 1 月期 第3四半期決算短信〔日本基準〕(連結)」の一部訂正について</a></dd>
+
+<dt>2017年3月29日</dt>
+<dd><a href="pdf/20170328_1.pdf" target="_blank">（訂正）「平成 29 年 1 月期 決算短信〔日本基準〕(連結)」の一部訂正について</a></dd>
+
+<dt>2017年3月21日</dt>
+<dd><a href="http://gf-kasugabaru.jp/index.html" target="_blank">「グランフォーレ春日原」はおかげ様をもちまして完売いたしました。キャンセル待ち受け付けております。</a></dd>
+
+<dt>2017年3月14日</dt>
+<dd><a href="pdf/20170314.pdf" target="_blank">平成29年1月期決算説明会（アナリスト向け）</a></dd>
+
+<dt>2017年3月13日</dt>
+<dd><a href="pdf/20170313-1.pdf" target="_blank">剰余金の配当に関するお知らせ</a></dd>
+
+<dt>2017年3月13日</dt>
+<dd><a href="pdf/20170313-2.pdf" target="_blank">平成29年1月期　決算短信〔日本基準〕（連結）</a></dd>
+
+<dt>2017年3月13日</dt>
+<dd><a href="pdf/20170313-3.pdf" target="_blank">中期経営計画の策定に関するお知らせ</a></dd>
+
+
+<dt>2017年2月16日</dt>
+<dd><a href="http://gf-ohashi.jp/" target="_blank"> 「グランフォーレ大橋テラス」予告サイトを公開いたしました。</a></dd>
+
+<dt>2017年1月19日</dt>
+<dd><a href="http://gf-hakozaki-premiere.jp/" target="_blank"> 「グランフォーレ箱崎プレミア」1/20（金）より先着順申込受付を開始いたします。</a></dd>
+
+<dt>2017年1月14日</dt>
+<dd><a href="http://gf-fujisaki.jp/" target="_blank">「グランフォーレ藤崎レジデンス」1/14（土）より第１期先着順申込受付を開始いたしました。</a></dd>
+
+<dt>2017年1月12日</dt>
+<dd><a href="http://gf-kasugabaru.jp" target="_blank">「グランフォーレ春日原」1/14（土）より第2期先着順申込受付を開始いたします。</a></dd>
+
+<dt>2017年1月5日</dt>
+<dd><a href="http://gf-hakozaki-premiere.jp/" target="_blank"> 「グランフォーレ箱崎プレミア」サイトを公開いたしました。</a></dd>
+
+<dt>2016年12月28日</dt>
+<dd>年末年始休暇のご案内
+誠に勝手ながら、当社は2016年12月29日（木）～2017年1月3日（火）を年末年始休業とさせていただきます。
+この期間中の資料請求などのご対応は、1月4日（水）以降に順次行います。
+ご了承の程、宜しくお願いいたします。</dd>
+
+<dt>2016年12月17日</dt>
+<dd><a href="pdf/20161220-1.pdf" target="_blank">個人投資家向け合同ＩＲ説明会(名古屋)</a></dd>
+
+<dt>2016年12月12日</dt>
+<dd><a href="pdf/20161212.pdf" target="_blank">四半期報告書2017.01期3rd</a></dd>
+
+<dt>2016年12月9日</dt>
+<dd>年末年始のご案内　詳しくは「ＧＲＡＮＦＯＲＥ　住まいの総合サイト」からインフォメーションをご確認ください。</dd>
+
+<dt>2016年12月8日</dt>
+<dd><a href="pdf/20161208-1.pdf" target="_blank">平成29年1月期　第3四半期決算短信〔日本基準〕（連結）</a></dd>
+
+<dt>2016年12月8日</dt>
+<dd><a href="pdf/20161208-2.pdf" target="_blank">業績予想の修正に関するお知らせ</a></dd>
+
+<dt>2016年12月8日</dt>
+<dd><a href="pdf/20161208-3.pdf" target="_blank">株式分割及び株式分割に伴う定款の一部変更並びに株主優待制度の変更に関するお知らせ</a></dd>
+
+<dt>2016年12月1日</dt>
+<dd>「グランフォーレプライム六本松」はおかげ様をもちまして完売いたしました。</dd>
+
+<dt>2016年11月19日</dt>
+<dd><a href="pdf/20161119.pdf" target="_blank">個人投資家向け合同ＩＲ説明会(大阪)</a></dd>
+
+<dt>2016年11月12日</dt>
+<dd><a href="pdf/20161112.pdf" target="_blank">がんばれ九州ＩＲフェア(東京)</a></dd>
+
+<dt>2016年11月10日</dt>
+<dd>「グランフォーレ春日原」11/12（土）より第１期先着順申込受付を開始いたします。</dd>
+
+<dt>2016年11月10日</dt>
+<dd>「グランフォーレ西新レジデンス」11/10（木）より最終期先着順申込受付を開始いたします。</dd>
+
+<dt>2016年10月31日</dt>
+<dd>「グランフォーレ京町レジデンス」11/1（火）より第４期先着順申込受付を開始いたします。</dd>
+
+<dt>2016年10月24日</dt>
+<dd>「グランフォーレ横浜鴨居」はおかげ様をもちまして完売いたしました。</dd>
+
+<dt>2016年10月11日</dt>
+<dd>「グランフォーレ日吉プレミアム」はおかげ様をもちまして完売いたしました。キャンセル待ち受け付けております。</dd>
+
+<dt>2016年9月28日</dt>
+<dd><a href="https://www.youtube.com/watch?v=GONmyh6Auxk" target="_blank">9月28日(水)、当社代表取締役 諸藤敏一が「東京マーケットワイド」に出演いたしました。オンデマンドにて是非ご聴取ください（当記事をクリックするとYouTubeに遷移いたします）。</a></dd>
+
+<dt>2016年9月28日</dt>
+<dd><a href="pdf/20160928change-market.pdf" target="_blank">東京証券取引所市場第二部への市場変更に関するお知らせ</a></dd>
+
+<dt>2016年9月26日</dt>
+<dd><a href="http://gf-l-hakataekiminami.jp/" target="_blank">「グランフォーレラグゼ博多駅南」サイトを公開いたしました。</a></dd>
+
+<dt>2016年9月21日</dt>
+<dd><a href="http://gf-fujisaki.jp/" target="_blank">「（仮称）グランフォーレ藤崎」サイトを公開いたしました。</a></dd>
+
+<dt>2016年9月21日</dt>
+<dd><a href="pdf/20160920_info-listing.pdf" target="_blank">東京証券取引所市場第二部への市場変更承認に関するお知らせ</a></dd>
+
+<dt>2016年9月16日</dt>
+<dd>「グランフォーレ大橋南」はおかげ様をもちまして完売いたしました。</dd>
+
+<dt>2016年9月12日</dt>
+<dd><a href="pdf/20160920_quarter-report.pdf" target="_blank">四半期報告書2017.01期2nd</a></dd>
+
+<dt>2016年9月8日</dt>
+<dd><a href="pdf/20160908_result-difference.pdf" target="_blank">平成29年1月期第2四半期（連結）業績予想と実績の差異に関するお知らせ</a></dd>
+
+<dt>2016年9月8日</dt>
+<dd><a href="pdf/20160908-result.pdf" target="_blank">平成29年１月期　第２四半期決算短信〔日本基準〕（連結）</a></dd>
+
+<dt>2016年9月2日</dt>
+<dd><a href="http://gf-nishijin.jp/index.html" target="_blank">「グランフォーレ西新レジデンス」9/3（土）より第１期先着順申込受付を開始いたします。</a></dd>
+
+<dt>2016年9月1日</dt>
+<dd>「グランフォーレ博多駅東プレミア」は おかげ様をもちまして完売いたしました。</dd>
+
+<dt>2016年8月25日</dt>
+<dd><a href="http://gf-kasugabaru.jp/" target="_blank">「（仮称）グランフォーレ春日原」サイトを公開いたしました。</a></dd>
+
+<dt>2016年7月28日</dt>
+<dd>夏期休業のご案内　詳しくは「ＧＲＡＮＦＯＲＥ　住まいの総合サイト」からインフォメーションをご確認ください。</dd>
+
+<dt>2016年7月15日</dt>
+<dd>「グランフォーレ大橋南」7月16日（土）より第1期2次先着順申込受付を開始いたします。</dd>
+
+<dt>2016年7月1日</dt>
+<dd><a href="http://gf-prime-ropponmatsu.jp " target="_blank"> 「グランフォーレプライム六本松」サイトを公開いたしました。</a></dd>
+
+<dt>2016年6月10日</dt>
+<dd><a href="pdf/160610-report-quarter.pdf" target="_blank"> 四半期報告書2017.01期第1四半期</a></dd>
+
+<dt>2016年6月8日</dt>
+<dd><a href="http://gf-kyomachi.jp/" target="_blank"> 「グランフォーレ京町レジデンス」6/11（土）より第3期先着順申込受付を開始いたします。</a></dd>
+
+<dt>2016年6月7日</dt>
+<dd>「グランフォーレ大橋南」6/11（土）より第1期先着順申込受付を開始いたします。</dd>
+
+<dt>2016年6月8日</dt>
+<dd><a href="pdf/160608finance-report.pdf" target="_blank">平成29年1月期 第1四半期決算短信〔日本基準〕（連結）</a></dd>
+
+<dt>2016年5月25日</dt>
+<dd><a href="http://gf-nishijin.jp/index.html" target="_blank">「（仮称）グランフォーレ西新」予告サイトを公開いたしました。</a></dd>
+
+<dt>2016年4月28日</dt>
+<dd><a href="pdf/corporate-governance160511.pdf" target="_blank">コーポレート・ガバナンス情報2016</a></dd>
+
+<dt>2016年4月28日</dt>
+<dd><a href="pdf/securities-report160428.pdf" target="_blank">有価証券報告書2016.01期</a></dd>
+
+<dt>2016年4月28日</dt>
+<dd><a href="pdf/special-report160428.pdf" target="_blank">臨時報告書（第26期定時株主総会議決権集計結果）</a></dd>
+
+<dt>2016年4月28日</dt>
+<dd><a href="pdf/anuual-report160428.pdf" target="_blank">第26期 年次報告書</a></dd>
+
+<dt>2016年4月27日</dt>
+<dd><a href="pdf/shareholder20160427.pdf" target="_blank">支配株主等に関する事項</a></dd>
+
+<dt>2016年4月22日</dt>
+<dd>「グランフォーレ荒江レジデンス」はおかげ様をもちまして完売いたしました。</dd>
+
+<dt>2016年4月18日</dt>
+<dd><a href="pdf/20160418.pdf" target="_blank">熊本地震の影響に関するお知らせ（第２報）</a></dd>
+
+<dt>2016年4月15日</dt>
+<dd><a href="pdf/20160415.pdf" target="_blank">熊本地震の影響に関するお知らせ</a></dd>
+
+<dt>2016年4月6日</dt>
+<dd><a href="pdf/160623_fukusho-ir.pdf" target="_blank">福証ＩＲフェアin熊本（個人投資家向け）</a></dd>
+
+<dt>2016年4月5日</dt>
+<dd><a href="pdf/info_meeting-shareholders20160405.pdf" target="_blank">第26期定時株主総会招集ご通知</a></dd>
+
+<dt>2016年4月5日</dt>
+<dd><a href="pdf/net-info_meeting-shareholders20160405.pdf" target="_blank">第26期定時株主総会招集ご通知に際してのインターネット開示事項</a></dd>
+
+<dt>2016年3月31日</dt>
+<dd>「グランフォーレプライム箱崎」はおかげ様をもちまして完売いたしました。</dd>
+
+<dt>2016年3月29日</dt>
+<dd><a href="pdf/association-160329.pdf" target="_blank">定款一部変更に関するお知らせ</a></dd>
+
+<dt>2016年3月29日</dt>
+<dd><a href="pdf/surplus-160329.pdf" target="_blank">剰余金の配当に関するお知らせ</a></dd>
+
+<dt>2016年3月14日</dt>
+<dd><a href="pdf/financial-result-160311.pdf" target="_blank">平成28年1月期決算説明会（アナリスト向け）</a></dd>
+
+<dt>2016年3月11日</dt>
+<dd><a href="pdf/ir-fear-kumamoto.pdf" target="_blank">福証ＩＲフェアin熊本のお知らせ</a></dd>
+
+<dt>2016年3月11日</dt>
+<dd><a href="pdf/financial-result160311.pdf" target="_blank">平成28年1月期　決算短信〔日本基準〕（連結）</a></dd>
+
+<dt>2016年3月4日</dt>
+<dd>「グランフォーレ大橋南」予告サイトを公開いたしました。</dd>
+
+<dt>2016年3月3日</dt>
+<dd>「グランフォーレ荒江サウステラス」はおかげ様をもちまして完売いたしました。</dd>
+
+<dt>2016年2月1日</dt>
+<dd><a href="pdf/additional-strategy160201.pdf" target="_blank">中期経営計画追加情報を掲載しました。</a></dd>
+
+
+<dt>2016年2月1日</dt>
+<dd><a href="pdf/20160201.pdf" target="_blank">コーポレート・ガバナンス基準を制定致しました。</a></dd>
+
+
+<dt>2015年12月25日</dt>
+<dd><a href="http://gf-hakataeki-premiere.jp/index.html" target="_blank">「グランフォーレ博多駅東プレミア」サイトを公開いたしました。</a></dd>
+
+<dt>2015年12月8日</dt>
+<dd><a href="pdf/20151208.pdf" onclick="_gaq.push(['_trackEvent', 'pdf','click','平成28年1月期　第3四半期決算短信〔日本基準〕（連結）',1,true]);" target="_blank">平成28年1月期　第3四半期決算短信〔日本基準〕（連結）</a></dd>
+
+<dt>2015年11月30日</dt>
+<dd>「グランフォーレプライム大手門」はおかげ様をもちまして完売いたしました。</dd>
+
+<dt>2015年11月30日</dt>
+<dd>「グランフォーレプライム大橋」はおかげ様をもちまして完売いたしました。</dd>
+
+<dt>2015年10月27日</dt>
+<dd><a href="http://market.radionikkei.jp/sugashita_market/" target="_blank">10/26（月）ラジオNIKKEI「菅下清廣のMarket World」に当社代表取締役 諸藤敏一が出演しました。オンデマンドにて是非ご聴取ください。（番組開始後、10分30秒経過後からの出演です）</a></dd>
+
+<dt>2015年10月14日</dt>
+<dd><a href="http://gf-prime-hakozaki.jp/index.html" target="_blank">「グランフォーレプライム箱崎」サイトを公開いたしました。
+</a></dd>
+
+<dt>2015年9月8日</dt>
+<dd><a href="pdf/20150908.pdf" onclick="_gaq.push(['_trackEvent', 'pdf','click','平成28年1月期　第2四半期決算短信〔日本基準〕（連結）',1,true]);" target="_blank">平成28年1月期　第2四半期決算短信〔日本基準〕（連結）</a></dd>
+
+<dt>2015年8月27日</dt>
+<dd><a href="http://seminar.nsjournal.jp/6600.html" target="_blank">平成27年9月29日東京　個人投資家向け会社説明会のご案内</a></dd>
+
+<dt>2015年8月3日</dt>
+<dd>夏季休業のご案内<br>詳しくは「ＧＲＡＮＦＯＲＥ　住まいの総合サイト」からインフォメーションをご確認ください</dd>
+
+<dt>2015年7月22日</dt>
+<dd>「レジア赤坂テラス」予告サイトを公開いたしました。</dd>
+
+<dt>2015年7月10日</dt>
+<dd>「グランフォーレ日吉プレミアム」7/11（土）より第1期先着順申込受付開始いたします。</dd>
+
+<dt>2015年7月9日</dt>
+<dd>「グランフォーレプライム大手門」サイトを公開いたしました。</dd>
+<dt>2015年7月7日</dt>
+<dd><a href="http://gf-yokohamakamoi.jp/" target="_blank">「グランフォーレ横浜鴨居」7月4日（土）より第2期先着順受付開始いたしました。</a></dd>
+<dt>2015年6月18日</dt>
+<dd><a href="http://gf-kyomachi.jp/" target="_blank">「グランフォーレ京町レジデンス」予告サイトを公開いたしました。</a></dd>
+<dt>2015年6月8日</dt>
+<dd><a href="../pdf/20150608.pdf" onclick="_gaq.push(['_trackEvent', 'pdf','click','平成28年1月期　第1四半期決算短信〔日本基準〕（連結）',1,true]);" target="_blank">平成28年1月期　第1四半期決算短信〔日本基準〕（連結）</a></dd>
+<dt>2015年5月11日</dt>
+<dd><a href="../pdf/20150511.pdf" onclick="_gaq.push(['_trackEvent', 'pdf','click','第56回福証IRフェアのお知らせ',1,true]);" target="_blank">第56回福証IRフェアのお知らせ</a></dd>
+
+<dt>2015年5月1日</dt>
+<dd>「グランフォーレプライム高宮」はおかげ様をもちまして完売いたしました。</dd>
+
+<dt>2015年4月24日</dt>
+<dd><a href="../pdf/20150424.pdf" onclick="_gaq.push(['_trackEvent', 'pdf','click','第25期　年次報告書',1,true]);" target="_blank">第25期　年次報告書</a></dd>
+<dt>2015年4月23日</dt>
+<dd><a href="../pdf/20150423.pdf" onclick="_gaq.push(['_trackEvent', 'pdf','click','支配株主等に関する事項について',1,true]);" target="_blank">支配株主等に関する事項について</a></dd>
+<dt>2015年4月8日</dt>
+<dd><a href="../pdf/20150408.pdf" onclick="_gaq.push(['_trackEvent', 'pdf','click','第25期定時株主総会招集ご通知に際してのインターネット開示事項',1,true]);" target="_blank">第25期定時株主総会招集ご通知に際してのインターネット開示事項</a></dd>
+<dt>2015年4月3日</dt>
+<dd><a href="http://gf-yokohamakamoi.jp/" target="_blank">「グランフォーレ横浜鴨居」予告サイトを公開いたしました。</a></dd>
+<dt>2015年3月26日</dt>
+<dd><a href="../pdf/20150326-02.pdf" onclick="_gaq.push(['_trackEvent', 'pdf','click','定款一部変更に関するお知らせ',1,true]);" target="_blank">定款一部変更に関するお知らせ</a></dd>
+<dt>2015年3月26日</dt>
+<dd><a href="../pdf/20150326-01.pdf" onclick="_gaq.push(['_trackEvent', 'pdf','click','剰余金の配当に関するお知らせ',1,true]);" target="_blank">剰余金の配当に関するお知らせ</a></dd>
+<dt>2015年3月13日</dt>
+<dd><a href="../pdf/20150313.pdf" onclick="_gaq.push(['_trackEvent', 'pdf','click','平成27年1月期　決算説明会（アナリスト向け）',1,true]);" target="_blank">平成27年1月期　決算説明会（アナリスト向け）</a></dd>
+<dt>2015年3月12日</dt>
+<dd><a href="../pdf/20150312.pdf" onclick="_gaq.push(['_trackEvent', 'pdf','click','平成27年1月期決算短信〔日本基準〕（連結）',1,true]);" target="_blank">平成27年1月期　決算短信〔日本基準〕（連結）</a></dd>
+<dt>2015年3月11日</dt>
+<dd>「グランフォーレプライム大橋」サイトを公開いたしました。</dd>
+<dt>2015年2月13日</dt>
+<dd><a href="../pdf/20150213.pdf" onclick="_gaq.push(['_trackEvent', 'pdf','click','株主名簿管理人事務取扱場所',1,true]);" target="_blank">「株主名簿管理人事務取扱場所」変更のお知らせ</a></dd>
+<dt>2015年2月6日</dt>
+<dd>「グランフォーレ荒江サウステラス」予告サイトを公開いたしました。</dd>
+<dt>2015年2月2日</dt>
+<dd>「グランフォーレプライム天神東」は おかげ様をもちまして完売いたしました。</dd>
+<dt>2015年2月1日</dt>
+<dd><a href="http://www.kose-re.jp/">ホームページをリニューアルいたしました。</a></dd>
+
+<dt>2015年1月9日</dt>
+<dd>「グランフォーレ日吉プレミアム」の予告サイトを公開しました。</dd>
+
+<dt>2014年12月4日</dt>
+<dd><a href="../pdf/20141204-01.pdf" target="_blank">平成27年1月期　第3四半期決算短信〔日本基準〕（連結）</a></dd>
+<dt>2014年11月28日</dt>
+<dd><a href="../pdf/20141128-01.pdf" target="_blank">株主名簿管理人変更に関するお知らせ</a></dd>
+<dt>2014年11月4日</dt>
+<dd><a href="../pdf/20141104-02.pdf" target="_blank">第53回福証ＩＲフェアのお知らせ</a></dd>
+<dt>2014年10月16日</dt>
+<dd>「グランフォーレ荒江レジデンス」予告サイトを公開いたしました。</dd>
+<dt>2014年9月4日</dt>
+<dd><a href="../pdf/20140904-01.pdf" target="_blank">平成27年１月期　第2四半期決算短信〔日本基準〕（連結）</a></dd>
+<dt>2014年8月12日</dt>
+<dd><a href="../pdf/20140812-01.pdf" target="_blank">平成27年１月期　第2四半期累計期間業績予想の修正に関するお知らせ</a></dd>
+<dt>2014年8月7日</dt>
+<dd><a href="http://www.saa.or.jp/briefing/investment/pdf/setsumei_t_41.pdf" target="_blank">平成26年9月 9日東京 第41回 個人投資家向け会社説明会のご案内</a></dd>
+<dt>2014年8月7日</dt>
+<dd><a href="http://www.saa.or.jp/briefing/investment/pdf/setsumei_o_35.pdf" target="_blank">平成26年9月10日大阪 第35回 個人投資家向け会社説明会のご案内</a></dd>
+<dt>2014年6月5日</dt>
+<dd><a href="../pdf/20140605-01.pdf" target="_blank">平成27年１月期　第１四半期決算短信〔日本基準〕（連結）</a></dd>
+<dt>2014年5月7日</dt>
+<dd><a href="../pdf/20140508-01.pdf" target="_blank">その他の関係会社の異動に関するお知らせ</a></dd>
+<dt>2014年4月24日</dt>
+<dd><a href="../pdf/20140424-01.pdf" target="_blank">支配株主等に関する事項について</a></dd>
+<dt>2014年4月24日</dt>
+<dd><a href="../pdf/20140424-02.pdf" target="_blank">第24期　年次報告書</a></dd>
+</dl>
+</div>
+</div>
+</div>
+
+</div><!-- /contents-2column -->
+<div class="clear"></div>
+</div><!-- /contents -->
+</div><!-- /warrper -->
+<div id="footer">
+
+<div id="footer-area">
+<p id="top-btn"><a href="#top"><img src="images/common/top-btn.png"></a></p>
+<ul class="footer-list01">
+<li>グループ会社</li>
+<li><a href="http://kose-ap.com/" target="_blank"><img src="images/index/group-01.png" class="spacer5"></a></li>
+<li><a href="http://www.r-maintenance.co.jp/" target="_blank"><img src="images/index/group-02.png" class="spacer5"></a></li>
+</ul>
+<ul class="footer-list02">
+<li><a href="business/index.html">事業内容</a></li>
+<li><a href="http://www.granfore.jp/newconstruction/" target="_blank">新築分譲マンション</a></li>
+<li><a href="http://www.granfore.jp/customhouse/" target="_blank">新築一戸建て</a></li>
+<li><a href="http://www.granfore.jp/rent/" target="_blank">賃貸管理</a></li>
+<li><a href="http://www.granfore.jp/asset/" target="_blank">資産運用型マンション</a></li>
+<li><a href="http://www.granfore.jp/used/" target="_blank">不動産仲介</a></li>
+<li><a href="http://www.granfore.jp/supply/index.html" target="_blank">供給実績</a></li>
+</ul>
+<ul class="footer-list02_2">
+<li>会社情報</li>
+<li><a href="company/greeting.html">ご挨拶</a></li>
+<li><a href="company/summary.html">会社概要</a></li>
+<li><a href="company/management.html">経営理念</a></li>
+<li><a href="company/effort.html">当社の取り組み</a></li>
+<li><a href="company/history.html">沿革</a></li>
+<li><a href="company/organization.html">組織図</a></li>
+</ul>
+<ul class="footer-list02_1">
+<li>株主・投資家情報</li>
+<li><a href="shareholder/new.html">NEW</a></li>
+<li><a href="shareholder/ir.html">IR情報</a></li>
+<li><a href="shareholder/explain.html">説明会資料</a></li>
+<li><a href="shareholder/hospitality.html">株主優待</a></li>
+<li><a href="shareholder/electronic-ad.html">電子公告</a></li>
+</ul>
+<ul class="footer-list03">
+<li><a href="shareholder/securities-report.html">有価証券報告書</a></li>
+<li><a href="shareholder/basic-info.html">会社基本情報</a></li>
+<li><a href="shareholder/stock-info.html">株式情報</a></li>
+<li><a href="http://stocks.finance.yahoo.co.jp/stocks/detail/?code=3246.T" target="_blank">株価情報<br>（ヤフーファイナンス）</a></li>
+</ul>
+<ul class="footer-list04">
+<li><a href="information/index.html">インフォメーション</a></li>
+<li><a href="recruit/index.html">採用情報</a></li>
+</ul>
+<div class="clear"></div>
+
+<ul class="bottom-list">
+<li><a href="https://www.kose-re.jp/contact/index.html">お問い合わせ</a></li>
+<li><a href="sitemap/index.html">サイトマップ</a></li>
+<li><a href="http://www.granfore.jp/privacy/index.html" target="_blank">プライバシーポリシー</a></li>
+</ul>
+<p class="allrights">All rights reserved KOSE R.E. CO. ,Ltd.</p>
+</div>
+
+
+</div><!-- footer -->
+
+</body>
+</html>

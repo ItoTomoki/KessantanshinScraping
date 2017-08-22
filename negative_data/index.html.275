@@ -1,0 +1,929 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<title>森永乳業株式会社</title>
+<meta name="description" content="かがやく“笑顔”のために、森永乳業株式会社のウェブサイトです。森永乳業の牛乳、乳飲料、デザートなどの商品紹介、キャンペーン、牛乳や乳製品を使ったレシピなど、多くの情報を掲載しています。">
+<meta name="keywords" content="森永乳業,森永,乳業,もりなが,モリナガ,morinaga,MORINAGA,もりにゅう">
+<link href="/resources/styles/basic_import_new.css" rel="stylesheet" type="text/css" media="all">
+<link rel="stylesheet" type="text/css" href="/resources/styles/fsnormal.css" id="FSStyle" media="all">
+<link href="/resources/styles/jquery.bxslider.css" rel="stylesheet" type="text/css" media="all">
+<link href="/resources/styles/flexslider.css" rel="stylesheet" type="text/css" media="all">
+<link href="./styles/index.css" rel="stylesheet" type="text/css" media="all">
+<link rel="shortcut icon" href="/favicon.ico">
+<script src="/resources/scripts/jquery-1.10.2.min.js" type="text/javascript"></script>
+<script src="/resources/scripts/jquery.easing.1.3.js" type="text/javascript"></script>
+<script src="/resources/scripts/jquery.bxslider.min.js" type="text/javascript"></script>
+<script src="/resources/scripts/jquery.flexslider-min.js" type="text/javascript"></script>
+<script src="/resources/scripts/headfoot.js" type="text/javascript"></script>
+<script src="/resources/scripts/basic_new.js" type="text/javascript"></script>
+<script src="/resources/scripts/ga.js" type="text/javascript"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
+<script src="/scripts/index_new.js" type="text/javascript"></script>
+<script>
+window.onload = function(){
+}
+</script>
+
+<meta property="og:title" content="森永乳業株式会社">
+<meta property="og:type" content="website">
+<meta property="og:image" content="http://www.morinagamilk.co.jp/images/common/ogp_logo.png">
+<meta property="og:url" content="http://www.morinagamilk.co.jp/">
+<meta property="og:site_name" content="森永乳業株式会社">
+<meta property="og:description" content="おいしいをデザインする、森永乳業株式会社のウェブサイトです。森永乳業の牛乳、乳飲料、デザートなどの商品紹介、キャンペーン、牛乳や乳製品を使ったレシピなど、多くの情報を掲載しています。">
+
+
+</head>
+<body><div id="wrapper">
+	<!--ヘッダー　ここから-->
+        <div id="headerWrap">
+
+    <div id="header" class="clearfix">
+
+		<h1 id="UNIVCONTAINER"><a href="/"><img src="/resources/images/header/logo.png" alt="森永乳業" width="237" height="44"></a></h1>
+
+		<div class="rightBox">
+
+			<ul class="subNav">
+
+				<li><a href="http://msclub.jp/misc/help/PC/index.html" target="_blank" class="clickMsClub">M's Club</a></li>
+
+				<li><a href="/contact/">お問い合わせ</a></li>
+
+				<li><a href="/sitemap/">サイトマップ</a></li>
+
+				<li><a href="/english/">English</a></li>
+
+			</ul>
+
+			<dl class="txtSize" id="fsChg">
+
+				<dt>文字サイズ：</dt>
+
+				<dd class="fsSml"><a href="javascript:void(0)"><img src="/resources/images/header/subnav_s_off.png" alt="小" width="29" height="28"></a></dd>
+
+				<dd class="fsNml"><a href="javascript:void(0)"><img src="/resources/images/header/subnav_m_off.png" alt="中" width="29" height="28"></a></dd>
+
+				<dd class="fsLrg"><a href="javascript:void(0)"><img src="/resources/images/header/subnav_l_off.png" alt="大" width="29" height="28"></a></dd>
+
+			</dl>
+
+			<form id="searchForm" method="get"action="http://search.morinagamilk.co.jp/ja_all/search.x">
+				<p>
+					<span class="searchInputBd">
+						<input type="text" name="q" value="" id="MF_form_phrase" autocomplete="off" class="searchTxt" >
+					</span>
+					<input type="submit" value="" class="searchBtn">
+					<input type="hidden" name="ie" value="SJIS">
+					<input type="hidden" name="page" value="1">
+				</p>
+			</form>
+
+			<ul class="gNav">
+
+				<li class="products"><a href="/products/"><img src="/resources/images/header/gnav_01.png" alt="商品紹介" width="78" height="19"></a>
+
+					<div class="gNavLinkTop">
+
+					<div class="gNavLinkBottom">
+
+					<div class="gNavLink clearfix">
+
+						<ul class="icnLink">
+
+							<li><a href="/products/milk/" class="link01">牛乳類</a></li>
+
+							<li><a href="/products/drink/" class="link02">飲料</a></li>
+
+							<li><a href="/products/yoghurt/" class="link03">ヨーグルト</a></li>
+
+							<li><a href="/products/dessert/" class="link04">デザート</a></li>
+
+							<li><a href="/products/icecream/" class="link05">アイスクリーム</a></li>
+
+							<li><a href="/products/dryfood/" class="link06">クリープ・れん乳・その他</a></li>
+
+							<li><a href="/products/cheese/" class="link07">チーズ・バター</a></li>
+
+							<li><a href="/products/babyfood/" class="link08">育児・栄養食品</a></li>
+
+						</ul>
+
+						<ul class="icnLink">
+
+							<li><a href="http://takuhaimilk.ne.jp/" target="_blank" onclick="_gaq.push(['_trackEvent', 'outlink', this.href]);" class="link09">宅配サービス<img src="/resources/images/icn/blank.png" alt="新規ウインドウ" width="14" height="10"></a></li>
+
+							<li><a href="http://kenko.morinagamilk.co.jp/" target="_blank" onclick="_gaq.push(['_trackEvent', 'outlink', this.href]);" class="link10">健康食品ｵﾝﾗｲﾝｼｮｯﾌﾟ<img src="/resources/images/icn/blank.png" alt="新規ウインドウ" width="14" height="10"></a></li>
+
+							<li><a href="http://www.morinagamilk-carefoods.jp/" target="_blank" onclick="_gaq.push(['_trackEvent', 'outlink', this.href]);" class="link11">介護食<img src="/resources/images/icn/blank.png" alt="新規ウインドウ" width="14" height="10"></a></li>
+
+							<li><a href="http://www.clinico.co.jp/" target="_blank" onclick="_gaq.push(['_trackEvent', 'outlink', this.href]);" class="link12">流動食(株式会社ｸﾘﾆｺ)<img src="/resources/images/icn/blank.png" alt="新規ウインドウ" width="14" height="10"></a></li>
+
+							<li><a href="http://www.morinagamilk.co.jp/products/purester/" target="_blank" onclick="_gaq.push(['_trackEvent', 'outlink', this.href]);" class="link13">衛生管理用装置(ﾋﾟｭｱｽﾀｰ)<img src="/resources/images/icn/blank.png" alt="新規ウインドウ" width="14" height="10"></a></li>
+
+							<li><a href="http://www.morinagamilk-goldsign.com/" target="_blank" onclick="_gaq.push(['_trackEvent', 'outlink', this.href]);" class="link14">検査薬・体外診断用医薬品<img src="/resources/images/icn/blank.png" alt="新規ウインドウ" width="14" height="10"></a></li>
+
+						</ul>
+
+						<ul class="linkSection">
+
+							<li><a href="/products/new/">新商品</a></li>
+
+						</ul>
+
+					</div>
+
+					</div>
+
+					</div>
+
+				</li>
+
+				<li><a href="/campaign/"><img src="/resources/images/header/gnav_02.png" alt="キャンペーン" width="97" height="19"></a></li>
+
+				<li><a href="/recipe/"><img src="/resources/images/header/gnav_03.png" alt="レシピ" width="61" height="19"></a></li>
+
+				<li class="learnEnjoy"><a href="/learn_enjoy/"><img src="/resources/images/header/gnav_04.png" alt="おいしさのヒミツ・CM" width="157" height="19"></a>
+
+					<div class="gNavLinkTop">
+
+					<div class="gNavLinkBottom">
+
+					<div class="gNavLink clearfix">
+
+						<ul>
+
+							<li><a href="http://movie.morinagamilk.co.jp/">CM・広告</a></li>
+
+							<li><a href="/learn_enjoy/factory_tour/">工場見学のご案内</a></li>
+
+							<li><a href="/learn_enjoy/mskitchen/">出張料理講習会「M'S Kitchen」</a></li>
+
+							<li><a href="/learn_enjoy/quality_safety/">品質・安全</a></li>
+
+							<li><a href="/learn_enjoy/knowledge/">「乳」の知識</a></li>
+
+							<li><a href="/learn_enjoy/kidzania/">キッザニア「ミルクハウス」</a></li>
+
+                                                        <li><a href="/learn_enjoy/volleyball/">ツアーオブバレーボール</a></li>
+
+                                                        <li><a href="/learn_enjoy/mary/">映画「メアリと魔女の花」タイアップ</a></li>
+
+                                                        <li><a href="/learn_enjoy/legoland/">LEGOLAND&reg; Japan</a></li>
+                                                        <li><a href="/learn_enjoy/ice-cream-story/">アイスクリームストーリー</a></li>
+
+						</ul>
+
+					</div>
+
+					</div>
+
+					</div>
+
+                </li>
+
+				<li class="customer"><a href="/customer/"><img src="/resources/images/header/gnav_05.png" alt="お客さま相談室" width="113" height="19"></a>
+
+					<div class="gNavLinkTop">
+
+					<div class="gNavLinkBottom">
+
+					<div class="gNavLink clearfix">
+
+						<ul>
+
+							<li><a href="/customer/faq/">よくあるQ&amp;A</a></li>
+
+                            <li><a href="/customer/info/">相談室からのお知らせ</a></li>
+
+							<li><a href="/customer/voice/">お客さまの声を活かしました</a></li>
+
+							<li><a href="/customer/policy/">お客さま満足度向上への取り組み</a></li>
+
+						</ul>
+
+					</div>
+
+					</div>
+
+					</div>
+
+                </li>
+
+				<li class="corporate"><a href="/corporate/"><img src="/resources/images/header/gnav_06.png" alt="企業情報" width="78" height="19"></a>
+
+					<div class="gNavLinkTop">
+
+					<div class="gNavLinkBottom">
+
+					<div class="gNavLink clearfix">
+
+						<ul>
+
+							<li><a href="/corporate/company/">会社案内</a></li>
+
+							<li><a href="/corporate/ir/">株主・投資家情報</a></li>
+
+							<li><a href="/corporate/csr/">CSRの取り組み</a></li>
+
+							<li><a href="/mn-recruit/">採用情報</a></li>
+
+							<li><a href="/research/">研究開発</a></li>
+
+							<li><a href="/corporate/release/">ニュースリリース</a></li>
+
+						</ul>
+
+					</div>
+
+					</div>
+
+					</div>
+
+                </li>
+
+			</ul>
+
+		</div>
+
+	<!--/ #header --></div>
+
+	<!--/ #headerWrap --></div>
+
+
+    <!--ヘッダー　ここまで-->
+
+    <!--コンテンツ　ここから-->
+	<div id="container">
+        <!--スライダー　ここから-->
+    	<div id="mainImg">
+        	<div id="firstMainImg"><img src="./images/main_first_img.jpg" alt="森永乳業" width="960" height="410"></div>
+			<!--トップページメインバナー-->
+<div class="flexslider">
+	<ul class="slides">
+									<li>
+											<a href="http://morinagamilk.co.jp/100th/" class="clickCamp" >
+										<img src="/files/19355-top" alt="100周年" width="960" height="410">
+											</a>
+									</li>
+												<li>
+											<a href="https://www.morinagamilk.co.jp/corporate/company/vision/" class="clickCamp" >
+										<img src="/files/19287-top" alt="コーポレートミッション" width="960" height="410">
+											</a>
+									</li>
+												<li>
+											<a href="http://mow-ice.jp/" class="clickCamp" target="_blank">
+										<img src="/files/19201-top" alt="20170315MOW" width="960" height="410">
+											</a>
+									</li>
+												<li>
+											<a href="http://partheno-gy.jp/" class="clickCamp" target="_blank">
+										<img src="/files/19155-top" alt="2017パルテノ" width="960" height="410">
+											</a>
+									</li>
+												<li>
+											<a href="http://aloesthe.jp/" class="clickCamp" target="_blank">
+										<img src="/files/17571-top" alt="アロエステヨーグルト" width="960" height="410">
+											</a>
+									</li>
+												<li>
+											<a href="http://parm-ice.jp/" class="clickCamp" target="_blank">
+										<img src="/files/19250-top" alt="2017パルム" width="960" height="410">
+											</a>
+									</li>
+												<li>
+											<a href="http://bifidus.jp/" class="clickCamp" target="_blank">
+										<img src="/files/15020-top" alt="ビヒダス" width="960" height="410">
+											</a>
+									</li>
+												<li>
+											<a href="http://www.happy-philly.jp/index.html" class="clickCamp" target="_blank">
+										<img src="/files/18921-top" alt="フィラデルフィア 贅沢3層仕立て" width="960" height="410">
+											</a>
+									</li>
+												<li>
+											<a href="http://www.hagukumi.ne.jp/brand/ebaby/index.html" class="clickCamp" target="_blank">
+										<img src="/files/18833-top" alt="森永E赤ちゃん" width="960" height="410">
+											</a>
+									</li>
+												<li>
+											<a href="http://www.morinagamilk.co.jp/learn_enjoy/mskitchen/" class="clickCamp" >
+										<img src="/files/11289-top" alt="エムズキッチン" width="960" height="410">
+											</a>
+									</li>
+						</ul>
+</div>
+<ul class="thumb">
+			<li><a href="#" class="clickCamp"><img src="/files/19290" alt="" width="45" height="48"></a></li>
+			<li><a href="#" class="clickCamp"><img src="/files/19288" alt="" width="45" height="48"></a></li>
+			<li><a href="#" class="clickCamp"><img src="/files/19202" alt="" width="45" height="48"></a></li>
+			<li><a href="#" class="clickCamp"><img src="/files/19156" alt="" width="45" height="48"></a></li>
+			<li><a href="#" class="clickCamp"><img src="/files/17585" alt="" width="45" height="48"></a></li>
+			<li><a href="#" class="clickCamp"><img src="/files/17434" alt="" width="45" height="48"></a></li>
+			<li><a href="#" class="clickCamp"><img src="/files/15021" alt="" width="45" height="48"></a></li>
+			<li><a href="#" class="clickCamp"><img src="/files/18922" alt="" width="45" height="48"></a></li>
+			<li><a href="#" class="clickCamp"><img src="/files/18834" alt="" width="45" height="48"></a></li>
+			<li><a href="#" class="clickCamp"><img src="/files/11402" alt="" width="45" height="48"></a></li>
+	</ul>
+
+
+		</div>
+        <!--スライダー　ここまで-->
+        
+		<div class="news">
+        
+        	<!--緊急告知エリア　ここから-->
+            <!--トップページ 緊急のお知らせ-->
+<div class="alert">
+<div class="alertIn">
+<div class="alertCont clearfix">
+<dl>
+<dt>2016年5月10日</dt>
+<dd class="blank">
+<a  target="_blank" href="http://www.morinagamilk.co.jp/information2/20160419.html">平成28年熊本地震について</a></dd></dl>
+<dl>
+<dt>2016年4月27日</dt>
+<dd class="blank">
+<a  target="_blank" href="http://www.morinagamilk.co.jp/information2/20160427.html">平成28年熊本地震の被災地に対する義援金について</a></dd></dl>
+<dl>
+<dt>2015年2月12日</dt>
+<dd class="blank">
+<a  target="_blank" href="http://www.morinagamilk.co.jp/information2/20140124.html">【更新】弊社に関する不審な投資勧誘にご注意ください</a></dd></dl>
+
+<!--/#EMERGENCY-->
+</div>
+</div>
+</div>
+
+        	<!--緊急告知エリア　ここまで-->
+
+        	<!--タブ切り替え部分　ここから-->
+			<div class="tab">
+        		<!--更新トピックス　ここから-->
+                <h2 class="topics"><img src="./images/news_title_01_on.gif" alt="更新トピックス" width="89" height="13" class="tabTitle"></h2>
+                <div class="topicsTab">
+                    <div class="tabCont">
+                    <div class="heightLine-1">
+                    <!--トップページ 更新トピックス-->
+<dl class="icnNotice">
+<dt>8月14日</dt>
+<dd><a href="http://www.morinagamilk.co.jp/customer/info/">「相談室からのお知らせ」更新しました！</a></dd>
+</dl>
+<dl class="icnIR">
+<dt>8月10日</dt>
+<dd><a href="http://morinagamilk.co.jp/corporate/ir/library/security_reports.html">2018年（平成30年）3月期 第1四半期 四半期報告書を掲載しました</a></dd>
+</dl>
+<dl class="icnIR">
+<dt>8月9日</dt>
+<dd><a href="http://morinagamilk.co.jp/corporate/ir/library/financial_report.html">2018年（平成30年）3月期 第1四半期 決算短信を掲載しました</a></dd>
+</dl>
+<dl class="icnNotice">
+<dt>8月7日</dt>
+<dd class="blank" ><a href="http://www.morinagamilk.co.jp/information2/1207_001.html" target="_blank" >「育児用ミルク放射性物質検査と結果」更新しました</a></dd>
+</dl>
+<dl class="icnRecipe">
+<dt>7月28日</dt>
+<dd><a href="http://www.morinagamilk.co.jp/recipe/">「「暑～い！」からこそ。ひと工夫で簡単ごはん」8月のレシピ公開しました！</a></dd>
+</dl>
+
+                    </div>
+                    </div>
+                </div>
+        		<!--更新トピックス　ここまで-->
+
+        		<!--ニュースリリース　ここから-->
+                <h2 class="newsRelease"><img src="./images/news_title_02_off.gif" alt="ニュースリリース" width="98" height="13" class="tabTitle"><a href="/corporate/release/rss.xml" class="rssBtn"><img src="/resources/images/btn/rss.gif" alt="RSS" width="32" height="12"></a><span class="icnArrow"><a href="/corporate/release/">一覧へ</a></span></h2>
+                <div class="newsReleaseTab">
+                    <div class="tabCont">
+                    <div class="heightLine-1">
+                    <!--トップページ ニュースリリース -->
+<dl class="icnProduct">
+<dt>8月21日</dt>
+<dd><a href="/corporate/release/2017/0821_3348.html" >「濃密ギリシャヨーグルト パルテノ 贅沢カシスソース付」9月5日（火）より新発売</a></dd>
+</dl>
+<dl class="icnEvent">
+<dt>8月18日</dt>
+<dd><a href="/corporate/release/2017/0818_3346.html" >「ピノフォンデュカフェ」に泉はるさん、SHOUTAさんの来店が決定！</a></dd>
+</dl>
+<dl class="icnEvent">
+<dt>8月17日</dt>
+<dd><a href="/corporate/release/2017/0817_3344.html" >フォトジェニックでおいしく可愛い“ピノ”を楽しむことができる「ピノフォンデュ」専門店、 累計来場者数15万人を突破！</a></dd>
+</dl>
+<dl class="icnProduct">
+<dt>8月17日</dt>
+<dd><a href="/corporate/release/2017/0817_3345.html" >「MOW（モウ） エチオピアコーヒーモカ」 8月21日(月)より新発売</a></dd>
+</dl>
+<dl class="icnIR">
+<dt>8月14日</dt>
+<dd><a href="/corporate/release/2017/0814_3343.html" >新株予約権（株式報酬型ストックオプション）の発行内容確定に関するお知らせ</a></dd>
+</dl>
+
+                    </div>
+                    </div>
+                </div>
+        		<!--ニュースリリース　ここまで-->
+			</div>
+			<!--タブ切り替え部分　ここまで-->
+            
+            
+        	<!--森永乳業からのお知らせ　ここから-->
+			<div class="notice">
+			<div class="noticeIn">
+			<div class="noticeCont">
+				<h2><img src="./images/news_title_03.gif" alt="森永乳業からのお知らせ" width="134" height="12"></h2>
+				<p><a href="/information2/1207_001.html" target="_blank">育児用ミルク<br>放射性物質検査と結果</a></p>
+				<p><a href="/information2/20120406.html" target="_blank">放射性物質<br>新基準に伴う対応</a></p>
+		                <!--p><a href="/corporate/announce/">東日本大震災への<br>取り組みについて</a></p-->
+                                <p><a href="/information2/151110.html" target="_blank">『森永乳業健康宣言』<br></a></p>
+				<p><a href="/information2/170116.html" target="_blank">『消費者志向自主宣言』<br></a></p></div>
+			</div>
+			</div>
+			<!--森永乳業からのお知らせ　ここまで-->
+		</div>
+    
+    
+		<div class="products">
+			<div class="leftCont">
+				<h2><img src="./images/product_title.gif" alt="商品紹介" width="172" height="30"></h2>
+				<p><img src="./images/product_txt.gif" alt="私達がお届けしたいもの" width="254" height="20"></p>
+				<p class="mb40">食卓につどう、たくさんの笑顔。<br>そのそばに寄りそい、見守っていきたい。<br>そんな思いをカタチにした商品をご紹介します。</p>
+				<h3><img src="./images/product_new_txt.gif" alt="新商品 New!" width="116" height="18"><span class="icnArrow"><a href="/products/new/">新商品一覧</a></span></h3>
+                <div class="topProductsSliderWrap">
+				<div class="topProductsSlider panel panelW152">
+<!--トップページ/商品情報トップ　新商品-->
+	<dl>
+	<dt>
+		<a href="/products/icecream/mow/4193.html">
+			<span class="label txt35">
+				ＭＯＷ(モウ)エチオピアモカコーヒー
+			</span>
+			<span class="frame"><img src="/files/19660" alt=""></span>
+			<span class="balloonSIcn"><span class="balloonGreen"><span class="txt02">8/21</span></span></span>
+		</a>
+	</dt>
+	<dd>
+		<p>華やかな香りが特長のエチオピアモカを100%使用したコーヒーアイスです。</p>
+	</dd>
+</dl>
+<dl>
+	<dt>
+		<a href="/products/drink/lipton/4194.html">
+			<span class="label txt35">
+				リプトン アールグレイティーラテ
+			</span>
+			<span class="frame"><img src="/files/19661" alt=""></span>
+			<span class="balloonSIcn"><span class="balloonGreen"><span class="txt02">8/8</span></span></span>
+		</a>
+	</dt>
+	<dd>
+		<p>リプトンが厳選したセイロン茶葉100％にコクのあるミルクを加え、ベルガモットの華やかな香り立つ期間限定のアールグレイティーラテ。</p>
+	</dd>
+</dl>
+
+
+				</div>
+                </div>
+			</div>
+
+			<div class="rightCont">
+				<h3><img src="./images/product_category_txt.gif" alt="カテゴリー一覧" height="18"></h3>
+				<ul class="panelW112 panel">
+					<li>
+                    	<a href="/products/milk/">
+						<span class="label">牛乳類</span>
+						<span class="frame"><img src="/products/images/cate_pht_01.jpg" alt="牛乳類"></span>
+                        <span class="balloonTxt"><span class="txt">さわやかでヘルシー。<br>森永乳業の牛乳で、すがすがしい毎日をお届け。</span></span>
+						</a>
+                    </li>
+					<li>
+                    	<a href="/products/drink/">
+						<span class="label">飲料</span>
+						<span class="frame"><img src="/products/images/cate_pht_02.jpg" alt="飲料"></span>
+                        <span class="balloonTxt"><span class="txt">ご家庭で本格的な味を。<br>コーヒー、紅茶、ジュースなどおいしさが勢揃い。</span></span>
+                        </a>
+					</li>
+					<li>
+                    	<a href="/products/yoghurt/">
+						<span class="label">ヨーグルト</span>
+						<span class="frame"><img src="/products/images/cate_pht_03.jpg" alt="ヨーグルト"></span>
+                        <span class="balloonTxt"><span class="txt">おいしい味、いろいろ。<br>カラダのために毎日食べたいヨーグルト。</span></span>
+                        </a>
+					</li>
+					<li>
+                    	<a href="/products/dessert/">
+						<span class="label">デザート</span>
+						<span class="frame"><img src="/products/images/cate_pht_04.jpg" alt="デザート"></span>
+                        <span class="balloonTxt"><span class="txt">ほっとひと息つく時間に。<br>プリンもゼリーもうれしいおいしさがたくさん。</span></span>
+                        </a>
+					</li>
+					<li class="last">
+                    	<a href="/products/icecream/">
+						<span class="label">アイスクリーム</span>
+						<span class="frame"><img src="/products/images/cate_pht_05.jpg" alt="アイスクリーム"></span>
+                        <span class="balloonTxt"><span class="txt">子供も大人も大好き。<br>おいしさが選べる豊富なラインナップをご用意。</span></span>
+                        </a>
+					</li>
+					<li class="frame01">
+                    	<a href="/products/dryfood/">
+						<span class="label">クリープ・れん乳・<br>その他食品</span>
+						<span class="frame"><img src="/products/images/cate_pht_06.jpg" alt="クリープ・練乳・その他食品"></span>
+                        <span class="balloonTxt"><span class="txt">憩いの時を演出。<br>クリープ、れん乳、スキムミルクなど、<br>バラエティに富んだラインナップ。</span></span>
+                        </a>
+					</li>
+					<li class="frame02">
+                    	<a href="/products/cheese/">
+						<span class="label">チーズ・バター</span>
+						<span class="frame"><img src="/products/images/cate_pht_07.jpg" alt="チーズ・バター"></span>
+                        <span class="balloonTxt"><span class="txt">世界のおいしさを食卓に。<br>毎日の料理を豊かにするアイデアがいっぱい。</span></span>
+                        </a>
+					</li>
+					<li class="frame03">
+                    	<a href="/products/babyfood/">
+						<span class="label">育児・栄養食品</span>
+						<span class="frame"><img src="/products/images/cate_pht_08.jpg" alt="育児・栄養食品"></span>
+                        <span class="balloonTxt"><span class="txt">赤ちゃんが元気に育つように。<br>願いを込めて、安心と品質で育児を応援します。</span></span>
+                        </a>
+					</li>
+					<li class="frame04">
+                    	<a href="http://takuhaimilk.ne.jp/" target="_blank" onclick="_gaq.push(['_trackEvent', 'outlink', this.href]);">
+						<span class="label">宅配サービス<br><img src="/resources/images/icn/blank.png" alt="新規ウィンドウ" width="14" height="10"></span>
+						<span class="frame"><img src="/products/images/cate_pht_09.jpg" alt="宅配サービス"></span>
+                        <span class="balloonTxt"><span class="txt">おいしく健康な毎日をお届けする、<br>宅配サービス商品。</span></span>
+                        </a>
+					</li>
+					<li class="last frame05">
+                    	<a href="http://kenko.morinagamilk.co.jp/" target="_blank" onclick="_gaq.push(['_trackEvent', 'outlink', this.href]);">
+						<span class="label">健康食品<br><span class="txtS">オンラインショップ</span><br><img src="/resources/images/icn/blank.png" alt="新規ウィンドウ" width="14" height="10"></span>
+						<span class="frame"><img src="/products/images/cate_pht_10.jpg" alt="健康食品 オンラインショップ"></span>
+                        <span class="balloonTxt"><span class="txt">森永乳業の機能食品素材を<br>お求め頂けるオンラインショップ。</span></span>
+                        </a>
+					</li>
+					<li class="frame06">
+                    	<a href="http://www.morinagamilk-carefoods.jp/" target="_blank" onclick="_gaq.push(['_trackEvent', 'outlink', this.href]);">
+						<span class="label">介護食<br><img src="/resources/images/icn/blank.png" alt="新規ウィンドウ" width="14" height="10"></span>
+						<span class="frame"><img src="/products/images/cate_pht_11.jpg" alt="介護食"></span>
+                        <span class="balloonTxt"><span class="txt">森永乳業の介護食で楽しい<br>食生活を。</span></span>
+                        </a>
+					</li>
+					<li class="frame07">
+                    	<a href="http://www.clinico.co.jp/" target="_blank" onclick="_gaq.push(['_trackEvent', 'outlink', this.href]);">
+						<span class="label">流動食<br><span class="txtS">（株式会社クリニコ）</span><br><img src="/resources/images/icn/blank.png" alt="新規ウィンドウ" width="14" height="10"></span>
+						<span class="frame"><img src="/products/images/cate_pht_12.jpg" alt="流動食（株式会社クリニコ）"></span>
+                        <span class="balloonTxt"><span class="txt">多くの医療現場でご使用いただいている<br>信頼の病態栄養食品。</span></span>
+                        </a>
+					</li>
+					<li class="frame08">
+                    	<a href="http://www.morinagamilk.co.jp/products/purester/" target="_blank" onclick="_gaq.push(['_trackEvent', 'outlink', this.href]);">
+						<span class="label">衛生管理用装置<br><span class="txtS">（ピュアスター）</span><br><img src="/resources/images/icn/blank.png" alt="新規ウィンドウ" width="14" height="10"></span>
+						<span class="frame"><img src="/products/images/cate_pht_13.jpg" alt="衛生管理用装置 ピュアスター"></span>
+                        <span class="balloonTxt"><span class="txt">厨房、病院・介護施設、<br>食品加工向け細菌・ウイルス対策用<br>電解水生成装置。</span></span>
+                        </a>
+					</li>
+					<li class="frame09">
+                    	<a href="http://www.morinagamilk-goldsign.com/" target="_blank" onclick="_gaq.push(['_trackEvent', 'outlink', this.href]);">
+						<span class="label">検査薬・<br>体外診断用医薬品<br><img src="/resources/images/icn/blank.png" alt="新規ウィンドウ" width="14" height="10"></span>
+						<span class="frame"><img src="/products/images/cate_pht_14.jpg" alt="検査薬・体外診断用医薬品"></span>
+                        <span class="balloonTxt"><span class="txt">排卵日検査薬<br>妊娠診断補助試薬</span></span>
+                        </a>
+					</li>
+				</ul>
+			</div>
+			<div class="brandSite">
+			<h3><img src="./images/product_brand_site_txt.gif" alt="商品ブランドサイト" width="172" height="18"><span class="icnArrow"><a href="/products/#brandList">商品ブランドサイト一覧</a></span></h3>
+			<ul>
+							<li class="mr11"><a href="http://www.oishi-milk.com/" target="_blank" onclick="_gaq.push(['_trackEvent', 'outlink', this.href]);"><img src="/products/images/brand_logo_01_off.jpg" alt="森永のおいしい牛乳" width="111" height="76" class="over"></a></li>
+				<li><a href="http://mtrainier.jp/" target="_blank" onclick="_gaq.push(['_trackEvent', 'outlink', this.href]);"><img src="/products/images/brand_logo_03_off.jpg" alt="Mr.RAINIER" width="111" height="76" class="over"></a></li>
+ 			        <li><a href="http://bifidus.jp/" target="_blank" onclick="_gaq.push(['_trackEvent', 'outlink', this.href]);"><img src="/products/images/brand_logo_10_off.jpg" alt="森永ビヒダス" width="111" height="76" class="over"></a></li>
+                                	<li><a href="/products/brand/yaki/" class="clickBrandSite"><img src="/products/images/brand_logo_15_off.jpg" alt="森永の焼プリン" width="111" height="76" class="over"></a></li>
+
+                                <li><a href="http://www.pinoice.com/pc/" target="_blank" onclick="_gaq.push(['_trackEvent', 'outlink', this.href]);"><img src="/products/images/brand_logo_21_off.jpg" alt="PINO" width="111" height="76" class="over"></a></li>
+				<li><a href="http://www.creap.jp/" target="_blank" onclick="_gaq.push(['_trackEvent', 'outlink', this.href]);"><img src="/products/images/brand_logo_26_off.jpg" alt="Creap" width="111" height="76" class="over"></a></li>
+				<li><a href="http://kraftcheese.jp/" target="_blank" onclick="_gaq.push(['_trackEvent', 'outlink', this.href]);"><img src="/products/images/brand_logo_29_off.jpg" alt="KRAFT" width="111" height="76" class="over"></a></li>
+				<li class="last"><a href="http://www.hagukumi.ne.jp/" target="_blank" onclick="_gaq.push(['_trackEvent', 'outlink', this.href]);"><img src="/products/images/brand_logo_34_off.jpg" alt="はぐくみ" width="111" height="76" class="over"></a></li>
+			<!---<li class="last"><a href="http://www.morinaga-mammy.com/" target="_blank" onclick="_gaq.push(['_trackEvent', 'outlink', this.href]);"><img src="/products/images/brand_logo_08_off.jpg" alt="森永マミー" width="111" height="76" class="over"></a></li>--->
+			</ul>
+			<ul class="alphaImg">
+				<li><a href="/products/"><img src="/resources/images/btn/product.gif" alt="商品紹介へ" width="103" height="30"></a></li>
+                                <li><a href="/information2/kinousei.html" target="_blank" class="pdf"><img src="/resources/images/btn/kinousei.gif" alt="機能性表示食品一覧" height="30"></a></li>
+				<li><a href="/products/pdf/eiyoseibun.pdf" target="_blank" class="pdf"><img src="/resources/images/btn/nutrition_list.gif" alt="栄養成分一覧" height="30"></a></li>
+<!--				<li><a href=""><img src="/resources/images/btn/allergy_list.gif" alt="アレルギー物質一覧" width="145" height="30"></a></li> -->
+				<li><a href="/socialmedia/"><img src="/resources/images/btn/sns_list.gif" alt="ソーシャルメディア公式アカウント一覧" width="398" height="30"></a></li>
+			</ul>
+			</div>
+		<!--/.products--></div>
+
+		<div class="campaign clearfix">
+			<div class="leftCont">
+				<h2><img src="./images/campaign_title.gif" alt="キャンペーン" width="209" height="34"></h2>
+				<p><img src="./images/campaign_txt.gif" alt="“おいしい”に、ありがとうをそえて" width="315" height="20"></p>
+				<p class="mb40">“おいしさ”とともに、<br>ちょっとした嬉しいを食卓にお届けしたい。<br>感謝の想いを込めたキャンペーン情報を<br>ご案内します。</p>
+				<ul class="alphaImg">
+					<li><a href="/campaign/"><img src="/resources/images/btn/campaign_list.gif" alt="キャンペーン一覧へ" width="146" height="30"></a></li>
+					<li><a href="http://msclub.jp/misc/help/PC/index.html" target="_blank" onclick="_gaq.push(['_trackEvent', 'outlink', this.href]);"><img src="/resources/images/btn/msclub.gif" alt="M's Club" width="94" height="30"></a></li>
+				</ul>
+			</div>
+			<div class="rightCont">
+            	<div class="slider3itemWrap">
+				<ul class="slider3item panel panelW145">
+										<li>
+                    	<a href="http://www.morinagamilk.co.jp/products/brand/tanita/cp/" target="_blank" class="clickCamp">
+						<span class="label txt37">タニタでおいしくヘルシーキャンペーン</span>
+						<span class="frame">
+							<img src="/files/19549" alt="タニタでおいしくヘルシーキャンペーン">
+						</span>
+						                        </a>
+                    </li>
+					<li>
+                    	<a href="https://www.mtrainier.jp/cp/" target="_blank" class="clickCamp">
+						<span class="label txt37">マウントレーニア　必ずもらえるしあわせギフトキャンペーン</span>
+						<span class="frame">
+							<img src="/files/19498" alt="マウントレーニア　必ずもらえるしあわせギフトキャンペーン">
+						</span>
+						                        </a>
+                    </li>
+					<li>
+                    	<a href="http://www.hagukumi.ne.jp/campaign/ebabygift/index.shtml" target="_blank" class="clickCamp">
+						<span class="label txt37">Ｅ赤ちゃん　やさしいミルクでうれしいギフト！キャンペーン</span>
+						<span class="frame">
+							<img src="/files/18792" alt="Ｅ赤ちゃん　やさしいミルクでうれしいギフト！キャンペーン">
+						</span>
+						                        </a>
+                    </li>
+					<li>
+                    	<a href="http://www.hagukumi.ne.jp/campaign/onlyonebook/index.shtml" target="_blank" class="clickCamp">
+						<span class="label txt37">森永　世界にひとつだけの絵本プレゼント</span>
+						<span class="frame">
+							<img src="/files/18810" alt="森永　世界にひとつだけの絵本プレゼント">
+						</span>
+						                        </a>
+                    </li>
+
+				</ul>
+                </div>
+			</div>
+		<!--/.campaign--></div>
+
+		<div class="idea clearfix">
+			<div class="leftCont">
+				<h2><img src="./images/idea_title.gif" alt="もりにゅうレシピ" width="297" height="46"></h2>
+				<p><img src="./images/idea_txt.gif" alt="ひらめきから生まれる“おいしさ”" width="316" height="19"></p>
+				<p class="mb40">森永乳業の商品を使った、<br>食卓がもっと楽しくなる<br>アイデアレシピをお届けします。</p>
+				<ul class="alphaImg">
+					<li><a href="/recipe/"><img src="/resources/images/btn/recipe_list.gif" alt="レシピ一覧へ" width="110" height="30"></a></li>
+				</ul>
+			</div>
+			<div class="rightCont">
+				<ul class="panel panelW140">
+					<!--トップページ もりにゅうレシピ-->
+					<li>
+                    	<a href="/recipe/detail/recipe.php?id=94266" target="_blank">
+						<span class="label txt30">電子レンジで簡単ピラフ</span>
+						<span class="frame"><img src="/files/19635" alt=""></span>
+                        <span class="balloonTxt"><span class="txt">パルメザンチーズをだし代わりに。風味もコクも断然アップ！</span></span>
+                        <span class="balloonSIcn">
+                            <span class="balloonRecipe"><img src="/resources/images/balloon/recipe.png" alt="今月のレシピ"></span>
+                        </span>
+                        </a>
+                    </li>
+					<li>
+                    	<a href="/recipe/detail/recipe.php?id=94192" target="_blank">
+						<span class="label txt30">レモン酢飯のアボカドモッツァ丼</span>
+						<span class="frame"><img src="/files/19638" alt=""></span>
+                        <span class="balloonTxt"><span class="txt">目にも爽やか。レモンのフレッシュな香りが食欲をそそります</span></span>
+                        <span class="balloonSIcn">
+                            <span class="balloonRecipe"><img src="/resources/images/balloon/recipe.png" alt="今月のレシピ"></span>
+                        </span>
+                        </a>
+                    </li>
+					<li>
+                    	<a href="/recipe/detail/recipe.php?id=94000" target="_blank">
+						<span class="label txt30">伸び～るチーズのカプレーゼご飯</span>
+						<span class="frame"><img src="/files/19641" alt=""></span>
+                        <span class="balloonTxt"><span class="txt">定番のカプレーゼが、ごはんに変身!?</span></span>
+                        <span class="balloonSIcn">
+                            <span class="balloonRecipe"><img src="/resources/images/balloon/recipe.png" alt="今月のレシピ"></span>
+                        </span>
+                        </a>
+                    </li>
+					<li>
+                    	<a href="/recipe/detail/recipe.php?id=94265" target="_blank">
+						<span class="label txt30">爽やかレモンのスコップレアチーズ</span>
+						<span class="frame"><img src="/files/19644" alt=""></span>
+                        <span class="balloonTxt"><span class="txt">あと口さっぱり。夏こそ食べたいひんやりスイーツ</span></span>
+                        <span class="balloonSIcn">
+                            <span class="balloonRecipe"><img src="/resources/images/balloon/recipe.png" alt="今月のレシピ"></span>
+                        </span>
+                        </a>
+                    </li>
+
+				</ul>
+			</div>
+		<!--/.idea--></div>
+
+		<div class="cm clearfix">
+			<div class="leftCont">
+				<h2><img src="./images/cm_title.gif" alt="おいしさのヒミツ・CM" width="322" height="29"></h2>
+				<p><img src="./images/cm_txt.gif" alt="知っておきたい食のコト" width="244" height="20"></p>
+				<p class="mb40">それぞれの商品に込められた、森永乳業の<br>想いや“おいしさ”のヒミツをお伝えします。</p>
+				<ul class="alphaImg">
+					<li><a href="/learn_enjoy/"><img src="/resources/images/btn/cm_list.gif" alt="おいしさのヒミツ・CM一覧へ" width="200" height="30"></a></li>
+				</ul>
+			</div>
+			<div class="rightCont">
+				<ul class="panel panelW140">
+					<li class="frame01">
+                    	<a href="/learn_enjoy/cm/">
+						<span class="label">CM・広告</span>
+						<span class="frame"><img src="./images/cm_img_01.jpg" alt="CM・広告"></span>
+                        <span class="balloonTxt"><span class="txt">森永乳業のCMや広告をご紹介。<br>TVCMやラジオCM、ポスター広告などもご覧いただけます。</span></span>
+                        <span class="balloonSIcn">
+                            <span class="balloonCm"><img src="/resources/images/balloon/cm.png" alt="CM"></span>
+                        </span>
+                        </a>
+                    </li>
+					<li>
+                    	<a href="/learn_enjoy/factory_tour/">
+						<span class="label">工場見学の<br>ご案内</span>
+						<span class="frame"><img src="./images/cm_img_02.jpg" alt="工場見学のご案内"></span>
+                        <span class="balloonTxt"><span class="txt">牛乳やアイスクリームなど、お客さまのお手元に届く商品ができるまでの工程を、ぜひお楽しみください。</span></span>
+                        </a>
+                    </li>
+					<li>
+                    	<a href="/learn_enjoy/mskitchen/">
+						<span class="label">M’S Kitchen</span>
+						<span class="frame"><img src="./images/cm_img_03.jpg" alt="M’S Kitchen"></span>
+                        <span class="balloonTxt"><span class="txt">出張スタイルの料理講習会を開催しています！<br>健やかで楽しい食生活にお役立ていただけるような活動を目指しています</span></span>
+                        </a>
+                    </li>
+					<li class="last">
+                    	<a href="/learn_enjoy/quality_safety/">
+						<span class="label">品質・安全</span>
+						<span class="frame"><img src="./images/cm_img_04.jpg" alt="品質・安全"></span>
+                        <span class="balloonTxt"><span class="txt">「おいしさを届ける」品質管理へのこだわり。<br>森永乳業がお客さまへお届けする商品の品質・安全への取り組みをご紹介。</span></span>
+                        </a>
+                    </li>
+					<li>
+                    	<a href="/learn_enjoy/knowledge/">
+						<span class="label">「乳」の知識</span>
+						<span class="frame"><img src="./images/cm_img_05.jpg" alt="「乳」の知識"></span>
+                        <span class="balloonTxt"><span class="txt">牛乳や乳製品の秘密にせまり、森永乳業がお届けしている「乳」に関する知識をご紹介！</span></span>
+                        </a>
+                    </li>
+					<li>
+                    	<a href="/learn_enjoy/kidzania/">
+						<span class="label">キッザニア<br>「ミルクハウス」</span>
+						<span class="frame"><img src="./images/cm_img_07.jpg" alt="キッザニア「ミルクハウス」"></span>
+                        <span class="balloonTxt"><span class="txt">キッザニア東京・甲子園「ミルクハウス」パビリオンのご紹介です。どんな仕事が体験できるのかな？！</span></span>
+                        </a>
+                    </li>
+<li>
+                    	<a href="/learn_enjoy/volleyball/">
+						<span class="label">ツアーオブ<br>バレーボール</span>
+						<span class="frame"><img src="./images/cm_img_08.jpg" alt="ツアーオブバレーボール"></span>
+                        <span class="balloonTxt"><span class="txt">バレーボールを頑張る女子中学生を応援する「森永乳業杯 ツアーオブバレーボール」の活動をご紹介！</span></span>
+                        </a>
+                    </li>
+<li>
+                    	<a href="/learn_enjoy/mary/">
+						<span class="label">メアリと魔女の花<br>タイアップ</span>
+						<span class="frame"><img src="./images/cm_img_09.jpg" alt="メアリと魔女の花タイアップ"></span>
+                        <span class="balloonTxt"><span class="txt">森永乳業は、映画「メアリと魔女の花」を応援しています。</span></span>
+                        </a>
+                    </li>
+<li>
+                    	<a href="/learn_enjoy/legoland/">
+						<span class="label">LEGOLAND&reg; Japan</span>
+						<span class="frame"><img src="./images/cm_img_10.jpg" alt="レゴランド"></span>
+                        <span class="balloonTxt"><span class="txt">LEGOLAND&reg; Japanのオフィシャルマーケティングパートナーとして、<br>
+子供たちの想像力を育むお手伝いをしていきます！</span></span>
+                        </a>
+                    </li>
+<li>
+                    	<a href="/learn_enjoy/ice-cream-story/">
+						<span class="label">アイスクリームストーリー</span>
+						<span class="frame"><img src="./images/cm_img_11.jpg" alt="アイスクリームストーリー"></span>
+                        <span class="balloonTxt"><span class="txt">森永乳業のアイスクリームのおいしさのヒミツや歴史をご紹介！</span></span>
+                        </a>
+                    </li>
+
+
+				</ul>
+			</div>
+		<!--/.cm--></div>
+
+		<div class="customer clearfix">
+			<div class="leftCont">
+				<h2><img src="./images/customer_title.gif" alt="お客さま相談室" width="250" height="37"></h2>
+				<p><img src="./images/customer_txt.gif" alt="お客さまの満足のために" width="254" height="20"></p>
+				<p class="mb40">ご質問やご意見を、お気軽にお寄せください。<br>よりよい商品・サービスに活かしてまいります。</p>
+				<ul class="alphaImg">
+					<li><a href="/customer/"><img src="/resources/images/btn/customer.gif" alt="お客さま相談室へ" width="135" height="30"></a></li>
+				</ul>
+			</div>
+			<div class="rightCont">
+				<ul class="panel panelW140">
+					<li>
+                    	<a href="/contact/">
+						<span class="label">お問い合わせ</span>
+						<span class="frame"><img src="./images/customer_img_01.jpg" alt="お問い合わせ"></span>
+                        </a>
+                    </li>
+					<li>
+                    	<a href="/customer/faq/">
+						<span class="label">よくあるQ&amp;A</span>
+						<span class="frame"><img src="./images/customer_img_02.jpg" alt="よくあるQ&amp;A"></span>
+                        </a>
+                    </li>
+					<li>
+                    	<a href="/customer/voice/">
+						<span class="label">お客さまの声を活<br>かしました</span>
+						<span class="frame"><img src="./images/customer_img_03.jpg" alt="お客さまの声を活かしました"></span>
+
+                        </a>
+                    </li>
+					<li class="last">
+                    	<a href="/customer/policy/">
+						<span class="label">満足度向上への<br>取り組み</span>
+						<span class="frame"><img src="./images/customer_img_04.jpg" alt="満足度向上への取り組み"></span>
+                        </a>
+                    </li>
+				</ul>
+			</div>
+		<!--/.customer--></div>
+
+		<div class="corporate clearfix">
+			<div class="leftCont">
+				<h2><img src="./images/corporate_title.gif" alt="企業情報" width="162" height="35"></h2>
+				<p><img src="./images/corporate_txt.gif" alt="かがやく笑顔のために" width="250" height="20"></p>
+				<p class="mb40">森永乳業は、心と身体の両面から<br>お客さまの健康を支え、<br>幸せな生活に貢献することで、<br>笑顔あふれる豊かな社会をつくります。</p>
+				<ul class="alphaImg">
+					<li><a href="/corporate/"><img src="/resources/images/btn/corporate.gif" alt="企業情報へ" width="100" height="30"></a></li>
+				</ul>
+			</div>
+			<div class="rightCont">
+				<ul class="panel panelW140">
+					<li>
+                    	<a href="/corporate/company/">
+						<span class="label">会社案内</span>
+						<span class="frame"><img src="./images/corporate_img_01.jpg" alt="会社案内"></span>
+                        </a>
+                    </li>
+					<li>
+                    	<a href="/corporate/ir/">
+						<span class="label">株主・投資家情報</span>
+						<span class="frame"><img src="./images/corporate_img_03.jpg" alt="株主・投資家情報"></span>
+                        </a>
+                    </li>
+					<li>
+                    	<a href="/corporate/csr/">
+						<span class="label">CSRの取り組み</span>
+						<span class="frame"><img src="./images/corporate_img_02.jpg" alt="CSRの取り組み"></span>
+                        </a>
+                    </li>
+					<li class="last">
+                    	<a href="/mn-recruit/">
+						<span class="label">採用情報</span>
+						<span class="frame"><img src="./images/corporate_img_06.jpg" alt="採用情報"></span>
+                        </a>
+                    </li>
+					<li class="frame01">
+                    	<a href="/research/">
+						<span class="label">研究開発</span>
+						<span class="frame"><img src="./images/corporate_img_05.jpg" alt="研究開発"></span>
+
+                        </a>
+                    </li>
+					<li>
+                    	<a href="/corporate/release/">
+						<span class="label">ニュースリリース</span>
+						<span class="frame"><img src="./images/corporate_img_04.jpg" alt="ニュースリリース"></span>
+                        </a>
+                    </li>
+				</ul>
+			</div>
+		<!--/.corporate--></div>
+
+		<div class="bnr">
+			<ul class="clearfix alphaImg">
+				<li><a href="/corporate/announce/"><img src="./images/bnr_01.jpg" alt="東日本大震災への取り組みついて" width="210" height="50"></a></li>
+				<li><a href="/information2/151110.html"target="_blank"><img src="/images/bnr_08.jpg" alt="『森永乳業健康宣言』" width="210" height="50"></a></li>
+				<li><a href="/information2/170116.html"target="_blank"><img src="/images/bnr_09.jpg" alt="『消費者志向自主宣言』" width="210" height="50"></a></li>
+				<li class="last"><a href="/pinkribbon/"><img src="./images/bnrs_pinkribbon_130906.jpg" alt="ピンクリボン活動" width="210" height="50"></a></li>
+				<li><a href="http://www.milkjapan.net/" target="_blank" onclick="_gaq.push(['_trackEvent', 'outlink', this.href]);"><img src="./images/bnr_03.jpg" alt="MILK JAPAN" width="210" height="50"></a></li>
+				<li><a href="http://www.morinaga.com/nasu2016/" target="_blank" onclick="_gaq.push(['_trackEvent', 'outlink', this.href]);"><img src="./images/bnr_06.jpg" alt="森と食の探検隊" width="210" height="50"></a></li>
+				<li><a href="http://chonaiflora.com/" target="_blank" onclick="_gaq.push(['_trackEvent', 'outlink', this.href]);"><img src="./images/bnr_07.jpg" alt="腸内フローラ" width="210" height="50"></a></li>
+				<!--li class="last"><a href="http://www.kenja.tv/president/detym3zb.html" target="_blank" onclick="_gaq.push(['_trackEvent', 'outlink', this.href]);"><img src="./images/bnr_10.jpg" alt="KENJA GLOBAL" width="210" height="50"></a></li-->
+			</ul>
+		<!--/.bnr--></div>
+	<!--/ #container --></div>
+    <!--コンテンツ　ここまで-->
+
+    <!--フッター　ここから-->
+			<p class="pageTop"><img src="/resources/images/btn/page_top.png" alt="ページトップ" width="60" height="60"></p>		<div id="footer">		<div id="footerNavWrap">		<div id="footerNav" class="clearfix">			<dl class="heightLine-footNav col2">				<dt><a href="/products/">商品紹介</a></dt>				<dd><a href="/products/new/">新商品</a></dd>				<dd><a href="/products/icecream/">アイスクリーム</a></dd>				<dd><a href="/products/milk/">牛乳類</a></dd>				<dd><a href="/products/dryfood/">クリープ・れん乳・その他食品</a></dd>				<dd><a href="/products/drink/">飲料</a></dd>				<dd><a href="/products/cheese/">チーズ・バター</a></dd>				<dd><a href="/products/yoghurt/">ヨーグルト</a></dd>				<dd><a href="/products/babyfood/">育児・栄養食品</a></dd>				<dd><a href="/products/dessert/">デザート</a></dd>			</dl>			<dl class="heightLine-footNav">				<dt><a href="/campaign/">キャンペーン</a></dt>				<dd><a href="/recipe/">レシピ</a></dd>			</dl>			<dl class="heightLine-footNav">				<dt><a href="/learn_enjoy/">おいしさのヒミツ・CM</a></dt>				<dd><a href="http://movie.morinagamilk.co.jp/">CM・広告</a></dd>				<dd><a href="/learn_enjoy/factory_tour/">工場見学のご案内</a></dd>				<dd><a href="/learn_enjoy/mskitchen/">出張料理講習会「M'S Kitchen」</a></dd>				<dd><a href="/learn_enjoy/quality_safety/">品質・安全</a></dd>				<dd><a href="/learn_enjoy/knowledge/">「乳」の知識</a></dd>				<dd><a href="/learn_enjoy/kidzania/">キッザニア「ミルクハウス」</a></dd>                                <dd><a href="/learn_enjoy/volleyball/">ツアーオブバレーボール</a></dd>                                <dd><a href="/learn_enjoy/mary/">映画「メアリと魔女の花」タイアップ</a></dd>                                <dd><a href="/learn_enjoy/legoland/">LEGOLAND&reg; Japan</a></dd>                                <dd><a href="/learn_enjoy/ice-cream-story/">アイスクリームストーリー</a></dd>			</dl>			<dl class="heightLine-footNav">				<dt><a href="/customer/">お客さま相談室</a></dt>				<dd><a href="/customer/faq/">よくあるQ&amp;A</a></dd>				<dd><a href="/customer/info/">相談室からのお知らせ</a></dd>				<dd><a href="/customer/voice/">お客さまの声を活かしました</a></dd>				<dd><a href="/customer/policy/">お客さま満足度向上への取り組み</a></dd>			</dl>			<dl class="last heightLine-footNav">				<dt><a href="/corporate/">企業情報</a></dt>				<dd><a href="/corporate/company/">会社案内</a></dd>				<dd><a href="/corporate/ir/">株主・投資家情報</a></dd>				<dd><a href="/corporate/csr/">CSRの取り組み</a></dd>				<dd><a href="/mn-recruit/">採用情報</a></dd>				<dd><a href="/research/">研究開発</a></dd>				<dd><a href="/corporate/release/">ニュースリリース</a></dd>			</dl>			<ul id="sns">				<li><a href="http://www.facebook.com/share.php?u=http://www.morinagamilk.co.jp/" onclick="window.open(this.href, 'window', 'width=550, height=450,personalbar=0,toolbar=0,scrollbars=1,resizable=1'); return false;"><img src="/resources/images/footer/sns_fb.gif" alt="facebook" width="21" height="21"></a></li>				<li><a href="http://twitter.com/share?url=http://www.morinagamilk.co.jp/"><img src="/resources/images/footer/sns_twi.gif" alt="twitter" width="21" height="21"></a></li>				<li><a href="https://plus.google.com/share?url=http://www.morinagamilk.co.jp/" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="/resources/images/footer/sns_google.gif" alt="google+" width="21" height="21"></a></li>				<li class="last"><a href="javascript:void(0);" onclick="window.open('http://mixi.jp/share.pl?u=http://www.morinagamilk.co.jp/&k=f62d65c42a7510b35d31dd3b42f5413340526feb','share',['width=632','height=456','location=yes','resizable=yes','toolbar=no','menubar=no','scrollbars=no','status=no'].join(','));"><img src="/resources/images/footer/sns_mixi.gif" alt="mixi" width="21" height="21"></a></li>			</ul>		</div>		</div>		<div id="footerCopyWrap">		<div id="footerCopy">			<ul>				<li><a href="/terms_of_use/">ご利用規約</a></li>				<li><a href="/privacy_policy/">プライバシーポリシー</a></li>				<li><a href="/sitemap/">サイトマップ</a></li>				<li><a href="/contact/">お問い合わせ</a></li>				<li><a href="/link/">リンク</a></li>				<li><a href="/socialmedia/">公式アカウント一覧</a></li>				<li><a href="/english/">English</a></li>			</ul>			<p class="logo"><a href="/"><img src="/resources/images/footer/logo.gif" alt="森永乳業" width="116" height="21"></a></p>			<p class="copy">Copyright &copy; MORINAGA MILK INDUSTRY CO.,LTD. All Rights Reserved.</p>		</div>		</div>	<!--/ #footer --></div>
+    <!--フッター　ここまで-->
+    
+<!--/ #wrapper --></div>
+</body>
+</html>

@@ -1,0 +1,412 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja"><!-- InstanceBegin template="/Templates/base.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<link rel="shortcut icon" href="favicon.ico" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>三井松島産業株式会社</title>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="head" -->
+<meta name="robots" content="index,follow" />
+<meta name="keywords" content="三井松島産業,株価,株式会社,福岡,貸し会議室,鉱業,石炭,建機材,不動産,スーパー,船舶,倉庫" />
+<meta name="description" content="三井松島産業株式会社は福岡市中央区の卸商社です。「人と社会の役に立つ」という経営理念のもと、より豊かで潤いのある社会つくりに向け、石炭などの燃料、建機材、不動産、船舶・倉庫、スーパー事業を展開します。" />
+
+<link href="css/default.css" rel="stylesheet" type="text/css" />
+<link href="css/base2.css" rel="stylesheet" type="text/css" />
+<link href="css/top.css" rel="stylesheet" type="text/css" />
+<!--<link href="css/slide.css" rel="stylesheet" type="text/css" />-->
+<link href="js/jquery.bxslider.css" rel="stylesheet" type="text/css" />
+<link rel="alternate stylesheet" type="text/css" href="css/font-s.css" title="small" />
+<link rel="alternate stylesheet" type="text/css" href="css/font-n.css" title="normal" />
+<link rel="alternate stylesheet" type="text/css" href="css/font-l.css" title="large" />
+<script type="text/javascript" src="js/styleswitcher.js"></script>
+
+<script type="Text/Javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js">
+</script>
+<!--<script type="Text/Javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js">
+</script>-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script type="text/javascript" src="js/simplelib.js"></script>
+<!-- slide -->
+<script type="text/javascript" src="js/jquery.sudoSlider.js"></script>
+<script type="text/javascript" src="js/jquery.simplemodal.js"></script>
+<script type="text/javascript" src="js/ajax_home.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		var sudoSlider =$("#slide").sudoSlider({ 
+			prevNext: false,
+			fade: true,
+			auto:true,
+         afterAniFunc: function (t) {
+            if (t == sudoSlider.getValue("totalSlides")) {
+               sudoSlider.stopAuto();
+            }
+         }
+		});
+	});	
+</script>
+<!-- slide -->
+<script type="text/javascript" src="js/jquery.bxslider.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$('.bxslider').bxSlider({
+		auto: true,
+		speed: 600,
+		pause: 7000,
+		controls: false,
+		buildPager: function(slideIndex){
+    		switch(slideIndex){
+      			case 0:
+        			return '<img src="img2/thum01.jpg" width="144" height="54" alt="" />';
+      			case 1:
+        			return '<img src="img2/thum02.jpg" width="144" height="54" alt="" />';
+      			case 2:
+        			return '<img src="img2/thum03.jpg" width="144" height="54" alt="" />';
+      			case 3:
+        			return '<img src="img2/thum04.jpg" width="144" height="54" alt="" />';
+      			case 4:
+        			return '<img src="img2/thum05.jpg" width="144" height="54" alt="" />';
+      			case 5:
+        			return '<img src="img2/thum06.jpg" width="144" height="54" alt="" />';
+    		}
+}
+	});
+});
+</script>
+<script type="text/javascript" src="js/plugins/button.js"></script>
+<script type="text/javascript" src="js/plugins/scroll.js"></script>
+<script type="text/javascript" src="js/plugins/tab.js"></script>
+<script type="text/javascript">
+$(function(){
+	var agent = navigator.userAgent;
+	if(agent.search(/iPhone/) != -1 || agent.search(/iPod/) != -1 || agent.search(/Android/) != -1){
+			redirect();
+	}
+});
+function redirect(){
+	if(window.confirm('スマートフォンサイトを表示しますか？')){
+		location.href = "sp/index.php";
+	}
+}
+</script>
+<!-- InstanceEndEditable -->
+<!-- ga -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-37774259-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- /ga -->
+<!-- InstanceParam name="brand" type="boolean" value="true" -->
+<!-- InstanceParam name="pankuzu" type="boolean" value="false" -->
+<!-- InstanceParam name="2column" type="boolean" value="true" -->
+<!-- InstanceParam name="1column" type="boolean" value="true" -->
+<!-- InstanceParam name="business" type="boolean" value="true" -->
+<!-- InstanceParam name="subMenuList" type="boolean" value="false" -->
+<!-- InstanceParam name="companyMenu" type="boolean" value="false" -->
+<!-- InstanceParam name="irMenu" type="boolean" value="true" -->
+<!-- InstanceParam name="businessMenu" type="boolean" value="false" -->
+<!-- InstanceParam name="navHome" type="boolean" value="true" -->
+<!-- InstanceParam name="navCompany" type="boolean" value="false" -->
+<!-- InstanceParam name="navIr" type="boolean" value="false" -->
+<!-- InstanceParam name="navBusiness" type="boolean" value="false" -->
+<!-- InstanceParam name="navNews" type="boolean" value="false" -->
+<!-- InstanceParam name="navRecruit" type="boolean" value="false" -->
+<!-- InstanceParam name="navOther" type="boolean" value="false" -->
+<!-- InstanceParam name="SMopen01Class" type="text" value="handle" -->
+<!-- InstanceParam name="SMopen02Class" type="text" value="handle" -->
+<!-- InstanceParam name="SMOpen03Class" type="text" value="handle" -->
+<!-- InstanceParam name="SMOpen04Class" type="text" value="handle" -->
+<!-- InstanceParam name="SMOpen05Class" type="text" value="handle" -->
+<!-- InstanceParam name="SMOpen06Class" type="text" value="handle" -->
+<!-- InstanceParam name="SMOpen07Class" type="text" value="handle" -->
+<!-- InstanceParam name="solar" type="boolean" value="true" -->
+<!-- InstanceParam name="care" type="boolean" value="true" -->
+<!-- InstanceParam name="hanabishi" type="boolean" value="true" -->
+<!-- InstanceParam name="hayawakari" type="boolean" value="true" -->
+<!-- InstanceParam name="OptionalMinato" type="boolean" value="true" -->
+</head>
+
+<body>
+
+<div id="wrap">
+
+<div id="head" class="cf">
+<h1 class="logo"><a href="index.php"><img src="img_common/logo.jpg" alt="三井松島産業株式会社" width="239" height="88" /></a></h1>
+<div class="headNav cf">
+<ul class="headMenu1 cf">
+<li><a href="sitemap/index.html" class="hover"><img src="img_common/head_btn01.gif" alt="サイトマップ" width="76" height="15" /></a></li>
+<li><a href="inquiry/index.php" class="hover"><img src="img_common/head_btn02.gif" alt="お問い合わせ" width="76" height="15" /></a></li>
+<li class="headBtnLast"><a href="http://www.mitsui-matsushima.co.jp/english/index.php" class="hover"><img src="img_common/head_btn03.gif" alt="ENGLISH" width="76" height="15" /></a></li>
+</ul><!-- /.headMenu1 -->
+<div class="headMenu2 cf cb">
+<p><img src="img_common/search_txt.jpg" alt="サイト内検索" width="57" height="10" /></p>
+<form action="http://www.google.com/search">
+<input type="hidden" name="hl" value="ja" />
+<input type="hidden" name="ie" value="UTF-8">
+<input type="hidden" name="oe" value="UTF-8">
+<input type="hidden" value="http://www.mitsui-matsushima.co.jp/" name="as_sitesearch" />
+<input type="text" name="q" class="headFTE" maxlength="256" value="" />
+<input type="image" src="img_common/search_btn.jpg" />
+</form>
+<p><img src="img_common/size_txt.jpg" alt="文字サイズ" width="48" height="10" /></p>
+<ol class="cf">
+<li class="headFontSizeSmall"><a href="javascript:void(0);" onclick="setActiveStyleSheet('small'); return false;"><span>小</span></a></li>
+<li class="headFontSizeNormal"><a href="javascript:void(0);" onclick="setActiveStyleSheet('normal'); return false;"><span>中</span></a></li>
+<li class="headFontSizeLarge sizeBtnLast"><a href="javascript:void(0);" onclick="setActiveStyleSheet('large'); return false;"><span>大</span></a></li>
+</ol>
+</div><!-- /.headMenu2 -->
+</div><!-- /.headNav -->
+</div><!-- /#head -->
+
+<ul id="nav" class="cf">
+<li><img src="img_common/nav_btn01-over.jpg" alt="ホーム" width="160" height="42" /></li>
+<li><a href="company/index.html" class="rollOver"><img src="img_common/nav_btn02.jpg" alt="会社案内" width="158" height="42" /></a></li>
+<li><a href="ir/index.php" class="rollOver"><img src="img_common/nav_btn03.jpg" alt="投資家の皆様へ" width="158" height="42" /></a></li>
+<li><a href="business/index.html" class="rollOver"><img src="img_common/nav_btn04.jpg" alt="事業案内" width="158" height="42" /></a></li>
+<li><a href="news/index.php" class="rollOver"><img src="img_common/nav_btn05.jpg" alt="ニュースリリース" width="158" height="42" /></a></li>
+<li><a href="recruit/index.html" class="rollOver"><img src="img_common/nav_btn06.jpg" alt="採用情報" width="158" height="42" /></a></li>
+</ul>
+<!-- /#nav -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="brand">
+<!-- InstanceBeginEditable name="brand" -->
+<!--<div id="slide" class="slider">
+<ul>				
+<li><img src="img2/slide_ex.jpg" alt="" width="950" height="305" /></li>
+</ul>
+</div>
+-->
+
+<div class="slider">
+<ul class="bxslider">
+<li><a class="hover" href="business/energy/"><img src="img2/slide01.jpg" width="950" height="310" alt="" /></a></li>
+<li><a class="hover" href="business/mmenergy/"><img src="img2/slide02.jpg" width="950" height="310" alt="" /></a></li>
+<li><a class="hover" href="business/straw/"><img src="img2/slide03.jpg" width="950" height="310" alt="" /></a></li>
+<li><a class="hover" href="business/hanabishi/"><img src="img2/slide04.jpg" width="950" height="310" alt="" /></a></li>
+<li><a class="hover" href="business/facilities/"><img src="img2/slide05.jpg" width="950" height="310" alt="" /></a></li>
+<li><a class="hover" href="business/care/"><img src="img2/slide06.jpg" width="950" height="310" alt="" /></a></li>
+</ul><!-- /.slider_parent -->
+</div>
+
+<!-- InstanceEndEditable --></div>
+<!-- /#brand -->
+
+
+<div id="cont" class="cf">
+
+
+
+
+<div id="main">
+<!-- InstanceBeginEditable name="2column" -->
+<div class="tabSet">
+<div class="topTitBg cf">
+<h2 class="topTit01"><img src="img2/tit01.gif" alt="ニュースリリース" width="119" height="27" /></h2>
+<ul class="topNewsTab cf">
+<li><a class="tab" href="#topNewsAll" onclick="AjaxJsonread_home('All');"><img src="img2/tab_all.gif" width="66" height="20" alt="全て" /></a></li>
+<li><a class="tab" href="#topNewsNotice" onclick="AjaxJsonread_home('Notice');"><img src="img2/tab_notice.gif" width="66" height="20" alt="お知らせ" /></a></li>
+<li><a class="tab" href="#topNewsIr" onclick="AjaxJsonread_home('Ir');"><img src="img2/tab_ir.gif" alt="IR情報" width="66" height="20" /></a></li>
+<li><a class="tab" href="#topNewsOther" onclick="AjaxJsonread_home('Other');"><img src="img2/tab_other.gif" alt="その他" width="66" height="20" /></a></li>
+</ul>
+<ul class="topNewsBtn cf">
+<li><a class=" hover" href="news/index.php"><img src="img_common/btn_list.jpg" alt="一覧を見る" width="102" height="20" /></a></li>
+
+</ul>
+</div>
+<ul class="topNewsList" id="replacer">
+</ul>
+</div>
+
+<h2 class="topBusTit"><img src="img2/tit04.jpg" width="75" height="24" alt="事業案内" /></h2>
+<p class="topBusMTit"><img src="img2/mtit01.jpg" width="616" height="22" alt="エネルギー事業部門" /></p>
+<div class="topBusListCtr">
+<ul class="topBusList cf">
+<li><a class="hover" href="business/energy/index.html"><img src="img2/img01.jpg" width="200" height="130" alt="燃料（石炭販売・生産）事業" /></a></li>
+<li><a class="hover" href="business/mmenergy/"><img src="img2/img02.jpg" width="200" height="130" alt="再生可能エネルギー事業" /></a></li>
+<li><a class="hover" href="business/mmnagata/index.html"><img src="img2/img03.jpg" width="200" height="130" alt="選炭、環境資源リサイクル設備事業" /></a></li>
+</ul>
+</div>
+
+<p class="topBusMTit"><img src="img2/mtit02.jpg" width="616" height="22" alt="生活関連事業部門" /></p>
+<div class="topBusListCtr02">
+<ul class="topBusList cf">
+<li><a class="hover" href="business/cst/index.html"><img src="img2/img11.jpg" width="200" height="130" alt="電子部品分野" /></a></li>
+<li><a class="hover" href="business/straw/index.html"><img src="img2/img04.jpg" width="200" height="130" alt="飲料用資材事業" /></a></li>
+<li><a class="hover" href="business/hanabishi/index.html"><img src="img2/img05.jpg" width="200" height="130" alt="衣料品事業部" /></a></li>
+<li><a class="hover" href="business/facilities/index.html"><img src="img2/img06.jpg" width="200" height="130" alt="施設運営委託事業" /></a></li>
+<li><a class="hover" href="business/care/index.html"><img src="img2/img07.jpg" width="200" height="130" alt="介護事業" /></a></li>
+</ul>
+</div>
+
+<p class="topBusMTit"><img src="img2/mtit03.jpg" width="616" height="22" alt="その他" /></p>
+<div class="topBusListCtr02">
+<ul class="topBusList cf">
+<li><a class="hover" href="business/subsidiarie/stevedore/index.html"><img src="img2/img08.jpg" width="200" height="130" alt="港湾事業" /></a></li>
+<li><a class="hover" href="business/subsidiarie/electrical/index.html"><img src="img2/img12.jpg" width="200" height="130" alt="産業用電気機器事業" /></a></li>
+<li><a class="hover" href="business/subsidiarie/resources/index.html"><img src="img2/img13.jpg" width="200" height="130" alt="炭鉱技術移転事業" /></a></li>
+</ul>
+</div>
+
+<div class="topCompanyCtrl">
+<h3 class="topTit02"><img src="img2/tit02.gif" alt="会社案内" width="68" height="24" /></h3>
+<div><img src="img2/img09.jpg" width="300" height="90" alt="" /></div>
+<ul class="topSubMenu">
+<li><a href="company/message/index.html">トップメッセージ</a></li>
+<li><a href="company/philosophy/index.html">経営の基本理念</a></li>
+<li><a href="company/outline/index.html">会社概要</a></li>
+<li><a href="company/history/index.html">沿革</a></li>
+<li><a href="company/officer/index.html">役員紹介</a></li>
+<li><a href="company/organization/index.html">組織図</a></li>
+<li><a href="company/branch/index.html">拠点及び関連会社</a></li>
+<li><a href="company/governance/index.html">コーポレート･ガバナンス</a></li>
+<!--<li><a href="company/csr/index.html">CSR活動</a></li>-->
+</ul>
+</div>
+<div class="topIrCtrl">
+<h3 class="topTit02"><img src="img2/tit03.gif" alt="株主・投資家の皆様へ" width="141" height="24" /></h3>
+<div><img src="img2/img10.jpg" width="300" height="90" alt="" /></div>
+<ul class="topSubMenu">
+<li><a href="ir/investor/index.html">個人投資家の方へ</a></li>
+<li><a href="ir/calendar/index.php">IRカレンダー</a></li>
+<li><a href="ir/stockinfo/index.html">株主･株式情報</a></li>
+<li><a href="ir/library/index.html">IRライブラリー</a></li>
+<li><a href="ir/financial/index.html">業績･財務情報</a></li>
+<li><a href="ir/strategy/index.html">成長戦略</a></li>
+<li><a href="ir/faq/index.html">よくあるご質問</a></li>
+<li><a href="ir/policy/index.html">IRポリシー</a></li>
+<li><a href="ir/risk/index.html">免責事項</a></li>
+</ul>
+</div>
+<!-- InstanceEndEditable --> </div>
+<!-- /#main -->
+
+<div id="subMenu">
+
+
+
+
+<div id="business">
+<p><img src="img_common/business_tit.jpg" alt="事業案内" width="260" height="24" /></p>
+<div class="businessBg">
+<div class="businessImg"><img src="img_common/business_img.jpg" alt="事業案内" width="260" height="66" /></div>
+<p class="businessLTxt"><a href="business/energy/index.html">石炭販売･生産分野</a></p>
+<p class="businessSTxt"><a href="business/mmenergy/index.php">再生エネルギー分野</a>  /<br />
+ <a href="business/mmnagata/index.html">石炭関連エンジニアリング</a>/ <br />
+  <a href="business/cst/index.html">電子部品分野</a>/ <a href="business/straw/index.html">飲食用資材分野</a> / <a href="business/hanabishi/index.html">衣料品分野</a> / <br /><a href="business/facilities/index.html">施設運営受託分野</a> / <a href="business/care/index.html">介護分野</a> / <br />
+<a href="business/subsidiarie/index.html">その他</a></p>
+</div><!-- /.businessBg -->
+</div><!-- /#business -->
+<div class="sideBnrBg">
+<div><a href="ir/hayawakari/index.html" target="_blank"><img src="img_common/hayawakari_bnr.jpg" width="260" height="65" alt="“三井松島産業”はやわかり" /></a></div>
+</div>
+
+<div class="sideBnrBg">
+<div><a href="http://www.mitsui-minatoclub.jp/" target="_blank"><img src="img_common/minatoclub_bnr.jpg" width="260" height="65" alt="旧三井港倶楽部" /></a></div>
+</div>
+
+<div class="hanabishiBg">
+<div><a href="http://hanabishi-housei.co.jp/" target="_blank"><img src="img_common/hanabishi_bnr.gif" width="260" height="70" alt="THE TALOR OF JAPAN HANABISHI SINCE 1935" /></a></div>
+</div>
+<!-- /.hanabishiBg -->
+
+<div id="care">
+<div class="careImg"><a class="hover" href="http://pinegarden.jp/" target="_blank"><img src="img_common/care_bnr.jpg" alt="サービス付き高齢者向け賃貸住宅　安心の住まい　パインガーデン" width="260" height="65" /></a></div>
+</div>
+<!-- /#care -->
+<div id="solar">
+<p><a href="http://www.mitsui-matsushima.co.jp/project/estate/" class="hover" target="_blank"><img src="img2/bnr_buil.jpg" width="260" height="65" alt="大手門パインビル　貸会議室" /></a></p>
+</div>
+
+
+<div id="solar">
+<p><img src="img_common/solar_tit.jpg" alt="太陽光発電" width="260" height="24" /></p>
+<div class="solarBg">
+<table>
+<tr>
+<th scope="row"><img src="img_common/solar_mtit01.gif" width="116" height="20" alt="昨日の発電電力量" /></th>
+<td>38,167.0&nbsp;<img src="img_common/solar_unit01.gif" width="33" height="13" alt="kWh" /></td>
+</tr>
+<tr>
+<th scope="row" class="last"><img src="img_common/solar_mtit02.gif" width="103" height="26" alt="世帯消費電力に換算すると" /></th>
+<td class="last">3,816&nbsp;<img src="img_common/solar_unit02.gif" width="36" height="13" alt="世帯分" /></td>
+</tr>
+</table>
+</div>
+<!-- /.solarBg -->
+<p><a class="hover" href="business/mmenergy/index.php"><img src="img_common/solar_bnr.jpg" width="260" height="65" alt="年間発電量はこちら" /></a></p>
+</div>
+<!-- /#solar -->
+
+<div id="newIr">
+<p class="newIrTit"><img src="img_common/new_ir_tit.jpg" alt="最新IR資料" width="260" height="24" /></p>
+<script type="text/javascript" src="js/ajax_recentIr.js"></script>
+<ul class="newIrList" id="new">
+</ul>
+<div><a class="hover" href="http://stocks.finance.yahoo.co.jp/stocks/detail/?code=1518" target="_blank"><img src="img_common/new_ir_ban.jpg" alt="株価情報" /></a></div>
+</div><!-- newIr -->
+
+<div id="aboutMenu" class="subMenuBox">
+<!--<p><img src="../img_common/about_tit.jpg" alt="三井松島産業ってどんな会社？" width="260" height="40" /></p>-->
+<ul>
+<!--<li><a class="hover" href="../ir/investor/guide/index.html"><img src="../img_common/about_ban01.jpg" width="260" height="134" alt="三井松島産業クイックガイド" /></a></li>-->
+<li><a class="hover" href="http://www.jcoal.or.jp/cucoal/index.html" target="_blank"><img src="img_common/about_ban02.jpg" width="260" height="134" alt="石炭についての基礎知識" /></a></li>
+</ul>
+</div><!-- aboutMenu -->
+
+</div><!-- subMenu -->
+
+
+
+
+<div id="contArea" class="cb">
+<!-- InstanceBeginEditable name="1column" -->
+<ul class="topBnr cf">
+<li><a class="hover" href="100year/index.html"><img src="img2/bnr01.jpg" width="276" height="70" alt="百年の磁石" /></a></li>
+<li><a class="hover" href="http://www.oyadonet.com/" target="_blank"><img src="img2/bnr02.jpg" width="276" height="70" alt="お宿ねっと" /></a></li>
+<li><a class="hover" href="article/"><img src="img2/bnr04.jpg" width="276" height="70" alt="九州の礎を築いた群像" /></a></li>
+</ul>
+<!-- InstanceEndEditable -->
+</div><!-- /#contArea -->
+
+
+</div> 
+<!-- /#cont -->
+
+
+<p class="pagetop"><a href="#wrap" class="scroll"><img src="img_common/page_top_btn.gif" alt="PAGE TOP" class="pageTop" width="90" height="17" /></a></p>
+<div id="foot" class="cf">
+<p class="copyright">Copyright &copy; 2013 Mitsui Matsushima Co., Ltd. All rights reserved.</p>
+<ul class="footNav cf">
+<li><a href="privacy/index.html">プライバシーポリシー</a></li>
+<li><a href="inquiry/index.php">お問い合わせ</a></li>
+<li class="footNavLast"><a href="sitemap/index.html">サイトマップ</a></li>
+</ul>ss
+</div><!-- /#foot -->
+</div><!-- /#wrap -->
+
+</body>
+<!-- InstanceEnd --></html>

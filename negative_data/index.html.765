@@ -1,0 +1,415 @@
+<!doctype html>
+<html>
+<!-- front-page.P-->
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="sitelock-site-verification" content="9140" />
+<link rel="shortcut icon" href="/_wsp/wp-content/themes/startia/common/favicon/favicon.ico">
+<!-- This site is optimized with the Yoast SEO plugin v4.9 - https://yoast.com/wordpress/plugins/seo/ -->
+<title>スターティア株式会社 Startia, Inc.</title>
+<!-- <link rel="stylesheet" href="https://www.startia.co.jp/_wsp/wp-content/plugins/sitepress-multilingual-cms/res/css/language-selector.css?v=3.1.8.4" type="text/css" media="all" /> -->
+<style>#lang_sel {height:32px; position:relative; font-family: verdana, arial, sans-serif; display: inline-block;}
+/* hack to correct IE5.5 faulty box model */
+* html #lang_sel {width:12em; w\idth:12em;}
+/* remove all the bullets, borders and padding from the default list styling */
+#lang_sel ul, #lang_sel li {padding:0 !important; margin:0 !important; list-style-type:none !important;}
+#lang_sel li:before{content:'' !important;}
+#lang_sel ul ul {width:149px;}
+/* float the list to make it horizontal and a relative positon so that you can control the dropdown menu positon */
+#lang_sel li {float:left;width:149px;position:relative;}
+/* style the links for the top level */
+#lang_sel a, #lang_sel a:visited {display:block;font-size:11px;text-decoration:none !important; color:#444444; border:1px solid #cdcdcd; background:#fff; padding-left:10px; line-height:24px;}
+/* a hack so that IE5.5 faulty box model is corrected */
+* html #lang_sel a, * html #lang_sel a:visited {width:149px; w\idth:138px;}
+/* hide the sub levels and give them a positon absolute so that they take up no room */
+#lang_sel ul ul {visibility:hidden;position:absolute;height:0;top:25px;left:0; width:149px;border-top:1px solid #cdcdcd;}
+/* another hack for IE5.5 */
+* html #lang_sel ul ul {top:18px;t\op:19px;}
+/* style the table so that it takes no ppart in the layout - required for IE to work */
+#lang_sel table {position:absolute; top:0; left:0; border-collapse:collapse;}
+/* style the second level links */
+#lang_sel ul ul a, #lang_sel ul ul a:visited {background:#ffffff; color:#444444; height:auto; line-height:1em; padding:5px 10px;border-width:0 1px 1px 1px;}
+/* yet another hack for IE5.5 */
+* html #lang_sel ul ul a, * html #lang_sel ul ul a:visited {width:150px;w\idth:128px;}
+/* style the top level hover */
+#lang_sel a:hover, #lang_sel ul ul a:hover{color:#000; background:#eee;}
+#lang_sel :hover > a, #lang_sel ul ul :hover > a {color:#000; background:#eee;}
+#lang_sel a.lang_sel_sel{
+background:url(//www.startia.co.jp/_wsp/wp-content/plugins/sitepress-multilingual-cms/res/img/nav-arrow-down.png) #fff right no-repeat;
+color:#444;
+}
+#lang_sel a.lang_sel_sel:hover{
+text-decoration: none;
+color:#000;
+}
+/* make the second level visible when hover on first level list OR link */
+#lang_sel ul li:hover ul,
+#lang_sel ul a:hover ul{visibility:visible; }
+#lang_sel img.iclflag{width:18px;height:12px;position: relative; top: 1px;}
+#lang_sel_footer {
+margin: 0;
+padding: 7px;
+text-align: center;
+font: 11px Verdana, sans-serif;
+min-height: 15px;
+clear: both;
+background-color: #fff;
+border: 1px solid #cdcdcd;
+}
+#lang_sel_footer ul {
+list-style: none;
+margin:0;
+padding:0;
+}
+#lang_sel_footer ul li img {
+position: relative;
+top: 1px;
+width: 18px;
+height: 12px;
+}
+#lang_sel_footer ul li {
+display:inline;
+margin:0 1px 0 0;
+padding:0;
+white-space: nowrap;
+line-height: 25px;
+}
+#lang_sel_footer ul li a, #lang_sel_footer ul li a:visited {
+text-decoration: none;
+padding: 5px 10px;
+}
+#lang_sel_footer ul li a:hover, #lang_sel_footer ul li a:active {}
+#wpml_credit_footer { width: 100%; margin: 10px 0; padding: 0; text-align: center; font-size: 11px; }
+#lang_sel_list {height:32px; position:relative; z-index:99;  font-family: verdana, arial, sans-serif;}
+#lang_sel_list.lang_sel_list_vertical{width:149px;}
+/* hack to correct IE5.5 faulty box model */
+* html #lang_sel_list {width:12em; w\idth:12em;}
+/* remove all the bullets, borders and padding from the default list styling */
+#lang_sel_list ul, #lang_sel_list li {padding:0 !important; margin:0 !important; list-style-type:none !important;}
+#lang_sel_list li:before{content:'' !important;}
+#lang_sel_list ul.lang_sel_list_vertical {width:149px;}
+/* float the list to make it horizontal and a relative positon so that you can control the dropdown menu positon */
+#lang_sel_list li {float:left;position:relative;}
+#lang_sel_list.lang_sel_list_vertical li {width:149px;}
+/* style the links for the top level */
+#lang_sel_list a, #lang_sel_list a:visited {display:block;font-size:11px;text-decoration:none !important; color:#444444; background:#fff;  line-height:18px;padding-left:5px;}
+#lang_sel_list.lang_sel_list_vertical a, #lang_sel_list.lang_sel_list_vertical a:visited{border: 1px solid #cdcdcd; border-top-width: 0; padding-left:10px;}
+/* a hack so that IE5.5 faulty box model is corrected */
+* html #lang_sel_list a, * html #lang_sel_list a:visited {width:149px; w\idth:138px;}
+/* hide the sub levels and give them a positon absolute so that they take up no room */
+#lang_sel_list.lang_sel_list_vertical ul {/*visibility:hidden;position:absolute;*/height:0;top:19px;left:0; border-top:1px solid #cdcdcd;}
+/* another hack for IE5.5 */
+* html #lang_sel_list ul {top:18px;t\op:19px;}
+/* style the table so that it takes no ppart in the layout - required for IE to work */
+#lang_sel_list table {position:absolute; top:0; left:0; border-collapse:collapse;}
+/* style the second level links */
+#lang_sel_list ul a, #lang_sel_list_list ul a:visited {background:#ffffff; color:#444444; height:auto; line-height:1em;}
+#lang_sel_list.lang_sel_list_vertical ul a, #lang_sel_list_list ul a:visited {padding:3px 10px;}
+/* yet another hack for IE5.5 */
+* html #lang_sel_list ul a, * html #lang_sel_list ul a:visited {width:150px;w\idth:128px;}
+#lang_sel_list a.lang_sel_sel{
+background-image: none;
+color:#444;
+}
+#lang_sel_list a.lang_sel_sel:hover{
+text-decoration: none;
+color:#000;
+}
+/* make the second level visible when hover on first level list OR link */
+#lang_sel_list ul li:hover ul,
+#lang_sel_list ul a:hover ul{visibility:visible; }
+#lang_sel_list img.iclflag{width:18px;height:12px;position: relative; top: 1px;}
+#lang_sel.icl_rtl{
+text-align:right;
+direction: rtl;
+}
+#lang_sel.icl_rtl .lang_sel_sel{
+padding-right:14px;
+}
+/* reset menu img definitions */
+.menu-item-language img.iclflag{height:12px !important; width:18px !important; margin-bottom:0 !important; margin-right:4px;}</style>
+<meta name="description" content="スターティア株式会社は「最先端を人間らしく。」をモットーに、一見難解で分かりにくいIT技術やサービスを、人間らしく、分かりやすく提供・支援することで、そのような価値ある情報をニーズのある企業とつなぎ、「新たなビジネスの始まり」を創造することをミッションとしています。"/>
+<meta name="keywords" content="スターティア株式会社,startia,最先端,人間らしく,IT,ビジネス,企業"/>
+<link rel="canonical" href="https://www.startia.co.jp/" />
+<meta property="og:locale" content="ja_JP" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="スターティア株式会社 Startia, Inc." />
+<meta property="og:description" content="スターティア株式会社は「最先端を人間らしく。」をモットーに、一見難解で分かりにくいIT技術やサービスを、人間らしく、分かりやすく提供・支援することで、そのような価値ある情報をニーズのある企業とつなぎ、「新たなビジネスの始まり」を創造することをミッションとしています。" />
+<meta property="og:url" content="https://www.startia.co.jp/" />
+<meta property="og:site_name" content="スターティア株式会社 Startia, Inc." />
+<!-- / Yoast SEO plugin. -->
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+display: inline !important;
+border: none !important;
+box-shadow: none !important;
+height: 1em !important;
+width: 1em !important;
+margin: 0 .07em !important;
+vertical-align: -0.1em !important;
+background: none !important;
+padding: 0 !important;
+}
+</style>
+<link rel='https://api.w.org/' href='https://www.startia.co.jp/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.startia.co.jp/_wsp/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.startia.co.jp/_wsp/wp-includes/wlwmanifest.xml" /> 
+<link rel="alternate" hreflang="ja" href="https://www.startia.co.jp" />
+<link rel="alternate" hreflang="en-US" href="https://www.startia.co.jp?lang=en" />
+<!-- <link rel="stylesheet" media="all" href="/_wsp/wp-content/themes/startia/common/css/front.css"> -->
+<link rel="stylesheet" type="text/css" href="//www.startia.co.jp/_wsp/wp-content/cache/wpfc-minified/2627dc269ba0cf2c6e485734f74b2902/1500883566index.css" media="all"/>
+</head>
+<body>
+<!-- INC head -->
+<!-- //INC head -->
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PM3QNB"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PM3QNB');</script>
+<!-- End Google Tag Manager -->
+<div id="side_menu" class="notrans">
+<div class="btn_menu"><a href="#"><img src="/_wsp/wp-content/themes/startia/common/images/front_ico_x.png" alt="×"></a></div>
+<div class="search">
+<form role="search" method="get" id="searchform" class="searchform" action="https://www.startia.co.jp/">
+<div>
+<label class="screen-reader-text" for="s">検索:</label>
+<input type="text" value="" name="s" id="s" />
+<input type="submit" id="searchsubmit" value="検索" />
+</div>
+<input type='hidden' name='lang' value='ja' /></form>	</div>
+<div class="qt">
+<div id="lang_sel_list" class="lang_sel_list_horizontal">
+<ul>
+<li class="icl-ja">
+<a href="https://www.startia.co.jp" class="lang_sel_sel">
+<img  class="iclflag" src="https://www.startia.co.jp/_wsp/wp-content/plugins/sitepress-multilingual-cms/res/flags/ja.png" alt="ja"
+title="日本語"/>&nbsp;
+</a>
+</li>
+<li class="icl-en">
+<a href="https://www.startia.co.jp?lang=en" class="lang_sel_other">
+<img  class="iclflag" src="https://www.startia.co.jp/_wsp/wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png" alt="en"
+title="English"/>&nbsp;
+</a>
+</li>
+</ul>
+</div>
+<!--<span>JP</span><span>EN</span>-->
+</div>
+<nav>
+<ul id="menu-%e3%83%88%e3%83%83%e3%83%97%e3%83%9a%e3%83%bc%e3%82%b8%e3%83%a1%e3%83%8b%e3%83%a5%e3%83%bc" class="menu"><li class="company"><strong><a href="https://www.startia.co.jp/company/">企業情報</a></strong></li>
+<li class="mediaactivity"><strong><a href="https://www.startia.co.jp/mediaactivity/">メディア活動</a></strong></li>
+<li class="service"><strong><a href="https://www.startia.co.jp/service/">製品・サービス</a></strong></li>
+<li class="ir"><strong><a href="https://www.startia.co.jp/ir/">IR情報</a></strong></li>
+<li class="event"><strong><a href="https://www.startia.co.jp/event/">セミナー・イベント情報</a></strong></li>
+<li class="recruit"><strong><a href="https://www.startia.co.jp/recruit/">採用情報</a></strong></li>
+<li class="support"><strong><a href="https://www.startia.co.jp/support/">総合サポート・お問い合わせ</a></strong></li>
+</ul>	</nav>
+<!--
+<div class="ico_side_mynum">
+<a href="/lp-mynumber/" class="TopToMynumLP_l"><img src="/_wsp/wp-content/themes/startia/common/images/front_ico_mynumber03.png" alt="マイナンバー総合LP"></a>
+</div>
+-->
+<div class="front_copy">
+<ul class="front_btm_nav">
+<li><a href="https://www.startia.co.jp/security/">情報セキュリティ基本方針</a>　</li>
+<li><a href="https://www.startia.co.jp/privacy/">個人情報保護方針</a>　</li>
+<li><a href="https://www.startia.co.jp/mynumber/">特定個人情報取扱方針</a></li>
+</ul>	
+<small>Copyright &copy; 2017 Startia, Inc. All rights reserved</small>
+</div>
+</div>
+<!-- /#side_menu -->
+<div id="side_news">
+<div class="side_news_t">
+<h2>NEWS</h2><div class="btn_news"><a href="#"><img src="/_wsp/wp-content/themes/startia/common/images/front_ico_x02.png" alt="×"></a></div>
+</div>
+<div class="side_news_in">
+<strong>最新のお知らせ</strong>
+<time>2017.06.09</time>
+<p><a href="https://www.startia.co.jp/_wsp/wp-content/uploads/2017/06/c8fb3d7afe7932affd65b5a59893238a.pdf" target="_blank">「第 22 回定時株主総会招集ご通知」の一部訂正について</a></p>
+</div>
+<div class="side_news_in">
+<strong>最新のお知らせ</strong>
+<time>2017.05.30</time>
+<p><a href="https://www.startia.co.jp/_wsp/wp-content/uploads/2017/05/e24e03e99cf95384d54544c8f194fa01.pdf#zoom=111" target=”_blank”>連結株主資本等変動計算書・連結計算書類の連結注記表・株主資本等変動計算書・計算書類の個別注記表</a></p>
+</div>
+<div class="side_news_in">
+<strong>最新のお知らせ</strong>
+<time>2017.05.30</time>
+<p><a href="https://www.startia.co.jp/_wsp/wp-content/uploads/2017/05/bb9447d71e9a9adf7c94c086e20a1977.pdf#zoom=111" target=”_blank”>第22回定時株主総会招集ご通知</a></p>
+</div>
+<div class="side_news_in" style="border:none; margin:15px 20px 0px; padding:10px 15px;">
+<p>
+<a href="https://www.startia.co.jp/mediaactivity/news/">NEWS一覧はこちら</a>
+</p>
+</div>
+<ul>
+<li>
+<div class="list_txt"><time>2017.07.27</time><p>ソーシャルアイドル「notall」 0円ニューシングル「CD売るの、辞めました。」の CDやPVにARアプリCOCOAR2が活用！</p></div>
+<div class="list_btn">
+<ol>
+<li><a href="https://www.startia.co.jp/_wsp/wp-content/uploads/2017/07/170727cocoarnotall.pdf" target="new" data-title=""><img src="/_wsp/wp-content/themes/startia/common/images/ico_dl_pdf.png" alt="PDF"></a></li>						</ol>
+</div>
+</li>
+<li>
+<div class="list_txt"><time>2017.07.10</time><p><a href="http://teleworkgekkan.org/project/support.php#3275" target="_blank">スターティアは総務省などによる働き方改革の国民運動「テレワーク・デイ」に応援企業として参加いたします。 ファイル共有を安全・安心・スムーズに、法人向けファイルストレージ「セキュアSAMBA」でテレワークを推進します。</a></p></div>
+<div class="list_btn">
+<ol>
+</ol>
+</div>
+</li>
+<li>
+<div class="list_txt"><time>2017.07.03</time><p>累計発行部数1700万部超の人気漫画原作アニメ「弱虫ペダル」と 東京スカイツリータウン®のコラボイベントに ARアプリ「COCOAR2」が活用！</p></div>
+<div class="list_btn">
+<ol>
+<li><a href="https://www.startia.co.jp/_wsp/wp-content/uploads/2017/07/170703.pdf" target="new" data-title=""><img src="/_wsp/wp-content/themes/startia/common/images/ico_dl_pdf.png" alt="PDF"></a></li>						</ol>
+</div>
+</li>
+<li>
+<div class="list_txt"><time>2017.06.28</time><p>障がい者の雇用促進を目的とした新会社 「スターティアウィル株式会社」設立のお知らせ ～7月3日（月）より事業開始、千葉県千葉市にて～</p></div>
+<div class="list_btn">
+<ol>
+<li><a href="https://www.startia.co.jp/_wsp/wp-content/uploads/2017/06/170628.pdf" target="new" data-title=""><img src="/_wsp/wp-content/themes/startia/common/images/ico_dl_pdf.png" alt="PDF"></a></li>						</ol>
+</div>
+</li>
+<li>
+<div class="list_txt"><time>2017.06.22</time><p>上海の印刷企業４社と合弁会社を設立、中国でのAR（拡張現実）作成ソフトの販売強化～2017年6月に設立予定　導入企業数300社を目指す～</p></div>
+<div class="list_btn">
+<ol>
+<li><a href="https://www.startia.co.jp/_wsp/wp-content/uploads/2017/06/170622.pdf" target="new" data-title=""><img src="/_wsp/wp-content/themes/startia/common/images/ico_dl_pdf.png" alt="PDF"></a></li>						</ol>
+</div>
+</li>
+</ul>
+</div>
+<!-- /#side_news -->
+<div id="pickup">
+<div id="pickup_in">
+<div class="pickup">
+<ul class="slideGuide">
+<li class="slideCell"><a href="/recruit/new/" class="evnt"><h2>採用情報</h2><span><img src="/_wsp/wp-content/themes/startia/front/top_recruit.jpg" alt="採用情報" title="採用情報"></span></a></li>
+<li class="slideCell"><a href="/ir/" class="evnt"><h2>IR情報</h2><span><img src="/_wsp/wp-content/themes/startia/front/top_ir.jpg" alt="IR情報" title="IR情報"></span></a></li>
+<li class="slideCell"><a href="/blog/" class="evnt"><h2 class="highlight_01">本郷秀之のブログ</h2><span><img src="/_wsp/wp-content/themes/startia/front/top_blog.jpg" alt="本郷秀之のブログ" title="本郷秀之のブログ"></span></a><p class="ico_pickup"><img src="/_wsp/wp-content/themes/startia/common/images/front_ico_pickup_ptn_01.png" width="44" height="44" alt="pickup"></p></li>
+<li class="slideCell"><a href="/service/" class="evnt"><h2>事業内容</h2><span><img src="/_wsp/wp-content/themes/startia/front/top_service.jpg" alt="事業内容" title="事業内容"></span></a></li>
+<li class="slideCell"><a href="/event/" class="evnt"><h2>セミナー・イベント情報</h2><span><img src="/_wsp/wp-content/themes/startia/front/top_event.jpg" alt="セミナー・イベント情報" title="セミナー・イベント情報"></span></a></li>
+</ul>
+<div class="slideCtrl left">&lt;</div>
+<div class="slideCtrl right">&gt;</div>
+</div>
+</div>
+<!-- /#pickup -->
+</div>
+<div class="btn_nav">
+<div class="btn_slide"><a href="#"><img src="/_wsp/wp-content/themes/startia/common/images/front_ico_pickup.png" alt="PICK UP"></a></div>
+<div class="btn_menu"><a href="#"><img src="/_wsp/wp-content/themes/startia/common/images/front_ico_menu_off.png" alt="MENU" class="front_hov"></a></div>
+<div class="btn_news"><a href="#"><img src="/_wsp/wp-content/themes/startia/common/images/front_ico_news_off.png" alt="NEWS" class="front_hov"></a></div>
+</div>
+<div class="front_r_ico">
+<div class="ico_sns">
+<div class="fb-like" data-href="https://www.facebook.com/startia" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
+<span><a href="https://twitter.com/share" class="twitter-share-button" data-lang="ja">Tweets</a></span>
+</div>
+<div class="ico_vimeo"><a href="https://vimeo.com/119721466" target="new"><img src="/_wsp/wp-content/themes/startia/common/images/front_ico_vimeo.png" alt="vimeo"></a></div>
+<div class="ico_youtube"><a href="http://youtu.be/y9aL3GxwJng" target="new"><img src="/_wsp/wp-content/themes/startia/common/images/front_ico_youtube.png" alt="youtube"></a></div>
+</div>
+<!-- サポートサイトへ移ることの確認ダイアログ -->
+<div class="front_f_ico">
+<h1 title="スターティア株式会社 Startia, Inc." class="logo"><img src="/_wsp/wp-content/themes/startia/common/images/front_logo.png" alt="スターティア株式会社 Startia, Inc." title="スターティア株式会社 Startia, Inc."></h1>
+<div class="supportLink"><a href="/service/"><img src="/_wsp/wp-content/themes/startia/common/images/front_ico_service.png" alt="スターティアの製品・サービスはこちら"></a></div>
+<!--<div class="supportLink"><a href="https://webmarke.net/" target="_blank"><img src="/_wsp/wp-content/themes/startia/common/images/front_ico_webmarke.png" alt="WEB集客支援"></a></div>-->
+<!--div class="ico_20th"><a href="https://www.startia.co.jp/lp-20th/"><img src="/_wsp/wp-content/themes/startia/common/images/front_ico_20th.png" alt="20th Anniversary"></a></div-->
+<!--div class="ico_mynum"><a href="/lp-mynumber/" class="TopToMynumLP_r"><img src="/_wsp/wp-content/themes/startia/common/images/front_ico_mynumber02.png" alt="マイナンバー総合LP"></a></div-->
+</div>
+<!-- //サポートサイトへ移ることの確認ダイアログ -->
+<div class="movover"></div>
+<div class="movin"><video src="https://startia.ne.jp/mov/STARTIA_WEB_7MB.mp4" type="video/mp4;" autoplay loop></video></div>
+<!-- front-page.P-->
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpml_browser_redirect_params = {"pageLanguage":"ja","languageUrls":{"ja":"https:\/\/www.startia.co.jp","en_US":"https:\/\/www.startia.co.jp?lang=en","en":"https:\/\/www.startia.co.jp?lang=en","US":"https:\/\/www.startia.co.jp?lang=en"},"cookie":{"name":"_icl_visitor_lang_js","domain":"www.startia.co.jp","path":"\/","expiration":24}};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var icl_vars = {"current_language":"ja","icl_home":"https:\/\/www.startia.co.jp"};
+/* ]]> */
+</script>
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"WebSite","@id":"#website","url":"https:\/\/www.startia.co.jp\/","name":"\u30b9\u30bf\u30fc\u30c6\u30a3\u30a2\u682a\u5f0f\u4f1a\u793e Startia, Inc.","potentialAction":{"@type":"SearchAction","target":"https:\/\/www.startia.co.jp\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<script type='text/javascript' src='//www.startia.co.jp/_wsp/wp-content/cache/wpfc-minified/4a0c84572a5d8548a66ab3b3d59a3c1d/1500883547index.js'></script>
+<script type='text/javascript' src='//www.startia.co.jp/_wsp/wp-content/cache/wpfc-minified/b1c7f707ee0f0d53f8d57c57042188bf/1500883547index.js'></script>
+<script type='text/javascript' src='//www.startia.co.jp/_wsp/wp-content/cache/wpfc-minified/585827807ccddf457f203d5c3450b10a/1500883547index.js'></script>
+<script type='text/javascript' src='//www.startia.co.jp/_wsp/wp-content/cache/wpfc-minified/0ea85927c966abe7d8fe62f79c285c46/1500883547index.js'></script>
+<!--[if lt IE 9]><script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script><![endif]-->
+<script type="text/javascript" src="/_wsp/wp-content/themes/startia/common/js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript">
+// START EQ Tracking
+var _elqQ = _elqQ || [];
+_elqQ.push(['elqSetSiteId', '406538056']);
+_elqQ.push(['elqTrackPageView']);
+(function () {
+function async_load() {
+var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true;
+s.src = '//img07.en25.com/i/elqCfg.min.js';
+var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+}
+if (window.addEventListener) window.addEventListener('DOMContentLoaded', async_load, false);
+else if (window.attachEvent) window.attachEvent('onload', async_load); 
+})();
+// END EQ Tracking
+</script>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+<script src="/_wsp/wp-content/themes/startia/common/js/slider.js"></script>
+<script>
+$(window).resize(function(){
+if(window.innerWidth <= 640) {
+$('#side_menu').removeClass('notrans');
+}else if(window.innerWidth >= 640) {
+$('#side_menu').addClass('notrans');
+}
+});
+$(function(){
+$('.btn_menu').click(function() {
+$('#side_menu').toggleClass('active_menu');
+});
+$('.btn_news').click(function() {
+$('#side_news').toggleClass('active_news');
+});
+$(".pickup").slider({
+time: 15,
+direction: "right"
+});
+$('.btn_slide').click(function() {
+$('.pickup').toggleClass('active_alide');
+});
+$('.btn_slide a img').on({
+'click': function() {
+var src = ($(this).attr('src') === '/_wsp/wp-content/themes/startia/common/images/front_ico_pickup.png')
+? '/_wsp/wp-content/themes/startia/common/images/front_ico_pickup_off.png'
+: '/_wsp/wp-content/themes/startia/common/images/front_ico_pickup.png';
+$(this).attr('src', src);
+}
+});
+$('.front_hov').each(function(){
+$(this).hover(function(){
+$(this).attr('src', $(this).attr('src').replace('_off', '_on'));
+}, function(){
+$(this).attr('src', $(this).attr('src').replace('_on', '_off'));
+});
+});	
+});
+</script>
+<script type='text/javascript' src='//www.startia.co.jp/_wsp/wp-content/cache/wpfc-minified/9bb9651bd7459e4aa2a38c0fb164559b/1500883547index.js'></script>
+<script type='text/javascript' src='//www.startia.co.jp/_wsp/wp-content/cache/wpfc-minified/e977d7dccbe414a245a6f28711aa8338/1500883547index.js'></script>
+<script type="text/javascript">
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"https:\/\/www.startia.co.jp\/_wsp\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.2"}};
+!function(a,b,c){function d(a){var c,d=b.createElement("canvas"),e=d.getContext&&d.getContext("2d"),f=String.fromCharCode;return e&&e.fillText?(e.textBaseline="top",e.font="600 32px Arial","flag"===a?(e.fillText(f(55356,56806,55356,56826),0,0),d.toDataURL().length>3e3):"diversity"===a?(e.fillText(f(55356,57221),0,0),c=e.getImageData(16,16,1,1).data.toString(),e.fillText(f(55356,57221,55356,57343),0,0),c!==e.getImageData(16,16,1,1).data.toString()):("simple"===a?e.fillText(f(55357,56835),0,0):e.fillText(f(55356,57135),0,0),0!==e.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+</script>
+</body>
+</html><!-- WP Fastest Cache file was created in 1.2753050327301 seconds, on 17-08-17 18:36:00 -->

@@ -1,0 +1,282 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<title>株式会社　魚喜 | トップ  </title>
+<meta name="keywords" content="魚喜,uoki,鮮魚,魚介類,お刺身,寿司,小売事業,鮮魚等水産品,飲食事業,回転寿司,惣菜販売" />
+<meta name="description" content="新鮮な魚介類を通して豊かな食生活に貢献します。株式会社魚喜。" />
+<script type="text/javascript" src="./common/js/jquery-1.10.1.min.js"></script>
+<script type="text/javascript" src="./common/js/jquery.slides.min.js"></script>
+<script type="text/javascript" src="./common/js/function.js"></script>
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<link rel="shortcut icon" href="./favicon.ico" />
+<link rel="stylesheet" type="text/css" href="./common/css/base.css" />
+<link rel="stylesheet" type="text/css" href="./common/css/contents.css" />
+<link rel="stylesheet" type="text/css" href="./common/css/slides.css" />
+<script type="text/javascript">
+</script>
+</head>
+<body>
+<div id="wrapper">
+
+	<header>
+		<div id="logo"><a href="./"><img src="./common/images/main_logo.png" width="128" height="100" alt="魚喜" /></a></div>
+  <div id="navigation">
+			<div id="inquiry"><a href="#"><!-- <img src="./common/images/menu_inquiry.png" width="93" height="16" alt="お問い合わせ" /> --></a></div>
+  <nav>
+			<ul class="clearfix">
+				<li><a class="gmenu-top" href="./">トップ</a></li>
+				<li><a class="gmenu-company" href="./company/">会社概要</a></li>
+				<li><a class="gmenu-profile" href="./profile/">事業内容</a></li>
+				<li><a class="gmenu-store" href="./store/">店舗情報</a></li>
+				<li><a class="gmenu-ir" href="./ir/">IR情報</a></li>
+				<li><a class="gmenu-recruit" href="./recruit/">採用情報</a></li>
+			</ul>
+		  </nav>
+		</div>
+	</header>
+
+	<section>
+		<div id="mainbox">
+			<div id="visual">
+				<div id="slides">
+					<img src="./common/images/index_visual_1.jpg" alt="" />
+					<img src="./common/images/index_visual_2.jpg" alt="" />
+					<img src="./common/images/index_visual_3.jpg" alt="" />
+					<img src="./common/images/index_visual_4.jpg" alt="" />
+					<img src="./common/images/index_visual_5.jpg" alt="" />
+				</div>
+			</div>
+			<div class="caption"><img src="./common/images/index_cap.png" alt="" /></div>
+		</div>
+		<script>
+		$(function() {
+		$('#slides').slidesjs({
+		width: 960, height: 320, navigation: false,
+		pagination: {active: true, effect: "fade"},
+		play: {active: false, effect: "fade", interval: 5000, auto: true, swap: false, pauseOnHover: false, restartDelay: 2500}
+		});
+		});
+		</script>
+	</secton>
+
+	<section class="mg2">
+
+		<div><img src="./common/images/index_news_img1.png" width="986" height="41" alt="" /></div>
+		<div id="news" class="clearfix">
+			<div id="news-1">
+				<!-- news -->
+                <div class="item clearfix">
+					<div class="date">2017.08.10</div>
+					<div class="text"><a href="./company/news.html#a20170810">広島そごう店オープンについて</a></div>
+				</div>
+                <div class="item clearfix">
+					<div class="date">2016.11.25</div>
+					<div class="text"><a href="./company/news.html#a20161125">うおや富士厚原店（子会社）オープンについて</a></div>
+				</div>
+                <div class="item clearfix">
+					<div class="date">2016.11.22</div>
+					<div class="text"><a href="./company/news.html#a20161122">イトーヨーカドー湘南台店オープンについて</a></div>
+				</div>
+                <div class="item clearfix">
+					<div class="date">2016.10.18</div>
+					<div class="text"><a href="./company/news.html#a20161018">明倫通り店オープンについて</a></div>
+				</div>
+				<!-- /news -->
+				<div class="link">
+					<a href="./company/news.html">一覧を見る</a>
+				</div>
+			</div>
+			<div id="news-2">
+				<!-- news -->
+				<!-- PDFマークはAタグ内に→ <img src="./common/images/main_icon_pdf.png" /> -->
+				<div class="item clearfix">
+					<div class="date">2017.04.14</div>
+					<div class="text"><a href="http://v3.eir-parts.net/EIRNavi/DocumentNavigator/ENavigatorBody.aspx?cat=tdnet&sid=1458498&code=2683&ln=ja&disp=simple">役員の異動の予定に関するお知らせ</a></div>
+				</div>
+				<div class="item clearfix">
+					<div class="date">2017.04.14</div>
+					<div class="text"><a href="http://v3.eir-parts.net/EIRNavi/DocumentNavigator/ENavigatorBody.aspx?cat=tdnet&sid=1458418&code=2683&ln=ja&disp=simple">平成29年2月期　決算短信</a></div>
+				</div>
+				<div class="item clearfix">
+					<div class="date">2017.04.14</div>
+					<div class="text"><a href="http://v3.eir-parts.net/EIRNavi/DocumentNavigator/ENavigatorBody.aspx?cat=tdnet&sid=1458491&code=2683&ln=ja&disp=simple">支配株主等に関する事項について</a></div>
+				</div>
+				<div class="item clearfix">
+					<div class="date">2017.02.27</div>
+					<div class="text"><a href="http://v3.eir-parts.net/EIRNavi/DocumentNavigator/ENavigatorBody.aspx?cat=tdnet&sid=1446990&code=2683&ln=ja&disp=simple">組織変更及び人事異動に関するお知らせ</a></div>
+				</div>
+				<!-- /news -->
+				<div class="link">
+					<a href="http://www.uoki.co.jp/IR-1.html">一覧を見る</a>
+				</div>
+			</div>
+		</div>
+		<div><img src="./common/images/index_news_img3.png" width="986" height="10" alt="" /></div>
+
+	</section>
+
+	<section id="main" class="store clearfix">
+
+		<nav class="top mg2">
+			<div class="banner">
+				<div><a href="./store/"><img src="./common/images/lmenu_banner3.png" width="246" height="178" alt="" /></a></div>
+				<div class="txt"><a href="./store/">全国5店舗の飲食店情報</a></div>
+			</div>
+			<div class="banner mg2">
+				<div><a href="./recruit/"><img src="./common/images/lmenu_banner1_2.png" width="246" height="84" alt="" /></a></div>
+				<div class="txt"><a href="./recruit/">新卒採用、パート・アルバイト情報</a></div>
+			</div>
+			<div class="banner mg2">
+				<div><a href="./profile/"><img src="./common/images/lmenu_banner2.png" width="246" height="84" alt="" /></a></div>
+				<div class="txt"><a href="./profile/">事業内容のご紹介</a></div>
+			</div>
+			<div class="banner mg2">
+				<div><a href="./ir/yutai.html"><img src="./common/images/lmenu_banner4.png" width="246" height="84" alt="" /></a></div>
+				<div class="txt"><a href="./ir/yutai.html">株主優待のご案内</a></div>
+			</div>
+			<div class="banner mg2">
+				<div><a href="http://www.big-power.co.jp/" target="_blank"><img src="./common/images/lmenu_banner5.png" width="246" height="84" alt="" /></a></div>
+				<div class="txt"><a href="http://www.big-power.co.jp/" target="_blank">株式会社ビッグパワー</a></div>
+			</div>
+		</nav>
+
+		<div id="contents">
+
+			<div class="mg2"><img src="./common/images/main_bg1.png" width="726" height="20" alt="" /></div>
+			<div class="inner">
+
+				<div class="sub5">
+					<div><img src="./common/images/index_title3.png" alt="" /></div>
+				</div>
+
+				<div class="box mg9 clearfix">
+
+					<div class="item5 clearfix">
+						<div class="fl"><img src="./common/images/store_index_hiroshimasogo.jpg" width="140" height="80" alt="" /></div>
+						<div class="fl item4"><a href="./store/hiroshimasogo.html">広島そごう店</a><br />
+						そごう広島店地下1階<br />
+						営業時間 10:00～20:00<br />
+						TEL 082-502-2310
+						</div>
+					</div>
+
+					<div class="item5 clearfix">
+						<div class="fl"><img src="./common/images/store_index_uoyafujiatsuhara.jpg" width="140" height="80" alt="" /></div>
+						<div class="fl item4"><a href="./store/uoyafujiatsuhara.html">うおや富士厚原店（子会社）</a><br />
+						杏林堂富士厚原店内<br />
+						営業時間 9:00～22:00<br />
+						TEL 0545-73-1121
+						</div>
+					</div>
+
+					<div class="item5 clearfix">
+						<div class="fl"><img src="./common/images/store_index_itoyokadoshonandai.jpg" width="140" height="80" alt="" /></div>
+						<div class="fl item4"><a href="./store/itoyokadoshonandai.html">イトーヨーカドー湘南台店</a><br />
+						イトーヨーカドー湘南台内1F<br />
+						営業時間 9:00～22:00<br />
+						TEL 0466-89-0127
+						</div>
+					</div>
+
+					<div class="item5 clearfix">
+						<div class="fl"><img src="./common/images/store_index_meirin.jpg" width="140" height="80" alt="" /></div>
+						<div class="fl item4"><a href="./store/meirin.html">明倫通り店</a><br />
+						アルビス明倫通り店内<br />
+						営業時間 10：00～22：00<br />
+						TEL 076-248-2051
+						</div>
+					</div>
+
+                	<div class="item5 clearfix">
+						<div class="fl"><img src="./common/images/store_index_shonandai.jpg" width="140" height="80" alt="" /></div>
+						<div class="fl item4"><a href="./store/shonandai.html">湘南台店</a><br />
+						ビッグパワー湘南台店内1F<br />
+						営業時間 8：50～21：00<br />
+						TEL 0466-44-3132
+						</div>
+					</div>
+
+                	<div class="item5 clearfix">
+						<div class="fl"><img src="./common/images/store_index_yacchon.jpg" width="140" height="80" alt="" /></div>
+						<div class="fl item4"><a href="./store/yacchon.html">やっちょん広場店</a><br />
+						ＪＡ紀北かわかみやっちょん広場店内<br />
+						営業時間 9：00～18：00（冬季17時まで）<br />
+						TEL 0736-39-3475
+						</div>
+					</div>
+
+				</div>
+				<div class="link3"><a href="./store/">鮮魚店店舗一覧を見る</a></div>
+
+
+				<div class="sub5 mg6">
+					<div><img src="./common/images/index_title4_12.png" alt="" /></div>
+			  </div>
+
+				<div class="mg3">
+
+					<div class="list clearfix">
+						<div class="item">
+							<div><img src="./common/images/store_index_img3.png" width="142" height="20" alt="東日本地区" /></div>
+							<div class="style1"><a href="./store/list_tokyo.html">東京　（7店舗）</a><br />
+							<br />
+							<a href="./store/list_kanagawa.html">神奈川　（9店舗）</a><br />
+							<br />
+							<a href="./store/tokyukitakoshigaya.html">埼玉　（1店舗）</a></div>
+						</div>
+						<div class="item2">
+							<div><img src="./common/images/store_index_img4.png" width="142" height="20" alt="中部地区" /></div>
+							<div class="style1"><a href="./store/list_shizuoka.html">静岡　（10店舗）</a><br />
+							<br />
+							<a href="./store/list_aichi.html">愛知　（6店舗）</a><br />
+							<br />
+							<a href="./store/jr_gifu.html">岐阜　（1店舗）</a><br />
+							<br />
+							<a href="./store/list_ishikawa.html">石川　（3店舗）</a><br />
+							<!-- <br />
+							<a href="./store/f1mart.html">三重　（1店舗）</a><br /> -->
+							<!-- <br />
+							<a href="./store/m_nagano.html">長野　（1店舗）</a> --></div>
+						</div>
+						<div class="item2">
+							<div><img src="./common/images/store_index_img5.png" width="142" height="20" alt="関西地区" /></div>
+							<div class="style1"><a href="./store/list_osaka.html">大阪　（3店舗）</a><br />
+							<br />
+							<a href="./store/list_hyogo.html">兵庫　（4店舗）</a><br />
+							<br />
+							<a href="./store/mahoroba.html">奈良　（1店舗）</a><br />
+							<br />
+							<a href="./store/list_wakayama.html">和歌山　（2店舗）</a></div>
+						</div>
+						<div class="item2">
+							<div><img src="./common/images/store_index_img6.png" width="142" height="20" alt="中国四国地区" /></div>
+							<div class="style1"><a href="./store/list_hiroshima.html">広島　（4店舗）</a><br />
+							<!-- <br />
+							<a href="./store/takamatsu.html">香川　（1店舗）</a><br /> -->
+							<br />
+							<a href="./store/t_sogo.html">徳島　（1店舗）</a></div>
+						</div>
+					</div>
+
+				</div>
+				<div class="link3"><a href="./store/">鮮魚店店舗一覧を見る</a></div>
+
+			</div>
+			<div><img src="./common/images/main_bg3.png" width="726" height="5" alt="" /></div>
+
+		</div>
+
+	</section>
+
+	<section id="pagetop"">
+		<a href="#wrapper"><img src="./common/images/footer_top.png" width="100" height="24" alt="" /></a>
+	</section>
+
+</div>
+<footer>
+</footer>
+</body>
+</html>

@@ -1,0 +1,1349 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+
+<title>三井住友建設</title>
+<link rel="stylesheet" href="http://www.smcon.co.jp/wp-content/themes/smc/style.css" type="text/css" media="all" />
+
+<link rel="stylesheet" href="http://www.smcon.co.jp/wp-content/themes/smc/resource/js/jquery-lightbox-0.5/css/jquery.lightbox-0.5.css" type="text/css" media="all" />
+
+<link rel="shortcut icon" href="http://www.smcon.co.jp/wp-content/themes/smc/favicon.ico" />
+
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script type="text/javascript" src="http://www.smcon.co.jp/wp-content/themes/smc/resource/js/script.js"></script>
+<script type="text/javascript" src="http://www.smcon.co.jp/wp-content/themes/smc/resource/js/mainImageSlider.js"></script>
+<script  type="text/javascript" src="http://www.smcon.co.jp/wp-content/themes/smc/resource/js/setting.js"></script>
+<script type="text/javascript" src="http://www.smcon.co.jp/wp-content/themes/smc/resource/js/jquery.carouFredSel-6.2.0-min.js"></script>
+<script type="text/javascript" src="http://www.smcon.co.jp/wp-content/themes/smc/resource/js/slideshow.js"></script>
+<script type="text/javascript" src="http://www.smcon.co.jp/wp-content/themes/smc/resource/js/scroll.js"></script>
+
+
+<!--[if lt IE 7]>
+<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE7.js"></script>
+<![endif]-->
+
+<script type="text/javascript" src="http://www.smcon.co.jp/wp-content/themes/smc/resource/js/jquery.tile.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function(){
+		$(".tileLayout li").tile(2);
+		$(".tileLayout li:odd").addClass("tileLayoutOdd");
+		$(".tileLayout02").tile(2);
+		$(".tileLayout04 li").tile();
+		$(".sideSearchKeyword li").tile(2);
+	});
+</script>
+<script type="text/javascript">
+	jQuery(document).ready(function(){
+		$("ul.menu01").hide();
+		$("ul.menu02").hide();
+		$("ul.menu03").hide();
+		$("li.key01").click(function(){
+			$("ul.menu01").toggle("normal");
+		})
+		$("li.key02").click(function(){
+			$("ul.menu02").toggle("normal");
+		})
+		$("li.key03").click(function(){
+			$("ul.menu03").toggle("normal");
+		})
+	});
+</script>
+
+<!-- マウスオーバーで関連コンテンツを表示するjs：マンション建替え相談室など -->
+<script type="text/javascript" src="http://www.smcon.co.jp/wp-content/themes/smc/resource/js/hover-visual.js"></script>
+
+<script type="text/javascript" src="http://www.smcon.co.jp/wp-content/themes/smc/resource/js/jquery-lightbox-0.5/js/jquery.lightbox-0.5.pack.js"></script>
+<script type="text/javascript">
+//ライトボックス用
+(function($){
+	$(document).ready(function(){
+		$('a.lightbox').lightBox({
+			imageLoading: 'http://www.smcon.co.jp/wp-content/themes/smc/resource/js/jquery-lightbox-0.5/images/lightbox-ico-loading.gif',
+			imageBtnClose: 'http://www.smcon.co.jp/wp-content/themes/smc/resource/js/jquery-lightbox-0.5/images/lightbox-btn-close.gif',
+			imageBtnPrev: 'http://www.smcon.co.jp/wp-content/themes/smc/resource/js/jquery-lightbox-0.5/images/lightbox-btn-prev.gif',
+			imageBtnNext: 'http://www.smcon.co.jp/wp-content/themes/smc/resource/js/jquery-lightbox-0.5/images/lightbox-btn-next.gif',
+			imageBlank: 'http://www.smcon.co.jp/wp-content/themes/smc/resource/js/jquery-lightbox-0.5/images/lightbox-blank.gif'
+		});
+	});
+})(jQuery);
+</script>
+
+<script>
+	jQuery(function($){
+		$("li:has(.sub)").addClass('parentList');
+		$("li:has(.children)").addClass('parentList');
+	})
+</script>
+
+
+<meta name="keywords" content="三井住友建設,フォアマン,フォアマンネット,フォアマンドットネット,foremen.net" />
+<meta name="description" content="三井住友建設 施工管理プラットフォーム｢Foreman.netR｣を開発・展開～業界初｢協力業者管理｣ ｢入退場管理｣ ｢労務・安全管理｣ ｢労務実績管理｣ ｢工区内セキュリティシステム｣などの統合環境を提供～" />
+<link rel='stylesheet' id='cptr-css-css'  href='http://www.smcon.co.jp/wp-content/plugins/custom-post-types-relationships-cptr/cptr.css?ver=2.4' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='http://www.smcon.co.jp/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=3.3.3' type='text/css' media='all' />
+<link rel='stylesheet' id='taxonomy-image-plugin-public-css'  href='http://www.smcon.co.jp/wp-content/plugins/taxonomy-images/style.css?ver=0.7.3' type='text/css' media='screen' />
+<script type='text/javascript' src='http://www.smcon.co.jp/wp-includes/js/jquery/jquery.js?ver=1.8.3'></script>
+<script type="text/javascript">
+    jQuery(document).ready(function(){
+        $("#special_carousel").carouFredSel({
+            // circular: false,
+            // infinite: false,
+            auto    : true,
+            width   : 656,
+            items   : 5,
+            prev    : {
+                button  : "#special_prev",
+                key     : "left"
+            },
+            next    : {
+                button  : "#special_next",
+                key     : "right"
+            },
+            scroll : {
+                items           : 1,
+                duration        : 1000,
+                pauseOnHover    : true
+            }
+            // pagination  : "#special_pag"
+        });
+        $("#sideContentsSlider").carouFredSel({
+           items   : 1,
+           direction : "down",
+           scroll : {
+                items           : 1,
+                duration        : 900,
+                pauseOnHover    : true
+            }
+        });
+    });
+</script>
+<style type="text/css"></style>	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+</head>
+
+<body class="home page page-id-2 page-template-default" id="sample-page">
+<div id="wrapper">
+	<div id="header" class="clear-fix">
+		<h1 id="headerLogo" class="fLeft"><a href="/">三井住友建設</a></h1>
+
+		<div id="headerMenu" class="fLeft">
+			<ul id="headerNav" class="clear-fix">
+				<li class="fLeft" id="headerContact"><a href="/contact/">お問い合わせ</a></li>
+				<li class="fLeft" id="headerSitemap"><a href="/sitemap/">サイトマップ</a></li>
+				<li class="fLeft" id="headerEnglish"><a href="/en/" target="_blank">English</a></li>
+			</ul>
+			<div id="searchArea" class="clear-fix">
+				<!-- Alternate with WordPress built-in search feature.
+				<form method="get" action="/">
+					<div class="searchTextarea fLeft">
+						<input type="text" name="s">
+					</div>
+					<div class="searchBtn fLeft">
+						<input type="image" src="http://www.smcon.co.jp/wp-content/themes/smc/resource/images/common_images/btn_header_search.jpg" value="">
+					</div>
+				</form>
+				-->
+				<form method="get" action="http://www.smcon.co.jp">
+	<div class="searchTextarea fLeft">
+		<input name="s" id="s" type="text" value="" />
+	</div>
+
+	<div class="searchBtn fLeft">
+		<input type="image" src="http://www.smcon.co.jp/wp-content/themes/smc/resource/images/common_images/btn_header_search.jpg" value="Search">
+	</div>
+
+</form>
+			</div>
+		</div>
+		<!-- headerMenu -->
+	</div>
+	<!-- header -->
+
+
+<!-- globalNavi -->
+<ul id="gNav" class="top-page"  >
+<div id ="header-wrap">
+
+	<div id ="nav-wrap">
+		<ul id="nav" class="cf">
+
+			<li class="global-top "><a href="/">TOP</a>
+				<ul class="current-child hide">
+					<li>
+						<a href="/">三井住友建設TOP</a>
+					 </li>
+				</ul>
+			</li>
+
+
+			<li class="global-spc   "><a href="/?special=show">スペシャルコンテンツ</a>
+				<ul class="second">
+					<li><a href="http://www.smcon.co.jp/pb_div/">プロセス・ブランディング部</a>
+						<ul class="hide">
+							<li><a href="http://www.smcon.co.jp/pb_div/about/">プロセス・ブランディング部とは</a></li>
+							<li><a href="http://www.smcon.co.jp/pb_div/member/">PROFILE メンバー紹介</a></li>
+							<li><a href="http://www.smcon.co.jp/pb_div/rule/">チームの掟 10カ条</a></li>
+						</ul>
+					</li>
+					<li><a href="http://www.smcon.co.jp/hashi-girl/">橋ガール</a>
+						<ul class="hide">
+							<li><a href="http://www.smcon.co.jp/hashi-girl/map/">橋ガールマップ</a></li>
+						</ul>
+					</li>
+					<li><a href="http://www.smcon.co.jp/world-comm/">SMCC World通信</a>
+						<ul class="hide">
+							<li><a href="http://www.smcon.co.jp/world-comm/map/">リポートマップ</a></li>
+						</ul>
+					</li>
+					<li  ><a href="/sukkit/">SuKKiTシリーズ</a>
+
+						<ul class="hide">
+
+																																						<li><a href="http://www.smcon.co.jp/sukkit/sukkit1/">SuKKiT1</a></li>
+																																													<li><a href="http://www.smcon.co.jp/sukkit/sulatto1/">Sulatto1</a></li>
+																																													<li><a href="http://www.smcon.co.jp/sukkit/sukkit2/">SuKKiT2</a></li>
+																																													<li><a href="http://www.smcon.co.jp/sukkit/sulatto2/">Sulatto2</a></li>
+																																													<li><a href="http://www.smcon.co.jp/sukkit/sukkit3/">SuKKiT3</a></li>
+																																													<li><a href="http://www.smcon.co.jp/sukkit/sulatto3/">Sulatto3</a></li>
+																																													<li><a href="http://www.smcon.co.jp/sukkit/sukkit_ameva/">SuKKiT AmeVa</a></li>
+																																													<li><a href="http://www.smcon.co.jp/sukkit/sulatto4/">Sulatto AmeVa</a></li>
+																																													<li><a href="http://www.smcon.co.jp/sukkit/sukkit-w/">SuKKiT-W</a></li>
+																																													<li><a href="http://www.smcon.co.jp/sukkit/sulatto-tower/">Sulatto Tower</a></li>
+																																													<li><a href="http://www.smcon.co.jp/sukkit/spiral-view-tower/">Spiral View Tower</a></li>
+													
+						</ul>
+					</li>
+
+				</ul>
+			</li>
+
+
+
+			<li class="global-tec  "><a href="http://www.smcon.co.jp/service/">技術サービス</a>
+
+	
+				<ul class="second">
+
+																	
+					<li  ><a href="http://www.smcon.co.jp/service/facility-search/">施設用途で探す</a>
+
+				
+					</li>
+
+																				
+					<li  ><a href="http://www.smcon.co.jp/service/technology-search/">技術テーマで探す</a>
+
+				
+					</li>
+
+										
+				</ul>
+
+	
+			</li>
+
+
+
+			<li class="global-results "><a href="http://www.smcon.co.jp/works/">実績紹介</a>
+
+	
+				<ul class="second">
+
+																	
+					<li >
+						<a  href="http://www.smcon.co.jp/works/facility-usage-search/">施設用途で探す</a>
+
+				
+				
+					</li>
+
+																				
+					<li >
+						<a  href="http://www.smcon.co.jp/works/year-search/">竣工年で探す</a>
+
+				
+				
+					</li>
+
+																				
+					<li >
+						<a class="foreign1  "  href="http://www.smcon.co.jp/works/area-search/">地域で探す</a>
+
+				
+					<span><a class="foreign2  search-current " href="/works/area-search/?countries=search">海外実績</a></span>
+
+				
+				
+					</li>
+
+										
+					<li><a href="/works/#works-keyword">キーワードで探す</a></li>
+				</ul>
+
+	
+			</li>
+
+
+			<li class="global-solutuon two-line "><a href="http://www.smcon.co.jp/solution/">ソリューション</a>
+
+	
+				<ul class="second">
+
+																			
+					<li>
+					<a href="http://www.smcon.co.jp/solution/repair/">マンション大規模修繕サービス</a>
+
+			
+					</li>
+
+																	
+					<li>
+					<a href="http://www.smcon.co.jp/solution/consultation/">マンション建替え相談室</a>
+
+			
+						<ul class="hide">
+
+																			
+							<li><a href="http://www.smcon.co.jp/solution/consultation/feature/">3つの特長 ～お客様から選ばれる理由</a></li>
+
+																								
+							<li><a href="http://www.smcon.co.jp/solution/consultation/faq/">マンション建替えQ&#038;A</a></li>
+
+																								
+							<li><a href="http://www.smcon.co.jp/solution/consultation/flow/">マンション建替え事業の流れ</a></li>
+
+									
+						</ul>
+
+			
+					</li>
+
+																	
+					<li>
+					<a href="http://www.smcon.co.jp/solution/taishin/">耐震免震リニューアル</a>
+
+			
+						<ul class="hide">
+
+																			
+							<li><a href="http://www.smcon.co.jp/solution/taishin/hy-retro/">おすすめする免震改修構法(ハイレトロ)</a></li>
+
+																								
+							<li><a href="http://www.smcon.co.jp/solution/taishin/condition/">さまざまな条件で選ぶ耐震改修(耐震・制震・免震レトロ)</a></li>
+
+																								
+							<li><a href="http://www.smcon.co.jp/solution/taishin/imanaze/">今なぜ耐震改修なのでしょう</a></li>
+
+									
+						</ul>
+
+			
+					</li>
+
+																	
+					<li>
+					<a href="http://www.smcon.co.jp/solution/tekizai/">TEKIZAI</a>
+
+			
+						<ul class="hide">
+
+																			
+							<li><a href="http://www.smcon.co.jp/solution/tekizai/about/">TEKIZAIとは</a></li>
+
+																								
+							<li><a href="http://www.smcon.co.jp/solution/tekizai/mokuzo/">〔実録〕木造でコンビニを。</a></li>
+
+																								
+							<li><a href="http://www.smcon.co.jp/solution/tekizai/tekizai-jirei/">TEKIZAI事例/木造建築施工事例</a></li>
+
+																								
+							<li><a href="https://www.smcon.co.jp/solution/tekizai/contact-tekizai/">お問い合せ-TEKIZAI-</a></li>
+
+									
+						</ul>
+
+			
+					</li>
+
+																	
+					<li>
+					<a href="http://www.smcon.co.jp/solution/ppp-pfi/">PPP／PFI事業</a>
+
+			
+						<ul class="hide">
+
+																			
+							<li><a href="http://www.smcon.co.jp/solution/ppp-pfi/results/">実績紹介</a></li>
+
+																								
+							<li><a href="https://www.smcon.co.jp/solution/ppp-pfi/contact-ppp-pfi/">お問い合せ-PPP/PFI-</a></li>
+
+									
+						</ul>
+
+			
+					</li>
+
+		
+				</ul>
+
+	
+			</li>
+
+
+			<li class="global-caminfo   "><a href="http://www.smcon.co.jp/company/">会社情報</a>
+				<ul class="second">
+
+					<li><a href="http://www.smcon.co.jp/company/">会社情報</a>
+
+					
+						<ul class="hide">
+
+						
+							
+																
+								<li><a href="http://www.smcon.co.jp/company/message/">ごあいさつ</a></li>
+
+							
+						
+							
+																
+								<li><a href="http://www.smcon.co.jp/company/policy/">経営理念･企業行動憲章･コーポレートブランド</a></li>
+
+							
+						
+							
+																
+								<li><a href="http://www.smcon.co.jp/company/profile/">会社概要</a></li>
+
+							
+						
+							
+																
+								<li><a href="http://www.smcon.co.jp/company/chart/">組織図</a></li>
+
+							
+						
+							
+																
+								<li><a href="http://www.smcon.co.jp/company/executive/">役員紹介</a></li>
+
+							
+						
+							
+																
+								<li><a href="http://www.smcon.co.jp/company/enviornment/">会社方針</a></li>
+
+							
+						
+							
+																
+								<li><a href="http://www.smcon.co.jp/company/corporate-governance/">コーポレートガバナンス</a></li>
+
+							
+						
+							
+																
+								<li><a href="http://www.smcon.co.jp/company/history/">沿革</a></li>
+
+							
+						
+							
+																
+								<li><a href="https://www.smcon.co.jp/company/development-center/">技術研究所</a></li>
+
+							
+						
+							
+																
+								<li><a href="http://www.smcon.co.jp/company/branch/">本支店所在地</a></li>
+
+							
+						
+							
+																
+								<li><a href="http://www.smcon.co.jp/company/overseas/">海外ネットワーク</a></li>
+
+							
+						
+							
+																
+								<li><a href="http://www.smcon.co.jp/company/group/">グループ企業一覧</a></li>
+
+							
+						
+							
+																
+								<li><a href="http://www.smcon.co.jp/company/brochure/">会社案内</a></li>
+
+							
+						
+						</ul>
+
+					
+					</li>
+
+
+<!--
+					<li><a href=""></a>
+											</li>
+-->
+
+
+					<li><a href="http://www.smcon.co.jp/csr/">CSR</a>
+
+	
+						<ul class="hide">
+
+													
+							<li><a href="http://www.smcon.co.jp/csr/csr-environment/">環境への取り組み</a></li>
+
+																
+							<li><a href="http://www.smcon.co.jp/csr/questionnaire-2016/">コーポレートレポートアンケート</a></li>
+
+																
+							<li><a href="http://www.smcon.co.jp/csr/diversity/">ダイバーシティの取り組み</a></li>
+
+					
+						</ul>
+
+	
+					</li>
+
+					<li ><a href="/category/release/">ニュースリリース</a></li>
+
+				</ul>
+
+			</li>
+
+
+			<li class="global-irinfo "><a href="http://www.smcon.co.jp/investor/">IR情報</a>
+
+	
+				<ul class="second">
+
+											
+					<li><a href="http://www.smcon.co.jp/investor/message/">株主の皆さまへ</a>
+
+			
+					</li>
+
+											
+					<li><a href="http://www.smcon.co.jp/investor/ir-news/">IR最新情報一覧</a>
+
+			
+					</li>
+
+											
+					<li><a href="http://www.smcon.co.jp/investor/library/">IRライブラリー</a>
+
+			
+						<ul class="hide">
+
+																																				
+							<li><a href="http://www.smcon.co.jp/investor/library/middle-term/">中期経営計画</a></li>
+
+																																						
+							<li><a href="http://www.smcon.co.jp/investor/library/earnings/">決算短信</a></li>
+
+																																						
+							<li><a href="http://www.smcon.co.jp/investor/library/financial-results/">決算説明会資料</a></li>
+
+																																						
+							<li><a href="http://www.smcon.co.jp/investor/library/security-report/">有価証券報告書</a></li>
+
+																																						
+							<li><a href="http://www.smcon.co.jp/investor/library/annual-report/">アニュアルレポート</a></li>
+
+																																						
+							<li><a href="http://www.smcon.co.jp/investor/library/databook/">データブック</a></li>
+
+																																						
+							<li><a href="http://www.smcon.co.jp/ir/koukoku/">電子公告</a></li>
+
+															
+						</ul>
+
+			
+					</li>
+
+											
+					<li><a href="http://www.smcon.co.jp/investor/calender/">IRカレンダー</a>
+
+			
+						<ul class="hide">
+
+																																																																																								
+							<li><a href="http://www.smcon.co.jp/investor/calender/h26setsumeikai/">平成26年3月期 決算説明会を開催</a></li>
+
+																																						
+							<li><a href="http://www.smcon.co.jp/investor/calender/h27setsumeikai/">平成27年3月期 決算説明会を開催</a></li>
+
+																																						
+							<li><a href="http://www.smcon.co.jp/investor/calender/h29setsumeikai/">平成29年3月期 決算説明会を開催</a></li>
+
+																																						
+							<li><a href="http://www.smcon.co.jp/investor/calender/h28setsumeikai/">平成28年3月期 決算説明会を開催</a></li>
+
+															
+						</ul>
+
+			
+					</li>
+
+											
+					<li><a href="http://www.smcon.co.jp/investor/disclosure/">開示情報</a>
+
+			
+					</li>
+
+											
+					<li><a href="http://www.smcon.co.jp/investor/stock-information/">株主総会・株式情報</a>
+
+			
+						<ul class="hide">
+
+																																				
+							<li><a href="http://www.smcon.co.jp/investor/stock-information/stockholder/">株主情報</a></li>
+
+																																						
+							<li><a href="http://www.smcon.co.jp/investor/stock-information/generalmeeting/">株主総会</a></li>
+
+																																						
+							<li><a href="http://www.smcon.co.jp/investor/stock-information/commission/">単元未満株式買取・買増手数料無料化のお知らせ</a></li>
+
+																																						
+							<li><a href="http://www.smcon.co.jp/investor/stock-information/stock-consolidation/">株式併合について</a></li>
+
+															
+						</ul>
+
+			
+					</li>
+
+											
+					<li><a href="http://www.smcon.co.jp/investor/faq/">FAQ</a>
+
+			
+					</li>
+
+											
+					<li><a href="http://www.smcon.co.jp/investor/disclosure-policy/">ディスクロージャーポリシー</a>
+
+			
+					</li>
+
+		
+				</ul>
+
+	
+			</li>
+
+
+			<li class="global-recinfo "><a href="http://www.smcon.co.jp/recruit/">採用情報</a>
+
+	
+				<ul class="second">
+					<li ><a href="/recruit/">採用TOP</a></li>
+
+											
+					<li><a href="http://www.smcon.co.jp/recruit/fresh/">新卒採用</a>
+
+			
+			
+						<ul class="hide">
+
+																																				
+							<li><a href="http://www.smcon.co.jp/recruit/fresh/requirement/">募集要項</a></li>
+
+																																						
+							<li><a href="http://www.smcon.co.jp/recruit/fresh/briefing-information/">説明会情報</a></li>
+
+																																						
+							<li><a href="http://www.smcon.co.jp/recruit/fresh/advices/">先輩からのメッセージ</a></li>
+
+																																						
+							<li><a href="http://www.smcon.co.jp/recruit/fresh/qa/">よくある質問</a></li>
+
+															
+						</ul>
+
+			
+					</li>
+
+											
+					<li><a href="http://www.smcon.co.jp/recruit/career-requirement/">キャリア採用</a>
+
+									<ul class="hide">
+							<li><a href="/recruit/career-requirement/">募集要項</a></li>
+						</ul>
+			
+			
+						<ul class="hide">
+
+																																				
+							<li><a href="http://www.smcon.co.jp/recruit/career-requirement/tec/">募集要項(技術職)</a></li>
+
+																																						
+							<li><a href="http://www.smcon.co.jp/recruit/career-requirement/office/">募集要項(事務職)</a></li>
+
+															
+						</ul>
+
+			
+					</li>
+
+											
+					<li><a href="http://www.smcon.co.jp/recruit/projects/">プロジェクトの紹介</a>
+
+			
+			
+						<ul class="hide">
+
+																																				
+							<li><a href="http://www.smcon.co.jp/recruit/projects/kenchiku1/">Project建築 風景をつくる現場 1/2</a></li>
+
+																																																			
+							<li><a href="http://www.smcon.co.jp/recruit/projects/doboku1/">Project土木 新しい都市機能の創造 1/2</a></li>
+
+																												
+						</ul>
+
+			
+					</li>
+
+											
+					<li><a href="http://www.smcon.co.jp/recruit/interview/">社員紹介</a>
+
+			
+			
+						<ul class="hide">
+
+								
+						</ul>
+
+			
+					</li>
+
+		
+				</ul>
+
+	
+			</li>
+		</ul>
+	</div>
+</div>
+</ul>
+<!-- globalNavi -->
+
+		<!-- breadcrumbs -->
+
+	<div class="clear-fix" id="newTopMainArea">
+
+	
+	
+		<div id="mainImgFader">
+			<ul id="imageList">
+
+					
+				<li>
+					<a href="/company/brochure/" class="page_link">					<img width="700" height="251" src="/wp-content/uploads/2013/03/keyvisual.jpg">
+					</a>				</li>
+
+					
+				<li>
+										<img width="700" height="251" src="/wp-content/uploads/2015/07/top1507.jpg">
+									</li>
+
+					
+				<li>
+										<img width="700" height="251" src="/wp-content/uploads/2015/09/tsubasa2.jpg">
+									</li>
+
+					
+				<li>
+										<img width="700" height="251" src="/wp-content/uploads/2016/11/takizawa.jpg">
+									</li>
+
+		
+			</ul>
+		</div>
+		<!-- mainImgSlider -->
+
+		
+		<div id="newPickUpContentsArea">
+			<h2>PICK UP CONTENTS</h2>
+			<ul id="pickUpContents">
+				<li class="mosaic-block slideup">
+					<a class="mosaic-overlay" href="/solution/tekizai/">
+						<div class="details">
+							<h3>TEKIZAI</h3>
+						</div>
+					</a>
+					<div class="mosaic-backdrop">
+						<img src="http://www.smcon.co.jp/wp-content/themes/smc/resource/images/top_images/banner_Pickup_TEKIZAI.jpg" alt="">
+					</div>
+				</li>
+				<li class="mosaic-block slideup">
+					<a class="mosaic-overlay" href="/solution/repair/">
+						<div class="details">
+							<h3>マンション<br>大規模<br>修繕サービス</h3>
+						</div>
+					</a>
+					<div class="mosaic-backdrop">
+						<img src="http://www.smcon.co.jp/wp-content/themes/smc/resource/images/top_images/pickup_02.png" alt="">
+					</div>
+				</li>
+				<li class="mosaic-block slideup">
+					<a class="mosaic-overlay" href="/solution/taishin/">
+						<div class="details">
+							<h3>耐震免震<br>リニューアル</h3>
+						</div>
+					</a>
+					<div class="mosaic-backdrop">
+						<img src="http://www.smcon.co.jp/wp-content/themes/smc/resource/images/top_images/pickup_03.png" alt="">
+					</div>
+				</li>
+				<li class="mosaic-block slideup">
+					<a class="mosaic-overlay" href="/sukkit/">
+						<div class="details">
+							<h3>SuKKiT</h3>
+						</div>
+					</a>
+					<div class="mosaic-backdrop">
+						<img src="http://www.smcon.co.jp/wp-content/themes/smc/resource/images/top_images/pickup_04.png" alt="">
+					</div>
+				</li>
+			</ul>
+		</div>
+		<!-- pickUpContentsArea -->
+
+		
+	</div>
+
+	<div id="contents" class="clear-fix">
+
+		<div class="flameMainContents fLeft">
+
+			
+			
+
+			<div class="moduleMain01" id="topSpecialContents">
+				<h1 class="mainTitle">スペシャルコンテンツ</h1>
+				<div id="splContentsSlider" class="clear-fix image_carousel">
+					<div id="special_prev" class="fLeft btnLeft"><a href="#"><img src="http://www.smcon.co.jp/wp-content/themes/smc/resource/images/top_images/btn_left.png" alt="" width="15" height="30" /></a></div>
+
+					<ul id="special_carousel" class="fLeft clear-fix">
+
+				
+						<li class="fLeft"><a href="http://www.smcon.co.jp/hashi-girl/2017/06/14/2275/"><img width="165" height="132" src="/wp-content/uploads/2014/04/hg17_banner.png" class="attachment-special_list wp-post-image" alt="hg17_banner" /><p>＃17 あゆみ橋  深海魚好き橋ガールが行く沼津満喫編</p></a></li>
+
+				
+						<li class="fLeft"><a href="http://www.smcon.co.jp/pb_div/2014/12/15/1206"><img width="165" height="132" src="/wp-content/uploads/2013/03/PB_eye1.jpg" class="attachment-special_list wp-post-image" alt="PB_eye" /><p>#11 三井アウトレットパーク木更津、拡張オープン！！</p></a></li>
+
+				
+						<li class="fLeft"><a href="http://www.smcon.co.jp/hashi-girl/2016/10/19/2204/"><img width="165" height="132" src="/wp-content/uploads/2016/10/HG16_bunner.jpg" class="attachment-special_list wp-post-image" alt="HG16_bunner" /><p>#16 光明池大橋<br />なにわの橋ガール登場!</p></a></li>
+
+				
+						<li class="fLeft"><a href="/world-comm/2017-03-29_501/"><img width="165" height="132" src="/wp-content/uploads/2013/03/thumbnail_smccworld.jpg" class="attachment-special_list wp-post-image" alt="thumbnail_smccworld" /><p>通勤時に起こる渋滞の原因(3/29)</p></a></li>
+
+				
+						<li class="fLeft"><a href="/sukkit/"><img width="165" height="132" src="/wp-content/uploads/2013/03/banner_SuKKiT2.jpg" class="attachment-special_list wp-post-image" alt="banner_SuKKiT" /><p>SuKKiTは三井住友建設ブランドの新･集合住宅設計システムです</p></a></li>
+
+				
+						<li class="fLeft"><a href="/company/brochure/"><img width="165" height="132" src="/wp-content/uploads/2013/03/thumbnail_keyvisual.jpg" class="attachment-special_list wp-post-image" alt="thumbnail_keyvisual" /><p>はしも、まちも、ひとも、<br/>
+「生き物」である!？</p></a></li>
+
+				
+					</ul>
+
+					<div id="special_next" class="fRight btnRight"><a href="#"><img src="http://www.smcon.co.jp/wp-content/themes/smc/resource/images/top_images/btn_right.png" alt="" width="15" height="30" /></a></div>
+					<div class="pagination" id="special_pag"></div>
+				</div>
+				<!-- splContentsSlider -->
+			</div>
+			<!-- moduleMain01 -->
+
+						
+			<div class="moduleMain01" id="topNewsItems">
+				<h1 class="mainTitle">新着情報<span class="toList"><a href="http://www.smcon.co.jp/topic">一覧&gt;&nbsp;</a></span></h1>
+				<ul class="modTopicExcerpt">
+
+			
+							
+					<li>
+						<span class="topicDate">2017年8月8日</span>
+
+				
+						<span class="topicCategory topicCategoryIr">IR情報</span>
+						<h2 class="topicTitle"><a href="/pdf/investor/library/earnings/kassantanshin_20170808.pdf">平成30年3月期 第1四半期決算短信〔日本基準〕(連結)</a></h2>
+					</li>
+
+				
+					<li>
+						<span class="topicDate">2017年8月7日</span>
+
+				
+						<span class="topicCategory topicCategoryInfo">お知らせ</span>
+						<h2 class="topicTitle"><a href="http://www.smcon.co.jp/2017/080719593/">第３回市民公開講座「佃・月島の再発見とコミュニティ」を開催します</a></h2>
+					</li>
+
+				
+					<li>
+						<span class="topicDate">2017年6月29日</span>
+
+				
+						<span class="topicCategory topicCategoryRelease">リリース</span>
+						<h2 class="topicTitle"><a href="http://www.smcon.co.jp/2017/062919423/">腐食劣化と決別した超高耐久床版(Dura-Slab)を開発 ─実物大モデルの輪荷重走行実験にて疲労耐久性を確認、実用化へ─</a></h2>
+					</li>
+
+				
+					<li>
+						<span class="topicDate">2017年6月19日</span>
+
+				
+						<span class="topicCategory topicCategoryInfo">お知らせ</span>
+						<h2 class="topicTitle"><a href="http://www.smcon.co.jp/2017/061919405/">参加者募集！「けんせつ小町」が働く建設現場を見学してみませんか？</a></h2>
+					</li>
+
+				
+					<li>
+						<span class="topicDate">2017年6月16日</span>
+
+				
+						<span class="topicCategory topicCategoryRelease">リリース</span>
+						<h2 class="topicTitle"><a href="http://www.smcon.co.jp/2017/061619387/">非常時に船舶・電気自動車の電力を建物へ利用する電源供給システムを開発　─ 実建物にて電気自動車からの電力供給によるエレベーター稼働実証を実施 ─</a></h2>
+					</li>
+
+				
+					<li>
+						<span class="topicDate">2017年6月9日</span>
+
+				
+						<span class="topicCategory topicCategoryRelease">リリース</span>
+						<h2 class="topicTitle"><a href="http://www.smcon.co.jp/2017/060919352/">E-ディフェンスで地震時建物損傷評価システムを震動検証実験し実用化へ ─事業継続計画(BCP)の一環として本社と全国の支店に設置─</a></h2>
+					</li>
+
+				
+					<li>
+						<span class="topicDate">2017年6月5日</span>
+
+				
+						<span class="topicCategory topicCategoryRelease">リリース</span>
+						<h2 class="topicTitle"><a href="http://www.smcon.co.jp/2017/060519304/">自社開発の水上太陽光フロートシステムを用いた太陽光発電所事業に着手－　農業用ため池を利用して2,600kwを出力　－</a></h2>
+					</li>
+
+				
+					<li>
+						<span class="topicDate">2017年6月1日</span>
+
+				
+						<span class="topicCategory topicCategoryIr">IR情報</span>
+						<h2 class="topicTitle"><a href="http://www.smcon.co.jp/investor/stock-information/generalmeeting/">定時株主総会招集ご通知 / 定時株主総会招集ご通知に際してのインターネット開示事項について / NOTICE OF THE ANNUAL GENERAL MEETING OF SHAREHOLDERS</a></h2>
+					</li>
+
+				
+					<li>
+						<span class="topicDate">2017年5月29日</span>
+
+				
+						<span class="topicCategory topicCategoryIr">IR情報</span>
+						<h2 class="topicTitle"><a href="/investor/calender/h29setsumeikai/">平成29年3月期 決算説明会を開催</a></h2>
+					</li>
+
+				
+					<li>
+						<span class="topicDate">2017年5月23日</span>
+
+				
+						<span class="topicCategory topicCategoryIr">IR情報</span>
+						<h2 class="topicTitle"><a href="/pdf/investor/disclosure/kaiji_20170523_2.pdf">株式併合に伴う配当予想の修正に関するお知らせ</a></h2>
+					</li>
+
+													
+				</ul>
+				<div class="modLink01 clear-fix"><p class="fRight"><a href="http://www.smcon.co.jp/category/release/">&gt;&nbsp;ニュースリリース一覧</a></p></div>
+			</div>
+			<!-- moduleMain01 -->
+
+			
+			
+			<div class="moduleMain03">
+				<h1 class="mainTitleMod03" id="pickupContents">ピックアップコンテンツ</h1>
+				<div class="surroundedContents pickupArea clear-fix">
+
+				
+					<ul class="fLeft">
+						<a href="/solution/consultation/">
+							<li><img width="210" height="150" src="/wp-content/uploads/2013/03/topics_01.jpg" class="attachment-topic_banner wp-post-image" alt="マンション建替え相談" /></li>
+							<li>マンション建替え相談室</li>
+						</a>
+					</ul>
+
+				
+					<ul class="fLeft">
+						<a href="/solution/repair/">
+							<li><img width="210" height="150" src="/wp-content/uploads/2013/03/repair1.jpg" class="attachment-topic_banner wp-post-image" alt="repair" /></li>
+							<li>マンション大規模修繕サービス</li>
+						</a>
+					</ul>
+
+				
+					<ul class="fLeft">
+						<a href="/solution/taishin/">
+							<li><img width="210" height="150" src="/wp-content/uploads/2013/03/topics_03.jpg" class="attachment-topic_banner wp-post-image" alt="耐震免震リニューアル" /></li>
+							<li>耐震診断・耐震免震リニューアル</li>
+						</a>
+					</ul>
+
+				
+				</div>
+				<!-- surroundedContents -->
+			</div>
+			<!-- moduleMain02 -->
+
+						
+		</div>
+		<!-- flameMainContents -->
+
+		<div class="flameSidebar fRight">
+
+		
+		
+	
+	
+			<div class="moduleSideSearch" id="frontPageSearch">
+				<h2 class="titleSideActual">施工実績を探す</h2>
+				<ul class="sideSearchActual">
+					<li class="searchBtnArea"><a href="/works/area-search/">地域で探す</a></li>
+					<li class="searchBtnFacility"><a href="/works/facility-usage-search/">施設用途で探す</a></li>
+					<li class="searchBtnPeriod"><a href="/works/year-search/">施工年で探す</a></li>
+				</ul>
+				<!-- sideSearchActual -->
+
+				<h2 class="titleSideKeyword">キーワードから探す</h2>
+
+										<div id="sideSearchArea" class="clear-fix">
+
+					<form method="post" action="/works/keyword-search/">
+						<div class="searchTextarea fLeft">
+							<input type="text" name="sk">
+						</div>
+						<div class="searchBtn fLeft">
+							<input type="image" src="http://www.smcon.co.jp/wp-content/themes/smc/resource/images/common_images/btn_header_search.jpg" value="">
+						</div>
+					</form>
+
+
+				</div>
+			
+				<ul class="sideSearchKeyword clear-fix">
+
+		
+			
+					<li><a href="/works/keyword-search/?keyword=132" >環境</a></li>
+
+			
+					<li><a href="/works/keyword-search/?keyword=133" >解体</a></li>
+
+			
+					<li><a href="/works/keyword-search/?keyword=154" >SuKKiT</a></li>
+
+			
+					<li><a href="/works/keyword-search/?keyword=156" >アウトレット</a></li>
+
+			
+					<li><a href="/works/keyword-search/?keyword=160" >処分場</a></li>
+
+			
+					<li><a href="/works/keyword-search/?keyword=161" >クローズド</a></li>
+
+			
+					<li><a href="/works/keyword-search/?keyword=162" >ダイオキシン</a></li>
+
+			
+					<li><a href="/works/keyword-search/?keyword=165" >GMP対応</a></li>
+
+			
+					<li><a href="/works/keyword-search/?keyword=237" >木造</a></li>
+
+			
+					<li><a href="/works/keyword-search/?keyword=238" >TEKIZAI</a></li>
+
+			
+				</ul>
+				<!-- sideSearchKeyword -->
+
+		
+			</div>
+			<!-- sideSearch -->
+
+	
+			<ul class="moduleSideBanner02">
+				<li><a href="/pdf/oshirase_20170127.pdf" target="_blank"><img src="http://www.smcon.co.jp/wp-content/themes/smc/resource/images/common_images/banner_toushisagi.jpg" alt="" width="230" height="58" /></a></li>
+				<li><a href="/ir/koukoku"><img src="http://www.smcon.co.jp/wp-content/themes/smc/resource/images/common_images/banner_densi_koukoku.jpg" alt="" width="230" height="58" /></a></li>
+				<li><a href="/solution/ppp-pfi/"><img src="http://www.smcon.co.jp/wp-content/themes/smc/resource/images/common_images/banner_ppp_pfi02.jpg" alt="" width="230" height="78" /></a></li>
+				<li><a href="/solution/tekizai/"><img src="http://www.smcon.co.jp/wp-content/themes/smc/resource/images/common_images/banner_tekizai.jpg" alt="" width="230" height="78" /></a></li>
+				<li><a href="http://pv-float.com/"><img src="http://www.smcon.co.jp/wp-content/themes/smc/resource/images/common_images/banner_taiyoukoufuroto.jpg" alt="" width="230" height="78" /></a></li>
+				<li><a href="/sukkit/"><img src="http://www.smcon.co.jp/wp-content/themes/smc/resource/images/common_images/banner_sukkit.jpg" alt="" width="230" height="78" /></a></li>
+				<li class="protrude"><a href="/solution/consultation/"><img src="http://www.smcon.co.jp/wp-content/themes/smc/resource/images/common_images/banner_rebuild.jpg" width="239" height="86" alt="" /></a></li>
+				<li><a href="/solution/taishin/"><img src="http://www.smcon.co.jp/wp-content/themes/smc/resource/images/common_images/banner_repair.jpg" width="230" height="78" alt="" /></a></li>
+			</ul>
+			<!-- sideBanner02 -->
+
+	
+	
+			<div class="moduleSide sideSlider">
+				<h2 class="sideTitle">施工事例</h2>
+				<div id="sideContentsSlider">
+
+					
+					<div class="fLeft">
+						<div class="sideCaseImgArea">
+							<a class="opacityImg" href="http://www.smcon.co.jp/works/2015/072114211/"><img width="204" height="137" src="/wp-content/uploads/2015/07/222de883171b1d627e40673e4afc6eb8.jpg" class="attachment-works_sidebar_list wp-post-image" alt="タイ　ノンタブリ橋1" /></a>
+							<p class="sideCaseImgCategory">橋梁・PC構造物</p>
+						</div>
+						<dl>
+							<dt><a href="http://www.smcon.co.jp/works/2015/072114211/">ノンタブリ橋</a></dt>
+							<dd>タイ王国初のエクストラドーズド橋
+橋 長:460m、最大支間：200m
+PC工学会賞(2015)</dd>
+						</dl>
+					</div>
+
+					
+					<div class="fLeft">
+						<div class="sideCaseImgArea">
+							<a class="opacityImg" href="http://www.smcon.co.jp/works/2015/071614166/"><img width="182" height="137" src="/wp-content/uploads/2015/07/3431201101.jpg" class="attachment-works_sidebar_list wp-post-image" alt="3431201101" /></a>
+							<p class="sideCaseImgCategory">橋梁・PC構造物</p>
+						</div>
+						<dl>
+							<dt><a href="http://www.smcon.co.jp/works/2015/071614166/">桶川第２高架橋</a></dt>
+							<dd>世界初のバタフライウェブを用いたプレキャストセグメント橋　
+橋 長:3,089m、最大支間53.0m
+PC工学会賞(2015)</dd>
+						</dl>
+					</div>
+
+					
+					<div class="fLeft">
+						<div class="sideCaseImgArea">
+							<a class="opacityImg" href="http://www.smcon.co.jp/works/2015/071514129/"><img width="91" height="137" src="/wp-content/uploads/2015/07/W800Q100_3930800301.jpg" class="attachment-works_sidebar_list wp-post-image" alt="W800Q100_3930800301" /></a>
+							<p class="sideCaseImgCategory">橋梁・PC構造物</p>
+						</div>
+						<dl>
+							<dt><a href="http://www.smcon.co.jp/works/2015/071514129/">郡界川橋</a></dt>
+							<dd>国内最大規模の連続ラーメン橋
+橋長740m、最大支間124m
+PC工学会賞(2015)</dd>
+						</dl>
+					</div>
+
+					
+					<div class="fLeft">
+						<div class="sideCaseImgArea">
+							<a class="opacityImg" href="http://www.smcon.co.jp/works/2015/070113908/"><img width="182" height="137" src="/wp-content/uploads/2015/07/e000014-2.jpg" class="attachment-works_sidebar_list wp-post-image" alt="e000014 (2)" /></a>
+							<p class="sideCaseImgCategory">エネルギー関連</p>
+						</div>
+						<dl>
+							<dt><a href="http://www.smcon.co.jp/works/2015/070113908/">三田川太陽光発電所</a></dt>
+							<dd>発電出力：1,000kW
+太陽電池：多結晶シリコン型250W×4,396枚=1,099kW
+パワーコンディショナー：500kW×2台</dd>
+						</dl>
+					</div>
+
+		
+				</div>
+				<!-- sideContentsSlider -->
+			</div>
+			<!-- sideSlider -->
+
+		
+		</div>
+		<!-- flameSidebar -->
+
+	</div>
+	<!-- contents -->
+
+    <div id="flameFooter">
+
+    <div class="pageTop">
+    	<p class="inner">
+        	<a href="#" onClick="scrollup(); return false;">ページの先頭に戻る</a>
+        </p>
+	</div>
+    	
+        <ul class="moduleFooterUpper clear-fix">
+			<li class="fLeft"><a href="https://builder-http01.inet-builder.jp/smcon/IB_login.html"><img src="http://www.smcon.co.jp/wp-content/themes/smc/resource/images/common_images/btn_inetbuilder.jpg" alt="会員専用ページ" width="249" height="33" /></a></li>
+			<li class="fLeft"><a href="https://foreman.smcon.co.jp/pms/index.html"><img src="http://www.smcon.co.jp/wp-content/themes/smc/resource/images/common_images/btn_foreman.jpg" width="173" height="32" alt="施工管理プラットフォーム" /></a></li>
+			<li class="fLeft"><a href="/torihikisaki"><img src="http://www.smcon.co.jp/wp-content/themes/smc/resource/images/common_images/btn_trading.jpg" width="165" height="32" alt="取引会社様 ログイン" /></a></li>
+		</ul>
+        <!-- moduleFooterUpper -->
+        
+		<div class="moduleFooterMiddle"></div>
+        <!-- moduleFooterMiddle -->
+
+        <div class="moduleFooterLower">
+			<ul class="moduleFooterLowerInner clear-fix">
+				<li class="fLeft footerNavFlame01 footerNavFlameWidth01">
+					<h3>スペシャルコンテンツ</h3>
+					<h4><a href="/pb_div">特命！プロセスブランディング部</a></h4>
+					<ul class="footerNavIncludedList">
+						<li><a href="/pb_div/about">プロセスブランディング部とは</a></li>
+						<li><a href="/pb_div/member">メンバーProfile</a></li>
+                        <li><a href="/pb_div/rule">チームの掟10カ条</a></li>
+					</ul>
+					<h4><a href="/hashi-girl">橋ガール</a></h4>
+					<ul class="footerNavIncludedList">
+						<li><a href="/hashi-girl/map">橋ガールマップ</a></li>
+					</ul>
+					<h4><a href="/world-comm">SMCC World通信</a></h4>
+					<ul class="footerNavIncludedList">
+						<li><a href="/world-comm/map">リポートマップ</a></li>
+					</ul>
+					<h4><a href="/sukkit">SuKKiTシリーズ</a></h4>
+                    <h4><a href="/company/brochure/#keyVisual">キービジュアルについて</a></h4>
+				</li>
+				<li class="fLeft footerNavFlame01 footerNavFlameWidth02">
+					<h3><a href="/service">技術・サービス</a></h3>
+					<ul>
+						<li><a href="/service/facility-search">施設用途で探す</a></li>
+						<li><a href="/service/technology-search">技術テーマで探す</a></li>
+					</ul>
+					<h3><a href="/works">実績紹介</a></h3>
+					<ul>
+						<li><a href="/works/facility-usage-search">施設用途で探す</a></li>
+						<li><a href="/works/year-search">施工年で探す</a></li>
+						<li><a href="/works/area-search">地域で探す</a></li>
+						<li><a href="/works/#works-keyword">キーワードで探す</a></li>
+						<li><a href="/works/area-search/?countries=search">海外実績</a></li>
+					</ul>
+				</li>
+				<li class="fLeft footerNavFlame02 footerNavFlameWidth03">
+					<h3><a href="/solution">三井住友建設のソリューション</a></h3>
+					<ul>
+						<!-- <li><a href="/solution/engineering-report">エンジニアリングレポート</a></li> -->
+						<li><a href="/solution/repair">マンション大規模修繕サービス</a></li>
+                        <li><a href="/solution/consultation">マンション建替え相談室</a></li>
+                        <li><a href="/solution/taishin">耐震免震リニューアル</a></li>
+					</ul>
+				</li>
+				<li class="fLeft footerNavFlame02 footerNavFlameWidth04">
+					<h3><a href="/company">会社情報</a></h3>
+					<ul>
+						<li><a href="/company">会社情報</a></li>
+						<li><a href="/csr">CSR</a></li>
+						<li><a href="/category/release">ニュースリリース</a></li>
+					</ul>
+				</li>
+				<li class="fLeft footerNavFlame02 footerNavFlameWidth05">
+					<h3><a href="/investor">IR情報</a></h3>
+					<ul>
+						<li><a href="/investor/message">株主の皆さまへ</a></li>
+						<li><a href="/investor/ir-news">IR最新情報一覧</a></li>
+						<li><a href="/investor/library">IRライブラリー</a></li>
+						<li><a href="/investor/calender">IRカレンダー</a></li>
+						<li><a href="/investor/disclosure">開示情報</a></li>
+						<li><a href="/investor/stock-information">株主総会・株式情報</a></li>
+						<li><a href="/investor/faq">FAQ</a></li>
+						<li><a href="/investor/disclosure-policy">ディスクロージャーポリシー</a></li>
+					</ul>
+				</li>
+				<li class="fLeft footerNavFlame03 footerNavFlameWidth06">
+					<h3><a href="/recruit">採用情報</a></h3>
+					<ul>
+						<li><a href="/recruit/fresh/" target="_blank">新卒採用</a></li>
+						<li><a href="/recruit/career-requirement">キャリア採用</a></li>
+						<li><a href="/recruit/projects">プロジェクトの紹介</a></li>
+						<li><a href="/recruit/interview">社員紹介</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+        <!-- moduleFooterLower -->
+
+        <div class="moduleFooterBottom">
+			<div class="moduleFooterBottomInner clear-fix">
+				<div id="copyright" class="fLeft">Copyright &copy; SUMITOMO MITSUI CONSTRUCTION CO., LTD all rights reserved.</div>
+				<ul id="footerLowerNav" class="fRight clear-fix">
+					<li class="fLeft"><a href="/company/enviornment/security-policy/">情報セキュリティ基本方針</a></li>
+					<li class="fLeft"><a href="/howtouse">サイトのご利用方法</a></li>
+					<li class="fLeft"><a href="/sitemap">サイトマップ</a></li>
+					<li class="fLeft"><a href="/contact">お問い合わせ</a></li>
+					<li class="fLeft"><a href="/en" target="_blank">English</a></li>
+				</ul>
+			</div>
+        </div>
+        <!-- moduleFooterBottom -->
+
+    </div>
+	<!-- flameFooter -->
+</div>
+<!-- wrapper -->
+
+<script type='text/javascript' src='http://www.smcon.co.jp/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.25.0-2013.01.18'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/www.smcon.co.jp\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","sending":"\u9001\u4fe1\u4e2d ..."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.smcon.co.jp/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=3.3.3'></script>
+<script type='text/javascript' src='http://www.smcon.co.jp/wp-content/themes/smc/resource/js/smc_search.js?ver=1.0'></script>
+		<script type="text/javascript">
+	function finitSlideshow() {
+	jQuery("h2.imageTitleNo_0").text("はしも、まちも、ひとも。");
+jQuery("ul#sliderNavi li#imageNo_0 a").append('<img src="/wp-content/uploads/2014/07/icon_01.png" />');
+jQuery("h2.imageTitleNo_1").text("備前♥日生大橋 (岡山県)");
+jQuery("ul#sliderNavi li#imageNo_1 a").append('<img src="/wp-content/uploads/2015/10/1507thumb.jpg" />');
+jQuery("h2.imageTitleNo_2").text("つばさ橋 (カンボジア)");
+jQuery("ul#sliderNavi li#imageNo_2 a").append('<img src="/wp-content/uploads/2015/10/tsubasa_thumb.jpg" />');
+jQuery("h2.imageTitleNo_3").text("ビッグルーフ滝沢");
+jQuery("ul#sliderNavi li#imageNo_3 a").append('<img src="/wp-content/uploads/2016/11/takizawa11.jpg" />');
+		// jQuery('h2.imageTitleNo_1').text(''),
+		// jQuery('h2.imageTitleNo_2').text(''),
+		// jQuery('h2.imageTitleNo_3').text(''),
+		// jQuery('p.imageDescNo_0').text(''),
+		// jQuery('p.imageDescNo_1').text(''),
+		// jQuery('p.imageDescNo_2').text('');
+		// jQuery('p.imageDescNo_3').text('');
+	}
+</script>
+
+<script type="text/javascript" src="http://www.smcon.co.jp/wp-content/themes/smc/resource/js/mosaic.1.0.1.min.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($){
+		$('.slideup').mosaic({
+			animation : 'slide'
+		});
+	});
+</script>
+<!-- User Insight PCDF Code Start : smcon.co.jp -->
+<script type="text/javascript">
+<!--
+var uilid  = '';
+var uigr_1   = ''; var uigr_2 = ''; var uigr_3 = ''; var uigr_4 = ''; var uigr_5 = '';
+var uigr_6   = ''; var uigr_7 = ''; var uigr_8 = ''; var uigr_9 = ''; var uigr_10 = '';
+
+// DO NOT ALTER BELOW THIS LINE
+// WITHOUT F.P.C.
+
+
+var uicount = uicount || 0;
+uicount += 1;
+if(typeof uiinit != "undefined") uicount +=1;
+
+var uiinit   = uiinit || Math.floor(Math.random() * 9000000) + 1000000;
+var uihost   = uihost || (("https:" == document.location.protocol) ? "https://bs." : "http://b10.")+"nakanohito.jp/b1/";
+document.write("<img id='id_shellfish' style='position: absolute' src='"+uihost+"?uisv=10&id=31690&mode=default&h=72da&rand="+uiinit+"&url="+encodeURIComponent(parent.document.URL)+"&ref="+encodeURIComponent(parent.document.referrer)+"&uigr_1="+encodeURIComponent(uigr_1)+"&uigr_2="+encodeURIComponent(uigr_2)+"&uigr_3="+encodeURIComponent(uigr_3)+"&uigr_4="+encodeURIComponent(uigr_4)+"&uigr_5="+encodeURIComponent(uigr_5)+"&uigr_6="+encodeURIComponent(uigr_6)+"&uigr_7="+encodeURIComponent(uigr_7)+"&uigr_8="+encodeURIComponent(uigr_8)+"&uigr_9="+encodeURIComponent(uigr_9)+"&uigr_10="+encodeURIComponent(uigr_10)+"&lv="+uilid+"&sb="+encodeURIComponent(document.title)+"&guid=ON&eflg=1' border='0' width='1' height='1' alt='' />");
+if (typeof document.documentElement.style.maxHeight != "undefined" && uicount == 1) {
+document.write('<span  style="position: absolute" id="id_bivalves"></span>'); document.write(decodeURI("%3Cscr"+"ipt src='"+uihost+"bivalves.js' charset='utf-8' type='text/javascript'%3E%3C/script%3E")); var uiLimit = 3000, uiInterval = 50, uiTime = 0; var uiLoadedId = setInterval(function(){ if ((typeof(Vesicomyid) != "undefined") && (typeof(Vesicomyid.Bivalves) != "undefined") && (typeof(Vesicomyid.Bivalves.Loaded) == "function") ) { clearInterval(uiLoadedId); try { var lb = new Vesicomyid.Bivalves(31690, uiinit); lb.host = uihost; lb.uisv = 10; lb.init(); } catch (err) { } } else if ((uiTime += uiInterval) > uiLimit) { clearInterval(uiLoadedId); } }, uiInterval);
+}
+
+//-->
+</script>
+<!-- User Insight PCDF Code End : smcon.co.jp -->
+</body>
+</html>

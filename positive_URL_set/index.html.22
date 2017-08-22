@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="description" content="電気防食 , 腐食調査">
+<meta name="keywords" content="電気防食 , 腐食調査 , 腐食 , 調査 , 防食 , 錆 , 鉄 , 鋼材 , アルミニウム合金陽極 , 電極 , 異種金属 , 流電 , 外部電源 , ペトロラタム , 被覆 , 鉄イオン , コンクリート , 塩害 , 鉄筋 , レジオネラ">
+<title>IR情報｜株式会社ナカボーテック</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css">
+<link href="../img/common/favicon.ico" rel="SHORTCUT ICON" >
+
+<script src="../js/jquery-1.8.3.min.js"></script><!--for pulldownmenu-->
+<script src="../js/script.js"></script>
+<script src="../js/biggerlink.js"></script>
+<script src="../js/openWindow.js"></script>
+<!--[if lt IE 9]>
+<script src="js/html5shiv-printshiv.js"></script>
+<![endif]-->
+
+<script src="../js/1.11.2/jquery.min.js"></script>
+<script>//スマホ用　メニュー
+	$(function(){
+		$(".menu-btn").click(function(){
+			$("#navi").slideToggle(300);
+		});
+	});	
+</script>
+
+<script src="../js/modal.js"></script>
+
+<style type="text/css">
+th{width:70px;}
+</style>
+</head>
+
+<body id="pageHome">
+ <div id="wrapper">
+  <header id="header">
+   <div class="headerInner clearfix">
+    <div class="logo"><h1>電気防食のパイオニア</h1><a id="logo" href="../index.html"><img src="../img/common/logo.png" alt="株式会社ナカボーテック"></a></div>
+    <div class="jasdaq"><img src="../img/common/jasdaq.png" alt="JASDAQ 証券コード1787"></div>
+    <div class="blockRight">
+     <ul class="inquiryList">
+      <li id="naviInquiry"><a href="../inquiry/contact.html">お問い合わせ</a></li>
+      <li id="naviPolicy"><a href="../privacy_policy/index.html">個人情報保護方針</a></li>
+      <li id="naviEnglish"><a href="../english/index.html">ENGLISH</a></li>
+     </ul>
+     <ul class="inquiryListSP">
+      <li><a href="../inquiry/contact.html"><i class="fa fa-envelope"></i></a><span>メール</span></li>
+      <li><a href="../privacy_policy/index.html"><i class="fa fa-key"></i></a><span class="privacy">個人情報保護</span></li>
+      <li><a href="../english/index.html"><i class="fa fa-language"></i></a><span>English</span></li>
+      <li id="button" class="menu-btn"><a href="#"><i class="fa fa-list-ul"></i></a><span>メニュー</span></li>
+     </ul>
+    </div>
+    <!-- Google Search -->
+    <div class="searchBlock">
+     <form id="cse-search-box" action="http://google.com/cse">
+      <input type="hidden" name="cx" value="011683261144231158996:e69afu3fniq" >
+      <input type="hidden" name="ie" value="UTF-8" >
+      <input type="text" name="q" size="25" placeholder="サイト内検索" >
+      <input type="submit" name="sa" value="検索" >
+     </form>
+    </div>
+    <!-- Google  Search-->
+   </div><!-- /#headerInner -->
+  </header><!-- /#header -->
+
+  <nav id="navi">
+   <ul class="naviList clearfix">
+    <li id="naviCompany"><a href="../company/index.html">会社情報</a>
+     <div class="sub">
+      <div class="navSection">
+       <div class="sub-menu subList">
+        <p class="title"><i class="fa fa-caret-right fa-fw"></i><a href="../company/index.html">会社概要</a></p>
+        <p class="title"><i class="fa fa-caret-right fa-fw"></i><a href="../company/greeting.html">ごあいさつ</a></p>
+        <p class="title"><i class="fa fa-caret-right fa-fw"></i><a href="../company/enkaku.html">沿革</a></p>
+        <p class="title"><i class="fa fa-caret-right fa-fw"></i><a href="../company/office.html">営業拠点</a></p>
+        <p class="title"><i class="fa fa-caret-right fa-fw"></i><a href="../company/factory.html">工場案内</a></p>
+        <p class="title"><i class="fa fa-caret-right fa-fw"></i><a href="../company/environment.html">安全衛生・環境基本方針</a></p>
+        <p class="title"><i class="fa fa-caret-right fa-fw"></i><a href="../company/iso.html">ISO9001</a></p>
+        <p class="title"><i class="fa fa-caret-right fa-fw"></i><a href="../company/shikaku.html">資格一覧</a></p>
+         <p class="title"><i class="fa fa-caret-right fa-fw"></i><a href="../company/actionplan.html">一般事業主行動計画<br>　　（女性活躍推進）</a></p>
+        <p class="title"><i class="fa fa-envelope fa-fw"></i><a href="javascript:openWin4();">お問い合わせ</a></p>
+       </div>
+      </div>
+     </div><!-- /.sub -->
+    </li>
+    <li id="naviJigyo"><a href="../jigyo/index.html">事業案内</a>
+     <div class="sub">
+      <div class="navSection">
+       <div class="sub-menu subList">
+        <p class="title"><i class="fa fa-caret-right fa-fw"></i><a href="../jigyo/index.html">事業案内TOP</a></p>
+        <p class="title"><i class="fa fa-caret-right fa-fw"></i><a href="../jigyo/investigation.html">調査</a></p>
+        <p class="title"><i class="fa fa-caret-right fa-fw"></i><a href="../jigyo/propose.html">対策提案</a></p>
+        <p class="title"><i class="fa fa-caret-right fa-fw"></i><a href="../jigyo/maintenance.html">保守管理</a></p>
+        <p class="title"><i class="fa fa-caret-right fa-fw"></i><a href="../jigyo/marineTop.html">海洋構造物</a></p>
+        <p class="title"><i class="fa fa-caret-right fa-fw"></i><a href="../jigyo/pipelinesTop.html">地中埋設物</a></p>
+        <p class="title"><i class="fa fa-caret-right fa-fw"></i><a href="../jigyo/facilitiesTop.html">陸上設備</a></p>
+        <p class="title"><i class="fa fa-caret-right fa-fw"></i><a href="../jigyo/saltdamageTop.html">塩害コンクリート構造物</a></p>
+        <p class="title"><i class="fa fa-caret-right fa-fw"></i><a href="../jigyo/kokusai.html">海外事業</a></p>
+        <p class="title"><i class="fa fa-caret-right fa-fw"></i><a href="../jigyo/results.html">工事実績紹介</a></p>
+        <p class="title"><i class="fa fa-envelope fa-fw"></i><a href="javascript:openWin1();">お問い合わせ</a></p>
+       </div>
+      </div>
+     </div><!-- /.sub -->
+    </li>
+    <li id="naviTechnology"><a href="../techinfo/index.html">技術情報</a>
+     <div class="sub">
+      <div class="navSection">
+       <div class="sub-menu subList">
+        <p class="title"><i class="fa fa-caret-right fa-fw"></i><a href="../techinfo/index.html">ナカボーレポート</a></p>
+        <p class="title"><i class="fa fa-caret-right fa-fw"></i><a href="../techinfo/ronbun.html">技術発表・論文投稿</a></p>
+        <p class="title"><i class="fa fa-caret-right fa-fw"></i><a href="../techinfo/study.html">共同研究</a></p>
+       </div>
+      </div>
+     </div><!-- /.sub -->
+    </li>
+    <li id="naviOffice"><a href="../company/office.html">営業拠点</a></li>
+    <li id="naviIRS"><a href="index.html">IR情報</a>
+     <div class="sub">
+      <div class="navSection">
+       <div class="sub-menu subList">
+        <p class="title"><i class="fa fa-caret-right fa-fw"></i><a href="koukoku.html">電子公告</a></p>
+        <p class="title"><i class="fa fa-envelope fa-fw"></i><a href="javascript:openWin2();">お問い合わせ</a></p>
+       </div>
+      </div>
+     </div><!-- /.sub -->
+    </li>
+    <li id="naviRecruit"><a href="../recruit/index.html">採用情報</a>
+     <div class="sub">
+      <div class="navSection">
+       <div class="sub-menu subList">
+        <p class="title"><i class="fa fa-caret-right fa-fw"></i><a href="../recruit/index.html">新卒採用TOP</a></p>
+        <p class="title"><i class="fa fa-caret-right fa-fw"></i><a href="../recruit/recruit01.html">新卒採用</a></p>
+        <p class="title"><i class="fa fa-caret-right fa-fw"></i><a href="../recruit/recruit02.html">キャリア採用</a></p>
+        <p class="title"><i class="fa fa-caret-right fa-fw"></i><a href="../recruit/introindex.html">社員紹介</a></p>
+        <p class="title"><i class="fa fa-envelope fa-fw"></i><a href="javascript:openWin3();">お問い合わせ</a></p>
+       </div>
+      </div>
+     </div><!-- /.sub -->
+    </li>
+   </ul>
+   <p class="list-close menu-btn" title="close"><i class="fa fa-times-circle"></i> 閉じる</p>
+  </nav><!-- /#nav -->
+
+
+  <div id="contents" class="clearfix">
+   <div id="main">
+
+    <div class="breadcrumbs">
+     <ul>
+      <li><span class="home"><i class="fa fa-home"></i><a href="../index.html">HOME</a></span> &gt;</li>
+      <!--li><a href="index.html">IR情報</a> &gt;</li-->
+      <li><em>IR情報</em></li>
+     </ul>
+     <div class="submenu-btn"><a href="#sub"><i class="fa fa-bars"></i></a><span>サブメニュー</span></div>
+    </div>
+
+    <h1 class="headline05">IR情報</h1>
+    <p class="right"><img src="images/jasdaq_250.jpg" alt="JASDAQ 証券コード1787"></p>
+    <h3 class="headline07">投資家の皆様へ</h3>
+    <div class="viewport"><div class="overview"><p class="text clearfix">※当サイトをご利用される方は必ず<a class="trigger01_01" href="javascript:void(0)">免責事項</a>をお読み下さい。</p></div></div>
+    <h2 class="headline4">報告書</h2>
+
+<br>
+
+    <table class="detailTable ir">
+     <tr>
+      <th><a href="pdf/nenji_2903.pdf" target="_blank"><img src="../img/common/iconPDF_off.png"></a><br></th>
+      <td><a href="pdf/nenji_2903.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i>第74期　年次報告書　[573KB]</a><span>（平成28年4月1日から平成29年3月31日まで）</span></td>
+     </tr><tr>
+      <th><a href="pdf/tyukan_2812.pdf" target="_blank"><img src="../img/common/iconPDF_off.png"></a><br></th>
+      <td><a href="pdf/tyukan_2812.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i>第74期　中間報告書　[209KB]</a><span>（平成28年4月1日から平成28年9月30日まで）</span></td>
+     </tr><tr>
+      <th><a href="pdf/nenji_2803.pdf" target="_blank"><img src="../img/common/iconPDF_off.png"></a><br></th>
+      <td><a href="pdf/nenji_2803.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i>第73期　年次報告書　[697KB]</a><span>（平成27年4月1日から平成28年3月31日まで）</span></td>
+     </tr><tr>
+      <th><a href="pdf/tyukan_2712.pdf" target="_blank"><img src="../img/common/iconPDF_off.png"></a><br></th>
+      <td><a href="pdf/tyukan_2712.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i>第73期　中間報告書　[212KB]</a><span>（平成27年4月1日から平成27年9月30日まで）</span></td>
+     </tr>
+     <tr>
+      <th><a href="pdf/nenji_2703.pdf" target="_blank"><img src="../img/common/iconPDF_off.png"></a><br></th>
+      <td><a href="pdf/nenji_2703.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i>第72期　年次報告書　[757KB]</a><span>（平成26年4月1日から平成27年3月31日まで）</span></td>
+     </tr>
+     <tr>
+      <th><a href="pdf/tyukan_2612.pdf" target="_blank"><img src="../img/common/iconPDF_off.png"></a><br></th>
+      <td><a href="pdf/tyukan_2612.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i>第72期　中間報告書　[226KB]</a><span>（平成26年4月1日から平成26年9月30日まで）</span></td>
+     </tr>
+     <tr>
+      <th><a href="pdf/nenji_2603.pdf" target="_blank"><img src="../img/common/iconPDF_off.png"></a><br></th>
+      <td><a href="pdf/nenji_2603.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i>第71期　年次報告書　[574KB]</a><span>（平成25年4月1日から平成26年3月31日まで）</span></td>
+     </tr>
+     <tr>
+      <th><a href="pdf/tyukan_2512.pdf" target="_blank"><img src="../img/common/iconPDF_off.png"></a><br></th>
+      <td><a href="pdf/tyukan_2512.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i>第71期　中間報告書　[223KB]</a><span>（平成25年4月1日から平成25年9月30日まで）</span></td>
+     </tr>
+     <tr>
+      <th><a href="pdf/nenji_2503.pdf" target="_blank"><img src="../img/common/iconPDF_off.png"></a><br></th>
+      <td><a href="pdf/nenji_2503.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i>第70期 年次報告書　[742KB]</a><span>（平成24年4月1日から平成25年3月31日まで）</span></td>
+     </tr>
+     <tr>
+      <th><a href="pdf/tyukan_2412.pdf" target="_blank"><img src="../img/common/iconPDF_off.png"></a><br></th>
+      <td><a href="pdf/tyukan_2412.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i>第70期　中間報告書　[229KB]</a><span>（平成24年4月1日から平成24年9月30日まで）</span></td>
+     </tr>
+    </table>
+
+<br>
+<br>
+
+    <h2 class="headline4">決算短信</h2>
+
+<br>
+
+    <table class="detailTable ir">
+     <tr>
+      <th><a href="pdf/shihanki-1_3003.pdf" target="_blank"><img src="../img/common/iconPDF_off.png"></a><br></th>
+      <td><a href="pdf/shihanki-1_3003.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i>平成30年3月期第1四半期決算短信〔日本基準〕（非連結）[921KB]</a></td>
+     </tr><tr>
+      <th><a href="pdf/tanshin_2903.pdf" target="_blank"><img src="../img/common/iconPDF_off.png"></a><br></th>
+      <td><a href="pdf/tanshin_2903.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i>平成29年3月期 決算短信〔日本基準〕（非連結）[1760KB]</a></td>
+     </tr><tr>
+      <th><a href="pdf/shihanki-3_2903.pdf" target="_blank"><img src="../img/common/iconPDF_off.png"></a><br></th>
+      <td><a href="pdf/shihanki-3_2903.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i>平成29年3月期第3四半期決算短信〔日本基準〕（非連結）[964KB]</a></td>
+     </tr><tr>
+      <th><a href="pdf/shihanki-2_2903.pdf" target="_blank"><img src="../img/common/iconPDF_off.png"></a><br></th>
+      <td><a href="pdf/shihanki-2_2903.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i>平成29年3月期第2四半期決算短信〔日本基準〕（非連結）[1239KB]</a></td>
+     </tr><tr>
+      <th><a href="pdf/shihanki-1_2903.pdf" target="_blank"><img src="../img/common/iconPDF_off.png"></a><br></th>
+      <td><a href="pdf/shihanki-1_2903.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i>平成29年3月期第1四半期決算短信〔日本基準〕（非連結）[968KB]</a></td>
+     </tr><tr>
+      <th><a href="pdf/tanshin_2803.pdf" target="_blank"><img src="../img/common/iconPDF_off.png"></a><br></th>
+      <td><a href="pdf/tanshin_2803.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i>平成28年3月期 決算短信〔日本基準〕（非連結）[2341KB]</a></td>
+     </tr><tr>
+      <th><a href="pdf/shihanki-3_2803.pdf" target="_blank"><img src="../img/common/iconPDF_off.png"></a><br></th>
+      <td><a href="pdf/shihanki-3_2803.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i>平成28年3月期第3四半期決算短信〔日本基準〕（非連結）[940KB]</a></td>
+     </tr><tr>
+      <th><a href="pdf/shihanki-2_2803.pdf" target="_blank"><img src="../img/common/iconPDF_off.png"></a><br></th>
+      <td><a href="pdf/shihanki-2_2803.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i>平成28年3月期第2四半期決算短信〔日本基準〕（非連結）[1208KB]</a></td>
+     </tr>
+     <tr>
+      <th><a href="pdf/shihanki-1_2803.pdf" target="_blank"><img src="../img/common/iconPDF_off.png"></a><br></th>
+      <td><a href="pdf/shihanki-1_2803.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i>平成28年3月期第1四半期決算短信〔日本基準〕（非連結）[565KB]</a></td>
+     </tr>
+     <tr>
+      <th><a href="pdf/tanshin_2703.pdf" target="_blank"><img src="../img/common/iconPDF_off.png"></a><br></th>
+      <td><a href="pdf/tanshin_2703.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i>平成27年3月期 決算短信〔日本基準〕（非連結）[2364KB]</a></td>
+     </tr>
+     <tr>
+      <th><a href="pdf/shihanki-3_2703.pdf" target="_blank"><img src="../img/common/iconPDF_off.png"></a><br></th>
+      <td><a href="pdf/shihanki-3_2703.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i>平成27年3月期第3四半期決算短信〔日本基準〕（非連結）[955KB]</a></td>
+     </tr>
+     <tr>
+      <th><a href="pdf/shihanki-2_2703.pdf" target="_blank"><img src="../img/common/iconPDF_off.png"></a><br></th>
+      <td><a href="pdf/shihanki-2_2703.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i>平成27年3月期第2四半期決算短信〔日本基準〕（非連結）[1271KB]</a></td>
+     </tr>
+     <tr>
+      <th><a href="pdf/shihanki-1_2703.pdf" target="_blank"><img src="../img/common/iconPDF_off.png"></a><br></th>
+      <td><a href="pdf/shihanki-1_2703.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i>平成27年3月期第1四半期決算短信〔日本基準〕（非連結）[296KB]</a></td>
+     </tr>
+     <tr>
+      <th><a href="pdf/tanshin_2603.pdf" target="_blank"><img src="../img/common/iconPDF_off.png"></a><br></th>
+      <td><a href="pdf/tanshin_2603.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i>平成26年3月期 決算短信〔日本基準〕（非連結）[998KB]</a></td>
+     </tr>
+     <tr>
+      <th><a href="pdf/shihanki-3_2603.pdf" target="_blank"><img src="../img/common/iconPDF_off.png"></a><br></th>
+      <td><a href="pdf/shihanki-3_2603.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i>平成26年3月期 第3四半期決算短信〔日本基準〕（非連結）[297KB]</a></td>
+     </tr>
+     <tr>
+      <th><a href="pdf/shihanki-2_2603.pdf" target="_blank"><img src="../img/common/iconPDF_off.png"></a><br></th>
+      <td><a href="pdf/shihanki-2_2603.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i>平成26年3月期 第2四半期決算短信〔日本基準〕（非連結）[308KB]</a></td>
+     </tr>
+     <tr>
+      <th><a href="pdf/shihanki-1_2603.pdf" target="_blank"><img src="../img/common/iconPDF_off.png"></a><br></th>
+      <td><a href="pdf/shihanki-1_2603.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i>平成26年3月期 第1四半期決算短信〔日本基準〕（非連結）[293KB]</a></td>
+     </tr>
+     <tr>
+      <th><a href="pdf/tanshin_2503.pdf" target="_blank"><img src="../img/common/iconPDF_off.png"></a><br></th>
+      <td><a href="pdf/tanshin_2503.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i>平成25年3月期 決算短信〔日本基準〕（非連結）[602KB]</a></td>
+     </tr>
+     <tr>
+      <th><a href="pdf/shihanki-3_2503.pdf" target="_blank"><img src="../img/common/iconPDF_off.png"></a><br></th>
+      <td><a href="pdf/shihanki-3_2503.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i>平成25年3月期 第3四半期決算短信〔日本基準〕（非連結）[309KB]</a></td>
+     </tr>
+     <tr>
+      <th><a href="pdf/shihanki-2_2503.pdf" target="_blank"><img src="../img/common/iconPDF_off.png"></a><br></th>
+      <td><a href="pdf/shihanki-2_2503.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i>平成25年3月期 第2四半期決算短信〔日本基準〕（非連結）[318KB]</a></td>
+     </tr>
+     <tr>
+      <th><a href="pdf/shihanki-1_2503.pdf" target="_blank"><img src="../img/common/iconPDF_off.png"></a><br></th>
+      <td><a href="pdf/shihanki-1_2503.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i>平成25年3月期 第1四半期決算短信〔日本基準〕（非連結）[308KB]</a></td>
+     </tr>
+    </table>
+
+<br>
+<br>
+
+    <h2 class="headline4">リンク</h2>
+
+<br>
+    <table class="detailTable">
+     <tr>
+      <td><a href="http://stocks.finance.yahoo.co.jp/stocks/detail/?code=1787.T" target="_blank">株価推移（JASDAQ）<i class="fa fa-link"></i></a></td>
+     </tr>
+     <tr>
+      <td><a href="http://www.smtb.jp/personal/agency/index.html" target="_blank">株式に関するお手続き（三井住友信託銀行）<i class="fa fa-link"></i></a></td>
+     </tr>
+    </table>
+
+
+   </div><!-- /#main -->
+
+   <aside id="side">
+    <div class="sideBlock" id="sub">
+     <p class="sideTitle">IR情報</p>
+     <ul class="accordion">
+      <li class="active"><a href="index.html"><i class="fa fa-file fa-fw"></i><span>IR情報TOP</span></a></li>
+      <li><a href="koukoku.html"><i class="fa fa-file-o fa-fw"></i><span>電子公告</span></a></li>
+      <li><a href="javascript:openWin2();"><i class="fa fa-envelope-o fa-fw"></i><span>お問い合わせ</span></a></li>
+     </ul>
+     <br>
+     <ul class="menuList clearfix">
+      <li id="menuNew"><a href="../new/index.html">新工法・新材料</a></li>
+      <li id="menuProducts"><a href="../products/index.html">製品紹介</a></li>
+      <li id="menuCatalogue"><a href="../catalogue/index.php">製品・工法カタログ</a></li>
+      <li id="menuPresentation"><a href="../presentation/index.html">プレゼン資料</a></li>
+      <li id="menuTopics"><a href="../topics/index.html">トピックス</a></li>
+      <li id="menuInquiry"><a href="../inquiry/contact.html">お問い合わせ</a></li>
+     </ul>
+    </div><!-- /#sideBlock end -->
+   </aside><!-- /#side -->
+
+
+  </div><!-- /#contents -->
+
+  <p class="pagetop"><a href="#wrapper"><img src="../img/common/btn_top_h.png" ></a></p>
+
+<footer id="footer">
+ <div class="fBlock">
+  <div class="fBlockInner clearfix">
+   <div id="hiddenTxt">電気防食・被覆防食・RC防食でインフラ構造物を支えるナカボーテック</div>
+   <div class="footerContent">
+    <p><i class="fa fa-play-circle"></i>&nbsp;<a href="../company/index.html">会社情報</a></p>
+    <ul class="fNavi clearfix">
+     <li><i class="fa fa-caret-right"></i>&nbsp;<a href="../company/index.html">会社概要</a></li>
+     <li><i class="fa fa-caret-right"></i>&nbsp;<a href="../company/greeting.html">ごあいさつ</a></li>
+     <li><i class="fa fa-caret-right"></i>&nbsp;<a href="../company/enkaku.html">沿革</a></li>
+     <li><i class="fa fa-caret-right"></i>&nbsp;<a href="../company/office.html">営業拠点</a></li>
+     <li><i class="fa fa-caret-right"></i>&nbsp;<a href="../company/factory.html">工場案内</a></li>
+     <li><i class="fa fa-caret-right"></i>&nbsp;<a href="../company/environment.html">安全衛生・環境基本方針</a></li>
+     <li><i class="fa fa-caret-right"></i>&nbsp;<a href="../company/iso.html">ISO9001</a></li>
+     <li><i class="fa fa-caret-right"></i>&nbsp;<a href="../company/shikaku.html">資格一覧</a></li>
+      <li><i class="fa fa-caret-right"></i>&nbsp;<a href="../company/actionplan.html">一般事業主行動計画<br>　(女性活躍推進)</a></li>
+    </ul>
+   </div>
+
+   <div class="footerContent">
+    <p><i class="fa fa-play-circle"></i>&nbsp;<a href="../jigyo/index.html">事業案内</a></p>
+    <ul class="fNavi clearfix">
+     <li><i class="fa fa-caret-right"></i>&nbsp;<a href="../jigyo/investigation.html">調査</a></li>
+     <li><i class="fa fa-caret-right"></i>&nbsp;<a href="../jigyo/propose.html">対策提案</a></li>
+     <li><i class="fa fa-caret-right"></i>&nbsp;<a href="../jigyo/maintenance.html">保守管理</a></li>
+     <li><i class="fa fa-caret-right"></i>&nbsp;<a href="../jigyo/marineTop.html">海洋構造物</a></li>
+     <li><i class="fa fa-caret-right"></i>&nbsp;<a href="../jigyo/pipelinesTop.html">地中埋設物</a></li>
+     <li><i class="fa fa-caret-right"></i>&nbsp;<a href="../jigyo/facilitiesTop.html">陸上施設</a></li>
+     <li><i class="fa fa-caret-right"></i>&nbsp;<a href="../jigyo/saltdamageTop.html">塩害コンクリート構造物</a></li>
+     <li><i class="fa fa-caret-right"></i>&nbsp;<a href="../jigyo/kokusai.html">海外事業</a></li>
+     <li><i class="fa fa-caret-right"></i>&nbsp;<a href="../jigyo/results.html">工事実績紹介</a></li>    
+    </ul>
+   </div>
+
+   <div class="footerContent">
+    <p><i class="fa fa-play-circle"></i>&nbsp;<a href="../techinfo/index.html">技術情報</a></p>
+    <ul class="fNavi clearfix">
+     <li><i class="fa fa-caret-right"></i>&nbsp;<a href="../techinfo/index.html">ナカボーレポート</a></li>
+     <li><i class="fa fa-caret-right"></i>&nbsp;<a href="../techinfo/ronbun.html">技術発表・論文投稿</a></li>
+     <li><i class="fa fa-caret-right"></i>&nbsp;<a href="../techinfo/study.html">共同研究</a></li>
+    </ul>
+   </div>
+
+   <div class="footerContent">
+    <p><i class="fa fa-play-circle"></i>&nbsp;<a href="../company/office.html">営業拠点</a></p>
+   </div>
+
+   <div class="footerContent">
+    <p><i class="fa fa-play-circle"></i>&nbsp;<a href="index.html">IR情報</a></p>
+    <ul class="fNavi clearfix">
+     <li><i class="fa fa-caret-right"></i>&nbsp;<a href="koukoku.html">電子公告</a></li>
+    </ul>
+   </div>
+ 
+   <div class="footerContent">
+    <p><i class="fa fa-play-circle"></i>&nbsp;<a href="../recruit/index.html">採用情報</a></p>
+    <ul class="fNavi clearfix">
+     <li><i class="fa fa-caret-right"></i>&nbsp;<a href="../recruit/recruit01.html">新卒採用</a></li>
+     <li><i class="fa fa-caret-right"></i>&nbsp;<a href="../recruit/recruit02.html">キャリア採用</a></li>
+     <li><i class="fa fa-caret-right"></i>&nbsp;<a href="../recruit/introindex.html">社員紹介</a></li>
+    </ul>
+   </div>
+
+   <div class="footerContent">
+    <p><i class="fa fa-play-circle"></i>&nbsp;<a href="../new/index.html">新工法・新材料</a></p>
+    <p><i class="fa fa-play-circle"></i>&nbsp;<a href="../products/index.html">製品紹介</a></p>
+    <p><i class="fa fa-play-circle"></i>&nbsp;<a href="../catalogue/index.php">製品・工法カタログ</a></p>
+    <p><i class="fa fa-play-circle"></i>&nbsp;<a href="../presentation/index.html">プレゼン資料</a></p>
+    <p><i class="fa fa-play-circle"></i>&nbsp;<a href="../topics/index.html">トピックス</a></p>
+    <p><i class="fa fa-play-circle"></i>&nbsp;<a href="../inquiry/contact.html">お問い合わせ</a></p>
+    <p><i class="fa fa-play-circle"></i>&nbsp;<a href="../privacy_policy/index.html">個人情報保護方針</a></p>
+   </div>
+
+   <div class="footerContent">
+    <p><i class="fa fa-play-circle"></i>&nbsp;<a href="../english/index.html">English</a></p>
+   </div>
+  </div>
+  <!-- /#fBlockInner clearfix -->
+ </div><!-- /#fBlock -->
+ <div class="footerInner">
+  <p id="copyright">Copyright (C) NAKABOHTEC CORROSION PROTECTING CO.,LTD.　All rights reserved.</p>
+ </div><!-- /#footerInner -->
+</footer><!-- /#footer -->
+
+
+</div><!-- /#wrapper -->
+
+
+<div id="modalTrigger01_01" class="modal modalIR">
+ <div class="modalContent">
+  <div class="title">
+   <h3 class="headline4">免責事項</h3>
+  </div>
+  <div class="content clearfix">
+   <div class="scroll">
+    <ul>
+     <li> 本ウェブサイトは、当社の経営戦略に関する情報の提供を目的としたものであり、当社が発行する有価証券の購入や売却を勧誘する目的で作成されたものではありません。投資に関する決定は、ご自身の責任・判断のもとになされますようお願い致します。</li>
+     <li> 本ウェブサイトに掲載されている情報には、当社に関する将来予測や業績予測が記述されていますが、業績結果が経営環境の変化などによって、見通しと異なったものになる可能性があることをご承知おきください。</LI>
+     <li> 本ウェブサイトに掲載されている情報の掲載中止や変更を予告なく行うことがありますので、ご承知おきください。</li>
+     <li> これらの情報を利用することで生じたいかなる損失や損害に対しても、当社は一切責任を負うものではありません。</li>
+    </ul>
+   </div>
+   <p class="copyright">Copyright (C) 2016 NAKABOHTEC CORROSION PROTECTING CO., LTD. All Rights Reserved.</p>
+  </div>
+  <p><a href="javascript:void(0)" class="close">閉じる</a></p>
+ </div>
+</div>
+
+ 
+</body>
+</html>

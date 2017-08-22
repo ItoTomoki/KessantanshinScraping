@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="ja">
+<head>
+
+<meta charset="utf-8" />
+<title>株式会社ソルコム</title>
+<meta name=viewport content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="format-detection" content="telephone=no">
+<meta name="keywords" content="ASP,通信費削減,LAN工事,電話工事,IP電話,通建会社,広島,ISP,プロバイダ,中国地方,NTT" />
+<meta name="description" content="「ソルコム」は中国地方（広島、岡山、山口、鳥取、島根）をターゲットとし、電話工事、土木工事、ネットワーク構築などを手がける総合エンジニアリング企業です。" />
+<link href="http://www.solcom.co.jp/common/css/common.css" rel="stylesheet" type="text/css" media="all" />
+<link href="http://www.solcom.co.jp/common/css/contents.css" rel="stylesheet" type="text/css" media="all" />
+<link href="http://www.solcom.co.jp/common/css/print.css" rel="stylesheet" type="text/css" media="print" />
+<!--[if lt IE 9]>
+<link href="http://www.solcom.co.jp/common/css/ie8.css" rel="stylesheet">
+<script src="http://www.solcom.co.jp/common/js/html5shiv-3.7.0.js"></script>
+<![endif]-->
+<!-- href属性にファビコンファイルのURIを記述 -->
+<link rel="shortcut icon" href="http://www.solcom.co.jp/favicon.ico">
+<!-- コメントアウトしてあるコードは、iOS/Android用のアイコン指定 -->
+<!--
+<meta name="mobile-web-app-capable" content="yes">
+<link rel="icon" sizes="196x196" href="">
+<link rel="apple-touch-icon" sizes="152x152" href="">
+-->
+<script type="text/javascript" src="http://www.solcom.co.jp/common/js/jquery-1.8.2.min.js"></script>
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<script type="text/javascript" src="http://www.solcom.co.jp/common/js/common.js"></script>
+<script>
+$(function(){
+$("#spNavi").css("display","none")//アコーディオンを非表示
+$(".menuBtn").on("click", function() {//起点となる位置
+$(this).parents("#header").next("#spNavi").slideToggle();//アコーディオンする部分
+});
+	$(".clause").on("click", function() {//起点となる位置
+	$(this).parent("#spNavi").slideToggle();//アコーディオンする部分
+	});
+	$('.sub_menu ul').css('display','none');
+	
+	if ($('.active').parent().parent().children('ul').size()){
+		$('.active').parent().parent().children('ul').css('display','block');
+	}
+	if ($('.active').parent().parent().parent().parent().children('ul').size()){
+		$('.active:not(:first)').parent().parent().parent().parent().children('ul').css('display','block');
+	}
+	$(document).on("click", ".sub_menu>li a", function() {
+		if ($(this).parent().children('ul').size()) {
+			$(this).toggleClass("open");
+			$(this).toggleClass("clause");
+			$(this).parent().children('ul').slideToggle(500,'linear');
+			return false;
+		}
+	});
+
+});
+</script>
+
+<link href="http://www.solcom.co.jp/common/css/index.css" rel="stylesheet" type="text/css">
+<link href="http://www.solcom.co.jp/common/css/slider-pro.css" rel="stylesheet" type="text/css" media="all" />
+<script type="text/javascript" src="common/js/jquery.sliderPro.js"></script>
+<script>
+$( document ).ready(function( $ ) {
+  $('#sliderWrap').sliderPro({
+    width: 1500,//横幅
+    aspectRatio: 3.94736842,//縦横比の設定
+    responsive: true,
+    slideAnimationDuration: 2000, //スライドのアニメーションの時間
+    autoplayDelay: 10000, //自動再生の遅延/間隔の設定
+    arrows: false,//左右の矢印
+    buttons: false,//ナビゲーションボタン
+    slideDistance:0,//スライド同士の距離
+    visibleSize: 'auto',//前後のスライドを表示
+    fade: true,
+    fadeDuration: 2000,
+touchSwipe:false,
+    breakpoints: {
+      640: {//表示方法を変えるサイズ	
+      }
+    }
+  });
+$( '.sp-selectable .sp-image' ).parent( 'a' ).on( 'click', function( event ) {
+//eventにimgが来るから親のAの属性のhrefを拾ってlocation.hrefに入れる
+location.href = event.target.parentNode.getAttribute("href")
+});
+});
+</script>
+<script type="text/javascript" src="http://www.solcom.co.jp/common/js/jquery.matchHeight.js"></script>
+<script>
+    $(function(){
+      $('#main .localNavi a .product_menu').matchHeight();	
+    });
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.solcom.co.jp\/wordpress\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.3"}};
+			!function(a,b,c){function d(a){var c,d,e,f=b.createElement("canvas"),g=f.getContext&&f.getContext("2d"),h=String.fromCharCode;return g&&g.fillText?(g.textBaseline="top",g.font="600 32px Arial","flag"===a?(g.fillText(h(55356,56806,55356,56826),0,0),f.toDataURL().length>3e3):"diversity"===a?(g.fillText(h(55356,57221),0,0),c=g.getImageData(16,16,1,1).data,g.fillText(h(55356,57221,55356,57343),0,0),c=g.getImageData(16,16,1,1).data,e=c[0]+","+c[1]+","+c[2]+","+c[3],d!==e):("simple"===a?g.fillText(h(55357,56835),0,0):g.fillText(h(55356,57135),0,0),0!==g.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.solcom.co.jp/wordpress/xmlrpc.php?rsd" />
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-76455215-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</head><body><div id="header">
+  <div class="inner">
+    <h1><a href="http://www.solcom.co.jp/"><img src="http://www.solcom.co.jp/img/common/header_logo.png" alt="株式会社ソルコム"></a></h1>
+    <div id="headerSearch">
+      <div id="search">
+        <script>
+  (function() {
+    var cx = '017960574437007034160:vqscwhpmoi4';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
+      </div>
+    </div>
+    <ul id="sp_menu">
+      <li><a href="http://www.solcom.co.jp/ask/index.html"><img src="http://www.solcom.co.jp/img/common/sp_header_contact.jpg" alt="CONTACT"></a></li>
+      <li class="menuBtn"><a href="#"><img src="http://www.solcom.co.jp/img/common/sp_menu.jpg" alt="MENU"></a></li>
+    </ul>
+  <!-- /.inner --></div>
+  <div id="globalNavigation">
+    <ul>
+      <li><a href="http://www.solcom.co.jp/"><img src="http://www.solcom.co.jp/img/common/sp_gnavi01.png" alt="ホーム"></a></li>
+      <li><a href="http://www.solcom.co.jp/news/"><img src="http://www.solcom.co.jp/img/common/sp_gnavi02.png" alt="ニュースリリース"></a></li>
+      <li><a href="http://www.solcom.co.jp/corporate/index.html"><img src="http://www.solcom.co.jp/img/common/sp_gnavi03.png" alt="会社情報"></a></li>
+      <li><a href="http://www.solcom.co.jp/business_outline/index.html"><img src="http://www.solcom.co.jp/img/common/sp_gnavi04.png" alt="事業案内"></a></li>
+      <li><a href="http://www.solcom.co.jp/ir/index.html"><img src="http://www.solcom.co.jp/img/common/sp_gnavi05.png" alt="IR情報"></a></li>
+      <li><a href="http://www.solcom.co.jp/recruit/index.html"><img src="http://www.solcom.co.jp/img/common/sp_gnavi06.png" alt="採用情報"></a></li>
+    </ul>
+  <!-- /#globalNavigation--></div>
+<!-- header --></div>
+<div id="spNavi">
+  <p class="clause"><img src="http://www.solcom.co.jp/img/common/sp_clause.jpg" alt="閉じる"></p>
+  <ul>
+    <li><a href="http://www.solcom.co.jp/"><img src="http://www.solcom.co.jp/img/common/sp_gnavi01.png" alt="ホーム"></a></li>
+    <li><a href="http://www.solcom.co.jp/news/"><img src="http://www.solcom.co.jp/img/common/sp_gnavi02.png" alt="ニュースリリース"></a></li>
+    <li><a href="http://www.solcom.co.jp/corporate/index.html"><img src="http://www.solcom.co.jp/img/common/sp_gnavi03.png" alt="会社情報"></a></li>
+    <li><a href="http://www.solcom.co.jp/business_outline/index.html"><img src="http://www.solcom.co.jp/img/common/sp_gnavi04.png" alt="事業案内"></a></li>
+    <li><a href="http://www.solcom.co.jp/ir/index.html"><img src="http://www.solcom.co.jp/img/common/sp_gnavi05.png" alt="IR情報"></a></li>
+    <li><a href="http://www.solcom.co.jp/recruit/index.html"><img src="http://www.solcom.co.jp/img/common/sp_gnavi06.png" alt="採用情報"></a></li>
+    </ul>
+</div><div id="sliderWrap" class="slider-pro">
+  <div class="sp-slides">
+<div class="sp-slide"><a href="/anniversary" style="position:realtive; z-index:50; cursor:pointer;"><img class="sp-image" src="img/index/slider04.png" ></a></div>
+    <div class="sp-slide">
+      <img src="img/index/slider01.png">
+    </div>
+    <div class="sp-slide">
+      <img src="img/index/slider02.png">
+    </div>
+    <div class="sp-slide">
+      <img src="img/index/slider03.png">
+    </div>
+  <!--/ sp-slides--></div>
+<!--/ sliderWrap--></div>
+<div id="content" class="">
+  <div class="inner">
+    <div id="main">
+      <div class="localNavi clearfix">
+        <div class="product_menu"><a href="business_outline/access/index.html">
+          <p class="image"><img src="img/index/img_index01.png"></p>
+          <div class="text">
+            <h2 class="icon"><img src="img/index/txt_product01.png" alt="情報通信設備構築事業"></h2>
+            <p>電気通信設備の設計から施工、保守までの一貫したサービスを提供します。</p>
+          </div></a>
+        <!-- /.product_menu --></div>
+        <div class="product_menu"><a href="business_outline/it/index.html">
+          <p class="image"><img src="img/index/img_index02.png"></p>
+          <div class="text">
+          <h2 class="icon"><img src="img/index/txt_product02.png" alt="ITソリューション事業"></h2>
+          <p>最新IT技術を駆使して、システム構築、保守、運用のご要望にお応えします。 </p>
+        </div></a>
+        <!-- /.product_menu --></div>
+        <div class="product_menu"><a href="business_outline/engineering/index.html">
+          <p class="image"><img src="img/index/img_index03.png"></p>
+          <div class="text">
+            <h2 class="icon"><img src="img/index/txt_product03.png" alt="土木事業"></h2>
+            <p>優れた技術と創造力により、情報化の進展と豊かな社会の実現に貢献します。</p>
+          </div></a>
+        <!-- /.product_menu --></div>
+        <div class="product_menu"><a href="business_outline/energy/index.html">
+          <p class="image"><img src="img/index/img_index04.png"></p>
+          <div class="text">
+            <h2 class="icon"><img src="img/index/txt_product04.png" alt="エネルギー・スマート系事業"></h2>
+            <p>人にも地球にもやさしいシステムをトータルソリューションでご提供します。</p>
+          </div></a>
+        <!-- /.product_menu --></div>
+        <div class="product_menu"><a href="business_outline/sales/index.html">
+          <p class="image"><img src="img/index/img_index05.png"></p>
+          <div class="text">
+            <h2 class="icon"><img src="img/index/txt_product05.png" alt="商品販売"></h2>
+            <p>マルチベンダーで対応し、お客様のニーズに合う製品を提案させて頂きます。</p>
+          </div></a>
+        <!-- /.product_menu --></div>
+      <!-- /.localNavi --></div>
+      <div class="localNavi sp">
+        <ul>
+          <li><a href="business_outline/access/index.html"><img src="img/index/localNavi01.jpg" alt="情報通信設備構築事業"></a></li>
+          <li><a href="business_outline/it/index.html"><img src="img/index/localNavi02.jpg" alt="ITソリューション事業"></a></li>
+          <li><a href="business_outline/engineering/index.html"><img src="img/index/localNavi03.jpg" alt="土木事業"></a></li>
+          <li><a href="business_outline/energy/index.html"><img src="img/index/localNavi04.jpg" alt="エネルギー・スマート系事業"></a></li>
+          <li><a href="business_outline/sales/index.html"><img src="img/index/localNavi05.jpg" alt="商品販売"></a></li>
+          <li><a href="business_outline/index.html"><img src="img/index/localNavi06.jpg" alt="事業内容一覧"></a></li>
+        </ul>
+      </div>
+      
+      <div class="topNews">
+        <div class="newsTit">
+          <p class="tit"><img src="img/index/txt_index.png" alt=""></p>
+          <p class="list"><a href="newsList">&gt; 一覧を見る</a></p>
+        </div>
+        <dl class="mb40">
+      
+	<dt><span class=" ir">2017.08.10</span></dt>
+	<dd>
+<a href="http://www.solcom.co.jp/wordpress/wp-content/uploads/2017/08/securities71-02.pdf" target="_blank">四半期報告書（第71期第２四半期）</a>
+</dd>		<dt><span class=" ir">2017.08.09</span></dt>
+	<dd>
+<a href="http://www.solcom.co.jp/wordpress/wp-content/uploads/2017/08/kt29_2shihanki.pdf" target="_blank">平成29年12月期第2四半期決算短信</a>
+</dd>		<dt><span class=" ir">2017.08.09</span></dt>
+	<dd>
+<a href="http://www.solcom.co.jp/wordpress/wp-content/uploads/2017/08/news44.pdf" target="_blank">業績予想の修正に関するお知らせ</a>
+</dd>		<dt><span class=" ir">2017.08.01</span></dt>
+	<dd>
+<a href="http://www.solcom.co.jp/wordpress/wp-content/uploads/2017/08/news43.pdf" target="_blank">株式併合による1株に満たない端数の処理に伴う自己株式の買取りに関するお知らせ</a>
+</dd>		<dt><span class=" news">2017.07.03</span></dt>
+	<dd>
+<a href="http://www.solcom.co.jp/wordpress/wp-content/uploads/2017/07/ptransfer-h2907-01.pdf" target="_blank">人事異動のお知らせ</a>
+</dd>		<dt><span class=" ir">2017.05.15</span></dt>
+	<dd>
+<a href="http://www.solcom.co.jp/wordpress/wp-content/uploads/2017/05/securities71-01.pdf" target="_blank">四半期報告書（第71期第１四半期）</a>
+</dd>		        </dl>
+        <p class="sp_list"><a href="newsList">&gt; 一覧を見る</a></p>
+
+        <div class="newsTit">
+          <p class="sp_center"><img src="img/index/txt_info.png" alt="新着情報"></p>
+        </div>
+        <dl>
+      
+	<dt><span class=" topics">2017.08.17</span></dt>
+	<dd>
+<a href="http://www.solcom.co.jp/wordpress/wp-content/uploads/2017/08/socialprogram_peacememorialpalk-20170727.pdf" target="_blank">平和記念公園一斉清掃への参加</a>
+</dd>
+		<dt><span class=" topics">2017.08.17</span></dt>
+	<dd>
+<a href="http://www.solcom.co.jp/wordpress/wp-content/uploads/2017/08/socialprogram_tottori-20170725.pdf" target="_blank">献血活動に対する感謝状の受領（米子営業所）</a>
+</dd>
+		<dt><span class="topics ">2017.08.03</span></dt>
+	<dd>
+<a href="http://www.solcom.co.jp/wordpress/wp-content/uploads/2017/08/The12th_Infoskillcompe.pdf" target="_blank">第12回光通信工事技能競技会＜全国大会＞の結果について</a>
+</dd>
+		<dt><span class=" car">2017.06.30</span></dt>
+	<dd>
+<a href="http://www.solcom.co.jp/wordpress/wp-content/uploads/2017/06/car_2017houkoku-2.pdf" target="_blank">自動車環境報告書</a>
+</dd>
+		<dt><span class=" car">2017.06.30</span></dt>
+	<dd>
+<a href="http://www.solcom.co.jp/wordpress/wp-content/uploads/2017/06/car_2017keikaku-2.pdf" target="_blank">自動車環境計画書</a>
+</dd>
+		<dt><span class=" topics">2017.04.19</span></dt>
+	<dd>
+<a href="http://www.solcom.co.jp/wordpress/wp-content/uploads/2017/04/socialprogram_tottori-20170409.pd_.pdf" target="_blank">鳥取砂丘一斉清掃活動（春）への参加</a>
+</dd>
+		        </dl>
+      <!-- /.topNews --></div>
+      
+      <div class="index_banner">
+        <p><a href="anniversary"><img src="img/index/ban_anniversary.png" alt="おかげさまで70周年記念"></p>
+        <p><a href="movie/solcom70th.mp4" target="_blank"><img src="img/index/ban_70ayumi.png" alt="ソルコム70年のあゆみ" width="388"></a></p>
+        <p><a href="movie/solcom_cm-170317.mp4" target="_blank"><img src="img/index/ban_inxed.png" alt="TVCMソルコムチャンネル　当社のCMをご覧いただけます" width="388" height="84"></a></p>
+        <p><img src="img/index/img_index06.png" alt="MANAGEMENT SYSTEM"></p>
+      </div>
+      
+    <!-- main --></div>
+<!-- inner --></div>
+<!-- content --></div>
+<div id="footer">
+  <div class="inner">
+    <ul>
+      <li><a href="http://www.solcom.co.jp/sitemap/index.html">サイトマップ</a></li>
+      <li><a href="http://www.solcom.co.jp/privacy/index.html">プライバシーポリシー</a></li>
+      <li><a href="http://www.solcom.co.jp/site_policy/index.html">このサイトについて</a></li>
+      <li><a href="http://www.solcom.co.jp/ask/index.html">お問い合わせ</a></li>
+    </ul>
+    <p id="copyright">&copy; SOLCOM Co.,Ltd. All Rights Reserved.</p>
+  <!-- /.inner --></div>
+<!-- /#footer --></div>
+<p class="pagetop"><a href="#header"><img src="http://www.solcom.co.jp/img/common/pagetop.jpg" alt="PAGETOP" width="46" height="74"></a></p></body>
+</html>

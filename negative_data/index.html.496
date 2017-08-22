@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<!-- for robots -->
+<meta name="robots" content="index, follow" />
+<meta name="revisit-after" content="7 days">
+<meta name="keywords" content="ヴィレッジ、ヴィレッジヴァンガード、ヴィレヴァン、ビレバン、オンライン、本、雑貨" />
+<meta name="description" content="ヴィレッジヴァンガード公式サイト 店舗情報や採用情報、会社情報、IR情報、ニュースリリースを掲載しています。新店舗情報も随時更新中です。" />
+
+<head>
+<title>ヴィレッジヴァンガード</title>
+<link href="http://www.village-v.co.jp/wp-content/themes/villagevanguard/style.css" rel="stylesheet" type="text/css">
+<link rel="apple-touch-icon" href="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/apple-touch-icon.png" />
+
+
+<link href="http://www.village-v.co.jp/wp-content/themes/villagevanguard/css/top_shop.css?date=20140613" rel="stylesheet" type="text/css">
+<script src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/js/jquery-1.7.1.min.js" type="text/javascript"></script>
+<script src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/js/jquery.easing.1.3.js" type="text/javascript"></script>
+<script src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/js/rollover.js" type="text/javascript"></script>
+<script src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/js/jquery.belatedPNG.js" type="text/javascript"></script>
+<script src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/js/parallax.js" type="text/javascript"></script>
+<script src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/js/vv_friends.js" type="text/javascript"></script>
+
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-29522142-1', 'village-v.co.jp');
+ga('require', 'displayfeatures');
+ga('send', 'pageview');
+</script>
+
+</head>
+
+<body>
+<div id="site">
+<div id="bgtop">
+  <div id="wrapper">
+  <!--
+    <div id="headerArea">
+      <h1><a href="/"><img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/logo_off.png" alt="ヴィレッジヴァンガード VILLAGE/VANGUARD" width="274" height="99" /></a></h1>
+      <ul>
+        <li><a href="shopinfo/search/index.html"><img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/company_nav01_off.png" alt="ヴィレヴァンの仲間" width="131" height="99" /></a></li>
+        <li><a href="/news/"><img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/company_nav02_off.png" alt="新着情報" width="71" height="99" /></a></li>
+        <li><a href="/shop/"><img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/company_nav03_off.png" alt="店舗情報" width="76" height="99" /></a></li>
+        <li><a href="/support-supp_info/"><img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/company_nav04_off.png" alt="お客様窓口" width="97" height="99" /></a></li>
+        <li><a href="/shop_recruit/"><img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/company_nav05_off.png" alt="アルバイト情報" width="111" height="99" /></a></li>
+        <li><a href="/company/"><img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/company_nav06_off.png" alt="企業情報" width="83" height="99" /></a></li>
+      </ul>
+    </div>
+    -->
+    <!--headerArea-->
+<div id= "top_main_content">
+	<div id="parallax"> </div>
+	<div id= "pop"> </div>
+	<div id="menu"> </div>
+	<div id="shadow">
+	    <div id="shadow_alpha"></div>
+	    <div id="shadow_block"></div>
+	</div>
+</div>
+
+<!--------------------
+         top
+---------------------->
+<div class="top_content" id= "c0">
+  <div id="contentTop"></div>
+  <!--contentTop-->
+  <div id="contentArea">
+    <div id="contentInner" class="clearfix">
+
+      <!--ここから個別ページ-->
+
+      <div class="topLeft">
+        <div><img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/top/top_ttl_ifno.gif" alt="お知らせ / INFORMATION" width="458" height="26" /></div>
+        <div class="icon-b pt10">
+          <ul>
+                                    <li>
+              2017.08.08              &nbsp;<a href="/support/info/?date=2017-08#9416" title="【お詫び】賞味期限切れ食品の販売に関するお詫びとご購入されたお客様へお願い">
+              【お詫び】賞味期限切れ食品の販売に関するお詫びとご購入されたお…              </a></li>
+                        <li>
+              2017.08.07              &nbsp;<a href="/support/info/?date=2017-08#9388" title="【お詫び】賞味期限切れ食品の販売に関するお詫びとご購入されたお客様へお願い">
+              【お詫び】賞味期限切れ食品の販売に関するお詫びとご購入されたお…              </a></li>
+                        <li>
+              2017.08.07              &nbsp;<a href="/support/info/?date=2017-08#9384" title="【お詫び】賞味期限切れ食品の販売に関するお詫びとご購入されたお客様へお願い">
+              【お詫び】賞味期限切れ食品の販売に関するお詫びとご購入されたお…              </a></li>
+                        <li>
+              2017.08.07              &nbsp;<a href="/support/info/?date=2017-08#9382" title="【お詫び】賞味期限切れ食品の販売に関するお詫びとご購入されたお客様へお願い">
+              【お詫び】賞味期限切れ食品の販売に関するお詫びとご購入されたお…              </a></li>
+                        <li>
+              2017.07.19              &nbsp;<a href="/support/info/?date=2017-07#9094" title="【お詫び】販売価格の間違いに関するお詫びとご購入されたお客様へのお願い">
+              【お詫び】販売価格の間違いに関するお詫びとご購入されたお客様へ…              </a></li>
+                      </ul>
+          <div class="alignRight pt10"><a href="/support/info/">一覧はこちらへ</a></div>
+        </div>
+        <div class="mt25"><img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/top/top_ttl_newshop.gif" alt="新着情報 / NEWS" width="458" height="26" /></div>
+        <div class="icon-b pt10">
+          <ul>
+                                    <li class="clr">
+
+              2017.08.18&nbsp;
+<a href="http://www.village-v.co.jp/news/terasawa-daisuke-7/" title="【イベント】ヴィレッジヴァンガードイオンモール新発田 特別企画「寺沢大介原画展＆サイン会」 開催！！">
+              【イベント】ヴィレッジヴァンガードイオンモール新発田 特別企画…              </a></li>
+
+                        <li class="clr">
+
+              2017.08.11&nbsp;
+<a href="http://www.village-v.co.jp/news/igarashi-yumiko/" title="【新商品】いがらしゆみこ×ヴィレッジヴァンガード限定グッズ発売！">
+              【新商品】いがらしゆみこ×ヴィレッジヴァンガード限定グッズ発売…              </a></li>
+
+                        <li class="clr">
+
+              2017.08.11&nbsp;
+<a href="http://www.village-v.co.jp/news/onnanokozu/" title="【イベント】『オンナノコズ』ヴィレヴァンでちょっとバイトします！">
+              【イベント】『オンナノコズ』ヴィレヴァンでちょっとバイトします…              </a></li>
+
+                        <li class="clr">
+
+              2017.08.10&nbsp;
+<a href="http://www.village-v.co.jp/news/idolfestival0821/" title="【イベント】アイドルフェスティバルサンシャインスターズグッズ発売記念イベント開催!">
+              【イベント】アイドルフェスティバルサンシャインスターズグッズ発…              </a></li>
+
+                        <li class="clr">
+
+              2017.08.10&nbsp;
+<a href="http://www.village-v.co.jp/news/natunomamonovv/" title="【イベント】『THE 夏の魔物』×『まねきもちねこ』初コラボ記念イベント開催！！">
+              【イベント】『THE 夏の魔物』×『まねきもちねこ』初コラボ記…              </a></li>
+
+                        <li class="clr">
+
+              2017.08.10&nbsp;
+<a href="http://www.village-v.co.jp/news/pantystocking-with-garterbelt/" title="【イベント】「Panty&#038;Stocking with Garterbelt」ミニ展示＆物販全国巡回決定！">
+              【イベント】「Panty&Stocking with Gart…              </a></li>
+
+                        <li class="clr">
+
+              2017.08.10&nbsp;
+<a href="http://www.village-v.co.jp/news/sanriodanshi0812/" title="【おしらせ】「サンリオ男子」×ヴィレッジヴァンガードカフェブロマイドプレゼントキャンペーン実施決定！">
+              【おしらせ】「サンリオ男子」×ヴィレッジヴァンガードカフェブロ…              </a></li>
+
+                        <li class="clr">
+
+              2017.08.10&nbsp;
+<a href="http://www.village-v.co.jp/news/gilgameshnight0811/" title="【限定商品】伝説の深夜番組「ギルガメッシュNIGHT」公式グッズ発売！">
+              【限定商品】伝説の深夜番組「ギルガメッシュNIGHT」公式グッ…              </a></li>
+
+                        <li class="clr">
+
+              2017.08.10&nbsp;
+<a href="http://www.village-v.co.jp/news/same-z/" title="【イベント】サメーズ（アリムラモハ）プチイラスト＆サイン会開催！！">
+              【イベント】サメーズ（アリムラモハ）プチイラスト＆サイン会開催…              </a></li>
+
+                        <li class="clr">
+
+              2017.08.10&nbsp;
+<a href="http://www.village-v.co.jp/news/nhk-wanwantoasobo/" title="【イベント】ワンワンとあそぼうショー開催！！">
+              【イベント】ワンワンとあそぼうショー開催！！…              </a></li>
+
+                      </ul>
+          <div class="alignRight pt10"><a href="/news/">一覧はこちらへ</a></div>
+        </div>
+        <div class="irbtn-border">
+          <div class="top-irbtn"><a href="/company/newsrelease/">&raquo;IRニュース一覧はこちら</a></div>
+        </div>
+      </div>
+      <div class="topRight">
+
+<!-- <div class="pt6"><a href="/lucbag/lb.php"><img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/company/hukubukuro2016.jpg" alt="今年も旅行が当たります！VILLAGEVANGUARD幅袋 2016 新年運だめしキャンペーン" width="294" height="110" /></a></div> -->
+<!-- <div class="pt6"><a href="/news/?date=2015-12#5027"><img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/company/hakkutsu2016.jpg" alt="数に限りあり！2016お宝発掘セール開催！" width="294" height="110" /></a></div> -->
+
+<!-- アイドル -->
+<!-- <div class="pt6"><a href="http://www.village-v.co.jp/news/idolcontentexpo-2/"><img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/company/idolcontentexpo.jpg" alt="IDOL CONTENT EXPO" width="294" /></a></div> -->
+<!-- 雑貨大賞 -->
+<!-- <div class="pt6"><a href="http://www.zakka-awards.jp/" target="_blank"><img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/company/zakkabanner.jpg" alt="雑貨大賞" width="294" /></a></div> -->
+<!-- GMT -->
+<div class="pt6"><a href="http://www.village-v.co.jp/gmt/gmt.php"><img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/company/banner_gmt_pc.side.png" alt="魅力的な肉体改造へサポートする GMT" width="294" style="margin-top:10px;" /></a></div>
+<!-- おそうじスリッパ -->
+<div class="pt6"><a href="http://www.village-v.co.jp/d.s.f_slippers/deep.sea.fish_slippers.html"><img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/company/banner_pc.png" alt="おそうじスリッパ" width="294" style="margin-top:10px; margin-bottom:5px;" /></a></div>
+<!-- 総選挙 -->
+<!-- <div class="pt6"><a href="http://www.comico.jp/event/2016/01/village/index.nhn" target="_blank"><img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/company/vv_comico.jpg" alt="VILLAGEVANGUARDxCOMICO ぎじん課っ！グッズ化総選挙" width="294" height="116" /></a></div> -->
+<!-- 新卒採用 -->
+<!-- <div class="pt6"><a href="https://job.axol.jp/17/st/s/village-v/login/" target="_blank"><img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/company/sinnyu.jpg" alt="VILLAGE　VANGUARD　ヴィレッジヴァンガード　新卒採用はコチラ" width="294" height="112" /></a></div> -->
+<!-- 通販サイト -->
+<div><a href="http://vvstore.jp/?fid=vhome" target="_blank"><img src="http://www.village-v.co.jp/wp-content/files_mf/banner_online.gif" alt="village vanguard 通販サイト" /></a></div>
+<!-- 偽サイトに注意 -->
+<div class="pt6"><a href="/support/info/?date=2016-03#5430"><img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/company/attention.jpg" alt="偽サイトにご注意ください" width="294" height="120" /></a></div>
+<!-- iPhone公式アプリ -->
+<div class="topBanner_l"><a href="https://itunes.apple.com/jp/app/vu-irevu-an/id571210459?mt=8" target="_blank"><img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/company/app_vv_official_banner_01.gif" alt="iPhone公式アプリダウンロード" width="143" height="86" /></a></div>
+<!-- Android公式アプリ -->
+<div class="topBanner_r"><a href="https://play.google.com/store/apps/details?id=com.teamlab.vv.vvstore" target="_blank"><img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/company/app_vv_official_banner_02.gif" alt="Android公式アプリダウンロード" width="142" height="86" /></a></div>
+<!-- 封入広告を -->
+<div class="pt6"><a href="/advertising" target="_blank"><img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/company/hunyu_off.gif" alt="ヴィレヴァンのレジ袋に広告封入を！" width="294" height="110" /></a></div>
+
+        <div class="topBanner-b">
+
+          <ul>
+            <li><img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/company/banner_call.gif" width="285" height="77" alt="お客様コールセンター 0120-9910-790 無休11:00～19:00" /></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!--contentInner-->
+  </div>
+  <!--contentArea-->
+
+  <div id="contentBottom"></div>
+  <!--contentBottom-->
+
+	<!-- <div class="vvrocksBanner">
+
+		<h4 class="support"><img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/vvrocks/vvrock_text_supported.png" alt="Supported by" /></h4>
+
+		<ul class="logo_large">
+			<li><a href="http://www.hanamaruudon.com" target="_blank"><img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/vvrocks/vvrocks_logo1.png" alt="はなまるうどん" /></a></li>
+			<li><a href="http://www.sho-bi.jp/index.html" target="_blank"><img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/vvrocks/vvrocks_logo2.png" alt="SHO-BI" /></a></li>
+			<li><a href="http://www.bandai.co.jp/" target="_blank"><img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/vvrocks/vvrocks_logo3.png" alt="BANDAI" /></a></li>
+		</ul>
+
+		<ul class="logo_small">
+			<li><a href="http://www.asapro.jp/" target="_blank"><img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/vvrocks/vvrocks_logo4.png" alt="旭日プロモーション" /></a></li>
+			<li><a href="http://www.asmik-ace.co.jp/" target="_blank"><img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/vvrocks/vvrocks_logo5.png" alt="Asmik Ace" /></a></li>
+			<li><a href="http://www.assistvaleur.co.jp/" target="_blank"><img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/vvrocks/vvrocks_logo6.png" alt="AssistValeur" /></a></li>
+			<li><a href="http://aqua-web.co.jp/" target="_blank"><img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/vvrocks/vvrocks_logo7.png" alt="AQUA" /></a></li>
+			<li><a href="http://shibuyacco.tokyo/" target="_blank"><img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/vvrocks/vvrocks_logo8.png" alt="ShibuYACCO" /></a></li>
+			<li><a href="http://www.trans.co.jp/" target="_blank"><img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/vvrocks/vvrocks_logo9.png" alt="TRANS" /></a></li>
+			<li><a href="http://www.neweracap.jp/" target="_blank"><img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/vvrocks/vvrocks_logo10.png" alt="NEW ERA合同会社" /></a></li>
+			<li><a href="http://www.bonmax.co.jp/" target="_blank"><img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/vvrocks/vvrocks_logo11.png" alt="BONMAX" /></a></li>
+			<li><a href="https://www.tshirt.co.jp/" target="_blank"><img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/vvrocks/vvrocks_logo12.png" alt="tshirt.co.jp" /></a></li>
+			<li><a href="http://www.fits-japan.com/" target="_blank"><img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/vvrocks/vvrocks_logo13.png" alt="フィッツコーポレーション" /></a></li>
+			<li><a href="http://longs-under.com/pages/toppage.html" target="_blank"><img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/vvrocks/vvrocks_logo14.png" alt="株式会社ロングス" /></a></li>
+		</ul>
+
+		<h4 class="media"><img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/vvrocks/vvrock_text_media.png" alt="Media partner" /></h4>
+
+		<ul class="logo_small">
+			<li><a href="https://antenna.jp/" target="_blank"><img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/vvrocks/vvrocks_logo15.png" alt="antenna*" /></a></li>
+			<li><a href="http://businesstimeline.jp/" target="_blank"><img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/vvrocks/vvrocks_logo17.png" alt="business timeline" /></a></li>
+			<li><a href="http://radio-neo.com/" target="_blank"><img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/vvrocks/vvrocks_logo16.png" alt="Radio NEO" /></a></li>
+		</ul>
+
+	</div> -->
+
+
+
+</div>
+<!--top_content-->
+<!--------------------
+         about
+---------------------->
+
+<script src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/js/jquery.page-scroller-309.js" type="text/javascript"></script>
+
+<div class="top_content" id= "c1">
+  <div id="contentTop" ></div>
+  <div id="contentArea">
+    <div id="contentInner">
+      <h2><img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/about/title_about.gif" alt="ヴィレヴァンの仲間 / VV FRIENDS" width="364" height="25" /></h2>
+
+      <div id="oneClumnArea" class="clearfix pt35">
+      	<div id ="about_content">
+        	<div id = "about_gif" ><img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/about/about_animation.gif" alt="VILLAGE VANGUARD friends!!" width="767" height="186" /></div>
+       		<div><img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/about/about_img.gif" alt="VILLAGE VANGUARD friends!!" width="767" height="442" /></div>
+        	<div id ="about_menu">
+                <ul>
+                    <li id="menu1"><a href="#h1"><img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/about/friends_menu01.png" alt="大人のためのハンバーガーショップ！DINER" width="161" height="107" /></a></li>
+                    <li id="menu2"><a href="#h2"><img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/about/friends_menu02.png" alt="大人になっても遊びたい NEW STYLE" width="148" height="99" /></a></li>
+                    <li id="menu3"><a href="#h3"><img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/about/friends_menu03.png" alt="大人の男子になってよかった！HARVEST VILLAGE" width="135" height="106" /></a></li>
+                    <!-- <li id="menu4"><a href="#h4"><img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/about/friends_menu04.png" alt="女の子の大好きなアイテム大集合！exciting girls store" width="167" height="89" /></a></li> -->
+                    <li id="menu5"><a href="#h5"><img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/about/friends_menu05.png" alt="毎日の育児を楽しくする！OK EXCITING BOOK STORE FOR FAMILY" width="177" height="134" /></a></li>
+			      <li id="menu6"><a href="http://vvstore.jp/" target ="_blank"><img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/about/friends_menu08.png" alt="ヴィレッジヴァンガードオンラインショップ" width="70" height="70" /></a></li>
+
+			        <li id="menu9"><a href="#h6"><img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/about/friends_menu09.png" alt="「食」をもっと楽しくするお店 Home Coming" width="180" height="110" /></a></li>
+                    <li id="menu10"><a href="#h7"><img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/about/friends_menu10.png" alt="全国のお宝あつまれ！ VINTAGE VANGUARD　VILLAGE VANGUARD Z" width="200" height="140" /></a></li>
+                </ul>
+            </div>
+
+
+        </div>
+
+        <div id ="about_main">
+                    	<div id ="about_main_cont">
+                        	<div id="h1" class = "about_freinds clearfix">
+                           		<h4><img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/about/friends_title1.jpg" alt="ヴィレッジがプロデュースする、大人のためのハンバーガーショップ！！" width="767" height="120" /></h4>
+                           		<div class="line"><img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/about/friends_line.gif" width="767" height="3" /></div>
+                           		 <div id ="about_p_right">
+                           		<img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/about/friends_photo1.jpg" alt="dinner" width="437" height="320" />
+                           		 </div>
+                           		<div id ="about_t_left">
+                                <p><strong>「たかがハンバーガー、されどハンバーガー」</strong><br></p>
+                                 <p>ヴィレッジヴァンガードダイナーでは大人のためのハンバーガーショップを展開しています。しかも店舗ごとにこだわりのある個性派ぞろい！<br><br>
+                                あのお店でしか食べられないハンバーガーがあったりパンが違ったりお肉さえも違ったりその辺はヴィレッジヴァンガードですから。<br><br>
+                                最高のハンバーガーと極上のおもてなしでお待ちしています。
+                                </p>
+        				        <div class="gyotai_link">
+        					        <a href="/shop/list/?type[]=3&word=" class="gyotai_button"><span class="gyotai_dinner">DINERの店舗リストはコチラ</span>
+                                    </a>
+        				        </div>
+        				         </div>
+                            </div>
+                            <div class="pagetop"><a href="#about_content" >▲ページトップへ</a></div>
+                     		 <div id="h2" class="about_freinds clearfix">
+                                <h4><img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/about/friends_title2.jpg" alt="書籍・CD・アパレル・雑貨、何でも揃うセレクトショップ！！" width="767" height="90" /></h4>
+                                <div class="line"><img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/about/friends_line.gif" width="767" height="3" /></div>
+                                 <div id ="about_p_right">
+                                <img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/about/friends_photo2.jpg" alt="new style" width="437" height="320" />
+                                 </div>
+                                <div id ="about_t_left">
+                                 <p><strong>大人になっても遊びたい！子供が出来ても楽しみたい！</strong><br></p>
+                                 <p>書籍・CD・アパレル・雑貨何でも揃うセレクトショップです。お店も、スタッフも「永遠の未完成」！ずっと進化し続けます。<br><br>
+                                ご家族と、お友達と是非遊びに来てください！
+                                </p>
+        				        <div class="gyotai_link">
+        					        <a href="/shop/list/?type[]=4&word=" class="gyotai_button"><span class="gyotai_ns">new styleの店舗リストはコチラ</span>
+                                    </a>
+        				        </div>
+        				         </div>
+        			        </div>
+        			        <div class="pagetop"><a href="#about_content" >▲ページトップへ</a></div>
+                            <div id="h3" class = "about_freinds clearfix">
+                               <h4><img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/about/friends_title5.jpg" alt="大人の男がぐっとくる品々を店長自ら選んだセレクトショップ！！" width="767" height="100" /></h4>
+                               <div class="line"><img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/about/friends_line.gif" width="767" height="3" /></div>
+                                <div id ="about_p_right">
+                                <img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/about/friends_photo5.jpg" alt="hervest" width="437" height="320" />
+                                 </div>
+                                <div id ="about_t_left">
+                                <p><strong>ミリタリー、車、歴史、仕事、釣り、、、、<br>日本の大人の男にはやることがいっぱいある！！</strong><br></p>
+                                <p>ハーヴェストヴィレッジはあの時欲しかった憧れのもの、今だからこそ持っていたい生涯の相棒｡そんな男がぐっとくる品々を店長自らセレクト。大人の男子になってよかった。
+                                </p>
+        				        <div class="gyotai_link">
+        					            <a href="/shop/list/?type[]=7&word=" class="gyotai_button"><span class="gyotai_hervest">hervestの店舗リストはコチラ</span>
+                                    </a>
+        				        </div>
+        				         </div>
+        			        </div>
+        			        <!-- <div class="pagetop"><a href="#about_content" >▲ページトップへ</a></div>
+                            <div id="h4" class = "about_freinds clearfix">
+                               <h4><img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/about/friends_title4.jpg" alt="女の子の好きなものだけを詰め込んだVVのお店！" width="767" height="80" /></h4>
+                               <div class="line"><img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/about/friends_line.gif" width="767" height="3" /></div>
+                               <div id ="about_p_right">
+                                <img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/about/friends_photo4.jpg" alt="exiting girls store" width="437" height="320" />
+                                 </div>
+                                <div id ="about_t_left">
+                                 <p><strong>VVから女の子の好きなものだけを詰め込んだお店が出来ました！</strong><br></p>
+                                	 <p>まだ世の中に発信されてないカワイイを日々見つけて、独自の空間で提案しています。 <br>
+        				            期間限定のクリエイターものの展開も見逃せない！ <br><br>
+        				            あなたの知らないカワイイが、いっぱいあふれているはず。
+        				            </p>
+        				        <div class="gyotai_link">
+        					        <a href="/shop/list/?type[]=6&word=" class="gyotai_button"><span class="gyotai_egs">egs店舗リストはコチラ</span>
+                                    </a>
+        				        </div>
+        				         </div>
+        			        </div> -->
+        			        <div class="pagetop"><a href="#about_content" >▲ページトップへ</a></div>
+                            <div id="h5" class = "about_freinds clearfix">
+                                <h4><img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/about/friends_title3.jpg" alt="ベビー雑貨・お祝いグッズ・知育玩具、子供の嬉しい出来事を彩るお店！！" width="767" height="120" /></h4>
+                                <div class="line"><img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/about/friends_line.gif" width="767" height="3" /></div>
+                                <div id ="about_p_right">
+                                	<img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/about/friends_photo3.jpg" alt="QK" width="437" height="320" />
+                                </div>
+                                <div id ="about_t_left">
+                                	 <p><strong>育児が楽しいと毎日が楽しい！！それは一生楽しいが続くってこと！！</strong><br></p>
+                                     <p>ＱＫは子供にまつわる嬉しい出来事を彩る、ベビー雑貨、お祝いグッズ、知育玩具を各店スタッフが趣向を凝らしてご提案するお店です。<br><br>
+                                    子育ては楽しまないと、もったいない！！
+                                    </p>
+
+                                    <div class="gyotai_link">
+                                            <a href="/shop/list/?type[]=5&word=" class="gyotai_button"><span class="gyotai_qk">QK店舗リストはコチラ</span></a>
+                                    </div>
+        			            </div>
+        		            </div>
+                            <div class="pagetop"><a href="#about_content" >▲ページトップへ</a></div>
+        		            <div id="h6" class = "about_freinds clearfix">
+                                <h4><img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/about/friends_title6.jpg" alt="「食事」、食べるコト(事)の楽しみを提案するショップです。" width="767" height="130" /></h4>
+                                <div class="line"><img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/about/friends_line.gif" width="767" height="3" /></div>
+                                <div id ="about_p_right">
+                                    <img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/about/friends_photo6.jpg" alt="Home Coming" width="437" height="320" />
+                                </div>
+                                <div id ="about_t_left">
+                                     <p><strong>食べるコトをもっと楽しく！</strong><br></p>
+                                    <p>どうしても食べてみたくなる即席麺、どんな味がするか見当もつかないレトルトカレー、早く帰って缶ビールで一杯やりたくなる柿の種、子供に食べさせたいやさしいお菓子。<br><br>
+
+                                                                       日本中、世界中にある様々な「楽しい食」 そして「食」にまつわる本・雑貨 「食」から広がる世界観。<br>
+                                                                       そんな食べるというコトをお客様ともっともっと楽しめるお店を目指します。<br>
+                                        </p>
+                                    <div class="gyotai_link">
+                                            <a href="/shop/list/?type[]=8&word=" class="gyotai_button"><span class="gyotai_hc">Home Coming店舗リストはコチラ</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pagetop"><a href="#about_content" >▲ページトップへ</a></div>
+        		            <div id="h7" class = "about_freinds clearfix">
+                                <h4><img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/about/friends_title7.jpg" alt="全国のお宝を集めたワクワクドキドキなエキサイティングアウトレットショップです！！" width="767" height="120" /></h4>
+                                <div class="line"><img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/about/friends_line.gif" width="767" height="3" /></div>
+                                <div id ="about_p_right">
+                                    <img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/about/friends_photo7.jpg" alt="VINTAGE VANGUARD　VILLAGE VANGUARD Z" width="437" height="320" />
+                                </div>
+                                <div id ="about_t_left">
+                                     <p><strong>vvにエキサイティングなアウトレットショップがオープン！！</strong><br></p>
+                                      <p>一度来ていただければ、アナタの探していたお宝やあんなものこんなものがビックリプライスで見つかるかも!?</p>
+
+
+                                    <div class="gyotai_link">
+                                            <a href="/shop/list/?type[]=9&word=" class="gyotai_button"><span class="gyotai_vvo">Village Vanguard Outlet店舗リストはコチラ</span></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div><!--about_main_cont-->
+                        <div class="pagetop"><a href="#about_content" >▲ページトップへ</a></div>
+                    </div><!--about_main-->
+      </div>
+      <!--ここまで個別ページ-->
+
+    </div>
+  </div>
+  <div id="contentBottom"></div>
+  <!--contentBottom-->
+</div>
+<!--top_content-->
+
+<!--------------------
+         news
+---------------------->
+<div class="top_content" id= "c2">
+  <div id="contentTop" ></div>
+  <!--contentTop-->
+
+  <div id="contentArea">
+    <div id="contentInner">
+      <h2><img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/news/title_news.gif" alt="新着情報 / NEWS" width="190" height="25" /></h2>
+
+      <div id="oneClumnArea" class="clearfix pt15">
+
+        <div id="contentClumn">
+
+          <!--content-->
+          <div id="newsArea">
+            <!--<h3>NEWS / 新着情報</h3>-->
+                                    <div class="textBox">
+              <p class="icon-c">
+                <!-- 2017.08.18&nbsp;<a href="/news/?date=2017-08#9491" title="【イベント】ヴィレッジヴァンガードイオンモール新発田 特別企画「寺沢大介原画展＆サイン会」 開催！！">【イベント】ヴィレッジヴァンガードイオンモール新発田 特別企画「寺沢大介原画展＆サイン会」 開催！！</a> -->
+                2017.08.18&nbsp;<a href="http://www.village-v.co.jp/news/terasawa-daisuke-7/" title="【イベント】ヴィレッジヴァンガードイオンモール新発田 特別企画「寺沢大介原画展＆サイン会」 開催！！">【イベント】ヴィレッジヴァンガードイオンモール新発田 特別企画「寺沢大介原画展＆サイン会」 開催！！</a>
+              </p>
+            </div>
+                        <div class="textBox">
+              <p class="icon-c">
+                <!-- 2017.08.11&nbsp;<a href="/news/?date=2017-08#9433" title="【新商品】いがらしゆみこ×ヴィレッジヴァンガード限定グッズ発売！">【新商品】いがらしゆみこ×ヴィレッジヴァンガード限定グッズ発売！</a> -->
+                2017.08.11&nbsp;<a href="http://www.village-v.co.jp/news/igarashi-yumiko/" title="【新商品】いがらしゆみこ×ヴィレッジヴァンガード限定グッズ発売！">【新商品】いがらしゆみこ×ヴィレッジヴァンガード限定グッズ発売！</a>
+              </p>
+            </div>
+                        <div class="textBox">
+              <p class="icon-c">
+                <!-- 2017.08.11&nbsp;<a href="/news/?date=2017-08#9486" title="【イベント】『オンナノコズ』ヴィレヴァンでちょっとバイトします！">【イベント】『オンナノコズ』ヴィレヴァンでちょっとバイトします！</a> -->
+                2017.08.11&nbsp;<a href="http://www.village-v.co.jp/news/onnanokozu/" title="【イベント】『オンナノコズ』ヴィレヴァンでちょっとバイトします！">【イベント】『オンナノコズ』ヴィレヴァンでちょっとバイトします！</a>
+              </p>
+            </div>
+                        <div class="textBox">
+              <p class="icon-c">
+                <!-- 2017.08.10&nbsp;<a href="/news/?date=2017-08#9468" title="【イベント】アイドルフェスティバルサンシャインスターズグッズ発売記念イベント開催!">【イベント】アイドルフェスティバルサンシャインスターズグッズ発売記念イベント開催!</a> -->
+                2017.08.10&nbsp;<a href="http://www.village-v.co.jp/news/idolfestival0821/" title="【イベント】アイドルフェスティバルサンシャインスターズグッズ発売記念イベント開催!">【イベント】アイドルフェスティバルサンシャインスターズグッズ発売記念イベント開催!</a>
+              </p>
+            </div>
+                        <div class="textBox">
+              <p class="icon-c">
+                <!-- 2017.08.10&nbsp;<a href="/news/?date=2017-08#9292" title="【イベント】『THE 夏の魔物』×『まねきもちねこ』初コラボ記念イベント開催！！">【イベント】『THE 夏の魔物』×『まねきもちねこ』初コラボ記念イベント開催！！</a> -->
+                2017.08.10&nbsp;<a href="http://www.village-v.co.jp/news/natunomamonovv/" title="【イベント】『THE 夏の魔物』×『まねきもちねこ』初コラボ記念イベント開催！！">【イベント】『THE 夏の魔物』×『まねきもちねこ』初コラボ記念イベント開催！！</a>
+              </p>
+            </div>
+                        <div class="textBox">
+              <p class="icon-c">
+                <!-- 2017.08.10&nbsp;<a href="/news/?date=2017-08#9481" title="【イベント】「Panty&#038;Stocking with Garterbelt」ミニ展示＆物販全国巡回決定！">【イベント】「Panty&#038;Stocking with Garterbelt」ミニ展示＆物販全国巡回決定！</a> -->
+                2017.08.10&nbsp;<a href="http://www.village-v.co.jp/news/pantystocking-with-garterbelt/" title="【イベント】「Panty&#038;Stocking with Garterbelt」ミニ展示＆物販全国巡回決定！">【イベント】「Panty&#038;Stocking with Garterbelt」ミニ展示＆物販全国巡回決定！</a>
+              </p>
+            </div>
+                        <div class="textBox">
+              <p class="icon-c">
+                <!-- 2017.08.10&nbsp;<a href="/news/?date=2017-08#9458" title="【おしらせ】「サンリオ男子」×ヴィレッジヴァンガードカフェブロマイドプレゼントキャンペーン実施決定！">【おしらせ】「サンリオ男子」×ヴィレッジヴァンガードカフェブロマイドプレゼントキャンペーン実施決定！</a> -->
+                2017.08.10&nbsp;<a href="http://www.village-v.co.jp/news/sanriodanshi0812/" title="【おしらせ】「サンリオ男子」×ヴィレッジヴァンガードカフェブロマイドプレゼントキャンペーン実施決定！">【おしらせ】「サンリオ男子」×ヴィレッジヴァンガードカフェブロマイドプレゼントキャンペーン実施決定！</a>
+              </p>
+            </div>
+                        <div class="textBox">
+              <p class="icon-c">
+                <!-- 2017.08.10&nbsp;<a href="/news/?date=2017-08#9415" title="【限定商品】伝説の深夜番組「ギルガメッシュNIGHT」公式グッズ発売！">【限定商品】伝説の深夜番組「ギルガメッシュNIGHT」公式グッズ発売！</a> -->
+                2017.08.10&nbsp;<a href="http://www.village-v.co.jp/news/gilgameshnight0811/" title="【限定商品】伝説の深夜番組「ギルガメッシュNIGHT」公式グッズ発売！">【限定商品】伝説の深夜番組「ギルガメッシュNIGHT」公式グッズ発売！</a>
+              </p>
+            </div>
+                        <div class="textBox">
+              <p class="icon-c">
+                <!-- 2017.08.10&nbsp;<a href="/news/?date=2017-08#9457" title="【イベント】サメーズ（アリムラモハ）プチイラスト＆サイン会開催！！">【イベント】サメーズ（アリムラモハ）プチイラスト＆サイン会開催！！</a> -->
+                2017.08.10&nbsp;<a href="http://www.village-v.co.jp/news/same-z/" title="【イベント】サメーズ（アリムラモハ）プチイラスト＆サイン会開催！！">【イベント】サメーズ（アリムラモハ）プチイラスト＆サイン会開催！！</a>
+              </p>
+            </div>
+                        <div class="textBox">
+              <p class="icon-c">
+                <!-- 2017.08.10&nbsp;<a href="/news/?date=2017-08#9394" title="【イベント】ワンワンとあそぼうショー開催！！">【イベント】ワンワンとあそぼうショー開催！！</a> -->
+                2017.08.10&nbsp;<a href="http://www.village-v.co.jp/news/nhk-wanwantoasobo/" title="【イベント】ワンワンとあそぼうショー開催！！">【イベント】ワンワンとあそぼうショー開催！！</a>
+              </p>
+            </div>
+                      </div>
+        </div>
+
+        <!--ここまで個別ページ-->
+
+      </div>
+    </div>
+  </div>
+  <div id="contentBottom"></div>
+  <!--contentBottom-->
+</div>
+<!--top_content-->
+
+<!--------------------
+         shop
+---------------------->
+<div class="top_content" id= "c3">
+  <div id="contentTop" ></div>
+  <!--contentTop-->
+
+  <div id="contentArea">
+    <div id="contentInner">
+
+      <!--ここから個別ページ-->
+
+      <h2><img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/shopinfo/title_search_info.gif" alt="店舗情報 / SHOP INFO" /></h2>
+
+      <div id="oneClumnArea" class="clearfix">
+        <div id="searchMapArea" class="mt35">
+          <div><img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/shopinfo/chizukarasagasu.gif" alt="地図から探す"  /></div>
+          <p><img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/shopinfo/chizu.gif" alt="" border="0" usemap="#Map"  />
+            <map name="Map" id="Map">
+              <area shape="rect" coords="228,35,279,52"   href="/shop/list/?area=1" alt="北海道" />
+              <area shape="rect" coords="256,127,308,146" href="/shop/list/?area=2" alt="東北" />
+              <area shape="rect" coords="233,192,294,211" href="/shop/list/?area=3" alt="首都圏" />
+              <area shape="rect" coords="132,148,218,165" href="/shop/list/?area=4" alt="北陸・甲信越" />
+              <area shape="rect" coords="197,238,243,261" href="/shop/list/?area=5" alt="東海" />
+              <area shape="rect" coords="133,258,183,280" href="/shop/list/?area=6" alt="関西" />
+              <area shape="rect" coords="72,171,123,195"  href="/shop/list/?area=7" alt="中国" />
+              <area shape="rect" coords="71,259,119,280"  href="/shop/list/?area=8" alt="四国" />
+              <area shape="rect" coords="3,245,51,263"    href="/shop/list/?area=9" alt="九州" />
+              <area shape="rect" coords="74,41,151,104"   href="/shop/list/?area=10" alt="沖縄" />
+              <area shape="rect" coords="275,275,345,302" href="/shop/list/?area=99" alt="海外" />
+            </map>
+          </p>
+        </div>
+
+        <form action="/shop/list/" method="get" id="serachForm">
+        <div id="searchHardArea" >
+          <div><img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/shopinfo/shiborikomi.gif" alt="絞り込みでさがす"  /></div>
+          <table cellpadding="0" cellspacing="0">
+            <tr>
+              <th> <h4>エリア</h4>
+              </th>
+              <td><p>
+                  <input type="checkbox" name="area[]" value="1" id="ab_1">
+                  <label for="ab_1">北海道</label>
+                  <input type="checkbox" name="area[]" value="2" id="ab_2">
+                  <label for="ab_2">東北</label>
+                  <input type="checkbox" name="area[]" value="3" id="ab_3">
+                  <label for="ab_3">首都圏</label>
+                  <input type="checkbox" name="area[]" value="4" id="ab_4">
+                  <label for="ab_4">北陸・甲信越</label>
+                  <br />
+                  <input type="checkbox" name="area[]" value="5" id="ab_5">
+                  <label for="ab_5">東海</label>
+                  <input type="checkbox" name="area[]" value="6" id="ab_8">
+                  <label for="ab_8">関西</label>
+                  <input type="checkbox" name="area[]" value="7" id="ab_6">
+                  <label for="ab_6">中国</label>
+                  <input type="checkbox" name="area[]" value="8" id="ab_7">
+                  <label for="ab_7">四国</label>
+                  <input type="checkbox" name="area[]" value="9" id="ab_9">
+                  <label for="ab_9">九州</label>
+                  <br />
+                  <input type="checkbox" name="area[]" value="10" id="ab_10">
+                  <label for="ab_10">沖縄</label>
+                  <input type="checkbox" name="area[]" value="99" id="ab_11">
+                  <label for="ab_11">海外</label>
+                </p></td>
+            </tr>
+          </table>
+          <table cellpadding="0" cellspacing="0">
+            <tr>
+              <th> <h4>業態</h4>
+              </th>
+              <td><p class="vv">
+                  <input type="checkbox" name="type[]" value="1" id="gb_1">
+                  <label for="gb_1">VILLAGE VANGUARD 直営店&nbsp;</label>
+                </p>
+                <p class="vvfc">
+                  <input type="checkbox" name="type[]" value="2" id="gb_2">
+                  <label for="gb_2">VILLAGE VANGUARD FC店</label>
+                </p>
+                <p class="dinner">
+                  <input type="checkbox" name="type[]" value="3" id="gb_3">
+                  <label for="gb_3">DINER</label>
+                </p>
+                <p class="ns">
+                  <input type="checkbox" name="type[]" value="4" id="gb_4">
+                  <label for="gb_4">new style</label>
+                </p>
+                <p class="qk">
+                  <input type="checkbox" name="type[]" value="5" id="gb_5">
+                  <label for="gb_5">QK</label>
+                </p>
+                <!-- <p class="egs">
+                  <input type="checkbox" name="type[]" value="6" id="gb_6">
+                  <label for="gb_6">exciting girls store</label>
+                </p> -->
+                <p class="hervest">
+                  <input type="checkbox" name="type[]" value="7" id="gb_7">
+                  <label for="gb_7">HARVEST VILLAGE</label>
+                </p>
+                 <p class="hc">
+                      <input type="checkbox" name="type[]" value="8" id="gb_8">
+                      <label for="gb_8">Home Coming</label>
+                </p>
+                 <p class="vvo">
+                      <input type="checkbox" name="type[]" value="9" id="gb_9">
+                      <label for="gb_9">Village Vanguard Outlet</label>
+                </p>
+
+                </td>
+              <td valign="bottom"><p class="pl15">(複数選択可能)</p></td>
+            </tr>
+            <tr>
+              <td colspan="3"><p class="pt20">フリーワード入力
+                  <input type="text" name="word" value="" />
+                </p></td>
+            </tr>
+          </table>
+
+          <p id="btnSearch"><a href="javascript:void(0)" onClick="document.getElementById('serachForm').submit()"><img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/shopinfo/btn_search_l_off.png" alt="検索"  /></a></p>
+        </div>
+      </form>
+      </div>
+
+
+
+
+      <div id="shopBox">
+        <h4><img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/shopinfo/tenposuu.gif" alt="現在の店舗数" /><span class="number-box">3</span><span class="number-box">8</span><span class="number-box">8</span>店舗</h4><div id="shopNum">
+        <div class="border-b clearfix">
+          <h5>ヴィレッジヴァンガード 直営店／313店舗</h5>
+          <ul>
+            <li>北海道（13店舗）</li>
+            <li>東北（18店舗）</li>
+            <li>首都圏（75店舗）</li>
+            <li>北陸・甲信越（18店舗）</li>
+            <li>東海（50店舗）</li>
+            <li>関西（42店舗）</li>
+            <li>中国（25店舗）</li>
+            <li>四国（17店舗）</li>
+            <li>九州（44店舗）</li>
+            <li>沖縄（11店舗）</li>
+            <li>海外（0店舗）</li>
+          </ul>
+          </div>
+          <div class="border-b clearfix">
+          <h5>ヴィレッジヴァンガード FC店／8店舗</h5>
+          <ul>
+            <li>北海道（0店舗）</li>
+            <li>東北（0店舗）</li>
+            <li>首都圏（3店舗）</li>
+            <li>北陸・甲信越（0店舗）</li>
+            <li>東海（3店舗）</li>
+            <li>関西（0店舗）</li>
+            <li>中国（1店舗）</li>
+            <li>四国（1店舗）</li>
+            <li>九州（0店舗）</li>
+            <li>沖縄（0店舗）</li>
+            <li>海外（0店舗）</li>
+          </ul>
+          </div>
+          <div class="shop-dd clearfix">
+            <ul>
+              <li>ダイナー／14店舗</li>
+              <li>new style／32店舗</li>
+              <li>QK／1店舗</li>
+              <!-- <li>exciting girls store／0店舗</li> -->
+              <li>HARVEST VILLAGE／1店舗</li>
+              <li>Home Coming／9店舗</li>
+              <li>Village Vanguard Outlet／10店舗</li>
+            </ul>
+          </div>
+        </div>
+        <p id="shopInfoNote">※このデータは2017/07/27現在の店舗数</p>
+      </div>
+
+      <!--ここまで個別ページ-->
+
+    </div>
+  </div>
+  <div id="contentBottom"></div>
+  <!--contentBottom-->
+</div>
+<!--top_content-->
+
+<!--------------------
+         customer
+---------------------->
+<div class="top_content" id= "c4">
+  <div id="contentTop" ></div>
+  <!--contentTop-->
+
+  <div id="contentArea">
+    <div id="contentInner">
+
+      <!--ここから個別ページ-->
+
+      <h2><img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/customer/title_contact.gif" alt="お客様窓口 / CUSTOMER SERVICE" /></h2>
+      <div id="oneClumnArea" class="clearfix pt35">
+        <div id="contentClumn">
+
+          <!--content-->
+          <div id="contactArea">
+            <h3 class="fontL">お問い合わせ</h3>
+
+            <!--contactBox-->
+            <div class="contactBox">
+              <h4>お電話でのお問い合わせ</h4>
+              <p class="alignCenter mBottom20"><img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/customer/telnumber.gif" alt="お客様コールセンター（11：00～19：00 無休）0120-911-790" /></p>
+              <p class="paddingSide20">【商品の不具合・お困り事など、電話でお問い合わせいただける窓口をご案内しています。】<br>お問い合わせ内容によっては、お時間を頂戴する
+                場合やお返事を差し上げられない場合がございます。あらかじめご理解とご協力をお願いいたします。 </p>
+              <!--
+              <div class="borderBottomDotted"></div>
+              <h4>メールでのお問い合わせ</h4>
+              <p class="paddingLeft10">当サイトにあるフォームからメールでお問い合わせいただくことができます。</p>
+              <p id="btnMail"><a href="/support/contact/"><img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/customer/btn_mail_off.jpg" alt="メールで問い合わせる" /></a></p>
+              -->
+
+            </div>
+            <!--contactBox-->
+
+	<div class="contactBox">
+              <h4>返品について</h4>
+              <p class="paddingSide20">
+①開封前の商品はご購入後14日以内にレシートを持参して頂ければ返品可能です。<br>
+　※お客様側の責任による傷、汚損などが生じた場合はお受けできません。<br>
+　※書籍、雑誌、コミック、ピアスは対象外とさせて頂きます。<br><br>
+
+②開封後の返品は、不良品のみお受け致します。<br><br>
+ご意見ご要望などございましたら、皆様の声をお聞かせください。</p>
+            </div>
+
+            <!--contactBox-->
+
+            <div class="contactBox">
+              <h4>アンケート募集中</h4>
+              <p class="paddingSide20">ヴィレッジヴァンガードでは、随時お客様へのアンケートを実施しております。</p>
+ご意見ご要望などございましたら、皆様の声をお聞かせください。 </p>
+<p id="btnenquete"><a href="https://www.surveymonkey.com/s/CYP5QPH" target ="_blank"><img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/customer/btn_enquete_off.jpg" alt="アンケート"  /></a></p>
+            </div>
+            <!--contactBox-->
+
+            <h3 class="fontL">お知らせ</h3>
+            <div class="contactBox">
+              <ul>
+                                                <li>
+                  2017.08.08                  &nbsp;<a href="/support/info/?date=2017-08#9416" title="【お詫び】賞味期限切れ食品の販売に関するお詫びとご購入されたお客様へお願い">
+                  【お詫び】賞味期限切れ食品の販売に関するお詫びとご購入されたお客様へお願い                  </a></li>
+                                <li>
+                  2017.08.07                  &nbsp;<a href="/support/info/?date=2017-08#9388" title="【お詫び】賞味期限切れ食品の販売に関するお詫びとご購入されたお客様へお願い">
+                  【お詫び】賞味期限切れ食品の販売に関するお詫びとご購入されたお客様へお願い                  </a></li>
+                                <li>
+                  2017.08.07                  &nbsp;<a href="/support/info/?date=2017-08#9384" title="【お詫び】賞味期限切れ食品の販売に関するお詫びとご購入されたお客様へお願い">
+                  【お詫び】賞味期限切れ食品の販売に関するお詫びとご購入されたお客様へお願い                  </a></li>
+                                <li>
+                  2017.08.07                  &nbsp;<a href="/support/info/?date=2017-08#9382" title="【お詫び】賞味期限切れ食品の販売に関するお詫びとご購入されたお客様へお願い">
+                  【お詫び】賞味期限切れ食品の販売に関するお詫びとご購入されたお客様へお願い                  </a></li>
+                                <li>
+                  2017.07.19                  &nbsp;<a href="/support/info/?date=2017-07#9094" title="【お詫び】販売価格の間違いに関するお詫びとご購入されたお客様へのお願い">
+                  【お詫び】販売価格の間違いに関するお詫びとご購入されたお客様へのお願い                  </a></li>
+                              </ul>
+              <div class="alignRight pt10"><a href="/support/info/">一覧はこちらへ</a></div>
+            </div>
+            <!--contactBox-->
+
+            <h3 class="fontL">よくある質問</h3>
+            <div class="contactBox">
+              <ol>
+<li><a href="/support/faq/#q2341">Q 消費税増税後の価格表記は税込みですか、税抜きですか？</a></li>
+<li><a href="/support/faq/#q1139">Q 取り扱いの商品は店舗ごとに違うのですか？</a></li>
+<li><a href="/support/faq/#q1138">Q 商品の取り寄せはできますか？</a></li>
+<li><a href="/support/faq/#q1137">Q 返品・交換はできますか？</a></li>
+<li><a href="/support/faq/#q1136">Q 修理・電池交換は店舗でできますか？</a></li>
+              </ol>
+              <div class="alignRight pt10"><a href="/support/faq/">一覧はこちらへ</a></div>
+            </div>
+            <!--contactBox-->
+
+          </div>
+        </div>
+      </div>
+      <!--ここまで個別ページ-->
+
+    </div>
+  </div>
+  <div id="contentBottom"></div>
+  <!--contentBottom-->
+</div>
+<!--top_content-->
+
+<!--------------------
+         arveit
+---------------------->
+<div class="top_content" id= "c5">
+  <div id="contentTop" ></div>
+  <!--contentTop-->
+
+  <div id="contentArea">
+    <div id="contentInner">
+      <h2><img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/arbeit/title_arbeit01.gif" alt="アルバイト情報 / ARBEIT"/></h2>
+      <div id="oneClumnArea" class="clearfix pt35">
+        <div class="arbeit-box clearfix"> <img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/arbeit/arbeit_img.gif" alt="求ム！！ヴィレヴァンSTAFF VVのお仕事！ まずはご希望の勤務地でアルバイトからスタート！！接客から経営" width="745" height="230" />
+          <div>
+          <div class="arbeit-btn">
+						<a href="https://village-v-recruit.jp/" target="_blank"><img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/arbeit/arbeit_btn01_off.gif" alt="アルバイトstaff募集　地域別アルバイト募集店舗情報をご覧いただけます。" width="270" height="95" /></a>
+          	<a href="https://job.axol.jp/17/st/s/village-v/login/" target="_blank"><img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/arbeit/arbeit_btn02_off.gif" alt="新卒採用はコチラ　VVでは、新規学卒者向けの新卒採用も行なっております。" width="270" height="95" /></a>
+					</div>
+          </div>
+            <div class="arbeit-newbox">
+              <div class="pl5 pb5"><img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/arbeit/arbeit_ttl.gif" alt="アルバイト情報"/></div>
+                      <div class="arbeit-midashi"><img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/arbeit/arbeit_title1.gif" alt="オープニングスタッフ募集中" width="420" height="25" /></div>
+              <ul class="pb20">
+                <li><a href='/shop/list/detail/?code=673'>兵庫県 ヴィンテージヴァンガード イオンモール神戸南 (9/16（土）　オープン!!!!）<br>052-769-1150　担当：柴田（長江）</a></li>
+<li><a href='/shop/list/detail/?code=671'>神奈川県 こととやノースポートモール（9/15（金）オープン!!!!）<br>052-769-1150　担当：柴田（長江）</a></li>
+<li><a href='/shop/list/detail/?code=717'> ダイナー　プライムツリー赤池  (11月頃　オープン予定!!!!）<br>052-769-1150　担当：柴田（長江）</a></li>
+<li><a href='/shop/list/detail/?code=559'>北海道 新さっぽろカテプリ（7/14（金）オープン!!!!）<br>052-769-1150　担当：柴田（長江）</a></li>
+              </ul>
+            </div>
+
+            <div class="arbeit-newbox">
+                      <div class="arbeit-midashi"><img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/arbeit/arbeit_title2.gif" alt="新着アルバイト情報" width="420" height="25" /></div>
+              <ul class="pb20">
+                <li><a href='/shop/list/detail/?code=155'>新潟県 新潟ビルボードプレイス　025-255-5260　担当：</a></li>
+<li><a href='/shop/list/detail/?code=292'>長崎県 イオン大塔　0956-20-0021　担当：ヤマモト</a></li>
+<li><a href='/shop/list/detail/?code=216'>新潟県 リバーサイド千秋　0258-25-9855　担当：フカヤ</a></li>
+<li><a href='/shop/list/detail/?code=118'>高知県 高知　088-880-5203　担当：サトウ</a></li>
+<li><a href='/shop/list/detail/?code=408'>静岡県 イオンモール富士宮　0544-68-7223　担当：犬塚（イヌヅカ）</a></li>
+              </ul>
+            </div>
+
+        </div>
+      </div>
+      <!--ここまで個別ページ-->
+
+    </div>
+  </div>
+  <div id="contentBottom"></div>
+  <!--contentBottom-->
+</div>
+<!--top_content-->
+
+<!---->
+</div>
+<!--wrapper-->
+
+<div id="footerArea">
+  <div id="footerInner">
+    <div class="footerBox">
+      <h3><img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/footer_shopinfo.gif" alt="店舗情報　SHOP INFORMATION"  /></h3>
+      <ul>
+	<li><a href="/about/">ヴィレヴァンの仲間/VV FRIENDS</a></li>
+        <li><a href="/news/">新着情報/NEWS</a></li>
+        <li><a href="/shop/">店舗情報/SHOP INFO</a></li>
+        <li><a href="/support/">お客様窓口/CUSTOMER SERVICE</a></li>
+        <li><a href="/recruit/">アルバイト情報/ARBEIT</a></li>
+      </ul>
+    </div>
+    <!--footerBox--->
+    <div class="footerBox">
+      <h3><img src="http://www.village-v.co.jp/wp-content/themes/villagevanguard/images/footer_caminfo.gif" alt="企業情報　COMPANY INFORMATION"  /></h3>
+      <ul>
+        <li><a href="/company/newsrelease/">IRニュース/IR NEWS</a></li>
+        <li><a href="/company/overview/">会社概要/COMPANY</a></li>
+        <li><a href="/company/ir/">IR情報/IR</a></li>
+        <li><a href="/company/recruit/">求人情報/RECRUIT</a></li>
+        <li><a href="/company/contact/">お問い合わせ/CONTACT</a></li>
+      </ul>
+    </div>
+
+    
+    <div id="footerCopyArea">
+      <p>Copyright(C) VILLAGE VANGUARD CO., All rights reserved.</p>
+      <p><a href="/terms/">利用上の注意</a> / <a href="/privacy_policy/">プライバシーポリシー</a></p>
+    </div>
+    <!--footerBox--->
+  </div>
+  <!--footerInner-->
+</div>
+<!--footerArea-->
+
+</div>
+<!--bgtop-->
+</div>
+<!--site-->
+</body></html>

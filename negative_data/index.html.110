@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="keywords" content="熊谷組,建築,建設,土木,トンネル,シールド,世界一のビル,KUMAGAIGUMI">
+<meta name="description" content="私たち熊谷組グループは品質第一主義徹底的お客さま指向を掲げ常に変革を続ける企業集団です。">
+<title>トップページ：熊谷組</title>
+<link href="common/css/toppage.css" rel="stylesheet" type="text/css">
+<link href="common/css/slideshow.css" rel="stylesheet" type="text/css">
+<link href="common/css/jquery.megamenu.css" rel="stylesheet" type="text/css">
+<script src="common/js/jquery-1.8.0.min.js" type="text/javascript"></script>
+<script src="common/js/jquery.easing.1.3.js" type="text/javascript"></script>
+<script src="common/js/slideshow.js" type="text/javascript"></script>
+<script type="text/javascript">
+ $(document).ready( function(){	
+	  // buttons for next and previous item						 
+	 // var buttons = { previous:$('#slideshow .button-previous') ,
+		//			  next:$('#slideshow .button-next') };	
+	  var buttons = { previous:$('#slideshow .button-next') ,
+					  next:$('#slideshow .button-previous') };			
+	   $('#slideshow').lofJSidernews( { interval : 3000,
+			  direction		: 'opacitys',	
+			  easing			: 'easeInOutExpo',
+			  duration		: 1200,
+			  auto		 	: true,
+			  maxItemDisplay  : 4,
+			  navPosition     : 'horizontal', // horizontal
+			  navigatorHeight : 32,
+			  navigatorWidth  : 80,
+			  mainWidth		: 960,
+			  buttons			: buttons } );	
+	});
+</script>
+<script src="common/js/jquery.megamenu.js" type="text/javascript"></script>
+   <script type="text/javascript">
+      jQuery(function(){
+        var SelfLocation = window.location.href.split('?');
+        switch (SelfLocation[1]) {
+          case "justify_right":
+            jQuery(".megamenu").megamenu({ 'justify':'right' });
+            break;
+          case "justify_left":
+          default:
+            jQuery(".megamenu").megamenu();
+        }
+      });
+    </script>
+<script type="text/javascript">//年度を自動的に表示(フッター用)
+function displayThisYear(){
+	myDate = new Date();
+	myYear = myDate.getFullYear();
+	document.write(myYear);
+}
+</script>
+<!--[if lt IE 9]>
+<script src="common/js/html5shiv-printshiv.js" type="text/javascript"></script>
+<![endif]-->
+
+
+</head>
+
+<body>
+
+<div class="container">
+<header>
+  <a href="#"><img src="common/images/kumagai_logo.gif" alt="熊谷組ロゴ" /></a>
+<div id="searchbox">
+	<form action="http://www.google.com/search" target="_blank">
+	<input type="hidden" name="hl" value="ja" />
+	<input type="hidden" name="ie" value="UTF-8" />
+	<input type="hidden" name="oe" value="UTF-8" />
+	<input type="hidden" value="www.kumagaigumi.co.jp" name="as_sitesearch" />
+	<label></label>
+	<input type="text" name="q" size="20" maxlength="256" value="サイト内検索" />
+	<input type="image" name="btnG" src="common/images/btn_search.gif" style="vertical-align: text-bottom;" alt="検索" />
+	</form>	
+</div>
+	<!--ヘッダ内のクイックリンク -->
+<nav id="quicklink">
+  <ul>    	
+    <li><a href="toi/contact.html">お客さま相談室</a></li>
+    <li><a href="koubai/index.html">購買情報</a></li>
+    <li><a href="saiyou/" target="_blank">採用情報</a></li>
+    <li><a href="toi/mailform.html">お問い合わせ</a></li>
+    <li><a href="privacy/privacy.html">個人情報保護方針</a></li>
+    <li><a href="rule/rule.html">サイト利用規約</a></li>
+    <li><a href="sitemap/sitemap.html">サイトマップ</a></li>
+    <li><a href="english/index.html">ENGLISH</a></li>
+  </ul>	
+</nav>
+</header>
+
+<!--  スライドショーコンテンツ -->
+<div id="slideshow" class="lof-slidecontent">
+<div class="preload"><div></div></div>
+<!-- スライドショーメインコンテンツ  -->
+<div class="main-slider-content">
+<ul class="sliders-wrap-inner">
+
+<li>
+  <img src="common/images/slideshow/tajiri.jpg" title="東京外かく環状道路田尻地区函渠工事">          
+<div class="slider-description">
+<p>東京外かく環状道路田尻地区函渠工事 / 千葉県</p>
+</div>
+</li>
+
+<li>
+  <img src="common/images/slideshow/aeonmall.jpg" title="イオンモール出雲">          
+<div class="slider-description">
+<p>イオンモール出雲 / 島根県</p>
+</div>
+</li>
+
+<li>
+  <img src="common/images/slideshow/heartcourt.jpg" title="ハートコート横浜" >           
+<div class="slider-description">
+<p>ハートコート横浜 / 神奈川県</p>
+</div>
+</li> 
+
+<li>
+<img src="common/images/slideshow/tonan.jpg" title="国家公務員共済組合連合会 斗南病院" >            
+<div class="slider-description">
+<p>国家公務員共済組合連合会 斗南病院 / 北海道</p>
+</div>
+</li> 
+
+<li>
+  <img src="common/images/slideshow/sendai.jpg" title="仙台第1地方合同庁舎" >            
+<div class="slider-description">
+<p>仙台第1地方合同庁舎 / 宮城県</p>
+</div>
+</li> 
+
+<li>
+<img src="common/images/slideshow/kamisatocantare.jpg" title="上里カンターレ" >            
+<div class="slider-description">
+<p>上里カンターレ / 埼玉県</p>
+</div>
+</li>
+
+<li>
+  <img src="common/images/slideshow/shonan.jpg" title="学校法人時任学園樟南第二高等学校" >          
+<div class="slider-description">
+<p>学校法人時任学園樟南第二高等学校 / 鹿児島県</p>
+</div>
+</li>
+
+<li>
+<img src="common/images/slideshow/araku.jpg" title="荒句大橋" >            
+<div class="slider-description">
+<p>荒句大橋 / 神奈川県</p>
+</div>
+</li>
+
+</ul>  	
+</div>
+<!-- ここまでスライドショーメインコンテンツ --> 
+
+<!-- サムネイルナビゲーション -->
+<div class="navigator-content">
+<div class="button-next">Next</div>
+<div class="navigator-wrapper">
+<ul class="navigator-wrap-inner">
+  <li><img src="common/images/slideshow/thumb_tajiri.jpg" alt="東京外かく環状道路田尻地区函渠工事" /></li>
+  <li><img src="common/images/slideshow/thumb_aeonmall.jpg" alt="イオンモール出雲" /></li>
+  <li><img src="common/images/slideshow/thumb_heartcourt.jpg" alt="ハートコート横浜" /></li>
+  <li><img src="common/images/slideshow/thumb_tonan.jpg" alt="国家公務員共済組合連合会 斗南病院" /></li>
+  <li><img src="common/images/slideshow/thumb_sendai.jpg" alt="仙台第1地方合同庁舎" /></li>
+  <li><img src="common/images/slideshow/thumb_kamisatocantare.jpg" alt="上里カンターレ" /></li>
+  <li><img src="common/images/slideshow/thumb_shonan.jpg" alt="学校法人時任学園樟南第二高等学校" /></li>
+  <li><img src="common/images/slideshow/thumb_araku.jpg" alt="荒句大橋" /></li>    
+</ul>
+</div>
+<div  class="button-previous">Previous</div>
+<!-- ここまでサムネイルナビゲーション--> </div> 
+
+<!-- PLAY-STOPボタン -->
+<div class="button-control"><span></span>
+<!-- ここまでPLAY-STOPボタン --></div>
+ 
+<!-- end #slideshow --></div>
+
+<!-- ナビゲーションメニュー -->
+<nav id="gnavi">
+<ul class="megamenu">
+
+<li><a href="company/aisatsu.html">会社情報</a>
+  <div style="width: 200px;">
+    <ul class="list-content">
+      <li><a href="company/aisatsu.html">社長挨拶</a></li>
+      <li><a href="company/vision.html">社訓・経営理念・ビジョン</a></li>
+	  <li><a href="company/ichiran.html">事業所一覧</a></li>
+	  <li><a href="company/comgaiyou.html">会社概要</a></li>
+	  <li><a href="company/enkaku.html">沿革</a></li>
+      <li><a href="company/governance.html">コーポレートガバナンス</a></li>
+	  <li><a href="company/compliance.html">コンプライアンス</a></li>
+	  <li><a href="company/group.html">グループ各社</a></li>
+    </ul>
+  </div>
+</li>
+
+<li><a href="tech/index.html">技術・サービス・作品</a>
+<div style="width: 980px;">
+<table>
+  <tr>
+    <td><a href="tech/works/index.html">
+    <img src="common/images/menu_works.gif" width="158" height="40" alt="作品集"></a></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><a href="tech/works/transport/index.html">
+    <img src="tech/works/imges/koutsu.gif" alt="交通" width="158" height="56"></a></td>
+    <td><a href="tech/works/conservation/index.html">
+    <img src="tech/works/imges/bousai.gif" alt="防災・保全" width="158" height="56"></a></td>
+    <td><a href="tech/works/river/index.html">
+    <img src="tech/works/imges/kasen.gif" alt="河川・港湾" width="158" height="56"></a></td>
+    <td><a href="tech/works/lifeline/index.html">
+    <img src="tech/works/imges/laifu.gif" alt="ライフライン" width="158" height="57"></a></td>
+    <td><a href="tech/works/env/index.html">
+    <img src="tech/works/imges/kankyou.gif" alt="環境等" width="158" height="56"></a></td>
+    <td><a href="tech/works/resource/index.html">
+    <img src="tech/works/imges/shigen.gif" alt="資源・エネルギー" width="158" height="56"></a></td>
+  </tr>
+  <tr>
+    <td><a href="tech/works/house/index.html">
+    <img src="tech/works/imges/jyutaku.gif" alt="住宅" width="158" height="56"></a></td>
+    <td><a href="tech/works/office/index.html">
+    <img src="tech/works/imges/jimu.gif" alt="事務所・庁舎" width="158" height="56"></a></td>
+    <td><a href="tech/works/hotel/index.html">
+    <img src="tech/works/imges/syukuhaku.gif" alt="宿泊" width="158" height="56"></a></td>
+    <td><a href="tech/works/store/index.html">
+    <img src="tech/works/imges/tenpo.gif" alt="店舗" width="158" height="56"></a></td>
+    <td><a href="tech/works/culture/index.html">
+    <img src="tech/works/imges/bunka.gif" alt="文化" width="158" height="56"></a></td> 
+    <td><a href="tech/works/education/index.html">
+    <img src="tech/works/imges/kyouiku.gif" alt="教育・研究" width="158" height="56"></a></td>
+  </tr>
+  <tr>
+    <td><a href="tech/works/amusement/index.html">
+    <img src="tech/works/imges/goraku.gif" alt="スポーツ・娯楽" width="158" height="56"></a></td>
+    <td><a href="tech/works/healthcare/index.html">
+    <img src="tech/works/imges/iryou.gif" alt="医療・福祉" width="158" height="56"></a></td>
+    <td><a href="tech/works/factory/index.html">
+    <img src="tech/works/imges/koujyou.gif" alt="工場" width="158" height="56"></a></td>
+    <td><a href="tech/works/other/index.html">
+    <img src="tech/works/imges/sonohoka.gif" alt="そのほか" width="158" height="56"></a></td>
+    <td><a href="tech/works/pfi/index.html">
+    <img src="tech/works/imges/pfi.gif" alt="PFI" width="158" height="56"></a></td>
+    <td><a href="tech/works/renewal/index.html">
+    <img src="tech/works/imges/renewal.gif" alt="リニューアル" width="158" height="56"></a></td>
+  </tr>
+ <tr>   
+    <td><a href="tech/tech_s/index.html">
+    <img src="common/images/menu_tech_s.gif" width="158" height="40" alt="技術・サービス"></a></td>
+    <td><a href="tech/tech_s/doboku/index.html">
+    <img src="common/images/menu_doboku.gif" width="158" height="56" alt="土木技術"></a></td>
+    <td><a href="tech/tech_s/architecture/index.html">
+    <img src="common/images/menu_arch.gif" width="158" height="56" alt="建築技術"></a></td>
+    <td><a href="tech/tech_s/environment/index.html">
+    <img src="common/images/menu_env.gif" width="158" height="56" alt="環境技術"></a></td>
+    <td><a href="tech/tech_s/general/index.html">
+    <img src="common/images/menu_general.gif" width="158" height="56" alt="総合技術"></a></td>
+    <td><a href="tech/tech_s/product/index.html">
+    <img src="common/images/menu_products.gif" width="158" height="56" alt="商品・サービス"></a></td>
+  </tr>
+  <tr>
+     <td><a href="tech/doboku2/index.html" target="_blank">
+    <img src="common/images/menu_world.gif" width="158" height="47" alt="土木の世界を探検しよう！"></a></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  </table>
+</div>
+</li>
+
+<li><a href="ir/index.html">投資家情報</a>
+  <div style="width: 200px;">
+    <ul class="list-content">
+      <li><a href="ir/index.html">IR情報</a></li>
+      <li><a href="ir/koukoku.html">電子公告</a></li>
+      <li><a href="ir/jisseki.html">経営実績</a></li>
+    </ul>
+  </div>
+</li>
+
+<li><a href="csr/index.html">安全・品質・環境活動</a>
+	<div style="width: 200px;">
+    <ul class="list-content">
+      <li><a href="csr/safety/safety.html">安全衛生活動</a></li>
+      <li><a href="csr/environmental/environmental.html">品質保証・環境保全活動</a></li>
+    
+    </ul>
+  </div>
+</li>
+
+<li><a href="csr/csr.html">CSR活動</a>
+<!--<div style="width: 200px;">
+    
+  </div>--> 
+</li>
+
+<li><a href="news/index.html">お知らせ</a></li>
+
+<li><a href="press/index.html">プレスリリース</a></li>
+</ul>
+</nav>
+<!-- コンテンツ部分 -->
+<article class="content">
+<!--バナースペース-->
+<aside id="banner_space"> 
+<a href=" http://www.kumagaigumi-aso.com/" target="_blank">
+<img src="common/images/banner_kumamoto.jpg" width="410" height="100" alt="特設サイト　熊本地震大規模土砂崩壊災害の復旧"/></a>
+<a href="now/index.html"><img src="common/images/banner_now.jpg" width="200" height="60" alt="熊谷組の今" /></a>
+<a href="csr/csr.html"><img src="common/images/banner_csr.jpg" width="200" height="60" alt="CSRの取り組み" /></a>
+<a href="saiyou/" target="_blank"><img src="common/images/banner_recruit.jpg" width="200" height="60" alt="採用情報" /></a>
+
+<a href="kurobe/index.html"><img src="common/images/banner_kurobe.jpg" width="200" height="60" alt="黒部の太陽" /></a>
+<a href="csr/ecobook/ecobook.html"><img src="common/images/banner_ecobook.jpg" width="200" height="60" alt="クマさんのエコブック" /></a>
+<a href="tech/doboku2/index.html" target="_blank"><img src="common/images/banner_world.gif" width="201" height="60" alt=""/></a> 
+<a href="news/2010/nw_100601_1.html"><img src="common/images/banner_eco_s.jpg" width="95" height="60" alt="熊谷組の「エコ・ファーストの約束」" /></a>
+<a href="http://www.kumagaigumi.co.jp/csr/environmental/environmental_t_6.html"><img src="common/images/banner_fts.jpg" width="95" height="60" alt="みんなでシェアして、低炭素社会へ。" /></a>
+<a href="ir/koukoku.html"><img src="common/images/banner_koukoku.jpg" width="95" height="60" alt="電子公告" /></a>
+<a href="word/wd_070223.html"><img src="common/images/banner_retired.jpg" width="95" height="60" alt="退職者の皆様へ" /></a>
+<!-- end #banner_space --></aside>
+
+<!-- 最新情報 -->
+<section id="news_and_pr">
+<h2>最新情報</h2>
+<iframe src="news/news.html" frameborder="0"></iframe>
+<p><a href="news/index.html"><img src="common/images/news_index.gif" width="150" height="25" alt="新着情報一覧へ"></a>　
+<a href="press/index.html"><img src="common/images/press_index.gif" width="150" height="25" alt="プレスリリース一覧へ"></a></p>
+<!-- end #news_and_pr --></section>
+
+<!-- end .content --></article>
+<footer>
+<p class="copyright">Copyright &copy; <script type="text/javascript">displayThisYear();</script> KUMAGAIGUMI Co.,LTD All Rights Reserved.</p>
+</footer>
+<!-- end .container --></div>
+</body>
+</html>

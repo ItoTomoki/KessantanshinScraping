@@ -1,0 +1,194 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/template.dwt" codeOutsideHTMLIsLocked="false" --><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="img/common/favicon.ico" rel="shortcut icon" />
+<link href="css/screen.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/default.js"></script>
+<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.page-scroller.js"></script>
+<script type="text/javascript" src="js/jquery.scrollButton.js"></script>
+<script type="text/javascript">
+jQuery( function( $ ) {
+    $('body').scrollButton( {
+        duration  : 200,
+        offset    : 20,
+        startPosY : 50,
+        string    : '<div class="pagetop"></div>',
+        target    : '#header',
+        theClass  : 'fadeTopBtn'
+    } );
+} );
+</script>
+
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>ダイニックグループ</title>
+<meta name="keywords" content="クロス,出版文具,フィルム,不繊布,衣料,住宅・インテリア,ダイニック,Dynic,シート,マット,エンボス加工,ターポリン" />
+<meta name="description" content="ダイニックグループの公式サイトです。書籍装丁用などのクロスの他、各種製品情報、企業情報、IR情報、採用情報などをご覧いただけます。" />
+
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+<!-- InstanceParam name="menu0" type="boolean" value="true" -->
+<!-- InstanceParam name="menu1" type="boolean" value="false" -->
+<!-- InstanceParam name="menu2" type="boolean" value="false" -->
+<!-- InstanceParam name="menu3" type="boolean" value="false" -->
+<!-- InstanceParam name="menu4" type="boolean" value="false" -->
+<!-- InstanceParam name="menu5" type="boolean" value="false" -->
+<!-- InstanceParam name="menu6" type="boolean" value="false" -->
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-57978629-1', 'auto');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+
+</script>
+
+</head>
+<body>
+<div id="container">
+
+<div id="header_container">
+<div id="header">
+	<h1><a href="index.html"><img src="img/common/logo.png" width="227" height="51" alt="ダイニックグループ" /></a></h1>
+    <div class="sub">
+        <div class="submenu">
+    		<ul>
+            <li class="home"><a href="index.html">ホーム</a></li>
+            <li class="contact"><a href="contact/index.asp">お問い合わせ</a></li>
+            <li><a href="en/index.html"><img src="img/common/eng_off.png" width="80" height="20" alt="English" /></a></li>
+            </ul>
+        </div> 
+        <div class="search">
+			<form action="http://www.google.com/search">
+			<input type="hidden" name="hl" value="ja" />
+			<input type="hidden" value="http://www.dynic.co.jp/" name="as_sitesearch" />
+			<input type="image" src="img/common/search.png" value="検索" class="btn" />
+			<input type="text" name="q" value="" class="field"  />
+			</form>
+		</div>
+    </div>
+</div>
+</div>
+<div id="mainmenu">
+<ul>
+  <li><a href="company/index.html"><img src="img/common/01_off.png" width="161" height="40" alt="企業情報" /></a></li>
+  <li><a href="product/index.html"><img src="img/common/02_off.png" width="161" height="40" alt="製品情報" /></a></li>
+  <li><a href="technology/index.html"><img src="img/common/03_off.png" width="161" height="40" alt="複合技術" /></a></li>
+  <li><a href="ir/index.html"><img src="img/common/04_off.png" width="161" height="40" alt="IR情報" /></a></li>
+  <li><a href="recruit/index.html"><img src="img/common/05_off.png" width="161" height="40" alt="採用情報" /></a></li>
+  <li><a href="environment/index.html"><img src="img/common/06_off.png" width="175" height="40" alt="環境への取り組み" /></a></li>
+</ul>
+</div>
+<!-- InstanceBeginEditable name="template" -->
+<div id="maincontents">
+
+<script type="text/javascript">
+$(function(){
+var $width =966;
+var $height =313;
+var $interval = 5000;
+var $fade_speed = 2000;
+
+$("#slide ul li").css({"position":"relative","overflow":"hidden","width":$width,"height":$height});
+$("#slide ul li").hide().css({"position":"absolute","top":0,"left":0});
+$("#slide ul li:first").addClass("active").show();
+setInterval(function(){
+var $active = $("#slide ul li.active");
+var $next = $active.next("li").length?$active.next("li"):$("#slide ul li:first");
+$active.fadeOut($fade_speed).removeClass("active");
+$next.fadeIn($fade_speed).addClass("active");
+},$interval);
+});
+</script>
+	<div id="top_mainbg">
+    	<div id="mainimg">
+	        <div id="slide">
+			<ul>
+			<li><img src="img/top/mainimg_01.jpg" width="966" height="313" alt="" /></li>
+			<li><img src="img/top/mainimg_02.jpg" width="966" height="313" alt="" /></li>
+			<li><img src="img/top/mainimg_03.jpg" width="966" height="313" alt="" /></li>
+			</ul>
+            </div>
+        </div>
+	</div>
+<div id="wrapper">
+
+	<div id="top_lineup" class="clearfix">
+    	<h2><img src="img/top/lineup_title.png" width="863" height="29" alt="製品情報" /></h2>
+    	<a href="product/intro/index.html" target="_blank"><img src="img/top/scene.png" width="101" height="22" alt="使用シーン一覧" /></a>
+    	<ul>
+        <li><a href="product/product_01.html"><img src="img/top/l_01.jpg" width="186" height="55" alt="出版文具関連" /><span>出版文具関連</span></a></li>
+        <li><a href="product/product_02.html"><img src="img/top/l_02.jpg" width="185" height="55" alt="情報関連" /><span>情報関連</span></a></li>
+        <li><a href="product/product_03.html"><img src="img/top/l_03.jpg" width="185" height="55" alt="不繊布関連" /><span>不織布関連</span></a></li>
+        <li><a href="product/product_04.html"><img src="img/top/l_04.jpg" width="186" height="55" alt="衣料関連" /><span>衣料関連</span></a></li>
+        <li><a href="product/product_05.html"><img src="img/top/l_05.jpg" width="186" height="55" alt="住宅・インテリア関連" /><span>住宅・インテリア関連</span></a></li>
+        <li><a href="product/product_06.html"><img src="img/top/l_06.jpg" width="186" height="55" alt="工業用途" /><span>工業用途</span></a></li>
+        <li><a href="product/product_07.html"><img src="img/top/l_07.jpg" width="185" height="55" alt="特殊材料加工" /><span>特殊材料加工</span></a></li>
+        <li><a href="product/product_08.html"><img src="img/top/l_08.jpg" width="185" height="55" alt="包材関連" /><span>包材関連</span></a></li>
+        <li><a href="product/product_09.html"><img src="img/top/l_09.jpg" width="186" height="55" alt="環境関連" /><span>環境関連</span></a></li>
+        </ul>
+	</div>
+    
+    <div id="top_left">
+    	<a href="technology/index.html"><img src="img/top/banner_tech.jpg" width="650" height="161" alt="ダイニックの複合技術　～9つの力～" class="banner" /></a>
+		<h2><img src="img/top/info_title.png" width="536" height="30" alt="インフォメーション" /></h2>
+    	<a href="information/index.html"><img src="img/top/back.png" width="100" height="22" alt="バックナンバー" /></a>
+        
+        <dl class="clearfix">
+        <dt>2017/08/09</dt>
+        <dd><a href="ir/data/20170809_houkoku.pdf" target="_blank">平成30年3月期 第1四半期報告書</a></dd>
+        <dt>2017/08/09</dt>
+        <dd><a href="ir/data/20170809_kessan.pdf" target="_blank">プレスリリース 平成30年3月期 第1四半期決算短信〔日本基準〕（連結）</a></dd>
+        <dt>2017/07/11</dt>
+        <dd><a href="ir/data/20170711.pdf" target="_blank">プレスリリース 組織・人事異動のお知らせ</a></dd>
+        <dt>2017/06/30</dt>
+        <dd><a href="ir/data/2017report_rinji.pdf" target="_blank">第154期 臨時報告書</a></dd>
+        <dt>2017/06/29</dt>
+        <dd><a href="ir/data/2017_report_naibu.pdf" target="_blank">第154期 内部統制報告書</a></dd>
+        <dt>2017/06/29</dt>
+        <dd><a href="ir/data/2017_report_yuka.pdf" target="_blank">第154期 有価証券報告書</a></dd>
+        <dt>2017/06/28</dt>
+        <dd><a href="ir/data/2017_assembly_02.pdf" target="_blank">第154期 定時株主総会決議ご通知</a></dd>
+        </dl>
+    </div>
+    
+    <div id="top_right">
+    	<ul>
+        <li><a href="ir/index.html"><img src="img/top/banner_01.png" width="310" height="78" alt="投資家の方へ" /></a></li>
+        <li><a href="recruit/index.html"><img src="img/top/banner_02.png" width="310" height="78" alt="採用情報" /></a></li>
+        <li><a href="greenclub/index.html"><img src="img/top/banner_03.png" width="310" height="78" alt="ダイニック多賀グリーンクラブ" /></a></li>
+        <li><a href="company/dynic90.html"><img src="img/top/banner_04.png" width="310" height="78" alt="ダイニック90年史" /></a></li>
+        <li><a href="http://www.mp-net.jp/" target="_blank"><img src="img/top/banner_07.png" width="310" height="78" alt="MPシリーズオフィシャルサイト" /></a></li>
+         <li><a href="https://www.facebook.com/dyniccloth" target="_blank"><img src="img/top/banner_08.png" width="310" height="78" alt="facebook 出版文具関連公式フェイスブック" /></a></li>
+        </ul>
+        <h2><img src="img/top/group_title.png" width="310" height="17" alt="ダイニックグループ" /></h2>
+    	<ul class="group">
+        <li><a href="company/group_jp.html"><img src="img/top/banner_05.png" width="150" height="29" alt="国内" /></a></li>
+        <li><a href="company/group_os.html"><img src="img/top/banner_06.png" width="150" height="29" alt="海外" /></a></li>
+        </ul>
+        
+    </div>
+    
+</div>
+</div>
+<!-- InstanceEndEditable -->
+<div id="footer">
+	<div class="inner">
+	<div class="menu">
+    <a href="sitemap/index.html">サイトマップ</a
+    >&nbsp;&nbsp;&frasl;&nbsp;&nbsp;<a href="policy/index.html">個人情報保護方針</a
+    >&nbsp;&nbsp;&frasl;&nbsp;&nbsp;<a href="link/index.html">リンクについて</a
+    >&nbsp;&nbsp;<!--&frasl;&nbsp;&nbsp;<a href="http://www.dynic.co.jp/dynic.keijiban/default.htm">StaffOnly</a>-->
+    </div>
+    <div class="cr">Copyright © 2014 DYNIC CORPORATION All right reserved.</div>
+    </div>
+</div>
+
+</div>
+</body>
+<!-- InstanceEnd --></html>

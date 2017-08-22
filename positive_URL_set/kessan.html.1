@@ -1,0 +1,305 @@
+
+
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja-JP" lang="ja-JP">
+<head>
+<meta name="viewport" content="width=1024" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="description" content="">
+<meta name="keywords"    content="">
+
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+
+<title>IR情報 | 株式会社オーテック</title>
+
+<!-- E-IR Parts -->
+<link rel="stylesheet" type="text/css" href="http://v4.eir-parts.net/Custom/public/parts/1736/ja/parts/main.css">
+<!-- E-IR Parts -->
+
+<link href="../css/common.css" rel="stylesheet" type="text/css" media="screen,print" />
+<link href="../css/common_print.css" rel="stylesheet" type="text/css" media="print" />
+
+<!--[if IE]>
+<link href="../css/ie.css" rel="stylesheet" type="text/css" media="screen,print" />
+<![endif]-->
+<link href="../css/table.css" rel="stylesheet" type="text/css" media="screen,print" />
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ 
+  ga('create', 'UA-59003087-1', 'auto');
+  ga('send', 'pageview');
+</script>
+<script src="../scripts/jQuery/jquery-1.10.1.min.js"></script>
+<script src="../scripts/breadCrumb.js"></script>
+<script src="../scripts/common.js"></script>
+<script language="JavaScript"><!--
+if(navigator.userAgent.indexOf("Mac")!=-1){
+	//document.write("<link rel=stylesheet href=/css/mac.css type=text/css />");
+}
+
+$(document).ready(function(){
+	$('.mouseOverImg').each(function(){
+		var src = $(this).attr('src');
+		var src2 = $(this).attr('src2');
+		$(this).hover(
+			function(){$(this).attr('src', src2);},
+			function(){$(this).attr('src', src);}
+		);
+	});
+	
+	$('.addOver').each(function(){
+		$(this).hover(
+			function(){$(this).addClass('over');},
+			function(){$(this).removeClass('over');}
+		);
+	});
+	if(setContactNavi){
+		setContactNavi(1);
+		$(window).scroll(function(){
+			setContactNavi();
+		});
+		$(window).resize(function(){
+			setContactNavi();
+		});
+	}
+});
+
+// --></script>
+
+</head>
+<body>
+<div id="BODY_WRAPPER">
+<div id="CMN__HEADER_WRAP">
+	<div id="CMN__HEADER">
+		<div id="headLogo">
+			<a href="../index.html">
+				<img src="../images/common/corplogo.gif">
+			</a>
+		</div>
+		<div id="headMess">
+			建物の快適性・利便性を追求したライフラインの提供や<br />
+			環境に優しい環境関連機器の提供に取り組んでいます。
+		</div>
+		<ul id="headerNavi">
+			<li class="li1">
+				<a href="../index.html"><img src="../images/common/headerNavi_home.png" alt="HOME"></a>
+				<a href="../sitemap.html"><img src="../images/common/headerNavi_sitemap.png" alt="サイトマップ"></a>
+			</li>
+			<li><a href="../contact_form.html"><img src="../images/common/cuntactUs.png" alt="お問い合わせ"></a></li>
+		</ul>
+	</div>
+</div>
+
+<style type="text/css">
+.shadow {background:#000; margin-left:-4px; filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='5', MakeShadow='true', ShadowOpacity='0.60');}
+</style>
+
+<div id="GLOBAL_NAVI_BG"></div>
+<div id="GLOBAL_NAVI">
+	<ul>
+		<li class="line"></li>
+		<li class="addOver">
+			<a href="../company/index.html">企業情報<span>Company</span></a>
+		</li>
+		<li class="line"></li>
+		<li class="addOver">
+			<a href="../business/index.html">事業紹介<span>Bussiness</span></a>
+		</li>
+		<li class="line"></li>
+		<li class="addOver">
+			<a href="index.html">IR情報<span>IR information</span></a>
+		</li>
+		<li class="line"></li>
+		<li class="addOver">
+			<a href="../recruit/index.html">採用情報<span>Recruit</span></a>
+		</li>
+		<li class="line"></li>
+	</ul>
+	<div class="fClear"></div>
+</div>
+
+
+	
+
+
+
+
+
+
+	<div id="SIDE_NAVI">
+		<ul>
+			<li class="title">
+				<div>IR情報</div>
+			</li>
+			<!-- E-IR Parts -->
+            <li><a href="greeting.html">ご挨拶</a></li>
+			<li><a href="news.html">ニュースリリース</a></li>
+			<li><a href="highlight.html">財務ハイライト（連結）</a></li>
+			<li class="current"><a href="kessan.html">決算短信</a></li>
+			<li><a href="yuho.html">有価証券報告書</a></li>
+			<li><a href="report.html">事業報告書</a></li>
+			<li><a href="explain.html">決算説明会</a></li>
+			<li><a href="stock.html">株式情報</a></li>
+			<li><a href="meeting.html">株主総会のご案内</a></li>
+			<li><a href="calendar.html">IRカレンダー</a></li>
+			<li><a href="faq.html">よくあるご質問</a></li>
+			<li><a href="http://o-tec.test-preview.jp/contact_form.html">IRお問い合わせ</a></li>
+			<li><a href="koukoku.html">電子公告</a></li>
+			<li><a href="disclaimer.html">免責事項</a></li>
+            <!-- E-IR Parts -->
+		</ul>
+	</div>
+
+
+
+
+
+
+<div id="pageHeaderWrap">
+	<div id="pageHeader">
+		<ul id="breadCrumb"></ul>
+		<h1>IR情報</h1>
+		<!-- E-IR Parts -->
+        <span>IR information</span>
+        <!-- E-IR Parts -->
+		<div class="fClear"></div>
+	</div>
+</div>
+<!-- begin CONTENTS -->
+<div id="CMN__CONTENTS_WRAP">
+	<div id="CMN__CONTENTS">
+		<div class="fClear" style="height:20px;"></div>
+		
+		<div class="subTitle">
+			<!-- E-IR Parts -->
+            <p>決算短信</p>
+            <!-- E-IR Parts -->
+		</div>
+		
+
+<!-- E-IR Parts -->
+
+<div id="ir_library">
+
+<script type="text/javascript" src="http://v4.eir-parts.net/Custom/public/parts/1736/ja/parts/tanshin.js" charset="utf-8"></script>
+<script type="text/javascript" src="ja/parts/error.js" charset="utf-8"></script>
+</div>
+<div class="ir_news_top" align="right"><span class="arr"><a href="kessan_past.html">過去の決算短信はこちら</a></span></div>
+<div id="download"><a href="http://www.adobe.com/jp/products/acrobat/readstep2.html" target="_blank"><img src="http://v4.eir-parts.net/Custom/public/parts/1736/ja/parts/get_adobe_reader.gif" alt="Get Adobe Reader" width="112" height="33" border="0" /></a> PDF形式のファイルをご覧になるためにはAdobe Readerが必要です。<br> Adobe Readerをお持ちでない場合は、左のアイコンからダウンロードして下さい。</div>
+<div id="footer2">
+本ページ上には、将来の業績に関する記述が含まれています。こうした記述は、将来の業績を保証するものではなく、
+リスクや不確実性を内包するものです。将来の業績は、経営環境の変化などにより、実際の結果と異なる可能性があることにご留意ください。<br /><br />
+本画面に掲載されているコンテンツは、<a href="http://www.pronexus.co.jp/home/index.html"" target="_blank">(株)プロネクサス</a>より情報の提供を受けております。<br /><br />
+<div align="right"><a href="http://www.pronexus.co.jp/home/index.html"" target="_blank"><img src="http://v4.eir-parts.net/Custom/public/parts/1736/ja/parts/footer.gif" alt="Powered by E-IR" title="プロネクサスのＩＲサイト自動更新サービス E-IR" width="105" height="13" border="0" /></a></div>
+</div>
+
+<div class="fClear" style="height:50px;"></div>
+
+<div id="FAQ_BOTTOM" >
+	<div style="height:47px;"></div>
+	<a href="../contact_info"></a>
+</div>
+
+<!-- E-IR Parts -->
+
+
+<div class="fClear" style="height:30px;"></div>
+
+		
+	</div>
+</div>
+<!-- end CONTENTS -->
+
+
+<div id="CMN__FOOTER">
+	<div class="footer_top">
+		<div class="footer_top_content">
+			<img src="../images/common/pageTop.png" class="pointer" onclick="pageScroll();">
+		</div>
+	</div>
+	<div class="footer_middle">
+		<div class="footer_middle_content">
+			<ul style="margin-left:22px;">
+				<li class="b"><a href="../index.html">トップページ</a></li>
+				<li class="b"><a href="../company/index.html">企業情報</a></li>
+				<li><a href="../company/message.html">ご挨拶</a></li>
+				<li><a href="../company/summary.html">会社概要</a></li>
+				<li><a href="../company/history.html">会社沿革</a></li>
+				<li><a href="../company/system.html">会社組織図</a></li>
+				<li><a href="../company/location.html">支店営業所</a></li>
+				<li><a href="../company/env.html">品質方針</a></li>
+				<li><a href="../company/pip.html">個人情報保護方針</a></li>
+			</ul>
+			<ul>
+				<li class="b"><a href="../business/kanzai/index.html">管材事業</a></li>
+				<li><a href="../business/kanzai/kanzai01.html">管類</a></li>
+				<li><a href="../business/kanzai/kanzai02.html">継手類</a></li>
+				<li><a href="../business/kanzai/kanzai03.html">バルブ類</a></li>
+				<li><a href="../business/kanzai/kanzai04.html">住宅設備機器類</a></li>
+				<li><a href="../business/kanzai/kanzai05.html">他取扱い商品</a></li>
+			</ul>
+			<ul>
+				<li class="b"><a href="../business/system/index.html">システム事業</a></li>
+				<li><a href="../business/system/example.html">施工事例</a></li>
+				<li class="child"><a href="../business/system/example.html?tab=2">医療・介護</a></li>
+				<li class="child"><a href="../business/system/example.html?tab=3">教育・研究</a></li>
+				<li class="child"><a href="../business/system/example.html?tab=1">商業施設</a></li>
+				<li class="child"><a href="../business/system/example.html?tab=6">展示施設</a></li>
+				<li class="child"><a href="../business/system/example.html?tab=4">工場</a></li>
+				<li class="child"><a href="../business/system/example.html?tab=5">事務所・庁舎</a></li>
+			</ul>
+			<ul>
+				<li class="b"><a href="../business/env/index.html">環境機器事業</a></li>
+				<li><a href="../business/env/index.html?tab=1">ボールクリーニングシステム</a></li>
+				<li><a href="../business/env/index.html?tab=2">スケール除去システム</a></li>
+				<li><a href="../business/env/index.html?tab=3">冷えルーフ</a></li>
+				<li><a href="../business/env/index.html?tab=4">カルファバス</a></li>
+			</ul>
+			<ul>
+				<li class="b"><a href="index.html">IR情報</a></li>
+				<li><a href="greeting.html">ご挨拶</a></li>
+				<li><a href="news.html">ニュースリリース</a></li>
+				<li><a href="highlight.html">財務ハイライト（連結）</a></li>
+				<li><a href="kessan.html">決算短信</a></li>
+				<li><a href="yuho.html">有価証券報告書</a></li>
+				<li><a href="report.html">事業報告書</a></li>
+				<li><a href="explain.html">決算説明会</a></li>
+			</ul>
+			<ul style="margin-left:10px;">
+				<li>　</li>
+				<li><a href="stock.html">株式情報</a></li>
+				<li><a href="meeting.html">株主総会のご案内</a></li>
+				<li><a href="calendar.html">IRカレンダー</a></li>
+				<li><a href="faq.html">よくあるご質問</a></li>
+				<li><a href="../contact_form.html">IRお問い合わせ</a></li>
+				<li><a href="koukoku.html">電子公告</a></li>
+				<li><a href="disclaimer.html">免責事項</a></li>
+			</ul>
+			<ul>
+				<li class="b"><a href="../recruit/index.html">採用情報</a></li>
+				<li class="b"><a href="../contact_form.html">お問い合わせ</a></li>
+				<li class="b"><a href="../terms.html">利用規約</a></li>
+				<li class="b"><a href="../release.html">プレスリリース</a></li>
+			</ul>
+			<div class="fClear"></div>
+		</div>
+	</div>
+	<div class="footer_bottom">
+		<div class="footer_bottom_content">
+			<img src="../images/common/footerLogo.gif">
+			<span>
+				〒135-0016　
+				東京都江東区東陽2-4-2 新宮ビル3階
+			</span>
+			<div id="copyright">O-TEC ALL RIGHT RESERVED.2013</div>
+		</div>
+	</div>
+</div>
+</div>
+</body>

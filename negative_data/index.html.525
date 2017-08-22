@@ -1,0 +1,225 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+<meta charset="Shift_JIS">
+<title>天然調味料のリーディングカンパニー アリアケジャパン</title>
+<meta name="description" content="アリアケジャパンが提供するラーメンスープ、ガラスープ、デミグラス、フォンドヴォー、ブイヨン、コンソメなどの業務用製品情報から、企業情報、IR情報などをお届けします。">
+<meta name="keywords" content="アリアケジャパン,ariakejapan,アリアケグループ,調味料,製品,事業,IR">
+<link rel="stylesheet" href="common/css/default.css" type="text/css" media="all">
+<link rel="stylesheet" href="common/css/tempate.css" type="text/css" media="all">
+<link rel="stylesheet" href="common/css/print.css" type="text/css" media="print">
+<link rel="stylesheet" href="common/css/index.css" type="text/css" media="all">
+<script src="common/js/jquery.js" type="text/javascript"></script>
+<script src="common/js/swfobject.js" type="text/javascript"></script>
+<!-- 201111add -->
+<!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script> -->
+<script type="text/javascript">
+$(function(){
+	$("a.btn_act").click(function(){
+		var connectCont = $("a.btn_act").index(this);
+		var showCont = connectCont+1;
+		$('.motion').css({display:'none'});
+		$('#motion_area'+(showCont)).fadeIn('slow');
+
+		$('a.btn_act').removeClass('active');
+		$(this).addClass('active');
+	});
+});
+</script>
+		<script type="text/javascript" src="common/js/jquery.innerfade.js"></script>
+<script type="text/javascript">
+	   $(document).ready(
+				function(){
+					
+					$('ul#portfolio').innerfade({
+						speed: 2500,
+						timeout: 5000,
+						type: 'sequence',
+						containerheight: '220px'
+					});
+					
+
+			});
+</script>
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+//-->
+</script>
+</head>
+
+<body id="top">
+<a name="pagetop"></a>
+<div id="wrapper">
+
+  <div id="header">
+    <h1 id="logo"><a href="index.html"><img src="common/images/logo.gif" width="280" height="33" alt="アリアケジャパン株式会社"></a></h1>
+	<ul id="h_navi" class="clearfix">
+	  <li id="sitemap"><a href="sitemap/index.html">サイトマップ</a></li>
+	  <li id="contact"><a href="contact/index.html">お問い合わせ</a></li>
+	  <li id="english"><a href="en/index.html">English</a></li>
+	</ul>
+  </div>
+  <ul id="g_navi" class="clearfix">
+	<li id="navi01"><a href="index.html" class="on">HOME</a></li>
+	<li id="navi02"><a href="company/index.html" class="off">会社案内</a></li>
+	<li id="navi03"><a href="product/index.html" class="off">製品・事業紹介</a></li>
+	<li id="navi04"><a href="http://ariakejapan.irbridge.com/ja/Top.html" class="off">IR情報</a></li>
+	<li id="navi05"><a href="group/index.html" class="off">アリアケグループ</a></li>
+	<li id="navi06"><a href="recruit/index.html" class="off">採用情報</a></li>
+  </ul>
+  
+  <div id="pagebody" class="clearfix">
+<ul id="portfolio" class="indph">
+    <li><img src="img/ind_ph01.png" width="760" height="220" alt="価値のあるおいしさを追求する"></li>			
+	<li><img src="img/ind_ph02.png" width="760" height="220" alt="価値のあるおいしさを追求する"></li>
+	<li><img src="img/ind_ph03.png" width="760" height="220" alt="価値のあるおいしさを追求する"></li>		
+</ul>
+
+
+
+<ul class="indbn01">
+<li class="mr8"><a href="product/line_up.html"><img src="img/ind_bn01.png" width="248" height="104" alt="詳しい製品情報はこちら"></a></li>
+<li class="mr8"><a href="http://ariakejapan.irbridge.com/ja/Top.html"><img src="img/ind_bn02.png" width="248" height="104" alt="株主・投資家の皆様へ"></a></li>
+<li><a href="javascript:;" onClick="MM_openBrWindow('contens/3mini/index.html','win01','status=yes,width=701,height=415')"><img src="img/ind_bn03.png" width="248" height="104" alt="3分でわかるアリアケジャパン"></a></li>
+</ul>
+
+<div class="conts">
+<div class="main">
+
+
+<!-- -->
+<div class="newstab">
+
+
+<div class="tab01"><a href="javascript:void(0);" class="btn_act active">IRニュース</a></div>　　
+<div class="tab02"><a href="javascript:void(0);" class="btn_act">プレスリリース</a></div>　
+<br />
+
+
+<div id="motion_area1" class="motion">
+<div class="mainnews" id="frameNews">
+<!--div class="newsrss"><a href="http://ariakejapan.irbridge.com/feed/ja/NewsRelease.xml" target="_blank"><img src="img/rss.png" width="16" height="16" alt="RSS"></a></div--><div class="newslink"><a href="http://ariakejapan.irbridge.com/ja/NewsRelease.html"><img src="img/ind_link01.png" width="132" height="12" alt="IRニュース一覧はこちら"></a></div>
+<iframe src="http://ariakejapan.irbridge.com/ja/NewsList2.html" name="IR NEWS" width="554" height="160" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe></div>
+</div><!--/tab_area1-->
+
+
+<div id="motion_area2" class="motion">
+<div class="press" id="framePublicity">
+<!--div class="newsrss"><a href="http://ariakejapan.irbridge.com/feed/ja/PressRelease.xml" target="_blank"><img src="img/rss.png" width="16" height="16" alt="RSS"></a></div--><div class="newslink"><a href="http://ariakejapan.irbridge.com/ja/PressRelease.html"><img src="img/ind_link02.png" width="150" height="12" alt="プレスリリース一覧はこちら"></a></div>
+<iframe src="http://ariakejapan.irbridge.com/ja/NewsList1.html" name="Press Release" width="554" height="170" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>
+</div>
+</div><!--/tab_area2-->
+
+
+
+</div>
+ 
+<!-- // -->
+
+<!-- -->
+<div class="ir_box">
+<h2><a href="http://ariakejapan.irbridge.com/ja/Top.html"><img src="img/ind_tx01.png" width="570" height="42" alt="IR情報"></a></h2>
+
+<div class="w530 clearfix ml24">
+<ul class="links mr30">
+<li><a href="http://ariakejapan.irbridge.com/ja/Top.html">IR情報トップ</a></li>
+<li><a href="http://ariakejapan.irbridge.com/ja/Policy.html">経営方針</a>
+<ul><li><a href="http://ariakejapan.irbridge.com/ja/Policy/ManagementMessage.html">経営者メッセージ</a></li><li><a href="http://ariakejapan.irbridge.com/ja/Policy/Strategy.html">経営戦略</a></li></ul>
+</li>
+<li><a href="http://ariakejapan.irbridge.com/ja/NewsRelease.html">IRニュース</a></li>
+<li><a href="http://ariakejapan.irbridge.com/ja/PressRelease.html">プレスリリース</a></li>
+<li><a href="http://ariakejapan.irbridge.com/ja/IndividualInvestors.html">個人投資家の皆様へ</a></li>
+</ul>
+<ul class="links mr30">
+<li><a href="http://ariakejapan.irbridge.com/ja/BusinessHighlights.html">財務・業績情報</a></li>
+<li><a href="http://ariakejapan.irbridge.com/ja/IREvents.html">IRイベント</a>
+<ul><li><a href="http://ariakejapan.irbridge.com/ja/IREvents/Presentation.html">IR説明会資料</a></li><li><a href="http://ariakejapan.irbridge.com/ja/IREvents/StockholderMtg.html">株主総会</a></li><li><a href="http://ariakejapan.irbridge.com/ja/IREvents/IRCalendar.html">IRカレンダー</a></li></ul>
+</li>
+<li><a href="http://ariakejapan.irbridge.com/ja/AccountingAnnounce.html">電子広告</a></li>
+</ul>
+<ul class="links">
+<li><a href="http://ariakejapan.irbridge.com/ja/IRtool.html">IR資料室</a>
+<ul><li><a href="http://ariakejapan.irbridge.com/ja/IRtool/Results.html">決算短信</a></li><li><a href="http://ariakejapan.irbridge.com/ja/IRtool/Report.html">IR Report（事業報告）</a></li><li><a href="http://ariakejapan.irbridge.com/ja/IRtool/Securities.html">有価証券報告書・四半期報告書</a></li></ul></li>
+<li><a href="http://ariakejapan.irbridge.com/ja/StockInformation.html">株主・株式情報</a>
+<ul><li><a href="http://ariakejapan.irbridge.com/ja/StockInformation/Stock.html">株式の状況（株式情報）</a></li><li><a href="http://ariakejapan.irbridge.com/ja/StockInformation/Rating.html">格付情報</a></li></ul>
+</li>
+<li><a href="http://ariakejapan.irbridge.com/ja/StockQuote.html">株価情報</a></li>
+</ul>
+</div>
+
+</div>
+<!-- // -->
+
+
+<!-- -->
+<h2 class="mb20"><img src="img/ind_tx02.png" width="570" height="27" alt="アリアケグループ"></h2>
+<ul class="ind_grp">
+<li class="mr9"><a href="http://www.ariakeusa.com/" target="_blank"><img src="img/ind_bn11.png" width="180" height="45" alt="ARIAKE U.S.A., Inc."></a></li>
+<li class="mr9"><a href="http://www.ariake-europe.com/" target="_blank"><img src="img/ind_bn12.png" width="180" height="45" alt="ARIAKE EUROPE"></a></li>
+<li><a href="http://www.ariake-farm.co.jp/" target="_blank"><img src="img/ind_bn13.png" width="180" height="45" alt="アリアケファーム"></a></li>
+<li class="mr9"><a href="http://www.dearsoup.co.jp/" target="_blank"><img src="img/ind_bn14.png" width="180" height="45" alt="ディア.スープ"></a></li>
+<li class="mr9"><a href="http://www.ariake.com.tw/" target="_blank"><img src="img/ind_bn15.png" width="180" height="45" alt="Taiwan Ariake Foods"></a></li>
+<li><a href="http://www.henningsen.nl/" target="_blank"><img src="img/ind_bn16.png" width="180" height="45" alt="Henningsen Nederland B.V."></a></li>
+</ul>
+<!-- // -->
+
+
+</div>
+<div class="rigbox">
+
+<dl class="r_box01">
+<dt><img src="img/ind_tx03.png" width="178" height="36" alt="株主・投資家情報"></dt>
+<dd><a href="http://www.net-ir.ne.jp/e-pre/28151705/wb/index.html" target="_blank"><img src="img/ind_bn04.png" width="166" height="65" alt="最新の決算説明会（動画）"></a></dd>
+<dd><a href="http://ariakejapan.irbridge.com/ja/IREvents/StockholderMtg.html"><img src="img/ind_bn17.png" width="166" height="65" alt="定時株主総会招集ご通知"></a></dd>
+</dl>
+
+<dl class="r_box01">
+<dt><img src="img/ind_tx04.png" width="178" height="36" alt="アリアケピックアップ"></dt>
+<!-- <dd><a href="http://ariakejapan.irbridge.com/ja/PressRelease/PressRelease2660272158594905500.html"><img src="img/ind_bn05.png" width="166" height="65" alt="Pick Up"></a></dd> -->
+<dd><a href="product/product_system.html"><img src="img/ind_bn06.png" width="166" height="65" alt="製品が出来る現場"></a></dd>
+<dd><a href="product/safety.html"><img src="img/ind_bn07.png" width="166" height="65" alt="安心安全の取り組み"></a></dd>
+</dl>
+
+<dl class="r_box02">
+<dt><img src="img/ind_tx05.png" width="178" height="36" alt="製品について"></dt>
+<dd><a href="http://www.ariakejapan.com/contens/2013catalog/index.html" target="_blank"><img src="img/ind_bn08.png" width="166" height="65" alt="業務用製品カタログ"></a></dd>
+</dl>
+
+<div class="mb8"><a href="product/product_contact.html"><img src="img/ind_bn09.png" width="178" height="60" alt="当社の製品に関するお問い合わせ"></a></div>
+<!--
+<div class="mb8"><a href="http://nagasaki-kokutai2014.jp/" target="_blank"><img src="img/ind_bn10.png" width="178" height="133" alt=""></a></div> -->
+
+
+
+</div>
+
+</div>	
+	
+<br class="clear">
+<!--pagebody-->
+ </div> 
+
+  
+  <div id="footer" class="clearfix">
+	  <p class="copy">Copyright (c) ARIAKE JAPAN Co.,Ltd.</p>
+    <ul class="clearfix w450 fl">
+      <li><a href="terms_and_conditions/index.html">本サイトにあたって</a></li>
+	  <li><a href="kaiji/index.html">情報開示基本方針</a></li>
+		  <li><a href="privacy_policy/index.html">プライバシーポリシー</a></li>
+    </ul>
+  </div>
+</div>
+
+
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-2267550-1";
+urchinTracker();
+</script>
+
+</body>
+</html>

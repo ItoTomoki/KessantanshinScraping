@@ -1,0 +1,515 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Cache-Control" content="no-cache">
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta name="robots" content="all" />
+
+<meta name="keywords" content="エスクリ,ウェディング,ウェディングプロダクト,結婚式,結婚,婚礼,ウェディングプロデュース,ブライダルコンサルティング,ブライダルセミナー,ブライダルオペレーション,挙式,再生,リノベーション" />
+<meta name="description" content="私たちはブライダルビジネスに欠かすことのできない「5つの見えないS」でオンリーワン企業を創造し、3つのSを達成することを目指します。" />
+
+<title>ウェディング、ブライダル、結婚式場 │ 【株式会社エスクリ】オンリーワンのブライダルプロダクトを創造する企業</title>
+
+<link rel="stylesheet" href="/common/css/common.css" type="text/css" />
+<link rel="shortcut icon" type="image/icon" href="/common/img/favicon.ico" />
+
+<script type="text/javascript" src="/common/js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="/common/js/common.js"></script>
+
+<link rel="stylesheet" href="/css/top.css" type="text/css" />
+<script type="text/javascript" src="/js/jquery.li-scroller.1.0.js"></script>
+<script type="text/javascript" src="/js/top.js"></script>
+<script type="text/javascript" src="/js/swfobject.js"></script>
+<script type="text/javascript">swfobject.registerObject("splash", "9.0.0", "/swf/expressInstall.swf");</script>
+</head>
+<body>
+<div id="all">
+    <div id="header">
+		<div id="site_title"><h1><a href="/"><img src="/common/img/logo.gif" alt="ESCRIT" title="ESCRIT" /></a></h1></div>
+		<div id="global">
+		    <ul>
+		        <li><a href="/message/"><img src="/common/img/nv/message.gif" alt="トップメッセージ" title="トップメッセージ" class="rollover" /></a></li>
+		        		        <li><a href="/philosophy/"><img src="/common/img/nv/philosophy.gif" alt="経営理念" title="経営理念" class="rollover" /></a></li>
+		        		        <li><a href="/business/"><img src="/common/img/nv/business.gif" alt="事業内容" title="事業内容" class="rollover" /></a></li>
+		        		        <li><a href="http://consulting.escrit.jp/" rel="nofollow" target="_blank"><img src="/common/img/nv/consulting.gif" alt="コンサルティング" title="コンサルティング" class="rollover" /></a></li>
+		        		        <li><a href="/company/"><img src="/common/img/nv/company.gif" alt="会社概要" title="会社概要" class="rollover" /></a></li>
+		        		        <li><a href="/ir/"><img src="/common/img/nv/ir.gif" alt="IR情報" title="IR情報" class="rollover" /></a></li>
+		        		        <li><a href="http://recruit.escrit.jp/" target="_blank"><img src="/common/img/nv/recruit.gif" alt="採用情報" title="採用情報" class="rollover" /></a></li>
+		    </ul>
+		</div>
+		<div id="header_banner">
+		  <a href="http://bridal.escrit.jp/" rel="nofollow" target="_blank"><img src="/common/img/nv/bnr_allforthankyou_nav.gif" alt="私たちの結婚式への想い" title="私たちの結婚式への想い" /></a>
+		</div>
+	</div>  
+<div id="contents">
+	    <div id="main_visual">
+		    <object id="splash" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="900" height="380">
+				<param name="movie" value="/swf/splash.swf" />
+				<!--[if !IE]>-->
+				<object type="application/x-shockwave-flash" data="/swf/splash.swf" width="900" height="380">
+				<!--<![endif]-->
+					<img src="/swf/splash.gif" width="900" height="380" alt="ESCRIT" title="ESCRIT" />
+				<!--[if !IE]>-->
+				</object>
+				<!--<![endif]-->
+			</object>
+		</div>
+	    <div id="wrapper">
+	    	<!--
+	    	<div class="box" id="news_oshirase">
+		    	<p>平成23 年3 月11 日に発生いたしました東北地方太平洋沖地震により被災された皆様におかれましては、心よりお見舞い申し上げます。</p>
+				<p>披露宴挙式会場につきましては、各施設とも通常通り営業をしております。<br />
+				お問合せは各施設までお願い致します。</p>
+				<p>被災者の方々に対しましては、謹んでお見舞い申し上げますとともに、被災地の一日も早い復興を心より祈念いたします。</p>
+		    </div>
+		    -->		   
+			<div class="box" id="news_base">
+				<div id="news_ticker">
+				<h2><img src="/images/tit_pickup.gif" alt="Pickup News" title="Pickup News" /></h2>
+					<ul id="ticker">
+					<li><span class="date">17/08/17</span><span class="in"><a href="/pdf/170817_Press_release.pdf" target="_blank">雑誌『放送界』2017夏季号にディズニー映画「美女と野獣」のタイインパートナーとして掲載されました。</a></span></li>
+					<li><span class="date">17/08/16</span><span class="in"><a href="/pdf/170816_Press_release.pdf#zoom=160" target="_blank">ジュエリー専門誌『ジャパンプレシャス』2017秋号ブライダルジュエリー特集で「ラグナクォーレ」のジュエリーが掲載されました。</a></span></li>
+					<li><span class="date">17/08/14</span><span class="in"><a href="/pdf/170814_Press_release.pdf" target="_blank">「モンスターハンター×ブライダルフェア」WEB－CMを公開しました。</a></span></li>
+					<li><span class="date">17/08/10</span><span class="in"><a href="/pdf/170815_Press_release.pdf" target="_blank">『sweet 9月号』に「セントレジェンダOKINAWA」と「Weddings of Hawaii」のビーチリゾートウェディングが掲載されました。</a></span></li>
+					<li><span class="date">17/08/09</span><span class="in"><a href="http://bridal-souken.net/wedding/gwa2017_04.html" target="_blank">「リクルートブライダル総研」主催の『GOOD WEDDING AWARD ソウル賞』に「アヴェニールクラスTOKYO」のプランナーが選ばれました。</a></span></li>
+					<li><span class="date">17/08/09</span><span class="in"><a href="http://bridal-souken.net/wedding/gwa2017_04.html" target="_blank">「リクルートブライダル総研」主催の『GOOD WEDDING AWARD ベスト50』に「ロザンジュイア広尾迎賓館」「アルマリアンTOKYO（池袋）」のプランナーが選ばれました。</a></span></li>
+					<li><span class="date">17/08/08</span><span class="in"><a href="http://wedding.mynavi.jp/contents/news/2017/08/a-la-mode-palaisthe-resort/" target="_blank">『マイナビウエディング』に「ア・ラ・モード パレ &amp; ザ・リゾート（神戸）」に新たにオープンしたチャペルが取り上げられました。</a></span></li>
+					<li><span class="date">17/08/02</span><span class="in"><a href="/pdf/170802_Press_release.pdf" target="_blank">TOKYO FMのラジオ番組『高橋みなみのこれから、何する？』とコラボレーション！リスナー様の中から1組の結婚式をプロデュースする企画の応募を開始しました。</a></span></li>
+					<li><span class="date">17/08/01</span><span class="in"><a href="/pdf/170801_Press_release.pdf" target="_blank">「ア・ラ・モードパレ &amp: ザ・リゾート（神戸）」に森のチャペル『ラヴェイユ』がオープン！ 併設ガーデンにて施設初となるガーデンチャペル『ルミエル』のご案内をスタートしました。</a></span></li>
+					<li><span class="date">17/07/31</span><span class="in"><a href="http://wedding.mynavi.jp/contents/news/2017/07/okinawa/" target="_blank">『マイナビウエディング』に「セントレジェンダ沖縄／幻のビーチ挙式プラン」が取り上げられました。</a></span></li>
+<!--
+					<li><span class="date">17/07/26</span><span class="in"><a href="/pdf/170726_Press_release.pdf" target="_blank">「セントレジェンダOKINAWA」に『幻のビーチ挙式プラン』が誕生しました。</a></span></li>
+					<li><span class="date">17/07/25</span><span class="in"><a href="/pdf/170725_Press_release.pdf" target="_blank">『ウェディングジャーナル2017年7月号』に「モンスターハンター×ブライダルフェア」と「ときめきレストラン☆☆☆とのコラボイベント」が取り上げられました。</a></span></li>
+					<li><span class="date">17/07/20</span><span class="in"><a href="/pdf/170720_Press_release.pdf" target="_blank">「ラグナヴェールOSAKA」の人気フロアをリニューアル、結婚式予約受付をスタートしました。</a></span></li>
+					<li><span class="date">17/07/19</span><span class="in"><a href="http://www.bs-j.co.jp/official/wedding/" target="_blank">7月25日～4週放送分「結婚式、あげてみませんか？（BSジャパン）」の撮影ロケ地に「アンジェリオン オ プラザ TOKYO」が使用されました。</a></span></li>
+					<li><span class="date">17/07/14</span><span class="in"><a href="http://bridal-souken.net/wedding/gwa2017_03.html" target="_blank">「リクルートブライダル総研」主催の『GOOD WEDDING AWARD』のファイナリストにアヴェニールクラスTOKYOのプランナーが選出されました。</a></span></li>
+					<li><span class="date">17/07/12</span><span class="in">7月12日放送『とくダネ！（フジテレビ）』で弊社スタッフが取材協力をしました。</span></li>
+					<li><span class="date">17/07/04</span><span class="in"><a href="https://www.weddingpark.net/magazine/7892/" target="_blank">『ウェディングパーク』に「リプロポーズ」×「EncodeRing（エンコードリング）」が取り上げられました。</a></span></li>
+					<li><span class="date">17/06/30</span><span class="in"><a href="http://www.bs-j.co.jp/official/wedding/" target="_blank">7月4日放送『結婚式、あげてみませんか？（BSジャパン）』で「セントレジェンダ OKINAWA」の結婚式が取り上げられました。</a></span></li>
+					<li><span class="date">17/06/30</span><span class="in">6月30日放送『ZIP！（日本テレビ）』に「ラグナヴェール AOYAMA」「ルミヴェールTOKYO」「アルマリアン TOKYO」で行われた結婚式が取り上げられました。</span></li>
+					<li><span class="date">17/06/23</span><span class="in">6月23日放送『ZIP！（日本テレビ）』にシャルマンシーナ TOKYOで行われた結婚式が取り上げられました。</span></li>
+					<li><span class="date">17/06/22</span><span class="in"><a href="/pdf/170622_Press_release.pdf" target="_blank">「リプロポーズ」の新たなメニューとして世界にたった一つのオーダーメイドジュエリーの販売をスタートします。</a></span></li>
+					<li><span class="date">17/06/21</span><span class="in"><a href="https://netallica.yahoo.co.jp/news/20170621-21199939-netallicaq" target="_blank">コラムサイト『ネタりか』に「パラッツォ ドゥカーレ 麻布」が取材協力しました。</a></span></li>
+					<li><span class="date">17/06/21</span><span class="in"><a href="http://wedding.mynavi.jp/contents/news/2017/06/613/" target="_blank">『マイナビウエディング』に、OUTDOOR WEDDINGブランド「Weddings of Hawaii」が取り上げられました。</a></span></li>
+					<li><span class="date">17/06/19</span><span class="in">6月18日放送『さまぁ～ず神ギ問（フジテレビ）』でシャルマンシーナ TOKYO、アルマリアン TOKYOで行われた結婚式が取り上げられました。</span></li>
+					<li><span class="date">17/06/19</span><span class="in"><a href="http://www.teletama.jp/sbw/back.html#03" target="_blank">6月17日放送『埼玉ビジネスウォッチ（さいたまテレビ）』でラグナヴェール SkyTerraceが紹介されました。</a></span></li>
+					<li><span class="date">17/06/16</span><span class="in"><a href="http://wedding.mynavi.jp/contents/news/2017/06/post-20141473/" target="_blank">『マイナビウエディング』に「モンスターハンター×ブライダルフェア」が取り上げられました。</a></span></li>
+					<li><span class="date">17/06/15</span><span class="in"><a href="/pdf/170615_Press_release.pdf" target="_blank">『ブライダル産業新聞6月11日号』に弊社スタッフが取り上げられました。</a></span></li>
+					<li><span class="date">17/06/15</span><span class="in">6月15日放送『ZIP！（日本テレビ）』に「結婚式イメージ映像」を提供しました。</span></li>
+					<li><span class="date">17/06/06</span><span class="in"><a href="http://www.bs-j.co.jp/official/wedding/" target="_blank">6月放送分「結婚式、あげてみませんか？（BSジャパン）」の撮影ロケ地に「ザ マグナス TOKYO」が使用されました。</a></span></li>
+					<li><span class="date">17/06/02</span><span class="in"><a href="/pdf/170602_Press_release.pdf" target="_blank">人気恋愛ソーシャルアプリ『ときめきレストラン☆☆☆』とコラボレーションし、アルマリアンTOKYOでイベントを開催いたします。</a></span></li>
+					<li><span class="date">17/06/01</span><span class="in"><a href="/pdf/170601_Press_release.pdf" target="_blank">リゾート婚事業拡大に向けハワイウェディングを本格始動！OUTDOOR WEDDINGブランド「Weddings of Hawaii」の販売をスタートします。</a></span></li>
+					<li><span class="date">17/05/19</span><span class="in"><a href="/pdf/170519_Press_release.pdf" target="_blank">『sweet 6月号』に「プリンセスブライダルフェア」が掲載されました。</a></span></li>
+					<li><span class="date">17/05/02</span><span class="in"><a href="http://www.bs-j.co.jp/official/wedding/" target="_blank">5月放送分「結婚式、あげてみませんか？（BSジャパン）」の撮影ロケ地に「南青山サンタキアラ教会」が使用されました</a></span></li>
+					<li><span class="date">17/04/19</span><span class="in"><a href="https://princess-wedding.jp/no1bf/" target="_blank">「プリンセスブライダルフェア」がカップル専用アプリ「COUPLES」結婚式準備サイト「marry」で2016年一番人気のブライダルフェアに選ばれました。</a></span></li>
+					<li><span class="date">17/04/10</span><span class="in"><a href="http://www.ktv.jp/niji/" target="_blank">4月8日放送『にじいろジーン（フジテレビ系列）』の撮影ロケ地に「シャルマンシーナTOKYO」が使用されました。</a></span></li>
+					<li><span class="date">17/04/04</span><span class="in"><a href="http://www.bs-j.co.jp/official/wedding/" target="_blank">4月放送分「結婚式、あげてみませんか？（BSジャパン）」の撮影ロケ地に「パラッツォ ドゥカーレ麻布」が使用されました。</a></span></li>
+					<li><span class="date">17/03/30</span><span class="in"><a href="/pdf/170330_Press_release.pdf" target="_blank">カプコン「モンスターハンター」とエスクリがタイアップし「モンスターハンター&times;ブライダルフェア」を行います。</a></span></li>
+					<li><span class="date">17/03/21</span><span class="in"><a href="http://mypl.net/contents/html/ninzaburo/" target="_blank">3月17日放送『ホリプレゼンツ求人任三郎がいく（千葉テレビ）』で「シャルマンシーナTOKYO」が紹介されました。</a></span></li>
+					<li><span class="date">17/03/17</span><span class="in"><a href="http://www.sankeibiz.jp/business/news/170316/bsd1703160630001-n1.htm" target="_blank">産経新聞グループ総合経済情報サイト『SankeiBiz』に弊社取材記事が掲載されました。</a></span></li>
+					<li><span class="date">17/03/09</span><span class="in"><a href="http://www.bs-j.co.jp/official/wedding/" target="_blank">3月放送分「結婚式、あげてみませんか？（BSジャパン）」の撮影ロケ地に「シャルマンシーナTOKYO」が使用されました。</a></span></li>
+					<li><span class="date">17/02/28</span><span class="in"><a href="/pdf/170228_media.pdf" target="_blank">『ブライダル産業新聞 2017年2月11日号』に弊社サービス「リプロポーズ」が取り上げられました。</a></span></li>
+					<li><span class="date">17/02/24</span><span class="in"><a href="http://in-shoku.info/foodfighters/vol579.html" target="_blank">『飲食の戦士たち』に弊社代表取締役 社長 渋谷守浩が取り上げられました。</a></span></li>
+					<li><span class="date">17/02/24</span><span class="in"><a href="/pdf/170224_Press_release.pdf" target="_blank">ディズニー映画とエスクリがタイアップ &ldquo;ディズニー映画『美女と野獣』公開記念ブライダルフェア・想いが叶うキャンペーン&rdquo; を開催します。</a></span></li>
+					<li><span class="date">17/02/13</span><span class="in"><a href="/pdf/170213_media_sweet.pdf" target="_blank">『sweet 3月号』に「プリンセスブライダルフェア」が掲載されました。</a></span></li>
+					<li><span class="date">17/02/13</span><span class="in"><a href="/pdf/170213_media.pdf" target="_blank">2月11日の『読売新聞』に弊社サービス「リプロポーズ」が取り上げられました。</a></span></li>
+					<li><span class="date">17/02/07</span><span class="in"><a href="http://www.tv-tokyo.co.jp/mv/nms/bookmark/post_126175/" target="_blank">2月7日放送『モーニングサテライト（テレビ東京）・リーダーの栞』に弊社代表取締役 会長 岩本博が出演いたしました。</a></span></li>
+					<li><span class="date">17/01/11</span><span class="in"><a href="/pdf/170111_media.pdf" target="_blank">『ブライダル産業新聞 2017年 新春特大号』に弊社代表取締役 渋谷守浩が取り上げられました。</a></span></li>
+					<li><span class="date">17/01/11</span><span class="in"><a href="/pdf/170111_Press_release.pdf" target="_blank">結婚式にハローキティ&amp;ディアダニエルが来てくれる！ハローキティ&amp;ディアダニエルとタイアップをした「ハローキティ＆ディアダニエルブライダルフェア」を開催します。</a></span></li>
+					<li><span class="date">16/12/27</span><span class="in"><a href="/pdf/161227_media_sweet.pdf#view=FitH" target="_blank">『sweet 1月号』にPRIMACARA（プリマカーラ）のドレスが掲載されました。</a></span></li>
+					<li><span class="date">16/12/22</span><span class="in"><a href="/pdf/161222_Press_release_SkyTerrace.pdf" target="_blank">さいたま新都心の新店舗『LAGUNAVEIL SkyTerrace(ラグナヴェール スカイテラス)』の結婚式予約受付をスタートしました。</a></span></li>
+					<li><span class="date">16/12/22</span><span class="in"><a href="/pdf/161222_Press_release_ANA.pdf" target="_blank">結婚式費用をANAマイル or ANA SKYコインに交換できるサービスをスタートしました。</a></span></li>
+					<li><span class="date">16/12/12</span><span class="in">12月9日放送『探偵！ナイトスクープ（ABC朝日放送）』の撮影ロケ地に「ラグナヴェール金沢」が使用されました。</span></li>
+					<li><span class="date">16/12/01</span><span class="in"><a href="/pdf/161201_Press_release_maricrit.pdf" target="_blank">12月1日に“マリクリ”が転職支援サービス『マリクリ転職』をリリースしました。</a></span></li>
+					<li><span class="date">16/11/22</span><span class="in"><a href="/pdf/161122_Press_release_repropose.pdf" target="_blank">11月22日(いい夫婦の日)に『リプロポーズ』サービスを本格的にスタートしました。</a></span></li>
+					<li><span class="date">16/11/14</span><span class="in">11月20日放送『メトログ（TBSテレビ）』の撮影ロケ地に「パラッツォ ドゥカーレ麻布」が使用されました。</span></li>
+					<li><span class="date">16/11/12</span><span class="in">11月12日放送『にじいろジーン（フジテレビ系列）』の撮影ロケ地に「ロザンジュイア広尾迎賓館」が使用されました。</span></li>
+					<li><span class="date">16/11/03</span><span class="in">日本テレビ『ぐるぐるナインティナイン』の撮影ロケ地に「南青山サンタキアラ教会・バンケット」が使用されました。</span></li>
+					<li><span class="date">16/09/10</span><span class="in">フジテレビ系列『にじいろジーン』の撮影ロケ地にパラッツォ ドゥカーレ麻布が使用されました。</span></li>
+-->
+                    </ul>
+				</div>
+			</div>
+			<div id="contents_list">
+			    <ul>
+			        <li class="box">
+				        <dl>
+					        <dt><img src="/images/tit_message.gif" alt="トップメッセージ President message" title="トップメッセージ President message" /></dt>
+						    <dd>
+							    <p class="img"><a href="message/"><img src="/images/img_message.jpg" alt="トップメッセージ" title="トップメッセージ" class="rollover" /></a></p>
+							    <p>業界の常識にとらわれないマルチスタイルの都市型ブライダルオペレーターをめざす。</p>
+								<p class="btn"><a href="message/"><img src="/images/btn_enter.gif" alt="ENTER" title="ENTER" class="rollover" /></a></p>
+							</dd>
+					    </dl>
+				    </li>
+					<li class="box">
+				        <dl>
+					        <dt><img src="/images/tit_philosophy.gif" alt="経営理念 Philosophy" title="経営理念 Philosophy" /></dt>
+						    <dd>
+							    <p class="img"><a href="philosophy/"><img src="/images/img_philosophy.jpg" alt="経営理念" title="経営理念" class="rollover" /></a></p>
+							    <p>コーポレートスローガン「Faithful Bridal Creator」<br>について</p>
+								<p class="btn"><a href="philosophy/"><img src="/images/btn_enter.gif" alt="ENTER" title="ENTER" class="rollover" /></a></p>
+							</dd>
+					    </dl>
+				    </li>
+					<li class="box">
+				        <dl>
+					        <dt><img src="/images/tit_business.gif" alt="事業内容 Business" title="事業内容 Business" /></dt>
+						    <dd>
+							    <p class="img"><a href="business/"><img src="/images/img_business.jpg" alt="事業内容" title="事業内容" class="rollover" /></a></p>
+							    <p>エスクリの<br>ブライダルビジネスの特徴</p>
+								<p class="btn"><a href="business/"><img src="/images/btn_enter.gif" alt="ENTER" title="ENTER" class="rollover" /></a></p>
+							</dd>
+					    </dl>
+				    </li>
+					<li class="box">
+				        <dl>
+					        <dt><img src="/images/tit_consulting.gif" alt="コンサルティング Consulting" title="コンサルティング Consulting" /></dt>
+						    <dd>
+							    <p class="img"><a href="http://consulting.escrit.jp/" rel="nofollow" target="_blank"><img src="/images/img_consulting.jpg" alt="コンサルティング" title="コンサルティング" class="rollover" /></a></p>
+							    <p>婚礼事業におけるあらゆる悩みに適切なソリューションを提供</p>
+								<p class="btn"><a href="http://consulting.escrit.jp/" rel="nofollow" target="_blank"><img src="/images/btn_enter.gif" alt="ENTER" title="ENTER" class="rollover" /></a></p>
+							</dd>
+					    </dl>
+				    </li>
+					<li class="box">
+				        <dl>
+					        <dt><img src="/images/tit_company.gif" alt="会社概要 Company" title="会社概要 Company" /></dt>
+						    <dd>
+							    <p class="img"><a href="company/"><img src="/images/img_company.jpg" alt="会社概要" title="会社概要" class="rollover" /></a></p>
+							    <p>会社概要とアクセスについて</p>
+								<p class="btn"><a href="company/"><img src="/images/btn_enter.gif" alt="ENTER" title="ENTER" class="rollover" /></a></p>
+							</dd>
+					    </dl>
+				    </li>
+					<li class="box">
+				        <dl>
+					        <dt><img src="/images/tit_ir.gif" alt="IR情報 IR informaion" title="IR情報 IR informaion" /></dt>
+						    <dd>
+							    <p class="img"><a href="ir/"><img src="/images/img_ir.jpg" alt="IR情報" title="IR情報" class="rollover" /></a></p>
+							    <p>投資家向け情報を掲載しています</p>
+								<p class="btn"><a href="ir/"><img src="/images/btn_enter.gif" alt="ENTER" title="ENTER" class="rollover" /></a></p>
+							</dd>
+					    </dl>
+				    </li>
+					<li class="box">
+				        <dl>
+					        <dt><img src="/images/tit_recruit.gif" alt="採用情報 Recruitment" title="採用情報 Recruitment" /></dt>
+						    <dd>
+							    <p class="img"><a href="http://recruit.escrit.jp/"><img src="/images/img_recruit.jpg" alt="採用情報" title="採用情報" class="rollover" /></a></p>
+							    <p>日本をリードする、<br>ビジネスをつくろう。</p>
+								<p class="btn"><a href="http://recruit.escrit.jp/"><img src="/images/btn_enter.gif" alt="ENTER" title="ENTER" class="rollover" /></a></p>
+							</dd>
+					    </dl>
+				    </li>
+				  <li class="bnr">
+				      <a href="http://bridal.escrit.jp/" rel="nofollow" target="_blank"><img src="/images/bnr_allforthankyou_top.jpg" width="207" height="291" alt="All for Thank you 私たちの結婚式への想い Enter" class="rollover" /></a>
+				    </li>
+			    </ul>
+			</div>
+			<div id="information">
+			    <div id="top_news">
+			    <!--top_news_left-->
+			    <div id="top_news_left">
+			    
+				    <div id="media" class="box">
+				    <h2><img src="images/tit_media.gif" alt="Media" title="Media" /></h2>
+					<a href="/media/" class="btn"><img src="images/btn_index.gif" alt="INDEX" title="INDEX" class="rollover" /></a>
+				    <dl>
+                        <dt>17/08/17</dt><dd><span><a href="/pdf/170817_Press_release.pdf" target="_blank">雑誌『放送界』2017夏季号にディズニー映画「美女と野獣」のタイインパートナーとして掲載されました。</a></span></dd>
+                        <dt>17/08/16</dt><dd><span><a href="/pdf/170816_Press_release.pdf#zoom=160" target="_blank">ジュエリー専門誌『ジャパンプレシャス』2017秋号ブライダルジュエリー特集で「ラグナクォーレ」のジュエリーが掲載されました。</a></span></dd>
+                        <dt>17/08/10</dt><dd><span><a href="/pdf/170815_Press_release.pdf" target="_blank">『sweet 9月号』に「セントレジェンダOKINAWA」と「Weddings of Hawaii」のビーチリゾートウェディングが掲載されました。</a></span></dd>
+<!--
+                        <dt>17/08/09</dt><dd><span><a href="http://bridal-souken.net/wedding/gwa2017_04.html" target="_blank">「リクルートブライダル総研」主催の『GOOD WEDDING AWARD ソウル賞』に「アヴェニールクラスTOKYO」のプランナーが選ばれました。</a></span></dd>
+                        <dt>17/08/09</dt><dd><span><a href="http://bridal-souken.net/wedding/gwa2017_04.html" target="_blank">「リクルートブライダル総研」主催の『GOOD WEDDING AWARD ベスト50』に「ロザンジュイア広尾迎賓館」「アルマリアンTOKYO（池袋）」のプランナーが選ばれました。</a></span></dd>
+                        <dt>17/08/08</dt><dd><span><a href="http://wedding.mynavi.jp/contents/news/2017/08/a-la-mode-palaisthe-resort/" target="_blank">『マイナビウエディング』に「ア・ラ・モード パレ &amp; ザ・リゾート（神戸）」に新たにオープンしたチャペルが取り上げられました。</a></span></dd>
+                        <dt>17/07/31</dt><dd><span><a href="http://wedding.mynavi.jp/contents/news/2017/07/okinawa/" target="_blank">『マイナビウエディング』に「セントレジェンダ沖縄／幻のビーチ挙式プラン」が取り上げられました。</a></span></dd>
+                        <dt>17/07/25</dt><dd><span><a href="/pdf/170725_Press_release.pdf" target="_blank">『ウェディングジャーナル2017年7月号』に「モンスターハンター×ブライダルフェア」と「ときめきレストラン☆☆☆とのコラボイベント」が取り上げられました。</a></span></dd>
+                        <dt>17/07/19</dt><dd><span><a href="http://www.bs-j.co.jp/official/wedding/" target="_blank">7月25日～4週放送分「結婚式、あげてみませんか？（BSジャパン）」の撮影ロケ地に「アンジェリオン オ プラザ TOKYO」が使用されました。</a></span></dd>
+                        <dt>17/07/14</dt><dd><span><a href="http://bridal-souken.net/wedding/gwa2017_03.html" target="_blank">「リクルートブライダル総研」主催の『GOOD WEDDING AWARD』のファイナリストにアヴェニールクラスTOKYOのプランナーが選出されました。</a></span></dd>
+                        <dt>17/07/12</dt><dd><span>7月12日放送『とくダネ！（フジテレビ）』で弊社スタッフが取材協力をしました。</span></dd>
+                        <dt>17/06/30</dt><dd><span><a href="http://www.bs-j.co.jp/official/wedding/" target="_blank">7月4日放送『結婚式、あげてみませんか？（BSジャパン）』で「セントレジェンダ OKINAWA」の結婚式が取り上げられました。</a></span></dd>
+                        <dt>17/06/30</dt><dd><span>6月30日放送『ZIP！（日本テレビ）』に「ラグナヴェール AOYAMA」「ルミヴェールTOKYO」「アルマリアン TOKYO」で行われた結婚式が取り上げられました。</span></dd>
+                        <dt>17/06/23</dt><dd><span>6月23日放送『ZIP！（日本テレビ）』にシャルマンシーナ TOKYOで行われた結婚式が取り上げられました。</span></dd>
+                        <dt>17/06/21</dt><dd><span><a href="https://netallica.yahoo.co.jp/news/20170621-21199939-netallicaq" target="_blank">コラムサイト『ネタりか』に「パラッツォ ドゥカーレ 麻布」が取材協力しました。</a></span></dd>
+                        <dt>17/06/21</dt><dd><span><a href="http://wedding.mynavi.jp/contents/news/2017/06/613/" target="_blank">『マイナビウエディング』にOUTDOOR WEDDINGブランド「Weddings of Hawaii」が取り上げられました。</a></span></dd>
+                        <dt>17/06/19</dt><dd><span>6月18日放送『さまぁ～ず神ギ問（フジテレビ）』でシャルマンシーナ TOKYO、アルマリアン TOKYOで行われた結婚式が取り上げられました。</span></dd>
+                        <dt>17/06/19</dt><dd><span>6月17日放送『埼玉ビジネスウォッチ（さいたまテレビ）』でラグナヴェール SkyTerraceが紹介されました。</span></dd>
+                        <dt>17/06/16</dt><dd><span><a href="http://wedding.mynavi.jp/contents/news/2017/06/post-20141473/" target="_blank">『マイナビウエディング』に「モンスターハンター×ブライダルフェア」が取り上げられました。</a></span></dd>
+                        <dt>17/06/15</dt><dd><span><a href="/pdf/170615_Press_release.pdf" target="_blank">『ブライダル産業新聞6月11日号』に弊社スタッフが取り上げられました。</a></span></dd>
+                        <dt>17/06/15</dt><dd><span>6月15日放送『ZIP！（日本テレビ）』に「結婚式イメージ映像」を提供しました。</span></dd>
+                        <dt>17/06/06</dt><dd><span><a href="http://www.bs-j.co.jp/official/wedding/" target="_blank">6月放送分「結婚式、あげてみませんか？（BSジャパン）」の撮影ロケ地に「ザ マグナス TOKYO」が使用されました。</a></span></dd>
+                        <dt>17/05/19</dt><dd><span><a href="/pdf/170519_Press_release.pdf" target="_blank">『sweet 6月号』に「プリンセスブライダルフェア」が掲載されました。</a></span></dd>
+                        <dt>17/05/02</dt><dd><span><a href="http://www.bs-j.co.jp/official/wedding/" target="_blank">5月放送分「結婚式、あげてみませんか？（BSジャパン）」の撮影ロケ地に「南青山サンタキアラ教会」が使用されました</a></span></dd>
+                        <dt>17/04/19</dt><dd><span><a href="https://princess-wedding.jp/no1bf/" target="_blank">「プリンセスブライダルフェア」がカップル専用アプリ「COUPLES」結婚式準備サイト「marry」で2016年一番人気のブライダルフェアに選ばれました。</a></span></dd>
+                        <dt>17/04/10</dt><dd><span><a href="http://www.ktv.jp/niji/" target="_blank">4月8日放送『にじいろジーン（フジテレビ系列）』の撮影ロケ地に「シャルマンシーナTOKYO」が使用されました。</a></span></dd>
+                        <dt>17/04/04</dt><dd><span><a href="http://www.bs-j.co.jp/official/wedding/" target="_blank">4月放送分「結婚式、あげてみませんか？（BSジャパン）」の撮影ロケ地に「パラッツォ ドゥカーレ麻布」が使用されました。</a></span></dd>
+                        <dt>17/03/21</dt><dd><span><a href="http://mypl.net/contents/html/ninzaburo/" target="_blank">3月17日放送『ホリプレゼンツ求人任三郎がいく（千葉テレビ）』で「シャルマンシーナTOKYO」が紹介されました。</a></span></dd>
+                        <dt>17/03/17</dt><dd><span><a href="http://www.sankeibiz.jp/business/news/170316/bsd1703160630001-n1.htm" target="_blank">産経新聞グループ総合経済情報サイト『SankeiBiz』に弊社取材記事が掲載されました。</a></span></dd>
+                        <dt>17/03/09</dt><dd><span><a href="http://www.bs-j.co.jp/official/wedding/" target="_blank">3月放送分「結婚式、あげてみませんか？（BSジャパン）」の撮影ロケ地に「シャルマンシーナTOKYO」が使用されました。</a></span></dd>
+                        <dt>17/02/28</dt><dd><span><a href="/pdf/170228_media.pdf" target="_blank">『ブライダル産業新聞 2017年2月11日号』に弊社サービス「リプロポーズ」が取り上げられました。</a></span></dd>
+                        <dt>17/02/24</dt><dd><span><a href="http://in-shoku.info/foodfighters/vol579.html" target="_blank">『飲食の戦士たち』に弊社代表取締役 社長 渋谷守浩が取り上げられました。</a></span></dd>
+                        <dt>17/02/13</dt><dd><span><a href="/pdf/170213_media_sweet.pdf" target="_blank">『sweet 3月号』に「プリンセスブライダルフェア」が掲載されました。</a></span></dd>
+                        <dt>17/02/13</dt><dd><span><a href="/pdf/170213_media.pdf" target="_blank">2月11日の『読売新聞』に弊社サービス「リプロポーズ」が取り上げられました。</a></span></dd>
+                        <dt>17/02/07</dt><dd><span><a href="http://www.tv-tokyo.co.jp/mv/nms/bookmark/post_126175/" target="_blank">2月7日放送『モーニングサテライト（テレビ東京）・リーダーの栞』に弊社代表取締役 会長 岩本博が出演いたしました。</a></span></dd>
+                        <dt>17/01/11</dt><dd><span><a href="/pdf/170111_media.pdf" target="_blank">『ブライダル産業新聞 2017年 新春特大号』に弊社代表取締役 渋谷守浩が取り上げられました。</a></span></dd>
+                        <dt>16/12/27</dt><dd><span><a href="/pdf/161227_media_sweet.pdf#view=FitH" target="_blank">『sweet 1月号』にPRIMACARA（プリマカーラ）のドレスが掲載されました。</a></span></dd>
+                        <dt>16/12/12</dt><dd><span>12月9日放送『探偵！ナイトスクープ（ABC朝日放送）』の撮影ロケ地に「ラグナヴェール金沢」が使用されました。</span></dd>
+                        <dt>16/11/14</dt><dd><span>11月20日放送『メトログ（TBSテレビ）』の撮影ロケ地に「パラッツォ ドゥカーレ麻布」が使用されました。</span></dd>
+                        <dt>16/11/12</dt><dd><span>11月12日放送『にじいろジーン（フジテレビ系列）』の撮影ロケ地に「ロザンジュイア広尾迎賓館」が使用されました。</span></dd>
+                        <dt>16/11/03</dt><dd><span>日本テレビ『ぐるぐるナインティナイン』の撮影ロケ地に「南青山サンタキアラ教会・バンケット」が使用されました。</span></dd>
+                        <dt>16/09/10</dt><dd><span>フジテレビ系列『にじいろジーン』の撮影ロケ地にパラッツォ ドゥカーレ麻布が使用されました。</span></dd>
+                        <dt>16/09/01</dt><dd><span>『ブライダル産業新聞 16年9月1日号』で弊社スタッフがGood Wedding Award 2016で表彰された件が取り上げられました。</span></dd>
+-->
+					</dl>
+				    </div>
+				    
+				    <div id="topics" class="box">
+				    <h2><img src="images/tit_topics.gif" alt="Topics &amp; News" title="Topics &amp; News" /></h2>
+					<a href="/news/" class="btn"><img src="images/btn_index.gif" alt="INDEX" title="INDEX" class="rollover" /></a>
+				    <dl>
+				    
+                        <dt>17/08/14</dt><dd><span><a href="/pdf/170814_Press_release.pdf" target="_blank">「モンスターハンター×ブライダルフェア」WEB－CMを公開しました。</a></span></dd>
+                        <dt>17/08/02</dt><dd><span><a href="/pdf/170802_Press_release.pdf" target="_blank">TOKYO FMのラジオ番組『高橋みなみのこれから、何する？』とコラボレーション！リスナー様の中から1組の結婚式をプロデュースする企画の応募を開始しました。</a></span></dd>
+                        <dt>17/08/01</dt><dd><span><a href="/pdf/170801_Press_release.pdf" target="_blank">「ア・ラ・モードパレ &amp: ザ・リゾート（神戸）」に森のチャペル『ラヴェイユ』がオープン！ 併設ガーデンにて施設初となるガーデンチャペル『ルミエル』のご案内をスタートしました。</a></span></dd>
+<!--
+                        <dt>17/07/26</dt><dd><span><a href="/pdf/170726_Press_release.pdf" target="_blank">「セントレジェンダOKINAWA」に『幻のビーチ挙式プラン』が誕生しました。</a></span></dd>
+                        <dt>17/07/20</dt><dd><span><a href="/pdf/170720_Press_release.pdf" target="_blank">「ラグナヴェールOSAKA」の人気フロアをリニューアル、結婚式予約受付をスタートしました。</a></span></dd>
+                        <dt>17/06/22</dt><dd><span><a href="/pdf/170622_Press_release.pdf" target="_blank">「リプロポーズ」の新たなメニューとして世界にたった一つのオーダーメイドジュエリーの販売をスタートします。</a></span></dd>
+                        <dt>17/06/02</dt><dd><span><a href="/pdf/170602_Press_release.pdf" target="_blank">人気恋愛ソーシャルアプリ『ときめきレストラン☆☆☆』とコラボレーションし、アルマリアンTOKYOでイベントを開催いたします。</a></span></dd>
+                        <dt>17/06/01</dt><dd><span><a href="/pdf/170601_Press_release.pdf" target="_blank">リゾート婚事業拡大に向けハワイウェディングを本格始動！OUTDOOR WEDDINGブランド「Weddings of Hawaii」の販売をスタートします。</a></span></dd>
+						<dt>17/03/30</dt><dd><span><a href="/pdf/170330_Press_release.pdf" target="_blank">カプコン「モンスターハンター」とエスクリがタイアップし「モンスターハンター&times;ブライダルフェア」を行います。</a></span></dd>
+						<dt>17/02/24</dt><dd><span><a href="/pdf/170224_Press_release.pdf" target="_blank">ディズニー映画とエスクリがタイアップ<br>&ldquo;ディズニー映画『美女と野獣』公開記念ブライダルフェア・想いが叶うキャンペーン&rdquo; を開催します。</a></span></dd>
+						<dt>17/01/11</dt><dd><span><a href="/pdf/170111_Press_release.pdf" target="_blank">結婚式にハローキティ&amp;ディアダニエルが来てくれる！<br>ハローキティ&amp;ディアダニエルとタイアップをした「ハローキティ＆ディアダニエルブライダルフェア」を開催します。</a></span></dd>
+						<dt>16/12/22</dt><dd><span><a href="/pdf/161222_Press_release_SkyTerrace.pdf" target="_blank">さいたま新都心の新店舗『LAGUNAVEIL SkyTerrace(ラグナヴェール スカイテラス)』の結婚式予約受付をスタートしました。</a></span></dd>
+				    	<dt>16/12/22</dt><dd><span><a href="/pdf/161222_Press_release_ANA.pdf" target="_blank">結婚式費用をANAマイル or ANA SKYコインに交換できるサービスをスタートしました。</a></span></dd>
+				    	<dt>16/12/01</dt><dd><span><a href="/pdf/161201_Press_release_maricrit.pdf" target="_blank">12月1日に“マリクリ”が転職支援サービス『マリクリ転職』をリリースしました。</a></span></dd>
+						<dt>16/11/22</dt><dd><span><a href="/pdf/161122_Press_release_repropose.pdf" target="_blank">11月22日(いい夫婦の日)に『リプロポーズ』サービスを本格的にスタートしました。</a></span></dd>
+						<dt>16/07/22</dt><dd><span><a href="/pdf/160722_Press_release_fishbank.pdf" target="_blank">『Fish Bank TOKYO』のブライダル部門について運営受託を7/22より開始いたします。</a></span></dd>
+                        <dt>16/07/21</dt><dd><span><a href="/pdf/160721_Press_release_kitty.pdf" target="_blank">ハローキティ、ディアダニエルとタイアップし、ブライダルフェア『ハローキティ＆ディアダニエル　ウエディングフェスティバル』を開催します。世界で初めてキティちゃんとダニエルくんが結婚式の人気演出“ダーズンローズセレモニー”でプロポーズのモデル役に挑戦します。</a></span></dd>
+-->
+				    </div>
+				  </div>
+				  <!--top_news_left-->
+				  
+				   <div id="ir_news" class="box topirnews">
+				        <h2><img src="images/tit_ir_news.gif" alt="IR News" title="IR News" /></h2>
+					    <a href="/ir/news/" class="btn"><img src="images/btn_index.gif" alt="INDEX" title="INDEX" class="rollover" /></a>
+					    <!--
+						<div class="banner"><a href="javascript:void(0)" onClick = "window.open ('/escrit_qa/escrit_ir/','EscritQuiz','width=830, height=630, status=yes, resizable=yes, scrollbars=yes, toolbar=no, menubar=yes, location=yes'); return false;"><img src="/escrit_qa/images/banner_02.gif" alt="エスクリクイズ　エスクリのことどれだけ知っていますか？" title="エスクリクイズ　エスクリのことどれだけ知っていますか？" class="onmouse" /></a></div>
+						-->
+                                                <link rel="stylesheet" href="ir/css/top.css" type="text/css" />
+                        
+					<dl>
+						<dt><img src="ir/common/img/space_icon.gif" width="1" height="20" align="absmiddle" style=" margin-left:0; margin-right:0;"/>2017/08/08
+&nbsp;&nbsp;&nbsp;&nbsp;<img width="40" height="16" align="absmiddle" src="ir/images/yuho.gif"></dt>
+<dd><a href="http://contents.xj-storage.jp/xcontents/21960/8641dc16/d8cb/4d66/8ca0/ca235faabdd6/S100AZMO.pdf" target="_blank">四半期報告書－第15期第1四半期(平成29年4月1日－平成29年6月30日)</a>
+<img src="ir/images/pdf_icon.gif" align="absmiddle" /><img src="ir/common/img/space_icon.gif" width="1" height="20" align="absmiddle" style=" margin-left:0; margin-right:0;"/>(100kb)<img src="ir/images/new_icon.gif" align="absmiddle" /></dd>
+<dt><img src="ir/common/img/space_icon.gif" width="1" height="20" align="absmiddle" style=" margin-left:0; margin-right:0;"/>2017/08/08
+&nbsp;&nbsp;&nbsp;&nbsp;<img width="40" height="16" align="absmiddle" src="ir/images/kessan.gif"></dt>
+<dd><a href="http://contents.xj-storage.jp/xcontents/21960/51675170/8702/4429/b2c5/a0717d409d37/140120170808451336.pdf" target="_blank">平成30年３月期　第１四半期決算短信〔日本基準〕（連結）</a>
+<img src="ir/images/pdf_icon.gif" align="absmiddle" /><img src="ir/common/img/space_icon.gif" width="1" height="20" align="absmiddle" style=" margin-left:0; margin-right:0;"/>(165kb)<img src="ir/images/new_icon.gif" align="absmiddle" /></dd>
+<dt><img src="ir/common/img/space_icon.gif" width="1" height="20" align="absmiddle" style=" margin-left:0; margin-right:0;"/>2017/08/08
+&nbsp;&nbsp;&nbsp;&nbsp;<img width="40" height="16" align="absmiddle" src="ir/images/ir_material.gif"></dt>
+<dd><a href="http://contents.xj-storage.jp/xcontents/21960/a4976376/6e4d/4498/b9cc/af46324c55af/140120170808451464.pdf" target="_blank">平成30年３月期　第１四半期　決算説明資料</a>
+<img src="ir/images/pdf_icon.gif" align="absmiddle" /><img src="ir/common/img/space_icon.gif" width="1" height="20" align="absmiddle" style=" margin-left:0; margin-right:0;"/>(2045kb)<img src="ir/images/new_icon.gif" align="absmiddle" /></dd>
+<dt><img src="ir/common/img/space_icon.gif" width="1" height="20" align="absmiddle" style=" margin-left:0; margin-right:0;"/>2017/06/21
+&nbsp;&nbsp;&nbsp;&nbsp;<img width="40" height="16" align="absmiddle" src="ir/images/yuho.gif"></dt>
+<dd><a href="http://contents.xj-storage.jp/xcontents/21960/9d8cd8a6/da95/44ec/a064/b9cfd351a122/S100AHSJ.pdf" target="_blank">内部統制報告書－第14期(平成28年4月1日－平成29年3月31日)</a>
+<img src="ir/images/pdf_icon.gif" align="absmiddle" /><img src="ir/common/img/space_icon.gif" width="1" height="20" align="absmiddle" style=" margin-left:0; margin-right:0;"/>(15kb)</dd>
+<dt><img src="ir/common/img/space_icon.gif" width="1" height="20" align="absmiddle" style=" margin-left:0; margin-right:0;"/>2017/06/21
+&nbsp;&nbsp;&nbsp;&nbsp;<img width="40" height="16" align="absmiddle" src="ir/images/yuho.gif"></dt>
+<dd><a href="http://contents.xj-storage.jp/xcontents/21960/09caff61/7da9/42ab/818a/f1c1d1436473/S100AHQ0.pdf" target="_blank">有価証券報告書－第14期(平成28年4月1日－平成29年3月31日)</a>
+<img src="ir/images/pdf_icon.gif" align="absmiddle" /><img src="ir/common/img/space_icon.gif" width="1" height="20" align="absmiddle" style=" margin-left:0; margin-right:0;"/>(516kb)</dd>
+
+					</dl>
+						
+				    </div>
+				</div>
+				<div id="info_bottom">
+				    <div id="address">
+				        <h3>株式会社エスクリ</h3>
+				        <p>〒105-0003 東京都港区西新橋2-14-1 興和西新橋ビルB棟 Tel. 03-3539-7654/Fax. 03-3539-7651</p>
+					</div>
+				    <div id="btn_wedding">
+                      <ul>
+                        <li class="box"><a href="/wedding_hall_info/"><img src="images/btn_wedding.gif" alt="ウェディング会場をお探しの方はこちら" title="ウェディング会場をお探しの方はこちら" class="rollover" /></a></li>
+                      </ul>
+                    </div>
+				</div>
+			</div>	
+	    </div>
+	    <!--/wrapper-->
+	</div>
+	<!--/contents-->
+	<!--footer-->
+	<div id="pagetop">
+		<a href="#header" onclick="backToTop(); return false"><img src="/common/img/pagetop.gif" alt="Page Top" title="Page Top" class="rollover" /></a>
+	</div>
+	<div id="footer">
+	    <ul id="footer_nv">
+			<li><a href="https://www.escrit.jp/contact/">会社へのお問い合わせ</a></li>
+			<li><a href="https://www.escrit.jp/ir/contact/">IR・PRお問い合わせ</a></li>
+			<li><a href="/privacypolicy/">プライバシーポリシー</a></li>
+			<li><a href="/sitemap/">サイトマップ</a></li>
+		</ul>
+		<div id="footer_links">
+			<h3>エスクリ運営施設：</h3>
+				<div class="areaBox">
+					<p class="areaTitle">
+						首都圏エリア
+					</p>
+					<div class="areas">
+					<ul>
+						<li><a href="http://www.lagunaveil.com/" target="_blank">ラグナヴェールAOYAMA</a></li>
+						<li><a href="http://tokyo.charmantscena.com/" target="_blank">シャルマンシーナTOKYO</a></li>
+						<li><a href="http://tokyo.lagunaveil.com/" target="_blank">ラグナヴェールTOKYO</a></li>
+						<li><a href="http://tokyo.angelion.jp/" target="_blank">アンジェリオン オ プラザTOKYO</a></li>
+						<li><a href="http://www.themagnus.jp/" target="_blank">ザ マグナスTOKYO</a></li>
+						<li><a href="http://www.losangeia.com/" target="_blank">ロザンジュイア</a></li>
+						<li><a href="http://wedding.lagunasuite-sy.com/" target="_blank">ラグナスイート新横浜</a></li>
+						<li><a href="http://tokyo.almalien.com/" target="_blank">アルマリアンTOKYO</a></li>
+						<li><a href="http://tokyo.avenircras.com/" target="_blank">アヴェニールクラスTOKYO</a></li>
+						<li><a href="http://tokyo.lumiveil.com/" target="_blank">ルミヴェールTOKYO</a></li>
+						<li><a href="http://www.santa-chiara.jp/" target="_blank">南青山サンタキアラ教会</a></li>
+						<li><a href="http://palazzo-ducale.jp/" target="_blank">パラッツォドゥカーレ 麻布</a></li>
+						<li><a href="https://skyterrace.lagunaveil.com/" target="_blank">ラグナヴェール SkyTerrace</a></li>
+					</ul>
+					</div>
+				</div>
+			
+				<div class="areaBox_1line">
+					<p class="areaTitle_1line">
+						東北エリア
+					</p>
+					<div class="areas">
+					<ul>
+						<li><a href="http://sendai.lagunaveil.com/" target="_blank">ラグナヴェールSENDAI</a></li>
+						<li><a href="http://sendai.angelion.jp/" target="_blank">アンジェリオン オ プラザSENDAI</a></li>
+					</ul>
+					</div>
+				</div>
+
+				<div class="areaBox_1line">
+					<p class="areaTitle_1line">
+						北陸エリア
+					</p>
+					<div class="areas">
+					<ul>
+						<li><a href="http://kanazawa.lagunaveil.com/" target="_blank">ラグナヴェールKANAZAWA</a></li>
+					</ul>
+					</div>
+				</div>
+			
+				<div class="areaBox_1line">
+					<p class="areaTitle_1line">
+						東海エリア
+					</p>
+					<div class="areas">
+					<ul>
+						<li><a href="http://wedding.lagunasuite.com/" target="_blank">ラグナスイート名古屋</a></li>
+						<li><a href="http://nagoya.lagunaveil.com/" target="_blank">ラグナヴェールNAGOYA</a></li>
+					</ul>
+					</div>
+				</div>
+				
+				<div class="areaBox_1line">
+					<p class="areaTitle_1line">
+						関西エリア
+					</p>
+					<div class="areas">
+					<ul>
+						<li><a href="http://premier.lagunaveil.com/" target="_blank">ラグナヴェールPREMIER</a></li>
+						<li><a href="http://osaka.lagunaveil.com/" target="_blank">ラグナヴェールOSAKA</a></li>
+						<li><a href="http://www.alamode-palais.jp/" target="_blank">ア・ラ・モードパレ&amp;ザ・リゾート</a></li>
+					</ul>
+					</div>
+				</div>
+				
+				<div class="areaBox_1line">
+					<p class="areaTitle_1line">
+						中国・四国エリア
+					</p>
+					<div class="areas">
+					<ul>
+						<li>広島市(屋号未定)</li>
+					</ul>
+					</div>
+				</div>
+				
+				<div class="areaBox_1line">
+					<p class="areaTitle_1line">
+						九州・沖縄エリア
+					</p>
+					<div class="areas">
+					<ul>
+						<li><a href="http://fukuoka.almalien.com/" target="_blank">アルマリアン FUKUOKA</a></li>
+						<li><a href="http://www.centlegenda.com/" target="_blank">セントレジェンダOKINAWA</a></li>
+					</ul>
+					</div>
+				</div>
+				
+				<div class="areaBox_2line">
+					<p class="areaTitle_2line">
+						レストラン
+					</p>
+					<div class="areas">
+					<ul>
+						<li><a href="http://lechezcrit.jp/" target="_blank">ルシェクリ（東京・八重洲）</a></li>
+						<li><a href="http://resarcana.jp/aoyama/" target="_blank">レス アルカーナ 青山（東京・青山）</a></li>
+						<li><a href="http://resarcana.jp/hiroo/" target="_blank">レス アルカーナ 広尾（東京・広尾）</a></li>
+						<li><a href="http://resarcana.jp/tokyowest/" target="_blank">レス アルカーナ TOKYO WEST（東京・池袋）</a></li>
+						<li><a href="http://resarcana.jp/premier/" target="_blank">レス アルカーナ Premier（東京・汐留）</a></li>
+                        <li><a href="http://premier.lagunaveil.com/restaurant/" target="_blank">ラグナヴェールプレミア(大阪・梅田)</a></li>
+                        <li><a href="http://lagrillden.jp/" target="_blank">ラ・グリルーデン（大阪・北新地）</a></li>
+                        <li><a href="https://hariyun.centlegenda.com/" target="_blank">BBQテラスはりゆん（沖縄・北谷）</a></li>
+					</ul>
+					</div>
+				</div>
+				
+				<div class="areaBox_1line">
+					<p class="areaTitle_1line">
+						ホテル
+					</p>
+					<div class="areas">
+					<ul>
+						<li><a href="http://lagunasuite-sy.com/hotel/" target="_blank">ラグナスイート新横浜（神奈川・新横浜）</a></li>
+						<li><a href="http://www.lagunasuite.com/" target="_blank">ラグナスイート名古屋（愛知・名古屋）</a></li>
+					</ul>
+					</div>
+				</div>
+				
+				<div class="areaBox_1line_1line">
+					<p class="areaTitle_1line">
+						ドレスショップ
+					</p>
+					<div class="areas">
+					<ul>
+						<li><a href="http://primacara.com/" target="_blank">プリマカーラ</a></li>
+					</ul>
+					</div>
+				</div>
+		</div>
+		
+		<div id="copy">
+			<p>Copyright &copy; ESCRIT all right reserved.</p><a href="/"><img src="/common/img/footer_logo.gif" alt="ESCRIT" title="ESCRIT" id="footer_logo" class="onmouse" /></a>
+		</div>
+	</div>
+	<!--/footer-->
+	
+<script type="text/javascript">
+
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-7388088-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html> 

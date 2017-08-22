@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="ja" style="width: 100%; height: 100%;">
+<head>
+<meta charset="utf-8" />
+<title>株式会社東京エネシス</title>
+<meta name="description" content="株式会社東京エネシスのオフィシャルサイトです。企業情報、IR情報、事業案内、技術紹介、採用情報のご紹介を掲載しています。" />
+<meta name="keywords" content="株式会社東京エネシス" />
+
+<meta name="viewport" content="width=1152, user-scalable=yes">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+<!-- OGP -->
+<meta property="og:site_name" content="株式会社東京エネシス">
+<meta property="og:title" content="株式会社東京エネシス">
+<meta property="og:description" content="株式会社東京エネシス">
+<meta property="og:image" content="http://www.qtes.co.jp/common/images/base/fb.jpg">
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="株式会社東京エネシス" />
+<meta name="twitter:description" content="株式会社東京エネシス" />
+<meta name="twitter:image" content="http://www.qtes.co.jp/common/images/base/twitter.png" />
+<!-- close.OGP -->
+
+<script src="common/js/jquery.min.js"></script>
+<link rel="stylesheet" href="common/css/reset.css" />
+<link rel="stylesheet" href="common/css/print.css" />
+
+<script src="common/js/common.js"></script>
+<link rel="stylesheet" href="common/css/base.css" />
+<link rel="stylesheet" href="common/css/common.css" />
+
+<script src="common/js/news.js"></script>
+<script src="common/js/home-top.js"></script>
+
+
+<!--[if lt IE 9]><script src="http://www.qtes.co.jp/common/js/html5shiv-printshiv.min.js"></script><![endif]-->
+
+<script src="common/js/ga.js" type="text/javascript"></script>
+
+</head>
+
+<body id="home" style="overflow-x: hidden; width: 100%; height: 100%;">
+
+<!-- sp and tablet only-->
+<div id="home_top_sp_img_wrap" style="overflow: hidden; height: 728px;"></div>
+
+<!-- PC only -->
+<div id="home_top_move_wrap" style="overflow: hidden; z-index: 1; width: 100%; height: 100%; opacity: 1; min-height: 728px;">
+	<video id="home_top_move" poster="common/images/home/img_top_move_start.jpg" autoplay="" preload="none" style="margin: 0; padding: 0; width: auto; height: auto;">
+		<source src="common/video/move.mp4">
+	</video>
+</div>
+<div id="home_top_white_wrap" style="position: absolute; top: 0; overflow: hidden; z-index: 1000; width: 100%; height: 100%; opacity: 1; min-height: 728px;">
+	<div id="home_top_white" style="background: #fff"></div>
+</div>
+
+<header id="header_over_wrap">
+	<div id="header_wrap" class="base_wide clearfix">
+
+		<div id="header_box">
+			<h1 id="header_logo"><a href=""><img src="common/images/base/img_head_logo.png" alt="Q'd 株式会社 東京エネシス" width="290" height="51"></a>	</h1>
+		</div>
+
+		<nav id="gnav_wrap">
+			<ul id="gnav_sub" class="clearfix">
+				<li id="gnav_sub02"><a href="inquiry/" class="opacity">お問い合わせ</a></li>
+				<li id="gnav_sub03"><a href="sitemap/" class="opacity">サイトマップ</a></li>
+				<li id="gnav_sub04"><a href="en/" class="opacity">ENGLISH</a></li>
+			</ul>
+			<div id="gnav_sub05" class="opacity"><input type="button" value="指定お取引先様ログイン" onClick="adWi61();"></div>
+			<ul id="gnav" class="clearfix">
+				<li id="gnav01"><a href="company/" class="opacity"><img src="common/images/base/nav_global_company.png" width="164" height="45" alt="企業情報"></a></li>
+				<li id="gnav02"><a href="ir/" class="opacity"><img src="common/images/base/nav_global_ir.png" width="163" height="45" alt="IR情報"></a></li>
+				<li id="gnav03"><a href="business/" class="opacity"><img src="common/images/base/nav_global_business.png" width="163" height="45" alt="事業案内"></a></li>
+				<li id="gnav04"><a href="technology/" class="opacity"><img src="common/images/base/nav_global_technology.png" width="163" height="45" alt="技術紹介"></a></li>
+				<li id="gnav05"><a href="ir/news_release/" class="opacity"><img src="common/images/base/nav_global_news.png" width="163" height="45" alt="ニュース一覧"></a></li>
+				<li id="gnav06"><a href="recruit/" class="opacity"><img src="common/images/base/nav_global_recruit.png" width="164" height="45" alt="採用情報"></a></li>
+			</ul>
+		</nav>
+
+	</div>
+</header>
+
+<section class="home_video_wrap">
+	<div id="home_video_move" class="home_video">
+		<img src="common/images/home/img_top_home_copy.png" width="602" height="166" alt="エネルギーとシステムを、確かな技術で支え続ける。私たちは総合エンジニアリング企業を目指し成長し続けます" class="home_video_copy">
+		<img src="common/images/home/img_top_home_logo.png" width="284" height="209" alt="Q'd Quality Oriented" class="home_video_log">
+		<a href="business/" class="home_video_btn opacity"><img src="common/images/home/img_top_home_btn.png" width="380" height="74" alt="長年電力設備で培った現場技術力を、次の解決力へ"></a>
+	</div>
+</section>
+<script>
+$(function(){
+
+	var _ua = UserAgent();
+	if ( _ua.Mobile || _ua.Tablet || _ua.ltIE8 || _ua.ltIE9 ) {
+		//PC以外
+
+		$('.home_video').css('top', '416px')
+
+	} else {
+		//PCのみ メインの動き記述
+		copy_heght();
+
+		$(window).resize(function() {
+			copy_heght();
+		});
+	};
+
+	function copy_heght() {
+		var _h = window.innerHeight ? window.innerHeight: $(window).height();
+		if( _h <= 728 ){
+			$('.home_video').css('top', '416px')
+		}else{
+			$('.home_video').css('top', '57%')
+		}
+	}
+
+//ユーザーエージェント関数。
+	function UserAgent() {
+		var u = window.navigator.userAgent.toLowerCase();
+		return {
+				ltIE8:typeof window.addEventListener == "undefined" && typeof document.getElementsByClassName == "undefined",
+				ltIE9:document.uniqueID && typeof window.matchMedia == "undefined",
+				Tablet:(u.indexOf("windows") != -1 && u.indexOf("touch") != -1)
+					|| u.indexOf("ipad") != -1
+					|| (u.indexOf("android") != -1 && u.indexOf("mobile") == -1)
+					|| (u.indexOf("firefox") != -1 && u.indexOf("tablet") != -1)
+					|| u.indexOf("kindle") != -1
+					|| u.indexOf("silk") != -1
+					|| u.indexOf("playbook") != -1,
+				Mobile:(u.indexOf("windows") != -1 && u.indexOf("phone") != -1)
+					|| u.indexOf("iphone") != -1
+					|| u.indexOf("ipod") != -1
+					|| (u.indexOf("android") != -1 && u.indexOf("mobile") != -1)
+					|| (u.indexOf("firefox") != -1 && u.indexOf("mobile") != -1)
+					|| u.indexOf("blackberry") != -1
+			}
+	}
+
+
+
+});
+</script>
+
+<section id="content_wrap" class="topnews_wrap base_wide mt48">
+
+	<div class="top_news_header clearfix">
+		<h2 class="fl"><img src="common/images/base/img_home_news_ttl.png" width="89" height="27" alt="お知らせ"></h2>
+		<a href="ir/news_release/" class="fr opacity">ニュース一覧</a>
+	</div>
+
+
+	<div id="topNewsList"></div>
+	<script>set_news('top')</script>
+
+
+</section><!-- /topnews_wrap -->
+
+<div id="js_topbtn" class="pagetop">
+	<a href="#header_wrap"><img src="common/images/icon/btn_pagetop.png" width="50" height="50" alt="TOP"></a>
+</div>
+
+<footer id="footer_over_wrap">
+	<div id="footer_top_wrap">
+		<!-- footer_nav_top -->
+		<ul class="footer_nav base_wide clearfix mb48">
+			<li class="fotter_nav_link">
+				<a href="company/" class="fotter_nav_link_ttl"><img src="common/images/base/img_footer_nav_company.png" alt="企業情報" width="65" height="16"></a>
+				<ul>
+					<li><a href="company/topmessage/">トップメッセージ</a></li>
+					<li><a href="company/outline/">会社概要</a></li>
+					<li><a href="company/history/">沿革</a></li>
+					<li><a href="company/charter/">行動憲章</a></li>
+					<li><a href="company/iso/">ISO情報</a></li>
+					<li><a href="company/governance/">コーポレートガバナンス</a></li>
+					<li><a href="company/qualified/">有資格者</a></li>
+					<li><a href="company/affiliated/">グループ会社</a></li>
+				</ul>
+			</li>
+			<li class="fotter_nav_link">
+				<a href="ir/" class="fotter_nav_link_ttl"><img src="common/images/base/img_footer_nav_ir.png" alt="IR情報" width="50" height="16"></a>
+				<ul>
+					<li><a href="ir/topmessage/">トップメッセージ</a></li>
+					<li><a href="ir/financial/highlight/">業績・財務データ</a></li>
+					<li><a href="ir/library/statements/">IRライブラリー</a></li>
+					<li><a href="ir/stock/outline/">株主・株式情報</a></li>
+					<li><a href="http://kmasterplus.pronexus.co.jp/main/corp/1/9/1945/index.html" target="_blank">電子公告</a><img src="common/images/icon/icon_link_blank.png" alt="外部リンク" class="snav_link_blank"></li>
+					<li><a href="ir/calendar/">IRカレンダー</a></li>
+					<li><a href="http://quote.nomura.co.jp/nomura/cgi-bin/parser.pl?QCODE=1945&amp;TEMPLATE=nomura_tp_kabu_01&amp;EXCHG=" target="_blank">株価情報</a><img src="common/images/icon/icon_link_blank.png" alt="外部リンク" class="snav_link_blank"></li>
+					<li><a href="ir/faq/">ご質問（FAQ)</a></li>
+				</ul>
+			</li>
+			<li class="fotter_nav_link fotter_nav_link_wide clearfix">
+				<a href="business/" class="fotter_nav_link_ttl"><img src="common/images/base/img_footer_nav_business.png" alt="事業案内" width="64" height="16"></a>
+				<ul class="fl">
+					<li><a href="business/thermal/">火力</a></li>
+					<li><a href="business/atomic/">原子力</a></li>
+					<li><a href="business/hydraulic/">水力</a></li>
+					<li><a href="business/substation/">変電</a></li>
+					<li><a href="business/recycle_energy/">再生可能エネルギー</a></li>
+					<li><a href="business/architect/">土木・建築</a></li>
+				</ul>
+				<ul class="fl fotter_nav_li_ml32">
+					<li><a href="business/information/">情報通信</a></li>
+					<li><a href="business/energy/">エネルギーソリューション</a></li>
+					<li><a href="business/electric/">電気設備</a></li>
+					<li><a href="business/foreign/">海外</a></li>
+					<li><a href="business/center/">溶接・検査センター</a></li>
+				</ul>
+			</li>
+		</ul>
+
+		<!-- footer_nav_bottom -->
+		<ul class="footer_nav base_wide clearfix">
+			<li class="fotter_nav_link fotter_nav_link_wide">
+				<a href="technology/" class="fotter_nav_link_ttl"><img src="common/images/base/img_footer_nav_technology.png" alt="技術紹介" width="66" height="16"></a>
+				<ul class="fl">
+					<li><a href="technology/tec01/">ソーラーパネル取付装置</a></li>
+					<li><a href="technology/tec02/">ボルト磨き機</a></li>
+					<li><a href="technology/tec03/">フィルター清掃装置</a></li>
+					<li><a href="technology/tec04/">水浸式配管減肉測定装置<br>（インナーUT）</a></li>
+					<li><a href="technology/tec05/">遠隔操作式除染装置</a></li>
+				</ul>
+				<ul class="fl fotter_nav_li_ml28">
+					<li><a href="technology/tec06/">ドレンファンネル逆流防止金具</a></li>
+					<li><a href="technology/tec07/">チューブ処理技術・チューブ半割装置</a></li>
+					<li><a href="technology/tec08/">チューブ処理技術・チューブ内面放射線測定装置</a></li>
+					<li><a href="technology/tec09/">碍子養生用マット</a></li>
+					<li><a href="technology/tec10/">ケーブル結束治具<br>ケーブルまとめる君</a></li>
+				</ul>
+			</li>
+			<li class="fotter_nav_link">
+				<a href="recruit/" class="fotter_nav_link_ttl"><img src="common/images/base/img_footer_nav_recruit.png" alt="採用情報" width="65" height="16"></a>
+				<ul>
+					<li><a href="recruit/new_graduate/">新卒採用</a></li>
+					<li><a href="recruit/career/">キャリア採用</a></li>
+				</ul>
+			</li>
+			<li class="fotter_nav_link">
+				<a href="inquiry/" class="fotter_nav_link_ttl"><img src="common/images/base/img_footer_nav_inquiry.png" alt="お問い合わせ" width="100" height="16"></a>
+				<ul>
+					<li><a href="inquiry/">お問い合わせ</a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+
+	<div id="footer_btm_wrap">
+		<div id="footer_btm" class="base_wide clearfix">
+			<ul id="footer_subnav" class="lf">
+				<li><a href="sitemap/">サイトマップ</a></li>
+				<li><a href="privacy/">プライバシーポリシー</a></li>
+			</ul>
+			<small><img src="common/images/base/img_footer_copy.png" width="351" height="11"  alt="Copyright &copy; TOKYO ENERGY &amp; SYSTEMS INC  All rights reserved."></small>
+		</div>
+	</div><!-- /footer_btm_wrap -->
+</footer><!-- /footer_over_wrap -->
+
+</body>
+<!-- InstanceEnd --></html>

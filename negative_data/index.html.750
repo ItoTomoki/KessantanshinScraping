@@ -1,0 +1,654 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="shift_jis">
+<title>ソフトクリエイト | システム・クラウドインテグレータのソフトクリエイト</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="format-detection" content="telephone=no">
+<meta name="description" content="ソフトクリエイトは、システムインテグレータとしての長年の実績を活かしたIT基盤のコンサルティング、設計・構築、保守・運用までトータルでサポートしております。また、クラウドやアウトソーシングのサービスもご提供しております。">
+<meta name="keywords" content="クラウドインテグレーション,システムインテグレーション,IT基盤,ソフトクリエイト
+">
+<meta name="author" content="SOFTCREATE CORP.">
+<meta name="copyright" content="copyright &#169; SOFTCREATE CORP. all rights reserved.">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:title" content="ソフトクリエイト公式ホームページ">
+<meta property="og:type" content="website">
+<meta property="og:url" content="http://www.softcreate.co.jp">
+<meta property="og:image" content="http://www.softcreate.co.jp/cms/rs/ogp/ogp.jpg">
+<meta property="og:site_name" content="ソフトクリエイト">
+<meta property="fb:admins" content="201815076513231">
+<meta property="fb:app_id" content="1487244874901289">
+
+<link rel="stylesheet" href="/cms/css/common/reset.css" type="text/css">
+<link rel="stylesheet" href="/cms/css/common/base.css" type="text/css">
+<link rel="stylesheet" href="/cms/css/top/top.css" type="text/css">
+<link rel="stylesheet" href="/cms/css/top/flexslider_add.css" type="text/css">
+<link rel="stylesheet" href="/cms/css/top/slick_add.css" type="text/css">
+<script type="text/javascript" src="/cms/js/common/g_font.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="/cms/js/common/css_browser_selector.js"></script>
+<script src="/cms/js/common/modernizr_custom.js"></script>
+
+<!--[if lt IE 9]>
+<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script src="/cms/js/top/jquery_flexslider.js"></script>
+<script type="text/javascript" src="/cms/js/top/slick.js"></script>
+
+<link rel="SHORTCUT ICON" href="/cms/rs/softcreate/favicon.ico">
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-24472609-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<link rel="stylesheet" href="/cms/css/top/top201606add.css" type="text/css">
+<script>
+$(window).load(function() {
+	$('.flexslider').flexslider();
+	$('#seminar .boxSlider').slick({
+		speed: 300,
+		slidesToShow: 4,
+		slidesToScroll: 1,
+		infinite: true,
+		responsive: [
+			{
+				breakpoint: 1600,
+				settings: {
+					slidesToShow: 3,
+					slidesToScroll: 1,
+				}
+			},
+			{
+				breakpoint: 1200,
+				settings: {
+					slidesToShow: 2,
+					slidesToScroll: 1,
+				}
+			},
+			{
+				breakpoint: 800,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1
+				}
+			}
+		]
+	});
+	$('#case .boxSlider').slick({
+		speed: 300,
+		slidesToShow: 3,
+		slidesToScroll: 1,
+		infinite: true,
+		responsive: [
+			{
+				breakpoint: 1600,
+				settings: {
+					slidesToShow: 2,
+					slidesToScroll: 1,
+				}
+			},
+			{
+				breakpoint: 1000,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1,
+				}
+			}
+		]
+	});
+});
+</script>
+
+
+<script src="/cms/js/common/matchHeight.js"></script>
+<script type="text/javascript">
+$(function() {
+    $('#newsAndTopics .contents').matchHeight();
+});
+</script>
+</head>
+
+<body>
+
+
+<header class="forcms_block">
+<div id="headerIn">
+		<div class="logo"><a href="/"><img src="/cms/images/common/logo.png" alt="株式会社ソフトクリエイト"/></a></div>
+		<div class="tel">03-3486-1520<span class="fontJp">受付時間 9:00～18:00（平日）</span></div>
+		<ul class="btn">
+			<li><a href="/contact" onclick="_gaq.push(['_trackEvent', 'global','navi','問い合わせ']);">お問い合わせ</a></li>
+			<li><a href="/catalog/download">カタログダウンロード</a></li>
+		</ul>
+		<div class="logoHoldings"><a href="http://www.softcreate-holdings.co.jp/" target="_blank"><img src="/cms/images/common/logo_holdings.png" alt="東証一部上場　ソフトクリエイトホールディングス"/></a></div>
+		<div class="btn-menu" id="nav-toggle"><a href="#" id="panel-btn"><span id="panel-btn-icon"></span></a></div>
+		<!-- // .btn-menu -->
+		<nav id="toggle-menu" class="gnav">
+			<ul>
+				<li id="nav-service" class="big-menu-trigger"><span class="sp"><a href="/service">サービス・ソリューション</a></span><span class="pc"><a href="javascript:;">サービス・ソリューション</a></span></li>
+				<li><a href="/seminar" onclick="_gaq.push(['_trackEvent', 'global','navi','イベント・セミナー']);">イベント・セミナー</a></li>
+				<li><a href="/case" onclick="_gaq.push(['_trackEvent', 'global','navi','導入・活用事例']);">導入・活用事例</a></li>                               
+				<li><a href="/corporate" onclick="_gaq.push(['_trackEvent', 'global','navi','企業情報']);">企業情報</a></li>
+				<li><a href="/recruit/" onclick="_gaq.push(['_trackEvent', 'global','navi','採用情報']);">採用情報</a></li>
+				<!--<li><a href="/ir/irlibrary" onclick="_gaq.push(['_trackEvent', 'global','navi','IR情報']);">IR情報</a></li>-->
+			</ul>
+		</nav>
+	</div>
+</header>
+<div class="wrapper-big-menu">
+	<nav id="big-menu-service" class="big-menu">
+		<div class="container">
+			<p class="title">サービス・ソリューション<span class="btn-big-menu-close"><a href="#">閉じる</a></span></p>
+			<ul>
+				<li><a href="/service" onclick="_gaq.push(['_trackEvent', 'global','navi','サービスを探す']);"><i class="icon-btn-arrow"></i>サービスを探す</a></li>
+				<li><a href="/service/list" onclick="_gaq.push(['_trackEvent', 'global','navi','サービス一覧']);"><i class="icon-btn-arrow"></i>サービス一覧</a></li>
+			</ul>
+			<ul>
+				<li><a href="/service/cybozu" onclick="_gaq.push(['_trackEvent', 'global','navi','サイボウズ']);">サイボウズソリューション</a></li>
+				<li><a href="/service/microsoft" onclick="_gaq.push(['_trackEvent', 'global','navi','マイクロソフト']);">マイクロソフトソリューション</a></li>
+				<li><a href="/service/infrastructure" onclick="_gaq.push(['_trackEvent', 'global','navi','ITインフラ']);">ITインフラソリューション</a></li>
+				<li><a href="/service/virtualization" onclick="_gaq.push(['_trackEvent', 'global','navi','仮想化']);">仮想化ソリューション</a></li>
+				<li><a href="/service/cloud" onclick="_gaq.push(['_trackEvent', 'global','navi','クラウド']);">クラウドソリューション</a></li>
+			</ul>
+			<ul>
+				<li><a href="/service/security" onclick="_gaq.push(['_trackEvent', 'global','navi','セキュリティ']);">セキュリティソリューション</a></li>
+				<li><a href="/service/application" onclick="_gaq.push(['_trackEvent', 'global','navi','アプリケーション']);">アプリケーションソリューション</a></li>
+				<li><a href="/service/web" onclick="_gaq.push(['_trackEvent', 'global','navi','Web']);">Webソリューション</a></li>
+				<li><a href="/service/outsourcing" onclick="_gaq.push(['_trackEvent', 'global','navi','アウトソーシング']);">アウトソーシング</a></li>
+				<li><a href="/service/itrs" onclick="_gaq.push(['_trackEvent', 'global','navi','SES']);">技術者派遣</a></li>
+			</ul>
+			<ul>
+				<li><a href="/service/support" onclick="_gaq.push(['_trackEvent', 'global','navi','サポート']);">運用支援</a></li>
+				<li><a href="/service/goods" onclick="_gaq.push(['_trackEvent', 'global','navi','物販']);">物販</a></li>
+			</ul>
+		</div>
+		<!-- // .container --> 
+	</nav>
+</div>
+
+<main>
+	
+	<div class="forcms_block">
+	<div id="mainVisual">
+		<div class="flexslider">
+			<ul class="slides">
+				<li><div class="image"><div class="txt"></div></div></li>
+				<li><a href="https://www.sitemiraiz.jp/" target="_blank"><div class="image"></div></a></li>
+				<li><a href="https://www.l2blocker.com/" target="_blank"><div class="image"></div></a></li>
+				<li><a href="http://www.sccloud.jp/" target="_blank"><div class="image"></div></a></li>
+				<li><a href="http://www.sccloud.jp/sccoredirectory" target="_blank"><div class="image"></div></a></li>
+				<li><a href="/strust" target="_blank"><div class="image"></div></a></li>
+                                <li><a href="http://www.sccloud.jp/product/virusbuster" target="_blank"><div class="image"></div></a></li>
+			</ul>
+		</div>
+		<!-- // .flexslider -->
+	</div>
+</div><section id="service" class="gray forcms_block">
+	<div class="contents">
+		<h2>SERVICE</h2>
+		<p class="sub">サービス・ソリューション</p>
+	</div>
+	<div class="boxSearch">
+		<div class="boxSearchInner">
+			<div class="category">
+				<h3>SEARCH FROM <span>CATEGORY</span></h3>
+				<p class="sub">カテゴリーから探す</p>
+				<ul>
+					<li><a href="/service/cybozu" onclick="_gaq.push(['_trackEvent', 'top','category','サイボウズ']);"><img src="/cms/images/top/i_cybozu.svg"/><p>サイボウズ</p></a></li>
+					<li><a href="/service/microsoft" onclick="_gaq.push(['_trackEvent', 'top','category','マイクロソフト']);"><img src="/cms/images/top/i_windows.svg"/><p>マイクロ<br class="sp">ソフト</p></a></li>
+					<li><a href="/service/infrastructure" onclick="_gaq.push(['_trackEvent', 'top','category','ITインフラ']);"><img src="/cms/images/top/i_it.svg"/><p>ITインフラ</p></a></li>
+					<li><a href="/service/virtualization" onclick="_gaq.push(['_trackEvent', 'top','category','仮想化']);"><img src="/cms/images/top/i_virtualization.svg"/><p>仮想化</p></a></li>
+					<li><a href="/service/cloud" onclick="_gaq.push(['_trackEvent', 'top','category','クラウド']);"><img src="/cms/images/top/i_cloud.svg"/><p>クラウド</p></a></li>
+					<li><a href="/service/security" onclick="_gaq.push(['_trackEvent', 'top','category','セキュリティ']);"><img src="/cms/images/top/i_security.svg"/><p>セキュリティ</p></a></li>
+					<li><a href="/service/application" onclick="_gaq.push(['_trackEvent', 'top','category','アプリケーション']);"><img src="/cms/images/top/i_application.svg"/><p>アプリ<br class="sp">ケーション</p></a></li>
+					<li><a href="/service/web" onclick="_gaq.push(['_trackEvent', 'top','category','Web']);"><img src="/cms/images/top/i_web.svg"/><p>WEB</p></a></li>
+					<li><a href="/service/outsourcing" onclick="_gaq.push(['_trackEvent', 'top','category','アウトソーシング']);"><img src="/cms/images/top/i_server.svg"/><p><br class="pc">アウト<br class="sp">ソーシング</p></a></li>
+					<li><a href="/service/itrs" onclick="_gaq.push(['_trackEvent', 'top','category','SES']);"><img src="/cms/images/top/i_engineer.svg"/><p>技術者派遣</p></a></li>
+					<li><a href="/service/support" onclick="_gaq.push(['_trackEvent', 'top','category','サポート']);"><img src="/cms/images/top/i_support.svg"/><p>運用<br class="sp">支援</p></a></li>
+					<li><a href="/service/goods" onclick="_gaq.push(['_trackEvent', 'top','category','物販']);"><img src="/cms/images/top/i_sale.svg"/><p>物販</p></a></li>
+				</ul>
+			</div>
+			<div class="keywordIssues">
+				<div class="keyword">
+					<h3>SEARCH FROM <span>KEYWORD</span></h3>
+					<p class="sub">キーワードから探す</p>
+					<form action="/service/search" id="search" method="get" name="search">
+						<input type="text" name="q" placeholder="キーワードを入れてください"><input type="submit" value="検索">
+					</form>
+					<script type="text/javascript" src="//www.google.com/cse/brand?form=cse-search-box&amp;lang=ja"></script>
+				</div>
+				<div class="issues">
+					<h3>SEARCH FROM <span>ISSUES</span></h3>
+					<p class="sub">課題から探す</p>
+					<ul>
+						<li class="m"><a href="/service/challenge#block01" onclick="_gaq.push(['_trackEvent', 'top','issues','セキュリティ対策の強化']);">セキュリティ対策の強化</a></li>
+						<li class="s"><a href="/service/challenge#block02" onclick="_gaq.push(['_trackEvent', 'top','issues','クラウド活用']);">クラウド活用</a></li>
+						<li class="s"><a href="/service/challenge#block03" onclick="_gaq.push(['_trackEvent', 'top','issues','BCP・DR対策']);">BCP・DR対策</a></li>
+						<li class="s"><a href="/service/challenge#block04" onclick="_gaq.push(['_trackEvent', 'top','issues','業務効率化']);">業務効率化</a></li>
+						<li class="m"><a href="/service/challenge#block05" onclick="_gaq.push(['_trackEvent', 'top','issues','運用・保守の負荷軽減']);">運用・保守の負荷軽減</a></li>
+						<li class="s"><a href="/service/challenge#block06" onclick="_gaq.push(['_trackEvent', 'top','issues','内部統制']);">内部統制</a></li>
+						<li class="s"><a href="/service/challenge#block07" onclick="_gaq.push(['_trackEvent', 'top','issues','IT人員補強']);">IT人員補強</a></li>
+						<li class="m"><a href="/service/challenge#block08" onclick="_gaq.push(['_trackEvent', 'top','issues','システム老朽化対策']);">システム老朽化対策</a></li>
+						<li class="s"><a href="/service/challenge#block09" onclick="_gaq.push(['_trackEvent', 'top','issues','売上拡大']);">売上拡大</a></li>
+					</ul>
+					<div class="btnMore"><a href="/service/challenge" onclick="_gaq.push(['_trackEvent', 'top','issues','MORE']);">MORE</a></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section><section id="seminar" class="forcms_block">
+	<h2>SEMINAR</h2>
+	<p class="sub">イベント・セミナー</p>
+	<div class="boxSlider">
+
+
+		<div>
+			<a href="http://www.softcreate.co.jp/seminar/detail/207">
+				<img src="/cms/rs/softcreate/images/seminar/banner/security.jpg" alt="サイバー攻撃時代に、企業が今すべきこと">
+				<p class="date">2017年8月23日(水)  ※受付終了
+</p>
+				<p class="title">サイバー攻撃時代に、企業が今すべきこと</p>
+			</a>
+		</div>
+
+		<div>
+			<a href="http://www.softcreate.co.jp/seminar/detail/202">
+				<img src="/cms/rs/softcreate/images/seminar/banner/office365.png" alt="Office 365 まるわかりセミナー">
+				<p class="date">2017年8月24日(木)
+</p>
+				<p class="title">Office 365 まるわかりセミナー</p>
+			</a>
+		</div>
+
+		<div>
+			<a href="http://www.softcreate.co.jp/seminar/detail/204">
+				<img src="/cms/rs/softcreate/images/seminar/banner/security.jpg" alt="AI&#215;可視化&#215;遮断で未知の攻撃に対策せよ！">
+				<p class="date">2017年8月25日(金)
+</p>
+				<p class="title">AI&#215;可視化&#215;遮断で未知の攻撃に対策せよ！</p>
+			</a>
+		</div>
+
+		<div>
+			<a href="http://www.softcreate.co.jp/seminar/detail/205">
+				<img src="/cms/rs/softcreate/images/seminar/banner/cms.png" alt="新卒採用実績が3倍アップしたってホント！？">
+				<p class="date">2017年8月29日(火)
+</p>
+				<p class="title">新卒採用実績が3倍アップしたってホント！？</p>
+			</a>
+		</div>
+
+		<div>
+			<a href="http://www.softcreate.co.jp/seminar/detail/203">
+				<img src="/cms/rs/softcreate/images/seminar/banner/workflow.jpg" alt="X-point 実機体験セミナー">
+				<p class="date">2017年8月30日(水)
+</p>
+				<p class="title">X-point 実機体験セミナー</p>
+			</a>
+		</div>
+
+		<div>
+			<a href="http://www.softcreate.co.jp/seminar/detail/209">
+				<img src="/cms/rs/softcreate/images/seminar/banner/cybozu.jpg" alt="kintoneハンズオンセミナー">
+				<p class="date">2017年8月31日(木)
+</p>
+				<p class="title">kintoneハンズオンセミナー</p>
+			</a>
+		</div>
+
+		<div>
+			<a href="http://www.softcreate.co.jp/seminar/detail/210">
+				<img src="/cms/rs/softcreate/images/seminar/banner/active_directory_practical.jpg" alt="Active Directory お任せセミナー">
+				<p class="date">2017年9月6日(水)
+</p>
+				<p class="title">Active Directory お任せセミナー</p>
+			</a>
+		</div>
+
+		<div>
+			<a href="http://www.softcreate.co.jp/seminar/detail/208">
+				<img src="/cms/rs/softcreate/images/seminar/banner/security.jpg" alt="サイバー攻撃時代に、企業が今すべきこと（大阪開催）">
+				<p class="date">2017年9月6日(水)
+</p>
+				<p class="title">サイバー攻撃時代に、企業が今すべきこと（大阪開催）</p>
+			</a>
+		</div>
+
+		<div>
+			<a href="http://www.softcreate.co.jp/seminar/detail/211">
+				<img src="/cms/rs/softcreate/images/seminar/banner/cybozu.jpg" alt="ITによる情報化で業務効率は向上するか！？（大阪開催）">
+				<p class="date">2017年9月15日(金)
+</p>
+				<p class="title">ITによる情報化で業務効率は向上するか！？（大阪開催）</p>
+			</a>
+		</div>
+
+	</div>
+	<div class="btnMore"><a href="/seminar">MORE</a></div>
+
+</section><section id="case" class="gray forcms_block">
+	<h2>CASE</h2>
+	<p class="sub">導入・活用事例</p>
+	<div class="boxSlider">
+		<div>
+			<a href="/case/deployment/case011">
+				<img src="/cms/rs/softcreate/images/case/case11/logo.jpg" alt="ID基盤のバージョンアップと合わせて見える化を実現し、アカウント管理が効率化">
+				<p class="txt">2000 年に設立したネオキャリア。中途採用支援・求人広告事業からスタートし、今では、人材関連事業を中心にヘルスケア領域、海外採用支援やHR Tech などのネット領域を含めた事業を展開している。事業の展開・拡大とともに従業員数も増加し、今では2000 人を超す従業員が展開する事業領域で活躍しているのだ。人事・会計システムなどの基幹システム、情報系基盤などさまざまなシステムが稼動しており、それらを利用するユーザのアカウント管理を行う認証基盤としてActive Directory を利用している。ハードウェアの保守切れに伴い Active Directory のバージョンアップを行った。Active Directory のバージョンアップをはじめとするインフラ関連について、情報システム部インフラグループの安藤 達也 氏にお話を伺った。<br></p>
+				<ul>
+					<li class="label-icon">Active Directory</li><li class="label-icon">プロファイル移行ツール</li><li class="label-icon">ID管理</li>
+				</ul>
+			</a>
+			
+		</div><div>
+			<a href="/case/deployment/case010">
+				<img src="/cms/rs/softcreate/images/case/case10/image01_logo.jpg" alt="業務の効率化を実現するIT基盤へリプレイス">
+				<p class="txt">畜産農家から厚く信頼されている科学飼料研究所。加工飼料、飼料添加物や動物用医薬品の製造および販売する事業を展開している。<br>5年前に刷新したインフラの経年劣化が進み、業務システムのパフォーマンスが低下した。業務に支障をきたす恐れにより、早急な改善が必要だった。そこで、同社が選択したのは、インフラ基盤をリプレイスし、処理速度向上が期待できる仮想ストレージ(SDS：Software Defined Storage)を導入することだった。</p>
+				<ul>
+					<li class="label-icon">インフラストラクチャ構築</li><li class="label-icon">ネットワーク構築</li><li class="label-icon">仮想化環境構築</li><li class="label-icon">仮想化ストレージ(SDS)</li>
+				</ul>
+			</a>
+			
+		</div><div>
+			<a href="/case/deployment/case009">
+				<img src="/cms/rs/softcreate/images/case/case9/image01_logo.jpg" alt="グループ全体の病院ホームページの運営業務をアウトソーシング">
+				<p class="txt">医療法人IMS（イムス）グループのアイセルネットワークスは、電子カルテの事業を中心とした医療関連の事業を展開している。 IMSグループの病院や施設のインフラやネットワークなどを含めたICT基盤の構築をはじめとした、運用・管理などのすべてを請け負っている。 IMSグループの病院や施設ごとのHPの制作や運用を含めてだ。多くの病院や施設のHPの運用には、当然ながら大きな負荷がかかった。<br>すべての病院や施設のHPをよいものにするために選択したのは、ソフトクリエイトへ業務をアウトソースすることだった。</p>
+				<ul>
+					<li class="label-icon">SES</li><li class="label-icon">技術者派遣</li>
+				</ul>
+			</a>
+			
+		</div><div>
+			<a href="/case/deployment/case008">
+				<img src="/cms/rs/softcreate/images/case/case8/logo03.jpg" alt="アウトソーシングで運用負荷が軽減し、生産性が向上">
+				<p class="txt">建物の清掃業務を主体として1959 年に創業した二幸産業。現在では、建物の総合管理次行を中心とした事業を行なっている。<br>100 を超える拠点がある同社では、拠点間でのファイル共有をファイルサーバで行なっている。<br>そのファイルサーバは、オンプレミスで運用していたが Windows Server 2003 のサポート切れに伴うリプレイスを検討していた。<br>従来通りのオンプレかクラウドサービスを利用するか比較・検討をはじめた。<br>その結果、導入したのがソフトクリエイトのクラウド型オンラインストレージサービス「ファイルサーバ on SCCloud」だ。</p>
+				<ul>
+					<li class="label-icon">クラウド</li><li class="label-icon">SCCloud</li><li class="label-icon">ファイルサーバ on SCCloud</li><li class="label-icon">ファイルサーバ</li>
+				</ul>
+			</a>
+			
+		</div><div>
+			<a href="/case/deployment/case006">
+				<img src="/cms/rs/softcreate/images/case/case6/image01_logo.jpg" alt="「個人情報を守る」安全な仕組みと効率的な運用管理の仕組みを構築">
+				<p class="txt">「食・健康」業界に特化した「人材サービス」を軸とした事業を行なっているRDサポート。「食・健康業界の発展に貢献し、社会の健康長寿推進とQOL向上を実現できる会社を創る」というビジョンのもと、事業を行なっているという。<br>人材派遣業を展開する同社では、個人情報の安全な取り扱いを社会に対してアピールできる”プライバシーマーク”を2010年に取得し、今も継続して更新している。このプライバシーマークの更新に伴い、アクセスログを取る仕組みが必要になった。情報収集を進め、様々な製品・サービスを比較する中で、同社が選択したのは、「LanScope Cat on SCCloud」だった。</p>
+				<ul>
+					<li class="label-icon">クラウド</li><li class="label-icon">SCCloud</li><li class="label-icon">LanScope Cat on SCCloud</li><li class="label-icon">IT資産管理</li>
+				</ul>
+			</a>
+			
+		</div><div>
+			<a href="/case/deployment/case005">
+				<img src="/cms/rs/softcreate/images/case/case5/image01_logo.jpg" alt="セキュリティが高く、運用工数も掛からないグループ企業全体の情報共有基盤を構築">
+				<p class="txt">ロイヤルマネジメントは、ファミリーレストラン「ロイヤルホスト」や天丼・天ぷら専門店「天丼てんや」をはじめとするロイヤルグループ各社の間接業務を請け負っている。ロイヤルグループのICTインフラの構築・運用も請け負っており、これまでもファイルの共有を行うファイルサーバを構築・運用してきた。今回、ファイルサーバの老朽化にともない、その更改を検討。運用・管理や情報漏えいリスクを軽減できるファイルサーバとして、同社が選択したのはソフトクリエイトの「ファイルサーバ on SCCloud」だった。</p>
+				<ul>
+					<li class="label-icon">クラウド</li><li class="label-icon">SCCloud</li><li class="label-icon">ファイルサーバ on SCCloud</li><li class="label-icon">ストレージ</li>
+				</ul>
+			</a>
+			
+		</div><div>
+			<a href="/case/deployment/case004">
+				<img src="/cms/rs/softcreate/images/case/case4/img_01.jpg" alt="クリーンエネルギーの会社にふさわしい、環境に優しいファイル共有システムを実現">
+				<p class="txt">風力エネルギー資源の開発を目的に、1999年に設立された日本風力開発。風力発電所の適地探索から、建設、発電までかかわる。同社では3年半ほど前から、ファイルサーバの容量がほぼ上限に達しつつあった。そのたびに不要なファイルの削除、外付けのHDDに退避させるなどして、対応してきた。ファイルサーバの更改の時期が目前に迫り、従来通り物理サーバを導入するか、クラウドサービスを利用するかを検討した。その結果、同社が選択したのが、ソフトクリエイトのクラウド型オンラインストレージサービス「ファイルサーバ on SCCloud」だった。</p>
+				<ul>
+					<li class="label-icon">クラウド</li><li class="label-icon">SCCloud</li><li class="label-icon">ファイルサーバ on SCCloud</li><li class="label-icon">ストレージ</li>
+				</ul>
+			</a>
+			
+		</div><div>
+			<a href="/case/deployment/case003">
+				<img src="/cms/rs/softcreate/images/case/case3/img_02.jpg" alt="不正PCの無断接続を完全排除し、セキュリティレベルの大幅向上を実現">
+				<p class="txt">80年を超す歴史を持つ独立系の道路舗装会社、東亜道路工業。同社は建設業に加え、道路舗装に不可欠なアスファルト乳剤を提供する化学メーカーとしての顔を持つ。国内に133カ所もの事業所がある同社では、社内ネットワークに接続される端末の管理に苦労していた。その問題を簡単かつ低コストで解決する手段はないか。そこで同社が選択したのが、ソフトクリエイトの不正端末検知システム「L2Blocker」だった。</p>
+				<ul>
+					<li class="label-icon">セキュリティ</li><li class="label-icon">L2Blocker</li><li class="label-icon">不正端末検知</li>
+				</ul>
+			</a>
+			
+		</div><div>
+			<a href="/case/deployment/case002">
+				<img src="/cms/rs/softcreate/images/case/case2/img_04.jpg" alt="導入・管理が容易な端末管理でアミューズのいち早い海外事業展開を支援">
+				<p class="txt">包括的なエンターテインメント事業を営むアミューズは、業界に先駆けて海外でも事業を展開してきた。だが、そこで課題となったのが、海外拠点で利用される端末の管理だ。簡単に導入でき、極力簡単に運用できる手段はないものかーー そこで同社が選択したのが、ソフトクリエイトの不正端末検知システム「L2Blocker」だった。</p>
+				<ul>
+					<li class="label-icon">セキュリティ</li><li class="label-icon">L2Blocker</li><li class="label-icon">不正端末検知</li>
+				</ul>
+			</a>
+			
+		</div><div>
+			<a href="/case/deployment/case001">
+				<img src="/cms/rs/softcreate/images/case/case1/img_03.png" alt="安全を確保しながら社員と芸人・作家のコラボレーションを後押し">
+				<p class="txt">日本を代表するエンターテイメント企業、吉本興業。その舞台は社員だけでなく、多くの作家や芸人といった外部のスタッフが協力して作り上げているが、情報システム部門にとってはこうした「業務委託先」が持ち込むデバイスを従業員用ネットワークと分けて管理し、許可されていない端末の接続を防ぐことが必須の課題だ。この仕組みを実現しているのがソフトクリエイトの不正端末検知システム「L2Blocker」だ。</p>
+				<ul>
+					<li class="label-icon">セキュリティ</li><li class="label-icon">L2Blocker</li><li class="label-icon">不正端末検知</li>
+				</ul>
+			</a>
+			
+		</div>
+	</div>
+	<div class="btnMore"><a href="/case">MORE</a></div>
+
+</section>
+
+	<section id="newsAndTopics">
+		<div id="boxNews">
+		
+		<div id="boxNews" class="forcms_block">
+<h2>NEWS</h2>
+<p class="sub">ニュースリリース</p>
+
+<div class="contents">
+      
+      <div>
+
+      <a href="http://www.softcreate.co.jp/news/detail/60""  onmousedown="_gaq.push(['_trackEvent', 'news', 'news', '20170724']);"  class="panel-box">
+        <p class="date">2017.07.24</p>
+        <p class="text-base">エンドポイントのクラウド型セキュリティサービス「ウイルスバスター ビジネスセキュリティサービス Provided by SCCloud」を提供開始</p>
+      </a>
+
+      </div>
+      
+      <div>
+
+      <a href="http://www.softcreate.co.jp/news/detail/59""  onmousedown="_gaq.push(['_trackEvent', 'news', 'news', '20170425']);"  class="panel-box">
+        <p class="date">2017.07.12</p>
+        <p class="text-base">“働き方改革”がテーマのイベント『Cloud Summit 2017 in cybozu』を開催</p>
+      </a>
+
+      </div>
+      
+      <div>
+
+      <a href="http://www.softcreate.co.jp/news/detail/58""  onmousedown="_gaq.push(['_trackEvent', 'news', 'news', '20170525']);"  class="panel-box">
+        <p class="date">2017.05.25</p>
+        <p class="text-base">不正アクセス検知・遮断システム「L2Blocker」機能を強化したVer.4.7.1を5月31日リリース</p>
+      </a>
+
+      </div>
+      
+      <div>
+
+      <a href="http://www.softcreate.co.jp/news/detail/57""  onmousedown="_gaq.push(['_trackEvent', 'news', 'news', '20170524']);"  class="panel-box">
+        <p class="date">2017.05.24</p>
+        <p class="text-base">端末にデータを残さない安心・安全なリモートアクセス「CACHATTO on SCCloud」を6月1日提供開始</p>
+      </a>
+
+      </div>
+      
+      <div>
+
+      <a href="http://www.softcreate.co.jp/news/detail/56""  onmousedown="_gaq.push(['_trackEvent', 'news', 'news', '20170425']);"  class="panel-box">
+        <p class="date">2017.04.25</p>
+        <p class="text-base">「2017 Japan IT Week 春」出展のお知らせ</p>
+      </a>
+
+      </div>
+      
+<div class="btnMore"><a href="/news">MORE</a></div>
+</div>
+
+</div>
+		</div>
+		<div id="boxTopics">
+		
+		<div id="boxTopics" class="forcms_block">
+<h2>TOPICS</h2>
+<p class="sub">トピックス</p>
+<div class="contents">
+
+<div class="contents">
+      
+      <div>
+
+      <a href="http://www.softcreate.co.jp/seminar/detail/205"  class="panel-box">
+        <p class="date">2017.08.18<span class="label-icon">セミナー
+</span></p>
+        <p class="text-base">新卒採用実績が3倍アップしたってホント！？ を2017年8月29日（火）に開催いたします。</p>
+      </a>
+
+      </div>
+      
+      <div>
+
+      <a href="http://www.softcreate.co.jp/seminar/detail/202"  class="panel-box">
+        <p class="date">2017.08.15<span class="label-icon">セミナー
+</span></p>
+        <p class="text-base">Office 365 まるわかりセミナー を2017年8月24日（木）に開催いたします。</p>
+      </a>
+
+      </div>
+      
+      <div>
+
+      <a href="http://www.softcreate.co.jp/seminar/detail/204"  class="panel-box">
+        <p class="date">2017.08.14<span class="label-icon">セミナー
+</span></p>
+        <p class="text-base">AI&#215;可視化&#215;遮断で未知の攻撃に対策せよ！ を2017年8月25日（金）に開催いたします。</p>
+      </a>
+
+      </div>
+      
+      <div>
+
+      <a href="http://www.softcreate.co.jp/seminar/detail/207"  class="panel-box">
+        <p class="date">2017.08.10<span class="label-icon">セミナー
+</span></p>
+        <p class="text-base">サイバー攻撃時代に、企業が今すべきこと を2017年8月23日（水）に開催いたします。</p>
+      </a>
+
+      </div>
+      
+      <div>
+
+      <a href="http://www.softcreate.co.jp/topics/detail/213"  class="panel-box">
+        <p class="date">2017.08.07<span class="label-icon">セミナー
+</span></p>
+        <p class="text-base">仮想化フェス 2017 夏！ を2017年8月16日（水）に開催いたします。</p>
+      </a>
+
+      </div>
+      
+<div class="btnMore"><a href="/topics">MORE</a></div>
+</div>
+
+</div>
+		</div>
+	</section>
+</main>
+<footer>
+	<div class="forcms_block"><section id="boxContact">
+<div class="contents">
+<div class="txt">
+<div class="title">CONTACT<span>US</span></div>
+
+<p class="lead">ご予算や事業規模にあった製品の選び方から<br>
+導入サポートまで分かりやすくご案内いたします！</p>
+
+<p class="tel">03-3486-1520</p>
+
+<p class="telAdd">受付時間　9:00～18:00（平日）</p>
+</div>
+<!-- // .txt -->
+
+<ul class="boxBtn">
+<li class="btnWeb"><a href="/contact">WEBからのお問い合わせ</a></li>
+<li class="btnDl"><a href="/catalog/download">カタログダウンロード</a></li>
+</ul>
+
+<div id="boxFacebook">
+<div class="like-box">
+<div class="fb-page" data-adapt-container-width="false" data-height="130" data-hide-cover="false" data-href="https://www.facebook.com/softcreate.jp" data-show-facepile="false" data-show-posts="false" data-small-header="false" data-width="260"></div>
+</div>
+</div>
+<!-- // .fb-page --></div>
+<!-- // #boxFacebook --><!-- // .contents --></section>
+<!-- // #boxContact --></div>
+	<div class="forcms_block"><div id="boxFnavi">
+<ul>
+<li><a href="/">HOME</a></li>
+<li><a href="/service">サービス・ソリューション</a></li>
+<li><a href="/seminar">イベント・セミナー</a></li>
+<li><a href="/case">導入・活用事例</a></li>
+<li><a href="/corporate">企業情報</a></li>
+<li><a href="/recruit/">採用情報</a></li>
+<!--<li><a href="/ir/">IR情報</a></li>-->
+</ul>
+</div>
+<!-- // #boxFnavi -->
+
+<div id="boxCopyright">
+<div class="contents">
+<div class="logo"><a href="/"><img alt="株式会社ソフトクリエイトロゴ" height="32" src="/cms/images/common/logo.png" width="247"> </a>
+
+<p><a href="/">株式会社ソフトクリエイト</a></p>
+</div>
+
+<div class="btnPagetop"><a href="#headerIn"><img height="28" src="/cms/images/common/btn_pagetop.svg" width="58"></a></div>
+</div>
+<!-- // .contents -->
+
+<div class="contents">
+<div class="logo"><a href="http://www.softcreate-holdings.co.jp/" target="_blank"><img alt="東証一部上場　ソフトクリエイトホールディングス" src="/cms/images/common/logo_holdings.png"></a></div>
+
+<ul>
+<li><a href="/aboutsite">このサイトについて</a></li>
+<li><a href="/privacy">個人情報保護について</a></li>
+</ul>
+
+<p class="copyright">copyright &copy; SOFTCREATE CORP. All Rights Reserved.</p>
+</div>
+<!-- // .contents --></div>
+<!-- // #boxCopyright --><!-- HPF --><script type="text/javascript">
+var _paq = _paq || [];
+_paq.push(["trackPageView"]);
+_paq.push(["enableLinkTracking"]);
+
+(function() {
+var u=(("https:" == document.location.protocol) ? "https" : "http") +
+"://wa2.hot-profile.com/005034/";
+_paq.push(["setTrackerUrl", u+"005034.php"]);
+_paq.push(["setSiteId", "32987564"]);
+var d=document, g=d.createElement("script"),
+s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+g.defer=true; g.async=true; g.src=u+"005034.js";
+s.parentNode.insertBefore(g,s);
+})();
+</script><!-- End HPF Code --></div>
+</footer>
+<script src="/cms/js/top/megamenu.js"></script>
+<div id="/cms/fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.5";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+</body>
+</html>
+

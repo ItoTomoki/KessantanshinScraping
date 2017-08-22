@@ -1,0 +1,667 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ja" xml:lang="ja" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta name="description" content="神戸物産では業務用食材の販売を行う業務スーパーを展開しています" />
+<meta name="keywords" content="神戸物産,業務スーパー,FC加盟,業務用食材" />
+
+<!-- Javascript -->
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.rollover.js"></script>
+<script type="text/javascript" src="js/smooth.pack.js"></script>
+<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="js/jquery.Pc2Sp.js"></script>
+<script type="text/javascript" src="js/lightbox.js"></script>
+<script type="text/javascript" src="js/jquery.colorbox.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
+
+ 
+<!-- CSS -->
+<link rel="stylesheet" type="text/css" href="css/common.css" media="all" />
+<link rel="stylesheet" type="text/css" href="css/home.css" media="all" />
+<link rel="stylesheet" type="text/css" href="css/lightbox.css" media="all" />
+<link rel="stylesheet" type="text/css" href="css/print_top.css" media="print" />
+<link rel="stylesheet" type="text/css" href="css/colorbox.css" media="all" />
+<link rel="stylesheet" type="text/css" href="css/slider.css" media="all" /
+
+<link rel="alternate" type="application/rss+xml" title="RSS" href="http://www.kobebussan.co.jp/rss/ir_news.xml" />
+<link rel="alternate" type="application/rss+xml" title="RSS" href="http://www.kobebussan.co.jp/rss/new_shop.xml" />
+<link rel="alternate" type="application/rss+xml" title="RSS" href="http://www.kobebussan.co.jp/rss/newitem.xml" />
+
+<title>食品業として日本最大の製販一体企業 神戸物産</title>
+
+  <script type="text/javascript">
+
+$.switchPc2Sp({
+	mode : "pc" ,
+	spLinkBlockInPc : "#spLinkBlockInPc" , 
+	anchorToPcInSp : "#anchorToPcInSp"
+});
+
+</script>
+<script>
+    $(document).ready(function(){
+        $(".youtube").colorbox({iframe:true, innerWidth:640, innerHeight:390});
+        
+    });
+</script>
+<script>
+	$(function(){
+  var slider = $('#slider2').bxSlider({
+		auto: true,
+		pause: 5000,
+		speed: 1000,
+		mode: 'horizontal',
+		prevText: '<',
+		nextText: '>',
+		controls: false,
+		pager: true,
+		pagerCustom: '.bx-pager'
+		});
+	});
+</script>
+<style type="text/css">
+<!--
+.style1 {color: #990000}
+-->
+
+#spLinkBlockInPc{
+	display:none;
+}
+
+</style>
+</head>
+
+<body>
+<a name="top" id="top"></a>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.7";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<!-- [Container]-->
+<div id="container">
+ 
+  <!-- [Header]-->
+  <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-26333967-6']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+  
+</script>
+<div id="spLinkBlockInPc" style="text-align:center;border-bottom:5px solid #FFF;border-top:10px solid #CC0068;background-color:#009758;padding: 5px 0;">
+	<a href="sp/index.php" id="anchorToSpInPc"><img src="images/sp_btn.png" alt="スマートフォンサイトはこちらから" /></a>
+</div>
+  <div id="header-area" class="clearfix"> 
+    <h1 style="float:left;"><a href="../"><img src="../img/common/sitelogo.gif" width="220" height="60" alt="プロの品質とプロの価格　業務スーパー" class="left" /></a></h1>
+    <div><img src="img/home/top_kobebussan.png" alt="株式会社神戸物産" class="left" /></div>
+    
+    <div class="header-utility clearfix"> 
+      <ul>
+        <li><a href="../company/"><img src="../img/common/head_uti01.gif" width="62" height="14" alt="会社案内" class="swap" /></a></li>
+        <li><a href="../ir/"><img src="../img/common/head_uti03.gif" width="51" height="14" alt="IR情報"  class="swap" /></a></li>
+        <li><a href="../recruit/"><img src="../img/common/head_uti04.gif" width="62" height="14" alt="採用情報"  class="swap" /></a></li>
+        <li><a href="../opinion/"><img src="../img/common/head_uti05.gif" width="61" height="14" alt="お問い合わせ"  class="swap" /></a></li>
+      </ul>
+    </div><!-- end header-utility -->
+    <div class="language" style="float:right;width:450px;margin-right:20px;"> 
+      <ul style="float:right;">
+        <li><a href="../english/"><img src="../img/common/head_en.gif" width="80" height="16" alt="English" class="swap" /></a></li>
+        <li><a href="../chinese/"><img src="../img/common/head_ch.gif" width="80" height="16" alt="中文"  class="swap" /></a></li>
+      </ul>
+    </div><!-- end language -->
+  </div>
+
+  <!-- [/Header] -->
+
+
+    <div class="globalmenu clearfix"> 
+
+      <ul class="menu clearfix">
+        <li><a href="./"><img src="img/common/mainmenu01_now.jpg" width="138" height="35" alt="トップページ" class="swap" /></a></li><!--
+        --><li><a href="gs/"><img src="img/common/mainmenu02.jpg" width="172" height="35" alt="業務スーパーについて" class="swap" /></a></li><!--
+        --><li><a href="shop/"><img src="img/common/mainmenu03.jpg" width="138" height="35" alt="店舗案内" class="swap" /></a></li><!--
+        --><li><a href="fc/"><img src="img/common/mainmenu04.jpg" width="138" height="35" alt="加盟店募集" class="swap" /></a></li><!--
+        --><li><a href="item/"><img src="img/common/mainmenu05.jpg" width="138" height="35" alt="商品案内" class="swap" /></a></li><!--
+        --><li><a href="recipe/"><img src="img/common/mainmenu06.jpg" width="138" height="35" alt="レシピ" class="swap" /></a></li>
+      </ul>
+
+
+     <div class="mainimgarea">
+     
+     <div id="slider">
+     		<div class="visual_in">
+     				<div style="text-align:center;"><img src="img/common/movieinfo_cap.png" alt="最新News ＆ Topics" /></div>
+     				<div><a class="youtube" href="https://www.youtube.com/embed/xqlH7cPfkis" title="安全安心を守る！業務スーパーの挑戦　品質管理編"><img src="img/common/movie_img.png" alt="top" /></a></div>
+     				<div class="newsbox">
+     				<dl>
+     				<dt>2017.08.19 【業務スーパー関連】</dt><dd><a href="saiyasune.php" target="_blank">お得なWEBチラシを更新しました。</a></dd>
+     				<dt>2015.03.13 【業務スーパー関連】</dt><dd>テレビ東京「たけしのニッポンのミカタ！」（知られざる日本一に潜入ＳＰ）で業務スーパーが紹介されました。</dd>
+     				<dt>2015.03.01 【エコ再生エネルギー関連】</dt><dd><a href="eco/index.php">テレビ北海道「けいざいナビ北海道」で神戸物産の温泉エコハウスなどが紹介されました。</a></dd>
+     				<dt>2015.02.27 【業務スーパー関連】</dt><dd><a href="item/list.php?gc_id=56">びわ湖放送「勇さんのびわ湖カンパニー」で業務スーパーのハラール商品が紹介されました。</a></dd>
+     				<dt>2015.02.25 【業務スーパー関連】</dt><dd><a href="item/index.php">日本テレビ「ヒルナンデス！」で業務スーパーのお得商品が紹介されました。</a></dd>
+     				
+     				<dt>2015.02.12</dt><dd><a href="eco/index.php">エコ再生エネルギー事業ページを公開しました。</a></dd>
+     				<dt>2015.02.12</dt><dd><a href="overseas/index.php">海外事業ページを公開しました。</a></dd>
+     				<dt>2015.01.12</dt><dd><a class="youtube" href="https://www.youtube.com/embed/DXDnpM2ngRk" title="神戸物産の挑戦vol2">観光立国日本の実現へ！‐神戸物産の挑戦（大分・北海道編vol2）‐動画を更新しました。</a></dd>
+     				</dl>
+     				</div>
+     		</div>
+						<div class="bg_img">
+							<ul id="slider2" class="slider">
+							<li><img src="img/common/top01.jpg" alt="top" /></li>
+							<!--<li><a href="sale2/"><img src="img/common/top01.jpg" alt="円安だけど還元セール" /></a></li>-->
+							<li><img src="img/common/top11.jpg" alt="毎日即戦力。" /></li>
+							<li><img src="img/common/top13.jpg" alt="爆弾価格" /></li>
+							<li><a href="child_ad.php"><img src="img/common/top12.jpg" alt="第5回朝日新聞「今日は子どもの日だから」子どもの「子ども広告」。作品発表！" /></a></li>
+							<li><a href="recipe/koubo_recipe.php"><img src="img/common/top03.jpg" alt="公募レシピ結果発表" /></a></li>
+							<li><a href="http://www.kobebussan.co.jp/saiyasune.php" target="_blank"><img src="img/common/top05.jpg" alt="日本最安値に挑戦します！" /></a></li>
+							<li><a href="item/list.php?gc_id=56"><img src="img/common/top06.jpg" alt="ハラールフード" /></a></li>
+							<li><a href="gs/safety.html"><img src="img/common/top07.jpg" alt="安全安心の取り組み" /></a></li>
+							</ul>
+						<div class="bx-pager">
+							<a data-slide-index="0" href=""><img src="img/common/thumb_01.png" /></a>
+							<a data-slide-index="1" href=""><img src="img/common/thumb_11.png" /></a>
+							<a data-slide-index="2" href=""><img src="img/common/thumb_13.png" /></a>
+							<a data-slide-index="3" href=""><img src="img/common/thumb_12.png" /></a>
+							<a data-slide-index="4" href=""><img src="img/common/thumb_03.png" /></a>
+							<a data-slide-index="5" href=""><img src="img/common/thumb_05.png" /></a>
+							<a data-slide-index="6" href=""><img src="img/common/thumb_06.png" /></a>
+							<a data-slide-index="7" href=""><img src="img/common/thumb_07.png" /></a>
+							
+						</div>
+						
+						</div>
+			<!-- /#slider --></div>
+
+     
+     
+     </div><!--end mainimgarea-->
+
+    </div><!--end globalmenu-->
+
+
+  <!-- [Contents] -->
+  <div id="contents-area" class="clearfix"> 
+
+	<div class="buttonmenu clearfix">
+		<div>
+		<a href="gs/"><img src="img/home/buttonmenu01.jpg" alt="業務スーパーについて" class="swap left" /></a>
+		<a href="recipe/"><img src="img/home/buttonmenu03.jpg" alt="レシピ" class="swap right" /></a>	
+		<a href="item/"><img src="img/home/buttonmenu02.jpg" alt="商品案内" class="swap b-center" /></a>
+		</div>
+		
+		<div>
+		<a href="gs/safety.html"><img src="img/home/buttonmenu04.jpg" alt="安全安心の取り組み" class="swap left" /></a>
+	  <a href="opinion/"><img src="img/home/buttonmenu06.jpg" alt="お客様相談室" class="swap right" /></a>
+		<a href="secret/index.html"><img src="img/home/buttonmenu05.jpg" alt="安さの秘密" class="swap b-center" /></a>
+		</div>
+    </div><!--end buttonmenu-->
+	
+
+    <!-- [SideMenu] -->
+    <div id="submenu-area"> 
+      <div class="submenu">
+      <!--
+      <div style="margin: 0 0 10px;border: 1px solid #CCC;">
+      <div class="fb-page" data-href="https://www.facebook.com/KobebussanRecruit/" data-tabs="timeline" data-width="200" data-height="400" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/KobebussanRecruit/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/KobebussanRecruit/">株式会社神戸物産（採用）</a></blockquote></div></div>
+      </div>
+      	-->
+      
+      
+      	<div class="challenge_box">
+      	<div><img src="upload/banner/side_title.png" alt="神戸物産の挑戦！"></div>
+      	<div><a class="youtube" href="https://www.youtube.com/embed/NMiQYSuCBng" title="砂漠・緑化で飢餓を救う！？"><img src="upload/banner/movie1_bnr.png" alt="砂漠・緑化で飢餓を救う！？"></a></div>
+      	<div><a class="youtube" href="https://www.youtube.com/embed/DXDnpM2ngRk" title="神戸物産の挑戦vol2"><img src="upload/banner/movie2_bnr.png" alt="神戸物産の挑戦vol2"></a></div>
+      	<div><a href="eco/index.php"><img src="upload/banner/eco_bnr.png" alt="エコ再生エネルギー事業"></a></div>
+      	<div><a href="overseas/index.php"><img src="upload/banner/overseas_bnr.png" alt="海外事業ニューヨーク"></a></div>
+      	<div class="vissel_movie"><a class="youtube" href="https://www.youtube.com/embed/nPv5yBGXHVw" title="業務スーパーがヴィッセル神戸のオフィシャルスポンサーに！？"><img src="upload/banner/spacer.gif" width="200" height="87" alt="スポーツ支援・協賛"></a></div>
+      	</div>
+        <ul>
+        
+        <!--
+          <li><a class="youtube" href="http://www.youtube.com/embed/NMiQYSuCBng" title="砂漠・緑化で飢餓を救う！？"><img src="upload/banner/egypt_bnr.jpg" alt="砂漠・緑化で飢餓を救う！？"></a></li>
+          
+          <li><a class="youtube" href="http://www.youtube.com/embed/DXDnpM2ngRk" title="神戸物産の挑戦vol2"><img src="upload/banner/challenge_bnr.jpg" alt="神戸物産の挑戦vol2"></a></li>
+          
+ 
+ 
+          <li><a href="../images/sixth_industry.pdf" target="_blank"><img src="../upload/banner/sixth_industry_bnr.jpg" width="200" alt="第六次産業" /></a></li>
+          -->
+          <!--<li><a href="../images/chicken_recipe.pdf" target="_blank"><img src="../upload/banner/chicken_recipe_bnr.jpg" width="200" alt="おいしくて簡単な鶏肉レシピ" /></a></li>-->
+          <!--<li><a href="../images/saiyasune.pdf" target="_blank" onClick="_gaq.push(['_trackEvent','download','click','saiyasune']);"><img src="../upload/banner/9_b_saiyasune.jpg" alt="日本最安値に挑戦します！" /></a></li>-->
+          <!--
+           <li><a href="http://www.kobebussan.co.jp/saiyasune.php" target="_blank"><img src="../upload/banner/9_b_saiyasune.jpg" alt="日本最安値に挑戦します！" /></a></li>
+          
+          
+          <li><a href="http://www.greensk.jp/" target="_blank"><img src="../upload/banner/4_banner_greensk.jpg" width="200" alt="グリーンズK" /></a></li>
+          -->
+          <li><a href="http://www.kobebussan-eco-h.co.jp/" target="_blank"><img src="../upload/banner/21_egh_bunner.jpg" width="200" alt="神戸物産エコグリーン北海道" /></a></li>
+          
+          <li><a href="gsjdf/index.html" target="_blank"><img src="gsjdf/images/gsjdf_banner.jpg" title="公益財団法人 業務スーパージャパンドリーム財団" alt="公益財団法人 業務スーパージャパンドリーム財団" /></a></li>
+          
+          
+          
+          <li><a href="../opinion/shohin.html" target="_self"><img src="../upload/banner/20_opinion_shohin.jpg" width="200" alt="新規お取引業者様大募集" /></a></li>
+          
+          <li><a href="../fc/" target="_self"><img src="../upload/banner/2_sidebanner03.jpg" width="200" alt="FC加盟店募集" /></a></li>
+          
+          <li><a href="../opinion/article.html" target="_self"><img src="../upload/banner/3_bukken.jpg" width="200" alt="物件情報募集中" /></a></li>
+          
+          <li><a href="m/"><img src="../upload/banner/19_mobile.jpg" width="200" alt="モバイルページ" /></a></li>
+          
+          <li><a href="https://www.vissel-kobe.co.jp/" target="_blank"><img src="upload/banner/vissel_bnr.png" width="200" alt="業務スーパーはヴィッセル神戸を応援しています。" /></a></li>
+          
+          <!--<li><a href="http://www.rakuten.co.jp/eco-hokkaido/" target="_blank" onClick="_gaq.push(['_trackEvent','link','click','rakuten']);"><img src="../upload/banner/38_banner_ecog_farm.jpg" width="200" alt="北海道野菜のエコグリーンファーム" /></a></li>-->
+          
+          
+        </ul>
+        
+      </div><!--end submenu-->
+    </div>
+    <!-- [/SideMenu] -->
+
+
+    <!-- [Main] -->
+    <div id="main-area"> 
+    <!--
+    <div class="fair_end">
+    <p>2012年10月31日をもちまして「世界の本物直輸入1,000品目突破フェア」は終了いたしました。<br />
+    グルメツアー並びにお米・ノンアルコールビールプレゼントにつきましては、たくさんのご応募をいただき誠にありがとうございました。厳正なる抽選によりグルメツアープレゼントは<span style="color:#FF0000;font-weight:bold;">43,453通</span>のご応募から4名様（千葉県・奈良県・兵庫県・大阪府にお住まいの方々）がご当選されました。各プレゼントのご当選者様には、当選ハガキにてご連絡をさせていただきました。<br />今後も引き続き業務スーパーをご愛顧賜りますよう宜しくお願い申し上げます。</p>
+    </div>-->
+    
+	<iframe src="item/feature/index.php" frameborder="0" scrolling="no" style="border:0;padding:0;margin-bottom:10px;" width="640" height="240">
+		この部分は iframe 対応のブラウザで見てください。
+	</iframe>
+	
+<!--       <a href="../recipe/koubo.php"><img src="img/common/top_e_recipe.jpg" width="640" height="135" alt="節約レシピ大募集" /></a>	-->
+
+<!--<a href="item/list2.php?gc_id=90"><img src="images/banner_easy.jpg" width="640" height="100" alt="簡単便利シリーズ" style="margin-bottom:7px" /></a>-->
+<!--
+<a href="recipe/koubo_recipe.php"><img src="img/recipe/recipe_koubo_bnr.jpg" width="640" height="100" alt="冷凍野菜レシピグランプリ" style="margin-bottom:7px" /></a>
+<a href="images/201501.pdf" target="_blank"><img src="images/banner_osusume.jpg" width="640" height="100" alt="今月の店長おすすめ商品！" style="margin-bottom:7px" /></a>
+-->
+<!--
+<a href="item/list.php?gc_id=95">
+<img src="upload/goods/category/95_list_bbq_bnr.jpg" alt="春イベントのおすすめ商品特集" style="margin-bottom:7px" />
+</a>-->
+<!--
+<a href="item/list.php?gc_id=56"><img src="images/banner_halal.jpg" width="640" height="100" alt="ヘルシーフードとしても注目！ ハラール食品を全国の業務スーパーで販売中！" title="ヘルシーフードとしても注目！ ハラール食品を全国の業務スーパーで販売中！" style="margin-bottom:2px"/></a>
+<a href="english/item/index.php?ic_id=56" target="_blank"><img src="upload/banner/halal_eng_bnr.jpg" width="640" height="31" alt="ENGLISH PAGE OF HALAL FOODDS IS AVAILABLE HERE." title="ENGLISH PAGE OF HALAL FOODDS IS AVAILABLE HERE." style="margin-bottom:7px"/></a>
+-->
+
+
+<!--
+<span style="color:#ff0000;font-size:120%"><b>東日本大震災で被災された皆様へ</b></span>
+<a href="shien/index.html" target="_blank"><img src="img/common/bunner_shien_kb.gif" width="640" height="100" alt="神戸物産グループの復興支援について" style="margin-bottom:7px"/></a>
+<a href="http://www.kobebussan-eco-h.co.jp/" target="_blank"><img src="img/common/bunner_shien_kb2.gif" width="640" height="64" alt="神戸物産エコグリーン北海道の復興支援について" style="margin-bottom:7px"/></a>-->
+<!--<a href="http://uf.kobebussan.co.jp/" target="_blank"><img src="img/common/top_netshop_banner.jpg" width="640" height="140" alt="やわらか食感シリーズ" /></a>-->
+
+<!--<a href="http://www.kobebussan-eco-h.co.jp/farmtrainee/" target="_blank">
+	<img src="images/kobe_bnr.jpg" width="640" height="100" title="エコグリーン北海道 農業体験者募集中！" alt="エコグリーン北海道 農業体験者募集中！" style="margin-bottom:7px" />
+</a>-->
+<!--
+<a href="gsjdf/index.html" target="_blank">
+	<img src="images/gsjdf_bnr.jpg" width="640" height="100" title="公益財団法人 業務スーパージャパンドリーム財団" alt="公益財団法人 業務スーパージャパンドリーム財団" style="margin-bottom:7px" />
+</a>
+-->
+<!--
+<a href="../factory_item/" target="_blank">
+	<img src="img/common/otamesi.jpg" width="640" height="100" alt="お試しセール" style="margin-bottom:7px" />
+</a>
+<a href="../factory_meat/" target="_blank">
+	<img src="img/common/top_meat.jpg" width="640" height="100" alt="赤字覚悟の大セール" style="margin-bottom:7px" />
+</a>-->
+<!--<img src="img/common/top_kessan_bunner.jpg" width="640" height="141" alt="決算セール" />-->
+<img src="img/common/spacer.gif" width="1" height="7" alt="" />
+<!--<a href="../images/11flier.pdf" target="_blank"><img src="img/common/seitan11.jpg" width="640" height="145" alt="生誕11周年" /></a>
+<img src="img/common/spacer.gif" width="1" height="7" alt="" />-->
+      <h3><img src="img/home/info_title.gif" width="640" height="46" alt="Information　お知らせ" /></h3>
+      <div class="top_info"> 
+		<p class="intro">おかげさまで「業務スーパー」はキャッシュ＆キャリー店舗数と国内自社食品工場数で日本一になる事ができました。<br />
+		今後も「六次産業、『真』の製販一体」体制の強化を図り、安全安心な商品をベストプライスでご提供できるよう努めて参ります。</p>
+		<!--
+		<img src="img/home/safe_cap01.gif" width="620" height="5" alt="" class="cap" />
+		<div class="safe clearfix">
+		  <img src="img/home/safe_img.jpg" width="150" height="90" alt="" class="left" />
+		  <p class="left">神戸物産では、国の検査基準を遵守しながら、自主的に冷凍野菜・果実および一部の加工品については、毎年、原料の収穫に合わせて残留農薬の検査を実施し、安全性を確認した食品のみを販売させていただきます。また、農薬検査結果を随時公開いたしております。</p>
+		  <a href="gs/pesticide.php"><img src="img/home/safe_button.jpg" width="206" height="24" alt="" class="swap s_b" /></a>
+        </div>
+		<img src="img/home/safe_cap02.gif" width="620" height="5" alt="" class="cap" />
+		--><!--end safe-->
+
+	   <div class="info_box">
+		 
+	   <dl class="info clearfix">
+		 
+		  <dt>2017年07月27日</dt>
+		  <dd style="line-heihgt:1.5em;"><strong style="font-size:120%;">商品回収に関するお詫びとお知らせ</strong>
+		  <p>ご迷惑をお掛け致しますが、冷凍グリーンピース（ポーランド産）の回収にご協力をお願い致します。<br />
+		  
+		  回収方法等、詳細は<span style="color: #0000ff"><strong><a href="upload/info/info_170727.jpg" rel="lightbox" title="商品回収に関するお詫びとお知らせ"><span style="color: #0000ff">こちら</span></a></strong></span>をご確認ください。</p></dd>
+		 </dl>
+		 
+	   <dl class="info clearfix">
+		 
+		  <dd style="width:565px;line-heihgt:1.5em;clear:both;">
+		  
+		 <strong style="font-size:120%;color:#FF0000;">【業務スーパー】「円高還元セール＆決算セール」終了のお知らせ</strong><br />
+		  <p>この度9月1日から10月31日まで開催しておりましたセールが終了いたしました。<br />
+		  セール期間中はたくさんのお客様にご来店いただき誠にありがとうございました。<br />
+		  セールは期間は終了しましたが、業務スーパーでは今月も、お客様の毎日の即戦力となる様なお買い得商品を多数ご用意しておりますので、店頭のぼりやPOPをご確認の上、是非この機会にお買い求めくださいませ。<br />
+		  従業員一同、引き続きのご来店心よりお待ちしております。</p>
+		  <div style="text-align:center;"><img src="upload/info/yen_reduction_end.jpg" alt="【業務スーパー】「円高還元セール＆決算セール」は終了しました。" /></div></dd>
+		 </dl>
+		 <!--
+	   <dl class="info clearfix">
+		 
+		  <dd style="width:565px;line-heihgt:1.5em;clear:both;">
+		  
+		  <a href="sale2/" title="業務スーパー決算セール開催" target="_blank"><img src="upload/info/closing_sale_logo.jpg" alt="" style="float:right;" /></a><strong style="font-size:120%;color:#FF0000;">【10日間限定！】<br />業務スーパー決算セール開催のお知らせ</strong><br />
+		  <p>業務スーパーでは現在10月31日（月）まで「円高還元SALE」を実施しておりますが、この「決算SALE」ではお客様に人気の高い商品を中心に、約150品を追加で値下げいたします。<br />
+		  業務スーパーで常に売上上位にランクインする「ブラジル産鶏もも正肉」、野菜の価格高騰を受けて注目を集めている「冷凍野菜」のほか、お米やお菓子など、様々な商品を「目玉商品」としてセール価格でご用意いたします。<br />
+		  是非ご来店のうえ、お買い求めくださいませ！<br />
+		  <br />
+		  ＜決算セール期間　10日間限定！＞<br />
+		  2016/10/22（土）～2016/10/31（月）<br />
+		  <br />
+		  ＜決算セール対象店舗＞<br />
+		  決算SALEの開催地域は近畿2府4県（淡路島除く）、関東1都3県、北海道です。<br />
+		  <br />
+		  ※セール商品の価格や取り扱いは店舗や地域により異なる場合がございます。<br />
+		  ※価格は事情により変動することがございます。また販売状況により欠品となる場合がございます。万が一品切れの際はご容赦ください。</p></dd>
+		 </dl>
+		 
+	   <dl class="info clearfix">
+		 
+		  <dd style="width:565px;line-heihgt:1.5em;clear:both;">
+		  
+		  <a href="sale/" title="業務スーパー円高還元セール" target="_blank"><img src="upload/info/yen_reduction_logo.png" alt="" style="float:right;" /></a><strong style="font-size:120%;color:#FF0000;">【最高のコスパ体感してや！】業務スーパー<br />円高還元セール第一弾 9月1日からSTART！！</strong><br />
+		  <p>業務スーパーでは日頃の皆様のご愛顧に感謝を込めて9月1日～10月31日までの2ヶ月間セールを開催いたします。<br />
+		  バイヤーが集めた世界の逸品をはじめ、国内自社工場で製造した商品など、約150アイテムを特価でご用意させていただいております。<br />
+		  是非ご来店のうえ、お買い求めくださいませ！従業員一同、皆様のご来店を心よりお待ちしております。<br />
+		  <br />
+		  ＜セール期間＞<br />
+		  セール第一弾2016/9/1（木）～2016/9/30（金）<br />
+		  セール第二弾2016/10/1（日）～2016/10/31（月）<br />
+		  <br />
+		  ＜セール対象店舗＞<br />
+		  全国の業務スーパー各店<br />
+		  <br />
+		  ※セール商品や価格の詳細は<a href="sale/"><strong style="color:#FF0000;">特設ページ</strong></a>にて公開！ <br />
+		  ※セール商品の価格や取り扱いは店舗や地域により異なる場合がございます。<br />
+		  ※価格は事情により変動することがございます。また販売状況により欠品となる場合がございます。万が一品切れの際はご容赦ください。</p></dd>
+		 </dl>
+		 
+		 
+	   <dl class="info clearfix">
+		 
+		  <dt>2016年09月02日</dt>
+		  <dd style="line-heihgt:1.5em;"><strong style="font-size:120%;">商品回収に関するお詫びとお知らせ</strong>
+		  <p>ご迷惑をお掛け致しますが、おろしにんにくの回収にご協力をお願い致します。<br />
+		  
+		  回収方法等、詳細は<span style="color: #0000ff"><strong><a href="upload/info/info_160902.jpg" rel="lightbox" title="商品回収に関するお詫びとお知らせ"><span style="color: #0000ff">こちら</span></a></strong></span>をご確認ください。</p></dd>
+		 </dl>
+
+		 -->
+		 
+		 
+		 
+		 
+		 <!--
+		 
+		 <dl class="info clearfix">
+		 
+		  <dt>2016年08月05日</dt>
+		  <dd style="line-heihgt:1.5em;"><strong style="font-size:120%;">商品回収に関するお詫びとお知らせ</strong>
+		  <a href="upload/info/info_160805.jpg" rel="lightbox" title="商品回収に関するお詫びとお知らせ"><img src="upload/info/info_160805_s.jpg" alt="" style="float:right;margin-left:5px;" /></a>
+		  <p>ご迷惑をお掛け致しますが、下記対象商品の回収にご協力をお願い致します。<br />
+		  <strong style="color:#FF0000;">対象商品①：ビビンバ300g<br />規格：300g<br />
+		  JANコード：4942355056348<br />
+		  対象商品②：ビビンバ1kg<br />規格：1kg<br />
+		  JANコード：4942355056355<br />
+		  回収理由：一部の商品に自主基準値の逸脱があったため。<br />
+		  【対象ロット】<span style="font-size:90%;">賞味期限：2017年3月まで</span></strong><br />
+		  健康におよぼす影響について：これまでに健康被害の申し出はありませんが、細菌が増殖した際に健康に影響をおよぼす可能性があります。<br />
+		  回収方法等、詳細は<span style="color: #0000ff"><strong><a href="upload/info/info_160805.jpg" rel="lightbox" title="商品回収に関するお詫びとお知らせ"><span style="color: #0000ff">こちら</span></a></strong></span>をご確認ください。</p></dd>
+		 </dl>
+		 
+		 <dl class="info clearfix">
+		  <dt>2016年04月01日</dt>
+		  <dd><strong>【業務スーパー】国内自社食品工場数　日本一感謝セール終了のお知らせ</strong>
+		  <img src="upload/info/info_20160201.png" alt="" style="float:right;margin-left:5px;" />
+		  <p>この度2月1日から3月31日まで開催しておりましたセールが終了いたしました。<br />
+		  セール期間中はたくさんのお客様にご来店いただき誠にありがとうございました。<br />
+		  セールは期間は終了しましたが、今月もお客様の毎日の即戦力となる様な、お買い得商品（「日本最安値に挑戦商品」「品質と価格　世界一に挑戦商品」「行楽のお供の即戦力」）を多数ご用意しておりますので、店頭のぼりやPOPをご確認の上、是非この機会にお買い求めくださいませ。<br />
+		  従業員一同、引き続きのご来店心よりお待ちしております。</p></dd>
+		 </dl>
+		 
+		 <dl class="info clearfix">
+		  <dt>2014年11月14日</dt>
+		  <dd><strong>国内自社食品工場数　日本一！！</strong>
+		  <img src="upload/info/info_20141114.jpg" alt="" style="float:right;margin-left:5px;" />
+		  <p>当社はこれまで、日本国内において自社食品工場の増強を図って参りましたが、その結果、日本国内での食品工場保有数は19となり、<strong style="color:#FF0000;">食品小売業界で「日本一」（※）になりました。</strong><br />
+		  今後も業務スーパーのお客様に安心してご利用いただだくために、国内外の工場において原材料の調達から加工、販売に至るまで一元管理できる「六次産業、『真』の製販一体」体制の強化を図り、安全安心な商品をベストプライスでご提供できるよう努めて参ります。<br />
+		  今後とも、業務スーパーをご愛顧賜ります様よろしくお願い申し上げます。<br />
+		  <span style="font-size:90%">（※大手調査機関により、食品小売業界で当社より売上規模が大きく、且つ100％出資の国内食品工場を保有している会社を対象として2014年8月に調査）</span></p>
+</dd>
+		 </dl>-->
+		 
+		 
+		 
+		 <dl class="info clearfix">
+		 
+		  <dt>2014年07月21日</dt>
+		  <dd style="line-heihgt:1.5em;"><strong style="font-size:120%;">神戸物産エジプトで小麦を収穫！動画を更新しました。</strong>
+		  <a class="youtube" href="http://www.youtube.com/embed/NMiQYSuCBng"><img src="upload/info/info_egypt.jpg" alt="" style="float:right;margin-left:5px;" /></a>
+		  <p>神戸物産エジプトは、日本単独企業として初めてエジプトの砂漠の農地化を実現しました。<br />
+		  動画では砂漠の中に広大な緑の農地が広がっている様子や、小麦を収穫している様子をご覧いただけます。<br />
+		  2014年4月にはその農地で約1,100トンの小麦を収穫！<br />
+		  収穫した小麦の一部を援助を必要とするエジプトの皆様に寄付させていただきました。<br />
+		  ぜひ、神戸物産エジプトの動画をご覧ください！<br />
+		  【動画配信中⇒<a class="youtube" href="http://www.youtube.com/embed/NMiQYSuCBng">こちらから</a>】</p></dd>
+		 </dl>
+		 
+		 <!--
+		 <dl class="info clearfix">
+		  <dt>2014年3月28日</dt>
+		  <dd style="line-heihgt:1.5em;"><strong style="font-size:120%;">消費増税に伴う営業日・営業時間の変更について</strong><br />
+		  業務スーパーの一部店舗では、4月1日からの消費税引き上げに伴う作業のため、営業日・営業時間の変更を行います。<br />
+		  詳しくは、「店舗案内」にてご利用いただいております店舗のページをご確認いただきますようお願いいたします。<br />
+		  情報は随時更新いたしますので、ぜひご来店前にご確認ください。</dd>
+		 </dl>
+		 -->
+		 <dl class="info clearfix">
+		  <dt>2014年03月28日</dt>
+		  <dd style="line-heihgt:1.5em;"><strong style="font-size:120%;">消費増税に伴う価格表示の変更について</strong>
+		  <a href="upload/info/info_20140328.jpg" rel="lightbox" title="消費増税に伴う価格表示の変更について"><img src="upload/info/85_20140328.jpg" alt="" style="float:right;margin-left:5px;" /></a>
+		  <p>関東1都3県、近畿2府4県（淡路島を除く）の業務スーパー各店では、4月1日からの消費税引き上げに伴い、価格表示を以下の通り変更させていただきます。<br />
+		  <strong>3月31日まで『税込価格』<br />
+		  　↓<br />
+		  <span style="color:#FF0000;">4月1日より『税別価格と税込価格』の併記</span></strong><br />
+		  <br />
+		  ※一部の商品は税別価格のみの表示の場合がございますので、店頭にてご確認ください。<br />
+		  ※消費税はレジにて税別合計金額に加算させていただきます。<br />
+		  ※関東1都3県、近畿2府4県（淡路島を除く）以外の業務スーパーでは、この限りではありません。<br />
+		  　お手数をお掛けいたしますが、各店にてご確認いただきますようお願いいたします。<br />
+		 </dl>
+		 
+	   <dl class="info clearfix">
+		 
+		  <a href="upload/info/info_20131225.jpg" rel="lightbox" title="ムック本「業務スーパーに行こう！」（定価：本体933円+税）"><img src="upload/info/info_20131225_s.jpg" alt="" style="float:right;" /></a>
+		  <dt>2013年12月25日</dt>
+		  <dd style="width:400px;line-heihgt:1.5em;"><strong style="font-size:120%;">双葉社様よりムック本<br />「業務スーパーに行こう！」が発売されました。</strong><br />
+		  <p>双葉社様より12月12日に発行されたムック本「業務スーパーに行こう！」（定価：本体933円+税）で、当社をご紹介いただきました！<br />
+		  当社の商品について雑誌等で取り上げていただく機会は多いのですが、当社の６次産業への取り組みや、業務スーパーをご利用いただいているお客様の生の声など、こんなに丁寧に取りあげていただいたのは今回が初めてで、当社側からみても参考になる点の多い内容に仕上げていただきました。<br />
+		  全国の書店で発売されているそうですので、すでに業務スーパーでお買いものいただいているお客様やホームページをご覧いただいておりますお客様にも、ぜひ、ご一読いただけましたら幸いです！
+最後に、双葉社様、編集の㈱エディキューブ様及び関係者の皆様に、当社にご注目いただき本の企画を頂戴しましたこと、すてきな本を作っていただきましたことに対して、この場を借りて御礼申し上げます。</p></dd>
+		 </dl>
+		 
+		 
+		 
+		 
+		 <dl class="info clearfix">
+		  <dt>2013年05月10日</dt>
+		  <dd><strong>◆東日本大震災から２年　業務スーパーの復興支援活動について</strong><br />
+		  <p>業務スーパーでは、2011年4月から2012年3月末までの期間の本部売上金額の0.2％を、長期復興支援策として寄付していくと掲げ、活動してまいりましたが、2013年5月17日をもちまして、目標額を達成いたします。<br />
+		  お客様からいただいた売上金の一部を原資として、被災者の方々へ支援物資や食品等をお配りすることができ、被災者の方々からも感謝の御言葉を多数いただいております。ご支援並びにご協力をいただき有難うございました。<br />
+<br />
+物資配布回数　約120回<br />
+支援総額　　　約3億3770万円<br />
+物資内容　　　レトルト食品など<br />
+感謝状枚数　　570通超<br />
+<br />
+今後とも、業務スーパーグループ社員一同、東日本大震災を風化させることなく復興活動の力となれるよう、努めてまいります。
+</p></dd>
+		 </dl>
+
+		 <dl class="info clearfix">
+		  <dt>2013年01月08日</dt>
+		  <dd><strong>残留農薬検査結果　公開終了のお知らせ</strong><br /><p>農薬は農作物を栽培するにあたって、有害生物から作物を保護し、病気や雑草から農作物を守るために必要不可欠なものです。<br />
+神戸物産では2007年9月から、食品輸入小売業界での初の取り組みとして、自主的に神戸港へ入港した全コンテナから商品を抜き取り、140種類以上の農薬検査を実施し、2011年1月からは冷凍野菜・果実などの農産物や一部の加工品に絞り込み、述べ5000検体以上もの検査を実施する事により輸入食品の安全確保に努めてまいりました。<br />
+弊社といたしましてはこの5年間で蓄積された検査結果を踏まえ、輸入者としての残留農薬に関する安全確認への一定の役割を果たしたと考え、このたび残留農薬検査を終了させていただくとともに、当社ＨＰでの検査結果の公開を終了致します。<br />
+今後とも、輸入商品ならびに国内製造商品の品質管理体制のさらなる強化に努め、お客様への安全・安心の提供に努めてまいりますので、これからも業務スーパーをご愛顧賜りますようよろしくお願い申し上げます。</p></dd>
+		 </dl>
+		 
+		 
+		 <dl class="info clearfix">
+		  <dt>2012年07月03日</dt>
+		  <dd>計画停電に関するお知らせ<br /><p>近畿地区・四国地区・九州地区におきまして計画停電が実施された場合、急遽営業を停止または一時閉店させていただく場合がございます。<br />お客様には大変ご迷惑をおかけいたしますが、何卒ご理解の程よろしくお願いいたします。</p></dd>
+		 </dl>
+		 
+		 <dl class="info clearfix">
+		  <dt>2011年08月10日</dt>
+		  <dd>東日本大震災義援金集計結果のお知らせ<br /><div style="margin: 0mm 0mm 0pt">お客様のご協力に感謝致しますとともに、被災地の一日も早い復興をお祈りいたします。</div>
+<div style="margin: 0mm 0mm 0pt">詳細は<span style="color: #0000ff"><strong><a target="_blank" href="../upload/info/73_20110810.pdf"><span style="color: #0000ff">こちらのページ</span></a></strong></span>をご確認下さい。</div></dd>
+		 </dl>
+		 
+		 <dl class="info clearfix">
+		  <dt>2010年03月26日</dt>
+		  <dd><a href="../opinion/shohin.html" target="_blank">神戸物産では新規お取引業者様を募集しております</a><br /><p>詳細は<a target="_blank" href="../opinion/shohin.html"><span style="color: #0000ff"><strong>こちらのページ</strong></span></a>をご確認ください。</p></dd>
+		 </dl>
+		 
+       </div><!--end info_box-->
+      </div><!--end top_info-->
+
+
+	  <div class="newstore">
+		<h4><img src="img/home/newstore_title.jpg" width="400" height="30" alt="" class="title" /><div class="rssBtn1"><a href="rss/new_shop.xml" target="_blank"><img src="img/home/rssBtn.gif" alt="RSS" /></a></div></h4>
+		
+		<dl class="n_s clearfix"><dt>2017年08月17日</dt><dd><a href=shop/detail.php?sh_id=1407><span>神奈川県</span>業務スーパー 伊勢佐木モール店</a></dd></dl><dl class="n_s clearfix"><dt>2017年08月03日</dt><dd><a href=shop/detail.php?sh_id=1406><span>千葉県</span>業務スーパー 北柏店</a></dd></dl><dl class="n_s clearfix"><dt>2017年07月27日</dt><dd><a href=shop/detail.php?sh_id=1405><span>兵庫県</span>業務スーパー 朝霧店</a></dd></dl><dl class="n_s clearfix"><dt>2017年07月20日</dt><dd><a href=shop/detail.php?sh_id=1404><span>東京都</span>業務スーパー 東新宿店</a></dd></dl><dl class="n_s clearfix"><dt>2017年07月20日</dt><dd><a href=shop/detail.php?sh_id=1403><span>大阪府</span>業務スーパー 平野駅前店</a></dd></dl>      
+		
+      </div><!--end newstore-->
+
+	  <div class="news">
+		<h4><img src="img/home/news_title.jpg" width="220" height="30" alt="" class="title" /><div class="rssBtn2"><a href="rss/ir_news.xml" target="_blank"><img src="img/home/rssBtn.gif" alt="RSS" /></a></div></h4>
+		
+		<dl class="n_w clearfix">
+		  <dt>2017年07月26日</dt>
+		  <dd><a href="ir/news.php?ne_id=518">月次IRニュース</a></dd>
+		</dl>
+		<dl class="n_w clearfix">
+		  <dt>2017年06月26日</dt>
+		  <dd><a href="ir/news.php?ne_id=517">月次IRニュース</a></dd>
+		</dl>
+		<dl class="n_w clearfix">
+		  <dt>2017年06月22日</dt>
+		  <dd><a href="ir/news.php?ne_id=516">組織変更及び人事異動に関するお知らせ</a></dd>
+		</dl>
+		<dl class="n_w clearfix">
+		  <dt>2017年06月19日</dt>
+		  <dd><a href="ir/news.php?ne_id=515">(訂正)第2四半期決算説明資料</a></dd>
+		</dl>
+		<dl class="n_w clearfix">
+		  <dt>2017年06月16日</dt>
+		  <dd><a href="ir/news.php?ne_id=514">第2四半期決算説明資料</a></dd>
+		</dl>
+      </div><!--end news-->
+
+
+    </div>
+    <!-- [/Main] -->
+
+
+  </div>
+  <!-- [/Contents] -->
+
+  <!-- [Footer] -->
+    <div class="pagetop">
+    <a href="#top"><img src="../img/common/pagetop.gif" width="110" height="10" alt="" class="swap" /></a>
+  </div><!--end pagetop-->
+
+	<div class="footer_menu clearfix">
+	 <div class="foot_link clearfix">
+	 <img src="../img/common/companylogo.gif" width="120" height="28" alt="" class="left" />
+	 <ul class="clearfix">
+	   <li>&nbsp;|&nbsp;<a href="../sitemap/">サイトマップ</a>&nbsp;|&nbsp;</li>
+	   <li><a href="../policy/">サイトポリシー</a>&nbsp;|&nbsp;</li>
+	   <li><a href="../protect/">個人情報保護法に基づく表記</a>&nbsp;|&nbsp;</li>
+	 </ul>
+	 </div><!--end foot_link-->
+    </div><!--end footer_menu-->
+
+  <div id="footer-area"> 	
+    <p class="copyright">Copyright(C) Kobebussan Co.,Ltd. All Rights Reserved.</p>
+  </div>
+
+  <!-- [/Footer] -->
+
+</div>
+<!-- [/Container] -->
+
+
+
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 877680585;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/877680585/?value=0&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+<script id="_lognos_script_">
+// begin edit block
+var _lognos = {params: {}, paramOrder: []};
+    _lognos.params.key1 = "";
+    _lognos.params.key2 = "";
+    _lognos.params.key3 = "";
+    _lognos.params.key4 = "";
+    _lognos.params.key5 = "";
+    _lognos.params.key6 = "";
+    _lognos.params.key7 = "";
+    _lognos.params.key8 = "";
+    _lognos.params.key9 = "";
+    _lognos.params.key10 = "";
+    // end edit block
+
+    // don't edit
+    _lognos.paramOrder = ["key1","key2","key3","key4","key5","key6","key7","key8","key9","key10"];
+
+(function(a,b){
+    a.async = true; a.id = "_lognos_script_";
+    a.src = '//img.macromill.com/js/us000718ebv/5000011653-19/lognos.js';
+    b.parentNode.insertBefore(a,b);
+}(document.createElement('script'),document.getElementsByTagName('script')[0]));
+</script>
+</body>
+</html>

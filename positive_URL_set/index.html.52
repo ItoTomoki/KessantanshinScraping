@@ -1,0 +1,405 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=1152, user-scalable=yes">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<title>決算短信 | IRライブラリー | IR情報 | 株式会社東京エネシス</title>
+
+<!-- InstanceBeginEditable name="doctitle" -->
+<meta name="description" content="株式会社東京エネシス IR情報のページです。決算短信を掲載しています。" />
+<meta name="keywords" content="株式会社東京エネシス,IR情報,決算短信" />
+<!-- InstanceEndEditable -->
+
+<meta name="viewport" content="width=1152, user-scalable=yes">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+<!-- OGP -->
+<meta property="og:site_name" content="株式会社東京エネシス">
+<meta property="og:title" content="株式会社東京エネシス">
+<meta property="og:description" content="株式会社東京エネシス">
+<meta property="og:image" content="https://www.qtes.co.jp/common/images/base/fb.jpg">
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="株式会社東京エネシス" />
+<meta name="twitter:description" content="株式会社東京エネシス" />
+<meta name="twitter:image" content="https://www.qtes.co.jp/common/images/base/twitter.png" />
+<!-- close.OGP -->
+
+<link rel="stylesheet" href="https://www.qtes.co.jp/common/css/reset.css" />
+<link rel="stylesheet" href="https://www.qtes.co.jp/common/css/print.css" />
+<link rel="stylesheet" href="https://www.qtes.co.jp/common/css/base.css" />
+<link rel="stylesheet" href="https://www.qtes.co.jp/common/css/common.css" />
+<link rel="stylesheet" href="https://www.qtes.co.jp/common/css/ir.css" />
+<link rel="stylesheet" href="https://www.qtes.co.jp/ir/ir_common/js/jqplot/jquery.jqplot.css" />
+
+<script src="https://www.qtes.co.jp/common/js/jquery.min.js"></script>
+<script src="https://www.qtes.co.jp/common/js/jquery-ui.min.js"></script>
+<script src="https://www.qtes.co.jp/common/js/common.js"></script>
+<script src="https://www.qtes.co.jp/common/js/ir.js"></script>
+<script src="https://www.qtes.co.jp/common/js/ga.js"></script>
+<script src="https://www.qtes.co.jp/common/js/news.js"></script>
+<!--[if lt IE 9]>
+<script src="https://www.qtes.co.jp/ir/ir_common/js/html5shiv.js"></script>
+<script src="https://www.qtes.co.jp/ir/ir_common/js/jqplot/excanvas.min.js"></script>
+<![endif]-->
+
+<script src="https://www.qtes.co.jp/ir/ir_common/js/jqplot/jquery.jqplot.js"></script>
+<script src="https://www.qtes.co.jp/ir/ir_common/js/jqplot/plugins/jqplot.barRenderer.js"></script>
+<script src="https://www.qtes.co.jp/ir/ir_common/js/jqplot/plugins/jqplot.categoryAxisRenderer.js"></script>
+<script src="https://www.qtes.co.jp/ir/ir_common/js/jqplot/plugins/jqplot.pointLabels.js"></script>
+</head>
+
+<body>
+
+
+<header id="header_over_wrap">
+
+	<div id="header_wrap" class="base_wide clearfix">
+
+		<div id="header_box">
+			<h1 id="header_logo"><a href="https://www.qtes.co.jp/"><img src="https://www.qtes.co.jp/common/images/base/img_head_logo.png" alt="Q'd 株式会社 東京エネシス" width="290" height="51"></a>	</h1>
+		</div>
+
+		<nav id="gnav_wrap">
+			<ul id="gnav_sub" class="clearfix">
+				<li id="gnav_sub02"><a href="https://www.qtes.co.jp/inquiry/" class="opacity">お問い合わせ</a></li>
+				<li id="gnav_sub03"><a href="https://www.qtes.co.jp/sitemap/" class="opacity">サイトマップ</a></li>
+				<li id="gnav_sub04"><a href="https://www.qtes.co.jp/en/" class="opacity">ENGLISH</a></li>
+			</ul>
+			<ul id="gnav" class="clearfix">
+				<li id="gnav01"><a href="https://www.qtes.co.jp/company/" class="opacity"><img src="https://www.qtes.co.jp/common/images/base/nav_global_company.png" width="164" height="45" alt="企業情報"></a></li>
+				<li id="gnav02"><a href="https://www.qtes.co.jp/ir/" class="opacity"><img src="https://www.qtes.co.jp/common/images/base/nav_global_ir.png" width="163" height="45" alt="IR情報"></a></li>
+				<li id="gnav03"><a href="https://www.qtes.co.jp/business/" class="opacity"><img src="https://www.qtes.co.jp/common/images/base/nav_global_business.png" width="163" height="45" alt="事業案内"></a></li>
+				<li id="gnav04"><a href="https://www.qtes.co.jp/technology/" class="opacity"><img src="https://www.qtes.co.jp/common/images/base/nav_global_technology.png" width="163" height="45" alt="技術紹介"></a></li>
+				<li id="gnav05"><a href="https://www.qtes.co.jp/ir/news_release/" class="opacity"><img src="https://www.qtes.co.jp/common/images/base/nav_global_news.png" width="163" height="45" alt="ニュース一覧"></a></li>
+				<li id="gnav06"><a href="https://www.qtes.co.jp/recruit/" class="opacity"><img src="https://www.qtes.co.jp/common/images/base/nav_global_recruit.png" width="164" height="45" alt="採用情報"></a></li>
+			</ul>
+		</nav>
+
+	</div>
+</header>
+
+<div id="breadcrumb_wrap">
+	<ul class="breadcrumb_list base_wide clearfix">
+		<li class="breadcrumb_top opacity"><a href="https://www.qtes.co.jp/">トップページ</a></li>
+		<li class="breadcrumb_select opacity"><a href="https://www.qtes.co.jp/ir/">IR情報</a></li>
+		<li class="breadcrumb_select opacity"><a href="https://www.qtes.co.jp/ir/library/">IRライブラリー</a></li>
+		<li class="breadcrumb_select">決算短信</li>
+	</ul>
+</div>
+
+
+
+
+
+
+
+<div id="top_visual_wrap" class="mb40">
+	<h1 class="bg_ir">
+		<span class="base_wide">
+			<img src="https://www.qtes.co.jp/common/images/ir/library/h_ir_financial_results.png" width="445" height="40" alt="決算短信" class="top_visua_img">		</span>
+	</h1>
+</div>
+
+
+
+
+<section id="content_wrap" class="base_wide clearfix">
+
+
+	<div class="content_fl">
+		<h3 class="content_heading">
+			<span>2018年3月期</span>
+		</h3>
+		<ul class="library_list_warp mb48">
+			<li class="clearfix">
+				<a href="https://www.qtes.co.jp/ir/document/pdf/statements_20170731_597ed4c207d11.pdf" target="_blank" class="library_link clearfix">
+					<span class="library_daily">2017.08.01</span>
+					<span class="library_ttl">平成30年３月期 第１四半期決算短信〔日本基準〕（連結）</span>
+					<span class="library_pdf"> ：215KB</span>
+				</a>
+			</li>
+		</ul>
+
+		<h3 class="content_heading">
+			<span>2017年3月期</span>
+		</h3>
+		<ul class="library_list_warp mb48">
+			<li class="clearfix">
+				<a href="https://www.qtes.co.jp/ir/document/pdf/statements_20170428_5902adf3a2cdf.pdf" target="_blank" class="library_link clearfix">
+					<span class="library_daily">2017.04.28</span>
+					<span class="library_ttl">平成29年３月期 決算短信〔日本基準〕（連結）</span>
+					<span class="library_pdf"> ：306KB</span>
+				</a>
+			</li>
+			<li class="clearfix">
+				<a href="https://www.qtes.co.jp/ir/document/pdf/statements_20170201_58916115dd2ae.pdf" target="_blank" class="library_link clearfix">
+					<span class="library_daily">2017.02.01</span>
+					<span class="library_ttl">平成29年３月期　第３四半期決算短信〔日本基準〕（連結）</span>
+					<span class="library_pdf"> ：229KB</span>
+				</a>
+			</li>
+			<li class="clearfix">
+				<a href="https://www.qtes.co.jp/ir/document/pdf/statements_20161101_5817e8f270905.pdf" target="_blank" class="library_link clearfix">
+					<span class="library_daily">2016.11.01</span>
+					<span class="library_ttl">平成29年３月期　第２四半期決算短信〔日本基準〕（連結）</span>
+					<span class="library_pdf"> ：237KB</span>
+				</a>
+			</li>
+			<li class="clearfix">
+				<a href="https://www.qtes.co.jp/ir/document/pdf/statements_20160728_5799ba1ade483.pdf" target="_blank" class="library_link clearfix">
+					<span class="library_daily">2016.07.29</span>
+					<span class="library_ttl">平成29年3月期　第1四半期決算短信〔日本基準〕（連結）</span>
+					<span class="library_pdf"> ：223KB</span>
+				</a>
+			</li>
+		</ul>
+
+		<h3 class="content_heading">
+			<span>2016年3月期</span>
+		</h3>
+		<ul class="library_list_warp mb48">
+			<li class="clearfix">
+				<a href="https://www.qtes.co.jp/ir/document/pdf/statements_20160510_5731462da1789.pdf" target="_blank" class="library_link clearfix">
+					<span class="library_daily">2016.04.28</span>
+					<span class="library_ttl">平成28年３月期 決算短信〔日本基準〕（連結）</span>
+					<span class="library_pdf"> ：393KB</span>
+				</a>
+			</li>
+			<li class="clearfix">
+				<a href="https://www.qtes.co.jp/ir/document/pdf/statements_20160415_57107f8b83a39.pdf" target="_blank" class="library_link clearfix">
+					<span class="library_daily">2016.02.01</span>
+					<span class="library_ttl">平成28年３月期 第３四半期決算短信〔日本基準〕（連結）</span>
+					<span class="library_pdf"> ：229KB</span>
+				</a>
+			</li>
+			<li class="clearfix">
+				<a href="https://www.qtes.co.jp/ir/document/pdf/statements_20160415_57107f4bef53f.pdf" target="_blank" class="library_link clearfix">
+					<span class="library_daily">2015.10.29</span>
+					<span class="library_ttl">平成28年３月期 第２四半期決算短信〔日本基準〕（連結）</span>
+					<span class="library_pdf"> ：235KB</span>
+				</a>
+			</li>
+			<li class="clearfix">
+				<a href="https://www.qtes.co.jp/ir/document/pdf/statements_20160415_57107efc3c380.pdf" target="_blank" class="library_link clearfix">
+					<span class="library_daily">2015.07.30</span>
+					<span class="library_ttl">平成28年３月期 第１四半期決算短信〔日本基準〕（連結）</span>
+					<span class="library_pdf"> ：223KB</span>
+				</a>
+			</li>
+		</ul>
+
+		<h3 class="content_heading">
+			<span>2015年3月期</span>
+		</h3>
+		<ul class="library_list_warp mb48">
+			<li class="clearfix">
+				<a href="https://www.qtes.co.jp/ir/document/pdf/statements_20160415_57107ea5a1081.pdf" target="_blank" class="library_link clearfix">
+					<span class="library_daily">2015.04.28</span>
+					<span class="library_ttl">平成27年３月期 決算短信〔日本基準〕（連結）</span>
+					<span class="library_pdf"> ：2.9MB</span>
+				</a>
+			</li>
+			<li class="clearfix">
+				<a href="https://www.qtes.co.jp/ir/document/pdf/statements_20160415_57107e437f1e6.pdf" target="_blank" class="library_link clearfix">
+					<span class="library_daily">2015.01.28</span>
+					<span class="library_ttl">平成27年３月期 第３四半期決算短信〔日本基準〕（連結）</span>
+					<span class="library_pdf"> ：1MB</span>
+				</a>
+			</li>
+			<li class="clearfix">
+				<a href="https://www.qtes.co.jp/ir/document/pdf/statements_20160415_57107e296cb37.pdf" target="_blank" class="library_link clearfix">
+					<span class="library_daily">2014.10.28</span>
+					<span class="library_ttl">平成27年３月期 第２四半期決算短信〔日本基準〕（連結）</span>
+					<span class="library_pdf"> ：1.1MB</span>
+				</a>
+			</li>
+			<li class="clearfix">
+				<a href="https://www.qtes.co.jp/ir/document/pdf/statements_20160415_57107dd6102a5.pdf" target="_blank" class="library_link clearfix">
+					<span class="library_daily">2014.07.29</span>
+					<span class="library_ttl">平成27年３月期 第１四半期決算短信〔日本基準〕（連結）</span>
+					<span class="library_pdf"> ：1024KB</span>
+				</a>
+			</li>
+		</ul>
+
+		<h3 class="content_heading">
+			<span>2014年3月期</span>
+		</h3>
+		<ul class="library_list_warp mb48">
+			<li class="clearfix">
+				<a href="https://www.qtes.co.jp/ir/document/pdf/statements_20160415_57107d84410ed.pdf" target="_blank" class="library_link clearfix">
+					<span class="library_daily">2014.04.28</span>
+					<span class="library_ttl">平成26年３月期 決算短信〔日本基準〕（連結）</span>
+					<span class="library_pdf"> ：3MB</span>
+				</a>
+			</li>
+			<li class="clearfix">
+				<a href="https://www.qtes.co.jp/ir/document/pdf/statements_20160415_57107d44609fe.pdf" target="_blank" class="library_link clearfix">
+					<span class="library_daily">2014.01.28</span>
+					<span class="library_ttl">平成26年３月期 第３四半期決算短信〔日本基準〕（連結）</span>
+					<span class="library_pdf"> ：1.1MB</span>
+				</a>
+			</li>
+			<li class="clearfix">
+				<a href="https://www.qtes.co.jp/ir/document/pdf/statements_20160415_57107d02a5725.pdf" target="_blank" class="library_link clearfix">
+					<span class="library_daily">2013.10.29</span>
+					<span class="library_ttl">平成26年３月期 第２四半期決算短信〔日本基準〕（連結）</span>
+					<span class="library_pdf"> ：1.1MB</span>
+				</a>
+			</li>
+			<li class="clearfix">
+				<a href="https://www.qtes.co.jp/ir/document/pdf/statements_20160415_57107cad42a7f.pdf" target="_blank" class="library_link clearfix">
+					<span class="library_daily">2013.07.30</span>
+					<span class="library_ttl">平成26年３月期 第１四半期決算短信〔日本基準〕（連結）</span>
+					<span class="library_pdf"> ：1.1MB</span>
+				</a>
+			</li>
+	</div>
+	<aside id="side_bar" class="clearfix">
+
+
+
+		<div class="snav_wrap">
+			<ul class="snav">
+				<li class="snav_top opacity"><a href="https://www.qtes.co.jp/ir/">IR情報</a></li>
+
+				<li class="snav_list"><a href="https://www.qtes.co.jp/ir/topmessage/">トップメッセージ</a></li>
+
+				<li class="snav_list "><a href="https://www.qtes.co.jp/ir/financial/highlight/">業績・財務データ</a></li>
+				
+				<li class="snav_list snav_list_active_inner"><a href="https://www.qtes.co.jp/ir/library/statements/">IRライブラリー</a></li>
+								<li class="snav_inner snav_inner_active"><a href="https://www.qtes.co.jp/ir/library/statements/">決算短信</a></li>
+				<li class="snav_inner "><a href="https://www.qtes.co.jp/ir/library/securities_report/">有価証券報告書</a></li>
+				<li class="snav_inner "><a href="https://www.qtes.co.jp/ir/library/report/">株主向け開示資料</a></li>
+				<li class="snav_inner "><a href="https://www.qtes.co.jp/ir/library/others/">適時開示等</a></li>
+				
+				<li class="snav_list "><a href="https://www.qtes.co.jp/ir/stock/outline/">株主・株式情報</a></li>
+				
+				<li class="snav_list "><a href="http://kmasterplus.pronexus.co.jp/main/corp/1/9/1945/index.html" target="_blank">電子公告<img src="https://www.qtes.co.jp/common/images/icon/icon_link_blank.png" alt="外部リンク" class="snav_link_blank"></a></li>
+				<li class="snav_list "><a href="https://www.qtes.co.jp/ir/calendar/">IRカレンダー</a></li>
+				<li class="snav_list "><a href="http://quote.nomura.co.jp/nomura/cgi-bin/parser.pl?QCODE=1945&amp;TEMPLATE=nomura_tp_kabu_01&amp;EXCHG=" target="_blank">株価情報<img src="https://www.qtes.co.jp/common/images/icon/icon_link_blank.png" alt="外部リンク" class="snav_link_blank"></a></li>
+				<li class="snav_list "><a href="https://www.qtes.co.jp/ir/faq/">ご質問（FAQ）</a></li>
+			</ul><!-- /snav -->
+		</div>
+
+
+
+		<ul class="bnr">
+				<li >
+					<a href="https://www.qtes.co.jp/business/" class="bnr_business opacity">
+						<img src="https://www.qtes.co.jp/common/images/base/bnr_business_copy.png" width="198" height="122" alt="Q'd 長年電力設備で培った現場技術力を、次の解決力へ">
+						<img src="https://www.qtes.co.jp/common/images/base/bnr_business.png" width="198" height="30" alt="私たちの事業">
+					</a>
+				</li>
+		</ul>
+
+	</aside>
+
+</section>
+
+
+
+
+<div id="js_topbtn" class="pagetop">
+	<a href="#header_wrap"><img src="https://www.qtes.co.jp/common/images/icon/btn_pagetop.png" width="50" height="50" alt="TOP"></a>
+</div>
+
+<footer id="footer_over_wrap">
+	<div id="footer_top_wrap">
+		<!-- footer_nav_top -->
+		<ul class="footer_nav base_wide clearfix mb48">
+			<li class="fotter_nav_link">
+				<a href="https://www.qtes.co.jp/company/" class="fotter_nav_link_ttl"><img src="https://www.qtes.co.jp/common/images/base/img_footer_nav_company.png" alt="企業情報" width="65" height="16"></a>
+				<ul>
+					<li><a href="https://www.qtes.co.jp/company/topmessage/">トップメッセージ</a></li>
+					<li><a href="https://www.qtes.co.jp/company/outline/">会社概要</a></li>
+					<li><a href="https://www.qtes.co.jp/company/history/">沿革</a></li>
+					<li><a href="https://www.qtes.co.jp/company/charter/">行動憲章</a></li>
+					<li><a href="https://www.qtes.co.jp/company/iso/">ISO情報</a></li>
+					<li><a href="https://www.qtes.co.jp/company/governance/">コーポレートガバナンス</a></li>
+					<li><a href="https://www.qtes.co.jp/company/qualified/">有資格者</a></li>
+					<li><a href="https://www.qtes.co.jp/company/affiliated/">グループ会社</a></li>
+				</ul>
+			</li>
+			<li class="fotter_nav_link">
+				<a href="https://www.qtes.co.jp/ir/" class="fotter_nav_link_ttl"><img src="https://www.qtes.co.jp/common/images/base/img_footer_nav_ir.png" alt="IR情報" width="50" height="16"></a>
+				<ul>
+					<li><a href="https://www.qtes.co.jp/ir/topmessage/">トップメッセージ</a></li>
+					<li><a href="https://www.qtes.co.jp/ir/financial/highlight/">業績・財務データ</a></li>
+					<li><a href="https://www.qtes.co.jp/ir/library/statements/">IRライブラリー</a></li>
+					<li><a href="https://www.qtes.co.jp/ir/stock/outline/">株主・株式情報</a></li>
+					<li><a href="http://kmasterplus.pronexus.co.jp/main/corp/1/9/1945/index.html" target="_blank">電子公告</a><img src="https://www.qtes.co.jp/common/images/icon/icon_link_blank.png" alt="外部リンク" class="snav_link_blank"></li>
+					<li><a href="https://www.qtes.co.jp/ir/calendar/">IRカレンダー</a></li>
+					<li><a href="http://quote.nomura.co.jp/nomura/cgi-bin/parser.pl?QCODE=1945&amp;TEMPLATE=nomura_tp_kabu_01&amp;EXCHG=" target="_blank">株価情報</a><img src="https://www.qtes.co.jp/common/images/icon/icon_link_blank.png" alt="外部リンク" class="snav_link_blank"></li>
+					<li><a href="https://www.qtes.co.jp/ir/faq/">ご質問（FAQ)</a></li>
+				</ul>
+			</li>
+			<li class="fotter_nav_link fotter_nav_link_wide clearfix">
+				<a href="https://www.qtes.co.jp/business/" class="fotter_nav_link_ttl"><img src="https://www.qtes.co.jp/common/images/base/img_footer_nav_business.png" alt="事業案内" width="64" height="16"></a>
+				<ul class="fl">
+					<li><a href="https://www.qtes.co.jp/business/thermal/">火力</a></li>
+					<li><a href="https://www.qtes.co.jp/business/atomic/">原子力</a></li>
+					<li><a href="https://www.qtes.co.jp/business/hydraulic/">水力</a></li>
+					<li><a href="https://www.qtes.co.jp/business/substation/">変電</a></li>
+					<li><a href="https://www.qtes.co.jp/business/recycle_energy/">再生可能エネルギー</a></li>
+					<li><a href="https://www.qtes.co.jp/business/architect/">土木・建築</a></li>
+				</ul>
+				<ul class="fl fotter_nav_li_ml32">
+					<li><a href="https://www.qtes.co.jp/business/information/">情報通信</a></li>
+					<li><a href="https://www.qtes.co.jp/business/energy/">エネルギーソリューション</a></li>
+					<li><a href="https://www.qtes.co.jp/business/electric/">電気設備</a></li>
+					<li><a href="https://www.qtes.co.jp/business/foreign/">海外</a></li>
+					<li><a href="https://www.qtes.co.jp/business/center/">溶接・検査センター</a></li>
+				</ul>
+			</li>
+		</ul>
+
+		<!-- footer_nav_bottom -->
+		<ul class="footer_nav base_wide clearfix">
+			<li class="fotter_nav_link fotter_nav_link_wide">
+				<a href="https://www.qtes.co.jp/technology/" class="fotter_nav_link_ttl"><img src="https://www.qtes.co.jp/common/images/base/img_footer_nav_technology.png" alt="技術紹介" width="66" height="16"></a>
+				<ul class="fl">
+					<li><a href="https://www.qtes.co.jp/technology/tec01/">ソーラーパネル取付装置</a></li>
+					<li><a href="https://www.qtes.co.jp/technology/tec02/">ボルト磨き機</a></li>
+					<li><a href="https://www.qtes.co.jp/technology/tec03/">フィルター清掃装置</a></li>
+					<li><a href="https://www.qtes.co.jp/technology/tec04/">水浸式配管減肉測定装置<br>（インナーUT）</a></li>
+					<li><a href="https://www.qtes.co.jp/technology/tec05/">遠隔操作式除染装置</a></li>
+				</ul>
+				<ul class="fl fotter_nav_li_ml28">
+					<li><a href="https://www.qtes.co.jp/technology/tec06/">ドレンファンネル逆流防止金具</a></li>
+					<li><a href="https://www.qtes.co.jp/technology/tec07/">チューブ処理技術・チューブ半割装置</a></li>
+					<li><a href="https://www.qtes.co.jp/technology/tec08/">チューブ処理技術・チューブ内面放射線測定装置</a></li>
+					<li><a href="https://www.qtes.co.jp/technology/tec09/">碍子養生用マット</a></li>
+					<li><a href="https://www.qtes.co.jp/technology/tec10/">ケーブル結束治具<br>ケーブルまとめる君</a></li>
+				</ul>
+			</li>
+			<li class="fotter_nav_link">
+				<a href="https://www.qtes.co.jp/recruit/" class="fotter_nav_link_ttl"><img src="https://www.qtes.co.jp/common/images/base/img_footer_nav_recruit.png" alt="採用情報" width="65" height="16"></a>
+				<ul>
+					<li><a href="https://www.qtes.co.jp/recruit/new_graduate/">新卒採用</a></li>
+					<li><a href="https://www.qtes.co.jp/recruit/career/">キャリア採用</a></li>
+				</ul>
+			</li>
+			<li class="fotter_nav_link">
+				<a href="https://www.qtes.co.jp/inquiry/" class="fotter_nav_link_ttl"><img src="https://www.qtes.co.jp/common/images/base/img_footer_nav_inquiry.png" alt="お問い合わせ" width="100" height="16"></a>
+				<ul>
+					<li><a href="https://www.qtes.co.jp/inquiry/">お問い合わせ</a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+
+	<div id="footer_btm_wrap">
+		<div id="footer_btm" class="base_wide clearfix">
+			<ul id="footer_subnav" class="lf">
+				<li><a href="https://www.qtes.co.jp/sitemap/">サイトマップ</a></li>
+				<li><a href="https://www.qtes.co.jp/privacy/">プライバシーポリシー</a></li>
+			</ul>
+			<small><img src="https://www.qtes.co.jp/common/images/base/img_footer_copy.png" width="348" height="11"  alt="Copyright &copy; TOKYO ENERGY &amp; SYSTEMS INC  All rights reserved."></small>
+		</div>
+	</div><!-- /footer_btm_wrap -->
+</footer><!-- /footer_over_wrap --></body>
+
+</html>

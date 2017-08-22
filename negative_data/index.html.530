@@ -1,0 +1,359 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- saved from url=(0039)http://www.kxh-web.com/demo/smoothmenu/ -->
+<html lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<title>アヲハタ　トップ</title>
+<link rel="stylesheet" type="text/css" href="top/css/top.css">
+
+
+
+
+<!--[if IE 6]>
+<script type="text/javascript" src="/top/js/DD_belatedPNG.js"></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix('img, .png, .bgpng');
+</script>
+<![endif]-->
+
+</head>
+
+<body>
+<!--[if IE 6]>
+<br>
+<![endif]-->
+
+<div id="wrapper">
+<div id="top_bg" class="bgpng" style="padding-top:2px;">
+
+<!--ロゴ-->
+<h1 id="logo"><img src="top/img/logo.png" alt="アヲハタ FRUITS WONDERLAND" width="200" height="112"></h1>
+
+<!--メインイメージ-->
+<ul id="slideshow" class="rslides rslides1">
+  <!--<li class="active"><a href="" target="_blank"><img src="" alt="" class="png"></a></li>-->
+<!--  <li class="active"><img src="top/img/mainimg8.jpg" alt="" class="png"></li>
+  <li><img src="top/img/mainimg7.jpg" alt="" class="png"></li>-->
+  <li class="active"><a href="mc003_product/whole/"><img src="top/img/mainimg11.jpg" alt="" class="png"></a></li>
+  <li><a href="mc003_product/55/"><img src="top/img/mainimg5.jpg" alt="" class="png"></a></li>
+  <li><a href="http://www.kewpie.co.jp/fruits/" target="_blank"><img src="top/img/mainimg6.jpg" alt="" class="png"></a></li>
+  <li><a href="mc003_product/index.html"><img src="top/img/mainimg1.jpg" alt="" class="png" ></a></li>
+  <!--<li><a href="mc003_product/index.html"><img src="top/img/mainimg2.jpg" alt="" class="png"></a></li>-->
+  <!--<li><a href="http://www.kewpie.co.jp/fruits/"><img src="top/img/mainimg4.jpg" alt="" class="png"></a></li>-->
+</ul>
+
+<!--ナビゲーション-->
+<ul id="navi" class="bgpng">
+  <li id="menu01"><a href="mc002_blueflag/index.html">ブルーフラッグストーリー</a></li>
+  <li id="menu02"><a href="mc003_product/index.html">アヲハタ商品紹介</a></li>
+  <li id="menu03"><a href="mc004_factory/index.html">ファクトリーガイド</a></li>
+  <li id="menu04"><a href="mc005_recipe/index.html">レシピ紹介</a></li>
+  <li id="menu05"><a href="wo001_magazine/index.html">ジャムマガジン</a></li>
+  <li id="menu06"><a href="wo002_kids/index.html">キッズワンダーランド</a></li>
+  <li id="menu07"><a href="mc006_cminfo/index.html">CM紹介</a></li>
+</ul>
+
+<!-- ナビサムネイル -->
+
+<div id="navi_sumb_box">
+	<img id="belated_png" class="bg" src="top/img/thumb_bg.png" width="340" height="150">
+	<img id="menu01_sumb" class="sumb" src="top/img/thumb1.jpg" width="310" height="111" alt="">
+	<img id="menu02_sumb" class="sumb" src="top/img/thumb2.jpg" width="310" height="111" alt="">
+	<img id="menu03_sumb" class="sumb" src="top/img/thumb3.jpg" width="310" height="111" alt="">
+	<img id="menu04_sumb" class="sumb" src="top/img/thumb4.jpg" width="310" height="111" alt="">
+	<img id="menu05_sumb" class="sumb" src="top/img/thumb5.jpg" width="310" height="111" alt="">
+	<img id="menu06_sumb" class="sumb" src="top/img/thumb6.jpg" width="310" height="111" alt="">
+	<img id="menu07_sumb" class="sumb" src="top/img/thumb7.jpg" width="310" height="111" alt="">
+</div>
+
+
+<!--Q&Aボタン-->
+<div class="qa_btn"><a href="wo001_magazine/q_a/index.html"><img src="top/img/qa_btn_off.png" alt="CMアヲハタジャムQ&amp;A" width="200" height="34"></a></div>
+
+<!--「Ichigo Garden」（イチゴ ガーデン）-->
+<div class="top_banner"><a href="http://www.aohata.co.jp/ichigo_garden/" target="_blank"><img src="img/top_banner_ichigo_garden.jpg" alt="「Ichigo Garden」（イチゴ ガーデン）"></a></div>
+
+
+<!-- news update system upper begin-->
+<script type="text/javascript" src="/contents_admin/contents_include/toptitle_upper_show.js"></script>
+<!-- news update system upper end  -->
+
+<!--<div style="border:1px solid #f28281;margin:10px 30px;padding:3px;text-align:center;font-size:11px;"><a href="info_150424.html" onClick="window.open('info_150424.html','aohata','menubar=no,location=no,directories=no,scrollbars=yes,toolbar=no,status=no,resizable=no,width=700,height=400') ; return false ;">弊社が製造する「キユーピー 野菜浮ｭだものスプレッド かぼちゃとオレンジ」異物（ゴム片）混入による商品回収のお詫びとお知らせ</a>
+  <br>
+  <span style="display:block;text-align:right;">2015年4月24日</span></div>
+-->
+<!--ニュース-->
+<div class="news_area">
+<!--<div class="info"><a href="ci008_info/info_20140828.html"><img src="top/img/info_off.jpg" alt="広島市豪雨土砂災害に関するお知らせ"></a></div>-->
+<div class="backnum_btn"><a href="mc001_news/index.html"><img src="top/img/bn_off.gif" alt="バックナンバーはこちら" width="129" height="19"></a></div>
+
+<dl class="list">
+
+<!-- news update system toretate begin-->
+<script type="text/javascript" src="/contents_admin/contents_include/toptitle_show.js"></script>
+<!-- news update system toretate end  -->
+<dt><span>2017/07/21</span></dt>
+	<dd>
+		<div>
+			<a href="mc001_news/detail/20170721.html">「アヲハタ まるごと果実」シリーズ小容量サイズが新登場</a><br />
+		</div>
+	</dd>
+<dt><span>2017/07/13</span></dt>
+	<dd>
+		<div>
+			<a href="mc001_news/detail/20170713.html">低糖度ジャム「アヲハタ　５５ジャム」シリーズ大容量タイプに「リンゴ」が新登場</a><br />
+		</div>
+	</dd>
+<dt><span>2017/07/03</span></dt>
+	<dd>
+		<div>
+			<a href="ci002_ir/news/index.html">平成29年11月期　第2四半期決算発表をおこないました。</a><br />
+		</div>
+	</dd>
+<dt><span>2017/06/30</span></dt>
+	<dd>
+		<div>
+			<a href="ci001_company/measures/environment.html">「アヲハタグループレポート2017」を発行しました。</a><br />
+		</div>
+	</dd>
+<dt><span>2017/06/27</span></dt>
+	<dd>
+		<div>
+			<a href="ci002_ir/news/index.html">業績予想の修正に関するお知らせ</a><br />
+		</div>
+	</dd>
+<dt><span>2017/06/09</span></dt>
+        <dd>
+		<div>
+			<a href="mc001_news/detail/20170609.html">「アヲハタ ジャムデッキ」イベント<br>「アヲハタジャムを使って『ジャムでお絵かき』」を2017年7月22日（土）に開催</a><br />
+		</div>
+	</dd>
+<dt><span>2017/04/19</span></dt>
+        <dd>
+		<div>
+			<a href="wo001_magazine/jamday/">ジャムマガジンページを更新しました。</a><br />
+		</div>
+	</dd>
+<dt><span>2017/04/03</span></dt>
+        <dd>
+		<div>
+			<a href="ci002_ir/news/index.html">平成29年11月期　第1四半期決算発表をおこないました。</a><br />
+		</div>
+	</dd>
+<dt><span>2017/03/21</span></dt>
+        <dd>
+		<div>
+			<a href="mc006_cminfo/index.html">CM紹介ページを更新しました。</a><br />
+		</div>
+	</dd>
+<dt><span>2017/03/10</span></dt>
+        <dd>
+		<div>
+			<a href="mc001_news/detail/20170310.html">「アヲハタ ジャムデッキ」イベント<br>「親子でわくわくクッキング ジャムでお手軽♪春の彩りランチＢＯＸ」を2017年4月22日（土）に開催</a><br />
+		</div>
+	</dd>
+<dt><span>2017/02/22</span></dt>
+	<dd>
+		<div>
+			<a href="mc001_news/detail/20170222.html">イチゴへのこだわりを発信するウェブサイト「Ichigo Garden」(イチゴ ガーデン)を開設</a><br />
+		</div>
+	</dd>
+<dt><span>2017/02/22</span></dt>
+	<dd>
+		<div>
+			<a href="ci002_ir/meeting/index.html">「第68回定時株主総会決議ご通知」を掲載</a><br />
+		</div>
+	</dd>
+<dt><span>2017/02/17</span></dt>
+	<dd>
+		<div>
+			<a href="mc003_product/index.html">商品情報を更新しました。</a><br />
+		</div>
+	</dd>
+<dt><span>2017/02/06</span></dt>
+	<dd>
+		<div>
+			<a href="ci002_ir/meeting/index.html">「第68回定時株主総会招集ご通知」の一部修正について　を掲載</a><br />
+		</div>
+	</dd>
+<dt><span>2017/02/02</span></dt>
+	<dd>
+		<div>
+			<a href="ci002_ir/meeting/index.html">「第68回定時株主総会　招集ご通知」および「第68期　法令および定款に基づくインターネット開示事項」を掲載</a><br />
+		</div>
+	</dd>
+<!--<dt><span>2017/01/31</span></dt>
+	<dd>
+		<div>
+			<a href="mc001_news/detail/20170131.html">「うきうきイースタープリン」(ストロベリーミックスソース付き、マンゴーミックスソース付き)<br>2品を期間および数量限定で新発売</a><br />
+		</div>
+	</dd>-->
+<!--<dt><span>2017/01/24</span></dt>
+	<dd>
+		<div>
+			<a href="mc001_news/detail/20170124.html">シニア層のパン食をターゲットに和のラインアップを追加<br>「ヴェルデ ディスペンパック」シリーズから「きなこ&amp;沖縄県産黒糖」を新発売</a><br />
+		</div>
+	</dd>-->
+<!--<dt><span>2017/01/17</span></dt>
+	<dd>
+		<div>
+			<a href="mc001_news/detail/20170117.html">果実だけの甘さとみずみずしさが特徴の「アヲハタ まるごと果実」シリーズ全7品をリニューアル<br>果実感・香り・鮮やかさが向上</a><br />
+		</div>
+	</dd>
+<dt><span>2017/01/11</span></dt>
+	<dd>
+		<div>
+			<a href="ci002_ir/news/index.html">平成28年11月期　決算発表をおこないました。</a><br />
+		</div>
+	</dd>
+<dt><span>2016/12/28</span></dt>
+	<dd>
+		<div>
+			<a href="ci002_ir/news/index.html">業績予想の修正に関するお知らせ</a><br />
+		</div>
+	</dd>
+	<dt><span>2016/12/13</span></dt>
+	<dd>
+		<div>
+			<a href="ci001_company/technology/activities.html">研究活動のページを新設しました。</a><br />
+		</div>
+	</dd>
+
+	<dt><span>2016/11/22</span></dt>
+	<dd>
+		<div>
+			<a href="ci003_recruit/index.html#bustour">採用情報 「株式会社サタケ・アヲハタ株式会社　クリスマス合同バスツアー」を開催いたします。</a><br />
+		</div>
+	</dd>-->
+
+<!--	<dt><span>2016/11/22</span></dt>
+	<dd>
+		<div>
+			<a href="ci003_recruit/index.html#int_mynav">採用情報　2018年卒業予定の学生の方を対象にしたインターンシップへの参加を募集しております。</a><br />
+		</div>
+	</dd>-->
+
+	<!--<dt><span>2016/09/16</span></dt>
+	<dd>
+		<div>
+			<a href="mc001_news/detail/20160916.html">クリスマスシーズン限定で2種発売<br>アヲハタ クリスマスプレザーブ「ラムブラウン」「クランベリーレッド」</a><br />
+		</div>
+	</dd>
+
+	<dt><span>2016/09/12</span></dt>
+	<dd>
+		<div>
+			<a href="ci002_ir/news/index.html">平成28年11月期　第3四半期決算発表をおこないました。</a><br />
+		</div>
+	</dd>
+	<dt><span>2016/09/12</span></dt>
+	<dd>
+		<div>
+			<a href="ci002_ir/news/index.html">業績予想の修正に関するお知らせ</a><br />
+		</div>
+	</dd>
+
+	<dt><span>2016/09/01</span></dt>
+	<dd>
+		<div>
+			<a href="mc001_news/detail/20160901.html">「アヲハタ ジャムデッキ」イベント「もっと知りたい！ジャムとパンの美味しい世界」を2016年10月15日(土)に開催</a><br />
+		</div>
+	</dd>
+
+	<dt><span>2016/08/22</span></dt>
+	<dd>
+		<div>
+			<a href="mc001_news/detail/20160822.html">アヲハタ　５５ジャム全11種類を特別なパッケージでお届けする<br>
+「アヲハタ GO! GO! JAM PARTY」キャンペーンを実施</a><br />
+		</div>
+	</dd>-->
+
+<!--	<dt><span>2016/06/13</span></dt>
+	<dd>
+		<div>
+			<a href="ci002_ir/news/index.html">平成28年11月期　第2四半期決算発表をおこないました。</a><br />
+		</div>
+	</dd>
+	<dt><span>2016/06/03</span></dt>
+	<dd>
+		<div>
+			<a href="ci002_ir/news/index.html">業績予想の修正に関するお知らせ</a><br />
+		</div>
+	</dd>
+
+	<dt><span>2016/05/26</span></dt>
+	<dd>
+		<div>
+			<a href="mc001_news/detail/20160526.html">「アヲハタ ジャムデッキ」イベント 「ジャムを使ってお手軽本格イタリアン」を2016年7月9日(土)に開催</a><br />
+		</div>
+	</dd>
+
+	<dt><span>2016/03/10</span></dt>
+	<dd>
+		<div>
+			<a href="ci002_ir/news/index.html">平成28年11月期　第1四半期決算発表をおこないました。</a><br />
+		</div>
+	</dd>
+	<dt><span>2016/02/15</span></dt>
+	<dd>
+		<div>
+			<a href="mc001_news/detail/20160215.html">「卵黄とバターと瀬戸内レモン（レモンカード）」期間および数量限定で発売</a><br />
+		</div>
+	</dd>
+	
+	<dt><span>2016/02/05</span></dt>
+	<dd>
+		<div>
+			<a href="ci003_recruit/index.html">採用情報 「株式会社サタケ・アヲハタ株式会社　合同企業説明会バスツアー」を開催いたします。</a><br />
+		</div>
+	</dd>
+	
+	<dt><span>2016/02/03</span></dt>
+	<dd>
+		<div>
+			<a href="ci002_ir/manage/index.html">「中期経営計画に関する補足資料」を掲載しました。</a><br />
+		</div>
+	</dd>
+-->	
+<!--	<dt><span>2016/02/02</span></dt>
+	<dd>
+		<div>
+			<a href="mc001_news/detail/20160202.html">「ヴェルデ&nbsp;ディスペンパック」シリーズから<br>「濃い抹茶（宇治抹茶使用）＆ミルク風味クリーム」を新発売、同時に既存品をリニューアル</a><br />
+		</div>
+	</dd>
+-->	
+   
+</dl>
+<p><img src="top/img/news_btm.gif" alt="" width="706" height="35"></p>
+</div>
+<!--フッター-->
+<div id="footer">
+<ul id="fnavi" class="clearfix">
+<li><a href="ci001_company/index.html"><img src="top/img/fnavi1_off.gif" alt="企業情報" width="65" height="17"></a></li>
+<li><a href="koukoku/index.html"><img src="top/img/fnavi2_off.gif" alt="電子公告" width="58" height="17"></a></li>
+<li><a href="ci002_ir/index.html"><img src="top/img/fnavi3_off.gif" alt="投資家の皆様へ" width="89" height="17"></a></li>
+<li><a href="ci003_recruit/index.html"><img src="top/img/fnavi4_off.gif" alt="採用情報" width="60" height="17"></a></li>
+<li><a href="ci004_inquiry/index.html"><img src="top/img/fnavi5_off.gif" alt="お問い合せ" width="78" height="17"></a></li>
+<li><a href="ci005_privacy/index.html"><img src="top/img/fnavi6_off.gif" alt="プライバシーポリシー" width="121" height="17"></a></li>
+<li><a href="ci006_sitemap/index.html"><img src="top/img/fnavi7_off.gif" alt="サイトマップ" width="78" height="17"></a></li>
+<li><a href="ci007_us/index.html"><img src="top/img/fnavi8_off.gif" alt="English" width="59" height="17"></a></li>
+<li><a href="ci007_cn/index.html"><img src="top/img/fnavi9_off.gif" alt="中文" width="36" height="17"></a></li>
+</ul>
+
+<p id="copyright" style="clear:both;"><img src="top/img/copyright.gif" alt="copyright &copy; AOHATA CORPORATION. All right reserved." width="288" height="8"></p>
+</div>
+<!-- / #top_bg --></div>
+
+<p class="page_end"></p>
+</div>
+
+<!-- javascript -->
+<script src="top/js/jquery-1.4.2.min.js"></script>
+<script src="top/js/jquery.easing.1.3.js" type="text/javascript"></script>
+<script src="top/js/jquery.belatedPNG.min.js"></script>
+<script src="top/js/home.js"></script>
+<script src="top/js/smartRollover.js"></script>
+<script src="top/js/responsiveslides.min.js"></script>
+</body></html>

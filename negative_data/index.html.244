@@ -1,0 +1,1198 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<meta name="author" content="株式会社インサイト" />
+<meta name="keywords" content="インサイト,富山,高岡,システム,インターネット,広告代理,総合建築" />
+<meta name="description" content="株式会社インサイトは、システム、インターネット、広告代理から総合建築までお客様の業務をトータルサポート" />
+<meta name="google-site-verification" content="E-C_oRm5G9oIhMFl5QPJ4Ncf5J_ccljIx8J8lEh_DdE" />
+<link rel="alternate" type="application/rss+xml" title="RSS" href="http://www.insight-group.co.jp/rss.xml" />
+<link rel="alternate" type="application/atom+xml" title="Atom" href="http://www.insight-group.co.jp/atom.xml" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.insight-group.co.jp/rsd.xml" />
+<link rel="start" href="http://www.insight-group.co.jp/" title="Home" />
+<link rel="contents" href="http://www.insight-group.co.jp/archives/" title="株式会社インサイト Archives" />
+<title>株式会社インサイト</title>
+<link rel="stylesheet" type="text/css" href="./new/css/jquery.fullPage.css" />
+<link rel="stylesheet" type="text/css" href="./new/css/index.css" />
+<link rel="stylesheet" href="./new/css/animate.css" />
+<link rel="stylesheet" href="mailformpro4.2.2/mfp.statics/mailformpro.css" type="text/css" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="./new/js/jquery.easings.min.js"></script>
+<script type="text/javascript" src="./new/js/jquery.slimscroll.min.js"></script>
+<script type="text/javascript" src="./new/js/jquery.fullPage.js"></script>
+<script type="text/javascript" src="./new/js/jquery.lettering.js"></script>
+<script type="text/javascript" src="./new/js/jquery.textillate.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+	$('#section0').addClass('fade');		// top page fade in
+    $('#fullpage').fullpage({
+		sectionsColor: '#ffffff',
+		scrollingSpeed: 700,
+		anchors: ['topPage', 'salsePromotion', 'keiriPartners', 'shopFactory', 'insightHome', 'designatedManager', 'companyStore', 'companyProfile', 'recruit', 'inquiry', 'privacyPolicy'],
+		css3: true,
+		scrollOverflow: true,
+		verticalCentered: false,
+		controlArrows: true,
+		loopHorizontal: false,
+		touchSensitivity: 2,
+		afterLoad: function(anchorLink, index){
+            var leavingSection = $(this);
+			$('#section' + (index - 1)).addClass('fade');
+        }
+	});
+});
+
+// textillate
+$(function () {
+	$('.effect1').textillate({
+		in: { effect: 'rollIn' }
+	});
+});
+</script>
+</head>
+
+<body>
+<div id="fullpage"> 
+  
+  <!-- top page -->
+  <div id="section0" class="section sec-fade-in">
+
+    <div id="logo"> <img src="./new/img/insight-logo.jpg" alt="title logo"> </div>
+<!--
+    <ul id="menu" class="dropmenu">
+      <li> <a class="effect1">営業販促事業部</a>
+        <ul>
+          <li><a href="#salsePromotion">セールスプロモーション</a></li>
+          <li><a href="#keiriPartners">経理パートナーズ</a> </li>
+        </ul>
+      </li>
+      <li> <a  class="effect1">総合建設事業部</a>
+        <ul>
+          <li><a href="#shopFactory">ショップファクトリー</a></li>
+          <li><a href="#insightHome">ホーム</a></li>
+        </ul>
+      </li>
+      <li><a class="effect1">流通事業部</a>
+        <ul>
+          <li><a href="#designatedManager">指定管理業務</a></li>
+          <li><a href="#companyStore">直営店舗</a></li>
+        </ul>
+      </li>
+    </ul>
+-->
+    <ul id="sub-menu">
+      <li><a href="#companyProfile">企業概要</a></li>
+      <li><a href="#recruit">採用情報</a></li>
+      <li><a href="#inquiry">お問い合わせ</a></li>
+      <li><a href="#privacyPolicy">プライバシーポリシー</a></li>
+    </ul>
+    <footer>Copyright&copy; 株式会社インサイト All Rights Reserved.</footer>
+<!--
+    <div class="next-page"><span class="span"><a class="a-left" href="#salsePromotion">Next</a><a class="a-top">Top</a><a class="a-right">Prev</a></span></div>
+-->
+  </div>
+  <!-- .section0 -->
+  
+  <div id="section1" class="section sec-fade-in">
+    <div class="topic-path">
+      <ol>
+        <li><a href="#topPage">HOME ▷</a></li>
+        <li><a href="#salsePromotion">営業販促事業部 ▷</a></li>
+        <li><a href="#salsePromotion">トータルセールスプロモーション</a></li>
+      </ol>
+    </div>
+    <article>
+      <h1>トータルセールスプロモーション</h1>
+      <div class="slide">
+        <div class="description">
+          <p class="des-main">営業と販促のノウハウに強いインサイトが会社案内、カタログ、ＤＭ、ホームページなど販売促進をトータル的にサポートします。</p>
+        </div>
+        <div class="sec-left">
+          <section>
+            <h2>ホームページ</h2>
+            <p class="p-left"><img src="./new/img/website.png" width="120" alt="インサイト ホームページ制作"></p>
+            <p class="p-right">どんなにいいホームページでも、作っただけでは売り上げにつながりません。当社では、SEO専門業者の知識と経験をフルに活かしたホームページデザインで、より多くのお客様に見てもらうためのサイト作りをご提案致します。</p>
+          </section>
+          <section>
+            <h2>フリーペーパー</h2>
+            <p class="p-left"><img src="./new/img/fumitan.png" width="120" alt="インサイト フリーペーパー制作"></p>
+            <p class="p-right">当社ではフリーペーパーの作成コンセプトの立ち上げからデザイン、発行まですべてをお手伝い致します。フリーペーパーの核となる「流通」を様々な角度や情報から分析し効果的な流通プランニングをご提案、運営に関わる一切を実施致します。</p>
+          </section>
+        </div>
+        <!-- .sec-left -->
+        
+        <div class="sec-right">
+          <section>
+            <h2>パンフレット/ＤＭ</h2>
+            <p class="p-left"><img src="./new/img/dm.png" width="120" alt="インサイト パンフレット/ＤＭ制作"></p>
+            <p class="p-right">カタログやＤＭはその企業やショップ全体のイメージをはじめ商品力・品質・価格競争等のイメージを決定づける、きわめて重要なツールです。仕様や紙質によっても大きく印象は変わりますので、当社では目的に応じ最適なプランをご提案させていただきます。</p>
+          </section>
+          <section>
+            <h2>新聞・雑誌媒体</h2>
+            <p class="p-left"><img src="./new/img/newspaper.png" width="120" alt="インサイト 新聞・雑誌媒体への掲載仲介"></p>
+            <p class="p-right">当社では新聞媒体への広告掲載の仲介を行っております。毎日、全国に向けて発行される新聞は、1日で数多くの人に瞬時に伝えるのに適した広告媒体です。もちろんデザインから一括してご依頼いただくことも可能ですので一度ご相談ください。</p>
+          </section>
+        </div>
+        <!-- .sec-right --> 
+      </div>
+      <!-- .slide1 -->
+      
+      <div class="slide">
+        <div class="sec-left">
+          <section>
+            <h2>折込広告</h2>
+            <p class="p-left"><img src="./new/img/orikomi.png" width="120" alt="インサイト 折込広告制作"></p>
+            <p class="p-right">チラシのデザインから印刷、折込の手配まで一括して当社が請け負います。目的・ターゲット・エリアに対して最適なプランをご提案致します。「新規のお客さんを獲得したい！」という思いを形にします。</p>
+          </section>
+          <section>
+            <h2>ＣＭ作成</h2>
+            <p class="p-left">
+            <video poster="./new/img/cm.png" width="120" controls>
+              <source src="./new/img/insight_home_cm.webm" type="video/webm">
+              <source src="./new/img/insight_home_cm.mp4" type="video/mp4">
+            </video>
+            </p>
+            <p class="p-right">お客様のイメージする映像を豊富なノウハウをもったスタッフが作成致します。お見積りは無料ですので、一度ご相談ください。</p>
+          </section>
+        </div>
+        <!-- .sec-left -->
+        
+        <div class="sec-right">
+          <section>
+            <h2>書店ラック広告</h2>
+            <p class="p-left"><img src="./new/img/rack.png" width="120" alt="書インサイト 店ラック広告"></p>
+            <p class="p-right">Ａ４のパネルに広告を、背面のラックにパンフレットが設置出来るようになっています。書店の売場はそのジャンルからすでにターゲット別に分けられています。ラック広告は、書店だからこそ実現した、ターゲットを完全に絞った広告媒体です。</p>
+          </section>
+          <section>
+            <h2>会社案内/社内報</h2>
+            <p class="p-left"><img src="./new/img/company.png" width="120" alt="インサイト 会社案内/社内報制作"></p>
+            <p class="p-right">企業様にとって、会社を案内するためのパンフレットは非常に重要なツールです。ただ見た目がいいカタログやパンフレットではなく、用途や目的に合わせ、イメージアップに貢献する会社案内を作成します。ホームページと同時に作ることも可能です。</p>
+          </section>
+        </div>
+        <!-- .sec-right --> 
+      </div>
+      <!-- .slide2 -->
+      
+      <div class="slide">
+        <div class="sec-both">
+          <section>
+            <h2>インサイトのWeb事業サービス</h2>
+            <p>インサイトでは、「ネット代理事業」「テクノロジー事業」「ソリューション事業」「コンテンツ事業」を柱に、インタネット広告の代理店サービスにとどまらずマーチャンダイズ戦略からチャンネル戦略，コミュニケーション戦略まで一貫してサポートし、お客様の利益を最大化する「ｅマーケティングサービス」をご提供します。</p>
+            <img src="./new/img/web-service.png" width="800" alt="インサイトのWeb事業サービス"> </section>
+        </div>
+        <!-- .sec-both --> 
+      </div>
+      <!-- .slide3 --> 
+      
+    </article>
+    <div class="next-page"><span class="span"><a class="a-left" href="#keiriPartners">Next</a><a class="a-top" href="#topPage">Top</a><a class="a-right" href="#topPage">Prev</a></span></div>
+  </div>
+  <!-- .section1 -->
+  
+  <div id="section2" class="section sec-fade-in">
+    <div class="topic-path">
+      <ol>
+        <li><a href="#topPage">HOME ▷</a></li>
+        <li><a href="#salsePromotion">営業販促事業部 ▷</a></li>
+        <li><a href="keiriPartners">経理パートナーズ</a></li>
+      </ol>
+    </div>
+    <article>
+      <h1>経理パートナーズ</h1>
+      <div class="slide">
+        <div class="page-top-img"><img src="./new/img/keiri_top.png" alt="経理パートナーズ"></div>
+        <div class="description">
+        <p class="des-main">私たちは、経営者の良きパートナーとなることを目指しています。</p>
+        <p class="des-sub">私たちは、経営者（事業者）の方々に経営内容を数値面から理解していただき、これからの経営判断の一助となるような情報を提供することに努めていきます。</p>
+          <p class="des-main">基本サービス</p>
+        </div>
+        <div class="sec-left">
+          <section>
+            <h2>毎月の試算表作成、年1回の決算書作成</h2>
+            <p class="hang">●自計化（自社でソフトを使い入力）されているお客様については、「訪問→チェック→試算表作成→報告」、という流れで毎月の業務を行っております。</p>
+            <p class="hang">●自計化されていないお客様については、『資料預かり→データ入力→試算表作成→訪問・報告』、という流れで毎月の業務を行っております。</p>
+            <p class="hang">●申告業務（法人の決算申告、個人の確定申告）については藤澤輝男税理士が行っております。</p>
+            <p class="hang">●料金については、個人15,000円/月〜、法人25,000円/月〜が目安となっておりますが、処理量が少ないケースでは年1回の処理などにも対応しておりますので、お気軽にご相談ください。</p>
+            <p class="hang">●儲かっているのかどうかよく分からないという方、いまの税理士との相性が悪いという方、ぜひご相談ください。</p>
+          </section>
+        </div>
+        <!-- .sec-left -->
+        
+        <div class="sec-right">
+          <section>
+            <h2>面倒なことはお任せください</h2>
+            <p class="hang">●経営者の方々に安心して業務に専念してもらい、効率経営ができるようにサポートしていきます。</p>
+            <p class="hang">●開業サポートや経営コンサルも行っておりますので、オプションサービスもぜひご活用下さい。</p>
+          </section>
+          <section>
+            <h2>藤澤輝男税理士</h2>
+            <p class="hang">●申告、税務相談等については藤澤輝男税理士と提携して行っております。</p>
+            <p class="hang">【藤澤輝男税理士事務所】<br />
+              〒930-0016　富山市柳町2丁目3-35 柳町アレンビル9F<a href="http://maps.google.co.jp/maps?f=q&source=embed&hl=ja&geocode=&q=%E5%AF%8C%E5%B1%B1%E5%B8%82%E6%9F%B3%E7%94%BA2-3-35&sll=36.5626,136.362305&sspn=32.062534,57.392578&brcurrent=3,0x5ff7909270b8f169:0x19a8efa78a97f16b,0&ie=UTF8&hq=&hnear=%E5%AF%8C%E5%B1%B1%E7%9C%8C%E5%AF%8C%E5%B1%B1%E5%B8%82%E6%9F%B3%E7%94%BA%EF%BC%92%E4%B8%81%E7%9B%AE%EF%BC%93%E2%88%92%EF%BC%93%EF%BC%95&z=16&ll=36.692608,137.223056" target="_blank">【地図】</a><br />
+              （TEL）076-439-2880　　（FAX）076-439-2888</p>
+          </section>
+        </div>
+        <!-- .sec-right --> 
+      </div>
+      <!-- .slide1 -->
+      
+      <div class="slide">
+      	<div class="description">
+        <p class="des-main">オプションサービス</p>
+        </div>
+        <div class="sec-left">
+          <section>
+            <h2>給与計算（年末調整）</h2>
+            <p class="hang">●給与計算は社会保険料や所得税などが発生してくると複雑となり手計算での給与計算は難しくなります。</p>
+            <p class="hang"> ●経理パートナーズでは給与計算ソフトを使うことによって、給与計算から年末調整までスムーズに行います。</p>
+          </section>
+          <section>
+            <h2>開業サポート</h2>
+            <p class="hang">●経理パートナーズでは開業時の融資相談にも応じます。融資必要書類である事業計画書の作成や、銀行へお客様と同行するなどして、融資をスムーズに受けれるようにサポートします。</p>
+            <p class="hang">●開業時には建築・広告のサポートも行っていますし、開業後も引き続き経理に携わりお客様のご要望に応えれるようにサポートします。</p>
+          </section>
+        </div>
+        <!-- .sec-left -->
+        <div class="sec-right">
+          <section>
+            <h2>経営コンサル</h2>
+            <p class="hang">●飲食店メニュー開発・・・飲食店経験者であるスタッフを中心に、開業サポートの一環として、また定期的な依頼を受けてのメニュー開発を行います。</p>
+            <p class="hang"> ●販促ツール代行・・・何を発信したらいいのか分からないという方。インサイトがあなたのお店にぴったりのツールをご提案します。お店をＰＲするパンフレットから売上ＵＰのメニュー作成、のぼり、看板など集客ＵＰに繋げるデザインをします。</p>
+            <p class="hang"> ●その他に顧客台帳作成代行やホームページ作成なども行います。</p>
+          </section>
+          <section>
+            <h2>保険</h2>
+            <p class="hang">●私たちは、ＡＩＧスター生命、セコム損保の代理店になっていますので安心してご相談ください。</p>
+          </section>
+        </div>
+        <!-- .sec-right --> 
+      </div>
+      <!-- .slide2 -->
+      
+      <div class="slide">
+      	<div class="description">
+            <p class="des-main">料金</p>
+        </div>
+        <div class="sec-left">
+          <section>
+            <h2>経理パートナーズ月額基本料金（目安）</h2>
+            <div class="keiri">
+              <table>
+                <tr>
+                  <th>年商</th>
+                  <th>個人</th>
+                  <th>法人</th>
+                </tr>
+                <tr>
+                  <td>2,000万円以下</td>
+                  <td>15,000円〜</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <td>3,000万円以下</td>
+                  <td>20,000円〜</td>
+                  <td>25,000円〜</td>
+                </tr>
+                <tr>
+                  <td>5,000万円以下</td>
+                  <td>25,000円〜</td>
+                  <td>30,000円〜</td>
+                </tr>
+                <tr>
+                  <td>1億円以下</td>
+                  <td>30,000円〜</td>
+                  <td>35,000円〜</td>
+                </tr>
+                <tr>
+                  <td>1億円超</td>
+                  <td>応相談</td>
+                  <td>応相談</td>
+                </tr>
+              </table>
+            </div>
+            <p class="hang"> ☆決算申告料金は別途、月額基本料金の4ケ月分発生します。 </p>
+            <p class="hang">☆自計化していない（会計データ入力の多い）お客様は、処理量に応じて別途料金が発生します。 </p>
+          </section>
+          <section>
+            <h2>給与計算料金表</h2>
+            <div class="keiri">
+              <table>
+                <tr>
+                  <td>基本料金（1〜5人まで）</td>
+                  <td>5,000円</td>
+                </tr>
+                <tr>
+                  <td>1人増えるごとに</td>
+                  <td>1,000円</td>
+                </tr>
+              </table>
+            </div>
+            <p class="hang">☆社会保険に加入していない方などはお安くなります。</p>
+          </section>
+        </div>
+        <!-- .sec-left -->
+        
+        <div class="sec-right">
+          <section>
+            <h2>年末調整料金表</h2>
+            <div class="keiri">
+              <table>
+                <tr>
+                  <td>基本料金（1〜5人まで）</td>
+                  <td>15,000円</td>
+                </tr>
+                <tr>
+                  <td>1人増えるごとに</td>
+                  <td>2,000円</td>
+                </tr>
+              </table>
+            </div>
+            <p>☆年末調整しない方などはお安くなります。</p>
+          </section>
+          <section>
+            <h2>融資相談</h2>
+            <p class="des-sub">（事業計画書作成〜融資申込）</p>
+            <div class="keiri">
+              <table>
+                <tr>
+                  <td>基本料金100,000円 ＋ 成功報酬（融資額の1％）</td>
+                </tr>
+              </table>
+            </div>
+            <p class="hang">☆成功報酬については発生しないケースもあります。</p>
+            <p class="hang">●その他経営コンサル料金などについてはお客様とご相談の上、決めさせていただいています。</p>
+          </section>
+        </div>
+        <!-- .sec-right --> 
+      </div>
+      <!-- .slide3 --> 
+      
+    </article>
+    <div class="next-page"><span class="span"><a class="a-left" href="#shopFactory">Next</a><a class="a-top" href="#topPage">Top</a><a class="a-right" href="#salsePromotion">Prev</a></span></div>
+  </div>
+  <!-- .section2 -->
+  
+  <div id="section3" class="section sec-fade-in">
+    <div class="topic-path">
+      <ol>
+        <li><a href="#topPage">HOME ▷</a></li>
+        <li><a href="#shopFactory">総合建設事業部 ▷</a></li>
+        <li><a href="#shopFactory">ショップファクトリー</a></li>
+      </ol>
+    </div>
+    <article>
+      <h1>ショップファクトリー</h1>
+      <div class="description">
+        <p class="des-main">「夢をカタチに」<br />
+          お客様一人ひとりの夢をカタチに変えるため総合建設事業部では機能性・品質・デザインにこだわり、お客様と時間をかけて住宅・店舗を作り上げて行きます。</p>
+        <p class="des-sub">インサイトホームでは、通気・耐震性・収納にこだわり、お住まいにあんるご家族が安心して健康に、生活して頂けるようご提案させていただいております。お客様の夢を実現するために経験豊富なスタッフが一貫して対応させて頂きます。</p>
+      </div>
+      <div class="sec-left">
+        <section>
+          <h2>設計・施工（店舗物件）</h2>
+          <p class="p-left"><img src="./new/img/shop.png" width="120" alt="インサイト ショップファクトリー 設計・施工（店舗物件）"></p>
+          <p class="p-right">業務開発からコンセプトメイク・ターゲット設定、立地選定、設計デザイン、ネーミング考案のプランニングから開業準備支援、開業後の販売促進サポートまでトータルで飲食店開発の業務を一貫して行います。</p>
+        </section>
+        <section>
+          <h2>パース制作</h2>
+          <p class="p-left"><img src="./new/img/perspective.png" width="120" alt="インサイト ショップファクトリー パース制作"></p>
+          <p class="p-right">建築、店舗デザイン経験者による施工結果を理解した高品質なＣＧパースを作成しております。</p>
+        </section>
+      </div>
+      <!-- .sec-left -->
+      
+      <div class="sec-right">
+        <section>
+          <h2>設計・施工（住宅物件）</h2>
+          <p class="p-left"><img src="./new/img/house.png" width="120" alt="インサイト ショップファクトリー 設計・施工（住宅物件）"></p>
+          <p class="p-right">注文住宅ならではの満足感溢れる住まいづくりをご提案します。</p>
+        </section>
+        <section>
+          <h2>インサイトエステート</h2>
+          <p class="p-left"><img src="./new/img/estate.png" width="120" alt="インサイトエステート"></p>
+          <p class="p-right">テナント募集や不動産仲介など、貸したい・借りたい方、売りたい・買いたい方に向けて、不動産の有効活用をご提案します。</p>
+        </section>
+      </div>
+      <!-- .sec-right --> 
+    </article>
+    <div class="next-page"><span class="span"><a class="a-left" href="#insightHome">Next</a><a class="a-top" href="#topPage">Top</a><a class="a-right" href="#keiriPartners">Prev</a></span></div>
+  </div>
+  <!-- .section3 -->
+  
+  <div id="section4" class="section sec-fade-in">
+    <div class="topic-path">
+      <ol>
+        <li><a href="#topPage">HOME ▷</a></li>
+        <li><a href="#shopFactory">総合建設事業部 ▷</a></li>
+        <li><a href="#shopFactory">ホーム</a></li>
+      </ol>
+    </div>
+    <article>
+      <h1>インサイトホーム</h1>
+      <div class="page-top-img"><img src="./new/img/home-top.png" alt="インサイトホーム"></div>
+      <div class="description">
+        <p class="des-main">「夢をカタチに」　暮らしを楽しみ、心を豊かにする「家」を</p>
+      </div>
+      <div class="sec-left">
+        <section>
+          <h2>インサイトホームの特徴「美的収納住宅」</h2>
+          <p class="p-left"><img src="./new/img/home-tokucho.png" width="120" alt="インサイトホームの特徴「美的収納住宅」"></p>
+          <p class="p-right">「ものをしまう」「収納」という行為を「住まいのかたちトライアングルにあてはめます。</p>
+        </section>
+        <section>
+          <h2>安心と補償</h2>
+          <p class="p-left"><img src="./new/img/home-hosho.png" width="120" alt="インサイトホームの安心と補償"></p>
+          <p class="p-right">「３つの安心１０年保証」インサイトホームでは、「瑕疵担保責任保険」「地盤保証」「完成保証」の３つの安心できる保証で、お客様のお住まいへの｢安全・安心・信頼」のご提供に積極的に努めています。</p>
+        </section>
+      </div>
+      <!-- .sec-left -->
+      
+      <div class="sec-right">
+        <section>
+          <h2>品質へのこだわり</h2>
+          <p class="p-left"><img src="./new/img/home-wood.png" width="120" alt="インサイトホームの品質へのこだわり"></p>
+          <p class="p-right">お客さまの生涯を見守り育む場所で毎日健康に過ごしていただくために、
+            木にこだわり、木が持つ優しさや強さを活かして、より快適で安全な住まいづくりを追求します。</p>
+        </section>
+        <section>
+          <h2>施工事例</h2>
+          <p class="p-left"><img src="./new/img/home-sample.png" width="120" alt="インサイトホームの施工事例"></p>
+          <p class="p-right">S邸　富山市</p>
+        </section>
+      </div>
+      <!-- .sec-right -->
+      <div class="sec-both">
+        <section>
+          <h2>連絡先</h2>
+          <p><strong><a href="tel:0120-404-002">TEL:0120-404-002</a><br />
+            富山県富山市総曲輪4-5-11インサイトビル5F<br />
+            <a href="http://www.insight-home.co.jp/" target="_blank">「インサイトホーム」について調べる</a></strong></p>
+        </section>
+      </div>
+      <!-- .sec-both --> 
+    </article>
+    <div class="next-page"><span class="span"><a class="a-left" href="#designatedManager">Next</a><a class="a-top" href="#topPage">Top</a><a class="a-right" href="#shopFactory">Prev</a></span></div>
+  </div>
+  <!-- .section4 -->
+  
+  <div id="section5" class="section sec-fade-in">
+    <div class="topic-path">
+      <ol>
+        <li><a href="#topPage">HOME ▷</a></li>
+        <li><a href="#designatedManager">流通事業部 ▷</a></li>
+        <li><a href="#designatedManager">指定管理業務</a></li>
+      </ol>
+    </div>
+    <article>
+      <h1>指定管理業務「道の駅 万葉の里 高岡」</h1>
+      <div class="page-top-img"><img src="./new/img/manyo-top2.png" alt="インサイト 指定管理業務 「道の駅 万葉の里 高岡」"></div>
+      <div class="description">
+        <p class="des-main">道の駅の３大柱である「休憩・情報発信・地域の連携」機能を高め、道路利用者や地元住民の安全を守ります。</p>
+        <p class="des-sub">平成17年4月に開駅した「道の駅　万葉の里　高岡」は高岡市から指定管理業務者として選定された㈱インサイトが運営しています。24時間利用可能なトイレや駐車場、道路情報コーナーがあるため道の駅として認定されています。</p>
+      </div>
+      <div class="sec-left">
+        <section>
+          <h2>地域の情報発信機能</h2>
+          <p class="p-left"><img src="./new/img/manyo-info.png" width="120" alt="道の駅 万葉の里 高岡 地域の情報発信機能"></p>
+          <p class="p-right">24時間利用可能な道路情報コーナーを設け、地域の道路情報や防災情報を発信しています。観光案内パンフレットも各地から取り寄せるなど、観光発信にも力を注ぎます。</p>
+        </section>
+        <section>
+          <h2>充実のお土産コーナー</h2>
+          <p class="p-left"><img src="./new/img/manyo-omiyage.png" width="120" alt="道の駅 万葉の里 高岡 充実のお土産コーナー"></p>
+          <p class="p-right">県内の名産品・特産品を多数取り揃えております。取り扱い商品数は県内有数の品揃えを誇ります。</p>
+        </section>
+      </div>
+      <!-- .sec-left -->
+      
+      <div class="sec-right">
+        <section>
+          <h2>充実したフードコート</h2>
+          <p class="p-left"><img src="./new/img/manyo-food.png" width="120" alt="道の駅 万葉の里 高岡 充実したフードコート"></p>
+          <p class="p-right">広々としたフードコートでは、高岡グリーンラーメンや平成25年11月に日本一になったブラックコロッケ・ホワイトコロッケなどのご当地メニューも豊富に用意しております。</p>
+        </section>
+        <section>
+          <h2>華桜</h2>
+          <p class="p-left"><img src="./new/img/manyo-kazakura.png" width="120" alt="道の駅 万葉の里 高岡 華桜"></p>
+          <p class="p-right">団体予約専用食事会場もご用意。県内外から訪れる団体客様に向けて、海の幸いっぱいの御膳料理をお手頃な価格でご提供します。</p>
+        </section>
+      </div>
+      <!-- .sec-right -->
+      <div class="sec-both">
+        <section>
+          <h2>連絡先</h2>
+          <p><strong><a href="tel:0766-30-0011">TEL:0766-30-0011</a>　富山県高岡市蜂ケ島131番地1<br />
+            <a href="http://www.manyonosato.com/" target="_blank">「万葉の里 高岡」について調べる</a></strong></p>
+        </section>
+      </div>
+      <!-- .sec-both --> 
+    </article>
+    <div class="next-page"><span class="span"><a class="a-left" href="#companyStore">Next</a><a class="a-top" href="#topPage">Top</a><a class="a-right" href="#insightHome">Prev</a></span></div>
+  </div>
+  <!-- .section5 -->
+  
+  <div id="section6" class="section sec-fade-in">
+    <div class="topic-path">
+      <ol>
+        <li><a href="#topPage">HOME ▷</a></li>
+        <li><a href="#designatedManager">流通事業部 ▷</a></li>
+        <li><a href="#companyStore">直営店</a></li>
+      </ol>
+    </div>
+    <article>
+      <div class="slide">
+        <h1>越中居酒屋 かざくら</h1>
+        <div class="page-top-img"><img src="./new/img/kazakura-top.png" alt="越中居酒屋 かざくら"></div>
+        <div class="description">
+          <p class="des-main">魚屋直営の強みを生かした海鮮居酒屋</p>
+          <p class="des-sub">開展より９年を迎え、地元企業の大型宴会に利用される海鮮居酒屋。魚屋の直営店舗として、氷見漁港を中心に毎朝吟味された鮮魚を提供いたします。鮮度とボリュームにこだわったメニューが自慢です。</p>
+        </div>
+        <div class="sec-left">
+          <section>
+            <h2>魚屋直営の高品質な鮮魚</h2>
+            <p class="p-left"><img src="./new/img/kazakura-food.png" width="120" alt="越中居酒屋 かざくら 魚屋直営の高品質な鮮魚"></p>
+            <p class="p-right">同じグループ内に魚屋がある強みを生かし、魚屋出身の調理人が高品質な鮮魚を提供いたします。</p>
+          </section>
+          <section>
+            <h2>多彩なコース料理</h2>
+            <p class="p-left"><img src="./new/img/kazakura-course.png" width="120" alt="越中居酒屋 かざくら 多彩なコース料理"></p>
+            <p class="p-right">魚を中心としたプランはもちろん、接待、女子会、記念日、各種コンパなどに対応できる多様なコース料理をご用意しております。</p>
+          </section>
+        </div>
+        <!-- .sec-left -->
+        
+        <div class="sec-right">
+          <section>
+            <h2>豊富なドリンク</h2>
+            <p class="p-left"><img src="./new/img/kazakura-drink.png" width="120" alt="越中居酒屋 かざくら 豊富なドリンク"></p>
+            <p class="p-right">鮮魚に合わせて楽しめるように地酒やワインも豊富に揃えております。</p>
+          </section>
+          <section>
+            <h2>京町家の風情の中で</h2>
+            <p class="p-left"><img src="./new/img/kazakura-room.png" width="120" alt="越中居酒屋 かざくら 京町家の風情の中で"></p>
+            <p class="p-right">京の町屋を思わせる雰囲気の中で高岡ならではの食事をお楽しみいただけます。</p>
+          </section>
+        </div>
+        <!-- .sec-right -->
+        <div class="sec-both">
+          <section>
+            <h2>連絡先</h2>
+            <p><strong><a href="tel:0766-26-2101">TEL:0766-26-2101</a><br />
+              富山県高岡市宮脇町1003インサイトビル1F-2F<br />
+              <a href="http://www.yuc.jp/webapp/module/search/pay/pay.php_code=174" target="_blank">「越中居酒屋 かざくら」について調べる</a></strong></p>
+          </section>
+        </div>
+        <!-- .sec-both --> 
+      </div>
+      <!-- .slide1 -->
+      
+      <div class="slide">
+        <h1>パーティースペース アーラ</h1>
+        <div class="sec-left">
+          <section>
+            <h2>貸し切りスペース</h2>
+            <p class="p-left"><img src="./new/img/aala.png" width="120" alt="貸し切りスペース"></p>
+            <p class="p-right">洋風貸し切りスペースとして、３階ワンフロアーを団体様貸し切りにてご用意いたします。迫力画面の500インチプロジェクターも完備しています。</p>
+          </section>
+        </div>
+        <!-- .sec-left -->
+        
+        <div class="sec-right">
+          <section>
+            <h2>お勧め料理コース</h2>
+            <p class="p-left"><img src="./new/img/aala-food.png" width="120" alt="パーティースペース アーラ お勧め料理コース"></p>
+            <p class="p-right">ワイワイ皆でつまめる２次会お薦めプランもご用意しております。</p>
+          </section>
+        </div>
+        <!-- .sec-right -->
+        <div class="sec-both">
+          <section>
+            <h2>連絡先</h2>
+            <p><strong><a href="tel:0766-27-6676">TEL:0766-27-6676</a><br />
+              富山県高岡市宮脇町1003インサイトビル3F<br />
+              <a href="http://www.yuc.jp/webapp/module/search/pay/pay.php_code=990" target="_blank">「パーティースペース アーラ」について調べる</a></strong></p>
+          </section>
+        </div>
+        <!-- .sec-both --> 
+      </div>
+      <!-- .slide2 --> 
+      
+    </article>
+    <div class="next-page"><span class="span"><a class="a-left" href="#companyProfile">Next</a><a class="a-top" href="#topPage">Top</a><a class="a-right" href="#designatedManager">Prev</a></span></div>
+  </div>
+  <!-- .section6 -->
+  
+  <div id="section7" class="section sec-fade-in">
+    <div class="topic-path">
+      <ol>
+        <li><a href="#topPage">HOME ▷</a></li>
+        <li><a href="#companyProfile">会社概要</a></li>
+      </ol>
+    </div>
+    <article>
+      <h1>会社概要</h1>
+      <div id="company" class="sec-both">
+        <section>
+          <table>
+            <tbody>
+              <tr>
+                <th>名　称</th>
+                <td> インサイトグループ　INSIGHT Group </td>
+              </tr>
+              <tr>
+                <th>URL</th>
+                <td><a href="http://www.insight-group.co.jp/">http://www.insight-group.co.jp</a></td>
+              </tr>
+              <tr>
+                <th>業　種</th>
+                <td>商　社</td>
+              </tr>
+              <tr>
+                <th>設立年月日</th>
+                <td>1998年2月12日</td>
+              </tr>
+              <tr>
+                <th>資 本 金</th>
+                <td>140,000,000円<br />
+                  関連会社 資本金合計</td>
+              </tr>
+              <tr>
+                <th>社長 CEO<br /></th>
+                <td>林　克吉</td>
+              </tr>
+              <tr>
+                <th>顧問弁護士</th>
+                <td>島谷　武志</td>
+              </tr>
+              <tr>
+                <th>顧問税理士</th>
+                <td>奥野　豊、藤澤　輝男</td>
+              </tr>
+              <tr>
+                <th>富山事務所</th>
+                <td>富山県富山市総曲輪4-5-11インサイトビル5F<br />
+                  TEL 076-413-5511 　FAX 076-413-5570</td>
+              </tr>
+              <tr>
+                <th>高岡本社</th>
+                <td>富山県高岡市宮脇町1003インサイトビル4F<br />
+                  TEL 0766-27-6666 　FAX 0766-27-6060</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+      </div>
+      <!-- .#company --> 
+    </article>
+    <div class="next-page"><span class="span"><a class="a-left" href="#recruit">Next</a><a class="a-top" href="#topPage">Top</a><a class="a-right" href="#companyStore">Prev</a></span></div>
+  </div>
+  <!-- .section7 -->
+  
+  <div id="section8" class="section sec-fade-in">
+    <div class="topic-path">
+      <ol>
+        <li><a href="#topPage">HOME ▷</a></li>
+        <li><a href="#recruit">採用情報</a></li>
+      </ol>
+    </div>
+    <article>
+      <h1>採用情報</h1>
+      <div class="slide">
+        <div class="sec-left">
+          <section>
+            <h2>仕入れ・配送・商品管理</h2>
+            <table class="job">
+              <tr>
+                <th>業務内容</th>
+                <td>鮮魚を中心とした仕入れ、富山県内各店への配送など</td>
+              </tr>
+              <tr>
+                <th>対象となる方</th>
+                <td>仕事に情熱を持って取り組める方　●経験者優遇</td>
+              </tr>
+              <tr>
+                <th>給与</th>
+                <td>200,000~230,000円（※経験・年齢・能力を考慮のうえ、決定します。）</td>
+              </tr>
+              <tr>
+                <th>休日</th>
+                <td>月6回　※市場カレンダーに準ずる</td>
+              </tr>
+              <tr>
+                <th>福利厚生</th>
+                <td>健康保険、雇用保険、労災保険、厚生年金保険、社員旅行</td>
+              </tr>
+              <tr>
+                <th>勤務地</th>
+                <td>富山県氷見市</td>
+              </tr>
+              <tr>
+                <th>その他</th>
+                <td>要普通自動車免許</td>
+              </tr>
+              <tr>
+                <th>応募方法</th>
+                <td>履歴書（写真付）、職務履歴書（書式自由）を下記までご郵送ください。なお、書類選考後追って面接日をご連絡いたします。</td>
+              </tr>
+              <tr>
+                <th>送り先/お問い合わせ</th>
+                <td>〒933-0024<br />
+                  富山県高岡市宮脇町1003インサイトビル4F<br />
+                  TEL 0766-27-6666 FAX 0766-27-6060<br />
+                  E-mail : info@insight-group.co.jp</td>
+              </tr>
+            </table>
+          </section>
+        </div>
+        <!-- .sec-left -->
+        
+        <div class="sec-right">
+          <section>
+            <h2>Webデザイナー</h2>
+            <table class="job">
+              <tr>
+                <th>業務内容</th>
+                <td>ウェブサイトを含むグラフィック全般のデザイン制作</td>
+              </tr>
+              <tr>
+                <th>対象となる方</th>
+                <td>デザインの実務経験3年以上。グラフィック制作に必要なアプリケーションの操作に優れていること</td>
+              </tr>
+              <tr>
+                <th>給与</th>
+                <td>230,000~300,000円　（※経験・年齢・能力を考慮のうえ、決定します。）</td>
+              </tr>
+              <tr>
+                <th>休日</th>
+                <td>日曜日、祝日、月2回土曜日、年末年始、夏期休暇、ゴールデンウィーク</td>
+              </tr>
+              <tr>
+                <th>福利厚生</th>
+                <td>健康保険、雇用保険、労災保険、厚生年金保険、社員旅行</td>
+              </tr>
+              <tr>
+                <th>勤務地</th>
+                <td>富山県高岡市</td>
+              </tr>
+              <tr>
+                <th>その他</th>
+                <td>要普通自動車免許</td>
+              </tr>
+              <tr>
+                <th>応募方法</th>
+                <td>履歴書（写真付）、職務履歴書（書式自由）を下記までご郵送ください。なお、書類選考後追って面接日をご連絡いたします。</td>
+              </tr>
+              <tr>
+                <th>送り先/お問い合わせ</th>
+                <td>株式会社インサイトエージェンシー　人事部<br />
+                  〒933-0024<br />
+                  富山県高岡市宮脇町1003インサイトビル4F <br />
+                  TEL 0766-27-6666 FAX 0766-27-6060<br />
+                  E-mail : info@insight-group.co.jp</td>
+              </tr>
+            </table>
+          </section>
+        </div>
+        <!-- .sec-right --> 
+      </div>
+      <!-- .slide1 -->
+      
+      <div class="slide">
+        <div class="sec-left">
+          <section>
+            <h2>営業　（広告営業）</h2>
+            <table class="job">
+              <tr>
+                <th>業務内容</th>
+                <td>得意先の様々な戦略課題に対応し、最も効果的・効率的なコミュニケーションプランの立案から実施までを総合的にプロデュースする業務</td>
+              </tr>
+              <tr>
+                <th>対象となる方</th>
+                <td>営業経験者　●広告営業経験者優遇</td>
+              </tr>
+              <tr>
+                <th>給与</th>
+                <td>230,000~300,000円　（※経験・年齢・能力を考慮のうえ、決定します。）</td>
+              </tr>
+              <tr>
+                <th>休日</th>
+                <td>日曜日、祝日、月2回土曜日、年末年始、夏期休暇、ゴールデンウィーク</td>
+              </tr>
+              <tr>
+                <th>福利厚生</th>
+                <td>健康保険、雇用保険、労災保険、厚生年金保険、社員旅行</td>
+              </tr>
+              <tr>
+                <th>勤務地</th>
+                <td>富山県富山市</td>
+              </tr>
+              <tr>
+                <th>その他</th>
+                <td>要普通自動車免許</td>
+              </tr>
+              <tr>
+                <th>応募方法</th>
+                <td>履歴書（写真付）、職務履歴書（書式自由）を下記までご郵送ください。なお、書類選考後追って面接日をご連絡いたします。</td>
+              </tr>
+              <tr>
+                <th>送り先/お問い合わせ</th>
+                <td>株式会社インサイトエージェンシー　人事部<br />
+                  〒933-0024<br />
+                  富山県高岡市宮脇町1003インサイトビル4F <br />
+                  TEL 0766-27-6666 FAX 0766-27-6060<br />
+                  E-mail : info@insight-group.co.jp</td>
+              </tr>
+            </table>
+          </section>
+        </div>
+        <!-- .sec-left -->
+        
+        <div class="sec-right">
+          <section>
+            <h2>不動産売買・仲介営業</h2>
+            <table class="job">
+              <tr>
+                <th>業務内容</th>
+                <td>不動産売買の仲介営業</td>
+              </tr>
+              <tr>
+                <th>対象となる方</th>
+                <td>不動産業界に興味がある方　●経験者優遇</td>
+              </tr>
+              <tr>
+                <th>給与</th>
+                <td>250,000~300,000円　（※経験・年齢・能力を考慮のうえ、決定します。）</td>
+              </tr>
+              <tr>
+                <th>休日</th>
+                <td>日曜日、祝日、月2回土曜日、年末年始、夏期休暇、ゴールデンウィーク</td>
+              </tr>
+              <tr>
+                <th>福利厚生</th>
+                <td>健康保険、雇用保険、労災保険、厚生年金保険、社員旅行</td>
+              </tr>
+              <tr>
+                <th>勤務地</th>
+                <td>富山県富山市</td>
+              </tr>
+              <tr>
+                <th>その他</th>
+                <td>要普通自動車免許</td>
+              </tr>
+              <tr>
+                <th>応募方法</th>
+                <td>履歴書（写真付）、職務履歴書（書式自由）を下記までご郵送ください。なお、書類選考後追って面接日をご連絡いたします。</td>
+              </tr>
+              <tr>
+                <th>送り先/お問い合わせ</th>
+                <td>株式会社インサイトエステート　人事部<br />
+                  〒930-0083<br />
+                  富山県富山市総曲輪4-5-11インサイトビル5F<br />
+                  TEL.076-413-5511 FAX.076-413-5570<br />
+                  E-mail : info@insight-group.co.jp</td>
+              </tr>
+            </table>
+          </section>
+        </div>
+        <!-- .sec-right --> 
+      </div>
+      <!-- .slide2 -->
+      
+      <div class="slide">
+        <div class="sec-left">
+          <section>
+            <h2>一級・二級建築士</h2>
+            <table class="job">
+              <tr>
+                <th>業務内容</th>
+                <td>注文住宅や商業施設の企画・設計から施工管理、プランニングなど</td>
+              </tr>
+              <tr>
+                <th>対象となる方</th>
+                <td>一級・二級建築士の資格所有者</td>
+              </tr>
+              <tr>
+                <th>給与</th>
+                <td>300,000~350,000円　（※経験・年齢・能力を考慮のうえ、決定します。）</td>
+              </tr>
+              <tr>
+                <th>休日</th>
+                <td>日曜日、祝日、月2回土曜日、年末年始、夏期休暇、ゴールデンウィーク</td>
+              </tr>
+              <tr>
+                <th>福利厚生</th>
+                <td>健康保険、雇用保険、労災保険、厚生年金保険、社員旅行</td>
+              </tr>
+              <tr>
+                <th>勤務地</th>
+                <td>富山県高岡市</td>
+              </tr>
+              <tr>
+                <th>その他</th>
+                <td>要普通自動車免許</td>
+              </tr>
+              <tr>
+                <th>応募方法</th>
+                <td>履歴書（写真付）、職務履歴書（書式自由）を下記までご郵送ください。なお、書類選考後追って面接日をご連絡いたします。</td>
+              </tr>
+              <tr>
+                <th>送り先/お問い合わせ</th>
+                <td>インサイト総合建設株式会社　人事部<br />
+                  〒933-0024<br />
+                  富山県高岡市宮脇町1003インサイトビル4F<br />
+                  TEL 0766-27-6666 FAX 0766-27-6060<br />
+                  E-mail : info@insight-group.co.jp</td>
+              </tr>
+            </table>
+          </section>
+        </div>
+        <!-- .sec-left -->
+        
+        <div class="sec-right">
+          <section>
+            <h2>営業　（建築）</h2>
+            <table class="job">
+              <tr>
+                <th>業務内容</th>
+                <td>住宅営業、土地開発・分譲営業など</td>
+              </tr>
+              <tr>
+                <th>対象となる方</th>
+                <td>仕事に情熱を持って取り組める方　●宅地建物取引主任者優遇</td>
+              </tr>
+              <tr>
+                <th>給与</th>
+                <td>300,000~350,000円　（※経験・年齢・能力を考慮のうえ、決定します。）</td>
+              </tr>
+              <tr>
+                <th>休日</th>
+                <td>日曜日、祝日、月2回土曜日、年末年始、夏期休暇、ゴールデンウィーク</td>
+              </tr>
+              <tr>
+                <th>福利厚生</th>
+                <td>健康保険、雇用保険、労災保険、厚生年金保険、社員旅行</td>
+              </tr>
+              <tr>
+                <th>勤務地</th>
+                <td>富山県富山市</td>
+              </tr>
+              <tr>
+                <th>その他</th>
+                <td>要普通自動車免許</td>
+              </tr>
+              <tr>
+                <th>応募方法</th>
+                <td>履歴書（写真付）、職務履歴書（書式自由）を下記までご郵送ください。なお、書類選考後追って面接日をご連絡いたします。</td>
+              </tr>
+              <tr>
+                <th>送り先/お問い合わせ</th>
+                <td>インサイト総合建設株式会社　人事部<br />
+                  〒933-0024<br />
+                  富山県高岡市宮脇町1003インサイトビル4F<br />
+                  TEL 0766-27-6666 FAX 0766-27-6060<br />
+                  E-mail : info@insight-group.co.jp</td>
+              </tr>
+            </table>
+          </section>
+        </div>
+      </div>
+      <!-- .slide3 --> 
+      
+    </article>
+    <div class="next-page"><span class="span"><a class="a-left" href="#inquiry">Next</a><a class="a-top" href="#topPage">Top</a><a class="a-right" href="#companyProfile">Prev</a></span></div>
+  </div>
+  <!-- .section8 -->
+  
+  <div id="section9" class="section sec-fade-in">
+    <div class="topic-path">
+      <ol>
+        <li><a href="#topPage">HOME ▷</a></li>
+        <li><a href="#inquiry">お問い合わせ</a></li>
+      </ol>
+    </div>
+    <article>
+      <h1>お問い合わせ</h1>
+      <div class="sec-both">
+        <section>
+          <form id="mailformpro" action="mailformpro4.2.2/mailformpro/mailformpro.cgi" method="POST">
+            <div id="mailfield">
+              <dl class="mailform">
+                <dt class="mfp"><span class="must">必須</span>お名前</dt>
+                <dd class="mfp">
+                  <input type="text" name="お名前" size="30" required="required" />
+                </dd>
+                <dt class="mfp"><span class="must">必須</span>役職名</dt>
+                <dd class="mfp">
+                  <input type="text" name="役職名" size="30" required="required" />
+                </dd>
+                <dt class="mfp">会社名</dt>
+                <dd class="mfp">
+                  <input type="text" name="会社名" size="30" />
+                </dd>
+                <dt class="mfp"><span class="must">必須</span>郵便番号</dt>
+                <dd class="mfp">
+                  <input type="hidden" name="ご住所" data-unjoin="〒+郵便番号+\n+都道府県+詳細住所" value="" />
+                  <input type="text" name="郵便番号" size="30" required="required" autocomplete="off" />
+                </dd>
+                <dt class="mfp"><span class="must">必須</span>ご住所</dt>
+                <dd class="mfp">
+                  <ol>
+                    <li>
+                      <select name="都道府県" required>
+                        <option value="" selected="selected">【都道府県を選択して下さい】</option>
+                        <optgroup label="北海道・東北地方">
+                        <option value="北海道">北海道</option>
+                        <option value="青森県">青森県</option>
+                        <option value="岩手県">岩手県</option>
+                        <option value="秋田県">秋田県</option>
+                        <option value="宮城県">宮城県</option>
+                        <option value="山形県">山形県</option>
+                        <option value="福島県">福島県</option>
+                        </optgroup>
+                        <optgroup label="関東地方">
+                        <option value="栃木県">栃木県</option>
+                        <option value="群馬県">群馬県</option>
+                        <option value="茨城県">茨城県</option>
+                        <option value="埼玉県">埼玉県</option>
+                        <option value="東京都">東京都</option>
+                        <option value="千葉県">千葉県</option>
+                        <option value="神奈川県">神奈川県</option>
+                        </optgroup>
+                        <optgroup label="中部地方">
+                        <option value="山梨県">山梨県</option>
+                        <option value="長野県">長野県</option>
+                        <option value="新潟県">新潟県</option>
+                        <option value="富山県">富山県</option>
+                        <option value="石川県">石川県</option>
+                        <option value="福井県">福井県</option>
+                        <option value="静岡県">静岡県</option>
+                        <option value="岐阜県">岐阜県</option>
+                        <option value="愛知県">愛知県</option>
+                        </optgroup>
+                        <optgroup label="近畿地方">
+                        <option value="三重県">三重県</option>
+                        <option value="滋賀県">滋賀県</option>
+                        <option value="京都府">京都府</option>
+                        <option value="大阪府">大阪府</option>
+                        <option value="兵庫県">兵庫県</option>
+                        <option value="奈良県">奈良県</option>
+                        <option value="和歌山県">和歌山県</option>
+                        </optgroup>
+                        <optgroup label="四国地方">
+                        <option value="徳島県">徳島県</option>
+                        <option value="香川県">香川県</option>
+                        <option value="愛媛県">愛媛県</option>
+                        <option value="高知県">高知県</option>
+                        </optgroup>
+                        <optgroup label="中国地方">
+                        <option value="鳥取県">鳥取県</option>
+                        <option value="島根県">島根県</option>
+                        <option value="岡山県">岡山県</option>
+                        <option value="広島県">広島県</option>
+                        <option value="山口県">山口県</option>
+                        </optgroup>
+                        <optgroup label="九州・沖縄地方">
+                        <option value="福岡県">福岡県</option>
+                        <option value="佐賀県">佐賀県</option>
+                        <option value="長崎県">長崎県</option>
+                        <option value="大分県">大分県</option>
+                        <option value="熊本県">熊本県</option>
+                        <option value="宮崎県">宮崎県</option>
+                        <option value="鹿児島県">鹿児島県</option>
+                        <option value="沖縄県">沖縄県</option>
+                        </optgroup>
+                      </select>
+                    </li>
+                    <li>
+                      <input type="text" name="詳細住所" required="required" size="40" />
+                    </li>
+                  </ol>
+                </dd>
+                <dt class="mfp">ご連絡先TEL</dt>
+                <dd class="mfp">
+                  <input type="tel" data-type="tel" name="ご連絡先TEL" size="16" data-min="9" />
+                </dd>
+                <dt class="mfp"><span class="must">必須</span>ご連絡先メール</dt>
+                <dd class="mfp">
+                  <input type="email" data-type="email" name="email" size="40" required="required" />
+                </dd>
+                <dt class="mfp"><span class="must">必須</span>確認用</dt>
+                <dd class="mfp">
+                  <input type="email" data-type="email" name="confirm_email" size="40" required="required" />
+                </dd>
+                <dt class="mfp">備考欄</dt>
+                <dd class="mfp">
+                  <textarea name="備考欄" rows="7" cols="38"></textarea>
+                </dd>
+                <dt class="mfp"><span class="must">必須</span>送信確認</dt>
+                <dd class="mfp">
+                  <label>
+                    <input type="checkbox" required="required" data-exc="1" name="送信確認" value="送信チェック済み" />
+                    内容を確認したらチェックを入れてください</label>
+                </dd>
+              </dl>
+              <div class="mfp_buttons">
+                <button type="submit">送信する</button>
+                &nbsp;&nbsp;
+                <button type="reset">リセット</button>
+              </div>
+            </div><!-- .mailfield -->
+          </form>
+          <script type="text/javascript" id="mfpjs" src="mailformpro/mailformpro.cgi" charset="UTF-8"></script> 
+        </section>
+      </div>
+      <!-- .sec-both --> 
+    </article>
+    <div class="next-page"><span class="span"><a class="a-left" href="#privacyPolicy">Next</a><a class="a-top" href="#topPage">Top</a><a class="a-right" href="#recruit">Prev</a></span></div>
+  </div>
+  <!-- .section9 -->
+  
+  <div id="section10" class="section sec-fade-in">
+    <div class="topic-path">
+      <ol>
+        <li><a href="#topPage">HOME ▷</a></li>
+        <li><a href="#privacyPolicy">プライバーシーポリシー</a></li>
+      </ol>
+    </div>
+    <article>
+      <h1>プライバシーポリシー</h1>
+      <div class="sec-both">
+        <section>
+          <p class="hang">1.当社は、個人情報に関する法令およびその他の規範を遵守し、お客さまの大切な個人情報の保護に万全を尽くします。</p>
+          <p class="hang">2.当社は、お客さまの個人情報については、下記の目的の範囲内で適正に取り扱いさせていただきます。</p>
+          <p>当社サービスの契約者情報</p>
+          <p class="hang">・ご本人確認、ご利用料金の請求、およびご利用料金・ご利用サービス提供条件の変更、ご利用サービスの停止・中止・契約解除の通知並びにその他当社サービスの提供に係ること</p>
+          <p class="hang"> ・電話、電子メール、郵送等各種媒体により、当社のサービスに関する販売勧奨・アンケート調査および景品等の送付を行うこと</p>
+          <p>その他の個人情報</p>
+          <p class="hang">・当社のサービスの改善又は新たなサービスの開発を行うこと・お問い合わせ、ご相談にお答えすること</p>
+          <p>なお、上記利用目的の他、サービス・アンケート等により個別に利用目的等を定める場合があります。</p>
+          <p class="hang">3.当社は、お客さまの個人情報を適正に取扱うため、社内規程および社内管理体制の整備、従業員の教育、並びに、個人情報への不正アクセスや個人情報の紛失、破壊、改ざんおよび漏洩等防止に関する適切な措置を行い、また、その見直しを継続して図ることにより、個人情報の保護に努めてまいります。</p>
+          <p class="hang">4.当社は、お客さまの個人情報を第三者に開示・提供することは致しません。但し、上記利用目的を達成するために必要な範囲内で、業務委託先に提供する場合がございます。その場合は、個人情報の保護が十分に図られている企業を選定し、個人情報保護の契約を締結する等必要かつ適切な処置を実施いたします。 なお、法令等に基づき裁判所・警察機関などの公的機関から開示の要請があった場合については、当該公的機関に提供することがございます。</p>
+          <p class="hang">5.お客さまが、お客さまの個人情報の開示等をご希望される場合には、下記の当社窓口までご連絡ください。<br />
+            株式会社インサイト 高岡本社 0766-27-6666<br />
+          </p>
+          <p class="hang">6.当社では、お客さまの個人情報の保護を図るために、また、法令その他の規範の変更に対応するために、プライバシーポリシーを改定する事がございます。改定があった場合はホームページにてお知らせいたします。</p>
+        </section>
+      </div>
+      <!-- .sec-both --> 
+    </article>
+    <div class="next-page"><span class="span"><a class="a-left" href="#12thPage">Next</a><a class="a-top" href="#topPage">Top</a><a class="a-right" href="#inquiry">Prev</a></span></div>
+  </div>
+  <!-- .section10 --> 
+  
+</div>
+<!-- .fullpage --> 
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-27340775-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+</body>
+</html>

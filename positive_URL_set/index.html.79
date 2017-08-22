@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="ja" class="no-js">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'http://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5WQZ8RP');</script>
+<!-- End Google Tag Manager -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+	<meta name="google-site-verification" content="2uwk8lfGbVzCOoOk2WpSxWh3vtjatZhPSqdvuw-T1PY" />
+	<meta name="msvalidate.01" content="72ED24326AF2EBBC509C6215368CC3BA" />
+
+
+
+<link rel="shortcut icon" href="/wp-content/themes/corp/images/common/favicon.png" type="image/ico">
+<link rel="apple-touch-icon" href="/wp-content/themes/corp/images/common/favicon.png">
+<link rel="icon" href="/wp-content/themes/corp/images/common/favicon.png">
+<!--[if IE]><link rel="shortcut icon" href="/wp-content/themes/corp/images/common/favicon.png"> <![endif]-->
+
+<!-- logo -->
+	<meta property="og:image" content="http://www.bm-sms.co.jp/wp-content/themes/corp/images/common/fb-logo.png">
+
+<meta property="og:title" content="IRライブラリ">
+<meta property="og:url" content="http://www.bm-sms.co.jp/ir/library/">
+
+
+<!--
+<title>
+	IRライブラリ | 株式会社エス・エム・エス SMS CO., LTD.</title>
+-->
+
+	<meta name="description" content="株式会社エス・エム・エス(SMS CO., LTD.)は、高齢社会に適した情報インフラを構築することで価値を創造し社会に貢献し続けることをミッションに、介護・医療・ヘルスケアなどの情報サービスを提供し、ストレッチな成長を続けるベンチャーー企業です。">
+	<meta name="keywords" content="エス・エム・エス,エスエムエス,SMS,ＳＭＳ,介護,高齢社会,情報インフラ,ベンチャー,ストレッチ,成長,成長機会,情熱,誠実,プロフェッショナル">
+
+	<!-- link rel="profile" href="http://gmpg.org/xfn/11" -->
+	<!-- link rel="pingback" href="http://www.bm-sms.co.jp/xmlrpc.php" -->
+	<!--[if lt IE 9]>
+	<script src="http://www.bm-sms.co.jp/wp-content/themes/corp/js/html5.js"></script>
+	<![endif]-->
+	<script>(function(){document.documentElement.className='js'})();</script>
+	<link href="/wp-content/themes/corp/css/default.css" rel="stylesheet" type="text/css">
+	<link href="/wp-content/themes/corp/css/style.css" rel="stylesheet" type="text/css">
+	<script src="/wp-content/themes/corp/js/jquery.1.9.1.min.js"></script>
+	<!-- script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js?ver=1.8.3"></script -->
+	<script src="/wp-content/themes/corp/js/accordion.js"></script>
+	<script src="/wp-content/themes/corp/js/rollover.js"></script>
+	<script type="text/javascript">
+	if ((navigator.userAgent.indexOf('iPhone') > 0) || navigator.userAgent.indexOf('iPod') > 0 || navigator.userAgent.indexOf('Android') > 0) {
+        document.write('<meta name="viewport" content="width=device-width; initial-scale=1.0; user-scalable=yes" />');
+	    }else{
+        document.write('<meta name="viewport" content="width=1200">');
+	    }
+	</script>
+	<!--fancybox-->
+	<!--?php if(is_page(array(593,595,591,597,586))): ?-->
+		<link href="/wp-content/themes/corp/css/jquery.fancybox.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="/wp-content/themes/corp/js/jquery.fancybox.pack.js"></script>
+		<script type="text/javascript" src="/wp-content/themes/corp/js/jquery.fancybox.js"></script>
+		<script type="text/javascript" src="/wp-content/themes/corp/js/fancybox.js"></script>
+	<!--?php endif; ?-->
+	<!--//fancybox-->
+	<!--scroll-->
+	<script src="/wp-content/themes/corp/js/scroll.js"></script>
+	<!--//scroll-->
+	<!--ir-calendar-->
+		<!--//ir-calendar-->
+	<!--animation-->
+	<!--tab-->
+	<script type="text/javascript" src="/wp-content/themes/corp/js/tab-news.js"></script>
+	<script type="text/javascript" src="/wp-content/themes/corp/js/tab-service.js"></script>
+
+	<!--//tab-->
+	<script>
+	(function() {
+	     $.fn.enter = function(enter,leave) {
+	          this.on('mouseenter mouseover', enter);
+	          this.on('mouseleave', leave);
+	     };
+	})();
+	</script>
+	<script src="/wp-content/themes/corp/js/animation.js"></script>
+	<script>
+	$(function() {
+	     var SPEED = 300;/* スピード設定 */
+	   $(".btn-1a").enter(function() {
+	          $(this).stop().animate(/* マウスを乗せたとき */
+	               { "backgroundColor" : "#f29500" }, SPEED);/* 変化させたいスタイル */
+	     },function() {
+	          $(this).stop().animate(/* マウスが外れたとき */
+	               { "backgroundColor" : "#ffffff" }, SPEED);/* もとのスタイル */
+	     });
+	});
+	$(function() {
+	     var SPEED = 300;/* スピード設定 */
+	   $(".btn-1b").enter(function() {
+	          $(this).stop().animate(/* マウスを乗せたとき */
+	               { "backgroundColor" : "#f29500" }, SPEED);/* 変化させたいスタイル */
+	     },function() {
+	          $(this).stop().animate(/* マウスが外れたとき */
+	               { "backgroundColor" : "#efefef" }, SPEED);/* もとのスタイル */
+	     });
+	});
+	</script>
+	<!--//animation-->
+	<link rel="stylesheet" href="/wp-content/themes/corp/css/droppy.css">
+	<script src="/wp-content/themes/corp/js/jquery.droppy.js"></script>
+	<script type='text/javascript'>
+	  $(function() {
+		$('#menu-gnavi').droppy({
+			speed: 100
+		});
+	  });
+	</script>
+	<script type="text/javascript" src="/wp-content/themes/corp/js/pageTop.js"></script>
+	<title>IRライブラリ &#8211; 株式会社エス・エム・エス SMS CO., LTD.</title>
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="株式会社エス・エム・エス SMS CO., LTD. &raquo; フィード" href="http://www.bm-sms.co.jp/feed/" />
+<link rel="alternate" type="application/rss+xml" title="株式会社エス・エム・エス SMS CO., LTD. &raquo; コメントフィード" href="http://www.bm-sms.co.jp/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="株式会社エス・エム・エス SMS CO., LTD. &raquo; IRライブラリ のコメントのフィード" href="http://www.bm-sms.co.jp/ir/library/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/www.bm-sms.co.jp\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.7.5"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='twentyfifteen-fonts-css'  href='//fonts.googleapis.com/css?family=Noto+Sans%3A400italic%2C700italic%2C400%2C700%7CNoto+Serif%3A400italic%2C700italic%2C400%2C700%7CInconsolata%3A400%2C700&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='genericons-css'  href='http://www.bm-sms.co.jp/wp-content/themes/corp/genericons/genericons.css?ver=3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='twentyfifteen-style-css'  href='http://www.bm-sms.co.jp/wp-content/themes/corp/style.css?ver=4.7.5' type='text/css' media='all' />
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='twentyfifteen-ie-css'  href='http://www.bm-sms.co.jp/wp-content/themes/corp/css/ie.css?ver=20141010' type='text/css' media='all' />
+<![endif]-->
+<!--[if lt IE 8]>
+<link rel='stylesheet' id='twentyfifteen-ie7-css'  href='http://www.bm-sms.co.jp/wp-content/themes/corp/css/ie7.css?ver=20141010' type='text/css' media='all' />
+<![endif]-->
+<script type='text/javascript' src='http://www.bm-sms.co.jp/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://www.bm-sms.co.jp/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='http://www.bm-sms.co.jp/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.bm-sms.co.jp/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.bm-sms.co.jp/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.7.5" />
+<link rel="canonical" href="http://www.bm-sms.co.jp/ir/library/" />
+<link rel='shortlink' href='http://www.bm-sms.co.jp/?p=71' />
+<link rel="alternate" type="application/json+oembed" href="http://www.bm-sms.co.jp/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.bm-sms.co.jp%2Fir%2Flibrary%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://www.bm-sms.co.jp/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.bm-sms.co.jp%2Fir%2Flibrary%2F&#038;format=xml" />
+		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+			<script type="text/javascript" src="/wp-content/themes/corp/js/jquery.textresizer.min.js"></script>
+	<script type="text/javascript" src="/wp-content/themes/corp/js/cookie.js"></script>
+	<script type="text/javascript">
+	jQuery(document).ready( function() {
+    	jQuery( "#textsizer a" ).textresizer({
+        target: "body",                       // 対象要素
+        type: "fontSize",                        // サイズ指定方法
+        sizes: [ "13px", "14px", "15px"],// フォントサイズ
+        selectedIndex: 1                         // 初期表示
+	    });
+	});
+	</script>
+
+<!--IRPOCKET-->
+<script type="text/javascript" src="http://irpocket.com/2175/irpocket/config.js" charset="utf-8"></script>
+<style>
+.graphs { width:938px; margin:40px auto; text-align:left;  font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;}
+.irpGraph {  overflow:hidden; width:460px; float:left; margin-bottom:60px;}
+.clearfix .irpGraph:nth-child(2) {margin-left: 15px;}
+h3{ font-weight:normal; }
+
+.irpGraph table {border-top:1px solid #ccc; border-left:1px solid #ccc; width:98%; margin-top:10px;}
+.irpGraph th { font-size:11px; text-align:center; font-weight:normal; border-bottom:1px solid #ccc; border-right:1px solid #ccc; padding:4px 0; background-color:#f8eddc}
+.irpGraph td { font-size:12px; text-align:center; font-weight:normal; border-bottom:1px solid #ccc; border-right:1px solid #ccc; padding:4px 0}
+th.yn.cn {
+  width: 50px;
+}
+.graphs table {border-top:1px solid #ccc; border-left:1px solid #ccc; width:98%; margin-top:0px; margin-bottom:60px;}
+.graphs .r1 td, .graphs .c1 { font-size:14px; text-align:center; font-weight:normal; border-bottom:1px solid #ccc; border-right:1px solid #ccc; padding:4px 0; background-color:#f8eddc}
+.graphs .c1 { text-align:left; width:30%; padding-left:20px; background-color:#fcf7ef}
+.graphs td { font-size:14px; text-align:right; font-weight:normal; border-bottom:1px solid #ccc; border-right:1px solid #ccc; padding:4px 20px 0 0}
+</style>
+<!--IRPOCKET-->
+
+</head>
+<body class="page-template-default page page-id-71 page-child parent-pageid-12" id="">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="http://www.googletagmanager.com/ns.html?id=GTM-5WQZ8RP"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+       		 
+	
+	<header>
+    	<div class="inner clearfix">
+    		<div class="logo">
+        		<h1><a href="/"><img src="/wp-content/themes/corp/images/common/header/logo.png" alt="SMS"></a></h1>
+        	</div>
+        	<div class="gnavi">
+        		<div class="subMenu clearfix">
+            		<ul class="link clearfix">
+                		<li><span>・</span><a href="http://www.bm-sms.co.jp/eng/" target="_blank">English</a></li>
+                    		<li><span>・</span><a href="/sitemap/">サイトマップ</a></li>
+                    		<li><span>・</span><a href="/contact/">お問い合わせ</a></li>
+                    	<!-- li><span><a href="">交通アクセス</a></span></li -->
+                 	</ul>
+			<div id="textsizer">
+    			<ul class="textresizer clearfix">
+        			<li class="title">文字サイズ</li>
+        			<li><a href="#">小</a></li>
+        			<li><a href="#">中</a></li>
+        			<li><a href="#">大</a></li>
+    			</ul>
+			</div>
+			
+			<div id="gSearch">
+				<script>
+				  (function() {
+				    var cx = '008369044904061159712:_kv7fpvdprs';
+				    var gcse = document.createElement('script');
+				    gcse.type = 'text/javascript';
+				    gcse.async = true;
+				    gcse.src = 'http://cse.google.com/cse.js?cx=' + cx;
+				    var s = document.getElementsByTagName('script')[0];
+				    s.parentNode.insertBefore(gcse, s);
+				  })();
+				</script>
+				<gcse:search></gcse:search>
+			</div><!--gSearch-->
+
+            		</div><!--subMenu-->
+             		<nav class="menu-gnavi-container">
+        		<ul class="clearfix" id="menu-gnavi">
+            		<li id="menu-item-14" class="home "><a href="/">ホーム</a></li>
+                	<li id="menu-item-16" class="company  "><a class="has-subnav" href="/company/">会社情報</a>
+                    	<ul class="sub-menu">
+           			<li>
+                            	<div class="dropDown clearfix">
+                                	<div class="inner">
+		                                <p class="title"><a href="/company/">会社情報</a></p>
+                                        <div class="block">
+                                        	<dl>
+                                            	<!--dt>経営方針トップ</dt-->
+                                            	<dd><a href="/company/philosophy/">企業理念</a></dd>
+                                                <dd><a href="/company/history/">沿革</a></dd>
+                                            	</dl>
+                                        </div><!--block-->
+                                        <div class="block">
+                                        	<dl>
+                                            	<!--dt>経営方針トップ</dt-->
+                                            	<dd><a href="/company/message/">社長挨拶</a></dd>
+                                                <!-- <dd><a href="/company/news/">SMSからのお知らせ</a></dd> -->
+                                            	</dl>
+                                        </div><!--block-->
+                                        <div class="block">
+                                        	<dl>
+                                            	<!--dt>経営方針トップ</dt-->
+                                                <dd><a href="/company/profile/">会社概要</a></dd>
+                                            	</dl>
+                                        </div><!--block-->
+                                        <div class="block">
+                                        	<dl>
+                                            	<!--dt>経営方針トップ</dt-->
+                                                <dd><a href="/company/group/">グループ企業一覧</a></dd>
+                                            	</dl>
+                                        </div><!--block-->
+                                        <div class="block">
+                                        	<dl>
+                                            	<!--dt>経営方針トップ</dt-->
+                                                <dd><a href="/company/access/">事業所一覧</a></dd>
+                                            	</dl>
+                                        </div><!--block-->
+                                	</div><!--inner-->
+                                </div><!--dropDown-->
+                                </li>
+        		</ul>
+        		</li>
+        				<li id="menu-item-" class="news  "><a class="has-subnav" href="/news/">ニュース</a>
+                    	<ul class="sub-menu">
+           			<li>
+                            	<div class="dropDown clearfix">
+                                	<div class="inner">
+		                                <p class="title"><a href="/news/">ニュース</a></p>
+                                        <div class="block">
+                                        	<dl>
+                                            	<dd><a href="http://www.bm-sms.co.jp/category/news/news-press/">プレスリリース</a></dd>
+                                            	</dl>
+                                        </div><!--block-->
+                                        <div class="block">
+                                        	<dl>
+                                            	<dd><a href="http://www.bm-sms.co.jp/category/news/news-info/">お知らせ</a></dd>
+                                            	</dl>
+                                        </div><!--block-->
+                                        <div class="block">
+                                        	<dl>
+                                                <dd><a href="http://www.bm-sms.co.jp/category/news/news-media/">メディア掲載情報</a></dd>
+                                            	</dl>
+                                        </div><!--block-->
+                                        <div class="block">
+                                        	<dl>
+                                                <dd><a href="http://www.bm-sms.co.jp/category/news/news-report/">調査レポート</a></dd>
+                                            	</dl>
+                                        </div><!--block-->
+                                        <div class="block">
+                                        	<dl>
+                                                <dd><a href="http://www.bm-sms.co.jp/category/news/news-event/">イベント一覧</a></dd>
+                                            	</dl>
+                                        </div><!--block-->
+
+                                        <div class="block sns">
+                                            <dl>
+                                            	<dd><a href="/news/social-media/">ソーシャルメディアアカウント一覧</a></dd>
+                                            	</dl>
+                                        </div><!--block-->
+
+                                	</div><!--inner-->
+                                </div><!--dropDown-->
+                                </li>
+        		</ul>
+        		</li>
+
+                	<li id="menu-item-15" class="service  "><a class="has-subnav" href="/service/">事業内容</a>
+        		<ul class="sub-menu">
+           			<li>
+                            	<div class="dropDown clearfix">
+                                	<div class="inner">
+		                                <p class="title"><a href="/service/">事業内容</a></p>
+                                        <div class="block">
+                                        	<dl>
+                                                <dd><a href="/service/">事業のご紹介</a></dd>
+                                            	</dl>
+                                        </div><!--block-->
+                                        <!-- div class="block long">
+                                        	<dl>
+                                            	<dt><a href="/service/?id=field">分野別に探す</a></dt>
+                                                <dd><a href="/service/care/">介護分野</a></dd>
+                                                <dd><a href="/service/medical/">医療分野</a></dd>
+                                                <dd><a href="/service/career/">キャリア分野</a></dd>
+                                                <dd><a href="/service/hcsl/">ヘルスケア/シニアライフ分野</a></dd>
+                                                <dd><a href="/service/global/">グローバル分野</a></dd>
+                                            	</dl>
+                                        </div --><!--block-->
+                                        <!-- div class="block long">
+                                        	<dl>
+                                            	<dt><a href="/service/?id=category">職種・業種等で探す</a></dt>
+                                                <dd><a href="/service/medical-list/">介護、医療従事者の皆様</a></dd>
+                                                <dd><a href="/service/medical-future/">介護、医療のお仕事を目指している皆様</a></dd>
+                                                <dd><a href="/service/business-list/">医療、介護事業者の皆様、行政の皆様</a></dd>
+                                                <dd><a href="/service/other-list/">その他の皆様</a></dd>
+                                            	</dl>
+                                        </div --><!--block-->
+                                        <!-- div class="block">
+                                        	<dl>
+                                            	<dt><a href="/service/works/">サービス実績</a></dt>
+                                            	</dl>
+                                        </div --><!--block-->
+                                	</div><!--inner-->
+                                </div><!--dropDown-->
+                                </li>
+        		</ul>                	
+        		</li>
+                	<li id="menu-item-17" class="ir   current-page-ancestor"><a href="/ir/">株主・投資家情報</a>
+                    	<ul class="sub-menu">
+           			<li>
+                            	<div class="dropDown clearfix">
+                                	<div class="inner">
+		                                <p class="title"><a href="/ir/">株主・投資家情報</a></p>
+                                        <div class="block">
+                                        	<dl>
+                                            	<dt><a href="/ir/policy/">経営方針</a></dt>
+                                                <dd><a href="/ir/policy/message/">トップメッセージ</a></dd>
+                                                <dd><a href="/ir/policy/philosophy/">企業理念</a></dd>
+                                                <dd><a href="/ir/policy/human/">人材理念</a></dd>
+						<dd><a href="/ir/policy/dividends/">配当方針</a></dd>
+						<dd><a href="/ir/policy/risk/">事業等のリスク</a></dd>
+                                            	</dl>
+                                        </div><!--block-->
+                                        <div class="block">
+                                        	<dl>
+                                            	<dt><a href="/ir/corporate-governance/">コーポレートガバナンス</a></dt>
+						<dd><a href="/ir/corporate-governance/policy/">基本方針・経営体制</a></dd>
+						<dd><a href="/ir/corporate-governance/audit/">監査体制</a></dd>
+						<dd><a href="/ir/corporate-governance/reward/">役員報酬</a></dd>
+						<dd><a href="/ir/corporate-governance/outside-director/">社外役員</a></dd>
+						<dd><a href="/ir/corporate-governance/control/">内部統制基本方針</a></dd>
+                                            	</dl>
+                                        </div><!--block-->
+					<div class="block">
+                                        	<dl>
+                                            	<dt><a href="/ir/financial/">財務・業績情報</a></dt>
+						<dd><a href="/ir/financial/highlights/">財務ハイライト</a></dd>
+						<dd><a href="/ir/financial/analysis/">財務分析指標</a></dd>
+						<dd><a href="/ir/financial/statements/">財務諸表</a></dd>
+                                            	</dl>
+                                        </div><!--block-->
+                                       <div class="block">
+                                        	<dl>
+                                            	<dt><a href="/ir/ir-event/">IRイベント</a></dt>
+						<dd><a href="/ir/ir-event/ir-calendar/">IRカレンダー</a></dd>
+						<dd><a href="/ir/ir-event/briefing/">決算説明会</a></dd>
+						<dd><a href="/ir/ir-event/shareholders/">株主総会</a></dd>
+                                            	<dt><a href="/ir/info/">株式情報</a></dt>
+						<dd><a href="/ir/info/basic/">株式基本情報</a></dd>
+						<dd><a href="/ir/info/stock/">配当情報</a></dd>
+						<dd><a href="/ir/info/repurchase/">自己株式の取得</a></dd>
+						<dd><a href="/ir/info/stock-split/">株式分割</a></dd>
+                                            	</dl>
+                                       </div><!--block-->
+                                       <div class="block last">
+						<dl>
+                                           	<dt>その他</dt>
+                                            	<dd><a href="/ir/personal/">個人投資家の皆様へ</a></dd>
+                                            	<dd><a href="/ir/news/">IRニュース</a></dd>
+                                            	<dd><a href="/ir/library/">IRライブラリ</a></dd>
+                                            	<dd><a href="/ir/announce/">電子公告</a></dd>
+                                            	<dd><a href="/ir/mailmag/">IRメールマガジン</a></dd>
+                                            	<dd><a href="/ir/faq/">よくあるご質問</a></dd>
+                                            	<dd><a href="/contact/ir/">IRに関するお問い合わせ</a></dd>
+                                            	<dd><a href="/ir/attention/">免責事項</a></dd>
+                                            	<dd><a href="http://stocks.finance.yahoo.co.jp/stocks/detail/?code=2175.t
+" target="_blank">最新株価情報 <img src="/wp-content/themes/corp/images/common/icon_blank.gif" class="linkBlank"></a></dd>
+						</dl>
+                                        </div><!--block-->
+                                	</div><!--inner-->
+                                </div><!--dropDown-->
+                        	</li>
+        		</ul>
+        		</li>
+                	<li id="menu-item-20" class="recruit "><a href="/recruit-list/">採用情報</a></li>
+            	</ul>
+        	</nav>
+		<!-- ?php wp_nav_menu(array('menu' => 'gnavi')); ? -->
+        	</div>
+        <ul class="accordion">
+        	<li>
+            		<p><span><img src="/wp-content/themes/corp/images/sp/icon_spMenu.png" width="54" height="57" alt="MENU" /></span></p>
+                	<ul>
+	                <li><a href="/">ホーム</a></li>
+ 			<li><a href="/company/">会社情報</a></li>
+ 			<li><a href="/news/">ニュース</a></li>
+        	        <li><a href="/service/">事業内容</a></li>
+			<li><a href="/ir/">株主・投資家情報</a></li>
+			<li><a href="/recruit-list/">採用情報</a></li>
+                	<li><a href="/contact/">お問い合わせ</a></li>
+                	<li><a href="/sitemap/">サイトマップ</a></li>
+        		</ul>
+        	</li>
+        </ul>
+	<div class="spLang">
+		<a style="color:#333333;" href="http://www.bm-sms.co.jp/eng/">English</a>
+	</div>
+        </div>
+    </header>
+
+	<div id="primary" class="content-area  ">
+		<main id="main" class="site-main" role="main">
+		    	<section class="pankuzu">
+    			<div class="inner">
+												<p><a href="http://www.bm-sms.co.jp">HOME</a>&nbsp;>&nbsp;
+								<a href="http://www.bm-sms.co.jp/ir/" title="株主・投資家情報">
+				株主・投資家情報</a>&nbsp;>&nbsp;IRライブラリ</p>
+
+					    			<!-- p><a href="/">HOME</a> > <a href="http://www.bm-sms.co.jp/ir/library/">IRライブラリ</a></p -->
+    			</div>
+    			</section>
+       <section id="mainTitle">
+    	<h3>IRライブラリ</h3>
+    </section>
+
+		
+<article id="post-71" class="post-71 page type-page status-publish hentry">
+	
+	<!--header class="entry-header">
+		<h1 class="entry-title">IRライブラリ</h1>	</header--><!-- .entry-header -->
+
+	<div class="entry-content">
+		    <div id="contents" class="library">
+		<section class="block01 border">
+        	<div class="inner clearfix">
+    			<div class="boxL">
+				<h4><span class="spColumn">最新決算資料<br></span>（平成29年3月期）</h4>
+    			</div>
+    			<div class="boxR">
+				<ul><li class="irZip spNone"><img src="/wp-content/themes/corp/images/common/ico_file.png" alt="FILE"> <a href="/wp-content/themes/corp/pdf/ir_latest.zip">最新IR資料一括ダウンロード 【ZIPデータ】</a></li>
+<li><span>2017/07/28</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/170728_FY17_1Q_presentation.pdf" target="_blank">平成30年3月期 第1四半期 決算および会社説明会資料 </a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+<li><span>2017/07/28</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/170728_FY17_1Q_tanshin.pdf" target="_blank">平成30年3月期 第1四半期決算短信 </a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+<li><span>2017/08/14</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/170814_FirstQuarterReport.pdf" target="_blank">平成30年3月期 第1四半期報告書 </a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>　　
+                        				</ul>
+    			</div>
+
+<div class="boxC">
+<a href="http://www.sharedresearch.jp/ja/2175" target="_blank">
+<img src="/wp-content/themes/corp/images/ir/library/jp_sr_banner.gif" alt="シェアードリサーチ"></a>
+</div>
+        	</div>
+        	</section>
+		<section class="block06">
+        	<div class="inner">
+        	<dl class="accordion">
+    			<dt>決算短信・四半期決算短信</dt>
+    			<dd>
+			<ul>
+<li class="year">
+<li><span>2017/07/28</span><a href="http://www.bm-sms.co.jp/pdf/170728_FY17_1Q_tanshin.pdf" target="_blank">平成30年3月期 第1四半期決算短信 </a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+<li class="year">
+<li><span>2017/04/28</span><a href="http://www.bm-sms.co.jp/pdf/170428_FY16_tanshin.pdf" target="_blank">平成29年3月期 決算短信 </a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+<li><span>2017/01/30</span><a href="http://www.bm-sms.co.jp/pdf/170130_FY16_3Q_tanshin.pdf" target="_blank">平成29年3月期 第3四半期決算短信 </a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+<li><span>2016/10/28</span><a href="http://www.bm-sms.co.jp/pdf/161028_FY16_2Q_tanshin.pdf" target="_blank">平成29年3月期 第2四半期決算短信 </a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+<li><span>2016/07/28</span><a href="http://www.bm-sms.co.jp/pdf/160728_FY16_1Q_tanshin.pdf" target="_blank">平成29年3月期 第1四半期決算短信 </a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+<li class="year">
+<li><span>2016/04/28</span><a href="http://www.bm-sms.co.jp/pdf/160428_FY15_tanshin_all.pdf" target="_blank">平成28年3月期 決算短信 </a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+<li><span>2016/05/16</span><a href="http://www.bm-sms.co.jp/pdf/20160516_tanshin_shusei.pdf" target="_blank">　（訂正・数値データ訂正）「平成28年３月期決算短信〔日本基準〕（連結）」の一部訂正について </a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+<li><span>2016/01/28</span><a href="http://www.bm-sms.co.jp/pdf/160128_FY15_3Q_tanshin_all.pdf" target="_blank">平成28年3月期 第3四半期決算短信 </a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+<li><span>2015/10/29</span><a href="http://www.bm-sms.co.jp/pdf/151029_FY15_2Q_tanshin_all.pdf" target="_blank">平成28年3月期 第2四半期決算短信 </a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+<li class="year"><span>2015/07/30</span><a href="http://www.bm-sms.co.jp/pdf/150730_FY15_tanshin_all.pdf" target="_blank">平成28年3月期 第1四半期決算短信 </a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+			<li><span>2015/04/30</span><a href="http://www.bm-sms.co.jp/pdf/150430_FY14_tanshin.pdf" target="_blank">平成27年3月期 決算短信 </a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+			<li><span>2015/01/30</span><a href="http://www.bm-sms.co.jp/pdf/150130_FY14_3Q_tanshin.pdf" target="_blank">平成27年3月期 第3四半期決算短信 </a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+			<li><span>2014/10/31</span><a href="http://www.bm-sms.co.jp/pdf/FY14_2Q_tanshin_all.pdf" target="_blank">平成27年3月期 第2四半期決算短信 </a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+			<li class="year"><span>2014/07/31</span><a href="http://www.bm-sms.co.jp/pdf/FY14_1Q_tanshin_all.pdf" target="_blank">平成27年3月期 第1四半期決算短信 </a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+			<li><span>2014/04/25</span><a href="http://www.bm-sms.co.jp/pdf/FY13_tanshin_all.pdf" target="_blank">平成26年3月期 決算短信</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+			<li><span>2014/01/31</span><a href="http://www.bm-sms.co.jp/pdf/FY13_3Q_tanshin_all.pdf" target="_blank">平成26年3月期 第3四半期決算短信 </a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+			<li><span>2013/10/31</span><a href="http://www.bm-sms.co.jp/pdf/FY13_2Q_tanshin_all.pdf" target="_blank">平成26年3月期 第2四半期決算短信 </a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+			<li class="year"><span>2013/07/31</span><a href="http://www.bm-sms.co.jp/pdf/FY13_1Q_tanshin_all.pdf" target="_blank">平成26年3月期 第1四半期決算短信 </a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+			<li><span>2013/04/26</span><a href="http://www.bm-sms.co.jp/pdf/FY12_tanshin_all.pdf" target="_blank">平成25年3月期 決算短信 </a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+			<li><span>2013/01/31</span><a href="http://www.bm-sms.co.jp/pdf/FY12_3Q_tanshin_all.pdf" target="_blank">平成25年3月期 第3四半期決算短信 </a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+			<li><span>2012/10/31</span><a href="http://www.bm-sms.co.jp/pdf/FY12_2Q_tanshin_all.pdf" target="_blank">平成25年3月期 第2四半期決算短信 </a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"><br><span>2013/02/06</span><a href="http://www.bm-sms.co.jp/pdf/130206_revised_FY12_2Qtanshin.pdf" target="_blank">（訂正・数値データ訂正)「平成25年3月期 第2四半期決算短信[日本基準]（連結）」の一部訂正について</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+			<li class="year"><span>2013/02/06</span><a href="http://www.bm-sms.co.jp/pdf/FY12_1Q_tanshin_all.pdf" target="_blank">平成25年3月期 第1四半期決算短信 </a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"><br><span>2012/07/31</span><a href="http://www.bm-sms.co.jp/pdf/130206_revised_FY12_1Qtanshin.pdf" target="_blank">（訂正・数値データ訂正)「平成25年3月期 第1四半期決算短信[日本基準]（連結）」の一部訂正について</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+			<li><span>2012/04/27</span><a href="http://www.bm-sms.co.jp/pdf/FY11_tanshin_all.pdf" target="_blank">平成24年3月期 決算短信 </a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+			<li><span>2012/01/31</span><a href="http://www.bm-sms.co.jp/pdf/FY11_3Q_tanshin_all.pdf" target="_blank">平成24年3月期 第3四半期決算短信 </a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+			<li><span>2011/10/31</span><a href="http://www.bm-sms.co.jp/pdf/111031_kessantanshin.pdf" target="_blank">平成24年3月期 第2四半期決算短信 </a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+			<li class="year"><span>2011/7/29</span><a href="http://www.bm-sms.co.jp/pdf/110729_kessanntanshin.pdf" target="_blank">平成24年3月期 第1四半期決算短信 </a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+			<li><span>2011/4/28</span><a href="http://www.bm-sms.co.jp/pdf/110428_kessantanshin.pdf" target="_blank">平成23年3月期 決算短信 </a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"><br><span>2011/11/18</span><a href="http://www.bm-sms.co.jp/pdf/111118_kessantanshinsyusei.pdf" target="_blank">（訂正）「平成23年3月期　決算短信[日本基準]（連結）」の一部訂正について </a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"><br><span>2011/5/10</span><a href="http://www.bm-sms.co.jp/pdf/110510_tanshinshusei.pdf" target="_blank">（訂正・数値データ訂正あり）「平成23年3月期 決算短信〔日本基準〕（連結）」の一部訂正について</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+			<li><span>2011/1/31</span><a href="http://www.bm-sms.co.jp/pdf/110131_kessantanshin.pdf" target="_blank">平成23年3月期 第3四半期決算短信 </a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+						<li><span>2010/10/29</span><a href="http://www.bm-sms.co.jp/pdf/101029_kessantanshin.pdf" target="_blank">	平成23年3月期 第2四半期決算短信 </a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+			<li class="year"><span>2010/7/30</span><a href="http://www.bm-sms.co.jp/pdf/100730kessan.pdf" target="_blank">平成23年3月期 第1四半期決算短信 </a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+			<li><span>2010/4/28</span><a href="http://www.bm-sms.co.jp/pdf/100428kessan.pdf" target="_blank">平成22年3月期 決算短信（非連結）</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+			<li><span>　</span><a href="http://www.bm-sms.co.jp/pdf/100519_1.pdf" target="_blank">（訂正・数値データ訂正あり）「平成22年3月期 決算短信（非連結）」の一部訂正について</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+			<li><span>2010/01/29</span><a href="http://www.bm-sms.co.jp/pdf/100129SMSfinancial.pdf" target="_blank">平成22年3月期 第3四半期決算短信（非連結）</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+			<li><span>2009/10/30</span><a href="http://www.bm-sms.co.jp/pdf/091030SMSfinancial.pdf" target="_blank">平成22年3月期 第2四半期決算短信（非連結）</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+			<li class="year"><span>2009/07/30</span><a href="http://www.bm-sms.co.jp/pdf/090730SMSfinancial.pdf" target="_blank">平成22年3月期 第1四半期決算短信（非連結）</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+			<li><span>2009/04/30</span><a href="http://www.bm-sms.co.jp/pdf/090430SMSfinancial.pdf" target="_blank">平成21年3月期 決算短信（非連結）</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+			<li><span>2009/06/04</span><a href="http://www.bm-sms.co.jp/pdf/090604_revised_SMSfinancial.pdf" target="_blank">平成21年3月期 決算短信（非連結）の一部訂正</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+			<li><span>2009/01/30</span><a href="http://www.bm-sms.co.jp/pdf/H21_3_3Q_kessantanshin090130.pdf" target="_blank">平成21年3月期 第3四半期決算短信（非連結）</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+			<li><span>2008/10/30</span><a href="http://www.bm-sms.co.jp/pdf/H21_3_2Q_kessantanshin081030.pdf" target="_blank">平成21年3月期 第2四半期決算短信（非連結）</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+			<li class="year"><span>2008/07/30</span><a href="http://www.bm-sms.co.jp/pdf/h21-3firstQuarterAccounts.pdf" target="_blank">平成21年3月期 第1四半期決算短信（非連結）</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+			<li><span>2008/05/07</span><a href="http://www.bm-sms.co.jp/pdf/080507SMSfinancial-vol6.0.pdf" target="_blank">平成20年3月期 決算短信（非連結）</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+			<li><span>2008/03/13</span><a href="http://www.bm-sms.co.jp/pdf/tanshin080313.pdf" target="_blank">平成20年3月期 第3四半期財務業績の概況（非連結）</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+			</ul>
+			</dd>
+
+<dt>決算短信・四半期決算短信（英語版）</dt>
+    			<dd>
+			<ul>
+<ul class="year">
+<li><span>2017/07/28</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/170728_en_summary_of_financial_results.pdf">FY03-18 Q1 SMS Summary of Consolidated Financial Results</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+
+</ul>
+
+
+<ul class="year">
+<li><span>2017/04/28</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/170428_en_summary_of_financial_results.pdf">FY03-17 SMS Summary of Consolidated Financial Results</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+<li><span>2017/01/30</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/170130_en_summary_of_financial_results.pdf">FY03-17 Q3 SMS Summary of Consolidated Financial Results</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+<li><span>2016/10/28</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/161028_en_summary_of_financial_results.pdf">FY03-17 1H SMS Summary of Consolidated Financial Results</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+<li><span>2016/07/28</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/160728_en_summary_of_financial_results.pdf">FY03-17 Q1 SMS Summary of Consolidated Financial Results</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+</ul>
+			<ul class="year">
+<li><span>2016/04/28</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/160428_en_summary_of_financial_results.pdf">FY03-16 SMS Summary of Consolidated Financial Results</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+<li><span>2016/01/28</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/160128_en_summary_of_financial_results.pdf">FY03-16 Q3 SMS Summary of Consolidated Financial Results</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+<li><span>2015/10/29</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/151029_en_summary_of_financial_results.pdf">FY03-16 1H SMS Summary of Consolidated Financial Results</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+<li><span>2015/07/30</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/150730_en_summary_of_financial_results.pdf">FY03-16 Q1 SMS Summary of Consolidated Financial Results</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+</ul>
+			</dd>
+
+
+
+
+    			<dt>有価証券報告書・四半期報告書</dt>
+    			<dd>
+			<ul>
+<ul class="year">
+<li><span>2017/08/14</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/170814_FirstQuarterReport.pdf">平成30年3月期 第1四半期報告書</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+</Ul>
+
+
+<ul class="year">
+<li><span>2017/06/22</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/170622_yuka.pdf">平成29年3月期 有価証券報告書</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+<li><span>2017/02/13</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/170213_ThirdQuarterReport.pdf">平成29年3月期 第3四半期報告書</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+<li><span>2016/11/11</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/161111_SecondQuarterReport.pdf">平成29年3月期 第2四半期報告書</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+<li><span>2016/08/12</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/160812_FirstQuarterReport.pdf">平成29年3月期 第1四半期報告書</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li></Ul>
+
+<ul class="year">
+<li><span>2016/06/24</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/160624_yuka.pdf">平成28年3月期 有価証券報告書</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+<li><span>2016/02/12</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/160212_ThirdQuarterReport.pdf">平成28年3月期 第3四半期報告書</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+<li><span>2015/11/13</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/151113_SecondQuarterReport.pdf">平成28年3月期 第2四半期報告書</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+<li><span>2015/08/07</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/150807_FirstQuarterReport.pdf">平成28年3月期 第1四半期報告書</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li></Ul>
+			<ul class="year">
+<li><span>2015/06/24</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/150624_yuka.pdf">平成27年3月期 有価証券報告書</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+			<li><span>2015/02/13</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/150213ThirdQuarterReport.pdf">平成27年3月期 第3四半期報告書</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+			<li><span>2014/11/12</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/141112_SecondQuarterReport.pdf">平成27年3月期 第2四半期報告書</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+            <li><span>2014/08/08</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/140808_FirstQuarterReport.pdf">平成27年3月期 第1四半期報告書</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+            </ul>
+            <ul class="year">            
+			<li><span>2014/06/20</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/140620_yuka.pdf">平成26年3月期 有価証券報告書</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+			<li><span>2014/02/13</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/140213_ThirdQuarterRepo.pdf">平成26年3月期 第3四半期報告書</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+			<li><span>2013/11/13</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/131113_SecondQuarterRepo.pdf">平成26年3月期 第2四半期報告書</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+			<li><span>2013/08/08</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/130808_FirstQuarterRepo.pdf">平成26年3月期 第1四半期報告書</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+            </ul>
+            <ul class="year">
+			<li><span>2013/06/21</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/130621_yuka.pdf">平成25年3月期 有価証券報告書</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+			<li><span>2013/02/04</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/130204_ThirdQuarterRepo.pdf">平成25年3月期 第3四半期報告書 </a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+			<li><span>2012/11/05</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/121105_SecondQuarterRepo.pdf">平成25年3月期 第2四半期報告書 </a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+			<li><span>2012/08/06</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/120806_FirstQuarterRepo.pdf">平成25年3月期 第1四半期報告書 </a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+            </ul>
+            <ul class="year">
+			<li><span>2012/06/15</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/120615_yuka.pdf">平成24年3月期 有価証券報告書 </a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+			<li><span>2012/02/07</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/120206_ThirdQuarterRepo.pdf">平成24年3月期 第3四半期報告書 </a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+			<li><span>2011/11/07</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/111107_secondQuarterRepo.pdf">平成24年3月期 第2四半期報告書 </a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+			<li><span>2011/08/08</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/110808_firstQuarterRepo.pdf">平成24年3月期 第1四半期報告書 </a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+            </ul>
+            <ul class="year">
+			<li><span>2011/06/17</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/110617yuka.pdf">平成23年3月期 有価証券報告書 </a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+			<li><span>2011/02/07</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/110207_ThirdQuarterRepo.pdf">平成23年3月期 第3四半期報告書</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+			<li><span>2010/11/08</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/101108_SecondQuarterRepo.pdf">平成23年3月期 第2四半期報告書</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+			<li><span>2010/08/06</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/100806kessan.pdf">平成23年3月期 第1四半期報告書</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+            </ul></dd>
+    			<dt>決算説明会資料</dt>
+                	<dd>
+<ul class="year">
+<li><span>2017/07/28</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/170728_FY17_1Q_presentation.pdf">平成30年3月期 第1四半期決算および会社説明会資料</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li></ul>
+			<ul class="year">
+<li><span>2017/04/28</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/170428_FY16_presentation.pdf">平成29年3月期 決算および会社説明会資料</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+<li><span>2017/01/30</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/170130_FY16_3Q_presentation.pdf">平成29年3月期 第3四半期決算および会社説明会資料</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+<li><span>2016/10/28</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/161028_FY16_2Q_presentation.pdf">平成29年3月期 第2四半期決算および会社説明会資料</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+<li><span>2016/07/28</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/160728_FY16_1Q_presentation.pdf">平成29年3月期 第1四半期決算および会社説明会資料</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li></ul>
+			
+<ul class="year">
+<li><span>2016/04/28</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/160428_FY15_presentation.pdf">平成28年3月期 決算および会社説明会資料</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>	
+<li><span>2016/05/16</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/20160516_setsushi_shusei.pdf">　（訂正）「平成28年３月期 決算および会社説明会資料」の一部訂正について</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>	
+<li><span>2016/01/28</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/160128_FY15_3Q_presentation.pdf">平成28年3月期 第3四半期決算および会社説明会資料</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>	
+<li><span>2015/10/29</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/151029_FY15_2Q_presentation.pdf">平成28年3月期 第2四半期決算および会社説明会資料</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>		
+<li><span>2015/07/30</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/FY15_1Q_presentation.pdf">平成28年3月期 第1四半期決算および会社説明会資料</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li></ul>
+			
+<ul class="year">
+<li><span>2015/04/30</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/20150430_FY14_Earnings_Presentation.pdf">平成27年3月期 決算および会社説明会資料</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+			<li><span>2015/01/30</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/FY14_3Q_presentation.pdf">平成27年3月期 第3四半期決算および会社説明会資料</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+			<li><span>2014/10/31</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/FY14_2Q_SMS_presentation.pdf">平成27年3月期 第2四半期決算および会社説明会資料</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+            <li><span>2014/07/31</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/FY14_1Q_presentation.pdf">平成27年3月期 第1四半期決算および会社説明会資料</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+            </ul>
+			<ul class="year">
+			<li><span>2014/04/25</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/FY13_presentation.pdf">平成26年3月期 決算および会社説明会資料</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+			<li><span>2014/01/31</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/FY13_3Q_presentation.pdf">平成26年3月期 第3四半期決算および会社説明会資料</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+            <li><span>2013/10/31</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/FY13_2Q_presentation.pdf">平成26年3月期 第2四半期決算および会社説明会資料</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+			<li><span>2013/07/31</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/FY13_1Q_presentation.pdf">平成26年3月期 第1四半期決算および会社説明会資料</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+            </ul>
+			<ul class="year">
+			<li><span>2013/04/26</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/FY12_presentation.pdf">平成25年3月期 決算および会社説明会資料</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+            <li><span>2013/01/31</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/FY12_3Q_presentation.pdf">平成25年3月期 第3四半期決算および会社説明会資料</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+            <li><span>2012/10/31</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/FY12_2Q_presentation.pdf">平成25年3月期 第2四半期決算および会社説明会資料</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+            <li><span>2012/07/31</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/FY12_1Q_presentation.pdf">平成25年3月期 第1四半期決算および会社説明会資料</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+            </ul>
+            <ul class="year">
+			<li><span>2012/04/27</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/FY11_kaishasetsumei.pdf">平成24年3月期 決算および会社説明会資料</a><br /><span>2011/5/23</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/120523_kaishaSetumeiSiryo-teisei.pdf">(訂正）「平成24年3月期 決算および会社説明資料」の訂正について</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+            <li><span>2012/01/31</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/FY11_3Q_kaishasetsumei.pdf">平成24年3月期 第3四半期決算および会社説明会資料</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+            <li><span>2011/10/31</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/111031_kaisyasetsumeikai.pdf">平成24年3月期 第2四半期決算および会社説明会資料</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+            <li><span>2011/7/29</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/110729_kaisyasetsumeikai.pdf">平成24年3月期 第1四半期決算および会社説明会資料 </a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+            </ul>
+            <ul class="year">
+			<li><span>2011/4/28</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/110428_setsumeikai.pdf">平成23年3月期 決算および会社説明会資料</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+            <li><span>2011/1/31</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/110131_kaisyasetsumeikai.pdf">平成23年3月期 第3四半期決算および会社説明会資料</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+            <li><span>2010/10/29</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/101029_kaisyasetsumeikai.pdf">平成23年3月期 第2四半期決算および会社説明会資料</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+            <li><span>2010/07/30</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/100730setsumei.pdf">平成23年3月期 第1四半期決算および会社説明会資料</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+            </ul>
+            <ul class="year">
+			<li><span>2010/04/28</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/100428setsumei.pdf">平成22年3月期 決算および会社説明会資料</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+            <li><span>2010/01/29</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/kessansetsumei100129.pdf">平成22年3月期 第3四半期決算および会社説明会資料</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+            <li><span>2009/10/30</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/kessansetsumei091030.pdf">平成22年3月期 第2四半期決算および会社説明会資料</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+            <li><span>2009/07/30</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/kessansetsumei090730.pdf">平成22年3月期 第1四半期決算および会社説明会資料</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+            </ul>
+            <ul class="year">
+			<li><span>2009/04/30</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/kessansetsumei090430.pdf">平成21年3月期 決算および会社説明会資料</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+			<li><span>2009/01/30</span>平成21年3月期 第3四半期決算および会社説明会資料　<a title="" target="_blank" href="http://www.bm-sms.co.jp/pdf/kessansetsumei090130.pdf">本編</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF">、<a title="" target="_blank" href="http://www.bm-sms.co.jp/pdf/kessansetsumei090130_summary.pdf">サマリ編</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+			<li><span>2008/10/30</span>平成21年3月期 第2四半期決算および会社説明会資料　<a title="" target="_blank" href="http://www.bm-sms.co.jp/pdf/kessansetsumei081030.pdf">
+本編</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF">、<a title="" target="_blank" href="http://www.bm-sms.co.jp/pdf/kessansetsumei081030_summary.pdf">サマリ編</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+			<li class="year"><span>2008/07/30</span>平成21年3月期 第1四半期決算および会社説明会資料　<a title="" target="_blank" href="http://www.bm-sms.co.jp/pdf/kessansetsumei080730.pdf">本編</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF">、<a title="" target="_blank" href="http://www.bm-sms.co.jp/pdf/kessansetsumei080730_summary.pdf">サマリ編</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+			<li><span>2008/05/07</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/kessansetsumei080507.pdf">平成20年3月期 決算および会社説明会資料</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+            </ul>
+    			</dd>
+    			<dt>決算説明会資料（英語版）</dt>
+                	<dd>
+<ul class="enLibrary year">
+<li><span>July 28, 2017</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/170728_EN_FY03-18_1Q_SMSpresentation_Material_for_IR.pdf">FY03-18 Q1 SMS presentation Material for IR【English】</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+</ul>
+
+
+
+<ul class="enLibrary year">
+<li><span>April 28, 2017</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/FY0316_SMS_presentation_E.pdf">FY03-17 SMSpresentation Material for IR【English】</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+
+<li><span>January 30, 2017</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/FY03-17_3Q_SMSpresentation_Material_for_IR.pdf">FY03-17 Q3 SMSpresentation Material for IR【English】</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+
+<li><span>October 28, 2016</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/FY03-17_2Q_SMSpresentation_Material_for_IR.pdf">FY03-17 1H SMSpresentation Material for IR【English】</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+
+<li><span>July 28, 2016</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/FY03-17_1Q_SMSpresentation_Material_for_IR.pdf">FY03-17 Q1 SMSpresentation Material for IR【English】</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+</ul>
+
+<ul class="enLibrary year">
+<li><span>April 28, 2016</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/FY03-16 SMSpresentation Material for IR.pdf">FY03-16 SMSPresentation Material for IR【English】</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+<li><span>January 28, 2016</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/FY03-16_3Q_SMSPresentation_Material_for_IR.pdf">FY03-16 Q3 SMSPresentation Material for IR【English】</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+<li><span>October 29, 2015</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/151029_en_FY03-16_2Q_SMSpresentation_Material_for_IR.pdf">FY03-16 1H SMSpresentation Material for IR【English】</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+<li><span>July 30, 2015</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/FY03-16_1Q_SMSpresentation_Material_for_IR.pdf">FY03-16 Q1 SMSpresentation Material for IR【English】</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li></ul>
+
+
+			<ul class="enLibrary year">
+<li><span>April 30, 2015</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/FY14 4Q Presentation Material.pdf">FY03-15 SMSpresentation Material for IR【English】</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+
+			<li><span>January 30, 2015</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/FY03-15_3Q_SMSpresentation_Material_for_IR.pdf">FY03-15 Q3 SMSpresentation Material for IR【English】</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+       		     <li><span>October 31, 2014</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/FY03-15_2Q_SMSpresentation_Material_for_IR.pdf">FY03-15 1H SMSpresentation Material for IR【English】</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+			<li><span>July 31, 2014</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/FY03-15_1Q_SMSpresentation_Material_for_IR.pdf">FY03-15 Q1 SMSpresentation Material for IR【English】</a></span><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+			</ul>
+  
+			<ul class="enLibrary year">
+                        <li><span>April 25, 2014</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/FY03-14_SMSpresentation_Material_for_IR.pdf">FY03-14 SMSpresentation Material for IR【English】</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+			<li><span>January 31, 2014</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/FY13_3Q_SMS_presentation_material.pdf">FY03-14 Q3 SMSpresentation Material for IR【English】</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+       		     <li><span>October 31, 2013</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/FY13_2Q_SMS_presentation_material.pdf">FY03-14 1H SMSpresentation Material for IR【English】</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+			<li><span>July 31, 2013</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/FY13_1Q_SMS_presentation_material.pdf">FY03-14 Q1 SMSpresentation Material for IR【English】</a></span><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+			</ul>
+			<ul class="enLibrary year">
+			<li><span>April 26, 2013</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/FY12_SMS_presentation_material.pdf">FY03-13 SMSpresentation Material for IR【English】</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+            <li><span>January 31, 2012</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/FY03-13_3Q_SMSpresentation_Material_for_IR.pdf">FY03-13 Q3_SMSpresentation Material for IR【English】</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+            <li><span>October 31, 2012</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/FY03-13_2Q_SMSpresentation_Material_for_IR.pdf">FY03-13 1H_SMSpresentation Material for IR【English】</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+            <li><span>July 31, 2012</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/FY03-13_1Q_SMSpresentation_Material_for_IR.pdf">FY03-13 Q1_SMSpresentation_Material for IR【English】</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+			</ul>
+			</dd>
+                	<dt>株主総会招集通知</dt>
+                	<dd>
+			<ul>
+<li><span>2017/05/30</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/170531_14thSMS_syoushutsuuchi.pdf">第14期定時株主総会招集ご通知</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+                        <li><span>2016/06/01</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/20160601_13thSMS_syoushutsuuchi.pdf">第13期定時株主総会招集ご通知</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+                        <li><span>2015/06/01</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/20150601_12thSMS_syoshutsuuchi.pdf">第12期定時株主総会招集ご通知</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+			<li><span>2014/06/04</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/20140604_11thSMS_syoshutsuuchi.pdf">第11期定時株主総会招集ご通知</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+			<li><span>2013/06/05</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/130605_10th_shosyutsuchi.pdf">第10期定時株主総会招集ご通知</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+            <li><span>2012/06/01</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/120601_9th_shosyutsuchi.pdf">第9期定時株主総会招集ご通知</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+            <li><span>2011/06/01</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/2175_syoshutsuuchi23-3.pdf">第8期定時株主総会招集ご通知</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+            <li><span>2010/06/02</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/soukai7th.pdf">第7期定時株主総会招集ご通知</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+            </ul></dd>
+                	<dt>株主通信</dt>
+                	<dd>
+                	<ul>
+<li><span>2016/6/24</span><a target="_blank" href="/wp-content/themes/corp/pdf/13th-kabunushi-tsuushin.pdf">第13期　株主通信</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+
+<li><span>2015/6/24</span><a target="_blank" href="/wp-content/themes/corp/pdf/12th-kabunushi-tsuushin.pdf">第12期　株主通信</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+                	<li><span>2014/6/20</span><a target="_blank" href="/wp-content/themes/corp/pdf/11th-kabunushi-tsuushin.pdf">第11期　株主通信</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+                	</ul>
+                	</dd>
+
+
+<dt>アニュアル・レポート（英語版）</dt>
+                	<dd>
+                	<ul>
+<li><a target="_blank" href="/pdf/SMS_Annual_Report_2016.pdf">Annual Report 2016 (7.1MB)</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+</ul>
+</dd>
+
+                	<dt>届出書・目論見書</dt>
+                	<dd>
+ 			<ul>           
+                        <li><span>2008/02/12</span><a target="_blank" href="http://www.bm-sms.co.jp/pdf/mokuromi-08-02.pdf">新株式発行並びに株式売出届出目論見書</a><img src="/wp-content/themes/corp/images/common/icon_pdf.png" alt="PDF"></li>
+                        </ul></dd>
+                	<dt>その他</dt>
+                	<dd>
+ 			<ul> 
+
+           
+                        <li>現在掲載している資料はありません。</li>
+                        </ul></dd>
+		</dl>
+        	</div>
+
+		</section>
+	<section class="block06">
+		<div class="inner">
+			<a class="btn_back" href="/ir/">株主・投資家情報トップへ戻る</a>
+		</div>
+	</section>
+    </div>			</div><!-- .entry-content -->
+
+	
+</article><!-- #post-## -->
+
+		</main><!-- .site-main -->
+	</div><!-- .content-area -->
+
+	<p id="pageTop"><a href="#top">PAGE TOP</a></p>
+       		
+    <footer>
+    	<div class="sns">
+            <ul class="clearfix">
+			
+			
+            		
+
+                	
+			<li><a href="http://twitter.com/share?url=http://www.bm-sms.co.jp/ir/library/&amp;text=エス・エム・エス株式会社" target="_blank"><img alt="twitter" src="/wp-content/themes/corp/images/common/footer/sns_twitter.png"></a></li>
+                	<li><a onclick="window.open(this.href, 'FBwindow', 'width=650, height=450, menubar=no, toolbar=no, scrollbars=yes'); return false;" href="http://www.facebook.com/share.php?u=http://www.bm-sms.co.jp/ir/library/"><img alt="Facebook" src="/wp-content/themes/corp/images/common/footer/sns_facebook.png"></a></li>
+                	<li><a href="http://line.me/R/msg/text/?エス・エム・エス株式会社 http://www.bm-sms.co.jp/ir/library/" target="_blank"><img alt="line" src="/wp-content/themes/corp/images/common/footer/sns_line.png"></a></li>
+			<li><a onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" href="https://plus.google.com/share?url=http://www.bm-sms.co.jp/ir/library/"><img alt="google+" src="/wp-content/themes/corp/images/common/footer/sns_google.png"></a></li>
+
+							
+		            </ul>
+    	</div>
+
+
+		<section class="ftLink">
+        	<div class="inner clearfix">
+	        	<div class="logo"><img src="/wp-content/themes/corp/images/common/footer/logo.png" alt="SMS"></div>
+            	<div class="ftNavi">
+                    	<a href="/company/">会社情報</a>
+                </div>
+                <div class="ftNavi">
+			<a href="/service/">事業内容</a>
+                </div>
+                <div class="ftNavi">
+                    	<a href="/ir/">株主投資家情報</a>
+                </div>
+                <div class="ftNavi">
+                    	<a href="/recruit-list/">採用情報</a>
+                </div>
+                <div class="ftNavi">
+                    	<a href="/sitemap/">サイトマップ</a>
+                </div>
+                <div class="ftNavi">
+                    	<a href="/contact/">お問い合わせ</a>
+                </div>
+                <div class="ftNavi">
+                    	<a href="/privacy/">個人情報保護方針</a>
+                </div>
+		<div class="ftNavi">
+                    	<a href="/ir/attention/">免責事項</a>
+                </div>
+            </div>
+        </section>
+        <div class="copy">
+        	<div class="inner clearfix">
+            	<p>Copyright © SMS CO., LTD. All Rights Reserved.</p>
+                <p>掲載の記事・写真・イラストなど、すべてのコンテンツの無断複写・転載・公衆送信等を禁じます。 </p>
+    		</div>
+    	</div><!--copy-->   
+    </footer>
+
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"http:\/\/www.bm-sms.co.jp\/wp-json\/","namespace":"contact-form-7\/v1"},"recaptcha":{"messages":{"empty":"\u3042\u306a\u305f\u304c\u30ed\u30dc\u30c3\u30c8\u3067\u306f\u306a\u3044\u3053\u3068\u3092\u8a3c\u660e\u3057\u3066\u304f\u3060\u3055\u3044\u3002"}}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.bm-sms.co.jp/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.8'></script>
+<script type='text/javascript' src='http://www.bm-sms.co.jp/wp-content/themes/corp/js/skip-link-focus-fix.js?ver=20141010'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var screenReaderText = {"expand":"<span class=\"screen-reader-text\">\u30b5\u30d6\u30e1\u30cb\u30e5\u30fc\u3092\u5c55\u958b<\/span>","collapse":"<span class=\"screen-reader-text\">\u30b5\u30d6\u30e1\u30cb\u30e5\u30fc\u3092\u9589\u3058\u308b<\/span>"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.bm-sms.co.jp/wp-content/themes/corp/js/functions.js?ver=20141212'></script>
+<script type='text/javascript' src='http://www.bm-sms.co.jp/wp-includes/js/wp-embed.min.js?ver=4.7.5'></script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-19788779-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>

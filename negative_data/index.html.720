@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="keywords" content="本,家電,ブックオフ,BOOKOFF,買取" />
+<meta name="description" content="ブックオフの最新CM／百獣の王編・速読王編　HPでも公開中！お近くの店舗が簡単に探せるBOOKOFF公式サイト。古本やCD・DVD・ゲームだけではなく、デジタル家電や携帯・スマホ、洋服（古着）・おもちゃなど、さまざまな商品を買取・販売しています。" />
+<!-- SITE COMMON CSS -->
+<link rel="stylesheet" href="/common/css/reset.css">
+<link rel="stylesheet" href="/common/css/common.css">
+<link rel="stylesheet" href="/common/css/font_medium_w.css" title="medium">
+<link rel="alternate stylesheet" href="/common/css/font_large_w.css" title="large">
+<link rel="alternate stylesheet" href="/common/css/font_small_w.css" title="small">
+<link rel="stylesheet" href="/common/css/jquery.jscrollpane.css">
+<link rel="stylesheet" href="/common/css/core-ui-select.css">
+<link rel="stylesheet" href="/common/css/colorbox.css">
+<link rel="stylesheet" href="/common/css/placeholder.css">
+<!-- /SITE COMMON CSS -->
+<!-- CATE ONRY CSS -->
+<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="/css/mainvisual.css">
+<!-- /CATE ONRY CSS -->
+<!-- SITE COMMON JS -->
+<script src="/common/js/jquery-1.7.1.min.js"></script>
+<script src="/common/js/jquery.easing.js"></script>
+<script src="/common/js/jquery.mousewheel.js"></script>
+<script src="/common/js/jquery.jscrollpane.min.js"></script>
+<script src="/common/js/jquery.core-ui-select.js"></script>
+<script src="/common/js/jquery.colorbox-min.js"></script>
+<script src="/common/js/search.js"></script>
+<!--[if lt IE 9]>
+<script type="text/javascript" src="/common/js/html5.js"></script>
+<script type="text/javascript" src="/common/js/respond.min.js"></script>
+<![endif]-->
+<script src="/common/js/common.js"></script>
+<script src="/common/js/jquery.placeholder.js"></script>
+<script src="/common/js/common.loadlast.js"></script>
+<!-- /SITE COMMON JS -->
+<!-- CATE ONRY JS -->
+<script src="/js/mainvisual.js"></script>
+<script src="/js/yahoo-auction-manager.js"></script>
+<script src="/js/top.js"></script>
+<!-- /CATE ONRY JS -->
+<!-- SHOP SEARCH JS -->
+<script src="/shop/js/jquery.searchshop-common.js"></script>
+<script src="/shop/js/searchshop-side.js"></script>
+<!-- /SHOP SEARCH JS -->
+<script type="text/javascript">
+$(function() {
+$('#search-online').setPlaceholder('商品名/著者名', ['search-box-online-top'], ['search-box', 'online-top']);
+});
+</script>
+<script type="application/ld+json">
+{
+"@context": "http://schema.org",
+"@type": "WebSite",
+"url": "https://www.bookoff.co.jp/",
+"potentialAction": {
+ "@type": "SearchAction",
+ "target": "https://www.bookoff.co.jp/shop/search-result.html#q={search_term}",
+ "query-input": "required name=search_term"
+ }
+}
+</script>
+<title>本・家電を売るならBOOKOFF(ブックオフ)</title>
+<link rel="canonical" href="https://www.bookoff.co.jp/">
+</head>
+<body id="p-top" class="site-top">
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KL8S7Q" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});
+var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-KL8S7Q');</script>
+<!-- End Google Tag Manager -->
+<div id="wrap"> 
+  <!-- ▼ヘッダー include開始▼ -->
+  
+  <!-- header -->
+  <header role="banner">
+    <div id="header-inner" class="cf">
+      <h1 id="header-logo"><a href="/"><img src="/common/images/header-logo.gif" alt="BOOK-OFF グループ"></a></h1>
+      <p id="sp-header-menu-btn" class="sp-only close"><a href="javascript:void(0);">menu</a></p>
+      <div id="header-util-list-sp" class="close">
+        <ul id="header-util-list01" class="sp-only cf">
+          <li><a href="/shop/">お店を探す</a></li>
+          <li><a href="/sell/">売りたい</a></li>
+          <li><a href="/buy/">買いたい</a></li>
+          <li><a href="/net/">ネットで売る・買う</a></li>
+          <li><a href="/event/">セール・イベント</a></li>
+          <li><a href="/qa/">Q&amp;A</a></li>
+        </ul>
+        <div id="header-util-list02-wrap">
+          <ul id="header-util-list02" class="cf">
+            <li><a href="/corporate/">会社情報</a></li>
+            <li class="right"><a href="/ir/">IR情報</a></li>
+            <li><a href="/recruit/">採用情報</a></li>
+            <li class="right"><a href="/recruit/parttime/">アルバイト募集</a></li>
+            <li><a href="/rent/">店舗物件募集</a></li>
+            <li class="right"><a href="/admedia/">広告掲載について</a></li>
+            <li class="last"><a href="/en/">English</a></li>
+          </ul>
+        </div>
+        <div id="header-inner-r" class="cf">
+          <div id="header-search">
+            <form id="searchbox_demo" method="get" action="/result.html" class="cf pie">
+              <input type="hidden" name="cref" value="" />
+              <input type="hidden" name="ie" value="utf-8" />
+              <input type="hidden" name="hl" value="ja" />
+              <input type="text" name="q" id="site-search" class="seach-box">
+              <input type="image" name="sa" class="seach-btn clear-xy" alt="検索" src="/common/images/serchbtn-bg-01.gif" />
+            </form>
+          </div>
+          <dl id="textsize-change-list" class="cf pc-only">
+            <dt><img src="/common/images/header-textsize-tit.gif" width="97" height="25" alt="文字サイズ"></dt>
+            <dd><a rel="large" id="font-large"><img src="/common/images/header-textsize-l-of.gif" width="35" height="25" alt="大"></a></dd>
+            <dd><a rel="medium" id="font-medium"><img src="/common/images/header-textsize-m-of.gif" width="35" height="25" alt="中"></a></dd>
+            <dd><a rel="small" id="font-small"><img src="/common/images/header-textsize-s-of.gif" width="35" height="25" alt="小"></a></dd>
+          </dl>
+        </div>
+        <p id="header-util-list-sp-close-btn" class="sp-only"><a href="javascript:void(0);"><img src="/common/images/header-util-list-sp-close-btn-img.gif" alt="MENUを閉じる"></a></p>
+      </div>
+    </div>
+  </header>
+  <!-- header -->
+ 
+  <!-- ▲ヘッダー include終了▲ --> 
+<!-- nav -->
+  <nav role="navigation">
+    <ul class="cf">
+      <li id="gnavi-01"><a href="/shop/"><span class="wrap"><span><img src="/common/images/gnavi-img-01.gif" alt="お店を探す"></span></span></a></li>
+      <li id="gnavi-02"><a href="/sell/"><span class="wrap"><span><img src="/common/images/gnavi-img-02.gif" alt="売りたい"></span></span></a></li>
+      <li id="gnavi-03"><a href="/buy/"><span class="wrap"><span><img src="/common/images/gnavi-img-03.gif" alt="買いたい"></span></span></a></li>
+      <li id="gnavi-04"><a href="/net/"><span class="wrap"><span><img src="/common/images/gnavi-img-04.gif" alt="ネットで売る・買う"></span></span></a></li>
+      <li id="gnavi-05"><a href="/event/"><span class="wrap"><span><img src="/common/images/gnavi-img-05.gif" alt="セール・イベント"></span></span></a></li>
+      <li id="gnavi-06"><a href="/qa/"><span class="wrap"><span><img src="/common/images/gnavi-img-06.gif" alt="Q&amp;A"></span></span></a></li>
+    </ul>
+  </nav>
+  <!-- /nav --> 
+  <!-- main -->
+  <main role="main">
+    <div id="site-top"> 
+      
+      <div class="special-banner-wrap site-top pc-only">
+  <ul>
+    <li><a href="/event/cm/201708_sokudoku.html  "><img src="/banner/cmtenpo.jpg"/></a></li>
+  </ul>
+</div>
+  
+      <!-- main-visual -->
+<div id="main-visual-wrap" class="cf">
+        <div id="main-visual-wrap-inner">
+          
+          <!-- importamt-info -->
+<!-- /importamt-info -->
+          <section id="main-visual">
+            <div id="visual-box">
+              <div id="visual-imgs">
+                <img class="dummy" src="/banner/dummy.png" />
+                <ul>
+                  <li><img class="cursor-img" src="/banner/201610_kaitori707.jpg" data-href="http://www.bookoff.co.jp/shop/" data-target="0"/></li>
+                  <li><img class="cursor-img" src="/banner/topbig_1.png" data-href="/sell/electronic/" data-target="0"/></li>
+                  <li><img class="cursor-img" src="/banner/201411_boltakuhon707.jpg" data-href="http://www.bookoffonline.co.jp/files/selltop.html?utm_source=boc&utm_medium=site&utm_content=TP_flash_ba&utm_campaign=none" data-target="1"/></li>
+                </ul>
+                <div id="visual-sp-arr">
+                  <p id="visual-back-btn"><img class="cursor-img" src="/images/sp-top-visual-back-arr.png" alt=""></p>
+                  <p id="visual-next-btn"><img class="cursor-img" src="/images/sp-top-visual-next-arr.png" alt=""></p>
+                </div><!-- /visual-sp-arr -->
+              </div><!-- /visual-imgs -->
+              <div id="progress-bar">
+                <p id="bar-bg"></p>
+                <p id="bar-current"></p>
+              </div><!-- /progress-bar -->
+            </div><!-- /visual-box -->
+            <div id="visual-thumbnails">
+                <ul class="cf">
+                  <li class="active"><img class="cursor-img" src="/banner/banner/201610_kaitori218.png"/></li>
+                  <li><img class="cursor-img" src="/banner/topthum.png"/></li>
+                  <li><img class="cursor-img" src="/banner/201411_boltakuhon218.jpg"/></li>
+                </ul>
+            </div><!-- /visual-thumbnails -->
+          </section>
+        </div>
+      </div><!-- /main-visual -->
+
+      <!-- /main-visual -->
+      <div id="contents-wrap">
+        <div id="section-wrap" class="cf"> 
+          <!--SECTION01-->
+          <section id="top-section-01">
+            <div class="special-banner-wrap site-top sp-only">
+  <ul>
+    <li><a href="/event/cm/201708_sokudoku.html  "><img src="/banner/cmtenpo.jpg"/></a></li>
+  </ul>
+</div>
+
+            <div id="member-login-sp-btn"><a href="http://2902.net" target="_blank"><span>会員サイト ログインはこちら</span></a></div>
+            <!--unit-->
+            <div class="section-unit-shopseach">
+              <h2 class="section-unit-shopseach-h2"><a href="/shop/"><span>お店を探す</span></a></h2>
+              <p class="section-unit-img" id="section-unit-shopseach-img"><a href="/shop/"><img src="/images/top-main-shop-search.png" alt="お店を探す"></a></p>
+              <dl class="location">
+                <dt>お住まいの場所から</dt>
+                <dd>
+                  <form id="side-shopsearch-pref" class="section-unit-form select cf">
+                    <select class="location-select">
+                      <option value="">都道府県を選ぶ</option>
+                      <option value="01_北海道">北海道</option>
+                      <option value="02_青森県">青森県</option>
+                      <option value="03_岩手県">岩手県</option>
+                      <option value="04_宮城県">宮城県</option>
+                      <option value="05_秋田県">秋田県</option>
+                      <option value="06_山形県">山形県</option>
+                      <option value="07_福島県">福島県</option>
+                      <option value="08_茨城県">茨城県</option>
+                      <option value="09_栃木県">栃木県</option>
+                      <option value="10_群馬県">群馬県</option>
+                      <option value="11_埼玉県">埼玉県</option>
+                      <option value="12_千葉県">千葉県</option>
+                      <option value="13_東京都">東京都</option>
+                      <option value="14_神奈川県">神奈川県</option>
+                      <option value="15_新潟県">新潟県</option>
+                      <option value="16_富山県">富山県</option>
+                      <option value="17_石川県">石川県</option>
+                      <option value="18_福井県">福井県</option>
+                      <option value="19_山梨県">山梨県</option>
+                      <option value="20_長野県">長野県</option>
+                      <option value="21_岐阜県">岐阜県</option>
+                      <option value="22_静岡県">静岡県</option>
+                      <option value="23_愛知県">愛知県</option>
+                      <option value="24_三重県">三重県</option>
+                      <option value="25_滋賀県">滋賀県</option>
+                      <option value="26_京都府">京都府</option>
+                      <option value="27_大阪府">大阪府</option>
+                      <option value="28_兵庫県">兵庫県</option>
+                      <option value="29_奈良県">奈良県</option>
+                      <option value="30_和歌山県">和歌山県</option>
+                      <option value="31_鳥取県">鳥取県</option>
+                      <option value="32_島根県">島根県</option>
+                      <option value="33_岡山県">岡山県</option>
+                      <option value="34_広島県">広島県</option>
+                      <option value="35_山口県">山口県</option>
+                      <option value="36_徳島県">徳島県</option>
+                      <option value="37_香川県">香川県</option>
+                      <option value="38_愛媛県">愛媛県</option>
+                      <option value="39_高知県">高知県</option>
+                      <option value="40_福岡県">福岡県</option>
+                      <option value="41_佐賀県">佐賀県</option>
+                      <option value="42_長崎県">長崎県</option>
+                      <option value="43_熊本県">熊本県</option>
+                      <option value="44_大分県">大分県</option>
+                      <option value="45_宮崎県">宮崎県</option>
+                      <option value="46_鹿児島県">鹿児島県</option>
+                      <option value="47_沖縄県">沖縄県</option>
+                    </select>
+                  </form>
+                </dd>
+              </dl>
+              <dl class="freeword">
+                <dt>店名・地名・最寄駅を入力</dt>
+                <dd>
+                  <form id="side-shopsearch-free" class="section-unit-form cf pie search_form">
+                    <input type="text" id="free-search-sub" class="seach-box search_query" name="">
+                  </form>
+                  <div class="link-btn-block cf"><a id="side-btn-free" class="search-freewd-shop pie" href="javascript:void(0)">検索</a></div>
+                  <p class="search-freewd-link cf"><a href="http://www.bookoffonline.co.jp/?xadid=cp00032&utm_source=boc&utm_medium=site&utm_content=TP_shopsearch&utm_campaign=none" target="_brank"><span>商品タイトルでお探しの方はこちら</span></a></p>
+                </dd>
+              </dl>
+              <dl class="gps cf">
+                <dt>現在地から</dt>
+                <dd>
+                  <form id="side-shopsearch-near" action="/shop/search-result.html" method="get">
+                    <a class="pie" href="javascript:void(0)">検索</a>
+                  </form>
+                </dd>
+              </dl>
+            </div>
+            <!--/unit-->
+            <div id="member-info-wrap">
+              <!-- <iframe src="http://2902.net/m/m_login.php" width="225" height="521" scrolling="no" frameborder="0" sandbox="allow-top-navigation allow-scripts allow-forms"></iframe> -->
+              <script>
+                //document : https://developers.google.com/analytics/devguides/collection/analyticsjs/cross-domain?hl=ja#iframe
+                (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+                ga('create', 'UA-43131692-1', 'auto');
+                var linker;
+                function addiFrame(divId, url, opt_hash) {
+                  return function(tracker) {
+                    window.linker = window.linker || new window.gaplugins.Linker(tracker);
+                    var iFrame = document.createElement('iFrame');
+                    iFrame.src = window.linker.decorate(url, opt_hash); // use hash
+                    iFrame.width = '225';
+                    iFrame.height = '521';
+                    iFrame.scrolling = 'no';
+                    iFrame.frameborder = '0';
+                    document.getElementById(divId).appendChild(iFrame);
+                  };
+                }
+                // Dynamically add the iFrame to the page with proper linker parameters.
+                ga(addiFrame('member-info-wrap', '//2902.net/m/m_login.php', true));
+                </script>
+            </div>
+          </section>
+          <!--/SECTION01--> 
+          <!--SECTION02-->
+          <section id="top-section-02" class="cf"> 
+            <!--unit-->
+            <div class="top-section-unit green">
+              <h2 class="section-unit-h2"><a href="http://www.bookoffonline.co.jp/?xadid=a0350041433321024894&utm_campaign=none&utm_content=TP_main&utm_medium=site&utm_source=boc" target="_blank"><span>公式オンラインサイト<br>欲しい商品を今すぐ検索</span></a></h2>
+              <p class="section-unit-img"><a href="http://www.bookoffonline.co.jp/?xadid=a0350041433321024894&utm_campaign=none&utm_content=TP_main&utm_medium=site&utm_source=boc" target="_blank"><img src="/images/top-unit-bg-01.jpg" alt="新品・中古両方を取扱い。欲しい商品を今すぐ検索！"></a></p>
+              <div id="section-unit-form-wrap-keyword">
+                <form action="/onlinesearch.php" method="GET" class="section-unit-form keyword cf pie" target="_blank">
+                  <input type="text" id="search-online" class="seach-box" name="q">
+                  <input type="hidden" name="utm_medium" value="site">
+                  <input type="hidden" name="utm_source" value="boc">
+                  <input type="hidden" name="utm_content" value="TP_search">
+                  <input type="hidden" name="utm_campaign" value="none">  
+                  <input type="hidden" name="xadid" value="cp00004">
+                  <input type="image" class="seach-btn" name="" alt="検索" src="/common/images/serchbtn-bg-01.gif">
+                </form>
+              </div>
+            </div>
+            <!--/unit-->
+            <!--unit-->
+            <div class="top-section-unit blue sp-right">
+              <h2 class="section-unit-h2"><a href="/sell/shop.html"><span>お店で売る<br>
+                (店頭買取)</span></a></h2>
+              <p class="section-unit-img"><a href="/sell/shop.html"><img src="/images/top-unit-img-03.jpg" alt="お店で売る(店頭買取)"></a></p>
+            </div>
+            <!--/unit--> 
+            <!--unit-->
+            <div class="top-section-unit blue">
+              <h2 class="section-unit-h2"><a href="/sell/house.html"><span>お家で売る<br>
+                （出張買取・宅配買取）</span></a></h2>
+              <p class="section-unit-img"><a href="/sell/house.html"><img src="/images/top-unit-img-02.jpg" alt="お家で売る(出張買取・宅配買取)"></a></p>
+            </div>
+            <!--/unit-->            
+            <!--unit-->
+            <div class="top-section-unit orange cl sp-right">
+              <h2 class="section-unit-h2 sp-one-line"><a href="/buy/index.html#anchor01"><span><span class="pc-only">本だけじゃないブックオフ</span><br class="pc-only">
+                取扱商品(販売)</span></a></h2>
+              <p class="section-unit-img"> <a href="/buy/index.html#anchor01"><img src="/images/top-unit-img-06.png" alt="取扱商品(販売)"></a></p>
+            </div>
+            <!--/unit--> 
+            <!--unit-->
+            <div class="top-section-unit gray">
+              <h2 class="section-unit-h2"><a href="/recruit/parttime/"><span>アルバイト募集<br class="pc-only">
+                <span class="pc-only">（バイトをするならBOOKOFF）</span></span></a></h2>
+              <p class="section-unit-img"><a href="/recruit/parttime/"><img src="/images/top-unit-img-08.jpg" alt="アルバイト募集"></a></p>
+            </div>
+            <!--/unit-->
+            <!--unit-->
+            <div class="top-section-unit gray sp-right">
+              <h2 class="section-unit-h2"><a href="/members/"><span>知っている人は得してる<br>
+                ブックオフ会員サービス</span></a></h2>
+              <p class="section-unit-img"><a href="/members/"><img src="/images/top-unit-img-09.jpg" alt="知っている人は得してるブックオフ会員サービス"></a></p>
+            </div>
+            <!--/unit-->
+          </section>
+          <!--/SECTION02-->
+<section id="auction1" class="top-section-auction">
+  <div class="top-section-unit green">
+    <h2 class="section-unit-h2-1line"><span>ブックオフグループ オークションストア</span></h2>
+    <div class="auction-items-wrap">
+      <ul class="auction-items cf"></ul>
+    </div>
+    <div class="sellers-wrap">
+      <ul class="sellers cf">
+        <li>
+          <p><a href="http://sellinglist.auctions.yahoo.co.jp/user/bookoff2014?fr=auc_bocorpsite" target="_blank"><span>BOOKOFFオークションストア</span></a></p>
+          <p class="store-desc">ブックオフチェーンのお宝を出品中</p>
+        </li>
+        <li>
+          <p><a href="http://sellinglist.auctions.yahoo.co.jp/user/bookoff2016?fr=auc_bocorpsite" target="_blank"><span>BOOKOFF Onlineヤフオク!店</span></a></p>
+          <p class="store-desc">まとめ買いがお得。即決で人気商品を落札！</p>
+        </li>
+        <li>
+          <p><a href="http://sellinglist.auctions.yahoo.co.jp/user/hugmart2013?fr=auc_bocorpsite" target="_blank"><span>hugall</span></a></p>
+          <p class="store-desc">ブランドアパレルを中心にお得に出品中</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+          <!--SECTION03-->
+          <section id="top-section-03" class="cf"> 
+            <!--unit-->
+            <div class="top-section-unit gray sp-only-unit">
+              <h2 class="section-unit-h2-1line"><a href="/qa/"><span class="btm-cont">Q＆A</span></a></h2>
+              <div class="unit-gray-wrap">
+<div class="unit-gray-inner">
+<ul class="unit-qa-list">
+<li><a href="/qa/faq.html#136">買取に関するご質問</a></li>
+<li><a href="/qa/faq.html#135">ご購入・交換・返品について</a></li>
+<li><a href="/qa/faq.html#134">ブックオフグループで展開している事業について</a></li>
+<li><a href="/qa/faq.html#142">ポイントサービス・その他会員サービスについて</a></li>
+<li><a href="/qa/faq.html#143">その他のご質問</a></li>
+</ul>
+</div>
+</div>
+
+            </div>
+            <!--/unit--> 
+            <!--unit-->
+            <div class="top-section-unit dark sp-only-unit ">
+            <h2 class="section-unit-h2-1line"><a href="/info/news/"><span class="btm-cont">お知らせ</span></a><span class="rss-btn"><a href="/info/news/news.xml"><img src="/common/images/top-rss-ico.gif" alt="RSS"></a></span></h2>
+            <div class="unit-gray-wrap">
+  <div class="unit-gray-inner">
+    <dl class="unit-information-list">
+      <dt class="cf"><span class="date">■2016年08月22日</span></dt>
+      <dd><a href="/info/news/2016/post_39.html" target="_blank"><span>気象状況による営業時間の変更について</span></a></dd>
+    </dl>
+    <dl class="unit-information-list">
+      <dt class="cf"><span class="date">■2016年05月20日</span></dt>
+      <dd><a href="/info/news/2016/28_3.html" target="_blank"><span>【更新】平成28年熊本地震における店舗営業状況並びに被災地支援について</span></a></dd>
+    </dl>
+    <dl class="unit-information-list">
+      <dt class="cf"><span class="date">■2016年03月10日</span></dt>
+      <dd><a href="/info/tohokushien.pdf" target="_blank"><span>「東日本大震災発生から5年～ブックオフグループ復興支援の取組み報告～</span></a></dd>
+    </dl>
+  </div>
+</div>
+
+            </div>
+            <!--/unit--> 
+            <!--unit-->
+            <div class="top-section-unit red sp-only-unit ">
+            <h2 class="section-unit-h2"><a href="/shop/news/"><span class="btm-cont">店舗オープン<br class="pc-only">
+            /リニューアル情報</span></a><span class="rss-btn"><a href="/shop/news/shopopen.xml"><img src="/common/images/top-rss-ico.gif" alt="RSS"></a></span></h2>
+            <div class="unit-gray-wrap"><div class="unit-gray-inner">
+<dl class="unit-information-list">
+<dt class="cf"><span class="date">2017年07月29日</span></dt>
+<dd><a href="/event/lp/open_waseda.html"><span>BOOKOFF 早稲田駅前店 リニューアルオープン</span></a></dd>
+</dl>
+<dl class="unit-information-list">
+<dt class="cf"><span class="date">2017年07月29日</span></dt>
+<dd><a href="/shop/shop10087.html"><span>BOOKOFF 高松仏生山店 リニューアルオープン</span></a></dd>
+</dl>
+<dl class="unit-information-list">
+<dt class="cf"><span class="date">2017年07月22日</span></dt>
+<dd><a href="/shop/shop10546.html "><span>BOOKOFF PLUS 富士中島店 リニューアルオープン</span></a></dd>
+</dl>
+</div>
+</div>
+            </div>
+            <!--/unit--> 
+            <!--unit-->
+            
+            <div class="top-section-unit green sp-only-unit right-end">
+              <h2 class="section-unit-h2"><a href="http://pro.bookoffonline.co.jp/?utm_source=boc&utm_medium=site&utm_content=TOP_rank_head&xadid=rank&xadid=rank_head" target="_brank"><span class="btm-cont">お役立ちコンテンツ<br class="pc-only"/>
+              <span class="pc-only">by BOOKOFF Online</span></span></a></h2>
+              <div class="unit-gray-wrap online-ranking">
+                <div class="header"></div>
+                <div class="unit-gray-inner">
+                  <ol>
+                    <li class="unit-information-list"><p class="ranking-image"><a href="http://pro.bookoffonline.co.jp/life/seiri/20170331-petit-seiri.html?utm_source=boc&utm_medium=site&utm_content=TOP_rank_1&xadid=rank" class="no-underline" target="_brank"><img src="/online/online-ranking1.jpg"/></a></p><p class="ranking-text"><a href="http://pro.bookoffonline.co.jp/life/seiri/20170331-petit-seiri.html?utm_source=boc&utm_medium=site&utm_content=TOP_rank_1&xadid=rank" target="_brank"><span>片付け力がアップする！今すぐ出来る整理のコツ10選</span></p></a></li>
+                    <li class="unit-information-list"><p class="ranking-image"><a href="http://pro.bookoffonline.co.jp/book-enjoy/books-trivia/20160408-isbn-mean.html?utm_source=boc&utm_medium=site&utm_content=TOP_rank_2&xadid=rank" class="no-underline" target="_brank"><img src="/online/online-ranking2.jpg"/></a></p><p class="ranking-text"><a href="http://pro.bookoffonline.co.jp/book-enjoy/books-trivia/20160408-isbn-mean.html?utm_source=boc&utm_medium=site&utm_content=TOP_rank_2&xadid=rank" target="_brank"><span>そうだったんだ！本の裏表紙にある「ISBN」コードの意味</span></p></a></li>
+                    <li class="unit-information-list"><p class="ranking-image"><a href="http://pro.bookoffonline.co.jp/book-enjoy/book-hokan/20151211-made-bookshelf-duckboards.html?utm_source=boc&utm_medium=site&utm_content=TOP_rank_3&xadid=rank" class="no-underline" target="_brank"><img src="/online/online-ranking3.jpg"/></a></p><p class="ranking-text"><a href="http://pro.bookoffonline.co.jp/book-enjoy/book-hokan/20151211-made-bookshelf-duckboards.html?utm_source=boc&utm_medium=site&utm_content=TOP_rank_3&xadid=rank" target="_brank"><span>ぜんぶ100均！ 女性でも簡単に作れる本棚の作り方</span></p></a></li>
+                    <li class="unit-information-list"><p class="ranking-image"><a href="http://pro.bookoffonline.co.jp/book-enjoy/book-hokan/20160503-safekeeping-book-matome.html?utm_source=boc&utm_medium=site&utm_content=TOP_rank_4&xadid=rank" class="no-underline" target="_brank"><img src="/online/online-ranking4.jpg"/></a></p><p class="ranking-text"><a href="http://pro.bookoffonline.co.jp/book-enjoy/book-hokan/20160503-safekeeping-book-matome.html?utm_source=boc&utm_medium=site&utm_content=TOP_rank_4&xadid=rank" target="_brank"><span>本棚の本がすっきり＆長持ち！ 本の保管・収納方法まとめ</span></p></a></li>
+                    <li class="unit-information-list"><p class="ranking-image"><a href="http://pro.bookoffonline.co.jp/book-enjoy/reading-goods/20150811-original-book-cover.html?utm_source=boc&utm_medium=site&utm_content=TOP_rank_5&xadid=rank" class="no-underline" target="_brank"><img src="/online/online-ranking5.jpg"/></a></p><p class="ranking-text"><a href="http://pro.bookoffonline.co.jp/book-enjoy/reading-goods/20150811-original-book-cover.html?utm_source=boc&utm_medium=site&utm_content=TOP_rank_5&xadid=rank" target="_brank"><span>簡単！おしゃれ！紙袋で作るブックカバーの作り方</span></p></a></li>
+                  </ol>
+                </div>
+                <div class="footer"><a href="http://pro.bookoffonline.co.jp/?utm_source=boc&utm_medium=site&utm_content=TOP_rank_foot&xadid=rank&xadid=rank_foot" target="_brank"><span>ブックオフオンラインコラムTOP</span></a></div>
+              </div>
+            </div>
+
+            <!--/unit-->
+            <!--SECTION03--> 
+          </section>
+            <!--SECTION04-->
+           <section id="top-section-sns" class="cf">
+             <div class="facebook sp-only">
+              <a href="https://www.facebook.com/bookoffcorporation" target="_blank"><img src="/common/images/sp_index_facebook.gif" alt="BOOKOFF公式Facebook" /></a>
+             </div>
+             <!--[if IE 7 ]>
+             <div class="facebook pc-only ie7">
+              <a href="https://www.facebook.com/bookoffcorporation" target="_blank"><img src="/common/images/sp_index_facebook.gif" alt="BOOKOFF公式Facebook" /></a>
+              </div>
+             <![endif]-->
+             <!--[if (gt IE 7)|!(IE)]><!-->
+             <div class="top-section-unit2 sns facebook pc-only">
+               <h2 class="section-unit-h2-1line"><a href="https://www.facebook.com/bookoffcorporation" target="_blank"><span>Facebook</span></a></h2>
+               <div>
+                 <iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fbookoffcorporation&amp;width=479&amp;height=395&amp;colorscheme=light&amp;show_faces=false&amp;header=false&amp;stream=true&amp;show_border=true" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:470px; height:395px;" allowTransparency="true" style="#"></iframe>
+               </div>
+             </div>
+             <!--<![endif]-->
+             <div class="twitter sp-only">
+              <a href="http://twitter.com/BOOKOFF" target="_blank"><img src="/common/images/sp_index_twitter.gif" alt="BOOKOFF公式Twitter" /></a>
+             </div>
+             <!--[if IE 7 ]>
+             <div class="twitter pc-only ie7">
+              <a href="http://twitter.com/BOOKOFF" target="_blank"><img src="/common/images/sp_index_twitter.gif" alt="BOOKOFF公式Twitter" /></a>
+             </div>
+             <![endif]-->
+             <!--[if (gt IE 7)|!(IE)]><!-->
+             <div class="top-section-unit sns twitter pc-only">
+               <h2 class="section-unit-h2-1line"><a href="http://twitter.com/BOOKOFF" target="_blank"><span>Twitter</span></a></h2>
+               <div>
+               <a class="twitter-timeline"  href="https://twitter.com/BOOKOFF"  data-widget-id="386083895864594432" data-chrome="noheader nofooter">@BOOKOFFからのツイート</a>
+               <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+               </div>
+             </div>
+             <!--<![endif]-->
+            <!--unit-->
+             <div class="facebook sp-only">
+              <!--<a href="http://reuse.yahoo.co.jp/revolution/" target="_blank"><img src="/common/images/sp_index_reuse.png" alt="リユース革命　リユースをもっと身近に！" /></a>-->
+             </div>
+             <!--<div class="top-section-unit gray pc-only">
+             <h2 class="section-unit-h2 sp-one-line"><a href="http://reuse.yahoo.co.jp/revolution/" target="_blank"><span>リユースをもっと<br />身近にするために</span></a></h2>
+                <p class="section-unit-img"><a href="http://reuse.yahoo.co.jp/revolution/" target="_blank"><img src="/images/top-unit-img-09.png" alt="リユース革命　最強タッグでリユースをもっと身近に"></a></p>
+             </div>-->
+             <!--/unit-->
+             <!--unit-->
+             <!--<div class="twitter sp-only">
+              <a href="/yuruku-ikouze/"><img src="/common/images/sp_index_yomuyomu.jpg" alt="3連休はブックオフへ。" /></a>
+             </div>-->
+             <!--<div class="top-section-unit gray pc-only">
+             <h2 class="section-unit-h2 sp-one-line"><a href="/yuruku-ikouze/"><span>ゆるくいこうぜ<br />休日ブックオフ</span></a></h2>
+                <p class="section-unit-img"><a href="/yuruku-ikouze/"><img src="/images/top-unit-img-10.jpg" alt="3連休はブックオフへ。"></a></p>
+             </div>-->
+             <!--/unit-->
+            </section>
+            <!--/SECTION04--> 
+        <p class="page-top-btn"><a href="#p-top"><img src="/common/images/page-top-btn.gif" alt="PAGE TOP"></a></p>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!-- /main -->
+  <!-- ▼フッター include開始▼ --> 
+  <!-- footer -->
+<footer role="contentinfo">
+  <div id="footer-inner" class="cf">
+    <p id="footer-logo" class="pc-only"><img src="/common/images/footer-logo.gif" width="180" height="32" alt="BOOK-OFF グループ"></p>
+    <div id="footer-util-list-wrap">
+      <ul id="footer-util-list" class="cf pie">
+        <li class="first"><a href="/site/sitemap.html">サイトマップ</a></li>
+        <li><a href="/ir/">IR情報</a></li>
+        <li><a href="/site/rss.html">RSS配信について/登録方法</a></li>
+        <li><a href="/site/privacy.html">お客様の個人情報保護について</a></li>
+        <li><a href="/site/socialmedia.html">ソーシャルメディアポリシーについて</a></li>
+        <li><a href="/site/term.html">サイトのご利用条件</a></li>
+        <li><a href="/site/pdf/kobutsu_kyoka.pdf" target="_blank">古物営業法上の表示</a></li>
+      </ul>
+    </div>
+    <p id="footer-copy"><span class="pc-only"><img src="/common/images/footer-copy.gif" width="336" height="12" alt="Copyright(c)BOOKOFF CORPORATION LTD. All rights Reserved."></span><span class="sp-only">Copyright(c)BOOKOFF CORPORATION LTD. All rights Reserved.</span></p>
+  </div>
+</footer>
+<!-- /footer -->
+ 
+  <!-- ▲フッター include終了▲ -->   
+</div>
+</body>
+</html>

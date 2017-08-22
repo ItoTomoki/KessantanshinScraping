@@ -1,0 +1,383 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja" dir="ltr">
+  <head>
+    <meta http-equiv="Content-Language" content="ja" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta http-equiv="Content-Script-Type" content="text/javascript" />
+    <meta http-equiv="x-ua-compatible" content="IE=edge" />
+    <meta name="copyright" content="Copyright(c), OBAYASHI CORPORATION, All rights reserved." />
+    
+        <title>「時をつくる こころで創る」 大林組</title>
+    
+
+    
+<meta content="大林組,大林,ＯＢＡＹＡＳＨＩ,建設,土木,建築,エンジニアリング" name="keywords"/>
+
+    
+<meta content="株式会社大林組のオフィシャルサイトです。最新情報、会社情報、プレスリリース、IR情報、CSR、採用情報、施工実績、進行プロジェクト、サービス・技術情報、研究開発情報、歴史などをご覧いただけます。" name="description"/>
+
+    <script src="/javascripts/effect/jquery.js?1254462528" type="text/javascript"></script>
+
+    
+    
+<script src="/javascripts/application.js?1258369047" type="text/javascript"></script>
+    <script src="/javascripts/effect/common.js?1317711460" type="text/javascript"></script>
+
+    <script src="/javascripts/effect/jquery.corner.js?1254462528" type="text/javascript"></script>
+
+    <script src="/javascripts/effect/obayashi.js?1255651447" type="text/javascript"></script>
+
+
+    
+    <script src="/javascripts/effect/thickbox.js?1379650511" type="text/javascript"></script>
+
+    <script src="/javascripts/effect/swfobject.js?1255651447" type="text/javascript"></script>
+
+    
+
+    <link href="/stylesheets/common/root.css?1257414418" media="all" rel="stylesheet" type="text/css" />
+    <link href="/stylesheets/common/thickbox.css?1255651450" media="screen" rel="stylesheet" type="text/css" />
+    
+    <link href="/stylesheets/top.css?1257997751" media="all" rel="stylesheet" type="text/css" />
+    
+    <!--[if lte IE 6 ]><script src="/javascripts/effect/DD_belatedPNG_0.0.7a-min.js?1256281946" type="text/javascript"></script>
+<![endif]-->
+    <script type="text/javascript">
+        $(function(){
+            $(".pickCorner").corner( "3px cc:#000");
+            $(".leftCorner").corner( "bl tl 3px cc:#fff");
+            $(".corner").corner("3px");
+            imageOverOut();
+            imageOverOutTable();
+        });
+    </script>
+
+    
+    <script type="text/javascript" src="shared/js/jquery.cookie.js"></script>
+    <script type="text/javascript">
+    var sessionFlag = $.cookie('session');
+    if(sessionFlag){
+        var flashvars = {intro:'skip'};
+        var params = {movie :'preloader'};
+        swfobject.embedSWF("preloader.swf", "flash_text", "813", "489", "9.0.124","", flashvars,params);
+    } else {
+        $.cookie('session', 'true');
+        var flashvars = {intro:'disp'};
+        var params = {movie:'preloader'};
+        swfobject.embedSWF("preloader.swf", "flash_text", "813", "489", "9.0.124","",flashvars,params);
+    }
+    </script>
+    
+
+    <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-43043794-1']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+    </script>
+  </head>
+  
+  <body id="top">
+  
+    <div id="wrapper">
+      <div id="header">
+        <p id="siteLogo">
+  <a href="http://www.obayashi.co.jp/"><img alt="OBAYASHI" src="/images/common/siteLogo.gif?1256281946" /></a>
+</p>
+
+
+
+
+    <h1 id="siteName">
+      <a href="http://www.obayashi.co.jp/"><img alt="株式会社大林組｜時をつくる こころで創る" src="/images/common/siteName.gif?1301535859" /></a>
+    </h1>
+
+<ul id="function">
+  <li id="sitemap"><a href='http://www.obayashi.co.jp/sitemap'>サイトマップ</a></li>
+  <li id="english"><a href='http://www.obayashi.co.jp/english/index.html'>ENGLISH</a></li>
+</ul>
+<hr/>
+<div id="gNaviB">
+  <ul>
+    <li id="gnbServices">
+      <a href="http://www.obayashi.co.jp/service_and_technology">サービスと技術</a>
+    </li>
+    <li id="gnbWorks">
+      <a href="http://www.obayashi.co.jp/works">実績の紹介</a>
+    </li>
+    <li id="gnbProjects">
+      <a href="http://www.obayashi.co.jp/projects">プロジェクト最前線</a>
+    </li>
+    <li id="gnbRd">
+      <a href="http://www.obayashi.co.jp/rd">研究開発</a>
+    </li>
+    <li id="gnbHistory">
+      <a href="http://www.obayashi.co.jp/history">おおばや史</a>
+    </li>
+  </ul>
+  <hr/>
+  
+  <script>
+      var gcseCallback = function() {
+        if($("#gsc-i-id1").length > 0){
+          $("#gsc-i-id1").removeAttr("placeholder")
+        }
+      };
+
+      window.__gcse = {
+        callback: gcseCallback
+      };
+
+      (function() {
+          var cx = '001851104165751840765:kebk79if2sa';
+          var gcse = document.createElement('script');
+          gcse.type = 'text/javascript';
+          gcse.async = true;
+          gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+                  '//www.google.com/cse/cse.js?cx=' + cx;
+          var s = document.getElementsByTagName('script')[0];
+          s.parentNode.insertBefore(gcse, s);
+      })();
+  </script>
+  <gcse:searchbox-only resultsUrl="/site_research_results" newWindow="false" queryParameterName="q"></gcse:searchbox-only>
+</div>
+<hr/>
+
+
+
+
+      </div>
+      <hr/>
+      <div id="container">
+        <div id="flash_area" style="height:489px;">
+	<!-- ///////////////// 2012/8 JS版対応変更箇所ここから /////////////////--> 
+	<div id="flash_text">
+		<div class="inner">
+			<iframe width="813" height="489" src="/jsslide/top.html" frameborder="0"></iframe>
+		</div>
+	</div>
+	<!-- ///////////////// ここまで ///////////////// -->
+</div>
+
+<div id="content">
+	
+  <div id="topNews">
+    <div class="title">
+      <h2>最新情報</h2>
+      <ul class="rssParts">
+        <li id="rss">
+          <a href="/news/feed" onclick="window.open(this.href);return false;">RSS</a>
+        </li>
+        <li id="aboutRSS">
+          <a href="/rss">RSSについて</a>
+        </li>
+      </ul>
+      <p class="list arrow"><a href="/news">一覧</a></p>
+    </div>
+		
+    <dl>
+      
+			<dt>2017.08.21</dt>
+			<dd class="category"><a class='catNews' href='/news'>最新情報</a></dd>
+			<dd class="entry">
+			    
+				
+				
+				
+					<a href="/news/news_20170821_1">大林組 元取締役社長 向笠愼二「お別れの会」のお知らせ</a>
+				
+			</dd>
+		
+			<dt>2017.08.10</dt>
+			<dd class="category"><a class='catCsr' href='/news/csr'>CSR</a></dd>
+			<dd class="entry">
+			    
+				
+				
+				
+					<a href="/news/news_20170727_1">大林財団の第6期奨学生21人が決定しました</a>
+				
+			</dd>
+		
+			<dt>2017.08.09</dt>
+			<dd class="category"><a class='catIr' href='/news/ir'>IR情報</a></dd>
+			<dd class="entry">
+			    
+				
+				
+				
+					
+						<a href="http://www.obayashi.co.jp/uploads/File/114_1Q_20170809.pdf" onclick="javascript:var pageTracker = _gat._getTracker('UA-43043794-1'); pageTracker._trackPageview('http://www.obayashi.co.jp/uploads/File/114_1Q_20170809.pdf');" target="_blank">第114期 第1四半期報告書を掲載しました</a>
+					
+				
+			</dd>
+		
+			<dt>2017.08.08</dt>
+			<dd class="category"><a class='catIr' href='/news/ir'>IR情報</a></dd>
+			<dd class="entry">
+			    
+				
+				
+				
+					
+						<a href="http://www.obayashi.co.jp/uploads/File/20170808kessan4.pdf" onclick="javascript:var pageTracker = _gat._getTracker('UA-43043794-1'); pageTracker._trackPageview('http://www.obayashi.co.jp/uploads/File/20170808kessan4.pdf');" target="_blank">平成30年3月期 第1四半期決算参考資料を掲載しました</a>
+					
+				
+			</dd>
+		
+			<dt>2017.08.08</dt>
+			<dd class="category"><a class='catIr' href='/news/ir'>IR情報</a></dd>
+			<dd class="entry">
+			    
+				
+				
+				
+					
+						<a href="http://www.obayashi.co.jp/uploads/File/20170808kessan3.pdf" onclick="javascript:var pageTracker = _gat._getTracker('UA-43043794-1'); pageTracker._trackPageview('http://www.obayashi.co.jp/uploads/File/20170808kessan3.pdf');" target="_blank">平成30年3月期 第1四半期決算説明資料を掲載しました</a>
+					
+				
+			</dd>
+		
+    </dl>
+		
+  </div>
+	
+  <div id="specialContents">
+    <div class="title">
+      <h2>Special Contents</h2>
+    </div>
+		<div class="item">
+<p class="corner overImage"><a target="_blank" href="http://www.obayashi.co.jp/technofair2016/"><img alt="しなやかな未来を創る" width="129" height="97" src="/uploads/Image/bnr_technofair.jpg" /></a></p>
+<h3 class="active"><a target="_blank" href="http://www.obayashi.co.jp/technofair2016/">しなやかな未来を創る<br />
+創業125年、技術研究所50周年</a></h3>
+<p class="active"><a target="_blank" href="http://www.obayashi.co.jp/technofair2016/">大林組の技術が描く未来の社会</a></p>
+<p class="arrow active"><a target="_blank" href="http://www.obayashi.co.jp/technofair2016/">詳細へ</a></p>
+</div>
+<div class="item">
+<p class="corner overImage"><a target="_blank" href="http://www.obayashi.co.jp/design/"><img alt="ARCHITORIUM" width="129" height="97" src="/uploads/Image/oby_banner_ARCHITORIUM.jpg" /></a></p>
+<h3 class="active"><a target="_blank" href="http://www.obayashi.co.jp/design/">ARCHITORIUM<br />
+OBAYASHI DESIGN PROJECTS</a></h3>
+<p class="active"><a target="_blank" href="http://www.obayashi.co.jp/design/">大林組の建築設計プロジェクト</a></p>
+<p class="arrow active"><a target="_blank" href="http://www.obayashi.co.jp/design/">詳細へ</a></p>
+</div>
+<div class="item">
+<p class="corner overImage"><a href="/service_and_technology/pickup_index"><img alt="技術特集インデックス" width="129" height="97" src="/uploads/Image/service_and_technology/bnr_heart_of_technology.jpg" /> </a></p>
+<h3 class="active"><a href="/service_and_technology/pickup_index">技術特集インデックス</a></h3>
+<p class="active"><a href="/service_and_technology/pickup_index">安全・安心を提供するために培っている技術があります。</a></p>
+<p class="arrow active"><a href="/service_and_technology/pickup_index">詳細へ</a></p>
+</div>
+<div class="item">
+<p class="corner overImage"><a target="_blank" href="http://www.skytree-obayashi.com/"><img alt="We build. OBAYASHI toward 2012" width="129" height="97" src="/uploads/Image/tokyoskytree_bana.jpg" /></a></p>
+<h3 class="active"><a target="_blank" href="http://www.skytree-obayashi.com/">東京スカイツリー建設プロジェクト</a></h3>
+<p class="active"><a target="_blank" href="http://www.skytree-obayashi.com/">最先端技術と総合力で、世界一高いタワーをつくりました。</a></p>
+<p class="arrow active"><a target="_blank" href="http://www.skytree-obayashi.com/">詳細へ</a></p>
+</div>
+<div class="item">
+<p class="corner overImage"><a target="_blank" href="http://www.obayashi.co.jp/experience/"><img alt="時をつくる　こころで創る THE OBAYASHI EXPERIENCE" width="129" height="97" src="/uploads/Image/banner_specialcontents.jpg" /></a></p>
+<h3 class="active"><a target="_blank" href="http://www.obayashi.co.jp/experience/">時をつくる　こころで創る<br />
+THE OBAYASHI EXPERIENCE</a></h3>
+<p class="active"><a target="_blank" href="http://www.obayashi.co.jp/experience/">120年の歩み、そして未来へ。</a></p>
+<p class="arrow active"><a target="_blank" href="http://www.obayashi.co.jp/experience/">詳細へ</a></p>
+</div>
+  </div>
+</div>
+
+
+
+        <hr/>
+      </div>
+      <div id="sleeve">
+      
+          <ul id="globalA">
+  <li id="gnaNews">
+  	<a href="http://www.obayashi.co.jp/news">最新情報</a>
+  </li>
+  <li id="gnaCompany">
+  	<a href="http://www.obayashi.co.jp/company">会社情報</a>
+  </li>
+  <li id="gnaPress">
+  	<a href="http://www.obayashi.co.jp/press">プレスリリース</a>
+  </li>
+  <li id="gnaIr">
+  	<a href="http://www.obayashi.co.jp/ir">株主・投資家の皆様へ</a>
+  </li>
+  <li id="gnaCsr">
+  	<a href="http://www.obayashi.co.jp/csr">CSR</a>
+  </li>
+  <li id="gnaRecruit">
+  	<a href="http://www.obayashi.co.jp/recruit">採用情報</a>
+  </li>
+  <li id="gnaSupport">
+  	<a href="http://www.obayashi.co.jp/support">お問い合わせ</a>
+  </li>
+</ul>
+<hr />
+
+<ul class="banners">
+    <li><a href="http://www.obayashi.co.jp/csr/kumamotojishin"><img alt="熊本地震関連情報" width="165" height="45" src="/uploads/Image/csr/kumamotojishin.jpg" /></a></li>
+    <li><a href="http://www.obayashi.co.jp/renewable_energy/"><iframe height="225" marginheight="0" src="/renewable_energy/cebanner/" frameborder="0" width="165" marginwidth="0" scrolling="no"></iframe></a></li>
+    <li><a href="http://www.obayashi.co.jp/kikan_obayashi/"><img alt="季刊大林" width="165" height="45" src="/images/common/bnr_quarterly.gif" /></a></li>
+    <li><a href="http://www.obayashi.co.jp/news/shinsai_index"><img alt="震災・防災インデックス　東日本大震災以降の取り組み" width="165" height="45" src="/uploads/Image/news/shinsai45_1.jpg" /></a></li>
+</ul>
+<ul class="banners">
+    <li><a href="http://www.obayashi.co.jp/koukoku/index.html"><img alt="電子公告" width="165" height="45" src="/images/common/bnr_ir.gif" /></a></li>
+</ul>
+<ul class="banners">
+    <li><a href="http://www.obayashi.co.jp/realestate/"><img alt="不動産情報" width="165" height="35" src="/images/common/bnr_estate.gif" /></a></li>
+    <li><a href="/suppliers/"><img alt="OC-COMET・電子商取引など" width="165" height="35" src="/images/common/bnr_cooperation.gif" /></a></li>
+</ul>
+
+
+      
+      </div>
+      <hr/>
+      <div id="footer">
+          <p class="pgTop"><a href="#wrapper">ページトップへ</a></p>
+<hr/>
+<ul>
+  <li>
+    <a href="http://www.obayashi.co.jp/rss">RSSについて</a></li>
+  <li>
+    <a href="http://www.obayashi.co.jp/terms">このサイトについて</a></li>
+  <li>
+    <a href="http://www.obayashi.co.jp/privacy">個人情報保護について</a></li>
+  <li>
+    <a href="http://bousai2.obayashi.co.jp/OKP">従業員・家族向け震災関連情報</a>
+  </li>
+  <li class="last">
+    <a href="https://daily.obayashi.co.jp/doapp/member/">退職者向け情報</a>
+  </li>
+</ul>
+<address>
+	Copyright(c). OBAYASHI CORPORATION. All rights reserved.
+</address>
+<!--set the container height equal to sleeve when it's height less than sleeve
+<script type="text/javascript">
+	var c = document.getElementById('container');
+	var s = document.getElementById('sleeve');
+	var pgTop = document.getElementById('pgTop');
+	if(c.offsetHeight < s.offsetHeight){
+		with(c.style){
+			position = 'relative';
+			height = s.offsetHeight - '60' + 'px';
+			paddingBottom = '60px';
+		}
+		with(pgTop.style){
+			position = 'absolute';
+			bottom = '0';
+			right = '0';
+			width = '750px';
+		}
+	}
+</script>
+-->
+
+      </div>
+    </div>
+  </body>
+</html>

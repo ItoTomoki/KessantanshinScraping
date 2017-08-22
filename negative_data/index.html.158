@@ -1,0 +1,353 @@
+<html lang="ja">
+<head>
+<title>きんでん</title>
+<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<meta name="author" content="きんでん">
+<meta name="keywords" content="総合設備エンジニアリング, 電気設備, インフラ設備, ネットワーク設計, 環境設備, 省エネ, 海外工事, 施工, 構築, 機材調達, 施工, 保守, 資材調達, 購買">
+<meta name="description" content="社会のニーズに豊かな創造力と高い技術力でお応えする総合設備エンジニアリング企業。きんでんの豊富な事業領域と資材調達情報をご紹介します。">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link rel="stylesheet" href="css/common.css" type="text/css" />
+<link rel="stylesheet" href="/css/top.css" type="text/css" />
+<link rel="stylesheet" href="/common/css/common.css" type="text/css">
+<script type="text/javascript" src="/common/js/jquery.js"></script>
+<script type="text/javascript" src="/common/js/common.js"></script><script type="text/javascript" src="js/css.js"></script>
+<script type="text/javascript" src="/js/top.js"></script>
+</head>
+<body class="bg01"><a name="top"></a>
+<div class="wrapper">
+<div class="container">
+<!-- start header -->
+<div class="nw-header">
+<div class="areaLogo">
+<p class="logo"><a href="/"><img src="/common/images/logo.gif" width="109" height="34" alt="Kinden"></a></p>
+<p class="logoGroup"><a href="http://www.kepco.co.jp/group/index.html" title="関西電力グループ" target="_blank"><img src="/common/images/logo_group.gif" width="111" height="29" alt="関西電力グループ"></a></p>
+<!-- //areaLogo --></div>
+<div class="areaSub">
+<ul class="subLink">
+<li><a href="/info/faq.html">よくあるご質問</a></li>
+<li><a href="/contact/index.html">お問い合わせ</a></li>
+<li class="last"><a href="/info/sitemap.html">サイトマップ</a></li>
+<li class="english"><a href="/english/index.html"><img src="/common/images/header_link_english.gif" width="59" height="28" alt="English"></a></li>
+</ul>
+<div class="areaSearch">
+<form name="sForm" method="post" action="http://www.kinden.co.jp/cgi-bin/wwwsrch.cgi">
+<input type="hidden" name="lang" value="j">
+<p><input type="text" name="WORD" class="searchBox" id="keyword" title="こちらで検索できます"><input type="image" src="/common/images/search_btn.gif" alt="検索" title="検索" class="searchBtn"></p>
+</form>
+<!-- //areaSearch --></div>
+<!-- //areaSub --></div>
+<!-- //nw-header --></div>
+
+<div class="nw-gNavi">
+<ul>
+<li><a href="/business/index.html" class="gnav01">営業案内</a>
+<ul>
+<li><a href="/business/denki.html">電気設備</a></li>
+<li><a href="/business/keiso.html">計装設備</a></li>
+<li><a href="/business/jyouho.html">情報通信設備</a></li>
+<li><a href="/business/air.html">空調・衛生設備</a></li>
+<li><a href="/business/interior.html">内装設備</a></li>
+<li><a href="/business/doboku.html">土木設備ほか</a></li>
+<li><a href="/business/kaigai.html">海外工事</a></li>
+<li><a href="/business/gijyutsu.html">技術情報</a></li>
+<li><a href="/business/renewal.html">省エネ＆リニューアル</a></li>
+<li><a href="/business/new_energy.html">新エネルギー</a></li>
+<li><a href="/business/support.html">お客さま24時間サポートシステム</a></li>
+<li><a href="/business/jigyo.html">事業領域</a></li>
+<li><a href="/business/example.html">施工事例</a>
+<ul>
+<li><a href="/business/example/example_chiiki01.html">北海道・東北</a></li>
+<li><a href="/business/example/example_chiiki02.html">関東</a></li>
+<li><a href="/business/example/example_chiiki03.html">中部</a></li>
+<li><a href="/business/example/example_chiiki04.html">近畿</a></li>
+<li><a href="/business/example/example_chiiki05.html">中国・四国・九州・沖縄</a></li>
+<li><a href="/business/example/example_chiiki06.html">海外</a></li>
+<li><a href="/business/example/example_chiiki07.html">電力・情報通信インフラ関係</a></li>
+</ul>
+</li>
+<li><a href="/business/products.html">商品情報</a>
+<ul>
+<li><a href="/business/products/products30.html">UTPリール / UTPリールMini</a></li>
+<li><a href="/business/products/products01.html">ティフ・ブレア</a></li>
+<li><a href="/business/products/products29.html">グラスパーキング</a></li>
+</ul>
+</li>
+<li><a href="/business/esco.html">ESCO事業</a>
+<ul>
+<li><a href="/business/esco/esco01.html">大阪府立男女共同参画・青少年センター様</a></li>
+<li><a href="/business/esco/esco02.html">市立岸和田市民病院様</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="/business/denki.html" class="gnav02">電気</a></li>
+<li><a href="/business/keiso.html" class="gnav03">計装</a></li>
+<li><a href="/business/jyouho.html" class="gnav04">情報通信</a></li>
+<li><a href="/business/air.html" class="gnav05">空調・衛生</a></li>
+<li><a href="/business/interior.html" class="gnav06">内装</a></li>
+<li><a href="/business/kaigai.html" class="gnav07">海外工事</a></li>
+<li><a href="/business/gijyutsu.html" class="gnav08">技術情報</a>
+<ul>
+<li><a href="/business/denki.html">電気設備</a>
+<ul>
+<li><a href="/business/denki/denki01.html">太陽光発電最適化システム</a></li>
+<li><a href="/business/denki/denki02.html">風力発電システム</a></li>
+<li><a href="/business/denki/denki13.html">風力発電設備メンテナンス</a></li>
+
+<li><a href="/business/denki/denki03.html">特別高圧22(33)KV直接配電システム</a></li>
+<li><a href="/business/denki/denki05.html">コンクリート埋設物３次元表示システム</a></li>
+<li><a href="/business/denki/denki12.html">磁界低減対策</a></li>
+<li><a href="/business/denki/denki06.html">中空鋼管鉄塔用主柱材内部点検カメラ装置</a></li>
+<li><a href="/business/denki/denki11.html">ケーブルDBシステム</a></li>
+<li><a href="/business/denki/denki15.html">無停電工法</a></li>
+<li><a href="/business/denki/denki16.html">間接活線工法</a></li>
+</ul>
+</li>
+<li><a href="/business/keiso.html">計装設備</a>
+<ul>
+<li><a href="/business/keiso/keiso01.html">ビルオートメーションシステム<br>「インフォリーノ　ＢＡ」</a></li>
+<li><a href="/business/keiso/keiso02.html">4K対応中央監視システム<br>「インフォリーノ　ＢＡ 4K版」</a></li>
+<li><a href="/business/keiso/keiso04.html">エネルギーマネジメントシステム<br>「インフォリーノ　ＥＭＳ」</a></li>
+<li><a href="/business/jyouho/jyouho24.html">ネットワークカメラシステム</a></li>
+<li><a href="/business/keiso/keiso05.html">プロセス/ファクトリーオートメーションシステム</a></li>
+<li><a href="/business/keiso/keiso06.html">設備監視制御システム（FACIAS）</a></li>
+</ul>
+</li>
+<li><a href="/business/jyouho.html">情報通信設備</a>
+<ul>
+<li><a href="/business/jyouho.html#a01">オフィスビル・商業施設</a></li>
+<li><a href="/business/jyouho.html#a02">工場・倉庫</a></li>
+<li><a href="/business/jyouho.html#a03">医療施設</a></li>
+<li><a href="/business/jyouho.html#a04">教育施設</a></li>
+<li><a href="/business/jyouho.html#a05">FTTH・移動体通信基地局</a></li>
+<li><a href="/business/jyouho.html#a06">地域情報基盤</a></li>
+</ul>
+</li>
+<li><a href="/business/air.html">空調・衛生設備</a>
+<ul>
+<li><a href="/business/air/air03.html">蓄熱空調システム</a></li>
+<li><a href="/business/air/air04.html">天井床切替空調システム</a></li>
+<li><a href="/business/air/air06.html">産業空調</a></li>
+<li><a href="/business/air/air09.html">熱流体解析</a></li>
+<li><a href="/business/air/air07.html">環境実験室</a></li>
+<li><a href="/business/air/air08.html">地域冷暖房システム</a></li>
+<li><a href="/business/air/air01.html">コージェネレーションシステム</a></li>
+</ul>
+</li>
+<li><a href="/business/interior.html">内装設備</a>
+<ul>
+<li><a href="/business/interior/interior01.html">OA・FAフロアシステム</a></li>
+<li><a href="/business/interior/interior03.html">システム天井</a></li>
+<li><a href="/business/interior/interior04.html">メタルシーリングシステム</a></li>
+<li><a href="/business/interior/interior05.html">耐震ブレース（耐震構造補強材）</a></li>
+</ul>
+</li>
+<li><a href="/business/doboku.html">土木設備ほか</a>
+<ul>
+<li><a href="/business/doboku/doboku03.html">小口径管路拡大工法</a></li>
+<li><a href="/business/doboku/doboku05.html">管内補修システム</a></li>
+<li><a href="/business/doboku/doboku06.html">急曲線推進工法</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="/company/index.html" class="gnav09">会社情報</a>
+<ul>
+<li><a href="/company/outline.html">会社概要</a>
+<ul>
+<li><a href="/company/concept.html">社是・企業理念・<br>きんでんグループ行動指針</a></li>
+<li><a href="/company/governance.html">コーポレートガバナンス</a></li>
+<li><a href="/company/history.html">沿革</a></li>
+<li><a href="/company/exec.html">役員</a></li>
+<li><a href="/company/org.html">組織</a></li>
+</ul>
+</li>
+<li><a href="/company/description.html">事業内容</a></li>
+<li><a href="/company/office.html">事業所</a>
+<ul>
+<li><a href="/company/overseas_office.html">海外事業所</a></li>
+</ul>
+</li>
+<li><a href="/company/relation.html">関係会社</a>
+<ul>
+<li><a href="/company/overseas_relation.html">海外関係会社</a></li>
+</ul>
+</li>
+<li><a href="/company/development.html">人材育成・研究開発</a>
+<ul>
+<li><a href="/company/hrd.html">人材育成</a></li>
+<li><a href="/company/randd.html">研究開発</a></li>
+</ul>
+</li>
+<li><a href="/company/environment.html">環境に対する取り組み</a></li>
+<li><a href="/company/recruit.html">採用情報</a>
+<ul>
+<li><a href="/company/message.html">新卒/学生のみなさんへ</a></li>
+<li><a href="/company/new_graduates.html">新卒/募集要項</a></li>
+<li><a href="/company/faq.html">新卒/よくあるご質問</a></li>
+<li><a href="/company/mid-career.html">通年/募集要項</a></li>
+</ul>
+</li>
+<li><a href="/procurement/index.html">資材調達</a></li>
+</ul>
+</li>
+<li><a href="/ir/index.html" class="gnav10">IR情報</a>
+<ul>
+<li><a href="http://quote.nomura.co.jp/nomura/cgi-bin/parser.pl?TEMPLATE=nomura_tp_kabu_01&QCODE=1944/T" target="_blank">株価情報</a></li>
+<li><a href="/ir/public.html">電子公告</a></li>
+<li><a href="/ir/invest_info.html">業績のトレンド</a></li>
+<li><a href="/ir/highlight.html">四半期受注実績</a></li>
+<li><a href="/ir/meeting.html">株主総会</a></li>
+<li><a href="/ir/report.html">事業報告書</a></li>
+<li><a href="/ir/calendar.html">IRカレンダー</a></li>
+<li><a href="/topics/topics.html">ニュースリリース</a></li>
+<li><a href="/ir/exemption.html">免責条項</a></li>
+<li><a href="/ir/focus.html">FOCUS(注目の事業)</a>
+<ul>
+<li><a href="/ir/focus/focus_19.html">CO2削減ニーズに対応</a></li>
+<li><a href="/ir/focus/focus_21.html">太陽光発電総合テクノロジー</a></li>
+<li><a href="/ir/focus/focus_18.html">最新の情報通信技術</a></li>
+<li><a href="/ir/focus/focus_09.html">病院内LAN設備</a></li>
+<li><a href="/ir/focus/focus_08.html">防犯・防災ニーズ</a></li>
+<li><a href="/ir/focus/focus_07.html">監視制御システムのリニューアル市場</a></li>
+<li><a href="/ir/focus/focus_06.html">内装事業の新規展開</a></li>
+<li><a href="/ir/focus/focus_22.html">海外事業への取り組み</a></li>
+<li><a href="/ir/focus/focus_23.html">人材教育への取り組み</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<!-- //nw-gNavi --></div>
+<p class="breadcrumb"><a href="/">ホーム</a> &gt; </p>
+<!-- end header -->
+<!-- start main visual -->
+<table border="0" cellspacing="0" cellpadding="0" summary="">
+<tr>
+<td><img src="common/spacer.gif" width="5" height="4" alt="" /></td>
+</tr>
+</table>
+<table width="760" border="0" cellspacing="0" cellpadding="0" summary="">
+<tr>
+<td>
+<div class="section">
+<p class="keyvisual"><img src="/images/keyvisual_index_b.jpg" width="750" height="325" alt="エネルギー・環境・情報の幅広いフィールドでお客さまの社会生活をトータルにサポートします" class="keyvisualTxt" /></p>
+<!-- section --></div>
+</td>
+</tr>
+</table>
+<!-- end main visual -->
+
+<table border="0" cellspacing="0" cellpadding="0" summary="">
+<tr>
+<td><img src="common/spacer.gif" width="5" height="9" alt="" /></td>
+</tr>
+</table>
+
+<table border="0" cellspacing="0" cellpadding="0" summary="">
+<tr>
+<td>
+<div class="section">
+<div class="mainCol">
+<div class="borderBox">
+<div class="borderBoxIn">
+<div class="borderBoxInner">
+<h2 class="newsTitle"><img src="/images/title_index_01.gif" width="125" height="15" alt="ニュースリリース" /></h2>
+<div id="container">
+<iframe src="/topics/headline.html" frameborder="0" scrolling="no" id="iframeLoader"></iframe>
+<!-- container --></div>
+<!-- newsRelease --></div>
+<!-- borderBoxIn --></div>
+<!-- borderBox --></div>
+<!-- mainCol --></div>
+<div class="sideCol">
+<h2 class="mB10"><a href="/download/index.html"><img src="/images/panflet_index.gif" width="224" height="91" alt="パンフレットダウンロード" /></a></h2>
+<h2 class="mB10"><a href="https://www.kinden-giankyou.jp/"><img src="/images/gian_index.jpg" width="224" height="92" alt="きんでん技術安全協力会" /></a></h2>
+<h2 class="mB10"><a href="http://www.kinden.co.jp/kizuna/index.html"><img src="/images/kizuna_index.gif" width="224" height="90" alt="kindenきずな制度" /></a></h2>
+<div class="sideBorderBox">
+<div class="sideBorderBoxIn">
+<div class="sideFocus">
+<div class="sideFocusIn">
+<h2 class="focusTitle"><img src="/images/title_index_02.gif" width="139" height="13" alt="FOCUS 注目の事業" /></h2>
+<p class="greenLinkArrow"><a href="/ir/focus.html">一覧</a></p>
+<!-- sideFocusIn --></div>
+
+<ul class="links">
+<li><a href="/ir/focus/focus_21.html">総合エンジニアリング力で太陽光エネルギーを有効活用</a></li>
+<li><a href="/ir/focus/focus_19.html">CO2削減ニーズに総合力で対応</a></li>
+<li><a href="/ir/focus/focus_18.html">最新の情報通信技術を駆使し安心・安全な環境を構築</a></li>
+<li><a href="/ir/focus/focus_09.html">先進システムで病院内LAN設備を構築</a></li>
+</ul>
+
+<!-- sideFocus --></div>
+<!-- sideBorderBoxIn --></div>
+<!-- sideBorderBox --></div>
+
+<!-- sideCol --></div>
+<!-- section --></div>
+
+</td>
+</tr>
+</table>
+
+
+<table border="0" cellspacing="0" cellpadding="0" summary="">
+<tr>
+<td><img src="common/spacer.gif" width="5" height="10" alt="" /></td>
+</tr>
+</table>
+
+<!-- start footer -->
+<table width="760" border="0" cellspacing="0" cellpadding="0" summary="">
+<tr>
+<td><table border="0" cellspacing="0" cellpadding="0" summary="">
+<tr>
+<td><img src="../common/spacer.gif" width="5" height="20" alt="" /></td>
+</tr>
+</table>
+<table width="740" border="0" cellspacing="0" cellpadding="0" summary="">
+<tr>
+<td width="29"><img src="../common/spacer.gif" width="29" height="1" alt="" /></td>
+<td width="711" align="right"><a href="#top"><img src="../common/img_gotop.gif" alt="このページのトップへ" title="このページのトップへ" width="97" height="12" border="0" /></a></td>
+</tr>
+</table>
+<table border="0" cellspacing="0" cellpadding="0" summary="">
+<tr>
+<td><img src="../common/spacer.gif" width="5" height="20" alt="" /></td>
+</tr>
+</table>
+<table width="760" border="0" cellspacing="0" cellpadding="0" summary="">
+<tr>
+<td width="10"><img src="../common/spacer.gif" width="10" height="1" alt="" /></td>
+<td width="750" class="bggray03"><img src="../common/spacer.gif" width="750" height="1" alt="" /></td>
+</tr>
+</table>
+<table border="0" cellspacing="0" cellpadding="0" summary="">
+<tr>
+<td><img src="../common/spacer.gif" width="5" height="5" alt="" /></td>
+</tr>
+</table>
+<table width="749" border="0" cellspacing="0" cellpadding="0" summary="">
+<tr>
+<td width="29"><img src="/common/spacer.gif" width="29" height="1" alt="" /></td>
+<td width="103"><a href="/info/terms.html" title="サイトのご利用について"><img src="/common/txt_footer01.gif" alt="サイトのご利用について" width="103" height="10" border="0" title="サイトのご利用について" /></a></td>
+<td width="11"><img src="/common/img_footer01.gif" alt="|" width="11" height="10" /></td>
+<td width="118"><a href="/info/privacy.html" title="個人情報の取り扱いについて"><img src="/common/txt_footer02.gif" alt="個人情報の取り扱いについて" width="118" height="10" border="0" title="個人情報の取り扱いについて" /></a></td>
+<td width="184"><img src="/common/spacer.gif" width="184" height="1" alt="" /></td>
+<td width="304"><img src="/common/img_copyright.gif" alt="Copyright(c) Kinden Corporation. All rights reserved.　きんでん" width="304" height="15" /></td>
+</tr>
+</table>
+<table border="0" cellspacing="0" cellpadding="0" summary="">
+<tr>
+<td><img src="../common/spacer.gif" width="5" height="22" alt="" /></td>
+</tr>
+</table></td>
+</tr>
+</table>
+<!-- end footer -->
+
+</div><!-- //container -->
+</div><!-- //wrapper -->
+</body>
+</html>

@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="keywords" content="アイフラッグ,iFLAG,公式ホームページ,"/>
+<meta name="description" content="アイフラッグの公式ホームページです。アイフラッグは中小企業の皆様にホームページ制作とサポートをパッケージ化した、クラウドパッケージとホームページからの集客、アクセスアップを目的としたIT支援のインターネットビジネスを提供しております。"/>
+<title>アイフラッグ | 公式ホームページ</title>
+<link rel="canonical" href="http://iflag.co.jp"/>
+<link rel="stylesheet" type="text/css" href="http://web.xaas.jp/css/A.jqselectable.css+prettyphoto.css+popup.css+base.css+print.css+layout.css,,q20150708+jqtransform.css,Mcc._Rn03G5v2q.css.pagespeed.cf.d-C8lroREQ.css" media="all"/>
+
+
+
+
+
+
+<script src="http://web.xaas.jp/js/basicCommon/plugins/jquery/jquery_v2.1.4.js.pagespeed.jm.UWusawvZ2R.js" type="text/javascript" charset="utf-8"></script>
+<script src="http://web.xaas.jp/js/basicCommon/ajax_v2016.js.pagespeed.jm._9GkmNMmZJ.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" charset="utf-8">//<![CDATA[
+jQuery.cookie=function(name,value,options){if(typeof value!='undefined'){options=options||{};if(value===null){value='';options.expires=-1;}
+var expires='';if(options.expires&&(typeof options.expires=='number'||options.expires.toUTCString)){var date;if(typeof options.expires=='number'){date=new Date();date.setTime(date.getTime()+(options.expires*24*60*60*1000));}else{date=options.expires;}
+expires='; expires='+date.toUTCString();}
+var path=options.path?'; path='+options.path:'';var domain=options.domain?'; domain='+options.domain:'';var secure=options.secure?'; secure':'';document.cookie=[name,'=',encodeURIComponent(value),expires,path,domain,secure].join('');}else{var cookieValue=null;if(document.cookie&&document.cookie!=''){var cookies=document.cookie.split(';');for(var i=0;i<cookies.length;i++){var cookie=jQuery.trim(cookies[i]);if(cookie.substring(0,name.length+1)==(name+'=')){cookieValue=decodeURIComponent(cookie.substring(name.length+1));break;}}}
+return cookieValue;}};
+//]]></script>
+<script type="text/javascript" charset="utf-8">//<![CDATA[
+jQuery.changeLetterSize={handlers:[],interval:1000,currentSize:0};(function($){var self=$.changeLetterSize;var ins=$('<ins>M</ins>').css({display:'block',visibility:'hidden',position:'absolute',padding:'0',top:'0'});var isChanged=function(){ins.appendTo('body');var size=ins[0].offsetHeight;ins.remove();if(self.currentSize==size)return false;self.currentSize=size;return true;};$(isChanged);var observer=function(){if(!isChanged())return;$.each(self.handlers,function(i,handler){handler();});};self.addHandler=function(func){self.handlers.push(func);if(self.handlers.length==1){setInterval(observer,self.interval);}};})(jQuery);(function($){var sets=[];var flatHeights=function(set){var maxHeight=0;set.each(function(){var height=this.offsetHeight;if(height>maxHeight)maxHeight=height;});set.css('height',maxHeight+'px');};jQuery.fn.flatHeights=function(){if(this.length>1){flatHeights(this);sets.push(this);}
+return this;};$.changeLetterSize.addHandler(function(){$.each(sets,function(){this.height('auto');flatHeights(this);});});})(jQuery);
+//]]></script>
+<script src="http://web.xaas.jp/js/basicCommon/jcarousellite_v1.1.js.pagespeed.jm.wtlzVdCKLg.js" type="text/javascript" charset="utf-8"></script>
+<script src="http://web.xaas.jp/js/basicCommon/mousewheel_v3.1.13.js.pagespeed.jm.wBwlG6vk-c.js" type="text/javascript" charset="utf-8"></script>
+<script src="http://web.xaas.jp/js/basicCommon/jscrollpane.js.pagespeed.jm.2wYEC_BNG3.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" charset="utf-8">//<![CDATA[
+function getAjaxWaitImage(){return getComPictureHost()+'/img/loading_icon.gif';}
+function getMsgBGImage1(){return getComPictureHost()+"/img/popup/rbox_1.gif";}
+function getMsgBGImage2(){return getComPictureHost()+"/img/popup/rbox_2.gif";}
+function getMsgBGImage3(){return getComPictureHost()+"/img/popup/rbox_3.gif";}
+function getMsgBGImage4(){return getComPictureHost()+"/img/popup/rbox_4.gif";}
+function getMsgBGImage6(){return getComPictureHost()+"/img/popup/rbox_6.gif";}
+function getMsgBGImage7(){return getComPictureHost()+"/img/popup/rbox_7.gif";}
+function getMsgBGImage8(){return getComPictureHost()+"/img/popup/rbox_8.gif";}
+function getMsgBGImage9(){return getComPictureHost()+"/img/popup/rbox_9.gif";}
+function getDefaultImage(){return getHost()+"/images/defaultImage/nophoto.jpg";}
+//]]></script>
+<script src="http://web.xaas.jp/js/basicCommon/treeview.js.pagespeed.jm.Ccxdh7coVu.js" type="text/javascript" charset="utf-8"></script>
+<script src="http://web.xaas.jp/js/basicCommon/common_v2016.js.pagespeed.jm.6iGU-6_f5J.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" charset="utf-8">//<![CDATA[
+function objAppend(objId,content){jQuery("#"+objId).append(content);}
+function objHide(objId){jQuery("#"+objId).hide();}
+function objShow(objId){jQuery("#"+objId).show();}
+function objReplaceWith(objId,content){jQuery("#"+objId).replaceWith(content);}
+function objEach(strExpr,fun){jQuery(strExpr).each(fun);}
+function objAttr(strExpr,strAttrName,strAttrValue){if(strAttrValue==null){if(Number(($.fn.jquery).substring(0,1))>=2){return jQuery(strExpr).prop(strAttrName);}else{return jQuery(strExpr).attr(strAttrName);}}else{jQuery(strExpr).attr(strAttrName,strAttrValue);}}
+function getDomHTML(obj){return jQuery(obj).html();}
+function getDomText(obj){return jQuery(obj).text();}
+function getDomValue(obj){return jQuery(obj).val();}
+function setDomHTML(obj,value){return jQuery(obj).html(value);}
+function setDomText(obj,value){return jQuery(obj).text(value);}
+function setDomValue(obj,value){return jQuery(obj).val(value);}
+//]]></script>
+<script src="http://web.xaas.jp/js/basicCommon/plugins/prettyphoto/prettyphoto_v3.1.6.js,q20150527.pagespeed.jm.w2fGLjjfmp.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" charset="utf-8">//<![CDATA[
+$(document).ready(function(){var prettyPhoto=$("a[rel^='parts']");if(prettyPhoto.length>0){prettyPhoto.prettyPhoto({animationSpeed:"fast",allow_resize:false,overlay_gallery:true,autoplay_slideshow:false,deeplinking:false});}});
+//]]></script>
+<!--[if IE 6]><script src="http://web.xaas.jp/js/basicCommon/DD_belatedPNG.js" type="text/javascript" charset="utf-8"></script><![endif]-->
+<meta property="og:title" content="アイフラッグ | 公式ホームページ"/>
+<meta property="og:type" content="website"/>
+<meta property="og:site_name" content="iFLAG"/>
+<meta property="og:description" content="アイフラッグの公式ホームページです。アイフラッグは中小企業の皆様にホームページ制作とサポートをパッケージ化した、クラウドパッケージとホームページからの集客、アクセスアップを目的としたIT支援のインターネットビジネスを提供しております。"/>
+<link rel="stylesheet" type="text/css" href="http://iflag.co.jp/theme/22_o/css/theme.css" media="all"/>
+<link rel="stylesheet" type="text/css" href="http://iflag.co.jp/addStyle.css?20170816" media="all"/>
+<meta name="google-site-verification" content="ngt6sGP2HeC4FfhDb3T9bddUIiPi52_ND0i33Ff8Nak"/>
+<!-- favicon --><script>var favicon="",homeicon="";if(window.location.href.match(/^http:/)){favicon="<link rel=\"shortcut icon\" href=\"\/docs\/icon\/favicon.ico\" type=\"image\/vnd.microsoft.ico\">";homeicon="<link rel=\"apple-touch-icon\" href=\"\/docs\/icon\/apple-touch-icon.png\">";}else if(window.location.href.match(/^https:/)){favicon="<link rel=\"shortcut icon\" href=\"\/m3916432.xaas.jp\/icon\/favicon.ico\" type=\"image\/vnd.microsoft.ico\">";homeicon="<link rel=\"apple-touch-icon\" href=\"\/m3916432.xaas.jp\/icon\/apple-touch-icon.png\">";}
+$("head").append(favicon,homeicon);</script><!-- /favicon -->
+<link rel="stylesheet" type="text/css" href="http://iflag.co.jp/docs/css/slideshow.css" media="all"/>
+<script src="http://s3313045.xaas.jp/docs/js/jquery.cycle.js" type="text/javascript" charset="utf-8"></script> 
+<script src="http://s3313045.xaas.jp/docs/js/slideshow.js" type="text/javascript" charset="utf-8"></script>
+
+<script type="text/javascript">//<![CDATA[
+
+//]]></script>
+
+</head>
+<body>
+
+<div id="container" style="width:960px;">
+<div id="page_block1" style="width:960px; padding:0;"><div class="header_2">
+<div class="header_d01">
+
+<div class="css_common_head js_scroll_movie_minus">
+<div class="css_common_head_area">
+<div class="css_common_head_main"><a href="index.html"><img alt="iFLAGロゴ" class="css_common_head_logo" src="http://iflag.co.jp/theme/20_o/img/iflag_logo.png"> </a>
+
+<ul class="css_common_head_menu">
+<li class="css_common_head_menu_contents"><a href="index.html">HOME<span>&nbsp;</span></a></li>
+<li class="css_common_head_menu_contents"><a href="original6.html">事業紹介<span>&nbsp;</span></a></li>
+<li class="css_common_head_menu_contents"><a href="original14.html">企業情報<span>&nbsp;</span></a></li>
+<li class="css_common_head_menu_contents"><a href="http://www.iflagjob.jp/" target="_blank">採用情報<span>&nbsp;</span></a></li>
+<li class="css_common_head_menu_contents"><a href="original64.html">お知らせ<span>&nbsp;</span></a></li>
+<li class="css_common_head_menu_contents"><a href="https://ssl.xaas.jp/m3916432/login/inquiryedit">お問い合わせ<span>&nbsp;</span></a></li>
+</ul>
+</div>
+
+<div class="css_common_head_back">&nbsp;</div>
+</div>
+</div>
+
+<div class="css_common_head_space">&nbsp;</div>
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create','UA-28321332-1','auto');ga('send','pageview');</script>
+</div>
+</div>
+
+
+                
+<div class="bcrumbs_1">
+    <div class="topicPath_d01">
+        <div class="inner">
+            <div><a title="ホーム" href="http://iflag.co.jp">ホーム</a></div>
+        </div>
+    </div>
+</div></div>
+<div id="page_block3" style="width:960px; float:left; padding:0; margin:0;"><div class="area_1"><div class="css_home_movie js_scroll_movie_plus">
+<video autoplay="" class="css_home_movie_video js_video" loop="" onclick="this.play();" poster="http://iflag.co.jp/theme/20_o/img/poster.jpg" preload="none"><source src="http://m3916432.xaas.jp/docs/movie/corporate_movie_short.mp4" type="video/mp4"> <!-- <source src="http://iflag.co.jp/docs/movie/sample/sample.webm" type="video/webm">
+							<source src="http://iflag.co.jp/docs/movie/sample/sample.ogv" type="video/ogg"> --><img alt="iFLAG動画代替画像" class="css_home_movie_video" src="http://iflag.co.jp/theme/20_o/img/movie.jpg"></video>
+
+<div class="css_home_movie_scroll"><button class="css_home_movie_scroll_area js_scroll_movie" type="button"><span class="css_home_movie_scroll_label">scroll</span> <span class="css_home_movie_scroll_triangle">&nbsp;</span></button></div>
+</div>
+<source src="http://m3916432.xaas.jp/docs/movie/corporate_movie_short.mp4" type="video/mp4"><source src="http://m3916432.xaas.jp/docs/movie/corporate_movie_short.mp4" type="video/mp4"><source src="http://m3916432.xaas.jp/docs/movie/corporate_movie_short.mp4" type="video/mp4"> <source src="http://m3916432.xaas.jp/docs/movie/corporate_movie_short.mp4" type="video/mp4"> <source src="http://m3916432.xaas.jp/docs/movie/corporate_movie_short.mp4" type="video/mp4"> <source src="http://m3916432.xaas.jp/docs/movie/corporate_movie_short.mp4" type="video/mp4"> <source src="http://m3916432.xaas.jp/docs/movie/corporate_movie_short.mp4" type="video/mp4"> <source src="http://m3916432.xaas.jp/docs/movie/corporate_movie_short.mp4" type="video/mp4"> <source src="http://m3916432.xaas.jp/docs/movie/corporate_movie_short.mp4" type="video/mp4"> <source src="http://m3916432.xaas.jp/docs/movie/corporate_movie_short.mp4" type="video/mp4"> <source src="http://m3916432.xaas.jp/docs/movie/corporate_movie_short.mp4" type="video/mp4"> <source src="http://m3916432.xaas.jp/docs/movie/corporate_movie_short.mp4" type="video/mp4"> <source src="http://m3916432.xaas.jp/docs/movie/corporate_movie_short.mp4" type="video/mp4"> <source src="http://m3916432.xaas.jp/docs/movie/corporate_movie_short.mp4" type="video/mp4">
+<div class="css_home_employ"><a class="css_home_employ_link js_parallax" data-effect="fade top" data-interval="60" data-margin="50" data-repeat="false" data-top="60" href="http://www.iflagjob.jp/" target="_blank"><img alt="採用情報" class="css_home_employ_image" src="http://iflag.co.jp/theme/20_o/img/employ.jpg"> </a></div>
+
+<div class="css_home_white">
+<div class="css_home_white_image"><img alt="創って、作って、売るカンパニー" class="css_home_parts_image js_parallax" data-effect="fade right" data-interval="20" data-margin="50" data-repeat="false" data-right="60" src="http://iflag.co.jp/theme/20_o/img/para_company1.png"> <img alt="創って、作って、売るカンパニー" class="css_home_parts_image js_parallax" data-effect="fade right" data-interval="40" data-margin="50" data-repeat="false" data-right="120" src="http://iflag.co.jp/theme/20_o/img/para_company2.png"> <img alt="創って、作って、売るカンパニー" class="css_home_parts_image js_parallax" data-effect="fade right" data-interval="60" data-link="js_parallax_company" data-margin="50" data-repeat="false" data-right="180" src="http://iflag.co.jp/theme/20_o/img/para_company3.png"> <img alt="創って、作って、売るカンパニー" class="css_home_parts_image js_parallax_company" data-effect="fade" data-interval="60" data-margin="240" data-repeat="false" src="http://iflag.co.jp/theme/20_o/img/para_company4.png"></div>
+
+<dl class="css_home_white_explain js_parallax_company" data-effect="fade left scale" data-interval="60" data-left="60" data-margin="240" data-repeat="false" data-scale="95">
+<dt class="css_home_white_explain_title">創って、作って、売るカンパニー</dt>
+<dd class="css_home_white_explain_message">アイフラッグでは高付加価値なクリエイティブ・セールスカンパニーを目指して、WEBサービスを企画・制作・販売しています。</dd>
+</dl>
+</div>
+
+<div class="css_home_blue">
+<div class="css_home_blue_image"><img alt="創って、作って、売るカンパニー" class="css_home_parts_image js_parallax" data-effect="fade left" data-interval="20" data-left="60" data-margin="240" data-repeat="false" src="http://iflag.co.jp/theme/20_o/img/para_partner1.png"> <img alt="創って、作って、売るカンパニー" class="css_home_parts_image js_parallax" data-effect="fade left" data-interval="40" data-left="120" data-margin="240" data-repeat="false" src="http://iflag.co.jp/theme/20_o/img/para_partner2.png"> <img alt="創って、作って、売るカンパニー" class="css_home_parts_image js_parallax" data-effect="fade left" data-interval="60" data-left="180" data-link="js_parallax_partner" data-margin="240" data-repeat="false" src="http://iflag.co.jp/theme/20_o/img/para_partner3.png"> <img alt="創って、作って、売るカンパニー" class="css_home_parts_image js_parallax_partner" data-effect="fade" data-interval="60" data-margin="240" data-repeat="false" src="http://iflag.co.jp/theme/20_o/img/para_partner4.png"></div>
+
+<dl class="css_home_blue_explain js_parallax_partner" data-effect="fade right scale" data-interval="60" data-margin="240" data-repeat="false" data-right="60" data-scale="95">
+<dt class="css_home_blue_explain_title">日本全国のスモールビジネスの<br>
+パートナー</dt>
+<dd class="css_home_blue_explain_message">パートナー企業が提供するサービスの魅力を最大限に引き出し、活性化する事をミッションとしています。</dd>
+</dl>
+</div>
+
+<div class="css_home_white">
+<div class="css_home_white_image"><img alt="創って、作って、売るカンパニー" class="css_home_parts_image js_parallax" data-effect="fade right" data-interval="20" data-margin="240" data-repeat="false" data-right="60" src="http://iflag.co.jp/theme/20_o/img/para_emblem1.png"> <img alt="創って、作って、売るカンパニー" class="css_home_parts_image js_parallax" data-effect="fade right" data-interval="40" data-margin="240" data-repeat="false" data-right="120" src="http://iflag.co.jp/theme/20_o/img/para_emblem2.png"> <img alt="創って、作って、売るカンパニー" class="css_home_parts_image js_parallax" data-effect="fade right" data-interval="60" data-link="js_parallax_emblem" data-margin="240" data-repeat="false" data-right="180" src="http://iflag.co.jp/theme/20_o/img/para_emblem3.png"> <img alt="創って、作って、売るカンパニー" class="css_home_parts_image js_parallax_emblem" data-effect="fade" data-interval="60" data-margin="240" data-repeat="false" src="http://iflag.co.jp/theme/20_o/img/para_emblem4.png"></div>
+
+<dl class="css_home_white_explain js_parallax_emblem" data-effect="fade left scale" data-interval="60" data-left="60" data-margin="240" data-repeat="false" data-scale="95">
+<dt class="css_home_white_explain_title">ITビジネスを拡大する旗印となる</dt>
+<dd class="css_home_white_explain_message">インターネットビジネスの拡大につながる、<br>
+価値あるITソリューションを提供しています。</dd>
+</dl>
+</div>
+
+<dl class="css_home_project">
+<dt class="css_home_project_title_main">事業紹介</dt>
+<dt class="css_home_project_title_sub">SERVICE</dt>
+<dd class="css_home_project_type">
+<div class="css_home_project_type_title">
+<h3 class="css_home_project_type_title_main">システムメディアソリューション</h3>
+
+<h3 class="css_home_project_type_title_sub">SYSTEM MEDIA SOLUTION</h3>
+</div>
+
+<ul class="css_home_project_type_contents">
+<li class="css_home_project_type_vertical">&nbsp;</li>
+<li class="css_home_project_type_vertical">&nbsp;</li>
+<li class="css_home_project_type_vertical">&nbsp;</li>
+<li class="css_home_project_type_contents_body js_rollover"><img alt="EPARK歯科" class="css_home_project_type_contents_main js_rollover_main js_parallax" data-effect="fade" data-interval="40" data-margin="150" data-repeat="false" src="http://iflag.co.jp/theme/20_o/img/system_dental.jpg"> <span class="css_home_project_type_contents_fade js_rollover_fade">&nbsp;</span> <a class="css_home_project_type_contents_sub js_rollover_sub" data-bottom="50" data-effect="fade bottom" data-interval="40" data-turn="50" href="http://haisha-yoyaku.jp/" target="_blank"> <span class="css_home_project_type_contents_label">歯医者さん・歯科医院の予約、検索、口コミサイト </span> <span class="css_home_project_type_contents_link"> <span class="css_home_project_type_contents_triangle"> <span>&nbsp;</span> </span>詳しくはこちら </span> </a></li>
+<li class="css_home_project_type_horizontal">&nbsp;</li>
+<li class="css_home_project_type_contents_body js_rollover"><img alt="EPARKクリニック・病院" class="css_home_project_type_contents_main js_rollover_main js_parallax" data-effect="fade" data-interval="40" data-margin="150" data-repeat="false" src="http://iflag.co.jp/images/material/system_clinic_byouin.jpg"> <span class="css_home_project_type_contents_fade js_rollover_fade">&nbsp;</span> <a class="css_home_project_type_contents_sub js_rollover_sub" data-bottom="50" data-effect="fade bottom" data-interval="40" data-turn="50" href="http://fdoc.jp/" target="_blank"> <span class="css_home_project_type_contents_label"> 全国の病院の検索と口コミを入手できるサイト </span> <span class="css_home_project_type_contents_link"> <span class="css_home_project_type_contents_triangle"><span>&nbsp;</span></span> 詳しくはこちら </span> </a></li>
+<li class="css_home_project_type_horizontal">&nbsp;</li>
+<li class="css_home_project_type_contents_body js_rollover"><img alt="EPARKペットライフ" class="css_home_project_type_contents_main js_rollover_main js_parallax" data-effect="fade" data-interval="40" data-margin="150" data-repeat="false" src="http://iflag.co.jp/theme/20_o/img/system_pet.jpg"> <span class="css_home_project_type_contents_fade js_rollover_fade">&nbsp;</span> <a class="css_home_project_type_contents_sub js_rollover_sub" data-bottom="50" data-effect="fade bottom" data-interval="40" data-turn="50" href="http://petlife.asia/" target="_blank"> <span class="css_home_project_type_contents_label">動物の病院・サロン・ホテルを検索・予約ができるサイト </span> <span class="css_home_project_type_contents_link"> <span class="css_home_project_type_contents_triangle"> <span>&nbsp;</span> </span>詳しくはこちら </span> </a></li>
+<li class="css_home_project_type_vertical">&nbsp;</li>
+<li class="css_home_project_type_vertical">&nbsp;</li>
+<li class="css_home_project_type_vertical">&nbsp;</li>
+<li class="css_home_project_type_contents_body js_rollover"><img alt="EPARK人間ドック" class="css_home_project_type_contents_main js_rollover_main js_parallax" data-effect="fade" data-interval="40" data-margin="150" data-repeat="false" src="http://iflag.co.jp/theme/20_o/img/system_doc.jpg"> <span class="css_home_project_type_contents_fade js_rollover_fade">&nbsp;</span> <a class="css_home_project_type_contents_sub js_rollover_sub" data-bottom="50" data-effect="fade bottom" data-interval="40" data-turn="50" href="http://karadadock.jp/" target="_blank"> <span class="css_home_project_type_contents_label">人間ドック・がん検診の施設を予約・検索できるサイト </span> <span class="css_home_project_type_contents_link"> <span class="css_home_project_type_contents_triangle"> <span>&nbsp;</span> </span>詳しくはこちら </span> </a></li>
+<li class="css_home_project_type_horizontal">&nbsp;</li>
+<li class="css_home_project_type_contents_body js_rollover"><img alt="EPARKからだリフレ" class="css_home_project_type_contents_main js_rollover_main js_parallax" data-effect="fade" data-interval="40" data-margin="150" data-repeat="false" src="http://iflag.co.jp/theme/20_o/img/system_karada.jpg"> <span class="css_home_project_type_contents_fade js_rollover_fade">&nbsp;</span> <a class="css_home_project_type_contents_sub js_rollover_sub" data-bottom="50" data-effect="fade bottom" data-interval="40" data-turn="50" href="http://karadarefre.jp/" target="_blank"> <span class="css_home_project_type_contents_label">マッサージ・整体など治療院の検索・予約ができるサイト </span> <span class="css_home_project_type_contents_link"> <span class="css_home_project_type_contents_triangle"> <span>&nbsp;</span> </span>詳しくはこちら </span> </a></li>
+<li class="css_home_project_type_horizontal">&nbsp;</li>
+<li class="css_home_project_type_contents_body js_rollover"><img alt="EPARKスイーツガイド" class="css_home_project_type_contents_main js_rollover_main js_parallax" data-effect="fade" data-interval="40" data-margin="150" data-repeat="false" src="http://iflag.co.jp/theme/20_o/img/system_sweets.jpg"> <span class="css_home_project_type_contents_fade js_rollover_fade">&nbsp;</span> <a class="css_home_project_type_contents_sub js_rollover_sub" data-bottom="50" data-effect="fade bottom" data-interval="40" data-turn="50" href="http://sweetsguide.jp/" target="_blank"> <span class="css_home_project_type_contents_label">全国スイーツ店から、商品を検索・予約・お取り寄せできるサイト </span> <span class="css_home_project_type_contents_link"> <span class="css_home_project_type_contents_triangle"> <span>&nbsp;</span> </span>詳しくはこちら </span> </a></li>
+<li class="css_home_project_type_vertical">&nbsp;</li>
+<li class="css_home_project_type_vertical">&nbsp;</li>
+<li class="css_home_project_type_vertical">&nbsp;</li>
+<li class="css_home_project_type_contents_body js_rollover"><img alt="EPARKママこえ" class="css_home_project_type_contents_main js_rollover_main js_parallax" data-effect="fade" data-interval="40" data-margin="150" data-repeat="false" src="http://iflag.co.jp/theme/22_o/img/sitelogo_epark_mamakoe.jpg"> <span class="css_home_project_type_contents_fade js_rollover_fade">&nbsp;</span> <a class="css_home_project_type_contents_sub js_rollover_sub" data-bottom="50" data-effect="fade bottom" data-interval="40" data-turn="50" href="http://mamakoe.jp/" target="_blank"> <span class="css_home_project_type_contents_label">おでかけ先の検索、施設詳細情報、口コミが入手できるサイト</span> <span class="css_home_project_type_contents_link"> <span class="css_home_project_type_contents_triangle"> <span>&nbsp;</span> </span>詳しくはこちら </span> </a></li>
+<li class="css_home_project_type_horizontal">&nbsp;</li>
+<li class="css_home_project_type_contents_body js_rollover"><img alt="カトモ" class="css_home_project_type_contents_main js_rollover_main js_parallax" data-effect="fade" data-interval="40" data-margin="150" data-repeat="false" src="http://iflag.co.jp/theme/20_o/img/system_katomo.jpg"> <span class="css_home_project_type_contents_fade js_rollover_fade">&nbsp;</span> <a class="css_home_project_type_contents_sub js_rollover_sub" data-bottom="50" data-effect="fade bottom" data-interval="40" data-turn="50" href="http://cutmo.com/" target="_blank"> <span class="css_home_project_type_contents_label">日本最大級カットモデルマッチングアプリ </span> <span class="css_home_project_type_contents_link"> <span class="css_home_project_type_contents_triangle"> <span>&nbsp;</span> </span>詳しくはこちら </span> </a></li>
+<li class="css_home_project_type_horizontal">&nbsp;</li>
+<li class="css_home_project_type_contents_body js_rollover"><img alt="MandwOnline" class="css_home_project_type_contents_main js_rollover_main js_parallax" data-effect="fade" data-interval="40" data-margin="150" data-repeat="false" src="http://iflag.co.jp/theme/20_o/img/system_mandw.jpg"> <span class="css_home_project_type_contents_fade js_rollover_fade">&nbsp;</span> <a class="css_home_project_type_contents_sub js_rollover_sub" data-bottom="50" data-effect="fade bottom" data-interval="40" data-turn="50" href="http://www.mandw.jp/" target="_blank"> <span class="css_home_project_type_contents_label">人気のヘアスタイル＆スタイリストを探せるサイト </span> <span class="css_home_project_type_contents_link"> <span class="css_home_project_type_contents_triangle"> <span>&nbsp;</span> </span>詳しくはこちら </span> </a></li>
+<li class="css_home_project_type_vertical">&nbsp;</li>
+<li class="css_home_project_type_vertical">&nbsp;</li>
+<li class="css_home_project_type_vertical">&nbsp;</li>
+</ul>
+</dd>
+<dd class="css_home_project_type">
+<div class="css_home_project_type_title">
+<h3 class="css_home_project_type_title_main">ホームページソリューション</h3>
+
+<h3 class="css_home_project_type_title_sub">HOME PAGE SOLUTION</h3>
+</div>
+
+<ul class="css_home_project_type_contents">
+<li class="css_home_project_type_vertical">&nbsp;</li>
+<li class="css_home_project_type_vertical">&nbsp;</li>
+<li class="css_home_project_type_vertical">&nbsp;</li>
+<li class="css_home_project_type_contents_body js_rollover"><img alt="ホームページマイスター" class="css_home_project_type_contents_main js_rollover_main js_parallax" data-effect="fade" data-interval="40" data-margin="150" data-repeat="false" src="http://iflag.co.jp/theme/20_o/img/home_mystar1.jpg"> <span class="css_home_project_type_contents_fade js_rollover_fade">&nbsp;</span> <a class="css_home_project_type_contents_sub js_rollover_sub" data-bottom="40" data-effect="fade bottom" data-interval="40" data-left="40" href="http://www.hpmeister.jp/original39.html" target="_blank"> <span class="css_home_project_type_contents_label">開設まで徹底支援・ホームページサービス </span> <span class="css_home_project_type_contents_link"> <span class="css_home_project_type_contents_triangle"> <span>&nbsp;</span> </span>詳しくはこちら </span> </a></li>
+<li class="css_home_project_type_horizontal">&nbsp;</li>
+<li class="css_home_project_type_contents_body js_rollover"><img alt="ホームページマイスターforネットショップ" class="css_home_project_type_contents_main js_rollover_main js_parallax" data-effect="fade" data-interval="40" data-margin="150" data-repeat="false" src="http://iflag.co.jp/theme/20_o/img/home_mystar2.jpg"> <span class="css_home_project_type_contents_fade js_rollover_fade">&nbsp;</span> <a class="css_home_project_type_contents_sub js_rollover_sub" data-bottom="40" data-effect="fade bottom" data-interval="40" data-right="40" href="http://www.hpmeister.jp/" target="_blank"> <span class="css_home_project_type_contents_label">開設まで徹底支援・ネットショップのホームページサービス </span> <span class="css_home_project_type_contents_link"> <span class="css_home_project_type_contents_triangle"> <span>&nbsp;</span> </span>詳しくはこちら </span> </a></li>
+<li class="css_home_project_type_horizontal">&nbsp;</li>
+<li class="css_home_project_type_contents_body js_rollover"><img alt="ホームページマイスターforBtoB" class="css_home_project_type_contents_main js_rollover_main js_parallax" data-effect="fade" data-interval="40" data-margin="150" data-repeat="false" src="http://iflag.co.jp/theme/20_o/img/home_mystar3.jpg"> <span class="css_home_project_type_contents_fade js_rollover_fade">&nbsp;</span> <a class="css_home_project_type_contents_sub js_rollover_sub" data-bottom="50" data-effect="fade bottom" data-interval="40" data-turn="50" href="http://www.hpmeisterb2b.jp/" target="_blank"> <span class="css_home_project_type_contents_label">業種で選べる業種特化型ホームページサービス </span> <span class="css_home_project_type_contents_link"> <span class="css_home_project_type_contents_triangle"> <span>&nbsp;</span> </span>詳しくはこちら </span> </a></li>
+<li class="css_home_project_type_vertical">&nbsp;</li>
+<li class="css_home_project_type_vertical">&nbsp;</li>
+<li class="css_home_project_type_vertical">&nbsp;</li>
+<li class="css_home_project_type_contents_body js_rollover"><img alt="My Clinic EXPRESS" class="css_home_project_type_contents_main js_rollover_main js_parallax" data-effect="fade" data-interval="40" data-margin="150" data-repeat="false" src="http://iflag.co.jp/theme/20_o/img/home_myclinic.jpg"> <span class="css_home_project_type_contents_fade js_rollover_fade">&nbsp;</span> <a class="css_home_project_type_contents_sub js_rollover_sub" data-bottom="40" data-effect="fade bottom" data-interval="40" data-left="40" href="http://www.myclinicexpress.jp/" target="_blank"> <span class="css_home_project_type_contents_label">専門分野に特化・医療機関のホームページ制作サービス </span> <span class="css_home_project_type_contents_link"> <span class="css_home_project_type_contents_triangle"> <span>&nbsp;</span> </span>詳しくはこちら </span> </a></li>
+<li class="css_home_project_type_horizontal">&nbsp;</li>
+<li class="css_home_project_type_contents_body js_rollover"><img alt="WebAdvertising" class="css_home_project_type_contents_main js_rollover_main js_parallax" data-effect="fade" data-interval="40" data-margin="150" data-repeat="false" src="http://iflag.co.jp/theme/20_o/img/home_advertising.jpg"> <span class="css_home_project_type_contents_fade js_rollover_fade">&nbsp;</span> <a class="css_home_project_type_contents_sub js_rollover_sub" data-bottom="40" data-effect="fade bottom" data-interval="40" data-right="40" href="http://www.sem-director.jp/" target="_blank"> <span class="css_home_project_type_contents_label">リスティング広告運用・WEB広告プロモーション代行サービス </span> <span class="css_home_project_type_contents_link"> <span class="css_home_project_type_contents_triangle"> <span>&nbsp;</span> </span>詳しくはこちら </span> </a></li>
+<li class="css_home_project_type_horizontal">&nbsp;</li>
+<li class="css_home_project_type_contents_body js_rollover"><img alt="アプリメーカー" class="css_home_project_type_contents_main js_rollover_main js_parallax" data-effect="fade" data-interval="40" data-margin="150" data-repeat="false" src="http://iflag.co.jp/theme/20_o/img/home_appli.jpg"> <span class="css_home_project_type_contents_fade js_rollover_fade">&nbsp;</span> <a class="css_home_project_type_contents_sub js_rollover_sub" data-bottom="40" data-effect="fade bottom" data-interval="40" data-left="40" href="http://applimaker.jp/" target="_blank"> <span class="css_home_project_type_contents_label">スマホアプリの開発が簡単にできる、アプリ制作サービス </span> <span class="css_home_project_type_contents_link"> <span class="css_home_project_type_contents_triangle"> <span>&nbsp;</span> </span>詳しくはこちら </span> </a></li>
+<li class="css_home_project_type_vertical">&nbsp;</li>
+<li class="css_home_project_type_vertical">&nbsp;</li>
+<li class="css_home_project_type_vertical">&nbsp;</li>
+<li class="css_home_project_type_contents_body js_rollover"><img alt="イープレスデザイン" class="css_home_project_type_contents_main js_rollover_main js_parallax" data-effect="fade" data-interval="40" data-margin="150" data-repeat="false" src="http://iflag.co.jp/images/material/xhome_epress_design.gif.pagespeed.ic.KmAE8OqTFO.png"> <span class="css_home_project_type_contents_fade js_rollover_fade">&nbsp;</span> <a class="css_home_project_type_contents_sub js_rollover_sub" data-bottom="40" data-effect="fade bottom" data-interval="40" data-left="40" href="original65.html"> <span class="css_home_project_type_contents_label"> 企業サイトやECサイトの開設から運営まで徹底支援。ホームページ制作サービス </span> <span class="css_home_project_type_contents_link"> <span class="css_home_project_type_contents_triangle"> <span>&nbsp;</span> </span>詳しくはこちら </span> </a></li>
+<li class="css_home_project_type_horizontal">&nbsp;</li>
+<li class="css_home_project_type_contents_body"><!--空枠--></li>
+<li class="css_home_project_type_horizontal">&nbsp;</li>
+<li class="css_home_project_type_contents_body"><!--空枠--></li>
+<li class="css_home_project_type_vertical">&nbsp;</li>
+<li class="css_home_project_type_vertical">&nbsp;</li>
+<li class="css_home_project_type_vertical">&nbsp;</li>
+</ul>
+</dd>
+</dl>
+
+<dl class="css_news" data-effect="fade top scale" data-interval="40" data-margin="150" data-repeat="false" data-scale="95" data-top="20">
+<dt class="css_news_head_main">お知らせ</dt>
+<dt class="css_news_head_sub">What&#39;s New</dt>
+</dl>
+</div><div class="info_2">
+    <script type="text/javascript">//<![CDATA[
+(function(){var container=$("script:last").parents("div:first");$(function(){ajaxRequest(getHost()+"/parts/informationparts/index",null,information_disp_callback);})
+function information_disp_callback(data){var strHtml='';if(data!=null&&data!=""){strHtml+='<h2>'+data.title+'</h2>';strHtml+='<ul>';if(data.content!=null&&data.content!=""){for(i=0;i<data.content.length;i++){strHtml+='<li><span>'+data.content[i]+'</span></li>';}}
+strHtml+='</ul>'}
+$(container).find(".information_d02").html(strHtml);if(data!=null&&data!=""){$(container).find(".information_d02").children("ul").find("li").css("margin","5px 10px 5px 10px");$(container).find(".information_d02").children("ul").find("li:last").css("background-image","none");}}})();
+//]]></script>
+    <div class="information_d01 information_d02"></div>
+</div></div>
+<div id="page_block5" style="width:960px; clear:both; padding:0; margin:0;"><div class="footer_2">
+<div class="footer_d01">
+
+<div class="css_common_foot">
+<div class="css_common_foot_extra"><span class="css_common_foot_extra_triangle"><span>&nbsp;</span></span> <a href="original.html">電子公告</a></div>
+<div class="css_common_foot_extra"><span class="css_common_foot_extra_triangle"><span>&nbsp;</span></span> <a href="original19.html">過去のIR情報</a></div>
+<ul class="css_common_foot_link">
+<li class="css_common_foot_link_label"><a href="original41.html">利用条件</a></li>
+<li class="css_common_foot_link_signal">|</li>
+<li class="css_common_foot_link_label"><a href="privacy.html">個人情報保護方針</a></li>
+<li class="css_common_foot_link_signal">|</li>
+<li class="css_common_foot_link_label"><a href="original43.html">プライバシー及びセキュリティの取扱い</a></li>
+<li class="css_common_foot_link_signal">|</li>
+<li class="css_common_foot_link_label"><a href="sitemap.html">サイトマップ</a></li>
+</ul>
+<div class="css_common_foot_copyright">Copyright 2015 iFLAG Co.,Ltd. All rights reserved.</div>
+</div>
+<script src="http://iflag.co.jp/docs/js/common.js" type="text/javascript" charset="utf-8"></script>
+</div>
+</div></div>
+</div><form name="user" id="user">
+<input type="hidden" name="host" id="host" value="http://iflag.co.jp">
+<input type="hidden" name="hostForHttps" id="hostForHttps" value="https://ssl.xaas.jp/m3916432">
+<input type="hidden" name="localLanguage" id="localLanguage" value="ja">
+<input type="hidden" name="pictureHost" id="pictureHost" value="https://ssl.xaas.jp/m3916432">
+<input type="hidden" name="loginHost" id="loginHost" value="https://ssl.xaas.jp/m3916432">
+<input type="hidden" name="cartHost" id="cartHost" value="https://cart.xaas.jp/m3916432">
+<input type="hidden" name="comPicture" id="comPicture" value="http://web.xaas.jp">
+</form>
+
+
+</body>
+</html>

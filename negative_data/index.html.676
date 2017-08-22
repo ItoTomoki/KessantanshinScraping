@@ -1,0 +1,325 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>株式会社ビューティガレージ</title>
+<link rel="stylesheet" type="text/css" href="/css/common.css" media="screen, print" />
+<link rel="stylesheet" type="text/css" href="/css/top.css" media="screen, print" />
+<link media="screen" href="/css/scrollable2.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="/css/flexslider.css" media="screen, print" />
+<script type="text/javascript" src="/js/jsapi"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
+<script type="text/javascript" src="/js/jquery.scrollable.js"></script>
+<script type="text/javascript" src="/js/rollover.js"></script>
+<script type="text/javascript" src="/js/roll.js"></script>
+<script type="text/javascript" src="/js/common.js"></script>
+<script type="text/javascript" src="/js/smoothScroll.js"></script>
+<script type="text/javascript" src="/js/scroll.js"></script>
+<script type="text/javascript" src="/js/swfobject.js"></script>
+<script type="text/javascript" src="/js/jquery.flexslider-min.js"></script>
+<script type="text/javascript">
+
+$(function(){
+  $('.flexslider').flexslider({
+    animation: "fade",
+    animationLoop:true,
+    directionNav:false,
+    slideshowSpeed:4500,
+    slideshow:true,
+    pauseOnAction:false,
+  });
+});
+//<![CDATA[
+//Activate
+$(document).ready(function(){ $("#gnavi_home").addClass("here");});
+//]]>
+
+</script>
+</head>
+
+<body>
+<div id="container"> 
+  <!-- ヘッダー[start] --> 
+  <div id="Header">
+  <h1><a href="/"><img src="/img/site_ttl001.gif" alt="株式会社ビューティガレージ" title="株式会社ビューティガレージ" width="174" height="61" /></a></h1>
+  <ul id="lang_change">
+    <li><strong>日本語</strong></li>
+    <li>&nbsp;/&nbsp;</li>
+    <li><a href="/english/">English</a></li>
+  </ul>
+  <!-- グローバルナビ[start] -->
+  <ul id="gnavi">
+    <li id="gnavi_home" class="btn"><a href="/" class="btn_a">ホーム</a></li>
+    <li id="gnavi_company" class="btn" onMouseOver="pulldown('pull_company');" onMouseOut="pullup('pull_company');">
+      <ul id="pull_company" class="pull">
+        <li><a href="/company/greeting.html">代表ご挨拶</a></li>
+        <li><a href="/company/officer.html">役員のご紹介</a></li>
+        <li><a href="/company/cprofile.html">会社概要</a></li>
+        <li><a href="/company/policy.html">企業理念</a></li>
+        <!--li><a href="/company/charter.html">企業行動憲章</a></li-->
+        <li><a href="/company/governance.html">コーポレートガバナンス</a></li>
+        <li><a href="/company/history.html">会社沿革</a></li>
+        <li><a href="/company/base.html">拠点一覧</a></li>
+        <!--li><a href="/company/organize.html">組織図</a></li>
+        <li><a href="/company/group.html">グループ会社</a></li-->
+        <li><a href="/company/guidedl.html">会社案内ダウンロード</a></li>
+      </ul>
+      <a href="/company/" class="btn_a">企業情報</a></li>
+    <li id="gnavi_service" class="btn" onMouseOver="pulldown('pull_service');" onMouseOut="pullup('pull_service');">
+      <ul id="pull_service" class="pull">
+        <li><a href="/service/fields.html">事業内容</a></li>
+        <li><a href="/service/contents.html">運営サイト</a></li>
+      </ul>
+      <a href="/service" class="btn_a">事業概要</a></li>
+    <li id="gnavi_info" class="btn"><a href="/index.php?module=ArticleList&action=ArticleList&article_type=0" class="btn_a">お知らせ</a></li>
+    <li id="gnavi_pressrelease" class="btn"><a href="/index.php?module=ArticleList&action=ArticleList&article_type=3" class="btn_a">プレスリリース</a></li>
+    <li id="gnavi_publicity" class="btn"><a href="/index.php?module=ArticleList&action=ArticleList&article_type=1" class="btn_a">パブリシティ</a></li>
+    <li id="gnavi_recruit" class="btn"><a href="http://www.recruit.beautygarage.co.jp/" target="_blank" class="btn_a">採用情報</a></li>
+    <li id="gnavi_ir" class="btn" onMouseOver="pulldown('pull_ir');" onMouseOut="pullup('pull_ir');">
+      <ul id="pull_ir" class="pull_l">
+        <li><a href="/ir/news.html">IRニュース</a></li>
+        <li><a href="/ir/message.html">株主・投資家の皆様へ</a></li>
+        <li><a href="/ir/highlights.html">業績ハイライト</a></li>
+        <li><a href="/ir/library.html">IRライブラリ</a></li>
+        <li><a href="/ir/calendar.html">IRカレンダー</a></li>
+        <li><a href="/ir/info.html">株式情報</a></li>
+        <li><a href="/ir/benefit.html">株主優待制度</a></li>
+        <li><a href="/ir/koukoku.html">電子公告</a></li>
+        <li><a href="/ir/faq.html">よくあるご質問</a></li>
+        <li><a href="/inquiry/ir.php">IRお問い合わせ</a></li>
+      </ul>
+      <a href="/ir/" class="btn_a">IR</a></li>
+  </ul>
+  <!-- グローバルナビ[end] -->
+  <ul id="nav">
+    <li><a href="/inquiry/contact.php">お問い合わせ</a></li>
+    <li><a href="/sitemap/">サイトマップ</a></li>
+    <!--li><a href="/english/">English</a></li-->
+  </ul>
+    <div id="mothers_logo"><img src="/img/tosho_logo.png" alt="東証一部上場 証券コード：3180" width="135" height="43" /></div>
+    <div id="shop_btn"><a href="http://www.beautygarage.jp/" target="_blank"><img src="/img/onlineshop_btn.gif" alt="オンラインショップ" title="オンラインショップ" width="210" height="34" /></a></div>
+</div>
+<!-- ヘッダー[end] --> 
+  
+  <!-- コンテンツ[start] -->
+  <div id="Home"> 
+    <div class="sliderFrame">
+      <div class="flexslider">
+        <ul class="slides">
+          <li><img src="img/mainSlide02.jpg" /></li>
+          <li><img src="img/mainSlide03.jpg" /></li>
+          <li><img src="img/mainSlide04.jpg" /></li>
+          <li><img src="img/mainSlide06.jpg" /></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- 運営サービス[start] -->
+    <div class="secTitle">
+      <h3 style="width:900px;"><span>運営サービス</span></h3>
+      <p class="enTitle">Management Service</p>
+    </div>
+    <div id="Service">
+      <div id="scrollable">
+        <a class="prev"></a>
+        <a class="next"></a>
+        <div class=items>
+          <a href="http://www.beautygarage.jp/" target="_blank"><img src="/img/service_btn001.gif" alt="プロ向け理美容・エステ・ネイル商材インターネット卸販売 BEAUTY GARAGE Online Shop" width="250" height="125" /></a>
+          <a href="http://www.eyelashgarage.jp/" target="_blank"><img src="/img/service_btn018.gif" alt="プロ向けまつげエクステ商材販売事業インターネット卸販売 EYELASH GARAGE Online Shop" width="250" height="125" /></a>
+          <a href="http://kaigyo.beautygarage.jp/" target="_blank"><img src="/img/service_btn003.gif" alt="サロン開業・経営支援サービス SALON開業・経営ch" width="250" height="125" /></a>
+          <a href="http://salonmarugoto.jp/" target="_blank"><img src="/img/service_btn020.gif" alt="サロンまるごとサポート" width="250" height="125" /></a>
+          <a href="http://salonbaikyaku.jp/" target="_blank"><img src="/img/service_btn021.gif" alt="サロン退店・売却サポート" width="250" height="125" /></a>
+          <a href="http://www.salonfudousan.net/" target="_blank"><img src="/img/service_btn005.gif" alt="サロン不動産仲介・M&Aサービス サロン不動産ネット" width="250" height="125" /></a>
+          <a href="http://www.salondesign.jp/" target="_blank"><img src="/img/service_btn006.gif" alt="サロン店舗設計・デザイン・プロデュース サロン店舗設計デザイン" width="250" height="125" /></a>
+          <a href="http://www.salonhoken.net/" target="_blank"><img src="/img/service_btn007.gif" alt="サロン向け保険サービス サロン保険ネット" width="250" height="125" /></a>
+          <a href="http://www.salonsystem.jp/" target="_blank"><img src="/img/service_btn008.gif" alt="サロンシステム導入支援サービス サロンシステムナビ" width="250" height="125" /></a>
+          <a href="http://www.saloncard.jp/" target="_blank"><img src="/img/service_btn019.gif" alt="クレジットカード決済端末導入サポート" width="250" height="125" /></a>
+          <a href="http://www.saloncareer.jp/" target="_blank"><img src="/img/service_btn012.gif" alt="美容専門求人・転職サービス サロンキャリア" width="250" height="125" /></a>
+          <a href="http://www.bgacademy.jp/" target="_blank"><img src="/img/service_btn010.gif" alt="セミナー・スクール BGアカデミー" width="250" height="125" /></a>
+          <a href="http://www.shukyaku.jp/" target="_blank"><img src="/img/service_btn009.gif" alt="サロン集客支援サービス サロン集客ナビ" width="250" height="125" /></a>
+          <a href="http://www.salonfc.jp/" target="_blank"><img src="/img/service_btn015.gif" alt="フランチャイズ・のれんわけ・業務委託 サロンFCナビ" width="250" height="125" /></a>
+          <a href="http://www.biyoukaitori.jp/" target="_blank"><img src="/img/service_btn002.gif" alt="理美容器具・エステ機器買取事業 美容器具・エステ機器総合買取センター" width="250" height="125" /></a>
+          <img src="/img/blank.gif" width="250" height="125" />
+        </div>
+      </div>
+    </div>
+    <!-- 運営サービス[end] -->
+    
+    <!-- 最新情報[start] -->
+    <div id="topNewsArea">
+      <div id="News"> <div class="secTitle">
+  <h3><span>最新情報</span></h3>
+  <p class="enTitle">News & Topics</p>
+</div>
+<!--h2><img src="/img/news_ttl.gif" alt="最新情報　News&amp;Topics" width="550" height="28" /></h2-->
+<dl>         
+						<dt>2017.06.12</dt>
+			<dd><p class="ir">									<a href=http://contents.xj-storage.jp/xcontents/31800/5fcfa728/69c4/46b1/ac55/aeba83b57e77/140120170610403303.pdf target="_blank">
+													【適時開示】「平成29年４月期　決算短信」を発表いたしました</a>			</p>
+			</dd>
+					<dt>2017.04.26</dt>
+			<dd><p class="press">
+													<a href=/upload_files/pdf/TokyoRenewal_Osakamove_web.pdf target="_blank">								ビューティガレージ大阪、大型総合ショールームとして移転・拡大オープン、同時に、東京総合ショールームも大幅リニューアル</a> [ PDF ] 			</p>
+			</dd>
+					<dt>2017.03.07</dt>
+			<dd><p class="ir">									<a href=http://contents.xj-storage.jp/xcontents/31800/8b677220/d5f9/4adc/b53d/7da6c389c206/140120170306413624.pdf target="_blank">
+													 平成29年4月期配当予想の修正に関するお知らせ</a>			</p>
+			</dd>
+			</dl> </div>
+    </div>
+    <!-- 最新情報[end] -->
+    
+    <!-- 企業情報[start] -->
+    <div id="topCompanyArea">
+      <div id="Company" class="clearfix">
+        <div class="secTitle">
+          <h3><span>企業情報</span></h3>
+          <p class="enTitle">Corporate Information</p>
+        </div>
+        <ul>
+          <li><a href="/company/greeting.html">代表ご挨拶</a></li>
+          <li><a href="/company/officer.html">役員のご紹介</a></li>
+          <li><a href="/company/cprofile.html">会社概要</a></li>
+          <li><a href="/company/policy.html">企業理念</a></li>
+          <li><a href="/company/charter.html">企業行動憲章</a></li>
+          <li class="long"><a href="/company/governance.html">コーポレートガバナンス</a></li>
+          <li><a href="/company/history.html">会社沿革</a></li>
+          <li><a href="/company/base.html">拠点一覧</a></li>
+          <!--li><a href="/company/organize.html">組織図</a></li-->
+          <li><a href="/company/group.html">グループ会社</a></li>
+          <li class="companydl"><a href="/company/guidedl.html">会社案内ダウンロード</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="clear"></div>
+    <!-- 企業情報[end] -->
+    
+    <!-- ビューティガレージグループ[start] -->
+      <div id="Group">
+        <!--h2><img src="/img/group_ttl.gif" alt="ビューティガレージグループ　Group Company" width="550" height="28" /></h2-->
+        <div class="secTitle">
+          <h3><span>ビューティガレージグループ</span></h3>
+          <p class="enTitle">Group Company</p>
+        </div>
+        <ul class="clearfix">
+          <li><a href="/"><img src="/img/groupBg.png" alt="株式会社ビューティガレージ" title="株式会社ビューティガレージ" width="225" height="90" /></a></li>
+          <li><a href="http://www.tough-dp.jp/" target="_blank"><img src="/img/groupTdp.png" alt="株式会社タフデザインプロダクト" title="株式会社タフデザインプロダクト" width="225" height="90" /></a></li>
+          <li><a href="http://www.eyelashgarage.jp/" target="_blank"><img src="/img/groupEg.png" alt="株式会社アイラッシュガレージ" title="株式会社アイラッシュガレージ" width="225" height="90" /></a></li>
+          <li><a href="http://www.salonmarugoto.jp/" target="_blank"><img src="/img/groupBgp.png" alt="株式会社BGパートナーズ" title="株式会社BGパートナーズ" width="225" height="90" /></a></li>
+        </ul>
+      </div>
+      <!-- ビューティガレージグループ[end] -->
+    
+    <!-- 左カラム[start] -->
+    <div id="Left"> 
+      <!-- お問い合わせ[start] -->
+      <div id="Contact" class="clearfix">
+        <ul>
+          <li><a href="/inquiry/contact.php?contact_type=trade"><img src="/img/trade_btn.gif" alt="商品等のお取引ご希望の企業様" title="商品等のお取引ご希望の企業様" width="178" height="107" /></a></li>
+          <li><a href="/inquiry/contact.php?contact_type=press"><img src="/img/press_btn.gif" alt="プレス関連・取材希望の企業様" title="プレス・取材希望の企業様" width="178" height="107" /></a></li>
+          <li class="Latest"><a href="/inquiry/contact.php?contact_type=recruit"><img src="/img/recruit_btn.gif" alt="採用に関するお問い合わせ" title="採用に関するお問い合わせ" width="178" height="107" /></a></li>
+        </ul>
+      </div>
+      <div class="clear"></div>
+      <!-- お問い合わせ[end] --> 
+      
+      <!--div id="topMovie">
+        <iframe width="500" height="281" src="https://www.youtube.com/embed/9rHgNgl2PR8?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+      </div-->
+      
+      <!-- facebook[start] -->
+      <div id="fb">
+        <iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fbeautygarage.jp&amp;width=500&amp;height=280&amp;show_faces=false&amp;colorscheme=light&amp;stream=true&amp;border_color&amp;header=true" scrolling="no" frameborder="0" style="border:none; overflow:hidden;width:500px; height:280px;" allowTransparency="true"></iframe>
+      </div>
+      <!-- facebook[end] --> 
+      
+    </div>
+    <!-- 左カラム[end] --> 
+    
+    
+    <!-- 右カラム[start] -->
+    <div id="Right"> 
+      
+      <!-- 採用情報[start] -->
+      <div id="tpRecruit" class="inner_cmn2">
+        <div class="secTitle">
+          <h3><span>採用情報</span></h3>
+          <p class="enTitle">Recruiting</p>
+        </div>
+        <!--h3><img src="/img/tprecruit_ttl.gif" alt="採用情報" /></h3-->
+        <h4 class="topRecruitBnr"><a href="http://www.recruit.beautygarage.co.jp/" target="_blank"><img src="/img/recruitBanner001.jpg" /></a></h4>
+      </div>
+      <!-- 採用情報[end] --> 
+      
+      <!--img src="/img/right_hasen.gif" width="305" height="19" class="hasen" /--> 
+      
+      <!-- バナー[start] -->
+      <ul id="topRightBanner">
+      	<li><a href="http://www.beautygarage.co.jp/recruit/blog.html"><img src="/img/banner_staffblog.jpg" alt="ビューティガレージ スタッフブログ"></a></li>
+      </ul>
+      
+      <!-- バナー[end] --> 
+    </div>
+    <!-- 右カラム[end] -->
+
+  </div>
+  <!-- コンテンツ[end] --> 
+  
+<div class="clear"></div>
+  
+<!-- フッター[start] --> 
+<!-- フッターリンク[start] -->
+<div id="Footer">
+  <h3>ビューティガレージグループの運営サービス</h3>
+  <div id="Left">
+    <ul>
+      <li>理美容・エステ・ネイル商材販売事業　<a href="http://www.beautygarage.jp/" target="_blank">BEAUTY GARAGE Online Shop</a></li>
+      <li>まつげエクステ商材販売事業　<a href="http://www.eyelashgarage.jp/" target="_blank">EYELASH GARAGE Online Shop</a></li>
+      <li>理美容器具・エステ機器買取事業　<a href="http://www.biyoukaitori.jp/" target="_blank">美容器具・エステ機器総合買取センター</a></li>
+      <li>店舗リース・ファイナンスサポート　<a href="http://salonmarugoto.jp/" target="_blank">サロンまるごとサポート</a></li>
+      <li>サロン開業・経営支援サービス　<a href="http://kaigyo.beautygarage.jp/" target="_blank">SALON開業・経営ch</a></li>
+      <li>サロン不動産仲介・M&amp;Aサービス　<a href="http://www.salonfudousan.net/" target="_blank">サロン不動産ネット</a></li>
+      <li>サロン店舗設計デザイン・プロデュース　<a href="http://www.salondesign.jp/" target="_blank">サロン店舗設計デザイン</a></li>
+    </ul>
+  </div>
+  <div id="Right">
+    <ul>
+      <li>サロン向け保険サービス　<a href="http://www.salonhoken.net/" target="_blank">サロン保険ネット</a></li>
+      <li>サロンシステム導入支援サービス　<a href="http://www.salonsystem.jp/" target="_blank">サロンシステムナビ</a></li>
+      <li>クレジットカード決済端末導入サポート　<a href="http://www.saloncard.jp/" target="_blank">サロン決済ナビ</a></li>
+      <li>店舗退店・売却サポートサービス　<a href="http://salonbaikyaku.jp/" target="_blank">サロン退店・売却サポート</a></li>
+      <li>求人・転職サービス　<a href="http://www.saloncareer.jp/" target="_blank">サロンキャリア</a></li>
+      <li>セミナー・スクール　<a href="http://www.bgacademy.jp/" target="_blank">BGアカデミー</a></li>
+      <li>サロン集客支援サービス　<a href="http://www.shukyaku.jp/" target="_blank">サロン集客ナビ</a></li>
+      <li>フランチャイズ・のれんわけ・業務委託サービス　<a href="http://www.salonfc.jp/" target="_blank">サロンFCナビ</a></li>
+    </ul>
+  </div>
+</div>
+<!-- フッターリンク[end] -->
+<div class="clear"></div>
+<!-- フッターコピーライト[start] -->
+<div id="Footercp">
+  <div id="Link"><a href="/inquiry/contact.php">お問い合わせ</a> | <a href="/sitemap/">サイトマップ</a> | <a href="/privacy/">プライバシーポリシー</a> | <a href="/company/charter.html">企業行動憲章</a></div>
+  <div id="Copyright">Copyright BEAUTY GARAGE INC. All rights reserved.</div>
+</div> 
+<!-- フッターコピーライト[end] -->
+<!-- フッター[end] --> 
+  
+</div>
+
+<!-- Analytics[start] -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-1040584-8");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+<!-- Analytics[end] -->
+
+</body>
+</html>
+
+<!-- This page took 0.0367 seconds to process. -->

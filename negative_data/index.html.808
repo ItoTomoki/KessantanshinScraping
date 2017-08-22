@@ -1,0 +1,378 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja" dir="ltr">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>セーレン株式会社 | SEIREN</title>
+<meta name="robots" content="index,follow,noarchive" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Cache-Control" content="no-cache" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="content-script-type" content="text/javascript" />
+<meta name="keywords" content="セーレン,SEIREN,セーレングループ,セイレン,ビスコテックス,染色,非繊維,非衣料" />
+<meta name="description" content="セーレン株式会社のウェブサイトになります。セーレンの製品情報やサービス情報、企業情報などがご覧になれます。" />
+<link rel="index" href="index.html" />
+<link rel="alternate" hreflang="en" href="http://www.seiren.com/english/">
+<link rel="alternate" hreflang="ja" href="http://www.seiren.com/">
+<link rel="stylesheet" type="text/css" title="fontM" href="css/default.css" />
+<link rel="stylesheet" type="text/css" title="fontS" href="css/default_s.css" />
+<link rel="stylesheet" type="text/css" title="fontB" href="css/default_b.css" />
+<link rel="stylesheet" type="text/css" href="css/import.css" />
+<link rel="stylesheet" type="text/css" href="pretty/css/prettyPhoto.css" />
+
+<script type="text/javascript" src="http://www.google.com/jsapi"></script>  
+<script type="text/javascript">
+  google.load ('jquery', '1');
+  var ROOT = '';
+</script>
+<script type="text/javascript" src="js/import.js"></script>
+<script type="text/javascript" src="js/top.js"></script>
+<script type="text/javascript" src="pretty/js/jquery.prettyPhoto.js"></script>
+<script>
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-20862760-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<script>
+
+
+         $(function(){
+            $("a[rel^='popPhoto']").prettyPhoto();
+
+         });
+         
+
+</script>
+<script type="text/javascript">
+
+         $(function(){
+            
+            var default_language_cookie_name = 'SEIREN_DEFAULT_LANG';
+            var default_language = $.cookie(default_language_cookie_name);
+            
+            var getBrowserLanguage = function() {
+              var ua = window.navigator.userAgent.toLowerCase();
+              
+              try {
+                  return ( 
+                     ( navigator.languages 
+                    && navigator.languages[0] ) 
+                    || navigator.browserLanguage 
+                    || navigator.language 
+                    || navigator.userLanguage
+                 /* || navigator.systemLanguage */
+                    ).substr(0,2);
+                    
+              }
+              catch( e ) {
+                  //return undefined;
+                  return 'ja';
+              }
+            }
+            
+            $('.eng').find('a img').on('click',function(){
+              $.cookie( default_language_cookie_name , 'en', { expires: 365 , path: "/" });
+              location.href = 'english';
+            });
+            
+            //サイト内からのトップページへのアクセスの場合はcookieを保存して終了する。
+            if ( document.referrer.indexOf( location.origin ) != -1 ){
+               $.cookie( default_language_cookie_name , 'ja', { expires: 365 , path: "/" });
+               return;
+            }
+            
+            //サイト外からのトップページアクセスの場合のみ通常処理
+            if ( default_language  ){
+               if( default_language == 'ja' ){
+                  //Cookie期間延長の為に保存しなおす
+                  $.cookie( default_language_cookie_name , 'ja', { expires: 365 , path: "/" });
+               } else {
+                  location.href = 'english';
+               }
+            } else {
+               if ( getBrowserLanguage() == 'ja' ) {
+                  $.cookie( default_language_cookie_name , 'ja', { expires: 365 , path: "/" });
+               } else {
+                  $.cookie( default_language_cookie_name , 'en', { expires: 365 , path: "/" });
+                  location.href = 'english';
+               }
+            }
+         });
+         
+
+</script>
+      
+</head>
+<body class="indexBody">
+<div id="page">
+<div id="header">
+  <div class="headIn">
+  <h1><a href="index.html">セーレン株式会社<img src="img/seilenlogo.gif" alt="セーレン株式会社" width="217" height="55" class="headerImg" /></a></h1>
+   <ul id="nav" class="menuBox">
+     <li class="menuM6"><a href="company/"><img src="img/company_menu.gif" width="105" height="55" alt="会社概要、企業理念、沿革などご紹介" /></a></li
+     ><li class="menuM6"><a href="products/"><img src="img/products_menu.gif" width="105" height="55" alt="繊維から非繊維まで多岐にわたる事業内容ご紹介" /></a></li
+     ><li class="menuM6"><a href="invest/"><img src="img/invest_menu.gif" width="105" height="55" alt="IR･決算関連情報" /></a></li
+     ><li class="menuM6"><a href="society_env/"><img src="img/csr_menu.gif" width="105" height="55" alt="社会･環境活動、ISO取得状況" /></a></li
+     ><li class="menuM6"><a href="rad/"><img src="img/research_menu.gif" width="105" height="55" alt="研究開発" /></a></li
+     ><li class="menuM6"><a rel="external" href="http://recruit.seiren.com/"><img src="img/recruit_menu.gif" width="105" height="55" alt="新卒採用情報、キャリア採用情報" /></a></li
+     ><li class="menuM5">
+       <ul>
+        <li class="sizeBt_s"><a href="javascript:void(0)" rel="fontS" class="styleswitch">小</a></li>
+        <li class="sizeBt_m"><a href="javascript:void(0)" rel="fontM" class="styleswitch">中</a></li>
+        <li class="sizeBt_b"><a href="javascript:void(0)" rel="fontB" class="styleswitch">大</a></li>
+       </ul>
+      </li>
+   </ul>
+  </div>
+    <div class="headSub">
+   <ul>
+     <li class="eng"><a href="english/" onclick="return false;"><img src="img/english_bt.gif" alt="english" width="72" height="21" /></a></li>
+     <li class="headSublink"><a href="sitemap/">サイトマップ</a>│<a href="inquiry/">お問い合わせ</a></li>
+     <li class="search">
+     <form action="http://www.google.com/cse" id="cse-search-box">
+     <input type="hidden" name="cx" value="002755970036857921046:s-nhc3tx2i4" />
+     <input type="hidden" name="ie" value="UTF-8" />
+     <input type="text" name="q" />
+     <input type="submit" name="sa" value="" class="g_searchBt" />
+     </form><script type="text/javascript" src="http://www.google.com/cse/brand?form=cse-search-box&lang=ja"></script></li>
+   </ul>
+  </div>
+</div>
+<!--flash-->
+<div class="flaBox">
+  <div id="flaBoxin">
+   <img src="img/fla_img.jpg" alt="夢は世界を超えて、未来へ。" width="954" height="414" /></div>
+</div>
+<!--flashEND-->
+<div class="contents">
+  <div id="main">
+    <div class="contentsBox_c">
+      <div class="contentsBox_l">
+      
+     <!--<p><a href="https://youtu.be/K_HYp4Cscb4?width=1280&amp;height=720&amp;autoplay=0&amp;rel=0&amp;loop=1" rel="popPhoto" title="車輌内装カスタマイズシステム"><img src="img/vana.jpg" alt="車輌内装カスタマイズシステム" width="676" /></a></p>-->
+      
+       <div class="textBox">
+      <a onclick="ga('send', 'event',  'banner', 'pdf', 'syousyu2017.pdf');" href="syousyu/syousyu2017.pdf" rel="external"><img src="img/syousyubt.gif" alt="定時株主総会招集ご通知" /></a>&nbsp;&nbsp;
+      <a onclick="ga('send', 'event',  'banner', 'pdf', 'resolution2017.pdf');" href="syousyu/resolution2017.pdf" rel="external"><img src="img/resolutionbt.gif" alt="定時株主総会決議ご通知" /></a><p>※当社の第145期定時株主総会招集ご通知は、平成29年5月29日に発送しますが、早期情報開示の観点から発送前に開示いたしました。</p></div>
+       <div id="infoTitle">
+         <h3><img width="676" height="36" alt="トピックス" src="img/topic_tit.gif"></h3></div>
+
+        <dl class="topicList clearfix">
+          <!--<dt class="topicAge">【09月16日付】</dt>
+          <dd class="topicTex"><a href="https://youtu.be/K_HYp4Cscb4?width=1280&amp;height=720&amp;autoplay=0&amp;rel=0&amp;loop=1" rel="popPhoto" title="車輌内装カスタマイズシステム">Viscotecs（ビスコテックス）を駆使した車輌内装カスタマイズシステムをただいま東京モーターショーにてご提案中</a></dd>-->
+          <dt class="topicAge" style="width:110px;">2017年02月06日付</dt>
+          <dd class="topicTex" style="width:540px;"><a href="http://www.puresericin.com/" rel="external">繭生まれの天然成分ピュアセリシンの”守る力”をまとめた「ピュアセリシン研究室」をオープンしました。</a></dd>
+          <dt class="topicAge" style="width:110px;">2016年09月15日付</dt>
+          <dd class="topicTex" style="width:540px;"><a href="https://shop.seiren.com/makeyourbrand" rel="external">「Viscotecs　make　your　brand」<br>～楽しみながらつくる、新しいオーダー・メイドで最高の一着をおつくりいたします～</a></dd>
+          
+          <!--<dt class="topicAge">【06月05日付】</dt>
+          <dd class="topicTex"><a rel="external" href="http://www.bluepants.info">デオエスト「ブルーパンツ」プロモーション特設サイトにてムービー公開</a></dd>-->
+ 
+          </dl>
+        <div id="infoTitle">
+          <h2><img src="img/info_tit.gif" alt="リリース情報" width="676" height="36" /></h2>
+          <a href="release/"><img src="img/info_icon.gif" width="98" height="22" alt="リリース一覧" class="info_icon" /></a></div>
+        <div class="infoBox">
+          <ul class="infoList">
+          <li class="infoAge">2017年08月07日</li>
+          <li class="infoIcon"><img src="img/ir_icon.gif" width="44" height="14" alt="IR" /></li>
+ 
+
+          <!-- PDF 専用 -->
+          <li class="infoTex"><a rel="external" href="http://www.seiren.com/invest/investors/2017_792/pdf/pdf0.pdf">インベスターズガイド2017<img src="img/pdf_icon.gif" alt="pdf" width="12" height="13" /> [PDF:721KB]</a></li>
+ 
+          </ul>
+          <ul class="infoList">
+          <li class="infoAge">2017年07月31日</li>
+          <li class="infoIcon"><img src="img/ir_icon.gif" width="44" height="14" alt="IR" /></li>
+ 
+
+          <!-- PDF 専用 -->
+          <li class="infoTex"><a rel="external" href="http://www.seiren.com/invest/ir_press/2017_791/pdf/pdf0.pdf">通期予想の修正に関するお知らせ<img src="img/pdf_icon.gif" alt="pdf" width="12" height="13" /> [PDF:76KB]</a></li>
+ 
+          </ul>
+          <ul class="infoList">
+          <li class="infoAge">2017年07月31日</li>
+          <li class="infoIcon"><img src="img/ir_icon.gif" width="44" height="14" alt="IR" /></li>
+ 
+
+          <!-- PDF 専用 -->
+          <li class="infoTex"><a rel="external" href="http://www.seiren.com/invest/ir_press/2017_790/pdf/pdf0.pdf">平成30年3月期第１四半期決算短信<img src="img/pdf_icon.gif" alt="pdf" width="12" height="13" /> [PDF:338KB]</a></li>
+ 
+          </ul>
+          <ul class="infoList">
+          <li class="infoAge">2017年07月28日</li>
+          <li class="infoIcon"><img src="img/news_icon.gif" width="44" height="14" alt="ニュース" /></li>
+ 
+
+          <!-- PDF 専用 -->
+          <li class="infoTex"><a rel="external" href="http://www.seiren.com/news/2017_789/pdf/pdf0.pdf">セーレングループ　メキシコ拠点の会社商号変更に関するお知らせ<img src="img/pdf_icon.gif" alt="pdf" width="12" height="13" /> [PDF:132KB]</a></li>
+ 
+          </ul>
+          <ul class="infoList">
+          <li class="infoAge">2017年07月11日</li>
+          <li class="infoIcon"><img src="img/ir_icon.gif" width="44" height="14" alt="IR" /></li>
+ 
+
+          <!-- PDF 専用 -->
+          <li class="infoTex"><a rel="external" href="http://www.seiren.com/invest/ir_press/2017_788/pdf/pdf0.pdf">株式報酬型ストックオプション（新株予約権）の発行内容確定に関するお知らせ<img src="img/pdf_icon.gif" alt="pdf" width="12" height="13" /> [PDF:87KB]</a></li>
+ 
+          </ul>
+          <ul class="infoList">
+          <li class="infoAge">2017年07月06日</li>
+          <li class="infoIcon"><img src="img/news_icon.gif" width="44" height="14" alt="ニュース" /></li>
+ 
+
+          <!-- PDF 専用 -->
+          <li class="infoTex"><a rel="external" href="http://www.seiren.com/news/2017_787/pdf/pdf0.pdf">汗のにおいを気にせず、爽やかな夏を楽しめる「ボーダー柄」Ｔシャツが登場！「ＤＥＯＥＳＴ（デオエスト）」シリーズ、ポケットＴシャツ7月6日発売<img src="img/pdf_icon.gif" alt="pdf" width="12" height="13" /> [PDF:776KB]</a></li>
+ 
+          </ul>
+          <ul class="infoList">
+          <li class="infoAge">2017年06月23日</li>
+          <li class="infoIcon"><img src="img/topics_icon.gif" width="44" height="14" alt="お知らせ" /></li>
+ 
+
+          <!-- 通常 -->
+          <li class="infoTex"><a href="http://www.seiren.com/info/2017_785/">ｲﾝﾅｰｱﾊﾟﾚﾙﾌｧﾌﾞﾘｯｸｽ&ｱｸｾｻﾘｰ専門見本市「Interfiliereパリ2017」へ初出展</a></li>
+ 
+          </ul>
+        </div>
+        <div class="shopBox">
+        <h2><img src="img/shop_tit.gif" alt="お買い物はこちらから" width="676" height="36" /></h2>
+          <div class="textBox_no" style="padding-top: 10px; padding-bottom: 5px;">▼セーレンの製品をお買い求めの方は以下のお買い物サイトよりご購入いただく事ができます。</div>
+          <div class="onlineshop_b">
+          <p class="onlineshop_l"><a rel="external" href="https://shop.seiren.com/ec/cmTopPage.html"><img src="img/onlineshop_banner.png" alt="セーレン通販サイト" /></a></p><p class="onlineshop_r"><a rel="external" href="http://www.syoujiseiren.com/SHOP/548008/list.html"><img src="img/souji_banner.gif" alt="お掃除クロス「そうじの神様」" style="margin-bottom:5px;" width="220" height="60" /></a><a rel="external" href="http://www.cloth.jp/"><img src="img/saidex_banner.jpg" alt="インクジェット用クロスメディア「彩dex」" width="220" height="60" /></a></p>
+        </div>
+        <!--<div class="onlineshop_b"><p><a rel="external" href="http://www.bluepants.info"><img src="img/bp_banner.png" alt="ブルーパンツ" /></a></p></div>-->
+          <!--<ul class="shopBoxin">
+        <li class="busBox_out"><a rel="external" href="https://shop.seiren.com/deoest/"><img src="img/inodore_banner.jpg" alt="消臭下着・靴下・介護医療アイテム「デオエストストア」" width="220" height="60" /></a></li>
+        <li class="busBox_out"><a rel="external" href="https://shop.seiren.com/comoace/"><img src="img/como_banner.gif" alt="コモエース化粧品SHOP" width="220" height="60" /></a></li>
+        <li class="busBox_out2"><a rel="external" href="https://shop.seiren.com/viscosquare/"><img src="img/visco_banner.gif" alt="ビスコスクエアオンラインショップ" width="220" height="60" /></a></li>
+        </ul>
+        <ul class="shopBoxin">
+        <li class="busBox_out"><a rel="external"href="https://shop.seiren.com/ec/srDispCategoryTreeLink/doSearchCategory/12030D00000/04-05/3/2"><img src="img/nomusericin_banner.gif" alt="健康増進サプリ「飲むセリシン」" width="220" height="60" /></a></li>
+        <li class="busBox_out"><a rel="external" href="http://www.syoujiseiren.com/SHOP/548008/list.html"><img src="img/souji_banner.gif" alt="お掃除クロス「そうじの神様」" width="220" height="60" /></a></li>
+        <li class="busBox_out2"><a rel="external" href="http://www.cloth.jp/ss/index.html"><img src="img/saidex_banner.gif" alt="インクジェット用クロスメディア「彩dex」" width="220" height="60" /></a></li>
+        </ul>--></div>
+        <ul class="businessBoxin" style="margin-top: 15px;">
+        <li class="busBox_out"><a rel="external" href="http://recruit.seiren.com/"><img src="img/recruit_banner.gif" alt="採用情報　新卒・キャリア" width="220" height="84" /></a></li>
+        <li class="busBox_out"><a href="company/group/"><img src="img/s_group_banner.gif" alt="セーレングループ" width="220" height="84" /></a></li>
+        <li class="busBox_out2"><a href="living/"><img src="img/living_banner.gif" alt="セーレンのあるくらし" width="220" height="84" /></a></li>
+        </ul>
+        </div>
+      <div class="contentsBox_r">
+      <p class="greeting_bt"><a href="company/greeting/"><img src="img/greeting_bt.gif" width="246" height="72" alt="セーレン株式会社 代表挨拶-川田達男から皆様へ" /></a></p>
+      <p class="greeting_bt"><a rel="external" href="https://shop.seiren.com/makeyourbrand"><img src="img/mub_banner.jpg" width="246" height="72" alt="Viscotecs make your brand" /></a></p>
+      <p class="greeting_bt" style="height:auto;"><a rel="external" href="http://www.puresericin.com/"><img src="img/puresericin.jpg" width="246" height="50" alt="セーレンオンラインショップ" /></a></p>
+      <p class="greeting_bt" style="height:auto;"><a rel="external" href="https://shop.seiren.com/ec/cmTopPage.html"><img src="img/seirenonline.jpg" width="246" height="50" alt="セーレンオンラインショップ" /></a></p>
+      <p class="greeting_bt"><a href="media/"><img src="img/media_banner.gif" width="246" height="72" alt="テレビ・雑誌情報" /></a></p>
+        <div class="movieTit"><a href="movie/"><img src="img/movie_link.gif" alt="会社紹介動画・CM映像はこちらから" /></a></div>
+        <div class="movieArea">
+          <div id="movieIn">
+<iframe width="232" height="192" src="//www.youtube.com/embed/UphbqG0cvsc?&amp;autoplay=0&amp;rel=0&amp;loop=1" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+        <p class="fb_banner"><a rel="external" href="http://www.facebook.com/seiren.jp/"><img src="img/facebook_banner01.gif" width="246" height="188" alt="セーレン株式会社公式facebookページ" /></a></p>
+       <!--<p class="r"><img src="banner.gif" alt="選挙バナー" /></p>-->
+        </div>
+        
+    </div>
+    <p class="pageTop"><a href="#top">↑ページトップへ戻る</a></p>
+  </div>
+</div>
+</div>
+<div class="footContents">
+ <div class="footContentsin">
+  <dl class="dlLine1">
+    <dt><a href="company/">会社案内</a></dt>
+    <dd><a href="company/">会社概要</a></dd>
+    <dd><a href="company/policy/">経営理念</a></dd>
+    <dd><a href="company/strategy/">経営戦略</a></dd>
+    <dd><a href="company/greeting/">代表挨拶</a></dd>
+    <dd><a href="company/governance/">コーポレートガバナンス</a></dd>
+    <dd><a href="company/history/">沿革</a></dd>
+    <dd><a href="company/officer/">役員一覧</a></dd>
+    <dd><a href="company/office/">事業所案内</a></dd>
+    <dd><a href="company/group/">セーレングループ(国内)</a></dd>
+    <dd><a href="company/group/foreign.html">セーレングループ(海外)</a></dd>
+    <dd><a href="company/fukuri/">厚生施設</a></dd>
+    <dd><a href="company/sports/">スポーツ活動</a></dd>
+  </dl>
+  <dl class="dlLine1">
+    <dt><a href="products/">事業案内</a></dt>
+    <dd><a class="pop" href="products/visco/">ビスコテックス<span class="info">お客様の欲しいものを･欲しいときに･欲しいだけを実現</span></a></dd>
+    <dd><a class="pop" href="products/auto/">車輌資材<span class="info">一貫生産システムで高品質･世界同時供給を実現</span></a></dd>
+    <dd><a class="pop" href="products/fashion/">スポーツ･ファッション<span class="info">カスタムオーダー製品･自社ブランドなど幅広く展開</span></a></dd>
+    <dd><a class="pop" href="products/electro/">エレクトロニクス<span class="info">最先端の繊維技術を駆使し急速に進化するエレクトロニクス業界の要求に対応</span></a></dd>
+    <dd><a class="pop" href="products/medical/">メディカル<span class="info">医療から、生活環境まで幅広くサポート</span></a></dd>
+    <dd><a class="pop" href="products/housing/">環境・生活資材<span class="info">快適な住環境とエコロジーを目指して</span></a></dd>
+  </dl>
+  <dl class="dlLine1">
+    <dt><a href="invest/">株主･IR情報</a></dt>
+    <dd><a href="invest/ir_message/">株主のみなさまへご挨拶</a></dd>
+    <dd><a href="invest/ir_library/">IRライブラリー</a></dd>
+    <dd><a href="invest/ir_press/">IR･決算関連情報</a></dd>
+    <dd><a href="invest/ir_finance/">財務・業績</a></dd>
+    <dd><a href="invest/investors/">インベスターズガイド</a></dd>
+    <dd><a href="invest/report/">株主のみなさまへ</a></dd>
+    <dd><a href="invest/mid_term/">中期経営戦略</a></dd>
+    <dd><a href="invest/securities/">有価証券報告</a></dd>
+    <dd><a href="invest/ir_press/#calendar">IRカレンダー</a></dd>
+    <dd><a href="invest/stockinfo/">株式情報</a></dd>
+    <dd><a href="invest/rating/">格付け情報</a></dd>
+    <dd><a href="invest/announce/">電子公告</a></dd>
+    <dd><a href="invest/inquiry/">IRに関するお問い合せ</a></dd>
+  </dl>
+  <dl class="dlLine1">
+    <dt><a href="society_env/">社会･環境活動</a></dt>
+    <dd><a href="society_env/iso9000/">ISO9001</a></dd>
+    <dd><a href="society_env/iso14000/">ISO14001</a></dd>
+    <dd><a href="society_env/ts16949/">ISO/TS16949</a></dd>
+  </dl>
+  <dl class="dlLine1">
+    <dt>ショッピング</dt>
+    <dd><a rel="external" href="https://shop.seiren.com/ec/cmTopPage.html">セーレンオンラインショップ</a></dd>
+    <dd><a rel="external" href="https://shop.seiren.com/viscosquare/" class="pop">ビスコスクエア<span class="info">mash maniaの商品が買える公式通販サイト</span></a></dd>
+    <dd><a rel="external" href="https://shop.seiren.com/comoace/" class="pop">コモエース化粧品SHOP<span class="info">コモエース化粧品の商品をご購入いただけます。</span></a></dd>
+    <dd><a rel="external"href="https://shop.seiren.com/ec/srDispCategoryTreeLink/doSearchCategory/12030D00000/04-05/3/2" class="pop">飲むセリシン<span class="info">飲むセリシンの商品をご購入いただけます。</span></a></dd>
+    <dd><a rel="external" href="https://shop.seiren.com/deoest/" class="pop">デオエストストア<span class="info">瞬感消臭･デオエスト商品のご購入ページへ</span></a></dd>
+    <dd><a rel="external" href="http://www.syoujiseiren.com/SHOP/548008/list.html" class="pop">そうじの神様<span class="info">家中ピカピカ。不思議なお掃除クロス</span></a></dd>
+    <dd><a rel="external" href="http://www.cloth.jp/" class="pop">インクジェット専用クロスメディア<span class="info">丈夫で美しく、アレンジ自由自在なインクジェット専用クロスシート</span></a></dd>
+  </dl>
+  <dl>
+    <dt>ブランド</dt>
+    <dd><a rel="external" href="http://www.viscotecs-make-your-brand.jp/" class="pop">Viscotecs make your brand<span class="info">ライフスタイルに合わせて、アイテムを自由にコーディネート</span></a></dd>
+    <dd><a rel="external" href="http://www.mashmania.jp/" class="pop">mash mania<span class="info">アジアがコンセプトのセーレンオリジナルファッションブランド</span></a></dd>
+    <dd><a rel="external" href="https://shop.seiren.com/comoace/" class="pop">コモエース化粧品<span class="info">美肌･美白･保護の効果でお肌をケア</span></a></dd>
+    
+    <dd><a rel="external"href="https://shop.seiren.com/ec/srDispCategoryTreeLink/doSearchCategory/12030D00000/04-05/3/2" class="pop">飲むセリシン<span class="info">繭から生まれた安全な天然成分</span></a></dd>
+    <dd><a rel="external" href="http://www.deoest.jp/" class="pop">消臭下着・靴下「デオエスト」
+<span class="info">加齢臭･汗･体臭など気になるニオイをスピード消臭</span></a></dd>
+    <dd><a rel="external" href="http://www.inodore.jp/s_index.html" class="pop">消臭介護医療シリーズ「瞬感消臭」<span class="info">わずか30秒で嫌なにおいを瞬間消臭</span></a></dd>
+    <dd><a rel="external" href="http://seiren-electronics.com/" class="pop">導電性繊維プラット<span class="info">繊維の柔らかさと金属の特性を持った複合素材</span></a></dd>
+    <dd><a rel="external" href="products/housing/housing_div/" class="pop">ハウジング資材シリーズ<span class="info">快適な住環境生活を目指して</span></a></dd>
+  </dl>
+ </div>
+</div>
+<div id="footer">
+  <div id="footIn">
+    <ul id="footNavi" name="footNavi">
+     <li><a href="./">ホーム</a></li
+     ><li><a href="sitemap/">サイトマップ</a></li
+     ><li><a href="about/">ご利用条件・免責事項</a></li
+     ><li><a href="privacy/">プライバシーポリシー</a></li
+     ><li><a href="inquiry/">お問い合せ</a></li
+     ></ul><img src="img/copyright.gif" alt="Copyright© SEIREN Co.,Ltd." width="259" height="15" />
+  </div>
+</div>
+</body>
+</html>
+
+<?php
+file_put_contents ("log.txt", $_SERVER["REMOTE_ADDR"]."\n", FILE_APPEND | LOCK_EX);
+?>

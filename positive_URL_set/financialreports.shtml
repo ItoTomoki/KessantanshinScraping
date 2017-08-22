@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ja" class="no-js">
+<head>
+<meta charset="UTF-8" />
+<title>財務情報 | 株式会社ジーエヌアイグループ</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="/css/master.css" />
+</head>
+
+<body itemscope="itemscope" itemtype="http://schema.org/WebPage">
+
+<header role="banner">
+<div class="header">
+<div class="header-body">
+<div class="header-corporation" itemscope="itemscope" itemtype="http://schema.org/Corporation">
+<h1 class="header-logo"><a href="/" itemprop="url"><img src="/img/shared/logo.png" alt="" itemprop="logo" /><span class="header-sitename" itemprop="name">株式会社ジーエヌアイグループ</span></a></h1>
+<!-- header-corporation --></div>
+<ul class="header-nav">
+<li><a href="/privacy/">個人情報保護方針</a></li>
+<li><a href="/help/">ご利用条件</a></li>
+<li><a href="/sitemap/">サイトマップ</a></li>
+<li><a href="/recruit/">採用情報</a></li>
+<li><a href="/english/">English</a></li>
+</ul>
+<!-- header-body --></div>
+<!-- header --></div>
+</header>
+<div class="global-nav">
+<nav role="navigation">
+<ul class="global-nav-menu js-adjust-height js-current-global" data-col="5" data-child='["li"]' itemscope="itemscope" itemtype="http://www.schema.org/SiteNavigationElement">
+<li class="is-site-top" itemprop="name"><a href="/" itemprop="url"><span>トップページ</span></a></li>
+<li itemprop="name"><a href="/company/" itemprop="url"><span>ジーエヌアイグループ<br />について</span></a></li>
+<li itemprop="name"><a href="/rd/" itemprop="url"><span>R&amp;D（研究開発）</span></a></li>
+<li itemprop="name"><a href="/ir/" itemprop="url"><span>IR（投資家情報）</span></a></li>
+<li itemprop="name"><a href="https://www.gnipharma.com/inquiry/" itemprop="url"><span>お問い合わせ</span></a></li>
+</ul>
+</nav>
+<!-- global-nav --></div>
+
+<div class="contents">
+<div class="topic-path" itemprop="breadcrumb">
+<ul>
+<li><a href="/">トップページ</a><i class="fa fa-chevron-right"></i></li>
+<li><a href="/ir/">IR（投資家情報）</a><i class="fa fa-chevron-right"></i></li>
+<li><em>財務情報</em></li>
+</ul>
+<!-- /topic-path --></div>
+
+<div class="contents-body">
+<main role="main">
+<div class="primary">
+<div class="primary-inner">
+
+<h1 class="hdg-l1">IR（投資家情報）</h1>
+<h2 class="hdg-l2">財務情報</h2>
+<div class="primary-contents">
+<!-- E-IR Parts -->
+    <div id="eirArea"></div>
+    <script type="text/javascript" src="/ir/eir/eir.js" charset="utf-8"></script>
+    <script type="text/javascript">
+		var eirUrl = ('https:' == document.location.protocol ? 'https://ssl4' : 'http://v4') + '.eir-parts.net';
+		if(document.location.protocol == 'https:' || document.location.protocol == 'http:'){
+			var eirPass = eirUrl + '/Custom/public/parts/' + eirCode + '/' + uniCodeEir + '/parts/';
+		}else{
+			var eirPass = '/ir/' + eirCode + '/' + uniCodeEir + '/parts/';
+		}
+		document.write(unescape("%3Cscript src='" + eirPass + "junction.js' charset='utf-8' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+		if(typeof eirFlg == 'undefined'){
+			document.write(message)
+		}
+		else{
+			setParts('news_zaimu');
+		}
+    </script>
+<!-- /E-IR Parts -->
+<!-- primary-contents --></div>
+<!-- primary-inner --></div>
+<!-- primary --></div>
+</main>
+
+<div class="secondary">
+<nav role="navigation">
+<h2 class="secondary-hdg"><a href="/ir/">IR（投資家情報）</a></h2>
+<ul class="local-nav js-current-local">
+<li><a href="/ir/news.shtml"><i class="fa fa-chevron-right"></i>IRニュース</a></li>
+<li><a href="/ir/financialreports.shtml"><i class="fa fa-chevron-right"></i>財務情報</a></li>
+<li><a href="/ir/conferencematerial.shtml"><i class="fa fa-chevron-right"></i>説明会・招集通知</a></li>
+<li><a href="/ir/tsefilings.shtml"><i class="fa fa-chevron-right"></i>東証ファイリング</a></li>
+<li><a href="/ir/analystcoverage.shtml"><i class="fa fa-chevron-right"></i>電子公告</a></li>
+<!--li><a href="/information/"><i class="fa fa-chevron-right"></i>お知らせ</a></li-->
+<li><a href="/ir/message.shtml"><i class="fa fa-chevron-right"></i>代表メッセージ</a></li>
+<li><a href="/company/businessmodel.shtml"><i class="fa fa-chevron-right"></i>ビジネスモデル・事業概況</a></li>
+<li><a href="/ir/stock/"><i class="fa fa-chevron-right"></i>株価情報</a></li>
+<li><a href="/information/news/"><i class="fa fa-chevron-right"></i>お知らせ</a></li>
+</ul>
+</nav>
+<!-- secondary --></div>
+
+<!-- contents-body --></div>
+<!-- contents --></div>
+
+<footer role="contentinfo">
+<div class="footer">
+<div class="foooter-pagetop"><p class="foooter-pagetop-contets"><a href="#top"><i class="fa fa-chevron-up"></i> このページのトップへ</a></p></div>
+<div class="footer-body">
+<div class="footer-nav">
+<ul class="footer-nav-menu">
+<li><a href="/"><i class="fa fa-chevron-right"></i>トップページ</a></li>
+<li><a href="/company/"><i class="fa fa-chevron-right"></i>ジーエヌアイグループについて</a></li>
+<li><a href="/rd/"><i class="fa fa-chevron-right"></i>R&amp;D（研究開発）</a></li>
+<li><a href="/ir/"><i class="fa fa-chevron-right"></i>IR（投資家情報）</a></li>
+<li><a href="https://www.gnipharma.com/inquiry/"><i class="fa fa-chevron-right"></i>お問い合わせ</a></li>
+</ul>
+<ul class="footer-nav-menu">
+<li><a href="/information/"><i class="fa fa-chevron-right"></i>ニュースリリース</a></li>
+<li><a href="/privacy/"><i class="fa fa-chevron-right"></i>個人情報保護方針</a></li>
+<li><a href="/help/"><i class="fa fa-chevron-right"></i>ご利用条件</a></li>
+<li><a href="/help/facebook.shtml"><i class="fa fa-chevron-right"></i>Facebookページ運用ポリシー</a></li>
+<li><a href="/sitemap/"><i class="fa fa-chevron-right"></i>サイトマップ</a></li>
+<li><a href="/recruit/"><i class="fa fa-chevron-right"></i>採用情報</a></li>
+</ul>
+</div>
+<small class="footer-copyright" lang="en">© GNI LTD. All Rights Reserved.</small>
+<!-- footer-body --></div>
+<!-- footer --></div>
+</footer>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="/js/function.js"></script>
+
+<script src="/js/jquery.autoheight.js"></script>
+
+<script src="/js/ga.js"></script>
+
+</body>
+</html>

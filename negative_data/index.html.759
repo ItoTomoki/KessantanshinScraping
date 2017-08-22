@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>薬王堂</title>
+<meta name="description" content="岩手県を中心に東北5県でバラエティ型コンビニエンス・ドラッグストアを展開">
+<meta name="keywords" content="">
+<link href="http://www.yakuodo.co.jp/css/reset.css" rel="stylesheet">
+<link href="http://www.yakuodo.co.jp/css/bootstrap.css" rel="stylesheet">
+<link href="http://www.yakuodo.co.jp/css/font-awesome.min.css" rel="stylesheet">
+<link href="http://www.yakuodo.co.jp/css/slider.css" rel="stylesheet">
+<link href="http://www.yakuodo.co.jp/css/common.css" rel="stylesheet">
+<link href="http://www.yakuodo.co.jp/css/contents.css" rel="stylesheet">
+<link href="http://www.yakuodo.co.jp/css/slick.css" rel="stylesheet">
+<!--[if IE 6]>
+<link href="http://www.yakuodo.co.jp/css/ie6.css" rel="stylesheet">
+<![endif]-->
+<!--[if IE 7]>
+<link href="http://www.yakuodo.co.jp/css/font-awesome-ie7.min.css" rel="stylesheet">
+<![endif]-->
+<!--[if (gte IE 6)&(lte IE 8)]>
+<script type="text/javascript" src="http://www.yakuodo.co.jp/js/selectivizr-min.js"></script>
+<![endif]-->
+<!--[if lt IE 9]>
+<script src="http://www.yakuodo.co.jp/js/html5shiv-printshiv.js"></script>
+<![endif]-->
+<link rel="shortcut icon" href="/icon/favicon.ico" />
+<link rel="apple-touch-icon" href="/icon/apple-touch-icon.png" />
+</head>
+<body id="home">
+<!-- header
+============================================================ -->
+<header id="header" class="container-fluid">
+<div class="container">
+<h1>岩手県を中心に東北5県でバラエティ型コンビニエンス・ドラッグストアを展開 <a href="http://www.yakuodo.co.jp/index.html"><span>薬王堂</span></a></h1>
+<div class="hd-wrap">
+<div id="sitesearch" class="span3">
+<form method="get" action="https://www.tohoku-e.net/yakuodo-cgi/secure/mt/mt-search.cgi" id="search_form" class="span3 form-search form-inline">
+<input type="hidden" name="IncludeBlogs" value="2,3,5,6,7,8,9" />
+<input id="search" name="search" size="20" type="text" class="input-medium" />
+<button type="submit" id="search-bot" class="btn btn-small"><i class=" icon-search"></i></button>
+</form>
+</div>
+<!--/#search-->
+<ul id="fontSize">
+<li class="changeBtn" id="text-s">小</li>
+<li class="changeBtn" id="text-m">中</li>
+<li class="changeBtn" id="text-l">大</li>
+</ul>
+</div>
+<!--/hd-wrap-->
+<ul class="hd-nav">
+<li><i class="icon-home"></i><a href="http://www.yakuodo.co.jp/index.html">ホーム</a></li>
+<li><i class="icon-file-alt"></i><a href="http://www.yakuodo.co.jp/service/index.html">サービス案内</a></li>
+<li><i class="icon-file-alt"></i><a href="http://www.yakuodo.co.jp/corporate/index.html">企業情報</a></li>
+<li><i class="icon-envelope-alt"></i><a href="https://www.tohoku-e.net/yakuodo-cgi/secure/inquiry/input.php">お問い合わせ</a></li>
+<li><i class=" icon-sitemap"></i><a href="http://www.yakuodo.co.jp/sitemap.html">サイトマップ</a></li>
+</ul>
+<nav id="gl-nav">
+<ul>
+<li><a href="http://www.yakuodo.co.jp/campaign/index.html">キャンペーン</a></li>
+<li class="narrow"><a href="http://www.yakuodo.co.jp/recommend/index.html">商品情報</a></li>
+<li class="narrow"><a href="http://www.yakuodo.co.jp/store/index.html">店舗案内</a></li>
+<li class="wide"><a href="http://www.yakuodo.co.jp/invest/index.html">株主・投資家の皆さまへ</a></li>
+<li class="narrow"><a href="http://www.yakuodo.co.jp/recruit/index.html">採用情報</a></li>
+</ul>
+</nav>
+</div>
+<!--/.container-->
+</header>
+<!-- article
+============================================================ -->
+<article id="article" class="container">
+<div id="billboard">
+<div id="homeSlider" class="royalSlider rsDefaultInv" style="overflow:hidden;">
+</div>
+</div>
+<section>
+<div class="row">
+<div class="span4 flyer">
+<h2><img src="img/home_h2_flyer.png" alt="チラシ情報" /></h2>
+<p><img src="img/home_pic_flyer.jpg" alt="薬王堂からのお得な情報が満載!!" /></p>
+<p class="span2" style="margin-left:80px;"><a href="store/chirashi_list.html" class="btn btn-block btn-warning">チラシ掲載店舗一覧</a></p>
+</div>
+<div class="span4 store">
+<h2><img src="img/home_h2_store.png" alt="店舗情報" /></h2>
+<p><img src="img/home_txt_store.png" alt="全店舗の詳しい情報をご案内します。" /></p>
+<div><img src="img/home_bg_store.png" alt="地域から検索" usemap="#store" />
+<map name="store">
+<area shape="rect" coords="12,107,72,125" href="store/yamagata.html" alt="山形県">
+<area shape="rect" coords="81,86,141,104" href="store/miyagi.html" alt="宮城県">
+<area shape="rect" coords="12,87,72,105" href="store/akita.html" alt="秋田県">
+<area shape="rect" coords="12,66,72,84" href="store/iwate.html" alt="岩手県">
+<area shape="rect" coords="81,66,141,84" href="store/aomori.html" alt="青森県">
+<area shape="rect" coords="8,40,146,61" href="store/index.html" alt="東北">
+</map>
+<!--
+<form name="storeForm" id="storeForm">
+<select class="span3" name="newOpen" onchange="goStore()">
+<option value="javascript:void(0);">※選択してください</option>
+<option value="store/miyagi.html#area4">[宮城県]登米中田店(6/7)</option>
+<option value="store/iwate.html#area1">[岩手県]盛岡中野店(5/24)</option>
+<option value="store/miyagi.html#area14">[宮城県]宮城志津川店(5/17)</option>
+<option value="store/yamagata.html#area4">[山形県]山形河北店(4/5)</option>
+<option value="store/yamagata.html#area5">[山形県]山形高畠店(4/5)</option>
+</select>
+</form>
+</div>
+</div>
+-->
+<form name="storeForm" id="storeForm">
+<select class="span3" name="newOpen" onchange="goStore()">
+<option value="javascript:void(0);">※選択してください</option>
+<option value="store/aomori/area6/st265.html">[青森県]五所川原稲実店(08/11)</option>
+<option value="store/miyagi/area2/st262.html">[宮城県]気仙沼鹿折店(07/28)</option>
+<option value="store/iwate/area5/st259.html">[岩手県]一関青葉店(07/26)</option>
+<option value="store/iwate/area4/st269.html">[岩手県]水沢日高店(07/19)</option>
+<option value="store/yamagata/area7/st267.html">[山形県]米沢泉町店(07/07)</option>
+<option value="store/miyagi/area14/st261.html">[宮城県]南三陸ＳＣ店(07/07)</option>
+<option value="store/aomori/cat1/st258.html">[青森県]むつ下北町店(04/21)</option>
+<option value="store/miyagi/cat/st257.html">[宮城県]仙台愛子店(04/12)</option>
+<option value="store/iwate/area1/st256.html">[岩手県]盛岡都南店(04/07)</option>
+</select>
+</form>
+</div>
+</div>
+<div class="span4 whatsnew">
+<h2><img src="http://www.yakuodo.co.jp/img/home_h2_whatsnew.png" alt="新着情報" /> <span class="news-arch"><a href="http://www.yakuodo.co.jp/news/index.html"><i class="icon-list"></i> 一覧へ</a></span> </h2>
+<ul>
+<li><span class="date">2017年08月11日</span><br>
+<a href="http://www.yakuodo.co.jp/store/aomori/area6/st265.html">
+「薬王堂 五所川原稲実店」8月11日開店のお知らせ</a>
+</li>
+<li><span class="date">2017年08月04日</span><br>
+<a href="http://www.yakuodo.co.jp/news/29.7%E6%9C%88%E6%AC%A1%E3%83%97%E3%83%AC%E3%82%B9%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9.pdf" target="_blank">
+月次報告書を掲載いたしました</a>
+<span class="kb">〔PDF 69KB〕</span></li>
+<li><span class="date">2017年07月28日</span><br>
+<a href="http://www.yakuodo.co.jp/news/pdf/20170728.pdf" target="_blank">
+「薬王堂公式アプリ」と「薬王堂版歩いておトク（仮称）」提供のお知らせ</a>
+<span class="kb">〔PDF 124KB〕</span></li>
+<li><span class="date">2017年07月28日</span><br>
+<a href="http://www.yakuodo.co.jp/store/miyagi/area2/st262.html">
+「薬王堂 気仙沼鹿折店」7月28日開店のお知らせ</a>
+</li>
+<li><span class="date">2017年07月26日</span><br>
+<a href="http://www.yakuodo.co.jp/store/iwate/area5/st259.html">
+「薬王堂 一関青葉店」7月26日開店のお知らせ</a>
+</li>
+</ul>
+</div>
+</div><!--/.row-->
+<div class="row bottom">
+<div class="span4 service" style="margin-top:-20px;">
+<div class="ichioshi">
+<h1><a href="ichioshi/index.html"><img src="img/home_h2_ichioshi.png" alt="イチオシ情報" /></a></h1>
+<div class="ichioshiList">
+<div><a href="http://www.yakuodo.co.jp/ichioshi/ichioshi002.html"><img src="http://www.yakuodo.co.jp/ichioshi/img/lineat.png" alt="LINE@友だち募集中"></a></div><div><a href="http://www.yakuodo.co.jp/ichioshi/ichioshi001.html"><img src="http://www.yakuodo.co.jp/ichioshi/img/hearing_aids2.png" alt="補聴器取り扱いはじめました"></a></div>
+</div>
+</div>
+<div class="service1">
+<a href="service/pointcard.html">
+<h2><img src="img/home_h2_service1.png" alt="薬王堂ポイントカード"></h2>
+<p><img src="img/home_pic_service_waica.jpg" alt="お買い上げ200円（税抜）ごとに1ポイントがたまります。チャージ1,000円ごとに3ポイントがたまります。毎週水曜・日曜は全品ポイント3倍デー"></p>
+</a>
+</div>
+<div class="service2"> <a href="service/e-mony_creditcard.html">
+<h2><img src="img/home_h2_service2.png" alt="サービス情報" /></h2>
+<p class="pic-l"><img src="img/home_pic_service2.jpg" alt="" /></p>
+<p><strong>全店で電子マネー・クレジットカードがご利用いただけます。</strong><br>
+おサイフからお金の出し入れを心配せず、スムーズにお買い物できます。</p>
+</a> </div>
+</div>
+<div class="span4 recommend">
+</div>
+<!--<div class="span4 banner">
+<ul>
+<li><a href="recruit/index.html"><img src="img/home_banner2.jpg" alt="採用情報はこちら" /></a></li>
+<li><a href="recruit/parttimer.html"><img src="img/home_banner_store_staff.jpg" alt="店舗スタッフ（パートタイマー）募集はこちら" /></a></li>
+<li id="banner1">登録販売員大募集<a href="recruit/mid-general.html" id="banner1a">正社員</a><a href="recruit/part-time.html" id="banner1b">パートタイマー</a></li>
+<li id="banner6">薬剤師大募集<a href="recruit/mid-pharma.html" id="banner6a">正社員</a><a href="recruit/part-time-pharma.html" id="banner6b">パートタイマー</a></li>
+<li><a href="store/recruitment.html"><img src="img/home_banner3.jpg" alt="物件募集" /></a></li>
+<li id="banner5">ビジネスパートナー支援ツール<a href="business/index.html" id="banner5a">Web商談システム</a><a href="https://pos2.yakuodo.co.jp" target="_blank" id="banner5b">POS実績情報公開システム</a></li>
+</ul>
+</div>-->
+<div class="span4 banner">
+<h2><img src="img/home_h2_recruit.png" alt="採用情報"></h2>
+<ul class="recruit">
+<li id="partTime">
+<a class="store" href="recruit/parttimer.html">パートタイマー（店舗スタッフ）</a>
+<a class="seller" href="recruit/part-time.html">パートタイマー（登録販売者）</a>
+<a class="phama" href="recruit/part-time-pharma.html">パートタイマー（薬剤師）</a>
+</li>
+<li id="general">
+<a class="store" href="recruit/new-general.html">新卒採用（店舗スタッフ）</a>
+<a class="phama" href="recruit/new-pharma.html">新卒採用（薬剤師）</a>
+</li>
+<li id="midGeneral">
+<a class="store" href="recruit/mid-general.html">中途採用（店舗・本部スタッフ）</a>
+<a class="phama" href="recruit/mid-pharma.html">中途採用（薬剤師）</a>
+</li>
+</ul>
+<ul class="business">
+<li><a href="store/recruitment.html"><img src="img/home_banner3.jpg" alt="物件募集" /></a></li>
+<li id="banner5">ビジネスパートナー支援ツール<a href="business/index.html" id="banner5a">Web商談システム</a><a href="https://pos2.yakuodo.co.jp" target="_blank" id="banner5b">POS実績情報公開システム</a></li>
+</ul>
+</div>
+</div><!--/.row-->
+</section>
+</article>
+<!-- .page-top
+============================================================ -->
+<div class="page-top container">
+<ul>
+<li><i class="icon-circle-arrow-up"></i><a href="#header">ページトップへ</a></li>
+</ul>
+</div>
+<!-- footer
+============================================================ -->
+<footer class="container-fluid">
+<div class="container">
+<ul class="ft-nav">
+<li><i class="icon-file-alt"></i><a href="http://www.yakuodo.co.jp/info/disclaimer.html">免責事項</a></li>
+<li><i class="icon-file-alt"></i><a href="http://www.yakuodo.co.jp/info/privacypolicy.html">個人情報保護方針</a></li>
+</ul>
+<p id="ft-id">株式会社薬王堂</p>
+<address>
+〒028-3621 岩手県紫波郡矢巾町大字広宮沢第3地割242番地1<br>
+電話：019-697-2615
+</address>
+<p><small> copyright&copy; YAKUODO Co. Ltd. All Right Reserved.</small></p>
+</div>
+<!--/.container-->
+</footer>
+<!-- Script
+============================================================ -->
+<script src="http://www.yakuodo.co.jp/js/jquery-1.7.1.min.js"></script>
+<script src="http://www.yakuodo.co.jp/js/bootstrap.min.js"></script>
+<script src="http://www.yakuodo.co.jp/js/jquery.cookie.js"></script>
+<script src="http://www.yakuodo.co.jp/js/jquery.fontsizechange.js"></script>
+<script src="http://www.yakuodo.co.jp/js/heightLine.js"></script>
+<script src="http://www.yakuodo.co.jp/js/jquery.royalslider.min.js"></script>
+<script src="http://www.yakuodo.co.jp/js/slick.min.js"></script>
+<script>
+$(function(){if($.browser.msie&&parseInt($.browser.version,10)===6){$('.row div[class^="span"]:last-child').addClass("last-child");$('[class*="span"]').addClass("margin-left-20");$(':button[class="btn"], :reset[class="btn"], :submit[class="btn"], input[type="button"]').addClass("button-reset");$(":checkbox").addClass("input-checkbox");$('[class^="icon-"], [class*=" icon-"]').addClass("icon-sprite");$(".pagination li:first-child a").addClass("pagination-first-child")}})
+</script>
+<script>
+$('.ichioshiList').slick({
+autoplay: true,
+autoplaySpeed: 4000,
+dots: true,
+pauseOnHover: false
+});
+</script>
+<script src="./recommend/js/recommend_top.js"></script>
+<script src="./topimg/js/mainvisual_top.js"></script>
+<script type="text/javascript">
+jQuery(document).ready(function($) {
+var opts = {
+controlNavigation:'thumbnails',
+arrowsNav: false,
+arrowsNavHideOnTouch: true,
+fullscreen: false,
+loop: false,
+thumbs: {
+firstMargin: false,
+paddingBottom: 0
+},
+autoScaleSlider: true,
+autoPlay: {
+enabled: true,
+pauseOnHover: true,
+delay: 5000
+},
+numImagesToPreload: 3,
+thumbsFirstMargin: false,
+autoScaleSlider: true,
+autoScaleSliderHeight: 278,
+keyboardNavEnabled: true,
+navigateByClick: true,
+fadeinLoadedSlide: true,
+imgWidth: 943,
+imgHeight: 266
+};
+///* if(!$.browser.webkit) {
+opts.imgWidth = 943;
+opts.imgHeight = 278;
+//} */
+var sliderJQ = $('#homeSlider').royalSlider(opts);
+});
+function goStore(){
+storeSelect = document.storeForm.newOpen.selectedIndex;
+location.href = document.storeForm.newOpen.options[storeSelect].value;
+}
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-37683684-1']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+</body>
+</html>

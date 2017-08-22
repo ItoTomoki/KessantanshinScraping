@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="Shift_JIS">
+<meta name="viewport" content="width=device-width">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>株式会社　協和日成</title>
+<meta name="description" content="株式会社協和日成のホームページです。企業情報、事業内容、株主・投資家情報、採用情報等についてご紹介しています。">
+<meta name="keywords" content="協和日成,東京ガス,ガス,ガス設備工事,ガス導管事業,建築設備事業,電設土木事業,イリゲーション工事,住宅用太陽光発電システム工事,暖冷房給湯・空調設備工事,設備工事,電設工事,土木工事,グッドモール工法,グリーンモール工法,エネルギー,パイプライン">
+<link rel="stylesheet" type="text/css" href="/common/css/reset.css" media="all">
+<link rel="stylesheet" type="text/css" href="/common/css/base.css" media="all">
+<link rel="stylesheet" type="text/css" href="/common/css/medium.css" media="all" title="fontM">
+<link rel="alternate stylesheet" type="text/css" href="/common/css/large.css" media="all" title="fontL">
+<link rel="stylesheet" type="text/css" href="/top/css/slick.css" media="all">
+<link rel="stylesheet" type="text/css" href="/top/css/layout.css" media="all">
+<link rel="stylesheet" type="text/css" href="/common/css/sp.css" media="all">
+
+<!--[if lt IE 9]>
+    <link rel="stylesheet" href="/common/css/ie.css" type="text/css" />
+<![endif]-->
+<script type="text/javascript" src="/common/js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="/common/js/jquery.easingscroll.js"></script>
+<script type="text/javascript" src="/common/js/jquery.rollover.js"></script>
+<script type="text/javascript" src="/common/js/styleswitcher.js"></script>
+<script type="text/javascript" src="/top/js/slick.min.js"></script>
+<script type="text/javascript" src="/common/js/heightLine.js"></script>
+<script type="text/javascript" src="/top/js/function.js"></script>
+<script type="text/javascript" src="/common/js/sp.js"></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-21205249-1', 'kyowa-nissei.co.jp');
+  ga('send', 'pageview');
+
+</script>
+</head>
+<body id="toppage">
+<!-- wrapper -->
+<div id="wrapper">
+    <!-- header -->
+    <div id="headerarea">
+        <div id="header" class="clearfix">
+            <div id="logo">
+                <a href="/"><img src="/top/images/logo.png" width="234" height="50" alt="株式会社　協和日成" /></a>
+            </div>
+            <div id="headnavi" class="clearfix">
+                <ul id="headmenu" class="clearfix">
+                    <li id="hdlink1"><a href="/inquiry/">お問い合わせ</a></li>
+                    <li id="hdlink2"><a href="/sitemap/">サイトマップ</a></li>
+                </ul>
+                <div id="fontchange" class="clearfix">
+                    <dl>
+                        <dt><img src="top/images/txtsize.png" width="89" height="25" alt="文字サイズ" /></dt>
+                        <dd>
+                            <ul id="fontsize-btn">
+                                <li id="font-medium"><a href="#" onclick="setActiveStyleSheet('fontM'); return false;"><img src="/top/images/txtsize_normal.png" width="53" height="25" alt="標準" /></a></li>
+                                <li id="font-large"><a href="#" onclick="setActiveStyleSheet('fontL'); return false;"><img src="/top/images/txtsize_big.png" width="55" height="25" alt="大" /></a></li>
+                            </ul>
+                        </dd>
+                    </dl>
+                </div>
+				<div id="spBtn"><img src="/common/images/ico_menu.png" alt=""></div>
+                <div id="spMenu">
+					<div id="search">
+						<form method="get" action="http://www.google.co.jp/search">
+							<input type="text" name="q" value="" class="searchBox ui-autocomplete-input png_bg" id="acpro_inp0" placeholder="サイト内検索">
+							<input type="hidden" name="hl" value="ja">
+							<input type="hidden" name="as_sitesearch" value="http://www.kyowa-nissei.co.jp/">
+							<input type="hidden" name="ie" value="Shift_JIS">
+							<input type="hidden" name="oe" value="Shift_JIS">
+							<input type="submit" name="submit" value="" class="submitbtn png_bg">
+						</form>
+					</div>
+					<div id="spArea">
+						<p><a href="/topics/">お知らせ</a></p>
+						<p class="slMenu"><a href="javascript:void(0)">会社案内</a></p>
+						<ul>
+							<li><a href="/corporate/">会社案内</a></li>
+							<li><a href="/corporate/">会社概要</a></li>
+							<li><a href="/corporate/enkaku/">沿革</a></li>
+							<li><a href="/corporate/shozaichi/">所在地一覧</a></li>
+							<li><a href="/corporate/vision/">企業理念</a></li>
+							<li><a href="/corporate/qm/">クオリティマネジメント</a></li>
+						</ul>
+						<p class="slMenu"><a href="javascript:void(0)">事業内容</a></p>
+						<ul>
+							<li><a href="/jigyo/">事業内容</a></li>
+							<li><a href="/jigyo/gas/">ガス設備事業</a></li>
+							<li><a href="/jigyo/dokan/">ガス導管事業</a></li>
+							<li><a href="/jigyo/kensetsu/">建築設備事業</a></li>
+							<li><a href="/jigyo/doboku/">電設土木事業</a></li>
+							<li><a href="/jigyo/irig/">イリゲーション工事</a></li>
+						</ul>
+						<p class="slMenu"><a href="javascript:void(0)">株主・投資家情報</a></a></p>
+						<ul>
+							<li><a href="/ir/">株主・投資家情報</a></li>
+							<li><a href="/ir/kaiji/">開示情報</a></li>
+							<li><a href="/ir/keikaku/">中期経営計画</a></li>
+							<li><a href="/ir/k_s/">決算説明資料</a></li>
+							<li><a href="/ir/library/">IRライブラリー</a></li>
+							<li><a href="/ir/kabunushi/">株主メモ</a></li>
+							<li><a href="/ir/faq/">よくある質問 FAQ</a></li>
+							<li><a href="/ir/hoshin/">弊社のIR基本方針および免責事項</a></li>
+						</ul>
+						<p class="slMenu"><a href="javascript:void(0)">採用情報</a></a></p>
+						<ul>
+							<li><a href="/saiyo/">採用情報</a></li>
+							<li><a href="/saiyo/saiyo_sin/">新卒採用情報</a></li>
+							<li><a href="/saiyo/saiyo_ten/">中途採用情報</a></li>
+						</ul>
+						<p class="window"><a href="http://kmasterplus.pronexus.co.jp/main/corp/1/9/1981/index.html" target="_blank">電子広告</a></p>
+						<div id="closeBtn">閉じる</div>
+					</div>
+				</div>
+            </div>
+        </div>
+    </div>
+    <!-- //header -->
+    
+    <!-- mainslide -->
+    <div id="mainslide">
+        <ul id="slider">
+            <li id="slide01"><h1><img src="top/images/slide_ttl_b.png" width="434" height="58" alt="Keep the Lifeline.　ライフラインを、支える。" /></h1></li>
+            <li id="slide02"><h1><img src="top/images/slide_ttl_b.png" width="434" height="58" alt="Keep the Lifeline.　ライフラインを、支える。" /></h1></li>
+            <li id="slide03"><h1><img src="top/images/slide_ttl_w.png" width="434" height="58" alt="Keep the Lifeline.　ライフラインを、支える。" /></h1></li>
+            <li id="slide04"><h1><img src="top/images/slide_ttl_b.png" width="434" height="58" alt="Keep the Lifeline.　ライフラインを、支える。" /></h1></li>
+            <li id="slide05"><h1><img src="top/images/slide_ttl_w.png" width="434" height="58" alt="Keep the Lifeline.　ライフラインを、支える。" /></h1></li>
+        </ul>
+    </div>
+    <!-- //mainslide -->
+    
+    <!-- gmenu -->
+    <div id="gmenuarea">
+        <div id="gmenu">
+        	<ul class="clearfix">
+            	<li id="gmenu01"><a href="/topics/"><img src="/common/images/gnavi_01.gif" width="140" height="64" alt="お知らせ" class="rollover" /></a></li>
+                <li id="gmenu02" class="button"><a href="/corporate/"><img src="/common/images/gnavi_02.gif" width="140" height="64" alt="会社案内" /></a>
+                    <ul>
+                        <li><p><a href="/corporate/">会社概要</a></p></li>
+                        <li><p><a href="/corporate/enkaku/">沿革</a></p></li>
+                        <li><p><a href="/corporate/shozaichi/">所在地一覧</a></p></li>
+                        <li><p><a href="/corporate/vision/">企業理念</a></p></li>
+                        <li><p><a href="/corporate/qm/">クオリティ<br>マネジメント</a></p></li>
+                    </ul>
+                </li>
+                <li id="gmenu03" class="button"><a href="/jigyo/"><img src="/common/images/gnavi_03.gif" width="140" height="64" alt="事業内容" /></a>
+                    <ul>
+                       	<li><p><a href="/jigyo/gas/">ガス設備事業</a></p></li>
+                        <li><p><a href="/jigyo/dokan/">ガス導管事業</a></p></li>
+                        <li><p><a href="/jigyo/kensetsu/">建築設備事業</a></p></li>
+                        <li><p><a href="/jigyo/doboku/">電設土木事業</a></p></li>
+                        <li><p><a href="/jigyo/irig/">イリゲーション工事</a></p></li>
+                    </ul>
+                </li>
+                <!--<li id="gmenu04"><img src="/common/images/gnavi_04_off.gif" width="140" height="64" alt="施工事例" /></li>-->
+                <li id="gmenu05" class="button"><a href="/ir/"><img src="/common/images/gnavi_05.gif" width="140" height="64" alt="株主・投資家情報" /></a>
+                    <ul>
+                        <li><p><a href="/ir/kaiji/">開示情報</a></p></li>
+                        <li><p><a href="/ir/keikaku/">中期経営計画</a></p></li>
+                        <li><p><a href="/ir/k_s/">決算説明資料</a></p></li>
+                        <li><p><a href="/ir/library/">IR ライブラリー</a></p></li>
+                        <li><p><a href="/ir/kabunushi/">株主メモ</a></p></li>
+                        <li><p><a href="/ir/faq/">FAQ</a></p></li>
+                        <li><p><a href="/ir/hoshin/">弊社の IR 基本方針および免責事項</a></p></li>
+                    </ul>
+                </li>
+                <li id="gmenu06"><a href="/saiyo/"><img src="/common/images/gnavi_06.gif" width="140" height="64" alt="採用情報" class="rollover" /></a></li>
+                <li id="gmenu07"><a href="http://kmasterplus.pronexus.co.jp/main/corp/1/9/1981/index.html" target="_blank"><img src="/common/images/gnavi_07.gif" width="140" height="64" alt="電子公告" class="rollover" /></a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- //gmenu -->
+
+<!--
+<div style="width:980px; margin:-30px auto 0 auto;">
+	<ul style="border:2px solid #ff0000; width:610px; padding:8px 50px; margin: 0 0 20px 0;">
+		<li><a href="#" style="font-size:15px; color:#ff0000;">※重要告知情報</a></li>
+		<li><a href="#" style="font-size:15px; color:#ff0000;">※重要告知情報</a></li>
+	</ul>
+</div>
+-->
+
+	<!-- contentsarea -->
+    <div id="contentsarea">
+        <!-- contents -->
+        <div id="contents" class="clearfix">
+        	<!-- left_contents -->
+            <div id="left_contents">
+            	<div id="infoarea">
+                    <div class="link_head clearfix">
+						<h2><img src="/top/images/info_ttl.gif" width="108" height="28" alt="お知らせ" /><span class="sp">お知らせ</span></h2>
+                        <p class="link_text"><a href="/topics/">一覧を見る</a></p>
+                    </div>
+                    <div class="information">
+                        <table>
+
+                            <tr>
+                              <th>2017/08/17</th>
+                              <td><p><a href="/ir/kabunushi/">株主メモ</a>を更新しました</p></td>
+                            </tr>
+                            <tr>
+                              <th>2017/08/10</th>
+                              <td><p><a href="/ir/k_s/">決算説明資料</a>および<a href="/ir/library/shoken/">有価証券報告書</a>を更新しました</td>
+                            </tr>
+                            <tr>
+                              <th>2017/08/04</th>
+                              <td><p><a href="/ir/library/k_t/">決算短信</a>を更新しました</p></td>
+                            </tr>
+                            <tr>
+                              <th>2017/06/30</th>
+                              <td><p><a href="/ir/library/shoken/">臨時報告書</a>を更新しました</p></td>
+                            </tr>
+                            <tr>
+                                <th>2017/06/29</th>
+                                <td><p><a href="/ir/library/shoken/">有価証券報告書</a>、<a href="/ir/library/rules/">定款</a>および<a href="/ir/library/">コーポレートガバナンス報告書</a>を更新しました</p></td>
+                            </tr>
+                            <tr>
+                                <th>2017/06/29</th>
+                                <td><p><a href="/ir/k_s/">決算説明資料</a>、<a href="/ir/library/kabu_s/">株主総会関係資料</a>および<a href="/ir/library/jigyo_h/">報告書</a>を更新しました</p></td>
+                            </tr>
+                            <tr>
+                                <th>2017/06/29</th>
+                                <td><p><a href="/corporate/">会社概要</a>を更新しました</p></td>
+                            </tr>
+<!--                            <tr>
+                                <th>2016/07/01</th>
+                                <td><p>グループ会社「<a href="/kls/" target="_blank">協和ライフサービス</a>」ページを掲載しました</p></td>
+                            </tr>-->
+                        </table>
+                    </div>
+                </div>
+                
+                <div id="jigyoarea">
+                    <h2><img src="top/images/jigyo_ttl.gif" width="112" height="28" alt="事業内容" /><span class="sp">事業内容</span></h2>
+                    <ul class="clearfix">
+                    	<li id="jigyou01" class="leftlist">
+							<a href="/jigyo/gas/">
+								<img src="top/images/jigyo_01.gif" width="290" height="65" alt="ガス設備事業　ガスのある暮らしを、描く。" class="rollover" />
+								<h3>ガス設備事業</h3>
+								<p>ガスのある暮らしを、描く。</p>
+							</a>
+						</li>
+                        <li id="jigyou02">
+							<a href="/jigyo/dokan/">
+								<img src="top/images/jigyo_02.gif" width="290" height="65" alt="ガス導管事業　24時間 365日ガスを、届ける。" class="rollover" />
+								<h3>ガス導管事業</h3>
+								<p>24時間 365日ガスを、届ける。</p>
+							</a>
+						</li>
+                        <li id="jigyou03" class="leftlist">
+							<a href="/jigyo/kensetsu/">
+								<img src="top/images/jigyo_03.gif" width="290" height="65" alt="建築設備事業　心地よい環境に、変える。" class="rollover" />
+								<h3>建築設備事業</h3>
+								<p>心地よい環境に、変える。</p>
+							</a>
+						</li>
+                        <li id="jigyou04">
+							<a href="/jigyo/doboku/">
+								<img src="top/images/jigyo_04.gif" width="290" height="65" alt="電設土木事業　住みやすいまちを、つくる。" class="rollover" />
+								<h3>電設土木事業</h3>
+								<p>住みやすいまちを、つくる。</p>
+							</a>
+						</li>
+                        <li id="jigyou05" class="leftlist">
+							<a href="/jigyo/irig/">
+								<img src="top/images/jigyo_05.gif" width="290" height="65" alt="イリゲーション工事　散水設備で緑化を支えます。" class="rollover" />
+								<h3>イリゲーション工事</h3>
+								<p>散水設備で緑化を支えます。</p>
+							</a>
+						</li>
+						<li id="jigyou06">
+							<a href="/kls/" target="_blank">
+								<img src="top/images/kyowalife_on.gif" width="240" height="70" alt="協和日成グループ 株式会社協和ライフサービス" class="rollover rolloverInitialized">
+							</a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- //left_contents -->
+            
+            <!-- right_contents -->
+            <div id="right_contents">
+            	<p><img src="top/images/bnr_txt.gif" width="239" height="13" alt="ガス機器の修理・点検はお近くのライフバルへ" /></p>
+                <ul id="spSlide">
+					<li>
+						<a href="http://home.tokyo-gas.co.jp/lifeval/" target="_blank"><img src="top/images/bnr_lifebal.jpg" alt="TOKYO GAS LIFEBAL　ガスと住まいのコンシェルジュ　東京ガスライフバル" /></a>
+					</li>
+                    <li>
+						<a href="http://www.dream-kyokai.jp/" target="_blank"><img src="top/images/bnr_dream.jpg" alt="雑排水管ライニング　Dream工法" /></a>
+					</li>
+                    <li>
+						<a href="/jigyo/irig/"><img src="top/images/bnr_greenmall.jpg" alt="グリーンモール工法" /></a>
+					</li>
+					<li>
+						<a href="http://home.tokyo-gas.co.jp/living/ecowill/index.html" target="_blank"><img src="top/images/bnr_ecowill.jpg" alt="エコウィル誕生！　電気も、給湯も、暖房も。マイホーム発電。 ECO WILL" /></a>
+					</li>
+					<li>
+						<a href="http://home.tokyo-gas.co.jp/enefarm_special/index.html" target="_blank"><img src="top/images/bnr_enefarm.jpg" alt="家庭用燃料電源コージェネレーションシステム　ENE・FARM　エネファーム" /></a>
+					</li>
+					<li>
+						<a href="/jigyo/gas/"><img src="top/images/bnr_taiyoukou.jpg" alt="住宅用太陽光発電システム" /></a>
+					</li>
+                </ul>
+                <ul id="pcList">
+					<li>
+						<a href="http://home.tokyo-gas.co.jp/lifeval/" target="_blank"><img src="top/images/bnr_lifebal.jpg" alt="TOKYO GAS LIFEBAL　ガスと住まいのコンシェルジュ　東京ガスライフバル" /></a>
+					</li>
+                    <li>
+						<a href="http://www.dream-kyokai.jp/" target="_blank"><img src="top/images/bnr_dream.jpg" alt="雑排水管ライニング　Dream工法" /></a>
+					</li>
+                    <li>
+						<a href="/jigyo/irig/"><img src="top/images/bnr_greenmall.jpg" alt="グリーンモール工法" /></a>
+					</li>
+					<li>
+						<a href="http://home.tokyo-gas.co.jp/living/ecowill/index.html" target="_blank"><img src="top/images/bnr_ecowill.jpg" alt="エコウィル誕生！　電気も、給湯も、暖房も。マイホーム発電。 ECO WILL" /></a>
+					</li>
+					<li>
+						<a href="http://home.tokyo-gas.co.jp/enefarm_special/index.html" target="_blank"><img src="top/images/bnr_enefarm.jpg" alt="家庭用燃料電源コージェネレーションシステム　ENE・FARM　エネファーム" /></a>
+					</li>
+					<li>
+						<a href="/jigyo/gas/"><img src="top/images/bnr_taiyoukou.jpg" alt="住宅用太陽光発電システム" /></a>
+					</li>
+                </ul>
+            </div>
+            <!-- //right_contents -->
+        </div>
+        <!-- //contents -->
+    </div>
+    <!-- //contentsarea -->
+
+	<div id="totop"><p><a href="#wrapper">ページのトップへ戻る</a></p></div>
+
+    <!-- footer -->
+    <div id="footer">
+        <div id="footermenu" class="clearfix">
+        	<ul class="clearfix">
+            	<li class="first"><a href="/">HOME</a></li>
+                <li><a href="/topics/">お知らせ</a></li>
+                <li><a href="/corporate/">会社案内</a></li>
+                <li><a href="/jigyo/">事業内容</a></li>
+                <!--<li><a href="/jirei/">施工事例</a></li>-->
+                <li><a href="/ir/">株主・投資家情報</a></li>
+                <li><a href="/saiyo/">採用情報</a></li>
+            </ul>
+            <p>株式会社協和日成</p>
+        </div>
+        <div id="footerbottom" class="clearfix">
+            <ul class="clearfix">
+                <li><a href="/inquiry/">お問い合わせ</a>｜</li>
+                <li><a href="/sitemap/">サイトマップ</a>｜</li>
+                <li><a href="/privacy/">プライバシーポリシー</a></li>
+            </ul>
+			<p class="copyright"><img src="/common/images/copyright.gif" width="333" height="15" alt="Copyright &copy; KYOWANISSEI CO.,LTD. All Rights Reserved." /><span class="sp">Copyright &copy; KYOWANISSEI CO.,LTD. All Rights Reserved.</span></p>
+        </div>
+    </div>
+	<!-- //footer -->
+</div>
+<!-- //wrapper -->
+
+</body>
+</html>

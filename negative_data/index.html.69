@@ -1,0 +1,892 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+    
+    <meta name="keywords" content="大型製缶加工,高齢者対応住宅,土木,建築">
+    <meta name="description" content="まちづくり・ひとづくり・ものづくりの総合会社ヤマウラです。">
+    <link rel="icon" type="image/png" href="http://www.yamaura.co.jp/wp/wp-content/themes/yamaura/img/favicon/favicon16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="http://www.yamaura.co.jp/wp/wp-content/themes/yamaura/img/favicon/favicon32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="http://www.yamaura.co.jp/wp/wp-content/themes/yamaura/img/favicon/favicon64x64.png" sizes="64x64">
+    <link rel="icon" type="image/png" href="http://www.yamaura.co.jp/wp/wp-content/themes/yamaura/img/favicon/favicon96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="http://www.yamaura.co.jp/wp/wp-content/themes/yamaura/img/favicon/favicon128x128.png" sizes="128x128">
+    <link rel="apple-touch-icon" href="http://www.yamaura.co.jp/wp/wp-content/themes/yamaura/img/favicon/apple-touch-icon.png" />
+    <link rel="stylesheet" media="all" href="http://www.yamaura.co.jp/wp/wp-content/themes/yamaura/css/reset.css">
+    <link rel="stylesheet" media="all" href="http://www.yamaura.co.jp/wp/wp-content/themes/yamaura/css/basic.css">
+    <link rel="stylesheet" media="all" href="http://www.yamaura.co.jp/wp/wp-content/themes/yamaura/css/common.css">
+    <link rel="stylesheet" media="all" href="http://www.yamaura.co.jp/wp/wp-content/themes/yamaura/css/pages.css">
+    <link rel="stylesheet" media="all" href="http://www.yamaura.co.jp/wp/wp-content/themes/yamaura/css/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://www.yamaura.co.jp/wp/wp-content/themes/yamaura/img/iealert/style.css">
+    <link rel="stylesheet" href="http://www.yamaura.co.jp/wp/wp-content/themes/yamaura/css/perfect-scrollbar.css">
+    <link rel="stylesheet" href="http://www.yamaura.co.jp/wp/wp-content/themes/yamaura/css/slick/slick.css"/>
+    <link rel="stylesheet" href="http://www.yamaura.co.jp/wp/wp-content/themes/yamaura/css/slick/slick-theme.css"/>
+    <link rel="stylesheet" href="http://www.yamaura.co.jp/wp/wp-content/themes/yamaura/css/jquery.bxslider.css"/>
+    <link rel="stylesheet" href="http://www.yamaura.co.jp/wp/wp-content/themes/yamaura/css/swipebox.css"/>
+    <link rel="stylesheet" href="http://www.yamaura.co.jp/wp/wp-content/themes/yamaura/css/animate.css"/>
+    <link rel="stylesheet" media="all" href="http://www.yamaura.co.jp/wp/wp-content/themes/yamaura/css/sp.css">
+    <link rel="stylesheet" media="all" href="http://www.yamaura.co.jp/wp/wp-content/themes/yamaura/css/progress.css">
+    <script src="http://www.yamaura.co.jp/wp/wp-content/themes/yamaura/js/jquery-2.1.1.min.js"></script>
+    <script src="http://www.yamaura.co.jp/wp/wp-content/themes/yamaura/js/jquery.easing.min.js"></script>
+    <script src="http://www.yamaura.co.jp/wp/wp-content/themes/yamaura/js/jquery.cookie.js"></script>
+    <script src="http://www.yamaura.co.jp/wp/wp-content/themes/yamaura/js/iealert.js"></script>
+    <script src="http://www.yamaura.co.jp/wp/wp-content/themes/yamaura/js/perfect-scrollbar.jquery.js"></script>
+    <script src="http://www.yamaura.co.jp/wp/wp-content/themes/yamaura/js/slick.min.js"></script>
+    <script src="http://www.yamaura.co.jp/wp/wp-content/themes/yamaura/js/jquery.bxslider.js"></script>
+    <script src="http://www.yamaura.co.jp/wp/wp-content/themes/yamaura/js/jquery.swipebox.min.js"></script>
+    <script src="http://www.yamaura.co.jp/wp/wp-content/themes/yamaura/js/wow.js"></script>
+    <script src="http://www.yamaura.co.jp/wp/wp-content/themes/yamaura/js/jquery.common.js"></script>
+    <script src="http://www.yamaura.co.jp/wp/wp-content/themes/yamaura/js/jquery.lazylinepainter-1.7.0.js"></script>
+    <script src="http://www.yamaura.co.jp/wp/wp-content/themes/yamaura/js/svgdata.js"></script>
+    <script src="http://www.yamaura.co.jp/wp/wp-content/themes/yamaura/js/jquery.top.js"></script>
+    <script src="https://use.typekit.net/yue5hvz.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+    <script>
+        var ajaxurl = 'http://www.yamaura.co.jp/wp/wp-admin/admin-ajax.php';
+    </script>
+
+<!-- This site is optimized with the Yoast SEO plugin v5.0.2 - https://yoast.com/wordpress/plugins/seo/ -->
+<title>まちづくり・ひとづくり・ものづくりの総合会社　株式会社ヤマウラ</title>
+<meta name="description" content="1920年の創業以来、「モノづくりのDNA」を心に育み、技術・品質を磨き、公共工事はもちろん民間工事や個人住宅など「建築部門」「土木部門」「エンジニアリング事業部門」でトータルプロデュースをします。 これからも地域貢献・社会貢献を使命と考え、豊かな未来を目指して邁進してまいります。"/>
+<link rel="canonical" href="http://www.yamaura.co.jp/" />
+<meta property="og:locale" content="ja_JP" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="まちづくり・ひとづくり・ものづくりの総合会社　株式会社ヤマウラ" />
+<meta property="og:description" content="1920年の創業以来、「モノづくりのDNA」を心に育み、技術・品質を磨き、公共工事はもちろん民間工事や個人住宅など「建築部門」「土木部門」「エンジニアリング事業部門」でトータルプロデュースをします。 これからも地域貢献・社会貢献を使命と考え、豊かな未来を目指して邁進してまいります。" />
+<meta property="og:url" content="http://www.yamaura.co.jp/" />
+<meta property="og:site_name" content="株式会社ヤマウラ" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="1920年の創業以来、「モノづくりのDNA」を心に育み、技術・品質を磨き、公共工事はもちろん民間工事や個人住宅など「建築部門」「土木部門」「エンジニアリング事業部門」でトータルプロデュースをします。 これからも地域貢献・社会貢献を使命と考え、豊かな未来を目指して邁進してまいります。" />
+<meta name="twitter:title" content="まちづくり・ひとづくり・ものづくりの総合会社　株式会社ヤマウラ" />
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"WebSite","@id":"#website","url":"http:\/\/www.yamaura.co.jp\/","name":"\u682a\u5f0f\u4f1a\u793e\u30e4\u30de\u30a6\u30e9","alternateName":"Yamaura","potentialAction":{"@type":"SearchAction","target":"http:\/\/www.yamaura.co.jp\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"Organization","url":"http:\/\/www.yamaura.co.jp\/","sameAs":[],"@id":"#organization","name":"\u682a\u5f0f\u4f1a\u793e\u30e4\u30de\u30a6\u30e9","logo":"http:\/\/www.yamaura.co.jp\/wp\/wp-content\/uploads\/2017\/01\/logo_login.png"}</script>
+<meta name="msvalidate.01" content="9A2198F8364D1A0CFDA366E9A4CBF7DD" />
+<meta name="google-site-verification" content="WrL2JoIfKU0hJs9MoJvkoqv0ItkdDJJTOXpYXyoYiBY" />
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//s.w.org' />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/www.yamaura.co.jp\/wp\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.8.1"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,56826,8203,55356,56819),0,0),c=j.toDataURL(),b===c&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55358,56794,8205,9794,65039),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55358,56794,8203,9794,65039),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='https://api.w.org/' href='http://www.yamaura.co.jp/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.yamaura.co.jp/wp/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.yamaura.co.jp/wp/wp-includes/wlwmanifest.xml" /> 
+<link rel='shortlink' href='http://www.yamaura.co.jp/' />
+<link rel="alternate" type="application/json+oembed" href="http://www.yamaura.co.jp/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.yamaura.co.jp%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://www.yamaura.co.jp/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.yamaura.co.jp%2F&#038;format=xml" />
+</head>
+<body id="top">
+    <div id="top_movie">
+        <img src="http://www.yamaura.co.jp/wp/wp-content/themes/yamaura/img/top/main_logo1.png" alt="ヤマウラ" class="over_logo1">
+        <img src="http://www.yamaura.co.jp/wp/wp-content/themes/yamaura/img/top/main_logo2.png" alt="ヤマウラ" class="over_logo2">
+        <div id="bg_img"></div>
+        <video loop poster="http://www.yamaura.co.jp/wp/wp-content/themes/yamaura/img/top/video_bg.jpg" id="main_movie">
+            <source src="http://www.yamaura.co.jp/wp/wp-content/themes/yamaura/movie/top_movie.m4v" type="video/mp4" />
+        </video>
+    </div>
+
+    <div id="top_progress_wrapper">
+        <div class="progress_content">
+            <div class="logo-wrap">
+                <div id="top_logo"></div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Responsive Menu Start-->
+    <div class="sp_nav">
+        <div class="sp_nav_btn">
+            <div class="sp_nav_btn_bar sp_nav_btn_bar_top"></div>
+            <div class="sp_nav_btn_bar sp_nav_btn_bar_middle"></div>
+            <div class="sp_nav_btn_bar sp_nav_btn_bar_bottom"></div>
+        </div>
+    </div>
+    <div class="responsive_menu_wrap"></div>
+    <div class="responsive_menu">
+        <div class="inner_menu">
+            <p class="menu_title">MENU</p>
+            <ul class="clearfix">
+                <li><a href="http://www.yamaura.co.jp/"><img src="http://www.yamaura.co.jp/wp/wp-content/themes/yamaura/img/common/icon_home2.png" alt="ホーム">ホーム</a></li>
+                <li><a href="http://www.yamaura.co.jp/corporate"><i class="fa fa-angle-right" aria-hidden="true"></i>企業情報</a></li>
+                <li><a href="http://www.yamaura.co.jp/technology"><i class="fa fa-angle-right" aria-hidden="true"></i>技術紹介</a></li>
+                <li><a href="http://www.yamaura.co.jp/sector"><i class="fa fa-angle-right" aria-hidden="true"></i>事業部門</a></li>
+                <li><a href="http://www.yamaura.co.jp/works"><i class="fa fa-angle-right" aria-hidden="true"></i>施工実績</a></li>
+                <li><a href="http://www.yamaura.co.jp/ir"><i class="fa fa-angle-right" aria-hidden="true"></i>IR情報</a></li>
+                <li><a href="http://www.yamaura.co.jp/csr"><i class="fa fa-angle-right" aria-hidden="true"></i>CSR</a></li>
+                <li><a href="http://www.yamaura.co.jp/news"><i class="fa fa-angle-right" aria-hidden="true"></i>新着情報</a></li>
+                <li><a href="http://www.yamaura.co.jp/prize"><i class="fa fa-angle-right" aria-hidden="true"></i>表彰実績・リリース</a></li>
+                <li><a href="http://www.yamaura.co.jp/recruit/" target="_blank"><i class="fa fa-angle-right" aria-hidden="true"></i>採用情報</a></li>
+                <li><a href="http://www.yamaura.co.jp/contact"><i class="fa fa-angle-right" aria-hidden="true"></i>お問い合わせ</a></li>
+                <li><a href="http://www.yamaura.co.jp/corporate/policy"><i class="fa fa-angle-right" aria-hidden="true"></i>プライバシーポリシー</a></li>
+                <li><a href="http://www.yamaura.co.jp/sitemap"><i class="fa fa-angle-right" aria-hidden="true"></i>サイトマップ</a></li>
+
+            </ul>
+            <p class="inner_bottom_logo">
+                <img src="http://www.yamaura.co.jp/wp/wp-content/themes/yamaura/img/common/foot_logo.png" alt="yamaura">
+            </p>
+            <p class="ta_center">
+                〒399-4195 長野県駒ヶ根市北町22-1<br>
+                TEL. 0265-81-6010 FAX 0265-82-3966
+            </p>
+
+        </div>
+        <div class="resoponsive_search_area">
+            <form method="get" action="http://www.google.co.jp/search" id="RsSearchForm" target="_blank">
+                <input type="hidden" name="hl" value="ja">
+                <input type="hidden" name="sitesearch" value="yamaura.co.jp">
+                <div class="rs_search_area_wrap">
+                    <input type="text" name="q" placeholder="search..." class="search_input">
+                    <input type="submit" class="btn_search" value="&nbsp;">
+                </div>
+            </form>
+        </div>
+
+    </div>
+    <!-- Responsive Menu End-->
+
+    <!-- Overray Search Forms Start-->
+    <div class="search_forms">
+        <form method="get" action="http://www.google.co.jp/search" id="SearchForm" target="_blank">
+            <input type="hidden" name="hl" value="ja">
+            <input type="hidden" name="sitesearch" value="yamaura.co.jp">
+            <div class="box_container">
+                <input type="text" name="q" placeholder="search..." class="search_input">
+                <input type="submit" class="btn_search" value="&nbsp;">
+                <div class="btn_close">
+                    <div class="btn_close_bar btn_close_bar_top"></div>
+                    <div class="btn_close_bar btn_close_bar_bottom"></div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="search_wrap"></div>
+    <!-- Overray Search Forms End-->
+<div class="wrapper">
+    <div id="movie_controler">
+        <a href="#top_contents" class="hover_txt scroll_under"><span></span>Scrool</a>
+
+        <div class="play_btns hover_txt">
+            <p id="play_btn"><i class="fa fa-pause" aria-hidden="true"></i></p>
+        </div>
+    </div>
+
+            <header>
+            <div id="head_top" class="box_container clearfix">
+                <h1>
+                    <a href="http://www.yamaura.co.jp/">
+                                                <img src="http://www.yamaura.co.jp/wp/wp-content/themes/yamaura/img/common/logo.png" alt="株式会社ヤマウラ">
+                                            </a>
+                </h1>
+                <div class="head_nav">
+                    <ul>
+                                                    <li><a href="http://www.yamaura.co.jp/" class="hover_txt"><img src="http://www.yamaura.co.jp/wp/wp-content/themes/yamaura/img/common/icon_home.png" alt="ホーム">ホーム</a></li>
+                                                <li><a href="http://www.yamaura.co.jp/prize" class="hover_txt"><img src="http://www.yamaura.co.jp/wp/wp-content/themes/yamaura/img/common/icon_prize.png" alt="表彰実績・リリース">表彰実績・リリース</a></li>
+                        <li><a href="http://www.yamaura.co.jp/news" class="hover_txt"><img src="http://www.yamaura.co.jp/wp/wp-content/themes/yamaura/img/common/icon_news.png" alt="新着情報">新着情報</a></li>
+                        <li><a href="http://www.yamaura.co.jp/recruit/" target="_blank" class="hover_txt"><img src="http://www.yamaura.co.jp/wp/wp-content/themes/yamaura/img/common/icon_recruit.png" alt="採用情報">採用情報</a></li>
+                        <li>
+                            <p>
+                                文字サイズ
+                            </p>
+                            <div class="btn_font_size">
+                                <p id="cfs-s">小</p>
+                                <p id="cfs-m">中</p>
+                                <p id="cfs-l">大</p>
+                            </div>
+                        </li>
+                        <li class="search_open"><a href="#search_open" class="hover_txt"><img src="http://www.yamaura.co.jp/wp/wp-content/themes/yamaura/img/common/icon_search.png" alt="検索"></a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Navigation Start -->
+            <nav>
+                <ul id="g_navi" class="box_container layer">
+                    <li open-target="nav_i_corporate"><a href="http://www.yamaura.co.jp/corporate/"><span>企業情報</span></a><div class="nav_inner_wrap"></div></li>
+                    <li open-target="nav_i_technology"><a href="http://www.yamaura.co.jp/technology"><span>技術紹介</span></a></li>
+                    <li open-target="nav_i_sector"><a href="http://www.yamaura.co.jp/sector/"><span>事業部門</span></a></li>
+                    <li open-target="nav_i_works"><a href="http://www.yamaura.co.jp/works/"><span>施工実績</span></a></li>
+                    <li open-target="nav_i_ir"><a href="http://www.yamaura.co.jp/ir/"><span>IR情報</span></a></li>
+                    <li open-target="nav_i_csr"><a href="http://www.yamaura.co.jp/csr/"><span>CSR</span></a></li>
+                    <li open-target="nav_i_contact"><a href="http://www.yamaura.co.jp/contact/"><span>お問い合わせ</span></a></li>
+                </ul>
+                <div class="nav_inner layer">
+                    <div class="box_container">
+                        <ul id="nav_i_corporate">
+                            <li class="corporate_message"><a href="http://www.yamaura.co.jp/corporate/message"><span>社長メッセージ</span></a></li>
+                            <li class="corporate_about"><a href="http://www.yamaura.co.jp/corporate/about"><span>会社概要</span></a></li>
+                            <li class="corporate_identity"><a href="http://www.yamaura.co.jp/corporate/identity"><span>理念・ブランド</span></a></li>
+                            <li class="corporate_branch"><a href="http://www.yamaura.co.jp/corporate/branch"><span>ネットワーク</span></a></li>
+                            <li class="corporate_people"><a href="http://www.yamaura.co.jp/corporate/people"><span>ヤマウラの人づくり</span></a></li>
+                            <li class="corporate_recruit"><a href="http://www.yamaura.co.jp/recruit/" target="_blank"><span>採用情報</span></a></li>
+                        </ul>
+                        <ul id="nav_i_technology">
+                            <li class="technology_about"><a href="http://www.yamaura.co.jp/technology/about"><span>ヤマウラの技術</span></a></li>
+                            <li class="technology_dna"><a href="http://www.yamaura.co.jp/technology/dna"><span>ものづくりのDNA</span></a></li>
+                            <li class="technology_enviroment"><a href="http://www.yamaura.co.jp/technology/enviroment"><span>ヤマウラの環境技術</span></a></li>
+                            <li class="technology_management"><a href="http://www.yamaura.co.jp/technology/management"><span>PAS99</span></a></li>
+                            <li class="technology_movie"><a href="http://www.yamaura.co.jp/technology/movie"><span>動画で見る工事技術</span></a></li>
+                            <li class="technology_prize"><a href="http://www.yamaura.co.jp/prize"><span>表彰実績</span></a></li>
+                        </ul>
+                        <ul id="nav_i_sector" class="five_list">
+                            <li class="sector_builds"><a href="http://www.yamaura.co.jp/sector/builds"><span>建築部門</span></a></li>
+                            <li class="sector_construction"><a href="http://www.yamaura.co.jp/sector/construction"><span>土木部門</span></a></li>
+                            <li class="sector_engineering"><a href="http://eng.yamaura.co.jp/" target="_blank"><span>エンジニアリング事業部門</span></a></li>
+                            <li class="sector_condominium"><a href="http://www.yamaura.co.jp/sector/condominium"><span>首都圏事業部門</span></a></li>
+                            <li class="sector_brain"><a href="http://www.yamaura.co.jp/sector/brain-mansion"><span>ブレインマンションFC事業部門</span></a></li>
+                        </ul>
+                        <ul id="nav_i_works">
+                            <li class="works_goverment_builds"><a href="http://www.yamaura.co.jp/works/category/goverment-builds"><span>官庁建築</span></a></li>
+                            <li class="works_goverment_construnction"><a href="http://www.yamaura.co.jp/works/category/goverment-constructions"><span>官庁土木</span></a></li>
+                            <li class="works_builds"><a href="http://www.yamaura.co.jp/works/category/builds"><span>民間建築</span></a></li>
+                            <li class="works_engineering"><a href="http://eng.yamaura.co.jp/products" target="_blank"><span>エンジニアリング事業</span></a></li>
+                            <li class="works_apartment"><a href="http://www.yamaura-kikaku.jp/works/" target="_blank"><span>開発分譲マンション事業</span></a></li>
+                            <li class="works_brain"><a href="http://www.yamaura.co.jp/works/category/brain-mansion"><span>ブレインマンション事業</span></a></li>
+                        </ul>
+                        <ul id="nav_i_ir">
+                            <li class="ir_message"><a href="http://www.yamaura.co.jp/corporate/message"><span>社長よりご挨拶</span></a></li>
+                            <li class="ir_list"><a href="http://www.yamaura.co.jp/ir/material/"><span>IR情報一覧</span></a></li>
+                            <li class="ir_information"><a href="http://www.yamaura.co.jp/ir/ir-news"><span>その他IR情報</span></a></li>
+                            <li class="ir_price"><a href="http://stocks.finance.yahoo.co.jp/stocks/detail/?code=1780.t" target="_blank"><span>株価情報</span></a></li>
+                            <li class="ir_shareholders"><a href="http://www.yamaura.co.jp/ir/shareholders"><span>株主優待について</span></a></li>
+                            <li class="ir_contact"><a href="http://www.yamaura.co.jp/ir/contact"><span>株主の方のお問い合わせ</span></a></li>
+                        </ul>
+
+                    </div>
+                </div>
+            </nav>
+            <!-- Navigation End -->
+        </header>
+    <article id="top_contents">
+        <!-- CONTENTS AREA START -->
+
+        <section id="top_special">
+            <div class="box_container">
+                <div class="title_area">
+                    <h2><img src="http://www.yamaura.co.jp/wp/wp-content/themes/yamaura/img/top/special_title.png" alt="サービスと技術 お客様のためにヤマウラができること"></h2>
+                </div>
+                <div class="special_inner">
+                    <div class="top_spacial_contents wow fadeInUp" data-wow-delay="0.0s">
+                        <a href="http://www.yamaura.co.jp/specials/total-produce" class="hover_txt">
+                            <img src="http://www.yamaura.co.jp/wp/wp-content/themes/yamaura/img/top/special_img01.jpg" alt="ワンストップ" class="special_image">
+                            <img src="http://www.yamaura.co.jp/wp/wp-content/themes/yamaura/img/top/special_tri_mark.png" alt="ヤマウラ" class="special_tri">
+                            <h3>
+                                トータルプロデュース
+                                <span>Total Produce</span>
+                            </h3>
+                            <div class="s_border_btn">
+                                <p>詳しく見る</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="top_spacial_contents wow fadeInUp" data-wow-delay="0.3s">
+                        <a href="http://www.yamaura.co.jp/specials/bim-cim" class="hover_txt">
+                            <img src="http://www.yamaura.co.jp/wp/wp-content/themes/yamaura/img/top/special_img02.jpg" alt="YAMAURA 3DCAD システム" class="special_image">
+                            <img src="http://www.yamaura.co.jp/wp/wp-content/themes/yamaura/img/top/special_tri_mark.png" alt="ヤマウラ" class="special_tri">
+                            <h3>
+                                BIM CIM
+                                <!--<span>3D CAD System</span>-->
+                            </h3>
+                            <div class="s_border_btn">
+                                <p>詳しく見る</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="top_spacial_contents wow fadeInUp" data-wow-delay="0.6s">
+                        <a href="http://www.yamaura.co.jp/specials/professional" class="hover_txt">
+                            <img src="http://www.yamaura.co.jp/wp/wp-content/themes/yamaura/img/top/special_img03.jpg" alt="技術者集団" class="special_image">
+                            <img src="http://www.yamaura.co.jp/wp/wp-content/themes/yamaura/img/top/special_tri_mark.png" alt="ヤマウラ" class="special_tri">
+                            <h3>
+                                プロフェッショナル集団
+                                <span>Professional group</span>
+                            </h3>
+                            <div class="s_border_btn">
+                                <p>詳しく見る</p>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="top_identity">
+            <div class="box_container">
+                <h2><img src="http://www.yamaura.co.jp/wp/wp-content/themes/yamaura/img/top/identity_title.png" alt="コーポレート・アイデンティティ"></h2>
+                <p class="title_exp_txt">
+                    1920年の創業以来、「モノづくりのDNA」を心に育み、技術・品質を磨いてきました。<br>
+                    これからも地域貢献・社会貢献を使命と考え、豊かな未来を目指して邁進してまいります。
+                </p>
+
+                <div class="identity_contents">
+                    <div class="identity_inner wow fadeInUp" data-wow-delay="0.0s">
+                        <a href="http://www.yamaura.co.jp/corporate/about" class="hover_txt">
+                            <img src="http://www.yamaura.co.jp/wp/wp-content/themes/yamaura/img/top/identity_img01.jpg" alt="企業案内" class="identity_image">
+                            <img src="http://www.yamaura.co.jp/wp/wp-content/themes/yamaura/img/top/identity_tri_mark.png" alt="ヤマウラ" class="identity_tri">
+                            <h3>企業案内</h3>
+                            <div class="bg_btn">
+                                <p>詳しく見る</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="identity_inner wow fadeInUp" data-wow-delay="0.3s">
+                        <a href="http://www.yamaura.co.jp/technology/about/" class="hover_txt">
+                            <img src="http://www.yamaura.co.jp/wp/wp-content/themes/yamaura/img/top/identity_img02.jpg" alt="ヤマウラの技術" class="identity_image">
+                            <img src="http://www.yamaura.co.jp/wp/wp-content/themes/yamaura/img/top/identity_tri_mark.png" alt="ヤマウラ" class="identity_tri">
+                            <h3>ヤマウラの技術</h3>
+                            <div class="bg_btn hover_txt">
+                                <p>詳しく見る</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="identity_inner wow fadeInUp" data-wow-delay="0.6s">
+                        <a href="http://www.yamaura.co.jp/recruit/" target="_blank" class="hover_txt">
+                            <img src="http://www.yamaura.co.jp/wp/wp-content/themes/yamaura/img/top/identity_img03.jpg" alt="採用情報" class="identity_image">
+                            <img src="http://www.yamaura.co.jp/wp/wp-content/themes/yamaura/img/top/identity_tri_mark.png" alt="ヤマウラ" class="identity_tri">
+                            <h3>採用情報</h3>
+                            <div class="bg_btn">
+                                <p>詳しく見る</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+        
+        <section id="sp_news" class="top_news_list">
+            <div class="box_container">
+                <div class="news_box wow fadeInUp" data-wow-delay="0.0s">
+                    <div class="news_switcher_wrap">
+                        <div class="news_switcher">
+                            <h2 show-target="sp_top_prize" class="active">
+                                表彰実績・リリース
+                                <span class="awards">AWARDS・RELEASE</span>
+                            </h2>
+                            <h2 show-target="sp_top_news">
+                                新着情報
+                                <span class="ir">NEWS</span>
+                            </h2>
+                        </div>
+                    </div>
+                    <div id="sp_top_prize" class="sp_news_wrap active">
+                        <div class="title_area2">
+                            <ul>
+                                <li><a href="http://www.yamaura.co.jp/prize">一覧</a></li>
+                            </ul>
+                        </div>
+                        <ul class="news_list">
+                                                                                    <li>
+                                <p class="news_category cat_prize"><span>国土交通省</span></p>
+                                <p class="news_title">
+                                    <a href="http://www.yamaura.co.jp/prize/%ef%bc%95%e5%b9%b4%e9%80%a3%e7%b6%9a%e3%81%a7%e5%9b%bd%e5%9c%9f%e4%ba%a4%e9%80%9a%e7%9c%81%e3%80%8c%e5%b7%a5%e4%ba%8b%e6%88%90%e7%b8%be%e5%84%aa%e7%a7%80%e4%bc%81%e6%a5%ad%e3%80%8d%e3%81%ab%e8%aa%8d/">５年連続で国土交通省「工事成績優秀企業」に認定されました</a>
+                                </p>
+                            </li>
+                                                        <li>
+                                <p class="news_category cat_prize"><span>国土交通省</span></p>
+                                <p class="news_title">
+                                    <a href="http://www.yamaura.co.jp/prize/%e5%b9%b3%e6%88%9029%e5%b9%b4%e5%ba%a6%e3%80%80%e5%9b%bd%e4%ba%a4%e7%9c%81%e4%b8%89%e5%b3%b0%e5%b7%9d%e7%b7%8f%e5%90%88%e9%96%8b%e7%99%ba%e5%b7%a5%e4%ba%8b%e4%ba%8b%e5%8b%99%e6%89%80%e9%95%b7%e8%a1%a8/">平成29年度　国交省三峰川総合開発工事事務所長表彰　優良工事施工者及び技術者表彰を受賞</a>
+                                </p>
+                            </li>
+                                                        <li>
+                                <p class="news_category cat_prize"><span>その他</span></p>
+                                <p class="news_title">
+                                    <a href="http://www.yamaura.co.jp/prize/%e7%ac%ac%ef%bc%95%e5%9b%9e-%e5%9b%bd%e5%9c%9f%e3%82%92%e3%81%a4%e3%81%8f%e3%82%8b%e4%ba%ba%e5%86%99%e7%9c%9f%e5%b1%95%e3%81%ab%e5%85%a5%e8%b3%9e%e3%81%97%e3%81%be%e3%81%97%e3%81%9f/">第５回 国土をつくる人写真展に入賞しました</a>
+                                </p>
+                            </li>
+                                                        <li>
+                                <p class="news_category cat_prize"><span>駒ヶ根市</span></p>
+                                <p class="news_title">
+                                    <a href="http://www.yamaura.co.jp/prize/%e9%a7%92%e3%83%b6%e6%a0%b9%e5%b8%82%e3%82%88%e3%82%8a%e8%a1%a8%e5%bd%b0%e3%82%92%e3%81%84%e3%81%9f%e3%81%a0%e3%81%8d%e3%81%be%e3%81%97%e3%81%9f/">駒ヶ根市より表彰をいただきました</a>
+                                </p>
+                            </li>
+                                                        <li>
+                                <p class="news_category cat_prize"><span>国土交通省</span></p>
+                                <p class="news_title">
+                                    <a href="http://www.yamaura.co.jp/prize/%ef%bc%94%e5%b9%b4%e9%80%a3%e7%b6%9a%e3%81%a7%e5%9b%bd%e5%9c%9f%e4%ba%a4%e9%80%9a%e7%9c%81%e3%80%8c%e5%b7%a5%e4%ba%8b%e6%88%90%e7%b8%be%e5%84%aa%e7%a7%80%e4%bc%81%e6%a5%ad%e3%80%8d%e3%81%ab%e8%aa%8d/">４年連続で国土交通省「工事成績優秀企業」に認定されました</a>
+                                </p>
+                            </li>
+                                                        <li>
+                                <p class="news_category cat_prize"><span>国土交通省</span></p>
+                                <p class="news_title">
+                                    <a href="http://www.yamaura.co.jp/prize/%e5%9b%bd%e4%ba%a4%e7%9c%81%e4%b8%ad%e9%83%a8%e5%9c%b0%e6%96%b9%e6%95%b4%e5%82%99%e5%b1%80%e9%95%b7%e8%a1%a8%e5%bd%b0%e3%80%80%e5%84%aa%e8%89%af%e5%b7%a5%e4%ba%8b%e6%96%bd%e5%b7%a5%e8%80%85%e8%a1%a8-2/">平成28年度　国交省中部地方整備局長表彰　優良工事施工者表彰を受賞</a>
+                                </p>
+                            </li>
+                                                        <li>
+                                <p class="news_category cat_prize"><span>長野県</span></p>
+                                <p class="news_title">
+                                    <a href="http://www.yamaura.co.jp/prize/%e9%95%b7%e9%87%8e%e7%9c%8c%e5%84%aa%e8%89%af%e6%8a%80%e8%a1%93%e8%80%85%e8%a1%a8%e5%bd%b0%e3%82%92%e5%8f%97%e8%b3%9e/">長野県優良技術者表彰を受賞</a>
+                                </p>
+                            </li>
+                                                        <li>
+                                <p class="news_category cat_prize"><span>国土交通省</span></p>
+                                <p class="news_title">
+                                    <a href="http://www.yamaura.co.jp/prize/%ef%bc%93%e5%b9%b4%e9%80%a3%e7%b6%9a%e3%81%a7%e5%9b%bd%e5%9c%9f%e4%ba%a4%e9%80%9a%e7%9c%81%e3%80%8c%e5%b7%a5%e4%ba%8b%e6%88%90%e7%b8%be%e5%84%aa%e7%a7%80%e4%bc%81%e6%a5%ad%e3%80%8d%e3%81%ab%e8%aa%8d/">３年連続で国土交通省「工事成績優秀企業」に認定されました</a>
+                                </p>
+                            </li>
+                                                        <li>
+                                <p class="news_category cat_prize"><span>国土交通省</span></p>
+                                <p class="news_title">
+                                    <a href="http://www.yamaura.co.jp/prize/%e5%a4%a9%e7%ab%9c%e5%b7%9d%e4%b8%ad%e6%b2%a2%e8%ad%b7%e5%b2%b8%e5%b7%a5%e4%ba%8b%e3%81%ab%e3%81%a6%e5%a4%a9%e7%ab%9c%e5%b7%9d%e4%b8%8a%e6%b5%81%e6%b2%b3%e5%b7%9d%e4%ba%8b%e5%8b%99%e6%89%80%e9%95%b7/">平成27年度　国交省天竜川上流河川事務所長表彰　優良工事施工者表彰を受賞</a>
+                                </p>
+                            </li>
+                                                        <li>
+                                <p class="news_category cat_prize"><span>国土交通省</span></p>
+                                <p class="news_title">
+                                    <a href="http://www.yamaura.co.jp/prize/%e5%9b%bd%e4%ba%a4%e7%9c%81%e4%b8%ad%e9%83%a8%e5%9c%b0%e6%96%b9%e6%95%b4%e5%82%99%e5%b1%80%e9%95%b7%e8%a1%a8%e5%bd%b0%e3%80%80%e5%84%aa%e8%89%af%e5%b7%a5%e4%ba%8b%e6%96%bd%e5%b7%a5%e8%80%85%e8%a1%a8/">平成27年度　国交省中部地方整備局長表彰　優良工事施工者表彰を受賞</a>
+                                </p>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                    <div id="sp_top_news" class="sp_news_wrap">
+                        <div class="title_area2">
+                            <ul>
+                                <li><a href="http://www.yamaura.co.jp/news">一覧</a></li>
+                            </ul>
+                        </div>
+                        <ul class="news_list">
+                                                                                        <li>
+                                    <p class="news_date">08月10日</p>
+                                    <p class="news_category cat_ir"><span>IR情報</span></p>
+                                    <p class="news_title">
+                                        <a href="http://www.yamaura.co.jp/news/%e5%b9%b3%e6%88%9029%e5%b9%b49%e6%9c%88%e6%9c%9f%e3%80%80%e7%ac%ac3%e5%9b%9b%e5%8d%8a%e6%9c%9f%e6%b1%ba%e7%ae%97%e7%9f%ad%e4%bf%a1%e3%80%94%e6%97%a5%e6%9c%ac%e5%9f%ba%e6%ba%96%e3%80%95%ef%bc%88/">平成29年9月期　第3四半期決算短信〔日本基準〕（連結）を発表しました</a>
+                                    </p>
+                                </li>
+                                                            <li>
+                                    <p class="news_date">08月03日</p>
+                                    <p class="news_category cat_info"><span>お知らせ</span></p>
+                                    <p class="news_title">
+                                        <a href="http://www.yamaura.co.jp/news/%e3%81%8a%e7%9b%86%e4%bc%91%e3%81%bf%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b/">お盆休みのお知らせ</a>
+                                    </p>
+                                </li>
+                                                            <li>
+                                    <p class="news_date">07月13日</p>
+                                    <p class="news_category cat_csr"><span>CSR活動</span></p>
+                                    <p class="news_title">
+                                        <a href="http://www.yamaura.co.jp/news/%e5%9c%b0%e5%85%83%e3%81%ae%e4%b8%ad%e5%ad%a6%e6%a0%a15%e6%a0%a1%e3%81%8b%e3%82%89%e8%81%b7%e5%a0%b4%e4%bd%93%e9%a8%93%e5%ad%a6%e7%bf%92%e3%82%92%e5%8f%97%e3%81%91%e5%85%a5%e3%82%8c%e3%81%be%e3%81%97/">地元の中学生の職場体験学習を受け入れました</a>
+                                    </p>
+                                </li>
+                                                            <li>
+                                    <p class="news_date">06月30日</p>
+                                    <p class="news_category cat_info"><span>お知らせ</span></p>
+                                    <p class="news_title">
+                                        <a href="http://www.yamaura.co.jp/news/%e9%a7%92%e3%83%b6%e6%a0%b9%e5%b8%82%e3%81%a8%e3%80%8c%e7%84%a1%e4%ba%ba%e8%88%aa%e7%a9%ba%e6%a9%9f%e3%81%ab%e3%82%88%e3%82%8b%e7%81%bd%e5%ae%b3%e5%af%be%e7%ad%96%e6%b4%bb%e5%8b%95%e3%81%ab%e9%96%a2/">駒ヶ根市と「無人航空機による災害対策活動に関する協定」を締結しました。</a>
+                                    </p>
+                                </li>
+                                                            <li>
+                                    <p class="news_date">06月12日</p>
+                                    <p class="news_category cat_csr"><span>CSR活動</span></p>
+                                    <p class="news_title">
+                                        <a href="http://www.yamaura.co.jp/news/%e6%a3%ae%e6%9e%97%ef%bc%88%e3%82%82%e3%82%8a%ef%bc%89%e3%81%ae%e9%87%8c%e8%a6%aa%e4%bf%83%e9%80%b2%e4%ba%8b%e6%a5%ad%e3%80%80%e3%83%9c%e3%83%a9%e3%83%b3%e3%83%86%e3%82%a3%e3%82%a2%e6%b4%bb%e5%8b%95/">森林（もり）の里親促進事業　ボランティア活動を行いました</a>
+                                    </p>
+                                </li>
+                                                            <li>
+                                    <p class="news_date">06月01日</p>
+                                    <p class="news_category cat_info"><span>お知らせ</span></p>
+                                    <p class="news_title">
+                                        <a href="http://www.yamaura.co.jp/news/%e3%80%8c%e3%83%a4%e3%83%9e%e3%82%a6%e3%83%a9%e3%83%95%e3%83%83%e3%83%88%e3%82%b5%e3%83%ab%e9%83%a8%e3%80%8d%e3%82%92%e7%ab%8b%e3%81%a1%e4%b8%8a%e3%81%92%e3%81%be%e3%81%97%e3%81%9f%ef%bc%81/">「ヤマウラフットサル部」を立ち上げました！</a>
+                                    </p>
+                                </li>
+                                                            <li>
+                                    <p class="news_date">05月26日</p>
+                                    <p class="news_category cat_info"><span>お知らせ</span></p>
+                                    <p class="news_title">
+                                        <a href="http://www.yamaura.co.jp/news/%e5%b9%b3%e6%88%9028%e5%b9%b4%e5%ba%a6%e6%8a%80%e8%83%bd%e7%ab%b6%e6%8a%80%e5%a4%a7%e4%bc%9a%e3%80%80%e3%80%90%ef%bc%92%e7%b4%9a%e6%a7%8b%e9%80%a0%e7%89%a9%e9%89%84%e5%b7%a5%e3%80%91%ef%bc%92%e4%bd%8d/">平成28年度技能競技大会　【２級構造物鉄工】２位入賞</a>
+                                    </p>
+                                </li>
+                                                            <li>
+                                    <p class="news_date">05月15日</p>
+                                    <p class="news_category cat_ir"><span>IR情報</span></p>
+                                    <p class="news_title">
+                                        <a href="http://www.yamaura.co.jp/news/%e5%b9%b3%e6%88%9029%e5%b9%b49%e6%9c%88%e6%9c%9f-%e7%ac%ac2%e5%9b%9b%e5%8d%8a%e6%9c%9f%e6%b1%ba%e7%ae%97%e7%9f%ad%e4%bf%a1-%e4%bb%96%e3%82%92%e7%99%ba%e8%a1%a8%e3%81%97%e3%81%be%e3%81%97%e3%81%9f/">平成29年9月期 第2四半期決算短信 他を発表しました。</a>
+                                    </p>
+                                </li>
+                                                            <li>
+                                    <p class="news_date">05月10日</p>
+                                    <p class="news_category cat_info"><span>お知らせ</span></p>
+                                    <p class="news_title">
+                                        <a href="http://www.yamaura.co.jp/news/%e9%95%b7%e9%87%8e%e7%9c%8c%e6%ba%b6%e6%8e%a5%e6%8a%80%e8%a1%93%e3%82%b3%e3%83%b3%e3%82%af%e3%83%bc%e3%83%ab%e3%80%80%e5%84%aa%e8%89%af%e8%b3%9e%e5%8f%97%e8%b3%9e/">長野県溶接技術コンクール　優良賞受賞</a>
+                                    </p>
+                                </li>
+                                                            <li>
+                                    <p class="news_date">04月20日</p>
+                                    <p class="news_category cat_info"><span>お知らせ</span></p>
+                                    <p class="news_title">
+                                        <a href="http://www.yamaura.co.jp/news/%e4%b8%ad%e9%83%a8%e9%9b%bb%e5%8a%9b%e3%88%b1%e6%a7%98%e3%82%88%e3%82%8a%e6%84%9f%e8%ac%9d%e7%8a%b6%e3%82%92%e9%a0%82%e3%81%8d%e3%81%be%e3%81%97%e3%81%9f/">中部電力㈱様より感謝状を頂きました</a>
+                                    </p>
+                                </li>
+                                                    </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="top_news" class="top_news_list">
+            <div class="box_container double_column">
+                <div id="top_news_prize" class="news_box wow fadeInUp" data-wow-delay="0.0s">
+                    <div class="title_area clearfix">
+                        <h2>
+                            表彰実績・リリース
+                            <span class="awards">AWARDS・RELEASE</span>
+                        </h2>
+                        <ul>
+                            <li><a href="http://www.yamaura.co.jp/prize/">一覧</a></li>
+                        </ul>
+                    </div>
+                    <ul class="news_list">
+                                                                            <li>
+                                <p class="news_category cat_prize"><span>国土交通省</span></p>
+                                <p class="news_title">
+                                    <a href="http://www.yamaura.co.jp/prize/%ef%bc%95%e5%b9%b4%e9%80%a3%e7%b6%9a%e3%81%a7%e5%9b%bd%e5%9c%9f%e4%ba%a4%e9%80%9a%e7%9c%81%e3%80%8c%e5%b7%a5%e4%ba%8b%e6%88%90%e7%b8%be%e5%84%aa%e7%a7%80%e4%bc%81%e6%a5%ad%e3%80%8d%e3%81%ab%e8%aa%8d/">５年連続で国土交通省「工事成績優秀企業」に認定されました</a>
+                                </p>
+                            </li>
+                                                    <li>
+                                <p class="news_category cat_prize"><span>国土交通省</span></p>
+                                <p class="news_title">
+                                    <a href="http://www.yamaura.co.jp/prize/%e5%b9%b3%e6%88%9029%e5%b9%b4%e5%ba%a6%e3%80%80%e5%9b%bd%e4%ba%a4%e7%9c%81%e4%b8%89%e5%b3%b0%e5%b7%9d%e7%b7%8f%e5%90%88%e9%96%8b%e7%99%ba%e5%b7%a5%e4%ba%8b%e4%ba%8b%e5%8b%99%e6%89%80%e9%95%b7%e8%a1%a8/">平成29年度　国交省三峰川総合開発工事事務所長表彰　優良工事施工者及び技術者表彰を受賞</a>
+                                </p>
+                            </li>
+                                                    <li>
+                                <p class="news_category cat_prize"><span>その他</span></p>
+                                <p class="news_title">
+                                    <a href="http://www.yamaura.co.jp/prize/%e7%ac%ac%ef%bc%95%e5%9b%9e-%e5%9b%bd%e5%9c%9f%e3%82%92%e3%81%a4%e3%81%8f%e3%82%8b%e4%ba%ba%e5%86%99%e7%9c%9f%e5%b1%95%e3%81%ab%e5%85%a5%e8%b3%9e%e3%81%97%e3%81%be%e3%81%97%e3%81%9f/">第５回 国土をつくる人写真展に入賞しました</a>
+                                </p>
+                            </li>
+                                                    <li>
+                                <p class="news_category cat_prize"><span>駒ヶ根市</span></p>
+                                <p class="news_title">
+                                    <a href="http://www.yamaura.co.jp/prize/%e9%a7%92%e3%83%b6%e6%a0%b9%e5%b8%82%e3%82%88%e3%82%8a%e8%a1%a8%e5%bd%b0%e3%82%92%e3%81%84%e3%81%9f%e3%81%a0%e3%81%8d%e3%81%be%e3%81%97%e3%81%9f/">駒ヶ根市より表彰をいただきました</a>
+                                </p>
+                            </li>
+                                                    <li>
+                                <p class="news_category cat_prize"><span>国土交通省</span></p>
+                                <p class="news_title">
+                                    <a href="http://www.yamaura.co.jp/prize/%ef%bc%94%e5%b9%b4%e9%80%a3%e7%b6%9a%e3%81%a7%e5%9b%bd%e5%9c%9f%e4%ba%a4%e9%80%9a%e7%9c%81%e3%80%8c%e5%b7%a5%e4%ba%8b%e6%88%90%e7%b8%be%e5%84%aa%e7%a7%80%e4%bc%81%e6%a5%ad%e3%80%8d%e3%81%ab%e8%aa%8d/">４年連続で国土交通省「工事成績優秀企業」に認定されました</a>
+                                </p>
+                            </li>
+                                                    <li>
+                                <p class="news_category cat_prize"><span>国土交通省</span></p>
+                                <p class="news_title">
+                                    <a href="http://www.yamaura.co.jp/prize/%e5%9b%bd%e4%ba%a4%e7%9c%81%e4%b8%ad%e9%83%a8%e5%9c%b0%e6%96%b9%e6%95%b4%e5%82%99%e5%b1%80%e9%95%b7%e8%a1%a8%e5%bd%b0%e3%80%80%e5%84%aa%e8%89%af%e5%b7%a5%e4%ba%8b%e6%96%bd%e5%b7%a5%e8%80%85%e8%a1%a8-2/">平成28年度　国交省中部地方整備局長表彰　優良工事施工者表彰を受賞</a>
+                                </p>
+                            </li>
+                                                    <li>
+                                <p class="news_category cat_prize"><span>長野県</span></p>
+                                <p class="news_title">
+                                    <a href="http://www.yamaura.co.jp/prize/%e9%95%b7%e9%87%8e%e7%9c%8c%e5%84%aa%e8%89%af%e6%8a%80%e8%a1%93%e8%80%85%e8%a1%a8%e5%bd%b0%e3%82%92%e5%8f%97%e8%b3%9e/">長野県優良技術者表彰を受賞</a>
+                                </p>
+                            </li>
+                                                    <li>
+                                <p class="news_category cat_prize"><span>国土交通省</span></p>
+                                <p class="news_title">
+                                    <a href="http://www.yamaura.co.jp/prize/%ef%bc%93%e5%b9%b4%e9%80%a3%e7%b6%9a%e3%81%a7%e5%9b%bd%e5%9c%9f%e4%ba%a4%e9%80%9a%e7%9c%81%e3%80%8c%e5%b7%a5%e4%ba%8b%e6%88%90%e7%b8%be%e5%84%aa%e7%a7%80%e4%bc%81%e6%a5%ad%e3%80%8d%e3%81%ab%e8%aa%8d/">３年連続で国土交通省「工事成績優秀企業」に認定されました</a>
+                                </p>
+                            </li>
+                                                    <li>
+                                <p class="news_category cat_prize"><span>国土交通省</span></p>
+                                <p class="news_title">
+                                    <a href="http://www.yamaura.co.jp/prize/%e5%a4%a9%e7%ab%9c%e5%b7%9d%e4%b8%ad%e6%b2%a2%e8%ad%b7%e5%b2%b8%e5%b7%a5%e4%ba%8b%e3%81%ab%e3%81%a6%e5%a4%a9%e7%ab%9c%e5%b7%9d%e4%b8%8a%e6%b5%81%e6%b2%b3%e5%b7%9d%e4%ba%8b%e5%8b%99%e6%89%80%e9%95%b7/">平成27年度　国交省天竜川上流河川事務所長表彰　優良工事施工者表彰を受賞</a>
+                                </p>
+                            </li>
+                                                    <li>
+                                <p class="news_category cat_prize"><span>国土交通省</span></p>
+                                <p class="news_title">
+                                    <a href="http://www.yamaura.co.jp/prize/%e5%9b%bd%e4%ba%a4%e7%9c%81%e4%b8%ad%e9%83%a8%e5%9c%b0%e6%96%b9%e6%95%b4%e5%82%99%e5%b1%80%e9%95%b7%e8%a1%a8%e5%bd%b0%e3%80%80%e5%84%aa%e8%89%af%e5%b7%a5%e4%ba%8b%e6%96%bd%e5%b7%a5%e8%80%85%e8%a1%a8/">平成27年度　国交省中部地方整備局長表彰　優良工事施工者表彰を受賞</a>
+                                </p>
+                            </li>
+                        
+                    </ul>
+                </div>
+
+                <div id="top_news_news" class="news_box wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="title_area clearfix">
+                        <h2>
+                            新着情報
+                            <span class="ir">NEWS</span>
+                        </h2>
+                        <ul>
+                            <li><a href="http://www.yamaura.co.jp/news">一覧</a></li>
+                        </ul>
+                    </div>
+                    <ul class="news_list">
+                                                                            <li>
+                                <p class="news_date">08月10日</p>
+                                <p class="news_category cat_ir"><span>IR情報</span></p>
+                                <p class="news_title">
+                                    <a href="http://www.yamaura.co.jp/news/%e5%b9%b3%e6%88%9029%e5%b9%b49%e6%9c%88%e6%9c%9f%e3%80%80%e7%ac%ac3%e5%9b%9b%e5%8d%8a%e6%9c%9f%e6%b1%ba%e7%ae%97%e7%9f%ad%e4%bf%a1%e3%80%94%e6%97%a5%e6%9c%ac%e5%9f%ba%e6%ba%96%e3%80%95%ef%bc%88/">平成29年9月期　第3四半期決算短信〔日本基準〕（連結）を発表しました</a>
+                                </p>
+                            </li>
+                                                    <li>
+                                <p class="news_date">08月03日</p>
+                                <p class="news_category cat_info"><span>お知らせ</span></p>
+                                <p class="news_title">
+                                    <a href="http://www.yamaura.co.jp/news/%e3%81%8a%e7%9b%86%e4%bc%91%e3%81%bf%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b/">お盆休みのお知らせ</a>
+                                </p>
+                            </li>
+                                                    <li>
+                                <p class="news_date">07月13日</p>
+                                <p class="news_category cat_csr"><span>CSR活動</span></p>
+                                <p class="news_title">
+                                    <a href="http://www.yamaura.co.jp/news/%e5%9c%b0%e5%85%83%e3%81%ae%e4%b8%ad%e5%ad%a6%e6%a0%a15%e6%a0%a1%e3%81%8b%e3%82%89%e8%81%b7%e5%a0%b4%e4%bd%93%e9%a8%93%e5%ad%a6%e7%bf%92%e3%82%92%e5%8f%97%e3%81%91%e5%85%a5%e3%82%8c%e3%81%be%e3%81%97/">地元の中学生の職場体験学習を受け入れました</a>
+                                </p>
+                            </li>
+                                                    <li>
+                                <p class="news_date">06月30日</p>
+                                <p class="news_category cat_info"><span>お知らせ</span></p>
+                                <p class="news_title">
+                                    <a href="http://www.yamaura.co.jp/news/%e9%a7%92%e3%83%b6%e6%a0%b9%e5%b8%82%e3%81%a8%e3%80%8c%e7%84%a1%e4%ba%ba%e8%88%aa%e7%a9%ba%e6%a9%9f%e3%81%ab%e3%82%88%e3%82%8b%e7%81%bd%e5%ae%b3%e5%af%be%e7%ad%96%e6%b4%bb%e5%8b%95%e3%81%ab%e9%96%a2/">駒ヶ根市と「無人航空機による災害対策活動に関する協定」を締結しました。</a>
+                                </p>
+                            </li>
+                                                    <li>
+                                <p class="news_date">06月12日</p>
+                                <p class="news_category cat_csr"><span>CSR活動</span></p>
+                                <p class="news_title">
+                                    <a href="http://www.yamaura.co.jp/news/%e6%a3%ae%e6%9e%97%ef%bc%88%e3%82%82%e3%82%8a%ef%bc%89%e3%81%ae%e9%87%8c%e8%a6%aa%e4%bf%83%e9%80%b2%e4%ba%8b%e6%a5%ad%e3%80%80%e3%83%9c%e3%83%a9%e3%83%b3%e3%83%86%e3%82%a3%e3%82%a2%e6%b4%bb%e5%8b%95/">森林（もり）の里親促進事業　ボランティア活動を行いました</a>
+                                </p>
+                            </li>
+                                                    <li>
+                                <p class="news_date">06月01日</p>
+                                <p class="news_category cat_info"><span>お知らせ</span></p>
+                                <p class="news_title">
+                                    <a href="http://www.yamaura.co.jp/news/%e3%80%8c%e3%83%a4%e3%83%9e%e3%82%a6%e3%83%a9%e3%83%95%e3%83%83%e3%83%88%e3%82%b5%e3%83%ab%e9%83%a8%e3%80%8d%e3%82%92%e7%ab%8b%e3%81%a1%e4%b8%8a%e3%81%92%e3%81%be%e3%81%97%e3%81%9f%ef%bc%81/">「ヤマウラフットサル部」を立ち上げました！</a>
+                                </p>
+                            </li>
+                                                    <li>
+                                <p class="news_date">05月26日</p>
+                                <p class="news_category cat_info"><span>お知らせ</span></p>
+                                <p class="news_title">
+                                    <a href="http://www.yamaura.co.jp/news/%e5%b9%b3%e6%88%9028%e5%b9%b4%e5%ba%a6%e6%8a%80%e8%83%bd%e7%ab%b6%e6%8a%80%e5%a4%a7%e4%bc%9a%e3%80%80%e3%80%90%ef%bc%92%e7%b4%9a%e6%a7%8b%e9%80%a0%e7%89%a9%e9%89%84%e5%b7%a5%e3%80%91%ef%bc%92%e4%bd%8d/">平成28年度技能競技大会　【２級構造物鉄工】２位入賞</a>
+                                </p>
+                            </li>
+                                                    <li>
+                                <p class="news_date">05月15日</p>
+                                <p class="news_category cat_ir"><span>IR情報</span></p>
+                                <p class="news_title">
+                                    <a href="http://www.yamaura.co.jp/news/%e5%b9%b3%e6%88%9029%e5%b9%b49%e6%9c%88%e6%9c%9f-%e7%ac%ac2%e5%9b%9b%e5%8d%8a%e6%9c%9f%e6%b1%ba%e7%ae%97%e7%9f%ad%e4%bf%a1-%e4%bb%96%e3%82%92%e7%99%ba%e8%a1%a8%e3%81%97%e3%81%be%e3%81%97%e3%81%9f/">平成29年9月期 第2四半期決算短信 他を発表しました。</a>
+                                </p>
+                            </li>
+                                                    <li>
+                                <p class="news_date">05月10日</p>
+                                <p class="news_category cat_info"><span>お知らせ</span></p>
+                                <p class="news_title">
+                                    <a href="http://www.yamaura.co.jp/news/%e9%95%b7%e9%87%8e%e7%9c%8c%e6%ba%b6%e6%8e%a5%e6%8a%80%e8%a1%93%e3%82%b3%e3%83%b3%e3%82%af%e3%83%bc%e3%83%ab%e3%80%80%e5%84%aa%e8%89%af%e8%b3%9e%e5%8f%97%e8%b3%9e/">長野県溶接技術コンクール　優良賞受賞</a>
+                                </p>
+                            </li>
+                                                    <li>
+                                <p class="news_date">04月20日</p>
+                                <p class="news_category cat_info"><span>お知らせ</span></p>
+                                <p class="news_title">
+                                    <a href="http://www.yamaura.co.jp/news/%e4%b8%ad%e9%83%a8%e9%9b%bb%e5%8a%9b%e3%88%b1%e6%a7%98%e3%82%88%e3%82%8a%e6%84%9f%e8%ac%9d%e7%8a%b6%e3%82%92%e9%a0%82%e3%81%8d%e3%81%be%e3%81%97%e3%81%9f/">中部電力㈱様より感謝状を頂きました</a>
+                                </p>
+                            </li>
+                        
+                    </ul>
+                </div>
+
+            </div>
+
+        </section>
+        <!-- CONTENTS AREA END -->
+
+            <section id="links">
+                <div class="box_container wow fadeInUp" data-wow-delay="0.0s">
+                    <h2><img src="http://www.yamaura.co.jp/wp/wp-content/themes/yamaura/img/top/links_title.png" alt="yamaura 関連リンク"></h2>
+                    <p class="title_exp_txt">
+                        「高品質」「顧客満足度の向上」をモットーとして、さまざまなサービスを展開しています。
+                    </p>
+                    <div class="links_contents">
+                        <div class="links_inner">
+                            <a href="http://eng.yamaura.co.jp/" target="_blank" class="hover_txt"><img src="http://www.yamaura.co.jp/wp/wp-content/themes/yamaura/img/common/links_engneering.png" alt="yamaura エンジニアリング事業部"></a>
+                        </div>
+                        <div class="links_inner">
+                            <a href="http://www.yamaura-kikaku.jp/" target="_blank" class="hover_txt"><img src="http://www.yamaura.co.jp/wp/wp-content/themes/yamaura/img/common/links_kikaku.png" alt="ヤマウラ企画開発株式会社"></a>
+                        </div>
+                        <div class="links_inner">
+                            <a href="http://builder-net.jp/builder/0079/" target="_blank" class="hover_txt"><img src="http://www.yamaura.co.jp/wp/wp-content/themes/yamaura/img/common/links_yss.png" alt="YSS建築"></a>
+                        </div>
+                        <!--<div class="links_inner">
+                            <a href="https://www.shinshu-tochi.com" target="_blank" class="hover_txt"><img src="http://www.yamaura.co.jp/wp/wp-content/themes/yamaura/img/common/links_tochi.png" alt="信州土地活用NAVI"></a>
+                        </div>-->
+                        <div class="links_inner">
+                            <a href="http://www.kaigyoui.jp/" target="_blank" class="hover_txt"><img src="http://www.yamaura.co.jp/wp/wp-content/themes/yamaura/img/common/links_kaigyoi.png" alt="開業医研究所"></a>
+                        </div>
+                        <div class="links_inner">
+                            <a href="http://yamaura-home.com/" target="_blank" class="hover_txt"><img src="http://www.yamaura.co.jp/wp/wp-content/themes/yamaura/img/common/links_sumai.png" alt="Yamauraの住まいと土地"></a>
+                        </div>
+                        <div class="links_inner">
+                            <a href="http://www.brainmansion.com/" target="_blank" class="hover_txt"><img src="http://www.yamaura.co.jp/wp/wp-content/themes/yamaura/img/common/links_brain.png" alt="BRAIN MANSION"></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    </article>
+            <footer>
+            <div id="foot_contact">
+                <div class="box_container">
+                    <p class="tel_text">
+                        お問い合わせはこちら <span>TEL.0265-81-6010</span> 受付時間 9:00〜18:00　月〜金
+                    </p>
+                    <p class="mail_text">
+                        <a href="http://www.yamaura.co.jp/contact" class="hover_txt"><img src="http://www.yamaura.co.jp/wp/wp-content/themes/yamaura/img/common/foot_mail_icon.png" alt="お問い合わせ・資料請求">お問い合わせ・資料請求</a>
+                    </p>
+                </div>
+            </div>
+            <div id="foot_navi">
+                <div class="box_container foot_logo_area">
+                    <p class="foot_logo"><img src="http://www.yamaura.co.jp/wp/wp-content/themes/yamaura/img/common/foot_logo.png" alt="yamaura"></p>
+                    <div class="foot_links">
+                        <ul>
+                            <li><a href="http://www.yamaura.co.jp/">ホーム</a></li>
+                            <li><a href="http://www.yamaura.co.jp/prize">表彰実績・リリース</a></li>
+                            <li><a href="http://www.yamaura.co.jp/news">新着情報</a></li>
+                            <li><a href="http://www.yamaura.co.jp/sitemap">サイトマップ</a></li>
+                            <li><a href="http://www.yamaura.co.jp/gyousya/bm-gyousya.html" target="_blank">協力会社の皆様へ</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="box_container foot_navigations">
+                    <div class="foot_navi_wrap">
+                        <dl>
+                            <dt><a href="http://www.yamaura.co.jp/corporate">企業情報</a></dt>
+                            <dd>
+                                <ul>
+                                    <li><a href="http://www.yamaura.co.jp/corporate/message">社長メッセージ</a></li>
+                                    <li><a href="http://www.yamaura.co.jp/corporate/identity">理念・ブランド</a></li>
+                                    <li><a href="http://www.yamaura.co.jp/corporate/about">会社概要</a></li>
+                                    <li><a href="http://www.yamaura.co.jp/corporate/history">沿革</a></li>
+                                    <li><a href="http://www.yamaura.co.jp/corporate/branch">ネットワーク</a></li>
+                                    <li><a href="http://www.yamaura.co.jp/corporate/people">ヤマウラの人づくり</a></li>
+                                    <li><a href="http://www.yamaura.co.jp/corporate/health">健康宣言</a></li>
+                                    <li><a href="http://www.yamaura.co.jp/corporate/policy">個人情報保護法</a></li>
+                                    <li><a href="http://www.yamaura.co.jp/corporate/action-plan">一般事業主行動計画</a></li>
+                                    <li><a href="http://www.yamaura.co.jp/recruit/" target="_blank">採用情報</a></li>
+                                </ul>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="foot_navi_wrap">
+                        <dl>
+                            <dt><a href="http://www.yamaura.co.jp/technology">技術紹介</a></dt>
+                            <dd>
+                                <ul>
+                                    <li><a href="http://www.yamaura.co.jp/technology/about">ヤマウラの技術</a></li>
+                                    <li><a href="http://www.yamaura.co.jp/technology/dna">ものづくりのDNA</a></li>
+                                    <li><a href="http://www.yamaura.co.jp/technology/enviroment">ヤマウラの環境技術</a></li>
+                                    <li><a href="http://www.yamaura.co.jp/technology/movie">動画で見る工事技術</a></li>
+                                    <li><a href="http://www.yamaura.co.jp/technology/management">PAS99</a></li>
+                                    <li><a href="http://www.yamaura.co.jp/prize">表彰実績一覧</a></li>
+                                </ul>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="foot_navi_wrap">
+                        <dl>
+                            <dt><a href="http://www.yamaura.co.jp/sector">事業部門</a></dt>
+                            <dd>
+                                <ul>
+                                    <li><a href="http://www.yamaura.co.jp/sector/builds">建築部門</a></li>
+                                    <li><a href="http://www.yamaura.co.jp/sector/construction">土木部門</a></li>
+                                    <li><a href="http://eng.yamaura.co.jp/" target="_blank">エンジニアリング事業部門</a></li>
+                                    <li><a href="http://www.yamaura.co.jp/sector/condominium">首都圏事業部門</a></li>
+                                    <li><a href="http://www.yamaura.co.jp/sector/brain-mansion">ブレインマンションFC事業部門</a></li>
+                                </ul>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="foot_navi_wrap">
+                        <dl>
+                            <dt><a href="http://www.yamaura.co.jp/works">施工実績</a></dt>
+                            <dd>
+                                <ul>
+                                    <li><a href="http://www.yamaura.co.jp/works/category/goverment-builds/">官庁建築</a></li>
+                                    <li><a href="http://www.yamaura.co.jp/works/category/goverment-construction/">官庁土木</a></li>
+                                    <li><a href="http://www.yamaura.co.jp/works/category/builds">民間建築</a></li>
+                                    <li><a href="http://eng.yamaura.co.jp/products" target="_blank">エンジニアリング事業</a></li>
+                                    <li><a href="http://www.yamaura-kikaku.jp/works/" target="_blank">開発分譲マンション事業</a></li>
+                                    <li><a href="http://www.yamaura.co.jp/works/category/brain-mansion">ブレインマンションFC事業</a></li>
+                                </ul>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt><a href="http://www.yamaura.co.jp/csr">CSR</a></dt>
+                            <dd>
+                                <ul>
+                                    <li><a href="http://www.yamaura.co.jp/csr/about">CSR活動内容</a></li>
+                                </ul>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="foot_navi_wrap">
+                        <dl>
+                            <dt><a href="http://www.yamaura.co.jp/ir">IR情報</a></dt>
+                            <dd>
+                                <ul>
+                                    <li><a href="http://www.yamaura.co.jp/ir/ir">株主の方へ</a></li>
+                                    <li><a href="http://www.yamaura.co.jp/ir/enviroment">ヤマウラの環境技術</a></li>
+                                    <li><a href="http://www.yamaura.co.jp/ir/shareholders">株主優待について</a></li>
+                                    <li><a href="http://www.yamaura.co.jp/ir/contact">株主の方のお問い合わせ</a></li>
+                                </ul>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>スペシャルコンテンツ<br>「サービスと技術」</dt>
+                            <dd>
+                                <ul>
+                                    <li><a href="http://www.yamaura.co.jp/specials/total-produce">トータルプロデュース</a></li>
+                                    <li><a href="http://www.yamaura.co.jp/specials/bim-cim">BIM・CIM</a></li>
+                                    <li><a href="http://www.yamaura.co.jp/specials/professional">プロフェッショナル集団</a></li>
+                                </ul>
+                            </dd>
+                        </dl>
+                    </div>
+
+                </div>
+                <div class="box_container foot_address">
+                    <p><strong>株式会社 ヤマウラ(東証一部上場)</strong><span>〒399-4195 長野県駒ヶ根市北町22-1</span><span>TEL. 0265-81-6010　FAX 0265-82-3966</span></p>
+                    <p class="copyright">
+                        All rights reserved, &copy; YAMAURA CORP.
+                    </p>
+                </div>
+            </div>
+        </footer>
+        <p class="to_top"><a href="#top" class="hover_txt"><img src="http://www.yamaura.co.jp/wp/wp-content/themes/yamaura/img/common/to_top.png" alt="TOP"></a></p>
+        <!-- User Heat Tag -->
+<script type="text/javascript">
+(function(add, cla){window['UserHeatTag']=cla;window[cla]=window[cla]||function(){(window[cla].q=window[cla].q||[]).push(arguments)},window[cla].l=1*new Date();var ul=document.createElement('script');var tag = document.getElementsByTagName('script')[0];ul.async=1;ul.src=add;tag.parentNode.insertBefore(ul,tag);})('//uh.nakanohito.jp/uhj2/uh.js', '_uhtracker');_uhtracker({id:'uhaeu1RmTB'});
+</script>
+<!-- End User Heat Tag --><script type='text/javascript' src='http://www.yamaura.co.jp/wp/wp-includes/js/wp-embed.min.js?ver=4.8.1'></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-16164416-1', 'auto');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+
+</script>
+</div>
+</body>
+</html>

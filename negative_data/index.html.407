@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+	<title>北海道コカ・コーラボトリング株式会社 トップページ</title>
+	<link rel="SHORTCUT ICON" href="./hokccbc.ico">
+<script type="text/javascript" language="JavaScript" src="js/onmouse.js"></script>
+<script type="text/javascript" language="JavaScript" src="js/jquery_min_1_7_1.js"></script>
+<script type="text/javascript" language="JavaScript" src="js/jquery-ui-1.9.0.custom.min.js"></script>
+<script type="text/javascript" language="JavaScript" src="js/jquery.pagescroll.min.js"></script>
+<script type="text/javascript" language="JavaScript" src="js/jumpto2.js"></script>
+<!-- Second, add the Timer and Easing plugins -->
+<script type="text/javascript" src="js/jquery.timers-1.2.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+
+<!-- Third, add the GalleryView Javascript and CSS files -->
+<script type="text/javascript" src="js/jquery.galleryview-3.0-dev.js"></script>
+
+<link href="css/navi.css" rel="stylesheet" type="text/css">
+<link href="css/main.css" rel="stylesheet" type="text/css">
+<link href="css/main2.css" rel="stylesheet" type="text/css">
+<link href="css/jquery.galleryview-3.0-dev.css" rel="stylesheet" type="text/css" />
+<!-- Lastly, call the galleryView() function on your unordered list(s) -->
+<script type="text/javascript">
+	$(function(){
+		$('#myGallery').galleryView({
+		transition_speed: 1500, 		//INT - duration of panel/frame transition (in milliseconds)
+		transition_interval: 5000, 		//INT - delay between panel/frame transitions (in milliseconds)
+		easing: 'swing', 				//STRING - easing method to use for animations (jQuery provides 'swing' or 'linear', more available with jQuery UI or Easing plugin)
+		show_panels: true, 				//BOOLEAN - flag to show or hide panel portion of gallery
+		show_panel_nav: true, 			//BOOLEAN - flag to show or hide panel navigation buttons
+		enable_overlays: true, 			//BOOLEAN - flag to show or hide panel overlays
+		showOverlay: true,
+		panel_width: 740, 				//INT - width of gallery panel (in pixels)
+		panel_height: 300, 				//INT - height of gallery panel (in pixels)
+		panel_animation: 'slide', 		//STRING - animation method for panel transitions (crossfade,fade,slide,none)
+		panel_scale: 'crop', 			//STRING - cropping option for panel images (crop = scale image and fit to aspect ratio determined by panel_width and panel_height, fit = scale image and preserve original aspect ratio)
+		pan_images: true,				//BOOLEAN - flag to allow user to grab/drag oversized images within gallery
+		pan_style: 'drag',				//STRING - panning method (drag = user clicks and drags image to pan, track = image automatically pans based on mouse position
+		pan_smoothness: 15,				//INT - determines smoothness of tracking pan animation (higher number = smoother)
+		start_frame: 3, 				//INT - index of panel/frame to show first when gallery loads
+		show_filmstrip: true, 			//BOOLEAN - flag to show or hide filmstrip portion of gallery
+		show_filmstrip_nav: true, 		//BOOLEAN - flag indicating whether to display navigation buttons
+		enable_slideshow: true,		//BOOLEAN - flag indicating whether to display slideshow play/pause button
+		autoplay: true,				//BOOLEAN - flag to start slideshow on gallery load
+		show_captions: true, 			//BOOLEAN - flag to show or hide frame captions	
+		filmstrip_size: 3, 				//INT - number of frames to show in filmstrip-only gallery
+		filmstrip_style: 'scroll', 		//STRING - type of filmstrip to use (scroll = display one line of frames, scroll filmstrip if necessary, showall = display multiple rows of frames if necessary)
+		filmstrip_position: 'bottom', 	//STRING - position of filmstrip within gallery (bottom, top, left, right)
+		frame_width: 135, 				//INT - width of filmstrip frames (in pixels)
+		frame_height: 84, 				//INT - width of filmstrip frames (in pixels)
+		frame_opacity: 0.6, 			//FLOAT - transparency of non-active frames (1.0 = opaque, 0.0 = transparent)
+		frame_scale: 'crop', 			//STRING - cropping option for filmstrip images (same as above)
+		frame_gap: 5, 					//INT - spacing between frames within filmstrip (in pixels)
+		show_infobar: false,				//BOOLEAN - flag to show or hide infobar
+		infobar_opacity: 1				//FLOAT - transparency for info bar
+		});
+	});
+</script>
+	<!--[if lte IE 6.0]>
+		<script src=js/jquery.belatedPNG.min.js" type="text/javascript"></script>
+
+	<![endif]-->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-27842802-1']);
+  _gaq.push(['_setDomainName', 'hokkaido.ccbc.co.jp']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+
+<!--<body bgcolor="#FFFFFF" text="#333333" topmargin="0" onload="CBpopupOpen();" onLoad="MM_preloadImages('img/top_f2.gif','img/bt_release.jpg','img/bt_ir.jpg')">-->
+<body bgcolor="#FFFFFF" text="#333333" topmargin="0">
+<div align="center"><a id="top"></a>
+<!--ここからヘッダ-->
+	<div id="header">
+		<div class="header_wrapper" align="center">
+			<div class="header_logo">
+				<h1><a href="#"><img src="img/img_header_logo.jpg" alt="北の大地とともに 北海道コカ・コーラボトリング株式会社" /></a></h1>
+			</div>
+			<div class="header_navi">
+				<ul>
+					<li class="topnavi"><a href="#">トップ</a></li>
+					<li class="sitemapnavi"><a href="sitemap.html">サイトマップ</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+<!--ここまでヘッダ-->
+<!--ここからグローバルナビゲーション-->
+	<div id="gnavi">
+		<ul align="center">
+			<li class="gnavi_newsrelease"><a href="newsrelease/release.html">ニュースリリース</a></li>
+			<li class="gnavi_company"><a href="company/company.html">会社案内</a></li>
+			<li class="gnavi_promotion"><a href="promotion/promotion.html">商品プロモーション</a></li>
+			<li class="gnavi_ir"><a href="ir/stockabout.html">投資家の皆様へ</a></li>
+			<li class="gnavi_comunication"><a href="comunication/safety.html">地域コミュニケーション</a></li>
+			<li class="gnavi_csr"><a href="environment/mind.html">環境への取り組み</a></li>
+			<li class="gnavi_factory"><a href="factory/plant.html">工場見学</a></li>
+			<li class="gnavi_recruit"><a href="recruit/talent.html">リクルート</a></li>
+		</ul>
+	</div>
+<!--ここまでグローバルナビゲーション-->
+<!--ここから本文-->
+<div id="mainGallery">
+	<ul id="myGallery">
+			<li><img data-frame="img/s7.jpg" src="img/big7.jpg" title="環境の取り組み" data-description="より良い環境と明るい未来のために北海道コカ・コーラが今取り組んでいることを紹介します。" data-link="./environment/mind.html" /></li>
+            <li><img data-frame="img/s5.jpg" src="img/big5.jpg" title="北海道の水を守り育てる為に" data-description="北海道の豊かな水環境を次世代につなげてまいります" data-link="./comunication/environment.html" /></li>
+            <li><img data-frame="img/s9.jpg" src="img/big9.jpg" title="北海道の天然水い･ろ･は･す" data-description="採水地は北海道です。<br><small><small>※北海道内で販売されている「い・ろ・は・す」天然水の285ml/555ml/2LPETに限る</small></small>" data-link="https://www.i-lohas.jp/source/" /></li>
+            <li><img data-frame="img/s6.jpg" src="img/big6.jpg" title="会社案内" data-description="会社の概要、沿革、事業所などの各種情報を紹介します。" data-link="./company/company.html" /></li>
+			<li><img data-frame="img/s1.jpg" src="img/big1.jpg" title="工場見学" data-description="WELCOME PLANT TOUR<br>札幌工場へようこそ！" data-link="https://www.hokkaido.ccbc.co.jp/factory/plant.html" /></li>
+            <li><img data-frame="img/s2.jpg" src="img/big2.jpg" title="地域コミュニケーション" data-description="笑顔あふれるまちづくりを目指して" data-link="./comunication/safety.html" /></li>
+    </ul>
+	<div class="demo"></div>
+</div>
+<table width="770" border="0" cellspacing="0" cellpadding="0">
+	<tr>
+		<td width="11" align="right" valign="top"><img src="img/spacer.gif" alt="" width="11" height="10"></td>
+		<td width="748" align="left" valign="top" class="white">
+		<table bgcolor="#FFFFFF" width="748" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td valign="top" width="10"><img src="img/1spacer.gif" alt="" height="250" width="10"></td>
+				<td valign="top">
+				<table width="371" border="0" cellspacing="0" cellpadding="0">
+					<tr>
+						<td><img src="img/1spacer.gif" alt="" width="371" height="4"></td>
+					</tr>
+					<tr>
+						<td><img src="img/whats_top.jpg" alt="" width="371" height="5"></td>
+					</tr>
+					<tr>
+						<td align="center" background="img/whats_mid.jpg"><img src="img/whats_title.gif" alt="最新情報" width="341" height="18"></td>
+					</tr>
+					<tr>
+						<td background="img/whats_mid.jpg">
+						<table width="371" border="0" cellpadding="0" cellspacing="5">
+							<tr valign="top">
+								<td style="width: 48px"><span class="style6">2017.8.04</span></td>
+								<td class="style9" style="width: 308px">
+									<a href="./newsrelease/release.html">
+平成29年12月期 第2四半期決算短信</a>
+								</td>
+							</tr>
+							<tr valign="top">
+								<td style="width: 48px"><span class="style6">2017.7.31</span></td>
+								<td class="style9" style="width: 308px">
+									<a href="./newsrelease/release.html">
+特殊詐欺被害防止ポスターが安全で安心な街づくり
+<br/>全道約１,０００台の自動販売機に特殊詐欺被害防止ポスターを掲示
+<br/>～　北海道警察本部、札幌市立大学との協働の取り組み　～</a>
+								</td>
+							</tr>
+							<tr valign="top">
+								<td style="width: 48px"><span class="style6">2017.7.21</span></td>
+								<td class="style9" style="width: 308px">
+									<a href="./newsrelease/release.html">
+未来を担う子どもたちを応援！ 
+<br/>小学生職業体験事業「くしろキッズタウン2017」開催！
+								</td>
+							</tr>
+							<tr valign="top">
+								<td style="width: 48px"><span class="style6">2017.7.10</span></td>
+								<td class="style9" style="width: 308px">
+									<a href="./newsrelease/release.html">
+「コカ・コーラ」　「コカ･コーラ ゼロ」
+<br/>「YOSAKOIソーラン祭り応援デザイン缶」
+<br/>売上の一部をYOSAKOIソーラン祭りへ寄付！
+<br/>2017年度寄付額　２，１４９，３９２円
+<br/>～２０１７年７月１２日（水） 寄付金贈呈式を実施～</a>
+								</td>
+							</tr>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td background="img/whats_mid.jpg" align="center"><img src="img/whats_line.gif" alt="" width="341" height="1"></td>
+					</tr>
+					<tr align="right">
+						<td background="img/whats_mid.jpg">
+						<table cellspacing="3">
+							<tr>
+								<td class="style1"><a href="newsrelease/release.html">&#187; バックナンバー</a></td>
+							</tr>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td><img src="img/whats_botom.jpg" alt="" width="371" height="5"></td>
+					</tr>
+				</table>
+
+<!--トピックスここから
+
+北海道でのキャンペーンがあるときには以下を利用して表示
+
+キャンペーンがない間は、コメントアウトしておく。タグを消去してしまわないように注意-->
+
+		<table width="371" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td><img src="img/1spacer.gif" alt="" width="371" height="4"></td>
+			</tr>
+			<tr>
+				<td><img src="img/whats_top.jpg" alt="" width="371" height="5"></td>
+			</tr>
+			<tr>
+				<td align="center" background="img/whats_mid.jpg"><img src="img/topics_title.gif" alt="トピックス" width="341" height="18"></td>
+			</tr>
+			<tr>
+				<td background="img/whats_mid.jpg">
+					<table width="371" border="0" cellpadding="0" cellspacing="5">
+						<tr valign="top">
+					         <td valign="top"><span class="style6">2017.6.15</span></td>
+					         <td class="style9" style="width: 308px"><a href="javascript:void(0);"onClick="window.open('./campaign/campaign114.html', 'newwin', 'width=960,height=800,scrollbars = yes')">
+北海道コカ･コーラが道民に贈る　道民応援キャンペーンHAPPY体験が抽選でアタル！<br>
+当選者様へイベントを実施いたしました！
+<br>
+					         </a></td>
+				         </tr>
+						<tr valign="top">
+					         <td valign="top"><span class="style6">2017.5.22</span></td>
+					         <td class="style9" style="width: 308px"><a href="javascript:void(0);"onClick="window.open('./campaign/campaign113.html', 'newwin', 'width=960,height=800,scrollbars = yes')">
+コカ･コーラ社製品を飲んで北海道日本ハムファイターズを応援しよう！キャンペーン<br>
+					         </a></td>
+				         </tr>
+						<tr valign="top">
+					         <td valign="top"><span class="style6">2017.4.3</span></td>
+					         <td class="style9" style="width: 308px"><a href="javascript:void(0);"onClick="window.open('./campaign/campaign112.html', 'newwin', 'width=960,height=800,scrollbars = yes')">
+「第26回YOSAKOIソーラン祭り」参加チームを応援！<br>
+大通パレード会場・道庁赤れんが会場での<br>
+給水用飲料の予約販売開始！
+					         </a></td>
+				         </tr>
+						<tr valign="top">
+					         <td valign="top"><span class="style6">2017.3.7</span></td>
+					         <td class="style9" style="width: 308px"><a href="javascript:void(0);"onClick="window.open('./campaign/campaign111.html', 'newwin', 'width=960,height=800,scrollbars = yes')">
+道民応援キャンペーン　HAPPY体験が抽選でアタル!プロモーション<br>
+Aコース　センチュリーロイヤルホテル　特別フロア<br>
+コカ・コーラルーム紹介
+					         </a></td>
+				         </tr>
+						<tr valign="top">
+					         <td valign="top"><span class="style6">2017.2.6</span></td>
+					         <td class="style9" style="width: 308px"><a href="javascript:void(0);"onClick="window.open('./campaign/campaign110.html', 'newwin', 'width=960,height=800,scrollbars = yes')">
+北海道コカ・コーラが道民に贈る<br>
+道民応援キャンペーン<br>
+HAPPY体験が抽選でアタル！
+					         </a></td>
+				         </tr>
+						<tr valign="top">
+					         <td valign="top"><span class="style6">2016.9.13</span></td>
+					         <td class="style9" style="width: 308px"><a href="javascript:void(0);"onClick="window.open('./campaign/campaign107.html', 'newwin', 'width=960,height=800,scrollbars = yes')">
+始球式やインタビューに挑戦！<br>
+北海道日本ハムファイターズvs<br>
+福岡ソフトバンクホークス<br>
+8月20日北海道コカ・コーラプレゼンツ<br>
+コカ・コーラ スペシャルマッチを開催しました！
+					         </a></td>
+				         </tr>
+						<tr valign="top">
+					         <td valign="top"><span class="style6">2016.8.8</span></td>
+					         <td class="style9" style="width: 308px"><a href="javascript:void(0);"onClick="window.open('./campaign/campaign106.html', 'newwin', 'width=960,height=800,scrollbars = yes')">
+道民応援キャンペーン<br>
+レバンガ北海道スポーツクリニック実施！
+					         </a></td>
+				         </tr>
+                        <!--<tr valign="top">
+							<td class="style9" colspan="2">&nbsp;&nbsp;現在お知らせしているトピックスはありません。</a></td>
+						</tr>-->
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td background="img/whats_mid.jpg" align="center"><img src="img/whats_line.gif" alt="" width="341" height="1"></td>
+			</tr>
+			<tr align="right">
+				<td background="img/whats_mid.jpg">
+				<table cellspacing="3">
+					<tr>
+						<td class="style1"><a href="newsrelease/campaign.html">&#187; バックナンバー</a></td>
+					</tr>
+				</table>
+				</td>
+			</tr>
+			<tr>
+				<td><img src="img/whats_botom.jpg" alt="" width="371" height="5"></td>
+			</tr>
+		</table>
+
+<!--トピックスここまで-->
+
+		<table width="371" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td colspan="2"><img src="img/1spacer.gif" alt="" width="371" height="4"></td>
+			</tr>
+			<tr>
+				<td style="vertical-align:top;"><a href="http://www.cocacola-zaidan.jp/" target="_blank"><img src="img/zaidan_bnr_L.jpg" width="176" height="84" alt="公益財団法人 コカ・コーラ教育・環境財団" border="1"></a></td>
+				<td style="vertical-align:top;"><a href="http://www.cocacola.co.jp/stories/yosakoi" target="_blank"><img src="img/bn_yosakoi_a.jpg" width="149" height="84" alt="加盟団体" border="1"></a></td>
+			</tr>
+			<tr>
+				<td colspan="2"><img src="img/1spacer.gif" alt="" width="371" height="4"></td>
+			</tr>
+			<tr>
+				<td style="vertical-align:top;" ><a href="./company/kamei.html"><img src="img/kamei.jpg" width="176" height="84" alt="加盟団体" border="1"></a></td>
+				<td style="vertical-align:top;"></td>
+			</tr>
+		</table>
+
+		</td>
+			<td align="center" valign="top">
+			<table border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td align="center" valign="top">
+					<table border="0" cellspacing="0" cellpadding="4">
+					<td align="center" valign="top">
+					<table border="0" cellspacing="0" cellpadding="4">
+						<tr valign="top">
+<!--							<td><a href="http://www.wocct.com/fla/top.html" target="_blank"><img src="img/bn_woct.gif" alt="World of Cola-cola" width="160" height="65" border="0" longdesc="http://www.wocct.com/fla/top.html"></a></td> -->
+						</tr>
+						<tr align="left">
+							<td colspan="2"><a href="https://shop.hokkaido.ccbc.co.jp/" target="_blank"><img src="img/bn_goodluck.png" alt="北海道限定コカ・コーラ オンラインショップ" width="327" height="115" border="0"></a></td>
+						</tr>
+						<tr align="left">
+							<td colspan="2"><a href="http://www.cocacola.jp/plus/" target="_blank"><img src="img/tokuhobaner.jpg" alt="コカ・コーラ プラス" width="327" height="115" border="0"></a></td>
+						</tr>
+						<tr align="left">
+							<td colspan="2"><a href="http://c.cocacola.co.jp/app/" target="_blank"><img src="img/bn_coke_on.png" alt="Coke on" width="327" height="115" border="0"></a></td>
+						</tr>
+						<tr align="left">
+							<td colspan="2"><a href="https://www.facebook.com/hokkaidococacola/" target="_blank"><img src="img/facebook_bana.jpg" alt="Facebook" width="327" height="115" border="0"></a></td>
+						</tr>
+						<tr align="left">
+							<td><a href="http://www.heco-spc.or.jp/emizu/" target="_blank"><img src="img/bn_emizu.png" alt="北海道e-水プロジェクト" width="160" height="60" border="0"></a></td>
+							<td><a href="http://www.cmode.jp/" target="_blank"><img src="img/bn_mmoney.png" alt="電子マネー" width="160" height="65" border="0"></a></td>
+						</tr>
+						<tr align="left">
+							<td><a href="./company/conference.html"><img src="img/bn_custom.gif" alt="お客様相談室" width="160" height="53" border="0"></a></td>
+							<td><a href="http://j.cocacola.co.jp/uruosu/mori/" target="_blank"><img src="img/bn_mori.gif" alt="森の博士" width="160" height="57" border="0"></a></td>
+						</tr>
+						<tr align="left">
+							<td colspan="2"><a href="./jihan/top.html"><img src="img/bn_jihan.gif" alt="自動販売機のご紹介" width="160" height="57" border="0"></a></td>
+						</tr>
+						<tr align="left">
+							<td colspan="2"><a href="./i-lohas/index.html"><img src="img/i-lohas.jpg" alt="北海道のい・ろ・は・す" width="328" height="114" border="0" /></a></td>
+						</tr>
+					</table>
+					</td>
+<!--						<tr align="left">
+							<td><a href="http://www.cocacola.co.jp/uruosu/wcup2006/" target="_blank"><img src="img/bn_fifa.bmp" alt="「ジュニア親善大使」大募集" width="330" height="63" border="0"></a></td>
+						</tr>-->
+
+					</table>
+					</td>
+				</tr>
+				<tr>
+					<td width="367"><img src="img/1spacer.gif" alt="" width="367" height="10"></td>
+				</tr>
+			</table>
+			</td>
+		 </tr>
+		 <tr><td style="font-size : x-small">&nbsp;</td></tr>
+		 <tr>
+			<td colspan="3" align = "right" class="style1">
+				<table style="line-height:8pt;">
+					<tr>
+						<td>&nbsp;</td>
+						<td class="style1" valign="top">※「おサイフケータイ」「iD」「DCMX」は株式会社NTTドコモの登録商標または商標です。</td>
+					</tr>
+					<tr>
+						<td>&nbsp;</td>
+						<td class="style1">※「Edy（エディ）」は、ビットワレット株式会社が管理するプリペイド型電子マネーサービスのブランドです。</td>
+					</tr>
+				</table>
+			</td>
+		 </tr>
+	</table>
+	</td>
+		<td width="11" align="left" valign="top"><img src="img/spacer.gif" alt="" width="11" height="10"></td>
+	</tr>
+</table>
+
+<!--ここまで本文-->
+
+<!--ここからフッター-->
+	<div id="footer">
+		<div class="footer_wrapper">
+			<div class="footer_navi">
+				<ul>
+					<li><a href="policy.html">サイトポリシー |  </a></li>
+					<li><a href="privacy.html">プライバシーポリシー | </a></li>
+					<li><a href="http://j.cocacola.co.jp/info/faq/" target="_blank">よくあるご質問</a></li>
+				</ul>
+				<p><a href=""><img src="img/banner_footer_navi_recycle.jpg" alt="のんだあとはリサイクル" /></a></p>
+			</div>
+			<div class="footer_logo">
+				<img src="img/icon_footer_logo.jpg" alt="" />
+				<p>Copyright (c) <script type="text/javascript">myDate = new Date() ;myYear = myDate.getFullYear ();document.write(myYear);</script> Hokkaido Coca-Cola Bottling Co.,Limited All Rights Reserved.</p>
+			</div>
+		</div>
+	</div>
+<!--ここまでフッター-->
+</div>
+</body>
+</html>

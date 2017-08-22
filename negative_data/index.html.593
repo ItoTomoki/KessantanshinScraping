@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<meta name="description" content="トラックワンは中古トラックの販売・買取・冷凍車レンタカー事業を全国7拠点で展開しております。良質で安全なトラックなら、トラックワン。" />
+<meta name="keywords" content="中古トラック,販売,ダンプ,冷凍車,レンタカー" />
+<title>中古トラックのトラックワン</title>
+<link rel="canonical" href="http://www.truck-one.com/" />
+<link rel="alternate" type="application/rss+xml" title="新入庫トラック情報" href="/rss/888.xml" />
+<link rel="stylesheet" href="/common/css/style.css" />
+<link rel="icon" href="/favicon.ico" />
+<script type="text/javascript" src="/common/js/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript" src="/common/js/effects.core.js"></script>
+<script type="text/javascript" src="/common/js/effects.slide.js"></script>
+<script type="text/javascript" src="/common/js/script.js"></script>
+<script type="text/javascript" src="/common/js/jquery.leanModal.min.js"></script>
+<script type="text/javascript" src="/common/js/jquery.nivo.slider.pack.js"></script>
+<!--[if lt IE 9]>
+<link rel="stylesheet" href="/common/css/pc.css" />
+<script type="text/javascript" src="/common/js/html5.js"></script>
+<![endif]-->
+</head>
+<body>
+	<div id="wrapper">
+
+		<div id="headerMain" class="clearfix">
+			<div id="headerSec" class="clearfix">
+				<div id="headerRead">
+					<h1>中古トラックのトラックワン</h1>
+					<p class="headDescription">トラックワンは中古トラックの販売・買取・冷凍車レンタカー事業を全国7拠点で展開しております。良質で安全なトラックなら、トラックワン。</p>
+				</div>
+				<div id="headerSecLeft">
+					<div class="clearfix">
+					<a class="logo" href="http://www.truck-one.com/"><img src="/common/svg/logo.svg" width="155" height="42" alt="中古トラックのトラックワン" /><strong class="header_ttl_sales">中古トラックのトラックワン</strong></a>
+					</div>
+				</div>
+				<!-- /#headerSec-left -->
+				<div id="headerSecRight">
+					<p><img src="/common/img/cmn_headerSec_freeDial.jpg" alt="フリーダイヤル0120-077-277" width="507" height="59" /></p>
+				</div>
+				<!-- /#headerSec-right -->
+			</div>
+			<!-- /#headerSec -->
+		</div>
+
+		<div id="gNaviSec" class="clearfix">
+			<p id="mobileMenu">メニュー</p>
+			<ul id="gNavi">
+				<li><a href="http://www.truck-one.com/" >ホーム</a></li>
+				<li><a href="/search/">中古トラック検索</a></li>
+				<li><a href="/kaitori/">トラック買取</a></li>
+				<li><a href="/rent/">冷凍車レンタカー</a></li>
+				<li><a href="/office/">営業所案内</a></li>
+				<li><a href="/company/preindex.php">企業情報</a></li>
+				<li class="last"><a href="/contactus/">お問い合わせ</a></li>
+			</ul>
+		</div>
+		<!-- /#gNaviSec -->
+		<div id="bodySec" class="clearfix">
+			<div id="mainSec">
+				<div id="slidingNotice" class="clearfix">
+					<div id="slidingText" class="clearfix">
+						<p id="stausText">冷凍車レンタカー(軽、2T、4T)の取扱もございます。</p><p>使わなくなったトラックの買取も誠心誠意行わせて頂いております。</p><p>山口本社を基点として、福岡、岡山、愛知、東京と日本全国で中古トラック販売・買取中！</p>
+					</div>
+				</div>
+				<!-- /#slidingNotice -->
+
+				<div id="mainView">
+					<div class="slider-wrapper theme-light">
+<div id="slider" class="nivoSlider">
+<a href="/search/" title="中古トラック販売"><img src="/common/img/index_mainView_new.jpg" width="600" height="168" alt="中古トラックのトラックワン" /></a>
+<a href="http://www.truck-kaitori.com/" title="中古トラック買取" rel="nofollow"><img src="/common/img/topImgKaitori.jpg" alt="高価トラック買取" width="600" height="168" /></a>
+</div>
+</div>
+					<p id="stockToday">
+						<span class="bold">本日の在庫数<span class="f19 red">157</span>台　　　新入庫<span class="f19 red">6</span>台</span>
+						2017年08月21日（月） 現在 					</p>
+				</div>
+				<!-- /#mainView -->
+
+				<div id="container">
+					<div id="contantsArea">
+						<div id="searchTruck" class="indexFormDiv">
+							<ul id="searchMore" class="clearfix">
+								<li class="stock"><a href="/search/">在庫トラック一覧</a></li>
+								<li class="new"><a href="/search/ListNew.html">新入庫トラック</a></li>
+							</ul>
+							<h3 class="cBg">形状から中古トラックを探す</h3>
+							<div class="truckBox clearfix">
+								<ul>
+									<li><a href="/search/ListSearch001.html" title="ダンプ"><img class="imgover1" src="/common/img/cmn_truckBox_btn-1_out.gif" alt="ダンプ" width="99" height="43" /></a></li>
+									<li><a href="/search/ListSearch002.html" title="クレーン付セルフ"><img class="imgover1" src="/common/img/cmn_truckBox_btn-2_out.gif" alt="クレーン付セルフ" width="99" height="43" /></a></li>
+									<li><a href="/search/ListSearch003.html" title="ウィング・ドライバン"><img class="imgover1" src="/common/img/cmn_truckBox_btn-3_out.gif" alt="ウィング・ドライバン" width="99" height="43" /></a></li>
+									<li><a href="/search/ListSearch004.html" title="冷凍車・冷凍ウィング"><img class="imgover1" src="/common/img/cmn_truckBox_btn-4_out.gif" alt="冷凍車・冷凍ウィング" width="99" height="43" /></a></li>
+									<li><a href="/search/ListSearch005.html" title="平ボディー・キャブ付シャーシ"><img class="imgover1" src="/common/img/cmn_truckBox_btn-5_out.gif" alt="平ボディー・キャブ付シャーシ" width="99" height="43" /></a></li>
+									<li><a href="/search/ListSearch006.html" title="セメント関連・タンク車"><img class="imgover1" src="/common/img/cmn_truckBox_btn-6_out.gif" alt="セメント関連・タンク車" width="99" height="43" /></a></li>
+									<li><a href="/search/ListSearch007.html" title="その他・環境車両"><img class="imgover1" src="/common/img/cmn_truckBox_btn-7_out.gif" alt="その他・環境車両" width="99" height="43" /></a></li>
+									<li><a href="/search/ListSearch008.html" title="トラクタ・トレーラ"><img class="imgover1" src="/common/img/cmn_truckBox_btn-8_out.gif" alt="トラクタ・トレーラ" width="99" height="43" /></a></li>
+									<li><a href="/search/ListSearch201.html" title="建設機械・重機"><img class="imgover1" src="/common/img/cmn_truckBox_btn-9_out.gif" alt="建設機械・重機" width="99" height="43" /></a></li>
+									<li><a href="/search/ListSearch401.html" title="パーツ・ボディー"><img class="imgover1" src="/common/img/cmn_truckBox_btn-10_out.gif" alt="パーツ・ボディー" width="99" height="43" /></a></li>
+								</ul>
+							</div>
+
+							<h3 id="show" class="cBg">条件を指定して探す</h3>
+							<div id="lean_overlay" class="searchBox indexForm">
+							<div class="overlayWindow">
+							<form id="form1" name="form1" method="get" action="/search/">
+								<ul>
+									<li>
+										<span class="koumoku">メーカー</span>
+										<select tabindex="1" name="mkr">
+											<option value="" selected="selected">指定なし</option>
+											<option value="001">日　野</option>
+											<option value="002">三　菱</option>
+											<option value="003">いすゞ</option>
+											<option value="004">日産ディーゼル</option>
+											<option value="005">アンチコ</option>
+											<option value="006">トレールモービル</option>
+											<option value="007">フルハーフ</option>
+											<option value="008">東　急</option>
+											<option value="010">ボルボ</option>
+											<option value="012">トヨタ</option>
+											<option value="013">ユソーキ</option>
+											<option value="014">マツダ</option>
+											<option value="015">トレクス</option>
+											<option value="016">メルセデスベンツ</option>
+											<option value="018">ポーズローベット</option>
+											<option value="019">タダノ</option>
+											<option value="020">極　東</option>
+											<option value="021">ヒュンダイ</option>
+											<option value="022">コマツ</option>
+											<option value="023">神　鋼</option>
+											<option value="024">ヒアブ</option>
+											<option value="025">ホンダ</option>
+											<option value="026">昭和飛行機</option>
+											<option value="027">日　立</option>
+											<option value="028">トーヨー</option>
+											<option value="029">日　通</option>
+											<option value="032">日産</option>
+											<option value="999">その他</option>
+										</select>
+									</li>
+									<li>
+										<span class="koumoku">年式</span>
+										<select tabindex="2" name="agf">
+											<option value="" selected="selected">指定なし</option>
+											<option value="2017">2017(H29)</option>
+											<option value="2016">2016(H28)</option>
+											<option value="2015">2015(H27)</option>
+											<option value="2014">2014(H26)</option>
+											<option value="2013">2013(H25)</option>
+											<option value="2012">2012(H24)</option>
+											<option value="2011">2011(H23)</option>
+											<option value="2010">2010(H22)</option>
+											<option value="2009">2009(H21)</option>
+											<option value="2008">2008(H20)</option>
+											<option value="2007">2007(H19)</option>
+											<option value="2006">2006(H18)</option>
+											<option value="2005">2005(H17)</option>
+											<option value="2004">2004(H16)</option>
+											<option value="2003">2003(H15)</option>
+											<option value="2002">2002(H14)</option>
+											<option value="2001">2001(H13)</option>
+											<option value="2000">2000(H12)</option>
+											<option value="1999">1999(H11)</option>
+											<option value="1998">1998(H10)</option>
+											<option value="1997">1997(H09)</option>
+											<option value="1996">1996(H08)</option>
+											<option value="1995">1995(H07)</option>
+											<option value="1994">1994(H06)</option>
+											<option value="1993">1993(H05)</option>
+											<option value="1992">1992(H04)</option>
+											<option value="1991">1991(H03)</option>
+										</select>年
+										～
+										<select tabindex="3" name="agt">
+											<option value="" selected="selected">指定なし</option>
+											<option value="2017">2017(H29)</option>
+											<option value="2016">2016(H28)</option>
+											<option value="2015">2015(H27)</option>
+											<option value="2014">2014(H26)</option>
+											<option value="2013">2013(H25)</option>
+											<option value="2012">2012(H24)</option>
+											<option value="2011">2011(H23)</option>
+											<option value="2010">2010(H22)</option>
+											<option value="2009">2009(H21)</option>
+											<option value="2008">2008(H20)</option>
+											<option value="2007">2007(H19)</option>
+											<option value="2006">2006(H18)</option>
+											<option value="2005">2005(H17)</option>
+											<option value="2004">2004(H16)</option>
+											<option value="2003">2003(H15)</option>
+											<option value="2002">2002(H14)</option>
+											<option value="2001">2001(H13)</option>
+											<option value="2000">2000(H12)</option>
+											<option value="1999">1999(H11)</option>
+											<option value="1998">1998(H10)</option>
+											<option value="1997">1997(H09)</option>
+											<option value="1996">1996(H08)</option>
+											<option value="1995">1995(H07)</option>
+											<option value="1994">1994(H06)</option>
+											<option value="1993">1993(H05)</option>
+											<option value="1992">1992(H04)</option>
+											<option value="1991">1991(H03)</option>
+										</select>年
+									</li>
+									<li>
+										<span class="koumoku">型式</span>
+										<input type="text" size="18" value="" tabindex="4" name="mdl" />
+									</li>
+									<li>
+										<span class="koumoku">サイズ</span>
+										<select tabindex="5" name="sz">
+											<option value="" selected="selected">指定なし</option>
+											<option value="0">大型</option>
+											<option value="1">中型</option>
+											<option value="2">小型</option>
+											<option value="3">トレーラ</option>
+											<option value="9">その他</option>
+										</select>
+									</li>
+									<li>
+										<span class="koumoku">形状</span>
+										<select tabindex="6" name="kj">
+											<option value="" selected="selected">指定なし</option>
+											<option value="001-000">ダンプ</option>
+											<option value="002-000">クレーン付・セルフ</option>
+											<option value="003-000">ウィング・ドライバン</option>
+											<option value="004-000">冷凍車・冷凍ウィング</option>
+											<option value="005-000">平ボディ・キャブ付シャーシ</option>
+											<option value="006-000">セメント関連・タンク車</option>
+											<option value="007-000">その他・環境車両</option>
+											<option value="008-000">トラクタ・トレーラ</option>
+											<option value="201-000">建設機械・重機</option>
+											<option value="401-000">パーツ・ボディ</option>
+										</select>
+									</li>
+									<li>
+										<span class="koumoku">在庫番号</span>
+										<input type="text" size="12" maxlength="6" value="" tabindex="7" name="zno" id="text" onchange="setZno(this);" />
+									</li>
+									<li><span class="koumoku">キーワード</span>
+								  <input type="text" size="35" value="" tabindex="8" name="kwd" />
+									</li>
+								</ul>
+								<p class="erb">
+									<a href="javascript:void(0);" onClick="document.forms.form1.submit();return false;"><img src="../common/img/cmn_searchBox_btn.jpg" alt="検索する" width="140" height="27" /></a>
+									<a href="javascript:void(0);" onclick="clr(document.forms.form1);return false;">
+										<img src="/common/img/cmn_searchBox_clr_btn.jpg" alt="検索条件をクリアする" width="140" height="27" />
+									</a>
+								</p>
+								<p id="wClose">閉じる</p>
+							</form>
+							</div><!-- end .overlayWindow -->
+							</div>
+							<!-- /.searchBox -->
+						</div>
+						<!-- /#searchTruck -->
+
+<div id="topTrucks" class="clearfix">
+<ul>
+<li class="bigger-link">
+	<dl>
+		<dt class="dTitle"><a href="/search/Detail011444.html">いすゞ　KL-CXZ51K4</a></dt>
+		<dd><a href="/search/Detail011444.html"><img src="http://www.truck-one.com/search/photo/011444/0101.JPG" width="122" height="92" alt="いすゞ　KL-CXZ51K4" /><span class="topNum">ミキサー</span><span class="topNenshiki">H16</span></a></dd>
+	</dl>
+</li>
+<li class="bigger-link">
+	<dl>
+		<dt class="dTitle"><a href="/search/Detail020532.html">日産 UD　KL-CW53A</a></dt>
+		<dd><a href="/search/Detail020532.html"><img src="http://www.truck-one.com/search/photo/020532/0101.jpg" width="122" height="92" alt="日産 UD　KL-CW53A" /><span class="topNum">ミキサー</span><span class="topNenshiki">H16</span></a></dd>
+	</dl>
+</li>
+<li class="bigger-link">
+	<dl>
+		<dt class="dTitle"><a href="/search/Detail020768.html">日野　KL-FS2PKGA</a></dt>
+		<dd><a href="/search/Detail020768.html"><img src="http://www.truck-one.com/search/photo/020768/0101.JPG" width="122" height="92" alt="日野　KL-FS2PKGA" /><span class="topNum">ミキサー</span><span class="topNenshiki">H14</span></a></dd>
+	</dl>
+</li>
+<li class="bigger-link">
+	<dl>
+		<dt class="dTitle"><a href="/search/Detail017897.html">三菱　KL-FK61HHZ</a></dt>
+		<dd><a href="/search/Detail017897.html"><img src="http://www.truck-one.com/search/photo/017897/0101.jpg" width="122" height="92" alt="三菱　KL-FK61HHZ" /><span class="topNum">タンク車</span><span class="topNenshiki">H13</span></a></dd>
+	</dl>
+</li>
+<li class="bigger-link">
+	<dl>
+		<dt class="dTitle"><a href="/search/Detail019921.html">日産 UD　QKG-CW5XL</a></dt>
+		<dd><a href="/search/Detail019921.html"><img src="http://www.truck-one.com/search/photo/019921/0101.jpg" width="122" height="92" alt="日産 UD　QKG-CW5XL" /><span class="topNum">ダンプ(Lゲート)</span><span class="topNenshiki">H25</span></a></dd>
+	</dl>
+</li>
+<li class="bigger-link">
+	<dl>
+		<dt class="dTitle"><a href="/search/Detail020769.html">いすゞ　PJ-CXZ51K6</a></dt>
+		<dd><a href="/search/Detail020769.html"><img src="http://www.truck-one.com/search/photo/020769/0101.JPG" width="122" height="92" alt="いすゞ　PJ-CXZ51K6" /><span class="topNum">ダンプ</span><span class="topNenshiki">H18</span></a></dd>
+	</dl>
+</li>
+<li class="bigger-link">
+	<dl>
+		<dt class="dTitle"><a href="/search/Detail020491.html">三菱　PJ-FV50JJXD</a></dt>
+		<dd><a href="/search/Detail020491.html"><img src="http://www.truck-one.com/search/photo/020491/0101.jpg" width="122" height="92" alt="三菱　PJ-FV50JJXD" /><span class="topNum">深ダンプ</span><span class="topNenshiki">H16</span></a></dd>
+	</dl>
+</li>
+<li class="bigger-link">
+	<dl>
+		<dt class="dTitle"><a href="/search/Detail020216.html">三菱　KL-FV50JJXD</a></dt>
+		<dd><a href="/search/Detail020216.html"><img src="http://www.truck-one.com/search/photo/020216/0102.jpg" width="122" height="92" alt="三菱　KL-FV50JJXD" /><span class="topNum">ダンプ</span><span class="topNenshiki">H16</span></a></dd>
+	</dl>
+</li>
+<li class="bigger-link">
+	<dl>
+		<dt class="dTitle"><a href="/search/Detail016137.html">日産 UD　U-PK250LN</a></dt>
+		<dd><a href="/search/Detail016137.html"><img src="http://www.truck-one.com/search/photo/016137/0101.jpg" width="122" height="92" alt="日産 UD　U-PK250LN" /><span class="topNum">クレーン付</span><span class="topNenshiki">H7</span></a></dd>
+	</dl>
+</li>
+<li class="bigger-link">
+	<dl>
+		<dt class="dTitle"><a href="/search/Detail020961.html">いすゞ　TKG-FRR90S1</a></dt>
+		<dd><a href="/search/Detail020961.html"><img src="http://www.truck-one.com/search/photo/020961/0101.jpg" width="122" height="92" alt="いすゞ　TKG-FRR90S1" /><span class="topNum">クレーン付</span><span class="topNenshiki">H25</span></a></dd>
+	</dl>
+</li>
+<li class="bigger-link">
+	<dl>
+		<dt class="dTitle"><a href="/search/Detail018383.html">いすゞ　KK-FRR35H4V</a></dt>
+		<dd><a href="/search/Detail018383.html"><img src="http://www.truck-one.com/search/photo/018383/0101.JPG" width="122" height="92" alt="いすゞ　KK-FRR35H4V" /><span class="topNum">クレーン付Ｗキャブ</span><span class="topNenshiki">H16</span></a></dd>
+	</dl>
+</li>
+<li class="bigger-link">
+	<dl>
+		<dt class="dTitle"><a href="/search/Detail020047.html">日野　KK-BU420M</a></dt>
+		<dd><a href="/search/Detail020047.html"><img src="http://www.truck-one.com/search/photo/020047/0101.jpg" width="122" height="92" alt="日野　KK-BU420M" /><span class="topNum">クレーン付セーフティ</span><span class="topNenshiki">H15</span></a></dd>
+	</dl>
+</li>
+<li class="bigger-link">
+	<dl>
+		<dt class="dTitle"><a href="/search/Detail019686.html">日野　QKG-FE7JLAA</a></dt>
+		<dd><a href="/search/Detail019686.html"><img src="http://www.truck-one.com/search/photo/019686/0101.JPG" width="122" height="92" alt="日野　QKG-FE7JLAA" /><span class="topNum">冷凍ウイング(P/G付)</span><span class="topNenshiki">H28</span></a></dd>
+	</dl>
+</li>
+<li class="bigger-link">
+	<dl>
+		<dt class="dTitle"><a href="/search/Detail019687.html">日野　QKG-FE7JLAG</a></dt>
+		<dd><a href="/search/Detail019687.html"><img src="http://www.truck-one.com/search/photo/019687/0101.jpg" width="122" height="92" alt="日野　QKG-FE7JLAG" /><span class="topNum">冷凍ウイング(P/G付)</span><span class="topNenshiki">H28</span></a></dd>
+	</dl>
+</li>
+<li class="bigger-link">
+	<dl>
+		<dt class="dTitle"><a href="/search/Detail019721.html">日野　QKG-FE7JLAG</a></dt>
+		<dd><a href="/search/Detail019721.html"><img src="http://www.truck-one.com/search/photo/019721/0101.JPG" width="122" height="92" alt="日野　QKG-FE7JLAG" /><span class="topNum">冷凍ウイング(P/G付)</span><span class="topNenshiki">H28</span></a></dd>
+	</dl>
+</li>
+<li class="bigger-link">
+	<dl>
+		<dt class="dTitle"><a href="/search/Detail020524.html">日野　QKG-FW1EXBG</a></dt>
+		<dd><a href="/search/Detail020524.html"><img src="http://www.truck-one.com/search/photo/020524/0101.jpg" width="122" height="92" alt="日野　QKG-FW1EXBG" /><span class="topNum">冷凍車</span><span class="topNenshiki">H25</span></a></dd>
+	</dl>
+</li>
+<li class="bigger-link">
+	<dl>
+		<dt class="dTitle"><a href="/search/Detail019791.html">日野　QKG-FR1EXBG</a></dt>
+		<dd><a href="/search/Detail019791.html"><img src="http://www.truck-one.com/search/photo/019791/0101.jpg" width="122" height="92" alt="日野　QKG-FR1EXBG" /><span class="topNum">ウイング</span><span class="topNenshiki">H25</span></a></dd>
+	</dl>
+</li>
+<li class="bigger-link">
+	<dl>
+		<dt class="dTitle"><a href="/search/Detail020864.html">日野　LKG-FW1EXBG</a></dt>
+		<dd><a href="/search/Detail020864.html"><img src="http://www.truck-one.com/search/photo/020864/0101.jpg" width="122" height="92" alt="日野　LKG-FW1EXBG" /><span class="topNum">ウイング(P/G付)</span><span class="topNenshiki">H24</span></a></dd>
+	</dl>
+</li>
+<li class="bigger-link">
+	<dl>
+		<dt class="dTitle"><a href="/search/Detail009912.html">日産 UD　BDG-PK37C</a></dt>
+		<dd><a href="/search/Detail009912.html"><img src="http://www.truck-one.com/search/photo/009912/01.JPG" width="122" height="92" alt="日産 UD　BDG-PK37C" /><span class="topNum">ウイング</span><span class="topNenshiki">H19</span></a></dd>
+	</dl>
+</li>
+<li class="bigger-link">
+	<dl>
+		<dt class="dTitle"><a href="/search/Detail020343.html">日野　ADG-FJ7JLWA</a></dt>
+		<dd><a href="/search/Detail020343.html"><img src="http://www.truck-one.com/search/photo/020343/0101.jpg" width="122" height="92" alt="日野　ADG-FJ7JLWA" /><span class="topNum">ウイング</span><span class="topNenshiki">H18</span></a></dd>
+	</dl>
+</li>
+<li class="bigger-link">
+	<dl>
+		<dt class="dTitle"><a href="/search/Detail015058.html">いすゞ　PJ-CYJ51W5A</a></dt>
+		<dd><a href="/search/Detail015058.html"><img src="http://www.truck-one.com/search/photo/015058/0101.JPG" width="122" height="92" alt="いすゞ　PJ-CYJ51W5A" /><span class="topNum">アルミ平ボデー</span><span class="topNenshiki">H16</span></a></dd>
+	</dl>
+</li>
+<li class="bigger-link">
+	<dl>
+		<dt class="dTitle"><a href="/search/Detail020760.html">三菱　KL-FS54JVZ</a></dt>
+		<dd><a href="/search/Detail020760.html"><img src="http://www.truck-one.com/search/photo/020760/0101.jpg" width="122" height="92" alt="三菱　KL-FS54JVZ" /><span class="topNum">アルミ平ボデー</span><span class="topNenshiki">H15</span></a></dd>
+	</dl>
+</li>
+<li class="bigger-link">
+	<dl>
+		<dt class="dTitle"><a href="/search/Detail016759.html">日野　BKG-FD7JLYA</a></dt>
+		<dd><a href="/search/Detail016759.html"><img src="http://www.truck-one.com/search/photo/016759/0101.JPG" width="122" height="92" alt="日野　BKG-FD7JLYA" /><span class="topNum">平ボデー</span><span class="topNenshiki">H21</span></a></dd>
+	</dl>
+</li>
+<li class="bigger-link">
+	<dl>
+		<dt class="dTitle"><a href="/search/Detail020964.html">日野　BDG-FD8JPWG</a></dt>
+		<dd><a href="/search/Detail020964.html"><img src="http://www.truck-one.com/search/photo/020964/0101.jpg" width="122" height="92" alt="日野　BDG-FD8JPWG" /><span class="topNum">アルミ平ボデー</span><span class="topNenshiki">H19</span></a></dd>
+	</dl>
+</li>
+<li class="bigger-link">
+	<dl>
+		<dt class="dTitle"><a href="/search/Detail014803.html">三菱　KL-FV50MPY</a></dt>
+		<dd><a href="/search/Detail014803.html"><img src="http://www.truck-one.com/search/photo/014803/0101.JPG" width="122" height="92" alt="三菱　KL-FV50MPY" /><span class="topNum">塵芥車</span><span class="topNenshiki">H13</span></a></dd>
+	</dl>
+</li>
+<li class="bigger-link">
+	<dl>
+		<dt class="dTitle"><a href="/search/Detail010403.html">日野　KL-FJ1JGDA</a></dt>
+		<dd><a href="/search/Detail010403.html"><img src="http://www.truck-one.com/search/photo/010403/01.JPG" width="122" height="92" alt="日野　KL-FJ1JGDA" /><span class="topNum">塵芥車</span><span class="topNenshiki">H12</span></a></dd>
+	</dl>
+</li>
+<li class="bigger-link">
+	<dl>
+		<dt class="dTitle"><a href="/search/Detail015176.html">日野　ADG-FD8JGWA</a></dt>
+		<dd><a href="/search/Detail015176.html"><img src="http://www.truck-one.com/search/photo/015176/01.JPG" width="122" height="92" alt="日野　ADG-FD8JGWA" /><span class="topNum">コンテナ専用車</span><span class="topNenshiki">H17</span></a></dd>
+	</dl>
+</li>
+<li class="bigger-link">
+	<dl>
+		<dt class="dTitle"><a href="/search/Detail017613.html">いすゞ　BKG-NMR85AN</a></dt>
+		<dd><a href="/search/Detail017613.html"><img src="http://www.truck-one.com/search/photo/017613/0101.JPG" width="122" height="92" alt="いすゞ　BKG-NMR85AN" /><span class="topNum">塵芥車</span><span class="topNenshiki">H22</span></a></dd>
+	</dl>
+</li>
+</ul>
+</div><!-- /topTrucks -->
+
+					</div>
+					<!-- /#contantsArea -->
+					<div id="recommendArea" class="clearfix">
+						<div class="clearfix">
+							<div class="rentTruck">
+								<div class="smalBox bigger-link">
+									<h2><a href="/rent/" title="冷凍車レンタカー">冷凍車<span class="rentH">レンタカー</span></a></h2>
+									<p class="rentMsg clearfix">
+										<a href="/rent/" title="冷凍車レンタカー"><img src="/rent/img/003/01.jpg" alt="冷凍車レンタカー" width="92" height="69" /></a>
+										冷凍車レンタカーは、東北・東京・名古屋・岡山・山口・福岡の5支店でレンタカーを保管・貸出しております。車種は、軽冷凍車、2t冷凍車、4t車冷凍車をご用意しております。</p>
+										<div class="footBtn"><a href="/rent/" title="冷凍車レンタカー"><img src="/common/img/rentbBtn_min.png" alt="冷凍車レンタカー予約はこちら" width="170" height="30" /></a></div>
+								</div>
+							</div>
+							<!-- /#rentTruck -->
+
+							<div class="bClass">
+								<div class="smalBox bigger-link">
+									<h2><a href="/search/ListClassB.html" title="中古トラックB級品">中古トラック<span class="rentH">B級品</span></a></h2>
+									<p class="rentMsg clearfix">
+										<a href="/search/ListClassB.html" title="冷凍車レンタカー"><img src="/common/img/index_bqTruck_photo_min.gif" alt="中古トラックB級品" width="170" height="61" /></a>
+										走行距離が多い中古トラックや年式が古いものを紹介しております。新しい年式のものに比べれば劣りますが、低価格で中古トラックをご提供しております。</p>
+								</div><!-- /.smalBox -->
+							</div><!-- /#bClas -->
+						</div>
+						<ul class="socialMediaList">
+							<li><dl>
+								<dt><a href="https://www.facebook.com/truckone" rel="nofollow"><img src="/common/img/fbBtn.png" width="190" height="40" alt="フェイスブック" /></a></dt>
+								<dd><p class="comment">トラックワンのfacebookページが出来ました！facebookからでも中古トラックを見つける事が出来ます。</p></dd>
+							</dl></li>
+							<li><dl id="twitterArea">
+								<dt><a href="https://twitter.com/TRUCK_ONE" rel="nofollow"><img src="/common/img/twitBtn.png" width="190" height="40" alt="ツイッター" /></a></dt>
+								<dd><p class="comment"><span>@TRUCK_ONE</span>で中古トラックの入庫情報や冷凍車レンタカーのお得なキャンペーンのお知らせをつぶやいています。</p></dd>
+							</dl></li><!-- /#twitterArea -->
+						</ul>
+<dl class="feedArea">
+	<dt><img src="/common/img/rssH.jpg" width="190" height="60" alt="最新情報を入手" /></dt>
+<dd>
+	<ul class="rss">
+		<li><a href="/rss/888.xml" title="新入庫トラック フィード">新入庫トラック</a></li>
+		<li><a href="/rss/999.xml" title="全在庫トラック フィード">全在庫トラック</a></li>
+		<li><a href="/rss/001.xml" title="ダンプ フィード">ダンプ</a></li>
+		<li><a href="/rss/002.xml" title="クレーン付セルフ フィード">クレーン付セルフ</a></li>
+		<li><a href="/rss/003.xml" title="ウィング・ドライバン フィード">ウィング・ドライバン</a></li>
+		<li><a href="/rss/004.xml" title="冷凍車・冷凍ウィング フィード">冷凍車・冷凍ウィング</a></li>
+		<li><a href="/rss/005.xml" title="平ボディー・キャブ付シャーシ フィード">平ボディー・キャブ付シャーシ</a></li>
+	</ul><!-- /rss -->
+</dd>
+</dl>
+<p class="comment feedArea">トラックワンの中古トラック情報をいち早くお客様にお届け出来るよう、在庫トラックの情報をRSSフィードで配信しております。是非ご活用下さい。</p>
+					</div>
+					<!-- /#recommendArea -->
+				</div>
+
+			</div>
+			<!-- /#mainSec -->
+			<div id="sideSec">
+
+
+
+				<br />				<!-- /#sideOffice -->
+				<div id="sideMenu">
+								<div id="sideOffice">
+					<div><img src="/common/img/cmn_sideSec_sideOffice_top.gif" alt="営業所のご案内" width="190" height="49" /></div>
+					<p><a href="/office/yamaguchi.php" title="本社 山口支店"><img src="/common/img/cmn_sideSec_sideOffice.jpg" alt="本社 山口支店（山口県下松市）" width="169" height="131" /><br />本社 山口支店</a></p>
+					<div class="clearfix p-b10">
+						<p class="sOfc-left"><a href="/office/tohoku.php" title="東北支店"><img src="/common/img/tohoku.jpg" alt="東北支店（宮城県宮城野区）" width="80" height="59" /><br />東北支店</a></p>
+						<p class="sOfc-right"><a href="/office/tokyo.php" title="東京支店"><img src="/common/img/cmn_sideSec_sideOffice-1.jpg" alt="東京支店（東京都港区）" width="80" height="59" /><br />東京支店</a></p>
+					</div>
+					<p><a href="office/" title="その他の営業所"><img src="/common/img/cmn_sideSec_sideOffice_bottom.gif" alt="その他の営業所案内はこちら" width="190" height="26" /></a></p>
+				</div>
+				<!-- /#sideOffice -->
+									<ul>
+						<li class="hiezouArea">
+							<p><a href="/hiezo/" title="冷え蔵"><img src="/common/img/cmn_sideSec_menu-1.jpg" alt="冷え蔵" width="190" height="75" /></a></p>
+							<p class="sideMenuSub">冷凍コンテナ「冷え蔵」</p>
+							<p class="comment">従来の冷凍コンテナを更に軽量化し荷物を入れたままでもトラックに積載することが可能です。</p>
+						</li>
+						<li>
+							<p><a href="/distributor/" title="スタッフ紹介"><img src="/common/img/cmn_sideSec_menu-2.jpg" alt="トラックワンのスタッフ紹介" width="190" height="75" /></a></p>
+							<p class="sideMenuSub">トラックワンのスタッフ紹介</p>
+							<p class="comment">トラックワンの営業スペシャリストをご紹介いたします。お客様にご満足頂けるトラックを求めて全国を奔走中！</p>
+						</li>
+						<li>
+							<p><a href="/reform/" title="トラックのリフォーム"><img src="/common/img/cmn_sideSec_menu-4.jpg" alt="トラックのリフォーム" width="190" height="75" /></a></p>
+							<p class="sideMenuSub">トラックのリフォーム</p>
+							<p class="comment">トラックをリフォームする事で新しい価値が生まれます。古いトラックでも上物を新しくすることで新たな用途で利用可能です。</p>
+						</li>
+						<li class="linkFEONE"><a href="http://www.fe-one.com/" rel="nofollow" target="_blank"><img src="/common/img/cmn_sideSec_bnr-6.jpg" alt="株式会社FE-ONE" width="190" height="60" /></a>
+							<p class="comment">建設・土木現場で大活躍の特装車はFE-ONE</p></li>
+					</ul>
+
+						<div class="sideText">
+
+						<h2>中古トラックのトラックワン</h2>
+							<p>株式会社TRUCK-ONEは1990年1月に創業し、<strong>中古トラック</strong>の販売・買取を始め、冷凍車専門のレンタカー事業を行っております。	2006年に福岡証券取引所Qボードに上場し、西日本を中心に山口・東京・宮城・愛知・岡山・福岡・沖縄と現在7つの拠点がございます。お客様のお近くの拠点で安心してお取引頂けます。</p>
+						</div>
+						<!-- /#consultation -->
+				</div>
+				<!-- /#sideMenu -->
+			</div>
+			<!-- /#sideSec -->
+		</div>
+		<!-- /#bodySec -->
+		<div id="pagetopSec">
+			<a href="javascript:void(0)" onclick="backToTop(); return false"><img src="/common/img/cmn_pagetop.gif" alt="ページのトップへ" width="135" height="12" /></a>
+		</div>
+		<!-- /#pagetopSec -->
+	</div>
+	<!-- /#wrapper -->
+	<div id="footerSec" style="clear: both;">
+		<div id="footerSecContents">
+		<p id="mobileMenuFooter"><i class="icono-list"></i>ページ一覧</p>
+			<div class="footNavi clearfix">
+				<ul>
+					<li><a href="http://www.truck-one.com/">ホーム</a></li>
+					<li><a href="/search/ListNew.html">新入庫トラック情報</a></li>
+					<li><a href="/search/">在庫トラック</a></li>
+					<li><a href="/search/ListClassB.html">B級品トラック</a></li>
+					<li><a href="/search/ListSearch001.html">ダンプ</a></li>
+					<li><a href="/search/ListSearch002.html">クレーン付セルフ</a></li>
+					<li><a href="/search/ListSearch003.html">ウィング・ドライバン</a></li>
+					<li><a href="/search/ListSearch004.html">冷凍車・冷凍ウィング</a></li>
+					<li><a href="/search/ListSearch005.html">平ボディーキャブ付きシャーシ</a></li>
+					<li><a href="/search/ListSearch006.html">セメント関連・タンク車</a></li>
+					<li><a href="/search/ListSearch007.html">その他・環境車両</a></li>
+					<li><a href="/search/ListSearch008.html">トラクタ・トレーラー</a></li>
+					<li><a href="/search/ListSearch201.html">建設機械・重機</a></li>
+					<li><a href="/search/ListSearch401.html">パーツ・ボディー</a></li>
+					<li><a href="/kaitori/">トラックの買取</a></li>
+					<li><a href="/rent/">冷凍車レンタカー</a></li>
+					<li><a href="/office/">営業所案内</a></li>
+					<li><a href="/company/preindex.php">企業情報</a></li>
+					<li><a href="/contactus/">お問い合わせ</a></li>
+					<li><a href="/distributor/">スタッフ紹介</a></li>
+					<li><a href="/reform/">トラックのリフォーム</a></li>
+					<li><a href="/hiezo/">冷え蔵</a></li>
+					<li><a href="/radioactivity/">放射線測定について</a></li>
+					<li><a href="/event/">イベントアーカイブ</a></li>
+					<li><a href="/contactus/privacy.php">サイトポリシー</a></li>
+					<li><a href="/sitemap/">サイトマップ</a></li>
+					<li><a href="/link/">リンク</a></li>
+					<li class="lastfootNavi"><a href="/company/info/gaiyo.php">古物営業法に基づく表記</a></li>
+				</ul>
+			</div>
+      <!-- /.footNavi -->
+			<div id="address">
+				<div class="clearfix">
+					<address class="clearfix">
+						<img src="/common/img/cmn_footerSec_title.jpg" alt="中古トラックのトラックワン" width="120" height="30" />
+						〒744-0033 山口県下松市生野屋南3-3-40 TEL：0833-44-1100/FAX：0833-44-2121
+					</address>
+					<div class="address_right">
+						<img src="/common/img/cmn_address_Q_Bord.jpg" alt="福岡証券取引所 Q-Bord上場:3047" width="168" height="45" />
+					</div>
+				</div>
+				<p class="address_bottom">&nbsp;</p>
+			</div>
+      <!-- /#address -->
+		</div>
+		<!-- /#footerSecContents -->
+	</div>
+	<!-- /#footerSec -->
+	<div id="copyright">Copyright(c) 2017 TRUCK-ONE Co.,Ltd. All Right Reserved.</div>
+	<!-- /#copyright -->
+	<div id="mobileMenuFooter2">
+		<ul>
+			<li><a href="/search/"><span>車両検索</span></a></li>
+			<li><a href="/rent/"><span>レンタカー</span></a></li>
+			<li><a href="/office/"><span>営業所案内</span></a></li>
+			<li><a href="tel:0120077277"><span>電話する</span></a></li>
+		</ul>
+	</div>
+<!-- SWC -->
+<script type="text/javascript" src="http://gxj.a.swcs.jp/1/j/"></script>
+<!-- /SWC -->
+</body>
+</html>

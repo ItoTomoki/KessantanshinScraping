@@ -1,0 +1,530 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta http-equiv="Content-Script-Type" content="text/javascript" />
+		<meta http-equiv="Content-Style-Type" content="text/css" />
+		<meta name="keywords" content="なとり,おつまみ,珍味,チーズ鱈,梅スッキリ,茎わかめ,サラミ,ビーフジャーキー,IR情報,採用情報" />
+		<meta name="description" content="なとりのウェブサイト。「チーズ鱈」「茎わかめ」「ねり梅」、ビーフジャーキー、サラミなど、おつまみ・珍味の製品情報、企業・IR情報、採用情報などをご案内します。" />
+		<meta name="copyright" content="Copyright NATORI Co.,Ltd." />
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0, user-scalable=no" />
+		<title>おつまみのなとり</title>
+		<link rel="stylesheet" type="text/css" media="all" href="common/css/import_a.css" />
+		<link rel="stylesheet" type="text/css" media="all" href="common/css/m_reset.css" />
+		<link rel="stylesheet" type="text/css" media="all" href="common/css/m_share.css" />
+		<link rel="stylesheet" type="text/css" media="all" href="common/css/m_type_a.css" />
+		<link rel="stylesheet" type="text/css" media="all" href="common/css/top_new.css" />
+		<link rel="stylesheet" type="text/css" media="all" href="common/css/jquery.bxslider.css" />
+		<link rel="shortcut icon" href="/favicon.ico">
+		<script src="common/js/jquery-1.11.2.min.js" type="text/javascript"></script>
+		<script type="text/javascript" src="common/js/easing.js"></script>
+		<script src="common/js/common.js" type="text/javascript"></script>
+		<script src="common/js/AC_RunActiveContent.js" type="text/javascript"></script>
+		<script src="common/js/jquery.bxslider.min.js" type="text/javascript"></script>
+		<script type="text/javascript" src="common/js/jquery.matchHeight.js"></script>
+		<script type="text/javascript" src="common/js/top_new.js"></script>
+		<script type="text/javascript">ReadCss(0);</script>
+
+
+		<script type="text/javascript">
+			if(!window.addEventListener){
+
+				$('body').css('visibility','hidden');
+				// something went wrong. show content after a few seconds.
+
+				setTimeout(function(){
+					$('body').css('visibility', 'visible');
+				}, 5000);
+
+			}
+		</script>
+		<!--[if lt IE 9]>
+		<script type="text/javascript" src="common/js/respond.js"></script>
+		<![endif]-->
+	</head>
+	<body id="tp01">
+		<!--FaceBook-->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.9";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!--FaceBook-->
+<a name="top" id="top"></a>
+		<div id="header_group">
+			<div id="header_pc" class="pc">
+				<div class="header_outer">
+					<div class="header_inner">
+						<div id="header" class="clearfix">
+							<p id="logo"><a href="/index.html"><img src="common/img/head_logo.gif" alt="なとり" width="72" height="35" /></a></p>
+							<div id="unavi">
+								<ul>
+									<li><a href="http://www.natori.co.jp/utility/"><img src="common/img/head_unavi_02.gif" alt="サイトマップ" width="69" height="12" /></a></li>
+									<li><a href="http://www.natori.co.jp/contact/"><img src="common/img/head_unavi_03.gif" alt="お問い合わせ" width="78" height="12" /></a></li>
+								</ul>
+								<div id="head_search">
+								    <script>
+  (function() {
+    var cx = '016184265405390892988:xjuj9scbhys';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:searchbox-only></gcse:searchbox-only>								</div><!-- /head_search -->
+							</div><!-- /unavi -->
+						</div><!-- /header -->
+					</div><!-- /header_inner -->
+				</div><!-- /header_outer -->
+				<div class="gnav_outer">
+					<div class="gnav_inner">
+						<ul class="gnav_suv clearfix">
+							<li>
+								<a href="http://www.natori.co.jp/product/"><img src="common/img/top/head_gnav01.gif" alt="製品情報" class="btn" /></a>
+								<div>
+									<ul>
+										<li><a href="http://www.natori.co.jp/product/new.html"><img src="common/img/top/head_gnav01_sub01.gif" alt="新製品のご案内" /></a></li>
+										<li><a href="http://www.natori.co.jp/product/genre.html"><img src="common/img/top/head_gnav01_sub02.gif" alt="製品ジャンル" /></a></li>
+										<li><a href="http://www.natori.co.jp/product/series.html"><img src="common/img/top/head_gnav01_sub03.gif" alt="製品シリーズ" /></a></li>
+										<li><a href="http://www.natori.co.jp/product/search/index.html"><img src="common/img/top/head_gnav01_sub04.gif" alt="製品詳細検索" /></a></li>
+									</ul>
+								</div>
+							</li>
+							<li>
+								<a href="http://www.natori.co.jp/joy/"><img src="common/img/top/head_gnav02.gif" alt="知る・楽しむ" class="btn" /></a>
+								<div>
+									<ul>
+										<li><a href="http://www.natori.co.jp/joy/recipe/index.html"><img src="common/img/top/head_gnav02_sub01.gif" alt="おつまみレシピ" /></a></li>
+										<li><a href="http://www.natori.co.jp/joy/syokuiku/index.html"><img src="common/img/top/head_gnav02_sub02.gif" alt="なとり食育BOOK" /></a></li>
+										<li><a href="http://www.natori.co.jp/joy/power/index.html"><img src="common/img/top/head_gnav02_sub03.gif" alt="もっと教えておつまみのこと" /></a></li>
+										<li><a href="http://www.natori.co.jp/joy/30th-cp/index.html"><img src="common/img/top/head_gnav02_sub04.gif" alt="Since1982 チーズ鱈" /></a></li>
+										<li><a href="http://www.natori.co.jp/joy/factory/index.html"><img src="common/img/top/head_gnav02_sub05.gif" alt="バーチャル見学 なとりへGO！" /></a></li>
+										<li><a href="http://www.natori.co.jp/joy/tvcm/index.html"><img src="common/img/top/head_gnav02_sub06.gif" alt="TVCMギャラリー" /></a></li>
+									</ul>
+								</div>
+							</li>
+							<li>
+								<a href="http://www.natori.co.jp/approach/"><img src="common/img/top/head_gnav03.gif" alt="安全・安心と環境への取り組み" class="btn" /></a>
+								<!--a href="/approach/"><img src="common/img/top/head_gnav03.gif" alt="安全・安心と環境への取り組み" class="btn" /></a-->
+								<!--div>
+<ul>
+<li><a href="#"><img src="common/img/top/head_gnav01_sub01.gif" alt="" /></a></li>
+<li><a href="#"><img src="common/img/top/head_gnav01_sub02.gif" alt="" /></a></li>
+<li><a href="#"><img src="common/img/top/head_gnav01_sub03.gif" alt="" /></a></li>
+</ul>
+</div>-->
+							</li>
+							<li>
+								<a href="http://www.natori.co.jp/corporate/"><img src="common/img/top/head_gnav04.gif" alt="企業・IR情報" class="btn" /></a>
+								<div>
+									<ul>
+										<li><a href="http://www.natori.co.jp/corporate/outline.html"><img src="common/img/top/head_gnav04_sub01.gif" alt="会社案内" /></a></li>
+										<li><a href="http://www.natori.co.jp/corporate/news/index.html"><img src="common/img/top/head_gnav04_sub02.gif" alt="ニュースリリース" /></a></li>
+										<li><a href="http://www.natori.co.jp/corporate/ir/news.html"><img src="common/img/top/head_gnav04_sub03.gif" alt="IR最新情報" /></a></li>
+									</ul>
+								</div>
+							</li>
+							<li>
+								<a href="http://www.natori.co.jp/recruit/"><img src="common/img/top/head_gnav05.gif" alt="採用情報" class="btn" /></a>
+							</li>
+						</ul>
+					</div>
+				</div><!-- /gnav_outer -->
+			</div><!-- /header_pc -->
+			<div id="header_sp" class="sp">
+				<p class="logo"><a href="/"><img src="common/img/top/logo_sp.gif" width="75" height="30" /></a></p>
+				<p class="lead"><img src="common/img/top/lead_sp.gif" width="96" height="12" /></p>
+				<div class="gnav">
+					<div id="gnav_btn" class="gnav_area">
+						<div id="gnav_btn_inner">
+							<img src="common/img/top/btn_open.gif" alt="" width="60" height="60" />
+						</div>
+					</div>
+					<ul class="gl_nav">
+						<li><a href="http://www.natori.co.jp/product/">製品情報</a></li>
+						<li><a href="http://www.natori.co.jp/joy/">知る・楽しむ</a></li>
+						<li><a href="http://www.natori.co.jp/approach/">安全・安心と環境への取り組み</a></li>
+						<li><a href="http://www.natori.co.jp/corporate/">企業・IR情報</a></li>
+						<li><a href="http://www.natori.co.jp/recruit/">採用情報</a></li>
+						<li><a href="http://www.natori.co.jp/contact/">お問い合わせ</a></li>
+					</ul>
+				</div>
+			</div><!-- /header_sp -->
+		</div><!-- /header_group -->
+		<div id="slider">
+			<div id="wideslider" class="pc">
+				<div id="op_vi">
+					<img src="common/img/top/op_logo_pc.gif" alt="ひとつまみの幸せ なとり" width="980" />
+				</div>
+				<div id="main_vi">
+					<div id="main_vi_in">
+					<ul class="slider_inner">
+												<li>
+														<img src="/common/img/r_img.php?t=TopImage&f=image_40_1" alt="01-食シーン" />
+													</li>
+												<li>
+														<a href="http://www.natori.co.jp/joy/tvcm/index.html"><img src="/common/img/r_img.php?t=TopImage&f=image_39_1" alt="TVCMギャラリー" /></a>
+													</li>
+												<li>
+														<a href="http://www.natori.co.jp/product/new.html"><img src="/common/img/r_img.php?t=TopImage&f=image_37_1" alt="2017春夏新製品" /></a>
+													</li>
+												<li>
+														<a href="http://www.natori.co.jp/joy/recipe/index.html"><img src="/common/img/r_img.php?t=TopImage&f=image_38_1" alt="2017春のおつまみレシピ" /></a>
+													</li>
+												<li>
+														<a href="http://www.suntory.co.jp/beer/itadaki/campaign/"><img src="/common/img/r_img.php?t=TopImage&f=image_41_1" alt="サントリーCP" /></a>
+													</li>
+											</ul>
+					</div>
+				</div><!-- /main_vi -->
+
+				<div class="slider_prev hd">prev</div>
+				<div class="slider_next hd">next</div>
+
+			</div><!-- /pc -->
+			<div class="sp">
+				<div id="op_vi_sp">
+					<img src="common/img/top/op_logo_sp.gif" alt="ひとつまみの幸せ なとり" width="320" />
+				</div>
+				<div id="main_vi_sp">
+					<ul class="slider_inner_sp">
+												<li>
+														<img src="/common/img/r_img.php?t=SpTopImage&f=image_24_1" alt="01-食シーン" />
+													</li>
+												<li>
+														<a href="http://www.natori.co.jp/joy/tvcm/index.html"><img src="/common/img/r_img.php?t=SpTopImage&f=image_23_1" alt="TVCMギャラリー" /></a>
+													</li>
+												<li>
+														<a href="http://www.natori.co.jp/product/new.html"><img src="/common/img/r_img.php?t=SpTopImage&f=image_21_1" alt="2017春夏新製品" /></a>
+													</li>
+												<li>
+														<a href="http://www.natori.co.jp/joy/recipe/index.html"><img src="/common/img/r_img.php?t=SpTopImage&f=image_25_1" alt="2017年夏のおつまみレシピ" /></a>
+													</li>
+												<li>
+														<a href="http://www.suntory.co.jp/beer/itadaki/campaign/"><img src="/common/img/r_img.php?t=SpTopImage&f=image_26_1" alt="サントリーCP" /></a>
+													</li>
+											</ul>
+				</div><!-- /main_vi_sp -->
+			</div><!-- /sp -->
+		</div><!-- /slider -->
+		<div class="boxA clearfix">
+			<div class="news_area">
+				<h2 class="h2_ttl"><span>News</span>お知らせ</h2>
+				<div id="" class="pc tab-box tab-box-cr-1">
+					<ul class="tab clearfix">
+						<li class="tab-1"><a href="javascript:void(0);" rel="tab-switch-1">お知らせ</a></li>
+						<li class="tab-2"><a href="javascript:void(0);" rel="tab-switch-2">ニュースリリース</a></li>
+						<li class="tab-3"><a href="javascript:void(0);" rel="tab-switch-3">IR情報</a></li>
+					</ul>
+
+					<div class="box">
+						<div class="news_inner content content-1">
+							<dl>
+								
+<dt><span class="date">2017.08.10</span><span class="ico_ir">IR</span><span class="ico_pdf">PDF</span></dt>
+<dd><a href="http://www.natori.co.jp/common/img/r_pdf.php?t=Ir&f=pdf_272_1" target="_blank">第70期（2018年3月期）第1四半期報告書</a></dd>
+<dt><span class="date">2017.08.04</span><span class="ico_ir">IR</span><span class="ico_pdf">PDF</span></dt>
+<dd><a href="http://www.natori.co.jp/common/img/r_pdf.php?t=Ir&f=pdf_271_1" target="_blank">平成30年3月期　第1四半期決算短信</a></dd>
+<dt><span class="date">2017.08.04</span><span class="ico_news">ニュース</span></dt>
+<dd><a href="corporate/news/template.html?n_id=198" target="_blank">弊社夏季休業のお知らせ</a></dd>
+<dt><span class="date">2017.07.07</span><span class="ico_ir">IR</span><span class="ico_pdf">PDF</span></dt>
+<dd><a href="http://www.natori.co.jp/common/img/r_pdf.php?t=Ir&f=pdf_270_1" target="_blank">平成29年3月期　有価証券報告書</a></dd>
+<dt><span class="date">2017.07.04</span><span class="ico_news">ニュース</span></dt>
+<dd><a href="corporate/news/template.html?n_id=196" target="_blank">なとりのおつまみ絶対もらえる！サントリー頂<いただき>キャンペーン実施中！</a></dd>							</dl>
+						</div><!-- /panel1 -->
+
+						<div class="news_inner content content-2">
+							<dl>
+								
+<dt><span class="date">2017.08.04</span><span class="ico_news">ニュース</span></dt>
+<dd><a href="corporate/news/template.html?n_id=198" target="_blank">弊社夏季休業のお知らせ</a></dd>
+<dt><span class="date">2017.07.04</span><span class="ico_news">ニュース</span></dt>
+<dd><a href="corporate/news/template.html?n_id=196" target="_blank">なとりのおつまみ絶対もらえる！サントリー頂<いただき>キャンペーン実施中！</a></dd>
+<dt><span class="date">2017.06.26</span><span class="ico_news">ニュース</span></dt>
+<dd><a href="corporate/news/template.html?n_id=195" target="_blank">夏のおつまみレシピ掲載！</a></dd>
+<dt><span class="date">2017.03.29</span><span class="ico_news">ニュース</span></dt>
+<dd><a href="corporate/news/template.html?n_id=193" target="_blank">春のおつまみレシピ掲載！</a></dd>
+<dt><span class="date">2016.12.19</span><span class="ico_news">ニュース</span></dt>
+<dd><a href="corporate/news/template.html?n_id=192" target="_blank">弊社年末年始休業のお知らせ</a></dd>							</dl>
+						</div><!-- /panel2 -->
+
+						<div id="panel3" class="news_inner content content-3">
+							<dl>
+								
+	<dt><span class="date">2017.08.10</span><span class="ico_ir">IR</span><span class="ico_pdf">PDF</span></dt>
+	<dd><a href="http://www.natori.co.jp/common/img/r_pdf.php?t=Ir&f=pdf_272_1" target="_blank">第70期（2018年3月期）第1四半期報告書</a></dd>
+	<dt><span class="date">2017.08.04</span><span class="ico_ir">IR</span><span class="ico_pdf">PDF</span></dt>
+	<dd><a href="http://www.natori.co.jp/common/img/r_pdf.php?t=Ir&f=pdf_271_1" target="_blank">平成30年3月期　第1四半期決算短信</a></dd>
+	<dt><span class="date">2017.07.07</span><span class="ico_ir">IR</span><span class="ico_pdf">PDF</span></dt>
+	<dd><a href="http://www.natori.co.jp/common/img/r_pdf.php?t=Ir&f=pdf_270_1" target="_blank">平成29年3月期　有価証券報告書</a></dd>
+	<dt><span class="date">2017.06.29</span><span class="ico_ir">IR</span><span class="ico_pdf">PDF</span></dt>
+	<dd><a href="http://www.natori.co.jp/common/img/r_pdf.php?t=Ir&f=pdf_269_1" target="_blank">第69回定時株主総会決議ご通知</a></dd>
+	<dt><span class="date">2017.06.29</span><span class="ico_ir">IR</span><span class="ico_pdf">PDF</span></dt>
+	<dd><a href="http://www.natori.co.jp/common/img/r_pdf.php?t=Ir&f=pdf_268_1" target="_blank">第69期　報告書（株主のみなさまへ）</a></dd>							</dl>
+						</div><!-- /panel3 -->
+					</div>
+
+					<div class="news_list">
+						<ul class="clearfix">
+							<li><a href="http://www.natori.co.jp/corporate/news/index.html">ニュースリリース一覧</a></li>
+							<li><a href="http://www.natori.co.jp/corporate/ir/news.html">IR情報一覧</a></li>
+						</ul>
+					</div><!-- /news_list -->
+				</div><!-- /tab-box -->
+				<div class="sp">
+					<ul class="acordion">
+						<li>
+							<h3 class="trigger none-submenu">お知らせ</h3>
+							<div class="news_outer submenu">
+								<div class="news_inner">
+									<dl>
+										
+<dt><span class="date">2017.08.10</span><span class="ico_ir">IR</span><span class="ico_pdf">PDF</span></dt>
+<dd><a href="http://www.natori.co.jp/common/img/r_pdf.php?t=Ir&f=pdf_272_1" target="_blank">第70期（2018年3月期）第1四半期報告書</a></dd>
+<dt><span class="date">2017.08.04</span><span class="ico_ir">IR</span><span class="ico_pdf">PDF</span></dt>
+<dd><a href="http://www.natori.co.jp/common/img/r_pdf.php?t=Ir&f=pdf_271_1" target="_blank">平成30年3月期　第1四半期決算短信</a></dd>
+<dt><span class="date">2017.08.04</span><span class="ico_news">ニュース</span></dt>
+<dd><a href="corporate/news/template.html?n_id=198" target="_blank">弊社夏季休業のお知らせ</a></dd>
+<dt><span class="date">2017.07.07</span><span class="ico_ir">IR</span><span class="ico_pdf">PDF</span></dt>
+<dd><a href="http://www.natori.co.jp/common/img/r_pdf.php?t=Ir&f=pdf_270_1" target="_blank">平成29年3月期　有価証券報告書</a></dd>
+<dt><span class="date">2017.07.04</span><span class="ico_news">ニュース</span></dt>
+<dd><a href="corporate/news/template.html?n_id=196" target="_blank">なとりのおつまみ絶対もらえる！サントリー頂<いただき>キャンペーン実施中！</a></dd>									</dl>
+								</div><!-- /news_inner -->
+							</div><!-- /news_outer -->
+						</li>
+
+						<li>
+							<h3 class="trigger none-submenu">ニュースリリース</h3>
+							<div class="news_outer submenu">
+								<div class="news_inner">
+									<dl>
+										
+<dt><span class="date">2017.08.04</span><span class="ico_news">ニュース</span></dt>
+<dd><a href="corporate/news/template.html?n_id=198" target="_blank">弊社夏季休業のお知らせ</a></dd>
+<dt><span class="date">2017.07.04</span><span class="ico_news">ニュース</span></dt>
+<dd><a href="corporate/news/template.html?n_id=196" target="_blank">なとりのおつまみ絶対もらえる！サントリー頂<いただき>キャンペーン実施中！</a></dd>
+<dt><span class="date">2017.06.26</span><span class="ico_news">ニュース</span></dt>
+<dd><a href="corporate/news/template.html?n_id=195" target="_blank">夏のおつまみレシピ掲載！</a></dd>
+<dt><span class="date">2017.03.29</span><span class="ico_news">ニュース</span></dt>
+<dd><a href="corporate/news/template.html?n_id=193" target="_blank">春のおつまみレシピ掲載！</a></dd>
+<dt><span class="date">2016.12.19</span><span class="ico_news">ニュース</span></dt>
+<dd><a href="corporate/news/template.html?n_id=192" target="_blank">弊社年末年始休業のお知らせ</a></dd>									</dl>
+								</div><!-- /news_inner -->
+								<p><a href="http://www.natori.co.jp/corporate/news/index.html">ニュースリリース一覧</a></p>
+							</div><!-- /news_outer -->
+						</li>
+
+						<li>
+							<h3 class="trigger none-submenu">IR情報</h3>
+							<div class="news_outer submenu">
+								<div class="news_inner">
+									<dl>
+										
+	<dt><span class="date">2017.08.10</span><span class="ico_ir">IR</span><span class="ico_pdf">PDF</span></dt>
+	<dd><a href="http://www.natori.co.jp/common/img/r_pdf.php?t=Ir&f=pdf_272_1" target="_blank">第70期（2018年3月期）第1四半期報告書</a></dd>
+	<dt><span class="date">2017.08.04</span><span class="ico_ir">IR</span><span class="ico_pdf">PDF</span></dt>
+	<dd><a href="http://www.natori.co.jp/common/img/r_pdf.php?t=Ir&f=pdf_271_1" target="_blank">平成30年3月期　第1四半期決算短信</a></dd>
+	<dt><span class="date">2017.07.07</span><span class="ico_ir">IR</span><span class="ico_pdf">PDF</span></dt>
+	<dd><a href="http://www.natori.co.jp/common/img/r_pdf.php?t=Ir&f=pdf_270_1" target="_blank">平成29年3月期　有価証券報告書</a></dd>
+	<dt><span class="date">2017.06.29</span><span class="ico_ir">IR</span><span class="ico_pdf">PDF</span></dt>
+	<dd><a href="http://www.natori.co.jp/common/img/r_pdf.php?t=Ir&f=pdf_269_1" target="_blank">第69回定時株主総会決議ご通知</a></dd>
+	<dt><span class="date">2017.06.29</span><span class="ico_ir">IR</span><span class="ico_pdf">PDF</span></dt>
+	<dd><a href="http://www.natori.co.jp/common/img/r_pdf.php?t=Ir&f=pdf_268_1" target="_blank">第69期　報告書（株主のみなさまへ）</a></dd>									</dl>
+								</div><!-- /news_inner -->
+								<p><a href="http://www.natori.co.jp/corporate/ir/index.html">IR情報一覧</a></p>
+							</div><!-- /news_outer -->
+						</li>
+					</ul>
+				</div><!-- /sp -->
+			</div><!-- /news_area -->
+			<!-- Pick Up ピックアップ ここから -->
+			<div class="picup_area">
+				<h2 class="h2_ttl"><span>Pick Up</span>ピックアップ</h2>
+
+				<ul class="pickup_box clearfix">
+					<!-- ピックアップ1 -->
+					<li>
+						<dl class="clearfix">
+							<dt><img src="common/img/top/piceup_thumb_01.jpg" alt="Since1982 チーズ鱈" /></dt>
+							<dd><a href="http://www.natori.co.jp/joy/30th-cp/index.html">Since1982 チーズ鱈&reg;</a></dd>
+						</dl>
+					</li>
+					<!-- ピックアップ1 ここまで-->
+
+					<!-- ピックアップ2 -->
+					<li class="mr0">
+						<dl class="clearfix">
+							<dt><img src="common/img/top/piceup_thumb_06.png" alt="なとり食育BOOK" /></dt>
+							<dd><a href="http://www.natori.co.jp/joy/syokuiku/index.html">なとり食育BOOK</a></dd>
+						</dl>
+					</li>
+					<!-- ピックアップ2 ここまで-->
+
+					<!-- ピックアップ3-->
+					<li>
+						<dl class="clearfix">
+							<dt><img src="common/img/top/piceup_thumb_05_20170509.jpg" alt="なとり 公式アカウント" /></dt>
+							<dd><a href="http://www.facebook.com/natori.jp/">なとり 公式アカウント</a></dd>
+						</dl>
+					</li>
+					<!-- ピックアップ3 ここまで-->
+
+					<!-- ピックアップ4 -->
+					<li class="mr0">
+						<dl class="clearfix">
+							<dt><img src="common/img/top/piceup_thumb_03.jpg" alt="バーチャル見学 なとりへGO!" /></dt>
+							<dd><a href="http://www.natori.co.jp/joy/factory/index.html">バーチャル見学 なとりへGO!</a></dd>
+						</dl>
+					</li>
+					<!-- ピックアップ4 ここまで　-->
+				</ul>
+			</div><!-- /picup_area -->
+			<!-- Pick Up ピックアップ ここまで -->
+
+		</div><!-- /boxA -->
+		<div class="lineup_area">
+			<h2 class="h2_ttl"><span>Line Up</span>バラエティいろいろ、なとりの製品</h2>
+			<ul class="lineup_box clearfix">
+				<li>
+					<dl class="clearfix">
+						<dt><a href="http://www.natori.co.jp/product/product_list.html?ca=21"><img src="common/img/top/lineup_thumb_01.jpg" alt="水産" /></a></dt>
+						<dd>
+							<p class="ttl">水産</p>
+							<p class="txt">さきいか、茎わかめ、イカフライなど</p>
+						</dd>
+					</dl>
+				</li>
+				<li>
+					<dl class="clearfix">
+						<dt><a href="http://www.natori.co.jp/product/product_list.html?ca=22"><img src="common/img/top/lineup_thumb_02.jpg" alt="畜肉" /></a></dt>
+						<dd>
+							<p class="ttl">畜肉</p>
+							<p class="txt">ビーフジャーキー、「ジャッキーカルパス」、サラミなど</p>
+						</dd>
+					</dl>
+				</li>
+				<li>
+					<dl class="clearfix">
+						<dt><a href="http://www.natori.co.jp/product/product_list.html?ca=23"><img src="common/img/top/lineup_thumb_03.jpg" alt="チーズ" /></a></dt>
+						<dd>
+							<p class="ttl">チーズ</p>
+							<p class="txt">「チーズ鱈」、燻製チーズなど</p>
+						</dd>
+					</dl>
+				</li>
+				<li>
+					<dl class="clearfix">
+						<dt><a href="http://www.natori.co.jp/product/product_list.html?gr=49"><img src="common/img/top/lineup_thumb_04.jpg" alt="ナッツのおつまみ" /></a></dt>
+						<dd>
+							<p class="ttl">ナッツのおつまみ</p>
+							<p class="txt">ナッツ、茎レタスなど</p>
+						</dd>
+					</dl>
+				</li>
+				<li>
+					<dl class="clearfix">
+						<dt><a href="http://www.natori.co.jp/product/product_list.html?ca=29"><img src="common/img/top/lineup_thumb_05.jpg" alt="素材菓子" /></a></dt>
+						<dd>
+							<p class="ttl">素材菓子</p>
+							<p class="txt">梅、こんぶ飴、ドライフルーツなど</p>
+						</dd>
+					</dl>
+				</li>
+				<li>
+					<dl class="clearfix">
+						<dt><a href="http://www.natori.co.jp/product/product_list.html?ca=26"><img src="common/img/top/lineup_thumb_06.jpg" alt="要冷おつまみ" /></a></dt>
+						<dd>
+							<p class="ttl">要冷おつまみ</p>
+							<p class="txt">チルドチーズたら、など</p>
+						</dd>
+					</dl>
+				</li>
+				<li>
+					<dl class="clearfix">
+						<dt><a href="http://www.natori.co.jp/product/product_list.html?ca=27"><img src="common/img/top/lineup_thumb_07.jpg" alt="その他" /></a></dt>
+						<dd>
+							<p class="ttl">その他</p>
+							<p class="txt">レトルト、アソートなど</p>
+						</dd>
+					</dl>
+				</li>
+			</ul>
+		</div><!-- /lineup_area -->
+<!--SNSボタンエリア-->
+	    <div class="SnsBlock" style="text-align:center;padding-bottom:10px;">
+	<ul style="list-style:none;">
+		<li class="twitter" style="padding-right:10px;display:inline"><a href="javascript:void(0);" target="_blank"><img src="/common/img/twitter.png" style="width:30px;padding-bottom:5px;"></a></li>
+		<li class="facebook" style="padding-right:10px;display:inline"><a href="javascript:void(0);" target="_blank"><img src="/common/img/facebook.png" style="width:30px;padding-bottom:5px;"></a></li>
+		<li class="line" style="display:inline"><div class="line-it-button" style="display: none;" data-lang="ja" data-type="share-c" data-url="http://www.natori.co.jp/"></div><script src="https://d.line-scdn.net/r/web/social-plugin/js/thirdparty/loader.min.js" async="async" defer="defer"></script></li>
+	</ul>
+</div>
+<script>
+  (function() {
+	var title = encodeURI($("title").html()),
+		url = encodeURI(document.URL),
+		meta = encodeURI($("meta[name=description]").attr("content")),
+		$SnsBlock = $(".SnsBlock");
+	$(".facebook a", $SnsBlock).attr("href", "http://www.facebook.com/sharer.php?u="+ url +"&t=" + title);
+	$(".twitter a", $SnsBlock).attr("href", "http://twitter.com/share?url="+ url + "&text=" + title + "");
+	$("li a", $SnsBlock).on("click", function(){
+		var popupURL = $(this).attr("href");
+		u.$w.open(popupURL, "social_window", "width=600,height=600,resizable=yes,scrollbars=yes,toolbar=yes");
+		return false;
+	});
+  })();
+</script>
+<!--SNSボタンエリア-->
+		<div id="footer_group">
+
+			<div class="footer_outer pc">
+				<div class="footer_inner">
+
+					<div id="footer" class="clearfix">
+						<ul>
+							<li><a href="http://www.natori.co.jp/utility/privacy.html"><img src="common/img/foot_navi_01.gif" alt="プライバシーポリシー" width="112" height="12" /></a></li>
+							<li><a href="http://www.natori.co.jp/utility/use.html"><img src="common/img/foot_navi_02.gif" alt="サイトのご利用について・ソーシャルメディア利用規約"  height="12" /></a></li>
+						</ul>
+						<dl>
+							<dt><img src="common/img/foot_txt_contact.gif" alt="製品に関するお問い合わせは&hellip; なとりお客様相談室" width="292" height="12" /></dt>
+							<dd><a href="http://www.natori.co.jp/contact/"><img src="common/img/foot_navi_contact.gif" alt="お問い合わせ" width="84" height="16" /></a></dd>
+						</dl>
+					</div><!-- /footer -->
+					<address>
+						<img src="common/img/foot_copy_a.gif" alt="&copy; NATORI CO.,LTD. ALL RIGHTS RESERVED." width="216" height="10" />
+					</address>
+				</div><!-- /footer_inner -->
+			</div><!-- /footer_outer -->
+
+
+			<div class="sp">
+				<p class="btn_top">
+					<a href="#top">このページのトップへ</a>
+				</p>
+				<ul class="footer_nav clearfix">
+					<li><a href="http://www.natori.co.jp/contact/">製品に関するお問い合わせ</a></li>
+					<li><a href="http://www.natori.co.jp/utility/privacy.html">プライバシーポリシー</a></li>
+					<li><a href="http://www.natori.co.jp/utility/use.html">サイトのご利用について・ソーシャルメディア利用規約</a></li>
+				</ul>
+				<p class="copy">&copy;NATORI CO.,LTD. ALL RIGHTS RESERVED</p>
+			</div>
+		</div><!-- /footer_group -->
+		<!-- ---Google Analytics Code---// -->
+		<script type="text/javascript">
+			var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+			document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		<script type="text/javascript">
+			try {
+				var pageTracker = _gat._getTracker("UA-12538503-1");
+				pageTracker._trackPageview();
+			} catch(err) {}</script>
+		<!-- //---Google Analytics Code--- -->
+	</body>
+</html>
